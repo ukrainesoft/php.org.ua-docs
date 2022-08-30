@@ -1,12 +1,12 @@
 Додати файли з директорії відповідно до шаблону регулярного виразу PCRE
 
--   [« ZipArchive::addGlob](ziparchive.addglob.html)
+-   [« ZipArchive::addGlob](ziparchive.addglob.md)
     
--   [ZipArchive::clearError »](ziparchive.clearerror.html)
+-   [ZipArchive::clearError »](ziparchive.clearerror.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Додати файли з директорії відповідно до шаблону регулярного виразу PCRE
     
@@ -29,7 +29,7 @@ public ZipArchive::addPattern(string $pattern, string $path = ".", array $option
 
 `pattern`
 
-Шаблон [PCRE](book.pcre.html)
+Шаблон [PCRE](book.pcre.md)
 
 `path`
 
@@ -37,7 +37,7 @@ public ZipArchive::addPattern(string $pattern, string $path = ".", array $option
 
 `options`
 
-Асоціативний масив параметрів, що приймаються [ZipArchive::addGlob()](ziparchive.addglob.html)
+Асоціативний масив параметрів, що приймаються [ZipArchive::addGlob()](ziparchive.addglob.md)
 
 ### Значення, що повертаються
 
@@ -66,5 +66,5 @@ if ($ret !== TRUE) {
 
 ### Дивіться також
 
--   [ZipArchive::addFile()](ziparchive.addfile.html) - Додає до ZIP-архіву файл по зазначеному шляху
--   [ZipArchive::addGlob()](ziparchive.addglob.html) - Додати файли з директорії відповідно до шаблону
+-   [ZipArchive::addFile()](ziparchive.addfile.md) - Додає до ZIP-архіву файл по зазначеному шляху
+-   [ZipArchive::addGlob()](ziparchive.addglob.md) - Додати файли з директорії відповідно до шаблону

@@ -1,12 +1,12 @@
 Додає імітацію тривимірного кордону
 
--   [« Imagick::forwardFourierTransformImage](imagick.forwardfouriertransformimage.html)
+-   [« Imagick::forwardFourierTransformImage](imagick.forwardfouriertransformimage.md)
     
--   [Imagick::functionImage »](imagick.functionimage.html)
+-   [Imagick::functionImage »](imagick.functionimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Додає імітацію тривимірного кордону
     
@@ -57,8 +57,8 @@ public Imagick::frameImage(    mixed $matte_color,    int $width,   �
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                    |
-|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL imagick 2.1.0 | Тепер дозволяє використовувати рядок, що представляє колір, як перший. Попередні версії дозволяли використовувати лише об'єкт ImagickPixel. |
 
 ### Приклади

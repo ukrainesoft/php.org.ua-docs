@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](errorfunc.constants.html)
+-   [« Обумовлені константи](errorfunc.constants.md)
     
--   [Функции обработки ошибок »](ref.errorfunc.html)
+-   [Функции обработки ошибок »](ref.errorfunc.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Обработка ошибок](book.errorfunc.html)
+-   [Обработка ошибок](book.errorfunc.md)
     
 -   Приклади
     
@@ -28,7 +28,7 @@ function userErrorHandler($errno, $errmsg, $filename, $linenum, $vars)
     // временная метка возникновения ошибки
     $dt = date("Y-m-d H:i:s (T)");
 
-    // определим ассоциативный массив соответствия всех
+    // определим ассоциативный Масив соответствия всех
     // констант уровней ошибок с их названиями, хотя
     // в действительности мы будем рассматривать только
     // следующие типы: E_WARNING, E_NOTICE, E_USER_ERROR,
@@ -78,7 +78,7 @@ function userErrorHandler($errno, $errmsg, $filename, $linenum, $vars)
 function distance($vect1, $vect2)
 {
     if (!is_array($vect1) || !is_array($vect2)) {
-        trigger_error("Некорректные параметры функции, ожидаются массивы в качестве параметров", E_USER_ERROR);
+        trigger_error("Некорректные параметры функции, ожидаются Масиви в качестве параметров", E_USER_ERROR);
         return NULL;
     }
 
@@ -119,7 +119,7 @@ $c = array(1, -3);
 $t1 = distance($c, $b) . "\n";
 
 // генерируем ещё одну пользовательскую ошибку
-$t2 = distance($b, "я не массив") . "\n";
+$t2 = distance($b, "я не Масив") . "\n";
 
 // генерируем пользовательское предупреждение
 $t3 = distance($a, $b) . "\n";

@@ -4,7 +4,7 @@
     
 -   [ОЙDrawMatrix::translate »](ui-draw-matrix.translate.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawMatrix](class.ui-draw-matrix.html)
     

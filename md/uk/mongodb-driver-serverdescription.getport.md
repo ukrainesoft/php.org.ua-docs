@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverServerDescription::getRoundTripTime »](mongodb-driver-serverdescription.getroundtriptime.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html)
     

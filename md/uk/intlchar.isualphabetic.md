@@ -1,12 +1,12 @@
 Перевірити, чи встановлено символ символу Alphabetic
 
--   [« IntlChar::istitle](intlchar.istitle.html)
+-   [« IntlChar::istitle](intlchar.istitle.md)
     
--   [IntlChar::isULowercase »](intlchar.isulowercase.html)
+-   [IntlChar::isULowercase »](intlchar.isulowercase.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити, чи встановлено символ символу Alphabetic
     
@@ -59,6 +59,6 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isalpha()](intlchar.isalpha.html) - Перевірити, чи є символ літерою
--   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.html) - Перевірити бінарну властивість Unicode для символу
+-   [IntlChar::isalpha()](intlchar.isalpha.md) - Перевірити, чи є символ літерою
+-   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) - Перевірити бінарну властивість Unicode для символу
 -   **`IntlChar::PROPERTY_ALPHABETIC`**

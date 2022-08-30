@@ -4,9 +4,9 @@
     
 -   [pregmatch »](function.preg-match.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PCRE](ref.pcre.html)
+-   [Функции PCRE](ref.pcre.md)
     
 -   Виконує глобальний пошук шаблону у рядку
     
@@ -198,9 +198,9 @@ Array
 
 ### список змін
 
-| Версия | Описание                                                                          |
-|--------|-----------------------------------------------------------------------------------|
-|        | Тепер константа **`PREG_UNMATCHED_AS_NULL`** підтримується для параметра `$flags` |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер константа **`PREG_UNMATCHED_AS_NULL`** підтримується для параметра `$flags` |
 
 ### Приклади
 
@@ -317,7 +317,7 @@ Array
 
 ### Дивіться також
 
--   [Регулярные выражения PCRE](pcre.pattern.html)
+-   [Регулярні вирази PCRE](pcre.pattern.md)
 -   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
 -   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
 -   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом

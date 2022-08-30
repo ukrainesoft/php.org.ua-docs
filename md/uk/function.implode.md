@@ -1,12 +1,12 @@
 Об'єднує елементи масиву в рядок
 
--   [« htmlspecialchars](function.htmlspecialchars.html)
+-   [« htmlspecialchars](function.htmlspecialchars.md)
     
--   [join »](function.join.html)
+-   [join »](function.join.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Об'єднує елементи масиву в рядок
     
@@ -53,10 +53,10 @@ implode(array $array, string $separator): string
 
 ### список змін
 
-| Версия | Описание                                                                                                |
-|--------|---------------------------------------------------------------------------------------------------------|
-|        | Передача `separator` після `array` більше не підтримується.                                             |
-|        | Передача `separator` після `array` (Тобто використання недокументованого порядку параметрів) застаріла. |
+| Версия | Описание |
+| --- | --- |
+|  | Передача `separator` після `array` більше не підтримується. |
+|  | Передача `separator` після `array` (Тобто використання недокументованого порядку параметрів) застаріла. |
 
 ### Приклади
 
@@ -68,7 +68,7 @@ implode(array $array, string $separator): string
 $array = ['имя', 'почта', 'телефон'];
 var_dump(implode(",", $array)); // string(32) "имя,почта,телефон"
 
-// Пустая строка при использовании пустого массива:
+// Пустая строка при использовании пустого Масива:
 var_dump(implode('привет', [])); // string(0) ""
 
 // Параметр separator не обязателен:
@@ -83,6 +83,6 @@ var_dump(implode(['a', 'b', 'c'])); // string(3) "abc"
 
 ### Дивіться також
 
--   [explode()](function.explode.html) - Розбиває рядок за допомогою роздільника
+-   [explode()](function.explode.md) - Розбиває рядок за допомогою роздільника
 -   [pregsplit()](function.preg-split.html) - Розбиває рядок за регулярним виразом
 -   [httpbuildquery()](function.http-build-query.html) - Генерує URL-кодований рядок запиту

@@ -1,12 +1,12 @@
 Повертає максимальну частоту документа
 
--   [« SolrQuery::getTermsLowerBound](solrquery.gettermslowerbound.html)
+-   [« SolrQuery::getTermsLowerBound](solrquery.gettermslowerbound.md)
     
--   [SolrQuery::getTermsMinCount »](solrquery.gettermsmincount.html)
+-   [SolrQuery::getTermsMinCount »](solrquery.gettermsmincount.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає максимальну частоту документа
     

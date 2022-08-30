@@ -4,9 +4,9 @@
     
 -   [пгescapeliteral »](function.pg-escape-literal.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PostgreSQL](ref.pgsql.html)
+-   [Функции PostgreSQL](ref.pgsql.md)
     
 -   Екранує ідентифікатор для вставки у текстове поле
     
@@ -49,9 +49,9 @@ pg_escape_identifier(PgSql\Connection $connection = ?, string $data): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

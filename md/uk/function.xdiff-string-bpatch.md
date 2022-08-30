@@ -4,9 +4,9 @@
     
 -   [xdiffstringdiffbinary »](function.xdiff-string-diff-binary.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.md)
     
 -   Застосування бінарного патча до рядка
     

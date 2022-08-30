@@ -4,9 +4,9 @@
     
 -   [opcacheісscriptcached »](function.opcache-is-script-cached.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OPcache](ref.opcache.html)
+-   [Функции OPcache](ref.opcache.md)
     
 -   Анулює закешований скрипт
     

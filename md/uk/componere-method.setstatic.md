@@ -4,7 +4,7 @@
     
 -   [ComponereMethod::getReflector »](componere-method.getreflector.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponereMethod](class.componere-method.html)
     

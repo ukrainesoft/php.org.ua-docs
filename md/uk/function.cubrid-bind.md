@@ -1,12 +1,12 @@
 Зв'язує змінні із підготовленим запитом
 
--   [« Функции CUBRID](ref.cubrid.html)
+-   [« Функции CUBRID](ref.cubrid.md)
     
 -   [cubridcloseprepare »](function.cubrid-close-prepare.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Зв'язує змінні із підготовленим запитом
     
@@ -37,25 +37,25 @@ cubrid_bind(    resource $req_identifier,    int $bind_index,    mix
 
 **Прив'язка типів у CUBRID**
 
-| Уровень поддержки | Тип привязки      | Соответствующий SQL-тип |
-|-------------------|-------------------|-------------------------|
-| Підтримується     | STRING            | CHAR, VARCHAR           |
-|                   | NCHAR             | NCHAR, NVARCHAR         |
-|                   | BIT               | BIT, VARBIT             |
-|                   | NUMERIC or NUMBER | SHORT, INT, NUMERIC     |
-|                   | FLOAT             | FLOAT                   |
-|                   | DOUBLE            | DOUBLE                  |
-|                   | TIME              | TIME                    |
-|                   | DATE              | DATE                    |
-|                   | TIMESTAMP         | TIMESTAMP               |
-|                   | OBJECT            | OBJECT                  |
-|                   | ENUM              | ENUM                    |
-|                   | BLOB              | BLOB                    |
-|                   | CLOB              | CLOB                    |
-|                   | NULL              | NULL                    |
-| Не підтримується  | SET               | SET                     |
-|                   | MULTISET          | MULTISET                |
-|                   | SEQUENCE          | SEQUENCE                |
+| Уровень поддержки | Тип привязки | Соответствующий SQL-тип |
+| --- | --- | --- |
+| Підтримується | STRING | CHAR, VARCHAR |
+|  | NCHAR | NCHAR, NVARCHAR |
+|  | BIT | BIT, VARBIT |
+|  | NUMERIC or NUMBER | SHORT, INT, NUMERIC |
+|  | FLOAT | FLOAT |
+|  | DOUBLE | DOUBLE |
+|  | TIME | TIME |
+|  | DATE | DATE |
+|  | TIMESTAMP | TIMESTAMP |
+|  | OBJECT | OBJECT |
+|  | ENUM | ENUM |
+|  | BLOB | BLOB |
+|  | CLOB | CLOB |
+|  | NULL | NULL |
+| Не підтримується | SET | SET |
+|  | MULTISET | MULTISET |
+|  | SEQUENCE | SEQUENCE |
 
 ### Список параметрів
 
@@ -81,9 +81,9 @@ cubrid_bind(    resource $req_identifier,    int $bind_index,    mix
 
 ### список змін
 
-| Версия | Описание                                |
-|--------|-----------------------------------------|
-|        | Додано підтримку типів даних BLOB/CLOB. |
+| Версия | Описание |
+| --- | --- |
+|  | Додано підтримку типів даних BLOB/CLOB. |
 
 ### Приклади
 

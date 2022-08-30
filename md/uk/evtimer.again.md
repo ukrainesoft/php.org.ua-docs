@@ -1,12 +1,12 @@
 Перезапускає таймер спостерігача
 
--   [« EvTimer](class.evtimer.html)
+-   [« EvTimer](class.evtimer.md)
     
--   [EvTimer::construct »](evtimer.construct.html)
+-   [EvTimer::construct »](evtimer.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvTimer](class.evtimer.html)
+-   [EvTimer](class.evtimer.md)
     
 -   Перезапускає таймер спостерігача
     
@@ -43,4 +43,4 @@ public
 
 ### Дивіться також
 
--   [EvWatcher::stop()](evwatcher.stop.html) - зупиняє спостерігача
+-   [EvWatcher::stop()](evwatcher.stop.md) - зупиняє спостерігача

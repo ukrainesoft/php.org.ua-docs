@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](openssl.configuration.html)
+-   [« Налаштування під час виконання](openssl.configuration.html)
     
--   [Предопределённые константы »](openssl.constants.html)
+-   [Обумовлені константи »](openssl.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](openssl.setup.html)
+-   [Встановлення та налаштування](openssl.setup.html)
     
 -   Типи ресурсів
     

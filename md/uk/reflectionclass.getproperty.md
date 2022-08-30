@@ -1,12 +1,12 @@
 Повертає екземпляр ReflectionProperty для якості класу
 
--   [« ReflectionClass::getProperties](reflectionclass.getproperties.html)
+-   [« ReflectionClass::getProperties](reflectionclass.getproperties.md)
     
--   [ReflectionClass::getReflectionConstant »](reflectionclass.getreflectionconstant.html)
+-   [ReflectionClass::getReflectionConstant »](reflectionclass.getreflectionconstant.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає екземпляр ReflectionProperty для якості класу
     
@@ -15,7 +15,7 @@
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionClass::getProperty — Повертає екземпляр [ReflectionProperty](class.reflectionproperty.html) для якості класу
+ReflectionClass::getProperty — Повертає екземпляр [ReflectionProperty](class.reflectionproperty.md) для якості класу
 
 ### Опис
 
@@ -23,7 +23,7 @@ ReflectionClass::getProperty — Повертає екземпляр [Reflection
 public ReflectionClass::getProperty(string $name): ReflectionProperty
 ```
 
-Повертає екземпляр [ReflectionProperty](class.reflectionproperty.html) для якості класу.
+Повертає екземпляр [ReflectionProperty](class.reflectionproperty.md) для якості класу.
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ public ReflectionClass::getProperty(string $name): ReflectionProperty
 
 ### Значення, що повертаються
 
-Об'єкт класу [ReflectionProperty](class.reflectionproperty.html)
+Об'єкт класу [ReflectionProperty](class.reflectionproperty.md)
 
 ### Приклади
 
@@ -60,4 +60,4 @@ object(ReflectionProperty)#2 (2) {
 
 ### Дивіться також
 
--   [ReflectionClass::getProperties()](reflectionclass.getproperties.html) - Повертає властивості
+-   [ReflectionClass::getProperties()](reflectionclass.getproperties.md) - Повертає властивості

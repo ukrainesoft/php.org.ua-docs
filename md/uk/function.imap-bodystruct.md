@@ -4,9 +4,9 @@
     
 -   [imapcheck »](function.imap-check.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции IMAP](ref.imap.html)
+-   [Функции IMAP](ref.imap.md)
     
 -   Прочитати структуру вказаної секції тіла заданого повідомлення
     
@@ -45,9 +45,9 @@ imap_bodystruct(IMAP\Connection $imap, int $message_num, string $section): stdCl
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

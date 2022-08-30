@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](network.requirements.html)
+-   [« Вимоги](network.requirements.md)
     
--   [Настройка во время выполнения »](network.configuration.html)
+-   [Налаштування під час виконання »](network.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](network.setup.html)
+-   [Встановлення та налаштування](network.setup.md)
     
 -   Встановлення
     

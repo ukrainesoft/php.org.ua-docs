@@ -1,12 +1,12 @@
 Переміщає ітератор до першого кордону після зазначеного усунення
 
--   [« IntlBreakIterator::first](intlbreakiterator.first.html)
+-   [« IntlBreakIterator::first](intlbreakiterator.first.md)
     
--   [IntlBreakIterator::getErrorCode »](intlbreakiterator.geterrorcode.html)
+-   [IntlBreakIterator::getErrorCode »](intlbreakiterator.geterrorcode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlBreakIterator](class.intlbreakiterator.html)
+-   [IntlBreakIterator](class.intlbreakiterator.md)
     
 -   Переміщає ітератор до першого кордону після зазначеного усунення
     

@@ -1,12 +1,12 @@
 Задати токен та його пароль
 
--   [« OAuth::setTimestamp](oauth.settimestamp.html)
+-   [« OAuth::setTimestamp](oauth.settimestamp.md)
     
--   [OAuth::setVersion »](oauth.setversion.html)
+-   [OAuth::setVersion »](oauth.setversion.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](class.oauth.html)
+-   [OAuth](class.oauth.md)
     
 -   Задати токен та його пароль
     

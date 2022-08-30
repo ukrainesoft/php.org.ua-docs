@@ -1,12 +1,12 @@
 Створити часовий пояс GMT (UTC)
 
--   [« IntlTimeZone::getErrorMessage](intltimezone.geterrormessage.html)
+-   [« IntlTimeZone::getErrorMessage](intltimezone.geterrormessage.md)
     
--   [IntlTimeZone::getID »](intltimezone.getid.html)
+-   [IntlTimeZone::getID »](intltimezone.getid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlTimeZone](class.intltimezone.html)
+-   [IntlTimeZone](class.intltimezone.md)
     
 -   Створити часовий пояс GMT (UTC)
     

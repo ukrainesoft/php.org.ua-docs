@@ -37,10 +37,10 @@ enchant_dict_describe(EnchantDictionary $dictionary): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | До цієї версії функція повертала **`false`** у разі виникнення помилки.                                                                               |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | До цієї версії функція повертала **`false`** у разі виникнення помилки. |
 
 ### Приклади
 

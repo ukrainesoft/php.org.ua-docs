@@ -4,9 +4,9 @@
     
 -   [runkit7methodrename »](function.runkit7-method-rename.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції runkit7](ref.runkit7.html)
+-   [Функції runkit7](ref.runkit7.md)
     
 -   Динамічно видаляє заданий метод
     

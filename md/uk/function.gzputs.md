@@ -1,12 +1,12 @@
 Псевдонім gzwrite
 
--   [« gzpassthru](function.gzpassthru.html)
+-   [« gzpassthru](function.gzpassthru.md)
     
--   [gzread »](function.gzread.html)
+-   [gzread »](function.gzread.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Zlib](ref.zlib.html)
+-   [Функции Zlib](ref.zlib.md)
     
 -   Псевдонім gzwrite
     
@@ -15,8 +15,8 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-gzputs - Псевдонім [gzwrite()](function.gzwrite.html)
+gzputs - Псевдонім [gzwrite()](function.gzwrite.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [gzwrite()](function.gzwrite.html)
+Ця функція є псевдонімом: [gzwrite()](function.gzwrite.md)

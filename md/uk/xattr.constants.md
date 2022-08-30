@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](xattr.resources.html)
+-   [« Типи ресурсів](xattr.resources.md)
     
--   [xattr Функции »](ref.xattr.html)
+-   [xattr Функции »](ref.xattr.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [xattr](book.xattr.html)
+-   [xattr](book.xattr.md)
     
 -   Обумовлені константи
     

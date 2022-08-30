@@ -1,12 +1,12 @@
 Переказує число з десяткової системи числення у вісімкову
 
--   [« dechex](function.dechex.html)
+-   [« dechex](function.dechex.md)
     
--   [deg2rad »](function.deg2rad.html)
+-   [deg2rad »](function.deg2rad.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Переказує число з десяткової системи числення у вісімкову
     
@@ -55,7 +55,7 @@ echo decoct(264);
 
 ### Дивіться також
 
--   [octdec()](function.octdec.html) - Переводить число з вісімкової системи числення до десяткової
--   [decbin()](function.decbin.html) - Переводить число з десяткової системи числення до двійкової
--   [dechex()](function.dechex.html) - Переводить число з десяткової системи числення до шістнадцяткової
+-   [octdec()](function.octdec.md) - Переводить число з вісімкової системи числення до десяткової
+-   [decbin()](function.decbin.md) - Переводить число з десяткової системи числення до двійкової
+-   [dechex()](function.dechex.md) - Переводить число з десяткової системи числення до шістнадцяткової
 -   [baseconvert()](function.base-convert.html) - Перетворення числа між довільними системами числення

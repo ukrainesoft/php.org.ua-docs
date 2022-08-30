@@ -2,7 +2,7 @@
 
 -   [« Календарь](book.calendar.html)
     
--   [Установка и настройка »](calendar.setup.html)
+-   [Встановлення та налаштування »](calendar.setup.html)
     
 -   [PHP Manual](index.html)
     

@@ -4,7 +4,7 @@
     
 -   [db2connerrormsg »](function.db2-conn-errormsg.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Функції IBM DB2](ref.ibm-db2.html)
     

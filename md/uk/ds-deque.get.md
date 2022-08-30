@@ -4,7 +4,7 @@
     
 -   [ДсDeque::insert »](ds-deque.insert.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Двостороння черга](class.ds-deque.html)
     
@@ -37,7 +37,7 @@ public Ds\Deque::get(int $index): mixed
 
 ### Помилки
 
-Викидає виняток [OutOfRangeException](class.outofrangeexception.html)якщо індекс некоректний.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.md)якщо індекс некоректний.
 
 ### Приклади
 

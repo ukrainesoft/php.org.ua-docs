@@ -1,12 +1,12 @@
 Функції intl
 
--   [« IntlIterator::valid](intliterator.valid.html)
+-   [« IntlIterator::valid](intliterator.valid.md)
     
 -   [intlerrorname »](function.intl-error-name.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [intl](book.intl.html)
+-   [intl](book.intl.md)
     
 -   Функції intl
     

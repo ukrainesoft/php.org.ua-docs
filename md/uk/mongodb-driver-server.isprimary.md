@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverServer::isSecondary »](mongodb-driver-server.issecondary.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverServer](class.mongodb-driver-server.html)
     
@@ -23,7 +23,7 @@ MongoDBDriverServer::isPrimary — Перевіряє, чи є сервер ос
 final public MongoDB\Driver\Server::isPrimary(): bool
 ```
 
-Повертає, чи є цей сервер [» основным членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-primary) набір реплік.
+Повертає, чи є цей сервер [»основним членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-primary) набір реплік.
 
 ### Список параметрів
 

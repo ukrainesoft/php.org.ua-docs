@@ -1,12 +1,12 @@
 Повертає версію GraphicsMagick API
 
--   [« Gmagick::getsize](gmagick.getsize.html)
+-   [« Gmagick::getsize](gmagick.getsize.md)
     
--   [Gmagick::hasnextimage »](gmagick.hasnextimage.html)
+-   [Gmagick::hasnextimage »](gmagick.hasnextimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повертає версію GraphicsMagick API
     

@@ -1,12 +1,12 @@
 Клас SplObjectStorage
 
--   [« SplFixedArray::wakeup](splfixedarray.wakeup.html)
+-   [« SplFixedArray::wakeup](splfixedarray.wakeup.md)
     
--   [SplObjectStorage::addAll »](splobjectstorage.addall.html)
+-   [SplObjectStorage::addAll »](splobjectstorage.addall.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Структури даних](spl.datastructures.html)
+-   [Структури даних](spl.datastructures.md)
     
 -   Клас SplObjectStorage
     
@@ -135,24 +135,24 @@ array(3) {
 
 ## Зміст
 
--   [SplObjectStorage::addAll](splobjectstorage.addall.html) — Додає всі об'єкти з іншого контейнера
--   [SplObjectStorage::attach](splobjectstorage.attach.html) — Додає об'єкт у контейнер
--   [SplObjectStorage::contains](splobjectstorage.contains.html) — Перевіряє, чи контейнер містить заданий об'єкт
--   [SplObjectStorage::count](splobjectstorage.count.html) — Повертає кількість об'єктів у контейнері
--   [SplObjectStorage::current](splobjectstorage.current.html) — Повертає поточний об'єкт
--   [SplObjectStorage::detach](splobjectstorage.detach.html) — Видаляє об'єкт з контейнера
--   [SplObjectStorage::getHash](splobjectstorage.gethash.html) - Обчислює унікальний ідентифікатор для об'єктів контейнера
--   [SplObjectStorage::getInfo](splobjectstorage.getinfo.html) — Повертає дані, що асоціюються з поточним об'єктом
--   [SplObjectStorage::key](splobjectstorage.key.html) - Повертає індекс поточного положення ітератора
--   [SplObjectStorage::next](splobjectstorage.next.html) — Перехід до наступного об'єкту
--   [SplObjectStorage::offsetExists](splobjectstorage.offsetexists.html) — Перевіряє, чи існує об'єкт у контейнері
--   [SplObjectStorage::offsetGet](splobjectstorage.offsetget.html) — Повертає дані, що асоціюються з об'єктом object
--   [SplObjectStorage::offsetSet](splobjectstorage.offsetset.html) — Асоціює дані з об'єктом у контейнері
--   [SplObjectStorage::offsetUnset](splobjectstorage.offsetunset.html) — Видаляє об'єкт із контейнера
--   [SplObjectStorage::removeAll](splobjectstorage.removeall.html) — Видаляє з поточного контейнера об'єкти, які є в іншому контейнері
--   [SplObjectStorage::removeAllExcept](splobjectstorage.removeallexcept.html) — Видаляє з поточного контейнера всі об'єкти, яких немає в іншому контейнері
--   [SplObjectStorage::rewind](splobjectstorage.rewind.html) - Переводить ітератор на перший елемент контейнера
--   [SplObjectStorage::serialize](splobjectstorage.serialize.html) - Серіалізує контейнер
--   [SplObjectStorage::setInfo](splobjectstorage.setinfo.html) — Асоціює дані з поточним об'єктом контейнера
--   [SplObjectStorage::unserialize](splobjectstorage.unserialize.html) — Відновлює серіалізований контейнер із рядка
--   [SplObjectStorage::valid](splobjectstorage.valid.html) — Визначає, чи допустиме поточне значення ітератора
+-   [SplObjectStorage::addAll](splobjectstorage.addall.md) — Додає всі об'єкти з іншого контейнера
+-   [SplObjectStorage::attach](splobjectstorage.attach.md) — Додає об'єкт у контейнер
+-   [SplObjectStorage::contains](splobjectstorage.contains.md) — Перевіряє, чи контейнер містить заданий об'єкт
+-   [SplObjectStorage::count](splobjectstorage.count.md) — Повертає кількість об'єктів у контейнері
+-   [SplObjectStorage::current](splobjectstorage.current.md) — Повертає поточний об'єкт
+-   [SplObjectStorage::detach](splobjectstorage.detach.md) — Видаляє об'єкт з контейнера
+-   [SplObjectStorage::getHash](splobjectstorage.gethash.md) - Обчислює унікальний ідентифікатор для об'єктів контейнера
+-   [SplObjectStorage::getInfo](splobjectstorage.getinfo.md) — Повертає дані, що асоціюються з поточним об'єктом
+-   [SplObjectStorage::key](splobjectstorage.key.md) - Повертає індекс поточного положення ітератора
+-   [SplObjectStorage::next](splobjectstorage.next.md) — Перехід до наступного об'єкту
+-   [SplObjectStorage::offsetExists](splobjectstorage.offsetexists.md) — Перевіряє, чи існує об'єкт у контейнері
+-   [SplObjectStorage::offsetGet](splobjectstorage.offsetget.md) — Повертає дані, що асоціюються з об'єктом object
+-   [SplObjectStorage::offsetSet](splobjectstorage.offsetset.md) — Асоціює дані з об'єктом у контейнері
+-   [SplObjectStorage::offsetUnset](splobjectstorage.offsetunset.md) — Видаляє об'єкт із контейнера
+-   [SplObjectStorage::removeAll](splobjectstorage.removeall.md) — Видаляє з поточного контейнера об'єкти, які є в іншому контейнері
+-   [SplObjectStorage::removeAllExcept](splobjectstorage.removeallexcept.md) — Видаляє з поточного контейнера всі об'єкти, яких немає в іншому контейнері
+-   [SplObjectStorage::rewind](splobjectstorage.rewind.md) - Переводить ітератор на перший елемент контейнера
+-   [SplObjectStorage::serialize](splobjectstorage.serialize.md) - Серіалізує контейнер
+-   [SplObjectStorage::setInfo](splobjectstorage.setinfo.md) — Асоціює дані з поточним об'єктом контейнера
+-   [SplObjectStorage::unserialize](splobjectstorage.unserialize.md) — Відновлює серіалізований контейнер із рядка
+-   [SplObjectStorage::valid](splobjectstorage.valid.md) — Визначає, чи допустиме поточне значення ітератора

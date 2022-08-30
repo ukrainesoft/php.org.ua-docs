@@ -1,12 +1,12 @@
 Повертає базу подій, пов'язану зі з'єднанням
 
--   [« EventHttpConnection::construct](eventhttpconnection.construct.html)
+-   [« EventHttpConnection::construct](eventhttpconnection.construct.md)
     
--   [EventHttpConnection::getPeer »](eventhttpconnection.getpeer.html)
+-   [EventHttpConnection::getPeer »](eventhttpconnection.getpeer.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpConnection](class.eventhttpconnection.html)
+-   [EventHttpConnection](class.eventhttpconnection.md)
     
 -   Повертає базу подій, пов'язану зі з'єднанням
     
@@ -32,4 +32,4 @@ public
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає об'єкт [EventBase](class.eventbase.html), пов'язаний із з'єднанням. В іншому випадку - **`false`**
+У разі успішного виконання повертає об'єкт [EventBase](class.eventbase.md), пов'язаний із з'єднанням. В іншому випадку - **`false`**

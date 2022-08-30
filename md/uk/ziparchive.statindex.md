@@ -1,12 +1,12 @@
 Отримання детальної інформації про елемент за його індексом
 
--   [« ZipArchive::setPassword](ziparchive.setpassword.html)
+-   [« ZipArchive::setPassword](ziparchive.setpassword.md)
     
--   [ZipArchive::statName »](ziparchive.statname.html)
+-   [ZipArchive::statName »](ziparchive.statname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Отримання детальної інформації про елемент за його індексом
     

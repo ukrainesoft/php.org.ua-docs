@@ -1,6 +1,6 @@
 Опції Ctype
 
--   [« Предопределённые константы](ctype.constants.html)
+-   [« Обумовлені константи](ctype.constants.html)
     
 -   [ctypealnum »](function.ctype-alnum.html)
     

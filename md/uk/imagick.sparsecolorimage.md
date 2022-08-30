@@ -1,12 +1,12 @@
 Інтерполює кольори
 
--   [« Imagick::solarizeImage](imagick.solarizeimage.html)
+-   [« Imagick::solarizeImage](imagick.solarizeimage.md)
     
--   [Imagick::spliceImage »](imagick.spliceimage.html)
+-   [Imagick::spliceImage »](imagick.spliceimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Інтерполює кольори
     
@@ -37,7 +37,7 @@ public Imagick::sparseColorImage(int $SPARSE_METHOD, array $arguments, int $chan
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константы каналов](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
 
 ### Значення, що повертаються
 

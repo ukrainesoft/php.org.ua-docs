@@ -1,12 +1,12 @@
 Знищити об'єкт Gmagick
 
--   [« Gmagick::despeckleimage](gmagick.despeckleimage.html)
+-   [« Gmagick::despeckleimage](gmagick.despeckleimage.md)
     
--   [Gmagick::drawimage »](gmagick.drawimage.html)
+-   [Gmagick::drawimage »](gmagick.drawimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Знищити об'єкт Gmagick
     
@@ -23,7 +23,7 @@ Gmagick::destroy — Знищити об'єкт Gmagick
 public Gmagick::destroy(): bool
 ```
 
-Знищити об'єкт [Gmagick](class.gmagick.html) та звільнити всі виділені йому ресурси
+Знищити об'єкт [Gmagick](class.gmagick.md) та звільнити всі виділені йому ресурси
 
 ### Список параметрів
 

@@ -41,7 +41,7 @@ xml_parser_get_option(XMLParser $parser, int $option): string|int
 
 ### список змін
 
-| Версия | Описание                                                                                                    |
-|--------|-------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікували ресурс (resource). |
-|        | Тепер параметр `options` підтримує **`XML_OPTION_SKIP_TAGSTART`** і **`XML_OPTION_SKIP_WHITE`**             |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікували ресурс (resource). |
+|  | Тепер параметр `options` підтримує **`XML_OPTION_SKIP_TAGSTART`** і **`XML_OPTION_SKIP_WHITE`** |

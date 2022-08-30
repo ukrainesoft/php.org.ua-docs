@@ -14,13 +14,13 @@ Mcrypt
 # Mcrypt
 
 -   [Введение](intro.mcrypt.html)
--   [Установка и настройка](mcrypt.setup.html)
-    -   [Требования](mcrypt.requirements.html)
+-   [Встановлення та налаштування](mcrypt.setup.html)
+    -   [Вимоги](mcrypt.requirements.html)
     -   [Установка](mcrypt.installation.html)
-    -   [Настройка во время выполнения](mcrypt.configuration.html)
-    -   [Типы ресурсов](mcrypt.resources.html)
--   [Предопределённые константы](mcrypt.constants.html)
--   [Шифры Mcrypt](mcrypt.ciphers.html)
+    -   [Налаштування під час виконання](mcrypt.configuration.html)
+    -   [Типи ресурсів](mcrypt.resources.html)
+-   [Обумовлені константи](mcrypt.constants.html)
+-   [Шифри Mcrypt](mcrypt.ciphers.html)
 -   [Mcrypt](ref.mcrypt.html)
     -   [mcryptcreateверб](function.mcrypt-create-iv.html) — Створити ініціалізуючий вектор (Initialization Vector або IV) із випадкового джерела
     -   [mcryptdecrypt](function.mcrypt-decrypt.html) — Розшифровує дані із заданими параметрами

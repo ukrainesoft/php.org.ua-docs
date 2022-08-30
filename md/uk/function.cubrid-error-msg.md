@@ -4,9 +4,9 @@
     
 -   [cubridexecute »](function.cubrid-execute.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Повертає текст останньої помилки, що сталася
     

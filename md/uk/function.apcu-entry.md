@@ -4,9 +4,9 @@
     
 -   [apcuexists »](function.apcu-exists.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции APCu](ref.apcu.html)
+-   [Функции APCu](ref.apcu.md)
     
 -   Автоматичне вилучення або створення запису в кеші
     

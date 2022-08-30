@@ -1,12 +1,12 @@
 Приклад використання
 
--   [« Примеры](gender.examples.html)
+-   [« Приклади](gender.examples.md)
     
--   [GenderGender »](class.gender.html)
+-   [GenderGender »](class.gender.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](gender.examples.html)
+-   [Приклади](gender.examples.md)
     
 -   Приклад використання
     

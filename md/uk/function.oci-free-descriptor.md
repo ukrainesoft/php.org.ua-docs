@@ -4,9 +4,9 @@
     
 -   [ocifreestatement »](function.oci-free-statement.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8 Функции](ref.oci8.html)
+-   [OCI8 Функции](ref.oci8.md)
     
 -   Звільняє дескриптор
     
@@ -39,8 +39,8 @@ oci_free_descriptor(OCILob $lob): bool
 
 > **Зауваження**
 > 
-> Функція зазвичай використовується як метод [OCILOB::free](ocilob.free.html)
+> Функція зазвичай використовується як метод [OCILOB::free](ocilob.free.md)
 
 ### Дивіться також
 
--   [OCILOB::free](ocilob.free.html)
+-   [OCILOB::free](ocilob.free.md)

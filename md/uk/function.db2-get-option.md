@@ -4,7 +4,7 @@
     
 -   [db2lastinsertid »](function.db2-last-insert-id.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Функції IBM DB2](ref.ibm-db2.html)
     
@@ -79,13 +79,13 @@ db2_get_option(resource $resource, string $option): string|false
 
 **Матриця параметрів ресурсів**
 
-| Ключ       | Значение                   | Тип ресурса |
-|------------|----------------------------|-------------|
-|            |                            | Connection  |
-| userid     | `SQL_ATTR_INFO_USERID`     | З           |
-| acctstr    | `SQL_ATTR_INFO_ACCTSTR`    | З           |
-| applname   | `SQL_ATTR_INFO_APPLNAME`   | З           |
-| wrkstnname | `SQL_ATTR_INFO_WRKSTNNAME` | З           |
+| Ключ | Значение | Тип ресурса |
+| --- | --- | --- |
+|  |  | Connection |
+| userid | `SQL_ATTR_INFO_USERID` | З |
+| acctstr | `SQL_ATTR_INFO_ACCTSTR` | З |
+| applname | `SQL_ATTR_INFO_APPLNAME` | З |
+| wrkstnname | `SQL_ATTR_INFO_WRKSTNNAME` | З |
 
 ### Значення, що повертаються
 
@@ -107,7 +107,7 @@ $conn = db2_connect($database, $user, $password);
 
 echo "Атрибуты клиента, передаваемые через строку подключения:\n";
 
-/* Создайте массив ассоциативных опций с допустимыми парами "ключ-значение" */
+/* Создайте Масив ассоциативных опций с допустимыми парами "ключ-значение" */
 /* Назначьте атрибуты через строку подключения */
 /* Доступ к указанным параметрам */
 $options1 = array('userid' => 'db2inst1');

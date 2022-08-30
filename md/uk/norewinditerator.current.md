@@ -1,12 +1,12 @@
 Отримує поточне значення
 
--   [« NoRewindIterator::construct](norewinditerator.construct.html)
+-   [« NoRewindIterator::construct](norewinditerator.construct.md)
     
--   [NoRewindIterator::getInnerIterator »](norewinditerator.getinneriterator.html)
+-   [NoRewindIterator::getInnerIterator »](norewinditerator.getinneriterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [NoRewindIterator](class.norewinditerator.html)
+-   [NoRewindIterator](class.norewinditerator.md)
     
 -   Отримує поточне значення
     
@@ -39,4 +39,4 @@ public NoRewindIterator::current(): mixed
 
 ### Дивіться також
 
--   [NoRewindIterator::key()](norewinditerator.key.html) - Отримує поточний ключ
+-   [NoRewindIterator::key()](norewinditerator.key.md) - Отримує поточний ключ

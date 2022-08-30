@@ -1,12 +1,12 @@
 Зберігає кілька записів
 
--   [« Memcached::setByKey](memcached.setbykey.html)
+-   [« Memcached::setByKey](memcached.setbykey.md)
     
--   [Memcached::setMultiByKey »](memcached.setmultibykey.html)
+-   [Memcached::setMultiByKey »](memcached.setmultibykey.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Зберігає кілька записів
     
@@ -23,7 +23,7 @@ Memcached::setMulti — Зберігає кілька записів
 public Memcached::setMulti(array $items, int $expiration = ?): bool
 ```
 
-**Memcached::setMulti()** схожий на метод [Memcached::set()](memcached.set.html), але замість однієї пари ключ/значення, працює з кількома записами, переданими в `items` у вигляді масиву. Параметр `expiration`, що встановлює термін зберігання запису, застосовується до всіх записів.
+**Memcached::setMulti()** схожий на метод [Memcached::set()](memcached.set.md), але замість однієї пари ключ/значення, працює з кількома записами, переданими в `items` у вигляді масиву. Параметр `expiration`, що встановлює термін зберігання запису, застосовується до всіх записів.
 
 ### Список параметрів
 
@@ -33,11 +33,11 @@ public Memcached::setMulti(array $items, int $expiration = ?): bool
 
 `expiration`
 
-Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Время хранения объекта](memcached.expiration.html)
+Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Час зберігання об'єкту](memcached.expiration.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.html)
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.md)
 
 ### Приклади
 
@@ -59,5 +59,5 @@ $m->setMulti($items, time() + 300);
 
 ### Дивіться також
 
--   [Memcached::setMultiByKey()](memcached.setmultibykey.html) - Зберігає кілька записів на вказаному сервері
--   [Memcached::set()](memcached.set.html) - Зберігає запис
+-   [Memcached::setMultiByKey()](memcached.setmultibykey.md) - Зберігає кілька записів на вказаному сервері
+-   [Memcached::set()](memcached.set.md) - Зберігає запис

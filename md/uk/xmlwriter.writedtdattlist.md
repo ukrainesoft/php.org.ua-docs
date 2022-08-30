@@ -1,12 +1,12 @@
 Записати повний тег DTD AttList
 
--   [« XMLWriter::writeDtd](xmlwriter.writedtd.html)
+-   [« XMLWriter::writeDtd](xmlwriter.writedtd.md)
     
--   [XMLWriter::writeDtdElement »](xmlwriter.writedtdelement.html)
+-   [XMLWriter::writeDtdElement »](xmlwriter.writedtdelement.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](class.xmlwriter.html)
+-   [XMLWriter](class.xmlwriter.md)
     
 -   Записати повний тег DTD AttList
     
@@ -39,7 +39,7 @@ xmlwriter_write_dtd_attlist(XMLWriter $writer, string $name, string $content): b
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `name`
 
@@ -55,11 +55,11 @@ xmlwriter_write_dtd_attlist(XMLWriter $writer, string $name, string $content): b
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::startDtdAttlist()](xmlwriter.startdtdattlist.html) - Створює стартовий список атрибутів DTD
--   [XMLWriter::endDtdAttlist()](xmlwriter.enddtdattlist.html) - Завершити поточний список атрибутів DTD
+-   [XMLWriter::startDtdAttlist()](xmlwriter.startdtdattlist.md) - Створює стартовий список атрибутів DTD
+-   [XMLWriter::endDtdAttlist()](xmlwriter.enddtdattlist.md) - Завершити поточний список атрибутів DTD

@@ -1,12 +1,12 @@
 Вказує, чи є файл каталогом
 
--   [« SplFileInfo::getType](splfileinfo.gettype.html)
+-   [« SplFileInfo::getType](splfileinfo.gettype.md)
     
--   [SplFileInfo::isExecutable »](splfileinfo.isexecutable.html)
+-   [SplFileInfo::isExecutable »](splfileinfo.isexecutable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Вказує, чи є файл каталогом
     

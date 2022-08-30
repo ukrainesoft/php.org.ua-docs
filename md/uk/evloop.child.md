@@ -1,12 +1,12 @@
 Створює об'єкт EvChild, пов'язаний із поточним циклом подій
 
--   [« EvLoop::check](evloop.check.html)
+-   [« EvLoop::check](evloop.check.md)
     
--   [EvLoop::construct »](evloop.construct.html)
+-   [EvLoop::construct »](evloop.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvLoop](class.evloop.html)
+-   [EvLoop](class.evloop.md)
     
 -   Створює об'єкт EvChild, пов'язаний із поточним циклом подій
     
@@ -44,7 +44,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvChild::construct()](evchild.construct.html)
+Усі параметри, що й для [EvChild::construct()](evchild.construct.md)
 
 ### Значення, що повертаються
 
@@ -52,4 +52,4 @@ final
 
 ### Дивіться також
 
--   [EvChild::construct()](evchild.construct.html) - Створює об'єкт спостерігач EvChild
+-   [EvChild::construct()](evchild.construct.md) - Створює об'єкт спостерігач EvChild

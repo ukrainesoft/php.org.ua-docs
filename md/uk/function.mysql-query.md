@@ -4,9 +4,9 @@
     
 -   [mysqlrealescapestring »](function.mysql-real-escape-string.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](ref.mysql.html)
+-   [MySQL](ref.mysql.md)
     
 -   Надсилає запит MySQL
     
@@ -19,10 +19,10 @@ mysqlquery — Надсилає запит MySQL
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqliquery()](mysqli.query.html)
--   [PDO::query()](pdo.query.html)
+-   [mysqliquery()](mysqli.query.md)
+-   [PDO::query()](pdo.query.md)
 
 ### Опис
 
@@ -38,7 +38,7 @@ mysql_query(string $query, resource $link_identifier = NULL): mixed
 
 SQL-запит
 
-Запит не повинен закінчуватися крапкою з комою. Дані у запиті мають бути [корректно проэкранированы](function.mysql-real-escape-string.html)
+Запит не повинен закінчуватися крапкою з комою. Дані у запиті мають бути [коректно проекрановано](function.mysql-real-escape-string.html)
 
 `link_identifier`
 

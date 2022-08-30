@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](mcrypt.configuration.html)
+-   [« Налаштування під час виконання](mcrypt.configuration.md)
     
--   [Предопределённые константы »](mcrypt.constants.html)
+-   [Обумовлені константи »](mcrypt.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mcrypt.setup.html)
+-   [Встановлення та налаштування](mcrypt.setup.md)
     
 -   Типи ресурсів
     

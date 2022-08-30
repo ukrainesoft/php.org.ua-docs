@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.yaml.html)
     
--   [Требования »](yaml.requirements.html)
+-   [Вимоги »](yaml.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](yaml.requirements.html)
+-   [Вимоги](yaml.requirements.html)
 -   [Установка](yaml.installation.html)
--   [Настройка во время выполнения](yaml.configuration.html)
--   [Типы ресурсов](yaml.resources.html)
+-   [Налаштування під час виконання](yaml.configuration.html)
+-   [Типи ресурсів](yaml.resources.html)

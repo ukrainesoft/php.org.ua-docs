@@ -1,12 +1,12 @@
 Отримує поточне значення Quickprint бібліотеки NET-SNMP
 
--   [« Функції SNMP](ref.snmp.html)
+-   [« Функції SNMP](ref.snmp.md)
     
 -   [snmpgetvalueretrieval »](function.snmp-get-valueretrieval.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.md)
     
 -   Отримує поточне значення Quickprint бібліотеки NET-SNMP
     

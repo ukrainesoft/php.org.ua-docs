@@ -1,12 +1,12 @@
 Клас Spoofchecker
 
--   [« ResourceBundle::getLocales](resourcebundle.locales.html)
+-   [« ResourceBundle::getLocales](resourcebundle.locales.md)
     
--   [Spoofchecker::areConfusable »](spoofchecker.areconfusable.html)
+-   [Spoofchecker::areConfusable »](spoofchecker.areconfusable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [intl](book.intl.html)
+-   [intl](book.intl.md)
     
 -   Клас Spoofchecker
     
@@ -131,14 +131,14 @@ public setChecks(int $checks): void
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                                                                                             |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Додані константи класу, які використовуються **Spoofchecker::setRestrictionLevel()**, такі як: **`Spoofchecker::ASCII`** **`Spoofchecker::HIGHLY_RESTRICTIVE`** **`Spoofchecker::MODERATELY_RESTRICTIVE`** **`Spoofchecker::MINIMALLY_RESTRICTIVE`** **`Spoofchecker::UNRESTRICTIVE`** **`Spoofchecker::SINGLE_SCRIPT_RESTRICTIVE`** |
+| Версия | Описание |
+| --- | --- |
+|  | Додані константи класу, які використовуються **Spoofchecker::setRestrictionLevel()**, такі як: **`Spoofchecker::ASCII`** **`Spoofchecker::HIGHLY_RESTRICTIVE`** **`Spoofchecker::MODERATELY_RESTRICTIVE`** **`Spoofchecker::MINIMALLY_RESTRICTIVE`** **`Spoofchecker::UNRESTRICTIVE`** **`Spoofchecker::SINGLE_SCRIPT_RESTRICTIVE`** |
 
 ## Зміст
 
--   [Spoofchecker::areConfusable](spoofchecker.areconfusable.html) — Перевірити, чи є рядки підозрілими
--   [Spoofchecker::construct](spoofchecker.construct.html) - Конструктор класу
--   [Spoofchecker::isSuspicious](spoofchecker.issuspicious.html) — Перевіряє, чи текст містить підозрілі символи
--   [Spoofchecker::setAllowedLocales](spoofchecker.setallowedlocales.html) — Локаль для використання у перевірках
--   [Spoofchecker::setChecks](spoofchecker.setchecks.html) — Встановити набір перевірок
+-   [Spoofchecker::areConfusable](spoofchecker.areconfusable.md) — Перевірити, чи є рядки підозрілими
+-   [Spoofchecker::construct](spoofchecker.construct.md) - Конструктор класу
+-   [Spoofchecker::isSuspicious](spoofchecker.issuspicious.md) — Перевіряє, чи текст містить підозрілі символи
+-   [Spoofchecker::setAllowedLocales](spoofchecker.setallowedlocales.md) — Локаль для використання у перевірках
+-   [Spoofchecker::setChecks](spoofchecker.setchecks.md) — Встановити набір перевірок

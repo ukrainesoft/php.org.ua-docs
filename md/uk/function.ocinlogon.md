@@ -1,12 +1,12 @@
 Псевдонім ocinewconnect
 
--   [« ocinewdescriptor](function.ocinewdescriptor.html)
+-   [« ocinewdescriptor](function.ocinewdescriptor.md)
     
--   [ocinumcols »](function.ocinumcols.html)
+-   [ocinumcols »](function.ocinumcols.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Псевдонім ocinewconnect
     

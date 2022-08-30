@@ -1,12 +1,12 @@
 Регулює поточну матрицю афінного перетворення
 
--   [« ImagickDraw](class.imagickdraw.html)
+-   [« ImagickDraw](class.imagickdraw.md)
     
--   [ImagickDraw::annotation »](imagickdraw.annotation.html)
+-   [ImagickDraw::annotation »](imagickdraw.annotation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Регулює поточну матрицю афінного перетворення
     

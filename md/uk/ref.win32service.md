@@ -1,12 +1,12 @@
 win32service
 
--   [« Примеры](win32service.examples.html)
+-   [« Приклади](win32service.examples.md)
     
 -   [win32continueservice »](function.win32-continue-service.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [win32service](book.win32service.html)
+-   [win32service](book.win32service.md)
     
 -   win32service
     

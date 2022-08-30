@@ -2,11 +2,11 @@
 
 -   [« Установка](dio.installation.html)
     
--   [Типы ресурсов »](dio.resources.html)
+-   [Типи ресурсів »](dio.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](dio.setup.html)
+-   [Встановлення та налаштування](dio.setup.html)
     
 -   Налаштування під час виконання
     

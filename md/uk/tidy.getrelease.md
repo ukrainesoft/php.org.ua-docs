@@ -1,12 +1,12 @@
 Отримати дату релізу (версію) для бібліотеки Tidy
 
--   [« tidy::getOptDoc](tidy.getoptdoc.html)
+-   [« tidy::getOptDoc](tidy.getoptdoc.md)
     
--   [tidy::getStatus »](tidy.getstatus.html)
+-   [tidy::getStatus »](tidy.getstatus.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidy](class.tidy.html)
+-   [tidy](class.tidy.md)
     
 -   Отримати дату релізу (версію) для бібліотеки Tidy
     

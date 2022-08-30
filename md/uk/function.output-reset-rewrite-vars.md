@@ -2,11 +2,11 @@
 
 -   [« outputaddrewritevar](function.output-add-rewrite-var.html)
     
--   [Опции/информация PHP »](book.info.html)
+-   [Опции/информация PHP »](book.info.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції контролю виведення](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.md)
     
 -   Скинути значення обробника URL
     
@@ -35,9 +35,9 @@ output_reset_rewrite_vars(): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | До PHP 7.1.0, змінні перезаписи встановлені функцією [outputaddrewritevar()](function.output-add-rewrite-var.html) використовують той самий буфер модуля сесії "trans sid". З PHP 7.1.0, використовується окремий буфер і **outputresetrewritevars()** тільки видаляє перемінні перезаписи [outputaddrewritevar()](function.output-add-rewrite-var.html) |
+| Версия | Описание |
+| --- | --- |
+|  | До PHP 7.1.0, змінні перезаписи встановлені функцією [outputaddrewritevar()](function.output-add-rewrite-var.html) використовують той самий буфер модуля сесії "trans sid". З PHP 7.1.0, використовується окремий буфер і **outputresetrewritevars()** тільки видаляє перемінні перезаписи [outputaddrewritevar()](function.output-add-rewrite-var.html) |
 
 ### Приклади
 

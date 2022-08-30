@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](recode.configuration.html)
+-   [« Налаштування під час виконання](recode.configuration.md)
     
--   [Предопределённые константы »](recode.constants.html)
+-   [Обумовлені константи »](recode.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](recode.setup.html)
+-   [Встановлення та налаштування](recode.setup.md)
     
 -   Типи ресурсів
     

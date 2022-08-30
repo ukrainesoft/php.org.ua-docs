@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](xattr.configuration.html)
+-   [« Налаштування під час виконання](xattr.configuration.md)
     
--   [Предопределённые константы »](xattr.constants.html)
+-   [Обумовлені константи »](xattr.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xattr.setup.html)
+-   [Встановлення та налаштування](xattr.setup.md)
     
 -   Типи ресурсів
     

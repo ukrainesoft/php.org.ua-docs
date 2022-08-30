@@ -4,9 +4,9 @@
     
 -   [ComponereValue::construct »](componere-value.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Componere](book.componere.html)
+-   [Componere](book.componere.md)
     
 -   Клас ComponereValue
     

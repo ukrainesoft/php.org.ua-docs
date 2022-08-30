@@ -4,7 +4,7 @@
     
 -   [mysqliresult::fetchcolumn »](mysqli-result.fetch-column.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqliresult](class.mysqli-result.html)
     
@@ -45,7 +45,7 @@ mysqli_fetch_assoc(mysqli_result $result): array|null|false
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 ### Значення, що повертаються
 
@@ -67,7 +67,7 @@ $query = "SELECT Name, CountryCode FROM City ORDER BY ID DESC";
 
 $result = $mysqli->query($query);
 
-/* извлечение ассоциативного массива */
+/* извлечение ассоциативного Масива */
 while ($row = $result->fetch_assoc()) {
     printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
 }
@@ -85,7 +85,7 @@ $query = "SELECT Name, CountryCode FROM City ORDER BY ID DESC";
 
 $result = mysqli_query($mysqli, $query);
 
-/* извлечение ассоциативного массива */
+/* извлечение ассоциативного Масива */
 while ($row = mysqli_fetch_assoc($result)) {
     printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
 }
@@ -101,7 +101,7 @@ Green Bay (USA)
 Santa Clara (USA)
 ```
 
-**Приклад #2 Порівняння використання [mysqliresult](class.mysqli-result.html) [iterator](class.iterator.html) і **mysqliresult::fetchassoc()****
+**Приклад #2 Порівняння використання [mysqliresult](class.mysqli-result.html) [iterator](class.iterator.md) і **mysqliresult::fetchassoc()****
 
 [mysqliresult](class.mysqli-result.html) можна повторити за допомогою [foreach](control-structures.foreach.html). Результуючий набір завжди повторюватиметься з першого рядка незалежно від поточної позиції.
 
@@ -151,5 +151,5 @@ Santa Clara (USA)
 -   [mysqlifetchcolumn()](mysqli-result.fetch-column.html) - отримує один стовпець з наступного рядка набору результатів
 -   [mysqlifetchrow()](mysqli-result.fetch-row.html) - Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
 -   [mysqlifetchobject()](mysqli-result.fetch-object.html) - Вибирає наступний рядок із набору результатів у вигляді об'єкта
--   [mysqliquery()](mysqli.query.html) - Виконує запит до бази даних
+-   [mysqliquery()](mysqli.query.md) - Виконує запит до бази даних
 -   [mysqlidataseek()](mysqli-result.data-seek.html) - Переміщує покажчик результату на вибраний рядок

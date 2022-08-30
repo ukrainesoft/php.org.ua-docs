@@ -4,9 +4,9 @@
     
 -   [statsrandgenchisquare »](function.stats-rand-gen-chisquare.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Обчислює випадкове відхилення від бета-розподілу
     

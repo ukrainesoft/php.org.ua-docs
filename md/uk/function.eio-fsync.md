@@ -4,9 +4,9 @@
     
 -   [eioftruncate »](function.eio-ftruncate.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Синхронізує поточний стан файлу із фізичним пристроєм
     

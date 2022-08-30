@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](dba.constants.html)
+-   [« Обумовлені константи](dba.constants.md)
     
--   [Базовое использование »](dba.example.html)
+-   [Базовое использование »](dba.example.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DBA](book.dba.html)
+-   [DBA](book.dba.md)
     
 -   Приклади
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [Базовое использование](dba.example.html)
+-   [Базовое использование](dba.example.md)

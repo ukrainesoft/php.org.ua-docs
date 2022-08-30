@@ -1,12 +1,12 @@
 Повертає значення за вказаним індексом
 
--   [« ArrayObject::offsetExists](arrayobject.offsetexists.html)
+-   [« ArrayObject::offsetExists](arrayobject.offsetexists.md)
     
--   [ArrayObject::offsetSet »](arrayobject.offsetset.html)
+-   [ArrayObject::offsetSet »](arrayobject.offsetset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayObject](class.arrayobject.html)
+-   [ArrayObject](class.arrayobject.md)
     
 -   Повертає значення за вказаним індексом
     

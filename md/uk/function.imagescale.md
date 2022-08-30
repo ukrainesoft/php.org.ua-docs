@@ -1,12 +1,12 @@
 Масштабувати зображення за заданою шириною та висотою
 
--   [« imagesavealpha](function.imagesavealpha.html)
+-   [« imagesavealpha](function.imagesavealpha.md)
     
--   [imagesetbrush »](function.imagesetbrush.html)
+-   [imagesetbrush »](function.imagesetbrush.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Масштабувати зображення за заданою шириною та висотою
     
@@ -33,7 +33,7 @@ imagescale(    GdImage $image,    int $width,    int $height = -1, 
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `width`
 
@@ -55,12 +55,12 @@ imagescale(    GdImage $image,    int $width,    int $height = -1, 
 
 ### список змін
 
-| Версия | Описание                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource).                               |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [imagecopyresized()](function.imagecopyresized.html) - Копіювання та зміна розміру частини зображення
--   [imagecopyresampled()](function.imagecopyresampled.html) - Копіювання та зміна розміру зображення з ресемплюванням
+-   [imagecopyresized()](function.imagecopyresized.md) - Копіювання та зміна розміру частини зображення
+-   [imagecopyresampled()](function.imagecopyresampled.md) - Копіювання та зміна розміру зображення з ресемплюванням

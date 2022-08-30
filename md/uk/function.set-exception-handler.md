@@ -4,9 +4,9 @@
     
 -   [triggererror »](function.trigger-error.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции обработки ошибок](ref.errorfunc.html)
+-   [Функции обработки ошибок](ref.errorfunc.md)
     
 -   Задає користувальницький обробник винятків
     
@@ -29,7 +29,7 @@ set_exception_handler(?callable $callback): ?callable
 
 `callback`
 
-Функція, що викликається у разі неперехопленого винятку. Ця функція-обробник повинна приймати один параметр, яким буде об'єкт викинутого виключення [Throwable](class.throwable.html). І [Error](class.error.html) і [Exception](class.exception.html) реалізують інтерфейс [Throwable](class.throwable.html). Сигнатура оброблювача:
+Функція, що викликається у разі неперехопленого винятку. Ця функція-обробник повинна приймати один параметр, яким буде об'єкт викинутого виключення [Throwable](class.throwable.md). І [Error](class.error.md) і [Exception](class.exception.md) реалізують інтерфейс [Throwable](class.throwable.md). Сигнатура оброблювача:
 
 ```methodsynopsis
 handler(Throwable $ex): void
@@ -63,4 +63,4 @@ echo "Не выполнено\n";
 -   [restoreexceptionhandler()](function.restore-exception-handler.html) - Відновлює попередній обробник винятків
 -   [restoreerrorhandler()](function.restore-error-handler.html) - Відновлює попередній обробник помилок
 -   [errorreporting()](function.error-reporting.html) - Задає, які помилки PHP потраплять у звіт
--   [Исключения PHP 5](language.exceptions.html)
+-   [Исключения PHP 5](language.exceptions.md)

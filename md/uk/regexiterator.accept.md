@@ -59,5 +59,5 @@ David
 
 ### Дивіться також
 
--   [Константы RegexIterator](class.regexiterator.html#regexiterator.constants)
+-   [Константи RegexIterator](class.regexiterator.html#regexiterator.constants)
 -   [RegexIterator::setFlags()](regexiterator.setflags.html) - Установка прапорів

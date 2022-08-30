@@ -1,12 +1,12 @@
 Вирівнює гістограму зображення
 
--   [« Gmagick::enhanceimage](gmagick.enhanceimage.html)
+-   [« Gmagick::enhanceimage](gmagick.enhanceimage.md)
     
--   [Gmagick::flipimage »](gmagick.flipimage.html)
+-   [Gmagick::flipimage »](gmagick.flipimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Вирівнює гістограму зображення
     
@@ -31,7 +31,7 @@ public Gmagick::equalizeimage(): Gmagick
 
 ### Значення, що повертаються
 
-Вирівняний об'єкт [Gmagick](class.gmagick.html)
+Вирівняний об'єкт [Gmagick](class.gmagick.md)
 
 ### Помилки
 

@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](hash.installation.html)
+-   [« Установка](hash.installation.md)
     
--   [Типы ресурсов »](hash.resources.html)
+-   [Типи ресурсів »](hash.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](hash.setup.html)
+-   [Встановлення та налаштування](hash.setup.md)
     
 -   Налаштування під час виконання
     

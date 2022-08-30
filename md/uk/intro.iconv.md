@@ -2,7 +2,7 @@
 
 -   [« iconv](book.iconv.html)
     
--   [Установка и настройка »](iconv.setup.html)
+-   [Встановлення та налаштування »](iconv.setup.html)
     
 -   [PHP Manual](index.html)
     

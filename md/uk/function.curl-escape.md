@@ -4,9 +4,9 @@
     
 -   [curlexec »](function.curl-exec.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции cURL](ref.curl.html)
+-   [Функции cURL](ref.curl.md)
     
 -   Кодує рядок як URL
     
@@ -41,9 +41,9 @@ curl_escape(CurlHandle $handle, string $string): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -73,6 +73,6 @@ curl_close($ch);
 ### Дивіться також
 
 -   [curlunescape()](function.curl-unescape.html) - Декодує закодований URL-рядок
--   [urlencode()](function.urlencode.html) - URL-кодування рядка
--   [rawurlencode()](function.rawurlencode.html) - URL-кодування рядка згідно з RFC 3986
+-   [urlencode()](function.urlencode.md) - URL-кодування рядка
+-   [rawurlencode()](function.rawurlencode.md) - URL-кодування рядка згідно з RFC 3986
 -   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

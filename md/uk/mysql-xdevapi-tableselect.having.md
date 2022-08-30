@@ -4,7 +4,7 @@
     
 -   [TableSelect::limit »](mysql-xdevapi-tableselect.limit.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
     

@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](fdf.configuration.html)
+-   [« Налаштування під час виконання](fdf.configuration.md)
     
--   [Предопределённые константы »](fdf.constants.html)
+-   [Обумовлені константи »](fdf.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](fdf.setup.html)
+-   [Встановлення та налаштування](fdf.setup.md)
     
 -   Типи ресурсів
     

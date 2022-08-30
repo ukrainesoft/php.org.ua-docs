@@ -4,9 +4,9 @@
     
 -   [traderхтsine »](function.trader-ht-sine.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Перетворення Гільберта - Phasor Components
     

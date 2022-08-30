@@ -1,12 +1,12 @@
 Повертає індекс елемента у архіві
 
--   [« ZipArchive::isEncryptionMethodSupported](ziparchive.isencryptionmethoddupported.html)
+-   [« ZipArchive::isEncryptionMethodSupported](ziparchive.isencryptionmethoddupported.md)
     
--   [ZipArchive::open »](ziparchive.open.html)
+-   [ZipArchive::open »](ziparchive.open.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Повертає індекс елемента у архіві
     

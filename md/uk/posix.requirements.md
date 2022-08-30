@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](posix.setup.html)
+-   [« Встановлення та налаштування](posix.setup.html)
     
 -   [Установка »](posix.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](posix.setup.html)
+-   [Встановлення та налаштування](posix.setup.html)
     
 -   Вимоги
     

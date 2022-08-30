@@ -1,12 +1,12 @@
 Видаляє файл усередині phar-архіву
 
--   [« Phar::delMetadata](phar.delmetadata.html)
+-   [« Phar::delMetadata](phar.delmetadata.md)
     
--   [Phar::destruct »](phar.destruct.html)
+-   [Phar::destruct »](phar.destruct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Phar](class.phar.html)
+-   [Phar](class.phar.md)
     
 -   Видаляє файл усередині phar-архіву
     
@@ -25,9 +25,9 @@ public Phar::delete(string $localName): bool
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.html)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
-Видаляє файл із архіву. Ця функція аналогічна виклику [unlink()](function.unlink.html) для обгортки потоку, як показано в прикладі нижче.
+Видаляє файл із архіву. Ця функція аналогічна виклику [unlink()](function.unlink.md) для обгортки потоку, як показано в прикладі нижче.
 
 ### Список параметрів
 
@@ -41,7 +41,7 @@ public Phar::delete(string $localName): bool
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.html), якщо виникли помилки під час запису змін на диск.
+Викидає виняток [PharException](class.pharexception.md), якщо виникли помилки під час запису змін на диск.
 
 ### Приклади
 
@@ -62,5 +62,5 @@ try {
 
 ### Дивіться також
 
--   [PharData::delete()](phardata.delete.html) - Видалити файл із tar/zip-архіву
--   [Phar::unlinkArchive()](phar.unlinkarchive.html) - Повністю видалити архів з пам'яті та з диска
+-   [PharData::delete()](phardata.delete.md) - Видалити файл із tar/zip-архіву
+-   [Phar::unlinkArchive()](phar.unlinkarchive.md) - Повністю видалити архів з пам'яті та з диска

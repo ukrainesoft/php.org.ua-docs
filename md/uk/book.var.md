@@ -1,37 +1,37 @@
 Обробка змінних
 
--   [« ReflectionException](class.reflectionexception.html)
+-   [« ReflectionException](class.reflectionexception.md)
     
--   [Введение »](intro.var.html)
+-   [Введение »](intro.var.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модули, относящиеся к переменным и типам](refs.basic.vartype.html)
+-   [Модулі, що відносяться до змінних та типів](refs.basic.vartype.md)
     
 -   Обробка змінних
     
 
 # Обробка змінних
 
--   [Введение](intro.var.html)
--   [Установка и настройка](var.setup.html)
-    -   [Требования](var.requirements.html)
-    -   [Установка](var.installation.html)
-    -   [Настройка во время выполнения](var.configuration.html)
-    -   [Типы ресурсов](var.resources.html)
--   [Предопределённые константы](var.constants.html)
--   [Функції для роботи зі змінними](ref.var.html)
-    -   [boolval](function.boolval.html) — Повертає логічне значення змінної
+-   [Введение](intro.var.md)
+-   [Встановлення та налаштування](var.setup.md)
+    -   [Вимоги](var.requirements.md)
+    -   [Установка](var.installation.md)
+    -   [Налаштування під час виконання](var.configuration.md)
+    -   [Типи ресурсів](var.resources.md)
+-   [Обумовлені константи](var.constants.md)
+-   [Функції для роботи зі змінними](ref.var.md)
+    -   [boolval](function.boolval.md) — Повертає логічне значення змінної
     -   [debugzvaldump](function.debug-zval-dump.html) — Виводить рядкову виставу внутрішньої структури zval
-    -   [doubleval](function.doubleval.html) - Псевдонім floatval
-    -   [empty](function.empty.html) — Перевіряє, чи пуста змінна
-    -   [floatval](function.floatval.html) — Повертає значення змінної у вигляді числа з точкою, що плаває.
+    -   [doubleval](function.doubleval.md) - Псевдонім floatval
+    -   [empty](function.empty.md) — Перевіряє, чи пуста змінна
+    -   [floatval](function.floatval.md) — Повертає значення змінної у вигляді числа з точкою, що плаває.
     -   [getdebugtype](function.get-debug-type.html) — Повертає ім'я типу змінної у вигляді, що підходить для налагодження
     -   [getdefinedvars](function.get-defined-vars.html) — Повертає масив усіх певних змінних
     -   [getresourceід](function.get-resource-id.html) — Повертає цілий ідентифікатор для цього ресурсу
     -   [getresourcetype](function.get-resource-type.html) — Повертає тип ресурсу
-    -   [gettype](function.gettype.html) - Повертає тип змінної
-    -   [intval](function.intval.html) — Повертає ціле значення змінної
+    -   [gettype](function.gettype.md) - Повертає тип змінної
+    -   [intval](function.intval.md) — Повертає ціле значення змінної
     -   [ісarray](function.is-array.html) — Визначає, чи є змінна масивом
     -   [ісbool](function.is-bool.html) — Перевіряє, чи є змінна булевою
     -   [ісcallable](function.is-callable.html) — Перевіряє, що значення може бути викликане як функція у поточній області видимості
@@ -49,12 +49,12 @@
     -   [ісresource](function.is-resource.html) — Перевіряє, чи є змінна ресурсом
     -   [ісscalar](function.is-scalar.html) — Перевіряє, чи є змінна скалярним значенням
     -   [ісstring](function.is-string.html) — Перевіряє, чи є змінним рядком
-    -   [isset](function.isset.html) — Визначає, чи була встановлена ​​змінна значенням, відмінним від null
+    -   [isset](function.isset.md) — Визначає, чи була встановлена ​​змінна значенням, відмінним від null
     -   [printр](function.print-r.html) — Виводить інформацію, що читає легко, про змінну
-    -   [serialize](function.serialize.html) - Генерує придатне для зберігання уявлення змінної
-    -   [settype](function.settype.html) - Задає тип змінної
-    -   [strval](function.strval.html) — Повертає строкове значення змінної
-    -   [unserialize](function.unserialize.html) — Створює PHP-значення зі збереженого уявлення
-    -   [unset](function.unset.html) - Видаляє змінну
+    -   [serialize](function.serialize.md) - Генерує придатне для зберігання уявлення змінної
+    -   [settype](function.settype.md) - Задає тип змінної
+    -   [strval](function.strval.md) — Повертає строкове значення змінної
+    -   [unserialize](function.unserialize.md) — Створює PHP-значення зі збереженого уявлення
+    -   [unset](function.unset.md) - Видаляє змінну
     -   [vardump](function.var-dump.html) — Виводить інформацію про змінну
     -   [varexport](function.var-export.html) — Виводить або повертає інтерпретоване рядкове подання змінної

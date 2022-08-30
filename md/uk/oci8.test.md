@@ -1,12 +1,12 @@
 Тестування
 
--   [« Установка](oci8.installation.html)
+-   [« Установка](oci8.installation.md)
     
--   [Настройка во время выполнения »](oci8.configuration.html)
+-   [Налаштування під час виконання »](oci8.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](oci8.setup.html)
+-   [Встановлення та налаштування](oci8.setup.md)
     
 -   Тестування
     

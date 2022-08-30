@@ -1,12 +1,12 @@
 Встановити шлях запиту токена
 
--   [« OAuthProvider::setParam](oauthprovider.setparam.html)
+-   [« OAuthProvider::setParam](oauthprovider.setparam.md)
     
--   [OAuthProvider::timestampNonceHandler »](oauthprovider.timestampnoncehandler.html)
+-   [OAuthProvider::timestampNonceHandler »](oauthprovider.timestampnoncehandler.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuthProvider](class.oauthprovider.html)
+-   [OAuthProvider](class.oauthprovider.md)
     
 -   Встановити шлях запиту токена
     
@@ -41,4 +41,4 @@ final public OAuthProvider::setRequestTokenPath(string $path): bool
 
 ### Дивіться також
 
--   [OAuthProvider::tokenHandler()](oauthprovider.tokenhandler.html) - Встановити обробник tokenHandler
+-   [OAuthProvider::tokenHandler()](oauthprovider.tokenhandler.md) - Встановити обробник tokenHandler

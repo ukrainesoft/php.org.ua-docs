@@ -1,12 +1,12 @@
 Клас LuaSandboxErrorError
 
--   [« LuaSandboxError](class.luasandboxerror.html)
+-   [« LuaSandboxError](class.luasandboxerror.md)
     
--   [LuaSandboxFatalError »](class.luasandboxfatalerror.html)
+-   [LuaSandboxFatalError »](class.luasandboxfatalerror.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LuaSandbox](book.luasandbox.html)
+-   [LuaSandbox](book.luasandbox.md)
     
 -   Клас LuaSandboxErrorError
     

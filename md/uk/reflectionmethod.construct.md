@@ -1,12 +1,12 @@
 Конструктор класу ReflectionMethod
 
--   [« ReflectionMethod](class.reflectionmethod.html)
+-   [« ReflectionMethod](class.reflectionmethod.md)
     
--   [ReflectionMethod::export »](reflectionmethod.export.html)
+-   [ReflectionMethod::export »](reflectionmethod.export.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionMethod](class.reflectionmethod.html)
+-   [ReflectionMethod](class.reflectionmethod.md)
     
 -   Конструктор класу ReflectionMethod
     
@@ -25,7 +25,7 @@ public **ReflectionMethod::construct**(object | string `$objectOrMethod`, string
 
 public **ReflectionMethod::construct**(string `$classMethod`
 
-Створює новий об'єкт класу [ReflectionMethod](class.reflectionmethod.html)
+Створює новий об'єкт класу [ReflectionMethod](class.reflectionmethod.md)
 
 ### Список параметрів
 
@@ -43,7 +43,7 @@ public **ReflectionMethod::construct**(string `$classMethod`
 
 ### Помилки
 
-Виняток [ReflectionException](class.reflectionexception.html) викидається, якщо заданий метод немає.
+Виняток [ReflectionException](class.reflectionexception.md) викидається, якщо заданий метод немає.
 
 ### Приклади
 
@@ -129,5 +129,5 @@ var_dump($method->invoke(NULL));
 
 ### Дивіться також
 
--   [ReflectionMethod::export()](reflectionmethod.export.html) - Експорт відбитого методу
+-   [ReflectionMethod::export()](reflectionmethod.export.md) - Експорт відбитого методу
 -   [Конструктори](language.oop5.decon.html#language.oop5.decon.constructor)

@@ -2,11 +2,11 @@
 
 -   [« opcacheісscriptcached](function.opcache-is-script-cached.html)
     
--   [Контроль виведення »](book.outcontrol.html)
+-   [Контроль виведення »](book.outcontrol.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OPcache](ref.opcache.html)
+-   [Функции OPcache](ref.opcache.md)
     
 -   Скидає вміст кешу опкодів
     

@@ -1,12 +1,12 @@
 Перейти до першого елементу
 
--   [« IntlIterator::next](intliterator.next.html)
+-   [« IntlIterator::next](intliterator.next.md)
     
--   [IntlIterator::valid »](intliterator.valid.html)
+-   [IntlIterator::valid »](intliterator.valid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlIterator](class.intliterator.html)
+-   [IntlIterator](class.intliterator.md)
     
 -   Перейти до першого елементу
     

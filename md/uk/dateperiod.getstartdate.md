@@ -2,7 +2,7 @@
 
 -   [« DatePeriod::getRecurrences](dateperiod.getrecurrences.html)
     
--   [Функции даты и времени »](ref.datetime.html)
+-   [Функції дати та часу »](ref.datetime.html)
     
 -   [PHP Manual](index.html)
     

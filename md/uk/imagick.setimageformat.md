@@ -1,12 +1,12 @@
 Встановлює формат певного зображення
 
--   [« Imagick::setImageFilename](imagick.setimagefilename.html)
+-   [« Imagick::setImageFilename](imagick.setimagefilename.md)
     
--   [Imagick::setImageGamma »](imagick.setimagegamma.html)
+-   [Imagick::setImageGamma »](imagick.setimagegamma.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює формат певного зображення
     

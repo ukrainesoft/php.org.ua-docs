@@ -1,12 +1,12 @@
 Перевіряє, чи двозв'язковий список є порожнім
 
--   [« SplDoublyLinkedList::getIteratorMode](spldoublylinkedlist.getiteratormode.html)
+-   [« SplDoublyLinkedList::getIteratorMode](spldoublylinkedlist.getiteratormode.md)
     
--   [SplDoublyLinkedList::key »](spldoublylinkedlist.key.html)
+-   [SplDoublyLinkedList::key »](spldoublylinkedlist.key.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
     
 -   Перевіряє, чи двозв'язковий список є порожнім
     

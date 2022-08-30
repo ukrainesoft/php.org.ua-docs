@@ -4,9 +4,9 @@
     
 -   [tidywarningcount »](function.tidy-warning-count.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Tidy](ref.tidy.html)
+-   [Tidy](ref.tidy.md)
     
 -   Повертає рядок, який представляє розібрану tidy-розмітку
     
@@ -29,7 +29,7 @@ tidy_get_output(tidy $tidy): string
 
 `tidy`
 
-Об'єкт [Tidy](class.tidy.html)
+Об'єкт [Tidy](class.tidy.md)
 
 ### Значення, що повертаються
 

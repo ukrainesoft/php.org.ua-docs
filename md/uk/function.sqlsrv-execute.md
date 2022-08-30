@@ -4,9 +4,9 @@
     
 -   [sqlsrvfetcharray »](function.sqlsrv-fetch-array.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.md)
     
 -   Виконує запит підготовлений за допомогою sqlsrvprepare
     
@@ -63,7 +63,7 @@ if( !$stmt ) {
 }
 
 // Настройка информации SalesOrderDetailID и OrderQty.
-// Этот массив сопоставляет идентификатор заказа с количеством заказа в парах ключ => значение.
+// Этот Масив сопоставляет идентификатор заказа с количеством заказа в парах ключ => значение.
 $orders = array( 1=>10, 2=>20, 3=>30);
 
 // Выполнение запроса для каждого заказа.

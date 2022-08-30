@@ -1,12 +1,12 @@
 Повертає формат конкретного зображення у послідовності
 
--   [« Imagick::getImageFilename](imagick.getimagefilename.html)
+-   [« Imagick::getImageFilename](imagick.getimagefilename.md)
     
--   [Imagick::getImageGamma »](imagick.getimagegamma.html)
+-   [Imagick::getImageGamma »](imagick.getimagegamma.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає формат конкретного зображення у послідовності
     

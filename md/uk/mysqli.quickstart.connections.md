@@ -2,7 +2,7 @@
 
 -   [« Процедурний та об'єктно-орієнтований інтерфейс](mysqli.quickstart.dual-interface.html)
     
--   [Выполнение запросов »](mysqli.quickstart.statements.html)
+-   [Виконання запитів »](mysqli.quickstart.statements.html)
     
 -   [PHP Manual](index.html)
     

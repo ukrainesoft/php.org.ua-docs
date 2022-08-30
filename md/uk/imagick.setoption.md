@@ -1,12 +1,12 @@
 Встановлює опцію
 
--   [« Imagick::setLastIterator](imagick.setlastiterator.html)
+-   [« Imagick::setLastIterator](imagick.setlastiterator.md)
     
--   [Imagick::setPage »](imagick.setpage.html)
+-   [Imagick::setPage »](imagick.setpage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює опцію
     

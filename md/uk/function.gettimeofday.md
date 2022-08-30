@@ -1,12 +1,12 @@
 Повертає поточний час
 
--   [« getdate](function.getdate.html)
+-   [« getdate](function.getdate.md)
     
--   [gmdate »](function.gmdate.html)
+-   [gmdate »](function.gmdate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Повертає поточний час
     

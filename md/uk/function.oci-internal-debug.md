@@ -1,12 +1,12 @@
 Вмикає або вимикає внутрішній висновок налагодження
 
--   [« Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [« Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
--   [ocibindbyname »](function.ocibindbyname.html)
+-   [ocibindbyname »](function.ocibindbyname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Вмикає або вимикає внутрішній висновок налагодження
     
@@ -47,4 +47,4 @@ oci_internal_debug(bool $onoff): void
 
 > **Зауваження**
 > 
-> У версіях PHP до 5.0.0 замість функції слід використовувати [ociinternaldebug()](function.ociinternaldebug.html). Її все ще можна використати, вона була залишена як псевдонім **ociinternaldebug()** для зворотної сумісності. Однак, функція оголошена застарілою і не рекомендується до використання.
+> У версіях PHP до 5.0.0 замість функції слід використовувати [ociinternaldebug()](function.ociinternaldebug.md). Її все ще можна використати, вона була залишена як псевдонім **ociinternaldebug()** для зворотної сумісності. Однак, функція оголошена застарілою і не рекомендується до використання.

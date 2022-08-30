@@ -1,12 +1,12 @@
 Повертає шлях до поточного елементу DirectoryIterator без імені файлу
 
--   [« DirectoryIterator::getOwner](directoryiterator.getowner.html)
+-   [« DirectoryIterator::getOwner](directoryiterator.getowner.md)
     
--   [DirectoryIterator::getPathname »](directoryiterator.getpathname.html)
+-   [DirectoryIterator::getPathname »](directoryiterator.getpathname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DirectoryIterator](class.directoryiterator.html)
+-   [DirectoryIterator](class.directoryiterator.md)
     
 -   Повертає шлях до поточного елементу DirectoryIterator без імені файлу
     
@@ -23,7 +23,7 @@ DirectoryIterator::getPath — Повертає шлях до поточного
 public DirectoryIterator::getPath(): string
 ```
 
-Повертає шлях до поточного елементу [DirectoryIterator](class.directoryiterator.html)
+Повертає шлях до поточного елементу [DirectoryIterator](class.directoryiterator.md)
 
 ### Список параметрів
 
@@ -52,7 +52,7 @@ echo $iterator->getPath();
 
 ### Дивіться також
 
--   [DirectoryIterator::getBasename()](directoryiterator.getbasename.html) - Повертає ім'я файлу (без розширення) поточного елемента DirectoryIterator
--   [DirectoryIterator::getFilename()](directoryiterator.getfilename.html) - Повертає ім'я файлу поточного елемента DirectoryIterator
--   [DirectoryIterator::getPathname()](directoryiterator.getpathname.html) - Повертає шлях та ім'я файлу поточного елемента DirectoryIterator
--   [pathinfo()](function.pathinfo.html) - Повертає інформацію про шлях до файлу
+-   [DirectoryIterator::getBasename()](directoryiterator.getbasename.md) - Повертає ім'я файлу (без розширення) поточного елемента DirectoryIterator
+-   [DirectoryIterator::getFilename()](directoryiterator.getfilename.md) - Повертає ім'я файлу поточного елемента DirectoryIterator
+-   [DirectoryIterator::getPathname()](directoryiterator.getpathname.md) - Повертає шлях та ім'я файлу поточного елемента DirectoryIterator
+-   [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях до файлу

@@ -1,12 +1,12 @@
 Надсилає HTML-повідомлення про помилку клієнту
 
--   [« EventHttpRequest::removeHeader](eventhttprequest.removeheader.html)
+-   [« EventHttpRequest::removeHeader](eventhttprequest.removeheader.md)
     
--   [EventHttpRequest::sendReply »](eventhttprequest.sendreply.html)
+-   [EventHttpRequest::sendReply »](eventhttprequest.sendreply.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpRequest](class.eventhttprequest.html)
+-   [EventHttpRequest](class.eventhttprequest.md)
     
 -   Надсилає HTML-повідомлення про помилку клієнту
     
@@ -69,4 +69,4 @@ $base->loop();
 
 ### Дивіться також
 
--   [EventHttpRequest::sendReply()](eventhttprequest.sendreply.html) - Відправляє HTML-відповідь клієнту
+-   [EventHttpRequest::sendReply()](eventhttprequest.sendreply.md) - Відправляє HTML-відповідь клієнту

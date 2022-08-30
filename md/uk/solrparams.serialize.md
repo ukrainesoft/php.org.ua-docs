@@ -1,12 +1,12 @@
 Використовується для серіалізації користувача
 
--   [« SolrParams::getPreparedParams](solrparams.getpreparedparams.html)
+-   [« SolrParams::getPreparedParams](solrparams.getpreparedparams.md)
     
--   [SolrParams::set »](solrparams.set.html)
+-   [SolrParams::set »](solrparams.set.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrParams](class.solrparams.html)
+-   [SolrParams](class.solrparams.md)
     
 -   Використовується для серіалізації користувача
     

@@ -4,7 +4,7 @@
     
 -   [Table::getName »](mysql-xdevapi-table.getname.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiTable](class.mysql-xdevapi-table.html)
     

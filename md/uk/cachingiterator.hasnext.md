@@ -1,12 +1,12 @@
 Перевіряє, чи внутрішній ітератор має допустимий наступний елемент
 
--   [« CachingIterator::getInnerIterator](cachingiterator.getinneriterator.html)
+-   [« CachingIterator::getInnerIterator](cachingiterator.getinneriterator.md)
     
--   [CachingIterator::key »](cachingiterator.key.html)
+-   [CachingIterator::key »](cachingiterator.key.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CachingIterator](class.cachingiterator.html)
+-   [CachingIterator](class.cachingiterator.md)
     
 -   Перевіряє, чи внутрішній ітератор має допустимий наступний елемент
     

@@ -1,12 +1,12 @@
 Отримує поточне значення параметрів перетворення кодувань
 
--   [« Функции iconv](ref.iconv.html)
+-   [« Функции iconv](ref.iconv.md)
     
 -   [iconvmimedecodeheaders »](function.iconv-mime-decode-headers.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции iconv](ref.iconv.html)
+-   [Функции iconv](ref.iconv.md)
     
 -   Отримує поточне значення параметрів перетворення кодувань
     

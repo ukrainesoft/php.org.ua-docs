@@ -1,12 +1,12 @@
 Визначає, чи завершено файбер
 
--   [« Fiber::isRunning](fiber.isrunning.html)
+-   [« Fiber::isRunning](fiber.isrunning.md)
     
--   [Fiber::suspend »](fiber.suspend.html)
+-   [Fiber::suspend »](fiber.suspend.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Fiber](class.fiber.html)
+-   [Fiber](class.fiber.md)
     
 -   Визначає, чи завершено файбер
     

@@ -4,9 +4,9 @@
     
 -   [sodiumcryptogenerichashinit »](function.sodium-crypto-generichash-init.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Закінчити хешування
     

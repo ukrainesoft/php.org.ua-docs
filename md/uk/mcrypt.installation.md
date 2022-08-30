@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](mcrypt.requirements.html)
+-   [« Вимоги](mcrypt.requirements.html)
     
--   [Настройка во время выполнения »](mcrypt.configuration.html)
+-   [Налаштування під час виконання »](mcrypt.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](mcrypt.setup.html)
+-   [Встановлення та налаштування](mcrypt.setup.html)
     
 -   Встановлення
     

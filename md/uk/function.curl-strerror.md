@@ -69,4 +69,4 @@ cURL error (1):
 
 -   [curlerrno()](function.curl-errno.html) - Повертає код останньої помилки
 -   [curlerror()](function.curl-error.html) - Повертає рядок із описом останньої помилки поточного сеансу
--   [» Коды ошибок Curl](http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+-   [» Коди помилок Curl](http://curl.haxx.se/libcurl/c/libcurl-errors.html)

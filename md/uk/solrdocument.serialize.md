@@ -1,12 +1,12 @@
 Використовується для серіалізації користувача
 
--   [« SolrDocument::rewind](solrdocument.rewind.html)
+-   [« SolrDocument::rewind](solrdocument.rewind.md)
     
--   [SolrDocument::set »](solrdocument.set.html)
+-   [SolrDocument::set »](solrdocument.set.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocument](class.solrdocument.html)
+-   [SolrDocument](class.solrdocument.md)
     
 -   Використовується для серіалізації користувача
     

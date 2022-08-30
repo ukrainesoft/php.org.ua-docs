@@ -1,10 +1,10 @@
 Функції Mysqlxdevapi
 
--   [« Примеры](mysql-xdevapi.examples.html)
+-   [« Приклади](mysql-xdevapi.examples.html)
     
 -   [expression »](function.mysql-xdevapi-expression.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Mysqlxdevapi](book.mysql-xdevapi.html)
     

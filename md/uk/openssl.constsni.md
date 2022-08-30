@@ -2,11 +2,11 @@
 
 -   [« Константи версій](openssl.constversion.html)
     
--   [Другие константы »](openssl.constants.other.html)
+-   [Інші константи »](openssl.constants.other.html)
     
 -   [PHP Manual](index.html)
     
--   [Предопределённые константы](openssl.constants.html)
+-   [Обумовлені константи](openssl.constants.html)
     
 -   Константа SNI (Server Name Indication)
     

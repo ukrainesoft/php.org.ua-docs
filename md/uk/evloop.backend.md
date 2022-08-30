@@ -1,12 +1,12 @@
 Повертає ціле число, що описує бекенд, використовуваний libev
 
--   [« EvLoop](class.evloop.html)
+-   [« EvLoop](class.evloop.md)
     
--   [EvLoop::check »](evloop.check.html)
+-   [EvLoop::check »](evloop.check.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvLoop](class.evloop.html)
+-   [EvLoop](class.evloop.md)
     
 -   Повертає ціле число, що описує бекенд, використовуваний libev
     
@@ -24,7 +24,7 @@ public
    EvLoop::backend(): int
 ```
 
-Те саме, що [Ev::backend()](ev.backend.html)але для екземпляра циклу.
+Те саме, що [Ev::backend()](ev.backend.md)але для екземпляра циклу.
 
 ### Список параметрів
 
@@ -32,8 +32,8 @@ public
 
 ### Значення, що повертаються
 
-Повертає ціле число, що описує бекенд, який використовується libev. Дивіться [Ev::backend()](ev.backend.html)
+Повертає ціле число, що описує бекенд, який використовується libev. Дивіться [Ev::backend()](ev.backend.md)
 
 ### Дивіться також
 
--   [Ev::backend()](ev.backend.html) - Повертає ціле число, що описує бекенд, що використовується libev
+-   [Ev::backend()](ev.backend.md) - Повертає ціле число, що описує бекенд, що використовується libev

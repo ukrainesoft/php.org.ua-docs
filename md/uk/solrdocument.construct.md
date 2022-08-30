@@ -1,12 +1,12 @@
 Конструктор
 
--   [« SolrDocument::clone](solrdocument.clone.html)
+-   [« SolrDocument::clone](solrdocument.clone.md)
     
--   [SolrDocument::current »](solrdocument.current.html)
+-   [SolrDocument::current »](solrdocument.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocument](class.solrdocument.html)
+-   [SolrDocument](class.solrdocument.md)
     
 -   Конструктор
     

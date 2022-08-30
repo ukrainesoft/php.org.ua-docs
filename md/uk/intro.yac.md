@@ -1,12 +1,12 @@
 Вступ
 
--   [« Yac](book.yac.html)
+-   [« Yac](book.yac.md)
     
--   [Установка и настройка »](yac.setup.html)
+-   [Встановлення та налаштування »](yac.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yac](book.yac.html)
+-   [Yac](book.yac.md)
     
 -   Вступ
     

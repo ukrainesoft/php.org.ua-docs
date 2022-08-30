@@ -2,7 +2,7 @@
 
 -   [« GnuPG](book.gnupg.html)
     
--   [Установка и настройка »](gnupg.setup.html)
+-   [Встановлення та налаштування »](gnupg.setup.html)
     
 -   [PHP Manual](index.html)
     

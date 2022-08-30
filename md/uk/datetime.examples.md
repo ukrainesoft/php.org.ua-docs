@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](datetime.constants.html)
+-   [« Обумовлені константи](datetime.constants.md)
     
--   [Арифметика даты/времени »](datetime.examples-arithmetic.html)
+-   [Арифметика дати/часу »](datetime.examples-arithmetic.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Дата/время](book.datetime.html)
+-   [Дата/время](book.datetime.md)
     
 -   Приклади
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [Арифметика даты/времени](datetime.examples-arithmetic.html)
+-   [Арифметика дати/часу](datetime.examples-arithmetic.html)

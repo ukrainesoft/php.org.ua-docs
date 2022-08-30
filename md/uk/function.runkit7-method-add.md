@@ -4,9 +4,9 @@
     
 -   [runkit7methodcopy »](function.runkit7-method-copy.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції runkit7](ref.runkit7.html)
+-   [Функції runkit7](ref.runkit7.md)
     
 -   Динамічно додає новий метод у заданий клас
     
@@ -47,7 +47,7 @@ runkit7_method_add(    string $class_name,    string $method_name,   
 
 `closure`
 
-Замикання ([closure](class.closure.html)), Що визначає метод.
+Замикання ([closure](class.closure.md)), Що визначає метод.
 
 `flags`
 

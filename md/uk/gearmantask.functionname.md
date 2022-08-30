@@ -1,12 +1,12 @@
 Отримати ім'я функції
 
--   [« GearmanTask::function](gearmantask.function.html)
+-   [« GearmanTask::function](gearmantask.function.md)
     
--   [GearmanTask::isKnown »](gearmantask.isknown.html)
+-   [GearmanTask::isKnown »](gearmantask.isknown.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanTask](class.gearmantask.html)
+-   [GearmanTask](class.gearmantask.md)
     
 -   Отримати ім'я функції
     

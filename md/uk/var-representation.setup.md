@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.var_representation.html)
     
--   [Требования »](var-representation.requirements.html)
+-   [Вимоги »](var-representation.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [Требования](var-representation.requirements.html)
+-   [Вимоги](var-representation.requirements.html)
 -   [Установка](var-representation.installation.html)

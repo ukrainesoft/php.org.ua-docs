@@ -1,12 +1,12 @@
 Отримати ключові слова для локалі
 
--   [« Locale::getDisplayVariant](locale.getdisplayvariant.html)
+-   [« Locale::getDisplayVariant](locale.getdisplayvariant.md)
     
--   [Locale::getPrimaryLanguage »](locale.getprimarylanguage.html)
+-   [Locale::getPrimaryLanguage »](locale.getprimarylanguage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Locale](class.locale.html)
+-   [Locale](class.locale.md)
     
 -   Отримати ключові слова для локалі
     
@@ -84,4 +84,4 @@ currency = EUR
 
 ### Дивіться також
 
--   [localegetallvariants()](locale.getallvariants.html) - Отримання варіантів із переданої локалі
+-   [localegetallvariants()](locale.getallvariants.md) - Отримання варіантів із переданої локалі

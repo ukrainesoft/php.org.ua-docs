@@ -1,12 +1,12 @@
 Повертає код та рядок помилки роботи з bzip2 у вигляді масиву
 
--   [« bzerrno](function.bzerrno.html)
+-   [« bzerrno](function.bzerrno.md)
     
--   [bzerrstr »](function.bzerrstr.html)
+-   [bzerrstr »](function.bzerrstr.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Bzip2](ref.bzip2.html)
+-   [Функції Bzip2](ref.bzip2.md)
     
 -   Повертає код та рядок помилки роботи з bzip2 у вигляді масиву
     
@@ -29,7 +29,7 @@ bzerror(resource $bz): array
 
 `bz`
 
-Файловий покажчик. Має бути коректним і вказувати на файл, успішно відкритий [bzopen()](function.bzopen.html)
+Файловий покажчик. Має бути коректним і вказувати на файл, успішно відкритий [bzopen()](function.bzopen.md)
 
 ### Значення, що повертаються
 
@@ -50,5 +50,5 @@ echo $error["errstr"];
 
 ### Дивіться також
 
--   [bzerrno()](function.bzerrno.html) - Повертає код помилки роботи з bzip2
--   [bzerrstr()](function.bzerrstr.html) - Повертає рядок помилки роботи з bzip2
+-   [bzerrno()](function.bzerrno.md) - Повертає код помилки роботи з bzip2
+-   [bzerrstr()](function.bzerrstr.md) - Повертає рядок помилки роботи з bzip2

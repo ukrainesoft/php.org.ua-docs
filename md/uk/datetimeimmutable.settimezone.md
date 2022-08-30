@@ -1,12 +1,12 @@
 Встановлює часовий пояс
 
--   [« DateTimeImmutable::setTimestamp](datetimeimmutable.settimestamp.html)
+-   [« DateTimeImmutable::setTimestamp](datetimeimmutable.settimestamp.md)
     
--   [DateTimeImmutable::sub »](datetimeimmutable.sub.html)
+-   [DateTimeImmutable::sub »](datetimeimmutable.sub.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTimeImmutable](class.datetimeimmutable.html)
+-   [DateTimeImmutable](class.datetimeimmutable.md)
     
 -   Встановлює часовий пояс
     
@@ -29,11 +29,11 @@ public DateTimeImmutable::setTimezone(DateTimeZone $timezone): DateTimeImmutable
 
 `timezone`
 
-Об'єкт [DateTimeZone](class.datetimezone.html), що представляє бажаний часовий пояс.
+Об'єкт [DateTimeZone](class.datetimezone.md), що представляє бажаний часовий пояс.
 
 ### Значення, що повертаються
 
-Повертає новий модифікований об'єкт [DateTimeImmutable](class.datetimeimmutable.html) для ланцюжка методів. момент часу, що лежить в основі, не змінюється при виклику методу.
+Повертає новий модифікований об'єкт [DateTimeImmutable](class.datetimeimmutable.md) для ланцюжка методів. момент часу, що лежить в основі, не змінюється при виклику методу.
 
 ### Приклади
 
@@ -60,5 +60,5 @@ echo $newDate->format('Y-m-d H:i:sP') . "\n";
 
 ### Дивіться також
 
--   [DateTimeImmutable::getTimezone()](datetime.gettimezone.html) - Повертає часовий пояс щодо поточного значення DateTime
--   [DateTimeZone::construct()](datetimezone.construct.html) - Створює новий об'єкт DateTimeZone
+-   [DateTimeImmutable::getTimezone()](datetime.gettimezone.md) - Повертає часовий пояс щодо поточного значення DateTime
+-   [DateTimeZone::construct()](datetimezone.construct.md) - Створює новий об'єкт DateTimeZone

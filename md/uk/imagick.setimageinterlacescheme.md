@@ -1,12 +1,12 @@
 Встановлює стиснення зображення
 
--   [« Imagick::setImageIndex](imagick.setimageindex.html)
+-   [« Imagick::setImageIndex](imagick.setimageindex.md)
     
--   [Imagick::setImageInterpolateMethod »](imagick.setimageinterpolatemethod.html)
+-   [Imagick::setImageInterpolateMethod »](imagick.setimageinterpolatemethod.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює стиснення зображення
     

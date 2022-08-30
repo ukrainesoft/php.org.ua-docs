@@ -1,12 +1,12 @@
 Tidy
 
--   [« tidyNode::isText](tidynode.istext.html)
+-   [« tidyNode::isText](tidynode.istext.md)
     
 -   [проtidyhandler »](function.ob-tidyhandler.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Tidy](book.tidy.html)
+-   [Tidy](book.tidy.md)
     
 -   Tidy
     

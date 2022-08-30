@@ -4,7 +4,7 @@
     
 -   [YafRouteRewrite »](class.yaf-route-rewrite.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRouteRegex](class.yaf-route-regex.html)
     

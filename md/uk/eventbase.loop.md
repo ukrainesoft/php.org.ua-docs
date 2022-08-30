@@ -1,12 +1,12 @@
 Надсилання очікуваних подій
 
--   [« EventBase::gotStop](eventbase.gotstop.html)
+-   [« EventBase::gotStop](eventbase.gotstop.md)
     
--   [EventBase::priorityInit »](eventbase.priorityinit.html)
+-   [EventBase::priorityInit »](eventbase.priorityinit.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBase](class.eventbase.html)
+-   [EventBase](class.eventbase.md)
     
 -   Надсилання очікуваних подій
     
@@ -31,13 +31,13 @@ public
 
 **Увага**
 
-*НЕ* руйнуйте об'єкт [EventBase](class.eventbase.html) доки не звільнені пов'язані з `Event` ресурси. В іншому випадку це призведе до непередбачуваних результатів!
+*НЕ* руйнуйте об'єкт [EventBase](class.eventbase.md) доки не звільнені пов'язані з `Event` ресурси. В іншому випадку це призведе до непередбачуваних результатів!
 
 ### Список параметрів
 
 `flags`
 
-Необов'язкові прапори. Одна з констант `EventBase::LOOP_*`. Дивіться [EventBase константы](class.eventbase.html#eventbase.constants)
+Необов'язкові прапори. Одна з констант `EventBase::LOOP_*`. Дивіться [EventBase константи](class.eventbase.html#eventbase.constants)
 
 ### Значення, що повертаються
 
@@ -45,4 +45,4 @@ public
 
 ### Дивіться також
 
--   [EventBase::dispatch()](eventbase.dispatch.html) - Відправляє очікувані події
+-   [EventBase::dispatch()](eventbase.dispatch.md) - Відправляє очікувані події

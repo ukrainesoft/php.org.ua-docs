@@ -1,12 +1,12 @@
 Вступ
 
--   [« SVM](book.svm.html)
+-   [« SVM](book.svm.md)
     
--   [Установка и настройка »](svm.setup.html)
+-   [Встановлення та налаштування »](svm.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SVM](book.svm.html)
+-   [SVM](book.svm.md)
     
 -   Вступ
     

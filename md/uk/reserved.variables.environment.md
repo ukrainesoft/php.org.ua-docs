@@ -1,12 +1,12 @@
 Змінні оточення
 
--   [SESSION](reserved.variables.session.html)
+-   [SESSION](reserved.variables.session.md)
     
--   [COOKIE »](reserved.variables.cookies.html)
+-   [COOKIE »](reserved.variables.cookies.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые переменные](reserved.variables.html)
+-   [Зумовлені змінні](reserved.variables.md)
     
 -   Змінні оточення
     
@@ -51,5 +51,5 @@ echo 'Моё имя пользователя: ' .$_ENV["USER"] . '!';
 
 ### Дивіться також
 
--   [getenv()](function.getenv.html) - набуття значення змінної оточення
--   [Фільтрування даних](book.filter.html)
+-   [getenv()](function.getenv.md) - набуття значення змінної оточення
+-   [Фільтрування даних](book.filter.md)

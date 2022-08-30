@@ -33,7 +33,7 @@ openssl_pkcs7_verify(    string $input_filename,    int $flags,    ?
 
 `flags`
 
-`flags` можна використовувати модифікації процесу перевірки. Детальніше дивіться [константы PKCS7](openssl.pkcs7.flags.html)
+`flags` можна використовувати модифікації процесу перевірки. Детальніше дивіться [константи PKCS7](openssl.pkcs7.flags.html)
 
 `signers_certificates_filename`
 
@@ -59,10 +59,10 @@ openssl_pkcs7_verify(    string $input_filename,    int $flags,    ?
 
 ### список змін
 
-| Версия | Описание                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------|
-|        | `signers_certificates_filename` `untrusted_certificates_filename` `content` і `output_filename` тепер допускають значення null. |
-|        | Доданий параметр `output_filename`                                                                                              |
+| Версия | Описание |
+| --- | --- |
+|  | `signers_certificates_filename` `untrusted_certificates_filename` `content` і `output_filename` тепер допускають значення null. |
+|  | Доданий параметр `output_filename` |
 
 ### Примітки
 

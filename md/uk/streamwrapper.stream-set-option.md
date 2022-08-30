@@ -4,9 +4,9 @@
     
 -   [streamWrapper::streamstat »](streamwrapper.stream-stat.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [streamWrapper](class.streamwrapper.html)
+-   [streamWrapper](class.streamwrapper.md)
     
 -   Зміна налаштувань потоку
     

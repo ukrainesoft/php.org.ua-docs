@@ -1,12 +1,12 @@
 Аналізує кольори у послідовності зображень
 
--   [« Imagick::quantizeImage](imagick.quantizeimage.html)
+-   [« Imagick::quantizeImage](imagick.quantizeimage.md)
     
--   [Imagick::queryFontMetrics »](imagick.queryfontmetrics.html)
+-   [Imagick::queryFontMetrics »](imagick.queryfontmetrics.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Аналізує кольори у послідовності зображень
     

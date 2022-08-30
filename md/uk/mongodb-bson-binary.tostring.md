@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONBinary::unserialize »](mongodb-bson-binary.unserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONBinary](class.mongodb-bson-binary.html)
     
@@ -54,4 +54,4 @@ string(3) "foo"
 ### Дивіться також
 
 -   [MongoDBBSONBinary::getData()](mongodb-bson-binary.getdata.html) - Повертає дані Binary
--   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

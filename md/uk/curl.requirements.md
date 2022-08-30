@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](curl.setup.html)
+-   [« Встановлення та налаштування](curl.setup.html)
     
 -   [Установка »](curl.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](curl.setup.html)
+-   [Встановлення та налаштування](curl.setup.html)
     
 -   Вимоги
     

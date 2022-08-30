@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](sodium.requirements.html)
+-   [« Вимоги](sodium.requirements.md)
     
--   [Настройка во время выполнения »](sodium.configuration.html)
+-   [Налаштування під час виконання »](sodium.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](sodium.setup.html)
+-   [Встановлення та налаштування](sodium.setup.md)
     
 -   Встановлення
     
@@ -25,4 +25,4 @@
 
 ## Установка через PECL
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/libsodium](https://pecl.php.net/package/libsodium)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/libsodium](https://pecl.php.net/package/libsodium)

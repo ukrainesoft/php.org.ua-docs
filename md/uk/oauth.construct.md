@@ -1,12 +1,12 @@
 Створює новий об'єкт OAuth
 
--   [« OAuth](class.oauth.html)
+-   [« OAuth](class.oauth.md)
     
--   [OAuth::destruct »](oauth.destruct.html)
+-   [OAuth::destruct »](oauth.destruct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](class.oauth.html)
+-   [OAuth](class.oauth.md)
     
 -   Створює новий об'єкт OAuth
     

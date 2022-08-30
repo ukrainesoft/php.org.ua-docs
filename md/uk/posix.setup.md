@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.posix.html)
     
--   [Требования »](posix.requirements.html)
+-   [Вимоги »](posix.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](posix.requirements.html)
+-   [Вимоги](posix.requirements.html)
 -   [Установка](posix.installation.html)
--   [Настройка во время выполнения](posix.configuration.html)
--   [Типы ресурсов](posix.resources.html)
+-   [Налаштування під час виконання](posix.configuration.html)
+-   [Типи ресурсів](posix.resources.html)

@@ -1,12 +1,12 @@
 Переміщення вказівника на наступний файл
 
--   [« FilesystemIterator::key](filesystemiterator.key.html)
+-   [« FilesystemIterator::key](filesystemiterator.key.md)
     
--   [FilesystemIterator::rewind »](filesystemiterator.rewind.html)
+-   [FilesystemIterator::rewind »](filesystemiterator.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FilesystemIterator](class.filesystemiterator.html)
+-   [FilesystemIterator](class.filesystemiterator.md)
     
 -   Переміщення вказівника на наступний файл
     
@@ -59,4 +59,4 @@ example.php
 
 ### Дивіться також
 
--   [DirectoryIterator::next()](directoryiterator.next.html) - Переміщує покажчик на наступний елемент DirectoryIterator
+-   [DirectoryIterator::next()](directoryiterator.next.md) - Переміщує покажчик на наступний елемент DirectoryIterator

@@ -1,8 +1,8 @@
 Обумовлені константи
 
--   [« Типы ресурсов](yar.resources.html)
+-   [« Типи ресурсів](yar.resources.html)
     
--   [Примеры »](yar.examples.html)
+-   [Приклади »](yar.examples.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Отримує код останньої помилки
 
--   [« SNMP::get](snmp.get.html)
+-   [« SNMP::get](snmp.get.md)
     
--   [SNMP::getError »](snmp.geterror.html)
+-   [SNMP::getError »](snmp.geterror.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SNMP](class.snmp.html)
+-   [SNMP](class.snmp.md)
     
 -   Отримує код останньої помилки
     
@@ -54,4 +54,4 @@ bool(true)
 
 ### Дивіться також
 
--   [SNMP::getError()](snmp.geterror.html) - Отримує останнє повідомлення про помилку
+-   [SNMP::getError()](snmp.geterror.md) - Отримує останнє повідомлення про помилку

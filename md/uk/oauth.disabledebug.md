@@ -1,12 +1,12 @@
 Вимкнути докладну налагоджувальну інформацію
 
--   [« OAuth::destruct](oauth.destruct.html)
+-   [« OAuth::destruct](oauth.destruct.md)
     
--   [OAuth::disableRedirects »](oauth.disableredirects.html)
+-   [OAuth::disableRedirects »](oauth.disableredirects.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](class.oauth.html)
+-   [OAuth](class.oauth.md)
     
 -   Вимкнути докладну налагоджувальну інформацію
     
@@ -35,10 +35,10 @@ public OAuth::disableDebug(): bool
 
 ### список змін
 
-| Версия            | Описание                                                                  |
-|-------------------|---------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL oauth 0.99.8 | Було додано схожу властивість [debug](class.oauth.html#oauth.props.debug) |
 
 ### Дивіться також
 
--   [OAuth::enableDebug()](oauth.enabledebug.html) - Включити докладну налагоджувальну інформацію
+-   [OAuth::enableDebug()](oauth.enabledebug.md) - Включити докладну налагоджувальну інформацію

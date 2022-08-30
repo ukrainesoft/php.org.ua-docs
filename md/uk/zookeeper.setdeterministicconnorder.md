@@ -1,12 +1,12 @@
 Включення/відключення рандомізації порядку кінцевих точок кворуму
 
--   [« Zookeeper::setDebugLevel](zookeeper.setdebuglevel.html)
+-   [« Zookeeper::setDebugLevel](zookeeper.setdebuglevel.md)
     
--   [Zookeeper::setLogStream »](zookeeper.setlogstream.html)
+-   [Zookeeper::setLogStream »](zookeeper.setlogstream.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Zookeeper](class.zookeeper.html)
+-   [Zookeeper](class.zookeeper.md)
     
 -   Включення/відключення рандомізації порядку кінцевих точок кворуму
     
@@ -43,10 +43,10 @@ public
 
 **Застереження**
 
-Починаючи з версії 0.3.0 метод викидає [ZookeeperException](class.zookeeperexception.html) та його похідні.
+Починаючи з версії 0.3.0 метод викидає [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Дивіться також
 
--   [Zookeeper::construct()](zookeeper.construct.html) - Створює дескриптор для спілкування з zookeeper
--   [Zookeeper::connect()](zookeeper.connect.html) - Створює дескриптор для спілкування з zookeeper
--   [ZookeeperException](class.zookeeperexception.html)
+-   [Zookeeper::construct()](zookeeper.construct.md) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::connect()](zookeeper.connect.md) - Створює дескриптор для спілкування з zookeeper
+-   [ZookeeperException](class.zookeeperexception.md)

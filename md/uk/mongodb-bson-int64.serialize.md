@@ -39,4 +39,4 @@ final public MongoDB\BSON\Int64::serialize(): string
 
 -   [MongoDBBSONInt64::unserialize()](mongodb-bson-int64.unserialize.html) - Десеріалізує Int64
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [Серіалізація об'єктів](language.oop5.serialization.html)

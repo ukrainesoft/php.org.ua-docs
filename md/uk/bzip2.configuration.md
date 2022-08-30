@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](bzip2.installation.html)
+-   [« Установка](bzip2.installation.md)
     
--   [Типы ресурсов »](bzip2.resources.html)
+-   [Типи ресурсів »](bzip2.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](bzip2.setup.html)
+-   [Встановлення та налаштування](bzip2.setup.md)
     
 -   Налаштування під час виконання
     

@@ -14,13 +14,13 @@
 # Обробка та логування помилок
 
 -   [Введение](intro.errorfunc.html)
--   [Установка и настройка](errorfunc.setup.html)
-    -   [Требования](errorfunc.requirements.html)
+-   [Встановлення та налаштування](errorfunc.setup.html)
+    -   [Вимоги](errorfunc.requirements.html)
     -   [Установка](errorfunc.installation.html)
-    -   [Настройка во время выполнения](errorfunc.configuration.html)
-    -   [Типы ресурсов](errorfunc.resources.html)
--   [Предопределённые константы](errorfunc.constants.html)
--   [Примеры](errorfunc.examples.html)
+    -   [Налаштування під час виконання](errorfunc.configuration.html)
+    -   [Типи ресурсів](errorfunc.resources.html)
+-   [Обумовлені константи](errorfunc.constants.html)
+-   [Приклади](errorfunc.examples.html)
 -   [Функции обработки ошибок](ref.errorfunc.html)
     -   [debugbacktrace](function.debug-backtrace.html) — Виводить стек викликів функцій у масив
     -   [debugprintbacktrace](function.debug-print-backtrace.html) — Виводить стек викликів функцій

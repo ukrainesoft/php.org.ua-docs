@@ -4,7 +4,7 @@
     
 -   [Collection::remove »](mysql-xdevapi-collection.remove.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
     

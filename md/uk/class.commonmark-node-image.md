@@ -4,9 +4,9 @@ Image успадковує CommonMarkNode
     
 -   [CommonMarkNodeImage::construct »](commonmark-node-image.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CommonMark](book.cmark.html)
+-   [CommonMark](book.cmark.md)
     
 -   Image успадковує CommonMarkNode
     

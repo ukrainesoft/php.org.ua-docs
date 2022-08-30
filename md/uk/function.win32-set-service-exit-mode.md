@@ -47,9 +47,9 @@ win32_set_service_exit_mode(bool $gracefulMode = true): bool
 
 ### список змін
 
-| Версия                  | Описание                                                                                                                                                              |
-|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) при невірних даних у параметрах, що раніше поверталося **`false`**                                                        |
+| Версия | Описание |
+| --- | --- |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) при невірних даних у параметрах, що раніше поверталося **`false`** |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.html) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.html) |
 
 ### Дивіться також

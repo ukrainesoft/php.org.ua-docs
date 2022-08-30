@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Примеры](varnish.examples.html)
+-   [Приклади](varnish.examples.html)
     
 -   Просте використання VarnishStat
     

@@ -1,12 +1,12 @@
 З'єднання з базою даних
 
--   [« Проектирование базы данных](security.database.design.html)
+-   [«Проектування бази даних](security.database.design.md)
     
--   [Шифрование хранилища базы данных »](security.database.storage.html)
+-   [Шифрування сховища бази даних](security.database.storage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Безпека баз даних](security.database.html)
+-   [Безпека баз даних](security.database.md)
     
 -   З'єднання з базою даних
     

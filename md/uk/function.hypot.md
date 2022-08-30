@@ -1,12 +1,12 @@
 Розраховує довжину гіпотенузи прямокутного трикутника
 
--   [« hexdec](function.hexdec.html)
+-   [« hexdec](function.hexdec.md)
     
--   [intdiv »](function.intdiv.html)
+-   [intdiv »](function.intdiv.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Розраховує довжину гіпотенузи прямокутного трикутника
     

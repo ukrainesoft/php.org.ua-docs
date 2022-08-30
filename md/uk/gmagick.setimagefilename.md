@@ -1,12 +1,12 @@
 Встановлює ім'я файлу конкретного зображення у послідовності
 
--   [« Gmagick::setimagedispose](gmagick.setimagedispose.html)
+-   [« Gmagick::setimagedispose](gmagick.setimagedispose.md)
     
--   [Gmagick::setimageformat »](gmagick.setimageformat.html)
+-   [Gmagick::setimageformat »](gmagick.setimageformat.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Встановлює ім'я файлу конкретного зображення у послідовності
     
@@ -33,7 +33,7 @@ public Gmagick::setimagefilename(string $filename): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

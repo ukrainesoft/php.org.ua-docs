@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Установка и настройка](gender.setup.html)
+-   [« Встановлення та налаштування](gender.setup.html)
     
--   [Примеры »](gender.examples.html)
+-   [Приклади »](gender.examples.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](gender.setup.html)
+-   [Встановлення та налаштування](gender.setup.html)
     
 -   Встановлення
     

@@ -1,12 +1,12 @@
 Встановлює параметр полів користувача (uf)
 
--   [« SolrDisMaxQuery::setTrigramPhraseSlop](solrdismaxquery.settrigramphraseslop.html)
+-   [« SolrDisMaxQuery::setTrigramPhraseSlop](solrdismaxquery.settrigramphraseslop.md)
     
--   [SolrDisMaxQuery::useDisMaxQueryParser »](solrdismaxquery.usedismaxqueryparser.html)
+-   [SolrDisMaxQuery::useDisMaxQueryParser »](solrdismaxquery.usedismaxqueryparser.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
+-   [SolrDisMaxQuery](class.solrdismaxquery.md)
     
 -   Встановлює параметр полів користувача (uf)
     
@@ -37,7 +37,7 @@ public SolrDisMaxQuery::setUserFields(string $fields): SolrDisMaxQuery
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.html)
+[SolrDisMaxQuery](class.solrdismaxquery.md)
 
 ### Приклади
 
@@ -61,5 +61,5 @@ q=lucene&defType=edismax&uf=field1 field2 *_txt
 
 ### Дивіться також
 
--   [SolrDisMaxQuery::addUserField()](solrdismaxquery.adduserfield.html) - Додає поле до параметра користувача полів (uf)
--   [SolrDisMaxQuery::removeUserField()](solrdismaxquery.removeuserfield.html) - Видаляє поле з параметра користувацьких полів (uf)
+-   [SolrDisMaxQuery::addUserField()](solrdismaxquery.adduserfield.md) - Додає поле до параметра користувача полів (uf)
+-   [SolrDisMaxQuery::removeUserField()](solrdismaxquery.removeuserfield.md) - Видаляє поле з параметра користувацьких полів (uf)

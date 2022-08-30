@@ -51,11 +51,11 @@ dwCurrentState. Дивіться [Константи стану служби Win
 
 `ControlsAccepted`
 
-Які елементи керування службами приймаються службою. Дивіться [Битовые маски Win32Service Service Control Message Accepted](win32service.constants.controlsaccepted.html)
+Які елементи керування службами приймаються службою. Дивіться [Побутові маски Win32Service Service Control Message Accepted](win32service.constants.controlsaccepted.html)
 
 `Win32ExitCode`
 
-Якщо служба завершила роботу, тут з'являється код повернення з процесу. Це значення дорівнює \*\*`WIN32_ERROR_SERVICE_SPECIFIC_ERROR`\*\*якщо режим виходу не є плавним. Дивіться [коды ошибок Win32Service](win32service.constants.errors.html) і [win32setserviceexitmode()](function.win32-set-service-exit-mode.html)
+Якщо служба завершила роботу, тут з'являється код повернення з процесу. Це значення дорівнює \*\*`WIN32_ERROR_SERVICE_SPECIFIC_ERROR`\*\*якщо режим виходу не є плавним. Дивіться [коди помилок Win32Service](win32service.constants.errors.html) і [win32setserviceexitmode()](function.win32-set-service-exit-mode.html)
 
 `ServiceSpecificExitCode`
 
@@ -75,7 +75,7 @@ dwCurrentState. Дивіться [Константи стану служби Win
 
 `ServiceFlags`
 
-dwServiceFlags. Дивіться [Константы флагов службы Win32Service](win32service.constants.serviceflag.html)
+dwServiceFlags. Дивіться [Константи прапорів служби Win32Service](win32service.constants.serviceflag.html)
 
 ### Помилки
 
@@ -83,12 +83,12 @@ dwServiceFlags. Дивіться [Константы флагов службы W
 
 ### список змін
 
-| Версия                  | Описание                                                                                                                                                              |
-|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) у разі невірних даних у параметрах раніше поверталося **`false`**                                                         |
+| Версия | Описание |
+| --- | --- |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) у разі невірних даних у параметрах раніше поверталося **`false`** |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.html) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.html) |
-| PECL win32service 1.0.0 | Тип повернення тепер array, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed)                                                    |
+| PECL win32service 1.0.0 | Тип повернення тепер array, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
 
 ### Дивіться також
 
--   [Предопределённые константы Win32Service](win32service.constants.html)
+-   [Обумовлені константи Win32Service](win32service.constants.html)

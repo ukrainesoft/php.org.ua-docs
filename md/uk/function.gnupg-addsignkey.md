@@ -4,9 +4,9 @@
     
 -   [gnupgcleardecryptkeys »](function.gnupg-cleardecryptkeys.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GnuPG Функції](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.md)
     
 -   Додати ключ для підписання
     

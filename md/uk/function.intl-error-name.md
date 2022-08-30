@@ -1,12 +1,12 @@
 Отримати ім'я помилки за її кодом
 
--   [« Функции intl](ref.intl.html)
+-   [« Функции intl](ref.intl.md)
     
 -   [intlgeterrorcode »](function.intl-get-error-code.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции intl](ref.intl.html)
+-   [Функции intl](ref.intl.md)
     
 -   Отримати ім'я помилки за її кодом
     

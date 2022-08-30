@@ -1,12 +1,12 @@
 Псевдонім finfosetflags()
 
--   [« finfo::file](finfo.file.html)
+-   [« finfo::file](finfo.file.md)
     
--   [Файлова система »](book.filesystem.html)
+-   [Файлова система »](book.filesystem.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [finfo](class.finfo.html)
+-   [finfo](class.finfo.md)
     
 -   Псевдонім finfosetflags()
     

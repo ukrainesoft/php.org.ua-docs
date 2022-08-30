@@ -1,12 +1,12 @@
 Відповідає параметру stats.field
 
--   [« SolrQuery::addStatsFacet](solrquery.addstatsfacet.html)
+-   [« SolrQuery::addStatsFacet](solrquery.addstatsfacet.md)
     
--   [SolrQuery::collapse »](solrquery.collapse.html)
+-   [SolrQuery::collapse »](solrquery.collapse.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Відповідає параметру stats.field
     

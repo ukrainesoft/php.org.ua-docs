@@ -4,9 +4,9 @@
     
 -   [пгfieldtypeoid »](function.pg-field-type-oid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PostgreSQL](ref.pgsql.html)
+-   [Функции PostgreSQL](ref.pgsql.md)
     
 -   Повертає назву або ідентифікатор таблиці, що містить задане поле
     
@@ -45,9 +45,9 @@ pg_field_table(PgSql\Result $result, int $field, bool $oid_only = false): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

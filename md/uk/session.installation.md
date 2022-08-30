@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](session.requirements.html)
+-   [« Вимоги](session.requirements.md)
     
--   [Настройка во время выполнения »](session.configuration.html)
+-   [Налаштування під час виконання »](session.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](session.setup.html)
+-   [Встановлення та налаштування](session.setup.md)
     
 -   Встановлення
     

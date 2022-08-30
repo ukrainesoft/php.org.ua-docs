@@ -1,12 +1,12 @@
 Створює об'єкт CURLStringFile
 
--   [« CURLStringFile](class.curlstringfile.html)
+-   [« CURLStringFile](class.curlstringfile.md)
     
--   [Event »](book.event.html)
+-   [Event »](book.event.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CURLStringFile](class.curlstringfile.html)
+-   [CURLStringFile](class.curlstringfile.md)
     
 -   Створює об'єкт CURLStringFile
     
@@ -21,7 +21,7 @@ CURLStringFile::construct — Створює об'єкт CURLStringFile
 
 public **CURLStringFile::construct**(string `$data`, string `$postname`, string `$mime` = "application/octet-stream")
 
-Створює об'єкт [CURLStringFile](class.curlstringfile.html), який використовується для завантаження файлу за допомогою **`CURLOPT_POSTFIELDS`**
+Створює об'єкт [CURLStringFile](class.curlstringfile.md), який використовується для завантаження файлу за допомогою **`CURLOPT_POSTFIELDS`**
 
 ### Список параметрів
 

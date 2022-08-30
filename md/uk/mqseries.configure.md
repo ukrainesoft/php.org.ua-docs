@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](mqseries.requirements.html)
+-   [« Вимоги](mqseries.requirements.html)
     
--   [Настройка во время выполнения »](mqseries.ini.html)
+-   [Налаштування під час виконання »](mqseries.ini.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](mqseries.setup.html)
+-   [Встановлення та налаштування](mqseries.setup.html)
     
 -   Встановлення
     

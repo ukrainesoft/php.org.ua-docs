@@ -4,9 +4,9 @@
     
 -   [highlightstring »](function.highlight-string.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Різні функції](ref.misc.html)
+-   [Різні функції](ref.misc.md)
     
 -   Підсвічування синтаксису файлу
     

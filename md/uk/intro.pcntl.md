@@ -1,12 +1,12 @@
 Вступ
 
--   [« PCNTL](book.pcntl.html)
+-   [« PCNTL](book.pcntl.md)
     
--   [Установка и настройка »](pcntl.setup.html)
+-   [Встановлення та налаштування »](pcntl.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PCNTL](book.pcntl.html)
+-   [PCNTL](book.pcntl.md)
     
 -   Вступ
     

@@ -1,12 +1,12 @@
 Закриває курсор, переводячи запит у стан готовності до повторного запуску
 
--   [« PDOStatement::bindValue](pdostatement.bindvalue.html)
+-   [« PDOStatement::bindValue](pdostatement.bindvalue.md)
     
--   [PDOStatement::columnCount »](pdostatement.columncount.html)
+-   [PDOStatement::columnCount »](pdostatement.columncount.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDOStatement](class.pdostatement.html)
+-   [PDOStatement](class.pdostatement.md)
     
 -   Закриває курсор, переводячи запит у стан готовності до повторного запуску
     
@@ -78,4 +78,4 @@ $otherStmt->execute();
 
 ### Дивіться також
 
--   [PDOStatement::execute()](pdostatement.execute.html) - Запускає підготовлений запит на виконання
+-   [PDOStatement::execute()](pdostatement.execute.md) - Запускає підготовлений запит на виконання

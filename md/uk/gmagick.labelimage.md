@@ -1,12 +1,12 @@
 Додає позначку до зображення
 
--   [« Gmagick::implodeimage](gmagick.implodeimage.html)
+-   [« Gmagick::implodeimage](gmagick.implodeimage.md)
     
--   [Gmagick::levelimage »](gmagick.levelimage.html)
+-   [Gmagick::levelimage »](gmagick.levelimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Додає позначку до зображення
     

@@ -4,7 +4,7 @@
     
 -   [ДсDeque::toArray »](ds-deque.toarray.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Двостороння черга](class.ds-deque.html)
     

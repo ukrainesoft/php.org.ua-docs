@@ -1,10 +1,10 @@
 Вивантажити дані з таблиці до масиву PHP
 
--   [« PDO::pgsqlCopyFromFile](pdo.pgsqlcopyfromfile.html)
+-   [« PDO::pgsqlCopyFromFile](pdo.pgsqlcopyfromfile.md)
     
--   [PDO::pgsqlCopyToFile »](pdo.pgsqlcopytofile.html)
+-   [PDO::pgsqlCopyToFile »](pdo.pgsqlcopytofile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
     

@@ -4,7 +4,7 @@
     
 -   [YafRouter::getRoutes »](yaf-router.getroutes.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRouter](class.yaf-router.html)
     

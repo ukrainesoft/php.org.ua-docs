@@ -1,12 +1,12 @@
 Визначити найкращий шлях декодування
 
--   [« Mailparse](ref.mailparse.html)
+-   [« Mailparse](ref.mailparse.md)
     
 -   [mailparsemsgcreate »](function.mailparse-msg-create.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mailparse](ref.mailparse.html)
+-   [Mailparse](ref.mailparse.md)
     
 -   Визначити найкращий шлях декодування
     
@@ -33,7 +33,7 @@ mailparse_determine_best_xfer_encoding(resource $fp): string
 
 ### Значення, що повертаються
 
-Повертає одне з кодувань, що підтримується модулем [mbstring](ref.mbstring.html)
+Повертає одне з кодувань, що підтримується модулем [mbstring](ref.mbstring.md)
 
 ### Приклади
 

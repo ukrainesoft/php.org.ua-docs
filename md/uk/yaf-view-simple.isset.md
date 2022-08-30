@@ -4,7 +4,7 @@
     
 -   [YafViewSimple::render »](yaf-view-simple.render.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafViewSimple](class.yaf-view-simple.html)
     

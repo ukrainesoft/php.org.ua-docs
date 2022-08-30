@@ -4,9 +4,9 @@
     
 -   [getcfgvar »](function.get-cfg-var.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Повертає інформацію про поточний статус збирача сміття
     
@@ -77,4 +77,4 @@ array(4) {
 
 ### Дивіться також
 
--   [Сбор мусора](features.gc.html)
+-   [Сбор мусора](features.gc.md)

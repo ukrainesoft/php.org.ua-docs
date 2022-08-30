@@ -4,7 +4,7 @@
     
 -   [Schema::getCollection »](mysql-xdevapi-schema.getcollection.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
     

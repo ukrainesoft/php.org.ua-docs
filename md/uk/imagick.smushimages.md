@@ -1,12 +1,12 @@
 Опис
 
--   [« Imagick::sketchImage](imagick.sketchimage.html)
+-   [« Imagick::sketchImage](imagick.sketchimage.md)
     
--   [Imagick::solarizeImage »](imagick.solarizeimage.html)
+-   [Imagick::solarizeImage »](imagick.solarizeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Опис
     

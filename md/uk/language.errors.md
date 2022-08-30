@@ -1,12 +1,12 @@
 Помилки
 
--   [« Примеры](language.enumerations.examples.html)
+-   [« Приклади](language.enumerations.examples.md)
     
--   [Основы »](language.errors.basics.html)
+-   [Основи »](language.errors.basics.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Справочник языка](langref.html)
+-   [Довідник мови](langref.md)
     
 -   Помилки
     
@@ -15,8 +15,8 @@
 
 ## Зміст
 
--   [Основы](language.errors.basics.html)
--   [Помилки у PHP 7](language.errors.php7.html)
+-   [Основи](language.errors.basics.md)
+-   [Помилки у PHP 7](language.errors.php7.md)
 
 ## Вступ
 

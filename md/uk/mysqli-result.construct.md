@@ -4,7 +4,7 @@
     
 -   [mysqliresult::$currentfield »](mysqli-result.current-field.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqliresult](class.mysqli-result.html)
     
@@ -19,7 +19,7 @@ mysqliresult::construct - Конструктор об'єкта [mysqliresult](cl
 
 ### Опис
 
-public **mysqliresult::construct**[mysqli](class.mysqli.html) `$mysql`, int `$result_mode` **`MYSQLI_STORE_RESULT`**
+public **mysqliresult::construct**[mysqli](class.mysqli.md) `$mysql`, int `$result_mode` **`MYSQLI_STORE_RESULT`**
 
 Метод створює новий об'єкт [mysqliresult](class.mysqli-result.html)
 
@@ -29,7 +29,7 @@ public **mysqliresult::construct**[mysqli](class.mysqli.html) `$mysql`, int `$re
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 `result_mode`
 

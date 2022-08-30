@@ -69,4 +69,4 @@ NULL
 
 ### Дивіться також
 
--   [Константы ошибок](errorfunc.constants.html)
+-   [Константи помилок](errorfunc.constants.html)

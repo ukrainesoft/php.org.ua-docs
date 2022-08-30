@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Настройка во время выполнения](gmp.configuration.html)
+-   [« Налаштування під час виконання](gmp.configuration.md)
     
--   [Примеры »](gmp.examples.html)
+-   [Приклади »](gmp.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GMP](book.gmp.html)
+-   [GMP](book.gmp.md)
     
 -   Обумовлені константи
     

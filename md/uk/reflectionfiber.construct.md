@@ -1,12 +1,12 @@
 Створює об'єкт ReflectionFiber
 
--   [« ReflectionFiber](class.reflectionfiber.html)
+-   [« ReflectionFiber](class.reflectionfiber.md)
     
--   [ReflectionFiber::getCallable »](reflectionfiber.getcallable.html)
+-   [ReflectionFiber::getCallable »](reflectionfiber.getcallable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFiber](class.reflectionfiber.html)
+-   [ReflectionFiber](class.reflectionfiber.md)
     
 -   Створює об'єкт ReflectionFiber
     
@@ -19,12 +19,12 @@ ReflectionFiber::construct — Створює об'єкт ReflectionFiber
 
 ### Опис
 
-public **ReflectionFiber::construct**[Fiber](class.fiber.html) `$fiber`
+public **ReflectionFiber::construct**[Fiber](class.fiber.md) `$fiber`
 
-Створює об'єкт [ReflectionFiber](class.reflectionfiber.html)
+Створює об'єкт [ReflectionFiber](class.reflectionfiber.md)
 
 ### Список параметрів
 
 `fiber`
 
-Клас [Fiber](class.fiber.html) для відбиття.
+Клас [Fiber](class.fiber.md) для відбиття.

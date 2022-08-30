@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONUTCDateTime::jsonSerialize »](mongodb-bson-utcdatetime.jsonserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.html)
     
@@ -25,11 +25,11 @@ final public MongoDB\BSON\UTCDateTime::__construct(int|float|string|DateTimeInte
 
 ### Список параметрів
 
-`milliseconds` (int | float | string |[DateTimeInterface](class.datetimeinterface.html)|null)
+`milliseconds` (int | float | string |[DateTimeInterface](class.datetimeinterface.md)|null)
 
 Кількість мілісекунд з часів Unix (1 січня 1970). Негативні значення становлять дати до 1970 року. Це значення може бути представлене як 64-розрядний int. Для сумісності в 32-бітових системах цей параметр також може бути представлений як float або string.
 
-Якщо аргумент є [DateTimeInterface](class.datetimeinterface.html), З цього значення буде отримано кількість мілісекунд, що пройшли з початку епохи Unix. Зверніть увагу, що у версіях PHP до 7.1.0 об'єкти [DateTime](class.datetime.html) і [DateTimeImmutable](class.datetimeimmutable.html), побудовані за поточним часом, [не включають точність менше секунди](migration71.incompatible.html#migration71.incompatible.datetime-microseconds)
+Якщо аргумент є [DateTimeInterface](class.datetimeinterface.md), З цього значення буде отримано кількість мілісекунд, що пройшли з початку епохи Unix. Зверніть увагу, що у версіях PHP до 7.1.0 об'єкти [DateTime](class.datetime.md) і [DateTimeImmutable](class.datetimeimmutable.md), побудовані за поточним часом, [не включають точність менше секунди](migration71.incompatible.html#migration71.incompatible.datetime-microseconds)
 
 Якщо цей аргумент дорівнює **`null`**, використовуватиметься поточний час за промовчанням.
 
@@ -39,10 +39,10 @@ final public MongoDB\BSON\UTCDateTime::__construct(int|float|string|DateTimeInte
 
 ### список змін
 
-| Версия                                                                                                                                                                                                                                                                                                          | Описание |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.2.0                                                                                                                                                                                                                                                                                              |          |
-| Аргумент `milliseconds` є необов'язковим і за умовчанням дорівнює **`null`** (Тобто поточний час). Аргумент також приймає [DateTimeInterface](class.datetimeinterface.html)який може використовуватися для отримання кількості мілісекунд з початку епохи Unix. Раніше приймався лише тип int, float чи string. |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.2.0 |  |
+| Аргумент `milliseconds` є необов'язковим і за умовчанням дорівнює **`null`** (Тобто поточний час). Аргумент також приймає [DateTimeInterface](class.datetimeinterface.md)який може використовуватися для отримання кількості мілісекунд з початку епохи Unix. Раніше приймався лише тип int, float чи string. |  |
 
 ### Приклади
 
@@ -79,4 +79,4 @@ object(MongoDB\BSON\UTCDateTime)#1 (1) {
 
 ### Дивіться також
 
--   [» Типы BSON: Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)
+-   [» Типи BSON: Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)

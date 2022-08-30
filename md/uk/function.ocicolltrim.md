@@ -1,12 +1,12 @@
 Псевдонім OCICollection::trim
 
--   [« ocicollsize](function.ocicollsize.html)
+-   [« ocicollsize](function.ocicollsize.md)
     
--   [ocicolumnisnull »](function.ocicolumnisnull.html)
+-   [ocicolumnisnull »](function.ocicolumnisnull.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Псевдонім OCICollection::trim
     
@@ -15,11 +15,11 @@
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocicolltrim - Псевдонім [OCICollection::trim()](ocicollection.trim.html)
+ocicolltrim - Псевдонім [OCICollection::trim()](ocicollection.trim.md)
 
 ### Опис
 
-Псевдонім [OCICollection::trim()](ocicollection.trim.html)
+Псевдонім [OCICollection::trim()](ocicollection.trim.md)
 
 **Увага**
 

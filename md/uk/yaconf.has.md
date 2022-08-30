@@ -1,12 +1,12 @@
 Визначити, чи існує елемент
 
--   [« Yaconf::get](yaconf.get.html)
+-   [« Yaconf::get](yaconf.get.md)
     
--   [Taint »](book.taint.html)
+-   [Taint »](book.taint.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yaconf](class.yaconf.html)
+-   [Yaconf](class.yaconf.md)
     
 -   Визначити, чи існує елемент
     

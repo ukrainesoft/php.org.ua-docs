@@ -1,12 +1,12 @@
 Викликається після розгалуження
 
--   [« EvLoop::io](evloop.io.html)
+-   [« EvLoop::io](evloop.io.md)
     
--   [EvLoop::now »](evloop.now.html)
+-   [EvLoop::now »](evloop.now.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvLoop](class.evloop.html)
+-   [EvLoop](class.evloop.md)
     
 -   Викликається після розгалуження
     

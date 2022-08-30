@@ -2,7 +2,7 @@
 
 -   [« ImageMagick](book.imagick.html)
     
--   [Установка и настройка »](imagick.setup.html)
+-   [Встановлення та налаштування »](imagick.setup.html)
     
 -   [PHP Manual](index.html)
     

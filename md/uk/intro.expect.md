@@ -2,7 +2,7 @@
 
 -   [« Expect](book.expect.html)
     
--   [Установка и настройка »](expect.setup.html)
+-   [Встановлення та налаштування »](expect.setup.html)
     
 -   [PHP Manual](index.html)
     

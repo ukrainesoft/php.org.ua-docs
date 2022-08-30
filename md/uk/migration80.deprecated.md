@@ -1,12 +1,12 @@
 Функціональність, оголошена застарілою в PHP 8.0.x
 
--   [« Зміни, що ламають зворотну сумісність](migration80.incompatible.html)
+-   [« Зміни, що ламають зворотну сумісність](migration80.incompatible.md)
     
 -   [Другие изменения »](migration80.other-changes.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 7.4.x на PHP 8.0.x](migration80.html)
+-   [Миграция с PHP 7.4.x на PHP 8.0.x](migration80.md)
     
 -   Функціональність, оголошена застарілою в PHP 8.0.x
     
@@ -102,7 +102,7 @@
 
 -   Використання порожнього файлу в ZipArchive оголошено застарілим. Libzip 1.6.0 більше не працює з пустими zip-архівами. Існуюче обхідне рішення буде видалено у наступній версії.
     
--   Процедурний API Zip оголошено застарілим. Замість нього використовуйте [ZipArchive](class.ziparchive.html). Ітерацію по всіх записах можна виконати за допомогою [ZipArchive::statIndex()](ziparchive.statindex.html) та циклу [for](control-structures.for.html)
+-   Процедурний API Zip оголошено застарілим. Замість нього використовуйте [ZipArchive](class.ziparchive.md). Ітерацію по всіх записах можна виконати за допомогою [ZipArchive::statIndex()](ziparchive.statindex.md) та циклу [for](control-structures.for.html)
     
     ```php
     <?php
@@ -123,6 +123,6 @@
 
 ### Reflection
 
--   [ReflectionFunction::isDisabled()](reflectionfunction.isdisabled.html) оголошено застарілим, тому що більше неможливо створити [ReflectionFunction](class.reflectionfunction.html) для вимкненої функції. Цей метод тепер завжди повертає **`false`**
+-   [ReflectionFunction::isDisabled()](reflectionfunction.isdisabled.md) оголошено застарілим, тому що більше неможливо створити [ReflectionFunction](class.reflectionfunction.md) для вимкненої функції. Цей метод тепер завжди повертає **`false`**
     
--   [ReflectionParameter::getClass()](reflectionparameter.getclass.html) [ReflectionParameter::isArray()](reflectionparameter.isarray.html) і [ReflectionParameter::isCallable()](reflectionparameter.iscallable.html) оголошено застарілими. Замість них слід використовувати [ReflectionParameter::getType()](reflectionparameter.gettype.html) та API [ReflectionType](class.reflectiontype.html)
+-   [ReflectionParameter::getClass()](reflectionparameter.getclass.md) [ReflectionParameter::isArray()](reflectionparameter.isarray.md) і [ReflectionParameter::isCallable()](reflectionparameter.iscallable.md) оголошено застарілими. Замість них слід використовувати [ReflectionParameter::getType()](reflectionparameter.gettype.md) та API [ReflectionType](class.reflectiontype.md)

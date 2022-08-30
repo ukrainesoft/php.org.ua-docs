@@ -4,7 +4,7 @@
     
 -   [VtifulKernelExcel::insertFormula »](vtiful-kernel-excel.insertFormula.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
     

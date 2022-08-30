@@ -1,12 +1,12 @@
 Перехід до наступного елементу
 
--   [« RecursiveDirectoryIterator::key](recursivedirectoryiterator.key.html)
+-   [« RecursiveDirectoryIterator::key](recursivedirectoryiterator.key.md)
     
--   [RecursiveDirectoryIterator::rewind »](recursivedirectoryiterator.rewind.html)
+-   [RecursiveDirectoryIterator::rewind »](recursivedirectoryiterator.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.html)
+-   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
     
 -   Перехід до наступного елементу
     

@@ -4,7 +4,7 @@
     
 -   [Result::getAutoIncrementValue »](mysql-xdevapi-result.getautoincrementvalue.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiResult](class.mysql-xdevapi-result.html)
     

@@ -2,11 +2,11 @@
 
 -   [« inetpton](function.inet-pton.html)
     
--   [long2ip »](function.long2ip.html)
+-   [long2ip »](function.long2ip.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Мережеві функції](ref.network.html)
+-   [Мережеві функції](ref.network.md)
     
 -   Конвертує рядок, що містить IPv4-адресу в ціле число
     
@@ -52,7 +52,7 @@ echo $out;
 
 **Приклад #2 Відображення IP-адрес**
 
-Другий приклад показує, як виводити сконвертовані адреси за допомогою функції [printf()](function.printf.html)
+Другий приклад показує, як виводити сконвертовані адреси за допомогою функції [printf()](function.printf.md)
 
 ```php
 <?php
@@ -73,7 +73,7 @@ if ($long == -1 || $long === FALSE) {
 
 > **Зауваження**
 > 
-> Зважаючи на те, що тип PHP int є знаковим, і на 32-бітових системах багато IP-адрес будуть представлені у вигляді негативних чисел, необхідно використовувати "%u" у функції [sprintf()](function.sprintf.html) або [printf()](function.printf.html) для отримання IP-адреси у рядковому беззнаковому вигляді.
+> Зважаючи на те, що тип PHP int є знаковим, і на 32-бітових системах багато IP-адрес будуть представлені у вигляді негативних чисел, необхідно використовувати "%u" у функції [sprintf()](function.sprintf.md) або [printf()](function.printf.md) для отримання IP-адреси у рядковому беззнаковому вигляді.
 
 > **Зауваження**
 > 
@@ -81,5 +81,5 @@ if ($long == -1 || $long === FALSE) {
 
 ### Дивіться також
 
--   [long2ip()](function.long2ip.html) - Конвертує ціле число в IPv4-адресу
--   [sprintf()](function.sprintf.html) - Повертає відформатований рядок
+-   [long2ip()](function.long2ip.md) - Конвертує ціле число в IPv4-адресу
+-   [sprintf()](function.sprintf.md) - Повертає відформатований рядок

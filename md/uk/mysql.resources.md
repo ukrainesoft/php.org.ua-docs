@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](mysql.configuration.html)
+-   [« Налаштування під час виконання](mysql.configuration.md)
     
--   [Список изменений »](changelog.mysql.html)
+-   [Список изменений »](changelog.mysql.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mysql.setup.html)
+-   [Встановлення та налаштування](mysql.setup.md)
     
 -   Типи ресурсів
     

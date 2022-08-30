@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros »](mongodb-driver-monitoring-commandsucceededevent.getdurationmicros.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
     
@@ -39,4 +39,4 @@ final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getCommandName(): 
 
 ### Дивіться також
 
--   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)

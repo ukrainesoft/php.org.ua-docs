@@ -1,12 +1,12 @@
 Отримує серйозність виключення
 
--   [« ErrorException::construct](errorexception.construct.html)
+-   [« ErrorException::construct](errorexception.construct.md)
     
--   [Error »](class.error.html)
+-   [Error »](class.error.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ErrorException](class.errorexception.html)
+-   [ErrorException](class.errorexception.md)
     
 -   Отримує серйозність виключення
     

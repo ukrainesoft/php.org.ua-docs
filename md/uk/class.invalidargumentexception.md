@@ -1,12 +1,12 @@
 Клас InvalidArgumentException
 
--   [« DomainException](class.domainexception.html)
+-   [« DomainException](class.domainexception.md)
     
--   [LengthException »](class.lengthexception.html)
+-   [LengthException »](class.lengthexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Исключения](spl.exceptions.html)
+-   [Исключения](spl.exceptions.md)
     
 -   Клас InvalidArgumentException
     

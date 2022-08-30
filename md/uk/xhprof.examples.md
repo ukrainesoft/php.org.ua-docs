@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](xhprof.constants.html)
+-   [« Обумовлені константи](xhprof.constants.md)
     
--   [Функции Xhprof »](ref.xhprof.html)
+-   [Функции Xhprof »](ref.xhprof.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Xhprof](book.xhprof.html)
+-   [Xhprof](book.xhprof.md)
     
 -   Приклади
     

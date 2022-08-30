@@ -4,9 +4,9 @@
     
 -   [win32setserviceexitmode »](function.win32-set-service-exit-mode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [win32service](ref.win32service.html)
+-   [win32service](ref.win32service.md)
     
 -   Визначає або повертає код виходу для поточної запущеної служби
     
@@ -43,14 +43,14 @@ win32_set_service_exit_code(int $exitCode = 1): int
 
 До версії 1.0.0, якщо SAPI не `"cli"`, функція видавала помилку рівня **`E_ERROR`**
 
-Починаючи з версії 1.0.0, викидає [Win32ServiceException](class.win32serviceexception.html), якщо SAPI не `"cli"`
+Починаючи з версії 1.0.0, викидає [Win32ServiceException](class.win32serviceexception.md), якщо SAPI не `"cli"`
 
 ### список змін
 
-| Версия                  | Описание                                                                                                                                                              |
-|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) при невірних даних у параметрах, що раніше поверталося **`false`**                                                        |
-| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.html) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.html) |
+| Версия | Описание |
+| --- | --- |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`** |
+| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
 
 ### Дивіться також
 

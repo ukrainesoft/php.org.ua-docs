@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.mbstring.html)
+-   [« Введение](intro.mbstring.md)
     
--   [Требования »](mbstring.requirements.html)
+-   [Вимоги »](mbstring.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Багатобайтові рядки](book.mbstring.html)
+-   [Багатобайтові рядки](book.mbstring.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](mbstring.requirements.html)
--   [Установка](mbstring.installation.html)
--   [Настройка во время выполнения](mbstring.configuration.html)
--   [Типы ресурсов](mbstring.resources.html)
+-   [Вимоги](mbstring.requirements.md)
+-   [Установка](mbstring.installation.md)
+-   [Налаштування під час виконання](mbstring.configuration.md)
+-   [Типи ресурсів](mbstring.resources.md)

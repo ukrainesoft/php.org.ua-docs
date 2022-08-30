@@ -1,12 +1,12 @@
 Клас Thread
 
--   [« Threaded::wait](threaded.wait.html)
+-   [« Threaded::wait](threaded.wait.md)
     
--   [Thread::getCreatorId »](thread.getcreatorid.html)
+-   [Thread::getCreatorId »](thread.getcreatorid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [pthreads](book.pthreads.html)
+-   [pthreads](book.pthreads.md)
     
 -   Клас Thread
     
@@ -78,11 +78,11 @@ public Threaded::wait(int $timeout = ?): bool
 
 ## Зміст
 
--   [Thread::getCreatorId](thread.getcreatorid.html) - Ідентифікація
--   [Thread::getCurrentThread](thread.getcurrentthread.html) - Ідентифікація
--   [Thread::getCurrentThreadId](thread.getcurrentthreadid.html) - Ідентифікація
--   [Thread::getThreadId](thread.getthreadid.html) - Ідентифікація
--   [Thread::isJoined](thread.isjoined.html) — Визначення стану
--   [Thread::isStarted](thread.isstarted.html) — Визначення стану
--   [Thread::join](thread.join.html) - Синхронізація
--   [Thread::start](thread.start.html) - Виконання
+-   [Thread::getCreatorId](thread.getcreatorid.md) - Ідентифікація
+-   [Thread::getCurrentThread](thread.getcurrentthread.md) - Ідентифікація
+-   [Thread::getCurrentThreadId](thread.getcurrentthreadid.md) - Ідентифікація
+-   [Thread::getThreadId](thread.getthreadid.md) - Ідентифікація
+-   [Thread::isJoined](thread.isjoined.md) — Визначення стану
+-   [Thread::isStarted](thread.isstarted.md) — Визначення стану
+-   [Thread::join](thread.join.md) - Синхронізація
+-   [Thread::start](thread.start.md) - Виконання

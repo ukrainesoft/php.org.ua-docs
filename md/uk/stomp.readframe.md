@@ -1,12 +1,12 @@
 Виконує операцію читання наступного кадру
 
--   [« Stomp::hasFrame](stomp.hasframe.html)
+-   [« Stomp::hasFrame](stomp.hasframe.md)
     
--   [Stomp::send »](stomp.send.html)
+-   [Stomp::send »](stomp.send.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Stomp](class.stomp.html)
+-   [Stomp](class.stomp.md)
     
 -   Виконує операцію читання наступного кадру
     
@@ -39,7 +39,7 @@ stomp_read_frame(resource $link): array
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.html)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
 
 `class_name`
 
@@ -53,8 +53,8 @@ stomp_read_frame(resource $link): array
 
 ### список змін
 
-| Версия      | Описание                      |
-|-------------|-------------------------------|
+| Версия | Описание |
+| --- | --- |
 | Stomp 0.4.0 | Доданий параметр `class_name` |
 
 ### Приклади

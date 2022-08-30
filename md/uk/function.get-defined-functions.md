@@ -4,9 +4,9 @@
     
 -   [registershutdownfunction »](function.register-shutdown-function.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции управления функциями](ref.funchand.html)
+-   [Функции управления функциями](ref.funchand.md)
     
 -   Повертає масив усіх певних функцій
     
@@ -37,10 +37,10 @@ get_defined_functions(bool $exclude_disabled = true): array
 
 ### список змін
 
-| Версия | Описание                                                                                     |
-|--------|----------------------------------------------------------------------------------------------|
-|        | Значення параметру `exclude_disabled` за умовчанням було змінено з **`false`** на **`true`** |
-|        | Доданий параметр `exclude_disabled`                                                          |
+| Версия | Описание |
+| --- | --- |
+|  | Значення параметру `exclude_disabled` за умовчанням було змінено з **`false`** на **`true`** |
+|  | Доданий параметр `exclude_disabled` |
 
 ### Приклади
 

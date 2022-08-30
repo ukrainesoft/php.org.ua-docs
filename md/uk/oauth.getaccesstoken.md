@@ -1,12 +1,12 @@
 Отримати токен доступу
 
--   [« OAuth::generateSignature](oauth.generatesignature.html)
+-   [« OAuth::generateSignature](oauth.generatesignature.md)
     
--   [OAuth::getCAPath »](oauth.getcapath.html)
+-   [OAuth::getCAPath »](oauth.getcapath.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](class.oauth.html)
+-   [OAuth](class.oauth.md)
     
 -   Отримати токен доступу
     
@@ -49,10 +49,10 @@ URL до API видачі токена доступу.
 
 ### список змін
 
-| Версия            | Описание                                                                   |
-|-------------------|----------------------------------------------------------------------------|
-| PECL oauth 1.0.0  | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
-| PECL oauth 0.99.9 | Доданий параметр `verifier_token`                                          |
+| Версия | Описание |
+| --- | --- |
+| PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
+| PECL oauth 0.99.9 | Доданий параметр `verifier_token` |
 
 ### Приклади
 
@@ -87,6 +87,6 @@ Array
 
 ### Дивіться також
 
--   [OAuth::getLastResponse()](oauth.getlastresponse.html) - Отримати останню відповідь
--   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.html) - Отримати HTTP-інформацію про останню відповідь
--   [OAuth::setToken()](oauth.settoken.html) - Задати токен та його пароль
+-   [OAuth::getLastResponse()](oauth.getlastresponse.md) - Отримати останню відповідь
+-   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.md) - Отримати HTTP-інформацію про останню відповідь
+-   [OAuth::setToken()](oauth.settoken.md) - Задати токен та його пароль

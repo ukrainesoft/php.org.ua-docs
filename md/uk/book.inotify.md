@@ -1,26 +1,26 @@
 Inotify
 
--   [« unlink](function.unlink.html)
+-   [« unlink](function.unlink.md)
     
--   [Введение »](intro.inotify.html)
+-   [Введение »](intro.inotify.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модулі для роботи з файловою системою](refs.fileprocess.file.html)
+-   [Модулі для роботи з файловою системою](refs.fileprocess.file.md)
     
 -   Inotify
     
 
 # Inotify
 
--   [Введение](intro.inotify.html)
--   [Установка и настройка](inotify.setup.html)
-    -   [Требования](inotify.requirements.html)
-    -   [Установка и настройка](inotify.install.html)
-    -   [Настройка во время выполнения](inotify.configuration.html)
-    -   [Типы ресурсов](inotify.resources.html)
--   [Предопределённые константы](inotify.constants.html)
--   [Функции Inotify](ref.inotify.html)
+-   [Введение](intro.inotify.md)
+-   [Встановлення та налаштування](inotify.setup.md)
+    -   [Вимоги](inotify.requirements.md)
+    -   [Встановлення та налаштування](inotify.install.md)
+    -   [Налаштування під час виконання](inotify.configuration.md)
+    -   [Типи ресурсів](inotify.resources.md)
+-   [Обумовлені константи](inotify.constants.md)
+-   [Функции Inotify](ref.inotify.md)
     -   [inotifyaddwatch](function.inotify-add-watch.html) - Додати спостерігача для екземпляра inotify
     -   [inotifyinit](function.inotify-init.html) - Ініціалізує екземпляр inotify
     -   [inotifyqueuelen](function.inotify-queue-len.html) — Повертає кількість очікуваних подій у черзі

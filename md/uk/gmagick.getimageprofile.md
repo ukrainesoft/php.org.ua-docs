@@ -1,12 +1,12 @@
 Повертає іменований профайл зображення
 
--   [« Gmagick::getimagemattecolor](gmagick.getimagemattecolor.html)
+-   [« Gmagick::getimagemattecolor](gmagick.getimagemattecolor.md)
     
--   [Gmagick::getimageredprimary »](gmagick.getimageredprimary.html)
+-   [Gmagick::getimageredprimary »](gmagick.getimageredprimary.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повертає іменований профайл зображення
     

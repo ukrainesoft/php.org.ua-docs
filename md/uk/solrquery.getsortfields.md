@@ -1,12 +1,12 @@
 Повертає всі поля сортування
 
--   [« SolrQuery::getRows](solrquery.getrows.html)
+-   [« SolrQuery::getRows](solrquery.getrows.md)
     
--   [SolrQuery::getStart »](solrquery.getstart.html)
+-   [SolrQuery::getStart »](solrquery.getstart.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає всі поля сортування
     

@@ -1,12 +1,12 @@
 Анімація одного або кількох зображень
 
--   [« Imagick::affineTransformImage](imagick.affinetransformimage.html)
+-   [« Imagick::affineTransformImage](imagick.affinetransformimage.md)
     
--   [Imagick::annotateImage »](imagick.annotateimage.html)
+-   [Imagick::annotateImage »](imagick.annotateimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Анімація одного або кількох зображень
     
@@ -37,4 +37,4 @@ public Imagick::animateImages(string $x_server): bool
 
 ### Дивіться також
 
--   [Imagick::displayImage()](imagick.displayimage.html) - Виводить зображення
+-   [Imagick::displayImage()](imagick.displayimage.md) - Виводить зображення

@@ -1,22 +1,22 @@
 Componere
 
--   [« APCUIterator::valid](apcuiterator.valid.html)
+-   [« APCUIterator::valid](apcuiterator.valid.md)
     
--   [Введение »](intro.componere.html)
+-   [Введение »](intro.componere.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Изменение поведения PHP](refs.basic.php.html)
+-   [Изменение поведения PHP](refs.basic.php.md)
     
 -   Componere
     
 
 # Componere
 
--   [Введение](intro.componere.html)
--   [Установка и настройка](componere.setup.html)
-    -   [Требования](componere.requirements.html)
-    -   [Установка](componere.installation.html)
+-   [Введение](intro.componere.md)
+-   [Встановлення та налаштування](componere.setup.md)
+    -   [Вимоги](componere.requirements.md)
+    -   [Установка](componere.installation.md)
 -   [ComponereAbstractDefinition](class.componere-abstract-definition.html) - Клас ComponereAbstractDefinition
     -   [ComponereAbstractDefinition::addInterface](componere-abstract-definition.addinterface.html) — Додає інтерфейс
     -   [ComponereAbstractDefinition::addMethod](componere-abstract-definition.addmethod.html) — Додає метод
@@ -53,6 +53,6 @@ Componere
     -   [ComponereValue::isProtected](componere-value.isprotected.html) — Визначення доступності
     -   [ComponereValue::isStatic](componere-value.isstatic.html) — Визначення доступності
     -   [ComponereValue::hasDefault](componere-value.hasdefault.html) - Взаємодія з класом Value
--   [Функции Componere](reference.componere.html)
-    -   [Componerecast](componere.cast.html) - Приведення до типу
-    -   [Componerecastбref](componere.cast_by_ref.html) - Приведення до типу
+-   [Функции Componere](reference.componere.md)
+    -   [Componerecast](componere.cast.md) - Приведення до типу
+    -   [Componerecastбref](componere.cast_by_ref.md) - Приведення до типу

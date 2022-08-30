@@ -1,12 +1,12 @@
 Отримати останнє повідомлення про помилку
 
--   [« Transliterator::getErrorCode](transliterator.geterrorcode.html)
+-   [« Transliterator::getErrorCode](transliterator.geterrorcode.md)
     
--   [Transliterator::listIDs »](transliterator.listids.html)
+-   [Transliterator::listIDs »](transliterator.listids.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Transliterator](class.transliterator.html)
+-   [Transliterator](class.transliterator.md)
     
 -   Отримати останнє повідомлення про помилку
     
@@ -49,5 +49,5 @@ transliterator_get_error_message(Transliterator $transliterator): string|false
 
 ### Дивіться також
 
--   [Transliterator::getErrorCode()](transliterator.geterrorcode.html) - Отримати код останньої помилки
--   [Transliterator::listIDs()](transliterator.listids.html) - Отримати ідентифікатори транслітератора
+-   [Transliterator::getErrorCode()](transliterator.geterrorcode.md) - Отримати код останньої помилки
+-   [Transliterator::listIDs()](transliterator.listids.md) - Отримати ідентифікатори транслітератора

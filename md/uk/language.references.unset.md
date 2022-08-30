@@ -1,12 +1,12 @@
 Скидання змінних-посилань
 
--   [« Возврат по ссылке](language.references.return.html)
+-   [« Повернення за посиланням](language.references.return.md)
     
--   [Неявное использование механизма ссылок »](language.references.spot.html)
+-   [Неявне використання механізму посилань »](language.references.spot.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Объяснение ссылок](language.references.html)
+-   [Пояснення посилань](language.references.md)
     
 -   Скидання змінних-посилань
     

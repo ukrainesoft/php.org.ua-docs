@@ -4,7 +4,7 @@
     
 -   [ОЙDrawTextLayout::setWidth »](ui-draw-text-layout.setwidth.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawTextLayout](class.ui-draw-text-layout.html)
     

@@ -4,9 +4,9 @@
     
 -   [mysqli::realquery »](mysqli.real-query.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання
     
@@ -41,13 +41,13 @@ mysqli_real_escape_string(mysqli $mysql, string $string): string
 
 # Безпека: набір символів за промовчанням
 
-Набір символів повинен бути заданий на стороні сервера, або за допомогою API-функції [mysqlisetcharset()](mysqli.set-charset.html). В іншому випадку **mysqlirealescapestring()** працювати не буде. За додатковою інформацією звертайтесь до документації [набори символів](mysqlinfo.concepts.charset.html)
+Набір символів повинен бути заданий на стороні сервера, або за допомогою API-функції [mysqlisetcharset()](mysqli.set-charset.html). В іншому випадку **mysqlirealescapestring()** працювати не буде. За додатковою інформацією звертайтесь до документації [набори символів](mysqlinfo.concepts.charset.md)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 `string`
 

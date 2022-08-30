@@ -1,12 +1,12 @@
 Встановлює маску кліпу
 
--   [« Imagick::setImageChannelDepth](imagick.setimagechanneldepth.html)
+-   [« Imagick::setImageChannelDepth](imagick.setimagechanneldepth.md)
     
--   [Imagick::setImageColormapColor »](imagick.setimagecolormapcolor.html)
+-   [Imagick::setImageColormapColor »](imagick.setimagecolormapcolor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює маску кліпу
     

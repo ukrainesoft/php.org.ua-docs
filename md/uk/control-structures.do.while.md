@@ -4,7 +4,7 @@ do-while
     
 -   [for »](control-structures.for.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Управляющие конструкции](language.control-structures.html)
     

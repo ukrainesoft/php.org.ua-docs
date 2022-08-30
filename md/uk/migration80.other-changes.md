@@ -1,6 +1,6 @@
 Інші зміни
 
--   [« Функциональность, объявленная устаревшей в PHP 8.0.x](migration80.deprecated.html)
+-   [« Функціональність, оголошена застарілою в PHP 8.0.x](migration80.deprecated.html)
     
 -   [Миграция с PHP 7.3.x на PHP 7.4.x »](migration74.html)
     
@@ -31,7 +31,7 @@
 
 #### Стандартні функції
 
-Математичні функції [abs()](function.abs.html) [ceil()](function.ceil.html) [floor()](function.floor.html) і [round()](function.round.html) тепер правильно враховують [объявление`strict_type`](language.types.declarations.html#language.types.declarations.strict). Раніше вони наводили перший аргумент до числового значення навіть у режимі суворої типізації.
+Математичні функції [abs()](function.abs.html) [ceil()](function.ceil.html) [floor()](function.floor.html) і [round()](function.round.html) тепер правильно враховують [оголошення`strict_type`](language.types.declarations.html#language.types.declarations.strict). Раніше вони наводили перший аргумент до числового значення навіть у режимі суворої типізації.
 
 #### Zip
 

@@ -1,12 +1,12 @@
 Видаляє всі поточні параметри
 
--   [« SQLite3Stmt::bindValue](sqlite3stmt.bindvalue.html)
+-   [« SQLite3Stmt::bindValue](sqlite3stmt.bindvalue.md)
     
--   [SQLite3Stmt::close »](sqlite3stmt.close.html)
+-   [SQLite3Stmt::close »](sqlite3stmt.close.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3Stmt](class.sqlite3stmt.html)
+-   [SQLite3Stmt](class.sqlite3stmt.md)
     
 -   Видаляє всі поточні параметри
     
@@ -27,7 +27,7 @@ public SQLite3Stmt::clear(): bool
 
 **Застереження**
 
-Метод необхідно використовувати з [SQLite3Stmt::reset()](sqlite3stmt.reset.html). Якщо використовується один, будь-який виклик [SQLite3Stmt::bindValue()](sqlite3stmt.bindvalue.html) або [SQLite3Stmt::bindParam()](sqlite3stmt.bindparam.html) не матиме жодного ефекту, і всі прив'язані параметри матимуть значення **`null`**
+Метод необхідно використовувати з [SQLite3Stmt::reset()](sqlite3stmt.reset.md). Якщо використовується один, будь-який виклик [SQLite3Stmt::bindValue()](sqlite3stmt.bindvalue.md) або [SQLite3Stmt::bindParam()](sqlite3stmt.bindparam.md) не матиме жодного ефекту, і всі прив'язані параметри матимуть значення **`null`**
 
 ### Список параметрів
 

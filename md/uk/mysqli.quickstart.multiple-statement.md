@@ -1,12 +1,12 @@
 Множинні запити
 
--   [« Хранимые процедуры](mysqli.quickstart.stored-procedures.html)
+-   [« Збережені процедури](mysqli.quickstart.stored-procedures.html)
     
--   [API поддержка транзакций »](mysqli.quickstart.transactions.html)
+-   [API поддержка транзакций »](mysqli.quickstart.transactions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Краткое руководство](mysqli.quickstart.html)
+-   [Краткое руководство](mysqli.quickstart.md)
     
 -   Множинні запити
     
@@ -65,7 +65,7 @@ array(1) {
 
 *Розгляд аспектів безпеки*
 
-Функції API [mysqli::query()](mysqli.query.html) і [mysqli::realquery()](mysqli.real-query.html) під час роботи не встановлюють на сервері спеціальний прапор, необхідний виконання мультизапросов. Окрема функція API для мультизапитів дозволяє знизити ймовірність випадкових SQL-ін'єкцій. Зловмисник може спробувати додати до кінця запиту виразу, на кшталт `; DROP DATABASE mysql` або `; SELECT SLEEP(999)`. Якщо йому це вдасться, але не використовуватиметься функція `mysqli::multi_query`, сервер не виконає впроваджений та небезпечний SQL-вираз.
+Функції API [mysqli::query()](mysqli.query.md) і [mysqli::realquery()](mysqli.real-query.html) під час роботи не встановлюють на сервері спеціальний прапор, необхідний виконання мультизапросов. Окрема функція API для мультизапитів дозволяє знизити ймовірність випадкових SQL-ін'єкцій. Зловмисник може спробувати додати до кінця запиту виразу, на кшталт `; DROP DATABASE mysql` або `; SELECT SLEEP(999)`. Якщо йому це вдасться, але не використовуватиметься функція `mysqli::multi_query`, сервер не виконає впроваджений та небезпечний SQL-вираз.
 
 **Приклад #2 SQL-ін'єкція**
 
@@ -93,7 +93,7 @@ to use near 'DROP TABLE mysql.user' at line 1
 
 *Дивіться також*
 
--   [mysqli::query()](mysqli.query.html)
+-   [mysqli::query()](mysqli.query.md)
 -   [mysqli::multiquery()](mysqli.multi-query.html)
 -   [mysqli::nextresult()](mysqli.next-result.html)
 -   [mysqli::moreresults()](mysqli.more-results.html)

@@ -4,7 +4,7 @@
     
 -   [ОЙControlsColorButton::onChange »](ui-controls-colorbutton.onchange.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsColorButton](class.ui-controls-colorbutton.html)
     

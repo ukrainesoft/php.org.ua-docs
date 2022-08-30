@@ -4,9 +4,9 @@
     
 -   [fdfgetflags »](function.fdf-get-flags.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Отримує значення ключа /F
     

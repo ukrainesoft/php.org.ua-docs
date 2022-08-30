@@ -1,12 +1,12 @@
 Отримує поле
 
--   [« SolrDocument::offsetExists](solrdocument.offsetexists.html)
+-   [« SolrDocument::offsetExists](solrdocument.offsetexists.md)
     
--   [SolrDocument::offsetSet »](solrdocument.offsetset.html)
+-   [SolrDocument::offsetSet »](solrdocument.offsetset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocument](class.solrdocument.html)
+-   [SolrDocument](class.solrdocument.md)
     
 -   Отримує поле
     

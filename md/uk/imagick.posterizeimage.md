@@ -1,12 +1,12 @@
 Зменшує зображення до обмеженої кількості рівнів кольору
 
--   [« Imagick::polaroidImage](imagick.polaroidimage.html)
+-   [« Imagick::polaroidImage](imagick.polaroidimage.md)
     
--   [Imagick::previewImages »](imagick.previewimages.html)
+-   [Imagick::previewImages »](imagick.previewimages.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Зменшує зображення до обмеженої кількості рівнів кольору
     

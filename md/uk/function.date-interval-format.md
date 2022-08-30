@@ -4,9 +4,9 @@
     
 -   [dateisodateset »](function.date-isodate-set.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Псевдонім DateInterval::format
     
@@ -15,8 +15,8 @@
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-dateintervalformat — Псевдонім [DateInterval::format()](dateinterval.format.html)
+dateintervalformat — Псевдонім [DateInterval::format()](dateinterval.format.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateInterval::format()](dateinterval.format.html)
+Ця функція є псевдонімом: [DateInterval::format()](dateinterval.format.md)

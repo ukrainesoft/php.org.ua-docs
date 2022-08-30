@@ -1,12 +1,12 @@
 Записати дані сесії
 
--   [« SessionHandlerInterface::read](sessionhandlerinterface.read.html)
+-   [« SessionHandlerInterface::read](sessionhandlerinterface.read.md)
     
--   [SessionIdInterface »](class.sessionidinterface.html)
+-   [SessionIdInterface »](class.sessionidinterface.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SessionHandlerInterface](class.sessionhandlerinterface.html)
+-   [SessionHandlerInterface](class.sessionhandlerinterface.md)
     
 -   Записати дані сесії
     
@@ -23,9 +23,9 @@ SessionHandlerInterface::write — Записати дані сесії
 public SessionHandlerInterface::write(string $id, string $data): bool
 ```
 
-Записує дані сесії у сховище сесій. Викликається функцією [sessionwriteclose()](function.session-write-close.html), коли невдало завершується функція [sessionregistershutdown()](function.session-register-shutdown.html) або під час нормального завершення роботи. Увага: [SessionHandlerInterface::close()](sessionhandlerinterface.close.html) викликається відразу після цієї функції.
+Записує дані сесії у сховище сесій. Викликається функцією [sessionwriteclose()](function.session-write-close.html), коли невдало завершується функція [sessionregistershutdown()](function.session-register-shutdown.html) або під час нормального завершення роботи. Увага: [SessionHandlerInterface::close()](sessionhandlerinterface.close.md) викликається відразу після цієї функції.
 
-PHP викликає цей метод, коли сесія готова для збереження та закриття. Кодуються дані сесії із суперглобального масиву [SESSION](reserved.variables.session.html) серіалізований рядок і передаються разом з ідентифікатором сесії даним методом для зберігання. Метод серіалізації, що використовується, вказаний в опції [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
+PHP викликає цей метод, коли сесія готова для збереження та закриття. Кодуються дані сесії із суперглобального масиву [SESSION](reserved.variables.session.md) серіалізований рядок і передаються разом з ідентифікатором сесії даним методом для зберігання. Метод серіалізації, що використовується, вказаний в опції [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
 
 Зауважте, що цей метод зазвичай викликається PHP після закриття буферів виводу, якщо явно не викликається [sessionwriteclose()](function.session-write-close.html)
 
@@ -37,7 +37,7 @@ PHP викликає цей метод, коли сесія готова для 
 
 `data`
 
-Закодовані дані сесії. Ці дані є результатом внутрішнього кодування PHP суперглобального масиву. [SESSION](reserved.variables.session.html) в серіалізований рядок та передачі її як цей параметр. Зауважте, що сесії використовують альтернативний метод серіалізації.
+Закодовані дані сесії. Ці дані є результатом внутрішнього кодування PHP суперглобального масиву. [SESSION](reserved.variables.session.md) в серіалізований рядок та передачі її як цей параметр. Зауважте, що сесії використовують альтернативний метод серіалізації.
 
 ### Значення, що повертаються
 

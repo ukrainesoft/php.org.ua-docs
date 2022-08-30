@@ -4,7 +4,7 @@
     
 -   [RowResult::fetchOne »](mysql-xdevapi-rowresult.fetchone.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiRowResult](class.mysql-xdevapi-rowresult.html)
     

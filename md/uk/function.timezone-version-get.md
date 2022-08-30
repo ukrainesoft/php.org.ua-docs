@@ -2,11 +2,11 @@
 
 -   [« timezonetransitionsget](function.timezone-transitions-get.html)
     
--   [Допустимые форматы даты/времени »](datetime.formats.html)
+-   [Допустимі формати дати/часу »](datetime.formats.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Отримання номера версії бази даних часових поясів
     
@@ -51,4 +51,4 @@ echo timezone_version_get();
 
 ### Дивіться також
 
--   [Список підтримуваних часових поясів](timezones.html)
+-   [Список підтримуваних часових поясів](timezones.md)

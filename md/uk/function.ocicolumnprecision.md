@@ -1,12 +1,12 @@
 Псевдонім ocifieldprecision
 
--   [« ocicolumnname](function.ocicolumnname.html)
+-   [« ocicolumnname](function.ocicolumnname.md)
     
--   [ocicolumnscale »](function.ocicolumnscale.html)
+-   [ocicolumnscale »](function.ocicolumnscale.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Псевдонім ocifieldprecision
     

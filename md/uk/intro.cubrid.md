@@ -2,7 +2,7 @@
 
 -   [« CUBRID](book.cubrid.html)
     
--   [Установка и настройка »](cubrid.setup.html)
+-   [Встановлення та налаштування »](cubrid.setup.html)
     
 -   [PHP Manual](index.html)
     

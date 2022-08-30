@@ -4,9 +4,9 @@
     
 -   [dateformat »](function.date-format.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Псевдонім DateTime::diff
     
@@ -15,8 +15,8 @@
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-datediff - Псевдонім [DateTime::diff()](datetime.diff.html)
+datediff - Псевдонім [DateTime::diff()](datetime.diff.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateTime::diff()](datetime.diff.html)
+Ця функція є псевдонімом: [DateTime::diff()](datetime.diff.md)

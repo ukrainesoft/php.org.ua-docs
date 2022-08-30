@@ -1,12 +1,12 @@
 Анімує зображення або зображення
 
--   [« Imagick::linearStretchImage](imagick.linearstretchimage.html)
+-   [« Imagick::linearStretchImage](imagick.linearstretchimage.md)
     
--   [Imagick::listRegistry »](imagick.listregistry.html)
+-   [Imagick::listRegistry »](imagick.listregistry.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Анімує зображення або зображення
     
@@ -49,4 +49,4 @@ public Imagick::liquidRescaleImage(    int $width,    int $height,   
 
 ### Дивіться також
 
--   [Imagick::resizeImage()](imagick.resizeimage.html) - Масштабує зображення
+-   [Imagick::resizeImage()](imagick.resizeimage.md) - Масштабує зображення

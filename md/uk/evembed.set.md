@@ -1,12 +1,12 @@
 Налаштування спостерігача
 
--   [« EvEmbed::createStopped](evembed.createstopped.html)
+-   [« EvEmbed::createStopped](evembed.createstopped.md)
     
--   [EvEmbed::sweep »](evembed.sweep.html)
+-   [EvEmbed::sweep »](evembed.sweep.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvEmbed](class.evembed.html)
+-   [EvEmbed](class.evembed.md)
     
 -   Налаштування спостерігача
     
@@ -33,7 +33,7 @@ public
 
 `other`
 
-Дивіться [EvEmbed::construct()](evembed.construct.html)
+Дивіться [EvEmbed::construct()](evembed.construct.md)
 
 ### Значення, що повертаються
 

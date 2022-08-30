@@ -4,9 +4,9 @@
     
 -   [traderatr »](function.trader-atr.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Вектор тригонометричний арктангенс
     

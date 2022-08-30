@@ -4,9 +4,9 @@
     
 -   [fanngettotalneurons »](function.fann-get-total-neurons.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Отримує загальну кількість з'єднань у всій мережі
     

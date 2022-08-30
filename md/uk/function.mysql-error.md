@@ -4,9 +4,9 @@
     
 -   [mysqlescapestring »](function.mysql-escape-string.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](ref.mysql.html)
+-   [MySQL](ref.mysql.md)
     
 -   Повертає текст помилки останньої операції з MySQL
     
@@ -19,10 +19,10 @@ mysqlerror — Повертає текст помилки останньої о�
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlierror()](mysqli.error.html)
--   [PDO::errorInfo()](pdo.errorinfo.html)
+-   [mysqlierror()](mysqli.error.md)
+-   [PDO::errorInfo()](pdo.errorinfo.md)
 
 ### Опис
 
@@ -69,4 +69,4 @@ echo mysql_errno($link) . ": " . mysql_error($link) . "\n";
 ### Дивіться також
 
 -   [mysqlerrno()](function.mysql-errno.html) - Повертає чисельний код помилки виконання останньої операції з MySQL
--   [» Коды ошибок MySQL](http://dev.mysql.com/doc/mysql/en/error-handling.html)
+-   [» Коди помилок MySQL](http://dev.mysql.com/doc/mysql/en/error-handling.html)

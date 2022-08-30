@@ -4,9 +4,9 @@
     
 -   [socketread »](function.socket-read.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции сокета](ref.sockets.html)
+-   [Функции сокета](ref.sockets.md)
     
 -   Прослуховує вхідні з'єднання на сокеті
     
@@ -31,7 +31,7 @@ socket_listen(Socket $socket, int $backlog = 0): bool
 
 `socket`
 
-Екземпляр [Socket](class.socket.html)створений за допомогою функцій [socketcreate()](function.socket-create.html) або [socketaddrinfobind()](function.socket-addrinfo-bind.html)
+Екземпляр [Socket](class.socket.md)створений за допомогою функцій [socketcreate()](function.socket-create.html) або [socketaddrinfobind()](function.socket-addrinfo-bind.html)
 
 `backlog`
 
@@ -47,9 +47,9 @@ socket_listen(Socket $socket, int $backlog = 0): bool
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 

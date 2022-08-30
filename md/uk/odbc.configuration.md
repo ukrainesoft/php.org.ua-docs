@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](odbc.installation.html)
+-   [« Установка](odbc.installation.md)
     
--   [Типы ресурсов »](uodbc.resources.html)
+-   [Типи ресурсів »](uodbc.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](uodbc.setup.html)
+-   [Встановлення та налаштування](uodbc.setup.md)
     
 -   Налаштування під час виконання
     
@@ -17,22 +17,22 @@
 
 **Установки конфігурації Unified ODBC**
 
-| Имя                                                                           | По умолчанию | Место изменения | Список изменений |
-|-------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [odbc.defaultдб](odbc.configuration.html#ini.uodbc.default-db)                | NULL         | PHPINIALL       |                  |
-| [odbc.defaultuser](odbc.configuration.html#ini.uodbc.default-user)            | NULL         | PHPINIALL       |                  |
-| [odbc.defaultпв](odbc.configuration.html#ini.uodbc.default-pw)                | NULL         | PHPINIALL       |                  |
-| [odbc.allowpersistent](odbc.configuration.html#ini.uodbc.allow-persistent)    | "1"          | PHPINISYSTEM    |                  |
-| [odbc.checkpersistent](odbc.configuration.html#ini.uodbc.check-persistent)    | "1"          | PHPINISYSTEM    |                  |
-| [odbc.maxpersistent](odbc.configuration.html#ini.uodbc.max-persistent)        | "-1"         | PHPINISYSTEM    |                  |
-| [odbc.maxlinks](odbc.configuration.html#ini.uodbc.max-links)                  | "-1"         | PHPINISYSTEM    |                  |
-| [odbc.defaultlrl](odbc.configuration.html#ini.uodbc.defaultlrl)               | "4096"       | PHPINIALL       |                  |
-| [odbc.defaultbinmode](odbc.configuration.html#ini.uodbc.defaultbinmode)       | "1"          | PHPINIALL       |                  |
-| [odbc.defaultcursortype](odbc.configuration.html#ini.uodbc.defaultcursortype) | "3"          | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [odbc.defaultдб](odbc.configuration.html#ini.uodbc.default-db) | NULL | PHPINIALL |  |
+| [odbc.defaultuser](odbc.configuration.html#ini.uodbc.default-user) | NULL | PHPINIALL |  |
+| [odbc.defaultпв](odbc.configuration.html#ini.uodbc.default-pw) | NULL | PHPINIALL |  |
+| [odbc.allowpersistent](odbc.configuration.html#ini.uodbc.allow-persistent) | "1" | PHPINISYSTEM |  |
+| [odbc.checkpersistent](odbc.configuration.html#ini.uodbc.check-persistent) | "1" | PHPINISYSTEM |  |
+| [odbc.maxpersistent](odbc.configuration.html#ini.uodbc.max-persistent) | "-1" | PHPINISYSTEM |  |
+| [odbc.maxlinks](odbc.configuration.html#ini.uodbc.max-links) | "-1" | PHPINISYSTEM |  |
+| [odbc.defaultlrl](odbc.configuration.html#ini.uodbc.defaultlrl) | "4096" | PHPINIALL |  |
+| [odbc.defaultbinmode](odbc.configuration.html#ini.uodbc.defaultbinmode) | "1" | PHPINIALL |  |
+| [odbc.defaultcursortype](odbc.configuration.html#ini.uodbc.defaultcursortype) | "3" | PHPINIALL |  |
 
 > **Зауваження**: Записи, позначені ще не реалізовані.
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 

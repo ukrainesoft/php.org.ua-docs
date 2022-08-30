@@ -1,19 +1,19 @@
 Вступ
 
--   [« MySQL (Original)](book.mysql.html)
+-   [« MySQL (Original)](book.mysql.md)
     
--   [Установка и настройка »](mysql.setup.html)
+-   [Встановлення та налаштування »](mysql.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL (Original)](book.mysql.html)
+-   [MySQL (Original)](book.mysql.md)
     
 -   Вступ
     
 
 # Вступ
 
-Цей модуль застарів з версії PHP 5.5.0 і видалено у версії 7.0.0. Замість нього використовуйте [mysqli](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Ознайомтеся також з [оглядом MySQL API](mysqlinfo.api.choosing.html) для більш детальної інформації щодо вибору MySQL API.
+Цей модуль застарів з версії PHP 5.5.0 і видалено у версії 7.0.0. Замість нього використовуйте [mysqli](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Ознайомтеся також з [оглядом MySQL API](mysqlinfo.api.choosing.md) для більш детальної інформації щодо вибору MySQL API.
 
 Ці функції дозволяють працювати з MySQL. За інформацією про MySQL звертайтесь до [» http://www.mysql.com/](http://www.mysql.com/)
 

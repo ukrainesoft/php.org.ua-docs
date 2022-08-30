@@ -1,12 +1,12 @@
 Файли collection.xml та collection.xsl для прикладів
 
--   [« Примеры](xsl.examples.html)
+-   [« Приклади](xsl.examples.md)
     
 -   [Обработка ошибок с помощью функций обработки ошибок libxml »](xsl.examples-errors.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](xsl.examples.html)
+-   [Приклади](xsl.examples.md)
     
 -   Файли collection.xml та collection.xsl для прикладів
     
@@ -21,7 +21,7 @@ Fight for your mind Ben Harper 1995 Electric Ladyland Jimi Hendrix 1997
 
 **Приклад # 2 collection.xsl**
 
-[http://www.w3.org/1999/XSL/Transform">](http://www.w3.org/1999/XSL/Transform">) Hey! Welcome to 's sweet CD collection! [xsl:apply-templates/](xsl:apply-templates/)
+[http://www.w3.org/1999/XSL/Transform">](http://www.w3.org/1999/XSL/Transform%22%3E) Hey! Welcome to 's sweet CD collection! [xsl:apply-templates/](xsl:apply-templates/)
 
 ## by -
 

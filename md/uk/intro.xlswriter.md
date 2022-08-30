@@ -1,12 +1,12 @@
 Вступ
 
--   [« XLSWriter](book.xlswriter.html)
+-   [« XLSWriter](book.xlswriter.md)
     
--   [Установка и настройка »](xlswriter.setup.html)
+-   [Встановлення та налаштування »](xlswriter.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XLSWriter](book.xlswriter.html)
+-   [XLSWriter](book.xlswriter.md)
     
 -   Вступ
     

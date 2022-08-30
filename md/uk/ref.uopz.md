@@ -1,6 +1,6 @@
 Функції Uopz
 
--   [« Предопределённые константы](uopz.constants.html)
+-   [« Обумовлені константи](uopz.constants.html)
     
 -   [uopzaddfunction »](function.uopz-add-function.html)
     

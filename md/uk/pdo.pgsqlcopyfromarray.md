@@ -2,9 +2,9 @@
 
 -   [« PDOPGSQL DSN](ref.pdo-pgsql.connection.html)
     
--   [PDO::pgsqlCopyFromFile »](pdo.pgsqlcopyfromfile.html)
+-   [PDO::pgsqlCopyFromFile »](pdo.pgsqlcopyfromfile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
     

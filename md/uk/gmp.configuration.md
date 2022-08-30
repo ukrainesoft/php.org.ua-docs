@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](gmp.installation.html)
+-   [« Установка](gmp.installation.md)
     
--   [Предопределённые константы »](gmp.constants.html)
+-   [Обумовлені константи »](gmp.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](gmp.setup.html)
+-   [Встановлення та налаштування](gmp.setup.md)
     
 -   Налаштування під час виконання
     

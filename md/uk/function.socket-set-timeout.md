@@ -2,11 +2,11 @@
 
 -   [« socketsetblocking](function.socket-set-blocking.html)
     
--   [syslog »](function.syslog.html)
+-   [syslog »](function.syslog.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Мережеві функції](ref.network.html)
+-   [Мережеві функції](ref.network.md)
     
 -   Псевдонім streamsettimeout
     

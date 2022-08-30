@@ -14,12 +14,12 @@
 # Файлова система
 
 -   [Введение](intro.filesystem.html)
--   [Установка и настройка](filesystem.setup.html)
-    -   [Требования](filesystem.requirements.html)
+-   [Встановлення та налаштування](filesystem.setup.html)
+    -   [Вимоги](filesystem.requirements.html)
     -   [Установка](filesystem.installation.html)
-    -   [Настройка во время выполнения](filesystem.configuration.html)
-    -   [Типы ресурсов](filesystem.resources.html)
--   [Предопределённые константы](filesystem.constants.html)
+    -   [Налаштування під час виконання](filesystem.configuration.html)
+    -   [Типи ресурсів](filesystem.resources.html)
+-   [Обумовлені константи](filesystem.constants.html)
 -   [Функції файлової системи](ref.filesystem.html)
     -   [basename](function.basename.html) — Повертає останній компонент імені із зазначеного шляху
     -   [chgrp](function.chgrp.html) — Змінює групу файлу

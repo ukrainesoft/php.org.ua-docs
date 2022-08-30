@@ -1,12 +1,12 @@
 Перевіряє, чи є поточний елемент допустимим
 
--   [« CachingIterator::toString](cachingiterator.tostring.html)
+-   [« CachingIterator::toString](cachingiterator.tostring.md)
     
--   [CallbackFilterIterator »](class.callbackfilteriterator.html)
+-   [CallbackFilterIterator »](class.callbackfilteriterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CachingIterator](class.cachingiterator.html)
+-   [CachingIterator](class.cachingiterator.md)
     
 -   Перевіряє, чи є поточний елемент допустимим
     

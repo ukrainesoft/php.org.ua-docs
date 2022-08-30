@@ -1,12 +1,12 @@
 Повертає метод віртуального пікселя
 
--   [« Imagick::getImageUnits](imagick.getimageunits.html)
+-   [« Imagick::getImageUnits](imagick.getimageunits.md)
     
--   [Imagick::getImageWhitePoint »](imagick.getimagewhitepoint.html)
+-   [Imagick::getImageWhitePoint »](imagick.getimagewhitepoint.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає метод віртуального пікселя
     

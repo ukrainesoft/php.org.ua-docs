@@ -4,9 +4,9 @@
     
 -   [пгfetcharray »](function.pg-fetch-array.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PostgreSQL](ref.pgsql.html)
+-   [Функции PostgreSQL](ref.pgsql.md)
     
 -   Вибирає всі дані з результату запиту та поміщає їх у масив
     
@@ -43,11 +43,11 @@ pg_fetch_all(PgSql\Result $result, int $mode = PGSQL_ASSOC): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Функція **пгfetchall()** тепер повертає порожній масив (array) замість значення **`false`** для наборів результатів без рядків.                    |
-|        | Доданий параметр `mode`                                                                                                                            |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Функція **пгfetchall()** тепер повертає порожній масив (array) замість значення **`false`** для наборів результатів без рядків. |
+|  | Доданий параметр `mode` |
 
 ### Приклади
 

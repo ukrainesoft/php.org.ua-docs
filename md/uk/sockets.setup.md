@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.sockets.html)
+-   [« Введение](intro.sockets.md)
     
--   [Требования »](sockets.requirements.html)
+-   [Вимоги »](sockets.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Сокеты](book.sockets.html)
+-   [Сокети](book.sockets.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](sockets.requirements.html)
--   [Установка](sockets.installation.html)
--   [Настройка во время выполнения](sockets.configuration.html)
--   [Типы ресурсов](sockets.resources.html)
+-   [Вимоги](sockets.requirements.md)
+-   [Установка](sockets.installation.md)
+-   [Налаштування під час виконання](sockets.configuration.md)
+-   [Типи ресурсів](sockets.resources.md)

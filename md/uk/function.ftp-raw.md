@@ -4,9 +4,9 @@
     
 -   [ftprawlist »](function.ftp-rawlist.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.md)
     
 -   Відправляє довільну команду FTP-серверу
     
@@ -41,9 +41,9 @@ ftp_raw(FTP\Connection $ftp, string $command): ?array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                            |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

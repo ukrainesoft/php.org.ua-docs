@@ -1,12 +1,12 @@
 Перехід до наступного вузла
 
--   [« SplPriorityQueue::key](splpriorityqueue.key.html)
+-   [« SplPriorityQueue::key](splpriorityqueue.key.md)
     
--   [SplPriorityQueue::recoverFromCorruption »](splpriorityqueue.recoverfromcorruption.html)
+-   [SplPriorityQueue::recoverFromCorruption »](splpriorityqueue.recoverfromcorruption.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplPriorityQueue](class.splpriorityqueue.html)
+-   [SplPriorityQueue](class.splpriorityqueue.md)
     
 -   Перехід до наступного вузла
     

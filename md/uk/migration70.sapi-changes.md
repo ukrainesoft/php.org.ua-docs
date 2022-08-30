@@ -1,19 +1,19 @@
 Зміни у модулях SAPI
 
--   [« Новые глобальные константы](migration70.constants.html)
+-   [« Нові глобальні константи](migration70.constants.md)
     
 -   [Віддалені модулі та SAPI »](migration70.removed-exts-sapis.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.html)
+-   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.md)
     
 -   Зміни у модулях SAPI
     
 
 ## Зміни у модулях SAPI
 
-### [FPM](book.fpm.html)
+### [FPM](book.fpm.md)
 
 #### Не повністю визначений порт [listen](install.fpm.configuration.html#listen) тепер слухає як IPv4, так і IPv6
 

@@ -1,12 +1,12 @@
 Отримує об'єкт SNMP
 
--   [« SNMP::construct](snmp.construct.html)
+-   [« SNMP::construct](snmp.construct.md)
     
--   [SNMP::getErrno »](snmp.geterrno.html)
+-   [SNMP::getErrno »](snmp.geterrno.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SNMP](class.snmp.html)
+-   [SNMP](class.snmp.md)
     
 -   Отримує об'єкт SNMP
     
@@ -43,7 +43,7 @@ public SNMP::get(array|string $objectId, bool $preserveKeys = false): mixed
 
 ### Помилки
 
-Цей метод за промовчанням не генерує винятку. Щоб увімкнути генерацію виключення SNMPException при виникненні деяких помилок цієї бібліотеки, необхідно встановити параметр `exceptions_enabled` класу SNMP у відповідне значення. Детальніше дивіться [объяснении параметра`SNMP::$exceptions_enabled`](class.snmp.html#snmp.props.exceptions-enabled)
+Цей метод за промовчанням не генерує винятку. Щоб увімкнути генерацію виключення SNMPException при виникненні деяких помилок цієї бібліотеки, необхідно встановити параметр `exceptions_enabled` класу SNMP у відповідне значення. Детальніше дивіться [поясненні параметра`SNMP::$exceptions_enabled`](class.snmp.html#snmp.props.exceptions-enabled)
 
 ### Приклади
 
@@ -92,5 +92,5 @@ Array
 
 ### Дивіться також
 
--   [SNMP::getErrno()](snmp.geterrno.html) - Отримує код останньої помилки
--   [SNMP::getError()](snmp.geterror.html) - Отримує останнє повідомлення про помилку
+-   [SNMP::getErrno()](snmp.geterrno.md) - Отримує код останньої помилки
+-   [SNMP::getError()](snmp.geterror.md) - Отримує останнє повідомлення про помилку

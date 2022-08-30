@@ -4,7 +4,7 @@
     
 -   [db2numfields »](function.db2-num-fields.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Функції IBM DB2](ref.ibm-db2.html)
     

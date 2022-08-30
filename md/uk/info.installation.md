@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](info.requirements.html)
+-   [« Вимоги](info.requirements.md)
     
--   [Настройка во время выполнения »](info.configuration.html)
+-   [Налаштування під час виконання »](info.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](info.setup.html)
+-   [Встановлення та налаштування](info.setup.md)
     
 -   Встановлення
     

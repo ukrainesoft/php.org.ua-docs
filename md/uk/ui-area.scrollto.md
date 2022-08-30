@@ -4,7 +4,7 @@
     
 -   [ОЙArea::setSize »](ui-area.setsize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙArea](class.ui-area.html)
     

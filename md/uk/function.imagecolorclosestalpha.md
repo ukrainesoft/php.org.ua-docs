@@ -1,12 +1,12 @@
 Отримання індексу кольору найближчого до заданого з урахуванням прозорості
 
--   [« imagecolorclosest](function.imagecolorclosest.html)
+-   [« imagecolorclosest](function.imagecolorclosest.md)
     
--   [imagecolorclosesthwb »](function.imagecolorclosesthwb.html)
+-   [imagecolorclosesthwb »](function.imagecolorclosesthwb.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Отримання індексу кольору найближчого до заданого з урахуванням прозорості
     
@@ -29,7 +29,7 @@ imagecolorclosestalpha(    GdImage $image,    int $red,    int $gree
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `red`
 
@@ -97,6 +97,6 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagecolorexactalpha()](function.imagecolorexactalpha.html) - Отримання індексу заданого кольору та альфа компонента
--   [imagecolorclosest()](function.imagecolorclosest.html) - Отримання індексу кольору найближчого до заданого
--   [imagecolorclosesthwb()](function.imagecolorclosesthwb.html) - Отримання індексу кольору, що має заданий тон, білизну та затемнення
+-   [imagecolorexactalpha()](function.imagecolorexactalpha.md) - Отримання індексу заданого кольору та альфа компонента
+-   [imagecolorclosest()](function.imagecolorclosest.md) - Отримання індексу кольору найближчого до заданого
+-   [imagecolorclosesthwb()](function.imagecolorclosesthwb.md) - Отримання індексу кольору, що має заданий тон, білизну та затемнення

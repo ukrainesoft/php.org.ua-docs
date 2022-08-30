@@ -2,40 +2,40 @@
 
 -   [« Нові функції](migration71.new-functions.html)
     
--   [Зміни, що ламають зворотну сумісність »](migration71.incompatible.html)
+-   [Зміни, що ламають зворотну сумісність »](migration71.incompatible.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 7.0.x на PHP 7.1.x](migration71.html)
+-   [Миграция с PHP 7.0.x на PHP 7.1.x](migration71.md)
     
 -   Нові глобальні константи
     
 
 ## Нові глобальні константи
 
-### [Предопределённые константы ядра PHP](reserved.constants.html)
+### [Обумовлені константи ядра PHP](reserved.constants.md)
 
 -   **`PHP_FD_SETSIZE`**
 
-### [CURL](book.curl.html)
+### [CURL](book.curl.md)
 
 -   **`CURLMOPT_PUSHFUNCTION`**
 -   **`CURL_PUSH_OK`**
 -   **`CURL_PUSH_DENY`**
 
-### [Фільтрування даних](book.filter.html)
+### [Фільтрування даних](book.filter.md)
 
 -   **`FILTER_FLAG_EMAIL_UNICODE`**
 
-### [Обработка изображений и GD](book.image.html)
+### [Обработка изображений и GD](book.image.md)
 
 -   **`IMAGETYPE_WEBP`**
 
-### [JSON](book.json.html)
+### [JSON](book.json.md)
 
 -   **`JSON_UNESCAPED_LINE_TERMINATORS`**
 
-### [LDAP](book.ldap.html)
+### [LDAP](book.ldap.md)
 
 -   **`LDAP_OPT_X_SASL_NOCANON`**
 -   **`LDAP_OPT_X_SASL_USERNAME`**
@@ -62,12 +62,12 @@
 -   **`LDAP_OPT_X_KEEPALIVE_PROBES`**
 -   **`LDAP_OPT_X_KEEPALIVE_INTERVAL`**
 
-### [PostgreSQL](book.pgsql.html)
+### [PostgreSQL](book.pgsql.md)
 
 -   **`PGSQL_NOTICE_LAST`**
 -   **`PGSQL_NOTICE_ALL`**
 -   **`PGSQL_NOTICE_CLEAR`**
 
-### [SPL](book.spl.html)
+### [SPL](book.spl.md)
 
 -   **`MT_RAND_PHP`**

@@ -1,12 +1,12 @@
 Перетворення PNG файлу на WBMP
 
--   [« jpeg2wbmp](function.jpeg2wbmp.html)
+-   [« jpeg2wbmp](function.jpeg2wbmp.md)
     
--   [GdImage »](class.gdimage.html)
+-   [GdImage »](class.gdimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Перетворення PNG файлу на WBMP
     
@@ -78,4 +78,4 @@ png2wbmp($path, './test.wbmp', $image[1], $image[0], 7);
 
 ### Дивіться також
 
--   [jpeg2wbmp()](function.jpeg2wbmp.html) - Конвертує зображення з формату JPEG у WBMP
+-   [jpeg2wbmp()](function.jpeg2wbmp.md) - Конвертує зображення з формату JPEG у WBMP

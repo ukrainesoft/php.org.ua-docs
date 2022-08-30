@@ -4,7 +4,7 @@
     
 -   [ComponereAbstractDefinition::getReflector »](componere-abstract-definition.getreflector.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponereAbstractDefinition](class.componere-abstract-definition.html)
     
@@ -39,4 +39,4 @@ The current Definition
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), якщо Definition було зареєстровано
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо Definition було зареєстровано

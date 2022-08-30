@@ -1,12 +1,12 @@
 Клас ResourceBundle
 
--   [« IntlDateFormatter::setTimeZone](intldateformatter.settimezone.html)
+-   [« IntlDateFormatter::setTimeZone](intldateformatter.settimezone.md)
     
--   [ResourceBundle::count »](resourcebundle.count.html)
+-   [ResourceBundle::count »](resourcebundle.count.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [intl](book.intl.html)
+-   [intl](book.intl.md)
     
 -   Клас ResourceBundle
     
@@ -56,10 +56,10 @@ public static getLocales(string $bundle): array|false
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                    |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Клас **ResourceBundle** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше було реалізовано інтерфейс [Traversable](class.traversable.html) |
-|        | Клас **ResourceBundle** тепер реалізує інтерфейс [Countable](class.countable.html)                                                                                          |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **ResourceBundle** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше було реалізовано інтерфейс [Traversable](class.traversable.md) |
+|  | Клас **ResourceBundle** тепер реалізує інтерфейс [Countable](class.countable.md) |
 
 ## Дивіться також
 
@@ -68,9 +68,9 @@ public static getLocales(string $bundle): array|false
 
 ## Зміст
 
--   [ResourceBundle::count](resourcebundle.count.html) — Отримати кількість елементів у пакеті
--   [ResourceBundle::create](resourcebundle.create.html) - Створити пакет ресурсів
--   [ResourceBundle::getErrorCode](resourcebundle.geterrorcode.html) — Отримати останній код помилки пакета
--   [ResourceBundle::getErrorMessage](resourcebundle.geterrormessage.html) — Отримати останнє повідомлення про помилку пакета
--   [ResourceBundle::get](resourcebundle.get.html) — Отримати дані з пакета
--   [ResourceBundle::getLocales](resourcebundle.locales.html) — Отримати підтримувані локалі
+-   [ResourceBundle::count](resourcebundle.count.md) — Отримати кількість елементів у пакеті
+-   [ResourceBundle::create](resourcebundle.create.md) - Створити пакет ресурсів
+-   [ResourceBundle::getErrorCode](resourcebundle.geterrorcode.md) — Отримати останній код помилки пакета
+-   [ResourceBundle::getErrorMessage](resourcebundle.geterrormessage.md) — Отримати останнє повідомлення про помилку пакета
+-   [ResourceBundle::get](resourcebundle.get.md) — Отримати дані з пакета
+-   [ResourceBundle::getLocales](resourcebundle.locales.md) — Отримати підтримувані локалі

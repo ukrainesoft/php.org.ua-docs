@@ -4,9 +4,9 @@
     
 -   [tradercdl3outside »](function.trader-cdl3outside.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Потрійний удар
     

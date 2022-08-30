@@ -6,7 +6,7 @@ Subversion
     
 -   [PHP Manual](index.html)
     
--   [Другие службы](refs.remote.other.html)
+-   [Інші служби](refs.remote.other.html)
     
 -   Subversion
     
@@ -14,12 +14,12 @@ Subversion
 # Subversion
 
 -   [Введение](intro.svn.html)
--   [Установка и настройка](svn.setup.html)
-    -   [Требования](svn.requirements.html)
+-   [Встановлення та налаштування](svn.setup.html)
+    -   [Вимоги](svn.requirements.html)
     -   [Установка](svn.installation.html)
-    -   [Настройка во время выполнения](svn.configuration.html)
-    -   [Типы ресурсов](svn.resources.html)
--   [Предопределённые константы](svn.constants.html)
+    -   [Налаштування під час виконання](svn.configuration.html)
+    -   [Типи ресурсів](svn.resources.html)
+-   [Обумовлені константи](svn.constants.html)
 -   [Функції SVN](ref.svn.html)
     -   [svnadd](function.svn-add.html) — Додає елементи до списку запланованих для додавання до робочої копії
     -   [svnauthgetparameter](function.svn-auth-get-parameter.html) — Повертає параметр автентифікації

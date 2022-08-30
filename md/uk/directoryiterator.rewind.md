@@ -1,12 +1,12 @@
 Встановлює покажчик на перший елемент DirectoryIterator
 
--   [« DirectoryIterator::next](directoryiterator.next.html)
+-   [« DirectoryIterator::next](directoryiterator.next.md)
     
--   [DirectoryIterator::seek »](directoryiterator.seek.html)
+-   [DirectoryIterator::seek »](directoryiterator.seek.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DirectoryIterator](class.directoryiterator.html)
+-   [DirectoryIterator](class.directoryiterator.md)
     
 -   Встановлює покажчик на перший елемент DirectoryIterator
     
@@ -23,7 +23,7 @@ DirectoryIterator::rewind — Встановлює вказівник на пе�
 public DirectoryIterator::rewind(): void
 ```
 
-Встановлює вказівник на перший елемент [DirectoryIterator](class.directoryiterator.html)
+Встановлює вказівник на перший елемент [DirectoryIterator](class.directoryiterator.md)
 
 ### Список параметрів
 
@@ -51,8 +51,8 @@ echo $iterator->key(); //0
 
 ### Дивіться також
 
--   [DirectoryIterator::current()](directoryiterator.current.html) - Повертає поточний елемент DirectoryIterator
--   [DirectoryIterator::key()](directoryiterator.key.html) - Повертає ключ поточного елемента DirectoryIterator
--   [DirectoryIterator::next()](directoryiterator.next.html) - Переміщує покажчик на наступний елемент DirectoryIterator
--   [DirectoryIterator::valid()](directoryiterator.valid.html) - Перевіряє, чи є поточний елемент DirectoryIterator допустимим файлом
--   [Iterator::rewind()](iterator.rewind.html) – Повертає ітератор на перший елемент
+-   [DirectoryIterator::current()](directoryiterator.current.md) - Повертає поточний елемент DirectoryIterator
+-   [DirectoryIterator::key()](directoryiterator.key.md) - Повертає ключ поточного елемента DirectoryIterator
+-   [DirectoryIterator::next()](directoryiterator.next.md) - Переміщує покажчик на наступний елемент DirectoryIterator
+-   [DirectoryIterator::valid()](directoryiterator.valid.md) - Перевіряє, чи є поточний елемент DirectoryIterator допустимим файлом
+-   [Iterator::rewind()](iterator.rewind.md) – Повертає ітератор на перший елемент

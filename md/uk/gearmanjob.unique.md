@@ -1,12 +1,12 @@
 Отримання унікального ідентифікатора
 
--   [« GearmanJob::status](gearmanjob.status.html)
+-   [« GearmanJob::status](gearmanjob.status.md)
     
--   [GearmanJob::warning »](gearmanjob.warning.html)
+-   [GearmanJob::warning »](gearmanjob.warning.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanJob](class.gearmanjob.html)
+-   [GearmanJob](class.gearmanjob.md)
     
 -   Отримання унікального ідентифікатора
     
@@ -35,5 +35,5 @@ public GearmanJob::unique(): string
 
 ### Дивіться також
 
--   [GearmanClient::do()](gearmanclient.do.html) - Виконує одне завдання та повертає результат Застарілий метод
--   [GearmanTask::uuid()](gearmantask.uuid.html) - отримання унікального ідентифікатора завдання (застарілий метод)
+-   [GearmanClient::do()](gearmanclient.do.md) - Виконує одне завдання та повертає результат Застарілий метод
+-   [GearmanTask::uuid()](gearmantask.uuid.md) - отримання унікального ідентифікатора завдання (застарілий метод)

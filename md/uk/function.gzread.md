@@ -1,12 +1,12 @@
 Бінарне читання gz-файлу
 
--   [« gzputs](function.gzputs.html)
+-   [« gzputs](function.gzputs.md)
     
--   [gzrewind »](function.gzrewind.html)
+-   [gzrewind »](function.gzrewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Zlib](ref.zlib.html)
+-   [Функции Zlib](ref.zlib.md)
     
 -   Бінарне читання gz-файлу
     
@@ -29,7 +29,7 @@ gzread(resource $stream, int $length): string|false
 
 `stream`
 
-Вказівник на gz-файл, повернутий після його успішного відкриття функцією [gzopen()](function.gzopen.html)
+Вказівник на gz-файл, повернутий після його успішного відкриття функцією [gzopen()](function.gzopen.md)
 
 `length`
 
@@ -41,9 +41,9 @@ gzread(resource $stream, int $length): string|false
 
 ### список змін
 
-| Версия | Описание                                                                   |
-|--------|----------------------------------------------------------------------------|
-|        | У разі виникнення помилки повертається **`false`**; раніше, повертався `0` |
+| Версия | Описание |
+| --- | --- |
+|  | У разі виникнення помилки повертається **`false`**; раніше, повертався `0` |
 
 ### Приклади
 
@@ -61,9 +61,9 @@ gzclose($zd);
 
 ### Дивіться також
 
--   [gzwrite()](function.gzwrite.html) - Бінарний запис у gz-файл
--   [gzopen()](function.gzopen.html) - Відкрити gz-файл
--   [gzgets()](function.gzgets.html) - Отримати рядок із покажчика файлу
--   [gzgetss()](function.gzgetss.html) - Повертає рядок із покажчика gz-файлу та видалити HTML-теги
--   [gzfile()](function.gzfile.html) - Зчитує весь gz-файл у масив
--   [gzpassthru()](function.gzpassthru.html) - Виведення всіх даних з покажчика gz-файлу.
+-   [gzwrite()](function.gzwrite.md) - Бінарний запис у gz-файл
+-   [gzopen()](function.gzopen.md) - Відкрити gz-файл
+-   [gzgets()](function.gzgets.md) - Отримати рядок із покажчика файлу
+-   [gzgetss()](function.gzgetss.md) - Повертає рядок із покажчика gz-файлу та видалити HTML-теги
+-   [gzfile()](function.gzfile.md) - Зчитує весь gz-файл у масив
+-   [gzpassthru()](function.gzpassthru.md) - Виведення всіх даних з покажчика gz-файлу.

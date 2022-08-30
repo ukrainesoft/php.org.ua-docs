@@ -4,9 +4,9 @@
     
 -   [phpdbgbreaknext »](function.phpdbg-break-next.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции phpdbg](ref.phpdbg.html)
+-   [Функции phpdbg](ref.phpdbg.md)
     
 -   Додати точку переривання на виклик методу класу
     

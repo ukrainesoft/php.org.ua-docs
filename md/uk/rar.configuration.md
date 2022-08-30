@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](rar.installation.html)
+-   [« Установка](rar.installation.md)
     
--   [Типы ресурсов »](rar.resources.html)
+-   [Типи ресурсів »](rar.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](rar.setup.html)
+-   [Встановлення та налаштування](rar.setup.md)
     
 -   Налаштування під час виконання
     

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](iconv.setup.html)
+-   [« Встановлення та налаштування](iconv.setup.md)
     
--   [Установка »](iconv.installation.html)
+-   [Установка »](iconv.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](iconv.setup.html)
+-   [Встановлення та налаштування](iconv.setup.md)
     
 -   Вимоги
     

@@ -1,12 +1,12 @@
 Типи атрибутів RADIUS
 
--   [« типы пакетов RADIUS](radius.constants.packets.html)
+-   [типи пакетів RADIUS](radius.constants.packets.md)
     
 -   [Атрибути RADIUS специфічні для різних виробників.](radius.constants.vendor-specific.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые константы](radius.constants.html)
+-   [Обумовлені константи](radius.constants.md)
     
 -   Типи атрибутів RADIUS
     

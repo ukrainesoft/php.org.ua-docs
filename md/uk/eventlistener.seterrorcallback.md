@@ -1,12 +1,12 @@
 Встановлює callback-функцію помилки слухача подій
 
--   [« EventListener::setCallback](eventlistener.setcallback.html)
+-   [« EventListener::setCallback](eventlistener.setcallback.md)
     
--   [EventSslContext »](class.eventsslcontext.html)
+-   [EventSslContext »](class.eventsslcontext.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventListener](class.eventlistener.html)
+-   [EventListener](class.eventlistener.md)
     
 -   Встановлює callback-функцію помилки слухача подій
     
@@ -49,7 +49,7 @@ callback(
 
 `listener`
 
-Об'єкт [EventListener](class.eventlistener.html)
+Об'єкт [EventListener](class.eventlistener.md)
 
 `data`
 
@@ -59,4 +59,4 @@ callback(
 
 ### Дивіться також
 
--   [EventListener::setCallback()](eventlistener.setcallback.html) - Ціль setCallback
+-   [EventListener::setCallback()](eventlistener.setcallback.md) - Ціль setCallback

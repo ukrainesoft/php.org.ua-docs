@@ -4,9 +4,9 @@
     
 -   [fbirdtrans »](function.fbird-trans.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Firebird/InterBase](ref.ibase.html)
+-   [Функции Firebird/InterBase](ref.ibase.md)
     
 -   Псевдонім ibaseseteventhandler
     

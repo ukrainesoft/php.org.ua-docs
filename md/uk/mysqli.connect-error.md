@@ -2,11 +2,11 @@
 
 -   [« mysqli::$connecterrno](mysqli.connect-errno.html)
     
--   [mysqli::construct »](mysqli.construct.html)
+-   [mysqli::construct »](mysqli.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Повертає опис останньої помилки підключення
     
@@ -83,6 +83,6 @@ if (!$link) {
 
 -   [mysqliconnect()](function.mysqli-connect.html) - Псевдонім mysqli::construct
 -   [mysqliconnecterrno()](mysqli.connect-errno.html) - Повертає код помилки останньої спроби з'єднання
--   [mysqlierrno()](mysqli.errno.html) - Повертає код помилки останнього виклику функції
--   [mysqlierror()](mysqli.error.html) - Повертає рядок із описом останньої помилки
--   [mysqlisqlstate()](mysqli.sqlstate.html) - Повертає код стану SQLSTATE останній MySQL операції
+-   [mysqlierrno()](mysqli.errno.md) - Повертає код помилки останнього виклику функції
+-   [mysqlierror()](mysqli.error.md) - Повертає рядок із описом останньої помилки
+-   [mysqlisqlstate()](mysqli.sqlstate.md) - Повертає код стану SQLSTATE останній MySQL операції

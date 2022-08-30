@@ -1,12 +1,12 @@
 Функції CUBRID
 
--   [« Примеры](cubrid.examples.html)
+-   [« Приклади](cubrid.examples.md)
     
 -   [cubridbind »](function.cubrid-bind.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CUBRID](book.cubrid.html)
+-   [CUBRID](book.cubrid.md)
     
 -   Функції CUBRID
     

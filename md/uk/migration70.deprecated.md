@@ -4,9 +4,9 @@
     
 -   [Змінені функції »](migration70.changed-functions.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.html)
+-   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.md)
     
 -   Функціональність, оголошена застарілою PHP 7.0.x
     
@@ -35,7 +35,7 @@ Deprecated: Methods with the same name as their class will not be constructors i
 
 ### Статичні виклики нестатичних методів
 
-[Статичні](language.oop5.static.html) виклики методів, не визначених як **static**, оголошені застарілими та можуть бути в майбутньому заборонені.
+[Статичні](language.oop5.static.md) виклики методів, не визначених як **static**, оголошені застарілими та можуть бути в майбутньому заборонені.
 
 ```php
 <?php
@@ -64,7 +64,7 @@ Deprecated: Non-static method foo::bar() should not be called statically in - on
 
 Опція контексту SSL `capture_session_meta` оголошено застарілою. Метадані SSL тепер доступні за допомогою функції [streamgetmetadata()](function.stream-get-meta-data.html)
 
-### Застарілі функції [LDAP](book.ldap.html)
+### Застарілі функції [LDAP](book.ldap.md)
 
 Наступні функції були оголошені застарілими:
 

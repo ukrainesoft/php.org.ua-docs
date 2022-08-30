@@ -1,12 +1,12 @@
 Повертає імена інтерфейсів
 
--   [« ReflectionClass::getFileName](reflectionclass.getfilename.html)
+-   [« ReflectionClass::getFileName](reflectionclass.getfilename.md)
     
--   [ReflectionClass::getInterfaces »](reflectionclass.getinterfaces.html)
+-   [ReflectionClass::getInterfaces »](reflectionclass.getinterfaces.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає імена інтерфейсів
     
@@ -63,4 +63,4 @@ Array
 
 ### Дивіться також
 
--   [ReflectionClass::getInterfaces()](reflectionclass.getinterfaces.html) - Повертає інтерфейси
+-   [ReflectionClass::getInterfaces()](reflectionclass.getinterfaces.md) - Повертає інтерфейси

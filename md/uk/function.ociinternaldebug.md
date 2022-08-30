@@ -1,12 +1,12 @@
 Псевдонім ociinternaldebug
 
--   [« ocifreestatement](function.ocifreestatement.html)
+-   [« ocifreestatement](function.ocifreestatement.md)
     
--   [ociloadlob »](function.ociloadlob.html)
+-   [ociloadlob »](function.ociloadlob.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Псевдонім ociinternaldebug
     

@@ -4,9 +4,9 @@
     
 -   [MongoDBBSONtoCanonicalExtendedJSON »](function.mongodb.bson-tocanonicalextendedjson.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції](ref.bson.functions.html)
+-   [Функції](ref.bson.functions.md)
     
 -   Повертає представлення BSON значення PHP
     
@@ -62,4 +62,4 @@ echo bin2hex($bson), "\n";
 
 -   [MongoDBBSONtoPHP()](function.mongodb.bson-tophp.html) - Повертає PHP подання значення BSON
 -   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
--   [Постійні дані](mongodb.persistence.html)
+-   [Постійні дані](mongodb.persistence.md)

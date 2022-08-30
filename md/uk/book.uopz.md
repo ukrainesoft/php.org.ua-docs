@@ -2,25 +2,25 @@ User Operations для Zend
 
 -   [« runkit7zvalinspect](function.runkit7-zval-inspect.html)
     
--   [Введение »](intro.uopz.html)
+-   [Введение »](intro.uopz.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Изменение поведения PHP](refs.basic.php.html)
+-   [Изменение поведения PHP](refs.basic.php.md)
     
 -   User Operations для Zend
     
 
 # User Operations для Zend
 
--   [Введение](intro.uopz.html)
--   [Установка и настройка](uopz.setup.html)
-    -   [Требования](uopz.requirements.html)
-    -   [Установка](uopz.installation.html)
-    -   [Настройка во время выполнения](uopz.configuration.html)
-    -   [Типы ресурсов](uopz.resources.html)
--   [Предопределённые константы](uopz.constants.html)
--   [Функції Uopz](ref.uopz.html)
+-   [Введение](intro.uopz.md)
+-   [Встановлення та налаштування](uopz.setup.md)
+    -   [Вимоги](uopz.requirements.md)
+    -   [Установка](uopz.installation.md)
+    -   [Налаштування під час виконання](uopz.configuration.md)
+    -   [Типи ресурсів](uopz.resources.md)
+-   [Обумовлені константи](uopz.constants.md)
+-   [Функції Uopz](ref.uopz.md)
     -   [uopzaddfunction](function.uopz-add-function.html) — Додає неіснуючу функцію чи метод
     -   [uopzallowexit](function.uopz-allow-exit.html) — Дозволяє керувати вимкненим опкодом exit
     -   [uopzbackup](function.uopz-backup.html) - Резервує функцію

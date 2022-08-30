@@ -1,12 +1,12 @@
 Створює екземпляр класу DOMAttr
 
--   [« DOMAttr](class.domattr.html)
+-   [« DOMAttr](class.domattr.md)
     
--   [DOMAttr::isId »](domattr.isid.html)
+-   [DOMAttr::isId »](domattr.isid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMAttr](class.domattr.html)
+-   [DOMAttr](class.domattr.md)
     
 -   Створює екземпляр класу DOMAttr
     
@@ -15,13 +15,13 @@
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMAttr::construct - Створює екземпляр класу [DOMAttr](class.domattr.html)
+DOMAttr::construct - Створює екземпляр класу [DOMAttr](class.domattr.md)
 
 ### Опис
 
 public **DOMAttr::construct**(string `$name`, string `$value` = "")
 
-Створює новий об'єкт класу DOMAttr. Цей об'єкт буде доступний лише для читання. Він може бути доданий до документа, але додаткові вузли не можна додати до цього вузла, доки він приєднаний до документа. Для створення вузла з можливістю модифікації використовуйте [DOMDocument::createAttribute](domdocument.createattribute.html)
+Створює новий об'єкт класу DOMAttr. Цей об'єкт буде доступний лише для читання. Він може бути доданий до документа, але додаткові вузли не можна додати до цього вузла, доки він приєднаний до документа. Для створення вузла з можливістю модифікації використовуйте [DOMDocument::createAttribute](domdocument.createattribute.md)
 
 ### Список параметрів
 
@@ -35,7 +35,7 @@ public **DOMAttr::construct**(string `$name`, string `$value` = "")
 
 ### Приклади
 
-**Приклад #1 Створення нового об'єкта класу [DOMAttr](class.domattr.html)**
+**Приклад #1 Створення нового об'єкта класу [DOMAttr](class.domattr.md)**
 
 ```php
 <?php
@@ -57,4 +57,4 @@ echo $dom->saveXML();
 
 ### Дивіться також
 
--   [DOMDocument::createAttribute()](domdocument.createattribute.html) - Створити новий атрибут
+-   [DOMDocument::createAttribute()](domdocument.createattribute.md) - Створити новий атрибут

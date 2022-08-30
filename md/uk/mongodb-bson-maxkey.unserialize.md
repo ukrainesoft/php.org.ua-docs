@@ -41,4 +41,4 @@ final public MongoDB\BSON\MaxKey::unserialize(string $serialized): void
 
 -   [MongoDBBSONMaxKey::serialize()](mongodb-bson-maxkey.serialize.html) - Серіалізує MaxKey
 -   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [Серіалізація об'єктів](language.oop5.serialization.html)

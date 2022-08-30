@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](wddx.installation.html)
+-   [« Установка](wddx.installation.md)
     
--   [Типы ресурсов »](wddx.resources.html)
+-   [Типи ресурсів »](wddx.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](wddx.setup.html)
+-   [Встановлення та налаштування](wddx.setup.md)
     
 -   Налаштування під час виконання
     

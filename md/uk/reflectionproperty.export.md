@@ -1,12 +1,12 @@
 Експорт
 
--   [« ReflectionProperty::construct](reflectionproperty.construct.html)
+-   [« ReflectionProperty::construct](reflectionproperty.construct.md)
     
--   [ReflectionProperty::getAttributes »](reflectionproperty.getattributes.html)
+-   [ReflectionProperty::getAttributes »](reflectionproperty.getattributes.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionProperty](class.reflectionproperty.html)
+-   [ReflectionProperty](class.reflectionproperty.md)
     
 -   Експорт
     
@@ -51,4 +51,4 @@ public static ReflectionProperty::export(mixed $class, string $name, bool $retur
 
 ### Дивіться також
 
--   [ReflectionProperty::toString()](reflectionproperty.tostring.html) - Перетворення на рядок
+-   [ReflectionProperty::toString()](reflectionproperty.tostring.md) - Перетворення на рядок

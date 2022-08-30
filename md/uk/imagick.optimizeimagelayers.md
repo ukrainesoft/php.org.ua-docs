@@ -1,12 +1,12 @@
 Видаляє повторювані частини зображень для оптимізації
 
--   [« Imagick::opaquePaintImage](imagick.opaquepaintimage.html)
+-   [« Imagick::opaquePaintImage](imagick.opaquepaintimage.md)
     
--   [Imagick::orderedPosterizeImage »](imagick.orderedposterizeimage.html)
+-   [Imagick::orderedPosterizeImage »](imagick.orderedposterizeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Видаляє повторювані частини зображень для оптимізації
     
@@ -58,6 +58,6 @@ $im->writeImages("test_optimized.gif", true);
 
 ### Дивіться також
 
--   [Imagick::compareImageLayers()](imagick.compareimagelayers.html) - Повертає максимальну обмежуючу область між зображеннями
--   [Imagick::writeImages()](imagick.writeimages.html) - Записує зображення або послідовність зображень
--   [Imagick::writeImage()](imagick.writeimage.html) - Записує зображення за вказаним ім'ям файлу
+-   [Imagick::compareImageLayers()](imagick.compareimagelayers.md) - Повертає максимальну обмежуючу область між зображеннями
+-   [Imagick::writeImages()](imagick.writeimages.md) - Записує зображення або послідовність зображень
+-   [Imagick::writeImage()](imagick.writeimage.md) - Записує зображення за вказаним ім'ям файлу

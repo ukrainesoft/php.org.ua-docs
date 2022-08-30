@@ -4,7 +4,7 @@
     
 -   [ОЙDrawTextFont::getDescent »](ui-draw-text-font.getdescent.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawTextFont](class.ui-draw-text-font.html)
     

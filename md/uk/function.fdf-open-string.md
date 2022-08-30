@@ -4,9 +4,9 @@
     
 -   [fdfopen »](function.fdf-open.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Читає FDF документ з рядка
     

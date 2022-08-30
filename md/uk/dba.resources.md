@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](dba.configuration.html)
+-   [« Налаштування під час виконання](dba.configuration.html)
     
--   [Предопределённые константы »](dba.constants.html)
+-   [Обумовлені константи »](dba.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](dba.setup.html)
+-   [Встановлення та налаштування](dba.setup.html)
     
 -   Типи ресурсів
     

@@ -4,7 +4,7 @@
     
 -   [ОЙControlsSpin »](class.ui-controls-spin.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsMultilineEntry](class.ui-controls-multilineentry.html)
     

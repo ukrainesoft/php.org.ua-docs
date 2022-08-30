@@ -4,9 +4,9 @@
     
 -   [ocisetprefetch »](function.oci-set-prefetch.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8 Функции](ref.oci8.html)
+-   [OCI8 Функции](ref.oci8.md)
     
 -   Встановлює обсяг даних, що попередньо вибираються для кожного CLOB або BLOB
     

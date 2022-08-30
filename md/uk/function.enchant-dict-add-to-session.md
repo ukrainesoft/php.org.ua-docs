@@ -4,9 +4,9 @@
     
 -   [enchantdictadd »](function.enchant-dict-add.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Enchant](ref.enchant.html)
+-   [Функции Enchant](ref.enchant.md)
     
 -   Додати слово у поточну сесію перевірки
     
@@ -41,9 +41,9 @@ enchant_dict_add_to_session(EnchantDictionary $dictionary, string $word): void
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

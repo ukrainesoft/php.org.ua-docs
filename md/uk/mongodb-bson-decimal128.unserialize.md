@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONJavascript »](class.mongodb-bson-javascript.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONDecimal128](class.mongodb-bson-decimal128.html)
     
@@ -42,5 +42,5 @@ final public MongoDB\BSON\Decimal128::unserialize(string $serialized): void
 ### Дивіться також
 
 -   [MongoDBBSONDecimal128::serialize()](mongodb-bson-decimal128.serialize.html) - Серіалізує Decimal128
--   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

@@ -1,12 +1,12 @@
 Не використовується
 
--   [« LuaSandboxFunction::call](luasandboxfunction.call.html)
+-   [« LuaSandboxFunction::call](luasandboxfunction.call.md)
     
--   [LuaSandboxFunction::dump »](luasandboxfunction.dump.html)
+-   [LuaSandboxFunction::dump »](luasandboxfunction.dump.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LuaSandboxFunction](class.luasandboxfunction.html)
+-   [LuaSandboxFunction](class.luasandboxfunction.md)
     
 -   Не використовується
     
@@ -21,7 +21,7 @@ LuaSandboxFunction::construct — Не використовується
 
 final private **LuaSandboxFunction::construct**
 
-Об'єкти [LuaSandboxFunction](class.luasandboxfunction.html) можна отримати у вигляді значення, що повертається з Lua, у вигляді параметра, переданого callback-функції з Lua, або при використанні [LuaSandbox::wrapPhpFunction()](luasandbox.wrapphpfunction.html) [LuaSandbox::loadString()](luasandbox.loadstring.html) або [LuaSandbox::loadBinary()](luasandbox.loadbinary.html). Вони не можуть бути створені безпосередньо.
+Об'єкти [LuaSandboxFunction](class.luasandboxfunction.md) можна отримати у вигляді значення, що повертається з Lua, у вигляді параметра, переданого callback-функції з Lua, або при використанні [LuaSandbox::wrapPhpFunction()](luasandbox.wrapphpfunction.md) [LuaSandbox::loadString()](luasandbox.loadstring.md) або [LuaSandbox::loadBinary()](luasandbox.loadbinary.md). Вони не можуть бути створені безпосередньо.
 
 ### Список параметрів
 

@@ -1,12 +1,12 @@
 Приклад відображення тегів XML
 
--   [« Пример Структуры Элемента XML](example.xml-structure.html)
+-   [Приклад Структури Елементу XML](example.xml-structure.html)
     
 -   [Приклад використання зовнішніх сутностей XML »](example.xml-external-entity.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](xml.examples.html)
+-   [Приклади](xml.examples.md)
     
 -   Приклад відображення тегів XML
     

@@ -1,12 +1,12 @@
 Повертає інтервал
 
--   [« DatePeriod::construct](dateperiod.construct.html)
+-   [« DatePeriod::construct](dateperiod.construct.md)
     
--   [DatePeriod::getEndDate »](dateperiod.getenddate.html)
+-   [DatePeriod::getEndDate »](dateperiod.getenddate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DatePeriod](class.dateperiod.html)
+-   [DatePeriod](class.dateperiod.md)
     
 -   Повертає інтервал
     
@@ -25,7 +25,7 @@ DatePeriod::getDateInterval — Повертає інтервал
 public DatePeriod::getDateInterval(): DateInterval
 ```
 
-Повертає об'єкт [DateInterval](class.dateinterval.html), що представляє інтервал, використаний для створення періоду
+Повертає об'єкт [DateInterval](class.dateinterval.md), що представляє інтервал, використаний для створення періоду
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ public DatePeriod::getDateInterval(): DateInterval
 
 ### Значення, що повертаються
 
-Повертає об'єкт [DateInterval](class.dateinterval.html)
+Повертає об'єкт [DateInterval](class.dateinterval.md)
 
 ### Приклади
 
@@ -55,5 +55,5 @@ echo $interval->format('%d day');
 
 ### Дивіться також
 
--   [DatePeriod::getStartDate()](dateperiod.getstartdate.html) - Повертає початкову дату періоду
--   [DatePeriod::getEndDate()](dateperiod.getenddate.html) - Повертає кінцеву дату періоду
+-   [DatePeriod::getStartDate()](dateperiod.getstartdate.md) - Повертає початкову дату періоду
+-   [DatePeriod::getEndDate()](dateperiod.getenddate.md) - Повертає кінцеву дату періоду

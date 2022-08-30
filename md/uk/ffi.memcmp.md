@@ -1,12 +1,12 @@
 Порівнює дві області пам'яті
 
--   [« FFI::load](ffi.load.html)
+-   [« FFI::load](ffi.load.md)
     
--   [FFI::memcpy »](ffi.memcpy.html)
+-   [FFI::memcpy »](ffi.memcpy.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FFI](class.ffi.html)
+-   [FFI](class.ffi.md)
     
 -   Порівнює дві області пам'яті
     

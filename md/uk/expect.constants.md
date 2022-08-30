@@ -1,8 +1,8 @@
 Обумовлені константи
 
--   [« Типы ресурсов](expect.resources.html)
+-   [« Типи ресурсів](expect.resources.html)
     
--   [Примеры »](expect.examples.html)
+-   [Приклади »](expect.examples.html)
     
 -   [PHP Manual](index.html)
     

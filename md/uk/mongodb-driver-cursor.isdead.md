@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverCursor::key »](mongodb-driver-cursor.key.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
     

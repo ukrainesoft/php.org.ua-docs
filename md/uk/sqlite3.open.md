@@ -1,12 +1,12 @@
 Відкрити базу даних SQLite
 
--   [« SQLite3::loadExtension](sqlite3.loadextension.html)
+-   [« SQLite3::loadExtension](sqlite3.loadextension.md)
     
--   [SQLite3::openBlob »](sqlite3.openblob.html)
+-   [SQLite3::openBlob »](sqlite3.openblob.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3](class.sqlite3.html)
+-   [SQLite3](class.sqlite3.md)
     
 -   Відкрити базу даних SQLite
     

@@ -2,7 +2,7 @@
 
 -   [«TCP](book.tcpwrap.html)
     
--   [Установка и настройка »](tcpwrap.setup.html)
+-   [Встановлення та налаштування »](tcpwrap.setup.html)
     
 -   [PHP Manual](index.html)
     

@@ -4,7 +4,7 @@
     
 -   [ДсQueue::toArray »](ds-queue.toarray.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Черга](class.ds-queue.html)
     

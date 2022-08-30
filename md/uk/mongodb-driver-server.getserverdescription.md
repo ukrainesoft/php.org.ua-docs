@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverServer::getTags »](mongodb-driver-server.gettags.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverServer](class.mongodb-driver-server.html)
     

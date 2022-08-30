@@ -4,9 +4,9 @@
     
 -   [xdifffilepatchbinary »](function.xdiff-file-patch-binary.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.md)
     
 -   Об'єднання трьох файлів в один
     

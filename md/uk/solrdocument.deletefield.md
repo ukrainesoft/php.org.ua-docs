@@ -1,12 +1,12 @@
 Видаляє поле з документа
 
--   [« SolrDocument::current](solrdocument.current.html)
+-   [« SolrDocument::current](solrdocument.current.md)
     
--   [SolrDocument::destruct »](solrdocument.destruct.html)
+-   [SolrDocument::destruct »](solrdocument.destruct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocument](class.solrdocument.html)
+-   [SolrDocument](class.solrdocument.md)
     
 -   Видаляє поле з документа
     

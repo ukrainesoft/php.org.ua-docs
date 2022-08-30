@@ -1,12 +1,12 @@
 Приклади використання Expect
 
--   [« Примеры](expect.examples.html)
+-   [« Приклади](expect.examples.md)
     
--   [Функции Expect »](ref.expect.html)
+-   [Функции Expect »](ref.expect.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](expect.examples.html)
+-   [Приклади](expect.examples.md)
     
 -   Приклади використання Expect
     

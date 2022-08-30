@@ -1,12 +1,12 @@
 Додає рядок до історії
 
--   [« Функции Readline](ref.readline.html)
+-   [« Функции Readline](ref.readline.md)
     
 -   [readlinecallbackhandlerinstall »](function.readline-callback-handler-install.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Readline](ref.readline.html)
+-   [Функции Readline](ref.readline.md)
     
 -   Додає рядок до історії
     

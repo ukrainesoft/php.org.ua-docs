@@ -1,12 +1,12 @@
 Функції PHP-лексера (tokenizer)
 
--   [« PhpToken::tokenize](phptoken.tokenize.html)
+-   [« PhpToken::tokenize](phptoken.tokenize.md)
     
 -   [tokengetall »](function.token-get-all.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Лексер (Tokenizer)](book.tokenizer.html)
+-   [Лексер (Tokenizer)](book.tokenizer.md)
     
 -   Функції PHP-лексера (tokenizer)
     

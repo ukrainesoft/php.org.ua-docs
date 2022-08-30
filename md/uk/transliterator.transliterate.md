@@ -1,12 +1,12 @@
 Транслітерувати рядок
 
--   [« Transliterator::listIDs](transliterator.listids.html)
+-   [« Transliterator::listIDs](transliterator.listids.md)
     
--   [IntlBreakIterator »](class.intlbreakiterator.html)
+-   [IntlBreakIterator »](class.intlbreakiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Transliterator](class.transliterator.html)
+-   [Transliterator](class.transliterator.md)
     
 -   Транслітерувати рядок
     
@@ -39,7 +39,7 @@ transliterator_transliterate(    Transliterator|string $transliterator,  �
 
 `transliterator`
 
-У процедурному варіанті, [Transliterator](class.transliterator.html) або рядок, з якого може бути зібраний об'єкт [Transliterator](class.transliterator.html)
+У процедурному варіанті, [Transliterator](class.transliterator.md) або рядок, з якого може бути зібраний об'єкт [Transliterator](class.transliterator.md)
 
 `string`
 
@@ -88,5 +88,5 @@ echo transliterator_transliterate("Hex-Any/Java", $encSupplChar), "\n";
 
 ### Дивіться також
 
--   [Transliterator::getErrorMessage()](transliterator.geterrormessage.html) - Отримати останнє повідомлення про помилку
--   [Transliterator::construct()](transliterator.construct.html) - Приватний конструктор
+-   [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) - Отримати останнє повідомлення про помилку
+-   [Transliterator::construct()](transliterator.construct.md) - Приватний конструктор

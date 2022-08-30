@@ -4,9 +4,9 @@
     
 -   [outputaddrewritevar »](function.output-add-rewrite-var.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції контролю виведення](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.md)
     
 -   Увімкнення буферизації виводу
     
@@ -51,7 +51,7 @@ handler(string $buffer, int $phase = ?): string
 
 `phase`
 
-Бітова маска констант [**`PHP_OUTPUT_HANDLER_*`**](outcontrol.constants.html)
+Бітова маска констант [**`PHP_OUTPUT_HANDLER_*`**](outcontrol.constants.md)
 
 Якщо `callback` поверне **`false`**, то оригінальна інформація відправиться до браузера без змін.
 
@@ -73,10 +73,10 @@ handler(string $buffer, int $phase = ?): string
 
 Кожен прапор керує доступом до набору функцій, як описано нижче:
 
-| Константа                          | Функции                                                                                                                               |
-|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| **`PHP_OUTPUT_HANDLER_CLEANABLE`** | [проclean()](function.ob-clean.html) [проendclean()](function.ob-end-clean.html) і [проgetclean()](function.ob-get-clean.html)        |
-| **`PHP_OUTPUT_HANDLER_FLUSHABLE`** | [проendflush()](function.ob-end-flush.html) [проflush()](function.ob-flush.html) і [проgetflush()](function.ob-get-flush.html)        |
+| Константа | Функции |
+| --- | --- |
+| **`PHP_OUTPUT_HANDLER_CLEANABLE`** | [проclean()](function.ob-clean.html) [проendclean()](function.ob-end-clean.html) і [проgetclean()](function.ob-get-clean.html) |
+| **`PHP_OUTPUT_HANDLER_FLUSHABLE`** | [проendflush()](function.ob-end-flush.html) [проflush()](function.ob-flush.html) і [проgetflush()](function.ob-get-flush.html) |
 | **`PHP_OUTPUT_HANDLER_REMOVABLE`** | [проendclean()](function.ob-end-clean.html) [проendflush()](function.ob-end-flush.html) і [проgetflush()](function.ob-get-flush.html) |
 
 ### Значення, що повертаються
@@ -136,7 +136,7 @@ ob_start(null, 0, PHP_OUTPUT_HANDLER_STDFLAGS ^ PHP_OUTPUT_HANDLER_REMOVABLE
 -   [проgetcontents()](function.ob-get-contents.html) - Повертає вміст буфера виводу
 -   [проendclean()](function.ob-end-clean.html) - Очистити (стерти) буфер виведення та вимкнути буферизацію виводу
 -   [проendflush()](function.ob-end-flush.html) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
--   [проimplicitflush()](function.ob-implicit-flush.html) - Увімкнення/вимкнення неявного скидання
+-   [про implicit flush()](function.ob-implicit-flush.html) - Увімкнення/вимкнення неявного скидання
 -   [проgzhandler()](function.ob-gzhandler.html) - callback-функція, що використовується для gzip-стиснення буфера виводу при виклику obstart
 -   [проiconvhandler()](function.ob-iconv-handler.html) - Перетворює символи з поточного кодування на кодування вихідного буфера
 -   [мбoutputhandler()](function.mb-output-handler.html) - Callback-функція, що перетворює кодування символів у вихідному буфері

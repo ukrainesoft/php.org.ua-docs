@@ -2,11 +2,11 @@
 
 -   [« SessionIdInterface::createsid](sessionidinterface.create-sid.html)
     
--   [SessionUpdateTimestampHandlerInterface::updateTimestamp »](sessionupdatetimestamphandlerinterface.updatetimestamp.html)
+-   [SessionUpdateTimestampHandlerInterface::updateTimestamp »](sessionupdatetimestamphandlerinterface.updatetimestamp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Сессии](book.session.html)
+-   [Сессии](book.session.md)
     
 -   Інтерфейс SessionUpdateTimestampHandlerInterface
     
@@ -42,5 +42,5 @@ public validateId(string $id): bool
 
 ## Зміст
 
--   [SessionUpdateTimestampHandlerInterface::updateTimestamp](sessionupdatetimestamphandlerinterface.updatetimestamp.html) — Оновити позначку часу
--   [SessionUpdateTimestampHandlerInterface::validateId](sessionupdatetimestamphandlerinterface.validateid.html) - Перевірити ідентифікатор
+-   [SessionUpdateTimestampHandlerInterface::updateTimestamp](sessionupdatetimestamphandlerinterface.updatetimestamp.md) — Оновити позначку часу
+-   [SessionUpdateTimestampHandlerInterface::validateId](sessionupdatetimestamphandlerinterface.validateid.md) - Перевірити ідентифікатор

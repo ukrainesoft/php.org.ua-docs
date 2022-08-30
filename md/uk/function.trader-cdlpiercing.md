@@ -4,9 +4,9 @@
     
 -   [tradercdlrickshawman »](function.trader-cdlrickshawman.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Паттерн "Просвіт у хмарах"
     

@@ -1,12 +1,12 @@
 Перевіряє, чи зіпсований рядок
 
--   [« Функции Taint](ref.taint.html)
+-   [« Функции Taint](ref.taint.md)
     
--   [taint »](function.taint.html)
+-   [taint »](function.taint.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Taint](ref.taint.html)
+-   [Функции Taint](ref.taint.md)
     
 -   Перевіряє, чи зіпсований рядок
     

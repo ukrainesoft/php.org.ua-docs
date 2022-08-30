@@ -1,12 +1,12 @@
 Повертає новий ітератор пікселів
 
--   [« ImagickPixelIterator::newPixelIterator](imagickpixeliterator.newpixeliterator.html)
+-   [« ImagickPixelIterator::newPixelIterator](imagickpixeliterator.newpixeliterator.md)
     
--   [ImagickPixelIterator::resetIterator »](imagickpixeliterator.resetiterator.html)
+-   [ImagickPixelIterator::resetIterator »](imagickpixeliterator.resetiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickPixelIterator](class.imagickpixeliterator.html)
+-   [ImagickPixelIterator](class.imagickpixeliterator.md)
     
 -   Повертає новий ітератор пікселів
     

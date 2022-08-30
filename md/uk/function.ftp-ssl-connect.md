@@ -4,9 +4,9 @@
     
 -   [ftpsystype »](function.ftp-systype.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.md)
     
 -   Встановлює з'єднання з FTP-сервером через SSL
     
@@ -27,7 +27,7 @@ ftp_ssl_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connec
 
 > **Зауваження** **Чому ця функція може бути не визначена**
 > 
-> До PHP 7.0.0 **ftpsslconnect()** була доступна тільки якщо PHP був зібраний з підтримкою [OpenSSL](ref.openssl.html); це означає, що у Windows ця функція не була визначена в офіційних збірках PHP. Щоб використовувати цю функцію під Windows, вам доведеться зібрати PHP самостійно, щоб увімкнути підтримку OpenSSL.
+> До PHP 7.0.0 **ftpsslconnect()** була доступна тільки якщо PHP був зібраний з підтримкою [OpenSSL](ref.openssl.md); це означає, що у Windows ця функція не була визначена в офіційних збірках PHP. Щоб використовувати цю функцію під Windows, вам доведеться зібрати PHP самостійно, щоб увімкнути підтримку OpenSSL.
 
 > **Зауваження**
 > 
@@ -53,9 +53,9 @@ ftp_ssl_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connec
 
 ### список змін
 
-| Версия | Описание                                                                                                                          |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [FTPConnection](class.ftp-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [FTPConnection](class.ftp-connection.html); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

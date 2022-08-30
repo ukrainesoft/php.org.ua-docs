@@ -1,12 +1,12 @@
 Створити стартовий запис DTD
 
--   [« XMLWriter::startDtdElement](xmlwriter.startdtdelement.html)
+-   [« XMLWriter::startDtdElement](xmlwriter.startdtdelement.md)
     
--   [XMLWriter::startElement »](xmlwriter.startelement.html)
+-   [XMLWriter::startElement »](xmlwriter.startelement.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](class.xmlwriter.html)
+-   [XMLWriter](class.xmlwriter.md)
     
 -   Створити стартовий запис DTD
     
@@ -39,7 +39,7 @@ xmlwriter_start_dtd_entity(XMLWriter $writer, string $name, bool $isParam): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `name`
 
@@ -53,11 +53,11 @@ xmlwriter_start_dtd_entity(XMLWriter $writer, string $name, bool $isParam): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::endDtdEntity()](xmlwriter.enddtdentity.html) - Завершити поточний запис DTD
--   [XMLWriter::writeDtdEntity()](xmlwriter.writedtdentity.html) - Записати повний тег DTD запису
+-   [XMLWriter::endDtdEntity()](xmlwriter.enddtdentity.md) - Завершити поточний запис DTD
+-   [XMLWriter::writeDtdEntity()](xmlwriter.writedtdentity.md) - Записати повний тег DTD запису

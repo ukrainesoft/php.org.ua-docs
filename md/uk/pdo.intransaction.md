@@ -1,12 +1,12 @@
 Перевіряє, чи розпочато транзакцію
 
--   [« PDO::getAvailableDrivers](pdo.getavailabledrivers.html)
+-   [« PDO::getAvailableDrivers](pdo.getavailabledrivers.md)
     
--   [PDO::lastInsertId »](pdo.lastinsertid.html)
+-   [PDO::lastInsertId »](pdo.lastinsertid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDO](class.pdo.html)
+-   [PDO](class.pdo.md)
     
 -   Перевіряє, чи розпочато транзакцію
     

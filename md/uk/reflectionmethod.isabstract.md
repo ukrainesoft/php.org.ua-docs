@@ -1,12 +1,12 @@
 Перевіряє, чи є метод абстрактним
 
--   [« ReflectionMethod::invokeArgs](reflectionmethod.invokeargs.html)
+-   [« ReflectionMethod::invokeArgs](reflectionmethod.invokeargs.md)
     
--   [ReflectionMethod::isConstructor »](reflectionmethod.isconstructor.html)
+-   [ReflectionMethod::isConstructor »](reflectionmethod.isconstructor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionMethod](class.reflectionmethod.html)
+-   [ReflectionMethod](class.reflectionmethod.md)
     
 -   Перевіряє, чи є метод абстрактним
     
@@ -35,4 +35,4 @@ public ReflectionMethod::isAbstract(): bool
 
 ### Дивіться також
 
--   [ReflectionMethod::getDeclaringClass()](reflectionmethod.getdeclaringclass.html) - Отримує клас, що оголошує відбитий метод
+-   [ReflectionMethod::getDeclaringClass()](reflectionmethod.getdeclaringclass.md) - Отримує клас, що оголошує відбитий метод

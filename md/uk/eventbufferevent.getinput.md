@@ -1,12 +1,12 @@
 Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією
 
--   [« EventBufferEvent::getEnabled](eventbufferevent.getenabled.html)
+-   [« EventBufferEvent::getEnabled](eventbufferevent.getenabled.md)
     
--   [EventBufferEvent::getOutput »](eventbufferevent.getoutput.html)
+-   [EventBufferEvent::getOutput »](eventbufferevent.getoutput.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією
     
@@ -26,7 +26,7 @@ public
 
 Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією. Вхідний буфер - це сховище для читання.
 
-Зверніть увагу, що є також `[input](class.eventbufferevent.html#eventbufferevent.props.input)` властивість класу [EventBufferEvent](class.eventbufferevent.html)
+Зверніть увагу, що є також `[input](class.eventbufferevent.html#eventbufferevent.props.input)` властивість класу [EventBufferEvent](class.eventbufferevent.md)
 
 ### Список параметрів
 
@@ -34,7 +34,7 @@ public
 
 ### Значення, що повертаються
 
-Повертає екземпляр класу [EventBuffer](class.eventbuffer.html) вхідного буфера, пов'язаного з поточною буферною подією.
+Повертає екземпляр класу [EventBuffer](class.eventbuffer.md) вхідного буфера, пов'язаного з поточною буферною подією.
 
 ### Приклади
 
@@ -54,4 +54,4 @@ function readcb($bev, $base) {
 
 ### Дивіться також
 
--   [EventBufferEvent::getOutput()](eventbufferevent.getoutput.html) - Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією
+-   [EventBufferEvent::getOutput()](eventbufferevent.getoutput.md) - Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією

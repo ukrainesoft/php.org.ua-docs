@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](json.setup.html)
+-   [« Встановлення та налаштування](json.setup.md)
     
--   [Установка »](json.installation.html)
+-   [Установка »](json.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](json.setup.html)
+-   [Встановлення та налаштування](json.setup.md)
     
 -   Вимоги
     

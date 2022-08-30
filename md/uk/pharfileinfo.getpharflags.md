@@ -1,12 +1,12 @@
 Отримати прапори файлу в phar-архіві
 
--   [« PharFileInfo::getMetadata](pharfileinfo.getmetadata.html)
+-   [« PharFileInfo::getMetadata](pharfileinfo.getmetadata.md)
     
--   [PharFileInfo::hasMetadata »](pharfileinfo.hasmetadata.html)
+-   [PharFileInfo::hasMetadata »](pharfileinfo.hasmetadata.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharFileInfo](class.pharfileinfo.html)
+-   [PharFileInfo](class.pharfileinfo.md)
     
 -   Отримати прапори файлу в phar-архіві
     

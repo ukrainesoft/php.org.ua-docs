@@ -4,9 +4,9 @@
     
 -   [streamWrapper::streamwrite »](streamwrapper.stream-write.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [streamWrapper](class.streamwrapper.html)
+-   [streamWrapper](class.streamwrapper.md)
     
 -   Усічення потоку
     
@@ -23,7 +23,7 @@ streamWrapper::streamtruncate - Усічення потоку
 public streamWrapper::stream_truncate(int $new_size): bool
 ```
 
-Спрацьовуватиме при усіченні потоку функцією [ftruncate()](function.ftruncate.html)
+Спрацьовуватиме при усіченні потоку функцією [ftruncate()](function.ftruncate.md)
 
 ### Список параметрів
 
@@ -37,4 +37,4 @@ public streamWrapper::stream_truncate(int $new_size): bool
 
 ### Дивіться також
 
--   [ftruncate()](function.ftruncate.html) - Урізує файл до вказаної довжини
+-   [ftruncate()](function.ftruncate.md) - Урізує файл до вказаної довжини

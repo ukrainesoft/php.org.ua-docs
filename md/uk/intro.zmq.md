@@ -2,7 +2,7 @@
 
 -   [« Обмін повідомленнями 0MQ](book.zmq.html)
     
--   [Установка и настройка »](zmq.setup.html)
+-   [Встановлення та налаштування »](zmq.setup.html)
     
 -   [PHP Manual](index.html)
     

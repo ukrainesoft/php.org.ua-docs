@@ -4,9 +4,9 @@
     
 -   [cubridcurrentoid »](function.cubrid-current-oid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Відкриває з'єднання з сервером CUBRID
     

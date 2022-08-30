@@ -4,9 +4,9 @@
     
 -   [svncheckout »](function.svn-checkout.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.md)
     
 -   Повертає вміст файлу у репозиторії
     

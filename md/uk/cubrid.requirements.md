@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](cubrid.setup.html)
+-   [« Встановлення та налаштування](cubrid.setup.md)
     
--   [Установка »](cubrid.installation.html)
+-   [Установка »](cubrid.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](cubrid.setup.html)
+-   [Встановлення та налаштування](cubrid.setup.md)
     
 -   Вимоги
     

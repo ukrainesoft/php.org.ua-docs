@@ -1,12 +1,12 @@
 Перехід до першого дочірнього елемента
 
--   [« RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+-   [« RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
     
--   [RecursiveIteratorIterator::beginIteration »](recursiveiteratoriterator.beginiteration.html)
+-   [RecursiveIteratorIterator::beginIteration »](recursiveiteratoriterator.beginiteration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
     
 -   Перехід до першого дочірнього елемента
     
@@ -23,7 +23,7 @@ RecursiveIteratorIterator::beginChildren — Перехід до першого 
 public RecursiveIteratorIterator::beginChildren(): void
 ```
 
-Метод викликається після виконання **RecursiveIteratorIterator::getChildren()**, а результат його роботи аналогічний виклику [RecursiveIteratorIterator::rewind()](recursiveiteratoriterator.rewind.html)
+Метод викликається після виконання **RecursiveIteratorIterator::getChildren()**, а результат його роботи аналогічний виклику [RecursiveIteratorIterator::rewind()](recursiveiteratoriterator.rewind.md)
 
 **Увага**
 

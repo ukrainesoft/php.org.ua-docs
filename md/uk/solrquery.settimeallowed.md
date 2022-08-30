@@ -1,12 +1,12 @@
 Час, відведений на пошук
 
--   [« SolrQuery::setTermsUpperBound](solrquery.settermsupperbound.html)
+-   [« SolrQuery::setTermsUpperBound](solrquery.settermsupperbound.md)
     
--   [SolrDisMaxQuery »](class.solrdismaxquery.html)
+-   [SolrDisMaxQuery »](class.solrdismaxquery.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Час, відведений на пошук
     

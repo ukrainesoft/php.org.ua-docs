@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](imap.resources.html)
+-   [« Типи ресурсів](imap.resources.html)
     
 -   [Функции IMAP »](ref.imap.html)
     

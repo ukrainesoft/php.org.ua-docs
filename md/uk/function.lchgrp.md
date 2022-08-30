@@ -2,11 +2,11 @@
 
 -   [« iswriteable](function.is-writeable.html)
     
--   [lchown »](function.lchown.html)
+-   [lchown »](function.lchown.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Змінює групу, якій належить символічне посилання
     
@@ -63,7 +63,7 @@ lchgrp($link, 8);
 
 ### Дивіться також
 
--   [chgrp()](function.chgrp.html) - Змінює групу файлу
--   [lchown()](function.lchown.html) - Змінює власника символічного посилання
--   [chown()](function.chown.html) - Змінює власника файлу
--   [chmod()](function.chmod.html) - Змінює режим доступу до файлу
+-   [chgrp()](function.chgrp.md) - Змінює групу файлу
+-   [lchown()](function.lchown.md) - Змінює власника символічного посилання
+-   [chown()](function.chown.md) - Змінює власника файлу
+-   [chmod()](function.chmod.md) - Змінює режим доступу до файлу

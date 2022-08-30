@@ -52,4 +52,4 @@ string(13) "1416445411987"
 
 ### Дивіться також
 
--   [» Типы BSON: Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)
+-   [» Типи BSON: Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)

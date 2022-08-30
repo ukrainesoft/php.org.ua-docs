@@ -1,12 +1,12 @@
 Повертає внутрішню інформацію про те, де було викинуто виняток
 
--   [« SolrClientException](class.solrclientexception.html)
+-   [« SolrClientException](class.solrclientexception.md)
     
--   [SolrServerException »](class.solrserverexception.html)
+-   [SolrServerException »](class.solrserverexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrClientException](class.solrclientexception.html)
+-   [SolrClientException](class.solrclientexception.md)
     
 -   Повертає внутрішню інформацію про те, де було викинуто виняток
     

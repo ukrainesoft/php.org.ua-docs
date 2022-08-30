@@ -4,7 +4,7 @@
     
 -   [ОЙMenuItem::onClick »](ui-menuitem.onclick.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙMenuItem](class.ui-menuitem.html)
     

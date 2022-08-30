@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](intl.constants.html)
+-   [« Обумовлені константи](intl.constants.md)
     
--   [Основы использования модуля »](intl.examples.basic.html)
+-   [Основи використання модуля »](intl.examples.basic.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [intl](book.intl.html)
+-   [intl](book.intl.md)
     
 -   Приклади
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [Основы использования модуля](intl.examples.basic.html)
+-   [Основи використання модуля](intl.examples.basic.md)

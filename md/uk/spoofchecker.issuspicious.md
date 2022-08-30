@@ -1,12 +1,12 @@
 Перевіряє, чи текст містить підозрілі символи
 
--   [« Spoofchecker::construct](spoofchecker.construct.html)
+-   [« Spoofchecker::construct](spoofchecker.construct.md)
     
--   [Spoofchecker::setAllowedLocales »](spoofchecker.setallowedlocales.html)
+-   [Spoofchecker::setAllowedLocales »](spoofchecker.setallowedlocales.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Spoofchecker](class.spoofchecker.html)
+-   [Spoofchecker](class.spoofchecker.md)
     
 -   Перевіряє, чи текст містить підозрілі символи
     

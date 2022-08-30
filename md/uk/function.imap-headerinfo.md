@@ -4,9 +4,9 @@
     
 -   [imapheaders »](function.imap-headers.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции IMAP](ref.imap.html)
+-   [Функции IMAP](ref.imap.md)
     
 -   Прочитати заголовок повідомлення
     
@@ -88,10 +88,10 @@ imap_headerinfo(    IMAP\Connection $imap,    int $message_num,    i
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Параметр, що не використовується `defaulthost` був видалений.                                                                                          |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр, що не використовується `defaulthost` був видалений. |
 
 ### Дивіться також
 

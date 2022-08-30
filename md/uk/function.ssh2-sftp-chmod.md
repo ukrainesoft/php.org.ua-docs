@@ -4,9 +4,9 @@
     
 -   [ssh2sftplstat »](function.ssh2-sftp-lstat.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Зміна прав доступу
     
@@ -37,7 +37,7 @@ ssh2_sftp_chmod(resource $sftp, string $filename, int $mode): bool
 
 `mode`
 
-Права доступу до файлу. Для більш детальної інформації дивіться опис функції [chmod()](function.chmod.html)
+Права доступу до файлу. Для більш детальної інформації дивіться опис функції [chmod()](function.chmod.md)
 
 ### Значення, що повертаються
 
@@ -59,6 +59,6 @@ ssh2_sftp_chmod($sftp, '/somedir/somefile', 0755);
 
 ### Дивіться також
 
--   [chmod()](function.chmod.html) - Змінює режим доступу до файлу
+-   [chmod()](function.chmod.md) - Змінює режим доступу до файлу
 -   [ssh2sftp()](function.ssh2-sftp.html) - Ініціалізувати підсистему SFTP
 -   [ssh2connect()](function.ssh2-connect.html) - Підключення до SSH-сервера

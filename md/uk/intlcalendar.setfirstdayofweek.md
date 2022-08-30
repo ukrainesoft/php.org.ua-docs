@@ -1,12 +1,12 @@
 Встановлює день, який є початком тижня
 
--   [« IntlCalendar::set](intlcalendar.set.html)
+-   [« IntlCalendar::set](intlcalendar.set.md)
     
--   [IntlCalendar::setLenient »](intlcalendar.setlenient.html)
+-   [IntlCalendar::setLenient »](intlcalendar.setlenient.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Встановлює день, який є початком тижня
     
@@ -37,7 +37,7 @@ intlcal_set_first_day_of_week(IntlCalendar $calendar, int $dayOfWeek): bool
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `dayOfWeek`
 

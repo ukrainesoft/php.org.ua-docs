@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Настройка во время выполнения](trader.configuration.html)
+-   [« Налаштування під час виконання](trader.configuration.md)
     
--   [Функции Trader »](ref.trader.html)
+-   [Функции Trader »](ref.trader.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Trader](book.trader.html)
+-   [Trader](book.trader.md)
     
 -   Обумовлені константи
     

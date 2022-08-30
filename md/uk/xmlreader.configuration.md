@@ -2,11 +2,11 @@
 
 -   [« Установка](xmlreader.installation.html)
     
--   [Типы ресурсов »](xmlreader.resources.html)
+-   [Типи ресурсів »](xmlreader.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](xmlreader.setup.html)
+-   [Встановлення та налаштування](xmlreader.setup.html)
     
 -   Налаштування під час виконання
     

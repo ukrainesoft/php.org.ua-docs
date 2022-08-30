@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](ffi.configuration.html)
+-   [« Налаштування під час виконання](ffi.configuration.md)
     
--   [Предопределённые константы »](ffi.constants.html)
+-   [Обумовлені константи »](ffi.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ffi.setup.html)
+-   [Встановлення та налаштування](ffi.setup.md)
     
 -   Типи ресурсів
     

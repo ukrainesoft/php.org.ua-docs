@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](simplexml.configuration.html)
+-   [« Налаштування під час виконання](simplexml.configuration.md)
     
--   [Предопределённые константы »](simplexml.constants.html)
+-   [Обумовлені константи »](simplexml.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](simplexml.setup.html)
+-   [Встановлення та налаштування](simplexml.setup.md)
     
 -   Типи ресурсів
     

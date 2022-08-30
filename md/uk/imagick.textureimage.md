@@ -1,12 +1,12 @@
 Багаторазово розміщує зображення текстури
 
--   [« Imagick::swirlImage](imagick.swirlimage.html)
+-   [« Imagick::swirlImage](imagick.swirlimage.md)
     
--   [Imagick::thresholdImage »](imagick.thresholdimage.html)
+-   [Imagick::thresholdImage »](imagick.thresholdimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Багаторазово розміщує зображення текстури
     

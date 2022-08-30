@@ -4,9 +4,9 @@
     
 -   [imapcreatemailbox »](function.imap-createmailbox.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции IMAP](ref.imap.html)
+-   [Функции IMAP](ref.imap.md)
     
 -   Псевдонім imapcreatemailbox
     

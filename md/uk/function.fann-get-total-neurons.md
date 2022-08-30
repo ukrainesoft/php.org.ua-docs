@@ -4,9 +4,9 @@
     
 -   [fanngettrainerrorfunction »](function.fann-get-train-error-function.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Отримує загальну кількість нейронів у всій мережі
     

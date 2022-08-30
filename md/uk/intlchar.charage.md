@@ -1,12 +1,12 @@
 Отримати "вік" символьного коду
 
--   [« IntlChar](class.intlchar.html)
+-   [« IntlChar](class.intlchar.md)
     
--   [IntlChar::charDigitValue »](intlchar.chardigitvalue.html)
+-   [IntlChar::charDigitValue »](intlchar.chardigitvalue.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Отримати "вік" символьного коду
     
@@ -75,6 +75,6 @@ array(4) {
 
 ### Дивіться також
 
--   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.html) - Отримати версію Unicode
--   [IntlChar::getIntPropertyMinValue()](intlchar.getintpropertyminvalue.html) - Отримати мінімальне значення для властивості Unicode
--   [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.html) - Отримати значення властивості Unicode для символу
+-   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.md) - Отримати версію Unicode
+-   [IntlChar::getIntPropertyMinValue()](intlchar.getintpropertyminvalue.md) - Отримати мінімальне значення для властивості Unicode
+-   [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md) - Отримати значення властивості Unicode для символу

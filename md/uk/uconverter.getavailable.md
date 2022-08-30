@@ -1,12 +1,12 @@
 Отримати доступні імена канонічних конверторів
 
--   [« UConverter::getAliases](uconverter.getaliases.html)
+-   [« UConverter::getAliases](uconverter.getaliases.md)
     
--   [UConverter::getDestinationEncoding »](uconverter.getdestinationencoding.html)
+-   [UConverter::getDestinationEncoding »](uconverter.getdestinationencoding.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [UConverter](class.uconverter.html)
+-   [UConverter](class.uconverter.md)
     
 -   Отримати доступні імена канонічних конверторів
     

@@ -4,7 +4,7 @@
     
 -   [TableDelete::limit »](mysql-xdevapi-tabledelete.limit.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiTableDelete](class.mysql-xdevapi-tabledelete.html)
     

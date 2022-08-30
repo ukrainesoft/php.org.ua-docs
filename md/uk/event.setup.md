@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.event.html)
+-   [« Введение](intro.event.md)
     
--   [Требования »](event.requirements.html)
+-   [Вимоги »](event.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](book.event.html)
+-   [Event](book.event.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](event.requirements.html)
--   [Установка](event.installation.html)
--   [Настройка во время выполнения](event.configuration.html)
--   [Типы ресурсов](event.resources.html)
+-   [Вимоги](event.requirements.md)
+-   [Установка](event.installation.md)
+-   [Налаштування під час виконання](event.configuration.md)
+-   [Типи ресурсів](event.resources.md)

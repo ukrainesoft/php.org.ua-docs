@@ -1,12 +1,12 @@
 Перевіряє, чи є поточний елемент допустимим
 
--   [« FilterIterator::rewind](filteriterator.rewind.html)
+-   [« FilterIterator::rewind](filteriterator.rewind.md)
     
--   [GlobIterator »](class.globiterator.html)
+-   [GlobIterator »](class.globiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FilterIterator](class.filteriterator.html)
+-   [FilterIterator](class.filteriterator.md)
     
 -   Перевіряє, чи є поточний елемент допустимим
     

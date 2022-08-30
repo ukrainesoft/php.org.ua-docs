@@ -41,9 +41,9 @@ zip_entry_filesize(resource $zip_entry): int|false
 
 ### список змін
 
-| Версия | Описание                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------|
-|        | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.html) |
 
 ### Дивіться також
 

@@ -4,7 +4,7 @@
     
 -   [YafRouter »](class.yaf-router.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRouteRewrite](class.yaf-route-rewrite.html)
     

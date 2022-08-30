@@ -1,6 +1,6 @@
 Приклади
 
--   [« Предопределённые константы](xmlwriter.constants.html)
+-   [« Обумовлені константи](xmlwriter.constants.html)
     
 -   [Створення простого XML-документу](example.xmlwriter-simple.html)
     
@@ -17,4 +17,4 @@
 
 -   [Створення простого XML-документа](example.xmlwriter-simple.html)
 -   [Робота з просторами імен XML](example.xmlwriter-namespace.html)
--   [Работа с объектно-ориентированным API](example.xmlwriter-oop.html)
+-   [Робота з об'єктно-орієнтованим API](example.xmlwriter-oop.html)

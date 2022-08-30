@@ -4,9 +4,9 @@
     
 -   [fannsetweight »](function.fann-set-weight.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Створення зв'язків у мережі
     
@@ -35,7 +35,7 @@ fann_set_weight_array(resource $ann, array $connections): bool
 
 `connections`
 
-Масив об'єктів [FANNConnection](class.fannconnection.html)
+Масив об'єктів [FANNConnection](class.fannconnection.md)
 
 ### Значення, що повертаються
 

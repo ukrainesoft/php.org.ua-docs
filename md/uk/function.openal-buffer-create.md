@@ -1,12 +1,12 @@
 Згенерувати буфер OpenAL
 
--   [« Функции OpenAL](ref.openal.html)
+-   [« Функции OpenAL](ref.openal.md)
     
 -   [openalbufferdata »](function.openal-buffer-data.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenAL](ref.openal.html)
+-   [Функции OpenAL](ref.openal.md)
     
 -   Згенерувати буфер OpenAL
     
@@ -29,7 +29,7 @@ openal_buffer_create(): resource
 
 ### Значення, що повертаються
 
-Повертає ресурс [Open AL(Buffer)](openal.resources.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає ресурс [Open AL(Buffer)](openal.resources.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 

@@ -1,12 +1,12 @@
 Встановлює формат об'єкту Imagick
 
--   [« Imagick::setFont](imagick.setfont.html)
+-   [« Imagick::setFont](imagick.setfont.md)
     
--   [Imagick::setGravity »](imagick.setgravity.html)
+-   [Imagick::setGravity »](imagick.setgravity.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює формат об'єкту Imagick
     

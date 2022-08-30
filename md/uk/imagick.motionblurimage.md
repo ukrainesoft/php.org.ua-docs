@@ -1,12 +1,12 @@
 Імітує розмиття у русі
 
--   [« Imagick::mosaicImages](imagick.mosaicimages.html)
+-   [« Imagick::mosaicImages](imagick.mosaicimages.md)
     
--   [Imagick::negateImage »](imagick.negateimage.html)
+-   [Imagick::negateImage »](imagick.negateimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Імітує розмиття у русі
     

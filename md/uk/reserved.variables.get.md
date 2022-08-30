@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Предопределённые переменные](reserved.variables.html)
+-   [Зумовлені змінні](reserved.variables.html)
     
 -   Змінні HTTP GET
     
@@ -51,5 +51,5 @@ echo 'Привет, ' . htmlspecialchars($_GET["name"]) . '!';
 
 ### Дивіться також
 
--   [Переменные извне PHP](language.variables.external.html)
+-   [Змінні ззовні PHP](language.variables.external.html)
 -   [Фільтрування даних](book.filter.html)

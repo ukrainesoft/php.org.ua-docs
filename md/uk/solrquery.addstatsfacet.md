@@ -1,12 +1,12 @@
 Запитує повернення допоміжних результатів для значень у цьому фасеті
 
--   [« SolrQuery::addSortField](solrquery.addsortfield.html)
+-   [« SolrQuery::addSortField](solrquery.addsortfield.md)
     
--   [SolrQuery::addStatsField »](solrquery.addstatsfield.html)
+-   [SolrQuery::addStatsField »](solrquery.addstatsfield.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Запитує повернення допоміжних результатів для значень у цьому фасеті
     

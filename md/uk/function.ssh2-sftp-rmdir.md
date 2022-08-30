@@ -4,9 +4,9 @@
     
 -   [ssh2sftpstat »](function.ssh2-sftp-stat.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Видаляє директорію
     
@@ -25,7 +25,7 @@ ssh2_sftp_rmdir(resource $sftp, string $dirname): bool
 
 Видаляє директорію на сервері.
 
-Працює аналогічно [rmdir()](function.rmdir.html) з обгорткою [ssh2.sftp://](wrappers.ssh2.html)
+Працює аналогічно [rmdir()](function.rmdir.md) з обгорткою [ssh2.sftp://](wrappers.ssh2.md)
 
 ### Список параметрів
 
@@ -56,5 +56,5 @@ ssh2_sftp_rmdir($sftp, '/home/username/deltodel');
 
 ### Дивіться також
 
--   [rmdir()](function.rmdir.html) - видаляє директорію
+-   [rmdir()](function.rmdir.md) - видаляє директорію
 -   [ssh2sftpmkdir()](function.ssh2-sftp-mkdir.html) - Створити директорію

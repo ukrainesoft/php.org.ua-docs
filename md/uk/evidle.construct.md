@@ -1,12 +1,12 @@
 Конструктор спостерігача EvIdle
 
--   [« EvIdle](class.evidle.html)
+-   [« EvIdle](class.evidle.md)
     
--   [EvIdle::createStopped »](evidle.createstopped.html)
+-   [EvIdle::createStopped »](evidle.createstopped.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvIdle](class.evidle.html)
+-   [EvIdle](class.evidle.md)
     
 -   Конструктор спостерігача EvIdle
     
@@ -19,7 +19,7 @@ EvIdle::construct - Конструктор спостерігача EvIdle
 
 ### Опис
 
-public **EvIdle::construct** [callable](language.types.callable.html) `$callback` [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` ?, int `$priority`
+public **EvIdle::construct** [callable](language.types.callable.md) `$callback` [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` ?, int `$priority`
 
 Створює об'єкт спостерігач EvIdle та автоматично його стартує.
 
@@ -39,5 +39,5 @@ public **EvIdle::construct** [callable](language.types.callable.html) `$callback
 
 ### Дивіться також
 
--   [EvIdle::createStopped()](evidle.createstopped.html) - Створити об'єкт класу EvIdle, але не стартувати його
--   [EvLoop::idle()](evloop.idle.html) - Створює об'єкт спостерігача EvIdle, пов'язаний із поточним екземпляром циклу подій
+-   [EvIdle::createStopped()](evidle.createstopped.md) - Створити об'єкт класу EvIdle, але не стартувати його
+-   [EvLoop::idle()](evloop.idle.md) - Створює об'єкт спостерігача EvIdle, пов'язаний із поточним екземпляром циклу подій

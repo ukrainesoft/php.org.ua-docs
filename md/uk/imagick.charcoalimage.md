@@ -1,12 +1,12 @@
 Малювання вугіллям
 
--   [« Imagick::brightnessContrastImage](imagick.brightnesscontrastimage.html)
+-   [« Imagick::brightnessContrastImage](imagick.brightnesscontrastimage.md)
     
--   [Imagick::chopImage »](imagick.chopimage.html)
+-   [Imagick::chopImage »](imagick.chopimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Малювання вугіллям
     

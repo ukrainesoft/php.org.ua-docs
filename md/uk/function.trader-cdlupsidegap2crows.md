@@ -4,9 +4,9 @@
     
 -   [tradercdlxsidegap3methods »](function.trader-cdlxsidegap3methods.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Свічкова модель "Перевернути дві ворони"
     

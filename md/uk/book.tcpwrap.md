@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Другие службы](refs.remote.other.html)
+-   [Інші служби](refs.remote.other.html)
     
 -   Обгортки TCP
     
@@ -14,11 +14,11 @@
 # Обгортки TCP
 
 -   [Введение](intro.tcpwrap.html)
--   [Установка и настройка](tcpwrap.setup.html)
-    -   [Требования](tcpwrap.requirements.html)
+-   [Встановлення та налаштування](tcpwrap.setup.html)
+    -   [Вимоги](tcpwrap.requirements.html)
     -   [Установка](tcpwrap.installation.html)
-    -   [Настройка во время выполнения](tcpwrap.configuration.html)
-    -   [Типы ресурсов](tcpwrap.resources.html)
--   [Предопределённые константы](tcpwrap.constants.html)
+    -   [Налаштування під час виконання](tcpwrap.configuration.html)
+    -   [Типи ресурсів](tcpwrap.resources.html)
+-   [Обумовлені константи](tcpwrap.constants.html)
 -   [Функції TCP](ref.tcpwrap.html)
     -   [tcpwrapcheck](function.tcpwrap-check.html) - Здійснює перевірку tcpwrap

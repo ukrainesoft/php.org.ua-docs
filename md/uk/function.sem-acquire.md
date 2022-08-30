@@ -4,9 +4,9 @@
     
 -   [semget »](function.sem-get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції семафорів](ref.sem.html)
+-   [Функції семафорів](ref.sem.md)
     
 -   Захоплення семафору
     
@@ -43,9 +43,9 @@ sem_acquire(SysvSemaphore $semaphore, bool $non_blocking = false): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                   |
-|--------|----------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

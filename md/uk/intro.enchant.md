@@ -2,7 +2,7 @@
 
 -   [« Enchant](book.enchant.html)
     
--   [Установка и настройка »](enchant.setup.html)
+-   [Встановлення та налаштування »](enchant.setup.html)
     
 -   [PHP Manual](index.html)
     

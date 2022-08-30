@@ -1,12 +1,12 @@
 Перевіряє, чи має внутрішній об'єкт-ітератор дочірні об'єкти
 
--   [« ParentIterator::getChildren](parentiterator.getchildren.html)
+-   [« ParentIterator::getChildren](parentiterator.getchildren.md)
     
--   [ParentIterator::next »](parentiterator.next.html)
+-   [ParentIterator::next »](parentiterator.next.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ParentIterator](class.parentiterator.html)
+-   [ParentIterator](class.parentiterator.md)
     
 -   Перевіряє, чи має внутрішній об'єкт-ітератор дочірні об'єкти
     

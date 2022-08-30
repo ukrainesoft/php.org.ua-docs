@@ -1,12 +1,12 @@
 Перевірити, чи в нижньому регістрі символ
 
--   [« IntlChar::isJavaSpaceChar](intlchar.isjavaspacechar.html)
+-   [« IntlChar::isJavaSpaceChar](intlchar.isjavaspacechar.md)
     
--   [IntlChar::isMirrored »](intlchar.ismirrored.html)
+-   [IntlChar::isMirrored »](intlchar.ismirrored.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити, чи в нижньому регістрі символ
     
@@ -27,7 +27,7 @@ public static IntlChar::islower(int|string $codepoint): ?bool
 
 > **Зауваження**
 > 
-> Деякі символи можуть бути пропущені, оскільки вони можуть мати іншу головну категорію. Щоб не втратити їх - використовуйте функцію [IntlChar::isULowercase()](intlchar.isulowercase.html)
+> Деякі символи можуть бути пропущені, оскільки вони можуть мати іншу головну категорію. Щоб не втратити їх - використовуйте функцію [IntlChar::isULowercase()](intlchar.isulowercase.md)
 
 ### Список параметрів
 
@@ -65,8 +65,8 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isupper()](intlchar.isupper.html) - Перевірити, чи входить символ у категорію "Lu" (літера у верхньому регістрі)
--   [IntlChar::istitle()](intlchar.istitle.html) - Перевірити, чи символ є титульним (Titlecase)
--   [IntlChar::tolower()](intlchar.tolower.html) - Перетворення символу Unicode на нижній регістр
--   [IntlChar::toupper()](intlchar.toupper.html) - Перетворення символу Unicode у верхній регістр
+-   [IntlChar::isupper()](intlchar.isupper.md) - Перевірити, чи входить символ у категорію "Lu" (літера у верхньому регістрі)
+-   [IntlChar::istitle()](intlchar.istitle.md) - Перевірити, чи символ є титульним (Titlecase)
+-   [IntlChar::tolower()](intlchar.tolower.md) - Перетворення символу Unicode на нижній регістр
+-   [IntlChar::toupper()](intlchar.toupper.md) - Перетворення символу Unicode у верхній регістр
 -   **`IntlChar::PROPERTY_LOWERCASE`**

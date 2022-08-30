@@ -1,12 +1,12 @@
 Функції iconv
 
--   [« Предопределённые константы](iconv.constants.html)
+-   [« Обумовлені константи](iconv.constants.md)
     
 -   [iconvgetencoding »](function.iconv-get-encoding.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [iconv](book.iconv.html)
+-   [iconv](book.iconv.md)
     
 -   Функції iconv
     
@@ -15,7 +15,7 @@
 
 # Дивіться також
 
-Дивіться також [Функции GNU Recode](ref.recode.html)
+Дивіться також [Функции GNU Recode](ref.recode.md)
 
 ## Зміст
 
@@ -28,5 +28,5 @@
 -   [iconvstrpos](function.iconv-strpos.html) — Повертає позицію першого входження підрядка
 -   [iconvstrrpos](function.iconv-strrpos.html) — Повертає позицію останнього входження підрядка
 -   [iconvsubstr](function.iconv-substr.html) — Отримання частини рядка
--   [iconv](function.iconv.html) — Перетворює рядок з одного кодування символів на інший
+-   [iconv](function.iconv.md) — Перетворює рядок з одного кодування символів на інший
 -   [проiconvhandler](function.ob-iconv-handler.html) — Перетворює символи з поточного кодування на кодування вихідного буфера

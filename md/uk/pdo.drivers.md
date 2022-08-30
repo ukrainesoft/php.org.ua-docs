@@ -1,12 +1,12 @@
 Драйвери PDO
 
--   [« PDOException](class.pdoexception.html)
+-   [« PDOException](class.pdoexception.md)
     
 -   [CUBRID (PDO) »](ref.pdo-cubrid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDO](book.pdo.html)
+-   [PDO](book.pdo.md)
     
 -   Драйвери PDO
     
@@ -29,16 +29,16 @@
 
 Наступні драйвери в даний час реалізовані в PDO:
 
-| Наименование драйвера                | Поддерживаемые базы данных                |
-|--------------------------------------|-------------------------------------------|
-| [PDOCUBRID](ref.pdo-cubrid.html)     | Cubrid                                    |
-| [PDODBLIB](ref.pdo-dblib.html)       | FreeTDS / Microsoft SQL Server / Sybase   |
-| [PDOFIREBIRD](ref.pdo-firebird.html) | Firebird                                  |
-| [PDOIBM](ref.pdo-ibm.html)           | IBM DB2                                   |
-| [PDOINFORMIX](ref.pdo-informix.html) | IBM Informix Dynamic Server               |
-| [PDOMYSQL](ref.pdo-mysql.html)       | MySQL 3.x/4.x/5.x                         |
-| [PDOOCI](ref.pdo-oci.html)           | Oracle Call Interface                     |
-| [PDOODBC](ref.pdo-odbc.html)         | ODBC v3 (IBM DB2, unixODBC та win32 ODBC) |
-| [PDOPGSQL](ref.pdo-pgsql.html)       | PostgreSQL                                |
-| [PDOSQLITE](ref.pdo-sqlite.html)     | SQLite 3 та SQLite 2                      |
-| [PDOSQLSRV](ref.pdo-sqlsrv.html)     | Microsoft SQL Server / SQL Azure          |
+| Наименование драйвера | Поддерживаемые базы данных |
+| --- | --- |
+| [PDOCUBRID](ref.pdo-cubrid.html) | Cubrid |
+| [PDODBLIB](ref.pdo-dblib.html) | FreeTDS / Microsoft SQL Server / Sybase |
+| [PDOFIREBIRD](ref.pdo-firebird.html) | Firebird |
+| [PDOIBM](ref.pdo-ibm.html) | IBM DB2 |
+| [PDOINFORMIX](ref.pdo-informix.html) | IBM Informix Dynamic Server |
+| [PDOMYSQL](ref.pdo-mysql.html) | MySQL 3.x/4.x/5.x |
+| [PDOOCI](ref.pdo-oci.html) | Oracle Call Interface |
+| [PDOODBC](ref.pdo-odbc.html) | ODBC v3 (IBM DB2, unixODBC та win32 ODBC) |
+| [PDOPGSQL](ref.pdo-pgsql.html) | PostgreSQL |
+| [PDOSQLITE](ref.pdo-sqlite.html) | SQLite 3 та SQLite 2 |
+| [PDOSQLSRV](ref.pdo-sqlsrv.html) | Microsoft SQL Server / SQL Azure |

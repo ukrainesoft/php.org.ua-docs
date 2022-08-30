@@ -2,7 +2,7 @@
 
 -   [« posixttyname](function.posix-ttyname.html)
     
--   [Запуск программы »](book.exec.html)
+-   [Запуск програми "](book.exec.html)
     
 -   [PHP Manual](index.html)
     

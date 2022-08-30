@@ -14,14 +14,14 @@
 # дата і час
 
 -   [Введение](intro.datetime.html)
--   [Установка и настройка](datetime.setup.html)
-    -   [Требования](datetime.requirements.html)
+-   [Встановлення та налаштування](datetime.setup.html)
+    -   [Вимоги](datetime.requirements.html)
     -   [Установка](datetime.installation.html)
-    -   [Настройка во время выполнения](datetime.configuration.html)
-    -   [Типы ресурсов](datetime.resources.html)
--   [Предопределённые константы](datetime.constants.html)
--   [Примеры](datetime.examples.html)
-    -   [Арифметика даты/времени](datetime.examples-arithmetic.html)
+    -   [Налаштування під час виконання](datetime.configuration.html)
+    -   [Типи ресурсів](datetime.resources.html)
+-   [Обумовлені константи](datetime.constants.html)
+-   [Приклади](datetime.examples.html)
+    -   [Арифметика дати/часу](datetime.examples-arithmetic.html)
 -   [DateTime](class.datetime.html) - Клас DateTime
     -   [DateTime::add](datetime.add.html) — Змінює об'єкт DateTime, додаючи кількість днів, місяців, років, годин, хвилин та секунд
     -   [DateTime::construct](datetime.construct.html) - Конструктор класу DateTime
@@ -77,7 +77,7 @@
     -   [DatePeriod::getEndDate](dateperiod.getenddate.html) — Повертає кінцеву дату періоду
     -   [DatePeriod::getRecurrences](dateperiod.getrecurrences.html) — Отримує кількість повторів
     -   [DatePeriod::getStartDate](dateperiod.getstartdate.html) — Повертає початкову дату періоду
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.html)
     -   [checkdate](function.checkdate.html) — Перевіряє коректність дати за григоріанським календарем
     -   [dateadd](function.date-add.html) - Псевдонім DateTime::add
     -   [datecreatefromformat](function.date-create-from-format.html) - Псевдонім DateTime::createFromFormat
@@ -129,9 +129,9 @@
     -   [timezoneopen](function.timezone-open.html) - Псевдонім DateTimeZone::construct
     -   [timezonetransitionsget](function.timezone-transitions-get.html) - Псевдонім DateTimeZone::getTransitions
     -   [timezoneversionget](function.timezone-version-get.html) — Отримання номера версії бази даних часових поясів
--   [Допустимые форматы даты/времени](datetime.formats.html)
-    -   [Форматы времени](datetime.formats.time.html)
-    -   [Форматы даты](datetime.formats.date.html)
+-   [Допустимі формати дати/часу](datetime.formats.html)
+    -   [Формати времени](datetime.formats.time.html)
+    -   [Формати дати](datetime.formats.date.html)
     -   [Складові форматів](datetime.formats.compound.html)
     -   [Відносні формати](datetime.formats.relative.html)
 -   [Список підтримуваних часових поясів](timezones.html)

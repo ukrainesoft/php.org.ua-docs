@@ -14,12 +14,12 @@
 # Обчислення над цілими числами з довільною точністю (GNU Multiple Precision)
 
 -   [Введение](intro.gmp.html)
--   [Установка и настройка](gmp.setup.html)
-    -   [Требования](gmp.requirements.html)
+-   [Встановлення та налаштування](gmp.setup.html)
+    -   [Вимоги](gmp.requirements.html)
     -   [Установка](gmp.installation.html)
-    -   [Настройка во время выполнения](gmp.configuration.html)
--   [Предопределённые константы](gmp.constants.html)
--   [Примеры](gmp.examples.html)
+    -   [Налаштування під час виконання](gmp.configuration.html)
+-   [Обумовлені константи](gmp.constants.html)
+-   [Приклади](gmp.examples.html)
 -   [GMP Функції](ref.gmp.html)
     -   [gmpabs](function.gmp-abs.html) - Абсолютна величина
     -   [gmpadd](function.gmp-add.html) - Додавання чисел

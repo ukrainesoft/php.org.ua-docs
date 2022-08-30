@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONBinaryInterface::getType »](mongodb-bson-binaryinterface.gettype.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONBinaryInterface](class.mongodb-bson-binaryinterface.html)
     

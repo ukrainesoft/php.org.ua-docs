@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](reflection.setup.html)
+-   [« Встановлення та налаштування](reflection.setup.html)
     
 -   [Установка »](reflection.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](reflection.setup.html)
+-   [Встановлення та налаштування](reflection.setup.html)
     
 -   Вимоги
     

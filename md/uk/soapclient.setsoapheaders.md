@@ -1,12 +1,12 @@
 Встановлює заголовки SOAP для наступних дзвінків
 
--   [« SoapClient::setLocation](soapclient.setlocation.html)
+-   [« SoapClient::setLocation](soapclient.setlocation.md)
     
--   [SoapClient::soapCall »](soapclient.soapcall.html)
+-   [SoapClient::soapCall »](soapclient.soapcall.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SoapClient](class.soapclient.html)
+-   [SoapClient](class.soapclient.md)
     
 -   Встановлює заголовки SOAP для наступних дзвінків
     
@@ -33,7 +33,7 @@ public SoapClient::__setSoapHeaders(SoapHeader|array|null $headers = null): bool
 
 `headers`
 
-Заголовки, що встановлюються. Це може бути об'єкт [SoapHeader](class.soapheader.html) або масив об'єктів [SoapHeader](class.soapheader.html). Якщо не вказано чи одно **`null`**, заголовки будуть видалені.
+Заголовки, що встановлюються. Це може бути об'єкт [SoapHeader](class.soapheader.md) або масив об'єктів [SoapHeader](class.soapheader.md). Якщо не вказано чи одно **`null`**, заголовки будуть видалені.
 
 ### Значення, що повертаються
 

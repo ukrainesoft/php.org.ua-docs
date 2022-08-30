@@ -1,12 +1,12 @@
 Перевіряє існування сусідніх вузлів
 
--   [« tidyNode::hasChildren](tidynode.haschildren.html)
+-   [« tidyNode::hasChildren](tidynode.haschildren.md)
     
--   [tidyNode::isAsp »](tidynode.isasp.html)
+-   [tidyNode::isAsp »](tidynode.isasp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidyNode](class.tidynode.html)
+-   [tidyNode](class.tidynode.md)
     
 -   Перевіряє існування сусідніх вузлів
     

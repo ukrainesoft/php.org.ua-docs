@@ -1,12 +1,12 @@
 Перевірка допустимості поточної позиції
 
--   [« RecursiveIteratorIterator::setMaxDepth](recursiveiteratoriterator.setmaxdepth.html)
+-   [« RecursiveIteratorIterator::setMaxDepth](recursiveiteratoriterator.setmaxdepth.md)
     
--   [RecursiveRegexIterator »](class.recursiveregexiterator.html)
+-   [RecursiveRegexIterator »](class.recursiveregexiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
     
 -   Перевірка допустимості поточної позиції
     

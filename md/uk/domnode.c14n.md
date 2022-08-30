@@ -1,12 +1,12 @@
 Канонізувати вузли в рядок
 
--   [« DOMNode::appendChild](domnode.appendchild.html)
+-   [« DOMNode::appendChild](domnode.appendchild.md)
     
--   [DOMNode::C14NFile »](domnode.c14nfile.html)
+-   [DOMNode::C14NFile »](domnode.c14nfile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMNode](class.domnode.html)
+-   [DOMNode](class.domnode.md)
     
 -   Канонізувати вузли в рядок
     
@@ -49,4 +49,4 @@ public DOMNode::C14N(    bool $exclusive = false,    bool $withComments 
 
 ### Дивіться також
 
--   [DOMNode::C14NFile()](domnode.c14nfile.html) - Канонізувати вузли у файл
+-   [DOMNode::C14NFile()](domnode.c14nfile.md) - Канонізувати вузли у файл

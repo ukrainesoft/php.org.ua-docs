@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](classobj.installation.html)
+-   [« Установка](classobj.installation.md)
     
--   [Типы ресурсов »](classobj.resources.html)
+-   [Типи ресурсів »](classobj.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](classobj.setup.html)
+-   [Встановлення та налаштування](classobj.setup.md)
     
 -   Налаштування під час виконання
     

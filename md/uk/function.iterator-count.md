@@ -4,9 +4,9 @@
     
 -   [iteratorтоarray »](function.iterator-to-array.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SPL](ref.spl.html)
+-   [Функції SPL](ref.spl.md)
     
 -   Підраховує кількість елементів в ітераторі
     

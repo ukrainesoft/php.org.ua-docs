@@ -1,12 +1,12 @@
 Отримує ім'я файлу
 
--   [« SplFileInfo::getFileInfo](splfileinfo.getfileinfo.html)
+-   [« SplFileInfo::getFileInfo](splfileinfo.getfileinfo.md)
     
--   [SplFileInfo::getGroup »](splfileinfo.getgroup.html)
+-   [SplFileInfo::getGroup »](splfileinfo.getgroup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Отримує ім'я файлу
     
@@ -64,4 +64,4 @@ string(7) "svn.php"
 
 ### Дивіться також
 
--   [SplFileInfo::getBasename()](splfileinfo.getbasename.html) - Отримує базове ім'я файлу
+-   [SplFileInfo::getBasename()](splfileinfo.getbasename.md) - Отримує базове ім'я файлу

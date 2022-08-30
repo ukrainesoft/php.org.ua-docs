@@ -1,12 +1,12 @@
 Встановлює значення за заданим індексом $index у $value
 
--   [« SplDoublyLinkedList::offsetGet](spldoublylinkedlist.offsetget.html)
+-   [« SplDoublyLinkedList::offsetGet](spldoublylinkedlist.offsetget.md)
     
--   [SplDoublyLinkedList::offsetUnset »](spldoublylinkedlist.offsetunset.html)
+-   [SplDoublyLinkedList::offsetUnset »](spldoublylinkedlist.offsetunset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
     
 -   Встановлює значення за заданим індексом $index у $value
     
@@ -41,4 +41,4 @@ public SplDoublyLinkedList::offsetSet(?int $index, mixed $value): void
 
 ### Помилки
 
-Викидає виняток [OutOfRangeException](class.outofrangeexception.html), коли `index` виходить за межі, або коли `index` може бути представлений як цілого числа.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.md), коли `index` виходить за межі, або коли `index` може бути представлений як цілого числа.

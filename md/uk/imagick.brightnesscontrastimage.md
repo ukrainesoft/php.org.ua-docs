@@ -1,12 +1,12 @@
 Опис
 
--   [« Imagick::borderImage](imagick.borderimage.html)
+-   [« Imagick::borderImage](imagick.borderimage.md)
     
--   [Imagick::charcoalImage »](imagick.charcoalimage.html)
+-   [Imagick::charcoalImage »](imagick.charcoalimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Опис
     

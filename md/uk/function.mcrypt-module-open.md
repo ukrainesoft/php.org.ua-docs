@@ -4,9 +4,9 @@
     
 -   [mcryptmoduleselftest »](function.mcrypt-module-self-test.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](ref.mcrypt.html)
+-   [Mcrypt](ref.mcrypt.md)
     
 -   Відкриває модуль шифрування з використанням вказаних алгоритму та режиму
     

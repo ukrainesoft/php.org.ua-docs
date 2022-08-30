@@ -4,9 +4,9 @@
     
 -   [tradersin »](function.trader-sin.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Встановлює нестабільний період
     
@@ -29,7 +29,7 @@ trader_set_unstable_period(int $functionId, int $timePeriod): void
 
 `functionId`
 
-Ідентифікатор функції, на яку має бути встановлений коефіцієнт. Серія констант [TRADERFUNCUNST](trader.constants.html) може використовуватися для на відповідну функцію.
+Ідентифікатор функції, на яку має бути встановлений коефіцієнт. Серія констант [TRADERFUNCUNST](trader.constants.md) може використовуватися для на відповідну функцію.
 
 `timePeriod`
 

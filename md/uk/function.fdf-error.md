@@ -4,9 +4,9 @@
     
 -   [fdfgetap »](function.fdf-get-ap.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Повертає опис помилки для коду помилки FDF
     

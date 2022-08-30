@@ -2,11 +2,11 @@
 
 -   [« Інтерфейси об'єктів](language.oop5.interfaces.html)
     
--   [Анонимные классы »](language.oop5.anonymous.html)
+-   [Анонімні класи »](language.oop5.anonymous.html)
     
 -   [PHP Manual](index.html)
     
--   [Классы и объекты](language.oop5.html)
+-   [Класи та об'єкти](language.oop5.html)
     
 -   Трейти
     

@@ -2,11 +2,11 @@
 
 -   [« mqseriesset](function.mqseries-set.html)
     
--   [Сеть »](book.network.html)
+-   [Сеть »](book.network.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции mqseries](ref.mqseries.html)
+-   [Функции mqseries](ref.mqseries.md)
     
 -   Отримати повідомлення про помилку, що відповідає її коду (MQRC)
     

@@ -2,11 +2,11 @@
 
 -   [« yazsyntax](function.yaz-syntax.html)
     
--   [Обмін повідомленнями 0MQ »](book.zmq.html)
+-   [Обмін повідомленнями 0MQ »](book.zmq.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции YAZ](ref.yaz.html)
+-   [Функции YAZ](ref.yaz.md)
     
 -   Чекає на виконання запитів Z39.50 серверами
     

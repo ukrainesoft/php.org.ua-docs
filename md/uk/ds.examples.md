@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](ds.constants.html)
+-   [« Обумовлені константи](ds.constants.md)
     
 -   [Коллекция »](class.ds-collection.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Структури даних](book.ds.html)
+-   [Структури даних](book.ds.md)
     
 -   Приклади
     

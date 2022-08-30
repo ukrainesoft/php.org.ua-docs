@@ -4,9 +4,9 @@
     
 -   [opensslx509export »](function.openssl-x509-export.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Експортує сертифікат у файл
     
@@ -29,7 +29,7 @@ openssl_x509_export_to_file(OpenSSLCertificate|string $certificate, string $outp
 
 `x509`
 
-Для списку коректних значень дивіться [Параметры ключей/сертификатов](openssl.certparams.html)
+Для списку коректних значень дивіться [Параметри ключів/сертифікатів](openssl.certparams.md)
 
 `output_filename`
 
@@ -45,6 +45,6 @@ openssl_x509_export_to_file(OpenSSLCertificate|string $certificate, string $outp
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                           |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |

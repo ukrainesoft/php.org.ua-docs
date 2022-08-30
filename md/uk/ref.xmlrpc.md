@@ -1,12 +1,12 @@
 Функції XML-RPC
 
--   [« Предопределённые константы](xmlrpc.constants.html)
+-   [« Обумовлені константи](xmlrpc.constants.md)
     
 -   [xmlrpcdecoderequest »](function.xmlrpc-decode-request.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XML-RPC](book.xmlrpc.html)
+-   [XML-RPC](book.xmlrpc.md)
     
 -   Функції XML-RPC
     

@@ -4,9 +4,9 @@
     
 -   [pcntlwtermsig »](function.pcntl-wtermsig.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.md)
     
 -   Отримати сигнал, через який було зупинено дочірній процес
     

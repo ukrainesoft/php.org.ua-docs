@@ -4,9 +4,9 @@
     
 -   [sodiumcryptopwhashscryptsalsa208sha256str »](function.sodium-crypto-pwhash-scryptsalsa208sha256-str.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Перевірити, що пароль є дійсним рядком перевірки пароля
     

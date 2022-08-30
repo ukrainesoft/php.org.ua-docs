@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](ps.installation.html)
+-   [« Установка](ps.installation.md)
     
--   [Типы ресурсов »](ps.resources.html)
+-   [Типи ресурсів »](ps.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ps.setup.html)
+-   [Встановлення та налаштування](ps.setup.md)
     
 -   Налаштування під час виконання
     

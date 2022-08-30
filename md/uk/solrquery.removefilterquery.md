@@ -1,12 +1,12 @@
 Видаляє запит фільтра
 
--   [« SolrQuery::removeField](solrquery.removefield.html)
+-   [« SolrQuery::removeField](solrquery.removefield.md)
     
--   [SolrQuery::removeHighlightField »](solrquery.removehighlightfield.html)
+-   [SolrQuery::removeHighlightField »](solrquery.removehighlightfield.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Видаляє запит фільтра
     

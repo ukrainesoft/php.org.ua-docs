@@ -4,9 +4,9 @@
     
 -   [mailparseuudecodeall »](function.mailparse-uudecode-all.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mailparse](ref.mailparse.html)
+-   [Mailparse](ref.mailparse.md)
     
 -   Кодує потік з джерела файлу і пише у файл одержувач.
     
@@ -37,7 +37,7 @@ mailparse_stream_encode(resource $sourcefp, resource $destfp, string $encoding):
 
 `encoding`
 
-Одне з кодувань, підтримуваних модулем [mbstring](ref.mbstring.html)
+Одне з кодувань, підтримуваних модулем [mbstring](ref.mbstring.md)
 
 ### Значення, що повертаються
 

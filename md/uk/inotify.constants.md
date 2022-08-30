@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](inotify.resources.html)
+-   [« Типи ресурсів](inotify.resources.html)
     
 -   [Функции Inotify »](ref.inotify.html)
     

@@ -1,12 +1,12 @@
 Отримує перший день тижня для стандарту календаря
 
--   [« IntlCalendar::getErrorMessage](intlcalendar.geterrormessage.html)
+-   [« IntlCalendar::getErrorMessage](intlcalendar.geterrormessage.md)
     
--   [IntlCalendar::getGreatestMinimum »](intlcalendar.getgreatestminimum.html)
+-   [IntlCalendar::getGreatestMinimum »](intlcalendar.getgreatestminimum.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Отримує перший день тижня для стандарту календаря
     
@@ -31,13 +31,13 @@ public IntlCalendar::getFirstDayOfWeek(): int|false
 intlcal_get_first_day_of_week(IntlCalendar $calendar): int|false
 ```
 
-День тижня, який вважається початком тижня: або значення за промовчанням для цього мовного стандарту, або значення, встановлене за допомогою [IntlCalendar::setFirstDayOfWeek()](intlcalendar.setfirstdayofweek.html)
+День тижня, який вважається початком тижня: або значення за промовчанням для цього мовного стандарту, або значення, встановлене за допомогою [IntlCalendar::setFirstDayOfWeek()](intlcalendar.setfirstdayofweek.md)
 
 ### Список параметрів
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 ### Значення, що повертаються
 
@@ -73,4 +73,4 @@ int(6)
 
 ### Дивіться також
 
--   [IntlCalendar::setFirstDayOfWeek()](intlcalendar.setfirstdayofweek.html) - Встановлює день, який є початком тижня
+-   [IntlCalendar::setFirstDayOfWeek()](intlcalendar.setfirstdayofweek.md) - Встановлює день, який є початком тижня

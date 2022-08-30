@@ -1,28 +1,28 @@
 Нові глобальні константи
 
--   [« Другие изменения в модулях](migration56.extensions.html)
+-   [« Другие изменения в модулях](migration56.extensions.md)
     
--   [Отладка в PHP »](debugger.html)
+-   [Отладка в PHP »](debugger.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 5.5.x на PHP 5.6.x](migration56.html)
+-   [Миграция с PHP 5.5.x на PHP 5.6.x](migration56.md)
     
 -   Нові глобальні константи
     
 
 ## Нові глобальні константи
 
-### [ДД](book.image.html)
+### [ДД](book.image.md)
 
 -   **`IMG_WEBP`** (з PHP 5.6.25)
 
-### [LDAP](book.ldap.html)
+### [LDAP](book.ldap.md)
 
 -   **`LDAP_ESCAPE_DN`**
 -   **`LDAP_ESCAPE_FILTER`**
 
-### [OpenSSL](book.openssl.html)
+### [OpenSSL](book.openssl.md)
 
 -   **`OPENSSL_DEFAULT_STREAM_CIPHERS`**
 -   **`STREAM_CRYPTO_METHOD_ANY_CLIENT`**
@@ -34,7 +34,7 @@
 -   **`STREAM_CRYPTO_METHOD_TLSv1_2_CLIENT`**
 -   **`STREAM_CRYPTO_METHOD_TLSv1_2_SERVER`**
 
-### [PostgreSQL](book.pgsql.html)
+### [PostgreSQL](book.pgsql.md)
 
 -   **`PGSQL_CONNECT_ASYNC`**
 -   **`PGSQL_CONNECTION_AUTH_OK`**

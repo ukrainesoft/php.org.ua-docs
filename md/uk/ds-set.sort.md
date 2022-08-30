@@ -4,7 +4,7 @@
     
 -   [ДсSet::sorted »](ds-set.sorted.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Набор](class.ds-set.html)
     

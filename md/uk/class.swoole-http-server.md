@@ -4,9 +4,9 @@
     
 -   [SwooleHttpServer::on »](swoole-http-server.on.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Swoole](book.swoole.html)
+-   [Swoole](book.swoole.md)
     
 -   Клас SwooleHttpServer
     

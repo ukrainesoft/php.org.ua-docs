@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Типы](language.types.html)
+-   [Типи](language.types.html)
     
 -   Об'єкти
     
@@ -32,7 +32,7 @@ $bar->do_foo();
 ?>
 ```
 
-Повний розгляд проводиться у розділі [Классы и Объекты](language.oop5.html)
+Повний розгляд проводиться у розділі [Класи та Об'єкти](language.oop5.html)
 
 ### Перетворення на об'єкт
 

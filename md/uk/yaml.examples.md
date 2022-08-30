@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](yaml.constants.html)
+-   [« Обумовлені константи](yaml.constants.md)
     
--   [Callback-функции »](yaml.callbacks.html)
+-   [Callback-функции »](yaml.callbacks.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yaml](book.yaml.html)
+-   [Yaml](book.yaml.md)
     
 -   Приклади
     

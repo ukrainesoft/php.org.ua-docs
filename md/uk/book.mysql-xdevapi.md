@@ -1,12 +1,12 @@
 Mysqlxdevapi
 
--   [« Список изменений](changelog.mysqli.html)
+-   [« Список изменений](changelog.mysqli.md)
     
 -   [Введение »](intro.mysql-xdevapi.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](set.mysqlinfo.html)
+-   [MySQL](set.mysqlinfo.md)
     
 -   Mysqlxdevapi
     
@@ -14,14 +14,14 @@ Mysqlxdevapi
 # Mysqlxdevapi
 
 -   [Введение](intro.mysql-xdevapi.html)
--   [Установка и настройка](mysql-xdevapi.setup.html)
-    -   [Требования](mysql-xdevapi.requirements.html)
+-   [Встановлення та налаштування](mysql-xdevapi.setup.html)
+    -   [Вимоги](mysql-xdevapi.requirements.html)
     -   [Установка](mysql-xdevapi.installation.html)
-    -   [Настройка во время выполнения](mysql-xdevapi.configuration.html)
+    -   [Налаштування під час виконання](mysql-xdevapi.configuration.html)
     -   [Складання / Компіляція з вихідного коду](mysql-xdevapi.build.html)
--   [Предопределённые константы](mysql-xdevapi.constants.html)
--   [Список изменений](changelog.mysql_xdevapi.html)
--   [Примеры](mysql-xdevapi.examples.html)
+-   [Обумовлені константи](mysql-xdevapi.constants.html)
+-   [Список изменений](changelog.mysql_xdevapi.md)
+-   [Приклади](mysql-xdevapi.examples.html)
 -   [Функції Mysqlxdevapi](ref.mysql-xdevapi.html)
     -   [expression](function.mysql-xdevapi-expression.html) — Зв'язує підготовлені змінні твердження як параметри
     -   [getSession](function.mysql-xdevapi-getsession.html) — Підключається до сервера MySQL

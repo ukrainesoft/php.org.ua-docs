@@ -4,9 +4,9 @@
     
 -   [PDOIBM DSN »](ref.pdo-ibm.connection.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Драйвери PDO](pdo.drivers.html)
+-   [Драйвери PDO](pdo.drivers.md)
     
 -   Функції IBM (PDOIBM)
     
@@ -15,7 +15,7 @@
 
 ## Вступ
 
-PDOIBM – це драйвер, що реалізує інтерфейс [PHP Data Objects (PDO)](intro.pdo.html) для надання можливості працювати з базами даних IBM.
+PDOIBM – це драйвер, що реалізує інтерфейс [PHP Data Objects (PDO)](intro.pdo.md) для надання можливості працювати з базами даних IBM.
 
 ## Встановлення
 
@@ -27,7 +27,7 @@ PDOIBM – це драйвер, що реалізує інтерфейс [PHP Da
 > 
 > Також DB2 Client v9.1 підтримує доступ до серверів DB2 UDB для i5 та DB2 UDB для z/OS, використовуючи окремо куплений [» продукт DB2 Connect](http://www.ibm.com/software/data/db2/db2connect)
 
-PDOIBM – це модуль [» PECL](https://pecl.php.net/), так що дотримуйтесь інструкцій [Установка модулей PECL](install.pecl.html) для встановлення цього модуля. Не забудьте вказати команду **configure** розташування заголовних файлів DB2 Client та бібліотек:
+PDOIBM – це модуль [» PECL](https://pecl.php.net/), так що дотримуйтесь інструкцій [Установка модулей PECL](install.pecl.md) для встановлення цього модуля. Не забудьте вказати команду **configure** розташування заголовних файлів DB2 Client та бібліотек:
 
 ```
 bash$ ./configure --with-pdo-ibm=/path/to/sqllib[,shared]

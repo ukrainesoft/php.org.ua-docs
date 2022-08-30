@@ -1,6 +1,6 @@
 Функції SQLSRV
 
--   [« Предопределённые константы](sqlsrv.constants.html)
+-   [« Обумовлені константи](sqlsrv.constants.html)
     
 -   [sqlsrvbegintransaction »](function.sqlsrv-begin-transaction.html)
     

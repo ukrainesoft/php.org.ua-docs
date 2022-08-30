@@ -1,6 +1,6 @@
 Компресійні фільтри
 
--   [« Преобразовывающие фильтры](filters.convert.html)
+-   [« Перетворювальні фільтри](filters.convert.html)
     
 -   [Фільтри, що шифрують »](filters.encryption.html)
     

@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](uodbc.requirements.html)
+-   [« Вимоги](uodbc.requirements.md)
     
--   [Настройка во время выполнения »](odbc.configuration.html)
+-   [Налаштування під час виконання »](odbc.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](uodbc.setup.html)
+-   [Встановлення та налаштування](uodbc.setup.md)
     
 -   Встановлення
     

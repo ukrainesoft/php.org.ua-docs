@@ -1,12 +1,12 @@
 Підвищує контрастність кольорового зображення
 
--   [« Imagick::nextImage](imagick.nextimage.html)
+-   [« Imagick::nextImage](imagick.nextimage.md)
     
--   [Imagick::oilPaintImage »](imagick.oilpaintimage.html)
+-   [Imagick::oilPaintImage »](imagick.oilpaintimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Підвищує контрастність кольорового зображення
     

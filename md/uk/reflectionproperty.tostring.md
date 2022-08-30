@@ -1,12 +1,12 @@
 Перетворення на рядок
 
--   [« ReflectionProperty::setValue](reflectionproperty.setvalue.html)
+-   [« ReflectionProperty::setValue](reflectionproperty.setvalue.md)
     
--   [ReflectionType »](class.reflectiontype.html)
+-   [ReflectionType »](class.reflectiontype.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionProperty](class.reflectionproperty.html)
+-   [ReflectionProperty](class.reflectionproperty.md)
     
 -   Перетворення на рядок
     

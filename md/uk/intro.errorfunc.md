@@ -2,7 +2,7 @@
 
 -   [« Обработка ошибок](book.errorfunc.html)
     
--   [Установка и настройка »](errorfunc.setup.html)
+-   [Встановлення та налаштування »](errorfunc.setup.html)
     
 -   [PHP Manual](index.html)
     

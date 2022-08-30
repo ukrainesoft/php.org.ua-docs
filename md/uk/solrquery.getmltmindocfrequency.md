@@ -1,12 +1,12 @@
 Повертає граничну частоту, з якої ігноруватимуться слова, яких немає, принаймні, у такій кількості документів
 
--   [« SolrQuery::getMltMaxWordLength](solrquery.getmltmaxwordlength.html)
+-   [« SolrQuery::getMltMaxWordLength](solrquery.getmltmaxwordlength.md)
     
--   [SolrQuery::getMltMinTermFrequency »](solrquery.getmltmintermfrequency.html)
+-   [SolrQuery::getMltMinTermFrequency »](solrquery.getmltmintermfrequency.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає граничну частоту, з якої ігноруватимуться слова, яких немає, принаймні, у такій кількості документів
     

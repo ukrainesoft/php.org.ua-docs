@@ -1,12 +1,12 @@
 Серіалізує сховище
 
--   [« SplDoublyLinkedList::rewind](spldoublylinkedlist.rewind.html)
+-   [« SplDoublyLinkedList::rewind](spldoublylinkedlist.rewind.md)
     
--   [SplDoublyLinkedList::setIteratorMode »](spldoublylinkedlist.setiteratormode.html)
+-   [SplDoublyLinkedList::setIteratorMode »](spldoublylinkedlist.setiteratormode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
     
 -   Серіалізує сховище
     
@@ -39,4 +39,4 @@ public SplDoublyLinkedList::serialize(): string
 
 ### Дивіться також
 
--   [SplDoublyLinkedList::unserialize()](spldoublylinkedlist.unserialize.html) - десеріалізує сховище
+-   [SplDoublyLinkedList::unserialize()](spldoublylinkedlist.unserialize.md) - десеріалізує сховище

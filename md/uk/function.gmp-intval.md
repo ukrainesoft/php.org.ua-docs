@@ -4,9 +4,9 @@
     
 -   [gmpinvert »](function.gmp-invert.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GMP Функції](ref.gmp.html)
+-   [GMP Функції](ref.gmp.md)
     
 -   Перетворення числа GMP на ціле число
     
@@ -29,7 +29,7 @@ gmp_intval(GMP|int|string $num): int
 
 `num`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 

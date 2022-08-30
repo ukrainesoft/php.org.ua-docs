@@ -1,12 +1,12 @@
 Збільшує числове значення запису
 
--   [« Memcached::getVersion](memcached.getversion.html)
+-   [« Memcached::getVersion](memcached.getversion.md)
     
--   [Memcached::incrementByKey »](memcached.incrementbykey.html)
+-   [Memcached::incrementByKey »](memcached.incrementbykey.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Збільшує числове значення запису
     
@@ -77,6 +77,6 @@ bool(false)
 
 ### Дивіться також
 
--   [Memcached::decrement()](memcached.decrement.html) - Зменшує числове значення запису
--   [Memcached::decrementByKey()](memcached.decrementbykey.html) - Зменшує числове значення запису, що зберігається на певному сервері
--   [Memcached::incrementByKey()](memcached.incrementbykey.html) - Збільшує числове значення запису, що зберігається на вказаному сервері
+-   [Memcached::decrement()](memcached.decrement.md) - Зменшує числове значення запису
+-   [Memcached::decrementByKey()](memcached.decrementbykey.md) - Зменшує числове значення запису, що зберігається на певному сервері
+-   [Memcached::incrementByKey()](memcached.incrementbykey.md) - Збільшує числове значення запису, що зберігається на вказаному сервері

@@ -4,7 +4,7 @@
     
 -   [ДсPriorityQueue::jsonSerialize »](ds-priorityqueue.jsonserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Черга з пріоритетом](class.ds-priorityqueue.html)
     

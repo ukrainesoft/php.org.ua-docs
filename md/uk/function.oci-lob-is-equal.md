@@ -4,9 +4,9 @@
     
 -   [ocinewcollection »](function.oci-new-collection.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8 Функции](ref.oci8.html)
+-   [OCI8 Функции](ref.oci8.md)
     
 -   Порівнює два об'єкти LOB/FILE
     

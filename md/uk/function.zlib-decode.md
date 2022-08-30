@@ -1,12 +1,12 @@
 Розпаковує будь-які закодовані дані raw/gzip/zlib
 
--   [« readgzfile](function.readgzfile.html)
+-   [« readgzfile](function.readgzfile.md)
     
 -   [zlibencode »](function.zlib-encode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Zlib](ref.zlib.html)
+-   [Функции Zlib](ref.zlib.md)
     
 -   Розпаковує будь-які закодовані дані raw/gzip/zlib
     

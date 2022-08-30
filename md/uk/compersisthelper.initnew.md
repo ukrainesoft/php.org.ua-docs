@@ -1,12 +1,12 @@
 Ініціалізує об'єкт у стан за замовчуванням
 
--   [« COMPersistHelper::GetMaxStreamSize](compersisthelper.getmaxstreamsize.html)
+-   [« COMPersistHelper::GetMaxStreamSize](compersisthelper.getmaxstreamsize.md)
     
--   [COMPersistHelper::LoadFromFile »](compersisthelper.loadfromfile.html)
+-   [COMPersistHelper::LoadFromFile »](compersisthelper.loadfromfile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [COMPersistHelper](class.compersisthelper.html)
+-   [COMPersistHelper](class.compersisthelper.md)
     
 -   Ініціалізує об'єкт у стан за замовчуванням
     

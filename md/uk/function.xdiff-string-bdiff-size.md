@@ -4,9 +4,9 @@
     
 -   [xdiffstringbdiff »](function.xdiff-string-bdiff.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.md)
     
 -   Отримати розмір файлу, створеного після застосування бінарного патча
     

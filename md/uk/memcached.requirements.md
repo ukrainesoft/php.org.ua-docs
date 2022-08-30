@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](memcached.setup.html)
+-   [« Встановлення та налаштування](memcached.setup.md)
     
--   [Установка »](memcached.installation.html)
+-   [Установка »](memcached.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](memcached.setup.html)
+-   [Встановлення та налаштування](memcached.setup.md)
     
 -   Вимоги
     

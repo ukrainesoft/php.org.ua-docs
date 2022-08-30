@@ -4,9 +4,9 @@
     
 -   [MongoDBDriverExceptionWriteException::getWriteResult »](mongodb-driver-writeexception.getwriteresult.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBDriverException](mongodb.exceptions.html)
+-   [MongoDBDriverException](mongodb.exceptions.md)
     
 -   Клас MongoDBDriverExceptionWriteException
     
@@ -108,10 +108,10 @@ writeResult
 
 ## список змін
 
-| Версия                                                                                                                                                                                                                            | Описание |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.5.0                                                                                                                                                                                                                |          |
-| Тепер клас успадковується від [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html) |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.5.0 |  |
+| Тепер клас успадковується від [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html) |  |
 
 ## Зміст
 

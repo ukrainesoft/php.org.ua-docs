@@ -4,9 +4,9 @@
     
 -   [ldapdn2ufn »](function.ldap-dn2ufn.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.md)
     
 -   Видаляє запис із директорії LDAP
     
@@ -37,7 +37,7 @@ ldap_delete(LDAP\Connection $ldap, string $dn, ?array $controls = null): bool
 
 `controls`
 
-Масив [управляющих констант LDAP](ldap.controls.html) для відправки у запиті.
+Масив [управляющих констант LDAP](ldap.controls.md) для відправки у запиті.
 
 ### Значення, що повертаються
 
@@ -45,11 +45,11 @@ ldap_delete(LDAP\Connection $ldap, string $dn, ?array $controls = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                      |
-|        | Додано підтримку параметра `controls`                                                                                                                  |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Дивіться також
 

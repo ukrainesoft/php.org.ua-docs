@@ -4,7 +4,7 @@
     
 -   [ColumnResult::getColumnName »](mysql-xdevapi-columnresult.getcolumnname.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
     

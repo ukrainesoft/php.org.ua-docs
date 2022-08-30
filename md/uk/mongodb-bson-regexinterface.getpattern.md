@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONRegexInterface::toString »](mongodb-bson-regexinterface.tostring.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONRegexInterface](class.mongodb-bson-regexinterface.html)
     

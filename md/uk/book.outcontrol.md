@@ -14,15 +14,15 @@
 # Управління буфером виводу
 
 -   [Введение](intro.outcontrol.html)
--   [Установка и настройка](outcontrol.setup.html)
-    -   [Требования](outcontrol.requirements.html)
+-   [Встановлення та налаштування](outcontrol.setup.html)
+    -   [Вимоги](outcontrol.requirements.html)
     -   [Установка](outcontrol.installation.html)
-    -   [Настройка во время выполнения](outcontrol.configuration.html)
-    -   [Типы ресурсов](outcontrol.resources.html)
--   [Предопределённые константы](outcontrol.constants.html)
--   [Примеры](outcontrol.examples.html)
+    -   [Налаштування під час виконання](outcontrol.configuration.html)
+    -   [Типи ресурсів](outcontrol.resources.html)
+-   [Обумовлені константи](outcontrol.constants.html)
+-   [Приклади](outcontrol.examples.html)
     -   [Базовое использование](outcontrol.examples.basic.html)
-    -   [Использование перезаписи вывода](outcontrol.examples.rewrite.html)
+    -   [Використання перезапису виводу](outcontrol.examples.rewrite.html)
 -   [Функції контролю виведення](ref.outcontrol.html)
     -   [flush](function.flush.html) - Скидання системного буфера виводу
     -   [проclean](function.ob-clean.html) - Очистити (стерти) буфер виводу
@@ -36,7 +36,7 @@
     -   [проgetlevel](function.ob-get-level.html) — Повертає рівень вкладеності механізму буферизації виводу
     -   [проgetstatus](function.ob-get-status.html) — Отримати статус буфера виводу
     -   [проgzhandler](function.ob-gzhandler.html) - callback-функція, що використовується для gzip-стиснення буфера виводу при виклику obstart
-    -   [проimplicitflush](function.ob-implicit-flush.html) — Увімкнення/вимкнення неявного скидання
+    -   [про implicit flush](function.ob-implicit-flush.html) — Увімкнення/вимкнення неявного скидання
     -   [проlisthandlers](function.ob-list-handlers.html) - Список всіх використовуваних обробників виводу
     -   [проstart](function.ob-start.html) — Увімкнення буферизації виводу
     -   [outputaddrewritevar](function.output-add-rewrite-var.html) — Додати значення до обробника URL

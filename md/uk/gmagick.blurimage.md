@@ -1,12 +1,12 @@
 Додати розмиття зображення
 
--   [« Gmagick::annotateimage](gmagick.annotateimage.html)
+-   [« Gmagick::annotateimage](gmagick.annotateimage.md)
     
--   [Gmagick::borderimage »](gmagick.borderimage.html)
+-   [Gmagick::borderimage »](gmagick.borderimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Додати розмиття зображення
     
@@ -37,7 +37,7 @@ public Gmagick::blurimage(float $radius, float $sigma, int $channel = ?): Gmagic
 
 ### Значення, що повертаються
 
-Розмитий об'єкт [Gmagick](class.gmagick.html)
+Розмитий об'єкт [Gmagick](class.gmagick.md)
 
 ### Помилки
 

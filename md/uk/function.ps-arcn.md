@@ -4,9 +4,9 @@
     
 -   [псbeginpage »](function.ps-begin-page.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Малює дугу за годинниковою стрілкою
     

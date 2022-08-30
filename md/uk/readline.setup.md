@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.readline.html)
     
--   [Требования »](readline.requirements.html)
+-   [Вимоги »](readline.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](readline.requirements.html)
+-   [Вимоги](readline.requirements.html)
 -   [Установка](readline.installation.html)
--   [Настройка во время выполнения](readline.configuration.html)
--   [Типы ресурсов](readline.resources.html)
+-   [Налаштування під час виконання](readline.configuration.html)
+-   [Типи ресурсів](readline.resources.html)

@@ -1,12 +1,12 @@
 Перевіряє коректність поточної позиції
 
--   [« Iterator::rewind](iterator.rewind.html)
+-   [« Iterator::rewind](iterator.rewind.md)
     
--   [IteratorAggregate »](class.iteratoraggregate.html)
+-   [IteratorAggregate »](class.iteratoraggregate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Iterator](class.iterator.html)
+-   [Iterator](class.iterator.md)
     
 -   Перевіряє коректність поточної позиції
     
@@ -23,7 +23,7 @@ Iterator::valid — Перевіряє коректність поточної �
 public Iterator::valid(): bool
 ```
 
-Метод викликається після функцій [Iterator::rewind()](iterator.rewind.html) і [Iterator::next()](iterator.next.html) щоб перевірити, чи припустима поточна позиція.
+Метод викликається після функцій [Iterator::rewind()](iterator.rewind.md) і [Iterator::next()](iterator.next.md) щоб перевірити, чи припустима поточна позиція.
 
 ### Список параметрів
 

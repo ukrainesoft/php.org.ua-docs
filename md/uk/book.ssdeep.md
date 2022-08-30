@@ -14,12 +14,12 @@
 # Нечітке хешування ssdeep
 
 -   [Введение](intro.ssdeep.html)
--   [Установка и настройка](ssdeep.setup.html)
-    -   [Требования](ssdeep.requirements.html)
+-   [Встановлення та налаштування](ssdeep.setup.html)
+    -   [Вимоги](ssdeep.requirements.html)
     -   [Установка](ssdeep.installation.html)
-    -   [Настройка во время выполнения](ssdeep.configuration.html)
-    -   [Типы ресурсов](ssdeep.resources.html)
--   [Предопределённые константы](ssdeep.constants.html)
+    -   [Налаштування під час виконання](ssdeep.configuration.html)
+    -   [Типи ресурсів](ssdeep.resources.html)
+-   [Обумовлені константи](ssdeep.constants.html)
 -   [Функції ssdeep](ref.ssdeep.html)
     -   [ssdeepfuzzycompare](function.ssdeep-fuzzy-compare.html) — Обчислює схожість двох сигнатур нечітких хешів
     -   [ssdeepfuzzyhashfilename](function.ssdeep-fuzzy-hash-filename.html) — Створення нечіткого хешу із файлу

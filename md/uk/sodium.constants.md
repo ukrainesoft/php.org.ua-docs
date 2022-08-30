@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](sodium.resources.html)
+-   [« Типи ресурсів](sodium.resources.md)
     
--   [Функции Sodium »](ref.sodium.html)
+-   [Функции Sodium »](ref.sodium.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Sodium](book.sodium.html)
+-   [Sodium](book.sodium.md)
     
 -   Обумовлені константи
     

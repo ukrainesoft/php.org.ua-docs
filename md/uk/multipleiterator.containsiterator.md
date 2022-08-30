@@ -1,12 +1,12 @@
 Перевіряє, чи приєднано ітератора.
 
--   [« MultipleIterator::construct](multipleiterator.construct.html)
+-   [« MultipleIterator::construct](multipleiterator.construct.md)
     
--   [MultipleIterator::countIterators »](multipleiterator.countiterators.html)
+-   [MultipleIterator::countIterators »](multipleiterator.countiterators.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MultipleIterator](class.multipleiterator.html)
+-   [MultipleIterator](class.multipleiterator.md)
     
 -   Перевіряє, чи приєднано ітератора.
     
@@ -41,4 +41,4 @@ public MultipleIterator::containsIterator(Iterator $iterator): bool
 
 ### Дивіться також
 
--   [MultipleIterator::valid()](multipleiterator.valid.html) - Перевіряє коректність підитераторів
+-   [MultipleIterator::valid()](multipleiterator.valid.md) - Перевіряє коректність підитераторів

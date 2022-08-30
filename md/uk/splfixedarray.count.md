@@ -1,12 +1,12 @@
 Повертає розмір масиву
 
--   [« SplFixedArray::construct](splfixedarray.construct.html)
+-   [« SplFixedArray::construct](splfixedarray.construct.md)
     
--   [SplFixedArray::current »](splfixedarray.current.html)
+-   [SplFixedArray::current »](splfixedarray.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFixedArray](class.splfixedarray.html)
+-   [SplFixedArray](class.splfixedarray.md)
     
 -   Повертає розмір масиву
     
@@ -56,7 +56,7 @@ echo count($array) . "\n";
 
 > **Зауваження**
 > 
-> Цей метод еквівалентний [SplFixedArray::getSize()](splfixedarray.getsize.html)
+> Цей метод еквівалентний [SplFixedArray::getSize()](splfixedarray.getsize.md)
 
 > **Зауваження**
 > 
@@ -64,4 +64,4 @@ echo count($array) . "\n";
 
 ### Дивіться також
 
--   [SplFixedArray::getSize()](splfixedarray.getsize.html) - Отримує розмір масиву
+-   [SplFixedArray::getSize()](splfixedarray.getsize.md) - Отримує розмір масиву

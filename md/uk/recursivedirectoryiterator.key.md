@@ -1,12 +1,12 @@
 Повертає шлях та ім'я файлу поточного елемента
 
--   [« RecursiveDirectoryIterator::hasChildren](recursivedirectoryiterator.haschildren.html)
+-   [« RecursiveDirectoryIterator::hasChildren](recursivedirectoryiterator.haschildren.md)
     
--   [RecursiveDirectoryIterator::next »](recursivedirectoryiterator.next.html)
+-   [RecursiveDirectoryIterator::next »](recursivedirectoryiterator.next.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.html)
+-   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
     
 -   Повертає шлях та ім'я файлу поточного елемента
     

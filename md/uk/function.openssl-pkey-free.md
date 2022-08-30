@@ -45,7 +45,7 @@ openssl_pkey_free(OpenSSLAsymmetricKey $key): void
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                     |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Функція застаріла, оскільки не має сенсу.                                                                                                                                    |
-|        | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла, оскільки не має сенсу. |
+|  | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` |

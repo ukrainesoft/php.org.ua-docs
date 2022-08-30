@@ -1,12 +1,12 @@
 Отримує вузол із заданим локальним ім'ям та URI простору імен
 
--   [« DOMNamedNodeMap::getNamedItem](domnamednodemap.getnameditem.html)
+-   [« DOMNamedNodeMap::getNamedItem](domnamednodemap.getnameditem.md)
     
--   [DOMNamedNodeMap::item »](domnamednodemap.item.html)
+-   [DOMNamedNodeMap::item »](domnamednodemap.item.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMNamedNodeMap](class.domnamednodemap.html)
+-   [DOMNamedNodeMap](class.domnamednodemap.md)
     
 -   Отримує вузол із заданим локальним ім'ям та URI простору імен
     
@@ -41,4 +41,4 @@ URI простору імен шуканого вузла.
 
 ### Дивіться також
 
--   [DOMNamedNodeMap::getNamedItem()](domnamednodemap.getnameditem.html) - Отримує вузол, вказаний на ім'я
+-   [DOMNamedNodeMap::getNamedItem()](domnamednodemap.getnameditem.md) - Отримує вузол, вказаний на ім'я

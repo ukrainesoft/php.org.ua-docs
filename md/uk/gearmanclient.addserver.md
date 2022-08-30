@@ -1,12 +1,12 @@
 Додати сервер завдань для клієнта
 
--   [« GearmanClient::addOptions](gearmanclient.addoptions.html)
+-   [« GearmanClient::addOptions](gearmanclient.addoptions.md)
     
--   [GearmanClient::addServers »](gearmanclient.addservers.html)
+-   [GearmanClient::addServers »](gearmanclient.addservers.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanClient](class.gearmanclient.html)
+-   [GearmanClient](class.gearmanclient.md)
     
 -   Додати сервер завдань для клієнта
     
@@ -58,4 +58,4 @@ $gmclient->addServer("10.0.0.2", 7003);
 
 ### Дивіться також
 
--   [GearmanClient::addServers()](gearmanclient.addservers.html) - Додати список серверів завдань для клієнта
+-   [GearmanClient::addServers()](gearmanclient.addservers.md) - Додати список серверів завдань для клієнта

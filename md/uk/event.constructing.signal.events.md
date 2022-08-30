@@ -1,19 +1,19 @@
 Створення подій для сигналів
 
--   [« Callback-функции](event.callbacks.html)
+-   [« Callback-функции](event.callbacks.md)
     
--   [Event »](class.event.html)
+-   [Event »](class.event.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](book.event.html)
+-   [Event](book.event.md)
     
 -   Створення подій для сигналів
     
 
 # Створення подій для сигналів
 
-Event може відстежувати сигнали у стилі POSIX. Для створення обробника сигналу використовуйте конструктор [Event::construct()](event.construct.html) з прапором **`Event::SIGNAL`** або фабричний метод [Event::signal()](event.signal.html)
+Event може відстежувати сигнали у стилі POSIX. Для створення обробника сигналу використовуйте конструктор [Event::construct()](event.construct.md) з прапором **`Event::SIGNAL`** або фабричний метод [Event::signal()](event.signal.md)
 
 **Приклад #1 Обробка сигналу `SIGTERM`**
 

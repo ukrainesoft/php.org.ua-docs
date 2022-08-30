@@ -1,12 +1,12 @@
 Створює копію зображення
 
--   [« Imagick::identifyImage](imagick.identifyimage.html)
+-   [« Imagick::identifyImage](imagick.identifyimage.md)
     
--   [Imagick::importImagePixels »](imagick.importimagepixels.html)
+-   [Imagick::importImagePixels »](imagick.importimagepixels.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Створює копію зображення
     

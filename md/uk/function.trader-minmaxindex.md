@@ -4,9 +4,9 @@
     
 -   [traderminusdi »](function.trader-minus-di.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Індекси найнижчих та найвищих значень за вказаний період
     

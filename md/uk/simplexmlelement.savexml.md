@@ -1,12 +1,12 @@
 Псевдонім SimpleXMLElement::asXML
 
--   [« SimpleXMLElement::registerXPathNamespace](simplexmlelement.registerxpathnamespace.html)
+-   [« SimpleXMLElement::registerXPathNamespace](simplexmlelement.registerxpathnamespace.md)
     
--   [SimpleXMLElement::toString »](simplexmlelement.tostring.html)
+-   [SimpleXMLElement::toString »](simplexmlelement.tostring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXMLElement](class.simplexmlelement.html)
+-   [SimpleXMLElement](class.simplexmlelement.md)
     
 -   Псевдонім SimpleXMLElement::asXML
     
@@ -15,8 +15,8 @@
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-SimpleXMLElement::saveXML — Псевдонім [SimpleXMLElement::asXML()](simplexmlelement.asxml.html)
+SimpleXMLElement::saveXML — Псевдонім [SimpleXMLElement::asXML()](simplexmlelement.asxml.md)
 
 ### Опис
 
-Цей метод є псевдонімом: [SimpleXMLElement::asXML()](simplexmlelement.asxml.html)
+Цей метод є псевдонімом: [SimpleXMLElement::asXML()](simplexmlelement.asxml.md)

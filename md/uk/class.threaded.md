@@ -1,12 +1,12 @@
 Клас Threaded
 
--   [« Предопределённые константы](pthreads.constants.html)
+-   [« Обумовлені константи](pthreads.constants.md)
     
--   [Threaded::chunk »](threaded.chunk.html)
+-   [Threaded::chunk »](threaded.chunk.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [pthreads](book.pthreads.html)
+-   [pthreads](book.pthreads.md)
     
 -   Клас Threaded
     
@@ -57,16 +57,16 @@ public wait(int $timeout = ?): bool
 
 ## Зміст
 
--   [Threaded::chunk](threaded.chunk.html) - Обробка
--   [Threaded::count](threaded.count.html) - Обробка
--   [Threaded::extend](threaded.extend.html) - Обробка під час виконання
--   [Threaded::isRunning](thread.isrunning.html) — Визначення стану
--   [Threaded::isTerminated](threaded.isterminated.html) — Визначення стану
--   [Threaded::merge](threaded.merge.html) - Обробка
--   [Threaded::notify](threaded.notify.html) - Синхронізація
--   [Threaded::notifyOne](threaded.notifyone.html) - Синхронізація
--   [Threaded::pop](threaded.pop.html) - Обробка
--   [Threaded::run](threaded.run.html) - Виконання
--   [Threaded::shift](threaded.shift.html) - Обробка
--   [Threaded::synchronized](threaded.synchronized.html) - Синхронізація
--   [Threaded::wait](threaded.wait.html) - Синхронізація
+-   [Threaded::chunk](threaded.chunk.md) - Обробка
+-   [Threaded::count](threaded.count.md) - Обробка
+-   [Threaded::extend](threaded.extend.md) - Обробка під час виконання
+-   [Threaded::isRunning](thread.isrunning.md) — Визначення стану
+-   [Threaded::isTerminated](threaded.isterminated.md) — Визначення стану
+-   [Threaded::merge](threaded.merge.md) - Обробка
+-   [Threaded::notify](threaded.notify.md) - Синхронізація
+-   [Threaded::notifyOne](threaded.notifyone.md) - Синхронізація
+-   [Threaded::pop](threaded.pop.md) - Обробка
+-   [Threaded::run](threaded.run.md) - Виконання
+-   [Threaded::shift](threaded.shift.md) - Обробка
+-   [Threaded::synchronized](threaded.synchronized.md) - Синхронізація
+-   [Threaded::wait](threaded.wait.md) - Синхронізація

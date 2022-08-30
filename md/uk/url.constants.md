@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](url.resources.html)
+-   [« Типи ресурсів](url.resources.md)
     
--   [Опції URL »](ref.url.html)
+-   [Опції URL »](ref.url.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [URL](book.url.html)
+-   [URL](book.url.md)
     
 -   Обумовлені константи
     

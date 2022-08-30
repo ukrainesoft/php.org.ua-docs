@@ -1,12 +1,12 @@
 Встановлює гаму зображення
 
--   [« Gmagick::setimageformat](gmagick.setimageformat.html)
+-   [« Gmagick::setimageformat](gmagick.setimageformat.md)
     
--   [Gmagick::setimagegreenprimary »](gmagick.setimagegreenprimary.html)
+-   [Gmagick::setimagegreenprimary »](gmagick.setimagegreenprimary.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Встановлює гаму зображення
     
@@ -33,7 +33,7 @@ public Gmagick::setimagegamma(float $gamma): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

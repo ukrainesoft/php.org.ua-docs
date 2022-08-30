@@ -1,12 +1,12 @@
 Отримує стан з'єднання zookeeper
 
--   [« Zookeeper::getRecvTimeout](zookeeper.getrecvtimeout.html)
+-   [« Zookeeper::getRecvTimeout](zookeeper.getrecvtimeout.md)
     
--   [Zookeeper::isRecoverable »](zookeeper.isrecoverable.html)
+-   [Zookeeper::isRecoverable »](zookeeper.isrecoverable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Zookeeper](class.zookeeper.html)
+-   [Zookeeper](class.zookeeper.md)
     
 -   Отримує стан з'єднання zookeeper
     
@@ -38,12 +38,12 @@ public
 
 **Застереження**
 
-Починаючи з версії 0.3.0 цей метод генерує виняток [ZookeeperException](class.zookeeperexception.html) та його похідні.
+Починаючи з версії 0.3.0 цей метод генерує виняток [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Дивіться також
 
--   [Zookeeper::construct()](zookeeper.construct.html) - Створює дескриптор для спілкування з zookeeper
--   [Zookeeper::connect()](zookeeper.connect.html) - Створює дескриптор для спілкування з zookeeper
--   [Zookeeper::getClientId()](zookeeper.getclientid.html) - Повертає ідентифікатор сесії клієнта, дійсний тільки в тому випадку, якщо підключення в даний час підключено (тобто останній стан спостерігача - ZOOCONNECTEDSTATE)
+-   [Zookeeper::construct()](zookeeper.construct.md) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::connect()](zookeeper.connect.md) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::getClientId()](zookeeper.getclientid.md) - Повертає ідентифікатор сесії клієнта, дійсний тільки в тому випадку, якщо підключення в даний час підключено (тобто останній стан спостерігача - ZOOCONNECTEDSTATE)
 -   [Стан ZooKeeper](class.zookeeper.html#zookeeper.class.constants.states)
--   [ZookeeperException](class.zookeeperexception.html)
+-   [ZookeeperException](class.zookeeperexception.md)

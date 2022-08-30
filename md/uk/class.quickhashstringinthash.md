@@ -1,12 +1,12 @@
 Клас QuickHashStringIntHash
 
--   [« QuickHashIntHash::update](quickhashinthash.update.html)
+-   [« QuickHashIntHash::update](quickhashinthash.update.md)
     
--   [QuickHashStringIntHash::add »](quickhashstringinthash.add.html)
+-   [QuickHashStringIntHash::add »](quickhashstringinthash.add.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Quickhash](book.quickhash.html)
+-   [Quickhash](book.quickhash.md)
     
 -   Клас QuickHashStringIntHash
     
@@ -17,9 +17,9 @@
 
 ## Вступ
 
-Клас-обгортка для хеш-таблиці з рядковими ключами та значеннями, що є цілими числами. Також реалізує інтерфейс [ArrayAccess](class.arrayaccess.html)
+Клас-обгортка для хеш-таблиці з рядковими ключами та значеннями, що є цілими числами. Також реалізує інтерфейс [ArrayAccess](class.arrayaccess.md)
 
-Клас реалізує інтерфейс [Iterator](class.iterator.html)що дає можливість перебору за допомогою конструкції [`foreach`](control-structures.foreach.html). Порядок проходження елементів не гарантується.
+Клас реалізує інтерфейс [Iterator](class.iterator.md)що дає можливість перебору за допомогою конструкції [`foreach`](control-structures.foreach.html). Порядок проходження елементів не гарантується.
 
 ## Огляд класів
 
@@ -66,7 +66,7 @@ public update(string $key, int $value): bool
 
 **`QuickHashIntHash::CHECK_FOR_DUPES`**
 
-Якщо увімкнено, то додавання повторюваних елементів до набору (за допомогою методів [QuickHashStringIntHash::add()](quickhashstringinthash.add.html) або [QuickHashStringIntHash::loadFromFile()](quickhashstringinthash.loadfromfile.html)) призведе до відкидання цих елементів. Ця функціональність дещо уповільнює роботу, так що має використовуватися лише якщо дійсно необхідний.
+Якщо увімкнено, то додавання повторюваних елементів до набору (за допомогою методів [QuickHashStringIntHash::add()](quickhashstringinthash.add.md) або [QuickHashStringIntHash::loadFromFile()](quickhashstringinthash.loadfromfile.md)) призведе до відкидання цих елементів. Ця функціональність дещо уповільнює роботу, так що має використовуватися лише якщо дійсно необхідний.
 
 **`QuickHashIntHash::DO_NOT_USE_ZEND_ALLOC`**
 
@@ -74,15 +74,15 @@ public update(string $key, int $value): bool
 
 ## Зміст
 
--   [QuickHashStringIntHash::add](quickhashstringinthash.add.html) — Метод додає новий запис у хеш
--   [QuickHashStringIntHash::construct](quickhashstringinthash.construct.html) — Створює новий об'єкт QuickHashStringIntHash
--   [QuickHashStringIntHash::delete](quickhashstringinthash.delete.html) — Метод видаляє запис із хешу
--   [QuickHashStringIntHash::exists](quickhashstringinthash.exists.html) — Метод перевіряє, чи є ключ частиною хешу
--   [QuickHashStringIntHash::get](quickhashstringinthash.get.html) — Метод отримує значення з хеша за його ключем.
--   [QuickHashStringIntHash::getSize](quickhashstringinthash.getsize.html) — Повертає кількість елементів у хеші
--   [QuickHashStringIntHash::loadFromFile](quickhashstringinthash.loadfromfile.html) — Фабричний метод створює хеш із файлу
--   [QuickHashStringIntHash::loadFromString](quickhashstringinthash.loadfromstring.html) — Фабричний метод створює хеш із рядка
--   [QuickHashStringIntHash::saveToFile](quickhashstringinthash.savetofile.html) — Метод зберігає хеш у пам'яті на диску
--   [QuickHashStringIntHash::saveToString](quickhashstringinthash.savetostring.html) — Метод повертає серіалізовану версію хешу
--   [QuickHashStringIntHash::set](quickhashstringinthash.set.html) — Метод оновлює запис у хеші новим значенням або додає новий, якщо запис не існує
--   [QuickHashStringIntHash::update](quickhashstringinthash.update.html) — Метод оновлює запис у хеші новим значенням
+-   [QuickHashStringIntHash::add](quickhashstringinthash.add.md) — Метод додає новий запис у хеш
+-   [QuickHashStringIntHash::construct](quickhashstringinthash.construct.md) — Створює новий об'єкт QuickHashStringIntHash
+-   [QuickHashStringIntHash::delete](quickhashstringinthash.delete.md) — Метод видаляє запис із хешу
+-   [QuickHashStringIntHash::exists](quickhashstringinthash.exists.md) — Метод перевіряє, чи є ключ частиною хешу
+-   [QuickHashStringIntHash::get](quickhashstringinthash.get.md) — Метод отримує значення з хеша за його ключем.
+-   [QuickHashStringIntHash::getSize](quickhashstringinthash.getsize.md) — Повертає кількість елементів у хеші
+-   [QuickHashStringIntHash::loadFromFile](quickhashstringinthash.loadfromfile.md) — Фабричний метод створює хеш із файлу
+-   [QuickHashStringIntHash::loadFromString](quickhashstringinthash.loadfromstring.md) — Фабричний метод створює хеш із рядка
+-   [QuickHashStringIntHash::saveToFile](quickhashstringinthash.savetofile.md) — Метод зберігає хеш у пам'яті на диску
+-   [QuickHashStringIntHash::saveToString](quickhashstringinthash.savetostring.md) — Метод повертає серіалізовану версію хешу
+-   [QuickHashStringIntHash::set](quickhashstringinthash.set.md) — Метод оновлює запис у хеші новим значенням або додає новий, якщо запис не існує
+-   [QuickHashStringIntHash::update](quickhashstringinthash.update.md) — Метод оновлює запис у хеші новим значенням

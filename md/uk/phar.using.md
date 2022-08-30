@@ -1,6 +1,6 @@
 Використання Phar-архівів
 
--   [« Предопределённые константы](phar.constants.html)
+-   [« Обумовлені константи](phar.constants.html)
     
 -   [Использование Phar-архивов: Введение »](phar.using.intro.html)
     
@@ -17,4 +17,4 @@
 
 -   [Использование Phar-архивов: Введение](phar.using.intro.html)
 -   [Использование Phar-архивов: обёртка потока phar](phar.using.stream.html)
--   [Использование Phar-архивов: классы Phar и PharData](phar.using.object.html)
+-   [Використання Phar-архівів: класи Phar та PharData](phar.using.object.html)

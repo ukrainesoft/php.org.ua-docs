@@ -2,11 +2,11 @@
 
 -   [« fileputcontents](function.file-put-contents.html)
     
--   [fileatime »](function.fileatime.html)
+-   [fileatime »](function.fileatime.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Читає вміст файлу та поміщає його в масив
     
@@ -37,7 +37,7 @@ file(string $filename, int $flags = 0, ?resource $context = null): array|false
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.html)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 `flags`
 
@@ -57,7 +57,7 @@ file(string $filename, int $flags = 0, ?resource $context = null): array|false
 
 `context`
 
-Ресурс (resource) з [контекстом потоку](stream.contexts.html)
+Ресурс (resource) з [контекстом потоку](stream.contexts.md)
 
 ### Значення, що повертаються
 
@@ -79,11 +79,11 @@ file(string $filename, int $flags = 0, ?resource $context = null): array|false
 
 ```php
 <?php
-// Получает содержимое файла в виде массива. В данном примере мы используем
+// Получает содержимое файла в виде Масива. В данном примере мы используем
 // обращение по протоколу HTTP для получения HTML-кода с удалённого сервера.
 $lines = file('http://www.example.com/');
 
-// Осуществим проход массива и выведем содержимое в виде HTML-кода вместе с номерами строк.
+// Осуществим проход Масива и выведем содержимое в виде HTML-кода вместе с номерами строк.
 foreach ($lines as $line_num => $line) {
     echo "Строка #<b>{$line_num}</b> : " . htmlspecialchars($line) . "<br />\n";
 }
@@ -97,14 +97,14 @@ $trimmed = file('somefile.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LIN
 
 **Увага**
 
-При використанні SSL Microsoft IIS порушує протокол, закриваючи з'єднання без надсилання індикатора `close_notify`. PHP повідомить про це як "SSL: Fatal Protocol Error" в той момент, коли ви досягнете кінця даних. Щоб обійти це, ви повинні встановити [errorreporting](errorfunc.configuration.html#ini.error-reporting) на рівень, що виключає EWARNING. PHP вміє визначати, що на стороні сервера перебуває проблемний IIS при відкритті потоку за допомогою обгортки `https://` та не виводить попередження. Якщо ви використовуєте [fsockopen()](function.fsockopen.html) для створення `ssl://` сокету, ви самі відповідаєте за визначення та придушення цього попередження.
+При використанні SSL Microsoft IIS порушує протокол, закриваючи з'єднання без надсилання індикатора `close_notify`. PHP повідомить про це як "SSL: Fatal Protocol Error" в той момент, коли ви досягнете кінця даних. Щоб обійти це, ви повинні встановити [errorreporting](errorfunc.configuration.html#ini.error-reporting) на рівень, що виключає EWARNING. PHP вміє визначати, що на стороні сервера перебуває проблемний IIS при відкритті потоку за допомогою обгортки `https://` та не виводить попередження. Якщо ви використовуєте [fsockopen()](function.fsockopen.md) для створення `ssl://` сокету, ви самі відповідаєте за визначення та придушення цього попередження.
 
 ### Дивіться також
 
 -   [filegetcontents()](function.file-get-contents.html) - Читає вміст файлу в рядок
--   [readfile()](function.readfile.html) - Виводить файл
--   [fopen()](function.fopen.html) - Відкриває файл або URL
--   [fsockopen()](function.fsockopen.html) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [popen()](function.popen.html) - Відкриває файловий покажчик процесу
--   [include](function.include.html) - include
+-   [readfile()](function.readfile.md) - Виводить файл
+-   [fopen()](function.fopen.md) - Відкриває файл або URL
+-   [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [popen()](function.popen.md) - Відкриває файловий покажчик процесу
+-   [include](function.include.md) - include
 -   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку

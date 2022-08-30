@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](eio.requirements.html)
+-   [« Вимоги](eio.requirements.html)
     
--   [Настройка во время выполнения »](eio.configuration.html)
+-   [Налаштування під час виконання »](eio.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](eio.setup.html)
+-   [Встановлення та налаштування](eio.setup.html)
     
 -   Встановлення
     

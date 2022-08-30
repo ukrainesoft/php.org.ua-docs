@@ -4,7 +4,7 @@
     
 -   [SwooleChannel::destruct »](swoole-channel.destruct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleChannel](class.swoole-channel.html)
     

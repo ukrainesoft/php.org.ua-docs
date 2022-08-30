@@ -4,7 +4,7 @@
     
 -   [XMLDiffMemory::merge »](xmldiff-memory.merge.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [XMLDiffMemory](class.xmldiff-memory.html)
     

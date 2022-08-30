@@ -1,6 +1,6 @@
 Приклади
 
--   [« Предопределённые константы](pcntl.constants.html)
+-   [« Обумовлені константи](pcntl.constants.html)
     
 -   [Базовое применение »](pcntl.example.html)
     

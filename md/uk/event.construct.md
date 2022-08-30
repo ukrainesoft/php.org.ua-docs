@@ -1,12 +1,12 @@
 Конструктор об'єкту Event
 
--   [« Event::addTimer](event.addtimer.html)
+-   [« Event::addTimer](event.addtimer.md)
     
--   [Event::del »](event.del.html)
+-   [Event::del »](event.del.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](class.event.html)
+-   [Event](class.event.md)
     
 -   Конструктор об'єкту Event
     
@@ -54,11 +54,11 @@ public
 
 `what`
 
-Дивіться [Флаги событий](event.flags.html)
+Дивіться [Прапори подій](event.flags.md)
 
 `cb`
 
-Функція зворотного дзвінка. Дивіться [Функції зворотного дзвінка для подій](event.callbacks.html)
+Функція зворотного дзвінка. Дивіться [Функції зворотного дзвінка для подій](event.callbacks.md)
 
 `arg`
 
@@ -70,5 +70,5 @@ public
 
 ### Дивіться також
 
--   [Event::signal()](event.signal.html) - Створити об'єкт події сигналу
--   [Event::timer()](event.timer.html) - Створити об'єкт події таймера
+-   [Event::signal()](event.signal.md) - Створити об'єкт події сигналу
+-   [Event::timer()](event.timer.md) - Створити об'єкт події таймера

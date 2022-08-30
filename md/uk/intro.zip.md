@@ -2,7 +2,7 @@
 
 -   [« Zip](book.zip.html)
     
--   [Установка и настройка »](zip.setup.html)
+-   [Встановлення та налаштування »](zip.setup.html)
     
 -   [PHP Manual](index.html)
     

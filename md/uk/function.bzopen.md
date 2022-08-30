@@ -1,12 +1,12 @@
 Відкриває файл, стислий за допомогою bzip2
 
--   [« bzflush](function.bzflush.html)
+-   [« bzflush](function.bzflush.md)
     
--   [bzread »](function.bzread.html)
+-   [bzread »](function.bzread.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Bzip2](ref.bzip2.html)
+-   [Функції Bzip2](ref.bzip2.md)
     
 -   Відкриває файл, стислий за допомогою bzip2
     
@@ -56,4 +56,4 @@ bzclose($bz);
 
 ### Дивіться також
 
--   [bzclose()](function.bzclose.html) - Закриває файл bzip2
+-   [bzclose()](function.bzclose.md) - Закриває файл bzip2

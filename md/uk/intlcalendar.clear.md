@@ -1,12 +1,12 @@
 Очищає поле чи всі поля
 
--   [« IntlCalendar::before](intlcalendar.before.html)
+-   [« IntlCalendar::before](intlcalendar.before.md)
     
--   [IntlCalendar::construct »](intlcalendar.construct.html)
+-   [IntlCalendar::construct »](intlcalendar.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Очищає поле чи всі поля
     
@@ -37,11 +37,11 @@ intlcal_clear(IntlCalendar $calendar, ?int $field = null): bool
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `field`
 
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.html) [констант](class.intlcalendar.html#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.html#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
 
 ### Значення, що повертаються
 

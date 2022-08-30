@@ -4,7 +4,7 @@
     
 -   [ОЙControlsSlider »](class.ui-controls-slider.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsSpin](class.ui-controls-spin.html)
     

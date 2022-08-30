@@ -1,12 +1,12 @@
 Визначає, чи є поточний елемент масивом чи об'єктом
 
--   [« RecursiveArrayIterator::getChildren](recursivearrayiterator.getchildren.html)
+-   [« RecursiveArrayIterator::getChildren](recursivearrayiterator.getchildren.md)
     
--   [RecursiveCachingIterator »](class.recursivecachingiterator.html)
+-   [RecursiveCachingIterator »](class.recursivecachingiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveArrayIterator](class.recursivearrayiterator.html)
+-   [RecursiveArrayIterator](class.recursivearrayiterator.md)
     
 -   Визначає, чи є поточний елемент масивом чи об'єктом
     
@@ -23,7 +23,7 @@ RecursiveArrayIterator::hasChildren — Визначає, чи є поточни
 public RecursiveArrayIterator::hasChildren(): bool
 ```
 
-Визначає, чи поточний елемент є масивом (array) або об'єктом (object). Ці відомості необхідно перевіряти, перш ніж викликати метод [RecursiveArrayIterator::getChildren()](recursivearrayiterator.getchildren.html)
+Визначає, чи поточний елемент є масивом (array) або об'єктом (object). Ці відомості необхідно перевіряти, перш ніж викликати метод [RecursiveArrayIterator::getChildren()](recursivearrayiterator.getchildren.md)
 
 ### Список параметрів
 
@@ -71,4 +71,4 @@ p : pear
 
 ### Дивіться також
 
--   [RecursiveArrayIterator::getChildren()](recursivearrayiterator.getchildren.html) - Повертає ітератор для поточного елемента, якщо елемент є масивом (array) або об'єктом (object)
+-   [RecursiveArrayIterator::getChildren()](recursivearrayiterator.getchildren.md) - Повертає ітератор для поточного елемента, якщо елемент є масивом (array) або об'єктом (object)

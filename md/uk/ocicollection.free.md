@@ -1,12 +1,12 @@
 Звільняє ресурси, які займає об'єкт колекції
 
--   [« OCICollection::assignElem](ocicollection.assignelem.html)
+-   [« OCICollection::assignElem](ocicollection.assignelem.md)
     
--   [OCICollection::getElem »](ocicollection.getelem.html)
+-   [OCICollection::getElem »](ocicollection.getelem.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCICollection](class.ocicollection.html)
+-   [OCICollection](class.ocicollection.md)
     
 -   Звільняє ресурси, які займає об'єкт колекції
     
@@ -35,9 +35,9 @@ public OCICollection::free(): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                                                     |
-|------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Collection** перейменований на [OCICollection](class.ocicollection.html) відповідно до стандартів іменування PHP. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Collection** перейменований на [OCICollection](class.ocicollection.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 

@@ -4,9 +4,9 @@
     
 -   [tradercdlshootingstar »](function.trader-cdlshootingstar.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Поділ
     

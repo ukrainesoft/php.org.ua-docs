@@ -1,12 +1,12 @@
 Перевіряє, чи визначено властивість у конструкторі
 
--   [« ReflectionProperty::isPrivate](reflectionproperty.isprivate.html)
+-   [« ReflectionProperty::isPrivate](reflectionproperty.isprivate.md)
     
--   [ReflectionProperty::isProtected »](reflectionproperty.isprotected.html)
+-   [ReflectionProperty::isProtected »](reflectionproperty.isprotected.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionProperty](class.reflectionproperty.html)
+-   [ReflectionProperty](class.reflectionproperty.md)
     
 -   Перевіряє, чи визначено властивість у конструкторі
     
@@ -63,6 +63,6 @@ bool(false)
 
 ### Дивіться також
 
--   [ReflectionProperty::isDefault()](reflectionproperty.isdefault.html) - Перевіряє, чи є значення властивістю за умовчанням
--   [ReflectionProperty::isInitialized()](reflectionproperty.isinitialized.html) - Перевірити, чи ініціалізована властивість
--   [ReflectionProperty::getValue()](reflectionproperty.getvalue.html) - набуває значення
+-   [ReflectionProperty::isDefault()](reflectionproperty.isdefault.md) - Перевіряє, чи є значення властивістю за умовчанням
+-   [ReflectionProperty::isInitialized()](reflectionproperty.isinitialized.md) - Перевірити, чи ініціалізована властивість
+-   [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) - набуває значення

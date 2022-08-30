@@ -1,12 +1,12 @@
 Встановити максимальну довжину рядка
 
--   [« SplFileObject::setFlags](splfileobject.setflags.html)
+-   [« SplFileObject::setFlags](splfileobject.setflags.md)
     
--   [SplFileObject::toString »](splfileobject.tostring.html)
+-   [SplFileObject::toString »](splfileobject.tostring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileObject](class.splfileobject.html)
+-   [SplFileObject](class.splfileobject.md)
     
 -   Встановити максимальну довжину рядка
     
@@ -37,7 +37,7 @@ public SplFileObject::setMaxLineLen(int $maxLength): void
 
 ### Помилки
 
-Викидає [DomainException](class.domainexception.html), якщо значення `maxLength` меньше нуля.
+Викидає [DomainException](class.domainexception.md), якщо значення `maxLength` меньше нуля.
 
 ### Приклади
 
@@ -75,4 +75,4 @@ consequat.
 
 ### Дивіться також
 
--   [SplFileObject::getMaxLineLen()](splfileobject.getmaxlinelen.html) - Отримати максимальну довжину рядка
+-   [SplFileObject::getMaxLineLen()](splfileobject.getmaxlinelen.md) - Отримати максимальну довжину рядка

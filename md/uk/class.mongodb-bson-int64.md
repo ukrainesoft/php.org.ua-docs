@@ -4,9 +4,9 @@
     
 -   [MongoDBBSONInt64::construct »](mongodb-bson-int64.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBBSON](book.bson.html)
+-   [MongoDBBSON](book.bson.md)
     
 -   Клас MongoDBBSONInt64
     
@@ -52,9 +52,9 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия              | Описание                                                             |
-|---------------------|----------------------------------------------------------------------|
-| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+. |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
 
 ## Зміст
 

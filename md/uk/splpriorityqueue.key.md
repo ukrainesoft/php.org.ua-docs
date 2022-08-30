@@ -1,12 +1,12 @@
 Повертає індекс поточного вузла
 
--   [« SplPriorityQueue::isEmpty](splpriorityqueue.isempty.html)
+-   [« SplPriorityQueue::isEmpty](splpriorityqueue.isempty.md)
     
--   [SplPriorityQueue::next »](splpriorityqueue.next.html)
+-   [SplPriorityQueue::next »](splpriorityqueue.next.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplPriorityQueue](class.splpriorityqueue.html)
+-   [SplPriorityQueue](class.splpriorityqueue.md)
     
 -   Повертає індекс поточного вузла
     

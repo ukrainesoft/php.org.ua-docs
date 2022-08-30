@@ -4,9 +4,9 @@
     
 -   [пгresulterror »](function.pg-result-error.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PostgreSQL](ref.pgsql.html)
+-   [Функции PostgreSQL](ref.pgsql.md)
     
 -   Повертає конкретне поле зі звіту про помилки
     
@@ -45,9 +45,9 @@ pg_result_error_field(PgSql\Result $result, int $field_code): string|false|null
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

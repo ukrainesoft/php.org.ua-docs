@@ -1,34 +1,34 @@
 Інформація про файл
 
--   [« scandir](function.scandir.html)
+-   [« scandir](function.scandir.md)
     
--   [Введение »](intro.fileinfo.html)
+-   [Введение »](intro.fileinfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модулі для роботи з файловою системою](refs.fileprocess.file.html)
+-   [Модулі для роботи з файловою системою](refs.fileprocess.file.md)
     
 -   Інформація про файл
     
 
 # Інформація про файл
 
--   [Введение](intro.fileinfo.html)
--   [Установка и настройка](fileinfo.setup.html)
-    -   [Требования](fileinfo.requirements.html)
-    -   [Установка](fileinfo.installation.html)
-    -   [Настройка во время выполнения](fileinfo.configuration.html)
-    -   [Типы ресурсов](fileinfo.resources.html)
--   [Предопределённые константы](fileinfo.constants.html)
--   [Функции модуля Fileinfo](ref.fileinfo.html)
+-   [Введение](intro.fileinfo.md)
+-   [Встановлення та налаштування](fileinfo.setup.md)
+    -   [Вимоги](fileinfo.requirements.md)
+    -   [Установка](fileinfo.installation.md)
+    -   [Налаштування під час виконання](fileinfo.configuration.md)
+    -   [Типи ресурсів](fileinfo.resources.md)
+-   [Обумовлені константи](fileinfo.constants.md)
+-   [Функции модуля Fileinfo](ref.fileinfo.md)
     -   [finfobuffer](function.finfo-buffer.html) — Повертає інформацію про рядок буфера
     -   [finfoclose](function.finfo-close.html) - Закриває екземпляр finfo
     -   [finfofile](function.finfo-file.html) — Повертає інформацію про файл
     -   [finfoopen](function.finfo-open.html) - Створює екземпляр finfo
     -   [finfosetflags](function.finfo-set-flags.html) — Встановлює параметри конфігурації libmagic
     -   [mimecontenttype](function.mime-content-type.html) - Визначає MIME-тип вмісту файлу
--   [finfo](class.finfo.html) - Клас finfo
-    -   [finfo::buffer](finfo.buffer.html) - Псевдонім finfobuffer()
-    -   [finfo::construct](finfo.construct.html) - Псевдонім finfoopen
-    -   [finfo::file](finfo.file.html) - Псевдонім finfofile()
+-   [finfo](class.finfo.md) - Клас finfo
+    -   [finfo::buffer](finfo.buffer.md) - Псевдонім finfobuffer()
+    -   [finfo::construct](finfo.construct.md) - Псевдонім finfoopen
+    -   [finfo::file](finfo.file.md) - Псевдонім finfofile()
     -   [finfo::setflags](finfo.set-flags.html) - Псевдонім finfosetflags()

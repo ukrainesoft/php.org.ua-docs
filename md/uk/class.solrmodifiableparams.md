@@ -1,12 +1,12 @@
 Клас SolrModifiableParams
 
--   [« SolrParams::unserialize](solrparams.unserialize.html)
+-   [« SolrParams::unserialize](solrparams.unserialize.md)
     
--   [SolrModifiableParams::construct »](solrmodifiableparams.construct.html)
+-   [SolrModifiableParams::construct »](solrmodifiableparams.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Solr](book.solr.html)
+-   [Solr](book.solr.md)
     
 -   Клас SolrModifiableParams
     
@@ -65,5 +65,5 @@ final public SolrParams::unserialize(string $serialized): void
 
 ## Зміст
 
--   [SolrModifiableParams::construct](solrmodifiableparams.construct.html) - Конструктор
--   [SolrModifiableParams::destruct](solrmodifiableparams.destruct.html) - Деструктор
+-   [SolrModifiableParams::construct](solrmodifiableparams.construct.md) - Конструктор
+-   [SolrModifiableParams::destruct](solrmodifiableparams.destruct.md) - Деструктор

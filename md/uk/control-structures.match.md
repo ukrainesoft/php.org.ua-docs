@@ -4,7 +4,7 @@ match
     
 -   [declare »](control-structures.declare.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Управляющие конструкции](language.control-structures.html)
     
@@ -101,7 +101,7 @@ $expressionResult = match ($condition) {
 
 > **Зауваження**: Використання декількох шаблонів default призведе до фатальної помилки **`E_FATAL_ERROR`**
 
-Вираз `match` має бути вичерпним. Якщо вираз, що перевіряється, не співпав з жодною з умов, то буде викинуто виняток [UnhandledMatchError](class.unhandledmatcherror.html)
+Вираз `match` має бути вичерпним. Якщо вираз, що перевіряється, не співпав з жодною з умов, то буде викинуто виняток [UnhandledMatchError](class.unhandledmatcherror.md)
 
 **Приклад #3 Приклад необробленого виразу**
 

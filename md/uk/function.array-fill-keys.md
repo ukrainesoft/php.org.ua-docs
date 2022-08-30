@@ -4,9 +4,9 @@
     
 -   [arrayfill »](function.array-fill.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Створює масив та заповнює його значеннями з певними ключами
     

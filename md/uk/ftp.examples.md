@@ -1,6 +1,6 @@
 Приклади
 
--   [« Предопределённые константы](ftp.constants.html)
+-   [« Обумовлені константи](ftp.constants.html)
     
 -   [Простое использование »](ftp.examples-basic.html)
     

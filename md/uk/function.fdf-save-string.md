@@ -4,9 +4,9 @@
     
 -   [fdfsave »](function.fdf-save.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Повертає документ FDF у вигляді рядка
     

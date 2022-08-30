@@ -1,12 +1,12 @@
 Створити виняток
 
--   [« Exception](class.exception.html)
+-   [« Exception](class.exception.md)
     
--   [Exception::getMessage »](exception.getmessage.html)
+-   [Exception::getMessage »](exception.getmessage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Exception](class.exception.html)
+-   [Exception](class.exception.md)
     
 -   Створити виняток
     
@@ -19,7 +19,7 @@ Exception::construct — Створити виняток
 
 ### Опис
 
-public **Exception::construct**(string `$message` = "", int `$code` [Throwable](class.throwable.html) `$previous` **`null`**
+public **Exception::construct**(string `$message` = "", int `$code` [Throwable](class.throwable.md) `$previous` **`null`**
 
 Створює виняток.
 

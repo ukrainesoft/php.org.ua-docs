@@ -4,9 +4,9 @@
     
 -   [radiuscvtaddr »](function.radius-cvt-addr.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Radius](ref.radius.html)
+-   [Функции Radius](ref.radius.md)
     
 -   Створює обліковий запис або запит автентифікації
     

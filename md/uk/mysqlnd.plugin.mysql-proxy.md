@@ -1,12 +1,12 @@
 Порівняння плагінів mysqlnd з MySQL Proxy
 
--   [« API для плагинов к встроенному драйверу MySQL](mysqlnd.plugin.html)
+-   [« API для плагинов к встроенному драйверу MySQL](mysqlnd.plugin.md)
     
--   [Получение API плагинов mysqlnd »](mysqlnd.plugin.obtaining.html)
+-   [Получение API плагинов mysqlnd »](mysqlnd.plugin.obtaining.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [API для плагинов к встроенному драйверу MySQL](mysqlnd.plugin.html)
+-   [API для плагинов к встроенному драйверу MySQL](mysqlnd.plugin.md)
     
 -   Порівняння плагінів mysqlnd з MySQL Proxy
     

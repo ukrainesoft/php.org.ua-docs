@@ -1,12 +1,12 @@
 Отримання максимальної глибини рекурсії
 
--   [« RecursiveIteratorIterator::getInnerIterator](recursiveiteratoriterator.getinneriterator.html)
+-   [« RecursiveIteratorIterator::getInnerIterator](recursiveiteratoriterator.getinneriterator.md)
     
--   [RecursiveIteratorIterator::getSubIterator »](recursiveiteratoriterator.getsubiterator.html)
+-   [RecursiveIteratorIterator::getSubIterator »](recursiveiteratoriterator.getsubiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
     
 -   Отримання максимальної глибини рекурсії
     
@@ -39,4 +39,4 @@ public RecursiveIteratorIterator::getMaxDepth(): int|false
 
 ### Дивіться також
 
--   [RecursiveIteratorIterator::setMaxDepth()](recursiveiteratoriterator.setmaxdepth.html) - Встановлення максимальної глибини вкладеності
+-   [RecursiveIteratorIterator::setMaxDepth()](recursiveiteratoriterator.setmaxdepth.md) - Встановлення максимальної глибини вкладеності

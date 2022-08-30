@@ -4,7 +4,7 @@
     
 -   [ДсSet::count »](ds-set.count.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Набор](class.ds-set.html)
     

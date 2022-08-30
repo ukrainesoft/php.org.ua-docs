@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](dir.resources.html)
+-   [« Типи ресурсів](dir.resources.html)
     
 -   [Directory »](class.directory.html)
     

@@ -1,12 +1,12 @@
 Прості приклади використання FFI
 
--   [« Примеры](ffi.examples.html)
+-   [« Приклади](ffi.examples.html)
     
 -   [Callback-функции PHP »](ffi.examples-callback.html)
     
 -   [PHP Manual](index.html)
     
--   [Примеры](ffi.examples.html)
+-   [Приклади](ffi.examples.html)
     
 -   Прості приклади використання FFI
     
@@ -139,7 +139,7 @@ int(7)
 <?php
 // создаём структуру данных
 $a = FFI::new("long[1024]");
-// работаем с ней как с обычным массивом PHP
+// работаем с ней как с обычным Масивом PHP
 for ($i = 0; $i < count($a); $i++) {
     $a[$i] = $i;
 }

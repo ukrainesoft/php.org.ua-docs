@@ -4,9 +4,9 @@
     
 -   [geoipдбfilename »](function.geoip-db-filename.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции GeoIP](ref.geoip.html)
+-   [Функции GeoIP](ref.geoip.md)
     
 -   Перевіряє доступність бази GeoIP
     
@@ -31,7 +31,7 @@ geoip_db_avail(int $database): bool
 
 `database`
 
-Тип бази даних визначається цілим числом (integer). Ви можете використовувати [различные константы](geoip.constants.html), визначені у цьому модулі (ie: GEOIPEDITION).
+Тип бази даних визначається цілим числом (integer). Ви можете використовувати [різні константи](geoip.constants.md), визначені у цьому модулі (ie: GEOIPEDITION).
 
 ### Значення, що повертаються
 

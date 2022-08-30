@@ -1,12 +1,12 @@
 Видаляє екранування символів
 
--   [« stripos](function.stripos.html)
+-   [« stripos](function.stripos.md)
     
--   [stristr »](function.stristr.html)
+-   [stristr »](function.stristr.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Видаляє екранування символів
     
@@ -94,5 +94,5 @@ Array
 
 ### Дивіться також
 
--   [addslashes()](function.addslashes.html) - Екранує рядок за допомогою слішів
+-   [addslashes()](function.addslashes.md) - Екранує рядок за допомогою слішів
 -   [getmagicquotesgpc()](function.get-magic-quotes-gpc.html) - Отримання поточного значення конфігурації конфігурації magicquotesgpc

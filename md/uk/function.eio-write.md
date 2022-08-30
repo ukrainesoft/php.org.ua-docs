@@ -2,11 +2,11 @@
 
 -   [« eioutime](function.eio-utime.html)
     
--   [Ev »](book.ev.html)
+-   [Ev »](book.ev.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Запис у файл
     

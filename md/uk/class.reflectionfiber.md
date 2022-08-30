@@ -1,12 +1,12 @@
 Клас ReflectionFiber
 
--   [« ReflectionGenerator::getTrace](reflectiongenerator.gettrace.html)
+-   [« ReflectionGenerator::getTrace](reflectiongenerator.gettrace.md)
     
--   [ReflectionFiber::construct »](reflectionfiber.construct.html)
+-   [ReflectionFiber::construct »](reflectionfiber.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Reflection](book.reflection.html)
+-   [Reflection](book.reflection.md)
     
 -   Клас ReflectionFiber
     
@@ -46,9 +46,9 @@ public getTrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJECT): array
 
 ## Зміст
 
--   [ReflectionFiber::construct](reflectionfiber.construct.html) — Створює об'єкт ReflectionFiber
--   [ReflectionFiber::getCallable](reflectionfiber.getcallable.html) — Отримує об'єкт, що використовується для створення файбера.
--   [ReflectionFiber::getExecutingFile](reflectionfiber.getexecutingfile.html) — Отримує ім'я файлу поточної точки виконання
--   [ReflectionFiber::getExecutingLine](reflectionfiber.getexecutingline.html) — Отримує номер рядка поточної точки виконання
--   [ReflectionFiber::getFiber](reflectionfiber.getfiber.html) — Отримує відбитий екземпляр файбера
--   [ReflectionFiber::getTrace](reflectionfiber.gettrace.html) — Отримує зворотне трасування поточної точки виконання
+-   [ReflectionFiber::construct](reflectionfiber.construct.md) — Створює об'єкт ReflectionFiber
+-   [ReflectionFiber::getCallable](reflectionfiber.getcallable.md) — Отримує об'єкт, що використовується для створення файбера.
+-   [ReflectionFiber::getExecutingFile](reflectionfiber.getexecutingfile.md) — Отримує ім'я файлу поточної точки виконання
+-   [ReflectionFiber::getExecutingLine](reflectionfiber.getexecutingline.md) — Отримує номер рядка поточної точки виконання
+-   [ReflectionFiber::getFiber](reflectionfiber.getfiber.md) — Отримує відбитий екземпляр файбера
+-   [ReflectionFiber::getTrace](reflectionfiber.gettrace.md) — Отримує зворотне трасування поточної точки виконання

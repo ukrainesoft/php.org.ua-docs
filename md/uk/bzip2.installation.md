@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](bzip2.requirements.html)
+-   [« Вимоги](bzip2.requirements.md)
     
--   [Настройка во время выполнения »](bzip2.configuration.html)
+-   [Налаштування під час виконання »](bzip2.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](bzip2.setup.html)
+-   [Встановлення та налаштування](bzip2.setup.md)
     
 -   Встановлення
     

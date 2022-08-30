@@ -4,9 +4,9 @@
     
 -   [pcntlgetpriority »](function.pcntl-getpriority.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.md)
     
 -   Отримати код останньої помилки, що виникла в pcntl-функції
     

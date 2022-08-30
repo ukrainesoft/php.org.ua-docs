@@ -1,12 +1,12 @@
 Отримати алфавіт для локалі
 
--   [« Locale::getRegion](locale.getregion.html)
+-   [« Locale::getRegion](locale.getregion.md)
     
--   [Locale::lookup »](locale.lookup.html)
+-   [Locale::lookup »](locale.lookup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Locale](class.locale.html)
+-   [Locale](class.locale.md)
     
 -   Отримати алфавіт для локалі
     
@@ -71,6 +71,6 @@ Cyrl
 
 ### Дивіться також
 
--   [localegetprimarylanguage()](locale.getprimarylanguage.html) - Отримати первинну мову для локалі
--   [localegetregion()](locale.getregion.html) - Отримати регіон для локалі
--   [localegetallvariants()](locale.getallvariants.html) - Отримання варіантів із переданої локалі
+-   [localegetprimarylanguage()](locale.getprimarylanguage.md) - Отримати первинну мову для локалі
+-   [localegetregion()](locale.getregion.md) - Отримати регіон для локалі
+-   [localegetallvariants()](locale.getallvariants.md) - Отримання варіантів із переданої локалі

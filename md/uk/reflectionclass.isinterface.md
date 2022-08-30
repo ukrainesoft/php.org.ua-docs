@@ -1,12 +1,12 @@
 Перевіряє, чи є клас інтерфейсом
 
--   [« ReflectionClass::isInstantiable](reflectionclass.isinstantiable.html)
+-   [« ReflectionClass::isInstantiable](reflectionclass.isinstantiable.md)
     
--   [ReflectionClass::isInternal »](reflectionclass.isinternal.html)
+-   [ReflectionClass::isInternal »](reflectionclass.isinternal.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Перевіряє, чи є клас інтерфейсом
     
@@ -56,4 +56,4 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionClass::isInstance()](reflectionclass.isinstance.html) - Перевіряє, чи належить об'єкт класу
+-   [ReflectionClass::isInstance()](reflectionclass.isinstance.md) - Перевіряє, чи належить об'єкт класу

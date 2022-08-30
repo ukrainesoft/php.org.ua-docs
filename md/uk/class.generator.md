@@ -1,12 +1,12 @@
 Клас Generator
 
--   [« Closure::fromCallable](closure.fromcallable.html)
+-   [« Closure::fromCallable](closure.fromcallable.md)
     
--   [Generator::current »](generator.current.html)
+-   [Generator::current »](generator.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи](reserved.interfaces.md)
     
 -   Клас Generator
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Створення об'єктів типу **Generator** описано у розділі [Генераторы](language.generators.html)
+Створення об'єктів типу **Generator** описано у розділі [Генератори](language.generators.md)
 
 **Застереження**
 
@@ -56,16 +56,16 @@ public __wakeup(): void
 
 ## Дивіться також
 
-Дивіться також розділ [Ітератори об'єктів](language.oop5.iterations.html)
+Дивіться також розділ [Ітератори об'єктів](language.oop5.iterations.md)
 
 ## Зміст
 
--   [Generator::current](generator.current.html) — Отримати поточне значення генератора
--   [Generator::getReturn](generator.getreturn.html) — Отримати значення, що повертається генератором
--   [Generator::key](generator.key.html) — Отримати ключ згенерованого елемента
--   [Generator::next](generator.next.html) - Відновити роботу генератора
--   [Generator::rewind](generator.rewind.html) - Перемотати ітератор
--   [Generator::send](generator.send.html) — Передати значення у генератор
--   [Generator::throw](generator.throw.html) — Кинути виняток у генератор
--   [Generator::valid](generator.valid.html) - Перевірка, чи закритий ітератор
--   [Generator::wakeup](generator.wakeup.html) - Callback-функція серіалізації
+-   [Generator::current](generator.current.md) — Отримати поточне значення генератора
+-   [Generator::getReturn](generator.getreturn.md) — Отримати значення, що повертається генератором
+-   [Generator::key](generator.key.md) — Отримати ключ згенерованого елемента
+-   [Generator::next](generator.next.md) - Відновити роботу генератора
+-   [Generator::rewind](generator.rewind.md) - Перемотати ітератор
+-   [Generator::send](generator.send.md) — Передати значення у генератор
+-   [Generator::throw](generator.throw.md) — Кинути виняток у генератор
+-   [Generator::valid](generator.valid.md) - Перевірка, чи закритий ітератор
+-   [Generator::wakeup](generator.wakeup.md) - Callback-функція серіалізації

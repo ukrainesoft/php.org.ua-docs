@@ -4,7 +4,7 @@
     
 -   [YafLoader::getInstance »](yaf-loader.getinstance.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafLoader](class.yaf-loader.html)
     

@@ -4,9 +4,9 @@
     
 -   [gmpprobprime »](function.gmp-prob-prime.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GMP Функції](ref.gmp.html)
+-   [GMP Функції](ref.gmp.md)
     
 -   Зводить число в ступінь і здійснює розподіл за модулем
     
@@ -31,19 +31,19 @@ gmp_powm(GMP|int|string $num, GMP|int|string $exponent, GMP|int|string $modulus)
 
 Підстава ступеня.
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `exponent`
 
 Позитивний показник ступеня, в який зводиться `num`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `modulus`
 
 Дільник, залишок від цілого розподілу на який буде повернутий.
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 

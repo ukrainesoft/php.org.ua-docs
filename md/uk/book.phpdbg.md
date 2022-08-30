@@ -2,22 +2,22 @@
 
 -   [« zendversion](function.zend-version.html)
     
--   [Введение »](intro.phpdbg.html)
+-   [Введение »](intro.phpdbg.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Изменение поведения PHP](refs.basic.php.html)
+-   [Изменение поведения PHP](refs.basic.php.md)
     
 -   Інтерактивний відладчик PHP
     
 
 # Інтерактивний відладчик PHP
 
--   [Введение](intro.phpdbg.html)
--   [Установка и настройка](phpdbg.setup.html)
-    -   [Настройка во время выполнения](phpdbg.configuration.html)
--   [Предопределённые константы](phpdbg.constants.html)
--   [Функции phpdbg](ref.phpdbg.html)
+-   [Введение](intro.phpdbg.md)
+-   [Встановлення та налаштування](phpdbg.setup.md)
+    -   [Налаштування під час виконання](phpdbg.configuration.md)
+-   [Обумовлені константи](phpdbg.constants.md)
+-   [Функции phpdbg](ref.phpdbg.md)
     -   [phpdbgbreakfile](function.phpdbg-break-file.html) — Додати точку переривання на конкретний рядок файлу
     -   [phpdbgbreakfunction](function.phpdbg-break-function.html) — Додати точку переривання на дзвінок функції
     -   [phpdbgbreakmethod](function.phpdbg-break-method.html) - Додати точку переривання на виклик методу класу

@@ -1,12 +1,12 @@
 Створює новий об'єкт DateInterval
 
--   [« DateInterval](class.dateinterval.html)
+-   [« DateInterval](class.dateinterval.md)
     
--   [DateInterval::createFromDateString »](dateinterval.createfromdatestring.html)
+-   [DateInterval::createFromDateString »](dateinterval.createfromdatestring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateInterval](class.dateinterval.html)
+-   [DateInterval](class.dateinterval.md)
     
 -   Створює новий об'єкт DateInterval
     
@@ -33,15 +33,15 @@ public **DateInterval::construct**(string `$duration`
 
 **Вказівники періодів `duration`**
 
-| Указатель периода | Описание                                                                          |
-|-------------------|-----------------------------------------------------------------------------------|
-| `Y`               | року                                                                              |
-| `M`               | місяці                                                                            |
-| `D`               | дні                                                                               |
-| `W`               | Тижня. Перетворюється на дні. До PHP 8.0.0 не міг використовуватися спільно з `D` |
-| `H`               | годинник                                                                          |
-| `M`               | хвилини                                                                           |
-| `S`               | секунди                                                                           |
+| Указатель периода | Описание |
+| --- | --- |
+| `Y` | року |
+| `M` | місяці |
+| `D` | дні |
+| `W` | Тижня. Перетворюється на дні. До PHP 8.0.0 не міг використовуватися спільно з `D` |
+| `H` | годинник |
+| `M` | хвилини |
+| `S` | секунди |
 
 Ось кілька простих прикладів. Два дні - `P2D`. Дві секунди `PT2S`. Шість років та п'ять хвилин - `P6YT5M`
 
@@ -55,18 +55,18 @@ public **DateInterval::construct**(string `$duration`
 
 ### Помилки
 
-Викидає [Exception](class.exception.html), якщо `duration` не може бути розпізнаний як інтервал.
+Викидає [Exception](class.exception.md), якщо `duration` не може бути розпізнаний як інтервал.
 
 ### список змін
 
-| Версия | Описание                                                                                        |
-|--------|-------------------------------------------------------------------------------------------------|
-|        | Буде видно тільки `y` в `f` `invert` і `days`, включаючи нову логічну властивість `from_string` |
-|        | `W` тепер може використовуватися спільно з `D`                                                  |
+| Версия | Описание |
+| --- | --- |
+|  | Буде видно тільки `y` в `f` `invert` і `days`, включаючи нову логічну властивість `from_string` |
+|  | `W` тепер може використовуватися спільно з `D` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання [DateInterval](class.dateinterval.html)**
+**Приклад #1 Приклад використання [DateInterval](class.dateinterval.md)**
 
 ```php
 <?php
@@ -184,7 +184,7 @@ object(DateInterval)#1 (16) {
 
 ### Дивіться також
 
--   [DateInterval::format()](dateinterval.format.html) - Форматує інтервал
--   [DateTime::add()](datetime.add.html) - Змінює об'єкт DateTime, додаючи кількість днів, місяців, років, годин, хвилин та секунд
--   [DateTime::sub()](datetime.sub.html) - Змінює вказаний об'єкт DateTime, віднімаючи вказаний об'єкт DateInterval.
--   [DateTime::diff()](datetime.diff.html) - Повертає різницю між двома об'єктами DateTime
+-   [DateInterval::format()](dateinterval.format.md) - Форматує інтервал
+-   [DateTime::add()](datetime.add.md) - Змінює об'єкт DateTime, додаючи кількість днів, місяців, років, годин, хвилин та секунд
+-   [DateTime::sub()](datetime.sub.md) - Змінює вказаний об'єкт DateTime, віднімаючи вказаний об'єкт DateInterval.
+-   [DateTime::diff()](datetime.diff.md) - Повертає різницю між двома об'єктами DateTime

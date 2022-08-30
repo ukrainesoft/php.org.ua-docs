@@ -4,7 +4,7 @@ Reflection
     
 -   [ComponereValue »](class.componere-value.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponereMethod](class.componere-method.html)
     

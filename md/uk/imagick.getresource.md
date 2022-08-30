@@ -1,12 +1,12 @@
 Повертає розмір пам'яті вказаного ресурсу.
 
--   [« Imagick::getReleaseDate](imagick.getreleasedate.html)
+-   [« Imagick::getReleaseDate](imagick.getreleasedate.md)
     
--   [Imagick::getResourceLimit »](imagick.getresourcelimit.html)
+-   [Imagick::getResourceLimit »](imagick.getresourcelimit.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає розмір пам'яті вказаного ресурсу.
     

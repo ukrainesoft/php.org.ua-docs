@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.quickhash.html)
+-   [« Введение](intro.quickhash.md)
     
--   [Требования »](quickhash.requirements.html)
+-   [Вимоги »](quickhash.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Quickhash](book.quickhash.html)
+-   [Quickhash](book.quickhash.md)
     
 -   Встановлення та налаштування
     
@@ -15,6 +15,6 @@
 
 ## Зміст
 
--   [Требования](quickhash.requirements.html)
--   [Установка](quickhash.installation.html)
--   [Настройка во время выполнения](quickhash.configuration.html)
+-   [Вимоги](quickhash.requirements.md)
+-   [Установка](quickhash.installation.md)
+-   [Налаштування під час виконання](quickhash.configuration.md)

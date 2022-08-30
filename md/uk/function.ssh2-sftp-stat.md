@@ -4,9 +4,9 @@
     
 -   [ssh2sftpsymlink »](function.ssh2-sftp-symlink.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Інформація про файл
     
@@ -25,7 +25,7 @@ ssh2_sftp_stat(resource $sftp, string $path): array
 
 Інформація про файл на сервері з урахуванням символічних посилань.
 
-Функція працює аналогічно [stat()](function.stat.html) з обгорткою [ssh2.sftp://](wrappers.ssh2.html) і повертає такі самі значення.
+Функція працює аналогічно [stat()](function.stat.md) з обгорткою [ssh2.sftp://](wrappers.ssh2.md) і повертає такі самі значення.
 
 ### Список параметрів
 
@@ -37,7 +37,7 @@ ssh2_sftp_stat(resource $sftp, string $path): array
 
 ### Значення, що повертаються
 
-Список значень, що повертаються дивіться в описі функції [stat()](function.stat.html)
+Список значень, що повертаються дивіться в описі функції [stat()](function.stat.md)
 
 ### Приклади
 
@@ -63,5 +63,5 @@ $mode = $statinfo['mode'];
 ### Дивіться також
 
 -   [ssh2sftplstat()](function.ssh2-sftp-lstat.html) - Інформація про символічне посилання
--   [lstat()](function.lstat.html) - Повертає інформацію про файл або символічне посилання
--   [stat()](function.stat.html) - Повертає інформацію про файл
+-   [lstat()](function.lstat.md) - Повертає інформацію про файл або символічне посилання
+-   [stat()](function.stat.md) - Повертає інформацію про файл

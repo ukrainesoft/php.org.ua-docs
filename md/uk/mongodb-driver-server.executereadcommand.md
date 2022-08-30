@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverServer::executeReadWriteCommand »](mongodb-driver-server.executereadwritecommand.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverServer](class.mongodb-driver-server.html)
     
@@ -43,10 +43,10 @@ final public MongoDB\Driver\Server::executeReadCommand(string $db, MongoDB\Drive
 
 **options**
 
-| Опция                                  | Тип                                                               | Описание |
-|----------------------------------------|-------------------------------------------------------------------|----------|
-| readConcern                            | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) |          |
-| Гарантія для застосування до операції. |                                                                   |          |
+| Опция | Тип | Описание |
+| --- | --- | --- |
+| readConcern | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) |  |
+| Гарантія для застосування до операції. |  |  |
 
 Ця опція доступна в MongoDB 3.2+ і призведе до виключення під час виконання, якщо вказана для старої версії сервера.
 

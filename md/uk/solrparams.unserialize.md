@@ -1,12 +1,12 @@
 Використовується для серіалізації користувача
 
--   [« SolrParams::toString](solrparams.tostring.html)
+-   [« SolrParams::toString](solrparams.tostring.md)
     
--   [SolrModifiableParams »](class.solrmodifiableparams.html)
+-   [SolrModifiableParams »](class.solrmodifiableparams.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrParams](class.solrparams.html)
+-   [SolrParams](class.solrparams.md)
     
 -   Використовується для серіалізації користувача
     

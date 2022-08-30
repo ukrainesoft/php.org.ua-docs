@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](mailparse.requirements.html)
+-   [« Вимоги](mailparse.requirements.html)
     
--   [Настройка во время выполнения »](mailparse.configuration.html)
+-   [Налаштування під час виконання »](mailparse.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](mailparse.setup.html)
+-   [Встановлення та налаштування](mailparse.setup.html)
     
 -   Встановлення
     

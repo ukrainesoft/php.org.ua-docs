@@ -1,12 +1,12 @@
 Додає коментар до вашого зображення
 
--   [« Imagick::combineImages](imagick.combineimages.html)
+-   [« Imagick::combineImages](imagick.combineimages.md)
     
--   [Imagick::compareImageChannels »](imagick.compareimagechannels.html)
+-   [Imagick::compareImageChannels »](imagick.compareimagechannels.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Додає коментар до вашого зображення
     

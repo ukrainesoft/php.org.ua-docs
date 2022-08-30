@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](oci8.setup.html)
+-   [« Встановлення та налаштування](oci8.setup.md)
     
--   [Установка »](oci8.installation.html)
+-   [Установка »](oci8.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](oci8.setup.html)
+-   [Встановлення та налаштування](oci8.setup.md)
     
 -   Вимоги
     

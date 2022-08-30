@@ -4,9 +4,9 @@
     
 -   [xattrremove »](function.xattr-remove.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [xattr Функции](ref.xattr.html)
+-   [xattr Функции](ref.xattr.md)
     
 -   Перегляд списку розширених атрибутів файлу
     

@@ -4,7 +4,7 @@
     
 -   [CollectionAdd::execute »](mysql-xdevapi-collectionadd.execute.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiCollectionAdd](class.mysql-xdevapi-collectionadd.html)
     

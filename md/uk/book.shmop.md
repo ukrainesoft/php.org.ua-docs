@@ -1,32 +1,32 @@
 Управління пам'яттю, що розділяється
 
--   [« SysvSharedMemory](class.sysvsharedmemory.html)
+-   [« SysvSharedMemory](class.sysvsharedmemory.md)
     
--   [Введение »](intro.shmop.html)
+-   [Введение »](intro.shmop.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модули для управления процессами программ](refs.fileprocess.process.html)
+-   [Модули для управления процессами программ](refs.fileprocess.process.md)
     
 -   Управління пам'яттю, що розділяється
     
 
 # Управління пам'яттю, що розділяється
 
--   [Введение](intro.shmop.html)
--   [Установка и настройка](shmop.setup.html)
-    -   [Требования](shmop.requirements.html)
-    -   [Установка](shmop.installation.html)
-    -   [Настройка во время выполнения](shmop.configuration.html)
-    -   [Типы ресурсов](shmop.resources.html)
--   [Предопределённые константы](shmop.constants.html)
--   [Примеры](shmop.examples.html)
+-   [Введение](intro.shmop.md)
+-   [Встановлення та налаштування](shmop.setup.md)
+    -   [Вимоги](shmop.requirements.md)
+    -   [Установка](shmop.installation.md)
+    -   [Налаштування під час виконання](shmop.configuration.md)
+    -   [Типи ресурсів](shmop.resources.md)
+-   [Обумовлені константи](shmop.constants.md)
+-   [Приклади](shmop.examples.md)
     -   [Базовое использование](shmop.examples-basic.html)
--   [Пам'ять, що розділяється (shared)](ref.shmop.html)
+-   [Пам'ять, що розділяється (shared)](ref.shmop.md)
     -   [shmopclose](function.shmop-close.html) — Закриття блоку пам'яті, що розділяється
     -   [shmopdelete](function.shmop-delete.html) — Видалення блоку пам'яті, що розділяється.
     -   [shmopopen](function.shmop-open.html) — Резервування або використання блоку пам'яті, що розділяється
     -   [shmopread](function.shmop-read.html) — Читання даних із ділянки пам'яті, що розділяється
     -   [shmopsize](function.shmop-size.html) — Повертає розмір блоку в пам'яті, що розділяється.
     -   [shmopwrite](function.shmop-write.html) — Запис даних у пам'ять, що розділяється
--   [Shmop](class.shmop.html) - Клас Shmop
+-   [Shmop](class.shmop.md) - Клас Shmop

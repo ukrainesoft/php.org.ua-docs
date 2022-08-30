@@ -4,9 +4,9 @@
     
 -   [fanngetcascadeactivationfunctions »](function.fann-get-cascade-activation-functions.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Повертає кількість функцій каскадної активації
     

@@ -1,12 +1,12 @@
 Отримати псевдонім для Phar
 
--   [« Phar::extractTo](phar.extractto.html)
+-   [« Phar::extractTo](phar.extractto.md)
     
--   [Phar::getMetadata »](phar.getmetadata.html)
+-   [Phar::getMetadata »](phar.getmetadata.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Phar](class.phar.html)
+-   [Phar](class.phar.md)
     
 -   Отримати псевдонім для Phar
     

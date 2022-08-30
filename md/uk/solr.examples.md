@@ -2,11 +2,11 @@
 
 -   [« solrgetversion](function.solr-get-version.html)
     
--   [SolrUtils »](class.solrutils.html)
+-   [SolrUtils »](class.solrutils.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Solr](book.solr.html)
+-   [Solr](book.solr.md)
     
 -   Приклади
     
@@ -856,7 +856,7 @@ SolrObject Object
 )
 ```
 
-**Приклад #13 Згортання [SolrQuery](class.solrquery.html)**
+**Приклад #13 Згортання [SolrQuery](class.solrquery.md)**
 
 ```php
 <?php
@@ -1146,7 +1146,7 @@ SolrObject Object
 )
 ```
 
-**Приклад #14 Приклад використання Solr Real Time Get (RTG) [SolrClient::getById()](solrclient.getbyid.html)**
+**Приклад #14 Приклад використання Solr Real Time Get (RTG) [SolrClient::getById()](solrclient.getbyid.md)**
 
 ```php
 <?php

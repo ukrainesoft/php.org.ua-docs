@@ -1,12 +1,12 @@
 Вступ
 
--   [« OPcache](book.opcache.html)
+-   [« OPcache](book.opcache.md)
     
--   [Установка и настройка »](opcache.setup.html)
+-   [Встановлення та налаштування »](opcache.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OPcache](book.opcache.html)
+-   [OPcache](book.opcache.md)
     
 -   Вступ
     

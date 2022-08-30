@@ -4,7 +4,7 @@
     
 -   [ДсMap::keys »](ds-map.keys.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Коллекция пар ключ-значение](class.ds-map.html)
     
@@ -17,7 +17,7 @@
 
 ДсMap::jsonSerialize — Повертає колекцію в JSON-представництві
 
-Дивись [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.html)
+Дивись [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
 
 > **Зауваження**
 > 

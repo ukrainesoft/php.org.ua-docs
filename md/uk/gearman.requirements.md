@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](gearman.setup.html)
+-   [« Встановлення та налаштування](gearman.setup.html)
     
 -   [Установка »](gearman.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](gearman.setup.html)
+-   [Встановлення та налаштування](gearman.setup.html)
     
 -   Вимоги
     

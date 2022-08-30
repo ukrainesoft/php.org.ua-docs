@@ -1,12 +1,12 @@
 Стискає весь архів tar/zip, використовуючи стиснення Gzip або Bzip2
 
--   [« PharData::buildFromIterator](phardata.buildfromiterator.html)
+-   [« PharData::buildFromIterator](phardata.buildfromiterator.md)
     
--   [PharData::compressFiles »](phardata.compressfiles.html)
+-   [PharData::compressFiles »](phardata.compressfiles.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharData](class.phardata.html)
+-   [PharData](class.phardata.md)
     
 -   Стискає весь архів tar/zip, використовуючи стиснення Gzip або Bzip2
     
@@ -25,7 +25,7 @@ public PharData::compress(int $compression, ?string $extension = null): ?PharDat
 
 Для tar-архівів, цей метод здійснить стиснення всього архіву за допомогою gzip або bzip2. Результуючий файл можна розпакувати за допомогою команд gunzip або bunzip, або безпосередньо використовувати через модуль Phar.
 
-Для zip-архівів цей метод викине виняток. Для gzip-стиснення повинен бути доступний модуль [zlib](ref.zlib.html). Для bzip2-стиснення повинен бути доступний модуль [bzip2](ref.bzip2.html)
+Для zip-архівів цей метод викине виняток. Для gzip-стиснення повинен бути доступний модуль [zlib](ref.zlib.md). Для bzip2-стиснення повинен бути доступний модуль [bzip2](ref.bzip2.md)
 
 Цей метод перейменовує архів, додаючи до його імені розширення `.gz` `.bz2` або навпаки, що прибирає його, якщо параметр типу стиснення заданий як `Phar::NONE`. Також можна явно вказати, яке розширення матиме файл.
 
@@ -41,17 +41,17 @@ public PharData::compress(int $compression, ?string $extension = null): ?PharDat
 
 ### Значення, що повертаються
 
-Повертає об'єкт [PharData](class.phardata.html) у разі успішного виконання або **`null`** у разі виникнення помилки.
+Повертає об'єкт [PharData](class.phardata.md) у разі успішного виконання або **`null`** у разі виникнення помилки.
 
 ### Помилки
 
-Викидає виняток [BadMethodCallException](class.badmethodcallexception.html)якщо недоступний модуль [zlib](ref.zlib.html) або вимкнено модуль [bzip2](ref.bzip2.html)
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.md)якщо недоступний модуль [zlib](ref.zlib.md) або вимкнено модуль [bzip2](ref.bzip2.md)
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `extension` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `extension` тепер допускає значення null. |
 
 ### Приклади
 
@@ -70,4 +70,4 @@ $p3 = $p2->compress(Phar::NONE); // exception: /path/to/my.tar already ex
 
 ### Дивіться також
 
--   [Phar::compress()](phar.compress.html) - Стискає весь Phar-архів за допомогою Gzip- або Bzip2-стиснення
+-   [Phar::compress()](phar.compress.md) - Стискає весь Phar-архів за допомогою Gzip- або Bzip2-стиснення

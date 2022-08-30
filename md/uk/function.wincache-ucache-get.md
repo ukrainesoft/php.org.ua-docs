@@ -4,9 +4,9 @@
     
 -   [wincacheucacheinc »](function.wincache-ucache-inc.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции WinCache](ref.wincache.html)
+-   [Функции WinCache](ref.wincache.md)
     
 -   Отримує змінну, що зберігається в кеші користувача.
     

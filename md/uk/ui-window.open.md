@@ -4,7 +4,7 @@
     
 -   [ОЙWindow::save »](ui-window.save.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙWindow](class.ui-window.html)
     

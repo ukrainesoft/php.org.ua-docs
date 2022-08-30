@@ -1,6 +1,6 @@
 Клас ZipArchive
 
--   [« Примеры](zip.examples.html)
+-   [« Приклади](zip.examples.html)
     
 -   [ZipArchive::addEmptyDir »](ziparchive.addemptydir.html)
     

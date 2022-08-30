@@ -1,12 +1,12 @@
 Отримати символ із покажчика на gz-файл
 
--   [« gzfile](function.gzfile.html)
+-   [« gzfile](function.gzfile.md)
     
--   [gzgets »](function.gzgets.html)
+-   [gzgets »](function.gzgets.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Zlib](ref.zlib.html)
+-   [Функции Zlib](ref.zlib.md)
     
 -   Отримати символ із покажчика на gz-файл
     
@@ -29,11 +29,11 @@ gzgetc(resource $stream): string|false
 
 `stream`
 
-Вказівник на файл gz. Він має бути коректним і повинен вказувати на файл, успішно відкритий. [gzopen()](function.gzopen.html)
+Вказівник на файл gz. Він має бути коректним і повинен вказувати на файл, успішно відкритий. [gzopen()](function.gzopen.md)
 
 ### Значення, що повертаються
 
-Символ (несжатий) або **`false`** у випадку EOF (на відміну від [gzeof()](function.gzeof.html)
+Символ (несжатий) або **`false`** у випадку EOF (на відміну від [gzeof()](function.gzeof.md)
 
 ### Приклади
 
@@ -51,5 +51,5 @@ gzclose($gz);
 
 ### Дивіться також
 
--   [gzopen()](function.gzopen.html) - Відкрити gz-файл
--   [gzgets()](function.gzgets.html) - Отримати рядок із покажчика файлу
+-   [gzopen()](function.gzopen.md) - Відкрити gz-файл
+-   [gzgets()](function.gzgets.md) - Отримати рядок із покажчика файлу

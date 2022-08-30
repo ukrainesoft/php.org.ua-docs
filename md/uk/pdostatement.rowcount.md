@@ -1,12 +1,12 @@
 Повертає кількість рядків, порушених останнім SQL-запитом
 
--   [« PDOStatement::nextRowset](pdostatement.nextrowset.html)
+-   [« PDOStatement::nextRowset](pdostatement.nextrowset.md)
     
--   [PDOStatement::setAttribute »](pdostatement.setattribute.html)
+-   [PDOStatement::setAttribute »](pdostatement.setattribute.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDOStatement](class.pdostatement.html)
+-   [PDOStatement](class.pdostatement.md)
     
 -   Повертає кількість рядків, порушених останнім SQL-запитом
     
@@ -67,7 +67,7 @@ print("Удалено $count строк.\n");
 
 **Приклад #2 Підрахунок рядків, що повертаються виразом SELECT**
 
-Для більшості СУБД **PDOStatement::rowCount()** не повертає кількість рядків, які торкнулися SELECT запитом. Замість цього методу запустіть через [PDO::query()](pdo.query.html) вираз SELECT COUNT() з тим самим текстом запиту. Потім методом [PDOStatement::fetchColumn()](pdostatement.fetchcolumn.html) ви отримаєте число рядків, що збігаються.
+Для більшості СУБД **PDOStatement::rowCount()** не повертає кількість рядків, які торкнулися SELECT запитом. Замість цього методу запустіть через [PDO::query()](pdo.query.md) вираз SELECT COUNT() з тим самим текстом запиту. Потім методом [PDOStatement::fetchColumn()](pdostatement.fetchcolumn.md) ви отримаєте число рядків, що збігаються.
 
 ```php
 <?php
@@ -87,6 +87,6 @@ print "Совпадающих записей: " .  $count;
 
 ### Дивіться також
 
--   [PDOStatement::columnCount()](pdostatement.columncount.html) - Повертає кількість стовпців у результуючому наборі
--   [PDOStatement::fetchColumn()](pdostatement.fetchcolumn.html) - Повертає дані одного стовпця наступного рядка результуючого набору
--   [PDO::query()](pdo.query.html) - готує та виконує вираз SQL без заповнювачів
+-   [PDOStatement::columnCount()](pdostatement.columncount.md) - Повертає кількість стовпців у результуючому наборі
+-   [PDOStatement::fetchColumn()](pdostatement.fetchcolumn.md) - Повертає дані одного стовпця наступного рядка результуючого набору
+-   [PDO::query()](pdo.query.md) - готує та виконує вираз SQL без заповнювачів

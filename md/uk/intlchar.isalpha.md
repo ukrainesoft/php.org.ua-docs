@@ -1,12 +1,12 @@
 Перевірити, чи є символ літерою
 
--   [« IntlChar::isalnum](intlchar.isalnum.html)
+-   [« IntlChar::isalnum](intlchar.isalnum.md)
     
--   [IntlChar::isbase »](intlchar.isbase.html)
+-   [IntlChar::isbase »](intlchar.isbase.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити, чи є символ літерою
     
@@ -57,5 +57,5 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isalnum()](intlchar.isalnum.html) - Перевірити, чи є символ буквою чи цифрою
--   [IntlChar::isdigit()](intlchar.isdigit.html) - Перевірити, чи є символ цифрою
+-   [IntlChar::isalnum()](intlchar.isalnum.md) - Перевірити, чи є символ буквою чи цифрою
+-   [IntlChar::isdigit()](intlchar.isdigit.md) - Перевірити, чи є символ цифрою

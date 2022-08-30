@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](yaml.resources.html)
+-   [« Типи ресурсів](yaml.resources.md)
     
--   [Примеры »](yaml.examples.html)
+-   [Приклади »](yaml.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yaml](book.yaml.html)
+-   [Yaml](book.yaml.md)
     
 -   Обумовлені константи
     

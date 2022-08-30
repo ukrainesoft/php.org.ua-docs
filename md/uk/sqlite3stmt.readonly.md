@@ -1,12 +1,12 @@
 Перевіряє, чи є підготовлений запит лише для читання
 
--   [« SQLite3Stmt::paramCount](sqlite3stmt.paramcount.html)
+-   [« SQLite3Stmt::paramCount](sqlite3stmt.paramcount.md)
     
--   [SQLite3Stmt::reset »](sqlite3stmt.reset.html)
+-   [SQLite3Stmt::reset »](sqlite3stmt.reset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3Stmt](class.sqlite3stmt.html)
+-   [SQLite3Stmt](class.sqlite3stmt.md)
     
 -   Перевіряє, чи є підготовлений запит лише для читання
     

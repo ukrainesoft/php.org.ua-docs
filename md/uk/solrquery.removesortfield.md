@@ -1,12 +1,12 @@
 Видаляє одне з полів сортування
 
--   [« SolrQuery::removeMltQueryField](solrquery.removemltqueryfield.html)
+-   [« SolrQuery::removeMltQueryField](solrquery.removemltqueryfield.md)
     
--   [SolrQuery::removeStatsFacet »](solrquery.removestatsfacet.html)
+-   [SolrQuery::removeStatsFacet »](solrquery.removestatsfacet.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Видаляє одне з полів сортування
     

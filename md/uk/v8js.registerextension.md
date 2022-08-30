@@ -1,12 +1,12 @@
 Реєстрація модуля Javascript для V8Js
 
--   [« V8Js::getPendingException](v8js.getpendingexception.html)
+-   [« V8Js::getPendingException](v8js.getpendingexception.md)
     
--   [V8JsException »](class.v8jsexception.html)
+-   [V8JsException »](class.v8jsexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [V8Js](class.v8js.html)
+-   [V8Js](class.v8js.md)
     
 -   Реєстрація модуля Javascript для V8Js
     
@@ -23,7 +23,7 @@ V8Js::registerExtension — Реєстрація модуля Javascript для 
 public static V8Js::registerExtension(    string $extension_name,    string $script,    array $dependencies = array(),    bool $auto_enable = false): bool
 ```
 
-Реєстрація переданого у `script` Javascript як модуля для використання [V8Js](class.v8js.html)
+Реєстрація переданого у `script` Javascript як модуля для використання [V8Js](class.v8js.md)
 
 ### Список параметрів
 
@@ -41,11 +41,11 @@ public static V8Js::registerExtension(    string $extension_name,    str
 
 > **Зауваження**
 > 
-> Усі модулі, включаючи залежності, повинні бути зареєстровані до створення будь-яких [V8Js](class.v8js.html), що їх використовують.
+> Усі модулі, включаючи залежності, повинні бути зареєстровані до створення будь-яких [V8Js](class.v8js.md), що їх використовують.
 
 `auto_enable`
 
-Якщо встановлено **`true`**, модуль буде включений автоматично для будь-якого контексту [V8Js](class.v8js.html)
+Якщо встановлено **`true`**, модуль буде включений автоматично для будь-якого контексту [V8Js](class.v8js.md)
 
 ### Значення, що повертаються
 

@@ -1,12 +1,12 @@
 Створює об'єкт QuickHashIntHash
 
--   [« QuickHashIntHash::add](quickhashinthash.add.html)
+-   [« QuickHashIntHash::add](quickhashinthash.add.md)
     
--   [QuickHashIntHash::delete »](quickhashinthash.delete.html)
+-   [QuickHashIntHash::delete »](quickhashinthash.delete.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [QuickHashIntHash](class.quickhashinthash.html)
+-   [QuickHashIntHash](class.quickhashinthash.md)
     
 -   Створює об'єкт QuickHashIntHash
     
@@ -23,7 +23,7 @@ QuickHashIntHash::construct — Створює об'єкт QuickHashIntHash
 public QuickHashIntHash::__construct(int $size, int $options = ?)
 ```
 
-Конструктор створює об'єкт [QuickHashIntHash](class.quickhashinthash.html). Розмір – це кількість списків, які потрібно створити. Чим більше списків, тим менше буде колізій. Також підтримуються налаштування.
+Конструктор створює об'єкт [QuickHashIntHash](class.quickhashinthash.md). Розмір – це кількість списків, які потрібно створити. Чим більше списків, тим менше буде колізій. Також підтримуються налаштування.
 
 ### Список параметрів
 
@@ -37,7 +37,7 @@ public QuickHashIntHash::__construct(int $size, int $options = ?)
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [QuickHashIntHash](class.quickhashinthash.html)
+Повертає новий об'єкт [QuickHashIntHash](class.quickhashinthash.md)
 
 ### Приклади
 

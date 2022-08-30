@@ -1,12 +1,12 @@
 Видаляє повідомлення про помилку статусу, системні та/або повідомлення модуля zip
 
--   [« ZipArchive::addPattern](ziparchive.addpattern.html)
+-   [« ZipArchive::addPattern](ziparchive.addpattern.md)
     
--   [ZipArchive::close »](ziparchive.close.html)
+-   [ZipArchive::close »](ziparchive.close.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Видаляє повідомлення про помилку статусу, системні та/або повідомлення модуля zip
     
@@ -35,4 +35,4 @@ public ZipArchive::clearError(): void
 
 ### Дивіться також
 
--   [ZipArchive::getStatusString()](ziparchive.getstatusstring.html) - Повертають статус повідомлення про помилку, системний та/або zip-статус
+-   [ZipArchive::getStatusString()](ziparchive.getstatusstring.md) - Повертають статус повідомлення про помилку, системний та/або zip-статус

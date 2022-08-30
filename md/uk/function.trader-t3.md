@@ -4,9 +4,9 @@
     
 -   [tradertan »](function.trader-tan.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Потрійна експоненційна ковзна середня
     

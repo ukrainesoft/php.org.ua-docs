@@ -1,12 +1,12 @@
 Представляє позицію (x, y)
 
--   [« Установка](ui.installation.html)
+-   [« Установка](ui.installation.md)
     
 -   [ОЙPoint::at »](ui-point.at.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ОЙ](book.ui.html)
+-   [ОЙ](book.ui.md)
     
 -   Представляє позицію (x, y)
     

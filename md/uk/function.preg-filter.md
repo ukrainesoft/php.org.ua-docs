@@ -86,7 +86,7 @@ Array
 
 ### Дивіться також
 
--   [Шаблоны PCRE](pcre.pattern.html)
+-   [Шаблони PCRE](pcre.pattern.html)
 -   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
 -   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
 -   [pregreplacecallback()](function.preg-replace-callback.html) - Виконує пошук за регулярним виразом та заміною з використанням callback-функції

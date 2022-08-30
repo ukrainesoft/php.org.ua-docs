@@ -1,12 +1,12 @@
 Аналізує кольори еталонного зображення
 
--   [« Imagick::profileImage](imagick.profileimage.html)
+-   [« Imagick::profileImage](imagick.profileimage.md)
     
--   [Imagick::quantizeImages »](imagick.quantizeimages.html)
+-   [Imagick::quantizeImages »](imagick.quantizeimages.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Аналізує кольори еталонного зображення
     

@@ -4,9 +4,9 @@
     
 -   [sqlsrvhasrows »](function.sqlsrv-has-rows.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.md)
     
 -   Отримує дані поля з поточного вибраного рядка
     
@@ -37,7 +37,7 @@ sqlsrv_get_field(resource $stmt, int $fieldIndex, int $getAsType = ?): mixed
 
 `getAsType`
 
-Тип даних PHP для даних поля, що повертаються. Якщо цей параметр не встановлено, ці поля будуть повернуті як тип даних PHP за промовчанням. Для отримання інформації про типи даних PHP за замовчуванням дивіться [» Типы данных PHP по умолчанию](http://msdn.microsoft.com/en-us/library/cc296193.aspx) у документації Microsoft SQLSRV.
+Тип даних PHP для даних поля, що повертаються. Якщо цей параметр не встановлено, ці поля будуть повернуті як тип даних PHP за промовчанням. Для отримання інформації про типи даних PHP за замовчуванням дивіться [» Типи даних PHP за замовчуванням](http://msdn.microsoft.com/en-us/library/cc296193.aspx) у документації Microsoft SQLSRV.
 
 ### Значення, що повертаються
 

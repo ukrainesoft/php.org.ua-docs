@@ -1,12 +1,12 @@
 Клас EventHttpConnection
 
--   [« EventHttp::setTimeout](eventhttp.settimeout.html)
+-   [« EventHttp::setTimeout](eventhttp.settimeout.md)
     
--   [EventHttpConnection::construct »](eventhttpconnection.construct.html)
+-   [EventHttpConnection::construct »](eventhttpconnection.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](book.event.html)
+-   [Event](book.event.md)
     
 -   Клас EventHttpConnection
     
@@ -117,14 +117,14 @@ public
 
 ## Зміст
 
--   [EventHttpConnection::construct](eventhttpconnection.construct.html) - Конструктор об'єкта EventHttpConnection
--   [EventHttpConnection::getBase](eventhttpconnection.getbase.html) — Повертає базу подій, пов'язану із з'єднанням
--   [EventHttpConnection::getPeer](eventhttpconnection.getpeer.html) — Отримує віддалену адресу та порт, пов'язаний зі з'єднанням
--   [EventHttpConnection::makeRequest](eventhttpconnection.makerequest.html) — Робить HTTP-запит із зазначеного з'єднання
--   [EventHttpConnection::setCloseCallback](eventhttpconnection.setclosecallback.html) - Встановлює callback-функцію при закритті з'єднання
--   [EventHttpConnection::setLocalAddress](eventhttpconnection.setlocaladdress.html) — Встановлює IP-адресу, з якої відбуваються HTTP-з'єднання.
--   [EventHttpConnection::setLocalPort](eventhttpconnection.setlocalport.html) — Встановлює локальний порт, з якого виробляються з'єднання.
--   [EventHttpConnection::setMaxBodySize](eventhttpconnection.setmaxbodysize.html) — Встановлює максимальний розмір тіла для підключення
--   [EventHttpConnection::setMaxHeadersSize](eventhttpconnection.setmaxheaderssize.html) - Встановлює максимальний розмір заголовка
--   [EventHttpConnection::setRetries](eventhttpconnection.setretries.html) — Встановлює максимальну кількість повторів для з'єднання
--   [EventHttpConnection::setTimeout](eventhttpconnection.settimeout.html) — Встановлює час очікування на з'єднання
+-   [EventHttpConnection::construct](eventhttpconnection.construct.md) - Конструктор об'єкта EventHttpConnection
+-   [EventHttpConnection::getBase](eventhttpconnection.getbase.md) — Повертає базу подій, пов'язану із з'єднанням
+-   [EventHttpConnection::getPeer](eventhttpconnection.getpeer.md) — Отримує віддалену адресу та порт, пов'язаний зі з'єднанням
+-   [EventHttpConnection::makeRequest](eventhttpconnection.makerequest.md) — Робить HTTP-запит із зазначеного з'єднання
+-   [EventHttpConnection::setCloseCallback](eventhttpconnection.setclosecallback.md) - Встановлює callback-функцію при закритті з'єднання
+-   [EventHttpConnection::setLocalAddress](eventhttpconnection.setlocaladdress.md) — Встановлює IP-адресу, з якої відбуваються HTTP-з'єднання.
+-   [EventHttpConnection::setLocalPort](eventhttpconnection.setlocalport.md) — Встановлює локальний порт, з якого виробляються з'єднання.
+-   [EventHttpConnection::setMaxBodySize](eventhttpconnection.setmaxbodysize.md) — Встановлює максимальний розмір тіла для підключення
+-   [EventHttpConnection::setMaxHeadersSize](eventhttpconnection.setmaxheaderssize.md) - Встановлює максимальний розмір заголовка
+-   [EventHttpConnection::setRetries](eventhttpconnection.setretries.md) — Встановлює максимальну кількість повторів для з'єднання
+-   [EventHttpConnection::setTimeout](eventhttpconnection.settimeout.md) — Встановлює час очікування на з'єднання

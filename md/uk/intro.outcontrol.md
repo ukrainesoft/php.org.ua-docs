@@ -2,7 +2,7 @@
 
 -   [« Контроль висновку](book.outcontrol.html)
     
--   [Установка и настройка »](outcontrol.setup.html)
+-   [Встановлення та налаштування »](outcontrol.setup.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Ключове слово final
 
--   [Магічні методи](language.oop5.magic.html)
+-   [Магічні методи](language.oop5.magic.md)
     
--   [Клонирование объектов »](language.oop5.cloning.html)
+-   [Клонування об'єктів »](language.oop5.cloning.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Классы и объекты](language.oop5.html)
+-   [Класи та об'єкти](language.oop5.md)
     
 -   Ключове слово final
     

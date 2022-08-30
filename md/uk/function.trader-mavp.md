@@ -4,9 +4,9 @@
     
 -   [tradermax »](function.trader-max.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Ковзна середня зі змінним періодом
     
@@ -43,7 +43,7 @@ trader_mavp(    array $real,    array $periods,    int $minPeriod = 
 
 `mAType`
 
-Тип ковзної середньої. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.html)
+Тип ковзної середньої. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
 
 ### Значення, що повертаються
 

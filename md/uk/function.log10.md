@@ -2,11 +2,11 @@
 
 -   [« lcgvalue](function.lcg-value.html)
     
--   [log1p »](function.log1p.html)
+-   [log1p »](function.log1p.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Десятковий логарифм
     
@@ -37,4 +37,4 @@ log10(float $num): float
 
 ### Дивіться також
 
--   [log()](function.log.html) - Натуральний логарифм
+-   [log()](function.log.md) - Натуральний логарифм

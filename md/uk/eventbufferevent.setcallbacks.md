@@ -1,12 +1,12 @@
 Призначає callback-функції для читання, запису та події (стану)
 
--   [« EventBufferEvent::readBuffer](eventbufferevent.readbuffer.html)
+-   [« EventBufferEvent::readBuffer](eventbufferevent.readbuffer.md)
     
--   [EventBufferEvent::setPriority »](eventbufferevent.setpriority.html)
+-   [EventBufferEvent::setPriority »](eventbufferevent.setpriority.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Призначає callback-функції для читання, запису та події (стану)
     
@@ -42,15 +42,15 @@ public
 
 `readcb`
 
-Callback-функція читання. Дивіться докладніше [О callback-функциях буферов](eventbufferevent.about.callbacks.html)
+Callback-функція читання. Дивіться докладніше [О callback-функциях буферов](eventbufferevent.about.callbacks.md)
 
 `writecb`
 
-Callback-функція запису. Дивіться докладніше [О callback-функциях буферов](eventbufferevent.about.callbacks.html)
+Callback-функція запису. Дивіться докладніше [О callback-функциях буферов](eventbufferevent.about.callbacks.md)
 
 `eventcb`
 
-Callback – функція події зміни статусу. Дивіться докладніше [О callback-функциях буферов](eventbufferevent.about.callbacks.html)
+Callback – функція події зміни статусу. Дивіться докладніше [О callback-функциях буферов](eventbufferevent.about.callbacks.md)
 
 `arg`
 
@@ -62,4 +62,4 @@ Callback – функція події зміни статусу. Дивітьс
 
 ### Дивіться також
 
--   [EventBufferEvent::construct()](eventbufferevent.construct.html) - Створює об'єкт EventBufferEvent
+-   [EventBufferEvent::construct()](eventbufferevent.construct.md) - Створює об'єкт EventBufferEvent

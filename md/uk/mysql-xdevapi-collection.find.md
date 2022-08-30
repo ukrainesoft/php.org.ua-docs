@@ -4,7 +4,7 @@
     
 -   [Collection::getName »](mysql-xdevapi-collection.getname.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
     

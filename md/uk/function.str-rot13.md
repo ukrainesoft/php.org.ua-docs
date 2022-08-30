@@ -4,9 +4,9 @@
     
 -   [strshuffle »](function.str-shuffle.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Виконує перетворення ROT13 над рядком
     

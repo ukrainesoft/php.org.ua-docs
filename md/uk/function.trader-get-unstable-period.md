@@ -4,9 +4,9 @@
     
 -   [traderхтdcperiod »](function.trader-ht-dcperiod.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Отримує нестабільний період
     
@@ -29,7 +29,7 @@ trader_get_unstable_period(int $functionId): int
 
 `functionId`
 
-Ідентифікатор функції, для якого необхідно прочитати фактор. Слід використовувати серію констант [TRADERFUNCUNST](trader.constants.html)
+Ідентифікатор функції, для якого необхідно прочитати фактор. Слід використовувати серію констант [TRADERFUNCUNST](trader.constants.md)
 
 ### Значення, що повертаються
 

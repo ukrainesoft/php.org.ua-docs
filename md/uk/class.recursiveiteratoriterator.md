@@ -1,12 +1,12 @@
 Клас RecursiveIteratorIterator
 
--   [« RecursiveFilterIterator::hasChildren](recursivefilteriterator.haschildren.html)
+-   [« RecursiveFilterIterator::hasChildren](recursivefilteriterator.haschildren.md)
     
--   [RecursiveIteratorIterator::beginChildren »](recursiveiteratoriterator.beginchildren.html)
+-   [RecursiveIteratorIterator::beginChildren »](recursiveiteratoriterator.beginchildren.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Ітератори](spl.iterators.html)
+-   [Ітератори](spl.iterators.md)
     
 -   Клас RecursiveIteratorIterator
     
@@ -90,21 +90,21 @@ public valid(): bool
 
 ## Зміст
 
--   [RecursiveIteratorIterator::beginChildren](recursiveiteratoriterator.beginchildren.html) — Перехід до першого дочірнього елемента
--   [RecursiveIteratorIterator::beginIteration](recursiveiteratoriterator.beginiteration.html) - Початок ітерації
--   [RecursiveIteratorIterator::callGetChildren](recursiveiteratoriterator.callgetchildren.html) — Отримання дочірніх елементів
--   [RecursiveIteratorIterator::callHasChildren](recursiveiteratoriterator.callhaschildren.html) — Перевірка, чи має елемент дочірні елементи
--   [RecursiveIteratorIterator::construct](recursiveiteratoriterator.construct.html) - Конструктор класу RecursiveIteratorIterator
--   [RecursiveIteratorIterator::current](recursiveiteratoriterator.current.html) — Отримує значення поточного елемента
--   [RecursiveIteratorIterator::endChildren](recursiveiteratoriterator.endchildren.html) — Закінчення дочірніх елементів
--   [RecursiveIteratorIterator::endIteration](recursiveiteratoriterator.enditeration.html) - Закінчення ітерації
--   [RecursiveIteratorIterator::getDepth](recursiveiteratoriterator.getdepth.html) - Визначає поточну глибину рекурсії
--   [RecursiveIteratorIterator::getInnerIterator](recursiveiteratoriterator.getinneriterator.html) — Отримання посилання на внутрішній ітератор
--   [RecursiveIteratorIterator::getMaxDepth](recursiveiteratoriterator.getmaxdepth.html) - Отримання максимальної глибини рекурсії
--   [RecursiveIteratorIterator::getSubIterator](recursiveiteratoriterator.getsubiterator.html) — Отримання активного вкладеного ітератора
--   [RecursiveIteratorIterator::key](recursiveiteratoriterator.key.html) — Отримання ключа поточного елемента
--   [RecursiveIteratorIterator::next](recursiveiteratoriterator.next.html) — Переміщення ітератора до наступного елементу
--   [RecursiveIteratorIterator::nextElement](recursiveiteratoriterator.nextelement.html) - Наступний елемент
--   [RecursiveIteratorIterator::rewind](recursiveiteratoriterator.rewind.html) — Переміщує ітератор на перший елемент верхнього рівня вкладеності внутрішнього ітератора
--   [RecursiveIteratorIterator::setMaxDepth](recursiveiteratoriterator.setmaxdepth.html) - Встановлення максимальної глибини вкладеності
--   [RecursiveIteratorIterator::valid](recursiveiteratoriterator.valid.html) - Перевірка допустимості поточної позиції
+-   [RecursiveIteratorIterator::beginChildren](recursiveiteratoriterator.beginchildren.md) — Перехід до першого дочірнього елемента
+-   [RecursiveIteratorIterator::beginIteration](recursiveiteratoriterator.beginiteration.md) - Початок ітерації
+-   [RecursiveIteratorIterator::callGetChildren](recursiveiteratoriterator.callgetchildren.md) — Отримання дочірніх елементів
+-   [RecursiveIteratorIterator::callHasChildren](recursiveiteratoriterator.callhaschildren.md) — Перевірка, чи має елемент дочірні елементи
+-   [RecursiveIteratorIterator::construct](recursiveiteratoriterator.construct.md) - Конструктор класу RecursiveIteratorIterator
+-   [RecursiveIteratorIterator::current](recursiveiteratoriterator.current.md) — Отримує значення поточного елемента
+-   [RecursiveIteratorIterator::endChildren](recursiveiteratoriterator.endchildren.md) — Закінчення дочірніх елементів
+-   [RecursiveIteratorIterator::endIteration](recursiveiteratoriterator.enditeration.md) - Закінчення ітерації
+-   [RecursiveIteratorIterator::getDepth](recursiveiteratoriterator.getdepth.md) - Визначає поточну глибину рекурсії
+-   [RecursiveIteratorIterator::getInnerIterator](recursiveiteratoriterator.getinneriterator.md) — Отримання посилання на внутрішній ітератор
+-   [RecursiveIteratorIterator::getMaxDepth](recursiveiteratoriterator.getmaxdepth.md) - Отримання максимальної глибини рекурсії
+-   [RecursiveIteratorIterator::getSubIterator](recursiveiteratoriterator.getsubiterator.md) — Отримання активного вкладеного ітератора
+-   [RecursiveIteratorIterator::key](recursiveiteratoriterator.key.md) — Отримання ключа поточного елемента
+-   [RecursiveIteratorIterator::next](recursiveiteratoriterator.next.md) — Переміщення ітератора до наступного елементу
+-   [RecursiveIteratorIterator::nextElement](recursiveiteratoriterator.nextelement.md) - Наступний елемент
+-   [RecursiveIteratorIterator::rewind](recursiveiteratoriterator.rewind.md) — Переміщує ітератор на перший елемент верхнього рівня вкладеності внутрішнього ітератора
+-   [RecursiveIteratorIterator::setMaxDepth](recursiveiteratoriterator.setmaxdepth.md) - Встановлення максимальної глибини вкладеності
+-   [RecursiveIteratorIterator::valid](recursiveiteratoriterator.valid.md) - Перевірка допустимості поточної позиції

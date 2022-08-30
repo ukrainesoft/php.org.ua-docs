@@ -1,22 +1,22 @@
 Приступаючи до роботи
 
--   [« Предисловие](preface.html)
+-   [« Предисловие](preface.md)
     
--   [Введение »](introduction.html)
+-   [Введение »](introduction.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   Приступаючи до роботи
     
 
 # Приступаючи до роботи
 
--   [Введение](introduction.html)
+-   [Введение](introduction.md)
     -   [Що таке PHP?](intro-whatis.html)
     -   [Можливості PHP](intro-whatcando.html)
--   [Простий підручник](tutorial.html)
-    -   [Що мені потрібно?](tutorial.requirements.html)
-    -   [Перша сторінка на PHP](tutorial.firstpage.html)
-    -   [Робимо щось корисне](tutorial.useful.html)
-    -   [Работа с формами](tutorial.forms.html)
-    -   [Що далі?](tutorial.whatsnext.html)
+-   [Простий підручник](tutorial.md)
+    -   [Що мені потрібно?](tutorial.requirements.md)
+    -   [Перша сторінка на PHP](tutorial.firstpage.md)
+    -   [Робимо щось корисне](tutorial.useful.md)
+    -   [Работа с формами](tutorial.forms.md)
+    -   [Що далі?](tutorial.whatsnext.md)

@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverMonitoringServerHeartbeatFailedEvent::getHost »](mongodb-driver-monitoring-serverheartbeatfailedevent.gethost.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverMonitoringServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
     
@@ -29,7 +29,7 @@ final public MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getError(): E
 
 ### Значення, що повертаються
 
-Повертає виняток ([Exception](class.exception.html)), пов'язане з невдалим виконанням heartbeat.
+Повертає виняток ([Exception](class.exception.md)), пов'язане з невдалим виконанням heartbeat.
 
 ### Помилки
 

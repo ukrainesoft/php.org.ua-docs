@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](xhprof.resources.html)
+-   [« Типи ресурсів](xhprof.resources.md)
     
--   [Примеры »](xhprof.examples.html)
+-   [Приклади »](xhprof.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Xhprof](book.xhprof.html)
+-   [Xhprof](book.xhprof.md)
     
 -   Обумовлені константи
     

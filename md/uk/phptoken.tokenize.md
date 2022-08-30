@@ -1,12 +1,12 @@
 Розбирає заданий рядок, що містить програму на PHP, масив об'єктів PhpToken
 
--   [« PhpToken::toString](phptoken.tostring.html)
+-   [« PhpToken::toString](phptoken.tostring.md)
     
--   [Функции PHP-лексера (tokenizer) »](ref.tokenizer.html)
+-   [Функции PHP-лексера (tokenizer) »](ref.tokenizer.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PhpToken](class.phptoken.html)
+-   [PhpToken](class.phptoken.md)
     
 -   Розбирає заданий рядок, що містить програму на PHP, масив об'єктів PhpToken
     

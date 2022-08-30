@@ -1,12 +1,12 @@
 Поміщає елемент до кінця двозв'язкового списку
 
--   [« SplDoublyLinkedList::prev](spldoublylinkedlist.prev.html)
+-   [« SplDoublyLinkedList::prev](spldoublylinkedlist.prev.md)
     
--   [SplDoublyLinkedList::rewind »](spldoublylinkedlist.rewind.html)
+-   [SplDoublyLinkedList::rewind »](spldoublylinkedlist.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
     
 -   Поміщає елемент до кінця двозв'язкового списку
     

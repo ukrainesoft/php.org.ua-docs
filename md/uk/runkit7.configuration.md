@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](runkit7.installation.html)
+-   [« Установка](runkit7.installation.md)
     
--   [Типы ресурсов »](runkit7.resources.html)
+-   [Типи ресурсів »](runkit7.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](runkit7.setup.html)
+-   [Встановлення та налаштування](runkit7.setup.md)
     
 -   Налаштування під час виконання
     
@@ -17,12 +17,12 @@
 
 **Параметри конфігурації Runkit**
 
-| Имя                                                                                 | По умолчанию | Место изменения | Список изменений |
-|-------------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [runkit.superglobal](runkit7.configuration.html#ini.runkit7.superglobal)            | ""           | PHPINIPERDIR    |                  |
-| [runkit.internaloverride](runkit7.configuration.html#ini.runkit7.internal-override) | "0"          | PHPINISYSTEM    |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [runkit.superglobal](runkit7.configuration.html#ini.runkit7.superglobal) | "" | PHPINIPERDIR |  |
+| [runkit.internaloverride](runkit7.configuration.html#ini.runkit7.internal-override) | "0" | PHPINISYSTEM |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 

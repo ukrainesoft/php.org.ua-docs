@@ -4,9 +4,9 @@
     
 -   [xdifffilebpatch »](function.xdiff-file-bpatch.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.md)
     
 -   Створити бінарний патч порівнюючи два файли
     

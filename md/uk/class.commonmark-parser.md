@@ -4,9 +4,9 @@
     
 -   [CommonMarkParser::construct »](commonmark-parser.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CommonMark](book.cmark.html)
+-   [CommonMark](book.cmark.md)
     
 -   Клас CommonMarkParser
     

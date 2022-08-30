@@ -1,12 +1,12 @@
 Формує мозаїку із зображень
 
--   [« Imagick::morphology](imagick.morphology.html)
+-   [« Imagick::morphology](imagick.morphology.md)
     
--   [Imagick::motionBlurImage »](imagick.motionblurimage.html)
+-   [Imagick::motionBlurImage »](imagick.motionblurimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Формує мозаїку із зображень
     

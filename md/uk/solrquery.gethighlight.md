@@ -1,12 +1,12 @@
 Повертає стан параметра hl
 
--   [« SolrQuery::getGroupTruncate](solrquery.getgrouptruncate.html)
+-   [« SolrQuery::getGroupTruncate](solrquery.getgrouptruncate.md)
     
--   [SolrQuery::getHighlightAlternateField »](solrquery.gethighlightalternatefield.html)
+-   [SolrQuery::getHighlightAlternateField »](solrquery.gethighlightalternatefield.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає стан параметра hl
     

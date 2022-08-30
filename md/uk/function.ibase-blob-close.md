@@ -4,9 +4,9 @@
     
 -   [ibaseblobcreate »](function.ibase-blob-create.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Firebird/InterBase](ref.ibase.html)
+-   [Функции Firebird/InterBase](ref.ibase.md)
     
 -   Закриває BLOB-об'єкт
     

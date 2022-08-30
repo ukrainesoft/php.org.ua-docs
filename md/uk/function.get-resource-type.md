@@ -2,11 +2,11 @@
 
 -   [« getresourceід](function.get-resource-id.html)
     
--   [gettype »](function.gettype.html)
+-   [gettype »](function.gettype.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи зі змінними](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.md)
     
 -   Повертає тип ресурсу
     

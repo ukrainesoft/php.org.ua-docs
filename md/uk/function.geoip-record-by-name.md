@@ -4,9 +4,9 @@
     
 -   [geoipregionбname »](function.geoip-region-by-name.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции GeoIP](ref.geoip.html)
+-   [Функции GeoIP](ref.geoip.md)
     
 -   Повертає докладну інформацію про адресу, знайдену в базі GeoIP
     
@@ -53,9 +53,9 @@ geoip_record_by_name(string $hostname): array
 
 ### список змін
 
-| Версия           | Описание                                                                    |
-|------------------|-----------------------------------------------------------------------------|
-| PECL geoip 1.0.4 | Додано код континенту (continentcode) з GeoIP Library 1.4.3 або новішими.   |
+| Версия | Описание |
+| --- | --- |
+| PECL geoip 1.0.4 | Додано код континенту (continentcode) з GeoIP Library 1.4.3 або новішими. |
 | PECL geoip 1.0.3 | Додано трилітерний код країни (countrycode3) та назва країни (countryname). |
 
 ### Приклади

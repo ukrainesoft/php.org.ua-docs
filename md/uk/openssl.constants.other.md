@@ -1,12 +1,12 @@
 Інші константи
 
--   [« Константа SNI (Server Name Indication)](openssl.constsni.html)
+-   [« Константа SNI (Server Name Indication)](openssl.constsni.md)
     
--   [Параметры ключа/сертификата »](openssl.certparams.html)
+-   [Параметри ключа/сертифіката »](openssl.certparams.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые константы](openssl.constants.html)
+-   [Обумовлені константи](openssl.constants.md)
     
 -   Інші константи
     

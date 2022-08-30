@@ -14,12 +14,12 @@ Firebird/InterBase
 # Firebird/InterBase
 
 -   [Введение](intro.ibase.html)
--   [Установка и настройка](ibase.setup.html)
-    -   [Требования](ibase.requirements.html)
+-   [Встановлення та налаштування](ibase.setup.html)
+    -   [Вимоги](ibase.requirements.html)
     -   [Установка](ibase.installation.html)
-    -   [Настройка во время выполнения](ibase.configuration.html)
-    -   [Типы ресурсов](ibase.resources.html)
--   [Предопределённые константы](ibase.constants.html)
+    -   [Налаштування під час виконання](ibase.configuration.html)
+    -   [Типи ресурсів](ibase.resources.html)
+-   [Обумовлені константи](ibase.constants.html)
 -   [Функции Firebird/InterBase](ref.ibase.html)
     -   [fbirdadduser](function.fbird-add-user.html) - Псевдонім ibaseadduser
     -   [fbirdaffectedrows](function.fbird-affected-rows.html) - Псевдонім ibaseaffectedrows

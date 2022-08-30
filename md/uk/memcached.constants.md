@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](memcached.resources.html)
+-   [« Типи ресурсів](memcached.resources.md)
     
--   [Время хранения объекта »](memcached.expiration.html)
+-   [Час зберігання об'єкта »](memcached.expiration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](book.memcached.html)
+-   [Memcached](book.memcached.md)
     
 -   Обумовлені константи
     
@@ -131,7 +131,7 @@
 
 **`Memcached::OPT_NOREPLY`**
 
-Включає або вимикає ігнорування результату функцій зберігання (set, add, replace, append, prepend, delete, increment, decrement тощо). Функції зберігання будуть надіслані, не витрачаючи час на очікування відповіді (відповіді не буде). Цей параметр не впливає на команди вилучення, такі як [Memcached::get()](memcached.get.html)
+Включає або вимикає ігнорування результату функцій зберігання (set, add, replace, append, prepend, delete, increment, decrement тощо). Функції зберігання будуть надіслані, не витрачаючи час на очікування відповіді (відповіді не буде). Цей параметр не впливає на команди вилучення, такі як [Memcached::get()](memcached.get.md)
 
 Тип: bool, за замовчуванням: **`false`**
 
@@ -229,13 +229,13 @@ Type: bool.
 
 **`Memcached::GET_EXTENDED`**
 
-Прапор для [Memcached::get()](memcached.get.html) [Memcached::getMulti()](memcached.getmulti.html) і [Memcached::getMultiByKey()](memcached.getmultibykey.html) для того, щоб поверталися значення токена CAS.
+Прапор для [Memcached::get()](memcached.get.md) [Memcached::getMulti()](memcached.getmulti.md) і [Memcached::getMultiByKey()](memcached.getmultibykey.md) для того, щоб поверталися значення токена CAS.
 
 Доступно з Memcached 3.0.0.
 
 **`Memcached::GET_PRESERVE_ORDER`**
 
-Прапор для [Memcached::getMulti()](memcached.getmulti.html) і [Memcached::getMultiByKey()](memcached.getmultibykey.html) для гарантованого повернення ключів у тому самому порядку, як вони були запрошені. Неіснуючі ключі будуть повернуті зі значеннями **`null`**
+Прапор для [Memcached::getMulti()](memcached.getmulti.md) і [Memcached::getMultiByKey()](memcached.getmultibykey.md) для гарантованого повернення ключів у тому самому порядку, як вони були запрошені. Неіснуючі ключі будуть повернуті зі значеннями **`null`**
 
 **`Memcached::RES_SUCCESS`**
 

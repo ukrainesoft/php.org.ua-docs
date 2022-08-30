@@ -1,12 +1,12 @@
 Клас DOMNamedNodeMap
 
--   [« DOMImplementation::hasFeature](domimplementation.hasfeature.html)
+-   [« DOMImplementation::hasFeature](domimplementation.hasfeature.md)
     
--   [DOMNamedNodeMap::count »](domnamednodemap.count.html)
+-   [DOMNamedNodeMap::count »](domnamednodemap.count.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOM](book.dom.html)
+-   [DOM](book.dom.md)
     
 -   Клас DOMNamedNodeMap
     
@@ -56,14 +56,14 @@ length
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                                      |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Нереалізовані методи **DOMNamedNodeMap::setNamedItem()** **DOMNamedNodeMap::removeNamedItem()** **DOMNamedNodeMap::setNamedItemNS()** і **DOMNamedNodeMap::removeNamedItem()** були вилучені. |
-|        | Клас **DOMNamedNodeMap** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.html)        |
+| Версия | Описание |
+| --- | --- |
+|  | Нереалізовані методи **DOMNamedNodeMap::setNamedItem()** **DOMNamedNodeMap::removeNamedItem()** **DOMNamedNodeMap::setNamedItemNS()** і **DOMNamedNodeMap::removeNamedItem()** були вилучені. |
+|  | Клас **DOMNamedNodeMap** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md) |
 
 ## Зміст
 
--   [DOMNamedNodeMap::count](domnamednodemap.count.html) - Кількість вузлів у відображенні
--   [DOMNamedNodeMap::getNamedItem](domnamednodemap.getnameditem.html) — Отримує вузол, вказаний на ім'я
--   [DOMNamedNodeMap::getNamedItemNS](domnamednodemap.getnameditemns.html) — Отримує вузол із заданим локальним ім'ям та URI простору імен
--   [DOMNamedNodeMap::item](domnamednodemap.item.html) — Отримує вузол із заданим індексом
+-   [DOMNamedNodeMap::count](domnamednodemap.count.md) - Кількість вузлів у відображенні
+-   [DOMNamedNodeMap::getNamedItem](domnamednodemap.getnameditem.md) — Отримує вузол, вказаний на ім'я
+-   [DOMNamedNodeMap::getNamedItemNS](domnamednodemap.getnameditemns.md) — Отримує вузол із заданим локальним ім'ям та URI простору імен
+-   [DOMNamedNodeMap::item](domnamednodemap.item.md) — Отримує вузол із заданим індексом

@@ -1,12 +1,12 @@
 Надсилання результату та статусу завершення (застарілий метод)
 
--   [« GearmanJob](class.gearmanjob.html)
+-   [« GearmanJob](class.gearmanjob.md)
     
--   [GearmanJob::construct »](gearmanjob.construct.html)
+-   [GearmanJob::construct »](gearmanjob.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanJob](class.gearmanjob.html)
+-   [GearmanJob](class.gearmanjob.md)
     
 -   Надсилання результату та статусу завершення (застарілий метод)
     
@@ -27,7 +27,7 @@ public GearmanJob::complete(string $result): bool
 
 > **Зауваження**
 > 
-> Цей метод було замінено на [GearmanJob::sendComplete()](gearmanjob.sendcomplete.html) у випуску модуля Gearman 0.6.0.
+> Цей метод було замінено на [GearmanJob::sendComplete()](gearmanjob.sendcomplete.md) у випуску модуля Gearman 0.6.0.
 
 ### Список параметрів
 
@@ -41,5 +41,5 @@ public GearmanJob::complete(string $result): bool
 
 ### Дивіться також
 
--   [GearmanJob::sendFail()](gearmanjob.sendfail.html) - Відправлення статусу невдалої операції
--   [GearmanJob::setReturn()](gearmanjob.setreturn.html) - Встановлення значення, що повертається
+-   [GearmanJob::sendFail()](gearmanjob.sendfail.md) - Відправлення статусу невдалої операції
+-   [GearmanJob::setReturn()](gearmanjob.setreturn.md) - Встановлення значення, що повертається

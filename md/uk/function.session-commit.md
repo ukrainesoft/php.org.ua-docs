@@ -4,9 +4,9 @@
     
 -   [sessioncreateid »](function.session-create-id.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи із сесіями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.md)
     
 -   Псевдонім sessionwriteclose
     

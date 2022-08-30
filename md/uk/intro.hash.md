@@ -1,12 +1,12 @@
 Вступ
 
--   [« Hash](book.hash.html)
+-   [« Hash](book.hash.md)
     
--   [Установка и настройка »](hash.setup.html)
+-   [Встановлення та налаштування »](hash.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Hash](book.hash.html)
+-   [Hash](book.hash.md)
     
 -   Вступ
     

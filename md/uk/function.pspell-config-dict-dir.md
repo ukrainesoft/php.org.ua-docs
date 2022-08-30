@@ -4,9 +4,9 @@
     
 -   [pspellconfigignore »](function.pspell-config-ignore.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Pspell](ref.pspell.html)
+-   [Функции Pspell](ref.pspell.md)
     
 -   Розташування основного списку слів
     
@@ -33,6 +33,6 @@ pspell_config_dict_dir(PSpell\Config $config, string $directory): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |

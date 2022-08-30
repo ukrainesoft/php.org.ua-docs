@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](gmp.setup.html)
+-   [« Встановлення та налаштування](gmp.setup.html)
     
 -   [Установка »](gmp.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](gmp.setup.html)
+-   [Встановлення та налаштування](gmp.setup.html)
     
 -   Вимоги
     

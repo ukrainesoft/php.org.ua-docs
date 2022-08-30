@@ -1,12 +1,12 @@
 Повернути список певних функцій
 
--   [« SoapServer::fault](soapserver.fault.html)
+-   [« SoapServer::fault](soapserver.fault.md)
     
--   [SoapServer::handle »](soapserver.handle.html)
+-   [SoapServer::handle »](soapserver.handle.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SoapServer](class.soapserver.html)
+-   [SoapServer](class.soapserver.md)
     
 -   Повернути список певних функцій
     
@@ -23,7 +23,7 @@ SoapServer::getFunctions — Повернути список функцій
 public SoapServer::getFunctions(): array
 ```
 
-Повернути список функцій в об'єкті SoapServer. Цей метод повертає список усіх функцій, доданих за допомогою [SoapServer::addFunction()](soapserver.addfunction.html) або [SoapServer::setClass()](soapserver.setclass.html)
+Повернути список функцій в об'єкті SoapServer. Цей метод повертає список усіх функцій, доданих за допомогою [SoapServer::addFunction()](soapserver.addfunction.md) або [SoapServer::setClass()](soapserver.setclass.md)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public SoapServer::getFunctions(): array
 
 ### Значення, що повертаються
 
-`Массив` певних функцій.
+`Масив` певних функцій.
 
 ### Приклади
 
@@ -55,6 +55,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 ### Дивіться також
 
--   [SoapServer::construct()](soapserver.construct.html) - Конструктор SoapServer
--   [SoapServer::addFunction()](soapserver.addfunction.html) - Додає одну або кілька функцій для обробки запитів SOAP
--   [SoapServer::setClass()](soapserver.setclass.html) - Встановлює клас, який обробляє SOAP-запити
+-   [SoapServer::construct()](soapserver.construct.md) - Конструктор SoapServer
+-   [SoapServer::addFunction()](soapserver.addfunction.md) - Додає одну або кілька функцій для обробки запитів SOAP
+-   [SoapServer::setClass()](soapserver.setclass.md) - Встановлює клас, який обробляє SOAP-запити

@@ -4,7 +4,7 @@
     
 -   [if »](control-structures.if.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Управляющие конструкции](language.control-structures.html)
     
@@ -19,8 +19,8 @@
 
 Нижче також розглядаються мовні конструкції, навіть якщо вони згадуються у функціях керівництва.
 
--   [list()](function.list.html)
--   [array()](function.array.html)
--   [echo](function.echo.html)
--   [eval()](function.eval.html)
--   [print](function.print.html)
+-   [list()](function.list.md)
+-   [array()](function.array.md)
+-   [echo](function.echo.md)
+-   [eval()](function.eval.md)
+-   [print](function.print.md)

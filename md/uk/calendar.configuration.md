@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](calendar.installation.html)
+-   [« Установка](calendar.installation.md)
     
--   [Типы ресурсов »](calendar.resources.html)
+-   [Типи ресурсів »](calendar.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](calendar.setup.html)
+-   [Встановлення та налаштування](calendar.setup.md)
     
 -   Налаштування під час виконання
     

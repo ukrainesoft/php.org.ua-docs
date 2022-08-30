@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](opcache.setup.html)
+-   [« Встановлення та налаштування](opcache.setup.html)
     
 -   [Установка »](opcache.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](opcache.setup.html)
+-   [Встановлення та налаштування](opcache.setup.html)
     
 -   Вимоги
     

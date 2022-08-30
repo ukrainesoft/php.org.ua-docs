@@ -1,12 +1,12 @@
 Змінює регістр усіх ключів у масиві
 
--   [« Функції для роботи з масивами](ref.array.html)
+-   [« Функції для роботи з масивами](ref.array.md)
     
 -   [arraychunk »](function.array-chunk.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Змінює регістр усіх ключів у масиві
     

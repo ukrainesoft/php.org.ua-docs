@@ -1,12 +1,12 @@
 Визначає, чи є перелік типовим
 
--   [« ReflectionEnum::hasCase](reflectionenum.hascase.html)
+-   [« ReflectionEnum::hasCase](reflectionenum.hascase.md)
     
--   [ReflectionEnumUnitCase »](class.reflectionenumunitcase.html)
+-   [ReflectionEnumUnitCase »](class.reflectionenumunitcase.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionEnum](class.reflectionenum.html)
+-   [ReflectionEnum](class.reflectionenum.md)
     
 -   Визначає, чи є перелік типовим
     
@@ -69,5 +69,5 @@ bool(true)
 
 ### Дивіться також
 
--   [Перечисления](language.enumerations.html)
--   [ReflectionEnum::getBackingType()](reflectionenum.getbackingtype.html) - Отримує тип перерахування, якщо є
+-   [Перечисления](language.enumerations.md)
+-   [ReflectionEnum::getBackingType()](reflectionenum.getbackingtype.md) - Отримує тип перерахування, якщо є

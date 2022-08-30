@@ -1,12 +1,12 @@
 Підвищує контрастність кольорового зображення
 
--   [« Imagick::contrastImage](imagick.contrastimage.html)
+-   [« Imagick::contrastImage](imagick.contrastimage.md)
     
--   [Imagick::convolveImage »](imagick.convolveimage.html)
+-   [Imagick::convolveImage »](imagick.convolveimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Підвищує контрастність кольорового зображення
     

@@ -43,9 +43,9 @@ pg_fetch_all_columns(PgSql\Result $result, int $field = 0): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -65,7 +65,7 @@ if (!$result) {
   exit;
 }
 
-// Получить массив имён всех авторов
+// Получить Масив имён всех авторов
 $arr = pg_fetch_all_columns($result, 1);
 
 var_dump($arr);

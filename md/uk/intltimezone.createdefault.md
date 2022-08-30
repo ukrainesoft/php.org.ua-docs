@@ -1,12 +1,12 @@
 Створити нову копію часового поясу за промовчанням для поточного хоста
 
--   [« IntlTimeZone::countEquivalentIDs](intltimezone.countequivalentids.html)
+-   [« IntlTimeZone::countEquivalentIDs](intltimezone.countequivalentids.md)
     
--   [IntlTimeZone::createEnumeration »](intltimezone.createenumeration.html)
+-   [IntlTimeZone::createEnumeration »](intltimezone.createenumeration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlTimeZone](class.intltimezone.html)
+-   [IntlTimeZone](class.intltimezone.md)
     
 -   Створити нову копію часового поясу за промовчанням для поточного хоста
     

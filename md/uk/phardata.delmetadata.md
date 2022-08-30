@@ -1,12 +1,12 @@
 Видалити глобальні метадані для zip-архіву
 
--   [« PharData::decompressFiles](phardata.decompressfiles.html)
+-   [« PharData::decompressFiles](phardata.decompressfiles.md)
     
--   [PharData::delete »](phardata.delete.html)
+-   [PharData::delete »](phardata.delete.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharData](class.phardata.html)
+-   [PharData](class.phardata.md)
     
 -   Видалити глобальні метадані для zip-архіву
     
@@ -25,7 +25,7 @@ public PharData::delMetadata(): bool
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.html)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
 Видаляє глобальні метадані для zip-архіву
 
@@ -37,7 +37,7 @@ public PharData::delMetadata(): bool
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.html) у разі виникнення помилки під час збереження змін на диск.
+Викидає виняток [PharException](class.pharexception.md) у разі виникнення помилки під час збереження змін на диск.
 
 ### Приклади
 
@@ -68,4 +68,4 @@ NULL
 
 ### Дивіться також
 
--   [Phar::delMetadata()](phar.delmetadata.html) - Видалити глобальні метадані в архіві phar
+-   [Phar::delMetadata()](phar.delmetadata.md) - Видалити глобальні метадані в архіві phar

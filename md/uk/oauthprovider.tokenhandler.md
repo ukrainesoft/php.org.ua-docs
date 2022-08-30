@@ -1,12 +1,12 @@
 Встановити обробник tokenHandler
 
--   [« OAuthProvider::timestampNonceHandler](oauthprovider.timestampnoncehandler.html)
+-   [« OAuthProvider::timestampNonceHandler](oauthprovider.timestampnoncehandler.md)
     
--   [OAuthException »](class.oauthexception.html)
+-   [OAuthException »](class.oauthexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuthProvider](class.oauthprovider.html)
+-   [OAuthProvider](class.oauthprovider.md)
     
 -   Встановити обробник tokenHandler
     
@@ -23,7 +23,7 @@ OAuthProvider::tokenHandler — Встановити обробник tokenHandl
 public OAuthProvider::tokenHandler(callable $callback_function): void
 ```
 
-Встановлює callback-функцію обробника токена, яка використовуватиметься [OAuthProvider::callTokenHandler()](oauthprovider.calltokenhandler.html)
+Встановлює callback-функцію обробника токена, яка використовуватиметься [OAuthProvider::callTokenHandler()](oauthprovider.calltokenhandler.md)
 
 **Увага**
 
@@ -33,7 +33,7 @@ public OAuthProvider::tokenHandler(callable $callback_function): void
 
 `callback_function`
 
-Функція типу [callable](language.types.callable.html)
+Функція типу [callable](language.types.callable.md)
 
 ### Значення, що повертаються
 
@@ -61,4 +61,4 @@ function tokenHandler($provider) {
 
 ### Дивіться також
 
--   [OAuthProvider::callTokenHandler()](oauthprovider.calltokenhandler.html) - Викликати callback-функцію tokenNonceHandler
+-   [OAuthProvider::callTokenHandler()](oauthprovider.calltokenhandler.md) - Викликати callback-функцію tokenNonceHandler

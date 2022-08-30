@@ -1,12 +1,12 @@
 Повертає поточне налаштування згладжування тексту
 
--   [« ImagickDraw::getTextAlignment](imagickdraw.gettextalignment.html)
+-   [« ImagickDraw::getTextAlignment](imagickdraw.gettextalignment.md)
     
--   [ImagickDraw::getTextDecoration »](imagickdraw.gettextdecoration.html)
+-   [ImagickDraw::getTextDecoration »](imagickdraw.gettextdecoration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Повертає поточне налаштування згладжування тексту
     

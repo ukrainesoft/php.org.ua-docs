@@ -1,12 +1,12 @@
 Опис
 
--   [« ImagickKernel::addUnityKernel](imagickkernel.addunitykernel.html)
+-   [« ImagickKernel::addUnityKernel](imagickkernel.addunitykernel.md)
     
--   [ImagickKernel::fromMatrix »](imagickkernel.frommatrix.html)
+-   [ImagickKernel::fromMatrix »](imagickkernel.frommatrix.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickKernel](class.imagickkernel.html)
+-   [ImagickKernel](class.imagickkernel.md)
     
 -   Опис
     

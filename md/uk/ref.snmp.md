@@ -1,12 +1,12 @@
 Функції SNMP
 
--   [« Предопределённые константы](snmp.constants.html)
+-   [« Обумовлені константи](snmp.constants.md)
     
 -   [snmpgetquickprint »](function.snmp-get-quick-print.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SNMP](book.snmp.html)
+-   [SNMP](book.snmp.md)
     
 -   Функції SNMP
     
@@ -33,9 +33,9 @@
 -   [snmpv3realwalk](function.snmp3-real-walk.html) — Повертає всі об'єкти, включаючи їхній ідентифікатор у зазначеному об'єкті
 -   [snmpv3set](function.snmp3-set.html) — Встановлює значення об'єкта SNMP
 -   [snmpv3walk](function.snmp3-walk.html) — Отримує всі об'єкти SNMP із агента
--   [snmpget](function.snmpget.html) — Отримує об'єкт SNMP
--   [snmpgetnext](function.snmpgetnext.html) — Отримує об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
--   [snmprealwalk](function.snmprealwalk.html) — Повертає всі об'єкти, включаючи їхній ідентифікатор
--   [snmpset](function.snmpset.html) — Встановлює значення об'єкта SNMP
--   [snmpwalk](function.snmpwalk.html) — Отримує всі об'єкти SNMP із агента
--   [snmpwalkoid](function.snmpwalkoid.html) - Запит дерева інформації про мережевий об'єкт
+-   [snmpget](function.snmpget.md) — Отримує об'єкт SNMP
+-   [snmpgetnext](function.snmpgetnext.md) — Отримує об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
+-   [snmprealwalk](function.snmprealwalk.md) — Повертає всі об'єкти, включаючи їхній ідентифікатор
+-   [snmpset](function.snmpset.md) — Встановлює значення об'єкта SNMP
+-   [snmpwalk](function.snmpwalk.md) — Отримує всі об'єкти SNMP із агента
+-   [snmpwalkoid](function.snmpwalkoid.md) - Запит дерева інформації про мережевий об'єкт

@@ -1,12 +1,12 @@
 Створити об'єкт часового поясу з DateTimeZone
 
--   [« IntlTimeZone::createTimeZoneIDEnumeration](intltimezone.createtimezoneidenumeration.html)
+-   [« IntlTimeZone::createTimeZoneIDEnumeration](intltimezone.createtimezoneidenumeration.md)
     
--   [IntlTimeZone::getCanonicalID »](intltimezone.getcanonicalid.html)
+-   [IntlTimeZone::getCanonicalID »](intltimezone.getcanonicalid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlTimeZone](class.intltimezone.html)
+-   [IntlTimeZone](class.intltimezone.md)
     
 -   Створити об'єкт часового поясу з DateTimeZone
     
@@ -17,7 +17,7 @@
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::fromDateTimeZone -- intltzfromdatetimezone — Створити об'єкт часового поясу з [DateTimeZone](class.datetimezone.html)
+IntlTimeZone::fromDateTimeZone -- intltzfromdatetimezone — Створити об'єкт часового поясу з [DateTimeZone](class.datetimezone.md)
 
 ### Опис
 

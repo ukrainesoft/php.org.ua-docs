@@ -1,12 +1,12 @@
 Повертає різницю в одному або кількох зображеннях
 
--   [« Imagick::commentImage](imagick.commentimage.html)
+-   [« Imagick::commentImage](imagick.commentimage.md)
     
--   [Imagick::compareImageLayers »](imagick.compareimagelayers.html)
+-   [Imagick::compareImageLayers »](imagick.compareimagelayers.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає різницю в одному або кількох зображеннях
     

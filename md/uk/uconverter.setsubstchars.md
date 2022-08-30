@@ -1,12 +1,12 @@
 Встановлення символів підстановки
 
--   [« UConverter::setSourceEncoding](uconverter.setsourceencoding.html)
+-   [« UConverter::setSourceEncoding](uconverter.setsourceencoding.md)
     
--   [UConverter::toUCallback »](uconverter.toucallback.html)
+-   [UConverter::toUCallback »](uconverter.toucallback.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [UConverter](class.uconverter.html)
+-   [UConverter](class.uconverter.md)
     
 -   Встановлення символів підстановки
     

@@ -1,12 +1,12 @@
 Визначає найбільш підходящий формат дати/часу
 
--   [« IntlDatePatternGenerator::create](intldatepatterngenerator.create.html)
+-   [« IntlDatePatternGenerator::create](intldatepatterngenerator.create.md)
     
--   [IntlPartsIterator »](class.intlpartsiterator.html)
+-   [IntlPartsIterator »](class.intlpartsiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlDatePatternGenerator](class.intldatepatterngenerator.html)
+-   [IntlDatePatternGenerator](class.intldatepatterngenerator.md)
     
 -   Визначає найбільш підходящий формат дати/часу
     
@@ -33,7 +33,7 @@ public IntlDatePatternGenerator::getBestPattern(string $skeleton): string|false
 
 ### Значення, що повертаються
 
-Повертає формат, який приймається [DateTimeInterface::format()](datetime.format.html) у разі успішного виконання, або **`false`** у разі виникнення помилки.
+Повертає формат, який приймається [DateTimeInterface::format()](datetime.format.md) у разі успішного виконання, або **`false`** у разі виникнення помилки.
 
 ### Приклади
 

@@ -1,12 +1,12 @@
 Фіксує транзакцію
 
--   [« PDO::beginTransaction](pdo.begintransaction.html)
+-   [« PDO::beginTransaction](pdo.begintransaction.md)
     
--   [PDO::construct »](pdo.construct.html)
+-   [PDO::construct »](pdo.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDO](class.pdo.html)
+-   [PDO](class.pdo.md)
     
 -   Фіксує транзакцію
     
@@ -23,7 +23,7 @@ PDO::commit - Фіксує транзакцію
 public PDO::commit(): bool
 ```
 
-Фіксує транзакцію, повертаючи з'єднання з базою даних у режим автоматичної фіксації доти, доки наступний виклик [PDO::beginTransaction()](pdo.begintransaction.html) не розпочне нову транзакцію.
+Фіксує транзакцію, повертаючи з'єднання з базою даних у режим автоматичної фіксації доти, доки наступний виклик [PDO::beginTransaction()](pdo.begintransaction.md) не розпочне нову транзакцію.
 
 ### Список параметрів
 
@@ -35,7 +35,7 @@ public PDO::commit(): bool
 
 ### Помилки
 
-Викликає виняток [PDOException](class.pdoexception.html)якщо немає активної транзакції.
+Викликає виняток [PDOException](class.pdoexception.md)якщо немає активної транзакції.
 
 > **Зауваження**: Виняток буде викликано, навіть якщо атрибут **`PDO::ATTR_ERRMODE`** не виставлений у **`PDO::ERRMODE_EXCEPTION`**
 
@@ -91,6 +91,6 @@ $dbh->commit();
 
 ### Дивіться також
 
--   [PDO::beginTransaction()](pdo.begintransaction.html) - Ініціалізація транзакції
--   [PDO::rollBack()](pdo.rollback.html) - Відкат транзакції
--   [Транзакції та автоматична фіксація](pdo.transactions.html)
+-   [PDO::beginTransaction()](pdo.begintransaction.md) - Ініціалізація транзакції
+-   [PDO::rollBack()](pdo.rollback.md) - Відкат транзакції
+-   [Транзакції та автоматична фіксація](pdo.transactions.md)

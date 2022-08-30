@@ -1,12 +1,12 @@
 Встановлює час доступу та модифікації файлу
 
--   [« tmpfile](function.tmpfile.html)
+-   [« tmpfile](function.tmpfile.md)
     
--   [umask »](function.umask.html)
+-   [umask »](function.umask.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Встановлює час доступу та модифікації файлу
     
@@ -35,7 +35,7 @@ touch(string $filename, ?int $mtime = null, ?int $atime = null): bool
 
 `mtime`
 
-Час зміни. Якщо аргумент `mtime` дорівнює **`null`**, використовується поточний системний час ([time()](function.time.html)
+Час зміни. Якщо аргумент `mtime` дорівнює **`null`**, використовується поточний системний час ([time()](function.time.md)
 
 `atime`
 
@@ -47,9 +47,9 @@ touch(string $filename, ?int $mtime = null, ?int $atime = null): bool
 
 ### список змін
 
-| Версия | Описание                                                         |
-|--------|------------------------------------------------------------------|
-|        | Параметр `mtime` і `atime` тепер припускають значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `mtime` і `atime` тепер припускають значення **`null`** |
 
 ### Приклади
 

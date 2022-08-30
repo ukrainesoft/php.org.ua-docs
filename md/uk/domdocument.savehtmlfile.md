@@ -1,12 +1,12 @@
 Зберігає документ із внутрішнього подання до файлу, використовуючи форматування HTML
 
--   [« DOMDocument::saveHTML](domdocument.savehtml.html)
+-   [« DOMDocument::saveHTML](domdocument.savehtml.md)
     
--   [DOMDocument::saveXML »](domdocument.savexml.html)
+-   [DOMDocument::saveXML »](domdocument.savexml.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMDocument](class.domdocument.html)
+-   [DOMDocument](class.domdocument.md)
     
 -   Зберігає документ із внутрішнього подання до файлу, використовуючи форматування HTML
     
@@ -65,6 +65,6 @@ echo 'Записано: ' . $doc->saveHTMLFile("/tmp/test.html") . ' ба
 
 ### Дивіться також
 
--   [DOMDocument::saveHTML()](domdocument.savehtml.html) - Зберігає документ із внутрішнього подання до рядка, використовуючи форматування HTML
--   [DOMDocument::loadHTML()](domdocument.loadhtml.html) - Завантаження HTML з рядка
--   [DOMDocument::loadHTMLFile()](domdocument.loadhtmlfile.html) - Завантаження HTML із файлу
+-   [DOMDocument::saveHTML()](domdocument.savehtml.md) - Зберігає документ із внутрішнього подання до рядка, використовуючи форматування HTML
+-   [DOMDocument::loadHTML()](domdocument.loadhtml.md) - Завантаження HTML з рядка
+-   [DOMDocument::loadHTMLFile()](domdocument.loadhtmlfile.md) - Завантаження HTML із файлу

@@ -4,9 +4,9 @@
     
 -   [fanndescaleinput »](function.fann-descale-input.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Створює порожню структуру даних для навчання
     

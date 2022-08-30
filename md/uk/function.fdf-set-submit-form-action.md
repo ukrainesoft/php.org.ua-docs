@@ -4,9 +4,9 @@
     
 -   [fdfsettargetframe »](function.fdf-set-target-frame.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Встановлює дію форми надсилання поля
     

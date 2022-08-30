@@ -4,9 +4,9 @@
     
 -   [radiusserversecret »](function.radius-server-secret.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Radius](ref.radius.html)
+-   [Функции Radius](ref.radius.md)
     
 -   Відправляє запит і чекає на відповідь
     

@@ -1,12 +1,12 @@
 Повертає список викликів, що відбулися
 
--   [« Функции Scoutapm](ref.scoutapm.html)
+-   [« Функции Scoutapm](ref.scoutapm.md)
     
 -   [scoutapmlistinstrumentedfunctions »](function.scoutapm-list-instrumented-functions.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Scoutapm](ref.scoutapm.html)
+-   [Функции Scoutapm](ref.scoutapm.md)
     
 -   Повертає список викликів, що відбулися
     

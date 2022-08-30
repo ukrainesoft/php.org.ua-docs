@@ -1,12 +1,12 @@
 Функції, визначені користувачем
 
--   [« Функції](language.functions.html)
+-   [« Функції](language.functions.md)
     
--   [Аргументы функции »](functions.arguments.html)
+-   [Аргументи функції »](functions.arguments.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції](language.functions.html)
+-   [Функції](language.functions.md)
     
 -   Функції, визначені користувачем
     
@@ -33,7 +33,7 @@ function foo($arg_1, $arg_2, /* ..., */ $arg_n)
 
 **Підказка**
 
-Дивіться також [Руководство по именованию](userlandnaming.html)
+Дивіться також [Руководство по именованию](userlandnaming.md)
 
 Функції не повинні бути визначені до їх використання, *виключаючи* той випадок, коли функції визначаються умовно, як показано у двох наступних прикладах.
 

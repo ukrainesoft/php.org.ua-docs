@@ -1,12 +1,12 @@
 Повертає на початок усі приєднані ітератори
 
--   [« MultipleIterator::next](multipleiterator.next.html)
+-   [« MultipleIterator::next](multipleiterator.next.md)
     
--   [MultipleIterator::setFlags »](multipleiterator.setflags.html)
+-   [MultipleIterator::setFlags »](multipleiterator.setflags.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MultipleIterator](class.multipleiterator.html)
+-   [MultipleIterator](class.multipleiterator.md)
     
 -   Повертає на початок усі приєднані ітератори
     
@@ -39,4 +39,4 @@ public MultipleIterator::rewind(): void
 
 ### Дивіться також
 
--   [MultipleIterator::next()](multipleiterator.next.html) - Переміщує всі приєднані ітератори до своїх наступних елементів
+-   [MultipleIterator::next()](multipleiterator.next.md) - Переміщує всі приєднані ітератори до своїх наступних елементів

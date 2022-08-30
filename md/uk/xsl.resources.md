@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](xsl.configuration.html)
+-   [« Налаштування під час виконання](xsl.configuration.md)
     
--   [Предопределённые константы »](xsl.constants.html)
+-   [Обумовлені константи »](xsl.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xsl.setup.html)
+-   [Встановлення та налаштування](xsl.setup.md)
     
 -   Типи ресурсів
     

@@ -1,12 +1,12 @@
 Вступ
 
--   [« ODBC](book.uodbc.html)
+-   [« ODBC](book.uodbc.md)
     
--   [Установка и настройка »](uodbc.setup.html)
+-   [Встановлення та налаштування »](uodbc.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ODBC](book.uodbc.html)
+-   [ODBC](book.uodbc.md)
     
 -   Вступ
     

@@ -1,12 +1,12 @@
 Створює транзакцію
 
--   [« Stomp::ack](stomp.ack.html)
+-   [« Stomp::ack](stomp.ack.md)
     
--   [Stomp::commit »](stomp.commit.html)
+-   [Stomp::commit »](stomp.commit.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Stomp](class.stomp.html)
+-   [Stomp](class.stomp.md)
     
 -   Створює транзакцію
     
@@ -39,7 +39,7 @@ stomp_begin(resource $link, string $transaction_id, array $headers = ?): bool
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.html)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
 
 `transaction_id`
 
@@ -55,7 +55,7 @@ stomp_begin(resource $link, string $transaction_id, array $headers = ?): bool
 
 ### Приклади
 
-Дивіться [stompcommit()](stomp.commit.html) або [stompabort()](stomp.abort.html)
+Дивіться [stompcommit()](stomp.commit.md) або [stompabort()](stomp.abort.md)
 
 ### Примітки
 

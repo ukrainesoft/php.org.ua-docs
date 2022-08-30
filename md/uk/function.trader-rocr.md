@@ -4,9 +4,9 @@
     
 -   [traderrsi »](function.trader-rsi.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Коефіцієнт зміни курсу: (ціна/попередня ціна)
     

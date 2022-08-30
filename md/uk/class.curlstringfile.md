@@ -1,12 +1,12 @@
 Клас CURLStringFile
 
--   [« CURLFile::setPostFilename](curlfile.setpostfilename.html)
+-   [« CURLFile::setPostFilename](curlfile.setpostfilename.md)
     
--   [CURLStringFile::construct »](curlstringfile.construct.html)
+-   [CURLStringFile::construct »](curlstringfile.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [cURL](book.curl.html)
+-   [cURL](book.curl.md)
     
 -   Клас CURLStringFile
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Клас **CURLStringFile** дозволяє завантажувати файл прямо із змінної. Він схожий на [CURLFile](class.curlfile.html)але працює з вмістом файлу, а не з його ім'ям. Цей клас або [CURLFile](class.curlfile.html) слід використовувати для завантаження вмісту файлу за допомогою **`CURLOPT_POSTFIELDS`**
+Клас **CURLStringFile** дозволяє завантажувати файл прямо із змінної. Він схожий на [CURLFile](class.curlfile.md)але працює з вмістом файлу, а не з його ім'ям. Цей клас або [CURLFile](class.curlfile.md) слід використовувати для завантаження вмісту файлу за допомогою **`CURLOPT_POSTFIELDS`**
 
 ## Огляд класів
 
@@ -71,8 +71,8 @@ MIME-тип файлу (за замовчуванням `application/octet-strea
 ## Дивіться також
 
 -   [curlsetopt()](function.curl-setopt.html)
--   [CURLFile](class.curlfile.html)
+-   [CURLFile](class.curlfile.md)
 
 ## Зміст
 
--   [CURLStringFile::construct](curlstringfile.construct.html) — Створює об'єкт CURLStringFile
+-   [CURLStringFile::construct](curlstringfile.construct.md) — Створює об'єкт CURLStringFile

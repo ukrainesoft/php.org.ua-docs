@@ -1,12 +1,12 @@
 Клас DateTime
 
--   [« Арифметика даты/времени](datetime.examples-arithmetic.html)
+-   [« Арифметика дати/часу](datetime.examples-arithmetic.html)
     
--   [DateTime::add »](datetime.add.html)
+-   [DateTime::add »](datetime.add.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Дата/время](book.datetime.html)
+-   [Дата/время](book.datetime.md)
     
 -   Клас DateTime
     
@@ -19,11 +19,11 @@
 
 Подання дати та часу.
 
-Клас поводиться так само, як і [DateTimeImmutable](class.datetimeimmutable.html), крім того, що об'єкти модифікуються самі під час виклику таких методів модифікації, як [DateTime::modify()](datetime.modify.html)
+Клас поводиться так само, як і [DateTimeImmutable](class.datetimeimmutable.md), крім того, що об'єкти модифікуються самі під час виклику таких методів модифікації, як [DateTime::modify()](datetime.modify.md)
 
 **Увага**
 
-Виклик методів для об'єктів класу **DateTime** змінить інформацію, укладену в цих об'єктах, якщо ви хочете запобігти цьому, вам доведеться використовувати оператор `clone` створення нового об'єкта. Використовуйте клас [DateTimeImmutable](class.datetimeimmutable.html) замість **DateTime**, щоб отримати рекомендовану поведінку за промовчанням.
+Виклик методів для об'єктів класу **DateTime** змінить інформацію, укладену в цих об'єктах, якщо ви хочете запобігти цьому, вам доведеться використовувати оператор `clone` створення нового об'єкта. Використовуйте клас [DateTimeImmutable](class.datetimeimmutable.md) замість **DateTime**, щоб отримати рекомендовану поведінку за промовчанням.
 
 ## Огляд класів
 
@@ -116,24 +116,24 @@ public __wakeup(): void
 
 ## список змін
 
-| Версия | Описание                                                                                                                           |
-|--------|------------------------------------------------------------------------------------------------------------------------------------|
-|        | Константи класу тепер **DateTime** визначено в [DateTimeInterface](class.datetimeinterface.html)                                   |
-|        | Конструктор класу **DateTime** тепер включає поточні мікросекунди. До цього він завжди ініціалізував мікросекунди зі значенням `0` |
+| Версия | Описание |
+| --- | --- |
+|  | Константи класу тепер **DateTime** визначено в [DateTimeInterface](class.datetimeinterface.md) |
+|  | Конструктор класу **DateTime** тепер включає поточні мікросекунди. До цього він завжди ініціалізував мікросекунди зі значенням `0` |
 
 ## Зміст
 
--   [DateTime::add](datetime.add.html) — Змінює об'єкт DateTime, додаючи кількість днів, місяців, років, годин, хвилин та секунд
--   [DateTime::construct](datetime.construct.html) - Конструктор класу DateTime
--   [DateTime::createFromFormat](datetime.createfromformat.html) — Розбирає рядок із датою згідно з вказаним форматом
--   [DateTime::createFromImmutable](datetime.createfromimmutable.html) — Повертає об'єкт DateTime інкапсулюючий заданий об'єкт DateTimeImmutable
--   [DateTime::createFromInterface](datetime.createfrominterface.html) — Повертає новий об'єкт DateTime, створений із переданого об'єкта, який реалізує інтерфейс DateTimeInterface
--   [DateTime::getLastErrors](datetime.getlasterrors.html) — Повертає попередження та помилки
--   [DateTime::modify](datetime.modify.html) - Зміна тимчасової мітки
+-   [DateTime::add](datetime.add.md) — Змінює об'єкт DateTime, додаючи кількість днів, місяців, років, годин, хвилин та секунд
+-   [DateTime::construct](datetime.construct.md) - Конструктор класу DateTime
+-   [DateTime::createFromFormat](datetime.createfromformat.md) — Розбирає рядок із датою згідно з вказаним форматом
+-   [DateTime::createFromImmutable](datetime.createfromimmutable.md) — Повертає об'єкт DateTime інкапсулюючий заданий об'єкт DateTimeImmutable
+-   [DateTime::createFromInterface](datetime.createfrominterface.md) — Повертає новий об'єкт DateTime, створений із переданого об'єкта, який реалізує інтерфейс DateTimeInterface
+-   [DateTime::getLastErrors](datetime.getlasterrors.md) — Повертає попередження та помилки
+-   [DateTime::modify](datetime.modify.md) - Зміна тимчасової мітки
 -   [DateTime::setstate](datetime.set-state.html) - Обробник setstate
--   [DateTime::setDate](datetime.setdate.html) - Встановлює дату
--   [DateTime::setISODate](datetime.setisodate.html) — Встановлює дату ISO
--   [DateTime::setTime](datetime.settime.html) - Встановлює час
--   [DateTime::setTimestamp](datetime.settimestamp.html) — Встановлює дату та час на основі мітки часу Unix
--   [DateTime::setTimezone](datetime.settimezone.html) — Встановлює часовий пояс для об'єкта класу DateTime
--   [DateTime::sub](datetime.sub.html) — Змінює вказаний об'єкт DateTime, віднімаючи вказаний об'єкт DateInterval.
+-   [DateTime::setDate](datetime.setdate.md) - Встановлює дату
+-   [DateTime::setISODate](datetime.setisodate.md) — Встановлює дату ISO
+-   [DateTime::setTime](datetime.settime.md) - Встановлює час
+-   [DateTime::setTimestamp](datetime.settimestamp.md) — Встановлює дату та час на основі мітки часу Unix
+-   [DateTime::setTimezone](datetime.settimezone.md) — Встановлює часовий пояс для об'єкта класу DateTime
+-   [DateTime::sub](datetime.sub.md) — Змінює вказаний об'єкт DateTime, віднімаючи вказаний об'єкт DateInterval.

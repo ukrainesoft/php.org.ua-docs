@@ -1,12 +1,12 @@
 Клас Yac
 
--   [« Предопределённые константы](yac.constants.html)
+-   [« Обумовлені константи](yac.constants.md)
     
--   [Yac::add »](yac.add.html)
+-   [Yac::add »](yac.add.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yac](book.yac.html)
+-   [Yac](book.yac.md)
     
 -   Клас Yac
     
@@ -61,13 +61,13 @@ prefix
 
 ## Зміст
 
--   [Yac::add](yac.add.html) - Зберігає в кеш
--   [Yac::construct](yac.construct.html) - Конструктор класу
--   [Yac::delete](yac.delete.html) — Видаляє елементи з кешу
--   [Yac::dump](yac.dump.html) - Дамп кеша
--   [Yac::flush](yac.flush.html) - Очищає кеш
--   [Yac::get](yac.get.html) — Витягує значення з кешу
--   [Yac::get](yac.getter.html) - Геттер
--   [Yac::info](yac.info.html) - Стан кешу
--   [Yac::set](yac.set.html) - Зберігає в кеш
--   [Yac::set](yac.setter.html) - Сеттер
+-   [Yac::add](yac.add.md) - Зберігає в кеш
+-   [Yac::construct](yac.construct.md) - Конструктор класу
+-   [Yac::delete](yac.delete.md) — Видаляє елементи з кешу
+-   [Yac::dump](yac.dump.md) - Дамп кеша
+-   [Yac::flush](yac.flush.md) - Очищає кеш
+-   [Yac::get](yac.get.md) — Витягує значення з кешу
+-   [Yac::get](yac.getter.md) - Геттер
+-   [Yac::info](yac.info.md) - Стан кешу
+-   [Yac::set](yac.set.md) - Зберігає в кеш
+-   [Yac::set](yac.setter.md) - Сеттер

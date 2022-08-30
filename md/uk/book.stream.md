@@ -14,12 +14,12 @@
 # Потоки
 
 -   [Введение](intro.stream.html)
--   [Установка и настройка](stream.setup.html)
-    -   [Требования](stream.requirements.html)
+-   [Встановлення та налаштування](stream.setup.html)
+    -   [Вимоги](stream.requirements.html)
     -   [Установка](stream.installation.html)
-    -   [Настройка во время выполнения](stream.configuration.html)
+    -   [Налаштування під час виконання](stream.configuration.html)
     -   [Класи для роботи з потоками](stream.resources.html)
--   [Предопределённые константы](stream.constants.html)
+-   [Обумовлені константи](stream.constants.html)
 -   [Поточні фільтри](stream.filters.html)
 -   [Контексти потоків](stream.contexts.html)
 -   [Ошибки потока](stream.errors.html)

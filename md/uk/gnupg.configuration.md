@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](gnupg.installation.html)
+-   [« Установка](gnupg.installation.md)
     
--   [Типы ресурсов »](gnupg.resources.html)
+-   [Типи ресурсів »](gnupg.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](gnupg.setup.html)
+-   [Встановлення та налаштування](gnupg.setup.md)
     
 -   Налаштування під час виконання
     

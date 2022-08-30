@@ -4,7 +4,7 @@
     
 -   [YafPluginAbstract::preResponse »](yaf-plugin-abstract.preresponse.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafPluginAbstract](class.yaf-plugin-abstract.html)
     

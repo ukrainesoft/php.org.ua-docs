@@ -4,7 +4,7 @@
     
 -   [HRTimeStopWatch::stop »](hrtime-stopwatch.stop.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [HRTimeStopWatch](class.hrtime-stopwatch.html)
     

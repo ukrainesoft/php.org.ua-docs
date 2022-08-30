@@ -1,12 +1,12 @@
 ParseError
 
--   [« CompileError](class.compileerror.html)
+-   [« CompileError](class.compileerror.md)
     
--   [TypeError »](class.typeerror.html)
+-   [TypeError »](class.typeerror.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые исключения](reserved.exceptions.html)
+-   [Обумовлені винятки](reserved.exceptions.md)
     
 -   ParseError
     
@@ -17,9 +17,9 @@ ParseError
 
 ## Вступ
 
-**ParseError** викидається, коли виникає помилка при розборі PHP-коду, наприклад, коли викликається функція [eval()](function.eval.html)
+**ParseError** викидається, коли виникає помилка при розборі PHP-коду, наприклад, коли викликається функція [eval()](function.eval.md)
 
-> **Зауваження**: Починаючи з PHP 7.3.0, клас **ParseError** успадковується від [CompileError](class.compileerror.html). Раніше цей клас розширював клас [Error](class.error.html)
+> **Зауваження**: Починаючи з PHP 7.3.0, клас **ParseError** успадковується від [CompileError](class.compileerror.md). Раніше цей клас розширював клас [Error](class.error.md)
 
 ## Огляд класів
 

@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverWriteResult::getModifiedCount »](mongodb-driver-writeresult.getmodifiedcount.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
     

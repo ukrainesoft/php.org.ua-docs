@@ -1,12 +1,12 @@
 Видаляє директорію
 
--   [« streamWrapper::rename](streamwrapper.rename.html)
+-   [« streamWrapper::rename](streamwrapper.rename.md)
     
 -   [streamWrapper::streamcast »](streamwrapper.stream-cast.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [streamWrapper](class.streamwrapper.html)
+-   [streamWrapper](class.streamwrapper.md)
     
 -   Видаляє директорію
     
@@ -23,7 +23,7 @@ streamWrapper::rmdir — Видаляє директорію
 public streamWrapper::rmdir(string $path, int $options): bool
 ```
 
-Цей метод викликається у процесі виконання [rmdir()](function.rmdir.html)
+Цей метод викликається у процесі виконання [rmdir()](function.rmdir.md)
 
 > **Зауваження**
 > 
@@ -55,6 +55,6 @@ URL директорії, що видаляється.
 
 ### Дивіться також
 
--   [rmdir()](function.rmdir.html) - видаляє директорію
--   [streamwrapper::mkdir()](streamwrapper.mkdir.html) - створення директорії
--   [streamwrapper::unlink()](streamwrapper.unlink.html) - Видалення файлу
+-   [rmdir()](function.rmdir.md) - видаляє директорію
+-   [streamwrapper::mkdir()](streamwrapper.mkdir.md) - створення директорії
+-   [streamwrapper::unlink()](streamwrapper.unlink.md) - Видалення файлу

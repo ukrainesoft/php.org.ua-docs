@@ -4,7 +4,7 @@
     
 -   [YafRequestSimple::getCookie »](yaf-request-simple.getcookie.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRequestSimple](class.yaf-request-simple.html)
     

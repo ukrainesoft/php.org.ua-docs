@@ -39,4 +39,4 @@ final public MongoDB\Driver\CursorId::serialize(): string
 
 -   [MongoDBDriverCursorId::unserialize()](mongodb-driver-cursorid.unserialize.html) - Десеріалізація CursorId
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [Серіалізація об'єктів](language.oop5.serialization.html)

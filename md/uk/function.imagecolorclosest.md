@@ -1,12 +1,12 @@
 Отримання індексу кольору найближчого до заданого
 
--   [« imagecolorat](function.imagecolorat.html)
+-   [« imagecolorat](function.imagecolorat.md)
     
--   [imagecolorclosestalpha »](function.imagecolorclosestalpha.html)
+-   [imagecolorclosestalpha »](function.imagecolorclosestalpha.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Отримання індексу кольору найближчого до заданого
     
@@ -33,7 +33,7 @@ imagecolorclosest(    GdImage $image,    int $red,    int $green, �
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `red`
 
@@ -55,9 +55,9 @@ imagecolorclosest(    GdImage $image,    int $red,    int $green, �
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -103,6 +103,6 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagecolorexact()](function.imagecolorexact.html) - Отримання індексу заданого кольору
--   [imagecolorclosestalpha()](function.imagecolorclosestalpha.html) - Отримання індексу кольору найближчого до заданого з урахуванням прозорості
--   [imagecolorclosesthwb()](function.imagecolorclosesthwb.html) - Отримання індексу кольору, що має заданий тон, білизну та затемнення
+-   [imagecolorexact()](function.imagecolorexact.md) - Отримання індексу заданого кольору
+-   [imagecolorclosestalpha()](function.imagecolorclosestalpha.md) - Отримання індексу кольору найближчого до заданого з урахуванням прозорості
+-   [imagecolorclosesthwb()](function.imagecolorclosesthwb.md) - Отримання індексу кольору, що має заданий тон, білизну та затемнення

@@ -1,12 +1,12 @@
 Встановлення значення, що повертається
 
--   [« GearmanJob::sendWarning](gearmanjob.sendwarning.html)
+-   [« GearmanJob::sendWarning](gearmanjob.sendwarning.md)
     
--   [GearmanJob::status »](gearmanjob.status.html)
+-   [GearmanJob::status »](gearmanjob.status.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanJob](class.gearmanjob.html)
+-   [GearmanJob](class.gearmanjob.md)
     
 -   Встановлення значення, що повертається
     

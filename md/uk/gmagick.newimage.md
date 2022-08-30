@@ -1,12 +1,12 @@
 Створює нове зображення
 
--   [« Gmagick::motionblurimage](gmagick.motionblurimage.html)
+-   [« Gmagick::motionblurimage](gmagick.motionblurimage.md)
     
--   [Gmagick::nextimage »](gmagick.nextimage.html)
+-   [Gmagick::nextimage »](gmagick.nextimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Створює нове зображення
     
@@ -45,7 +45,7 @@ public Gmagick::newimage(    int $width,    int $height,    string $
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

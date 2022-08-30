@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.pcre.html)
+-   [« Введение](intro.pcre.md)
     
--   [Требования »](pcre.requirements.html)
+-   [Вимоги »](pcre.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PCRE](book.pcre.html)
+-   [PCRE](book.pcre.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](pcre.requirements.html)
--   [Установка](pcre.installation.html)
--   [Настройка во время выполнения](pcre.configuration.html)
--   [Типы ресурсов](pcre.resources.html)
+-   [Вимоги](pcre.requirements.md)
+-   [Установка](pcre.installation.md)
+-   [Налаштування під час виконання](pcre.configuration.md)
+-   [Типи ресурсів](pcre.resources.md)

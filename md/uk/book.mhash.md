@@ -14,13 +14,13 @@ Mhash
 # Mhash
 
 -   [Введение](intro.mhash.html)
--   [Установка и настройка](mhash.setup.html)
-    -   [Требования](mhash.requirements.html)
+-   [Встановлення та налаштування](mhash.setup.html)
+    -   [Вимоги](mhash.requirements.html)
     -   [Установка](mhash.installation.html)
-    -   [Настройка во время выполнения](mhash.configuration.html)
-    -   [Типы ресурсов](mhash.resources.html)
--   [Предопределённые константы](mhash.constants.html)
--   [Примеры](mhash.examples.html)
+    -   [Налаштування під час виконання](mhash.configuration.html)
+    -   [Типи ресурсів](mhash.resources.html)
+-   [Обумовлені константи](mhash.constants.html)
+-   [Приклади](mhash.examples.html)
 -   [Функции Mhash](ref.mhash.html)
     -   [mhashcount](function.mhash-count.html) — Отримати найбільш доступний ідентифікатор хешу
     -   [mhashgetblocksize](function.mhash-get-block-size.html) — Отримати розмір блоку для заданого хеша

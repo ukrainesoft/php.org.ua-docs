@@ -1,12 +1,12 @@
 Звільняє ресурси, виділені для цієї бази подій
 
--   [« EventBase::exit](eventbase.exit.html)
+-   [« EventBase::exit](eventbase.exit.md)
     
--   [EventBase::getFeatures »](eventbase.getfeatures.html)
+-   [EventBase::getFeatures »](eventbase.getfeatures.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBase](class.eventbase.html)
+-   [EventBase](class.eventbase.md)
     
 -   Звільняє ресурси, виділені для цієї бази подій
     
@@ -24,13 +24,13 @@ public
    EventBase::free(): void
 ```
 
-Визволяє ресурси, виділені якобов'язок для об'єкта [EventBase](class.eventbase.html)
+Визволяє ресурси, виділені якобов'язок для об'єкта [EventBase](class.eventbase.md)
 
 **Увага**
 
-Метод **EventBase::free()** не руйнує сам об'єкт. Щоб повністю знищити об'єкт, викличте [unset()](function.unset.html) або привласніть **`null`**
+Метод **EventBase::free()** не руйнує сам об'єкт. Щоб повністю знищити об'єкт, викличте [unset()](function.unset.md) або привласніть **`null`**
 
-Цей метод не звільняє і не від'єднує будь-які події, які на даний момент пов'язані з об'єктом [EventBase](class.eventbase.html), і не закриває їх сокети - будьте обережні.
+Цей метод не звільняє і не від'єднує будь-які події, які на даний момент пов'язані з об'єктом [EventBase](class.eventbase.md), і не закриває їх сокети - будьте обережні.
 
 ### Список параметрів
 
@@ -42,4 +42,4 @@ public
 
 ### Дивіться також
 
--   [EventBase::construct()](eventbase.construct.html) - Конструктор об'єкту EventBase
+-   [EventBase::construct()](eventbase.construct.md) - Конструктор об'єкту EventBase

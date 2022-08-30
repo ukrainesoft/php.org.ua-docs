@@ -4,9 +4,9 @@
     
 -   [enchantbrokerrequestpwldict »](function.enchant-broker-request-pwl-dict.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Enchant](ref.enchant.html)
+-   [Функции Enchant](ref.enchant.md)
     
 -   Створити новий словник, використовуючи тег
     
@@ -41,10 +41,10 @@ enchant_broker_request_dict(EnchantBroker $broker, string $tag): EnchantDictiona
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                    |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html)                                   |
-|        | У разі успішного виконання функція повертає екземпляр [EnchantDictionary](class.enchantdictionary.html); Раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | У разі успішного виконання функція повертає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

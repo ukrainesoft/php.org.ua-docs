@@ -1,12 +1,12 @@
 Встановити контекст програми
 
--   [« GearmanClient::setCompleteCallback](gearmanclient.setcompletecallback.html)
+-   [« GearmanClient::setCompleteCallback](gearmanclient.setcompletecallback.md)
     
--   [GearmanClient::setCreatedCallback »](gearmanclient.setcreatedcallback.html)
+-   [GearmanClient::setCreatedCallback »](gearmanclient.setcreatedcallback.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanClient](class.gearmanclient.html)
+-   [GearmanClient](class.gearmanclient.md)
     
 -   Встановити контекст програми
     
@@ -23,7 +23,7 @@ GearmanClient::setContext — Встановити контекст програ
 public GearmanClient::setContext(string $context): bool
 ```
 
-Встановлює довільний рядок для надання контексту програми, яка може бути пізніше отримана за допомогою [GearmanClient::context()](gearmanclient.context.html)
+Встановлює довільний рядок для надання контексту програми, яка може бути пізніше отримана за допомогою [GearmanClient::context()](gearmanclient.context.md)
 
 ### Список параметрів
 
@@ -37,4 +37,4 @@ public GearmanClient::setContext(string $context): bool
 
 ### Дивіться також
 
--   [GearmanClient::context()](gearmanclient.context.html) - Повертає контекст програми
+-   [GearmanClient::context()](gearmanclient.context.md) - Повертає контекст програми

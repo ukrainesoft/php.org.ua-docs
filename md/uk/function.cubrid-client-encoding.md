@@ -4,9 +4,9 @@
     
 -   [cubridclose »](function.cubrid-close.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
     
 -   Повертає кодування поточного з'єднання CUBRID
     

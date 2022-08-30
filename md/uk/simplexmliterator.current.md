@@ -1,12 +1,12 @@
 Повертає поточний елемент
 
--   [« SimpleXMLIterator](class.simplexmliterator.html)
+-   [« SimpleXMLIterator](class.simplexmliterator.md)
     
--   [SimpleXMLIterator::getChildren »](simplexmliterator.getchildren.html)
+-   [SimpleXMLIterator::getChildren »](simplexmliterator.getchildren.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXMLIterator](class.simplexmliterator.html)
+-   [SimpleXMLIterator](class.simplexmliterator.md)
     
 -   Повертає поточний елемент
     
@@ -23,7 +23,7 @@ SimpleXMLIterator::current — Повертає поточний елемент
 public SimpleXMLIterator::current(): mixed
 ```
 
-Цей метод повертає поточний елемент як об'єкт класу [SimpleXMLIterator](class.simplexmliterator.html) або **`null`**
+Цей метод повертає поточний елемент як об'єкт класу [SimpleXMLIterator](class.simplexmliterator.md) або **`null`**
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public SimpleXMLIterator::current(): mixed
 
 ### Значення, що повертаються
 
-Повертає поточний елемент як об'єкт класу [SimpleXMLIterator](class.simplexmliterator.html) або **`null`** у разі виникнення помилки.
+Повертає поточний елемент як об'єкт класу [SimpleXMLIterator](class.simplexmliterator.md) або **`null`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -59,8 +59,8 @@ object(SimpleXMLIterator)#2 (1) {
 
 ### Дивіться також
 
--   [SimpleXMLIterator::key()](simplexmliterator.key.html) - Повертає поточний ключ
--   [SimpleXMLIterator::next()](simplexmliterator.next.html) - Переміщує ітератор до наступного елементу
--   [SimpleXMLIterator::rewind()](simplexmliterator.rewind.html) - Повертає ітератор до першого елементу
--   [SimpleXMLIterator::valid()](simplexmliterator.valid.html) - Перевіряє, чи є поточний елемент допустимим
--   [SimpleXMLElement](class.simplexmlelement.html)
+-   [SimpleXMLIterator::key()](simplexmliterator.key.md) - Повертає поточний ключ
+-   [SimpleXMLIterator::next()](simplexmliterator.next.md) - Переміщує ітератор до наступного елементу
+-   [SimpleXMLIterator::rewind()](simplexmliterator.rewind.md) - Повертає ітератор до першого елементу
+-   [SimpleXMLIterator::valid()](simplexmliterator.valid.md) - Перевіряє, чи є поточний елемент допустимим
+-   [SimpleXMLElement](class.simplexmlelement.md)

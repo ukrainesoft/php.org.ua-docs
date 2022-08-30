@@ -1,12 +1,12 @@
 Повертає усі поля facet.date
 
--   [« SolrQuery::getFacetDateEnd](solrquery.getfacetdateend.html)
+-   [« SolrQuery::getFacetDateEnd](solrquery.getfacetdateend.md)
     
--   [SolrQuery::getFacetDateGap »](solrquery.getfacetdategap.html)
+-   [SolrQuery::getFacetDateGap »](solrquery.getfacetdategap.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає усі поля facet.date
     

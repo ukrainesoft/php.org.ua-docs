@@ -4,9 +4,9 @@
     
 -   [sodiumcryptoauthkeygen »](function.sodium-crypto-auth-keygen.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Створює випадковий ключ XChaCha20-Poly1305
     

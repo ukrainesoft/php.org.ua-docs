@@ -4,9 +4,9 @@
     
 -   [socketrecv »](function.socket-recv.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции сокета](ref.sockets.html)
+-   [Функции сокета](ref.sockets.md)
     
 -   Читає рядок максимальну довжину байт із сокету
     
@@ -23,13 +23,13 @@ socketread — Читає рядок максимальну довжину ба�
 socket_read(Socket $socket, int $length, int $mode = PHP_BINARY_READ): string|false
 ```
 
-Функція **socketread()** читає дані з екземпляра [Socket](class.socket.html) `socket`, створеного за допомогою функцій [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
+Функція **socketread()** читає дані з екземпляра [Socket](class.socket.md) `socket`, створеного за допомогою функцій [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
 
 ### Список параметрів
 
 `socket`
 
-Екземпляр [Socket](class.socket.html)створений за допомогою функцій [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
+Екземпляр [Socket](class.socket.md)створений за допомогою функцій [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
 
 `length`
 
@@ -52,9 +52,9 @@ socket_read(Socket $socket, int $length, int $mode = PHP_BINARY_READ): string|fa
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 

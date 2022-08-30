@@ -4,9 +4,9 @@
     
 -   [CommonMarkCQL::construct »](commonmark-cql.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CommonMark](book.cmark.html)
+-   [CommonMark](book.cmark.md)
     
 -   Клас CommonMarkCQL
     

@@ -4,9 +4,9 @@
     
 -   [imapuid »](function.imap-uid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции IMAP](ref.imap.html)
+-   [Функции IMAP](ref.imap.md)
     
 -   Встановити або отримати час очікування imap
     

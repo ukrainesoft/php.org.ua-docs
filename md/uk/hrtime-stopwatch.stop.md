@@ -4,7 +4,7 @@
     
 -   [HRTimeUnit »](class.hrtime-unit.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [HRTimeStopWatch](class.hrtime-stopwatch.html)
     

@@ -4,9 +4,9 @@
     
 -   [ldapt61то](function.ldap-t61-to-8859.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.md)
     
 -   Запуск TLS
     

@@ -4,9 +4,9 @@
     
 -   [sessiongc »](function.session-gc.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи із сесіями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.md)
     
 -   Кодує дані поточної сесії у форматі рядка сесії
     
@@ -25,7 +25,7 @@ session_encode(): string|false
 
 **sessionencode()** повертає серіалізований рядок, що містить дані поточної сесії, що зберігаються в суперглобальному масиві $ SESSION.
 
-За замовчуванням використовується внутрішній метод серіалізації PHP і результат відрізнятиметься від формату, що повертається функцією [serialize()](function.serialize.html). Метод серіалізації може бути встановлений за допомогою [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
+За замовчуванням використовується внутрішній метод серіалізації PHP і результат відрізнятиметься від формату, що повертається функцією [serialize()](function.serialize.md). Метод серіалізації може бути встановлений за допомогою [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
 
 ### Список параметрів
 

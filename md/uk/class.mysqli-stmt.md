@@ -4,9 +4,9 @@ The mysqlistmt class
     
 -   [mysqlistmt::$affectedrows »](mysqli-stmt.affected-rows.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQLi](book.mysqli.html)
+-   [MySQLi](book.mysqli.md)
     
 -   The mysqlistmt class
     

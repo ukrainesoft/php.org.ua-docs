@@ -1,12 +1,12 @@
 Видалити елемент із пулу опитування
 
--   [« ZMQPoll::poll](zmqpoll.poll.html)
+-   [« ZMQPoll::poll](zmqpoll.poll.md)
     
--   [ZMQDevice »](class.zmqdevice.html)
+-   [ZMQDevice »](class.zmqdevice.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQPoll](class.zmqpoll.html)
+-   [ZMQPoll](class.zmqpoll.md)
     
 -   Видалити елемент із пулу опитування
     
@@ -23,7 +23,7 @@ ZMQPoll::remove — Видалити елемент із пула опитува
 public ZMQPoll::remove(mixed $item): bool
 ```
 
-Видаляє елемент із пулу опитування. Параметр `item` повинен бути об'єктом ZMQSocket, потоковим ресурсом або ідентифікатором, отриманим у результаті виконання методу [ZMQPoll::add()](zmqpoll.add.html)
+Видаляє елемент із пулу опитування. Параметр `item` повинен бути об'єктом ZMQSocket, потоковим ресурсом або ідентифікатором, отриманим у результаті виконання методу [ZMQPoll::add()](zmqpoll.add.md)
 
 ### Список параметрів
 

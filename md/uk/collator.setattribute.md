@@ -69,6 +69,6 @@ if ($val === false) {
 
 ### Дивіться також
 
--   [Константы](class.collator.html#intl.collator-constants) [Collator](class.collator.html)
+-   [Константи](class.collator.html#intl.collator-constants) [Collator](class.collator.html)
 -   [collatorgetattribute()](collator.getattribute.html) - Отримує значення атрибуту зіставлення
 -   [collatorsetstrength()](collator.setstrength.html) - встановлює силу зіставлення

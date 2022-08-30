@@ -2,11 +2,11 @@
 
 -   [« Установка](zookeeper.installation.html)
     
--   [Типы ресурсов »](zookeeper.resources.html)
+-   [Типи ресурсів »](zookeeper.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](zookeeper.setup.html)
+-   [Встановлення та налаштування](zookeeper.setup.html)
     
 -   Налаштування під час виконання
     
@@ -17,13 +17,13 @@
 
 **Опції налаштування Zookeeper**
 
-| Имя                                                                                 | По умолчанию | Место изменения | История изменений |
-|-------------------------------------------------------------------------------------|--------------|-----------------|-------------------|
-| [zookeeper.recvtimeout](zookeeper.configuration.html#ini.zookeeper.recv_timeout)    |              | PHPINIALL       |                   |
-| [zookeeper.sessionlock](zookeeper.configuration.html#ini.zookeeper.session_lock)    |              | PHPINISYSTEM    |                   |
-| [zookeeper.sesslockwait](zookeeper.configuration.html#ini.zookeeper.sess_lock_wait) |              | PHPINIALL       |                   |
+| Имя | По умолчанию | Место изменения | История изменений |
+| --- | --- | --- | --- |
+| [zookeeper.recvtimeout](zookeeper.configuration.html#ini.zookeeper.recv_timeout) |  | PHPINIALL |  |
+| [zookeeper.sessionlock](zookeeper.configuration.html#ini.zookeeper.session_lock) |  | PHPINISYSTEM |  |
+| [zookeeper.sesslockwait](zookeeper.configuration.html#ini.zookeeper.sess_lock_wait) |  | PHPINIALL |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 
 Коротке пояснення конфігураційних директив.
 

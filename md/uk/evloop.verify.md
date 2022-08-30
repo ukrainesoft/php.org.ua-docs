@@ -1,12 +1,12 @@
 Виконує внутрішні перевірки узгодженості (для налагодження)
 
--   [« EvLoop::timer](evloop.timer.html)
+-   [« EvLoop::timer](evloop.timer.md)
     
--   [EvPeriodic »](class.evperiodic.html)
+-   [EvPeriodic »](class.evperiodic.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvLoop](class.evloop.html)
+-   [EvLoop](class.evloop.md)
     
 -   Виконує внутрішні перевірки узгодженості (для налагодження)
     
@@ -36,4 +36,4 @@ public
 
 ### Дивіться також
 
--   [Ev::verify()](ev.verify.html) - Здійснює внутрішню перевірку цілісності (для налагодження)
+-   [Ev::verify()](ev.verify.md) - Здійснює внутрішню перевірку цілісності (для налагодження)

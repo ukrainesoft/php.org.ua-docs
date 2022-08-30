@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.ffi.html)
     
--   [Требования »](ffi.requirements.html)
+-   [Вимоги »](ffi.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](ffi.requirements.html)
+-   [Вимоги](ffi.requirements.html)
 -   [Установка](ffi.installation.html)
--   [Настройка во время выполнения](ffi.configuration.html)
--   [Типы ресурсов](ffi.resources.html)
+-   [Налаштування під час виконання](ffi.configuration.html)
+-   [Типи ресурсів](ffi.resources.html)

@@ -1,12 +1,12 @@
 Повертає вираз для початку
 
--   [« SolrQuery::getTermsLimit](solrquery.gettermslimit.html)
+-   [« SolrQuery::getTermsLimit](solrquery.gettermslimit.md)
     
--   [SolrQuery::getTermsMaxCount »](solrquery.gettermsmaxcount.html)
+-   [SolrQuery::getTermsMaxCount »](solrquery.gettermsmaxcount.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає вираз для початку
     

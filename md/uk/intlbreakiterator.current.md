@@ -1,12 +1,12 @@
 Повертає індекс поточної позиції
 
--   [« IntlBreakIterator::createWordInstance](intlbreakiterator.createwordinstance.html)
+-   [« IntlBreakIterator::createWordInstance](intlbreakiterator.createwordinstance.md)
     
--   [IntlBreakIterator::first »](intlbreakiterator.first.html)
+-   [IntlBreakIterator::first »](intlbreakiterator.first.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlBreakIterator](class.intlbreakiterator.html)
+-   [IntlBreakIterator](class.intlbreakiterator.md)
     
 -   Повертає індекс поточної позиції
     

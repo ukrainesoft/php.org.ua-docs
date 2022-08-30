@@ -1,12 +1,12 @@
 Перевірка запиту oauth
 
--   [« OAuthProvider::calltokenHandler](oauthprovider.calltokenhandler.html)
+-   [« OAuthProvider::calltokenHandler](oauthprovider.calltokenhandler.md)
     
--   [OAuthProvider::construct »](oauthprovider.construct.html)
+-   [OAuthProvider::construct »](oauthprovider.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuthProvider](class.oauthprovider.html)
+-   [OAuthProvider](class.oauthprovider.md)
     
 -   Перевірка запиту oauth
     
@@ -37,7 +37,7 @@ public OAuthProvider::checkOAuthRequest(string $uri = ?, string $method = ?): vo
 
 `method`
 
-Необов'язковий параметр, який визначає метод HTTP. Одна з **`OAUTH_HTTP_METHOD_*`** [констант OAuth](oauth.constants.html)
+Необов'язковий параметр, який визначає метод HTTP. Одна з **`OAUTH_HTTP_METHOD_*`** [констант OAuth](oauth.constants.md)
 
 ### Значення, що повертаються
 
@@ -49,4 +49,4 @@ public OAuthProvider::checkOAuthRequest(string $uri = ?, string $method = ?): vo
 
 ### Дивіться також
 
--   [OAuthProvider::reportProblem()](oauthprovider.reportproblem.html) - Повідомити про проблему
+-   [OAuthProvider::reportProblem()](oauthprovider.reportproblem.md) - Повідомити про проблему

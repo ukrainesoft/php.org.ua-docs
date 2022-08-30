@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](libxml.setup.html)
+-   [« Встановлення та налаштування](libxml.setup.html)
     
 -   [Установка »](libxml.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](libxml.setup.html)
+-   [Встановлення та налаштування](libxml.setup.html)
     
 -   Вимоги
     

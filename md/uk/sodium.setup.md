@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.sodium.html)
+-   [« Введение](intro.sodium.md)
     
--   [Требования »](sodium.requirements.html)
+-   [Вимоги »](sodium.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Sodium](book.sodium.html)
+-   [Sodium](book.sodium.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](sodium.requirements.html)
--   [Установка](sodium.installation.html)
--   [Настройка во время выполнения](sodium.configuration.html)
--   [Типы ресурсов](sodium.resources.html)
+-   [Вимоги](sodium.requirements.md)
+-   [Установка](sodium.installation.md)
+-   [Налаштування під час виконання](sodium.configuration.md)
+-   [Типи ресурсів](sodium.resources.md)

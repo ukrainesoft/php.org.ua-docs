@@ -1,12 +1,12 @@
 Встановлює параметр на вказане значення
 
--   [« SolrParams::set](solrparams.set.html)
+-   [« SolrParams::set](solrparams.set.md)
     
--   [SolrParams::toString »](solrparams.tostring.html)
+-   [SolrParams::toString »](solrparams.tostring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrParams](class.solrparams.html)
+-   [SolrParams](class.solrparams.md)
     
 -   Встановлює параметр на вказане значення
     

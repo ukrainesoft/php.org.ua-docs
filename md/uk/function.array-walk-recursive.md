@@ -37,7 +37,7 @@ array_walk_recursive(array|object &$array, callable $callback, mixed $arg = null
 
 > **Зауваження**
 > 
-> Якщо потрібно, щоб функція `callback` змінила значення у масиві, визначте перший параметр `callback` як [ссылку](language.references.html). Тоді всі зміни будуть застосовані до елементів масиву.
+> Якщо потрібно, щоб функція `callback` змінила значення у масиві, визначте перший параметр `callback` як [посилання](language.references.html). Тоді всі зміни будуть застосовані до елементів масиву.
 
 `arg`
 

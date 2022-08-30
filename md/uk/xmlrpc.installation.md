@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](xmlrpc.requirements.html)
+-   [« Вимоги](xmlrpc.requirements.md)
     
--   [Настройка во время выполнения »](xmlrpc.configuration.html)
+-   [Налаштування під час виконання »](xmlrpc.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xmlrpc.setup.html)
+-   [Встановлення та налаштування](xmlrpc.setup.md)
     
 -   Встановлення
     

@@ -2,25 +2,25 @@
 
 -   [« traitexists](function.trait-exists.html)
     
--   [Введение »](intro.ctype.html)
+-   [Введение »](intro.ctype.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модули, относящиеся к переменным и типам](refs.basic.vartype.html)
+-   [Модулі, що відносяться до змінних та типів](refs.basic.vartype.md)
     
 -   Функції визначення типу символів
     
 
 # Функції визначення типу символів
 
--   [Введение](intro.ctype.html)
--   [Установка и настройка](ctype.setup.html)
-    -   [Требования](ctype.requirements.html)
-    -   [Установка](ctype.installation.html)
-    -   [Настройка во время выполнения](ctype.configuration.html)
-    -   [Типы ресурсов](ctype.resources.html)
--   [Предопределённые константы](ctype.constants.html)
--   [Опції Ctype](ref.ctype.html)
+-   [Введение](intro.ctype.md)
+-   [Встановлення та налаштування](ctype.setup.md)
+    -   [Вимоги](ctype.requirements.md)
+    -   [Установка](ctype.installation.md)
+    -   [Налаштування під час виконання](ctype.configuration.md)
+    -   [Типи ресурсів](ctype.resources.md)
+-   [Обумовлені константи](ctype.constants.md)
+-   [Опції Ctype](ref.ctype.md)
     -   [ctypealnum](function.ctype-alnum.html) — Перевіряє наявність літерно-цифрових символів
     -   [ctypealpha](function.ctype-alpha.html) — Перевіряє наявність літерних символів
     -   [ctypecntrl](function.ctype-cntrl.html) — Перевіряє наявність символів, що управляють.

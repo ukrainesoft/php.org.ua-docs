@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](xmlreader.requirements.html)
+-   [« Вимоги](xmlreader.requirements.html)
     
--   [Настройка во время выполнения »](xmlreader.configuration.html)
+-   [Налаштування під час виконання »](xmlreader.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](xmlreader.setup.html)
+-   [Встановлення та налаштування](xmlreader.setup.html)
     
 -   Встановлення
     

@@ -1,35 +1,35 @@
 Функції зворотного дзвінка (callback-функції)
 
--   [« NULL](language.types.null.html)
+-   [« NULL](language.types.null.md)
     
--   [Объявление типов »](language.types.declarations.html)
+-   [Оголошення типів »](language.types.declarations.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Типы](language.types.html)
+-   [Типи](language.types.md)
     
 -   Функції зворотного дзвінка (callback-функції)
     
 
 ## Функції зворотного дзвінка (callback-функції)
 
-Callback-функції можуть бути позначені оголошенням типу [callable](language.types.callable.html)
+Callback-функції можуть бути позначені оголошенням типу [callable](language.types.callable.md)
 
-Деякі функції, такі як [calluserfunc()](function.call-user-func.html) або [usort()](function.usort.html), приймають певні користувачем callback-функції як параметр. Callback-функції може бути як простими функціями, і методами об'єктів, включаючи статичні методи класів.
+Деякі функції, такі як [calluserfunc()](function.call-user-func.html) або [usort()](function.usort.md), приймають певні користувачем callback-функції як параметр. Callback-функції може бути як простими функціями, і методами об'єктів, включаючи статичні методи класів.
 
 ### Передача
 
-У PHP функції передаються на ім'я у вигляді рядка. Можна використовувати будь-які вбудовані або створені користувачем функції, за винятком конструкцій мови, таких як: [array()](function.array.html) [echo](function.echo.html) [empty()](function.empty.html) [eval()](function.eval.html) [exit()](function.exit.html) [isset()](function.isset.html) [list()](function.list.html) [print](function.print.html) або [unset()](function.unset.html)
+У PHP функції передаються на ім'я у вигляді рядка. Можна використовувати будь-які вбудовані або створені користувачем функції, за винятком конструкцій мови, таких як: [array()](function.array.md) [echo](function.echo.md) [empty()](function.empty.md) [eval()](function.eval.md) [exit()](function.exit.md) [isset()](function.isset.md) [list()](function.list.md) [print](function.print.md) або [unset()](function.unset.md)
 
 Метод створеного об'єкта (object) передається як масив, що містить об'єкт за індексом 0 та ім'я методу за індексом 1. Доступ до закритих та захищених методів дозволено зсередини класу.
 
 Статичні методи класу також можуть бути викликані без створення екземпляра об'єкта класу шляхом передачі імені класу замість об'єкта в елементі масиву з індексом 0 або виконання `'ClassName::methodName'`
 
-Крім звичайних функцій користувача, в якості callback-функції можна передавати [анонімні функції](functions.anonymous.html) і [стрілочні функції](functions.arrow.html)
+Крім звичайних функцій користувача, в якості callback-функції можна передавати [анонімні функції](functions.anonymous.md) і [стрілочні функції](functions.arrow.md)
 
 > **Зауваження**
 > 
-> Починаючи з PHP 8.1.0, у [Callback-функцій як об'єктів першого класу](functions.first_class_callable_syntax.html) та сама семантика, що й у цього методу.
+> Починаючи з PHP 8.1.0, у [Callback-функцій як об'єктів першого класу](functions.first_class_callable_syntax.md) та сама семантика, що й у цього методу.
 
 Як правило, будь-який об'єкт, що реалізує [invoke()](language.oop5.magic.html#object.invoke), також може бути передано до параметра callback.
 

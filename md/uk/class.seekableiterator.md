@@ -1,12 +1,12 @@
 Інтерфейс SeekableIterator
 
--   [« RecursiveIterator::hasChildren](recursiveiterator.haschildren.html)
+-   [« RecursiveIterator::hasChildren](recursiveiterator.haschildren.md)
     
--   [SeekableIterator::seek »](seekableiterator.seek.html)
+-   [SeekableIterator::seek »](seekableiterator.seek.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Интерфейсы](spl.interfaces.html)
+-   [Інтерфейси](spl.interfaces.md)
     
 -   Інтерфейс SeekableIterator
     
@@ -129,4 +129,4 @@ try {
 
 ## Зміст
 
--   [SeekableIterator::seek](seekableiterator.seek.html) — Переміщається до позиції
+-   [SeekableIterator::seek](seekableiterator.seek.md) — Переміщається до позиції

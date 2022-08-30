@@ -1,12 +1,12 @@
 Опис
 
--   [« EventBuffer::drain](eventbuffer.drain.html)
+-   [« EventBuffer::drain](eventbuffer.drain.md)
     
--   [EventBuffer::expand »](eventbuffer.expand.html)
+-   [EventBuffer::expand »](eventbuffer.expand.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBuffer](class.eventbuffer.html)
+-   [EventBuffer](class.eventbuffer.md)
     
 -   Опис
     
@@ -24,7 +24,7 @@ public
    EventBuffer::enableLocking(): void
 ```
 
-Включає блокування для [EventBuffer](class.eventbuffer.html)щоб він міг безпечно використовуватися кількома потоками одночасно. Коли блокування увімкнено, воно буде утримуватися при виклику callback-функцій. Це може призвести до глухого кута, якщо ви не будете обережні. Плануйте відповідно!
+Включає блокування для [EventBuffer](class.eventbuffer.md)щоб він міг безпечно використовуватися кількома потоками одночасно. Коли блокування увімкнено, воно буде утримуватися при виклику callback-функцій. Це може призвести до глухого кута, якщо ви не будете обережні. Плануйте відповідно!
 
 ### Список параметрів
 

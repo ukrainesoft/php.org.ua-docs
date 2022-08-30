@@ -4,9 +4,9 @@
     
 -   [settimelimit »](function.set-time-limit.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Встановлює значення конфігураційної установки includepath
     
@@ -66,4 +66,4 @@ set_include_path(get_include_path() . PATH_SEPARATOR . $path);
 -   [iniset()](function.ini-set.html) - Встановлює налаштування конфігурації
 -   [getincludepath()](function.get-include-path.html) - Отримання поточного значення конфігураційної установки includepath
 -   [restoreincludepath()](function.restore-include-path.html) - Відновлює початкове значення конфігураційної установки includepath
--   [include](function.include.html) - include
+-   [include](function.include.md) - include

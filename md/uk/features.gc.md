@@ -1,12 +1,12 @@
 Складання сміття
 
--   [« Опции конфигурации](features.commandline.ini.html)
+-   [« Опции конфигурации](features.commandline.ini.md)
     
--   [Основы подсчёта ссылок »](features.gc.refcounting-basics.html)
+-   [Основи підрахунку посилань »](features.gc.refcounting-basics.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Відмітні особливості](features.html)
+-   [Відмітні особливості](features.md)
     
 -   Складання сміття
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Основы подсчёта ссылок](features.gc.refcounting-basics.html)
+-   [Основи підрахунку посилань](features.gc.refcounting-basics.html)
 -   [Збір циклічних посилань](features.gc.collecting-cycles.html)
 -   [Питання продуктивності](features.gc.performance-considerations.html)
 

@@ -1,12 +1,12 @@
 Обробник сесій WinCache
 
--   [« Скрипт статистики WinCache](wincache.stats.html)
+-   [« Скрипт статистики WinCache](wincache.stats.md)
     
--   [Перенаправление функций WinCache »](wincache.reroutes.html)
+-   [Перенаправление функций WinCache »](wincache.reroutes.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](wincache.setup.html)
+-   [Встановлення та налаштування](wincache.setup.md)
     
 -   Обробник сесій WinCache
     

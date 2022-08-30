@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.intl.html)
     
--   [Требования »](intl.requirements.html)
+-   [Вимоги »](intl.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](intl.requirements.html)
+-   [Вимоги](intl.requirements.html)
 -   [Установка](intl.installation.html)
--   [Настройка во время выполнения](intl.configuration.html)
--   [Типы ресурсов](intl.resources.html)
+-   [Налаштування під час виконання](intl.configuration.html)
+-   [Типи ресурсів](intl.resources.html)

@@ -1,12 +1,12 @@
 Повертає повідомлення, що описує результат виконання останньої операції
 
--   [« Memcached::getResultCode](memcached.getresultcode.html)
+-   [« Memcached::getResultCode](memcached.getresultcode.md)
     
--   [Memcached::getServerByKey »](memcached.getserverbykey.html)
+-   [Memcached::getServerByKey »](memcached.getserverbykey.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Повертає повідомлення, що описує результат виконання останньої операції
     

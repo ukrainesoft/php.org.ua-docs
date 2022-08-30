@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverServer »](class.mongodb-driver-server.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverCursorInterface](class.mongodb-driver-cursorinterface.html)
     

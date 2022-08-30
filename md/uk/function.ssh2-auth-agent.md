@@ -1,12 +1,12 @@
 Аутентифікація через SSH за допомогою агента ssh
 
--   [« Функції SSH2](ref.ssh2.html)
+-   [« Функції SSH2](ref.ssh2.md)
     
 -   [ssh2authhostbasedfile »](function.ssh2-auth-hostbased-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Аутентифікація через SSH за допомогою агента ssh
     

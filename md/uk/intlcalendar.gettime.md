@@ -1,12 +1,12 @@
 Отримує час, представлений на даний момент об'єктом
 
--   [« IntlCalendar::getSkippedWallTimeOption](intlcalendar.getskippedwalltimeoption.html)
+-   [« IntlCalendar::getSkippedWallTimeOption](intlcalendar.getskippedwalltimeoption.md)
     
--   [IntlCalendar::getTimeZone »](intlcalendar.gettimezone.html)
+-   [IntlCalendar::getTimeZone »](intlcalendar.gettimezone.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Отримує час, представлений на даний момент об'єктом
     
@@ -37,7 +37,7 @@ intlcal_get_time(IntlCalendar $calendar): float|false
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 ### Значення, що повертаються
 
@@ -66,4 +66,4 @@ bool(true)
 
 ### Дивіться також
 
--   [IntlCalendar::getNow()](intlcalendar.getnow.html) - Отримує число, що становить поточний час
+-   [IntlCalendar::getNow()](intlcalendar.getnow.md) - Отримує число, що становить поточний час

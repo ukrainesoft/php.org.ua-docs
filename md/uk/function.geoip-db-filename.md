@@ -4,9 +4,9 @@
     
 -   [geoipдбgetallinfo »](function.geoip-db-get-all-info.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции GeoIP](ref.geoip.html)
+-   [Функции GeoIP](ref.geoip.md)
     
 -   Повертає ім'я файлу відповідної бази GeoIP
     
@@ -31,7 +31,7 @@ geoip_db_filename(int $database): string
 
 `database`
 
-Тип бази визначається цілим числом (integer). Ви можете використовувати [разнообразные константы](geoip.constants.html), визначені в цьому модулі (тобто: GEOIPEDITION).
+Тип бази визначається цілим числом (integer). Ви можете використовувати [різноманітні константи](geoip.constants.md), визначені в цьому модулі (тобто: GEOIPEDITION).
 
 ### Значення, що повертаються
 

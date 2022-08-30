@@ -1,12 +1,12 @@
 Встановити позначку часу
 
--   [« OAuth::setSSLChecks](oauth.setsslchecks.html)
+-   [« OAuth::setSSLChecks](oauth.setsslchecks.md)
     
--   [OAuth::setToken »](oauth.settoken.html)
+-   [OAuth::setToken »](oauth.settoken.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](class.oauth.html)
+-   [OAuth](class.oauth.md)
     
 -   Встановити позначку часу
     
@@ -41,10 +41,10 @@ public OAuth::setTimestamp(string $timestamp): mixed
 
 ### список змін
 
-| Версия           | Описание                                                                   |
-|------------------|----------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
 
 ### Дивіться також
 
--   [OAuth::setNonce()](oauth.setnonce.html) - Встановити nonce для наступних запитів
+-   [OAuth::setNonce()](oauth.setnonce.md) - Встановити nonce для наступних запитів

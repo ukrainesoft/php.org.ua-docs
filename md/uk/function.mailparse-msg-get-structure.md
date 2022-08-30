@@ -4,9 +4,9 @@
     
 -   [mailparsemsgparsefile »](function.mailparse-msg-parse-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mailparse](ref.mailparse.html)
+-   [Mailparse](ref.mailparse.md)
     
 -   Отримати масив імен mime-секцій у заданому повідомленні
     

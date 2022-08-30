@@ -1,12 +1,12 @@
 Порівнює елементи, щоб під час сортування коректно розмістити їх у купі
 
--   [« SplMaxHeap](class.splmaxheap.html)
+-   [« SplMaxHeap](class.splmaxheap.md)
     
--   [SplMinHeap »](class.splminheap.html)
+-   [SplMinHeap »](class.splminheap.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplMaxHeap](class.splmaxheap.html)
+-   [SplMaxHeap](class.splmaxheap.md)
     
 -   Порівнює елементи, щоб під час сортування коректно розмістити їх у купі
     

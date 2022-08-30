@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](xmlreader.configuration.html)
+-   [« Налаштування під час виконання](xmlreader.configuration.md)
     
--   [XMLReader »](class.xmlreader.html)
+-   [XMLReader »](class.xmlreader.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xmlreader.setup.html)
+-   [Встановлення та налаштування](xmlreader.setup.md)
     
 -   Типи ресурсів
     

@@ -1,31 +1,31 @@
 Полегшений протокол доступу до каталогів (LDAP)
 
--   [« GearmanException](class.gearmanexception.html)
+-   [« GearmanException](class.gearmanexception.md)
     
--   [Введение »](intro.ldap.html)
+-   [Введение »](intro.ldap.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Другие службы](refs.remote.other.html)
+-   [Інші служби](refs.remote.other.md)
     
 -   Полегшений протокол доступу до каталогів (LDAP)
     
 
 # Полегшений протокол доступу до каталогів (LDAP)
 
--   [Введение](intro.ldap.html)
--   [Установка и настройка](ldap.setup.html)
-    -   [Требования](ldap.requirements.html)
-    -   [Установка](ldap.installation.html)
-    -   [Настройка во время выполнения](ldap.configuration.html)
-    -   [Типы ресурсов](ldap.resources.html)
--   [Предопределённые константы](ldap.constants.html)
--   [Использование вызовов PHP LDAP](ldap.using.html)
--   [Управляющие объекты LDAP](ldap.controls.html)
--   [Примеры](ldap.examples.html)
+-   [Введение](intro.ldap.md)
+-   [Встановлення та налаштування](ldap.setup.md)
+    -   [Вимоги](ldap.requirements.md)
+    -   [Установка](ldap.installation.md)
+    -   [Налаштування під час виконання](ldap.configuration.md)
+    -   [Типи ресурсів](ldap.resources.md)
+-   [Обумовлені константи](ldap.constants.md)
+-   [Використання дзвінків PHP LDAP](ldap.using.md)
+-   [Керуючі об'єкти LDAP](ldap.controls.md)
+-   [Приклади](ldap.examples.md)
     -   [Базовое использование](ldap.examples-basic.html)
     -   [LDAP Controls](ldap.examples-controls.html)
--   [Функції LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.md)
     -   [ldapтоt61](function.ldap-8859-to-t61.html) — Перекладає символи з кодування ISO-8859 у t61
     -   [ldapaddext](function.ldap-add-ext.html) — Додати записи до каталогу LDAP
     -   [ldapadd](function.ldap-add.html) — Додати запис до LDAP директорії

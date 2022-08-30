@@ -4,9 +4,9 @@
     
 -   [zipentrycompressedsize »](function.zip-entry-compressedsize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Zip](ref.zip.html)
+-   [Функции Zip](ref.zip.md)
     
 -   Закриває дескриптор директорії
     
@@ -41,9 +41,9 @@ zip_entry_close(resource $zip_entry): bool
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | Функція застаріла на користь Object API. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API. |
 
 ### Дивіться також
 

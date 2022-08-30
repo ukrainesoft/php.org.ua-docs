@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](cmark.requirements.html)
+-   [« Вимоги](cmark.requirements.md)
     
 -   [CommonMarkNodeDocument »](class.commonmark-node-document.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](cmark.setup.html)
+-   [Встановлення та налаштування](cmark.setup.md)
     
 -   Встановлення
     

@@ -1,12 +1,12 @@
 Клас ZookeeperConnectionException
 
--   [« ZookeeperAuthenticationException](class.zookeeperauthenticationexception.html)
+-   [« ZookeeperAuthenticationException](class.zookeeperauthenticationexception.md)
     
--   [ZookeeperMarshallingException »](class.zookeepermarshallingexception.html)
+-   [ZookeeperMarshallingException »](class.zookeepermarshallingexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZooKeeper](book.zookeeper.html)
+-   [ZooKeeper](book.zookeeper.md)
     
 -   Клас ZookeeperConnectionException
     

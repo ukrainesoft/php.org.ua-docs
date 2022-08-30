@@ -4,9 +4,9 @@
     
 -   [eiounlink »](function.eio-unlink.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Урізує розмір файлу
     

@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.zookeeper.html)
     
--   [Требования »](zookeeper.requirements.html)
+-   [Вимоги »](zookeeper.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](zookeeper.requirements.html)
+-   [Вимоги](zookeeper.requirements.html)
 -   [Установка](zookeeper.installation.html)
--   [Настройка во время выполнения](zookeeper.configuration.html)
--   [Типы ресурсов](zookeeper.resources.html)
+-   [Налаштування під час виконання](zookeeper.configuration.html)
+-   [Типи ресурсів](zookeeper.resources.html)

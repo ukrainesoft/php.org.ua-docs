@@ -1,12 +1,12 @@
 Базове використання
 
--   [« Примеры](ldap.examples.html)
+-   [« Приклади](ldap.examples.md)
     
 -   [LDAP Controls »](ldap.examples-controls.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](ldap.examples.html)
+-   [Приклади](ldap.examples.md)
     
 -   Базове використання
     

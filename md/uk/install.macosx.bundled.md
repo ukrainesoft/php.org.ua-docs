@@ -1,12 +1,12 @@
 Використання вбудованого PHP до macOS Monterey
 
--   [« Использование пакетов](install.macosx.packages.html)
+-   [« Использование пакетов](install.macosx.packages.md)
     
--   [Компилирование PHP на macOS »](install.macosx.compile.html)
+-   [Компилирование PHP на macOS »](install.macosx.compile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка на macOS](install.macosx.html)
+-   [Установка на macOS](install.macosx.md)
     
 -   Використання вбудованого PHP до macOS Monterey
     
@@ -60,13 +60,13 @@ PHP поставлявся разом з macOS, починаючи з macOS X (1
     
 4.  Переконайтеся, що DirectoryIndex завантажує індексний файл за замовчуванням. Ця поведінка задається в httpd.conf. Зазвичай використовуються index.php та index.html. За замовчуванням index.php дозволено. Якщо потрібно, то вимкніть.
     
-5.  Визначте місце розташування php.ini або використовуйте налаштування за замовчуванням Зазвичай на macOS він розташований на шляху /usr/local/php/php.ini та виклик [phpinfo()](function.phpinfo.html) виведе відповідну інформацію. Якщо php.ini не використовується, PHP використовуватиме значення за замовчуванням. Також зверніть увагу на FAQ [поиск php.ini](faq.installation.html#faq.installation.phpini)
+5.  Визначте місце розташування php.ini або використовуйте налаштування за замовчуванням Зазвичай на macOS він розташований на шляху /usr/local/php/php.ini та виклик [phpinfo()](function.phpinfo.md) виведе відповідну інформацію. Якщо php.ini не використовується, PHP використовуватиме значення за замовчуванням. Також зверніть увагу на FAQ [поиск php.ini](faq.installation.html#faq.installation.phpini)
     
 6.  Як знайти або встановити `DocumentRoot` DocumentRoot – це коренева директорія веб-сервера, в якій лежать скрипти сайту. Зазвичай шлях за замовчуванням він дорівнює /Library/WebServer/Documents, але його можна змінити на будь-який інший в httpd.conf. Також, для індивідуальних користувачів, DocumentRoot може бути встановлений як /Users/yourusername/Sites
     
-7.  Створення файлу з [phpinfo()](function.phpinfo.html)
+7.  Створення файлу з [phpinfo()](function.phpinfo.md)
     
-    Функція [phpinfo()](function.phpinfo.html) відображає інформацію про PHP. Створіть у DocumentRoot скрипт з таким кодом:
+    Функція [phpinfo()](function.phpinfo.md) відображає інформацію про PHP. Створіть у DocumentRoot скрипт з таким кодом:
     
     ```php
     <?php phpinfo(); ?>
@@ -77,4 +77,4 @@ PHP поставлявся разом з macOS, починаючи з macOS X (1
     Для перезапуску виконайте `sudo apachectl graceful` у терміналі або виконайте stop/start для "Personal Web Server" у системних налаштуваннях macOS. За промовчанням локальні файли можна завантажити, ввівши в рядок браузера URL, наприклад: [http://localhost/info.php](http://localhost/info.php), або використовуючи DocumentRoot в локальній директорії користувача, таким чином: [http://localhost/~yourusername/info.php](http://localhost/~yourusername/info.php)
     
 
-CLI (або більш старих версіях CGI) називається як php і міститься в /usr/bin/php. Відкрийте термінал, прочитайте розділ документації PHP [командний рядок](features.commandline.html), і запустіть `php -v` для перевірки встановленої версії PHP. Виклик функції [phpinfo()](function.phpinfo.html) також покаже цю інформацію.
+CLI (або більш старих версіях CGI) називається як php і міститься в /usr/bin/php. Відкрийте термінал, прочитайте розділ документації PHP [командний рядок](features.commandline.md), і запустіть `php -v` для перевірки встановленої версії PHP. Виклик функції [phpinfo()](function.phpinfo.md) також покаже цю інформацію.

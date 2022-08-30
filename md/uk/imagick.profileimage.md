@@ -1,12 +1,12 @@
 Додає або видаляє профіль зображення
 
--   [« Imagick::previousImage](imagick.previousimage.html)
+-   [« Imagick::previousImage](imagick.previousimage.md)
     
--   [Imagick::quantizeImage »](imagick.quantizeimage.html)
+-   [Imagick::quantizeImage »](imagick.quantizeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Додає або видаляє профіль зображення
     

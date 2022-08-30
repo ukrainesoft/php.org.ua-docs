@@ -2,7 +2,7 @@
 
 -   [« Використання PHP у командному рядку](features.commandline.html)
     
--   [Основные отличия от остальных реализаций SAPI »](features.commandline.differences.html)
+-   [Основні відмінності від інших реалізацій SAPI](features.commandline.differences.html)
     
 -   [PHP Manual](index.html)
     

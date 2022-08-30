@@ -4,9 +4,9 @@
     
 -   [fannnuminputtraindata »](function.fann-num-input-train-data.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Об'єднує навчальні дані
     

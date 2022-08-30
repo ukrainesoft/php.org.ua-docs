@@ -2,11 +2,11 @@
 
 -   [« simplexmlloadfile](function.simplexml-load-file.html)
     
--   [WDDX »](book.wddx.html)
+-   [WDDX »](book.wddx.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции SimpleXML](ref.simplexml.html)
+-   [Функции SimpleXML](ref.simplexml.md)
     
 -   Інтерпретує рядок з XML в об'єкт
     
@@ -33,11 +33,11 @@ simplexml_load_string(    string $data,    ?string $class_name = SimpleX
 
 `class_name`
 
-Ви можете використовувати цей необов'язковий параметр, щоб функція **simplexmlloadstring()** повертала об'єкт вказаного класу. Цей клас має розширювати клас [SimpleXMLElement](class.simplexmlelement.html)
+Ви можете використовувати цей необов'язковий параметр, щоб функція **simplexmlloadstring()** повертала об'єкт вказаного класу. Цей клас має розширювати клас [SimpleXMLElement](class.simplexmlelement.md)
 
 `options`
 
-Починаючи з Libxml 2.6.0, ви можете також використовувати параметр `options`, щоб вказати [дополнительные параметры Libxml](libxml.constants.html)
+Починаючи з Libxml 2.6.0, ви можете також використовувати параметр `options`, щоб вказати [додаткові параметри Libxml](libxml.constants.md)
 
 `namespace_or_prefix`
 
@@ -49,11 +49,11 @@ simplexml_load_string(    string $data,    ?string $class_name = SimpleX
 
 ### Значення, що повертаються
 
-Повертає об'єкт (object) класу [SimpleXMLElement](class.simplexmlelement.html) з властивостями, що містять дані, що зберігаються всередині XML-документа або **`false`** у разі виникнення помилки.
+Повертає об'єкт (object) класу [SimpleXMLElement](class.simplexmlelement.md) з властивостями, що містять дані, що зберігаються всередині XML-документа або **`false`** у разі виникнення помилки.
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### Помилки
 
@@ -105,7 +105,7 @@ SimpleXMLElement Object
 ### Дивіться також
 
 -   [simplexmlloadfile()](function.simplexml-load-file.html) - Інтерпретує файл XML в об'єкт
--   [SimpleXMLElement::construct()](simplexmlelement.construct.html) - Створення нового об'єкта SimpleXMLElement
+-   [SimpleXMLElement::construct()](simplexmlelement.construct.md) - Створення нового об'єкта SimpleXMLElement
 -   [Робота з помилками XML](simplexml.examples-errors.html)
 -   [libxmluseinternalerrors()](function.libxml-use-internal-errors.html) - Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
 -   [Базовое использование SimpleXML](simplexml.examples-basic.html)

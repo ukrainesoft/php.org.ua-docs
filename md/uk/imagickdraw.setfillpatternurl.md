@@ -1,12 +1,12 @@
 Встановлює URL-адресу для використання як зразка заливки для заливки об'єктів
 
--   [« ImagickDraw::setFillOpacity](imagickdraw.setfillopacity.html)
+-   [« ImagickDraw::setFillOpacity](imagickdraw.setfillopacity.md)
     
--   [ImagickDraw::setFillRule »](imagickdraw.setfillrule.html)
+-   [ImagickDraw::setFillRule »](imagickdraw.setfillrule.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Встановлює URL-адресу для використання як зразка заливки для заливки об'єктів
     

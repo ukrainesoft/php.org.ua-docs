@@ -4,9 +4,9 @@
     
 -   [pcntlwifsignaled »](function.pcntl-wifsignaled.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.md)
     
 -   Перевіряє, чи код завершення процесу відповідає нормальному завершенню.
     

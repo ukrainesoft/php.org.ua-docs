@@ -4,9 +4,9 @@
     
 -   [xmlrpcserveraddintrospectiondata »](function.xmlrpc-server-add-introspection-data.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції XML-RPC](ref.xmlrpc.html)
+-   [Функції XML-RPC](ref.xmlrpc.md)
     
 -   Декодує XML до списку описів методів
     

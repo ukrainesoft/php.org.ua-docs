@@ -4,7 +4,7 @@
     
 -   [CollectionRemove::bind »](mysql-xdevapi-collectionremove.bind.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Mysqlxdevapi](book.mysql-xdevapi.html)
     

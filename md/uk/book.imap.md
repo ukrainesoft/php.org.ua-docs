@@ -14,12 +14,12 @@ IMAP, POP3 та NNTP
 # IMAP, POP3 та NNTP
 
 -   [Введение](intro.imap.html)
--   [Установка и настройка](imap.setup.html)
-    -   [Требования](imap.requirements.html)
+-   [Встановлення та налаштування](imap.setup.html)
+    -   [Вимоги](imap.requirements.html)
     -   [Установка](imap.installation.html)
-    -   [Настройка во время выполнения](imap.configuration.html)
-    -   [Типы ресурсов](imap.resources.html)
--   [Предопределённые константы](imap.constants.html)
+    -   [Налаштування під час виконання](imap.configuration.html)
+    -   [Типи ресурсів](imap.resources.html)
+-   [Обумовлені константи](imap.constants.html)
 -   [Функции IMAP](ref.imap.html)
     -   [imap8bit](function.imap-8bit.html) — Конвертує 8-бітний рядок у рядок у форматі quoted-printable
     -   [imapalerts](function.imap-alerts.html) — Повертає всі попереджувальні повідомлення IMAP.

@@ -1,12 +1,12 @@
 Отримати тип властивості
 
--   [« ReflectionProperty::getName](reflectionproperty.getname.html)
+-   [« ReflectionProperty::getName](reflectionproperty.getname.md)
     
--   [ReflectionProperty::getValue »](reflectionproperty.getvalue.html)
+-   [ReflectionProperty::getValue »](reflectionproperty.getvalue.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionProperty](class.reflectionproperty.html)
+-   [ReflectionProperty](class.reflectionproperty.md)
     
 -   Отримати тип властивості
     
@@ -31,7 +31,7 @@ public ReflectionProperty::getType(): ?ReflectionType
 
 ### Значення, що повертаються
 
-Повертає [ReflectionType](class.reflectiontype.html)якщо для властивості заданий тип, або **`null`** якщо ні.
+Повертає [ReflectionType](class.reflectiontype.md)якщо для властивості заданий тип, або **`null`** якщо ні.
 
 ### Приклади
 
@@ -57,5 +57,5 @@ string
 
 ### Дивіться також
 
--   [ReflectionProperty::hasType()](reflectionproperty.hastype.html) - Перевірити, чи заданий для властивості тип
--   [ReflectionProperty::isInitialized()](reflectionproperty.isinitialized.html) - Перевірити, чи ініціалізована властивість
+-   [ReflectionProperty::hasType()](reflectionproperty.hastype.md) - Перевірити, чи заданий для властивості тип
+-   [ReflectionProperty::isInitialized()](reflectionproperty.isinitialized.md) - Перевірити, чи ініціалізована властивість

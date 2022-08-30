@@ -1,12 +1,12 @@
 Встановлює з'єднання з сервером mysql
 
--   [« mysqli::query](mysqli.query.html)
+-   [« mysqli::query](mysqli.query.md)
     
 -   [mysqli::realescapestring »](mysqli.real-escape-string.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Встановлює з'єднання з сервером mysql
     
@@ -37,9 +37,9 @@ mysqli_real_connect(    mysqli $link,    string $host = ?,    string
 
 Ця функція відрізняється від [mysqliconnect()](function.mysqli-connect.html)
 
--   Для роботи **mysqlirealconnect()** необхідний дійсний об'єкт, створений функцією [mysqliinit()](mysqli.init.html)
+-   Для роботи **mysqlirealconnect()** необхідний дійсний об'єкт, створений функцією [mysqliinit()](mysqli.init.md)
     
--   За допомогою функції [mysqlioptions()](mysqli.options.html) можна встановити різні налаштування підключення.
+-   За допомогою функції [mysqlioptions()](mysqli.options.md) можна встановити різні налаштування підключення.
     
 -   Параметр `flags`
     
@@ -48,7 +48,7 @@ mysqli_real_connect(    mysqli $link,    string $host = ?,    string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 `host`
 
@@ -84,13 +84,13 @@ mysqli_real_connect(    mysqli $link,    string $host = ?,    string
 
 **Прапори, що підтримуються**
 
-| Имя                                             | Описание                                                                                                                               |
-|-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| **`MYSQLI_CLIENT_COMPRESS`**                    | Використовувати протокол стиснення                                                                                                     |
-| **`MYSQLI_CLIENT_FOUND_ROWS`**                  | Повертати кількість рядків, що підійшли умовам вибірки, замість кількості порушених запитом рядків                                     |
-| **`MYSQLI_CLIENT_IGNORE_SPACE`**                | Допускати пробіли після назв функцій. Робить усі імена функцій зарезервованими словами.                                                |
-| **`MYSQLI_CLIENT_INTERACTIVE`**                 | Допускати `interactive_timeout` секунд (замість `wait_timeout`) простою, перш ніж закрити з'єднання                                    |
-| **`MYSQLI_CLIENT_SSL`**                         | Використовувати SSL (шифрування)                                                                                                       |
+| Имя | Описание |
+| --- | --- |
+| **`MYSQLI_CLIENT_COMPRESS`** | Використовувати протокол стиснення |
+| **`MYSQLI_CLIENT_FOUND_ROWS`** | Повертати кількість рядків, що підійшли умовам вибірки, замість кількості порушених запитом рядків |
+| **`MYSQLI_CLIENT_IGNORE_SPACE`** | Допускати пробіли після назв функцій. Робить усі імена функцій зарезервованими словами. |
+| **`MYSQLI_CLIENT_INTERACTIVE`** | Допускати `interactive_timeout` секунд (замість `wait_timeout`) простою, перш ніж закрити з'єднання |
+| **`MYSQLI_CLIENT_SSL`** | Використовувати SSL (шифрування) |
 | **`MYSQLI_CLIENT_SSL_DONT_VERIFY_SERVER_CERT`** | Аналогічно **`MYSQLI_CLIENT_SSL`**, але забороняє перевірку сертифіката SSL. Працює тільки з MySQL Native Driver та MySQL 5.6 та вище. |
 
 > **Зауваження**
@@ -207,12 +207,12 @@ mysqli_close($link);
 > 
 > MySQLnd завжди має на увазі кодування, яке використовує за умовчанням сервер. Це кодування передається під час встановлення з'єднання/авторизації, які використовує mysqlnd.
 > 
-> Libmysqlclient за умовчанням використовує кодування, встановлене в my.cnf або спеціальним викликом [mysqlioptions()](mysqli.options.html) до використання **mysqlirealconnect()**, але після [mysqliinit()](mysqli.init.html)
+> Libmysqlclient за умовчанням використовує кодування, встановлене в my.cnf або спеціальним викликом [mysqlioptions()](mysqli.options.md) до використання **mysqlirealconnect()**, але після [mysqliinit()](mysqli.init.md)
 
 ### Дивіться також
 
 -   [mysqliconnect()](function.mysqli-connect.html) - Псевдонім mysqli::construct
--   [mysqliinit()](mysqli.init.html) - Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
--   [mysqlioptions()](mysqli.options.html) - Встановлення налаштувань
+-   [mysqliinit()](mysqli.init.md) - Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
+-   [mysqlioptions()](mysqli.options.md) - Встановлення налаштувань
 -   [mysqlisslset()](mysqli.ssl-set.html) - Використовується для встановлення безпечних з'єднань за допомогою SSL
--   [mysqliclose()](mysqli.close.html) - Закриває раніше відкрите з'єднання з базою даних
+-   [mysqliclose()](mysqli.close.md) - Закриває раніше відкрите з'єднання з базою даних

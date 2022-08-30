@@ -1,12 +1,12 @@
 Включає або вимикає компонент Stats
 
--   [« SolrQuery::setStart](solrquery.setstart.html)
+-   [« SolrQuery::setStart](solrquery.setstart.md)
     
--   [SolrQuery::setTerms »](solrquery.setterms.html)
+-   [SolrQuery::setTerms »](solrquery.setterms.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Включає або вимикає компонент Stats
     

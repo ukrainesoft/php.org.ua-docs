@@ -1,12 +1,12 @@
 Встановити метод стиснення запису, заданого його індексом
 
--   [« ZipArchive::setCommentName](ziparchive.setcommentname.html)
+-   [« ZipArchive::setCommentName](ziparchive.setcommentname.md)
     
--   [ZipArchive::setCompressionName »](ziparchive.setcompressionname.html)
+-   [ZipArchive::setCompressionName »](ziparchive.setcompressionname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Встановити метод стиснення запису, заданого його індексом
     

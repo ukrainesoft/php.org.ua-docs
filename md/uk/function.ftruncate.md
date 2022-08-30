@@ -1,12 +1,12 @@
 Урізує файл до вказаної довжини
 
--   [« ftell](function.ftell.html)
+-   [« ftell](function.ftell.md)
     
--   [fwrite »](function.fwrite.html)
+-   [fwrite »](function.fwrite.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Урізує файл до вказаної довжини
     
@@ -73,5 +73,5 @@ fclose($handle);
 
 ### Дивіться також
 
--   [fopen()](function.fopen.html) - Відкриває файл або URL
--   [fseek()](function.fseek.html) - Встановлює зміщення у файловому покажчику
+-   [fopen()](function.fopen.md) - Відкриває файл або URL
+-   [fseek()](function.fseek.md) - Встановлює зміщення у файловому покажчику

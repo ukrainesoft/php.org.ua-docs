@@ -1,12 +1,12 @@
 Переміщує покажчик на наступний елемент DirectoryIterator
 
--   [« DirectoryIterator::key](directoryiterator.key.html)
+-   [« DirectoryIterator::key](directoryiterator.key.md)
     
--   [DirectoryIterator::rewind »](directoryiterator.rewind.html)
+-   [DirectoryIterator::rewind »](directoryiterator.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DirectoryIterator](class.directoryiterator.html)
+-   [DirectoryIterator](class.directoryiterator.md)
     
 -   Переміщує покажчик на наступний елемент DirectoryIterator
     
@@ -23,7 +23,7 @@ DirectoryIterator::next — Переміщує курсор на наступн�
 public DirectoryIterator::next(): void
 ```
 
-Переміщує покажчик на наступний елемент [DirectoryIterator](class.directoryiterator.html)
+Переміщує покажчик на наступний елемент [DirectoryIterator](class.directoryiterator.md)
 
 ### Список параметрів
 
@@ -62,8 +62,8 @@ pear.jpg
 
 ### Дивіться також
 
--   [DirectoryIterator::current()](directoryiterator.current.html) - Повертає поточний елемент DirectoryIterator
--   [DirectoryIterator::key()](directoryiterator.key.html) - Повертає ключ поточного елемента DirectoryIterator
--   [DirectoryIterator::rewind()](directoryiterator.rewind.html) - Встановлює покажчик на перший елемент DirectoryIterator
--   [DirectoryIterator::valid()](directoryiterator.valid.html) - Перевіряє, чи є поточний елемент DirectoryIterator допустимим файлом
--   [Iterator::next()](iterator.next.html) - Переходить до наступного елементу
+-   [DirectoryIterator::current()](directoryiterator.current.md) - Повертає поточний елемент DirectoryIterator
+-   [DirectoryIterator::key()](directoryiterator.key.md) - Повертає ключ поточного елемента DirectoryIterator
+-   [DirectoryIterator::rewind()](directoryiterator.rewind.md) - Встановлює покажчик на перший елемент DirectoryIterator
+-   [DirectoryIterator::valid()](directoryiterator.valid.md) - Перевіряє, чи є поточний елемент DirectoryIterator допустимим файлом
+-   [Iterator::next()](iterator.next.md) - Переходить до наступного елементу

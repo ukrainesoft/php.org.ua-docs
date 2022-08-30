@@ -4,9 +4,9 @@
     
 -   [socketaddrinfolookup »](function.socket-addrinfo-lookup.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции сокета](ref.sockets.html)
+-   [Функции сокета](ref.sockets.md)
     
 -   Отримати інформацію про addrinfo
     
@@ -29,7 +29,7 @@ socket_addrinfo_explain(AddressInfo $address): array
 
 `address`
 
-Екземпляр [AddressInfo](class.addressinfo.html), створений за допомогою [socketaddrinfolookup()](function.socket-addrinfo-lookup.html)
+Екземпляр [AddressInfo](class.addressinfo.md), створений за допомогою [socketaddrinfolookup()](function.socket-addrinfo-lookup.html)
 
 ### Значення, що повертаються
 
@@ -37,9 +37,9 @@ socket_addrinfo_explain(AddressInfo $address): array
 
 ### список змін
 
-| Версия | Описание                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------|
-|        | `address` тепер екземпляр класу [AddressInfo](class.addressinfo.html); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `address` тепер екземпляр класу [AddressInfo](class.addressinfo.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 

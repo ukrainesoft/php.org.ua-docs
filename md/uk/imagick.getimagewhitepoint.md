@@ -1,12 +1,12 @@
 Повертає білу точку кольоровості
 
--   [« Imagick::getImageVirtualPixelMethod](imagick.getimagevirtualpixelmethod.html)
+-   [« Imagick::getImageVirtualPixelMethod](imagick.getimagevirtualpixelmethod.md)
     
--   [Imagick::getImageWidth »](imagick.getimagewidth.html)
+-   [Imagick::getImageWidth »](imagick.getimagewidth.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає білу точку кольоровості
     

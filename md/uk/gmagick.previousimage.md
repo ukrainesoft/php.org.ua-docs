@@ -1,12 +1,12 @@
 Здійснює перехід до попереднього зображення в об'єкті
 
--   [« Gmagick::oilpaintimage](gmagick.oilpaintimage.html)
+-   [« Gmagick::oilpaintimage](gmagick.oilpaintimage.md)
     
--   [Gmagick::profileimage »](gmagick.profileimage.html)
+-   [Gmagick::profileimage »](gmagick.profileimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Здійснює перехід до попереднього зображення в об'єкті
     
@@ -23,7 +23,7 @@ Gmagick::previousimage — Здійснює перехід до попередн
 public Gmagick::previousimage(): bool
 ```
 
-Зв'язує попереднє зображення у списку зображень з об'єктом [Gmagick](class.gmagick.html)
+Зв'язує попереднє зображення у списку зображень з об'єктом [Gmagick](class.gmagick.md)
 
 ### Список параметрів
 

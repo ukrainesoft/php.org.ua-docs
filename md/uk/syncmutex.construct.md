@@ -1,12 +1,12 @@
 Створює новий об'єкт SyncMutex
 
--   [« SyncMutex](class.syncmutex.html)
+-   [« SyncMutex](class.syncmutex.md)
     
--   [SyncMutex::lock »](syncmutex.lock.html)
+-   [SyncMutex::lock »](syncmutex.lock.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SyncMutex](class.syncmutex.html)
+-   [SyncMutex](class.syncmutex.md)
     
 -   Створює новий об'єкт SyncMutex
     
@@ -37,7 +37,7 @@ public SyncMutex::__construct(string $name = ?)
 
 ### Значення, що повертаються
 
-Новий об'єкт [SyncMutex](class.syncmutex.html)
+Новий об'єкт [SyncMutex](class.syncmutex.md)
 
 ### Помилки
 
@@ -80,5 +80,5 @@ $mutex->unlock();
 
 ### Дивіться також
 
--   [SyncMutex::lock()](syncmutex.lock.html) - Чекає на ексклюзивне блокування
--   [SyncMutex::unlock()](syncmutex.unlock.html) - Розблокує м'ютекс
+-   [SyncMutex::lock()](syncmutex.lock.md) - Чекає на ексклюзивне блокування
+-   [SyncMutex::unlock()](syncmutex.unlock.md) - Розблокує м'ютекс

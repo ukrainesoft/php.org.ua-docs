@@ -1,12 +1,12 @@
 Скасує очікування HTTP-запиту
 
--   [« EventHttpRequest::addHeader](eventhttprequest.addheader.html)
+-   [« EventHttpRequest::addHeader](eventhttprequest.addheader.md)
     
--   [EventHttpRequest::clearHeaders »](eventhttprequest.clearheaders.html)
+-   [EventHttpRequest::clearHeaders »](eventhttprequest.clearheaders.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpRequest](class.eventhttprequest.html)
+-   [EventHttpRequest](class.eventhttprequest.md)
     
 -   Скасує очікування HTTP-запиту
     
@@ -26,7 +26,7 @@ public
 
 Скасує очікування HTTP-запиту.
 
-Скасує поточний запит HTTP. Callback-функція, пов'язана із цим запитом, не виконається, об'єкт запиту звільняється. Якщо запит в даний час обробляється, наприклад безперервний запит, відповідний об'єкт [EventHttpConnection](class.eventhttpconnection.html) буде скинутий.
+Скасує поточний запит HTTP. Callback-функція, пов'язана із цим запитом, не виконається, об'єкт запиту звільняється. Якщо запит в даний час обробляється, наприклад безперервний запит, відповідний об'єкт [EventHttpConnection](class.eventhttpconnection.md) буде скинутий.
 
 Запит не може бути скасовано, якщо його callback-функція вже виконана. Запит може бути анульований повторно з його фрагментованої callback-функції.
 

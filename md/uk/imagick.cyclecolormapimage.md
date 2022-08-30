@@ -1,12 +1,12 @@
 Відображає колірну карту зображення
 
--   [« Imagick::current](imagick.current.html)
+-   [« Imagick::current](imagick.current.md)
     
--   [Imagick::decipherImage »](imagick.decipherimage.html)
+-   [Imagick::decipherImage »](imagick.decipherimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Відображає колірну карту зображення
     

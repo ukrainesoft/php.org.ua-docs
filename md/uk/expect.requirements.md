@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](expect.setup.html)
+-   [« Встановлення та налаштування](expect.setup.html)
     
 -   [Установка »](expect.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](expect.setup.html)
+-   [Встановлення та налаштування](expect.setup.html)
     
 -   Вимоги
     

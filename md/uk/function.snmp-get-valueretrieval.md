@@ -49,4 +49,4 @@ snmp_get_valueretrieval(): int
 ### Дивіться також
 
 -   [snmpsetvalueretrieval()](function.snmp-set-valueretrieval.html) - Визначає метод повернення значень SNMP
--   [Предопределённые константы](snmp.constants.html)
+-   [Обумовлені константи](snmp.constants.html)

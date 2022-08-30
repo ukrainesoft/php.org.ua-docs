@@ -4,9 +4,9 @@
     
 -   [MongoDBDriverMonitoringTopologyChangedEvent::getNewDescription »](mongodb-driver-monitoring-topologychangedevent.getnewdescription.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBDriverMonitoring](mongodb.monitoring.html)
+-   [MongoDBDriverMonitoring](mongodb.monitoring.md)
     
 -   Клас MongoDBDriverMonitoringTopologyChangedEvent
     

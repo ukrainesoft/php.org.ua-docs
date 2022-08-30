@@ -1,12 +1,12 @@
 Витяг наступного рядка з результуючого набору
 
--   [« PDOStatement::execute](pdostatement.execute.html)
+-   [« PDOStatement::execute](pdostatement.execute.md)
     
--   [PDOStatement::fetchAll »](pdostatement.fetchall.html)
+-   [PDOStatement::fetchAll »](pdostatement.fetchall.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDOStatement](class.pdostatement.html)
+-   [PDOStatement](class.pdostatement.md)
     
 -   Витяг наступного рядка з результуючого набору
     
@@ -35,7 +35,7 @@ public PDOStatement::fetch(int $mode = PDO::FETCH_DEFAULT, int $cursorOrientatio
     
 -   `PDO::FETCH_BOTH` (за замовчуванням): повертає масив, індексований іменами шпальт результуючого набору, а також їх номерами (починаючи з 0)
     
--   `PDO::FETCH_BOUND`: повертає **`true`** і надає значення стовпців результуючого набору змінним PHP, які були прив'язані до цих стовпців методом [PDOStatement::bindColumn()](pdostatement.bindcolumn.html)
+-   `PDO::FETCH_BOUND`: повертає **`true`** і надає значення стовпців результуючого набору змінним PHP, які були прив'язані до цих стовпців методом [PDOStatement::bindColumn()](pdostatement.bindcolumn.md)
     
 -   `PDO::FETCH_CLASS`: створює та повертає об'єкт запитаного класу, присвоюючи значення стовпців результуючого набору іменованим властивостям класу, і слідом викликає конструктор, якщо не заданий `PDO::FETCH_PROPS_LATE`. Якщо `mode` включає атрибут PDO::FETCHCLASSTYPE (наприклад, `PDO::FETCH_CLASS | PDO::FETCH_CLASSTYPE`), то ім'я класу, від якого потрібно створити об'єкт, буде взято з першого стовпця.
     
@@ -54,7 +54,7 @@ public PDOStatement::fetch(int $mode = PDO::FETCH_DEFAULT, int $cursorOrientatio
 
 `cursorOrientation`
 
-Для об'єктів PDOStatement, що представляють курсор, що прокручується, цей параметр визначає, який рядок буде повертатися в викликаючий метод. Значенням параметра має бути одна з констант `PDO::FETCH_ORI_*`, за замовчуванням `PDO::FETCH_ORI_NEXT`. Щоб запросити курсор, що прокручується, для запиту PDOStatement, необхідно задати атрибут `PDO::ATTR_CURSOR` зі значенням `PDO::CURSOR_SCROLL` під час підготовки запиту методом [PDO::prepare()](pdo.prepare.html)
+Для об'єктів PDOStatement, що представляють курсор, що прокручується, цей параметр визначає, який рядок буде повертатися в викликаючий метод. Значенням параметра має бути одна з констант `PDO::FETCH_ORI_*`, за замовчуванням `PDO::FETCH_ORI_NEXT`. Щоб запросити курсор, що прокручується, для запиту PDOStatement, необхідно задати атрибут `PDO::ATTR_CURSOR` зі значенням `PDO::CURSOR_SCROLL` під час підготовки запиту методом [PDO::prepare()](pdo.prepare.md)
 
 `offset`
 
@@ -77,13 +77,13 @@ $sth->execute();
 
 /* Примеры различных режимов работы PDOStatement::fetch */
 print("PDO::FETCH_ASSOC: ");
-print("Возвращаем следующую строку в виде массива, индексированного именами столбцов\n");
+print("Возвращаем следующую строку в виде Масива, индексированного именами столбцов\n");
 $result = $sth->fetch(PDO::FETCH_ASSOC);
 print_r($result);
 print("\n");
 
 print("PDO::FETCH_BOTH: ");
-print("Возвращаем следующую строку в виде массива, индексированного как именами столбцов, так и их номерами\n");
+print("Возвращаем следующую строку в виде Масива, индексированного как именами столбцов, так и их номерами\n");
 $result = $sth->fetch(PDO::FETCH_BOTH);
 print_r($result);
 print("\n");
@@ -105,14 +105,14 @@ print("\n");
 Результат виконання цього прикладу:
 
 ```
-PDO::FETCH_ASSOC: Возвращаем следующую строку в виде массива, индексированного именами столбцов
+PDO::FETCH_ASSOC: Возвращаем следующую строку в виде Масива, индексированного именами столбцов
 Array
 (
     [name] => apple
     [colour] => red
 )
 
-PDO::FETCH_BOTH: Возвращаем следующую строку в виде массива, индексированного как именами столбцов, так и их номерами
+PDO::FETCH_BOTH: Возвращаем следующую строку в виде Масива, индексированного как именами столбцов, так и их номерами
 Array
 (
     [name] => banana
@@ -224,9 +224,9 @@ $person->tell();
 
 ### Дивіться також
 
--   [PDO::prepare()](pdo.prepare.html) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
--   [PDOStatement::execute()](pdostatement.execute.html) - Запускає підготовлений запит на виконання
--   [PDOStatement::fetchAll()](pdostatement.fetchall.html) - Вибирає рядки, що залишилися, з набору результатів
--   [PDOStatement::fetchColumn()](pdostatement.fetchcolumn.html) - Повертає дані одного стовпця наступного рядка результуючого набору
--   [PDOStatement::fetchObject()](pdostatement.fetchobject.html) - Витягує наступний рядок і повертає його у вигляді об'єкта
--   [PDOStatement::setFetchMode()](pdostatement.setfetchmode.html) - Встановлює режим вибірки за промовчанням для об'єкта запиту
+-   [PDO::prepare()](pdo.prepare.md) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
+-   [PDOStatement::execute()](pdostatement.execute.md) - Запускає підготовлений запит на виконання
+-   [PDOStatement::fetchAll()](pdostatement.fetchall.md) - Вибирає рядки, що залишилися, з набору результатів
+-   [PDOStatement::fetchColumn()](pdostatement.fetchcolumn.md) - Повертає дані одного стовпця наступного рядка результуючого набору
+-   [PDOStatement::fetchObject()](pdostatement.fetchobject.md) - Витягує наступний рядок і повертає його у вигляді об'єкта
+-   [PDOStatement::setFetchMode()](pdostatement.setfetchmode.md) - Встановлює режим вибірки за промовчанням для об'єкта запиту

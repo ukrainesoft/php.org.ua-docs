@@ -1,12 +1,12 @@
 Функції IMAP
 
--   [« Предопределённые константы](imap.constants.html)
+-   [« Обумовлені константи](imap.constants.md)
     
 -   [imap8bit »](function.imap-8bit.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IMAP](book.imap.html)
+-   [IMAP](book.imap.md)
     
 -   Функції IMAP
     

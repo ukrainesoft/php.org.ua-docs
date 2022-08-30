@@ -1,6 +1,6 @@
 Приклади
 
--   [« Предопределённые константы](pgsql.constants.html)
+-   [« Обумовлені константи](pgsql.constants.html)
     
 -   [Базовое использование »](pgsql.examples-basic.html)
     

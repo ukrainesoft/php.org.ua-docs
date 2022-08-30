@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.lzf.html)
     
--   [Требования »](lzf.requirements.html)
+-   [Вимоги »](lzf.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](lzf.requirements.html)
+-   [Вимоги](lzf.requirements.html)
 -   [Установка](lzf.installation.html)
--   [Настройка во время выполнения](lzf.configuration.html)
--   [Типы ресурсов](lzf.resources.html)
+-   [Налаштування під час виконання](lzf.configuration.html)
+-   [Типи ресурсів](lzf.resources.html)

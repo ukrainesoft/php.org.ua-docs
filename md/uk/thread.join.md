@@ -1,12 +1,12 @@
 Синхронізація
 
--   [« Thread::isStarted](thread.isstarted.html)
+-   [« Thread::isStarted](thread.isstarted.md)
     
--   [Thread::start »](thread.start.html)
+-   [Thread::start »](thread.start.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Thread](class.thread.html)
+-   [Thread](class.thread.md)
     
 -   Синхронізація
     

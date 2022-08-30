@@ -4,9 +4,9 @@
     
 -   [ОЙExecutor::construct »](ui-executor.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ОЙ](book.ui.html)
+-   [ОЙ](book.ui.md)
     
 -   Планувальник виконання
     

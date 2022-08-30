@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](parle.setup.html)
+-   [« Встановлення та налаштування](parle.setup.html)
     
 -   [Установка »](parle.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](parle.setup.html)
+-   [Встановлення та налаштування](parle.setup.html)
     
 -   Вимоги
     

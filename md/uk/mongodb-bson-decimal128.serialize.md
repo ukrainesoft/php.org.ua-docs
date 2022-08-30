@@ -39,4 +39,4 @@ final public MongoDB\BSON\Decimal128::serialize(): string
 
 -   [MongoDBBSONDecimal128::unserialize()](mongodb-bson-decimal128.unserialize.html) - Десеріалізує Decimal128
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [Серіалізація об'єктів](language.oop5.serialization.html)

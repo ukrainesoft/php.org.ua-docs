@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](win32service.configuration.html)
+-   [« Налаштування під час виконання](win32service.configuration.html)
     
 -   [Питання безпеки »](win32service.security.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](win32service.setup.html)
+-   [Встановлення та налаштування](win32service.setup.html)
     
 -   Типи ресурсів
     

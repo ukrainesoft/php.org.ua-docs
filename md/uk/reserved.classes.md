@@ -2,7 +2,7 @@
 
 -   [« Список ключових слів](reserved.keywords.html)
     
--   [Предопределённые константы »](reserved.constants.html)
+-   [Обумовлені константи »](reserved.constants.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@
 
 **stdClass**
 
-Створюється [приведением типа к объекту](language.types.object.html#language.types.object.casting)
+Створюється [приведенням типу до об'єкту](language.types.object.html#language.types.object.casting)
 
 **PHPIncompleteClass**
 
@@ -39,7 +39,7 @@
 
 [Closure](class.closure.html)
 
-Обумовлений остаточний клас [Closure](class.closure.html), використовується для внутрішньої реалізації [анонимных функций](functions.anonymous.html)
+Обумовлений остаточний клас [Closure](class.closure.html), використовується для внутрішньої реалізації [анонімних функцій](functions.anonymous.html)
 
 [Generator](class.generator.html)
 
@@ -69,7 +69,7 @@
 
 **static**
 
-[Текущий класс во время выполнения](language.oop5.late-static-bindings.html)
+[Поточний клас під час виконання](language.oop5.late-static-bindings.html)
 
 **parent**
 

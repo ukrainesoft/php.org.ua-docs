@@ -4,7 +4,7 @@
     
 -   [Session::getSchema »](mysql-xdevapi-session.getschema.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
     

@@ -1,12 +1,12 @@
 Визначає, чи є документ XHTML-документом
 
--   [« tidy::html](tidy.html.html)
+-   [« tidy::html](tidy.html.md)
     
--   [tidy::isXml »](tidy.isxml.html)
+-   [tidy::isXml »](tidy.isxml.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidy](class.tidy.html)
+-   [tidy](class.tidy.md)
     
 -   Визначає, чи є документ XHTML-документом
     
@@ -39,7 +39,7 @@ tidy_is_xhtml(tidy $tidy): bool
 
 `tidy`
 
-Об'єкт [Tidy](class.tidy.html)
+Об'єкт [Tidy](class.tidy.md)
 
 ### Значення, що повертаються
 

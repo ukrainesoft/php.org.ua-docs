@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.session.html)
     
--   [Требования »](session.requirements.html)
+-   [Вимоги »](session.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](session.requirements.html)
+-   [Вимоги](session.requirements.html)
 -   [Установка](session.installation.html)
--   [Настройка во время выполнения](session.configuration.html)
--   [Типы ресурсов](session.resources.html)
+-   [Налаштування під час виконання](session.configuration.html)
+-   [Типи ресурсів](session.resources.html)

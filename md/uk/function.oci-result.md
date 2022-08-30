@@ -4,9 +4,9 @@
     
 -   [ocirollback »](function.oci-rollback.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8 Функции](ref.oci8.html)
+-   [OCI8 Функции](ref.oci8.md)
     
 -   Повертає значення поля з результату запиту
     
@@ -25,7 +25,7 @@ oci_result(resource $statement, string|int $column): mixed
 
 Повертає дані поля `column` поточного рядка, що повертається функцією [ocifetch()](function.oci-fetch.html)
 
-За подробицями щодо відображення типів даних, що здійснюється модулем OCI8, зверніться до [типів даних, що підтримуються драйвером](oci8.datatypes.html)
+За подробицями щодо відображення типів даних, що здійснюється модулем OCI8, зверніться до [типів даних, що підтримуються драйвером](oci8.datatypes.md)
 
 ### Список параметрів
 
@@ -75,7 +75,7 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ociresult()](function.ociresult.html). У PHP 5.0.0 і вище [ociresult()](function.ociresult.html) є аліасом **ociresult()** з метою зворотної сумісності. Ви можете продовжувати використовувати це ім'я, але це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ociresult()](function.ociresult.md). У PHP 5.0.0 і вище [ociresult()](function.ociresult.md) є аліасом **ociresult()** з метою зворотної сумісності. Ви можете продовжувати використовувати це ім'я, але це не рекомендується.
 
 ### Дивіться також
 

@@ -4,9 +4,9 @@
     
 -   [gmpneg »](function.gmp-neg.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GMP Функції](ref.gmp.html)
+-   [GMP Функції](ref.gmp.md)
     
 -   Розмноження чисел
     
@@ -31,17 +31,17 @@ gmp_mul(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 Перший множник, число, що множиться на `num2`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `num2`
 
 Другий множник, число, що множиться на `num1`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
-Об'єкт класу [GMP](class.gmp.html)ю
+Об'єкт класу [GMP](class.gmp.md)ю
 
 ### Приклади
 

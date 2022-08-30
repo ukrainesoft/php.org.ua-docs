@@ -4,9 +4,9 @@
     
 -   [псsetborderstyle »](function.ps-set-border-style.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Встановлює довжину тире для межі анотації
     

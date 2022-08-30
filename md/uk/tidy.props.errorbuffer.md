@@ -1,12 +1,12 @@
 Повертає попередження та помилки, що виникли при розборі зазначеного документа
 
--   [« tidy::diagnose](tidy.diagnose.html)
+-   [« tidy::diagnose](tidy.diagnose.md)
     
--   [tidy::getConfig »](tidy.getconfig.html)
+-   [tidy::getConfig »](tidy.getconfig.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidy](class.tidy.html)
+-   [tidy](class.tidy.md)
     
 -   Повертає попередження та помилки, що виникли при розборі зазначеного документа
     
@@ -23,7 +23,7 @@ tidy::$errorBuffer -- tidygeterrorbuffer — Повертає попередже
 
 Об'єктно-орієнтований стиль (property):
 
-public string [$tidy->errorBuffer](tidy.props.errorbuffer.html)
+public string [$tidy->errorBuffer](tidy.props.errorbuffer.md)
 
 Процедурний стиль:
 
@@ -37,7 +37,7 @@ tidy_get_error_buffer(tidy $tidy): string|false
 
 `tidy`
 
-Об'єкт [Tidy](class.tidy.html)
+Об'єкт [Tidy](class.tidy.md)
 
 ### Значення, що повертаються
 

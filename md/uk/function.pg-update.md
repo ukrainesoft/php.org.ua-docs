@@ -4,9 +4,9 @@
     
 -   [пгversion »](function.pg-version.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PostgreSQL](ref.pgsql.html)
+-   [Функции PostgreSQL](ref.pgsql.md)
     
 -   Оновлення даних у таблиці
     
@@ -59,9 +59,9 @@ pg_update(    PgSql\Connection $connection,    string $table_name,   
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -73,7 +73,7 @@ pg_update(    PgSql\Connection $connection,    string $table_name,   
   $data = array('field1'=>'AA', 'field2'=>'BB');
 
   // Это безопасно в некоторой степени, поскольку все значения экранируются.
-  // Однако PostgreSQL поддерживает JSON/массив. Для этих значений это не безопасно
+  // Однако PostgreSQL поддерживает JSON/Масив. Для этих значений это не безопасно
   // ни с через экранирование, ни с помощью подготовленного запроса.
   $res = pg_update($db, 'post_log', $_POST, $data);
   if ($res) {

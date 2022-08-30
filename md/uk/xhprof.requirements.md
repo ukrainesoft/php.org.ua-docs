@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](xhprof.setup.html)
+-   [« Встановлення та налаштування](xhprof.setup.md)
     
--   [Установка »](xhprof.installation.html)
+-   [Установка »](xhprof.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xhprof.setup.html)
+-   [Встановлення та налаштування](xhprof.setup.md)
     
 -   Вимоги
     

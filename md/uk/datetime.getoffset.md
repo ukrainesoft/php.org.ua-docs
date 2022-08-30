@@ -1,12 +1,12 @@
 Повертає усунення часового поясу
 
--   [« DateTimeInterface::format](datetime.format.html)
+-   [« DateTimeInterface::format](datetime.format.md)
     
--   [DateTimeInterface::getTimestamp »](datetime.gettimestamp.html)
+-   [DateTimeInterface::getTimestamp »](datetime.gettimestamp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTimeInterface](class.datetimeinterface.html)
+-   [DateTimeInterface](class.datetimeinterface.md)
     
 -   Повертає усунення часового поясу
     
@@ -51,7 +51,7 @@ date_offset_get(DateTimeInterface $object): int
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [datecreate()](function.date-create.html)
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.html)
 
 ### Значення, що повертаються
 
@@ -59,9 +59,9 @@ date_offset_get(DateTimeInterface $object): int
 
 ### список змін
 
-| Версия | Описание                                                          |
-|--------|-------------------------------------------------------------------|
-|        | До цієї версії, у разі виникнення помилки поверталося **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | До цієї версії, у разі виникнення помилки поверталося **`false`** |
 
 ### Приклади
 

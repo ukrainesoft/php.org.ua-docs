@@ -4,7 +4,7 @@
     
 -   [db2numrows »](function.db2-num-rows.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Функції IBM DB2](ref.ibm-db2.html)
     

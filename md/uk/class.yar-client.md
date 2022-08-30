@@ -4,9 +4,9 @@
     
 -   [YarClient::call »](yar-client.call.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yar](book.yar.html)
+-   [Yar](book.yar.md)
     
 -   Клас YarClient
     

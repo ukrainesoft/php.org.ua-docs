@@ -1,12 +1,12 @@
 Видаляє часткове підвищення запиту на ім'я поля (bq)
 
--   [« SolrDisMaxQuery::removeBigramPhraseField](solrdismaxquery.removebigramphrasefield.html)
+-   [« SolrDisMaxQuery::removeBigramPhraseField](solrdismaxquery.removebigramphrasefield.md)
     
--   [SolrDisMaxQuery::removePhraseField »](solrdismaxquery.removephrasefield.html)
+-   [SolrDisMaxQuery::removePhraseField »](solrdismaxquery.removephrasefield.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
+-   [SolrDisMaxQuery](class.solrdismaxquery.md)
     
 -   Видаляє часткове підвищення запиту на ім'я поля (bq)
     
@@ -23,7 +23,7 @@ SolrDisMaxQuery::removeBoostQuery — Видаляє часткове підви
 public SolrDisMaxQuery::removeBoostQuery(string $field): SolrDisMaxQuery
 ```
 
-Видаляє частковий запит на підвищення з існуючого запиту, тільки якщо було виконано [SolrDisMaxQuery::addBoostQuery()](solrdismaxquery.addboostquery.html)
+Видаляє частковий запит на підвищення з існуючого запиту, тільки якщо було виконано [SolrDisMaxQuery::addBoostQuery()](solrdismaxquery.addboostquery.md)
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ public SolrDisMaxQuery::removeBoostQuery(string $field): SolrDisMaxQuery
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.html)
+[SolrDisMaxQuery](class.solrdismaxquery.md)
 
 ### Приклади
 
@@ -65,5 +65,5 @@ q=lucene&defType=edismax&bq=cat:hard drive
 
 ### Дивіться також
 
--   [SolrDisMaxQuery::addBoostQuery()](solrdismaxquery.addboostquery.html) - Додає поле підвищення запиту зі значенням та необов'язковим посиленням (параметр bq)
--   [SolrDisMaxQuery::setBoostQuery()](solrdismaxquery.setboostquery.html) - безпосередньо встановлює параметр запиту посилення (bq)
+-   [SolrDisMaxQuery::addBoostQuery()](solrdismaxquery.addboostquery.md) - Додає поле підвищення запиту зі значенням та необов'язковим посиленням (параметр bq)
+-   [SolrDisMaxQuery::setBoostQuery()](solrdismaxquery.setboostquery.md) - безпосередньо встановлює параметр запиту посилення (bq)

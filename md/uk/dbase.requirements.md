@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](dbase.setup.html)
+-   [« Встановлення та налаштування](dbase.setup.md)
     
--   [Установка »](dbase.installation.html)
+-   [Установка »](dbase.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](dbase.setup.html)
+-   [Встановлення та налаштування](dbase.setup.md)
     
 -   Вимоги
     

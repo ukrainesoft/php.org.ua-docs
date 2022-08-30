@@ -2,11 +2,11 @@
 
 -   [« Установка](strings.installation.html)
     
--   [Типы ресурсов »](strings.resources.html)
+-   [Типи ресурсів »](strings.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](strings.setup.html)
+-   [Встановлення та налаштування](strings.setup.html)
     
 -   Налаштування під час виконання
     

@@ -4,7 +4,7 @@
     
 -   [ОЙControlsEditableCombo »](class.ui-controls-editablecombo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsCombo](class.ui-controls-combo.html)
     

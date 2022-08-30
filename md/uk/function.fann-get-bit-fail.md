@@ -4,9 +4,9 @@
     
 -   [fanngetcascadeactivationfunctionscount »](function.fann-get-cascade-activation-functions-count.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Кількість бітів збою
     

@@ -1,12 +1,12 @@
 Виводить файл
 
--   [« popen](function.popen.html)
+-   [« popen](function.popen.md)
     
--   [readlink »](function.readlink.html)
+-   [readlink »](function.readlink.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Виводить файл
     
@@ -37,7 +37,7 @@ readfile(string $filename, bool $use_include_path = false, ?resource $context = 
 
 `context`
 
-Ресурс (resource) з [контекстом потоку](stream.contexts.html)
+Ресурс (resource) з [контекстом потоку](stream.contexts.md)
 
 ### Значення, що повертаються
 
@@ -81,15 +81,15 @@ if (file_exists($file)) {
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.html)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Дивіться також
 
--   [fpassthru()](function.fpassthru.html) - Виводить всі дані з файлового покажчика, що залишилися.
--   [file()](function.file.html) - Читає вміст файлу та поміщає його в масив
--   [fopen()](function.fopen.html) - Відкриває файл або URL
--   [include](function.include.html) - include
--   [require](function.require.html) - require
--   [virtual()](function.virtual.html) - Виконує підзапит Apache
+-   [fpassthru()](function.fpassthru.md) - Виводить всі дані з файлового покажчика, що залишилися.
+-   [file()](function.file.md) - Читає вміст файлу та поміщає його в масив
+-   [fopen()](function.fopen.md) - Відкриває файл або URL
+-   [include](function.include.md) - include
+-   [require](function.require.md) - require
+-   [virtual()](function.virtual.md) - Виконує підзапит Apache
 -   [filegetcontents()](function.file-get-contents.html) - Читає вміст файлу в рядок
--   [Підтримувані протоколи та обгортки](wrappers.html)
+-   [Підтримувані протоколи та обгортки](wrappers.md)

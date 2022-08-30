@@ -4,7 +4,7 @@
     
 -   [YafControllerAbstract::getInvokeArg »](yaf-controller-abstract.getinvokearg.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafControllerAbstract](class.yaf-controller-abstract.html)
     

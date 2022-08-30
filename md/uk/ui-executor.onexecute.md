@@ -4,7 +4,7 @@ Callback-функція виконання
     
 -   [ОЙExecutor::setInterval »](ui-executor.setinterval.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙExecutor](class.ui-executor.html)
     

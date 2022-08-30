@@ -1,12 +1,12 @@
 Повертає розмір зображення в байтах
 
--   [« Imagick::getImageSignature](imagick.getimagesignature.html)
+-   [« Imagick::getImageSignature](imagick.getimagesignature.md)
     
--   [Imagick::getImageTicksPerSecond »](imagick.getimagetickspersecond.html)
+-   [Imagick::getImageTicksPerSecond »](imagick.getimagetickspersecond.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає розмір зображення в байтах
     
@@ -27,7 +27,7 @@ Imagick::getImageSize — Повертає розмір зображення в 
 public Imagick::getImageSize(): int
 ```
 
-Повертає розмір зображення у байтах. Цей метод застарілий і слід використовувати [Imagick::getImageLength()](imagick.getimagelength.html)
+Повертає розмір зображення у байтах. Цей метод застарілий і слід використовувати [Imagick::getImageLength()](imagick.getimagelength.md)
 
 ### Список параметрів
 

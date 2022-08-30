@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](svn.configuration.html)
+-   [« Налаштування під час виконання](svn.configuration.md)
     
--   [Предопределённые константы »](svn.constants.html)
+-   [Обумовлені константи »](svn.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](svn.setup.html)
+-   [Встановлення та налаштування](svn.setup.md)
     
 -   Типи ресурсів
     

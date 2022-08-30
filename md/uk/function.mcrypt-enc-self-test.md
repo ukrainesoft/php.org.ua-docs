@@ -4,9 +4,9 @@
     
 -   [mcryptencrypt »](function.mcrypt-encrypt.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](ref.mcrypt.html)
+-   [Mcrypt](ref.mcrypt.md)
     
 -   Запуск самоперевірки відкритого модуля
     

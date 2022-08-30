@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](rrd.requirements.html)
+-   [« Вимоги](rrd.requirements.html)
     
--   [Настройка во время выполнения »](rrd.configuration.html)
+-   [Налаштування під час виконання »](rrd.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](rrd.setup.html)
+-   [Встановлення та налаштування](rrd.setup.html)
     
 -   Встановлення
     

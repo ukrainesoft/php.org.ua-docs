@@ -4,7 +4,7 @@
     
 -   [YafLoader::setLibraryPath »](yaf-loader.setlibrarypath.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafLoader](class.yaf-loader.html)
     

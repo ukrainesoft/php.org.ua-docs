@@ -1,12 +1,12 @@
 Вимикає профільник
 
--   [« LuaSandbox::callFunction](luasandbox.callfunction.html)
+-   [« LuaSandbox::callFunction](luasandbox.callfunction.md)
     
--   [LuaSandbox::enableProfiler »](luasandbox.enableprofiler.html)
+-   [LuaSandbox::enableProfiler »](luasandbox.enableprofiler.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LuaSandbox](class.luasandbox.html)
+-   [LuaSandbox](class.luasandbox.md)
     
 -   Вимикає профільник
     
@@ -35,5 +35,5 @@ public LuaSandbox::disableProfiler(): void
 
 ### Дивіться також
 
--   [LuaSandbox::enableProfiler()](luasandbox.enableprofiler.html) - Включає профільувальник
--   [LuaSandbox::getProfilerFunctionReport()](luasandbox.getprofilerfunctionreport.html) - Отримує дані профілювача
+-   [LuaSandbox::enableProfiler()](luasandbox.enableprofiler.md) - Включає профільувальник
+-   [LuaSandbox::getProfilerFunctionReport()](luasandbox.getprofilerfunctionreport.md) - Отримує дані профілювача

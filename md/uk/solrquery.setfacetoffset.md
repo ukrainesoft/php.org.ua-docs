@@ -1,12 +1,12 @@
 Встановлює зміщення до списку обмежень для розбиття на сторінки
 
--   [« SolrQuery::setFacetMissing](solrquery.setfacetmissing.html)
+-   [« SolrQuery::setFacetMissing](solrquery.setfacetmissing.md)
     
--   [SolrQuery::setFacetPrefix »](solrquery.setfacetprefix.html)
+-   [SolrQuery::setFacetPrefix »](solrquery.setfacetprefix.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Встановлює зміщення до списку обмежень для розбиття на сторінки
     

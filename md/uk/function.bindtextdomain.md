@@ -2,11 +2,11 @@
 
 -   [« bindtextdomaincodeset](function.bind-textdomain-codeset.html)
     
--   [dcgettext »](function.dcgettext.html)
+-   [dcgettext »](function.dcgettext.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции gettext](ref.gettext.html)
+-   [Функции gettext](ref.gettext.md)
     
 -   Встановлює або отримує шлях для домену
     
@@ -41,9 +41,9 @@ bindtextdomain(string $domain, ?string $directory): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                |
-|--------|---------------------------------------------------------------------------------------------------------|
-|        | `directory` тепер допускає значення null. Раніше неможливо було отримати поточний встановлений каталог. |
+| Версия | Описание |
+| --- | --- |
+|  | `directory` тепер допускає значення null. Раніше неможливо було отримати поточний встановлений каталог. |
 
 ### Приклади
 

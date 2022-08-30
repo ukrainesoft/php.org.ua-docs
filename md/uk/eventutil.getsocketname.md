@@ -1,12 +1,12 @@
 Отримати поточну адресу, до якої прив'язаний сокет
 
--   [« EventUtil::getSocketFd](eventutil.getsocketfd.html)
+-   [« EventUtil::getSocketFd](eventutil.getsocketfd.md)
     
--   [EventUtil::setSocketOption »](eventutil.setsocketoption.html)
+-   [EventUtil::setSocketOption »](eventutil.setsocketoption.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventUtil](class.eventutil.html)
+-   [EventUtil](class.eventutil.md)
     
 -   Отримати поточну адресу, до якої прив'язаний сокет
     

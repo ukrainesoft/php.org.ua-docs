@@ -1,12 +1,12 @@
 Встановлює затримку зображення
 
--   [« Imagick::setImageCompressionQuality](imagick.setimagecompressionquality.html)
+-   [« Imagick::setImageCompressionQuality](imagick.setimagecompressionquality.md)
     
--   [Imagick::setImageDepth »](imagick.setimagedepth.html)
+-   [Imagick::setImageDepth »](imagick.setimagedepth.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює затримку зображення
     

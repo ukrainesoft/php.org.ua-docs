@@ -1,12 +1,12 @@
 Переміститися до наступного сайту в документі
 
--   [« XMLReader::open](xmlreader.open.html)
+-   [« XMLReader::open](xmlreader.open.md)
     
--   [XMLReader::readInnerXml »](xmlreader.readinnerxml.html)
+-   [XMLReader::readInnerXml »](xmlreader.readinnerxml.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLReader](class.xmlreader.html)
+-   [XMLReader](class.xmlreader.md)
     
 -   Переміститися до наступного сайту в документі
     
@@ -35,6 +35,6 @@ public XMLReader::read(): bool
 
 ### Дивіться також
 
--   [XMLReader::moveToElement()](xmlreader.movetoelement.html) - Позиціонувати курсор на батьківському елементі поточного атрибуту
--   [XMLReader::moveToAttribute()](xmlreader.movetoattribute.html) - Перемістити курсор до атрибуту із заданим ім'ям
--   [XMLReader::next()](xmlreader.next.html) - Перемістити курсор на наступний вузол, пропускаючи всі піддерева
+-   [XMLReader::moveToElement()](xmlreader.movetoelement.md) - Позиціонувати курсор на батьківському елементі поточного атрибуту
+-   [XMLReader::moveToAttribute()](xmlreader.movetoattribute.md) - Перемістити курсор до атрибуту із заданим ім'ям
+-   [XMLReader::next()](xmlreader.next.md) - Перемістити курсор на наступний вузол, пропускаючи всі піддерева

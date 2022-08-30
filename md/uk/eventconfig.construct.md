@@ -1,12 +1,12 @@
 Створити об'єкт EventConfig
 
--   [« EventConfig::avoidMethod](eventconfig.avoidmethod.html)
+-   [« EventConfig::avoidMethod](eventconfig.avoidmethod.md)
     
--   [EventConfig::requireFeatures »](eventconfig.requirefeatures.html)
+-   [EventConfig::requireFeatures »](eventconfig.requirefeatures.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventConfig](class.eventconfig.html)
+-   [EventConfig](class.eventconfig.md)
     
 -   Створити об'єкт EventConfig
     
@@ -24,7 +24,7 @@ public
    EventConfig::__construct()
 ```
 
-Створює об'єкт EventConfig, який можна передати до конструктора [EventBase::construct()](eventbase.construct.html)
+Створює об'єкт EventConfig, який можна передати до конструктора [EventBase::construct()](eventbase.construct.md)
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ public
 
 ### Значення, що повертаються
 
-Повертає об'єкт [EventConfig](class.eventconfig.html)
+Повертає об'єкт [EventConfig](class.eventconfig.md)
 
 ### Приклади
 
@@ -55,4 +55,4 @@ $base = new EventBase($cfg);
 
 ### Дивіться також
 
--   [EventBase::construct()](eventbase.construct.html) - Конструктор об'єкту EventBase
+-   [EventBase::construct()](eventbase.construct.md) - Конструктор об'єкту EventBase

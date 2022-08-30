@@ -4,7 +4,7 @@
     
 -   [ОЙDrawTextFontDescriptor::getFamily »](ui-draw-text-font-descriptor.getfamily.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html)
     

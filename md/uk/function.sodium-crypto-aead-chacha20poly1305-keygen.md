@@ -4,9 +4,9 @@
     
 -   [sodiumcryptoaeadxchacha20poly1305ietfdecrypt »](function.sodium-crypto-aead-xchacha20poly1305-ietf-decrypt.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Створює випадковий ключ ChaCha20-Poly1305
     

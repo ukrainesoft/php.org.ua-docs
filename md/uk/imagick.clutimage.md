@@ -1,12 +1,12 @@
 Замінює кольори у зображенні
 
--   [« Imagick::clone](imagick.clone.html)
+-   [« Imagick::clone](imagick.clone.md)
     
--   [Imagick::coalesceImages »](imagick.coalesceimages.html)
+-   [Imagick::coalesceImages »](imagick.coalesceimages.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Замінює кольори у зображенні
     
@@ -57,6 +57,6 @@ $image->writeImage('test_out.jpg');
 
 ### Дивіться також
 
--   [Imagick::adaptiveBlurImage()](imagick.adaptiveblurimage.html) - Додає адаптивний фільтр розмиття до зображення
--   [Imagick::motionBlurImage()](imagick.motionblurimage.html) - Імітує розмиття у русі
--   [Imagick::radialBlurImage()](imagick.radialblurimage.html) - Радіальне розмиття зображення
+-   [Imagick::adaptiveBlurImage()](imagick.adaptiveblurimage.md) - Додає адаптивний фільтр розмиття до зображення
+-   [Imagick::motionBlurImage()](imagick.motionblurimage.md) - Імітує розмиття у русі
+-   [Imagick::radialBlurImage()](imagick.radialblurimage.md) - Радіальне розмиття зображення

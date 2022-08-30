@@ -1,12 +1,12 @@
 Читає дані з екземпляра GLO та записує їх у файл
 
--   [« Устаревшие псевдонимы и функции CUBRID](oldaliases.cubrid.html)
+-   [« Застарілі псевдоніми та функції CUBRID](oldaliases.cubrid.md)
     
 -   [cubridnewglo »](function.cubrid-new-glo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие псевдонимы и функции CUBRID](oldaliases.cubrid.html)
+-   [Застарілі псевдоніми та функції CUBRID](oldaliases.cubrid.md)
     
 -   Читає дані з екземпляра GLO та записує їх у файл
     

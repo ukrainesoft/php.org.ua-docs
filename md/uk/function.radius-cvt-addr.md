@@ -4,9 +4,9 @@
     
 -   [radiuscvtint »](function.radius-cvt-int.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Radius](ref.radius.html)
+-   [Функции Radius](ref.radius.md)
     
 -   Перетворює необроблені дані на IP-адресу
     

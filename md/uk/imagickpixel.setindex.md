@@ -1,12 +1,12 @@
 Опис
 
--   [« ImagickPixel::setHSL](imagickpixel.sethsl.html)
+-   [« ImagickPixel::setHSL](imagickpixel.sethsl.md)
     
--   [ImagickPixelIterator »](class.imagickpixeliterator.html)
+-   [ImagickPixelIterator »](class.imagickpixeliterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickPixel](class.imagickpixel.html)
+-   [ImagickPixel](class.imagickpixel.md)
     
 -   Опис
     

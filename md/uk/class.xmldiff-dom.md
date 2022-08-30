@@ -4,9 +4,9 @@
     
 -   [XMLDiffDOM::diff »](xmldiff-dom.diff.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLDiff](book.xmldiff.html)
+-   [XMLDiff](book.xmldiff.md)
     
 -   Клас XMLDiffDOM
     

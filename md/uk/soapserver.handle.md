@@ -1,12 +1,12 @@
 Обробка SOAP-запиту
 
--   [« SoapServer::getFunctions](soapserver.getfunctions.html)
+-   [« SoapServer::getFunctions](soapserver.getfunctions.md)
     
--   [SoapServer::setClass »](soapserver.setclass.html)
+-   [SoapServer::setClass »](soapserver.setclass.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SoapServer](class.soapserver.html)
+-   [SoapServer](class.soapserver.md)
     
 -   Обробка SOAP-запиту
     
@@ -37,9 +37,9 @@ SOAP-запит. Якщо аргумент не заданий, передбач
 
 ### список змін
 
-| Версия | Описание                                |
-|--------|-----------------------------------------|
-|        | `request` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `request` тепер допускає значення null. |
 
 ### Приклади
 
@@ -60,4 +60,4 @@ $server->handle();
 
 ### Дивіться також
 
--   [SoapServer::construct()](soapserver.construct.html) - Конструктор SoapServer
+-   [SoapServer::construct()](soapserver.construct.md) - Конструктор SoapServer

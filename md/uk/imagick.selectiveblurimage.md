@@ -1,12 +1,12 @@
 Опис
 
--   [« Imagick::segmentImage](imagick.segmentimage.html)
+-   [« Imagick::segmentImage](imagick.segmentimage.md)
     
--   [Imagick::separateImageChannel »](imagick.separateimagechannel.html)
+-   [Imagick::separateImageChannel »](imagick.separateimagechannel.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Опис
     
@@ -35,7 +35,7 @@ public Imagick::selectiveBlurImage(    float $radius,    float $sigma, 
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константы каналов](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
 
 ### Значення, що повертаються
 

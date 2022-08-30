@@ -4,9 +4,9 @@
     
 -   [mdecryptgeneric »](function.mdecrypt-generic.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](ref.mcrypt.html)
+-   [Mcrypt](ref.mcrypt.md)
     
 -   Функція запускає самоперевірку вказаного модуля
     

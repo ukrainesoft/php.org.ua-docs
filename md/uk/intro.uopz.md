@@ -2,7 +2,7 @@
 
 -   [« uopz](book.uopz.html)
     
--   [Установка и настройка »](uopz.setup.html)
+-   [Встановлення та налаштування »](uopz.setup.html)
     
 -   [PHP Manual](index.html)
     

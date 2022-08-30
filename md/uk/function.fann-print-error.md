@@ -4,9 +4,9 @@
     
 -   [fannrandomizeweights »](function.fann-randomize-weights.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Виводить рядок помилки
     

@@ -1,12 +1,12 @@
 Завдання частини префіксу
 
--   [« RecursiveTreeIterator::setPostfix](recursivetreeiterator.setpostfix.html)
+-   [« RecursiveTreeIterator::setPostfix](recursivetreeiterator.setpostfix.md)
     
--   [RecursiveTreeIterator::valid »](recursivetreeiterator.valid.html)
+-   [RecursiveTreeIterator::valid »](recursivetreeiterator.valid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+-   [RecursiveTreeIterator](class.recursivetreeiterator.md)
     
 -   Завдання частини префіксу
     

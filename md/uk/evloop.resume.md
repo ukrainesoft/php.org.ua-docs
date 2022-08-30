@@ -1,12 +1,12 @@
 Відновлює раніше зупинений цикл подій
 
--   [« EvLoop::prepare](evloop.prepare.html)
+-   [« EvLoop::prepare](evloop.prepare.md)
     
--   [EvLoop::run »](evloop.run.html)
+-   [EvLoop::run »](evloop.run.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvLoop](class.evloop.html)
+-   [EvLoop](class.evloop.md)
     
 -   Відновлює раніше зупинений цикл подій
     
@@ -24,7 +24,7 @@ public
    EvLoop::resume(): void
 ```
 
-Методи [EvLoop::suspend()](evloop.suspend.html) і **EvLoop::resume()** зупиняють та відновлюють цикл відповідно.
+Методи [EvLoop::suspend()](evloop.suspend.md) і **EvLoop::resume()** зупиняють та відновлюють цикл відповідно.
 
 ### Список параметрів
 
@@ -36,5 +36,5 @@ public
 
 ### Дивіться також
 
--   [EvLoop::suspend()](evloop.suspend.html) - Припиняє цикл
--   [Ev::resume()](ev.resume.html) - Відновити виконання призупиненого раніше циклу подій за умовчанням
+-   [EvLoop::suspend()](evloop.suspend.md) - Припиняє цикл
+-   [Ev::resume()](ev.resume.md) - Відновити виконання призупиненого раніше циклу подій за умовчанням

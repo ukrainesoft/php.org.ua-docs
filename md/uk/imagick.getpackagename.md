@@ -1,12 +1,12 @@
 Повертає ім'я пакету ImageMagick
 
--   [« Imagick::getOption](imagick.getoption.html)
+-   [« Imagick::getOption](imagick.getoption.md)
     
--   [Imagick::getPage »](imagick.getpage.html)
+-   [Imagick::getPage »](imagick.getpage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає ім'я пакету ImageMagick
     

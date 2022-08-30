@@ -1,12 +1,12 @@
 Отримує інформацію про файли, закешовані у файловому кеші
 
--   [« Функции WinCache](ref.wincache.html)
+-   [« Функции WinCache](ref.wincache.md)
     
 -   [wincachefcachememinfo »](function.wincache-fcache-meminfo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции WinCache](ref.wincache.html)
+-   [Функции WinCache](ref.wincache.md)
     
 -   Отримує інформацію про файли, закешовані у файловому кеші
     

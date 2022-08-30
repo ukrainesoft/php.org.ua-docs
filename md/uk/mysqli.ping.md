@@ -1,12 +1,12 @@
 Перевіряє працездатність з'єднання або намагається перепідключитися, якщо з'єднання розірвано
 
--   [« mysqli::options](mysqli.options.html)
+-   [« mysqli::options](mysqli.options.md)
     
--   [mysqli::poll »](mysqli.poll.html)
+-   [mysqli::poll »](mysqli.poll.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Перевіряє працездатність з'єднання або намагається перепідключитися, якщо з'єднання розірвано
     
@@ -43,7 +43,7 @@ mysqli_ping(mysqli $mysql): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 

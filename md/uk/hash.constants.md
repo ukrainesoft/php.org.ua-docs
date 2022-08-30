@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](hash.resources.html)
+-   [« Типи ресурсів](hash.resources.html)
     
 -   [HashContext »](class.hashcontext.html)
     

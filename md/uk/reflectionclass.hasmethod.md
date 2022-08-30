@@ -1,12 +1,12 @@
 Перевіряє, чи заданий метод
 
--   [« ReflectionClass::hasConstant](reflectionclass.hasconstant.html)
+-   [« ReflectionClass::hasConstant](reflectionclass.hasconstant.md)
     
--   [ReflectionClass::hasProperty »](reflectionclass.hasproperty.html)
+-   [ReflectionClass::hasProperty »](reflectionclass.hasproperty.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Перевіряє, чи заданий метод
     
@@ -90,5 +90,5 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionClass::hasConstant()](reflectionclass.hasconstant.html) - Перевіряє, чи визначено константу
--   [ReflectionClass::hasProperty()](reflectionclass.hasproperty.html) - Перевіряє, чи визначено властивість
+-   [ReflectionClass::hasConstant()](reflectionclass.hasconstant.md) - Перевіряє, чи визначено константу
+-   [ReflectionClass::hasProperty()](reflectionclass.hasproperty.md) - Перевіряє, чи визначено властивість

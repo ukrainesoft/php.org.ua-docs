@@ -4,9 +4,9 @@
     
 -   [gnupgverify »](function.gnupg-verify.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GnuPG Функції](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.md)
     
 -   Підписує переданий текст
     

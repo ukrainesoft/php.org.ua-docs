@@ -55,11 +55,11 @@ public ZipArchive::addGlob(string $pattern, int $flags = 0, array $options = [])
     
 -   `"flags"`
     
-    Бітова маска, що складається з **`ZipArchive::FL_OVERWRITE`** **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`**. Поведінка констант описана на сторінці [ZIP-константы](zip.constants.html)
+    Бітова маска, що складається з **`ZipArchive::FL_OVERWRITE`** **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`**. Поведінка констант описана на сторінці [ZIP-константи](zip.constants.html)
     
 -   `"comp_method"`
     
-    Метод стиснення, одна з констант **`ZipArchive::CM_*`**, дивіться сторінку [константы ZIP](zip.constants.html)
+    Метод стиснення, одна з констант **`ZipArchive::CM_*`**, дивіться сторінку [константи ZIP](zip.constants.html)
     
 -   `"comp_flags"`
     
@@ -67,7 +67,7 @@ public ZipArchive::addGlob(string $pattern, int $flags = 0, array $options = [])
     
 -   `"enc_method"`
     
-    Метод шифрування, одна з констант **`ZipArchive::EM_*`**, дивіться сторінку [константы ZIP](zip.constants.html)
+    Метод шифрування, одна з констант **`ZipArchive::EM_*`**, дивіться сторінку [константи ZIP](zip.constants.html)
     
 -   `"enc_password"`
     
@@ -80,10 +80,10 @@ public ZipArchive::addGlob(string $pattern, int $flags = 0, array $options = [])
 
 ### список змін
 
-| Версия | Описание                                                                                      |
-|--------|-----------------------------------------------------------------------------------------------|
-|        | Доданий параметр `"flags"` в `options`                                                        |
-|        | Додані параметри `"comp_method"` `"comp_flags"` `"enc_method"` і `"enc_password"` в `options` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `"flags"` в `options` |
+|  | Додані параметри `"comp_method"` `"comp_flags"` `"enc_method"` і `"enc_password"` в `options` |
 
 ### Приклади
 

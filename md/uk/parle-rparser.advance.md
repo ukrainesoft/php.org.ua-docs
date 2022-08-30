@@ -4,7 +4,7 @@
     
 -   [ParleRParser::build »](parle-rparser.build.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ParleRParser](class.parle-rparser.html)
     

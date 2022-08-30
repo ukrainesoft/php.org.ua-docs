@@ -1,12 +1,12 @@
 Псевдонім ocifieldtype
 
--   [« ocicolumnsize](function.ocicolumnsize.html)
+-   [« ocicolumnsize](function.ocicolumnsize.md)
     
--   [ocicolumntyperaw »](function.ocicolumntyperaw.html)
+-   [ocicolumntyperaw »](function.ocicolumntyperaw.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Псевдонім ocifieldtype
     

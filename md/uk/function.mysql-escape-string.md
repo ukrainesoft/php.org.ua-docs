@@ -4,9 +4,9 @@
     
 -   [mysqlfetcharray »](function.mysql-fetch-array.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](ref.mysql.html)
+-   [MySQL](ref.mysql.md)
     
 -   Екранує рядок для використання в mysqlquery
     
@@ -19,10 +19,10 @@ mysqlescapestring — Екранує рядок для використання 
 
 **Увага**
 
-Ця функція оголошена застарілою в PHP 4.3.0, і, разом з [модулем MySQL](book.mysql.html)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Також дивіться розділ [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Ця функція оголошена застарілою в PHP 4.3.0, і, разом з [модулем MySQL](book.mysql.md)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Також дивіться розділ [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   [mysqliescapestring()](function.mysqli-escape-string.html)
--   [PDO::quote()](pdo.quote.html)
+-   [PDO::quote()](pdo.quote.md)
 
 ### Опис
 
@@ -71,5 +71,5 @@ Escaped string: Zak\'s Laptop
 ### Дивіться також
 
 -   [mysqlrealescapestring()](function.mysql-real-escape-string.html) - Екранує спеціальні символи у рядках для використання у виразах SQL
--   [addslashes()](function.addslashes.html) - Екранує рядок за допомогою слішів
+-   [addslashes()](function.addslashes.md) - Екранує рядок за допомогою слішів
 -   Директиву [magicquotesgpc](info.configuration.html#ini.magic-quotes-gpc)

@@ -2,7 +2,7 @@
 
 -   [« Файлова система](book.filesystem.html)
     
--   [Установка и настройка »](filesystem.setup.html)
+-   [Встановлення та налаштування »](filesystem.setup.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Гамма-корекція зображення
 
--   [« Gmagick::frameimage](gmagick.frameimage.html)
+-   [« Gmagick::frameimage](gmagick.frameimage.md)
     
--   [Gmagick::getcopyright »](gmagick.getcopyright.html)
+-   [Gmagick::getcopyright »](gmagick.getcopyright.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Гамма-корекція зображення
     
@@ -33,7 +33,7 @@ public Gmagick::gammaimage(float $gamma): Gmagick
 
 ### Значення, що повертаються
 
-Гамма-скоригований об'єкт [Gmagick](class.gmagick.html)
+Гамма-скоригований об'єкт [Gmagick](class.gmagick.md)
 
 ### Помилки
 

@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.funchand.html)
+-   [« Введение](intro.funchand.md)
     
--   [Требования »](funchand.requirements.html)
+-   [Вимоги »](funchand.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Управление функциями](book.funchand.html)
+-   [Управление функциями](book.funchand.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](funchand.requirements.html)
--   [Установка](funchand.installation.html)
--   [Настройка во время выполнения](funchand.configuration.html)
--   [Типы ресурсов](funchand.resources.html)
+-   [Вимоги](funchand.requirements.md)
+-   [Установка](funchand.installation.md)
+-   [Налаштування під час виконання](funchand.configuration.md)
+-   [Типи ресурсів](funchand.resources.md)

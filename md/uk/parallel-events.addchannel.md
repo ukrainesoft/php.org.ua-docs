@@ -4,7 +4,7 @@
     
 -   [parallelEvents::addFuture »](parallel-events.addfuture.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [parallelEvents](class.parallel-events.html)
     

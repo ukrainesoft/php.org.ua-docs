@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](xml.resources.html)
+-   [« Типи ресурсів](xml.resources.md)
     
--   [Обработчики событий »](xml.eventhandlers.html)
+-   [Обробники подій »](xml.eventhandlers.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Разбор XML](book.xml.html)
+-   [Разбор XML](book.xml.md)
     
 -   Обумовлені константи
     

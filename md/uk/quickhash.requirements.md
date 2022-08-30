@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](quickhash.setup.html)
+-   [« Встановлення та налаштування](quickhash.setup.md)
     
--   [Установка »](quickhash.installation.html)
+-   [Установка »](quickhash.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](quickhash.setup.html)
+-   [Встановлення та налаштування](quickhash.setup.md)
     
 -   Вимоги
     

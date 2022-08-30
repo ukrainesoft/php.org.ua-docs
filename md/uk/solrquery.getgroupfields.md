@@ -1,12 +1,12 @@
 Повертає групові поля (значення параметра group.field)
 
--   [« SolrQuery::getGroupFacet](solrquery.getgroupfacet.html)
+-   [« SolrQuery::getGroupFacet](solrquery.getgroupfacet.md)
     
--   [SolrQuery::getGroupFormat »](solrquery.getgroupformat.html)
+-   [SolrQuery::getGroupFormat »](solrquery.getgroupformat.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає групові поля (значення параметра group.field)
     
@@ -33,4 +33,4 @@ public SolrQuery::getGroupFields(): array
 
 ### Дивіться також
 
--   [SolrQuery::addGroupField()](solrquery.addgroupfield.html) - Додає поле, яке використовуватиметься для групування результатів
+-   [SolrQuery::addGroupField()](solrquery.addgroupfield.md) - Додає поле, яке використовуватиметься для групування результатів

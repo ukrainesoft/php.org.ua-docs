@@ -1,12 +1,12 @@
 Створює обрізану мініатюру
 
--   [« Imagick::cropImage](imagick.cropimage.html)
+-   [« Imagick::cropImage](imagick.cropimage.md)
     
--   [Imagick::current »](imagick.current.html)
+-   [Imagick::current »](imagick.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Створює обрізану мініатюру
     

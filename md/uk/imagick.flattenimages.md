@@ -1,12 +1,12 @@
 Поєднує послідовність зображень
 
--   [« Imagick::filter](imagick.filter.html)
+-   [« Imagick::filter](imagick.filter.md)
     
--   [Imagick::flipImage »](imagick.flipimage.html)
+-   [Imagick::flipImage »](imagick.flipimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Поєднує послідовність зображень
     

@@ -1,12 +1,12 @@
 Ініціює фрагментарну відповідь
 
--   [« EventHttpRequest::sendReplyEnd](eventhttprequest.sendreplyend.html)
+-   [« EventHttpRequest::sendReplyEnd](eventhttprequest.sendreplyend.md)
     
--   [EventListener »](class.eventlistener.html)
+-   [EventListener »](class.eventlistener.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpRequest](class.eventhttprequest.html)
+-   [EventHttpRequest](class.eventhttprequest.md)
     
 -   Ініціює фрагментарну відповідь
     
@@ -34,7 +34,7 @@ public
 
 Це дозволяє стороні передавати відповідь назад клієнту. Це буде корисно, коли не всі дані відповіді доступні відразу, або при надсиланні дуже великих відповідей.
 
-Викликаюча сторона повинна надати фрагменти даних за допомогою [EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.html) і завершити відповідь, викликавши [EventHttpRequest::sendReplyEnd()](eventhttprequest.sendreplyend.html)
+Викликаюча сторона повинна надати фрагменти даних за допомогою [EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.md) і завершити відповідь, викликавши [EventHttpRequest::sendReplyEnd()](eventhttprequest.sendreplyend.md)
 
 ### Список параметрів
 
@@ -52,5 +52,5 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.html) - Відправляє блок даних, як частина поточної фрагментованої відповіді
--   [EventHttpRequest::sendReplyEnd()](eventhttprequest.sendreplyend.html) - заповнює фрагментарну відповідь, звільняючи запит відповідним чином
+-   [EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.md) - Відправляє блок даних, як частина поточної фрагментованої відповіді
+-   [EventHttpRequest::sendReplyEnd()](eventhttprequest.sendreplyend.md) - заповнює фрагментарну відповідь, звільняючи запит відповідним чином

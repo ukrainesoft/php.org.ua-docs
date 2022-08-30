@@ -4,9 +4,9 @@ Link успадковує CommonMarkNode
     
 -   [CommonMarkNodeLink::construct »](commonmark-node-link.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CommonMark](book.cmark.html)
+-   [CommonMark](book.cmark.md)
     
 -   Link успадковує CommonMarkNode
     

@@ -4,9 +4,9 @@
     
 -   [мбencodenumericentity »](function.mb-encode-numericentity.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
     
 -   Кодує рядок для MIME-заголовка
     
@@ -53,9 +53,9 @@ mb_encode_mimeheader(    string $string,    ?string $charset = null,  
 
 ### список змін
 
-| Версия | Описание                                                        |
-|--------|-----------------------------------------------------------------|
-|        | `charset` і `transfer_encoding` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `charset` і `transfer_encoding` тепер допускають значення null. |
 
 ### Приклади
 

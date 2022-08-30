@@ -1,12 +1,12 @@
 Закінчення дочірніх елементів
 
--   [« RecursiveIteratorIterator::current](recursiveiteratoriterator.current.html)
+-   [« RecursiveIteratorIterator::current](recursiveiteratoriterator.current.md)
     
--   [RecursiveIteratorIterator::endIteration »](recursiveiteratoriterator.enditeration.html)
+-   [RecursiveIteratorIterator::endIteration »](recursiveiteratoriterator.enditeration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
     
 -   Закінчення дочірніх елементів
     

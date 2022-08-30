@@ -94,7 +94,7 @@ var_dump(isset($a['hello']));           // FALSE
 // Если вы хотите проверить существование ключей со значением NULL, попробуйте так:
 var_dump(array_key_exists('hello', $a)); // TRUE
 
-// Проверка вложенных элементов массива
+// Проверка вложенных элементов Масива
 var_dump(isset($a['pie']['a']));        // TRUE
 var_dump(isset($a['pie']['b']));        // FALSE
 var_dump(isset($a['cake']['a']['b']));  // FALSE
@@ -133,7 +133,7 @@ bool(false)
 
 **isset()** працює тільки зі змінними, тому передача як параметри будь-яких інших значень приведе до помилки парсингу. Для перевірки визначення [констант](language.constants.html) використовуйте функцію [defined()](function.defined.html)
 
-> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [переменных функций](functions.variable-functions.html) або [именованных аргументов](functions.arguments.html#functions.named-arguments)
+> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [змінних функцій](functions.variable-functions.html) або [іменованих аргументів](functions.arguments.html#functions.named-arguments)
 
 > **Зауваження**
 > 

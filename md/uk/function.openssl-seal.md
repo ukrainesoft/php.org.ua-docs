@@ -4,9 +4,9 @@
     
 -   [opensslsign »](function.openssl-sign.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Запечатати (зашифрувати) дані
     
@@ -41,7 +41,7 @@ openssl_seal(    string $data,    string &$sealed_data,    array &$e
 
 `public_key`
 
-Масив екземплярів [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html), що містять відкриті ключі.
+Масив екземплярів [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md), що містять відкриті ключі.
 
 `cipher_algo`
 
@@ -61,11 +61,11 @@ openssl_seal(    string $data,    string &$sealed_data,    array &$e
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                            |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `public_key` тепер приймає масив (array) екземплярів [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймався масив (array) ресурсів ([resource](language.types.resource.html)) типу `OpenSSL key` |
-|        | `cipher_algo` більше не є необов'язковим параметром.                                                                                                                                                                |
-|        | `iv` тепер допускає значення null.                                                                                                                                                                                  |
+| Версия | Описание |
+| --- | --- |
+|  | `public_key` тепер приймає масив (array) екземплярів [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався масив (array) ресурсів ([resource](language.types.resource.md)) типу `OpenSSL key` |
+|  | `cipher_algo` більше не є необов'язковим параметром. |
+|  | `iv` тепер допускає значення null. |
 
 ### Приклади
 

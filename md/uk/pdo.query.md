@@ -1,12 +1,12 @@
 Підготовляє та виконує вираз SQL без заповнювачів
 
--   [« PDO::prepare](pdo.prepare.html)
+-   [« PDO::prepare](pdo.prepare.md)
     
--   [PDO::quote »](pdo.quote.html)
+-   [PDO::quote »](pdo.quote.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDO](class.pdo.html)
+-   [PDO](class.pdo.md)
     
 -   Підготовляє та виконує вираз SQL без заповнювачів
     
@@ -35,15 +35,15 @@ public PDO::query(    string $query,    ?int $fetchMode = PDO::FETCH_CLA
 public PDO::query(string $query, ?int $fetchMode = PDO::FETCH_INTO, object $object): PDOStatement|false
 ```
 
-**PDO::query()** готує та виконує вираз SQL за один виклик функції, повертаючи вираз як об'єкт [PDOStatement](class.pdostatement.html)
+**PDO::query()** готує та виконує вираз SQL за один виклик функції, повертаючи вираз як об'єкт [PDOStatement](class.pdostatement.md)
 
-Якщо запит запускатиметься багаторазово, для покращення продуктивності програми має сенс цей запит один раз підготувати [PDOStatement](class.pdostatement.html) методом [PDO::prepare()](pdo.prepare.html), а потім запускати на виконання методом [PDOStatement::execute()](pdostatement.execute.html) стільки разів, скільки потрібно.
+Якщо запит запускатиметься багаторазово, для покращення продуктивності програми має сенс цей запит один раз підготувати [PDOStatement](class.pdostatement.md) методом [PDO::prepare()](pdo.prepare.md), а потім запускати на виконання методом [PDOStatement::execute()](pdostatement.execute.md) стільки разів, скільки потрібно.
 
-Якщо після виконання попереднього запиту ви не вибрали всі дані з результуючого набору, наступний дзвінок **PDO::query()** може зазнати невдачі. У таких випадках слід викликати метод [PDOStatement::closeCursor()](pdostatement.closecursor.html), що звільнить ресурси бази даних, зайняті попереднім об'єктом [PDOStatement](class.pdostatement.html). Після цього можна безпечно викликати **PDO::query()**
+Якщо після виконання попереднього запиту ви не вибрали всі дані з результуючого набору, наступний дзвінок **PDO::query()** може зазнати невдачі. У таких випадках слід викликати метод [PDOStatement::closeCursor()](pdostatement.closecursor.md), що звільнить ресурси бази даних, зайняті попереднім об'єктом [PDOStatement](class.pdostatement.md). Після цього можна безпечно викликати **PDO::query()**
 
 > **Зауваження**
 > 
-> Якщо `query` містить заповнювачі, вираз має бути підготовлено та виконано окремо з використанням методів [PDO::prepare()](pdo.prepare.html) і [PDOStatement::execute()](pdostatement.execute.html)
+> Якщо `query` містить заповнювачі, вираз має бути підготовлено та виконано окремо з використанням методів [PDO::prepare()](pdo.prepare.md) і [PDOStatement::execute()](pdostatement.execute.md)
 
 ### Список параметрів
 
@@ -51,17 +51,17 @@ public PDO::query(string $query, ?int $fetchMode = PDO::FETCH_INTO, object $obje
 
 SQL-запит для підготовки та виконання.
 
-Якщо SQL містить заповнювачі, замість цього слід використовувати [PDO::prepare()](pdo.prepare.html) і [PDOStatement::execute()](pdostatement.execute.html). В якості альтернативи, SQL можна підготувати вручну перед викликом **PDO::query()**, при цьому дані мають бути правильно відформатовані з використанням [PDO::quote()](pdo.quote.html)якщо драйвер підтримує це.
+Якщо SQL містить заповнювачі, замість цього слід використовувати [PDO::prepare()](pdo.prepare.md) і [PDOStatement::execute()](pdostatement.execute.md). В якості альтернативи, SQL можна підготувати вручну перед викликом **PDO::query()**, при цьому дані мають бути правильно відформатовані з використанням [PDO::quote()](pdo.quote.md)якщо драйвер підтримує це.
 
 `fetchMode`
 
-Режим вибірки за промовчанням для повернутого [PDOStatement](class.pdostatement.html). Має бути однією з констант [`PDO::FETCH_*`](pdo.constants.html)
+Режим вибірки за промовчанням для повернутого [PDOStatement](class.pdostatement.md). Має бути однією з констант [`PDO::FETCH_*`](pdo.constants.md)
 
-Якщо цей аргумент передається функції, інші аргументи будуть оброблятися так, якби [PDOStatement::setFetchMode()](pdostatement.setfetchmode.html) був викликаний отриманого об'єкта висловлювання. Подальші аргументи залежать від вибраного режиму вибірки.
+Якщо цей аргумент передається функції, інші аргументи будуть оброблятися так, якби [PDOStatement::setFetchMode()](pdostatement.setfetchmode.md) був викликаний отриманого об'єкта висловлювання. Подальші аргументи залежать від вибраного режиму вибірки.
 
 ### Значення, що повертаються
 
-Повертає об'єкт [PDOStatement](class.pdostatement.html) або **`false`** у разі виникнення помилки.
+Повертає об'єкт [PDOStatement](class.pdostatement.md) або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -92,6 +92,6 @@ watermelon      pink    90
 
 ### Дивіться також
 
--   [PDO::exec()](pdo.exec.html) - Виконує SQL-запит та повертає кількість порушених рядків
--   [PDO::prepare()](pdo.prepare.html) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
--   [PDOStatement::execute()](pdostatement.execute.html) - Запускає підготовлений запит на виконання
+-   [PDO::exec()](pdo.exec.md) - Виконує SQL-запит та повертає кількість порушених рядків
+-   [PDO::prepare()](pdo.prepare.md) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
+-   [PDOStatement::execute()](pdostatement.execute.md) - Запускає підготовлений запит на виконання

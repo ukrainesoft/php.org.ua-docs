@@ -4,9 +4,9 @@
     
 -   [yazerrno »](function.yaz-errno.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции YAZ](ref.yaz.html)
+-   [Функции YAZ](ref.yaz.md)
     
 -   Вказує ім'я набору елементів для пошуку
     

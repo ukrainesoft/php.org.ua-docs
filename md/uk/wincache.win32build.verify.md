@@ -1,12 +1,12 @@
 Перевірка збирання
 
--   [« Компіляція та складання](wincache.win32build.building.html)
+-   [« Компіляція та складання](wincache.win32build.building.md)
     
--   [Xhprof »](book.xhprof.html)
+-   [Xhprof »](book.xhprof.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Сборка для Windows](wincache.win32build.html)
+-   [Сборка для Windows](wincache.win32build.md)
     
 -   Перевірка збирання
     

@@ -1,12 +1,12 @@
 Отримує значення підвищення для певного поля
 
--   [« SolrInputDocument::getField](solrinputdocument.getfield.html)
+-   [« SolrInputDocument::getField](solrinputdocument.getfield.md)
     
--   [SolrInputDocument::getFieldCount »](solrinputdocument.getfieldcount.html)
+-   [SolrInputDocument::getFieldCount »](solrinputdocument.getfieldcount.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrInputDocument](class.solrinputdocument.html)
+-   [SolrInputDocument](class.solrinputdocument.md)
     
 -   Отримує значення підвищення для певного поля
     

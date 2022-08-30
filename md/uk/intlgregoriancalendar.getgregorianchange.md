@@ -1,12 +1,12 @@
 Отримує дату зміни григоріанського календаря
 
--   [« IntlGregorianCalendar::construct](intlgregoriancalendar.construct.html)
+-   [« IntlGregorianCalendar::construct](intlgregoriancalendar.construct.md)
     
--   [IntlGregorianCalendar::isLeapYear »](intlgregoriancalendar.isleapyear.html)
+-   [IntlGregorianCalendar::isLeapYear »](intlgregoriancalendar.isleapyear.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlGregorianCalendar](class.intlgregoriancalendar.html)
+-   [IntlGregorianCalendar](class.intlgregoriancalendar.md)
     
 -   Отримує дату зміни григоріанського календаря
     

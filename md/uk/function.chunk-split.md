@@ -1,12 +1,12 @@
 Розбиває рядок на фрагменти
 
--   [« chr](function.chr.html)
+-   [« chr](function.chr.md)
     
 -   [convertcyrstring »](function.convert-cyr-string.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Розбиває рядок на фрагменти
     
@@ -57,6 +57,6 @@ $new_string = chunk_split(base64_encode($data));
 ### Дивіться також
 
 -   [strsplit()](function.str-split.html) - Перетворює рядок на масив
--   [explode()](function.explode.html) - Розбиває рядок за допомогою роздільника
--   [wordwrap()](function.wordwrap.html) - Переносить рядок за вказаною кількістю символів
+-   [explode()](function.explode.md) - Розбиває рядок за допомогою роздільника
+-   [wordwrap()](function.wordwrap.md) - Переносить рядок за вказаною кількістю символів
 -   [» RFC 2045](http://www.faqs.org/rfcs/rfc2045)

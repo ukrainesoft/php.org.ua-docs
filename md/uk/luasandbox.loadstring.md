@@ -1,12 +1,12 @@
 Завантажує код Lua у середу Lua
 
--   [« LuaSandbox::loadBinary](luasandbox.loadbinary.html)
+-   [« LuaSandbox::loadBinary](luasandbox.loadbinary.md)
     
--   [LuaSandbox::pauseUsageTimer »](luasandbox.pauseusagetimer.html)
+-   [LuaSandbox::pauseUsageTimer »](luasandbox.pauseusagetimer.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LuaSandbox](class.luasandbox.html)
+-   [LuaSandbox](class.luasandbox.md)
     
 -   Завантажує код Lua у середу Lua
     
@@ -39,7 +39,7 @@ public LuaSandbox::loadString(string $code, string $chunkName = ''): LuaSandboxF
 
 ### Значення, що повертаються
 
-Повертає [LuaSandboxFunction](class.luasandboxfunction.html), який під час виконання виконає переданий $code.
+Повертає [LuaSandboxFunction](class.luasandboxfunction.md), який під час виконання виконає переданий $code.
 
 ### Приклади
 
@@ -75,5 +75,5 @@ array(1) {
 
 ### Дивіться також
 
--   [LuaSandbox::registerLibrary()](luasandbox.registerlibrary.html) - Реєструє набір PHP-функцій як бібліотеку Lua
--   [LuaSandbox::wrapPhpFunction()](luasandbox.wrapphpfunction.html) - Обертає викликаний PHP-об'єкт у LuaSandboxFunction
+-   [LuaSandbox::registerLibrary()](luasandbox.registerlibrary.md) - Реєструє набір PHP-функцій як бібліотеку Lua
+-   [LuaSandbox::wrapPhpFunction()](luasandbox.wrapphpfunction.md) - Обертає викликаний PHP-об'єкт у LuaSandboxFunction

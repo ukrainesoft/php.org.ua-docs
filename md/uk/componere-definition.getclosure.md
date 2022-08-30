@@ -4,7 +4,7 @@
     
 -   [ComponereDefinition::getClosures »](componere-definition.getclosures.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponereDefinition](class.componere-definition.html)
     
@@ -39,8 +39,8 @@ public Componere\Definition::getClosure(string $name): Closure
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), якщо Definition вже було зареєстровано
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо Definition вже було зареєстровано
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), якщо `name` не знайдено
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо `name` не знайдено

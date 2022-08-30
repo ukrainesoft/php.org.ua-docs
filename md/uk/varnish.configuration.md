@@ -2,11 +2,11 @@
 
 -   [« Установка](varnish.installation.html)
     
--   [Типы ресурсов »](varnish.resources.html)
+-   [Типи ресурсів »](varnish.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](varnish.setup.html)
+-   [Встановлення та налаштування](varnish.setup.html)
     
 -   Налаштування під час виконання
     

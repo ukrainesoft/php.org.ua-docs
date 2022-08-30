@@ -4,9 +4,9 @@
     
 -   [mcryptmoduleclose »](function.mcrypt-module-close.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](ref.mcrypt.html)
+-   [Mcrypt](ref.mcrypt.md)
     
 -   Отримати список усіх підтримуваних режимів шифрування
     

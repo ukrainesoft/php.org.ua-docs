@@ -1,12 +1,12 @@
 Видаляє іменований профіль зображення та повертає його
 
--   [« Imagick::removeImage](imagick.removeimage.html)
+-   [« Imagick::removeImage](imagick.removeimage.md)
     
--   [Imagick::render »](imagick.render.html)
+-   [Imagick::render »](imagick.render.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Видаляє іменований профіль зображення та повертає його
     

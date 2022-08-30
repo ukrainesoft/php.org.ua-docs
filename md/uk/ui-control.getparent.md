@@ -4,7 +4,7 @@
     
 -   [ОЙControl::getTopLevel »](ui-control.gettoplevel.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControl](class.ui-control.html)
     

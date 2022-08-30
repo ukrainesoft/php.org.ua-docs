@@ -2,9 +2,9 @@
 
 -   [« VtifulKernelFormat::italic](vtiful-kernel-format.italic.html)
     
--   [Модули для управления процессами программ »](refs.fileprocess.process.html)
+-   [Модули для управления процессами программ »](refs.fileprocess.process.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [VtifulKernelFormat](class.vtiful-kernel-format.html)
     

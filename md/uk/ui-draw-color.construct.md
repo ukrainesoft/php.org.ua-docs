@@ -4,7 +4,7 @@
     
 -   [ОЙDrawColor::getChannel »](ui-draw-color.getchannel.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawColor](class.ui-draw-color.html)
     

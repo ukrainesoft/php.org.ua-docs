@@ -1,12 +1,12 @@
 Отримати прапори вилучення
 
--   [« SplPriorityQueue::extract](splpriorityqueue.extract.html)
+-   [« SplPriorityQueue::extract](splpriorityqueue.extract.md)
     
--   [SplPriorityQueue::insert »](splpriorityqueue.insert.html)
+-   [SplPriorityQueue::insert »](splpriorityqueue.insert.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplPriorityQueue](class.splpriorityqueue.html)
+-   [SplPriorityQueue](class.splpriorityqueue.md)
     
 -   Отримати прапори вилучення
     

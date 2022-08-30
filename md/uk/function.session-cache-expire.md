@@ -4,9 +4,9 @@
     
 -   [sessioncachelimiter »](function.session-cache-limiter.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи із сесіями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.md)
     
 -   Отримує та/або встановлює термін дії поточного кешу
     
@@ -41,9 +41,9 @@ session_cache_expire(?int $value = null): int|false
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `value` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | `value` може набувати значення **`null`** |
 
 ### Приклади
 

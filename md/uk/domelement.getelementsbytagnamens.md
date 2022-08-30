@@ -1,12 +1,12 @@
 Отримання елементів по локальному імені у заданому просторі імен
 
--   [« DOMElement::getElementsByTagName](domelement.getelementsbytagname.html)
+-   [« DOMElement::getElementsByTagName](domelement.getelementsbytagname.md)
     
--   [DOMElement::hasAttribute »](domelement.hasattribute.html)
+-   [DOMElement::hasAttribute »](domelement.hasattribute.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMElement](class.domelement.html)
+-   [DOMElement](class.domelement.md)
     
 -   Отримання елементів по локальному імені у заданому просторі імен
     
@@ -37,14 +37,14 @@ URI простір імен.
 
 ### Значення, що повертаються
 
-Ця функція повертає новий об'єкт класу [DOMNodeList](class.domnodelist.html)містить всі знайдені елементи в тому порядку, в якому вони з'являються при прямому обході дерева.
+Ця функція повертає новий об'єкт класу [DOMNodeList](class.domnodelist.md)містить всі знайдені елементи в тому порядку, в якому вони з'являються при прямому обході дерева.
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `namespace` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `namespace` тепер допускає значення null. |
 
 ### Дивіться також
 
--   [DOMElement::getElementsByTagName()](domelement.getelementsbytagname.html) - Повертає елементи на ім'я тега
+-   [DOMElement::getElementsByTagName()](domelement.getelementsbytagname.md) - Повертає елементи на ім'я тега

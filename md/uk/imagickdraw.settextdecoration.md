@@ -1,12 +1,12 @@
 Визначає оформлення
 
--   [« ImagickDraw::setTextAntialias](imagickdraw.settextantialias.html)
+-   [« ImagickDraw::setTextAntialias](imagickdraw.settextantialias.md)
     
--   [ImagickDraw::setTextEncoding »](imagickdraw.settextencoding.html)
+-   [ImagickDraw::setTextEncoding »](imagickdraw.settextencoding.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Визначає оформлення
     

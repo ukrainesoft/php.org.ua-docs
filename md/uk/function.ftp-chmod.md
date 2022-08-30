@@ -4,9 +4,9 @@
     
 -   [ftpclose »](function.ftp-close.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.md)
     
 -   Встановлює права доступу до файлу
     
@@ -45,9 +45,9 @@ ftp_chmod(FTP\Connection $ftp, int $permissions, string $filename): int|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                            |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -77,4 +77,4 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [chmod()](function.chmod.html) - Змінює режим доступу до файлу
+-   [chmod()](function.chmod.md) - Змінює режим доступу до файлу

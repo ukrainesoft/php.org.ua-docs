@@ -4,7 +4,7 @@
     
 -   [YarClient::construct »](yar-client.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YarClient](class.yar-client.html)
     

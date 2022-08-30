@@ -4,9 +4,9 @@
     
 -   [datesuninfo »](function.date-sun-info.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Псевдонім DateTime::sub
     
@@ -15,8 +15,8 @@
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-datesub - Псевдонім [DateTime::sub()](datetime.sub.html)
+datesub - Псевдонім [DateTime::sub()](datetime.sub.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateTime::sub()](datetime.sub.html)
+Ця функція є псевдонімом: [DateTime::sub()](datetime.sub.md)

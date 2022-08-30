@@ -2,11 +2,11 @@
 
 -   [« Установка](ev.installation.html)
     
--   [Типы ресурсов »](ev.resources.html)
+-   [Типи ресурсів »](ev.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](ev.setup.html)
+-   [Встановлення та налаштування](ev.setup.html)
     
 -   Налаштування під час виконання
     

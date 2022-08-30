@@ -2,11 +2,11 @@
 
 -   [« Установка](imagick.installation.html)
     
--   [Типы ресурсов »](imagick.resources.html)
+-   [Типи ресурсів »](imagick.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](imagick.setup.html)
+-   [Встановлення та налаштування](imagick.setup.html)
     
 -   Налаштування під час виконання
     
@@ -17,13 +17,13 @@
 
 **Конфігураційні опції Imagick**
 
-| Имя                                                                                   | По умолчанию | Место изменения | Список изменений         |
-|---------------------------------------------------------------------------------------|--------------|-----------------|--------------------------|
-| [imagick.localefix](imagick.configuration.html#ini.imagick.locale-fix)                | **`false`**  | PHPINIALL       | Доступно з Imagick 2.1.0 |
-| [imagick.progressmonitor](imagick.configuration.html#ini.imagick.progress-monitor)    | **`false`**  | PHPINISYSTEM    | Доступно з Imagick 2.2.2 |
-| [imagick.skipversioncheck](imagick.configuration.html#ini.imagick.skip-version-check) | **`false`**  | PHPINISYSTEM    | Доступно з Imagick 3.3.0 |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [imagick.localefix](imagick.configuration.html#ini.imagick.locale-fix) | **`false`** | PHPINIALL | Доступно з Imagick 2.1.0 |
+| [imagick.progressmonitor](imagick.configuration.html#ini.imagick.progress-monitor) | **`false`** | PHPINISYSTEM | Доступно з Imagick 2.2.2 |
+| [imagick.skipversioncheck](imagick.configuration.html#ini.imagick.skip-version-check) | **`false`** | PHPINISYSTEM | Доступно з Imagick 3.3.0 |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 
 Коротке пояснення конфігураційних директив.
 

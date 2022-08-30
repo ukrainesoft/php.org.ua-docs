@@ -1,12 +1,12 @@
 Отримати повний вміст файлу запису
 
--   [« PharFileInfo::getCompressedSize](pharfileinfo.getcompressedsize.html)
+-   [« PharFileInfo::getCompressedSize](pharfileinfo.getcompressedsize.md)
     
--   [PharFileInfo::getMetadata »](pharfileinfo.getmetadata.html)
+-   [PharFileInfo::getMetadata »](pharfileinfo.getmetadata.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharFileInfo](class.pharfileinfo.html)
+-   [PharFileInfo](class.pharfileinfo.md)
     
 -   Отримати повний вміст файлу запису
     

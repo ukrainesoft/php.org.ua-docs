@@ -1,12 +1,12 @@
 Отримує зареєстровані ітератори
 
--   [« MultipleIterator::getFlags](multipleiterator.getflags.html)
+-   [« MultipleIterator::getFlags](multipleiterator.getflags.md)
     
--   [MultipleIterator::next »](multipleiterator.next.html)
+-   [MultipleIterator::next »](multipleiterator.next.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MultipleIterator](class.multipleiterator.html)
+-   [MultipleIterator](class.multipleiterator.md)
     
 -   Отримує зареєстровані ітератори
     
@@ -39,16 +39,16 @@ public MultipleIterator::key(): array
 
 ### Помилки
 
-[RuntimeException](class.runtimeexception.html), якщо ітератор недійсний (починаючи з PHP 8.1.0) або встановлено режим **`MIT_NEED_ALL`** і, принаймні, один приєднаний ітератор недійсний.
+[RuntimeException](class.runtimeexception.md), якщо ітератор недійсний (починаючи з PHP 8.1.0) або встановлено режим **`MIT_NEED_ALL`** і, принаймні, один приєднаний ітератор недійсний.
 
 Виклик цього методу з [foreach](control-structures.foreach.html) викличе попередження "Повернений неправильний тип" ("Illegal type returned").
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тепер викидається виняток [RuntimeException](class.runtimeexception.html), якщо **MultipleIterator::key()** викликається на неприпустимому ітераторі. Раніше натомість поверталося значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер викидається виняток [RuntimeException](class.runtimeexception.md), якщо **MultipleIterator::key()** викликається на неприпустимому ітераторі. Раніше натомість поверталося значення **`false`** |
 
 ### Дивіться також
 
--   [MultipleIterator::current()](multipleiterator.current.html) - Отримує зареєстровані ітератори
+-   [MultipleIterator::current()](multipleiterator.current.md) - Отримує зареєстровані ітератори

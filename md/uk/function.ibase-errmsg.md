@@ -4,9 +4,9 @@
     
 -   [ibaseexecute »](function.ibase-execute.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Firebird/InterBase](ref.ibase.html)
+-   [Функции Firebird/InterBase](ref.ibase.md)
     
 -   Повертає повідомлення про помилку
     

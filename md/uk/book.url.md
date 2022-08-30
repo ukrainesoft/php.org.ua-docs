@@ -2,32 +2,32 @@ URL
 
 -   [« tokenname](function.token-name.html)
     
--   [Введение »](intro.url.html)
+-   [Введение »](intro.url.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Інші базові модулі](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.md)
     
 -   URL
     
 
 # URL
 
--   [Введение](intro.url.html)
--   [Установка и настройка](url.setup.html)
-    -   [Требования](url.requirements.html)
-    -   [Установка](url.installation.html)
-    -   [Настройка во время выполнения](url.configuration.html)
-    -   [Типы ресурсов](url.resources.html)
--   [Предопределённые константы](url.constants.html)
--   [Функції URL](ref.url.html)
+-   [Введение](intro.url.md)
+-   [Встановлення та налаштування](url.setup.md)
+    -   [Вимоги](url.requirements.md)
+    -   [Установка](url.installation.md)
+    -   [Налаштування під час виконання](url.configuration.md)
+    -   [Типи ресурсів](url.resources.md)
+-   [Обумовлені константи](url.constants.md)
+-   [Функції URL](ref.url.md)
     -   [base64decode](function.base64-decode.html) - Декодує дані, закодовані MIME base64
     -   [base64encode](function.base64-encode.html) — Кодує дані у формат MIME base64
     -   [getheaders](function.get-headers.html) — Повертає всі заголовки з відповіді сервера на запит HTTP
     -   [getmetatags](function.get-meta-tags.html) — Витягує вміст усіх метатегів із файлу та повертає масив
     -   [httpbuildquery](function.http-build-query.html) — Генерує URL-кодований рядок запиту
     -   [parseurl](function.parse-url.html) — Розбирає URL та повертає його компоненти
-    -   [rawurldecode](function.rawurldecode.html) — Декодування URL-кодованого рядка
-    -   [rawurlencode](function.rawurlencode.html) — URL-кодування рядка згідно з RFC 3986
-    -   [urldecode](function.urldecode.html) — Декодування URL-кодованого рядка
-    -   [urlencode](function.urlencode.html) — URL-кодування рядка
+    -   [rawurldecode](function.rawurldecode.md) — Декодування URL-кодованого рядка
+    -   [rawurlencode](function.rawurlencode.md) — URL-кодування рядка згідно з RFC 3986
+    -   [urldecode](function.urldecode.md) — Декодування URL-кодованого рядка
+    -   [urlencode](function.urlencode.md) — URL-кодування рядка

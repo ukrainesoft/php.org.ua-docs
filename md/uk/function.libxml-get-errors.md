@@ -4,9 +4,9 @@
     
 -   [libxmlgetlasterror »](function.libxml-get-last-error.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції libxml](ref.libxml.html)
+-   [Функції libxml](ref.libxml.md)
     
 -   Отримання масиву помилок, що відбулися
     
@@ -31,7 +31,7 @@ libxml_get_errors(): array
 
 ### Значення, що повертаються
 
-Повертає масив об'єктів [LibXMLError](class.libxmlerror.html)якщо в буфері є помилки, або порожній масив в іншому випадку.
+Повертає масив об'єктів [LibXMLError](class.libxmlerror.md)якщо в буфері є помилки, або порожній масив в іншому випадку.
 
 ### Приклади
 

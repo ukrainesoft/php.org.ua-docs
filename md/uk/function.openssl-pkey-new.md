@@ -4,9 +4,9 @@
     
 -   [opensslprivatedecrypt »](function.openssl-private-decrypt.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Генерує новий закритий ключ
     
@@ -25,7 +25,7 @@ openssl_pkey_new(?array $options = null): OpenSSLAsymmetricKey|false
 
 **opensslpkeynew()** створює новий закритий ключ. Як отримати відкриту частину ключа показано на прикладі нижче.
 
-> **Зауваження**: Для коректної роботи цієї функції має бути правильний openssl.cnf. Для більш детальної інформації дивіться зауваження під [разделом установки](openssl.installation.html)
+> **Зауваження**: Для коректної роботи цієї функції має бути правильний openssl.cnf. Для більш детальної інформації дивіться зауваження під [разделом установки](openssl.installation.md)
 
 ### Список параметрів
 
@@ -35,14 +35,14 @@ openssl_pkey_new(?array $options = null): OpenSSLAsymmetricKey|false
 
 ### Значення, що повертаються
 
-Повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html), або **`false`** у разі виникнення помилки.
+Повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md), або **`false`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше повертався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` |
-|        | Доданий ключ `curve_name` option для забезпечення можливості створення EC ключів.                                                                                                                     |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
+|  | Доданий ключ `curve_name` option для забезпечення можливості створення EC ключів. |
 
 ### Приклади
 

@@ -1,12 +1,12 @@
 Клас DateTimeImmutable
 
--   [« DateTime::sub](datetime.sub.html)
+-   [« DateTime::sub](datetime.sub.md)
     
--   [DateTimeImmutable::add »](datetimeimmutable.add.html)
+-   [DateTimeImmutable::add »](datetimeimmutable.add.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Дата/время](book.datetime.html)
+-   [Дата/время](book.datetime.md)
     
 -   Клас DateTimeImmutable
     
@@ -19,7 +19,7 @@
 
 Подання дати та часу.
 
-Цей клас поводиться так само, як і клас [DateTime](class.datetime.html), за винятком того, що при виклику методів зміни, таких як [DateTime::modify()](datetime.modify.html)повертаються нові об'єкти.
+Цей клас поводиться так само, як і клас [DateTime](class.datetime.md), за винятком того, що при виклику методів зміни, таких як [DateTime::modify()](datetime.modify.md)повертаються нові об'єкти.
 
 ## Огляд класів
 
@@ -112,23 +112,23 @@ public __wakeup(): void
 
 ## список змін
 
-| Версия | Описание                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Конструктор класу **DateTimeImmutable** тепер включає поточні мікросекунди. До цього він завжди ініціалізував мікросекунди зі значенням `0` |
+| Версия | Описание |
+| --- | --- |
+|  | Конструктор класу **DateTimeImmutable** тепер включає поточні мікросекунди. До цього він завжди ініціалізував мікросекунди зі значенням `0` |
 
 ## Зміст
 
--   [DateTimeImmutable::add](datetimeimmutable.add.html) — Повертає новий об'єкт із доданою кількістю днів, місяців, років, годин, хвилин та секунд
--   [DateTimeImmutable::construct](datetimeimmutable.construct.html) — Повертає новий об'єкт DateTimeImmutable
--   [DateTimeImmutable::createFromFormat](datetimeimmutable.createfromformat.html) — Розбирає рядок із датою згідно з вказаним форматом
--   [DateTimeImmutable::createFromInterface](datetimeimmutable.createfrominterface.html) — Повертає новий об'єкт DateTimeImmutable, створений із переданого об'єкта, що реалізує інтерфейс DateTimeInterface
--   [DateTimeImmutable::createFromMutable](datetimeimmutable.createfrommutable.html) — Повертає новий об'єкт DateTimeImmutable, що містить заданий об'єкт DateTime
--   [DateTimeImmutable::getLastErrors](datetimeimmutable.getlasterrors.html) — Повертає попередження та помилки
--   [DateTimeImmutable::modify](datetimeimmutable.modify.html) — Створює новий об'єкт із зміненою тимчасовою міткою
+-   [DateTimeImmutable::add](datetimeimmutable.add.md) — Повертає новий об'єкт із доданою кількістю днів, місяців, років, годин, хвилин та секунд
+-   [DateTimeImmutable::construct](datetimeimmutable.construct.md) — Повертає новий об'єкт DateTimeImmutable
+-   [DateTimeImmutable::createFromFormat](datetimeimmutable.createfromformat.md) — Розбирає рядок із датою згідно з вказаним форматом
+-   [DateTimeImmutable::createFromInterface](datetimeimmutable.createfrominterface.md) — Повертає новий об'єкт DateTimeImmutable, створений із переданого об'єкта, що реалізує інтерфейс DateTimeInterface
+-   [DateTimeImmutable::createFromMutable](datetimeimmutable.createfrommutable.md) — Повертає новий об'єкт DateTimeImmutable, що містить заданий об'єкт DateTime
+-   [DateTimeImmutable::getLastErrors](datetimeimmutable.getlasterrors.md) — Повертає попередження та помилки
+-   [DateTimeImmutable::modify](datetimeimmutable.modify.md) — Створює новий об'єкт із зміненою тимчасовою міткою
 -   [DateTimeImmutable::setstate](datetimeimmutable.set-state.html) - Обробник setstate
--   [DateTimeImmutable::setDate](datetimeimmutable.setdate.html) - Встановлює дату
--   [DateTimeImmutable::setISODate](datetimeimmutable.setisodate.html) — Встановлює дату ISO
--   [DateTimeImmutable::setTime](datetimeimmutable.settime.html) - Встановлює час
--   [DateTimeImmutable::setTimestamp](datetimeimmutable.settimestamp.html) — Встановлює дату та час на основі мітки часу Unix
--   [DateTimeImmutable::setTimezone](datetimeimmutable.settimezone.html) - Встановлює часовий пояс
--   [DateTimeImmutable::sub](datetimeimmutable.sub.html) — Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд
+-   [DateTimeImmutable::setDate](datetimeimmutable.setdate.md) - Встановлює дату
+-   [DateTimeImmutable::setISODate](datetimeimmutable.setisodate.md) — Встановлює дату ISO
+-   [DateTimeImmutable::setTime](datetimeimmutable.settime.md) - Встановлює час
+-   [DateTimeImmutable::setTimestamp](datetimeimmutable.settimestamp.md) — Встановлює дату та час на основі мітки часу Unix
+-   [DateTimeImmutable::setTimezone](datetimeimmutable.settimezone.md) - Встановлює часовий пояс
+-   [DateTimeImmutable::sub](datetimeimmutable.sub.md) — Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд

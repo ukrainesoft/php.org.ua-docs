@@ -4,9 +4,9 @@
     
 -   [variantset »](function.variant-set.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции COM](ref.com.html)
+-   [Функции COM](ref.com.md)
     
 -   Приведення варіанта до іншого типу "за місцем"
     

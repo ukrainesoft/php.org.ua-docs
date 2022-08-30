@@ -4,9 +4,9 @@
     
 -   [apcudelete »](function.apcu-delete.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции APCu](ref.apcu.html)
+-   [Функции APCu](ref.apcu.md)
     
 -   Зменшити збережене число
     

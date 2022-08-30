@@ -4,9 +4,9 @@
     
 -   [fdfcreate »](function.fdf-create.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Закриває FDF-документ
     

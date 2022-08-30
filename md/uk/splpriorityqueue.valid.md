@@ -1,12 +1,12 @@
 Перевіряє, чи є у черзі ще елементи
 
--   [« SplPriorityQueue::top](splpriorityqueue.top.html)
+-   [« SplPriorityQueue::top](splpriorityqueue.top.md)
     
--   [SplFixedArray »](class.splfixedarray.html)
+-   [SplFixedArray »](class.splfixedarray.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplPriorityQueue](class.splpriorityqueue.html)
+-   [SplPriorityQueue](class.splpriorityqueue.md)
     
 -   Перевіряє, чи є у черзі ще елементи
     

@@ -1,12 +1,12 @@
 Портоване блокування файлу
 
--   [« SplFileObject::fgetss](splfileobject.fgetss.html)
+-   [« SplFileObject::fgetss](splfileobject.fgetss.md)
     
--   [SplFileObject::fpassthru »](splfileobject.fpassthru.html)
+-   [SplFileObject::fpassthru »](splfileobject.fpassthru.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileObject](class.splfileobject.html)
+-   [SplFileObject](class.splfileobject.md)
     
 -   Портоване блокування файлу
     
@@ -23,7 +23,7 @@ SplFileObject::flock — Портоване блокування файлу
 public SplFileObject::flock(int $operation, int &$wouldBlock = null): bool
 ```
 
-Блокує або розблокує файл тим же портованим способом, що і [flock()](function.flock.html)
+Блокує або розблокує файл тим же портованим способом, що і [flock()](function.flock.md)
 
 ### Список параметрів
 
@@ -35,7 +35,7 @@ public SplFileObject::flock(int $operation, int &$wouldBlock = null): bool
 -   **`LOCK_EX`** для отримання ексклюзивного блокування (запис).
 -   **`LOCK_UN`** для зняття блокування (розділюваного або ексклюзивного).
 
-Також можна додати **`LOCK_NB`** як бітова маска до однієї з вищевказаних операцій, якщо [flock()](function.flock.html) під час спроби блокування не повинен блокуватися.
+Також можна додати **`LOCK_NB`** як бітова маска до однієї з вищевказаних операцій, якщо [flock()](function.flock.md) під час спроби блокування не повинен блокуватися.
 
 `wouldBlock`
 
@@ -64,4 +64,4 @@ if ($file->flock(LOCK_EX)) { // выполняем эксклюзивную
 
 ### Дивіться також
 
--   [flock()](function.flock.html) - Портоване консультативне блокування файлів
+-   [flock()](function.flock.md) - Портоване консультативне блокування файлів

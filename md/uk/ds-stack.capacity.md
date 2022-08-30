@@ -4,7 +4,7 @@
     
 -   [ДсStack::clear »](ds-stack.clear.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Стек](class.ds-stack.html)
     

@@ -1,12 +1,12 @@
 Опис
 
--   [« Imagick::spreadImage](imagick.spreadimage.html)
+-   [« Imagick::spreadImage](imagick.spreadimage.md)
     
--   [Imagick::steganoImage »](imagick.steganoimage.html)
+-   [Imagick::steganoImage »](imagick.steganoimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Опис
     

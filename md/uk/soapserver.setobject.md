@@ -1,12 +1,12 @@
 Встановлює об'єкт, який використовуватиметься для обробки SOAP-запитів
 
--   [« SoapServer::setClass](soapserver.setclass.html)
+-   [« SoapServer::setClass](soapserver.setclass.md)
     
--   [SoapServer::setPersistence »](soapserver.setpersistence.html)
+-   [SoapServer::setPersistence »](soapserver.setpersistence.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SoapServer](class.soapserver.html)
+-   [SoapServer](class.soapserver.md)
     
 -   Встановлює об'єкт, який використовуватиметься для обробки SOAP-запитів
     
@@ -23,7 +23,7 @@ SoapServer::setObject — Встановлює об'єкт, який викор�
 public SoapServer::setObject(object $object): void
 ```
 
-Встановлює об'єкт, який буде використовуватися для обробки SOAP-запитів, а не тільки клас, як у [SoapServer::setClass()](soapserver.setclass.html)
+Встановлює об'єкт, який буде використовуватися для обробки SOAP-запитів, а не тільки клас, як у [SoapServer::setClass()](soapserver.setclass.md)
 
 ### Список параметрів
 
@@ -37,4 +37,4 @@ public SoapServer::setObject(object $object): void
 
 ### Дивіться також
 
--   [SoapServer::setClass()](soapserver.setclass.html) - Встановлює клас, який обробляє SOAP-запити
+-   [SoapServer::setClass()](soapserver.setclass.md) - Встановлює клас, який обробляє SOAP-запити

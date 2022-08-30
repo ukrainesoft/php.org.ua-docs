@@ -1,12 +1,12 @@
 Клас IntlGregorianCalendar
 
--   [« IntlCalendar::toDateTime](intlcalendar.todatetime.html)
+-   [« IntlCalendar::toDateTime](intlcalendar.todatetime.md)
     
--   [IntlGregorianCalendar::construct »](intlgregoriancalendar.construct.html)
+-   [IntlGregorianCalendar::construct »](intlgregoriancalendar.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [intl](book.intl.html)
+-   [intl](book.intl.md)
     
 -   Клас IntlGregorianCalendar
     
@@ -220,7 +220,7 @@ public IntlCalendar::toDateTime(): DateTime|false
 
 ## Зміст
 
--   [IntlGregorianCalendar::construct](intlgregoriancalendar.construct.html) - Конструктор класу григоріанського календаря
--   [IntlGregorianCalendar::getGregorianChange](intlgregoriancalendar.getgregorianchange.html) — Отримує дату зміни григоріанського календаря
--   [IntlGregorianCalendar::isLeapYear](intlgregoriancalendar.isleapyear.html) — Визначає, чи цей рік є високосним.
--   [IntlGregorianCalendar::setGregorianChange](intlgregoriancalendar.setgregorianchange.html) — Встановлює дату зміни у григоріанському календарі
+-   [IntlGregorianCalendar::construct](intlgregoriancalendar.construct.md) - Конструктор класу григоріанського календаря
+-   [IntlGregorianCalendar::getGregorianChange](intlgregoriancalendar.getgregorianchange.md) — Отримує дату зміни григоріанського календаря
+-   [IntlGregorianCalendar::isLeapYear](intlgregoriancalendar.isleapyear.md) — Визначає, чи цей рік є високосним.
+-   [IntlGregorianCalendar::setGregorianChange](intlgregoriancalendar.setgregorianchange.md) — Встановлює дату зміни у григоріанському календарі

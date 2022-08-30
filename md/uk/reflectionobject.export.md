@@ -1,12 +1,12 @@
 Експорт
 
--   [« ReflectionObject::construct](reflectionobject.construct.html)
+-   [« ReflectionObject::construct](reflectionobject.construct.md)
     
--   [ReflectionParameter »](class.reflectionparameter.html)
+-   [ReflectionParameter »](class.reflectionparameter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionObject](class.reflectionobject.html)
+-   [ReflectionObject](class.reflectionobject.md)
     
 -   Експорт
     
@@ -49,4 +49,4 @@ public static ReflectionObject::export(string $argument, bool $return = ?): stri
 
 ### Дивіться також
 
--   [ReflectionObject::construct()](reflectionobject.construct.html) - Конструктор класу ReflectionObject
+-   [ReflectionObject::construct()](reflectionobject.construct.md) - Конструктор класу ReflectionObject

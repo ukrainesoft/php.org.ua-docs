@@ -1,12 +1,12 @@
 Отримує часовий пояс об'єкту
 
--   [« IntlCalendar::getTime](intlcalendar.gettime.html)
+-   [« IntlCalendar::getTime](intlcalendar.gettime.md)
     
--   [IntlCalendar::getType »](intlcalendar.gettype.html)
+-   [IntlCalendar::getType »](intlcalendar.gettype.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Отримує часовий пояс об'єкту
     
@@ -31,17 +31,17 @@ public IntlCalendar::getTimeZone(): IntlTimeZone|false
 intlcal_get_time_zone(IntlCalendar $calendar): IntlTimeZone|false
 ```
 
-Повертає об'єкт [IntlTimeZone](class.intltimezone.html), пов'язані з календарем.
+Повертає об'єкт [IntlTimeZone](class.intltimezone.md), пов'язані з календарем.
 
 ### Список параметрів
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 ### Значення, що повертаються
 
-Об'єкт [IntlTimeZone](class.intltimezone.html), що відповідає тому, що використовується всередині об'єкта. Повертає **`false`** у разі виникнення помилки.
+Об'єкт [IntlTimeZone](class.intltimezone.md), що відповідає тому, що використовується всередині об'єкта. Повертає **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -90,6 +90,6 @@ IntlTimeZone Object
 
 ### Дивіться також
 
--   [IntlCalendar::setTimeZone()](intlcalendar.settimezone.html) - Встановлює часовий пояс, що використовується календарем
--   [IntlCalendar::createInstance()](intlcalendar.createinstance.html) - Створює новий об'єкт IntlCalendar
--   [IntlGregorianCalendar::construct()](intlgregoriancalendar.construct.html) - Конструктор класу григоріанського календаря
+-   [IntlCalendar::setTimeZone()](intlcalendar.settimezone.md) - Встановлює часовий пояс, що використовується календарем
+-   [IntlCalendar::createInstance()](intlcalendar.createinstance.md) - Створює новий об'єкт IntlCalendar
+-   [IntlGregorianCalendar::construct()](intlgregoriancalendar.construct.md) - Конструктор класу григоріанського календаря

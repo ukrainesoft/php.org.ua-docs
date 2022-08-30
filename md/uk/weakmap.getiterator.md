@@ -1,12 +1,12 @@
 Отримує зовнішній ітератор
 
--   [« WeakMap::count](weakmap.count.html)
+-   [« WeakMap::count](weakmap.count.md)
     
--   [WeakMap::offsetExists »](weakmap.offsetexists.html)
+-   [WeakMap::offsetExists »](weakmap.offsetexists.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [WeakMap](class.weakmap.html)
+-   [WeakMap](class.weakmap.md)
     
 -   Отримує зовнішній ітератор
     
@@ -31,8 +31,8 @@ public WeakMap::getIterator(): Iterator
 
 ### Значення, що повертаються
 
-Примірник об'єкта, що реалізує [Iterator](class.iterator.html) або [Traversable](class.traversable.html)
+Примірник об'єкта, що реалізує [Iterator](class.iterator.md) або [Traversable](class.traversable.md)
 
 ### Помилки
 
-Викидає [Exception](class.exception.html) у разі виникнення помилки.
+Викидає [Exception](class.exception.md) у разі виникнення помилки.

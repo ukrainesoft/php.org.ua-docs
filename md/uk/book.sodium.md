@@ -14,12 +14,12 @@ Sodium
 # Sodium
 
 -   [Введение](intro.sodium.html)
--   [Установка и настройка](sodium.setup.html)
-    -   [Требования](sodium.requirements.html)
+-   [Встановлення та налаштування](sodium.setup.html)
+    -   [Вимоги](sodium.requirements.html)
     -   [Установка](sodium.installation.html)
-    -   [Настройка во время выполнения](sodium.configuration.html)
-    -   [Типы ресурсов](sodium.resources.html)
--   [Предопределённые константы](sodium.constants.html)
+    -   [Налаштування під час виконання](sodium.configuration.html)
+    -   [Типи ресурсів](sodium.resources.html)
+-   [Обумовлені константи](sodium.constants.html)
 -   [Функции Sodium](ref.sodium.html)
     -   [sodiumadd](function.sodium-add.html) — Додає великі числа
     -   [sodiumbase642bin](function.sodium-base642bin.html) — Перетворює рядок у кодуванні base64 на необроблений двійковий файл

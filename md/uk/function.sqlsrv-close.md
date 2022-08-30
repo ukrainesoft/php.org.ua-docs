@@ -4,9 +4,9 @@
     
 -   [sqlsrvcommit »](function.sqlsrv-commit.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.md)
     
 -   Закриває відкрите з'єднання та звільняє ресурси, пов'язані з цим з'єднанням
     

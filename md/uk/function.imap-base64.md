@@ -4,9 +4,9 @@
     
 -   [imapbinary »](function.imap-binary.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции IMAP](ref.imap.html)
+-   [Функции IMAP](ref.imap.md)
     
 -   Декодувати текст закодований BASE64
     

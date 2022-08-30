@@ -1,12 +1,12 @@
 Конструктор SoapVar
 
--   [« SoapVar](class.soapvar.html)
+-   [« SoapVar](class.soapvar.md)
     
--   [Yar »](book.yar.html)
+-   [Yar »](book.yar.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SoapVar](class.soapvar.html)
+-   [SoapVar](class.soapvar.md)
     
 -   Конструктор SoapVar
     
@@ -27,7 +27,7 @@ public **SoapVar::construct**
 ?string `$nodeName` **`null`**  
 ?string `$nodeNamespace` **`null`**
 
-Створює новий об'єкт [SoapVar](class.soapvar.html)
+Створює новий об'єкт [SoapVar](class.soapvar.md)
 
 ### Список параметрів
 
@@ -57,9 +57,9 @@ public **SoapVar::construct**
 
 ### список змін
 
-| Версия | Описание                                                                                |
-|--------|-----------------------------------------------------------------------------------------|
-|        | `typeName` `typeNamespace` `nodeName` і `nodeNamespace` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `typeName` `typeNamespace` `nodeName` і `nodeNamespace` тепер допускають значення null. |
 
 ### Приклади
 
@@ -85,5 +85,5 @@ $client->echoStruct(new SoapParam($soapstruct, "inputStruct"));
 
 ### Дивіться також
 
--   [SoapClient::soapCall()](soapclient.soapcall.html) - Викликає SOAP-функцію
--   [SoapParam::construct()](soapparam.construct.html) - Конструктор SoapParam
+-   [SoapClient::soapCall()](soapclient.soapcall.md) - Викликає SOAP-функцію
+-   [SoapParam::construct()](soapparam.construct.md) - Конструктор SoapParam

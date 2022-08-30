@@ -4,7 +4,7 @@
     
 -   [wkhtmltoxPDFConverter::construct »](wkhtmltox-pdf-converter.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [wkhtmltoxPDFConverter](class.wkhtmltox-pdf-converter.html)
     

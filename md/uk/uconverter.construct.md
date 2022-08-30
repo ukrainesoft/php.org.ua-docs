@@ -1,12 +1,12 @@
 Створити об'єкт UConverter
 
--   [« UConverter](class.uconverter.html)
+-   [« UConverter](class.uconverter.md)
     
--   [UConverter::convert »](uconverter.convert.html)
+-   [UConverter::convert »](uconverter.convert.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [UConverter](class.uconverter.html)
+-   [UConverter](class.uconverter.md)
     
 -   Створити об'єкт UConverter
     

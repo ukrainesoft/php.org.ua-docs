@@ -4,9 +4,9 @@
     
 -   [streamісlocal »](function.stream-is-local.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.md)
     
 -   Отримати список зареєстрованих потоків
     

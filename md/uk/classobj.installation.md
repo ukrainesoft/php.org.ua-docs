@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](classobj.requirements.html)
+-   [« Вимоги](classobj.requirements.md)
     
--   [Настройка во время выполнения »](classobj.configuration.html)
+-   [Налаштування під час виконання »](classobj.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](classobj.setup.html)
+-   [Встановлення та налаштування](classobj.setup.md)
     
 -   Встановлення
     

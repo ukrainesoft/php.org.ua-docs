@@ -1,12 +1,12 @@
 Повертає довжину ділянки на початку рядка, що не відповідає масці
 
--   [« strcoll](function.strcoll.html)
+-   [« strcoll](function.strcoll.md)
     
 -   [striptags »](function.strip-tags.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Повертає довжину ділянки на початку рядка, що не відповідає масці
     
@@ -25,7 +25,7 @@ strcspn(    string $string,    string $characters,    int $offset = 
 
 Повертає довжину ділянки на початку рядка `string`, Котрий *не містить* жодного символу з рядка `characters`
 
-Якщо параметри `offset` і `length` не вказано, то весь вміст `string` буде досліджено. Якщо ці параметри вказані, то ефект буде таким самим, як при виклику `strcspn(substr($string, $offset, $length), $characters)` (дивіться [substr](function.substr.html) для додаткової інформації).
+Якщо параметри `offset` і `length` не вказано, то весь вміст `string` буде досліджено. Якщо ці параметри вказані, то ефект буде таким самим, як при виклику `strcspn(substr($string, $offset, $length), $characters)` (дивіться [substr](function.substr.md) для додаткової інформації).
 
 ### Список параметрів
 
@@ -43,7 +43,7 @@ strcspn(    string $string,    string $characters,    int $offset = 
 
 Якщо `offset` вказано і не є негативним значенням, тоді **strcspn()** почне обстеження рядка `string` з позиції, зазначеної в `offset`. Наприклад: у рядку '`abcdef`', символ у позиції `0` це '`a`', символ у позиції `2` це '`c`', і так далі.
 
-Якщо `offset` вказано, але є негативним числом, то [strspn()](function.strspn.html) почне обстеження рядка `string` з позиції, вказаної у параметрі `offset`, починаючи з кінця рядка `string`
+Якщо `offset` вказано, але є негативним числом, то [strspn()](function.strspn.md) почне обстеження рядка `string` з позиції, вказаної у параметрі `offset`, починаючи з кінця рядка `string`
 
 `length`
 
@@ -63,9 +63,9 @@ strcspn(    string $string,    string $characters,    int $offset = 
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `length` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `length` тепер допускає значення null. |
 
 ### Приклади
 
@@ -106,4 +106,4 @@ int(4)
 
 ### Дивіться також
 
--   [strspn()](function.strspn.html) - Повертає довжину ділянки на початку рядка, що повністю відповідає масці
+-   [strspn()](function.strspn.md) - Повертає довжину ділянки на початку рядка, що повністю відповідає масці

@@ -1,12 +1,12 @@
 Перевірити бінарну властивість Unicode для символу
 
--   [« IntlChar::getUnicodeVersion](intlchar.getunicodeversion.html)
+-   [« IntlChar::getUnicodeVersion](intlchar.getunicodeversion.md)
     
--   [IntlChar::isalnum »](intlchar.isalnum.html)
+-   [IntlChar::isalnum »](intlchar.isalnum.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити бінарну властивість Unicode для символу
     
@@ -71,5 +71,5 @@ bool(true)
 
 ### Дивіться також
 
--   [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.html) - Отримати значення властивості Unicode для символу
--   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.html) - Отримати версію Unicode
+-   [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md) - Отримати значення властивості Unicode для символу
+-   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.md) - Отримати версію Unicode

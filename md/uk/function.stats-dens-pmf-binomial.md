@@ -4,9 +4,9 @@
     
 -   [statsdenspmfhypergeometric »](function.stats-dens-pmf-hypergeometric.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Імовірнісні заходи біномінального розподілу
     

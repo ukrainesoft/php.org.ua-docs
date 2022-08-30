@@ -4,9 +4,9 @@
     
 -   [dateparse »](function.date-parse.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Отримання інформації про задану у визначеному форматі дату
     
@@ -29,7 +29,7 @@ date_parse_from_format(string $format, string $datetime): array
 
 `format`
 
-Формат, що розпізнається функцією [DateTime::createFromFormat()](datetime.createfromformat.html)
+Формат, що розпізнається функцією [DateTime::createFromFormat()](datetime.createfromformat.md)
 
 `datetime`
 
@@ -41,9 +41,9 @@ date_parse_from_format(string $format, string $datetime): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                       |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Елемент `zone` масиву, що повертається, відображає тепер секунди замість хвилин, а його знак інвертується. Наприклад, `-120` тепер буде `7200` |
+| Версия | Описание |
+| --- | --- |
+|  | Елемент `zone` масиву, що повертається, відображає тепер секунди замість хвилин, а його знак інвертується. Наприклад, `-120` тепер буде `7200` |
 
 ### Приклади
 
@@ -87,5 +87,5 @@ Array
 
 ### Дивіться також
 
--   [DateTime::createFromFormat()](datetime.createfromformat.html) - Розбирає рядок з датою згідно з вказаним форматом
--   [checkdate()](function.checkdate.html) - Перевіряє коректність дати за григоріанським календарем
+-   [DateTime::createFromFormat()](datetime.createfromformat.md) - Розбирає рядок з датою згідно з вказаним форматом
+-   [checkdate()](function.checkdate.md) - Перевіряє коректність дати за григоріанським календарем

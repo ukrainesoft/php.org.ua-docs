@@ -4,7 +4,7 @@
     
 -   [swoolegetlocalip »](function.swoole-get-local-ip.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Функции Swoole](ref.swoole-funcs.html)
     

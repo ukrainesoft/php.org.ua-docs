@@ -2,7 +2,7 @@
 
 -   [Як допомогти в написанні документації](about.howtohelp.html)
     
--   [Переводы »](about.translations.html)
+-   [Переклади »](about.translations.html)
     
 -   [PHP Manual](index.html)
     

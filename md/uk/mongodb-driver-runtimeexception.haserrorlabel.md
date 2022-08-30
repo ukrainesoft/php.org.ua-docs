@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverExceptionServerException »](class.mongodb-driver-exception-serverexception.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html)
     

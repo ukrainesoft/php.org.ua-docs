@@ -2,11 +2,11 @@
 
 -   [« hashupdate](function.hash-update.html)
     
--   [Mcrypt »](book.mcrypt.html)
+-   [Mcrypt »](book.mcrypt.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Hash](ref.hash.html)
+-   [Функции Hash](ref.hash.md)
     
 -   Генерує хеш-код (підпис повідомлення)
     
@@ -47,10 +47,10 @@ hash(    string $algo,    string $data,    bool $binary = false,  
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Доданий параметр `options`                                                                                                                                      |
-|        | Функція **hash()** тепер викидає виняток [ValueError](class.valueerror.html), якщо алгоритм `algo` невідомий; раніше натомість поверталося значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `options` |
+|  | Функція **hash()** тепер викидає виняток [ValueError](class.valueerror.md), якщо алгоритм `algo` невідомий; раніше натомість поверталося значення **`false`** |
 
 ### Приклади
 
@@ -73,5 +73,5 @@ echo hash('ripemd160', 'Наглый коричневый лисёнок п
 -   [hashfile()](function.hash-file.html) - Генерація хеш-значення, використовуючи вміст заданого файлу
 -   [hashhmac()](function.hash-hmac.html) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC
 -   [hashinit()](function.hash-init.html) - Ініціалізація інкрементального контексту хешування
--   [md5()](function.md5.html) - Повертає MD5-хеш рядки
--   [sha1()](function.sha1.html) - Повертає SHA1-хеш рядки
+-   [md5()](function.md5.md) - Повертає MD5-хеш рядки
+-   [sha1()](function.sha1.md) - Повертає SHA1-хеш рядки

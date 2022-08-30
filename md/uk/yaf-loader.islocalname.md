@@ -4,7 +4,7 @@
     
 -   [YafLoader::registerLocalNamespace »](yaf-loader.registerlocalnamespace.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafLoader](class.yaf-loader.html)
     

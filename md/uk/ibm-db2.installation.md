@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](ibm-db2.requirements.html)
+-   [« Вимоги](ibm-db2.requirements.html)
     
--   [Настройка во время выполнения »](ibm-db2.configuration.html)
+-   [Налаштування під час виконання »](ibm-db2.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](ibm-db2.setup.html)
+-   [Встановлення та налаштування](ibm-db2.setup.html)
     
 -   Встановлення
     

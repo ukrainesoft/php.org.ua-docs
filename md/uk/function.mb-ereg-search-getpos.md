@@ -4,9 +4,9 @@
     
 -   [мбeregsearchgetregs »](function.mb-ereg-search-getregs.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
     
 -   Повертає початкову позицію наступного збігу з регулярним виразом
     

@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](wincache.resources.html)
+-   [« Типи ресурсів](wincache.resources.md)
     
--   [Функции WinCache »](ref.wincache.html)
+-   [Функции WinCache »](ref.wincache.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [WinCache](book.wincache.html)
+-   [WinCache](book.wincache.md)
     
 -   Обумовлені константи
     

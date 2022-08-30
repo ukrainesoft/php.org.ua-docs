@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](xmlrpc.setup.html)
+-   [« Встановлення та налаштування](xmlrpc.setup.html)
     
 -   [Установка »](xmlrpc.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](xmlrpc.setup.html)
+-   [Встановлення та налаштування](xmlrpc.setup.html)
     
 -   Вимоги
     

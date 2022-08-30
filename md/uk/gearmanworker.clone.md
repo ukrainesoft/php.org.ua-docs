@@ -1,12 +1,12 @@
 Створення копії оброблювача
 
--   [« GearmanWorker::addServers](gearmanworker.addservers.html)
+-   [« GearmanWorker::addServers](gearmanworker.addservers.md)
     
--   [GearmanWorker::construct »](gearmanworker.construct.html)
+-   [GearmanWorker::construct »](gearmanworker.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanWorker](class.gearmanworker.html)
+-   [GearmanWorker](class.gearmanworker.md)
     
 -   Створення копії оброблювача
     
@@ -31,4 +31,4 @@ public GearmanWorker::clone(): void
 
 ### Значення, що повертаються
 
-Об'єкт класу [GearmanWorker](class.gearmanworker.html)
+Об'єкт класу [GearmanWorker](class.gearmanworker.md)

@@ -1,12 +1,12 @@
 Додати заголовок SOAP у відповідь
 
--   [« SoapServer::addFunction](soapserver.addfunction.html)
+-   [« SoapServer::addFunction](soapserver.addfunction.md)
     
--   [SoapServer::construct »](soapserver.construct.html)
+-   [SoapServer::construct »](soapserver.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SoapServer](class.soapserver.html)
+-   [SoapServer](class.soapserver.md)
     
 -   Додати заголовок SOAP у відповідь
     

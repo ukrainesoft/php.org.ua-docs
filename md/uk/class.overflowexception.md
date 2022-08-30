@@ -1,12 +1,12 @@
 Клас OverflowException
 
--   [« OutOfRangeException](class.outofrangeexception.html)
+-   [« OutOfRangeException](class.outofrangeexception.md)
     
--   [RangeException »](class.rangeexception.html)
+-   [RangeException »](class.rangeexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Исключения](spl.exceptions.html)
+-   [Исключения](spl.exceptions.md)
     
 -   Клас OverflowException
     

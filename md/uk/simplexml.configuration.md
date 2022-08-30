@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](simplexml.installation.html)
+-   [« Установка](simplexml.installation.md)
     
--   [Типы ресурсов »](simplexml.resources.html)
+-   [Типи ресурсів »](simplexml.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](simplexml.setup.html)
+-   [Встановлення та налаштування](simplexml.setup.md)
     
 -   Налаштування під час виконання
     

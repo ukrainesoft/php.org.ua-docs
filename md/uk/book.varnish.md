@@ -6,7 +6,7 @@ Varnish
     
 -   [PHP Manual](index.html)
     
--   [Другие службы](refs.remote.other.html)
+-   [Інші служби](refs.remote.other.html)
     
 -   Varnish
     
@@ -14,13 +14,13 @@ Varnish
 # Varnish
 
 -   [Введение](intro.varnish.html)
--   [Установка и настройка](varnish.setup.html)
-    -   [Требования](varnish.requirements.html)
+-   [Встановлення та налаштування](varnish.setup.html)
+    -   [Вимоги](varnish.requirements.html)
     -   [Установка](varnish.installation.html)
-    -   [Настройка во время выполнения](varnish.configuration.html)
-    -   [Типы ресурсов](varnish.resources.html)
--   [Предопределённые константы](varnish.constants.html)
--   [Примеры](varnish.examples.html)
+    -   [Налаштування під час виконання](varnish.configuration.html)
+    -   [Типи ресурсів](varnish.resources.html)
+-   [Обумовлені константи](varnish.constants.html)
+-   [Приклади](varnish.examples.html)
     -   [Простое использование VarnishAdmin](varnish.example.admin.html)
     -   [Простое использование VarnishStat](varnish.example.stat.html)
     -   [Простое использование VarnishLog](varnish.example.log.html)

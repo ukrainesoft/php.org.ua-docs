@@ -1,12 +1,12 @@
 Визначення типу зображення
 
--   [« Exif Функції](ref.exif.html)
+-   [« Exif Функції](ref.exif.md)
     
 -   [exifreaddata »](function.exif-read-data.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Exif Функції](ref.exif.html)
+-   [Exif Функції](ref.exif.md)
     
 -   Визначення типу зображення
     
@@ -25,7 +25,7 @@ exif_imagetype(string $filename): int|false
 
 **exifimagetype()** зчитує початкові байти зображення та перевіряє їх сигнатуру.
 
-**exifimagetype()** може використовуватися, щоб уникнути інших викликів [exif-функций](ref.exif.html) з непідтримуваними аргументами. Також при взаємодії з [SERVER\['HTTPACCEPT'\]](reserved.variables.server.html) можна перевіряти, чи зображення відображатиметься у браузері.
+**exifimagetype()** може використовуватися, щоб уникнути інших викликів [exif-функций](ref.exif.md) з непідтримуваними аргументами. Також при взаємодії з [SERVER\['HTTPACCEPT'\]](reserved.variables.server.md) можна перевіряти, чи зображення відображатиметься у браузері.
 
 ### Список параметрів
 
@@ -35,32 +35,32 @@ exif_imagetype(string $filename): int|false
 
 ### Значення, що повертаються
 
-Якщо виявлено коректну сигнатуру, функція поверне відповідну типу зображення константу. Інакше функція поверне **`false`**. Значення, що повертається те ж, що і в другому аргументі при поверненні з функції [getimagesize()](function.getimagesize.html), однак **exifimagetype()** значно швидше.
+Якщо виявлено коректну сигнатуру, функція поверне відповідну типу зображення константу. Інакше функція поверне **`false`**. Значення, що повертається те ж, що і в другому аргументі при поверненні з функції [getimagesize()](function.getimagesize.md), однак **exifimagetype()** значно швидше.
 
 Наступні певні константи представляють можливі значення функції, що повертаються **exifimagetype()**
 
 **Константи Imagetype**
 
-| Значение | Константа                                       |
-|----------|-------------------------------------------------|
-|          | **`IMAGETYPE_GIF`**                             |
-|          | **`IMAGETYPE_JPEG`**                            |
-|          | **`IMAGETYPE_PNG`**                             |
-|          | **`IMAGETYPE_SWF`**                             |
-|          | **`IMAGETYPE_PSD`**                             |
-|          | **`IMAGETYPE_BMP`**                             |
-|          | **`IMAGETYPE_TIFF_II`** (порядок байт intel)    |
-|          | **`IMAGETYPE_TIFF_MM`** (Порядок байт motorola) |
-|          | **`IMAGETYPE_JPC`**                             |
-|          | **`IMAGETYPE_JP2`**                             |
-|          | **`IMAGETYPE_JPX`**                             |
-|          | **`IMAGETYPE_JB2`**                             |
-|          | **`IMAGETYPE_SWC`**                             |
-|          | **`IMAGETYPE_IFF`**                             |
-|          | **`IMAGETYPE_WBMP`**                            |
-|          | **`IMAGETYPE_XBM`**                             |
-|          | **`IMAGETYPE_ICO`**                             |
-|          | **`IMAGETYPE_WEBP`**                            |
+| Значение | Константа |
+| --- | --- |
+|  | **`IMAGETYPE_GIF`** |
+|  | **`IMAGETYPE_JPEG`** |
+|  | **`IMAGETYPE_PNG`** |
+|  | **`IMAGETYPE_SWF`** |
+|  | **`IMAGETYPE_PSD`** |
+|  | **`IMAGETYPE_BMP`** |
+|  | **`IMAGETYPE_TIFF_II`** (порядок байт intel) |
+|  | **`IMAGETYPE_TIFF_MM`** (Порядок байт motorola) |
+|  | **`IMAGETYPE_JPC`** |
+|  | **`IMAGETYPE_JP2`** |
+|  | **`IMAGETYPE_JPX`** |
+|  | **`IMAGETYPE_JB2`** |
+|  | **`IMAGETYPE_SWC`** |
+|  | **`IMAGETYPE_IFF`** |
+|  | **`IMAGETYPE_WBMP`** |
+|  | **`IMAGETYPE_XBM`** |
+|  | **`IMAGETYPE_ICO`** |
+|  | **`IMAGETYPE_WEBP`** |
 
 > **Зауваження**
 > 
@@ -68,9 +68,9 @@ exif_imagetype(string $filename): int|false
 
 ### список змін
 
-| Версия | Описание               |
-|--------|------------------------|
-|        | Додано підтримку WebP. |
+| Версия | Описание |
+| --- | --- |
+|  | Додано підтримку WebP. |
 
 ### Приклади
 
@@ -87,4 +87,4 @@ if (exif_imagetype('image.gif') != IMAGETYPE_GIF) {
 ### Дивіться також
 
 -   [imagetypeтоmimetype()](function.image-type-to-mime-type.html) - Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
--   [getimagesize()](function.getimagesize.html) - Отримання розміру зображення
+-   [getimagesize()](function.getimagesize.md) - Отримання розміру зображення

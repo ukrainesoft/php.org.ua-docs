@@ -1,12 +1,12 @@
 Створює новий об'єкт IntlCalendar
 
--   [« IntlCalendar::construct](intlcalendar.construct.html)
+-   [« IntlCalendar::construct](intlcalendar.construct.md)
     
--   [IntlCalendar::equals »](intlcalendar.equals.html)
+-   [IntlCalendar::equals »](intlcalendar.equals.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Створює новий об'єкт IntlCalendar
     
@@ -31,9 +31,9 @@ public static IntlCalendar::createInstance(IntlTimeZone|DateTimeZone|string|null
 intlcal_create_instance(IntlTimeZone|DateTimeZone|string|null $timezone = null, ?string $locale = null): ?IntlCalendar
 ```
 
-Враховуючи часовий пояс та мовний стандарт, метод створює об'єкт [IntlCalendar](class.intlcalendar.html). Цей фабричний метод може повертати дочірній клас [IntlCalendar](class.intlcalendar.html)
+Враховуючи часовий пояс та мовний стандарт, метод створює об'єкт [IntlCalendar](class.intlcalendar.md). Цей фабричний метод може повертати дочірній клас [IntlCalendar](class.intlcalendar.md)
 
-Створений календар представлятиме момент часу, коли він був створений, на основі системного часу. Усі поля можна очистити, викликавши **IntCalendar::clear()** без аргументів. Дивіться також [IntlGregorianCalendar::construct()](intlgregoriancalendar.construct.html)
+Створений календар представлятиме момент часу, коли він був створений, на основі системного часу. Усі поля можна очистити, викликавши **IntCalendar::clear()** без аргументів. Дивіться також [IntlGregorianCalendar::construct()](intlgregoriancalendar.construct.md)
 
 ### Список параметрів
 
@@ -43,20 +43,20 @@ intlcal_create_instance(IntlTimeZone|DateTimeZone|string|null $timezone = null, 
 
 -   Якщо **`null`**, то буде використаний часовий пояс за замовчуванням, задана в ini-налаштування [date.timezone](datetime.configuration.html#ini.date.timezone) або за допомогою функції [datedefaulttimezoneset()](function.date-default-timezone-set.html) та повернена функцією [datedefaulttimezoneget()](function.date-default-timezone-get.html)
     
--   Об'єкт класу [IntlTimeZone](class.intltimezone.html)
+-   Об'єкт класу [IntlTimeZone](class.intltimezone.md)
     
--   Об'єкт класу [DateTimeZone](class.datetimezone.html). Його ідентифікатор буде вилучено і на його основі буде створено об'єкт часового поясу ICU; часовий пояс буде збережено в базі даних ICU, а не PHP.
+-   Об'єкт класу [DateTimeZone](class.datetimezone.md). Його ідентифікатор буде вилучено і на його основі буде створено об'єкт часового поясу ICU; часовий пояс буде збережено в базі даних ICU, а не PHP.
     
--   Рядок є коректним ідентифікатором часового поясу ICU. Дивіться [IntlTimeZone::createTimeZoneIDEnumeration()](intltimezone.createtimezoneidenumeration.html). "Сирі" усунення, типу `"GMT+08:30"`, також підтримуються.
+-   Рядок є коректним ідентифікатором часового поясу ICU. Дивіться [IntlTimeZone::createTimeZoneIDEnumeration()](intltimezone.createtimezoneidenumeration.md). "Сирі" усунення, типу `"GMT+08:30"`, також підтримуються.
     
 
 `locale`
 
-Використовуваний мовний стандарт або значення **`null`** для використання [языкового стандарта по умолчанию](intl.configuration.html#ini.intl.default-locale)
+Використовуваний мовний стандарт або значення **`null`** для використання [мовного стандарту за замовчуванням](intl.configuration.html#ini.intl.default-locale)
 
 ### Значення, що повертаються
 
-Створений екземпляр [IntlCalendar](class.intlcalendar.html) або **`null`** у разі виникнення помилки.
+Створений екземпляр [IntlCalendar](class.intlcalendar.md) або **`null`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -103,4 +103,4 @@ string(70) "martes 28 de Khordad de 1392 14:11:02 Hora de verano de Europa Centr
 
 ### Дивіться також
 
--   [IntlGregorianCalendar::construct()](intlgregoriancalendar.construct.html) - Конструктор класу григоріанського календаря
+-   [IntlGregorianCalendar::construct()](intlgregoriancalendar.construct.md) - Конструктор класу григоріанського календаря

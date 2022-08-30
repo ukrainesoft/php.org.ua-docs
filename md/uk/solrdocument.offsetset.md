@@ -1,12 +1,12 @@
 Додає поле до документа
 
--   [« SolrDocument::offsetGet](solrdocument.offsetget.html)
+-   [« SolrDocument::offsetGet](solrdocument.offsetget.md)
     
--   [SolrDocument::offsetUnset »](solrdocument.offsetunset.html)
+-   [SolrDocument::offsetUnset »](solrdocument.offsetunset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocument](class.solrdocument.html)
+-   [SolrDocument](class.solrdocument.md)
     
 -   Додає поле до документа
     

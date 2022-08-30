@@ -4,9 +4,9 @@
     
 -   [ibasetrans »](function.ibase-trans.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Firebird/InterBase](ref.ibase.html)
+-   [Функции Firebird/InterBase](ref.ibase.md)
     
 -   Реєструє callback-функцію, яка буде викликатись при публікації подій
     

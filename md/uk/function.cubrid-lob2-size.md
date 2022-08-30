@@ -4,9 +4,9 @@
     
 -   [cubridlob2tell64 »](function.cubrid-lob2-tell64.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Отримує розмір LOB-об'єкта
     

@@ -1,12 +1,12 @@
 Перевірити, чи є символ буквою чи цифрою
 
--   [« IntlChar::hasBinaryProperty](intlchar.hasbinaryproperty.html)
+-   [« IntlChar::hasBinaryProperty](intlchar.hasbinaryproperty.md)
     
--   [IntlChar::isalpha »](intlchar.isalpha.html)
+-   [IntlChar::isalpha »](intlchar.isalpha.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити, чи є символ буквою чи цифрою
     
@@ -57,5 +57,5 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isalpha()](intlchar.isalpha.html) - Перевірити, чи є символ літерою
--   [IntlChar::isdigit()](intlchar.isdigit.html) - Перевірити, чи є символ цифрою
+-   [IntlChar::isalpha()](intlchar.isalpha.md) - Перевірити, чи є символ літерою
+-   [IntlChar::isdigit()](intlchar.isdigit.md) - Перевірити, чи є символ цифрою

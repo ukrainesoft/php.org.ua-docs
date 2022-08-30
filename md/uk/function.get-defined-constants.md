@@ -4,9 +4,9 @@
     
 -   [getextensionfuncs »](function.get-extension-funcs.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Повертає асоціативний масив з іменами всіх констант та їх значень
     
@@ -23,7 +23,7 @@ getdefinedconstants - Повертає асоціативний масив з і
 get_defined_constants(bool $categorize = false): array
 ```
 
-Повертає асоціативний масив з іменами та значеннями всіх визначених нині констант. Масив буде включати константи, визначені модулями, а також створені функцією [define()](function.define.html)
+Повертає асоціативний масив з іменами та значеннями всіх визначених нині констант. Масив буде включати константи, визначені модулями, а також створені функцією [define()](function.define.md)
 
 ### Список параметрів
 
@@ -116,8 +116,8 @@ Array
 
 ### Дивіться також
 
--   [defined()](function.defined.html) - Перевіряє існування вказаної іменованої константи
--   [constant()](function.constant.html) - Повертає значення константи
+-   [defined()](function.defined.md) - Перевіряє існування вказаної іменованої константи
+-   [constant()](function.constant.md) - Повертає значення константи
 -   [getloadedextensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
 -   [getdefinedfunctions()](function.get-defined-functions.html) - Повертає масив усіх певних функцій
 -   [getdefinedvars()](function.get-defined-vars.html) - Повертає масив усіх певних змінних

@@ -4,9 +4,9 @@
     
 -   [tradercdlunique3river »](function.trader-cdlunique3river.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Свічкова модель "Трістар"
     

@@ -1,12 +1,12 @@
 Змінює об'єкт DateTime, додаючи кількість днів, місяців, років, годин, хвилин та секунд
 
--   [« DateTime](class.datetime.html)
+-   [« DateTime](class.datetime.md)
     
--   [DateTime::construct »](datetime.construct.html)
+-   [DateTime::construct »](datetime.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTime](class.datetime.html)
+-   [DateTime](class.datetime.md)
     
 -   Змінює об'єкт DateTime, додаючи кількість днів, місяців, років, годин, хвилин та секунд
     
@@ -33,26 +33,26 @@ public DateTime::add(DateInterval $interval): DateTime
 date_add(DateTime $object, DateInterval $interval): DateTime
 ```
 
-Додає заданий об'єкт [DateInterval](class.dateinterval.html) до об'єкту [DateTime](class.datetime.html)
+Додає заданий об'єкт [DateInterval](class.dateinterval.md) до об'єкту [DateTime](class.datetime.md)
 
-Подібний до методу [DateTimeImmutable::add()](datetimeimmutable.add.html), крім роботи з об'єктом [DateTime](class.datetime.html)
+Подібний до методу [DateTimeImmutable::add()](datetimeimmutable.add.md), крім роботи з об'єктом [DateTime](class.datetime.md)
 
-Процедурна версія приймає як перший аргумент об'єкт [DateTime](class.datetime.html)
+Процедурна версія приймає як перший аргумент об'єкт [DateTime](class.datetime.md)
 
 ### Список параметрів
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [datecreate()](function.date-create.html). Функція змінює цей об'єкт.
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.html). Функція змінює цей об'єкт.
 
 `interval`
 
-Об'єкт класу [DateInterval](class.dateinterval.html)
+Об'єкт класу [DateInterval](class.dateinterval.md)
 
 ### Значення, що повертаються
 
-Повертає модифікований об'єкт [DateTime](class.datetime.html) для застосування в ланцюгу методів або **`false`** у разі виникнення помилки.
+Повертає модифікований об'єкт [DateTime](class.datetime.md) для застосування в ланцюгу методів або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
--   [DateTimeImmutable::add()](datetimeimmutable.add.html) - Повертає новий об'єкт з доданою кількістю днів, місяців, років, годин, хвилин та секунд
+-   [DateTimeImmutable::add()](datetimeimmutable.add.md) - Повертає новий об'єкт з доданою кількістю днів, місяців, років, годин, хвилин та секунд

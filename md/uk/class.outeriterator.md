@@ -1,12 +1,12 @@
 Інтерфейс OuterIterator
 
--   [« Countable::count](countable.count.html)
+-   [« Countable::count](countable.count.md)
     
--   [OuterIterator::getInnerIterator »](outeriterator.getinneriterator.html)
+-   [OuterIterator::getInnerIterator »](outeriterator.getinneriterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Интерфейсы](spl.interfaces.html)
+-   [Інтерфейси](spl.interfaces.md)
     
 -   Інтерфейс OuterIterator
     
@@ -51,4 +51,4 @@ public Iterator::valid(): bool
 
 ## Зміст
 
--   [OuterIterator::getInnerIterator](outeriterator.getinneriterator.html) — Повертає внутрішній ітератор для поточного елемента
+-   [OuterIterator::getInnerIterator](outeriterator.getinneriterator.md) — Повертає внутрішній ітератор для поточного елемента

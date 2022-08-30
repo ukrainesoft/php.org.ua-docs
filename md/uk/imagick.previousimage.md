@@ -1,12 +1,12 @@
 Переходить до попереднього зображення в об'єкті
 
--   [« Imagick::previewImages](imagick.previewimages.html)
+-   [« Imagick::previewImages](imagick.previewimages.md)
     
--   [Imagick::profileImage »](imagick.profileimage.html)
+-   [Imagick::profileImage »](imagick.profileimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Переходить до попереднього зображення в об'єкті
     

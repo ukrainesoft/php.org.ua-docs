@@ -4,9 +4,9 @@
     
 -   [cubridgetclientinfo »](function.cubrid-get-client-info.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Отримує ім'я класу за допомогою OID
     

@@ -1,12 +1,12 @@
 Створити стартовий DTD тег
 
--   [« XMLWriter::startDocument](xmlwriter.startdocument.html)
+-   [« XMLWriter::startDocument](xmlwriter.startdocument.md)
     
--   [XMLWriter::startDtdAttlist »](xmlwriter.startdtdattlist.html)
+-   [XMLWriter::startDtdAttlist »](xmlwriter.startdtdattlist.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](class.xmlwriter.html)
+-   [XMLWriter](class.xmlwriter.md)
     
 -   Створити стартовий DTD тег
     
@@ -39,7 +39,7 @@ xmlwriter_start_dtd(    XMLWriter $writer,    string $qualifiedName,  
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `qualifiedName`
 
@@ -59,11 +59,11 @@ xmlwriter_start_dtd(    XMLWriter $writer,    string $qualifiedName,  
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::endDtd()](xmlwriter.enddtd.html) - Завершити поточний DTD
--   [XMLWriter::writeDtd()](xmlwriter.writedtd.html) - Записати повний тег DTD
+-   [XMLWriter::endDtd()](xmlwriter.enddtd.md) - Завершити поточний DTD
+-   [XMLWriter::writeDtd()](xmlwriter.writedtd.md) - Записати повний тег DTD

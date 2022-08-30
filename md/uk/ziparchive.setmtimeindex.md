@@ -1,12 +1,12 @@
 Встановити час модифікації файлу за його індексом
 
--   [« ZipArchive::setExternalAttributesName](ziparchive.setexternalattributesname.html)
+-   [« ZipArchive::setExternalAttributesName](ziparchive.setexternalattributesname.md)
     
--   [ZipArchive::setMtimeName »](ziparchive.setmtimename.html)
+-   [ZipArchive::setMtimeName »](ziparchive.setmtimename.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Встановити час модифікації файлу за його індексом
     
@@ -71,4 +71,4 @@ if ($zip->open('test.zip', ZipArchive::CREATE) === TRUE) {
 
 ### Дивіться також
 
--   [ZipArchive::setMtimeName()](ziparchive.setmtimename.html) - Встановити час модифікації файлу на його ім'я
+-   [ZipArchive::setMtimeName()](ziparchive.setmtimename.md) - Встановити час модифікації файлу на його ім'я

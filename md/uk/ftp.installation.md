@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](ftp.requirements.html)
+-   [« Вимоги](ftp.requirements.html)
     
--   [Настройка во время выполнения »](ftp.configuration.html)
+-   [Налаштування під час виконання »](ftp.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](ftp.setup.html)
+-   [Встановлення та налаштування](ftp.setup.html)
     
 -   Встановлення
     

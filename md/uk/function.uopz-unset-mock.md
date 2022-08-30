@@ -4,9 +4,9 @@
     
 -   [uopzunsetreturn »](function.uopz-unset-return.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.md)
     
 -   Видалити раніше встановлений імітатор
     
@@ -37,7 +37,7 @@ uopz_unset_mock(string $class): void
 
 ### Помилки
 
-Викидає [RuntimeException](class.runtimeexception.html), якщо раніше не було встановлено імітатор для `class`
+Викидає [RuntimeException](class.runtimeexception.md), якщо раніше не було встановлено імітатор для `class`
 
 ### Приклади
 

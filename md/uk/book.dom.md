@@ -1,151 +1,151 @@
 Document Object Model
 
--   [« Обработка XML](refs.xml.html)
+-   [« Обработка XML](refs.xml.md)
     
--   [Введение »](intro.dom.html)
+-   [Введение »](intro.dom.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Обработка XML](refs.xml.html)
+-   [Обработка XML](refs.xml.md)
     
 -   Document Object Model
     
 
 # Document Object Model
 
--   [Введение](intro.dom.html)
--   [Установка и настройка](dom.setup.html)
-    -   [Требования](dom.requirements.html)
-    -   [Установка](dom.installation.html)
-    -   [Настройка во время выполнения](dom.configuration.html)
-    -   [Типы ресурсов](dom.resources.html)
--   [Предопределённые константы](dom.constants.html)
--   [Примеры](dom.examples.html)
--   [DOMAttr](class.domattr.html) - Клас DOMAttr
-    -   [DOMAttr::construct](domattr.construct.html) - Створює екземпляр класу DOMAttr
-    -   [DOMAttr::isId](domattr.isid.html) — Перевіряє, чи є атрибут певним ідентифікатором
--   [DOMCdataSection](class.domcdatasection.html) - Клас DOMCdataSection
-    -   [DOMCdataSection::construct](domcdatasection.construct.html) — Створює новий екземпляр класу DOMCdataSection
--   [DOMCharacterData](class.domcharacterdata.html) - Клас DOMCharacterData
-    -   [DOMCharacterData::appendData](domcharacterdata.appenddata.html) — Додати рядок до кінця символьних даних вузла
-    -   [DOMCharacterData::deleteData](domcharacterdata.deletedata.html) — Видалити діапазон символів із вузла
-    -   [DOMCharacterData::insertData](domcharacterdata.insertdata.html) — Вставити рядок у вказану 16-бітну позицію
-    -   [DOMCharacterData::replaceData](domcharacterdata.replacedata.html) — Замінити підрядок у вузлі типу DOMCharacterData
-    -   [DOMCharacterData::substringData](domcharacterdata.substringdata.html) — Витягує певний діапазон даних із вузла
--   [DOMChildNode](class.domchildnode.html) - Інтерфейс DOMChildNode
-    -   [DOMChildNode::after](domchildnode.after.html) - Додає вузли після вузла
-    -   [DOMChildNode::before](domchildnode.before.html) - Додає вузли перед вузлом
-    -   [DOMChildNode::remove](domchildnode.remove.html) - Видаляє вузол
-    -   [DOMChildNode::replaceWith](domchildnode.replacewith.html) — Замінює вузол новими вузлами
--   [DOMComment](class.domcomment.html) - Клас DOMComment
-    -   [DOMComment::construct](domcomment.construct.html) — Створює новий екземпляр класу DOMComment
--   [DOMDocument](class.domdocument.html) - Клас DOMDocument
-    -   [DOMDocument::construct](domdocument.construct.html) — Створює новий об'єкт DOMDocument
-    -   [DOMDocument::createAttribute](domdocument.createattribute.html) - Створити новий атрибут
-    -   [DOMDocument::createAttributeNS](domdocument.createattributens.html) — Створює новий атрибут вузла із відповідним простором імен
-    -   [DOMDocument::createCDATASection](domdocument.createcdatasection.html) - Створює новий вузол cdata
-    -   [DOMDocument::createComment](domdocument.createcomment.html) - Створити новий вузол коментаря
-    -   [DOMDocument::createDocumentFragment](domdocument.createdocumentfragment.html) - Створити новий фрагмент документа
-    -   [DOMDocument::createElement](domdocument.createelement.html) - Створити новий вузол елемента
-    -   [DOMDocument::createElementNS](domdocument.createelementns.html) — Створити новий вузол елемента із відповідним простором імен
-    -   [DOMDocument::createEntityReference](domdocument.createentityreference.html) - Створити новий вузол посилання на сутність
-    -   [DOMDocument::createProcessingInstruction](domdocument.createprocessinginstruction.html) - Створити новий PI-вузол
-    -   [DOMDocument::createTextNode](domdocument.createtextnode.html) - Створити новий текстовий вузол
-    -   [DOMDocument::getElementById](domdocument.getelementbyid.html) — Шукає елемент із певним ідентифікатором
-    -   [DOMDocument::getElementsByTagName](domdocument.getelementsbytagname.html) — Шукає всі елементи із заданим локальним ім'ям
-    -   [DOMDocument::getElementsByTagNameNS](domdocument.getelementsbytagnamens.html) — Шукає всі елементи із заданим ім'ям у вказаному просторі імен
-    -   [DOMDocument::importNode](domdocument.importnode.html) — Імпортувати вузол у поточний документ
-    -   [DOMDocument::load](domdocument.load.html) — Завантаження XML із файлу
-    -   [DOMDocument::loadHTML](domdocument.loadhtml.html) — Завантаження HTML із рядка
-    -   [DOMDocument::loadHTMLFile](domdocument.loadhtmlfile.html) — Завантаження HTML із файлу
-    -   [DOMDocument::loadXML](domdocument.loadxml.html) — Завантаження XML із рядка
-    -   [DOMDocument::normalizeDocument](domdocument.normalizedocument.html) - Нормалізує документ
-    -   [DOMDocument::registerNodeClass](domdocument.registernodeclass.html) — Реєстрація розширеного класу, який використовується для створення типу базового вузла
-    -   [DOMDocument::relaxNGValidate](domdocument.relaxngvalidate.html) - Здійснює перевірку документа на правильність побудови за допомогою relaxNG.
-    -   [DOMDocument::relaxNGValidateSource](domdocument.relaxngvalidatesource.html) - Перевіряє документ за допомогою relaxNG
-    -   [DOMDocument::save](domdocument.save.html) — Зберігає XML-дерево із внутрішнього подання до файлу
-    -   [DOMDocument::saveHTML](domdocument.savehtml.html) — Зберігає документ із внутрішнього подання до рядка, використовуючи форматування HTML
-    -   [DOMDocument::saveHTMLFile](domdocument.savehtmlfile.html) — Зберігає документ із внутрішнього подання до файлу, використовуючи форматування HTML
-    -   [DOMDocument::saveXML](domdocument.savexml.html) — Зберігає XML-дерево з внутрішньої вистави у вигляді рядка
-    -   [DOMDocument::schemaValidate](domdocument.schemavalidate.html) — Перевіряє дійсність документа, ґрунтуючись на заданій схемі. Підтримується лише XML-схема 1.0.
-    -   [DOMDocument::schemaValidateSource](domdocument.schemavalidatesource.html) — Перевіряє дійсність документа, ґрунтуючись на схемі
-    -   [DOMDocument::validate](domdocument.validate.html) — Перевіряє документ на відповідність його DTD
-    -   [DOMDocument::xinclude](domdocument.xinclude.html) — Вставляє XInclude в об'єкті DOMDocument.
--   [DOMDocumentFragment](class.domdocumentfragment.html) - Клас DOMDocumentFragment
-    -   [DOMDocumentFragment::appendXML](domdocumentfragment.appendxml.html) — Додавання необроблених даних XML
-    -   [DOMDocumentFragment::construct](domdocumentfragment.construct.html) - Конструктор об'єкта DOMDocumentFragment
--   [DOMDocumentType](class.domdocumenttype.html) - Клас DOMDocumentType
--   [DOMElement](class.domelement.html) - Клас DOMElement
-    -   [DOMElement::construct](domelement.construct.html) — Створює новий екземпляр класу DOMElement
-    -   [DOMElement::getAttribute](domelement.getattribute.html) — Повертає значення атрибуту
-    -   [DOMElement::getAttributeNode](domelement.getattributenode.html) - Повертає вузол атрибуту
-    -   [DOMElement::getAttributeNodeNS](domelement.getattributenodens.html) - Повертає вузол атрибуту
-    -   [DOMElement::getAttributeNS](domelement.getattributens.html) — Повертає значення атрибуту
-    -   [DOMElement::getElementsByTagName](domelement.getelementsbytagname.html) — Повертає елементи на ім'я тега
-    -   [DOMElement::getElementsByTagNameNS](domelement.getelementsbytagnamens.html) — Отримання елементів локального імені в заданому просторі імен
-    -   [DOMElement::hasAttribute](domelement.hasattribute.html) — Перевіряє, чи існує атрибут
-    -   [DOMElement::hasAttributeNS](domelement.hasattributens.html) — Перевіряє, чи існує заданий атрибут
-    -   [DOMElement::removeAttribute](domelement.removeattribute.html) - Видаляє атрибут
-    -   [DOMElement::removeAttributeNode](domelement.removeattributenode.html) - Видаляє атрибут
-    -   [DOMElement::removeAttributeNS](domelement.removeattributens.html) - Видаляє атрибут
-    -   [DOMElement::setAttribute](domelement.setattribute.html) — Додає новий або змінює існуючий атрибут
-    -   [DOMElement::setAttributeNode](domelement.setattributenode.html) — Додає новий вузол атрибуту до елементу
-    -   [DOMElement::setAttributeNodeNS](domelement.setattributenodens.html) — Додає новий атрибут елемент
-    -   [DOMElement::setAttributeNS](domelement.setattributens.html) - Додає новий атрибут
-    -   [DOMElement::setIdAttribute](domelement.setidattribute.html) — Оголошує атрибут, вказаний ім'ям, з ідентифікатором типу
-    -   [DOMElement::setIdAttributeNode](domelement.setidattributenode.html) — Оголошує атрибут, вказаний вузлом, з ідентифікатором типу
-    -   [DOMElement::setIdAttributeNS](domelement.setidattributens.html) — Оголошує атрибут, вказаний локальним ім'ям та URI простору імен, з ідентифікатором типу
--   [DOMEntity](class.domentity.html) - Клас DOMEntity
--   [DOMEntityReference](class.domentityreference.html) - Клас DOMEntityReference
-    -   [DOMEntityReference::construct](domentityreference.construct.html) — Створює новий об'єкт класу DOM Entity Reference
--   [DOMException](class.domexception.html) - Клас DOMException
--   [DOMImplementation](class.domimplementation.html) - Клас DOMImplementation
-    -   [DOMImplementation::construct](domimplementation.construct.html) — Створює новий об'єкт класу DOMImplementation
-    -   [DOMImplementation::createDocument](domimplementation.createdocument.html) — Створює об'єкт класу DOMDocument заданого типу з його елементом.
-    -   [DOMImplementation::createDocumentType](domimplementation.createdocumenttype.html) — Створює порожній об'єкт класу DOMDocumentType
-    -   [DOMImplementation::hasFeature](domimplementation.hasfeature.html) — Перевірка, чи реалізована певна можливість у реалізації DOM
--   [DOMNamedNodeMap](class.domnamednodemap.html) — Клас DOMNamedNodeMap
-    -   [DOMNamedNodeMap::count](domnamednodemap.count.html) - Кількість вузлів у відображенні
-    -   [DOMNamedNodeMap::getNamedItem](domnamednodemap.getnameditem.html) — Отримує вузол, вказаний на ім'я
-    -   [DOMNamedNodeMap::getNamedItemNS](domnamednodemap.getnameditemns.html) — Отримує вузол із заданим локальним ім'ям та URI простору імен
-    -   [DOMNamedNodeMap::item](domnamednodemap.item.html) — Отримує вузол із заданим індексом
--   [DOMNode](class.domnode.html) - Клас DOMNode
-    -   [DOMNode::appendChild](domnode.appendchild.html) — Додає новий дочірній вузол до кінця списку нащадків.
-    -   [DOMNode::C14N](domnode.c14n.html) - Канонізувати вузли в рядок
-    -   [DOMNode::C14NFile](domnode.c14nfile.html) - Канонізувати вузли у файл
-    -   [DOMNode::cloneNode](domnode.clonenode.html) - Клонує вузол
-    -   [DOMNode::getLineNo](domnode.getlineno.html) - Отримати номер рядка вузла
-    -   [DOMNode::getNodePath](domnode.getnodepath.html) - Отримання XPath вузла
-    -   [DOMNode::hasAttributes](domnode.hasattributes.html) — Перевіряє, чи цей вузол має атрибути.
-    -   [DOMNode::hasChildNodes](domnode.haschildnodes.html) — Перевіряє, чи цей вузол має нащадків.
-    -   [DOMNode::insertBefore](domnode.insertbefore.html) — Додає новий дочірній вузол перед вказаним вузлом
-    -   [DOMNode::isDefaultNamespace](domnode.isdefaultnamespace.html) — Перевіряє, чи вказаний URI простору імен вузла є простором імен за умовчанням чи ні
-    -   [DOMNode::isSameNode](domnode.issamenode.html) — Вказує, чи є два вузли одним і тим самим вузлом
-    -   [DOMNode::isSupported](domnode.issupported.html) — Перевіряє, чи підтримується можливість у певній версії
-    -   [DOMNode::lookupNamespaceUri](domnode.lookupnamespaceuri.html) — Отримує URI простору імен вузла за префіксом
-    -   [DOMNode::lookupPrefix](domnode.lookupprefix.html) — Повертає префікс простору імен вузла із URI простору імен
-    -   [DOMNode::normalize](domnode.normalize.html) - Нормалізує вузол
-    -   [DOMNode::removeChild](domnode.removechild.html) - Видаляє дочірній вузол зі списку нащадків.
-    -   [DOMNode::replaceChild](domnode.replacechild.html) - Замінює дочірній вузол
--   [DOMNodeList](class.domnodelist.html) - Клас DOMNodeList
-    -   [DOMNodeList::count](domnodelist.count.html) — Отримати кількість вузлів у списку
-    -   [DOMNodeList::item](domnodelist.item.html) — Отримує вузол із заданим індексом
--   [DOMNotation](class.domnotation.html) - Клас DOMNotation
--   [DOMParentNode](class.domparentnode.html) - Інтерфейс DOMParentNode
-    -   [DOMParentNode::append](domparentnode.append.html) - Додає вузли після останнього дочірнього вузла
-    -   [DOMParentNode::prepend](domparentnode.prepend.html) - Додає вузли перед першим дочірнім вузлом
--   [DOMProcessingInstruction](class.domprocessinginstruction.html) - Клас DOMProcessingInstruction
-    -   [DOMProcessingInstruction::construct](domprocessinginstruction.construct.html) — Створює новий об'єкт класу DOMProcessingInstruction
--   [DOMText](class.domtext.html) - Клас DOMText
-    -   [DOMText::construct](domtext.construct.html) — Створює об'єкт класу DOMText
-    -   [DOMText::isElementContentWhitespace](domtext.iselementcontentwhitespace.html) — Повертає, чи містить текстовий вузол пробіл у вмісті елемента
-    -   [DOMText::isWhitespaceInElementContent](domtext.iswhitespaceinelementcontent.html) — Визначає, чи містить текстовий вузол пробіли у вмісті
-    -   [DOMText::splitText](domtext.splittext.html) — Поділяє вузол на два, починаючи із заданої позиції
--   [DOMXPath](class.domxpath.html) - Клас DOMXPath
-    -   [DOMXPath::construct](domxpath.construct.html) — Створює новий об'єкт класу DOMXPath
-    -   [DOMXPath::evaluate](domxpath.evaluate.html) — Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо
-    -   [DOMXPath::query](domxpath.query.html) — Виконує заданий вираз XPath
-    -   [DOMXPath::registerNamespace](domxpath.registernamespace.html) — Реєструє простір імен з об'єктом DOMXPath
-    -   [DOMXPath::registerPhpFunctions](domxpath.registerphpfunctions.html) - Реєстрація PHP-функцій як функцій XPath
--   [Функции DOM](ref.dom.html)
+-   [Введение](intro.dom.md)
+-   [Встановлення та налаштування](dom.setup.md)
+    -   [Вимоги](dom.requirements.md)
+    -   [Установка](dom.installation.md)
+    -   [Налаштування під час виконання](dom.configuration.md)
+    -   [Типи ресурсів](dom.resources.md)
+-   [Обумовлені константи](dom.constants.md)
+-   [Приклади](dom.examples.md)
+-   [DOMAttr](class.domattr.md) - Клас DOMAttr
+    -   [DOMAttr::construct](domattr.construct.md) - Створює екземпляр класу DOMAttr
+    -   [DOMAttr::isId](domattr.isid.md) — Перевіряє, чи є атрибут певним ідентифікатором
+-   [DOMCdataSection](class.domcdatasection.md) - Клас DOMCdataSection
+    -   [DOMCdataSection::construct](domcdatasection.construct.md) — Створює новий екземпляр класу DOMCdataSection
+-   [DOMCharacterData](class.domcharacterdata.md) - Клас DOMCharacterData
+    -   [DOMCharacterData::appendData](domcharacterdata.appenddata.md) — Додати рядок до кінця символьних даних вузла
+    -   [DOMCharacterData::deleteData](domcharacterdata.deletedata.md) — Видалити діапазон символів із вузла
+    -   [DOMCharacterData::insertData](domcharacterdata.insertdata.md) — Вставити рядок у вказану 16-бітну позицію
+    -   [DOMCharacterData::replaceData](domcharacterdata.replacedata.md) — Замінити підрядок у вузлі типу DOMCharacterData
+    -   [DOMCharacterData::substringData](domcharacterdata.substringdata.md) — Витягує певний діапазон даних із вузла
+-   [DOMChildNode](class.domchildnode.md) - Інтерфейс DOMChildNode
+    -   [DOMChildNode::after](domchildnode.after.md) - Додає вузли після вузла
+    -   [DOMChildNode::before](domchildnode.before.md) - Додає вузли перед вузлом
+    -   [DOMChildNode::remove](domchildnode.remove.md) - Видаляє вузол
+    -   [DOMChildNode::replaceWith](domchildnode.replacewith.md) — Замінює вузол новими вузлами
+-   [DOMComment](class.domcomment.md) - Клас DOMComment
+    -   [DOMComment::construct](domcomment.construct.md) — Створює новий екземпляр класу DOMComment
+-   [DOMDocument](class.domdocument.md) - Клас DOMDocument
+    -   [DOMDocument::construct](domdocument.construct.md) — Створює новий об'єкт DOMDocument
+    -   [DOMDocument::createAttribute](domdocument.createattribute.md) - Створити новий атрибут
+    -   [DOMDocument::createAttributeNS](domdocument.createattributens.md) — Створює новий атрибут вузла із відповідним простором імен
+    -   [DOMDocument::createCDATASection](domdocument.createcdatasection.md) - Створює новий вузол cdata
+    -   [DOMDocument::createComment](domdocument.createcomment.md) - Створити новий вузол коментаря
+    -   [DOMDocument::createDocumentFragment](domdocument.createdocumentfragment.md) - Створити новий фрагмент документа
+    -   [DOMDocument::createElement](domdocument.createelement.md) - Створити новий вузол елемента
+    -   [DOMDocument::createElementNS](domdocument.createelementns.md) — Створити новий вузол елемента із відповідним простором імен
+    -   [DOMDocument::createEntityReference](domdocument.createentityreference.md) - Створити новий вузол посилання на сутність
+    -   [DOMDocument::createProcessingInstruction](domdocument.createprocessinginstruction.md) - Створити новий PI-вузол
+    -   [DOMDocument::createTextNode](domdocument.createtextnode.md) - Створити новий текстовий вузол
+    -   [DOMDocument::getElementById](domdocument.getelementbyid.md) — Шукає елемент із певним ідентифікатором
+    -   [DOMDocument::getElementsByTagName](domdocument.getelementsbytagname.md) — Шукає всі елементи із заданим локальним ім'ям
+    -   [DOMDocument::getElementsByTagNameNS](domdocument.getelementsbytagnamens.md) — Шукає всі елементи із заданим ім'ям у вказаному просторі імен
+    -   [DOMDocument::importNode](domdocument.importnode.md) — Імпортувати вузол у поточний документ
+    -   [DOMDocument::load](domdocument.load.md) — Завантаження XML із файлу
+    -   [DOMDocument::loadHTML](domdocument.loadhtml.md) — Завантаження HTML із рядка
+    -   [DOMDocument::loadHTMLFile](domdocument.loadhtmlfile.md) — Завантаження HTML із файлу
+    -   [DOMDocument::loadXML](domdocument.loadxml.md) — Завантаження XML із рядка
+    -   [DOMDocument::normalizeDocument](domdocument.normalizedocument.md) - Нормалізує документ
+    -   [DOMDocument::registerNodeClass](domdocument.registernodeclass.md) — Реєстрація розширеного класу, який використовується для створення типу базового вузла
+    -   [DOMDocument::relaxNGValidate](domdocument.relaxngvalidate.md) - Здійснює перевірку документа на правильність побудови за допомогою relaxNG.
+    -   [DOMDocument::relaxNGValidateSource](domdocument.relaxngvalidatesource.md) - Перевіряє документ за допомогою relaxNG
+    -   [DOMDocument::save](domdocument.save.md) — Зберігає XML-дерево із внутрішнього подання до файлу
+    -   [DOMDocument::saveHTML](domdocument.savehtml.md) — Зберігає документ із внутрішнього подання до рядка, використовуючи форматування HTML
+    -   [DOMDocument::saveHTMLFile](domdocument.savehtmlfile.md) — Зберігає документ із внутрішнього подання до файлу, використовуючи форматування HTML
+    -   [DOMDocument::saveXML](domdocument.savexml.md) — Зберігає XML-дерево з внутрішньої вистави у вигляді рядка
+    -   [DOMDocument::schemaValidate](domdocument.schemavalidate.md) — Перевіряє дійсність документа, ґрунтуючись на заданій схемі. Підтримується лише XML-схема 1.0.
+    -   [DOMDocument::schemaValidateSource](domdocument.schemavalidatesource.md) — Перевіряє дійсність документа, ґрунтуючись на схемі
+    -   [DOMDocument::validate](domdocument.validate.md) — Перевіряє документ на відповідність його DTD
+    -   [DOMDocument::xinclude](domdocument.xinclude.md) — Вставляє XInclude в об'єкті DOMDocument.
+-   [DOMDocumentFragment](class.domdocumentfragment.md) - Клас DOMDocumentFragment
+    -   [DOMDocumentFragment::appendXML](domdocumentfragment.appendxml.md) — Додавання необроблених даних XML
+    -   [DOMDocumentFragment::construct](domdocumentfragment.construct.md) - Конструктор об'єкта DOMDocumentFragment
+-   [DOMDocumentType](class.domdocumenttype.md) - Клас DOMDocumentType
+-   [DOMElement](class.domelement.md) - Клас DOMElement
+    -   [DOMElement::construct](domelement.construct.md) — Створює новий екземпляр класу DOMElement
+    -   [DOMElement::getAttribute](domelement.getattribute.md) — Повертає значення атрибуту
+    -   [DOMElement::getAttributeNode](domelement.getattributenode.md) - Повертає вузол атрибуту
+    -   [DOMElement::getAttributeNodeNS](domelement.getattributenodens.md) - Повертає вузол атрибуту
+    -   [DOMElement::getAttributeNS](domelement.getattributens.md) — Повертає значення атрибуту
+    -   [DOMElement::getElementsByTagName](domelement.getelementsbytagname.md) — Повертає елементи на ім'я тега
+    -   [DOMElement::getElementsByTagNameNS](domelement.getelementsbytagnamens.md) — Отримання елементів локального імені в заданому просторі імен
+    -   [DOMElement::hasAttribute](domelement.hasattribute.md) — Перевіряє, чи існує атрибут
+    -   [DOMElement::hasAttributeNS](domelement.hasattributens.md) — Перевіряє, чи існує заданий атрибут
+    -   [DOMElement::removeAttribute](domelement.removeattribute.md) - Видаляє атрибут
+    -   [DOMElement::removeAttributeNode](domelement.removeattributenode.md) - Видаляє атрибут
+    -   [DOMElement::removeAttributeNS](domelement.removeattributens.md) - Видаляє атрибут
+    -   [DOMElement::setAttribute](domelement.setattribute.md) — Додає новий або змінює існуючий атрибут
+    -   [DOMElement::setAttributeNode](domelement.setattributenode.md) — Додає новий вузол атрибуту до елементу
+    -   [DOMElement::setAttributeNodeNS](domelement.setattributenodens.md) — Додає новий атрибут елемент
+    -   [DOMElement::setAttributeNS](domelement.setattributens.md) - Додає новий атрибут
+    -   [DOMElement::setIdAttribute](domelement.setidattribute.md) — Оголошує атрибут, вказаний ім'ям, з ідентифікатором типу
+    -   [DOMElement::setIdAttributeNode](domelement.setidattributenode.md) — Оголошує атрибут, вказаний вузлом, з ідентифікатором типу
+    -   [DOMElement::setIdAttributeNS](domelement.setidattributens.md) — Оголошує атрибут, вказаний локальним ім'ям та URI простору імен, з ідентифікатором типу
+-   [DOMEntity](class.domentity.md) - Клас DOMEntity
+-   [DOMEntityReference](class.domentityreference.md) - Клас DOMEntityReference
+    -   [DOMEntityReference::construct](domentityreference.construct.md) — Створює новий об'єкт класу DOM Entity Reference
+-   [DOMException](class.domexception.md) - Клас DOMException
+-   [DOMImplementation](class.domimplementation.md) - Клас DOMImplementation
+    -   [DOMImplementation::construct](domimplementation.construct.md) — Створює новий об'єкт класу DOMImplementation
+    -   [DOMImplementation::createDocument](domimplementation.createdocument.md) — Створює об'єкт класу DOMDocument заданого типу з його елементом.
+    -   [DOMImplementation::createDocumentType](domimplementation.createdocumenttype.md) — Створює порожній об'єкт класу DOMDocumentType
+    -   [DOMImplementation::hasFeature](domimplementation.hasfeature.md) — Перевірка, чи реалізована певна можливість у реалізації DOM
+-   [DOMNamedNodeMap](class.domnamednodemap.md) — Клас DOMNamedNodeMap
+    -   [DOMNamedNodeMap::count](domnamednodemap.count.md) - Кількість вузлів у відображенні
+    -   [DOMNamedNodeMap::getNamedItem](domnamednodemap.getnameditem.md) — Отримує вузол, вказаний на ім'я
+    -   [DOMNamedNodeMap::getNamedItemNS](domnamednodemap.getnameditemns.md) — Отримує вузол із заданим локальним ім'ям та URI простору імен
+    -   [DOMNamedNodeMap::item](domnamednodemap.item.md) — Отримує вузол із заданим індексом
+-   [DOMNode](class.domnode.md) - Клас DOMNode
+    -   [DOMNode::appendChild](domnode.appendchild.md) — Додає новий дочірній вузол до кінця списку нащадків.
+    -   [DOMNode::C14N](domnode.c14n.md) - Канонізувати вузли в рядок
+    -   [DOMNode::C14NFile](domnode.c14nfile.md) - Канонізувати вузли у файл
+    -   [DOMNode::cloneNode](domnode.clonenode.md) - Клонує вузол
+    -   [DOMNode::getLineNo](domnode.getlineno.md) - Отримати номер рядка вузла
+    -   [DOMNode::getNodePath](domnode.getnodepath.md) - Отримання XPath вузла
+    -   [DOMNode::hasAttributes](domnode.hasattributes.md) — Перевіряє, чи цей вузол має атрибути.
+    -   [DOMNode::hasChildNodes](domnode.haschildnodes.md) — Перевіряє, чи цей вузол має нащадків.
+    -   [DOMNode::insertBefore](domnode.insertbefore.md) — Додає новий дочірній вузол перед вказаним вузлом
+    -   [DOMNode::isDefaultNamespace](domnode.isdefaultnamespace.md) — Перевіряє, чи вказаний URI простору імен вузла є простором імен за умовчанням чи ні
+    -   [DOMNode::isSameNode](domnode.issamenode.md) — Вказує, чи є два вузли одним і тим самим вузлом
+    -   [DOMNode::isSupported](domnode.issupported.md) — Перевіряє, чи підтримується можливість у певній версії
+    -   [DOMNode::lookupNamespaceUri](domnode.lookupnamespaceuri.md) — Отримує URI простору імен вузла за префіксом
+    -   [DOMNode::lookupPrefix](domnode.lookupprefix.md) — Повертає префікс простору імен вузла із URI простору імен
+    -   [DOMNode::normalize](domnode.normalize.md) - Нормалізує вузол
+    -   [DOMNode::removeChild](domnode.removechild.md) - Видаляє дочірній вузол зі списку нащадків.
+    -   [DOMNode::replaceChild](domnode.replacechild.md) - Замінює дочірній вузол
+-   [DOMNodeList](class.domnodelist.md) - Клас DOMNodeList
+    -   [DOMNodeList::count](domnodelist.count.md) — Отримати кількість вузлів у списку
+    -   [DOMNodeList::item](domnodelist.item.md) — Отримує вузол із заданим індексом
+-   [DOMNotation](class.domnotation.md) - Клас DOMNotation
+-   [DOMParentNode](class.domparentnode.md) - Інтерфейс DOMParentNode
+    -   [DOMParentNode::append](domparentnode.append.md) - Додає вузли після останнього дочірнього вузла
+    -   [DOMParentNode::prepend](domparentnode.prepend.md) - Додає вузли перед першим дочірнім вузлом
+-   [DOMProcessingInstruction](class.domprocessinginstruction.md) - Клас DOMProcessingInstruction
+    -   [DOMProcessingInstruction::construct](domprocessinginstruction.construct.md) — Створює новий об'єкт класу DOMProcessingInstruction
+-   [DOMText](class.domtext.md) - Клас DOMText
+    -   [DOMText::construct](domtext.construct.md) — Створює об'єкт класу DOMText
+    -   [DOMText::isElementContentWhitespace](domtext.iselementcontentwhitespace.md) — Повертає, чи містить текстовий вузол пробіл у вмісті елемента
+    -   [DOMText::isWhitespaceInElementContent](domtext.iswhitespaceinelementcontent.md) — Визначає, чи містить текстовий вузол пробіли у вмісті
+    -   [DOMText::splitText](domtext.splittext.md) — Поділяє вузол на два, починаючи із заданої позиції
+-   [DOMXPath](class.domxpath.md) - Клас DOMXPath
+    -   [DOMXPath::construct](domxpath.construct.md) — Створює новий об'єкт класу DOMXPath
+    -   [DOMXPath::evaluate](domxpath.evaluate.md) — Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо
+    -   [DOMXPath::query](domxpath.query.md) — Виконує заданий вираз XPath
+    -   [DOMXPath::registerNamespace](domxpath.registernamespace.md) — Реєструє простір імен з об'єктом DOMXPath
+    -   [DOMXPath::registerPhpFunctions](domxpath.registerphpfunctions.md) - Реєстрація PHP-функцій як функцій XPath
+-   [Функции DOM](ref.dom.md)
     -   [domimportsimplexml](function.dom-import-simplexml.html) — Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement

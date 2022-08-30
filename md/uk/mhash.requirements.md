@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](mhash.setup.html)
+-   [« Встановлення та налаштування](mhash.setup.md)
     
--   [Установка »](mhash.installation.html)
+-   [Установка »](mhash.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mhash.setup.html)
+-   [Встановлення та налаштування](mhash.setup.md)
     
 -   Вимоги
     

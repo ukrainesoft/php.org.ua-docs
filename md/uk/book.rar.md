@@ -14,13 +14,13 @@
 # Архівування Rar
 
 -   [Введение](intro.rar.html)
--   [Установка и настройка](rar.setup.html)
-    -   [Требования](rar.requirements.html)
+-   [Встановлення та налаштування](rar.setup.html)
+    -   [Вимоги](rar.requirements.html)
     -   [Установка](rar.installation.html)
-    -   [Настройка во время выполнения](rar.configuration.html)
-    -   [Типы ресурсов](rar.resources.html)
--   [Предопределённые константы](rar.constants.html)
--   [Примеры](rar.examples.html)
+    -   [Налаштування під час виконання](rar.configuration.html)
+    -   [Типи ресурсів](rar.resources.html)
+-   [Обумовлені константи](rar.constants.html)
+-   [Приклади](rar.examples.html)
 -   [Rar](ref.rar.html)
     -   [rarwrappercachestats](function.rar-wrapper-cache-stats.html) — Кеш доступів та відмов обгортки URL
 -   [RarArchive](class.rararchive.html) - Клас RarArchive

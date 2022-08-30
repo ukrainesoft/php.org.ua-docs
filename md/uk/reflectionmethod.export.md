@@ -1,12 +1,12 @@
 Експорт відбитого методу
 
--   [« ReflectionMethod::construct](reflectionmethod.construct.html)
+-   [« ReflectionMethod::construct](reflectionmethod.construct.md)
     
--   [ReflectionMethod::getClosure »](reflectionmethod.getclosure.html)
+-   [ReflectionMethod::getClosure »](reflectionmethod.getclosure.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionMethod](class.reflectionmethod.html)
+-   [ReflectionMethod](class.reflectionmethod.md)
     
 -   Експорт відбитого методу
     
@@ -49,5 +49,5 @@ public static ReflectionMethod::export(string $class, string $name, bool $return
 
 ### Дивіться також
 
--   [ReflectionMethod::construct()](reflectionmethod.construct.html) - Конструктор класу ReflectionMethod
--   [ReflectionMethod::toString()](reflectionmethod.tostring.html) - Повертає рядкову виставу об'єкта ReflectionMethod
+-   [ReflectionMethod::construct()](reflectionmethod.construct.md) - Конструктор класу ReflectionMethod
+-   [ReflectionMethod::toString()](reflectionmethod.tostring.md) - Повертає рядкову виставу об'єкта ReflectionMethod

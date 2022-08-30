@@ -1,12 +1,12 @@
 Константи posixsetrlimit
 
--   [« Константы posixmknod](posix.constants.mknod.html)
+-   [« Константи posixmknod](posix.constants.mknod.md)
     
--   [POSIX Функции »](ref.posix.html)
+-   [POSIX Функции »](ref.posix.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые константы](posix.constants.html)
+-   [Обумовлені константи](posix.constants.md)
     
 -   Константи posixsetrlimit
     

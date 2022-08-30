@@ -1,12 +1,12 @@
 Перетворити часовий пояс для Windows на системний часовий пояс
 
--   [« IntlTimeZone::getID](intltimezone.getid.html)
+-   [« IntlTimeZone::getID](intltimezone.getid.md)
     
--   [IntlTimeZone::getOffset »](intltimezone.getoffset.html)
+-   [IntlTimeZone::getOffset »](intltimezone.getoffset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlTimeZone](class.intltimezone.html)
+-   [IntlTimeZone](class.intltimezone.md)
     
 -   Перетворити часовий пояс для Windows на системний часовий пояс
     
@@ -53,10 +53,10 @@ intltz_get_id_for_windows_id(string $timezoneId, ?string $region = null): string
 
 ### список змін
 
-| Версия | Описание                                              |
-|--------|-------------------------------------------------------|
-|        | Параметр `region` тепер припускає значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `region` тепер припускає значення **`null`** |
 
 ### Дивіться також
 
--   [IntlTimeZone::getWindowsID()](intltimezone.getwindowsid.html) - Перетворити системний часовий пояс на часовий пояс для Windows
+-   [IntlTimeZone::getWindowsID()](intltimezone.getwindowsid.md) - Перетворити системний часовий пояс на часовий пояс для Windows

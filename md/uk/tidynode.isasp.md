@@ -1,12 +1,12 @@
 Перевіряє поточний вузол на відповідність ASP
 
--   [« tidyNode::hasSiblings](tidynode.hassiblings.html)
+-   [« tidyNode::hasSiblings](tidynode.hassiblings.md)
     
--   [tidyNode::isComment »](tidynode.iscomment.html)
+-   [tidyNode::isComment »](tidynode.iscomment.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidyNode](class.tidynode.html)
+-   [tidyNode](class.tidynode.md)
     
 -   Перевіряє поточний вузол на відповідність ASP
     

@@ -1,12 +1,12 @@
 Вступ
 
--   [« LDAP](book.ldap.html)
+-   [« LDAP](book.ldap.md)
     
--   [Установка и настройка »](ldap.setup.html)
+-   [Встановлення та налаштування »](ldap.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LDAP](book.ldap.html)
+-   [LDAP](book.ldap.md)
     
 -   Вступ
     

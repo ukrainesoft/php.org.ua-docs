@@ -1,12 +1,12 @@
 Застосовує хвильовий фільтр до зображення
 
--   [« Imagick::vignetteImage](imagick.vignetteimage.html)
+-   [« Imagick::vignetteImage](imagick.vignetteimage.md)
     
--   [Imagick::whiteThresholdImage »](imagick.whitethresholdimage.html)
+-   [Imagick::whiteThresholdImage »](imagick.whitethresholdimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Застосовує хвильовий фільтр до зображення
     
@@ -61,8 +61,8 @@ function waveImage($imagePath, $amplitude, $length) {
 
 ### Дивіться також
 
--   [Imagick::solarizeImage()](imagick.solarizeimage.html) - Застосовує до зображення ефект соляризації
--   [Imagick::oilpaintImage()](imagick.oilpaintimage.html) - Імітує картину олією
--   [Imagick::embossImage()](imagick.embossimage.html) - Повертає зображення у градаціях сірого з тривимірним ефектом
--   [Imagick::addNoiseImage()](imagick.addnoiseimage.html) - Накладає випадковий шум на зображення
--   [Imagick::swirlImage()](imagick.swirlimage.html) - Закручує пікселі навколо центру зображення
+-   [Imagick::solarizeImage()](imagick.solarizeimage.md) - Застосовує до зображення ефект соляризації
+-   [Imagick::oilpaintImage()](imagick.oilpaintimage.md) - Імітує картину олією
+-   [Imagick::embossImage()](imagick.embossimage.md) - Повертає зображення у градаціях сірого з тривимірним ефектом
+-   [Imagick::addNoiseImage()](imagick.addnoiseimage.md) - Накладає випадковий шум на зображення
+-   [Imagick::swirlImage()](imagick.swirlimage.md) - Закручує пікселі навколо центру зображення

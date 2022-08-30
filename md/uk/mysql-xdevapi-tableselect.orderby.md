@@ -4,7 +4,7 @@
     
 -   [TableSelect::where »](mysql-xdevapi-tableselect.where.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
     

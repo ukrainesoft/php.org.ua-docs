@@ -4,7 +4,7 @@
     
 -   [wkhtmltoxPDFConverter::getVersion »](wkhtmltox-pdf-converter.getversion.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [wkhtmltoxPDFConverter](class.wkhtmltox-pdf-converter.html)
     

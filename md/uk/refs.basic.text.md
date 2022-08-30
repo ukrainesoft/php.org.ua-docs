@@ -15,7 +15,7 @@
 
 -   [CommonMark](book.cmark.html)
     -   [Введение](intro.cmark.html)
-    -   [Установка и настройка](cmark.setup.html)
+    -   [Встановлення та налаштування](cmark.setup.html)
     -   [CommonMarkNodeDocument](class.commonmark-node-document.html) — Document успадковує CommonMarkNode
     -   [CommonMarkNodeHeading](class.commonmark-node-heading.html) - Heading успадковує CommonMarkNode
     -   [CommonMarkNodeParagraph](class.commonmark-node-paragraph.html) - Paragraph успадковує CommonMarkNode
@@ -45,10 +45,10 @@
     -   [Функции CommonMark](ref.cmark.html)
 -   [Parle](book.parle.html) — Розбір та лексування
     -   [Введение](intro.parle.html)
-    -   [Установка и настройка](parle.setup.html)
-    -   [Предопределённые константы](parle.constants.html)
+    -   [Встановлення та налаштування](parle.setup.html)
+    -   [Обумовлені константи](parle.constants.html)
     -   [Сопоставление с шаблоном](parle.pattern.matching.html) — Зіставлення із шаблоном Parle
-    -   [Примеры](parle.examples.html)
+    -   [Приклади](parle.examples.html)
     -   [ParleLexer](class.parle-lexer.html) - Клас ParleLexer
     -   [ParleRLexer](class.parle-rlexer.html) - Клас ParleRLexer
     -   [ParleParser](class.parle-parser.html) - Клас ParleParser
@@ -60,19 +60,19 @@
     -   [ParleParserException](class.parle-parserexception.html) - Клас ParleParserException
 -   [PCRE](book.pcre.html) — Функції для роботи з регулярними виразами (Perl-сумісні)
     -   [Введение](intro.pcre.html)
-    -   [Установка и настройка](pcre.setup.html)
-    -   [Предопределённые константы](pcre.constants.html)
-    -   [Примеры](pcre.examples.html)
-    -   [Регулярные выражения PCRE](pcre.pattern.html)
+    -   [Встановлення та налаштування](pcre.setup.html)
+    -   [Обумовлені константи](pcre.constants.html)
+    -   [Приклади](pcre.examples.html)
+    -   [Регулярні вирази PCRE](pcre.pattern.html)
     -   [Функции PCRE](ref.pcre.html)
 -   [ssdeep](book.ssdeep.html) - Нечітке хешування ssdeep
     -   [Введение](intro.ssdeep.html)
-    -   [Установка и настройка](ssdeep.setup.html)
-    -   [Предопределённые константы](ssdeep.constants.html)
+    -   [Встановлення та налаштування](ssdeep.setup.html)
+    -   [Обумовлені константи](ssdeep.constants.html)
     -   [Функції ssdeep](ref.ssdeep.html)
 -   [Рядки](book.strings.html)
     -   [Введение](intro.strings.html)
-    -   [Установка и настройка](strings.setup.html)
-    -   [Предопределённые константы](string.constants.html)
+    -   [Встановлення та налаштування](strings.setup.html)
+    -   [Обумовлені константи](string.constants.html)
     -   [Функції для роботи з рядками](ref.strings.html)
     -   [Список изменений](changelog.strings.html)

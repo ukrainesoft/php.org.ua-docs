@@ -2,11 +2,11 @@
 
 -   [« Установка](geoip.installation.html)
     
--   [Типы ресурсов »](geoip.resources.html)
+-   [Типи ресурсів »](geoip.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](geoip.setup.html)
+-   [Встановлення та налаштування](geoip.setup.html)
     
 -   Налаштування під час виконання
     
@@ -17,9 +17,9 @@
 
 **Опції настроювання GeoIP**
 
-| Имя                                                                          | По умолчанию | Место изменения | Список изменений |
-|------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [geoip.customdirectory](geoip.configuration.html#ini.geoip.custom-directory) | ""           | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [geoip.customdirectory](geoip.configuration.html#ini.geoip.custom-directory) | "" | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](dir.requirements.html)
+-   [« Вимоги](dir.requirements.html)
     
--   [Настройка во время выполнения »](dir.configuration.html)
+-   [Налаштування під час виконання »](dir.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](dir.setup.html)
+-   [Встановлення та налаштування](dir.setup.html)
     
 -   Встановлення
     

@@ -1,12 +1,12 @@
 Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
 
--   [« tidy::getStatus](tidy.getstatus.html)
+-   [« tidy::getStatus](tidy.getstatus.md)
     
--   [tidy::html »](tidy.html.html)
+-   [tidy::html »](tidy.html.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidy](class.tidy.html)
+-   [tidy](class.tidy.md)
     
 -   Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
     
@@ -17,7 +17,7 @@
 
 (PHP 5, PHP 7, PHP 8, PECL tidy 0.5.2-1.0.0)
 
-tidy::head -- tidygethead — Повертає об'єкт [tidyNode](class.tidynode.html), починаючи з тега розібраного tidy-дерева
+tidy::head -- tidygethead — Повертає об'єкт [tidyNode](class.tidynode.md), починаючи з тега розібраного tidy-дерева
 
 ### Опис
 
@@ -33,17 +33,17 @@ public tidy::head(): ?tidyNode
 tidy_get_head(tidy $tidy): ?tidyNode
 ```
 
-Повертає об'єкт [tidyNode](class.tidynode.html), починаючи з тега розібраного tidy-дерева.
+Повертає об'єкт [tidyNode](class.tidynode.md), починаючи з тега розібраного tidy-дерева.
 
 ### Список параметрів
 
 `tidy`
 
-Об'єкт [Tidy](class.tidy.html)
+Об'єкт [Tidy](class.tidy.md)
 
 ### Значення, що повертаються
 
-Повертає об'єкт [tidyNode](class.tidynode.html)
+Повертає об'єкт [tidyNode](class.tidynode.md)
 
 ### Приклади
 
@@ -78,5 +78,5 @@ echo $head->value;
 
 ### Дивіться також
 
--   [tidy::body()](tidy.body.html) - Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
--   [tidy::html()](tidy.html.html) - Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
+-   [tidy::body()](tidy.body.md) - Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
+-   [tidy::html()](tidy.html.md) - Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева

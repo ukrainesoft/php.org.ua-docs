@@ -4,9 +4,9 @@
     
 -   [xmlsetunparsedentitydeclhandler »](function.xml-set-unparsed-entity-decl-handler.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции парсера XML](ref.xml.html)
+-   [Функции парсера XML](ref.xml.md)
     
 -   Встановлення обробника входу в межі простору імен
     
@@ -63,9 +63,9 @@ handler(XMLParser $parser, string $prefix, string $uri)
 
 ### список змін
 
-| Версия | Описание                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

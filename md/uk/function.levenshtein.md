@@ -1,12 +1,12 @@
 Обчислює відстань Левенштейна між двома рядками
 
--   [« lcfirst](function.lcfirst.html)
+-   [« lcfirst](function.lcfirst.md)
     
--   [localeconv »](function.localeconv.html)
+-   [localeconv »](function.localeconv.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Обчислює відстань Левенштейна між двома рядками
     
@@ -55,9 +55,9 @@ levenshtein(    string $string1,    string $string2,    int $inserti
 
 ### список змін
 
-| Версия | Описание                                                                               |
-|--------|----------------------------------------------------------------------------------------|
-|        | До цієї версії **levenshtein()** треба було викликати із двома чи п'ятьма аргументами. |
+| Версия | Описание |
+| --- | --- |
+|  | До цієї версії **levenshtein()** треба було викликати із двома чи п'ятьма аргументами. |
 
 ### Приклади
 
@@ -68,7 +68,7 @@ levenshtein(    string $string1,    string $string2,    int $inserti
 // введённое слово с опечаткой
 $input = 'carrrot';
 
-// массив сверяемых слов
+// Масив сверяемых слов
 $words  = array('apple','pineapple','banana','orange',
                 'radish','carrot','pea','bean','potato');
 
@@ -120,6 +120,6 @@ if ($shortest == 0) {
 
 ### Дивіться також
 
--   [soundex()](function.soundex.html) - Повертає ключ soundex для рядка
+-   [soundex()](function.soundex.md) - Повертає ключ soundex для рядка
 -   [similartext()](function.similar-text.html) - обчислює ступінь схожості двох рядків
--   [metaphone()](function.metaphone.html) - Повертає ключ metaphone для рядка
+-   [metaphone()](function.metaphone.md) - Повертає ключ metaphone для рядка

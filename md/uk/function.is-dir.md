@@ -1,12 +1,12 @@
 Визначає, чи є ім'я файлу директорією
 
--   [« glob](function.glob.html)
+-   [« glob](function.glob.md)
     
 -   [ісexecutable »](function.is-executable.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Визначає, чи є ім'я файлу директорією
     
@@ -62,16 +62,16 @@ bool(true)
 
 ### Примітки
 
-> **Зауваження**: Результати цієї функції кешуються Більш детальну інформацію дивіться у розділі [clearstatcache()](function.clearstatcache.html)
+> **Зауваження**: Результати цієї функції кешуються Більш детальну інформацію дивіться у розділі [clearstatcache()](function.clearstatcache.md)
 
 **Підказка**
 
-Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.html), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.html)
+Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.md), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Дивіться також
 
--   [chdir()](function.chdir.html) - Змінює каталог
--   [dir()](function.dir.html) - Повертає екземпляр класу Directory
--   [opendir()](function.opendir.html) - Відкриває дескриптор каталогу
+-   [chdir()](function.chdir.md) - Змінює каталог
+-   [dir()](function.dir.md) - Повертає екземпляр класу Directory
+-   [opendir()](function.opendir.md) - Відкриває дескриптор каталогу
 -   [ісfile()](function.is-file.html) - Визначає, чи файл є звичайним файлом
 -   [ісlink()](function.is-link.html) - Визначає, чи є файл символічним посиланням

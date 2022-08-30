@@ -1,12 +1,12 @@
 Короткий посібник
 
--   [« Краткий обзор](mysqli.overview.html)
+-   [« Краткий обзор](mysqli.overview.md)
     
 -   [Процедурний та об'єктно-орієнтований інтерфейс »](mysqli.quickstart.dual-interface.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQLi](book.mysqli.html)
+-   [MySQLi](book.mysqli.md)
     
 -   Короткий посібник
     
@@ -16,13 +16,13 @@
 ## Зміст
 
 -   [Процедурний та об'єктно-орієнтований інтерфейс](mysqli.quickstart.dual-interface.html)
--   [Соединения](mysqli.quickstart.connections.html)
--   [Выполнение запросов](mysqli.quickstart.statements.html)
+-   [Соединения](mysqli.quickstart.connections.md)
+-   [Виконання запитів](mysqli.quickstart.statements.md)
 -   [Підготовлювані запити](mysqli.quickstart.prepared-statements.html)
--   [Хранимые процедуры](mysqli.quickstart.stored-procedures.html)
+-   [Збережені процедури](mysqli.quickstart.stored-procedures.html)
 -   [Множинні запити](mysqli.quickstart.multiple-statement.html)
--   [API поддержка транзакций](mysqli.quickstart.transactions.html)
--   [Метаданные](mysqli.quickstart.metadata.html)
+-   [API поддержка транзакций](mysqli.quickstart.transactions.md)
+-   [Метадані](mysqli.quickstart.metadata.md)
 
 Цей практичний посібник допоможе освоїти основні моменти API-інтерфейсу MySQL-сервера.
 

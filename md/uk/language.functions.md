@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Справочник языка](langref.html)
+-   [Довідник мови](langref.html)
     
 -   Функції
     
@@ -16,9 +16,9 @@
 ## Зміст
 
 -   [Функції, визначені користувачем](functions.user-defined.html)
--   [Аргументы функции](functions.arguments.html)
+-   [Аргументи функції](functions.arguments.html)
 -   [Возврат значений](functions.returning-values.html)
--   [Обращение к функциям через переменные](functions.variable-functions.html)
+-   [Звернення до функцій через змінні](functions.variable-functions.html)
 -   [Вбудовані функції](functions.internal.html)
 -   [Анонімні функції](functions.anonymous.html)
 -   [Стрілочні функції](functions.arrow.html)

@@ -4,9 +4,9 @@
     
 -   [rrdversion »](function.rrd-version.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.md)
     
 -   Оновлює базу даних RRD
     

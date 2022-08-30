@@ -4,7 +4,7 @@
     
 -   [CommonMarkNodeTextStrong »](class.commonmark-node-text-strong.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [CommonMarkNodeText](class.commonmark-node-text.html)
     

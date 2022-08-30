@@ -4,9 +4,9 @@
     
 -   [uopzgetstatic »](function.uopz-get-static.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.md)
     
 -   Отримує попереднє встановлене значення, що повертається для функції
     

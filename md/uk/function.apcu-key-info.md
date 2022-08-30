@@ -4,9 +4,9 @@
     
 -   [apcusmainfo »](function.apcu-sma-info.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции APCu](ref.apcu.html)
+-   [Функции APCu](ref.apcu.md)
     
 -   Отримати детальну інформацію про ключ у кеші
     

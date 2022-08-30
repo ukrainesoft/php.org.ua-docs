@@ -4,9 +4,9 @@
     
 -   [wincacheucachedec »](function.wincache-ucache-dec.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции WinCache](ref.wincache.html)
+-   [Функции WinCache](ref.wincache.md)
     
 -   Видаляє весь вміст кешу користувача.
     

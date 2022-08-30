@@ -1,12 +1,12 @@
 Повертає версію бібліотеки SQLite3, містить як рядкову константу, так і цифрову
 
--   [« SQLite3::setAuthorizer](sqlite3.setauthorizer.html)
+-   [« SQLite3::setAuthorizer](sqlite3.setauthorizer.md)
     
--   [SQLite3Stmt »](class.sqlite3stmt.html)
+-   [SQLite3Stmt »](class.sqlite3stmt.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3](class.sqlite3.html)
+-   [SQLite3](class.sqlite3.md)
     
 -   Повертає версію бібліотеки SQLite3, містить як рядкову константу, так і цифрову
     

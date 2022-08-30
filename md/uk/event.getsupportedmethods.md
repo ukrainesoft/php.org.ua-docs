@@ -1,12 +1,12 @@
 Отримати масив з іменами методів, які підтримуються в поточній версії Libevent
 
--   [« Event::free](event.free.html)
+-   [« Event::free](event.free.md)
     
--   [Event::pending »](event.pending.html)
+-   [Event::pending »](event.pending.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](class.event.html)
+-   [Event](class.event.md)
     
 -   Отримати масив з іменами методів, які підтримуються в поточній версії Libevent
     
@@ -37,4 +37,4 @@ public
 
 ### Дивіться також
 
--   [EventConfig](class.eventconfig.html)
+-   [EventConfig](class.eventconfig.md)

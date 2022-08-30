@@ -1,12 +1,12 @@
 Повертає значення group.format
 
--   [« SolrQuery::getGroupFields](solrquery.getgroupfields.html)
+-   [« SolrQuery::getGroupFields](solrquery.getgroupfields.md)
     
--   [SolrQuery::getGroupFunctions »](solrquery.getgroupfunctions.html)
+-   [SolrQuery::getGroupFunctions »](solrquery.getgroupfunctions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає значення group.format
     
@@ -33,4 +33,4 @@ public SolrQuery::getGroupFormat(): string
 
 ### Дивіться також
 
--   [SolrQuery::setGroupFormat()](solrquery.setgroupformat.html) - Встановлює формат групи, структуру результату (параметр group.format)
+-   [SolrQuery::setGroupFormat()](solrquery.setgroupformat.md) - Встановлює формат групи, структуру результату (параметр group.format)

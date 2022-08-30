@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](yaf.configuration.html)
+-   [« Налаштування під час виконання](yaf.configuration.md)
     
--   [Предопределённые константы »](yaf.constants.html)
+-   [Обумовлені константи »](yaf.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](yaf.setup.html)
+-   [Встановлення та налаштування](yaf.setup.md)
     
 -   Типи ресурсів
     

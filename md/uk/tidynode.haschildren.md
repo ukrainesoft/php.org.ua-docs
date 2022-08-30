@@ -1,12 +1,12 @@
 Перевіряє існування нащадків біля вузла
 
--   [« tidyNode::getParent](tidynode.getparent.html)
+-   [« tidyNode::getParent](tidynode.getparent.md)
     
--   [tidyNode::hasSiblings »](tidynode.hassiblings.html)
+-   [tidyNode::hasSiblings »](tidynode.hassiblings.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidyNode](class.tidynode.html)
+-   [tidyNode](class.tidynode.md)
     
 -   Перевіряє існування нащадків біля вузла
     

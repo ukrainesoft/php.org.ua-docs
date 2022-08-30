@@ -4,9 +4,9 @@
     
 -   [xdifffilediffbinary »](function.xdiff-file-diff-binary.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.md)
     
 -   Застосувати бінарний патч до файлу
     

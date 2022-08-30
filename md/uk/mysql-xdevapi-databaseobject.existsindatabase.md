@@ -4,7 +4,7 @@
     
 -   [DatabaseObject::getName »](mysql-xdevapi-databaseobject.getname.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiDatabaseObject](class.mysql-xdevapi-databaseobject.html)
     

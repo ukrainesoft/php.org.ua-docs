@@ -4,9 +4,9 @@
     
 -   [ftpdelete »](function.ftp-delete.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.md)
     
 -   Встановлює з'єднання з сервером FTP
     
@@ -45,9 +45,9 @@ ftp_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connection
 
 ### список змін
 
-| Версия | Описание                                                                                                                          |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [FTPConnection](class.ftp-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [FTPConnection](class.ftp-connection.html); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

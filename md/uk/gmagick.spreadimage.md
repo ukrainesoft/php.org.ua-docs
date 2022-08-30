@@ -1,12 +1,12 @@
 Випадково зміщує кожен піксель у блоці
 
--   [« Gmagick::solarizeimage](gmagick.solarizeimage.html)
+-   [« Gmagick::solarizeimage](gmagick.solarizeimage.md)
     
--   [Gmagick::stripimage »](gmagick.stripimage.html)
+-   [Gmagick::stripimage »](gmagick.stripimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Випадково зміщує кожен піксель у блоці
     
@@ -33,7 +33,7 @@ public Gmagick::spreadimage(float $radius): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання
 
 ### Помилки
 

@@ -4,7 +4,7 @@
     
 -   [SwooleCoroutineMySQL::query »](swoole-coroutine-mysql.query.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleCoroutine](class.swoole-coroutine.html)
     

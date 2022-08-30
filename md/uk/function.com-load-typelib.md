@@ -4,9 +4,9 @@
     
 -   [commessagepump »](function.com-message-pump.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции COM](ref.com.html)
+-   [Функции COM](ref.com.md)
     
 -   Завантаження Typelib
     
@@ -23,7 +23,7 @@ comloadtypelib — Завантаження Typelib
 com_load_typelib(string $typelib, bool $case_insensitive = true): bool
 ```
 
-Завантажує бібліотеку типів і реєструє її константи таким чином, якби вони були визначені через [define()](function.define.html)
+Завантажує бібліотеку типів і реєструє її константи таким чином, якби вони були визначені через [define()](function.define.md)
 
 Зверніть увагу, що набагато ефективніше використовувати опцію конфігурації php.ini [com.typelib-file](com.configuration.html#ini.com.typelib-file) для передзавантаження та реєстрації констант. З іншого боку, такий метод менш гнучкий.
 
@@ -46,7 +46,7 @@ PHP намагатиметься визначити бібліотеку в та
 
 `case_insensitive`
 
-`case_insensitive` веде себе протилежно до параметра `$case_insensitive` у функції [define()](function.define.html)
+`case_insensitive` веде себе протилежно до параметра `$case_insensitive` у функції [define()](function.define.md)
 
 ### Значення, що повертаються
 

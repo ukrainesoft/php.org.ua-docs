@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](json.configuration.html)
+-   [« Налаштування під час виконання](json.configuration.md)
     
--   [Предопределённые константы »](json.constants.html)
+-   [Обумовлені константи »](json.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](json.setup.html)
+-   [Встановлення та налаштування](json.setup.md)
     
 -   Типи ресурсів
     

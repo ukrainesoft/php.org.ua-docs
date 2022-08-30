@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](wkhtmltox.setup.html)
+-   [« Встановлення та налаштування](wkhtmltox.setup.md)
     
--   [Установка »](wkhtmltox.installation.html)
+-   [Установка »](wkhtmltox.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](wkhtmltox.setup.html)
+-   [Встановлення та налаштування](wkhtmltox.setup.md)
     
 -   Вимоги
     

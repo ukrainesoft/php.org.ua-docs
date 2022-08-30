@@ -14,12 +14,12 @@ SQLite3
 # SQLite3
 
 -   [Введение](intro.sqlite3.html)
--   [Установка и настройка](sqlite3.setup.html)
-    -   [Требования](sqlite3.requirements.html)
+-   [Встановлення та налаштування](sqlite3.setup.html)
+    -   [Вимоги](sqlite3.requirements.html)
     -   [Установка](sqlite3.installation.html)
-    -   [Настройка во время выполнения](sqlite3.configuration.html)
-    -   [Типы ресурсов](sqlite3.resources.html)
--   [Предопределённые константы](sqlite3.constants.html)
+    -   [Налаштування під час виконання](sqlite3.configuration.html)
+    -   [Типи ресурсів](sqlite3.resources.html)
+-   [Обумовлені константи](sqlite3.constants.html)
 -   [SQLite3](class.sqlite3.html) - Клас SQLite3
     -   [SQLite3::backup](sqlite3.backup.html) — Резервне копіювання однієї бази даних до іншої
     -   [SQLite3::busyTimeout](sqlite3.busytimeout.html) - Встановити обробник "зайнято" на з'єднання

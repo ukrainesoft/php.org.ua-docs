@@ -4,9 +4,9 @@
     
 -   [runkit7functioncopy »](function.runkit7-function-copy.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції runkit7](ref.runkit7.html)
+-   [Функції runkit7](ref.runkit7.md)
     
 -   Додає нову функцію, функція аналогічна createfunction
     
@@ -43,7 +43,7 @@ runkit7_function_add(    string $function_name,    Closure $closure,  
 
 `closure`
 
-Замикання ([closure](class.closure.html)), Що визначає функцію.
+Замикання ([closure](class.closure.md)), Що визначає функцію.
 
 `return_by_reference`
 

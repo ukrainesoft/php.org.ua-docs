@@ -1,12 +1,12 @@
 Перевіряє поточний вузол на відповідність JSTE
 
--   [« tidyNode::isHtml](tidynode.ishtml.html)
+-   [« tidyNode::isHtml](tidynode.ishtml.md)
     
--   [tidyNode::isPhp »](tidynode.isphp.html)
+-   [tidyNode::isPhp »](tidynode.isphp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidyNode](class.tidynode.html)
+-   [tidyNode](class.tidynode.md)
     
 -   Перевіряє поточний вузол на відповідність JSTE
     

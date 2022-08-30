@@ -4,9 +4,9 @@
     
 -   [dbasepack »](function.dbase-pack.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [dBase](ref.dbase.html)
+-   [dBase](ref.dbase.md)
     
 -   Відкриває базу даних
     
@@ -51,8 +51,8 @@ dbase_open(string $path, int $mode): resource|false
 
 ### список змін
 
-| Версия      | Описание                                              |
-|-------------|-------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
 
 ### Приклади

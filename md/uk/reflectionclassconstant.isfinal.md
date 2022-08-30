@@ -1,12 +1,12 @@
 Перевіряє, чи є константа класу остаточною
 
--   [« ReflectionClassConstant::isEnumCase](reflectionclassconstant.isenumcase.html)
+-   [« ReflectionClassConstant::isEnumCase](reflectionclassconstant.isenumcase.md)
     
--   [ReflectionClassConstant::isPrivate »](reflectionclassconstant.isprivate.html)
+-   [ReflectionClassConstant::isPrivate »](reflectionclassconstant.isprivate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClassConstant](class.reflectionclassconstant.html)
+-   [ReflectionClassConstant](class.reflectionclassconstant.md)
     
 -   Перевіряє, чи є константа класу остаточною
     
@@ -35,6 +35,6 @@ public ReflectionClassConstant::isFinal(): bool
 
 ### Дивіться також
 
--   [ReflectionClassConstant::isPublic()](reflectionclassconstant.ispublic.html) - Перевіряє, чи константа є загальнодоступною
--   [ReflectionClassConstant::isPrivate()](reflectionclassconstant.isprivate.html) - Перевіряє, чи є константа закритою
--   [ReflectionClassConstant::isProtected()](reflectionclassconstant.isprotected.html) - Перевіряє, чи константа захищена
+-   [ReflectionClassConstant::isPublic()](reflectionclassconstant.ispublic.md) - Перевіряє, чи константа є загальнодоступною
+-   [ReflectionClassConstant::isPrivate()](reflectionclassconstant.isprivate.md) - Перевіряє, чи є константа закритою
+-   [ReflectionClassConstant::isProtected()](reflectionclassconstant.isprotected.md) - Перевіряє, чи константа захищена

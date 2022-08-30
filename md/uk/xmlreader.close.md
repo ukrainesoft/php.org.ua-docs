@@ -1,12 +1,12 @@
 Закрити введення XMLReader
 
--   [« XMLReader](class.xmlreader.html)
+-   [« XMLReader](class.xmlreader.md)
     
--   [XMLReader::expand »](xmlreader.expand.html)
+-   [XMLReader::expand »](xmlreader.expand.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLReader](class.xmlreader.html)
+-   [XMLReader](class.xmlreader.md)
     
 -   Закрити введення XMLReader
     
@@ -35,5 +35,5 @@ public XMLReader::close(): bool
 
 ### Дивіться також
 
--   [XMLReader::open()](xmlreader.open.html) - Встановити URI, що містить XML-документ для аналізу
--   [XMLReader::xml()](xmlreader.xml.html) - Встановити дані, що містять XML для аналізу
+-   [XMLReader::open()](xmlreader.open.md) - Встановити URI, що містить XML-документ для аналізу
+-   [XMLReader::xml()](xmlreader.xml.md) - Встановити дані, що містять XML для аналізу

@@ -2,7 +2,7 @@
 
 -   [« Угруповання](parle.regex.grouping.html)
     
--   [Примеры использования лексера »](parle.examples.lexer.html)
+-   [Приклади використання лексера »](parle.examples.lexer.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [Примеры использования лексера](parle.examples.lexer.html)
+-   [Приклади використання лексера](parle.examples.lexer.html)
 -   [Пример использования парсера](parle.examples.parser.html)

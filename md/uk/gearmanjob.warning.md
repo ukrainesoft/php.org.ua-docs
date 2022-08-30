@@ -1,12 +1,12 @@
 Надсилання попередження (застарілий метод)
 
--   [« GearmanJob::unique](gearmanjob.unique.html)
+-   [« GearmanJob::unique](gearmanjob.unique.md)
     
--   [GearmanJob::workload »](gearmanjob.workload.html)
+-   [GearmanJob::workload »](gearmanjob.workload.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanJob](class.gearmanjob.html)
+-   [GearmanJob](class.gearmanjob.md)
     
 -   Надсилання попередження (застарілий метод)
     
@@ -27,7 +27,7 @@ public GearmanJob::warning(string $warning): bool
 
 > **Зауваження**
 > 
-> Цей метод було замінено на [GearmanJob::sendWarning()](gearmanjob.sendwarning.html) у версії 0.6.0 модуля Gearman.
+> Цей метод було замінено на [GearmanJob::sendWarning()](gearmanjob.sendwarning.md) у версії 0.6.0 модуля Gearman.
 
 ### Список параметрів
 
@@ -41,6 +41,6 @@ public GearmanJob::warning(string $warning): bool
 
 ### Дивіться також
 
--   [GearmanJob::sendComplete()](gearmanjob.sendcomplete.html) - Відправлення результату та статусу завершення
--   [GearmanJob::sendException()](gearmanjob.sendexception.html) - Відправлення виключення завдання, що виконується
--   [GearmanJob::sendFail()](gearmanjob.sendfail.html) - Відправлення статусу невдалої операції
+-   [GearmanJob::sendComplete()](gearmanjob.sendcomplete.md) - Відправлення результату та статусу завершення
+-   [GearmanJob::sendException()](gearmanjob.sendexception.md) - Відправлення виключення завдання, що виконується
+-   [GearmanJob::sendFail()](gearmanjob.sendfail.md) - Відправлення статусу невдалої операції

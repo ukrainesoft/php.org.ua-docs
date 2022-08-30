@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.ds.html)
     
--   [Требования »](ds.requirements.html)
+-   [Вимоги »](ds.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [Требования](ds.requirements.html)
+-   [Вимоги](ds.requirements.html)
 -   [Установка](ds.installation.html)

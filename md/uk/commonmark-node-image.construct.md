@@ -4,7 +4,7 @@
     
 -   [CommonMarkNodeLink »](class.commonmark-node-link.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [CommonMarkNodeImage](class.commonmark-node-image.html)
     

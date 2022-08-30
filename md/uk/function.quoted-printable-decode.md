@@ -1,12 +1,12 @@
 Перетворює рядок, закодований методом quoted-printable у 8-бітовий рядок
 
--   [« printf](function.printf.html)
+-   [« printf](function.printf.md)
     
 -   [quotedprintableencode »](function.quoted-printable-encode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Перетворює рядок, закодований методом quoted-printable у 8-бітовий рядок
     

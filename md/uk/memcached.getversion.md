@@ -1,12 +1,12 @@
 Отримує інформацію про версію серверів у пулі
 
--   [« Memcached::getStats](memcached.getstats.html)
+-   [« Memcached::getStats](memcached.getstats.md)
     
--   [Memcached::increment »](memcached.increment.html)
+-   [Memcached::increment »](memcached.increment.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Отримує інформацію про версію серверів у пулі
     

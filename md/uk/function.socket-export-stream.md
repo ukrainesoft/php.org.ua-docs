@@ -4,9 +4,9 @@
     
 -   [socketgetoption »](function.socket-get-option.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции сокета](ref.sockets.html)
+-   [Функции сокета](ref.sockets.md)
     
 -   Експортувати сокет у потік, що інкапсулює сокет
     
@@ -37,6 +37,6 @@ socket_export_stream(Socket $socket): resource|false
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |

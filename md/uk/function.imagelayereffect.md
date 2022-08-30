@@ -1,12 +1,12 @@
 Встановлення прапора альфа пару для використання ефектів накладання зображень
 
--   [« imagejpeg](function.imagejpeg.html)
+-   [« imagejpeg](function.imagejpeg.md)
     
--   [imageline »](function.imageline.html)
+-   [imageline »](function.imageline.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Встановлення прапора альфа пару для використання ефектів накладання зображень
     
@@ -29,7 +29,7 @@ imagelayereffect(GdImage $image, int $effect): bool
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `effect`
 
@@ -37,11 +37,11 @@ imagelayereffect(GdImage $image, int $effect): bool
 
 **`IMG_EFFECT_REPLACE`**
 
-Використовувати заміну пікселів (аналогічно передачі **`true`** в [imagealphablending()](function.imagealphablending.html)
+Використовувати заміну пікселів (аналогічно передачі **`true`** в [imagealphablending()](function.imagealphablending.md)
 
 **`IMG_EFFECT_ALPHABLEND`**
 
-Використовувати звичайне сполучення кольорів (аналогічно передачі **`false`** в [imagealphablending()](function.imagealphablending.html)
+Використовувати звичайне сполучення кольорів (аналогічно передачі **`false`** в [imagealphablending()](function.imagealphablending.md)
 
 **`IMG_EFFECT_NORMAL`**
 
@@ -61,10 +61,10 @@ imagelayereffect(GdImage $image, int $effect): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                           |
-|--------|--------------------------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource).                   |
-|        | Додана **`IMG_EFFECT_MULTIPLY`** (вимагає системну бібліотеку libgd >= 2.1.1 або libgd, що йде в комплекті з PHP). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+|  | Додана **`IMG_EFFECT_MULTIPLY`** (вимагає системну бібліотеку libgd >= 2.1.1 або libgd, що йде в комплекті з PHP). |
 
 ### Приклади
 

@@ -4,9 +4,9 @@
     
 -   [streamWrapper::streamflush »](streamwrapper.stream-flush.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [streamWrapper](class.streamwrapper.html)
+-   [streamWrapper](class.streamwrapper.md)
     
 -   Перевіряє досягнення кінця файлу за файловим покажчиком
     
@@ -23,7 +23,7 @@ streamWrapper::streameof — Перевіряє досягнення кінця 
 public streamWrapper::stream_eof(): bool
 ```
 
-Цей метод викликається в результаті виклику [feof()](function.feof.html)
+Цей метод викликається в результаті виклику [feof()](function.feof.md)
 
 ### Список параметрів
 
@@ -41,4 +41,4 @@ public streamWrapper::stream_eof(): bool
 
 ### Дивіться також
 
--   [feof()](function.feof.html) - Перевіряє, чи кінець файлу досягнуто
+-   [feof()](function.feof.md) - Перевіряє, чи кінець файлу досягнуто

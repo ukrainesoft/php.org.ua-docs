@@ -4,7 +4,7 @@
     
 -   [mysqlxdevapiCrudOperationSortable »](class.mysql-xdevapi-crudoperationsortable.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiCrudOperationSkippable](class.mysql-xdevapi-crudoperationskippable.html)
     

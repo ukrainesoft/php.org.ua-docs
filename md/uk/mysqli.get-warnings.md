@@ -2,11 +2,11 @@
 
 -   [« mysqli::$serverversion](mysqli.get-server-version.html)
     
--   [mysqli::$info »](mysqli.info.html)
+-   [mysqli::$info »](mysqli.info.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Отримує результат SHOW WARNINGS
     

@@ -4,9 +4,9 @@
     
 -   [posixmkfifo »](function.posix-mkfifo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [POSIX Функции](ref.posix.html)
+-   [POSIX Функции](ref.posix.md)
     
 -   Надсилає сигнал відповідному процесу
     
@@ -33,7 +33,7 @@ posix_kill(int $process_id, int $signal): bool
 
 `signal`
 
-Одна з [PCNTL констант сигналів](pcntl.constants.html)
+Одна з [PCNTL констант сигналів](pcntl.constants.md)
 
 ### Значення, що повертаються
 

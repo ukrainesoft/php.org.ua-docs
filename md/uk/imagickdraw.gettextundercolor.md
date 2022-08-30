@@ -1,12 +1,12 @@
 Повертає колір під текстом
 
--   [« ImagickDraw::getTextKerning](imagickdraw.gettextkerning.html)
+-   [« ImagickDraw::getTextKerning](imagickdraw.gettextkerning.md)
     
--   [ImagickDraw::getVectorGraphics »](imagickdraw.getvectorgraphics.html)
+-   [ImagickDraw::getVectorGraphics »](imagickdraw.getvectorgraphics.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Повертає колір під текстом
     
@@ -31,4 +31,4 @@ public ImagickDraw::getTextUnderColor(): ImagickPixel
 
 ### Значення, що повертаються
 
-Повертає об'єкт [ImagickPixel](class.imagickpixel.html), що описує колір.
+Повертає об'єкт [ImagickPixel](class.imagickpixel.md), що описує колір.

@@ -4,9 +4,9 @@
     
 -   [мбconvertcase »](function.mb-convert-case.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
     
 -   Повертає символ за значенням кодової точки Unicode
     
@@ -43,9 +43,9 @@ mb_chr(int $codepoint, ?string $encoding = null): string|false
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Приклади
 
@@ -78,5 +78,5 @@ bool(false)
 
 -   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
 -   [мбord()](function.mb-ord.html) - Отримує кодову точку символу Unicode
--   [IntlChar::ord()](intlchar.ord.html) - Отримати код символ Unicode
--   [chr()](function.chr.html) - Генерує односимвольний рядок за заданим числом
+-   [IntlChar::ord()](intlchar.ord.md) - Отримати код символ Unicode
+-   [chr()](function.chr.md) - Генерує односимвольний рядок за заданим числом

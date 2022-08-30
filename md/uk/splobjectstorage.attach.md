@@ -1,12 +1,12 @@
 Додає об'єкт у контейнер
 
--   [« SplObjectStorage::addAll](splobjectstorage.addall.html)
+-   [« SplObjectStorage::addAll](splobjectstorage.addall.md)
     
--   [SplObjectStorage::contains »](splobjectstorage.contains.html)
+-   [SplObjectStorage::contains »](splobjectstorage.contains.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplObjectStorage](class.splobjectstorage.html)
+-   [SplObjectStorage](class.splobjectstorage.md)
     
 -   Додає об'єкт у контейнер
     
@@ -66,5 +66,5 @@ string(5) "hello"
 
 ### Дивіться також
 
--   [SplObjectStorage::detach()](splobjectstorage.detach.html) - Видаляє об'єкт object із контейнера
--   [SplObjectStorage::offsetSet()](splobjectstorage.offsetset.html) - Асоціює дані з об'єктом у контейнері
+-   [SplObjectStorage::detach()](splobjectstorage.detach.md) - Видаляє об'єкт object із контейнера
+-   [SplObjectStorage::offsetSet()](splobjectstorage.offsetset.md) - Асоціює дані з об'єктом у контейнері

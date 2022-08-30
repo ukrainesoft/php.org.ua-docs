@@ -1,12 +1,12 @@
 Розбирає файл, що містить скрипт Lua
 
--   [« Lua::getVersion](lua.getversion.html)
+-   [« Lua::getVersion](lua.getversion.md)
     
--   [Lua::registerCallback »](lua.registercallback.html)
+-   [Lua::registerCallback »](lua.registercallback.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Lua](class.lua.html)
+-   [Lua](class.lua.md)
     
 -   Розбирає файл, що містить скрипт Lua
     

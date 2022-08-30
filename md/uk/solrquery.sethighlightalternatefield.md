@@ -1,12 +1,12 @@
 Задає поле резервного копіювання для використання
 
--   [« SolrQuery::setHighlight](solrquery.sethighlight.html)
+-   [« SolrQuery::setHighlight](solrquery.sethighlight.md)
     
--   [SolrQuery::setHighlightFormatter »](solrquery.sethighlightformatter.html)
+-   [SolrQuery::setHighlightFormatter »](solrquery.sethighlightformatter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Задає поле резервного копіювання для використання
     

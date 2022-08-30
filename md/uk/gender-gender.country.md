@@ -4,9 +4,9 @@
     
 -   [GenderGender::get »](gender-gender.get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GenderGender](class.gender.html)
+-   [GenderGender](class.gender.md)
     
 -   Отримати текстове подання країни
     
@@ -29,7 +29,7 @@ public Gender\Gender::country(int $country): array|false
 
 `country`
 
-Ідентифікатор країни, заданий константою класу [GenderGender](class.gender.html)
+Ідентифікатор країни, заданий константою класу [GenderGender](class.gender.md)
 
 ### Значення, що повертаються
 

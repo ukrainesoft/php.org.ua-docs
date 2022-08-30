@@ -14,12 +14,12 @@
 # Рядки
 
 -   [Введение](intro.strings.html)
--   [Установка и настройка](strings.setup.html)
-    -   [Требования](strings.requirements.html)
+-   [Встановлення та налаштування](strings.setup.html)
+    -   [Вимоги](strings.requirements.html)
     -   [Установка](strings.installation.html)
-    -   [Настройка во время выполнения](strings.configuration.html)
-    -   [Типы ресурсов](strings.resources.html)
--   [Предопределённые константы](string.constants.html)
+    -   [Налаштування під час виконання](strings.configuration.html)
+    -   [Типи ресурсів](strings.resources.html)
+-   [Обумовлені константи](string.constants.html)
 -   [Функції для роботи з рядками](ref.strings.html)
     -   [addcslashes](function.addcslashes.html) — Екранує рядок слішами у стилі мови C
     -   [addslashes](function.addslashes.html) — Екранує рядок за допомогою слішів

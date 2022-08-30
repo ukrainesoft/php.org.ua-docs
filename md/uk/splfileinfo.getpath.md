@@ -1,12 +1,12 @@
 Отримує шлях без імені файлу
 
--   [« SplFileInfo::getOwner](splfileinfo.getowner.html)
+-   [« SplFileInfo::getOwner](splfileinfo.getowner.md)
     
--   [SplFileInfo::getPathInfo »](splfileinfo.getpathinfo.html)
+-   [SplFileInfo::getPathInfo »](splfileinfo.getpathinfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Отримує шлях без імені файлу
     
@@ -56,6 +56,6 @@ string(4) "/usr"
 
 ### Дивіться також
 
--   [SplFileInfo::getRealPath()](splfileinfo.getrealpath.html) - Отримує абсолютний шлях до файлу
--   [SplFileInfo::getFilename()](splfileinfo.getfilename.html) - Отримує ім'я файлу
--   [SplFileInfo::getPathInfo()](splfileinfo.getpathinfo.html) - Отримує об'єкт SplFileInfo для заданого шляху
+-   [SplFileInfo::getRealPath()](splfileinfo.getrealpath.md) - Отримує абсолютний шлях до файлу
+-   [SplFileInfo::getFilename()](splfileinfo.getfilename.md) - Отримує ім'я файлу
+-   [SplFileInfo::getPathInfo()](splfileinfo.getpathinfo.md) - Отримує об'єкт SplFileInfo для заданого шляху

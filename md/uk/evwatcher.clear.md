@@ -1,12 +1,12 @@
 Очистити статус очікування спостерігача
 
--   [« EvWatcher](class.evwatcher.html)
+-   [« EvWatcher](class.evwatcher.md)
     
--   [EvWatcher::construct »](evwatcher.construct.html)
+-   [EvWatcher::construct »](evwatcher.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvWatcher](class.evwatcher.html)
+-   [EvWatcher](class.evwatcher.md)
     
 -   Очистити статус очікування спостерігача
     

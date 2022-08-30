@@ -1,6 +1,6 @@
 Трейти
 
--   [« Константы перечислений](language.enumerations.constants.html)
+-   [« Константи перерахувань](language.enumerations.constants.html)
     
 -   [Значення перерахування у постійних виразах »](language.enumerations.expressions.html)
     

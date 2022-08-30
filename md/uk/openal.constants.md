@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](openal.resources.html)
+-   [« Типи ресурсів](openal.resources.md)
     
--   [Функции OpenAL »](ref.openal.html)
+-   [Функции OpenAL »](ref.openal.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OpenAL](book.openal.html)
+-   [OpenAL](book.openal.md)
     
 -   Обумовлені константи
     

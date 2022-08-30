@@ -4,9 +4,9 @@
     
 -   [ОЙDrawTextFontItalic »](class.ui-draw-text-font-italic.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ОЙ](book.ui.html)
+-   [ОЙ](book.ui.md)
     
 -   Налаштування зображення шрифту
     

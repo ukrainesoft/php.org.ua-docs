@@ -4,7 +4,7 @@
     
 -   [ОЙDrawPath::end »](ui-draw-path.end.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawPath](class.ui-draw-path.html)
     

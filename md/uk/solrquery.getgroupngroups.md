@@ -1,12 +1,12 @@
 Повертає значення group.ngroups
 
--   [« SolrQuery::getGroupMain](solrquery.getgroupmain.html)
+-   [« SolrQuery::getGroupMain](solrquery.getgroupmain.md)
     
--   [SolrQuery::getGroupOffset »](solrquery.getgroupoffset.html)
+-   [SolrQuery::getGroupOffset »](solrquery.getgroupoffset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає значення group.ngroups
     
@@ -33,4 +33,4 @@ public SolrQuery::getGroupNGroups(): bool
 
 ### Дивіться також
 
--   [SolrQuery::setGroupNGroups()](solrquery.setgroupngroups.html) - Якщо true, Solr включає до результатів кількість груп, які відповідають запиту
+-   [SolrQuery::setGroupNGroups()](solrquery.setgroupngroups.md) - Якщо true, Solr включає до результатів кількість груп, які відповідають запиту

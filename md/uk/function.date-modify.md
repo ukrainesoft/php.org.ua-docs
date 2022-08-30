@@ -4,9 +4,9 @@
     
 -   [dateoffsetget »](function.date-offset-get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Псевдонім DateTime::modify
     
@@ -15,8 +15,8 @@
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-datemodify - Псевдонім [DateTime::modify()](datetime.modify.html)
+datemodify - Псевдонім [DateTime::modify()](datetime.modify.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateTime::modify()](datetime.modify.html)
+Ця функція є псевдонімом: [DateTime::modify()](datetime.modify.md)

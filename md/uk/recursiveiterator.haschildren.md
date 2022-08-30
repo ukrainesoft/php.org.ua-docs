@@ -1,12 +1,12 @@
 Визначає, чи можна створити ітератор для поточного елемента.
 
--   [« RecursiveIterator::getChildren](recursiveiterator.getchildren.html)
+-   [« RecursiveIterator::getChildren](recursiveiterator.getchildren.md)
     
--   [SeekableIterator »](class.seekableiterator.html)
+-   [SeekableIterator »](class.seekableiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveIterator](class.recursiveiterator.html)
+-   [RecursiveIterator](class.recursiveiterator.md)
     
 -   Визначає, чи можна створити ітератор для поточного елемента.
     
@@ -23,7 +23,7 @@ RecursiveIterator::hasChildren — Визначає, чи можна створ�
 public RecursiveIterator::hasChildren(): bool
 ```
 
-Визначає, чи можна створити ітератор для поточного елемента методом [RecursiveIterator::getChildren()](recursiveiterator.getchildren.html)
+Визначає, чи можна створити ітератор для поточного елемента методом [RecursiveIterator::getChildren()](recursiveiterator.getchildren.md)
 
 ### Список параметрів
 
@@ -35,4 +35,4 @@ public RecursiveIterator::hasChildren(): bool
 
 ### Дивіться також
 
--   [RecursiveIterator::getChildren()](recursiveiterator.getchildren.html) - Повертає ітератор для поточного елемента
+-   [RecursiveIterator::getChildren()](recursiveiterator.getchildren.md) - Повертає ітератор для поточного елемента

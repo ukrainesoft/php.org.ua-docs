@@ -2,11 +2,11 @@
 
 -   [« inarray](function.in-array.html)
     
--   [key »](function.key.html)
+-   [key »](function.key.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Псевдонім arraykeyexists
     

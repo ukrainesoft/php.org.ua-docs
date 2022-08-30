@@ -1,12 +1,12 @@
 Повертає відповідним чином локалізовану назву варіанта для заданої локалі
 
--   [« Locale::getDisplayScript](locale.getdisplayscript.html)
+-   [« Locale::getDisplayScript](locale.getdisplayscript.md)
     
--   [Locale::getKeywords »](locale.getkeywords.html)
+-   [Locale::getKeywords »](locale.getkeywords.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Locale](class.locale.html)
+-   [Locale](class.locale.md)
     
 -   Повертає відповідним чином локалізовану назву варіанта для заданої локалі
     
@@ -51,9 +51,9 @@ locale_get_display_variant(string $locale, ?string $displayLocale = null): strin
 
 ### список змін
 
-| Версия | Описание                                      |
-|--------|-----------------------------------------------|
-|        | `displayLocale` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `displayLocale` тепер допускає значення null. |
 
 ### Приклади
 
@@ -91,7 +91,7 @@ NEDIS
 
 ### Дивіться також
 
--   [localegetdisplayname()](locale.getdisplayname.html) - Повертає відповідним чином локалізоване ім'я локалі
--   [localegetdisplaylanguage()](locale.getdisplaylanguage.html) - Повертає відповідним чином локалізоване ім'я мови для заданої локалі
--   [localegetdisplayscript()](locale.getdisplayscript.html) - Повертає відповідним чином локалізовану назву алфавіту для заданої локалі
--   [localegetdisplayregion()](locale.getdisplayregion.html) - Повертає відповідним чином локалізовану назву регіону для заданої локалі
+-   [localegetdisplayname()](locale.getdisplayname.md) - Повертає відповідним чином локалізоване ім'я локалі
+-   [localegetdisplaylanguage()](locale.getdisplaylanguage.md) - Повертає відповідним чином локалізоване ім'я мови для заданої локалі
+-   [localegetdisplayscript()](locale.getdisplayscript.md) - Повертає відповідним чином локалізовану назву алфавіту для заданої локалі
+-   [localegetdisplayregion()](locale.getdisplayregion.md) - Повертає відповідним чином локалізовану назву регіону для заданої локалі

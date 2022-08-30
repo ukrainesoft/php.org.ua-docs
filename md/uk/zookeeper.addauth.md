@@ -1,12 +1,12 @@
 Вказує облікові дані програми
 
--   [« Zookeeper](class.zookeeper.html)
+-   [« Zookeeper](class.zookeeper.md)
     
--   [Zookeeper::close »](zookeeper.close.html)
+-   [Zookeeper::close »](zookeeper.close.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Zookeeper](class.zookeeper.html)
+-   [Zookeeper](class.zookeeper.md)
     
 -   Вказує облікові дані програми
     
@@ -50,7 +50,7 @@ public
 
 **Застереження**
 
-Починаючи з версії 0.3.0, метод генерує виняток [ZookeeperException](class.zookeeperexception.html) та його похідні.
+Починаючи з версії 0.3.0, метод генерує виняток [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Приклади
 
@@ -82,8 +82,8 @@ nodevalue
 
 ### Дивіться також
 
--   [Zookeeper::create()](zookeeper.create.html) - Створює синхронно вузол
--   [Zookeeper::setAcl()](zookeeper.setacl.html) - Встановлює ACL, пов'язаний із вузлом синхронно
--   [Zookeeper::getAcl()](zookeeper.getacl.html) - Синхронно отримує ACL, пов'язаний із вузлом
+-   [Zookeeper::create()](zookeeper.create.md) - Створює синхронно вузол
+-   [Zookeeper::setAcl()](zookeeper.setacl.md) - Встановлює ACL, пов'язаний із вузлом синхронно
+-   [Zookeeper::getAcl()](zookeeper.getacl.md) - Синхронно отримує ACL, пов'язаний із вузлом
 -   [Стан ZooKeeper](class.zookeeper.html#zookeeper.class.constants.states)
--   [ZookeeperException](class.zookeeperexception.html)
+-   [ZookeeperException](class.zookeeperexception.md)

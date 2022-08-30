@@ -1,12 +1,12 @@
 Метод отримує значення з хеша за його ключем
 
--   [« QuickHashIntHash::exists](quickhashinthash.exists.html)
+-   [« QuickHashIntHash::exists](quickhashinthash.exists.md)
     
--   [QuickHashIntHash::getSize »](quickhashinthash.getsize.html)
+-   [QuickHashIntHash::getSize »](quickhashinthash.getsize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [QuickHashIntHash](class.quickhashinthash.html)
+-   [QuickHashIntHash](class.quickhashinthash.md)
     
 -   Метод отримує значення з хеша за його ключем
     

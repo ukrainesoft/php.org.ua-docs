@@ -1,12 +1,12 @@
 Вступ
 
--   [« Lua](book.lua.html)
+-   [« Lua](book.lua.md)
     
--   [Установка и настройка »](lua.setup.html)
+-   [Встановлення та налаштування »](lua.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Lua](book.lua.html)
+-   [Lua](book.lua.md)
     
 -   Вступ
     

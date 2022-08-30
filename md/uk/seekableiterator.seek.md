@@ -1,12 +1,12 @@
 Переміщається до позиції
 
--   [« SeekableIterator](class.seekableiterator.html)
+-   [« SeekableIterator](class.seekableiterator.md)
     
--   [Исключения »](spl.exceptions.html)
+-   [Исключения »](spl.exceptions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SeekableIterator](class.seekableiterator.html)
+-   [SeekableIterator](class.seekableiterator.md)
     
 -   Переміщається до позиції
     
@@ -37,13 +37,13 @@ public SeekableIterator::seek(int $offset): void
 
 ### Помилки
 
-Реалізації мають викидати виняток [OutOfBoundsException](class.outofboundsexception.html), якщо `offset` недійсна.
+Реалізації мають викидати виняток [OutOfBoundsException](class.outofboundsexception.md), якщо `offset` недійсна.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SeekableIterator::seek()****
 
-Переміщення до елемента на 3-й позиції в ітераторі ([ArrayIterator](class.arrayiterator.html) реалізує [SeekableIterator](class.seekableiterator.html)
+Переміщення до елемента на 3-й позиції в ітераторі ([ArrayIterator](class.arrayiterator.md) реалізує [SeekableIterator](class.seekableiterator.md)
 
 ```php
 <?php
@@ -62,5 +62,5 @@ echo $iterator->current();
 
 ### Дивіться також
 
--   [SeekableIterator](class.seekableiterator.html)
--   [Iterator](class.iterator.html)
+-   [SeekableIterator](class.seekableiterator.md)
+-   [Iterator](class.iterator.md)

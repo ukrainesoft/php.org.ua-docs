@@ -1,12 +1,12 @@
 Розмиває зображення
 
--   [« Imagick::gammaImage](imagick.gammaimage.html)
+-   [« Imagick::gammaImage](imagick.gammaimage.md)
     
--   [Imagick::getColorspace »](imagick.getcolorspace.html)
+-   [Imagick::getColorspace »](imagick.getcolorspace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Розмиває зображення
     

@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](eio.installation.html)
+-   [« Установка](eio.installation.md)
     
--   [Типы ресурсов »](eio.resources.html)
+-   [Типи ресурсів »](eio.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](eio.setup.html)
+-   [Встановлення та налаштування](eio.setup.md)
     
 -   Налаштування під час виконання
     

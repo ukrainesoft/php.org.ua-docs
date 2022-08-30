@@ -1,12 +1,12 @@
 Стан кешу
 
--   [« Yac::get](yac.getter.html)
+-   [« Yac::get](yac.getter.md)
     
--   [Yac::set »](yac.set.html)
+-   [Yac::set »](yac.set.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yac](class.yac.html)
+-   [Yac](class.yac.md)
     
 -   Стан кешу
     

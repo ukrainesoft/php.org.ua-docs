@@ -2,11 +2,11 @@
 
 -   [« phpuserfilter::onCreate](php-user-filter.oncreate.html)
     
--   [streamWrapper::construct »](streamwrapper.construct.html)
+-   [streamWrapper::construct »](streamwrapper.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Потоки](book.stream.html)
+-   [Потоки](book.stream.md)
     
 -   Клас streamWrapper
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Дозволяє реалізовувати власні обробники протоколів та потоків для подальшого використання з усіма функціями роботи з файловою системою (такими як [fopen()](function.fopen.html) [fread()](function.fread.html) і т.п.).
+Дозволяє реалізовувати власні обробники протоколів та потоків для подальшого використання з усіма функціями роботи з файловою системою (такими як [fopen()](function.fopen.md) [fread()](function.fread.md) і т.п.).
 
 > **Зауваження**
 > 
@@ -86,7 +86,7 @@ public url_stat(string $path, int $flags): array|false
 
 resource context
 
-Поточний [контекст](context.html) або **`null`**, якщо в функцію, що викликає, не було передано ніякого контексту.
+Поточний [контекст](context.md) або **`null`**, якщо в функцію, що викликає, не було передано ніякого контексту.
 
 Використовуйте функцію [streamcontextgetoptions()](function.stream-context-get-options.html) для аналізу та розбору контексту.
 
@@ -103,15 +103,15 @@ resource context
 
 ## Зміст
 
--   [streamWrapper::construct](streamwrapper.construct.html) — Створює новий об'єкт обертання потоку
--   [streamWrapper::destruct](streamwrapper.destruct.html) — Знищує існуючу обгортку потоку
+-   [streamWrapper::construct](streamwrapper.construct.md) — Створює новий об'єкт обертання потоку
+-   [streamWrapper::destruct](streamwrapper.destruct.md) — Знищує існуючу обгортку потоку
 -   [streamWrapper::dirclosedir](streamwrapper.dir-closedir.html) - Закрити дескриптор директорії
 -   [streamWrapper::diropendir](streamwrapper.dir-opendir.html) - Відкрити дескриптор директорії
 -   [streamWrapper::dirreaddir](streamwrapper.dir-readdir.html) — Читання запису з дескриптора директорії
 -   [streamWrapper::dirrewinddir](streamwrapper.dir-rewinddir.html) — Дескриптор директорії переміщення на її початку
--   [streamWrapper::mkdir](streamwrapper.mkdir.html) - Створення директорії
--   [streamWrapper::rename](streamwrapper.rename.html) — Перейменовує файл чи директорію
--   [streamWrapper::rmdir](streamwrapper.rmdir.html) - Видаляє директорію
+-   [streamWrapper::mkdir](streamwrapper.mkdir.md) - Створення директорії
+-   [streamWrapper::rename](streamwrapper.rename.md) — Перейменовує файл чи директорію
+-   [streamWrapper::rmdir](streamwrapper.rmdir.md) - Видаляє директорію
 -   [streamWrapper::streamcast](streamwrapper.stream-cast.html) — Отримує ресурс рівнем нижче
 -   [streamWrapper::streamclose](streamwrapper.stream-close.html) - Закриває ресурс
 -   [streamWrapper::streameof](streamwrapper.stream-eof.html) - Перевіряє досягнення кінця файлу за файловим покажчиком
@@ -126,5 +126,5 @@ resource context
 -   [streamWrapper::streamtell](streamwrapper.stream-tell.html) — Визначення поточної позиції потоку
 -   [streamWrapper::streamtruncate](streamwrapper.stream-truncate.html) - Усічення потоку
 -   [streamWrapper::streamwrite](streamwrapper.stream-write.html) - Запис у потік
--   [streamWrapper::unlink](streamwrapper.unlink.html) — Видалення файлу
+-   [streamWrapper::unlink](streamwrapper.unlink.md) — Видалення файлу
 -   [streamWrapper::urlstat](streamwrapper.url-stat.html) — Отримання інформації про файл

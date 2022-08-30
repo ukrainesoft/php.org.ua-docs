@@ -2,11 +2,11 @@
 
 -   [« mcryptmoduleselftest](function.mcrypt-module-self-test.html)
     
--   [Mhash »](book.mhash.html)
+-   [Mhash »](book.mhash.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](ref.mcrypt.html)
+-   [Mcrypt](ref.mcrypt.md)
     
 -   Дешифрування даних
     

@@ -1,12 +1,12 @@
 Встановлює загальний параметр запиту explainOther
 
--   [« SolrQuery::setExpandRows](solrquery.setexpandrows.html)
+-   [« SolrQuery::setExpandRows](solrquery.setexpandrows.md)
     
--   [SolrQuery::setFacet »](solrquery.setfacet.html)
+-   [SolrQuery::setFacet »](solrquery.setfacet.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Встановлює загальний параметр запиту explainOther
     

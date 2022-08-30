@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](win32service.installation.html)
+-   [« Установка](win32service.installation.md)
     
--   [Типы ресурсов »](win32service.resources.html)
+-   [Типи ресурсів »](win32service.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](win32service.setup.html)
+-   [Встановлення та налаштування](win32service.setup.md)
     
 -   Налаштування під час виконання
     

@@ -1,12 +1,12 @@
 Повертає значення змінної у вигляді числа з точкою, що плаває
 
--   [« empty](function.empty.html)
+-   [« empty](function.empty.md)
     
 -   [getdebugtype »](function.get-debug-type.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи зі змінними](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.md)
     
 -   Повертає значення змінної у вигляді числа з точкою, що плаває
     
@@ -61,8 +61,8 @@ echo $float_value_of_var; // 0
 
 ### Дивіться також
 
--   [boolval()](function.boolval.html) - Повертає логічне значення змінної
--   [intval()](function.intval.html) - Повертає ціле значення змінної
--   [strval()](function.strval.html) - Повертає строкове значення змінної
--   [settype()](function.settype.html) - Задає тип змінної
+-   [boolval()](function.boolval.md) - Повертає логічне значення змінної
+-   [intval()](function.intval.md) - Повертає ціле значення змінної
+-   [strval()](function.strval.md) - Повертає строкове значення змінної
+-   [settype()](function.settype.md) - Задає тип змінної
 -   [Маніпуляції з типами](language.types.type-juggling.html)

@@ -4,9 +4,9 @@
     
 -   [usererror »](function.user-error.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции обработки ошибок](ref.errorfunc.html)
+-   [Функции обработки ошибок](ref.errorfunc.md)
     
 -   Викликає помилку користувача/попередження/сповіщення
     
@@ -59,11 +59,11 @@ if ($divisor == 0) {
 
 **Увага**
 
-HTML-сутності в `message` не екрановані. Щоб відобразити повідомлення у браузері, перетворіть його функцією [htmlentities()](function.htmlentities.html)
+HTML-сутності в `message` не екрановані. Щоб відобразити повідомлення у браузері, перетворіть його функцією [htmlentities()](function.htmlentities.md)
 
 ### Дивіться також
 
 -   [errorreporting()](function.error-reporting.html) - Задає, які помилки PHP потраплять у звіт
 -   [seterrorhandler()](function.set-error-handler.html) - Задає користувальницький обробник помилок
 -   [restoreerrorhandler()](function.restore-error-handler.html) - Відновлює попередній обробник помилок
--   [Константи рівнів помилок](errorfunc.constants.html)
+-   [Константи рівнів помилок](errorfunc.constants.md)

@@ -4,9 +4,9 @@
     
 -   [imapappend »](function.imap-append.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции IMAP](ref.imap.html)
+-   [Функции IMAP](ref.imap.md)
     
 -   Повертає всі попереджувальні повідомлення IMAP.
     

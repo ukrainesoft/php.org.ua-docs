@@ -4,9 +4,9 @@
     
 -   [gmpnextprime »](function.gmp-nextprime.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GMP Функції](ref.gmp.html)
+-   [GMP Функції](ref.gmp.md)
     
 -   Зміна знака числа
     
@@ -29,7 +29,7 @@ gmp_neg(GMP|int|string $num): GMP
 
 `num`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 

@@ -1,12 +1,12 @@
 Помилки сокетів
 
--   [« Примеры](sockets.examples.html)
+-   [« Приклади](sockets.examples.md)
     
--   [Функции сокета »](ref.sockets.html)
+-   [Функции сокета »](ref.sockets.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Сокеты](book.sockets.html)
+-   [Сокети](book.sockets.md)
     
 -   Помилки сокетів
     

@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](tokenizer.configuration.html)
+-   [« Налаштування під час виконання](tokenizer.configuration.md)
     
--   [Предопределённые константы »](tokenizer.constants.html)
+-   [Обумовлені константи »](tokenizer.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](tokenizer.setup.html)
+-   [Встановлення та налаштування](tokenizer.setup.md)
     
 -   Типи ресурсів
     

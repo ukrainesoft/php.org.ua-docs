@@ -4,9 +4,9 @@
     
 -   [eiosetmaxparallel »](function.eio-set-max-parallel.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Встановлює максимальну кількість очікуваних потоків
     

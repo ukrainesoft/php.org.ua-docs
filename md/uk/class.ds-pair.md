@@ -4,9 +4,9 @@
     
 -   [ДсPair::clear »](ds-pair.clear.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Структури даних](book.ds.html)
+-   [Структури даних](book.ds.md)
     
 -   Клас Pair
     

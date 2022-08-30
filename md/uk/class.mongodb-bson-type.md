@@ -4,9 +4,9 @@
     
 -   [MongoDBBSONPersistable »](class.mongodb-bson-persistable.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBBSON](book.bson.html)
+-   [MongoDBBSON](book.bson.md)
     
 -   Інтерфейс MongoDBBSONType
     

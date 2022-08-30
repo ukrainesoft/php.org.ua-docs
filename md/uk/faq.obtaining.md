@@ -1,12 +1,12 @@
 Отримання PHP
 
--   [« Списки рассылки](faq.mailinglist.html)
+-   [« Списки розсилки](faq.mailinglist.md)
     
--   [Питання щодо баз даних »](faq.databases.html)
+-   [Питання щодо баз даних »](faq.databases.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ЧАВО](faq.html)
+-   [ЧАВО](faq.md)
     
 -   Отримання PHP
     

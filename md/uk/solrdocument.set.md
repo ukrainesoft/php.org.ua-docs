@@ -1,12 +1,12 @@
 Додає ще одне поле до документа
 
--   [« SolrDocument::serialize](solrdocument.serialize.html)
+-   [« SolrDocument::serialize](solrdocument.serialize.md)
     
--   [SolrDocument::sort »](solrdocument.sort.html)
+-   [SolrDocument::sort »](solrdocument.sort.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocument](class.solrdocument.html)
+-   [SolrDocument](class.solrdocument.md)
     
 -   Додає ще одне поле до документа
     

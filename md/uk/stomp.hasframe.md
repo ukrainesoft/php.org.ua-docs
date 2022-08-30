@@ -1,12 +1,12 @@
 Перевіряє, чи можливе читання кадру
 
--   [« Stomp::getSessionId](stomp.getsessionid.html)
+-   [« Stomp::getSessionId](stomp.getsessionid.md)
     
--   [Stomp::readFrame »](stomp.readframe.html)
+-   [Stomp::readFrame »](stomp.readframe.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Stomp](class.stomp.html)
+-   [Stomp](class.stomp.md)
     
 -   Перевіряє, чи можливе читання кадру
     
@@ -39,7 +39,7 @@ stomp_has_frame(resource $link): bool
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.html)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
 
 ### Значення, що повертаються
 

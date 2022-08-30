@@ -4,7 +4,7 @@
     
 -   [db2lobread »](function.db2-lob-read.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Функції IBM DB2](ref.ibm-db2.html)
     

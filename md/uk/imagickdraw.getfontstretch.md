@@ -1,12 +1,12 @@
 Опис
 
--   [« ImagickDraw::getFontSize](imagickdraw.getfontsize.html)
+-   [« ImagickDraw::getFontSize](imagickdraw.getfontsize.md)
     
--   [ImagickDraw::getFontStyle »](imagickdraw.getfontstyle.html)
+-   [ImagickDraw::getFontStyle »](imagickdraw.getfontstyle.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Опис
     

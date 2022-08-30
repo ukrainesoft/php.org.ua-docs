@@ -1,99 +1,99 @@
 Інші базові модулі
 
--   [« SyncSharedMemory::write](syncsharedmemory.write.html)
+-   [« SyncSharedMemory::write](syncsharedmemory.write.md)
     
--   [GeoIP »](book.geoip.html)
+-   [GeoIP »](book.geoip.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Справочник функций](funcref.html)
+-   [Справочник функций](funcref.md)
     
 -   Інші базові модулі
     
 
 # Інші базові модулі
 
--   [GeoIP](book.geoip.html) - Geo IP Location
-    -   [Введение](intro.geoip.html)
-    -   [Установка и настройка](geoip.setup.html)
-    -   [Предопределённые константы](geoip.constants.html)
-    -   [Функции GeoIP](ref.geoip.html)
--   [FANN](book.fann.html) - Швидка штучна нейронна мережа (Fast Artificial Neural Network або FANN)
-    -   [Введение](intro.fann.html)
-    -   [Установка и настройка](fann.setup.html)
-    -   [Предопределённые константы](fann.constants.html)
-    -   [Примеры](fann.examples.html)
-    -   [Функции Fann](ref.fann.html)
-    -   [FANNConnection](class.fannconnection.html) - Клас FANNConnection
--   [Igbinary](book.igbinary.html)
-    -   [Введение](intro.igbinary.html)
-    -   [Установка и настройка](igbinary.setup.html)
-    -   [Функции Igbinary](ref.igbinary.html)
--   [JSON](book.json.html) - JavaScript Object Notation
-    -   [Введение](intro.json.html)
-    -   [Установка и настройка](json.setup.html)
-    -   [Предопределённые константы](json.constants.html)
-    -   [JsonException](class.jsonexception.html) - Клас JsonException
-    -   [JsonSerializable](class.jsonserializable.html) - Інтерфейс JsonSerializable
-    -   [Функции JSON](ref.json.html)
--   [Lua](book.lua.html)
-    -   [Введение](intro.lua.html)
-    -   [Установка и настройка](lua.setup.html)
-    -   [Lua](class.lua.html) - Клас Lua
-    -   [LuaClosure](class.luaclosure.html) - Клас LuaClosure
--   [LuaSandbox](book.luasandbox.html)
-    -   [Введение](intro.luasandbox.html)
-    -   [Установка и настройка](luasandbox.setup.html)
-    -   [Отличия от стандартного Lua](reference.luasandbox.differences.html)
-    -   [Примеры](luasandbox.examples.html)
-    -   [LuaSandbox](class.luasandbox.html) - Клас LuaSandbox
-    -   [LuaSandboxFunction](class.luasandboxfunction.html) - Клас LuaSandboxFunction
-    -   [LuaSandboxError](class.luasandboxerror.html) - Клас LuaSandboxError
-    -   [LuaSandboxErrorError](class.luasandboxerrorerror.html) - Клас LuaSandboxErrorError
-    -   [LuaSandboxFatalError](class.luasandboxfatalerror.html) - Клас LuaSandboxFatalError
-    -   [LuaSandboxMemoryError](class.luasandboxmemoryerror.html) - Клас LuaSandboxMemoryError
-    -   [LuaSandboxRuntimeError](class.luasandboxruntimeerror.html) - Клас LuaSandboxRuntimeError
-    -   [LuaSandboxSyntaxError](class.luasandboxsyntaxerror.html) - Клас LuaSandboxSyntaxError
-    -   [LuaSandboxTimeoutError](class.luasandboxtimeouterror.html) - Клас LuaSandboxTimeoutError
--   [Misc.](book.misc.html) - Різні функції
-    -   [Введение](intro.misc.html)
-    -   [Установка и настройка](misc.setup.html)
-    -   [Предопределённые константы](misc.constants.html)
-    -   [Різні функції](ref.misc.html)
-    -   [Список изменений](changelog.misc.html)
--   [Seaslog](book.seaslog.html)
-    -   [Введение](intro.seaslog.html)
-    -   [Установка и настройка](seaslog.setup.html)
-    -   [Предопределённые константы](seaslog.constants.html)
-    -   [Примеры](seaslog.examples.html)
-    -   [Функции Seaslog](ref.seaslog.html)
-    -   [SeasLog](class.seaslog.html) - Клас SeasLog
--   [SPL](book.spl.html) - Стандартна бібліотека PHP (SPL)
-    -   [Введение](intro.spl.html)
-    -   [Установка и настройка](spl.setup.html)
-    -   [Предопределённые константы](spl.constants.html)
-    -   [Структури даних](spl.datastructures.html)
-    -   [Ітератори](spl.iterators.html)
-    -   [Интерфейсы](spl.interfaces.html)
-    -   [Исключения](spl.exceptions.html)
-    -   [Функції SPL](ref.spl.html)
-    -   [Обработка файлов](spl.files.html)
-    -   [Различные классы и интерфейсы](spl.misc.html)
--   [Потоки](book.stream.html)
-    -   [Введение](intro.stream.html)
-    -   [Установка и настройка](stream.setup.html)
-    -   [Предопределённые константы](stream.constants.html)
-    -   [Поточні фільтри](stream.filters.html)
-    -   [Контексти потоків](stream.contexts.html)
-    -   [Ошибки потока](stream.errors.html)
-    -   [Примеры](stream.examples.html)
+-   [GeoIP](book.geoip.md) - Geo IP Location
+    -   [Введение](intro.geoip.md)
+    -   [Встановлення та налаштування](geoip.setup.md)
+    -   [Обумовлені константи](geoip.constants.md)
+    -   [Функции GeoIP](ref.geoip.md)
+-   [FANN](book.fann.md) - Швидка штучна нейронна мережа (Fast Artificial Neural Network або FANN)
+    -   [Введение](intro.fann.md)
+    -   [Встановлення та налаштування](fann.setup.md)
+    -   [Обумовлені константи](fann.constants.md)
+    -   [Приклади](fann.examples.md)
+    -   [Функции Fann](ref.fann.md)
+    -   [FANNConnection](class.fannconnection.md) - Клас FANNConnection
+-   [Igbinary](book.igbinary.md)
+    -   [Введение](intro.igbinary.md)
+    -   [Встановлення та налаштування](igbinary.setup.md)
+    -   [Функции Igbinary](ref.igbinary.md)
+-   [JSON](book.json.md) - JavaScript Object Notation
+    -   [Введение](intro.json.md)
+    -   [Встановлення та налаштування](json.setup.md)
+    -   [Обумовлені константи](json.constants.md)
+    -   [JsonException](class.jsonexception.md) - Клас JsonException
+    -   [JsonSerializable](class.jsonserializable.md) - Інтерфейс JsonSerializable
+    -   [Функции JSON](ref.json.md)
+-   [Lua](book.lua.md)
+    -   [Введение](intro.lua.md)
+    -   [Встановлення та налаштування](lua.setup.md)
+    -   [Lua](class.lua.md) - Клас Lua
+    -   [LuaClosure](class.luaclosure.md) - Клас LuaClosure
+-   [LuaSandbox](book.luasandbox.md)
+    -   [Введение](intro.luasandbox.md)
+    -   [Встановлення та налаштування](luasandbox.setup.md)
+    -   [Отличия от стандартного Lua](reference.luasandbox.differences.md)
+    -   [Приклади](luasandbox.examples.md)
+    -   [LuaSandbox](class.luasandbox.md) - Клас LuaSandbox
+    -   [LuaSandboxFunction](class.luasandboxfunction.md) - Клас LuaSandboxFunction
+    -   [LuaSandboxError](class.luasandboxerror.md) - Клас LuaSandboxError
+    -   [LuaSandboxErrorError](class.luasandboxerrorerror.md) - Клас LuaSandboxErrorError
+    -   [LuaSandboxFatalError](class.luasandboxfatalerror.md) - Клас LuaSandboxFatalError
+    -   [LuaSandboxMemoryError](class.luasandboxmemoryerror.md) - Клас LuaSandboxMemoryError
+    -   [LuaSandboxRuntimeError](class.luasandboxruntimeerror.md) - Клас LuaSandboxRuntimeError
+    -   [LuaSandboxSyntaxError](class.luasandboxsyntaxerror.md) - Клас LuaSandboxSyntaxError
+    -   [LuaSandboxTimeoutError](class.luasandboxtimeouterror.md) - Клас LuaSandboxTimeoutError
+-   [Misc.](book.misc.md) - Різні функції
+    -   [Введение](intro.misc.md)
+    -   [Встановлення та налаштування](misc.setup.md)
+    -   [Обумовлені константи](misc.constants.md)
+    -   [Різні функції](ref.misc.md)
+    -   [Список изменений](changelog.misc.md)
+-   [Seaslog](book.seaslog.md)
+    -   [Введение](intro.seaslog.md)
+    -   [Встановлення та налаштування](seaslog.setup.md)
+    -   [Обумовлені константи](seaslog.constants.md)
+    -   [Приклади](seaslog.examples.md)
+    -   [Функции Seaslog](ref.seaslog.md)
+    -   [SeasLog](class.seaslog.md) - Клас SeasLog
+-   [SPL](book.spl.md) - Стандартна бібліотека PHP (SPL)
+    -   [Введение](intro.spl.md)
+    -   [Встановлення та налаштування](spl.setup.md)
+    -   [Обумовлені константи](spl.constants.md)
+    -   [Структури даних](spl.datastructures.md)
+    -   [Ітератори](spl.iterators.md)
+    -   [Інтерфейси](spl.interfaces.md)
+    -   [Исключения](spl.exceptions.md)
+    -   [Функції SPL](ref.spl.md)
+    -   [Обработка файлов](spl.files.md)
+    -   [Різні класи та інтерфейси](spl.misc.md)
+-   [Потоки](book.stream.md)
+    -   [Введение](intro.stream.md)
+    -   [Встановлення та налаштування](stream.setup.md)
+    -   [Обумовлені константи](stream.constants.md)
+    -   [Поточні фільтри](stream.filters.md)
+    -   [Контексти потоків](stream.contexts.md)
+    -   [Ошибки потока](stream.errors.md)
+    -   [Приклади](stream.examples.md)
     -   [phpuserfilter](class.php-user-filter.html) - Клас phpuserfilter
-    -   [streamWrapper](class.streamwrapper.html) - Клас streamWrapper
-    -   [Функції для роботи з потоками](ref.stream.html)
--   [Swoole](book.swoole.html)
-    -   [Введение](intro.swoole.html)
-    -   [Установка и настройка](swoole.setup.html)
-    -   [Предопределённые константы](swoole.constants.html)
+    -   [streamWrapper](class.streamwrapper.md) - Клас streamWrapper
+    -   [Функції для роботи з потоками](ref.stream.md)
+-   [Swoole](book.swoole.md)
+    -   [Введение](intro.swoole.md)
+    -   [Встановлення та налаштування](swoole.setup.md)
+    -   [Обумовлені константи](swoole.constants.md)
     -   [Функции Swoole](ref.swoole-funcs.html)
     -   [SwooleAsync](class.swoole-async.html) - Клас SwooleAsync
     -   [SwooleAtomic](class.swoole-atomic.html) - Клас SwooleAtomic
@@ -120,45 +120,45 @@
     -   [SwooleTimer](class.swoole-timer.html) - Клас SwooleTimer
     -   [SwooleWebSocketFrame](class.swoole-websocket-frame.html) - Клас SwooleWebSocketFrame
     -   [SwooleWebSocketServer](class.swoole-websocket-server.html) - Клас SwooleWebSocketServer
--   [Tidy](book.tidy.html)
-    -   [Введение](intro.tidy.html)
-    -   [Установка и настройка](tidy.setup.html)
-    -   [Предопределённые константы](tidy.constants.html)
-    -   [Примеры](tidy.examples.html)
-    -   [tidy](class.tidy.html) - Клас tidy
-    -   [tidyNode](class.tidynode.html) - Клас tidyNode
-    -   [Tidy](ref.tidy.html)
--   [Лексер (Tokenizer)](book.tokenizer.html)
-    -   [Введение](intro.tokenizer.html)
-    -   [Установка и настройка](tokenizer.setup.html)
-    -   [Предопределённые константы](tokenizer.constants.html)
-    -   [Примеры](tokenizer.examples.html)
-    -   [PhpToken](class.phptoken.html) - Клас PhpToken
-    -   [Функции PHP-лексера (tokenizer)](ref.tokenizer.html)
--   [URL](book.url.html)
-    -   [Введение](intro.url.html)
-    -   [Установка и настройка](url.setup.html)
-    -   [Предопределённые константы](url.constants.html)
-    -   [Функції URL](ref.url.html)
--   [V8js](book.v8js.html) - Інтеграція V8 Javascript Engine
-    -   [Введение](intro.v8js.html)
-    -   [Установка и настройка](v8js.setup.html)
-    -   [Примеры](v8js.examples.html)
-    -   [V8Js](class.v8js.html) - Клас V8Js
-    -   [V8JsException](class.v8jsexception.html) - Клас V8JsException
--   [Yaml](book.yaml.html) - Серіалізація даних YAML
-    -   [Введение](intro.yaml.html)
-    -   [Установка и настройка](yaml.setup.html)
-    -   [Предопределённые константы](yaml.constants.html)
-    -   [Примеры](yaml.examples.html)
-    -   [Callback-функции](yaml.callbacks.html)
-    -   [Функции Yaml](ref.yaml.html)
--   [Yaf](book.yaf.html) - Yet Another Framework
-    -   [Введение](intro.yaf.html)
-    -   [Установка и настройка](yaf.setup.html)
-    -   [Предопределённые константы](yaf.constants.html)
-    -   [Примеры](yaf.tutorials.html)
-    -   [Конфигурация приложения](yaf.appconfig.html)
+-   [Tidy](book.tidy.md)
+    -   [Введение](intro.tidy.md)
+    -   [Встановлення та налаштування](tidy.setup.md)
+    -   [Обумовлені константи](tidy.constants.md)
+    -   [Приклади](tidy.examples.md)
+    -   [tidy](class.tidy.md) - Клас tidy
+    -   [tidyNode](class.tidynode.md) - Клас tidyNode
+    -   [Tidy](ref.tidy.md)
+-   [Лексер (Tokenizer)](book.tokenizer.md)
+    -   [Введение](intro.tokenizer.md)
+    -   [Встановлення та налаштування](tokenizer.setup.md)
+    -   [Обумовлені константи](tokenizer.constants.md)
+    -   [Приклади](tokenizer.examples.md)
+    -   [PhpToken](class.phptoken.md) - Клас PhpToken
+    -   [Функции PHP-лексера (tokenizer)](ref.tokenizer.md)
+-   [URL](book.url.md)
+    -   [Введение](intro.url.md)
+    -   [Встановлення та налаштування](url.setup.md)
+    -   [Обумовлені константи](url.constants.md)
+    -   [Функції URL](ref.url.md)
+-   [V8js](book.v8js.md) - Інтеграція V8 Javascript Engine
+    -   [Введение](intro.v8js.md)
+    -   [Встановлення та налаштування](v8js.setup.md)
+    -   [Приклади](v8js.examples.md)
+    -   [V8Js](class.v8js.md) - Клас V8Js
+    -   [V8JsException](class.v8jsexception.md) - Клас V8JsException
+-   [Yaml](book.yaml.md) - Серіалізація даних YAML
+    -   [Введение](intro.yaml.md)
+    -   [Встановлення та налаштування](yaml.setup.md)
+    -   [Обумовлені константи](yaml.constants.md)
+    -   [Приклади](yaml.examples.md)
+    -   [Callback-функции](yaml.callbacks.md)
+    -   [Функции Yaml](ref.yaml.md)
+-   [Yaf](book.yaf.md) - Yet Another Framework
+    -   [Введение](intro.yaf.md)
+    -   [Встановлення та налаштування](yaf.setup.md)
+    -   [Обумовлені константи](yaf.constants.md)
+    -   [Приклади](yaf.tutorials.md)
+    -   [Конфигурация приложения](yaf.appconfig.md)
     -   [YafApplication](class.yaf-application.html) - Клас YafApplication
     -   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.html) - Клас YafBootstrapAbstract
     -   [YafDispatcher](class.yaf-dispatcher.html) - Клас YafDispatcher
@@ -195,21 +195,21 @@
     -   [YafExceptionLoadFailedController](class.yaf-exception-loadfailed-controller.html) - Клас YafExceptionLoadFailedController
     -   [YafExceptionLoadFailedAction](class.yaf-exception-loadfailed-action.html) - Клас YafExceptionLoadFailedAction
     -   [YafExceptionLoadFailedView](class.yaf-exception-loadfailed-view.html) - Клас YafExceptionLoadFailedView
--   [Yaconf](book.yaconf.html)
-    -   [Введение](intro.yaconf.html)
-    -   [Установка и настройка](yaconf.setup.html)
-    -   [Предопределённые константы](yaconf.constants.html)
-    -   [Yaconf](class.yaconf.html) - Клас Yaconf
--   [Taint](book.taint.html)
-    -   [Введение](intro.taint.html)
-    -   [Установка и настройка](taint.setup.html)
-    -   [Дополнительные подробности](taint.detail.html)
-    -   [Функции Taint](ref.taint.html)
--   [Структури даних](book.ds.html)
-    -   [Введение](intro.ds.html)
-    -   [Установка и настройка](ds.setup.html)
-    -   [Предопределённые константы](ds.constants.html)
-    -   [Примеры](ds.examples.html)
+-   [Yaconf](book.yaconf.md)
+    -   [Введение](intro.yaconf.md)
+    -   [Встановлення та налаштування](yaconf.setup.md)
+    -   [Обумовлені константи](yaconf.constants.md)
+    -   [Yaconf](class.yaconf.md) - Клас Yaconf
+-   [Taint](book.taint.md)
+    -   [Введение](intro.taint.md)
+    -   [Встановлення та налаштування](taint.setup.md)
+    -   [Додаткові подробиці](taint.detail.md)
+    -   [Функции Taint](ref.taint.md)
+-   [Структури даних](book.ds.md)
+    -   [Введение](intro.ds.md)
+    -   [Встановлення та налаштування](ds.setup.md)
+    -   [Обумовлені константи](ds.constants.md)
+    -   [Приклади](ds.examples.md)
     -   [Коллекция](class.ds-collection.html) - Інтерфейс Collection
     -   [Хешируемое](class.ds-hashable.html) - Інтерфейс Hashable
     -   [Послідовність](class.ds-sequence.html) - Інтерфейс Sequence
@@ -221,8 +221,8 @@
     -   [Стек](class.ds-stack.html) - Клас Stack
     -   [Черга](class.ds-queue.html) - Клас Queue
     -   [Черга з пріоритетом](class.ds-priorityqueue.html) - Клас PriorityQueue
--   [varrepresentation](book.var_representation.html)
-    -   [Введение](intro.var_representation.html)
-    -   [Установка и настройка](var-representation.setup.html)
-    -   [Предопределённые константы](var-representation.constants.html)
+-   [varrepresentation](book.var_representation.md)
+    -   [Введение](intro.var_representation.md)
+    -   [Встановлення та налаштування](var-representation.setup.html)
+    -   [Обумовлені константи](var-representation.constants.html)
     -   [Функции varrepresentation](ref.var-representation.html)

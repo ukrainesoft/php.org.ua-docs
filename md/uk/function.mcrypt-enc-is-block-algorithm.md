@@ -4,9 +4,9 @@
     
 -   [mcryptencісblockmode »](function.mcrypt-enc-is-block-mode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](ref.mcrypt.html)
+-   [Mcrypt](ref.mcrypt.md)
     
 -   Перевіряє, чи використовує алгоритм блокові режими
     

@@ -4,9 +4,9 @@
     
 -   [pcntlfork »](function.pcntl-fork.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.md)
     
 -   Запустити вказану програму в області поточного процесу
     

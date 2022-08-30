@@ -1,12 +1,12 @@
 Запускає підготовлений запит на виконання
 
--   [« PDOStatement::errorInfo](pdostatement.errorinfo.html)
+-   [« PDOStatement::errorInfo](pdostatement.errorinfo.md)
     
--   [PDOStatement::fetch »](pdostatement.fetch.html)
+-   [PDOStatement::fetch »](pdostatement.fetch.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDOStatement](class.pdostatement.html)
+-   [PDOStatement](class.pdostatement.md)
     
 -   Запускає підготовлений запит на виконання
     
@@ -25,7 +25,7 @@ public PDOStatement::execute(?array $params = null): bool
 
 Запускає [підготовлений запит](pdo.prepared-statements.html). Якщо запит містить маркери параметрів (псевдозмінні), ви повинні:
 
--   викликати [PDOStatement::bindParam()](pdostatement.bindparam.html) та/або [PDOStatement::bindValue()](pdostatement.bindvalue.html), щоб зв'язати ці маркери, відповідно, зі змінними чи значеннями. Пов'язані змінні передають свої значення як вхідні дані та отримують вихідні значення
+-   викликати [PDOStatement::bindParam()](pdostatement.bindparam.md) та/або [PDOStatement::bindValue()](pdostatement.bindvalue.md), щоб зв'язати ці маркери, відповідно, зі змінними чи значеннями. Пов'язані змінні передають свої значення як вхідні дані та отримують вихідні значення
     
 -   або передати масив значень лише на вхід
     
@@ -38,7 +38,7 @@ public PDOStatement::execute(?array $params = null): bool
 
 Не можна прив'язати кілька значень одного параметра; наприклад, не можна прив'язати два значення до іменованого параметра у виразі IN().
 
-Не можна прив'язати більше значень, ніж заявлено у запиті; якщо в масиві `params` більше елементів, ніж заявлено у SQL-запиті методом [PDO::prepare()](pdo.prepare.html), виконання запиту завершиться невдачею та буде викликана помилка.
+Не можна прив'язати більше значень, ніж заявлено у запиті; якщо в масиві `params` більше елементів, ніж заявлено у SQL-запиті методом [PDO::prepare()](pdo.prepare.md), виконання запиту завершиться невдачею та буде викликана помилка.
 
 ### Значення, що повертаються
 
@@ -67,14 +67,14 @@ $sth->execute();
 
 ```php
 <?php
-/* Выполнение подготовленного запроса с передачей массива входных значений */
+/* Выполнение подготовленного запроса с передачей Масива входных значений */
 $calories = 150;
 $colour = 'red';
 $sth = $dbh->prepare('SELECT name, colour, calories
     FROM fruit
     WHERE calories < :calories AND colour = :colour');
 $sth->execute(array('calories' => $calories, 'colour' => $colour));
-/* Ключи массива также могут начинаться с двоеточия ":" (необязательно) */
+/* Ключи Масива также могут начинаться с двоеточия ":" (необязательно) */
 $sth->execute(array(':calories' => $calories, ':colour' => $colour));
 ?>
 ```
@@ -83,7 +83,7 @@ $sth->execute(array(':calories' => $calories, ':colour' => $colour));
 
 ```php
 <?php
-/* Выполнение подготовленного запроса с передачей массива входных значений */
+/* Выполнение подготовленного запроса с передачей Масива входных значений */
 $calories = 150;
 $colour = 'red';
 $sth = $dbh->prepare('SELECT name, colour, calories
@@ -113,15 +113,15 @@ $sth->execute();
 
 ```php
 <?php
-/* Выполнение подготовленного запроса с использованием массива для выражения IN */
+/* Выполнение подготовленного запроса с использованием Масива для выражения IN */
 $params = array(1, 21, 63, 171);
 /* Создаём строку из знаков вопроса (?) в количестве, равном количеству параметров */
 $place_holders = implode(',', array_fill(0, count($params), '?'));
 
 /*
     В этом примере подготавливается запрос с достаточным количеством неименованных
-    псевдопеременных (?) для каждого значения из массива $params. Когда запрос будет
-    выполняться, эти знаки вопроса будут заменены на элементы массива. Это не то же
+    псевдопеременных (?) для каждого значения из Масива $params. Когда запрос будет
+    выполняться, эти знаки вопроса будут заменены на элементы Масива. Это не то же
     самое, что использовать PDOStatement::bindParam(), где привязка осуществляется по
     ссылке на переменную. PDOStatement::execute() связывает параметры по значению.
 */
@@ -134,12 +134,12 @@ $sth->execute($params);
 
 > **Зауваження**
 > 
-> Для деяких драйверів потрібно [закривати курсор](pdostatement.closecursor.html), перш ніж виконувати наступний запит.
+> Для деяких драйверів потрібно [закривати курсор](pdostatement.closecursor.md), перш ніж виконувати наступний запит.
 
 ### Дивіться також
 
--   [PDO::prepare()](pdo.prepare.html) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
--   [PDOStatement::bindParam()](pdostatement.bindparam.html) - Прив'язує параметр запиту до змінної
--   [PDOStatement::fetch()](pdostatement.fetch.html) - Вилучення наступного рядка з результуючого набору
--   [PDOStatement::fetchAll()](pdostatement.fetchall.html) - Вибирає рядки, що залишилися, з набору результатів
--   [PDOStatement::fetchColumn()](pdostatement.fetchcolumn.html) - Повертає дані одного стовпця наступного рядка результуючого набору
+-   [PDO::prepare()](pdo.prepare.md) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
+-   [PDOStatement::bindParam()](pdostatement.bindparam.md) - Прив'язує параметр запиту до змінної
+-   [PDOStatement::fetch()](pdostatement.fetch.md) - Вилучення наступного рядка з результуючого набору
+-   [PDOStatement::fetchAll()](pdostatement.fetchall.md) - Вибирає рядки, що залишилися, з набору результатів
+-   [PDOStatement::fetchColumn()](pdostatement.fetchcolumn.md) - Повертає дані одного стовпця наступного рядка результуючого набору

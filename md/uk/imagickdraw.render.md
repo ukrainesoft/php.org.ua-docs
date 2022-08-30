@@ -1,12 +1,12 @@
 Малює всі попередні команди малювання на зображенні
 
--   [« ImagickDraw::rectangle](imagickdraw.rectangle.html)
+-   [« ImagickDraw::rectangle](imagickdraw.rectangle.md)
     
--   [ImagickDraw::resetVectorGraphics »](imagickdraw.resetvectorgraphics.html)
+-   [ImagickDraw::resetVectorGraphics »](imagickdraw.resetvectorgraphics.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Малює всі попередні команди малювання на зображенні
     

@@ -1,12 +1,12 @@
 Клас DOMXPath
 
--   [« DOMText::splitText](domtext.splittext.html)
+-   [« DOMText::splitText](domtext.splittext.md)
     
--   [DOMXPath::construct »](domxpath.construct.html)
+-   [DOMXPath::construct »](domxpath.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOM](book.dom.html)
+-   [DOM](book.dom.md)
     
 -   Клас DOMXPath
     
@@ -67,14 +67,14 @@ registerNodeNamespaces
 
 ## список змін
 
-| Версия | Описание                                   |
-|--------|--------------------------------------------|
-|        | Додано властивість registerNodeNamespaces. |
+| Версия | Описание |
+| --- | --- |
+|  | Додано властивість registerNodeNamespaces. |
 
 ## Зміст
 
--   [DOMXPath::construct](domxpath.construct.html) — Створює новий об'єкт класу DOMXPath
--   [DOMXPath::evaluate](domxpath.evaluate.html) — Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо
--   [DOMXPath::query](domxpath.query.html) — Виконує заданий вираз XPath
--   [DOMXPath::registerNamespace](domxpath.registernamespace.html) — Реєструє простір імен з об'єктом DOMXPath
--   [DOMXPath::registerPhpFunctions](domxpath.registerphpfunctions.html) - Реєстрація PHP-функцій як функцій XPath
+-   [DOMXPath::construct](domxpath.construct.md) — Створює новий об'єкт класу DOMXPath
+-   [DOMXPath::evaluate](domxpath.evaluate.md) — Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо
+-   [DOMXPath::query](domxpath.query.md) — Виконує заданий вираз XPath
+-   [DOMXPath::registerNamespace](domxpath.registernamespace.md) — Реєструє простір імен з об'єктом DOMXPath
+-   [DOMXPath::registerPhpFunctions](domxpath.registerphpfunctions.md) - Реєстрація PHP-функцій як функцій XPath

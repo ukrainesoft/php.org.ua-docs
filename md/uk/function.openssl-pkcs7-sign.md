@@ -37,11 +37,11 @@ openssl_pkcs7_sign(    string $input_filename,    string $output_filenam
 
 `certificate`
 
-Сертифікат X.509, який буде використаний для підпису `input_filename`. Дивіться [параметры ключа/сертификата](openssl.certparams.html)
+Сертифікат X.509, який буде використаний для підпису `input_filename`. Дивіться [параметри ключа/сертифіката](openssl.certparams.html)
 
 `private_key`
 
-`private_key` задається секретним ключем, що відповідає сертифікату (`certificate`). Дивіться [параметры открытого/секретного ключа](openssl.certparams.html)
+`private_key` задається секретним ключем, що відповідає сертифікату (`certificate`). Дивіться [параметри відкритого/секретного ключа](openssl.certparams.html)
 
 `headers`
 
@@ -49,7 +49,7 @@ openssl_pkcs7_sign(    string $input_filename,    string $output_filenam
 
 `flags`
 
-`flags` використовується для налаштування виводу. Дивіться [константы PKCS7](openssl.pkcs7.flags.html)
+`flags` використовується для налаштування виводу. Дивіться [константи PKCS7](openssl.pkcs7.flags.html)
 
 `untrusted_certificates_filename`
 
@@ -61,10 +61,10 @@ openssl_pkcs7_sign(    string $input_filename,    string $output_filenam
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                            |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR`                                                                              |
-|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` ор `OpenSSL X.509 CSR` |
+| Версия | Описание |
+| --- | --- |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` ор `OpenSSL X.509 CSR` |
 
 ### Приклади
 

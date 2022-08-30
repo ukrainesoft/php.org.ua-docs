@@ -2,11 +2,11 @@
 
 -   [« scoutapmgetcalls](function.scoutapm-get-calls.html)
     
--   [SNMP »](book.snmp.html)
+-   [SNMP »](book.snmp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Scoutapm](ref.scoutapm.html)
+-   [Функции Scoutapm](ref.scoutapm.md)
     
 -   Список функцій, які scoutapm буде використовувати
     

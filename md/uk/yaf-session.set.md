@@ -4,7 +4,7 @@
     
 -   [YafSession::start »](yaf-session.start.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafSession](class.yaf-session.html)
     

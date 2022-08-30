@@ -4,9 +4,9 @@
     
 -   [ibaserollback »](function.ibase-rollback.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Firebird/InterBase](ref.ibase.html)
+-   [Функции Firebird/InterBase](ref.ibase.md)
     
 -   Відкочує транзакцію, не закриваючи її
     

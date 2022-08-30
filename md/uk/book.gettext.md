@@ -2,31 +2,31 @@ Gettext
 
 -   [« GenderGender::similarNames](gender-gender.similarnames.html)
     
--   [Введение »](intro.gettext.html)
+-   [Введение »](intro.gettext.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Підтримка мов та кодувань](refs.international.html)
+-   [Підтримка мов та кодувань](refs.international.md)
     
 -   Gettext
     
 
 # Gettext
 
--   [Введение](intro.gettext.html)
--   [Установка и настройка](gettext.setup.html)
-    -   [Требования](gettext.requirements.html)
-    -   [Установка](gettext.installation.html)
-    -   [Настройка во время выполнения](gettext.configuration.html)
-    -   [Типы ресурсов](gettext.resources.html)
--   [Предопределённые константы](gettext.constants.html)
--   [Функции gettext](ref.gettext.html)
+-   [Введение](intro.gettext.md)
+-   [Встановлення та налаштування](gettext.setup.md)
+    -   [Вимоги](gettext.requirements.md)
+    -   [Установка](gettext.installation.md)
+    -   [Налаштування під час виконання](gettext.configuration.md)
+    -   [Типи ресурсів](gettext.resources.md)
+-   [Обумовлені константи](gettext.constants.md)
+-   [Функции gettext](ref.gettext.md)
     -   [bindtextdomaincodeset](function.bind-textdomain-codeset.html) — Встановлює або отримує кодування, де повертатимуться повідомлення з каталогу повідомлень домену
-    -   [bindtextdomain](function.bindtextdomain.html) — Встановлює або отримує шлях для домену
-    -   [dcgettext](function.dcgettext.html) — Перевизначає одне повідомлення в домені
-    -   [dcngettext](function.dcngettext.html) — Версія dcgettext для множини
-    -   [dgettext](function.dgettext.html) — Перевизначення поточного домену для одного повідомлення
-    -   [dngettext](function.dngettext.html) — Версія dgettext для множини
-    -   [gettext](function.gettext.html) — Шукає повідомлення у поточному домені
-    -   [ngettext](function.ngettext.html) — Версія gettext для повідомлень у множині
-    -   [textdomain](function.textdomain.html) — Встановлює домен за замовчуванням
+    -   [bindtextdomain](function.bindtextdomain.md) — Встановлює або отримує шлях для домену
+    -   [dcgettext](function.dcgettext.md) — Перевизначає одне повідомлення в домені
+    -   [dcngettext](function.dcngettext.md) — Версія dcgettext для множини
+    -   [dgettext](function.dgettext.md) — Перевизначення поточного домену для одного повідомлення
+    -   [dngettext](function.dngettext.md) — Версія dgettext для множини
+    -   [gettext](function.gettext.md) — Шукає повідомлення у поточному домені
+    -   [ngettext](function.ngettext.md) — Версія gettext для повідомлень у множині
+    -   [textdomain](function.textdomain.md) — Встановлює домен за замовчуванням

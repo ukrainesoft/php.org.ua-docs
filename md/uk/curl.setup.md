@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.curl.html)
     
--   [Требования »](curl.requirements.html)
+-   [Вимоги »](curl.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](curl.requirements.html)
+-   [Вимоги](curl.requirements.html)
 -   [Установка](curl.installation.html)
--   [Настройка во время выполнения](curl.configuration.html)
--   [Типы ресурсов](curl.resources.html)
+-   [Налаштування під час виконання](curl.configuration.html)
+-   [Типи ресурсів](curl.resources.html)

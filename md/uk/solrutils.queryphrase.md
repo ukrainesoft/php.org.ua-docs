@@ -1,12 +1,12 @@
 Підготовка фрази з неекранованого рядка запиту Lucene
 
--   [« SolrUtils::getSolrVersion](solrutils.getsolrversion.html)
+-   [« SolrUtils::getSolrVersion](solrutils.getsolrversion.md)
     
--   [SolrInputDocument »](class.solrinputdocument.html)
+-   [SolrInputDocument »](class.solrinputdocument.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrUtils](class.solrutils.html)
+-   [SolrUtils](class.solrutils.md)
     
 -   Підготовка фрази з неекранованого рядка запиту Lucene
     

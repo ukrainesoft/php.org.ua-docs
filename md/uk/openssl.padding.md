@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Предопределённые константы](openssl.constants.html)
+-   [Обумовлені константи](openssl.constants.html)
     
 -   Прапори заповнення для асиметричного шифрування
     

@@ -1,12 +1,12 @@
 Повертає масив параметрів, не в URL-закодованому вигляді
 
--   [« SolrParams::getParam](solrparams.getparam.html)
+-   [« SolrParams::getParam](solrparams.getparam.md)
     
--   [SolrParams::getPreparedParams »](solrparams.getpreparedparams.html)
+-   [SolrParams::getPreparedParams »](solrparams.getpreparedparams.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrParams](class.solrparams.html)
+-   [SolrParams](class.solrparams.md)
     
 -   Повертає масив параметрів, не в URL-закодованому вигляді
     

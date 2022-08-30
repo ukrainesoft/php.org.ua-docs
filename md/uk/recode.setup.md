@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.recode.html)
     
--   [Требования »](recode.requirements.html)
+-   [Вимоги »](recode.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](recode.requirements.html)
+-   [Вимоги](recode.requirements.html)
 -   [Установка](recode.installation.html)
--   [Настройка во время выполнения](recode.configuration.html)
--   [Типы ресурсов](recode.resources.html)
+-   [Налаштування під час виконання](recode.configuration.html)
+-   [Типи ресурсів](recode.resources.html)

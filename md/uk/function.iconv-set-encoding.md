@@ -4,9 +4,9 @@
     
 -   [iconvstrlen »](function.iconv-strlen.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции iconv](ref.iconv.html)
+-   [Функции iconv](ref.iconv.md)
     
 -   Встановлює поточні налаштування для перетворення символів кодування
     

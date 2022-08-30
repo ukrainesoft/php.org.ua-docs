@@ -1,12 +1,12 @@
 Вийняти сімейство шрифтів
 
--   [« Функции UI](ref.ui.html)
+-   [« Функции UI](ref.ui.md)
     
 -   [ОЙquit »](function.ui-quit.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции UI](ref.ui.html)
+-   [Функции UI](ref.ui.md)
     
 -   Вийняти сімейство шрифтів
     

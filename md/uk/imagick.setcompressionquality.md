@@ -1,12 +1,12 @@
 Встановлює якість стандартного стиснення об'єкта
 
--   [« Imagick::setCompression](imagick.setcompression.html)
+-   [« Imagick::setCompression](imagick.setcompression.md)
     
--   [Imagick::setFilename »](imagick.setfilename.html)
+-   [Imagick::setFilename »](imagick.setfilename.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює якість стандартного стиснення об'єкта
     
@@ -27,7 +27,7 @@ public Imagick::setCompressionQuality(int $quality): bool
 
 **Застереження**
 
-Цей метод працює тільки для нових зображень, наприклад, створених за допомогою Imagick::newPseudoImage. Для існуючих зображень слід використовувати [Imagick::setImageCompressionQuality()](imagick.setimagecompressionquality.html)
+Цей метод працює тільки для нових зображень, наприклад, створених за допомогою Imagick::newPseudoImage. Для існуючих зображень слід використовувати [Imagick::setImageCompressionQuality()](imagick.setimagecompressionquality.md)
 
 ### Список параметрів
 

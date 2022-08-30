@@ -6,7 +6,7 @@ Reflection
     
 -   [PHP Manual](index.html)
     
--   [Модули, относящиеся к переменным и типам](refs.basic.vartype.html)
+-   [Модулі, що відносяться до змінних та типів](refs.basic.vartype.html)
     
 -   Reflection
     
@@ -14,13 +14,13 @@ Reflection
 # Reflection
 
 -   [Введение](intro.reflection.html)
--   [Установка и настройка](reflection.setup.html)
-    -   [Требования](reflection.requirements.html)
+-   [Встановлення та налаштування](reflection.setup.html)
+    -   [Вимоги](reflection.requirements.html)
     -   [Установка](reflection.installation.html)
-    -   [Настройка во время выполнения](reflection.configuration.html)
-    -   [Типы ресурсов](reflection.resources.html)
--   [Предопределённые константы](reflection.constants.html)
--   [Примеры](reflection.examples.html)
+    -   [Налаштування під час виконання](reflection.configuration.html)
+    -   [Типи ресурсів](reflection.resources.html)
+-   [Обумовлені константи](reflection.constants.html)
+-   [Приклади](reflection.examples.html)
 -   [Расширение](reflection.extending.html)
 -   [Reflection](class.reflection.html) - Клас Reflection
     -   [Reflection::export](reflection.export.html) - Експортує Reflection

@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](recode.installation.html)
+-   [« Установка](recode.installation.md)
     
--   [Типы ресурсов »](recode.resources.html)
+-   [Типи ресурсів »](recode.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](recode.setup.html)
+-   [Встановлення та налаштування](recode.setup.md)
     
 -   Налаштування під час виконання
     

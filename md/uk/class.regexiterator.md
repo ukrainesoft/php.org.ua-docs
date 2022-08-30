@@ -1,12 +1,12 @@
 Клас RegexIterator
 
--   [« RecursiveTreeIterator::valid](recursivetreeiterator.valid.html)
+-   [« RecursiveTreeIterator::valid](recursivetreeiterator.valid.md)
     
--   [RegexIterator::accept »](regexiterator.accept.html)
+-   [RegexIterator::accept »](regexiterator.accept.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Ітератори](spl.iterators.html)
+-   [Ітератори](spl.iterators.md)
     
 -   Клас RegexIterator
     
@@ -139,12 +139,12 @@ replacement
 
 ## Зміст
 
--   [RegexIterator::accept](regexiterator.accept.html) - Перевірка відповідності регулярному виразу
--   [RegexIterator::construct](regexiterator.construct.html) - Конструктор класу RegexIterator
--   [RegexIterator::getFlags](regexiterator.getflags.html) — Отримання прапорів налаштування
--   [RegexIterator::getMode](regexiterator.getmode.html) — Повертає режим роботи
--   [RegexIterator::getPregFlags](regexiterator.getpregflags.html) — Повертає прапори регулярного вираження
--   [RegexIterator::getRegex](regexiterator.getregex.html) — Повертає рядок поточного регулярного виразу
--   [RegexIterator::setFlags](regexiterator.setflags.html) - Установка прапорів
--   [RegexIterator::setMode](regexiterator.setmode.html) — Встановлення режиму роботи
--   [RegexIterator::setPregFlags](regexiterator.setpregflags.html) - Завдання прапорів регулярного вираження
+-   [RegexIterator::accept](regexiterator.accept.md) - Перевірка відповідності регулярному виразу
+-   [RegexIterator::construct](regexiterator.construct.md) - Конструктор класу RegexIterator
+-   [RegexIterator::getFlags](regexiterator.getflags.md) — Отримання прапорів налаштування
+-   [RegexIterator::getMode](regexiterator.getmode.md) — Повертає режим роботи
+-   [RegexIterator::getPregFlags](regexiterator.getpregflags.md) — Повертає прапори регулярного вираження
+-   [RegexIterator::getRegex](regexiterator.getregex.md) — Повертає рядок поточного регулярного виразу
+-   [RegexIterator::setFlags](regexiterator.setflags.md) - Установка прапорів
+-   [RegexIterator::setMode](regexiterator.setmode.md) — Встановлення режиму роботи
+-   [RegexIterator::setPregFlags](regexiterator.setpregflags.md) - Завдання прапорів регулярного вираження

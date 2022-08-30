@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](inotify.configuration.html)
+-   [« Налаштування під час виконання](inotify.configuration.md)
     
--   [Предопределённые константы »](inotify.constants.html)
+-   [Обумовлені константи »](inotify.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](inotify.setup.html)
+-   [Встановлення та налаштування](inotify.setup.md)
     
 -   Типи ресурсів
     

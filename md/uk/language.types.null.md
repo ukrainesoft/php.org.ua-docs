@@ -2,11 +2,11 @@ NULL
 
 -   [« Ресурс](language.types.resource.html)
     
--   [Функции обратного вызова (callback-функции) »](language.types.callable.html)
+-   [Функції зворотного дзвінка (callback-функції) »](language.types.callable.html)
     
 -   [PHP Manual](index.html)
     
--   [Типы](language.types.html)
+-   [Типи](language.types.html)
     
 -   NULL
     

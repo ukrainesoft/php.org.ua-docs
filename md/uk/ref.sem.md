@@ -1,12 +1,12 @@
 Функції семафорів
 
--   [« Предопределённые константы](sem.constants.html)
+-   [« Обумовлені константи](sem.constants.md)
     
--   [ftok »](function.ftok.html)
+-   [ftok »](function.ftok.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Семафоры](book.sem.html)
+-   [Семафори](book.sem.md)
     
 -   Функції семафорів
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [ftok](function.ftok.html) — Перетворення шляху та ідентифікатора проекту на ключ System V IPC
+-   [ftok](function.ftok.md) — Перетворення шляху та ідентифікатора проекту на ключ System V IPC
 -   [msggetqueue](function.msg-get-queue.html) — Створення або підключення до черги повідомлень
 -   [msgqueueexists](function.msg-queue-exists.html) — Перевірка існування черги повідомлень
 -   [msgreceive](function.msg-receive.html) — Отримання повідомлення з черги повідомлень

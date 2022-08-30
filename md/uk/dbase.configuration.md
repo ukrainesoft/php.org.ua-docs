@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](dbase.installation.html)
+-   [« Установка](dbase.installation.md)
     
--   [Типы ресурсов »](dbase.resources.html)
+-   [Типи ресурсів »](dbase.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](dbase.setup.html)
+-   [Встановлення та налаштування](dbase.setup.md)
     
 -   Налаштування під час виконання
     

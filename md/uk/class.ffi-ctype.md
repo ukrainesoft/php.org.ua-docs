@@ -4,9 +4,9 @@
     
 -   [FFICType::getAlignment »](ffi-ctype.getalignment.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FFI](book.ffi.html)
+-   [FFI](book.ffi.md)
     
 -   Доступ до типів C
     

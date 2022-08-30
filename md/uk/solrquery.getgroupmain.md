@@ -1,12 +1,12 @@
 Повертає значення group.main
 
--   [« SolrQuery::getGroupLimit](solrquery.getgrouplimit.html)
+-   [« SolrQuery::getGroupLimit](solrquery.getgrouplimit.md)
     
--   [SolrQuery::getGroupNGroups »](solrquery.getgroupngroups.html)
+-   [SolrQuery::getGroupNGroups »](solrquery.getgroupngroups.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає значення group.main
     
@@ -33,4 +33,4 @@ public SolrQuery::getGroupMain(): bool
 
 ### Дивіться також
 
--   [SolrQuery::setGroupMain()](solrquery.setgroupmain.html) - Якщо true, результат першої команди угруповання полів використовується як основний список результатів у відповіді з використанням group.format=simple
+-   [SolrQuery::setGroupMain()](solrquery.setgroupmain.md) - Якщо true, результат першої команди угруповання полів використовується як основний список результатів у відповіді з використанням group.format=simple

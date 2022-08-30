@@ -1,12 +1,12 @@
 Виконання
 
--   [« parallelbootstrap](parallel.bootstrap.html)
+-   [« parallelbootstrap](parallel.bootstrap.md)
     
 -   [parallelRuntime »](class.parallel-runtime.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функциональный API](functional.parallel.html)
+-   [Функціональний API](functional.parallel.md)
     
 -   Виконання
     
@@ -41,7 +41,7 @@ parallel\run(Closure $task, array $argv): ?Future
 
 `task`
 
-Замикання ([Closure](class.closure.html)) зі специфічними характеристиками.
+Замикання ([Closure](class.closure.md)) зі специфічними характеристиками.
 
 `argv`
 

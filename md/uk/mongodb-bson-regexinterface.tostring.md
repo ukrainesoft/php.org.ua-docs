@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONTimestampInterface »](class.mongodb-bson-timestampinterface.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONRegexInterface](class.mongodb-bson-regexinterface.html)
     

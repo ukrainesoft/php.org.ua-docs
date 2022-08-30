@@ -1,12 +1,12 @@
 Повернення поточного елемента
 
--   [« Iterator](class.iterator.html)
+-   [« Iterator](class.iterator.md)
     
--   [Iterator::key »](iterator.key.html)
+-   [Iterator::key »](iterator.key.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Iterator](class.iterator.html)
+-   [Iterator](class.iterator.md)
     
 -   Повернення поточного елемента
     

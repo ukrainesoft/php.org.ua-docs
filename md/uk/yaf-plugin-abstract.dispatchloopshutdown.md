@@ -4,7 +4,7 @@
     
 -   [YafPluginAbstract::dispatchLoopStartup »](yaf-plugin-abstract.dispatchloopstartup.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafPluginAbstract](class.yaf-plugin-abstract.html)
     

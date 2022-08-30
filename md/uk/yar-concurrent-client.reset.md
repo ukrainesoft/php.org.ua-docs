@@ -4,7 +4,7 @@
     
 -   [YarServerException »](class.yar-server-exception.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YarConcurrentClient](class.yar-concurrent-client.html)
     

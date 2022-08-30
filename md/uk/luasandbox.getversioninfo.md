@@ -1,12 +1,12 @@
 Повертає версії LuaSandbox та Lua
 
--   [« LuaSandbox::getProfilerFunctionReport](luasandbox.getprofilerfunctionreport.html)
+-   [« LuaSandbox::getProfilerFunctionReport](luasandbox.getprofilerfunctionreport.md)
     
--   [LuaSandbox::loadBinary »](luasandbox.loadbinary.html)
+-   [LuaSandbox::loadBinary »](luasandbox.loadbinary.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LuaSandbox](class.luasandbox.html)
+-   [LuaSandbox](class.luasandbox.md)
     
 -   Повертає версії LuaSandbox та Lua
     
@@ -33,7 +33,7 @@ public static LuaSandbox::getVersionInfo(): array
 
 Повертає масив із двома ключами:
 
-| element    | type   | description                                                                       |
-|------------|--------|-----------------------------------------------------------------------------------|
-| LuaSandbox | string | Версія модуля LuaSandbox.                                                         |
-| Lua        | string | Ім'я та версія бібліотеки, визначені макросом LUARELEASE, наприклад, "Lua 5.1.5". |
+| element | type | description |
+| --- | --- | --- |
+| LuaSandbox | string | Версія модуля LuaSandbox. |
+| Lua | string | Ім'я та версія бібліотеки, визначені макросом LUARELEASE, наприклад, "Lua 5.1.5". |

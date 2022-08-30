@@ -4,9 +4,9 @@
     
 -   [wincacherplistfileinfo »](function.wincache-rplist-fileinfo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции WinCache](ref.wincache.html)
+-   [Функции WinCache](ref.wincache.md)
     
 -   Оновлює записи кешу для закешованих файлів
     

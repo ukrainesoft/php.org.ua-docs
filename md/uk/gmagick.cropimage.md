@@ -1,12 +1,12 @@
 Обрізає зображення
 
--   [« Gmagick::construct](gmagick.construct.html)
+-   [« Gmagick::construct](gmagick.construct.md)
     
--   [Gmagick::cropthumbnailimage »](gmagick.cropthumbnailimage.html)
+-   [Gmagick::cropthumbnailimage »](gmagick.cropthumbnailimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Обрізає зображення
     
@@ -51,7 +51,7 @@ Y координата лівого верхнього кута області, 
 
 ### Значення, що повертаються
 
-Обрізаний об'єкт [Gmagick](class.gmagick.html)
+Обрізаний об'єкт [Gmagick](class.gmagick.md)
 
 ### Помилки
 

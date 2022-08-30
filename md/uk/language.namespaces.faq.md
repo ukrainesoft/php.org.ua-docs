@@ -1,12 +1,12 @@
 Часті питання (FAQ): речі, які вам необхідно знати про простори імен
 
--   [« Правила разрешения имён](language.namespaces.rules.html)
+-   [« Правила разрешения имён](language.namespaces.rules.md)
     
--   [Перечисления »](language.enumerations.html)
+-   [Перечисления »](language.enumerations.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Пространства имён](language.namespaces.html)
+-   [Пространства имён](language.namespaces.md)
     
 -   Часті питання (FAQ): речі, які вам необхідно знати про простори імен
     
@@ -25,7 +25,7 @@
 4.  [Как такое имя как`\my\name`или`\name`преобразуется?](language.namespaces.faq.html#language.namespaces.faq.full)
 5.  [Как такое имя, как`my\name`преобразуется?](language.namespaces.faq.html#language.namespaces.faq.qualified)
 6.  [Как неполное имя класса такое как`name`преобразуется?](language.namespaces.faq.html#language.namespaces.faq.shortname1)
-7.  [Как неполное имя функции или неполное имя константы такое как`name`преобразуется?](language.namespaces.faq.html#language.namespaces.faq.shortname2)
+7.  [Як неповне ім'я функції або неповне ім'я константи таке як`name`преобразуется?](language.namespaces.faq.html#language.namespaces.faq.shortname2)
 
 Деякі деталі реалізації просторів імен, які корисно розуміти.
 

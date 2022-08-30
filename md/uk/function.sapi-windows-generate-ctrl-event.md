@@ -4,9 +4,9 @@
     
 -   [sapiwindowssetctrlhandler »](function.sapi-windows-set-ctrl-handler.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Різні функції](ref.misc.html)
+-   [Різні функції](ref.misc.md)
     
 -   Надіслати подію CTRL іншому процесу
     

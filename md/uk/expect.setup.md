@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.expect.html)
+-   [« Введение](intro.expect.md)
     
--   [Требования »](expect.requirements.html)
+-   [Вимоги »](expect.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Expect](book.expect.html)
+-   [Expect](book.expect.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](expect.requirements.html)
--   [Установка](expect.installation.html)
--   [Настройка во время выполнения](expect.configuration.html)
--   [Типы ресурсов](expect.resources.html)
+-   [Вимоги](expect.requirements.md)
+-   [Установка](expect.installation.md)
+-   [Налаштування під час виконання](expect.configuration.md)
+-   [Типи ресурсів](expect.resources.md)

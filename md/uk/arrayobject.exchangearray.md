@@ -1,12 +1,12 @@
 Замінити масив на інший
 
--   [« ArrayObject::count](arrayobject.count.html)
+-   [« ArrayObject::count](arrayobject.count.md)
     
--   [ArrayObject::getArrayCopy »](arrayobject.getarraycopy.html)
+-   [ArrayObject::getArrayCopy »](arrayobject.getarraycopy.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayObject](class.arrayobject.html)
+-   [ArrayObject](class.arrayobject.md)
     
 -   Замінити масив на інший
     
@@ -41,9 +41,9 @@ public ArrayObject::exchangeArray(array|object $array): array
 
 ```php
 <?php
-// Массив с количеством фруктов
+// Масив с количеством фруктов
 $fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
-// Массив мест в Европе
+// Масив мест в Европе
 $locations = array('Amsterdam', 'Paris', 'London');
 
 $fruitsArrayObject = new ArrayObject($fruits);

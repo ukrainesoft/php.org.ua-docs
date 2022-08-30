@@ -2,11 +2,11 @@
 
 -   [« Обработчик сессий WinCache](wincache.sessionhandler.html)
     
--   [Типы ресурсов »](wincache.resources.html)
+-   [Типи ресурсів »](wincache.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](wincache.setup.html)
+-   [Встановлення та налаштування](wincache.setup.html)
     
 -   Перенаправлення функцій WinCache
     

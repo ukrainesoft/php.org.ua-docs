@@ -4,9 +4,9 @@
     
 -   [odbcfieldlen »](function.odbc-field-len.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции ODBC](ref.uodbc.html)
+-   [Функции ODBC](ref.uodbc.md)
     
 -   Повертає рядок
     
@@ -43,6 +43,6 @@ odbc_fetch_row(resource $statement, ?int $row = null): bool
 
 ### список змін
 
-| Версия | Описание                            |
-|--------|-------------------------------------|
-|        | `row` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `row` тепер допускає значення null. |

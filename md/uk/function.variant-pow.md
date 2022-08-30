@@ -4,9 +4,9 @@
     
 -   [variantround »](function.variant-round.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции COM](ref.com.html)
+-   [Функции COM](ref.com.md)
     
 -   Зводить один варіант у ступінь, заданий у другому
     
@@ -37,7 +37,7 @@ variant_pow(mixed $left, mixed $right): variant
 
 > **Зауваження**
 > 
-> Як і з усіма варіантними арифметичними функціями, параметри цієї функції можуть бути як рідними типами PHP (integer, string, floating point, boolean або **`null`**), і екземплярами класів COM, VARIANT чи DOTNET. Рідні PHP типи будуть перетворені на варіанти (variants) за тими самими правилами, що і в конструкторі класу [variant](class.variant.html). У об'єктів COM і DOTNET буде взято та використано їх значення за умовчанням як значення варіанта.
+> Як і з усіма варіантними арифметичними функціями, параметри цієї функції можуть бути як рідними типами PHP (integer, string, floating point, boolean або **`null`**), і екземплярами класів COM, VARIANT чи DOTNET. Рідні PHP типи будуть перетворені на варіанти (variants) за тими самими правилами, що і в конструкторі класу [variant](class.variant.md). У об'єктів COM і DOTNET буде взято та використано їх значення за умовчанням як значення варіанта.
 > 
 > Варіантні арифметичні функції є обертанням навколо однойменних функцій у бібліотеці COM; для більш детальної інформації про ці функції проконсультуйтеся з бібліотекою MSDN. Назви PHP-функцій дещо відрізняються; наприклад, [variantadd()](function.variant-add.html) у PHP відповідає `VarAdd()` у документації MSDN.
 
@@ -51,4 +51,4 @@ variant_pow(mixed $left, mixed $right): variant
 
 ### Дивіться також
 
--   [pow()](function.pow.html) - Зведення в ступінь
+-   [pow()](function.pow.md) - Зведення в ступінь

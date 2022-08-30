@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [Модуль mysqli та постійні з'єднання](mysqli.persistconns.html)
+-   [Модуль mysqli та постійні з'єднання](mysqli.persistconns.md)
     
--   [Основна інформація про функції модуля MySQLi »](mysqli.summary.html)
+-   [Основна інформація про функції модуля MySQLi »](mysqli.summary.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQLi](book.mysqli.html)
+-   [MySQLi](book.mysqli.md)
     
 -   Обумовлені константи
     
@@ -77,7 +77,7 @@
 
 **`MYSQLI_CLIENT_MULTI_QUERIES`**
 
-Дозволити виконання в одному дзвінку функції [mysqliquery()](mysqli.query.html) кількох запитів, розділених крапкою з комою.
+Дозволити виконання в одному дзвінку функції [mysqliquery()](mysqli.query.md) кількох запитів, розділених крапкою з комою.
 
 **`MYSQLI_STORE_RESULT`**
 
@@ -325,7 +325,7 @@
 
 **`MYSQLI_DEBUG_TRACE_ENABLED`**
 
-Встановлено в 1, якщо використовується функція [mysqlidebug()](mysqli.debug.html)
+Встановлено в 1, якщо використовується функція [mysqlidebug()](mysqli.debug.md)
 
 **`MYSQLI_SERVER_QUERY_NO_GOOD_INDEX_USED`**
 
@@ -371,19 +371,19 @@
 
 **`MYSQLI_TRANS_COR_AND_CHAIN`**
 
-Додає "AND CHAIN" у [mysqlicommit()](mysqli.commit.html) або [mysqlirollback()](mysqli.rollback.html)
+Додає "AND CHAIN" у [mysqlicommit()](mysqli.commit.md) або [mysqlirollback()](mysqli.rollback.md)
 
 **`MYSQLI_TRANS_COR_AND_NO_CHAIN`**
 
-Додає "AND NO CHAIN" у [mysqlicommit()](mysqli.commit.html) або [mysqlirollback()](mysqli.rollback.html)
+Додає "AND NO CHAIN" у [mysqlicommit()](mysqli.commit.md) або [mysqlirollback()](mysqli.rollback.md)
 
 **`MYSQLI_TRANS_COR_RELEASE`**
 
-Додає "RELEASE" в [mysqlicommit()](mysqli.commit.html) або [mysqlirollback()](mysqli.rollback.html)
+Додає "RELEASE" в [mysqlicommit()](mysqli.commit.md) або [mysqlirollback()](mysqli.rollback.md)
 
 **`MYSQLI_TRANS_COR_NO_RELEASE`**
 
-Додає "NO RELEASE" в [mysqlicommit()](mysqli.commit.html) або [mysqlirollback()](mysqli.rollback.html)
+Додає "NO RELEASE" в [mysqlicommit()](mysqli.commit.md) або [mysqlirollback()](mysqli.rollback.md)
 
 **`MYSQLI_TRANS_START_READ_ONLY`**
 

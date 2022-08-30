@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](inotify.setup.html)
+-   [« Встановлення та налаштування](inotify.setup.html)
     
--   [Установка и настройка »](inotify.install.html)
+-   [Встановлення та налаштування »](inotify.install.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](inotify.setup.html)
+-   [Встановлення та налаштування](inotify.setup.html)
     
 -   Вимоги
     

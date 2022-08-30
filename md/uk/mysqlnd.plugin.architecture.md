@@ -1,12 +1,12 @@
 Архітектура плагінів MySQL Native Driver
 
--   [« Получение API плагинов mysqlnd](mysqlnd.plugin.obtaining.html)
+-   [« Получение API плагинов mysqlnd](mysqlnd.plugin.obtaining.md)
     
--   [API плагінів mysqlnd »](mysqlnd.plugin.api.html)
+-   [API плагінів mysqlnd »](mysqlnd.plugin.api.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [API для плагинов к встроенному драйверу MySQL](mysqlnd.plugin.html)
+-   [API для плагинов к встроенному драйверу MySQL](mysqlnd.plugin.md)
     
 -   Архітектура плагінів MySQL Native Driver
     
@@ -21,14 +21,14 @@
 
 **Організаційна схема mysqlnd, помодульно**
 
-| Модули статистики             | mysqlnd\_statistics.c |
-|-------------------------------|-----------------------|
-| З'єднання                     | mysqlnd.c             |
-| Результуючий набір            | mysqlndresult.c       |
-| Метадані результуючого набору | mysqlndresultmeta.c   |
-| Оператор                      | mysqlndps.c           |
-| Мережа                        | mysqlndnet.c          |
-| Протокол обміну               | mysqlndwireprotocol.c |
+| Модули статистики | mysqlnd\_statistics.c |
+| --- | --- |
+| З'єднання | mysqlnd.c |
+| Результуючий набір | mysqlndresult.c |
+| Метадані результуючого набору | mysqlndresultmeta.c |
+| Оператор | mysqlndps.c |
+| Мережа | mysqlndnet.c |
+| Протокол обміну | mysqlndwireprotocol.c |
 
 *Об'єктно-орієнтована парадигма C*
 
@@ -110,10 +110,10 @@ MYSQLND_METHOD(my_conn_class, query)(MYSQLND *conn,
 
 **Розрахунок покажчика для mysqlnd**
 
-| Адрес памяти          | Содержимое                             |
-|-----------------------|----------------------------------------|
-|                       | Початок об'єкту mysqlnd (C struct)     |
-| н                     | Кінець об'єкта mysqlnd (C struct)      |
+| Адрес памяти | Содержимое |
+| --- | --- |
+|  | Початок об'єкту mysqlnd (C struct) |
+| н | Кінець об'єкта mysqlnd (C struct) |
 | n + (m x sizeof(void) | void для даних об'єкта плагіна номер m |
 
 Якщо ви плануєте робити підклас від одного з конструкторів об'єкту `mysqlnd`, які дозволені, майте це на увазі!
@@ -153,14 +153,14 @@ static MY_CONN_PROPERTIES** get_conn_properties(const MYSQLND *conn TSRMLS_DC) {
 
 **Коли і як створювати підклас**
 
-|                                           | Когда создавать подкласс? | Каждый экземпляр имеет свою собственную таблицу функций? | Как создавать подкласс?                                                        |
-|-------------------------------------------|---------------------------|----------------------------------------------------------|--------------------------------------------------------------------------------|
-| З'єднання (MYSQLND)                       | MINIT                     | Ні                                                       | mysqlndconngetmethods()                                                        |
-| Результативний набір (MYSQLNDRES)         | MINIT or later            | Так                                                      | mysqlndresultgetmethods() або методом об'єкта, що маніпулює таблицею функцій   |
-| Результативний набір (MYSQLNDRESMETADATA) | MINIT                     | Ні                                                       | mysqlndresultmetadatagetmethods()                                              |
-| Оператор (MYSQLNDSTMT)                    | MINIT                     | Ні                                                       | mysqlndstmtgetmethods()                                                        |
-| Мережа (MYSQLNDNET)                       | MINIT чи пізніше          | Так                                                      | mysqlndnetgetmethods() або методом об'єкта, що маніпулює таблицею функцій      |
-| Протокол обміну (MYSQLNDPROTOCOL)         | MINIT чи пізніше          | Так                                                      | mysqlndprotocolgetmethods() або методом об'єкта, що маніпулює таблицею функцій |
+|  | Когда создавать подкласс? | Каждый экземпляр имеет свою собственную таблицу функций? | Как создавать подкласс? |
+| --- | --- | --- | --- |
+| З'єднання (MYSQLND) | MINIT | Ні | mysqlndconngetmethods() |
+| Результативний набір (MYSQLNDRES) | MINIT or later | Так | mysqlndresultgetmethods() або методом об'єкта, що маніпулює таблицею функцій |
+| Результативний набір (MYSQLNDRESMETADATA) | MINIT | Ні | mysqlndresultmetadatagetmethods() |
+| Оператор (MYSQLNDSTMT) | MINIT | Ні | mysqlndstmtgetmethods() |
+| Мережа (MYSQLNDNET) | MINIT чи пізніше | Так | mysqlndnetgetmethods() або методом об'єкта, що маніпулює таблицею функцій |
+| Протокол обміну (MYSQLNDPROTOCOL) | MINIT чи пізніше | Так | mysqlndprotocolgetmethods() або методом об'єкта, що маніпулює таблицею функцій |
 
 Ви не повинні маніпулювати таблицею функцій після MINIT, якщо це не дозволено в таблиці вище.
 
@@ -172,11 +172,11 @@ static MY_CONN_PROPERTIES** get_conn_properties(const MYSQLND *conn TSRMLS_DC) {
 
 **Статус конструктора**
 
-| Тип                               | Размещение, создание, сброс | Может быть изменено? | Вызывающий       |
-|-----------------------------------|-----------------------------|----------------------|------------------|
-| Connection (MYSQLND)              | mysqlndinit()               | Ні                   | mysqlndconnect() |
-| Результативний набір (MYSQLNDRES) |                             |                      |                  |
-| Розміщення:                       |                             |                      |                  |
+| Тип | Размещение, создание, сброс | Может быть изменено? | Вызывающий |
+| --- | --- | --- | --- |
+| Connection (MYSQLND) | mysqlndinit() | Ні | mysqlndconnect() |
+| Результативний набір (MYSQLNDRES) |  |  |  |
+| Розміщення: |  |  |  |
 
 -   Connection::resultinit()
 
@@ -206,14 +206,14 @@ static MY_CONN_PROPERTIES** get_conn_properties(const MYSQLND *conn TSRMLS_DC) {
 
 **Статус знищення**
 
-|                               | Производный метод должен вызвать родительский? | Деструктор                    |
-|-------------------------------|------------------------------------------------|-------------------------------|
-| З'єднання                     | так, після виконання методу                    | freecontents(), endpsession() |
-| Результуючий набір            | так, після виконання методу                    | freeresult()                  |
-| Метадані результуючого набору | так, після виконання методу                    | free()                        |
-| Оператор                      | так, після виконання методу                    | dtor(), freestmtcontent()     |
-| Мережа                        | так, після виконання методу                    | free()                        |
-| Протокол обміну               | так, після виконання методу                    | free()                        |
+|  | Производный метод должен вызвать родительский? | Деструктор |
+| --- | --- | --- |
+| З'єднання | так, після виконання методу | freecontents(), endpsession() |
+| Результуючий набір | так, після виконання методу | freeresult() |
+| Метадані результуючого набору | так, після виконання методу | free() |
+| Оператор | так, після виконання методу | dtor(), freestmtcontent() |
+| Мережа | так, після виконання методу | free() |
+| Протокол обміну | так, після виконання методу | free() |
 
 Деструктори є відповідним місцем, щоб звільнити ресурси, які займають властивості. `mysqlnd_plugin_get_plugin_<object>_data()`
 

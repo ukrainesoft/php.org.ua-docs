@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.yaz.html)
+-   [« Введение](intro.yaz.md)
     
--   [Требования »](yaz.requirements.html)
+-   [Вимоги »](yaz.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [YAZ](book.yaz.html)
+-   [YAZ](book.yaz.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](yaz.requirements.html)
--   [Установка](yaz.installation.html)
--   [Настройка во время выполнения](yaz.configuration.html)
--   [Типы ресурсов](yaz.resources.html)
+-   [Вимоги](yaz.requirements.md)
+-   [Установка](yaz.installation.md)
+-   [Налаштування під час виконання](yaz.configuration.md)
+-   [Типи ресурсів](yaz.resources.md)

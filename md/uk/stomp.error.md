@@ -1,12 +1,12 @@
 Повертає останню помилку Stomp
 
--   [« Stomp::destruct](stomp.destruct.html)
+-   [« Stomp::destruct](stomp.destruct.md)
     
--   [Stomp::getReadTimeout »](stomp.getreadtimeout.html)
+-   [Stomp::getReadTimeout »](stomp.getreadtimeout.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Stomp](class.stomp.html)
+-   [Stomp](class.stomp.md)
     
 -   Повертає останню помилку Stomp
     
@@ -39,7 +39,7 @@ stomp_error(resource $link): string
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.html)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
 
 ### Значення, що повертаються
 

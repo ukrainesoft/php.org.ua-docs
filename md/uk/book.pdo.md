@@ -2,68 +2,68 @@
 
 -   [« odbctables](function.odbc-tables.html)
     
--   [Введение »](intro.pdo.html)
+-   [Введение »](intro.pdo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Рівні абстракції](refs.database.abstract.html)
+-   [Рівні абстракції](refs.database.abstract.md)
     
 -   Об'єкти даних PHP
     
 
 # Об'єкти даних PHP
 
--   [Введение](intro.pdo.html)
--   [Установка и настройка](pdo.setup.html)
-    -   [Требования](pdo.requirements.html)
-    -   [Установка](pdo.installation.html)
-    -   [Настройка во время выполнения](pdo.configuration.html)
-    -   [Типы ресурсов](pdo.resources.html)
--   [Предопределённые константы](pdo.constants.html)
--   [Подключения и управление подключениями](pdo.connections.html)
--   [Транзакції та автоматична фіксація змін](pdo.transactions.html)
+-   [Введение](intro.pdo.md)
+-   [Встановлення та налаштування](pdo.setup.md)
+    -   [Вимоги](pdo.requirements.md)
+    -   [Установка](pdo.installation.md)
+    -   [Налаштування під час виконання](pdo.configuration.md)
+    -   [Типи ресурсів](pdo.resources.md)
+-   [Обумовлені константи](pdo.constants.md)
+-   [Подключения и управление подключениями](pdo.connections.md)
+-   [Транзакції та автоматична фіксація змін](pdo.transactions.md)
 -   [Підготовлені запити та процедури, що зберігаються](pdo.prepared-statements.html)
 -   [Ошибки и их обработка](pdo.error-handling.html)
--   [Великі об'єкти (LOB)](pdo.lobs.html)
--   [PDO](class.pdo.html) - Клас PDO
-    -   [PDO::beginTransaction](pdo.begintransaction.html) - Ініціалізація транзакції
-    -   [PDO::commit](pdo.commit.html) - Фіксує транзакцію
-    -   [PDO::construct](pdo.construct.html) — Створює екземпляр PDO, що надає з'єднання з базою даних
-    -   [PDO::errorCode](pdo.errorcode.html) — Повертає код SQLSTATE результату останньої операції з базою даних
-    -   [PDO::errorInfo](pdo.errorinfo.html) — Отримує розширену інформацію про помилку, що сталася під час останнього звернення до бази даних
-    -   [PDO::exec](pdo.exec.html) — Виконує SQL-запит та повертає кількість порушених рядків
-    -   [PDO::getAttribute](pdo.getattribute.html) — Отримати атрибут з'єднання з базою даних
-    -   [PDO::getAvailableDrivers](pdo.getavailabledrivers.html) - Повертає масив доступних драйверів PDO
-    -   [PDO::inTransaction](pdo.intransaction.html) — Перевіряє, чи розпочато транзакцію
-    -   [PDO::lastInsertId](pdo.lastinsertid.html) — Повертає ID останнього вставленого рядка або значення послідовності
-    -   [PDO::prepare](pdo.prepare.html) — готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
-    -   [PDO::query](pdo.query.html) — Підготовляє та виконує вираз SQL без наповнювачів
-    -   [PDO::quote](pdo.quote.html) — Укладає рядок у лапки для використання у запиті
-    -   [PDO::rollBack](pdo.rollback.html) - Відкат транзакції
-    -   [PDO::setAttribute](pdo.setattribute.html) - Встановлення атрибуту
--   [PDOStatement](class.pdostatement.html) - Клас PDOStatement
-    -   [PDOStatement::bindColumn](pdostatement.bindcolumn.html) - Зв'язує стовпець зі змінною PHP
-    -   [PDOStatement::bindParam](pdostatement.bindparam.html) — Прив'язує параметр запиту до змінної
-    -   [PDOStatement::bindValue](pdostatement.bindvalue.html) — Зв'язує параметр із заданим значенням
-    -   [PDOStatement::closeCursor](pdostatement.closecursor.html) — Закриває курсор, переводячи запит у стан готовності до повторного запуску
-    -   [PDOStatement::columnCount](pdostatement.columncount.html) — Повертає кількість стовпців у результуючому наборі
-    -   [PDOStatement::debugDumpParams](pdostatement.debugdumpparams.html) — Виведення інформації про підготовлену SQL-команду з метою налагодження
-    -   [PDOStatement::errorCode](pdostatement.errorcode.html) — Отримує код SQLSTATE, пов'язаний із останньою операцією в об'єкті PDOStatement
-    -   [PDOStatement::errorInfo](pdostatement.errorinfo.html) — Отримання розширеної інформації про помилку, що сталася внаслідок роботи об'єкта PDOStatement
-    -   [PDOStatement::execute](pdostatement.execute.html) - Запускає підготовлений запит на виконання
-    -   [PDOStatement::fetch](pdostatement.fetch.html) — Витяг наступного рядка з результуючого набору
-    -   [PDOStatement::fetchAll](pdostatement.fetchall.html) — Вибирає рядки, що залишилися, з набору результатів
-    -   [PDOStatement::fetchColumn](pdostatement.fetchcolumn.html) — Повертає дані одного стовпця наступного рядка результуючого набору
-    -   [PDOStatement::fetchObject](pdostatement.fetchobject.html) — Витягує наступний рядок і повертає його у вигляді об'єкта
-    -   [PDOStatement::getAttribute](pdostatement.getattribute.html) — Отримання атрибуту запиту PDOStatement
-    -   [PDOStatement::getColumnMeta](pdostatement.getcolumnmeta.html) — Повертає метадані стовпця у результуючій таблиці
-    -   [PDOStatement::getIterator](pdostatement.getiterator.html) — Отримує ітератор набору результатів
-    -   [PDOStatement::nextRowset](pdostatement.nextrowset.html) — Перехід до наступного набору рядків через запит
-    -   [PDOStatement::rowCount](pdostatement.rowcount.html) — Повертає кількість рядків, порушених останнім SQL-запитом
-    -   [PDOStatement::setAttribute](pdostatement.setattribute.html) — Встановлює атрибут об'єкту PDOStatement
-    -   [PDOStatement::setFetchMode](pdostatement.setfetchmode.html) — Встановлює стандартний режим вибірки для об'єкта запиту
--   [PDOException](class.pdoexception.html) - Клас PDOException
--   [Драйвери PDO](pdo.drivers.html)
+-   [Великі об'єкти (LOB)](pdo.lobs.md)
+-   [PDO](class.pdo.md) - Клас PDO
+    -   [PDO::beginTransaction](pdo.begintransaction.md) - Ініціалізація транзакції
+    -   [PDO::commit](pdo.commit.md) - Фіксує транзакцію
+    -   [PDO::construct](pdo.construct.md) — Створює екземпляр PDO, що надає з'єднання з базою даних
+    -   [PDO::errorCode](pdo.errorcode.md) — Повертає код SQLSTATE результату останньої операції з базою даних
+    -   [PDO::errorInfo](pdo.errorinfo.md) — Отримує розширену інформацію про помилку, що сталася під час останнього звернення до бази даних
+    -   [PDO::exec](pdo.exec.md) — Виконує SQL-запит та повертає кількість порушених рядків
+    -   [PDO::getAttribute](pdo.getattribute.md) — Отримати атрибут з'єднання з базою даних
+    -   [PDO::getAvailableDrivers](pdo.getavailabledrivers.md) - Повертає масив доступних драйверів PDO
+    -   [PDO::inTransaction](pdo.intransaction.md) — Перевіряє, чи розпочато транзакцію
+    -   [PDO::lastInsertId](pdo.lastinsertid.md) — Повертає ID останнього вставленого рядка або значення послідовності
+    -   [PDO::prepare](pdo.prepare.md) — готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
+    -   [PDO::query](pdo.query.md) — Підготовляє та виконує вираз SQL без наповнювачів
+    -   [PDO::quote](pdo.quote.md) — Укладає рядок у лапки для використання у запиті
+    -   [PDO::rollBack](pdo.rollback.md) - Відкат транзакції
+    -   [PDO::setAttribute](pdo.setattribute.md) - Встановлення атрибуту
+-   [PDOStatement](class.pdostatement.md) - Клас PDOStatement
+    -   [PDOStatement::bindColumn](pdostatement.bindcolumn.md) - Зв'язує стовпець зі змінною PHP
+    -   [PDOStatement::bindParam](pdostatement.bindparam.md) — Прив'язує параметр запиту до змінної
+    -   [PDOStatement::bindValue](pdostatement.bindvalue.md) — Зв'язує параметр із заданим значенням
+    -   [PDOStatement::closeCursor](pdostatement.closecursor.md) — Закриває курсор, переводячи запит у стан готовності до повторного запуску
+    -   [PDOStatement::columnCount](pdostatement.columncount.md) — Повертає кількість стовпців у результуючому наборі
+    -   [PDOStatement::debugDumpParams](pdostatement.debugdumpparams.md) — Виведення інформації про підготовлену SQL-команду з метою налагодження
+    -   [PDOStatement::errorCode](pdostatement.errorcode.md) — Отримує код SQLSTATE, пов'язаний із останньою операцією в об'єкті PDOStatement
+    -   [PDOStatement::errorInfo](pdostatement.errorinfo.md) — Отримання розширеної інформації про помилку, що сталася внаслідок роботи об'єкта PDOStatement
+    -   [PDOStatement::execute](pdostatement.execute.md) - Запускає підготовлений запит на виконання
+    -   [PDOStatement::fetch](pdostatement.fetch.md) — Витяг наступного рядка з результуючого набору
+    -   [PDOStatement::fetchAll](pdostatement.fetchall.md) — Вибирає рядки, що залишилися, з набору результатів
+    -   [PDOStatement::fetchColumn](pdostatement.fetchcolumn.md) — Повертає дані одного стовпця наступного рядка результуючого набору
+    -   [PDOStatement::fetchObject](pdostatement.fetchobject.md) — Витягує наступний рядок і повертає його у вигляді об'єкта
+    -   [PDOStatement::getAttribute](pdostatement.getattribute.md) — Отримання атрибуту запиту PDOStatement
+    -   [PDOStatement::getColumnMeta](pdostatement.getcolumnmeta.md) — Повертає метадані стовпця у результуючій таблиці
+    -   [PDOStatement::getIterator](pdostatement.getiterator.md) — Отримує ітератор набору результатів
+    -   [PDOStatement::nextRowset](pdostatement.nextrowset.md) — Перехід до наступного набору рядків через запит
+    -   [PDOStatement::rowCount](pdostatement.rowcount.md) — Повертає кількість рядків, порушених останнім SQL-запитом
+    -   [PDOStatement::setAttribute](pdostatement.setattribute.md) — Встановлює атрибут об'єкту PDOStatement
+    -   [PDOStatement::setFetchMode](pdostatement.setfetchmode.md) — Встановлює стандартний режим вибірки для об'єкта запиту
+-   [PDOException](class.pdoexception.md) - Клас PDOException
+-   [Драйвери PDO](pdo.drivers.md)
     -   [CUBRID (PDO)](ref.pdo-cubrid.html) - Функції CUBRID (PDOCUBRID)
     -   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.html) — Функції Microsoft SQL Server та Sybase (PDODBLIB)
     -   [Firebird (PDO)](ref.pdo-firebird.html) - Функції Firebird (PDOFIREBIRD)

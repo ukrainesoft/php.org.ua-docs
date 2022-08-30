@@ -1,12 +1,12 @@
 Клас DOMCharacterData
 
--   [« DOMCdataSection::construct](domcdatasection.construct.html)
+-   [« DOMCdataSection::construct](domcdatasection.construct.md)
     
--   [DOMCharacterData::appendData »](domcharacterdata.appenddata.html)
+-   [DOMCharacterData::appendData »](domcharacterdata.appenddata.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOM](book.dom.html)
+-   [DOM](book.dom.md)
     
 -   Клас DOMCharacterData
     
@@ -176,10 +176,10 @@ previousElementSibling
 
 ## список змін
 
-| Версия | Описание                                                                                   |
-|--------|--------------------------------------------------------------------------------------------|
-|        | Додані властивості nextElementSibling і previousElementSibling.                            |
-|        | Клас **DOMCharacterData** тепер реалізує інтерфейс [DOMChildNode](class.domchildnode.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Додані властивості nextElementSibling і previousElementSibling. |
+|  | Клас **DOMCharacterData** тепер реалізує інтерфейс [DOMChildNode](class.domchildnode.md) |
 
 ## Дивіться також
 
@@ -187,8 +187,8 @@ previousElementSibling
 
 ## Зміст
 
--   [DOMCharacterData::appendData](domcharacterdata.appenddata.html) — Додати рядок до кінця символьних даних вузла
--   [DOMCharacterData::deleteData](domcharacterdata.deletedata.html) — Видалити діапазон символів із вузла
--   [DOMCharacterData::insertData](domcharacterdata.insertdata.html) — Вставити рядок у вказану 16-бітну позицію
--   [DOMCharacterData::replaceData](domcharacterdata.replacedata.html) — Замінити підрядок у вузлі типу DOMCharacterData
--   [DOMCharacterData::substringData](domcharacterdata.substringdata.html) — Витягує певний діапазон даних із вузла
+-   [DOMCharacterData::appendData](domcharacterdata.appenddata.md) — Додати рядок до кінця символьних даних вузла
+-   [DOMCharacterData::deleteData](domcharacterdata.deletedata.md) — Видалити діапазон символів із вузла
+-   [DOMCharacterData::insertData](domcharacterdata.insertdata.md) — Вставити рядок у вказану 16-бітну позицію
+-   [DOMCharacterData::replaceData](domcharacterdata.replacedata.md) — Замінити підрядок у вузлі типу DOMCharacterData
+-   [DOMCharacterData::substringData](domcharacterdata.substringdata.md) — Витягує певний діапазон даних із вузла

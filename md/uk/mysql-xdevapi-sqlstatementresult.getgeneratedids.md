@@ -4,7 +4,7 @@
     
 -   [SqlStatementResult::getLastInsertId »](mysql-xdevapi-sqlstatementresult.getlastinsertid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
     

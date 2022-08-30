@@ -1,12 +1,12 @@
 Завантажити декларації C із заголовного файлу
 
--   [« FFI::isNull](ffi.isnull.html)
+-   [« FFI::isNull](ffi.isnull.md)
     
--   [FFI::memcmp »](ffi.memcmp.html)
+-   [FFI::memcmp »](ffi.memcmp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FFI](class.ffi.html)
+-   [FFI](class.ffi.md)
     
 -   Завантажити декларації C із заголовного файлу
     
@@ -39,8 +39,8 @@ public static FFI::load(string $filename): ?FFI
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [FFI](class.ffi.html) або **`null`** у разі виникнення помилки.
+Повертає новий об'єкт [FFI](class.ffi.md) або **`null`** у разі виникнення помилки.
 
 ### Дивіться також
 
--   [FFI::scope()](ffi.scope.html) - інстанцує об'єкт FFI відповідно до декларації С, розібраної на етапі передзавантаження
+-   [FFI::scope()](ffi.scope.md) - інстанцує об'єкт FFI відповідно до декларації С, розібраної на етапі передзавантаження

@@ -4,9 +4,9 @@
     
 -   [sodiumcryptogenerichashkeygen »](function.sodium-crypto-generichash-keygen.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Ініціалізує хеш для потокової передачі
     

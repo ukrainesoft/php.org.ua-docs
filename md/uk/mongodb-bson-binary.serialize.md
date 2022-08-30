@@ -39,4 +39,4 @@ final public MongoDB\BSON\Binary::serialize(): string
 
 -   [MongoDBBSONBinary::unserialize()](mongodb-bson-binary.unserialize.html) - Десеріалізує Binary
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання уявлення змінної
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [Серіалізація об'єктів](language.oop5.serialization.html)

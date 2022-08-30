@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.misc.html)
     
--   [Требования »](misc.requirements.html)
+-   [Вимоги »](misc.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](misc.requirements.html)
+-   [Вимоги](misc.requirements.html)
 -   [Установка](misc.installation.html)
--   [Настройка во время выполнения](misc.configuration.html)
--   [Типы ресурсов](misc.resources.html)
+-   [Налаштування під час виконання](misc.configuration.html)
+-   [Типи ресурсів](misc.resources.html)

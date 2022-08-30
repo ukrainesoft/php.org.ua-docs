@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](ctype.setup.html)
+-   [« Встановлення та налаштування](ctype.setup.md)
     
--   [Установка »](ctype.installation.html)
+-   [Установка »](ctype.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ctype.setup.html)
+-   [Встановлення та налаштування](ctype.setup.md)
     
 -   Вимоги
     

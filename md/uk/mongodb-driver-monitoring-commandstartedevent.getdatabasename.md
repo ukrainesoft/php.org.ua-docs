@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverMonitoringCommandStartedEvent::getOperationId »](mongodb-driver-monitoring-commandstartedevent.getoperationid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.html)
     
@@ -37,4 +37,4 @@ final public MongoDB\Driver\Monitoring\CommandStartedEvent::getDatabaseName(): s
 
 ### Дивіться також
 
--   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)

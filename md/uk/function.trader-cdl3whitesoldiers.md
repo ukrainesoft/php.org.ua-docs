@@ -4,9 +4,9 @@
     
 -   [tradercdlabandonedbaby »](function.trader-cdlabandonedbaby.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Три наступаючі білі солдати
     

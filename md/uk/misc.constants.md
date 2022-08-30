@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](misc.resources.html)
+-   [« Типи ресурсів](misc.resources.md)
     
--   [Різні функції »](ref.misc.html)
+-   [Різні функції »](ref.misc.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Misc.](book.misc.html)
+-   [Misc.](book.misc.md)
     
 -   Обумовлені константи
     

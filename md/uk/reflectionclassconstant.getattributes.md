@@ -1,12 +1,12 @@
 Отримує атрибути
 
--   [« ReflectionClassConstant::export](reflectionclassconstant.export.html)
+-   [« ReflectionClassConstant::export](reflectionclassconstant.export.md)
     
--   [ReflectionClassConstant::getDeclaringClass »](reflectionclassconstant.getdeclaringclass.html)
+-   [ReflectionClassConstant::getDeclaringClass »](reflectionclassconstant.getdeclaringclass.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClassConstant](class.reflectionclassconstant.html)
+-   [ReflectionClassConstant](class.reflectionclassconstant.md)
     
 -   Отримує атрибути
     
@@ -23,7 +23,7 @@ ReflectionClassConstant::getAttributes — Отримує атрибути
 public ReflectionClassConstant::getAttributes(?string $name = null, int $flags = 0): array
 ```
 
-Повертає всі атрибути, оголошені в цій константі класу у вигляді масиву [ReflectionAttribute](class.reflectionattribute.html)
+Повертає всі атрибути, оголошені в цій константі класу у вигляді масиву [ReflectionAttribute](class.reflectionattribute.md)
 
 ### Список параметрів
 
@@ -33,11 +33,11 @@ public ReflectionClassConstant::getAttributes(?string $name = null, int $flags =
 
 ### Значення, що повертаються
 
-Масив атрибутів як об'єкта [ReflectionAttribute](class.reflectionattribute.html)
+Масив атрибутів як об'єкта [ReflectionAttribute](class.reflectionattribute.md)
 
 ### Дивіться також
 
--   [ReflectionClass::getAttributes()](reflectionclass.getattributes.html) - Отримує атрибути
--   [ReflectionFunctionAbstract::getAttributes()](reflectionfunctionabstract.getattributes.html) - Отримує атрибути
--   [ReflectionParameter::getAttributes()](reflectionparameter.getattributes.html) - Отримує атрибути
--   [ReflectionProperty::getAttributes()](reflectionproperty.getattributes.html) - Отримує атрибути
+-   [ReflectionClass::getAttributes()](reflectionclass.getattributes.md) - Отримує атрибути
+-   [ReflectionFunctionAbstract::getAttributes()](reflectionfunctionabstract.getattributes.md) - Отримує атрибути
+-   [ReflectionParameter::getAttributes()](reflectionparameter.getattributes.md) - Отримує атрибути
+-   [ReflectionProperty::getAttributes()](reflectionproperty.getattributes.md) - Отримує атрибути

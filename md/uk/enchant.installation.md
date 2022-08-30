@@ -1,19 +1,19 @@
 Встановлення
 
--   [« Требования](enchant.requirements.html)
+-   [« Вимоги](enchant.requirements.html)
     
--   [Настройка во время выполнения »](enchant.configuration.html)
+-   [Налаштування під час виконання »](enchant.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](enchant.setup.html)
+-   [Встановлення та налаштування](enchant.setup.html)
     
 -   Встановлення
     
 
 ## Встановлення
 
-Якщо встановлено [необходимые библиотеки](enchant.requirements.html), то модуль можна встановити за допомогою опції **\-with-enchant=dir** при компіляції PHP.
+Якщо встановлено [необхідні бібліотеки](enchant.requirements.html), то модуль можна встановити за допомогою опції **\-with-enchant=dir** при компіляції PHP.
 
 Користувачі Windows повинні увімкнути phpenchant.dll використовувати модуль.
 

@@ -1,12 +1,12 @@
 Встановлює колір
 
--   [« ImagickPixel::isSimilar](imagickpixel.issimilar.html)
+-   [« ImagickPixel::isSimilar](imagickpixel.issimilar.md)
     
--   [ImagickPixel::setColorCount »](imagickpixel.setcolorcount.html)
+-   [ImagickPixel::setColorCount »](imagickpixel.setcolorcount.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickPixel](class.imagickpixel.html)
+-   [ImagickPixel](class.imagickpixel.md)
     
 -   Встановлює колір
     

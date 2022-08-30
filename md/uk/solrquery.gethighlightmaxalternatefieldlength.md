@@ -1,12 +1,12 @@
 Повертає максимальну кількість символів поля для повернення
 
--   [« SolrQuery::getHighlightHighlightMultiTerm](solrquery.gethighlighthighlightmultiterm.html)
+-   [« SolrQuery::getHighlightHighlightMultiTerm](solrquery.gethighlighthighlightmultiterm.md)
     
--   [SolrQuery::getHighlightMaxAnalyzedChars »](solrquery.gethighlightmaxanalyzedchars.html)
+-   [SolrQuery::getHighlightMaxAnalyzedChars »](solrquery.gethighlightmaxanalyzedchars.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає максимальну кількість символів поля для повернення
     

@@ -2,9 +2,9 @@
 
 -   [« Можливості PHP](intro-whatcando.html)
     
--   [Що мені потрібно? »](tutorial.requirements.html)
+-   [Що мені потрібно? »](tutorial.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Приступаючи до роботи](getting-started.html)
     
@@ -15,11 +15,11 @@
 
 ## Зміст
 
--   [Що мені потрібно?](tutorial.requirements.html)
--   [Перша сторінка на PHP](tutorial.firstpage.html)
--   [Робимо щось корисне](tutorial.useful.html)
--   [Работа с формами](tutorial.forms.html)
--   [Що далі?](tutorial.whatsnext.html)
+-   [Що мені потрібно?](tutorial.requirements.md)
+-   [Перша сторінка на PHP](tutorial.firstpage.md)
+-   [Робимо щось корисне](tutorial.useful.md)
+-   [Работа с формами](tutorial.forms.md)
+-   [Що далі?](tutorial.whatsnext.md)
 
 У цьому короткому і простому підручнику ми хотіли б показати самі основи PHP. Цей текст включає тільки створення динамічних Web-сторінок за допомогою PHP, проте реальна сфера застосування PHP набагато ширша. В розділі "[Що може PHP](intro-whatcando.html)наведена додаткова інформація.
 

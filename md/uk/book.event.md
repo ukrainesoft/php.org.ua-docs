@@ -6,7 +6,7 @@ Event
     
 -   [PHP Manual](index.html)
     
--   [Другие службы](refs.remote.other.html)
+-   [Інші служби](refs.remote.other.html)
     
 -   Event
     
@@ -14,13 +14,13 @@ Event
 # Event
 
 -   [Введение](intro.event.html)
--   [Установка и настройка](event.setup.html)
-    -   [Требования](event.requirements.html)
+-   [Встановлення та налаштування](event.setup.html)
+    -   [Вимоги](event.requirements.html)
     -   [Установка](event.installation.html)
-    -   [Настройка во время выполнения](event.configuration.html)
-    -   [Типы ресурсов](event.resources.html)
--   [Примеры](event.examples.html)
--   [Флаги событий](event.flags.html)
+    -   [Налаштування під час виконання](event.configuration.html)
+    -   [Типи ресурсів](event.resources.html)
+-   [Приклади](event.examples.html)
+-   [Прапори подій](event.flags.html)
 -   [Про постійні (persistent) події](event.persistence.html)
 -   [Callback-функции](event.callbacks.html)
 -   [Створення подій для сигналів](event.constructing.signal.events.html)
@@ -106,7 +106,7 @@ Event
     -   [EventBufferEvent::sslSocket](eventbufferevent.sslsocket.html) — Створює нову буферну подію SSL для надсилання своїх даних через SSL у сокет
     -   [EventBufferEvent::write](eventbufferevent.write.html) — Додає дані до буфера виводу буферної події
     -   [EventBufferEvent::writeBuffer](eventbufferevent.writebuffer.html) — Додає вміст буфера в буфер виведення буферної події
--   [О callback-функциях событийного буфера](eventbufferevent.about.callbacks.html)
+-   [Про callback-функції подієвого буфера](eventbufferevent.about.callbacks.html)
 -   [EventConfig](class.eventconfig.html) - Клас EventConfig
     -   [EventConfig::avoidMethod](eventconfig.avoidmethod.html) — Попросити libevent не використати певний метод події
     -   [EventConfig::construct](eventconfig.construct.html) — Створити об'єкт EventConfig

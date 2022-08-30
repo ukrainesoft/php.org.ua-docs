@@ -2,11 +2,11 @@
 
 -   [« Синтаксис атрибутів](language.attributes.syntax.html)
     
--   [Объявление классов атрибутов »](language.attributes.classes.html)
+-   [Оголошення класів атрибутів »](language.attributes.classes.html)
     
 -   [PHP Manual](index.html)
     
--   [Атрибуты](language.attributes.html)
+-   [Атрибути](language.attributes.html)
     
 -   Читання атрибутів за допомогою Reflection API
     

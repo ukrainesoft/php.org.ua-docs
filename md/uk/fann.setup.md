@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.fann.html)
     
--   [Требования »](fann.requirements.html)
+-   [Вимоги »](fann.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](fann.requirements.html)
+-   [Вимоги](fann.requirements.html)
 -   [Установка](fann.installation.html)
--   [Настройка во время выполнения](fann.configuration.html)
--   [Типы ресурсов](fann.resources.html)
+-   [Налаштування під час виконання](fann.configuration.html)
+-   [Типи ресурсів](fann.resources.html)

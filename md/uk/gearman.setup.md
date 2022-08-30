@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.gearman.html)
     
--   [Требования »](gearman.requirements.html)
+-   [Вимоги »](gearman.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](gearman.requirements.html)
+-   [Вимоги](gearman.requirements.html)
 -   [Установка](gearman.installation.html)
--   [Настройка во время выполнения](gearman.configuration.html)
--   [Типы ресурсов](gearman.resources.html)
+-   [Налаштування під час виконання](gearman.configuration.html)
+-   [Типи ресурсів](gearman.resources.html)

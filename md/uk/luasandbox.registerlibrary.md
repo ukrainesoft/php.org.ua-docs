@@ -1,12 +1,12 @@
 Реєструє набір PHP-функцій як бібліотеку Lua
 
--   [« LuaSandbox::pauseUsageTimer](luasandbox.pauseusagetimer.html)
+-   [« LuaSandbox::pauseUsageTimer](luasandbox.pauseusagetimer.md)
     
--   [LuaSandbox::setCPULimit »](luasandbox.setcpulimit.html)
+-   [LuaSandbox::setCPULimit »](luasandbox.setcpulimit.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LuaSandbox](class.luasandbox.html)
+-   [LuaSandbox](class.luasandbox.md)
     
 -   Реєструє набір PHP-функцій як бібліотеку Lua
     
@@ -25,7 +25,7 @@ public LuaSandbox::registerLibrary(string $libname, array $functions): void
 
 Реєструє набір PHP-функцій як бібліотеку Lua, щоб Lua міг викликати відповідний PHP-код.
 
-Для отримання додаткової інформації про виклик функцій Lua та значення, що повертаються дивіться [LuaSandboxFunction::call()](luasandboxfunction.call.html)
+Для отримання додаткової інформації про виклик функцій Lua та значення, що повертаються дивіться [LuaSandboxFunction::call()](luasandboxfunction.call.md)
 
 ### Список параметрів
 
@@ -35,7 +35,7 @@ public LuaSandbox::registerLibrary(string $libname, array $functions): void
 
 `functions`
 
-Масив (array), де кожен ключ - це ім'я функції, а кожне значення - це відповідний ([callable](language.types.callable.html)) PHP-код.
+Масив (array), де кожен ключ - це ім'я функції, а кожне значення - це відповідний ([callable](language.types.callable.md)) PHP-код.
 
 ### Значення, що повертаються
 
@@ -72,5 +72,5 @@ $sandbox->registerLibrary( 'php', [
 
 ### Дивіться також
 
--   [LuaSandbox::loadString()](luasandbox.loadstring.html) - Завантажує код Lua у середу Lua
--   [LuaSandbox::wrapPhpFunction()](luasandbox.wrapphpfunction.html) - Обертає викликаний PHP-об'єкт у LuaSandboxFunction
+-   [LuaSandbox::loadString()](luasandbox.loadstring.md) - Завантажує код Lua у середу Lua
+-   [LuaSandbox::wrapPhpFunction()](luasandbox.wrapphpfunction.md) - Обертає викликаний PHP-об'єкт у LuaSandboxFunction

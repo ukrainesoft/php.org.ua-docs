@@ -1,12 +1,12 @@
 Клас SNMPException
 
--   [« SNMP::walk](snmp.walk.html)
+-   [« SNMP::walk](snmp.walk.md)
     
--   [Сокеты »](book.sockets.html)
+-   [Сокети »](book.sockets.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SNMP](book.snmp.html)
+-   [SNMP](book.snmp.md)
     
 -   Клас SNMPException
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Представляє клас виключення SNMP, що викидається. Ви не повинні викидати винятки **SNMPException** самостійно. Докладніше про винятки в PHP читайте у розділі [Исключения](language.exceptions.html)
+Представляє клас виключення SNMP, що викидається. Ви не повинні викидати винятки **SNMPException** самостійно. Докладніше про винятки в PHP читайте у розділі [Исключения](language.exceptions.md)
 
 ## Огляд класів
 
@@ -87,4 +87,4 @@ private Exception::__clone(): void
 
 code
 
-Код помилки бібліотеки `SNMP`. Для його вилучення використовуйте [Exception::getCode()](exception.getcode.html)
+Код помилки бібліотеки `SNMP`. Для його вилучення використовуйте [Exception::getCode()](exception.getcode.md)

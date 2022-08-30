@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.yar.html)
     
--   [Требования »](yar.requirements.html)
+-   [Вимоги »](yar.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](yar.requirements.html)
+-   [Вимоги](yar.requirements.html)
 -   [Установка](yar.installation.html)
--   [Настройка во время выполнения](yar.configuration.html)
--   [Типы ресурсов](yar.resources.html)
+-   [Налаштування під час виконання](yar.configuration.html)
+-   [Типи ресурсів](yar.resources.html)

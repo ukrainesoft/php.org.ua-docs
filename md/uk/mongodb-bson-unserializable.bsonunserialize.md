@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONBinaryInterface »](class.mongodb-bson-binaryinterface.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONUnserializable](class.mongodb-bson-unserializable.html)
     
@@ -79,4 +79,4 @@ object(MyDocument)#1 (1) {
 
 -   [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) - Надає масив або документ для серіалізації у BSON
 -   [MongoDBBSONPersistable](class.mongodb-bson-persistable.html)
--   [Постійні дані](mongodb.persistence.html)
+-   [Постійні дані](mongodb.persistence.md)

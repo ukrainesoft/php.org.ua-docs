@@ -1,8 +1,8 @@
 Обумовлені константи
 
--   [« Типы ресурсов](zip.resources.html)
+-   [« Типи ресурсів](zip.resources.html)
     
--   [Примеры »](zip.examples.html)
+-   [Приклади »](zip.examples.html)
     
 -   [PHP Manual](index.html)
     

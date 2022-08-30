@@ -4,7 +4,7 @@
     
 -   [ОЙControlsForm::setPadded »](ui-controls-form.setpadded.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsForm](class.ui-controls-form.html)
     

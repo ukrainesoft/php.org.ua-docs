@@ -1,12 +1,12 @@
 Атака за допомогою ін'єкцій у запиті
 
--   [« Безпека](mongodb.security.html)
+-   [« Безпека](mongodb.security.md)
     
--   [Атака с помощью инъекций в скриптах »](mongodb.security.script_injection.html)
+-   [Атака за допомогою ін'єкцій у скриптах](mongodb.security.script_injection.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Безпека](mongodb.security.html)
+-   [Безпека](mongodb.security.md)
     
 -   Атака за допомогою ін'єкцій у запиті
     

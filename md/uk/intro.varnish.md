@@ -2,7 +2,7 @@
 
 -   [« Varnish](book.varnish.html)
     
--   [Установка и настройка »](varnish.setup.html)
+-   [Встановлення та налаштування »](varnish.setup.html)
     
 -   [PHP Manual](index.html)
     

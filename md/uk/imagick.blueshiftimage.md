@@ -1,12 +1,12 @@
 Опис
 
--   [« Imagick::blackThresholdImage](imagick.blackthresholdimage.html)
+-   [« Imagick::blackThresholdImage](imagick.blackthresholdimage.md)
     
--   [Imagick::blurImage »](imagick.blurimage.html)
+-   [Imagick::blurImage »](imagick.blurimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Опис
     

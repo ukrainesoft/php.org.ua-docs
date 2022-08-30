@@ -1,12 +1,12 @@
 Клас ZookeeperException
 
--   [« ZookeeperConfig::set](zookeeperconfig.set.html)
+-   [« ZookeeperConfig::set](zookeeperconfig.set.md)
     
--   [ZookeeperAuthenticationException »](class.zookeeperauthenticationexception.html)
+-   [ZookeeperAuthenticationException »](class.zookeeperauthenticationexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZooKeeper](book.zookeeper.html)
+-   [ZooKeeper](book.zookeeper.md)
     
 -   Клас ZookeeperException
     

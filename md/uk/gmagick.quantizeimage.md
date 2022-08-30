@@ -1,12 +1,12 @@
 Аналізує кольори еталонного зображення
 
--   [« Gmagick::profileimage](gmagick.profileimage.html)
+-   [« Gmagick::profileimage](gmagick.profileimage.md)
     
--   [Gmagick::quantizeimages »](gmagick.quantizeimages.html)
+-   [Gmagick::quantizeimages »](gmagick.quantizeimages.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Аналізує кольори еталонного зображення
     
@@ -49,7 +49,7 @@ public Gmagick::quantizeimage(    int $numColors,    int $colorspace, �
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

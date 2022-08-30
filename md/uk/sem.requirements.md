@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](sem.setup.html)
+-   [« Встановлення та налаштування](sem.setup.html)
     
 -   [Установка »](sem.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](sem.setup.html)
+-   [Встановлення та налаштування](sem.setup.html)
     
 -   Вимоги
     

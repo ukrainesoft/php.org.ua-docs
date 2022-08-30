@@ -1,6 +1,6 @@
 Опції ZooKeeper
 
--   [« Предопределённые константы](zookeeper.constants.html)
+-   [« Обумовлені константи](zookeeper.constants.html)
     
 -   [zookeeperdispatch »](function.zookeeper-dispatch.html)
     

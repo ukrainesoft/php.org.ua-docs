@@ -1,12 +1,12 @@
 Повертає версію шифру, який використовується поточним SSL-з'єднанням
 
--   [« EventBufferEvent::sslGetCipherName](eventbufferevent.sslgetciphername.html)
+-   [« EventBufferEvent::sslGetCipherName](eventbufferevent.sslgetciphername.md)
     
--   [EventBufferEvent::sslGetProtocol »](eventbufferevent.sslgetprotocol.html)
+-   [EventBufferEvent::sslGetProtocol »](eventbufferevent.sslgetprotocol.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Повертає версію шифру, який використовується поточним SSL-з'єднанням
     

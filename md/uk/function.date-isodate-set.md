@@ -4,9 +4,9 @@
     
 -   [datemodify »](function.date-modify.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Псевдонім DateTime::setISODate
     
@@ -15,8 +15,8 @@
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-dateisodateset - Псевдонім [DateTime::setISODate()](datetime.setisodate.html)
+dateisodateset - Псевдонім [DateTime::setISODate()](datetime.setisodate.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateTime::setISODate()](datetime.setisodate.html)
+Ця функція є псевдонімом: [DateTime::setISODate()](datetime.setisodate.md)

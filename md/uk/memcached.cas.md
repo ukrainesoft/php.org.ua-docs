@@ -1,12 +1,12 @@
 Порівнює та встановлює значення для запису
 
--   [« Memcached::appendByKey](memcached.appendbykey.html)
+-   [« Memcached::appendByKey](memcached.appendbykey.md)
     
--   [Memcached::casByKey »](memcached.casbykey.html)
+-   [Memcached::casByKey »](memcached.casbykey.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Порівнює та встановлює значення для запису
     
@@ -41,11 +41,11 @@ public Memcached::cas(    float $cas_token,    string $key,    mixed
 
 `expiration`
 
-Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Время хранения объекта](memcached.expiration.html)
+Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Час зберігання об'єкту](memcached.expiration.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.html) повертає **`Memcached::RES_DATA_EXISTS`** якщо запис, який ви намагаєтеся зберегти, було змінено з моменту останнього звернення.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає **`Memcached::RES_DATA_EXISTS`** якщо запис, який ви намагаєтеся зберегти, було змінено з моменту останнього звернення.
 
 ### Приклади
 
@@ -77,4 +77,4 @@ do {
 
 ### Дивіться також
 
--   [Memcached::casByKey()](memcached.casbykey.html) - Порівнює та встановлює значення для запису на конкретному сервері
+-   [Memcached::casByKey()](memcached.casbykey.md) - Порівнює та встановлює значення для запису на конкретному сервері

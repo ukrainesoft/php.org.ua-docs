@@ -4,9 +4,9 @@
     
 -   [dateparsefromformat »](function.date-parse-from-format.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Псевдонім DateTime::getOffset
     
@@ -15,8 +15,8 @@
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-dateoffsetget - Псевдонім [DateTime::getOffset()](datetime.getoffset.html)
+dateoffsetget - Псевдонім [DateTime::getOffset()](datetime.getoffset.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateTime::getOffset()](datetime.getoffset.html)
+Ця функція є псевдонімом: [DateTime::getOffset()](datetime.getoffset.md)

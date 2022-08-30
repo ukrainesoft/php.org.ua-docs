@@ -1,12 +1,12 @@
 Оголошує атрибут, вказаний вузлом, з ідентифікатором типу
 
--   [« DOMElement::setIdAttribute](domelement.setidattribute.html)
+-   [« DOMElement::setIdAttribute](domelement.setidattribute.md)
     
--   [DOMElement::setIdAttributeNS »](domelement.setidattributens.html)
+-   [DOMElement::setIdAttributeNS »](domelement.setidattributens.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMElement](class.domelement.html)
+-   [DOMElement](class.domelement.md)
     
 -   Оголошує атрибут, вказаний вузлом, з ідентифікатором типу
     
@@ -51,6 +51,6 @@ public DOMElement::setIdAttributeNode(DOMAttr $attr, bool $isId): void
 
 ### Дивіться також
 
--   [DOMDocument::getElementById()](domdocument.getelementbyid.html) - Шукає елемент із певним ідентифікатором
--   [DOMElement::setIdAttribute()](domelement.setidattribute.html) - Оголошує атрибут, вказаний ім'ям, з ідентифікатором типу
--   [DOMElement::setIdAttributeNS()](domelement.setidattributens.html) - Оголошує атрибут, вказаний локальним ім'ям та URI простору імен, з ідентифікатором типу
+-   [DOMDocument::getElementById()](domdocument.getelementbyid.md) - Шукає елемент із певним ідентифікатором
+-   [DOMElement::setIdAttribute()](domelement.setidattribute.md) - Оголошує атрибут, вказаний ім'ям, з ідентифікатором типу
+-   [DOMElement::setIdAttributeNS()](domelement.setidattributens.md) - Оголошує атрибут, вказаний локальним ім'ям та URI простору імен, з ідентифікатором типу

@@ -17,21 +17,21 @@
 
 **Параметри конфігурації вбудованого драйвера MySQL**
 
-| Имя                                                                                          | По умолчанию                   | Место изменения | Список изменений                                                                            |
-|----------------------------------------------------------------------------------------------|--------------------------------|-----------------|---------------------------------------------------------------------------------------------|
-| [mysqlnd.collectstatistics](mysqlnd.config.html#ini.mysqlnd.collect-statistics)              | "1"                            | PHPINISYSTEM    |                                                                                             |
-| [mysqlnd.collectmemorystatistics](mysqlnd.config.html#ini.mysqlnd.collect-memory-statistics) | "0"                            | PHPINISYSTEM    |                                                                                             |
-| [mysqlnd.debug](mysqlnd.config.html#ini.mysqlnd.debug)                                       | ""                             | PHPINISYSTEM    |                                                                                             |
-| [mysqlnd.logmask](mysqlnd.config.html#ini.mysqlnd.log-mask)                                  |                                | PHPINIALL       |                                                                                             |
-| [mysqlnd.mempooldefaultsize](mysqlnd.config.html#ini.mysqlnd.mempool-default-size)           |                                | PHPINIALL       |                                                                                             |
-| [mysqlnd.netreadtimeout](mysqlnd.config.html#ini.mysqlnd.net-read-timeout)                   | "86400"                        | PHPINIALL       | До PHP 7.2.0 значенням за промовчанням "31536000", а місцем зміни було **`PHP_INI_SYSTEM`** |
-| [mysqlnd.netcmdbuffersize](mysqlnd.config.html#ini.mysqlnd.net-cmd-buffer-size)              | 5.3.0 - "2048"; 5.3.1 - "4096" | PHPINISYSTEM    |                                                                                             |
-| [mysqlnd.netreadbuffersize](mysqlnd.config.html#ini.mysqlnd.net-read-buffer-size)            | "32768"                        | PHPINISYSTEM    |                                                                                             |
-| [mysqlnd.sha256serverpublickey](mysqlnd.config.html#ini.mysqlnd.sha256-server-public-key)    | ""                             | PHPINIPERDIR    |                                                                                             |
-| [mysqlnd.tracealloc](mysqlnd.config.html#ini.mysqlnd.trace-alloc)                            | ""                             | PHPINISYSTEM    |                                                                                             |
-| [mysqlnd.fetchdatacopy](mysqlnd.config.html#ini.mysqlnd.fetch_data_copy)                     |                                | PHPINIALL       |                                                                                             |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [mysqlnd.collectstatistics](mysqlnd.config.html#ini.mysqlnd.collect-statistics) | "1" | PHPINISYSTEM |  |
+| [mysqlnd.collectmemorystatistics](mysqlnd.config.html#ini.mysqlnd.collect-memory-statistics) | "0" | PHPINISYSTEM |  |
+| [mysqlnd.debug](mysqlnd.config.html#ini.mysqlnd.debug) | "" | PHPINISYSTEM |  |
+| [mysqlnd.logmask](mysqlnd.config.html#ini.mysqlnd.log-mask) |  | PHPINIALL |  |
+| [mysqlnd.mempooldefaultsize](mysqlnd.config.html#ini.mysqlnd.mempool-default-size) |  | PHPINIALL |  |
+| [mysqlnd.netreadtimeout](mysqlnd.config.html#ini.mysqlnd.net-read-timeout) | "86400" | PHPINIALL | До PHP 7.2.0 значенням за промовчанням "31536000", а місцем зміни було **`PHP_INI_SYSTEM`** |
+| [mysqlnd.netcmdbuffersize](mysqlnd.config.html#ini.mysqlnd.net-cmd-buffer-size) | 5.3.0 - "2048"; 5.3.1 - "4096" | PHPINISYSTEM |  |
+| [mysqlnd.netreadbuffersize](mysqlnd.config.html#ini.mysqlnd.net-read-buffer-size) | "32768" | PHPINISYSTEM |  |
+| [mysqlnd.sha256serverpublickey](mysqlnd.config.html#ini.mysqlnd.sha256-server-public-key) | "" | PHPINIPERDIR |  |
+| [mysqlnd.tracealloc](mysqlnd.config.html#ini.mysqlnd.trace-alloc) | "" | PHPINISYSTEM |  |
+| [mysqlnd.fetchdatacopy](mysqlnd.config.html#ini.mysqlnd.fetch_data_copy) |  | PHPINIALL |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 
 Коротке пояснення конфігураційних директив.
 

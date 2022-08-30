@@ -1,12 +1,12 @@
 Повертає шлях до піддиректорії
 
--   [« RecursiveDirectoryIterator::getChildren](recursivedirectoryiterator.getchildren.html)
+-   [« RecursiveDirectoryIterator::getChildren](recursivedirectoryiterator.getchildren.md)
     
--   [RecursiveDirectoryIterator::getSubPathname »](recursivedirectoryiterator.getsubpathname.html)
+-   [RecursiveDirectoryIterator::getSubPathname »](recursivedirectoryiterator.getsubpathname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.html)
+-   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
     
 -   Повертає шлях до піддиректорії
     
@@ -63,5 +63,5 @@ $directory = '/tmp';
 
 ### Дивіться також
 
--   [RecursiveDirectoryIterator::getSubPathName()](recursivedirectoryiterator.getsubpathname.html) - Повертає шлях до піддиректорії та ім'я файлу
--   [RecursiveDirectoryIterator::key()](recursivedirectoryiterator.key.html) - Повертає шлях та ім'я файлу поточного елемента
+-   [RecursiveDirectoryIterator::getSubPathName()](recursivedirectoryiterator.getsubpathname.md) - Повертає шлях до піддиректорії та ім'я файлу
+-   [RecursiveDirectoryIterator::key()](recursivedirectoryiterator.key.md) - Повертає шлях та ім'я файлу поточного елемента

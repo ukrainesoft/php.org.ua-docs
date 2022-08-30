@@ -1,12 +1,12 @@
 Перевизначає одне повідомлення в домені
 
--   [« bindtextdomain](function.bindtextdomain.html)
+-   [« bindtextdomain](function.bindtextdomain.md)
     
--   [dcngettext »](function.dcngettext.html)
+-   [dcngettext »](function.dcngettext.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции gettext](ref.gettext.html)
+-   [Функции gettext](ref.gettext.md)
     
 -   Перевизначає одне повідомлення в домені
     
@@ -45,4 +45,4 @@ dcgettext(string $domain, string $message, int $category): string
 
 ### Дивіться також
 
--   [gettext()](function.gettext.html) - Шукає повідомлення у поточному домені
+-   [gettext()](function.gettext.md) - Шукає повідомлення у поточному домені

@@ -1,12 +1,12 @@
 Додає новий дочірній вузол до кінця списку нащадків
 
--   [« DOMNode](class.domnode.html)
+-   [« DOMNode](class.domnode.md)
     
--   [DOMNode::C14N »](domnode.c14n.html)
+-   [DOMNode::C14N »](domnode.c14n.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMNode](class.domnode.html)
+-   [DOMNode](class.domnode.md)
     
 -   Додає новий дочірній вузол до кінця списку нащадків
     
@@ -23,7 +23,7 @@ DOMNode::appendChild — Додає новий дочірній вузол до 
 public DOMNode::appendChild(DOMNode $node): DOMNode|false
 ```
 
-Функція додає дочірній вузол до існуючого списку нащадків або створює новий список дочірніх елементів. Дочірній вузол може бути створений за допомогою [DOMDocument::createElement()](domdocument.createelement.html) [DOMDocument::createTextNode()](domdocument.createtextnode.html) і т.д., або може бути використаний будь-який інший вузол.
+Функція додає дочірній вузол до існуючого списку нащадків або створює новий список дочірніх елементів. Дочірній вузол може бути створений за допомогою [DOMDocument::createElement()](domdocument.createelement.md) [DOMDocument::createTextNode()](domdocument.createtextnode.md) і т.д., або може бути використаний будь-який інший вузол.
 
 При використанні існуючого вузла його буде переміщено.
 
@@ -88,7 +88,7 @@ echo $doc->saveXML();
 
 ### Дивіться також
 
--   [DOMChildNode::after()](domchildnode.after.html) - Додає вузли після вузла
--   [DOMNode::insertBefore()](domnode.insertbefore.html) - Додає новий дочірній вузол перед вказаним вузлом
--   [DOMNode::removeChild()](domnode.removechild.html) - видаляє дочірній вузол зі списку нащадків
--   [DOMNode::replaceChild()](domnode.replacechild.html) - Замінює дочірній вузол
+-   [DOMChildNode::after()](domchildnode.after.md) - Додає вузли після вузла
+-   [DOMNode::insertBefore()](domnode.insertbefore.md) - Додає новий дочірній вузол перед вказаним вузлом
+-   [DOMNode::removeChild()](domnode.removechild.md) - видаляє дочірній вузол зі списку нащадків
+-   [DOMNode::replaceChild()](domnode.replacechild.md) - Замінює дочірній вузол

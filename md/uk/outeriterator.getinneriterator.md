@@ -1,12 +1,12 @@
 Повертає внутрішній ітератор для поточного елемента
 
--   [« OuterIterator](class.outeriterator.html)
+-   [« OuterIterator](class.outeriterator.md)
     
--   [RecursiveIterator »](class.recursiveiterator.html)
+-   [RecursiveIterator »](class.recursiveiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OuterIterator](class.outeriterator.html)
+-   [OuterIterator](class.outeriterator.md)
     
 -   Повертає внутрішній ітератор для поточного елемента
     

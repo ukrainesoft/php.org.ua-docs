@@ -1,12 +1,12 @@
 Отримати список кінцевих точок
 
--   [« ZMQSocket::disconnect](zmqsocket.disconnect.html)
+-   [« ZMQSocket::disconnect](zmqsocket.disconnect.md)
     
--   [ZMQSocket::getPersistentId »](zmqsocket.getpersistentid.html)
+-   [ZMQSocket::getPersistentId »](zmqsocket.getpersistentid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQSocket](class.zmqsocket.html)
+-   [ZMQSocket](class.zmqsocket.md)
     
 -   Отримати список кінцевих точок
     

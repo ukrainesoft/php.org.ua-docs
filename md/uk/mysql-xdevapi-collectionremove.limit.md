@@ -4,7 +4,7 @@
     
 -   [CollectionRemove::sort »](mysql-xdevapi-collectionremove.sort.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiCollectionRemove](class.mysql-xdevapi-collectionremove.html)
     

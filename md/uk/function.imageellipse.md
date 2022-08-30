@@ -1,12 +1,12 @@
 Малювання еліпса
 
--   [« imagedestroy](function.imagedestroy.html)
+-   [« imagedestroy](function.imagedestroy.md)
     
--   [imagefill »](function.imagefill.html)
+-   [imagefill »](function.imagefill.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Малювання еліпса
     
@@ -29,7 +29,7 @@ imageellipse(    GdImage $image,    int $center_x,    int $center_y,
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `center_x`
 
@@ -49,7 +49,7 @@ y-координат центру.
 
 `color`
 
-Колір еліпса. Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.html)
+Колір еліпса. Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.md)
 
 ### Значення, що повертаються
 
@@ -57,9 +57,9 @@ y-координат центру.
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -98,9 +98,9 @@ imagepng($image);
 
 > **Зауваження**
 > 
-> **imageellipse()** ігнорує [imagesetthickness()](function.imagesetthickness.html)
+> **imageellipse()** ігнорує [imagesetthickness()](function.imagesetthickness.md)
 
 ### Дивіться також
 
--   [imagefilledellipse()](function.imagefilledellipse.html) - Малювання зафарбованого еліпса
--   [imagearc()](function.imagearc.html) - Малювання дуги
+-   [imagefilledellipse()](function.imagefilledellipse.md) - Малювання зафарбованого еліпса
+-   [imagearc()](function.imagearc.md) - Малювання дуги

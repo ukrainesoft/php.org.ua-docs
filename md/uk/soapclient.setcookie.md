@@ -1,12 +1,12 @@
 Встановлює cookie для запитів SOAP
 
--   [« SoapClient::getTypes](soapclient.gettypes.html)
+-   [« SoapClient::getTypes](soapclient.gettypes.md)
     
--   [SoapClient::setLocation »](soapclient.setlocation.html)
+-   [SoapClient::setLocation »](soapclient.setlocation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SoapClient](class.soapclient.html)
+-   [SoapClient](class.soapclient.md)
     
 -   Встановлює cookie для запитів SOAP
     
@@ -27,7 +27,7 @@ public SoapClient::__setCookie(string $name, ?string $value = null): void
 
 > **Зауваження**
 > 
-> Виклик цього методу вплине на всі наступні виклики методів [SoapClient](class.soapclient.html)
+> Виклик цього методу вплине на всі наступні виклики методів [SoapClient](class.soapclient.md)
 
 ### Список параметрів
 
@@ -45,6 +45,6 @@ public SoapClient::__setCookie(string $name, ?string $value = null): void
 
 ### список змін
 
-| Версия | Описание                              |
-|--------|---------------------------------------|
-|        | `value` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `value` тепер допускає значення null. |

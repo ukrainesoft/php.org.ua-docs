@@ -1,12 +1,12 @@
 Розблокує м'ютекс
 
--   [« SyncMutex::lock](syncmutex.lock.html)
+-   [« SyncMutex::lock](syncmutex.lock.md)
     
--   [SyncSemaphore »](class.syncsemaphore.html)
+-   [SyncSemaphore »](class.syncsemaphore.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SyncMutex](class.syncmutex.html)
+-   [SyncMutex](class.syncmutex.md)
     
 -   Розблокує м'ютекс
     
@@ -23,7 +23,7 @@ SyncMutex::unlock — Розблокує м'ютекс
 public SyncMutex::unlock(bool $all = false): bool
 ```
 
-Зменшує внутрішній лічильник об'єкта [SyncMutex](class.syncmutex.html). Коли внутрішній лічильник досягає нуля, фактичне блокування об'єкта знімається.
+Зменшує внутрішній лічильник об'єкта [SyncMutex](class.syncmutex.md). Коли внутрішній лічильник досягає нуля, фактичне блокування об'єкта знімається.
 
 ### Список параметрів
 
@@ -53,4 +53,4 @@ $mutex->unlock();
 
 ### Дивіться також
 
--   [SyncMutex::lock()](syncmutex.lock.html) - Чекає на ексклюзивне блокування
+-   [SyncMutex::lock()](syncmutex.lock.md) - Чекає на ексклюзивне блокування

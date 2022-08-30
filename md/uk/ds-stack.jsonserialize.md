@@ -4,7 +4,7 @@
     
 -   [ДсStack::peek »](ds-stack.peek.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Стек](class.ds-stack.html)
     
@@ -17,7 +17,7 @@
 
 ДсStack::jsonSerialize — Повертає колекцію в JSON-представництві
 
-Дивись [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.html)
+Дивись [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
 
 > **Зауваження**
 > 

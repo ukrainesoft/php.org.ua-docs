@@ -1,12 +1,12 @@
 Клас MessageFormatter
 
--   [« Normalizer::normalize](normalizer.normalize.html)
+-   [« Normalizer::normalize](normalizer.normalize.md)
     
--   [MessageFormatter::create »](messageformatter.create.html)
+-   [MessageFormatter::create »](messageformatter.create.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [intl](book.intl.html)
+-   [intl](book.intl.md)
     
 -   Клас MessageFormatter
     
@@ -61,17 +61,17 @@ public setPattern(string $pattern): bool
 -   [»  ICU. Документация по форматированию.](https://unicode-org.github.io/icu/userguide/format_parse/)
 -   [»  ICU. Описание форматирования сообщений.](https://unicode-org.github.io/icu/userguide/format_parse/messages/)
 -   [» ICU. Средства форматирования сообщений](https://unicode-org.github.io/icu/userguide/format_parse/messages/)
--   [» ICU. Средства форматирования выбора](http://icu-project.org/apiref/icu4c/classChoiceFormat.html#details)
+-   [» ICU. Засоби форматування вибору](http://icu-project.org/apiref/icu4c/classChoiceFormat.html#details)
 
 ## Зміст
 
--   [MessageFormatter::create](messageformatter.create.html) — Створює засіб форматування повідомлень
--   [MessageFormatter::formatMessage](messageformatter.formatmessage.html) — Швидко форматує повідомлення
--   [MessageFormatter::format](messageformatter.format.html) — Форматує повідомлення
--   [MessageFormatter::getErrorCode](messageformatter.geterrorcode.html) — Повертає код помилки останньої операції
--   [MessageFormatter::getErrorMessage](messageformatter.geterrormessage.html) — Повертає текст помилки останньої операції
--   [MessageFormatter::getLocale](messageformatter.getlocale.html) — Повертає локаль, для якої було створено засіб форматування
--   [MessageFormatter::getPattern](messageformatter.getpattern.html) — Повертає шаблон, який використовує засіб форматування
--   [MessageFormatter::parseMessage](messageformatter.parsemessage.html) — Швидко розбирає вхідний рядок
--   [MessageFormatter::parse](messageformatter.parse.html) — Розбирає рядок згідно з шаблоном
--   [MessageFormatter::setPattern](messageformatter.setpattern.html) — Встановлює шаблон, який використовує засіб форматування
+-   [MessageFormatter::create](messageformatter.create.md) — Створює засіб форматування повідомлень
+-   [MessageFormatter::formatMessage](messageformatter.formatmessage.md) — Швидко форматує повідомлення
+-   [MessageFormatter::format](messageformatter.format.md) — Форматує повідомлення
+-   [MessageFormatter::getErrorCode](messageformatter.geterrorcode.md) — Повертає код помилки останньої операції
+-   [MessageFormatter::getErrorMessage](messageformatter.geterrormessage.md) — Повертає текст помилки останньої операції
+-   [MessageFormatter::getLocale](messageformatter.getlocale.md) — Повертає локаль, для якої було створено засіб форматування
+-   [MessageFormatter::getPattern](messageformatter.getpattern.md) — Повертає шаблон, який використовує засіб форматування
+-   [MessageFormatter::parseMessage](messageformatter.parsemessage.md) — Швидко розбирає вхідний рядок
+-   [MessageFormatter::parse](messageformatter.parse.md) — Розбирає рядок згідно з шаблоном
+-   [MessageFormatter::setPattern](messageformatter.setpattern.md) — Встановлює шаблон, який використовує засіб форматування

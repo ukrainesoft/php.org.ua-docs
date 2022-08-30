@@ -1,12 +1,12 @@
 Повертає список усіх варіантів перерахування
 
--   [« ReflectionEnum::getCase](reflectionenum.getcase.html)
+-   [« ReflectionEnum::getCase](reflectionenum.getcase.md)
     
--   [ReflectionEnum::hasCase »](reflectionenum.hascase.html)
+-   [ReflectionEnum::hasCase »](reflectionenum.hascase.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionEnum](class.reflectionenum.html)
+-   [ReflectionEnum](class.reflectionenum.md)
     
 -   Повертає список усіх варіантів перерахування
     
@@ -31,7 +31,7 @@ public ReflectionEnum::getCases(): array
 
 ### Значення, що повертаються
 
-Масив Reflection-об'єктів перерахування, по одному для кожного варіанта перерахування. Для простих перерахувань усі вони будуть екземплярами [ReflectionEnumUnitCase](class.reflectionenumunitcase.html). Для типізованих перерахувань усі вони будуть екземплярами [ReflectionEnumBackedCase](class.reflectionenumbackedcase.html)
+Масив Reflection-об'єктів перерахування, по одному для кожного варіанта перерахування. Для простих перерахувань усі вони будуть екземплярами [ReflectionEnumUnitCase](class.reflectionenumunitcase.md). Для типізованих перерахувань усі вони будуть екземплярами [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)
 
 ### Приклади
 
@@ -68,6 +68,6 @@ enum(Suit::Spades)
 
 ### Дивіться також
 
--   [Перечисления](language.enumerations.html)
--   [ReflectionEnum::getCase()](reflectionenum.getcase.html) - Повертає певний варіант перерахування
--   [ReflectionEnum::isBacked()](reflectionenum.isbacked.html) - Визначає, чи є перерахування типовим
+-   [Перечисления](language.enumerations.md)
+-   [ReflectionEnum::getCase()](reflectionenum.getcase.md) - Повертає певний варіант перерахування
+-   [ReflectionEnum::isBacked()](reflectionenum.isbacked.md) - Визначає, чи є перерахування типовим

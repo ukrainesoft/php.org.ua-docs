@@ -1,12 +1,12 @@
 Клас Worker
 
--   [« Thread::start](thread.start.html)
+-   [« Thread::start](thread.start.md)
     
--   [Worker::collect »](worker.collect.html)
+-   [Worker::collect »](worker.collect.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [pthreads](book.pthreads.html)
+-   [pthreads](book.pthreads.md)
     
 -   Клас Worker
     
@@ -76,9 +76,9 @@ public Thread::start(int $options = ?): bool
 
 ## Зміст
 
--   [Worker::collect](worker.collect.html) — Зібрати посилання на завершені завдання
--   [Worker::getStacked](worker.getstacked.html) — Повертає поточний розмір стека
--   [Worker::isShutdown](worker.isshutdown.html) — Визначення стану
--   [Worker::shutdown](worker.shutdown.html) - Зупинити Worker
--   [Worker::stack](worker.stack.html) - Покласти завдання на стек
--   [Worker::unstack](worker.unstack.html) — Забрати завдання зі стека
+-   [Worker::collect](worker.collect.md) — Зібрати посилання на завершені завдання
+-   [Worker::getStacked](worker.getstacked.md) — Повертає поточний розмір стека
+-   [Worker::isShutdown](worker.isshutdown.md) — Визначення стану
+-   [Worker::shutdown](worker.shutdown.md) - Зупинити Worker
+-   [Worker::stack](worker.stack.md) - Покласти завдання на стек
+-   [Worker::unstack](worker.unstack.md) — Забрати завдання зі стека

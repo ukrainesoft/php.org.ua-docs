@@ -1,12 +1,12 @@
 Перемістити вказівник на позицію в покажчику gz-файлу
 
--   [« gzrewind](function.gzrewind.html)
+-   [« gzrewind](function.gzrewind.md)
     
--   [gztell »](function.gztell.html)
+-   [gztell »](function.gztell.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Zlib](ref.zlib.html)
+-   [Функции Zlib](ref.zlib.md)
     
 -   Перемістити вказівник на позицію в покажчику gz-файлу
     
@@ -31,7 +31,7 @@ gzseek(resource $stream, int $offset, int $whence = SEEK_SET): int
 
 `stream`
 
-Вказівник на gz-файл, повернутий після його успішного відкриття функцією [gzopen()](function.gzopen.html)
+Вказівник на gz-файл, повернутий після його успішного відкриття функцією [gzopen()](function.gzopen.md)
 
 `offset`
 
@@ -65,5 +65,5 @@ gzclose($gz);
 
 ### Дивіться також
 
--   [gztell()](function.gztell.html) - Повертає поточну позицію читання/запису в покажчику gz-файлу
--   [gzrewind()](function.gzrewind.html) - Перемістити позицію покажчик gz-файлу на початок
+-   [gztell()](function.gztell.md) - Повертає поточну позицію читання/запису в покажчику gz-файлу
+-   [gzrewind()](function.gzrewind.md) - Перемістити позицію покажчик gz-файлу на початок

@@ -1,12 +1,12 @@
 Заливка кольором
 
--   [« imagefilledrectangle](function.imagefilledrectangle.html)
+-   [« imagefilledrectangle](function.imagefilledrectangle.md)
     
--   [imagefilter »](function.imagefilter.html)
+-   [imagefilter »](function.imagefilter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Заливка кольором
     
@@ -29,7 +29,7 @@ imagefilltoborder(    GdImage $image,    int $x,    int $y,    i
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `x`
 
@@ -41,11 +41,11 @@ y-координата початку.
 
 `border_color`
 
-Колір заливання кордону. Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.html)
+Колір заливання кордону. Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.md)
 
 `color`
 
-Колір заливки. Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.html)
+Колір заливки. Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.md)
 
 ### Значення, що повертаються
 
@@ -53,9 +53,9 @@ y-координата початку.
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 

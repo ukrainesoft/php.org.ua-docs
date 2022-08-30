@@ -1,12 +1,12 @@
 Закриває дескриптор об'єкта LOB
 
--   [« OCILob::append](ocilob.append.html)
+-   [« OCILob::append](ocilob.append.md)
     
--   [OCILob::eof »](ocilob.eof.html)
+-   [OCILob::eof »](ocilob.eof.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCILob](class.ocilob.html)
+-   [OCILob](class.ocilob.md)
     
 -   Закриває дескриптор об'єкта LOB
     
@@ -23,7 +23,7 @@ OCILob::close — Закриває дескриптор об'єкта LOB
 public OCILob::close(): bool
 ```
 
-Закриває дескриптор об'єкта LOB чи FILE. Функцію слід використовувати лише разом із [OCILob::writeTemporary](ocilob.writetemporary.html)
+Закриває дескриптор об'єкта LOB чи FILE. Функцію слід використовувати лише разом із [OCILob::writeTemporary](ocilob.writetemporary.md)
 
 ### Список параметрів
 
@@ -35,10 +35,10 @@ public OCILob::close(): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                                |
-|------------------------|---------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
--   [OCILob::writeTemporary](ocilob.writetemporary.html)
+-   [OCILob::writeTemporary](ocilob.writetemporary.md)

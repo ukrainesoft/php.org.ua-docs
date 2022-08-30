@@ -15,7 +15,7 @@
 
 -   [Radius](book.radius.html)
     -   [Введение](intro.radius.html)
-    -   [Установка и настройка](radius.setup.html)
-    -   [Предопределённые константы](radius.constants.html)
-    -   [Примеры](radius.examples.html)
+    -   [Встановлення та налаштування](radius.setup.html)
+    -   [Обумовлені константи](radius.constants.html)
+    -   [Приклади](radius.examples.html)
     -   [Функции Radius](ref.radius.html)

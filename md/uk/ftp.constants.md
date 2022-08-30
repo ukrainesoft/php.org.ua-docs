@@ -1,8 +1,8 @@
 Обумовлені константи
 
--   [« Типы ресурсов](ftp.resources.html)
+-   [« Типи ресурсів](ftp.resources.html)
     
--   [Примеры »](ftp.examples.html)
+-   [Приклади »](ftp.examples.html)
     
 -   [PHP Manual](index.html)
     

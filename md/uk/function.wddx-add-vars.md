@@ -1,12 +1,12 @@
 Додати змінні в пакет WDDX із зазначеним ідентифікатором
 
--   [« Функції WDDX](ref.wddx.html)
+-   [« Функції WDDX](ref.wddx.md)
     
 -   [wddxdeserialize »](function.wddx-deserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції WDDX](ref.wddx.html)
+-   [Функції WDDX](ref.wddx.md)
     
 -   Додати змінні в пакет WDDX із зазначеним ідентифікатором
     

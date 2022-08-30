@@ -4,9 +4,9 @@
     
 -   [tradercdlhomingpigeon »](function.trader-cdlhomingpigeon.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Модифікована модель свічка "Крюк"
     

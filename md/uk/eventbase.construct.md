@@ -1,12 +1,12 @@
 Конструктор об'єкту EventBase
 
--   [« EventBase](class.eventbase.html)
+-   [« EventBase](class.eventbase.md)
     
--   [EventBase::dispatch »](eventbase.dispatch.html)
+-   [EventBase::dispatch »](eventbase.dispatch.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBase](class.eventbase.html)
+-   [EventBase](class.eventbase.md)
     
 -   Конструктор об'єкту EventBase
     
@@ -33,7 +33,7 @@ public
 
 `cfg`
 
-Необов'язковий об'єкт [EventConfig](class.eventconfig.html)
+Необов'язковий об'єкт [EventConfig](class.eventconfig.md)
 
 ### Значення, що повертаються
 
@@ -41,4 +41,4 @@ public
 
 ### Дивіться також
 
--   [EventConfig](class.eventconfig.html)
+-   [EventConfig](class.eventconfig.md)

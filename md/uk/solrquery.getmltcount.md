@@ -1,12 +1,12 @@
 Повертає кількість схожих документів, що повертаються для кожного результату
 
--   [« SolrQuery::getMltBoost](solrquery.getmltboost.html)
+-   [« SolrQuery::getMltBoost](solrquery.getmltboost.md)
     
--   [SolrQuery::getMltFields »](solrquery.getmltfields.html)
+-   [SolrQuery::getMltFields »](solrquery.getmltfields.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає кількість схожих документів, що повертаються для кожного результату
     

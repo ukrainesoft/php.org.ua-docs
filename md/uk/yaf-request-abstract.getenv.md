@@ -4,7 +4,7 @@
     
 -   [YafRequestAbstract::getException »](yaf-request-abstract.getexception.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRequestAbstract](class.yaf-request-abstract.html)
     

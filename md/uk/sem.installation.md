@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](sem.requirements.html)
+-   [« Вимоги](sem.requirements.md)
     
--   [Настройка во время выполнения »](sem.configuration.html)
+-   [Налаштування під час виконання »](sem.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](sem.setup.html)
+-   [Встановлення та налаштування](sem.setup.md)
     
 -   Встановлення
     

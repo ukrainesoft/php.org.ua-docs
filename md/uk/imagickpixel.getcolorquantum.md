@@ -1,12 +1,12 @@
 Опис
 
--   [« ImagickPixel::getColorCount](imagickpixel.getcolorcount.html)
+-   [« ImagickPixel::getColorCount](imagickpixel.getcolorcount.md)
     
--   [ImagickPixel::getColorValue »](imagickpixel.getcolorvalue.html)
+-   [ImagickPixel::getColorValue »](imagickpixel.getcolorvalue.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickPixel](class.imagickpixel.html)
+-   [ImagickPixel](class.imagickpixel.md)
     
 -   Опис
     

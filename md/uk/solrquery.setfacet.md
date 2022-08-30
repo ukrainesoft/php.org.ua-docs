@@ -1,12 +1,12 @@
 Відповідає параметру фасета. Включає або вимикає фасетування
 
--   [« SolrQuery::setExplainOther](solrquery.setexplainother.html)
+-   [« SolrQuery::setExplainOther](solrquery.setexplainother.md)
     
--   [SolrQuery::setFacetDateEnd »](solrquery.setfacetdateend.html)
+-   [SolrQuery::setFacetDateEnd »](solrquery.setfacetdateend.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Відповідає параметру фасета. Включає або вимикає фасетування
     

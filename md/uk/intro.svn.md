@@ -1,12 +1,12 @@
 Вступ
 
--   [« SVN](book.svn.html)
+-   [« SVN](book.svn.md)
     
--   [Установка и настройка »](svn.setup.html)
+-   [Встановлення та налаштування »](svn.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SVN](book.svn.html)
+-   [SVN](book.svn.md)
     
 -   Вступ
     

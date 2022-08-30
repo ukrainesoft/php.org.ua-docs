@@ -4,9 +4,9 @@
     
 -   [mcryptencgetalgorithmsname »](function.mcrypt-enc-get-algorithms-name.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](ref.mcrypt.html)
+-   [Mcrypt](ref.mcrypt.md)
     
 -   Розшифровує дані із заданими параметрами
     

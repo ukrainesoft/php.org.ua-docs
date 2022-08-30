@@ -1,12 +1,12 @@
 Функції керування функціями
 
--   [« Предопределённые константы](funchand.constants.html)
+-   [« Обумовлені константи](funchand.constants.md)
     
 -   [calluserfuncarray »](function.call-user-func-array.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Управление функциями](book.funchand.html)
+-   [Управление функциями](book.funchand.md)
     
 -   Функції керування функціями
     

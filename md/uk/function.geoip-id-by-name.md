@@ -4,9 +4,9 @@
     
 -   [geoipispбname »](function.geoip-isp-by-name.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции GeoIP](ref.geoip.html)
+-   [Функции GeoIP](ref.geoip.md)
     
 -   Повертає тип інтернет-з'єднання
     

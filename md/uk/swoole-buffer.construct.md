@@ -4,7 +4,7 @@
     
 -   [SwooleBuffer::destruct »](swoole-buffer.destruct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleBuffer](class.swoole-buffer.html)
     

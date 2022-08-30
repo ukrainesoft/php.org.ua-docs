@@ -1,12 +1,12 @@
 Отримання ключа поточного елемента
 
--   [« RecursiveIteratorIterator::getSubIterator](recursiveiteratoriterator.getsubiterator.html)
+-   [« RecursiveIteratorIterator::getSubIterator](recursiveiteratoriterator.getsubiterator.md)
     
--   [RecursiveIteratorIterator::next »](recursiveiteratoriterator.next.html)
+-   [RecursiveIteratorIterator::next »](recursiveiteratoriterator.next.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
     
 -   Отримання ключа поточного елемента
     

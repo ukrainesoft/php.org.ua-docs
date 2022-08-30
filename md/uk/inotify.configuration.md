@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка и настройка](inotify.install.html)
+-   [« Встановлення та налаштування](inotify.install.md)
     
--   [Типы ресурсов »](inotify.resources.html)
+-   [Типи ресурсів »](inotify.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](inotify.setup.html)
+-   [Встановлення та налаштування](inotify.setup.md)
     
 -   Налаштування під час виконання
     

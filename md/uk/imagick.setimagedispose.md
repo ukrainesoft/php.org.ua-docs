@@ -1,12 +1,12 @@
 Встановлює метод видалення зображення
 
--   [« Imagick::setImageDepth](imagick.setimagedepth.html)
+-   [« Imagick::setImageDepth](imagick.setimagedepth.md)
     
--   [Imagick::setImageExtent »](imagick.setimageextent.html)
+-   [Imagick::setImageExtent »](imagick.setimageextent.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює метод видалення зображення
     

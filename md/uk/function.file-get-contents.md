@@ -4,9 +4,9 @@
     
 -   [fileputcontents »](function.file-put-contents.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Читає вміст файлу в рядок
     
@@ -23,13 +23,13 @@ filegetcontents — Читає вміст файлу в рядок
 file_get_contents(    string $filename,    bool $use_include_path = false,    ?resource $context = null,    int $offset = 0,    ?int $length = null): string|false
 ```
 
-Ця функція схожа на функцію [file()](function.file.html) з тією лише різницею, що **filegetcontents()** повертає вміст файлу в рядку, починаючи з вказаного усунення `offset` і до `length` байт. У разі невдачі, **filegetcontents()** поверне **`false`**
+Ця функція схожа на функцію [file()](function.file.md) з тією лише різницею, що **filegetcontents()** повертає вміст файлу в рядку, починаючи з вказаного усунення `offset` і до `length` байт. У разі невдачі, **filegetcontents()** поверне **`false`**
 
 Використання функції **filegetcontents()** найкраще в разі необхідності отримати вміст файлу цілком, оскільки для поліпшення продуктивності функція використовує техніку відображення файлу в пам'ять (memory mapping), якщо вона підтримується вашою операційною системою.
 
 > **Зауваження**
 > 
-> Якщо ви відкриваєте URI, що містить спецсимволи, такі як пропуск, вам потрібно закодувати URI за допомогою [urlencode()](function.urlencode.html)
+> Якщо ви відкриваєте URI, що містить спецсимволи, такі як пропуск, вам потрібно закодувати URI за допомогою [urlencode()](function.urlencode.md)
 
 ### Список параметрів
 
@@ -63,7 +63,7 @@ file_get_contents(    string $filename,    bool $use_include_path = fals
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### Помилки
 
@@ -73,10 +73,10 @@ file_get_contents(    string $filename,    bool $use_include_path = fals
 
 ### список змін
 
-| Версия | Описание                                              |
-|--------|-------------------------------------------------------|
-|        | Параметр `length` тепер припускає значення **`null`** |
-|        | Додано підтримку негативних значень `offset`          |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `length` тепер припускає значення **`null`** |
+|  | Додано підтримку негативних значень `offset` |
 
 ### Приклади
 
@@ -142,19 +142,19 @@ $file = file_get_contents('http://www.example.com/', false, $context);
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.html)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 **Увага**
 
-При використанні SSL Microsoft IIS порушує протокол, закриваючи з'єднання без надсилання індикатора `close_notify`. PHP повідомить про це як "SSL: Fatal Protocol Error" в той момент, коли ви досягнете кінця даних. Щоб обійти це, ви повинні встановити [errorreporting](errorfunc.configuration.html#ini.error-reporting) на рівень, що виключає EWARNING. PHP вміє визначати, що на стороні сервера перебуває проблемний IIS при відкритті потоку за допомогою обгортки `https://` та не виводить попередження. Якщо ви використовуєте [fsockopen()](function.fsockopen.html) для створення `ssl://` сокету, ви самі відповідаєте за визначення та придушення цього попередження.
+При використанні SSL Microsoft IIS порушує протокол, закриваючи з'єднання без надсилання індикатора `close_notify`. PHP повідомить про це як "SSL: Fatal Protocol Error" в той момент, коли ви досягнете кінця даних. Щоб обійти це, ви повинні встановити [errorreporting](errorfunc.configuration.html#ini.error-reporting) на рівень, що виключає EWARNING. PHP вміє визначати, що на стороні сервера перебуває проблемний IIS при відкритті потоку за допомогою обгортки `https://` та не виводить попередження. Якщо ви використовуєте [fsockopen()](function.fsockopen.md) для створення `ssl://` сокету, ви самі відповідаєте за визначення та придушення цього попередження.
 
 ### Дивіться також
 
--   [file()](function.file.html) - Читає вміст файлу та поміщає його в масив
--   [fgets()](function.fgets.html) - Читає рядок із файлу
--   [fread()](function.fread.html) - Бінарно-безпечне читання файлу
--   [readfile()](function.readfile.html) - Виводить файл
+-   [file()](function.file.md) - Читає вміст файлу та поміщає його в масив
+-   [fgets()](function.fgets.md) - Читає рядок із файлу
+-   [fread()](function.fread.md) - Бінарно-безпечне читання файлу
+-   [readfile()](function.readfile.md) - Виводить файл
 -   [fileputcontents()](function.file-put-contents.html) - Пише дані у файл
 -   [streamgetcontents()](function.stream-get-contents.html) - Читає частину потоку, що залишилася, в рядок
 -   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку
--   [$httpresponseheader](reserved.variables.httpresponseheader.html)
+-   [$httpresponseheader](reserved.variables.httpresponseheader.md)

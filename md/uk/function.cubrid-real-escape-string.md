@@ -4,9 +4,9 @@
     
 -   [cubridresult »](function.cubrid-result.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
     
 -   Екранування спеціальних символів у SQL-запиті
     

@@ -4,7 +4,7 @@
     
 -   [ОЙControlsMultilineEntry::setText »](ui-controls-multilineentry.settext.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsMultilineEntry](class.ui-controls-multilineentry.html)
     

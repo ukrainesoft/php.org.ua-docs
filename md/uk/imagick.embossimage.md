@@ -1,12 +1,12 @@
 Повертає зображення у градаціях сірого з тривимірним ефектом
 
--   [« Imagick::edgeImage](imagick.edgeimage.html)
+-   [« Imagick::edgeImage](imagick.edgeimage.md)
     
--   [Imagick::encipherImage »](imagick.encipherimage.html)
+-   [Imagick::encipherImage »](imagick.encipherimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає зображення у градаціях сірого з тривимірним ефектом
     

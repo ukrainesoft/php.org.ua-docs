@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.xmlrpc.html)
     
--   [Требования »](xmlrpc.requirements.html)
+-   [Вимоги »](xmlrpc.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](xmlrpc.requirements.html)
+-   [Вимоги](xmlrpc.requirements.html)
 -   [Установка](xmlrpc.installation.html)
--   [Настройка во время выполнения](xmlrpc.configuration.html)
--   [Типы ресурсов](xmlrpc.resources.html)
+-   [Налаштування під час виконання](xmlrpc.configuration.html)
+-   [Типи ресурсів](xmlrpc.resources.html)

@@ -1,12 +1,12 @@
 Створює новий екземпляр класу XSLTProcessor
 
--   [« XSLTProcessor](class.xsltprocessor.html)
+-   [« XSLTProcessor](class.xsltprocessor.md)
     
--   [XSLTProcessor::getParameter »](xsltprocessor.getparameter.html)
+-   [XSLTProcessor::getParameter »](xsltprocessor.getparameter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XSLTProcessor](class.xsltprocessor.html)
+-   [XSLTProcessor](class.xsltprocessor.md)
     
 -   Створює новий екземпляр класу XSLTProcessor
     
@@ -21,7 +21,7 @@ XSLTProcessor::construct — Створює новий екземпляр кла
 
 **XSLTProcessor::construct**
 
-Створює новий екземпляр класу [XSLTProcessor](class.xsltprocessor.html)
+Створює новий екземпляр класу [XSLTProcessor](class.xsltprocessor.md)
 
 ### Список параметрів
 
@@ -29,7 +29,7 @@ XSLTProcessor::construct — Створює новий екземпляр кла
 
 ### Приклади
 
-**Приклад #1 Створює [XSLTProcessor](class.xsltprocessor.html)**
+**Приклад #1 Створює [XSLTProcessor](class.xsltprocessor.md)**
 
 ```php
 <?php

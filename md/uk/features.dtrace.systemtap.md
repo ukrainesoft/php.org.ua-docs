@@ -1,12 +1,12 @@
 Використання SystemTap зі статичними зондами PHP DTrace
 
--   [« Использование PHP и DTrace](features.dtrace.dtrace.html)
+-   [« Использование PHP и DTrace](features.dtrace.dtrace.md)
     
--   [Справочник функций »](funcref.html)
+-   [Справочник функций »](funcref.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Динамічна трасування DTrace](features.dtrace.html)
+-   [Динамічна трасування DTrace](features.dtrace.md)
     
 -   Використання SystemTap зі статичними зондами PHP DTrace
     

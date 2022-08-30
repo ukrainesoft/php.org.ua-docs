@@ -4,9 +4,9 @@
     
 -   [xdifffilediff »](function.xdiff-file-diff.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.md)
     
 -   Псевдонім для xdifffilebdiff
     

@@ -4,9 +4,9 @@
     
 -   [phpiniloadedfile »](function.php-ini-loaded-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Повертає кількість пам'яті, виділену для PHP
     

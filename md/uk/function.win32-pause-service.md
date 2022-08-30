@@ -4,9 +4,9 @@
     
 -   [win32queryservicestatus »](function.win32-query-service-status.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [win32service](ref.win32service.html)
+-   [win32service](ref.win32service.md)
     
 -   Припиняє службу
     
@@ -39,22 +39,22 @@ win32_pause_service(string $servicename, string $machine = ?): void
 
 Функція не повертає значення після виконання.
 
-До версії 1.0.0, Повертає **`WIN32_NO_ERROR`** у разі успішного завершення **`false`** якщо була виявлена ​​проблема з параметрами або [код ошибки Win32](win32service.constants.errors.html) при невдалому завершенні роботи.
+До версії 1.0.0, Повертає **`WIN32_NO_ERROR`** у разі успішного завершення **`false`** якщо була виявлена ​​проблема з параметрами або [код ошибки Win32](win32service.constants.errors.md) при невдалому завершенні роботи.
 
 ### Помилки
 
-Викидає [ValueError](class.valueerror.html), якщо значення `servicename` не вказано.
+Викидає [ValueError](class.valueerror.md), якщо значення `servicename` не вказано.
 
-Викидає [Win32ServiceException](class.win32serviceexception.html) у разі виникнення помилки.
+Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки.
 
 ### список змін
 
-| Версия                  | Описание                                                                                                                                                              |
-|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) при невірних даних у параметрах, що раніше поверталося **`false`**                                                        |
-| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.html) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.html) |
-| PECL win32service 1.0.0 | Тип повертається тепер void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed)                                                   |
-| PECL win32service 0.3.0 | Функція більше не вимагає облікового запису адміністратора, якщо ACL інстальовано для іншого облікового запису.                                                       |
+| Версия | Описание |
+| --- | --- |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`** |
+| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
+| PECL win32service 1.0.0 | Тип повертається тепер void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
+| PECL win32service 0.3.0 | Функція більше не вимагає облікового запису адміністратора, якщо ACL інстальовано для іншого облікового запису. |
 
 ### Дивіться також
 
@@ -62,4 +62,4 @@ win32_pause_service(string $servicename, string $machine = ?): void
 -   [win32stopservice()](function.win32-stop-service.html) - зупиняє службу
 -   [win32continueservice()](function.win32-continue-service.html) - Відновлює роботу зупиненої служби
 -   [win32sendcustomcontrol()](function.win32-send-custom-control.html) - Відправляє налаштований елемент керування до служби
--   [Коды ошибок Win32](win32service.constants.errors.html)
+-   [Коди помилок Win32](win32service.constants.errors.md)

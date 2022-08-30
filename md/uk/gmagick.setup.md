@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.gmagick.html)
     
--   [Требования »](gmagick.requirements.html)
+-   [Вимоги »](gmagick.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,6 +15,6 @@
 
 ## Зміст
 
--   [Требования](gmagick.requirements.html)
+-   [Вимоги](gmagick.requirements.html)
 -   [Установка](gmagick.installation.html)
--   [Настройка во время выполнения](gmagick.configuration.html)
+-   [Налаштування під час виконання](gmagick.configuration.html)

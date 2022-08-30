@@ -4,9 +4,9 @@
     
 -   [ісiterable »](function.is-iterable.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи зі змінними](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.md)
     
 -   Псевдонім isint
     

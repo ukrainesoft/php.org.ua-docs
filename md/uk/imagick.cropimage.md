@@ -1,12 +1,12 @@
 Витягує область зображення
 
--   [« Imagick::count](imagick.count.html)
+-   [« Imagick::count](imagick.count.md)
     
--   [Imagick::cropThumbnailImage »](imagick.cropthumbnailimage.html)
+-   [Imagick::cropThumbnailImage »](imagick.cropthumbnailimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Витягує область зображення
     

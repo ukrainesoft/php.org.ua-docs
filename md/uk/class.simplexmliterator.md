@@ -1,12 +1,12 @@
 Клас SimpleXMLIterator
 
--   [« SimpleXMLElement::xpath](simplexmlelement.xpath.html)
+-   [« SimpleXMLElement::xpath](simplexmlelement.xpath.md)
     
--   [SimpleXMLIterator::current »](simplexmliterator.current.html)
+-   [SimpleXMLIterator::current »](simplexmliterator.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXML](book.simplexml.html)
+-   [SimpleXML](book.simplexml.md)
     
 -   Клас SimpleXMLIterator
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-SimpleXMLIterator забезпечує рекурсивну ітерацію по всіх вузлах об'єкта [SimpleXMLElement](class.simplexmlelement.html)
+SimpleXMLIterator забезпечує рекурсивну ітерацію по всіх вузлах об'єкта [SimpleXMLElement](class.simplexmlelement.md)
 
 ## Огляд класів
 
@@ -67,16 +67,16 @@ public SimpleXMLElement::xpath(string $expression): array|null|false
 
 ## список змін
 
-| Версия | Описание                                                                                |
-|--------|-----------------------------------------------------------------------------------------|
-|        | Клас **SimpleXMLIterator** тепер реалізує інтерфейс [Stringable](class.stringable.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **SimpleXMLIterator** тепер реалізує інтерфейс [Stringable](class.stringable.md) |
 
 ## Зміст
 
--   [SimpleXMLIterator::current](simplexmliterator.current.html) — Повертає поточний елемент
--   [SimpleXMLIterator::getChildren](simplexmliterator.getchildren.html) — Повертає вкладені елементи поточного елемента
--   [SimpleXMLIterator::hasChildren](simplexmliterator.haschildren.html) — Перевіряє, чи поточний елемент має вкладені елементи.
--   [SimpleXMLIterator::key](simplexmliterator.key.html) — Повертає поточний ключ
--   [SimpleXMLIterator::next](simplexmliterator.next.html) — Переміщує ітератор до наступного елементу
--   [SimpleXMLIterator::rewind](simplexmliterator.rewind.html) — Повертає ітератор до першого елементу
--   [SimpleXMLIterator::valid](simplexmliterator.valid.html) — Перевіряє, чи поточний елемент є допустимим
+-   [SimpleXMLIterator::current](simplexmliterator.current.md) — Повертає поточний елемент
+-   [SimpleXMLIterator::getChildren](simplexmliterator.getchildren.md) — Повертає вкладені елементи поточного елемента
+-   [SimpleXMLIterator::hasChildren](simplexmliterator.haschildren.md) — Перевіряє, чи поточний елемент має вкладені елементи.
+-   [SimpleXMLIterator::key](simplexmliterator.key.md) — Повертає поточний ключ
+-   [SimpleXMLIterator::next](simplexmliterator.next.md) — Переміщує ітератор до наступного елементу
+-   [SimpleXMLIterator::rewind](simplexmliterator.rewind.md) — Повертає ітератор до першого елементу
+-   [SimpleXMLIterator::valid](simplexmliterator.valid.md) — Перевіряє, чи поточний елемент є допустимим

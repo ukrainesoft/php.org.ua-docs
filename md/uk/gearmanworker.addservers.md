@@ -1,12 +1,12 @@
 Додавання серверів завдань
 
--   [« GearmanWorker::addServer](gearmanworker.addserver.html)
+-   [« GearmanWorker::addServer](gearmanworker.addserver.md)
     
--   [GearmanWorker::clone »](gearmanworker.clone.html)
+-   [GearmanWorker::clone »](gearmanworker.clone.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanWorker](class.gearmanworker.html)
+-   [GearmanWorker](class.gearmanworker.md)
     
 -   Додавання серверів завдань
     
@@ -50,4 +50,4 @@ $worker->addServers("10.0.0.1,10.0.0.2:7003");
 
 ### Дивіться також
 
--   [GearmanWorker::addServer()](gearmanworker.addserver.html) - Додавання сервера завдань
+-   [GearmanWorker::addServer()](gearmanworker.addserver.md) - Додавання сервера завдань

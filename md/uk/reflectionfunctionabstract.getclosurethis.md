@@ -1,12 +1,12 @@
 Повертає покажчик, прив'язаний до замикання
 
--   [« ReflectionFunctionAbstract::getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.html)
+-   [« ReflectionFunctionAbstract::getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.md)
     
--   [ReflectionFunctionAbstract::getClosureUsedVariables »](reflectionfunctionabstract.getclosureusedvariables.html)
+-   [ReflectionFunctionAbstract::getClosureUsedVariables »](reflectionfunctionabstract.getclosureusedvariables.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
     
 -   Повертає покажчик, прив'язаний до замикання
     

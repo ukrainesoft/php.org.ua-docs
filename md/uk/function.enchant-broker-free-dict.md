@@ -4,9 +4,9 @@
     
 -   [enchantbrokerfree »](function.enchant-broker-free.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Enchant](ref.enchant.html)
+-   [Функции Enchant](ref.enchant.md)
     
 -   Визволяє ресурс словника
     
@@ -41,9 +41,9 @@ enchant_broker_free_dict(EnchantDictionary $dictionary): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                 |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `dictionary` чекає [EnchantDictionary](class.enchantdictionary.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

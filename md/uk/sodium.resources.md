@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](sodium.configuration.html)
+-   [« Налаштування під час виконання](sodium.configuration.md)
     
--   [Предопределённые константы »](sodium.constants.html)
+-   [Обумовлені константи »](sodium.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](sodium.setup.html)
+-   [Встановлення та налаштування](sodium.setup.md)
     
 -   Типи ресурсів
     

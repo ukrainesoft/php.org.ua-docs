@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.dio.html)
+-   [« Введение](intro.dio.md)
     
--   [Требования »](dio.requirements.html)
+-   [Вимоги »](dio.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Прямой ввод/вывод (Direct IO)](book.dio.html)
+-   [Пряме введення/виведення (Direct IO)](book.dio.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](dio.requirements.html)
--   [Установка](dio.installation.html)
--   [Настройка во время выполнения](dio.configuration.html)
--   [Типы ресурсов](dio.resources.html)
+-   [Вимоги](dio.requirements.md)
+-   [Установка](dio.installation.md)
+-   [Налаштування під час виконання](dio.configuration.md)
+-   [Типи ресурсів](dio.resources.md)

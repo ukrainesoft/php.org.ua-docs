@@ -4,9 +4,9 @@
     
 -   [convertuudecode »](function.convert-uudecode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Перетворює рядок з одного кириличного кодування на інше
     
@@ -63,4 +63,4 @@ convert_cyr_string(string $str, string $from, string $to): string
 ### Дивіться також
 
 -   [мбconvertencoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
--   [iconv()](function.iconv.html) - Перетворює рядок з одного кодування символів на інший
+-   [iconv()](function.iconv.md) - Перетворює рядок з одного кодування символів на інший

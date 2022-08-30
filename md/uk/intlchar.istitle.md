@@ -1,12 +1,12 @@
 Перевірити, чи символ є титульним (Titlecase)
 
--   [« IntlChar::isspace](intlchar.isspace.html)
+-   [« IntlChar::isspace](intlchar.isspace.md)
     
--   [IntlChar::isUAlphabetic »](intlchar.isualphabetic.html)
+-   [IntlChar::isUAlphabetic »](intlchar.isualphabetic.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити, чи символ є титульним (Titlecase)
     
@@ -63,6 +63,6 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isupper()](intlchar.isupper.html) - Перевірити, чи входить символ у категорію "Lu" (літера у верхньому регістрі)
--   [IntlChar::islower()](intlchar.islower.html) - Перевірити, чи в нижньому регістрі символ
--   [IntlChar::totitle()](intlchar.totitle.html) - Перетворює символ Unicode у titlecase
+-   [IntlChar::isupper()](intlchar.isupper.md) - Перевірити, чи входить символ у категорію "Lu" (літера у верхньому регістрі)
+-   [IntlChar::islower()](intlchar.islower.md) - Перевірити, чи в нижньому регістрі символ
+-   [IntlChar::totitle()](intlchar.totitle.md) - Перетворює символ Unicode у titlecase

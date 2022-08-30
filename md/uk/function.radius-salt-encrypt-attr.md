@@ -4,9 +4,9 @@
     
 -   [radiussendrequest »](function.radius-send-request.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Radius](ref.radius.html)
+-   [Функции Radius](ref.radius.md)
     
 -   Зашифровує значення за допомогою солі
     

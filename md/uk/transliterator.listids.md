@@ -1,12 +1,12 @@
 Отримати ідентифікатори транслітератора
 
--   [« Transliterator::getErrorMessage](transliterator.geterrormessage.html)
+-   [« Transliterator::getErrorMessage](transliterator.geterrormessage.md)
     
--   [Transliterator::transliterate »](transliterator.transliterate.html)
+-   [Transliterator::transliterate »](transliterator.transliterate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Transliterator](class.transliterator.html)
+-   [Transliterator](class.transliterator.md)
     
 -   Отримати ідентифікатори транслітератора
     
@@ -74,5 +74,5 @@ Array
 
 ### Дивіться також
 
--   [Transliterator::getErrorMessage()](transliterator.geterrormessage.html) - Отримати останнє повідомлення про помилку
--   [Transliterator::transliterate()](transliterator.transliterate.html) - Транслітерувати рядок
+-   [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) - Отримати останнє повідомлення про помилку
+-   [Transliterator::transliterate()](transliterator.transliterate.md) - Транслітерувати рядок

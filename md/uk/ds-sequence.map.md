@@ -4,7 +4,7 @@
     
 -   [ДсSequence::merge »](ds-sequence.merge.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Послідовність](class.ds-sequence.html)
     
@@ -33,7 +33,7 @@ abstract public Ds\Sequence::map(callable $callback): Ds\Sequence
 callback(mixed $value): mixed
 ```
 
-Аргумент типу [callable](language.types.callable.html)
+Аргумент типу [callable](language.types.callable.md)
 
 Ця функція повинна повертати нове значення для кожного елемента колекції.
 

@@ -1,12 +1,12 @@
 Перетворює шістнадцяткові дані на двійкові
 
--   [« hebrevc](function.hebrevc.html)
+-   [« hebrevc](function.hebrevc.md)
     
 -   [htmlentitydecode »](function.html-entity-decode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Перетворює шістнадцяткові дані на двійкові
     
@@ -62,5 +62,5 @@ string(60) "пример шестнадцатеричных данных"
 
 ### Дивіться також
 
--   [bin2hex()](function.bin2hex.html) - Перетворює бінарні дані на шістнадцяткове подання
--   [unpack()](function.unpack.html) - Розпакувати дані з бінарного рядка
+-   [bin2hex()](function.bin2hex.md) - Перетворює бінарні дані на шістнадцяткове подання
+-   [unpack()](function.unpack.md) - Розпакувати дані з бінарного рядка

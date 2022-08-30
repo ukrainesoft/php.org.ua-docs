@@ -4,9 +4,9 @@
     
 -   [sodiumcryptoaeadchacha20poly1305decrypt »](function.sodium-crypto-aead-chacha20poly1305-decrypt.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Створює випадковий ключ AES-256-GCM
     

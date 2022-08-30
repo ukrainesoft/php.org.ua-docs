@@ -1,12 +1,12 @@
 Імпортує пікселі зображення
 
--   [« Imagick::implodeImage](imagick.implodeimage.html)
+-   [« Imagick::implodeImage](imagick.implodeimage.md)
     
--   [Imagick::inverseFourierTransformImage »](imagick.inversefouriertransformimage.html)
+-   [Imagick::inverseFourierTransformImage »](imagick.inversefouriertransformimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Імпортує пікселі зображення
     
@@ -70,7 +70,7 @@ public Imagick::importImagePixels(    int $x,    int $y,    int $wid
 ```php
 <?php
 
-/* Создание массива пикселей. 2000 пикселей на цветную полосу */
+/* Создание Масива пикселей. 2000 пикселей на цветную полосу */
 $count = 2000 * 3;
 
 $pixels =

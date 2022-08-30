@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](ibm-db2.configuration.html)
+-   [« Налаштування під час виконання](ibm-db2.configuration.html)
     
--   [Предопределённые константы »](ibm-db2.constants.html)
+-   [Обумовлені константи »](ibm-db2.constants.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ibm-db2.setup.html)
+-   [Встановлення та налаштування](ibm-db2.setup.html)
     
 -   Типи ресурсів
     

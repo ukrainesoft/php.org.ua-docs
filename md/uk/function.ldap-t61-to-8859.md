@@ -4,9 +4,9 @@
     
 -   [ldapunbind »](function.ldap-unbind.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.md)
     
 -   Перекладає символи з кодування t61 ISO-8859
     

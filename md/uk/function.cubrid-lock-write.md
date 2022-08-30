@@ -4,9 +4,9 @@
     
 -   [cubridmovecursor »](function.cubrid-move-cursor.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Встановлює блокування запису для цього OID
     

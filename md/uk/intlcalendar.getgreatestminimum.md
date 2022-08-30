@@ -1,12 +1,12 @@
 Отримує найбільше локальне мінімальне значення поля
 
--   [« IntlCalendar::getFirstDayOfWeek](intlcalendar.getfirstdayofweek.html)
+-   [« IntlCalendar::getFirstDayOfWeek](intlcalendar.getfirstdayofweek.md)
     
--   [IntlCalendar::getKeywordValuesForLocale »](intlcalendar.getkeywordvaluesforlocale.html)
+-   [IntlCalendar::getKeywordValuesForLocale »](intlcalendar.getkeywordvaluesforlocale.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Отримує найбільше локальне мінімальне значення поля
     
@@ -31,17 +31,17 @@ public IntlCalendar::getGreatestMinimum(int $field): int|false
 intlcal_get_greatest_minimum(IntlCalendar $calendar, int $field): int|false
 ```
 
-Повертає найбільше локальне мінімальне значення поля. Це має бути значення, більше або рівне значенню, що повертається [IntlCalendar::getActualMinimum()](intlcalendar.getactualminimum.html), яке, у свою чергу, більше або дорівнює значенню, що повертається [IntlCalendar::getMinimum()](intlcalendar.getminimum.html). Всі ці три функції повертають те саме значення для григоріанського календаря.
+Повертає найбільше локальне мінімальне значення поля. Це має бути значення, більше або рівне значенню, що повертається [IntlCalendar::getActualMinimum()](intlcalendar.getactualminimum.md), яке, у свою чергу, більше або дорівнює значенню, що повертається [IntlCalendar::getMinimum()](intlcalendar.getminimum.md). Всі ці три функції повертають те саме значення для григоріанського календаря.
 
 ### Список параметрів
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `field`
 
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.html) [констант](class.intlcalendar.html#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.html#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
 
 ### Значення, що повертаються
 

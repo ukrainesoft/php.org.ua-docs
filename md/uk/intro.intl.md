@@ -2,7 +2,7 @@
 
 -   [« intl](book.intl.html)
     
--   [Установка и настройка »](intl.setup.html)
+-   [Встановлення та налаштування »](intl.setup.html)
     
 -   [PHP Manual](index.html)
     

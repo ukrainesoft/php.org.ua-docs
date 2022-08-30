@@ -1,12 +1,12 @@
 Повертає додаткову інформацію у разі виникнення помилки
 
--   [« Функции YAZ](ref.yaz.html)
+-   [« Функции YAZ](ref.yaz.md)
     
 -   [yazcclconf »](function.yaz-ccl-conf.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции YAZ](ref.yaz.html)
+-   [Функции YAZ](ref.yaz.md)
     
 -   Повертає додаткову інформацію у разі виникнення помилки
     

@@ -4,9 +4,9 @@
     
 -   [radiusputvendorstring »](function.radius-put-vendor-string.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Radius](ref.radius.html)
+-   [Функции Radius](ref.radius.md)
     
 -   Приєднує цілий атрибут, що залежить від постачальника
     
@@ -61,8 +61,8 @@ ID виробника (Vendor).
 
 ### список змін
 
-| Версия            | Описание                           |
-|-------------------|------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL radius 1.3.0 | Додані параметри `options` і `tag` |
 
 ### Дивіться також

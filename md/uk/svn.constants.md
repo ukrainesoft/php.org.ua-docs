@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](svn.resources.html)
+-   [« Типи ресурсів](svn.resources.md)
     
--   [Функції SVN »](ref.svn.html)
+-   [Функції SVN »](ref.svn.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SVN](book.svn.html)
+-   [SVN](book.svn.md)
     
 -   Обумовлені константи
     

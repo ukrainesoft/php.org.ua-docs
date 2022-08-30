@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](shmop.configuration.html)
+-   [« Налаштування під час виконання](shmop.configuration.md)
     
--   [Предопределённые константы »](shmop.constants.html)
+-   [Обумовлені константи »](shmop.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](shmop.setup.html)
+-   [Встановлення та налаштування](shmop.setup.md)
     
 -   Типи ресурсів
     

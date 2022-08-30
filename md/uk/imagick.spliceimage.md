@@ -1,12 +1,12 @@
 Склеює суцільний колір у зображення
 
--   [« Imagick::sparseColorImage](imagick.sparsecolorimage.html)
+-   [« Imagick::sparseColorImage](imagick.sparsecolorimage.md)
     
--   [Imagick::spreadImage »](imagick.spreadimage.html)
+-   [Imagick::spreadImage »](imagick.spreadimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Склеює суцільний колір у зображення
     

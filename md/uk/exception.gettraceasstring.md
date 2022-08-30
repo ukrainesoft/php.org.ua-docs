@@ -1,12 +1,12 @@
 Отримує трасування стека у вигляді рядка
 
--   [« Exception::getTrace](exception.gettrace.html)
+-   [« Exception::getTrace](exception.gettrace.md)
     
--   [Exception::toString »](exception.tostring.html)
+-   [Exception::toString »](exception.tostring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Exception](class.exception.html)
+-   [Exception](class.exception.md)
     
 -   Отримує трасування стека у вигляді рядка
     
@@ -60,4 +60,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getTraceAsString()](throwable.gettraceasstring.html) - Отримує результати трасування стека у вигляді рядка
+-   [Throwable::getTraceAsString()](throwable.gettraceasstring.md) - Отримує результати трасування стека у вигляді рядка

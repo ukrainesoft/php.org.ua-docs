@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Примеры](com.examples.html)
+-   [Приклади](com.examples.html)
     
 -   Масиви та властивості COM у стилі масивів
     

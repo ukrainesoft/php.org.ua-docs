@@ -1,12 +1,12 @@
 Створення або підключення до черги повідомлень
 
--   [« ftok](function.ftok.html)
+-   [« ftok](function.ftok.md)
     
 -   [msgqueueexists »](function.msg-queue-exists.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції семафорів](ref.sem.html)
+-   [Функції семафорів](ref.sem.md)
     
 -   Створення або підключення до черги повідомлень
     
@@ -37,13 +37,13 @@ msg_get_queue(int $key, int $permissions = 0666): SysvMessageQueue|false
 
 ### Значення, що повертаються
 
-Повертає екземпляр [SysvMessageQueue](class.sysvmessagequeue.html), який може бути використаний для доступу до черги повідомлень System V або **`false`** у разі виникнення помилки.
+Повертає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md), який може бути використаний для доступу до черги повідомлень System V або **`false`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція тепер повертає екземпляр [SysvMessageQueue](class.sysvmessagequeue.html); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше повертався ресурс (resource). |
 
 ### Дивіться також
 

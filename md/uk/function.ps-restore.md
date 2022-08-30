@@ -4,9 +4,9 @@
     
 -   [псrotate »](function.ps-rotate.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Відновлює раніше збережений контекст
     

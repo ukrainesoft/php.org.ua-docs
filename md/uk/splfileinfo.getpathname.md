@@ -1,12 +1,12 @@
 Отримує шлях до файлу
 
--   [« SplFileInfo::getPathInfo](splfileinfo.getpathinfo.html)
+-   [« SplFileInfo::getPathInfo](splfileinfo.getpathinfo.md)
     
--   [SplFileInfo::getPerms »](splfileinfo.getperms.html)
+-   [SplFileInfo::getPerms »](splfileinfo.getperms.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Отримує шлях до файлу
     
@@ -52,4 +52,4 @@ string(12) "/usr/bin/php"
 
 ### Дивіться також
 
--   [SplFileInfo::getRealPath()](splfileinfo.getrealpath.html) - Отримує абсолютний шлях до файлу
+-   [SplFileInfo::getRealPath()](splfileinfo.getrealpath.md) - Отримує абсолютний шлях до файлу

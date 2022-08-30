@@ -2,7 +2,7 @@
 
 -   [« Ev](book.ev.html)
     
--   [Установка и настройка »](ev.setup.html)
+-   [Встановлення та налаштування »](ev.setup.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Перевірити, чи є символ керуючим відповідно до ISO
 
--   [« IntlChar::isIDStart](intlchar.isidstart.html)
+-   [« IntlChar::isIDStart](intlchar.isidstart.md)
     
--   [IntlChar::isJavaIDPart »](intlchar.isjavaidpart.html)
+-   [IntlChar::isJavaIDPart »](intlchar.isjavaidpart.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити, чи є символ керуючим відповідно до ISO
     
@@ -59,4 +59,4 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::iscntrl()](intlchar.iscntrl.html) - Перевірити, чи є символ керуючим
+-   [IntlChar::iscntrl()](intlchar.iscntrl.md) - Перевірити, чи є символ керуючим

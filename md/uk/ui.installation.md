@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](ui.requirements.html)
+-   [« Вимоги](ui.requirements.html)
     
 -   [ОЙPoint »](class.ui-point.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](ui.setup.html)
+-   [Встановлення та налаштування](ui.setup.html)
     
 -   Встановлення
     

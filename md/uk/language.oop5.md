@@ -1,12 +1,12 @@
 Класи та об'єкти
 
--   [Callback-функції як об'єкти першого класу](functions.first_class_callable_syntax.html)
+-   [Callback-функції як об'єкти першого класу](functions.first_class_callable_syntax.md)
     
--   [Введение »](oop5.intro.html)
+-   [Введение »](oop5.intro.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Справочник языка](langref.html)
+-   [Довідник мови](langref.md)
     
 -   Класи та об'єкти
     
@@ -15,28 +15,28 @@
 
 ## Зміст
 
--   [Введение](oop5.intro.html)
--   [Основы](language.oop5.basic.html)
--   [Свойства](language.oop5.properties.html)
--   [Константи класів](language.oop5.constants.html)
--   [Автоматичне завантаження класів](language.oop5.autoload.html)
--   [Конструктори та деструктори](language.oop5.decon.html)
--   [Область видимості](language.oop5.visibility.html)
--   [Наследование](language.oop5.inheritance.html)
+-   [Введение](oop5.intro.md)
+-   [Основи](language.oop5.basic.md)
+-   [Свойства](language.oop5.properties.md)
+-   [Константи класів](language.oop5.constants.md)
+-   [Автоматичне завантаження класів](language.oop5.autoload.md)
+-   [Конструктори та деструктори](language.oop5.decon.md)
+-   [Область видимості](language.oop5.visibility.md)
+-   [Наследование](language.oop5.inheritance.md)
 -   [Оператор роздільної здатності видимості (::)](language.oop5.paamayim-nekudotayim.html)
--   [Ключевое слово static](language.oop5.static.html)
--   [Абстрактні класи](language.oop5.abstract.html)
--   [Інтерфейси об'єктів](language.oop5.interfaces.html)
--   [Трейты](language.oop5.traits.html)
--   [Анонимные классы](language.oop5.anonymous.html)
--   [Перегрузка](language.oop5.overloading.html)
--   [Ітератори об'єктів](language.oop5.iterations.html)
--   [Магічні методи](language.oop5.magic.html)
--   [Ключевое слово final](language.oop5.final.html)
--   [Клонирование объектов](language.oop5.cloning.html)
--   [Сравнение объектов](language.oop5.object-comparison.html)
+-   [Ключевое слово static](language.oop5.static.md)
+-   [Абстрактні класи](language.oop5.abstract.md)
+-   [Інтерфейси об'єктів](language.oop5.interfaces.md)
+-   [Трейти](language.oop5.traits.md)
+-   [Анонімні класи](language.oop5.anonymous.md)
+-   [Перегрузка](language.oop5.overloading.md)
+-   [Ітератори об'єктів](language.oop5.iterations.md)
+-   [Магічні методи](language.oop5.magic.md)
+-   [Ключевое слово final](language.oop5.final.md)
+-   [Клонування об'єктів](language.oop5.cloning.md)
+-   [Порівняння об'єктів](language.oop5.object-comparison.html)
 -   [Пізніше статичне зв'язування](language.oop5.late-static-bindings.html)
--   [Об'єкти та посилання](language.oop5.references.html)
--   [Сериализация объектов](language.oop5.serialization.html)
--   [Коваріантність та контраваріантність](language.oop5.variance.html)
--   [Журнал изменений ООП](language.oop5.changelog.html)
+-   [Об'єкти та посилання](language.oop5.references.md)
+-   [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [Коваріантність та контраваріантність](language.oop5.variance.md)
+-   [Журнал изменений ООП](language.oop5.changelog.md)

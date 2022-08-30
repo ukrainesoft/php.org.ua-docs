@@ -1,12 +1,12 @@
 Завантаження файлів на сервер
 
--   [« Работа с XForms](features.xforms.html)
+-   [« Работа с XForms](features.xforms.md)
     
 -   [Завантаження файлів методом POST](features.file-upload.post-method.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Відмітні особливості](features.html)
+-   [Відмітні особливості](features.md)
     
 -   Завантаження файлів на сервер
     

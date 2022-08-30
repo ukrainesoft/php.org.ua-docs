@@ -4,9 +4,9 @@
     
 -   [wddxpacketstart »](function.wddx-packet-start.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції WDDX](ref.wddx.html)
+-   [Функції WDDX](ref.wddx.md)
     
 -   Завершує пакет WDDX із зазначеним ідентифікатором
     

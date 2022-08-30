@@ -1,12 +1,12 @@
 Змінює режим доступу до файлу
 
--   [« chgrp](function.chgrp.html)
+-   [« chgrp](function.chgrp.md)
     
--   [chown »](function.chown.html)
+-   [chown »](function.chown.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Змінює режим доступу до файлу
     
@@ -79,7 +79,7 @@ chmod("/somedir/somefile", 0750);
 
 ### Дивіться також
 
--   [chown()](function.chown.html) - Змінює власника файлу
--   [chgrp()](function.chgrp.html) - Змінює групу файлу
--   [fileperms()](function.fileperms.html) - Повертає інформацію про права на файл
--   [stat()](function.stat.html) - Повертає інформацію про файл
+-   [chown()](function.chown.md) - Змінює власника файлу
+-   [chgrp()](function.chgrp.md) - Змінює групу файлу
+-   [fileperms()](function.fileperms.md) - Повертає інформацію про права на файл
+-   [stat()](function.stat.md) - Повертає інформацію про файл

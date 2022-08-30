@@ -1,12 +1,12 @@
 Конструктор класу
 
--   [« SolrDisMaxQuery::addUserField](solrdismaxquery.adduserfield.html)
+-   [« SolrDisMaxQuery::addUserField](solrdismaxquery.adduserfield.md)
     
--   [SolrDisMaxQuery::removeBigramPhraseField »](solrdismaxquery.removebigramphrasefield.html)
+-   [SolrDisMaxQuery::removeBigramPhraseField »](solrdismaxquery.removebigramphrasefield.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
+-   [SolrDisMaxQuery](class.solrdismaxquery.md)
     
 -   Конструктор класу
     
@@ -33,7 +33,7 @@ public **SolrDisMaxQuery::construct**(string `$q`
 
 ### Помилки
 
-Викидає [SolrIllegalArgumentException](class.solrillegalargumentexception.html) у разі передачі неправильного параметра.
+Викидає [SolrIllegalArgumentException](class.solrillegalargumentexception.md) у разі передачі неправильного параметра.
 
 ### Приклади
 

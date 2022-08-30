@@ -1,12 +1,12 @@
 Функції Yaml
 
--   [« Публікуючі callback-функції](yaml.callbacks.emit.html)
+-   [« Публікуючі callback-функції](yaml.callbacks.emit.md)
     
 -   [yamlemitfile »](function.yaml-emit-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yaml](book.yaml.html)
+-   [Yaml](book.yaml.md)
     
 -   Функції Yaml
     

@@ -1,12 +1,12 @@
 Включає або вимикає moreLikeThis
 
--   [« SolrQuery::setHighlightUsePhraseHighlighter](solrquery.sethighlightusephrasehighlighter.html)
+-   [« SolrQuery::setHighlightUsePhraseHighlighter](solrquery.sethighlightusephrasehighlighter.md)
     
--   [SolrQuery::setMltBoost »](solrquery.setmltboost.html)
+-   [SolrQuery::setMltBoost »](solrquery.setmltboost.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Включає або вимикає moreLikeThis
     

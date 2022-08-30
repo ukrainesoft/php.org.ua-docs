@@ -1,16 +1,16 @@
 Безпека сесій
 
--   [« Если PHP установлен как модуль Apache](security.apache.html)
+-   [« Если PHP установлен как модуль Apache](security.apache.md)
     
--   [Безпека файлової системи »](security.filesystem.html)
+-   [Безпека файлової системи »](security.filesystem.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Безпека](security.html)
+-   [Безпека](security.md)
     
 -   Безпека сесій
     
 
 # Безпека сесій
 
-Вкрай важливо забезпечувати безпеку HTTP-сесій. Детальний опис, якими засобами цього можна досягти, читайте у секції [Безпека сесій](session.security.html) керівництва [Сессии](book.session.html)
+Вкрай важливо забезпечувати безпеку HTTP-сесій. Детальний опис, якими засобами цього можна досягти, читайте у секції [Безпека сесій](session.security.md) керівництва [Сессии](book.session.md)

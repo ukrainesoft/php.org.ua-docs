@@ -1,12 +1,12 @@
 Припиняє надсилання подій
 
--   [« EventBase::dispatch](eventbase.dispatch.html)
+-   [« EventBase::dispatch](eventbase.dispatch.md)
     
--   [EventBase::free »](eventbase.free.html)
+-   [EventBase::free »](eventbase.free.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBase](class.eventbase.html)
+-   [EventBase](class.eventbase.md)
     
 -   Припиняє надсилання подій
     
@@ -41,4 +41,4 @@ public
 
 ### Дивіться також
 
--   [EventBase::stop()](eventbase.stop.html) - Повідомляє eventbase припинити відправку подій
+-   [EventBase::stop()](eventbase.stop.md) - Повідомляє eventbase припинити відправку подій

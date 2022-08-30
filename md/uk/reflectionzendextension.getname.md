@@ -1,12 +1,12 @@
 Отримує ім'я
 
--   [« ReflectionZendExtension::getCopyright](reflectionzendextension.getcopyright.html)
+-   [« ReflectionZendExtension::getCopyright](reflectionzendextension.getcopyright.md)
     
--   [ReflectionZendExtension::getURL »](reflectionzendextension.geturl.html)
+-   [ReflectionZendExtension::getURL »](reflectionzendextension.geturl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionZendExtension](class.reflectionzendextension.html)
+-   [ReflectionZendExtension](class.reflectionzendextension.md)
     
 -   Отримує ім'я
     

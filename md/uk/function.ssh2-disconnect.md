@@ -4,9 +4,9 @@
     
 -   [ssh2exec »](function.ssh2-exec.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Закрити з'єднання з віддаленим сервером SSH
     

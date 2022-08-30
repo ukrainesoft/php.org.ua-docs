@@ -1,12 +1,12 @@
 Встановлення часу очікування для введення/виведення
 
--   [« GearmanClient::setStatusCallback](gearmanclient.setstatuscallback.html)
+-   [« GearmanClient::setStatusCallback](gearmanclient.setstatuscallback.md)
     
--   [GearmanClient::setWarningCallback »](gearmanclient.setwarningcallback.html)
+-   [GearmanClient::setWarningCallback »](gearmanclient.setwarningcallback.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanClient](class.gearmanclient.html)
+-   [GearmanClient](class.gearmanclient.md)
     
 -   Встановлення часу очікування для введення/виведення
     

@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](math.requirements.html)
+-   [« Вимоги](math.requirements.html)
     
--   [Настройка во время выполнения »](math.configuration.html)
+-   [Налаштування під час виконання »](math.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](math.setup.html)
+-   [Встановлення та налаштування](math.setup.html)
     
 -   Встановлення
     

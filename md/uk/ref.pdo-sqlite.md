@@ -1,12 +1,12 @@
 Функції SQLite (PDOSQLITE)
 
--   [« PDO::pgsqlLOBUnlink](pdo.pgsqllobunlink.html)
+-   [« PDO::pgsqlLOBUnlink](pdo.pgsqllobunlink.md)
     
 -   [PDOSQLITE DSN »](ref.pdo-sqlite.connection.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Драйвери PDO](pdo.drivers.html)
+-   [Драйвери PDO](pdo.drivers.md)
     
 -   Функції SQLite (PDOSQLITE)
     
@@ -15,7 +15,7 @@
 
 ## Вступ
 
-PDOSQLITE це драйвер, який реалізує [интерфейс Data Objects (PDO)](intro.pdo.html) для доступу до баз даних SQLite 3.
+PDOSQLITE це драйвер, який реалізує [интерфейс Data Objects (PDO)](intro.pdo.md) для доступу до баз даних SQLite 3.
 
 > **Зауваження**
 > 
@@ -32,6 +32,6 @@ PDOSQLITE це драйвер, який реалізує [интерфейс Dat
 ## Зміст
 
 -   [PDOSQLITE DSN](ref.pdo-sqlite.connection.html) — З'єднання з базою даних SQLite
--   [PDO::sqliteCreateAggregate](pdo.sqlitecreateaggregate.html) — Реєстрація агрегуючої функції користувача для використання в SQL-запитах
--   [PDO::sqliteCreateCollation](pdo.sqlitecreatecollation.html) — Реєстрація функції сортування для використання в SQL-запитах
--   [PDO::sqliteCreateFunction](pdo.sqlitecreatefunction.html) — Реєстрація функції користувача для використання в SQL-запитах
+-   [PDO::sqliteCreateAggregate](pdo.sqlitecreateaggregate.md) — Реєстрація агрегуючої функції користувача для використання в SQL-запитах
+-   [PDO::sqliteCreateCollation](pdo.sqlitecreatecollation.md) — Реєстрація функції сортування для використання в SQL-запитах
+-   [PDO::sqliteCreateFunction](pdo.sqlitecreatefunction.md) — Реєстрація функції користувача для використання в SQL-запитах

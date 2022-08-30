@@ -1,12 +1,12 @@
 Клас VtifulKernelExcel
 
--   [« Предопределённые константы](xlswriter.constants.html)
+-   [« Обумовлені константи](xlswriter.constants.md)
     
 -   [VtifulKernelExcel::addSheet »](vtiful-kernel-excel.addSheet.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XLSWriter](book.xlswriter.html)
+-   [XLSWriter](book.xlswriter.md)
     
 -   Клас VtifulKernelExcel
     

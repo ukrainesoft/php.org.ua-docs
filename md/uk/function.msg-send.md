@@ -4,9 +4,9 @@
     
 -   [msgsetqueue »](function.msg-set-queue.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції семафорів](ref.sem.html)
+-   [Функції семафорів](ref.sem.md)
     
 -   Надсилання повідомлення до черги повідомлень
     
@@ -63,9 +63,9 @@ msg_send(    SysvMessageQueue $queue,    int $message_type,    strin
 
 ### список змін
 
-| Версия | Описание                                                                                                                     |
-|--------|------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

@@ -1,12 +1,12 @@
 Десеріалізувати ArrayObject
 
--   [« ArrayObject::uksort](arrayobject.uksort.html)
+-   [« ArrayObject::uksort](arrayobject.uksort.md)
     
--   [SplObserver »](class.splobserver.html)
+-   [SplObserver »](class.splobserver.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayObject](class.arrayobject.html)
+-   [ArrayObject](class.arrayobject.md)
     
 -   Десеріалізувати ArrayObject
     
@@ -23,7 +23,7 @@ ArrayObject::unserialize — Десеріалізувати ArrayObject
 public ArrayObject::unserialize(string $data): void
 ```
 
-Десеріалізує серіалізований об'єкт [ArrayObject](class.arrayobject.html)
+Десеріалізує серіалізований об'єкт [ArrayObject](class.arrayobject.md)
 
 **Увага**
 
@@ -33,7 +33,7 @@ public ArrayObject::unserialize(string $data): void
 
 `data`
 
-Серіалізований об'єкт [ArrayObject](class.arrayobject.html)
+Серіалізований об'єкт [ArrayObject](class.arrayobject.md)
 
 ### Значення, що повертаються
 
@@ -41,6 +41,6 @@ public ArrayObject::unserialize(string $data): void
 
 ### Дивіться також
 
--   [ArrayIterator::serialize()](arrayiterator.serialize.html) - Серіалізує масив
--   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [ArrayIterator::serialize()](arrayiterator.serialize.md) - Серіалізує масив
+-   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

@@ -1,12 +1,12 @@
 Накладає одне зображення на інше
 
--   [« Gmagick::commentimage](gmagick.commentimage.html)
+-   [« Gmagick::commentimage](gmagick.commentimage.md)
     
--   [Gmagick::construct »](gmagick.construct.html)
+-   [Gmagick::construct »](gmagick.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Накладає одне зображення на інше
     
@@ -29,7 +29,7 @@ public Gmagick::compositeimage(    Gmagick $source,    int $COMPOSE,  
 
 `source`
 
-Об'єкт [Gmagick](class.gmagick.html), що містить складне зображення.
+Об'єкт [Gmagick](class.gmagick.md), що містить складне зображення.
 
 `compose`
 
@@ -45,7 +45,7 @@ public Gmagick::compositeimage(    Gmagick $source,    int $COMPOSE,  
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) із композиціями.
+Об'єкт [Gmagick](class.gmagick.md) із композиціями.
 
 ### Помилки
 

@@ -2,11 +2,11 @@
 
 -   [« Компилирование PHP на macOS](install.macosx.compile.html)
     
--   [Требования к установке »](install.windows.requirements.html)
+-   [Вимоги к установке »](install.windows.requirements.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](install.html)
+-   [Встановлення та налаштування](install.html)
     
 -   Встановлення у системах Windows
     
@@ -15,15 +15,15 @@
 
 ## Зміст
 
--   [Требования к установке](install.windows.requirements.html)
+-   [Вимоги к установке](install.windows.requirements.html)
 -   [PECL](install.windows.pecl.html)
 -   [Инструмент установки PHP на Windows](install.windows.tools.html)
 -   [Рекомендована конфігурація для Windows](install.windows.recommended.html)
 -   [Самостійне встановлення PHP у Windows](install.windows.manual.html)
--   [Сборка из исходных кодов](install.windows.building.html)
+-   [Складання з вихідних кодів](install.windows.building.html)
 -   [Командний рядок PHP у Microsoft Windows](install.windows.commandline.html)
 -   [Apache 2.x в Microsoft Windows](install.windows.apache2.html)
--   [Стандартные проблемы PHP под Windows](install.windows.troubleshooting.html)
+-   [Стандартні проблеми PHP під Windows](install.windows.troubleshooting.html)
 
 Встановлення PHP у сучасних операційних системах Microsoft Windows та рекомендована конфігурація під поширені веб-сервери.
 

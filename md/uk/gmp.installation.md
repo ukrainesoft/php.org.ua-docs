@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](gmp.requirements.html)
+-   [« Вимоги](gmp.requirements.md)
     
--   [Настройка во время выполнения »](gmp.configuration.html)
+-   [Налаштування під час виконання »](gmp.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](gmp.setup.html)
+-   [Встановлення та налаштування](gmp.setup.md)
     
 -   Встановлення
     

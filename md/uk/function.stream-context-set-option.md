@@ -4,9 +4,9 @@
     
 -   [streamcontextsetparams »](function.stream-context-set-params.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.md)
     
 -   Встановлює опцію для потоку/обгортки/контексту
     
@@ -37,7 +37,7 @@ stream_context_set_option(resource $stream_or_context, array $options): bool
 
 `wrapper`
 
-Ім'я обгортки (може відрізнятися від протоколу). Дивіться [опции и параметры контекста](context.html) для отримання списку параметрів потоку.
+Ім'я обгортки (може відрізнятися від протоколу). Дивіться [опції та параметри контексту](context.md) для отримання списку параметрів потоку.
 
 `option`
 
@@ -55,7 +55,7 @@ stream_context_set_option(resource $stream_or_context, array $options): bool
 > 
 > Параметр `options` має бути асоціативним масивом асоціативних масивів у форматі `$arr['wrapper']['option'] = $value`
 > 
-> Зверніться до розділу [опции и параметры контекста](context.html), щоб отримати список опцій потоку.
+> Зверніться до розділу [опції та параметри контексту](context.md), щоб отримати список опцій потоку.
 
 ### Значення, що повертаються
 

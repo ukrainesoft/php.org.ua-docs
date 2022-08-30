@@ -1,12 +1,12 @@
 Повертає поточний ключ
 
--   [« SimpleXMLIterator::hasChildren](simplexmliterator.haschildren.html)
+-   [« SimpleXMLIterator::hasChildren](simplexmliterator.haschildren.md)
     
--   [SimpleXMLIterator::next »](simplexmliterator.next.html)
+-   [SimpleXMLIterator::next »](simplexmliterator.next.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXMLIterator](class.simplexmliterator.html)
+-   [SimpleXMLIterator](class.simplexmliterator.md)
     
 -   Повертає поточний ключ
     
@@ -31,7 +31,7 @@ public SimpleXMLIterator::key(): mixed
 
 ### Значення, що повертаються
 
-Повертає ім'я XML-тегу елемента, на який посилається поточний об'єкт [SimpleXMLIterator](class.simplexmliterator.html), або **`false`**
+Повертає ім'я XML-тегу елемента, на який посилається поточний об'єкт [SimpleXMLIterator](class.simplexmliterator.md), або **`false`**
 
 ### Приклади
 

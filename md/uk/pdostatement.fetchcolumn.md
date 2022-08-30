@@ -1,12 +1,12 @@
 Повертає дані одного стовпця наступного рядка результуючого набору
 
--   [« PDOStatement::fetchAll](pdostatement.fetchall.html)
+-   [« PDOStatement::fetchAll](pdostatement.fetchall.md)
     
--   [PDOStatement::fetchObject »](pdostatement.fetchobject.html)
+-   [PDOStatement::fetchObject »](pdostatement.fetchobject.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDOStatement](class.pdostatement.html)
+-   [PDOStatement](class.pdostatement.md)
     
 -   Повертає дані одного стовпця наступного рядка результуючого набору
     
@@ -27,7 +27,7 @@ public PDOStatement::fetchColumn(int $column = 0): mixed
 
 > **Зауваження**
 > 
-> Не слід використовувати **PDOStatement::fetchColumn()** для отримання булевих полів, тому що неможливо відрізнити значення **`false`** від відсутності рядків результату, що залишилися. Натомість використовуйте метод [PDOStatement::fetch()](pdostatement.fetch.html)
+> Не слід використовувати **PDOStatement::fetchColumn()** для отримання булевих полів, тому що неможливо відрізнити значення **`false`** від відсутності рядків результату, що залишилися. Натомість використовуйте метод [PDOStatement::fetch()](pdostatement.fetch.md)
 
 ### Список параметрів
 
@@ -73,8 +73,8 @@ colour = red
 
 ### Дивіться також
 
--   [PDO::query()](pdo.query.html) - готує та виконує вираз SQL без заповнювачів
--   [PDOStatement::fetch()](pdostatement.fetch.html) - Вилучення наступного рядка з результуючого набору
--   [PDOStatement::fetchAll()](pdostatement.fetchall.html) - Вибирає рядки, що залишилися, з набору результатів
--   [PDO::prepare()](pdo.prepare.html) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
--   [PDOStatement::setFetchMode()](pdostatement.setfetchmode.html) - Встановлює режим вибірки за промовчанням для об'єкта запиту
+-   [PDO::query()](pdo.query.md) - готує та виконує вираз SQL без заповнювачів
+-   [PDOStatement::fetch()](pdostatement.fetch.md) - Вилучення наступного рядка з результуючого набору
+-   [PDOStatement::fetchAll()](pdostatement.fetchall.md) - Вибирає рядки, що залишилися, з набору результатів
+-   [PDO::prepare()](pdo.prepare.md) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
+-   [PDOStatement::setFetchMode()](pdostatement.setfetchmode.md) - Встановлює режим вибірки за промовчанням для об'єкта запиту

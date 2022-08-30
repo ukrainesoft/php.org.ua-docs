@@ -1,10 +1,10 @@
 Приклади
 
--   [« Список изменений](changelog.mysql_xdevapi.html)
+-   [« Список изменений](changelog.mysql_xdevapi.md)
     
 -   [Функції Mysqlxdevapi »](ref.mysql-xdevapi.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Mysqlxdevapi](book.mysql-xdevapi.html)
     

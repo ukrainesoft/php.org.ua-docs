@@ -2,7 +2,7 @@
 
 -   [« Apache](book.apache.html)
     
--   [Установка и настройка »](apache.setup.html)
+-   [Встановлення та налаштування »](apache.setup.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Базове використання LuaSandbox
 
--   [« Примеры](luasandbox.examples.html)
+-   [« Приклади](luasandbox.examples.md)
     
--   [LuaSandbox »](class.luasandbox.html)
+-   [LuaSandbox »](class.luasandbox.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](luasandbox.examples.html)
+-   [Приклади](luasandbox.examples.md)
     
 -   Базове використання LuaSandbox
     

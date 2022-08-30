@@ -1,12 +1,12 @@
 Повертає властивості
 
--   [« ReflectionClass::getParentClass](reflectionclass.getparentclass.html)
+-   [« ReflectionClass::getParentClass](reflectionclass.getparentclass.md)
     
--   [ReflectionClass::getProperty »](reflectionclass.getproperty.html)
+-   [ReflectionClass::getProperty »](reflectionclass.getproperty.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає властивості
     
@@ -33,13 +33,13 @@ public ReflectionClass::getProperties(?int $filter = null): array
 
 ### Значення, що повертаються
 
-Масив об'єктів класу [ReflectionProperty](class.reflectionproperty.html)
+Масив об'єктів класу [ReflectionProperty](class.reflectionproperty.md)
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `filter` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `filter` тепер допускає значення null. |
 
 ### Приклади
 
@@ -94,6 +94,6 @@ array(2) {
 
 ### Дивіться також
 
--   [ReflectionClass::getProperty()](reflectionclass.getproperty.html) - Повертає екземпляр ReflectionProperty для якості класу
--   [ReflectionProperty](class.reflectionproperty.html)
--   [константы ReflectionProperty](class.reflectionproperty.html#reflectionproperty.constants.modifiers)
+-   [ReflectionClass::getProperty()](reflectionclass.getproperty.md) - Повертає екземпляр ReflectionProperty для якості класу
+-   [ReflectionProperty](class.reflectionproperty.md)
+-   [константи ReflectionProperty](class.reflectionproperty.html#reflectionproperty.constants.modifiers)

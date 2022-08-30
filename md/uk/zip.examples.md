@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](zip.constants.html)
+-   [« Обумовлені константи](zip.constants.md)
     
--   [ZipArchive »](class.ziparchive.html)
+-   [ZipArchive »](class.ziparchive.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Zip](book.zip.html)
+-   [Zip](book.zip.md)
     
 -   Приклади
     

@@ -4,9 +4,9 @@
     
 -   [statsrandsetall »](function.stats-rand-setall.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Генерує випадкове число з плаваючою точкою від 0 до 1
     

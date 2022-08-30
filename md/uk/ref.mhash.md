@@ -1,12 +1,12 @@
 Функції Mhash
 
--   [« Примеры](mhash.examples.html)
+-   [« Приклади](mhash.examples.md)
     
 -   [mhashcount »](function.mhash-count.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mhash](book.mhash.html)
+-   [Mhash](book.mhash.md)
     
 -   Функції Mhash
     
@@ -19,4 +19,4 @@
 -   [mhashgetblocksize](function.mhash-get-block-size.html) — Отримати розмір блоку для заданого хеша
 -   [mhashgethashname](function.mhash-get-hash-name.html) — Отримати ім'я вказаного хеша
 -   [mhashkeygens2k](function.mhash-keygen-s2k.html) - Генерація ключа
--   [mhash](function.mhash.html) - Обчислює хеш
+-   [mhash](function.mhash.md) - Обчислює хеш

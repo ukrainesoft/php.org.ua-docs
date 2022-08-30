@@ -1,12 +1,12 @@
 Створює дві буферні події, пов'язані один з одним
 
--   [« EventBufferEvent::construct](eventbufferevent.construct.html)
+-   [« EventBufferEvent::construct](eventbufferevent.construct.md)
     
--   [EventBufferEvent::disable »](eventbufferevent.disable.html)
+-   [EventBufferEvent::disable »](eventbufferevent.disable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Створює дві буферні події, пов'язані один з одним
     
@@ -32,7 +32,7 @@ public
    ): array
 ```
 
-Повертає масив із двох об'єктів [EventBufferEvent](class.eventbufferevent.html), пов'язані один з одним. Підтримуються всі звичайні параметри, крім **`EventBufferEvent::OPT_CLOSE_ON_FREE`**, який не діє, та **`EventBufferEvent::OPT_DEFER_CALLBACKS`**, який завжди включено.
+Повертає масив із двох об'єктів [EventBufferEvent](class.eventbufferevent.md), пов'язані один з одним. Підтримуються всі звичайні параметри, крім **`EventBufferEvent::OPT_CLOSE_ON_FREE`**, який не діє, та **`EventBufferEvent::OPT_DEFER_CALLBACKS`**, який завжди включено.
 
 ### Список параметрів
 
@@ -46,10 +46,10 @@ public
 
 ### Значення, що повертаються
 
-Повертає масив із двох об'єктів [EventBufferEvent](class.eventbufferevent.html), пов'язані один з одним.
+Повертає масив із двох об'єктів [EventBufferEvent](class.eventbufferevent.md), пов'язані один з одним.
 
 ### список змін
 
-| Версия           | Описание              |
-|------------------|-----------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL event 1.9.0 | Метод став статичним. |

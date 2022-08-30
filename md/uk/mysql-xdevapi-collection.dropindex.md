@@ -4,7 +4,7 @@
     
 -   [Collection::existsInDatabase »](mysql-xdevapi-collection.existsindatabase.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
     

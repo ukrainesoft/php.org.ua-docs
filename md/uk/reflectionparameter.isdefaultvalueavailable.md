@@ -1,12 +1,12 @@
 Перевіряє, чи доступне значення за промовчанням
 
--   [« ReflectionParameter::isCallable](reflectionparameter.iscallable.html)
+-   [« ReflectionParameter::isCallable](reflectionparameter.iscallable.md)
     
--   [ReflectionParameter::isDefaultValueConstant »](reflectionparameter.isdefaultvalueconstant.html)
+-   [ReflectionParameter::isDefaultValueConstant »](reflectionparameter.isdefaultvalueconstant.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionParameter](class.reflectionparameter.html)
+-   [ReflectionParameter](class.reflectionparameter.md)
     
 -   Перевіряє, чи доступне значення за промовчанням
     
@@ -35,6 +35,6 @@ public ReflectionParameter::isDefaultValueAvailable(): bool
 
 ### Дивіться також
 
--   [ReflectionParameter::getDefaultValue()](reflectionparameter.getdefaultvalue.html) - Отримання значення за промовчанням для параметра
--   [ReflectionParameter::isDefaultValueConstant()](reflectionparameter.isdefaultvalueconstant.html) - Визначити, чи значення параметра за промовчанням константою
--   [ReflectionParameter::getName()](reflectionparameter.getname.html) - Отримання імені параметра
+-   [ReflectionParameter::getDefaultValue()](reflectionparameter.getdefaultvalue.md) - Отримання значення за промовчанням для параметра
+-   [ReflectionParameter::isDefaultValueConstant()](reflectionparameter.isdefaultvalueconstant.md) - Визначити, чи значення параметра за промовчанням константою
+-   [ReflectionParameter::getName()](reflectionparameter.getname.md) - Отримання імені параметра

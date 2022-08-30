@@ -4,7 +4,7 @@
     
 -   [ДсStack::count »](ds-stack.count.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Стек](class.ds-stack.html)
     

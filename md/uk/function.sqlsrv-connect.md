@@ -33,7 +33,7 @@ sqlsrv_connect(string $serverName, array $connectionInfo = ?): resource
 
 `connectionInfo`
 
-Асоціативний масив, який визначає параметри підключення до сервера. Якщо значення для ключів UID і PWD не вказано, буде зроблено спробу підключення за допомогою автентифікації Windows. Повний список підтримуваних ключів дивіться у розділі [» Параметры подключения SQLSRV](http://msdn.microsoft.com/en-us/library/ff628167.aspx)
+Асоціативний масив, який визначає параметри підключення до сервера. Якщо значення для ключів UID і PWD не вказано, буде зроблено спробу підключення за допомогою автентифікації Windows. Повний список підтримуваних ключів дивіться у розділі [» Параметри підключення SQLSRV](http://msdn.microsoft.com/en-us/library/ff628167.aspx)
 
 ### Значення, що повертаються
 
@@ -47,7 +47,7 @@ sqlsrv_connect(string $serverName, array $connectionInfo = ?): resource
 <?php
 $serverName = "serverName\\sqlexpress"; //serverName\instanceName
 
-// Поскольку UID и PWD не указаны в массиве $connectionInfo,
+// Поскольку UID и PWD не указаны в Масиве $connectionInfo,
 // будет предпринята попытка подключения с использованием проверки подлинности Windows.
 $connectionInfo = array( "Database"=>"dbName");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);

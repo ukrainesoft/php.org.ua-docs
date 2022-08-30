@@ -4,9 +4,9 @@
     
 -   [svnфсyoungestrev »](function.svn-fs-youngest-rev.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.md)
     
 -   Створює та повертає корінь транзакції
     

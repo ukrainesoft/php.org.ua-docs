@@ -1,12 +1,12 @@
 Отримує поле на ім'я
 
--   [« SolrInputDocument::getChildDocumentsCount](solrinputdocument.getchilddocumentscount.html)
+-   [« SolrInputDocument::getChildDocumentsCount](solrinputdocument.getchilddocumentscount.md)
     
--   [SolrInputDocument::getFieldBoost »](solrinputdocument.getfieldboost.html)
+-   [SolrInputDocument::getFieldBoost »](solrinputdocument.getfieldboost.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrInputDocument](class.solrinputdocument.html)
+-   [SolrInputDocument](class.solrinputdocument.md)
     
 -   Отримує поле на ім'я
     

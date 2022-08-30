@@ -2,11 +2,11 @@
 
 -   [« sapiwindowsvt100support](function.sapi-windows-vt100-support.html)
     
--   [sleep »](function.sleep.html)
+-   [sleep »](function.sleep.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Різні функції](ref.misc.html)
+-   [Різні функції](ref.misc.md)
     
 -   Псевдонім highlightfile
     

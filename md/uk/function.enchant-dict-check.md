@@ -4,9 +4,9 @@
     
 -   [enchantdictdescribe »](function.enchant-dict-describe.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Enchant](ref.enchant.html)
+-   [Функции Enchant](ref.enchant.md)
     
 -   Перевіряє, чи правильно задано слово
     
@@ -41,6 +41,6 @@ enchant_dict_check(EnchantDictionary $dictionary, string $word): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |

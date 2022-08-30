@@ -1,12 +1,12 @@
 Приклади використання лексера
 
--   [« Примеры](parle.examples.html)
+-   [« Приклади](parle.examples.md)
     
--   [Пример использования парсера »](parle.examples.parser.html)
+-   [Пример использования парсера »](parle.examples.parser.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](parle.examples.html)
+-   [Приклади](parle.examples.md)
     
 -   Приклади використання лексера
     

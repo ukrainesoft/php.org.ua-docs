@@ -1,12 +1,12 @@
 Повертає геометрію сторінки
 
--   [« Imagick::getImageOrientation](imagick.getimageorientation.html)
+-   [« Imagick::getImageOrientation](imagick.getimageorientation.md)
     
--   [Imagick::getImagePixelColor »](imagick.getimagepixelcolor.html)
+-   [Imagick::getImagePixelColor »](imagick.getimagepixelcolor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає геометрію сторінки
     

@@ -1,12 +1,12 @@
 Повертає вертикальний та горизонтальний фактор дискретизації
 
--   [« Gmagick::getreleasedate](gmagick.getreleasedate.html)
+-   [« Gmagick::getreleasedate](gmagick.getreleasedate.md)
     
--   [Gmagick::getsize »](gmagick.getsize.html)
+-   [Gmagick::getsize »](gmagick.getsize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повертає вертикальний та горизонтальний фактор дискретизації
     

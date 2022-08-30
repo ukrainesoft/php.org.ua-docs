@@ -4,7 +4,7 @@
     
 -   [ОЙPoint::getX »](ui-point.getx.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙPoint](class.ui-point.html)
     

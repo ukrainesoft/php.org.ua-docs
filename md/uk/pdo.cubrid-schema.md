@@ -29,65 +29,65 @@ public PDO::cubrid_schema(int $schema_type, string $table_name = ?, string $col_
 
 **Склад результату кожного типу**
 
-| Схема                                                                                  | Номер столбца | Имя столбца        | Значение                                          |
-|----------------------------------------------------------------------------------------|---------------|--------------------|---------------------------------------------------|
-| PDO::CUBRIDSCHTABLE                                                                    |               | NAME               |                                                   |
-|                                                                                        |               | TYPE               | 0:system table 1:view 2:table                     |
-| PDO::CUBRIDSCHVIEW                                                                     |               | NAME               |                                                   |
-|                                                                                        |               | TYPE               | 1:view                                            |
-| PDO::CUBRIDSCHQUERYSPEC                                                                |               | QUERYSPEC          |                                                   |
-| PDO::CUBRIDSCHATTRIBUTE / PDO::CUBRIDSCHTABLEATTRIBUTE                                 |               | ATTRNAME           |                                                   |
-|                                                                                        |               | DOMAIN             |                                                   |
-|                                                                                        |               | SCALE              |                                                   |
-|                                                                                        |               | PRECISION          |                                                   |
-|                                                                                        |               | INDEXED            | 1:indexed                                         |
-|                                                                                        |               | NOT NULL           | 1:not null                                        |
-|                                                                                        |               | SHARED             | 1:shared                                          |
-|                                                                                        |               | UNIQUE             | 1: unique                                         |
-|                                                                                        |               | DEFAULT            |                                                   |
-|                                                                                        |               | ATTRORDER          | base:1                                            |
-|                                                                                        |               | CLASSNAME          |                                                   |
-|                                                                                        |               | SOURCECLASS        |                                                   |
-|                                                                                        |               | ІСKEY              | 1:key                                             |
-| PDO::CUBRIDSCHMETHOD / PDO :: CUBRIDSCHTABLEMETHOD                                     |               | NAME               |                                                   |
-|                                                                                        |               | RETDOMAIN          |                                                   |
-|                                                                                        |               | ARGDOMAIN          |                                                   |
-| PDO::CUBRIDSCHMETHODFILE                                                               |               | METHODFILE         |                                                   |
-| PDO::CUBRIDSCHSUPERTABLE / PDO::CUBRIDSCHDIRECTSUPERTABLE / PDO::CUBRIDSCHSUBTABLE     |               | CLASSNAME          |                                                   |
-|                                                                                        |               | TYPE               | 0:system table 1:view 2:table                     |
-| PDO::CUBRIDSCHCONSTRAINT                                                               |               | TYPE               | 0:unique 1:index 2:reverse unique 3:reverse index |
-|                                                                                        |               | NAME               |                                                   |
-|                                                                                        |               | ATTRNAME           |                                                   |
-|                                                                                        |               | NUMPAGES           |                                                   |
-|                                                                                        |               | NUMKEYS            |                                                   |
-|                                                                                        |               | PRIMARYKEY         | 1:primary key                                     |
-|                                                                                        |               | KEYORDER           | base:1                                            |
-| PDO::CUBRIDSCHTRIGGER                                                                  |               | NAME               |                                                   |
-|                                                                                        |               | STATUS             |                                                   |
-|                                                                                        |               | EVENT              |                                                   |
-|                                                                                        |               | TARGETCLASS        |                                                   |
-|                                                                                        |               | TARGETATTR         |                                                   |
-|                                                                                        |               | ACTIONTIME         |                                                   |
-|                                                                                        |               | ACTION             |                                                   |
-|                                                                                        |               | PRIORITY           |                                                   |
-|                                                                                        |               | CONDITIONTIME      |                                                   |
-|                                                                                        |               | CONDITION          |                                                   |
-| PDO::CUBRIDSCHTABLEPRIVILEGE / PDO::CUBRIDSCHCOLPRIVILEGE                              |               | CLASSNAME/ATTRNAME |                                                   |
-|                                                                                        |               | PRIVILEGE          |                                                   |
-|                                                                                        |               | GRANTABLE          |                                                   |
-| PDO::CUBRIDSCHPRIMARYKEY                                                               |               | CLASSNAME          |                                                   |
-|                                                                                        |               | ATTRNAME           |                                                   |
-|                                                                                        |               | KEYSEQ             | base:1                                            |
-|                                                                                        |               | KEYNAME            |                                                   |
-| PDO::CUBRIDSCHIMPORTEDKEYS / PDO::CUBRIDSCHEXPORTEDKEYS / PDO::CUBRIDSCHCROSSREFERENCE |               | PKTABLENAME        |                                                   |
-|                                                                                        |               | PKCOLUMNNAME       |                                                   |
-|                                                                                        |               | FKTABLENAME        | base:1                                            |
-|                                                                                        |               | FKCOLUMNNAME       |                                                   |
-|                                                                                        |               | KEYSEQ             | base:1                                            |
-|                                                                                        |               | UPDATEACTION       | 0:cascade 1:restrict 2:no action 3:set null       |
-|                                                                                        |               | DELETEACTION       | 0:cascade 1:restrict 2:no action 3:set null       |
-|                                                                                        |               | ФКNAME             |                                                   |
-|                                                                                        |               | ПКNAME             |                                                   |
+| Схема | Номер столбца | Имя столбца | Значение |
+| --- | --- | --- | --- |
+| PDO::CUBRIDSCHTABLE |  | NAME |  |
+|  |  | TYPE | 0:system table 1:view 2:table |
+| PDO::CUBRIDSCHVIEW |  | NAME |  |
+|  |  | TYPE | 1:view |
+| PDO::CUBRIDSCHQUERYSPEC |  | QUERYSPEC |  |
+| PDO::CUBRIDSCHATTRIBUTE / PDO::CUBRIDSCHTABLEATTRIBUTE |  | ATTRNAME |  |
+|  |  | DOMAIN |  |
+|  |  | SCALE |  |
+|  |  | PRECISION |  |
+|  |  | INDEXED | 1:indexed |
+|  |  | NOT NULL | 1:not null |
+|  |  | SHARED | 1:shared |
+|  |  | UNIQUE | 1: unique |
+|  |  | DEFAULT |  |
+|  |  | ATTRORDER | base:1 |
+|  |  | CLASSNAME |  |
+|  |  | SOURCECLASS |  |
+|  |  | ІСKEY | 1:key |
+| PDO::CUBRIDSCHMETHOD / PDO :: CUBRIDSCHTABLEMETHOD |  | NAME |  |
+|  |  | RETDOMAIN |  |
+|  |  | ARGDOMAIN |  |
+| PDO::CUBRIDSCHMETHODFILE |  | METHODFILE |  |
+| PDO::CUBRIDSCHSUPERTABLE / PDO::CUBRIDSCHDIRECTSUPERTABLE / PDO::CUBRIDSCHSUBTABLE |  | CLASSNAME |  |
+|  |  | TYPE | 0:system table 1:view 2:table |
+| PDO::CUBRIDSCHCONSTRAINT |  | TYPE | 0:unique 1:index 2:reverse unique 3:reverse index |
+|  |  | NAME |  |
+|  |  | ATTRNAME |  |
+|  |  | NUMPAGES |  |
+|  |  | NUMKEYS |  |
+|  |  | PRIMARYKEY | 1:primary key |
+|  |  | KEYORDER | base:1 |
+| PDO::CUBRIDSCHTRIGGER |  | NAME |  |
+|  |  | STATUS |  |
+|  |  | EVENT |  |
+|  |  | TARGETCLASS |  |
+|  |  | TARGETATTR |  |
+|  |  | ACTIONTIME |  |
+|  |  | ACTION |  |
+|  |  | PRIORITY |  |
+|  |  | CONDITIONTIME |  |
+|  |  | CONDITION |  |
+| PDO::CUBRIDSCHTABLEPRIVILEGE / PDO::CUBRIDSCHCOLPRIVILEGE |  | CLASSNAME/ATTRNAME |  |
+|  |  | PRIVILEGE |  |
+|  |  | GRANTABLE |  |
+| PDO::CUBRIDSCHPRIMARYKEY |  | CLASSNAME |  |
+|  |  | ATTRNAME |  |
+|  |  | KEYSEQ | base:1 |
+|  |  | KEYNAME |  |
+| PDO::CUBRIDSCHIMPORTEDKEYS / PDO::CUBRIDSCHEXPORTEDKEYS / PDO::CUBRIDSCHCROSSREFERENCE |  | PKTABLENAME |  |
+|  |  | PKCOLUMNNAME |  |
+|  |  | FKTABLENAME | base:1 |
+|  |  | FKCOLUMNNAME |  |
+|  |  | KEYSEQ | base:1 |
+|  |  | UPDATEACTION | 0:cascade 1:restrict 2:no action 3:set null |
+|  |  | DELETEACTION | 0:cascade 1:restrict 2:no action 3:set null |
+|  |  | ФКNAME |  |
+|  |  | ПКNAME |  |
 
 ### Список параметрів
 

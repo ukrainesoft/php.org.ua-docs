@@ -1,12 +1,12 @@
 Асоціює дані з поточним об'єктом контейнера
 
--   [« SplObjectStorage::serialize](splobjectstorage.serialize.html)
+-   [« SplObjectStorage::serialize](splobjectstorage.serialize.md)
     
--   [SplObjectStorage::unserialize »](splobjectstorage.unserialize.html)
+-   [SplObjectStorage::unserialize »](splobjectstorage.unserialize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplObjectStorage](class.splobjectstorage.html)
+-   [SplObjectStorage](class.splobjectstorage.md)
     
 -   Асоціює дані з поточним об'єктом контейнера
     
@@ -68,9 +68,9 @@ string(3) "new"
 
 ### Дивіться також
 
--   [SplObjectStorage::current()](splobjectstorage.current.html) - Повертає поточний об'єкт
--   [SplObjectStorage::rewind()](splobjectstorage.rewind.html) - перекладає ітератор на перший елемент контейнера
--   [SplObjectStorage::key()](splobjectstorage.key.html) - Повертає індекс поточного становища ітератора
--   [SplObjectStorage::next()](splobjectstorage.next.html) - Перехід до наступного об'єкту
--   [SplObjectStorage::valid()](splobjectstorage.valid.html) - Визначає, чи допустиме поточне значення ітератора
--   [SplObjectStorage::getInfo()](splobjectstorage.getinfo.html) - Повертає дані, що асоціюються з поточним об'єктом
+-   [SplObjectStorage::current()](splobjectstorage.current.md) - Повертає поточний об'єкт
+-   [SplObjectStorage::rewind()](splobjectstorage.rewind.md) - перекладає ітератор на перший елемент контейнера
+-   [SplObjectStorage::key()](splobjectstorage.key.md) - Повертає індекс поточного становища ітератора
+-   [SplObjectStorage::next()](splobjectstorage.next.md) - Перехід до наступного об'єкту
+-   [SplObjectStorage::valid()](splobjectstorage.valid.md) - Визначає, чи допустиме поточне значення ітератора
+-   [SplObjectStorage::getInfo()](splobjectstorage.getinfo.md) - Повертає дані, що асоціюються з поточним об'єктом

@@ -1,12 +1,12 @@
 Встановлює гравітацію зображення
 
--   [« Imagick::setImageGamma](imagick.setimagegamma.html)
+-   [« Imagick::setImageGamma](imagick.setimagegamma.md)
     
--   [Imagick::setImageGreenPrimary »](imagick.setimagegreenprimary.html)
+-   [Imagick::setImageGreenPrimary »](imagick.setimagegreenprimary.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює гравітацію зображення
     

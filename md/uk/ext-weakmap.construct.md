@@ -1,12 +1,12 @@
 Створює нову колекцію (map)
 
--   [« WeakMap](class.weakmap.html)
+-   [« WeakMap](class.weakmap.md)
     
--   [WeakMap::count »](weakmap.count.html)
+-   [WeakMap::count »](weakmap.count.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [WeakMap](class.weakmap.html)
+-   [WeakMap](class.weakmap.md)
     
 -   Створює нову колекцію (map)
     

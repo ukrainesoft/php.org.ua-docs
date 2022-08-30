@@ -1,12 +1,12 @@
 Встановлює мінімальну частоту документів
 
--   [« SolrQuery::setTermsMaxCount](solrquery.settermsmaxcount.html)
+-   [« SolrQuery::setTermsMaxCount](solrquery.settermsmaxcount.md)
     
--   [SolrQuery::setTermsPrefix »](solrquery.settermsprefix.html)
+-   [SolrQuery::setTermsPrefix »](solrquery.settermsprefix.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Встановлює мінімальну частоту документів
     

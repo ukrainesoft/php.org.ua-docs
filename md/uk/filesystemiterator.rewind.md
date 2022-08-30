@@ -1,12 +1,12 @@
 Переміщення покажчика на початок
 
--   [« FilesystemIterator::next](filesystemiterator.next.html)
+-   [« FilesystemIterator::next](filesystemiterator.next.md)
     
--   [FilesystemIterator::setFlags »](filesystemiterator.setflags.html)
+-   [FilesystemIterator::setFlags »](filesystemiterator.setflags.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FilesystemIterator](class.filesystemiterator.html)
+-   [FilesystemIterator](class.filesystemiterator.md)
     
 -   Переміщення покажчика на початок
     
@@ -61,4 +61,4 @@ apple.jpg
 
 ### Дивіться також
 
--   [DirectoryIterator::rewind()](directoryiterator.rewind.html) - Встановлює покажчик на перший елемент DirectoryIterator
+-   [DirectoryIterator::rewind()](directoryiterator.rewind.md) - Встановлює покажчик на перший елемент DirectoryIterator

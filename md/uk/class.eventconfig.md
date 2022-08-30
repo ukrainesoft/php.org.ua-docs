@@ -1,12 +1,12 @@
 Клас EventConfig
 
--   [« О callback-функциях событийного буфера](eventbufferevent.about.callbacks.html)
+-   [Про callback-функції подієвого буфера](eventbufferevent.about.callbacks.md)
     
--   [EventConfig::avoidMethod »](eventconfig.avoidmethod.html)
+-   [EventConfig::avoidMethod »](eventconfig.avoidmethod.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](book.event.html)
+-   [Event](book.event.md)
     
 -   Клас EventConfig
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Представляє структуру, яку можна використовувати під час створення [EventBase](class.eventbase.html)
+Представляє структуру, яку можна використовувати під час створення [EventBase](class.eventbase.md)
 
 ## Огляд класів
 
@@ -97,8 +97,8 @@ public
 
 ## Зміст
 
--   [EventConfig::avoidMethod](eventconfig.avoidmethod.html) — Попросити libevent не використати певний метод події
--   [EventConfig::construct](eventconfig.construct.html) — Створити об'єкт EventConfig
--   [EventConfig::requireFeatures](eventconfig.requirefeatures.html) — Ввести необхідні додатки властивості методу події
--   [EventConfig::setFlags](eventconfig.setflags.html) — Встановлює один або кілька прапорів для налаштування можливої ​​ініціалізації EventBase
--   [EventConfig::setMaxDispatchInterval](eventconfig.setmaxdispatchinterval.html) — Запобігти інверсії пріоритетів
+-   [EventConfig::avoidMethod](eventconfig.avoidmethod.md) — Попросити libevent не використати певний метод події
+-   [EventConfig::construct](eventconfig.construct.md) — Створити об'єкт EventConfig
+-   [EventConfig::requireFeatures](eventconfig.requirefeatures.md) — Ввести необхідні додатки властивості методу події
+-   [EventConfig::setFlags](eventconfig.setflags.md) — Встановлює один або кілька прапорів для налаштування можливої ​​ініціалізації EventBase
+-   [EventConfig::setMaxDispatchInterval](eventconfig.setmaxdispatchinterval.md) — Запобігти інверсії пріоритетів

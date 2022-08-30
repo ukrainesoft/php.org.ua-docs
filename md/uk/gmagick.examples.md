@@ -1,6 +1,6 @@
 Приклади
 
--   [« Предопределённые константы](gmagick.constants.html)
+-   [« Обумовлені константи](gmagick.constants.html)
     
 -   [Gmagick »](class.gmagick.html)
     

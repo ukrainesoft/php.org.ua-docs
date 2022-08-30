@@ -1,12 +1,12 @@
 Видаляє (виштовхує) вузол, що знаходиться наприкінці двозв'язкового списку
 
--   [« SplDoublyLinkedList::offsetUnset](spldoublylinkedlist.offsetunset.html)
+-   [« SplDoublyLinkedList::offsetUnset](spldoublylinkedlist.offsetunset.md)
     
--   [SplDoublyLinkedList::prev »](spldoublylinkedlist.prev.html)
+-   [SplDoublyLinkedList::prev »](spldoublylinkedlist.prev.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
     
 -   Видаляє (виштовхує) вузол, що знаходиться наприкінці двозв'язкового списку
     
@@ -33,4 +33,4 @@ public SplDoublyLinkedList::pop(): mixed
 
 ### Помилки
 
-Викидає виняток [RuntimeException](class.runtimeexception.html)коли структура даних порожня.
+Викидає виняток [RuntimeException](class.runtimeexception.md)коли структура даних порожня.

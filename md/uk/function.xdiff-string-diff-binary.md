@@ -4,9 +4,9 @@
     
 -   [xdiffstringdiff »](function.xdiff-string-diff.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.md)
     
 -   Псевдонім для xdiffstringbdiff
     

@@ -1,12 +1,12 @@
 Отримати стандарти, пов'язані з іменами конвертерів
 
--   [« UConverter::getSourceType](uconverter.getsourcetype.html)
+-   [« UConverter::getSourceType](uconverter.getsourcetype.md)
     
--   [UConverter::getSubstChars »](uconverter.getsubstchars.html)
+-   [UConverter::getSubstChars »](uconverter.getsubstchars.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [UConverter](class.uconverter.html)
+-   [UConverter](class.uconverter.md)
     
 -   Отримати стандарти, пов'язані з іменами конвертерів
     

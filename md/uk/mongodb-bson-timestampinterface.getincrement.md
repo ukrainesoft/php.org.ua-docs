@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONTimestampInterface::getTimestamp »](mongodb-bson-timestampinterface.gettimestamp.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONTimestampInterface](class.mongodb-bson-timestampinterface.html)
     

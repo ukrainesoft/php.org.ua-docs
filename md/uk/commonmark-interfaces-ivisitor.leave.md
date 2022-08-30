@@ -4,7 +4,7 @@
     
 -   [CommonMarkInterfacesIVisitable »](class.commonmark-interfaces-ivisitable.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [CommonMarkInterfacesIVisitor](class.commonmark-interfaces-ivisitor.html)
     

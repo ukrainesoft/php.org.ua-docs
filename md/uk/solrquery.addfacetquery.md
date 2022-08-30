@@ -1,12 +1,12 @@
 Додає фасетний запит
 
--   [« SolrQuery::addFacetField](solrquery.addfacetfield.html)
+-   [« SolrQuery::addFacetField](solrquery.addfacetfield.md)
     
--   [SolrQuery::addField »](solrquery.addfield.html)
+-   [SolrQuery::addField »](solrquery.addfield.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Додає фасетний запит
     
@@ -37,7 +37,7 @@ public SolrQuery::addFacetQuery(string $facetQuery): SolrQuery
 
 ### Приклади
 
-**Приклад #1 Приклад використання [SolrQuery::addFacetField()](solrquery.addfacetfield.html)**
+**Приклад #1 Приклад використання [SolrQuery::addFacetField()](solrquery.addfacetfield.md)**
 
 ```php
 <?php

@@ -1,12 +1,12 @@
 Отримати псевдоніми для заданого імені
 
--   [« UConverter::fromUCallback](uconverter.fromucallback.html)
+-   [« UConverter::fromUCallback](uconverter.fromucallback.md)
     
--   [UConverter::getAvailable »](uconverter.getavailable.html)
+-   [UConverter::getAvailable »](uconverter.getavailable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [UConverter](class.uconverter.html)
+-   [UConverter](class.uconverter.md)
     
 -   Отримати псевдоніми для заданого імені
     

@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Настройка во время выполнения](mongodb.configuration.html)
+-   [« Налаштування під час виконання](mongodb.configuration.md)
     
--   [Навчальні матеріали "](mongodb.tutorial.html)
+-   [Навчальні матеріали "](mongodb.tutorial.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mongodb.setup.html)
+-   [Встановлення та налаштування](mongodb.setup.md)
     
 -   Обумовлені константи
     

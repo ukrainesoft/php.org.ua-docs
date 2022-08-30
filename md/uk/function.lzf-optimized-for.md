@@ -2,11 +2,11 @@
 
 -   [« lzfdecompress](function.lzf-decompress.html)
     
--   [Phar »](book.phar.html)
+-   [Phar »](book.phar.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції LZF](ref.lzf.html)
+-   [Функції LZF](ref.lzf.md)
     
 -   Визначає режим оптимізації модуля LZF
     

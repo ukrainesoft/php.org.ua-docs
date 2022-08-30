@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Сокеты](book.sockets.html)
+-   [Сокети](book.sockets.html)
     
 -   Клас Socket
     

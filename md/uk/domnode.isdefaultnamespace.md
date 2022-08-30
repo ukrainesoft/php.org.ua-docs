@@ -1,12 +1,12 @@
 Перевіряє, чи вказаний URI простору імен вузла простором імен за замовчуванням чи ні
 
--   [« DOMNode::insertBefore](domnode.insertbefore.html)
+-   [« DOMNode::insertBefore](domnode.insertbefore.md)
     
--   [DOMNode::isSameNode »](domnode.issamenode.html)
+-   [DOMNode::isSameNode »](domnode.issamenode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMNode](class.domnode.html)
+-   [DOMNode](class.domnode.md)
     
 -   Перевіряє, чи вказаний URI простору імен вузла простором імен за замовчуванням чи ні
     

@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONTimestamp::toString »](mongodb-bson-timestamp.tostring.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html)
     
@@ -38,5 +38,5 @@ final public MongoDB\BSON\Timestamp::serialize(): string
 ### Дивіться також
 
 -   [MongoDBBSONTimestamp::unserialize()](mongodb-bson-timestamp.unserialize.html) - Десеріалізує Timestamp
--   [serialize()](function.serialize.html) - Генерує придатне для зберігання уявлення змінної
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання уявлення змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

@@ -4,9 +4,9 @@
     
 -   [wincacheucachecas »](function.wincache-ucache-cas.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции WinCache](ref.wincache.html)
+-   [Функции WinCache](ref.wincache.md)
     
 -   Додає змінну в кеш користувача, тільки якщо змінна ще не існує в кеші
     

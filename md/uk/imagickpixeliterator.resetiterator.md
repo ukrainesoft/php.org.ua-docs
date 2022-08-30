@@ -1,12 +1,12 @@
 Скидає ітератор пікселів
 
--   [« ImagickPixelIterator::newPixelRegionIterator](imagickpixeliterator.newpixelregioniterator.html)
+-   [« ImagickPixelIterator::newPixelRegionIterator](imagickpixeliterator.newpixelregioniterator.md)
     
--   [ImagickPixelIterator::setIteratorFirstRow »](imagickpixeliterator.setiteratorfirstrow.html)
+-   [ImagickPixelIterator::setIteratorFirstRow »](imagickpixeliterator.setiteratorfirstrow.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickPixelIterator](class.imagickpixeliterator.html)
+-   [ImagickPixelIterator](class.imagickpixeliterator.md)
     
 -   Скидає ітератор пікселів
     

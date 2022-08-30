@@ -15,17 +15,17 @@
 
 -   [IMAP](book.imap.html) - IMAP, POP3 та NNTP
     -   [Введение](intro.imap.html)
-    -   [Установка и настройка](imap.setup.html)
-    -   [Предопределённые константы](imap.constants.html)
+    -   [Встановлення та налаштування](imap.setup.html)
+    -   [Обумовлені константи](imap.constants.html)
     -   [Функции IMAP](ref.imap.html)
     -   [IMAPConnection](class.imap-connection.html) - Клас IMAPConnection
 -   [Mail](book.mail.html)
     -   [Введение](intro.mail.html)
-    -   [Установка и настройка](mail.setup.html)
-    -   [Предопределённые константы](mail.constants.html)
+    -   [Встановлення та налаштування](mail.setup.html)
+    -   [Обумовлені константи](mail.constants.html)
     -   [Почта](ref.mail.html)
 -   [Mailparse](book.mailparse.html)
     -   [Введение](intro.mailparse.html)
-    -   [Установка и настройка](mailparse.setup.html)
-    -   [Предопределённые константы](mailparse.constants.html)
+    -   [Встановлення та налаштування](mailparse.setup.html)
+    -   [Обумовлені константи](mailparse.constants.html)
     -   [Mailparse](ref.mailparse.html)

@@ -1,12 +1,12 @@
 Переміщує всі дані з вихідного буфера на початок поточного буфера
 
--   [« EventBuffer::prepend](eventbuffer.prepend.html)
+-   [« EventBuffer::prepend](eventbuffer.prepend.md)
     
--   [EventBuffer::pullup »](eventbuffer.pullup.html)
+-   [EventBuffer::pullup »](eventbuffer.pullup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBuffer](class.eventbuffer.html)
+-   [EventBuffer](class.eventbuffer.md)
     
 -   Переміщує всі дані з вихідного буфера на початок поточного буфера
     
@@ -27,7 +27,7 @@ public
    ): bool
 ```
 
-Поводиться як [EventBuffer::addBuffer()](eventbuffer.addbuffer.html) , За винятком того, що він переміщає дані на початок буфера.
+Поводиться як [EventBuffer::addBuffer()](eventbuffer.addbuffer.md) , За винятком того, що він переміщає дані на початок буфера.
 
 ### Список параметрів
 
@@ -41,6 +41,6 @@ public
 
 ### Дивіться також
 
--   [EventBuffer::add()](eventbuffer.add.html) - Додає дані до кінця буфера подій
--   [EventBuffer::addBuffer()](eventbuffer.addbuffer.html) - Переміщує всі дані з буфера екземпляру EventBuffer
--   [EventBuffer::prepend()](eventbuffer.prepend.html) - Записує дані на початок буфера
+-   [EventBuffer::add()](eventbuffer.add.md) - Додає дані до кінця буфера подій
+-   [EventBuffer::addBuffer()](eventbuffer.addbuffer.md) - Переміщує всі дані з буфера екземпляру EventBuffer
+-   [EventBuffer::prepend()](eventbuffer.prepend.md) - Записує дані на початок буфера

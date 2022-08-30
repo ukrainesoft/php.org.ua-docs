@@ -33,4 +33,4 @@ final public MongoDB\BSON\Undefined::__toString(): string
 
 ### Дивіться також
 
--   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

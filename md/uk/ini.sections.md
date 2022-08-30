@@ -1,12 +1,12 @@
 Список розділів php.ini
 
--   [« Список директив php.ini](ini.list.html)
+-   [« Список директив php.ini](ini.list.md)
     
--   [Опис вбудованих директив php.ini »](ini.core.html)
+-   [Опис вбудованих директив php.ini »](ini.core.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Директивы php.ini](ini.html)
+-   [Директиви php.ini](ini.md)
     
 -   Список розділів php.ini
     
@@ -21,10 +21,10 @@
 
 **Розділи**
 
-| Название                                    | Место изменения | История изменений |
-|---------------------------------------------|-----------------|-------------------|
-| [\[HOST=\]](ini.sections.html#ini.per-host) | PHPINISYSTEM    |                   |
-| [\[PATH=\]](ini.sections.html#ini.per-path) | PHPINISYSTEM    |                   |
+| Название | Место изменения | История изменений |
+| --- | --- | --- |
+| [\[HOST=\]](ini.sections.html#ini.per-host) | PHPINISYSTEM |  |
+| [\[PATH=\]](ini.sections.html#ini.per-path) | PHPINISYSTEM |  |
 
 Коротке пояснення конфігураційних директив.
 

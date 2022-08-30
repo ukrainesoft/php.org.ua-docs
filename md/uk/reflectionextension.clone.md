@@ -35,11 +35,11 @@ private ReflectionExtension::__clone(): void
 
 ### список змін
 
-| Версия | Описание                       |
-|--------|--------------------------------|
-|        | Метод не є остаточним (final). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод не є остаточним (final). |
 
 ### Дивіться також
 
 -   [ReflectionExtension::construct()](reflectionextension.construct.html) - Створює об'єкт класу ReflectionExtension
--   [Клонирование объектов](language.oop5.cloning.html)
+-   [Клонування об'єктів](language.oop5.cloning.html)

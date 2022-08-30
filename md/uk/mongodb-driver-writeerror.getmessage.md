@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverWriteResult »](class.mongodb-driver-writeresult.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverWriteError](class.mongodb-driver-writeerror.html)
     

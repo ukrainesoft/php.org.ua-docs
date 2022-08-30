@@ -1,12 +1,12 @@
 Повертає або створює цикл стандартних подій
 
--   [« EvLoop::construct](evloop.construct.html)
+-   [« EvLoop::construct](evloop.construct.md)
     
--   [EvLoop::embed »](evloop.embed.html)
+-   [EvLoop::embed »](evloop.embed.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvLoop](class.evloop.html)
+-   [EvLoop](class.evloop.md)
     
 -   Повертає або створює цикл стандартних подій
     
@@ -47,7 +47,7 @@ public
 
 `flags`
 
-Один з [флагов цикла событий](class.ev.html#ev.constants.loop-flags)
+Один з [прапори циклу подій](class.ev.html#ev.constants.loop-flags)
 
 `data`
 
@@ -67,4 +67,4 @@ public
 
 ### Дивіться також
 
--   [EvLoop::construct()](evloop.construct.html) - Конструктор об'єкта циклу подій
+-   [EvLoop::construct()](evloop.construct.md) - Конструктор об'єкта циклу подій

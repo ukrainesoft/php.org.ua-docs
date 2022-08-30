@@ -1,12 +1,12 @@
 Вибирає рядки, що залишилися, з набору результатів
 
--   [« PDOStatement::fetch](pdostatement.fetch.html)
+-   [« PDOStatement::fetch](pdostatement.fetch.md)
     
--   [PDOStatement::fetchColumn »](pdostatement.fetchcolumn.html)
+-   [PDOStatement::fetchColumn »](pdostatement.fetchcolumn.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDOStatement](class.pdostatement.html)
+-   [PDOStatement](class.pdostatement.md)
     
 -   Вибирає рядки, що залишилися, з набору результатів
     
@@ -39,7 +39,7 @@ public PDOStatement::fetchAll(int $mode = PDO::FETCH_FUNC, callable $callback): 
 
 `mode`
 
-Визначає вміст масиву, що повертається. Докладніше можна дізнатися з документації до методу [PDOStatement::fetch()](pdostatement.fetch.html). За замовчуванням параметр приймає значення **`PDO::ATTR_DEFAULT_FETCH_MODE`** (яке у свою чергу має умовчання **`PDO::FETCH_BOTH`**
+Визначає вміст масиву, що повертається. Докладніше можна дізнатися з документації до методу [PDOStatement::fetch()](pdostatement.fetch.md). За замовчуванням параметр приймає значення **`PDO::ATTR_DEFAULT_FETCH_MODE`** (яке у свою чергу має умовчання **`PDO::FETCH_BOTH`**
 
 Щоб вибрати значення лише одного стовпця, передайте як значення цього параметра константу **`PDO::FETCH_COLUMN`**. За допомогою параметра `column` можна встановити стовпець, з якого потрібно витягти дані.
 
@@ -70,9 +70,9 @@ public PDOStatement::fetchAll(int $mode = PDO::FETCH_FUNC, callable $callback): 
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | Метод тепер завжди повертає масив (array), раніше у разі виникнення помилки могло повертатися **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Метод тепер завжди повертає масив (array), раніше у разі виникнення помилки могло повертатися **`false`** |
 
 ### Приклади
 
@@ -293,8 +293,8 @@ array(3) {
 
 ### Дивіться також
 
--   [PDO::query()](pdo.query.html) - готує та виконує вираз SQL без заповнювачів
--   [PDOStatement::fetch()](pdostatement.fetch.html) - Вилучення наступного рядка з результуючого набору
--   [PDOStatement::fetchColumn()](pdostatement.fetchcolumn.html) - Повертає дані одного стовпця наступного рядка результуючого набору
--   [PDO::prepare()](pdo.prepare.html) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
--   [PDOStatement::setFetchMode()](pdostatement.setfetchmode.html) - Встановлює режим вибірки за промовчанням для об'єкта запиту
+-   [PDO::query()](pdo.query.md) - готує та виконує вираз SQL без заповнювачів
+-   [PDOStatement::fetch()](pdostatement.fetch.md) - Вилучення наступного рядка з результуючого набору
+-   [PDOStatement::fetchColumn()](pdostatement.fetchcolumn.md) - Повертає дані одного стовпця наступного рядка результуючого набору
+-   [PDO::prepare()](pdo.prepare.md) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
+-   [PDOStatement::setFetchMode()](pdostatement.setfetchmode.md) - Встановлює режим вибірки за промовчанням для об'єкта запиту

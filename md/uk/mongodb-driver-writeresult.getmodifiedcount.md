@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverWriteResult::getServer »](mongodb-driver-writeresult.getserver.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
     

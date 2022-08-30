@@ -1,12 +1,12 @@
 Встановити CA для шляху та інформації
 
--   [« OAuth::setAuthType](oauth.setauthtype.html)
+-   [« OAuth::setAuthType](oauth.setauthtype.md)
     
--   [OAuth::setNonce »](oauth.setnonce.html)
+-   [OAuth::setNonce »](oauth.setnonce.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](class.oauth.html)
+-   [OAuth](class.oauth.md)
     
 -   Встановити CA для шляху та інформації
     
@@ -45,10 +45,10 @@ CA інформації.
 
 ### список змін
 
-| Версия           | Описание                                                                   |
-|------------------|----------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
 
 ### Дивіться також
 
--   [OAuth::getCaPath()](oauth.getcapath.html) - Отримати інформацію CA
+-   [OAuth::getCaPath()](oauth.getcapath.md) - Отримати інформацію CA

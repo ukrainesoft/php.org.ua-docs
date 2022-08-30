@@ -1,38 +1,38 @@
 OpenSSL
 
--   [« mhash](function.mhash.html)
+-   [« mhash](function.mhash.md)
     
--   [Введение »](intro.openssl.html)
+-   [Введение »](intro.openssl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Криптографічні модулі](refs.crypto.html)
+-   [Криптографічні модулі](refs.crypto.md)
     
 -   OpenSSL
     
 
 # OpenSSL
 
--   [Введение](intro.openssl.html)
--   [Установка и настройка](openssl.setup.html)
-    -   [Требования](openssl.requirements.html)
-    -   [Установка](openssl.installation.html)
-    -   [Настройка во время выполнения](openssl.configuration.html)
-    -   [Типы ресурсов](openssl.resources.html)
--   [Предопределённые константы](openssl.constants.html)
+-   [Введение](intro.openssl.md)
+-   [Встановлення та налаштування](openssl.setup.md)
+    -   [Вимоги](openssl.requirements.md)
+    -   [Установка](openssl.installation.md)
+    -   [Налаштування під час виконання](openssl.configuration.md)
+    -   [Типи ресурсів](openssl.resources.md)
+-   [Обумовлені константи](openssl.constants.md)
     -   [Прапори перевірки](openssl.purpose-check.html)
-    -   [Флаги заполнения для ассиметричного шифрования](openssl.padding.html)
+    -   [Флаги заполнения для ассиметричного шифрования](openssl.padding.md)
     -   [Типи ключів](openssl.key-types.html)
-    -   [Флаги/константы PKCS7](openssl.pkcs7.flags.html)
-    -   [Флаги/Константы CMS](openssl.cms.flags.html)
-    -   [Алгоритмы подписи](openssl.signature-algos.html)
-    -   [Алгоритмы шифрования](openssl.ciphers.html)
-    -   [Константи версій](openssl.constversion.html)
-    -   [Константа SNI (Server Name Indication)](openssl.constsni.html)
-    -   [Другие константы](openssl.constants.other.html)
--   [Параметры ключа/сертификата](openssl.certparams.html)
--   [Проверка сертификатов](openssl.cert.verification.html)
--   [Функции OpenSSL](ref.openssl.html)
+    -   [Прапори/константи PKCS7](openssl.pkcs7.flags.md)
+    -   [Прапори/Константи CMS](openssl.cms.flags.md)
+    -   [Алгоритми підпису](openssl.signature-algos.html)
+    -   [Алгоритми шифрування](openssl.ciphers.md)
+    -   [Константи версій](openssl.constversion.md)
+    -   [Константа SNI (Server Name Indication)](openssl.constsni.md)
+    -   [Інші константи](openssl.constants.other.md)
+-   [Параметри ключа/сертифіката](openssl.certparams.md)
+-   [Проверка сертификатов](openssl.cert.verification.md)
+-   [Функции OpenSSL](ref.openssl.md)
     -   [opensslcipherвербlength](function.openssl-cipher-iv-length.html) — Отримує довжину вектора, що ініціалізує, шифру.
     -   [opensslcmsdecrypt](function.openssl-cms-decrypt.html) — Розшифровує CMS-повідомлення
     -   [opensslcmsencrypt](function.openssl-cms-encrypt.html) — Зашифровує CMS-повідомлення
@@ -96,6 +96,6 @@ OpenSSL
     -   [opensslx509parse](function.openssl-x509-parse.html) — Розібрати сертифікат X509 та отримати масив із даними про нього
     -   [opensslx509read](function.openssl-x509-read.html) — Розібрати сертифікат X.509 та повернути для нього об'єкт
     -   [opensslx509verify](function.openssl-x509-verify.html) — Перевірити цифровий підпис сертифіката x509 за допомогою публічного ключа
--   [OpenSSLCertificate](class.opensslcertificate.html) - Клас OpenSSLCertificate
--   [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.html) — Клас OpenSSLCertificateSigningRequest
--   [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) - Клас OpenSSLAsymmetricKey
+-   [OpenSSLCertificate](class.opensslcertificate.md) - Клас OpenSSLCertificate
+-   [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md) — Клас OpenSSLCertificateSigningRequest
+-   [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) - Клас OpenSSLAsymmetricKey

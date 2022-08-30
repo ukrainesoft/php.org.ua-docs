@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.mysql.html)
+-   [« Введение](intro.mysql.md)
     
--   [Требования »](mysql.requirements.html)
+-   [Вимоги »](mysql.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL (Original)](book.mysql.html)
+-   [MySQL (Original)](book.mysql.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](mysql.requirements.html)
--   [Установка](mysql.installation.html)
--   [Настройка во время выполнения](mysql.configuration.html)
--   [Типы ресурсов](mysql.resources.html)
+-   [Вимоги](mysql.requirements.md)
+-   [Установка](mysql.installation.md)
+-   [Налаштування під час виконання](mysql.configuration.md)
+-   [Типи ресурсів](mysql.resources.md)

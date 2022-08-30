@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](sockets.installation.html)
+-   [« Установка](sockets.installation.md)
     
--   [Типы ресурсов »](sockets.resources.html)
+-   [Типи ресурсів »](sockets.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](sockets.setup.html)
+-   [Встановлення та налаштування](sockets.setup.md)
     
 -   Налаштування під час виконання
     

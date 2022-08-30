@@ -1,12 +1,12 @@
 Псевдонім ociparse
 
--   [« ocinumcols](function.ocinumcols.html)
+-   [« ocinumcols](function.ocinumcols.md)
     
--   [ociplogon »](function.ociplogon.html)
+-   [ociplogon »](function.ociplogon.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Псевдонім ociparse
     

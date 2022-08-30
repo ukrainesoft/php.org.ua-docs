@@ -1,12 +1,12 @@
 Скидає покажчик результуючого набору на перший рядок
 
--   [« SQLite3Result::numColumns](sqlite3result.numcolumns.html)
+-   [« SQLite3Result::numColumns](sqlite3result.numcolumns.md)
     
--   [SQLSRV »](book.sqlsrv.html)
+-   [SQLSRV »](book.sqlsrv.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3Result](class.sqlite3result.html)
+-   [SQLite3Result](class.sqlite3result.md)
     
 -   Скидає покажчик результуючого набору на перший рядок
     

@@ -1,12 +1,12 @@
 Перевіряє, чи поточна позиція ітератора коректна.
 
--   [« APCUIterator::rewind](apcuiterator.rewind.html)
+-   [« APCUIterator::rewind](apcuiterator.rewind.md)
     
--   [Componere »](book.componere.html)
+-   [Componere »](book.componere.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [APCUIterator](class.apcuiterator.html)
+-   [APCUIterator](class.apcuiterator.md)
     
 -   Перевіряє, чи поточна позиція ітератора коректна.
     
@@ -35,5 +35,5 @@ public APCUIterator::valid(): bool
 
 ### Дивіться також
 
--   [APCUIterator::current()](apcuiterator.current.html) - Отримати поточний елемент
--   [Iterator::valid()](iterator.valid.html) - Перевіряє коректність поточної позиції
+-   [APCUIterator::current()](apcuiterator.current.md) - Отримати поточний елемент
+-   [Iterator::valid()](iterator.valid.md) - Перевіряє коректність поточної позиції

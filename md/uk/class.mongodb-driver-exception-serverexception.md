@@ -4,9 +4,9 @@
     
 -   [MongoDBDriverExceptionSSLConnectionException »](class.mongodb-driver-exception-sslconnectionexception.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBDriverException](mongodb.exceptions.html)
+-   [MongoDBDriverException](mongodb.exceptions.md)
     
 -   Клас MongoDBDriverExceptionServerException
     

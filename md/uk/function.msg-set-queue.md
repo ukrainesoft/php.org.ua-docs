@@ -4,9 +4,9 @@
     
 -   [msgstatqueue »](function.msg-stat-queue.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції семафорів](ref.sem.html)
+-   [Функції семафорів](ref.sem.md)
     
 -   Встановлення інформації у структурі даних черги повідомлень
     
@@ -43,9 +43,9 @@ msg_set_queue(SysvMessageQueue $queue, array $data): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                     |
-|--------|------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

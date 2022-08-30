@@ -1,12 +1,12 @@
 Встановлює коефіцієнт відхилення триграми фрази (параметр ps3)
 
--   [« SolrDisMaxQuery::setTrigramPhraseFields](solrdismaxquery.settrigramphrasefields.html)
+-   [« SolrDisMaxQuery::setTrigramPhraseFields](solrdismaxquery.settrigramphrasefields.md)
     
--   [SolrDisMaxQuery::setUserFields »](solrdismaxquery.setuserfields.html)
+-   [SolrDisMaxQuery::setUserFields »](solrdismaxquery.setuserfields.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
+-   [SolrDisMaxQuery](class.solrdismaxquery.md)
     
 -   Встановлює коефіцієнт відхилення триграми фрази (параметр ps3)
     
@@ -33,7 +33,7 @@ public SolrDisMaxQuery::setTrigramPhraseSlop(string $slop): SolrDisMaxQuery
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.html)
+[SolrDisMaxQuery](class.solrdismaxquery.md)
 
 ### Приклади
 
@@ -57,6 +57,6 @@ q=lucene&defType=edismax&ps3=2
 
 ### Дивіться також
 
--   [SolrDisMaxQuery::addTrigramPhraseField()](solrdismaxquery.addtrigramphrasefield.html) - Додає поле триграми (параметр pf3)
--   [SolrDisMaxQuery::removeTrigramPhraseField()](solrdismaxquery.removetrigramphrasefield.html) - Видаляє поле триграми (параметр pf3)
--   [SolrDisMaxQuery::setTrigramPhraseFields()](solrdismaxquery.settrigramphrasefields.html) - Безпосередньо встановлює поля триграм фрази (параметр pf3)
+-   [SolrDisMaxQuery::addTrigramPhraseField()](solrdismaxquery.addtrigramphrasefield.md) - Додає поле триграми (параметр pf3)
+-   [SolrDisMaxQuery::removeTrigramPhraseField()](solrdismaxquery.removetrigramphrasefield.md) - Видаляє поле триграми (параметр pf3)
+-   [SolrDisMaxQuery::setTrigramPhraseFields()](solrdismaxquery.settrigramphrasefields.md) - Безпосередньо встановлює поля триграм фрази (параметр pf3)

@@ -4,9 +4,9 @@
     
 -   [wincacheucacheinfo »](function.wincache-ucache-info.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции WinCache](ref.wincache.html)
+-   [Функции WinCache](ref.wincache.md)
     
 -   Збільшує значення, пов'язане з ключем
     

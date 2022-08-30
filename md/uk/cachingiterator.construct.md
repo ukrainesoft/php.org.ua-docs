@@ -1,12 +1,12 @@
 Створює новий об'єкт CachingIterator для ітератора
 
--   [« CachingIterator](class.cachingiterator.html)
+-   [« CachingIterator](class.cachingiterator.md)
     
--   [CachingIterator::count »](cachingiterator.count.html)
+-   [CachingIterator::count »](cachingiterator.count.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CachingIterator](class.cachingiterator.html)
+-   [CachingIterator](class.cachingiterator.md)
     
 -   Створює новий об'єкт CachingIterator для ітератора
     
@@ -19,7 +19,7 @@ CachingIterator::construct — Створює новий об'єкт CachingIter
 
 ### Опис
 
-public **CachingIterator::construct**[Iterator](class.iterator.html) `$iterator`, int `$flags` = CachingIterator::CALLTOSTRING)
+public **CachingIterator::construct**[Iterator](class.iterator.md) `$iterator`, int `$flags` = CachingIterator::CALLTOSTRING)
 
 **Увага**
 

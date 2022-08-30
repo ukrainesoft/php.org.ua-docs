@@ -1,12 +1,12 @@
 Додає дані до існуючого запису
 
--   [« Memcached::addServers](memcached.addservers.html)
+-   [« Memcached::addServers](memcached.addservers.md)
     
--   [Memcached::appendByKey »](memcached.appendbykey.html)
+-   [Memcached::appendByKey »](memcached.appendbykey.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Додає дані до існуючого запису
     
@@ -41,7 +41,7 @@ public Memcached::append(string $key, string $value): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.html) повертає **`Memcached::RES_NOTSTORED`**, якщо переданий ключ не існує.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає **`Memcached::RES_NOTSTORED`**, якщо переданий ключ не існує.
 
 ### Приклади
 
@@ -67,5 +67,5 @@ string(6) "abcdef"
 
 ### Дивіться також
 
--   [Memcached::appendByKey()](memcached.appendbykey.html) - Додає дані до наявного запису на заданому сервері
--   [Memcached::prepend()](memcached.prepend.html) - Додає дані на початок існуючого запису
+-   [Memcached::appendByKey()](memcached.appendbykey.md) - Додає дані до наявного запису на заданому сервері
+-   [Memcached::prepend()](memcached.prepend.md) - Додає дані на початок існуючого запису

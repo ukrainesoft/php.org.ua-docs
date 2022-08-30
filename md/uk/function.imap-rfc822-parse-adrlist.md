@@ -4,9 +4,9 @@
     
 -   [imaprfc822parseheaders »](function.imap-rfc822-parse-headers.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции IMAP](ref.imap.html)
+-   [Функции IMAP](ref.imap.md)
     
 -   Розбір адресного рядка
     

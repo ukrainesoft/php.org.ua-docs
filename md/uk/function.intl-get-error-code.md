@@ -4,9 +4,9 @@
     
 -   [intlgeterrormessage »](function.intl-get-error-message.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции intl](ref.intl.html)
+-   [Функции intl](ref.intl.md)
     
 -   Отримати код останньої помилки
     
@@ -51,5 +51,5 @@ if( !$coll ) {
 -   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
 -   [intlerrorname()](function.intl-error-name.html) - Отримати ім'я помилки за її кодом
 -   [intlgeterrormessage()](function.intl-get-error-message.html) - Отримати опис помилки
--   [collatorgeterrorcode()](collator.geterrorcode.html) - Отримує останній код помилки Collator
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
+-   [collatorgeterrorcode()](collator.geterrorcode.md) - Отримує останній код помилки Collator
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування

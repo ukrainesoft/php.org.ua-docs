@@ -2,11 +2,11 @@
 
 -   [« Прочие изменения](migration71.other-changes.html)
     
--   [Миграция с PHP 5.6.x на PHP 7.0.x »](migration70.html)
+-   [Миграция с PHP 5.6.x на PHP 7.0.x »](migration70.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 7.0.x на PHP 7.1.x](migration71.html)
+-   [Миграция с PHP 7.0.x на PHP 7.1.x](migration71.md)
     
 -   Підтримка Windows
     
@@ -44,7 +44,7 @@
 
 ### readline
 
-Модуль [readline](book.readline.html) підтримується через бібліотеку [» WinEditLine](http://mingweditline.sourceforge.net/). Таким чином, інтерфейс оболонки CLI також підтримується (`php.exe -a`
+Модуль [readline](book.readline.md) підтримується через бібліотеку [» WinEditLine](http://mingweditline.sourceforge.net/). Таким чином, інтерфейс оболонки CLI також підтримується (`php.exe -a`
 
 ### PHPFCGICHILDREN
 
@@ -52,4 +52,4 @@
 
 ### ftok()
 
-Додана підтримка для [ftok()](function.ftok.html)
+Додана підтримка для [ftok()](function.ftok.md)

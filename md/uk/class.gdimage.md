@@ -1,12 +1,12 @@
 Клас GdImage
 
--   [« png2wbmp](function.png2wbmp.html)
+-   [« png2wbmp](function.png2wbmp.md)
     
--   [GdFont »](class.gdfont.html)
+-   [GdFont »](class.gdfont.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ДД](book.image.html)
+-   [ДД](book.image.md)
     
 -   Клас GdImage
     

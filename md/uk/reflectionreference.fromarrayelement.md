@@ -1,12 +1,12 @@
 Створює ReflectionReference з елемента масиву
 
--   [« ReflectionReference::construct](reflectionreference.construct.html)
+-   [« ReflectionReference::construct](reflectionreference.construct.md)
     
--   [ReflectionReference::getId »](reflectionreference.getid.html)
+-   [ReflectionReference::getId »](reflectionreference.getid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionReference](class.reflectionreference.html)
+-   [ReflectionReference](class.reflectionreference.md)
     
 -   Створює ReflectionReference з елемента масиву
     
@@ -23,7 +23,7 @@ ReflectionReference::fromArrayElement — Створює ReflectionReference з 
 public static ReflectionReference::fromArrayElement(array $array, int|string $key): ?ReflectionReference
 ```
 
-Створює [ReflectionReference](class.reflectionreference.html) елемент масиву.
+Створює [ReflectionReference](class.reflectionreference.md) елемент масиву.
 
 ### Список параметрів
 
@@ -41,4 +41,4 @@ public static ReflectionReference::fromArrayElement(array $array, int|string $ke
 
 ### Помилки
 
-Якщо `array` не є масивом, або `key` не є цілим числом (int) або рядком (string), буде викинуто виняток [TypeError](class.typeerror.html). Якщо `$array[$key]` не заданий, то буде викинуто виняток [ReflectionException](class.reflectionexception.html)
+Якщо `array` не є масивом, або `key` не є цілим числом (int) або рядком (string), буде викинуто виняток [TypeError](class.typeerror.md). Якщо `$array[$key]` не заданий, то буде викинуто виняток [ReflectionException](class.reflectionexception.md)

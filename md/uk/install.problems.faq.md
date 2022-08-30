@@ -1,16 +1,16 @@
 Читайте FAQ
 
--   [« Проблемы?](install.problems.html)
+-   [«Проблеми?](install.problems.md)
     
--   [Інші проблеми »](install.problems.support.html)
+-   [Інші проблеми »](install.problems.support.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Проблемы?](install.problems.html)
+-   [Проблеми?](install.problems.md)
     
 -   Читайте FAQ
     
 
 ## Читайте FAQ
 
-Деякі проблеми виникають найчастіше. Найчастіше зустрічаються їх перелічені розділі [PHP FAQ](faq.html) цього керівництва.
+Деякі проблеми виникають найчастіше. Найчастіше зустрічаються їх перелічені розділі [PHP FAQ](faq.md) цього керівництва.

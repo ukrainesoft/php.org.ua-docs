@@ -1,12 +1,12 @@
 Видаляє пікселі по краях зображення
 
--   [« Imagick::sharpenImage](imagick.sharpenimage.html)
+-   [« Imagick::sharpenImage](imagick.sharpenimage.md)
     
--   [Imagick::shearImage »](imagick.shearimage.html)
+-   [Imagick::shearImage »](imagick.shearimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Видаляє пікселі по краях зображення
     

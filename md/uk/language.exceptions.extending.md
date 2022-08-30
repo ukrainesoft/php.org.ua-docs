@@ -1,12 +1,12 @@
 Спадкування винятків
 
--   [« Исключения](language.exceptions.html)
+-   [« Исключения](language.exceptions.md)
     
--   [Fibers »](language.fibers.html)
+-   [Fibers »](language.fibers.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Исключения](language.exceptions.html)
+-   [Исключения](language.exceptions.md)
     
 -   Спадкування винятків
     
@@ -37,7 +37,7 @@ class Exception implements Throwable
     final public  function getCode();           // код исключения
     final public  function getFile();           // файл, где выброшено исключение
     final public  function getLine();           // строка, на которой выброшено исключение
-    final public  function getTrace();          // массив backtrace()
+    final public  function getTrace();          // Масив backtrace()
     final public  function getPrevious();       // предыдущее исключение
     final public  function getTraceAsString();  // отформатированная строка трассировки
 
@@ -47,11 +47,11 @@ class Exception implements Throwable
 ?>
 ```
 
-Якщо клас, успадкований від Exception перевизначає [конструктор](language.oop5.decon.html)необхідно викликати в конструкторі [parent::construct()](language.oop5.paamayim-nekudotayim.html)щоб бути впевненим, що всі доступні дані були правильно присвоєні. Метод [toString()](language.oop5.magic.html) може бути перевизначений, щоб забезпечити потрібний висновок, коли об'єкт перетворюється на рядок.
+Якщо клас, успадкований від Exception перевизначає [конструктор](language.oop5.decon.md)необхідно викликати в конструкторі [parent::construct()](language.oop5.paamayim-nekudotayim.html)щоб бути впевненим, що всі доступні дані були правильно присвоєні. Метод [toString()](language.oop5.magic.md) може бути перевизначений, щоб забезпечити потрібний висновок, коли об'єкт перетворюється на рядок.
 
 > **Зауваження**
 > 
-> Винятки не можна клонувати. Спроба [клонувати](language.oop5.cloning.html) виняток призведе до непоправної помилки **`E_ERROR`**
+> Винятки не можна клонувати. Спроба [клонувати](language.oop5.cloning.md) виняток призведе до непоправної помилки **`E_ERROR`**
 
 **Приклад #2 Спадкування класу Exception**
 

@@ -4,7 +4,7 @@
     
 -   [Result::getGeneratedIds »](mysql-xdevapi-result.getgeneratedids.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiResult](class.mysql-xdevapi-result.html)
     

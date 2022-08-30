@@ -1,12 +1,12 @@
 Зміни, що ламають зворотну сумісність
 
--   [« Новые глобальные константы](migration81.constants.html)
+-   [« Нові глобальні константи](migration81.constants.md)
     
--   [Устаревшая функциональность »](migration81.deprecated.html)
+-   [Устаревшая функциональность »](migration81.deprecated.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 8.0.x на PHP 8.1.x](migration81.html)
+-   [Миграция с PHP 8.0.x на PHP 8.1.x](migration81.md)
     
 -   Зміни, що ламають зворотну сумісність
     
@@ -17,7 +17,7 @@
 
 #### Обмеження доступу до $GLOBALS
 
-Доступ до масиву [$GLOBALS](reserved.variables.globals.html) тепер має низку обмежень. Читання та запис окремих елементів масиву, наприклад, `$GLOBALS['var']`, як і раніше працює. Читання всього масиву [$GLOBALS](reserved.variables.globals.html) також підтримується. Однак операції, пов'язані зі зміною всього [$GLOBALS](reserved.variables.globals.html), заборонено. Наприклад, `array_pop($GLOBALS)` призведе до помилки.
+Доступ до масиву [$GLOBALS](reserved.variables.globals.md) тепер має низку обмежень. Читання та запис окремих елементів масиву, наприклад, `$GLOBALS['var']`, як і раніше працює. Читання всього масиву [$GLOBALS](reserved.variables.globals.md) також підтримується. Однак операції, пов'язані зі зміною всього [$GLOBALS](reserved.variables.globals.md), заборонено. Наприклад, `array_pop($GLOBALS)` призведе до помилки.
 
 #### Використання staticзмінних у успадкованих методах
 
@@ -44,7 +44,7 @@ var_dump(B::counter()); // int(4), ранее было int(2)
 
 #### Необов'язкові параметри, вказані перед обов'язковими параметрами
 
-[Необов'язковий параметр](functions.arguments.html#functions.arguments.default), вказаний перед обов'язковими параметрами, тепер завжди обробляється як обов'язковий навіть при виклику з використанням [именованных аргументов](functions.arguments.html#functions.named-arguments). Починаючи з PHP 8.0.0, але до PHP 8.1.0, наведений нижче код видає попередження про старіння визначення, але успішно виконується під час виклику. Починаючи з PHP 8.1.0, видається помилка класу [ArgumentCountError](class.argumentcounterror.html), як це було б під час виклику з позиційними аргументами.
+[Необов'язковий параметр](functions.arguments.html#functions.arguments.default), вказаний перед обов'язковими параметрами, тепер завжди обробляється як обов'язковий навіть при виклику з використанням [іменованих аргументів](functions.arguments.html#functions.named-arguments). Починаючи з PHP 8.0.0, але до PHP 8.1.0, наведений нижче код видає попередження про старіння визначення, але успішно виконується під час виклику. Починаючи з PHP 8.1.0, видається помилка класу [ArgumentCountError](class.argumentcounterror.md), як це було б під час виклику з позиційними аргументами.
 
 ```php
 <?php
@@ -93,29 +93,29 @@ ArgumentCountError - makeyogurt(): Argument #1 ($container) not passed
 
 ### Перехід від ресурсів до об'єктів
 
-Декілька ресурсів ([resource](language.types.resource.html)) тепер представлені як об'єкти (object). Перевірки значення, що повертається з використанням функції [ісresource()](function.is-resource.html) слід замінити перевірками на **`false`**
+Декілька ресурсів ([resource](language.types.resource.md)) тепер представлені як об'єкти (object). Перевірки значення, що повертається з використанням функції [ісresource()](function.is-resource.html) слід замінити перевірками на **`false`**
 
--   Функції [FileInfo](book.fileinfo.html) тепер приймають та повертають об'єкти [finfo](class.finfo.html) замість ресурсів ([resource](language.types.resource.html) `fileinfo`
+-   Функції [FileInfo](book.fileinfo.md) тепер приймають та повертають об'єкти [finfo](class.finfo.md) замість ресурсів ([resource](language.types.resource.md) `fileinfo`
     
--   Функції [FTP](book.ftp.html) тепер приймають та повертають об'єкти [FTPConnection](class.ftp-connection.html) замість ресурсів ([resource](language.types.resource.html) `ftp`
+-   Функції [FTP](book.ftp.md) тепер приймають та повертають об'єкти [FTPConnection](class.ftp-connection.html) замість ресурсів ([resource](language.types.resource.md) `ftp`
     
--   Функції [IMAP](book.imap.html) тепер приймають та повертають об'єкти [IMAPConnection](class.imap-connection.html) замість ресурсів ([resource](language.types.resource.html) `imap`
+-   Функції [IMAP](book.imap.md) тепер приймають та повертають об'єкти [IMAPConnection](class.imap-connection.html) замість ресурсів ([resource](language.types.resource.md) `imap`
     
--   The [LDAP](book.ldap.html) тепер приймають та повертають об'єкти [LDAPConnection](class.ldap-connection.html) замість ресурсів ([resource](language.types.resource.html) `ldap link`
+-   The [LDAP](book.ldap.md) тепер приймають та повертають об'єкти [LDAPConnection](class.ldap-connection.html) замість ресурсів ([resource](language.types.resource.md) `ldap link`
     
--   Функції [LDAP](book.ldap.html) тепер приймають та повертають об'єкти [LDAPResult](class.ldap-result.html) замість ресурсів ([resource](language.types.resource.html) `ldap result`
+-   Функції [LDAP](book.ldap.md) тепер приймають та повертають об'єкти [LDAPResult](class.ldap-result.html) замість ресурсів ([resource](language.types.resource.md) `ldap result`
     
--   Функції [LDAP](book.ldap.html) тепер приймають та повертають об'єкти [LDAPResultEntry](class.ldap-result-entry.html) замість ресурсів ([resource](language.types.resource.html) `ldap result entry`
+-   Функції [LDAP](book.ldap.md) тепер приймають та повертають об'єкти [LDAPResultEntry](class.ldap-result-entry.html) замість ресурсів ([resource](language.types.resource.md) `ldap result entry`
     
--   Функції [PgSQL](book.pgsql.html) тепер приймають та повертають об'єкти [PgSqlConnection](class.pgsql-connection.html) замість ресурсів ([resource](language.types.resource.html) `pgsql link`
+-   Функції [PgSQL](book.pgsql.md) тепер приймають та повертають об'єкти [PgSqlConnection](class.pgsql-connection.html) замість ресурсів ([resource](language.types.resource.md) `pgsql link`
     
--   Функції [PgSQL](book.pgsql.html) тепер приймають та повертають об'єкти [PgSqlResult](class.pgsql-result.html) замість ресурсів ([resource](language.types.resource.html) `pgsql result`
+-   Функції [PgSQL](book.pgsql.md) тепер приймають та повертають об'єкти [PgSqlResult](class.pgsql-result.html) замість ресурсів ([resource](language.types.resource.md) `pgsql result`
     
--   Функції [PgSQL](book.pgsql.html) тепер приймають та повертають об'єкти [PgSqlLob](class.pgsql-lob.html) замість ресурсів ([resource](language.types.resource.html) `pgsql large object`
+-   Функції [PgSQL](book.pgsql.md) тепер приймають та повертають об'єкти [PgSqlLob](class.pgsql-lob.html) замість ресурсів ([resource](language.types.resource.md) `pgsql large object`
     
--   Функції [PSpell](book.pspell.html) тепер приймають та повертають об'єкти [PSpellDictionary](class.pspell-dictionary.html) замість ресурсів ([resource](language.types.resource.html) `pspell`
+-   Функції [PSpell](book.pspell.md) тепер приймають та повертають об'єкти [PSpellDictionary](class.pspell-dictionary.html) замість ресурсів ([resource](language.types.resource.md) `pspell`
     
--   Функції [PSpell](book.pspell.html) тепер приймають та повертають об'єкти [PSpellConfig](class.pspell-config.html) замість ресурсів ([resource](language.types.resource.html) `pspell config`
+-   Функції [PSpell](book.pspell.md) тепер приймають та повертають об'єкти [PSpellConfig](class.pspell-config.html) замість ресурсів ([resource](language.types.resource.md) `pspell config`
     
 
 ### MySQLi
@@ -128,7 +128,7 @@ ArgumentCountError - makeyogurt(): Argument #1 ($container) not passed
 
 [mysqli::connect()](function.mysqli-connect.html) тепер повертає **`true`** замість **`null`** у разі успішного виконання.
 
-Режим обробки помилок за умовчанням було змінено з "silent" на "exceptions". Дивіться сторінку [Режимы обработки ошибок MySQLi](mysqli-driver.report-mode.html) для отримання додаткових відомостей про те, що це спричиняє і як явно встановити цей атрибут. Щоб відновити попередню поведінку, використовуйте: `mysqli_report(MYSQLI_REPORT_OFF);`
+Режим обробки помилок за умовчанням було змінено з "silent" на "exceptions". Дивіться сторінку [Режими обробки помилок MySQLi](mysqli-driver.report-mode.html) для отримання додаткових відомостей про те, що це спричиняє і як явно встановити цей атрибут. Щоб відновити попередню поведінку, використовуйте: `mysqli_report(MYSQLI_REPORT_OFF);`
 
 Класи, що розширюють [mysqlistmt::execute()](mysqli-stmt.execute.html), тепер потрібно вказати додатковий необов'язковий параметр.
 
@@ -146,7 +146,7 @@ INI-директива [mysqlnd.fetchdatacopy](mysqlnd.config.html#ini.mysqlnd.f
 
 **`PDO::ATTR_STRINGIFY_FETCHES`** тепер перетворює логічні значення (bool) на `"0"` або `"1"`. Раніше логічні значення (bool) були строковими.
 
-Виклик [PDOStatement::bindColumn()](pdostatement.bindcolumn.html) з **`PDO::PARAM_LOB`** тепер буде постійно пов'язувати результат потоку, якщо **`PDO::ATTR_STRINGIFY_FETCHES`** не увімкнуто. Раніше результатом був або потік, або рядок в залежності від драйвера бази даних і часу виконання прив'язки.
+Виклик [PDOStatement::bindColumn()](pdostatement.bindcolumn.md) з **`PDO::PARAM_LOB`** тепер буде постійно пов'язувати результат потоку, якщо **`PDO::ATTR_STRINGIFY_FETCHES`** не увімкнуто. Раніше результатом був або потік, або рядок в залежності від драйвера бази даних і часу виконання прив'язки.
 
 #### Драйвер MySQL
 
@@ -158,13 +158,13 @@ INI-директива [mysqlnd.fetchdatacopy](mysqlnd.config.html#ini.mysqlnd.f
 
 ### Phar
 
-Щоб відповідати інтерфейсу [ArrayAccess](class.arrayaccess.html) [Phar::offsetUnset()](phar.offsetunset.html) і [PharData::offsetUnset()](phardata.offsetunset.html) більше повертають логічне значення (bool).
+Щоб відповідати інтерфейсу [ArrayAccess](class.arrayaccess.md) [Phar::offsetUnset()](phar.offsetunset.md) і [PharData::offsetUnset()](phardata.offsetunset.md) більше повертають логічне значення (bool).
 
 ### Стандартні функції
 
 [versioncompare()](function.version-compare.html) більше не приймає недокументованих скорочень операторів.
 
-Функції [htmlspecialchars()](function.htmlspecialchars.html) [htmlentities()](function.htmlentities.html) [htmlspecialcharsdecode()](function.htmlspecialchars-decode.html) [htmlentitydecode()](function.html-entity-decode.html) і [gethtmltranslationtable()](function.get-html-translation-table.html) тепер за умовчанням використовують `ENT_QUOTES | ENT_SUBSTITUTE` замість **`ENT_COMPAT`**. Це означає, що тепер `'` екранується в `&#039;`. Крім того, у разі неправильного UTF-8 замість порожнього рядка буде повернуто заміщувальний символ Unicode.
+Функції [htmlspecialchars()](function.htmlspecialchars.md) [htmlentities()](function.htmlentities.md) [htmlspecialcharsdecode()](function.htmlspecialchars-decode.html) [htmlentitydecode()](function.html-entity-decode.html) і [gethtmltranslationtable()](function.get-html-translation-table.html) тепер за умовчанням використовують `ENT_QUOTES | ENT_SUBSTITUTE` замість **`ENT_COMPAT`**. Це означає, що тепер `'` екранується в `&#039;`. Крім того, у разі неправильного UTF-8 замість порожнього рядка буде повернуто заміщувальний символ Unicode.
 
 [debugzvaldump()](function.debug-zval-dump.html) тепер виводить refcount оболонок посилань з їх refcount, замість того, щоб просто додавати `&` до значення. Це більш точно моделює еталонну виставу, починаючи з PHP 7.0.
 
@@ -172,4 +172,4 @@ INI-директива [mysqlnd.fetchdatacopy](mysqlnd.config.html#ini.mysqlnd.f
 
 ### Стандартна бібліотека PHP (SPL)
 
-[SplFixedArray](class.splfixedarray.html) тепер буде закодовано в JSON як масив (array).
+[SplFixedArray](class.splfixedarray.md) тепер буде закодовано в JSON як масив (array).

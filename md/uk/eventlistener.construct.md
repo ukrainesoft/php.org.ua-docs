@@ -1,12 +1,12 @@
 Створити новий слухач з'єднання, пов'язаний з базою подій
 
--   [« EventListener](class.eventlistener.html)
+-   [« EventListener](class.eventlistener.md)
     
--   [EventListener::disable »](eventlistener.disable.html)
+-   [EventListener::disable »](eventlistener.disable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventListener](class.eventlistener.html)
+-   [EventListener](class.eventlistener.md)
     
 -   Створити новий слухач з'єднання, пов'язаний з базою подій
     
@@ -52,7 +52,7 @@ public
 
 `cb`
 
-Callback-функція ([callable](language.types.callable.html)), яка буде викликана при отриманні з'єднання.
+Callback-функція ([callable](language.types.callable.md)), яка буде викликана при отриманні з'єднання.
 
 `data`
 
@@ -60,7 +60,7 @@ Callback-функція ([callable](language.types.callable.html)), яка бу�
 
 `flags`
 
-Бітова маска з констант `EventListener::OPT_*`. Дивіться [константы EventListener](class.eventlistener.html#eventlistener.constants)
+Бітова маска з констант `EventListener::OPT_*`. Дивіться [константи EventListener](class.eventlistener.html#eventlistener.constants)
 
 `backlog`
 
@@ -72,12 +72,12 @@ Callback-функція ([callable](language.types.callable.html)), яка бу�
 
 ### Значення, що повертаються
 
-Повертає об'єкт [EventListener](class.eventlistener.html), що представляє слухач події з'єднання.
+Повертає об'єкт [EventListener](class.eventlistener.md), що представляє слухач події з'єднання.
 
 ### список змін
 
-| Версия           | Описание                              |
-|------------------|---------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL event 1.5.0 | Додано підтримку сокетів домену UNIX. |
 
 ### Приклади

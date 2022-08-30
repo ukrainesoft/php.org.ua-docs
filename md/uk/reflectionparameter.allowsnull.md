@@ -1,12 +1,12 @@
 Перевіряє, чи допустиме значення null для параметра
 
--   [« ReflectionParameter](class.reflectionparameter.html)
+-   [« ReflectionParameter](class.reflectionparameter.md)
     
--   [ReflectionParameter::canBePassedByValue »](reflectionparameter.canbepassedbyvalue.html)
+-   [ReflectionParameter::canBePassedByValue »](reflectionparameter.canbepassedbyvalue.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionParameter](class.reflectionparameter.html)
+-   [ReflectionParameter](class.reflectionparameter.md)
     
 -   Перевіряє, чи допустиме значення null для параметра
     
@@ -35,4 +35,4 @@ public ReflectionParameter::allowsNull(): bool
 
 ### Дивіться також
 
--   [ReflectionParameter::isOptional()](reflectionparameter.isoptional.html) - Перевіряє, чи є аргумент необов'язковим
+-   [ReflectionParameter::isOptional()](reflectionparameter.isoptional.md) - Перевіряє, чи є аргумент необов'язковим

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](stream.setup.html)
+-   [« Встановлення та налаштування](stream.setup.html)
     
 -   [Установка »](stream.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](stream.setup.html)
+-   [Встановлення та налаштування](stream.setup.html)
     
 -   Вимоги
     

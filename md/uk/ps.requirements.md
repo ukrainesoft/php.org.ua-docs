@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](ps.setup.html)
+-   [« Встановлення та налаштування](ps.setup.md)
     
--   [Установка »](ps.installation.html)
+-   [Установка »](ps.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ps.setup.html)
+-   [Встановлення та налаштування](ps.setup.md)
     
 -   Вимоги
     

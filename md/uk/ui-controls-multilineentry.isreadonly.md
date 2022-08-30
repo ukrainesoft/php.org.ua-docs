@@ -4,7 +4,7 @@
     
 -   [ОЙControlsMultilineEntry::onChange »](ui-controls-multilineentry.onchange.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsMultilineEntry](class.ui-controls-multilineentry.html)
     

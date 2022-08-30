@@ -1,12 +1,12 @@
 Додати елемент у хеш
 
--   [« QuickHashIntHash](class.quickhashinthash.html)
+-   [« QuickHashIntHash](class.quickhashinthash.md)
     
--   [QuickHashIntHash::construct »](quickhashinthash.construct.html)
+-   [QuickHashIntHash::construct »](quickhashinthash.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [QuickHashIntHash](class.quickhashinthash.html)
+-   [QuickHashIntHash](class.quickhashinthash.md)
     
 -   Додати елемент у хеш
     

@@ -1,12 +1,12 @@
 Переміщує ітератор до наступного елемента
 
--   [« SplDoublyLinkedList::key](spldoublylinkedlist.key.html)
+-   [« SplDoublyLinkedList::key](spldoublylinkedlist.key.md)
     
--   [SplDoublyLinkedList::offsetExists »](spldoublylinkedlist.offsetexists.html)
+-   [SplDoublyLinkedList::offsetExists »](spldoublylinkedlist.offsetexists.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
     
 -   Переміщує ітератор до наступного елемента
     

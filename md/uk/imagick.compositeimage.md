@@ -1,12 +1,12 @@
 Накладає одне зображення на інше
 
--   [« Imagick::compareImages](imagick.compareimages.html)
+-   [« Imagick::compareImages](imagick.compareimages.md)
     
--   [Imagick::construct »](imagick.construct.html)
+-   [Imagick::construct »](imagick.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Накладає одне зображення на інше
     
@@ -33,7 +33,7 @@ public Imagick::compositeImage(    Imagick $composite_object,    int $co
 
 `compose`
 
-Оператор накладання. Дивіться [Константы оператора наложения](imagick.constants.html#imagick.constants.compositeop)
+Оператор накладання. Дивіться [Константи оператора накладання](imagick.constants.html#imagick.constants.compositeop)
 
 `x`
 
@@ -76,4 +76,4 @@ $src1->writeImage("./output.png");
 
 ### Дивіться також
 
--   [Imagick::setImageArtifact()](imagick.setimageartifact.html) - Встановлює артефакт зображення
+-   [Imagick::setImageArtifact()](imagick.setimageartifact.md) - Встановлює артефакт зображення

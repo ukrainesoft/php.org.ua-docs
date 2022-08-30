@@ -4,7 +4,7 @@
     
 -   [ОЙDrawStroke::setThickness »](ui-draw-stroke.setthickness.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawStroke](class.ui-draw-stroke.html)
     

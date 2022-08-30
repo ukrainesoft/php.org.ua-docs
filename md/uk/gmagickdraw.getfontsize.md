@@ -1,12 +1,12 @@
 Повертає розмір шрифту
 
--   [« GmagickDraw::getfont](gmagickdraw.getfont.html)
+-   [« GmagickDraw::getfont](gmagickdraw.getfont.md)
     
--   [GmagickDraw::getfontstyle »](gmagickdraw.getfontstyle.html)
+-   [GmagickDraw::getfontstyle »](gmagickdraw.getfontstyle.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickDraw](class.gmagickdraw.html)
+-   [GmagickDraw](class.gmagickdraw.md)
     
 -   Повертає розмір шрифту
     
@@ -31,4 +31,4 @@ public GmagickDraw::getfontsize(): float
 
 ### Значення, що повертаються
 
-Повертає розмір шрифту, пов'язаний із поточним об'єктом [GmagickDraw](class.gmagickdraw.html)
+Повертає розмір шрифту, пов'язаний із поточним об'єктом [GmagickDraw](class.gmagickdraw.md)

@@ -1,12 +1,12 @@
 Надсилання статусу невдалої операції (застарілий метод)
 
--   [« GearmanJob::exception](gearmanjob.exception.html)
+-   [« GearmanJob::exception](gearmanjob.exception.md)
     
--   [GearmanJob::functionName »](gearmanjob.functionname.html)
+-   [GearmanJob::functionName »](gearmanjob.functionname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanJob](class.gearmanjob.html)
+-   [GearmanJob](class.gearmanjob.md)
     
 -   Надсилання статусу невдалої операції (застарілий метод)
     
@@ -27,7 +27,7 @@ public GearmanJob::fail(): bool
 
 > **Зауваження**
 > 
-> Цей метод було замінено на [GearmanJob::sendFail()](gearmanjob.sendfail.html) у версії 0.6.0 модуля Gearman.
+> Цей метод було замінено на [GearmanJob::sendFail()](gearmanjob.sendfail.md) у версії 0.6.0 модуля Gearman.
 
 ### Список параметрів
 
@@ -39,7 +39,7 @@ public GearmanJob::fail(): bool
 
 ### Дивіться також
 
--   [GearmanJob::sendException()](gearmanjob.sendexception.html) - Відправлення виключення завдання, що виконується
--   [GearmanJob::setReturn()](gearmanjob.setreturn.html) - Встановлення значення, що повертається
--   [GearmanJob::sendStatus()](gearmanjob.sendstatus.html) - Надсилання статусу
--   [GearmanJob::sendWarning()](gearmanjob.sendwarning.html) - Відправлення попередження
+-   [GearmanJob::sendException()](gearmanjob.sendexception.md) - Відправлення виключення завдання, що виконується
+-   [GearmanJob::setReturn()](gearmanjob.setreturn.md) - Встановлення значення, що повертається
+-   [GearmanJob::sendStatus()](gearmanjob.sendstatus.md) - Надсилання статусу
+-   [GearmanJob::sendWarning()](gearmanjob.sendwarning.md) - Відправлення попередження

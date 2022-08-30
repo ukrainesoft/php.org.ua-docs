@@ -4,7 +4,7 @@
     
 -   [ComponereValue::isStatic »](componere-value.isstatic.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponereValue](class.componere-value.html)
     

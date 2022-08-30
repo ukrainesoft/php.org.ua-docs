@@ -1,12 +1,12 @@
 Повертає вміст об'єкта LOB
 
--   [« OCILob::import](ocilob.import.html)
+-   [« OCILob::import](ocilob.import.md)
     
--   [OCILob::read »](ocilob.read.html)
+-   [OCILob::read »](ocilob.read.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCILob](class.ocilob.html)
+-   [OCILob](class.ocilob.md)
     
 -   Повертає вміст об'єкта LOB
     
@@ -23,7 +23,7 @@ OCILob::load — Повертає вміст об'єкта LOB
 public OCILob::load(): string|false
 ```
 
-Повертає вміст LOB. Оскільки виконання скрипта припиниться при перевищенні [memorylimit](ini.core.html#ini.memory-limit)необхідно переконатися, що LOB не перевищує цього обмеження. Тому, в більшості випадків цей метод рекомендується замінювати на [OCILob::read](ocilob.read.html)
+Повертає вміст LOB. Оскільки виконання скрипта припиниться при перевищенні [memorylimit](ini.core.html#ini.memory-limit)необхідно переконатися, що LOB не перевищує цього обмеження. Тому, в більшості випадків цей метод рекомендується замінювати на [OCILob::read](ocilob.read.md)
 
 ### Список параметрів
 
@@ -35,10 +35,10 @@ public OCILob::load(): string|false
 
 ### список змін
 
-| Версия                 | Описание                                                                                                |
-|------------------------|---------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
--   [OCILob::read](ocilob.read.html)
+-   [OCILob::read](ocilob.read.md)

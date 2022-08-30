@@ -1,12 +1,12 @@
 Перевіряє, чи є функція застарілої
 
--   [« ReflectionFunctionAbstract::isClosure](reflectionfunctionabstract.isclosure.html)
+-   [« ReflectionFunctionAbstract::isClosure](reflectionfunctionabstract.isclosure.md)
     
--   [ReflectionFunctionAbstract::isGenerator »](reflectionfunctionabstract.isgenerator.html)
+-   [ReflectionFunctionAbstract::isGenerator »](reflectionfunctionabstract.isgenerator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
     
 -   Перевіряє, чи є функція застарілої
     
@@ -52,4 +52,4 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getDocComment()](reflectionfunctionabstract.getdoccomment.html) - Отримує doc-коментар
+-   [ReflectionFunctionAbstract::getDocComment()](reflectionfunctionabstract.getdoccomment.md) - Отримує doc-коментар

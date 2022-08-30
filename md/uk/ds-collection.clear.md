@@ -4,7 +4,7 @@
     
 -   [ДсCollection::copy »](ds-collection.copy.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Коллекция](class.ds-collection.html)
     

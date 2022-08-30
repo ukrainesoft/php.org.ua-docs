@@ -4,9 +4,9 @@
     
 -   [ibasefreequery »](function.ibase-free-query.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Firebird/InterBase](ref.ibase.html)
+-   [Функции Firebird/InterBase](ref.ibase.md)
     
 -   Скасує зареєстрований обробник події
     

@@ -1,12 +1,12 @@
 Встановлює сімейство шрифтів для використання при анотуванні текстом
 
--   [« ImagickDraw::setFont](imagickdraw.setfont.html)
+-   [« ImagickDraw::setFont](imagickdraw.setfont.md)
     
--   [ImagickDraw::setFontSize »](imagickdraw.setfontsize.html)
+-   [ImagickDraw::setFontSize »](imagickdraw.setfontsize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Встановлює сімейство шрифтів для використання при анотуванні текстом
     

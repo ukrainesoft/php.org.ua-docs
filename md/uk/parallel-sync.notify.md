@@ -4,7 +4,7 @@
     
 -   [parallelSync::invoke »](parallel-sync.invoke.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [parallelSync](class.parallel-sync.html)
     

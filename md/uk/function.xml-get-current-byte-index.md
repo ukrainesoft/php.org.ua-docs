@@ -4,9 +4,9 @@
     
 -   [xmlgetcurrentcolumnnumber »](function.xml-get-current-column-number.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции парсера XML](ref.xml.html)
+-   [Функции парсера XML](ref.xml.md)
     
 -   Отримує поточний для XML-аналізатора байтовий індекс
     
@@ -37,9 +37,9 @@ xml_get_current_byte_index(XMLParser $parser): int
 
 ### список змін
 
-| Версия | Описание                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
 
 ### Примітки
 

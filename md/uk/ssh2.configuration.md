@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](ssh2.installation.html)
+-   [« Установка](ssh2.installation.md)
     
--   [Типы ресурсов »](ssh2.resources.html)
+-   [Типи ресурсів »](ssh2.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ssh2.setup.html)
+-   [Встановлення та налаштування](ssh2.setup.md)
     
 -   Налаштування під час виконання
     

@@ -1,12 +1,12 @@
 Опції Expect
 
--   [« Примеры использования Expect](expect.examples-usage.html)
+-   [« Приклади використання Expect](expect.examples-usage.html)
     
 -   [expectexpectl »](function.expect-expectl.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Expect](book.expect.html)
+-   [Expect](book.expect.md)
     
 -   Опції Expect
     

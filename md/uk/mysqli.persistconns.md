@@ -1,12 +1,12 @@
 Модуль mysqli та постійні з'єднання
 
--   [« Типы ресурсов](mysqli.resources.html)
+-   [« Типи ресурсів](mysqli.resources.md)
     
--   [Предопределённые константы »](mysqli.constants.html)
+-   [Обумовлені константи »](mysqli.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQLi](book.mysqli.html)
+-   [MySQLi](book.mysqli.md)
     
 -   Модуль mysqli та постійні з'єднання
     

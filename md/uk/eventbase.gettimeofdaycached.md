@@ -1,12 +1,12 @@
 Повертає поточний час базовий подій
 
--   [« EventBase::getMethod](eventbase.getmethod.html)
+-   [« EventBase::getMethod](eventbase.getmethod.md)
     
--   [EventBase::gotExit »](eventbase.gotexit.html)
+-   [EventBase::gotExit »](eventbase.gotexit.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBase](class.eventbase.html)
+-   [EventBase](class.eventbase.md)
     
 -   Повертає поточний час базовий подій
     

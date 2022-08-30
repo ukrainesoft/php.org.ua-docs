@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](openssl.resources.html)
+-   [« Типи ресурсів](openssl.resources.md)
     
 -   [Прапори перевірки »](openssl.purpose-check.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OpenSSL](book.openssl.html)
+-   [OpenSSL](book.openssl.md)
     
 -   Обумовлені константи
     
@@ -16,14 +16,14 @@
 ## Зміст
 
 -   [Прапори перевірки](openssl.purpose-check.html)
--   [Флаги заполнения для ассиметричного шифрования](openssl.padding.html)
+-   [Флаги заполнения для ассиметричного шифрования](openssl.padding.md)
 -   [Типи ключів](openssl.key-types.html)
--   [Флаги/константы PKCS7](openssl.pkcs7.flags.html)
--   [Флаги/Константы CMS](openssl.cms.flags.html)
--   [Алгоритмы подписи](openssl.signature-algos.html)
--   [Алгоритмы шифрования](openssl.ciphers.html)
--   [Константи версій](openssl.constversion.html)
--   [Константа SNI (Server Name Indication)](openssl.constsni.html)
--   [Другие константы](openssl.constants.other.html)
+-   [Прапори/константи PKCS7](openssl.pkcs7.flags.md)
+-   [Прапори/Константи CMS](openssl.cms.flags.md)
+-   [Алгоритми підпису](openssl.signature-algos.html)
+-   [Алгоритми шифрування](openssl.ciphers.md)
+-   [Константи версій](openssl.constversion.md)
+-   [Константа SNI (Server Name Indication)](openssl.constsni.md)
+-   [Інші константи](openssl.constants.other.md)
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.

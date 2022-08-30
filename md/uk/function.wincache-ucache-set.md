@@ -4,9 +4,9 @@
     
 -   [wincacheunlock »](function.wincache-unlock.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции WinCache](ref.wincache.html)
+-   [Функции WinCache](ref.wincache.md)
     
 -   Додає змінну в кеш користувача і перезаписує змінну, якщо вона вже існує в кеші
     

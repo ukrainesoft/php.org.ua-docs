@@ -1,12 +1,12 @@
 Вимикає читання, запис або те й інше в події буфера
 
--   [« EventBufferEvent::createPair](eventbufferevent.createpair.html)
+-   [« EventBufferEvent::createPair](eventbufferevent.createpair.md)
     
--   [EventBufferEvent::enable »](eventbufferevent.enable.html)
+-   [EventBufferEvent::enable »](eventbufferevent.enable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Вимикає читання, запис або те й інше в події буфера
     
@@ -39,4 +39,4 @@ public
 
 ### Дивіться також
 
--   [EventBufferEvent::enable()](eventbufferevent.enable.html) - Включає читання, запис або те й інше у події буфера
+-   [EventBufferEvent::enable()](eventbufferevent.enable.md) - Включає читання, запис або те й інше у події буфера

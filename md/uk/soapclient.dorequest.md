@@ -1,12 +1,12 @@
 Виконує SOAP-запит
 
--   [« SoapClient::construct](soapclient.construct.html)
+-   [« SoapClient::construct](soapclient.construct.md)
     
--   [SoapClient::getCookies »](soapclient.getcookies.html)
+-   [SoapClient::getCookies »](soapclient.getcookies.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SoapClient](class.soapclient.html)
+-   [SoapClient](class.soapclient.md)
     
 -   Виконує SOAP-запит
     
@@ -55,9 +55,9 @@ URL для запиту.
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тип `oneWay` тепер bool; раніше він був цілим числом (int). |
+| Версия | Описание |
+| --- | --- |
+|  | Тип `oneWay` тепер bool; раніше він був цілим числом (int). |
 
 ### Приклади
 

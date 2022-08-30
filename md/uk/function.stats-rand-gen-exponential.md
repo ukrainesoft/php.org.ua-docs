@@ -4,9 +4,9 @@
     
 -   [statsrandgenf »](function.stats-rand-gen-f.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Обчислює випадкове відхилення від експоненційного розподілу
     

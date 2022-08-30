@@ -1,12 +1,12 @@
 Відображає об'єкт GmagickDraw на поточному зображенні
 
--   [« Gmagick::destroy](gmagick.destroy.html)
+-   [« Gmagick::destroy](gmagick.destroy.md)
     
--   [Gmagick::edgeimage »](gmagick.edgeimage.html)
+-   [Gmagick::edgeimage »](gmagick.edgeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Відображає об'єкт GmagickDraw на поточному зображенні
     
@@ -23,7 +23,7 @@ Gmagick::drawimage — Відображає об'єкт GmagickDraw на пот�
 public Gmagick::drawimage(GmagickDraw $GmagickDraw): Gmagick
 ```
 
-Відображає об'єкт [GmagickDraw](class.gmagickdraw.html) на поточному зображенні
+Відображає об'єкт [GmagickDraw](class.gmagickdraw.md) на поточному зображенні
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ public Gmagick::drawimage(GmagickDraw $GmagickDraw): Gmagick
 
 ### Значення, що повертаються
 
-Намальований об'єкт [Gmagick](class.gmagick.html)
+Намальований об'єкт [Gmagick](class.gmagick.md)
 
 ### Помилки
 

@@ -1,12 +1,12 @@
 Вступ
 
--   [« Tidy](book.tidy.html)
+-   [« Tidy](book.tidy.md)
     
--   [Установка и настройка »](tidy.setup.html)
+-   [Встановлення та налаштування »](tidy.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Tidy](book.tidy.html)
+-   [Tidy](book.tidy.md)
     
 -   Вступ
     

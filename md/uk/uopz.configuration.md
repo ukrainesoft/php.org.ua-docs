@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](uopz.installation.html)
+-   [« Установка](uopz.installation.md)
     
--   [Типы ресурсов »](uopz.resources.html)
+-   [Типи ресурсів »](uopz.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](uopz.setup.html)
+-   [Встановлення та налаштування](uopz.setup.md)
     
 -   Налаштування під час виконання
     
@@ -17,13 +17,13 @@
 
 **uopz Опції налаштування**
 
-| Имя                                                          | По умолчанию | Место изменения | Список изменений                              |
-|--------------------------------------------------------------|--------------|-----------------|-----------------------------------------------|
-| [uopz.disable](uopz.configuration.html#ini.uopz.disable)     | "0"          | PHPINISYSTEM    | Доступно з uopz 5.0.2                         |
-| [uopz.exit](uopz.configuration.html#ini.uopz.exit)           | "0"          | PHPINISYSTEM    | Доступно з uopz 6.0.1                         |
-| [uopz.overloads](uopz.configuration.html#ini.uopz.overloads) | "1"          | PHPINISYSTEM    | Доступно з uopz 2.0.2. Видалено з uopz 5.0.0. |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [uopz.disable](uopz.configuration.html#ini.uopz.disable) | "0" | PHPINISYSTEM | Доступно з uopz 5.0.2 |
+| [uopz.exit](uopz.configuration.html#ini.uopz.exit) | "0" | PHPINISYSTEM | Доступно з uopz 6.0.1 |
+| [uopz.overloads](uopz.configuration.html#ini.uopz.overloads) | "1" | PHPINISYSTEM | Доступно з uopz 2.0.2. Видалено з uopz 5.0.0. |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 

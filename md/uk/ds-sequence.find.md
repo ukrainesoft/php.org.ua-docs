@@ -4,7 +4,7 @@
     
 -   [ДсSequence::first »](ds-sequence.first.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Послідовність](class.ds-sequence.html)
     

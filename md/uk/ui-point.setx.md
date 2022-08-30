@@ -4,7 +4,7 @@
     
 -   [ОЙPoint::setY »](ui-point.sety.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙPoint](class.ui-point.html)
     

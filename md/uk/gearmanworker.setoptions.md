@@ -1,12 +1,12 @@
 Встановлення налаштувань обробника
 
--   [« GearmanWorker::setId](gearmanworker.setid.html)
+-   [« GearmanWorker::setId](gearmanworker.setid.md)
     
--   [GearmanWorker::setTimeout »](gearmanworker.settimeout.html)
+-   [GearmanWorker::setTimeout »](gearmanworker.settimeout.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanWorker](class.gearmanworker.html)
+-   [GearmanWorker](class.gearmanworker.md)
     
 -   Встановлення налаштувань обробника
     
@@ -37,7 +37,7 @@ public GearmanWorker::setOptions(int $option): bool
 
 ### Дивіться також
 
--   [GearmanWorker::options()](gearmanworker.options.html) - Отримання налаштувань обробника
--   [GearmanWorker::addOptions()](gearmanworker.addoptions.html) - Додавання налаштувань обробника
--   [GearmanWorker::removeOptions()](gearmanworker.removeoptions.html) - Видалення налаштувань обробника
--   [GearmanClient::setOptions()](gearmanclient.setoptions.html) - Встановлення налаштувань клієнта
+-   [GearmanWorker::options()](gearmanworker.options.md) - Отримання налаштувань обробника
+-   [GearmanWorker::addOptions()](gearmanworker.addoptions.md) - Додавання налаштувань обробника
+-   [GearmanWorker::removeOptions()](gearmanworker.removeoptions.md) - Видалення налаштувань обробника
+-   [GearmanClient::setOptions()](gearmanclient.setoptions.md) - Встановлення налаштувань клієнта

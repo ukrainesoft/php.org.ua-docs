@@ -4,9 +4,9 @@
     
 -   [arraysum »](function.array-sum.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Видаляє частину масиву і замінює її чимось ще
     
@@ -75,9 +75,9 @@ array_splice(    array &$array,    int $offset,    ?int $length = nu
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `length` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `length` тепер допускає значення null. |
 
 ### Приклади
 
@@ -166,7 +166,7 @@ array_splice($input, 0, 0, array($x, $y));
 
 
 // заменить в $input элемент с индексом $x на значение $y
-$input[$x] = $y; // для массивов, где ключ равен смещению
+$input[$x] = $y; // для Масивов, где ключ равен смещению
 array_splice($input, $x, 1, $y);
 ?>
 ```
@@ -175,4 +175,4 @@ array_splice($input, $x, 1, $y);
 
 -   [arraymerge()](function.array-merge.html) - Зливає один або більше масивів
 -   [arrayslice()](function.array-slice.html) - Вибирає зріз масиву
--   [unset()](function.unset.html) - Видаляє змінну
+-   [unset()](function.unset.md) - Видаляє змінну

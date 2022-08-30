@@ -1,12 +1,12 @@
 Повертає сімейство шрифтів
 
--   [« ImagickDraw::getFont](imagickdraw.getfont.html)
+-   [« ImagickDraw::getFont](imagickdraw.getfont.md)
     
--   [ImagickDraw::getFontSize »](imagickdraw.getfontsize.html)
+-   [ImagickDraw::getFontSize »](imagickdraw.getfontsize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Повертає сімейство шрифтів
     

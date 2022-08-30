@@ -1,12 +1,12 @@
 Повертає кількість стовпців у результуючому наборі
 
--   [« SQLite3Result::finalize](sqlite3result.finalize.html)
+-   [« SQLite3Result::finalize](sqlite3result.finalize.md)
     
--   [SQLite3Result::reset »](sqlite3result.reset.html)
+-   [SQLite3Result::reset »](sqlite3result.reset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3Result](class.sqlite3result.html)
+-   [SQLite3Result](class.sqlite3result.md)
     
 -   Повертає кількість стовпців у результуючому наборі
     

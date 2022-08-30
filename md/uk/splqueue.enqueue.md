@@ -1,12 +1,12 @@
 Додає елемент у чергу
 
--   [« SplQueue::dequeue](splqueue.dequeue.html)
+-   [« SplQueue::dequeue](splqueue.dequeue.md)
     
--   [SplQueue::setIteratorMode »](splqueue.setiteratormode.html)
+-   [SplQueue::setIteratorMode »](splqueue.setiteratormode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplQueue](class.splqueue.html)
+-   [SplQueue](class.splqueue.md)
     
 -   Додає елемент у чергу
     
@@ -27,7 +27,7 @@ public SplQueue::enqueue(mixed $value): void
 
 > **Зауваження**
 > 
-> **SplQueue::enqueue()** - псевдонім [SplDoublyLinkedList::push()](spldoublylinkedlist.push.html)
+> **SplQueue::enqueue()** - псевдонім [SplDoublyLinkedList::push()](spldoublylinkedlist.push.md)
 
 ### Список параметрів
 

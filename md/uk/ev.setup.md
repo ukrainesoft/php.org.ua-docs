@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.ev.html)
+-   [« Введение](intro.ev.md)
     
--   [Требования »](ev.requirements.html)
+-   [Вимоги »](ev.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Єв](book.ev.html)
+-   [Єв](book.ev.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](ev.requirements.html)
--   [Установка](ev.installation.html)
--   [Настройка во время выполнения](ev.configuration.html)
--   [Типы ресурсов](ev.resources.html)
+-   [Вимоги](ev.requirements.md)
+-   [Установка](ev.installation.md)
+-   [Налаштування під час виконання](ev.configuration.md)
+-   [Типи ресурсів](ev.resources.md)

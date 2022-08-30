@@ -4,9 +4,9 @@
     
 -   [runkit7import »](function.runkit7-import.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції runkit7](ref.runkit7.html)
+-   [Функції runkit7](ref.runkit7.md)
     
 -   Змінює ім'я функції
     

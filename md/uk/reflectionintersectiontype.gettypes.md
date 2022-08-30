@@ -1,12 +1,12 @@
 Повертає типи, включені до типу intersection
 
--   [« ReflectionIntersectionType](class.reflectionintersectiontype.html)
+-   [« ReflectionIntersectionType](class.reflectionintersectiontype.md)
     
--   [ReflectionReference »](class.reflectionreference.html)
+-   [ReflectionReference »](class.reflectionreference.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionIntersectionType](class.reflectionintersectiontype.html)
+-   [ReflectionIntersectionType](class.reflectionintersectiontype.md)
     
 -   Повертає типи, включені до типу intersection
     
@@ -31,7 +31,7 @@ public ReflectionIntersectionType::getTypes(): array
 
 ### Значення, що повертаються
 
-Масив об'єктів [ReflectionType](class.reflectiontype.html)
+Масив об'єктів [ReflectionType](class.reflectiontype.md)
 
 ### Приклади
 
@@ -64,5 +64,5 @@ array(2) {
 
 ### Дивіться також
 
--   [ReflectionType::allowsNull()](reflectiontype.allowsnull.html) - Перевіряє, чи допустимо NULL
--   [ReflectionParameter::getType()](reflectionparameter.gettype.html) - Отримати тип параметра
+-   [ReflectionType::allowsNull()](reflectiontype.allowsnull.md) - Перевіряє, чи допустимо NULL
+-   [ReflectionParameter::getType()](reflectionparameter.gettype.md) - Отримати тип параметра

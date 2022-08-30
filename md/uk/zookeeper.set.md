@@ -1,12 +1,12 @@
 Встановлює дані, пов'язані з вузлом
 
--   [« Zookeeper::isRecoverable](zookeeper.isrecoverable.html)
+-   [« Zookeeper::isRecoverable](zookeeper.isrecoverable.md)
     
--   [Zookeeper::setAcl »](zookeeper.setacl.html)
+-   [Zookeeper::setAcl »](zookeeper.setacl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Zookeeper](class.zookeeper.html)
+-   [Zookeeper](class.zookeeper.md)
     
 -   Встановлює дані, пов'язані з вузлом
     
@@ -52,7 +52,7 @@ public
 
 **Застереження**
 
-Починаючи з версії 0.3.0 метод викидає [ZookeeperException](class.zookeeperexception.html) та його похідні.
+Починаючи з версії 0.3.0 метод викидає [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Приклади
 
@@ -81,6 +81,6 @@ SUCCESS
 
 ### Дивіться також
 
--   [Zookeeper::create()](zookeeper.create.html) - Створює синхронно вузол
--   [Zookeeper::get()](zookeeper.get.html) - Синхронно отримує дані, пов'язані з вузлом
--   [ZookeeperException](class.zookeeperexception.html)
+-   [Zookeeper::create()](zookeeper.create.md) - Створює синхронно вузол
+-   [Zookeeper::get()](zookeeper.get.md) - Синхронно отримує дані, пов'язані з вузлом
+-   [ZookeeperException](class.zookeeperexception.md)

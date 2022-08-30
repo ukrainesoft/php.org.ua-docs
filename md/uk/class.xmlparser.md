@@ -2,11 +2,11 @@
 
 -   [« xmlsetunparsedentitydeclhandler](function.xml-set-unparsed-entity-decl-handler.html)
     
--   [XMLReader »](book.xmlreader.html)
+-   [XMLReader »](book.xmlreader.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Разбор XML](book.xml.html)
+-   [Разбор XML](book.xml.md)
     
 -   Клас XmlParser
     

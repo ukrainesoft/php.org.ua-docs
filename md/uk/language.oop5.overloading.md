@@ -1,12 +1,12 @@
 Перевантаження
 
--   [« Анонимные классы](language.oop5.anonymous.html)
+-   [« Анонімні класи](language.oop5.anonymous.html)
     
 -   [Ітератори об'єктів »](language.oop5.iterations.html)
     
 -   [PHP Manual](index.html)
     
--   [Классы и объекты](language.oop5.html)
+-   [Класи та об'єкти](language.oop5.html)
     
 -   Перевантаження
     
@@ -21,7 +21,7 @@
 
 > **Зауваження**
 > 
-> Жоден з аргументів цих магічних методів не може бути передано [по ссылке](functions.arguments.html#functions.arguments.by-reference)
+> Жоден з аргументів цих магічних методів не може бути передано [за посиланням](functions.arguments.html#functions.arguments.by-reference)
 
 > **Зауваження**
 > 

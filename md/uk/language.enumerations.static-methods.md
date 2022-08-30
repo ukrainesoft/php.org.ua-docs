@@ -1,12 +1,12 @@
 Статичні методи перерахувань
 
--   [« Методы перечислений](language.enumerations.methods.html)
+-   [« Методи перерахувань](language.enumerations.methods.md)
     
--   [Константы перечислений »](language.enumerations.constants.html)
+-   [Константи перерахувань »](language.enumerations.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Перечисления](language.enumerations.html)
+-   [Перечисления](language.enumerations.md)
     
 -   Статичні методи перерахувань
     

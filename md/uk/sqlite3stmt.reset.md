@@ -1,12 +1,12 @@
 Скидає підготовлений запит
 
--   [« SQLite3Stmt::readOnly](sqlite3stmt.readonly.html)
+-   [« SQLite3Stmt::readOnly](sqlite3stmt.readonly.md)
     
--   [SQLite3Result »](class.sqlite3result.html)
+-   [SQLite3Result »](class.sqlite3result.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3Stmt](class.sqlite3stmt.html)
+-   [SQLite3Stmt](class.sqlite3stmt.md)
     
 -   Скидає підготовлений запит
     

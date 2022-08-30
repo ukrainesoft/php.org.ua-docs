@@ -1,6 +1,6 @@
 Eio Функції
 
--   [« Примеры](eio.examples.html)
+-   [« Приклади](eio.examples.html)
     
 -   [eiobusy »](function.eio-busy.html)
     

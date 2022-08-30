@@ -1,12 +1,12 @@
 Опис
 
--   [« ImagickPixel::setColorValue](imagickpixel.setcolorvalue.html)
+-   [« ImagickPixel::setColorValue](imagickpixel.setcolorvalue.md)
     
--   [ImagickPixel::setHSL »](imagickpixel.sethsl.html)
+-   [ImagickPixel::setHSL »](imagickpixel.sethsl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickPixel](class.imagickpixel.html)
+-   [ImagickPixel](class.imagickpixel.md)
     
 -   Опис
     

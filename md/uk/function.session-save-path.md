@@ -4,9 +4,9 @@
     
 -   [sessionsetcookieparams »](function.session-set-cookie-params.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи із сесіями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.md)
     
 -   Отримує та/або встановлює шлях збереження сесії
     
@@ -41,9 +41,9 @@ session_save_path(?string $path = null): string|false
 
 ### список змін
 
-| Версия | Описание                          |
-|--------|-----------------------------------|
-|        | `path` тепер може бути **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | `path` тепер може бути **`null`** |
 
 ### Дивіться також
 

@@ -1,12 +1,12 @@
 Вимикає всі воркери
 
--   [« Pool::resize](pool.resize.html)
+-   [« Pool::resize](pool.resize.md)
     
--   [Pool::submit »](pool.submit.html)
+-   [Pool::submit »](pool.submit.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Pool](class.pool.html)
+-   [Pool](class.pool.md)
     
 -   Вимикає всі воркери
     

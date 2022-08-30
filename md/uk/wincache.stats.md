@@ -1,12 +1,12 @@
 Скрипт статистики WinCache
 
--   [« Настройка во время выполнения](wincache.configuration.html)
+-   [« Налаштування під час виконання](wincache.configuration.md)
     
--   [Обработчик сессий WinCache »](wincache.sessionhandler.html)
+-   [Обработчик сессий WinCache »](wincache.sessionhandler.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](wincache.setup.html)
+-   [Встановлення та налаштування](wincache.setup.md)
     
 -   Скрипт статистики WinCache
     

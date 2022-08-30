@@ -1,12 +1,12 @@
 Клонування об'єктів
 
--   [« Ключевое слово final](language.oop5.final.html)
+-   [« Ключевое слово final](language.oop5.final.md)
     
--   [Сравнение объектов »](language.oop5.object-comparison.html)
+-   [Порівняння об'єктів »](language.oop5.object-comparison.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Классы и объекты](language.oop5.html)
+-   [Класи та об'єкти](language.oop5.md)
     
 -   Клонування об'єктів
     

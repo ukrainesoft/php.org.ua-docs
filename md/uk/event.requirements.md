@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](event.setup.html)
+-   [« Встановлення та налаштування](event.setup.md)
     
--   [Установка »](event.installation.html)
+-   [Установка »](event.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](event.setup.html)
+-   [Встановлення та налаштування](event.setup.md)
     
 -   Вимоги
     

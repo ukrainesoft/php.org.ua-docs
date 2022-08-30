@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](reflection.installation.html)
+-   [« Установка](reflection.installation.md)
     
--   [Типы ресурсов »](reflection.resources.html)
+-   [Типи ресурсів »](reflection.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](reflection.setup.html)
+-   [Встановлення та налаштування](reflection.setup.md)
     
 -   Налаштування під час виконання
     

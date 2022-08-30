@@ -4,7 +4,7 @@
     
 -   [YafRouteSupervar::route »](yaf-route-supervar.route.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRouteSupervar](class.yaf-route-supervar.html)
     

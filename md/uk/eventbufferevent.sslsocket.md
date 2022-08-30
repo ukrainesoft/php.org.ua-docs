@@ -1,12 +1,12 @@
 Створює нову буферну подію SSL для надсилання своїх даних через SSL у сокет
 
--   [« EventBufferEvent::sslRenegotiate](eventbufferevent.sslrenegotiate.html)
+-   [« EventBufferEvent::sslRenegotiate](eventbufferevent.sslrenegotiate.md)
     
--   [EventBufferEvent::write »](eventbufferevent.write.html)
+-   [EventBufferEvent::write »](eventbufferevent.write.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Створює нову буферну подію SSL для надсилання своїх даних через SSL у сокет
     
@@ -50,11 +50,11 @@ public
 
 `socket`
 
-Сокет для використання для SSL. Може бути ресурсом потоку або сокету, числовим дескриптором файлу або **`null`**. Якщо `socket` дорівнює **`null`**, передбачається, що файловий дескриптор для сокету буде призначено пізніше, наприклад, за допомогою методу [EventBufferEvent::connectHost()](eventbufferevent.connecthost.html)
+Сокет для використання для SSL. Може бути ресурсом потоку або сокету, числовим дескриптором файлу або **`null`**. Якщо `socket` дорівнює **`null`**, передбачається, що файловий дескриптор для сокету буде призначено пізніше, наприклад, за допомогою методу [EventBufferEvent::connectHost()](eventbufferevent.connecthost.md)
 
 `ctx`
 
-Об'єкт класу [EventSslContext](class.eventsslcontext.html)
+Об'єкт класу [EventSslContext](class.eventsslcontext.md)
 
 `state`
 
@@ -66,8 +66,8 @@ public
 
 ### Значення, що повертаються
 
-Повертає об'єкт [EventBufferEvent](class.eventbufferevent.html)
+Повертає об'єкт [EventBufferEvent](class.eventbufferevent.md)
 
 ### Дивіться також
 
--   [EventBufferEvent::sslFilter()](eventbufferevent.sslfilter.html) - Створює нову подію буфера SSL для надсилання своїх даних через іншу подію буфера
+-   [EventBufferEvent::sslFilter()](eventbufferevent.sslfilter.md) - Створює нову подію буфера SSL для надсилання своїх даних через іншу подію буфера

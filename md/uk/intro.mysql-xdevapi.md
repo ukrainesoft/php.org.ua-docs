@@ -2,9 +2,9 @@
 
 -   [« Mysqlxdevapi](book.mysql-xdevapi.html)
     
--   [Установка и настройка »](mysql-xdevapi.setup.html)
+-   [Встановлення та налаштування »](mysql-xdevapi.setup.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Mysqlxdevapi](book.mysql-xdevapi.html)
     

@@ -1,12 +1,12 @@
 Опис
 
--   [« Imagick::liquidRescaleImage](imagick.liquidrescaleimage.html)
+-   [« Imagick::liquidRescaleImage](imagick.liquidrescaleimage.md)
     
--   [Imagick::magnifyImage »](imagick.magnifyimage.html)
+-   [Imagick::magnifyImage »](imagick.magnifyimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Опис
     

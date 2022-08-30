@@ -4,9 +4,9 @@
     
 -   [streambucketappend »](function.stream-bucket-append.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Потоки](book.stream.html)
+-   [Потоки](book.stream.md)
     
 -   Функції для роботи з потоками
     

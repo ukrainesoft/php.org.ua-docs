@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.xattr.html)
+-   [« Введение](intro.xattr.md)
     
--   [Требования »](xattr.requirements.html)
+-   [Вимоги »](xattr.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [xattr](book.xattr.html)
+-   [xattr](book.xattr.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](xattr.requirements.html)
--   [Установка](xattr.installation.html)
--   [Настройка во время выполнения](xattr.configuration.html)
--   [Типы ресурсов](xattr.resources.html)
+-   [Вимоги](xattr.requirements.md)
+-   [Установка](xattr.installation.md)
+-   [Налаштування під час виконання](xattr.configuration.md)
+-   [Типи ресурсів](xattr.resources.md)

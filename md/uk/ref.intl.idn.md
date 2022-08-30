@@ -4,9 +4,9 @@
     
 -   [idnтоascii »](function.idn-to-ascii.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [intl](book.intl.html)
+-   [intl](book.intl.md)
     
 -   Функції IDN
     

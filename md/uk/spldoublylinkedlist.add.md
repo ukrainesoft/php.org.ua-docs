@@ -1,12 +1,12 @@
 Додає/вставляє нове значення за вказаним індексом
 
--   [« SplDoublyLinkedList](class.spldoublylinkedlist.html)
+-   [« SplDoublyLinkedList](class.spldoublylinkedlist.md)
     
--   [SplDoublyLinkedList::bottom »](spldoublylinkedlist.bottom.html)
+-   [SplDoublyLinkedList::bottom »](spldoublylinkedlist.bottom.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
     
 -   Додає/вставляє нове значення за вказаним індексом
     
@@ -41,4 +41,4 @@ public SplDoublyLinkedList::add(int $index, mixed $value): void
 
 ### Помилки
 
-Викидає виняток [OutOfRangeException](class.outofrangeexception.html), якщо `index` за межами списку, або якщо `index` може бути представлений як цілого числа.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.md), якщо `index` за межами списку, або якщо `index` може бути представлений як цілого числа.

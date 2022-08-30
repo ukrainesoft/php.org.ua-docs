@@ -1,12 +1,12 @@
 Перехід до наступного об'єкту
 
--   [« SplObjectStorage::key](splobjectstorage.key.html)
+-   [« SplObjectStorage::key](splobjectstorage.key.md)
     
--   [SplObjectStorage::offsetExists »](splobjectstorage.offsetexists.html)
+-   [SplObjectStorage::offsetExists »](splobjectstorage.offsetexists.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplObjectStorage](class.splobjectstorage.html)
+-   [SplObjectStorage](class.splobjectstorage.md)
     
 -   Перехід до наступного об'єкту
     
@@ -72,4 +72,4 @@ object(stdClass)#3 (0) {
 
 ### Дивіться також
 
--   [SPLObjectStorage::rewind()](splobjectstorage.rewind.html) - перекладає ітератор на перший елемент контейнера
+-   [SPLObjectStorage::rewind()](splobjectstorage.rewind.md) - перекладає ітератор на перший елемент контейнера

@@ -4,7 +4,7 @@
     
 -   [ДсVector::reduce »](ds-vector.reduce.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Вектор](class.ds-vector.html)
     

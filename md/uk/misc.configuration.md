@@ -2,11 +2,11 @@
 
 -   [« Установка](misc.installation.html)
     
--   [Типы ресурсов »](misc.resources.html)
+-   [Типи ресурсів »](misc.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](misc.setup.html)
+-   [Встановлення та налаштування](misc.setup.html)
     
 -   Налаштування під час виконання
     
@@ -17,17 +17,17 @@
 
 **Опції налаштувань різних функцій**
 
-| Имя                                                                  | По умолчанию | Место изменения | Список изменений |
-|----------------------------------------------------------------------|--------------|-----------------|------------------|
-| [ignoreuserabort](misc.configuration.html#ini.ignore-user-abort)     | "0"          | PHPINIALL       |                  |
-| [highlight.string](misc.configuration.html#ini.syntax-highlighting)  | "#DD0000"    | PHPINIALL       |                  |
-| [highlight.comment](misc.configuration.html#ini.syntax-highlighting) | "#FF8000"    | PHPINIALL       |                  |
-| [highlight.keyword](misc.configuration.html#ini.syntax-highlighting) | "#007700"    | PHPINIALL       |                  |
-| [highlight.default](misc.configuration.html#ini.syntax-highlighting) | "#0000BB"    | PHPINIALL       |                  |
-| [highlight.html](misc.configuration.html#ini.syntax-highlighting)    | "#000000"    | PHPINIALL       |                  |
-| [browscap](misc.configuration.html#ini.browscap)                     | NULL         | PHPINISYSTEM    |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [ignoreuserabort](misc.configuration.html#ini.ignore-user-abort) | "0" | PHPINIALL |  |
+| [highlight.string](misc.configuration.html#ini.syntax-highlighting) | "#DD0000" | PHPINIALL |  |
+| [highlight.comment](misc.configuration.html#ini.syntax-highlighting) | "#FF8000" | PHPINIALL |  |
+| [highlight.keyword](misc.configuration.html#ini.syntax-highlighting) | "#007700" | PHPINIALL |  |
+| [highlight.default](misc.configuration.html#ini.syntax-highlighting) | "#0000BB" | PHPINIALL |  |
+| [highlight.html](misc.configuration.html#ini.syntax-highlighting) | "#000000" | PHPINIALL |  |
+| [browscap](misc.configuration.html#ini.browscap) | NULL | PHPINISYSTEM |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 
 Коротке пояснення конфігураційних директив.
 

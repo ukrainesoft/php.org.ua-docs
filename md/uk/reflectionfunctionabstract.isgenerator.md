@@ -1,12 +1,12 @@
 Перевіряє, чи є функція генератором
 
--   [« ReflectionFunctionAbstract::isDeprecated](reflectionfunctionabstract.isdeprecated.html)
+-   [« ReflectionFunctionAbstract::isDeprecated](reflectionfunctionabstract.isdeprecated.md)
     
--   [ReflectionFunctionAbstract::isInternal »](reflectionfunctionabstract.isinternal.html)
+-   [ReflectionFunctionAbstract::isInternal »](reflectionfunctionabstract.isinternal.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
     
 -   Перевіряє, чи є функція генератором
     

@@ -4,7 +4,7 @@
     
 -   [mysqlxdevapiException »](class.mysql-xdevapi-exception.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiDocResult](class.mysql-xdevapi-docresult.html)
     

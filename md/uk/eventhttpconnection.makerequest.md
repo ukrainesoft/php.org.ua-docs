@@ -1,12 +1,12 @@
 Робить HTTP-запит із зазначеного з'єднання
 
--   [« EventHttpConnection::getPeer](eventhttpconnection.getpeer.html)
+-   [« EventHttpConnection::getPeer](eventhttpconnection.getpeer.md)
     
--   [EventHttpConnection::setCloseCallback »](eventhttpconnection.setclosecallback.html)
+-   [EventHttpConnection::setCloseCallback »](eventhttpconnection.setclosecallback.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpConnection](class.eventhttpconnection.html)
+-   [EventHttpConnection](class.eventhttpconnection.md)
     
 -   Робить HTTP-запит із зазначеного з'єднання
     
@@ -112,4 +112,4 @@ PHP, date:
 
 ### Дивіться також
 
--   [EventHttpRequest::addHeader()](eventhttprequest.addheader.html) - Додає заголовок HTTP до заголовків запиту
+-   [EventHttpRequest::addHeader()](eventhttprequest.addheader.md) - Додає заголовок HTTP до заголовків запиту

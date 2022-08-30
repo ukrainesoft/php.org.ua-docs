@@ -1,22 +1,22 @@
 ОЙ
 
--   [Модулі для роботи з GUI](refs.ui.html)
+-   [Модулі для роботи з GUI](refs.ui.md)
     
--   [Введение »](intro.ui.html)
+-   [Введение »](intro.ui.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модулі для роботи з GUI](refs.ui.html)
+-   [Модулі для роботи з GUI](refs.ui.md)
     
 -   ОЙ
     
 
 # ОЙ
 
--   [Введение](intro.ui.html)
--   [Установка и настройка](ui.setup.html)
-    -   [Требования](ui.requirements.html)
-    -   [Установка](ui.installation.html)
+-   [Введение](intro.ui.md)
+-   [Встановлення та налаштування](ui.setup.md)
+    -   [Вимоги](ui.requirements.md)
+    -   [Установка](ui.installation.md)
 -   [ОЙPoint](class.ui-point.html) - Представляє позицію (x, y)
     -   [ОЙPoint::at](ui-point.at.html) - Приведення Size
     -   [ОЙPoint::construct](ui-point.construct.html) — Створити новий об'єкт Point
@@ -253,7 +253,7 @@
     -   [ОЙDrawTextFontDescriptor::getSize](ui-draw-text-font-descriptor.getsize.html) - Визначення розміру
     -   [ОЙDrawTextFontDescriptor::getStretch](ui-draw-text-font-descriptor.getstretch.html) — Визначення стилю
     -   [ОЙDrawTextFontDescriptor::getWeight](ui-draw-text-font-descriptor.getweight.html) — Визначення насиченості
--   [Функции UI](ref.ui.html)
+-   [Функции UI](ref.ui.md)
     -   [ОЙDrawTextFontfontFamilies](function.ui-draw-text-font-fontfamilies.html) — Витягти сімейство шрифтів
     -   [ОЙquit](function.ui-quit.html) - Вийти з циклу UI
     -   [ОЙrun](function.ui-run.html) - Увійти в цикл UI

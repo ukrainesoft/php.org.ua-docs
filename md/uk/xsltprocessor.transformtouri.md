@@ -1,12 +1,12 @@
 Перетворює на URI
 
--   [« XSLTProcessor::transformToDoc](xsltprocessor.transformtodoc.html)
+-   [« XSLTProcessor::transformToDoc](xsltprocessor.transformtodoc.md)
     
--   [XSLTProcessor::transformToXml »](xsltprocessor.transformtoxml.html)
+-   [XSLTProcessor::transformToXml »](xsltprocessor.transformtoxml.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XSLTProcessor](class.xsltprocessor.html)
+-   [XSLTProcessor](class.xsltprocessor.md)
     
 -   Перетворює на URI
     
@@ -23,7 +23,7 @@ XSLTProcessor::transformToUri — Перетворює на URI
 public XSLTProcessor::transformToURI(DOMDocument $doc, string $uri): int
 ```
 
-Перетворює вихідний вузол URI, застосовуючи таблицю стилів, яка встановлена ​​за допомогою методу [XSLTProcessor::importStylesheet()](xsltprocessor.importstylesheet.html)
+Перетворює вихідний вузол URI, застосовуючи таблицю стилів, яка встановлена ​​за допомогою методу [XSLTProcessor::importStylesheet()](xsltprocessor.importstylesheet.md)
 
 ### Список параметрів
 
@@ -64,5 +64,5 @@ $proc->transformToURI($xml, 'file:///tmp/out.html');
 
 ### Дивіться також
 
--   [XSLTProcessor::transformToDoc()](xsltprocessor.transformtodoc.html) - Перетворює на DOMDocument
--   [XSLTProcessor::transformToXml()](xsltprocessor.transformtoxml.html) - Перетворює на XML
+-   [XSLTProcessor::transformToDoc()](xsltprocessor.transformtodoc.md) - Перетворює на DOMDocument
+-   [XSLTProcessor::transformToXml()](xsltprocessor.transformtoxml.md) - Перетворює на XML

@@ -4,9 +4,9 @@
     
 -   [statsskew »](function.stats-skew.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Встановлює початкові значення для генератора випадкових чисел
     

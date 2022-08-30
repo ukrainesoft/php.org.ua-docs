@@ -4,7 +4,7 @@
     
 -   [ОЙDrawTextFontDescriptor::getSize »](ui-draw-text-font-descriptor.getsize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html)
     

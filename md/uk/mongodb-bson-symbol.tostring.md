@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONSymbol::unserialize »](mongodb-bson-symbol.unserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONSymbol](class.mongodb-bson-symbol.html)
     
@@ -33,4 +33,4 @@ final public MongoDB\BSON\Symbol::__toString(): string
 
 ### Дивіться також
 
--   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

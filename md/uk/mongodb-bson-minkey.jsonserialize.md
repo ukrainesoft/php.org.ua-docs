@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONMinKey::serialize »](mongodb-bson-minkey.serialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONMinKey](class.mongodb-bson-minkey.html)
     
@@ -39,7 +39,7 @@ final public MongoDB\BSON\MinKey::jsonSerialize(): mixed
 
 ### Дивіться також
 
--   [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.html) - Задає дані, які мають бути серіалізовані у JSON
+-   [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md) - Задає дані, які мають бути серіалізовані у JSON
 -   [jsonencode()](function.json-encode.html) - Повертає JSON-подання даних
 -   [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.html) - Повертає Canonical Extended JSON подання для значення BSON
 -   [MongoDBBSONtoRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.html) - Повертає Relaxed Extended JSON подання значення BSON

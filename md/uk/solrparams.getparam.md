@@ -1,12 +1,12 @@
 Повертає значення параметра
 
--   [« SolrParams::get](solrparams.get.html)
+-   [« SolrParams::get](solrparams.get.md)
     
--   [SolrParams::getParams »](solrparams.getparams.html)
+-   [SolrParams::getParams »](solrparams.getparams.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrParams](class.solrparams.html)
+-   [SolrParams](class.solrparams.md)
     
 -   Повертає значення параметра
     

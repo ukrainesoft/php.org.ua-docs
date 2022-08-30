@@ -1,12 +1,12 @@
 Фабричний метод створює хеш із рядка
 
--   [« QuickHashIntHash::loadFromFile](quickhashinthash.loadfromfile.html)
+-   [« QuickHashIntHash::loadFromFile](quickhashinthash.loadfromfile.md)
     
--   [QuickHashIntHash::saveToFile »](quickhashinthash.savetofile.html)
+-   [QuickHashIntHash::saveToFile »](quickhashinthash.savetofile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [QuickHashIntHash](class.quickhashinthash.html)
+-   [QuickHashIntHash](class.quickhashinthash.md)
     
 -   Фабричний метод створює хеш із рядка
     
@@ -37,7 +37,7 @@ public static QuickHashIntHash::loadFromString(string $contents, int $options = 
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [QuickHashIntHash](class.quickhashinthash.html)
+Повертає новий об'єкт [QuickHashIntHash](class.quickhashinthash.md)
 
 ### Приклади
 

@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverReadConcern::unserialize »](mongodb-driver-readconcern.unserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
     
@@ -38,5 +38,5 @@ final public MongoDB\Driver\ReadConcern::serialize(): string
 ### Дивіться також
 
 -   [MongoDBDriverReadConcern::unserialize()](mongodb-driver-readconcern.unserialize.html) - Десеріалізація ReadConcern
--   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

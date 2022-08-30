@@ -4,7 +4,7 @@
     
 -   [SqlStatementResult::getAffectedItemsCount »](mysql-xdevapi-sqlstatementresult.getaffecteditemscount.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
     

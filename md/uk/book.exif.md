@@ -14,12 +14,12 @@
 # Інформація, що змінюється про зображення
 
 -   [Введение](intro.exif.html)
--   [Установка и настройка](exif.setup.html)
-    -   [Требования](exif.requirements.html)
+-   [Встановлення та налаштування](exif.setup.html)
+    -   [Вимоги](exif.requirements.html)
     -   [Установка](exif.installation.html)
-    -   [Настройка во время выполнения](exif.configuration.html)
-    -   [Типы ресурсов](exif.resources.html)
--   [Предопределённые константы](exif.constants.html)
+    -   [Налаштування під час виконання](exif.configuration.html)
+    -   [Типи ресурсів](exif.resources.html)
+-   [Обумовлені константи](exif.constants.html)
 -   [Exif Функції](ref.exif.html)
     -   [exifimagetype](function.exif-imagetype.html) — Determine the type of an image
     -   [exifreaddata](function.exif-read-data.html) — Читає заголовки EXIF ​​із файлів зображень

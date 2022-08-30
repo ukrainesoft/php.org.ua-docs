@@ -4,9 +4,9 @@
     
 -   [curlescape »](function.curl-escape.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции cURL](ref.curl.html)
+-   [Функции cURL](ref.curl.md)
     
 -   Повертає рядок із описом останньої помилки поточного сеансу
     
@@ -37,9 +37,9 @@ curl_error(CurlHandle $handle): string
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -68,4 +68,4 @@ curl_close($ch);
 ### Дивіться також
 
 -   [curlerrno()](function.curl-errno.html) - Повертає код останньої помилки
--   [» Коды ошибок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+-   [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.html)

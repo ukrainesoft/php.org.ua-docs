@@ -1,6 +1,6 @@
 dBase
 
--   [« Предопределённые константы](dbase.constants.html)
+-   [« Обумовлені константи](dbase.constants.html)
     
 -   [dbaseaddrecord »](function.dbase-add-record.html)
     

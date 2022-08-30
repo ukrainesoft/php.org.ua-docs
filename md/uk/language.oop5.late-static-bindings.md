@@ -1,12 +1,12 @@
 Пізніше статичне зв'язування
 
--   [« Сравнение объектов](language.oop5.object-comparison.html)
+-   [« Порівняння об'єктів](language.oop5.object-comparison.html)
     
 -   [Об'єкти та посилання »](language.oop5.references.html)
     
 -   [PHP Manual](index.html)
     
--   [Классы и объекты](language.oop5.html)
+-   [Класи та об'єкти](language.oop5.html)
     
 -   Пізніше статичне зв'язування
     

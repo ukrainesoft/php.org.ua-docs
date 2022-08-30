@@ -1,12 +1,12 @@
 Розбір документа, що зберігається у рядку
 
--   [« tidy::parseFile](tidy.parsefile.html)
+-   [« tidy::parseFile](tidy.parsefile.md)
     
--   [tidy::repairFile »](tidy.repairfile.html)
+-   [tidy::repairFile »](tidy.repairfile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidy](class.tidy.html)
+-   [tidy](class.tidy.md)
     
 -   Розбір документа, що зберігається у рядку
     
@@ -53,13 +53,13 @@ tidy_parse_string(string $string, array|string|null $config = null, ?string $enc
 
 ### Значення, що повертаються
 
-**tidy::parseString()** повертає **`true`** у разі успішного виконання . **tidyparsestring()** повертає новий екземпляр [tidy](class.tidy.html) у разі успішного виконання. І метод, і функція повертають **`false`** у разі виникнення помилки.
+**tidy::parseString()** повертає **`true`** у разі успішного виконання . **tidyparsestring()** повертає новий екземпляр [tidy](class.tidy.md) у разі успішного виконання. І метод, і функція повертають **`false`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия | Описание                                              |
-|--------|-------------------------------------------------------|
-|        | `config` і `encoding` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `config` і `encoding` тепер допускають значення null. |
 
 ### Приклади
 
@@ -115,6 +115,6 @@ echo $tidy;
 
 ### Дивіться також
 
--   [tidy::parseFile()](tidy.parsefile.html) - Розбір розмітки у файлі або URI
--   [tidy::repairFile()](tidy.repairfile.html) - Відновлює розмітку файлу та повертає його у вигляді рядка
--   [tidy::repairString()](tidy.repairstring.html) - Відновлює рядок, використовуючи наскільки можна конфігураційний файл
+-   [tidy::parseFile()](tidy.parsefile.md) - Розбір розмітки у файлі або URI
+-   [tidy::repairFile()](tidy.repairfile.md) - Відновлює розмітку файлу та повертає його у вигляді рядка
+-   [tidy::repairString()](tidy.repairstring.md) - Відновлює рядок, використовуючи наскільки можна конфігураційний файл

@@ -4,9 +4,9 @@
     
 -   [arraysearch »](function.array-search.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Повертає масив із елементами у зворотному порядку
     

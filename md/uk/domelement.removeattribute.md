@@ -1,12 +1,12 @@
 Видаляє атрибут
 
--   [« DOMElement::hasAttributeNS](domelement.hasattributens.html)
+-   [« DOMElement::hasAttributeNS](domelement.hasattributens.md)
     
--   [DOMElement::removeAttributeNode »](domelement.removeattributenode.html)
+-   [DOMElement::removeAttributeNode »](domelement.removeattributenode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMElement](class.domelement.html)
+-   [DOMElement](class.domelement.md)
     
 -   Видаляє атрибут
     
@@ -43,6 +43,6 @@ public DOMElement::removeAttribute(string $qualifiedName): bool
 
 ### Дивіться також
 
--   [DOMElement::hasAttribute()](domelement.hasattribute.html) - Перевіряє, чи існує атрибут
--   [DOMElement::getAttribute()](domelement.getattribute.html) - Повертає значення атрибуту
--   [DOMElement::setAttribute()](domelement.setattribute.html) - Додає новий або змінює існуючий атрибут
+-   [DOMElement::hasAttribute()](domelement.hasattribute.md) - Перевіряє, чи існує атрибут
+-   [DOMElement::getAttribute()](domelement.getattribute.md) - Повертає значення атрибуту
+-   [DOMElement::setAttribute()](domelement.setattribute.md) - Додає новий або змінює існуючий атрибут

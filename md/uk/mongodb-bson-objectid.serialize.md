@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONObjectId::toString »](mongodb-bson-objectid.tostring.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONObjectId](class.mongodb-bson-objectid.html)
     
@@ -38,5 +38,5 @@ final public MongoDB\BSON\ObjectId::serialize(): string
 ### Дивіться також
 
 -   [MongoDBBSONObjectId::unserialize()](mongodb-bson-objectid.unserialize.html) - Десеріалізує ObjectId
--   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

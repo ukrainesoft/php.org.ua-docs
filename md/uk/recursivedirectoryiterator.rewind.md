@@ -1,12 +1,12 @@
 Перекладає ітератор на початок директорії
 
--   [« RecursiveDirectoryIterator::next](recursivedirectoryiterator.next.html)
+-   [« RecursiveDirectoryIterator::next](recursivedirectoryiterator.next.md)
     
--   [RecursiveFilterIterator »](class.recursivefilteriterator.html)
+-   [RecursiveFilterIterator »](class.recursivefilteriterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.html)
+-   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
     
 -   Перекладає ітератор на початок директорії
     

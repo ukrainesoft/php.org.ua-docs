@@ -4,9 +4,9 @@
     
 -   [пгexecute »](function.pg-execute.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PostgreSQL](ref.pgsql.html)
+-   [Функции PostgreSQL](ref.pgsql.md)
     
 -   Екранування спецсимволів у рядку запиту
     
@@ -23,7 +23,7 @@
 pg_escape_string(PgSql\Connection $connection = ?, string $data): string
 ```
 
-Функція **пгescapestring()** екранує спецсимволи у рядку запиту для бази даних. Вона повертає екранований рядок у форматі PostgreSQL. Функція **пгescapestring()** є найкращим способом екранування SQL параметрів для PostgreSQL, в той час як [addslashes()](function.addslashes.html) не має використовуватися з PostgreSQL. Якщо тип стовпця bytea, то має використовуватись функція [пгescapebytea()](function.pg-escape-bytea.html) замість pgescapestring. Функція [пгescapeidentifier()](function.pg-escape-identifier.html) використовується для екранування ідентифікаторів (наприклад, імена таблиць або полів).
+Функція **пгescapestring()** екранує спецсимволи у рядку запиту для бази даних. Вона повертає екранований рядок у форматі PostgreSQL. Функція **пгescapestring()** є найкращим способом екранування SQL параметрів для PostgreSQL, в той час як [addslashes()](function.addslashes.md) не має використовуватися з PostgreSQL. Якщо тип стовпця bytea, то має використовуватись функція [пгescapebytea()](function.pg-escape-bytea.html) замість pgescapestring. Функція [пгescapeidentifier()](function.pg-escape-identifier.html) використовується для екранування ідентифікаторів (наприклад, імена таблиць або полів).
 
 > **Зауваження**
 > 
@@ -49,9 +49,9 @@ pg_escape_string(PgSql\Connection $connection = ?, string $data): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

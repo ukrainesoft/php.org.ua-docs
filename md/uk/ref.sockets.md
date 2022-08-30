@@ -1,12 +1,12 @@
 Опції сокету
 
--   [« Помилки сокетів](sockets.errors.html)
+-   [« Ошибки сокетів](sockets.errors.md)
     
 -   [socketaccept »](function.socket-accept.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Сокеты](book.sockets.html)
+-   [Сокети](book.sockets.md)
     
 -   Опції сокету
     

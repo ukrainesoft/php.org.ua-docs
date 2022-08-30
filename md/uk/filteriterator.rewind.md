@@ -1,12 +1,12 @@
 Повертає ітератор на початок
 
--   [« FilterIterator::next](filteriterator.next.html)
+-   [« FilterIterator::next](filteriterator.next.md)
     
--   [FilterIterator::valid »](filteriterator.valid.html)
+-   [FilterIterator::valid »](filteriterator.valid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FilterIterator](class.filteriterator.html)
+-   [FilterIterator](class.filteriterator.md)
     
 -   Повертає ітератор на початок
     
@@ -39,6 +39,6 @@ public FilterIterator::rewind(): void
 
 ### Дивіться також
 
--   [FilterIterator::current()](filteriterator.current.html) - Отримує значення поточного елемента
--   [FilterIterator::key()](filteriterator.key.html) - Отримує поточний ключ
--   [FilterIterator::next()](filteriterator.next.html) - Переміщує ітератор до наступного елементу
+-   [FilterIterator::current()](filteriterator.current.md) - Отримує значення поточного елемента
+-   [FilterIterator::key()](filteriterator.key.md) - Отримує поточний ключ
+-   [FilterIterator::next()](filteriterator.next.md) - Переміщує ітератор до наступного елементу

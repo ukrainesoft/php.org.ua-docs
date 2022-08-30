@@ -1,12 +1,12 @@
 Отримання індексу кольору пікселя
 
--   [« imagecolorallocatealpha](function.imagecolorallocatealpha.html)
+-   [« imagecolorallocatealpha](function.imagecolorallocatealpha.md)
     
--   [imagecolorclosest »](function.imagecolorclosest.html)
+-   [imagecolorclosest »](function.imagecolorclosest.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Отримання індексу кольору пікселя
     
@@ -31,7 +31,7 @@ imagecolorat(GdImage $image, int $x, int $y): int|false
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `x`
 
@@ -47,13 +47,13 @@ y-координата пікселя.
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -79,7 +79,7 @@ int(123)
 int(180)
 ```
 
-**Приклад #2 Додані RGB значення з використанням [imagecolorsforindex()](function.imagecolorsforindex.html)**
+**Приклад #2 Додані RGB значення з використанням [imagecolorsforindex()](function.imagecolorsforindex.md)**
 
 ```php
 <?php
@@ -109,6 +109,6 @@ array(4) {
 
 ### Дивіться також
 
--   [imagecolorset()](function.imagecolorset.html) - Встановлення набору кольорів для заданого індексу палітри
--   [imagecolorsforindex()](function.imagecolorsforindex.html) - Отримання кольорів, що відповідають індексу
--   [imagesetpixel()](function.imagesetpixel.html) - Малювання точки
+-   [imagecolorset()](function.imagecolorset.md) - Встановлення набору кольорів для заданого індексу палітри
+-   [imagecolorsforindex()](function.imagecolorsforindex.md) - Отримання кольорів, що відповідають індексу
+-   [imagesetpixel()](function.imagesetpixel.md) - Малювання точки

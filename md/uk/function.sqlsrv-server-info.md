@@ -37,10 +37,10 @@ sqlsrv_server_info(resource $conn): array
 
 **Повертається масив**
 
-| CurrentDatabase  | Подключённая база данных. |
-|------------------|---------------------------|
-| SQLServerVersion | Версія SQL Server.        |
-| SQLServerName    | Ім'я сервера.             |
+| CurrentDatabase | Подключённая база данных. |
+| --- | --- |
+| SQLServerVersion | Версія SQL Server. |
+| SQLServerName | Ім'я сервера. |
 
 ### Приклади
 

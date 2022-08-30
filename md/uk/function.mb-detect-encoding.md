@@ -4,9 +4,9 @@
     
 -   [мбdetectorder »](function.mb-detect-order.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
     
 -   Визначення кодування символів
     
@@ -66,7 +66,7 @@ echo mb_detect_encoding($str, "auto");
 // Зададим список кодировок "encodings" в виде строки
 echo mb_detect_encoding($str, "JIS, eucjp-win, sjis-win");
 
-// Использование массива для задания возможных кодировок "encodings"
+// Использование Масива для задания возможных кодировок "encodings"
 $encodings = [
   "ASCII",
   "JIS",

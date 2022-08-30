@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](classobj.constants.html)
+-   [« Обумовлені константи](classobj.constants.html)
     
 -   [Функції роботи з класами та об'єктами »](ref.classobj.html)
     
 -   [PHP Manual](index.html)
     
--   [Классы и объекты](book.classobj.html)
+-   [Класи та об'єкти](book.classobj.html)
     
 -   Приклади
     

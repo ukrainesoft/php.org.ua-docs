@@ -1,12 +1,12 @@
 Повертає максимальну кількість виділених фрагментів для створення кожного поля
 
--   [« SolrQuery::getHighlightSimplePre](solrquery.gethighlightsimplepre.html)
+-   [« SolrQuery::getHighlightSimplePre](solrquery.gethighlightsimplepre.md)
     
--   [SolrQuery::getHighlightUsePhraseHighlighter »](solrquery.gethighlightusephrasehighlighter.html)
+-   [SolrQuery::getHighlightUsePhraseHighlighter »](solrquery.gethighlightusephrasehighlighter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає максимальну кількість виділених фрагментів для створення кожного поля
     

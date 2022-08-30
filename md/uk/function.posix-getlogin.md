@@ -4,9 +4,9 @@
     
 -   [posixgetpgid »](function.posix-getpgid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [POSIX Функции](ref.posix.html)
+-   [POSIX Функции](ref.posix.md)
     
 -   Повертає логін власника процесу
     

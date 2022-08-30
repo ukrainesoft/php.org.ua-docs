@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](sockets.requirements.html)
+-   [« Вимоги](sockets.requirements.md)
     
--   [Настройка во время выполнения »](sockets.configuration.html)
+-   [Налаштування під час виконання »](sockets.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](sockets.setup.html)
+-   [Встановлення та налаштування](sockets.setup.md)
     
 -   Встановлення
     

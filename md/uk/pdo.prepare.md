@@ -63,14 +63,14 @@ public PDO::prepare(string $query, array $options = []): PDOStatement|false
 
 ```php
 <?php
-/* Выполнение запроса с передачей ему массива параметров */
+/* Выполнение запроса с передачей ему Масива параметров */
 $sql = 'SELECT name, colour, calories
     FROM fruit
     WHERE calories < :calories AND colour = :colour';
 $sth = $dbh->prepare($sql, array(PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY));
 $sth->execute(array('calories' => 150, 'colour' => 'red'));
 $red = $sth->fetchAll();
-/* Ключи массива также могут начинаться с двоеточия ":" (необязательно) */
+/* Ключи Масива также могут начинаться с двоеточия ":" (необязательно) */
 $sth->execute(array(':calories' => 175, ':colour' => 'yellow'));
 $yellow = $sth->fetchAll();
 ?>
@@ -80,7 +80,7 @@ $yellow = $sth->fetchAll();
 
 ```php
 <?php
-/* Выполнение запроса с передачей ему массива параметров */
+/* Выполнение запроса с передачей ему Масива параметров */
 $sth = $dbh->prepare('SELECT name, colour, calories
     FROM fruit
     WHERE calories < ? AND colour = ?');

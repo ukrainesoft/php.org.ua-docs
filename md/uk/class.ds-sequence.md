@@ -4,9 +4,9 @@
     
 -   [ДсSequence::allocate »](ds-sequence.allocate.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Структури даних](book.ds.html)
+-   [Структури даних](book.ds.md)
     
 -   Інтерфейс Sequence
     
@@ -25,7 +25,7 @@
 У яких випадках використовується:
 
 -   Якщо ви хочете використовувати масив як список (не звертаючи уваги на ключі).
--   Більш ефективна альтернатива для [SplDoublyLinkedList](class.spldoublylinkedlist.html) і [SplFixedArray](class.splfixedarray.html)
+-   Більш ефективна альтернатива для [SplDoublyLinkedList](class.spldoublylinkedlist.md) і [SplFixedArray](class.splfixedarray.md)
 
 ## Огляд інтерфейсів
 
@@ -74,9 +74,9 @@ abstract public unshift(mixed $values = ?): void
 
 ## список змін
 
-| Версия        | Описание                                                  |
-|---------------|-----------------------------------------------------------|
-| PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.html) |
+| Версия | Описание |
+| --- | --- |
+| PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.md) |
 
 ## Зміст
 

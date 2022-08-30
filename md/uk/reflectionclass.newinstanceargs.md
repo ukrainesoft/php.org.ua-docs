@@ -1,12 +1,12 @@
 Створює екземпляр класу з переданими параметрами
 
--   [« ReflectionClass::newInstance](reflectionclass.newinstance.html)
+-   [« ReflectionClass::newInstance](reflectionclass.newinstance.md)
     
--   [ReflectionClass::newInstanceWithoutConstructor »](reflectionclass.newinstancewithoutconstructor.html)
+-   [ReflectionClass::newInstanceWithoutConstructor »](reflectionclass.newinstancewithoutconstructor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Створює екземпляр класу з переданими параметрами
     
@@ -37,9 +37,9 @@ public ReflectionClass::newInstanceArgs(array $args = []): ?object
 
 ### Помилки
 
-Якщо конструктор не є public (загальнодоступним), це призведе до генерації винятку [ReflectionException](class.reflectionexception.html)
+Якщо конструктор не є public (загальнодоступним), це призведе до генерації винятку [ReflectionException](class.reflectionexception.md)
 
-Якщо конструктор відсутня, а параметр `args` має один і більше аргументів, то це призведе до генерації винятку [ReflectionException](class.reflectionexception.html)
+Якщо конструктор відсутня, а параметр `args` має один і більше аргументів, то це призведе до генерації винятку [ReflectionException](class.reflectionexception.md)
 
 ### Приклади
 
@@ -64,5 +64,5 @@ object(ReflectionFunction)#2 (1) {
 
 ### Дивіться також
 
--   [ReflectionClass::newInstance()](reflectionclass.newinstance.html) - створює екземпляр класу з переданими аргументами
--   [ReflectionClass::newInstanceWithoutConstructor()](reflectionclass.newinstancewithoutconstructor.html) - Створює новий екземпляр класу без виклику конструктора
+-   [ReflectionClass::newInstance()](reflectionclass.newinstance.md) - створює екземпляр класу з переданими аргументами
+-   [ReflectionClass::newInstanceWithoutConstructor()](reflectionclass.newinstancewithoutconstructor.md) - Створює новий екземпляр класу без виклику конструктора

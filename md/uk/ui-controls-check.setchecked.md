@@ -4,7 +4,7 @@
     
 -   [ОЙControlsCheck::setText »](ui-controls-check.settext.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsCheck](class.ui-controls-check.html)
     

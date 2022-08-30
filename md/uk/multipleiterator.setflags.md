@@ -1,12 +1,12 @@
 Встановлює прапори
 
--   [« MultipleIterator::rewind](multipleiterator.rewind.html)
+-   [« MultipleIterator::rewind](multipleiterator.rewind.md)
     
--   [MultipleIterator::valid »](multipleiterator.valid.html)
+-   [MultipleIterator::valid »](multipleiterator.valid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MultipleIterator](class.multipleiterator.html)
+-   [MultipleIterator](class.multipleiterator.md)
     
 -   Встановлює прапори
     
@@ -33,7 +33,7 @@ public MultipleIterator::setFlags(int $flags): void
 
 `flags`
 
-Прапори для встановлення, згідно [Предопределённым константам](class.multipleiterator.html#multipleiterator.constants)
+Прапори для встановлення, згідно [Обумовленим константам](class.multipleiterator.html#multipleiterator.constants)
 
 ### Значення, що повертаються
 
@@ -41,6 +41,6 @@ public MultipleIterator::setFlags(int $flags): void
 
 ### Дивіться також
 
--   [Предопределённые константы](class.multipleiterator.html#multipleiterator.constants)
--   [MultipleIterator::construct()](multipleiterator.construct.html) - Створює новий MultipleIterator
--   [MultipleIterator::getFlags()](multipleiterator.getflags.html) - Отримує інформацію про прапори
+-   [Обумовлені константи](class.multipleiterator.html#multipleiterator.constants)
+-   [MultipleIterator::construct()](multipleiterator.construct.md) - Створює новий MultipleIterator
+-   [MultipleIterator::getFlags()](multipleiterator.getflags.md) - Отримує інформацію про прапори

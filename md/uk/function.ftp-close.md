@@ -4,9 +4,9 @@
     
 -   [ftpconnect »](function.ftp-connect.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.md)
     
 -   Закриває з'єднання з FTP-сервером
     
@@ -41,9 +41,9 @@ ftp_close(FTP\Connection $ftp): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                            |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

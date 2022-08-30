@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](xsl.constants.html)
+-   [« Обумовлені константи](xsl.constants.md)
     
--   [Файлы collection.xml и collection.xsl для примеров »](xsl.examples-collection.html)
+-   [Файли collection.xml та collection.xsl для прикладів »](xsl.examples-collection.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XSL](book.xsl.html)
+-   [XSL](book.xsl.md)
     
 -   Приклади
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [Файлы collection.xml и collection.xsl для примеров](xsl.examples-collection.html)
+-   [Файли collection.xml та collection.xsl для прикладів](xsl.examples-collection.html)
 -   [Обработка ошибок с помощью функций обработки ошибок libxml](xsl.examples-errors.html)

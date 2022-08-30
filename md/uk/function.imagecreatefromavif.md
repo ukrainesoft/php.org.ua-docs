@@ -1,12 +1,12 @@
 Створює нове зображення з файлу чи URL
 
--   [« imagecreate](function.imagecreate.html)
+-   [« imagecreate](function.imagecreate.md)
     
--   [imagecreatefrombmp »](function.imagecreatefrombmp.html)
+-   [imagecreatefrombmp »](function.imagecreatefrombmp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Створює нове зображення з файлу чи URL
     

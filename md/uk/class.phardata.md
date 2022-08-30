@@ -1,12 +1,12 @@
 Клас PharData
 
--   [« Phar::webPhar](phar.webphar.html)
+-   [« Phar::webPhar](phar.webphar.md)
     
--   [PharData::addEmptyDir »](phardata.addemptydir.html)
+-   [PharData::addEmptyDir »](phardata.addemptydir.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Phar](book.phar.html)
+-   [Phar](book.phar.md)
     
 -   Клас PharData
     
@@ -187,28 +187,28 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [PharData::addEmptyDir](phardata.addemptydir.html) — Додати порожню директорію до tar/zip-архіву
--   [PharData::addFile](phardata.addfile.html) — Додати існуючі файли до tar/zip-архіву
--   [PharData::addFromString](phardata.addfromstring.html) — Створити файл із заданим вмістом у tar/zip-архіві
--   [PharData::buildFromDirectory](phardata.buildfromdirectory.html) — Створює tar/zip-архів із файлів у директорії
--   [PharData::buildFromIterator](phardata.buildfromiterator.html) — Створення tar/zip-архіву за допомогою ітератора
--   [PharData::compress](phardata.compress.html) — Стискає весь архів tar/zip, використовуючи стиск Gzip або Bzip2
--   [PharData::compressFiles](phardata.compressfiles.html) — Стиснути всі файли у поточному tar/zip-архіві
--   [PharData::construct](phardata.construct.html) - Конструктор об'єкта PharData
--   [PharData::convertToData](phardata.converttodata.html) — Конвертація phar-архіву в tar/zip-архів, що не запускається.
--   [PharData::convertToExecutable](phardata.converttoexecutable.html) — Конвертація tar/zip-архіву з даними в phar-архів, що запускається
--   [PharData::copy](phardata.copy.html) — Скопіювати файл із tar/zip-архіву в новий файл усередині нього ж
--   [PharData::decompress](phardata.decompress.html) - Розпакувати весь Phar-архів
--   [PharData::decompressFiles](phardata.decompressfiles.html) — Розпакувати всі файли у поточному zip-архіві
--   [PharData::delMetadata](phardata.delmetadata.html) — Видалити глобальні метадані для zip-архіву
--   [PharData::delete](phardata.delete.html) — Видалити файл із tar/zip-архіву
--   [PharData::destruct](phardata.destruct.html) — Знищує об'єкт архіву tar або zip, що не виконується.
--   [PharData::extractTo](phardata.extractto.html) — Витягти вміст tar/zip-архіву в директорію
--   [PharData::isWritable](phardata.iswritable.html) — Перевірити, чи можна модифікувати tar/zip-архів
--   [PharData::offsetSet](phardata.offsetset.html) — Зміна вмісту файлу
--   [PharData::offsetUnset](phardata.offsetunset.html) — Видалити файл із tar/zip-архіву
--   [PharData::setAlias](phardata.setalias.html) — Функція заглушка (Phar::setAlias ​​не можна використовувати для PharData)
--   [PharData::setDefaultStub](phardata.setdefaultstub.html) — Функція заглушка (Phar::setDefaultStub не можна використовувати для PharData)
--   [PharData::setMetadata](phardata.setmetadata.html) — Встановити метадані phar-архіву
--   [PharData::setSignatureAlgorithm](phardata.setsignaturealgorithm.html) — Встановити алгоритм підписання phar-архіву та застосування його
--   [PharData::setStub](phardata.setstub.html) — Функція заглушка (Phar::setStub не можна використовувати для PharData)
+-   [PharData::addEmptyDir](phardata.addemptydir.md) — Додати порожню директорію до tar/zip-архіву
+-   [PharData::addFile](phardata.addfile.md) — Додати існуючі файли до tar/zip-архіву
+-   [PharData::addFromString](phardata.addfromstring.md) — Створити файл із заданим вмістом у tar/zip-архіві
+-   [PharData::buildFromDirectory](phardata.buildfromdirectory.md) — Створює tar/zip-архів із файлів у директорії
+-   [PharData::buildFromIterator](phardata.buildfromiterator.md) — Створення tar/zip-архіву за допомогою ітератора
+-   [PharData::compress](phardata.compress.md) — Стискає весь архів tar/zip, використовуючи стиск Gzip або Bzip2
+-   [PharData::compressFiles](phardata.compressfiles.md) — Стиснути всі файли у поточному tar/zip-архіві
+-   [PharData::construct](phardata.construct.md) - Конструктор об'єкта PharData
+-   [PharData::convertToData](phardata.converttodata.md) — Конвертація phar-архіву в tar/zip-архів, що не запускається.
+-   [PharData::convertToExecutable](phardata.converttoexecutable.md) — Конвертація tar/zip-архіву з даними в phar-архів, що запускається
+-   [PharData::copy](phardata.copy.md) — Скопіювати файл із tar/zip-архіву в новий файл усередині нього ж
+-   [PharData::decompress](phardata.decompress.md) - Розпакувати весь Phar-архів
+-   [PharData::decompressFiles](phardata.decompressfiles.md) — Розпакувати всі файли у поточному zip-архіві
+-   [PharData::delMetadata](phardata.delmetadata.md) — Видалити глобальні метадані для zip-архіву
+-   [PharData::delete](phardata.delete.md) — Видалити файл із tar/zip-архіву
+-   [PharData::destruct](phardata.destruct.md) — Знищує об'єкт архіву tar або zip, що не виконується.
+-   [PharData::extractTo](phardata.extractto.md) — Витягти вміст tar/zip-архіву в директорію
+-   [PharData::isWritable](phardata.iswritable.md) — Перевірити, чи можна модифікувати tar/zip-архів
+-   [PharData::offsetSet](phardata.offsetset.md) — Зміна вмісту файлу
+-   [PharData::offsetUnset](phardata.offsetunset.md) — Видалити файл із tar/zip-архіву
+-   [PharData::setAlias](phardata.setalias.md) — Функція заглушка (Phar::setAlias ​​не можна використовувати для PharData)
+-   [PharData::setDefaultStub](phardata.setdefaultstub.md) — Функція заглушка (Phar::setDefaultStub не можна використовувати для PharData)
+-   [PharData::setMetadata](phardata.setmetadata.md) — Встановити метадані phar-архіву
+-   [PharData::setSignatureAlgorithm](phardata.setsignaturealgorithm.md) — Встановити алгоритм підписання phar-архіву та застосування його
+-   [PharData::setStub](phardata.setstub.md) — Функція заглушка (Phar::setStub не можна використовувати для PharData)

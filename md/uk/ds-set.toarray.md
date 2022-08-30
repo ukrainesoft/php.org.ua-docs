@@ -4,7 +4,7 @@
     
 -   [ДсSet::union »](ds-set.union.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Набор](class.ds-set.html)
     

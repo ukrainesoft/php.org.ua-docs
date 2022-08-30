@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](json.requirements.html)
+-   [« Вимоги](json.requirements.html)
     
--   [Настройка во время выполнения »](json.configuration.html)
+-   [Налаштування під час виконання »](json.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](json.setup.html)
+-   [Встановлення та налаштування](json.setup.html)
     
 -   Встановлення
     

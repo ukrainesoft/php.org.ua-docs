@@ -1,12 +1,12 @@
 Перевіряє, чи належить об'єкт класу
 
--   [« ReflectionClass::isFinal](reflectionclass.isfinal.html)
+-   [« ReflectionClass::isFinal](reflectionclass.isfinal.md)
     
--   [ReflectionClass::isInstantiable »](reflectionclass.isinstantiable.html)
+-   [ReflectionClass::isInstantiable »](reflectionclass.isinstantiable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Перевіряє, чи належить об'єкт класу
     
@@ -70,7 +70,7 @@ Yes
 
 ### Дивіться також
 
--   [ReflectionClass::isInterface()](reflectionclass.isinterface.html) - Перевіряє, чи є клас інтерфейсом
--   [Оператори перевірки типу (instanceof)](language.operators.type.html)
--   [Інтерфейси об'єктів](language.oop5.interfaces.html)
+-   [ReflectionClass::isInterface()](reflectionclass.isinterface.md) - Перевіряє, чи є клас інтерфейсом
+-   [Оператори перевірки типу (instanceof)](language.operators.type.md)
+-   [Інтерфейси об'єктів](language.oop5.interfaces.md)
 -   [ісa()](function.is-a.html) - Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків

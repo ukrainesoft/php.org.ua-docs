@@ -1,12 +1,12 @@
 Створити тег документа
 
--   [« XMLWriter::startComment](xmlwriter.startcomment.html)
+-   [« XMLWriter::startComment](xmlwriter.startcomment.md)
     
--   [XMLWriter::startDtd »](xmlwriter.startdtd.html)
+-   [XMLWriter::startDtd »](xmlwriter.startdtd.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](class.xmlwriter.html)
+-   [XMLWriter](class.xmlwriter.md)
     
 -   Створити тег документа
     
@@ -39,7 +39,7 @@ xmlwriter_start_document(    XMLWriter $writer,    ?string $version = "1
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `version`
 
@@ -59,10 +59,10 @@ xmlwriter_start_document(    XMLWriter $writer,    ?string $version = "1
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::endDocument()](xmlwriter.enddocument.html) - Завершити поточний документ
+-   [XMLWriter::endDocument()](xmlwriter.enddocument.md) - Завершити поточний документ

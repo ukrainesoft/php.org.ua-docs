@@ -4,9 +4,9 @@
     
 -   [ssh2methodsnegotiated »](function.ssh2-methods-negotiated.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Зв'язує порт на віддаленому сервері та прослуховує з'єднання
     

@@ -1,12 +1,12 @@
 Вступ
 
--   [« SSH2](book.ssh2.html)
+-   [« SSH2](book.ssh2.md)
     
--   [Установка и настройка »](ssh2.setup.html)
+-   [Встановлення та налаштування »](ssh2.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SSH2](book.ssh2.html)
+-   [SSH2](book.ssh2.md)
     
 -   Вступ
     

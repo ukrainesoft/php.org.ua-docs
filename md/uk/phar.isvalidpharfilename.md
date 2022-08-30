@@ -1,12 +1,12 @@
 Перевіряє, що ім'я файлу є коректним ім'ям phar-архіву
 
--   [« Phar::isFileFormat](phar.isfileformat.html)
+-   [« Phar::isFileFormat](phar.isfileformat.md)
     
--   [Phar::isWritable »](phar.iswritable.html)
+-   [Phar::isWritable »](phar.iswritable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Phar](class.phar.html)
+-   [Phar](class.phar.md)
     
 -   Перевіряє, що ім'я файлу є коректним ім'ям phar-архіву
     

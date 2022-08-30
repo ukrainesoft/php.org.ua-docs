@@ -1,12 +1,12 @@
 Прапори, що використовуються у фільтрах
 
--   [« Остальные фильтры](filter.filters.misc.html)
+-   [« Інші фільтри](filter.filters.misc.md)
     
--   [Предопределённые константы »](filter.constants.html)
+-   [Обумовлені константи »](filter.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Типи фільтрів](filter.filters.html)
+-   [Типи фільтрів](filter.filters.md)
     
 -   Прапори, що використовуються у фільтрах
     
@@ -15,26 +15,26 @@
 
 **Список прапорів, що використовуються у фільтрах**
 
-| Идентификатор                                                                                                                    | Используется совместно с фильтром                                                                                        | Описание                                                                                                                                |
-|----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| **`FILTER_FLAG_STRIP_LOW`**                                                                                                      | **`FILTER_SANITIZE_ENCODED`** **`FILTER_SANITIZE_SPECIAL_CHARS`** **`FILTER_SANITIZE_STRING`** **`FILTER_UNSAFE_RAW`**   | Видаляє символи, код яких <32.                                                                                                          |
-| **`FILTER_FLAG_STRIP_HIGH`**                                                                                                     | **`FILTER_SANITIZE_ENCODED`** **`FILTER_SANITIZE_SPECIAL_CHARS`** **`FILTER_SANITIZE_STRING`** **`FILTER_UNSAFE_RAW`**   | Видаляє символи, код яких >127.                                                                                                         |
-| **`FILTER_FLAG_STRIP_BACKTICK`**                                                                                                 | **`FILTER_SANITIZE_ENCODED`** **`FILTER_SANITIZE_SPECIAL_CHARS`** **`FILTER_SANITIZE_STRING`** **`FILTER_UNSAFE_RAW`**   | Видаляє символи зворотної лапки (                                                                                                       |
-| **`FILTER_FLAG_ALLOW_FRACTION`**                                                                                                 | **`FILTER_SANITIZE_NUMBER_FLOAT`**                                                                                       | Дозволяє наявність точки (`.`) як десятковий роздільник у числах.                                                                       |
-| **`FILTER_FLAG_ALLOW_THOUSAND`**                                                                                                 | **`FILTER_SANITIZE_NUMBER_FLOAT`** **`FILTER_VALIDATE_FLOAT`**                                                           | Дозволяє наявність коми (`,`) як роздільник тисяч у числах.                                                                             |
-| **`FILTER_FLAG_ALLOW_SCIENTIFIC`**                                                                                               | **`FILTER_SANITIZE_NUMBER_FLOAT`**                                                                                       | Дозволяє наявність `e` і `E` для наукових нотацій чисел.                                                                                |
-| **`FILTER_FLAG_NO_ENCODE_QUOTES`**                                                                                               | **`FILTER_SANITIZE_STRING`**                                                                                             | При встановленні цього прапора одинарні (`'`) та подвійні (`"`) лапки кодуватись не будуть.                                             |
-| **`FILTER_FLAG_ENCODE_LOW`**                                                                                                     | **`FILTER_SANITIZE_ENCODED`** **`FILTER_SANITIZE_STRING`** **`FILTER_SANITIZE_RAW`**                                     | Кодує всі символи <32.                                                                                                                  |
-| **`FILTER_FLAG_ENCODE_HIGH`**                                                                                                    | **`FILTER_SANITIZE_ENCODED`** **`FILTER_SANITIZE_SPECIAL_CHARS`** **`FILTER_SANITIZE_STRING`** **`FILTER_SANITIZE_RAW`** | Кодує всі символи, код яких >127.                                                                                                       |
-| **`FILTER_FLAG_ENCODE_AMP`**                                                                                                     | **`FILTER_SANITIZE_STRING`** **`FILTER_SANITIZE_RAW`**                                                                   | Кодує амперсанд (`&`                                                                                                                    |
-| **`FILTER_NULL_ON_FAILURE`**                                                                                                     | будь-який [**`FILTER_VALIDATE_*`**](filter.filters.validate.html)                                                        | Повертає **`null`** для невідомих значень.                                                                                              |
-| **`FILTER_FLAG_ALLOW_OCTAL`**                                                                                                    | **`FILTER_VALIDATE_INT`**                                                                                                | Трактує введення, що починається з нуля (`0`) як вісімкове число. Для цього наступні числа мають бути в діапазоні `0-7`                 |
-| **`FILTER_FLAG_ALLOW_HEX`**                                                                                                      | **`FILTER_VALIDATE_INT`**                                                                                                | Трактує введення, що починається з `0x` або `0X` як шістнадцяткове число. Для цього наступні символи мають бути в діапазоні `a-fA-F0-9` |
-| **`FILTER_FLAG_EMAIL_UNICODE`**                                                                                                  | **`FILTER_VALIDATE_EMAIL`**                                                                                              | Дозволити символи Unicode у локальній частині email-адреси.                                                                             |
-| **`FILTER_FLAG_IPV4`**                                                                                                           | **`FILTER_VALIDATE_IP`**                                                                                                 | Дозволяє формат IPv4 для IP-адреси.                                                                                                     |
-| **`FILTER_FLAG_IPV6`**                                                                                                           | **`FILTER_VALIDATE_IP`**                                                                                                 | Дозволяє формат IPv6 для IP-адреси.                                                                                                     |
-| **`FILTER_FLAG_NO_PRIV_RANGE`**                                                                                                  | **`FILTER_VALIDATE_IP`**                                                                                                 |                                                                                                                                         |
-| Забороняє успішне проходження перевірки для наступних приватних IPv4-діапазонів: `10.0.0.0/8` `172.16.0.0/12` і `192.168.0.0/16` |                                                                                                                          |                                                                                                                                         |
+| Идентификатор | Используется совместно с фильтром | Описание |
+| --- | --- | --- |
+| **`FILTER_FLAG_STRIP_LOW`** | **`FILTER_SANITIZE_ENCODED`** **`FILTER_SANITIZE_SPECIAL_CHARS`** **`FILTER_SANITIZE_STRING`** **`FILTER_UNSAFE_RAW`** | Видаляє символи, код яких <32. |
+| **`FILTER_FLAG_STRIP_HIGH`** | **`FILTER_SANITIZE_ENCODED`** **`FILTER_SANITIZE_SPECIAL_CHARS`** **`FILTER_SANITIZE_STRING`** **`FILTER_UNSAFE_RAW`** | Видаляє символи, код яких >127. |
+| **`FILTER_FLAG_STRIP_BACKTICK`** | **`FILTER_SANITIZE_ENCODED`** **`FILTER_SANITIZE_SPECIAL_CHARS`** **`FILTER_SANITIZE_STRING`** **`FILTER_UNSAFE_RAW`** | Видаляє символи зворотної лапки ( |
+| **`FILTER_FLAG_ALLOW_FRACTION`** | **`FILTER_SANITIZE_NUMBER_FLOAT`** | Дозволяє наявність точки (`.`) як десятковий роздільник у числах. |
+| **`FILTER_FLAG_ALLOW_THOUSAND`** | **`FILTER_SANITIZE_NUMBER_FLOAT`** **`FILTER_VALIDATE_FLOAT`** | Дозволяє наявність коми (`,`) як роздільник тисяч у числах. |
+| **`FILTER_FLAG_ALLOW_SCIENTIFIC`** | **`FILTER_SANITIZE_NUMBER_FLOAT`** | Дозволяє наявність `e` і `E` для наукових нотацій чисел. |
+| **`FILTER_FLAG_NO_ENCODE_QUOTES`** | **`FILTER_SANITIZE_STRING`** | При встановленні цього прапора одинарні (`'`) та подвійні (`"`) лапки кодуватись не будуть. |
+| **`FILTER_FLAG_ENCODE_LOW`** | **`FILTER_SANITIZE_ENCODED`** **`FILTER_SANITIZE_STRING`** **`FILTER_SANITIZE_RAW`** | Кодує всі символи <32. |
+| **`FILTER_FLAG_ENCODE_HIGH`** | **`FILTER_SANITIZE_ENCODED`** **`FILTER_SANITIZE_SPECIAL_CHARS`** **`FILTER_SANITIZE_STRING`** **`FILTER_SANITIZE_RAW`** | Кодує всі символи, код яких >127. |
+| **`FILTER_FLAG_ENCODE_AMP`** | **`FILTER_SANITIZE_STRING`** **`FILTER_SANITIZE_RAW`** | Кодує амперсанд (`&` |
+| **`FILTER_NULL_ON_FAILURE`** | будь-який [**`FILTER_VALIDATE_*`**](filter.filters.validate.md) | Повертає **`null`** для невідомих значень. |
+| **`FILTER_FLAG_ALLOW_OCTAL`** | **`FILTER_VALIDATE_INT`** | Трактує введення, що починається з нуля (`0`) як вісімкове число. Для цього наступні числа мають бути в діапазоні `0-7` |
+| **`FILTER_FLAG_ALLOW_HEX`** | **`FILTER_VALIDATE_INT`** | Трактує введення, що починається з `0x` або `0X` як шістнадцяткове число. Для цього наступні символи мають бути в діапазоні `a-fA-F0-9` |
+| **`FILTER_FLAG_EMAIL_UNICODE`** | **`FILTER_VALIDATE_EMAIL`** | Дозволити символи Unicode у локальній частині email-адреси. |
+| **`FILTER_FLAG_IPV4`** | **`FILTER_VALIDATE_IP`** | Дозволяє формат IPv4 для IP-адреси. |
+| **`FILTER_FLAG_IPV6`** | **`FILTER_VALIDATE_IP`** | Дозволяє формат IPv6 для IP-адреси. |
+| **`FILTER_FLAG_NO_PRIV_RANGE`** | **`FILTER_VALIDATE_IP`** |  |
+| Забороняє успішне проходження перевірки для наступних приватних IPv4-діапазонів: `10.0.0.0/8` `172.16.0.0/12` і `192.168.0.0/16` |  |  |
 
 Забороняє успішне проходження перевірки для IPv6-адрес, що починаються з `FD` або `FC`
 
@@ -50,7 +50,7 @@
 
 ### список змін
 
-| Версия | Описание                                                                                                    |
-|--------|-------------------------------------------------------------------------------------------------------------|
-|        | Явне використання **`FILTER_FLAG_SCHEME_REQUIRED`** і **`FILTER_FLAG_HOST_REQUIRED`** оголошено застарілим. |
-|        | Додано константу **`FILTER_FLAG_EMAIL_UNICODE`**                                                            |
+| Версия | Описание |
+| --- | --- |
+|  | Явне використання **`FILTER_FLAG_SCHEME_REQUIRED`** і **`FILTER_FLAG_HOST_REQUIRED`** оголошено застарілим. |
+|  | Додано константу **`FILTER_FLAG_EMAIL_UNICODE`** |

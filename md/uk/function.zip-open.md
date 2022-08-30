@@ -4,9 +4,9 @@
     
 -   [zipread »](function.zip-read.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Zip](ref.zip.html)
+-   [Функции Zip](ref.zip.md)
     
 -   Відкриває ZIP-архів
     
@@ -41,9 +41,9 @@ zip_open(string $filename): resource|int|false
 
 ### список змін
 
-| Версия | Описание                                                                                     |
-|--------|----------------------------------------------------------------------------------------------|
-|        | Функція застаріла на користь Object API, дивіться [ZipArchive::open()](ziparchive.open.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::open()](ziparchive.open.md) |
 
 ### Дивіться також
 

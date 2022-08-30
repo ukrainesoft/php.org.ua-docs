@@ -2,11 +2,11 @@
 
 -   [« shmopsize](function.shmop-size.html)
     
--   [Shmop »](class.shmop.html)
+-   [Shmop »](class.shmop.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Пам'ять, що розділяється (shared)](ref.shmop.html)
+-   [Пам'ять, що розділяється (shared)](ref.shmop.md)
     
 -   Запис даних у пам'ять, що розділяється
     
@@ -45,10 +45,10 @@ shmop_write(Shmop $shmop, string $data, int $offset): int
 
 ### список змін
 
-| Версия | Описание                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------|
-|        | До PHP 8.0.0 у разі виникнення помилки поверталося **`false`**                                     |
-|        | Параметр `shmop` чекає на екземпляр [Shmop](class.shmop.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | До PHP 8.0.0 у разі виникнення помилки поверталося **`false`** |
+|  | Параметр `shmop` чекає на екземпляр [Shmop](class.shmop.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 

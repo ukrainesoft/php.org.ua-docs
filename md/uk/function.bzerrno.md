@@ -1,12 +1,12 @@
 Повертає код помилки роботи з bzip2
 
--   [« bzdecompress](function.bzdecompress.html)
+-   [« bzdecompress](function.bzdecompress.md)
     
--   [bzerror »](function.bzerror.html)
+-   [bzerror »](function.bzerror.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Bzip2](ref.bzip2.html)
+-   [Функції Bzip2](ref.bzip2.md)
     
 -   Повертає код помилки роботи з bzip2
     
@@ -29,7 +29,7 @@ bzerrno(resource $bz): int
 
 `bz`
 
-Вказівник на файл. Має бути коректним і вказувати на файл, успішний відкритий [bzopen()](function.bzopen.html)
+Вказівник на файл. Має бути коректним і вказувати на файл, успішний відкритий [bzopen()](function.bzopen.md)
 
 ### Значення, що повертаються
 
@@ -37,5 +37,5 @@ bzerrno(resource $bz): int
 
 ### Дивіться також
 
--   [bzerror()](function.bzerror.html) - Повертає код та рядок помилки роботи з bzip2 у вигляді масиву
--   [bzerrstr()](function.bzerrstr.html) - Повертає рядок помилки роботи з bzip2
+-   [bzerror()](function.bzerror.md) - Повертає код та рядок помилки роботи з bzip2 у вигляді масиву
+-   [bzerrstr()](function.bzerrstr.md) - Повертає рядок помилки роботи з bzip2

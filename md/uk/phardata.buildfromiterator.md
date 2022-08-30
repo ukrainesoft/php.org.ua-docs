@@ -1,12 +1,12 @@
 Створення tar/zip-архіву за допомогою ітератора
 
--   [« PharData::buildFromDirectory](phardata.buildfromdirectory.html)
+-   [« PharData::buildFromDirectory](phardata.buildfromdirectory.md)
     
--   [PharData::compress »](phardata.compress.html)
+-   [PharData::compress »](phardata.compress.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharData](class.phardata.html)
+-   [PharData](class.phardata.md)
     
 -   Створення tar/zip-архіву за допомогою ітератора
     
@@ -41,14 +41,14 @@ public PharData::buildFromIterator(Traversable $iterator, ?string $baseDirectory
 
 ### Помилки
 
-Метод викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.html), якщо ітератор повернув некоректне значення, наприклад, цілий ключ замість рядка. Виняток [BadMethodCallException](class.badmethodcallexception.html) викидається коли заданий ітератор, який повертає об'єкти SplFileInfo без завдання параметра `baseDirectory`. У разі проблем із записом на диск кидається виняток [PharException](class.pharexception.html)
+Метод викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.md), якщо ітератор повернув некоректне значення, наприклад, цілий ключ замість рядка. Виняток [BadMethodCallException](class.badmethodcallexception.md) викидається коли заданий ітератор, який повертає об'єкти SplFileInfo без завдання параметра `baseDirectory`. У разі проблем із записом на диск кидається виняток [PharException](class.pharexception.md)
 
 ### список змін
 
-| Версия | Описание                                                                  |
-|--------|---------------------------------------------------------------------------|
-|        | **PharData::buildFromIterator()** більше не повертає значення **`false`** |
-|        | `baseDirectory` тепер допускає значення null.                             |
+| Версия | Описание |
+| --- | --- |
+|  | **PharData::buildFromIterator()** більше не повертає значення **`false`** |
+|  | `baseDirectory` тепер допускає значення null. |
 
 ### Приклади
 
@@ -72,7 +72,7 @@ $phar->buildFromIterator(
 
 Файл `project.tar` можна використовувати одразу ж після його створення . **PharData::buildFromIterator()** не здійснює налаштування стиснення або додавання метаданих. Ці дії необхідно зробити самостійно після створення архіву.
 
-Цікаве зауваження: **PharData::buildFromIterator()** також можна використовувати для копіювання контенту вже існуючого phar, tar або zip-архіву, так як об'єкт PharData успадковує [DirectoryIterator](class.directoryiterator.html)
+Цікаве зауваження: **PharData::buildFromIterator()** також можна використовувати для копіювання контенту вже існуючого phar, tar або zip-архіву, так як об'єкт PharData успадковує [DirectoryIterator](class.directoryiterator.md)
 
 ```php
 <?php
@@ -87,7 +87,7 @@ $phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
 
 **Приклад #2 Приклад використання **PharData::buildFromIterator()** з іншим ітератором**
 
-Можна використовувати ітератори, що повертають зв'язку "ключ" => "значення", наприклад [ArrayIterator](class.arrayiterator.html)
+Можна використовувати ітератори, що повертають зв'язку "ключ" => "значення", наприклад [ArrayIterator](class.arrayiterator.md)
 
 ```php
 <?php
@@ -103,4 +103,4 @@ $phar->buildFromIterator(
 
 ### Дивіться також
 
--   [Phar::buildFromIterator()](phar.buildfromiterator.html) - Створює phar-архів із ітератора
+-   [Phar::buildFromIterator()](phar.buildfromiterator.md) - Створює phar-архів із ітератора

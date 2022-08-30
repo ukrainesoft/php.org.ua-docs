@@ -4,9 +4,9 @@
     
 -   [eiosetmaxpolltime »](function.eio-set-max-poll-time.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Встановлює максимальну кількість запитів, що обробляються.
     

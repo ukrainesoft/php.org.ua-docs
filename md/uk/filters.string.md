@@ -1,12 +1,12 @@
 Стрічкові фільтри
 
--   [« Список доступних фільтрів](filters.html)
+-   [« Список доступних фільтрів](filters.md)
     
--   [Преобразовывающие фильтры »](filters.convert.html)
+-   [Перетворювальні фільтри »](filters.convert.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Список доступних фільтрів](filters.html)
+-   [Список доступних фільтрів](filters.md)
     
 -   Стрічкові фільтри
     
@@ -32,7 +32,7 @@ fwrite($fp, "This is a test.\n");
 
 ## string.toupper
 
-Використання цього фільтра еквівалентно обробці всіх даних потоку функцією [strtoupper()](function.strtoupper.html)
+Використання цього фільтра еквівалентно обробці всіх даних потоку функцією [strtoupper()](function.strtoupper.md)
 
 **Приклад #2 string.toupper**
 
@@ -47,7 +47,7 @@ fwrite($fp, "This is a test.\n");
 
 ## string.tolower
 
-Використання цього фільтра еквівалентно обробці всіх даних потоку функцією [strtolower()](function.strtolower.html)
+Використання цього фільтра еквівалентно обробці всіх даних потоку функцією [strtolower()](function.strtolower.md)
 
 **Приклад #3 string.tolower**
 

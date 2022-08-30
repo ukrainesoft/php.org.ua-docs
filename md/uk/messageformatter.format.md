@@ -1,12 +1,12 @@
 Форматує повідомлення
 
--   [« MessageFormatter::formatMessage](messageformatter.formatmessage.html)
+-   [« MessageFormatter::formatMessage](messageformatter.formatmessage.md)
     
--   [MessageFormatter::getErrorCode »](messageformatter.geterrorcode.html)
+-   [MessageFormatter::getErrorCode »](messageformatter.geterrorcode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MessageFormatter](class.messageformatter.html)
+-   [MessageFormatter](class.messageformatter.md)
     
 -   Форматує повідомлення
     
@@ -39,7 +39,7 @@ msgfmt_format(MessageFormatter $formatter, array $values): string|false
 
 `formatter`
 
-Об'єкт [MessageFormatter](class.messageformatter.html)
+Об'єкт [MessageFormatter](class.messageformatter.md)
 
 `values`
 
@@ -82,8 +82,8 @@ echo $fmt->format(array(4560, 123, 4560/123));
 
 ### Дивіться також
 
--   [msgfmtcreate()](messageformatter.create.html) - Створює засіб форматування повідомлень
--   [msgfmtparse()](messageformatter.parse.html) - Розбирає рядок згідно шаблону
--   [msgfmtformatmessage()](messageformatter.formatmessage.html) - Швидко форматує повідомлення
--   [msgfmtgeterrorcode()](messageformatter.geterrorcode.html) - Повертає код помилки останньої операції
--   [msgfmtgeterrormessage()](messageformatter.geterrormessage.html) - Повертає текст помилки останньої операції
+-   [msgfmtcreate()](messageformatter.create.md) - Створює засіб форматування повідомлень
+-   [msgfmtparse()](messageformatter.parse.md) - Розбирає рядок згідно шаблону
+-   [msgfmtformatmessage()](messageformatter.formatmessage.md) - Швидко форматує повідомлення
+-   [msgfmtgeterrorcode()](messageformatter.geterrorcode.md) - Повертає код помилки останньої операції
+-   [msgfmtgeterrormessage()](messageformatter.geterrormessage.md) - Повертає текст помилки останньої операції

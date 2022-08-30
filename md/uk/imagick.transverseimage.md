@@ -1,12 +1,12 @@
 Створює горизонтальне дзеркальне відображення
 
--   [« Imagick::transposeImage](imagick.transposeimage.html)
+-   [« Imagick::transposeImage](imagick.transposeimage.md)
     
--   [Imagick::trimImage »](imagick.trimimage.html)
+-   [Imagick::trimImage »](imagick.trimimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Створює горизонтальне дзеркальне відображення
     
@@ -51,4 +51,4 @@ function transverseImage($imagePath) {
 
 ### Дивіться також
 
--   [Imagick::transposeImage()](imagick.transposeimage.html) - Створює вертикальне дзеркальне відображення
+-   [Imagick::transposeImage()](imagick.transposeimage.md) - Створює вертикальне дзеркальне відображення

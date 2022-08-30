@@ -1,12 +1,12 @@
 Зберегти дані на сервері
 
--   [« Memcache::replace](memcache.replace.html)
+-   [« Memcache::replace](memcache.replace.md)
     
--   [Memcache::setCompressThreshold »](memcache.setcompressthreshold.html)
+-   [Memcache::setCompressThreshold »](memcache.setcompressthreshold.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcache](class.memcache.html)
+-   [Memcache](class.memcache.md)
     
 -   Зберегти дані на сервері
     
@@ -100,5 +100,5 @@ echo $memcache_obj->get('var_key');
 
 ### Дивіться також
 
--   [Memcache::add()](memcache.add.html) - Додати елемент із зазначеним ключем
--   [Memcache::replace()](memcache.replace.html) - Замінити значення наявного елемента
+-   [Memcache::add()](memcache.add.md) - Додати елемент із зазначеним ключем
+-   [Memcache::replace()](memcache.replace.md) - Замінити значення наявного елемента

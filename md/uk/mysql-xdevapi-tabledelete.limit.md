@@ -4,7 +4,7 @@
     
 -   [TableDelete::orderby »](mysql-xdevapi-tabledelete.orderby.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiTableDelete](class.mysql-xdevapi-tabledelete.html)
     

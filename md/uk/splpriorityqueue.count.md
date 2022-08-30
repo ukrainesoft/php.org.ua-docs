@@ -1,12 +1,12 @@
 Здійснює підрахунок елементів у черзі
 
--   [« SplPriorityQueue::compare](splpriorityqueue.compare.html)
+-   [« SplPriorityQueue::compare](splpriorityqueue.compare.md)
     
--   [SplPriorityQueue::current »](splpriorityqueue.current.html)
+-   [SplPriorityQueue::current »](splpriorityqueue.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplPriorityQueue](class.splpriorityqueue.html)
+-   [SplPriorityQueue](class.splpriorityqueue.md)
     
 -   Здійснює підрахунок елементів у черзі
     

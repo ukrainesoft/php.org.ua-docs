@@ -4,9 +4,9 @@
     
 -   [tradercdlcounterattack »](function.trader-cdlcounterattack.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Ластівка, що ховається
     

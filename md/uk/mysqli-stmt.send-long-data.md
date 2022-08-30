@@ -4,7 +4,7 @@
     
 -   [mysqlistmt::$sqlstate »](mysqli-stmt.sqlstate.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlistmt](class.mysqli-stmt.html)
     
@@ -73,5 +73,5 @@ $stmt->execute();
 
 ### Дивіться також
 
--   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
 -   [mysqlistmtbindparam()](mysqli-stmt.bind-param.html) - Прив'язка змінних до параметрів запиту, що готується.

@@ -4,9 +4,9 @@
     
 -   [fdfsetstatus »](function.fdf-set-status.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Встановлює параметри поля
     

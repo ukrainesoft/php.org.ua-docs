@@ -1,12 +1,12 @@
 Повертає горизонтальний та вертикальний фактор вибірки
 
--   [« Imagick::getResourceLimit](imagick.getresourcelimit.html)
+-   [« Imagick::getResourceLimit](imagick.getresourcelimit.md)
     
--   [Imagick::getSize »](imagick.getsize.html)
+-   [Imagick::getSize »](imagick.getsize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає горизонтальний та вертикальний фактор вибірки
     

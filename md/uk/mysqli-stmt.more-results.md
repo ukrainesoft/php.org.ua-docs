@@ -4,7 +4,7 @@
     
 -   [mysqlistmt::nextresult »](mysqli-stmt.next-result.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlistmt](class.mysqli-stmt.html)
     
@@ -37,7 +37,7 @@ mysqli_stmt_more_results(mysqli_stmt $statement): bool
 
 > **Зауваження**
 > 
-> Доступно лише з модулем [mysqlnd](book.mysqlnd.html)
+> Доступно лише з модулем [mysqlnd](book.mysqlnd.md)
 
 ### Список параметрів
 

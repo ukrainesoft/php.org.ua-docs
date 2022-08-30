@@ -1,12 +1,12 @@
 Визначення доступності
 
--   [« ParentIterator](class.parentiterator.html)
+-   [« ParentIterator](class.parentiterator.md)
     
--   [ParentIterator::construct »](parentiterator.construct.html)
+-   [ParentIterator::construct »](parentiterator.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ParentIterator](class.parentiterator.html)
+-   [ParentIterator](class.parentiterator.md)
     
 -   Визначення доступності
     
@@ -39,5 +39,5 @@ public ParentIterator::accept(): bool
 
 ### Дивіться також
 
--   [ParentIterator::hasChildren()](parentiterator.haschildren.html) - Перевіряє, чи має внутрішній об'єкт-ітератор дочірні об'єкти
--   [FilterIterator::accept()](filteriterator.accept.html) - Перевіряє, чи є поточний елемент ітератора допустимим
+-   [ParentIterator::hasChildren()](parentiterator.haschildren.md) - Перевіряє, чи має внутрішній об'єкт-ітератор дочірні об'єкти
+-   [FilterIterator::accept()](filteriterator.accept.md) - Перевіряє, чи є поточний елемент ітератора допустимим

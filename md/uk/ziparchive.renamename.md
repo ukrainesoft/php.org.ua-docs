@@ -1,12 +1,12 @@
 Перейменовує елемент на його ім'я
 
--   [« ZipArchive::renameIndex](ziparchive.renameindex.html)
+-   [« ZipArchive::renameIndex](ziparchive.renameindex.md)
     
--   [ZipArchive::replaceFile »](ziparchive.replacefile.html)
+-   [ZipArchive::replaceFile »](ziparchive.replacefile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Перейменовує елемент на його ім'я
     

@@ -1,12 +1,12 @@
 Перетворення символу Unicode у верхній регістр
 
--   [« IntlChar::totitle](intlchar.totitle.html)
+-   [« IntlChar::totitle](intlchar.totitle.md)
     
--   [IntlException »](class.intlexception.html)
+-   [IntlException »](class.intlexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перетворення символу Unicode у верхній регістр
     
@@ -67,6 +67,6 @@ int(65)
 
 ### Дивіться також
 
--   [IntlChar::tolower()](intlchar.tolower.html) - Перетворення символу Unicode на нижній регістр
--   [IntlChar::totitle()](intlchar.totitle.html) - Перетворює символ Unicode у titlecase
+-   [IntlChar::tolower()](intlchar.tolower.md) - Перетворення символу Unicode на нижній регістр
+-   [IntlChar::totitle()](intlchar.totitle.md) - Перетворює символ Unicode у titlecase
 -   [мбstrtoupper()](function.mb-strtoupper.html) - Приведення рядка до верхнього регістру

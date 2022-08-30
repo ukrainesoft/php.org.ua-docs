@@ -1,12 +1,12 @@
 Конструктор класу, що забороняє пряме створення екземпляра
 
--   [« IntlTimeZone](class.intltimezone.html)
+-   [« IntlTimeZone](class.intltimezone.md)
     
--   [IntlTimeZone::countEquivalentIDs »](intltimezone.countequivalentids.html)
+-   [IntlTimeZone::countEquivalentIDs »](intltimezone.countequivalentids.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlTimeZone](class.intltimezone.html)
+-   [IntlTimeZone](class.intltimezone.md)
     
 -   Конструктор класу, що забороняє пряме створення екземпляра
     

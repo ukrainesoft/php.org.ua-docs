@@ -1,12 +1,12 @@
 Отримати поточний рядок генератора, що виконується
 
--   [« ReflectionGenerator::getExecutingGenerator](reflectiongenerator.getexecutinggenerator.html)
+-   [« ReflectionGenerator::getExecutingGenerator](reflectiongenerator.getexecutinggenerator.md)
     
--   [ReflectionGenerator::getFunction »](reflectiongenerator.getfunction.html)
+-   [ReflectionGenerator::getFunction »](reflectiongenerator.getfunction.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionGenerator](class.reflectiongenerator.html)
+-   [ReflectionGenerator](class.reflectiongenerator.md)
     
 -   Отримати поточний рядок генератора, що виконується
     
@@ -63,5 +63,5 @@ echo "Строка: {$reflectionGen->getExecutingLine()}";
 
 ### Дивіться також
 
--   [ReflectionGenerator::getExecutingGenerator()](reflectiongenerator.getexecutinggenerator.html) - Отримати запущений об'єкт Generator
--   [ReflectionGenerator::getExecutingFile()](reflectiongenerator.getexecutingfile.html) - Отримати ім'я файлу, з якого запущено генератор
+-   [ReflectionGenerator::getExecutingGenerator()](reflectiongenerator.getexecutinggenerator.md) - Отримати запущений об'єкт Generator
+-   [ReflectionGenerator::getExecutingFile()](reflectiongenerator.getexecutingfile.md) - Отримати ім'я файлу, з якого запущено генератор

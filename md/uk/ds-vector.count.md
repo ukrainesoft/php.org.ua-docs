@@ -4,7 +4,7 @@
     
 -   [ДсVector::filter »](ds-vector.filter.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Вектор](class.ds-vector.html)
     
@@ -17,4 +17,4 @@
 
 ДсVector::count — Повертає кількість елементів вектора
 
-Дивіться [Countable::count()](countable.count.html)
+Дивіться [Countable::count()](countable.count.md)

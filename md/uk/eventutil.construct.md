@@ -1,12 +1,12 @@
 Абстрактний конструктор
 
--   [« EventUtil](class.eventutil.html)
+-   [« EventUtil](class.eventutil.md)
     
--   [EventUtil::getLastSocketErrno »](eventutil.getlastsocketerrno.html)
+-   [EventUtil::getLastSocketErrno »](eventutil.getlastsocketerrno.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventUtil](class.eventutil.html)
+-   [EventUtil](class.eventutil.md)
     
 -   Абстрактний конструктор
     
@@ -25,7 +25,7 @@ abstract
    EventUtil::__construct()
 ```
 
-Клас [EventUtil](class.eventutil.html) є сінглтоном. Отже створити об'єкт цього класу за допомогою конструктора неможливо.
+Клас [EventUtil](class.eventutil.md) є сінглтоном. Отже створити об'єкт цього класу за допомогою конструктора неможливо.
 
 ### Список параметрів
 

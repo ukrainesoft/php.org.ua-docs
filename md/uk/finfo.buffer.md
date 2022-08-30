@@ -1,12 +1,12 @@
 Псевдонім finfobuffer()
 
--   [« finfo](class.finfo.html)
+-   [« finfo](class.finfo.md)
     
--   [finfo::construct »](finfo.construct.html)
+-   [finfo::construct »](finfo.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [finfo](class.finfo.html)
+-   [finfo](class.finfo.md)
     
 -   Псевдонім finfobuffer()
     

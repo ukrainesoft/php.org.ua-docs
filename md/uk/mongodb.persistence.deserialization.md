@@ -1,12 +1,12 @@
 Десеріалізація з BSON
 
--   [« Сериализация в BSON](mongodb.persistence.serialization.html)
+-   [« Сериализация в BSON](mongodb.persistence.serialization.md)
     
--   [Безпека »](mongodb.security.html)
+-   [Безпека »](mongodb.security.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Постійні дані](mongodb.persistence.html)
+-   [Постійні дані](mongodb.persistence.md)
     
 -   Десеріалізація з BSON
     

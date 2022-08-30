@@ -4,7 +4,7 @@
     
 -   [mysqlistmt::freeresult »](mysqli-stmt.free-result.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlistmt](class.mysqli-stmt.html)
     

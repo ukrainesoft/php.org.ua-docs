@@ -4,9 +4,9 @@
     
 -   [gmpstrval »](function.gmp-strval.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GMP Функції](ref.gmp.html)
+-   [GMP Функції](ref.gmp.md)
     
 -   Квадратний корінь із залишком
     
@@ -31,7 +31,7 @@ gmp_sqrtrem(GMP|int|string $num): array
 
 Число, з якого витягується корінь.
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 

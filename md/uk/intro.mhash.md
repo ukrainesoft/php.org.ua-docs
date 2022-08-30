@@ -2,7 +2,7 @@
 
 -   [« Mhash](book.mhash.html)
     
--   [Установка и настройка »](mhash.setup.html)
+-   [Встановлення та налаштування »](mhash.setup.html)
     
 -   [PHP Manual](index.html)
     

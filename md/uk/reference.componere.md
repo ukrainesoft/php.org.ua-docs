@@ -2,11 +2,11 @@
 
 -   [« ComponereValue::hasDefault](componere-value.hasdefault.html)
     
--   [Componerecast »](componere.cast.html)
+-   [Componerecast »](componere.cast.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Componere](book.componere.html)
+-   [Componere](book.componere.md)
     
 -   Функції Componere
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [Componerecast](componere.cast.html) - Приведення до типу
--   [Componerecastбref](componere.cast_by_ref.html) - Приведення до типу
+-   [Componerecast](componere.cast.md) - Приведення до типу
+-   [Componerecastбref](componere.cast_by_ref.md) - Приведення до типу

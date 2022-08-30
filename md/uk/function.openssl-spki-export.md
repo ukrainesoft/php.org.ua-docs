@@ -4,9 +4,9 @@
     
 -   [opensslspkinew »](function.openssl-spki-new.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Експорт відкритого ключа у форматі PEM із підписаного відкритого ключа з викликом
     

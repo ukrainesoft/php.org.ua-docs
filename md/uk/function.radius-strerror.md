@@ -2,11 +2,11 @@
 
 -   [« radiusserversecret](function.radius-server-secret.html)
     
--   [Модулі для роботи з командним рядком »](refs.utilspec.cmdline.html)
+-   [Модулі для роботи з командним рядком »](refs.utilspec.cmdline.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Radius](ref.radius.html)
+-   [Функции Radius](ref.radius.md)
     
 -   Повертає повідомлення про помилку
     

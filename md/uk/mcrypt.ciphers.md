@@ -1,12 +1,12 @@
 Шифри Mcrypt
 
--   [« Предопределённые константы](mcrypt.constants.html)
+-   [« Обумовлені константи](mcrypt.constants.md)
     
--   [Mcrypt »](ref.mcrypt.html)
+-   [Mcrypt »](ref.mcrypt.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](book.mcrypt.html)
+-   [Mcrypt](book.mcrypt.md)
     
 -   Шифри Mcrypt
     

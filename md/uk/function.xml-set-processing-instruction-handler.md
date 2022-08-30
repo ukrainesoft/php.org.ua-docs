@@ -4,9 +4,9 @@
     
 -   [xmlsetstartnamespacedeclhandler »](function.xml-set-start-namespace-decl-handler.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции парсера XML](ref.xml.html)
+-   [Функции парсера XML](ref.xml.md)
     
 -   Встановлення обробника інструкцій препроцесора (PI)
     
@@ -77,6 +77,6 @@ handler(XMLParser $parser, string $target, string $data)
 
 ### список змін
 
-| Версия | Описание                                                                                                    |
-|--------|-------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |

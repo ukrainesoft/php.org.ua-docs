@@ -1,12 +1,12 @@
 Повертає вміст елемента за його індексом
 
--   [« ZipArchive::getExternalAttributesName](ziparchive.getexternalattributesname.html)
+-   [« ZipArchive::getExternalAttributesName](ziparchive.getexternalattributesname.md)
     
--   [ZipArchive::getFromName »](ziparchive.getfromname.html)
+-   [ZipArchive::getFromName »](ziparchive.getfromname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Повертає вміст елемента за його індексом
     
@@ -66,4 +66,4 @@ if ($zip->open('test.zip') === TRUE) {
 
 ### Дивіться також
 
--   [ZipArchive::getFromName()](ziparchive.getfromname.html) - Повертає вміст елемента на його ім'я
+-   [ZipArchive::getFromName()](ziparchive.getfromname.md) - Повертає вміст елемента на його ім'я

@@ -1,12 +1,12 @@
 Create stopped EvSignal watcher об'єкт
 
--   [« EvSignal::construct](evsignal.construct.html)
+-   [« EvSignal::construct](evsignal.construct.md)
     
--   [EvSignal::set »](evsignal.set.html)
+-   [EvSignal::set »](evsignal.set.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvSignal](class.evsignal.html)
+-   [EvSignal](class.evsignal.md)
     
 -   Create stopped EvSignal watcher об'єкт
     
@@ -40,7 +40,7 @@ final
    ): EvSignal
 ```
 
-Створює зупинений об'єкт спостерігач EvSignal. На відміну від [EvSignal::construct()](evsignal.construct.html), цей метод не запускає створеного спостерігача
+Створює зупинений об'єкт спостерігач EvSignal. На відміну від [EvSignal::construct()](evsignal.construct.md), цей метод не запускає створеного спостерігача
 
 ### Список параметрів
 
@@ -66,5 +66,5 @@ final
 
 ### Дивіться також
 
--   [EvWatcher::start()](evwatcher.start.html) - Запускає спостерігача
--   [EvSignal::construct()](evsignal.construct.html) - Конструктор об'єкта спостерігача EvSignal
+-   [EvWatcher::start()](evwatcher.start.md) - Запускає спостерігача
+-   [EvSignal::construct()](evsignal.construct.md) - Конструктор об'єкта спостерігача EvSignal

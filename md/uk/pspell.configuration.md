@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](pspell.installation.html)
+-   [« Установка](pspell.installation.md)
     
--   [Типы ресурсов »](pspell.resources.html)
+-   [Типи ресурсів »](pspell.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](pspell.setup.html)
+-   [Встановлення та налаштування](pspell.setup.md)
     
 -   Налаштування під час виконання
     

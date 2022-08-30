@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](gmp.constants.html)
+-   [« Обумовлені константи](gmp.constants.md)
     
--   [GMP Функції »](ref.gmp.html)
+-   [GMP Функції »](ref.gmp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GMP](book.gmp.html)
+-   [GMP](book.gmp.md)
     
 -   Приклади
     

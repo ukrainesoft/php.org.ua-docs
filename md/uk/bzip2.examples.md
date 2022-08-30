@@ -1,6 +1,6 @@
 Приклади
 
--   [« Предопределённые константы](bzip2.constants.html)
+-   [« Обумовлені константи](bzip2.constants.html)
     
 -   [Функції Bzip2 »](ref.bzip2.html)
     

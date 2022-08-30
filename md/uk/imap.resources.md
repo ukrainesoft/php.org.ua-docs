@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](imap.configuration.html)
+-   [« Налаштування під час виконання](imap.configuration.md)
     
--   [Предопределённые константы »](imap.constants.html)
+-   [Обумовлені константи »](imap.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](imap.setup.html)
+-   [Встановлення та налаштування](imap.setup.md)
     
 -   Типи ресурсів
     

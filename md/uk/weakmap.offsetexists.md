@@ -1,12 +1,12 @@
 Перевіряє, чи є у колекції (map) певний об'єкт
 
--   [« WeakMap::getIterator](weakmap.getiterator.html)
+-   [« WeakMap::getIterator](weakmap.getiterator.md)
     
--   [WeakMap::offsetGet »](weakmap.offsetget.html)
+-   [WeakMap::offsetGet »](weakmap.offsetget.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [WeakMap](class.weakmap.html)
+-   [WeakMap](class.weakmap.md)
     
 -   Перевіряє, чи є у колекції (map) певний об'єкт
     

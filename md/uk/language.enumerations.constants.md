@@ -2,7 +2,7 @@
 
 -   [« Статичні методи перерахувань](language.enumerations.static-methods.html)
     
--   [Трейты »](language.enumerations.traits.html)
+-   [Трейти »](language.enumerations.traits.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Перейменовує файл або директорію
 
--   [« streamWrapper::mkdir](streamwrapper.mkdir.html)
+-   [« streamWrapper::mkdir](streamwrapper.mkdir.md)
     
--   [streamWrapper::rmdir »](streamwrapper.rmdir.html)
+-   [streamWrapper::rmdir »](streamwrapper.rmdir.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [streamWrapper](class.streamwrapper.html)
+-   [streamWrapper](class.streamwrapper.md)
     
 -   Перейменовує файл або директорію
     
@@ -23,7 +23,7 @@ streamWrapper::rename — Перейменовує файл або директ�
 public streamWrapper::rename(string $path_from, string $path_to): bool
 ```
 
-Цей метод викликається у процесі виконання [rename()](function.rename.html)
+Цей метод викликається у процесі виконання [rename()](function.rename.md)
 
 Мушу спробувати перейменувати `path_from` в `path_to`
 
@@ -57,4 +57,4 @@ URL, до якого `path_from` має перейменований.
 
 ### Дивіться також
 
--   [rename()](function.rename.html) - Перейменовує файл або директорію
+-   [rename()](function.rename.md) - Перейменовує файл або директорію

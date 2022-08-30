@@ -1,12 +1,12 @@
 Повертає коефіцієнт відхилення від ідеального розміру фрагмента
 
--   [« SolrQuery::getHighlightRegexPattern](solrquery.gethighlightregexpattern.html)
+-   [« SolrQuery::getHighlightRegexPattern](solrquery.gethighlightregexpattern.md)
     
--   [SolrQuery::getHighlightRequireFieldMatch »](solrquery.gethighlightrequirefieldmatch.html)
+-   [SolrQuery::getHighlightRequireFieldMatch »](solrquery.gethighlightrequirefieldmatch.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає коефіцієнт відхилення від ідеального розміру фрагмента
     

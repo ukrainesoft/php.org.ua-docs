@@ -1,12 +1,12 @@
 Отримує екземпляр ZookeeperConfig
 
--   [« Zookeeper::getClientId](zookeeper.getclientid.html)
+-   [« Zookeeper::getClientId](zookeeper.getclientid.md)
     
--   [Zookeeper::getRecvTimeout »](zookeeper.getrecvtimeout.html)
+-   [Zookeeper::getRecvTimeout »](zookeeper.getrecvtimeout.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Zookeeper](class.zookeeper.html)
+-   [Zookeeper](class.zookeeper.md)
     
 -   Отримує екземпляр ZookeeperConfig
     
@@ -30,8 +30,8 @@ public
 
 ### Значення, що повертаються
 
-Повертає екземпляр [ZookeeperConfig](class.zookeeperconfig.html)
+Повертає екземпляр [ZookeeperConfig](class.zookeeperconfig.md)
 
 ### Дивіться також
 
--   [ZookeeperConfig](class.zookeeperconfig.html)
+-   [ZookeeperConfig](class.zookeeperconfig.md)

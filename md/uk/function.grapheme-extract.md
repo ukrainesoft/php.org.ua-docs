@@ -1,12 +1,12 @@
 Функція для отримання послідовності кластерів графем за замовчуванням з текстового буфера, яка повинна бути закодована в UTF-8
 
--   [« Функции Grapheme](ref.intl.grapheme.html)
+-   [« Функции Grapheme](ref.intl.grapheme.md)
     
 -   [graphemestripos »](function.grapheme-stripos.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Grapheme](ref.intl.grapheme.html)
+-   [Функции Grapheme](ref.intl.grapheme.md)
     
 -   Функція для отримання послідовності кластерів графем за замовчуванням з текстового буфера, яка повинна бути закодована в UTF-8
     
@@ -59,9 +59,9 @@ grapheme_extract(    string $haystack,    int $size,    int $type = 
 
 ### список змін
 
-| Версия | Описание                                     |
-|--------|----------------------------------------------|
-|        | Додано підтримку негативних значень `offset` |
+| Версия | Описание |
+| --- | --- |
+|  | Додано підтримку негативних значень `offset` |
 
 ### Приклади
 
@@ -87,4 +87,4 @@ o%CC%88
 ### Дивіться також
 
 -   [graphemesubstr()](function.grapheme-substr.html) - Повертає частину рядка
--   [»  Сегментация текста в Unicode: границы кластера графемы](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
+-   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

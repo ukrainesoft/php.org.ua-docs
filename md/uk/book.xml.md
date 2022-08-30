@@ -2,33 +2,33 @@
 
 -   [« XMLDiffFile::merge](xmldiff-file.merge.html)
     
--   [Введение »](intro.xml.html)
+-   [Введение »](intro.xml.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Обработка XML](refs.xml.html)
+-   [Обработка XML](refs.xml.md)
     
 -   Розбір XML
     
 
 # Розбір XML
 
--   [Введение](intro.xml.html)
--   [Установка и настройка](xml.setup.html)
-    -   [Требования](xml.requirements.html)
-    -   [Установка](xml.installation.html)
-    -   [Настройка во время выполнения](xml.configuration.html)
-    -   [Типы ресурсов](xml.resources.html)
--   [Предопределённые константы](xml.constants.html)
--   [Обработчики событий](xml.eventhandlers.html)
+-   [Введение](intro.xml.md)
+-   [Встановлення та налаштування](xml.setup.md)
+    -   [Вимоги](xml.requirements.md)
+    -   [Установка](xml.installation.md)
+    -   [Налаштування під час виконання](xml.configuration.md)
+    -   [Типи ресурсів](xml.resources.md)
+-   [Обумовлені константи](xml.constants.md)
+-   [Обробники подій](xml.eventhandlers.md)
 -   [Приведення до одного регістру](xml.case-folding.html)
--   [Коды ошибок](xml.error-codes.html)
--   [Кодування символів](xml.encoding.html)
--   [Примеры](xml.examples.html)
-    -   [Пример Структуры Элемента XML](example.xml-structure.html)
+-   [Коди помилок](xml.error-codes.html)
+-   [Кодування символів](xml.encoding.md)
+-   [Приклади](xml.examples.md)
+    -   [Приклад Структури Елементу XML](example.xml-structure.html)
     -   [Пример отображения XML тегов](example.xml-map-tags.html)
     -   [Приклад використання зовнішніх сутностей XML](example.xml-external-entity.html)
--   [Функции парсера XML](ref.xml.html)
+-   [Функции парсера XML](ref.xml.md)
     -   [xmlerrorstring](function.xml-error-string.html) — Отримання рядка помилки XML-аналізатора
     -   [xmlgetcurrentbyteindex](function.xml-get-current-byte-index.html) — Отримує поточний для XML-аналізатора байтовий індекс
     -   [xmlgetcurrentcolumnnumber](function.xml-get-current-column-number.html) — Отримує від XML-аналізатора номер поточного стовпця
@@ -51,4 +51,4 @@
     -   [xmlsetprocessinginstructionhandler](function.xml-set-processing-instruction-handler.html) - Встановлення обробника інструкцій препроцесора (PI)
     -   [xmlsetstartnamespacedeclhandler](function.xml-set-start-namespace-decl-handler.html) — Встановлення обробника входу у межі простору імен
     -   [xmlsetunparsedentitydeclhandler](function.xml-set-unparsed-entity-decl-handler.html) - Встановлення обробника нерозібраних оголошень сутностей
--   [XmlParser](class.xmlparser.html) - Клас XmlParser
+-   [XmlParser](class.xmlparser.md) - Клас XmlParser

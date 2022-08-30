@@ -1,12 +1,12 @@
 Клас DOMNodeList
 
--   [« DOMNode::replaceChild](domnode.replacechild.html)
+-   [« DOMNode::replaceChild](domnode.replacechild.md)
     
--   [DOMNodeList::count »](domnodelist.count.html)
+-   [DOMNodeList::count »](domnodelist.count.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOM](book.dom.html)
+-   [DOM](book.dom.md)
     
 -   Клас DOMNodeList
     
@@ -54,10 +54,10 @@ length
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                           |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Клас **DOMNodeList** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.html) |
-|        | Реалізовано інтерфейс [Countable](class.countable.html) та повертає значення властивості [length](class.domnodelist.html#domnodelist.props.length)                                 |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **DOMNodeList** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md) |
+|  | Реалізовано інтерфейс [Countable](class.countable.md) та повертає значення властивості [length](class.domnodelist.html#domnodelist.props.length) |
 
 ## Дивіться також
 
@@ -65,5 +65,5 @@ length
 
 ## Зміст
 
--   [DOMNodeList::count](domnodelist.count.html) — Отримати кількість вузлів у списку
--   [DOMNodeList::item](domnodelist.item.html) — Отримує вузол із заданим індексом
+-   [DOMNodeList::count](domnodelist.count.md) — Отримати кількість вузлів у списку
+-   [DOMNodeList::item](domnodelist.item.md) — Отримує вузол із заданим індексом

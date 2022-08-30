@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](funchand.requirements.html)
+-   [« Вимоги](funchand.requirements.md)
     
--   [Настройка во время выполнения »](funchand.configuration.html)
+-   [Налаштування під час виконання »](funchand.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](funchand.setup.html)
+-   [Встановлення та налаштування](funchand.setup.md)
     
 -   Встановлення
     

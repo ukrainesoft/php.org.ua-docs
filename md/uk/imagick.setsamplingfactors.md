@@ -1,12 +1,12 @@
 Встановлює коефіцієнти вибірки зображень
 
--   [« Imagick::setResourceLimit](imagick.setresourcelimit.html)
+-   [« Imagick::setResourceLimit](imagick.setresourcelimit.md)
     
--   [Imagick::setSize »](imagick.setsize.html)
+-   [Imagick::setSize »](imagick.setsize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює коефіцієнти вибірки зображень
     

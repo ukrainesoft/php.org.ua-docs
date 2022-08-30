@@ -1,12 +1,12 @@
 Отримує шаблон засобу форматування
 
--   [« NumberFormatter::getLocale](numberformatter.getlocale.html)
+-   [« NumberFormatter::getLocale](numberformatter.getlocale.md)
     
--   [NumberFormatter::getSymbol »](numberformatter.getsymbol.html)
+-   [NumberFormatter::getSymbol »](numberformatter.getsymbol.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [NumberFormatter](class.numberformatter.html)
+-   [NumberFormatter](class.numberformatter.md)
     
 -   Отримує шаблон засобу форматування
     
@@ -39,7 +39,7 @@ numfmt_get_pattern(NumberFormatter $formatter): string|false
 
 `formatter`
 
-Об'єкт [NumberFormatter](class.numberformatter.html)
+Об'єкт [NumberFormatter](class.numberformatter.md)
 
 ### Значення, що повертаються
 
@@ -84,6 +84,6 @@ echo $fmt->format(1234567.891234567890000)."\n";
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmtsetpattern()](numberformatter.setpattern.html) - Встановлює шаблон засобу форматування
--   [numfmtcreate()](numberformatter.create.html) - Створює засіб форматування чисел
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
+-   [numfmtsetpattern()](numberformatter.setpattern.md) - Встановлює шаблон засобу форматування
+-   [numfmtcreate()](numberformatter.create.md) - Створює засіб форматування чисел

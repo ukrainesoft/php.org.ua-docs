@@ -1,6 +1,6 @@
 Про нотатки користувачів
 
--   [« Форматы](about.formats.html)
+-   [« Формати](about.formats.html)
     
 -   [Як читати визначення функції (прототип) »](about.prototypes.html)
     

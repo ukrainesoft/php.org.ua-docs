@@ -4,9 +4,9 @@
     
 -   [ssh2scprecv »](function.ssh2-scp-recv.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Видаляє авторизований відкритий ключ
     

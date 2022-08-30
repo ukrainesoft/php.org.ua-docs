@@ -1,12 +1,12 @@
 Визначає, чи поточний елемент DirectoryIterator є звичайним файлом
 
--   [« DirectoryIterator::isExecutable](directoryiterator.isexecutable.html)
+-   [« DirectoryIterator::isExecutable](directoryiterator.isexecutable.md)
     
--   [DirectoryIterator::isLink »](directoryiterator.islink.html)
+-   [DirectoryIterator::isLink »](directoryiterator.islink.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DirectoryIterator](class.directoryiterator.html)
+-   [DirectoryIterator](class.directoryiterator.md)
     
 -   Визначає, чи поточний елемент DirectoryIterator є звичайним файлом
     
@@ -23,7 +23,7 @@ DirectoryIterator::isFile — Визначає, чи поточний елеме
 public DirectoryIterator::isFile(): bool
 ```
 
-Визначає, чи є поточний елемент [DirectoryIterator](class.directoryiterator.html) звичайним файлом.
+Визначає, чи є поточний елемент [DirectoryIterator](class.directoryiterator.md) звичайним файлом.
 
 ### Список параметрів
 
@@ -61,7 +61,7 @@ pears.jpg
 
 ### Дивіться також
 
--   [DirectoryIterator::getType()](directoryiterator.gettype.html) - Визначає тип поточного елемента DirectoryIterator
--   [DirectoryIterator::isDir()](directoryiterator.isdir.html) - Визначає, чи є поточний елемент DirectoryIterator директорією
--   [DirectoryIterator::isDot()](directoryiterator.isdot.html) - Визначає, чи є поточний елемент DirectoryIterator '.' або '..'
--   [DirectoryIterator::isLink()](directoryiterator.islink.html) - Визначає, чи є поточний елемент DirectoryIterator символічним посиланням
+-   [DirectoryIterator::getType()](directoryiterator.gettype.md) - Визначає тип поточного елемента DirectoryIterator
+-   [DirectoryIterator::isDir()](directoryiterator.isdir.md) - Визначає, чи є поточний елемент DirectoryIterator директорією
+-   [DirectoryIterator::isDot()](directoryiterator.isdot.md) - Визначає, чи є поточний елемент DirectoryIterator '.' або '..'
+-   [DirectoryIterator::isLink()](directoryiterator.islink.md) - Визначає, чи є поточний елемент DirectoryIterator символічним посиланням

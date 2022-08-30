@@ -4,9 +4,9 @@
     
 -   [sessionstart »](function.session-start.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи із сесіями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.md)
     
 -   Встановлює користувальницькі обробники зберігання сесії
     
@@ -37,7 +37,7 @@ session_set_save_handler(object $sessionhandler, bool $register_shutdown = true)
 
 `sessionhandler`
 
-Примірник класу, що реалізує інтерфейс [SessionHandlerInterface](class.sessionhandlerinterface.html) та необов'язкові [SessionIdInterface](class.sessionidinterface.html) та/або [SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.html), такий як [SessionHandler](class.sessionhandler.html), Для реєстрації як оброблювач сесії.
+Примірник класу, що реалізує інтерфейс [SessionHandlerInterface](class.sessionhandlerinterface.md) та необов'язкові [SessionIdInterface](class.sessionidinterface.md) та/або [SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.md), такий як [SessionHandler](class.sessionhandler.md), Для реєстрації як оброблювач сесії.
 
 `register_shutdown`
 
@@ -77,7 +77,7 @@ Callback-функція `read` повинна завжди повертати к
 
 Ця callback-функція викликається внутрішнім механізмом PHP при старті сесії або виклику [sessionstart()](function.session-start.html). Перед тим, як буде викликана ця callback-функція, PHP викличе callback-функцію `open`
 
-Значення, що повертається даної callback-функції повинно бути в такому ж серіалізованому форматі, який спочатку передавався для зберігання в callback-функцію `write`. Значення, що повертається, буде автоматично десеріалізовано PHP і використано для заповнення суперглобальної змінної [SESSION](reserved.variables.session.html). Навіть якщо дані схожі на результат [serialize()](function.serialize.html), варто пам'ятати, що це інший формат серіалізації, який визначений ini-директивою [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
+Значення, що повертається даної callback-функції повинно бути в такому ж серіалізованому форматі, який спочатку передавався для зберігання в callback-функцію `write`. Значення, що повертається, буде автоматично десеріалізовано PHP і використано для заповнення суперглобальної змінної [SESSION](reserved.variables.session.md). Навіть якщо дані схожі на результат [serialize()](function.serialize.md), варто пам'ятати, що це інший формат серіалізації, який визначений ini-директивою [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
 
 `write`
 
@@ -87,7 +87,7 @@ Callback-функція з наступною сигнатурою:
 write(string $sessionId, string $data): bool
 ```
 
-Callback-функція `write` викликається, коли сесія має бути збережена та закрита. Ця callback-функція приймає ідентифікатор поточної сесії та серіалізовану версію суперглобальної змінної [SESSION](reserved.variables.session.html). Метод серіалізації, що використовується всередині PHP, визначений ini-директивою. [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
+Callback-функція `write` викликається, коли сесія має бути збережена та закрита. Ця callback-функція приймає ідентифікатор поточної сесії та серіалізовану версію суперглобальної змінної [SESSION](reserved.variables.session.md). Метод серіалізації, що використовується всередині PHP, визначений ini-директивою. [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
 
 Передані у цю callback-функцію серіалізовані дані сесії мають бути збережені у зв'язку з переданим ідентифікатором сесії. При отриманні цих даних, callback-функція `read` повинна повернути те саме значення, що було передано в callback-функцію `write`
 
@@ -153,9 +153,9 @@ Callback-функція виконується під час сесії . `key` 
 
 ### Приклади
 
-**Приклад #1 Користувальницький обробник сесії: повний код дивіться в описі [SessionHandlerInterface](class.sessionhandlerinterface.html)**
+**Приклад #1 Користувальницький обробник сесії: повний код дивіться в описі [SessionHandlerInterface](class.sessionhandlerinterface.md)**
 
-Тут лише продемонстровано виклик sessionsetsavehandler, повний приклад можна подивитися в описі [SessionHandlerInterface](class.sessionhandlerinterface.html)
+Тут лише продемонстровано виклик sessionsetsavehandler, повний приклад можна подивитися в описі [SessionHandlerInterface](class.sessionhandlerinterface.md)
 
 Зауважте, що з **sessionsetsavehandler()** ми використовуємо ООП-прототип і реєструємо функцію завершення, використовуючи прапорець параметра функції. Це зазвичай рекомендується під час реєстрації об'єктів як оброблювачів зберігання сесії.
 

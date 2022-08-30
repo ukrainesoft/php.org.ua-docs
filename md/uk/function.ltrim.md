@@ -1,12 +1,12 @@
 Видаляє прогалини (або інші символи) з початку рядка
 
--   [« localeconv](function.localeconv.html)
+-   [« localeconv](function.localeconv.md)
     
 -   [md5file »](function.md5-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Видаляє прогалини (або інші символи) з початку рядка
     
@@ -95,5 +95,5 @@ string(15) "Example string
 
 ### Дивіться також
 
--   [trim()](function.trim.html) - Видаляє пробіли (або інші символи) з початку та кінця рядка
--   [rtrim()](function.rtrim.html) - Видаляє прогалини (або інші символи) з кінця рядка
+-   [trim()](function.trim.md) - Видаляє пробіли (або інші символи) з початку та кінця рядка
+-   [rtrim()](function.rtrim.md) - Видаляє прогалини (або інші символи) з кінця рядка

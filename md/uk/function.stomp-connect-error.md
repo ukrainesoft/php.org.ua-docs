@@ -1,12 +1,12 @@
 Повертає рядок із описом останньої помилки підключення
 
--   [« Функции Stomp](ref.stomp.html)
+-   [« Функции Stomp](ref.stomp.md)
     
 -   [stompversion »](function.stomp-version.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Stomp](ref.stomp.html)
+-   [Функции Stomp](ref.stomp.md)
     
 -   Повертає рядок із описом останньої помилки підключення
     

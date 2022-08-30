@@ -1,12 +1,12 @@
 Додає кілька серверів у пул
 
--   [« Memcached::addServer](memcached.addserver.html)
+-   [« Memcached::addServer](memcached.addserver.md)
     
--   [Memcached::append »](memcached.append.html)
+-   [Memcached::append »](memcached.append.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Додає кілька серверів у пул
     
@@ -55,5 +55,5 @@ $m->addServers($servers);
 
 ### Дивіться також
 
--   [Memcached::addServer()](memcached.addserver.html) - Додає сервер у пул
--   [Memcached::resetServerList()](memcached.resetserverlist.html) - Очищає список серверів
+-   [Memcached::addServer()](memcached.addserver.md) - Додає сервер у пул
+-   [Memcached::resetServerList()](memcached.resetserverlist.md) - Очищає список серверів

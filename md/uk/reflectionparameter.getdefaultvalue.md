@@ -1,12 +1,12 @@
 Отримання стандартного значення для параметра
 
--   [« ReflectionParameter::getDeclaringFunction](reflectionparameter.getdeclaringfunction.html)
+-   [« ReflectionParameter::getDeclaringFunction](reflectionparameter.getdeclaringfunction.md)
     
--   [ReflectionParameter::getDefaultValueConstantName »](reflectionparameter.getdefaultvalueconstantname.html)
+-   [ReflectionParameter::getDefaultValueConstantName »](reflectionparameter.getdefaultvalueconstantname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionParameter](class.reflectionparameter.html)
+-   [ReflectionParameter](class.reflectionparameter.md)
     
 -   Отримання стандартного значення для параметра
     
@@ -23,7 +23,7 @@ ReflectionParameter::getDefaultValue — Отримання стандартно
 public ReflectionParameter::getDefaultValue(): mixed
 ```
 
-Отримує значення за замовчуванням параметра, будь-якого певного користувача або внутрішньої функції або методу. Якщо аргумент не є необов'язковим, буде викинуто виняток [ReflectionException](class.reflectionexception.html)
+Отримує значення за замовчуванням параметра, будь-якого певного користувача або внутрішньої функції або методу. Якщо аргумент не є необов'язковим, буде викинуто виняток [ReflectionException](class.reflectionexception.md)
 
 ### Список параметрів
 
@@ -35,9 +35,9 @@ public ReflectionParameter::getDefaultValue(): mixed
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                      |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Метод тепер дозволяє отримати значення за промовчанням для параметрів вбудованих функцій та вбудованих методів класу. Раніше викидалося [ReflectionException](class.reflectionexception.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Метод тепер дозволяє отримати значення за промовчанням для параметрів вбудованих функцій та вбудованих методів класу. Раніше викидалося [ReflectionException](class.reflectionexception.md) |
 
 ### Приклади
 
@@ -73,7 +73,7 @@ foreach ($function->getParameters() as $param) {
 
 ### Дивіться також
 
--   [ReflectionParameter::isOptional()](reflectionparameter.isoptional.html) - Перевіряє, чи є аргумент необов'язковим
--   [ReflectionParameter::isDefaultValueAvailable()](reflectionparameter.isdefaultvalueavailable.html) - Перевіряє, чи є значення за замовчуванням
--   [ReflectionParameter::getDefaultValueConstantName()](reflectionparameter.getdefaultvalueconstantname.html) - Повертає ім'я константи значення за промовчанням, якщо значення за промовчанням константа або null
--   [ReflectionParameter::isPassedByReference()](reflectionparameter.ispassedbyreference.html) - Перевіряє, чи передано параметр за посиланням
+-   [ReflectionParameter::isOptional()](reflectionparameter.isoptional.md) - Перевіряє, чи є аргумент необов'язковим
+-   [ReflectionParameter::isDefaultValueAvailable()](reflectionparameter.isdefaultvalueavailable.md) - Перевіряє, чи є значення за замовчуванням
+-   [ReflectionParameter::getDefaultValueConstantName()](reflectionparameter.getdefaultvalueconstantname.md) - Повертає ім'я константи значення за промовчанням, якщо значення за промовчанням константа або null
+-   [ReflectionParameter::isPassedByReference()](reflectionparameter.ispassedbyreference.md) - Перевіряє, чи передано параметр за посиланням

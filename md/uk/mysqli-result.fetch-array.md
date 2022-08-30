@@ -74,15 +74,15 @@ $mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 $query = "SELECT Name, CountryCode FROM City ORDER BY ID LIMIT 3";
 $result = $mysqli->query($query);
 
-/* числовой массив */
+/* числовой Масив */
 $row = $result->fetch_array(MYSQLI_NUM);
 printf("%s (%s)\n", $row[0], $row[1]);
 
-/* ассоциативный массив */
+/* ассоциативный Масив */
 $row = $result->fetch_array(MYSQLI_ASSOC);
 printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
 
-/* ассоциативный и числовой массивы */
+/* ассоциативный и числовой Масиви */
 $row = $result->fetch_array(MYSQLI_BOTH);
 printf("%s (%s)\n", $row[0], $row["CountryCode"]);
 ```
@@ -98,15 +98,15 @@ $mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
 $query = "SELECT Name, CountryCode FROM City ORDER by ID LIMIT 3";
 $result = mysqli_query($mysqli, $query);
 
-/* числовой массив */
+/* числовой Масив */
 $row = mysqli_fetch_array($result, MYSQLI_NUM);
 printf("%s (%s)\n", $row[0], $row[1]);
 
-/* ассоциативный массив */
+/* ассоциативный Масив */
 $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
 printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
 
-/* ассоциативный и числовой массивы */
+/* ассоциативный и числовой Масиви */
 $row = mysqli_fetch_array($result, MYSQLI_BOTH);
 printf("%s (%s)\n", $row[0], $row["CountryCode"]);
 ```

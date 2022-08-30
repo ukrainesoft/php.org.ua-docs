@@ -1,12 +1,12 @@
 Список функцій та методів
 
--   [« Алфавитный список](indexes.html)
+-   [Алфавітний список](indexes.html)
     
 -   [Список примеров »](indexes.examples.html)
     
 -   [PHP Manual](index.html)
     
--   [Алфавитный список](indexes.html)
+-   [Алфавітний перелік](indexes.html)
     
 -   Список функцій та методів
     
@@ -4459,7 +4459,7 @@
     -   [проgetstatus](function.ob-get-status.html) - Отримати статус буфера виводу
     -   [проgzhandler](function.ob-gzhandler.html) - callback-функція, що використовується для gzip-стиснення буфера виводу при виклику obstart
     -   [проiconvhandler](function.ob-iconv-handler.html) - Перетворює символи з поточного кодування на кодування вихідного буфера
-    -   [проimplicitflush](function.ob-implicit-flush.html) - Увімкнення/вимкнення неявного скидання
+    -   [про implicit flush](function.ob-implicit-flush.html) - Увімкнення/вимкнення неявного скидання
     -   [проlisthandlers](function.ob-list-handlers.html) - Список всіх використовуваних обробників виводу
     -   [проstart](function.ob-start.html) - Включення буферизації виводу
     -   [проtidyhandler](function.ob-tidyhandler.html) - Функція зворотного виклику obstart для відновлення буфера
@@ -8762,10 +8762,10 @@
 -   -   [autoload](function.autoload.html) - Спроба завантажити невизначений клас
     -   [haltcompiler](function.halt-compiler.html) - Зупиняє роботу компілятора
 -   -   [Контекстні опції Phar](context.phar.html) - Список контекстних опцій Phar
-    -   [Контекстные опции сокета](context.socket.html) - Список контекстних опцій сокету
+    -   [Контекстні опції сокету](context.socket.html) - Список контекстних опцій сокету
     -   [Опции контекста CURL](context.curl.html) - Список опцій контексту CURL
     -   [Опции контекста HTTP](context.http.html) - Список опцій контексту HTTP
     -   [Опции контекста SSL](context.ssl.html) - Список опцій контексту SSL
     -   [Опции контекста Zip](context.zip.html) - Список опцій контексту Zip
-    -   [Параметры контекста](context.params.html) - Список параметрів контексту
-    -   [Параметры контекста FTP](context.ftp.html) - Список параметрів контексту FTP
+    -   [Параметри контексту](context.params.html) - Список параметрів контексту
+    -   [Параметри контексту FTP](context.ftp.html) - Список параметрів контексту FTP

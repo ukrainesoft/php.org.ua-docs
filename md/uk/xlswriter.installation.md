@@ -1,16 +1,16 @@
 Встановлення
 
--   [« Требования](xlswriter.requirements.html)
+-   [« Вимоги](xlswriter.requirements.md)
     
--   [Типы ресурсов »](xlswriter.resources.html)
+-   [Типи ресурсів »](xlswriter.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xlswriter.setup.html)
+-   [Встановлення та налаштування](xlswriter.setup.md)
     
 -   Встановлення
     
 
 ## Встановлення
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/xlswriter](https://pecl.php.net/package/xlswriter)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/xlswriter](https://pecl.php.net/package/xlswriter)

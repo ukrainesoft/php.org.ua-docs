@@ -1,12 +1,12 @@
 Повертає кількість днів на місяць для заданого року та календаря
 
--   [« Календарь](ref.calendar.html)
+-   [« Календарь](ref.calendar.md)
     
 -   [calfromjd »](function.cal-from-jd.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Календарь](ref.calendar.html)
+-   [Календарь](ref.calendar.md)
     
 -   Повертає кількість днів на місяць для заданого року та календаря
     

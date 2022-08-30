@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.ftp.html)
     
--   [Требования »](ftp.requirements.html)
+-   [Вимоги »](ftp.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](ftp.requirements.html)
+-   [Вимоги](ftp.requirements.html)
 -   [Установка](ftp.installation.html)
--   [Настройка во время выполнения](ftp.configuration.html)
--   [Типы ресурсов](ftp.resources.html)
+-   [Налаштування під час виконання](ftp.configuration.html)
+-   [Типи ресурсів](ftp.resources.html)

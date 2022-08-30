@@ -1,12 +1,12 @@
 Отримує документ щодо ідентифікатора. Використовує Solr Realtime Get (RTG)
 
--   [« SolrClient::destruct](solrclient.destruct.html)
+-   [« SolrClient::destruct](solrclient.destruct.md)
     
--   [SolrClient::getByIds »](solrclient.getbyids.html)
+-   [SolrClient::getByIds »](solrclient.getbyids.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrClient](class.solrclient.html)
+-   [SolrClient](class.solrclient.md)
     
 -   Отримує документ щодо ідентифікатора. Використовує Solr Realtime Get (RTG)
     
@@ -33,7 +33,7 @@ ID документа
 
 ### Значення, що повертаються
 
-[SolrQueryResponse](class.solrqueryresponse.html)
+[SolrQueryResponse](class.solrqueryresponse.md)
 
 ### Приклади
 
@@ -100,4 +100,4 @@ SolrObject Object
 
 ### Дивіться також
 
--   [SolrClient::getByIds()](solrclient.getbyids.html) - Отримує документи щодо їх ідентифікаторів. Використовує Solr Realtime Get (RTG)
+-   [SolrClient::getByIds()](solrclient.getbyids.md) - Отримує документи щодо їх ідентифікаторів. Використовує Solr Realtime Get (RTG)

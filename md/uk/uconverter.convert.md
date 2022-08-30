@@ -1,12 +1,12 @@
 Конвертувати рядок з одного кодування в інше
 
--   [« UConverter::construct](uconverter.construct.html)
+-   [« UConverter::construct](uconverter.construct.md)
     
--   [UConverter::fromUCallback »](uconverter.fromucallback.html)
+-   [UConverter::fromUCallback »](uconverter.fromucallback.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [UConverter](class.uconverter.html)
+-   [UConverter](class.uconverter.md)
     
 -   Конвертувати рядок з одного кодування в інше
     

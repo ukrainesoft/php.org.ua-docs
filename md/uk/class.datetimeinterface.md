@@ -1,12 +1,12 @@
 Інтерфейс DateTimeInterface
 
--   [« DateTimeImmutable::sub](datetimeimmutable.sub.html)
+-   [« DateTimeImmutable::sub](datetimeimmutable.sub.md)
     
--   [DateTimeInterface::diff »](datetime.diff.html)
+-   [DateTimeInterface::diff »](datetime.diff.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Дата/время](book.datetime.html)
+-   [Дата/время](book.datetime.md)
     
 -   Інтерфейс DateTimeInterface
     
@@ -17,9 +17,9 @@
 
 ## Вступ
 
-Інтерфейс **DateTimeInterface** узагальнює роботу [DateTimeImmutable](class.datetimeimmutable.html) або [DateTime](class.datetime.html). Неможливо реалізувати цей інтерфейс з класом користувача.
+Інтерфейс **DateTimeInterface** узагальнює роботу [DateTimeImmutable](class.datetimeimmutable.md) або [DateTime](class.datetime.md). Неможливо реалізувати цей інтерфейс з класом користувача.
 
-Загальні константи, які дозволяють форматувати об'єкти [DateTimeImmutable](class.datetimeimmutable.html) або [DateTime](class.datetime.html) за допомогою [DateTimeImmutable::format()](datetime.format.html) і [DateTime::format()](datetime.format.html) також визначено у цьому інтерфейсі.
+Загальні константи, які дозволяють форматувати об'єкти [DateTimeImmutable](class.datetimeimmutable.md) або [DateTime](class.datetime.md) за допомогою [DateTimeImmutable::format()](datetime.format.md) і [DateTime::format()](datetime.format.md) також визначено у цьому інтерфейсі.
 
 ## Огляд інтерфейсів
 
@@ -195,16 +195,16 @@ World Wide Web Consortium (приклад: 2005-08-15T15:52:01+00:00)
 
 ## список змін
 
-| Версия | Описание                                                                                |
-|--------|-----------------------------------------------------------------------------------------|
-|        | Додано константу DateTimeInterface::ISO8601EXPANDED.                                    |
-|        | Константи класу тепер [DateTime](class.datetime.html) визначено в **DateTimeInterface** |
+| Версия | Описание |
+| --- | --- |
+|  | Додано константу DateTimeInterface::ISO8601EXPANDED. |
+|  | Константи класу тепер [DateTime](class.datetime.md) визначено в **DateTimeInterface** |
 
 ## Зміст
 
--   [DateTimeInterface::diff](datetime.diff.html) — Повертає різницю між двома об'єктами DateTime
--   [DateTimeInterface::format](datetime.format.html) — Повертає дату, відформатовану згідно з переданим форматом
--   [DateTimeInterface::getOffset](datetime.getoffset.html) — Повертає усунення часового поясу
--   [DateTimeInterface::getTimestamp](datetime.gettimestamp.html) — Повертає тимчасову мітку Unix
--   [DateTimeInterface::getTimezone](datetime.gettimezone.html) — Повертає часовий пояс щодо поточного значення DateTime
--   [DateTime::wakeup](datetime.wakeup.html) - Обробник wakeup
+-   [DateTimeInterface::diff](datetime.diff.md) — Повертає різницю між двома об'єктами DateTime
+-   [DateTimeInterface::format](datetime.format.md) — Повертає дату, відформатовану згідно з переданим форматом
+-   [DateTimeInterface::getOffset](datetime.getoffset.md) — Повертає усунення часового поясу
+-   [DateTimeInterface::getTimestamp](datetime.gettimestamp.md) — Повертає тимчасову мітку Unix
+-   [DateTimeInterface::getTimezone](datetime.gettimezone.md) — Повертає часовий пояс щодо поточного значення DateTime
+-   [DateTime::wakeup](datetime.wakeup.md) - Обробник wakeup

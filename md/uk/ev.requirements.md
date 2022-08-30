@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](ev.setup.html)
+-   [« Встановлення та налаштування](ev.setup.html)
     
 -   [Установка »](ev.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](ev.setup.html)
+-   [Встановлення та налаштування](ev.setup.html)
     
 -   Вимоги
     

@@ -1,12 +1,12 @@
 Повертає строкове представлення поточного елемента
 
--   [« CachingIterator::setFlags](cachingiterator.setflags.html)
+-   [« CachingIterator::setFlags](cachingiterator.setflags.md)
     
--   [CachingIterator::valid »](cachingiterator.valid.html)
+-   [CachingIterator::valid »](cachingiterator.valid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CachingIterator](class.cachingiterator.html)
+-   [CachingIterator](class.cachingiterator.md)
     
 -   Повертає строкове представлення поточного елемента
     

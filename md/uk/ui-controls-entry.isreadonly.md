@@ -4,7 +4,7 @@
     
 -   [ОЙControlsEntry::onChange »](ui-controls-entry.onchange.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsEntry](class.ui-controls-entry.html)
     

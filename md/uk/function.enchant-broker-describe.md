@@ -1,12 +1,12 @@
 Перераховує провайдерів Enchant
 
--   [« Функции Enchant](ref.enchant.html)
+-   [« Функции Enchant](ref.enchant.md)
     
 -   [enchantbrokerdictexists »](function.enchant-broker-dict-exists.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Enchant](ref.enchant.html)
+-   [Функции Enchant](ref.enchant.md)
     
 -   Перераховує провайдерів Enchant
     
@@ -37,10 +37,10 @@ enchant_broker_describe(EnchantBroker $broker): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | До цієї версії функція повертала **`false`** у разі виникнення помилки.                                                                   |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | До цієї версії функція повертала **`false`** у разі виникнення помилки. |
 
 ### Приклади
 

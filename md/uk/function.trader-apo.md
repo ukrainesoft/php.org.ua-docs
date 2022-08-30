@@ -4,9 +4,9 @@
     
 -   [traderaroon »](function.trader-aroon.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Абсолютний ціновий осцилятор
     
@@ -39,7 +39,7 @@ trader_apo(    array $real,    int $fastPeriod = ?,    int $slowPeri
 
 `mAType`
 
-Тип ковзної середньої. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.html)
+Тип ковзної середньої. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
 
 ### Значення, що повертаються
 

@@ -1,12 +1,12 @@
 Отримує кількість рядків, порушених попередньою операцією MySQL
 
--   [« mysqli](class.mysqli.html)
+-   [« mysqli](class.mysqli.md)
     
--   [mysqli::autocommit »](mysqli.autocommit.html)
+-   [mysqli::autocommit »](mysqli.autocommit.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Отримує кількість рядків, порушених попередньою операцією MySQL
     
@@ -37,7 +37,7 @@ mysqli_affected_rows(mysqli $mysql): int|string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -125,4 +125,4 @@ mysqli_query($link, "DROP TABLE Language");
 ### Дивіться також
 
 -   [mysqlinumrows()](mysqli-result.num-rows.html) - Отримує кількість рядків у наборі результатів
--   [mysqliinfo()](mysqli.info.html) - Витягує інформацію про останній виконаний запит
+-   [mysqliinfo()](mysqli.info.md) - Витягує інформацію про останній виконаний запит

@@ -1,12 +1,12 @@
 Переміщує покажчик на початок масиву
 
--   [« ArrayIterator::offsetUnset](arrayiterator.offsetunset.html)
+-   [« ArrayIterator::offsetUnset](arrayiterator.offsetunset.md)
     
--   [ArrayIterator::seek »](arrayiterator.seek.html)
+-   [ArrayIterator::seek »](arrayiterator.seek.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayIterator](class.arrayiterator.html)
+-   [ArrayIterator](class.arrayiterator.md)
     
 -   Переміщує покажчик на початок масиву
     
@@ -50,7 +50,7 @@ $iterator = $arrayobject->getIterator();
 $iterator->next();
 echo $iterator->key(); //1
 
-$iterator->rewind(); // перемещает указатель в начало массива
+$iterator->rewind(); // перемещает указатель в начало Масива
 echo $iterator->key(); //0
 ?>
 ```

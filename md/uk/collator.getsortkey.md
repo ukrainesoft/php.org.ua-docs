@@ -1,12 +1,12 @@
 Отримує ключ сортування рядка
 
--   [« Collator::getLocale](collator.getlocale.html)
+-   [« Collator::getLocale](collator.getlocale.md)
     
--   [Collator::getStrength »](collator.getstrength.html)
+-   [Collator::getStrength »](collator.getstrength.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Collator](class.collator.html)
+-   [Collator](class.collator.md)
     
 -   Отримує ключ сортування рядка
     
@@ -39,7 +39,7 @@ collator_get_sort_key(Collator $object, string $string): string|false
 
 `object`
 
-Об'єкт [Collator](class.collator.html)
+Об'єкт [Collator](class.collator.md)
 
 `string`
 
@@ -51,7 +51,7 @@ collator_get_sort_key(Collator $object, string $string): string|false
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### Приклади
 
@@ -74,5 +74,5 @@ echo bin2hex($res);
 
 ### Дивіться також
 
--   [collatorsort()](collator.sort.html) - Сортує масив із використанням зазначеного засобу сортування
--   [collatorsortwithsortkeys()](collator.sortwithsortkeys.html) - Сортує масив з використанням зазначеного Collator та ключів сортування
+-   [collatorsort()](collator.sort.md) - Сортує масив із використанням зазначеного засобу сортування
+-   [collatorsortwithsortkeys()](collator.sortwithsortkeys.md) - Сортує масив з використанням зазначеного Collator та ключів сортування

@@ -4,9 +4,9 @@
     
 -   [sapiwindowsgeneratectrlevent »](function.sapi-windows-generate-ctrl-event.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Різні функції](ref.misc.html)
+-   [Різні функції](ref.misc.md)
     
 -   Встановити кодову сторінку процесу
     

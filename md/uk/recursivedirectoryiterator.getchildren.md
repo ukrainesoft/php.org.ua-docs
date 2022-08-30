@@ -33,4 +33,4 @@ public RecursiveDirectoryIterator::getChildren(): RecursiveDirectoryIterator
 
 ### Значення, що повертаються
 
-Ім'я файлу, інформація про файл або посилання на об'єкт $this. Що саме повертатиметься залежить від прапорів налаштувань. Дивіться додатково [Константы FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)
+Ім'я файлу, інформація про файл або посилання на об'єкт $this. Що саме повертатиметься залежить від прапорів налаштувань. Дивіться додатково [Константи FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)

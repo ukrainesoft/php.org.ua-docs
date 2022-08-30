@@ -4,9 +4,9 @@
     
 -   [mysqlnumrows »](function.mysql-num-rows.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](ref.mysql.html)
+-   [MySQL](ref.mysql.md)
     
 -   Повертає кількість полів результату запиту
     
@@ -19,10 +19,10 @@ mysqlnumfields — Повертає кількість полів результ
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   [mysqlinumfields()](mysqli-result.field-count.html)
--   [PDOStatement::columnCount()](pdostatement.columncount.html)
+-   [PDOStatement::columnCount()](pdostatement.columncount.md)
 
 ### Опис
 
@@ -36,7 +36,7 @@ mysql_num_fields(resource $result): int|false
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
 
 ### Значення, що повертаються
 

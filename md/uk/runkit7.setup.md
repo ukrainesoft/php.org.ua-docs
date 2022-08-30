@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.runkit7.html)
     
--   [Требования »](runkit7.requirements.html)
+-   [Вимоги »](runkit7.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](runkit7.requirements.html)
+-   [Вимоги](runkit7.requirements.html)
 -   [Установка](runkit7.installation.html)
--   [Настройка во время выполнения](runkit7.configuration.html)
--   [Типы ресурсов](runkit7.resources.html)
+-   [Налаштування під час виконання](runkit7.configuration.html)
+-   [Типи ресурсів](runkit7.resources.html)

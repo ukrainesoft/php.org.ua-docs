@@ -4,9 +4,9 @@
     
 -   [ssh2sftpchmod »](function.ssh2-sftp-chmod.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Відправляє EOF у потік
     

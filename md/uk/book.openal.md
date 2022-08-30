@@ -1,26 +1,26 @@
 Аудіопотоки OpenAL
 
--   [« Обработка аудио форматов](refs.utilspec.audio.html)
+-   [« Обработка аудио форматов](refs.utilspec.audio.md)
     
--   [Введение »](intro.openal.html)
+-   [Введение »](intro.openal.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Обработка аудио форматов](refs.utilspec.audio.html)
+-   [Обработка аудио форматов](refs.utilspec.audio.md)
     
 -   Аудіопотоки OpenAL
     
 
 # Аудіопотоки OpenAL
 
--   [Введение](intro.openal.html)
--   [Установка и настройка](openal.setup.html)
-    -   [Требования](openal.requirements.html)
-    -   [Установка](openal.installation.html)
-    -   [Настройка во время выполнения](openal.configuration.html)
-    -   [Типы ресурсов](openal.resources.html)
--   [Предопределённые константы](openal.constants.html)
--   [Функции OpenAL](ref.openal.html)
+-   [Введение](intro.openal.md)
+-   [Встановлення та налаштування](openal.setup.md)
+    -   [Вимоги](openal.requirements.md)
+    -   [Установка](openal.installation.md)
+    -   [Налаштування під час виконання](openal.configuration.md)
+    -   [Типи ресурсів](openal.resources.md)
+-   [Обумовлені константи](openal.constants.md)
+-   [Функции OpenAL](ref.openal.md)
     -   [openalbuffercreate](function.openal-buffer-create.html) - Згенерувати буфер OpenAL
     -   [openalbufferdata](function.openal-buffer-data.html) - Завантаження буфера з даними
     -   [openalbufferdestroy](function.openal-buffer-destroy.html) - Знищує буфер OpenAL

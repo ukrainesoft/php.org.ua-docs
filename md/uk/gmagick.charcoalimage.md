@@ -1,12 +1,12 @@
 Імітація малювання вугіллям
 
--   [« Gmagick::borderimage](gmagick.borderimage.html)
+-   [« Gmagick::borderimage](gmagick.borderimage.md)
     
--   [Gmagick::chopimage »](gmagick.chopimage.html)
+-   [Gmagick::chopimage »](gmagick.chopimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Імітація малювання вугіллям
     
@@ -37,7 +37,7 @@ public Gmagick::charcoalimage(float $radius, float $sigma): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) з доданим ефектом малювання вугіллям.
+Об'єкт [Gmagick](class.gmagick.md) з доданим ефектом малювання вугіллям.
 
 ### Помилки
 

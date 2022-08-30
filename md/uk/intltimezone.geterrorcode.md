@@ -1,12 +1,12 @@
 Отримати останній код про помилку в об'єкті
 
--   [« IntlTimeZone::getEquivalentID](intltimezone.getequivalentid.html)
+-   [« IntlTimeZone::getEquivalentID](intltimezone.getequivalentid.md)
     
--   [IntlTimeZone::getErrorMessage »](intltimezone.geterrormessage.html)
+-   [IntlTimeZone::getErrorMessage »](intltimezone.geterrormessage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlTimeZone](class.intltimezone.html)
+-   [IntlTimeZone](class.intltimezone.md)
     
 -   Отримати останній код про помилку в об'єкті
     

@@ -1,12 +1,12 @@
 Повертає інтерфейси
 
--   [« ReflectionClass::getInterfaceNames](reflectionclass.getinterfacenames.html)
+-   [« ReflectionClass::getInterfaceNames](reflectionclass.getinterfacenames.md)
     
--   [ReflectionClass::getMethod »](reflectionclass.getmethod.html)
+-   [ReflectionClass::getMethod »](reflectionclass.getmethod.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає інтерфейси
     
@@ -31,7 +31,7 @@ public ReflectionClass::getInterfaces(): array
 
 ### Значення, що повертаються
 
-Асоціативний масив (array) інтерфейсів, у якому ключами є імена інтерфейсів, а значеннями – об'єкти [ReflectionClass](class.reflectionclass.html)
+Асоціативний масив (array) інтерфейсів, у якому ключами є імена інтерфейсів, а значеннями – об'єкти [ReflectionClass](class.reflectionclass.md)
 
 ### Приклади
 
@@ -71,4 +71,4 @@ Array
 
 ### Дивіться також
 
--   [ReflectionClass::getInterfaceNames()](reflectionclass.getinterfacenames.html) - Повертає імена інтерфейсів
+-   [ReflectionClass::getInterfaceNames()](reflectionclass.getinterfacenames.md) - Повертає імена інтерфейсів

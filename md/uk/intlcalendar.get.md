@@ -1,12 +1,12 @@
 Отримує значення поля
 
--   [« IntlCalendar::fromDateTime](intlcalendar.fromdatetime.html)
+-   [« IntlCalendar::fromDateTime](intlcalendar.fromdatetime.md)
     
--   [IntlCalendar::getActualMaximum »](intlcalendar.getactualmaximum.html)
+-   [IntlCalendar::getActualMaximum »](intlcalendar.getactualmaximum.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Отримує значення поля
     
@@ -37,11 +37,11 @@ intlcal_get(IntlCalendar $calendar, int $field): int|false
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `field`
 
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.html) [констант](class.intlcalendar.html#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.html#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
 
 ### Значення, що повертаються
 

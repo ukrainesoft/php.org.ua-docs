@@ -1,12 +1,12 @@
 Виводить зображення
 
--   [« Imagick::destroy](imagick.destroy.html)
+-   [« Imagick::destroy](imagick.destroy.md)
     
--   [Imagick::displayImages »](imagick.displayimages.html)
+-   [Imagick::displayImages »](imagick.displayimages.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Виводить зображення
     

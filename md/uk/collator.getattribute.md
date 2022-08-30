@@ -1,12 +1,12 @@
 Отримує значення атрибуту зіставлення
 
--   [« Collator::create](collator.create.html)
+-   [« Collator::create](collator.create.md)
     
--   [Collator::getErrorCode »](collator.geterrorcode.html)
+-   [Collator::getErrorCode »](collator.geterrorcode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Collator](class.collator.html)
+-   [Collator](class.collator.md)
     
 -   Отримує значення атрибуту зіставлення
     
@@ -39,7 +39,7 @@ collator_get_attribute(Collator $object, int $attribute): int|false
 
 `object`
 
-Об'єкт [Collator](class.collator.html)
+Об'єкт [Collator](class.collator.md)
 
 `attribute`
 
@@ -66,6 +66,6 @@ if( $val === false )
 
 ### Дивіться також
 
--   [Константы](class.collator.html#intl.collator-constants) [Collator](class.collator.html)
--   [collatorsetattribute()](collator.setattribute.html) - Встановлює атрибут зіставлення
--   [collatorgetstrength()](collator.getstrength.html) - набуває поточної сили зіставлення
+-   [Константи](class.collator.html#intl.collator-constants) [Collator](class.collator.md)
+-   [collatorsetattribute()](collator.setattribute.md) - Встановлює атрибут зіставлення
+-   [collatorgetstrength()](collator.getstrength.md) - набуває поточної сили зіставлення

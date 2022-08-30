@@ -4,7 +4,7 @@
     
 -   [YafRouteStatic::match »](yaf-route-static.match.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRouteStatic](class.yaf-route-static.html)
     

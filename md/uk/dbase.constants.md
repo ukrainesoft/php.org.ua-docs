@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](dbase.resources.html)
+-   [« Типи ресурсів](dbase.resources.md)
     
--   [dBase »](ref.dbase.html)
+-   [dBase »](ref.dbase.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [dBase](book.dbase.html)
+-   [dBase](book.dbase.md)
     
 -   Обумовлені константи
     

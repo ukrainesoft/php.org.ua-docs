@@ -39,4 +39,4 @@ final public MongoDB\BSON\MinKey::serialize(): string
 
 -   [MongoDBBSONMinKey::unserialize()](mongodb-bson-minkey.unserialize.html) - Десеріалізує MinKey
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [Серіалізація об'єктів](language.oop5.serialization.html)

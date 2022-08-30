@@ -1,12 +1,12 @@
 Просте використання
 
--   [« Примеры](ftp.examples.html)
+-   [« Приклади](ftp.examples.html)
     
 -   [Функції FTP »](ref.ftp.html)
     
 -   [PHP Manual](index.html)
     
--   [Примеры](ftp.examples.html)
+-   [Приклади](ftp.examples.html)
     
 -   Просте використання
     

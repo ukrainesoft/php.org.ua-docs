@@ -1,12 +1,12 @@
 Оператори виконання
 
--   [« Оператор управления ошибками](language.operators.errorcontrol.html)
+-   [« Оператор управления ошибками](language.operators.errorcontrol.md)
     
--   [Операторы инкремента и декремента »](language.operators.increment.html)
+-   [Оператори інкременту та декременту »](language.operators.increment.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Оператори](language.operators.html)
+-   [Оператори](language.operators.md)
     
 -   Оператори виконання
     
@@ -32,7 +32,7 @@ echo "<pre>$output</pre>";
 
 ### Дивіться також
 
--   [Функции для выполнения программ](ref.exec.html)
--   [popen()](function.popen.html)
+-   [Функції для виконання програм](ref.exec.md)
+-   [popen()](function.popen.md)
 -   [procopen()](function.proc-open.html)
--   [Використання PHP у командному рядку](features.commandline.html)
+-   [Використання PHP у командному рядку](features.commandline.md)

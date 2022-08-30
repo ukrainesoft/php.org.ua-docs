@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverCursor::getId »](mongodb-driver-cursor.getid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
     
@@ -33,4 +33,4 @@ public MongoDB\Driver\Cursor::current(): array|object|null
 
 ### Дивіться також
 
--   [Iterator::current()](iterator.current.html) - Повернення поточного елемента
+-   [Iterator::current()](iterator.current.md) - Повернення поточного елемента

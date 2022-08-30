@@ -4,9 +4,9 @@
     
 -   [eioutime »](function.eio-utime.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Видаляє файл або одне з жорстких посилань на нього
     

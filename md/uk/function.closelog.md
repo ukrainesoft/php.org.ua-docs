@@ -1,12 +1,12 @@
 Закриває з'єднання із системним журналом
 
--   [« checkdnsrr](function.checkdnsrr.html)
+-   [« checkdnsrr](function.checkdnsrr.md)
     
 -   [dnscheckrecord »](function.dns-check-record.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Мережеві функції](ref.network.html)
+-   [Мережеві функції](ref.network.md)
     
 -   Закриває з'єднання із системним журналом
     
@@ -35,5 +35,5 @@ closelog(): bool
 
 ### Дивіться також
 
--   [syslog()](function.syslog.html) - Генерує повідомлення для системного журналу
--   [openlog()](function.openlog.html) - Відкриває підключення до системного журналу
+-   [syslog()](function.syslog.md) - Генерує повідомлення для системного журналу
+-   [openlog()](function.openlog.md) - Відкриває підключення до системного журналу

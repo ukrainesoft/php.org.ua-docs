@@ -1,12 +1,12 @@
 Прапори подій
 
--   [« Примеры](event.examples.html)
+-   [« Приклади](event.examples.md)
     
--   [Про постійні (persistent) події »](event.persistence.html)
+-   [Про постійні (persistent) події »](event.persistence.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](book.event.html)
+-   [Event](book.event.md)
     
 -   Прапори подій
     

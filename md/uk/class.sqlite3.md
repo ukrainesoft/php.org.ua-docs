@@ -1,6 +1,6 @@
 Клас SQLite3
 
--   [« Предопределённые константы](sqlite3.constants.html)
+-   [« Обумовлені константи](sqlite3.constants.html)
     
 -   [SQLite3::backup »](sqlite3.backup.html)
     

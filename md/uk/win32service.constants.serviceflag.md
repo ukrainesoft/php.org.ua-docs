@@ -1,18 +1,18 @@
 Константи прапорів сервісу Win32Service
 
--   [« Константы контроля ошибок сервиса Win32Service](win32service.constants.errorcontrol.html)
+-   [Константи контролю помилок сервісу Win32Service](win32service.constants.errorcontrol.md)
     
--   [Коды ошибок Win32 »](win32service.constants.errors.html)
+-   [Коди помилок Win32 »](win32service.constants.errors.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые константы](win32service.constants.html)
+-   [Обумовлені константи](win32service.constants.md)
     
 -   Константи прапорів сервісу Win32Service
     
 
 **Константи прапорів сервісу Win32Service**
 
-| Константа                                  | Значение   | Описание                                                                |
-|--------------------------------------------|------------|-------------------------------------------------------------------------|
+| Константа | Значение | Описание |
+| --- | --- | --- |
 | **`WIN32_SERVICE_RUNS_IN_SYSTEM_PROCESS`** | 0x00000001 | Служба виконується в системному процесі, який завжди має бути запущено. |

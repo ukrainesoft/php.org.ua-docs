@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.tcpwrap.html)
+-   [« Введение](intro.tcpwrap.md)
     
--   [Требования »](tcpwrap.requirements.html)
+-   [Вимоги »](tcpwrap.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [TCP](book.tcpwrap.html)
+-   [TCP](book.tcpwrap.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](tcpwrap.requirements.html)
--   [Установка](tcpwrap.installation.html)
--   [Настройка во время выполнения](tcpwrap.configuration.html)
--   [Типы ресурсов](tcpwrap.resources.html)
+-   [Вимоги](tcpwrap.requirements.md)
+-   [Установка](tcpwrap.installation.md)
+-   [Налаштування під час виконання](tcpwrap.configuration.md)
+-   [Типи ресурсів](tcpwrap.resources.md)

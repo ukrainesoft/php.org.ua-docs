@@ -4,9 +4,9 @@
     
 -   [wkhtmltoxImageConverter::construct »](wkhtmltox-image-converter.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [wkhtmltox](book.wkhtmltox.html)
+-   [wkhtmltox](book.wkhtmltox.md)
     
 -   Клас wkhtmltoxImageConverter
     

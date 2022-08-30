@@ -1,12 +1,12 @@
 Отримує внутрішній ітератор
 
--   [« NoRewindIterator::current](norewinditerator.current.html)
+-   [« NoRewindIterator::current](norewinditerator.current.md)
     
--   [NoRewindIterator::key »](norewinditerator.key.html)
+-   [NoRewindIterator::key »](norewinditerator.key.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [NoRewindIterator](class.norewinditerator.html)
+-   [NoRewindIterator](class.norewinditerator.md)
     
 -   Отримує внутрішній ітератор
     
@@ -23,7 +23,7 @@ NoRewindIterator::getInnerIterator — Отримує внутрішній іт�
 public NoRewindIterator::getInnerIterator(): iterator
 ```
 
-Отримує внутрішній ітератор, який було передано до [NoRewindIterator](class.norewinditerator.html)
+Отримує внутрішній ітератор, який було передано до [NoRewindIterator](class.norewinditerator.md)
 
 **Увага**
 
@@ -35,8 +35,8 @@ public NoRewindIterator::getInnerIterator(): iterator
 
 ### Значення, що повертаються
 
-Внутрішній ітератор, переданий у [NoRewindIterator::construct()](norewinditerator.construct.html)
+Внутрішній ітератор, переданий у [NoRewindIterator::construct()](norewinditerator.construct.md)
 
 ### Дивіться також
 
--   [NoRewindIterator::valid()](norewinditerator.valid.html) - перевіряє ітератор
+-   [NoRewindIterator::valid()](norewinditerator.valid.md) - перевіряє ітератор

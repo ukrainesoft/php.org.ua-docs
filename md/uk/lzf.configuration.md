@@ -2,11 +2,11 @@
 
 -   [« Установка](lzf.installation.html)
     
--   [Типы ресурсов »](lzf.resources.html)
+-   [Типи ресурсів »](lzf.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](lzf.setup.html)
+-   [Встановлення та налаштування](lzf.setup.html)
     
 -   Налаштування під час виконання
     

@@ -4,9 +4,9 @@
     
 -   [statsdenst »](function.stats-dens-t.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Імовірнісний захід розподілу Пуассона
     

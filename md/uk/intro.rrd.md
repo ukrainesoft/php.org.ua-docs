@@ -1,12 +1,12 @@
 Вступ
 
--   [« RRD](book.rrd.html)
+-   [« RRD](book.rrd.md)
     
--   [Установка и настройка »](rrd.setup.html)
+-   [Встановлення та налаштування »](rrd.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RRD](book.rrd.html)
+-   [RRD](book.rrd.md)
     
 -   Вступ
     

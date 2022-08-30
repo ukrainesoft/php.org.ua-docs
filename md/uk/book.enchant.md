@@ -1,27 +1,27 @@
 Бібліотека перевірки правопису Enchant
 
--   [« Підтримка мов та кодувань](refs.international.html)
+-   [« Підтримка мов та кодувань](refs.international.md)
     
--   [Введение »](intro.enchant.html)
+-   [Введение »](intro.enchant.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Підтримка мов та кодувань](refs.international.html)
+-   [Підтримка мов та кодувань](refs.international.md)
     
 -   Бібліотека перевірки правопису Enchant
     
 
 # Бібліотека перевірки правопису Enchant
 
--   [Введение](intro.enchant.html)
--   [Установка и настройка](enchant.setup.html)
-    -   [Требования](enchant.requirements.html)
-    -   [Установка](enchant.installation.html)
-    -   [Настройка во время выполнения](enchant.configuration.html)
-    -   [Типы ресурсов](enchant.resources.html)
--   [Предопределённые константы](enchant.constants.html)
--   [Примеры](enchant.examples.html)
--   [Функции Enchant](ref.enchant.html)
+-   [Введение](intro.enchant.md)
+-   [Встановлення та налаштування](enchant.setup.md)
+    -   [Вимоги](enchant.requirements.md)
+    -   [Установка](enchant.installation.md)
+    -   [Налаштування під час виконання](enchant.configuration.md)
+    -   [Типи ресурсів](enchant.resources.md)
+-   [Обумовлені константи](enchant.constants.md)
+-   [Приклади](enchant.examples.md)
+-   [Функции Enchant](ref.enchant.md)
     -   [enchantbrokerdescribe](function.enchant-broker-describe.html) - Перераховує провайдерів Enchant
     -   [enchantbrokerdictexists](function.enchant-broker-dict-exists.html) — Перевіряє, чи є словник чи ні. Використовується не порожній тег
     -   [enchantbrokerfreedict](function.enchant-broker-free-dict.html) - Звільняє ресурс словника
@@ -45,5 +45,5 @@
     -   [enchantdictquickcheck](function.enchant-dict-quick-check.html) — Перевірити, чи правильно написано слово та запропонувати варіанти заміни
     -   [enchantdictstorereplacement](function.enchant-dict-store-replacement.html) — Додати виправлення до слова
     -   [enchantdictsuggest](function.enchant-dict-suggest.html) — Поверне список можливих варіантів для слова з помилкою
--   [EnchantBroker](class.enchantbroker.html) - Клас EnchantBroker
--   [EnchantDictionary](class.enchantdictionary.html) - Клас EnchantDictionary
+-   [EnchantBroker](class.enchantbroker.md) - Клас EnchantBroker
+-   [EnchantDictionary](class.enchantdictionary.md) - Клас EnchantDictionary

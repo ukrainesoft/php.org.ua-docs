@@ -4,9 +4,9 @@
     
 -   [ftpchdir »](function.ftp-chdir.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.md)
     
 -   Переходить до батьківської директорії
     
@@ -37,9 +37,9 @@ ftp_cdup(FTP\Connection $ftp): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                            |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

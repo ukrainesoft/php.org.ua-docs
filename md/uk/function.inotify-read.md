@@ -4,9 +4,9 @@
     
 -   [inotifyрмwatch »](function.inotify-rm-watch.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Inotify](ref.inotify.html)
+-   [Функции Inotify](ref.inotify.md)
     
 -   Читає повідомлення, що очікують, з черги
     
@@ -36,7 +36,7 @@ inotify_read(resource $inotify_instance): array
 Масив подій inotify або **`false`**, якщо подій у черзі немає та `inotify_instance` не блокуючий. Кожен елемент масиву складається з:
 
 -   wd - дескриптор спостерігача, повернутий [inotifyaddwatch()](function.inotify-add-watch.html)
--   mask - бітова маска [событий](inotify.constants.html)
+-   mask - бітова маска [подій](inotify.constants.md)
 -   cookie – унікальний ідентифікатор для об'єднання пов'язаних подій (наприклад **`IN_MOVE_FROM`** і **`IN_MOVE_TO`**
 -   name - ім'я файлу (наприклад якщо в директорії, що спостерігається, змінився файл)
 

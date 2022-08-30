@@ -1,12 +1,12 @@
 Повідомляє, чи токен ігноруватиметься парсером PHP
 
--   [« PhpToken::is](phptoken.is.html)
+-   [« PhpToken::is](phptoken.is.md)
     
--   [PhpToken::toString »](phptoken.tostring.html)
+-   [PhpToken::toString »](phptoken.tostring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PhpToken](class.phptoken.html)
+-   [PhpToken](class.phptoken.md)
     
 -   Повідомляє, чи токен ігноруватиметься парсером PHP
     
@@ -48,4 +48,4 @@ var_dump($space->isIgnorable());  // -> bool(true)
 
 ### Дивіться також
 
--   [PhpToken::tokenize()](phptoken.tokenize.html) - Розбирає заданий рядок, що містить програму на PHP, на масив об'єктів PhpToken
+-   [PhpToken::tokenize()](phptoken.tokenize.md) - Розбирає заданий рядок, що містить програму на PHP, на масив об'єктів PhpToken

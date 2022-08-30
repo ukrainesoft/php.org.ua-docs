@@ -1,12 +1,12 @@
 Опції PHP/інформаційні функції
 
--   [« Предопределённые константы](info.constants.html)
+-   [« Обумовлені константи](info.constants.md)
     
 -   [assertoptions »](function.assert-options.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опции/информация PHP](book.info.html)
+-   [Опции/информация PHP](book.info.md)
     
 -   Опції PHP/інформаційні функції
     
@@ -16,10 +16,10 @@
 ## Зміст
 
 -   [assertoptions](function.assert-options.html) — Встановлення та отримання налаштувань механізму перевірки тверджень
--   [assert](function.assert.html) — Перевіряє, чи є твердження false
+-   [assert](function.assert.md) — Перевіряє, чи є твердження false
 -   [cligetprocesstitle](function.cli-get-process-title.html) — Повертає заголовок поточного процесу
 -   [clisetprocesstitle](function.cli-set-process-title.html) - Встановлює заголовок процесу
--   [дл](function.dl.html) — Завантажує модуль PHP під час виконання
+-   [дл](function.dl.md) — Завантажує модуль PHP під час виконання
 -   [extensionloaded](function.extension-loaded.html) — Визначає, чи завантажено модуль
 -   [гкcollectcycles](function.gc-collect-cycles.html) - Примусовий запуск збирача сміття
 -   [гкdisable](function.gc-disable.html) — Вимикає збирач циклічних посилань
@@ -38,14 +38,14 @@
 -   [getmagicquotesruntime](function.get-magic-quotes-runtime.html) — Отримання поточного значення конфігурації конфігурації magicquotesruntime
 -   [getrequiredfiles](function.get-required-files.html) - Псевдонім getincludedfiles
 -   [getresources](function.get-resources.html) — Повертає активні ресурси
--   [getenv](function.getenv.html) — Отримання значення змінної оточення
--   [getlastmod](function.getlastmod.html) — Отримує час останньої модифікації сторінки
--   [getmygid](function.getmygid.html) - Отримати GID власника скрипта PHP
--   [getmyinode](function.getmyinode.html) — Отримує значення inode поточного скрипту
--   [getmypid](function.getmypid.html) - Отримання ID процесу PHP
--   [getmyuid](function.getmyuid.html) — Отримання UID власника скрипта PHP
--   [getopt](function.getopt.html) — Отримує параметри зі списку аргументів командного рядка
--   [getrusage](function.getrusage.html) — Отримує інформацію про використання поточного ресурсу
+-   [getenv](function.getenv.md) — Отримання значення змінної оточення
+-   [getlastmod](function.getlastmod.md) — Отримує час останньої модифікації сторінки
+-   [getmygid](function.getmygid.md) - Отримати GID власника скрипта PHP
+-   [getmyinode](function.getmyinode.md) — Отримує значення inode поточного скрипту
+-   [getmypid](function.getmypid.md) - Отримання ID процесу PHP
+-   [getmyuid](function.getmyuid.md) — Отримання UID власника скрипта PHP
+-   [getopt](function.getopt.md) — Отримує параметри зі списку аргументів командного рядка
+-   [getrusage](function.getrusage.md) — Отримує інформацію про використання поточного ресурсу
 -   [inialter](function.ini-alter.html) - Псевдонім iniset
 -   [inigetall](function.ini-get-all.html) — Отримує всі налаштування конфігурації
 -   [iniget](function.ini-get.html) — Отримує значення налаштування конфігурації
@@ -57,10 +57,10 @@
 -   [phpiniscannedfiles](function.php-ini-scanned-files.html) — Повертає список .ini-файлів, знайдених у додатковій ini-директорії
 -   [phpsapiname](function.php-sapi-name.html) — Повертає тип інтерфейсу між веб-сервером та PHP
 -   [phpuname](function.php-uname.html) — Повертає інформацію про операційну систему, на якій запущено PHP
--   [phpcredits](function.phpcredits.html) - Виводить список розробників PHP
--   [phpinfo](function.phpinfo.html) — Виводить інформацію про поточну конфігурацію PHP
--   [phpversion](function.phpversion.html) — Отримує поточну версію PHP
--   [putenv](function.putenv.html) — Встановлює значення змінного середовища
+-   [phpcredits](function.phpcredits.md) - Виводить список розробників PHP
+-   [phpinfo](function.phpinfo.md) — Виводить інформацію про поточну конфігурацію PHP
+-   [phpversion](function.phpversion.md) — Отримує поточну версію PHP
+-   [putenv](function.putenv.md) — Встановлює значення змінного середовища
 -   [restoreincludepath](function.restore-include-path.html) — Відновлює початкове значення конфігураційної установки includepath
 -   [setincludepath](function.set-include-path.html) — Встановлює значення конфігураційної установки includepath
 -   [settimelimit](function.set-time-limit.html) — Обмеження часу виконання скрипту

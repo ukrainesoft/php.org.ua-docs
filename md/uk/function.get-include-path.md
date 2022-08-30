@@ -4,9 +4,9 @@
     
 -   [getincludedfiles »](function.get-included-files.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Отримання поточного значення конфігураційної установки includepath
     
@@ -51,4 +51,4 @@ echo ini_get('include_path');
 -   [iniget()](function.ini-get.html) - Отримує значення налаштування конфігурації
 -   [restoreincludepath()](function.restore-include-path.html) - Відновлює початкове значення конфігураційної установки includepath
 -   [setincludepath()](function.set-include-path.html) - Встановлює налаштування конфігурації includepath
--   [include](function.include.html) - include
+-   [include](function.include.md) - include

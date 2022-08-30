@@ -43,4 +43,4 @@ final public MongoDB\BSON\Regex::unserialize(string $serialized): void
 
 -   [MongoDBBSONRegex::serialize()](mongodb-bson-regex.serialize.html) - Серіалізує Regex
 -   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [Серіалізація об'єктів](language.oop5.serialization.html)

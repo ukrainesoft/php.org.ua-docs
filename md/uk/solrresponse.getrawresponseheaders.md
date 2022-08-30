@@ -1,12 +1,12 @@
 Повертає необроблені заголовки відповіді із сервера
 
--   [« SolrResponse::getRawResponse](solrresponse.getrawresponse.html)
+-   [« SolrResponse::getRawResponse](solrresponse.getrawresponse.md)
     
--   [SolrResponse::getRequestUrl »](solrresponse.getrequesturl.html)
+-   [SolrResponse::getRequestUrl »](solrresponse.getrequesturl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrResponse](class.solrresponse.html)
+-   [SolrResponse](class.solrresponse.md)
     
 -   Повертає необроблені заголовки відповіді із сервера
     

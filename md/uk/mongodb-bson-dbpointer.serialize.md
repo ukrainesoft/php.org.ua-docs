@@ -39,4 +39,4 @@ final public MongoDB\BSON\DBPointer::serialize(): string
 
 -   [MongoDBBSONDBPointer::unserialize()](mongodb-bson-dbpointer.unserialize.html) - Десеріалізує DBPointer
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [Серіалізація об'єктів](language.oop5.serialization.html)

@@ -1,12 +1,12 @@
 Клас Directory
 
--   [« Предопределённые константы](dir.constants.html)
+-   [« Обумовлені константи](dir.constants.md)
     
--   [Directory::close »](directory.close.html)
+-   [Directory::close »](directory.close.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Каталоги](book.dir.html)
+-   [Каталоги](book.dir.md)
     
 -   Клас Directory
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Примірники класу **Directory** створюються за допомогою виклику функції [dir()](function.dir.html), а не за допомогою оператора [new](language.oop5.basic.html#language.oop5.basic.new)
+Примірники класу **Directory** створюються за допомогою виклику функції [dir()](function.dir.md), а не за допомогою оператора [new](language.oop5.basic.html#language.oop5.basic.new)
 
 ## Огляд класів
 
@@ -62,16 +62,16 @@ path
 
 handle
 
-Може використовуватися з іншими функціями каталогів, такими як [readdir()](function.readdir.html) [rewinddir()](function.rewinddir.html) і [closedir()](function.closedir.html)
+Може використовуватися з іншими функціями каталогів, такими як [readdir()](function.readdir.md) [rewinddir()](function.rewinddir.md) і [closedir()](function.closedir.md)
 
 ## список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Властивості path та handle тепер доступні лише для читання. |
+| Версия | Описание |
+| --- | --- |
+|  | Властивості path та handle тепер доступні лише для читання. |
 
 ## Зміст
 
--   [Directory::close](directory.close.html) — Закриває дескриптор каталогу
--   [Directory::read](directory.read.html) — Отримує елемент із дескриптора каталогу
--   [Directory::rewind](directory.rewind.html) — Переміщує дескриптор каталогу на початок каталогу
+-   [Directory::close](directory.close.md) — Закриває дескриптор каталогу
+-   [Directory::read](directory.read.md) — Отримує елемент із дескриптора каталогу
+-   [Directory::rewind](directory.rewind.md) — Переміщує дескриптор каталогу на початок каталогу

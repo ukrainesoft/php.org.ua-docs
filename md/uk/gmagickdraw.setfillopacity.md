@@ -1,12 +1,12 @@
 Встановлює непрозорість заливки
 
--   [« GmagickDraw::setfillcolor](gmagickdraw.setfillcolor.html)
+-   [« GmagickDraw::setfillcolor](gmagickdraw.setfillcolor.md)
     
--   [GmagickDraw::setfont »](gmagickdraw.setfont.html)
+-   [GmagickDraw::setfont »](gmagickdraw.setfont.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickDraw](class.gmagickdraw.html)
+-   [GmagickDraw](class.gmagickdraw.md)
     
 -   Встановлює непрозорість заливки
     
@@ -33,4 +33,4 @@ public GmagickDraw::setfillopacity(float $fill_opacity): GmagickDraw
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html)
+Об'єкт [Gmagick](class.gmagick.md)

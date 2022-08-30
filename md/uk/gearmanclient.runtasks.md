@@ -1,12 +1,12 @@
 Запустити список завдань у паралельному режимі
 
--   [« GearmanClient::returnCode](gearmanclient.returncode.html)
+-   [« GearmanClient::returnCode](gearmanclient.returncode.md)
     
--   [GearmanClient::setClientCallback »](gearmanclient.setclientcallback.html)
+-   [GearmanClient::setClientCallback »](gearmanclient.setclientcallback.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanClient](class.gearmanclient.html)
+-   [GearmanClient](class.gearmanclient.md)
     
 -   Запустити список завдань у паралельному режимі
     
@@ -23,7 +23,7 @@ GearmanClient::runTasks — Запустити список завдань у п
 public GearmanClient::runTasks(): bool
 ```
 
-Для набору завдань, раніше доданих за допомогою [GearmanClient::addTask()](gearmanclient.addtask.html) [GearmanClient::addTaskHigh()](gearmanclient.addtaskhigh.html) [GearmanClient::addTaskLow()](gearmanclient.addtasklow.html) [GearmanClient::addTaskBackground()](gearmanclient.addtaskbackground.html) [GearmanClient::addTaskHighBackground()](gearmanclient.addtaskhighbackground.html) або [GearmanClient::addTaskLowBackground()](gearmanclient.addtasklowbackground.html), цей виклик починається в паралельному режимі.
+Для набору завдань, раніше доданих за допомогою [GearmanClient::addTask()](gearmanclient.addtask.md) [GearmanClient::addTaskHigh()](gearmanclient.addtaskhigh.md) [GearmanClient::addTaskLow()](gearmanclient.addtasklow.md) [GearmanClient::addTaskBackground()](gearmanclient.addtaskbackground.md) [GearmanClient::addTaskHighBackground()](gearmanclient.addtaskhighbackground.md) або [GearmanClient::addTaskLowBackground()](gearmanclient.addtasklowbackground.md), цей виклик починається в паралельному режимі.
 
 ### Список параметрів
 
@@ -35,4 +35,4 @@ public GearmanClient::runTasks(): bool
 
 ### Дивіться також
 
--   [GearmanClient::addTask()](gearmanclient.addtask.html) - Додати завдання, яке буде виконано у паралельному режимі
+-   [GearmanClient::addTask()](gearmanclient.addtask.md) - Додати завдання, яке буде виконано у паралельному режимі

@@ -4,9 +4,9 @@
     
 -   [curlstrerror »](function.curl-strerror.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции cURL](ref.curl.html)
+-   [Функции cURL](ref.curl.md)
     
 -   Повертає опис для заданого коду помилки
     
@@ -29,7 +29,7 @@ curl_share_strerror(int $error_code): ?string
 
 `error_code`
 
-Одна з констант: [» Коды ошибок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+Одна з констант: [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.html)
 
 ### Значення, що повертаються
 

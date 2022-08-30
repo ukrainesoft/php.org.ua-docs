@@ -1,12 +1,12 @@
 Здобути глибину рекурсії
 
--   [« Ev::backend](ev.backend.html)
+-   [« Ev::backend](ev.backend.md)
     
--   [Ev::embeddableBackends »](ev.embeddablebackends.html)
+-   [Ev::embeddableBackends »](ev.embeddablebackends.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Єв](class.ev.html)
+-   [Єв](class.ev.md)
     
 -   Здобути глибину рекурсії
     
@@ -26,7 +26,7 @@ final
    Ev::depth(): int
 ```
 
-Кількість запусків [Ev::run()](ev.run.html) мінус кількість нормальних виходів [Ev::run()](ev.run.html), Іншими словами, глибина рекурсії. Поза [Ev::run()](ev.run.html) це число буде рівним **`0`**. У callback-функції воно буде рівним **`1`**, якщо [Ev::run()](ev.run.html) не викликалася рекурсивно (чи іншому потоці), інакше воно буде більше.
+Кількість запусків [Ev::run()](ev.run.md) мінус кількість нормальних виходів [Ev::run()](ev.run.md), Іншими словами, глибина рекурсії. Поза [Ev::run()](ev.run.md) це число буде рівним **`0`**. У callback-функції воно буде рівним **`1`**, якщо [Ev::run()](ev.run.md) не викликалася рекурсивно (чи іншому потоці), інакше воно буде більше.
 
 ### Список параметрів
 
@@ -38,4 +38,4 @@ final
 
 ### Дивіться також
 
--   [Ev::iteration()](ev.iteration.html) - Отримати кількість проведених опитувань циклу за умовчанням щодо нових подій
+-   [Ev::iteration()](ev.iteration.md) - Отримати кількість проведених опитувань циклу за умовчанням щодо нових подій

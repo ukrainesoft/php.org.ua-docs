@@ -2,11 +2,11 @@
 
 -   [« statsstatpowersum](function.stats-stat-powersum.html)
     
--   [Trader »](book.trader.html)
+-   [Trader »](book.trader.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Повертає дисперсію
     

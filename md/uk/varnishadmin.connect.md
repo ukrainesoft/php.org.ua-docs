@@ -1,12 +1,12 @@
 Підключення до інтерфейсу адміністрування екземпляра varnish
 
--   [« VarnishAdmin::clearPanic](varnishadmin.clearpanic.html)
+-   [« VarnishAdmin::clearPanic](varnishadmin.clearpanic.md)
     
--   [VarnishAdmin::construct »](varnishadmin.construct.html)
+-   [VarnishAdmin::construct »](varnishadmin.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [VarnishAdmin](class.varnishadmin.html)
+-   [VarnishAdmin](class.varnishadmin.md)
     
 -   Підключення до інтерфейсу адміністрування екземпляра varnish
     

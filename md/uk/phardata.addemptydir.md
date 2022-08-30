@@ -1,12 +1,12 @@
 Додати порожню директорію до tar/zip-архіву
 
--   [« PharData](class.phardata.html)
+-   [« PharData](class.phardata.md)
     
--   [PharData::addFile »](phardata.addfile.html)
+-   [PharData::addFile »](phardata.addfile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharData](class.phardata.html)
+-   [PharData](class.phardata.md)
     
 -   Додати порожню директорію до tar/zip-архіву
     
@@ -23,7 +23,7 @@ PharData::addEmptyDir — Додати порожню директорію до 
 public PharData::addEmptyDir(string $directory): void
 ```
 
-За допомогою цього місця можна створити директорію шляхом `dirname`. Цей метод аналогічний [ZipArchive::addEmptyDir()](ziparchive.addemptydir.html)
+За допомогою цього місця можна створити директорію шляхом `dirname`. Цей метод аналогічний [ZipArchive::addEmptyDir()](ziparchive.addemptydir.md)
 
 ### Список параметрів
 
@@ -55,6 +55,6 @@ try {
 
 ### Дивіться також
 
--   [Phar::addEmptyDir()](phar.addemptydir.html) - Додає в phar-архів порожню директорію
--   [PharData::addFile()](phardata.addfile.html) - Додати існуючі файли до tar/zip-архіву
--   [PharData::addFromString()](phardata.addfromstring.html) - Створити файл із заданим вмістом у tar/zip-архіві
+-   [Phar::addEmptyDir()](phar.addemptydir.md) - Додає в phar-архів порожню директорію
+-   [PharData::addFile()](phardata.addfile.md) - Додати існуючі файли до tar/zip-архіву
+-   [PharData::addFromString()](phardata.addfromstring.md) - Створити файл із заданим вмістом у tar/zip-архіві

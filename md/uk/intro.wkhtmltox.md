@@ -2,7 +2,7 @@
 
 -   [« wkhtmltox](book.wkhtmltox.html)
     
--   [Установка и настройка »](wkhtmltox.setup.html)
+-   [Встановлення та налаштування »](wkhtmltox.setup.html)
     
 -   [PHP Manual](index.html)
     

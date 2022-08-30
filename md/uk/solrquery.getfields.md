@@ -1,12 +1,12 @@
 Повертає список полів, які будуть повернені у відповіді
 
--   [« SolrQuery::getFacetSort](solrquery.getfacetsort.html)
+-   [« SolrQuery::getFacetSort](solrquery.getfacetsort.md)
     
--   [SolrQuery::getFilterQueries »](solrquery.getfilterqueries.html)
+-   [SolrQuery::getFilterQueries »](solrquery.getfilterqueries.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає список полів, які будуть повернені у відповіді
     

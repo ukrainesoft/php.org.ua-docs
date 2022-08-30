@@ -4,9 +4,9 @@
     
 -   [streamsetwritebuffer »](function.stream-set-write-buffer.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.md)
     
 -   Встановити час очікування для потоку
     
@@ -83,5 +83,5 @@ if (!$fp) {
 
 ### Дивіться також
 
--   [fsockopen()](function.fsockopen.html) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [fopen()](function.fopen.html) - Відкриває файл або URL
+-   [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [fopen()](function.fopen.md) - Відкриває файл або URL

@@ -1,12 +1,12 @@
 Надсилання результату та статусу завершення
 
--   [« GearmanJob::returnCode](gearmanjob.returncode.html)
+-   [« GearmanJob::returnCode](gearmanjob.returncode.md)
     
--   [GearmanJob::sendData »](gearmanjob.senddata.html)
+-   [GearmanJob::sendData »](gearmanjob.senddata.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanJob](class.gearmanjob.html)
+-   [GearmanJob](class.gearmanjob.md)
     
 -   Надсилання результату та статусу завершення
     
@@ -37,5 +37,5 @@ public GearmanJob::sendComplete(string $result): bool
 
 ### Дивіться також
 
--   [GearmanJob::sendFail()](gearmanjob.sendfail.html) - Відправлення статусу невдалої операції
--   [GearmanJob::setReturn()](gearmanjob.setreturn.html) - Встановлення значення, що повертається
+-   [GearmanJob::sendFail()](gearmanjob.sendfail.md) - Відправлення статусу невдалої операції
+-   [GearmanJob::setReturn()](gearmanjob.setreturn.md) - Встановлення значення, що повертається

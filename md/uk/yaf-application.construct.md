@@ -4,7 +4,7 @@
     
 -   [YafApplication::destruct »](yaf-application.destruct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafApplication](class.yaf-application.html)
     

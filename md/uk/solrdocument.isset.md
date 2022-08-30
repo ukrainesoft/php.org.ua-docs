@@ -1,12 +1,12 @@
 Перевіряє, чи існує поле
 
--   [« SolrDocument::hasChildDocuments](solrdocument.haschilddocuments.html)
+-   [« SolrDocument::hasChildDocuments](solrdocument.haschilddocuments.md)
     
--   [SolrDocument::key »](solrdocument.key.html)
+-   [SolrDocument::key »](solrdocument.key.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocument](class.solrdocument.html)
+-   [SolrDocument](class.solrdocument.md)
     
 -   Перевіряє, чи існує поле
     

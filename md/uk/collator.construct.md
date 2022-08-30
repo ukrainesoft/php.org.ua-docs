@@ -1,12 +1,12 @@
 Створює новий екземпляр Collator
 
--   [« Collator::compare](collator.compare.html)
+-   [« Collator::compare](collator.compare.md)
     
--   [Collator::create »](collator.create.html)
+-   [Collator::create »](collator.create.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Collator](class.collator.html)
+-   [Collator](class.collator.md)
     
 -   Створює новий екземпляр Collator
     
@@ -21,7 +21,7 @@ Collator::construct — Створює новий екземпляр Collator
 
 public **Collator::construct**(string `$locale`
 
-Створює новий екземпляр [Collator](class.collator.html)
+Створює новий екземпляр [Collator](class.collator.md)
 
 ### Список параметрів
 
@@ -47,5 +47,5 @@ $coll = new Collator('en_CA');
 
 ### Дивіться також
 
--   [Collator::create()](collator.create.html) - Створює новий екземпляр Collator
--   [collatorcreate()](collator.create.html) - Створює новий екземпляр Collator
+-   [Collator::create()](collator.create.md) - Створює новий екземпляр Collator
+-   [collatorcreate()](collator.create.md) - Створює новий екземпляр Collator

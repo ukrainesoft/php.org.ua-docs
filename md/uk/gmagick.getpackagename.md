@@ -1,12 +1,12 @@
 Повертає ім'я пакета GraphicsMagick
 
--   [« Gmagick::getimagewidth](gmagick.getimagewidth.html)
+-   [« Gmagick::getimagewidth](gmagick.getimagewidth.md)
     
--   [Gmagick::getquantumdepth »](gmagick.getquantumdepth.html)
+-   [Gmagick::getquantumdepth »](gmagick.getquantumdepth.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повертає ім'я пакета GraphicsMagick
     

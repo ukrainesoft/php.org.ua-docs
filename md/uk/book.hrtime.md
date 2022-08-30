@@ -1,23 +1,23 @@
 Час високого дозволу
 
--   [« Інші](timezones.others.html)
+-   [« Інші](timezones.others.md)
     
--   [Введение »](intro.hrtime.html)
+-   [Введение »](intro.hrtime.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модулі для роботи з датою та часом](refs.calendar.html)
+-   [Модулі для роботи з датою та часом](refs.calendar.md)
     
 -   Час високого дозволу
     
 
 # Час високого дозволу
 
--   [Введение](intro.hrtime.html)
--   [Установка и настройка](hrtime.setup.html)
-    -   [Установка](hrtime.installation.html)
--   [Примеры](hrtime.examples.html)
-    -   [Основы использования](hrtime.example.basic.html)
+-   [Введение](intro.hrtime.md)
+-   [Встановлення та налаштування](hrtime.setup.md)
+    -   [Установка](hrtime.installation.md)
+-   [Приклади](hrtime.examples.md)
+    -   [Основи використання](hrtime.example.basic.md)
 -   [HRTimePerformanceCounter](class.hrtime-performancecounter.html) - Клас HRTimePerformanceCounter
     -   [HRTimePerformanceCounter::getFrequency](hrtime-performancecounter.getfrequency.html) - Частота таймера в тиках за секунду
     -   [HRTimePerformanceCounter::getTicks](hrtime-performancecounter.getticks.html) - Поточне значення тиків системи

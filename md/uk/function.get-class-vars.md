@@ -4,9 +4,9 @@
     
 -   [getclass »](function.get-class.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції роботи з класами та об'єктами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.md)
     
 -   Повертає оголошені за умовчанням властивості класу
     

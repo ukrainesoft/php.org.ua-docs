@@ -2,11 +2,11 @@
 
 -   [« dnsgetrecord](function.dns-get-record.html)
     
--   [gethostbyaddr »](function.gethostbyaddr.html)
+-   [gethostbyaddr »](function.gethostbyaddr.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Мережеві функції](ref.network.html)
+-   [Мережеві функції](ref.network.md)
     
 -   Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
     
@@ -25,7 +25,7 @@ fsockopen(    string $hostname,    int $port = -1,    int &$error_co
 
 Встановлює з'єднання із сокетом ресурсу `hostname`
 
-PHP підтримує цільові ресурси в інтернеті та Unix-доменах у тому вигляді, як вони описані в [Список підтримуваних транспортних протоколів](transports.html). Список підтримуваних транспортів можна отримати за допомогою функції [streamgettransports()](function.stream-get-transports.html)
+PHP підтримує цільові ресурси в інтернеті та Unix-доменах у тому вигляді, як вони описані в [Список підтримуваних транспортних протоколів](transports.md). Список підтримуваних транспортів можна отримати за допомогою функції [streamgettransports()](function.stream-get-transports.html)
 
 За замовчуванням сокет буде відкритий у режимі блокування. Переключити його в неблокуючий режим можна функцією [streamsetblocking()](function.stream-set-blocking.html)
 
@@ -35,7 +35,7 @@ PHP підтримує цільові ресурси в інтернеті та 
 
 `hostname`
 
-Якщо [установлена](openssl.installation.html) Підтримка OpenSSL, можна використовувати SSL або TLS-протоколи з'єднань поверх TCP/IP при підключенні до віддаленого хоста. Для цього перед `hostname` потрібно додати префікс `ssl://` або `tls://`
+Якщо [установлена](openssl.installation.md) Підтримка OpenSSL, можна використовувати SSL або TLS-протоколи з'єднань поверх TCP/IP при підключенні до віддаленого хоста. Для цього перед `hostname` потрібно додати префікс `ssl://` або `tls://`
 
 `port`
 
@@ -61,7 +61,7 @@ PHP підтримує цільові ресурси в інтернеті та 
 
 ### Значення, що повертаються
 
-**fsockopen()** повертає файловий покажчик, який можна використовувати з функціями, що працюють із файлами (такі як [fgets()](function.fgets.html) [fgetss()](function.fgetss.html) [fwrite()](function.fwrite.html) [fclose()](function.fclose.html) і [feof()](function.feof.html)). Якщо дзвінок завершиться невдало, функція поверне **`false`**
+**fsockopen()** повертає файловий покажчик, який можна використовувати з функціями, що працюють із файлами (такі як [fgets()](function.fgets.md) [fgetss()](function.fgetss.md) [fwrite()](function.fwrite.md) [fclose()](function.fclose.md) і [feof()](function.feof.md)). Якщо дзвінок завершиться невдало, функція поверне **`false`**
 
 ### Помилки
 
@@ -69,9 +69,9 @@ PHP підтримує цільові ресурси в інтернеті та 
 
 ### список змін
 
-| Версия | Описание                                |
-|--------|-----------------------------------------|
-|        | `timeout` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `timeout` тепер допускає значення null. |
 
 ### Приклади
 
@@ -126,14 +126,14 @@ if (!$fp) {
 
 ### Дивіться також
 
--   [pfsockopen()](function.pfsockopen.html) - Відкриває постійне з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [pfsockopen()](function.pfsockopen.md) - Відкриває постійне з'єднання з інтернет-сокетом або доменним сокетом Unix
 -   [streamsocketclient()](function.stream-socket-client.html) - Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
 -   [streamsetblocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці
 -   [streamsettimeout()](function.stream-set-timeout.html) - Встановити значення часу очікування потоку
--   [fgets()](function.fgets.html) - Читає рядок із файлу
--   [fgetss()](function.fgetss.html) - Читає рядок з файлу та видаляє HTML-теги
--   [fwrite()](function.fwrite.html) - Бінарно-безпечний запис у файл
--   [fclose()](function.fclose.html) - Закриває відкритий дескриптор файлу
--   [feof()](function.feof.html) - Перевіряє, чи кінець файлу досягнуто
+-   [fgets()](function.fgets.md) - Читає рядок із файлу
+-   [fgetss()](function.fgetss.md) - Читає рядок з файлу та видаляє HTML-теги
+-   [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл
+-   [fclose()](function.fclose.md) - Закриває відкритий дескриптор файлу
+-   [feof()](function.feof.md) - Перевіряє, чи кінець файлу досягнуто
 -   [socketconnect()](function.socket-connect.html) - Починає з'єднання із сокетом
--   [Модуль Curl](ref.curl.html)
+-   [Модуль Curl](ref.curl.md)

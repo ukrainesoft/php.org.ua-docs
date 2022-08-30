@@ -1,12 +1,12 @@
 Застосовує перетворення кольору до зображення
 
--   [« Imagick::colorizeImage](imagick.colorizeimage.html)
+-   [« Imagick::colorizeImage](imagick.colorizeimage.md)
     
--   [Imagick::combineImages »](imagick.combineimages.html)
+-   [Imagick::combineImages »](imagick.combineimages.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Застосовує перетворення кольору до зображення
     

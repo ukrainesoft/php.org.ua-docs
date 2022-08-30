@@ -1,12 +1,12 @@
 Перетворення на рядок
 
--   [« ReflectionType::allowsNull](reflectiontype.allowsnull.html)
+-   [« ReflectionType::allowsNull](reflectiontype.allowsnull.md)
     
--   [ReflectionUnionType »](class.reflectionuniontype.html)
+-   [ReflectionUnionType »](class.reflectionuniontype.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionType](class.reflectiontype.html)
+-   [ReflectionType](class.reflectiontype.md)
     
 -   Перетворення на рядок
     
@@ -39,9 +39,9 @@ public ReflectionType::__toString(): string
 
 ### список змін
 
-| Версия | Описание                                             |
-|--------|------------------------------------------------------|
-|        | **ReflectionType::toString()** оголошено застарілим. |
+| Версия | Описание |
+| --- | --- |
+|  | **ReflectionType::toString()** оголошено застарілим. |
 
 ### Приклади
 
@@ -65,8 +65,8 @@ string
 
 ### Дивіться також
 
--   [ReflectionNamedType::getName()](reflectionnamedtype.getname.html) - Отримує ім'я типу у вигляді рядка
--   [ReflectionNamedType::isBuiltin()](reflectionnamedtype.isbuiltin.html) - Перевіряє, чи є тип вбудованим
--   [ReflectionType::allowsNull()](reflectiontype.allowsnull.html) - Перевіряє, чи допустимо NULL
--   [ReflectionUnionType::getTypes()](reflectionuniontype.gettypes.html) - Повертає типи, включені до типу union
--   [ReflectionParameter::getType()](reflectionparameter.gettype.html) - Отримати тип параметра
+-   [ReflectionNamedType::getName()](reflectionnamedtype.getname.md) - Отримує ім'я типу у вигляді рядка
+-   [ReflectionNamedType::isBuiltin()](reflectionnamedtype.isbuiltin.md) - Перевіряє, чи є тип вбудованим
+-   [ReflectionType::allowsNull()](reflectiontype.allowsnull.md) - Перевіряє, чи допустимо NULL
+-   [ReflectionUnionType::getTypes()](reflectionuniontype.gettypes.md) - Повертає типи, включені до типу union
+-   [ReflectionParameter::getType()](reflectionparameter.gettype.md) - Отримати тип параметра

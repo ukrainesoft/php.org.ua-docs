@@ -1,12 +1,12 @@
 Повертає ітератор на початок
 
--   [« SplDoublyLinkedList::push](spldoublylinkedlist.push.html)
+-   [« SplDoublyLinkedList::push](spldoublylinkedlist.push.md)
     
--   [SplDoublyLinkedList::serialize »](spldoublylinkedlist.serialize.html)
+-   [SplDoublyLinkedList::serialize »](spldoublylinkedlist.serialize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
     
 -   Повертає ітератор на початок
     

@@ -1,12 +1,12 @@
 Починає виконання волокна
 
--   [« Fiber::construct](fiber.construct.html)
+-   [« Fiber::construct](fiber.construct.md)
     
--   [Fiber::resume »](fiber.resume.html)
+-   [Fiber::resume »](fiber.resume.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Fiber](class.fiber.html)
+-   [Fiber](class.fiber.md)
     
 -   Починає виконання волокна
     
@@ -25,7 +25,7 @@ public Fiber::start(mixed ...$args): mixed
 
 Змінний список аргументів, що передається об'єкту, що викликається, використовується при побудові файбера.
 
-Якщо під час виклику методу файбер вже було запущено, буде викинуто [FiberError](class.fibererror.html)
+Якщо під час виклику методу файбер вже було запущено, буде викинуто [FiberError](class.fibererror.md)
 
 ### Список параметрів
 
@@ -35,4 +35,4 @@ public Fiber::start(mixed ...$args): mixed
 
 ### Значення, що повертаються
 
-Значення, надане під час першого виклику [Fiber::suspend()](fiber.suspend.html) або **`null`** у разі повернення файбера. Якщо файбер викинув виняток перед призупиненням, його буде викинуто з цього методу.
+Значення, надане під час першого виклику [Fiber::suspend()](fiber.suspend.md) або **`null`** у разі повернення файбера. Якщо файбер викинув виняток перед призупиненням, його буде викинуто з цього методу.

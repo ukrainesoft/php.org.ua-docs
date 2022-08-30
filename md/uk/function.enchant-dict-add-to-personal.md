@@ -4,9 +4,9 @@
     
 -   [enchantdictaddтоsession »](function.enchant-dict-add-to-session.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Enchant](ref.enchant.html)
+-   [Функции Enchant](ref.enchant.md)
     
 -   Додати слово до списку персональних слів
     

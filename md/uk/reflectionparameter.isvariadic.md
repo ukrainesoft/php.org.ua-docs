@@ -1,12 +1,12 @@
 Перевірити, чи є параметр параметром зі змінною кількістю аргументів
 
--   [« ReflectionParameter::isPassedByReference](reflectionparameter.ispassedbyreference.html)
+-   [« ReflectionParameter::isPassedByReference](reflectionparameter.ispassedbyreference.md)
     
--   [ReflectionParameter::toString »](reflectionparameter.tostring.html)
+-   [ReflectionParameter::toString »](reflectionparameter.tostring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionParameter](class.reflectionparameter.html)
+-   [ReflectionParameter](class.reflectionparameter.md)
     
 -   Перевірити, чи є параметр параметром зі змінною кількістю аргументів
     

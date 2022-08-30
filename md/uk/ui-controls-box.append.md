@@ -4,7 +4,7 @@
     
 -   [ОЙControlsBox::construct »](ui-controls-box.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsBox](class.ui-controls-box.html)
     

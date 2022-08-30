@@ -1,12 +1,12 @@
 Перетворення на рядок
 
--   [« ReflectionFunctionAbstract::returnsReference](reflectionfunctionabstract.returnsreference.html)
+-   [« ReflectionFunctionAbstract::returnsReference](reflectionfunctionabstract.returnsreference.md)
     
--   [ReflectionMethod »](class.reflectionmethod.html)
+-   [ReflectionMethod »](class.reflectionmethod.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
     
 -   Перетворення на рядок
     

@@ -1,12 +1,12 @@
 Повертає геометрію сторінки
 
--   [« Imagick::getPackageName](imagick.getpackagename.html)
+-   [« Imagick::getPackageName](imagick.getpackagename.md)
     
--   [Imagick::getPixelIterator »](imagick.getpixeliterator.html)
+-   [Imagick::getPixelIterator »](imagick.getpixeliterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає геометрію сторінки
     

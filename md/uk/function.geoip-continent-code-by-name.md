@@ -4,9 +4,9 @@
     
 -   [geoipcountrycodeбname »](function.geoip-country-code-by-name.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции GeoIP](ref.geoip.html)
+-   [Функции GeoIP](ref.geoip.md)
     
 -   Отримати двосимвольний код континенту
     
@@ -37,14 +37,14 @@ geoip_continent_code_by_name(string $hostname): string
 
 **Константи кодів**
 
-| Код  | Имя континента   |
-|------|------------------|
-| `AF` | Африка           |
-| `AN` | Антарктика       |
-| `AS` | Азія             |
-| `EU` | Європа           |
+| Код | Имя континента |
+| --- | --- |
+| `AF` | Африка |
+| `AN` | Антарктика |
+| `AS` | Азія |
+| `EU` | Європа |
 | `NA` | Північна Америка |
-| `OC` | Океанія          |
+| `OC` | Океанія |
 | `SA` | Південна Америка |
 
 ### Приклади

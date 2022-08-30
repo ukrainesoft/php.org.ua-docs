@@ -1,12 +1,12 @@
 Подання у вигляді рядка
 
--   [« ReflectionFunction::isDisabled](reflectionfunction.isdisabled.html)
+-   [« ReflectionFunction::isDisabled](reflectionfunction.isdisabled.md)
     
--   [ReflectionFunctionAbstract »](class.reflectionfunctionabstract.html)
+-   [ReflectionFunctionAbstract »](class.reflectionfunctionabstract.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunction](class.reflectionfunction.html)
+-   [ReflectionFunction](class.reflectionfunction.md)
     
 -   Подання у вигляді рядка
     
@@ -31,7 +31,7 @@ public ReflectionFunction::__toString(): string
 
 ### Значення, що повертаються
 
-Результат виконання схожий на висновок [ReflectionFunction::export()](reflectionfunction.export.html)
+Результат виконання схожий на висновок [ReflectionFunction::export()](reflectionfunction.export.md)
 
 ### Приклади
 
@@ -63,5 +63,5 @@ Function [ <user> function title ] {
 
 ### Дивіться також
 
--   [ReflectionFunction::export()](reflectionfunction.export.html) - Експортує функції
+-   [ReflectionFunction::export()](reflectionfunction.export.md) - Експортує функції
 -   [toString()](language.oop5.magic.html#object.tostring)

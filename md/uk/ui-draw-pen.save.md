@@ -4,7 +4,7 @@
     
 -   [ОЙDrawPen::stroke »](ui-draw-pen.stroke.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawPen](class.ui-draw-pen.html)
     

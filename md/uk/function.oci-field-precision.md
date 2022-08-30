@@ -4,9 +4,9 @@
     
 -   [ocifieldscale »](function.oci-field-scale.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8 Функции](ref.oci8.html)
+-   [OCI8 Функции](ref.oci8.md)
     
 -   Повертає точність поля
     
@@ -83,7 +83,7 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnprecision()](function.ocicolumnprecision.html). У PHP 5.0.0 і вище [ocicolumnprecision()](function.ocicolumnprecision.html) є аліасом [ocifieldscale()](function.oci-field-scale.html)Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnprecision()](function.ocicolumnprecision.md). У PHP 5.0.0 і вище [ocicolumnprecision()](function.ocicolumnprecision.md) є аліасом [ocifieldscale()](function.oci-field-scale.html)Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
 
 ### Дивіться також
 

@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](expect.configuration.html)
+-   [« Налаштування під час виконання](expect.configuration.md)
     
--   [Предопределённые константы »](expect.constants.html)
+-   [Обумовлені константи »](expect.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](expect.setup.html)
+-   [Встановлення та налаштування](expect.setup.md)
     
 -   Типи ресурсів
     

@@ -1,12 +1,12 @@
 Створення об'єкту GearmanJob
 
--   [« GearmanJob::complete](gearmanjob.complete.html)
+-   [« GearmanJob::complete](gearmanjob.complete.md)
     
--   [GearmanJob::data »](gearmanjob.data.html)
+-   [GearmanJob::data »](gearmanjob.data.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanJob](class.gearmanjob.html)
+-   [GearmanJob](class.gearmanjob.md)
     
 -   Створення об'єкту GearmanJob
     
@@ -23,7 +23,7 @@ GearmanJob::construct — Створення об'єкту GearmanJob
 public GearmanJob::__construct()
 ```
 
-Створює об'єкт класу [GearmanJob](class.gearmanjob.html)представляє завдання для оброблювача.
+Створює об'єкт класу [GearmanJob](class.gearmanjob.md)представляє завдання для оброблювача.
 
 ### Список параметрів
 
@@ -31,4 +31,4 @@ public GearmanJob::__construct()
 
 ### Значення, що повертаються
 
-Об'єкт [GearmanJob](class.gearmanjob.html)
+Об'єкт [GearmanJob](class.gearmanjob.md)

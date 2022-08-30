@@ -4,9 +4,9 @@
     
 -   [opensslverify »](function.openssl-verify.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Перевіряє підписаний відкритий ключ та виклик
     

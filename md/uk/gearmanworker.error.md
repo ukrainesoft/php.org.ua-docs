@@ -1,12 +1,12 @@
 Отримання останньої виявленої помилки
 
--   [« GearmanWorker::echo](gearmanworker.echo.html)
+-   [« GearmanWorker::echo](gearmanworker.echo.md)
     
--   [GearmanWorker::getErrno »](gearmanworker.geterrno.html)
+-   [GearmanWorker::getErrno »](gearmanworker.geterrno.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanWorker](class.gearmanworker.html)
+-   [GearmanWorker](class.gearmanworker.md)
     
 -   Отримання останньої виявленої помилки
     
@@ -35,4 +35,4 @@ public GearmanWorker::error(): string
 
 ### Дивіться також
 
--   [GearmanWorker::getErrno()](gearmanworker.geterrno.html) - Отримання номера помилки
+-   [GearmanWorker::getErrno()](gearmanworker.geterrno.md) - Отримання номера помилки

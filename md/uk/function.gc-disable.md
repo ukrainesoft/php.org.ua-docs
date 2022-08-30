@@ -4,9 +4,9 @@
     
 -   [гкenable »](function.gc-enable.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Вимикає збирач циклічних посилань
     
@@ -35,4 +35,4 @@ gc_disable(): void
 
 ### Дивіться також
 
--   [Сборка мусора](features.gc.html)
+-   [Сборка мусора](features.gc.md)

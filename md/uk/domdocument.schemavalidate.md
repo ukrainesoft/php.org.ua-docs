@@ -1,12 +1,12 @@
 Перевіряє дійсність документа, ґрунтуючись на заданій схемі. Підтримується лише XML-схема 1.0.
 
--   [« DOMDocument::saveXML](domdocument.savexml.html)
+-   [« DOMDocument::saveXML](domdocument.savexml.md)
     
--   [DOMDocument::schemaValidateSource »](domdocument.schemavalidatesource.html)
+-   [DOMDocument::schemaValidateSource »](domdocument.schemavalidatesource.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMDocument](class.domdocument.html)
+-   [DOMDocument](class.domdocument.md)
     
 -   Перевіряє дійсність документа, ґрунтуючись на заданій схемі. Підтримується лише XML-схема 1.0.
     
@@ -33,7 +33,7 @@ public DOMDocument::schemaValidate(string $filename, int $flags = 0): bool
 
 `flags`
 
-Бітова маска прапори перевірки схеми Libxml. На даний момент підтримується лише одне значення [LIBXMLSCHEMACREATE](libxml.constants.html). Параметр доступний, починаючи з Libxml 2.6.14.
+Бітова маска прапори перевірки схеми Libxml. На даний момент підтримується лише одне значення [LIBXMLSCHEMACREATE](libxml.constants.md). Параметр доступний, починаючи з Libxml 2.6.14.
 
 ### Значення, що повертаються
 
@@ -41,7 +41,7 @@ public DOMDocument::schemaValidate(string $filename, int $flags = 0): bool
 
 ### Дивіться також
 
--   [DOMDocument::schemaValidateSource()](domdocument.schemavalidatesource.html) - Перевіряє дійсність документа, ґрунтуючись на схемі
--   [DOMDocument::relaxNGValidate()](domdocument.relaxngvalidate.html) - Здійснює перевірку документа на правильність побудови за допомогою relaxNG
--   [DOMDocument::relaxNGValidateSource()](domdocument.relaxngvalidatesource.html) - Перевіряє документ за допомогою relaxNG
--   [DOMDocument::validate()](domdocument.validate.html) - Перевіряє документ на відповідність його DTD
+-   [DOMDocument::schemaValidateSource()](domdocument.schemavalidatesource.md) - Перевіряє дійсність документа, ґрунтуючись на схемі
+-   [DOMDocument::relaxNGValidate()](domdocument.relaxngvalidate.md) - Здійснює перевірку документа на правильність побудови за допомогою relaxNG
+-   [DOMDocument::relaxNGValidateSource()](domdocument.relaxngvalidatesource.md) - Перевіряє документ за допомогою relaxNG
+-   [DOMDocument::validate()](domdocument.validate.md) - Перевіряє документ на відповідність його DTD

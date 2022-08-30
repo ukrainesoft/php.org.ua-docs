@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](session.constants.html)
+-   [« Обумовлені константи](session.constants.md)
     
--   [Основы использования »](session.examples.basic.html)
+-   [Основи використання »](session.examples.basic.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Сессии](book.session.html)
+-   [Сессии](book.session.md)
     
 -   Приклади
     
@@ -15,6 +15,6 @@
 
 ## Зміст
 
--   [Основы использования](session.examples.basic.html)
--   [Передача идентификатора сессии](session.idpassing.html)
--   [Користувальницькі обробники сесії](session.customhandler.html)
+-   [Основи використання](session.examples.basic.md)
+-   [Передача идентификатора сессии](session.idpassing.md)
+-   [Користувальницькі обробники сесії](session.customhandler.md)

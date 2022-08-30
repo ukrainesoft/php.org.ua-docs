@@ -1,12 +1,12 @@
 Клас RecursiveRegexIterator
 
--   [« RecursiveIteratorIterator::valid](recursiveiteratoriterator.valid.html)
+-   [« RecursiveIteratorIterator::valid](recursiveiteratoriterator.valid.md)
     
--   [RecursiveRegexIterator::construct »](recursiveregexiterator.construct.html)
+-   [RecursiveRegexIterator::construct »](recursiveregexiterator.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Ітератори](spl.iterators.html)
+-   [Ітератори](spl.iterators.md)
     
 -   Клас RecursiveRegexIterator
     
@@ -105,6 +105,6 @@ public IteratorIterator::valid(): bool
 
 ## Зміст
 
--   [RecursiveRegexIterator::construct](recursiveregexiterator.construct.html) - Конструктор класу RecursiveRegexIterator
--   [RecursiveRegexIterator::getChildren](recursiveregexiterator.getchildren.html) — Повертає ітератор до поточного елемента
--   [RecursiveRegexIterator::hasChildren](recursiveregexiterator.haschildren.html) — Визначає, чи можлива навігація за вмістом поточного елемента
+-   [RecursiveRegexIterator::construct](recursiveregexiterator.construct.md) - Конструктор класу RecursiveRegexIterator
+-   [RecursiveRegexIterator::getChildren](recursiveregexiterator.getchildren.md) — Повертає ітератор до поточного елемента
+-   [RecursiveRegexIterator::hasChildren](recursiveregexiterator.haschildren.md) — Визначає, чи можлива навігація за вмістом поточного елемента

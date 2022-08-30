@@ -1,12 +1,12 @@
 Змінні сесії
 
--   [REQUEST](reserved.variables.request.html)
+-   [REQUEST](reserved.variables.request.md)
     
--   [ENV »](reserved.variables.environment.html)
+-   [ENV »](reserved.variables.environment.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые переменные](reserved.variables.html)
+-   [Зумовлені змінні](reserved.variables.md)
     
 -   Змінні сесії
     
@@ -19,7 +19,7 @@ SESSION - Змінні сесії
 
 ### Опис
 
-Асоціативний масив, що містить змінні сесії, доступні для поточного скрипту. Дивіться документацію з [функциям сессии](ref.session.html) для отримання додаткової інформації.
+Асоціативний масив, що містить змінні сесії, доступні для поточного скрипту. Дивіться документацію з [функциям сессии](ref.session.md) для отримання додаткової інформації.
 
 ### Примітки
 

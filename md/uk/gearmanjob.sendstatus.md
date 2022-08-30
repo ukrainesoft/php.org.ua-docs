@@ -1,12 +1,12 @@
 Надсилання статусу
 
--   [« GearmanJob::sendFail](gearmanjob.sendfail.html)
+-   [« GearmanJob::sendFail](gearmanjob.sendfail.md)
     
--   [GearmanJob::sendWarning »](gearmanjob.sendwarning.html)
+-   [GearmanJob::sendWarning »](gearmanjob.sendwarning.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanJob](class.gearmanjob.html)
+-   [GearmanJob](class.gearmanjob.md)
     
 -   Надсилання статусу
     
@@ -41,6 +41,6 @@ public GearmanJob::sendStatus(int $numerator, int $denominator): bool
 
 ### Дивіться також
 
--   [GearmanClient::jobStatus()](gearmanclient.jobstatus.html) - Набуття статусу виконання фонового завдання
--   [GearmanTask::taskDenominator()](gearmantask.taskdenominator.html) - отримати знаменник відсотка виконаної роботи
--   [GearmanTask::taskNumerator()](gearmantask.tasknumerator.html) - отримання чисельника відсотка виконаної роботи
+-   [GearmanClient::jobStatus()](gearmanclient.jobstatus.md) - Набуття статусу виконання фонового завдання
+-   [GearmanTask::taskDenominator()](gearmantask.taskdenominator.md) - отримати знаменник відсотка виконаної роботи
+-   [GearmanTask::taskNumerator()](gearmantask.tasknumerator.md) - отримання чисельника відсотка виконаної роботи

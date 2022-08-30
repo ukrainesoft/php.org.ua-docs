@@ -4,7 +4,7 @@
     
 -   [RowResult::getColumns »](mysql-xdevapi-rowresult.getcolumns.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiRowResult](class.mysql-xdevapi-rowresult.html)
     

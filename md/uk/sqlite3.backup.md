@@ -1,12 +1,12 @@
 Резервне копіювання однієї бази даних до іншої
 
--   [« SQLite3](class.sqlite3.html)
+-   [« SQLite3](class.sqlite3.md)
     
--   [SQLite3::busyTimeout »](sqlite3.busytimeout.html)
+-   [SQLite3::busyTimeout »](sqlite3.busytimeout.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3](class.sqlite3.html)
+-   [SQLite3](class.sqlite3.md)
     
 -   Резервне копіювання однієї бази даних до іншої
     
@@ -33,7 +33,7 @@ public SQLite3::backup(SQLite3 $destination, string $sourceDatabase = "main", st
 
 `destination`
 
-З'єднання з базою, відкрите за допомогою [SQLite3::open()](sqlite3.open.html)
+З'єднання з базою, відкрите за допомогою [SQLite3::open()](sqlite3.open.md)
 
 `sourceDatabase`
 

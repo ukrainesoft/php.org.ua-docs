@@ -1,12 +1,12 @@
 Створює новий об'єкт класу DOMXPath
 
--   [« DOMXPath](class.domxpath.html)
+-   [« DOMXPath](class.domxpath.md)
     
--   [DOMXPath::evaluate »](domxpath.evaluate.html)
+-   [DOMXPath::evaluate »](domxpath.evaluate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMXPath](class.domxpath.html)
+-   [DOMXPath](class.domxpath.md)
     
 -   Створює новий об'єкт класу DOMXPath
     
@@ -15,16 +15,16 @@
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMXPath::construct — Створює новий об'єкт класу [DOMXPath](class.domxpath.html)
+DOMXPath::construct — Створює новий об'єкт класу [DOMXPath](class.domxpath.md)
 
 ### Опис
 
-public **DOMXPath::construct**[DOMDocument](class.domdocument.html) `$document`, bool `$registerNodeNS` **`true`**
+public **DOMXPath::construct**[DOMDocument](class.domdocument.md) `$document`, bool `$registerNodeNS` **`true`**
 
-Створює новий об'єкт класу [DOMXPath](class.domxpath.html)
+Створює новий об'єкт класу [DOMXPath](class.domxpath.md)
 
 ### Список параметрів
 
 `document`
 
-Об'єкт класу [DOMDocument](class.domdocument.html), пов'язаний з [DOMXPath](class.domxpath.html)
+Об'єкт класу [DOMDocument](class.domdocument.md), пов'язаний з [DOMXPath](class.domxpath.md)

@@ -4,7 +4,7 @@
     
 -   [Firebird (PDO) »](ref.pdo-firebird.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.html)
     

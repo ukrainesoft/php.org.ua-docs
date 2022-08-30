@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONUTCDateTimeInterface »](class.mongodb-bson-utcdatetimeinterface.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONTimestampInterface](class.mongodb-bson-timestampinterface.html)
     

@@ -1,12 +1,12 @@
 Прапори перевірки
 
--   [« Предопределённые константы](openssl.constants.html)
+-   [« Обумовлені константи](openssl.constants.md)
     
--   [Флаги заполнения для ассиметричного шифрования »](openssl.padding.html)
+-   [Флаги заполнения для ассиметричного шифрования »](openssl.padding.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые константы](openssl.constants.html)
+-   [Обумовлені константи](openssl.constants.md)
     
 -   Прапори перевірки
     

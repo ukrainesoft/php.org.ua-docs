@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](xsl.installation.html)
+-   [« Установка](xsl.installation.md)
     
--   [Типы ресурсов »](xsl.resources.html)
+-   [Типи ресурсів »](xsl.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xsl.setup.html)
+-   [Встановлення та налаштування](xsl.setup.md)
     
 -   Налаштування під час виконання
     

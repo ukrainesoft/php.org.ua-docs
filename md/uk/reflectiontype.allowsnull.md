@@ -1,12 +1,12 @@
 Перевіряє, чи допустимо NULL
 
--   [« ReflectionType](class.reflectiontype.html)
+-   [« ReflectionType](class.reflectiontype.md)
     
--   [ReflectionType::toString »](reflectiontype.tostring.html)
+-   [ReflectionType::toString »](reflectiontype.tostring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionType](class.reflectiontype.html)
+-   [ReflectionType](class.reflectiontype.md)
     
 -   Перевіряє, чи допустимо NULL
     
@@ -57,6 +57,6 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionNamedType::isBuiltin()](reflectionnamedtype.isbuiltin.html) - Перевіряє, чи є тип вбудованим
--   [ReflectionType::toString()](reflectiontype.tostring.html) - Перетворення на рядок
--   [ReflectionParameter::getType()](reflectionparameter.gettype.html) - Отримати тип параметра
+-   [ReflectionNamedType::isBuiltin()](reflectionnamedtype.isbuiltin.md) - Перевіряє, чи є тип вбудованим
+-   [ReflectionType::toString()](reflectiontype.tostring.md) - Перетворення на рядок
+-   [ReflectionParameter::getType()](reflectionparameter.gettype.md) - Отримати тип параметра

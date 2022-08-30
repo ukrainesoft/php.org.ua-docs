@@ -4,7 +4,7 @@
     
 -   [YafApplication::setAppDirectory »](yaf-application.setappdirectory.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafApplication](class.yaf-application.html)
     

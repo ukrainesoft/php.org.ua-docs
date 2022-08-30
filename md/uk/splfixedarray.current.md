@@ -1,12 +1,12 @@
 Повертає поточний елемент масиву
 
--   [« SplFixedArray::count](splfixedarray.count.html)
+-   [« SplFixedArray::count](splfixedarray.count.md)
     
--   [SplFixedArray::fromArray »](splfixedarray.fromarray.html)
+-   [SplFixedArray::fromArray »](splfixedarray.fromarray.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFixedArray](class.splfixedarray.html)
+-   [SplFixedArray](class.splfixedarray.md)
     
 -   Повертає поточний елемент масиву
     
@@ -35,4 +35,4 @@ public SplFixedArray::current(): mixed
 
 ### Помилки
 
-Викидає виняток [RuntimeException](class.runtimeexception.html)коли внутрішній покажчик масиву вказує на неправильний індекс або вийшов за допустимі межі.
+Викидає виняток [RuntimeException](class.runtimeexception.md)коли внутрішній покажчик масиву вказує на неправильний індекс або вийшов за допустимі межі.

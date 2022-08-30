@@ -4,7 +4,7 @@
     
 -   [YafRouteRegex::construct »](yaf-route-regex.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRouteRegex](class.yaf-route-regex.html)
     

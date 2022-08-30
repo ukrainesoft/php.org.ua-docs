@@ -4,9 +4,9 @@
     
 -   [datetimestampset »](function.date-timestamp-set.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Псевдонім DateTime::getTimestamp
     
@@ -15,8 +15,8 @@
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-datetimestampget - Псевдонім [DateTime::getTimestamp()](datetime.gettimestamp.html)
+datetimestampget - Псевдонім [DateTime::getTimestamp()](datetime.gettimestamp.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateTime::getTimestamp()](datetime.gettimestamp.html)
+Ця функція є псевдонімом: [DateTime::getTimestamp()](datetime.gettimestamp.md)

@@ -4,9 +4,9 @@
     
 -   [streambucketnew »](function.stream-bucket-new.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.md)
     
 -   Повертає об'єкт кошика із бригади для подальшої роботи з ним
     

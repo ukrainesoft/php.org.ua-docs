@@ -1,12 +1,12 @@
 Phar-архіви, засновані на tar
 
--   [« Сравнение Phar, Tar и Zip](phar.fileformat.comparison.html)
+-   [« Сравнение Phar, Tar и Zip](phar.fileformat.comparison.md)
     
--   [Phar-архивы, основанные на zip »](phar.fileformat.zip.html)
+-   [Phar-архіви на основі zip »](phar.fileformat.zip.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.html)
+-   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.md)
     
 -   Phar-архіви, засновані на tar
     
@@ -17,4 +17,4 @@ Phar-архіви, засновані на tar
 
 Існує обмежена підтримка читання архівів у форматі обміну pax, але всі розпізнані заголовки pax (нині typeflag `x` and `g`) ігноруються. Також є обмежена підтримка архівів GNU Tar; в даний час заголовки `././@LongLink` дозволені.
 
-Для стиснення всього архіву використовуйте [Phar::compress()](phar.compress.html). Для розпакування всього масиву використовуйте [Phar::decompress()](phar.decompress.html)
+Для стиснення всього архіву використовуйте [Phar::compress()](phar.compress.md). Для розпакування всього масиву використовуйте [Phar::decompress()](phar.decompress.md)

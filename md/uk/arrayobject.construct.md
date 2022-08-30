@@ -1,12 +1,12 @@
 Створює новий об'єкт масиву
 
--   [« ArrayObject::asort](arrayobject.asort.html)
+-   [« ArrayObject::asort](arrayobject.asort.md)
     
--   [ArrayObject::count »](arrayobject.count.html)
+-   [ArrayObject::count »](arrayobject.count.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayObject](class.arrayobject.html)
+-   [ArrayObject](class.arrayobject.md)
     
 -   Створює новий об'єкт масиву
     
@@ -31,11 +31,11 @@ public **ArrayObject::construct**(array | об'єкт `$array` , int `$flags` = 
 
 `flags`
 
-Прапори для керування поведінкою об'єкта [ArrayObject](class.arrayobject.html). Дивіться [ArrayObject::setFlags()](arrayobject.setflags.html)
+Прапори для керування поведінкою об'єкта [ArrayObject](class.arrayobject.md). Дивіться [ArrayObject::setFlags()](arrayobject.setflags.md)
 
 `iteratorClass`
 
-Вказує клас, який використовуватиметься як ітератор об'єкта [ArrayObject](class.arrayobject.html). Клас має реалізувати інтерфейс [ArrayIterator](class.arrayiterator.html)
+Вказує клас, який використовуватиметься як ітератор об'єкта [ArrayObject](class.arrayobject.md). Клас має реалізувати інтерфейс [ArrayIterator](class.arrayiterator.md)
 
 ### Приклади
 
@@ -68,4 +68,4 @@ object(ArrayObject)#1 (3) {
 
 ### Дивіться також
 
--   [ArrayObject::setflags()](arrayobject.setflags.html) - Встановлює прапори поведінки
+-   [ArrayObject::setflags()](arrayobject.setflags.md) - Встановлює прапори поведінки

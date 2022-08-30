@@ -4,7 +4,7 @@
     
 -   [ДсSet::reduce »](ds-set.reduce.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Набор](class.ds-set.html)
     
@@ -29,7 +29,7 @@ public Ds\Set::merge(mixed $values): Ds\Set
 
 `values`
 
-Об'єкт класу [traversable](class.traversable.html) чи масив (array).
+Об'єкт класу [traversable](class.traversable.md) чи масив (array).
 
 ### Значення, що повертаються
 

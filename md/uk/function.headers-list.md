@@ -1,12 +1,12 @@
 Повертає список переданих заголовків (або готових до відправлення)
 
--   [« header](function.header.html)
+-   [« header](function.header.md)
     
 -   [headerssent »](function.headers-sent.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Мережеві функції](ref.network.html)
+-   [Мережеві функції](ref.network.md)
     
 -   Повертає список переданих заголовків (або готових до відправлення)
     
@@ -78,7 +78,7 @@ array(3) {
 ### Дивіться також
 
 -   [headerssent()](function.headers-sent.html) - Перевіряє, чи були надіслані заголовки
--   [header()](function.header.html) - Надсилання HTTP-заголовка
--   [setcookie()](function.setcookie.html) - Надсилає cookie
+-   [header()](function.header.md) - Надсилання HTTP-заголовка
+-   [setcookie()](function.setcookie.md) - Надсилає cookie
 -   [apacheresponseheaders()](function.apache-response-headers.html) - Повертає список усіх HTTP-заголовків відповіді Apache
 -   [httpresponsecode()](function.http-response-code.html) - Отримує або встановлює код відповіді HTTP

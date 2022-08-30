@@ -1,12 +1,12 @@
 Ініціалізує сесію
 
--   [« SessionHandlerInterface::gc](sessionhandlerinterface.gc.html)
+-   [« SessionHandlerInterface::gc](sessionhandlerinterface.gc.md)
     
--   [SessionHandlerInterface::read »](sessionhandlerinterface.read.html)
+-   [SessionHandlerInterface::read »](sessionhandlerinterface.read.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SessionHandlerInterface](class.sessionhandlerinterface.html)
+-   [SessionHandlerInterface](class.sessionhandlerinterface.md)
     
 -   Ініціалізує сесію
     

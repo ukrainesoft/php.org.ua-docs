@@ -1,12 +1,12 @@
 Встановлення зображення (пензля), за допомогою якого будуть малюватись лінії
 
--   [« imagescale](function.imagescale.html)
+-   [« imagescale](function.imagescale.md)
     
--   [imagesetclip »](function.imagesetclip.html)
+-   [imagesetclip »](function.imagesetclip.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Встановлення зображення (пензля), за допомогою якого будуть малюватись лінії
     
@@ -23,7 +23,7 @@ imagesetbrush — Встановлення зображення (пензля), 
 imagesetbrush(GdImage $image, GdImage $brush): bool
 ```
 
-**imagesetbrush()** задає зображення, яке використовуватиметься функціями для малювання ліній (такими як [imageline()](function.imageline.html) і [imagepolygon()](function.imagepolygon.html)) при використанні кольорів **`IMG_COLOR_BRUSHED`** або **`IMG_COLOR_STYLEDBRUSHED`**
+**imagesetbrush()** задає зображення, яке використовуватиметься функціями для малювання ліній (такими як [imageline()](function.imageline.md) і [imagepolygon()](function.imagepolygon.md)) при використанні кольорів **`IMG_COLOR_BRUSHED`** або **`IMG_COLOR_STYLEDBRUSHED`**
 
 **Застереження**
 
@@ -33,7 +33,7 @@ imagesetbrush(GdImage $image, GdImage $brush): bool
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `brush`
 
@@ -45,9 +45,9 @@ imagesetbrush(GdImage $image, GdImage $brush): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------|
-|        | `image` і `brush` тепер чекають на екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` і `brush` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

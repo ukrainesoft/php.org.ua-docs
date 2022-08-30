@@ -14,12 +14,12 @@ RpmInfo
 # RpmInfo
 
 -   [Введение](intro.rpminfo.html)
--   [Установка и настройка](rpminfo.setup.html)
-    -   [Требования](rpminfo.requirements.html)
+-   [Встановлення та налаштування](rpminfo.setup.html)
+    -   [Вимоги](rpminfo.requirements.html)
     -   [Установка через PECL](rpminfo.installation.html)
-    -   [Настройка во время выполнения](rpminfo.configuration.html)
-    -   [Типы ресурсов](rpminfo.resources.html)
--   [Предопределённые константы](rpminfo.constants.html)
+    -   [Налаштування під час виконання](rpminfo.configuration.html)
+    -   [Типи ресурсів](rpminfo.resources.html)
+-   [Обумовлені константи](rpminfo.constants.html)
 -   [Функції RpmInfo](ref.rpminfo.html)
     -   [rpmaddtag](function.rpmaddtag.html) — Додає тег, отриманий у запиті
     -   [rpmdbinfo](function.rpmdbinfo.html) — Отримує інформацію від встановленого RPM

@@ -4,7 +4,7 @@
     
 -   [ОЙSize::getWidth »](ui-size.getwidth.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙSize](class.ui-size.html)
     

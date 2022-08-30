@@ -1,8 +1,8 @@
 Приклади
 
--   [« Предопределённые константы](wddx.constants.html)
+-   [« Обумовлені константи](wddx.constants.html)
     
--   [Примеры wddx »](wddx.examples-serialize.html)
+-   [Приклади wddx »](wddx.examples-serialize.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [Примеры wddx](wddx.examples-serialize.html)
+-   [Приклади wddx](wddx.examples-serialize.html)

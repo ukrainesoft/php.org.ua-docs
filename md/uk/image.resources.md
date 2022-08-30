@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](image.configuration.html)
+-   [« Налаштування під час виконання](image.configuration.md)
     
--   [Предопределённые константы »](image.constants.html)
+-   [Обумовлені константи »](image.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](image.setup.html)
+-   [Встановлення та налаштування](image.setup.md)
     
 -   Типи ресурсів
     
@@ -17,7 +17,7 @@
 
 **Список типів ресурсів у GD**
 
-| Имя       | Описание                                                                                                     | Замечания    |
-|-----------|--------------------------------------------------------------------------------------------------------------|--------------|
-| `gd`      | Зображення, що використовується такими функціями як [imagecreatefrompng()](function.imagecreatefrompng.html) | До PHP 8.0.0 |
-| `gd font` | Ресурс шрифту, що створюється функцією [imageloadfont()](function.imageloadfont.html)                        | До PHP 8.1.0 |
+| Имя | Описание | Замечания |
+| --- | --- | --- |
+| `gd` | Зображення, що використовується такими функціями як [imagecreatefrompng()](function.imagecreatefrompng.md) | До PHP 8.0.0 |
+| `gd font` | Ресурс шрифту, що створюється функцією [imageloadfont()](function.imageloadfont.md) | До PHP 8.1.0 |

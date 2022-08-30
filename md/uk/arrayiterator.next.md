@@ -1,12 +1,12 @@
 Переміщує покажчик за наступний запис
 
--   [« ArrayIterator::natsort](arrayiterator.natsort.html)
+-   [« ArrayIterator::natsort](arrayiterator.natsort.md)
     
--   [ArrayIterator::offsetExists »](arrayiterator.offsetexists.html)
+-   [ArrayIterator::offsetExists »](arrayiterator.offsetexists.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayIterator](class.arrayiterator.html)
+-   [ArrayIterator](class.arrayiterator.md)
     
 -   Переміщує покажчик за наступний запис
     

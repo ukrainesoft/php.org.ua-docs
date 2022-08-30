@@ -1,12 +1,12 @@
 Повертає потенційний тип зображення
 
--   [« Gmagick::getimagesignature](gmagick.getimagesignature.html)
+-   [« Gmagick::getimagesignature](gmagick.getimagesignature.md)
     
--   [Gmagick::getimageunits »](gmagick.getimageunits.html)
+-   [Gmagick::getimageunits »](gmagick.getimageunits.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повертає потенційний тип зображення
     

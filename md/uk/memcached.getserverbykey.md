@@ -1,12 +1,12 @@
 Отримує інформацію про сервер по ключу
 
--   [« Memcached::getResultMessage](memcached.getresultmessage.html)
+-   [« Memcached::getResultMessage](memcached.getresultmessage.md)
     
--   [Memcached::getServerList »](memcached.getserverlist.html)
+-   [Memcached::getServerList »](memcached.getserverlist.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Отримує інформацію про сервер по ключу
     
@@ -33,7 +33,7 @@ public Memcached::getServerByKey(string $server_key): array
 
 ### Значення, що повертаються
 
-Повертає масив, що містить такі ключі: `host` `port`, і `weight` у разі успішного виконання або **`false`** у разі невдачі. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.html)
+Повертає масив, що містить такі ключі: `host` `port`, і `weight` у разі успішного виконання або **`false`** у разі невдачі. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.md)
 
 ### Приклади
 

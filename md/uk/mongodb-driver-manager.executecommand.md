@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverManager::executeQuery »](mongodb-driver-manager.executequery.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverManager](class.mongodb-driver-manager.html)
     
@@ -41,10 +41,10 @@ final public MongoDB\Driver\Manager::executeCommand(string $db, MongoDB\Driver\C
 
 **options**
 
-| Опция                                  | Тип                                                               | Описание |
-|----------------------------------------|-------------------------------------------------------------------|----------|
-| readConcern                            | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) |          |
-| Гарантія для застосування до операції. |                                                                   |          |
+| Опция | Тип | Описание |
+| --- | --- | --- |
+| readConcern | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) |  |
+| Гарантія для застосування до операції. |  |  |
 
 Ця опція доступна в MongoDB 3.2+ і призведе до виключення під час виконання, якщо вказана для старої версії сервера.
 
@@ -79,10 +79,10 @@ final public MongoDB\Driver\Manager::executeCommand(string $db, MongoDB\Driver\C
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                                                                                                   |
-|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.4.4 | Якщо опція `"session"` використовується у поєднанні з непідтвердженою гарантією запису, викидається виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) |
-| PECL mongodb 1.4.0 | Третій параметр тепер є масивом `options`. Для зворотної сумісності цей параметр все одно прийме об'єкт [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)                                            |
+| PECL mongodb 1.4.0 | Третій параметр тепер є масивом `options`. Для зворотної сумісності цей параметр все одно прийме об'єкт [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html) |
 
 ### Приклади
 
@@ -170,7 +170,7 @@ object(stdClass)#7 (2) {
 
 **Приклад #3 Обмеження часу виконання запиту**
 
-Опція `"maxTimeMS"` класу [MongoDBDriverQuery](class.mongodb-driver-query.html) може використовуватись для обмеження часу виконання запиту. Зауважте, що цей термін застосовується на стороні сервера і не враховує затримки мережі. Дивіться [» Завершение выполнения операций](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems) у посібнику MongoDB для отримання додаткової інформації.
+Опція `"maxTimeMS"` класу [MongoDBDriverQuery](class.mongodb-driver-query.html) може використовуватись для обмеження часу виконання запиту. Зауважте, що цей термін застосовується на стороні сервера і не враховує затримки мережі. Дивіться [» Завершення виконання операцій](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems) у посібнику MongoDB для отримання додаткової інформації.
 
 ```php
 <?php

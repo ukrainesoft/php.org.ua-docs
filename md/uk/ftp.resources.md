@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](ftp.configuration.html)
+-   [« Налаштування під час виконання](ftp.configuration.md)
     
--   [Предопределённые константы »](ftp.constants.html)
+-   [Обумовлені константи »](ftp.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ftp.setup.html)
+-   [Встановлення та налаштування](ftp.setup.md)
     
 -   Типи ресурсів
     

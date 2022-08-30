@@ -1,12 +1,12 @@
 Зв'язує параметр зі змінною підготовленого запиту
 
--   [« SQLite3Stmt](class.sqlite3stmt.html)
+-   [« SQLite3Stmt](class.sqlite3stmt.md)
     
--   [SQLite3Stmt::bindValue »](sqlite3stmt.bindvalue.html)
+-   [SQLite3Stmt::bindValue »](sqlite3stmt.bindvalue.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3Stmt](class.sqlite3stmt.html)
+-   [SQLite3Stmt](class.sqlite3stmt.md)
     
 -   Зв'язує параметр зі змінною підготовленого запиту
     
@@ -27,7 +27,7 @@ public SQLite3Stmt::bindParam(string|int $param, mixed &$var, int $type = SQLITE
 
 **Застереження**
 
-До PHP 7.2.14 та 7.3.0, [SQLite3Stmt::reset()](sqlite3stmt.reset.html) повинен викликатись до першого виклику [SQLite3Stmt::execute()](sqlite3stmt.execute.html)якщо потрібно, щоб пов'язане значення коректно оновлювалося при наступних викликах [SQLite3Stmt::execute()](sqlite3stmt.execute.html). Якщо метод [SQLite3Stmt::reset()](sqlite3stmt.reset.html) не викликався, то пов'язане значення не змінюватиметься, навіть якщо значення, присвоєне змінної, переданої **SQLite3Stmt::bindParam()**, змінилося або знову було викликано метод **SQLite3Stmt::bindParam()**
+До PHP 7.2.14 та 7.3.0, [SQLite3Stmt::reset()](sqlite3stmt.reset.md) повинен викликатись до першого виклику [SQLite3Stmt::execute()](sqlite3stmt.execute.md)якщо потрібно, щоб пов'язане значення коректно оновлювалося при наступних викликах [SQLite3Stmt::execute()](sqlite3stmt.execute.md). Якщо метод [SQLite3Stmt::reset()](sqlite3stmt.reset.md) не викликався, то пов'язане значення не змінюватиметься, навіть якщо значення, присвоєне змінної, переданої **SQLite3Stmt::bindParam()**, змінилося або знову було викликано метод **SQLite3Stmt::bindParam()**
 
 ### Список параметрів
 
@@ -66,9 +66,9 @@ public SQLite3Stmt::bindParam(string|int $param, mixed &$var, int $type = SQLITE
 
 ### список змін
 
-| Версия | Описание                                          |
-|--------|---------------------------------------------------|
-|        | Параметр `param` тепер підтримує нотацію `@param` |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `param` тепер підтримує нотацію `@param` |
 
 ### Приклади
 
@@ -112,5 +112,5 @@ array(1) {
 
 ### Дивіться також
 
--   [SQLite3Stmt::bindValue()](sqlite3stmt.bindvalue.html) - Зв'язує значення параметра зі змінною підготовленого запиту
--   [SQLite3::prepare()](sqlite3.prepare.html) - готує SQL-запит для виконання
+-   [SQLite3Stmt::bindValue()](sqlite3stmt.bindvalue.md) - Зв'язує значення параметра зі змінною підготовленого запиту
+-   [SQLite3::prepare()](sqlite3.prepare.md) - готує SQL-запит для виконання

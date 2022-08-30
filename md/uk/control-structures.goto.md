@@ -2,9 +2,9 @@ goto
 
 -   [« includeonce](function.include-once.html)
     
--   [Функції »](language.functions.html)
+-   [Функції »](language.functions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Управляющие конструкции](language.control-structures.html)
     

@@ -1,12 +1,12 @@
 Повертає інформацію про рядок буфера
 
--   [« Функции модуля Fileinfo](ref.fileinfo.html)
+-   [« Функции модуля Fileinfo](ref.fileinfo.md)
     
 -   [finfoclose »](function.finfo-close.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции модуля Fileinfo](ref.fileinfo.html)
+-   [Функции модуля Fileinfo](ref.fileinfo.md)
     
 -   Повертає інформацію про рядок буфера
     
@@ -39,7 +39,7 @@ public finfo::buffer(string $string, int $flags = FILEINFO_NONE, ?resource $cont
 
 `finfo`
 
-Екземпляр [finfo](class.finfo.html), що повертається функцією [finfoopen()](function.finfo-open.html)
+Екземпляр [finfo](class.finfo.md), що повертається функцією [finfoopen()](function.finfo-open.html)
 
 `string`
 
@@ -47,7 +47,7 @@ public finfo::buffer(string $string, int $flags = FILEINFO_NONE, ?resource $cont
 
 `flags`
 
-Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.html)
+Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.md)
 
 `context`
 
@@ -57,14 +57,14 @@ public finfo::buffer(string $string, int $flags = FILEINFO_NONE, ?resource $cont
 
 ### список змін
 
-| Версия | Описание                                                                                                                             |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `context` тепер допускає значення null.                                                                                              |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | `context` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад [finfobuffer()](finfo.buffer.html)**
+**Приклад #1 Приклад [finfobuffer()](finfo.buffer.md)**
 
 ```php
 <?php
@@ -81,4 +81,4 @@ application/x-sh; charset=us-ascii
 
 ### Дивіться також
 
--   [finfofile()](finfo.file.html) - Псевдонім finfofile()
+-   [finfofile()](finfo.file.md) - Псевдонім finfofile()

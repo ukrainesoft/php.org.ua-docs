@@ -1,12 +1,12 @@
 Вступ
 
--   [« Swoole](book.swoole.html)
+-   [« Swoole](book.swoole.md)
     
--   [Установка и настройка »](swoole.setup.html)
+-   [Встановлення та налаштування »](swoole.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Swoole](book.swoole.html)
+-   [Swoole](book.swoole.md)
     
 -   Вступ
     

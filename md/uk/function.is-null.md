@@ -4,9 +4,9 @@
     
 -   [ісnumeric »](function.is-numeric.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи зі змінними](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.md)
     
 -   Перевіряє, чи значення змінної дорівнює null
     
@@ -59,7 +59,7 @@ bool(true)
 ### Дивіться також
 
 -   Тип [**`null`**](language.types.null.html#language.types.null.syntax)
--   [isset()](function.isset.html) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
+-   [isset()](function.isset.md) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
 -   [ісbool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
 -   [ісnumeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом чи рядком, що містить число
 -   [ісfloat()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою

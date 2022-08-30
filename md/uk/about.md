@@ -1,12 +1,12 @@
 Про це керівництво
 
--   [« Советы](userlandnaming.tips.html)
+-   [« Поради](userlandnaming.tips.md)
     
--   [Форматы »](about.formats.html)
+-   [Формати »](about.formats.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Appendices](appendices.html)
+-   [Appendices](appendices.md)
     
 -   Про це керівництво
     
@@ -15,11 +15,11 @@
 
 ## Зміст
 
--   [Форматы](about.formats.html)
--   [Про нотатки користувачів](about.notes.html)
--   [Як читати визначення функції (прототип)](about.prototypes.html)
--   [Версії PHP, документовані у цьому посібнику](about.phpversions.html)
--   [Як дізнатися більше про PHP](about.more.html)
--   [Як допомогти у написанні документації](about.howtohelp.html)
--   [Як створюються формати документації](about.generate.html)
--   [Переводы](about.translations.html)
+-   [Формати](about.formats.md)
+-   [Про записи користувачів](about.notes.md)
+-   [Як читати визначення функції (прототип)](about.prototypes.md)
+-   [Версії PHP, документовані у цьому посібнику](about.phpversions.md)
+-   [Як дізнатися більше про PHP](about.more.md)
+-   [Як допомогти у написанні документації](about.howtohelp.md)
+-   [Як створюються формати документації](about.generate.md)
+-   [Переклади](about.translations.md)

@@ -4,9 +4,9 @@
     
 -   [sodiumcryptocoreristretto255scalaradd »](function.sodium-crypto-core-ristretto255-scalar-add.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Генерує випадковий ключ
     

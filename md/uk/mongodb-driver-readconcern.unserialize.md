@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverCursor »](class.mongodb-driver-cursor.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
     
@@ -42,5 +42,5 @@ final public MongoDB\Driver\ReadConcern::unserialize(string $serialized): void
 ### Дивіться також
 
 -   [MongoDBDriverReadConcern::serialize()](mongodb-driver-readconcern.serialize.html) - Серіалізація ReadConcern
--   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

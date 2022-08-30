@@ -2,7 +2,7 @@
 
 -   [« Нові класи та інтерфейси](migration81.new-classes.html)
     
--   [Новые глобальные константы »](migration81.constants.html)
+-   [Нові глобальні константи »](migration81.constants.html)
     
 -   [PHP Manual](index.html)
     

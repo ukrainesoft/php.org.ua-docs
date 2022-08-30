@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](gmagick.setup.html)
+-   [« Встановлення та налаштування](gmagick.setup.html)
     
 -   [Установка »](gmagick.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](gmagick.setup.html)
+-   [Встановлення та налаштування](gmagick.setup.html)
     
 -   Вимоги
     

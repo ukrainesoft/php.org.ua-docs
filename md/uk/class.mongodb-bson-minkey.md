@@ -4,9 +4,9 @@
     
 -   [MongoDBBSONMinKey::construct »](mongodb-bson-minkey.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBBSON](book.bson.html)
+-   [MongoDBBSON](book.bson.md)
     
 -   Клас MongoDBBSONMinKey
     
@@ -49,10 +49,10 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия             | Описание                                                                                                      |
-|--------------------|---------------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONMinKeyInterface](class.mongodb-bson-minkeyinterface.html)                      |
-| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html) |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONMinKeyInterface](class.mongodb-bson-minkeyinterface.html) |
+| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md) |
 
 ## Зміст
 

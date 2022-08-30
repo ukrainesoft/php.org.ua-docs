@@ -1,12 +1,12 @@
 Обертає викликаний PHP-об'єкт у LuaSandboxFunction
 
--   [« LuaSandbox::unpauseUsageTimer](luasandbox.unpauseusagetimer.html)
+-   [« LuaSandbox::unpauseUsageTimer](luasandbox.unpauseusagetimer.md)
     
--   [LuaSandboxFunction »](class.luasandboxfunction.html)
+-   [LuaSandboxFunction »](class.luasandboxfunction.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LuaSandbox](class.luasandbox.html)
+-   [LuaSandbox](class.luasandbox.md)
     
 -   Обертає викликаний PHP-об'єкт у LuaSandboxFunction
     
@@ -15,7 +15,7 @@
 
 (PECL luasandbox >= 1.2.0)
 
-LuaSandbox::wrapPhpFunction — Обертає викликаний PHP-об'єкт в [LuaSandboxFunction](class.luasandboxfunction.html)
+LuaSandbox::wrapPhpFunction — Обертає викликаний PHP-об'єкт в [LuaSandboxFunction](class.luasandboxfunction.md)
 
 ### Опис
 
@@ -23,13 +23,13 @@ LuaSandbox::wrapPhpFunction — Обертає викликаний PHP-об'є�
 public LuaSandbox::wrapPhpFunction(callable $function): LuaSandboxFunction
 ```
 
-Обертає викликаний PHP-об'єкт в [LuaSandboxFunction](class.luasandboxfunction.html)Тому його можна передати в Lua як анонімну функцію.
+Обертає викликаний PHP-об'єкт в [LuaSandboxFunction](class.luasandboxfunction.md)Тому його можна передати в Lua як анонімну функцію.
 
 Функція повинна повертати або масив значень (який може бути порожнім), або \*\*`null`\*\*що еквівалентно поверненню порожнього масиву.
 
-Винятки виникатимуть як помилки в Lua, проте лише винятки [LuaSandboxRuntimeError](class.luasandboxruntimeerror.html) можуть бути оброблені всередині Lua за допомогою `pcall()` або `xpcall()`
+Винятки виникатимуть як помилки в Lua, проте лише винятки [LuaSandboxRuntimeError](class.luasandboxruntimeerror.md) можуть бути оброблені всередині Lua за допомогою `pcall()` або `xpcall()`
 
-Для отримання додаткової інформації про виклик функцій Lua та значення, що повертаються дивіться [LuaSandboxFunction::call()](luasandboxfunction.call.html)
+Для отримання додаткової інформації про виклик функцій Lua та значення, що повертаються дивіться [LuaSandboxFunction::call()](luasandboxfunction.call.md)
 
 ### Список параметрів
 
@@ -39,9 +39,9 @@ public LuaSandbox::wrapPhpFunction(callable $function): LuaSandboxFunction
 
 ### Значення, що повертаються
 
-Повертає [LuaSandboxFunction](class.luasandboxfunction.html)
+Повертає [LuaSandboxFunction](class.luasandboxfunction.md)
 
 ### Дивіться також
 
--   [LuaSandbox::loadString()](luasandbox.loadstring.html) - Завантажує код Lua у середу Lua
--   [LuaSandbox::registerLibrary()](luasandbox.registerlibrary.html) - Реєструє набір PHP-функцій як бібліотеку Lua
+-   [LuaSandbox::loadString()](luasandbox.loadstring.md) - Завантажує код Lua у середу Lua
+-   [LuaSandbox::registerLibrary()](luasandbox.registerlibrary.md) - Реєструє набір PHP-функцій як бібліотеку Lua

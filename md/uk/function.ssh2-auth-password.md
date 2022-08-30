@@ -4,9 +4,9 @@
     
 -   [ssh2authpubkeyfile »](function.ssh2-auth-pubkey-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Аутентифікація через SSH з використанням звичайного пароля
     

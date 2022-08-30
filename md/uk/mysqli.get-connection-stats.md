@@ -4,9 +4,9 @@
     
 -   [mysqli::$hostinfo »](mysqli.get-host-info.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Повертає статистику з'єднання з клієнтом
     
@@ -37,13 +37,13 @@ mysqli_get_connection_stats(mysqli $mysql): array
 
 > **Зауваження**
 > 
-> Доступно лише з модулем [mysqlnd](book.mysqlnd.html)
+> Доступно лише з модулем [mysqlnd](book.mysqlnd.md)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -189,4 +189,4 @@ Array
 
 ### Дивіться також
 
--   [Описание статистики](mysqlnd.stats.html)
+-   [Описание статистики](mysqlnd.stats.md)

@@ -4,9 +4,9 @@
     
 -   [ociclientversion »](function.oci-client-version.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8 Функции](ref.oci8.html)
+-   [OCI8 Функции](ref.oci8.md)
     
 -   Закінчує процес читання з курсору
     

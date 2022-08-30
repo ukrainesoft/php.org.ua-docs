@@ -4,9 +4,9 @@
     
 -   [eiogeteventstream »](function.eio-get-event-stream.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Змінює дату та час останньої модифікації та доступу до файлу
     

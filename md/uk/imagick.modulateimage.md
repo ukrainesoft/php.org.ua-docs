@@ -1,12 +1,12 @@
 Керуйте яскравістю, насиченістю та відтінком
 
--   [« Imagick::minifyImage](imagick.minifyimage.html)
+-   [« Imagick::minifyImage](imagick.minifyimage.md)
     
--   [Imagick::montageImage »](imagick.montageimage.html)
+-   [Imagick::montageImage »](imagick.montageimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Керуйте яскравістю, насиченістю та відтінком
     

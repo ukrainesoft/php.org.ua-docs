@@ -4,9 +4,9 @@
     
 -   [radiusdemanglemppekey »](function.radius-demangle-mppe-key.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Radius](ref.radius.html)
+-   [Функции Radius](ref.radius.md)
     
 -   Перетворює необроблені дані на рядок
     

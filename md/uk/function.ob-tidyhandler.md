@@ -1,12 +1,12 @@
 Функція зворотного дзвінка obstart для відновлення буфера
 
--   [« Tidy](ref.tidy.html)
+-   [« Tidy](ref.tidy.md)
     
 -   [tidyaccesscount »](function.tidy-access-count.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Tidy](ref.tidy.html)
+-   [Tidy](ref.tidy.md)
     
 -   Функція зворотного дзвінка obstart для відновлення буфера
     

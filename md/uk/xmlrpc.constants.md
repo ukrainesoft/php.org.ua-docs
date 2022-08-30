@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](xmlrpc.resources.html)
+-   [« Типи ресурсів](xmlrpc.resources.md)
     
--   [Функції XML-RPC »](ref.xmlrpc.html)
+-   [Функції XML-RPC »](ref.xmlrpc.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XML-RPC](book.xmlrpc.html)
+-   [XML-RPC](book.xmlrpc.md)
     
 -   Обумовлені константи
     

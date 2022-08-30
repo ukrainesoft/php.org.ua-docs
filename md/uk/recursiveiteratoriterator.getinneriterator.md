@@ -1,12 +1,12 @@
 Отримання посилання на внутрішній ітератор
 
--   [« RecursiveIteratorIterator::getDepth](recursiveiteratoriterator.getdepth.html)
+-   [« RecursiveIteratorIterator::getDepth](recursiveiteratoriterator.getdepth.md)
     
--   [RecursiveIteratorIterator::getMaxDepth »](recursiveiteratoriterator.getmaxdepth.html)
+-   [RecursiveIteratorIterator::getMaxDepth »](recursiveiteratoriterator.getmaxdepth.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
     
 -   Отримання посилання на внутрішній ітератор
     

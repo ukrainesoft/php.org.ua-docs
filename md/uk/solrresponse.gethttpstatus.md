@@ -1,12 +1,12 @@
 Повертає HTTP-статус відповіді
 
--   [« SolrResponse::getDigestedResponse](solrresponse.getdigestedresponse.html)
+-   [« SolrResponse::getDigestedResponse](solrresponse.getdigestedresponse.md)
     
--   [SolrResponse::getHttpStatusMessage »](solrresponse.gethttpstatusmessage.html)
+-   [SolrResponse::getHttpStatusMessage »](solrresponse.gethttpstatusmessage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrResponse](class.solrresponse.html)
+-   [SolrResponse](class.solrresponse.md)
     
 -   Повертає HTTP-статус відповіді
     

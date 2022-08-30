@@ -4,7 +4,7 @@
     
 -   [SwooleConnectionIterator::offsetExists »](swoole-connection-iterator.offsetexists.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleConnectionIterator](class.swoole-connection-iterator.html)
     

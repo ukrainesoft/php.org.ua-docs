@@ -4,9 +4,9 @@
     
 -   [cubridrealescapestring »](function.cubrid-real-escape-string.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
     
 -   Надсилання запиту CUBRID
     

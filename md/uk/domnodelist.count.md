@@ -1,12 +1,12 @@
 Отримати кількість вузлів у списку
 
--   [« DOMNodeList](class.domnodelist.html)
+-   [« DOMNodeList](class.domnodelist.md)
     
--   [DOMNodeList::item »](domnodelist.item.html)
+-   [DOMNodeList::item »](domnodelist.item.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMNodeList](class.domnodelist.html)
+-   [DOMNodeList](class.domnodelist.md)
     
 -   Отримати кількість вузлів у списку
     

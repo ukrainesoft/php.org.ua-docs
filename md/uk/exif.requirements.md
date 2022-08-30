@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](exif.setup.html)
+-   [« Встановлення та налаштування](exif.setup.html)
     
 -   [Установка »](exif.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](exif.setup.html)
+-   [Встановлення та налаштування](exif.setup.html)
     
 -   Вимоги
     

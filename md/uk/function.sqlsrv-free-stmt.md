@@ -4,9 +4,9 @@
     
 -   [sqlsrvgetconfig »](function.sqlsrv-get-config.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.md)
     
 -   Звільняє всі ресурси для вказаного оператора
     

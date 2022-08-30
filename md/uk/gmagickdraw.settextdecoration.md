@@ -1,12 +1,12 @@
 Визначає оформлення
 
--   [« GmagickDraw::setstrokewidth](gmagickdraw.setstrokewidth.html)
+-   [« GmagickDraw::setstrokewidth](gmagickdraw.setstrokewidth.md)
     
--   [GmagickDraw::settextencoding »](gmagickdraw.settextencoding.html)
+-   [GmagickDraw::settextencoding »](gmagickdraw.settextencoding.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickDraw](class.gmagickdraw.html)
+-   [GmagickDraw](class.gmagickdraw.md)
     
 -   Визначає оформлення
     
@@ -33,4 +33,4 @@ public GmagickDraw::settextdecoration(int $decoration): GmagickDraw
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html)
+Об'єкт [Gmagick](class.gmagick.md)

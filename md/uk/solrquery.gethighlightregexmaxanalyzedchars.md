@@ -1,12 +1,12 @@
 Повертає максимальну кількість символів із поля при використанні фрагментатора регулярного виразу
 
--   [« SolrQuery::getHighlightMergeContiguous](solrquery.gethighlightmergecontiguous.html)
+-   [« SolrQuery::getHighlightMergeContiguous](solrquery.gethighlightmergecontiguous.md)
     
--   [SolrQuery::getHighlightRegexPattern »](solrquery.gethighlightregexpattern.html)
+-   [SolrQuery::getHighlightRegexPattern »](solrquery.gethighlightregexpattern.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає максимальну кількість символів із поля при використанні фрагментатора регулярного виразу
     

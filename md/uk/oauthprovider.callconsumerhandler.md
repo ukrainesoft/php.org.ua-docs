@@ -1,12 +1,12 @@
 Викликати callback-функцію consumerNonceHandler
 
--   [« OAuthProvider::addRequiredParameter](oauthprovider.addrequiredparameter.html)
+-   [« OAuthProvider::addRequiredParameter](oauthprovider.addrequiredparameter.md)
     
--   [OAuthProvider::callTimestampNonceHandler »](oauthprovider.calltimestampnoncehandler.html)
+-   [OAuthProvider::callTimestampNonceHandler »](oauthprovider.calltimestampnoncehandler.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuthProvider](class.oauthprovider.html)
+-   [OAuthProvider](class.oauthprovider.md)
     
 -   Викликати callback-функцію consumerNonceHandler
     
@@ -23,7 +23,7 @@ OAuthProvider::callconsumerHandler — Викликати callback-функці�
 public OAuthProvider::callconsumerHandler(): void
 ```
 
-Викликати зареєстровану callback-функцію, яка була задана за допомогою [OAuthProvider::consumerHandler()](oauthprovider.consumerhandler.html)
+Викликати зареєстровану callback-функцію, яка була задана за допомогою [OAuthProvider::consumerHandler()](oauthprovider.consumerhandler.md)
 
 **Увага**
 
@@ -43,4 +43,4 @@ public OAuthProvider::callconsumerHandler(): void
 
 ### Дивіться також
 
--   [OAuthProvider::consumerHandler()](oauthprovider.consumerhandler.html) - Встановити обробник consumerHandler
+-   [OAuthProvider::consumerHandler()](oauthprovider.consumerhandler.md) - Встановити обробник consumerHandler

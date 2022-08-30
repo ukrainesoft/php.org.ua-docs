@@ -1,12 +1,12 @@
 Повертає оригінальну ОС елемента
 
--   [« RarEntry::getFileTime](rarentry.getfiletime.html)
+-   [« RarEntry::getFileTime](rarentry.getfiletime.md)
     
--   [RarEntry::getMethod »](rarentry.getmethod.html)
+-   [RarEntry::getMethod »](rarentry.getmethod.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RarEntry](class.rarentry.html)
+-   [RarEntry](class.rarentry.md)
     
 -   Повертає оригінальну ОС елемента
     
@@ -103,4 +103,4 @@ switch ($entry->getHostOs()) {
 
 ### Дивіться також
 
--   [RarEntry::extract()](rarentry.extract.html) - Витягує елемент із архіву
+-   [RarEntry::extract()](rarentry.extract.md) - Витягує елемент із архіву

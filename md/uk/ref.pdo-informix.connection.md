@@ -4,7 +4,7 @@
     
 -   [MySQL (PDO) »](ref.pdo-mysql.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Informix (PDO)](ref.pdo-informix.html)
     

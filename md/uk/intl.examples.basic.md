@@ -1,12 +1,12 @@
 Основи використання модуля
 
--   [« Примеры](intl.examples.html)
+-   [« Приклади](intl.examples.md)
     
--   [Collator »](class.collator.html)
+-   [Collator »](class.collator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](intl.examples.html)
+-   [Приклади](intl.examples.md)
     
 -   Основи використання модуля
     

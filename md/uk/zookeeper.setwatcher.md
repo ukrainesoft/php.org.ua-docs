@@ -1,12 +1,12 @@
 Встановлює функцію спостерігача
 
--   [« Zookeeper::setLogStream](zookeeper.setlogstream.html)
+-   [« Zookeeper::setLogStream](zookeeper.setlogstream.md)
     
--   [ZookeeperConfig »](class.zookeeperconfig.html)
+-   [ZookeeperConfig »](class.zookeeperconfig.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Zookeeper](class.zookeeper.html)
+-   [Zookeeper](class.zookeeper.md)
     
 -   Встановлює функцію спостерігача
     
@@ -40,10 +40,10 @@ public
 
 **Застереження**
 
-Починаючи з версії 0.3.0, метод генерує виняток [ZookeeperException](class.zookeeperexception.html) та його похідні.
+Починаючи з версії 0.3.0, метод генерує виняток [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Дивіться також
 
--   [Zookeeper::exists()](zookeeper.exists.html) - Синхронно перевіряє наявність вузла в zookeeper
--   [Zookeeper::get()](zookeeper.get.html) - Синхронно отримує дані, пов'язані з вузлом
--   [ZookeeperException](class.zookeeperexception.html)
+-   [Zookeeper::exists()](zookeeper.exists.md) - Синхронно перевіряє наявність вузла в zookeeper
+-   [Zookeeper::get()](zookeeper.get.md) - Синхронно отримує дані, пов'язані з вузлом
+-   [ZookeeperException](class.zookeeperexception.md)

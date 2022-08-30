@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](csprng.configuration.html)
+-   [« Налаштування під час виконання](csprng.configuration.md)
     
--   [Предопределённые константы »](csprng.constants.html)
+-   [Обумовлені константи »](csprng.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](csprng.setup.html)
+-   [Встановлення та налаштування](csprng.setup.md)
     
 -   Типи ресурсів
     

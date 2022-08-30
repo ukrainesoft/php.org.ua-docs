@@ -4,9 +4,9 @@
     
 -   [svnreposhotcopy »](function.svn-repos-hotcopy.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.md)
     
 -   Повертає дескриптор файлової системи для репозиторію
     

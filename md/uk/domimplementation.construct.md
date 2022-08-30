@@ -1,12 +1,12 @@
 Створює новий об'єкт класу DOMImplementation
 
--   [« DOMImplementation](class.domimplementation.html)
+-   [« DOMImplementation](class.domimplementation.md)
     
--   [DOMImplementation::createDocument »](domimplementation.createdocument.html)
+-   [DOMImplementation::createDocument »](domimplementation.createdocument.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMImplementation](class.domimplementation.html)
+-   [DOMImplementation](class.domimplementation.md)
     
 -   Створює новий об'єкт класу DOMImplementation
     
@@ -21,7 +21,7 @@ DOMImplementation::construct — Створює новий об'єкт клас�
 
 **DOMImplementation::construct**
 
-Створює екземпляр класу [DOMImplementation](class.domimplementation.html)
+Створює екземпляр класу [DOMImplementation](class.domimplementation.md)
 
 ### Список параметрів
 

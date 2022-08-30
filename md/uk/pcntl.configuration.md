@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](pcntl.installation.html)
+-   [« Установка](pcntl.installation.md)
     
--   [Типы ресурсов »](pcntl.resources.html)
+-   [Типи ресурсів »](pcntl.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](pcntl.setup.html)
+-   [Встановлення та налаштування](pcntl.setup.md)
     
 -   Налаштування під час виконання
     

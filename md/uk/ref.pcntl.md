@@ -1,12 +1,12 @@
 Функції PCNTL
 
--   [« Базовое применение](pcntl.example.html)
+-   [« Базовое применение](pcntl.example.md)
     
 -   [pcntlalarm »](function.pcntl-alarm.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PCNTL](book.pcntl.html)
+-   [PCNTL](book.pcntl.md)
     
 -   Функції PCNTL
     
@@ -15,7 +15,7 @@
 
 # Дивіться також
 
-Огляд розділу про [функциях POSIX](ref.posix.html) може бути корисним.
+Огляд розділу про [функциях POSIX](ref.posix.md) може бути корисним.
 
 ## Зміст
 

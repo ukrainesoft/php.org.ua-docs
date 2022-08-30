@@ -1,12 +1,12 @@
 Обрізає великий об'єкт
 
--   [« OCILob::tell](ocilob.tell.html)
+-   [« OCILob::tell](ocilob.tell.md)
     
--   [OCILob::write »](ocilob.write.html)
+-   [OCILob::write »](ocilob.write.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCILob](class.ocilob.html)
+-   [OCILob](class.ocilob.md)
     
 -   Обрізає великий об'єкт
     
@@ -37,10 +37,10 @@ public OCILob::truncate(int $length = 0): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                                |
-|------------------------|---------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
--   [OCILob::erase](ocilob.erase.html)
+-   [OCILob::erase](ocilob.erase.md)

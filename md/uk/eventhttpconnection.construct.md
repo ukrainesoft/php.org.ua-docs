@@ -1,12 +1,12 @@
 Конструктор об'єкта EventHttpConnection
 
--   [« EventHttpConnection](class.eventhttpconnection.html)
+-   [« EventHttpConnection](class.eventhttpconnection.md)
     
--   [EventHttpConnection::getBase »](eventhttpconnection.getbase.html)
+-   [EventHttpConnection::getBase »](eventhttpconnection.getbase.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpConnection](class.eventhttpconnection.html)
+-   [EventHttpConnection](class.eventhttpconnection.md)
     
 -   Конструктор об'єкта EventHttpConnection
     
@@ -62,7 +62,7 @@ public
 
 `ctx`
 
-Об'єкт класу [EventSslContext](class.eventsslcontext.html). Включає OpenSSL.
+Об'єкт класу [EventSslContext](class.eventsslcontext.md). Включає OpenSSL.
 
 > **Зауваження**
 > 
@@ -70,10 +70,10 @@ public
 
 ### Значення, що повертаються
 
-Повертає об'єкт [EventHttpConnection](class.eventhttpconnection.html)
+Повертає об'єкт [EventHttpConnection](class.eventhttpconnection.md)
 
 ### список змін
 
-| Версия           | Описание                        |
-|------------------|---------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL event 1.9.0 | Додана підтримка OpenSSL (`ctx` |

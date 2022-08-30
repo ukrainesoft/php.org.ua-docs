@@ -1,12 +1,12 @@
 Псевдонім current
 
--   [« next](function.next.html)
+-   [« next](function.next.md)
     
--   [prev »](function.prev.html)
+-   [prev »](function.prev.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Псевдонім current
     
@@ -15,8 +15,8 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-pos - Псевдонім [current()](function.current.html)
+pos - Псевдонім [current()](function.current.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [current()](function.current.html)
+Ця функція є псевдонімом: [current()](function.current.md)

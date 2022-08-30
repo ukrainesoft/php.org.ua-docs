@@ -1,12 +1,12 @@
 Обрізає частину даних буфера
 
--   [« EventBuffer::searchEol](eventbuffer.searcheol.html)
+-   [« EventBuffer::searchEol](eventbuffer.searcheol.md)
     
--   [EventBuffer::unfreeze »](eventbuffer.unfreeze.html)
+-   [EventBuffer::unfreeze »](eventbuffer.unfreeze.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBuffer](class.eventbuffer.html)
+-   [EventBuffer](class.eventbuffer.md)
     
 -   Обрізає частину даних буфера
     
@@ -48,4 +48,4 @@ public
 
 ### Дивіться також
 
--   [EventBuffer::read()](eventbuffer.read.html) - Читає дані з evbuffer та виснажує прочитані байти
+-   [EventBuffer::read()](eventbuffer.read.md) - Читає дані з evbuffer та виснажує прочитані байти

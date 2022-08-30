@@ -4,9 +4,9 @@
     
 -   [eiogrplimit »](function.eio-grp-limit.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Скасує групу запитів
     

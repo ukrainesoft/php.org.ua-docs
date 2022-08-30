@@ -1,27 +1,27 @@
 YAZ
 
--   [« VarnishLog::getTagName](varnishlog.gettagname.html)
+-   [« VarnishLog::getTagName](varnishlog.gettagname.md)
     
--   [Введение »](intro.yaz.html)
+-   [Введение »](intro.yaz.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Другие службы](refs.remote.other.html)
+-   [Інші служби](refs.remote.other.md)
     
 -   YAZ
     
 
 # YAZ
 
--   [Введение](intro.yaz.html)
--   [Установка и настройка](yaz.setup.html)
-    -   [Требования](yaz.requirements.html)
-    -   [Установка](yaz.installation.html)
-    -   [Настройка во время выполнения](yaz.configuration.html)
-    -   [Типы ресурсов](yaz.resources.html)
--   [Предопределённые константы](yaz.constants.html)
--   [Примеры](yaz.examples.html)
--   [Функции YAZ](ref.yaz.html)
+-   [Введение](intro.yaz.md)
+-   [Встановлення та налаштування](yaz.setup.md)
+    -   [Вимоги](yaz.requirements.md)
+    -   [Установка](yaz.installation.md)
+    -   [Налаштування під час виконання](yaz.configuration.md)
+    -   [Типи ресурсів](yaz.resources.md)
+-   [Обумовлені константи](yaz.constants.md)
+-   [Приклади](yaz.examples.md)
+-   [Функции YAZ](ref.yaz.md)
     -   [yazaddinfo](function.yaz-addinfo.html) — Повертає додаткову інформацію у разі виникнення помилки
     -   [yazcclconf](function.yaz-ccl-conf.html) - Конфігурує CCL-парсер
     -   [yazcclparse](function.yaz-ccl-parse.html) - Викликає парсер CCL

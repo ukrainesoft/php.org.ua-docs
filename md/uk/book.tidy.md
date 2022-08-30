@@ -14,13 +14,13 @@ Tidy
 # Tidy
 
 -   [Введение](intro.tidy.html)
--   [Установка и настройка](tidy.setup.html)
-    -   [Требования](tidy.requirements.html)
+-   [Встановлення та налаштування](tidy.setup.html)
+    -   [Вимоги](tidy.requirements.html)
     -   [Установка](tidy.installation.html)
-    -   [Настройка во время выполнения](tidy.configuration.html)
-    -   [Типы ресурсов](tidy.resources.html)
--   [Предопределённые константы](tidy.constants.html)
--   [Примеры](tidy.examples.html)
+    -   [Налаштування під час виконання](tidy.configuration.html)
+    -   [Типи ресурсів](tidy.resources.html)
+-   [Обумовлені константи](tidy.constants.html)
+-   [Приклади](tidy.examples.html)
     -   [Пример использования Tidy](tidy.examples.basic.html)
 -   [tidy](class.tidy.html) - Клас tidy
     -   [tidy::body](tidy.body.html) — Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева

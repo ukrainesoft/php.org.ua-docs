@@ -1,12 +1,12 @@
 Відмінності від стандартного Lua
 
--   [« Типы ресурсов](luasandbox.resources.html)
+-   [« Типи ресурсів](luasandbox.resources.md)
     
--   [Примеры »](luasandbox.examples.html)
+-   [Приклади »](luasandbox.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LuaSandbox](book.luasandbox.html)
+-   [LuaSandbox](book.luasandbox.md)
     
 -   Відмінності від стандартного Lua
     

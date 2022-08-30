@@ -1,12 +1,12 @@
 URL-кодування рядка згідно з RFC 3986
 
--   [« rawurldecode](function.rawurldecode.html)
+-   [« rawurldecode](function.rawurldecode.md)
     
--   [urldecode »](function.urldecode.html)
+-   [urldecode »](function.urldecode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції URL](ref.url.html)
+-   [Функції URL](ref.url.md)
     
 -   URL-кодування рядка згідно з RFC 3986
     
@@ -71,7 +71,7 @@ echo '<a href="http://example.com/department_list_script/',
 
 ### Дивіться також
 
--   [rawurldecode()](function.rawurldecode.html) - Декодування URL-кодованого рядка
--   [urldecode()](function.urldecode.html) - Декодування URL-кодованого рядка
--   [urlencode()](function.urlencode.html) - URL-кодування рядка
+-   [rawurldecode()](function.rawurldecode.md) - Декодування URL-кодованого рядка
+-   [urldecode()](function.urldecode.md) - Декодування URL-кодованого рядка
+-   [urlencode()](function.urlencode.md) - URL-кодування рядка
 -   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

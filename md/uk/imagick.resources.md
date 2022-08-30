@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](imagick.configuration.html)
+-   [« Налаштування під час виконання](imagick.configuration.md)
     
--   [Предопределённые константы »](imagick.constants.html)
+-   [Обумовлені константи »](imagick.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](imagick.setup.html)
+-   [Встановлення та налаштування](imagick.setup.md)
     
 -   Типи ресурсів
     

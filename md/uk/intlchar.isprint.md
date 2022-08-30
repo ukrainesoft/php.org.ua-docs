@@ -1,12 +1,12 @@
 Перевіряє, чи символ відображається
 
--   [« IntlChar::isMirrored](intlchar.ismirrored.html)
+-   [« IntlChar::isMirrored](intlchar.ismirrored.md)
     
--   [IntlChar::ispunct »](intlchar.ispunct.html)
+-   [IntlChar::ispunct »](intlchar.ispunct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевіряє, чи символ відображається
     
@@ -61,5 +61,5 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::iscntrl()](intlchar.iscntrl.html) - Перевірити, чи є символ керуючим
+-   [IntlChar::iscntrl()](intlchar.iscntrl.md) - Перевірити, чи є символ керуючим
 -   **`IntlChar::PROPERTY_DEFAULT_IGNORABLE_CODE_POINT`**

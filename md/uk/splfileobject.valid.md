@@ -1,12 +1,12 @@
 Перевіряє, чи кінець файлу (EOF) досягнуто.
 
--   [« SplFileObject::toString](splfileobject.tostring.html)
+-   [« SplFileObject::toString](splfileobject.tostring.md)
     
--   [SplTempFileObject »](class.spltempfileobject.html)
+-   [SplTempFileObject »](class.spltempfileobject.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileObject](class.splfileobject.html)
+-   [SplFileObject](class.splfileobject.md)
     
 -   Перевіряє, чи кінець файлу (EOF) досягнуто.
     
@@ -49,8 +49,8 @@ while ($file->valid()) {
 
 ### Дивіться також
 
--   [SplFileObject::current()](splfileobject.current.html) - Отримати поточний рядок файлу
--   [SplFileObject::key()](splfileobject.key.html) - Отримати номер рядка
--   [SplFileObject::seek()](splfileobject.seek.html) - Переклад файлового покажчика на заданий рядок
--   [SplFileObject::next()](splfileobject.next.html) - Читати наступний рядок
--   [SplFileObject::rewind()](splfileobject.rewind.html) - Перемотування файлового покажчика на початок файлу
+-   [SplFileObject::current()](splfileobject.current.md) - Отримати поточний рядок файлу
+-   [SplFileObject::key()](splfileobject.key.md) - Отримати номер рядка
+-   [SplFileObject::seek()](splfileobject.seek.md) - Переклад файлового покажчика на заданий рядок
+-   [SplFileObject::next()](splfileobject.next.md) - Читати наступний рядок
+-   [SplFileObject::rewind()](splfileobject.rewind.md) - Перемотування файлового покажчика на початок файлу

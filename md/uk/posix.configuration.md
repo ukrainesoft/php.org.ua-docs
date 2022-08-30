@@ -2,11 +2,11 @@
 
 -   [« Установка](posix.installation.html)
     
--   [Типы ресурсов »](posix.resources.html)
+-   [Типи ресурсів »](posix.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](posix.setup.html)
+-   [Встановлення та налаштування](posix.setup.html)
     
 -   Налаштування під час виконання
     

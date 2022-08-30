@@ -1,12 +1,12 @@
 Африка
 
--   [« Список підтримуваних часових поясів](timezones.html)
+-   [« Список підтримуваних часових поясів](timezones.md)
     
--   [Америка »](timezones.america.html)
+-   [Америка »](timezones.america.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Список підтримуваних часових поясів](timezones.html)
+-   [Список підтримуваних часових поясів](timezones.md)
     
 -   Африка
     

@@ -1,12 +1,12 @@
 Повернути зображення, що містить афінно-перетворене зображення src, використовуючи додаткову область обмеження
 
--   [« image2wbmp](function.image2wbmp.html)
+-   [« image2wbmp](function.image2wbmp.md)
     
--   [imageaffinematrixconcat »](function.imageaffinematrixconcat.html)
+-   [imageaffinematrixconcat »](function.imageaffinematrixconcat.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Повернути зображення, що містить афінно-перетворене зображення src, використовуючи додаткову область обмеження
     
@@ -31,7 +31,7 @@ imageaffine(GdImage $image, array $affine, ?array $clip = null): GdImage|false
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `affine`
 
@@ -47,7 +47,7 @@ imageaffine(GdImage $image, array $affine, ?array $clip = null): GdImage|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------|
-|        | `clip` тепер допускає значення null.                                                                                            |
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `clip` тепер допускає значення null. |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |

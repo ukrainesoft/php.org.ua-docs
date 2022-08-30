@@ -1,12 +1,12 @@
 Опис
 
--   [« Imagick::deleteImageArtifact](imagick.deleteimageartifact.html)
+-   [« Imagick::deleteImageArtifact](imagick.deleteimageartifact.md)
     
--   [Imagick::deskewImage »](imagick.deskewimage.html)
+-   [Imagick::deskewImage »](imagick.deskewimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Опис
     

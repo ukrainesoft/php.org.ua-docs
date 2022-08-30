@@ -1,8 +1,8 @@
 Приклади
 
--   [« Предопределённые константы](pcre.constants.html)
+-   [« Обумовлені константи](pcre.constants.html)
     
--   [Регулярные выражения PCRE »](pcre.pattern.html)
+-   [Регулярні вирази PCRE](pcre.pattern.html)
     
 -   [PHP Manual](index.html)
     

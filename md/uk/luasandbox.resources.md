@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](luasandbox.configuration.html)
+-   [« Налаштування під час виконання](luasandbox.configuration.html)
     
 -   [Отличия от стандартного Lua »](reference.luasandbox.differences.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](luasandbox.setup.html)
+-   [Встановлення та налаштування](luasandbox.setup.html)
     
 -   Типи ресурсів
     

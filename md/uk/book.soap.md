@@ -1,59 +1,59 @@
 SOAP
 
--   [« OAuthException](class.oauthexception.html)
+-   [« OAuthException](class.oauthexception.md)
     
--   [Введение »](intro.soap.html)
+-   [Введение »](intro.soap.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Веб-сервисы](refs.webservice.html)
+-   [Веб-сервіси](refs.webservice.md)
     
 -   SOAP
     
 
 # SOAP
 
--   [Введение](intro.soap.html)
--   [Установка и настройка](soap.setup.html)
-    -   [Требования](soap.requirements.html)
-    -   [Установка](soap.installation.html)
-    -   [Настройка во время выполнения](soap.configuration.html)
-    -   [Типы ресурсов](soap.resources.html)
--   [Предопределённые константы](soap.constants.html)
--   [Функции SOAP](ref.soap.html)
+-   [Введение](intro.soap.md)
+-   [Встановлення та налаштування](soap.setup.md)
+    -   [Вимоги](soap.requirements.md)
+    -   [Установка](soap.installation.md)
+    -   [Налаштування під час виконання](soap.configuration.md)
+    -   [Типи ресурсів](soap.resources.md)
+-   [Обумовлені константи](soap.constants.md)
+-   [Функции SOAP](ref.soap.md)
     -   [ісsoapfault](function.is-soap-fault.html) — Перевіряє, чи виникла помилка під час виклику SOAP
     -   [usesoaperrorhandler](function.use-soap-error-handler.html) — Встановити, чи слід використовувати обробник помилок SOAP
--   [SoapClient](class.soapclient.html) - Клас SoapClient
-    -   [SoapClient::call](soapclient.call.html) - Викликає SOAP-функцію (застарілий метод)
-    -   [SoapClient::construct](soapclient.construct.html) - Конструктор класу SoapClient
-    -   [SoapClient::doRequest](soapclient.dorequest.html) - Виконує SOAP-запит
-    -   [SoapClient::getCookies](soapclient.getcookies.html) — Отримати список cookies
-    -   [SoapClient::getFunctions](soapclient.getfunctions.html) — Повертає список доступних SOAP-функцій
-    -   [SoapClient::getLastRequest](soapclient.getlastrequest.html) - Повертає останній SOAP-запит
-    -   [SoapClient::getLastRequestHeaders](soapclient.getlastrequestheaders.html) — Повертає SOAP-заголовки останнього запиту
-    -   [SoapClient::getLastResponse](soapclient.getlastresponse.html) — Повертає останню SOAP-відповідь
-    -   [SoapClient::getLastResponseHeaders](soapclient.getlastresponseheaders.html) — Повертає SOAP-заголовки останньої відповіді
-    -   [SoapClient::getTypes](soapclient.gettypes.html) — Повертає список типів SOAP
-    -   [SoapClient::setCookie](soapclient.setcookie.html) — Встановлює cookie для запитів SOAP
-    -   [SoapClient::setLocation](soapclient.setlocation.html) — Встановлює адресу веб-служби, що використовується.
-    -   [SoapClient::setSoapHeaders](soapclient.setsoapheaders.html) — Встановлює заголовки SOAP для наступних дзвінків
-    -   [SoapClient::soapCall](soapclient.soapcall.html) - Викликає SOAP-функцію
--   [SoapServer](class.soapserver.html) - Клас SoapServer
-    -   [SoapServer::addFunction](soapserver.addfunction.html) — Додає одну або кілька функцій для обробки запитів SOAP
-    -   [SoapServer::addSoapHeader](soapserver.addsoapheader.html) — Додати заголовок SOAP у відповідь
-    -   [SoapServer::construct](soapserver.construct.html) - Конструктор SoapServer
-    -   [SoapServer::fault](soapserver.fault.html) — Вимушує SoapServer повернути помилку
-    -   [SoapServer::getFunctions](soapserver.getfunctions.html) — Повернути список функцій
-    -   [SoapServer::handle](soapserver.handle.html) - Обробка SOAP-запиту
-    -   [SoapServer::setClass](soapserver.setclass.html) - Встановлює клас, який обробляє SOAP-запити
-    -   [SoapServer::setObject](soapserver.setobject.html) — Встановлює об'єкт, який використовуватиметься для обробки SOAP-запитів
-    -   [SoapServer::setPersistence](soapserver.setpersistence.html) — Встановлює режим збереження SoapServer
--   [SoapFault](class.soapfault.html) - Клас SoapFault
-    -   [SoapFault::construct](soapfault.construct.html) - Конструктор SoapFault
-    -   [SoapFault::toString](soapfault.tostring.html) — Отримати текстове уявлення SoapFault
--   [SoapHeader](class.soapheader.html) - Клас SoapHeader
-    -   [SoapHeader::construct](soapheader.construct.html) - Конструктор SoapHeader
--   [SoapParam](class.soapparam.html) - Клас SoapParam
-    -   [SoapParam::construct](soapparam.construct.html) - Конструктор SoapParam
--   [SoapVar](class.soapvar.html) - Клас SoapVar
-    -   [SoapVar::construct](soapvar.construct.html) - Конструктор SoapVar
+-   [SoapClient](class.soapclient.md) - Клас SoapClient
+    -   [SoapClient::call](soapclient.call.md) - Викликає SOAP-функцію (застарілий метод)
+    -   [SoapClient::construct](soapclient.construct.md) - Конструктор класу SoapClient
+    -   [SoapClient::doRequest](soapclient.dorequest.md) - Виконує SOAP-запит
+    -   [SoapClient::getCookies](soapclient.getcookies.md) — Отримати список cookies
+    -   [SoapClient::getFunctions](soapclient.getfunctions.md) — Повертає список доступних SOAP-функцій
+    -   [SoapClient::getLastRequest](soapclient.getlastrequest.md) - Повертає останній SOAP-запит
+    -   [SoapClient::getLastRequestHeaders](soapclient.getlastrequestheaders.md) — Повертає SOAP-заголовки останнього запиту
+    -   [SoapClient::getLastResponse](soapclient.getlastresponse.md) — Повертає останню SOAP-відповідь
+    -   [SoapClient::getLastResponseHeaders](soapclient.getlastresponseheaders.md) — Повертає SOAP-заголовки останньої відповіді
+    -   [SoapClient::getTypes](soapclient.gettypes.md) — Повертає список типів SOAP
+    -   [SoapClient::setCookie](soapclient.setcookie.md) — Встановлює cookie для запитів SOAP
+    -   [SoapClient::setLocation](soapclient.setlocation.md) — Встановлює адресу веб-служби, що використовується.
+    -   [SoapClient::setSoapHeaders](soapclient.setsoapheaders.md) — Встановлює заголовки SOAP для наступних дзвінків
+    -   [SoapClient::soapCall](soapclient.soapcall.md) - Викликає SOAP-функцію
+-   [SoapServer](class.soapserver.md) - Клас SoapServer
+    -   [SoapServer::addFunction](soapserver.addfunction.md) — Додає одну або кілька функцій для обробки запитів SOAP
+    -   [SoapServer::addSoapHeader](soapserver.addsoapheader.md) — Додати заголовок SOAP у відповідь
+    -   [SoapServer::construct](soapserver.construct.md) - Конструктор SoapServer
+    -   [SoapServer::fault](soapserver.fault.md) — Вимушує SoapServer повернути помилку
+    -   [SoapServer::getFunctions](soapserver.getfunctions.md) — Повернути список функцій
+    -   [SoapServer::handle](soapserver.handle.md) - Обробка SOAP-запиту
+    -   [SoapServer::setClass](soapserver.setclass.md) - Встановлює клас, який обробляє SOAP-запити
+    -   [SoapServer::setObject](soapserver.setobject.md) — Встановлює об'єкт, який використовуватиметься для обробки SOAP-запитів
+    -   [SoapServer::setPersistence](soapserver.setpersistence.md) — Встановлює режим збереження SoapServer
+-   [SoapFault](class.soapfault.md) - Клас SoapFault
+    -   [SoapFault::construct](soapfault.construct.md) - Конструктор SoapFault
+    -   [SoapFault::toString](soapfault.tostring.md) — Отримати текстове уявлення SoapFault
+-   [SoapHeader](class.soapheader.md) - Клас SoapHeader
+    -   [SoapHeader::construct](soapheader.construct.md) - Конструктор SoapHeader
+-   [SoapParam](class.soapparam.md) - Клас SoapParam
+    -   [SoapParam::construct](soapparam.construct.md) - Конструктор SoapParam
+-   [SoapVar](class.soapvar.md) - Клас SoapVar
+    -   [SoapVar::construct](soapvar.construct.md) - Конструктор SoapVar

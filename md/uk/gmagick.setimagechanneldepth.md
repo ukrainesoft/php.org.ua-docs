@@ -1,12 +1,12 @@
 Встановлює глибину певного каналу зображення
 
--   [« Gmagick::setimagebordercolor](gmagick.setimagebordercolor.html)
+-   [« Gmagick::setimagebordercolor](gmagick.setimagebordercolor.md)
     
--   [Gmagick::setimagecolorspace »](gmagick.setimagecolorspace.html)
+-   [Gmagick::setimagecolorspace »](gmagick.setimagecolorspace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Встановлює глибину певного каналу зображення
     
@@ -37,7 +37,7 @@ public Gmagick::setimagechanneldepth(int $channel, int $depth): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

@@ -1,12 +1,12 @@
 Замінити підрядок у вузлі типу DOMCharacterData
 
--   [« DOMCharacterData::insertData](domcharacterdata.insertdata.html)
+-   [« DOMCharacterData::insertData](domcharacterdata.insertdata.md)
     
--   [DOMCharacterData::substringData »](domcharacterdata.substringdata.html)
+-   [DOMCharacterData::substringData »](domcharacterdata.substringdata.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMCharacterData](class.domcharacterdata.html)
+-   [DOMCharacterData](class.domcharacterdata.md)
     
 -   Замінити підрядок у вузлі типу DOMCharacterData
     
@@ -51,7 +51,7 @@ public DOMCharacterData::replaceData(int $offset, int $count, string $data): boo
 
 ### Дивіться також
 
--   [DOMCharacterData::appendData()](domcharacterdata.appenddata.html) - Додати рядок до кінця символьних даних вузла
--   [DOMCharacterData::deleteData()](domcharacterdata.deletedata.html) - Видалити діапазон символів із вузла
--   [DOMCharacterData::insertData()](domcharacterdata.insertdata.html) - Вставити рядок у вказану 16-бітну позицію
--   [DOMCharacterData::substringData()](domcharacterdata.substringdata.html) - Витягує певний діапазон даних із вузла
+-   [DOMCharacterData::appendData()](domcharacterdata.appenddata.md) - Додати рядок до кінця символьних даних вузла
+-   [DOMCharacterData::deleteData()](domcharacterdata.deletedata.md) - Видалити діапазон символів із вузла
+-   [DOMCharacterData::insertData()](domcharacterdata.insertdata.md) - Вставити рядок у вказану 16-бітну позицію
+-   [DOMCharacterData::substringData()](domcharacterdata.substringdata.md) - Витягує певний діапазон даних із вузла

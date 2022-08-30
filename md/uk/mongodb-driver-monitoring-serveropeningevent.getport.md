@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverMonitoringServerOpeningEvent::getTopologyId »](mongodb-driver-monitoring-serveropeningevent.gettopologyid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverMonitoringServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.html)
     

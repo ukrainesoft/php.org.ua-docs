@@ -4,9 +4,9 @@
     
 -   [traderlinearregangle »](function.trader-linearreg-angle.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Адаптивна ковзна середня Кауфмана
     

@@ -1,12 +1,12 @@
 Журналування налагоджувальної інформації
 
--   [« mysqli::debug](mysqli.debug.html)
+-   [« mysqli::debug](mysqli.debug.md)
     
--   [mysqli::$errno »](mysqli.errno.html)
+-   [mysqli::$errno »](mysqli.errno.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Журналування налагоджувальної інформації
     
@@ -39,7 +39,7 @@ mysqli_dump_debug_info(mysqli $mysql): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -47,4 +47,4 @@ mysqli_dump_debug_info(mysqli $mysql): bool
 
 ### Дивіться також
 
--   [mysqlidebug()](mysqli.debug.html) - Виконує процедури налагодження
+-   [mysqlidebug()](mysqli.debug.md) - Виконує процедури налагодження

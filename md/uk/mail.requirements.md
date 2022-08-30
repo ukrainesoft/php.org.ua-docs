@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](mail.setup.html)
+-   [« Встановлення та налаштування](mail.setup.md)
     
--   [Установка »](mail.installation.html)
+-   [Установка »](mail.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mail.setup.html)
+-   [Встановлення та налаштування](mail.setup.md)
     
 -   Вимоги
     

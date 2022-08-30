@@ -4,9 +4,9 @@
     
 -   [dbalist »](function.dba-list.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції DBA](ref.dba.html)
+-   [Функції DBA](ref.dba.md)
     
 -   Поділяє ключ, заданий у вигляді рядка і створює масив отриманих частин
     

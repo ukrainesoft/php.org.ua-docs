@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](json.resources.html)
+-   [« Типи ресурсів](json.resources.html)
     
 -   [JsonException »](class.jsonexception.html)
     

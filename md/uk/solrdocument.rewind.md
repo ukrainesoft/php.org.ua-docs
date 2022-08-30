@@ -1,12 +1,12 @@
 Скидає внутрішній покажчик на початок
 
--   [« SolrDocument::reset](solrdocument.reset.html)
+-   [« SolrDocument::reset](solrdocument.reset.md)
     
--   [SolrDocument::serialize »](solrdocument.serialize.html)
+-   [SolrDocument::serialize »](solrdocument.serialize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocument](class.solrdocument.html)
+-   [SolrDocument](class.solrdocument.md)
     
 -   Скидає внутрішній покажчик на початок
     

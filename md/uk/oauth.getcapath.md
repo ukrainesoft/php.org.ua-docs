@@ -1,12 +1,12 @@
 Отримати інформацію CA
 
--   [« OAuth::getAccessToken](oauth.getaccesstoken.html)
+-   [« OAuth::getAccessToken](oauth.getaccesstoken.md)
     
--   [OAuth::getLastResponse »](oauth.getlastresponse.html)
+-   [OAuth::getLastResponse »](oauth.getlastresponse.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](class.oauth.html)
+-   [OAuth](class.oauth.md)
     
 -   Отримати інформацію CA
     
@@ -23,7 +23,7 @@ OAuth::getCAPath — Отримати інформацію CA
 public OAuth::getCAPath(): array
 ```
 
-Повертає інформацію про центр сертифікації, що включає capath та cainfo, встановлені [OAuth::setCaPath()](oauth.setcapath.html)
+Повертає інформацію про центр сертифікації, що включає capath та cainfo, встановлені [OAuth::setCaPath()](oauth.setcapath.md)
 
 **Увага**
 
@@ -39,5 +39,5 @@ public OAuth::getCAPath(): array
 
 ### Дивіться також
 
--   [OAuth::setCAPath()](oauth.setcapath.html) - Встановити CA для шляху та інформації
--   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.html) - Отримати HTTP-інформацію про останню відповідь
+-   [OAuth::setCAPath()](oauth.setcapath.md) - Встановити CA для шляху та інформації
+-   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.md) - Отримати HTTP-інформацію про останню відповідь

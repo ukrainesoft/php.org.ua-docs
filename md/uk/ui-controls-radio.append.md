@@ -4,7 +4,7 @@
     
 -   [ОЙControlsRadio::getSelected »](ui-controls-radio.getselected.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsRadio](class.ui-controls-radio.html)
     

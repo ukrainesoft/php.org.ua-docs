@@ -17,11 +17,11 @@
 
 -   [Зміни, що ламають зворотну сумісність](migration70.incompatible.html)
 -   [Новая функциональность](migration70.new-features.html)
--   [Функциональность, объявленная устаревшей в PHP 7.0.x](migration70.deprecated.html)
+-   [Функціональність, оголошена застарілою PHP 7.0.x](migration70.deprecated.html)
 -   [Змінені функції](migration70.changed-functions.html)
 -   [Нові функції](migration70.new-functions.html)
 -   [Нові класи та інтерфейси](migration70.classes.html)
--   [Новые глобальные константы](migration70.constants.html)
+-   [Нові глобальні константи](migration70.constants.html)
 -   [Изменения в модулях SAPI](migration70.sapi-changes.html)
 -   [Віддалені модулі та SAPI](migration70.removed-exts-sapis.html)
 -   [Другие изменения](migration70.other-changes.html)

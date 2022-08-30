@@ -4,7 +4,7 @@
     
 -   [ДсSet::contains »](ds-set.contains.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Набор](class.ds-set.html)
     
@@ -21,7 +21,7 @@
 
 public **ДсSet::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$values`
 
-Створює новий екземпляр класу, використовуючи або об'єкт, що реалізує [traversable](class.traversable.html), або масив, передані як параметр `values`
+Створює новий екземпляр класу, використовуючи або об'єкт, що реалізує [traversable](class.traversable.md), або масив, передані як параметр `values`
 
 ### Список параметрів
 

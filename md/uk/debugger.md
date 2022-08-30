@@ -1,6 +1,6 @@
 Налагодження в PHP
 
--   [« Новые глобальные константы](migration56.constants.html)
+-   [« Нові глобальні константи](migration56.constants.html)
     
 -   [Об отладке в PHP »](debugger-about.html)
     

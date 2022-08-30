@@ -1,12 +1,12 @@
 Встановлює тип зображення
 
--   [« Imagick::setImageTicksPerSecond](imagick.setimagetickspersecond.html)
+-   [« Imagick::setImageTicksPerSecond](imagick.setimagetickspersecond.md)
     
--   [Imagick::setImageUnits »](imagick.setimageunits.html)
+-   [Imagick::setImageUnits »](imagick.setimageunits.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює тип зображення
     

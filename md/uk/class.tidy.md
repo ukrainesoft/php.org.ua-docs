@@ -1,17 +1,17 @@
 Клас tidy
 
--   [« Пример использования Tidy](tidy.examples.basic.html)
+-   [« Пример использования Tidy](tidy.examples.basic.md)
     
--   [tidy::body »](tidy.body.html)
+-   [tidy::body »](tidy.body.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Tidy](book.tidy.html)
+-   [Tidy](book.tidy.md)
     
 -   Клас tidy
     
 
-# Клас [tidy](class.tidy.html)
+# Клас [tidy](class.tidy.md)
 
 (PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
 
@@ -80,23 +80,23 @@ HTML-подання вузла, включаючи навколишні теги
 
 ## Зміст
 
--   [tidy::body](tidy.body.html) — Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
--   [tidy::cleanRepair](tidy.cleanrepair.html) — Виконати налаштоване очищення та відновлення розібраної розмітки
--   [tidy::construct](tidy.construct.html) - Створює новий tidy-об'єкт
--   [tidy::diagnose](tidy.diagnose.html) — Запуск настроєної діагностики для розібраної та відновленої розмітки
--   [tidy::$errorBuffer](tidy.props.errorbuffer.html) — Повертає попередження та помилки, які виникли при розборі зазначеного документа
--   [tidy::getConfig](tidy.getconfig.html) — Отримує поточну конфігурацію Tidy
--   [tidy::getHtmlVer](tidy.gethtmlver.html) — Отримує виявлену HTML версію для зазначеного документа
--   [tidy::getOpt](tidy.getopt.html) — Повертає значення вказаного конфігураційного параметра для документа tidy
--   [tidy::getOptDoc](tidy.getoptdoc.html) — Повертає опис для опції із зазначеною назвою
--   [tidy::getRelease](tidy.getrelease.html) — Отримати дату релізу (версію) для бібліотеки Tidy
--   [tidy::getStatus](tidy.getstatus.html) — Отримує статус зазначеного документа
--   [tidy::head](tidy.head.html) — Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
--   [tidy::html](tidy.html.html) — Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
--   [tidy::isXhtml](tidy.isxhtml.html) — Визначає, чи є документ XHTML-документом
--   [tidy::isXml](tidy.isxml.html) — Визначає, чи документ є спільним XML-документом (не HTML/XHTML)
--   [tidy::parseFile](tidy.parsefile.html) — Розбір розмітки у файлі або URI
--   [tidy::parseString](tidy.parsestring.html) — Розбір документа, що зберігається у рядку
--   [tidy::repairFile](tidy.repairfile.html) — Відновлює розмітку файлу та повертає його у вигляді рядка
--   [tidy::repairString](tidy.repairstring.html) — Відновлює рядок, використовуючи наскільки можна конфігураційний файл
--   [tidy::root](tidy.root.html) - Повертає об'єкт tidyNode, що представляє вершину розібраного tidy-дерева
+-   [tidy::body](tidy.body.md) — Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
+-   [tidy::cleanRepair](tidy.cleanrepair.md) — Виконати налаштоване очищення та відновлення розібраної розмітки
+-   [tidy::construct](tidy.construct.md) - Створює новий tidy-об'єкт
+-   [tidy::diagnose](tidy.diagnose.md) — Запуск настроєної діагностики для розібраної та відновленої розмітки
+-   [tidy::$errorBuffer](tidy.props.errorbuffer.md) — Повертає попередження та помилки, які виникли при розборі зазначеного документа
+-   [tidy::getConfig](tidy.getconfig.md) — Отримує поточну конфігурацію Tidy
+-   [tidy::getHtmlVer](tidy.gethtmlver.md) — Отримує виявлену HTML версію для зазначеного документа
+-   [tidy::getOpt](tidy.getopt.md) — Повертає значення вказаного конфігураційного параметра для документа tidy
+-   [tidy::getOptDoc](tidy.getoptdoc.md) — Повертає опис для опції із зазначеною назвою
+-   [tidy::getRelease](tidy.getrelease.md) — Отримати дату релізу (версію) для бібліотеки Tidy
+-   [tidy::getStatus](tidy.getstatus.md) — Отримує статус зазначеного документа
+-   [tidy::head](tidy.head.md) — Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
+-   [tidy::html](tidy.html.md) — Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
+-   [tidy::isXhtml](tidy.isxhtml.md) — Визначає, чи є документ XHTML-документом
+-   [tidy::isXml](tidy.isxml.md) — Визначає, чи документ є спільним XML-документом (не HTML/XHTML)
+-   [tidy::parseFile](tidy.parsefile.md) — Розбір розмітки у файлі або URI
+-   [tidy::parseString](tidy.parsestring.md) — Розбір документа, що зберігається у рядку
+-   [tidy::repairFile](tidy.repairfile.md) — Відновлює розмітку файлу та повертає його у вигляді рядка
+-   [tidy::repairString](tidy.repairstring.md) — Відновлює рядок, використовуючи наскільки можна конфігураційний файл
+-   [tidy::root](tidy.root.md) - Повертає об'єкт tidyNode, що представляє вершину розібраного tidy-дерева

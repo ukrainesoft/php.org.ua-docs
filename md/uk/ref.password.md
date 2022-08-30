@@ -1,12 +1,12 @@
 Функції хешування паролів
 
--   [« Предопределённые константы](password.constants.html)
+-   [« Обумовлені константи](password.constants.md)
     
 -   [passwordalgos »](function.password-algos.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Хеширование паролей](book.password.html)
+-   [Хеширование паролей](book.password.md)
     
 -   Функції хешування паролів
     

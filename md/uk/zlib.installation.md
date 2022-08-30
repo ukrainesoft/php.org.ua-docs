@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](zlib.requirements.html)
+-   [« Вимоги](zlib.requirements.md)
     
--   [Настройка во время выполнения »](zlib.configuration.html)
+-   [Налаштування під час виконання »](zlib.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](zlib.setup.html)
+-   [Встановлення та налаштування](zlib.setup.md)
     
 -   Встановлення
     

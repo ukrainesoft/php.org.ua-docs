@@ -1,12 +1,12 @@
 Перевіряє, чи відповідає токен зазначеному типу
 
--   [« PhpToken::getTokenName](phptoken.gettokenname.html)
+-   [« PhpToken::getTokenName](phptoken.gettokenname.md)
     
--   [PhpToken::isIgnorable »](phptoken.isignorable.html)
+-   [PhpToken::isIgnorable »](phptoken.isignorable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PhpToken](class.phptoken.html)
+-   [PhpToken](class.phptoken.md)
     
 -   Перевіряє, чи відповідає токен зазначеному типу
     

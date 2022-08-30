@@ -4,7 +4,7 @@
     
 -   [YafExceptionTypeError »](class.yaf-exception-typeerror.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafException](class.yaf-exception.html)
     

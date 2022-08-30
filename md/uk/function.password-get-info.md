@@ -4,9 +4,9 @@
     
 -   [passwordhash »](function.password-hash.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції хешування паролів](ref.password.html)
+-   [Функції хешування паролів](ref.password.md)
     
 -   Повертає інформацію про заданий хеш
     
@@ -35,6 +35,6 @@ password_get_info(string $hash): array
 
 Повертає асоціативний масив із трьома елементами:
 
--   `algo`, що містить одну з [констант алгоритмов паролей](password.constants.html)
+-   `algo`, що містить одну з [констант алгоритмов паролей](password.constants.md)
 -   `algoName`, Що містить ім'я алгоритму в людиночитаному вигляді
 -   `options`, що включає опції, передані під час виклику [passwordhash()](function.password-hash.html)

@@ -1,12 +1,12 @@
 Отримує тип перерахування, якщо є
 
--   [« ReflectionEnum::construct](reflectionenum.construct.html)
+-   [« ReflectionEnum::construct](reflectionenum.construct.md)
     
--   [ReflectionEnum::getCase »](reflectionenum.getcase.html)
+-   [ReflectionEnum::getCase »](reflectionenum.getcase.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionEnum](class.reflectionenum.html)
+-   [ReflectionEnum](class.reflectionenum.md)
     
 -   Отримує тип перерахування, якщо є
     
@@ -23,7 +23,7 @@ ReflectionEnum::getBackingType — Отримує тип переліку, як�
 public ReflectionEnum::getBackingType(): ?ReflectionType
 ```
 
-Якщо перелік типизований, цей метод поверне екземпляр [ReflectionType](class.reflectiontype.html) типу перерахування. Якщо це не типізований перелік, метод поверне `null`
+Якщо перелік типизований, цей метод поверне екземпляр [ReflectionType](class.reflectiontype.md) типу перерахування. Якщо це не типізований перелік, метод поверне `null`
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public ReflectionEnum::getBackingType(): ?ReflectionType
 
 ### Значення, що повертаються
 
-Екземпляр [ReflectionType](class.reflectiontype.html) або `null`, якщо перелік не типизований.
+Екземпляр [ReflectionType](class.reflectiontype.md) або `null`, якщо перелік не типизований.
 
 ### Приклади
 
@@ -63,5 +63,5 @@ string(6) "string"
 
 ### Дивіться також
 
--   [Перечисления](language.enumerations.html)
--   [ReflectionEnum::isBacked()](reflectionenum.isbacked.html) - Визначає, чи є перерахування типовим
+-   [Перечисления](language.enumerations.md)
+-   [ReflectionEnum::isBacked()](reflectionenum.isbacked.md) - Визначає, чи є перерахування типовим

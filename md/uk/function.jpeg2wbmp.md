@@ -1,12 +1,12 @@
 Конвертує зображення з формату JPEG у WBMP
 
--   [« iptcparse](function.iptcparse.html)
+-   [« iptcparse](function.iptcparse.md)
     
--   [png2wbmp »](function.png2wbmp.html)
+-   [png2wbmp »](function.png2wbmp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Конвертує зображення з формату JPEG у WBMP
     
@@ -78,4 +78,4 @@ jpeg2wbmp($path, './test.wbmp', $image[1], $image[0], 5);
 
 ### Дивіться також
 
--   [png2wbmp()](function.png2wbmp.html) - Перетворення PNG файлу на WBMP
+-   [png2wbmp()](function.png2wbmp.md) - Перетворення PNG файлу на WBMP

@@ -1,12 +1,12 @@
 Створення обрізаного зменшеного зображення
 
--   [« Gmagick::cropimage](gmagick.cropimage.html)
+-   [« Gmagick::cropimage](gmagick.cropimage.md)
     
--   [Gmagick::current »](gmagick.current.html)
+-   [Gmagick::current »](gmagick.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Створення обрізаного зменшеного зображення
     
@@ -37,7 +37,7 @@ public Gmagick::cropthumbnailimage(int $width, int $height): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт, що вийшов [Gmagick](class.gmagick.html)
+Об'єкт, що вийшов [Gmagick](class.gmagick.md)
 
 ### Помилки
 

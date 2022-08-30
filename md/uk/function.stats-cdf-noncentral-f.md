@@ -30,12 +30,12 @@ stats_cdf_noncentral_f(    float $par1,    float $par2,    float $pa
 **Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` | `par4` |
-|---------|-----------------------|--------|--------|--------|--------|
-|         | CDF                   | з      | nu1    | nu2    | lambda |
-|         | з                     | CDF    | nu1    | nu2    | lambda |
-|         | nu1                   | з      | CDF    | nu2    | lambda |
-|         | nu2                   | з      | CDF    | nu1    | lambda |
-|         | lambda                | з      | CDF    | nu1    | nu2    |
+| --- | --- | --- | --- | --- | --- |
+|  | CDF | з | nu1 | nu2 | lambda |
+|  | з | CDF | nu1 | nu2 | lambda |
+|  | nu1 | з | CDF | nu2 | lambda |
+|  | nu2 | з | CDF | nu1 | lambda |
+|  | lambda | з | CDF | nu1 | nu2 |
 
 ### Список параметрів
 

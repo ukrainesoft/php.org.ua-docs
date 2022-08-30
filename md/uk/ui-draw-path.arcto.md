@@ -4,7 +4,7 @@
     
 -   [ОЙDrawPath::bezierTo »](ui-draw-path.bezierto.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawPath](class.ui-draw-path.html)
     

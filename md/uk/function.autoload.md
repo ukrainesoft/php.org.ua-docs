@@ -1,12 +1,12 @@
 Спроба завантажити невизначений клас
 
--   [« Функції роботи з класами та об'єктами](ref.classobj.html)
+-   [« Функції роботи з класами та об'єктами](ref.classobj.md)
     
 -   [classalias »](function.class-alias.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції роботи з класами та об'єктами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.md)
     
 -   Спроба завантажити невизначений клас
     
@@ -27,7 +27,7 @@ autoload — Спроба завантажити невизначений кла
 __autoload(string $class): void
 ```
 
-Ви можете визначити цю функцію для [автозагрузки классов](language.oop5.autoload.html)
+Ви можете визначити цю функцію для [автозагрузки классов](language.oop5.autoload.md)
 
 ### Список параметрів
 

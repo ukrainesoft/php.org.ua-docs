@@ -1,10 +1,10 @@
 Копіювати дані з файлу до таблиці
 
--   [« PDO::pgsqlCopyFromArray](pdo.pgsqlcopyfromarray.html)
+-   [« PDO::pgsqlCopyFromArray](pdo.pgsqlcopyfromarray.md)
     
--   [PDO::pgsqlCopyToArray »](pdo.pgsqlcopytoarray.html)
+-   [PDO::pgsqlCopyToArray »](pdo.pgsqlcopytoarray.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
     

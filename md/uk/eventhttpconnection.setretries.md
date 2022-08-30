@@ -1,12 +1,12 @@
 Встановлює максимальну кількість повторів для з'єднання
 
--   [« EventHttpConnection::setMaxHeadersSize](eventhttpconnection.setmaxheaderssize.html)
+-   [« EventHttpConnection::setMaxHeadersSize](eventhttpconnection.setmaxheaderssize.md)
     
--   [EventHttpConnection::setTimeout »](eventhttpconnection.settimeout.html)
+-   [EventHttpConnection::setTimeout »](eventhttpconnection.settimeout.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpConnection](class.eventhttpconnection.html)
+-   [EventHttpConnection](class.eventhttpconnection.md)
     
 -   Встановлює максимальну кількість повторів для з'єднання
     

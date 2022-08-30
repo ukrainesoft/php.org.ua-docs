@@ -4,7 +4,7 @@
     
 -   [YafRequestAbstract::setRequestUri »](yaf-request-abstract.setrequesturi.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRequestAbstract](class.yaf-request-abstract.html)
     

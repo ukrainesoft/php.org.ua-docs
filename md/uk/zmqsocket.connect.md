@@ -1,12 +1,12 @@
 Підключення до сокету
 
--   [« ZMQSocket::bind](zmqsocket.bind.html)
+-   [« ZMQSocket::bind](zmqsocket.bind.md)
     
--   [ZMQSocket::construct »](zmqsocket.construct.html)
+-   [ZMQSocket::construct »](zmqsocket.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQSocket](class.zmqsocket.html)
+-   [ZMQSocket](class.zmqsocket.md)
     
 -   Підключення до сокету
     

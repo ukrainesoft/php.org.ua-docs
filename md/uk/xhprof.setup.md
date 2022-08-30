@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.xhprof.html)
     
--   [Требования »](xhprof.requirements.html)
+-   [Вимоги »](xhprof.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](xhprof.requirements.html)
+-   [Вимоги](xhprof.requirements.html)
 -   [Установка](xhprof.installation.html)
--   [Настройка во время выполнения](xhprof.configuration.html)
--   [Типы ресурсов](xhprof.resources.html)
+-   [Налаштування під час виконання](xhprof.configuration.html)
+-   [Типи ресурсів](xhprof.resources.html)

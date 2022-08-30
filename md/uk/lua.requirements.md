@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](lua.setup.html)
+-   [« Встановлення та налаштування](lua.setup.md)
     
--   [Установка »](lua.installation.html)
+-   [Установка »](lua.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](lua.setup.html)
+-   [Встановлення та налаштування](lua.setup.md)
     
 -   Вимоги
     

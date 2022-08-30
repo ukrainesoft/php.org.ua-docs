@@ -1,12 +1,12 @@
 Реєстронезалежний варіант функції strstr
 
--   [« stripslashes](function.stripslashes.html)
+-   [« stripslashes](function.stripslashes.md)
     
--   [strlen »](function.strlen.html)
+-   [strlen »](function.strlen.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Реєстронезалежний варіант функції strstr
     
@@ -15,7 +15,7 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-stristr - Реєстронезалежний варіант функції [strstr()](function.strstr.html)
+stristr - Реєстронезалежний варіант функції [strstr()](function.strstr.md)
 
 ### Опис
 
@@ -33,7 +33,7 @@ stristr(string $haystack, string $needle, bool $before_needle = false): string|f
 
 `needle`
 
-До PHP 8.0.0, якщо параметр `needle` не є рядком, він перетворюється на ціле число і сприймається як код символу. Ця поведінка застаріла з PHP 7.3.0 і покладатися на нього вкрай не рекомендується. Залежно від передбачуваної поведінки, параметр `needle` повинен бути або явно приведений до рядка, або має бути виконаний явний виклик [chr()](function.chr.html)
+До PHP 8.0.0, якщо параметр `needle` не є рядком, він перетворюється на ціле число і сприймається як код символу. Ця поведінка застаріла з PHP 7.3.0 і покладатися на нього вкрай не рекомендується. Залежно від передбачуваної поведінки, параметр `needle` повинен бути або явно приведений до рядка, або має бути виконаний явний виклик [chr()](function.chr.md)
 
 `before_needle`
 
@@ -47,10 +47,10 @@ stristr(string $haystack, string $needle, bool $before_needle = false): string|f
 
 ### список змін
 
-| Версия | Описание                                                      |
-|--------|---------------------------------------------------------------|
-|        | Передача цілого числа (int) `needle` більше не підтримується. |
-|        | Передача цілого числа (int) `needle` оголошено застарілою.    |
+| Версия | Описание |
+| --- | --- |
+|  | Передача цілого числа (int) `needle` більше не підтримується. |
+|  | Передача цілого числа (int) `needle` оголошено застарілою. |
 
 ### Приклади
 
@@ -92,8 +92,8 @@ stristr(string $haystack, string $needle, bool $before_needle = false): string|f
 
 ### Дивіться також
 
--   [strstr()](function.strstr.html) - Знаходить перше входження підрядка
--   [strrchr()](function.strrchr.html) - Знаходить останнє входження символу у рядку
--   [stripos()](function.stripos.html) - Повертає позицію першого входження підрядка без урахування регістру
--   [strpbrk()](function.strpbrk.html) - Шукає у рядку будь-який символ із заданого набору
+-   [strstr()](function.strstr.md) - Знаходить перше входження підрядка
+-   [strrchr()](function.strrchr.md) - Знаходить останнє входження символу у рядку
+-   [stripos()](function.stripos.md) - Повертає позицію першого входження підрядка без урахування регістру
+-   [strpbrk()](function.strpbrk.md) - Шукає у рядку будь-який символ із заданого набору
 -   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу

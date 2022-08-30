@@ -1,12 +1,12 @@
 Створює компактне, двійкове уявлення, що зберігається.
 
--   [« Функции Igbinary](ref.igbinary.html)
+-   [« Функции Igbinary](ref.igbinary.md)
     
 -   [igbinaryunserialize »](function.igbinary-unserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Igbinary](ref.igbinary.html)
+-   [Функции Igbinary](ref.igbinary.md)
     
 -   Створює компактне, двійкове уявлення, що зберігається.
     
@@ -73,17 +73,17 @@ array (
 
 > **Зауваження**
 > 
-> Зверніть увагу, що багато вбудованих об'єктів PHP не можуть бути серіалізовані. Однак ті, хто має таку можливість, реалізують або інтерфейс [Serializable](class.serializable.html), або магічні методи [serialize()](language.oop5.magic.html#object.serialize)[unserialize()](language.oop5.magic.html#object.unserialize) або [sleep()](language.oop5.magic.html#object.sleep)[wakeup()](language.oop5.magic.html#object.wakeup). Якщо внутрішній клас не відповідає жодній із цих вимог, він не може бути надійно серіалізований за допомогою будь-якого серіалізатора.
+> Зверніть увагу, що багато вбудованих об'єктів PHP не можуть бути серіалізовані. Однак ті, хто має таку можливість, реалізують або інтерфейс [Serializable](class.serializable.md), або магічні методи [serialize()](language.oop5.magic.html#object.serialize)[unserialize()](language.oop5.magic.html#object.unserialize) або [sleep()](language.oop5.magic.html#object.sleep)[wakeup()](language.oop5.magic.html#object.wakeup). Якщо внутрішній клас не відповідає жодній із цих вимог, він не може бути надійно серіалізований за допомогою будь-якого серіалізатора.
 > 
 > Існує кілька історичних винятків із наведеного вище правила, коли деякі внутрішні об'єкти можуть бути серіалізовані без реалізації інтерфейсу або розкриття методів.
 
 ### Дивіться також
 
--   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
 -   [igbinaryunserialize()](function.igbinary-unserialize.html) - Створює значення PHP із збереженого уявлення функцією igbinaryserialize
 -   [varexport()](function.var-export.html) - Виводить або повертає інтерпретоване рядкове подання змінної
 -   [jsonencode()](function.json-encode.html) - Повертає JSON-подання даних
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [Серіалізація об'єктів](language.oop5.serialization.md)
 -   [sleep()](language.oop5.magic.html#object.sleep)
 -   [wakeup()](language.oop5.magic.html#object.wakeup)
 -   [serialize()](language.oop5.magic.html#object.serialize)

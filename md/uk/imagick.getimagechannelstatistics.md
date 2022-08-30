@@ -1,12 +1,12 @@
 Повертає статистику для кожного каналу зображення
 
--   [« Imagick::getImageChannelRange](imagick.getimagechannelrange.html)
+-   [« Imagick::getImageChannelRange](imagick.getimagechannelrange.md)
     
--   [Imagick::getImageClipMask »](imagick.getimageclipmask.html)
+-   [Imagick::getImageClipMask »](imagick.getimageclipmask.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає статистику для кожного каналу зображення
     

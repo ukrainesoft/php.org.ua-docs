@@ -1,12 +1,12 @@
 Встановлює кольоровість зображення блакитною основною точкою
 
--   [« Imagick::setImageBiasQuantum](imagick.setimagebiasquantum.html)
+-   [« Imagick::setImageBiasQuantum](imagick.setimagebiasquantum.md)
     
--   [Imagick::setImageBorderColor »](imagick.setimagebordercolor.html)
+-   [Imagick::setImageBorderColor »](imagick.setimagebordercolor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює кольоровість зображення блакитною основною точкою
     

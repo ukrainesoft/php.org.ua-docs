@@ -4,9 +4,9 @@
     
 -   [cubridlob2size64 »](function.cubrid-lob2-size64.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Переміщує курсор LOB-об'єкта
     

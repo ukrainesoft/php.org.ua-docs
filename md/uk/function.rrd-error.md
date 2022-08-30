@@ -4,9 +4,9 @@
     
 -   [rrdfetch »](function.rrd-fetch.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.md)
     
 -   Отримати останнє повідомлення про помилку
     

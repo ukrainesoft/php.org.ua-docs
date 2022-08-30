@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](ds.requirements.html)
+-   [« Вимоги](ds.requirements.md)
     
--   [Предопределённые константы »](ds.constants.html)
+-   [Обумовлені константи »](ds.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ds.setup.html)
+-   [Встановлення та налаштування](ds.setup.md)
     
 -   Встановлення
     

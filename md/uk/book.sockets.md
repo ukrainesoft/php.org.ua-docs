@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Другие службы](refs.remote.other.html)
+-   [Інші служби](refs.remote.other.html)
     
 -   Сокети
     
@@ -14,14 +14,14 @@
 # Сокети
 
 -   [Введение](intro.sockets.html)
--   [Установка и настройка](sockets.setup.html)
-    -   [Требования](sockets.requirements.html)
+-   [Встановлення та налаштування](sockets.setup.html)
+    -   [Вимоги](sockets.requirements.html)
     -   [Установка](sockets.installation.html)
-    -   [Настройка во время выполнения](sockets.configuration.html)
-    -   [Типы ресурсов](sockets.resources.html)
--   [Предопределённые константы](sockets.constants.html)
--   [Примеры](sockets.examples.html)
--   [Помилки сокетів](sockets.errors.html)
+    -   [Налаштування під час виконання](sockets.configuration.html)
+    -   [Типи ресурсів](sockets.resources.html)
+-   [Обумовлені константи](sockets.constants.html)
+-   [Приклади](sockets.examples.html)
+-   [Ошибки сокетів](sockets.errors.html)
 -   [Функции сокета](ref.sockets.html)
     -   [socketaccept](function.socket-accept.html) - Приймає з'єднання на сокеті
     -   [socketaddrinfobind](function.socket-addrinfo-bind.html) — Створити та прив'язати до сокету із зазначеного addrinfo

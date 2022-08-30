@@ -4,7 +4,7 @@
     
 -   [YafDispatcher::initView »](yaf-dispatcher.initview.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafDispatcher](class.yaf-dispatcher.html)
     

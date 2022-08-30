@@ -1,12 +1,12 @@
 Перевіряє, чи об'єкт містить більше зображень
 
--   [« Imagick::haldClutImage](imagick.haldclutimage.html)
+-   [« Imagick::haldClutImage](imagick.haldclutimage.md)
     
--   [Imagick::hasPreviousImage »](imagick.haspreviousimage.html)
+-   [Imagick::hasPreviousImage »](imagick.haspreviousimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Перевіряє, чи об'єкт містить більше зображень
     

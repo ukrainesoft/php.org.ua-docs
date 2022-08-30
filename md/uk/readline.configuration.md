@@ -2,11 +2,11 @@
 
 -   [« Установка](readline.installation.html)
     
--   [Типы ресурсов »](readline.resources.html)
+-   [Типи ресурсів »](readline.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](readline.setup.html)
+-   [Встановлення та налаштування](readline.setup.html)
     
 -   Налаштування під час виконання
     
@@ -17,10 +17,10 @@
 
 **Опції налаштування Readline**
 
-| Имя                                                      | По умолчанию | Место изменения | Список изменений |
-|----------------------------------------------------------|--------------|-----------------|------------------|
-| [cli.pager](readline.configuration.html#ini.cli.pager)   | ""           | PHPINIALL       |                  |
-| [cli.prompt](readline.configuration.html#ini.cli.prompt) | "в > "       | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [cli.pager](readline.configuration.html#ini.cli.pager) | "" | PHPINIALL |  |
+| [cli.prompt](readline.configuration.html#ini.cli.prompt) | "в > " | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

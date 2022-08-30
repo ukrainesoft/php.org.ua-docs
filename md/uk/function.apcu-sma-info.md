@@ -4,9 +4,9 @@
     
 -   [apcustore »](function.apcu-store.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции APCu](ref.apcu.html)
+-   [Функции APCu](ref.apcu.md)
     
 -   Витягує інформацію про виділення пам'яті, що розділяється APCu
     
@@ -72,4 +72,4 @@ Array
 
 ### Дивіться також
 
--   [Директиви конфігурації APCu](apcu.configuration.html)
+-   [Директиви конфігурації APCu](apcu.configuration.md)

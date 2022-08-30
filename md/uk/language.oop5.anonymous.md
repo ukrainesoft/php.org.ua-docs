@@ -1,12 +1,12 @@
 Анонімні класи
 
--   [« Трейты](language.oop5.traits.html)
+-   [« Трейти](language.oop5.traits.md)
     
--   [Перегрузка »](language.oop5.overloading.html)
+-   [Перегрузка »](language.oop5.overloading.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Классы и объекты](language.oop5.html)
+-   [Класи та об'єкти](language.oop5.md)
     
 -   Анонімні класи
     

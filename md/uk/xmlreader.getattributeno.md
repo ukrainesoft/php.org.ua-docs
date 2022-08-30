@@ -1,12 +1,12 @@
 Отримати значення атрибута за індексом
 
--   [« XMLReader::getAttribute](xmlreader.getattribute.html)
+-   [« XMLReader::getAttribute](xmlreader.getattribute.md)
     
--   [XMLReader::getAttributeNs »](xmlreader.getattributens.html)
+-   [XMLReader::getAttributeNs »](xmlreader.getattributens.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLReader](class.xmlreader.html)
+-   [XMLReader](class.xmlreader.md)
     
 -   Отримати значення атрибута за індексом
     
@@ -37,5 +37,5 @@ public XMLReader::getAttributeNo(int $index): ?string
 
 ### Дивіться також
 
--   [XMLReader::getAttribute()](xmlreader.getattribute.html) - Отримати значення атрибута з певним ім'ям
--   [XMLReader::getAttributeNs()](xmlreader.getattributens.html) - Отримати значення атрибуту по localname та URI
+-   [XMLReader::getAttribute()](xmlreader.getattribute.md) - Отримати значення атрибута з певним ім'ям
+-   [XMLReader::getAttributeNs()](xmlreader.getattributens.md) - Отримати значення атрибуту по localname та URI

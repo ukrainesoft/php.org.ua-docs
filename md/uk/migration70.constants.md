@@ -1,40 +1,40 @@
 Нові глобальні константи
 
--   [« Нові класи та інтерфейси](migration70.classes.html)
+-   [« Нові класи та інтерфейси](migration70.classes.md)
     
 -   [Изменения в модулях SAPI »](migration70.sapi-changes.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.html)
+-   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.md)
     
 -   Нові глобальні константи
     
 
 ## Нові глобальні константи
 
-### [Константы предопределённые в ядре PHP](reserved.constants.html)
+### [Константи визначені в ядрі PHP](reserved.constants.md)
 
 -   **`PHP_INT_MIN`**
 
-### [ДД](book.image.html)
+### [ДД](book.image.md)
 
 -   **`IMG_WEBP`** (з PHP 7.0.10)
 
-### [JSON](book.json.html)
+### [JSON](book.json.md)
 
 -   **`JSON_ERROR_INVALID_PROPERTY_NAME`**
 -   **`JSON_ERROR_UTF16`**
 
-### [LibXML](book.libxml.html)
+### [LibXML](book.libxml.md)
 
 -   **`LIBXML_BIGLINES`**
 
-### [PCRE](book.pcre.html)
+### [PCRE](book.pcre.md)
 
 -   **`PREG_JIT_STACKLIMIT_ERROR`**
 
-### [POSIX](book.posix.html)
+### [POSIX](book.posix.md)
 
 -   **`POSIX_RLIMIT_AS`**
 -   **`POSIX_RLIMIT_CORE`**
@@ -54,7 +54,7 @@
 -   **`POSIX_RLIMIT_STACK`**
 -   **`POSIX_RLIMIT_INFINITY`**
 
-### [Zlib](book.zlib.html)
+### [Zlib](book.zlib.md)
 
 -   **`ZLIB_ENCODING_RAW`**
 -   **`ZLIB_ENCODING_DEFLATE`**

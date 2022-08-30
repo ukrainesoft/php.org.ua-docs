@@ -1,12 +1,12 @@
 Клас SplFixedArray
 
--   [« SplPriorityQueue::valid](splpriorityqueue.valid.html)
+-   [« SplPriorityQueue::valid](splpriorityqueue.valid.md)
     
--   [SplFixedArray::construct »](splfixedarray.construct.html)
+-   [SplFixedArray::construct »](splfixedarray.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Структури даних](spl.datastructures.html)
+-   [Структури даних](spl.datastructures.md)
     
 -   Клас SplFixedArray
     
@@ -59,10 +59,10 @@ public __wakeup(): void
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Клас **SplFixedArray** тепер реалізує інтерфейс [JsonSerializable](class.jsonserializable.html)                                                                      |
-|        | Клас **SplFixedArray** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше було реалізовано інтерфейс [Iterator](class.iterator.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **SplFixedArray** тепер реалізує інтерфейс [JsonSerializable](class.jsonserializable.md) |
+|  | Клас **SplFixedArray** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше було реалізовано інтерфейс [Iterator](class.iterator.md) |
 
 ## Приклади
 
@@ -70,7 +70,7 @@ public __wakeup(): void
 
 ```php
 <?php
-// Инициализация массива фиксированной длиной
+// Инициализация Масива фиксированной длиной
 $array = new SplFixedArray(5);
 
 $array[1] = 2;
@@ -81,12 +81,12 @@ var_dump($array[1]); // int(2)
 
 var_dump($array["4"]); // string(3) "foo"
 
-// Увеличение размера массива до 10
+// Увеличение размера Масива до 10
 $array->setSize(10);
 
 $array[9] = "asdf";
 
-// Сокращаем размер массива до 2-х
+// Сокращаем размер Масива до 2-х
 $array->setSize(2);
 
 // Следующий код вызывает исключение RuntimeException: Index invalid or out of range
@@ -123,19 +123,19 @@ RuntimeException: Index invalid or out of range
 
 ## Зміст
 
--   [SplFixedArray::construct](splfixedarray.construct.html) - Створює новий масив фіксованої довжини
--   [SplFixedArray::count](splfixedarray.count.html) — Повертає розмір масиву
--   [SplFixedArray::current](splfixedarray.current.html) — Повертає поточний елемент масиву
--   [SplFixedArray::fromArray](splfixedarray.fromarray.html) - Імпортує PHP-масив в об'єкт класу SplFixedArray
--   [SplFixedArray::getSize](splfixedarray.getsize.html) — Отримує розмір масиву
--   [SplFixedArray::key](splfixedarray.key.html) — Повертає індекс поточного елемента масиву
--   [SplFixedArray::next](splfixedarray.next.html) — Переходить до наступного елементу масиву
--   [SplFixedArray::offsetExists](splfixedarray.offsetexists.html) — Повертає факт наявності зазначеного індексу масиву
--   [SplFixedArray::offsetGet](splfixedarray.offsetget.html) — Повертає значення за вказаним індексом
--   [SplFixedArray::offsetSet](splfixedarray.offsetset.html) — Встановлює нове значення за заданим індексом
--   [SplFixedArray::offsetUnset](splfixedarray.offsetunset.html) — Видаляє значення за індексом $index
--   [SplFixedArray::rewind](splfixedarray.rewind.html) - Встановлює ітератор масиву на початок
--   [SplFixedArray::setSize](splfixedarray.setsize.html) - Змінює розмір масиву
--   [SplFixedArray::toArray](splfixedarray.toarray.html) - Повертає звичайний PHP-масив зі значеннями фіксованого масиву
--   [SplFixedArray::valid](splfixedarray.valid.html) - Перевіряє масив на наявність елементів
--   [SplFixedArray::wakeup](splfixedarray.wakeup.html) - Переініціалізація масиву після десеріалізації
+-   [SplFixedArray::construct](splfixedarray.construct.md) - Створює новий масив фіксованої довжини
+-   [SplFixedArray::count](splfixedarray.count.md) — Повертає розмір масиву
+-   [SplFixedArray::current](splfixedarray.current.md) — Повертає поточний елемент масиву
+-   [SplFixedArray::fromArray](splfixedarray.fromarray.md) - Імпортує PHP-масив в об'єкт класу SplFixedArray
+-   [SplFixedArray::getSize](splfixedarray.getsize.md) — Отримує розмір масиву
+-   [SplFixedArray::key](splfixedarray.key.md) — Повертає індекс поточного елемента масиву
+-   [SplFixedArray::next](splfixedarray.next.md) — Переходить до наступного елементу масиву
+-   [SplFixedArray::offsetExists](splfixedarray.offsetexists.md) — Повертає факт наявності зазначеного індексу масиву
+-   [SplFixedArray::offsetGet](splfixedarray.offsetget.md) — Повертає значення за вказаним індексом
+-   [SplFixedArray::offsetSet](splfixedarray.offsetset.md) — Встановлює нове значення за заданим індексом
+-   [SplFixedArray::offsetUnset](splfixedarray.offsetunset.md) — Видаляє значення за індексом $index
+-   [SplFixedArray::rewind](splfixedarray.rewind.md) - Встановлює ітератор масиву на початок
+-   [SplFixedArray::setSize](splfixedarray.setsize.md) - Змінює розмір масиву
+-   [SplFixedArray::toArray](splfixedarray.toarray.md) - Повертає звичайний PHP-масив зі значеннями фіксованого масиву
+-   [SplFixedArray::valid](splfixedarray.valid.md) - Перевіряє масив на наявність елементів
+-   [SplFixedArray::wakeup](splfixedarray.wakeup.md) - Переініціалізація масиву після десеріалізації

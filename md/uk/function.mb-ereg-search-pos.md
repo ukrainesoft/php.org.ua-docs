@@ -4,9 +4,9 @@
     
 -   [мбeregsearchregs »](function.mb-ereg-search-regs.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
     
 -   Повертає позицію і довжину ділянки багатобайтового рядка, що збіглася з регулярним виразом.
     
@@ -45,9 +45,9 @@ mb_ereg_search_pos(?string $pattern = null, ?string $options = null): array|fals
 
 ### список змін
 
-| Версия | Описание                                              |
-|--------|-------------------------------------------------------|
-|        | `pattern` і `options` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `pattern` і `options` тепер допускають значення null. |
 
 ### Примітки
 

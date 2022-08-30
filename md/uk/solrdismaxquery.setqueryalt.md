@@ -1,12 +1,12 @@
 Встановлює альтернативний запит (параметр q.alt)
 
--   [« SolrDisMaxQuery::setPhraseSlop](solrdismaxquery.setphraseslop.html)
+-   [« SolrDisMaxQuery::setPhraseSlop](solrdismaxquery.setphraseslop.md)
     
--   [SolrDisMaxQuery::setQueryPhraseSlop »](solrdismaxquery.setqueryphraseslop.html)
+-   [SolrDisMaxQuery::setQueryPhraseSlop »](solrdismaxquery.setqueryphraseslop.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
+-   [SolrDisMaxQuery](class.solrdismaxquery.md)
     
 -   Встановлює альтернативний запит (параметр q.alt)
     
@@ -35,7 +35,7 @@ public SolrDisMaxQuery::setQueryAlt(string $q): SolrDisMaxQuery
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.html)
+[SolrDisMaxQuery](class.solrdismaxquery.md)
 
 ### Приклади
 

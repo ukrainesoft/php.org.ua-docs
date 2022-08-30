@@ -1,12 +1,12 @@
 Згладжує контури зображення
 
--   [« Imagick::recolorImage](imagick.recolorimage.html)
+-   [« Imagick::recolorImage](imagick.recolorimage.md)
     
--   [Imagick::remapImage »](imagick.remapimage.html)
+-   [Imagick::remapImage »](imagick.remapimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Згладжує контури зображення
     

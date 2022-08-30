@@ -1,12 +1,12 @@
 Опис
 
--   [« ImagickKernel::scale](imagickkernel.scale.html)
+-   [« ImagickKernel::scale](imagickkernel.scale.md)
     
--   [Модулі для роботи з поштою](refs.remote.mail.html)
+-   [Модулі для роботи з поштою](refs.remote.mail.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickKernel](class.imagickkernel.html)
+-   [ImagickKernel](class.imagickkernel.md)
     
 -   Опис
     

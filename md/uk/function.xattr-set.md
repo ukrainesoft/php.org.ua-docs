@@ -4,9 +4,9 @@
     
 -   [xattrsupported »](function.xattr-supported.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [xattr Функции](ref.xattr.html)
+-   [xattr Функции](ref.xattr.md)
     
 -   Встановлення розширених атрибутів файлу
     

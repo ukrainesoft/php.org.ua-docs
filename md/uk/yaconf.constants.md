@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](yaconf.resources.html)
+-   [« Типи ресурсів](yaconf.resources.md)
     
--   [Yaconf »](class.yaconf.html)
+-   [Yaconf »](class.yaconf.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yaconf](book.yaconf.html)
+-   [Yaconf](book.yaconf.md)
     
 -   Обумовлені константи
     

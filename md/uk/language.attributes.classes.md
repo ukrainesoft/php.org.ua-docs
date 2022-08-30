@@ -2,11 +2,11 @@
 
 -   [« Чтение атрибутов с помощью Reflection API](language.attributes.reflection.html)
     
--   [Объяснение ссылок »](language.references.html)
+-   [Пояснення посилань »](language.references.html)
     
 -   [PHP Manual](index.html)
     
--   [Атрибуты](language.attributes.html)
+-   [Атрибути](language.attributes.html)
     
 -   Оголошення класів атрибутів
     

@@ -4,9 +4,9 @@
     
 -   [xmlsetobject »](function.xml-set-object.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции парсера XML](ref.xml.html)
+-   [Функции парсера XML](ref.xml.md)
     
 -   Установка оброблювача оголошення умовних позначень
     
@@ -77,6 +77,6 @@ handler(    XMLParser $parser,    string $notation_name,    string $
 
 ### список змін
 
-| Версия | Описание                                                                                                    |
-|--------|-------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |

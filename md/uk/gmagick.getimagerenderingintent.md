@@ -1,12 +1,12 @@
 Отримує мету рендерингу зображення
 
--   [« Gmagick::getimageredprimary](gmagick.getimageredprimary.html)
+-   [« Gmagick::getimageredprimary](gmagick.getimageredprimary.md)
     
--   [Gmagick::getimageresolution »](gmagick.getimageresolution.html)
+-   [Gmagick::getimageresolution »](gmagick.getimageresolution.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Отримує мету рендерингу зображення
     

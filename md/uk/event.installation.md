@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](event.requirements.html)
+-   [« Вимоги](event.requirements.md)
     
--   [Настройка во время выполнения »](event.configuration.html)
+-   [Налаштування під час виконання »](event.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](event.setup.html)
+-   [Встановлення та налаштування](event.setup.md)
     
 -   Встановлення
     
@@ -15,4 +15,4 @@
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/event](https://pecl.php.net/package/event)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/event](https://pecl.php.net/package/event)

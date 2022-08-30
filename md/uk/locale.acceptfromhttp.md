@@ -1,12 +1,12 @@
 Спробувати визначити найкращу локаль на основі заголовку HTTP "Accept-Language"
 
--   [« Locale](class.locale.html)
+-   [« Locale](class.locale.md)
     
--   [Locale::canonicalize »](locale.canonicalize.html)
+-   [Locale::canonicalize »](locale.canonicalize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Locale](class.locale.html)
+-   [Locale](class.locale.md)
     
 -   Спробувати визначити найкращу локаль на основі заголовку HTTP "Accept-Language"
     
@@ -75,4 +75,4 @@ en_US
 
 ### Дивіться також
 
--   [localelookup()](locale.lookup.html) - Пошук мовних позначок найбільш відповідних заданої локалі
+-   [localelookup()](locale.lookup.md) - Пошук мовних позначок найбільш відповідних заданої локалі

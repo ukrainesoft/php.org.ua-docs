@@ -1,12 +1,12 @@
 Повертає масив усіх імен властивостей
 
--   [« SolrObject::destruct](solrobject.destruct.html)
+-   [« SolrObject::destruct](solrobject.destruct.md)
     
--   [SolrObject::offsetExists »](solrobject.offsetexists.html)
+-   [SolrObject::offsetExists »](solrobject.offsetexists.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrObject](class.solrobject.html)
+-   [SolrObject](class.solrobject.md)
     
 -   Повертає масив усіх імен властивостей
     

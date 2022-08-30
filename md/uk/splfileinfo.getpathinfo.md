@@ -1,12 +1,12 @@
 Отримує об'єкт SplFileInfo для заданого шляху
 
--   [« SplFileInfo::getPath](splfileinfo.getpath.html)
+-   [« SplFileInfo::getPath](splfileinfo.getpath.md)
     
--   [SplFileInfo::getPathname »](splfileinfo.getpathname.html)
+-   [SplFileInfo::getPathname »](splfileinfo.getpathname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Отримує об'єкт SplFileInfo для заданого шляху
     
@@ -23,23 +23,23 @@ SplFileInfo::getPathInfo — Отримує об'єкт SplFileInfo для за�
 public SplFileInfo::getPathInfo(?string $class = null): ?SplFileInfo
 ```
 
-Отримує об'єкт класу [SplFileInfo](class.splfileinfo.html) для шляху поточного файлу
+Отримує об'єкт класу [SplFileInfo](class.splfileinfo.md) для шляху поточного файлу
 
 ### Список параметрів
 
 `class`
 
-Ім'я похідного від [SplFileInfo](class.splfileinfo.html) класу для використання або себе, якщо **`null`**
+Ім'я похідного від [SplFileInfo](class.splfileinfo.md) класу для використання або себе, якщо **`null`**
 
 ### Значення, що повертаються
 
-Повертає об'єкт класу [SplFileInfo](class.splfileinfo.html) для батьківського шляху файлу у разі успішного виконання або **`null`** у разі виникнення помилки.
+Повертає об'єкт класу [SplFileInfo](class.splfileinfo.md) для батьківського шляху файлу у разі успішного виконання або **`null`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия | Описание                              |
-|--------|---------------------------------------|
-|        | `class` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `class` тепер допускає значення null. |
 
 ### Приклади
 
@@ -61,4 +61,4 @@ string(8) "/usr/bin"
 
 ### Дивіться також
 
--   [SplFileInfo::setInfoClass()](splfileinfo.setinfoclass.html) - Вказує ім'я класу, об'єкти якого будуть створюватися методами SplFileInfo::getFileInfo та SplFileInfo::getPathInfo
+-   [SplFileInfo::setInfoClass()](splfileinfo.setinfoclass.md) - Вказує ім'я класу, об'єкти якого будуть створюватися методами SplFileInfo::getFileInfo та SplFileInfo::getPathInfo

@@ -1,12 +1,12 @@
 Встановлює загальний розмір полотна
 
--   [« ImagickDraw::setVectorGraphics](imagickdraw.setvectorgraphics.html)
+-   [« ImagickDraw::setVectorGraphics](imagickdraw.setvectorgraphics.md)
     
--   [ImagickDraw::skewX »](imagickdraw.skewx.html)
+-   [ImagickDraw::skewX »](imagickdraw.skewx.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Встановлює загальний розмір полотна
     

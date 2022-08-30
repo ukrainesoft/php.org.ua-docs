@@ -2,27 +2,27 @@
 
 -   [« expectpopen](function.expect-popen.html)
     
--   [Введение »](intro.pcntl.html)
+-   [Введение »](intro.pcntl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модули для управления процессами программ](refs.fileprocess.process.html)
+-   [Модули для управления процессами программ](refs.fileprocess.process.md)
     
 -   Управління процесами
     
 
 # Управління процесами
 
--   [Введение](intro.pcntl.html)
--   [Установка и настройка](pcntl.setup.html)
-    -   [Требования](pcntl.requirements.html)
-    -   [Установка](pcntl.installation.html)
-    -   [Настройка во время выполнения](pcntl.configuration.html)
-    -   [Типы ресурсов](pcntl.resources.html)
--   [Предопределённые константы](pcntl.constants.html)
--   [Примеры](pcntl.examples.html)
-    -   [Базовое применение](pcntl.example.html)
--   [Функції PCNTL](ref.pcntl.html)
+-   [Введение](intro.pcntl.md)
+-   [Встановлення та налаштування](pcntl.setup.md)
+    -   [Вимоги](pcntl.requirements.md)
+    -   [Установка](pcntl.installation.md)
+    -   [Налаштування під час виконання](pcntl.configuration.md)
+    -   [Типи ресурсів](pcntl.resources.md)
+-   [Обумовлені константи](pcntl.constants.md)
+-   [Приклади](pcntl.examples.md)
+    -   [Базовое применение](pcntl.example.md)
+-   [Функції PCNTL](ref.pcntl.md)
     -   [pcntlalarm](function.pcntl-alarm.html) - Задати таймер доставки сигналу SIGALRM
     -   [pcntlasyncsignals](function.pcntl-async-signals.html) — Увімкнути/вимкнути асинхронну обробку сигналів або отримати поточний статус
     -   [pcntlerrno](function.pcntl-errno.html) - Псевдонім pcntlgetlasterror

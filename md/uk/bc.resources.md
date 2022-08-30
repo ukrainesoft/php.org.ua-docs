@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](bc.configuration.html)
+-   [« Налаштування під час виконання](bc.configuration.md)
     
--   [Предопределённые константы »](bc.constants.html)
+-   [Обумовлені константи »](bc.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](bc.setup.html)
+-   [Встановлення та налаштування](bc.setup.md)
     
 -   Типи ресурсів
     

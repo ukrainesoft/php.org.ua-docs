@@ -1,12 +1,12 @@
 Вступ
 
--   [« Управление функциями](book.funchand.html)
+-   [« Управление функциями](book.funchand.md)
     
--   [Установка и настройка »](funchand.setup.html)
+-   [Встановлення та налаштування »](funchand.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Управление функциями](book.funchand.html)
+-   [Управление функциями](book.funchand.md)
     
 -   Вступ
     

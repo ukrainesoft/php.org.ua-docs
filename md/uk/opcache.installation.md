@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](opcache.requirements.html)
+-   [« Вимоги](opcache.requirements.md)
     
--   [Настройка во время выполнения »](opcache.configuration.html)
+-   [Налаштування під час виконання »](opcache.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](opcache.setup.html)
+-   [Встановлення та налаштування](opcache.setup.md)
     
 -   Встановлення
     
@@ -38,4 +38,4 @@ opcache.enable_cli=1
 
 У Windows має бути включений параметр [opcache.filecachefallback](opcache.configuration.html#ini.opcache.file-cache-fallback) і [opcache.filecache](opcache.configuration.html#ini.opcache.file-cache) має бути встановлена ​​на вже існуючий та доступний для запису каталог.
 
-Повний список опцій налаштування OPcache [смотрите тут](opcache.configuration.html)
+Повний список опцій налаштування OPcache [смотрите тут](opcache.configuration.md)

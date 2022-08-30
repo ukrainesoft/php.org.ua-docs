@@ -1,12 +1,12 @@
 Додає фільтр розмиття до зображення
 
--   [« Imagick::blueShiftImage](imagick.blueshiftimage.html)
+-   [« Imagick::blueShiftImage](imagick.blueshiftimage.md)
     
--   [Imagick::borderImage »](imagick.borderimage.html)
+-   [Imagick::borderImage »](imagick.borderimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Додає фільтр розмиття до зображення
     
@@ -68,6 +68,6 @@ echo $image;
 
 ### Дивіться також
 
--   [Imagick::adaptiveBlurImage()](imagick.adaptiveblurimage.html) - Додає адаптивний фільтр розмиття до зображення
--   [Imagick::motionBlurImage()](imagick.motionblurimage.html) - Імітує розмиття у русі
--   [Imagick::radialBlurImage()](imagick.radialblurimage.html) - Радіальне розмиття зображення
+-   [Imagick::adaptiveBlurImage()](imagick.adaptiveblurimage.md) - Додає адаптивний фільтр розмиття до зображення
+-   [Imagick::motionBlurImage()](imagick.motionblurimage.md) - Імітує розмиття у русі
+-   [Imagick::radialBlurImage()](imagick.radialblurimage.md) - Радіальне розмиття зображення

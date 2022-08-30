@@ -4,7 +4,7 @@
     
 -   [ДсMap::merge »](ds-map.merge.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Коллекция пар ключ-значение](class.ds-map.html)
     
@@ -33,7 +33,7 @@ public Ds\Map::map(callable $callback): Ds\Map
 callback(mixed $key, mixed $value): mixed
 ```
 
-Аргумент типу [callable](language.types.callable.html)
+Аргумент типу [callable](language.types.callable.md)
 
 Ця функція повинна повертати нове значення для кожного елемента колекції.
 

@@ -1,12 +1,12 @@
 Повертає стиль шрифту
 
--   [« GmagickDraw::getfontsize](gmagickdraw.getfontsize.html)
+-   [« GmagickDraw::getfontsize](gmagickdraw.getfontsize.md)
     
--   [GmagickDraw::getfontweight »](gmagickdraw.getfontweight.html)
+-   [GmagickDraw::getfontweight »](gmagickdraw.getfontweight.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickDraw](class.gmagickdraw.html)
+-   [GmagickDraw](class.gmagickdraw.md)
     
 -   Повертає стиль шрифту
     
@@ -31,4 +31,4 @@ public GmagickDraw::getfontstyle(): int
 
 ### Значення, що повертаються
 
-Повертає константу стилю шрифту (STYLE), пов'язану з об'єктом [GmagickDraw](class.gmagickdraw.html), або `0`, якщо стиль не встановлено.
+Повертає константу стилю шрифту (STYLE), пов'язану з об'єктом [GmagickDraw](class.gmagickdraw.md), або `0`, якщо стиль не встановлено.

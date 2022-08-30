@@ -1,12 +1,12 @@
 Додати спостерігача для екземпляра inotify
 
--   [« Функции Inotify](ref.inotify.html)
+-   [« Функции Inotify](ref.inotify.md)
     
 -   [inotifyinit »](function.inotify-init.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Inotify](ref.inotify.html)
+-   [Функции Inotify](ref.inotify.md)
     
 -   Додати спостерігача для екземпляра inotify
     
@@ -39,7 +39,7 @@ inotify_add_watch(resource $inotify_instance, string $pathname, int $mask): int
 
 `mask`
 
-Події, які слід відстежувати. Дивіться [Предопределённые константы](inotify.constants.html)
+Події, які слід відстежувати. Дивіться [Обумовлені константи](inotify.constants.md)
 
 ### Значення, що повертаються
 

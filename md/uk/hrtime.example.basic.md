@@ -1,12 +1,12 @@
 Основи використання
 
--   [« Примеры](hrtime.examples.html)
+-   [« Приклади](hrtime.examples.md)
     
 -   [HRTimePerformanceCounter »](class.hrtime-performancecounter.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](hrtime.examples.html)
+-   [Приклади](hrtime.examples.md)
     
 -   Основи використання
     

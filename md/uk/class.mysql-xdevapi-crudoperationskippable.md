@@ -4,7 +4,7 @@
     
 -   [CrudOperationSkippable::skip »](mysql-xdevapi-crudoperationskippable.skip.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Mysqlxdevapi](book.mysql-xdevapi.html)
     

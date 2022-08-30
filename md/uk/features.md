@@ -1,10 +1,10 @@
 Відмітні особливості
 
--   [« Необходимость обновлений](security.current.html)
+-   [« Необходимость обновлений](security.current.md)
     
 -   [HTTP-автентифікація в PHP »](features.http-auth.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   Відмітні особливості
     
@@ -12,9 +12,9 @@
 # Відмітні особливості
 
 -   [HTTP-автентифікація в PHP](features.http-auth.html)
--   [Cookies](features.cookies.html)
--   [Сессии](features.sessions.html)
--   [Работа с XForms](features.xforms.html)
+-   [Cookies](features.cookies.md)
+-   [Сессии](features.sessions.md)
+-   [Работа с XForms](features.xforms.md)
 -   [Загрузка файлов на сервер](features.file-upload.html)
     -   [Завантаження файлів методом POST](features.file-upload.post-method.html)
     -   [Пояснення повідомлень про помилки](features.file-upload.errors.html)
@@ -25,20 +25,20 @@
 -   [Робота з віддаленими файлами](features.remote-files.html)
 -   [Работа с соединениями](features.connection-handling.html)
 -   [Постійні з'єднання з базами даних](features.persistent-connections.html)
--   [Використання PHP у командному рядку](features.commandline.html)
-    -   [Введение](features.commandline.introduction.html)
-    -   [Основные отличия от остальных реализаций SAPI](features.commandline.differences.html)
-    -   [Опції](features.commandline.options.html) - Список опцій командного рядка
-    -   [Использование](features.commandline.usage.html) - Виконання PHP-файлів
-    -   [Потоки ввода/вывода](features.commandline.io-streams.html)
-    -   [Інтерактивна консоль](features.commandline.interactive.html)
-    -   [Вбудований веб-сервер](features.commandline.webserver.html)
-    -   [Опции конфигурации](features.commandline.ini.html)
--   [Сборка мусора](features.gc.html)
-    -   [Основы подсчёта ссылок](features.gc.refcounting-basics.html)
+-   [Використання PHP у командному рядку](features.commandline.md)
+    -   [Введение](features.commandline.introduction.md)
+    -   [Основні відмінності від інших реалізацій SAPI](features.commandline.differences.md)
+    -   [Опції](features.commandline.options.md) - Список опцій командного рядка
+    -   [Использование](features.commandline.usage.md) - Виконання PHP-файлів
+    -   [Потоки введення/виводу](features.commandline.io-streams.html)
+    -   [Інтерактивна консоль](features.commandline.interactive.md)
+    -   [Вбудований веб-сервер](features.commandline.webserver.md)
+    -   [Опции конфигурации](features.commandline.ini.md)
+-   [Сборка мусора](features.gc.md)
+    -   [Основи підрахунку посилань](features.gc.refcounting-basics.html)
     -   [Збір циклічних посилань](features.gc.collecting-cycles.html)
     -   [Питання продуктивності](features.gc.performance-considerations.html)
--   [Динамічна трасування DTrace](features.dtrace.html)
-    -   [Введение в PHP и DTrace](features.dtrace.introduction.html)
-    -   [Использование PHP и DTrace](features.dtrace.dtrace.html)
-    -   [Використання SystemTap зі статичними зондами PHP DTrace](features.dtrace.systemtap.html)
+-   [Динамічна трасування DTrace](features.dtrace.md)
+    -   [Введение в PHP и DTrace](features.dtrace.introduction.md)
+    -   [Использование PHP и DTrace](features.dtrace.dtrace.md)
+    -   [Використання SystemTap зі статичними зондами PHP DTrace](features.dtrace.systemtap.md)

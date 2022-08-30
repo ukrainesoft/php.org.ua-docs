@@ -4,9 +4,9 @@
     
 -   [ldapcontrolpagedresultresponse »](function.ldap-control-paged-result-response.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.md)
     
 -   Підключитись до сервера LDAP
     
@@ -61,9 +61,9 @@ ldap_connect(?string $uri = null, int $port = 389): LDAP\Connection|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                            |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [LDAPConnection](class.ldap-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [LDAPConnection](class.ldap-connection.html); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

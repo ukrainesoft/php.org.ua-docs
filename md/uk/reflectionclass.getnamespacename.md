@@ -1,12 +1,12 @@
 Повертає назву простору імен
 
--   [« ReflectionClass::getName](reflectionclass.getname.html)
+-   [« ReflectionClass::getName](reflectionclass.getname.md)
     
--   [ReflectionClass::getParentClass »](reflectionclass.getparentclass.html)
+-   [ReflectionClass::getParentClass »](reflectionclass.getparentclass.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає назву простору імен
     
@@ -75,5 +75,5 @@ string(3) "Foo"
 
 ### Дивіться також
 
--   [ReflectionClass::getParentClass()](reflectionclass.getparentclass.html) - Повертає батьківський клас
--   [namespaces](language.namespaces.html)
+-   [ReflectionClass::getParentClass()](reflectionclass.getparentclass.md) - Повертає батьківський клас
+-   [namespaces](language.namespaces.md)

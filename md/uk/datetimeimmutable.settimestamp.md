@@ -1,12 +1,12 @@
 Встановлює дату та час на основі мітки часу Unix
 
--   [« DateTimeImmutable::setTime](datetimeimmutable.settime.html)
+-   [« DateTimeImmutable::setTime](datetimeimmutable.settime.md)
     
--   [DateTimeImmutable::setTimezone »](datetimeimmutable.settimezone.html)
+-   [DateTimeImmutable::setTimezone »](datetimeimmutable.settimezone.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTimeImmutable](class.datetimeimmutable.html)
+-   [DateTimeImmutable](class.datetimeimmutable.md)
     
 -   Встановлює дату та час на основі мітки часу Unix
     
@@ -23,17 +23,17 @@ DateTimeImmutable::setTimestamp — Встановлює дату та час н
 public DateTimeImmutable::setTimestamp(int $timestamp): DateTimeImmutable
 ```
 
-Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.html), побудований зі старого, з датою та часом, встановленими на основі мітки часу Unix.
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md), побудований зі старого, з датою та часом, встановленими на основі мітки часу Unix.
 
 ### Список параметрів
 
 `timestamp`
 
-Мітка часу Unix представляє дату. Встановлення міток часу поза діапазоном цілого числа (int) можливе при використанні методу [DateTimeImmutable::modify()](datetimeimmutable.modify.html) з форматом `@`
+Мітка часу Unix представляє дату. Встановлення міток часу поза діапазоном цілого числа (int) можливе при використанні методу [DateTimeImmutable::modify()](datetimeimmutable.modify.md) з форматом `@`
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.html) з модифікованими даними або **`false`** у разі виникнення помилки.
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) з модифікованими даними або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -60,4 +60,4 @@ echo $newDate->format('U = Y-m-d H:i:s') . "\n";
 
 ### Дивіться також
 
--   [DateTimeImmutable::getTimestamp()](datetime.gettimestamp.html) - Повертає тимчасову мітку Unix
+-   [DateTimeImmutable::getTimestamp()](datetime.gettimestamp.md) - Повертає тимчасову мітку Unix

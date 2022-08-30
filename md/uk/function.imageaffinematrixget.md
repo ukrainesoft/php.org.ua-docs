@@ -1,12 +1,12 @@
 Отримує матрицю афінного перетворення
 
--   [« imageaffinematrixconcat](function.imageaffinematrixconcat.html)
+-   [« imageaffinematrixconcat](function.imageaffinematrixconcat.md)
     
--   [imagealphablending »](function.imagealphablending.html)
+-   [imagealphablending »](function.imagealphablending.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Отримує матрицю афінного перетворення
     
@@ -68,5 +68,5 @@ Array
 
 ### Дивіться також
 
--   [imageaffine()](function.imageaffine.html) - Повернути зображення, що містить афінно-перетворене зображення src, використовуючи додаткову область обмеження
--   [imageaffinematrixconcat()](function.imageaffinematrixconcat.html) - Конкатенує дві афінні матриці перетворення
+-   [imageaffine()](function.imageaffine.md) - Повернути зображення, що містить афінно-перетворене зображення src, використовуючи додаткову область обмеження
+-   [imageaffinematrixconcat()](function.imageaffinematrixconcat.md) - Конкатенує дві афінні матриці перетворення

@@ -4,9 +4,9 @@
     
 -   [dioopen »](function.dio-open.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції прямого введення/виводу](ref.dio.html)
+-   [Функції прямого введення/виводу](ref.dio.md)
     
 -   Викликає функцію бібліотеки C fcntl для файлового дескриптора
     
@@ -43,7 +43,7 @@ dio_fcntl(resource $fd, int $cmd, mixed $args = ?): mixed
     
 -   **`F_DUPFD`** - шукає найменший доступний файловий дескриптор, більший чи рівний `args` і повертає його.
     
--   **`F_SETFL`** - встановлює файловий дескриптор прапори, задані в `args`, такі як **`O_APPEND`** **`O_NONBLOCK`** або **`O_ASYNC`**. Для використання **`O_ASYNC`** вам необхідно скористатися модулем [PCNTL](ref.pcntl.html)
+-   **`F_SETFL`** - встановлює файловий дескриптор прапори, задані в `args`, такі як **`O_APPEND`** **`O_NONBLOCK`** або **`O_ASYNC`**. Для використання **`O_ASYNC`** вам необхідно скористатися модулем [PCNTL](ref.pcntl.md)
     
 
 `args`

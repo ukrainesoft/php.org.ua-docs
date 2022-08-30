@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](simplexml.setup.html)
+-   [« Встановлення та налаштування](simplexml.setup.html)
     
 -   [Установка »](simplexml.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](simplexml.setup.html)
+-   [Встановлення та налаштування](simplexml.setup.html)
     
 -   Вимоги
     

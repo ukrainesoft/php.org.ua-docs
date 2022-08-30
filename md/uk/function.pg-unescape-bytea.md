@@ -4,9 +4,9 @@
     
 -   [пгuntrace »](function.pg-untrace.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PostgreSQL](ref.pgsql.html)
+-   [Функции PostgreSQL](ref.pgsql.md)
     
 -   Забирає екранування двійкових даних типу bytea
     

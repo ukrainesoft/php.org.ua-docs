@@ -75,7 +75,7 @@ echo "Полная запись: \$format (full):\n\t",
         IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL),
         "\n";
 
-echo "Массив: \$format (none, full):\n\t",
+echo "Масив: \$format (none, full):\n\t",
         IntlDateFormatter::formatObject($cal, array(
                 IntlDateFormatter::NONE,
                 IntlDateFormatter::FULL)),
@@ -100,7 +100,7 @@ echo "Объект DateTime:\n\t",
     6 juin 2013 17:05:06
 Полная запись: $format (full):
     jeudi 6 juin 2013 17:05:06 heure d’été irlandaise
-Массив: $format (none, full):
+Масив: $format (none, full):
     17:05:06 heure d’été irlandaise
 Строка: $format (d 'of' MMMM y):
     6 of June 2013

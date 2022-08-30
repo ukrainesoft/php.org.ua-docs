@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](zookeeper.configuration.html)
+-   [« Налаштування під час виконання](zookeeper.configuration.md)
     
--   [Предопределённые константы »](zookeeper.constants.html)
+-   [Обумовлені константи »](zookeeper.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](zookeeper.setup.html)
+-   [Встановлення та налаштування](zookeeper.setup.md)
     
 -   Типи ресурсів
     

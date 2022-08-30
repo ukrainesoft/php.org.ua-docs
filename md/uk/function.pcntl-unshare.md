@@ -45,5 +45,5 @@ pcntl_unshare(int $flags): bool
 
 ### Дивіться також
 
--   [Константы PCNTL](pcntl.constants.html#pcntl.constants.clone)
+-   [Константи PCNTL](pcntl.constants.html#pcntl.constants.clone)
 -   [pcntlgetlasterror()](function.pcntl-get-last-error.html) - Отримати код останньої помилки, що виникла в pcntl-функції

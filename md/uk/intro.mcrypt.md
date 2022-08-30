@@ -2,7 +2,7 @@
 
 -   [« Mcrypt](book.mcrypt.html)
     
--   [Установка и настройка »](mcrypt.setup.html)
+-   [Встановлення та налаштування »](mcrypt.setup.html)
     
 -   [PHP Manual](index.html)
     

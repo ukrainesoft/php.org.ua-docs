@@ -1,12 +1,12 @@
 Додає домен до списку пошукових доменів
 
--   [« EventDnsBase::addNameserverIp](eventdnsbase.addnameserverip.html)
+-   [« EventDnsBase::addNameserverIp](eventdnsbase.addnameserverip.md)
     
--   [EventDnsBase::clearSearch »](eventdnsbase.clearsearch.html)
+-   [EventDnsBase::clearSearch »](eventdnsbase.clearsearch.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventDnsBase](class.eventdnsbase.html)
+-   [EventDnsBase](class.eventdnsbase.md)
     
 -   Додає домен до списку пошукових доменів
     

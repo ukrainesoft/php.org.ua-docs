@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](fdf.setup.html)
+-   [« Встановлення та налаштування](fdf.setup.html)
     
 -   [Установка »](fdf.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](fdf.setup.html)
+-   [Встановлення та налаштування](fdf.setup.html)
     
 -   Вимоги
     

@@ -4,7 +4,7 @@
     
 -   [ДсVector::toArray »](ds-vector.toarray.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Вектор](class.ds-vector.html)
     

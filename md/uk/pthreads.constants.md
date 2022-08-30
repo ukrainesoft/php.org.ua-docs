@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Настройка во время выполнения](pthreads.configuration.html)
+-   [« Налаштування під час виконання](pthreads.configuration.md)
     
--   [Threaded »](class.threaded.html)
+-   [Threaded »](class.threaded.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [pthreads](book.pthreads.html)
+-   [pthreads](book.pthreads.md)
     
 -   Обумовлені константи
     

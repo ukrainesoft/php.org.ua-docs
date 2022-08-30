@@ -4,9 +4,9 @@
     
 -   [ibasenumparams »](function.ibase-num-params.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Firebird/InterBase](ref.ibase.html)
+-   [Функции Firebird/InterBase](ref.ibase.md)
     
 -   Повертає кількість полів у результуючому наборі
     

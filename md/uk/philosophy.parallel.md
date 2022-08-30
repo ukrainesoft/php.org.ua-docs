@@ -1,12 +1,12 @@
 Філософія
 
--   [« Установка](parallel.setup.html)
+-   [« Установка](parallel.setup.md)
     
--   [Функциональный API »](functional.parallel.html)
+-   [Функціональний API »](functional.parallel.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [parallel](book.parallel.html)
+-   [parallel](book.parallel.md)
     
 -   Філософія
     

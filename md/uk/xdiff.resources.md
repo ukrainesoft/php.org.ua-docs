@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](xdiff.configuration.html)
+-   [« Налаштування під час виконання](xdiff.configuration.md)
     
--   [Предопределённые константы »](xdiff.constants.html)
+-   [Обумовлені константи »](xdiff.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xdiff.setup.html)
+-   [Встановлення та налаштування](xdiff.setup.md)
     
 -   Типи ресурсів
     

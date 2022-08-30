@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](ldap.setup.html)
+-   [« Встановлення та налаштування](ldap.setup.md)
     
--   [Установка »](ldap.installation.html)
+-   [Установка »](ldap.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ldap.setup.html)
+-   [Встановлення та налаштування](ldap.setup.md)
     
 -   Вимоги
     

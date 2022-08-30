@@ -4,9 +4,9 @@
     
 -   [MongoDBDriverMonitoringServerHeartbeatStartedEvent::getHost »](mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBDriverMonitoring](mongodb.monitoring.html)
+-   [MongoDBDriverMonitoring](mongodb.monitoring.md)
     
 -   Клас MongoDBDriverMonitoringServerHeartbeatStartedEvent
     

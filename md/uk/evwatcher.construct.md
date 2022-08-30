@@ -1,12 +1,12 @@
 Анотація конструктор об'єкта спостерігача
 
--   [« EvWatcher::clear](evwatcher.clear.html)
+-   [« EvWatcher::clear](evwatcher.clear.md)
     
--   [EvWatcher::feed »](evwatcher.feed.html)
+-   [EvWatcher::feed »](evwatcher.feed.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvWatcher](class.evwatcher.html)
+-   [EvWatcher](class.evwatcher.md)
     
 -   Анотація конструктор об'єкта спостерігача
     

@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](oauth.resources.html)
+-   [« Типи ресурсів](oauth.resources.md)
     
--   [Примеры »](oauth.examples.html)
+-   [Приклади »](oauth.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](book.oauth.html)
+-   [OAuth](book.oauth.md)
     
 -   Обумовлені константи
     
@@ -67,11 +67,11 @@
 
 **`OAUTH_REQENGINE_STREAMS`** (int)
 
-Використовується методом [OAuth::setRequestEngine()](oauth.setrequestengine.html) Для вибору [потоків PHP](book.stream.html) як двигун, на противагу константі **`OAUTH_REQENGINE_CURL`**, що використовується для вибору [Curl](book.curl.html)
+Використовується методом [OAuth::setRequestEngine()](oauth.setrequestengine.md) Для вибору [потоків PHP](book.stream.md) як двигун, на противагу константі **`OAUTH_REQENGINE_CURL`**, що використовується для вибору [Curl](book.curl.md)
 
 **`OAUTH_REQENGINE_CURL`** (int)
 
-Використовується методом [OAuth::setRequestEngine()](oauth.setrequestengine.html) Для вибору [Curl](book.curl.html) як двигун, на противагу константі **`OAUTH_REQENGINE_STREAMS`**, що використовується для вибору [потоків PHP](book.stream.html)
+Використовується методом [OAuth::setRequestEngine()](oauth.setrequestengine.md) Для вибору [Curl](book.curl.md) як двигун, на противагу константі **`OAUTH_REQENGINE_STREAMS`**, що використовується для вибору [потоків PHP](book.stream.md)
 
 **`OAUTH_OK`** (int)
 

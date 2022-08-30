@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](mqseries.resources.html)
+-   [« Типи ресурсів](mqseries.resources.html)
     
 -   [Функции mqseries »](ref.mqseries.html)
     
@@ -21,9 +21,9 @@
 
 **Константи mqseries**
 
-| Константа PHP       | Константа MQ |
-|---------------------|--------------|
-| MQSERIESMQCCОК      | MQCCОК       |
-| MQSERIESMQCCWARNING | MQCCWARNING  |
-| MQSERIESMQCCFAILED  | MQCCFAILED   |
-| MQSERIESMQCCUNKNOWN | MQCCUNKNOWN  |
+| Константа PHP | Константа MQ |
+| --- | --- |
+| MQSERIESMQCCОК | MQCCОК |
+| MQSERIESMQCCWARNING | MQCCWARNING |
+| MQSERIESMQCCFAILED | MQCCFAILED |
+| MQSERIESMQCCUNKNOWN | MQCCUNKNOWN |

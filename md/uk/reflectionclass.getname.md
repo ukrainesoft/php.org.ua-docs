@@ -1,12 +1,12 @@
 Повертає ім'я класу
 
--   [« ReflectionClass::getModifiers](reflectionclass.getmodifiers.html)
+-   [« ReflectionClass::getModifiers](reflectionclass.getmodifiers.md)
     
--   [ReflectionClass::getNamespaceName »](reflectionclass.getnamespacename.html)
+-   [ReflectionClass::getNamespaceName »](reflectionclass.getnamespacename.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає ім'я класу
     
@@ -75,4 +75,4 @@ string(3) "Foo"
 
 ### Дивіться також
 
--   [ReflectionClass::getNamespaceName()](reflectionclass.getnamespacename.html) - Повертає назву простору імен
+-   [ReflectionClass::getNamespaceName()](reflectionclass.getnamespacename.md) - Повертає назву простору імен

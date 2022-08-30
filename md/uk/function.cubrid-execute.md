@@ -4,9 +4,9 @@
     
 -   [cubridfetch »](function.cubrid-fetch.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Виконує підготовлений SQL-оператор
     
@@ -62,9 +62,9 @@ SQL для виконання.
 
 ### список змін
 
-| Версия | Описание                                          |
-|--------|---------------------------------------------------|
-|        | Додано новий параметр **`CUBRID_EXEC_QUERY_ALL`** |
+| Версия | Описание |
+| --- | --- |
+|  | Додано новий параметр **`CUBRID_EXEC_QUERY_ALL`** |
 
 ### Приклади
 

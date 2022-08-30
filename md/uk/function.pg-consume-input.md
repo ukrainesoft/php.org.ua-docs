@@ -4,9 +4,9 @@
     
 -   [пгconvert »](function.pg-convert.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PostgreSQL](ref.pgsql.html)
+-   [Функции PostgreSQL](ref.pgsql.md)
     
 -   Читає вступні дані на з'єднанні
     
@@ -37,6 +37,6 @@ pg_consume_input(PgSql\Connection $connection): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |

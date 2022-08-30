@@ -1,12 +1,12 @@
 Встановити метадані phar-архіву
 
--   [« PharData::setDefaultStub](phardata.setdefaultstub.html)
+-   [« PharData::setDefaultStub](phardata.setdefaultstub.md)
     
--   [PharData::setSignatureAlgorithm »](phardata.setsignaturealgorithm.html)
+-   [PharData::setSignatureAlgorithm »](phardata.setsignaturealgorithm.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharData](class.phardata.html)
+-   [PharData](class.phardata.md)
     
 -   Встановити метадані phar-архіву
     
@@ -25,9 +25,9 @@ public PharData::setMetadata(mixed $metadata): void
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.html)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
-Функція [Phar::setMetadata()](phar.setmetadata.html) використовується для збереження даних, що характеризують phar-архів загалом . [PharFileInfo::setMetadata()](pharfileinfo.setmetadata.html) використовується для встановлення метаданих для файлу. Якщо метаданих буде багато, це може знизити швидкість завантаження phar-архіву.
+Функція [Phar::setMetadata()](phar.setmetadata.md) використовується для збереження даних, що характеризують phar-архів загалом . [PharFileInfo::setMetadata()](pharfileinfo.setmetadata.md) використовується для встановлення метаданих для файлу. Якщо метаданих буде багато, це може знизити швидкість завантаження phar-архіву.
 
 Метадані можна використовувати, наприклад, для вказівки, який файл повинен виконуватися під час завантаження, або для вказівки розташування маніфесту, типу package.xml для модуля [» PEAR](https://pear.php.net/). Загалом будь-які корисні в контексті phar-архіву дані.
 
@@ -43,7 +43,7 @@ public PharData::setMetadata(mixed $metadata): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання [Phar::setMetadata()](phar.setmetadata.html)**
+**Приклад #1 Приклад використання [Phar::setMetadata()](phar.setmetadata.md)**
 
 ```php
 <?php
@@ -71,6 +71,6 @@ array(1) {
 
 ### Дивіться також
 
--   [Phar::getMetadata()](phar.getmetadata.html) - Витягти метадані phar-архіву
--   [Phar::delMetadata()](phar.delmetadata.html) - Видалити глобальні метадані в архіві phar
--   [Phar::hasMetadata()](phar.hasmetadata.html) - Перевірити, чи містить phar-архів глобальні метадані
+-   [Phar::getMetadata()](phar.getmetadata.md) - Витягти метадані phar-архіву
+-   [Phar::delMetadata()](phar.delmetadata.md) - Видалити глобальні метадані в архіві phar
+-   [Phar::hasMetadata()](phar.hasmetadata.md) - Перевірити, чи містить phar-архів глобальні метадані

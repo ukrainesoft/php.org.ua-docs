@@ -4,7 +4,7 @@
     
 -   [YafLoader::construct »](yaf-loader.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafLoader](class.yaf-loader.html)
     

@@ -4,9 +4,9 @@
     
 -   [sodiumcryptoboxsealopen »](function.sodium-crypto-box-seal-open.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Витягує відкритий ключ із ключової пари cryptobox
     

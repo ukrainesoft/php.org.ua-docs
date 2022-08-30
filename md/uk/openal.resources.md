@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](openal.configuration.html)
+-   [« Налаштування під час виконання](openal.configuration.md)
     
--   [Предопределённые константы »](openal.constants.html)
+-   [Обумовлені константи »](openal.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](openal.setup.html)
+-   [Встановлення та налаштування](openal.setup.md)
     
 -   Типи ресурсів
     

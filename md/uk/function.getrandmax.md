@@ -1,12 +1,12 @@
 Повертає максимально можливе випадкове число
 
--   [« fmod](function.fmod.html)
+-   [« fmod](function.fmod.md)
     
--   [hexdec »](function.hexdec.html)
+-   [hexdec »](function.hexdec.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Повертає максимально можливе випадкове число
     
@@ -23,7 +23,7 @@ getrandmax — Повертає максимально можливе випад
 getrandmax(): int
 ```
 
-Повертає максимальне значення, яке можна отримати функцією [rand()](function.rand.html)
+Повертає максимальне значення, яке можна отримати функцією [rand()](function.rand.md)
 
 ### Список параметрів
 
@@ -31,10 +31,10 @@ getrandmax(): int
 
 ### Значення, що повертаються
 
-Максимально можливе випадкове значення, що повертається функцією [rand()](function.rand.html)
+Максимально можливе випадкове значення, що повертається функцією [rand()](function.rand.md)
 
 ### Дивіться також
 
--   [rand()](function.rand.html) - Генерує випадкове число
--   [srand()](function.srand.html) - Змінює початкове число генератора псевдовипадкових чисел
+-   [rand()](function.rand.md) - Генерує випадкове число
+-   [srand()](function.srand.md) - Змінює початкове число генератора псевдовипадкових чисел
 -   [мтgetrandmax()](function.mt-getrandmax.html) - Показує максимально можливе значення випадкового числа

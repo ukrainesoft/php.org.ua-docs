@@ -1,12 +1,12 @@
 Надсилання даних (застарілий метод)
 
--   [« GearmanJob::construct](gearmanjob.construct.html)
+-   [« GearmanJob::construct](gearmanjob.construct.md)
     
--   [GearmanJob::exception »](gearmanjob.exception.html)
+-   [GearmanJob::exception »](gearmanjob.exception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanJob](class.gearmanjob.html)
+-   [GearmanJob](class.gearmanjob.md)
     
 -   Надсилання даних (застарілий метод)
     
@@ -27,7 +27,7 @@ public GearmanJob::data(string $data): bool
 
 > **Зауваження**
 > 
-> Цей метод було замінено на [GearmanJob::sendData()](gearmanjob.senddata.html) у випуску 0.6.0 модуля Gearman.
+> Цей метод було замінено на [GearmanJob::sendData()](gearmanjob.senddata.md) у випуску 0.6.0 модуля Gearman.
 
 ### Список параметрів
 
@@ -41,5 +41,5 @@ public GearmanJob::data(string $data): bool
 
 ### Дивіться також
 
--   [GearmanJob::workload()](gearmanjob.workload.html) - отримання даних для обробки
--   [GearmanTask::data()](gearmantask.data.html) - Отримати дані, повернені для завдання
+-   [GearmanJob::workload()](gearmanjob.workload.md) - отримання даних для обробки
+-   [GearmanTask::data()](gearmantask.data.md) - Отримати дані, повернені для завдання

@@ -1,12 +1,12 @@
 Нормалізація рядка
 
--   [« Normalizer::isNormalized](normalizer.isnormalized.html)
+-   [« Normalizer::isNormalized](normalizer.isnormalized.md)
     
--   [MessageFormatter »](class.messageformatter.html)
+-   [MessageFormatter »](class.messageformatter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Normalizer](class.normalizer.html)
+-   [Normalizer](class.normalizer.md)
     
 -   Нормалізація рядка
     
@@ -91,4 +91,4 @@ echo urlencode($char_2);
 
 ### Дивіться також
 
--   [normalizerісnormalized()](normalizer.isnormalized.html) - Перевірити, чи переданий рядок відповідає заданій формі нормалізації
+-   [normalizerісnormalized()](normalizer.isnormalized.md) - Перевірити, чи переданий рядок відповідає заданій формі нормалізації

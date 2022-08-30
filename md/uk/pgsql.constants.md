@@ -1,8 +1,8 @@
 Обумовлені константи
 
--   [« Типы ресурсов](pgsql.resources.html)
+-   [« Типи ресурсів](pgsql.resources.html)
     
--   [Примеры »](pgsql.examples.html)
+-   [Приклади »](pgsql.examples.html)
     
 -   [PHP Manual](index.html)
     

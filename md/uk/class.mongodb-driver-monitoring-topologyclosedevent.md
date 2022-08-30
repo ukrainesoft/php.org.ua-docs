@@ -4,9 +4,9 @@
     
 -   [MongoDBDriverMonitoringTopologyClosedEvent::getTopologyId »](mongodb-driver-monitoring-topologyclosedevent.gettopologyid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBDriverMonitoring](mongodb.monitoring.html)
+-   [MongoDBDriverMonitoring](mongodb.monitoring.md)
     
 -   Клас MongoDBDriverMonitoringTopologyClosedEvent
     

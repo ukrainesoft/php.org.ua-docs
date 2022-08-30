@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](xml.requirements.html)
+-   [« Вимоги](xml.requirements.md)
     
--   [Настройка во время выполнения »](xml.configuration.html)
+-   [Налаштування під час виконання »](xml.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xml.setup.html)
+-   [Встановлення та налаштування](xml.setup.md)
     
 -   Встановлення
     

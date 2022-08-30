@@ -14,12 +14,12 @@
 # Фреймворк хеш-кодів HASH
 
 -   [Введение](intro.hash.html)
--   [Установка и настройка](hash.setup.html)
-    -   [Требования](hash.requirements.html)
+-   [Встановлення та налаштування](hash.setup.html)
+    -   [Вимоги](hash.requirements.html)
     -   [Установка](hash.installation.html)
-    -   [Настройка во время выполнения](hash.configuration.html)
-    -   [Типы ресурсов](hash.resources.html)
--   [Предопределённые константы](hash.constants.html)
+    -   [Налаштування під час виконання](hash.configuration.html)
+    -   [Типи ресурсів](hash.resources.html)
+-   [Обумовлені константи](hash.constants.html)
 -   [HashContext](class.hashcontext.html) - Клас HashContext
     -   [HashContext::construct](hashcontext.construct.html) — Закритий конструктор для заборони безпосереднього створення об'єкту
     -   [HashContext::serialize](hashcontext.serialize.html) — Серіалізує об'єкт HashContext

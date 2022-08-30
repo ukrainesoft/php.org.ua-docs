@@ -1,12 +1,12 @@
 Повертає рядок, що містить векторну графіку
 
--   [« ImagickDraw::getTextUnderColor](imagickdraw.gettextundercolor.html)
+-   [« ImagickDraw::getTextUnderColor](imagickdraw.gettextundercolor.md)
     
--   [ImagickDraw::line »](imagickdraw.line.html)
+-   [ImagickDraw::line »](imagickdraw.line.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Повертає рядок, що містить векторну графіку
     
@@ -27,7 +27,7 @@ public ImagickDraw::getVectorGraphics(): string
 
 На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Повертає рядок, який визначає векторну графіку, згенеровану будь-якими графічними викликами, зробленими з моменту створення об'єкта [ImagickDraw](class.imagickdraw.html)
+Повертає рядок, який визначає векторну графіку, згенеровану будь-якими графічними викликами, зробленими з моменту створення об'єкта [ImagickDraw](class.imagickdraw.md)
 
 ### Значення, що повертаються
 

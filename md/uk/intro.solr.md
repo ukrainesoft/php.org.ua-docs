@@ -2,7 +2,7 @@
 
 -   [« Solr](book.solr.html)
     
--   [Установка и настройка »](solr.setup.html)
+-   [Встановлення та налаштування »](solr.setup.html)
     
 -   [PHP Manual](index.html)
     

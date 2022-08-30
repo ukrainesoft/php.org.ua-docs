@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](xattr.installation.html)
+-   [« Установка](xattr.installation.md)
     
--   [Типы ресурсов »](xattr.resources.html)
+-   [Типи ресурсів »](xattr.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xattr.setup.html)
+-   [Встановлення та налаштування](xattr.setup.md)
     
 -   Налаштування під час виконання
     

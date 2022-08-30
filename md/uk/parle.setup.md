@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.parle.html)
     
--   [Требования »](parle.requirements.html)
+-   [Вимоги »](parle.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [Требования](parle.requirements.html)
+-   [Вимоги](parle.requirements.html)
 -   [Установка](parle.installation.html)

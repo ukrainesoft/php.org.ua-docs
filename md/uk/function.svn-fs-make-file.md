@@ -4,9 +4,9 @@
     
 -   [svnфсnodecreatedrev »](function.svn-fs-node-created-rev.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.md)
     
 -   Створює новий пустий файл
     

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](sqlite3.setup.html)
+-   [« Встановлення та налаштування](sqlite3.setup.html)
     
 -   [Установка »](sqlite3.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](sqlite3.setup.html)
+-   [Встановлення та налаштування](sqlite3.setup.html)
     
 -   Вимоги
     

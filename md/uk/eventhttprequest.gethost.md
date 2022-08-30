@@ -1,12 +1,12 @@
 Повертає хост запиту
 
--   [« EventHttpRequest::getConnection](eventhttprequest.getconnection.html)
+-   [« EventHttpRequest::getConnection](eventhttprequest.getconnection.md)
     
--   [EventHttpRequest::getInputBuffer »](eventhttprequest.getinputbuffer.html)
+-   [EventHttpRequest::getInputBuffer »](eventhttprequest.getinputbuffer.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpRequest](class.eventhttprequest.html)
+-   [EventHttpRequest](class.eventhttprequest.md)
     
 -   Повертає хост запиту
     
@@ -36,5 +36,5 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::getUri()](eventhttprequest.geturi.html) - Повертає URI запиту
--   [EventHttpRequest::getCommand()](eventhttprequest.getcommand.html) - Повертає команду запиту (метод)
+-   [EventHttpRequest::getUri()](eventhttprequest.geturi.md) - Повертає URI запиту
+-   [EventHttpRequest::getCommand()](eventhttprequest.getcommand.md) - Повертає команду запиту (метод)

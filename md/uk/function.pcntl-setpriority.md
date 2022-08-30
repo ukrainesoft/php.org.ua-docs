@@ -4,9 +4,9 @@
     
 -   [pcntlsignaldispatch »](function.pcntl-signal-dispatch.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.md)
     
 -   Змінити пріоритет процесу
     
@@ -45,9 +45,9 @@ pcntl_setpriority(int $priority, ?int $process_id = null, int $mode = PRIO_PROCE
 
 ### список змін
 
-| Версия | Описание                                   |
-|--------|--------------------------------------------|
-|        | `process_id` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `process_id` тепер допускає значення null. |
 
 ### Дивіться також
 

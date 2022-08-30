@@ -4,7 +4,7 @@
     
 -   [ДсMap::isEmpty »](ds-map.isempty.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Коллекция пар ключ-значение](class.ds-map.html)
     

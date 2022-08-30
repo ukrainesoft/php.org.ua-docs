@@ -1,12 +1,12 @@
 Створює копію ArrayObject
 
--   [« ArrayObject::exchangeArray](arrayobject.exchangearray.html)
+-   [« ArrayObject::exchangeArray](arrayobject.exchangearray.md)
     
--   [ArrayObject::getFlags »](arrayobject.getflags.html)
+-   [ArrayObject::getFlags »](arrayobject.getflags.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayObject](class.arrayobject.html)
+-   [ArrayObject](class.arrayobject.md)
     
 -   Створює копію ArrayObject
     
@@ -23,7 +23,7 @@ ArrayObject::getArrayCopy — Створює копію ArrayObject
 public ArrayObject::getArrayCopy(): array
 ```
 
-Експортує [ArrayObject](class.arrayobject.html) у масив.
+Експортує [ArrayObject](class.arrayobject.md) у масив.
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public ArrayObject::getArrayCopy(): array
 
 ### Значення, що повертаються
 
-Повертає копію масиву. Якщо [ArrayObject](class.arrayobject.html) посилається на об'єкт, то буде повернено масив властивостей даного об'єкта.
+Повертає копію масиву. Якщо [ArrayObject](class.arrayobject.md) посилається на об'єкт, то буде повернено масив властивостей даного об'єкта.
 
 ### Приклади
 
@@ -39,13 +39,13 @@ public ArrayObject::getArrayCopy(): array
 
 ```php
 <?php
-// Массив с количеством фруктов
+// Масив с количеством фруктов
 $fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
 
 $fruitsArrayObject = new ArrayObject($fruits);
 $fruitsArrayObject['pears'] = 4;
 
-// Создать копию массива
+// Создать копию Масива
 $copy = $fruitsArrayObject->getArrayCopy();
 print_r($copy);
 

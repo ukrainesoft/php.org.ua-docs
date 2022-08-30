@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply »](mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html)
     

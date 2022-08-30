@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.bc.html)
+-   [« Введение](intro.bc.md)
     
--   [Требования »](bc.requirements.html)
+-   [Вимоги »](bc.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [BC Math](book.bc.html)
+-   [BC Math](book.bc.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](bc.requirements.html)
--   [Установка](bc.installation.html)
--   [Настройка во время выполнения](bc.configuration.html)
--   [Типы ресурсов](bc.resources.html)
+-   [Вимоги](bc.requirements.md)
+-   [Установка](bc.installation.md)
+-   [Налаштування під час виконання](bc.configuration.md)
+-   [Типи ресурсів](bc.resources.md)

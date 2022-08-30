@@ -1,12 +1,12 @@
 Опис кількох просторів імен в одному файлі
 
--   [« Определение подпространств имён](language.namespaces.nested.html)
+-   [« Определение подпространств имён](language.namespaces.nested.md)
     
--   [Использование пространства имён: основы »](language.namespaces.basics.html)
+-   [Використання простору імен: основи »](language.namespaces.basics.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Пространства имён](language.namespaces.html)
+-   [Пространства имён](language.namespaces.md)
     
 -   Опис кількох просторів імен в одному файлі
     

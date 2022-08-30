@@ -1,12 +1,12 @@
 Використовується для керування сортуванням результатів
 
--   [« SolrQuery::addMltQueryField](solrquery.addmltqueryfield.html)
+-   [« SolrQuery::addMltQueryField](solrquery.addmltqueryfield.md)
     
--   [SolrQuery::addStatsFacet »](solrquery.addstatsfacet.html)
+-   [SolrQuery::addStatsFacet »](solrquery.addstatsfacet.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Використовується для керування сортуванням результатів
     

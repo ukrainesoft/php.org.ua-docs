@@ -1,12 +1,12 @@
 Отримує ім'я хоста
 
--   [« gethostbynamel](function.gethostbynamel.html)
+-   [« gethostbynamel](function.gethostbynamel.md)
     
--   [getmxrr »](function.getmxrr.html)
+-   [getmxrr »](function.getmxrr.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Мережеві функції](ref.network.html)
+-   [Мережеві функції](ref.network.md)
     
 -   Отримує ім'я хоста
     
@@ -45,6 +45,6 @@ echo gethostname(); // может вывести например: sandie
 
 ### Дивіться також
 
--   [gethostbyname()](function.gethostbyname.html) - Отримує IPv4-адресу, що відповідає переданому імені хоста
--   [gethostbyaddr()](function.gethostbyaddr.html) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
+-   [gethostbyname()](function.gethostbyname.md) - Отримує IPv4-адресу, що відповідає переданому імені хоста
+-   [gethostbyaddr()](function.gethostbyaddr.md) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
 -   [phpuname()](function.php-uname.html) - Повертає інформацію про операційну систему, на якій запущено PHP

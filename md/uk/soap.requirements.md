@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](soap.setup.html)
+-   [« Встановлення та налаштування](soap.setup.html)
     
 -   [Установка »](soap.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](soap.setup.html)
+-   [Встановлення та налаштування](soap.setup.html)
     
 -   Вимоги
     

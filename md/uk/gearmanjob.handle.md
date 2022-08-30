@@ -1,12 +1,12 @@
 Отримання дескриптора об'єкта завдання
 
--   [« GearmanJob::functionName](gearmanjob.functionname.html)
+-   [« GearmanJob::functionName](gearmanjob.functionname.md)
     
--   [GearmanJob::returnCode »](gearmanjob.returncode.html)
+-   [GearmanJob::returnCode »](gearmanjob.returncode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanJob](class.gearmanjob.html)
+-   [GearmanJob](class.gearmanjob.md)
     
 -   Отримання дескриптора об'єкта завдання
     
@@ -35,4 +35,4 @@ public GearmanJob::handle(): string
 
 ### Дивіться також
 
--   [GearmanTask::jobHandle()](gearmantask.jobhandle.html) - Отримати дескриптор завдання
+-   [GearmanTask::jobHandle()](gearmantask.jobhandle.md) - Отримати дескриптор завдання

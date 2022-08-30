@@ -4,9 +4,9 @@
     
 -   [apachesetenv »](function.apache-setenv.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Apache](ref.apache.html)
+-   [Функции Apache](ref.apache.md)
     
 -   Повертає список усіх HTTP-заголовків відповіді Apache
     

@@ -1,12 +1,12 @@
 Створює імітацію ефекту тривимірної кнопки
 
--   [« Gmagick::radialblurimage](gmagick.radialblurimage.html)
+-   [« Gmagick::radialblurimage](gmagick.radialblurimage.md)
     
--   [Gmagick::read »](gmagick.read.html)
+-   [Gmagick::read »](gmagick.read.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Створює імітацію ефекту тривимірної кнопки
     
@@ -49,7 +49,7 @@ public Gmagick::raiseimage(    int $width,    int $height,    int $x
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

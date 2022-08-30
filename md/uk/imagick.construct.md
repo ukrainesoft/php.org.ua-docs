@@ -1,12 +1,12 @@
 Конструктор об'єкту Imagick
 
--   [« Imagick::compositeImage](imagick.compositeimage.html)
+-   [« Imagick::compositeImage](imagick.compositeimage.md)
     
--   [Imagick::contrastImage »](imagick.contrastimage.html)
+-   [Imagick::contrastImage »](imagick.contrastimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Конструктор об'єкту Imagick
     

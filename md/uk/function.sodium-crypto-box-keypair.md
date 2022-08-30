@@ -4,9 +4,9 @@
     
 -   [sodiumcryptoboxopen »](function.sodium-crypto-box-open.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Згенерувати випадковим чином секретний ключ та відповідний йому відкритий ключ
     

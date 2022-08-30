@@ -1,12 +1,12 @@
 Додає новий вузол атрибуту елемент
 
--   [« DOMElement::setAttribute](domelement.setattribute.html)
+-   [« DOMElement::setAttribute](domelement.setattribute.md)
     
--   [DOMElement::setAttributeNodeNS »](domelement.setattributenodens.html)
+-   [DOMElement::setAttributeNodeNS »](domelement.setattributenodens.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMElement](class.domelement.html)
+-   [DOMElement](class.domelement.md)
     
 -   Додає новий вузол атрибуту елемент
     
@@ -43,6 +43,6 @@ public DOMElement::setAttributeNode(DOMAttr $attr): DOMAttr|null|false
 
 ### Дивіться також
 
--   [DOMElement::hasAttribute()](domelement.hasattribute.html) - Перевіряє, чи існує атрибут
--   [DOMElement::getAttributeNode()](domelement.getattributenode.html) - Повертає вузол атрибуту
--   [DOMElement::removeAttributeNode()](domelement.removeattributenode.html) - Видаляє атрибут
+-   [DOMElement::hasAttribute()](domelement.hasattribute.md) - Перевіряє, чи існує атрибут
+-   [DOMElement::getAttributeNode()](domelement.getattributenode.md) - Повертає вузол атрибуту
+-   [DOMElement::removeAttributeNode()](domelement.removeattributenode.md) - Видаляє атрибут

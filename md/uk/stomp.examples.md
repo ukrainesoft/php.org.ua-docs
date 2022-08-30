@@ -1,12 +1,12 @@
 Приклади
 
--   [« Типы ресурсов](stomp.resources.html)
+-   [« Типи ресурсів](stomp.resources.md)
     
--   [Функции Stomp »](ref.stomp.html)
+-   [Функции Stomp »](ref.stomp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Stomp](book.stomp.html)
+-   [Stomp](book.stomp.md)
     
 -   Приклади
     

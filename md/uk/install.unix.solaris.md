@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Установка на Unix-системы](install.unix.html)
+-   [Встановлення на Unix-системи](install.unix.html)
     
 -   Інструкції з інсталяції для ОС Solaris
     

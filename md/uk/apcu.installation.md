@@ -1,19 +1,19 @@
 Встановлення
 
--   [« Требования](apcu.requirements.html)
+-   [« Вимоги](apcu.requirements.md)
     
--   [Настройка во время выполнения »](apcu.configuration.html)
+-   [Налаштування під час виконання »](apcu.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](apcu.setup.html)
+-   [Встановлення та налаштування](apcu.setup.md)
     
 -   Встановлення
     
 
 ## Встановлення
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/apcu](https://pecl.php.net/package/apcu)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/apcu](https://pecl.php.net/package/apcu)
 
 **Підказка**
 

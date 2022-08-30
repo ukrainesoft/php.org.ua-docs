@@ -1,12 +1,12 @@
 Метод зберігає хеш у пам'яті на диску
 
--   [« QuickHashStringIntHash::loadFromString](quickhashstringinthash.loadfromstring.html)
+-   [« QuickHashStringIntHash::loadFromString](quickhashstringinthash.loadfromstring.md)
     
--   [QuickHashStringIntHash::saveToString »](quickhashstringinthash.savetostring.html)
+-   [QuickHashStringIntHash::saveToString »](quickhashstringinthash.savetostring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [QuickHashStringIntHash](class.quickhashstringinthash.html)
+-   [QuickHashStringIntHash](class.quickhashstringinthash.md)
     
 -   Метод зберігає хеш у пам'яті на диску
     
@@ -23,7 +23,7 @@ QuickHashStringIntHash::saveToFile — Метод зберігає хеш у п�
 public QuickHashStringIntHash::saveToFile(string $filename): void
 ```
 
-Метод зберігає існуючий хеш у файл на диску, у тому ж форматі, який може бути прочитаний методом [QuickHashStringIntHash::loadFromFile()](quickhashstringinthash.loadfromfile.html)
+Метод зберігає існуючий хеш у файл на диску, у тому ж форматі, який може бути прочитаний методом [QuickHashStringIntHash::loadFromFile()](quickhashstringinthash.loadfromfile.md)
 
 ### Список параметрів
 

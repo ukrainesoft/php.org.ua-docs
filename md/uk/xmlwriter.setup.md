@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.xmlwriter.html)
     
--   [Требования »](xmlwriter.requirements.html)
+-   [Вимоги »](xmlwriter.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](xmlwriter.requirements.html)
+-   [Вимоги](xmlwriter.requirements.html)
 -   [Установка](xmlwriter.installation.html)
--   [Настройка во время выполнения](xmlwriter.configuration.html)
--   [Типы ресурсов](xmlwriter.resources.html)
+-   [Налаштування під час виконання](xmlwriter.configuration.html)
+-   [Типи ресурсів](xmlwriter.resources.html)

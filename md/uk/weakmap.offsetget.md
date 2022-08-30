@@ -1,12 +1,12 @@
 Повертає значення, на яке вказує певний об'єкт
 
--   [« WeakMap::offsetExists](weakmap.offsetexists.html)
+-   [« WeakMap::offsetExists](weakmap.offsetexists.md)
     
--   [WeakMap::offsetSet »](weakmap.offsetset.html)
+-   [WeakMap::offsetSet »](weakmap.offsetset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [WeakMap](class.weakmap.html)
+-   [WeakMap](class.weakmap.md)
     
 -   Повертає значення, на яке вказує певний об'єкт
     

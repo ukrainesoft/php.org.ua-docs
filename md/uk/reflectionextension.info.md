@@ -1,12 +1,12 @@
 Виведення інформації про модуль
 
--   [« ReflectionExtension::getVersion](reflectionextension.getversion.html)
+-   [« ReflectionExtension::getVersion](reflectionextension.getversion.md)
     
--   [ReflectionExtension::isPersistent »](reflectionextension.ispersistent.html)
+-   [ReflectionExtension::isPersistent »](reflectionextension.ispersistent.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionExtension](class.reflectionextension.html)
+-   [ReflectionExtension](class.reflectionextension.md)
     
 -   Виведення інформації про модуль
     
@@ -23,7 +23,7 @@ ReflectionExtension::info — Виведення інформації про м�
 public ReflectionExtension::info(): void
 ```
 
-Виводить фрагмент "[phpinfo()](function.phpinfo.html)для зазначеного модуля.
+Виводить фрагмент "[phpinfo()](function.phpinfo.md)для зазначеного модуля.
 
 ### Список параметрів
 
@@ -79,5 +79,5 @@ mysqli.cache_size => 2000 => 2000
 
 ### Дивіться також
 
--   [ReflectionExtension::getName()](reflectionextension.getname.html) - Отримання імені модуля
--   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP
+-   [ReflectionExtension::getName()](reflectionextension.getname.md) - Отримання імені модуля
+-   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP

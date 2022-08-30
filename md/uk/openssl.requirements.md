@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](openssl.setup.html)
+-   [« Встановлення та налаштування](openssl.setup.md)
     
--   [Установка »](openssl.installation.html)
+-   [Установка »](openssl.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](openssl.setup.html)
+-   [Встановлення та налаштування](openssl.setup.md)
     
 -   Вимоги
     

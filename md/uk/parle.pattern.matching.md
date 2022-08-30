@@ -1,6 +1,6 @@
 Зіставлення з шаблоном Parle
 
--   [« Предопределённые константы](parle.constants.html)
+-   [« Обумовлені константи](parle.constants.html)
     
 -   [Представления символов »](parle.regex.chars.html)
     
@@ -17,7 +17,7 @@
 
 -   [Представления символов](parle.regex.chars.html)
 -   [Класи символів](parle.regex.charclass.html)
--   [Классы символов Unicode](parle.regex.unicodecharclass.html)
+-   [Класи символів Unicode](parle.regex.unicodecharclass.html)
 -   [Чередование и повторение](parle.regex.alternation.html)
 -   [Якоря](parle.regex.anchors.html)
 -   [Угруповання](parle.regex.grouping.html)

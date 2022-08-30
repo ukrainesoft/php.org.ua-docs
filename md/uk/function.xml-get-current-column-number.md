@@ -4,9 +4,9 @@
     
 -   [xmlgetcurrentlinenumber »](function.xml-get-current-line-number.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции парсера XML](ref.xml.html)
+-   [Функции парсера XML](ref.xml.md)
     
 -   Отримує від XML-аналізатора номер поточного стовпця
     
@@ -37,9 +37,9 @@ xml_get_current_column_number(XMLParser $parser): int
 
 ### список змін
 
-| Версия | Описание                                                                                                    |
-|--------|-------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

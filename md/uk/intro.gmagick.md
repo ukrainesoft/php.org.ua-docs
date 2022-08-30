@@ -1,12 +1,12 @@
 Вступ
 
--   [« Gmagick](book.gmagick.html)
+-   [« Gmagick](book.gmagick.md)
     
--   [Установка и настройка »](gmagick.setup.html)
+-   [Встановлення та налаштування »](gmagick.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](book.gmagick.html)
+-   [Gmagick](book.gmagick.md)
     
 -   Вступ
     

@@ -2,11 +2,11 @@
 
 -   [« Установка](var.installation.html)
     
--   [Типы ресурсов »](var.resources.html)
+-   [Типи ресурсів »](var.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](var.setup.html)
+-   [Встановлення та налаштування](var.setup.html)
     
 -   Налаштування під час виконання
     
@@ -17,11 +17,11 @@
 
 **Параметри конфігурації змінних**
 
-| Имя                                                                             | По умолчанию | Место изменения | Список изменений |
-|---------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [unserializecallbackfunc](var.configuration.html#ini.unserialize-callback-func) | **`null`**   | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [unserializecallbackfunc](var.configuration.html#ini.unserialize-callback-func) | **`null`** | PHPINIALL |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 
 Коротке пояснення конфігураційних директив.
 

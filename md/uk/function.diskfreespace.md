@@ -2,11 +2,11 @@
 
 -   [« disktotalspace](function.disk-total-space.html)
     
--   [fclose »](function.fclose.html)
+-   [fclose »](function.fclose.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Псевдонім diskfreespace
     

@@ -1,12 +1,12 @@
 Список опцій контексту CURL
 
--   [« Опции контекста SSL](context.ssl.html)
+-   [« Опции контекста SSL](context.ssl.md)
     
--   [Контекстні опції Phar »](context.phar.html)
+-   [Контекстні опції Phar »](context.phar.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Контекстные опции и параметры](context.html)
+-   [Контекстні опції та параметри](context.md)
     
 -   Список опцій контексту CURL
     
@@ -17,7 +17,7 @@
 
 ### Опис
 
-Опції контексту CURL доступні, якщо модуль [CURL](intro.curl.html) скомпілюваний, використовуючи конфігураційну опцію **\-with-curlwrappers**
+Опції контексту CURL доступні, якщо модуль [CURL](intro.curl.md) скомпілюваний, використовуючи конфігураційну опцію **\-with-curlwrappers**
 
 ### Опції
 
@@ -102,4 +102,4 @@ $result = file_get_contents('http://example.com/submit.php', false, $context
 
 ### Дивіться також
 
--   [Контекстные опции сокета](context.socket.html)
+-   [Контекстні опції сокету](context.socket.md)

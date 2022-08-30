@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.imap.html)
     
--   [Требования »](imap.requirements.html)
+-   [Вимоги »](imap.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](imap.requirements.html)
+-   [Вимоги](imap.requirements.html)
 -   [Установка](imap.installation.html)
--   [Настройка во время выполнения](imap.configuration.html)
--   [Типы ресурсов](imap.resources.html)
+-   [Налаштування під час виконання](imap.configuration.html)
+-   [Типи ресурсів](imap.resources.html)

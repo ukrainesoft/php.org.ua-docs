@@ -2,37 +2,37 @@
 
 -   [« db2tables](function.db2-tables.html)
     
--   [Установка и настройка »](mongodb.setup.html)
+-   [Встановлення та налаштування »](mongodb.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.html)
+-   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
     
 -   Драйвер MongoDB
     
 
 # Драйвер MongoDB
 
-Цей модуль розроблено на основі бібліотек [» libmongoc](https://github.com/mongodb/mongo-c-driver) і [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson). Він надає мінімальне API для ключового функціоналу драйвера: [команды](class.mongodb-driver-command.html) [запити](class.mongodb-driver-query.html) [записи](class.mongodb-driver-bulkwrite.html) [управление соединением](class.mongodb-driver-manager.html) і [сериализация BSON](book.bson.html)
+Цей модуль розроблено на основі бібліотек [» libmongoc](https://github.com/mongodb/mongo-c-driver) і [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson). Він надає мінімальне API для ключового функціоналу драйвера: [команди](class.mongodb-driver-command.html) [запити](class.mongodb-driver-query.html) [записи](class.mongodb-driver-bulkwrite.html) [управление соединением](class.mongodb-driver-manager.html) і [сериализация BSON](book.bson.md)
 
 Саморобні бібліотеки PHP, що вимагають цей модуль, можуть надавати високорівневі API, такі як: збирачі запитів, методи-помічники для індивідуальних команд та GridFS. Розробники додатків повинні розглянути питання щодо використання цього модуля спільно з [» библиотекой MongoDB PHP](https://github.com/mongodb/mongo-php-library), яка реалізує такі ж високорівневі драйвери API MongoDB, як і для інших мов. Подібний поділ завдань дозволяє цьому драйверу сконцентруватися на головних завданнях, що стоять перед ним – підвищення продуктивності.
 
--   [Установка и настройка](mongodb.setup.html)
-    -   [Требования](mongodb.requirements.html)
-    -   [Установка](mongodb.installation.html)
-    -   [Настройка во время выполнения](mongodb.configuration.html)
-    -   [Предопределённые константы](mongodb.constants.html)
--   [Навчальні матеріали](mongodb.tutorial.html)
-    -   [Использование библиотеки PHP для MongoDB (PHPLIB)](mongodb.tutorial.library.html)
-    -   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)
--   [Архитектура и внутреннее устройство драйвера](mongodb.architecture.html) — Огляд архітектури драйвера та її особливостей
-    -   [Архитектура](mongodb.overview.html) - Огляд архітектури
+-   [Встановлення та налаштування](mongodb.setup.md)
+    -   [Вимоги](mongodb.requirements.md)
+    -   [Установка](mongodb.installation.md)
+    -   [Налаштування під час виконання](mongodb.configuration.md)
+    -   [Обумовлені константи](mongodb.constants.md)
+-   [Навчальні матеріали](mongodb.tutorial.md)
+    -   [Использование библиотеки PHP для MongoDB (PHPLIB)](mongodb.tutorial.library.md)
+    -   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)
+-   [Архитектура и внутреннее устройство драйвера](mongodb.architecture.md) — Огляд архітектури драйвера та її особливостей
+    -   [Архитектура](mongodb.overview.md) - Огляд архітектури
     -   [Соединения](mongodb.connection-handling.html) — Обробка з'єднання та сталість
-    -   [Постійні дані](mongodb.persistence.html) — Серіалізація та десеріалізація змінних PHP у MongoDB
--   [Безпека](mongodb.security.html)
-    -   [Атака с помощью инъекций в запросе](mongodb.security.request_injection.html)
-    -   [Атака с помощью инъекций в скриптах](mongodb.security.script_injection.html)
--   [MongoDBDriver](book.mongodb.html) - Класи драйвера MongoDB
+    -   [Постійні дані](mongodb.persistence.md) — Серіалізація та десеріалізація змінних PHP у MongoDB
+-   [Безпека](mongodb.security.md)
+    -   [Атака за допомогою ін'єкцій у запиті](mongodb.security.request_injection.md)
+    -   [Атака за допомогою ін'єкцій у скриптах](mongodb.security.script_injection.md)
+-   [MongoDBDriver](book.mongodb.md) - Класи драйвера MongoDB
     -   [MongoDBDriverManager](class.mongodb-driver-manager.html) - Клас MongoDBDriverManager
     -   [MongoDBDriverCommand](class.mongodb-driver-command.html) - Клас The MongoDBDriverCommand
     -   [MongoDBDriverQuery](class.mongodb-driver-query.html) - Клас MongoDBDriverQuery
@@ -52,8 +52,8 @@
     -   [MongoDBDriverWriteConcernError](class.mongodb-driver-writeconcernerror.html) - Клас The MongoDBDriverWriteConcernError
     -   [MongoDBDriverWriteError](class.mongodb-driver-writeerror.html) - Клас MongoDBDriverWriteError
     -   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html) - Клас MongoDBDriverWriteResult
--   [MongoDBBSON](book.bson.html) — Класи типів BSON та функції серіалізації
-    -   [Функції](ref.bson.functions.html)
+-   [MongoDBBSON](book.bson.md) — Класи типів BSON та функції серіалізації
+    -   [Функції](ref.bson.functions.md)
     -   [MongoDBBSONBinary](class.mongodb-bson-binary.html) - Клас MongoDBBSONBinary
     -   [MongoDBBSONDecimal128](class.mongodb-bson-decimal128.html) - Клас MongoDBBSONDecimal128
     -   [MongoDBBSONJavascript](class.mongodb-bson-javascript.html) - Клас MongoDBBSONJavascript
@@ -80,8 +80,8 @@
     -   [MongoDBBSONInt64](class.mongodb-bson-int64.html) - Клас MongoDBBSONInt64
     -   [MongoDBBSONSymbol](class.mongodb-bson-symbol.html) - Клас MongoDBBSONSymbol (застарілий)
     -   [MongoDBBSONUndefined](class.mongodb-bson-undefined.html) - Клас MongoDBBSONUndefined (застаріло)
--   [MongoDBDriverMonitoring](mongodb.monitoring.html) — Класи моніторингу та функції передплатника
-    -   [Функції](ref.monitoring.functions.html)
+-   [MongoDBDriverMonitoring](mongodb.monitoring.md) — Класи моніторингу та функції передплатника
+    -   [Функції](ref.monitoring.functions.md)
     -   [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html) - Клас MongoDBDriverMonitoringCommandFailedEvent
     -   [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.html) - Клас MongoDBDriverMonitoringCommandStartedEvent
     -   [MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html) - Клас MongoDBDriverMonitoringCommandSucceedEvent
@@ -97,7 +97,7 @@
     -   [MongoDBDriverMonitoringCommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.html) - Інтерфейс The MongoDBDriverMonitoringCommandSubscriber
     -   [MongoDBDriverMonitoringSDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.html) - Інтерфейс MongoDBDriverMonitoringSDAMSubscriber
     -   [MongoDBDriverMonitoringSubscriber](class.mongodb-driver-monitoring-subscriber.html) - Інтерфейс MongoDBDriverMonitoringSubscriber
--   [MongoDBDriverException](mongodb.exceptions.html) - Класи винятків
+-   [MongoDBDriverException](mongodb.exceptions.md) - Класи винятків
     -   [MongoDBDriverExceptionAuthenticationException](class.mongodb-driver-exception-authenticationexception.html) - Клас MongoDBDriverExceptionAuthenticationException
     -   [MongoDBDriverExceptionBulkWriteException](class.mongodb-driver-exception-bulkwriteexception.html) - Клас MongoDBDriverExceptionBulkWriteException
     -   [MongoDBDriverExceptionCommandException](class.mongodb-driver-exception-commandexception.html) - Клас MongoDBDriverExceptionCommandException
@@ -113,4 +113,4 @@
     -   [MongoDBDriverExceptionSSLConnectionException](class.mongodb-driver-exception-sslconnectionexception.html) - Клас MongoDBDriverExceptionSSLConnectionException (застарілий)
     -   [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html) - Клас MongoDBDriverExceptionUnexpectedValueException
     -   [MongoDBDriverExceptionWriteException](class.mongodb-driver-exception-writeexception.html) - Клас MongoDBDriverExceptionWriteException
-    -   [Class Tree](mongodb.exceptions.tree.html) - MongoDB Exception Class Tree
+    -   [Class Tree](mongodb.exceptions.tree.md) - MongoDB Exception Class Tree

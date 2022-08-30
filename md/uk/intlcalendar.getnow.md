@@ -1,12 +1,12 @@
 Отримує число, що становить поточний час
 
--   [« IntlCalendar::getMinimum](intlcalendar.getminimum.html)
+-   [« IntlCalendar::getMinimum](intlcalendar.getminimum.md)
     
--   [IntlCalendar::getRepeatedWallTimeOption »](intlcalendar.getrepeatedwalltimeoption.html)
+-   [IntlCalendar::getRepeatedWallTimeOption »](intlcalendar.getrepeatedwalltimeoption.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Отримує число, що становить поточний час
     

@@ -1,12 +1,12 @@
 Отримує поточний екземпляр Fiber
 
--   [« Fiber::suspend](fiber.suspend.html)
+-   [« Fiber::suspend](fiber.suspend.md)
     
--   [WeakReference »](class.weakreference.html)
+-   [WeakReference »](class.weakreference.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Fiber](class.fiber.html)
+-   [Fiber](class.fiber.md)
     
 -   Отримує поточний екземпляр Fiber
     
@@ -29,4 +29,4 @@ public static Fiber::getCurrent(): ?Fiber
 
 ### Значення, що повертаються
 
-Повертає екземпляр, що виконується в даний момент. [Fiber](class.fiber.html) або \*\*`null`\*\*якщо метод викликається ззовні файбера.
+Повертає екземпляр, що виконується в даний момент. [Fiber](class.fiber.md) або \*\*`null`\*\*якщо метод викликається ззовні файбера.

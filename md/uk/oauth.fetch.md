@@ -1,12 +1,12 @@
 Видобути захищений ресурс OAuth
 
--   [« OAuth::enableSSLChecks](oauth.enablesslchecks.html)
+-   [« OAuth::enableSSLChecks](oauth.enablesslchecks.md)
     
--   [OAuth::generateSignature »](oauth.generatesignature.html)
+-   [OAuth::generateSignature »](oauth.generatesignature.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](class.oauth.html)
+-   [OAuth](class.oauth.md)
     
 -   Видобути захищений ресурс OAuth
     
@@ -37,7 +37,7 @@ URL захищеного ресурсу OAuth.
 
 `http_method`
 
-Один із методів **`OAUTH_HTTP_METHOD_*`**. Дивіться [константы OAUTH](oauth.constants.html)які включають GET, POST, PUT, HEAD і DELETE.
+Один із методів **`OAUTH_HTTP_METHOD_*`**. Дивіться [константи OAUTH](oauth.constants.md)які включають GET, POST, PUT, HEAD і DELETE.
 
 HEAD (**`OAUTH_HTTP_METHOD_HEAD`**) може бути корисним для вивчення інформації перед твором запиту (якщо облікові дані OAuth у заголовку `Authorization`
 
@@ -51,11 +51,11 @@ HEAD (**`OAUTH_HTTP_METHOD_HEAD`**) може бути корисним для в
 
 ### список змін
 
-| Версия            | Описание                                                                   |
-|-------------------|----------------------------------------------------------------------------|
-| PECL oauth 1.0.0  | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
-| PECL oauth 0.99.5 | Доданий параметр `http_method`                                             |
-| PECL oauth 0.99.8 | Доданий параметр `http_headers`                                            |
+| Версия | Описание |
+| --- | --- |
+| PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
+| PECL oauth 0.99.5 | Доданий параметр `http_method` |
+| PECL oauth 0.99.8 | Доданий параметр `http_headers` |
 
 ### Приклади
 
@@ -81,6 +81,6 @@ try {
 
 ### Дивіться також
 
--   [OAuth::getLastResponse()](oauth.getlastresponse.html) - Отримати останню відповідь
--   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.html) - Отримати HTTP-інформацію про останню відповідь
--   [OAuth::setToken()](oauth.settoken.html) - Задати токен та його пароль
+-   [OAuth::getLastResponse()](oauth.getlastresponse.md) - Отримати останню відповідь
+-   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.md) - Отримати HTTP-інформацію про останню відповідь
+-   [OAuth::setToken()](oauth.settoken.md) - Задати токен та його пароль

@@ -1,12 +1,12 @@
 Псевдонім ocifreestatement
 
--   [« ocifreecollection](function.ocifreecollection.html)
+-   [« ocifreecollection](function.ocifreecollection.md)
     
--   [ocifreedesc »](function.ocifreedesc.html)
+-   [ocifreedesc »](function.ocifreedesc.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Псевдонім ocifreestatement
     

@@ -1,12 +1,12 @@
 Розбирає рядок файлу відповідно до заданого формату
 
--   [« SplFileObject::fread](splfileobject.fread.html)
+-   [« SplFileObject::fread](splfileobject.fread.md)
     
--   [SplFileObject::fseek »](splfileobject.fseek.html)
+-   [SplFileObject::fseek »](splfileobject.fseek.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileObject](class.splfileobject.html)
+-   [SplFileObject](class.splfileobject.md)
     
 -   Розбирає рядок файлу відповідно до заданого формату
     
@@ -31,7 +31,7 @@ public SplFileObject::fscanf(string $format, mixed &...$vars): array|int|null
 
 `format`
 
-Інтерпретований формат для параметра `string`, який описаний у документації функції [sprintf()](function.sprintf.html) з наступними відмінностями:
+Інтерпретований формат для параметра `string`, який описаний у документації функції [sprintf()](function.sprintf.md) з наступними відмінностями:
 
 -   Функція не орієнтована на локалізацію.
 -   Не підтримуються значення `F` `g` `G` і `b`
@@ -69,7 +69,7 @@ javier argonaut pe hiroshi sculptor jp robert slacker us luigi florist it
 
 ### Дивіться також
 
--   [fscanf()](function.fscanf.html) - Обробляє дані з файлу відповідно до формату
--   [sscanf()](function.sscanf.html) - Розбирає рядок відповідно до заданого формату
--   [printf()](function.printf.html) - Виводить відформатований рядок
--   [sprintf()](function.sprintf.html) - Повертає відформатований рядок
+-   [fscanf()](function.fscanf.md) - Обробляє дані з файлу відповідно до формату
+-   [sscanf()](function.sscanf.md) - Розбирає рядок відповідно до заданого формату
+-   [printf()](function.printf.md) - Виводить відформатований рядок
+-   [sprintf()](function.sprintf.md) - Повертає відформатований рядок

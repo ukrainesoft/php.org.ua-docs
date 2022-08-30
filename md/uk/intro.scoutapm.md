@@ -2,7 +2,7 @@
 
 -   [« ScoutAPM](book.scoutapm.html)
     
--   [Установка и настройка »](scoutapm.setup.html)
+-   [Встановлення та налаштування »](scoutapm.setup.html)
     
 -   [PHP Manual](index.html)
     

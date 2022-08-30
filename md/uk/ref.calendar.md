@@ -1,6 +1,6 @@
 Календар
 
--   [« Предопределённые константы](calendar.constants.html)
+-   [« Обумовлені константи](calendar.constants.html)
     
 -   [caldaysінmonth »](function.cal-days-in-month.html)
     

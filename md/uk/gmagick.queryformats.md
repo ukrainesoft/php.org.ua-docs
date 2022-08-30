@@ -1,12 +1,12 @@
 Повертає формати, що підтримуються Gmagick
 
--   [« Gmagick::queryfonts](gmagick.queryfonts.html)
+-   [« Gmagick::queryfonts](gmagick.queryfonts.md)
     
--   [Gmagick::radialblurimage »](gmagick.radialblurimage.html)
+-   [Gmagick::radialblurimage »](gmagick.radialblurimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повертає формати, що підтримуються Gmagick
     
@@ -23,7 +23,7 @@ Gmagick::queryformats — Повертає формати, які підтрим
 public Gmagick::queryformats(string $pattern = "*"): array
 ```
 
-Повертає формати, що підтримуються [Gmagick](class.gmagick.html)
+Повертає формати, що підтримуються [Gmagick](class.gmagick.md)
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ public Gmagick::queryformats(string $pattern = "*"): array
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

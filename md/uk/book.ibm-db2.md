@@ -4,9 +4,9 @@ IBM DB2, Cloudscape та Apache Derby
     
 -   [Введение »](intro.ibm-db2.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.html)
+-   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
     
 -   IBM DB2, Cloudscape та Apache Derby
     
@@ -14,12 +14,12 @@ IBM DB2, Cloudscape та Apache Derby
 # IBM DB2, Cloudscape та Apache Derby
 
 -   [Введение](intro.ibm-db2.html)
--   [Установка и настройка](ibm-db2.setup.html)
-    -   [Требования](ibm-db2.requirements.html)
+-   [Встановлення та налаштування](ibm-db2.setup.html)
+    -   [Вимоги](ibm-db2.requirements.html)
     -   [Установка](ibm-db2.installation.html)
-    -   [Настройка во время выполнения](ibm-db2.configuration.html)
-    -   [Типы ресурсов](ibm-db2.resources.html)
--   [Предопределённые константы](ibm-db2.constants.html)
+    -   [Налаштування під час виконання](ibm-db2.configuration.html)
+    -   [Типи ресурсів](ibm-db2.resources.html)
+-   [Обумовлені константи](ibm-db2.constants.html)
 -   [Функції IBM DB2](ref.ibm-db2.html)
     -   [db2autocommit](function.db2-autocommit.html) — Повертає або встановлює режим підтвердження транзакцій для з'єднання
     -   [db2bindparam](function.db2-bind-param.html) — Зв'язує змінну PHP із параметром SQL-виразу

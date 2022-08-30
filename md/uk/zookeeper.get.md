@@ -1,12 +1,12 @@
 Синхронно отримує дані, пов'язані з вузлом
 
--   [« Zookeeper::exists](zookeeper.exists.html)
+-   [« Zookeeper::exists](zookeeper.exists.md)
     
--   [Zookeeper::getAcl »](zookeeper.getacl.html)
+-   [Zookeeper::getAcl »](zookeeper.getacl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Zookeeper](class.zookeeper.html)
+-   [Zookeeper](class.zookeeper.md)
     
 -   Синхронно отримує дані, пов'язані з вузлом
     
@@ -52,7 +52,7 @@ public
 
 **Застереження**
 
-Починаючи з версії 0.3.0 метод викидає [ZookeeperException](class.zookeeperexception.html) та його похідні.
+Починаючи з версії 0.3.0 метод викидає [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Приклади
 
@@ -126,5 +126,5 @@ array(11) {
 
 ### Дивіться також
 
--   [Zookeeper::set()](zookeeper.set.html) - Встановлює дані, пов'язані з вузлом
--   [ZookeeperException](class.zookeeperexception.html)
+-   [Zookeeper::set()](zookeeper.set.md) - Встановлює дані, пов'язані з вузлом
+-   [ZookeeperException](class.zookeeperexception.md)

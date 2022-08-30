@@ -1,6 +1,6 @@
 Змінені функції
 
--   [« Функциональность, объявленная устаревшей в PHP 7.0.x](migration70.deprecated.html)
+-   [« Функціональність, оголошена застарілою в PHP 7.0.x](migration70.deprecated.html)
     
 -   [Нові функції »](migration70.new-functions.html)
     

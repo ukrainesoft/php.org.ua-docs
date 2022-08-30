@@ -1,12 +1,12 @@
 Інтерфейс JsonSerializable
 
--   [« JsonException](class.jsonexception.html)
+-   [« JsonException](class.jsonexception.md)
     
--   [JsonSerializable::jsonSerialize »](jsonserializable.jsonserialize.html)
+-   [JsonSerializable::jsonSerialize »](jsonserializable.jsonserialize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [JSON](book.json.html)
+-   [JSON](book.json.md)
     
 -   Інтерфейс JsonSerializable
     
@@ -39,4 +39,4 @@
 
 ## Зміст
 
--   [JsonSerializable::jsonSerialize](jsonserializable.jsonserialize.html) — Задає дані, які мають бути серіалізовані у JSON
+-   [JsonSerializable::jsonSerialize](jsonserializable.jsonserialize.md) — Задає дані, які мають бути серіалізовані у JSON

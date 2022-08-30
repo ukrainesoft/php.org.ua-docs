@@ -4,9 +4,9 @@
     
 -   [ibaseblobecho »](function.ibase-blob-echo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Firebird/InterBase](ref.ibase.html)
+-   [Функции Firebird/InterBase](ref.ibase.md)
     
 -   Створює новий BLOB-об'єкт для заповнення даними
     

@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](array.resources.html)
+-   [« Типи ресурсів](array.resources.md)
     
--   [Сортування масивів »](array.sorting.html)
+-   [Сортування масивів »](array.sorting.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Массивы](book.array.html)
+-   [Масиви](book.array.md)
     
 -   Обумовлені константи
     
@@ -53,7 +53,7 @@
 
 **`SORT_NATURAL`** (int)
 
-**`SORT_NATURAL`** використовується для порівняння елементів як рядків, використовуючи природне впорядкування, таке як [natsort()](function.natsort.html)
+**`SORT_NATURAL`** використовується для порівняння елементів як рядків, використовуючи природне впорядкування, таке як [natsort()](function.natsort.md)
 
 **`SORT_FLAG_CASE`** (int)
 

@@ -1,12 +1,12 @@
 Включити/вимкнути виведення налагоджувальної інформації
 
--   [« Функции Memcache](ref.memcache.html)
+-   [« Функции Memcache](ref.memcache.md)
     
--   [Memcached »](book.memcached.html)
+-   [Memcached »](book.memcached.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Memcache](ref.memcache.html)
+-   [Функции Memcache](ref.memcache.md)
     
 -   Включити/вимкнути виведення налагоджувальної інформації
     

@@ -4,9 +4,9 @@
     
 -   [tradercdl3whitesoldiers »](function.trader-cdl3whitesoldiers.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Три південні зірки
     

@@ -1,12 +1,12 @@
 Закриває дескриптор ZIP-архіву
 
--   [« Функции Zip](ref.zip.html)
+-   [« Функции Zip](ref.zip.md)
     
 -   [zipentryclose »](function.zip-entry-close.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Zip](ref.zip.html)
+-   [Функции Zip](ref.zip.md)
     
 -   Закриває дескриптор ZIP-архіву
     
@@ -41,9 +41,9 @@ ZIP-файл має бути відкритий за допомогою функ
 
 ### список змін
 
-| Версия | Описание                                                                                       |
-|--------|------------------------------------------------------------------------------------------------|
-|        | Функція застаріла на користь Object API, дивіться [ZipArchive::close()](ziparchive.close.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::close()](ziparchive.close.md) |
 
 ### Дивіться також
 

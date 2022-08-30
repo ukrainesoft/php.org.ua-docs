@@ -4,9 +4,9 @@
     
 -   [inflategetstatus »](function.inflate-get-status.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Zlib](ref.zlib.html)
+-   [Функции Zlib](ref.zlib.md)
     
 -   Отримує кількість прочитаних байт
     
@@ -37,6 +37,6 @@ inflate_get_read_len(InflateContext $context): int
 
 ### список змін
 
-| Версия | Описание                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------|
-|        | `context` чекає на екземпляр [InflateContext](class.inflatecontext.html); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `context` чекає на екземпляр [InflateContext](class.inflatecontext.md); раніше, очікувався ресурс (resource). |

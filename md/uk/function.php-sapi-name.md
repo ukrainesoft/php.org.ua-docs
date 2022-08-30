@@ -4,9 +4,9 @@
     
 -   [phpuname »](function.php-uname.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Повертає тип інтерфейсу між веб-сервером та PHP
     

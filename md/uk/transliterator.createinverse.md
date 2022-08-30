@@ -1,12 +1,12 @@
 Створити інвертований транслітератор
 
--   [« Transliterator::createFromRules](transliterator.createfromrules.html)
+-   [« Transliterator::createFromRules](transliterator.createfromrules.md)
     
--   [Transliterator::getErrorCode »](transliterator.geterrorcode.html)
+-   [Transliterator::getErrorCode »](transliterator.geterrorcode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Transliterator](class.transliterator.html)
+-   [Transliterator](class.transliterator.md)
     
 -   Створити інвертований транслітератор
     
@@ -45,9 +45,9 @@ transliterator_create_inverse(Transliterator $transliterator): ?Transliterator
 
 ### Значення, що повертаються
 
-Повертає об'єкт [Transliterator](class.transliterator.html) або **`null`** у разі виникнення помилки.
+Повертає об'єкт [Transliterator](class.transliterator.md) або **`null`** у разі виникнення помилки.
 
 ### Дивіться також
 
--   [Transliterator::getErrorMessage()](transliterator.geterrormessage.html) - Отримати останнє повідомлення про помилку
--   [Transliterator::create()](transliterator.create.html) - Створити транслітератор
+-   [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) - Отримати останнє повідомлення про помилку
+-   [Transliterator::create()](transliterator.create.md) - Створити транслітератор

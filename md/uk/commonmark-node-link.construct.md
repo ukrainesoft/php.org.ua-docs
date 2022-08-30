@@ -4,7 +4,7 @@
     
 -   [CommonMarkNodeCustomBlock »](class.commonmark-node-customblock.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [CommonMarkNodeLink](class.commonmark-node-link.html)
     

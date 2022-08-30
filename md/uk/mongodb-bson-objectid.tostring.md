@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONObjectId::unserialize »](mongodb-bson-objectid.unserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONObjectId](class.mongodb-bson-objectid.html)
     
@@ -54,4 +54,4 @@ string(24) "000000000000000000000001"
 ### Дивіться також
 
 -   [» Справка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
--   [» Типы BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+-   [» Типи BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)

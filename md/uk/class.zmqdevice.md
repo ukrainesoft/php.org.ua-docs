@@ -1,12 +1,12 @@
 Клас ZMQDevice
 
--   [« ZMQPoll::remove](zmqpoll.remove.html)
+-   [« ZMQPoll::remove](zmqpoll.remove.md)
     
--   [ZMQDevice::construct »](zmqdevice.construct.html)
+-   [ZMQDevice::construct »](zmqdevice.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Обмін повідомленнями 0MQ](book.zmq.html)
+-   [Обмін повідомленнями 0MQ](book.zmq.md)
     
 -   Клас ZMQDevice
     
@@ -46,11 +46,11 @@ public setTimerTimeout(int $timeout): ZMQDevice
 
 ## Зміст
 
--   [ZMQDevice::construct](zmqdevice.construct.html) — Створює новий пристрій
--   [ZMQDevice::getIdleTimeout](zmqdevice.getidletimeout.html) — Отримати час очікування бездіяльності
--   [ZMQDevice::getTimerTimeout](zmqdevice.gettimertimeout.html) - Отримати час очікування таймера
--   [ZMQDevice::run](zmqdevice.run.html) — Запуск нового пристрою
--   [ZMQDevice::setIdleCallback](zmqdevice.setidlecallback.html) - Встановити callback-функцію бездіяльності
--   [ZMQDevice::setIdleTimeout](zmqdevice.setidletimeout.html) — Встановити час очікування простою
--   [ZMQDevice::setTimerCallback](zmqdevice.settimercallback.html) - Встановити callback-функцію за таймером
--   [ZMQDevice::setTimerTimeout](zmqdevice.settimertimeout.html) - Встановити час очікування таймера
+-   [ZMQDevice::construct](zmqdevice.construct.md) — Створює новий пристрій
+-   [ZMQDevice::getIdleTimeout](zmqdevice.getidletimeout.md) — Отримати час очікування бездіяльності
+-   [ZMQDevice::getTimerTimeout](zmqdevice.gettimertimeout.md) - Отримати час очікування таймера
+-   [ZMQDevice::run](zmqdevice.run.md) — Запуск нового пристрою
+-   [ZMQDevice::setIdleCallback](zmqdevice.setidlecallback.md) - Встановити callback-функцію бездіяльності
+-   [ZMQDevice::setIdleTimeout](zmqdevice.setidletimeout.md) — Встановити час очікування простою
+-   [ZMQDevice::setTimerCallback](zmqdevice.settimercallback.md) - Встановити callback-функцію за таймером
+-   [ZMQDevice::setTimerTimeout](zmqdevice.settimertimeout.md) - Встановити час очікування таймера

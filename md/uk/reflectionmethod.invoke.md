@@ -1,12 +1,12 @@
 Виклик
 
--   [« ReflectionMethod::getPrototype](reflectionmethod.getprototype.html)
+-   [« ReflectionMethod::getPrototype](reflectionmethod.getprototype.md)
     
--   [ReflectionMethod::invokeArgs »](reflectionmethod.invokeargs.html)
+-   [ReflectionMethod::invokeArgs »](reflectionmethod.invokeargs.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionMethod](class.reflectionmethod.html)
+-   [ReflectionMethod](class.reflectionmethod.md)
     
 -   Виклик
     
@@ -41,9 +41,9 @@ public ReflectionMethod::invoke(?object $object, mixed ...$args): mixed
 
 ### Помилки
 
-Викидає виняток [ReflectionException](class.reflectionexception.html), якщо в об'єкті `object` немає визначення методу.
+Викидає виняток [ReflectionException](class.reflectionexception.md), якщо в об'єкті `object` немає визначення методу.
 
-Викидає виняток [ReflectionException](class.reflectionexception.html), якщо викликати метод виконання не вдалося.
+Викидає виняток [ReflectionException](class.reflectionexception.md), якщо викликати метод виконання не вдалося.
 
 ### Приклади
 
@@ -74,10 +74,10 @@ echo $reflectionMethod->invoke(new HelloWorld(), 'Майк');
 
 > **Зауваження**
 > 
-> **ReflectionMethod::invoke()** не можна використовувати, якщо очікуються параметри посилання. Замість нього слід використовувати [ReflectionMethod::invokeArgs()](reflectionmethod.invokeargs.html) (Передача посилань у списку аргументів).
+> **ReflectionMethod::invoke()** не можна використовувати, якщо очікуються параметри посилання. Замість нього слід використовувати [ReflectionMethod::invokeArgs()](reflectionmethod.invokeargs.md) (Передача посилань у списку аргументів).
 
 ### Дивіться також
 
--   [ReflectionMethod::invokeArgs()](reflectionmethod.invokeargs.html) - виклик методу з передачею аргументів масивом
+-   [ReflectionMethod::invokeArgs()](reflectionmethod.invokeargs.md) - виклик методу з передачею аргументів масивом
 -   [invoke()](language.oop5.magic.html#object.invoke)
 -   [calluserfunc()](function.call-user-func.html) - Викликає callback-функцію, задану у першому параметрі

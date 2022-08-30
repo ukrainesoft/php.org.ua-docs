@@ -1,12 +1,12 @@
 Отримує файл, у якому виник виняток
 
--   [« Exception::getCode](exception.getcode.html)
+-   [« Exception::getCode](exception.getcode.md)
     
--   [Exception::getLine »](exception.getline.html)
+-   [Exception::getLine »](exception.getline.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Exception](class.exception.html)
+-   [Exception](class.exception.md)
     
 -   Отримує файл, у якому виник виняток
     
@@ -55,4 +55,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getFile()](throwable.getfile.html) - Повертає файл, у якому викинуто виняток
+-   [Throwable::getFile()](throwable.getfile.md) - Повертає файл, у якому викинуто виняток

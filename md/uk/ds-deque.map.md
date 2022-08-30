@@ -4,7 +4,7 @@
     
 -   [ДсDeque::merge »](ds-deque.merge.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Двостороння черга](class.ds-deque.html)
     
@@ -33,7 +33,7 @@ public Ds\Deque::map(callable $callback): Ds\Deque
 callback(mixed $value): mixed
 ```
 
-Аргумент типу [callable](language.types.callable.html)
+Аргумент типу [callable](language.types.callable.md)
 
 Ця функція повинна повертати нове значення для кожного елемента двосторонньої черги.
 

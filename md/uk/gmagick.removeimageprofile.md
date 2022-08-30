@@ -1,12 +1,12 @@
 Видаляє іменований профайл зображення та повертає його
 
--   [« Gmagick::removeimage](gmagick.removeimage.html)
+-   [« Gmagick::removeimage](gmagick.removeimage.md)
     
--   [Gmagick::resampleimage »](gmagick.resampleimage.html)
+-   [Gmagick::resampleimage »](gmagick.resampleimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Видаляє іменований профайл зображення та повертає його
     

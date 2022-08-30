@@ -2,11 +2,11 @@
 
 -   [« Пример отображения XML тегов](example.xml-map-tags.html)
     
--   [Функции парсера XML »](ref.xml.html)
+-   [Функции парсера XML »](ref.xml.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](xml.examples.html)
+-   [Приклади](xml.examples.md)
     
 -   Приклад використання зовнішніх сутностей XML
     

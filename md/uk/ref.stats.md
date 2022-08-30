@@ -1,12 +1,12 @@
 Функції статистики
 
--   [« Предопределённые константы](stats.constants.html)
+-   [« Обумовлені константи](stats.constants.md)
     
 -   [statsabsolutedeviation »](function.stats-absolute-deviation.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Статистика](book.stats.html)
+-   [Статистика](book.stats.md)
     
 -   Функції статистики
     

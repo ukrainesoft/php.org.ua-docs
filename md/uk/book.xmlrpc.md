@@ -6,7 +6,7 @@ XML-RPC
     
 -   [PHP Manual](index.html)
     
--   [Веб-сервисы](refs.webservice.html)
+-   [Веб-сервіси](refs.webservice.html)
     
 -   XML-RPC
     
@@ -14,12 +14,12 @@ XML-RPC
 # XML-RPC
 
 -   [Введение](intro.xmlrpc.html)
--   [Установка и настройка](xmlrpc.setup.html)
-    -   [Требования](xmlrpc.requirements.html)
+-   [Встановлення та налаштування](xmlrpc.setup.html)
+    -   [Вимоги](xmlrpc.requirements.html)
     -   [Установка](xmlrpc.installation.html)
-    -   [Настройка во время выполнения](xmlrpc.configuration.html)
-    -   [Типы ресурсов](xmlrpc.resources.html)
--   [Предопределённые константы](xmlrpc.constants.html)
+    -   [Налаштування під час виконання](xmlrpc.configuration.html)
+    -   [Типи ресурсів](xmlrpc.resources.html)
+-   [Обумовлені константи](xmlrpc.constants.html)
 -   [Функції XML-RPC](ref.xmlrpc.html)
     -   [xmlrpcdecoderequest](function.xmlrpc-decode-request.html) - Декодує XML у нативні типи PHP
     -   [xmlrpcdecode](function.xmlrpc-decode.html) - Декодує XML у нативні типи PHP

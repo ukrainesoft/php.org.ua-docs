@@ -4,9 +4,9 @@ Callback-функція для параметра контексту notificatio
     
 -   [streamregisterwrapper »](function.stream-register-wrapper.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.md)
     
 -   Callback-функція для параметра контексту notification
     
@@ -23,7 +23,7 @@ streamnotificationcallback - Callback-функція для параметра �
 stream_notification_callback(    int $notification_code,    int $severity,    string $message,    int $message_code,    int $bytes_transferred,    int $bytes_max): void
 ```
 
-Callback-функція типу [callable](language.types.callable.html), що використовується [параметром контекста notification](context.params.html#context.params.notification), що викликається під час події.
+Callback-функція типу [callable](language.types.callable.md), що використовується [параметром контекста notification](context.params.html#context.params.notification), що викликається під час події.
 
 > **Зауваження**
 > 
@@ -216,4 +216,4 @@ Mime-тип файла: application/octet-stream
 
 ### Дивіться також
 
--   [Параметры контекста](context.params.html)
+-   [Параметри контексту](context.params.md)

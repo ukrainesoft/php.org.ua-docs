@@ -1,12 +1,12 @@
 Перевести подію в пасивний стан та звільнити всі виділені для неї ресурси
 
--   [« Event::delTimer](event.deltimer.html)
+-   [« Event::delTimer](event.deltimer.md)
     
--   [Event::getSupportedMethods »](event.getsupportedmethods.html)
+-   [Event::getSupportedMethods »](event.getsupportedmethods.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](class.event.html)
+-   [Event](class.event.md)
     
 -   Перевести подію в пасивний стан та звільнити всі виділені для неї ресурси
     
@@ -28,7 +28,7 @@ public
 
 **Увага**
 
-В даний час метод **Event::free()** не знищує сам об'єкт. Для знищення об'єкта події використовуйте функцію [unset()](function.unset.html) або привласніть йому **`null`**
+В даний час метод **Event::free()** не знищує сам об'єкт. Для знищення об'єкта події використовуйте функцію [unset()](function.unset.md) або привласніть йому **`null`**
 
 ### Список параметрів
 
@@ -40,4 +40,4 @@ public
 
 ### Дивіться також
 
--   [Event::construct()](event.construct.html) - Конструктор об'єкту Event
+-   [Event::construct()](event.construct.md) - Конструктор об'єкту Event

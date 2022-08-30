@@ -1,12 +1,12 @@
 Вступ
 
--   [« BC Math](book.bc.html)
+-   [« BC Math](book.bc.md)
     
--   [Установка и настройка »](bc.setup.html)
+-   [Встановлення та налаштування »](bc.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [BC Math](book.bc.html)
+-   [BC Math](book.bc.md)
     
 -   Вступ
     

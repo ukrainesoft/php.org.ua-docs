@@ -1,12 +1,12 @@
 Встановити завантажувач або заглушку в Phar-архів
 
--   [« Phar::setSignatureAlgorithm](phar.setsignaturealgorithm.html)
+-   [« Phar::setSignatureAlgorithm](phar.setsignaturealgorithm.md)
     
--   [Phar::startBuffering »](phar.startbuffering.html)
+-   [Phar::startBuffering »](phar.startbuffering.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Phar](class.phar.html)
+-   [Phar](class.phar.md)
     
 -   Встановити завантажувач або заглушку в Phar-архів
     
@@ -25,7 +25,7 @@ public Phar::setStub(string $stub, int $len = -1): bool
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.html)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
 Цей метод використовується для додавання початкової завантажувальної заглушки PHP (PHP bootstrap loader stub) до нового Phar-архіву або для заміни вже існуючого завантажувальної заглушки.
 
@@ -59,7 +59,7 @@ include 'phar://myphar.phar/somefile.php';
 
 ### Помилки
 
-Викидається виняток [UnexpectedValueException](class.unexpectedvalueexception.html), якщо [phar.readonly](phar.configuration.html#ini.phar.readonly) дозволено у php.ini. У разі проблем із записом на диск буде викинуто виняток [PharException](class.pharexception.html)
+Викидається виняток [UnexpectedValueException](class.unexpectedvalueexception.md), якщо [phar.readonly](phar.configuration.html#ini.phar.readonly) дозволено у php.ini. У разі проблем із записом на диск буде викинуто виняток [PharException](class.pharexception.md)
 
 ### Приклади
 
@@ -94,5 +94,5 @@ string(83) "<?php var_dump("Second"); Phar::mapPhar("brandnewphar.phar"); __HALT
 
 ### Дивіться також
 
--   [Phar::getStub()](phar.getstub.html) - Отримати завантажувач PHP або завантажувач заглушки Phar-архіву
--   [Phar::createDefaultStub()](phar.createdefaultstub.html) - Створити заглушку у форматі phar-архіву
+-   [Phar::getStub()](phar.getstub.md) - Отримати завантажувач PHP або завантажувач заглушки Phar-архіву
+-   [Phar::createDefaultStub()](phar.createdefaultstub.md) - Створити заглушку у форматі phar-архіву

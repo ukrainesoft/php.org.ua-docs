@@ -1,6 +1,6 @@
 Функції varrepresentation
 
--   [« Предопределённые константы](var-representation.constants.html)
+-   [« Обумовлені константи](var-representation.constants.html)
     
 -   [varrepresentation »](function.var-representation.html)
     

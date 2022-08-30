@@ -1,12 +1,12 @@
 Базове використання
 
--   [« Примеры](dba.examples.html)
+-   [« Приклади](dba.examples.md)
     
--   [Функції DBA »](ref.dba.html)
+-   [Функції DBA »](ref.dba.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](dba.examples.html)
+-   [Приклади](dba.examples.md)
     
 -   Базове використання
     

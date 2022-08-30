@@ -1,12 +1,12 @@
 Отримати останнє повідомлення про помилку в об'єкті
 
--   [« UConverter::getErrorCode](uconverter.geterrorcode.html)
+-   [« UConverter::getErrorCode](uconverter.geterrorcode.md)
     
--   [UConverter::getSourceEncoding »](uconverter.getsourceencoding.html)
+-   [UConverter::getSourceEncoding »](uconverter.getsourceencoding.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [UConverter](class.uconverter.html)
+-   [UConverter](class.uconverter.md)
     
 -   Отримати останнє повідомлення про помилку в об'єкті
     

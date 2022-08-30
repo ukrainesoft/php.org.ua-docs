@@ -2,11 +2,11 @@
 
 -   [« easterdate](function.easter-date.html)
     
--   [frenchtojd »](function.frenchtojd.html)
+-   [frenchtojd »](function.frenchtojd.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Календарь](ref.calendar.html)
+-   [Календарь](ref.calendar.md)
     
 -   Отримати кількість днів між 21 березня та Великоднем у заданому році
     
@@ -37,7 +37,7 @@ easter_days(?int $year = null, int $mode = CAL_EASTER_DEFAULT): int
 
 `mode`
 
-Дозволяє розрахувати Пасхальні дати, ґрунтуючись на григоріанському календарі для 1582 – 1752 років, якщо встановити **`CAL_EASTER_ROMAN`**. Дивіться [список констант календаря](calendar.constants.html), щоб дізнатися про всі допустимі константи.
+Дозволяє розрахувати Пасхальні дати, ґрунтуючись на григоріанському календарі для 1582 – 1752 років, якщо встановити **`CAL_EASTER_ROMAN`**. Дивіться [список констант календаря](calendar.constants.md), щоб дізнатися про всі допустимі константи.
 
 ### Значення, що повертаються
 
@@ -45,9 +45,9 @@ easter_days(?int $year = null, int $mode = CAL_EASTER_DEFAULT): int
 
 ### список змін
 
-| Версия | Описание                             |
-|--------|--------------------------------------|
-|        | `year` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `year` тепер допускає значення null. |
 
 ### Приклади
 

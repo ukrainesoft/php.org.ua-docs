@@ -17,9 +17,9 @@
 
 -   [Нові можливості](migration71.new-features.html)
 -   [Нові функції](migration71.new-functions.html)
--   [Новые глобальные константы](migration71.constants.html)
+-   [Нові глобальні константи](migration71.constants.html)
 -   [Зміни, що ламають зворотну сумісність](migration71.incompatible.html)
--   [Функционал, объявленный устаревшим в PHP 7.1.x](migration71.deprecated.html)
+-   [Функціонал, оголошений застарілим у PHP 7.1.x](migration71.deprecated.html)
 -   [Змінені функції](migration71.changed-functions.html)
 -   [Прочие изменения](migration71.other-changes.html)
 -   [Поддержка Windows](migration71.windows-support.html)

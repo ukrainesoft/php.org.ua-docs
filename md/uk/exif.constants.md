@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](exif.resources.html)
+-   [« Типи ресурсів](exif.resources.html)
     
 -   [Exif Функції »](ref.exif.html)
     

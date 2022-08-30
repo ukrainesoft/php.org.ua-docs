@@ -1,12 +1,12 @@
 Клас QuickHashIntSet
 
--   [« Примеры](quickhash.examples.html)
+-   [« Приклади](quickhash.examples.md)
     
--   [QuickHashIntSet::add »](quickhashintset.add.html)
+-   [QuickHashIntSet::add »](quickhashintset.add.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Quickhash](book.quickhash.html)
+-   [Quickhash](book.quickhash.md)
     
 -   Клас QuickHashIntSet
     
@@ -19,7 +19,7 @@
 
 Клас обгортка над набором цілих чисел.
 
-Клас реалізує інтерфейс [Iterator](class.iterator.html)що дає можливість перебору за допомогою конструкції [`foreach`](control-structures.foreach.html). Порядок проходження елементів не гарантується.
+Клас реалізує інтерфейс [Iterator](class.iterator.md)що дає можливість перебору за допомогою конструкції [`foreach`](control-structures.foreach.html). Порядок проходження елементів не гарантується.
 
 ## Огляд класів
 
@@ -75,7 +75,7 @@ public saveToString(): string
 
 **`QuickHashIntSet::CHECK_FOR_DUPES`**
 
-Якщо увімкнено, то додавання повторюваних елементів до набору (за допомогою методів [QuickHashIntSet::add()](quickhashintset.add.html) або [QuickHashIntSet::loadFromFile()](quickhashintset.loadfromfile.html)) призведе до відкидання цих елементів. Ця функціональність дещо уповільнює роботу, так що має використовуватися лише якщо дійсно необхідний.
+Якщо увімкнено, то додавання повторюваних елементів до набору (за допомогою методів [QuickHashIntSet::add()](quickhashintset.add.md) або [QuickHashIntSet::loadFromFile()](quickhashintset.loadfromfile.md)) призведе до відкидання цих елементів. Ця функціональність дещо уповільнює роботу, так що має використовуватися лише якщо дійсно необхідний.
 
 **`QuickHashIntSet::DO_NOT_USE_ZEND_ALLOC`**
 
@@ -95,12 +95,12 @@ public saveToString(): string
 
 ## Зміст
 
--   [QuickHashIntSet::add](quickhashintset.add.html) — Метод додає новий запис до набору
--   [QuickHashIntSet::construct](quickhashintset.construct.html) — Створює новий об'єкт QuickHashIntSet
--   [QuickHashIntSet::delete](quickhashintset.delete.html) — Метод видаляє запис із набору
--   [QuickHashIntSet::exists](quickhashintset.exists.html) — Метод перевіряє, чи є ключем частиною набору
--   [QuickHashIntSet::getSize](quickhashintset.getsize.html) — Повертає кількість елементів у наборі
--   [QuickHashIntSet::loadFromFile](quickhashintset.loadfromfile.html) — Фабричний метод створює набір із файлу
--   [QuickHashIntSet::loadFromString](quickhashintset.loadfromstring.html) — Фабричний метод створює набір із рядка
--   [QuickHashIntSet::saveToFile](quickhashintset.savetofile.html) — Метод зберігає набір у пам'яті на диску
--   [QuickHashIntSet::saveToString](quickhashintset.savetostring.html) — Метод повертає серіалізовану версію набору
+-   [QuickHashIntSet::add](quickhashintset.add.md) — Метод додає новий запис до набору
+-   [QuickHashIntSet::construct](quickhashintset.construct.md) — Створює новий об'єкт QuickHashIntSet
+-   [QuickHashIntSet::delete](quickhashintset.delete.md) — Метод видаляє запис із набору
+-   [QuickHashIntSet::exists](quickhashintset.exists.md) — Метод перевіряє, чи є ключем частиною набору
+-   [QuickHashIntSet::getSize](quickhashintset.getsize.md) — Повертає кількість елементів у наборі
+-   [QuickHashIntSet::loadFromFile](quickhashintset.loadfromfile.md) — Фабричний метод створює набір із файлу
+-   [QuickHashIntSet::loadFromString](quickhashintset.loadfromstring.md) — Фабричний метод створює набір із рядка
+-   [QuickHashIntSet::saveToFile](quickhashintset.savetofile.md) — Метод зберігає набір у пам'яті на диску
+-   [QuickHashIntSet::saveToString](quickhashintset.savetostring.md) — Метод повертає серіалізовану версію набору

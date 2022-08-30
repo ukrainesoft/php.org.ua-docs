@@ -1,12 +1,12 @@
 Повертає певні піксельні різницю між зображеннями
 
--   [« Gmagick::cyclecolormapimage](gmagick.cyclecolormapimage.html)
+-   [« Gmagick::cyclecolormapimage](gmagick.cyclecolormapimage.md)
     
--   [Gmagick::despeckleimage »](gmagick.despeckleimage.html)
+-   [Gmagick::despeckleimage »](gmagick.despeckleimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повертає певні піксельні різницю між зображеннями
     
@@ -31,7 +31,7 @@ public Gmagick::deconstructimages(): Gmagick
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Повертає новий об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

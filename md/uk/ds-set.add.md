@@ -4,7 +4,7 @@
     
 -   [ДсSet::allocate »](ds-set.allocate.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Набор](class.ds-set.html)
     

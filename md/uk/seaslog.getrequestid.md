@@ -1,12 +1,12 @@
 Отримує диференційовані запити SeasLog requestід
 
--   [« SeasLog::getLastLogger](seaslog.getlastlogger.html)
+-   [« SeasLog::getLastLogger](seaslog.getlastlogger.md)
     
--   [SeasLog::getRequestVariable »](seaslog.getrequestvariable.html)
+-   [SeasLog::getRequestVariable »](seaslog.getrequestvariable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SeasLog](class.seaslog.html)
+-   [SeasLog](class.seaslog.md)
     
 -   Отримує диференційовані запити SeasLog requestід
     
@@ -23,7 +23,7 @@ SeasLog::getRequestID — Отримує диференційовані запи
 public static SeasLog::getRequestID(): string
 ```
 
-Щоб відрізнити один запит, наприклад, не викликати функції [SeasLog::setRequestId()](seaslog.setrequestid.html), при ініціалізації запиту використовується унікальне значення, що генерується вбудованою функцією static char getuniqid()
+Щоб відрізнити один запит, наприклад, не викликати функції [SeasLog::setRequestId()](seaslog.setrequestid.md), при ініціалізації запиту використовується унікальне значення, що генерується вбудованою функцією static char getuniqid()
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public static SeasLog::getRequestID(): string
 
 ### Значення, що повертаються
 
-Повертає рядок, створений вбудованою функцією static char getuniqid() або задану функцією [SeasLog::setRequestId()](seaslog.setrequestid.html)
+Повертає рядок, створений вбудованою функцією static char getuniqid() або задану функцією [SeasLog::setRequestId()](seaslog.setrequestid.md)
 
 ### Приклади
 
@@ -57,5 +57,5 @@ string(26) "reqeust_id_test_1530864034"
 
 ### Дивіться також
 
--   [SeasLog::setRequestID()](seaslog.setrequestid.html) - Встановлює диференційовані запити SeasLog requestід
--   Змінна %До в [Таблице переменных по умолчанию Seaslog](seaslog.configuration.html#ini.seaslog.default-template)
+-   [SeasLog::setRequestID()](seaslog.setrequestid.md) - Встановлює диференційовані запити SeasLog requestід
+-   Змінна %До в [Таблиці змінних за промовчанням Seaslog](seaslog.configuration.html#ini.seaslog.default-template)

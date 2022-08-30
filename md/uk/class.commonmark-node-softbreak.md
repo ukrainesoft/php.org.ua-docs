@@ -4,9 +4,9 @@ SoftBreak успадковує CommonMarkNode
     
 -   [CommonMarkNodeLineBreak »](class.commonmark-node-linebreak.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CommonMark](book.cmark.html)
+-   [CommonMark](book.cmark.md)
     
 -   SoftBreak успадковує CommonMarkNode
     

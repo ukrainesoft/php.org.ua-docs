@@ -4,9 +4,9 @@
     
 -   [cubridlob2write »](function.cubrid-lob2-write.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Повідомляє положення курсору LOB-об'єкта
     

@@ -4,9 +4,9 @@
     
 -   [cubridlockread »](function.cubrid-lock-read.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Записує до LOB-об'єкт
     

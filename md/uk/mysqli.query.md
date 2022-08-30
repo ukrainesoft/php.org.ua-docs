@@ -1,12 +1,12 @@
 Виконує запит до бази даних
 
--   [« mysqli::prepare](mysqli.prepare.html)
+-   [« mysqli::prepare](mysqli.prepare.md)
     
 -   [mysqli::realconnect »](mysqli.real-connect.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Виконує запит до бази даних
     
@@ -52,7 +52,7 @@ mysqli_query(mysqli $mysql, string $query, int $result_mode = MYSQLI_STORE_RESUL
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 `query`
 
@@ -72,7 +72,7 @@ mysqli_query(mysqli $mysql, string $query, int $result_mode = MYSQLI_STORE_RESUL
 
 **`MYSQLI_USE_RESULT`** - Повертає об'єкт [mysqliresult](class.mysqli-result.html) із небуферизованим набором результатів. Поки є відкладені записи, що очікують вибірки, лінія з'єднання буде зайнята і всі наступні дзвінки повертатимуть помилку `Commands out of sync`. Щоб уникнути помилки, всі записи повинні бути отримані з сервера або набір результатів має бути відкинуто шляхом виклику [mysqlifreeresult()](mysqli-result.free.html)
 
-**`MYSQLI_ASYNC`** (Доступно з mysqlnd) - запит виконується асинхронно, набір результатів відразу не повертається. Потім використовується [mysqlipoll()](mysqli.poll.html) для отримання результатів за цими запитами. Використовується у поєднанні з константою **`MYSQLI_STORE_RESULT`** або **`MYSQLI_USE_RESULT`**
+**`MYSQLI_ASYNC`** (Доступно з mysqlnd) - запит виконується асинхронно, набір результатів відразу не повертається. Потім використовується [mysqlipoll()](mysqli.poll.md) для отримання результатів за цими запитами. Використовується у поєднанні з константою **`MYSQLI_STORE_RESULT`** або **`MYSQLI_USE_RESULT`**
 
 ### Значення, що повертаються
 
@@ -145,5 +145,5 @@ Fatal error: Uncaught mysqli_sql_exception: Commands out of sync; you can't run 
 
 -   [mysqlirealquery()](mysqli.real-query.html) - Виконання SQL запиту
 -   [mysqlimultiquery()](mysqli.multi-query.html) - Виконує один або кілька запитів до бази даних
--   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
 -   [mysqlifreeresult()](mysqli-result.free.html) - звільняє пам'ять, зайняту результатами запиту

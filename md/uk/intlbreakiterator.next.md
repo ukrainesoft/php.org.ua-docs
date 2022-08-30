@@ -1,12 +1,12 @@
 Переміщає ітератор до наступного кордону
 
--   [« IntlBreakIterator::last](intlbreakiterator.last.html)
+-   [« IntlBreakIterator::last](intlbreakiterator.last.md)
     
--   [IntlBreakIterator::preceding »](intlbreakiterator.preceding.html)
+-   [IntlBreakIterator::preceding »](intlbreakiterator.preceding.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlBreakIterator](class.intlbreakiterator.html)
+-   [IntlBreakIterator](class.intlbreakiterator.md)
     
 -   Переміщає ітератор до наступного кордону
     

@@ -29,7 +29,7 @@ openssl_csr_export(OpenSSLCertificateSigningRequest|string $csr, string &$output
 
 `csr`
 
-Для отримання списку допустимих значень дивіться [параметры CSR](openssl.certparams.html)
+Для отримання списку допустимих значень дивіться [параметри CSR](openssl.certparams.html)
 
 `output`
 
@@ -45,9 +45,9 @@ openssl_csr_export(OpenSSLCertificateSigningRequest|string $csr, string &$output
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                   |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
+| Версия | Описание |
+| --- | --- |
+|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
 
 ### Приклади
 

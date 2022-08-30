@@ -1,12 +1,12 @@
 Використання просторів імен: імпорт/створення псевдоніма імені
 
--   [« Ключевое слово namespace и константаNAMESPACE](language.namespaces.nsconstants.html)
+-   [« Ключевое слово namespace и константаNAMESPACE](language.namespaces.nsconstants.md)
     
--   [Глобальний простір »](language.namespaces.global.html)
+-   [Глобальний простір »](language.namespaces.global.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Пространства имён](language.namespaces.html)
+-   [Пространства имён](language.namespaces.md)
     
 -   Використання просторів імен: імпорт/створення псевдоніма імені
     
@@ -122,7 +122,7 @@ function toGreenlandic()
 
 ### Опис групування в одному операторі `use`
 
-Класи, функції та константи, що імпортуються з одного і того ж [`namespace`](language.namespaces.definition.html), можуть групуватися в одному операторі [`use`](language.namespaces.importing.html)
+Класи, функції та константи, що імпортуються з одного і того ж [`namespace`](language.namespaces.definition.md), можуть групуватися в одному операторі [`use`](language.namespaces.importing.md)
 
 ```php
 <?php

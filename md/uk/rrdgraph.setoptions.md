@@ -1,12 +1,12 @@
 Встановлює параметри експорту графіка rrd
 
--   [« RRDGraph::saveVerbose](rrdgraph.saveverbose.html)
+-   [« RRDGraph::saveVerbose](rrdgraph.saveverbose.md)
     
--   [RRDUpdater »](class.rrdupdater.html)
+-   [RRDUpdater »](class.rrdupdater.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RRDGraph](class.rrdgraph.html)
+-   [RRDGraph](class.rrdgraph.md)
     
 -   Встановлює параметри експорту графіка rrd
     

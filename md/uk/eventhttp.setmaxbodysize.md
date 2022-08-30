@@ -1,12 +1,12 @@
 Встановлює максимальний розмір тіла запиту
 
--   [« EventHttp::setDefaultCallback](eventhttp.setdefaultcallback.html)
+-   [« EventHttp::setDefaultCallback](eventhttp.setdefaultcallback.md)
     
--   [EventHttp::setMaxHeadersSize »](eventhttp.setmaxheaderssize.html)
+-   [EventHttp::setMaxHeadersSize »](eventhttp.setmaxheaderssize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttp](class.eventhttp.html)
+-   [EventHttp](class.eventhttp.md)
     
 -   Встановлює максимальний розмір тіла запиту
     
@@ -41,4 +41,4 @@ public
 
 ### Дивіться також
 
--   [EventHttp::setMaxHeadersSize()](eventhttp.setmaxheaderssize.html) - Встановлює максимальний розмір заголовка HTTP
+-   [EventHttp::setMaxHeadersSize()](eventhttp.setmaxheaderssize.md) - Встановлює максимальний розмір заголовка HTTP

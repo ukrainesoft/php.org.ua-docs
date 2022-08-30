@@ -1,26 +1,26 @@
 Mailparse
 
--   [« mail](function.mail.html)
+-   [« mail](function.mail.md)
     
--   [Введение »](intro.mailparse.html)
+-   [Введение »](intro.mailparse.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модулі для роботи з поштою](refs.remote.mail.html)
+-   [Модулі для роботи з поштою](refs.remote.mail.md)
     
 -   Mailparse
     
 
 # Mailparse
 
--   [Введение](intro.mailparse.html)
--   [Установка и настройка](mailparse.setup.html)
-    -   [Требования](mailparse.requirements.html)
-    -   [Установка](mailparse.installation.html)
-    -   [Настройка во время выполнения](mailparse.configuration.html)
-    -   [Типы ресурсов](mailparse.resources.html)
--   [Предопределённые константы](mailparse.constants.html)
--   [Mailparse](ref.mailparse.html)
+-   [Введение](intro.mailparse.md)
+-   [Встановлення та налаштування](mailparse.setup.md)
+    -   [Вимоги](mailparse.requirements.md)
+    -   [Установка](mailparse.installation.md)
+    -   [Налаштування під час виконання](mailparse.configuration.md)
+    -   [Типи ресурсів](mailparse.resources.md)
+-   [Обумовлені константи](mailparse.constants.md)
+-   [Mailparse](ref.mailparse.md)
     -   [mailparsedeterminebestxferencoding](function.mailparse-determine-best-xfer-encoding.html) - Визначити найкращий шлях декодування
     -   [mailparsemsgcreate](function.mailparse-msg-create.html) - Створює поштовий MIME-ресурс
     -   [mailparsemsgextractpartfile](function.mailparse-msg-extract-part-file.html) — Вийняти/декодувати секцію із повідомленням із файлу

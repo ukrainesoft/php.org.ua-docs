@@ -1,6 +1,6 @@
 Клас HRTimePerformanceCounter
 
--   [« Основы использования](hrtime.example.basic.html)
+-   [« Основи використання](hrtime.example.basic.html)
     
 -   [HRTimePerformanceCounter::getFrequency »](hrtime-performancecounter.getfrequency.html)
     

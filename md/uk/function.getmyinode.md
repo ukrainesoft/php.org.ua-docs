@@ -1,12 +1,12 @@
 Отримує значення inode поточного скрипту
 
--   [« getmygid](function.getmygid.html)
+-   [« getmygid](function.getmygid.md)
     
--   [getmypid »](function.getmypid.html)
+-   [getmypid »](function.getmypid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Отримує значення inode поточного скрипту
     
@@ -35,8 +35,8 @@ getmyinode(): int|false
 
 ### Дивіться також
 
--   [getmygid()](function.getmygid.html) - Отримати GID власника скрипта PHP
--   [getmyuid()](function.getmyuid.html) - Отримання UID власника скрипта PHP
--   [getmypid()](function.getmypid.html) - Отримання ID процесу PHP
+-   [getmygid()](function.getmygid.md) - Отримати GID власника скрипта PHP
+-   [getmyuid()](function.getmyuid.md) - Отримання UID власника скрипта PHP
+-   [getmypid()](function.getmypid.md) - Отримання ID процесу PHP
 -   [getcurrentuser()](function.get-current-user.html) - Отримує ім'я власника поточного скрипту PHP
--   [getlastmod()](function.getlastmod.html) - Отримує час останньої модифікації сторінки
+-   [getlastmod()](function.getlastmod.md) - Отримує час останньої модифікації сторінки

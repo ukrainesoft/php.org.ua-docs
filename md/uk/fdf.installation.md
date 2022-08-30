@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](fdf.requirements.html)
+-   [« Вимоги](fdf.requirements.md)
     
--   [Настройка во время выполнения »](fdf.configuration.html)
+-   [Налаштування під час виконання »](fdf.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](fdf.setup.html)
+-   [Встановлення та налаштування](fdf.setup.md)
     
 -   Встановлення
     

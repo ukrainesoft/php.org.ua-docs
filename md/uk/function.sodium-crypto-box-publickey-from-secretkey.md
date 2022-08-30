@@ -4,9 +4,9 @@
     
 -   [sodiumcryptoboxpublickey »](function.sodium-crypto-box-publickey.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Обчислює відкритий ключ із секретного ключа
     

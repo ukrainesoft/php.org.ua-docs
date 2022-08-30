@@ -1,12 +1,12 @@
 Застосовує функцію зображення
 
--   [« Imagick::frameImage](imagick.frameimage.html)
+-   [« Imagick::frameImage](imagick.frameimage.md)
     
--   [Imagick::fxImage »](imagick.fximage.html)
+-   [Imagick::fxImage »](imagick.fximage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Застосовує функцію зображення
     

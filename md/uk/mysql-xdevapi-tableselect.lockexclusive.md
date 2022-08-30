@@ -4,7 +4,7 @@
     
 -   [TableSelect::lockShared »](mysql-xdevapi-tableselect.lockshared.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
     

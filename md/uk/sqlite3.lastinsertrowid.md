@@ -1,12 +1,12 @@
 Повертає ідентифікатор рядка останньої вставки (INSERT) до бази даних
 
--   [« SQLite3::lastErrorMsg](sqlite3.lasterrormsg.html)
+-   [« SQLite3::lastErrorMsg](sqlite3.lasterrormsg.md)
     
--   [SQLite3::loadExtension »](sqlite3.loadextension.html)
+-   [SQLite3::loadExtension »](sqlite3.loadextension.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3](class.sqlite3.html)
+-   [SQLite3](class.sqlite3.md)
     
 -   Повертає ідентифікатор рядка останньої вставки (INSERT) до бази даних
     

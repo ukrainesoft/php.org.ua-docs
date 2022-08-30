@@ -1,12 +1,12 @@
 Повертає довжину ділянки на початку рядка, що повністю відповідає масці
 
--   [« strrpos](function.strrpos.html)
+-   [« strrpos](function.strrpos.md)
     
--   [strstr »](function.strstr.html)
+-   [strstr »](function.strstr.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Повертає довжину ділянки на початку рядка, що повністю відповідає масці
     
@@ -25,7 +25,7 @@ strspn(    string $string,    string $characters,    int $offset = 0
 
 Повертає довжину ділянки від початку рядка `string`, що містить *тільки* символи з `characters`
 
-Якщо параметри `offset` і `length` не вказано, то буде досліджено весь рядок `string`. Якщо вони вказані, то ефект буде аналогічним виклику `strspn(substr($string, $offset, $length), $characters)` (Докладніше дивіться функцію [substr](function.substr.html)
+Якщо параметри `offset` і `length` не вказано, то буде досліджено весь рядок `string`. Якщо вони вказані, то ефект буде аналогічним виклику `strspn(substr($string, $offset, $length), $characters)` (Докладніше дивіться функцію [substr](function.substr.md)
 
 Рядок коду:
 
@@ -73,9 +73,9 @@ $var = strspn("42 - ответ на 128 вопрос.", "1234567890");
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `length` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `length` тепер допускає значення null. |
 
 ### Приклади
 
@@ -108,4 +108,4 @@ int(1)
 
 ### Дивіться також
 
--   [strcspn()](function.strcspn.html) - Повертає довжину ділянки на початку рядка, що не відповідає масці
+-   [strcspn()](function.strcspn.md) - Повертає довжину ділянки на початку рядка, що не відповідає масці

@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](wddx.resources.html)
+-   [« Типи ресурсів](wddx.resources.md)
     
--   [Примеры »](wddx.examples.html)
+-   [Приклади »](wddx.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [WDDX](book.wddx.html)
+-   [WDDX](book.wddx.md)
     
 -   Обумовлені константи
     

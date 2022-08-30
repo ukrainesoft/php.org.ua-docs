@@ -4,9 +4,9 @@
     
 -   [radiusdemangle »](function.radius-demangle.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Radius](ref.radius.html)
+-   [Функции Radius](ref.radius.md)
     
 -   Отримує mppe-ключі зі спотворених даних
     

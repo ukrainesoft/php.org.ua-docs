@@ -1,12 +1,12 @@
 Запускає спостерігача
 
--   [« EvWatcher::setCallback](evwatcher.setcallback.html)
+-   [« EvWatcher::setCallback](evwatcher.setcallback.md)
     
--   [EvWatcher::stop »](evwatcher.stop.html)
+-   [EvWatcher::stop »](evwatcher.stop.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvWatcher](class.evwatcher.html)
+-   [EvWatcher](class.evwatcher.md)
     
 -   Запускає спостерігача
     
@@ -36,4 +36,4 @@ public
 
 ### Дивіться також
 
--   [EvWatcher::stop()](evwatcher.stop.html) - зупиняє спостерігача
+-   [EvWatcher::stop()](evwatcher.stop.md) - зупиняє спостерігача

@@ -14,10 +14,10 @@ wkhtmltox
 # wkhtmltox
 
 -   [Введение](intro.wkhtmltox.html)
--   [Установка и настройка](wkhtmltox.setup.html)
-    -   [Требования](wkhtmltox.requirements.html)
+-   [Встановлення та налаштування](wkhtmltox.setup.html)
+    -   [Вимоги](wkhtmltox.requirements.html)
     -   [Установка](wkhtmltox.installation.html)
-    -   [Настройка во время выполнения](wkhtmltox.configuration.html)
+    -   [Налаштування під час виконання](wkhtmltox.configuration.html)
 -   [wkhtmltoxPDFConverter](class.wkhtmltox-pdf-converter.html) - Клас wkhtmltoxPDFConverter
     -   [wkhtmltoxPDFConverter::add](wkhtmltox-pdf-converter.add.html) — Додавання об'єкта для перетворення
     -   [wkhtmltoxPDFConverter::construct](wkhtmltox-pdf-converter.construct.html) — Створити новий PDF-конвертер

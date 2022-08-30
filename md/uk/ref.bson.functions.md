@@ -1,12 +1,12 @@
 Функції
 
--   [« MongoDBBSON](book.bson.html)
+-   [« MongoDBBSON](book.bson.md)
     
 -   [MongoDBBSONfromJSON »](function.mongodb.bson-fromjson.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBBSON](book.bson.html)
+-   [MongoDBBSON](book.bson.md)
     
 -   Функції
     

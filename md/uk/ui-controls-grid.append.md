@@ -4,7 +4,7 @@
     
 -   [ОЙControlsGrid::isPadded »](ui-controls-grid.ispadded.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsGrid](class.ui-controls-grid.html)
     

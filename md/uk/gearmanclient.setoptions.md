@@ -1,12 +1,12 @@
 Встановлення налаштувань клієнта
 
--   [« GearmanClient::setFailCallback](gearmanclient.setfailcallback.html)
+-   [« GearmanClient::setFailCallback](gearmanclient.setfailcallback.md)
     
--   [GearmanClient::setStatusCallback »](gearmanclient.setstatuscallback.html)
+-   [GearmanClient::setStatusCallback »](gearmanclient.setstatuscallback.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanClient](class.gearmanclient.html)
+-   [GearmanClient](class.gearmanclient.md)
     
 -   Встановлення налаштувань клієнта
     

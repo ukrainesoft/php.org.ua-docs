@@ -1,12 +1,12 @@
 Магічні методи
 
--   [« Ітератори об'єктів](language.oop5.iterations.html)
+-   [« Ітератори об'єктів](language.oop5.iterations.md)
     
--   [Ключевое слово final »](language.oop5.final.html)
+-   [Ключевое слово final »](language.oop5.final.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Классы и объекты](language.oop5.html)
+-   [Класи та об'єкти](language.oop5.md)
     
 -   Магічні методи
     
@@ -39,7 +39,7 @@ public __sleep(): array
 public __wakeup(): void
 ```
 
-Функція [serialize()](function.serialize.html) перевіряє, чи є у класі метод із магічним ім'ям [sleep()](language.oop5.magic.html#object.sleep). Якщо це так, цей метод виконується до будь-якої операції серіалізації. Він може очистити об'єкт і повинен повертати масив з іменами всіх змінних цього об'єкта, які мають бути серіалізовані. Якщо метод нічого не повертає, то серіалізується **`null`** та видається попередження **`E_NOTICE`**
+Функція [serialize()](function.serialize.md) перевіряє, чи є у класі метод із магічним ім'ям [sleep()](language.oop5.magic.html#object.sleep). Якщо це так, цей метод виконується до будь-якої операції серіалізації. Він може очистити об'єкт і повинен повертати масив з іменами всіх змінних цього об'єкта, які мають бути серіалізовані. Якщо метод нічого не повертає, то серіалізується **`null`** та видається попередження **`E_NOTICE`**
 
 > **Зауваження**
 > 
@@ -47,7 +47,7 @@ public __wakeup(): void
 
 Передбачуване використання [sleep()](language.oop5.magic.html#object.sleep) полягає в завершенні роботи над даними, що чекають на обробку або інших подібних завдань очищення. Крім того, цей метод може бути корисним, коли є дуже великі об'єкти, які немає потреби повністю зберігати.
 
-З іншого боку, функція [unserialize()](function.unserialize.html) перевіряє наявність методу з магічним ім'ям [wakeup()](language.oop5.magic.html#object.wakeup). Якщо є, ця функція може відновлювати будь-які ресурси, які може мати об'єкт.
+З іншого боку, функція [unserialize()](function.unserialize.md) перевіряє наявність методу з магічним ім'ям [wakeup()](language.oop5.magic.html#object.wakeup). Якщо є, ця функція може відновлювати будь-які ресурси, які може мати об'єкт.
 
 Передбачуване використання [wakeup()](language.oop5.magic.html#object.wakeup) полягає у відновленні будь-яких з'єднань з базою даних, які могли бути втрачені під час операції серіалізації та виконання інших операцій повторної ініціалізації.
 
@@ -95,15 +95,15 @@ public __serialize(): array
 public __unserialize(array $data): void
 ```
 
-[serialize()](function.serialize.html) перевіряє, чи є у класі функція з магічним ім'ям [serialize()](language.oop5.magic.html#object.serialize). Якщо так, то функція виконується перед будь-якою серіалізацією. Вона повинна створити та повернути асоціативний масив пар ключ/значення, які представляють серіалізовану форму об'єкта. Якщо масив не повернутий, буде видано [TypeError](class.typeerror.html)
+[serialize()](function.serialize.md) перевіряє, чи є у класі функція з магічним ім'ям [serialize()](language.oop5.magic.html#object.serialize). Якщо так, то функція виконується перед будь-якою серіалізацією. Вона повинна створити та повернути асоціативний масив пар ключ/значення, які представляють серіалізовану форму об'єкта. Якщо масив не повернутий, буде видано [TypeError](class.typeerror.md)
 
 > **Зауваження**
 > 
-> Якщо і [serialize()](language.oop5.magic.html#object.serialize) і [sleep()](language.oop5.magic.html#object.sleep) визначено в одному і тому ж об'єкті, буде викликано лише метод [serialize()](language.oop5.magic.html#object.serialize). . [sleep()](language.oop5.magic.html#object.sleep) ігноруватиметься. Якщо об'єкт реалізує інтерфейс [Serializable](class.serializable.html), метод `serialize()` інтерфейсу ігноруватиметься, а замість нього буде використаний [serialize()](language.oop5.magic.html#object.serialize)
+> Якщо і [serialize()](language.oop5.magic.html#object.serialize) і [sleep()](language.oop5.magic.html#object.sleep) визначено в одному і тому ж об'єкті, буде викликано лише метод [serialize()](language.oop5.magic.html#object.serialize). . [sleep()](language.oop5.magic.html#object.sleep) ігноруватиметься. Якщо об'єкт реалізує інтерфейс [Serializable](class.serializable.md), метод `serialize()` інтерфейсу ігноруватиметься, а замість нього буде використаний [serialize()](language.oop5.magic.html#object.serialize)
 
 Передбачуване використання [serialize()](language.oop5.magic.html#object.serialize) полягає у визначенні зручного для серіалізації довільного уявлення об'єкта. Елементи масиву можуть відповідати властивостям об'єкта, але не обов'язково.
 
-І навпаки, [unserialize()](function.unserialize.html) перевіряє наявність магічної функції [unserialize()](language.oop5.magic.html#object.unserialize). Якщо функція присутня, їй буде передано відновлений масив, який було повернено з [serialize()](language.oop5.magic.html#object.serialize). Потім він може відновити властивості об'єкта цього масиву відповідним чином.
+І навпаки, [unserialize()](function.unserialize.md) перевіряє наявність магічної функції [unserialize()](language.oop5.magic.html#object.unserialize). Якщо функція присутня, їй буде передано відновлений масив, який було повернено з [serialize()](language.oop5.magic.html#object.serialize). Потім він може відновити властивості об'єкта цього масиву відповідним чином.
 
 > **Зауваження**
 > 
@@ -167,9 +167,9 @@ public __toString(): string
 
 Починаючи з PHP 8.0.0, значення, що повертається слід стандартній семантиці типу PHP, що означає, що воно буде перетворене в рядок (string), якщо можливо, і якщо [strict typing](language.types.declarations.html#language.types.declarations.strict) вимкнено.
 
-Починаючи з PHP 8.0.0, будь-який клас, що містить метод [toString()](language.oop5.magic.html#object.tostring), також неявно реалізовуватиме інтерфейс [Stringable](class.stringable.html) і, таким чином, буде проходити перевірку типу для цього інтерфейсу. У будь-якому випадку рекомендується явно реалізувати інтерфейс.
+Починаючи з PHP 8.0.0, будь-який клас, що містить метод [toString()](language.oop5.magic.html#object.tostring), також неявно реалізовуватиме інтерфейс [Stringable](class.stringable.md) і, таким чином, буде проходити перевірку типу для цього інтерфейсу. У будь-якому випадку рекомендується явно реалізувати інтерфейс.
 
-У PHP 7.4 значення, що повертається *ПОВИННО* бути рядком (string), інакше видається [Error](class.error.html)
+У PHP 7.4 значення, що повертається *ПОВИННО* бути рядком (string), інакше видається [Error](class.error.md)
 
 До PHP 7.4.0 значення, що повертається *повинно* бути рядком (string), інакше видається фатальна помилка **`E_RECOVERABLE_ERROR`**. is emitted.
 
@@ -246,7 +246,7 @@ bool(true)
 static __set_state(array $properties): object
 ```
 
-Цей [статичний](language.oop5.static.html) метод викликається тим класів, які експортуються функцією [varexport()](function.var-export.html)
+Цей [статичний](language.oop5.static.md) метод викликається тим класів, які експортуються функцією [varexport()](function.var-export.html)
 
 Єдиним параметром цього методу є масив, що містить властивості, що експортуються у вигляді `['property' => value, ...]`
 
@@ -295,7 +295,7 @@ object(A)#2 (2) {
 }
 ```
 
-> **Зауваження**: Під час експорту об'єкту [varexport()](function.var-export.html) не перевіряє, чи реалізує клас об'єкта метод [setstate()](language.oop5.magic.html#object.set-state)тому повторний імпорт об'єктів призведе до виключення [Error](class.error.html), якщо метод setstate() не реалізовано. Зокрема, це стосується деяких внутрішніх класів. Необхідність перевірки, чи реалізує імпортований клас метод setstate(), повністю лежить на розробнику.
+> **Зауваження**: Під час експорту об'єкту [varexport()](function.var-export.html) не перевіряє, чи реалізує клас об'єкта метод [setstate()](language.oop5.magic.html#object.set-state)тому повторний імпорт об'єктів призведе до виключення [Error](class.error.md), якщо метод setstate() не реалізовано. Зокрема, це стосується деяких внутрішніх класів. Необхідність перевірки, чи реалізує імпортований клас метод setstate(), повністю лежить на розробнику.
 
 ### [debugInfo()](language.oop5.magic.html#object.debuginfo)
 

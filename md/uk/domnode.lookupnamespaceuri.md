@@ -1,12 +1,12 @@
 Отримує URI простору імен вузла за префіксом
 
--   [« DOMNode::isSupported](domnode.issupported.html)
+-   [« DOMNode::isSupported](domnode.issupported.md)
     
--   [DOMNode::lookupPrefix »](domnode.lookupprefix.html)
+-   [DOMNode::lookupPrefix »](domnode.lookupprefix.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMNode](class.domnode.html)
+-   [DOMNode](class.domnode.md)
     
 -   Отримує URI простору імен вузла за префіксом
     
@@ -37,4 +37,4 @@ URI простір імен вузла.
 
 ### Дивіться також
 
--   [DOMNode::lookupPrefix()](domnode.lookupprefix.html) - Повертає префікс простору імен вузла з URI простору імен
+-   [DOMNode::lookupPrefix()](domnode.lookupprefix.md) - Повертає префікс простору імен вузла з URI простору імен

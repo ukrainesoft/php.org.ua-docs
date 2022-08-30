@@ -4,7 +4,7 @@
     
 -   [YarClient »](class.yar-client.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YarServer](class.yar-server.html)
     

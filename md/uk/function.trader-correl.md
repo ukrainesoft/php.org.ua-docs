@@ -4,9 +4,9 @@
     
 -   [tradercos »](function.trader-cos.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Лінійний коефіцієнт кореляції r-пірсона
     

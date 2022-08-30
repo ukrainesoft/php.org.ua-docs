@@ -1,12 +1,12 @@
 Повертає розмір, пов'язаний із об'єктом Imagick
 
--   [« Imagick::getSamplingFactors](imagick.getsamplingfactors.html)
+-   [« Imagick::getSamplingFactors](imagick.getsamplingfactors.md)
     
--   [Imagick::getSizeOffset »](imagick.getsizeoffset.html)
+-   [Imagick::getSizeOffset »](imagick.getsizeoffset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає розмір, пов'язаний із об'єктом Imagick
     
@@ -23,11 +23,11 @@ Imagick::getSize — Повертає розмір, пов'язаний із о�
 public Imagick::getSize(): array
 ```
 
-Отримує розмір пікселів об'єкта Imagick, попередньо заданий за допомогою функції [Imagick::setSize()](imagick.setsize.html)
+Отримує розмір пікселів об'єкта Imagick, попередньо заданий за допомогою функції [Imagick::setSize()](imagick.setsize.md)
 
 > **Зауваження**
 > 
-> Цей метод лише повертає розмір, встановлений [Imagick::setSize()](imagick.setsize.html). Якщо потрібно отримати реальні розміри зображення, використовуйте функції [Imagick::getImageWidth()](imagick.getimagewidth.html) і [Imagick::getImageHeight()](imagick.getimageheight.html)
+> Цей метод лише повертає розмір, встановлений [Imagick::setSize()](imagick.setsize.md). Якщо потрібно отримати реальні розміри зображення, використовуйте функції [Imagick::getImageWidth()](imagick.getimagewidth.md) і [Imagick::getImageHeight()](imagick.getimageheight.md)
 
 ### Список параметрів
 

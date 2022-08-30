@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](varnish.setup.html)
+-   [« Встановлення та налаштування](varnish.setup.md)
     
--   [Установка »](varnish.installation.html)
+-   [Установка »](varnish.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](varnish.setup.html)
+-   [Встановлення та налаштування](varnish.setup.md)
     
 -   Вимоги
     

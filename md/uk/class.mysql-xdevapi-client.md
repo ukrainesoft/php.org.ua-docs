@@ -4,7 +4,7 @@
     
 -   [mysqlxdevapiClient::close »](mysql-xdevapi-client.close.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Mysqlxdevapi](book.mysql-xdevapi.html)
     

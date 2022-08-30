@@ -4,7 +4,7 @@
     
 -   [ДсVector::contains »](ds-vector.contains.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Вектор](class.ds-vector.html)
     
@@ -21,7 +21,7 @@
 
 public **ДсVector::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$values`
 
-Створює новий екземпляр, використовуючи або об'єкт реалізує [traversable](class.traversable.html), або масив, передані як параметр `values`
+Створює новий екземпляр, використовуючи або об'єкт реалізує [traversable](class.traversable.md), або масив, передані як параметр `values`
 
 ### Список параметрів
 

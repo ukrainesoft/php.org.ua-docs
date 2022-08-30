@@ -1,12 +1,12 @@
 Повертає індекс поточного активного зображення
 
--   [« Imagick::getImageHistogram](imagick.getimagehistogram.html)
+-   [« Imagick::getImageHistogram](imagick.getimagehistogram.md)
     
--   [Imagick::getImageInterlaceScheme »](imagick.getimageinterlacescheme.html)
+-   [Imagick::getImageInterlaceScheme »](imagick.getimageinterlacescheme.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає індекс поточного активного зображення
     
@@ -27,7 +27,7 @@ Imagick::getImageIndex — Повертає індекс активного по
 public Imagick::getImageIndex(): int
 ```
 
-Повертає індекс активного поточного зображення в об'єкті Imagick. Цей метод оголошено застарілим. Використовуйте [Imagick::getIteratorIndex()](imagick.getiteratorindex.html)
+Повертає індекс активного поточного зображення в об'єкті Imagick. Цей метод оголошено застарілим. Використовуйте [Imagick::getIteratorIndex()](imagick.getiteratorindex.md)
 
 ### Список параметрів
 

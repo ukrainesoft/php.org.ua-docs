@@ -1,12 +1,12 @@
 Псевдонім SolrParams::setParam
 
--   [« SolrParams::serialize](solrparams.serialize.html)
+-   [« SolrParams::serialize](solrparams.serialize.md)
     
--   [SolrParams::setParam »](solrparams.setparam.html)
+-   [SolrParams::setParam »](solrparams.setparam.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrParams](class.solrparams.html)
+-   [SolrParams](class.solrparams.md)
     
 -   Псевдонім SolrParams::setParam
     

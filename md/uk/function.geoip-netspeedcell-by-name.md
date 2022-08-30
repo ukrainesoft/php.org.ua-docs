@@ -4,9 +4,9 @@
     
 -   [geoiporgбname »](function.geoip-org-by-name.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции GeoIP](ref.geoip.html)
+-   [Функции GeoIP](ref.geoip.md)
     
 -   Отримати швидкість з'єднання з мережею Інтернет
     

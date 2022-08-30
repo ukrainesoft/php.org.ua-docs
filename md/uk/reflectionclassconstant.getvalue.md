@@ -1,12 +1,12 @@
 Отримує значення
 
--   [« ReflectionClassConstant::getName](reflectionclassconstant.getname.html)
+-   [« ReflectionClassConstant::getName](reflectionclassconstant.getname.md)
     
--   [ReflectionClassConstant::isEnumCase »](reflectionclassconstant.isenumcase.html)
+-   [ReflectionClassConstant::isEnumCase »](reflectionclassconstant.isenumcase.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClassConstant](class.reflectionclassconstant.html)
+-   [ReflectionClassConstant](class.reflectionclassconstant.md)
     
 -   Отримує значення
     

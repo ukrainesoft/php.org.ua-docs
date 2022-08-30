@@ -4,9 +4,9 @@
     
 -   [псopenfile »](function.ps-open-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Створює новий об'єкт документа PostScript
     

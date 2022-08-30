@@ -1,12 +1,12 @@
 Отримати PharFileInfo об'єкт для конкретного файлу
 
--   [« Phar::offsetExists](phar.offsetexists.html)
+-   [« Phar::offsetExists](phar.offsetexists.md)
     
--   [Phar::offsetSet »](phar.offsetset.html)
+-   [Phar::offsetSet »](phar.offsetset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Phar](class.phar.html)
+-   [Phar](class.phar.md)
     
 -   Отримати PharFileInfo об'єкт для конкретного файлу
     
@@ -15,7 +15,7 @@
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)
 
-Phar::offsetGet — Отримати об'єкт [PharFileInfo](class.pharfileinfo.html) для конкретного файлу
+Phar::offsetGet — Отримати об'єкт [PharFileInfo](class.pharfileinfo.md) для конкретного файлу
 
 ### Опис
 
@@ -23,7 +23,7 @@ Phar::offsetGet — Отримати об'єкт [PharFileInfo](class.pharfilein
 public Phar::offsetGet(string $localName): SplFileInfo
 ```
 
-Це реалізація інтерфейсу [ArrayAccess](class.arrayaccess.html), що дозволяє маніпулювати вмістом Phar-архіву в стилі доступу до елементів масиву . **Phar::offsetGet()** використовується для отримання файлів з архіву.
+Це реалізація інтерфейсу [ArrayAccess](class.arrayaccess.md), що дозволяє маніпулювати вмістом Phar-архіву в стилі доступу до елементів масиву . **Phar::offsetGet()** використовується для отримання файлів з архіву.
 
 ### Список параметрів
 
@@ -33,17 +33,17 @@ public Phar::offsetGet(string $localName): SplFileInfo
 
 ### Значення, що повертаються
 
-Об'єкт класу [PharFileInfo](class.pharfileinfo.html). Можна використовувати для отримання інформації про файл та для отримання контенту через ітерування.
+Об'єкт класу [PharFileInfo](class.pharfileinfo.md). Можна використовувати для отримання інформації про файл та для отримання контенту через ітерування.
 
 ### Помилки
 
-Викидає виняток [BadMethodCallException](class.badmethodcallexception.html)якщо такого файлу немає.
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.md)якщо такого файлу немає.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Phar::offsetGet()****
 
-Як і для будь-якого іншого класу, що реалізує [ArrayAccess](class.arrayaccess.html), метод **Phar::offsetGet()** буде викликано автоматично під час використання оператора `[]`
+Як і для будь-якого іншого класу, що реалізує [ArrayAccess](class.arrayaccess.md), метод **Phar::offsetGet()** буде викликано автоматично під час використання оператора `[]`
 
 ```php
 <?php
@@ -68,6 +68,6 @@ Entry doesnotexist.txt does not exist
 
 ### Дивіться також
 
--   [Phar::offsetExists()](phar.offsetexists.html) - Визначити, чи є файл у архіві
--   [Phar::offsetSet()](phar.offsetset.html) - Зміна вмісту файлу
--   [Phar::offsetUnset()](phar.offsetunset.html) - Видалити файл із phar-архіву
+-   [Phar::offsetExists()](phar.offsetexists.md) - Визначити, чи є файл у архіві
+-   [Phar::offsetSet()](phar.offsetset.md) - Зміна вмісту файлу
+-   [Phar::offsetUnset()](phar.offsetunset.md) - Видалити файл із phar-архіву

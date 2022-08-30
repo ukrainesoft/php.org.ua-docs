@@ -1,12 +1,12 @@
 Клонувати
 
--   [« ReflectionProperty](class.reflectionproperty.html)
+-   [« ReflectionProperty](class.reflectionproperty.md)
     
--   [ReflectionProperty::construct »](reflectionproperty.construct.html)
+-   [ReflectionProperty::construct »](reflectionproperty.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionProperty](class.reflectionproperty.html)
+-   [ReflectionProperty](class.reflectionproperty.md)
     
 -   Клонувати
     
@@ -37,11 +37,11 @@ private ReflectionProperty::__clone(): void
 
 ### список змін
 
-| Версия | Описание                       |
-|--------|--------------------------------|
-|        | Метод не є остаточним (final). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод не є остаточним (final). |
 
 ### Дивіться також
 
--   [ReflectionProperty::export()](reflectionproperty.export.html) - Експорт
--   [Копирование объектов](language.oop5.cloning.html)
+-   [ReflectionProperty::export()](reflectionproperty.export.md) - Експорт
+-   [Копіювання об'єктів](language.oop5.cloning.md)

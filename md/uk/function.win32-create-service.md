@@ -4,9 +4,9 @@
     
 -   [win32deleteservice »](function.win32-delete-service.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [win32service](ref.win32service.html)
+-   [win32service](ref.win32service.md)
     
 -   Створює новий запис служби у базі даних SCM
     
@@ -87,7 +87,7 @@ win32_create_service(array $details, string $machine = ?): void
 
 Щоб зменшити вплив на використання процесора, може знадобитися встановити базовий пріоритет нижче звичайного.
 
-`base_priority` може бути однією з констант визначених у [базовых классах приоритета Win32](win32service.constants.basepriorities.html)
+`base_priority` може бути однією з констант визначених у [базових класах пріоритету Win32](win32service.constants.basepriorities.md)
 
 `dependencies`
 
@@ -145,41 +145,41 @@ win32_create_service(array $details, string $machine = ?): void
 
 Функція не повертає значення після виконання.
 
-До версії 1.0.0, Повертає **`WIN32_NO_ERROR`** у разі успішного завершення **`false`** якщо була виявлена ​​проблема з параметрами або [код ошибки Win32](win32service.constants.errors.html) при невдалому завершенні роботи.
+До версії 1.0.0, Повертає **`WIN32_NO_ERROR`** у разі успішного завершення **`false`** якщо була виявлена ​​проблема з параметрами або [код ошибки Win32](win32service.constants.errors.md) при невдалому завершенні роботи.
 
 ### Помилки
 
-Викидається [ValueError](class.valueerror.html), якщо значення параметра `service` не задано.
+Викидається [ValueError](class.valueerror.md), якщо значення параметра `service` не задано.
 
-Викидається [ValueError](class.valueerror.html), якщо значення параметра `path` не задано.
+Викидається [ValueError](class.valueerror.md), якщо значення параметра `path` не задано.
 
-Викидається [ValueError](class.valueerror.html), якщо значення параметра `svc_type` вказано неправильно.
+Викидається [ValueError](class.valueerror.md), якщо значення параметра `svc_type` вказано неправильно.
 
-Викидається [ValueError](class.valueerror.html), якщо значення параметра `start_type` вказано неправильно.
+Викидається [ValueError](class.valueerror.md), якщо значення параметра `start_type` вказано неправильно.
 
-Викидається [ValueError](class.valueerror.html), якщо значення параметра `error_control` вказано неправильно.
+Викидається [ValueError](class.valueerror.md), якщо значення параметра `error_control` вказано неправильно.
 
-Викидається [ValueError](class.valueerror.html), якщо значення параметра `base_priority` вказано неправильно.
+Викидається [ValueError](class.valueerror.md), якщо значення параметра `base_priority` вказано неправильно.
 
-Викидається [ValueError](class.valueerror.html), якщо значення параметра `recovery_delay` не в проміжку між 0 та PHPINTMAX.
+Викидається [ValueError](class.valueerror.md), якщо значення параметра `recovery_delay` не в проміжку між 0 та PHPINTMAX.
 
-Викидається [ValueError](class.valueerror.html), якщо значення параметра `recovery_action_1` вказано неправильно.
+Викидається [ValueError](class.valueerror.md), якщо значення параметра `recovery_action_1` вказано неправильно.
 
-Викидається [ValueError](class.valueerror.html), якщо значення параметра `recovery_action_2` вказано неправильно.
+Викидається [ValueError](class.valueerror.md), якщо значення параметра `recovery_action_2` вказано неправильно.
 
-Викидається [ValueError](class.valueerror.html), якщо значення параметра `recovery_action_3` вказано неправильно.
+Викидається [ValueError](class.valueerror.md), якщо значення параметра `recovery_action_3` вказано неправильно.
 
-Викидається [ValueError](class.valueerror.html), якщо значення параметра `recovery_reset_period` не в проміжку між 0 та PHPINTMAX.
+Викидається [ValueError](class.valueerror.md), якщо значення параметра `recovery_reset_period` не в проміжку між 0 та PHPINTMAX.
 
-У разі виникнення помилки викидається [Win32ServiceException](class.win32serviceexception.html)
+У разі виникнення помилки викидається [Win32ServiceException](class.win32serviceexception.md)
 
 ### список змін
 
-| Версия                  | Описание                                                                                                                                                                                           |
-|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) у разі невірних даних у параметрах раніше поверталося **`false`**                                                                                      |
-| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.html) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.html)                              |
-| PECL win32service 1.0.0 | Тип повернення тепер void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed)                                                                                  |
+| Версия | Описание |
+| --- | --- |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) у разі невірних даних у параметрах раніше поверталося **`false`** |
+| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
+| PECL win32service 1.0.0 | Тип повернення тепер void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
 | PECL win32service 0.4.0 | Додані параметри `dependencies` `recovery_delay` `recovery_action_1` `recovery_action_2` `recovery_action_3` `recovery_reset_period` `recovery_enabled` `recovery_reboot_msg` і `recovery_command` |
 
 ### Приклади
@@ -244,6 +244,6 @@ debug_zval_dump($x);
 ### Дивіться також
 
 -   [win32deleteservice()](function.win32-delete-service.html) - Видалення запису служби з бази даних SCM
--   [Базовые классы приоритета Win32](win32service.constants.basepriorities.html)
+-   [Базові класи пріоритету Win32](win32service.constants.basepriorities.md)
 -   [Действия восстановления Win32](win32service.constants.recovery-action.html)
--   [Коды ошибок Win32](win32service.constants.errors.html)
+-   [Коди помилок Win32](win32service.constants.errors.md)

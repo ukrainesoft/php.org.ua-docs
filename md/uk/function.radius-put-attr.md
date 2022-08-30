@@ -4,9 +4,9 @@
     
 -   [radiusputint »](function.radius-put-int.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Radius](ref.radius.html)
+-   [Функции Radius](ref.radius.md)
     
 -   Приєднує бінарний атрибут
     
@@ -57,8 +57,8 @@ radius_put_attr(    resource $radius_handle,    int $type,    string
 
 ### список змін
 
-| Версия            | Описание                           |
-|-------------------|------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL radius 1.3.0 | Додані параметри `options` і `tag` |
 
 ### Приклади

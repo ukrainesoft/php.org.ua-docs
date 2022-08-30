@@ -1,12 +1,12 @@
 Область видимості змінної
 
--   [« Предопределённые переменные](language.variables.predefined.html)
+-   [«Зумовлені змінні](language.variables.predefined.md)
     
--   [Переменные переменных »](language.variables.variable.html)
+-   [Змінні змінні »](language.variables.variable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Переменные](language.variables.html)
+-   [Змінні](language.variables.md)
     
 -   Область видимості змінної
     
@@ -64,9 +64,9 @@ echo $b;
 
 Наведений вище скрипт виведе `3`. Після визначення $a і $b всередині функції як global всі посилання на будь-яку з цих змінних будуть вказувати на їхню глобальну версію. Немає жодних обмежень на кількість глобальних змінних, які можуть оброблятися функцією.
 
-Другий спосіб доступу до змінних глобальної області видимості - використання спеціального, що визначається PHP масиву [$GLOBALS](reserved.variables.globals.html). Попередній приклад може бути переписаний так:
+Другий спосіб доступу до змінних глобальної області видимості - використання спеціального, що визначається PHP масиву [$GLOBALS](reserved.variables.globals.md). Попередній приклад може бути переписаний так:
 
-**Приклад #2 Використання [$GLOBALS](reserved.variables.globals.html) замість global**
+**Приклад #2 Використання [$GLOBALS](reserved.variables.globals.md) замість global**
 
 ```php
 <?php
@@ -83,7 +83,7 @@ echo $b;
 ?>
 ```
 
-[$GLOBALS](reserved.variables.globals.html) - це асоціативний масив, ключем якого є ім'я, а значенням – вміст глобальної змінної. Зверніть увагу, що [$GLOBALS](reserved.variables.globals.html) існує в будь-якій області видимості, це пояснюється тим, що [$GLOBALS](reserved.variables.globals.html) є [суперглобальным](language.variables.superglobals.html). Нижче наведено приклад, що демонструє можливості суперглобальних змінних:
+[$GLOBALS](reserved.variables.globals.md) - це асоціативний масив, ключем якого є ім'я, а значенням – вміст глобальної змінної. Зверніть увагу, що [$GLOBALS](reserved.variables.globals.md) існує в будь-якій області видимості, це пояснюється тим, що [$GLOBALS](reserved.variables.globals.md) є [суперглобальним](language.variables.superglobals.md). Нижче наведено приклад, що демонструє можливості суперглобальних змінних:
 
 **Приклад #3 Суперглобальні змінні та область видимості**
 
@@ -198,7 +198,7 @@ var_dump(Bar::counter()); // int(4), до PHP 8.1.0 int(2)
 
 ### Посилання з глобальними (`global`) та статичними (`static`) змінними
 
-PHP використовує модифікатори змінних [static](language.variables.scope.html#language.variables.scope.static) і [global](language.variables.scope.html#language.variables.scope.global) як [ссылки](language.references.html). Наприклад, реальна глобальна змінна, впроваджена область видимості функції вказівкою ключового слова `global`, Насправді створює посилання на глобальну змінну. Це може призвести до несподіваної поведінки, як це показано в наступному прикладі:
+PHP використовує модифікатори змінних [static](language.variables.scope.html#language.variables.scope.static) і [global](language.variables.scope.html#language.variables.scope.global) як [посилання](language.references.md). Наприклад, реальна глобальна змінна, впроваджена область видимості функції вказівкою ключового слова `global`, Насправді створює посилання на глобальну змінну. Це може призвести до несподіваної поведінки, як це показано в наступному прикладі:
 
 ```php
 <?php

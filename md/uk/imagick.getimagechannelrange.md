@@ -1,12 +1,12 @@
 Повертає діапазон каналів
 
--   [« Imagick::getImageChannelMean](imagick.getimagechannelmean.html)
+-   [« Imagick::getImageChannelMean](imagick.getimagechannelmean.md)
     
--   [Imagick::getImageChannelStatistics »](imagick.getimagechannelstatistics.html)
+-   [Imagick::getImageChannelStatistics »](imagick.getimagechannelstatistics.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає діапазон каналів
     
@@ -29,7 +29,7 @@ public Imagick::getImageChannelRange(int $channel): array
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константы каналов](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
 
 ### Значення, що повертаються
 

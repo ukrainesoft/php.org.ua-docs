@@ -4,9 +4,9 @@
     
 -   [MongoDBBSONtoRelaxedExtendedJSON »](function.mongodb.bson-torelaxedextendedjson.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції](ref.bson.functions.html)
+-   [Функції](ref.bson.functions.md)
     
 -   Повертає PHP подання значення BSON
     
@@ -37,7 +37,7 @@ MongoDB\BSON\toPHP(string $bson, array $typeMap = array()): array|object
 
 `typeMap` (array)
 
-[Конфигурация карты типов](mongodb.persistence.deserialization.html#mongodb.persistence.typemaps)
+[Конфігурація карти типів](mongodb.persistence.deserialization.html#mongodb.persistence.typemaps)
 
 ### Значення, що повертаються
 
@@ -50,10 +50,10 @@ MongoDB\BSON\toPHP(string $bson, array $typeMap = array()): array|object
 
 ### список змін
 
-| Версия                                                                                                                                                                                     | Описание |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.4.0                                                                                                                                                                         |          |
-| Якщо вхідні дані містять непідтримуваний застарілий тип BSON, драйвер більше не буде записувати попередження в журнал налагодження, а натомість створить об'єкт, який представляє цей тип. |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.4.0 |  |
+| Якщо вхідні дані містять непідтримуваний застарілий тип BSON, драйвер більше не буде записувати попередження в журнал налагодження, а натомість створить об'єкт, який представляє цей тип. |  |
 
 | | PECL mongodb 1.3.2 |
 
@@ -90,4 +90,4 @@ object(stdClass)#1 (1) {
 
 -   [MongoDBBSONfromPHP()](function.mongodb.bson-fromphp.html) - Повертає представлення BSON значення PHP
 -   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
--   [Постійні дані](mongodb.persistence.html)
+-   [Постійні дані](mongodb.persistence.md)

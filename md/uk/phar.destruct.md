@@ -1,12 +1,12 @@
 Знищує об'єкт архіву Phar
 
--   [« Phar::delete](phar.delete.html)
+-   [« Phar::delete](phar.delete.md)
     
--   [Phar::extractTo »](phar.extractto.html)
+-   [Phar::extractTo »](phar.extractto.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Phar](class.phar.html)
+-   [Phar](class.phar.md)
     
 -   Знищує об'єкт архіву Phar
     

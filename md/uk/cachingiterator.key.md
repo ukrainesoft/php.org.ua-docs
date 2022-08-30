@@ -1,12 +1,12 @@
 Повертає ключ для поточного елемента
 
--   [« CachingIterator::hasNext](cachingiterator.hasnext.html)
+-   [« CachingIterator::hasNext](cachingiterator.hasnext.md)
     
--   [CachingIterator::next »](cachingiterator.next.html)
+-   [CachingIterator::next »](cachingiterator.next.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CachingIterator](class.cachingiterator.html)
+-   [CachingIterator](class.cachingiterator.md)
     
 -   Повертає ключ для поточного елемента
     

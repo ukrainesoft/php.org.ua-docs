@@ -1,6 +1,6 @@
 Створення Phar-архівів
 
--   [« Использование Phar-архивов: классы Phar и PharData](phar.using.object.html)
+-   [« Використання Phar-архівів: класи Phar та PharData](phar.using.object.html)
     
 -   [Создание Phar-архивов: Введение »](phar.creating.intro.html)
     

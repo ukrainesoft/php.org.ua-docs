@@ -6,7 +6,7 @@ Memcache
     
 -   [PHP Manual](index.html)
     
--   [Другие службы](refs.remote.other.html)
+-   [Інші служби](refs.remote.other.html)
     
 -   Memcache
     
@@ -14,13 +14,13 @@ Memcache
 # Memcache
 
 -   [Введение](intro.memcache.html)
--   [Установка и настройка](memcache.setup.html)
-    -   [Требования](memcache.requirements.html)
+-   [Встановлення та налаштування](memcache.setup.html)
+    -   [Вимоги](memcache.requirements.html)
     -   [Установка](memcache.installation.html)
-    -   [Настройка во время выполнения](memcache.ini.html)
-    -   [Типы ресурсов](memcache.resources.html)
--   [Предопределённые константы](memcache.constants.html)
--   [Примеры](memcache.examples.html)
+    -   [Налаштування під час виконання](memcache.ini.html)
+    -   [Типи ресурсів](memcache.resources.html)
+-   [Обумовлені константи](memcache.constants.html)
+-   [Приклади](memcache.examples.html)
     -   [Базовое использование](memcache.examples-overview.html)
 -   [Memcache](class.memcache.html) - Клас Memcache
     -   [Memcache::add](memcache.add.html) — Додати елемент із зазначеним ключем

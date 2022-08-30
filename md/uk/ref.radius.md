@@ -1,12 +1,12 @@
 Функції Radius
 
--   [« Примеры](radius.examples.html)
+-   [« Приклади](radius.examples.md)
     
 -   [radiusacctopen »](function.radius-acct-open.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Radius](book.radius.html)
+-   [Radius](book.radius.md)
     
 -   Функції Radius
     

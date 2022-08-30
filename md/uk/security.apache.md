@@ -2,11 +2,11 @@
 
 -   [Варіант 4: PHP поза деревом веб-документів](security.cgi-bin.shell.html)
     
--   [Безпека сесій »](security.sessions.html)
+-   [Безпека сесій »](security.sessions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Безпека](security.html)
+-   [Безпека](security.md)
     
 -   Якщо PHP встановлено як модуль Apache
     

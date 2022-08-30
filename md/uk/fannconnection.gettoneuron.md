@@ -1,12 +1,12 @@
 Повертає позицію кінцевого нейрона
 
--   [« FANNConnection::getFromNeuron](fannconnection.getfromneuron.html)
+-   [« FANNConnection::getFromNeuron](fannconnection.getfromneuron.md)
     
--   [FANNConnection::getWeight »](fannconnection.getweight.html)
+-   [FANNConnection::getWeight »](fannconnection.getweight.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FANNConnection](class.fannconnection.html)
+-   [FANNConnection](class.fannconnection.md)
     
 -   Повертає позицію кінцевого нейрона
     

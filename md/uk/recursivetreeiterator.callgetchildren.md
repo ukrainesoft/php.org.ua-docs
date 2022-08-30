@@ -1,12 +1,12 @@
 Отримання дочірніх елементів
 
--   [« RecursiveTreeIterator::beginIteration](recursivetreeiterator.beginiteration.html)
+-   [« RecursiveTreeIterator::beginIteration](recursivetreeiterator.beginiteration.md)
     
--   [RecursiveTreeIterator::callHasChildren »](recursivetreeiterator.callhaschildren.html)
+-   [RecursiveTreeIterator::callHasChildren »](recursivetreeiterator.callhaschildren.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+-   [RecursiveTreeIterator](class.recursivetreeiterator.md)
     
 -   Отримання дочірніх елементів
     
@@ -35,4 +35,4 @@ public RecursiveTreeIterator::callGetChildren(): RecursiveIterator
 
 ### Значення, що повертаються
 
-Об'єкт [RecursiveIterator](class.recursiveiterator.html)
+Об'єкт [RecursiveIterator](class.recursiveiterator.md)

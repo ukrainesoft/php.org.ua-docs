@@ -4,9 +4,9 @@
     
 -   [getmagicquotesgpc »](function.get-magic-quotes-gpc.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Повертає масив імен усіх скомпілованих та завантажених модулів
     
@@ -69,5 +69,5 @@ Array
 
 -   [getextensionfuncs()](function.get-extension-funcs.html) - Повертає масив імен функцій модуля
 -   [extensionloaded()](function.extension-loaded.html) - Визначає, чи завантажений модуль
--   [dl()](function.dl.html) - Завантажує модуль PHP під час виконання
--   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP
+-   [dl()](function.dl.md) - Завантажує модуль PHP під час виконання
+-   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP

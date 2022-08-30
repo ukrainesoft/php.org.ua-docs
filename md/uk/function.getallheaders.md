@@ -2,11 +2,11 @@
 
 -   [« apachesetenv](function.apache-setenv.html)
     
--   [virtual »](function.virtual.html)
+-   [virtual »](function.virtual.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Apache](ref.apache.html)
+-   [Функции Apache](ref.apache.md)
     
 -   Повертає всі заголовки HTTP-запиту
     
@@ -37,9 +37,9 @@ getallheaders(): array
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | Ця функція стала доступною у SAPI FPM. |
+| Версия | Описание |
+| --- | --- |
+|  | Ця функція стала доступною у SAPI FPM. |
 
 ### Приклади
 

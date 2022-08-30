@@ -4,9 +4,9 @@
     
 -   [cubridsetadd »](function.cubrid-set-add.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Оновлює значення елемента стовпця типу послідовності за допомогою OID
     

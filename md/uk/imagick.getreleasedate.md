@@ -1,12 +1,12 @@
 Повертає дату релізу ImageMagick
 
--   [« Imagick::getRegistry](imagick.getregistry.html)
+-   [« Imagick::getRegistry](imagick.getregistry.md)
     
--   [Imagick::getResource »](imagick.getresource.html)
+-   [Imagick::getResource »](imagick.getresource.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає дату релізу ImageMagick
     

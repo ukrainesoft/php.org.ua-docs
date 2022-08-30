@@ -2,11 +2,11 @@
 
 -   [« Введение](intro.exec.html)
     
--   [Требования »](exec.requirements.html)
+-   [Вимоги »](exec.requirements.html)
     
 -   [PHP Manual](index.html)
     
--   [Запуск программы](book.exec.html)
+-   [Запуск програми](book.exec.html)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](exec.requirements.html)
+-   [Вимоги](exec.requirements.html)
 -   [Установка](exec.installation.html)
--   [Настройка во время выполнения](exec.configuration.html)
--   [Типы ресурсов](exec.resources.html)
+-   [Налаштування під час виконання](exec.configuration.html)
+-   [Типи ресурсів](exec.resources.html)

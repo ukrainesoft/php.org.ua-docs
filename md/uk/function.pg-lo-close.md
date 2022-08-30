@@ -4,9 +4,9 @@
     
 -   [пглоcreate »](function.pg-lo-create.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PostgreSQL](ref.pgsql.html)
+-   [Функции PostgreSQL](ref.pgsql.md)
     
 -   Закриває великий об'єкт
     
@@ -43,9 +43,9 @@ pg_lo_close(PgSql\Lob $lob): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

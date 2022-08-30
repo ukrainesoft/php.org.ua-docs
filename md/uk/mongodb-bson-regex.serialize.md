@@ -39,4 +39,4 @@ final public MongoDB\BSON\Regex::serialize(): string
 
 -   [MongoDBBSONRegex::unserialize()](mongodb-bson-regex.unserialize.html) - десеріалізує Regex
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання уявлення змінної
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [Серіалізація об'єктів](language.oop5.serialization.html)

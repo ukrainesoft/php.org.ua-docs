@@ -1,12 +1,12 @@
 Локаль для використання у перевірках
 
--   [« Spoofchecker::isSuspicious](spoofchecker.issuspicious.html)
+-   [« Spoofchecker::isSuspicious](spoofchecker.issuspicious.md)
     
--   [Spoofchecker::setChecks »](spoofchecker.setchecks.html)
+-   [Spoofchecker::setChecks »](spoofchecker.setchecks.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Spoofchecker](class.spoofchecker.html)
+-   [Spoofchecker](class.spoofchecker.md)
     
 -   Локаль для використання у перевірках
     

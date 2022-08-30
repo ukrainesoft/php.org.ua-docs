@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](sqlsrv.requirements.html)
+-   [« Вимоги](sqlsrv.requirements.md)
     
--   [Настройка во время выполнения »](sqlsrv.configuration.html)
+-   [Налаштування під час виконання »](sqlsrv.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](sqlsrv.setup.html)
+-   [Встановлення та налаштування](sqlsrv.setup.md)
     
 -   Встановлення
     

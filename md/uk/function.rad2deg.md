@@ -1,12 +1,12 @@
 Перетворює значення з радіанів на градуси
 
--   [« pow](function.pow.html)
+-   [« pow](function.pow.md)
     
--   [rand »](function.rand.html)
+-   [rand »](function.rand.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Перетворює значення з радіанів на градуси
     
@@ -49,4 +49,4 @@ echo rad2deg(M_PI_4); // 45
 
 ### Дивіться також
 
--   [deg2rad()](function.deg2rad.html) - Перетворює значення із градусів на радіани
+-   [deg2rad()](function.deg2rad.md) - Перетворює значення із градусів на радіани

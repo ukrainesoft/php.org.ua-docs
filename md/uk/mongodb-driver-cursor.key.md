@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverCursor::next »](mongodb-driver-cursor.next.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
     
@@ -33,4 +33,4 @@ public MongoDB\Driver\Cursor::key(): int
 
 ### Дивіться також
 
--   [Iterator::key()](iterator.key.html) - Повертає ключ поточного елемента
+-   [Iterator::key()](iterator.key.md) - Повертає ключ поточного елемента

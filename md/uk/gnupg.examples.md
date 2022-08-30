@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](gnupg.constants.html)
+-   [« Обумовлені константи](gnupg.constants.md)
     
--   [Прозрачное подписывание текста »](gnupg.examples-clearsign.html)
+-   [Прозоре підписування тексту »](gnupg.examples-clearsign.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GnuPG](book.gnupg.html)
+-   [GnuPG](book.gnupg.md)
     
 -   Приклади
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [Прозрачное подписывание текста](gnupg.examples-clearsign.html)
+-   [Прозоре підписування тексту](gnupg.examples-clearsign.html)

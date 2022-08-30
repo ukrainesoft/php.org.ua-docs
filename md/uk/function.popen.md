@@ -1,12 +1,12 @@
 Відкриває файловий покажчик процесу
 
--   [« pclose](function.pclose.html)
+-   [« pclose](function.pclose.md)
     
--   [readfile »](function.readfile.html)
+-   [readfile »](function.readfile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Відкриває файловий покажчик процесу
     
@@ -39,7 +39,7 @@ popen(string $command, string $mode): resource|false
 
 ### Значення, що повертаються
 
-Повертає файловий покажчик, ідентичний функцією, що повертається. [fopen()](function.fopen.html), за винятком того, що він односторонній (може бути використаний тільки для читання або запису) і повинен бути закритий за допомогою [pclose()](function.pclose.html). Цей покажчик може бути використаний з [fgets()](function.fgets.html) [fgetss()](function.fgetss.html) і [fwrite()](function.fwrite.html). Якщо в якості режиму вказано 'r', файловий покажчик аналогічний потоку виведення (STDOUT) команди, а якщо вказано 'w', то файловий покажчик аналогічний потоку введення (STDIN) команди.
+Повертає файловий покажчик, ідентичний функцією, що повертається. [fopen()](function.fopen.md), за винятком того, що він односторонній (може бути використаний тільки для читання або запису) і повинен бути закритий за допомогою [pclose()](function.pclose.md). Цей покажчик може бути використаний з [fgets()](function.fgets.md) [fgetss()](function.fgetss.md) і [fwrite()](function.fwrite.md). Якщо в якості режиму вказано 'r', файловий покажчик аналогічний потоку виведення (STDOUT) команди, а якщо вказано 'w', то файловий покажчик аналогічний потоку введення (STDIN) команди.
 
 У разі виникнення помилки повертає **`false`**
 
@@ -78,6 +78,6 @@ pclose($handle);
 
 ### Дивіться також
 
--   [pclose()](function.pclose.html) - Закриває файловий покажчик процесу
--   [fopen()](function.fopen.html) - Відкриває файл або URL
+-   [pclose()](function.pclose.md) - Закриває файловий покажчик процесу
+-   [fopen()](function.fopen.md) - Відкриває файл або URL
 -   [procopen()](function.proc-open.html) - Виконати команду та відкрити покажчик на файл для введення/виводу

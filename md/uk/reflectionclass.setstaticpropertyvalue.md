@@ -1,12 +1,12 @@
 Встановлює значення статичної властивості
 
--   [« ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.html)
+-   [« ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.md)
     
--   [ReflectionClass::toString »](reflectionclass.tostring.html)
+-   [ReflectionClass::toString »](reflectionclass.tostring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Встановлює значення статичної властивості
     
@@ -41,4 +41,4 @@ public ReflectionClass::setStaticPropertyValue(string $name, mixed $value): void
 
 ### Дивіться також
 
--   [ReflectionClass::getStaticPropertyValue()](reflectionclass.getstaticpropertyvalue.html) - Повертає значення статичної властивості
+-   [ReflectionClass::getStaticPropertyValue()](reflectionclass.getstaticpropertyvalue.md) - Повертає значення статичної властивості

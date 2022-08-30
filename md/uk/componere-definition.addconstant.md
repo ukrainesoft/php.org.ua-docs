@@ -4,7 +4,7 @@
     
 -   [ComponereDefinition::addProperty »](componere-definition.addproperty.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponereDefinition](class.componere-definition.html)
     
@@ -43,16 +43,16 @@ public Componere\Definition::addConstant(string $name, Componere\Value $value): 
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), якщо Definition вже було зареєстровано
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо Definition вже було зареєстровано
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), якщо `name` вже оголошено як константа
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо `name` вже оголошено як константа
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), якщо `value` є статичним
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо `value` є статичним
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), якщо `value` є невизначеним
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо `value` є невизначеним

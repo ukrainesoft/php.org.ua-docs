@@ -1,12 +1,12 @@
 Конструктор об'єкта SolrClient
 
--   [« SolrClient::commit](solrclient.commit.html)
+-   [« SolrClient::commit](solrclient.commit.md)
     
--   [SolrClient::deleteById »](solrclient.deletebyid.html)
+-   [SolrClient::deleteById »](solrclient.deletebyid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrClient](class.solrclient.html)
+-   [SolrClient](class.solrclient.md)
     
 -   Конструктор об'єкта SolrClient
     
@@ -54,7 +54,7 @@ secure (Логічне значення, яке вказує, чи слід пі
 
 ### Помилки
 
-Викидає [SolrIllegalArgumentException](class.solrillegalargumentexception.html) у разі виникнення помилки.
+Викидає [SolrIllegalArgumentException](class.solrillegalargumentexception.md) у разі виникнення помилки.
 
 ### Приклади
 
@@ -90,4 +90,4 @@ $updateResponse = $client->addDocument($doc);
 
 ### Дивіться також
 
--   [SolrClient::getOptions()](solrclient.getoptions.html) - Повертає внутрішні параметри клієнта
+-   [SolrClient::getOptions()](solrclient.getoptions.md) - Повертає внутрішні параметри клієнта

@@ -4,9 +4,9 @@
     
 -   [sodiumcryptoboxpublickeyfromsecretkey »](function.sodium-crypto-box-publickey-from-secretkey.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Розшифровка відкритого ключа з автентифікацією
     

@@ -1,12 +1,12 @@
 Отримує прапори поведінки
 
--   [« ArrayObject::getArrayCopy](arrayobject.getarraycopy.html)
+-   [« ArrayObject::getArrayCopy](arrayobject.getarraycopy.md)
     
--   [ArrayObject::getIterator »](arrayobject.getiterator.html)
+-   [ArrayObject::getIterator »](arrayobject.getiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayObject](class.arrayobject.html)
+-   [ArrayObject](class.arrayobject.md)
     
 -   Отримує прапори поведінки
     
@@ -23,7 +23,7 @@ ArrayObject::getFlags — Отримує прапори поведінки
 public ArrayObject::getFlags(): int
 ```
 
-Отримує прапори поведінки [ArrayObject](class.arrayobject.html). Дивіться метод [ArrayObject::setFlags](arrayobject.setflags.html) Щоб переглянути список можливих прапорів.
+Отримує прапори поведінки [ArrayObject](class.arrayobject.md). Дивіться метод [ArrayObject::setFlags](arrayobject.setflags.md) Щоб переглянути список можливих прапорів.
 
 ### Список параметрів
 
@@ -39,7 +39,7 @@ public ArrayObject::getFlags(): int
 
 ```php
 <?php
-// Массив с количеством фруктов
+// Масив с количеством фруктов
 $fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
 
 $fruitsArrayObject = new ArrayObject($fruits);
@@ -66,4 +66,4 @@ int(2)
 
 ### Дивіться також
 
--   Метод [ArrayObject::setFlags()](arrayobject.setflags.html) - Встановлює прапори поведінки
+-   Метод [ArrayObject::setFlags()](arrayobject.setflags.md) - Встановлює прапори поведінки

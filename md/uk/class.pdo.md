@@ -1,12 +1,12 @@
 Клас PDO
 
--   [« Великі об'єкти (LOB)](pdo.lobs.html)
+-   [« Великі об'єкти (LOB)](pdo.lobs.md)
     
--   [PDO::beginTransaction »](pdo.begintransaction.html)
+-   [PDO::beginTransaction »](pdo.begintransaction.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDO](book.pdo.html)
+-   [PDO](book.pdo.md)
     
 -   Клас PDO
     
@@ -59,18 +59,18 @@ public setAttribute(int $attribute, mixed $value): bool
 
 ## Зміст
 
--   [PDO::beginTransaction](pdo.begintransaction.html) - Ініціалізація транзакції
--   [PDO::commit](pdo.commit.html) - Фіксує транзакцію
--   [PDO::construct](pdo.construct.html) — Створює екземпляр PDO, що надає з'єднання з базою даних
--   [PDO::errorCode](pdo.errorcode.html) — Повертає код SQLSTATE результату останньої операції з базою даних
--   [PDO::errorInfo](pdo.errorinfo.html) — Отримує розширену інформацію про помилку, що сталася під час останнього звернення до бази даних
--   [PDO::exec](pdo.exec.html) — Виконує SQL-запит та повертає кількість порушених рядків
--   [PDO::getAttribute](pdo.getattribute.html) — Отримати атрибут з'єднання з базою даних
--   [PDO::getAvailableDrivers](pdo.getavailabledrivers.html) - Повертає масив доступних драйверів PDO
--   [PDO::inTransaction](pdo.intransaction.html) — Перевіряє, чи розпочато транзакцію
--   [PDO::lastInsertId](pdo.lastinsertid.html) — Повертає ID останнього вставленого рядка або значення послідовності
--   [PDO::prepare](pdo.prepare.html) — готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
--   [PDO::query](pdo.query.html) — Підготовляє та виконує вираз SQL без наповнювачів
--   [PDO::quote](pdo.quote.html) — Укладає рядок у лапки для використання у запиті
--   [PDO::rollBack](pdo.rollback.html) - Відкат транзакції
--   [PDO::setAttribute](pdo.setattribute.html) - Встановлення атрибуту
+-   [PDO::beginTransaction](pdo.begintransaction.md) - Ініціалізація транзакції
+-   [PDO::commit](pdo.commit.md) - Фіксує транзакцію
+-   [PDO::construct](pdo.construct.md) — Створює екземпляр PDO, що надає з'єднання з базою даних
+-   [PDO::errorCode](pdo.errorcode.md) — Повертає код SQLSTATE результату останньої операції з базою даних
+-   [PDO::errorInfo](pdo.errorinfo.md) — Отримує розширену інформацію про помилку, що сталася під час останнього звернення до бази даних
+-   [PDO::exec](pdo.exec.md) — Виконує SQL-запит та повертає кількість порушених рядків
+-   [PDO::getAttribute](pdo.getattribute.md) — Отримати атрибут з'єднання з базою даних
+-   [PDO::getAvailableDrivers](pdo.getavailabledrivers.md) - Повертає масив доступних драйверів PDO
+-   [PDO::inTransaction](pdo.intransaction.md) — Перевіряє, чи розпочато транзакцію
+-   [PDO::lastInsertId](pdo.lastinsertid.md) — Повертає ID останнього вставленого рядка або значення послідовності
+-   [PDO::prepare](pdo.prepare.md) — готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
+-   [PDO::query](pdo.query.md) — Підготовляє та виконує вираз SQL без наповнювачів
+-   [PDO::quote](pdo.quote.md) — Укладає рядок у лапки для використання у запиті
+-   [PDO::rollBack](pdo.rollback.md) - Відкат транзакції
+-   [PDO::setAttribute](pdo.setattribute.md) - Встановлення атрибуту

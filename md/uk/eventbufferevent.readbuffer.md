@@ -1,12 +1,12 @@
 Зливає весь вміст буфера введення та поміщає його у буфер
 
--   [« EventBufferEvent::read](eventbufferevent.read.html)
+-   [« EventBufferEvent::read](eventbufferevent.read.md)
     
--   [EventBufferEvent::setCallbacks »](eventbufferevent.setcallbacks.html)
+-   [EventBufferEvent::setCallbacks »](eventbufferevent.setcallbacks.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Зливає весь вміст буфера введення та поміщає його у буфер
     
@@ -41,4 +41,4 @@ public
 
 ### Дивіться також
 
--   [EventBufferEvent::read()](eventbufferevent.read.html) - Читає дані буфера
+-   [EventBufferEvent::read()](eventbufferevent.read.md) - Читає дані буфера

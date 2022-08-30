@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](xmlwriter.setup.html)
+-   [« Встановлення та налаштування](xmlwriter.setup.html)
     
 -   [Установка »](xmlwriter.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](xmlwriter.setup.html)
+-   [Встановлення та налаштування](xmlwriter.setup.html)
     
 -   Вимоги
     

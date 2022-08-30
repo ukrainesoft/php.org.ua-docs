@@ -4,9 +4,9 @@
     
 -   [apachelookupuri »](function.apache-lookup-uri.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Apache](ref.apache.html)
+-   [Функции Apache](ref.apache.md)
     
 -   Повертає змінну оточення підпроцесу сервера Apache
     
@@ -61,5 +61,5 @@ echo $ret;
 ### Дивіться також
 
 -   [apachesetenv()](function.apache-setenv.html) - Встановлює змінну subprocessenv Apache
--   [getenv()](function.getenv.html) - набуття значення змінної оточення
--   "[Суперглобальные переменные](language.variables.superglobals.html)"
+-   [getenv()](function.getenv.md) - набуття значення змінної оточення
+-   "[Суперглобальні змінні](language.variables.superglobals.md)"

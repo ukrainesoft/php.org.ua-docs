@@ -4,9 +4,9 @@
     
 -   [xmlrpcservercreate »](function.xmlrpc-server-create.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції XML-RPC](ref.xmlrpc.html)
+-   [Функції XML-RPC](ref.xmlrpc.md)
     
 -   Розбирає XML-запити та методи, що викликають.
     

@@ -1,12 +1,12 @@
 Клас DOMNotation
 
--   [« DOMNodeList::item](domnodelist.item.html)
+-   [« DOMNodeList::item](domnodelist.item.md)
     
--   [DOMParentNode »](class.domparentnode.html)
+-   [DOMParentNode »](class.domparentnode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOM](book.dom.html)
+-   [DOM](book.dom.md)
     
 -   Клас DOMNotation
     

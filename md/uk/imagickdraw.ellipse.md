@@ -1,12 +1,12 @@
 Малює на зображенні еліпс
 
--   [« ImagickDraw::destroy](imagickdraw.destroy.html)
+-   [« ImagickDraw::destroy](imagickdraw.destroy.md)
     
--   [ImagickDraw::getClipPath »](imagickdraw.getclippath.html)
+-   [ImagickDraw::getClipPath »](imagickdraw.getclippath.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Малює на зображенні еліпс
     

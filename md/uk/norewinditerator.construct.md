@@ -1,12 +1,12 @@
 Створює новий об'єкт NoRewindIterator
 
--   [« NoRewindIterator](class.norewinditerator.html)
+-   [« NoRewindIterator](class.norewinditerator.md)
     
--   [NoRewindIterator::current »](norewinditerator.current.html)
+-   [NoRewindIterator::current »](norewinditerator.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [NoRewindIterator](class.norewinditerator.html)
+-   [NoRewindIterator](class.norewinditerator.md)
     
 -   Створює новий об'єкт NoRewindIterator
     
@@ -19,7 +19,7 @@ NoRewindIterator::construct — Створює новий об'єкт NoRewindIt
 
 ### Опис
 
-public **NoRewindIterator::construct**[Iterator](class.iterator.html) `$iterator`
+public **NoRewindIterator::construct**[Iterator](class.iterator.md) `$iterator`
 
 Створює новий об'єкт NoRewindIterator.
 
@@ -66,4 +66,4 @@ foreach( $it as $item ) {
 
 ### Дивіться також
 
--   [NoRewindIterator::valid()](norewinditerator.valid.html) - перевіряє ітератор
+-   [NoRewindIterator::valid()](norewinditerator.valid.md) - перевіряє ітератор

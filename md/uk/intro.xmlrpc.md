@@ -2,7 +2,7 @@
 
 -   [« XML-RPC](book.xmlrpc.html)
     
--   [Установка и настройка »](xmlrpc.setup.html)
+-   [Встановлення та налаштування »](xmlrpc.setup.html)
     
 -   [PHP Manual](index.html)
     

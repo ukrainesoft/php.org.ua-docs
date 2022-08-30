@@ -31,7 +31,7 @@ public FilesystemIterator::current(): string|SplFileInfo|FilesystemIterator
 
 ### Значення, що повертаються
 
-Ім'я файлу, інформація про файл, або $this, залежно від встановлених прапорів. Дивіться [Константы FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)
+Ім'я файлу, інформація про файл, або $this, залежно від встановлених прапорів. Дивіться [Константи FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)
 
 ### Приклади
 
@@ -58,6 +58,6 @@ foreach ($iterator as $fileinfo) {
 
 ### Дивіться також
 
--   [Константы FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)
+-   [Константи FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)
 -   [DirectoryIterator::current()](directoryiterator.current.html) - Повертає поточний елемент DirectoryIterator
 -   [DirectoryIterator::getFileName()](directoryiterator.getfilename.html) - Повертає ім'я файлу поточного елемента DirectoryIterator

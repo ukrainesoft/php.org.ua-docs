@@ -4,9 +4,9 @@
     
 -   [statsstatfactorial »](function.stats-stat-factorial.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Повертає коефіцієнт кореляції Пірсона двох наборів даних
     

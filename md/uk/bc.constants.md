@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](bc.resources.html)
+-   [« Типи ресурсів](bc.resources.html)
     
 -   [Функции BC Math »](ref.bc.html)
     

@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](ps.configuration.html)
+-   [« Налаштування під час виконання](ps.configuration.html)
     
--   [Предопределённые константы »](ps.constants.html)
+-   [Обумовлені константи »](ps.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](ps.setup.html)
+-   [Встановлення та налаштування](ps.setup.html)
     
 -   Типи ресурсів
     

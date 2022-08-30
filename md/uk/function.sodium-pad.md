@@ -4,9 +4,9 @@
     
 -   [sodiumunpad »](function.sodium-unpad.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Доповнює рядок відступами
     

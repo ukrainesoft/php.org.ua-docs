@@ -1,12 +1,12 @@
 Збільшує рахунок семафору
 
--   [« SyncSemaphore::lock](syncsemaphore.lock.html)
+-   [« SyncSemaphore::lock](syncsemaphore.lock.md)
     
--   [SyncEvent »](class.syncevent.html)
+-   [SyncEvent »](class.syncevent.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SyncSemaphore](class.syncsemaphore.html)
+-   [SyncSemaphore](class.syncsemaphore.md)
     
 -   Збільшує рахунок семафору
     
@@ -23,7 +23,7 @@ Sync Semaphore::unlock — Збільшує рахунок семафору
 public SyncSemaphore::unlock(int &$prevcount = ?): bool
 ```
 
-Збільшує рахунок об'єкту [SyncSemaphore](class.syncsemaphore.html)
+Збільшує рахунок об'єкту [SyncSemaphore](class.syncsemaphore.md)
 
 ### Список параметрів
 
@@ -58,4 +58,4 @@ $semaphore->unlock();
 
 ### Дивіться також
 
--   [SyncSemaphore::lock()](syncsemaphore.lock.html) - Зменшує рахунок семафора або чекає
+-   [SyncSemaphore::lock()](syncsemaphore.lock.md) - Зменшує рахунок семафора або чекає

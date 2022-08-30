@@ -1,12 +1,12 @@
 Повертає класи
 
--   [« ReflectionExtension::export](reflectionextension.export.html)
+-   [« ReflectionExtension::export](reflectionextension.export.md)
     
--   [ReflectionExtension::getClassNames »](reflectionextension.getclassnames.html)
+-   [ReflectionExtension::getClassNames »](reflectionextension.getclassnames.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionExtension](class.reflectionextension.html)
+-   [ReflectionExtension](class.reflectionextension.md)
     
 -   Повертає класи
     
@@ -31,7 +31,7 @@ public ReflectionExtension::getClasses(): array
 
 ### Значення, що повертаються
 
-Масив об'єктів класу [ReflectionClass](class.reflectionclass.html)по одному на кожен клас модуля. Якщо не визначено жодного класу, повертається порожній масив.
+Масив об'єктів класу [ReflectionClass](class.reflectionclass.md)по одному на кожен клас модуля. Якщо не визначено жодного класу, повертається порожній масив.
 
 ### Приклади
 
@@ -58,4 +58,4 @@ array(1) {
 
 ### Дивіться також
 
--   [ReflectionExtension::getClassNames()](reflectionextension.getclassnames.html) - Отримання імен класів
+-   [ReflectionExtension::getClassNames()](reflectionextension.getclassnames.md) - Отримання імен класів

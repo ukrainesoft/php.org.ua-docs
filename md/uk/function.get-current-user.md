@@ -4,9 +4,9 @@
     
 -   [getdefinedconstants »](function.get-defined-constants.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Отримує ім'я власника поточного скрипту PHP
     
@@ -51,8 +51,8 @@ echo 'Текущий владелец скрипта: ' . get_current_user
 
 ### Дивіться також
 
--   [getmyuid()](function.getmyuid.html) - Отримання UID власника скрипта PHP
--   [getmygid()](function.getmygid.html) - Отримати GID власника скрипта PHP
--   [getmypid()](function.getmypid.html) - Отримання ID процесу PHP
--   [getmyinode()](function.getmyinode.html) - Отримує значення inode поточного скрипту
--   [getlastmod()](function.getlastmod.html) - Отримує час останньої модифікації сторінки
+-   [getmyuid()](function.getmyuid.md) - Отримання UID власника скрипта PHP
+-   [getmygid()](function.getmygid.md) - Отримати GID власника скрипта PHP
+-   [getmypid()](function.getmypid.md) - Отримання ID процесу PHP
+-   [getmyinode()](function.getmyinode.md) - Отримує значення inode поточного скрипту
+-   [getlastmod()](function.getlastmod.md) - Отримує час останньої модифікації сторінки

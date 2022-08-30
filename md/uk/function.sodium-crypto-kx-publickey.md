@@ -4,9 +4,9 @@
     
 -   [sodiumcryptoкксsecretkey »](function.sodium-crypto-kx-secretkey.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Витягує відкритий ключ із пари ключів cryptoккс
     

@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](rrd.configuration.html)
+-   [« Налаштування під час виконання](rrd.configuration.md)
     
--   [Предопределённые константы »](rrd.constants.html)
+-   [Обумовлені константи »](rrd.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](rrd.setup.html)
+-   [Встановлення та налаштування](rrd.setup.md)
     
 -   Типи ресурсів
     

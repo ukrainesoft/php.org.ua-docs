@@ -1,12 +1,12 @@
 Визначає, чи працює файбер
 
--   [« Fiber::isSuspended](fiber.issuspended.html)
+-   [« Fiber::isSuspended](fiber.issuspended.md)
     
--   [Fiber::isTerminated »](fiber.isterminated.html)
+-   [Fiber::isTerminated »](fiber.isterminated.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Fiber](class.fiber.html)
+-   [Fiber](class.fiber.md)
     
 -   Визначає, чи працює файбер
     
@@ -29,4 +29,4 @@ public Fiber::isRunning(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** тільки якщо файбер працює. Файбер вважається працюючим після виклику [Fiber::start()](fiber.start.html) [Fiber::resume()](fiber.resume.html) або [Fiber::throw()](fiber.throw.html), який ще не повернуто. Повертає \*\*`false`\*\*якщо файбер не працює.
+Повертає **`true`** тільки якщо файбер працює. Файбер вважається працюючим після виклику [Fiber::start()](fiber.start.md) [Fiber::resume()](fiber.resume.md) або [Fiber::throw()](fiber.throw.md), який ще не повернуто. Повертає \*\*`false`\*\*якщо файбер не працює.

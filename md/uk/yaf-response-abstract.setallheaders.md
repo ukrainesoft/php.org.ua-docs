@@ -4,7 +4,7 @@
     
 -   [YafResponseAbstract::setBody »](yaf-response-abstract.setbody.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafResponseAbstract](class.yaf-response-abstract.html)
     

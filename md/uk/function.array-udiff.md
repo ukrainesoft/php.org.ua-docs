@@ -4,9 +4,9 @@
     
 -   [arrayuintersectassoc »](function.array-uintersect-assoc.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Обчислює розбіжність масивів, використовуючи для порівняння callback-функцію
     
@@ -55,7 +55,7 @@ callback(mixed $a, mixed $b): int
 
 ```php
 <?php
-// массивы для сравнения
+// Масиви для сравнения
 $array1 = array(new stdclass, new stdclass,
                 new stdclass, new stdclass,
                );

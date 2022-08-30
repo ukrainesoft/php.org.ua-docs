@@ -73,7 +73,7 @@ $output = array_slice($input, 2);      // возвращает "c", 
 $output = array_slice($input, -2, 1);  // возвращает "d"
 $output = array_slice($input, 0, 3);   // возвращает "a", "b" и "c"
 
-// обратите внимание на различия в индексах массивов
+// обратите внимание на различия в индексах Масивов
 print_r(array_slice($input, 2, -1));
 print_r(array_slice($input, 2, -1, true));
 ?>

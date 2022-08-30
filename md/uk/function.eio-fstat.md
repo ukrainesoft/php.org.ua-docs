@@ -4,9 +4,9 @@
     
 -   [eiofstatvfs »](function.eio-fstatvfs.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Повертає статус файлу
     
@@ -75,7 +75,7 @@ touch($tmp_filename);
 
 /* Вызывается после завершения eio_fstat() */
 function my_res_cb($data, $result) {
- // Выводит массив с информацией о состоянии файла
+ // Выводит Масив с информацией о состоянии файла
  var_dump($result);
 
  if ($data['fd']) {

@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONDecimal128::jsonSerialize »](mongodb-bson-decimal128.jsonserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONDecimal128](class.mongodb-bson-decimal128.html)
     
@@ -70,4 +70,4 @@ object(MongoDB\BSON\Decimal128)#1 (1) {
 ### Дивіться також
 
 -   [» Формат з плаваючою точкою Decimal128](https://en.wikipedia.org/wiki/Decimal128_floating-point_format)
--   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

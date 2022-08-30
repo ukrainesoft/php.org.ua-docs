@@ -1,12 +1,12 @@
 Перевіряє, чи реалізується інтерфейс
 
--   [« ReflectionClass::hasProperty](reflectionclass.hasproperty.html)
+-   [« ReflectionClass::hasProperty](reflectionclass.hasproperty.md)
     
--   [ReflectionClass::inNamespace »](reflectionclass.innamespace.html)
+-   [ReflectionClass::inNamespace »](reflectionclass.innamespace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Перевіряє, чи реалізується інтерфейс
     
@@ -37,11 +37,11 @@ public ReflectionClass::implementsInterface(ReflectionClass|string $interface): 
 
 ### Помилки
 
-**ReflectionClass::implementsInterface()** викидає [ReflectionException](class.reflectionexception.html), якщо `interface` не є інтерфейсом.
+**ReflectionClass::implementsInterface()** викидає [ReflectionException](class.reflectionexception.md), якщо `interface` не є інтерфейсом.
 
 ### Дивіться також
 
--   [ReflectionClass::isInterface()](reflectionclass.isinterface.html) - Перевіряє, чи є клас інтерфейсом
--   [ReflectionClass::isSubclassOf()](reflectionclass.issubclassof.html) - Перевіряє, чи є клас підкласом
+-   [ReflectionClass::isInterface()](reflectionclass.isinterface.md) - Перевіряє, чи є клас інтерфейсом
+-   [ReflectionClass::isSubclassOf()](reflectionclass.issubclassof.md) - Перевіряє, чи є клас підкласом
 -   [interfaceexists()](function.interface-exists.html) - Перевіряє, чи визначено інтерфейс
--   [Інтерфейси об'єктів](language.oop5.interfaces.html)
+-   [Інтерфейси об'єктів](language.oop5.interfaces.md)

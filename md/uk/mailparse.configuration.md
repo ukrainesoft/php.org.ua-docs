@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](mailparse.installation.html)
+-   [« Установка](mailparse.installation.md)
     
--   [Типы ресурсов »](mailparse.resources.html)
+-   [Типи ресурсів »](mailparse.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mailparse.setup.html)
+-   [Встановлення та налаштування](mailparse.setup.md)
     
 -   Налаштування під час виконання
     
@@ -17,11 +17,11 @@
 
 **Опції налаштування Mailparse**
 
-| Имя                                                                            | По умолчанию | Место изменения | Список изменений |
-|--------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [mailparse.defcharset](mailparse.configuration.html#ini.mailparse.def_charset) | "us-ascii"   | PHPINISYSTEM    |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [mailparse.defcharset](mailparse.configuration.html#ini.mailparse.def_charset) | "us-ascii" | PHPINISYSTEM |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 

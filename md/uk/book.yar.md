@@ -1,26 +1,26 @@
 Ще один RPC-фреймворк
 
--   [« SoapVar::construct](soapvar.construct.html)
+-   [« SoapVar::construct](soapvar.construct.md)
     
--   [Введение »](intro.yar.html)
+-   [Введение »](intro.yar.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Веб-сервисы](refs.webservice.html)
+-   [Веб-сервіси](refs.webservice.md)
     
 -   Ще один RPC-фреймворк
     
 
 # Ще один RPC-фреймворк
 
--   [Введение](intro.yar.html)
--   [Установка и настройка](yar.setup.html)
-    -   [Требования](yar.requirements.html)
-    -   [Установка](yar.installation.html)
-    -   [Настройка во время выполнения](yar.configuration.html)
-    -   [Типы ресурсов](yar.resources.html)
--   [Предопределённые константы](yar.constants.html)
--   [Примеры](yar.examples.html)
+-   [Введение](intro.yar.md)
+-   [Встановлення та налаштування](yar.setup.md)
+    -   [Вимоги](yar.requirements.md)
+    -   [Установка](yar.installation.md)
+    -   [Налаштування під час виконання](yar.configuration.md)
+    -   [Типи ресурсів](yar.resources.md)
+-   [Обумовлені константи](yar.constants.md)
+-   [Приклади](yar.examples.md)
 -   [YarServer](class.yar-server.html) - Клас YarServer
     -   [YarServer::construct](yar-server.construct.html) - Конструктор YarServer
     -   [YarServer::handle](yar-server.handle.html) — Запустити сервер RPC

@@ -1,12 +1,12 @@
 Витягує вміст архіву
 
--   [« ZipArchive::deleteName](ziparchive.deletename.html)
+-   [« ZipArchive::deleteName](ziparchive.deletename.md)
     
--   [ZipArchive::getArchiveComment »](ziparchive.getarchivecomment.html)
+-   [ZipArchive::getArchiveComment »](ziparchive.getarchivecomment.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Витягує вміст архіву
     
@@ -27,7 +27,7 @@ public ZipArchive::extractTo(string $pathto, array|string|null $files = null): b
 
 **Увага**
 
-Дозволи за промовчанням для вилучених файлів та каталогів надають максимально широкий доступ. Це можна обмежити встановленням поточного umask, який змінюється за допомогою [umask()](function.umask.html)
+Дозволи за промовчанням для вилучених файлів та каталогів надають максимально широкий доступ. Це можна обмежити встановленням поточного umask, який змінюється за допомогою [umask()](function.umask.md)
 
 ### Список параметрів
 

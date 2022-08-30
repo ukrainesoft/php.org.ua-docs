@@ -1,12 +1,12 @@
 Повертає список методів у вигляді масиву
 
--   [« ReflectionClass::getMethod](reflectionclass.getmethod.html)
+-   [« ReflectionClass::getMethod](reflectionclass.getmethod.md)
     
--   [ReflectionClass::getModifiers »](reflectionclass.getmodifiers.html)
+-   [ReflectionClass::getModifiers »](reflectionclass.getmodifiers.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає список методів у вигляді масиву
     
@@ -37,13 +37,13 @@ public ReflectionClass::getMethods(?int $filter = null): array
 
 ### Значення, що повертаються
 
-Масив (array) об'єктів класу [ReflectionMethod](class.reflectionmethod.html)що відображають кожен метод.
+Масив (array) об'єктів класу [ReflectionMethod](class.reflectionmethod.md)що відображають кожен метод.
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `filter` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `filter` тепер допускає значення null. |
 
 ### Приклади
 
@@ -130,5 +130,5 @@ array(2) {
 
 ### Дивіться також
 
--   [ReflectionClass::getMethod()](reflectionclass.getmethod.html) - Повертає екземпляр ReflectionMethod для методу класу
+-   [ReflectionClass::getMethod()](reflectionclass.getmethod.md) - Повертає екземпляр ReflectionMethod для методу класу
 -   [getclassmethods()](function.get-class-methods.html) - Повертає масив імен методів класу

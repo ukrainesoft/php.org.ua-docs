@@ -2,11 +2,11 @@
 
 -   [« Установка](quickhash.installation.html)
     
--   [Предопределённые константы »](quickhash.constants.html)
+-   [Обумовлені константи »](quickhash.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](quickhash.setup.html)
+-   [Встановлення та налаштування](quickhash.setup.html)
     
 -   Налаштування під час виконання
     

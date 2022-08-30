@@ -1,12 +1,12 @@
 Виводить зображення у браузер або пише у файл
 
--   [« imagearc](function.imagearc.html)
+-   [« imagearc](function.imagearc.md)
     
--   [imagebmp »](function.imagebmp.html)
+-   [imagebmp »](function.imagebmp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Виводить зображення у браузер або пише у файл
     
@@ -29,7 +29,7 @@ imageavif(    GdImage $image,    resource|string|null $file = null,  �
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `file`
 
@@ -53,7 +53,7 @@ imageavif(    GdImage $image,    resource|string|null $file = null,  �
 
 ### Дивіться також
 
--   [imagepng()](function.imagepng.html) - Виведення PNG зображення у браузер або файл
--   [imagewbmp()](function.imagewbmp.html) - Виводить зображення у браузер або пише у файл
--   [imagejpeg()](function.imagejpeg.html) - Виводить зображення у браузер або пише у файл
--   [imagetypes()](function.imagetypes.html) - Повертає список типів зображень, які підтримує PHP збірка
+-   [imagepng()](function.imagepng.md) - Виведення PNG зображення у браузер або файл
+-   [imagewbmp()](function.imagewbmp.md) - Виводить зображення у браузер або пише у файл
+-   [imagejpeg()](function.imagejpeg.md) - Виводить зображення у браузер або пише у файл
+-   [imagetypes()](function.imagetypes.md) - Повертає список типів зображень, які підтримує PHP збірка

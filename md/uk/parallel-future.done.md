@@ -4,7 +4,7 @@
     
 -   [parallelFuture::value »](parallel-future.value.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [parallelFuture](class.parallel-future.html)
     

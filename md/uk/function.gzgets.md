@@ -1,12 +1,12 @@
 Отримати рядок із покажчика файлу
 
--   [« gzgetc](function.gzgetc.html)
+-   [« gzgetc](function.gzgetc.md)
     
--   [gzgetss »](function.gzgetss.html)
+-   [gzgetss »](function.gzgetss.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Zlib](ref.zlib.html)
+-   [Функции Zlib](ref.zlib.md)
     
 -   Отримати рядок із покажчика файлу
     
@@ -29,7 +29,7 @@ gzgets(resource $stream, ?int $length = null): string|false
 
 `stream`
 
-Вказівник на файл gz. Він має бути коректним і повинен вказувати на файл, успішно відкритий. [gzopen()](function.gzopen.html)
+Вказівник на файл gz. Він має бути коректним і повинен вказувати на файл, успішно відкритий. [gzopen()](function.gzopen.md)
 
 `length`
 
@@ -41,9 +41,9 @@ gzgets(resource $stream, ?int $length = null): string|false
 
 ### список змін
 
-| Версия | Описание                                                                          |
-|--------|-----------------------------------------------------------------------------------|
-|        | `length` тепер припускає значення null; раніше значення за умовчанням було `1024` |
+| Версия | Описание |
+| --- | --- |
+|  | `length` тепер припускає значення null; раніше значення за умовчанням було `1024` |
 
 ### Приклади
 
@@ -62,6 +62,6 @@ gzclose($handle);
 
 ### Дивіться також
 
--   [gzopen()](function.gzopen.html) - Відкрити gz-файл
--   [gzgetc()](function.gzgetc.html) - Отримати символ із покажчика на gz-файл
--   [gzwrite()](function.gzwrite.html) - Бінарний запис у gz-файл
+-   [gzopen()](function.gzopen.md) - Відкрити gz-файл
+-   [gzgetc()](function.gzgetc.md) - Отримати символ із покажчика на gz-файл
+-   [gzwrite()](function.gzwrite.md) - Бінарний запис у gz-файл

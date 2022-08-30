@@ -4,9 +4,9 @@
     
 -   [radiusgettaggedattrdata »](function.radius-get-tagged-attr-data.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Radius](ref.radius.html)
+-   [Функции Radius](ref.radius.md)
     
 -   Витягує атрибут
     

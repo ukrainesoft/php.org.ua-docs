@@ -1,12 +1,12 @@
 Повертає налаштовані шрифти
 
--   [« Imagick::queryFontMetrics](imagick.queryfontmetrics.html)
+-   [« Imagick::queryFontMetrics](imagick.queryfontmetrics.md)
     
--   [Imagick::queryFormats »](imagick.queryformats.html)
+-   [Imagick::queryFormats »](imagick.queryformats.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає налаштовані шрифти
     

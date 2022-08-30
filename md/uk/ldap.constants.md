@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](ldap.resources.html)
+-   [« Типи ресурсів](ldap.resources.md)
     
--   [Использование вызовов PHP LDAP »](ldap.using.html)
+-   [Використання дзвінків PHP LDAP »](ldap.using.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LDAP](book.ldap.html)
+-   [LDAP](book.ldap.md)
     
 -   Обумовлені константи
     

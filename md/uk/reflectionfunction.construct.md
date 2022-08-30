@@ -1,12 +1,12 @@
 Конструктор класу ReflectionFunction
 
--   [« ReflectionFunction](class.reflectionfunction.html)
+-   [« ReflectionFunction](class.reflectionfunction.md)
     
--   [ReflectionFunction::export »](reflectionfunction.export.html)
+-   [ReflectionFunction::export »](reflectionfunction.export.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunction](class.reflectionfunction.html)
+-   [ReflectionFunction](class.reflectionfunction.md)
     
 -   Конструктор класу ReflectionFunction
     
@@ -19,19 +19,19 @@ ReflectionFunction::construct - Конструктор класу ReflectionFunc
 
 ### Опис
 
-public **ReflectionFunction::construct**[Closure](class.closure.html)|string `$function`
+public **ReflectionFunction::construct**[Closure](class.closure.md)|string `$function`
 
-Створює об'єкт класу [ReflectionFunction](class.reflectionfunction.html)
+Створює об'єкт класу [ReflectionFunction](class.reflectionfunction.md)
 
 ### Список параметрів
 
 `function`
 
-Ім'я функції для відображення або [замыкание](functions.anonymous.html)
+Ім'я функції для відображення або [замикання](functions.anonymous.md)
 
 ### Помилки
 
-Об'єкт класу [ReflectionException](class.reflectionexception.html), якщо аргумент `function` не містить допустимої функції.
+Об'єкт класу [ReflectionException](class.reflectionexception.md), якщо аргумент `function` не містить допустимої функції.
 
 ### Приклади
 
@@ -125,5 +125,5 @@ dumpReflectionFunction(new ReflectionFunction($counter2));
 
 ### Дивіться також
 
--   [ReflectionMethod::construct()](reflectionmethod.construct.html) - Конструктор класу ReflectionMethod
+-   [ReflectionMethod::construct()](reflectionmethod.construct.md) - Конструктор класу ReflectionMethod
 -   [Конструктори](language.oop5.decon.html#language.oop5.decon.constructor)

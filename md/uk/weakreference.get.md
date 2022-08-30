@@ -1,12 +1,12 @@
 Отримує об'єкт із слабким посиланням
 
--   [« WeakReference::create](weakreference.create.html)
+-   [« WeakReference::create](weakreference.create.md)
     
--   [WeakMap »](class.weakmap.html)
+-   [WeakMap »](class.weakmap.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [WeakReference](class.weakreference.html)
+-   [WeakReference](class.weakreference.md)
     
 -   Отримує об'єкт із слабким посиланням
     

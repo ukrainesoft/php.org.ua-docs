@@ -2,11 +2,11 @@
 
 -   [« GenderGender::isNick](gender-gender.isnick.html)
     
--   [Gettext »](book.gettext.html)
+-   [Gettext »](book.gettext.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GenderGender](class.gender.html)
+-   [GenderGender](class.gender.md)
     
 -   Отримати схожі імена
     

@@ -4,9 +4,9 @@
     
 -   [zendthreadid »](function.zend-thread-id.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Порівнює два "стандартизовані" рядки з номером версії PHP
     
@@ -87,10 +87,10 @@ if (version_compare(PHP_VERSION, '5.0.0', '<')) {
 
 > **Зауваження**
 > 
-> Спеціальні слова начебто `alpha` і `beta` чутливі до регістру. Рядки версій, які не дотримуються PHP-стандарту, потрібно наводити до нижнього регістру функцією [strtolower()](function.strtolower.html) до виклику **versioncompare()**
+> Спеціальні слова начебто `alpha` і `beta` чутливі до регістру. Рядки версій, які не дотримуються PHP-стандарту, потрібно наводити до нижнього регістру функцією [strtolower()](function.strtolower.md) до виклику **versioncompare()**
 
 ### Дивіться також
 
--   [phpversion()](function.phpversion.html) - Отримує поточну версію PHP
+-   [phpversion()](function.phpversion.md) - Отримує поточну версію PHP
 -   [phpuname()](function.php-uname.html) - Повертає інформацію про операційну систему, на якій запущено PHP
 -   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена

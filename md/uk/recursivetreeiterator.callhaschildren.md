@@ -1,12 +1,12 @@
 Перевірка, чи має поточний елемент нащадки
 
--   [« RecursiveTreeIterator::callGetChildren](recursivetreeiterator.callgetchildren.html)
+-   [« RecursiveTreeIterator::callGetChildren](recursivetreeiterator.callgetchildren.md)
     
--   [RecursiveTreeIterator::construct »](recursivetreeiterator.construct.html)
+-   [RecursiveTreeIterator::construct »](recursivetreeiterator.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+-   [RecursiveTreeIterator](class.recursivetreeiterator.md)
     
 -   Перевірка, чи має поточний елемент нащадки
     

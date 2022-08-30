@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Предопределённые классы](reserved.classes.html)
+-   [« Обумовлені класи](reserved.classes.html)
     
 -   [Список інших зарезервованих слів »](reserved.other-reserved-words.html)
     

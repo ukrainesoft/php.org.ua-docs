@@ -1,12 +1,12 @@
 Створює виняток
 
--   [« ErrorException](class.errorexception.html)
+-   [« ErrorException](class.errorexception.md)
     
--   [ErrorException::getSeverity »](errorexception.getseverity.html)
+-   [ErrorException::getSeverity »](errorexception.getseverity.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ErrorException](class.errorexception.html)
+-   [ErrorException](class.errorexception.md)
     
 -   Створює виняток
     
@@ -25,7 +25,7 @@ int `$code`
 int `$severity` **`E_ERROR`**  
 ?string `$filename` **`null`**  
 ?int `$line` **`null`**  
-[Throwable](class.throwable.html) `$previous` **`null`**
+[Throwable](class.throwable.md) `$previous` **`null`**
 
 Створює виняток.
 
@@ -45,7 +45,7 @@ int `$severity` **`E_ERROR`**
 
 > **Зауваження**
 > 
-> У той час, як рівень серйозності може бути будь-яким цілим числом (int), передбачається, що для її вказівки будуть використані константи [ошибок](errorfunc.constants.html)
+> У той час, як рівень серйозності може бути будь-яким цілим числом (int), передбачається, що для її вказівки будуть використані константи [ошибок](errorfunc.constants.md)
 
 `filename`
 
@@ -61,6 +61,6 @@ int `$severity` **`E_ERROR`**
 
 ### список змін
 
-| Версия | Описание                                                                                                                                     |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `filename` і `line` тепер допускають значення null. Раніше їх значеннями за промовчанням були **`__FILE__`** і \*\*`__LINE__`\*\*відповідно. |
+| Версия | Описание |
+| --- | --- |
+|  | `filename` і `line` тепер допускають значення null. Раніше їх значеннями за промовчанням були **`__FILE__`** і \*\*`__LINE__`\*\*відповідно. |

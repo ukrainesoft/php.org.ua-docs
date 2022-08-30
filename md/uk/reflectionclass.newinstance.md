@@ -1,12 +1,12 @@
 Створює екземпляр класу з переданими аргументами
 
--   [« ReflectionClass::isUserDefined](reflectionclass.isuserdefined.html)
+-   [« ReflectionClass::isUserDefined](reflectionclass.isuserdefined.md)
     
--   [ReflectionClass::newInstanceArgs »](reflectionclass.newinstanceargs.html)
+-   [ReflectionClass::newInstanceArgs »](reflectionclass.newinstanceargs.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Створює екземпляр класу з переданими аргументами
     
@@ -35,11 +35,11 @@ public ReflectionClass::newInstance(mixed ...$args): object
 
 ### Помилки
 
-Якщо конструктор не є загальнодоступним (public), це призведе до викидання винятку [ReflectionException](class.reflectionexception.html)
+Якщо конструктор не є загальнодоступним (public), це призведе до викидання винятку [ReflectionException](class.reflectionexception.md)
 
-Якщо конструктор відсутня, а параметр `args` має один і більше аргументів, то це призведе до викидання винятку [ReflectionException](class.reflectionexception.html)
+Якщо конструктор відсутня, а параметр `args` має один і більше аргументів, то це призведе до викидання винятку [ReflectionException](class.reflectionexception.md)
 
 ### Дивіться також
 
--   [ReflectionClass::newInstanceArgs()](reflectionclass.newinstanceargs.html) - Створює екземпляр класу з переданими параметрами
--   [ReflectionClass::newInstanceWithoutConstructor()](reflectionclass.newinstancewithoutconstructor.html) - Створює новий екземпляр класу без виклику конструктора
+-   [ReflectionClass::newInstanceArgs()](reflectionclass.newinstanceargs.md) - Створює екземпляр класу з переданими параметрами
+-   [ReflectionClass::newInstanceWithoutConstructor()](reflectionclass.newinstancewithoutconstructor.md) - Створює новий екземпляр класу без виклику конструктора

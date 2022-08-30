@@ -4,9 +4,9 @@
     
 -   [shellexec »](function.shell-exec.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции запуска программ](ref.exec.html)
+-   [Функции запуска программ](ref.exec.md)
     
 -   Знищити процес, відкритий за допомогою функції procopen
     

@@ -1,12 +1,12 @@
 Модифікатори шаблонів
 
--   [« Продуктивність](regexp.reference.performance.html)
+-   [« Продуктивність](regexp.reference.performance.md)
     
--   [Отличия от Perl »](reference.pcre.pattern.differences.html)
+-   [Отличия от Perl »](reference.pcre.pattern.differences.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Регулярные выражения PCRE](pcre.pattern.html)
+-   [Регулярні вирази PCRE](pcre.pattern.md)
     
 -   Модифікатори шаблонів
     

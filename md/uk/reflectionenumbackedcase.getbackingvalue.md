@@ -1,12 +1,12 @@
 Отримує скалярне значення варіанта перерахування
 
--   [« ReflectionEnumBackedCase::construct](reflectionenumbackedcase.construct.html)
+-   [« ReflectionEnumBackedCase::construct](reflectionenumbackedcase.construct.md)
     
--   [ReflectionZendExtension »](class.reflectionzendextension.html)
+-   [ReflectionZendExtension »](class.reflectionzendextension.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionEnumBackedCase](class.reflectionenumbackedcase.html)
+-   [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)
     
 -   Отримує скалярне значення варіанта перерахування
     
@@ -63,4 +63,4 @@ string(1) "S"
 
 ### Дивіться також
 
--   [Перечисления](language.enumerations.html)
+-   [Перечисления](language.enumerations.md)

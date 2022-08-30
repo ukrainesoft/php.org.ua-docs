@@ -4,7 +4,7 @@
     
 -   [ОЙControlsEntry::setText »](ui-controls-entry.settext.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsEntry](class.ui-controls-entry.html)
     

@@ -4,9 +4,9 @@
     
 -   [opensslgetprivatekey »](function.openssl-get-privatekey.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Отримати список доступних методів хешування
     

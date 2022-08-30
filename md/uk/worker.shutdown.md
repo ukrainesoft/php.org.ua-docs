@@ -1,12 +1,12 @@
 Зупинити Worker
 
--   [« Worker::isShutdown](worker.isshutdown.html)
+-   [« Worker::isShutdown](worker.isshutdown.md)
     
--   [Worker::stack »](worker.stack.html)
+-   [Worker::stack »](worker.stack.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Worker](class.worker.html)
+-   [Worker](class.worker.md)
     
 -   Зупинити Worker
     

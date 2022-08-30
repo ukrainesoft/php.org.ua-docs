@@ -2,11 +2,11 @@
 
 -   [« Приведення до одного регістру](xml.case-folding.html)
     
--   [Кодування символів »](xml.encoding.html)
+-   [Кодування символів »](xml.encoding.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Разбор XML](book.xml.html)
+-   [Разбор XML](book.xml.md)
     
 -   Коди помилок
     

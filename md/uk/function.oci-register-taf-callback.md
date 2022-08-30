@@ -4,9 +4,9 @@
     
 -   [ociresult »](function.oci-result.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8 Функции](ref.oci8.html)
+-   [OCI8 Функции](ref.oci8.md)
     
 -   Реєструє функцію зворотного виклику для Oracle Database TAF
     
@@ -23,7 +23,7 @@ ociregistertafcallback — Реєструє функцію зворотного 
 oci_register_taf_callback(resource $connection, ?callable $callback): bool
 ```
 
-Реєструє користувальницьку функцію зворотного дзвінка для з'єднання `connection`. Якщо з'єднання `connection` обірвалося через проблеми з БД або мережею, буде здійснено кілька запусків зареєстрованої функції у процесі відновлення. Детальніше читайте [OCI8 Transparent Application Failover (TAF) Support](oci8.taf.html)
+Реєструє користувальницьку функцію зворотного дзвінка для з'єднання `connection`. Якщо з'єднання `connection` обірвалося через проблеми з БД або мережею, буде здійснено кілька запусків зареєстрованої функції у процесі відновлення. Детальніше читайте [OCI8 Transparent Application Failover (TAF) Support](oci8.taf.md)
 
 Кожен новий виклик **ociregistertafcallback()** затиратиме попередні реєстрації.
 
@@ -47,7 +47,7 @@ oci_register_taf_callback(resource $connection, ?callable $callback): bool
 userCallbackFn(resource $connection, int $event, int $type): int
 ```
 
-Опис параметрів та приклади дивіться на сторінці [OCI8 Transparent Application Failover (TAF) Support](oci8.taf.html)
+Опис параметрів та приклади дивіться на сторінці [OCI8 Transparent Application Failover (TAF) Support](oci8.taf.md)
 
 ### Значення, що повертаються
 

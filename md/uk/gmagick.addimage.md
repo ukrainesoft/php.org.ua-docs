@@ -1,12 +1,12 @@
 Додавання нового зображення до списку зображень об'єкта Gmagick
 
--   [« Gmagick](class.gmagick.html)
+-   [« Gmagick](class.gmagick.md)
     
--   [Gmagick::addnoiseimage »](gmagick.addnoiseimage.html)
+-   [Gmagick::addnoiseimage »](gmagick.addnoiseimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Додавання нового зображення до списку зображень об'єкта Gmagick
     

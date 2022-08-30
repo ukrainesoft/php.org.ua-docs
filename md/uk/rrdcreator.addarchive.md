@@ -1,12 +1,12 @@
 Додає RRA - архів значень даних для кожного джерела даних
 
--   [« RRDCreator](class.rrdcreator.html)
+-   [« RRDCreator](class.rrdcreator.md)
     
--   [RRDCreator::addDataSource »](rrdcreator.adddatasource.html)
+-   [RRDCreator::addDataSource »](rrdcreator.adddatasource.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RRDCreator](class.rrdcreator.html)
+-   [RRDCreator](class.rrdcreator.md)
     
 -   Додає RRA - архів значень даних для кожного джерела даних
     
@@ -23,7 +23,7 @@ RRDCreator::addArchive — Додає RRA - архів значень даних
 public RRDCreator::addArchive(string $description): void
 ```
 
-Додає визначення RRA щодо опису архіву. Архів складається з низки значень даних чи статистики кожного з певних джерел даних (ІД). Джерела даних визначаються методом [RRDCreator::addDataSource()](rrdcreator.adddatasource.html). Необхідно викликати цей метод кожному за запитаного архіву.
+Додає визначення RRA щодо опису архіву. Архів складається з низки значень даних чи статистики кожного з певних джерел даних (ІД). Джерела даних визначаються методом [RRDCreator::addDataSource()](rrdcreator.adddatasource.md). Необхідно викликати цей метод кожному за запитаного архіву.
 
 ### Список параметрів
 

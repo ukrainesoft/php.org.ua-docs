@@ -2,7 +2,7 @@
 
 -   [« Структури даних](book.ds.html)
     
--   [Установка и настройка »](ds.setup.html)
+-   [Встановлення та налаштування »](ds.setup.html)
     
 -   [PHP Manual](index.html)
     

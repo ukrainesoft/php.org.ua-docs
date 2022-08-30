@@ -4,9 +4,9 @@
     
 -   [libxmlsetexternalentityloader »](function.libxml-set-external-entity-loader.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції libxml](ref.libxml.html)
+-   [Функції libxml](ref.libxml.md)
     
 -   Вилучення останньої помилки з libxml
     
@@ -31,7 +31,7 @@ libxml_get_last_error(): LibXMLError|false
 
 ### Значення, що повертаються
 
-Повертає об'єкт [LibXMLError](class.libxmlerror.html)якщо в буфері є помилки, або **`false`** в іншому випадку.
+Повертає об'єкт [LibXMLError](class.libxmlerror.md)якщо в буфері є помилки, або **`false`** в іншому випадку.
 
 ### Дивіться також
 

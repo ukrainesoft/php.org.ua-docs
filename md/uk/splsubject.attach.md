@@ -1,12 +1,12 @@
 Приєднати спостерігача (об'єкт класу SplObserver)
 
--   [« SplSubject](class.splsubject.html)
+-   [« SplSubject](class.splsubject.md)
     
--   [SplSubject::detach »](splsubject.detach.html)
+-   [SplSubject::detach »](splsubject.detach.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplSubject](class.splsubject.html)
+-   [SplSubject](class.splsubject.md)
     
 -   Приєднати спостерігача (об'єкт класу SplObserver)
     
@@ -23,7 +23,7 @@ SplSubject::attach — Приєднати спостерігача (об'єкт 
 public SplSubject::attach(SplObserver $observer): void
 ```
 
-Приєднує [SplObserver](class.splobserver.html), щоб він міг отримувати сповіщення про оновлення.
+Приєднує [SplObserver](class.splobserver.md), щоб він міг отримувати сповіщення про оновлення.
 
 **Увага**
 
@@ -33,7 +33,7 @@ public SplSubject::attach(SplObserver $observer): void
 
 `observer`
 
-Об'єкт класу [SplObserver](class.splobserver.html) для приєднання.
+Об'єкт класу [SplObserver](class.splobserver.md) для приєднання.
 
 ### Значення, що повертаються
 

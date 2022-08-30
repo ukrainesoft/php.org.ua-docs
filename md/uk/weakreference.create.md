@@ -1,12 +1,12 @@
 Створює нове слабке посилання
 
--   [« WeakReference::construct](weakreference.construct.html)
+-   [« WeakReference::construct](weakreference.construct.md)
     
--   [WeakReference::get »](weakreference.get.html)
+-   [WeakReference::get »](weakreference.get.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [WeakReference](class.weakreference.html)
+-   [WeakReference](class.weakreference.md)
     
 -   Створює нове слабке посилання
     
@@ -23,7 +23,7 @@ WeakReference::create — Створює нове слабке посиланн�
 public static WeakReference::create(object $object): WeakReference
 ```
 
-Створює новий [WeakReference](class.weakreference.html)
+Створює новий [WeakReference](class.weakreference.md)
 
 ### Список параметрів
 

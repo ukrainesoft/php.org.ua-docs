@@ -4,7 +4,7 @@
     
 -   [SwooleTable::count »](swoole-table.count.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleTable](class.swoole-table.html)
     

@@ -4,9 +4,9 @@
     
 -   [SwooleCoroutine::calluserfuncarray »](swoole-coroutine.call-user-func-array.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Swoole](book.swoole.html)
+-   [Swoole](book.swoole.md)
     
 -   Клас SwooleCoroutine
     

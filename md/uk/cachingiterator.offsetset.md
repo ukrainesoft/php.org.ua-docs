@@ -1,12 +1,12 @@
 Призначення offsetSet
 
--   [« CachingIterator::offsetGet](cachingiterator.offsetget.html)
+-   [« CachingIterator::offsetGet](cachingiterator.offsetget.md)
     
--   [CachingIterator::offsetUnset »](cachingiterator.offsetunset.html)
+-   [CachingIterator::offsetUnset »](cachingiterator.offsetunset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CachingIterator](class.cachingiterator.html)
+-   [CachingIterator](class.cachingiterator.md)
     
 -   Призначення offsetSet
     

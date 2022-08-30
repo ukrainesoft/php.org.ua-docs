@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](phar.requirements.html)
+-   [« Вимоги](phar.requirements.md)
     
--   [Настройка во время выполнения »](phar.configuration.html)
+-   [Налаштування під час виконання »](phar.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](phar.setup.html)
+-   [Встановлення та налаштування](phar.setup.md)
     
 -   Встановлення
     

@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.gnupg.html)
+-   [« Введение](intro.gnupg.md)
     
--   [Требования »](gnupg.requirements.html)
+-   [Вимоги »](gnupg.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GnuPG](book.gnupg.html)
+-   [GnuPG](book.gnupg.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](gnupg.requirements.html)
--   [Установка](gnupg.installation.html)
--   [Настройка во время выполнения](gnupg.configuration.html)
--   [Типы ресурсов](gnupg.resources.html)
+-   [Вимоги](gnupg.requirements.md)
+-   [Установка](gnupg.installation.md)
+-   [Налаштування під час виконання](gnupg.configuration.md)
+-   [Типи ресурсів](gnupg.resources.md)

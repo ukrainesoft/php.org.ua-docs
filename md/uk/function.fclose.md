@@ -1,12 +1,12 @@
 Закриває відкритий дескриптор файлу
 
--   [« diskfreespace](function.diskfreespace.html)
+-   [« diskfreespace](function.diskfreespace.md)
     
--   [fdatasync »](function.fdatasync.html)
+-   [fdatasync »](function.fdatasync.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Закриває відкритий дескриптор файлу
     
@@ -29,7 +29,7 @@ fclose(resource $stream): bool
 
 `stream`
 
-Дескриптор повинен бути коректним та вказувати на файл, відкритий раніше за допомогою функції [fopen()](function.fopen.html) або [fsockopen()](function.fsockopen.html)
+Дескриптор повинен бути коректним та вказувати на файл, відкритий раніше за допомогою функції [fopen()](function.fopen.md) або [fsockopen()](function.fsockopen.md)
 
 ### Значення, що повертаються
 
@@ -51,5 +51,5 @@ fclose($handle);
 
 ### Дивіться також
 
--   [fopen()](function.fopen.html) - Відкриває файл або URL
--   [fsockopen()](function.fsockopen.html) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [fopen()](function.fopen.md) - Відкриває файл або URL
+-   [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix

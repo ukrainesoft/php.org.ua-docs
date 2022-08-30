@@ -1,12 +1,12 @@
 Повідомляє, чи є усунення зміщенням кордону
 
--   [« IntlBreakIterator::getText](intlbreakiterator.gettext.html)
+-   [« IntlBreakIterator::getText](intlbreakiterator.gettext.md)
     
--   [IntlBreakIterator::last »](intlbreakiterator.last.html)
+-   [IntlBreakIterator::last »](intlbreakiterator.last.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlBreakIterator](class.intlbreakiterator.html)
+-   [IntlBreakIterator](class.intlbreakiterator.md)
     
 -   Повідомляє, чи є усунення зміщенням кордону
     

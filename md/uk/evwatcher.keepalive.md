@@ -1,12 +1,12 @@
 Налаштовує, чи повертатиметься цикл
 
--   [« EvWatcher::invoke](evwatcher.invoke.html)
+-   [« EvWatcher::invoke](evwatcher.invoke.md)
     
--   [EvWatcher::setCallback »](evwatcher.setcallback.html)
+-   [EvWatcher::setCallback »](evwatcher.setcallback.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvWatcher](class.evwatcher.html)
+-   [EvWatcher](class.evwatcher.md)
     
 -   Налаштовує, чи повертатиметься цикл
     
@@ -27,17 +27,17 @@ public
     = ?): bool
 ```
 
-Налаштовує, чи повертатиметься цикл. Якщо `value` підтримки встановлено **`false`**, спостерігач не перешкоджатиме поверненню [Ev::run()](ev.run.html) [EvLoop::run()](evloop.run.html)навіть якщо спостерігач активний.
+Налаштовує, чи повертатиметься цикл. Якщо `value` підтримки встановлено **`false`**, спостерігач не перешкоджатиме поверненню [Ev::run()](ev.run.md) [EvLoop::run()](evloop.run.md)навіть якщо спостерігач активний.
 
 Спостерігачі за замовчуванням мають `value` підтримки **`true`**
 
-Очищення статусу підтримки корисне при поверненні з [Ev::run()](ev.run.html) [EvLoop::run()](evloop.run.html) лише тому, що спостерігач небажаний. Це може бути працюючий спостерігач UDP-сокету або близько того.
+Очищення статусу підтримки корисне при поверненні з [Ev::run()](ev.run.md) [EvLoop::run()](evloop.run.md) лише тому, що спостерігач небажаний. Це може бути працюючий спостерігач UDP-сокету або близько того.
 
 ### Список параметрів
 
 `value`
 
-Якщо `value` підтримки встановлено **`false`**, спостерігач не перешкоджатиме поверненню [Ev::run()](ev.run.html) [EvLoop::run()](evloop.run.html)навіть якщо спостерігач активний.
+Якщо `value` підтримки встановлено **`false`**, спостерігач не перешкоджатиме поверненню [Ev::run()](ev.run.md) [EvLoop::run()](evloop.run.md)навіть якщо спостерігач активний.
 
 ### Значення, що повертаються
 

@@ -1,12 +1,12 @@
 Конвертує 8-бітний рядок у рядок у форматі quoted-printable
 
--   [« Функции IMAP](ref.imap.html)
+-   [« Функции IMAP](ref.imap.md)
     
 -   [imapalerts »](function.imap-alerts.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции IMAP](ref.imap.html)
+-   [Функции IMAP](ref.imap.md)
     
 -   Конвертує 8-бітний рядок у рядок у форматі quoted-printable
     

@@ -2,11 +2,11 @@
 
 -   [« datetimezoneset](function.date-timezone-set.html)
     
--   [getdate »](function.getdate.html)
+-   [getdate »](function.getdate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Форматує тимчасову мітку Unix
     
@@ -23,19 +23,19 @@ date — Форматує тимчасову мітку Unix
 date(string $format, ?int $timestamp = null): string
 ```
 
-Повертає рядок, відформатований відповідно до зазначеного у параметрі `format` шаблон. Використовується позначка часу, задана параметром `timestamp` (мітка часу Unix), або поточний системний час, якщо параметр `timestamp` не заданий. Таким чином, параметр `timestamp` є необов'язковим і за умовчанням дорівнює значенню, що повертається функцією [time()](function.time.html)
+Повертає рядок, відформатований відповідно до зазначеного у параметрі `format` шаблон. Використовується позначка часу, задана параметром `timestamp` (мітка часу Unix), або поточний системний час, якщо параметр `timestamp` не заданий. Таким чином, параметр `timestamp` є необов'язковим і за умовчанням дорівнює значенню, що повертається функцією [time()](function.time.md)
 
-Мітки часу Unix не обробляють часові пояси. Використовуйте клас [DateTimeImmutable](class.datetimeimmutable.html) та його метод форматування [DateTimeInterface::format()](datetime.format.html) для форматування інформації про дату/час з прив'язкою до часового поясу.
+Мітки часу Unix не обробляють часові пояси. Використовуйте клас [DateTimeImmutable](class.datetimeimmutable.md) та його метод форматування [DateTimeInterface::format()](datetime.format.md) для форматування інформації про дату/час з прив'язкою до часового поясу.
 
 ### Список параметрів
 
 `format`
 
-Прийнятий формат [DateTimeInterface::format()](datetime.format.html)
+Прийнятий формат [DateTimeInterface::format()](datetime.format.md)
 
 `timestamp`
 
-Необов'язковий параметр `timestamp` являє собою мітку часу типу int, за умовчанням рівну поточному локальному часу, якщо `timestamp` не вказано або **`null`**. Іншими словами, значення за замовчуванням дорівнює результату функції [time()](function.time.html)
+Необов'язковий параметр `timestamp` являє собою мітку часу типу int, за умовчанням рівну поточному локальному часу, якщо `timestamp` не вказано або **`null`**. Іншими словами, значення за замовчуванням дорівнює результату функції [time()](function.time.md)
 
 ### Значення, що повертаються
 
@@ -47,9 +47,9 @@ date(string $format, ?int $timestamp = null): string
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `timestamp` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `timestamp` тепер допускає значення null. |
 
 ### Приклади
 
@@ -90,9 +90,9 @@ echo date('l \t\h\e jS');
 ?>
 ```
 
-Для виведення минулих та майбутніх дат зручно використовувати функції **date()** і [mktime()](function.mktime.html)
+Для виведення минулих та майбутніх дат зручно використовувати функції **date()** і [mktime()](function.mktime.md)
 
-**Приклад #3 Приклад спільного використання функцій **date()** і [mktime()](function.mktime.html)**
+**Приклад #3 Приклад спільного використання функцій **date()** і [mktime()](function.mktime.md)**
 
 ```php
 <?php
@@ -128,27 +128,27 @@ $today = date("Y-m-d H:i:s");                   // 2001-0
 ?>
 ```
 
-Для форматування дат іншими мовами замість функції **date()** можна використовувати метод [IntlDateFormatter::format()](intldateformatter.format.html)
+Для форматування дат іншими мовами замість функції **date()** можна використовувати метод [IntlDateFormatter::format()](intldateformatter.format.md)
 
 ### Примітки
 
 > **Зауваження**
 > 
-> Для отримання мітки часу з строкового представлення дати можна скористатися функцією [strtotime()](function.strtotime.html). Крім того, деякі бази даних мають власні функції для перетворення внутрішнього подання дати на мітку часу (наприклад, функція MySQL [» UNIXTIMESTAMP](http://dev.mysql.com/doc/mysql/en/date-and-time-functions.html)
+> Для отримання мітки часу з строкового представлення дати можна скористатися функцією [strtotime()](function.strtotime.md). Крім того, деякі бази даних мають власні функції для перетворення внутрішнього подання дати на мітку часу (наприклад, функція MySQL [» UNIXTIMESTAMP](http://dev.mysql.com/doc/mysql/en/date-and-time-functions.html)
 
 **Підказка**
 
-Тимчасову позначку початку запиту можна отримати з поля [SERVER\['REQUESTTIME'\]](reserved.variables.server.html)
+Тимчасову позначку початку запиту можна отримати з поля [SERVER\['REQUESTTIME'\]](reserved.variables.server.md)
 
 ### Дивіться також
 
--   [DateTimeImmutable::construct()](datetimeimmutable.construct.html) - Повертає новий об'єкт DateTimeImmutable
--   [DateTimeInterface::format()](datetime.format.html) - Повертає дату, відформатовану згідно з переданим форматом
--   [gmdate()](function.gmdate.html) - Форматує дату/час за Грінвічем
--   [idate()](function.idate.html) - Перетворює локальний час/дату на ціле число
--   [getdate()](function.getdate.html) - Повертає інформацію про дату/час
--   [getlastmod()](function.getlastmod.html) - Отримує час останньої модифікації сторінки
--   [mktime()](function.mktime.html) - Повертає позначку часу Unix для заданої дати
--   [IntlDateFormatter::format()](intldateformatter.format.html) - Форматує значення дати/часу у вигляді рядка
--   [time()](function.time.html) - Повертає поточну мітку системного часу Unix
--   [Предопределённые константы даты и времени](class.datetimeinterface.html#datetime.constants.types)
+-   [DateTimeImmutable::construct()](datetimeimmutable.construct.md) - Повертає новий об'єкт DateTimeImmutable
+-   [DateTimeInterface::format()](datetime.format.md) - Повертає дату, відформатовану згідно з переданим форматом
+-   [gmdate()](function.gmdate.md) - Форматує дату/час за Грінвічем
+-   [idate()](function.idate.md) - Перетворює локальний час/дату на ціле число
+-   [getdate()](function.getdate.md) - Повертає інформацію про дату/час
+-   [getlastmod()](function.getlastmod.md) - Отримує час останньої модифікації сторінки
+-   [mktime()](function.mktime.md) - Повертає позначку часу Unix для заданої дати
+-   [IntlDateFormatter::format()](intldateformatter.format.md) - Форматує значення дати/часу у вигляді рядка
+-   [time()](function.time.md) - Повертає поточну мітку системного часу Unix
+-   [Обумовлені константи дати та часу](class.datetimeinterface.html#datetime.constants.types)

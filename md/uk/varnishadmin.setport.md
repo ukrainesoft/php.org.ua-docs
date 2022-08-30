@@ -1,12 +1,12 @@
 Встановити параметр конфігурації port класу
 
--   [« VarnishAdmin::setParam](varnishadmin.setparam.html)
+-   [« VarnishAdmin::setParam](varnishadmin.setparam.md)
     
--   [VarnishAdmin::setSecret »](varnishadmin.setsecret.html)
+-   [VarnishAdmin::setSecret »](varnishadmin.setsecret.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [VarnishAdmin](class.varnishadmin.html)
+-   [VarnishAdmin](class.varnishadmin.md)
     
 -   Встановити параметр конфігурації port класу
     

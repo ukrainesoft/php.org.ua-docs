@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](mailparse.resources.html)
+-   [« Типи ресурсів](mailparse.resources.html)
     
 -   [Mailparse »](ref.mailparse.html)
     

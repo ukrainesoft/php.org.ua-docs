@@ -27,13 +27,13 @@ public
    ): bool
 ```
 
-Попросити libevent не використовувати певний метод події (бекенд). Дивіться [» Создание базы события](http://www.wangafu.net/~nickm/libevent-book/Ref2_eventbase.html#_creating_an_event_base)
+Попросити libevent не використовувати певний метод події (бекенд). Дивіться [» Створення бази події](http://www.wangafu.net/~nickm/libevent-book/Ref2_eventbase.html#_creating_an_event_base)
 
 ### Список параметрів
 
 `method`
 
-Метод бекенда, який потрібно ігнорувати. Дивіться [константы EventConfig](class.eventconfig.html#eventconfig.constants)
+Метод бекенда, який потрібно ігнорувати. Дивіться [константи EventConfig](class.eventconfig.html#eventconfig.constants)
 
 ### Значення, що повертаються
 

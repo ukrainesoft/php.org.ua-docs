@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](tidy.setup.html)
+-   [« Встановлення та налаштування](tidy.setup.md)
     
--   [Установка »](tidy.installation.html)
+-   [Установка »](tidy.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](tidy.setup.html)
+-   [Встановлення та налаштування](tidy.setup.md)
     
 -   Вимоги
     

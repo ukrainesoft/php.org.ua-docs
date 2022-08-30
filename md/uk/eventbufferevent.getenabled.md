@@ -1,12 +1,12 @@
 Повертає бітову маску подій, які активовані для буферної події.
 
--   [« EventBufferEvent::getDnsErrorString](eventbufferevent.getdnserrorstring.html)
+-   [« EventBufferEvent::getDnsErrorString](eventbufferevent.getdnserrorstring.md)
     
--   [EventBufferEvent::getInput »](eventbufferevent.getinput.html)
+-   [EventBufferEvent::getInput »](eventbufferevent.getinput.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Повертає бітову маску подій, які активовані для буферної події.
     
@@ -36,5 +36,5 @@ public
 
 ### Дивіться також
 
--   [EventBufferEvent::enable()](eventbufferevent.enable.html) - Включає читання, запис або те й інше в події буфера
--   [EventBufferEvent::disable()](eventbufferevent.disable.html) - Вимикає читання, запис або те й інше у події буфера
+-   [EventBufferEvent::enable()](eventbufferevent.enable.md) - Включає читання, запис або те й інше в події буфера
+-   [EventBufferEvent::disable()](eventbufferevent.disable.md) - Вимикає читання, запис або те й інше у події буфера

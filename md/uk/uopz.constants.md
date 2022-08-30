@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](uopz.resources.html)
+-   [« Типи ресурсів](uopz.resources.md)
     
--   [Функції Uopz »](ref.uopz.html)
+-   [Функції Uopz »](ref.uopz.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [uopz](book.uopz.html)
+-   [uopz](book.uopz.md)
     
 -   Обумовлені константи
     

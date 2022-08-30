@@ -4,9 +4,9 @@
     
 -   [socketclose »](function.socket-close.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции сокета](ref.sockets.html)
+-   [Функции сокета](ref.sockets.md)
     
 -   Очищує помилку на сокеті або останній код помилки
     
@@ -31,7 +31,7 @@ socket_clear_error(?Socket $socket = null): void
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.html)
+Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.html)
 
 ### Значення, що повертаються
 
@@ -39,10 +39,10 @@ socket_clear_error(?Socket $socket = null): void
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
-|        | `socket` тепер допускає значення null.                                                      |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+|  | `socket` тепер допускає значення null. |
 
 ### Дивіться також
 

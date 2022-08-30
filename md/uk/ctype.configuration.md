@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](ctype.installation.html)
+-   [« Установка](ctype.installation.md)
     
--   [Типы ресурсов »](ctype.resources.html)
+-   [Типи ресурсів »](ctype.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ctype.setup.html)
+-   [Встановлення та налаштування](ctype.setup.md)
     
 -   Налаштування під час виконання
     

@@ -1,12 +1,12 @@
 Застаріла функціональність
 
--   [« Зміни, що ламають зворотну сумісність](migration74.incompatible.html)
+-   [« Зміни, що ламають зворотну сумісність](migration74.incompatible.md)
     
 -   [Віддалені модулі »](migration74.removed-extensions.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 7.3.x на PHP 7.4.x](migration74.html)
+-   [Миграция с PHP 7.3.x на PHP 7.4.x](migration74.md)
     
 -   Застаріла функціональність
     
@@ -57,27 +57,27 @@
 
 #### Неприпустимі символи в основних функціях перетворення
 
-Передача неприпустимих символів [baseconvert()](function.base-convert.html) [bindec()](function.bindec.html) [octdec()](function.octdec.html) тепер викликає повідомлення про застарілі можливості. Результат все одно буде обчислений так, якби неприпустимих символів не було. Провідні та завершальні прогалини, а також префікси типу 0x (залежно від системи числення), як і раніше, дозволені.
+Передача неприпустимих символів [baseconvert()](function.base-convert.html) [bindec()](function.bindec.md) [octdec()](function.octdec.md) тепер викликає повідомлення про застарілі можливості. Результат все одно буде обчислений так, якби неприпустимих символів не було. Провідні та завершальні прогалини, а також префікси типу 0x (залежно від системи числення), як і раніше, дозволені.
 
 #### Використання [arraykeyexists()](function.array-key-exists.html) з об'єктом
 
-Використання [arraykeyexists()](function.array-key-exists.html) з об'єктом оголошено застарілим. Натомість слід використовувати або [isset()](function.isset.html), або [propertyexists()](function.property-exists.html)
+Використання [arraykeyexists()](function.array-key-exists.html) з об'єктом оголошено застарілим. Натомість слід використовувати або [isset()](function.isset.md), або [propertyexists()](function.property-exists.html)
 
 #### Функції, пов'язані з чарівними лапками
 
 Функції [getmagicquotesgpc()](function.get-magic-quotes-gpc.html) і [getmagicquotesruntime()](function.get-magic-quotes-runtime.html) оголошено застарілими. Вони завжди повертають **`false`**
 
-#### Функція [hebrevc()](function.hebrevc.html)
+#### Функція [hebrevc()](function.hebrevc.md)
 
-Функція [hebrevc()](function.hebrevc.html) оголошено застарілою. Її можна замінити на вираз `nl2br(hebrev($str))`, або краще використовувати підтримку Unicode RTL.
+Функція [hebrevc()](function.hebrevc.md) оголошено застарілою. Її можна замінити на вираз `nl2br(hebrev($str))`, або краще використовувати підтримку Unicode RTL.
 
 #### Функція [convertcyrstring()](function.convert-cyr-string.html)
 
-Функція [convertcyrstring()](function.convert-cyr-string.html) оголошено застарілою. Її можна замінити або на **мбconvertstring()**, або [iconv()](function.iconv.html) або на клас [UConverter](class.uconverter.html)
+Функція [convertcyrstring()](function.convert-cyr-string.html) оголошено застарілою. Її можна замінити або на **мбconvertstring()**, або [iconv()](function.iconv.md) або на клас [UConverter](class.uconverter.md)
 
 #### Функція [moneyformat()](function.money-format.html)
 
-Функція [moneyformat()](function.money-format.html) оголошено застарілою. Вона може бути замінена функціональністю інтернаціоналізації – класом [NumberFormatter](class.numberformatter.html)
+Функція [moneyformat()](function.money-format.html) оголошено застарілою. Вона може бути замінена функціональністю інтернаціоналізації – класом [NumberFormatter](class.numberformatter.md)
 
 #### Функція [ezmlmhash()](function.ezmlm-hash.html)
 
@@ -89,7 +89,7 @@
 
 #### Використання implode з нерекомендованим порядком параметрів
 
-Передача параметрів у [implode()](function.implode.html) у зворотному порядку оголошено застарілою - використовуйте `implode($glue, $parts)` замість `implode($parts, $glue)`
+Передача параметрів у [implode()](function.implode.md) у зворотному порядку оголошено застарілою - використовуйте `implode($glue, $parts)` замість `implode($parts, $glue)`
 
 ### COM
 
@@ -111,9 +111,9 @@
 
 ### Reflection
 
-Виклики [ReflectionType::toString()](reflectiontype.tostring.html) тепер створюють повідомлення про застарілі можливості. Цей метод оголошено застарілим на користь використання [ReflectionNamedType::getName()](reflectionnamedtype.getname.html) у документації з PHP 7.1, але не видавав відповідного повідомлення з технічних причин.
+Виклики [ReflectionType::toString()](reflectiontype.tostring.md) тепер створюють повідомлення про застарілі можливості. Цей метод оголошено застарілим на користь використання [ReflectionNamedType::getName()](reflectionnamedtype.getname.md) у документації з PHP 7.1, але не видавав відповідного повідомлення з технічних причин.
 
-Методи `export()` у всіх класів [Reflection](class.reflection.html) оголошено застарілими. Тепер створюйте об'єкт [Reflection](class.reflection.html) і перетворіть його на рядок:
+Методи `export()` у всіх класів [Reflection](class.reflection.md) оголошено застарілими. Тепер створюйте об'єкт [Reflection](class.reflection.md) і перетворіть його на рядок:
 
 ```php
 <?php

@@ -4,7 +4,7 @@
     
 -   [Session::commit »](mysql-xdevapi-session.commit.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
     

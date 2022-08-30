@@ -4,9 +4,9 @@
     
 -   [jsonlasterror »](function.json-last-error.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции JSON](ref.json.html)
+-   [Функции JSON](ref.json.md)
     
 -   Повертає рядок з повідомленням про помилку останнього дзвінка jsonencode() або jsondecode()
     

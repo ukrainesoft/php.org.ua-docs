@@ -1,12 +1,12 @@
 Повертає всі параметри об'єкта у вигляді пар ім'я-значення
 
--   [« SolrParams::setParam](solrparams.setparam.html)
+-   [« SolrParams::setParam](solrparams.setparam.md)
     
--   [SolrParams::unserialize »](solrparams.unserialize.html)
+-   [SolrParams::unserialize »](solrparams.unserialize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrParams](class.solrparams.html)
+-   [SolrParams](class.solrparams.md)
     
 -   Повертає всі параметри об'єкта у вигляді пар ім'я-значення
     

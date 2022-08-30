@@ -4,7 +4,7 @@
     
 -   [mysqlxdevapiClient »](class.mysql-xdevapi-client.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiBaseResult](class.mysql-xdevapi-baseresult.html)
     

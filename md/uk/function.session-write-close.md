@@ -2,11 +2,11 @@
 
 -   [« sessionunset](function.session-unset.html)
     
--   [SessionHandler »](class.sessionhandler.html)
+-   [SessionHandler »](class.sessionhandler.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи із сесіями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.md)
     
 -   Записує дані сесії та завершує її
     
@@ -37,9 +37,9 @@ session_write_close(): bool
 
 ### список змін
 
-| Версия | Описание                                                           |
-|--------|--------------------------------------------------------------------|
-|        | Тепер тип цієї функції bool, що повертається. Раніше був тип void. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер тип цієї функції bool, що повертається. Раніше був тип void. |
 
 ### Дивіться також
 

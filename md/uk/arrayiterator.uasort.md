@@ -1,12 +1,12 @@
 Сортування за допомогою заданої користувачем функції та збереження ключів
 
--   [« ArrayIterator::setFlags](arrayiterator.setflags.html)
+-   [« ArrayIterator::setFlags](arrayiterator.setflags.md)
     
--   [ArrayIterator::uksort »](arrayiterator.uksort.html)
+-   [ArrayIterator::uksort »](arrayiterator.uksort.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayIterator](class.arrayiterator.html)
+-   [ArrayIterator](class.arrayiterator.md)
     
 -   Сортування за допомогою заданої користувачем функції та збереження ключів
     
@@ -45,9 +45,9 @@ callback(mixed $a, mixed $b): int
 
 ### Дивіться також
 
--   [ArrayIterator::asort()](arrayiterator.asort.html) - Сортує елементи за значеннями
--   [ArrayIterator::ksort()](arrayiterator.ksort.html) - Сортує елементи за ключами
--   [ArrayIterator::natcasesort()](arrayiterator.natcasesort.html) - Сортує елементи "натурально", з урахуванням регістру
--   [ArrayIterator::natsort()](arrayiterator.natsort.html) - Сортує елементи "натурально"
--   [ArrayIterator::uksort()](arrayiterator.uksort.html) - Сортування за ключами за допомогою заданої функції порівняння
--   [uasort()](function.uasort.html) - Сортує масив, використовуючи функцію користувача для порівняння елементів зі збереженням ключів
+-   [ArrayIterator::asort()](arrayiterator.asort.md) - Сортує елементи за значеннями
+-   [ArrayIterator::ksort()](arrayiterator.ksort.md) - Сортує елементи за ключами
+-   [ArrayIterator::natcasesort()](arrayiterator.natcasesort.md) - Сортує елементи "натурально", з урахуванням регістру
+-   [ArrayIterator::natsort()](arrayiterator.natsort.md) - Сортує елементи "натурально"
+-   [ArrayIterator::uksort()](arrayiterator.uksort.md) - Сортування за ключами за допомогою заданої функції порівняння
+-   [uasort()](function.uasort.md) - Сортує масив, використовуючи функцію користувача для порівняння елементів зі збереженням ключів

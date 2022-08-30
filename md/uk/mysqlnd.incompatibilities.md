@@ -1,12 +1,12 @@
 Несумісності
 
--   [« Настройка во время выполнения](mysqlnd.config.html)
+-   [« Налаштування під час виконання](mysqlnd.config.md)
     
--   [Постоянное соединение »](mysqlnd.persist.html)
+-   [Постоянное соединение »](mysqlnd.persist.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mysqlnd](book.mysqlnd.html)
+-   [Mysqlnd](book.mysqlnd.md)
     
 -   Несумісності
     

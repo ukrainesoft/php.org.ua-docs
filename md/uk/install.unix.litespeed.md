@@ -2,11 +2,11 @@
 
 -   [« Установка PHP на Lighttpd 1.4 на Unix-системах](install.unix.lighttpd-14.html)
     
--   [Установка з інтерфейсами CGI та командного рядка »](install.unix.commandline.html)
+-   [Установка з інтерфейсами CGI та командного рядка »](install.unix.commandline.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка на Unix-системы](install.unix.html)
+-   [Встановлення на Unix-системи](install.unix.md)
     
 -   Веб-сервер LiteSpeed/OpenLiteSpeed ​​на системах Unix
     

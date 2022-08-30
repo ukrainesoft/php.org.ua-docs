@@ -1,12 +1,12 @@
 Отримати ім'я JavaScript
 
--   [« V8JsException](class.v8jsexception.html)
+-   [« V8JsException](class.v8jsexception.md)
     
--   [V8JsException::getJsLineNumber »](v8jsexception.getjslinenumber.html)
+-   [V8JsException::getJsLineNumber »](v8jsexception.getjslinenumber.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [V8JsException](class.v8jsexception.html)
+-   [V8JsException](class.v8jsexception.md)
     
 -   Отримати ім'я JavaScript
     

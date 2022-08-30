@@ -1,12 +1,12 @@
 Повертає значення статичної властивості
 
--   [« ReflectionClass::getStaticProperties](reflectionclass.getstaticproperties.html)
+-   [« ReflectionClass::getStaticProperties](reflectionclass.getstaticproperties.md)
     
--   [ReflectionClass::getTraitAliases »](reflectionclass.gettraitaliases.html)
+-   [ReflectionClass::getTraitAliases »](reflectionclass.gettraitaliases.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає значення статичної властивості
     
@@ -33,7 +33,7 @@ public ReflectionClass::getStaticPropertyValue(string $name, mixed &$def_value =
 
 `def_value`
 
-Значення за умовчанням, що повертається у випадку, якщо в класі не визначено статичну властивість із заданим ім'ям `name`. Якщо властивість немає і цей аргумент не заданий, то викидається [ReflectionException](class.reflectionexception.html)
+Значення за умовчанням, що повертається у випадку, якщо в класі не визначено статичну властивість із заданим ім'ям `name`. Якщо властивість немає і цей аргумент не заданий, то викидається [ReflectionException](class.reflectionexception.md)
 
 ### Значення, що повертаються
 
@@ -62,5 +62,5 @@ string(3) "Red"
 
 ### Дивіться також
 
--   [ReflectionClass::getStaticProperties()](reflectionclass.getstaticproperties.html) - Повертає статичні властивості
--   [ReflectionClass::setStaticPropertyValue()](reflectionclass.setstaticpropertyvalue.html) - Встановлює значення статичної властивості
+-   [ReflectionClass::getStaticProperties()](reflectionclass.getstaticproperties.md) - Повертає статичні властивості
+-   [ReflectionClass::setStaticPropertyValue()](reflectionclass.setstaticpropertyvalue.md) - Встановлює значення статичної властивості

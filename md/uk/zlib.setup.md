@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.zlib.html)
     
--   [Требования »](zlib.requirements.html)
+-   [Вимоги »](zlib.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](zlib.requirements.html)
+-   [Вимоги](zlib.requirements.html)
 -   [Установка](zlib.installation.html)
--   [Настройка во время выполнения](zlib.configuration.html)
--   [Типы ресурсов](zlib.resources.html)
+-   [Налаштування під час виконання](zlib.configuration.html)
+-   [Типи ресурсів](zlib.resources.html)

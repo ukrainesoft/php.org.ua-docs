@@ -2,11 +2,11 @@
 
 -   [« Установка](gmagick.installation.html)
     
--   [Предопределённые константы »](gmagick.constants.html)
+-   [Обумовлені константи »](gmagick.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](gmagick.setup.html)
+-   [Встановлення та налаштування](gmagick.setup.html)
     
 -   Налаштування під час виконання
     

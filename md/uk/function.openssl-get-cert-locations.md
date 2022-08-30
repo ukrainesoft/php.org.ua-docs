@@ -4,9 +4,9 @@
     
 -   [opensslgetciphermethods »](function.openssl-get-cipher-methods.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Отримати доступні місця розташування сертифікатів
     

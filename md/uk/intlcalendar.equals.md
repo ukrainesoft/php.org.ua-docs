@@ -1,12 +1,12 @@
 Порівнює час двох об'єктів IntlCalendar щодо рівності
 
--   [« IntlCalendar::createInstance](intlcalendar.createinstance.html)
+-   [« IntlCalendar::createInstance](intlcalendar.createinstance.md)
     
--   [IntlCalendar::fieldDifference »](intlcalendar.fielddifference.html)
+-   [IntlCalendar::fieldDifference »](intlcalendar.fielddifference.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Порівнює час двох об'єктів IntlCalendar щодо рівності
     
@@ -37,7 +37,7 @@ intlcal_equals(IntlCalendar $calendar, IntlCalendar $other): bool
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `other`
 
@@ -45,7 +45,7 @@ intlcal_equals(IntlCalendar $calendar, IntlCalendar $other): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо поточний час цього та переданого в [IntlCalendar](class.intlcalendar.html) об'єкта однакове або **`false`** в іншому випадку.
+Повертає **`true`**, якщо поточний час цього та переданого в [IntlCalendar](class.intlcalendar.md) об'єкта однакове або **`false`** в іншому випадку.
 
 У разі виникнення помилки також повертається **`false`**. Для виявлення умов помилки використовуйте [intlgeterrorcode()](function.intl-get-error-code.html) або настройте викидання [исключений](intl.configuration.html#ini.intl.use-exceptions) в Intl.
 

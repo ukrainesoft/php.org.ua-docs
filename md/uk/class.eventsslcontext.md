@@ -1,12 +1,12 @@
 Клас EventSslContext
 
--   [« EventListener::setErrorCallback](eventlistener.seterrorcallback.html)
+-   [« EventListener::setErrorCallback](eventlistener.seterrorcallback.md)
     
--   [EventSslContext::construct »](eventsslcontext.construct.html)
+-   [EventSslContext::construct »](eventsslcontext.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](book.event.html)
+-   [Event](book.event.md)
     
 -   Клас EventSslContext
     
@@ -172,40 +172,40 @@ localпк
 
 **`EventSslContext::OPT_LOCAL_CERT`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.html) . Опція вказує шлях локального сертифіката.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Опція вказує шлях локального сертифіката.
 
 **`EventSslContext::OPT_LOCAL_PK`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.html) . Опція вказує на шлях локального приватного ключа.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Опція вказує на шлях локального приватного ключа.
 
 **`EventSslContext::OPT_PASSPHRASE`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.html) . Надає пароль сертифіката.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Надає пароль сертифіката.
 
 **`EventSslContext::OPT_CA_FILE`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.html) . Це шлях до файлу центру сертифікації.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Це шлях до файлу центру сертифікації.
 
 **`EventSslContext::OPT_CA_PATH`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.html) . Представляє шлях, яким потрібно шукати файл центру сертифікації.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Представляє шлях, яким потрібно шукати файл центру сертифікації.
 
 **`EventSslContext::OPT_ALLOW_SELF_SIGNED`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.html) . Надає опцію, що дозволяє використовувати самопідписані сертифікати.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Надає опцію, що дозволяє використовувати самопідписані сертифікати.
 
 **`EventSslContext::OPT_VERIFY_PEER`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.html) . Надає опцію, що вказує модулю Event перевіряти вузли.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Надає опцію, що вказує модулю Event перевіряти вузли.
 
 **`EventSslContext::OPT_VERIFY_DEPTH`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.html) . Представляє максимальну глибину перевірки ланцюжка сертифікатів, допустиму для контексту SSL.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Представляє максимальну глибину перевірки ланцюжка сертифікатів, допустиму для контексту SSL.
 
 **`EventSslContext::OPT_CIPHERS`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.html) . Надає список шифрів для контексту SSL.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Надає список шифрів для контексту SSL.
 
 ## Зміст
 
--   [EventSslContext::construct](eventsslcontext.construct.html) — Конструктор контексту OpenSSL для використання у класах Event
+-   [EventSslContext::construct](eventsslcontext.construct.md) — Конструктор контексту OpenSSL для використання у класах Event

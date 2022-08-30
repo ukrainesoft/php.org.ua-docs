@@ -1,12 +1,12 @@
 Малює квадратичну криву Безьє
 
--   [« ImagickDraw::pathCurveToAbsolute](imagickdraw.pathcurvetoabsolute.html)
+-   [« ImagickDraw::pathCurveToAbsolute](imagickdraw.pathcurvetoabsolute.md)
     
--   [ImagickDraw::pathCurveToQuadraticBezierRelative »](imagickdraw.pathcurvetoquadraticbezierrelative.html)
+-   [ImagickDraw::pathCurveToQuadraticBezierRelative »](imagickdraw.pathcurvetoquadraticbezierrelative.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Малює квадратичну криву Безьє
     

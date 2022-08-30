@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.pthreads.html)
     
--   [Требования »](pthreads.requirements.html)
+-   [Вимоги »](pthreads.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,6 +15,6 @@
 
 ## Зміст
 
--   [Требования](pthreads.requirements.html)
+-   [Вимоги](pthreads.requirements.html)
 -   [Установка](pthreads.installation.html)
--   [Настройка во время выполнения](pthreads.configuration.html)
+-   [Налаштування під час виконання](pthreads.configuration.html)

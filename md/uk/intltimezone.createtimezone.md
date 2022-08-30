@@ -1,12 +1,12 @@
 Створити об'єкт часового поясу за ідентифікатором
 
--   [« IntlTimeZone::createEnumeration](intltimezone.createenumeration.html)
+-   [« IntlTimeZone::createEnumeration](intltimezone.createenumeration.md)
     
--   [IntlTimeZone::createTimeZoneIDEnumeration »](intltimezone.createtimezoneidenumeration.html)
+-   [IntlTimeZone::createTimeZoneIDEnumeration »](intltimezone.createtimezoneidenumeration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlTimeZone](class.intltimezone.html)
+-   [IntlTimeZone](class.intltimezone.md)
     
 -   Створити об'єкт часового поясу за ідентифікатором
     

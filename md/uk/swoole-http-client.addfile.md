@@ -4,7 +4,7 @@
     
 -   [SwooleHttpClient::close »](swoole-http-client.close.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleHttpClient](class.swoole-http-client.html)
     

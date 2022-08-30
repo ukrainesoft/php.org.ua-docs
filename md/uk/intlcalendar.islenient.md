@@ -1,12 +1,12 @@
 Визначає, чи інтерпретація дати/часу є м'якою.
 
--   [« IntlCalendar::isEquivalentTo](intlcalendar.isequivalentto.html)
+-   [« IntlCalendar::isEquivalentTo](intlcalendar.isequivalentto.md)
     
--   [IntlCalendar::isSet »](intlcalendar.isset.html)
+-   [IntlCalendar::isSet »](intlcalendar.isset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Визначає, чи інтерпретація дати/часу є м'якою.
     
@@ -37,7 +37,7 @@ intlcal_is_lenient(IntlCalendar $calendar): bool
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 ### Значення, що повертаються
 

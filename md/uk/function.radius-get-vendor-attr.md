@@ -4,9 +4,9 @@
     
 -   [radiusputaddr »](function.radius-put-addr.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Radius](ref.radius.html)
+-   [Функции Radius](ref.radius.md)
     
 -   Витягує атрибут, що залежить від постачальника
     

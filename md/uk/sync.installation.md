@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](sync.requirements.html)
+-   [« Вимоги](sync.requirements.html)
     
--   [Настройка во время выполнения »](sync.configuration.html)
+-   [Налаштування під час виконання »](sync.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](sync.setup.html)
+-   [Встановлення та налаштування](sync.setup.html)
     
 -   Встановлення
     

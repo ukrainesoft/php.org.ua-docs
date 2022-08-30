@@ -1,12 +1,12 @@
 Вступ
 
--   [« Rar](book.rar.html)
+-   [« Rar](book.rar.md)
     
--   [Установка и настройка »](rar.setup.html)
+-   [Встановлення та налаштування »](rar.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Rar](book.rar.html)
+-   [Rar](book.rar.md)
     
 -   Вступ
     

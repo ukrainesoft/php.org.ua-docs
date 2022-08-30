@@ -4,7 +4,7 @@
     
 -   [FFICType::getArrayElementType »](ffi-ctype.getarrayelementtype.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [FFICType](class.ffi-ctype.html)
     

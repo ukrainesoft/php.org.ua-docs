@@ -1,12 +1,12 @@
 Встановлює позицію внутрішнього покажчика LOB
 
--   [« OCILob::saveFile](ocilob.savefile.html)
+-   [« OCILob::saveFile](ocilob.savefile.md)
     
--   [OCILob::setBuffering »](ocilob.setbuffering.html)
+-   [OCILob::setBuffering »](ocilob.setbuffering.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCILob](class.ocilob.html)
+-   [OCILob](class.ocilob.md)
     
 -   Встановлює позицію внутрішнього покажчика LOB
     
@@ -45,12 +45,12 @@ public OCILob::seek(int $offset, int $whence = OCI_SEEK_SET): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                                |
-|------------------------|---------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
--   [OCILob::rewind](ocilob.rewind.html)
--   [OCILob::tell](ocilob.tell.html)
--   [OCILob::eof](ocilob.eof.html)
+-   [OCILob::rewind](ocilob.rewind.md)
+-   [OCILob::tell](ocilob.tell.md)
+-   [OCILob::eof](ocilob.eof.md)

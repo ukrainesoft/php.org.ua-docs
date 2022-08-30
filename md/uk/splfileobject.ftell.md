@@ -1,12 +1,12 @@
 Повернути поточну позицію файлового покажчика
 
--   [« SplFileObject::fstat](splfileobject.fstat.html)
+-   [« SplFileObject::fstat](splfileobject.fstat.md)
     
--   [SplFileObject::ftruncate »](splfileobject.ftruncate.html)
+-   [SplFileObject::ftruncate »](splfileobject.ftruncate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileObject](class.splfileobject.html)
+-   [SplFileObject](class.splfileobject.md)
     
 -   Повернути поточну позицію файлового покажчика
     
@@ -51,4 +51,4 @@ echo $file->ftell();
 
 ### Дивіться також
 
--   [ftell()](function.ftell.html) - Повертає поточну позицію покажчика читання/запису файлу
+-   [ftell()](function.ftell.md) - Повертає поточну позицію покажчика читання/запису файлу

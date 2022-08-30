@@ -2,11 +2,11 @@
 
 -   [« Установка](xdiff.installation.html)
     
--   [Типы ресурсов »](xdiff.resources.html)
+-   [Типи ресурсів »](xdiff.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](xdiff.setup.html)
+-   [Встановлення та налаштування](xdiff.setup.html)
     
 -   Налаштування під час виконання
     

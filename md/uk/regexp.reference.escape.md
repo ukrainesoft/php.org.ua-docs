@@ -1,12 +1,12 @@
 Екрануючі послідовності
 
--   [« Метасимволы](regexp.reference.meta.html)
+-   [« Метасимволи](regexp.reference.meta.html)
     
 -   [Властивості Unicode-символів »](regexp.reference.unicode.html)
     
 -   [PHP Manual](index.html)
     
--   [Описание синтаксиса Perl-совместимых регулярных выражений](reference.pcre.pattern.syntax.html)
+-   [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.html)
     
 -   Екрануючі послідовності
     

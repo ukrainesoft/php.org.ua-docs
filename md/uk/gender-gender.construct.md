@@ -4,9 +4,9 @@
     
 -   [GenderGender::country »](gender-gender.country.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GenderGender](class.gender.html)
+-   [GenderGender](class.gender.md)
     
 -   Конструктор об'єкта класу Gender
     

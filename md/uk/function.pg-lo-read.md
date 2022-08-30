@@ -4,9 +4,9 @@
     
 -   [пглоseek »](function.pg-lo-seek.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PostgreSQL](ref.pgsql.html)
+-   [Функции PostgreSQL](ref.pgsql.md)
     
 -   Читає дані великого об'єкту
     
@@ -47,9 +47,9 @@ pg_lo_read(PgSql\Lob $lob, int $length = 8192): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -4,7 +4,7 @@
     
 -   [YafRequestHttp::isXmlHttpRequest »](yaf-request-http.isxmlhttprequest.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRequestHttp](class.yaf-request-http.html)
     

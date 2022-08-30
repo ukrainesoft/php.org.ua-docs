@@ -1,12 +1,12 @@
 Отримує екстремуми для зображення
 
--   [« Gmagick::getimagedispose](gmagick.getimagedispose.html)
+-   [« Gmagick::getimagedispose](gmagick.getimagedispose.md)
     
--   [Gmagick::getimagefilename »](gmagick.getimagefilename.html)
+-   [Gmagick::getimagefilename »](gmagick.getimagefilename.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Отримує екстремуми для зображення
     

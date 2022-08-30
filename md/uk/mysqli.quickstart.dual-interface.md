@@ -1,12 +1,12 @@
 Процедурний та об'єктно-орієнтований інтерфейс
 
--   [« Краткое руководство](mysqli.quickstart.html)
+-   [« Краткое руководство](mysqli.quickstart.md)
     
--   [Соединения »](mysqli.quickstart.connections.html)
+-   [Соединения »](mysqli.quickstart.connections.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Краткое руководство](mysqli.quickstart.html)
+-   [Краткое руководство](mysqli.quickstart.md)
     
 -   Процедурний та об'єктно-орієнтований інтерфейс
     
@@ -98,11 +98,11 @@ if ($row = $result->fetch_assoc()) {
 
 *Дивіться також*
 
--   [mysqli::construct()](mysqli.construct.html)
--   [mysqli::query()](mysqli.query.html)
+-   [mysqli::construct()](mysqli.construct.md)
+-   [mysqli::query()](mysqli.query.md)
 -   [mysqliresult::fetchassoc()](mysqli-result.fetch-assoc.html)
 -   [$mysqli::connecterrno](mysqli.connect-errno.html)
 -   [$mysqli::connecterror](mysqli.connect-error.html)
--   [$mysqli::errno](mysqli.errno.html)
--   [$mysqli::error](mysqli.error.html)
--   [Общее описание функций модуля MySQLi](mysqli.summary.html)
+-   [$mysqli::errno](mysqli.errno.md)
+-   [$mysqli::error](mysqli.error.md)
+-   [Общее описание функций модуля MySQLi](mysqli.summary.md)

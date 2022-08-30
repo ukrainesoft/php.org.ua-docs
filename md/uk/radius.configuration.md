@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](radius.installation.html)
+-   [« Установка](radius.installation.md)
     
--   [Типы ресурсов »](radius.resources.html)
+-   [Типи ресурсів »](radius.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](radius.setup.html)
+-   [Встановлення та налаштування](radius.setup.md)
     
 -   Налаштування під час виконання
     

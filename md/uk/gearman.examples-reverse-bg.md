@@ -2,11 +2,11 @@
 
 -   [« Базовое использование](gearman.examples-reverse.html)
     
--   [Базовые клиент и обработчик Gearman, отправка задач »](gearman.examples-reverse-task.html)
+-   [Базові клієнт та обробник Gearman, відправка завдань »](gearman.examples-reverse-task.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](gearman.examples.html)
+-   [Приклади](gearman.examples.md)
     
 -   Базовий клієнт та обробник Gearman, фоновий режим
     

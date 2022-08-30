@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.win32service.html)
     
--   [Требования »](win32service.requirements.html)
+-   [Вимоги »](win32service.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,8 +15,8 @@
 
 ## Зміст
 
--   [Требования](win32service.requirements.html)
+-   [Вимоги](win32service.requirements.html)
 -   [Установка](win32service.installation.html)
--   [Настройка во время выполнения](win32service.configuration.html)
--   [Типы ресурсов](win32service.resources.html)
+-   [Налаштування під час виконання](win32service.configuration.html)
+-   [Типи ресурсів](win32service.resources.html)
 -   [Питання безпеки](win32service.security.html)

@@ -4,7 +4,7 @@
     
 -   [YafControllerAbstract::setViewpath »](yaf-controller-abstract.setviewpath.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafControllerAbstract](class.yaf-controller-abstract.html)
     

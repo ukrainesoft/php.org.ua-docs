@@ -6,14 +6,14 @@
     
 -   [PHP Manual](index.html)
     
--   [Объяснение ссылок](language.references.html)
+-   [Пояснення посилань](language.references.html)
     
 -   Що роблять посилання
     
 
 ## Що роблять посилання
 
-Є три основні операції з використанням посилань: [присвоение по ссылке](language.references.whatdo.html#language.references.whatdo.assign) [передача по ссылке](language.references.whatdo.html#language.references.whatdo.pass) і [возврат по ссылке](language.references.whatdo.html#language.references.whatdo.return). Цей розділ познайомить вас із цими операціями та надасть посилання для подальшого вивчення.
+Є три основні операції з використанням посилань: [присвоєння за посиланням](language.references.whatdo.html#language.references.whatdo.assign) [передача за посиланням](language.references.whatdo.html#language.references.whatdo.pass) і [повернення за посиланням](language.references.whatdo.html#language.references.whatdo.return). Цей розділ познайомить вас із цими операціями та надасть посилання для подальшого вивчення.
 
 ### Присвоєння за посиланням
 
@@ -132,7 +132,7 @@ $b =& $a;
 $c = $b;
 $c = 7; //$c не ссылка и не изменяет значений $a и $b
 
-/* Присвоение массивов */
+/* Присвоение Масивов */
 $arr = array(1);
 $a =& $arr[0]; // $a и $arr[0] ссылаются на одно значение
 $arr2 = $arr; // присвоение не по ссылке!
@@ -159,8 +159,8 @@ foo($a);
 ?>
 ```
 
-Цей код надасть $a значення 6. Це відбувається, тому що у функції foo змінна $var посилається на той же вміст, що й змінна $a. Дивіться також детальне пояснення [передачи по ссылке](language.references.pass.html)
+Цей код надасть $a значення 6. Це відбувається, тому що у функції foo змінна $var посилається на той же вміст, що й змінна $a. Дивіться також детальне пояснення [передачі за посиланням](language.references.pass.html)
 
 ### Повернення за посиланням
 
-Третє, що можуть робити посилання – це [возврат по ссылке](language.references.return.html)
+Третє, що можуть робити посилання – це [повернення за посиланням](language.references.return.html)

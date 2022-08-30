@@ -4,9 +4,9 @@
     
 -   [snmpv3set »](function.snmp3-set.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.md)
     
 -   Повертає всі об'єкти, включаючи їхній ідентифікатор у зазначеному об'єкті
     
@@ -73,9 +73,9 @@ snmp3_real_walk(    string $hostname,    string $security_name,    s
 
 ### список змін
 
-| Версия | Описание                                                                                     |
-|--------|----------------------------------------------------------------------------------------------|
-|        | Параметр `auth_protocol` тепер приймає `"SHA256"` і `"SHA512"`якщо підтримується libnetsnmp. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `auth_protocol` тепер приймає `"SHA256"` і `"SHA512"`якщо підтримується libnetsnmp. |
 
 ### Приклади
 
@@ -101,4 +101,4 @@ array (
 
 ### Дивіться також
 
--   [snmpwalk()](function.snmpwalk.html) - Отримує всі об'єкти SNMP з агента
+-   [snmpwalk()](function.snmpwalk.md) - Отримує всі об'єкти SNMP з агента

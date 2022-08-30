@@ -4,9 +4,9 @@
     
 -   [fbirdfetchobject »](function.fbird-fetch-object.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Firebird/InterBase](ref.ibase.html)
+-   [Функции Firebird/InterBase](ref.ibase.md)
     
 -   Псевдонім ibasefetchassoc
     

@@ -1,12 +1,12 @@
 Декодує дані, закодовані MIME base64
 
--   [« Функції URL](ref.url.html)
+-   [« Функції URL](ref.url.md)
     
 -   [base64encode »](function.base64-encode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції URL](ref.url.html)
+-   [Функції URL](ref.url.md)
     
 -   Декодує дані, закодовані MIME base64
     

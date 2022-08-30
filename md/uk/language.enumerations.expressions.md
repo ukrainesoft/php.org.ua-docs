@@ -1,6 +1,6 @@
 Значення перерахування у постійних виразах
 
--   [« Трейты](language.enumerations.traits.html)
+-   [« Трейти](language.enumerations.traits.html)
     
 -   [Відмінності від об'єктів »](language.enumerations.object-differences.html)
     

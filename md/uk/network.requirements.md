@@ -1,16 +1,16 @@
 Вимоги
 
--   [« Установка и настройка](network.setup.html)
+-   [« Встановлення та налаштування](network.setup.md)
     
--   [Установка »](network.installation.html)
+-   [Установка »](network.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](network.setup.html)
+-   [Встановлення та налаштування](network.setup.md)
     
 -   Вимоги
     
 
 ## Вимоги
 
-Функції [checkdnsrr()](function.checkdnsrr.html) [getmxrr()](function.getmxrr.html) і [dnsgetrecord()](function.dns-get-record.html) вимагають наявності Bind у Linux.
+Функції [checkdnsrr()](function.checkdnsrr.md) [getmxrr()](function.getmxrr.md) і [dnsgetrecord()](function.dns-get-record.html) вимагають наявності Bind у Linux.

@@ -1,12 +1,12 @@
 Створює засіб форматування чисел
 
--   [« NumberFormatter](class.numberformatter.html)
+-   [« NumberFormatter](class.numberformatter.md)
     
--   [NumberFormatter::formatCurrency »](numberformatter.formatcurrency.html)
+-   [NumberFormatter::formatCurrency »](numberformatter.formatcurrency.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [NumberFormatter](class.numberformatter.html)
+-   [NumberFormatter](class.numberformatter.md)
     
 -   Створює засіб форматування чисел
     
@@ -57,13 +57,13 @@ public **NumberFormatter::construct**(string `$locale`, int `$style`, ?string `$
 
 ### Значення, що повертаються
 
-Повертає об'єкт [NumberFormatter](class.numberformatter.html) або **`null`** у разі виникнення помилки.
+Повертає об'єкт [NumberFormatter](class.numberformatter.md) або **`null`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия | Описание                                |
-|--------|-----------------------------------------|
-|        | `pattern` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `pattern` тепер допускає значення null. |
 
 ### Приклади
 
@@ -98,5 +98,5 @@ millicentoquarantadue
 
 ### Дивіться також
 
--   [numfmtformat()](numberformatter.format.html) - Форматує число
--   [numfmtparse()](numberformatter.parse.html) - Розбирає число
+-   [numfmtformat()](numberformatter.format.md) - Форматує число
+-   [numfmtparse()](numberformatter.parse.md) - Розбирає число

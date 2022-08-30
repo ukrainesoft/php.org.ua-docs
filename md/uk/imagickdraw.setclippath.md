@@ -1,12 +1,12 @@
 Зв'язує іменований контур відсічного контуру із зображенням
 
--   [« ImagickDraw::scale](imagickdraw.scale.html)
+-   [« ImagickDraw::scale](imagickdraw.scale.md)
     
--   [ImagickDraw::setClipRule »](imagickdraw.setcliprule.html)
+-   [ImagickDraw::setClipRule »](imagickdraw.setcliprule.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Зв'язує іменований контур відсічного контуру із зображенням
     

@@ -1,12 +1,12 @@
 Конструктор SoapServer
 
--   [« SoapServer::addSoapHeader](soapserver.addsoapheader.html)
+-   [« SoapServer::addSoapHeader](soapserver.addsoapheader.md)
     
--   [SoapServer::fault »](soapserver.fault.html)
+-   [SoapServer::fault »](soapserver.fault.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SoapServer](class.soapserver.html)
+-   [SoapServer](class.soapserver.md)
     
 -   Конструктор SoapServer
     
@@ -21,7 +21,7 @@ SoapServer::construct — Конструктор SoapServer
 
 public **SoapServer::construct**(?string `$wsdl`, array `$options`
 
-Цей конструктор дозволяє створювати об'єкти [SoapServer](class.soapserver.html) у WSDL чи не-WSDL режимах.
+Цей конструктор дозволяє створювати об'єкти [SoapServer](class.soapserver.md) у WSDL чи не-WSDL режимах.
 
 ### Список параметрів
 

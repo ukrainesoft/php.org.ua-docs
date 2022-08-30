@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](gnupg.configuration.html)
+-   [« Налаштування під час виконання](gnupg.configuration.md)
     
--   [Предопределённые константы »](gnupg.constants.html)
+-   [Обумовлені константи »](gnupg.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](gnupg.setup.html)
+-   [Встановлення та налаштування](gnupg.setup.md)
     
 -   Типи ресурсів
     

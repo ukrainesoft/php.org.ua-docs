@@ -4,9 +4,9 @@ MQSeries MQCLOSE
     
 -   [mqseriescmit »](function.mqseries-cmit.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции mqseries](ref.mqseries.html)
+-   [Функции mqseries](ref.mqseries.md)
     
 -   MQSeries MQCLOSE
     

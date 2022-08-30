@@ -49,7 +49,7 @@ final public MongoDB\Driver\Manager::getServers(): array
 $manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
 
 /* Из-за того, что драйвер подключается к серверу лениво, вызов Manager::getServers()
- * первоначально может вернуть пустой массив. */
+ * первоначально может вернуть пустой Масив. */
 var_dump($manager->getServers());
 
 $command = new MongoDB\Driver\Command(['ping' => 1]);

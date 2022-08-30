@@ -1,12 +1,12 @@
 Екранує рядок слішами у стилі мови C
 
--   [« Функції для роботи з рядками](ref.strings.html)
+-   [« Функції для роботи з рядками](ref.strings.md)
     
--   [addslashes »](function.addslashes.html)
+-   [addslashes »](function.addslashes.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Екранує рядок слішами у стилі мови C
     
@@ -46,7 +46,7 @@ echo addcslashes('foo[ ]', 'A..z');
 ?>
 ```
 
-Також, якщо ASCII код першого символу діапазону більше, ніж останнього, діапазон не буде створено. Натомість екрануватимуться лише перший символ, останній символ та точка. Для визначення ASCII-коду символів використовуйте функцію [ord()](function.ord.html)
+Також, якщо ASCII код першого символу діапазону більше, ніж останнього, діапазон не буде створено. Натомість екрануватимуться лише перший символ, останній символ та точка. Для визначення ASCII-коду символів використовуйте функцію [ord()](function.ord.md)
 
 ```php
 <?php
@@ -75,8 +75,8 @@ $escaped = addcslashes($not_escaped, "\0..\37!@\177..\377");
 
 ### Дивіться також
 
--   [stripcslashes()](function.stripcslashes.html) - Видаляє екранування символів, зроблене функцією addcslashes
--   [stripslashes()](function.stripslashes.html) - Видаляє екранування символів
--   [addslashes()](function.addslashes.html) - Екранує рядок за допомогою слішів
--   [htmlspecialchars()](function.htmlspecialchars.html) - Перетворює спеціальні символи на HTML-сутності
--   [quotemeta()](function.quotemeta.html) - Екранує спеціальні символи
+-   [stripcslashes()](function.stripcslashes.md) - Видаляє екранування символів, зроблене функцією addcslashes
+-   [stripslashes()](function.stripslashes.md) - Видаляє екранування символів
+-   [addslashes()](function.addslashes.md) - Екранує рядок за допомогою слішів
+-   [htmlspecialchars()](function.htmlspecialchars.md) - Перетворює спеціальні символи на HTML-сутності
+-   [quotemeta()](function.quotemeta.md) - Екранує спеціальні символи

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](scoutapm.setup.html)
+-   [« Встановлення та налаштування](scoutapm.setup.html)
     
 -   [Установка »](scoutapm.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](scoutapm.setup.html)
+-   [Встановлення та налаштування](scoutapm.setup.html)
     
 -   Вимоги
     

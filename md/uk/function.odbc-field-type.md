@@ -4,9 +4,9 @@
     
 -   [odbcforeignkeys »](function.odbc-foreignkeys.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции ODBC](ref.uodbc.html)
+-   [Функции ODBC](ref.uodbc.md)
     
 -   Повертає тип даних поля
     

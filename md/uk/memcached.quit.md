@@ -1,12 +1,12 @@
 Закриває всі відкриті з'єднання
 
--   [« Memcached::prependByKey](memcached.prependbykey.html)
+-   [« Memcached::prependByKey](memcached.prependbykey.md)
     
--   [Memcached::replace »](memcached.replace.html)
+-   [Memcached::replace »](memcached.replace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Закриває всі відкриті з'єднання
     

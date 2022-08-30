@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONTimestamp::unserialize »](mongodb-bson-timestamp.unserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html)
     
@@ -52,4 +52,4 @@ string(11) "[1234:5678]"
 
 ### Дивіться також
 
--   [» Типы BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)
+-   [» Типи BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)

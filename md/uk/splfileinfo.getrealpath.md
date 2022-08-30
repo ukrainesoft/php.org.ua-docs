@@ -1,12 +1,12 @@
 Отримує абсолютний шлях до файлу
 
--   [« SplFileInfo::getPerms](splfileinfo.getperms.html)
+-   [« SplFileInfo::getPerms](splfileinfo.getperms.md)
     
--   [SplFileInfo::getSize »](splfileinfo.getsize.html)
+-   [SplFileInfo::getSize »](splfileinfo.getsize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Отримує абсолютний шлях до файлу
     
@@ -68,5 +68,5 @@ string(12) "/private/tmp"
 
 ### Дивіться також
 
--   [SplFileInfo::isLink()](splfileinfo.islink.html) - Вказує, чи є файл посиланням
--   [realpath()](function.realpath.html) - Повертає абсолютний канонізований шлях до файлу
+-   [SplFileInfo::isLink()](splfileinfo.islink.md) - Вказує, чи є файл посиланням
+-   [realpath()](function.realpath.md) - Повертає абсолютний канонізований шлях до файлу

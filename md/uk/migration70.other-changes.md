@@ -2,11 +2,11 @@
 
 -   [« Віддалені модулі та SAPI](migration70.removed-exts-sapis.html)
     
--   [Миграция с PHP 5.5.x на PHP 5.6.x »](migration56.html)
+-   [Миграция с PHP 5.5.x на PHP 5.6.x »](migration56.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.html)
+-   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.md)
     
 -   Інші зміни
     

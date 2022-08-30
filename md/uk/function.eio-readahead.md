@@ -4,9 +4,9 @@
     
 -   [eioreaddir »](function.eio-readdir.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Поміщає дані з файлу до кешу сторінки
     

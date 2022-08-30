@@ -4,9 +4,9 @@
     
 -   [yazpresent »](function.yaz-present.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции YAZ](ref.yaz.html)
+-   [Функции YAZ](ref.yaz.md)
     
 -   Підготовка запиту до Z39.50 Item Order з пакетом ILL-Request
     

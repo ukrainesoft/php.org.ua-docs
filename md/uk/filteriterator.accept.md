@@ -1,12 +1,12 @@
 Перевіряє, чи є поточний елемент ітератора допустимим
 
--   [« FilterIterator](class.filteriterator.html)
+-   [« FilterIterator](class.filteriterator.md)
     
--   [FilterIterator::construct »](filteriterator.construct.html)
+-   [FilterIterator::construct »](filteriterator.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FilterIterator](class.filteriterator.html)
+-   [FilterIterator](class.filteriterator.md)
     
 -   Перевіряє, чи є поточний елемент ітератора допустимим
     

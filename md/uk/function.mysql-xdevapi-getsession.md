@@ -4,7 +4,7 @@
     
 -   [mysqlxdevapiBaseResult »](class.mysql-xdevapi-baseresult.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Функції Mysqlxdevapi](ref.mysql-xdevapi.html)
     
@@ -57,7 +57,7 @@ URI до сервера MySQL, як `mysqlx://user:password@host`
     
 -   `?attribute=value`: цей елемент є необов'язковим та визначає словник даних, який містить різні параметри, у тому числі:
     
-    -   Атрибут `auth` (механізм аутентифікації), оскільки він відноситься до зашифрованих з'єднань. Для отримання додаткової інформації дивіться [» Параметры команды для зашифрованных соединений](https://dev.mysql.com/doc/refman/8.0/en/encrypted-connection-options.html). Підтримуються такі значення: `plain` `mysql41` `external`, і `sha256_mem`
+    -   Атрибут `auth` (механізм аутентифікації), оскільки він відноситься до зашифрованих з'єднань. Для отримання додаткової інформації дивіться [» Параметри команди для зашифрованих з'єднань](https://dev.mysql.com/doc/refman/8.0/en/encrypted-connection-options.html). Підтримуються такі значення: `plain` `mysql41` `external`, і `sha256_mem`
         
     -   Атрибут `connect-timeout` впливає з'єднання, а чи не на наступні операції. Він встановлюється для кожного з'єднання на одному або кількох хостах.
         
@@ -101,7 +101,7 @@ mysqlx://foo:bar@localhost:33160/?connect-timeout=10&compression=required&compre
 
 ### Помилки
 
-Помилка з'єднання викликає [Exception](class.exception.html)
+Помилка з'єднання викликає [Exception](class.exception.md)
 
 ### Приклади
 

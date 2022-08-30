@@ -1,12 +1,12 @@
 Ключове слово namespace та константа NAMESPACE
 
--   [« Простори імен та динамічні особливості мови](language.namespaces.dynamic.html)
+-   [« Простори імен та динамічні особливості мови](language.namespaces.dynamic.md)
     
--   [Использование пространств имён: импорт/создание псевдонима имени »](language.namespaces.importing.html)
+-   [Использование пространств имён: импорт/создание псевдонима имени »](language.namespaces.importing.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Пространства имён](language.namespaces.html)
+-   [Пространства имён](language.namespaces.md)
     
 -   Ключове слово namespace та константа NAMESPACE
     

@@ -1,12 +1,12 @@
 Обрізати зображення до заданого прямокутника
 
--   [« imagecreatetruecolor](function.imagecreatetruecolor.html)
+-   [« imagecreatetruecolor](function.imagecreatetruecolor.md)
     
--   [imagecropauto »](function.imagecropauto.html)
+-   [imagecropauto »](function.imagecropauto.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Обрізати зображення до заданого прямокутника
     
@@ -29,7 +29,7 @@ imagecrop(GdImage $image, array $rectangle): GdImage|false
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `rectangle`
 
@@ -41,10 +41,10 @@ imagecrop(GdImage $image, array $rectangle): GdImage|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource).                                |
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 
@@ -67,4 +67,4 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagecropauto()](function.imagecropauto.html) - Обрізає зображення автоматично, використовуючи один із доступних режимів
+-   [imagecropauto()](function.imagecropauto.md) - Обрізає зображення автоматично, використовуючи один із доступних режимів

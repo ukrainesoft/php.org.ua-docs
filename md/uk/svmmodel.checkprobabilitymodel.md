@@ -1,12 +1,12 @@
 Повертає true, якщо модель містить інформацію про можливості
 
--   [« SVMModel](class.svmmodel.html)
+-   [« SVMModel](class.svmmodel.md)
     
--   [SVMModel::construct »](svmmodel.construct.html)
+-   [SVMModel::construct »](svmmodel.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SVMModel](class.svmmodel.html)
+-   [SVMModel](class.svmmodel.md)
     
 -   Повертає true, якщо модель містить інформацію про можливості
     

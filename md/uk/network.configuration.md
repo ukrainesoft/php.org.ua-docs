@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](network.installation.html)
+-   [« Установка](network.installation.md)
     
--   [Типы ресурсов »](network.resources.html)
+-   [Типи ресурсів »](network.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](network.setup.html)
+-   [Встановлення та налаштування](network.setup.md)
     
 -   Налаштування під час виконання
     

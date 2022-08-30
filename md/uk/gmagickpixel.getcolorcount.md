@@ -1,12 +1,12 @@
 Отримати кількість пікселів зображення, що мають заданий колір
 
--   [« GmagickPixel::getcolor](gmagickpixel.getcolor.html)
+-   [« GmagickPixel::getcolor](gmagickpixel.getcolor.md)
     
--   [GmagickPixel::getcolorvalue »](gmagickpixel.getcolorvalue.html)
+-   [GmagickPixel::getcolorvalue »](gmagickpixel.getcolorvalue.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickPixel](class.gmagickpixel.html)
+-   [GmagickPixel](class.gmagickpixel.md)
     
 -   Отримати кількість пікселів зображення, що мають заданий колір
     

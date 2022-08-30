@@ -1,12 +1,12 @@
 Псевдонім ociexecute
 
--   [« ocierror](function.ocierror.html)
+-   [« ocierror](function.ocierror.md)
     
--   [ocifetch »](function.ocifetch.html)
+-   [ocifetch »](function.ocifetch.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Псевдонім ociexecute
     

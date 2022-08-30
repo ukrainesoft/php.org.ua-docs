@@ -2,7 +2,7 @@
 
 -   [« ZooKeeper](book.zookeeper.html)
     
--   [Установка и настройка »](zookeeper.setup.html)
+-   [Встановлення та налаштування »](zookeeper.setup.html)
     
 -   [PHP Manual](index.html)
     

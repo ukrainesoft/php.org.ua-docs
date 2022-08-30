@@ -4,9 +4,9 @@
     
 -   [cubriddisconnect »](function.cubrid-disconnect.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Повертає OID поточної позиції курсору
     

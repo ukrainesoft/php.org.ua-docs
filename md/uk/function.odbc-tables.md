@@ -2,11 +2,11 @@
 
 -   [« odbctableprivileges](function.odbc-tableprivileges.html)
     
--   [PDO »](book.pdo.html)
+-   [PDO »](book.pdo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции ODBC](ref.uodbc.html)
+-   [Функции ODBC](ref.uodbc.md)
     
 -   Отримує список імен таблиць, що зберігаються у певному джерелі даних
     
@@ -71,9 +71,9 @@ odbc_tables(    resource $odbc,    ?string $catalog = null,    ?stri
 
 ### список змін
 
-| Версия | Описание                                                        |
-|--------|-----------------------------------------------------------------|
-|        | `schema` `table` і `types` тепер можуть набувати значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `schema` `table` і `types` тепер можуть набувати значення null. |
 
 ### Приклади
 

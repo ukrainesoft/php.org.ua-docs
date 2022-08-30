@@ -1,12 +1,12 @@
 Синтаксис
 
--   [« Константы](language.constants.html)
+-   [« Константи](language.constants.html)
     
--   [Предопределённые константы »](language.constants.predefined.html)
+-   [Обумовлені константи »](language.constants.predefined.html)
     
 -   [PHP Manual](index.html)
     
--   [Константы](language.constants.html)
+-   [Константи](language.constants.html)
     
 -   Синтаксис
     
@@ -21,7 +21,7 @@
 
 > **Зауваження**: Константи та (глобальні) змінні знаходяться у різних просторах імен. Це означає, що, наприклад, **`true`** і $TRUE загалом відрізняються.
 
-Якщо використовується невизначена константа, викидається [Error](class.error.html). До PHP 8.0.0 невизначені константи інтерпретувалися як просте слово string, тобто (CONSTANT vs "CONSTANT"). Цей резервний варіант оголошено застарілим з PHP 7.2.0, при цьому буде згенеровано помилку рівня **`E_WARNING`**. До PHP 7.2.0 натомість видавалася помилка рівня [ЕNOTICE](ref.errorfunc.html). Дивіться також розділ керівництва, який пояснює, чому [$foo\[bar\]](language.types.array.html#language.types.array.foo-bar) - це неправильно (якщо `bar` не є константою). Це не стосується [(полностью) определённым константам](language.namespaces.rules.html), які завжди викидатимуть [Error](class.error.html)якщо вони не визначені.
+Якщо використовується невизначена константа, викидається [Error](class.error.html). До PHP 8.0.0 невизначені константи інтерпретувалися як просте слово string, тобто (CONSTANT vs "CONSTANT"). Цей резервний варіант оголошено застарілим з PHP 7.2.0, при цьому буде згенеровано помилку рівня **`E_WARNING`**. До PHP 7.2.0 натомість видавалася помилка рівня [ЕNOTICE](ref.errorfunc.html). Дивіться також розділ керівництва, який пояснює, чому [$foo\[bar\]](language.types.array.html#language.types.array.foo-bar) - це неправильно (якщо `bar` не є константою). Це не стосується [(повністю) певним константам](language.namespaces.rules.html), які завжди викидатимуть [Error](class.error.html)якщо вони не визначені.
 
 > **Зауваження**: Щоб перевірити, чи встановлено константу, використовуйте функцію [defined()](function.defined.html)
 
@@ -59,7 +59,7 @@ echo ANOTHER_CONST;
 const ANIMALS = array('dog', 'cat', 'bird');
 echo ANIMALS[1]; // выводит "cat"
 
-// Массивы в константе
+// Масиви в константе
 define('ANIMALS', array(
     'dog',
     'cat',

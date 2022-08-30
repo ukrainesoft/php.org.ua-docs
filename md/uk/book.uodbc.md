@@ -2,25 +2,25 @@ ODBC (Unified)
 
 -   [« dbasync](function.dba-sync.html)
     
--   [Введение »](intro.uodbc.html)
+-   [Введение »](intro.uodbc.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Рівні абстракції](refs.database.abstract.html)
+-   [Рівні абстракції](refs.database.abstract.md)
     
 -   ODBC (Unified)
     
 
 # ODBC (Unified)
 
--   [Введение](intro.uodbc.html)
--   [Установка и настройка](uodbc.setup.html)
-    -   [Требования](uodbc.requirements.html)
-    -   [Установка](odbc.installation.html)
-    -   [Настройка во время выполнения](odbc.configuration.html)
-    -   [Типы ресурсов](uodbc.resources.html)
--   [Предопределённые константы](uodbc.constants.html)
--   [Функции ODBC](ref.uodbc.html)
+-   [Введение](intro.uodbc.md)
+-   [Встановлення та налаштування](uodbc.setup.md)
+    -   [Вимоги](uodbc.requirements.md)
+    -   [Установка](odbc.installation.md)
+    -   [Налаштування під час виконання](odbc.configuration.md)
+    -   [Типи ресурсів](uodbc.resources.md)
+-   [Обумовлені константи](uodbc.constants.md)
+-   [Функции ODBC](ref.uodbc.md)
     -   [odbcautocommit](function.odbc-autocommit.html) — Перемикає поведінку автоматичної фіксації
     -   [odbcbinmode](function.odbc-binmode.html) — керує обробкою двійкових даних стовпця
     -   [odbccloseall](function.odbc-close-all.html) — Закриває всі з'єднання ODBC

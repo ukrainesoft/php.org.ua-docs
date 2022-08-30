@@ -1,12 +1,12 @@
 Закриває підготовлений запит
 
--   [« SQLite3Stmt::clear](sqlite3stmt.clear.html)
+-   [« SQLite3Stmt::clear](sqlite3stmt.clear.md)
     
--   [SQLite3Stmt::construct »](sqlite3stmt.construct.html)
+-   [SQLite3Stmt::construct »](sqlite3stmt.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3Stmt](class.sqlite3stmt.html)
+-   [SQLite3Stmt](class.sqlite3stmt.md)
     
 -   Закриває підготовлений запит
     
@@ -25,7 +25,7 @@ public SQLite3Stmt::close(): bool
 
 Закриває запит.
 
-> **Зауваження**: Зверніть увагу, що всі об'єкти [SQLite3Result](class.sqlite3result.html), отримані під час виконання цього підготовленого запиту будуть визнані недійсними під час закриття цього запиту.
+> **Зауваження**: Зверніть увагу, що всі об'єкти [SQLite3Result](class.sqlite3result.md), отримані під час виконання цього підготовленого запиту будуть визнані недійсними під час закриття цього запиту.
 
 ### Список параметрів
 

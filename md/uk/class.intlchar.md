@@ -2,11 +2,11 @@ IntlChar
 
 -   [« idnтоutf8](function.idn-to-utf8.html)
     
--   [IntlChar::charAge »](intlchar.charage.html)
+-   [IntlChar::charAge »](intlchar.charage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [intl](book.intl.html)
+-   [intl](book.intl.md)
     
 -   IntlChar
     
@@ -2516,7 +2516,7 @@ public static toupper(int|string $codepoint): int|string|null
 
 **`IntlChar::NO_NUMERIC_VALUE`**
 
-Special value that is returned by [IntlChar::getNumericValue()](intlchar.getnumericvalue.html) коли не numeric value is defined for a code point.
+Special value that is returned by [IntlChar::getNumericValue()](intlchar.getnumericvalue.md) коли не numeric value is defined for a code point.
 
 **`IntlChar::PROPERTY_ALPHABETIC`**
 
@@ -3718,68 +3718,68 @@ Special value that is returned by [IntlChar::getNumericValue()](intlchar.getnume
 
 ## список змін
 
-| Версия | Описание                                          |
-|--------|---------------------------------------------------|
-|        | Додано константу **`IntlChar::NO_NUMERIC_VALUE`** |
+| Версия | Описание |
+| --- | --- |
+|  | Додано константу **`IntlChar::NO_NUMERIC_VALUE`** |
 
 ## Зміст
 
--   [IntlChar::charAge](intlchar.charage.html) — Отримати "вік" символьного коду
--   [IntlChar::charDigitValue](intlchar.chardigitvalue.html) — Отримати десяткову цифру із символу десяткової цифри
--   [IntlChar::charDirection](intlchar.chardirection.html) — Отримати категорію напряму листа для символу
--   [IntlChar::charFromName](intlchar.charfromname.html) — Знайти символ Unicode на його ім'я та повернути його код
--   [IntlChar::charMirror](intlchar.charmirror.html) — Отримати "дзеркальний" символ за кодом
--   [IntlChar::charName](intlchar.charname.html) — Отримати ім'я Unicode
--   [IntlChar::charType](intlchar.chartype.html) — Отримати головну категорію, до якої входить символ
--   [IntlChar::chr](intlchar.chr.html) — Отримати символ Unicode за його кодом
--   [IntlChar::digit](intlchar.digit.html) — Отримати десяткове число із символу Unicode із заданою основою
--   [IntlChar::enumCharNames](intlchar.enumcharnames.html) — Перелічує всі присвоєні символи Unicode у заданому діапазоні
--   [IntlChar::enumCharTypes](intlchar.enumchartypes.html) — Перелік послідовностей символів Unicode згрупованих за ними.
--   [IntlChar::foldCase](intlchar.foldcase.html) — Перетворює регістр заданого символу.
--   [IntlChar::forDigit](intlchar.fordigit.html) — Отримати символ, який представляє задане число в заданій основі
--   [IntlChar::getBidiPairedBracket](intlchar.getbidipairedbracket.html) — Отримати парну дужку для символу
--   [IntlChar::getBlockCode](intlchar.getblockcode.html) — Отримати блок розміщення символу Unicode
--   [IntlChar::getCombiningClass](intlchar.getcombiningclass.html) — Отримати комбінуючий клас для символу
+-   [IntlChar::charAge](intlchar.charage.md) — Отримати "вік" символьного коду
+-   [IntlChar::charDigitValue](intlchar.chardigitvalue.md) — Отримати десяткову цифру із символу десяткової цифри
+-   [IntlChar::charDirection](intlchar.chardirection.md) — Отримати категорію напряму листа для символу
+-   [IntlChar::charFromName](intlchar.charfromname.md) — Знайти символ Unicode на його ім'я та повернути його код
+-   [IntlChar::charMirror](intlchar.charmirror.md) — Отримати "дзеркальний" символ за кодом
+-   [IntlChar::charName](intlchar.charname.md) — Отримати ім'я Unicode
+-   [IntlChar::charType](intlchar.chartype.md) — Отримати головну категорію, до якої входить символ
+-   [IntlChar::chr](intlchar.chr.md) — Отримати символ Unicode за його кодом
+-   [IntlChar::digit](intlchar.digit.md) — Отримати десяткове число із символу Unicode із заданою основою
+-   [IntlChar::enumCharNames](intlchar.enumcharnames.md) — Перелічує всі присвоєні символи Unicode у заданому діапазоні
+-   [IntlChar::enumCharTypes](intlchar.enumchartypes.md) — Перелік послідовностей символів Unicode згрупованих за ними.
+-   [IntlChar::foldCase](intlchar.foldcase.md) — Перетворює регістр заданого символу.
+-   [IntlChar::forDigit](intlchar.fordigit.md) — Отримати символ, який представляє задане число в заданій основі
+-   [IntlChar::getBidiPairedBracket](intlchar.getbidipairedbracket.md) — Отримати парну дужку для символу
+-   [IntlChar::getBlockCode](intlchar.getblockcode.md) — Отримати блок розміщення символу Unicode
+-   [IntlChar::getCombiningClass](intlchar.getcombiningclass.md) — Отримати комбінуючий клас для символу
 -   [IntlChar::getFCNFKCClosure](intlchar.getfc-nfkc-closure.html) - Отримати властивість FCNFKCClosure для символу
--   [IntlChar::getIntPropertyMaxValue](intlchar.getintpropertymaxvalue.html) — Отримати мінімальне значення для властивості Unicode
--   [IntlChar::getIntPropertyMinValue](intlchar.getintpropertyminvalue.html) — Отримати мінімальне значення для властивості Unicode
--   [IntlChar::getIntPropertyValue](intlchar.getintpropertyvalue.html) — Отримати значення властивості Unicode для символу
--   [IntlChar::getNumericValue](intlchar.getnumericvalue.html) — Отримати числову виставу для символу Unicode
--   [IntlChar::getPropertyEnum](intlchar.getpropertyenum.html) — Отримати значення константи властивості на його ім'я
--   [IntlChar::getPropertyName](intlchar.getpropertyname.html) - Отримати Unicode ім'я властивості
--   [IntlChar::getPropertyValueEnum](intlchar.getpropertyvalueenum.html) — Повернути числовий ідентифікатор властивості на його ім'я
--   [IntlChar::getPropertyValueName](intlchar.getpropertyvaluename.html) — Отримати ім'я Unicode для значення властивості
--   [IntlChar::getUnicodeVersion](intlchar.getunicodeversion.html) — Отримати версію Unicode
--   [IntlChar::hasBinaryProperty](intlchar.hasbinaryproperty.html) — Перевірити бінарну властивість Unicode для символу
--   [IntlChar::isalnum](intlchar.isalnum.html) — Перевірити, чи є символ буквою чи цифрою
--   [IntlChar::isalpha](intlchar.isalpha.html) — Перевірити, чи є символ літерою
--   [IntlChar::isbase](intlchar.isbase.html) — Перевірити, чи символ є базовим
--   [IntlChar::isblank](intlchar.isblank.html) - Перевірити, чи є символ "порожнім" або "горизонтальним пропуском"
--   [IntlChar::iscntrl](intlchar.iscntrl.html) — Перевірити, чи є символ керуючим
--   [IntlChar::isdefined](intlchar.isdefined.html) — Перевірити, чи є символ.
--   [IntlChar::isdigit](intlchar.isdigit.html) — Перевірити, чи символ є цифрою
--   [IntlChar::isgraph](intlchar.isgraph.html) — Перевірити, чи є символом графічним символом
--   [IntlChar::isIDIgnorable](intlchar.isidignorable.html) — Перевірити, чи символ ігнорується
--   [IntlChar::isIDPart](intlchar.isidpart.html) — Перевірити, чи можна використовувати символ в ідентифікаторі
--   [IntlChar::isIDStart](intlchar.isidstart.html) — Перевірити, чи можна використовувати символ на початку ідентифікатора
--   [IntlChar::isISOControl](intlchar.isisocontrol.html) — Перевірити, чи є символ керуючим відповідно до ISO
--   [IntlChar::isJavaIDPart](intlchar.isjavaidpart.html) — Перевірити, чи символ допустимий в ідентифікаторі Java
--   [IntlChar::isJavaIDStart](intlchar.isjavaidstart.html) — Перевірити, чи символ може бути першим в ідентифікаторі Java
--   [IntlChar::isJavaSpaceChar](intlchar.isjavaspacechar.html) — Перевірити, чи є символ пробельним з точки зору Java
--   [IntlChar::islower](intlchar.islower.html) — Перевірити, чи у нижньому регістрі символ
--   [IntlChar::isMirrored](intlchar.ismirrored.html) — Перевірити, якщо символ має властивість BidiMirrored
--   [IntlChar::isprint](intlchar.isprint.html) — Перевіряє, чи символ відображається.
--   [IntlChar::ispunct](intlchar.ispunct.html) — Перевіряє, чи є символом пунктуації.
--   [IntlChar::isspace](intlchar.isspace.html) — Перевіряє, чи символ є пробельним.
--   [IntlChar::istitle](intlchar.istitle.html) — Перевірити, чи символ є титульним (Titlecase)
--   [IntlChar::isUAlphabetic](intlchar.isualphabetic.html) — Перевірити, чи встановлено символ символу Alphabetic
--   [IntlChar::isULowercase](intlchar.isulowercase.html) — Перевірити, чи символ є символом у нижньому регістрі
--   [IntlChar::isupper](intlchar.isupper.html) — Перевірити, чи входить символ у категорію "Lu" (літера у верхньому регістрі)
--   [IntlChar::isUUppercase](intlchar.isuuppercase.html) — Перевірити, чи символ є символом у верхньому регістрі
--   [IntlChar::isUWhiteSpace](intlchar.isuwhitespace.html) — Перевірити, чи має символ властивість WhiteSpace (пробіловий символ)
--   [IntlChar::isWhitespace](intlchar.iswhitespace.html) — Перевірити, чи символ є пробільним з точки зору ICU
--   [IntlChar::isxdigit](intlchar.isxdigit.html) — Перевірити, чи є символ шістнадцятковою цифрою
--   [IntlChar::ord](intlchar.ord.html) — Отримати код символ Unicode
--   [IntlChar::tolower](intlchar.tolower.html) — Перетворення символу Unicode на нижній регістр
--   [IntlChar::totitle](intlchar.totitle.html) — Перетворює символ Unicode у titlecase
--   [IntlChar::toupper](intlchar.toupper.html) — Перетворення символу Unicode у верхній регістр
+-   [IntlChar::getIntPropertyMaxValue](intlchar.getintpropertymaxvalue.md) — Отримати мінімальне значення для властивості Unicode
+-   [IntlChar::getIntPropertyMinValue](intlchar.getintpropertyminvalue.md) — Отримати мінімальне значення для властивості Unicode
+-   [IntlChar::getIntPropertyValue](intlchar.getintpropertyvalue.md) — Отримати значення властивості Unicode для символу
+-   [IntlChar::getNumericValue](intlchar.getnumericvalue.md) — Отримати числову виставу для символу Unicode
+-   [IntlChar::getPropertyEnum](intlchar.getpropertyenum.md) — Отримати значення константи властивості на його ім'я
+-   [IntlChar::getPropertyName](intlchar.getpropertyname.md) - Отримати Unicode ім'я властивості
+-   [IntlChar::getPropertyValueEnum](intlchar.getpropertyvalueenum.md) — Повернути числовий ідентифікатор властивості на його ім'я
+-   [IntlChar::getPropertyValueName](intlchar.getpropertyvaluename.md) — Отримати ім'я Unicode для значення властивості
+-   [IntlChar::getUnicodeVersion](intlchar.getunicodeversion.md) — Отримати версію Unicode
+-   [IntlChar::hasBinaryProperty](intlchar.hasbinaryproperty.md) — Перевірити бінарну властивість Unicode для символу
+-   [IntlChar::isalnum](intlchar.isalnum.md) — Перевірити, чи є символ буквою чи цифрою
+-   [IntlChar::isalpha](intlchar.isalpha.md) — Перевірити, чи є символ літерою
+-   [IntlChar::isbase](intlchar.isbase.md) — Перевірити, чи символ є базовим
+-   [IntlChar::isblank](intlchar.isblank.md) - Перевірити, чи є символ "порожнім" або "горизонтальним пропуском"
+-   [IntlChar::iscntrl](intlchar.iscntrl.md) — Перевірити, чи є символ керуючим
+-   [IntlChar::isdefined](intlchar.isdefined.md) — Перевірити, чи є символ.
+-   [IntlChar::isdigit](intlchar.isdigit.md) — Перевірити, чи символ є цифрою
+-   [IntlChar::isgraph](intlchar.isgraph.md) — Перевірити, чи є символом графічним символом
+-   [IntlChar::isIDIgnorable](intlchar.isidignorable.md) — Перевірити, чи символ ігнорується
+-   [IntlChar::isIDPart](intlchar.isidpart.md) — Перевірити, чи можна використовувати символ в ідентифікаторі
+-   [IntlChar::isIDStart](intlchar.isidstart.md) — Перевірити, чи можна використовувати символ на початку ідентифікатора
+-   [IntlChar::isISOControl](intlchar.isisocontrol.md) — Перевірити, чи є символ керуючим відповідно до ISO
+-   [IntlChar::isJavaIDPart](intlchar.isjavaidpart.md) — Перевірити, чи символ допустимий в ідентифікаторі Java
+-   [IntlChar::isJavaIDStart](intlchar.isjavaidstart.md) — Перевірити, чи символ може бути першим в ідентифікаторі Java
+-   [IntlChar::isJavaSpaceChar](intlchar.isjavaspacechar.md) — Перевірити, чи є символ пробельним з точки зору Java
+-   [IntlChar::islower](intlchar.islower.md) — Перевірити, чи у нижньому регістрі символ
+-   [IntlChar::isMirrored](intlchar.ismirrored.md) — Перевірити, якщо символ має властивість BidiMirrored
+-   [IntlChar::isprint](intlchar.isprint.md) — Перевіряє, чи символ відображається.
+-   [IntlChar::ispunct](intlchar.ispunct.md) — Перевіряє, чи є символом пунктуації.
+-   [IntlChar::isspace](intlchar.isspace.md) — Перевіряє, чи символ є пробельним.
+-   [IntlChar::istitle](intlchar.istitle.md) — Перевірити, чи символ є титульним (Titlecase)
+-   [IntlChar::isUAlphabetic](intlchar.isualphabetic.md) — Перевірити, чи встановлено символ символу Alphabetic
+-   [IntlChar::isULowercase](intlchar.isulowercase.md) — Перевірити, чи символ є символом у нижньому регістрі
+-   [IntlChar::isupper](intlchar.isupper.md) — Перевірити, чи входить символ у категорію "Lu" (літера у верхньому регістрі)
+-   [IntlChar::isUUppercase](intlchar.isuuppercase.md) — Перевірити, чи символ є символом у верхньому регістрі
+-   [IntlChar::isUWhiteSpace](intlchar.isuwhitespace.md) — Перевірити, чи має символ властивість WhiteSpace (пробіловий символ)
+-   [IntlChar::isWhitespace](intlchar.iswhitespace.md) — Перевірити, чи символ є пробільним з точки зору ICU
+-   [IntlChar::isxdigit](intlchar.isxdigit.md) — Перевірити, чи є символ шістнадцятковою цифрою
+-   [IntlChar::ord](intlchar.ord.md) — Отримати код символ Unicode
+-   [IntlChar::tolower](intlchar.tolower.md) — Перетворення символу Unicode на нижній регістр
+-   [IntlChar::totitle](intlchar.totitle.md) — Перетворює символ Unicode у titlecase
+-   [IntlChar::toupper](intlchar.toupper.md) — Перетворення символу Unicode у верхній регістр

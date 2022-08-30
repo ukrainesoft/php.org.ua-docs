@@ -1,12 +1,12 @@
 Повертає масив зареєстрованих модулів
 
--   [« V8Js::executeString](v8js.executestring.html)
+-   [« V8Js::executeString](v8js.executestring.md)
     
--   [V8Js::getPendingException »](v8js.getpendingexception.html)
+-   [V8Js::getPendingException »](v8js.getpendingexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [V8Js](class.v8js.html)
+-   [V8Js](class.v8js.md)
     
 -   Повертає масив зареєстрованих модулів
     
@@ -23,7 +23,7 @@ V8Js::getExtensions — Повертає масив зареєстрованих
 public static V8Js::getExtensions(): array
 ```
 
-Повертає масив зареєстрованих за допомогою [V8Js::registerExtension()](v8js.registerextension.html) модулів Javascript
+Повертає масив зареєстрованих за допомогою [V8Js::registerExtension()](v8js.registerextension.md) модулів Javascript
 
 ### Список параметрів
 

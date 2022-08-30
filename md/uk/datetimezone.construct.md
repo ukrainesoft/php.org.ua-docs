@@ -1,12 +1,12 @@
 Створює новий об'єкт DateTimeZone
 
--   [« DateTimeZone](class.datetimezone.html)
+-   [« DateTimeZone](class.datetimezone.md)
     
--   [DateTimeZone::getLocation »](datetimezone.getlocation.html)
+-   [DateTimeZone::getLocation »](datetimezone.getlocation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTimeZone](class.datetimezone.html)
+-   [DateTimeZone](class.datetimezone.md)
     
 -   Створює новий об'єкт DateTimeZone
     
@@ -33,23 +33,23 @@ timezone_open(string $timezone): DateTimeZone|false
 
 Створює новий об'єкт DateTimeZone.
 
-Об'єкт DateTimeZone надає доступ до трьох різних типів правил часових зон: Зміщення UTC (тип `1`), скорочення часового поясу (тип `2`) та [ідентифікатори часових поясів](timezones.html), опубліковані в базі даних часових поясів IANA (тип `3`
+Об'єкт DateTimeZone надає доступ до трьох різних типів правил часових зон: Зміщення UTC (тип `1`), скорочення часового поясу (тип `2`) та [ідентифікатори часових поясів](timezones.md), опубліковані в базі даних часових поясів IANA (тип `3`
 
-Об'єкт DateTimeZone може бути приєднаний до об'єктів [DateTime](class.datetime.html) і [DateTimeImmutable](class.datetimeimmutable.html), щоб мати змогу відображати часовий пояс, розташований у цих об'єктах у локальному часовому поясі.
+Об'єкт DateTimeZone може бути приєднаний до об'єктів [DateTime](class.datetime.md) і [DateTimeImmutable](class.datetimeimmutable.md), щоб мати змогу відображати часовий пояс, розташований у цих об'єктах у локальному часовому поясі.
 
 ### Список параметрів
 
 `timezone`
 
-Одне з підтримуваних [імен часових поясів](timezones.html) або значення усунення (+0200) або абревіатура часового поясу (BST).
+Одне з підтримуваних [імен часових поясів](timezones.md) або значення усунення (+0200) або абревіатура часового поясу (BST).
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає [DateTimeZone](class.datetimezone.html). Процедурний стиль повертає **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає [DateTimeZone](class.datetimezone.md). Процедурний стиль повертає **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Метод викидає виняток [Exception](class.exception.html), якщо цей часовий пояс не розпізнаний як допустимий.
+Метод викидає виняток [Exception](class.exception.md), якщо цей часовий пояс не розпізнаний як допустимий.
 
 ### Приклади
 
@@ -77,7 +77,7 @@ Thu, 02 Jun 2022 20:29:48 +0445 - +04:45
 Thu, 02 Jun 2022 09:44:48 -0600 - -06:00  
 Thu, 02 Jun 2022 17:44:48 +0200 - CEST
 
-**Приклад #2 Перехоплення помилок під час створення екземпляра [DateTimeZone](class.datetimezone.html)**
+**Приклад #2 Перехоплення помилок під час створення екземпляра [DateTimeZone](class.datetimezone.md)**
 
 ```php
 <?php

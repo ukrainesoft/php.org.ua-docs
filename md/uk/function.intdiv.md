@@ -1,12 +1,12 @@
 Цілочисельний поділ
 
--   [« hypot](function.hypot.html)
+-   [« hypot](function.hypot.md)
     
 -   [ісfinite »](function.is-finite.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Цілочисельний поділ
     
@@ -41,7 +41,7 @@ intdiv(int $num1, int $num2): int
 
 ### Помилки
 
-Якщо `num2` дорівнює `0`, буде викинуто виняток [DivisionByZeroError](class.divisionbyzeroerror.html). Якщо `num1` дорівнює **`PHP_INT_MIN`**, а `num2` дорівнює `-1`, то буде викинуто виняток [ArithmeticError](class.arithmeticerror.html)
+Якщо `num2` дорівнює `0`, буде викинуто виняток [DivisionByZeroError](class.divisionbyzeroerror.md). Якщо `num1` дорівнює **`PHP_INT_MIN`**, а `num2` дорівнює `-1`, то буде викинуто виняток [ArithmeticError](class.arithmeticerror.md)
 
 ### Приклади
 
@@ -74,6 +74,6 @@ Fatal error: Uncaught DivisionByZeroError: Division by zero in %s on line 9
 
 ### Дивіться також
 
--   [](language.operators.arithmetic.html)\- розподіл раціональних чисел
--   [](language.operators.arithmetic.html)\- остача від ділення
--   [fmod()](function.fmod.html) - залишок від поділу раціональних чисел
+-   [](language.operators.arithmetic.md)\- розподіл раціональних чисел
+-   [](language.operators.arithmetic.md)\- остача від ділення
+-   [fmod()](function.fmod.md) - залишок від поділу раціональних чисел

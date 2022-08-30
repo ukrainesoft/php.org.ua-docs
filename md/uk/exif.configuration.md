@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](exif.installation.html)
+-   [« Установка](exif.installation.md)
     
--   [Типы ресурсов »](exif.resources.html)
+-   [Типи ресурсів »](exif.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](exif.setup.html)
+-   [Встановлення та налаштування](exif.setup.md)
     
 -   Налаштування під час виконання
     
@@ -15,20 +15,20 @@
 
 Поведінка цих функцій залежить від установок у php.ini.
 
-Exif підтримує автоматичне перетворення кодувань символів Unicode і JIS користувальницьких коментарів, коли модуль [mbstring](ref.mbstring.html) доступний. При цьому коментар спочатку декодується за допомогою вказаного набору символів. Потім результат кодується в іншому наборі символів, який має збігатися з вашим `HTTP`висновком.
+Exif підтримує автоматичне перетворення кодувань символів Unicode і JIS користувальницьких коментарів, коли модуль [mbstring](ref.mbstring.md) доступний. При цьому коментар спочатку декодується за допомогою вказаного набору символів. Потім результат кодується в іншому наборі символів, який має збігатися з вашим `HTTP`висновком.
 
 **Опції конфігурації Exif**
 
-| Имя                                                                                    | По умолчанию  | Место изменения | Список изменений |
-|----------------------------------------------------------------------------------------|---------------|-----------------|------------------|
-| [exif.encodeunicode](exif.configuration.html#ini.exif.encode-unicode)                  | "ISO-8859-15" | PHPINIALL       |                  |
-| [exif.decodeunicodemotorola](exif.configuration.html#ini.exif.decode-unicode-motorola) | "UCS-2BE"     | PHPINIALL       |                  |
-| [exif.decodeunicodeintel](exif.configuration.html#ini.exif.decode-unicode-intel)       | "UCS-2LE"     | PHPINIALL       |                  |
-| [exif.encodejis](exif.configuration.html#ini.exif.encode-jis)                          | ""            | PHPINIALL       |                  |
-| [exif.decodejismotorola](exif.configuration.html#ini.exif.decode-jis-motorola)         | "JIS"         | PHPINIALL       |                  |
-| [exif.decodejisintel](exif.configuration.html#ini.exif.decode-jis-intel)               | "JIS"         | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [exif.encodeunicode](exif.configuration.html#ini.exif.encode-unicode) | "ISO-8859-15" | PHPINIALL |  |
+| [exif.decodeunicodemotorola](exif.configuration.html#ini.exif.decode-unicode-motorola) | "UCS-2BE" | PHPINIALL |  |
+| [exif.decodeunicodeintel](exif.configuration.html#ini.exif.decode-unicode-intel) | "UCS-2LE" | PHPINIALL |  |
+| [exif.encodejis](exif.configuration.html#ini.exif.encode-jis) | "" | PHPINIALL |  |
+| [exif.decodejismotorola](exif.configuration.html#ini.exif.decode-jis-motorola) | "JIS" | PHPINIALL |  |
+| [exif.decodejisintel](exif.configuration.html#ini.exif.decode-jis-intel) | "JIS" | PHPINIALL |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 

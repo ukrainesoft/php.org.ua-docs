@@ -4,9 +4,9 @@
     
 -   [snmpsetquickprint »](function.snmp-set-quick-print.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.md)
     
 -   Встановлює вихідний OID
     
@@ -37,7 +37,7 @@ snmp_set_oid_output_format(int $format): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання [snmprealwalk()](function.snmprealwalk.html)**
+**Приклад #1 Приклад використання [snmprealwalk()](function.snmprealwalk.md)**
 
 ```php
 <?php

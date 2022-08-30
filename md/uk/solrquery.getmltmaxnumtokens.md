@@ -1,12 +1,12 @@
 Повертає максимальну кількість токенів для аналізу у кожному полі документа, яке не зберігається за допомогою TermVector
 
--   [« SolrQuery::getMltMaxNumQueryTerms](solrquery.getmltmaxnumqueryterms.html)
+-   [« SolrQuery::getMltMaxNumQueryTerms](solrquery.getmltmaxnumqueryterms.md)
     
--   [SolrQuery::getMltMaxWordLength »](solrquery.getmltmaxwordlength.html)
+-   [SolrQuery::getMltMaxWordLength »](solrquery.getmltmaxwordlength.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає максимальну кількість токенів для аналізу у кожному полі документа, яке не зберігається за допомогою TermVector
     

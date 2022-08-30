@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Настройка во время выполнения](phpdbg.configuration.html)
+-   [« Налаштування під час виконання](phpdbg.configuration.html)
     
 -   [Функции phpdbg »](ref.phpdbg.html)
     

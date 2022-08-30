@@ -1,12 +1,12 @@
 Завдання прапорів обробки
 
--   [« FilesystemIterator::rewind](filesystemiterator.rewind.html)
+-   [« FilesystemIterator::rewind](filesystemiterator.rewind.md)
     
--   [FilterIterator »](class.filteriterator.html)
+-   [FilterIterator »](class.filteriterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FilesystemIterator](class.filesystemiterator.html)
+-   [FilesystemIterator](class.filesystemiterator.md)
     
 -   Завдання прапорів обробки
     
@@ -29,7 +29,7 @@ public FilesystemIterator::setFlags(int $flags): void
 
 `flags`
 
-Прапори, які потрібно встановити. Дивіться [Константы FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)
+Прапори, які потрібно встановити. Дивіться [Константи FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)
 
 ### Значення, що повертаються
 
@@ -37,7 +37,7 @@ public FilesystemIterator::setFlags(int $flags): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання [FilesystemIterator::key()](filesystemiterator.key.html)**
+**Приклад #1 Приклад використання [FilesystemIterator::key()](filesystemiterator.key.md)**
 
 Приклад демонструє різницю між прапорами [FilesystemIterator::KEYАСPATHNAME](class.filesystemiterator.html#filesystemiterator.constants.key-as-pathname) і [FilesystemIterator::KEYАСFILENAME](class.filesystemiterator.html#filesystemiterator.constants.key-as-filename)
 
@@ -73,5 +73,5 @@ example.php
 
 ### Дивіться також
 
--   [FilesystemIterator::construct()](filesystemiterator.construct.html) - Створює новий ітератор файлової системи
--   [FilesystemIterator::getFlags()](filesystemiterator.getflags.html) - Отримання прапорів налаштувань об'єкта
+-   [FilesystemIterator::construct()](filesystemiterator.construct.md) - Створює новий ітератор файлової системи
+-   [FilesystemIterator::getFlags()](filesystemiterator.getflags.md) - Отримання прапорів налаштувань об'єкта

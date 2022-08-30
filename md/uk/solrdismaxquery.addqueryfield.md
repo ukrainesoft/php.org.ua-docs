@@ -1,12 +1,12 @@
 Додає поле запиту з необов'язковим збільшенням (параметр qf)
 
--   [« SolrDisMaxQuery::addPhraseField](solrdismaxquery.addphrasefield.html)
+-   [« SolrDisMaxQuery::addPhraseField](solrdismaxquery.addphrasefield.md)
     
--   [SolrDisMaxQuery::addTrigramPhraseField »](solrdismaxquery.addtrigramphrasefield.html)
+-   [SolrDisMaxQuery::addTrigramPhraseField »](solrdismaxquery.addtrigramphrasefield.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
+-   [SolrDisMaxQuery](class.solrdismaxquery.md)
     
 -   Додає поле запиту з необов'язковим збільшенням (параметр qf)
     
@@ -37,7 +37,7 @@ public SolrDisMaxQuery::addQueryField(string $field, string $boost = ?): SolrDis
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.html)
+[SolrDisMaxQuery](class.solrdismaxquery.md)
 
 ### Приклади
 
@@ -66,4 +66,4 @@ q=lucene&defType=edismax&qf=location^4 price sku title^3.4
 
 ### Дивіться також
 
--   [SolrDisMaxQuery::removeQueryField()](solrdismaxquery.removequeryfield.html) - Видаляє поле запиту (параметр qf)
+-   [SolrDisMaxQuery::removeQueryField()](solrdismaxquery.removequeryfield.md) - Видаляє поле запиту (параметр qf)

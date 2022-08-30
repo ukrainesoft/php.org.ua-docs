@@ -4,9 +4,9 @@
     
 -   [sapiwindowsспset »](function.sapi-windows-cp-set.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Різні функції](ref.misc.html)
+-   [Різні функції](ref.misc.md)
     
 -   Вказує, чи кодова сторінка сумісна з UTF-8
     

@@ -1,12 +1,12 @@
 Копіює дані з іменованої пам'яті, що розділяється
 
--   [« SyncSharedMemory::first](syncsharedmemory.first.html)
+-   [« SyncSharedMemory::first](syncsharedmemory.first.md)
     
--   [SyncSharedMemory::size »](syncsharedmemory.size.html)
+-   [SyncSharedMemory::size »](syncsharedmemory.size.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SyncSharedMemory](class.syncsharedmemory.html)
+-   [SyncSharedMemory](class.syncsharedmemory.md)
     
 -   Копіює дані з іменованої пам'яті, що розділяється
     
@@ -51,7 +51,7 @@ public SyncSharedMemory::read(int $start = 0, int $length = ?)
 
 ### Приклади
 
-**Приклад #1 Приклад використання [SyncSharedMemory::construct()](syncsharedmemory.construct.html)**
+**Приклад #1 Приклад використання [SyncSharedMemory::construct()](syncsharedmemory.construct.md)**
 
 ```php
 <?php
@@ -78,7 +78,7 @@ string(3) "ort"
 
 ### Дивіться також
 
--   [SyncSharedMemory::construct()](syncsharedmemory.construct.html) - Створює новий об'єкт SyncSharedMemory
--   [SyncSharedMemory::first()](syncsharedmemory.first.html) - Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
--   [SyncSharedMemory::write()](syncsharedmemory.write.html) - Копіює дані в іменовану пам'ять, що розділяється.
+-   [SyncSharedMemory::construct()](syncsharedmemory.construct.md) - Створює новий об'єкт SyncSharedMemory
+-   [SyncSharedMemory::first()](syncsharedmemory.first.md) - Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
+-   [SyncSharedMemory::write()](syncsharedmemory.write.md) - Копіює дані в іменовану пам'ять, що розділяється.
 -   **SyncSharedMemory::read()**

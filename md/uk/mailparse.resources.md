@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](mailparse.configuration.html)
+-   [« Налаштування під час виконання](mailparse.configuration.md)
     
--   [Предопределённые константы »](mailparse.constants.html)
+-   [Обумовлені константи »](mailparse.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mailparse.setup.html)
+-   [Встановлення та налаштування](mailparse.setup.md)
     
 -   Типи ресурсів
     

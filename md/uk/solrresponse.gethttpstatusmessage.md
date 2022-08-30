@@ -1,12 +1,12 @@
 Повертає докладнішу інформацію про статус HTTP
 
--   [« SolrResponse::getHttpStatus](solrresponse.gethttpstatus.html)
+-   [« SolrResponse::getHttpStatus](solrresponse.gethttpstatus.md)
     
--   [SolrResponse::getRawRequest »](solrresponse.getrawrequest.html)
+-   [SolrResponse::getRawRequest »](solrresponse.getrawrequest.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrResponse](class.solrresponse.html)
+-   [SolrResponse](class.solrresponse.md)
     
 -   Повертає докладнішу інформацію про статус HTTP
     

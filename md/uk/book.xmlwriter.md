@@ -1,69 +1,69 @@
 XMLWriter
 
--   [« XMLReader::XML](xmlreader.xml.html)
+-   [« XMLReader::XML](xmlreader.xml.md)
     
--   [Введение »](intro.xmlwriter.html)
+-   [Введение »](intro.xmlwriter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Обработка XML](refs.xml.html)
+-   [Обработка XML](refs.xml.md)
     
 -   XMLWriter
     
 
 # XMLWriter
 
--   [Введение](intro.xmlwriter.html)
--   [Установка и настройка](xmlwriter.setup.html)
-    -   [Требования](xmlwriter.requirements.html)
-    -   [Установка](xmlwriter.installation.html)
-    -   [Настройка во время выполнения](xmlwriter.configuration.html)
-    -   [Типы ресурсов](xmlwriter.resources.html)
--   [Предопределённые константы](xmlwriter.constants.html)
--   [Примеры](xmlwriter.examples.html)
+-   [Введение](intro.xmlwriter.md)
+-   [Встановлення та налаштування](xmlwriter.setup.md)
+    -   [Вимоги](xmlwriter.requirements.md)
+    -   [Установка](xmlwriter.installation.md)
+    -   [Налаштування під час виконання](xmlwriter.configuration.md)
+    -   [Типи ресурсів](xmlwriter.resources.md)
+-   [Обумовлені константи](xmlwriter.constants.md)
+-   [Приклади](xmlwriter.examples.md)
     -   [Створення простого XML-документа](example.xmlwriter-simple.html)
     -   [Робота з просторами імен XML](example.xmlwriter-namespace.html)
-    -   [Работа с объектно-ориентированным API](example.xmlwriter-oop.html)
--   [XMLWriter](class.xmlwriter.html) - Клас XMLWriter
-    -   [XMLWriter::endAttribute](xmlwriter.endattribute.html) - Завершити атрибут
-    -   [XMLWriter::endCdata](xmlwriter.endcdata.html) — Завершити поточну секцію CDATA
-    -   [XMLWriter::endComment](xmlwriter.endcomment.html) — Завершити коментар
-    -   [XMLWriter::endDocument](xmlwriter.enddocument.html) — Завершити поточний документ
-    -   [XMLWriter::endDtd](xmlwriter.enddtd.html) - Завершити поточний DTD
-    -   [XMLWriter::endDtdAttlist](xmlwriter.enddtdattlist.html) — Завершити поточний список атрибутів DTD
-    -   [XMLWriter::endDtdElement](xmlwriter.enddtdelement.html) — Завершити поточний елемент DTD
-    -   [XMLWriter::endDtdEntity](xmlwriter.enddtdentity.html) — Завершити поточний запис DTD
-    -   [XMLWriter::endElement](xmlwriter.endelement.html) — Завершити поточний елемент
-    -   [XMLWriter::endPi](xmlwriter.endpi.html) — Закінчити поточну інструкцію обробки (PI)
-    -   [XMLWriter::flush](xmlwriter.flush.html) - Скинути поточний буфер
-    -   [XMLWriter::fullEndElement](xmlwriter.fullendelement.html) — Завершити поточний елемент
-    -   [XMLWriter::openMemory](xmlwriter.openmemory.html) — Створити новий об'єкт XMLWriter, використовуючи пам'ять для рядкового виводу
-    -   [XMLWriter::openUri](xmlwriter.openuri.html) — Створити новий об'єкт XMLWriter, використовуючи вихідний URI для виводу
-    -   [XMLWriter::outputMemory](xmlwriter.outputmemory.html) - Повертає поточний буфер
-    -   [XMLWriter::setIndent](xmlwriter.setindent.html) — Увімкнути або вимкнути відступи
-    -   [XMLWriter::setIndentString](xmlwriter.setindentstring.html) — Встановити рядок, який використовується для відступів
-    -   [XMLWriter::startAttribute](xmlwriter.startattribute.html) - Створити початковий атрибут
-    -   [XMLWriter::startAttributeNs](xmlwriter.startattributens.html) - Створити стартовий атрибут простору імен
-    -   [XMLWriter::startCdata](xmlwriter.startcdata.html) - Створити початковий тег CDATA
-    -   [XMLWriter::startComment](xmlwriter.startcomment.html) - Створює стартовий коментар
-    -   [XMLWriter::startDocument](xmlwriter.startdocument.html) - Створити тег документа
-    -   [XMLWriter::startDtd](xmlwriter.startdtd.html) - Створити стартовий DTD тег
-    -   [XMLWriter::startDtdAttlist](xmlwriter.startdtdattlist.html) - Створює стартовий список атрибутів DTD
-    -   [XMLWriter::startDtdElement](xmlwriter.startdtdelement.html) - Створити стартовий елемент DTD
-    -   [XMLWriter::startDtdEntity](xmlwriter.startdtdentity.html) — Створити стартовий запис DTD
-    -   [XMLWriter::startElement](xmlwriter.startelement.html) - Створити стартовий тег елемента
-    -   [XMLWriter::startElementNs](xmlwriter.startelementns.html) - Створити стартовий тег елемента простору імен
-    -   [XMLWriter::startPi](xmlwriter.startpi.html) - Створити стартовий тег PI
-    -   [XMLWriter::text](xmlwriter.text.html) - Записати текст
-    -   [XMLWriter::writeAttribute](xmlwriter.writeattribute.html) - Записати повний атрибут
-    -   [XMLWriter::writeAttributeNs](xmlwriter.writeattributens.html) - Записати повний атрибут простору імен
-    -   [XMLWriter::writeCdata](xmlwriter.writecdata.html) — Записати повний тег CDATA
-    -   [XMLWriter::writeComment](xmlwriter.writecomment.html) — Записати повний тег коментаря
-    -   [XMLWriter::writeDtd](xmlwriter.writedtd.html) — Записати повний тег DTD
-    -   [XMLWriter::writeDtdAttlist](xmlwriter.writedtdattlist.html) — Записати повний тег DTD AttList
-    -   [XMLWriter::writeDtdElement](xmlwriter.writedtdelement.html) — Записати повний тег елемента DTD
-    -   [XMLWriter::writeDtdEntity](xmlwriter.writedtdentity.html) — Записати повний тег DTD запису
-    -   [XMLWriter::writeElement](xmlwriter.writeelement.html) — Записати повний тег елемента
-    -   [XMLWriter::writeElementNs](xmlwriter.writeelementns.html) — Записати повний простір імен тега елемента
-    -   [XMLWriter::writePi](xmlwriter.writepi.html) - Записати інструкцію обробки (PI)
-    -   [XMLWriter::writeRaw](xmlwriter.writeraw.html) — Записати необроблений XML-текст
+    -   [Робота з об'єктно-орієнтованим API](example.xmlwriter-oop.html)
+-   [XMLWriter](class.xmlwriter.md) - Клас XMLWriter
+    -   [XMLWriter::endAttribute](xmlwriter.endattribute.md) - Завершити атрибут
+    -   [XMLWriter::endCdata](xmlwriter.endcdata.md) — Завершити поточну секцію CDATA
+    -   [XMLWriter::endComment](xmlwriter.endcomment.md) — Завершити коментар
+    -   [XMLWriter::endDocument](xmlwriter.enddocument.md) — Завершити поточний документ
+    -   [XMLWriter::endDtd](xmlwriter.enddtd.md) - Завершити поточний DTD
+    -   [XMLWriter::endDtdAttlist](xmlwriter.enddtdattlist.md) — Завершити поточний список атрибутів DTD
+    -   [XMLWriter::endDtdElement](xmlwriter.enddtdelement.md) — Завершити поточний елемент DTD
+    -   [XMLWriter::endDtdEntity](xmlwriter.enddtdentity.md) — Завершити поточний запис DTD
+    -   [XMLWriter::endElement](xmlwriter.endelement.md) — Завершити поточний елемент
+    -   [XMLWriter::endPi](xmlwriter.endpi.md) — Закінчити поточну інструкцію обробки (PI)
+    -   [XMLWriter::flush](xmlwriter.flush.md) - Скинути поточний буфер
+    -   [XMLWriter::fullEndElement](xmlwriter.fullendelement.md) — Завершити поточний елемент
+    -   [XMLWriter::openMemory](xmlwriter.openmemory.md) — Створити новий об'єкт XMLWriter, використовуючи пам'ять для рядкового виводу
+    -   [XMLWriter::openUri](xmlwriter.openuri.md) — Створити новий об'єкт XMLWriter, використовуючи вихідний URI для виводу
+    -   [XMLWriter::outputMemory](xmlwriter.outputmemory.md) - Повертає поточний буфер
+    -   [XMLWriter::setIndent](xmlwriter.setindent.md) — Увімкнути або вимкнути відступи
+    -   [XMLWriter::setIndentString](xmlwriter.setindentstring.md) — Встановити рядок, який використовується для відступів
+    -   [XMLWriter::startAttribute](xmlwriter.startattribute.md) - Створити початковий атрибут
+    -   [XMLWriter::startAttributeNs](xmlwriter.startattributens.md) - Створити стартовий атрибут простору імен
+    -   [XMLWriter::startCdata](xmlwriter.startcdata.md) - Створити початковий тег CDATA
+    -   [XMLWriter::startComment](xmlwriter.startcomment.md) - Створює стартовий коментар
+    -   [XMLWriter::startDocument](xmlwriter.startdocument.md) - Створити тег документа
+    -   [XMLWriter::startDtd](xmlwriter.startdtd.md) - Створити стартовий DTD тег
+    -   [XMLWriter::startDtdAttlist](xmlwriter.startdtdattlist.md) - Створює стартовий список атрибутів DTD
+    -   [XMLWriter::startDtdElement](xmlwriter.startdtdelement.md) - Створити стартовий елемент DTD
+    -   [XMLWriter::startDtdEntity](xmlwriter.startdtdentity.md) — Створити стартовий запис DTD
+    -   [XMLWriter::startElement](xmlwriter.startelement.md) - Створити стартовий тег елемента
+    -   [XMLWriter::startElementNs](xmlwriter.startelementns.md) - Створити стартовий тег елемента простору імен
+    -   [XMLWriter::startPi](xmlwriter.startpi.md) - Створити стартовий тег PI
+    -   [XMLWriter::text](xmlwriter.text.md) - Записати текст
+    -   [XMLWriter::writeAttribute](xmlwriter.writeattribute.md) - Записати повний атрибут
+    -   [XMLWriter::writeAttributeNs](xmlwriter.writeattributens.md) - Записати повний атрибут простору імен
+    -   [XMLWriter::writeCdata](xmlwriter.writecdata.md) — Записати повний тег CDATA
+    -   [XMLWriter::writeComment](xmlwriter.writecomment.md) — Записати повний тег коментаря
+    -   [XMLWriter::writeDtd](xmlwriter.writedtd.md) — Записати повний тег DTD
+    -   [XMLWriter::writeDtdAttlist](xmlwriter.writedtdattlist.md) — Записати повний тег DTD AttList
+    -   [XMLWriter::writeDtdElement](xmlwriter.writedtdelement.md) — Записати повний тег елемента DTD
+    -   [XMLWriter::writeDtdEntity](xmlwriter.writedtdentity.md) — Записати повний тег DTD запису
+    -   [XMLWriter::writeElement](xmlwriter.writeelement.md) — Записати повний тег елемента
+    -   [XMLWriter::writeElementNs](xmlwriter.writeelementns.md) — Записати повний простір імен тега елемента
+    -   [XMLWriter::writePi](xmlwriter.writepi.md) - Записати інструкцію обробки (PI)
+    -   [XMLWriter::writeRaw](xmlwriter.writeraw.md) — Записати необроблений XML-текст

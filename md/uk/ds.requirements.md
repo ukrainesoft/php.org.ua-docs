@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](ds.setup.html)
+-   [« Встановлення та налаштування](ds.setup.md)
     
--   [Установка »](ds.installation.html)
+-   [Установка »](ds.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ds.setup.html)
+-   [Встановлення та налаштування](ds.setup.md)
     
 -   Вимоги
     

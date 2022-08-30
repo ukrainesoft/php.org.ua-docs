@@ -1,12 +1,12 @@
 Повертає подання масиву вхідного документа
 
--   [« SolrInputDocument::sort](solrinputdocument.sort.html)
+-   [« SolrInputDocument::sort](solrinputdocument.sort.md)
     
--   [SolrDocument »](class.solrdocument.html)
+-   [SolrDocument »](class.solrdocument.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrInputDocument](class.solrinputdocument.html)
+-   [SolrInputDocument](class.solrinputdocument.md)
     
 -   Повертає подання масиву вхідного документа
     

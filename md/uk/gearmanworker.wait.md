@@ -1,12 +1,12 @@
 Очікування запиту з одного із сервера завдань
 
--   [« GearmanWorker::unregisterAll](gearmanworker.unregisterall.html)
+-   [« GearmanWorker::unregisterAll](gearmanworker.unregisterall.md)
     
--   [GearmanWorker::work »](gearmanworker.work.html)
+-   [GearmanWorker::work »](gearmanworker.work.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanWorker](class.gearmanworker.html)
+-   [GearmanWorker](class.gearmanworker.md)
     
 -   Очікування запиту з одного із сервера завдань
     
@@ -89,4 +89,4 @@ function reverse_fn($job)
 
 ### Дивіться також
 
--   [GearmanWorker::work()](gearmanworker.work.html) - Очікування та виконання завдань
+-   [GearmanWorker::work()](gearmanworker.work.md) - Очікування та виконання завдань

@@ -1,12 +1,12 @@
 Розбір
 
--   [« Функции CommonMark](ref.cmark.html)
+-   [« Функции CommonMark](ref.cmark.md)
     
 -   [CommonMarkRender »](function.commonmark-render.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CommonMark](ref.cmark.html)
+-   [Функции CommonMark](ref.cmark.md)
     
 -   Розбір
     

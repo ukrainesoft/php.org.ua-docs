@@ -4,7 +4,7 @@
     
 -   [ДсPriorityQueue::toArray »](ds-priorityqueue.toarray.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Черга з пріоритетом](class.ds-priorityqueue.html)
     

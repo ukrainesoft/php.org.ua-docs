@@ -4,9 +4,9 @@
     
 -   [sodiumcryptocoreristretto255scalarnegate »](function.sodium-crypto-core-ristretto255-scalar-negate.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Помножує скалярне значення
     

@@ -1,12 +1,12 @@
 Встановлює товщину шрифту
 
--   [« GmagickDraw::setfontstyle](gmagickdraw.setfontstyle.html)
+-   [« GmagickDraw::setfontstyle](gmagickdraw.setfontstyle.md)
     
--   [GmagickDraw::setstrokecolor »](gmagickdraw.setstrokecolor.html)
+-   [GmagickDraw::setstrokecolor »](gmagickdraw.setstrokecolor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickDraw](class.gmagickdraw.html)
+-   [GmagickDraw](class.gmagickdraw.md)
     
 -   Встановлює товщину шрифту
     
@@ -33,4 +33,4 @@ public GmagickDraw::setfontweight(int $weight): GmagickDraw
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html)
+Об'єкт [Gmagick](class.gmagick.md)

@@ -1,12 +1,12 @@
 Створює стартовий коментар
 
--   [« XMLWriter::startCdata](xmlwriter.startcdata.html)
+-   [« XMLWriter::startCdata](xmlwriter.startcdata.md)
     
--   [XMLWriter::startDocument »](xmlwriter.startdocument.html)
+-   [XMLWriter::startDocument »](xmlwriter.startdocument.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](class.xmlwriter.html)
+-   [XMLWriter](class.xmlwriter.md)
     
 -   Створює стартовий коментар
     
@@ -39,7 +39,7 @@ xmlwriter_start_comment(XMLWriter $writer): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 ### Значення, що повертаються
 
@@ -47,11 +47,11 @@ xmlwriter_start_comment(XMLWriter $writer): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::endComment()](xmlwriter.endcomment.html) - Завершити коментар
--   [XMLWriter::writeComment()](xmlwriter.writecomment.html) - Записати повний тег коментаря
+-   [XMLWriter::endComment()](xmlwriter.endcomment.md) - Завершити коментар
+-   [XMLWriter::writeComment()](xmlwriter.writecomment.md) - Записати повний тег коментаря

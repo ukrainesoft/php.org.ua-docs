@@ -4,9 +4,9 @@
     
 -   [uopzfunction »](function.uopz-function.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.md)
     
 -   Отримати або встановити прапори для функції або класу
     
@@ -49,12 +49,12 @@ uopz_flags(string $class, string $function, int $flags = PHP_INT_MAX): int
 
 ### Помилки
 
-Починаючи з PHP 7.4.0, якщо передано параметр `flags` **uopzextends()** викидає [RuntimeException](class.runtimeexception.html), якщо [OPcache](book.opcache.html) включений і запис класу або `class`, або `parent` (якщо це ознака) незмінні.
+Починаючи з PHP 7.4.0, якщо передано параметр `flags` **uopzextends()** викидає [RuntimeException](class.runtimeexception.md), якщо [OPcache](book.opcache.md) включений і запис класу або `class`, або `parent` (якщо це ознака) незмінні.
 
 ### список змін
 
-| Версия          | Описание                                                                                                                             |
-|-----------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL uopz 5.0.0 | Параметр `flags` тепер необов'язковий. Раніше **`ZEND_ACC_FETCH`** мав передаватися, щоб **uopzflags()** використовувався як геттер. |
 
 ### Приклади

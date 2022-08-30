@@ -1,12 +1,12 @@
 Базове використання
 
--   [« Примеры](outcontrol.examples.html)
+-   [« Приклади](outcontrol.examples.md)
     
--   [Использование перезаписи вывода »](outcontrol.examples.rewrite.html)
+-   [Використання перезапису виводу »](outcontrol.examples.rewrite.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](outcontrol.examples.html)
+-   [Приклади](outcontrol.examples.md)
     
 -   Базове використання
     
@@ -28,4 +28,4 @@ ob_end_flush();
 ?>
 ```
 
-У наведеному вище прикладі висновок з [echo](function.echo.html) буде зберігатись у буфері виводу до виклику [проendflush()](function.ob-end-flush.html). Водночас виклик [setcookie()](function.setcookie.html) успішно збережеться в cookie браузера, не викликаючи помилки (заголовки не можуть бути відправлені до браузера після того, як дані вже були надіслані).
+У наведеному вище прикладі висновок з [echo](function.echo.md) буде зберігатись у буфері виводу до виклику [проendflush()](function.ob-end-flush.html). Водночас виклик [setcookie()](function.setcookie.md) успішно збережеться в cookie браузера, не викликаючи помилки (заголовки не можуть бути відправлені до браузера після того, як дані вже були надіслані).

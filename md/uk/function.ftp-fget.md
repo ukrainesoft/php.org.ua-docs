@@ -4,9 +4,9 @@
     
 -   [ftpfput »](function.ftp-fput.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.md)
     
 -   Завантажує файл з FTP-сервера і зберігає його у попередньо відкритому файлі
     
@@ -53,10 +53,10 @@ ftp_fget(    FTP\Connection $ftp,    resource $stream,    string $re
 
 ### список змін
 
-| Версия | Описание                                                                                                                                            |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Тепер параметр `mode` опціональний. Раніше він був обов'язковим.                                                                                    |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
 

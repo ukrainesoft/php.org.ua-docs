@@ -1,6 +1,6 @@
 Параметри ключа/сертифіката
 
--   [« Другие константы](openssl.constants.other.html)
+-   [« Інші константи](openssl.constants.other.html)
     
 -   [Проверка сертификатов »](openssl.cert.verification.html)
     

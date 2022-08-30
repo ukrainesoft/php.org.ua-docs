@@ -4,9 +4,9 @@
     
 -   [sodiumcryptocoreristretto255scalarsub »](function.sodium-crypto-core-ristretto255-scalar-sub.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Зменшує скалярне значення
     

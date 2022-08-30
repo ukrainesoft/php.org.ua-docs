@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](install.html)
+-   [Встановлення та налаштування](install.html)
     
 -   Встановлення модулів PECL
     

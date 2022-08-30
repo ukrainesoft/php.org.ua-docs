@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.wddx.html)
     
--   [Требования »](wddx.requirements.html)
+-   [Вимоги »](wddx.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](wddx.requirements.html)
+-   [Вимоги](wddx.requirements.html)
 -   [Установка](wddx.installation.html)
--   [Настройка во время выполнения](wddx.configuration.html)
--   [Типы ресурсов](wddx.resources.html)
+-   [Налаштування під час виконання](wddx.configuration.html)
+-   [Типи ресурсів](wddx.resources.html)

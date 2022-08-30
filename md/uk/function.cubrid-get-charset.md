@@ -4,9 +4,9 @@
     
 -   [cubridgetclassname »](function.cubrid-get-class-name.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Повертає кодування поточного з'єднання CUBRID
     

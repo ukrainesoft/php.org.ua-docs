@@ -1,12 +1,12 @@
 Виклик методу з передачею аргументів масивом
 
--   [« ReflectionMethod::invoke](reflectionmethod.invoke.html)
+-   [« ReflectionMethod::invoke](reflectionmethod.invoke.md)
     
--   [ReflectionMethod::isAbstract »](reflectionmethod.isabstract.html)
+-   [ReflectionMethod::isAbstract »](reflectionmethod.isabstract.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionMethod](class.reflectionmethod.html)
+-   [ReflectionMethod](class.reflectionmethod.md)
     
 -   Виклик методу з передачею аргументів масивом
     
@@ -41,9 +41,9 @@ public ReflectionMethod::invokeArgs(?object $object, array $args): mixed
 
 ### Помилки
 
-Викидає виняток [ReflectionException](class.reflectionexception.html), якщо в об'єкті `object` немає визначення цього.
+Викидає виняток [ReflectionException](class.reflectionexception.md), якщо в об'єкті `object` немає визначення цього.
 
-Викидає виняток [ReflectionException](class.reflectionexception.html), якщо викликати метод виконання не вдалося.
+Викидає виняток [ReflectionException](class.reflectionexception.md), якщо викликати метод виконання не вдалося.
 
 ### Приклади
 
@@ -78,6 +78,6 @@ echo $reflectionMethod->invokeArgs(new HelloWorld(), array('Майк'));
 
 ### Дивіться також
 
--   [ReflectionMethod::invoke()](reflectionmethod.invoke.html) - Виклик
+-   [ReflectionMethod::invoke()](reflectionmethod.invoke.md) - Виклик
 -   [invoke()](language.oop5.magic.html#object.invoke)
 -   [calluserfuncarray()](function.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів

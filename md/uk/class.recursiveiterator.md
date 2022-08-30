@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Интерфейсы](spl.interfaces.html)
+-   [Інтерфейси](spl.interfaces.html)
     
 -   Інтерфейс RecursiveIterator
     

@@ -1,31 +1,31 @@
 Radius
 
--   [« Служби автентифікації](refs.remote.auth.html)
+-   [« Служби автентифікації](refs.remote.auth.md)
     
--   [Введение »](intro.radius.html)
+-   [Введение »](intro.radius.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Служби автентифікації](refs.remote.auth.html)
+-   [Служби автентифікації](refs.remote.auth.md)
     
 -   Radius
     
 
 # Radius
 
--   [Введение](intro.radius.html)
--   [Установка и настройка](radius.setup.html)
-    -   [Требования](radius.requirements.html)
-    -   [Установка](radius.installation.html)
-    -   [Настройка во время выполнения](radius.configuration.html)
-    -   [Типы ресурсов](radius.resources.html)
--   [Предопределённые константы](radius.constants.html)
-    -   [Опции RADIUS](radius.constants.options.html)
-    -   [типы пакетов RADIUS](radius.constants.packets.html)
-    -   [Типы атрибутов RADIUS](radius.constants.attributes.html)
+-   [Введение](intro.radius.md)
+-   [Встановлення та налаштування](radius.setup.md)
+    -   [Вимоги](radius.requirements.md)
+    -   [Установка](radius.installation.md)
+    -   [Налаштування під час виконання](radius.configuration.md)
+    -   [Типи ресурсів](radius.resources.md)
+-   [Обумовлені константи](radius.constants.md)
+    -   [Опции RADIUS](radius.constants.options.md)
+    -   [типи пакетів RADIUS](radius.constants.packets.md)
+    -   [Типи атрибутів RADIUS](radius.constants.attributes.md)
     -   [Атрибути RADIUS специфічні для різних виробників](radius.constants.vendor-specific.html)
--   [Примеры](radius.examples.html)
--   [Функции Radius](ref.radius.html)
+-   [Приклади](radius.examples.md)
+-   [Функции Radius](ref.radius.md)
     -   [radiusacctopen](function.radius-acct-open.html) - Створює дескриптор Radius для обліку
     -   [radiusaddserver](function.radius-add-server.html) - Додає сервер
     -   [radiusauthopen](function.radius-auth-open.html) — Створює дескриптор Radius для автентифікації

@@ -1,24 +1,24 @@
 XLSXWriter
 
--   [« rpmvercmp](function.rpmvercmp.html)
+-   [« rpmvercmp](function.rpmvercmp.md)
     
--   [Введение »](intro.xlswriter.html)
+-   [Введение »](intro.xlswriter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.html)
+-   [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.md)
     
 -   XLSXWriter
     
 
 # XLSXWriter
 
--   [Введение](intro.xlswriter.html)
--   [Установка и настройка](xlswriter.setup.html)
-    -   [Требования](xlswriter.requirements.html)
-    -   [Установка](xlswriter.installation.html)
-    -   [Типы ресурсов](xlswriter.resources.html)
--   [Предопределённые константы](xlswriter.constants.html)
+-   [Введение](intro.xlswriter.md)
+-   [Встановлення та налаштування](xlswriter.setup.md)
+    -   [Вимоги](xlswriter.requirements.md)
+    -   [Установка](xlswriter.installation.md)
+    -   [Типи ресурсів](xlswriter.resources.md)
+-   [Обумовлені константи](xlswriter.constants.md)
 -   [VtifulKernelExcel](class.vtiful-kernel-excel.html) - Клас VtifulKernelExcel
     -   [VtifulKernelExcel::addSheet](vtiful-kernel-excel.addSheet.html) - Додати лист
     -   [VtifulKernelExcel::autoFilter](vtiful-kernel-excel.autoFilter.html) - Додати автофільтр

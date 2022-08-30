@@ -1,12 +1,12 @@
 Чекає на блокування читання
 
--   [« SyncReaderWriter::construct](syncreaderwriter.construct.html)
+-   [« SyncReaderWriter::construct](syncreaderwriter.construct.md)
     
--   [SyncReaderWriter::readunlock »](syncreaderwriter.readunlock.html)
+-   [SyncReaderWriter::readunlock »](syncreaderwriter.readunlock.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SyncReaderWriter](class.syncreaderwriter.html)
+-   [SyncReaderWriter](class.syncreaderwriter.md)
     
 -   Чекає на блокування читання
     
@@ -23,7 +23,7 @@ SyncReaderWriter::readlock — Очікує блокування читання
 public SyncReaderWriter::readlock(int $wait = -1): bool
 ```
 
-Отримує блокування читання об'єкта [SyncReaderWriter](class.syncreaderwriter.html)
+Отримує блокування читання об'єкта [SyncReaderWriter](class.syncreaderwriter.md)
 
 ### Список параметрів
 
@@ -50,4 +50,4 @@ $readwrite->readunlock();
 
 ### Дивіться також
 
--   [SyncReaderWriter::readunlock()](syncreaderwriter.readunlock.html) - Знімає блокування читання
+-   [SyncReaderWriter::readunlock()](syncreaderwriter.readunlock.md) - Знімає блокування читання

@@ -1,12 +1,12 @@
 Функції SPL
 
--   [« UnexpectedValueException](class.unexpectedvalueexception.html)
+-   [« UnexpectedValueException](class.unexpectedvalueexception.md)
     
 -   [classimplements »](function.class-implements.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SPL](book.spl.html)
+-   [SPL](book.spl.md)
     
 -   Функції SPL
     

@@ -4,9 +4,9 @@
     
 -   [cubridfieldtype »](function.cubrid-field-type.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
     
 -   Отримати ім'я таблиці, якою належить вказаний стовпець
     

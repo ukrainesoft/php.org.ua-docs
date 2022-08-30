@@ -1,12 +1,12 @@
 Приклад Структури Елементу XML
 
--   [« Примеры](xml.examples.html)
+-   [« Приклади](xml.examples.html)
     
 -   [Пример отображения XML тегов »](example.xml-map-tags.html)
     
 -   [PHP Manual](index.html)
     
--   [Примеры](xml.examples.html)
+-   [Приклади](xml.examples.html)
     
 -   Приклад Структури Елементу XML
     

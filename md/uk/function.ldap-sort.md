@@ -4,9 +4,9 @@
     
 -   [ldapstarttls »](function.ldap-start-tls.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.md)
     
 -   Сортує записи LDAP
     
@@ -51,9 +51,9 @@ ldap_sort(resource $link, resource $result, string $sortfilter): bool
 
 ### список змін
 
-| Версия | Описание               |
-|--------|------------------------|
-|        | Функцію було видалено. |
+| Версия | Описание |
+| --- | --- |
+|  | Функцію було видалено. |
 
 ### Приклади
 

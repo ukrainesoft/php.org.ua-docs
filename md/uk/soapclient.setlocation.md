@@ -1,12 +1,12 @@
 Встановлює адресу веб-служби, що використовується
 
--   [« SoapClient::setCookie](soapclient.setcookie.html)
+-   [« SoapClient::setCookie](soapclient.setcookie.md)
     
--   [SoapClient::setSoapHeaders »](soapclient.setsoapheaders.html)
+-   [SoapClient::setSoapHeaders »](soapclient.setsoapheaders.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SoapClient](class.soapclient.html)
+-   [SoapClient](class.soapclient.md)
     
 -   Встановлює адресу веб-служби, що використовується
     
@@ -41,9 +41,9 @@ public SoapClient::__setLocation(?string $location = null): ?string
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | `location` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `location` тепер допускає значення null. |
 
 ### Приклади
 
@@ -70,4 +70,4 @@ http://www.somethirdparty.com
 
 ### Дивіться також
 
--   [SoapClient::construct()](soapclient.construct.html) - Конструктор класу SoapClient
+-   [SoapClient::construct()](soapclient.construct.md) - Конструктор класу SoapClient

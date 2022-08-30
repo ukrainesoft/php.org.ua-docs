@@ -1,12 +1,12 @@
 Створює новий пул воркерів
 
--   [« Pool::collect](pool.collect.html)
+-   [« Pool::collect](pool.collect.md)
     
--   [Pool::resize »](pool.resize.html)
+-   [Pool::resize »](pool.resize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Pool](class.pool.html)
+-   [Pool](class.pool.md)
     
 -   Створює новий пул воркерів
     
@@ -31,7 +31,7 @@ public **Pool::construct**(int `$size`, string `$class` = ?, array `$ctor`
 
 `class`
 
-Клас для нових воркерів. Якщо клас не вказано, то за умовчанням використовується клас [Worker](class.worker.html)
+Клас для нових воркерів. Якщо клас не вказано, то за умовчанням використовується клас [Worker](class.worker.md)
 
 `ctor`
 

@@ -4,9 +4,9 @@
     
 -   [пгsendexecute »](function.pg-send-execute.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PostgreSQL](ref.pgsql.html)
+-   [Функции PostgreSQL](ref.pgsql.md)
     
 -   Вибирає записи з бази даних
     
@@ -55,10 +55,10 @@ pg_select(    PgSql\Connection $connection,    string $table_name,   
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Доданий параметр `mode`                                                                                                                                        |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Доданий параметр `mode` |
 
 ### Приклади
 
@@ -68,7 +68,7 @@ pg_select(    PgSql\Connection $connection,    string $table_name,   
 <?php
   $db = pg_connect('dbname=foo');
   // Это безопасно в некоторой степени, поскольку все значения экранируются.
-  // Однако PostgreSQL поддерживает JSON/массив. Для этих значений это не безопасно
+  // Однако PostgreSQL поддерживает JSON/Масив. Для этих значений это не безопасно
   // ни с через экранирование, ни с помощью подготовленного запроса.
   $rec = pg_select($db, 'post_log', $_POST);
   if ($rec) {

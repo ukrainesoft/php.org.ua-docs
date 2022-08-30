@@ -2,11 +2,11 @@
 
 -   [« xattrset](function.xattr-set.html)
     
--   [xdiff »](book.xdiff.html)
+-   [xdiff »](book.xdiff.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [xattr Функции](ref.xattr.html)
+-   [xattr Функции](ref.xattr.md)
     
 -   Перевірка підтримки розширених атрибутів
     

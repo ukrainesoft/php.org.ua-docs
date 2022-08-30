@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverMonitoringTopologyOpeningEvent »](class.mongodb-driver-monitoring-topologyopeningevent.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverMonitoringTopologyClosedEvent](class.mongodb-driver-monitoring-topologyclosedevent.html)
     

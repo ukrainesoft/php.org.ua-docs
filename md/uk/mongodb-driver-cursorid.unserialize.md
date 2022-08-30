@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverCursorInterface »](class.mongodb-driver-cursorinterface.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html)
     
@@ -42,5 +42,5 @@ final public MongoDB\Driver\CursorId::unserialize(string $serialized): void
 ### Дивіться також
 
 -   [MongoDBDriverCursorId::serialize()](mongodb-driver-cursorid.serialize.html) - Серіалізація CursorId
--   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

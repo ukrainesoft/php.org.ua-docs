@@ -1,12 +1,12 @@
 Клас GearmanClient
 
--   [« Базовые клиент и обработчик Gearman, отправка задач](gearman.examples-reverse-task.html)
+-   [« Базові клієнт та обробник Gearman, відправка завдань](gearman.examples-reverse-task.html)
     
--   [GearmanClient::addOptions »](gearmanclient.addoptions.html)
+-   [GearmanClient::addOptions »](gearmanclient.addoptions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gearman](book.gearman.html)
+-   [Gearman](book.gearman.md)
     
 -   Клас GearmanClient
     
@@ -87,50 +87,50 @@ public wait(): bool
 
 ## Зміст
 
--   [GearmanClient::addOptions](gearmanclient.addoptions.html) - Додати клієнтські опції
--   [GearmanClient::addServer](gearmanclient.addserver.html) - Додати сервер завдань для клієнта
--   [GearmanClient::addServers](gearmanclient.addservers.html) - Додати список серверів завдань для клієнта
--   [GearmanClient::addTask](gearmanclient.addtask.html) — Додати завдання, яке буде виконано у паралельному режимі
--   [GearmanClient::addTaskBackground](gearmanclient.addtaskbackground.html) — Додати фонове завдання для роботи в паралельному режимі
--   [GearmanClient::addTaskHigh](gearmanclient.addtaskhigh.html) — Додати високопріоритетне завдання для роботи в паралельному режимі
--   [GearmanClient::addTaskHighBackground](gearmanclient.addtaskhighbackground.html) — Додати високопріоритетне фонове завдання для роботи в паралельному режимі
--   [GearmanClient::addTaskLow](gearmanclient.addtasklow.html) — Додати низькопріоритетне завдання для роботи в паралельному режимі
--   [GearmanClient::addTaskLowBackground](gearmanclient.addtasklowbackground.html) — Додати низькопріоритетне фонове завдання для роботи в паралельному режимі
--   [GearmanClient::addTaskStatus](gearmanclient.addtaskstatus.html) — Додати завдання для набуття статусу
--   [GearmanClient::clearCallbacks](gearmanclient.clearcallbacks.html) — Очистити всі функції зворотного виклику цієї задачі
--   [GearmanClient::clone](gearmanclient.clone.html) - Створити копію об'єкта GearmanClient
--   [GearmanClient::construct](gearmanclient.construct.html) - Створити екземпляр GearmanClient
--   [GearmanClient::context](gearmanclient.context.html) — Повертає контекст програми
--   [GearmanClient::data](gearmanclient.data.html) — Повертає дані програми (функція застаріла)
--   [GearmanClient::do](gearmanclient.do.html) — Виконує одне завдання та повертає результат Застарілий метод
--   [GearmanClient::doBackground](gearmanclient.dobackground.html) — Запуск виконання завдання у фоновому режимі
--   [GearmanClient::doHigh](gearmanclient.dohigh.html) — Запускає на виконання завдання із високим пріоритетом
--   [GearmanClient::doHighBackground](gearmanclient.dohighbackground.html) — Запускає на виконання із високим пріоритетом завдання у фоновому режимі
--   [GearmanClient::doJobHandle](gearmanclient.dojobhandle.html) — Отримати дескриптор завдання, що виконується
--   [GearmanClient::doLow](gearmanclient.dolow.html) — Запускає на виконання завдання із низьким пріоритетом
--   [GearmanClient::doLowBackground](gearmanclient.dolowbackground.html) — Запускає на виконання з низьким пріоритетом завдання у фоновому режимі
--   [GearmanClient::doNormal](gearmanclient.donormal.html) — Виконує одиночне завдання та повертає результат
--   [GearmanClient::doStatus](gearmanclient.dostatus.html) — Отримання статусу завдання, що виконується
--   [GearmanClient::echo](gearmanclient.echo.html) — Надсилає дані всім серверам завдань, щоб перевірити відгук Застарілий метод
--   [GearmanClient::error](gearmanclient.error.html) — Повернути рядок помилки для останньої виявленої помилки
--   [GearmanClient::getErrno](gearmanclient.geterrno.html) — Отримати значення errno
--   [GearmanClient::jobStatus](gearmanclient.jobstatus.html) — Набуття статусу виконання фонового завдання
--   [GearmanClient::ping](gearmanclient.ping.html) — Надсилає дані на всі сервери, щоб перевірити, які з них виведуть ці дані
--   [GearmanClient::removeOptions](gearmanclient.removeoptions.html) — Видалити опції клієнта
--   [GearmanClient::returnCode](gearmanclient.returncode.html) - Отримати останній код повернення Gearman
--   [GearmanClient::runTasks](gearmanclient.runtasks.html) — Запустити список завдань у паралельному режимі
--   [GearmanClient::setClientCallback](gearmanclient.setclientcallback.html) — Встановити функцію зворотного дзвінка, коли є пакет даних для завдання (застарілий метод)
--   [GearmanClient::setCompleteCallback](gearmanclient.setcompletecallback.html) — Встановіть функцію, яка буде викликана після завершення завдання
--   [GearmanClient::setContext](gearmanclient.setcontext.html) — Встановити контекст програми
--   [GearmanClient::setCreatedCallback](gearmanclient.setcreatedcallback.html) — Встановити функцію зворотного дзвінка, коли завдання ставиться в чергу
--   [GearmanClient::setData](gearmanclient.setdata.html) — Встановити дані програми (застарілий метод)
--   [GearmanClient::setDataCallback](gearmanclient.setdatacallback.html) - Задає callback-функцію для обробки переданих даних
--   [GearmanClient::setExceptionCallback](gearmanclient.setexceptioncallback.html) — Встановити функцію зворотного виклику для перехоплення виключень обробника завдань
--   [GearmanClient::setFailCallback](gearmanclient.setfailcallback.html) — Встановити callback-функцію для обробки ситуації, коли завдання не вдалося виконати
--   [GearmanClient::setOptions](gearmanclient.setoptions.html) — Встановлення налаштувань клієнта
--   [GearmanClient::setStatusCallback](gearmanclient.setstatuscallback.html) - Завдання callback-функції, що збирає інформацію про стан обробника завдань
--   [GearmanClient::setTimeout](gearmanclient.settimeout.html) — Встановлення часу очікування для введення/виводу.
--   [GearmanClient::setWarningCallback](gearmanclient.setwarningcallback.html) - Установка callback-функції, що обслуговує попередження оброблювача завдань
--   [GearmanClient::setWorkloadCallback](gearmanclient.setworkloadcallback.html) - Установка callback-функції, що приймає проміжні результати від оброблювача завдань
--   [GearmanClient::timeout](gearmanclient.timeout.html) — Отримання часу очікування операцій введення/виводу
--   [GearmanClient::wait](gearmanclient.wait.html) — Чекає на активність введення-виводу для всіх підключень на клієнті
+-   [GearmanClient::addOptions](gearmanclient.addoptions.md) - Додати клієнтські опції
+-   [GearmanClient::addServer](gearmanclient.addserver.md) - Додати сервер завдань для клієнта
+-   [GearmanClient::addServers](gearmanclient.addservers.md) - Додати список серверів завдань для клієнта
+-   [GearmanClient::addTask](gearmanclient.addtask.md) — Додати завдання, яке буде виконано у паралельному режимі
+-   [GearmanClient::addTaskBackground](gearmanclient.addtaskbackground.md) — Додати фонове завдання для роботи в паралельному режимі
+-   [GearmanClient::addTaskHigh](gearmanclient.addtaskhigh.md) — Додати високопріоритетне завдання для роботи в паралельному режимі
+-   [GearmanClient::addTaskHighBackground](gearmanclient.addtaskhighbackground.md) — Додати високопріоритетне фонове завдання для роботи в паралельному режимі
+-   [GearmanClient::addTaskLow](gearmanclient.addtasklow.md) — Додати низькопріоритетне завдання для роботи в паралельному режимі
+-   [GearmanClient::addTaskLowBackground](gearmanclient.addtasklowbackground.md) — Додати низькопріоритетне фонове завдання для роботи в паралельному режимі
+-   [GearmanClient::addTaskStatus](gearmanclient.addtaskstatus.md) — Додати завдання для набуття статусу
+-   [GearmanClient::clearCallbacks](gearmanclient.clearcallbacks.md) — Очистити всі функції зворотного виклику цієї задачі
+-   [GearmanClient::clone](gearmanclient.clone.md) - Створити копію об'єкта GearmanClient
+-   [GearmanClient::construct](gearmanclient.construct.md) - Створити екземпляр GearmanClient
+-   [GearmanClient::context](gearmanclient.context.md) — Повертає контекст програми
+-   [GearmanClient::data](gearmanclient.data.md) — Повертає дані програми (функція застаріла)
+-   [GearmanClient::do](gearmanclient.do.md) — Виконує одне завдання та повертає результат Застарілий метод
+-   [GearmanClient::doBackground](gearmanclient.dobackground.md) — Запуск виконання завдання у фоновому режимі
+-   [GearmanClient::doHigh](gearmanclient.dohigh.md) — Запускає на виконання завдання із високим пріоритетом
+-   [GearmanClient::doHighBackground](gearmanclient.dohighbackground.md) — Запускає на виконання із високим пріоритетом завдання у фоновому режимі
+-   [GearmanClient::doJobHandle](gearmanclient.dojobhandle.md) — Отримати дескриптор завдання, що виконується
+-   [GearmanClient::doLow](gearmanclient.dolow.md) — Запускає на виконання завдання із низьким пріоритетом
+-   [GearmanClient::doLowBackground](gearmanclient.dolowbackground.md) — Запускає на виконання з низьким пріоритетом завдання у фоновому режимі
+-   [GearmanClient::doNormal](gearmanclient.donormal.md) — Виконує одиночне завдання та повертає результат
+-   [GearmanClient::doStatus](gearmanclient.dostatus.md) — Отримання статусу завдання, що виконується
+-   [GearmanClient::echo](gearmanclient.echo.md) — Надсилає дані всім серверам завдань, щоб перевірити відгук Застарілий метод
+-   [GearmanClient::error](gearmanclient.error.md) — Повернути рядок помилки для останньої виявленої помилки
+-   [GearmanClient::getErrno](gearmanclient.geterrno.md) — Отримати значення errno
+-   [GearmanClient::jobStatus](gearmanclient.jobstatus.md) — Набуття статусу виконання фонового завдання
+-   [GearmanClient::ping](gearmanclient.ping.md) — Надсилає дані на всі сервери, щоб перевірити, які з них виведуть ці дані
+-   [GearmanClient::removeOptions](gearmanclient.removeoptions.md) — Видалити опції клієнта
+-   [GearmanClient::returnCode](gearmanclient.returncode.md) - Отримати останній код повернення Gearman
+-   [GearmanClient::runTasks](gearmanclient.runtasks.md) — Запустити список завдань у паралельному режимі
+-   [GearmanClient::setClientCallback](gearmanclient.setclientcallback.md) — Встановити функцію зворотного дзвінка, коли є пакет даних для завдання (застарілий метод)
+-   [GearmanClient::setCompleteCallback](gearmanclient.setcompletecallback.md) — Встановіть функцію, яка буде викликана після завершення завдання
+-   [GearmanClient::setContext](gearmanclient.setcontext.md) — Встановити контекст програми
+-   [GearmanClient::setCreatedCallback](gearmanclient.setcreatedcallback.md) — Встановити функцію зворотного дзвінка, коли завдання ставиться в чергу
+-   [GearmanClient::setData](gearmanclient.setdata.md) — Встановити дані програми (застарілий метод)
+-   [GearmanClient::setDataCallback](gearmanclient.setdatacallback.md) - Задає callback-функцію для обробки переданих даних
+-   [GearmanClient::setExceptionCallback](gearmanclient.setexceptioncallback.md) — Встановити функцію зворотного виклику для перехоплення виключень обробника завдань
+-   [GearmanClient::setFailCallback](gearmanclient.setfailcallback.md) — Встановити callback-функцію для обробки ситуації, коли завдання не вдалося виконати
+-   [GearmanClient::setOptions](gearmanclient.setoptions.md) — Встановлення налаштувань клієнта
+-   [GearmanClient::setStatusCallback](gearmanclient.setstatuscallback.md) - Завдання callback-функції, що збирає інформацію про стан обробника завдань
+-   [GearmanClient::setTimeout](gearmanclient.settimeout.md) — Встановлення часу очікування для введення/виводу.
+-   [GearmanClient::setWarningCallback](gearmanclient.setwarningcallback.md) - Установка callback-функції, що обслуговує попередження оброблювача завдань
+-   [GearmanClient::setWorkloadCallback](gearmanclient.setworkloadcallback.md) - Установка callback-функції, що приймає проміжні результати від оброблювача завдань
+-   [GearmanClient::timeout](gearmanclient.timeout.md) — Отримання часу очікування операцій введення/виводу
+-   [GearmanClient::wait](gearmanclient.wait.md) — Чекає на активність введення-виводу для всіх підключень на клієнті

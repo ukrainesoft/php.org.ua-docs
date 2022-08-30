@@ -1,12 +1,12 @@
 Завершення навігації
 
--   [« RecursiveTreeIterator::endChildren](recursivetreeiterator.endchildren.html)
+-   [« RecursiveTreeIterator::endChildren](recursivetreeiterator.endchildren.md)
     
--   [RecursiveTreeIterator::getEntry »](recursivetreeiterator.getentry.html)
+-   [RecursiveTreeIterator::getEntry »](recursivetreeiterator.getentry.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+-   [RecursiveTreeIterator](class.recursivetreeiterator.md)
     
 -   Завершення навігації
     
@@ -23,7 +23,7 @@ RecursiveTreeIterator::endIteration — Завершення навігації
 public RecursiveTreeIterator::endIteration(): void
 ```
 
-Викликається після завершення навігації (коли метод [RecursiveTreeIterator::valid()](recursivetreeiterator.valid.html) вперше поверне **`false`**
+Викликається після завершення навігації (коли метод [RecursiveTreeIterator::valid()](recursivetreeiterator.valid.md) вперше поверне **`false`**
 
 **Увага**
 

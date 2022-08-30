@@ -1,12 +1,12 @@
 Повертає палітру кольорів
 
--   [« Imagick::gaussianBlurImage](imagick.gaussianblurimage.html)
+-   [« Imagick::gaussianBlurImage](imagick.gaussianblurimage.md)
     
--   [Imagick::getCompression »](imagick.getcompression.html)
+-   [Imagick::getCompression »](imagick.getcompression.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає палітру кольорів
     

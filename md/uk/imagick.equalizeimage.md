@@ -1,12 +1,12 @@
 Вирівнює гістограму зображення
 
--   [« Imagick::enhanceImage](imagick.enhanceimage.html)
+-   [« Imagick::enhanceImage](imagick.enhanceimage.md)
     
--   [Imagick::evaluateImage »](imagick.evaluateimage.html)
+-   [Imagick::evaluateImage »](imagick.evaluateimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Вирівнює гістограму зображення
     

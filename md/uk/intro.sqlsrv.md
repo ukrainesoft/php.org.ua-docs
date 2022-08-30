@@ -1,12 +1,12 @@
 Вступ
 
--   [« SQLSRV](book.sqlsrv.html)
+-   [« SQLSRV](book.sqlsrv.md)
     
--   [Установка и настройка »](sqlsrv.setup.html)
+-   [Встановлення та налаштування »](sqlsrv.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLSRV](book.sqlsrv.html)
+-   [SQLSRV](book.sqlsrv.md)
     
 -   Вступ
     

@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONRegex::unserialize »](mongodb-bson-regex.unserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONRegex](class.mongodb-bson-regex.html)
     
@@ -52,4 +52,4 @@ string(8) "/regex/i"
 
 ### Дивіться також
 
--   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

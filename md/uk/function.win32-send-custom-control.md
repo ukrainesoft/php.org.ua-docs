@@ -4,9 +4,9 @@
     
 -   [win32setserviceexitcode »](function.win32-set-service-exit-code.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [win32service](ref.win32service.html)
+-   [win32service](ref.win32service.md)
     
 -   Відправляє налаштований елемент керування до служби
     
@@ -43,25 +43,25 @@ win32_send_custom_control(string $servicename, int $control, string $machine = ?
 
 Функція не повертає значення після виконання.
 
-До версії 1.0.0, Повертає **`WIN32_NO_ERROR`** у разі успішного завершення **`false`** якщо була виявлена ​​проблема з параметрами або [код ошибки Win32](win32service.constants.errors.html) при невдалому завершенні роботи.
+До версії 1.0.0, Повертає **`WIN32_NO_ERROR`** у разі успішного завершення **`false`** якщо була виявлена ​​проблема з параметрами або [код ошибки Win32](win32service.constants.errors.md) при невдалому завершенні роботи.
 
 ### Помилки
 
 До версії 1.0.0, якщо значення control не знаходиться між 128 та 255, функція видавала помилку рівня **`E_ERROR`**
 
-Викидає [ValueError](class.valueerror.html), якщо значення `servicename` не вказано.
+Викидає [ValueError](class.valueerror.md), якщо значення `servicename` не вказано.
 
-Викидає [ValueError](class.valueerror.html), якщо значення `control` не знаходиться між 128 та 255.
+Викидає [ValueError](class.valueerror.md), якщо значення `control` не знаходиться між 128 та 255.
 
-Викидає [Win32ServiceException](class.win32serviceexception.html) у разі виникнення помилки.
+Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки.
 
 ### список змін
 
-| Версия                  | Описание                                                                                                                                                              |
-|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) при невірних даних у параметрах, що раніше поверталося **`false`**                                                        |
-| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.html) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.html) |
-| PECL win32service 1.0.0 | Тип повертається тепер void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed)                                                   |
+| Версия | Описание |
+| --- | --- |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`** |
+| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
+| PECL win32service 1.0.0 | Тип повертається тепер void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
 
 ### Дивіться також
 
@@ -69,4 +69,4 @@ win32_send_custom_control(string $servicename, int $control, string $machine = ?
 -   [win32stopservice()](function.win32-stop-service.html) - зупиняє службу
 -   [win32pauseservice()](function.win32-pause-service.html) - зупиняє службу
 -   [win32continueservice()](function.win32-continue-service.html) - Відновлює роботу зупиненої служби
--   [Коды ошибок Win32](win32service.constants.errors.html)
+-   [Коди помилок Win32](win32service.constants.errors.md)

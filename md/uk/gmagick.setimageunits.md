@@ -1,12 +1,12 @@
 Встановлює одиниці роздільної здатності зображення
 
--   [« Gmagick::setimagetype](gmagick.setimagetype.html)
+-   [« Gmagick::setimagetype](gmagick.setimagetype.md)
     
--   [Gmagick::setimagewhitepoint »](gmagick.setimagewhitepoint.html)
+-   [Gmagick::setimagewhitepoint »](gmagick.setimagewhitepoint.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Встановлює одиниці роздільної здатності зображення
     
@@ -33,7 +33,7 @@ public Gmagick::setimageunits(int $resolution): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

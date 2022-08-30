@@ -1,80 +1,80 @@
 Стандартна бібліотека PHP (SPL)
 
--   [« SeasLog::warning](seaslog.warning.html)
+-   [« SeasLog::warning](seaslog.warning.md)
     
--   [Введение »](intro.spl.html)
+-   [Введение »](intro.spl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Інші базові модулі](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.md)
     
 -   Стандартна бібліотека PHP (SPL)
     
 
 # Стандартна бібліотека PHP (SPL)
 
--   [Введение](intro.spl.html)
--   [Установка и настройка](spl.setup.html)
-    -   [Требования](spl.requirements.html)
-    -   [Установка](spl.installation.html)
-    -   [Настройка во время выполнения](spl.configuration.html)
-    -   [Типы ресурсов](spl.resources.html)
--   [Предопределённые константы](spl.constants.html)
--   [Структури даних](spl.datastructures.html)
-    -   [SplDoublyLinkedList](class.spldoublylinkedlist.html) - Клас SplDoublyLinkedList
-    -   [SplStack](class.splstack.html) - Клас SplStack
-    -   [SplQueue](class.splqueue.html) - Клас SplQueue
-    -   [SplHeap](class.splheap.html) - Клас SplHeap
-    -   [SplMaxHeap](class.splmaxheap.html) - Клас SplMaxHeap
-    -   [SplMinHeap](class.splminheap.html) - Клас SplMinHeap
-    -   [SplPriorityQueue](class.splpriorityqueue.html) - Клас SplPriorityQueue
-    -   [SplFixedArray](class.splfixedarray.html) - Клас SplFixedArray
-    -   [SplObjectStorage](class.splobjectstorage.html) - Клас SplObjectStorage
--   [Ітератори](spl.iterators.html)
-    -   [AppendIterator](class.appenditerator.html) - Клас AppendIterator
-    -   [ArrayIterator](class.arrayiterator.html) - Клас ArrayIterator
-    -   [CachingIterator](class.cachingiterator.html) - Клас CachingIterator
-    -   [CallbackFilterIterator](class.callbackfilteriterator.html) - Клас CallbackFilterIterator
-    -   [DirectoryIterator](class.directoryiterator.html) - Клас DirectoryIterator
-    -   [EmptyIterator](class.emptyiterator.html) - Клас EmptyIterator
-    -   [FilesystemIterator](class.filesystemiterator.html) - Клас FilesystemIterator
-    -   [FilterIterator](class.filteriterator.html) - Клас FilterIterator
-    -   [GlobIterator](class.globiterator.html) - Клас GlobIterator
-    -   [InfiniteIterator](class.infiniteiterator.html) - Клас InfiniteIterator
-    -   [IteratorIterator](class.iteratoriterator.html) - Клас IteratorIterator
-    -   [LimitIterator](class.limititerator.html) - Клас LimitIterator
-    -   [MultipleIterator](class.multipleiterator.html) - Клас MultipleIterator
-    -   [NoRewindIterator](class.norewinditerator.html) - Клас NoRewindIterator
-    -   [ParentIterator](class.parentiterator.html) - Клас ParentIterator
-    -   [RecursiveArrayIterator](class.recursivearrayiterator.html) - Клас RecursiveArrayIterator
-    -   [RecursiveCachingIterator](class.recursivecachingiterator.html) - Клас RecursiveCachingIterator
-    -   [RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.html) - Клас RecursiveCallbackFilterIterator
-    -   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.html) — Клас RecursiveDirectoryIterator
-    -   [RecursiveFilterIterator](class.recursivefilteriterator.html) - Клас RecursiveFilterIterator
-    -   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html) - Клас RecursiveIteratorIterator
-    -   [RecursiveRegexIterator](class.recursiveregexiterator.html) - Клас RecursiveRegexIterator
-    -   [RecursiveTreeIterator](class.recursivetreeiterator.html) - Клас RecursiveTreeIterator
-    -   [RegexIterator](class.regexiterator.html) - Клас RegexIterator
--   [Интерфейсы](spl.interfaces.html)
-    -   [Countable](class.countable.html) - Інтерфейс Countable
-    -   [OuterIterator](class.outeriterator.html) - Інтерфейс OuterIterator
-    -   [RecursiveIterator](class.recursiveiterator.html) - Інтерфейс RecursiveIterator
-    -   [SeekableIterator](class.seekableiterator.html) - Інтерфейс SeekableIterator
--   [Исключения](spl.exceptions.html)
-    -   [BadFunctionCallException](class.badfunctioncallexception.html) - Клас BadFunctionCallException
-    -   [BadMethodCallException](class.badmethodcallexception.html) - Клас BadMethodCallException
-    -   [DomainException](class.domainexception.html) - Клас DomainException
-    -   [InvalidArgumentException](class.invalidargumentexception.html) - Клас InvalidArgumentException
-    -   [LengthException](class.lengthexception.html) - Клас LengthException
-    -   [LogicException](class.logicexception.html) - Клас LogicException
-    -   [OutOfBoundsException](class.outofboundsexception.html) - Клас OutOfBoundsException
-    -   [OutOfRangeException](class.outofrangeexception.html) - Клас OutOfRangeException
-    -   [OverflowException](class.overflowexception.html) - Клас OverflowException
-    -   [RangeException](class.rangeexception.html) - Клас RangeException
-    -   [RuntimeException](class.runtimeexception.html) - Клас RuntimeException
-    -   [UnderflowException](class.underflowexception.html) - Клас UnderflowException
-    -   [UnexpectedValueException](class.unexpectedvalueexception.html) - Клас UnexpectedValueException
--   [Функції SPL](ref.spl.html)
+-   [Введение](intro.spl.md)
+-   [Встановлення та налаштування](spl.setup.md)
+    -   [Вимоги](spl.requirements.md)
+    -   [Установка](spl.installation.md)
+    -   [Налаштування під час виконання](spl.configuration.md)
+    -   [Типи ресурсів](spl.resources.md)
+-   [Обумовлені константи](spl.constants.md)
+-   [Структури даних](spl.datastructures.md)
+    -   [SplDoublyLinkedList](class.spldoublylinkedlist.md) - Клас SplDoublyLinkedList
+    -   [SplStack](class.splstack.md) - Клас SplStack
+    -   [SplQueue](class.splqueue.md) - Клас SplQueue
+    -   [SplHeap](class.splheap.md) - Клас SplHeap
+    -   [SplMaxHeap](class.splmaxheap.md) - Клас SplMaxHeap
+    -   [SplMinHeap](class.splminheap.md) - Клас SplMinHeap
+    -   [SplPriorityQueue](class.splpriorityqueue.md) - Клас SplPriorityQueue
+    -   [SplFixedArray](class.splfixedarray.md) - Клас SplFixedArray
+    -   [SplObjectStorage](class.splobjectstorage.md) - Клас SplObjectStorage
+-   [Ітератори](spl.iterators.md)
+    -   [AppendIterator](class.appenditerator.md) - Клас AppendIterator
+    -   [ArrayIterator](class.arrayiterator.md) - Клас ArrayIterator
+    -   [CachingIterator](class.cachingiterator.md) - Клас CachingIterator
+    -   [CallbackFilterIterator](class.callbackfilteriterator.md) - Клас CallbackFilterIterator
+    -   [DirectoryIterator](class.directoryiterator.md) - Клас DirectoryIterator
+    -   [EmptyIterator](class.emptyiterator.md) - Клас EmptyIterator
+    -   [FilesystemIterator](class.filesystemiterator.md) - Клас FilesystemIterator
+    -   [FilterIterator](class.filteriterator.md) - Клас FilterIterator
+    -   [GlobIterator](class.globiterator.md) - Клас GlobIterator
+    -   [InfiniteIterator](class.infiniteiterator.md) - Клас InfiniteIterator
+    -   [IteratorIterator](class.iteratoriterator.md) - Клас IteratorIterator
+    -   [LimitIterator](class.limititerator.md) - Клас LimitIterator
+    -   [MultipleIterator](class.multipleiterator.md) - Клас MultipleIterator
+    -   [NoRewindIterator](class.norewinditerator.md) - Клас NoRewindIterator
+    -   [ParentIterator](class.parentiterator.md) - Клас ParentIterator
+    -   [RecursiveArrayIterator](class.recursivearrayiterator.md) - Клас RecursiveArrayIterator
+    -   [RecursiveCachingIterator](class.recursivecachingiterator.md) - Клас RecursiveCachingIterator
+    -   [RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.md) - Клас RecursiveCallbackFilterIterator
+    -   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md) — Клас RecursiveDirectoryIterator
+    -   [RecursiveFilterIterator](class.recursivefilteriterator.md) - Клас RecursiveFilterIterator
+    -   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md) - Клас RecursiveIteratorIterator
+    -   [RecursiveRegexIterator](class.recursiveregexiterator.md) - Клас RecursiveRegexIterator
+    -   [RecursiveTreeIterator](class.recursivetreeiterator.md) - Клас RecursiveTreeIterator
+    -   [RegexIterator](class.regexiterator.md) - Клас RegexIterator
+-   [Інтерфейси](spl.interfaces.md)
+    -   [Countable](class.countable.md) - Інтерфейс Countable
+    -   [OuterIterator](class.outeriterator.md) - Інтерфейс OuterIterator
+    -   [RecursiveIterator](class.recursiveiterator.md) - Інтерфейс RecursiveIterator
+    -   [SeekableIterator](class.seekableiterator.md) - Інтерфейс SeekableIterator
+-   [Исключения](spl.exceptions.md)
+    -   [BadFunctionCallException](class.badfunctioncallexception.md) - Клас BadFunctionCallException
+    -   [BadMethodCallException](class.badmethodcallexception.md) - Клас BadMethodCallException
+    -   [DomainException](class.domainexception.md) - Клас DomainException
+    -   [InvalidArgumentException](class.invalidargumentexception.md) - Клас InvalidArgumentException
+    -   [LengthException](class.lengthexception.md) - Клас LengthException
+    -   [LogicException](class.logicexception.md) - Клас LogicException
+    -   [OutOfBoundsException](class.outofboundsexception.md) - Клас OutOfBoundsException
+    -   [OutOfRangeException](class.outofrangeexception.md) - Клас OutOfRangeException
+    -   [OverflowException](class.overflowexception.md) - Клас OverflowException
+    -   [RangeException](class.rangeexception.md) - Клас RangeException
+    -   [RuntimeException](class.runtimeexception.md) - Клас RuntimeException
+    -   [UnderflowException](class.underflowexception.md) - Клас UnderflowException
+    -   [UnexpectedValueException](class.unexpectedvalueexception.md) - Клас UnexpectedValueException
+-   [Функції SPL](ref.spl.md)
     -   [classimplements](function.class-implements.html) — Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
     -   [classparents](function.class-parents.html) - Повертає список батьківських класів заданого класу
     -   [classuses](function.class-uses.html) — Повертає список трейтів, які використовуються заданим класом
@@ -90,11 +90,11 @@
     -   [splclasses](function.spl-classes.html) — Повертає доступні класи SPL
     -   [splobjecthash](function.spl-object-hash.html) — Повертає хеш-ідентифікатор для об'єкту
     -   [splobjectід](function.spl-object-id.html) — Отримати цілий ідентифікатор об'єкта
--   [Обработка файлов](spl.files.html)
-    -   [SplFileInfo](class.splfileinfo.html) - Клас SplFileInfo
-    -   [SplFileObject](class.splfileobject.html) - Клас SplFileObject
-    -   [SplTempFileObject](class.spltempfileobject.html) - Клас SplTempFileObject
--   [Различные классы и интерфейсы](spl.misc.html)
-    -   [ArrayObject](class.arrayobject.html) - Клас ArrayObject
-    -   [SplObserver](class.splobserver.html) - Інтерфейс SplObserver
-    -   [SplSubject](class.splsubject.html) - Інтерфейс SplSubject
+-   [Обработка файлов](spl.files.md)
+    -   [SplFileInfo](class.splfileinfo.md) - Клас SplFileInfo
+    -   [SplFileObject](class.splfileobject.md) - Клас SplFileObject
+    -   [SplTempFileObject](class.spltempfileobject.md) - Клас SplTempFileObject
+-   [Різні класи та інтерфейси](spl.misc.md)
+    -   [ArrayObject](class.arrayobject.md) - Клас ArrayObject
+    -   [SplObserver](class.splobserver.md) - Інтерфейс SplObserver
+    -   [SplSubject](class.splsubject.md) - Інтерфейс SplSubject

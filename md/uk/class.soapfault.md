@@ -1,12 +1,12 @@
 Клас SoapFault
 
--   [« SoapServer::setPersistence](soapserver.setpersistence.html)
+-   [« SoapServer::setPersistence](soapserver.setpersistence.md)
     
--   [SoapFault::construct »](soapfault.construct.html)
+-   [SoapFault::construct »](soapfault.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SOAP](book.soap.html)
+-   [SOAP](book.soap.md)
     
 -   Клас SoapFault
     
@@ -131,5 +131,5 @@ headerfault
 
 ## Зміст
 
--   [SoapFault::construct](soapfault.construct.html) - Конструктор SoapFault
--   [SoapFault::toString](soapfault.tostring.html) — Отримати текстове уявлення SoapFault
+-   [SoapFault::construct](soapfault.construct.md) - Конструктор SoapFault
+-   [SoapFault::toString](soapfault.tostring.md) — Отримати текстове уявлення SoapFault

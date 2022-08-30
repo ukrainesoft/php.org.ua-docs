@@ -1,12 +1,12 @@
 Отримання ширини шрифту
 
--   [« imagefontheight](function.imagefontheight.html)
+-   [« imagefontheight](function.imagefontheight.md)
     
--   [imageftbbox »](function.imageftbbox.html)
+-   [imageftbbox »](function.imageftbbox.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Отримання ширини шрифту
     
@@ -29,7 +29,7 @@ imagefontwidth(GdFont|int $font): int
 
 `font`
 
-Може приймати значення 1, 2, 3, 4, 5 для вбудованих шрифтів у кодуванні latin2 (вища кількість відповідає більшому шрифту) або екземпляр [GdFont](class.gdfont.html), що повертається функцією [imageloadfont()](function.imageloadfont.html)
+Може приймати значення 1, 2, 3, 4, 5 для вбудованих шрифтів у кодуванні latin2 (вища кількість відповідає більшому шрифту) або екземпляр [GdFont](class.gdfont.md), що повертається функцією [imageloadfont()](function.imageloadfont.md)
 
 ### Значення, що повертаються
 
@@ -37,9 +37,9 @@ imagefontwidth(GdFont|int $font): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                             |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `font` тепер приймає як екземпляр [GdFont](class.gdfont.html), і ціле число (int); раніше приймалося лише ціле число (int). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `font` тепер приймає як екземпляр [GdFont](class.gdfont.md), і ціле число (int); раніше приймалося лише ціле число (int). |
 
 ### Приклади
 
@@ -57,7 +57,7 @@ echo 'Ширина шрифта: ' . imagefontwidth(4);
 Font width: 8
 ```
 
-**Приклад #2 Використання **imagefontwidth()** разом з [imageloadfont()](function.imageloadfont.html)**
+**Приклад #2 Використання **imagefontwidth()** разом з [imageloadfont()](function.imageloadfont.md)**
 
 ```php
 <?php
@@ -76,5 +76,5 @@ Font width: 23
 
 ### Дивіться також
 
--   [imagefontheight()](function.imagefontheight.html) - Отримання висоти шрифту
--   [imageloadfont()](function.imageloadfont.html) - Завантаження шрифту
+-   [imagefontheight()](function.imagefontheight.md) - Отримання висоти шрифту
+-   [imageloadfont()](function.imageloadfont.md) - Завантаження шрифту

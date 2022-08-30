@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONSymbol »](class.mongodb-bson-symbol.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONInt64](class.mongodb-bson-int64.html)
     
@@ -42,5 +42,5 @@ final public MongoDB\BSON\Int64::unserialize(string $serialized): void
 ### Дивіться також
 
 -   [MongoDBBSONInt64::serialize()](mongodb-bson-int64.serialize.html) - Серіалізує Int64
--   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

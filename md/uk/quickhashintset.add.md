@@ -1,12 +1,12 @@
 Метод додає новий запис до набору
 
--   [« QuickHashIntSet](class.quickhashintset.html)
+-   [« QuickHashIntSet](class.quickhashintset.md)
     
--   [QuickHashIntSet::construct »](quickhashintset.construct.html)
+-   [QuickHashIntSet::construct »](quickhashintset.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [QuickHashIntSet](class.quickhashintset.html)
+-   [QuickHashIntSet](class.quickhashintset.md)
     
 -   Метод додає новий запис до набору
     

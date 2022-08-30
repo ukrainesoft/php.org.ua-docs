@@ -1,12 +1,12 @@
 Встановлює кольоровість зображення блакитною основною точкою
 
--   [« Gmagick::setimagebackgroundcolor](gmagick.setimagebackgroundcolor.html)
+-   [« Gmagick::setimagebackgroundcolor](gmagick.setimagebackgroundcolor.md)
     
--   [Gmagick::setimagebordercolor »](gmagick.setimagebordercolor.html)
+-   [Gmagick::setimagebordercolor »](gmagick.setimagebordercolor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Встановлює кольоровість зображення блакитною основною точкою
     
@@ -37,7 +37,7 @@ Y-координата блакитної основної точки.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

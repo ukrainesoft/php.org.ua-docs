@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](xmlwriter.resources.html)
+-   [« Типи ресурсів](xmlwriter.resources.md)
     
--   [Примеры »](xmlwriter.examples.html)
+-   [Приклади »](xmlwriter.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](book.xmlwriter.html)
+-   [XMLWriter](book.xmlwriter.md)
     
 -   Обумовлені константи
     

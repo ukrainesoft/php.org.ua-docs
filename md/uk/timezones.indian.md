@@ -1,12 +1,12 @@
 Індійська
 
--   [« Європа](timezones.europe.html)
+-   [« Європа](timezones.europe.md)
     
--   [Тихоокеанский »](timezones.pacific.html)
+-   [Тихоокеанский »](timezones.pacific.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Список підтримуваних часових поясів](timezones.html)
+-   [Список підтримуваних часових поясів](timezones.md)
     
 -   Індійська
     

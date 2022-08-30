@@ -1,12 +1,12 @@
 Основи синтаксису
 
--   [« Справочник языка](langref.html)
+-   [« Довідник мови](langref.html)
     
 -   [Теги PHP »](language.basic-syntax.phptags.html)
     
 -   [PHP Manual](index.html)
     
--   [Справочник языка](langref.html)
+-   [Довідник мови](langref.html)
     
 -   Основи синтаксису
     

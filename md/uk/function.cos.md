@@ -1,12 +1,12 @@
 Косінус
 
--   [« ceil](function.ceil.html)
+-   [« ceil](function.ceil.md)
     
--   [cosh »](function.cosh.html)
+-   [cosh »](function.cosh.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Косінус
     
@@ -49,7 +49,7 @@ echo cos(M_PI); // -1
 
 ### Дивіться також
 
--   [acos()](function.acos.html) - Арккосінус
--   [sin()](function.sin.html) - Сінус
--   [tan()](function.tan.html) - Тангенс
--   [deg2rad()](function.deg2rad.html) - Перетворює значення із градусів на радіани
+-   [acos()](function.acos.md) - Арккосінус
+-   [sin()](function.sin.md) - Сінус
+-   [tan()](function.tan.md) - Тангенс
+-   [deg2rad()](function.deg2rad.md) - Перетворює значення із градусів на радіани

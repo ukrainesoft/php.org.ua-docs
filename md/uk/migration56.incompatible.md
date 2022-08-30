@@ -1,12 +1,12 @@
 Зміни, що ламають зворотну сумісність
 
--   [« Миграция с PHP 5.5.x на PHP 5.6.x](migration56.html)
+-   [« Миграция с PHP 5.5.x на PHP 5.6.x](migration56.md)
     
 -   [Нові можливості "](migration56.new-features.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 5.5.x на PHP 5.6.x](migration56.html)
+-   [Миграция с PHP 5.5.x на PHP 5.6.x](migration56.md)
     
 -   Зміни, що ламають зворотну сумісність
     
@@ -72,14 +72,14 @@ array(3) {
 
 Хоча це й не рекомендується, але можна вимкнути перевірку сертифіката бенкету для запиту, встановивши [`verify_peer`](context.ssl.html#context.ssl.verify-peer) опцію контексту в **`false`**, і можна вимкнути перевірку імені бенкету, встановивши [`verify_peer_name`](context.ssl.html#context.ssl.verify-peer-name) в **`false`**
 
-### Тепер ресурси [GMP](book.gmp.html) є об'єктами
+### Тепер ресурси [GMP](book.gmp.md) є об'єктами
 
-Тепер ресурси [GMP](book.gmp.html) є об'єктами. Функціональне API, реалізоване у модулі GMP, залишилося без змін. Існуючий код має запрацювати без змін, тільки якщо в ньому явно не використовувалися перевірки на ресурс [ісresource()](function.is-resource.html) або щось подібне.
+Тепер ресурси [GMP](book.gmp.md) є об'єктами. Функціональне API, реалізоване у модулі GMP, залишилося без змін. Існуючий код має запрацювати без змін, тільки якщо в ньому явно не використовувалися перевірки на ресурс [ісresource()](function.is-resource.html) або щось подібне.
 
-### Тепер функція [Mcrypt](book.mcrypt.html) вимагає коректні ключі та IV
+### Тепер функція [Mcrypt](book.mcrypt.md) вимагає коректні ключі та IV
 
 [mcryptencrypt()](function.mcrypt-encrypt.html) [mcryptdecrypt()](function.mcrypt-decrypt.html) **mcryptcbc()** **mcryptcfb()** **mcryptecb()** [mcryptgeneric()](function.mcrypt-generic.html) і **mcryptofb()** більше не приймають ключі та IV з некоректною довжиною, а режими блокового шифру, що вимагають IV, будуть завершуватися помилково, якщо його не передати.
 
-### Завантаження файлів за допомогою [cURL](book.curl.html)
+### Завантаження файлів за допомогою [cURL](book.curl.md)
 
-Тепер завантаження за допомогою синтаксису @file потребує встановлення CURLOPTSAFEUPLOAD у значення **`false`**. Натомість слід використовувати [CURLFile](class.curlfile.html)
+Тепер завантаження за допомогою синтаксису @file потребує встановлення CURLOPTSAFEUPLOAD у значення **`false`**. Натомість слід використовувати [CURLFile](class.curlfile.md)

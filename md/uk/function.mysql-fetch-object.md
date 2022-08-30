@@ -4,9 +4,9 @@
     
 -   [mysqlfetchrow »](function.mysql-fetch-row.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](ref.mysql.html)
+-   [MySQL](ref.mysql.md)
     
 -   Обробляє ряд результату запиту та повертає об'єкт
     
@@ -19,10 +19,10 @@ mysqlfetchobject — Обробляє ряд результатів запиту
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   [mysqlifetchobject()](mysqli-result.fetch-object.html)
--   [PDOStatement::fetch(PDO::FETCHOBJ)](pdostatement.fetch.html)
+-   [PDOStatement::fetch(PDO::FETCHOBJ)](pdostatement.fetch.md)
 
 ### Опис
 
@@ -36,7 +36,7 @@ mysql_fetch_object(resource $result, string $class_name = ?, array $params = ?):
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
 
 `class_name`
 

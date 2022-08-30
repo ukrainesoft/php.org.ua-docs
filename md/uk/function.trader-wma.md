@@ -2,11 +2,11 @@
 
 -   [« traderwillr](function.trader-willr.html)
     
--   [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.html)
+-   [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Зважене ковзне середнє
     

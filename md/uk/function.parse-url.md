@@ -2,11 +2,11 @@
 
 -   [httpbuildquery](function.http-build-query.html)
     
--   [rawurldecode »](function.rawurldecode.html)
+-   [rawurldecode »](function.rawurldecode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції URL](ref.url.html)
+-   [Функції URL](ref.url.md)
     
 -   Розбирає URL та повертає його компоненти
     
@@ -67,9 +67,9 @@ http://example.com/foo?# → query = "",   fragment = ""
 
 ### список змін
 
-| Версия | Описание                                                                |
-|--------|-------------------------------------------------------------------------|
-|        | **parseurl()** тепер розрізняє відсутні та порожні запити та фрагменти. |
+| Версия | Описание |
+| --- | --- |
+|  | **parseurl()** тепер розрізняє відсутні та порожні запити та фрагменти. |
 
 ### Приклади
 
@@ -158,9 +158,9 @@ array(3) {
 
 ### Дивіться також
 
--   [pathinfo()](function.pathinfo.html) - Повертає інформацію про шлях до файлу
+-   [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях до файлу
 -   [parsestr()](function.parse-str.html) - Розбирає рядок у змінні
 -   [httpbuildquery()](function.http-build-query.html) - Генерує URL-кодований рядок запиту
--   [dirname()](function.dirname.html) - Повертає ім'я батьківського каталогу із зазначеного шляху
--   [basename()](function.basename.html) - Повертає останній компонент імені із зазначеного шляху
+-   [dirname()](function.dirname.md) - Повертає ім'я батьківського каталогу із зазначеного шляху
+-   [basename()](function.basename.md) - Повертає останній компонент імені із зазначеного шляху
 -   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

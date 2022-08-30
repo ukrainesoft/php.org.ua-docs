@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](sqlite3.resources.html)
+-   [« Типи ресурсів](sqlite3.resources.md)
     
--   [SQLite3 »](class.sqlite3.html)
+-   [SQLite3 »](class.sqlite3.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3](book.sqlite3.html)
+-   [SQLite3](book.sqlite3.md)
     
 -   Обумовлені константи
     
@@ -17,15 +17,15 @@
 
 **`SQLITE3_ASSOC`** (int)
 
-Вказує на те, що [Sqlite3Result::fetchArray()](sqlite3result.fetcharray.html) метод повинен повернути масив, індексований на ім'я стовпця у відповідний набір результатів.
+Вказує на те, що [Sqlite3Result::fetchArray()](sqlite3result.fetcharray.md) метод повинен повернути масив, індексований на ім'я стовпця у відповідний набір результатів.
 
 **`SQLITE3_NUM`** (int)
 
-Вказує на те, що [Sqlite3Result::fetchArray()](sqlite3result.fetcharray.html) метод повинен повернути масив, індексований за номером шпальти у відповідний набір результатів, починаючи з шпальти 0.
+Вказує на те, що [Sqlite3Result::fetchArray()](sqlite3result.fetcharray.md) метод повинен повернути масив, індексований за номером шпальти у відповідний набір результатів, починаючи з шпальти 0.
 
 **`SQLITE3_BOTH`** (int)
 
-Вказує на те, що [Sqlite3Result::fetchArray()](sqlite3result.fetcharray.html) метод повинен повернути масив, індексований на ім'я стовпця та його номеру у відповідний набір результатів, починаючи зі стовпця 0.
+Вказує на те, що [Sqlite3Result::fetchArray()](sqlite3result.fetcharray.md) метод повинен повернути масив, індексований на ім'я стовпця та його номеру у відповідний набір результатів, починаючи зі стовпця 0.
 
 **`SQLITE3_INTEGER`** (int)
 

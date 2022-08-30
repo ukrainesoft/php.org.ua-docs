@@ -4,9 +4,9 @@
     
 -   [sodiumcryptosignkeypair »](function.sodium-crypto-sign-keypair.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Об'єднує секретний ключ та відкритий ключ разом
     

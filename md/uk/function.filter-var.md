@@ -2,11 +2,11 @@
 
 -   [« filtervararray](function.filter-var-array.html)
     
--   [Управление функциями »](book.funchand.html)
+-   [Управление функциями »](book.funchand.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції фільтрації даних](ref.filter.html)
+-   [Функції фільтрації даних](ref.filter.md)
     
 -   Фільтрує змінну за допомогою певного фільтра
     
@@ -31,13 +31,13 @@ filter_var(mixed $value, int $filter = FILTER_DEFAULT, array|int $options = 0): 
 
 `filter`
 
-Ідентифікатор (ID) фільтра. На сторінці [Типи фільтрів](filter.filters.html) наведено список доступних фільтрів.
+Ідентифікатор (ID) фільтра. На сторінці [Типи фільтрів](filter.filters.md) наведено список доступних фільтрів.
 
-Якщо не вказано, то використовується **`FILTER_DEFAULT`**, який рівнозначний [**`FILTER_UNSAFE_RAW`**](filter.filters.sanitize.html). Це означає, що за замовчуванням не застосовується фільтр.
+Якщо не вказано, то використовується **`FILTER_DEFAULT`**, який рівнозначний [**`FILTER_UNSAFE_RAW`**](filter.filters.sanitize.md). Це означає, що за замовчуванням не застосовується фільтр.
 
 `options`
 
-Асоціативний масив властивостей чи логічна диз'юнкція (операція АБО) прапорів. Якщо фільтр приймає настройки, прапори можуть бути вказані в елементі масиву "flags". Для фільтра "callback" має бути вказаний тип [callable](language.types.callable.html). Фільтр "callback" повинен приймати один аргумент, значення фільтрації, і повертати значення після фільтрації.
+Асоціативний масив властивостей чи логічна диз'юнкція (операція АБО) прапорів. Якщо фільтр приймає настройки, прапори можуть бути вказані в елементі масиву "flags". Для фільтра "callback" має бути вказаний тип [callable](language.types.callable.md). Фільтр "callback" повинен приймати один аргумент, значення фільтрації, і повертати значення після фільтрації.
 
 ```php
 <?php
@@ -55,7 +55,7 @@ $var = filter_var('0755', FILTER_VALIDATE_INT, $options);
 // для фильтров, который принимает только флаги, вы можете передать их непосредственно
 $var = filter_var('oops', FILTER_VALIDATE_BOOLEAN, FILTER_NULL_ON_FAILURE);
 
-// для фильтров, который принимает только флаги, вы также можете передать их как массив
+// для фильтров, который принимает только флаги, вы также можете передать их как Масив
 $var = filter_var('oops', FILTER_VALIDATE_BOOLEAN,
                   array('flags' => FILTER_NULL_ON_FAILURE));
 
@@ -104,4 +104,4 @@ bool(false)
 -   [filtervararray()](function.filter-var-array.html) - приймає кілька змінних і, при необхідності, фільтрує їх
 -   [filterinput()](function.filter-input.html) - приймає змінну ззовні PHP і, при необхідності, фільтрує її
 -   [filterinputarray()](function.filter-input-array.html) - Отримує кілька змінних ззовні PHP і, при необхідності, фільтрує їх
--   [Типи фільтрів](filter.filters.html)
+-   [Типи фільтрів](filter.filters.md)

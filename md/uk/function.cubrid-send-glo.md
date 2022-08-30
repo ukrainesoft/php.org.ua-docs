@@ -2,11 +2,11 @@
 
 -   [« cubridsaveтоglo](function.cubrid-save-to-glo.html)
     
--   [dBase »](book.dbase.html)
+-   [dBase »](book.dbase.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие псевдонимы и функции CUBRID](oldaliases.cubrid.html)
+-   [Застарілі псевдоніми та функції CUBRID](oldaliases.cubrid.md)
     
 -   Читання даних з glo та виведення їх у стандартний пристрій виведення
     

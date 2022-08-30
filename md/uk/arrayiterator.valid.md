@@ -1,12 +1,12 @@
 Перевіряє, чи містить масив ще запису
 
--   [« ArrayIterator::unserialize](arrayiterator.unserialize.html)
+-   [« ArrayIterator::unserialize](arrayiterator.unserialize.md)
     
--   [CachingIterator »](class.cachingiterator.html)
+-   [CachingIterator »](class.cachingiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayIterator](class.arrayiterator.html)
+-   [ArrayIterator](class.arrayiterator.md)
     
 -   Перевіряє, чи містить масив ще запису
     
@@ -48,7 +48,7 @@ var_dump($iterator->valid()); //bool(true)
 
 $iterator->next(); // перемещаем указатель на следующий элемент
 
-//bool(false) потому что в массиве только один элемент
+//bool(false) потому что в Масиве только один элемент
 var_dump($iterator->valid());
 ?>
 ```

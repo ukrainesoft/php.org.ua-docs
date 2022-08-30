@@ -1,12 +1,12 @@
 Вступ
 
--   [« Безпека](security.html)
+-   [« Безпека](security.md)
     
--   [Общие рассуждения »](security.general.html)
+-   [Общие рассуждения »](security.general.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Безпека](security.html)
+-   [Безпека](security.md)
     
 -   Вступ
     

@@ -1,23 +1,23 @@
 Клас DOMAttr
 
--   [« Примеры](dom.examples.html)
+-   [« Приклади](dom.examples.md)
     
--   [DOMAttr::construct »](domattr.construct.html)
+-   [DOMAttr::construct »](domattr.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOM](book.dom.html)
+-   [DOM](book.dom.md)
     
 -   Клас DOMAttr
     
 
-# Клас [DOMAttr](class.domattr.html)
+# Клас [DOMAttr](class.domattr.md)
 
 (PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
-**DOMAttr** надає атрибут в об'єкті [DOMElement](class.domelement.html)
+**DOMAttr** надає атрибут в об'єкті [DOMElement](class.domelement.md)
 
 ## Огляд класів
 
@@ -185,5 +185,5 @@ value
 
 ## Зміст
 
--   [DOMAttr::construct](domattr.construct.html) - Створює екземпляр класу DOMAttr
--   [DOMAttr::isId](domattr.isid.html) — Перевіряє, чи є атрибут певним ідентифікатором
+-   [DOMAttr::construct](domattr.construct.md) - Створює екземпляр класу DOMAttr
+-   [DOMAttr::isId](domattr.isid.md) — Перевіряє, чи є атрибут певним ідентифікатором

@@ -1,27 +1,27 @@
 Формат даних форм
 
--   [« Генерація нетекстових MIME-форматів](refs.utilspec.nontext.html)
+-   [« Генерація нетекстових MIME-форматів](refs.utilspec.nontext.md)
     
--   [Введение »](intro.fdf.html)
+-   [Введение »](intro.fdf.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.html)
+-   [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.md)
     
 -   Формат даних форм
     
 
 # Формат даних форм
 
--   [Введение](intro.fdf.html)
--   [Установка и настройка](fdf.setup.html)
-    -   [Требования](fdf.requirements.html)
-    -   [Установка](fdf.installation.html)
-    -   [Настройка во время выполнения](fdf.configuration.html)
-    -   [Типы ресурсов](fdf.resources.html)
--   [Предопределённые константы](fdf.constants.html)
--   [Примеры](fdf.examples.html)
--   [FDF](ref.fdf.html)
+-   [Введение](intro.fdf.md)
+-   [Встановлення та налаштування](fdf.setup.md)
+    -   [Вимоги](fdf.requirements.md)
+    -   [Установка](fdf.installation.md)
+    -   [Налаштування під час виконання](fdf.configuration.md)
+    -   [Типи ресурсів](fdf.resources.md)
+-   [Обумовлені константи](fdf.constants.md)
+-   [Приклади](fdf.examples.md)
+-   [FDF](ref.fdf.md)
     -   [fdfadddocjavascript](function.fdf-add-doc-javascript.html) — Додає код javascript у документ FDF
     -   [fdfaddtemplate](function.fdf-add-template.html) — Додає шаблон до FDF-документу
     -   [fdfclose](function.fdf-close.html) - Закриває FDF-документ

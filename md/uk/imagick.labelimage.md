@@ -1,12 +1,12 @@
 Додає позначку до зображення
 
--   [« Imagick::inverseFourierTransformImage](imagick.inversefouriertransformimage.html)
+-   [« Imagick::inverseFourierTransformImage](imagick.inversefouriertransformimage.md)
     
--   [Imagick::levelImage »](imagick.levelimage.html)
+-   [Imagick::levelImage »](imagick.levelimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Додає позначку до зображення
     

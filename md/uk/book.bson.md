@@ -2,18 +2,18 @@
 
 -   [« MongoDBDriverWriteResult::isAcknowledged](mongodb-driver-writeresult.isacknowledged.html)
     
--   [Функції »](ref.bson.functions.html)
+-   [Функції »](ref.bson.functions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDB](set.mongodb.html)
+-   [MongoDB](set.mongodb.md)
     
 -   Класи типів BSON та функції серіалізації
     
 
 # Класи типів BSON та функції серіалізації
 
--   [Функції](ref.bson.functions.html)
+-   [Функції](ref.bson.functions.md)
     -   [MongoDBBSONfromJSON](function.mongodb.bson-fromjson.html) — Повертає подання BSON значення JSON
     -   [MongoDBBSONfromPHP](function.mongodb.bson-fromphp.html) — Повертає представлення BSON значення PHP
     -   [MongoDBBSONtoCanonicalExtendedJSON](function.mongodb.bson-tocanonicalextendedjson.html) — Повертає Canonical Extended JSON представлення для BSON

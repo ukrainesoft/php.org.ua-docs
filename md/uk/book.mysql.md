@@ -2,28 +2,28 @@
 
 -   [« Warning::construct](mysql-xdevapi-warning.construct.html)
     
--   [Введение »](intro.mysql.html)
+-   [Введение »](intro.mysql.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](set.mysqlinfo.html)
+-   [MySQL](set.mysqlinfo.md)
     
 -   Оригінальне API MySQL
     
 
 # Оригінальне API MySQL
 
--   [Введение](intro.mysql.html)
--   [Установка и настройка](mysql.setup.html)
-    -   [Требования](mysql.requirements.html)
-    -   [Установка](mysql.installation.html)
-    -   [Настройка во время выполнения](mysql.configuration.html)
-    -   [Типы ресурсов](mysql.resources.html)
--   [Список изменений](changelog.mysql.html)
--   [Предопределённые константы](mysql.constants.html)
--   [Примеры](mysql.examples.html)
+-   [Введение](intro.mysql.md)
+-   [Встановлення та налаштування](mysql.setup.md)
+    -   [Вимоги](mysql.requirements.md)
+    -   [Установка](mysql.installation.md)
+    -   [Налаштування під час виконання](mysql.configuration.md)
+    -   [Типи ресурсів](mysql.resources.md)
+-   [Список изменений](changelog.mysql.md)
+-   [Обумовлені константи](mysql.constants.md)
+-   [Приклади](mysql.examples.md)
     -   [Оглядовий приклад модуля MySQL](mysql.examples-basic.html)
--   [MySQL](ref.mysql.html) - Функції СУБД MySQL
+-   [MySQL](ref.mysql.md) - Функції СУБД MySQL
     -   [mysqlaffectedrows](function.mysql-affected-rows.html) — Повертає кількість порушених минулою операцією рядів
     -   [mysqlclientencoding](function.mysql-client-encoding.html) — Повертає кодування з'єднання
     -   [mysqlclose](function.mysql-close.html) — Закриває з'єднання із сервером MySQL

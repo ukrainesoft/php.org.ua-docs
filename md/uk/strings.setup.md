@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.strings.html)
     
--   [Требования »](strings.requirements.html)
+-   [Вимоги »](strings.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](strings.requirements.html)
+-   [Вимоги](strings.requirements.html)
 -   [Установка](strings.installation.html)
--   [Настройка во время выполнения](strings.configuration.html)
--   [Типы ресурсов](strings.resources.html)
+-   [Налаштування під час виконання](strings.configuration.html)
+-   [Типи ресурсів](strings.resources.html)

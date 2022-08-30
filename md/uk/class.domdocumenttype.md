@@ -1,12 +1,12 @@
 Клас DOMDocumentType
 
--   [« DOMDocumentFragment::construct](domdocumentfragment.construct.html)
+-   [« DOMDocumentFragment::construct](domdocumentfragment.construct.md)
     
--   [DOMElement »](class.domelement.html)
+-   [DOMElement »](class.domelement.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOM](book.dom.html)
+-   [DOM](book.dom.md)
     
 -   Клас DOMDocumentType
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Кожен об'єкт [DOMDocument](class.domdocument.html) має атрибут `doctype`, значення якого або **`null`**, або об'єкт класу **DOMDocumentType**
+Кожен об'єкт [DOMDocument](class.domdocument.md) має атрибут `doctype`, значення якого або **`null`**, або об'єкт класу **DOMDocumentType**
 
 ## Огляд класів
 
@@ -173,11 +173,11 @@ name
 
 entities
 
-Об'єкт класу [DOMNamedNodeMap](class.domnamednodemap.html), Що містить основні елементи, внутрішні та зовнішні, оголошені в DTD.
+Об'єкт класу [DOMNamedNodeMap](class.domnamednodemap.md), Що містить основні елементи, внутрішні та зовнішні, оголошені в DTD.
 
 notations
 
-Об'єкт класу [DOMNamedNodeMap](class.domnamednodemap.html)містить позначення, оголошені в DTD.
+Об'єкт класу [DOMNamedNodeMap](class.domnamednodemap.md)містить позначення, оголошені в DTD.
 
 internalSubset
 

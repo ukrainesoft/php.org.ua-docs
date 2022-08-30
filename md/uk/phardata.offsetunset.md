@@ -1,12 +1,12 @@
 Видалити файл із tar/zip-архіву
 
--   [« PharData::offsetSet](phardata.offsetset.html)
+-   [« PharData::offsetSet](phardata.offsetset.md)
     
--   [PharData::setAlias »](phardata.setalias.html)
+-   [PharData::setAlias »](phardata.setalias.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharData](class.phardata.html)
+-   [PharData](class.phardata.md)
     
 -   Видалити файл із tar/zip-архіву
     
@@ -23,7 +23,7 @@ PharData::offsetUnset — Видалити файл із tar/zip-архіву
 public PharData::offsetUnset(string $localName): void
 ```
 
-Це реалізація інтерфейсу [ArrayAccess](class.arrayaccess.html), що дозволяє маніпулювати вмістом tar/zip-архіву у стилі доступу до елементів масиву. offsetUnset використовується для видалення файлів і запускається щоразу, коли використовується конструкція [unset()](function.unset.html)
+Це реалізація інтерфейсу [ArrayAccess](class.arrayaccess.md), що дозволяє маніпулювати вмістом tar/zip-архіву у стилі доступу до елементів масиву. offsetUnset використовується для видалення файлів і запускається щоразу, коли використовується конструкція [unset()](function.unset.md)
 
 ### Список параметрів
 
@@ -37,7 +37,7 @@ public PharData::offsetUnset(string $localName): void
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.html) у разі проблем із записом на диск.
+Викидає виняток [PharException](class.pharexception.md) у разі проблем із записом на диск.
 
 ### Приклади
 
@@ -57,4 +57,4 @@ try {
 
 ### Дивіться також
 
--   [Phar::offsetUnset()](phar.offsetunset.html) - Видалити файл із phar-архіву
+-   [Phar::offsetUnset()](phar.offsetunset.md) - Видалити файл із phar-архіву

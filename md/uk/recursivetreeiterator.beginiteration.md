@@ -1,12 +1,12 @@
 Початок навігації
 
--   [« RecursiveTreeIterator::beginChildren](recursivetreeiterator.beginchildren.html)
+-   [« RecursiveTreeIterator::beginChildren](recursivetreeiterator.beginchildren.md)
     
--   [RecursiveTreeIterator::callGetChildren »](recursivetreeiterator.callgetchildren.html)
+-   [RecursiveTreeIterator::callGetChildren »](recursivetreeiterator.callgetchildren.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+-   [RecursiveTreeIterator](class.recursivetreeiterator.md)
     
 -   Початок навігації
     
@@ -23,7 +23,7 @@ RecursiveTreeIterator::beginIteration — Початок навігації
 public RecursiveTreeIterator::beginIteration(): RecursiveIterator
 ```
 
-Викликається, коли починається навігація за елементами (після першого виклику методу [RecursiveTreeIterator::rewind()](recursivetreeiterator.rewind.html)
+Викликається, коли починається навігація за елементами (після першого виклику методу [RecursiveTreeIterator::rewind()](recursivetreeiterator.rewind.md)
 
 **Увага**
 
@@ -35,4 +35,4 @@ public RecursiveTreeIterator::beginIteration(): RecursiveIterator
 
 ### Значення, що повертаються
 
-Об'єкт [RecursiveIterator](class.recursiveiterator.html)
+Об'єкт [RecursiveIterator](class.recursiveiterator.md)

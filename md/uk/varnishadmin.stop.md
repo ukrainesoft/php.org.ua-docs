@@ -1,12 +1,12 @@
 Зупинити робочий процес varnish
 
--   [« VarnishAdmin::start](varnishadmin.start.html)
+-   [« VarnishAdmin::start](varnishadmin.start.md)
     
--   [VarnishStat »](class.varnishstat.html)
+-   [VarnishStat »](class.varnishstat.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [VarnishAdmin](class.varnishadmin.html)
+-   [VarnishAdmin](class.varnishadmin.md)
     
 -   Зупинити робочий процес varnish
     

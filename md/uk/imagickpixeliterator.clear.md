@@ -1,12 +1,12 @@
 Очищає ресурси, пов'язані з PixelIterator
 
--   [« ImagickPixelIterator](class.imagickpixeliterator.html)
+-   [« ImagickPixelIterator](class.imagickpixeliterator.md)
     
--   [ImagickPixelIterator::construct »](imagickpixeliterator.construct.html)
+-   [ImagickPixelIterator::construct »](imagickpixeliterator.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickPixelIterator](class.imagickpixeliterator.html)
+-   [ImagickPixelIterator](class.imagickpixeliterator.md)
     
 -   Очищає ресурси, пов'язані з PixelIterator
     

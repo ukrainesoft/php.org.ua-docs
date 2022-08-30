@@ -1,6 +1,6 @@
 Функції Inotify
 
--   [« Предопределённые константы](inotify.constants.html)
+-   [« Обумовлені константи](inotify.constants.html)
     
 -   [inotifyaddwatch »](function.inotify-add-watch.html)
     

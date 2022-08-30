@@ -1,12 +1,12 @@
 Вступ
 
--   [« OAuth](book.oauth.html)
+-   [« OAuth](book.oauth.md)
     
--   [Установка и настройка »](oauth.setup.html)
+-   [Встановлення та налаштування »](oauth.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](book.oauth.html)
+-   [OAuth](book.oauth.md)
     
 -   Вступ
     

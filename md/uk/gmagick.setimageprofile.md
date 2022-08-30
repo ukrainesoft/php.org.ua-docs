@@ -1,12 +1,12 @@
 Додає іменований профіль до об'єкту Gmagick
 
--   [« Gmagick::setimageiterations](gmagick.setimageiterations.html)
+-   [« Gmagick::setimageiterations](gmagick.setimageiterations.md)
     
--   [Gmagick::setimageredprimary »](gmagick.setimageredprimary.html)
+-   [Gmagick::setimageredprimary »](gmagick.setimageredprimary.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Додає іменований профіль до об'єкту Gmagick
     

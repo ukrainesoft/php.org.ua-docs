@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](mongodb.requirements.html)
+-   [« Вимоги](mongodb.requirements.md)
     
--   [Установка драйвера PHP MongoDB с помощью PECL »](mongodb.installation.pecl.html)
+-   [Установка драйвера PHP MongoDB с помощью PECL »](mongodb.installation.pecl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mongodb.setup.html)
+-   [Встановлення та налаштування](mongodb.setup.md)
     
 -   Встановлення
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Установка драйвера PHP MongoDB с помощью PECL](mongodb.installation.pecl.html)
--   [Установка драйвера PHP MongoDB на macOS помощью Homebrew](mongodb.installation.homebrew.html)
--   [Установка драйвера PHP MongoDB под Windows](mongodb.installation.windows.html)
--   [Сборка драйвера PHP MongoDB из исходного кода](mongodb.installation.manual.html)
+-   [Установка драйвера PHP MongoDB с помощью PECL](mongodb.installation.pecl.md)
+-   [Установка драйвера PHP MongoDB на macOS помощью Homebrew](mongodb.installation.homebrew.md)
+-   [Установка драйвера PHP MongoDB под Windows](mongodb.installation.windows.md)
+-   [Сборка драйвера PHP MongoDB из исходного кода](mongodb.installation.manual.md)

@@ -1,12 +1,12 @@
 Клас Normalizer
 
--   [« Locale::setDefault](locale.setdefault.html)
+-   [« Locale::setDefault](locale.setdefault.md)
     
--   [Normalizer::getRawDecomposition »](normalizer.getrawdecomposition.html)
+-   [Normalizer::getRawDecomposition »](normalizer.getrawdecomposition.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [intl](book.intl.html)
+-   [intl](book.intl.md)
     
 -   Клас Normalizer
     
@@ -87,6 +87,6 @@ public static normalize(string $string, int $form = Normalizer::FORM_C): string|
 
 ## Зміст
 
--   [Normalizer::getRawDecomposition](normalizer.getrawdecomposition.html) — Витягує властивість DecompositionMapping для заданого символу UTF-8
--   [Normalizer::isNormalized](normalizer.isnormalized.html) — Перевірити, чи переданий рядок відповідає заданій формі нормалізації
--   [Normalizer::normalize](normalizer.normalize.html) - Нормалізація рядка
+-   [Normalizer::getRawDecomposition](normalizer.getrawdecomposition.md) — Витягує властивість DecompositionMapping для заданого символу UTF-8
+-   [Normalizer::isNormalized](normalizer.isnormalized.md) — Перевірити, чи переданий рядок відповідає заданій формі нормалізації
+-   [Normalizer::normalize](normalizer.normalize.md) - Нормалізація рядка

@@ -1,12 +1,12 @@
 Скинути дескриптор каталогу
 
--   [« readdir](function.readdir.html)
+-   [« readdir](function.readdir.md)
     
--   [scandir »](function.scandir.html)
+-   [scandir »](function.scandir.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з каталогами](ref.dir.html)
+-   [Функції для роботи з каталогами](ref.dir.md)
     
 -   Скинути дескриптор каталогу
     
@@ -29,7 +29,7 @@ rewinddir(?resource $dir_handle = null): void
 
 `dir_handle`
 
-Ресурс (resource) дескриптора каталогу, який раніше був відкритий за допомогою функції [opendir()](function.opendir.html). Якщо дескриптор каталогу не вказано, мається на увазі останній дескриптор, який було відкрито за допомогою [opendir()](function.opendir.html)
+Ресурс (resource) дескриптора каталогу, який раніше був відкритий за допомогою функції [opendir()](function.opendir.md). Якщо дескриптор каталогу не вказано, мається на увазі останній дескриптор, який було відкрито за допомогою [opendir()](function.opendir.md)
 
 ### Значення, що повертаються
 
@@ -37,6 +37,6 @@ rewinddir(?resource $dir_handle = null): void
 
 ### список змін
 
-| Версия | Описание                                   |
-|--------|--------------------------------------------|
-|        | `dir_handle` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `dir_handle` тепер допускає значення null. |

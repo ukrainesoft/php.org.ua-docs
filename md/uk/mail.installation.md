@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](mail.requirements.html)
+-   [« Вимоги](mail.requirements.html)
     
--   [Настройка во время выполнения »](mail.configuration.html)
+-   [Налаштування під час виконання »](mail.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](mail.setup.html)
+-   [Встановлення та налаштування](mail.setup.html)
     
 -   Встановлення
     

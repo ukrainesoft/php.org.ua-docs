@@ -1,12 +1,12 @@
 Клас IntlCodePointBreakIterator
 
--   [« IntlRuleBasedBreakIterator::getRuleStatusVec](intlrulebasedbreakiterator.getrulestatusvec.html)
+-   [« IntlRuleBasedBreakIterator::getRuleStatusVec](intlrulebasedbreakiterator.getrulestatusvec.md)
     
--   [IntlCodePointBreakIterator::getLastCodePoint »](intlcodepointbreakiterator.getlastcodepoint.html)
+-   [IntlCodePointBreakIterator::getLastCodePoint »](intlcodepointbreakiterator.getlastcodepoint.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [intl](book.intl.html)
+-   [intl](book.intl.md)
     
 -   Клас IntlCodePointBreakIterator
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Цей [итератор прерываний](class.intlbreakiterator.html) вказує межі між кодами символів UTF-8.
+Цей [ітератор переривань](class.intlbreakiterator.md) вказує межі між кодами символів UTF-8.
 
 ## Огляд класів
 
@@ -132,4 +132,4 @@ public IntlBreakIterator::setText(string $text): ?bool
 
 ## Зміст
 
--   [IntlCodePointBreakIterator::getLastCodePoint](intlcodepointbreakiterator.getlastcodepoint.html) — Отримати останній код символу, виданий під час переміщення ітератора вперед чи назад
+-   [IntlCodePointBreakIterator::getLastCodePoint](intlcodepointbreakiterator.getlastcodepoint.md) — Отримати останній код символу, виданий під час переміщення ітератора вперед чи назад

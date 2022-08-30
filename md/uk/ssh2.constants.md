@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](ssh2.resources.html)
+-   [« Типи ресурсів](ssh2.resources.md)
     
--   [Функції SSH2 »](ref.ssh2.html)
+-   [Функції SSH2 »](ref.ssh2.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SSH2](book.ssh2.html)
+-   [SSH2](book.ssh2.md)
     
 -   Обумовлені константи
     

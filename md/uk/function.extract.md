@@ -1,12 +1,12 @@
 Імпортує змінні з масиву до поточної таблиці символів
 
--   [« end](function.end.html)
+-   [« end](function.end.md)
     
 -   [інarray »](function.in-array.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Імпортує змінні з масиву до поточної таблиці символів
     
@@ -29,7 +29,7 @@ extract(array &$array, int $flags = EXTR_OVERWRITE, string $prefix = ""): int
 
 **Увага**
 
-Не використовуйте **extract()** на неперевірених даних, таких як введення користувача (наприклад, [GET](reserved.variables.get.html) [FILES](reserved.variables.files.html)
+Не використовуйте **extract()** на неперевірених даних, таких як введення користувача (наприклад, [GET](reserved.variables.get.md) [FILES](reserved.variables.files.md)
 
 ### Список параметрів
 
@@ -65,7 +65,7 @@ extract(array &$array, int $flags = EXTR_OVERWRITE, string $prefix = ""): int
 
 **`EXTR_IF_EXISTS`**
 
-Перезаписати лише змінні, які вже є в поточній таблиці символів, інакше не робити нічого. Дана можливість корисна для визначення списку прийнятних змінних та для вилучення тільки тих змінних, які ви вже визначили з масивів типу [REQUEST](reserved.variables.request.html)наприклад.
+Перезаписати лише змінні, які вже є в поточній таблиці символів, інакше не робити нічого. Дана можливість корисна для визначення списку прийнятних змінних та для вилучення тільки тих змінних, які ви вже визначили з масивів типу [REQUEST](reserved.variables.request.md)наприклад.
 
 **`EXTR_PREFIX_IF_EXISTS`**
 
@@ -94,7 +94,7 @@ extract(array &$array, int $flags = EXTR_OVERWRITE, string $prefix = ""): int
 ```php
 <?php
 
-/* Предположим, что $var_array - это массив, полученный в результате
+/* Предположим, что $var_array - это Масив, полученный в результате
    wddx_deserialize */
 
 $size = "large";
@@ -120,9 +120,9 @@ blue, large, sphere, medium
 
 **Увага**
 
-Не використовуйте функцію **extract()** на неперевірених даних, таких як введення користувача ([GET](reserved.variables.get.html) [FILES](reserved.variables.files.html) і т.п.). Якщо ви зробите це, переконайтеся, що використовуєте один із прапорів `flags`, що не перезаписують змінні, такий як **`EXTR_SKIP`** і майте на увазі, що ви повинні витягувати їх у тому порядку, який визначений у директиві [variablesorder](ini.core.html#ini.variables-order) всередині [php.ini](ini.html)
+Не використовуйте функцію **extract()** на неперевірених даних, таких як введення користувача ([GET](reserved.variables.get.md) [FILES](reserved.variables.files.md) і т.п.). Якщо ви зробите це, переконайтеся, що використовуєте один із прапорів `flags`, що не перезаписують змінні, такий як **`EXTR_SKIP`** і майте на увазі, що ви повинні витягувати їх у тому порядку, який визначений у директиві [variablesorder](ini.core.html#ini.variables-order) всередині [php.ini](ini.md)
 
 ### Дивіться також
 
--   [compact()](function.compact.html) - Створює масив, що містить назви змінних та їх значення
--   [list()](function.list.html) - Надає змінним зі списку значення подібно до масиву
+-   [compact()](function.compact.md) - Створює масив, що містить назви змінних та їх значення
+-   [list()](function.list.md) - Надає змінним зі списку значення подібно до масиву

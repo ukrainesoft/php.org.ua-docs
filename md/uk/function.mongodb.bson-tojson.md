@@ -4,9 +4,9 @@
     
 -   [MongoDBBSONtoPHP »](function.mongodb.bson-tophp.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції](ref.bson.functions.html)
+-   [Функції](ref.bson.functions.md)
     
 -   Повертає Legacy Extended JSON подання значення BSON
     

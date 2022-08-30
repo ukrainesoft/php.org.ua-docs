@@ -4,9 +4,9 @@
     
 -   [ibasefetchobject »](function.ibase-fetch-object.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Firebird/InterBase](ref.ibase.html)
+-   [Функции Firebird/InterBase](ref.ibase.md)
     
 -   Витягує рядок результату із запиту у вигляді асоціативного масиву
     

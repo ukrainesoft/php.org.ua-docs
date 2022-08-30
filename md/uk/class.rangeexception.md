@@ -1,12 +1,12 @@
 Клас RangeException
 
--   [« OverflowException](class.overflowexception.html)
+-   [« OverflowException](class.overflowexception.md)
     
--   [RuntimeException »](class.runtimeexception.html)
+-   [RuntimeException »](class.runtimeexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Исключения](spl.exceptions.html)
+-   [Исключения](spl.exceptions.md)
     
 -   Клас RangeException
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Викидається виняток, щоб вказати помилки діапазону під час виконання програми. Як правило, це означає, що була арифметична помилка, відмінна від недоповнення/переповнення. Це версія [DomainException](class.domainexception.html), призначена для виконання.
+Викидається виняток, щоб вказати помилки діапазону під час виконання програми. Як правило, це означає, що була арифметична помилка, відмінна від недоповнення/переповнення. Це версія [DomainException](class.domainexception.md), призначена для виконання.
 
 ## Огляд класів
 

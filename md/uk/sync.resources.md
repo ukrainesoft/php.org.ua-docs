@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](sync.configuration.html)
+-   [« Налаштування під час виконання](sync.configuration.md)
     
--   [Предопределённые константы »](sync.constants.html)
+-   [Обумовлені константи »](sync.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](sync.setup.html)
+-   [Встановлення та налаштування](sync.setup.md)
     
 -   Типи ресурсів
     

@@ -14,12 +14,12 @@ Apache
 # Apache
 
 -   [Введение](intro.apache.html)
--   [Установка и настройка](apache.setup.html)
-    -   [Требования](apache.requirements.html)
+-   [Встановлення та налаштування](apache.setup.html)
+    -   [Вимоги](apache.requirements.html)
     -   [Установка](apache.installation.html)
-    -   [Настройка во время выполнения](apache.configuration.html)
-    -   [Типы ресурсов](apache.resources.html)
--   [Предопределённые константы](apache.constants.html)
+    -   [Налаштування під час виконання](apache.configuration.html)
+    -   [Типи ресурсів](apache.resources.html)
+-   [Обумовлені константи](apache.constants.html)
 -   [Функции Apache](ref.apache.html)
     -   [apachechildterminate](function.apache-child-terminate.html) — Завершити процес Apache після поточного запиту
     -   [apachegetmodules](function.apache-get-modules.html) — Повертає список завантажених модулів сервера Apache

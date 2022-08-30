@@ -14,14 +14,14 @@ GNU Privacy Guard
 # GNU Privacy Guard
 
 -   [Введение](intro.gnupg.html)
--   [Установка и настройка](gnupg.setup.html)
-    -   [Требования](gnupg.requirements.html)
+-   [Встановлення та налаштування](gnupg.setup.html)
+    -   [Вимоги](gnupg.requirements.html)
     -   [Установка](gnupg.installation.html)
-    -   [Настройка во время выполнения](gnupg.configuration.html)
-    -   [Типы ресурсов](gnupg.resources.html)
--   [Предопределённые константы](gnupg.constants.html)
--   [Примеры](gnupg.examples.html)
-    -   [Прозрачное подписывание текста](gnupg.examples-clearsign.html)
+    -   [Налаштування під час виконання](gnupg.configuration.html)
+    -   [Типи ресурсів](gnupg.resources.html)
+-   [Обумовлені константи](gnupg.constants.html)
+-   [Приклади](gnupg.examples.html)
+    -   [Прозоре підписування тексту](gnupg.examples-clearsign.html)
 -   [GnuPG Функції](ref.gnupg.html)
     -   [gnupgadddecryptkey](function.gnupg-adddecryptkey.html) — Додати ключ для розшифровки
     -   [gnupgaddencryptkey](function.gnupg-addencryptkey.html) — Додає ключ для шифрування

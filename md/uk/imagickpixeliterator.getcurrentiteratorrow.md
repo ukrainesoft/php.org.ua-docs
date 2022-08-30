@@ -1,12 +1,12 @@
 Повертає поточний ряд об'єкту ImagickPixel
 
--   [« ImagickPixelIterator::destroy](imagickpixeliterator.destroy.html)
+-   [« ImagickPixelIterator::destroy](imagickpixeliterator.destroy.md)
     
--   [ImagickPixelIterator::getIteratorRow »](imagickpixeliterator.getiteratorrow.html)
+-   [ImagickPixelIterator::getIteratorRow »](imagickpixeliterator.getiteratorrow.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickPixelIterator](class.imagickpixeliterator.html)
+-   [ImagickPixelIterator](class.imagickpixeliterator.md)
     
 -   Повертає поточний ряд об'єкту ImagickPixel
     

@@ -1,6 +1,6 @@
 while
 
--   [« Альтернативный синтаксис управляющих структур](control-structures.alternative-syntax.html)
+-   [Альтернативний синтаксис керуючих структур](control-structures.alternative-syntax.html)
     
 -   [do-while »](control-structures.do.while.html)
     

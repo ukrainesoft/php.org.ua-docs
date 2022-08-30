@@ -4,9 +4,9 @@
     
 -   [eiosetminparallel »](function.eio-set-min-parallel.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Встановлює максимальний час виконання
     

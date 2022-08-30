@@ -1,12 +1,12 @@
 Вектор тригонометричний арккосинус
 
--   [« Функции Trader](ref.trader.html)
+-   [« Функции Trader](ref.trader.md)
     
 -   [traderad »](function.trader-ad.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Вектор тригонометричний арккосинус
     

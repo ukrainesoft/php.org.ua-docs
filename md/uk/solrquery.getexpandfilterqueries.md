@@ -1,12 +1,12 @@
 Повертає запити розширеного фільтра
 
--   [« SolrQuery::getExpand](solrquery.getexpand.html)
+-   [« SolrQuery::getExpand](solrquery.getexpand.md)
     
--   [SolrQuery::getExpandQuery »](solrquery.getexpandquery.html)
+-   [SolrQuery::getExpandQuery »](solrquery.getexpandquery.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає запити розширеного фільтра
     

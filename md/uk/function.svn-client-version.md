@@ -4,9 +4,9 @@
     
 -   [svncommit »](function.svn-commit.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.md)
     
 -   Повертає версію клієнтських бібліотек SVN
     

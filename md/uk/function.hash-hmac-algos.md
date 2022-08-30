@@ -4,9 +4,9 @@
     
 -   [hashhmacfile »](function.hash-hmac-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Hash](ref.hash.html)
+-   [Функции Hash](ref.hash.md)
     
 -   Повертає список зареєстрованих алгоритмів хешування, які застосовуються для hashhmac
     

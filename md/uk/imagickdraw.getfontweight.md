@@ -1,12 +1,12 @@
 Повертає товщину шрифту
 
--   [« ImagickDraw::getFontStyle](imagickdraw.getfontstyle.html)
+-   [« ImagickDraw::getFontStyle](imagickdraw.getfontstyle.md)
     
--   [ImagickDraw::getGravity »](imagickdraw.getgravity.html)
+-   [ImagickDraw::getGravity »](imagickdraw.getgravity.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Повертає товщину шрифту
     

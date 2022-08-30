@@ -1,12 +1,12 @@
 Клас ReflectionReference
 
--   [« ReflectionIntersectionType::getTypes](reflectionintersectiontype.gettypes.html)
+-   [« ReflectionIntersectionType::getTypes](reflectionintersectiontype.gettypes.md)
     
--   [ReflectionReference::construct »](reflectionreference.construct.html)
+-   [ReflectionReference::construct »](reflectionreference.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Reflection](book.reflection.html)
+-   [Reflection](book.reflection.md)
     
 -   Клас ReflectionReference
     
@@ -45,6 +45,6 @@ public getId(): string
 
 ## Зміст
 
--   [ReflectionReference::construct](reflectionreference.construct.html) — Закритий конструктор, який забороняє створення екземпляра безпосередньо
--   [ReflectionReference::fromArrayElement](reflectionreference.fromarrayelement.html) — Створює ReflectionReference із елементу масиву
--   [ReflectionReference::getId](reflectionreference.getid.html) — Отримати унікальний ідентифікатор посилання
+-   [ReflectionReference::construct](reflectionreference.construct.md) — Закритий конструктор, який забороняє створення екземпляра безпосередньо
+-   [ReflectionReference::fromArrayElement](reflectionreference.fromarrayelement.md) — Створює ReflectionReference із елементу масиву
+-   [ReflectionReference::getId](reflectionreference.getid.md) — Отримати унікальний ідентифікатор посилання

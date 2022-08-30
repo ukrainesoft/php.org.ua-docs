@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Прапори, що використовуються у фільтрах](filter.filters.flags.html)
+-   [« Прапори, що використовуються у фільтрах](filter.filters.flags.md)
     
--   [Примеры »](filter.examples.html)
+-   [Приклади »](filter.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Filter](book.filter.html)
+-   [Filter](book.filter.md)
     
 -   Обумовлені константи
     
@@ -17,31 +17,31 @@
 
 **`INPUT_POST`** (int)
 
-Змінні [POST](reserved.variables.post.html)
+Змінні [POST](reserved.variables.post.md)
 
 **`INPUT_GET`** (int)
 
-Змінні [GET](reserved.variables.get.html)
+Змінні [GET](reserved.variables.get.md)
 
 **`INPUT_COOKIE`** (int)
 
-Змінні [COOKIE](reserved.variables.cookies.html)
+Змінні [COOKIE](reserved.variables.cookies.md)
 
 **`INPUT_ENV`** (int)
 
-Змінні [ENV](reserved.variables.environment.html)
+Змінні [ENV](reserved.variables.environment.md)
 
 **`INPUT_SERVER`** (int)
 
-Змінні [SERVER](reserved.variables.server.html)
+Змінні [SERVER](reserved.variables.server.md)
 
 **`INPUT_SESSION`** (int)
 
-Змінні [SESSION](reserved.variables.session.html). (Ще не реалізовано)
+Змінні [SESSION](reserved.variables.session.md). (Ще не реалізовано)
 
 **`INPUT_REQUEST`** (int)
 
-Змінні [REQUEST](reserved.variables.request.html). (Ще не реалізовано)
+Змінні [REQUEST](reserved.variables.request.md). (Ще не реалізовано)
 
 **`FILTER_FLAG_NONE`** (int)
 
@@ -113,11 +113,11 @@
 
 **`FILTER_SANITIZE_STRING`** (int)
 
-Ідентифікатор фільтра "string". (Оголошено *застарілим*, починаючи з PHP 8.1.0, використовуйте замість нього функцію [htmlspecialchars()](function.htmlspecialchars.html)
+Ідентифікатор фільтра "string". (Оголошено *застарілим*, починаючи з PHP 8.1.0, використовуйте замість нього функцію [htmlspecialchars()](function.htmlspecialchars.md)
 
 **`FILTER_SANITIZE_STRIPPED`** (int)
 
-Ідентифікатор фільтра "stripped". (Оголошено *застарілим*, починаючи з PHP 8.1.0, використовуйте замість нього функцію [htmlspecialchars()](function.htmlspecialchars.html)
+Ідентифікатор фільтра "stripped". (Оголошено *застарілим*, починаючи з PHP 8.1.0, використовуйте замість нього функцію [htmlspecialchars()](function.htmlspecialchars.md)
 
 **`FILTER_SANITIZE_ENCODED`** (int)
 

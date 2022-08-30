@@ -1,12 +1,12 @@
 Отримує довжину вектора, що ініціалізує, шифру.
 
--   [« Функции OpenSSL](ref.openssl.html)
+-   [« Функции OpenSSL](ref.openssl.md)
     
 -   [opensslcmsdecrypt »](function.openssl-cms-decrypt.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Отримує довжину вектора, що ініціалізує, шифру.
     

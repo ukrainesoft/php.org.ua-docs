@@ -4,9 +4,9 @@
     
 -   [ДсDeque::allocate »](ds-deque.allocate.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Структури даних](book.ds.html)
+-   [Структури даних](book.ds.md)
     
 -   Клас Deque
     
@@ -99,9 +99,9 @@ public unshift(mixed $values = ?): void
 
 ## список змін
 
-| Версия        | Описание                                                  |
-|---------------|-----------------------------------------------------------|
-| PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.html) |
+| Версия | Описание |
+| --- | --- |
+| PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.md) |
 
 ## Зміст
 

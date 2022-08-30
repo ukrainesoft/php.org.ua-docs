@@ -1,12 +1,12 @@
 Mailparse
 
--   [« Предопределённые константы](mailparse.constants.html)
+-   [« Обумовлені константи](mailparse.constants.md)
     
 -   [mailparsedeterminebestxferencoding »](function.mailparse-determine-best-xfer-encoding.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mailparse](book.mailparse.html)
+-   [Mailparse](book.mailparse.md)
     
 -   Mailparse
     

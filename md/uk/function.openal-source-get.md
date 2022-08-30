@@ -4,9 +4,9 @@
     
 -   [openalsourcepause »](function.openal-source-pause.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenAL](ref.openal.html)
+-   [Функции OpenAL](ref.openal.md)
     
 -   Отримати властивість джерела OpenAL
     
@@ -27,7 +27,7 @@ openal_source_get(resource $source, int $property): mixed
 
 `source`
 
-Ресурс [Open AL(Source)](openal.resources.html) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.html)
+Ресурс [Open AL(Source)](openal.resources.md) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.html)
 
 `property`
 

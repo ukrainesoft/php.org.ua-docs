@@ -1,12 +1,12 @@
 Створити транслітератор
 
--   [« Transliterator::construct](transliterator.construct.html)
+-   [« Transliterator::construct](transliterator.construct.md)
     
--   [Transliterator::createFromRules »](transliterator.createfromrules.html)
+-   [Transliterator::createFromRules »](transliterator.createfromrules.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Transliterator](class.transliterator.html)
+-   [Transliterator](class.transliterator.md)
     
 -   Створити транслітератор
     
@@ -43,7 +43,7 @@ transliterator_create(string $id, int $direction = Transliterator::FORWARD): ?Tr
 
 `id`
 
-Ідентифікатор. Список усіх зареєстрованих ідентифікаторів транслітератора можна отримати за допомогою [Transliterator::listIDs()](transliterator.listids.html)
+Ідентифікатор. Список усіх зареєстрованих ідентифікаторів транслітератора можна отримати за допомогою [Transliterator::listIDs()](transliterator.listids.md)
 
 `direction`
 
@@ -51,9 +51,9 @@ transliterator_create(string $id, int $direction = Transliterator::FORWARD): ?Tr
 
 ### Значення, що повертаються
 
-Повертає об'єкт [Transliterator](class.transliterator.html) або **`null`** у разі виникнення помилки.
+Повертає об'єкт [Transliterator](class.transliterator.md) або **`null`** у разі виникнення помилки.
 
 ### Дивіться також
 
--   [Transliterator::getErrorMessage()](transliterator.geterrormessage.html) - Отримати останнє повідомлення про помилку
--   [Transliterator::construct()](transliterator.construct.html) - Приватний конструктор
+-   [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) - Отримати останнє повідомлення про помилку
+-   [Transliterator::construct()](transliterator.construct.md) - Приватний конструктор

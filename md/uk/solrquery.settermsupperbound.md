@@ -1,12 +1,12 @@
 Встановлює умову для зупинки
 
--   [« SolrQuery::setTermsSort](solrquery.settermssort.html)
+-   [« SolrQuery::setTermsSort](solrquery.settermssort.md)
     
--   [SolrQuery::setTimeAllowed »](solrquery.settimeallowed.html)
+-   [SolrQuery::setTimeAllowed »](solrquery.settimeallowed.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Встановлює умову для зупинки
     

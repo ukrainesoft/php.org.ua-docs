@@ -1,12 +1,12 @@
 Кеш доступів та відмов обгортки URL
 
--   [« Rar](ref.rar.html)
+-   [« Rar](ref.rar.md)
     
--   [RarArchive »](class.rararchive.html)
+-   [RarArchive »](class.rararchive.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Rar](ref.rar.html)
+-   [Rar](ref.rar.md)
     
 -   Кеш доступів та відмов обгортки URL
     

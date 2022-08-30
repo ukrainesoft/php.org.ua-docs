@@ -1,12 +1,12 @@
 Отримання піддерева, коренем якого є поточний елемент
 
--   [« RecursiveTreeIterator::endIteration](recursivetreeiterator.enditeration.html)
+-   [« RecursiveTreeIterator::endIteration](recursivetreeiterator.enditeration.md)
     
--   [RecursiveTreeIterator::getPostfix »](recursivetreeiterator.getpostfix.html)
+-   [RecursiveTreeIterator::getPostfix »](recursivetreeiterator.getpostfix.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+-   [RecursiveTreeIterator](class.recursivetreeiterator.md)
     
 -   Отримання піддерева, коренем якого є поточний елемент
     

@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](apcu.resources.html)
+-   [« Типи ресурсів](apcu.resources.md)
     
--   [Функции APCu »](ref.apcu.html)
+-   [Функции APCu »](ref.apcu.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [APCu](book.apcu.html)
+-   [APCu](book.apcu.md)
     
 -   Обумовлені константи
     

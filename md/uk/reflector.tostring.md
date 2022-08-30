@@ -1,12 +1,12 @@
 Подання у вигляді рядка
 
--   [« Reflector::export](reflector.export.html)
+-   [« Reflector::export](reflector.export.md)
     
--   [ReflectionException »](class.reflectionexception.html)
+-   [ReflectionException »](class.reflectionexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Reflector](class.reflector.html)
+-   [Reflector](class.reflector.md)
     
 -   Подання у вигляді рядка
     
@@ -37,5 +37,5 @@ public Reflector::__toString(): string
 
 ### Дивіться також
 
--   [ReflectionProperty::export()](reflectionproperty.export.html) - Експорт
+-   [ReflectionProperty::export()](reflectionproperty.export.md) - Експорт
 -   [toString()](language.oop5.magic.html#object.tostring)

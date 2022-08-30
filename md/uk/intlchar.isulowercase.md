@@ -1,12 +1,12 @@
 Перевірити, чи символ символом в нижньому регістрі
 
--   [« IntlChar::isUAlphabetic](intlchar.isualphabetic.html)
+-   [« IntlChar::isUAlphabetic](intlchar.isualphabetic.md)
     
--   [IntlChar::isupper »](intlchar.isupper.html)
+-   [IntlChar::isupper »](intlchar.isupper.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити, чи символ символом в нижньому регістрі
     
@@ -29,7 +29,7 @@ public static IntlChar::isULowercase(int|string $codepoint): ?bool
 
 > **Зауваження**
 > 
-> Відрізняється від [IntlChar::islower()](intlchar.islower.html) і повертає **`true`** для більшої кількості символів.
+> Відрізняється від [IntlChar::islower()](intlchar.islower.md) і повертає **`true`** для більшої кількості символів.
 
 ### Список параметрів
 
@@ -67,6 +67,6 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::islower()](intlchar.islower.html) - Перевірити, чи в нижньому регістрі символ
--   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.html) - Перевірити бінарну властивість Unicode для символу
+-   [IntlChar::islower()](intlchar.islower.md) - Перевірити, чи в нижньому регістрі символ
+-   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) - Перевірити бінарну властивість Unicode для символу
 -   **`IntlChar::PROPERTY_LOWERCASE`**

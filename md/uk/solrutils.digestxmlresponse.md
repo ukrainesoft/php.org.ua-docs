@@ -1,12 +1,12 @@
 Перетворює XML-рядок відповіді на SolrObject
 
--   [« SolrUtils](class.solrutils.html)
+-   [« SolrUtils](class.solrutils.md)
     
--   [SolrUtils::escapeQueryChars »](solrutils.escapequerychars.html)
+-   [SolrUtils::escapeQueryChars »](solrutils.escapequerychars.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrUtils](class.solrutils.html)
+-   [SolrUtils](class.solrutils.md)
     
 -   Перетворює XML-рядок відповіді на SolrObject
     

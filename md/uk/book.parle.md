@@ -14,19 +14,19 @@
 # Розбір та лексування
 
 -   [Введение](intro.parle.html)
--   [Установка и настройка](parle.setup.html)
-    -   [Требования](parle.requirements.html)
+-   [Встановлення та налаштування](parle.setup.html)
+    -   [Вимоги](parle.requirements.html)
     -   [Установка](parle.installation.html)
--   [Предопределённые константы](parle.constants.html)
+-   [Обумовлені константи](parle.constants.html)
 -   [Сопоставление с шаблоном](parle.pattern.matching.html) — Зіставлення із шаблоном Parle
     -   [Представления символов](parle.regex.chars.html)
     -   [Класи символів](parle.regex.charclass.html)
-    -   [Классы символов Unicode](parle.regex.unicodecharclass.html)
+    -   [Класи символів Unicode](parle.regex.unicodecharclass.html)
     -   [Чередование и повторение](parle.regex.alternation.html)
     -   [Якоря](parle.regex.anchors.html)
     -   [Угруповання](parle.regex.grouping.html)
--   [Примеры](parle.examples.html)
-    -   [Примеры использования лексера](parle.examples.lexer.html)
+-   [Приклади](parle.examples.html)
+    -   [Приклади використання лексера](parle.examples.lexer.html)
     -   [Пример использования парсера](parle.examples.parser.html)
 -   [ParleLexer](class.parle-lexer.html) - Клас ParleLexer
     -   [ParleLexer::advance](parle-lexer.advance.html) - Обробляє таке правило лексера

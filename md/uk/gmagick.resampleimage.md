@@ -1,12 +1,12 @@
 Змінює роздільну здатність зображення до бажаного
 
--   [« Gmagick::removeimageprofile](gmagick.removeimageprofile.html)
+-   [« Gmagick::removeimageprofile](gmagick.removeimageprofile.md)
     
--   [Gmagick::resizeimage »](gmagick.resizeimage.html)
+-   [Gmagick::resizeimage »](gmagick.resizeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Змінює роздільну здатність зображення до бажаного
     
@@ -45,7 +45,7 @@ public Gmagick::resampleimage(    float $xResolution,    float $yResolut
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

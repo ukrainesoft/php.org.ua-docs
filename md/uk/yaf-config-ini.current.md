@@ -4,7 +4,7 @@
     
 -   [YafConfigIni::get »](yaf-config-ini.get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafConfigIni](class.yaf-config-ini.html)
     

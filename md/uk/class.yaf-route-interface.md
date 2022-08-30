@@ -4,9 +4,9 @@
     
 -   [YafRouteInterface::assemble »](yaf-route-interface.assemble.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yaf](book.yaf.html)
+-   [Yaf](book.yaf.md)
     
 -   Клас YafRouteInterface
     

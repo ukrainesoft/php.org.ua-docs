@@ -1,12 +1,12 @@
 Повертає текст, що з'являється перед виділеним виразом
 
--   [« SolrQuery::getHighlightSimplePost](solrquery.gethighlightsimplepost.html)
+-   [« SolrQuery::getHighlightSimplePost](solrquery.gethighlightsimplepost.md)
     
--   [SolrQuery::getHighlightSnippets »](solrquery.gethighlightsnippets.html)
+-   [SolrQuery::getHighlightSnippets »](solrquery.gethighlightsnippets.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає текст, що з'являється перед виділеним виразом
     

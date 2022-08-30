@@ -1,12 +1,12 @@
 Встановлює NULL-політику
 
--   [« SolrCollapseFunction::setMin](solrcollapsefunction.setmin.html)
+-   [« SolrCollapseFunction::setMin](solrcollapsefunction.setmin.md)
     
--   [SolrCollapseFunction::setSize »](solrcollapsefunction.setsize.html)
+-   [SolrCollapseFunction::setSize »](solrcollapsefunction.setsize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrCollapseFunction](class.solrcollapsefunction.html)
+-   [SolrCollapseFunction](class.solrcollapsefunction.md)
     
 -   Встановлює NULL-політику
     
@@ -31,4 +31,4 @@ public SolrCollapseFunction::setNullPolicy(string $nullPolicy): SolrCollapseFunc
 
 ### Значення, що повертаються
 
-[SolrCollapseFunction](class.solrcollapsefunction.html)
+[SolrCollapseFunction](class.solrcollapsefunction.md)

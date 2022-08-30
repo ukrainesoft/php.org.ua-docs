@@ -1,12 +1,12 @@
 Початок ітерації
 
--   [« RecursiveIteratorIterator::beginChildren](recursiveiteratoriterator.beginchildren.html)
+-   [« RecursiveIteratorIterator::beginChildren](recursiveiteratoriterator.beginchildren.md)
     
--   [RecursiveIteratorIterator::callGetChildren »](recursiveiteratoriterator.callgetchildren.html)
+-   [RecursiveIteratorIterator::callGetChildren »](recursiveiteratoriterator.callgetchildren.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
     
 -   Початок ітерації
     
@@ -23,7 +23,7 @@ RecursiveIteratorIterator::beginIteration — Початок ітерації
 public RecursiveIteratorIterator::beginIteration(): void
 ```
 
-Викликається, щоб розпочати ітерацію (після першого виклику [RecursiveIteratorIterator::rewind()](recursiveiteratoriterator.rewind.html)
+Викликається, щоб розпочати ітерацію (після першого виклику [RecursiveIteratorIterator::rewind()](recursiveiteratoriterator.rewind.md)
 
 **Увага**
 

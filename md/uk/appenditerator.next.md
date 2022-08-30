@@ -1,12 +1,12 @@
 Переходить до наступного елементу
 
--   [« AppendIterator::key](appenditerator.key.html)
+-   [« AppendIterator::key](appenditerator.key.md)
     
--   [AppendIterator::rewind »](appenditerator.rewind.html)
+-   [AppendIterator::rewind »](appenditerator.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [AppendIterator](class.appenditerator.html)
+-   [AppendIterator](class.appenditerator.md)
     
 -   Переходить до наступного елементу
     
@@ -35,8 +35,8 @@ public AppendIterator::next(): void
 
 ### Дивіться також
 
--   [Iterator::next()](iterator.next.html) - Переходить до наступного елементу
--   [AppendIterator::current()](appenditerator.current.html) - Повертає поточне значення
--   [AppendIterator::key()](appenditerator.key.html) - Повертає поточний ключ
--   [AppendIterator::valid()](appenditerator.valid.html) - Перевіряє термін дії поточного елемента
--   [AppendIterator::rewind()](appenditerator.rewind.html) - перемотує ітератор
+-   [Iterator::next()](iterator.next.md) - Переходить до наступного елементу
+-   [AppendIterator::current()](appenditerator.current.md) - Повертає поточне значення
+-   [AppendIterator::key()](appenditerator.key.md) - Повертає поточний ключ
+-   [AppendIterator::valid()](appenditerator.valid.md) - Перевіряє термін дії поточного елемента
+-   [AppendIterator::rewind()](appenditerator.rewind.md) - перемотує ітератор

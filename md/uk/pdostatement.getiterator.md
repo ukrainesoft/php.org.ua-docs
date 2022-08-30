@@ -1,12 +1,12 @@
 Отримує ітератор набору результатів
 
--   [« PDOStatement::getColumnMeta](pdostatement.getcolumnmeta.html)
+-   [« PDOStatement::getColumnMeta](pdostatement.getcolumnmeta.md)
     
--   [PDOStatement::nextRowset »](pdostatement.nextrowset.html)
+-   [PDOStatement::nextRowset »](pdostatement.nextrowset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDOStatement](class.pdostatement.html)
+-   [PDOStatement](class.pdostatement.md)
     
 -   Отримує ітератор набору результатів
     

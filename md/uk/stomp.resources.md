@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](stomp.configuration.html)
+-   [« Налаштування під час виконання](stomp.configuration.html)
     
--   [Примеры »](stomp.examples.html)
+-   [Приклади »](stomp.examples.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](stomp.setup.html)
+-   [Встановлення та налаштування](stomp.setup.html)
     
 -   Типи ресурсів
     

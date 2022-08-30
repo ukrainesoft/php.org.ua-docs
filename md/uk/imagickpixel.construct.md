@@ -1,12 +1,12 @@
 Конструктор ImagickPixel
 
--   [« ImagickPixel::clear](imagickpixel.clear.html)
+-   [« ImagickPixel::clear](imagickpixel.clear.md)
     
--   [ImagickPixel::destroy »](imagickpixel.destroy.html)
+-   [ImagickPixel::destroy »](imagickpixel.destroy.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickPixel](class.imagickpixel.html)
+-   [ImagickPixel](class.imagickpixel.md)
     
 -   Конструктор ImagickPixel
     

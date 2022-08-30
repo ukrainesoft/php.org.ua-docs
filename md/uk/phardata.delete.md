@@ -1,12 +1,12 @@
 Видалити файл із tar/zip-архіву
 
--   [« PharData::delMetadata](phardata.delmetadata.html)
+-   [« PharData::delMetadata](phardata.delmetadata.md)
     
--   [PharData::destruct »](phardata.destruct.html)
+-   [PharData::destruct »](phardata.destruct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharData](class.phardata.html)
+-   [PharData](class.phardata.md)
     
 -   Видалити файл із tar/zip-архіву
     
@@ -23,7 +23,7 @@ PharData::delete — Видалити файл із tar/zip-архіву
 public PharData::delete(string $localName): bool
 ```
 
-Видаляє файл у архіві. Функціонально аналогічно виклику [unlink()](function.unlink.html) на еквіваленті потокової обгортки, як показано на прикладі нижче.
+Видаляє файл у архіві. Функціонально аналогічно виклику [unlink()](function.unlink.md) на еквіваленті потокової обгортки, як показано на прикладі нижче.
 
 ### Список параметрів
 
@@ -37,7 +37,7 @@ public PharData::delete(string $localName): bool
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.html) у разі виникнення помилки під час збереження змін на диск.
+Викидає виняток [PharException](class.pharexception.md) у разі виникнення помилки під час збереження змін на диск.
 
 ### Приклади
 
@@ -58,4 +58,4 @@ try {
 
 ### Дивіться також
 
--   [Phar::delete()](phar.delete.html) - Видаляє файл усередині phar-архіву
+-   [Phar::delete()](phar.delete.md) - Видаляє файл усередині phar-архіву

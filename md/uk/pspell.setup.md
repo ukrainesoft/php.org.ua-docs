@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.pspell.html)
     
--   [Требования »](pspell.requirements.html)
+-   [Вимоги »](pspell.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](pspell.requirements.html)
+-   [Вимоги](pspell.requirements.html)
 -   [Установка](pspell.installation.html)
--   [Настройка во время выполнения](pspell.configuration.html)
--   [Типы ресурсов](pspell.resources.html)
+-   [Налаштування під час виконання](pspell.configuration.html)
+-   [Типи ресурсів](pspell.resources.html)

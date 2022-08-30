@@ -4,9 +4,9 @@
     
 -   [xmlrpcsettype »](function.xmlrpc-set-type.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції XML-RPC](ref.xmlrpc.html)
+-   [Функції XML-RPC](ref.xmlrpc.md)
     
 -   Реєструє функцію PHP до методу ресурсу, що відповідає методуname
     

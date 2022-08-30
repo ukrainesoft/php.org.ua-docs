@@ -4,9 +4,9 @@
     
 -   [pspellconfigsaverepl »](function.pspell-config-save-repl.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Pspell](ref.pspell.html)
+-   [Функции Pspell](ref.pspell.md)
     
 -   Розглядає об'єднані слова як правильні складні слова
     
@@ -43,9 +43,9 @@ pspell_config_runtogether(PSpell\Config $config, bool $allow): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

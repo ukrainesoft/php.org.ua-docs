@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](xml.installation.html)
+-   [« Установка](xml.installation.md)
     
--   [Типы ресурсов »](xml.resources.html)
+-   [Типи ресурсів »](xml.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xml.setup.html)
+-   [Встановлення та налаштування](xml.setup.md)
     
 -   Налаштування під час виконання
     

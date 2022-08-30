@@ -4,7 +4,7 @@
     
 -   [ОЙMenu::construct »](ui-menu.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙMenu](class.ui-menu.html)
     

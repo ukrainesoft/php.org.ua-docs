@@ -4,9 +4,9 @@
     
 -   [curlsetopt »](function.curl-setopt.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции cURL](ref.curl.html)
+-   [Функции cURL](ref.curl.md)
     
 -   Встановлює декілька параметрів для сеансу cURL
     
@@ -41,9 +41,9 @@ curl_setopt_array(CurlHandle $handle, array $options): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 

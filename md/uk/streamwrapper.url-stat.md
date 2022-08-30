@@ -1,12 +1,12 @@
 Отримання інформації про файл
 
--   [« streamWrapper::unlink](streamwrapper.unlink.html)
+-   [« streamWrapper::unlink](streamwrapper.unlink.md)
     
--   [Функції для роботи з потоками »](ref.stream.html)
+-   [Функції для роботи з потоками »](ref.stream.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [streamWrapper](class.streamwrapper.html)
+-   [streamWrapper](class.streamwrapper.md)
     
 -   Отримання інформації про файл
     
@@ -23,18 +23,18 @@ streamWrapper::urlstat — Отримання інформації про фай
 public streamWrapper::url_stat(string $path, int $flags): array|false
 ```
 
-Цей метод викликається в процесі виконання будь-якої [stat()](function.stat.html) функцій, таких як:
+Цей метод викликається в процесі виконання будь-якої [stat()](function.stat.md) функцій, таких як:
 
--   [copy()](function.copy.html)
--   [fileperms()](function.fileperms.html)
--   [fileinode()](function.fileinode.html)
--   [filesize()](function.filesize.html)
--   [fileowner()](function.fileowner.html)
--   [filegroup()](function.filegroup.html)
--   [fileatime()](function.fileatime.html)
--   [filemtime()](function.filemtime.html)
--   [filectime()](function.filectime.html)
--   [filetype()](function.filetype.html)
+-   [copy()](function.copy.md)
+-   [fileperms()](function.fileperms.md)
+-   [fileinode()](function.fileinode.md)
+-   [filesize()](function.filesize.md)
+-   [fileowner()](function.fileowner.md)
+-   [filegroup()](function.filegroup.md)
+-   [fileatime()](function.fileatime.md)
+-   [filemtime()](function.filemtime.md)
+-   [filectime()](function.filectime.md)
+-   [filetype()](function.filetype.md)
 -   [ісwritable()](function.is-writable.html)
 -   [ісreadable()](function.is-readable.html)
 -   [ісexecutable()](function.is-executable.html)
@@ -42,24 +42,24 @@ public streamWrapper::url_stat(string $path, int $flags): array|false
 -   [ісdir()](function.is-dir.html)
 -   [ісlink()](function.is-link.html)
 -   [fileexists()](function.file-exists.html)
--   [lstat()](function.lstat.html)
--   [stat()](function.stat.html)
--   [SplFileInfo::getPerms()](splfileinfo.getperms.html)
--   [SplFileInfo::getInode()](splfileinfo.getinode.html)
--   [SplFileInfo::getSize()](splfileinfo.getsize.html)
--   [SplFileInfo::getOwner()](splfileinfo.getowner.html)
--   [SplFileInfo::getGroup()](splfileinfo.getgroup.html)
--   [SplFileInfo::getATime()](splfileinfo.getatime.html)
--   [SplFileInfo::getMTime()](splfileinfo.getmtime.html)
--   [SplFileInfo::getCTime()](splfileinfo.getctime.html)
--   [SplFileInfo::getType()](splfileinfo.gettype.html)
--   [SplFileInfo::isWritable()](splfileinfo.iswritable.html)
--   [SplFileInfo::isReadable()](splfileinfo.isreadable.html)
--   [SplFileInfo::isExecutable()](splfileinfo.isexecutable.html)
--   [SplFileInfo::isFile()](splfileinfo.isfile.html)
--   [SplFileInfo::isDir()](splfileinfo.isdir.html)
--   [SplFileInfo::isLink()](splfileinfo.islink.html)
--   [RecursiveDirectoryIterator::hasChildren()](recursivedirectoryiterator.haschildren.html)
+-   [lstat()](function.lstat.md)
+-   [stat()](function.stat.md)
+-   [SplFileInfo::getPerms()](splfileinfo.getperms.md)
+-   [SplFileInfo::getInode()](splfileinfo.getinode.md)
+-   [SplFileInfo::getSize()](splfileinfo.getsize.md)
+-   [SplFileInfo::getOwner()](splfileinfo.getowner.md)
+-   [SplFileInfo::getGroup()](splfileinfo.getgroup.md)
+-   [SplFileInfo::getATime()](splfileinfo.getatime.md)
+-   [SplFileInfo::getMTime()](splfileinfo.getmtime.md)
+-   [SplFileInfo::getCTime()](splfileinfo.getctime.md)
+-   [SplFileInfo::getType()](splfileinfo.gettype.md)
+-   [SplFileInfo::isWritable()](splfileinfo.iswritable.md)
+-   [SplFileInfo::isReadable()](splfileinfo.isreadable.md)
+-   [SplFileInfo::isExecutable()](splfileinfo.isexecutable.md)
+-   [SplFileInfo::isFile()](splfileinfo.isfile.md)
+-   [SplFileInfo::isDir()](splfileinfo.isdir.md)
+-   [SplFileInfo::isLink()](splfileinfo.islink.md)
+-   [RecursiveDirectoryIterator::hasChildren()](recursivedirectoryiterator.haschildren.md)
 
 ### Список параметрів
 
@@ -71,14 +71,14 @@ public streamWrapper::url_stat(string $path, int $flags): array|false
 
 Зберігає додаткові прапори, встановлені потоками API. Може зберігати одне або кілька нижченаведених значень, об'єднаних операцією АБО.
 
-| Флаг                | Описание                                                                                                                                                                                                                                                                                                                                                                                                             |
-|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| STREAMURLСТАТИLINK  | Для ресурсів, які можуть посилатися на інші ресурси (наприклад, HTTP Location: forward, або символічні посилання файлової системи). Цей прапор вказує, що інформація, що повертається, відноситься до самого посилання, а не до ресурсу, на який вона вказує. Цей використовується під час виклику функцій [lstat()](function.lstat.html) [ісlink()](function.is-link.html) або [filetype()](function.filetype.html) |
-| STREAMURLСТАТИQUIET | Якщо прапорець встановлений, обгортка не повинна викликати жодних помилок. Якщо ні, можна викликати повідомлення про помилки за допомогою функції [triggererror()](function.trigger-error.html)                                                                                                                                                                                                                      |
+| Флаг | Описание |
+| --- | --- |
+| STREAMURLСТАТИLINK | Для ресурсів, які можуть посилатися на інші ресурси (наприклад, HTTP Location: forward, або символічні посилання файлової системи). Цей прапор вказує, що інформація, що повертається, відноситься до самого посилання, а не до ресурсу, на який вона вказує. Цей використовується під час виклику функцій [lstat()](function.lstat.md) [ісlink()](function.is-link.html) або [filetype()](function.filetype.md) |
+| STREAMURLСТАТИQUIET | Якщо прапорець встановлений, обгортка не повинна викликати жодних помилок. Якщо ні, можна викликати повідомлення про помилки за допомогою функції [triggererror()](function.trigger-error.html) |
 
 ### Значення, що повертаються
 
-Має повертатися масив (array) з тими самими елементами, що у [stat()](function.stat.html). Невідомі або недоступні значення необхідно призводити до розумних значень (зазвичай до **`0`**). Зверніть особливу увагу на `mode`, як описано в розділі [stat()](function.stat.html). У разі виникнення помилки повертає **`false`**
+Має повертатися масив (array) з тими самими елементами, що у [stat()](function.stat.md). Невідомі або недоступні значення необхідно призводити до розумних значень (зазвичай до **`0`**). Зверніть особливу увагу на `mode`, як описано в розділі [stat()](function.stat.md). У разі виникнення помилки повертає **`false`**
 
 ### Помилки
 
@@ -92,5 +92,5 @@ public streamWrapper::url_stat(string $path, int $flags): array|false
 
 ### Дивіться також
 
--   [stat()](function.stat.html) - Повертає інформацію про файл
+-   [stat()](function.stat.md) - Повертає інформацію про файл
 -   [streamwrapper::streamstat()](streamwrapper.stream-stat.html) - Отримання інформації про файловий ресурс

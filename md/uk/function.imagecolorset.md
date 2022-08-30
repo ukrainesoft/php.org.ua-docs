@@ -1,12 +1,12 @@
 Встановлення набору кольорів для заданого індексу панелі
 
--   [« imagecolorresolvealpha](function.imagecolorresolvealpha.html)
+-   [« imagecolorresolvealpha](function.imagecolorresolvealpha.md)
     
--   [imagecolorsforindex »](function.imagecolorsforindex.html)
+-   [imagecolorsforindex »](function.imagecolorsforindex.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Встановлення набору кольорів для заданого індексу панелі
     
@@ -29,7 +29,7 @@ imagecolorset(    GdImage $image,    int $color,    int $red,   �
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `color`
 
@@ -57,9 +57,9 @@ imagecolorset(    GdImage $image,    int $color,    int $red,   �
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -89,4 +89,4 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagecolorat()](function.imagecolorat.html) - Отримання індексу кольору пікселя
+-   [imagecolorat()](function.imagecolorat.md) - Отримання індексу кольору пікселя

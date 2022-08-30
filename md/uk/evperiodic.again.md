@@ -1,12 +1,12 @@
 Зупиняє та знову запускає періодичний спостерігач
 
--   [« EvPeriodic](class.evperiodic.html)
+-   [« EvPeriodic](class.evperiodic.md)
     
--   [EvPeriodic::at »](evperiodic.at.html)
+-   [EvPeriodic::at »](evperiodic.at.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvPeriodic](class.evperiodic.html)
+-   [EvPeriodic](class.evperiodic.md)
     
 -   Зупиняє та знову запускає періодичний спостерігач
     
@@ -36,4 +36,4 @@ public
 
 ### Дивіться також
 
--   [EvTimer::again()](evtimer.again.html) - Перезапускає таймер спостерігача
+-   [EvTimer::again()](evtimer.again.md) - Перезапускає таймер спостерігача

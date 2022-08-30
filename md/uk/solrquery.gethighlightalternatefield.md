@@ -1,12 +1,12 @@
 Повертає виділене поле для використання як резервну копію або за замовчуванням
 
--   [« SolrQuery::getHighlight](solrquery.gethighlight.html)
+-   [« SolrQuery::getHighlight](solrquery.gethighlight.md)
     
--   [SolrQuery::getHighlightFields »](solrquery.gethighlightfields.html)
+-   [SolrQuery::getHighlightFields »](solrquery.gethighlightfields.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає виділене поле для використання як резервну копію або за замовчуванням
     

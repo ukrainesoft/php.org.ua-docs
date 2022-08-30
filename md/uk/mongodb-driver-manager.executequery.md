@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverManager::executeReadCommand »](mongodb-driver-manager.executereadcommand.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverManager](class.mongodb-driver-manager.html)
     
@@ -39,10 +39,10 @@ final public MongoDB\Driver\Manager::executeQuery(string $namespace, MongoDB\Dri
 
 **options**
 
-| Опция                                                                            | Тип                                                                     | Описание |
-|----------------------------------------------------------------------------------|-------------------------------------------------------------------------|----------|
-| readPreference                                                                   | [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html) |          |
-| Перевага читання, що використовується для вибору сервера для виконання операції. |                                                                         |          |
+| Опция | Тип | Описание |
+| --- | --- | --- |
+| readPreference | [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html) |  |
+| Перевага читання, що використовується для вибору сервера для виконання операції. |  |  |
 
 | | session | [MongoDBDriverSession](class.mongodb-driver-session.html)
 
@@ -61,8 +61,8 @@ final public MongoDB\Driver\Manager::executeQuery(string $namespace, MongoDB\Dri
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                                                        |
-|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.4.0 | Третій параметр тепер є масивом `options`. Для зворотної сумісності цей параметр все одно прийме об'єкт [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html) |
 
 ### Приклади
@@ -111,7 +111,7 @@ object(stdClass)#7 (1) {
 
 **Приклад #2 Обмеження часу виконання запиту**
 
-Опція `"maxTimeMS"` класу [MongoDBDriverQuery](class.mongodb-driver-query.html) може використовуватись для обмеження часу виконання запиту. Зауважте, що цей термін застосовується на стороні сервера і не враховує затримки мережі. Дивіться [» Завершение выполнения операций](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems) у посібнику MongoDB для отримання додаткової інформації.
+Опція `"maxTimeMS"` класу [MongoDBDriverQuery](class.mongodb-driver-query.html) може використовуватись для обмеження часу виконання запиту. Зауважте, що цей термін застосовується на стороні сервера і не враховує затримки мережі. Дивіться [» Завершення виконання операцій](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems) у посібнику MongoDB для отримання додаткової інформації.
 
 ```php
 <?php

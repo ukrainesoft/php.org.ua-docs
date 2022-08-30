@@ -1,12 +1,12 @@
 Клас OpenSSLCertificateSigningRequest
 
--   [« OpenSSLCertificate](class.opensslcertificate.html)
+-   [« OpenSSLCertificate](class.opensslcertificate.md)
     
--   [OpenSSLAsymmetricKey »](class.opensslasymmetrickey.html)
+-   [OpenSSLAsymmetricKey »](class.opensslasymmetrickey.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OpenSSL](book.openssl.html)
+-   [OpenSSL](book.openssl.md)
     
 -   Клас OpenSSLCertificateSigningRequest
     

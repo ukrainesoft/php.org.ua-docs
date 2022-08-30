@@ -4,9 +4,9 @@
     
 -   [sodiumcryptoкксpublickey »](function.sodium-crypto-kx-publickey.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Створює нову пару ключів.
     

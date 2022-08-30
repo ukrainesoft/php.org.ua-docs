@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](hash.setup.html)
+-   [« Встановлення та налаштування](hash.setup.html)
     
 -   [Установка »](hash.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](hash.setup.html)
+-   [Встановлення та налаштування](hash.setup.html)
     
 -   Вимоги
     

@@ -1,12 +1,12 @@
 Отримати атрибут з'єднання з базою даних
 
--   [« PDO::exec](pdo.exec.html)
+-   [« PDO::exec](pdo.exec.md)
     
--   [PDO::getAvailableDrivers »](pdo.getavailabledrivers.html)
+-   [PDO::getAvailableDrivers »](pdo.getavailabledrivers.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDO](class.pdo.html)
+-   [PDO](class.pdo.md)
     
 -   Отримати атрибут з'єднання з базою даних
     
@@ -23,7 +23,7 @@ PDO::getAttribute — Отримати атрибут з'єднання з ба�
 public PDO::getAttribute(int $attribute): mixed
 ```
 
-Ця функція повертає значення атрибута з'єднання з базою даних. Щоб отримати атрибути PDOStatement, зверніться до [PDOStatement::getAttribute()](pdostatement.getattribute.html)
+Ця функція повертає значення атрибута з'єднання з базою даних. Щоб отримати атрибути PDOStatement, зверніться до [PDOStatement::getAttribute()](pdostatement.getattribute.md)
 
 Зверніть увагу, що деякі комбінації бази даних/драйверів можуть не підтримувати всі атрибути з'єднання з базою даних.
 
@@ -74,6 +74,6 @@ foreach ($attributes as $val) {
 
 ### Дивіться також
 
--   [PDO::setAttribute()](pdo.setattribute.html) - Встановлення атрибуту
--   [PDOStatement::getAttribute()](pdostatement.getattribute.html) - Отримання значення атрибуту запиту PDOStatement
--   [PDOStatement::setAttribute()](pdostatement.setattribute.html) - Встановлює атрибут об'єкту PDOStatement
+-   [PDO::setAttribute()](pdo.setattribute.md) - Встановлення атрибуту
+-   [PDOStatement::getAttribute()](pdostatement.getattribute.md) - Отримання значення атрибуту запиту PDOStatement
+-   [PDOStatement::setAttribute()](pdostatement.setattribute.md) - Встановлює атрибут об'єкту PDOStatement

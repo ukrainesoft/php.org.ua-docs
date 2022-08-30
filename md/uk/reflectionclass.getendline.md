@@ -1,12 +1,12 @@
 Повертає номер останнього рядка
 
--   [« ReflectionClass::getDocComment](reflectionclass.getdoccomment.html)
+-   [« ReflectionClass::getDocComment](reflectionclass.getdoccomment.md)
     
--   [ReflectionClass::getExtension »](reflectionclass.getextension.html)
+-   [ReflectionClass::getExtension »](reflectionclass.getextension.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає номер останнього рядка
     
@@ -56,4 +56,4 @@ echo $rc->getEndLine();
 
 ### Дивіться також
 
--   [ReflectionClass::getStartLine()](reflectionclass.getstartline.html) - Повертає номер початкового рядка
+-   [ReflectionClass::getStartLine()](reflectionclass.getstartline.md) - Повертає номер початкового рядка

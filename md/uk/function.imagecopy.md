@@ -1,12 +1,12 @@
 Копіювання частини зображення
 
--   [« imageconvolution](function.imageconvolution.html)
+-   [« imageconvolution](function.imageconvolution.md)
     
--   [imagecopymerge »](function.imagecopymerge.html)
+-   [imagecopymerge »](function.imagecopymerge.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Копіювання частини зображення
     
@@ -65,9 +65,9 @@ y-координата вихідного зображення.
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | `dst_image` і `src_image` тепер чекають на екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `dst_image` і `src_image` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -97,4 +97,4 @@ imagedestroy($src);
 
 ### Дивіться також
 
--   [imagecrop()](function.imagecrop.html) - Обрізати зображення до заданого прямокутника
+-   [imagecrop()](function.imagecrop.md) - Обрізати зображення до заданого прямокутника

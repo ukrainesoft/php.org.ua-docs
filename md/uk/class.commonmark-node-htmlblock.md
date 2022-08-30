@@ -4,9 +4,9 @@ HTMLBlock успадковує CommonMarkNode
     
 -   [CommonMarkNodeHTMLInline »](class.commonmark-node-htmlinline.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CommonMark](book.cmark.html)
+-   [CommonMark](book.cmark.md)
     
 -   HTMLBlock успадковує CommonMarkNode
     

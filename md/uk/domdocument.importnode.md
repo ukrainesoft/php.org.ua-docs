@@ -1,12 +1,12 @@
 Імпортувати вузол у поточний документ
 
--   [« DOMDocument::getElementsByTagNameNS](domdocument.getelementsbytagnamens.html)
+-   [« DOMDocument::getElementsByTagNameNS](domdocument.getelementsbytagnamens.md)
     
--   [DOMDocument::load »](domdocument.load.html)
+-   [DOMDocument::load »](domdocument.load.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMDocument](class.domdocument.html)
+-   [DOMDocument](class.domdocument.md)
     
 -   Імпортувати вузол у поточний документ
     
@@ -45,7 +45,7 @@ public DOMDocument::importNode(DOMNode $node, bool $deep = false): DOMNode|false
 
 ### Помилки
 
-Якщо вузол не може бути імпортований, буде викинуто виняток [DOMException](class.domexception.html)
+Якщо вузол не може бути імпортований, буде викинуто виняток [DOMException](class.domexception.md)
 
 ### Приклади
 

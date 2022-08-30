@@ -1,12 +1,12 @@
 Функції WDDX
 
--   [« Примеры wddx](wddx.examples-serialize.html)
+-   [« Приклади wddx](wddx.examples-serialize.html)
     
 -   [wddxaddvars »](function.wddx-add-vars.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [WDDX](book.wddx.html)
+-   [WDDX](book.wddx.md)
     
 -   Функції WDDX
     

@@ -1,12 +1,12 @@
 Отримати десяткове число із символу Unicode із заданою основою
 
--   [« IntlChar::chr](intlchar.chr.html)
+-   [« IntlChar::chr](intlchar.chr.md)
     
--   [IntlChar::enumCharNames »](intlchar.enumcharnames.html)
+-   [IntlChar::enumCharNames »](intlchar.enumcharnames.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Отримати десяткове число із символу Unicode із заданою основою
     
@@ -48,7 +48,7 @@ public static IntlChar::digit(int|string $codepoint, int $base = 10): int|false|
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### Приклади
 
@@ -74,7 +74,7 @@ int(10)
 
 ### Дивіться також
 
--   [IntlChar::forDigit()](intlchar.fordigit.html) - Отримати символ, що представляє задане число в заданій основі
--   [IntlChar::charDigitValue()](intlchar.chardigitvalue.html) - Отримати десяткову цифру із символу десяткової цифри
--   [IntlChar::isdigit()](intlchar.isdigit.html) - Перевірити, чи є символ цифрою
+-   [IntlChar::forDigit()](intlchar.fordigit.md) - Отримати символ, що представляє задане число в заданій основі
+-   [IntlChar::charDigitValue()](intlchar.chardigitvalue.md) - Отримати десяткову цифру із символу десяткової цифри
+-   [IntlChar::isdigit()](intlchar.isdigit.md) - Перевірити, чи є символ цифрою
 -   **`IntlChar::PROPERTY_NUMERIC_TYPE`**

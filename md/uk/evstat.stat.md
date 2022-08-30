@@ -1,12 +1,12 @@
 Ініціює виклик статистики
 
--   [« EvStat::set](evstat.set.html)
+-   [« EvStat::set](evstat.set.md)
     
--   [EvTimer »](class.evtimer.html)
+-   [EvTimer »](class.evtimer.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvStat](class.evstat.html)
+-   [EvStat](class.evstat.md)
     
 -   Ініціює виклик статистики
     
@@ -36,5 +36,5 @@ public
 
 ### Дивіться також
 
--   [EvStat::attr()](evstat.attr.html) - Повертає значення, нещодавно виявлені Ev
--   [EvStat::prev()](evstat.prev.html) - Повертає попередній набір значень, які повертаються EvStat::attr
+-   [EvStat::attr()](evstat.attr.md) - Повертає значення, нещодавно виявлені Ev
+-   [EvStat::prev()](evstat.prev.md) - Повертає попередній набір значень, які повертаються EvStat::attr

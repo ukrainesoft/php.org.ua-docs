@@ -4,9 +4,9 @@
     
 -   [ОЙDrawPen::clip »](ui-draw-pen.clip.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ОЙ](book.ui.html)
+-   [ОЙ](book.ui.md)
     
 -   Малювання за допомогою "Перо"
     

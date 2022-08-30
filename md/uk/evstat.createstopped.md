@@ -1,12 +1,12 @@
 Створює зупинений об'єкт спостерігача EvStat
 
--   [« EvStat::construct](evstat.construct.html)
+-   [« EvStat::construct](evstat.construct.md)
     
--   [EvStat::prev »](evstat.prev.html)
+-   [EvStat::prev »](evstat.prev.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvStat](class.evstat.html)
+-   [EvStat](class.evstat.md)
     
 -   Створює зупинений об'єкт спостерігача EvStat
     
@@ -43,7 +43,7 @@ final
    ): void
 ```
 
-Створює об'єкт спостерігача EvStat, але не запускає його автоматично (на відміну від [EvStat::construct()](evstat.construct.html)
+Створює об'єкт спостерігача EvStat, але не запускає його автоматично (на відміну від [EvStat::construct()](evstat.construct.md)
 
 ### Список параметрів
 
@@ -73,5 +73,5 @@ final
 
 ### Дивіться також
 
--   [EvStat::construct()](evstat.construct.html) - Створює об'єкт спостерігача EvStat
--   [EvWatcher::start()](evwatcher.start.html) - Запускає спостерігача
+-   [EvStat::construct()](evstat.construct.md) - Створює об'єкт спостерігача EvStat
+-   [EvWatcher::start()](evwatcher.start.md) - Запускає спостерігача

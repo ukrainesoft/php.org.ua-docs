@@ -4,9 +4,9 @@
     
 -   [ОЙControlsLabel::construct »](ui-controls-label.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ОЙ](book.ui.html)
+-   [ОЙ](book.ui.md)
     
 -   Елемент управління "Мітка"
     

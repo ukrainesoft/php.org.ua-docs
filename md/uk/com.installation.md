@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](com.requirements.html)
+-   [« Вимоги](com.requirements.html)
     
--   [Настройка во время выполнения »](com.configuration.html)
+-   [Налаштування під час виконання »](com.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](com.setup.html)
+-   [Встановлення та налаштування](com.setup.html)
     
 -   Встановлення
     

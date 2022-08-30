@@ -1,27 +1,27 @@
 Масиви
 
--   [« Модули, относящиеся к переменным и типам](refs.basic.vartype.html)
+-   [Модулі, що відносяться до змінних і типів](refs.basic.vartype.md)
     
--   [Введение »](intro.array.html)
+-   [Введение »](intro.array.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модули, относящиеся к переменным и типам](refs.basic.vartype.html)
+-   [Модулі, що відносяться до змінних та типів](refs.basic.vartype.md)
     
 -   Масиви
     
 
 # Масиви
 
--   [Введение](intro.array.html)
--   [Установка и настройка](array.setup.html)
-    -   [Требования](array.requirements.html)
-    -   [Установка](array.installation.html)
-    -   [Настройка во время выполнения](array.configuration.html)
-    -   [Типы ресурсов](array.resources.html)
--   [Предопределённые константы](array.constants.html)
--   [Сортування масивів](array.sorting.html)
--   [Функції для роботи з масивами](ref.array.html)
+-   [Введение](intro.array.md)
+-   [Встановлення та налаштування](array.setup.md)
+    -   [Вимоги](array.requirements.md)
+    -   [Установка](array.installation.md)
+    -   [Налаштування під час виконання](array.configuration.md)
+    -   [Типи ресурсів](array.resources.md)
+-   [Обумовлені константи](array.constants.md)
+-   [Сортування масивів](array.sorting.md)
+-   [Функції для роботи з масивами](ref.array.md)
     -   [arraychangekeycase](function.array-change-key-case.html) — Змінює регістр усіх ключів у масиві
     -   [arraychunk](function.array-chunk.html) - Розбиває масив на частини
     -   [arraycolumn](function.array-column.html) — Повертає масив із значень одного стовпця вхідного масиву
@@ -75,32 +75,32 @@
     -   [arrayvalues](function.array-values.html) - Вибирає всі значення масиву
     -   [arraywalkrecursive](function.array-walk-recursive.html) — Рекурсивно застосовує функцію користувача до кожного елементу масиву
     -   [arraywalk](function.array-walk.html) — Застосовує задану користувачем функцію кожного елемента масиву
-    -   [array](function.array.html) - Створює масив
-    -   [arsort](function.arsort.html) — Сортує масив у порядку зменшення та підтримує асоціацію індексів
-    -   [asort](function.asort.html) — Сортує масив у порядку зростання та підтримує асоціацію індексів
-    -   [compact](function.compact.html) — Створює масив, що містить назви змінних та їх значення
-    -   [count](function.count.html) — Підраховує кількість елементів масиву чи Countable об'єкті
-    -   [current](function.current.html) — Повертає поточний елемент масиву
-    -   [each](function.each.html) — Повертає поточну пару ключ/значення з масиву та зміщує його покажчик
-    -   [end](function.end.html) — Встановлює внутрішній покажчик масиву на його останній елемент
-    -   [extract](function.extract.html) — Імпортує змінні з масиву до таблиці символів.
+    -   [array](function.array.md) - Створює масив
+    -   [arsort](function.arsort.md) — Сортує масив у порядку зменшення та підтримує асоціацію індексів
+    -   [asort](function.asort.md) — Сортує масив у порядку зростання та підтримує асоціацію індексів
+    -   [compact](function.compact.md) — Створює масив, що містить назви змінних та їх значення
+    -   [count](function.count.md) — Підраховує кількість елементів масиву чи Countable об'єкті
+    -   [current](function.current.md) — Повертає поточний елемент масиву
+    -   [each](function.each.md) — Повертає поточну пару ключ/значення з масиву та зміщує його покажчик
+    -   [end](function.end.md) — Встановлює внутрішній покажчик масиву на його останній елемент
+    -   [extract](function.extract.md) — Імпортує змінні з масиву до таблиці символів.
     -   [інarray](function.in-array.html) — Перевіряє, чи є у масиві значення
     -   [keyexists](function.key-exists.html) - Псевдонім arraykeyexists
-    -   [key](function.key.html) — Вибирає ключ із масиву
-    -   [krsort](function.krsort.html) — Сортує масив за ключом у порядку зменшення
-    -   [ksort](function.ksort.html) — Сортує масив за ключом у порядку зростання
-    -   [list](function.list.html) — Надає змінним зі списку значення подібно до масиву
-    -   [natcasesort](function.natcasesort.html) — Сортує масив, використовуючи алгоритм "natural order" без урахування регістру символів
-    -   [natsort](function.natsort.html) - Сортує масив, використовуючи алгоритм "natural order"
-    -   [next](function.next.html) — Переміщує покажчик масиву вперед на один елемент
-    -   [pos](function.pos.html) - Псевдонім current
-    -   [prev](function.prev.html) — Пересуває внутрішній покажчик масиву на одну позицію.
-    -   [range](function.range.html) — Створює масив, що містить діапазон елементів
-    -   [reset](function.reset.html) — Встановлює внутрішній покажчик масиву на його перший елемент
-    -   [rsort](function.rsort.html) — Сортує масив у порядку зменшення
-    -   [shuffle](function.shuffle.html) - Перемішує масив
-    -   [sizeof](function.sizeof.html) - Псевдонім count
-    -   [sort](function.sort.html) - Сортує масив за зростанням
-    -   [uasort](function.uasort.html) — Сортує масив, використовуючи функцію користувача для порівняння елементів зі збереженням ключів
-    -   [uksort](function.uksort.html) — Сортує масив за ключами, використовуючи функцію користувача для порівняння ключів
-    -   [usort](function.usort.html) — Сортує масив за значеннями використовуючи функцію користувача для порівняння елементів
+    -   [key](function.key.md) — Вибирає ключ із масиву
+    -   [krsort](function.krsort.md) — Сортує масив за ключом у порядку зменшення
+    -   [ksort](function.ksort.md) — Сортує масив за ключом у порядку зростання
+    -   [list](function.list.md) — Надає змінним зі списку значення подібно до масиву
+    -   [natcasesort](function.natcasesort.md) — Сортує масив, використовуючи алгоритм "natural order" без урахування регістру символів
+    -   [natsort](function.natsort.md) - Сортує масив, використовуючи алгоритм "natural order"
+    -   [next](function.next.md) — Переміщує покажчик масиву вперед на один елемент
+    -   [pos](function.pos.md) - Псевдонім current
+    -   [prev](function.prev.md) — Пересуває внутрішній покажчик масиву на одну позицію.
+    -   [range](function.range.md) — Створює масив, що містить діапазон елементів
+    -   [reset](function.reset.md) — Встановлює внутрішній покажчик масиву на його перший елемент
+    -   [rsort](function.rsort.md) — Сортує масив у порядку зменшення
+    -   [shuffle](function.shuffle.md) - Перемішує масив
+    -   [sizeof](function.sizeof.md) - Псевдонім count
+    -   [sort](function.sort.md) - Сортує масив за зростанням
+    -   [uasort](function.uasort.md) — Сортує масив, використовуючи функцію користувача для порівняння елементів зі збереженням ключів
+    -   [uksort](function.uksort.md) — Сортує масив за ключами, використовуючи функцію користувача для порівняння ключів
+    -   [usort](function.usort.md) — Сортує масив за значеннями використовуючи функцію користувача для порівняння елементів

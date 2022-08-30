@@ -1,12 +1,12 @@
 Ініціалізує запит і повертає об'єкт для використання в mysqlistmtprepare
 
--   [« mysqli::stat](mysqli.stat.html)
+-   [« mysqli::stat](mysqli.stat.md)
     
 -   [mysqli::storeresult »](mysqli.store-result.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Ініціалізує запит і повертає об'єкт для використання в mysqlistmtprepare
     
@@ -43,7 +43,7 @@ mysqli_stmt_init(mysqli $mysql): mysqli_stmt|false
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 

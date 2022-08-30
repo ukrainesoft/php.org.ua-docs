@@ -4,7 +4,7 @@
     
 -   [mysqlidriver::embeddedserverstart »](mysqli-driver.embedded-server-start.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlidriver](class.mysqli-driver.html)
     

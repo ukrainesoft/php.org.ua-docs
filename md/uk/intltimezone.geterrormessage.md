@@ -1,12 +1,12 @@
 Отримати останнє повідомлення про помилку в об'єкті
 
--   [« IntlTimeZone::getErrorCode](intltimezone.geterrorcode.html)
+-   [« IntlTimeZone::getErrorCode](intltimezone.geterrorcode.md)
     
--   [IntlTimeZone::getGMT »](intltimezone.getgmt.html)
+-   [IntlTimeZone::getGMT »](intltimezone.getgmt.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlTimeZone](class.intltimezone.html)
+-   [IntlTimeZone](class.intltimezone.md)
     
 -   Отримати останнє повідомлення про помилку в об'єкті
     

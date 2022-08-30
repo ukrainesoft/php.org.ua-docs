@@ -4,9 +4,9 @@
     
 -   [cubriderrorcodefacility »](function.cubrid-error-code-facility.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Видалення екземпляра за OID
     

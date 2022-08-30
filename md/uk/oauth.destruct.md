@@ -1,12 +1,12 @@
 Деструктор
 
--   [« OAuth::construct](oauth.construct.html)
+-   [« OAuth::construct](oauth.construct.md)
     
--   [OAuth::disableDebug »](oauth.disabledebug.html)
+-   [OAuth::disableDebug »](oauth.disabledebug.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](class.oauth.html)
+-   [OAuth](class.oauth.md)
     
 -   Деструктор
     
@@ -39,4 +39,4 @@ public OAuth::__destruct(): void
 
 ### Дивіться також
 
--   [OAuth::construct()](oauth.construct.html) - Створює новий об'єкт OAuth
+-   [OAuth::construct()](oauth.construct.md) - Створює новий об'єкт OAuth

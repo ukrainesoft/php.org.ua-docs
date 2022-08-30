@@ -1,12 +1,12 @@
 Визначає, чи позначений об'єкт як сміття
 
--   [« Collectable](class.collectable.html)
+-   [« Collectable](class.collectable.md)
     
--   [Pool »](class.pool.html)
+-   [Pool »](class.pool.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Collectable](class.collectable.html)
+-   [Collectable](class.collectable.md)
     
 -   Визначає, чи позначений об'єкт як сміття
     
@@ -23,7 +23,7 @@ Collectable::isGarbage — Визначає, чи позначений об'єк
 public Collectable::isGarbage(): bool
 ```
 
-Можна викликати в [Pool::collect()](pool.collect.html) визначення, чи є об'єкт сміттям.
+Можна викликати в [Pool::collect()](pool.collect.md) визначення, чи є об'єкт сміттям.
 
 ### Список параметрів
 
@@ -35,4 +35,4 @@ public Collectable::isGarbage(): bool
 
 ### Дивіться також
 
--   [Pool::collect()](pool.collect.html) - Збирає посилання на виконані завдання
+-   [Pool::collect()](pool.collect.md) - Збирає посилання на виконані завдання

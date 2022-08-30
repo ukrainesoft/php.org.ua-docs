@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](array.configuration.html)
+-   [« Налаштування під час виконання](array.configuration.html)
     
--   [Предопределённые константы »](array.constants.html)
+-   [Обумовлені константи »](array.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](array.setup.html)
+-   [Встановлення та налаштування](array.setup.html)
     
 -   Типи ресурсів
     

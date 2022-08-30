@@ -14,11 +14,11 @@ Lua
 # Lua
 
 -   [Введение](intro.lua.html)
--   [Установка и настройка](lua.setup.html)
-    -   [Требования](lua.requirements.html)
+-   [Встановлення та налаштування](lua.setup.html)
+    -   [Вимоги](lua.requirements.html)
     -   [Установка](lua.installation.html)
-    -   [Настройка во время выполнения](lua.configuration.html)
-    -   [Типы ресурсов](lua.resources.html)
+    -   [Налаштування під час виконання](lua.configuration.html)
+    -   [Типи ресурсів](lua.resources.html)
 -   [Lua](class.lua.html) - Клас Lua
     -   [Lua::assign](lua.assign.html) - Присвоїти PHP-змінної Lua
     -   [Lua::call](lua.call.html) — Викликати функції Lua

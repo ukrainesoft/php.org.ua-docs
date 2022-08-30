@@ -1,12 +1,12 @@
 Повертає константи
 
--   [« ReflectionClass::getConstant](reflectionclass.getconstant.html)
+-   [« ReflectionClass::getConstant](reflectionclass.getconstant.md)
     
--   [ReflectionClass::getConstructor »](reflectionclass.getconstructor.html)
+-   [ReflectionClass::getConstructor »](reflectionclass.getconstructor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає константи
     
@@ -37,10 +37,10 @@ public ReflectionClass::getConstants(?int $filter = null): array
 
 ### список змін
 
-| Версия | Описание                  |
-|--------|---------------------------|
-|        | Доданий параметр `filter` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `filter` |
 
 ### Дивіться також
 
--   [ReflectionClass::getConstant()](reflectionclass.getconstant.html) - Повертає певну константу
+-   [ReflectionClass::getConstant()](reflectionclass.getconstant.md) - Повертає певну константу

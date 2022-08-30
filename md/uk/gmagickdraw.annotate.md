@@ -1,12 +1,12 @@
 Малює текст на зображенні
 
--   [« GmagickDraw](class.gmagickdraw.html)
+-   [« GmagickDraw](class.gmagickdraw.md)
     
--   [GmagickDraw::arc »](gmagickdraw.arc.html)
+-   [GmagickDraw::arc »](gmagickdraw.arc.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickDraw](class.gmagickdraw.html)
+-   [GmagickDraw](class.gmagickdraw.md)
     
 -   Малює текст на зображенні
     
@@ -41,4 +41,4 @@ public GmagickDraw::annotate(float $x, float $y, string $text): GmagickDraw
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html)
+Об'єкт [Gmagick](class.gmagick.md)

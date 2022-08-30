@@ -4,9 +4,9 @@
     
 -   [uopzsetstatic »](function.uopz-set-static.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.md)
     
 -   Надати значення, що повертається для існуючої функції
     

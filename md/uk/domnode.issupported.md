@@ -1,12 +1,12 @@
 Перевіряє, чи підтримується можливість у певній версії
 
--   [« DOMNode::isSameNode](domnode.issamenode.html)
+-   [« DOMNode::isSameNode](domnode.issamenode.md)
     
--   [DOMNode::lookupNamespaceUri »](domnode.lookupnamespaceuri.html)
+-   [DOMNode::lookupNamespaceUri »](domnode.lookupnamespaceuri.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMNode](class.domnode.html)
+-   [DOMNode](class.domnode.md)
     
 -   Перевіряє, чи підтримується можливість у певній версії
     
@@ -29,7 +29,7 @@ public DOMNode::isSupported(string $feature, string $version): bool
 
 `feature`
 
-Перевірювана можливість. Список можливостей наведено у прикладі до [DOMImplementation::hasFeature()](domimplementation.hasfeature.html)
+Перевірювана можливість. Список можливостей наведено у прикладі до [DOMImplementation::hasFeature()](domimplementation.hasfeature.md)
 
 `version`
 
@@ -41,4 +41,4 @@ public DOMNode::isSupported(string $feature, string $version): bool
 
 ### Дивіться також
 
--   [DOMImplementation::hasFeature()](domimplementation.hasfeature.html) - Перевірка, чи реалізована певна можливість у реалізації DOM
+-   [DOMImplementation::hasFeature()](domimplementation.hasfeature.md) - Перевірка, чи реалізована певна можливість у реалізації DOM

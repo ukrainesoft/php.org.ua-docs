@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](geoip.setup.html)
+-   [« Встановлення та налаштування](geoip.setup.md)
     
--   [Установка »](geoip.installation.html)
+-   [Установка »](geoip.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](geoip.setup.html)
+-   [Встановлення та налаштування](geoip.setup.md)
     
 -   Вимоги
     

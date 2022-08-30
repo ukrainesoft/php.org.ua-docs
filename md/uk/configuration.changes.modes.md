@@ -1,12 +1,12 @@
 Де можна встановити параметри конфігурації
 
--   [« Файлы .user.ini](configuration.file.per-user.html)
+-   [« Файли .user.ini](configuration.file.per-user.html)
     
 -   [Як змінити налаштування конфігурації »](configuration.changes.html)
     
 -   [PHP Manual](index.html)
     
--   [Конфигурация времени выполнения](configuration.html)
+-   [Конфігурація часу виконання](configuration.html)
     
 -   Де можна встановити параметри конфігурації
     
@@ -19,9 +19,9 @@
 
 **Визначення режимів PHPINI**
 
-| Режим            | Описание                                                                                                                                                                                                                             |
-|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `PHP_INI_USER`   | Значення може бути встановлено в скриптах користувача (за допомогою [iniset()](function.ini-set.html)) або в [реестре Windows](configuration.changes.html#configuration.changes.windows). Значення може бути встановлене в .user.ini |
-| `PHP_INI_PERDIR` | Значення може бути встановлене в php.ini, .htaccess або httpd.conf                                                                                                                                                                   |
-| `PHP_INI_SYSTEM` | Значення може бути встановлене в php.ini або httpd.conf                                                                                                                                                                              |
-| `PHP_INI_ALL`    | Значення може бути встановлене звідусіль                                                                                                                                                                                             |
+| Режим | Описание |
+| --- | --- |
+| `PHP_INI_USER` | Значення може бути встановлено в скриптах користувача (за допомогою [iniset()](function.ini-set.html)) або в [реестре Windows](configuration.changes.html#configuration.changes.windows). Значення може бути встановлене в .user.ini |
+| `PHP_INI_PERDIR` | Значення може бути встановлене в php.ini, .htaccess або httpd.conf |
+| `PHP_INI_SYSTEM` | Значення може бути встановлене в php.ini або httpd.conf |
+| `PHP_INI_ALL` | Значення може бути встановлене звідусіль |

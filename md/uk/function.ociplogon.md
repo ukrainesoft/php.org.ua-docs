@@ -1,12 +1,12 @@
 Псевдонім ocipconnect
 
--   [« ociparse](function.ociparse.html)
+-   [« ociparse](function.ociparse.md)
     
--   [ociresult »](function.ociresult.html)
+-   [ociresult »](function.ociresult.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Псевдонім ocipconnect
     

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](ssh2.setup.html)
+-   [« Встановлення та налаштування](ssh2.setup.html)
     
 -   [Установка »](ssh2.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](ssh2.setup.html)
+-   [Встановлення та налаштування](ssh2.setup.html)
     
 -   Вимоги
     

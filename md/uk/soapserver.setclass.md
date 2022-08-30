@@ -1,12 +1,12 @@
 Встановлює клас, який обробляє SOAP-запити
 
--   [« SoapServer::handle](soapserver.handle.html)
+-   [« SoapServer::handle](soapserver.handle.md)
     
--   [SoapServer::setObject »](soapserver.setobject.html)
+-   [SoapServer::setObject »](soapserver.setobject.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SoapServer](class.soapserver.html)
+-   [SoapServer](class.soapserver.md)
     
 -   Встановлює клас, який обробляє SOAP-запити
     
@@ -25,7 +25,7 @@ public SoapServer::setClass(string $class, mixed ...$args): void
 
 Експортує всі методи із зазначеного класу.
 
-Щоб зберегти об'єкт для кожного наступного запиту в рамках цієї PHP-сесії, можна використовувати метод [SoapServer::setPersistence()](soapserver.setpersistence.html)
+Щоб зберегти об'єкт для кожного наступного запиту в рамках цієї PHP-сесії, можна використовувати метод [SoapServer::setPersistence()](soapserver.setpersistence.md)
 
 ### Список параметрів
 
@@ -43,6 +43,6 @@ public SoapServer::setClass(string $class, mixed ...$args): void
 
 ### Дивіться також
 
--   [SoapServer::construct()](soapserver.construct.html) - Конструктор SoapServer
--   [SoapServer::addFunction()](soapserver.addfunction.html) - Додає одну або кілька функцій для обробки запитів SOAP
--   [SoapServer::setPersistence()](soapserver.setpersistence.html) - Встановлює режим збереження SoapServer
+-   [SoapServer::construct()](soapserver.construct.md) - Конструктор SoapServer
+-   [SoapServer::addFunction()](soapserver.addfunction.md) - Додає одну або кілька функцій для обробки запитів SOAP
+-   [SoapServer::setPersistence()](soapserver.setpersistence.md) - Встановлює режим збереження SoapServer

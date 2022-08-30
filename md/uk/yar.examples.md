@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](yar.constants.html)
+-   [« Обумовлені константи](yar.constants.md)
     
 -   [YarServer »](class.yar-server.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yar](book.yar.html)
+-   [Yar](book.yar.md)
     
 -   Приклади
     

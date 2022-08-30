@@ -1,12 +1,12 @@
 Визначає, чи можлива навігація за вмістом поточного елемента
 
--   [« RecursiveRegexIterator::getChildren](recursiveregexiterator.getchildren.html)
+-   [« RecursiveRegexIterator::getChildren](recursiveregexiterator.getchildren.md)
     
--   [RecursiveTreeIterator »](class.recursivetreeiterator.html)
+-   [RecursiveTreeIterator »](class.recursivetreeiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveRegexIterator](class.recursiveregexiterator.html)
+-   [RecursiveRegexIterator](class.recursiveregexiterator.md)
     
 -   Визначає, чи можлива навігація за вмістом поточного елемента
     
@@ -23,7 +23,7 @@ RecursiveRegexIterator::hasChildren — Визначає, чи можлива н
 public RecursiveRegexIterator::hasChildren(): bool
 ```
 
-Визначає, чи можлива навігація вмісту поточного елемента. Якщо поточний елемент має дочірні елементи, ітератор для них можна отримати методом [RecursiveRegexIterator::getChildren()](recursiveregexiterator.getchildren.html)
+Визначає, чи можлива навігація вмісту поточного елемента. Якщо поточний елемент має дочірні елементи, ітератор для них можна отримати методом [RecursiveRegexIterator::getChildren()](recursiveregexiterator.getchildren.md)
 
 ### Список параметрів
 
@@ -58,4 +58,4 @@ bool(true)
 
 ### Дивіться також
 
--   [RecursiveRegexIterator::getChildren()](recursiveregexiterator.getchildren.html) - Повертає ітератор для поточного елемента
+-   [RecursiveRegexIterator::getChildren()](recursiveregexiterator.getchildren.md) - Повертає ітератор для поточного елемента

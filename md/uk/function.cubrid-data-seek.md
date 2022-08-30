@@ -4,9 +4,9 @@
     
 -   [cubridдбname »](function.cubrid-db-name.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
     
 -   Перемістити внутрішній покажчик у результуючому наборі CUBRID
     

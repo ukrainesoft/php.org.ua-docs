@@ -1,12 +1,12 @@
 Повертає частину об'єкта LOB
 
--   [« OCILob::load](ocilob.load.html)
+-   [« OCILob::load](ocilob.load.md)
     
--   [OCILob::rewind »](ocilob.rewind.html)
+-   [OCILob::rewind »](ocilob.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCILob](class.ocilob.html)
+-   [OCILob](class.ocilob.md)
     
 -   Повертає частину об'єкта LOB
     
@@ -39,11 +39,11 @@ public OCILob::read(int $length): string|false
 
 ### список змін
 
-| Версия                 | Описание                                                                                                |
-|------------------------|---------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
--   [OCILob::load](ocilob.load.html)
--   [OCILob::write](ocilob.write.html)
+-   [OCILob::load](ocilob.load.md)
+-   [OCILob::write](ocilob.write.md)

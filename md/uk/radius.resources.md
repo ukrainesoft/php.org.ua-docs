@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](radius.configuration.html)
+-   [« Налаштування під час виконання](radius.configuration.md)
     
--   [Предопределённые константы »](radius.constants.html)
+-   [Обумовлені константи »](radius.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](radius.setup.html)
+-   [Встановлення та налаштування](radius.setup.md)
     
 -   Типи ресурсів
     

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](sodium.setup.html)
+-   [« Встановлення та налаштування](sodium.setup.html)
     
 -   [Установка »](sodium.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](sodium.setup.html)
+-   [Встановлення та налаштування](sodium.setup.html)
     
 -   Вимоги
     

@@ -1,12 +1,12 @@
 Вступ
 
--   [« XMLDiff](book.xmldiff.html)
+-   [« XMLDiff](book.xmldiff.md)
     
--   [Установка и настройка »](xmldiff.setup.html)
+-   [Встановлення та налаштування »](xmldiff.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLDiff](book.xmldiff.html)
+-   [XMLDiff](book.xmldiff.md)
     
 -   Вступ
     

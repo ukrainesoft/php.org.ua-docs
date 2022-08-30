@@ -4,7 +4,7 @@ Reflection
     
 -   [ComponereDefinition »](class.componere-definition.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponereAbstractDefinition](class.componere-abstract-definition.html)
     

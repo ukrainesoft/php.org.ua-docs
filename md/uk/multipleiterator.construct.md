@@ -1,12 +1,12 @@
 Створює новий MultipleIterator
 
--   [« MultipleIterator::attachIterator](multipleiterator.attachiterator.html)
+-   [« MultipleIterator::attachIterator](multipleiterator.attachiterator.md)
     
--   [MultipleIterator::containsIterator »](multipleiterator.containsiterator.html)
+-   [MultipleIterator::containsIterator »](multipleiterator.containsiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MultipleIterator](class.multipleiterator.html)
+-   [MultipleIterator](class.multipleiterator.md)
     
 -   Створює новий MultipleIterator
     
@@ -27,7 +27,7 @@ public **MultipleIterator::construct**(int `$flags` = MultipleIterator::MITNEEDA
 
 `flags`
 
-Прапори для встановлення, згідно [Предопределённым константам](class.multipleiterator.html#multipleiterator.constants)
+Прапори для встановлення, згідно [Обумовленим константам](class.multipleiterator.html#multipleiterator.constants)
 
 -   **`MultipleIterator::MIT_NEED_ALL`** або **`MultipleIterator::MIT_NEED_ANY`**
 -   **`MultipleIterator::MIT_KEYS_NUMERIC`** або **`MultipleIterator::MIT_KEYS_ASSOC`**
@@ -145,5 +145,5 @@ Array
 
 ### Дивіться також
 
--   [Предопределённые константы](class.multipleiterator.html#multipleiterator.constants)
--   [MultipleIterator::valid()](multipleiterator.valid.html) - Перевіряє коректність підитераторів
+-   [Обумовлені константи](class.multipleiterator.html#multipleiterator.constants)
+-   [MultipleIterator::valid()](multipleiterator.valid.md) - Перевіряє коректність підитераторів

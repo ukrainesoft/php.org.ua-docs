@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.memcached.html)
     
--   [Требования »](memcached.requirements.html)
+-   [Вимоги »](memcached.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](memcached.requirements.html)
+-   [Вимоги](memcached.requirements.html)
 -   [Установка](memcached.installation.html)
--   [Настройка во время выполнения](memcached.configuration.html)
--   [Типы ресурсов](memcached.resources.html)
+-   [Налаштування під час виконання](memcached.configuration.html)
+-   [Типи ресурсів](memcached.resources.html)

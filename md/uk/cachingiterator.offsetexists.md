@@ -1,12 +1,12 @@
 Призначення offsetExists
 
--   [« CachingIterator::next](cachingiterator.next.html)
+-   [« CachingIterator::next](cachingiterator.next.md)
     
--   [CachingIterator::offsetGet »](cachingiterator.offsetget.html)
+-   [CachingIterator::offsetGet »](cachingiterator.offsetget.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CachingIterator](class.cachingiterator.html)
+-   [CachingIterator](class.cachingiterator.md)
     
 -   Призначення offsetExists
     

@@ -1,12 +1,12 @@
 Інтерфейс Stringable
 
--   [« WeakMap::offsetUnset](weakmap.offsetunset.html)
+-   [« WeakMap::offsetUnset](weakmap.offsetunset.md)
     
--   [Stringable::toString »](stringable.tostring.html)
+-   [Stringable::toString »](stringable.tostring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи](reserved.interfaces.md)
     
 -   Інтерфейс Stringable
     
@@ -83,4 +83,4 @@ showStuff($ip);
 
 ## Зміст
 
--   [Stringable::toString](stringable.tostring.html) — Отримує рядкову виставу об'єкта
+-   [Stringable::toString](stringable.tostring.md) — Отримує рядкову виставу об'єкта

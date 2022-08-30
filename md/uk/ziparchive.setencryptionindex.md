@@ -1,12 +1,12 @@
 Встановити метод шифрування запису за його індексом
 
--   [« ZipArchive::setCompressionName](ziparchive.setcompressionname.html)
+-   [« ZipArchive::setCompressionName](ziparchive.setcompressionname.md)
     
--   [ZipArchive::setEncryptionName »](ziparchive.setencryptionname.html)
+-   [ZipArchive::setEncryptionName »](ziparchive.setencryptionname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Встановити метод шифрування запису за його індексом
     
@@ -45,9 +45,9 @@ public ZipArchive::setEncryptionIndex(int $index, int $method, ?string $password
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | `password` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `password` тепер допускає значення null. |
 
 ### Примітки
 
@@ -57,5 +57,5 @@ public ZipArchive::setEncryptionIndex(int $index, int $method, ?string $password
 
 ### Дивіться також
 
--   [ZipArchive::setPassword()](ziparchive.setpassword.html) - Встановлення пароля для активного архіву
--   [ZipArchive::setEncryptionName()](ziparchive.setencryptionname.html) - Встановити метод шифрування запису на його ім'я
+-   [ZipArchive::setPassword()](ziparchive.setpassword.md) - Встановлення пароля для активного архіву
+-   [ZipArchive::setEncryptionName()](ziparchive.setencryptionname.md) - Встановити метод шифрування запису на його ім'я

@@ -1,12 +1,12 @@
 Отримати статистику з усіх серверів у пулі
 
--   [« Memcache::get](memcache.get.html)
+-   [« Memcache::get](memcache.get.md)
     
--   [Memcache::getServerStatus »](memcache.getserverstatus.html)
+-   [Memcache::getServerStatus »](memcache.getserverstatus.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcache](class.memcache.html)
+-   [Memcache](class.memcache.md)
     
 -   Отримати статистику з усіх серверів у пулі
     
@@ -100,5 +100,5 @@ Array
 
 ### Дивіться також
 
--   [Memcache::getVersion()](memcache.getversion.html) - Повернути версію сервера
--   [Memcache::getStats()](memcache.getstats.html) - Отримати статистику сервера
+-   [Memcache::getVersion()](memcache.getversion.md) - Повернути версію сервера
+-   [Memcache::getStats()](memcache.getstats.md) - Отримати статистику сервера

@@ -2,7 +2,7 @@
 
 -   [« IBM DB2](book.ibm-db2.html)
     
--   [Установка и настройка »](ibm-db2.setup.html)
+-   [Встановлення та налаштування »](ibm-db2.setup.html)
     
 -   [PHP Manual](index.html)
     

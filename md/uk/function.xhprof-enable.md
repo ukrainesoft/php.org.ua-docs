@@ -4,9 +4,9 @@
     
 -   [xhprofsampledisable »](function.xhprof-sample-disable.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Xhprof](ref.xhprof.html)
+-   [Функции Xhprof](ref.xhprof.md)
     
 -   Запуск профілювання xhprof
     
@@ -29,7 +29,7 @@ xhprof_enable(int $flags = 0, array $options = ?): void
 
 `flags`
 
-Необов'язкові прапори для отримання додаткової інформації для профілювання. Подробиці можна знайти у розділі [Константы XHprof](xhprof.constants.html). Наприклад, **`XHPROF_FLAGS_MEMORY`** включає профіль пам'яті.
+Необов'язкові прапори для отримання додаткової інформації для профілювання. Подробиці можна знайти у розділі [Константи XHprof](xhprof.constants.md). Наприклад, **`XHPROF_FLAGS_MEMORY`** включає профіль пам'яті.
 
 `options`
 
@@ -41,8 +41,8 @@ xhprof_enable(int $flags = 0, array $options = ?): void
 
 ### список змін
 
-| Версия            | Описание                                 |
-|-------------------|------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL xhprof 0.9.2 | Додано необов'язковий параметр `options` |
 
 ### Приклади
@@ -73,4 +73,4 @@ xhprof_enable(
 -   [xhprofdisable()](function.xhprof-disable.html) - Зупиняє профіль xhprof
 -   [xhprofsampleenable()](function.xhprof-sample-enable.html) - Запуск семплюючого режиму профілювання XHProf
 -   [memorygetusage()](function.memory-get-usage.html) - Повертає кількість пам'яті, виділену для PHP
--   [getrusage()](function.getrusage.html) - Отримує інформацію про використання поточного ресурсу
+-   [getrusage()](function.getrusage.md) - Отримує інформацію про використання поточного ресурсу

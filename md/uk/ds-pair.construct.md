@@ -4,7 +4,7 @@
     
 -   [ДсPair::copy »](ds-pair.copy.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Пара](class.ds-pair.html)
     

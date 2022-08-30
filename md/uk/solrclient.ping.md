@@ -1,12 +1,12 @@
 Перевіряє, чи працює сервер Solr
 
--   [« SolrClient::optimize](solrclient.optimize.html)
+-   [« SolrClient::optimize](solrclient.optimize.md)
     
--   [SolrClient::query »](solrclient.query.html)
+-   [SolrClient::query »](solrclient.query.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrClient](class.solrclient.html)
+-   [SolrClient](class.solrclient.md)
     
 -   Перевіряє, чи працює сервер Solr
     
@@ -31,13 +31,13 @@ public SolrClient::ping(): SolrPingResponse
 
 ### Значення, що повертаються
 
-Повертає об'єкт [SolrPingResponse](class.solrpingresponse.html) у разі успішного виконання або викидає виняток у разі виникнення помилки.
+Повертає об'єкт [SolrPingResponse](class.solrpingresponse.md) у разі успішного виконання або викидає виняток у разі виникнення помилки.
 
 ### Помилки
 
-Викидає [SolrClientException](class.solrclientexception.html)якщо клієнт відмовив або виникла проблема з підключенням.
+Викидає [SolrClientException](class.solrclientexception.md)якщо клієнт відмовив або виникла проблема з підключенням.
 
-Викидає [SolrServerException](class.solrserverexception.html)якщо сервер Solr не зміг обробити запит.
+Викидає [SolrServerException](class.solrserverexception.md)якщо сервер Solr не зміг обробити запит.
 
 ### Приклади
 

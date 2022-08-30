@@ -1,6 +1,6 @@
 POSIX Функції
 
--   [« Константы posixsetrlimit](posix.constants.setrlimit.html)
+-   [« Константи posixsetrlimit](posix.constants.setrlimit.html)
     
 -   [posixaccess »](function.posix-access.html)
     

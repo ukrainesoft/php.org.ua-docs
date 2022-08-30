@@ -1,12 +1,12 @@
 Видаляє один із параметрів stats.field
 
--   [« SolrQuery::removeStatsFacet](solrquery.removestatsfacet.html)
+-   [« SolrQuery::removeStatsFacet](solrquery.removestatsfacet.md)
     
--   [SolrQuery::setEchoHandler »](solrquery.setechohandler.html)
+-   [SolrQuery::setEchoHandler »](solrquery.setechohandler.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Видаляє один із параметрів stats.field
     

@@ -1,12 +1,12 @@
 Повертає список помилок виконання останньої запущеної команди
 
--   [« mysqli::$errno](mysqli.errno.html)
+-   [« mysqli::$errno](mysqli.errno.md)
     
--   [mysqli::$error »](mysqli.error.html)
+-   [mysqli::$error »](mysqli.error.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Повертає список помилок виконання останньої запущеної команди
     
@@ -37,7 +37,7 @@ mysqli_error_list(mysqli $mysql): array
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -108,5 +108,5 @@ Array
 
 -   [mysqliconnecterrno()](mysqli.connect-errno.html) - Повертає код помилки останньої спроби з'єднання
 -   [mysqliconnecterror()](mysqli.connect-error.html) - Повертає опис останньої помилки підключення
--   [mysqlierror()](mysqli.error.html) - Повертає рядок із описом останньої помилки
--   [mysqlisqlstate()](mysqli.sqlstate.html) - Повертає код стану SQLSTATE останній MySQL операції
+-   [mysqlierror()](mysqli.error.md) - Повертає рядок із описом останньої помилки
+-   [mysqlisqlstate()](mysqli.sqlstate.md) - Повертає код стану SQLSTATE останній MySQL операції

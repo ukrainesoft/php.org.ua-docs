@@ -4,7 +4,7 @@
     
 -   [ОЙControlsTab::insertAt »](ui-controls-tab.insertat.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsTab](class.ui-controls-tab.html)
     

@@ -1,12 +1,12 @@
 Константи
 
--   [« Переменные извне PHP](language.variables.external.html)
+-   [« Змінні ззовні PHP](language.variables.external.html)
     
 -   [Синтаксис »](language.constants.syntax.html)
     
 -   [PHP Manual](index.html)
     
--   [Справочник языка](langref.html)
+-   [Довідник мови](langref.html)
     
 -   Константи
     
@@ -16,7 +16,7 @@
 ## Зміст
 
 -   [Синтаксис](language.constants.syntax.html)
--   [Предопределённые константы](language.constants.predefined.html)
+-   [Обумовлені константи](language.constants.predefined.html)
 -   [Магічні константи](language.constants.magic.html)
 
 Константа – це ідентифікатор (ім'я) для простого значення. Як випливає з назви, це значення не може змінитись під час виконання скрипту (крім [магічних констант](language.constants.magic.html), які насправді є константами). Константи чутливі до регістру. За ухваленою угодою, імена констант завжди пишуться у верхньому регістрі.

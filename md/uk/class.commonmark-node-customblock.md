@@ -4,9 +4,9 @@ CustomBlock успадковує CommonMarkNode
     
 -   [CommonMarkNodeCustomInline »](class.commonmark-node-custominline.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CommonMark](book.cmark.html)
+-   [CommonMark](book.cmark.md)
     
 -   CustomBlock успадковує CommonMarkNode
     

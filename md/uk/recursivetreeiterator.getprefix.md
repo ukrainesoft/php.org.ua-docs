@@ -1,12 +1,12 @@
 Отримання префіксу
 
--   [« RecursiveTreeIterator::getPostfix](recursivetreeiterator.getpostfix.html)
+-   [« RecursiveTreeIterator::getPostfix](recursivetreeiterator.getpostfix.md)
     
--   [RecursiveTreeIterator::key »](recursivetreeiterator.key.html)
+-   [RecursiveTreeIterator::key »](recursivetreeiterator.key.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+-   [RecursiveTreeIterator](class.recursivetreeiterator.md)
     
 -   Отримання префіксу
     

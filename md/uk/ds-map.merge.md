@@ -4,7 +4,7 @@
     
 -   [ДсMap::pairs »](ds-map.pairs.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Коллекция пар ключ-значение](class.ds-map.html)
     
@@ -23,7 +23,7 @@
 public Ds\Map::merge(mixed $values): Ds\Map
 ```
 
-Повертає результат додавання всіх ключів переданого об'єкта класу [traversable](class.traversable.html) або масиву (array) з відповідними значеннями поточної колекції.
+Повертає результат додавання всіх ключів переданого об'єкта класу [traversable](class.traversable.md) або масиву (array) з відповідними значеннями поточної колекції.
 
 > **Зауваження**
 > 
@@ -33,11 +33,11 @@ public Ds\Map::merge(mixed $values): Ds\Map
 
 `values`
 
-Об'єкт класу [traversable](class.traversable.html) або array.
+Об'єкт класу [traversable](class.traversable.md) або array.
 
 ### Значення, що повертаються
 
-Повертає результат додавання всіх ключів переданого об'єкта класу [traversable](class.traversable.html) або масиву з відповідними значеннями до поточної колекції
+Повертає результат додавання всіх ключів переданого об'єкта класу [traversable](class.traversable.md) або масиву з відповідними значеннями до поточної колекції
 
 > **Зауваження**
 > 

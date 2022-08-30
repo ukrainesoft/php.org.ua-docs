@@ -1,12 +1,12 @@
 Згладжує контури зображення
 
--   [« Gmagick::readimagefile](gmagick.readimagefile.html)
+-   [« Gmagick::readimagefile](gmagick.readimagefile.md)
     
--   [Gmagick::removeimage »](gmagick.removeimage.html)
+-   [Gmagick::removeimage »](gmagick.removeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Згладжує контури зображення
     
@@ -33,7 +33,7 @@ public Gmagick::reducenoiseimage(float $radius): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

@@ -1,12 +1,12 @@
 Вказує, чи є файл посиланням
 
--   [« SplFileInfo::isFile](splfileinfo.isfile.html)
+-   [« SplFileInfo::isFile](splfileinfo.isfile.md)
     
--   [SplFileInfo::isReadable »](splfileinfo.isreadable.html)
+-   [SplFileInfo::isReadable »](splfileinfo.isreadable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Вказує, чи є файл посиланням
     
@@ -48,4 +48,4 @@ if ($info->isLink()) {
 
 ### Дивіться також
 
--   [SplFileInfo::getRealPath()](splfileinfo.getrealpath.html) - Отримує абсолютний шлях до файлу
+-   [SplFileInfo::getRealPath()](splfileinfo.getrealpath.md) - Отримує абсолютний шлях до файлу

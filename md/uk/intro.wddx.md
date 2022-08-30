@@ -1,12 +1,12 @@
 Вступ
 
--   [« WDDX](book.wddx.html)
+-   [« WDDX](book.wddx.md)
     
--   [Установка и настройка »](wddx.setup.html)
+-   [Встановлення та налаштування »](wddx.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [WDDX](book.wddx.html)
+-   [WDDX](book.wddx.md)
     
 -   Вступ
     

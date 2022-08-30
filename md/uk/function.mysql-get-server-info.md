@@ -4,9 +4,9 @@
     
 -   [mysqlinfo »](function.mysql-info.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](ref.mysql.html)
+-   [MySQL](ref.mysql.md)
     
 -   Повертає інформацію про сервер MySQL
     
@@ -19,10 +19,10 @@ mysqlgetserverinfo — Повертає інформацію про сервер
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   [mysqligetserverinfo()](mysqli.get-server-info.html)
--   [PDO::getAttribute(PDO::ATTRSERVERVERSION)](pdo.getattribute.html)
+-   [PDO::getAttribute(PDO::ATTRSERVERVERSION)](pdo.getattribute.md)
 
 ### Опис
 
@@ -67,4 +67,4 @@ printf("Версия сервера MySQL: %s\n", mysql_get_server_info());
 -   [mysqlgetclientinfo()](function.mysql-get-client-info.html) - Повертає дані про MySQL-клієнт
 -   [mysqlgethostinfo()](function.mysql-get-host-info.html) - Повертає інформацію про з'єднання з MySQL
 -   [mysqlgetprotoinfo()](function.mysql-get-proto-info.html) - Повертає інформацію про протокол MySQL
--   [phpversion()](function.phpversion.html) - Отримує поточну версію PHP
+-   [phpversion()](function.phpversion.md) - Отримує поточну версію PHP

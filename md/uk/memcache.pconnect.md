@@ -1,12 +1,12 @@
 Відкриває постійне з'єднання з сервером memcached
 
--   [« Memcache::increment](memcache.increment.html)
+-   [« Memcache::increment](memcache.increment.md)
     
--   [Memcache::replace »](memcache.replace.html)
+-   [Memcache::replace »](memcache.replace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcache](class.memcache.html)
+-   [Memcache](class.memcache.md)
     
 -   Відкриває постійне з'єднання з сервером memcached
     
@@ -23,7 +23,7 @@ Memcache::pconnect — Відкриває постійне з'єднання з 
 Memcache::pconnect(string $host, int $port = ?, int $timeout = ?): mixed
 ```
 
-**Memcache::pconnect()** аналогічна [Memcache::connect()](memcache.connect.html) з тією різницею, що з'єднання встановлюється незмінним. Це з'єднання не закривається після завершення виконання скрипту та функцією [Memcache::close()](memcache.close.html). Ви також можете використати функцію **memcachepconnect()**
+**Memcache::pconnect()** аналогічна [Memcache::connect()](memcache.connect.md) з тією різницею, що з'єднання встановлюється незмінним. Це з'єднання не закривається після завершення виконання скрипту та функцією [Memcache::close()](memcache.close.md). Ви також можете використати функцію **memcachepconnect()**
 
 ### Список параметрів
 
@@ -62,4 +62,4 @@ $memcache_obj->pconnect('memcache_host', 11211);
 
 ### Дивіться також
 
--   [Memcache::connect()](memcache.connect.html) - Відкриває з'єднання з сервером memcached
+-   [Memcache::connect()](memcache.connect.md) - Відкриває з'єднання з сервером memcached

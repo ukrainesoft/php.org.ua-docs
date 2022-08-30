@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverSession::endSession »](mongodb-driver-session.endsession.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverSession](class.mongodb-driver-session.html)
     

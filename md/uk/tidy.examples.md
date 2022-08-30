@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](tidy.constants.html)
+-   [« Обумовлені константи](tidy.constants.md)
     
--   [Пример использования Tidy »](tidy.examples.basic.html)
+-   [Пример использования Tidy »](tidy.examples.basic.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Tidy](book.tidy.html)
+-   [Tidy](book.tidy.md)
     
 -   Приклади
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [Пример использования Tidy](tidy.examples.basic.html)
+-   [Пример использования Tidy](tidy.examples.basic.md)

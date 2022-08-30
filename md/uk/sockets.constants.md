@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](sockets.resources.html)
+-   [« Типи ресурсів](sockets.resources.md)
     
--   [Примеры »](sockets.examples.html)
+-   [Приклади »](sockets.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Сокеты](book.sockets.html)
+-   [Сокети](book.sockets.md)
     
 -   Обумовлені константи
     

@@ -4,7 +4,7 @@
     
 -   [ДсStack::capacity »](ds-stack.capacity.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Стек](class.ds-stack.html)
     

@@ -1,12 +1,12 @@
 список змін
 
--   [« Типы ресурсов](mysql.resources.html)
+-   [« Типи ресурсів](mysql.resources.md)
     
--   [Предопределённые константы »](mysql.constants.html)
+-   [Обумовлені константи »](mysql.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL (Original)](book.mysql.html)
+-   [MySQL (Original)](book.mysql.md)
     
 -   список змін
     
@@ -23,10 +23,10 @@
 
 Наступний список є добіркою змін модуля ext/mysql.
 
-| Версия                                                                            | Описание |
-|-----------------------------------------------------------------------------------|----------|
-|                                                                                   |          |
-| Цей модуль видалено з PHP. Подробиці тут [Выбор API](mysqlinfo.api.choosing.html) |          |
+| Версия | Описание |
+| --- | --- |
+|  |  |
+| Цей модуль видалено з PHP. Подробиці тут [Вибір API](mysqlinfo.api.choosing.md) |  |
 
 ### Зміни у існуючих функціях
 

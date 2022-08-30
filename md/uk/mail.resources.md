@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](mail.configuration.html)
+-   [« Налаштування під час виконання](mail.configuration.md)
     
--   [Предопределённые константы »](mail.constants.html)
+-   [Обумовлені константи »](mail.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mail.setup.html)
+-   [Встановлення та налаштування](mail.setup.md)
     
 -   Типи ресурсів
     

@@ -4,9 +4,9 @@
     
 -   [posixsetrlimit »](function.posix-setrlimit.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [POSIX Функции](ref.posix.html)
+-   [POSIX Функции](ref.posix.md)
     
 -   Встановлює ідентифікатор групи процесу для менеджера завдань
     

@@ -4,9 +4,9 @@
     
 -   [win32pauseservice »](function.win32-pause-service.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [win32service](ref.win32service.html)
+-   [win32service](ref.win32service.md)
     
 -   Повертає останнє керуюче повідомлення, яке було надіслано цій службі
     
@@ -35,7 +35,7 @@ win32_get_last_control_message(): int
 
 ### Значення, що повертаються
 
-Повертає керуючу константу, яка буде однією з [Констант сообщений управления службой Win32Service](win32service.constants.servicecontrol.html) **`WIN32_SERVICE_CONTROL_CONTINUE`** **`WIN32_SERVICE_CONTROL_DEVICEEVENT`** **`WIN32_SERVICE_CONTROL_HARDWAREPROFILECHANGE`** **`WIN32_SERVICE_CONTROL_INTERROGATE`** **`WIN32_SERVICE_CONTROL_NETBINDADD`** **`WIN32_SERVICE_CONTROL_NETBINDDISABLE`** **`WIN32_SERVICE_CONTROL_NETBINDENABLE`** **`WIN32_SERVICE_CONTROL_NETBINDREMOVE`** **`WIN32_SERVICE_CONTROL_PARAMCHANGE`** **`WIN32_SERVICE_CONTROL_PAUSE`** **`WIN32_SERVICE_CONTROL_POWEREVENT`** **`WIN32_SERVICE_CONTROL_PRESHUTDOWN`** **`WIN32_SERVICE_CONTROL_SESSIONCHANGE`** **`WIN32_SERVICE_CONTROL_SHUTDOWN`** **`WIN32_SERVICE_CONTROL_STOP`**
+Повертає керуючу константу, яка буде однією з [Констант сообщений управления службой Win32Service](win32service.constants.servicecontrol.md) **`WIN32_SERVICE_CONTROL_CONTINUE`** **`WIN32_SERVICE_CONTROL_DEVICEEVENT`** **`WIN32_SERVICE_CONTROL_HARDWAREPROFILECHANGE`** **`WIN32_SERVICE_CONTROL_INTERROGATE`** **`WIN32_SERVICE_CONTROL_NETBINDADD`** **`WIN32_SERVICE_CONTROL_NETBINDDISABLE`** **`WIN32_SERVICE_CONTROL_NETBINDENABLE`** **`WIN32_SERVICE_CONTROL_NETBINDREMOVE`** **`WIN32_SERVICE_CONTROL_PARAMCHANGE`** **`WIN32_SERVICE_CONTROL_PAUSE`** **`WIN32_SERVICE_CONTROL_POWEREVENT`** **`WIN32_SERVICE_CONTROL_PRESHUTDOWN`** **`WIN32_SERVICE_CONTROL_SESSIONCHANGE`** **`WIN32_SERVICE_CONTROL_SHUTDOWN`** **`WIN32_SERVICE_CONTROL_STOP`**
 
 Якщо значення знаходиться в діапазоні від 128 до 255, код керування налаштовується.
 
@@ -43,15 +43,15 @@ win32_get_last_control_message(): int
 
 До версії 1.0.0, якщо SAPI не `"cli"`, функція видавала помилку рівня **`E_ERROR`**
 
-Починаючи з версії 1.0.0, викидає [Win32ServiceException](class.win32serviceexception.html), якщо SAPI не `"cli"`
+Починаючи з версії 1.0.0, викидає [Win32ServiceException](class.win32serviceexception.md), якщо SAPI не `"cli"`
 
 ### список змін
 
-| Версия                  | Описание                                                                                                                                                              |
-|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) при невірних даних у параметрах, що раніше поверталося **`false`**                                                        |
-| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.html) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.html) |
-| PECL win32service 0.2.0 | Функція працює тільки з `"cli"` SAPI.                                                                                                                                 |
+| Версия | Описание |
+| --- | --- |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`** |
+| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
+| PECL win32service 0.2.0 | Функція працює тільки з `"cli"` SAPI. |
 
 ### Дивіться також
 
@@ -59,4 +59,4 @@ win32_get_last_control_message(): int
 -   [win32setservicestatus()](function.win32-set-service-status.html) - Оновлює статус служби
 -   [win32setserviceexitmode()](function.win32-set-service-exit-mode.html) - Визначає або повертає режим виходу для поточної запущеної служби
 -   [win32setserviceexitcode()](function.win32-set-service-exit-code.html) - Визначає чи повертає код виходу для поточної запущеної служби
--   [Константы сообщений управления службой Win32Service](win32service.constants.servicecontrol.html)
+-   [Константи повідомлень керування службою Win32Service](win32service.constants.servicecontrol.md)

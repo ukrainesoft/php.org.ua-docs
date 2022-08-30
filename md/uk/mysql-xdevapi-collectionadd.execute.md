@@ -4,7 +4,7 @@
     
 -   [mysqlxdevapiCollectionFind »](class.mysql-xdevapi-collectionfind.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiCollectionAdd](class.mysql-xdevapi-collectionadd.html)
     

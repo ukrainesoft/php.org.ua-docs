@@ -2,7 +2,7 @@
 
 -   [« Pspell](book.pspell.html)
     
--   [Установка и настройка »](pspell.setup.html)
+-   [Встановлення та налаштування »](pspell.setup.html)
     
 -   [PHP Manual](index.html)
     

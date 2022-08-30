@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](svn.setup.html)
+-   [« Встановлення та налаштування](svn.setup.html)
     
 -   [Установка »](svn.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](svn.setup.html)
+-   [Встановлення та налаштування](svn.setup.html)
     
 -   Вимоги
     

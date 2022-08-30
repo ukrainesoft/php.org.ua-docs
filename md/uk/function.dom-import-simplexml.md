@@ -1,12 +1,12 @@
 Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement
 
--   [« Функции DOM](ref.dom.html)
+-   [« Функции DOM](ref.dom.md)
     
--   [libxml »](book.libxml.html)
+-   [libxml »](book.libxml.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции DOM](ref.dom.html)
+-   [Функции DOM](ref.dom.md)
     
 -   Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement
     
@@ -15,7 +15,7 @@
 
 (PHP 5, PHP 7, PHP 8)
 
-domimportsimplexml — Отримує об'єкт класу [DOMElement](class.domelement.html) з об'єкту класу [SimpleXMLElement](class.simplexmlelement.html)
+domimportsimplexml — Отримує об'єкт класу [DOMElement](class.domelement.md) з об'єкту класу [SimpleXMLElement](class.simplexmlelement.md)
 
 ### Опис
 
@@ -23,23 +23,23 @@ domimportsimplexml — Отримує об'єкт класу [DOMElement](class.
 dom_import_simplexml(object $node): DOMElement
 ```
 
-Ця функція бере вузол `node` класу [SimpleXML](ref.simplexml.html) і перетворює його на вузол [DOMElement](class.domelement.html). Потім цей новий об'єкт може бути використаний як власний вузол [DOMElement](class.domelement.html)
+Ця функція бере вузол `node` класу [SimpleXML](ref.simplexml.md) і перетворює його на вузол [DOMElement](class.domelement.md). Потім цей новий об'єкт може бути використаний як власний вузол [DOMElement](class.domelement.md)
 
 ### Список параметрів
 
 `node`
 
-Вузол [SimpleXMLElement](class.simplexmlelement.html)
+Вузол [SimpleXMLElement](class.simplexmlelement.md)
 
 ### Значення, що повертаються
 
-Доданий вузол [DOMElement](class.domelement.html)
+Доданий вузол [DOMElement](class.domelement.md)
 
 ### список змін
 
-| Версия | Описание                                                         |
-|--------|------------------------------------------------------------------|
-|        | Функція більше не повертає **`null`** у разі виникнення помилки. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція більше не повертає **`null`** у разі виникнення помилки. |
 
 ### Приклади
 

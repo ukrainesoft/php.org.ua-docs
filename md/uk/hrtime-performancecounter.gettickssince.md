@@ -4,7 +4,7 @@
     
 -   [HRTimeStopWatch »](class.hrtime-stopwatch.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [HRTimePerformanceCounter](class.hrtime-performancecounter.html)
     

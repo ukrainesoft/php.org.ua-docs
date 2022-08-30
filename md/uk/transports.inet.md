@@ -2,7 +2,7 @@
 
 -   [« Список підтримуваних транспортних протоколів](transports.html)
     
--   [Unix-сокеты: UNIX и UDG »](transports.unix.html)
+-   [Unix-сокети: UNIX та UDG »](transports.unix.html)
     
 -   [PHP Manual](index.html)
     

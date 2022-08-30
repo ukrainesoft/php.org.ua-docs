@@ -1,12 +1,12 @@
 Малює прямокутник із закругленими кутами.
 
--   [« GmagickDraw::rotate](gmagickdraw.rotate.html)
+-   [« GmagickDraw::rotate](gmagickdraw.rotate.md)
     
--   [GmagickDraw::scale »](gmagickdraw.scale.html)
+-   [GmagickDraw::scale »](gmagickdraw.scale.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickDraw](class.gmagickdraw.html)
+-   [GmagickDraw](class.gmagickdraw.md)
     
 -   Малює прямокутник із закругленими кутами.
     
@@ -53,4 +53,4 @@ public GmagickDraw::roundrectangle(    float $x1,    float $y1,    f
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html)
+Об'єкт [Gmagick](class.gmagick.md)

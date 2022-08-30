@@ -4,9 +4,9 @@
     
 -   [псlineto »](function.ps-lineto.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Читає зовнішній файл із необробленим кодом PostScript
     

@@ -4,9 +4,9 @@
     
 -   [zipopen »](function.zip-open.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Zip](ref.zip.html)
+-   [Функции Zip](ref.zip.md)
     
 -   Читає дані із відкритого раніше дескриптора директорії
     
@@ -49,9 +49,9 @@ zip_entry_read(resource $zip_entry, int $len = 1024): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------|
-|        | Функція застаріла на користь Object API, дивіться [ZipArchive::getFromIndex()](ziparchive.getfromindex.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::getFromIndex()](ziparchive.getfromindex.md) |
 
 ### Дивіться також
 

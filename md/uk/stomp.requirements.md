@@ -1,16 +1,16 @@
 Вимоги
 
--   [« Установка и настройка](stomp.setup.html)
+-   [« Встановлення та налаштування](stomp.setup.md)
     
--   [Установка »](stomp.installation.html)
+-   [Установка »](stomp.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](stomp.setup.html)
+-   [Встановлення та налаштування](stomp.setup.md)
     
 -   Вимоги
     
 
 ## Вимоги
 
-[» OpenSSL](http://www.openssl.org/) >= 0.9.6 та модуль [openssl](book.openssl.html) може також знадобитися для використання stomp через SSL.
+[» OpenSSL](http://www.openssl.org/) >= 0.9.6 та модуль [openssl](book.openssl.md) може також знадобитися для використання stomp через SSL.

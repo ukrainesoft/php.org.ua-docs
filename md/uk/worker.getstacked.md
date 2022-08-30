@@ -1,12 +1,12 @@
 Повертає поточний розмір стека
 
--   [« Worker::collect](worker.collect.html)
+-   [« Worker::collect](worker.collect.md)
     
--   [Worker::isShutdown »](worker.isshutdown.html)
+-   [Worker::isShutdown »](worker.isshutdown.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Worker](class.worker.html)
+-   [Worker](class.worker.md)
     
 -   Повертає поточний розмір стека
     

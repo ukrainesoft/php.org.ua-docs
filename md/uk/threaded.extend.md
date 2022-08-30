@@ -1,12 +1,12 @@
 Обробка під час виконання
 
--   [« Threaded::count](threaded.count.html)
+-   [« Threaded::count](threaded.count.md)
     
--   [Threaded::isRunning »](thread.isrunning.html)
+-   [Threaded::isRunning »](thread.isrunning.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Threaded](class.threaded.html)
+-   [Threaded](class.threaded.md)
     
 -   Обробка під час виконання
     

@@ -4,9 +4,9 @@
     
 -   [opensslfreekey »](function.openssl-free-key.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Повертає повідомлення про помилку openSSL
     

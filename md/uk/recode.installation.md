@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](recode.requirements.html)
+-   [« Вимоги](recode.requirements.html)
     
--   [Настройка во время выполнения »](recode.configuration.html)
+-   [Налаштування під час виконання »](recode.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](recode.setup.html)
+-   [Встановлення та налаштування](recode.setup.html)
     
 -   Встановлення
     

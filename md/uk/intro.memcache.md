@@ -2,7 +2,7 @@
 
 -   [« Memcache](book.memcache.html)
     
--   [Установка и настройка »](memcache.setup.html)
+-   [Встановлення та налаштування »](memcache.setup.html)
     
 -   [PHP Manual](index.html)
     

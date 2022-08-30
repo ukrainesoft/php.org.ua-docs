@@ -2,11 +2,11 @@
 
 -   [« Установка](array.installation.html)
     
--   [Типы ресурсов »](array.resources.html)
+-   [Типи ресурсів »](array.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](array.setup.html)
+-   [Встановлення та налаштування](array.setup.html)
     
 -   Налаштування під час виконання
     

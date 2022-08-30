@@ -2,7 +2,7 @@
 
 -   [« XSL](book.xsl.html)
     
--   [Установка и настройка »](xsl.setup.html)
+-   [Встановлення та налаштування »](xsl.setup.html)
     
 -   [PHP Manual](index.html)
     

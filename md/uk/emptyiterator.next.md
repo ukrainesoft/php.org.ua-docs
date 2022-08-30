@@ -1,12 +1,12 @@
 Метод next()
 
--   [« EmptyIterator::key](emptyiterator.key.html)
+-   [« EmptyIterator::key](emptyiterator.key.md)
     
--   [EmptyIterator::rewind »](emptyiterator.rewind.html)
+-   [EmptyIterator::rewind »](emptyiterator.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EmptyIterator](class.emptyiterator.html)
+-   [EmptyIterator](class.emptyiterator.md)
     
 -   Метод next()
     

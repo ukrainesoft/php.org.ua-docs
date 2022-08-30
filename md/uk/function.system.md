@@ -2,11 +2,11 @@
 
 -   [« shellexec](function.shell-exec.html)
     
--   [parallel »](book.parallel.html)
+-   [parallel »](book.parallel.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции запуска программ](ref.exec.html)
+-   [Функции запуска программ](ref.exec.md)
     
 -   Виконати зовнішню програму та відобразити висновок
     
@@ -27,7 +27,7 @@ system(string $command, int &$result_code = null): string|false
 
 Виклик функції **system()** також намагається автоматично очистити буфер виведення веб-сервера після кожного рядка виведення, якщо PHP працює як модуль сервера.
 
-Якщо вам потрібно виконати команду та отримати всі дані з команди безпосередньо без будь-яких перешкод, використовуйте функцію [passthru()](function.passthru.html)
+Якщо вам потрібно виконати команду та отримати всі дані з команди безпосередньо без будь-яких перешкод, використовуйте функцію [passthru()](function.passthru.md)
 
 ### Список параметрів
 
@@ -68,7 +68,7 @@ echo '
 
 **Увага**
 
-Якщо ви збираєтеся передавати функції дані користувача, використовуйте функції [escapeshellarg()](function.escapeshellarg.html) або [escapeshellcmd()](function.escapeshellcmd.html) щоб користувачі не змогли обдурити систему, запустивши довільну команду.
+Якщо ви збираєтеся передавати функції дані користувача, використовуйте функції [escapeshellarg()](function.escapeshellarg.md) або [escapeshellcmd()](function.escapeshellcmd.md) щоб користувачі не змогли обдурити систему, запустивши довільну команду.
 
 > **Зауваження**
 > 
@@ -76,9 +76,9 @@ echo '
 
 ### Дивіться також
 
--   [exec()](function.exec.html) - Виконати зовнішню програму
--   [passthru()](function.passthru.html) - Виконати зовнішню програму та відобразити необроблений висновок
--   [popen()](function.popen.html) - Відкриває файловий покажчик процесу
--   [escapeshellcmd()](function.escapeshellcmd.html) - Екранувати метасимволи командного рядка
+-   [exec()](function.exec.md) - Виконати зовнішню програму
+-   [passthru()](function.passthru.md) - Виконати зовнішню програму та відобразити необроблений висновок
+-   [popen()](function.popen.md) - Відкриває файловий покажчик процесу
+-   [escapeshellcmd()](function.escapeshellcmd.md) - Екранувати метасимволи командного рядка
 -   [pcntlexec()](function.pcntl-exec.html) - Запустити вказану програму в галузі поточного процесу
--   [Оператор исполнения](language.operators.execution.html)
+-   [Оператор исполнения](language.operators.execution.md)

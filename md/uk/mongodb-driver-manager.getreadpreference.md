@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverManager::getServers »](mongodb-driver-manager.getservers.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverManager](class.mongodb-driver-manager.html)
     

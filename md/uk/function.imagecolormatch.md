@@ -1,12 +1,12 @@
 Робить кольори палітрової версії зображення більш відповідними truecolor версії
 
--   [« imagecolorexactalpha](function.imagecolorexactalpha.html)
+-   [« imagecolorexactalpha](function.imagecolorexactalpha.md)
     
--   [imagecolorresolve »](function.imagecolorresolve.html)
+-   [imagecolorresolve »](function.imagecolorresolve.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Робить кольори палітрової версії зображення більш відповідними truecolor версії
     
@@ -41,9 +41,9 @@ imagecolormatch(GdImage $image1, GdImage $image2): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                           |
-|--------|--------------------------------------------------------------------------------------------------------------------|
-|        | `image1` і `image2` тепер чекають на екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image1` і `image2` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -73,4 +73,4 @@ imagedestroy($im2);
 
 ### Дивіться також
 
--   [imagecreatetruecolor()](function.imagecreatetruecolor.html) - Створення нового повнокольорового зображення
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.md) - Створення нового повнокольорового зображення

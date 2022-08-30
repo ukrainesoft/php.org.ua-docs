@@ -2,11 +2,11 @@
 
 -   [« Установка](snmp.installation.html)
     
--   [Типы ресурсов »](snmp.resources.html)
+-   [Типи ресурсів »](snmp.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](snmp.setup.html)
+-   [Встановлення та налаштування](snmp.setup.html)
     
 -   Налаштування під час виконання
     

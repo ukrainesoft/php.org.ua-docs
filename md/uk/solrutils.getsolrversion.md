@@ -1,12 +1,12 @@
 Повертає поточну версію модуля Solr
 
--   [« SolrUtils::escapeQueryChars](solrutils.escapequerychars.html)
+-   [« SolrUtils::escapeQueryChars](solrutils.escapequerychars.md)
     
--   [SolrUtils::queryPhrase »](solrutils.queryphrase.html)
+-   [SolrUtils::queryPhrase »](solrutils.queryphrase.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrUtils](class.solrutils.html)
+-   [SolrUtils](class.solrutils.md)
     
 -   Повертає поточну версію модуля Solr
     

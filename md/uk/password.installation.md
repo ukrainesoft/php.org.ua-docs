@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](password.requirements.html)
+-   [« Вимоги](password.requirements.html)
     
--   [Настройка во время выполнения »](password.configuration.html)
+-   [Налаштування під час виконання »](password.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](password.setup.html)
+-   [Встановлення та налаштування](password.setup.html)
     
 -   Встановлення
     

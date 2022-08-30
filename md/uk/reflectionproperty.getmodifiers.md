@@ -31,7 +31,7 @@ public ReflectionProperty::getModifiers(): int
 
 ### Значення, що повертаються
 
-Числове уявлення модифікаторів. Фактичне значення цих модифікаторів описано у розділі [предопределённые константы](class.reflectionproperty.html#reflectionproperty.constants.modifiers)
+Числове уявлення модифікаторів. Фактичне значення цих модифікаторів описано у розділі [Обумовлені константи](class.reflectionproperty.html#reflectionproperty.constants.modifiers)
 
 ### Дивіться також
 

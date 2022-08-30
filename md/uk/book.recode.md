@@ -2,25 +2,25 @@ GNU Recode
 
 -   [« PSpellConfig](class.pspell-config.html)
     
--   [Введение »](intro.recode.html)
+-   [Введение »](intro.recode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Підтримка мов та кодувань](refs.international.html)
+-   [Підтримка мов та кодувань](refs.international.md)
     
 -   GNU Recode
     
 
 # GNU Recode
 
--   [Введение](intro.recode.html)
--   [Установка и настройка](recode.setup.html)
-    -   [Требования](recode.requirements.html)
-    -   [Установка](recode.installation.html)
-    -   [Настройка во время выполнения](recode.configuration.html)
-    -   [Типы ресурсов](recode.resources.html)
--   [Предопределённые константы](recode.constants.html)
--   [Функции Recode](ref.recode.html)
+-   [Введение](intro.recode.md)
+-   [Встановлення та налаштування](recode.setup.md)
+    -   [Вимоги](recode.requirements.md)
+    -   [Установка](recode.installation.md)
+    -   [Налаштування під час виконання](recode.configuration.md)
+    -   [Типи ресурсів](recode.resources.md)
+-   [Обумовлені константи](recode.constants.md)
+-   [Функции Recode](ref.recode.md)
     -   [recodefile](function.recode-file.html) — Перекодує з одного файлу до іншого відповідно до заданих параметрів
     -   [recodestring](function.recode-string.html) — Перекодує рядок відповідно до заданих параметрів
-    -   [recode](function.recode.html) - Псевдонім recodestring
+    -   [recode](function.recode.md) - Псевдонім recodestring

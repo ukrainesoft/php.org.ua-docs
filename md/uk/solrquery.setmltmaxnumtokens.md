@@ -1,12 +1,12 @@
 Задає максимальну кількість токенів для аналізу
 
--   [« SolrQuery::setMltMaxNumQueryTerms](solrquery.setmltmaxnumqueryterms.html)
+-   [« SolrQuery::setMltMaxNumQueryTerms](solrquery.setmltmaxnumqueryterms.md)
     
--   [SolrQuery::setMltMaxWordLength »](solrquery.setmltmaxwordlength.html)
+-   [SolrQuery::setMltMaxWordLength »](solrquery.setmltmaxwordlength.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Задає максимальну кількість токенів для аналізу
     

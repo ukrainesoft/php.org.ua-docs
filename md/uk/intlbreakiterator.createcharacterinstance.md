@@ -1,12 +1,12 @@
 Створює ітератор переривання меж комбінування послідовностей символів
 
--   [« IntlBreakIterator::construct](intlbreakiterator.construct.html)
+-   [« IntlBreakIterator::construct](intlbreakiterator.construct.md)
     
--   [IntlBreakIterator::createCodePointInstance »](intlbreakiterator.createcodepointinstance.html)
+-   [IntlBreakIterator::createCodePointInstance »](intlbreakiterator.createcodepointinstance.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlBreakIterator](class.intlbreakiterator.html)
+-   [IntlBreakIterator](class.intlbreakiterator.md)
     
 -   Створює ітератор переривання меж комбінування послідовностей символів
     

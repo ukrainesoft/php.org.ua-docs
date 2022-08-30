@@ -1,12 +1,12 @@
 Сканує файл у форматі resolv.conf
 
--   [« EventDnsBase::loadHosts](eventdnsbase.loadhosts.html)
+-   [« EventDnsBase::loadHosts](eventdnsbase.loadhosts.md)
     
--   [EventDnsBase::setOption »](eventdnsbase.setoption.html)
+-   [EventDnsBase::setOption »](eventdnsbase.setoption.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventDnsBase](class.eventdnsbase.html)
+-   [EventDnsBase](class.eventdnsbase.md)
     
 -   Сканує файл у форматі resolv.conf
     

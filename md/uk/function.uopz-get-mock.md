@@ -4,9 +4,9 @@
     
 -   [uopzgetproperty »](function.uopz-get-property.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.md)
     
 -   Отримати поточний імітатор для класу
     

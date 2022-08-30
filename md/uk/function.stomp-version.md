@@ -2,11 +2,11 @@
 
 -   [« stompconnecterror](function.stomp-connect-error.html)
     
--   [Stomp »](class.stomp.html)
+-   [Stomp »](class.stomp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Stomp](ref.stomp.html)
+-   [Функции Stomp](ref.stomp.md)
     
 -   Повертає поточну версію модуля Stomp
     

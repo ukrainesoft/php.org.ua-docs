@@ -4,9 +4,9 @@
     
 -   [fanntrainepoch »](function.fann-train-epoch.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Тестування з набором вхідних даних та бажаним результатом
     

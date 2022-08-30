@@ -1,12 +1,12 @@
 Знімає блокування, встановлене EventBuffer::lock
 
--   [« EventBuffer::unfreeze](eventbuffer.unfreeze.html)
+-   [« EventBuffer::unfreeze](eventbuffer.unfreeze.md)
     
--   [EventBuffer::write »](eventbuffer.write.html)
+-   [EventBuffer::write »](eventbuffer.write.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBuffer](class.eventbuffer.html)
+-   [EventBuffer](class.eventbuffer.md)
     
 -   Знімає блокування, встановлене EventBuffer::lock
     
@@ -24,7 +24,7 @@ public
    EventBuffer::unlock(): bool
 ```
 
-Знімає блокування, встановлене [EventBuffer::lock()](eventbuffer.lock.html)
+Знімає блокування, встановлене [EventBuffer::lock()](eventbuffer.lock.md)
 
 ### Список параметрів
 
@@ -36,4 +36,4 @@ public
 
 ### Дивіться також
 
--   [EventBuffer::lock()](eventbuffer.lock.html) - Отримує блокування буфера
+-   [EventBuffer::lock()](eventbuffer.lock.md) - Отримує блокування буфера

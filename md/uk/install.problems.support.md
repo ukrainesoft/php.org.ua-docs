@@ -1,12 +1,12 @@
 Інші проблеми
 
--   [« Читайте FAQ](install.problems.faq.html)
+-   [« Читайте FAQ](install.problems.faq.md)
     
--   [Повідомлення про баги »](install.problems.bugs.html)
+-   [Повідомлення про баги »](install.problems.bugs.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Проблемы?](install.problems.html)
+-   [Проблеми?](install.problems.md)
     
 -   Інші проблеми
     

@@ -1,12 +1,12 @@
 Додає значення в поле без перенесення до найважливіших полів
 
--   [« IntlCalendar::isWeekend](intlcalendar.isweekend.html)
+-   [« IntlCalendar::isWeekend](intlcalendar.isweekend.md)
     
--   [IntlCalendar::set »](intlcalendar.set.html)
+-   [IntlCalendar::set »](intlcalendar.set.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Додає значення в поле без перенесення до найважливіших полів
     
@@ -31,17 +31,17 @@ public IntlCalendar::roll(int $field, int|bool $value): bool
 intlcal_roll(IntlCalendar $calendar, int $field, int|bool $value): bool
 ```
 
-Додає кількість (зі знаком) у поле. Відмінність від [IntlCalendar::add()](intlcalendar.add.html) полягає в тому, що коли значення поля переповнюється, воно не переноситься у найважливіші поля.
+Додає кількість (зі знаком) у поле. Відмінність від [IntlCalendar::add()](intlcalendar.add.md) полягає в тому, що коли значення поля переповнюється, воно не переноситься у найважливіші поля.
 
 ### Список параметрів
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `field`
 
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.html) [констант](class.intlcalendar.html#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.html#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
 
 `value`
 
@@ -79,5 +79,5 @@ string(20) "01/06/2013, 00:00:00"
 
 ### Дивіться також
 
--   [IntlCalendar::add()](intlcalendar.add.html) - Додає кількість (зі знаком) часу у полі
--   [IntlCalendar::set()](intlcalendar.set.html) - Встановлює поле часу або одразу кілька спільних полів
+-   [IntlCalendar::add()](intlcalendar.add.md) - Додає кількість (зі знаком) часу у полі
+-   [IntlCalendar::set()](intlcalendar.set.md) - Встановлює поле часу або одразу кілька спільних полів

@@ -1,12 +1,12 @@
 Гіперболічний косинус
 
--   [« cos](function.cos.html)
+-   [« cos](function.cos.md)
     
--   [decbin »](function.decbin.html)
+-   [decbin »](function.decbin.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Гіперболічний косинус
     
@@ -37,7 +37,7 @@ cosh(float $num): float
 
 ### Дивіться також
 
--   [cos()](function.cos.html) - Косінус
--   [acosh()](function.acosh.html) - Гіперболічний арккосинус
--   [sinh()](function.sinh.html) - Гіперболічний синус
--   [tanh()](function.tanh.html) - гіперболічний тангенс
+-   [cos()](function.cos.md) - Косінус
+-   [acosh()](function.acosh.md) - Гіперболічний арккосинус
+-   [sinh()](function.sinh.md) - Гіперболічний синус
+-   [tanh()](function.tanh.md) - гіперболічний тангенс

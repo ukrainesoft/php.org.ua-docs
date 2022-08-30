@@ -1,12 +1,12 @@
 Метод rewind()
 
--   [« EmptyIterator::next](emptyiterator.next.html)
+-   [« EmptyIterator::next](emptyiterator.next.md)
     
--   [EmptyIterator::valid »](emptyiterator.valid.html)
+-   [EmptyIterator::valid »](emptyiterator.valid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EmptyIterator](class.emptyiterator.html)
+-   [EmptyIterator](class.emptyiterator.md)
     
 -   Метод rewind()
     

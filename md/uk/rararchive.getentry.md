@@ -1,12 +1,12 @@
 Повертає об'єкт елемента з RAR архіву
 
--   [« RarArchive::getEntries](rararchive.getentries.html)
+-   [« RarArchive::getEntries](rararchive.getentries.md)
     
--   [RarArchive::isBroken »](rararchive.isbroken.html)
+-   [RarArchive::isBroken »](rararchive.isbroken.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RarArchive](class.rararchive.html)
+-   [RarArchive](class.rararchive.md)
     
 -   Повертає об'єкт елемента з RAR архіву
     
@@ -37,7 +37,7 @@ rar_entry_get(RarArchive $rarfile, string $entryname): RarEntry|false
 
 > **Зауваження**
 > 
-> Ви також можете отримати об'єкти елементів за допомогою [RarArchive::getEntries()](rararchive.getentries.html)
+> Ви також можете отримати об'єкти елементів за допомогою [RarArchive::getEntries()](rararchive.getentries.md)
 > 
 > Зверніть увагу, що RAR архів може мати кілька елементів з однаковим ім'ям. Цей метод поверне лише перший із них.
 
@@ -45,7 +45,7 @@ rar_entry_get(RarArchive $rarfile, string $entryname): RarEntry|false
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.html) відкритий за допомогою [raropen()](rararchive.open.html)
+Об'єкт [RarArchive](class.rararchive.md) відкритий за допомогою [raropen()](rararchive.open.md)
 
 `entryname`
 
@@ -53,11 +53,11 @@ rar_entry_get(RarArchive $rarfile, string $entryname): RarEntry|false
 
 > **Зауваження**
 > 
-> Шлях повинен бути таким же, як і методом, що повертається. [RarEntry::getName()](rarentry.getname.html)
+> Шлях повинен бути таким же, як і методом, що повертається. [RarEntry::getName()](rarentry.getname.md)
 
 ### Значення, що повертаються
 
-Повертає знайдений об'єкт [RarEntry](class.rarentry.html) або **`false`** у разі виникнення помилки.
+Повертає знайдений об'єкт [RarEntry](class.rarentry.md) або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -102,5 +102,5 @@ rar_close($rar_arch);
 
 ### Дивіться також
 
--   [RarArchive::getEntries()](rararchive.getentries.html) - Повертає повний список елементів із RAR архіву
--   [`rar://`обработчик (wrapper)](wrappers.rar.html)
+-   [RarArchive::getEntries()](rararchive.getentries.md) - Повертає повний список елементів із RAR архіву
+-   [`rar://`обработчик (wrapper)](wrappers.rar.md)

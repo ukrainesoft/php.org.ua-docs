@@ -1,12 +1,12 @@
 Отримує початковий номер рядка
 
--   [« ReflectionFunctionAbstract::getShortName](reflectionfunctionabstract.getshortname.html)
+-   [« ReflectionFunctionAbstract::getShortName](reflectionfunctionabstract.getshortname.md)
     
--   [ReflectionFunctionAbstract::getStaticVariables »](reflectionfunctionabstract.getstaticvariables.html)
+-   [ReflectionFunctionAbstract::getStaticVariables »](reflectionfunctionabstract.getstaticvariables.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
     
 -   Отримує початковий номер рядка
     
@@ -35,4 +35,4 @@ public ReflectionFunctionAbstract::getStartLine(): int|false
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getEndLine()](reflectionfunctionabstract.getendline.html) - Отримує номер рядка завершення опису функції
+-   [ReflectionFunctionAbstract::getEndLine()](reflectionfunctionabstract.getendline.md) - Отримує номер рядка завершення опису функції

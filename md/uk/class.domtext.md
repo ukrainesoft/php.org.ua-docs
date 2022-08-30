@@ -1,12 +1,12 @@
 Клас DOMText
 
--   [« DOMProcessingInstruction::construct](domprocessinginstruction.construct.html)
+-   [« DOMProcessingInstruction::construct](domprocessinginstruction.construct.md)
     
--   [DOMText::construct »](domtext.construct.html)
+-   [DOMText::construct »](domtext.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOM](book.dom.html)
+-   [DOM](book.dom.md)
     
 -   Клас DOMText
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Клас **DOMText** успадковується від [DOMCharacterData](class.domcharacterdata.html) і представляє текстовий вміст [DOMElement](class.domelement.html) або [DOMAttr](class.domattr.html)
+Клас **DOMText** успадковується від [DOMCharacterData](class.domcharacterdata.md) і представляє текстовий вміст [DOMElement](class.domelement.md) або [DOMAttr](class.domattr.md)
 
 ## Огляд класів
 
@@ -170,13 +170,13 @@ wholeText
 
 ## список змін
 
-| Версия | Описание                                                            |
-|--------|---------------------------------------------------------------------|
-|        | Нереалізований метод **DOMText::replaceWholeText()** був видалений. |
+| Версия | Описание |
+| --- | --- |
+|  | Нереалізований метод **DOMText::replaceWholeText()** був видалений. |
 
 ## Зміст
 
--   [DOMText::construct](domtext.construct.html) — Створює об'єкт класу DOMText
--   [DOMText::isElementContentWhitespace](domtext.iselementcontentwhitespace.html) — Повертає, чи містить текстовий вузол пробіл у вмісті елемента
--   [DOMText::isWhitespaceInElementContent](domtext.iswhitespaceinelementcontent.html) — Визначає, чи містить текстовий вузол пробіли у вмісті
--   [DOMText::splitText](domtext.splittext.html) — Поділяє вузол на два, починаючи із заданої позиції
+-   [DOMText::construct](domtext.construct.md) — Створює об'єкт класу DOMText
+-   [DOMText::isElementContentWhitespace](domtext.iselementcontentwhitespace.md) — Повертає, чи містить текстовий вузол пробіл у вмісті елемента
+-   [DOMText::isWhitespaceInElementContent](domtext.iswhitespaceinelementcontent.md) — Визначає, чи містить текстовий вузол пробіли у вмісті
+-   [DOMText::splitText](domtext.splittext.md) — Поділяє вузол на два, починаючи із заданої позиції

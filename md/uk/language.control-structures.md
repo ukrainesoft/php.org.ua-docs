@@ -1,12 +1,12 @@
 Керуючі конструкції
 
--   [« Оператор перевірки типу](language.operators.type.html)
+-   [« Оператор перевірки типу](language.operators.type.md)
     
 -   [Введение »](control-structures.intro.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Справочник языка](langref.html)
+-   [Довідник мови](langref.md)
     
 -   Керуючі конструкції
     
@@ -19,7 +19,7 @@
 -   [іф](control-structures.if.html)
 -   [else](control-structures.else.html)
 -   [elseif/else if](control-structures.elseif.html)
--   [Альтернативный синтаксис управляющих структур](control-structures.alternative-syntax.html)
+-   [Альтернативний синтаксис керуючих структур](control-structures.alternative-syntax.html)
 -   [while](control-structures.while.html)
 -   [do-while](control-structures.do.while.html)
 -   [for](control-structures.for.html)
@@ -29,9 +29,9 @@
 -   [switch](control-structures.switch.html)
 -   [match](control-structures.match.html)
 -   [declare](control-structures.declare.html)
--   [return](function.return.html)
--   [require](function.require.html)
--   [include](function.include.html)
+-   [return](function.return.md)
+-   [require](function.require.md)
+-   [include](function.include.md)
 -   [requireonce](function.require-once.html)
 -   [includeonce](function.include-once.html)
 -   [goto](control-structures.goto.html)

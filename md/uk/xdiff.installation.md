@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](xdiff.requirements.html)
+-   [« Вимоги](xdiff.requirements.html)
     
--   [Настройка во время выполнения »](xdiff.configuration.html)
+-   [Налаштування під час виконання »](xdiff.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](xdiff.setup.html)
+-   [Встановлення та налаштування](xdiff.setup.html)
     
 -   Встановлення
     

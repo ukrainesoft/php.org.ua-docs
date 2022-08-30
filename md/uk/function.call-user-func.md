@@ -4,9 +4,9 @@
     
 -   [createfunction »](function.create-function.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции управления функциями](ref.funchand.html)
+-   [Функции управления функциями](ref.funchand.md)
     
 -   Викликає callback-функцію, задану у першому параметрі
     
@@ -29,7 +29,7 @@ call_user_func(callable $callback, mixed ...$args): mixed
 
 `callback`
 
-Функція типу, що викликається [callable](language.types.callable.html)
+Функція типу, що викликається [callable](language.types.callable.md)
 
 `args`
 
@@ -181,6 +181,6 @@ call_user_func(function($arg) { print "[$arg]\n"; }, 'test');
 
 -   [calluserfuncarray()](function.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів
 -   [ісcallable()](function.is-callable.html) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
--   [Обращение к функциям через переменные](functions.variable-functions.html)
--   [ReflectionFunction::invoke()](reflectionfunction.invoke.html) - Викликає функцію
--   [ReflectionMethod::invoke()](reflectionmethod.invoke.html) - Виклик
+-   [Звернення до функцій через змінні](functions.variable-functions.html)
+-   [ReflectionFunction::invoke()](reflectionfunction.invoke.md) - Викликає функцію
+-   [ReflectionMethod::invoke()](reflectionmethod.invoke.md) - Виклик

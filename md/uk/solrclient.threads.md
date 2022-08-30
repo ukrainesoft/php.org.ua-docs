@@ -1,12 +1,12 @@
 Перевіряє статус тем
 
--   [« SolrClient::system](solrclient.system.html)
+-   [« SolrClient::system](solrclient.system.md)
     
--   [SolrResponse »](class.solrresponse.html)
+-   [SolrResponse »](class.solrresponse.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrClient](class.solrclient.html)
+-   [SolrClient](class.solrclient.md)
     
 -   Перевіряє статус тем
     
@@ -35,6 +35,6 @@ public SolrClient::threads(): void
 
 ### Помилки
 
-Викидає [SolrClientException](class.solrclientexception.html)якщо клієнт відмовив або виникла проблема з підключенням.
+Викидає [SolrClientException](class.solrclientexception.md)якщо клієнт відмовив або виникла проблема з підключенням.
 
-Викидає [SolrServerException](class.solrserverexception.html)якщо сервер Solr не зміг обробити запит.
+Викидає [SolrServerException](class.solrserverexception.md)якщо сервер Solr не зміг обробити запит.

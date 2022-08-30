@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](xmlrpc.installation.html)
+-   [« Установка](xmlrpc.installation.md)
     
--   [Типы ресурсов »](xmlrpc.resources.html)
+-   [Типи ресурсів »](xmlrpc.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xmlrpc.setup.html)
+-   [Встановлення та налаштування](xmlrpc.setup.md)
     
 -   Налаштування під час виконання
     

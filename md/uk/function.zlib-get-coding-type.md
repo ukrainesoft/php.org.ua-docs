@@ -2,11 +2,11 @@
 
 -   [« zlibencode](function.zlib-encode.html)
     
--   [DeflateContext »](class.deflatecontext.html)
+-   [DeflateContext »](class.deflatecontext.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Zlib](ref.zlib.html)
+-   [Функции Zlib](ref.zlib.md)
     
 -   Повертає спосіб кодування, який використовується для стиснення виводу
     

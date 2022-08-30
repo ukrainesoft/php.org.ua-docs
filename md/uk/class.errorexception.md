@@ -1,12 +1,12 @@
 ErrorException
 
--   [« Exception::clone](exception.clone.html)
+-   [« Exception::clone](exception.clone.md)
     
--   [ErrorException::construct »](errorexception.construct.html)
+-   [ErrorException::construct »](errorexception.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые исключения](reserved.exceptions.html)
+-   [Обумовлені винятки](reserved.exceptions.md)
     
 -   ErrorException
     
@@ -128,5 +128,5 @@ Stack trace:
 
 ## Зміст
 
--   [ErrorException::construct](errorexception.construct.html) - Створює виняток
--   [ErrorException::getSeverity](errorexception.getseverity.html) — Отримує серйозність виключення
+-   [ErrorException::construct](errorexception.construct.md) - Створює виняток
+-   [ErrorException::getSeverity](errorexception.getseverity.md) — Отримує серйозність виключення

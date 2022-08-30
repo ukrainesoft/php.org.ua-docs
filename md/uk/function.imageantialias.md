@@ -1,12 +1,12 @@
 Чи потрібно застосовувати функції згладжування чи ні
 
--   [« imagealphablending](function.imagealphablending.html)
+-   [« imagealphablending](function.imagealphablending.md)
     
--   [imagearc »](function.imagearc.html)
+-   [imagearc »](function.imagearc.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Чи потрібно застосовувати функції згладжування чи ні
     
@@ -33,7 +33,7 @@ imageantialias(GdImage $image, bool $enable): bool
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `enable`
 
@@ -45,10 +45,10 @@ imageantialias(GdImage $image, bool $enable): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                            |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource).                                                                    |
-|        | Функція **imageantialias()** доступна без обмежень. Раніше вона була доступна тільки якщо PHP був зібраний з використанням бібліотеки GD, що йде з ним в комплекті. |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+|  | Функція **imageantialias()** доступна без обмежень. Раніше вона була доступна тільки якщо PHP був зібраний з використанням бібліотеки GD, що йде з ним в комплекті. |
 
 ### Приклади
 
@@ -90,4 +90,4 @@ imagedestroy($normal);
 
 ### Дивіться також
 
--   [imagecreatetruecolor()](function.imagecreatetruecolor.html) - Створення нового повнокольорового зображення
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.md) - Створення нового повнокольорового зображення

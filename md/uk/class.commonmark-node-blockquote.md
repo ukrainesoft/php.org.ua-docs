@@ -4,9 +4,9 @@ BlockQuote успадковує CommonMarkNode
     
 -   [CommonMarkNodeBulletList »](class.commonmark-node-bulletlist.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CommonMark](book.cmark.html)
+-   [CommonMark](book.cmark.md)
     
 -   BlockQuote успадковує CommonMarkNode
     

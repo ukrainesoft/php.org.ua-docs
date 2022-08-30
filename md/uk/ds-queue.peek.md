@@ -4,7 +4,7 @@
     
 -   [ДсQueue::pop »](ds-queue.pop.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Черга](class.ds-queue.html)
     
@@ -35,7 +35,7 @@ public Ds\Queue::peek(): mixed
 
 ### Помилки
 
-Викидає виняток [UnderflowException](class.underflowexception.html)якщо колекція порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо колекція порожня.
 
 ### Приклади
 

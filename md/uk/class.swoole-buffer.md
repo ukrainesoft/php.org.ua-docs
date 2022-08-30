@@ -4,9 +4,9 @@
     
 -   [SwooleBuffer::append »](swoole-buffer.append.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Swoole](book.swoole.html)
+-   [Swoole](book.swoole.md)
     
 -   Клас SwooleBuffer
     

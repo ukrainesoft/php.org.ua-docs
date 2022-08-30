@@ -4,7 +4,7 @@
     
 -   [ComponereValue::setPrivate »](componere-value.setprivate.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponereValue](class.componere-value.html)
     
@@ -29,4 +29,4 @@ public **ComponereValue::construct** `$default`
 
 **Увага**
 
-Викидає виняток [InvalidArgumentException](class.invalidargumentexception.html), якщо `default` не має відповідного значення
+Викидає виняток [InvalidArgumentException](class.invalidargumentexception.md), якщо `default` не має відповідного значення

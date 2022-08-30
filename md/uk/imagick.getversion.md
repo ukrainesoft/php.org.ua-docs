@@ -1,12 +1,12 @@
 Повертає версію API ImageMagick
 
--   [« Imagick::getSizeOffset](imagick.getsizeoffset.html)
+-   [« Imagick::getSizeOffset](imagick.getsizeoffset.md)
     
--   [Imagick::haldClutImage »](imagick.haldclutimage.html)
+-   [Imagick::haldClutImage »](imagick.haldclutimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає версію API ImageMagick
     

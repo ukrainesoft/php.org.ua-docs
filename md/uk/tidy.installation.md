@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](tidy.requirements.html)
+-   [« Вимоги](tidy.requirements.html)
     
--   [Настройка во время выполнения »](tidy.configuration.html)
+-   [Налаштування під час виконання »](tidy.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](tidy.setup.html)
+-   [Встановлення та налаштування](tidy.setup.html)
     
 -   Встановлення
     

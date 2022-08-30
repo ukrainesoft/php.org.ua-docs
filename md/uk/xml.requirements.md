@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](xml.setup.html)
+-   [« Встановлення та налаштування](xml.setup.html)
     
 -   [Установка »](xml.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](xml.setup.html)
+-   [Встановлення та налаштування](xml.setup.html)
     
 -   Вимоги
     

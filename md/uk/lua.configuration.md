@@ -2,11 +2,11 @@
 
 -   [« Установка](lua.installation.html)
     
--   [Типы ресурсов »](lua.resources.html)
+-   [Типи ресурсів »](lua.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](lua.setup.html)
+-   [Встановлення та налаштування](lua.setup.html)
     
 -   Налаштування під час виконання
     

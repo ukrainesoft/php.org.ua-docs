@@ -55,10 +55,10 @@ pg_insert(    PgSql\Connection $connection,    string $table_name,   
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html)                                  |
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -68,7 +68,7 @@ pg_insert(    PgSql\Connection $connection,    string $table_name,   
 <?php
   $dbconn = pg_connect('dbname=foo');
   // Это безопасно в некоторой степени, поскольку все значения экранируются.
-  // Однако PostgreSQL поддерживает JSON/массив. Для этих значений это не безопасно
+  // Однако PostgreSQL поддерживает JSON/Масив. Для этих значений это не безопасно
   // ни с через экранирование, ни с помощью подготовленного запроса.
   $res = pg_insert($dbconn, 'post_log', $_POST);
   if ($res) {

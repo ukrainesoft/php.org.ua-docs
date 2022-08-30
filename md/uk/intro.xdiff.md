@@ -1,12 +1,12 @@
 Вступ
 
--   [xdiff](book.xdiff.html)
+-   [xdiff](book.xdiff.md)
     
--   [Установка и настройка »](xdiff.setup.html)
+-   [Встановлення та налаштування »](xdiff.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [xdiff](book.xdiff.html)
+-   [xdiff](book.xdiff.md)
     
 -   Вступ
     

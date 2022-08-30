@@ -1,12 +1,12 @@
 Створює об'єкт спостерігача EvIo, пов'язаний із поточним екземпляром циклу подій
 
--   [« EvLoop::invokePending](evloop.invokepending.html)
+-   [« EvLoop::invokePending](evloop.invokepending.md)
     
--   [EvLoop::loopFork »](evloop.loopfork.html)
+-   [EvLoop::loopFork »](evloop.loopfork.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvLoop](class.evloop.html)
+-   [EvLoop](class.evloop.md)
     
 -   Створює об'єкт спостерігача EvIo, пов'язаний із поточним екземпляром циклу подій
     
@@ -46,7 +46,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvIo::construct()](evio.construct.html)
+Усі параметри, що й для [EvIo::construct()](evio.construct.md)
 
 ### Значення, що повертаються
 
@@ -54,4 +54,4 @@ final
 
 ### Дивіться також
 
--   [EvIo::construct()](evio.construct.html) - Створює об'єкт спостерігач EvIo
+-   [EvIo::construct()](evio.construct.md) - Створює об'єкт спостерігач EvIo

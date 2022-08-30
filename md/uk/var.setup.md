@@ -2,11 +2,11 @@
 
 -   [« Введение](intro.var.html)
     
--   [Требования »](var.requirements.html)
+-   [Вимоги »](var.requirements.html)
     
 -   [PHP Manual](index.html)
     
--   [Обработка переменных](book.var.html)
+-   [Обробка змінних](book.var.html)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](var.requirements.html)
+-   [Вимоги](var.requirements.html)
 -   [Установка](var.installation.html)
--   [Настройка во время выполнения](var.configuration.html)
--   [Типы ресурсов](var.resources.html)
+-   [Налаштування під час виконання](var.configuration.html)
+-   [Типи ресурсів](var.resources.html)

@@ -4,9 +4,9 @@
     
 -   [sqlsrvnumrows »](function.sqlsrv-num-rows.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.md)
     
 -   Витягує кількість полів (стовпців) оператора
     

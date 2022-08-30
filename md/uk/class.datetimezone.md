@@ -1,12 +1,12 @@
 Клас DateTimeZone
 
--   [« DateTime::wakeup](datetime.wakeup.html)
+-   [« DateTime::wakeup](datetime.wakeup.md)
     
--   [DateTimeZone::construct »](datetimezone.construct.html)
+-   [DateTimeZone::construct »](datetimezone.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Дата/время](book.datetime.html)
+-   [Дата/время](book.datetime.md)
     
 -   Клас DateTimeZone
     
@@ -165,10 +165,10 @@ public static listIdentifiers(int $timezoneGroup = DateTimeZone::ALL, ?string $c
 
 ## Зміст
 
--   [DateTimeZone::construct](datetimezone.construct.html) — Створює новий об'єкт DateTimeZone
--   [DateTimeZone::getLocation](datetimezone.getlocation.html) — Повертає інформацію про місцезнаходження для часового поясу
--   [DateTimeZone::getName](datetimezone.getname.html) — Повертає ім'я часового поясу
--   [DateTimeZone::getOffset](datetimezone.getoffset.html) — Повертає усунення часового поясу від UTC (GMT)
--   [DateTimeZone::getTransitions](datetimezone.gettransitions.html) — Повертає всі переходи для часового поясу
--   [DateTimeZone::listAbbreviations](datetimezone.listabbreviations.html) — Повертає асоціативний масив, що містить прапор переходу на літній час, зміщення та ім'я часового поясу
--   [DateTimeZone::listIdentifiers](datetimezone.listidentifiers.html) — Повертає чисельно індексований масив із усіма ідентифікаторами часових поясів
+-   [DateTimeZone::construct](datetimezone.construct.md) — Створює новий об'єкт DateTimeZone
+-   [DateTimeZone::getLocation](datetimezone.getlocation.md) — Повертає інформацію про місцезнаходження для часового поясу
+-   [DateTimeZone::getName](datetimezone.getname.md) — Повертає ім'я часового поясу
+-   [DateTimeZone::getOffset](datetimezone.getoffset.md) — Повертає усунення часового поясу від UTC (GMT)
+-   [DateTimeZone::getTransitions](datetimezone.gettransitions.md) — Повертає всі переходи для часового поясу
+-   [DateTimeZone::listAbbreviations](datetimezone.listabbreviations.md) — Повертає асоціативний масив, що містить прапор переходу на літній час, зміщення та ім'я часового поясу
+-   [DateTimeZone::listIdentifiers](datetimezone.listidentifiers.md) — Повертає чисельно індексований масив із усіма ідентифікаторами часових поясів

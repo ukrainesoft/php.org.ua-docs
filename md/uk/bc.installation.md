@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](bc.requirements.html)
+-   [« Вимоги](bc.requirements.html)
     
--   [Настройка во время выполнения »](bc.configuration.html)
+-   [Налаштування під час виконання »](bc.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](bc.setup.html)
+-   [Встановлення та налаштування](bc.setup.html)
     
 -   Встановлення
     

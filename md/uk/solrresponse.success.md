@@ -1,12 +1,12 @@
 Чи був запит успішним?
 
--   [« SolrResponse::setParseMode](solrresponse.setparsemode.html)
+-   [« SolrResponse::setParseMode](solrresponse.setparsemode.md)
     
--   [SolrQueryResponse »](class.solrqueryresponse.html)
+-   [SolrQueryResponse »](class.solrqueryresponse.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrResponse](class.solrresponse.html)
+-   [SolrResponse](class.solrresponse.md)
     
 -   Чи був запит успішним?
     

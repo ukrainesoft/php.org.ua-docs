@@ -4,9 +4,9 @@
     
 -   [wincacheucachememinfo »](function.wincache-ucache-meminfo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции WinCache](ref.wincache.html)
+-   [Функции WinCache](ref.wincache.md)
     
 -   Отримує інформацію про дані, що зберігаються в кеші користувача
     

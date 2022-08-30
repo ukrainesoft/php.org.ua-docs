@@ -1,12 +1,12 @@
 Повертає рядок, що описує останню невдалу спробу пошуку DNS
 
--   [« EventBufferEvent::free](eventbufferevent.free.html)
+-   [« EventBufferEvent::free](eventbufferevent.free.md)
     
--   [EventBufferEvent::getEnabled »](eventbufferevent.getenabled.html)
+-   [EventBufferEvent::getEnabled »](eventbufferevent.getenabled.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Повертає рядок, що описує останню невдалу спробу пошуку DNS
     
@@ -24,7 +24,7 @@ public
    EventBufferEvent::getDnsErrorString(): string
 ```
 
-Повертає рядок, що описує останню невдалу спробу пошуку DNS, зроблену [EventBufferEvent::connectHost()](eventbufferevent.connecthost.html), або порожній рядок, якщо помилку DNS не виявлено.
+Повертає рядок, що описує останню невдалу спробу пошуку DNS, зроблену [EventBufferEvent::connectHost()](eventbufferevent.connecthost.md), або порожній рядок, якщо помилку DNS не виявлено.
 
 ### Список параметрів
 
@@ -36,4 +36,4 @@ public
 
 ### Дивіться також
 
--   [EventBufferEvent::connectHost()](eventbufferevent.connecthost.html) - Підключається на ім'я хоста з можливістю асинхронного дозволу DNS
+-   [EventBufferEvent::connectHost()](eventbufferevent.connecthost.md) - Підключається на ім'я хоста з можливістю асинхронного дозволу DNS

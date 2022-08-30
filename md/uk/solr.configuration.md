@@ -2,11 +2,11 @@
 
 -   [« Установка](solr.installation.html)
     
--   [Типы ресурсов »](solr.resources.html)
+-   [Типи ресурсів »](solr.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](solr.setup.html)
+-   [Встановлення та налаштування](solr.setup.html)
     
 -   Налаштування під час виконання
     

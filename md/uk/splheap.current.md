@@ -1,12 +1,12 @@
 Повертає поточний вузол, який вказує ітератор
 
--   [« SplHeap::count](splheap.count.html)
+-   [« SplHeap::count](splheap.count.md)
     
--   [SplHeap::extract »](splheap.extract.html)
+-   [SplHeap::extract »](splheap.extract.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplHeap](class.splheap.html)
+-   [SplHeap](class.splheap.md)
     
 -   Повертає поточний вузол, який вказує ітератор
     

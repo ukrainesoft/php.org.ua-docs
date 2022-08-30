@@ -1,12 +1,12 @@
 Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи
 
--   [« RecursiveCachingIterator::getChildren](recursivecachingiterator.getchildren.html)
+-   [« RecursiveCachingIterator::getChildren](recursivecachingiterator.getchildren.md)
     
--   [RecursiveCallbackFilterIterator »](class.recursivecallbackfilteriterator.html)
+-   [RecursiveCallbackFilterIterator »](class.recursivecallbackfilteriterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveCachingIterator](class.recursivecachingiterator.html)
+-   [RecursiveCachingIterator](class.recursivecachingiterator.md)
     
 -   Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи
     

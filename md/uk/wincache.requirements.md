@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](wincache.setup.html)
+-   [« Встановлення та налаштування](wincache.setup.html)
     
 -   [Установка »](wincache.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](wincache.setup.html)
+-   [Встановлення та налаштування](wincache.setup.html)
     
 -   Вимоги
     

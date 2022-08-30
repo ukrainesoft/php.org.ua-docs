@@ -1,12 +1,12 @@
 Приклади
 
--   [« Типы ресурсов](svm.resources.html)
+-   [« Типи ресурсів](svm.resources.md)
     
--   [SVM »](class.svm.html)
+-   [SVM »](class.svm.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SVM](book.svm.html)
+-   [SVM](book.svm.md)
     
 -   Приклади
     

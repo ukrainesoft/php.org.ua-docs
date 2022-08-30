@@ -1,12 +1,12 @@
 Додає дані до наявного запису на заданому сервері
 
--   [« Memcached::append](memcached.append.html)
+-   [« Memcached::append](memcached.append.md)
     
--   [Memcached::cas »](memcached.cas.html)
+-   [Memcached::cas »](memcached.cas.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Додає дані до наявного запису на заданому сервері
     
@@ -23,7 +23,7 @@ Memcached::appendByKey — Додає дані до наявного запис�
 public Memcached::appendByKey(string $server_key, string $key, string $value): bool
 ```
 
-**Memcached::appendByKey()** працює аналогічно методу [Memcached::append()](memcached.append.html), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та установки `key` на конкретний сервер.
+**Memcached::appendByKey()** працює аналогічно методу [Memcached::append()](memcached.append.md), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та установки `key` на конкретний сервер.
 
 ### Список параметрів
 
@@ -41,9 +41,9 @@ public Memcached::appendByKey(string $server_key, string $key, string $value): b
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.html) повертає **`Memcached::RES_NOTSTORED`** якщо переданий ключ не існує.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає **`Memcached::RES_NOTSTORED`** якщо переданий ключ не існує.
 
 ### Дивіться також
 
--   [Memcached::append()](memcached.append.html) - Додає дані до існуючого запису
--   [Memcached::prepend()](memcached.prepend.html) - Додає дані на початок існуючого запису
+-   [Memcached::append()](memcached.append.md) - Додає дані до існуючого запису
+-   [Memcached::prepend()](memcached.prepend.md) - Додає дані на початок існуючого запису

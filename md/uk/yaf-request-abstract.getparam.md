@@ -4,7 +4,7 @@
     
 -   [YafRequestAbstract::getParams »](yaf-request-abstract.getparams.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRequestAbstract](class.yaf-request-abstract.html)
     

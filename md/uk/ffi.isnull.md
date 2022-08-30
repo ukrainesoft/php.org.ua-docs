@@ -1,12 +1,12 @@
 Перевіряє, чи є FFICData нульовим покажчиком
 
--   [« FFI::free](ffi.free.html)
+-   [« FFI::free](ffi.free.md)
     
--   [FFI::load »](ffi.load.html)
+-   [FFI::load »](ffi.load.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FFI](class.ffi.html)
+-   [FFI](class.ffi.md)
     
 -   Перевіряє, чи є FFICData нульовим покажчиком
     

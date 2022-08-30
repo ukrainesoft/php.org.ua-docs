@@ -1,12 +1,12 @@
 Повертає новий об'єкт Imagick
 
--   [« Imagick::getHomeURL](imagick.gethomeurl.html)
+-   [« Imagick::getHomeURL](imagick.gethomeurl.md)
     
--   [Imagick::getImageAlphaChannel »](imagick.getimagealphachannel.html)
+-   [Imagick::getImageAlphaChannel »](imagick.getimagealphachannel.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає новий об'єкт Imagick
     

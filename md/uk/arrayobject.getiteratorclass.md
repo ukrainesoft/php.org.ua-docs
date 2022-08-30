@@ -44,7 +44,7 @@ class MyArrayIterator extends ArrayIterator {
     // пользовательская реализация
 }
 
-// Массив доступных фруктов
+// Масив доступных фруктов
 $fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
 
 $fruitsArrayObject = new ArrayObject($fruits);

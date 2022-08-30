@@ -1,12 +1,12 @@
 Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією
 
--   [« EventBufferEvent::getInput](eventbufferevent.getinput.html)
+-   [« EventBufferEvent::getInput](eventbufferevent.getinput.md)
     
--   [EventBufferEvent::read »](eventbufferevent.read.html)
+-   [EventBufferEvent::read »](eventbufferevent.read.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією
     
@@ -26,7 +26,7 @@ public
 
 Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією. Вихідний буфер є сховищем даних для запису.
 
-Зверніть увагу, що є також `[output](class.eventbufferevent.html#eventbufferevent.props.output)` властивість класу [EventBufferEvent](class.eventbufferevent.html)
+Зверніть увагу, що є також `[output](class.eventbufferevent.html#eventbufferevent.props.output)` властивість класу [EventBufferEvent](class.eventbufferevent.md)
 
 ### Список параметрів
 
@@ -34,7 +34,7 @@ public
 
 ### Значення, що повертаються
 
-Повертає екземпляр [EventBuffer](class.eventbuffer.html) вихідного буфера, пов'язаного з поточною буферною подією.
+Повертає екземпляр [EventBuffer](class.eventbuffer.md) вихідного буфера, пов'язаного з поточною буферною подією.
 
 ### Приклади
 
@@ -74,4 +74,4 @@ if (!$output->add(
 
 ### Дивіться також
 
--   [EventBufferEvent::getInput()](eventbufferevent.getinput.html) - Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією
+-   [EventBufferEvent::getInput()](eventbufferevent.getinput.md) - Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією

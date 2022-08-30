@@ -1,12 +1,12 @@
 Встановлює мінімальну відповідність "Should" (mm)
 
--   [« SolrDisMaxQuery::setBoostQuery](solrdismaxquery.setboostquery.html)
+-   [« SolrDisMaxQuery::setBoostQuery](solrdismaxquery.setboostquery.md)
     
--   [SolrDisMaxQuery::setPhraseFields »](solrdismaxquery.setphrasefields.html)
+-   [SolrDisMaxQuery::setPhraseFields »](solrdismaxquery.setphrasefields.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
+-   [SolrDisMaxQuery](class.solrdismaxquery.md)
     
 -   Встановлює мінімальну відповідність "Should" (mm)
     
@@ -33,7 +33,7 @@ public SolrDisMaxQuery::setMinimumMatch(string $value): SolrDisMaxQuery
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.html)
+[SolrDisMaxQuery](class.solrdismaxquery.md)
 
 ### Приклади
 

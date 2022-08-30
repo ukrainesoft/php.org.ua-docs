@@ -1,12 +1,12 @@
 Конструктор класу ZMQSocket
 
--   [« ZMQSocket::connect](zmqsocket.connect.html)
+-   [« ZMQSocket::connect](zmqsocket.connect.md)
     
--   [ZMQSocket::disconnect »](zmqsocket.disconnect.html)
+-   [ZMQSocket::disconnect »](zmqsocket.disconnect.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQSocket](class.zmqsocket.html)
+-   [ZMQSocket](class.zmqsocket.md)
     
 -   Конструктор класу ZMQSocket
     

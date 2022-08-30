@@ -1,12 +1,12 @@
 Повертає попередження та помилки
 
--   [« DateTimeImmutable::createFromMutable](datetimeimmutable.createfrommutable.html)
+-   [« DateTimeImmutable::createFromMutable](datetimeimmutable.createfrommutable.md)
     
--   [DateTimeImmutable::modify »](datetimeimmutable.modify.html)
+-   [DateTimeImmutable::modify »](datetimeimmutable.modify.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTimeImmutable](class.datetimeimmutable.html)
+-   [DateTimeImmutable](class.datetimeimmutable.md)
     
 -   Повертає попередження та помилки
     

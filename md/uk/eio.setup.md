@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.eio.html)
     
--   [Требования »](eio.requirements.html)
+-   [Вимоги »](eio.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](eio.requirements.html)
+-   [Вимоги](eio.requirements.html)
 -   [Установка](eio.installation.html)
--   [Настройка во время выполнения](eio.configuration.html)
--   [Типы ресурсов](eio.resources.html)
+-   [Налаштування під час виконання](eio.configuration.html)
+-   [Типи ресурсів](eio.resources.html)

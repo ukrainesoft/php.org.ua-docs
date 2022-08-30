@@ -1,6 +1,6 @@
 Функції ODBC
 
--   [« Предопределённые константы](uodbc.constants.html)
+-   [« Обумовлені константи](uodbc.constants.html)
     
 -   [odbcautocommit »](function.odbc-autocommit.html)
     

@@ -1,12 +1,12 @@
 Повертає гаму зображення
 
--   [« Imagick::getImageFormat](imagick.getimageformat.html)
+-   [« Imagick::getImageFormat](imagick.getimageformat.md)
     
--   [Imagick::getImageGeometry »](imagick.getimagegeometry.html)
+-   [Imagick::getImageGeometry »](imagick.getimagegeometry.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає гаму зображення
     

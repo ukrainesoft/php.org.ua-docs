@@ -4,9 +4,9 @@
     
 -   [fannsetactivationsteepnesshidden »](function.fann-set-activation-steepness-hidden.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Встановлює функцію активації для вказаного нейрона та шару
     

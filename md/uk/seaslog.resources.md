@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](seaslog.configuration.html)
+-   [« Налаштування під час виконання](seaslog.configuration.html)
     
--   [Предопределённые константы »](seaslog.constants.html)
+-   [Обумовлені константи »](seaslog.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](seaslog.setup.html)
+-   [Встановлення та налаштування](seaslog.setup.html)
     
 -   Типи ресурсів
     

@@ -1,12 +1,12 @@
 Creative Commons Attribution 3.0
 
--   [« Переводы](about.translations.html)
+-   [« Переклади](about.translations.md)
     
--   [Алфавитный список »](indexes.html)
+-   [Алфавітний список »](indexes.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Appendices](appendices.html)
+-   [Appendices](appendices.md)
     
 -   Creative Commons Attribution 3.0
     

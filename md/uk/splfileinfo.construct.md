@@ -1,12 +1,12 @@
 Створити новий об'єкт SplFileInfo
 
--   [« SplFileInfo](class.splfileinfo.html)
+-   [« SplFileInfo](class.splfileinfo.md)
     
--   [SplFileInfo::getATime »](splfileinfo.getatime.html)
+-   [SplFileInfo::getATime »](splfileinfo.getatime.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Створити новий об'єкт SplFileInfo
     

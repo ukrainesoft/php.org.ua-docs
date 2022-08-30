@@ -2,11 +2,11 @@
 
 -   [« PSpellDictionary](class.pspell-dictionary.html)
     
--   [Recode »](book.recode.html)
+-   [Recode »](book.recode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Pspell](book.pspell.html)
+-   [Pspell](book.pspell.md)
     
 -   Клас PSpellConfig
     

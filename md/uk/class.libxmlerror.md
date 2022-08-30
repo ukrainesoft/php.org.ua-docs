@@ -1,6 +1,6 @@
 Клас libXMLError
 
--   [« Предопределённые константы](libxml.constants.html)
+-   [« Обумовлені константи](libxml.constants.html)
     
 -   [Функції libxml »](ref.libxml.html)
     

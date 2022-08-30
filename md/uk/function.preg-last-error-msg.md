@@ -4,9 +4,9 @@
     
 -   [preglasterror »](function.preg-last-error.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PCRE](ref.pcre.html)
+-   [Функции PCRE](ref.pcre.md)
     
 -   Повертає повідомлення про помилку останньої запущеної функції PCRE
     

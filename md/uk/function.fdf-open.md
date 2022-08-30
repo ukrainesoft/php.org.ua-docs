@@ -4,9 +4,9 @@
     
 -   [fdfremoveitem »](function.fdf-remove-item.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Відкриває документ FDF
     

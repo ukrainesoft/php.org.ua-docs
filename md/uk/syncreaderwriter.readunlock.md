@@ -1,12 +1,12 @@
 Знімає блокування читання
 
--   [« SyncReaderWriter::readlock](syncreaderwriter.readlock.html)
+-   [« SyncReaderWriter::readlock](syncreaderwriter.readlock.md)
     
--   [SyncReaderWriter::writelock »](syncreaderwriter.writelock.html)
+-   [SyncReaderWriter::writelock »](syncreaderwriter.writelock.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SyncReaderWriter](class.syncreaderwriter.html)
+-   [SyncReaderWriter](class.syncreaderwriter.md)
     
 -   Знімає блокування читання
     
@@ -23,7 +23,7 @@ SyncReaderWriter::readunlock — Знімає блокування читанн�
 public SyncReaderWriter::readunlock(): bool
 ```
 
-Знімає блокування читання об'єкта [SyncReaderWriter](class.syncreaderwriter.html)
+Знімає блокування читання об'єкта [SyncReaderWriter](class.syncreaderwriter.md)
 
 ### Список параметрів
 
@@ -48,4 +48,4 @@ $readwrite->readunlock();
 
 ### Дивіться також
 
--   [SyncReaderWriter::readlock()](syncreaderwriter.readlock.html) - Чекає на блокування читання
+-   [SyncReaderWriter::readlock()](syncreaderwriter.readlock.md) - Чекає на блокування читання

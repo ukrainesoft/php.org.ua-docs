@@ -1,12 +1,12 @@
 Натуральний логарифм
 
--   [« log1p](function.log1p.html)
+-   [« log1p](function.log1p.md)
     
--   [max »](function.max.html)
+-   [max »](function.max.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Натуральний логарифм
     
@@ -41,6 +41,6 @@ log(float $num, float $base = M_E): float
 
 ### Дивіться також
 
--   [log10()](function.log10.html) - Десятковий логарифм
--   [exp()](function.exp.html) - обчислює ступінь числа e
--   [pow()](function.pow.html) - Зведення в ступінь
+-   [log10()](function.log10.md) - Десятковий логарифм
+-   [exp()](function.exp.md) - обчислює ступінь числа e
+-   [pow()](function.pow.md) - Зведення в ступінь

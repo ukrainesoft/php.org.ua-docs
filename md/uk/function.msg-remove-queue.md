@@ -4,9 +4,9 @@
     
 -   [msgsend »](function.msg-send.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції семафорів](ref.sem.html)
+-   [Функції семафорів](ref.sem.md)
     
 -   Видалення черги повідомлень
     
@@ -37,9 +37,9 @@ msg_remove_queue(SysvMessageQueue $queue): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                    |
-|--------|-----------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

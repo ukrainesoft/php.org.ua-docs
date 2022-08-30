@@ -1,12 +1,12 @@
 Повертає заданий ліміт ресурсів
 
--   [« Imagick::getResource](imagick.getresource.html)
+-   [« Imagick::getResource](imagick.getresource.md)
     
--   [Imagick::getSamplingFactors »](imagick.getsamplingfactors.html)
+-   [Imagick::getSamplingFactors »](imagick.getsamplingfactors.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає заданий ліміт ресурсів
     
@@ -41,4 +41,4 @@ public static Imagick::getResourceLimit(int $type): int
 
 ### Дивіться також
 
--   [Imagick::setResourceLimit()](imagick.setresourcelimit.html) - встановлює ліміт для конкретного ресурсу
+-   [Imagick::setResourceLimit()](imagick.setresourcelimit.md) - встановлює ліміт для конкретного ресурсу

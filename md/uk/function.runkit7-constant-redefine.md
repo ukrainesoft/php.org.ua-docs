@@ -4,9 +4,9 @@
     
 -   [runkit7constantremove »](function.runkit7-constant-remove.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції runkit7](ref.runkit7.html)
+-   [Функції runkit7](ref.runkit7.md)
     
 -   Перевизначає вже певну константу
     

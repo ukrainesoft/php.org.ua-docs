@@ -1,12 +1,12 @@
 Створити SVMModel на основі навчальних даних
 
--   [« SVM::setOptions](svm.setoptions.html)
+-   [« SVM::setOptions](svm.setoptions.md)
     
--   [SVMModel »](class.svmmodel.html)
+-   [SVMModel »](class.svmmodel.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SVM](class.svm.html)
+-   [SVM](class.svm.md)
     
 -   Створити SVMModel на основі навчальних даних
     

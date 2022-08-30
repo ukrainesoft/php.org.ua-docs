@@ -1,12 +1,12 @@
 Клас SplPriorityQueue
 
--   [« SplMinHeap::compare](splminheap.compare.html)
+-   [« SplMinHeap::compare](splminheap.compare.md)
     
--   [SplPriorityQueue::compare »](splpriorityqueue.compare.html)
+-   [SplPriorityQueue::compare »](splpriorityqueue.compare.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Структури даних](spl.datastructures.html)
+-   [Структури даних](spl.datastructures.md)
     
 -   Клас SplPriorityQueue
     
@@ -59,18 +59,18 @@ public valid(): bool
 
 ## Зміст
 
--   [SplPriorityQueue::compare](splpriorityqueue.compare.html) — Порівнює пріоритети для коректного розміщення елементів у чергу
--   [SplPriorityQueue::count](splpriorityqueue.count.html) — Здійснює підрахунок елементів у черзі
--   [SplPriorityQueue::current](splpriorityqueue.current.html) — Повертає вузол, на який вказує ітератор.
--   [SplPriorityQueue::extract](splpriorityqueue.extract.html) — Витягує вузол із початку черги і пересортує її.
--   [SplPriorityQueue::getExtractFlags](splpriorityqueue.getextractflags.html) — Отримати прапори вилучення
--   [SplPriorityQueue::insert](splpriorityqueue.insert.html) — Додає елемент у чергу та пересортує її
--   [SplPriorityQueue::isCorrupted](splpriorityqueue.iscorrupted.html) — Вказує, чи є пріоритетна черга у пошкодженому стані
--   [SplPriorityQueue::isEmpty](splpriorityqueue.isempty.html) — Перевіряє, чи черга є порожньою
--   [SplPriorityQueue::key](splpriorityqueue.key.html) — Повертає індекс поточного сайту
--   [SplPriorityQueue::next](splpriorityqueue.next.html) - Перехід до наступного вузла
--   [SplPriorityQueue::recoverFromCorruption](splpriorityqueue.recoverfromcorruption.html) - Відновлює коректний стан черги
--   [SplPriorityQueue::rewind](splpriorityqueue.rewind.html) - Перекладає ітератор на початок черги
--   [SplPriorityQueue::setExtractFlags](splpriorityqueue.setextractflags.html) — Встановлює режим вилучення вузлів
--   [SplPriorityQueue::top](splpriorityqueue.top.html) — Повертає вузол, що знаходиться на початку черги
--   [SplPriorityQueue::valid](splpriorityqueue.valid.html) — Перевіряє, чи є у черзі ще елементи
+-   [SplPriorityQueue::compare](splpriorityqueue.compare.md) — Порівнює пріоритети для коректного розміщення елементів у чергу
+-   [SplPriorityQueue::count](splpriorityqueue.count.md) — Здійснює підрахунок елементів у черзі
+-   [SplPriorityQueue::current](splpriorityqueue.current.md) — Повертає вузол, на який вказує ітератор.
+-   [SplPriorityQueue::extract](splpriorityqueue.extract.md) — Витягує вузол із початку черги і пересортує її.
+-   [SplPriorityQueue::getExtractFlags](splpriorityqueue.getextractflags.md) — Отримати прапори вилучення
+-   [SplPriorityQueue::insert](splpriorityqueue.insert.md) — Додає елемент у чергу та пересортує її
+-   [SplPriorityQueue::isCorrupted](splpriorityqueue.iscorrupted.md) — Вказує, чи є пріоритетна черга у пошкодженому стані
+-   [SplPriorityQueue::isEmpty](splpriorityqueue.isempty.md) — Перевіряє, чи черга є порожньою
+-   [SplPriorityQueue::key](splpriorityqueue.key.md) — Повертає індекс поточного сайту
+-   [SplPriorityQueue::next](splpriorityqueue.next.md) - Перехід до наступного вузла
+-   [SplPriorityQueue::recoverFromCorruption](splpriorityqueue.recoverfromcorruption.md) - Відновлює коректний стан черги
+-   [SplPriorityQueue::rewind](splpriorityqueue.rewind.md) - Перекладає ітератор на початок черги
+-   [SplPriorityQueue::setExtractFlags](splpriorityqueue.setextractflags.md) — Встановлює режим вилучення вузлів
+-   [SplPriorityQueue::top](splpriorityqueue.top.md) — Повертає вузол, що знаходиться на початку черги
+-   [SplPriorityQueue::valid](splpriorityqueue.valid.md) — Перевіряє, чи є у черзі ще елементи

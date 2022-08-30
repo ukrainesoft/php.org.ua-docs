@@ -1,12 +1,12 @@
 Створює засіб форматування дати
 
--   [« IntlDateFormatter](class.intldateformatter.html)
+-   [« IntlDateFormatter](class.intldateformatter.md)
     
--   [IntlDateFormatter::format »](intldateformatter.format.html)
+-   [IntlDateFormatter::format »](intldateformatter.format.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlDateFormatter](class.intldateformatter.html)
+-   [IntlDateFormatter](class.intldateformatter.md)
     
 -   Створює засіб форматування дати
     
@@ -35,8 +35,8 @@ public **IntlDateFormatter::construct**
 ?string `$locale`  
 int `$dateType` = IntlDateFormatter::FULL,  
 int `$timeType` = IntlDateFormatter::FULL,  
-[IntlTimeZone](class.intltimezone.html)[DateTimeZone](class.datetimezone.html)|string|null `$timezone` **`null`**  
-[IntlCalendar](class.intlcalendar.html)| int | null `$calendar` **`null`**  
+[IntlTimeZone](class.intltimezone.md)[DateTimeZone](class.datetimezone.md)|string|null `$timezone` **`null`**  
+[IntlCalendar](class.intlcalendar.md)| int | null `$calendar` **`null`**  
 ?string `$pattern` **`null`**
 
 Процедурний стиль
@@ -63,13 +63,13 @@ datefmt_create(    ?string $locale,    int $dateType,    int $timeTy
 
 `timezone`
 
-Ідентифікатор часового поясу. За замовчуванням (і той, який використовується, якщо вказано **`null`**) - це той, який повертається [datedefaulttimezoneget()](function.date-default-timezone-get.html) або, якщо застосовно, об'єкт [IntlCalendar](class.intlcalendar.html), вказаний у параметрі `calendar`. Цей ідентифікатор повинен бути коректним ідентифікатором у базі даних ICU або ідентифікатором, який представляє явне зміщення, наприклад, `GMT-05:30`
+Ідентифікатор часового поясу. За замовчуванням (і той, який використовується, якщо вказано **`null`**) - це той, який повертається [datedefaulttimezoneget()](function.date-default-timezone-get.html) або, якщо застосовно, об'єкт [IntlCalendar](class.intlcalendar.md), вказаний у параметрі `calendar`. Цей ідентифікатор повинен бути коректним ідентифікатором у базі даних ICU або ідентифікатором, який представляє явне зміщення, наприклад, `GMT-05:30`
 
-Також може бути об'єкт [IntlTimeZone](class.intltimezone.html) або [DateTimeZone](class.datetimezone.html)
+Також може бути об'єкт [IntlTimeZone](class.intltimezone.md) або [DateTimeZone](class.datetimezone.md)
 
 `calendar`
 
-Календар для форматування чи аналізу. Значення за замовчуванням - **`null`**, що відповідає **`IntlDateFormatter::GREGORIAN`**. Можливо одна з [констант IntlDateFormatter](class.intldateformatter.html#intl.intldateformatter-constants.calendartypes) або об'єкт [IntlCalendar](class.intlcalendar.html). Будь-який переданий об'єкт [IntlCalendar](class.intlcalendar.html) буде клоновано; він не буде змінений [IntlDateFormatter](class.intldateformatter.html). Це визначить тип календаря, що використовується (григоріанський, ісламський, перський і т.д.) і, якщо в параметрі `timezone` вказано значення **`null`**, також визначить часовий пояс, що використовується.
+Календар для форматування чи аналізу. Значення за замовчуванням - **`null`**, що відповідає **`IntlDateFormatter::GREGORIAN`**. Можливо одна з [констант IntlDateFormatter](class.intldateformatter.html#intl.intldateformatter-constants.calendartypes) або об'єкт [IntlCalendar](class.intlcalendar.md). Будь-який переданий об'єкт [IntlCalendar](class.intlcalendar.md) буде клоновано; він не буде змінений [IntlDateFormatter](class.intldateformatter.md). Це визначить тип календаря, що використовується (григоріанський, ісламський, перський і т.д.) і, якщо в параметрі `timezone` вказано значення **`null`**, також визначить часовий пояс, що використовується.
 
 `pattern`
 
@@ -77,16 +77,16 @@ datefmt_create(    ?string $locale,    int $dateType,    int $timeTy
 
 ### Значення, що повертаються
 
-Створений об'єкт [IntlDateFormatter](class.intldateformatter.html) або **`null`** у разі виникнення помилки.
+Створений об'єкт [IntlDateFormatter](class.intldateformatter.md) або **`null`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия                                                                             | Описание |
-|------------------------------------------------------------------------------------|----------|
-| 5.5.0/PECL 3.0.0                                                                   |          |
-| Об'єкт [IntlCalendar](class.intlcalendar.html) допускається у параметрі `calendar` |          |
+| Версия | Описание |
+| --- | --- |
+| 5.5.0/PECL 3.0.0 |  |
+| Об'єкт [IntlCalendar](class.intlcalendar.md) допускається у параметрі `calendar` |  |
 
-Об'єкти [IntlTimeZone](class.intltimezone.html) і [DateTimeZone](class.datetimezone.html) допускаються у параметрі `timezone`
+Об'єкти [IntlTimeZone](class.intltimezone.md) і [DateTimeZone](class.datetimezone.md) допускаються у параметрі `timezone`
 
 Неприпустимі ідентифікатори часового поясу (включаючи порожні рядки) більше не допускаються у параметрі `timezone`
 
@@ -145,7 +145,7 @@ echo "Второй форматированный вывод с шабло�
 
 ### Дивіться також
 
--   [datefmtformat()](intldateformatter.format.html) - Форматує значення дати/часу у вигляді рядка
--   [datefmtparse()](intldateformatter.parse.html) - Перетворює рядок на значення позначки часу
--   [datefmtgeterrorcode()](intldateformatter.geterrorcode.html) - Отримує код помилки останньої операції
--   [datefmtgeterrormessage()](intldateformatter.geterrormessage.html) - Отримує текст помилки останньої операції
+-   [datefmtformat()](intldateformatter.format.md) - Форматує значення дати/часу у вигляді рядка
+-   [datefmtparse()](intldateformatter.parse.md) - Перетворює рядок на значення позначки часу
+-   [datefmtgeterrorcode()](intldateformatter.geterrorcode.md) - Отримує код помилки останньої операції
+-   [datefmtgeterrormessage()](intldateformatter.geterrormessage.md) - Отримує текст помилки останньої операції

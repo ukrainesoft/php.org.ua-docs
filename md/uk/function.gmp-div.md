@@ -4,9 +4,9 @@
     
 -   [gmpdivexact »](function.gmp-divexact.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GMP Функції](ref.gmp.html)
+-   [GMP Функції](ref.gmp.md)
     
 -   Псевдонім gmpdivдо
     

@@ -4,9 +4,9 @@
     
 -   [ocipasswordchange »](function.oci-password-change.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8 Функции](ref.oci8.html)
+-   [OCI8 Функции](ref.oci8.md)
     
 -   Підготовка запиту до виконання
     

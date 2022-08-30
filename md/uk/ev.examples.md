@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](ev.global.constants.html)
+-   [« Обумовлені константи](ev.global.constants.md)
     
--   [Спостерігачі »](ev.watchers.html)
+-   [Спостерігачі »](ev.watchers.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Єв](book.ev.html)
+-   [Єв](book.ev.md)
     
 -   Приклади
     

@@ -1,12 +1,12 @@
 Встановлення прав доступу
 
--   [« PharFileInfo](class.pharfileinfo.html)
+-   [« PharFileInfo](class.pharfileinfo.md)
     
--   [PharFileInfo::compress »](pharfileinfo.compress.html)
+-   [PharFileInfo::compress »](pharfileinfo.compress.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharFileInfo](class.pharfileinfo.html)
+-   [PharFileInfo](class.pharfileinfo.md)
     
 -   Встановлення прав доступу
     
@@ -23,13 +23,13 @@ PharFileInfo::chmod — Встановлення прав доступу
 public PharFileInfo::chmod(int $perms): void
 ```
 
-**PharFileInfo::chmod()** дозволяє встановлювати біти дозволів на запуск та читання для файлів. Біти запису ігноруються, оскільки налаштовуються під час виконання на основі значення INI-змінної [phar.readonly](phar.configuration.html#ini.phar.readonly). Як і для будь-якого іншого функціоналу, що модифікує phar-архів, необхідно, щоб змінна [phar.readonly](phar.configuration.html#ini.phar.readonly) була відключена для успішної зміни прав на файл в архіві [Phar](class.phar.html). Архіви [PharData](class.phardata.html) немає таких обмежень.
+**PharFileInfo::chmod()** дозволяє встановлювати біти дозволів на запуск та читання для файлів. Біти запису ігноруються, оскільки налаштовуються під час виконання на основі значення INI-змінної [phar.readonly](phar.configuration.html#ini.phar.readonly). Як і для будь-якого іншого функціоналу, що модифікує phar-архів, необхідно, щоб змінна [phar.readonly](phar.configuration.html#ini.phar.readonly) була відключена для успішної зміни прав на файл в архіві [Phar](class.phar.md). Архіви [PharData](class.phardata.md) немає таких обмежень.
 
 ### Список параметрів
 
 `perms`
 
-Дозволи (дивіться опис функції [chmod()](function.chmod.html)
+Дозволи (дивіться опис функції [chmod()](function.chmod.md)
 
 ### Значення, що повертаються
 

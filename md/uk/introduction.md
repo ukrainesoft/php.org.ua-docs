@@ -4,7 +4,7 @@
     
 -   [Що таке PHP? »](intro-whatis.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Приступаючи до роботи](getting-started.html)
     

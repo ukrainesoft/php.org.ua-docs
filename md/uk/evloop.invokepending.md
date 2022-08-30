@@ -1,12 +1,12 @@
 Викликає всіх спостерігачів, що очікують, при скиданні їх відкладеного стану
 
--   [« EvLoop::idle](evloop.idle.html)
+-   [« EvLoop::idle](evloop.idle.md)
     
--   [EvLoop::io »](evloop.io.html)
+-   [EvLoop::io »](evloop.io.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvLoop](class.evloop.html)
+-   [EvLoop](class.evloop.md)
     
 -   Викликає всіх спостерігачів, що очікують, при скиданні їх відкладеного стану
     

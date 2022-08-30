@@ -1,12 +1,12 @@
 Створити новий об'єкт XMLWriter, використовуючи вихідний URI для виведення
 
--   [« XMLWriter::openMemory](xmlwriter.openmemory.html)
+-   [« XMLWriter::openMemory](xmlwriter.openmemory.md)
     
--   [XMLWriter::outputMemory »](xmlwriter.outputmemory.html)
+-   [XMLWriter::outputMemory »](xmlwriter.outputmemory.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](class.xmlwriter.html)
+-   [XMLWriter](class.xmlwriter.md)
     
 -   Створити новий об'єкт XMLWriter, використовуючи вихідний URI для виведення
     
@@ -33,7 +33,7 @@ public XMLWriter::openUri(string $uri): bool
 xmlwriter_open_uri(string $uri): XMLWriter|false
 ```
 
-Створює новий об'єкт [XMLWriter](class.xmlwriter.html), використовуючи `uri` для виведення.
+Створює новий об'єкт [XMLWriter](class.xmlwriter.md), використовуючи `uri` для виведення.
 
 ### Список параметрів
 
@@ -45,13 +45,13 @@ URI ресурс для виведення.
 
 Об'єктно-орієнтований стиль: Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-Процедурний стиль: Повертає новий [XMLWriter](class.xmlwriter.html) для подальшого використання функціями xmlwriter у разі успішного виконання або **`false`** у разі виникнення помилки.
+Процедурний стиль: Повертає новий [XMLWriter](class.xmlwriter.md) для подальшого використання функціями xmlwriter у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                          |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Функція тепер повертає екземпляр [XMLWriter](class.xmlwriter.html) у разі успішного виконання. Раніше в цьому випадку повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Функція тепер повертає екземпляр [XMLWriter](class.xmlwriter.md) у разі успішного виконання. Раніше в цьому випадку повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -74,4 +74,4 @@ $out->openURI('php://output');
 
 ### Дивіться також
 
--   [XMLWriter::openMemory()](xmlwriter.openmemory.html) - Створити новий об'єкт XMLWriter, використовуючи пам'ять для рядкового виводу
+-   [XMLWriter::openMemory()](xmlwriter.openmemory.md) - Створити новий об'єкт XMLWriter, використовуючи пам'ять для рядкового виводу

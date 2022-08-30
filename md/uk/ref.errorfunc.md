@@ -1,6 +1,6 @@
 Функції обробки помилок
 
--   [« Примеры](errorfunc.examples.html)
+-   [« Приклади](errorfunc.examples.html)
     
 -   [debugbacktrace »](function.debug-backtrace.html)
     

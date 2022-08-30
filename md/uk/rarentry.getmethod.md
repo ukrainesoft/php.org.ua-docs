@@ -1,12 +1,12 @@
 Повертає метод компресії елемента
 
--   [« RarEntry::getHostOs](rarentry.gethostos.html)
+-   [« RarEntry::getHostOs](rarentry.gethostos.md)
     
--   [RarEntry::getName »](rarentry.getname.html)
+-   [RarEntry::getName »](rarentry.getname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RarEntry](class.rarentry.html)
+-   [RarEntry](class.rarentry.md)
     
 -   Повертає метод компресії елемента
     

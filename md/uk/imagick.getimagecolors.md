@@ -1,12 +1,12 @@
 Повертає кількість унікальних кольорів у зображенні
 
--   [« Imagick::getImageColormapColor](imagick.getimagecolormapcolor.html)
+-   [« Imagick::getImageColormapColor](imagick.getimagecolormapcolor.md)
     
--   [Imagick::getImageColorspace »](imagick.getimagecolorspace.html)
+-   [Imagick::getImageColorspace »](imagick.getimagecolorspace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає кількість унікальних кольорів у зображенні
     

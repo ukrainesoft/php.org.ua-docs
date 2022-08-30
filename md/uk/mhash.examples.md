@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](mhash.constants.html)
+-   [« Обумовлені константи](mhash.constants.md)
     
--   [Функции Mhash »](ref.mhash.html)
+-   [Функции Mhash »](ref.mhash.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mhash](book.mhash.html)
+-   [Mhash](book.mhash.md)
     
 -   Приклади
     

@@ -1,12 +1,12 @@
 Очищає всі ресурси, пов'язані з об'єктом Imagick
 
--   [« Imagick::clampImage](imagick.clampimage.html)
+-   [« Imagick::clampImage](imagick.clampimage.md)
     
--   [Imagick::clipImage »](imagick.clipimage.html)
+-   [Imagick::clipImage »](imagick.clipimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Очищає всі ресурси, пов'язані з об'єктом Imagick
     

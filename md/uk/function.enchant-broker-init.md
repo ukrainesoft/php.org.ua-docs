@@ -4,9 +4,9 @@
     
 -   [enchantbrokerlistdicts »](function.enchant-broker-list-dicts.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Enchant](ref.enchant.html)
+-   [Функции Enchant](ref.enchant.md)
     
 -   Створити новий об'єкт брокера
     
@@ -31,9 +31,9 @@ enchant_broker_init(): EnchantBroker|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                            |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція повертає екземпляр [EnchantBroker](class.enchantbroker.html); Раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [EnchantBroker](class.enchantbroker.md); Раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

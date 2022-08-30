@@ -4,9 +4,9 @@
     
 -   [sodiumcryptosecretboxkeygen »](function.sodium-crypto-secretbox-keygen.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Обчислити загальний секрет на підставі секретного ключа користувача та відкритого ключа іншого користувача
     

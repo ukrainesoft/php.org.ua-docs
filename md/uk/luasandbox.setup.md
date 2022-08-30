@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.luasandbox.html)
+-   [« Введение](intro.luasandbox.md)
     
--   [Требования »](luasandbox.requirements.html)
+-   [Вимоги »](luasandbox.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LuaSandbox](book.luasandbox.html)
+-   [LuaSandbox](book.luasandbox.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](luasandbox.requirements.html)
--   [Установка](luasandbox.installation.html)
--   [Настройка во время выполнения](luasandbox.configuration.html)
--   [Типы ресурсов](luasandbox.resources.html)
+-   [Вимоги](luasandbox.requirements.md)
+-   [Установка](luasandbox.installation.md)
+-   [Налаштування під час виконання](luasandbox.configuration.md)
+-   [Типи ресурсів](luasandbox.resources.md)

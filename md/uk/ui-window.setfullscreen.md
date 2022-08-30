@@ -4,7 +4,7 @@
     
 -   [ОЙWindow::setMargin »](ui-window.setmargin.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙWindow](class.ui-window.html)
     

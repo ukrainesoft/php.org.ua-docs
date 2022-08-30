@@ -1,12 +1,12 @@
 Додає поле фрази (параметр pf)
 
--   [« SolrDisMaxQuery::addBoostQuery](solrdismaxquery.addboostquery.html)
+-   [« SolrDisMaxQuery::addBoostQuery](solrdismaxquery.addboostquery.md)
     
--   [SolrDisMaxQuery::addQueryField »](solrdismaxquery.addqueryfield.html)
+-   [SolrDisMaxQuery::addQueryField »](solrdismaxquery.addqueryfield.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
+-   [SolrDisMaxQuery](class.solrdismaxquery.md)
     
 -   Додає поле фрази (параметр pf)
     
@@ -37,7 +37,7 @@ field name
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.html)
+[SolrDisMaxQuery](class.solrdismaxquery.md)
 
 ### Приклади
 
@@ -63,5 +63,5 @@ q=lucene&defType=edismax&pf=cat~1^3 third~2^4 source^55
 
 ### Дивіться також
 
--   [SolrDisMaxQuery::removePhraseField()](solrdismaxquery.removephrasefield.html) - Видаляє поле фрази (параметра)
--   [SolrDisMaxQuery::setPhraseFields()](solrdismaxquery.setphrasefields.html) - Встановлює поля фрази та їх посилення (і відхилення) за допомогою параметра pf2
+-   [SolrDisMaxQuery::removePhraseField()](solrdismaxquery.removephrasefield.md) - Видаляє поле фрази (параметра)
+-   [SolrDisMaxQuery::setPhraseFields()](solrdismaxquery.setphrasefields.md) - Встановлює поля фрази та їх посилення (і відхилення) за допомогою параметра pf2

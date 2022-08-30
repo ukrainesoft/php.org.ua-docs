@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Настройка во время выполнения](quickhash.configuration.html)
+-   [« Налаштування під час виконання](quickhash.configuration.md)
     
--   [Примеры »](quickhash.examples.html)
+-   [Приклади »](quickhash.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Quickhash](book.quickhash.html)
+-   [Quickhash](book.quickhash.md)
     
 -   Обумовлені константи
     

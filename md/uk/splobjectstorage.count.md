@@ -1,12 +1,12 @@
 Повертає кількість об'єктів у контейнері
 
--   [« SplObjectStorage::contains](splobjectstorage.contains.html)
+-   [« SplObjectStorage::contains](splobjectstorage.contains.md)
     
--   [SplObjectStorage::current »](splobjectstorage.current.html)
+-   [SplObjectStorage::current »](splobjectstorage.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplObjectStorage](class.splobjectstorage.html)
+-   [SplObjectStorage](class.splobjectstorage.md)
     
 -   Повертає кількість об'єктів у контейнері
     
@@ -62,5 +62,5 @@ int(2)
 
 ### Дивіться також
 
--   [SplObjectStorage::attach()](splobjectstorage.attach.html) - Додає об'єкт у контейнер
--   [SplObjectStorage::detach()](splobjectstorage.detach.html) - Видаляє об'єкт object із контейнера
+-   [SplObjectStorage::attach()](splobjectstorage.attach.md) - Додає об'єкт у контейнер
+-   [SplObjectStorage::detach()](splobjectstorage.detach.md) - Видаляє об'єкт object із контейнера

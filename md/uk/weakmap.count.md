@@ -2,11 +2,11 @@
 
 -   [« WeakMap::construct](ext-weakmap.construct.html)
     
--   [WeakMap::getIterator »](weakmap.getiterator.html)
+-   [WeakMap::getIterator »](weakmap.getiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [WeakMap](class.weakmap.html)
+-   [WeakMap](class.weakmap.md)
     
 -   Підраховує кількість живих записів у колекції (map)
     

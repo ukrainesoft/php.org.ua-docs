@@ -4,7 +4,7 @@
     
 -   [ДсMap::get »](ds-map.get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Коллекция пар ключ-значение](class.ds-map.html)
     
@@ -35,7 +35,7 @@ public Ds\Map::first(): Ds\Pair
 
 ### Помилки
 
-Викидає виняток [UnderflowException](class.underflowexception.html)якщо колекція порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо колекція порожня.
 
 ### Приклади
 

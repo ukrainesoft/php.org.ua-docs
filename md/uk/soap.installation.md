@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](soap.requirements.html)
+-   [« Вимоги](soap.requirements.md)
     
--   [Настройка во время выполнения »](soap.configuration.html)
+-   [Налаштування під час виконання »](soap.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](soap.setup.html)
+-   [Встановлення та налаштування](soap.setup.md)
     
 -   Встановлення
     

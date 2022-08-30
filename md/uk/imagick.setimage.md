@@ -1,12 +1,12 @@
 Замінює зображення в об'єкті
 
--   [« Imagick::setGravity](imagick.setgravity.html)
+-   [« Imagick::setGravity](imagick.setgravity.md)
     
--   [Imagick::setImageAlphaChannel »](imagick.setimagealphachannel.html)
+-   [Imagick::setImageAlphaChannel »](imagick.setimagealphachannel.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Замінює зображення в об'єкті
     

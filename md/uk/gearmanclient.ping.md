@@ -1,12 +1,12 @@
 Надсилає дані на всі сервери, щоб перевірити, які з них виведуть ці дані
 
--   [« GearmanClient::jobStatus](gearmanclient.jobstatus.html)
+-   [« GearmanClient::jobStatus](gearmanclient.jobstatus.md)
     
--   [GearmanClient::removeOptions »](gearmanclient.removeoptions.html)
+-   [GearmanClient::removeOptions »](gearmanclient.removeoptions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanClient](class.gearmanclient.html)
+-   [GearmanClient](class.gearmanclient.md)
     
 -   Надсилає дані на всі сервери, щоб перевірити, які з них виведуть ці дані
     

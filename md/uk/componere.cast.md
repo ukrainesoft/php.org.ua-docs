@@ -1,12 +1,12 @@
 Приведення до типу
 
--   [« Функции Componere](reference.componere.html)
+-   [« Функции Componere](reference.componere.md)
     
--   [Componerecastбref »](componere.cast_by_ref.html)
+-   [Componerecastбref »](componere.cast_by_ref.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Componere](reference.componere.html)
+-   [Функции Componere](reference.componere.md)
     
 -   Приведення до типу
     
@@ -41,24 +41,24 @@ object типу **Type**, наведений з `object`
 
 **Увага**
 
-Викидає виняток [InvalidArgumentException](class.invalidargumentexception.html), якщо тип `object` є похідним від внутрішнього класу
+Викидає виняток [InvalidArgumentException](class.invalidargumentexception.md), якщо тип `object` є похідним від внутрішнього класу
 
 **Увага**
 
-Викидає виняток [InvalidArgumentException](class.invalidargumentexception.html), якщо **Type** є інтерфейсом
+Викидає виняток [InvalidArgumentException](class.invalidargumentexception.md), якщо **Type** є інтерфейсом
 
 **Увага**
 
-Викидає виняток [InvalidArgumentException](class.invalidargumentexception.html), якщо **Type** є трейтом
+Викидає виняток [InvalidArgumentException](class.invalidargumentexception.md), якщо **Type** є трейтом
 
 **Увага**
 
-Викидає виняток [InvalidArgumentException](class.invalidargumentexception.html), якщо **Type** є абстрактним класом
+Викидає виняток [InvalidArgumentException](class.invalidargumentexception.md), якщо **Type** є абстрактним класом
 
 **Увага**
 
-Викидає виняток [InvalidArgumentException](class.invalidargumentexception.html), якщо **Type** не сумісний з типом `object`
+Викидає виняток [InvalidArgumentException](class.invalidargumentexception.md), якщо **Type** не сумісний з типом `object`
 
 ### Дивіться також
 
--   [Componerecastбref](componere.cast_by_ref.html)
+-   [Componerecastбref](componere.cast_by_ref.md)

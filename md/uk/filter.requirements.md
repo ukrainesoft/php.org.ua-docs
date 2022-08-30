@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](filter.setup.html)
+-   [« Встановлення та налаштування](filter.setup.md)
     
--   [Установка »](filter.installation.html)
+-   [Установка »](filter.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](filter.setup.html)
+-   [Встановлення та налаштування](filter.setup.md)
     
 -   Вимоги
     

@@ -4,9 +4,9 @@
     
 -   [sodiumcryptosignsecretkey »](function.sodium-crypto-sign-secretkey.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Витягує відкритий ключ Ed25519 із пари ключів.
     

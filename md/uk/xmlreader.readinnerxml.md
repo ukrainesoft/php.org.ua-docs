@@ -1,12 +1,12 @@
 Вийняти XML із поточного вузла
 
--   [« XMLReader::read](xmlreader.read.html)
+-   [« XMLReader::read](xmlreader.read.md)
     
--   [XMLReader::readOuterXml »](xmlreader.readouterxml.html)
+-   [XMLReader::readOuterXml »](xmlreader.readouterxml.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLReader](class.xmlreader.html)
+-   [XMLReader](class.xmlreader.md)
     
 -   Вийняти XML із поточного вузла
     
@@ -41,6 +41,6 @@ public XMLReader::readInnerXml(): string
 
 ### Дивіться також
 
--   [XMLReader::readString()](xmlreader.readstring.html) - Прочитати вміст поточного вузла як рядок
--   [XMLReader::readOuterXml()](xmlreader.readouterxml.html) - Отримати XML із поточного вузла, включаючи сам вузол
--   [XMLReader::expand()](xmlreader.expand.html) - Повернути копію поточного вузла у вигляді об'єкта DOM
+-   [XMLReader::readString()](xmlreader.readstring.md) - Прочитати вміст поточного вузла як рядок
+-   [XMLReader::readOuterXml()](xmlreader.readouterxml.md) - Отримати XML із поточного вузла, включаючи сам вузол
+-   [XMLReader::expand()](xmlreader.expand.md) - Повернути копію поточного вузла у вигляді об'єкта DOM

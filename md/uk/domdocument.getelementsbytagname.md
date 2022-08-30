@@ -1,12 +1,12 @@
 Шукає всі елементи із заданим локальним ім'ям
 
--   [« DOMDocument::getElementById](domdocument.getelementbyid.html)
+-   [« DOMDocument::getElementById](domdocument.getelementbyid.md)
     
--   [DOMDocument::getElementsByTagNameNS »](domdocument.getelementsbytagnamens.html)
+-   [DOMDocument::getElementsByTagNameNS »](domdocument.getelementsbytagnamens.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMDocument](class.domdocument.html)
+-   [DOMDocument](class.domdocument.md)
     
 -   Шукає всі елементи із заданим локальним ім'ям
     
@@ -23,7 +23,7 @@ DOMDocument::getElementsByTagName — Шукає всі елементи із з
 public DOMDocument::getElementsByTagName(string $qualifiedName): DOMNodeList
 ```
 
-Ця функція повертає новий об'єкт класу [DOMNodeList](class.domnodelist.html)містить елементи із заданим локальним ім'ям.
+Ця функція повертає новий об'єкт класу [DOMNodeList](class.domnodelist.md)містить елементи із заданим локальним ім'ям.
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ public DOMDocument::getElementsByTagName(string $qualifiedName): DOMNodeList
 
 ### Значення, що повертаються
 
-Новий об'єкт класу [DOMNodeList](class.domnodelist.html)містить всі знайдені елементи.
+Новий об'єкт класу [DOMNodeList](class.domnodelist.md)містить всі знайдені елементи.
 
 ### Приклади
 
@@ -69,4 +69,4 @@ foreach ($books as $book) {
 
 ### Дивіться також
 
--   [DOMDocument::getElementsByTagNameNS()](domdocument.getelementsbytagnamens.html) - Шукає всі елементи із заданим ім'ям у вказаному просторі імен
+-   [DOMDocument::getElementsByTagNameNS()](domdocument.getelementsbytagnamens.md) - Шукає всі елементи із заданим ім'ям у вказаному просторі імен

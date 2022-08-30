@@ -1,12 +1,12 @@
 Перетворюючі фільтри
 
--   [« Рядкові фільтри](filters.string.html)
+-   [« Рядкові фільтри](filters.string.md)
     
--   [Компресійні фільтри »](filters.compression.html)
+-   [Компресійні фільтри »](filters.compression.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Список доступних фільтрів](filters.html)
+-   [Список доступних фільтрів](filters.md)
     
 -   Перетворюючі фільтри
     
@@ -63,7 +63,7 @@ fwrite($fp, "This is a test.\n");
 
 ## convert.iconv.
 
-Фільтри `convert.iconv.*` доступні, якщо включена підтримка [iconv](book.iconv.html) та їх використання аналогічно обробці потокових даних за допомогою [iconv()](function.iconv.html). Ці фільтри не підтримують параметри. Натомість очікується, що вихідне та цільове кодування були задані в імені фільтра таким чином: `convert.iconv.<input-encoding>.<output-encoding>` або `convert.iconv.<input-encoding>/<output-encoding>` (обидва варіанти семантично еквівалентні).
+Фільтри `convert.iconv.*` доступні, якщо включена підтримка [iconv](book.iconv.md) та їх використання аналогічно обробці потокових даних за допомогою [iconv()](function.iconv.md). Ці фільтри не підтримують параметри. Натомість очікується, що вихідне та цільове кодування були задані в імені фільтра таким чином: `convert.iconv.<input-encoding>.<output-encoding>` або `convert.iconv.<input-encoding>/<output-encoding>` (обидва варіанти семантично еквівалентні).
 
 **Приклад # 3 convert.iconv.**
 

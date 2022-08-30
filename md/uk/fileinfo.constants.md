@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](fileinfo.resources.html)
+-   [« Типи ресурсів](fileinfo.resources.html)
     
 -   [Функции модуля Fileinfo »](ref.fileinfo.html)
     

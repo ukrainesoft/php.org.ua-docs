@@ -4,9 +4,9 @@
     
 -   [svnфсісdir »](function.svn-fs-is-dir.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.md)
     
 -   Повертає довжину файлу з цієї файлової системи
     

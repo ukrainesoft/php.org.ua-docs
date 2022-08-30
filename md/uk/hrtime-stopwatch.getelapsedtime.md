@@ -4,7 +4,7 @@
     
 -   [HRTimeStopWatch::getLastElapsedTicks »](hrtime-stopwatch.getlastelapsedticks.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [HRTimeStopWatch](class.hrtime-stopwatch.html)
     

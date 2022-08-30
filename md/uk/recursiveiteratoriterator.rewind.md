@@ -1,12 +1,12 @@
 Переміщує ітератор на перший елемент верхнього рівня вкладеності внутрішнього ітератора
 
--   [« RecursiveIteratorIterator::nextElement](recursiveiteratoriterator.nextelement.html)
+-   [« RecursiveIteratorIterator::nextElement](recursiveiteratoriterator.nextelement.md)
     
--   [RecursiveIteratorIterator::setMaxDepth »](recursiveiteratoriterator.setmaxdepth.html)
+-   [RecursiveIteratorIterator::setMaxDepth »](recursiveiteratoriterator.setmaxdepth.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
     
 -   Переміщує ітератор на перший елемент верхнього рівня вкладеності внутрішнього ітератора
     

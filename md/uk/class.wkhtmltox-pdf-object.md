@@ -4,9 +4,9 @@
     
 -   [wkhtmltoxPDFObject::construct »](wkhtmltox-pdf-object.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [wkhtmltox](book.wkhtmltox.html)
+-   [wkhtmltox](book.wkhtmltox.md)
     
 -   Клас wkhtmltoxPDFObject
     

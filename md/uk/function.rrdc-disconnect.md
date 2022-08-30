@@ -2,11 +2,11 @@
 
 -   [« rrdxport](function.rrd-xport.html)
     
--   [RRDCreator »](class.rrdcreator.html)
+-   [RRDCreator »](class.rrdcreator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.md)
     
 -   Закрити будь-які незавершені підключення до демона кешування rrd
     

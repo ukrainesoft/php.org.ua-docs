@@ -14,10 +14,10 @@ Igbinary
 # Igbinary
 
 -   [Введение](intro.igbinary.html)
--   [Установка и настройка](igbinary.setup.html)
-    -   [Требования](igbinary.requirements.html)
+-   [Встановлення та налаштування](igbinary.setup.html)
+    -   [Вимоги](igbinary.requirements.html)
     -   [Установка](igbinary.installation.html)
-    -   [Настройка во время выполнения](igbinary.configuration.html)
+    -   [Налаштування під час виконання](igbinary.configuration.html)
 -   [Функции Igbinary](ref.igbinary.html)
     -   [igbinaryserialize](function.igbinary-serialize.html) — Створює компактне, двійкове уявлення, що зберігається.
     -   [igbinaryunserialize](function.igbinary-unserialize.html) — Створює значення PHP із збереженого уявлення функцією igbinaryserialize

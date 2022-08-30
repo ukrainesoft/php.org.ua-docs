@@ -1,12 +1,12 @@
 Отримує інформацію про сервер Solr
 
--   [« SolrClient::setServlet](solrclient.setservlet.html)
+-   [« SolrClient::setServlet](solrclient.setservlet.md)
     
--   [SolrClient::threads »](solrclient.threads.html)
+-   [SolrClient::threads »](solrclient.threads.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrClient](class.solrclient.html)
+-   [SolrClient](class.solrclient.md)
     
 -   Отримує інформацію про сервер Solr
     
@@ -31,10 +31,10 @@ public SolrClient::system(): void
 
 ### Значення, що повертаються
 
-Повертає об'єкт [SolrGenericResponse](class.solrgenericresponse.html) у разі успішного виконання.
+Повертає об'єкт [SolrGenericResponse](class.solrgenericresponse.md) у разі успішного виконання.
 
 ### Помилки
 
-Викидає [SolrClientException](class.solrclientexception.html)якщо клієнт відмовив або виникла проблема з підключенням.
+Викидає [SolrClientException](class.solrclientexception.md)якщо клієнт відмовив або виникла проблема з підключенням.
 
-Викидає [SolrServerException](class.solrserverexception.html)якщо сервер Solr не зміг обробити запит.
+Викидає [SolrServerException](class.solrserverexception.md)якщо сервер Solr не зміг обробити запит.

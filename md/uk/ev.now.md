@@ -1,12 +1,12 @@
 Отримати час запуску останньої ітерації циклу за замовчуванням
 
--   [« Ev::iteration](ev.iteration.html)
+-   [« Ev::iteration](ev.iteration.md)
     
--   [Ev::nowUpdate »](ev.nowupdate.html)
+-   [Ev::nowUpdate »](ev.nowupdate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Єв](class.ev.html)
+-   [Єв](class.ev.md)
     
 -   Отримати час запуску останньої ітерації циклу за замовчуванням
     
@@ -26,7 +26,7 @@ final
    Ev::now(): float
 ```
 
-Повертає час запуску останньої ітерації циклу за замовчуванням. Це час, на якому базуються таймери ( [EvTimer](class.evtimer.html) і [EvPeriodic](class.evperiodic.html)) і, зазвичай, звернення до цієї функції відбувається швидше, ніж виклик [Ev::time()](ev.time.html)
+Повертає час запуску останньої ітерації циклу за замовчуванням. Це час, на якому базуються таймери ( [EvTimer](class.evtimer.md) і [EvPeriodic](class.evperiodic.md)) і, зазвичай, звернення до цієї функції відбувається швидше, ніж виклик [Ev::time()](ev.time.md)
 
 ### Список параметрів
 
@@ -38,4 +38,4 @@ final
 
 ### Дивіться також
 
--   [Ev::nowUpdate()](ev.nowupdate.html) - Встановлює поточний час шляхом запиту до ядра в процесі оновлюючи час, який повертається Ev::now
+-   [Ev::nowUpdate()](ev.nowupdate.md) - Встановлює поточний час шляхом запиту до ядра в процесі оновлюючи час, який повертається Ev::now

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](lzf.setup.html)
+-   [« Встановлення та налаштування](lzf.setup.md)
     
--   [Установка »](lzf.installation.html)
+-   [Установка »](lzf.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](lzf.setup.html)
+-   [Встановлення та налаштування](lzf.setup.md)
     
 -   Вимоги
     

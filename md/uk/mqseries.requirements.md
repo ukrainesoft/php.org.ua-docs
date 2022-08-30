@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](mqseries.setup.html)
+-   [« Встановлення та налаштування](mqseries.setup.md)
     
--   [Установка »](mqseries.configure.html)
+-   [Установка »](mqseries.configure.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mqseries.setup.html)
+-   [Встановлення та налаштування](mqseries.setup.md)
     
 -   Вимоги
     

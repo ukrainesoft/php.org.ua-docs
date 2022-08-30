@@ -1,12 +1,12 @@
 Додати відро (bucket) до бригади (brigade)
 
--   [« Функції для роботи з потоками](ref.stream.html)
+-   [« Функції для роботи з потоками](ref.stream.md)
     
 -   [streambucketmakewriteable »](function.stream-bucket-make-writeable.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.md)
     
 -   Додати відро (bucket) до бригади (brigade)
     

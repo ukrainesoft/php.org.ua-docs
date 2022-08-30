@@ -1,12 +1,12 @@
 For Each
 
--   [« Примеры](com.examples.html)
+-   [« Приклади](com.examples.html)
     
 -   [Масиви та властивості COM у стилі масивів »](com.examples.arrays.html)
     
 -   [PHP Manual](index.html)
     
--   [Примеры](com.examples.html)
+-   [Приклади](com.examples.html)
     
 -   For Each
     

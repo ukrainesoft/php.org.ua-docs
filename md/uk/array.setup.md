@@ -2,11 +2,11 @@
 
 -   [« Введение](intro.array.html)
     
--   [Требования »](array.requirements.html)
+-   [Вимоги »](array.requirements.html)
     
 -   [PHP Manual](index.html)
     
--   [Массивы](book.array.html)
+-   [Масиви](book.array.html)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](array.requirements.html)
+-   [Вимоги](array.requirements.html)
 -   [Установка](array.installation.html)
--   [Настройка во время выполнения](array.configuration.html)
--   [Типы ресурсов](array.resources.html)
+-   [Налаштування під час виконання](array.configuration.html)
+-   [Типи ресурсів](array.resources.html)

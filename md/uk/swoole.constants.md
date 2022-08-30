@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](swoole.resources.html)
+-   [« Типи ресурсів](swoole.resources.html)
     
 -   [Функции Swoole »](ref.swoole-funcs.html)
     

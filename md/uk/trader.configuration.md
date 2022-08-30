@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](trader.installation.html)
+-   [« Установка](trader.installation.md)
     
--   [Предопределённые константы »](trader.constants.html)
+-   [Обумовлені константи »](trader.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](trader.setup.html)
+-   [Встановлення та налаштування](trader.setup.md)
     
 -   Налаштування під час виконання
     
@@ -17,10 +17,10 @@
 
 **Опції налаштування Trader**
 
-| Имя                                                                          | По умолчанию | Место изменения | Список изменений      |
-|------------------------------------------------------------------------------|--------------|-----------------|-----------------------|
-| [trader.realprecision](trader.configuration.html#ini.trader.real-precision)  |              | PHPINIALL       | З версії trader 0.2.1 |
-| [trader.realroundmode](trader.configuration.html#ini.trader.real-round-mode) | HALFDOWN     | PHPINIALL       | З версії trader 0.3.0 |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [trader.realprecision](trader.configuration.html#ini.trader.real-precision) |  | PHPINIALL | З версії trader 0.2.1 |
+| [trader.realroundmode](trader.configuration.html#ini.trader.real-round-mode) | HALFDOWN | PHPINIALL | З версії trader 0.3.0 |
 
 Коротке пояснення конфігураційних директив.
 
@@ -30,4 +30,4 @@
 
 `trader.real_round_mode` string
 
-Контролює реальну політику округлення trader. Допустимі значення: `HALF_UP` `HALF_DOWN` `HALF_EVEN` і `HALF_ODD`. Поведінка ідентична функції [round()](function.round.html), що використовується з аргументом mode.
+Контролює реальну політику округлення trader. Допустимі значення: `HALF_UP` `HALF_DOWN` `HALF_EVEN` і `HALF_ODD`. Поведінка ідентична функції [round()](function.round.md), що використовується з аргументом mode.

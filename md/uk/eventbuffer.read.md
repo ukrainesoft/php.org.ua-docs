@@ -1,12 +1,12 @@
 Читає дані з evbuffer та виснажує прочитані байти
 
--   [« EventBuffer::pullup](eventbuffer.pullup.html)
+-   [« EventBuffer::pullup](eventbuffer.pullup.md)
     
--   [EventBuffer::readFrom »](eventbuffer.readfrom.html)
+-   [EventBuffer::readFrom »](eventbuffer.readfrom.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBuffer](class.eventbuffer.html)
+-   [EventBuffer](class.eventbuffer.md)
     
 -   Читає дані з evbuffer та виснажує прочитані байти
     
@@ -41,14 +41,14 @@ public
 
 ### список змін
 
-| Версия           | Описание                                                                                                                                                                                      |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL event 1.6.0 | Перейменований з **EventBuffer::read()** (старе ім'я методу) **EventBuffer::read()**. . **EventBuffer::read()** тепер приймає лише аргумент `max_bytes`; повертає рядок замість цілого числа. |
 
 ### Дивіться також
 
--   [EventBuffer::copyout()](eventbuffer.copyout.html) - Копіює вказану кількість байтів з початку буфера
--   [EventBuffer::drain()](eventbuffer.drain.html) - Видаляє вказану кількість байтів з початку буфера, нікуди не копіюючи
--   [EventBuffer::pullup()](eventbuffer.pullup.html) - Лінеаризує дані в буфері та повертає їх вміст у вигляді рядка
--   [EventBuffer::readLine()](eventbuffer.readline.html) - Витягує рядок із початку буфера
--   [EventBuffer::appendFrom()](eventbuffer.appendfrom.html) - Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера
+-   [EventBuffer::copyout()](eventbuffer.copyout.md) - Копіює вказану кількість байтів з початку буфера
+-   [EventBuffer::drain()](eventbuffer.drain.md) - Видаляє вказану кількість байтів з початку буфера, нікуди не копіюючи
+-   [EventBuffer::pullup()](eventbuffer.pullup.md) - Лінеаризує дані в буфері та повертає їх вміст у вигляді рядка
+-   [EventBuffer::readLine()](eventbuffer.readline.md) - Витягує рядок із початку буфера
+-   [EventBuffer::appendFrom()](eventbuffer.appendfrom.md) - Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера

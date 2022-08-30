@@ -1,12 +1,12 @@
 Функції запуску програм
 
--   [« Предопределённые константы](exec.constants.html)
+-   [« Обумовлені константи](exec.constants.html)
     
 -   [escapeshellarg »](function.escapeshellarg.html)
     
 -   [PHP Manual](index.html)
     
--   [Запуск программы](book.exec.html)
+-   [Запуск програми](book.exec.html)
     
 -   Функції запуску програм
     
@@ -21,7 +21,7 @@
 
 ## Дивіться також
 
-Ці функції також тісно пов'язані з оператором [обратные кавычки (](language.operators.execution.html)
+Ці функції також тісно пов'язані з оператором [зворотні лапки (](language.operators.execution.html)
 
 ## Зміст
 

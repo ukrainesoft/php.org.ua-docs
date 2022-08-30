@@ -1,12 +1,12 @@
 Асоціює дані з об'єктом у контейнері
 
--   [« SplObjectStorage::offsetGet](splobjectstorage.offsetget.html)
+-   [« SplObjectStorage::offsetGet](splobjectstorage.offsetget.md)
     
--   [SplObjectStorage::offsetUnset »](splobjectstorage.offsetunset.html)
+-   [SplObjectStorage::offsetUnset »](splobjectstorage.offsetunset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplObjectStorage](class.splobjectstorage.html)
+-   [SplObjectStorage](class.splobjectstorage.md)
     
 -   Асоціює дані з об'єктом у контейнері
     
@@ -27,7 +27,7 @@ public SplObjectStorage::offsetSet(object $object, mixed $info = null): void
 
 > **Зауваження**
 > 
-> **SplObjectStorage::offsetSet()** є псевдонімом методу [SplObjectStorage::attach()](splobjectstorage.attach.html)
+> **SplObjectStorage::offsetSet()** є псевдонімом методу [SplObjectStorage::attach()](splobjectstorage.attach.md)
 
 ### Список параметрів
 
@@ -67,7 +67,7 @@ string(5) "hello"
 
 ### Дивіться також
 
--   [SplObjectStorage::attach()](splobjectstorage.attach.html) - Додає об'єкт у контейнер
--   [SplObjectStorage::offsetGet()](splobjectstorage.offsetget.html) - Повертає дані, асоційовані з об'єктом object
--   [SplObjectStorage::offsetExists()](splobjectstorage.offsetexists.html) - Перевіряє, чи існує об'єкт у контейнері
--   [SplObjectStorage::offsetUnset()](splobjectstorage.offsetunset.html) - Видаляє об'єкт із контейнера
+-   [SplObjectStorage::attach()](splobjectstorage.attach.md) - Додає об'єкт у контейнер
+-   [SplObjectStorage::offsetGet()](splobjectstorage.offsetget.md) - Повертає дані, асоційовані з об'єктом object
+-   [SplObjectStorage::offsetExists()](splobjectstorage.offsetexists.md) - Перевіряє, чи існує об'єкт у контейнері
+-   [SplObjectStorage::offsetUnset()](splobjectstorage.offsetunset.md) - Видаляє об'єкт із контейнера

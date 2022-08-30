@@ -1,12 +1,12 @@
 Надсилання даних завдання (застарілий метод)
 
--   [« GearmanTask::returnCode](gearmantask.returncode.html)
+-   [« GearmanTask::returnCode](gearmantask.returncode.md)
     
--   [GearmanTask::sendWorkload »](gearmantask.sendworkload.html)
+-   [GearmanTask::sendWorkload »](gearmantask.sendworkload.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanTask](class.gearmantask.html)
+-   [GearmanTask](class.gearmantask.md)
     
 -   Надсилання даних завдання (застарілий метод)
     
@@ -39,4 +39,4 @@ public GearmanTask::sendData(string $data): int
 
 ### Дивіться також
 
--   [GearmanTask::recvData()](gearmantask.recvdata.html) - Читання даних роботи чи результату завдання у буфер
+-   [GearmanTask::recvData()](gearmantask.recvdata.md) - Читання даних роботи чи результату завдання у буфер

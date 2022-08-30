@@ -1,12 +1,12 @@
 Перевіряє, чи є атрибут певним ідентифікатором
 
--   [« DOMAttr::construct](domattr.construct.html)
+-   [« DOMAttr::construct](domattr.construct.md)
     
--   [DOMCdataSection »](class.domcdatasection.html)
+-   [DOMCdataSection »](class.domcdatasection.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMAttr](class.domattr.html)
+-   [DOMAttr](class.domattr.md)
     
 -   Перевіряє, чи є атрибут певним ідентифікатором
     
@@ -25,7 +25,7 @@ public DOMAttr::isId(): bool
 
 Ця функція перевіряє, чи є певним ідентифікатором.
 
-Відповідно до стандарту DOM для цього потрібний DTD, який визначає ідентифікатор атрибута бути ідентифікатором типу. Перед використанням цієї функції необхідно перевіряти документ на дійсність за допомогою [DOMDocument::validate](domdocument.validate.html) або `DOMDocument::validateOnParse`
+Відповідно до стандарту DOM для цього потрібний DTD, який визначає ідентифікатор атрибута бути ідентифікатором типу. Перед використанням цієї функції необхідно перевіряти документ на дійсність за допомогою [DOMDocument::validate](domdocument.validate.md) або `DOMDocument::validateOnParse`
 
 ### Список параметрів
 

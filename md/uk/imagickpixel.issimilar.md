@@ -1,12 +1,12 @@
 Перевірити різницю між цим кольором та іншим
 
--   [« ImagickPixel::isPixelSimilarQuantum](imagickpixel.ispixelsimilarquantum.html)
+-   [« ImagickPixel::isPixelSimilarQuantum](imagickpixel.ispixelsimilarquantum.md)
     
--   [ImagickPixel::setColor »](imagickpixel.setcolor.html)
+-   [ImagickPixel::setColor »](imagickpixel.setcolor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickPixel](class.imagickpixel.html)
+-   [ImagickPixel](class.imagickpixel.md)
     
 -   Перевірити різницю між цим кольором та іншим
     
@@ -27,7 +27,7 @@ public ImagickPixel::isSimilar(ImagickPixel $color, float $fuzz): bool
 
 На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Перевіряється різниця кольору, описаного поточним об'єктом ImagickPixel та кольору в переданому об'єкті, шляхом побудови їх RGB значень у колірному кубі. Якщо різниця між ними менша за передане fuzz-значення, то кольори вважаються однаковими. Застарів на користь [ImagickPixel::isPixelSimilar()](imagickpixel.ispixelsimilar.html)
+Перевіряється різниця кольору, описаного поточним об'єктом ImagickPixel та кольору в переданому об'єкті, шляхом побудови їх RGB значень у колірному кубі. Якщо різниця між ними менша за передане fuzz-значення, то кольори вважаються однаковими. Застарів на користь [ImagickPixel::isPixelSimilar()](imagickpixel.ispixelsimilar.md)
 
 ### Список параметрів
 

@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.imagick.html)
     
--   [Требования »](imagick.requirements.html)
+-   [Вимоги »](imagick.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](imagick.requirements.html)
+-   [Вимоги](imagick.requirements.html)
 -   [Установка](imagick.installation.html)
--   [Настройка во время выполнения](imagick.configuration.html)
--   [Типы ресурсов](imagick.resources.html)
+-   [Налаштування під час виконання](imagick.configuration.html)
+-   [Типи ресурсів](imagick.resources.html)

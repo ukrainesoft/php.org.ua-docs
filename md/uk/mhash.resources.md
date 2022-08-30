@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](mhash.configuration.html)
+-   [« Налаштування під час виконання](mhash.configuration.md)
     
--   [Предопределённые константы »](mhash.constants.html)
+-   [Обумовлені константи »](mhash.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mhash.setup.html)
+-   [Встановлення та налаштування](mhash.setup.md)
     
 -   Типи ресурсів
     

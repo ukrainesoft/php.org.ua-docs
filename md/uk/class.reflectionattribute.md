@@ -1,12 +1,12 @@
 Клас ReflectionAttribute
 
--   [« ReflectionReference::getId](reflectionreference.getid.html)
+-   [« ReflectionReference::getId](reflectionreference.getid.md)
     
--   [ReflectionAttribute::construct »](reflectionattribute.construct.html)
+-   [ReflectionAttribute::construct »](reflectionattribute.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Reflection](book.reflection.html)
+-   [Reflection](book.reflection.md)
     
 -   Клас ReflectionAttribute
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Клас **ReflectionAttribute** надає інформацію про [Атрибутах](language.attributes.html)
+Клас **ReflectionAttribute** надає інформацію про [Атрибутах](language.attributes.md)
 
 ## Огляд класів
 
@@ -68,9 +68,9 @@ public newInstance(): object
 
 ## Зміст
 
--   [ReflectionAttribute::construct](reflectionattribute.construct.html) — Закритий конструктор, який забороняє створення об'єкта безпосередньо
--   [ReflectionAttribute::getArguments](reflectionattribute.getarguments.html) — Повертає аргументи, передані атрибуту
--   [ReflectionAttribute::getName](reflectionattribute.getname.html) - Повертає ім'я атрибута
--   [ReflectionAttribute::getTarget](reflectionattribute.gettarget.html) — Повертає мету атрибуту у вигляді бітової маски
--   [ReflectionAttribute::isRepeated](reflectionattribute.isrepeated.html) — Перевіряє, чи атрибут може вказуватися багаторазово в елементі коду
--   [ReflectionAttribute::newInstance](reflectionattribute.newinstance.html) — Створює екземпляр класу атрибута, представленого цим класом ReflectionAttribute та аргументами
+-   [ReflectionAttribute::construct](reflectionattribute.construct.md) — Закритий конструктор, який забороняє створення об'єкта безпосередньо
+-   [ReflectionAttribute::getArguments](reflectionattribute.getarguments.md) — Повертає аргументи, передані атрибуту
+-   [ReflectionAttribute::getName](reflectionattribute.getname.md) - Повертає ім'я атрибута
+-   [ReflectionAttribute::getTarget](reflectionattribute.gettarget.md) — Повертає мету атрибуту у вигляді бітової маски
+-   [ReflectionAttribute::isRepeated](reflectionattribute.isrepeated.md) — Перевіряє, чи атрибут може вказуватися багаторазово в елементі коду
+-   [ReflectionAttribute::newInstance](reflectionattribute.newinstance.md) — Створює екземпляр класу атрибута, представленого цим класом ReflectionAttribute та аргументами

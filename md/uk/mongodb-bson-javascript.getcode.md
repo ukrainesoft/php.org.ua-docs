@@ -56,4 +56,4 @@ string(33) "function foo(bar) { return bar; }"
 
 ### Дивіться також
 
--   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

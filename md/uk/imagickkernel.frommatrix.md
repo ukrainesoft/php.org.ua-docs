@@ -1,12 +1,12 @@
 Опис
 
--   [« ImagickKernel::fromBuiltIn](imagickkernel.frombuiltin.html)
+-   [« ImagickKernel::fromBuiltIn](imagickkernel.frombuiltin.md)
     
--   [ImagickKernel::getMatrix »](imagickkernel.getmatrix.html)
+-   [ImagickKernel::getMatrix »](imagickkernel.getmatrix.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickKernel](class.imagickkernel.html)
+-   [ImagickKernel](class.imagickkernel.md)
     
 -   Опис
     

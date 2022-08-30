@@ -4,7 +4,7 @@
     
 -   [ОЙControlsBox::getOrientation »](ui-controls-box.getorientation.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsBox](class.ui-controls-box.html)
     

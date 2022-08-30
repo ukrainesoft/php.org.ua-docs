@@ -1,12 +1,12 @@
 Перетворює зображення на новий колірний простір
 
--   [« Imagick::transformImage](imagick.transformimage.html)
+-   [« Imagick::transformImage](imagick.transformimage.md)
     
--   [Imagick::transparentPaintImage »](imagick.transparentpaintimage.html)
+-   [Imagick::transparentPaintImage »](imagick.transparentpaintimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Перетворює зображення на новий колірний простір
     
@@ -56,4 +56,4 @@ function transformImageColorspace($imagePath, $colorSpace, $channel) {
 
 ### Дивіться також
 
--   [Imagick::setColorSpace()](imagick.setcolorspace.html) - Встановлює колірний простір
+-   [Imagick::setColorSpace()](imagick.setcolorspace.md) - Встановлює колірний простір

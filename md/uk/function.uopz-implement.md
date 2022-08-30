@@ -4,9 +4,9 @@
     
 -   [uopzoverload »](function.uopz-overload.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.md)
     
 -   Реалізує інтерфейс під час виконання
     
@@ -37,7 +37,7 @@ uopz_implement(string $class, string $interface): bool
 
 ### Помилки
 
-Починаючи з PHP 7.4.0, **uopzimplements()** викидає [RuntimeException](class.runtimeexception.html), якщо [OPcache](book.opcache.html) включено і запис класу `class` незмінна.
+Починаючи з PHP 7.4.0, **uopzimplements()** викидає [RuntimeException](class.runtimeexception.md), якщо [OPcache](book.opcache.md) включено і запис класу `class` незмінна.
 
 ### Приклади
 

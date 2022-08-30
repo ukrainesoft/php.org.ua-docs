@@ -1,12 +1,12 @@
 Перевіряє, чи є клас анонімним
 
--   [« ReflectionClass::isAbstract](reflectionclass.isabstract.html)
+-   [« ReflectionClass::isAbstract](reflectionclass.isabstract.md)
     
--   [ReflectionClass::isCloneable »](reflectionclass.iscloneable.html)
+-   [ReflectionClass::isCloneable »](reflectionclass.iscloneable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Перевіряє, чи є клас анонімним
     
@@ -60,4 +60,4 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionClass::isFinal()](reflectionclass.isfinal.html) - Перевіряє, чи є клас остаточним (final)
+-   [ReflectionClass::isFinal()](reflectionclass.isfinal.md) - Перевіряє, чи є клас остаточним (final)

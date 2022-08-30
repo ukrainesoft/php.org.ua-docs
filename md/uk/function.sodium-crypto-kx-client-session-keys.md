@@ -4,9 +4,9 @@
     
 -   [sodiumcryptoкксkeypair »](function.sodium-crypto-kx-keypair.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Обчислює ключі сесії на стороні клієнта
     

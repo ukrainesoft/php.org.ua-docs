@@ -1,12 +1,12 @@
 Встановлює значення символу
 
--   [« NumberFormatter::setPattern](numberformatter.setpattern.html)
+-   [« NumberFormatter::setPattern](numberformatter.setpattern.md)
     
--   [NumberFormatter::setTextAttribute »](numberformatter.settextattribute.html)
+-   [NumberFormatter::setTextAttribute »](numberformatter.settextattribute.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [NumberFormatter](class.numberformatter.html)
+-   [NumberFormatter](class.numberformatter.md)
     
 -   Встановлює значення символу
     
@@ -39,7 +39,7 @@ numfmt_set_symbol(NumberFormatter $formatter, int $symbol, string $value): bool
 
 `formatter`
 
-Об'єкт [NumberFormatter](class.numberformatter.html)
+Об'єкт [NumberFormatter](class.numberformatter.md)
 
 `symbol`
 
@@ -92,5 +92,5 @@ echo $fmt->format(1234567.891234567890000)."\n";
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmtgetsymbol()](numberformatter.getsymbol.html) - Отримує значення символу
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
+-   [numfmtgetsymbol()](numberformatter.getsymbol.md) - Отримує значення символу

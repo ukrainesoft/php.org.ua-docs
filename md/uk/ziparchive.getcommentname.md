@@ -1,12 +1,12 @@
 Повертає коментар елемента, використовуючи його ім'я
 
--   [« ZipArchive::getCommentIndex](ziparchive.getcommentindex.html)
+-   [« ZipArchive::getCommentIndex](ziparchive.getcommentindex.md)
     
--   [ZipArchive::getExternalAttributesIndex »](ziparchive.getexternalattributesindex.html)
+-   [ZipArchive::getExternalAttributesIndex »](ziparchive.getexternalattributesindex.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Повертає коментар елемента, використовуючи його ім'я
     

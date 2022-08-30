@@ -1,12 +1,12 @@
 Встановлює callback-функцію за промовчанням для обробки запитів, які не перехоплюються конкретними callback-функціями
 
--   [« EventHttp::setCallback](eventhttp.setcallback.html)
+-   [« EventHttp::setCallback](eventhttp.setcallback.md)
     
--   [EventHttp::setMaxBodySize »](eventhttp.setmaxbodysize.html)
+-   [EventHttp::setMaxBodySize »](eventhttp.setmaxbodysize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttp](class.eventhttp.html)
+-   [EventHttp](class.eventhttp.md)
     
 -   Встановлює callback-функцію за промовчанням для обробки запитів, які не перехоплюються конкретними callback-функціями
     
@@ -36,7 +36,7 @@ public
 
 `cb`
 
-Callback-функція [callable](language.types.callable.html). Повинна відповідати наступному прототипу:
+Callback-функція [callable](language.types.callable.md). Повинна відповідати наступному прототипу:
 
 ```methodsynopsis
 callback(
@@ -52,7 +52,7 @@ callback(
 
 `req`
 
-Об'єкт [EventHttpRequest](class.eventhttprequest.html)
+Об'єкт [EventHttpRequest](class.eventhttprequest.md)
 
 `arg`
 
@@ -92,4 +92,4 @@ $base->dispatch();
 
 ### Дивіться також
 
--   [EventHttp::setCallback()](eventhttp.setcallback.html) - Встановлює callback-функцію для зазначеного URI
+-   [EventHttp::setCallback()](eventhttp.setcallback.md) - Встановлює callback-функцію для зазначеного URI

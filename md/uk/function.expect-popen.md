@@ -2,11 +2,11 @@
 
 -   [« expectexpectl](function.expect-expectl.html)
     
--   [PCNTL »](book.pcntl.html)
+-   [PCNTL »](book.pcntl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Expect](ref.expect.html)
+-   [Функции Expect](ref.expect.md)
     
 -   Запускає команду через командну оболонку Bourne та відкриває для процесу потік PTY
     
@@ -53,4 +53,4 @@ fclose ($stream);
 
 ### Дивіться також
 
--   [popen()](function.popen.html) - Відкриває файловий покажчик процесу
+-   [popen()](function.popen.md) - Відкриває файловий покажчик процесу

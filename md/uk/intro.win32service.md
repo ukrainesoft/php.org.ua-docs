@@ -2,7 +2,7 @@
 
 -   [« win32service](book.win32service.html)
     
--   [Установка и настройка »](win32service.setup.html)
+-   [Встановлення та налаштування »](win32service.setup.html)
     
 -   [PHP Manual](index.html)
     

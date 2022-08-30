@@ -1,12 +1,12 @@
 Вступ
 
--   [« PostgreSQL](book.pgsql.html)
+-   [« PostgreSQL](book.pgsql.md)
     
--   [Установка и настройка »](pgsql.setup.html)
+-   [Встановлення та налаштування »](pgsql.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PostgreSQL](book.pgsql.html)
+-   [PostgreSQL](book.pgsql.md)
     
 -   Вступ
     

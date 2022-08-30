@@ -1,17 +1,17 @@
 Клас ImagickDraw
 
--   [« Imagick::writeImagesFile](imagick.writeimagesfile.html)
+-   [« Imagick::writeImagesFile](imagick.writeimagesfile.md)
     
--   [ImagickDraw::affine »](imagickdraw.affine.html)
+-   [ImagickDraw::affine »](imagickdraw.affine.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImageMagick](book.imagick.html)
+-   [ImageMagick](book.imagick.md)
     
 -   Клас ImagickDraw
     
 
-# Клас [ImagickDraw](class.imagickdraw.html)
+# Клас [ImagickDraw](class.imagickdraw.md)
 
 (PECL imagick 2, PECL imagick 3)
 
@@ -153,127 +153,127 @@ public translate(float $x, float $y): bool
 
 ## Зміст
 
--   [ImagickDraw::affine](imagickdraw.affine.html) - Регулює поточну матрицю афінного перетворення
--   [ImagickDraw::annotation](imagickdraw.annotation.html) — Малює текст на зображенні
--   [ImagickDraw::arc](imagickdraw.arc.html) — Малює дугу
--   [ImagickDraw::bezier](imagickdraw.bezier.html) — Малює криву Безьє
--   [ImagickDraw::circle](imagickdraw.circle.html) — Малює коло
--   [ImagickDraw::clear](imagickdraw.clear.html) - Очищає ImagickDraw
--   [ImagickDraw::clone](imagickdraw.clone.html) — Робить точну копію вказаного об'єкту ImagickDraw
--   [ImagickDraw::color](imagickdraw.color.html) — Малює колір на зображенні
--   [ImagickDraw::comment](imagickdraw.comment.html) — Додає коментар
--   [ImagickDraw::composite](imagickdraw.composite.html) — Накладає зображення на поточне зображення
--   [ImagickDraw::construct](imagickdraw.construct.html) - Конструктор класу ImagickDraw
--   [ImagickDraw::destroy](imagickdraw.destroy.html) — Звільняє усі пов'язані ресурси
--   [ImagickDraw::ellipse](imagickdraw.ellipse.html) — Малює на зображенні еліпс
--   [ImagickDraw::getClipPath](imagickdraw.getclippath.html) — Повертає ідентифікатор поточного відсічного контуру
--   [ImagickDraw::getClipRule](imagickdraw.getcliprule.html) — Повертає поточне правило заливання багатокутника
--   [ImagickDraw::getClipUnits](imagickdraw.getclipunits.html) — Повертає інтерпретацію одиниць відсічного контуру
--   [ImagickDraw::getFillColor](imagickdraw.getfillcolor.html) - Повертає колір заливки
--   [ImagickDraw::getFillOpacity](imagickdraw.getfillopacity.html) — Повертає непрозорість, яка використовується при малюванні.
--   [ImagickDraw::getFillRule](imagickdraw.getfillrule.html) — Повертає правило заливання
--   [ImagickDraw::getFont](imagickdraw.getfont.html) - Повертає шрифт
--   [ImagickDraw::getFontFamily](imagickdraw.getfontfamily.html) — Повертає сімейство шрифтів
--   [ImagickDraw::getFontSize](imagickdraw.getfontsize.html) — Повертає розмір шрифту
--   [ImagickDraw::getFontStretch](imagickdraw.getfontstretch.html) - Опис
--   [ImagickDraw::getFontStyle](imagickdraw.getfontstyle.html) — Повертає стиль шрифту
--   [ImagickDraw::getFontWeight](imagickdraw.getfontweight.html) — Повертає товщину шрифту
--   [ImagickDraw::getGravity](imagickdraw.getgravity.html) — Повертає гравітацію розміщення тексту
--   [ImagickDraw::getStrokeAntialias](imagickdraw.getstrokeantialias.html) — Повертає поточне налаштування згладжування обведення
--   [ImagickDraw::getStrokeColor](imagickdraw.getstrokecolor.html) — Повертає колір для обведення контурів об'єкта.
--   [ImagickDraw::getStrokeDashArray](imagickdraw.getstrokedasharray.html) — Повертає масив, що представляє патерн із штрихів та пробілів, які використовуються для обведення контурів.
--   [ImagickDraw::getStrokeDashOffset](imagickdraw.getstrokedashoffset.html) — Повертає зміщення у штриховому патерні для початку штрихування
--   [ImagickDraw::getStrokeLineCap](imagickdraw.getstrokelinecap.html) — Повертає форму, яка використовуватиметься наприкінці відкритих внутрішніх контурів під час їх обведення
--   [ImagickDraw::getStrokeLineJoin](imagickdraw.getstrokelinejoin.html) — Повертає форму, яка використовуватиметься в кутах контурів під час їх обведення
--   [ImagickDraw::getStrokeMiterLimit](imagickdraw.getstrokemiterlimit.html) — Повертає межу зрізу обведення
--   [ImagickDraw::getStrokeOpacity](imagickdraw.getstrokeopacity.html) — Повертає непрозорість обведених контурів об'єкту
--   [ImagickDraw::getStrokeWidth](imagickdraw.getstrokewidth.html) — Повертає ширину обведення, яка використовується для малювання контурів об'єкта.
--   [ImagickDraw::getTextAlignment](imagickdraw.gettextalignment.html) — Повертає вирівнювання тексту
--   [ImagickDraw::getTextAntialias](imagickdraw.gettextantialias.html) — Повертає поточне налаштування згладжування тексту
--   [ImagickDraw::getTextDecoration](imagickdraw.gettextdecoration.html) — Повертає оформлення тексту
--   [ImagickDraw::getTextEncoding](imagickdraw.gettextencoding.html) — Повертає кодовий набір для текстових анотацій.
--   [ImagickDraw::getTextInterlineSpacing](imagickdraw.gettextinterlinespacing.html) — Повертає міжрядковий інтервал тексту
--   [ImagickDraw::getTextInterwordSpacing](imagickdraw.gettextinterwordspacing.html) — Повертає міжмовний інтервал тексту
--   [ImagickDraw::getTextKerning](imagickdraw.gettextkerning.html) — Повертає міжлітерний інтервал тексту
--   [ImagickDraw::getTextUnderColor](imagickdraw.gettextundercolor.html) — Повертає колір під текстом
--   [ImagickDraw::getVectorGraphics](imagickdraw.getvectorgraphics.html) — Повертає рядок, що містить векторну графіку
--   [ImagickDraw::line](imagickdraw.line.html) — Малює лінію
--   [ImagickDraw::matte](imagickdraw.matte.html) — Зафарбовує канал непрозорості зображення
--   [ImagickDraw::pathClose](imagickdraw.pathclose.html) — Додає елемент шляху до поточного шляху
--   [ImagickDraw::pathCurveToAbsolute](imagickdraw.pathcurvetoabsolute.html) — Малює кубічну криву Безьє
--   [ImagickDraw::pathCurveToQuadraticBezierAbsolute](imagickdraw.pathcurvetoquadraticbezierabsolute.html) — Малює квадратичну криву Безьє
--   [ImagickDraw::pathCurveToQuadraticBezierRelative](imagickdraw.pathcurvetoquadraticbezierrelative.html) — Малює квадратичну криву Безьє
--   [ImagickDraw::pathCurveToQuadraticBezierSmoothAbsolute](imagickdraw.pathcurvetoquadraticbeziersmoothabsolute.html) — Малює квадратичну криву Безьє
--   [ImagickDraw::pathCurveToQuadraticBezierSmoothRelative](imagickdraw.pathcurvetoquadraticbeziersmoothrelative.html) — Малює квадратичну криву Безьє
--   [ImagickDraw::pathCurveToRelative](imagickdraw.pathcurvetorelative.html) — Малює кубічну криву Безьє
--   [ImagickDraw::pathCurveToSmoothAbsolute](imagickdraw.pathcurvetosmoothabsolute.html) — Малює кубічну криву Безьє
--   [ImagickDraw::pathCurveToSmoothRelative](imagickdraw.pathcurvetosmoothrelative.html) — Малює кубічну криву Безьє
--   [ImagickDraw::pathEllipticArcAbsolute](imagickdraw.pathellipticarcabsolute.html) — Малює еліптичну дугу
--   [ImagickDraw::pathEllipticArcRelative](imagickdraw.pathellipticarcrelative.html) — Малює еліптичну дугу
--   [ImagickDraw::pathFinish](imagickdraw.pathfinish.html) - Завершує поточний шлях
--   [ImagickDraw::pathLineToAbsolute](imagickdraw.pathlinetoabsolute.html) — Малює лінію
--   [ImagickDraw::pathLineToHorizontalAbsolute](imagickdraw.pathlinetohorizontalabsolute.html) — Малює горизонтальну лінію
--   [ImagickDraw::pathLineToHorizontalRelative](imagickdraw.pathlinetohorizontalrelative.html) — Малює горизонтальну лінію
--   [ImagickDraw::pathLineToRelative](imagickdraw.pathlinetorelative.html) — Малює лінію
--   [ImagickDraw::pathLineToVerticalAbsolute](imagickdraw.pathlinetoverticalabsolute.html) — Малює вертикальну лінію
--   [ImagickDraw::pathLineToVerticalRelative](imagickdraw.pathlinetoverticalrelative.html) — Малює вертикальну лінію
--   [ImagickDraw::pathMoveToAbsolute](imagickdraw.pathmovetoabsolute.html) — Починає новий внутрішній контур
--   [ImagickDraw::pathMoveToRelative](imagickdraw.pathmovetorelative.html) — Починає новий внутрішній контур
--   [ImagickDraw::pathStart](imagickdraw.pathstart.html) — Оголошує початок відображення контуру
--   [ImagickDraw::point](imagickdraw.point.html) — Малює крапку
--   [ImagickDraw::polygon](imagickdraw.polygon.html) — Малює багатокутник
--   [ImagickDraw::polyline](imagickdraw.polyline.html) — Малює ламану лінію
--   [ImagickDraw::pop](imagickdraw.pop.html) — Знищує поточний об'єкт ImagickDraw у стеку та повертається до раніше доданого об'єкту ImagickDraw
--   [ImagickDraw::popClipPath](imagickdraw.popclippath.html) — Завершує визначення шляху відсічного контуру
--   [ImagickDraw::popDefs](imagickdraw.popdefs.html) - Завершує список визначень
--   [ImagickDraw::popPattern](imagickdraw.poppattern.html) — Завершує визначення шаблону
--   [ImagickDraw::push](imagickdraw.push.html) — Клонує поточний об'єкт ImagickDraw і додає його до стек
--   [ImagickDraw::pushClipPath](imagickdraw.pushclippath.html) — Запускає визначення шляху відсічного контуру
--   [ImagickDraw::pushDefs](imagickdraw.pushdefs.html) - Вказує, що наступні команди створюють іменовані елементи для ранньої обробки
--   [ImagickDraw::pushPattern](imagickdraw.pushpattern.html) - Вказує, що наступні команди аж до ImagickDraw::opPattern() складають визначення іменованого патерну
--   [ImagickDraw::rectangle](imagickdraw.rectangle.html) — Малює прямокутник
--   [ImagickDraw::render](imagickdraw.render.html) — Малює всі попередні команди малювання на зображенні
--   [ImagickDraw::resetVectorGraphics](imagickdraw.resetvectorgraphics.html) — Скидає векторну графіку
--   [ImagickDraw::rotate](imagickdraw.rotate.html) — Застосовує зазначений поворот до поточного координатного простору
--   [ImagickDraw::roundRectangle](imagickdraw.roundrectangle.html) — Малює прямокутник із закругленими кутами.
--   [ImagickDraw::scale](imagickdraw.scale.html) - Регулює коефіцієнт масштабування
--   [ImagickDraw::setClipPath](imagickdraw.setclippath.html) — Зв'язує іменований контур відсічного контуру із зображенням
--   [ImagickDraw::setClipRule](imagickdraw.setcliprule.html) — Встановлює правило заливання багатокутника, яке використовуватиметься відсічний контур.
--   [ImagickDraw::setClipUnits](imagickdraw.setclipunits.html) — Встановлює інтерпретацію одиниць траєкторії відсічного контуру.
--   [ImagickDraw::setFillAlpha](imagickdraw.setfillalpha.html) — Встановлює непрозорість під час малювання за допомогою кольору або текстури заливки.
--   [ImagickDraw::setFillColor](imagickdraw.setfillcolor.html) — Встановлює колір заливки для малювання об'єктів із заливкою.
--   [ImagickDraw::setFillOpacity](imagickdraw.setfillopacity.html) — Встановлює непрозорість під час малювання за допомогою кольору або текстури заливки.
--   [ImagickDraw::setFillPatternURL](imagickdraw.setfillpatternurl.html) — Встановлює URL-адресу для використання як зразка заливки для заливки об'єктів
--   [ImagickDraw::setFillRule](imagickdraw.setfillrule.html) — Встановлює правило заливання для використання під час малювання полігонів.
--   [ImagickDraw::setFont](imagickdraw.setfont.html) — Встановлює вказаний шрифт для використання під час анотування текстом
--   [ImagickDraw::setFontFamily](imagickdraw.setfontfamily.html) — Встановлює сімейство шрифтів для використання під час анотування текстом
--   [ImagickDraw::setFontSize](imagickdraw.setfontsize.html) — Встановлює розмір шрифту для використання під час анотування текстом
--   [ImagickDraw::setFontStretch](imagickdraw.setfontstretch.html) — Встановлює розтягування шрифту для використання під час анотування текстом
--   [ImagickDraw::setFontStyle](imagickdraw.setfontstyle.html) — Встановлює стиль шрифту для використання під час анотування текстом
--   [ImagickDraw::setFontWeight](imagickdraw.setfontweight.html) — Встановлює товщину шрифту
--   [ImagickDraw::setGravity](imagickdraw.setgravity.html) - Встановлює гравітацію розміщення тексту
--   [ImagickDraw::setResolution](imagickdraw.setresolution.html) - Встановлює дозвіл
--   [ImagickDraw::setStrokeAlpha](imagickdraw.setstrokealpha.html) — Визначає непрозорість обведення контурів об'єкта
--   [ImagickDraw::setStrokeAntialias](imagickdraw.setstrokeantialias.html) — Керує згладжуванням обведення контурів
--   [ImagickDraw::setStrokeColor](imagickdraw.setstrokecolor.html) — Встановлює колір для обведення контурів об'єкта.
--   [ImagickDraw::setStrokeDashArray](imagickdraw.setstrokedasharray.html) — Задає патерн із штрихів та пробілів, які використовуються для обведення контурів.
--   [ImagickDraw::setStrokeDashOffset](imagickdraw.setstrokedashoffset.html) — Задає зміщення у штриховому патерні для початку штрихування
--   [ImagickDraw::setStrokeLineCap](imagickdraw.setstrokelinecap.html) — Задає форму, яка використовуватиметься наприкінці відкритих внутрішніх контурів під час їх обведення
--   [ImagickDraw::setStrokeLineJoin](imagickdraw.setstrokelinejoin.html) — Задає форму, яка використовуватиметься в кутах контурів під час їх обведення
--   [ImagickDraw::setStrokeMiterLimit](imagickdraw.setstrokemiterlimit.html) - Задає межу зрізу обведення
--   [ImagickDraw::setStrokeOpacity](imagickdraw.setstrokeopacity.html) — Визначає непрозорість обведення контурів об'єкта
--   [ImagickDraw::setStrokePatternURL](imagickdraw.setstrokepatternurl.html) — Встановлює патерн для обведення контурів об'єкта.
--   [ImagickDraw::setStrokeWidth](imagickdraw.setstrokewidth.html) — Встановлює ширину обведення, яка використовується для малювання контурів об'єкта.
--   [ImagickDraw::setTextAlignment](imagickdraw.settextalignment.html) — Задає вирівнювання тексту
--   [ImagickDraw::setTextAntialias](imagickdraw.settextantialias.html) — керує згладжуванням тексту
--   [ImagickDraw::setTextDecoration](imagickdraw.settextdecoration.html) - Визначає оформлення
--   [ImagickDraw::setTextEncoding](imagickdraw.settextencoding.html) — Задає кодовий набір тексту
--   [ImagickDraw::setTextInterlineSpacing](imagickdraw.settextinterlinespacing.html) — Встановлює міжрядковий інтервал тексту
--   [ImagickDraw::setTextInterwordSpacing](imagickdraw.settextinterwordspacing.html) — Встановлює міжмовний інтервал тексту
--   [ImagickDraw::setTextKerning](imagickdraw.settextkerning.html) — Встановлює міжлітерний інтервал тексту
--   [ImagickDraw::setTextUnderColor](imagickdraw.settextundercolor.html) — Задає колір прямокутника фону
--   [ImagickDraw::setVectorGraphics](imagickdraw.setvectorgraphics.html) — Встановлює векторну графіку
--   [ImagickDraw::setViewbox](imagickdraw.setviewbox.html) - Встановлює загальний розмір полотна
--   [ImagickDraw::skewX](imagickdraw.skewx.html) - Нахиляє поточну систему координат по горизонталі.
--   [ImagickDraw::skewY](imagickdraw.skewy.html) - Нахиляє поточну систему координат по вертикалі
--   [ImagickDraw::translate](imagickdraw.translate.html) — Застосовує перенесення до поточної системи координат
+-   [ImagickDraw::affine](imagickdraw.affine.md) - Регулює поточну матрицю афінного перетворення
+-   [ImagickDraw::annotation](imagickdraw.annotation.md) — Малює текст на зображенні
+-   [ImagickDraw::arc](imagickdraw.arc.md) — Малює дугу
+-   [ImagickDraw::bezier](imagickdraw.bezier.md) — Малює криву Безьє
+-   [ImagickDraw::circle](imagickdraw.circle.md) — Малює коло
+-   [ImagickDraw::clear](imagickdraw.clear.md) - Очищає ImagickDraw
+-   [ImagickDraw::clone](imagickdraw.clone.md) — Робить точну копію вказаного об'єкту ImagickDraw
+-   [ImagickDraw::color](imagickdraw.color.md) — Малює колір на зображенні
+-   [ImagickDraw::comment](imagickdraw.comment.md) — Додає коментар
+-   [ImagickDraw::composite](imagickdraw.composite.md) — Накладає зображення на поточне зображення
+-   [ImagickDraw::construct](imagickdraw.construct.md) - Конструктор класу ImagickDraw
+-   [ImagickDraw::destroy](imagickdraw.destroy.md) — Звільняє усі пов'язані ресурси
+-   [ImagickDraw::ellipse](imagickdraw.ellipse.md) — Малює на зображенні еліпс
+-   [ImagickDraw::getClipPath](imagickdraw.getclippath.md) — Повертає ідентифікатор поточного відсічного контуру
+-   [ImagickDraw::getClipRule](imagickdraw.getcliprule.md) — Повертає поточне правило заливання багатокутника
+-   [ImagickDraw::getClipUnits](imagickdraw.getclipunits.md) — Повертає інтерпретацію одиниць відсічного контуру
+-   [ImagickDraw::getFillColor](imagickdraw.getfillcolor.md) - Повертає колір заливки
+-   [ImagickDraw::getFillOpacity](imagickdraw.getfillopacity.md) — Повертає непрозорість, яка використовується при малюванні.
+-   [ImagickDraw::getFillRule](imagickdraw.getfillrule.md) — Повертає правило заливання
+-   [ImagickDraw::getFont](imagickdraw.getfont.md) - Повертає шрифт
+-   [ImagickDraw::getFontFamily](imagickdraw.getfontfamily.md) — Повертає сімейство шрифтів
+-   [ImagickDraw::getFontSize](imagickdraw.getfontsize.md) — Повертає розмір шрифту
+-   [ImagickDraw::getFontStretch](imagickdraw.getfontstretch.md) - Опис
+-   [ImagickDraw::getFontStyle](imagickdraw.getfontstyle.md) — Повертає стиль шрифту
+-   [ImagickDraw::getFontWeight](imagickdraw.getfontweight.md) — Повертає товщину шрифту
+-   [ImagickDraw::getGravity](imagickdraw.getgravity.md) — Повертає гравітацію розміщення тексту
+-   [ImagickDraw::getStrokeAntialias](imagickdraw.getstrokeantialias.md) — Повертає поточне налаштування згладжування обведення
+-   [ImagickDraw::getStrokeColor](imagickdraw.getstrokecolor.md) — Повертає колір для обведення контурів об'єкта.
+-   [ImagickDraw::getStrokeDashArray](imagickdraw.getstrokedasharray.md) — Повертає масив, що представляє патерн із штрихів та пробілів, які використовуються для обведення контурів.
+-   [ImagickDraw::getStrokeDashOffset](imagickdraw.getstrokedashoffset.md) — Повертає зміщення у штриховому патерні для початку штрихування
+-   [ImagickDraw::getStrokeLineCap](imagickdraw.getstrokelinecap.md) — Повертає форму, яка використовуватиметься наприкінці відкритих внутрішніх контурів під час їх обведення
+-   [ImagickDraw::getStrokeLineJoin](imagickdraw.getstrokelinejoin.md) — Повертає форму, яка використовуватиметься в кутах контурів під час їх обведення
+-   [ImagickDraw::getStrokeMiterLimit](imagickdraw.getstrokemiterlimit.md) — Повертає межу зрізу обведення
+-   [ImagickDraw::getStrokeOpacity](imagickdraw.getstrokeopacity.md) — Повертає непрозорість обведених контурів об'єкту
+-   [ImagickDraw::getStrokeWidth](imagickdraw.getstrokewidth.md) — Повертає ширину обведення, яка використовується для малювання контурів об'єкта.
+-   [ImagickDraw::getTextAlignment](imagickdraw.gettextalignment.md) — Повертає вирівнювання тексту
+-   [ImagickDraw::getTextAntialias](imagickdraw.gettextantialias.md) — Повертає поточне налаштування згладжування тексту
+-   [ImagickDraw::getTextDecoration](imagickdraw.gettextdecoration.md) — Повертає оформлення тексту
+-   [ImagickDraw::getTextEncoding](imagickdraw.gettextencoding.md) — Повертає кодовий набір для текстових анотацій.
+-   [ImagickDraw::getTextInterlineSpacing](imagickdraw.gettextinterlinespacing.md) — Повертає міжрядковий інтервал тексту
+-   [ImagickDraw::getTextInterwordSpacing](imagickdraw.gettextinterwordspacing.md) — Повертає міжмовний інтервал тексту
+-   [ImagickDraw::getTextKerning](imagickdraw.gettextkerning.md) — Повертає міжлітерний інтервал тексту
+-   [ImagickDraw::getTextUnderColor](imagickdraw.gettextundercolor.md) — Повертає колір під текстом
+-   [ImagickDraw::getVectorGraphics](imagickdraw.getvectorgraphics.md) — Повертає рядок, що містить векторну графіку
+-   [ImagickDraw::line](imagickdraw.line.md) — Малює лінію
+-   [ImagickDraw::matte](imagickdraw.matte.md) — Зафарбовує канал непрозорості зображення
+-   [ImagickDraw::pathClose](imagickdraw.pathclose.md) — Додає елемент шляху до поточного шляху
+-   [ImagickDraw::pathCurveToAbsolute](imagickdraw.pathcurvetoabsolute.md) — Малює кубічну криву Безьє
+-   [ImagickDraw::pathCurveToQuadraticBezierAbsolute](imagickdraw.pathcurvetoquadraticbezierabsolute.md) — Малює квадратичну криву Безьє
+-   [ImagickDraw::pathCurveToQuadraticBezierRelative](imagickdraw.pathcurvetoquadraticbezierrelative.md) — Малює квадратичну криву Безьє
+-   [ImagickDraw::pathCurveToQuadraticBezierSmoothAbsolute](imagickdraw.pathcurvetoquadraticbeziersmoothabsolute.md) — Малює квадратичну криву Безьє
+-   [ImagickDraw::pathCurveToQuadraticBezierSmoothRelative](imagickdraw.pathcurvetoquadraticbeziersmoothrelative.md) — Малює квадратичну криву Безьє
+-   [ImagickDraw::pathCurveToRelative](imagickdraw.pathcurvetorelative.md) — Малює кубічну криву Безьє
+-   [ImagickDraw::pathCurveToSmoothAbsolute](imagickdraw.pathcurvetosmoothabsolute.md) — Малює кубічну криву Безьє
+-   [ImagickDraw::pathCurveToSmoothRelative](imagickdraw.pathcurvetosmoothrelative.md) — Малює кубічну криву Безьє
+-   [ImagickDraw::pathEllipticArcAbsolute](imagickdraw.pathellipticarcabsolute.md) — Малює еліптичну дугу
+-   [ImagickDraw::pathEllipticArcRelative](imagickdraw.pathellipticarcrelative.md) — Малює еліптичну дугу
+-   [ImagickDraw::pathFinish](imagickdraw.pathfinish.md) - Завершує поточний шлях
+-   [ImagickDraw::pathLineToAbsolute](imagickdraw.pathlinetoabsolute.md) — Малює лінію
+-   [ImagickDraw::pathLineToHorizontalAbsolute](imagickdraw.pathlinetohorizontalabsolute.md) — Малює горизонтальну лінію
+-   [ImagickDraw::pathLineToHorizontalRelative](imagickdraw.pathlinetohorizontalrelative.md) — Малює горизонтальну лінію
+-   [ImagickDraw::pathLineToRelative](imagickdraw.pathlinetorelative.md) — Малює лінію
+-   [ImagickDraw::pathLineToVerticalAbsolute](imagickdraw.pathlinetoverticalabsolute.md) — Малює вертикальну лінію
+-   [ImagickDraw::pathLineToVerticalRelative](imagickdraw.pathlinetoverticalrelative.md) — Малює вертикальну лінію
+-   [ImagickDraw::pathMoveToAbsolute](imagickdraw.pathmovetoabsolute.md) — Починає новий внутрішній контур
+-   [ImagickDraw::pathMoveToRelative](imagickdraw.pathmovetorelative.md) — Починає новий внутрішній контур
+-   [ImagickDraw::pathStart](imagickdraw.pathstart.md) — Оголошує початок відображення контуру
+-   [ImagickDraw::point](imagickdraw.point.md) — Малює крапку
+-   [ImagickDraw::polygon](imagickdraw.polygon.md) — Малює багатокутник
+-   [ImagickDraw::polyline](imagickdraw.polyline.md) — Малює ламану лінію
+-   [ImagickDraw::pop](imagickdraw.pop.md) — Знищує поточний об'єкт ImagickDraw у стеку та повертається до раніше доданого об'єкту ImagickDraw
+-   [ImagickDraw::popClipPath](imagickdraw.popclippath.md) — Завершує визначення шляху відсічного контуру
+-   [ImagickDraw::popDefs](imagickdraw.popdefs.md) - Завершує список визначень
+-   [ImagickDraw::popPattern](imagickdraw.poppattern.md) — Завершує визначення шаблону
+-   [ImagickDraw::push](imagickdraw.push.md) — Клонує поточний об'єкт ImagickDraw і додає його до стек
+-   [ImagickDraw::pushClipPath](imagickdraw.pushclippath.md) — Запускає визначення шляху відсічного контуру
+-   [ImagickDraw::pushDefs](imagickdraw.pushdefs.md) - Вказує, що наступні команди створюють іменовані елементи для ранньої обробки
+-   [ImagickDraw::pushPattern](imagickdraw.pushpattern.md) - Вказує, що наступні команди аж до ImagickDraw::opPattern() складають визначення іменованого патерну
+-   [ImagickDraw::rectangle](imagickdraw.rectangle.md) — Малює прямокутник
+-   [ImagickDraw::render](imagickdraw.render.md) — Малює всі попередні команди малювання на зображенні
+-   [ImagickDraw::resetVectorGraphics](imagickdraw.resetvectorgraphics.md) — Скидає векторну графіку
+-   [ImagickDraw::rotate](imagickdraw.rotate.md) — Застосовує зазначений поворот до поточного координатного простору
+-   [ImagickDraw::roundRectangle](imagickdraw.roundrectangle.md) — Малює прямокутник із закругленими кутами.
+-   [ImagickDraw::scale](imagickdraw.scale.md) - Регулює коефіцієнт масштабування
+-   [ImagickDraw::setClipPath](imagickdraw.setclippath.md) — Зв'язує іменований контур відсічного контуру із зображенням
+-   [ImagickDraw::setClipRule](imagickdraw.setcliprule.md) — Встановлює правило заливання багатокутника, яке використовуватиметься відсічний контур.
+-   [ImagickDraw::setClipUnits](imagickdraw.setclipunits.md) — Встановлює інтерпретацію одиниць траєкторії відсічного контуру.
+-   [ImagickDraw::setFillAlpha](imagickdraw.setfillalpha.md) — Встановлює непрозорість під час малювання за допомогою кольору або текстури заливки.
+-   [ImagickDraw::setFillColor](imagickdraw.setfillcolor.md) — Встановлює колір заливки для малювання об'єктів із заливкою.
+-   [ImagickDraw::setFillOpacity](imagickdraw.setfillopacity.md) — Встановлює непрозорість під час малювання за допомогою кольору або текстури заливки.
+-   [ImagickDraw::setFillPatternURL](imagickdraw.setfillpatternurl.md) — Встановлює URL-адресу для використання як зразка заливки для заливки об'єктів
+-   [ImagickDraw::setFillRule](imagickdraw.setfillrule.md) — Встановлює правило заливання для використання під час малювання полігонів.
+-   [ImagickDraw::setFont](imagickdraw.setfont.md) — Встановлює вказаний шрифт для використання під час анотування текстом
+-   [ImagickDraw::setFontFamily](imagickdraw.setfontfamily.md) — Встановлює сімейство шрифтів для використання під час анотування текстом
+-   [ImagickDraw::setFontSize](imagickdraw.setfontsize.md) — Встановлює розмір шрифту для використання під час анотування текстом
+-   [ImagickDraw::setFontStretch](imagickdraw.setfontstretch.md) — Встановлює розтягування шрифту для використання під час анотування текстом
+-   [ImagickDraw::setFontStyle](imagickdraw.setfontstyle.md) — Встановлює стиль шрифту для використання під час анотування текстом
+-   [ImagickDraw::setFontWeight](imagickdraw.setfontweight.md) — Встановлює товщину шрифту
+-   [ImagickDraw::setGravity](imagickdraw.setgravity.md) - Встановлює гравітацію розміщення тексту
+-   [ImagickDraw::setResolution](imagickdraw.setresolution.md) - Встановлює дозвіл
+-   [ImagickDraw::setStrokeAlpha](imagickdraw.setstrokealpha.md) — Визначає непрозорість обведення контурів об'єкта
+-   [ImagickDraw::setStrokeAntialias](imagickdraw.setstrokeantialias.md) — Керує згладжуванням обведення контурів
+-   [ImagickDraw::setStrokeColor](imagickdraw.setstrokecolor.md) — Встановлює колір для обведення контурів об'єкта.
+-   [ImagickDraw::setStrokeDashArray](imagickdraw.setstrokedasharray.md) — Задає патерн із штрихів та пробілів, які використовуються для обведення контурів.
+-   [ImagickDraw::setStrokeDashOffset](imagickdraw.setstrokedashoffset.md) — Задає зміщення у штриховому патерні для початку штрихування
+-   [ImagickDraw::setStrokeLineCap](imagickdraw.setstrokelinecap.md) — Задає форму, яка використовуватиметься наприкінці відкритих внутрішніх контурів під час їх обведення
+-   [ImagickDraw::setStrokeLineJoin](imagickdraw.setstrokelinejoin.md) — Задає форму, яка використовуватиметься в кутах контурів під час їх обведення
+-   [ImagickDraw::setStrokeMiterLimit](imagickdraw.setstrokemiterlimit.md) - Задає межу зрізу обведення
+-   [ImagickDraw::setStrokeOpacity](imagickdraw.setstrokeopacity.md) — Визначає непрозорість обведення контурів об'єкта
+-   [ImagickDraw::setStrokePatternURL](imagickdraw.setstrokepatternurl.md) — Встановлює патерн для обведення контурів об'єкта.
+-   [ImagickDraw::setStrokeWidth](imagickdraw.setstrokewidth.md) — Встановлює ширину обведення, яка використовується для малювання контурів об'єкта.
+-   [ImagickDraw::setTextAlignment](imagickdraw.settextalignment.md) — Задає вирівнювання тексту
+-   [ImagickDraw::setTextAntialias](imagickdraw.settextantialias.md) — керує згладжуванням тексту
+-   [ImagickDraw::setTextDecoration](imagickdraw.settextdecoration.md) - Визначає оформлення
+-   [ImagickDraw::setTextEncoding](imagickdraw.settextencoding.md) — Задає кодовий набір тексту
+-   [ImagickDraw::setTextInterlineSpacing](imagickdraw.settextinterlinespacing.md) — Встановлює міжрядковий інтервал тексту
+-   [ImagickDraw::setTextInterwordSpacing](imagickdraw.settextinterwordspacing.md) — Встановлює міжмовний інтервал тексту
+-   [ImagickDraw::setTextKerning](imagickdraw.settextkerning.md) — Встановлює міжлітерний інтервал тексту
+-   [ImagickDraw::setTextUnderColor](imagickdraw.settextundercolor.md) — Задає колір прямокутника фону
+-   [ImagickDraw::setVectorGraphics](imagickdraw.setvectorgraphics.md) — Встановлює векторну графіку
+-   [ImagickDraw::setViewbox](imagickdraw.setviewbox.md) - Встановлює загальний розмір полотна
+-   [ImagickDraw::skewX](imagickdraw.skewx.md) - Нахиляє поточну систему координат по горизонталі.
+-   [ImagickDraw::skewY](imagickdraw.skewy.md) - Нахиляє поточну систему координат по вертикалі
+-   [ImagickDraw::translate](imagickdraw.translate.md) — Застосовує перенесення до поточної системи координат

@@ -2,11 +2,11 @@
 
 -   [« streamwrapperrestore](function.stream-wrapper-restore.html)
     
--   [Swoole »](book.swoole.html)
+-   [Swoole »](book.swoole.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.md)
     
 -   Скасує реєстрацію обгортки URL
     

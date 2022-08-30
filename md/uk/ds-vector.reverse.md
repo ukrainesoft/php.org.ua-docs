@@ -4,7 +4,7 @@
     
 -   [ДсVector::reversed »](ds-vector.reversed.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Вектор](class.ds-vector.html)
     

@@ -1,12 +1,12 @@
 Отримання розширених атрибутів файлу
 
--   [« xattr Функции](ref.xattr.html)
+-   [« xattr Функции](ref.xattr.md)
     
 -   [xattrlist »](function.xattr-list.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [xattr Функции](ref.xattr.html)
+-   [xattr Функции](ref.xattr.md)
     
 -   Отримання розширених атрибутів файлу
     

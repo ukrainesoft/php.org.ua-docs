@@ -1,12 +1,12 @@
 Отримує останній код помилки засобу форматування
 
--   [« NumberFormatter::getAttribute](numberformatter.getattribute.html)
+-   [« NumberFormatter::getAttribute](numberformatter.getattribute.md)
     
--   [NumberFormatter::getErrorMessage »](numberformatter.geterrormessage.html)
+-   [NumberFormatter::getErrorMessage »](numberformatter.geterrormessage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [NumberFormatter](class.numberformatter.html)
+-   [NumberFormatter](class.numberformatter.md)
     
 -   Отримує останній код помилки засобу форматування
     
@@ -39,7 +39,7 @@ numfmt_get_error_code(NumberFormatter $formatter): int
 
 `formatter`
 
-Об'єкт [NumberFormatter](class.numberformatter.html)
+Об'єкт [NumberFormatter](class.numberformatter.md)
 
 ### Значення, що повертаються
 
@@ -73,6 +73,6 @@ if(intl_is_failure($fmt->getErrorCode())) {
 
 ### Дивіться також
 
--   [numfmtgeterrormessage()](numberformatter.geterrormessage.html) - Отримує останнє повідомлення про помилку засобу форматування
+-   [numfmtgeterrormessage()](numberformatter.geterrormessage.md) - Отримує останнє повідомлення про помилку засобу форматування
 -   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
 -   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою

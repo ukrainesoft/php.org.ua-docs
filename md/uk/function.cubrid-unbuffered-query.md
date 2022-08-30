@@ -2,7 +2,7 @@
 
 -   [« cubridresult](function.cubrid-result.html)
     
--   [Устаревшие псевдонимы и функции CUBRID »](oldaliases.cubrid.html)
+-   [Застарілі псевдоніми та функції CUBRID »](oldaliases.cubrid.html)
     
 -   [PHP Manual](index.html)
     

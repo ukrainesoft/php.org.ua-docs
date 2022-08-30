@@ -4,9 +4,9 @@
     
 -   [libxmluseinternalerrors »](function.libxml-use-internal-errors.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції libxml](ref.libxml.html)
+-   [Функції libxml](ref.libxml.md)
     
 -   Налаштування контексту потоків для наступного завантаження або запису документа за допомогою libxml
     

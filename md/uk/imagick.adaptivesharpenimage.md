@@ -1,12 +1,12 @@
 Адаптивна зміна різкості зображення
 
--   [« Imagick::adaptiveResizeImage](imagick.adaptiveresizeimage.html)
+-   [« Imagick::adaptiveResizeImage](imagick.adaptiveresizeimage.md)
     
--   [Imagick::adaptiveThresholdImage »](imagick.adaptivethresholdimage.html)
+-   [Imagick::adaptiveThresholdImage »](imagick.adaptivethresholdimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Адаптивна зміна різкості зображення
     
@@ -37,7 +37,7 @@ public Imagick::adaptiveSharpenImage(float $radius, float $sigma, int $channel =
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константы каналов](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
 
 ### Значення, що повертаються
 
@@ -65,4 +65,4 @@ echo $image;
 
 ### Дивіться також
 
--   [Imagick::sharpenImage()](imagick.sharpenimage.html) - Підвищує різкість зображення
+-   [Imagick::sharpenImage()](imagick.sharpenimage.md) - Підвищує різкість зображення

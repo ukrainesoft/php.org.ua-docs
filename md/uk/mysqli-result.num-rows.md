@@ -4,7 +4,7 @@
     
 -   [mysqlidriver »](class.mysqli-driver.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqliresult](class.mysqli-result.html)
     
@@ -39,7 +39,7 @@ mysqli_num_rows(mysqli_result $result): int|string
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 ### Значення, що повертаються
 
@@ -101,5 +101,5 @@ printf("Получено %d строк.\n", $row_cnt);
 -   [mysqliaffectedrows()](mysqli.affected-rows.html) - Отримує кількість рядків, порушених попередньою операцією MySQL
 -   [mysqlistoreresult()](mysqli.store-result.html) - передає на клієнта результуючий набір останнього запиту
 -   [mysqliuseresult()](mysqli.use-result.html) - Готує результуючий набір на сервері для використання
--   [mysqliquery()](mysqli.query.html) - Виконує запит до бази даних
+-   [mysqliquery()](mysqli.query.md) - Виконує запит до бази даних
 -   [mysqlistmtnumrows()](mysqli-stmt.num-rows.html) - Повертає кількість рядків, отриманих із сервера

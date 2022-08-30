@@ -1,12 +1,12 @@
 Перерахування
 
--   [« Часті питання (FAQ): речі, які вам необхідно знати про простори імен](language.namespaces.faq.html)
+-   [« Часті питання (FAQ): речі, які вам необхідно знати про простори імен](language.namespaces.faq.md)
     
--   [Обзор перечислений »](language.enumerations.overview.html)
+-   [Обзор перечислений »](language.enumerations.overview.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Справочник языка](langref.html)
+-   [Довідник мови](langref.md)
     
 -   Перерахування
     
@@ -15,15 +15,15 @@
 
 ## Зміст
 
--   [Обзор перечислений](language.enumerations.overview.html)
--   [Основы перечислений](language.enumerations.basics.html)
--   [Типізовані перерахування](language.enumerations.backed.html)
--   [Методы перечислений](language.enumerations.methods.html)
+-   [Обзор перечислений](language.enumerations.overview.md)
+-   [Основи перерахувань](language.enumerations.basics.md)
+-   [Типізовані перерахування](language.enumerations.backed.md)
+-   [Методи перерахувань](language.enumerations.methods.md)
 -   [Статичні методи перерахувань](language.enumerations.static-methods.html)
--   [Константы перечислений](language.enumerations.constants.html)
--   [Трейты](language.enumerations.traits.html)
--   [Значення перерахування у постійних виразах](language.enumerations.expressions.html)
+-   [Константи перерахувань](language.enumerations.constants.md)
+-   [Трейти](language.enumerations.traits.md)
+-   [Значення перерахування у постійних виразах](language.enumerations.expressions.md)
 -   [Відмінності від об'єктів](language.enumerations.object-differences.html)
--   [Список значений](language.enumerations.listing.html)
--   [Сериализация](language.enumerations.serialization.html)
--   [Примеры](language.enumerations.examples.html)
+-   [Список значений](language.enumerations.listing.md)
+-   [Сериализация](language.enumerations.serialization.md)
+-   [Приклади](language.enumerations.examples.md)

@@ -1,12 +1,12 @@
 Клас EventBufferEvent
 
--   [« EventBuffer::write](eventbuffer.write.html)
+-   [« EventBuffer::write](eventbuffer.write.md)
     
--   [EventBufferEvent::close »](eventbufferevent.close.html)
+-   [EventBufferEvent::close »](eventbufferevent.close.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](book.event.html)
+-   [Event](book.event.md)
     
 -   Клас EventBufferEvent
     
@@ -325,11 +325,11 @@ priority
 
 input
 
-Нижчележачий об'єкт вхідного буфера ( [EventBuffer](class.eventbuffer.html)
+Нижчележачий об'єкт вхідного буфера ( [EventBuffer](class.eventbuffer.md)
 
 output
 
-Нижчележачий об'єкт вихідного буфера ( [EventBuffer](class.eventbuffer.html)
+Нижчележачий об'єкт вихідного буфера ( [EventBuffer](class.eventbuffer.md)
 
 ## Обумовлені константи
 
@@ -347,7 +347,7 @@ output
 
 **`EventBufferEvent::ERROR`**
 
-Відбулася помилка під час операції з буфером. Детальну інформацію про помилку можна отримати за допомогою методів [EventUtil::getLastSocketErrno()](eventutil.getlastsocketerrno.html) та/або [EventUtil::getLastSocketError()](eventutil.getlastsocketerror.html)
+Відбулася помилка під час операції з буфером. Детальну інформацію про помилку можна отримати за допомогою методів [EventUtil::getLastSocketErrno()](eventutil.getlastsocketerrno.md) та/або [EventUtil::getLastSocketError()](eventutil.getlastsocketerror.md)
 
 **`EventBufferEvent::TIMEOUT`**
 
@@ -385,31 +385,31 @@ output
 
 ## Зміст
 
--   [EventBufferEvent::close](eventbufferevent.close.html) — Закриває дескриптор файлу, пов'язаний із поточною подією буфера
--   [EventBufferEvent::connect](eventbufferevent.connect.html) — Підключає файловий дескриптор події буфера до вказаної адреси або сокету UNIX
--   [EventBufferEvent::connectHost](eventbufferevent.connecthost.html) — Підключається на ім'я хоста з можливістю асинхронного дозволу DNS
--   [EventBufferEvent::construct](eventbufferevent.construct.html) — Створює об'єкт EventBufferEvent
--   [EventBufferEvent::createPair](eventbufferevent.createpair.html) — Створює дві буферні події, пов'язані одна з одною
--   [EventBufferEvent::disable](eventbufferevent.disable.html) — Вимикає читання, запис або те й інше у події буфера
--   [EventBufferEvent::enable](eventbufferevent.enable.html) — Включає читання, запис чи те, й інше у події буфера
--   [EventBufferEvent::free](eventbufferevent.free.html) - Звільняє подію буфера
--   [EventBufferEvent::getDnsErrorString](eventbufferevent.getdnserrorstring.html) — Повертає рядок, який описує останню невдалу спробу пошуку DNS
--   [EventBufferEvent::getEnabled](eventbufferevent.getenabled.html) — Повертає бітову маску подій, які активовані для буферної події.
--   [EventBufferEvent::getInput](eventbufferevent.getinput.html) — Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією
--   [EventBufferEvent::getOutput](eventbufferevent.getoutput.html) — Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією
--   [EventBufferEvent::read](eventbufferevent.read.html) - Читає дані буфера
--   [EventBufferEvent::readBuffer](eventbufferevent.readbuffer.html) — Зливає весь вміст буфера введення та поміщає його у буфер.
--   [EventBufferEvent::setCallbacks](eventbufferevent.setcallbacks.html) — Призначає callback-функції для читання, запису та події (стану)
--   [EventBufferEvent::setPriority](eventbufferevent.setpriority.html) - Надає пріоритет bufferevent
--   [EventBufferEvent::setTimeouts](eventbufferevent.settimeouts.html) — Встановлює час очікування читання та запису для події буфера
--   [EventBufferEvent::setWatermark](eventbufferevent.setwatermark.html) — Регулює водяні знаки читання та/або запису
--   [EventBufferEvent::sslError](eventbufferevent.sslerror.html) — Повертає останню помилку OpenSSL, повідомлену буферною подією
--   [EventBufferEvent::sslFilter](eventbufferevent.sslfilter.html) — Створює нову подію буфера SSL для надсилання своїх даних через іншу подію буфера
--   [EventBufferEvent::sslGetCipherInfo](eventbufferevent.sslgetcipherinfo.html) — Повертає текстовий опис шифру
--   [EventBufferEvent::sslGetCipherName](eventbufferevent.sslgetciphername.html) — Повертає поточне ім'я шифру з'єднання SSL
--   [EventBufferEvent::sslGetCipherVersion](eventbufferevent.sslgetcipherversion.html) — Повертає версію шифру, який використовується поточним SSL-з'єднанням.
--   [EventBufferEvent::sslGetProtocol](eventbufferevent.sslgetprotocol.html) — Повертає ім'я протоколу, який використовується для поточного з'єднання SSL.
--   [EventBufferEvent::sslRenegotiate](eventbufferevent.sslrenegotiate.html) — Повідомляє буферну подію розпочати перегляд SSL
--   [EventBufferEvent::sslSocket](eventbufferevent.sslsocket.html) — Створює нову буферну подію SSL для надсилання своїх даних через SSL у сокет
--   [EventBufferEvent::write](eventbufferevent.write.html) — Додає дані до буфера виводу буферної події
--   [EventBufferEvent::writeBuffer](eventbufferevent.writebuffer.html) — Додає вміст буфера в буфер виводу буферної події
+-   [EventBufferEvent::close](eventbufferevent.close.md) — Закриває дескриптор файлу, пов'язаний із поточною подією буфера
+-   [EventBufferEvent::connect](eventbufferevent.connect.md) — Підключає файловий дескриптор події буфера до вказаної адреси або сокету UNIX
+-   [EventBufferEvent::connectHost](eventbufferevent.connecthost.md) — Підключається на ім'я хоста з можливістю асинхронного дозволу DNS
+-   [EventBufferEvent::construct](eventbufferevent.construct.md) — Створює об'єкт EventBufferEvent
+-   [EventBufferEvent::createPair](eventbufferevent.createpair.md) — Створює дві буферні події, пов'язані одна з одною
+-   [EventBufferEvent::disable](eventbufferevent.disable.md) — Вимикає читання, запис або те й інше у події буфера
+-   [EventBufferEvent::enable](eventbufferevent.enable.md) — Включає читання, запис чи те, й інше у події буфера
+-   [EventBufferEvent::free](eventbufferevent.free.md) - Звільняє подію буфера
+-   [EventBufferEvent::getDnsErrorString](eventbufferevent.getdnserrorstring.md) — Повертає рядок, який описує останню невдалу спробу пошуку DNS
+-   [EventBufferEvent::getEnabled](eventbufferevent.getenabled.md) — Повертає бітову маску подій, які активовані для буферної події.
+-   [EventBufferEvent::getInput](eventbufferevent.getinput.md) — Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією
+-   [EventBufferEvent::getOutput](eventbufferevent.getoutput.md) — Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією
+-   [EventBufferEvent::read](eventbufferevent.read.md) - Читає дані буфера
+-   [EventBufferEvent::readBuffer](eventbufferevent.readbuffer.md) — Зливає весь вміст буфера введення та поміщає його у буфер.
+-   [EventBufferEvent::setCallbacks](eventbufferevent.setcallbacks.md) — Призначає callback-функції для читання, запису та події (стану)
+-   [EventBufferEvent::setPriority](eventbufferevent.setpriority.md) - Надає пріоритет bufferevent
+-   [EventBufferEvent::setTimeouts](eventbufferevent.settimeouts.md) — Встановлює час очікування читання та запису для події буфера
+-   [EventBufferEvent::setWatermark](eventbufferevent.setwatermark.md) — Регулює водяні знаки читання та/або запису
+-   [EventBufferEvent::sslError](eventbufferevent.sslerror.md) — Повертає останню помилку OpenSSL, повідомлену буферною подією
+-   [EventBufferEvent::sslFilter](eventbufferevent.sslfilter.md) — Створює нову подію буфера SSL для надсилання своїх даних через іншу подію буфера
+-   [EventBufferEvent::sslGetCipherInfo](eventbufferevent.sslgetcipherinfo.md) — Повертає текстовий опис шифру
+-   [EventBufferEvent::sslGetCipherName](eventbufferevent.sslgetciphername.md) — Повертає поточне ім'я шифру з'єднання SSL
+-   [EventBufferEvent::sslGetCipherVersion](eventbufferevent.sslgetcipherversion.md) — Повертає версію шифру, який використовується поточним SSL-з'єднанням.
+-   [EventBufferEvent::sslGetProtocol](eventbufferevent.sslgetprotocol.md) — Повертає ім'я протоколу, який використовується для поточного з'єднання SSL.
+-   [EventBufferEvent::sslRenegotiate](eventbufferevent.sslrenegotiate.md) — Повідомляє буферну подію розпочати перегляд SSL
+-   [EventBufferEvent::sslSocket](eventbufferevent.sslsocket.md) — Створює нову буферну подію SSL для надсилання своїх даних через SSL у сокет
+-   [EventBufferEvent::write](eventbufferevent.write.md) — Додає дані до буфера виводу буферної події
+-   [EventBufferEvent::writeBuffer](eventbufferevent.writebuffer.md) — Додає вміст буфера в буфер виводу буферної події

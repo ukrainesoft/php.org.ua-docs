@@ -1,12 +1,12 @@
 Деструктор
 
--   [« SolrQuery::construct](solrquery.construct.html)
+-   [« SolrQuery::construct](solrquery.construct.md)
     
--   [SolrQuery::getExpand »](solrquery.getexpand.html)
+-   [SolrQuery::getExpand »](solrquery.getexpand.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Деструктор
     

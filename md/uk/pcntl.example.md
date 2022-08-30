@@ -1,12 +1,12 @@
 Базове застосування
 
--   [« Примеры](pcntl.examples.html)
+-   [« Приклади](pcntl.examples.md)
     
--   [Функції PCNTL »](ref.pcntl.html)
+-   [Функції PCNTL »](ref.pcntl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](pcntl.examples.html)
+-   [Приклади](pcntl.examples.md)
     
 -   Базове застосування
     

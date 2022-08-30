@@ -1,12 +1,12 @@
 Визначення стану
 
--   [« Worker::getStacked](worker.getstacked.html)
+-   [« Worker::getStacked](worker.getstacked.md)
     
--   [Worker::shutdown »](worker.shutdown.html)
+-   [Worker::shutdown »](worker.shutdown.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Worker](class.worker.html)
+-   [Worker](class.worker.md)
     
 -   Визначення стану
     

@@ -4,9 +4,9 @@
     
 -   [PDOINFORMIX DSN »](ref.pdo-informix.connection.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Драйвери PDO](pdo.drivers.html)
+-   [Драйвери PDO](pdo.drivers.md)
     
 -   Функції Informix (PDOINFORMIX)
     
@@ -15,13 +15,13 @@
 
 ## Вступ
 
-PDOINFORMIX – це драйвер, що реалізує інтерфейс [PHP Data Objects (PDO)](intro.pdo.html) для доступу до бази даних Informix.
+PDOINFORMIX – це драйвер, що реалізує інтерфейс [PHP Data Objects (PDO)](intro.pdo.md) для доступу до бази даних Informix.
 
 ## Встановлення
 
 Для складання модуля PDOINFORMIX знадобиться встановлений на тому ж хості Informix Client SDK 2.81 UC1 або вище. Informix Client SDK можна завантажити з [» сайта поддержки IBM Informix](http://www-306.ibm.com/software/data/informix/tools/csdk/)
 
-PDOINFORMIX є модулем [» PECL](https://pecl.php.net/), так що для його встановлення дотримуйтесь наступних інструкцій [Установка модулей PECL](install.pecl.html). Виконайте команду **configure** вказавши місцезнаходження заголовкових файлів та бібліотек Informix Client SDK:
+PDOINFORMIX є модулем [» PECL](https://pecl.php.net/), так що для його встановлення дотримуйтесь наступних інструкцій [Установка модулей PECL](install.pecl.md). Виконайте команду **configure** вказавши місцезнаходження заголовкових файлів та бібліотек Informix Client SDK:
 
 ```
 bash$ ./configure --with-pdo-informix=/path/to/SDK[,shared]

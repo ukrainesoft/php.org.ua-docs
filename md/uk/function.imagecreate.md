@@ -1,12 +1,12 @@
 Створення нового палітрового зображення
 
--   [« imagecopyresized](function.imagecopyresized.html)
+-   [« imagecopyresized](function.imagecopyresized.md)
     
--   [imagecreatefromavif »](function.imagecreatefromavif.html)
+-   [imagecreatefromavif »](function.imagecreatefromavif.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Створення нового палітрового зображення
     
@@ -25,7 +25,7 @@ imagecreate(int $width, int $height): GdImage|false
 
 **imagecreate()** повертає ідентифікатор зображення, що представляє собою порожнє зображення заданого розміру.
 
-Ми рекомендуємо використовувати функцію [imagecreatetruecolor()](function.imagecreatetruecolor.html) замість **imagecreate()**, так як вона обробляє зображення з максимально можливою якістю. Якщо потрібно вивести палітру зображення, то [imagetruecolortopalette()](function.imagetruecolortopalette.html) необхідно викликати безпосередньо перед збереженням зображення за допомогою [imagepng()](function.imagepng.html) або [imagegif()](function.imagegif.html)
+Ми рекомендуємо використовувати функцію [imagecreatetruecolor()](function.imagecreatetruecolor.md) замість **imagecreate()**, так як вона обробляє зображення з максимально можливою якістю. Якщо потрібно вивести палітру зображення, то [imagetruecolortopalette()](function.imagetruecolortopalette.md) необхідно викликати безпосередньо перед збереженням зображення за допомогою [imagepng()](function.imagepng.md) або [imagegif()](function.imagegif.md)
 
 ### Список параметрів
 
@@ -43,9 +43,9 @@ imagecreate(int $width, int $height): GdImage|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 
@@ -70,5 +70,5 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagedestroy()](function.imagedestroy.html) - Знищення зображення
--   [imagecreatetruecolor()](function.imagecreatetruecolor.html) - Створення нового повнокольорового зображення
+-   [imagedestroy()](function.imagedestroy.md) - Знищення зображення
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.md) - Створення нового повнокольорового зображення

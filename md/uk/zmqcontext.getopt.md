@@ -1,12 +1,12 @@
 Отримати опцію контексту
 
--   [« ZMQContext::construct](zmqcontext.construct.html)
+-   [« ZMQContext::construct](zmqcontext.construct.md)
     
--   [ZMQContext::getSocket »](zmqcontext.getsocket.html)
+-   [ZMQContext::getSocket »](zmqcontext.getsocket.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQContext](class.zmqcontext.html)
+-   [ZMQContext](class.zmqcontext.md)
     
 -   Отримати опцію контексту
     

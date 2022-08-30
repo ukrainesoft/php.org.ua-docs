@@ -4,7 +4,7 @@
     
 -   [ОЙControlsMultilineEntry::isReadOnly »](ui-controls-multilineentry.isreadonly.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsMultilineEntry](class.ui-controls-multilineentry.html)
     

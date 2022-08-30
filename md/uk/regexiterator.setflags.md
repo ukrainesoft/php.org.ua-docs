@@ -1,12 +1,12 @@
 Установка прапорів
 
--   [« RegexIterator::getRegex](regexiterator.getregex.html)
+-   [« RegexIterator::getRegex](regexiterator.getregex.md)
     
--   [RegexIterator::setMode »](regexiterator.setmode.html)
+-   [RegexIterator::setMode »](regexiterator.setmode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RegexIterator](class.regexiterator.html)
+-   [RegexIterator](class.regexiterator.md)
     
 -   Установка прапорів
     
@@ -31,13 +31,13 @@ public RegexIterator::setFlags(int $flags): void
 
 Прапори, бітова маска класу констант.
 
-Нижче наведено доступні прапори. Сенс та значення прапорів описані в розділі [предопределённых констант](class.regexiterator.html#regexiterator.constants)
+Нижче наведено доступні прапори. Сенс та значення прапорів описані в розділі [зумовлених констант](class.regexiterator.html#regexiterator.constants)
 
-**Прапори [RegexIterator](class.regexiterator.html)**
+**Прапори [RegexIterator](class.regexiterator.md)**
 
-| значение | константа                                                                         |
-|----------|-----------------------------------------------------------------------------------|
-|          | [RegexIterator::USEKEY](class.regexiterator.html#regexiterator.constants.use-key) |
+| значение | константа |
+| --- | --- |
+|  | [RegexIterator::USEKEY](class.regexiterator.html#regexiterator.constants.use-key) |
 
 ### Значення, що повертаються
 
@@ -71,4 +71,4 @@ teststr2 => another test
 
 ### Дивіться також
 
--   [RegexIterator::getFlags()](regexiterator.getflags.html) - Отримання прапорів налаштування
+-   [RegexIterator::getFlags()](regexiterator.getflags.md) - Отримання прапорів налаштування

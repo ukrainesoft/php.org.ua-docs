@@ -45,4 +45,4 @@ final public MongoDB\BSON\Timestamp::getIncrement(): int
 
 ### Дивіться також
 
--   [» Типы BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)
+-   [» Типи BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)

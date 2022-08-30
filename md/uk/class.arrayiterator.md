@@ -1,12 +1,12 @@
 Клас ArrayIterator
 
--   [« AppendIterator::valid](appenditerator.valid.html)
+-   [« AppendIterator::valid](appenditerator.valid.md)
     
--   [ArrayIterator::append »](arrayiterator.append.html)
+-   [ArrayIterator::append »](arrayiterator.append.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Ітератори](spl.iterators.html)
+-   [Ітератори](spl.iterators.md)
     
 -   Клас ArrayIterator
     
@@ -92,27 +92,27 @@ public valid(): bool
 
 ## Зміст
 
--   [ArrayIterator::append](arrayiterator.append.html) - Додати елемент
--   [ArrayIterator::asort](arrayiterator.asort.html) — Сортує елементи за значеннями
--   [ArrayIterator::construct](arrayiterator.construct.html) - Створює ArrayIterator
--   [ArrayIterator::count](arrayiterator.count.html) — Порахувати кількість елементів
--   [ArrayIterator::current](arrayiterator.current.html) — Повертає поточний елемент у масиві
--   [ArrayIterator::getArrayCopy](arrayiterator.getarraycopy.html) — Повертає копію масиву
--   [ArrayIterator::getFlags](arrayiterator.getflags.html) — Отримує прапори поведінки
--   [ArrayIterator::key](arrayiterator.key.html) — Повертає ключ поточного елемента масиву
--   [ArrayIterator::ksort](arrayiterator.ksort.html) — Сортує елементи за ключами
--   [ArrayIterator::natcasesort](arrayiterator.natcasesort.html) - Сортує елементи "натурально", з урахуванням регістру
--   [ArrayIterator::natsort](arrayiterator.natsort.html) - Сортує елементи "натурально"
--   [ArrayIterator::next](arrayiterator.next.html) — Переміщує покажчик за наступний запис
--   [ArrayIterator::offsetExists](arrayiterator.offsetexists.html) — Перевіряє, чи існує зміщення
--   [ArrayIterator::offsetGet](arrayiterator.offsetget.html) — Отримує значення для усунення
--   [ArrayIterator::offsetSet](arrayiterator.offsetset.html) — Встановлює значення для усунення
--   [ArrayIterator::offsetUnset](arrayiterator.offsetunset.html) — Скидає значення зі зміщення
--   [ArrayIterator::rewind](arrayiterator.rewind.html) — Переміщує покажчик на початок масиву
--   [ArrayIterator::seek](arrayiterator.seek.html) — Переміщує курсор на вибрану позицію
--   [ArrayIterator::serialize](arrayiterator.serialize.html) - Серіалізує масив
--   [ArrayIterator::setFlags](arrayiterator.setflags.html) - Встановлює прапори, що змінюють поведінку ArrayIterator
--   [ArrayIterator::uasort](arrayiterator.uasort.html) — Сортування за допомогою заданої користувачем функції та збереження ключів
--   [ArrayIterator::uksort](arrayiterator.uksort.html) — Сортування за ключами за допомогою заданої функції порівняння
--   [ArrayIterator::unserialize](arrayiterator.unserialize.html) - Десеріалізація
--   [ArrayIterator::valid](arrayiterator.valid.html) — Перевіряє, чи масив містить ще записи
+-   [ArrayIterator::append](arrayiterator.append.md) - Додати елемент
+-   [ArrayIterator::asort](arrayiterator.asort.md) — Сортує елементи за значеннями
+-   [ArrayIterator::construct](arrayiterator.construct.md) - Створює ArrayIterator
+-   [ArrayIterator::count](arrayiterator.count.md) — Порахувати кількість елементів
+-   [ArrayIterator::current](arrayiterator.current.md) — Повертає поточний елемент у масиві
+-   [ArrayIterator::getArrayCopy](arrayiterator.getarraycopy.md) — Повертає копію масиву
+-   [ArrayIterator::getFlags](arrayiterator.getflags.md) — Отримує прапори поведінки
+-   [ArrayIterator::key](arrayiterator.key.md) — Повертає ключ поточного елемента масиву
+-   [ArrayIterator::ksort](arrayiterator.ksort.md) — Сортує елементи за ключами
+-   [ArrayIterator::natcasesort](arrayiterator.natcasesort.md) - Сортує елементи "натурально", з урахуванням регістру
+-   [ArrayIterator::natsort](arrayiterator.natsort.md) - Сортує елементи "натурально"
+-   [ArrayIterator::next](arrayiterator.next.md) — Переміщує покажчик за наступний запис
+-   [ArrayIterator::offsetExists](arrayiterator.offsetexists.md) — Перевіряє, чи існує зміщення
+-   [ArrayIterator::offsetGet](arrayiterator.offsetget.md) — Отримує значення для усунення
+-   [ArrayIterator::offsetSet](arrayiterator.offsetset.md) — Встановлює значення для усунення
+-   [ArrayIterator::offsetUnset](arrayiterator.offsetunset.md) — Скидає значення зі зміщення
+-   [ArrayIterator::rewind](arrayiterator.rewind.md) — Переміщує покажчик на початок масиву
+-   [ArrayIterator::seek](arrayiterator.seek.md) — Переміщує курсор на вибрану позицію
+-   [ArrayIterator::serialize](arrayiterator.serialize.md) - Серіалізує масив
+-   [ArrayIterator::setFlags](arrayiterator.setflags.md) - Встановлює прапори, що змінюють поведінку ArrayIterator
+-   [ArrayIterator::uasort](arrayiterator.uasort.md) — Сортування за допомогою заданої користувачем функції та збереження ключів
+-   [ArrayIterator::uksort](arrayiterator.uksort.md) — Сортування за ключами за допомогою заданої функції порівняння
+-   [ArrayIterator::unserialize](arrayiterator.unserialize.md) - Десеріалізація
+-   [ArrayIterator::valid](arrayiterator.valid.md) — Перевіряє, чи масив містить ще записи

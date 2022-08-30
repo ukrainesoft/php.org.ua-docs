@@ -1,12 +1,12 @@
 Канонізувати рядок локалі
 
--   [« Locale::acceptFromHttp](locale.acceptfromhttp.html)
+-   [« Locale::acceptFromHttp](locale.acceptfromhttp.md)
     
--   [Locale::composeLocale »](locale.composelocale.html)
+-   [Locale::composeLocale »](locale.composelocale.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Locale](class.locale.html)
+-   [Locale](class.locale.md)
     
 -   Канонізувати рядок локалі
     

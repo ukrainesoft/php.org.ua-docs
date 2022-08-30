@@ -4,9 +4,9 @@
     
 -   [sodiummemcmp »](function.sodium-memcmp.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Збільшити на одиницю велике число
     

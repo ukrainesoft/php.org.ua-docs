@@ -66,7 +66,7 @@ public setTimeZone(IntlTimeZone|DateTimeZone|string|null $timezone): ?bool
 
 -   [» Форматирование дат ICU](http://www.icu-project.org/apiref/icu4c/udat_8h.html#details)
     
--   [» Форматы дат ICU](https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax)
+-   [» Формати дат ICU](https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax)
     
 
 ## Обумовлені константи

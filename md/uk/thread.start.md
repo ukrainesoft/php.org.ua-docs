@@ -1,12 +1,12 @@
 Виконання
 
--   [« Thread::join](thread.join.html)
+-   [« Thread::join](thread.join.md)
     
--   [Worker »](class.worker.html)
+-   [Worker »](class.worker.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Thread](class.thread.html)
+-   [Thread](class.thread.md)
     
 -   Виконання
     

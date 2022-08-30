@@ -1,12 +1,12 @@
 Отримати властивість FCNFKCClosure для символу
 
--   [« IntlChar::getCombiningClass](intlchar.getcombiningclass.html)
+-   [« IntlChar::getCombiningClass](intlchar.getcombiningclass.md)
     
--   [IntlChar::getIntPropertyMaxValue »](intlchar.getintpropertymaxvalue.html)
+-   [IntlChar::getIntPropertyMaxValue »](intlchar.getintpropertymaxvalue.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Отримати властивість FCNFKCClosure для символу
     

@@ -1,12 +1,12 @@
 Повертає одиниці вимірювання роздільної здатності зображення
 
--   [« Imagick::getImageType](imagick.getimagetype.html)
+-   [« Imagick::getImageType](imagick.getimagetype.md)
     
--   [Imagick::getImageVirtualPixelMethod »](imagick.getimagevirtualpixelmethod.html)
+-   [Imagick::getImageVirtualPixelMethod »](imagick.getimagevirtualpixelmethod.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає одиниці вимірювання роздільної здатності зображення
     

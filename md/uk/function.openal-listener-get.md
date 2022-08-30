@@ -4,9 +4,9 @@
     
 -   [openallistenerset »](function.openal-listener-set.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenAL](ref.openal.html)
+-   [Функции OpenAL](ref.openal.md)
     
 -   Отримати властивість прослуховувача
     

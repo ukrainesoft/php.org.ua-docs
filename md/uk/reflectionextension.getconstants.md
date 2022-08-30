@@ -1,12 +1,12 @@
 Отримання констант
 
--   [« ReflectionExtension::getClassNames](reflectionextension.getclassnames.html)
+-   [« ReflectionExtension::getClassNames](reflectionextension.getclassnames.md)
     
--   [ReflectionExtension::getDependencies »](reflectionextension.getdependencies.html)
+-   [ReflectionExtension::getDependencies »](reflectionextension.getdependencies.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionExtension](class.reflectionextension.html)
+-   [ReflectionExtension](class.reflectionextension.md)
     
 -   Отримання констант
     
@@ -100,4 +100,4 @@ Array
 
 ### Дивіться також
 
--   [ReflectionExtension::getINIEntries()](reflectionextension.getinientries.html) - Отримання ini-налаштувань модуля
+-   [ReflectionExtension::getINIEntries()](reflectionextension.getinientries.md) - Отримання ini-налаштувань модуля

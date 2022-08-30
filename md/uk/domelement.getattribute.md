@@ -1,12 +1,12 @@
 Повертає значення атрибуту
 
--   [« DOMElement::construct](domelement.construct.html)
+-   [« DOMElement::construct](domelement.construct.md)
     
--   [DOMElement::getAttributeNode »](domelement.getattributenode.html)
+-   [DOMElement::getAttributeNode »](domelement.getattributenode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMElement](class.domelement.html)
+-   [DOMElement](class.domelement.md)
     
 -   Повертає значення атрибуту
     
@@ -37,6 +37,6 @@ public DOMElement::getAttribute(string $qualifiedName): string
 
 ### Дивіться також
 
--   [DOMElement::hasAttribute()](domelement.hasattribute.html) - Перевіряє, чи існує атрибут
--   [DOMElement::setAttribute()](domelement.setattribute.html) - Додає новий або змінює існуючий атрибут
--   [DOMElement::removeAttribute()](domelement.removeattribute.html) - Видаляє атрибут
+-   [DOMElement::hasAttribute()](domelement.hasattribute.md) - Перевіряє, чи існує атрибут
+-   [DOMElement::setAttribute()](domelement.setattribute.md) - Додає новий або змінює існуючий атрибут
+-   [DOMElement::removeAttribute()](domelement.removeattribute.md) - Видаляє атрибут

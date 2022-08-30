@@ -1,12 +1,12 @@
 Повертає атрибути елемента
 
--   [« SimpleXMLElement::asXML](simplexmlelement.asxml.html)
+-   [« SimpleXMLElement::asXML](simplexmlelement.asxml.md)
     
--   [SimpleXMLElement::children »](simplexmlelement.children.html)
+-   [SimpleXMLElement::children »](simplexmlelement.children.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXMLElement](class.simplexmlelement.html)
+-   [SimpleXMLElement](class.simplexmlelement.md)
     
 -   Повертає атрибути елемента
     
@@ -39,9 +39,9 @@ public SimpleXMLElement::attributes(?string $namespaceOrPrefix = null, bool $isP
 
 ### Значення, що повертаються
 
-Повертає об'єкт, що ітерується. [SimpleXMLElement](class.simplexmlelement.html), яким можна переміщатися для перебору всіх атрибутів тега.
+Повертає об'єкт, що ітерується. [SimpleXMLElement](class.simplexmlelement.md), яким можна переміщатися для перебору всіх атрибутів тега.
 
-Повертає **`null`**, якщо викликаний об'єкт [SimpleXMLElement](class.simplexmlelement.html) вже представляє атрибут, а чи не тег.
+Повертає **`null`**, якщо викликаний об'єкт [SimpleXMLElement](class.simplexmlelement.md) вже представляє атрибут, а чи не тег.
 
 ### Приклади
 

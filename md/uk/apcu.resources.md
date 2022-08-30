@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](apcu.configuration.html)
+-   [« Налаштування під час виконання](apcu.configuration.html)
     
--   [Предопределённые константы »](apcu.constants.html)
+-   [Обумовлені константи »](apcu.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](apcu.setup.html)
+-   [Встановлення та налаштування](apcu.setup.html)
     
 -   Типи ресурсів
     

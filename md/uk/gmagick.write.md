@@ -1,12 +1,12 @@
 Псевдонім Gmagick::writeimage
 
--   [« Gmagick::trimimage](gmagick.trimimage.html)
+-   [« Gmagick::trimimage](gmagick.trimimage.md)
     
--   [Gmagick::writeimage »](gmagick.writeimage.html)
+-   [Gmagick::writeimage »](gmagick.writeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Псевдонім Gmagick::writeimage
     
@@ -15,8 +15,8 @@
 
 (PECL gmagick >= Unknown)
 
-Gmagick::write — Псевдонім [Gmagick::writeimage()](gmagick.writeimage.html)
+Gmagick::write — Псевдонім [Gmagick::writeimage()](gmagick.writeimage.md)
 
 ### Опис
 
-Цей метод є псевдонімом: [Gmagick::writeimage()](gmagick.writeimage.html)
+Цей метод є псевдонімом: [Gmagick::writeimage()](gmagick.writeimage.md)

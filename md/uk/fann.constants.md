@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](fann.resources.html)
+-   [« Типи ресурсів](fann.resources.md)
     
--   [Примеры »](fann.examples.html)
+-   [Приклади »](fann.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FANN](book.fann.html)
+-   [FANN](book.fann.md)
     
 -   Обумовлені константи
     

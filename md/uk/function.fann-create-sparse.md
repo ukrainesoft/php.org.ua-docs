@@ -4,9 +4,9 @@
     
 -   [fanncreatestandardarray »](function.fann-create-standard-array.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена
     

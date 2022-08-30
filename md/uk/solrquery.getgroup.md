@@ -1,12 +1,12 @@
 Повертає true, якщо угруповання увімкнено
 
--   [« SolrQuery::getFilterQueries](solrquery.getfilterqueries.html)
+-   [« SolrQuery::getFilterQueries](solrquery.getfilterqueries.md)
     
--   [SolrQuery::getGroupCachePercent »](solrquery.getgroupcachepercent.html)
+-   [SolrQuery::getGroupCachePercent »](solrquery.getgroupcachepercent.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає true, якщо угруповання увімкнено
     
@@ -33,4 +33,4 @@ public SolrQuery::getGroup(): bool
 
 ### Дивіться також
 
--   [SolrQuery::setGroup()](solrquery.setgroup.html) - Включає/вимикає групування результатів (параметр group)
+-   [SolrQuery::setGroup()](solrquery.setgroup.md) - Включає/вимикає групування результатів (параметр group)

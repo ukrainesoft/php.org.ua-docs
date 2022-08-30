@@ -1,12 +1,12 @@
 Правила дозволу імен
 
--   [« Використання просторів імен: перехід до глобальної функції/константи](language.namespaces.fallback.html)
+-   [« Використання просторів імен: перехід до глобальної функції/константи](language.namespaces.fallback.md)
     
--   [Часті питання (FAQ): речі, які вам необхідно знати про простори імен »](language.namespaces.faq.html)
+-   [Часті питання (FAQ): речі, які вам необхідно знати про простори імен »](language.namespaces.faq.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Пространства имён](language.namespaces.html)
+-   [Пространства имён](language.namespaces.md)
     
 -   Правила дозволу імен
     

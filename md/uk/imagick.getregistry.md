@@ -1,12 +1,12 @@
 Опис
 
--   [« Imagick::getQuantumRange](imagick.getquantumrange.html)
+-   [« Imagick::getQuantumRange](imagick.getquantumrange.md)
     
--   [Imagick::getReleaseDate »](imagick.getreleasedate.html)
+-   [Imagick::getReleaseDate »](imagick.getreleasedate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Опис
     

@@ -1,12 +1,12 @@
 Встановлює, які методи HTTP підтримуються у запитах, прийнятих цим сервером та переданих callback-функції користувача
 
--   [« EventHttp::removeServerAlias](eventhttp.removeserveralias.html)
+-   [« EventHttp::removeServerAlias](eventhttp.removeserveralias.md)
     
--   [EventHttp::setCallback »](eventhttp.setcallback.html)
+-   [EventHttp::setCallback »](eventhttp.setcallback.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttp](class.eventhttp.html)
+-   [EventHttp](class.eventhttp.md)
     
 -   Встановлює, які методи HTTP підтримуються у запитах, прийнятих цим сервером та переданих callback-функції користувача
     

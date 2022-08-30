@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Типы](language.types.html)
+-   [Типи](language.types.html)
     
 -   Ресурс
     

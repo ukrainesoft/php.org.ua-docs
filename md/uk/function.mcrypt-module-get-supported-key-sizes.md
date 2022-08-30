@@ -4,9 +4,9 @@
     
 -   [mcryptmoduleісblockalgorithmmode »](function.mcrypt-module-is-block-algorithm-mode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](ref.mcrypt.html)
+-   [Mcrypt](ref.mcrypt.md)
     
 -   Повертає список підтримуваних розмірів ключів для відкритого алгоритму
     

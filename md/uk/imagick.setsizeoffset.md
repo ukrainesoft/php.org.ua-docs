@@ -1,12 +1,12 @@
 Встановлює розмір та усунення об'єкта Imagick
 
--   [« Imagick::setSize](imagick.setsize.html)
+-   [« Imagick::setSize](imagick.setsize.md)
     
--   [Imagick::setType »](imagick.settype.html)
+-   [Imagick::setType »](imagick.settype.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює розмір та усунення об'єкта Imagick
     

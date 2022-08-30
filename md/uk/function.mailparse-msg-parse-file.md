@@ -4,9 +4,9 @@
     
 -   [mailparsemsgparse »](function.mailparse-msg-parse.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mailparse](ref.mailparse.html)
+-   [Mailparse](ref.mailparse.md)
     
 -   Розібрати файл
     

@@ -4,7 +4,7 @@
     
 -   [YafConfigSimple::current »](yaf-config-simple.current.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafConfigSimple](class.yaf-config-simple.html)
     

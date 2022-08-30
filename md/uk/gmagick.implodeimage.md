@@ -1,12 +1,12 @@
 Створює копію зображення
 
--   [« Gmagick::haspreviousimage](gmagick.haspreviousimage.html)
+-   [« Gmagick::haspreviousimage](gmagick.haspreviousimage.md)
     
--   [Gmagick::labelimage »](gmagick.labelimage.html)
+-   [Gmagick::labelimage »](gmagick.labelimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Створює копію зображення
     
@@ -33,7 +33,7 @@ public Gmagick::implodeimage(float $radius): mixed
 
 ### Значення, що повертаються
 
-Повертає стислий об'єкт [Gmagick](class.gmagick.html)
+Повертає стислий об'єкт [Gmagick](class.gmagick.md)
 
 ### Помилки
 

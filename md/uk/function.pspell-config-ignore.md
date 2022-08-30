@@ -4,9 +4,9 @@
     
 -   [pspellconfigmode »](function.pspell-config-mode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Pspell](ref.pspell.html)
+-   [Функции Pspell](ref.pspell.md)
     
 -   Ігнорує слова довжиною менше N символів
     
@@ -41,9 +41,9 @@ pspell_config_ignore(PSpell\Config $config, int $min_length): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -4,7 +4,7 @@
     
 -   [ОЙWindow::onClosing »](ui-window.onclosing.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙWindow](class.ui-window.html)
     

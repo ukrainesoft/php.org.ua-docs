@@ -1,12 +1,12 @@
 Встановлює поведінку для обробки часу процесора, що повторюється, при негативних переходах зміщення часового поясу
 
--   [« IntlCalendar::setMinimalDaysInFirstWeek](intlcalendar.setminimaldaysinfirstweek.html)
+-   [« IntlCalendar::setMinimalDaysInFirstWeek](intlcalendar.setminimaldaysinfirstweek.md)
     
--   [IntlCalendar::setSkippedWallTimeOption »](intlcalendar.setskippedwalltimeoption.html)
+-   [IntlCalendar::setSkippedWallTimeOption »](intlcalendar.setskippedwalltimeoption.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Встановлює поведінку для обробки часу процесора, що повторюється, при негативних переходах зміщення часового поясу
     
@@ -39,7 +39,7 @@ intlcal_set_repeated_wall_time_option(IntlCalendar $calendar, int $option): bool
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `option`
 
@@ -51,10 +51,10 @@ intlcal_set_repeated_wall_time_option(IntlCalendar $calendar, int $option): bool
 
 ### Приклади
 
-Дивіться приклади у описі функції [IntlCalendar::getRepeatedWallTimeOption()](intlcalendar.getrepeatedwalltimeoption.html)
+Дивіться приклади у описі функції [IntlCalendar::getRepeatedWallTimeOption()](intlcalendar.getrepeatedwalltimeoption.md)
 
 ### Дивіться також
 
--   [intlCalendar::getRepeatedWallTimeOption()](intlcalendar.getrepeatedwalltimeoption.html) - Отримує поведінку для обробки повторюваного часу процесора
--   [intlCalendar::setSkippedWallTimeOption()](intlcalendar.setskippedwalltimeoption.html) - Встановлює поведінку для обробки пропущеного часу процесора при позитивних переходах усунення часового поясу
--   [intlCalendar::getSkippedWallTimeOption()](intlcalendar.getskippedwalltimeoption.html) - отримує поведінку для обробки пропущеного часу процесора
+-   [intlCalendar::getRepeatedWallTimeOption()](intlcalendar.getrepeatedwalltimeoption.md) - Отримує поведінку для обробки повторюваного часу процесора
+-   [intlCalendar::setSkippedWallTimeOption()](intlcalendar.setskippedwalltimeoption.md) - Встановлює поведінку для обробки пропущеного часу процесора при позитивних переходах усунення часового поясу
+-   [intlCalendar::getSkippedWallTimeOption()](intlcalendar.getskippedwalltimeoption.md) - отримує поведінку для обробки пропущеного часу процесора

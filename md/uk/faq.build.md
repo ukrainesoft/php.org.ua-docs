@@ -1,12 +1,12 @@
 Проблеми збирання
 
--   [« Установка](faq.installation.html)
+-   [« Установка](faq.installation.md)
     
--   [Использование PHP »](faq.using.html)
+-   [Использование PHP »](faq.using.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ЧАВО](faq.html)
+-   [ЧАВО](faq.md)
     
 -   Проблеми збирання
     
@@ -17,17 +17,17 @@
 
 1.  [Я отримав останню версію PHP, використовуючи анонімний доступ до Git, але немає конфігураційного скрипта!](#faq.build.configure)
 2.  [У мене виникають проблеми з конфігурацією PHP для роботи з Apache. Він каже, що не може знайти httpd.h, хоча файл знаходиться саме там, де я сказав!](#faq.build.configuring)
-3.  [Во время конфигурации PHP (./configure) вы наталкиваетесь на ошибку, схожую со следующей: checking lex output file root... ./configure: lex: command not found configure: error: cannot find output from lex; giving up](#faq.build.lex)
-4.  [Когда я пытаюсь запустить Apache, я получаю следующее сообщение: fatal: relocation error: file /path/to/libphp4.so: symbol apblockalarms: referenced symbol not found](#faq.build.apache-sharedcore)
-5.  [Когда я запускаю configure, он говорит, что не может найти файлы include или библиотеку для GD, gdbm или какого-либо другого пакета!](#faq.build.not-found)
-6.  [При компиляции файла language-parser.tab.c мне выдаются ошибки, говорящие yytname undeclared.](#faq.build.yytname)
+3.  [Під час конфігурації PHP (./configure) ви натрапляєте на помилку, схожу з наступною: checking lex output file root... . giving up](#faq.build.lex)
+4.  [Коли я намагаюся запустити Apache, я отримую наступне повідомлення: fatal: relocation error: file /path/to/libphp4.so: symbol apblockalarms: referenced symbol not found](#faq.build.apache-sharedcore)
+5.  [Коли я запускаю configure, він каже, що не може знайти файли include або бібліотеки для GD, gdbm або будь-якого іншого пакета!](#faq.build.not-found)
+6.  [При компіляції файлу language-parser.tab.c мені видаються помилки, які говорять yytname undeclared.](#faq.build.yytname)
 7.  [Коли я запускаю make, схоже, він виконується нормально, але на кінцевому лінку скаржиться, що не може знайти деякі файли.](#faq.build.link)
 8.  [При компонуванні PHP він скаржиться на деякі невизначені посилання.](#faq.build.undefined)
 9.  [Я дотримувався всіх кроків для встановлення модульної версії для Apache на Unix, але мої PHP-скрипти виводяться в браузері або я отримую запит зберегти файл.](#faq.build.not-running)
 10.  [У документації рекомендується використовувати: --activate-module=src/modules/php4/libphp4.a, але такий файл не існує, тому я замінив це на --activate-module=src/modules/php4/libmodphp4.a і він не працює!? Що відбувається?](#faq.build.activate-module)
 11.  [Коли я намагаюся зібрати Apache з PHP у вигляді статичного модуля, використовуючи --activate-module=src/modules/php4/libphp4.a він каже, що мій компілятор не ANSI-сумісний.](#faq.build.ansi)
 12.  [Коли я намагаюся зібрати PHP за допомогою --with-apxs, я отримую дивне повідомлення про помилку.](#faq.build.apxs)
-13.  [Во время выполнения make я очень быстро получаю ошибки и множество всяких RUSAGE](#faq.build.microtime)
+13.  [Під час виконання make я дуже швидко отримую помилки та безліч всяких RUSAGE](#faq.build.microtime)
 14.  [При PHP компіляції з MySQL, configure виконується нормально, але під час make я отримую помилку типу наступної: ext/mysql/libmysqlclient/mytempnam.o(.text+0x46): In function mytempnam': /php4/ext/mysql/libmysqlclient/mytempnam.c:103: the use of tempnam' is dangerous, better use mkstemp', в чём дело?](#faq.build.mysql.tempnam)
 15.  [Я хочу оновити мій PHP. Де я можу знайти рядок ./configure, який був використаний для моєї поточної PHP установки?](#faq.build.upgrade)
 16.  [При складанні PHP з бібліотекою GD або видаються дивні помилки компіляції або помилки сегментації (segfaults) при виконанні.](#faq.build.gdlibs)
@@ -46,7 +46,7 @@
 checking lex output file root... ./configure: lex: command not found  
 configure: error: cannot find output from lex; giving up
 
-Не забудьте уважно прочитати інструкції з [установке](install.unix.html) та зауважте, що для компіляції PHP вам потрібно встановити як flex, так і bison. Залежно від ваших налаштувань, встановіть bison і flex або з вихідних кодів, або з пакетів, наприклад, RPM.
+Не забудьте уважно прочитати інструкції з [установке](install.unix.md) та зауважте, що для компіляції PHP вам потрібно встановити як flex, так і bison. Залежно від ваших налаштувань, встановіть bison і flex або з вихідних кодів, або з пакетів, наприклад, RPM.
 
 \*\*Коли я намагаюся запустити Apache, я отримую наступне повідомлення:
 

@@ -1,12 +1,12 @@
 Перевірити, чи є рядки підозрілими
 
--   [« Spoofchecker](class.spoofchecker.html)
+-   [« Spoofchecker](class.spoofchecker.md)
     
--   [Spoofchecker::construct »](spoofchecker.construct.html)
+-   [Spoofchecker::construct »](spoofchecker.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Spoofchecker](class.spoofchecker.html)
+-   [Spoofchecker](class.spoofchecker.md)
     
 -   Перевірити, чи є рядки підозрілими
     

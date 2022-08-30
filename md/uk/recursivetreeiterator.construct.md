@@ -39,7 +39,7 @@ int `$mode` = RecursiveTreeIterator::SELFFIRST
 
 `flags`
 
-Прапори впливають поведінка деяких методів класу. Список можливих прапорів можна знайти на сторінці [Предопределённых констант RecursiveTreeIterator](class.recursivetreeiterator.html#recursivetreeiterator.constants)
+Прапори впливають поведінка деяких методів класу. Список можливих прапорів можна знайти на сторінці [Обумовлених констант RecursiveTreeIterator](class.recursivetreeiterator.html#recursivetreeiterator.constants)
 
 `caching_it_flags`
 

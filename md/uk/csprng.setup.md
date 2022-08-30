@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.csprng.html)
+-   [« Введение](intro.csprng.md)
     
--   [Требования »](csprng.requirements.html)
+-   [Вимоги »](csprng.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CSPRNG](book.csprng.html)
+-   [CSPRNG](book.csprng.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](csprng.requirements.html)
--   [Установка](csprng.installation.html)
--   [Настройка во время выполнения](csprng.configuration.html)
--   [Типы ресурсов](csprng.resources.html)
+-   [Вимоги](csprng.requirements.md)
+-   [Установка](csprng.installation.md)
+-   [Налаштування під час виконання](csprng.configuration.md)
+-   [Типи ресурсів](csprng.resources.md)

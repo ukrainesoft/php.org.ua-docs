@@ -1,12 +1,12 @@
 Видаляє поле
 
--   [« SolrDocument::offsetSet](solrdocument.offsetset.html)
+-   [« SolrDocument::offsetSet](solrdocument.offsetset.md)
     
--   [SolrDocument::reset »](solrdocument.reset.html)
+-   [SolrDocument::reset »](solrdocument.reset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocument](class.solrdocument.html)
+-   [SolrDocument](class.solrdocument.md)
     
 -   Видаляє поле
     

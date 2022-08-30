@@ -1,24 +1,24 @@
 Визначення статі на ім'я
 
--   [« EnchantDictionary](class.enchantdictionary.html)
+-   [« EnchantDictionary](class.enchantdictionary.md)
     
--   [Введение »](intro.gender.html)
+-   [Введение »](intro.gender.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Підтримка мов та кодувань](refs.international.html)
+-   [Підтримка мов та кодувань](refs.international.md)
     
 -   Визначення статі на ім'я
     
 
 # Визначення статі на ім'я
 
--   [Введение](intro.gender.html)
--   [Установка и настройка](gender.setup.html)
-    -   [Установка](gender.installation.html)
--   [Примеры](gender.examples.html)
-    -   [Пример использования](gender.example.admin.html)
--   [GenderGender](class.gender.html) - Клас GenderGender
+-   [Введение](intro.gender.md)
+-   [Встановлення та налаштування](gender.setup.md)
+    -   [Установка](gender.installation.md)
+-   [Приклади](gender.examples.md)
+    -   [Пример использования](gender.example.admin.md)
+-   [GenderGender](class.gender.md) - Клас GenderGender
     -   [GenderGender::connect](gender-gender.connect.html) — З'єднання із зовнішньою базою імен
     -   [GenderGender::construct](gender-gender.construct.html) - Конструктор об'єкта класу Gender
     -   [GenderGender::country](gender-gender.country.html) — Отримати текстову виставу країни

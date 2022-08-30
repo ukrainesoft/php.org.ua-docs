@@ -1,12 +1,12 @@
 Повертає ключ поточного елемента масиву
 
--   [« ArrayIterator::getFlags](arrayiterator.getflags.html)
+-   [« ArrayIterator::getFlags](arrayiterator.getflags.md)
     
--   [ArrayIterator::ksort »](arrayiterator.ksort.html)
+-   [ArrayIterator::ksort »](arrayiterator.ksort.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayIterator](class.arrayiterator.html)
+-   [ArrayIterator](class.arrayiterator.md)
     
 -   Повертає ключ поточного елемента масиву
     

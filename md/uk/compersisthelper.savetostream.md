@@ -1,12 +1,12 @@
 Зберігає об'єкт у потоці
 
--   [« COMPersistHelper::SaveToFile](compersisthelper.savetofile.html)
+-   [« COMPersistHelper::SaveToFile](compersisthelper.savetofile.md)
     
 -   [comexception »](class.com-exception.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [COMPersistHelper](class.compersisthelper.html)
+-   [COMPersistHelper](class.compersisthelper.md)
     
 -   Зберігає об'єкт у потоці
     

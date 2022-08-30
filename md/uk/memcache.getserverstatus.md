@@ -1,12 +1,12 @@
 Повертає статус сервера
 
--   [« Memcache::getExtendedStats](memcache.getextendedstats.html)
+-   [« Memcache::getExtendedStats](memcache.getextendedstats.md)
     
--   [Memcache::getStats »](memcache.getstats.html)
+-   [Memcache::getStats »](memcache.getstats.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcache](class.memcache.html)
+-   [Memcache](class.memcache.md)
     
 -   Повертає статус сервера
     
@@ -64,5 +64,5 @@ echo memcache_get_server_status($memcache, 'memcache_host', 11211);
 
 ### Дивіться також
 
--   [Memcache::addServer()](memcache.addserver.html) - Додає сервер memcached в пул з'єднань
--   [Memcache::setServerParams()](memcache.setserverparams.html) - Змінює параметри сервера та статус під час виконання
+-   [Memcache::addServer()](memcache.addserver.md) - Додає сервер memcached в пул з'єднань
+-   [Memcache::setServerParams()](memcache.setserverparams.md) - Змінює параметри сервера та статус під час виконання

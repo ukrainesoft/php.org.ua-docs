@@ -1,12 +1,12 @@
 Конструктор класу SQLite3Result
 
--   [« SQLite3Result::columnType](sqlite3result.columntype.html)
+-   [« SQLite3Result::columnType](sqlite3result.columntype.md)
     
--   [SQLite3Result::fetchArray »](sqlite3result.fetcharray.html)
+-   [SQLite3Result::fetchArray »](sqlite3result.fetcharray.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3Result](class.sqlite3result.html)
+-   [SQLite3Result](class.sqlite3result.md)
     
 -   Конструктор класу SQLite3Result
     
@@ -21,7 +21,7 @@ SQLite3Result::construct — Конструктор класу SQLite3Result
 
 private **SQLite3Result::construct**
 
-Примірники [SQLite3Result](class.sqlite3result.html) створюються за допомогою [SQLite3::query()](sqlite3.query.html) і [SQLite3Stmt::execute()](sqlite3stmt.execute.html)
+Примірники [SQLite3Result](class.sqlite3result.md) створюються за допомогою [SQLite3::query()](sqlite3.query.md) і [SQLite3Stmt::execute()](sqlite3stmt.execute.md)
 
 ### Список параметрів
 

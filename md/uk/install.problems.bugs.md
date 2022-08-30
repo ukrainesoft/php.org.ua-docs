@@ -2,11 +2,11 @@
 
 -   [« Інші проблеми](install.problems.support.html)
     
--   [Конфигурация времени выполнения »](configuration.html)
+-   [Конфігурація часу виконання »](configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Проблемы?](install.problems.html)
+-   [Проблеми?](install.problems.html)
     
 -   Повідомлення про баги
     

@@ -4,9 +4,9 @@
     
 -   [ssh2fetchstream »](function.ssh2-fetch-stream.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Виконання команди на віддаленому сервері
     

@@ -4,9 +4,9 @@
     
 -   [eioreadlink »](function.eio-readlink.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Читає вміст директорії
     
@@ -77,7 +77,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 **`EIO_READDIR_STAT_ORDER`** (int)
 
-Якщо цей прапор задано, імена файлів та директорій повертатимуться в порядку, зручному для збору статистики (`stat`) кожного з об'єктів. Якщо отриманий список імен передбачається передавати у функцію [stat()](function.stat.html), порядок проходження імен забезпечить найшвидшу роботу функції.
+Якщо цей прапор задано, імена файлів та директорій повертатимуться в порядку, зручному для збору статистики (`stat`) кожного з об'єктів. Якщо отриманий список імен передбачається передавати у функцію [stat()](function.stat.md), порядок проходження імен забезпечить найшвидшу роботу функції.
 
 **`EIO_READDIR_FOUND_UNKNOWN`** (int)
 
@@ -85,7 +85,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 **`EIO_DT_UNKNOWN`** (int)
 
-Невідомий тип вузла (дуже часто). Необхідна обробка функцією [stat()](function.stat.html)
+Невідомий тип вузла (дуже часто). Необхідна обробка функцією [stat()](function.stat.md)
 
 **`EIO_DT_FIFO`** (int)
 

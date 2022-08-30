@@ -1,12 +1,12 @@
 Створює новий екземпляр RRDCreator
 
--   [« RRDCreator::addDataSource](rrdcreator.adddatasource.html)
+-   [« RRDCreator::addDataSource](rrdcreator.adddatasource.md)
     
--   [RRDCreator::save »](rrdcreator.save.html)
+-   [RRDCreator::save »](rrdcreator.save.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RRDCreator](class.rrdcreator.html)
+-   [RRDCreator](class.rrdcreator.md)
     
 -   Створює новий екземпляр RRDCreator
     
@@ -15,13 +15,13 @@
 
 (PECL rrd >= 0.9.0)
 
-RRDCreator::construct — Створює новий екземпляр [RRDCreator](class.rrdcreator.html)
+RRDCreator::construct — Створює новий екземпляр [RRDCreator](class.rrdcreator.md)
 
 ### Опис
 
 public **RRDCreator::construct**(string `$path`, string `$startTime` =?, int `$step`
 
-Створює новий екземпляр [RRDCreator](class.rrdcreator.html)
+Створює новий екземпляр [RRDCreator](class.rrdcreator.md)
 
 ### Список параметрів
 

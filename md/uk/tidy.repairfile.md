@@ -1,12 +1,12 @@
 Відновлює розмітку файлу та повертає його у вигляді рядка
 
--   [« tidy::parseString](tidy.parsestring.html)
+-   [« tidy::parseString](tidy.parsestring.md)
     
--   [tidy::repairString »](tidy.repairstring.html)
+-   [tidy::repairString »](tidy.repairstring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidy](class.tidy.html)
+-   [tidy](class.tidy.md)
     
 -   Відновлює розмітку файлу та повертає його у вигляді рядка
     
@@ -61,10 +61,10 @@ tidy_repair_file(    string $filename,    array|string|null $config = nu
 
 ### список змін
 
-| Версия | Описание                                              |
-|--------|-------------------------------------------------------|
-|        | **tidy::repairFile()** тепер статичний метод.         |
-|        | `config` і `encoding` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | **tidy::repairFile()** тепер статичний метод. |
+|  | `config` і `encoding` тепер допускають значення null. |
 
 ### Приклади
 
@@ -84,6 +84,6 @@ file_put_contents($file, $repaired);
 
 ### Дивіться також
 
--   [tidy::parseFile()](tidy.parsefile.html) - Розбір розмітки у файлі або URI
--   [tidy::parseString()](tidy.parsestring.html) - Розбір документа, що зберігається у рядку
--   [tidy::repairString()](tidy.repairstring.html) - Відновлює рядок, використовуючи наскільки можна конфігураційний файл
+-   [tidy::parseFile()](tidy.parsefile.md) - Розбір розмітки у файлі або URI
+-   [tidy::parseString()](tidy.parsestring.md) - Розбір документа, що зберігається у рядку
+-   [tidy::repairString()](tidy.repairstring.md) - Відновлює рядок, використовуючи наскільки можна конфігураційний файл

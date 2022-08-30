@@ -1,12 +1,12 @@
 Класи драйвера MongoDB
 
--   [« Атака с помощью инъекций в скриптах](mongodb.security.script_injection.html)
+-   [« Атака за допомогою ін'єкцій у скриптах](mongodb.security.script_injection.md)
     
 -   [MongoDBDriverManager »](class.mongodb-driver-manager.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDB](set.mongodb.html)
+-   [MongoDB](set.mongodb.md)
     
 -   Класи драйвера MongoDB
     

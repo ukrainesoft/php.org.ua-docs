@@ -1,12 +1,12 @@
 Видаляє артефакт зображення
 
--   [« Imagick::deconstructImages](imagick.deconstructimages.html)
+-   [« Imagick::deconstructImages](imagick.deconstructimages.md)
     
--   [Imagick::deleteImageProperty »](imagick.deleteimageproperty.html)
+-   [Imagick::deleteImageProperty »](imagick.deleteimageproperty.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Видаляє артефакт зображення
     
@@ -41,5 +41,5 @@ public Imagick::deleteImageArtifact(string $artifact): bool
 
 ### Дивіться також
 
--   [Imagick::setImageArtifact()](imagick.setimageartifact.html) - Встановлює артефакт зображення
--   [Imagick::getImageArtifact()](imagick.getimageartifact.html) - Повертає артефакт зображення
+-   [Imagick::setImageArtifact()](imagick.setimageartifact.md) - Встановлює артефакт зображення
+-   [Imagick::getImageArtifact()](imagick.getimageartifact.md) - Повертає артефакт зображення

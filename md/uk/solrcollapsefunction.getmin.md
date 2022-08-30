@@ -1,12 +1,12 @@
 Повертає мінімальне значення
 
--   [« SolrCollapseFunction::getMax](solrcollapsefunction.getmax.html)
+-   [« SolrCollapseFunction::getMax](solrcollapsefunction.getmax.md)
     
--   [SolrCollapseFunction::getNullPolicy »](solrcollapsefunction.getnullpolicy.html)
+-   [SolrCollapseFunction::getNullPolicy »](solrcollapsefunction.getnullpolicy.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrCollapseFunction](class.solrcollapsefunction.html)
+-   [SolrCollapseFunction](class.solrcollapsefunction.md)
     
 -   Повертає мінімальне значення
     
@@ -33,4 +33,4 @@ public SolrCollapseFunction::getMin(): string
 
 ### Дивіться також
 
--   [SolrCollapseFunction::setMin()](solrcollapsefunction.setmin.html) - Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні по числовому полю
+-   [SolrCollapseFunction::setMin()](solrcollapsefunction.setmin.md) - Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні по числовому полю

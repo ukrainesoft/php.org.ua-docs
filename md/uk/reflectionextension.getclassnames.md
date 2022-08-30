@@ -1,12 +1,12 @@
 Отримання імен класів
 
--   [« ReflectionExtension::getClasses](reflectionextension.getclasses.html)
+-   [« ReflectionExtension::getClasses](reflectionextension.getclasses.md)
     
--   [ReflectionExtension::getConstants »](reflectionextension.getconstants.html)
+-   [ReflectionExtension::getConstants »](reflectionextension.getconstants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionExtension](class.reflectionextension.html)
+-   [ReflectionExtension](class.reflectionextension.md)
     
 -   Отримання імен класів
     
@@ -55,5 +55,5 @@ array(1) {
 
 ### Дивіться також
 
--   [ReflectionExtension::getClasses()](reflectionextension.getclasses.html) - Повертає класи
--   [ReflectionExtension::getName()](reflectionextension.getname.html) - Отримання імені модуля
+-   [ReflectionExtension::getClasses()](reflectionextension.getclasses.md) - Повертає класи
+-   [ReflectionExtension::getName()](reflectionextension.getname.md) - Отримання імені модуля

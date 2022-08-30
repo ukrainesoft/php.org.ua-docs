@@ -1,12 +1,12 @@
 Конструктор зв'язку
 
--   [« FANNConnection](class.fannconnection.html)
+-   [« FANNConnection](class.fannconnection.md)
     
--   [FANNConnection::getFromNeuron »](fannconnection.getfromneuron.html)
+-   [FANNConnection::getFromNeuron »](fannconnection.getfromneuron.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FANNConnection](class.fannconnection.html)
+-   [FANNConnection](class.fannconnection.md)
     
 -   Конструктор зв'язку
     

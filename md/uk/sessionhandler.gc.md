@@ -1,12 +1,12 @@
 Очищує старі сесії
 
--   [« SessionHandler::destroy](sessionhandler.destroy.html)
+-   [« SessionHandler::destroy](sessionhandler.destroy.md)
     
--   [SessionHandler::open »](sessionhandler.open.html)
+-   [SessionHandler::open »](sessionhandler.open.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SessionHandler](class.sessionhandler.html)
+-   [SessionHandler](class.sessionhandler.md)
     
 -   Очищує старі сесії
     
@@ -29,7 +29,7 @@ public SessionHandler::gc(int $max_lifetime): int|false
 
 Якщо цей клас розширюється шляхом успадкування, виклик батьківського методу `gc` виконає код обгортки для цього методу, а також внутрішній обробник. Це дозволить методу бути перевизначеним, або перехопленим та відфільтрованим.
 
-Для додаткової інформації про те, що очікується від реалізації цього методу, дивіться документацію за методом [SessionHandlerInterface::gc()](sessionhandlerinterface.gc.html)
+Для додаткової інформації про те, що очікується від реалізації цього методу, дивіться документацію за методом [SessionHandlerInterface::gc()](sessionhandlerinterface.gc.md)
 
 ### Список параметрів
 
@@ -43,6 +43,6 @@ public SessionHandler::gc(int $max_lifetime): int|false
 
 ### список змін
 
-| Версия | Описание                                                                   |
-|--------|----------------------------------------------------------------------------|
-|        | До цієї версії, у разі успішного виконання ця функція повертала **`true`** |
+| Версия | Описание |
+| --- | --- |
+|  | До цієї версії, у разі успішного виконання ця функція повертала **`true`** |

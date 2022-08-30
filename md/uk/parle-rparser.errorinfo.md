@@ -4,7 +4,7 @@
     
 -   [ParleRParser::left »](parle-rparser.left.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ParleRParser](class.parle-rparser.html)
     

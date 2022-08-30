@@ -1,12 +1,12 @@
 Опитування підключень
 
--   [« mysqli::ping](mysqli.ping.html)
+-   [« mysqli::ping](mysqli.ping.md)
     
--   [mysqli::prepare »](mysqli.prepare.html)
+-   [mysqli::prepare »](mysqli.prepare.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Опитування підключень
     
@@ -33,11 +33,11 @@ public static mysqli::poll(    ?array &$read,    ?array &$error,    
 mysqli_poll(    ?array &$read,    ?array &$error,    array &$reject,    int $seconds,    int $microseconds = 0): int|false
 ```
 
-Опитування підключень. Метод може використовуватись як [статичний](language.oop5.static.html)
+Опитування підключень. Метод може використовуватись як [статичний](language.oop5.static.md)
 
 > **Зауваження**
 > 
-> Доступно лише з модулем [mysqlnd](book.mysqlnd.html)
+> Доступно лише з модулем [mysqlnd](book.mysqlnd.md)
 
 ### Список параметрів
 
@@ -106,5 +106,5 @@ Array
 
 ### Дивіться також
 
--   [mysqliquery()](mysqli.query.html) - Виконує запит до бази даних
+-   [mysqliquery()](mysqli.query.md) - Виконує запит до бази даних
 -   [mysqlireapasyncquery()](mysqli.reap-async-query.html) - Отримання результату асинхронного запиту

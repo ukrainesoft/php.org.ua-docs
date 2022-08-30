@@ -1,12 +1,12 @@
 Приклади wddx
 
--   [« Примеры](wddx.examples.html)
+-   [« Приклади](wddx.examples.md)
     
--   [Функції WDDX »](ref.wddx.html)
+-   [Функції WDDX »](ref.wddx.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](wddx.examples.html)
+-   [Приклади](wddx.examples.md)
     
 -   Приклади wddx
     
@@ -58,4 +58,4 @@ echo $packet;
 
 > **Зауваження**
 > 
-> Рядки повинні бути закодовані в UTF-8; Для роботи з іншими кодуваннями спочатку перетворіть рядок за допомогою функції [мбconvertencoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.html)
+> Рядки повинні бути закодовані в UTF-8; Для роботи з іншими кодуваннями спочатку перетворіть рядок за допомогою функції [мбconvertencoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.md) або [iconv()](function.iconv.md)

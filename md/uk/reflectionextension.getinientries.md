@@ -1,12 +1,12 @@
 Отримання ini-налаштувань модуля
 
--   [« ReflectionExtension::getFunctions](reflectionextension.getfunctions.html)
+-   [« ReflectionExtension::getFunctions](reflectionextension.getfunctions.md)
     
--   [ReflectionExtension::getName »](reflectionextension.getname.html)
+-   [ReflectionExtension::getName »](reflectionextension.getname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionExtension](class.reflectionextension.html)
+-   [ReflectionExtension](class.reflectionextension.md)
     
 -   Отримання ini-налаштувань модуля
     
@@ -68,4 +68,4 @@ Array
 ### Дивіться також
 
 -   [inigetall()](function.ini-get-all.html) - Отримує всі налаштування конфігурації
--   [ReflectionExtension::getConstants()](reflectionextension.getconstants.html) - Отримання констант
+-   [ReflectionExtension::getConstants()](reflectionextension.getconstants.md) - Отримання констант

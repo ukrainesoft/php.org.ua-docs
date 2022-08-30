@@ -4,9 +4,9 @@
     
 -   [curlmultisetopt »](function.curl-multi-setopt.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции cURL](ref.curl.html)
+-   [Функции cURL](ref.curl.md)
     
 -   Чекає активності на будь-якому curlmulti з'єднанні
     
@@ -41,9 +41,9 @@ curl_multi_select(CurlMultiHandle $multi_handle, float $timeout = 1.0): int
 
 ### список змін
 
-| Версия | Описание                                                                    |
-|--------|-----------------------------------------------------------------------------|
-|        | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
 
 ### Дивіться також
 

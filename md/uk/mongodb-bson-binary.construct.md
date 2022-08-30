@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONBinary::getData »](mongodb-bson-binary.getdata.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONBinary](class.mongodb-bson-binary.html)
     
@@ -41,10 +41,10 @@ final public MongoDB\BSON\Binary::__construct(string $data, int $type)
 
 ### список змін
 
-| Версия                                                                                                                                                                                                                                                             | Описание |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.3.0                                                                                                                                                                                                                                                 |          |
-| [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) видається, якщо `type` є **`MongoDB\BSON\Binary::TYPE_UUID`** або **`MongoDB\BSON\Binary::TYPE_OLD_UUID`**, а довжина `data` не дорівнює 16 байтам. |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.3.0 |  |
+| [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) видається, якщо `type` є **`MongoDB\BSON\Binary::TYPE_UUID`** або **`MongoDB\BSON\Binary::TYPE_OLD_UUID`**, а довжина `data` не дорівнює 16 байтам. |  |
 
 | | PECL mongodb 1.1.3 |
 
@@ -76,4 +76,4 @@ object(MongoDB\BSON\Binary)#1 (2) {
 
 ### Дивіться також
 
--   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

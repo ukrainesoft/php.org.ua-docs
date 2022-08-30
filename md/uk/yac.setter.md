@@ -1,12 +1,12 @@
 Сеттер
 
--   [« Yac::set](yac.set.html)
+-   [« Yac::set](yac.set.md)
     
--   [Обработка аудио форматов »](refs.utilspec.audio.html)
+-   [Обработка аудио форматов »](refs.utilspec.audio.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yac](class.yac.html)
+-   [Yac](class.yac.md)
     
 -   Сеттер
     
@@ -33,7 +33,7 @@ public Yac::__set(string $keys, mixed $value): mixed
 
 `value`
 
-Змішане значення. Можуть бути збережені всі типи значень php, крім [resource](language.types.resource.html)
+Змішане значення. Можуть бути збережені всі типи значень php, крім [resource](language.types.resource.md)
 
 ### Значення, що повертаються
 

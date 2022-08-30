@@ -1,23 +1,23 @@
 Встановлення
 
--   [« Требования](svn.requirements.html)
+-   [« Вимоги](svn.requirements.md)
     
--   [Настройка во время выполнения »](svn.configuration.html)
+-   [Налаштування під час виконання »](svn.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](svn.setup.html)
+-   [Встановлення та налаштування](svn.setup.md)
     
 -   Встановлення
     
 
 ## Встановлення
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/svn](https://pecl.php.net/package/svn)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/svn](https://pecl.php.net/package/svn)
 
 Якщо у ./configure є проблеми з пошуком SVN-файлів (наприклад, Subversion було встановлено з іншого каталогу), використовуйте **`./configure --with-svn=$USR_PATH`** для вказівки каталогу, у якому знаходиться include/subversion-1/.
 
-DLL для цього модуля PECL зараз недоступна. Дивіться також розділ [сборка на Windows](install.windows.building.html)
+DLL для цього модуля PECL зараз недоступна. Дивіться також розділ [сборка на Windows](install.windows.building.md)
 
 **Увага**
 

@@ -4,7 +4,7 @@
     
 -   [ОЙMenuItem »](class.ui-menuitem.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙMenu](class.ui-menu.html)
     

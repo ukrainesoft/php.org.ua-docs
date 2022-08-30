@@ -4,7 +4,7 @@
     
 -   [ДсSequence::capacity »](ds-sequence.capacity.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Послідовність](class.ds-sequence.html)
     
@@ -33,7 +33,7 @@ abstract public Ds\Sequence::apply(callable $callback): void
 callback(mixed $value): mixed
 ```
 
-Об'єкт типу [callable](language.types.callable.html)
+Об'єкт типу [callable](language.types.callable.md)
 
 Callback-функція має повертати нове значення, яке замінить поточне.
 

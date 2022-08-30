@@ -1,17 +1,17 @@
 Клас ImagickPixelIterator
 
--   [« ImagickPixel::setIndex](imagickpixel.setindex.html)
+-   [« ImagickPixel::setIndex](imagickpixel.setindex.md)
     
--   [ImagickPixelIterator::clear »](imagickpixeliterator.clear.html)
+-   [ImagickPixelIterator::clear »](imagickpixeliterator.clear.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImageMagick](book.imagick.html)
+-   [ImageMagick](book.imagick.md)
     
 -   Клас ImagickPixelIterator
     
 
-# Клас [ImagickPixelIterator](class.imagickpixeliterator.html)
+# Клас [ImagickPixelIterator](class.imagickpixeliterator.md)
 
 (PECL imagick 2, PECL imagick 3)
 
@@ -43,17 +43,17 @@ public syncIterator(): bool
 
 ## Зміст
 
--   [ImagickPixelIterator::clear](imagickpixeliterator.clear.html) — Очищає ресурси, пов'язані з PixelIterator
--   [ImagickPixelIterator::construct](imagickpixeliterator.construct.html) - Конструктор ImagickPixelIterator
--   [ImagickPixelIterator::destroy](imagickpixeliterator.destroy.html) — Звільняє ресурси, пов'язані з PixelIterator
--   [ImagickPixelIterator::getCurrentIteratorRow](imagickpixeliterator.getcurrentiteratorrow.html) — Повертає поточний ряд об'єкту ImagickPixel
--   [ImagickPixelIterator::getIteratorRow](imagickpixeliterator.getiteratorrow.html) - Повертає поточний піксель ітератора ряду
--   [ImagickPixelIterator::getNextIteratorRow](imagickpixeliterator.getnextiteratorrow.html) - Повертає наступний ряд ітератора пікселів
--   [ImagickPixelIterator::getPreviousIteratorRow](imagickpixeliterator.getpreviousiteratorrow.html) — Повертає попередній ряд
--   [ImagickPixelIterator::newPixelIterator](imagickpixeliterator.newpixeliterator.html) - Повертає новий ітератор пікселів
--   [ImagickPixelIterator::newPixelRegionIterator](imagickpixeliterator.newpixelregioniterator.html) - Повертає новий ітератор пікселів
--   [ImagickPixelIterator::resetIterator](imagickpixeliterator.resetiterator.html) — скидає ітератор пікселів
--   [ImagickPixelIterator::setIteratorFirstRow](imagickpixeliterator.setiteratorfirstrow.html) - Встановлює ітератор пікселів на перший ряд
--   [ImagickPixelIterator::setIteratorLastRow](imagickpixeliterator.setiteratorlastrow.html) - Встановлює ітератор пікселів на останній ряд
--   [ImagickPixelIterator::setIteratorRow](imagickpixeliterator.setiteratorrow.html) — Встановлює ряд в ітераторі пікселів
--   [ImagickPixelIterator::syncIterator](imagickpixeliterator.synciterator.html) - Синхронізує ітератор пікселів
+-   [ImagickPixelIterator::clear](imagickpixeliterator.clear.md) — Очищає ресурси, пов'язані з PixelIterator
+-   [ImagickPixelIterator::construct](imagickpixeliterator.construct.md) - Конструктор ImagickPixelIterator
+-   [ImagickPixelIterator::destroy](imagickpixeliterator.destroy.md) — Звільняє ресурси, пов'язані з PixelIterator
+-   [ImagickPixelIterator::getCurrentIteratorRow](imagickpixeliterator.getcurrentiteratorrow.md) — Повертає поточний ряд об'єкту ImagickPixel
+-   [ImagickPixelIterator::getIteratorRow](imagickpixeliterator.getiteratorrow.md) - Повертає поточний піксель ітератора ряду
+-   [ImagickPixelIterator::getNextIteratorRow](imagickpixeliterator.getnextiteratorrow.md) - Повертає наступний ряд ітератора пікселів
+-   [ImagickPixelIterator::getPreviousIteratorRow](imagickpixeliterator.getpreviousiteratorrow.md) — Повертає попередній ряд
+-   [ImagickPixelIterator::newPixelIterator](imagickpixeliterator.newpixeliterator.md) - Повертає новий ітератор пікселів
+-   [ImagickPixelIterator::newPixelRegionIterator](imagickpixeliterator.newpixelregioniterator.md) - Повертає новий ітератор пікселів
+-   [ImagickPixelIterator::resetIterator](imagickpixeliterator.resetiterator.md) — скидає ітератор пікселів
+-   [ImagickPixelIterator::setIteratorFirstRow](imagickpixeliterator.setiteratorfirstrow.md) - Встановлює ітератор пікселів на перший ряд
+-   [ImagickPixelIterator::setIteratorLastRow](imagickpixeliterator.setiteratorlastrow.md) - Встановлює ітератор пікселів на останній ряд
+-   [ImagickPixelIterator::setIteratorRow](imagickpixeliterator.setiteratorrow.md) — Встановлює ряд в ітераторі пікселів
+-   [ImagickPixelIterator::syncIterator](imagickpixeliterator.synciterator.md) - Синхронізує ітератор пікселів

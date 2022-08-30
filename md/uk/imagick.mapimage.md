@@ -1,12 +1,12 @@
 Замінює кольори зображення на найближчий колір із еталонного зображення
 
--   [« Imagick::magnifyImage](imagick.magnifyimage.html)
+-   [« Imagick::magnifyImage](imagick.magnifyimage.md)
     
--   [Imagick::matteFloodfillImage »](imagick.mattefloodfillimage.html)
+-   [Imagick::matteFloodfillImage »](imagick.mattefloodfillimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Замінює кольори зображення на найближчий колір із еталонного зображення
     

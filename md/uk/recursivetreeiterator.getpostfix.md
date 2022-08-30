@@ -1,12 +1,12 @@
 Отримання суфікса
 
--   [« RecursiveTreeIterator::getEntry](recursivetreeiterator.getentry.html)
+-   [« RecursiveTreeIterator::getEntry](recursivetreeiterator.getentry.md)
     
--   [RecursiveTreeIterator::getPrefix »](recursivetreeiterator.getprefix.html)
+-   [RecursiveTreeIterator::getPrefix »](recursivetreeiterator.getprefix.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+-   [RecursiveTreeIterator](class.recursivetreeiterator.md)
     
 -   Отримання суфікса
     

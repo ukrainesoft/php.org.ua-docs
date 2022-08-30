@@ -1,12 +1,12 @@
 Встановлює роздільну здатність зображення
 
--   [« Imagick::setImageRenderingIntent](imagick.setimagerenderingintent.html)
+-   [« Imagick::setImageRenderingIntent](imagick.setimagerenderingintent.md)
     
--   [Imagick::setImageScene »](imagick.setimagescene.html)
+-   [Imagick::setImageScene »](imagick.setimagescene.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює роздільну здатність зображення
     

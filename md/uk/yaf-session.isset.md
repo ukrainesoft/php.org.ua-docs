@@ -4,7 +4,7 @@
     
 -   [YafSession::key »](yaf-session.key.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafSession](class.yaf-session.html)
     

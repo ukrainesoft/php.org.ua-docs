@@ -4,7 +4,7 @@
     
 -   [YafRequestAbstract::getControllerName »](yaf-request-abstract.getcontrollername.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRequestAbstract](class.yaf-request-abstract.html)
     

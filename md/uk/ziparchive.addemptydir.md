@@ -1,12 +1,12 @@
 Додає нову директорію
 
--   [« ZipArchive](class.ziparchive.html)
+-   [« ZipArchive](class.ziparchive.md)
     
--   [ZipArchive::addFile »](ziparchive.addfile.html)
+-   [ZipArchive::addFile »](ziparchive.addfile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Додає нову директорію
     
@@ -33,7 +33,7 @@ public ZipArchive::addEmptyDir(string $dirname, int $flags = 0): bool
 
 `flags`
 
-Бітова маска, що складається з **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`**. Поведінка констант описана на сторінці [ZIP-константы](zip.constants.html)
+Бітова маска, що складається з **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`**. Поведінка констант описана на сторінці [ZIP-константи](zip.constants.md)
 
 ### Значення, що повертаються
 
@@ -41,9 +41,9 @@ public ZipArchive::addEmptyDir(string $dirname, int $flags = 0): bool
 
 ### список змін
 
-| Версия | Описание                 |
-|--------|--------------------------|
-|        | Доданий параметр `flags` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `flags` |
 
 ### Приклади
 

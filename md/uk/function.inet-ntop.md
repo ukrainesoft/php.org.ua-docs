@@ -4,9 +4,9 @@
     
 -   [inetpton »](function.inet-pton.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Мережеві функції](ref.network.html)
+-   [Мережеві функції](ref.network.md)
     
 -   Конвертує упаковану інтернет-адресу в формат, що читається
     
@@ -57,6 +57,6 @@ echo $expanded;
 
 ### Дивіться також
 
--   [long2ip()](function.long2ip.html) - Конвертує ціле число в IPv4-адресу
--   [ip2long()](function.ip2long.html) - Конвертує рядок, що містить IPv4-адресу в ціле число
+-   [long2ip()](function.long2ip.md) - Конвертує ціле число в IPv4-адресу
+-   [ip2long()](function.ip2long.md) - Конвертує рядок, що містить IPv4-адресу в ціле число
 -   [inetpton()](function.inet-pton.html) - Конвертує IP-адресу, що читається, в її упаковане подання inaddr

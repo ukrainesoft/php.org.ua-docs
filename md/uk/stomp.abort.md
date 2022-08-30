@@ -1,12 +1,12 @@
 Скасує виконання поточної транзакції
 
--   [« Stomp](class.stomp.html)
+-   [« Stomp](class.stomp.md)
     
--   [Stomp::ack »](stomp.ack.html)
+-   [Stomp::ack »](stomp.ack.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Stomp](class.stomp.html)
+-   [Stomp](class.stomp.md)
     
 -   Скасує виконання поточної транзакції
     
@@ -39,7 +39,7 @@ stomp_abort(resource $link, string $transaction_id, array $headers = ?): bool
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.html)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
 
 `transaction_id`
 

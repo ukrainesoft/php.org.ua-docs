@@ -1,16 +1,16 @@
 Встановлення
 
--   [« Требования](v8js.requirements.html)
+-   [« Вимоги](v8js.requirements.md)
     
--   [Настройка во время выполнения »](v8js.configuration.html)
+-   [Налаштування під час виконання »](v8js.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](v8js.setup.html)
+-   [Встановлення та налаштування](v8js.setup.md)
     
 -   Встановлення
     
 
 ## Встановлення
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/v8js](https://pecl.php.net/package/v8js)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/v8js](https://pecl.php.net/package/v8js)

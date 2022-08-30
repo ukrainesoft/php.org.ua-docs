@@ -1,12 +1,12 @@
 Читає зображення з файлу
 
--   [« Imagick::randomThresholdImage](imagick.randomthresholdimage.html)
+-   [« Imagick::randomThresholdImage](imagick.randomthresholdimage.md)
     
--   [Imagick::readImageBlob »](imagick.readimageblob.html)
+-   [Imagick::readImageBlob »](imagick.readimageblob.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Читає зображення з файлу
     

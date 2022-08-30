@@ -1,12 +1,12 @@
 Замінює кольори у зображенні
 
--   [« Imagick::getVersion](imagick.getversion.html)
+-   [« Imagick::getVersion](imagick.getversion.md)
     
--   [Imagick::hasNextImage »](imagick.hasnextimage.html)
+-   [Imagick::hasNextImage »](imagick.hasnextimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Замінює кольори у зображенні
     
@@ -33,7 +33,7 @@ public Imagick::haldClutImage(Imagick $clut, int $channel = Imagick::CHANNEL_DEF
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константы каналов](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
 
 ### Значення, що повертаються
 

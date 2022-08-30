@@ -14,12 +14,12 @@
 # Хешування паролів
 
 -   [Введение](intro.password.html)
--   [Установка и настройка](password.setup.html)
-    -   [Требования](password.requirements.html)
+-   [Встановлення та налаштування](password.setup.html)
+    -   [Вимоги](password.requirements.html)
     -   [Установка](password.installation.html)
-    -   [Настройка во время выполнения](password.configuration.html)
-    -   [Типы ресурсов](password.resources.html)
--   [Предопределённые константы](password.constants.html)
+    -   [Налаштування під час виконання](password.configuration.html)
+    -   [Типи ресурсів](password.resources.html)
+-   [Обумовлені константи](password.constants.html)
 -   [Функції хешування паролів](ref.password.html)
     -   [passwordalgos](function.password-algos.html) — Отримує доступні ідентифікатори алгоритму хешування пароля
     -   [passwordgetinfo](function.password-get-info.html) — Повертає інформацію про заданий хеш

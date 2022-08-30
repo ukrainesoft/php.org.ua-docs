@@ -1,12 +1,12 @@
 Отримує індексний дескриптор для файлу
 
--   [« SplFileInfo::getGroup](splfileinfo.getgroup.html)
+-   [« SplFileInfo::getGroup](splfileinfo.getgroup.md)
     
--   [SplFileInfo::getLinkTarget »](splfileinfo.getlinktarget.html)
+-   [SplFileInfo::getLinkTarget »](splfileinfo.getlinktarget.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Отримує індексний дескриптор для файлу
     
@@ -35,8 +35,8 @@ public SplFileInfo::getInode(): int|false
 
 ### Помилки
 
-У разі виникнення помилки викидає виняток [RuntimeException](class.runtimeexception.html)
+У разі виникнення помилки викидає виняток [RuntimeException](class.runtimeexception.md)
 
 ### Дивіться також
 
--   [fileinode()](function.fileinode.html) - Повертає індексний дескриптор файлу
+-   [fileinode()](function.fileinode.md) - Повертає індексний дескриптор файлу

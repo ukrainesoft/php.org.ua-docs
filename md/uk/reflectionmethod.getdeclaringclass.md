@@ -1,12 +1,12 @@
 Отримує клас, що оголошує відбитий метод
 
--   [« ReflectionMethod::getClosure](reflectionmethod.getclosure.html)
+-   [« ReflectionMethod::getClosure](reflectionmethod.getclosure.md)
     
--   [ReflectionMethod::getModifiers »](reflectionmethod.getmodifiers.html)
+-   [ReflectionMethod::getModifiers »](reflectionmethod.getmodifiers.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionMethod](class.reflectionmethod.html)
+-   [ReflectionMethod](class.reflectionmethod.md)
     
 -   Отримує клас, що оголошує відбитий метод
     
@@ -31,7 +31,7 @@ public ReflectionMethod::getDeclaringClass(): ReflectionClass
 
 ### Значення, що повертаються
 
-Об'єкт класу [ReflectionClass](class.reflectionclass.html)частиною якого є відбитий метод.
+Об'єкт класу [ReflectionClass](class.reflectionclass.md)частиною якого є відбитий метод.
 
 ### Приклади
 
@@ -63,4 +63,4 @@ object(ReflectionClass)#2 (1) {
 
 ### Дивіться також
 
--   [ReflectionMethod::isAbstract()](reflectionmethod.isabstract.html) - Перевіряє, чи є метод абстрактним
+-   [ReflectionMethod::isAbstract()](reflectionmethod.isabstract.md) - Перевіряє, чи є метод абстрактним

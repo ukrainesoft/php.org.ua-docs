@@ -4,9 +4,9 @@
     
 -   [мбdetectencoding »](function.mb-detect-encoding.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
     
 -   Декодує посилання на числовий рядок HTML на символ
     
@@ -49,9 +49,9 @@ mb_decode_numericentity(string $string, array $map, ?string $encoding = null): s
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Приклади
 

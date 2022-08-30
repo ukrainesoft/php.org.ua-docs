@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Настройка во время выполнения](scoutapm.configuration.html)
+-   [« Налаштування під час виконання](scoutapm.configuration.html)
     
 -   [Функции Scoutapm »](ref.scoutapm.html)
     

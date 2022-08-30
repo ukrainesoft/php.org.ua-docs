@@ -1,12 +1,12 @@
 Перевіряє, чи можна клонувати цей клас
 
--   [« ReflectionClass::isAnonymous](reflectionclass.isanonymous.html)
+-   [« ReflectionClass::isAnonymous](reflectionclass.isanonymous.md)
     
--   [ReflectionClass::isEnum »](reflectionclass.isenum.html)
+-   [ReflectionClass::isEnum »](reflectionclass.isenum.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Перевіряє, чи можна клонувати цей клас
     

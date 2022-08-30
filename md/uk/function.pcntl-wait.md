@@ -4,9 +4,9 @@
     
 -   [pcntlwaitpid »](function.pcntl-waitpid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.md)
     
 -   Очікує чи повертає статус породженого дочірнього процесу
     

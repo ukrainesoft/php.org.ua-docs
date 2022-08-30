@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](ctype.configuration.html)
+-   [« Налаштування під час виконання](ctype.configuration.html)
     
--   [Предопределённые константы »](ctype.constants.html)
+-   [Обумовлені константи »](ctype.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](ctype.setup.html)
+-   [Встановлення та налаштування](ctype.setup.html)
     
 -   Типи ресурсів
     

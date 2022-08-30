@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](xattr.setup.html)
+-   [« Встановлення та налаштування](xattr.setup.html)
     
 -   [Установка »](xattr.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](xattr.setup.html)
+-   [Встановлення та налаштування](xattr.setup.html)
     
 -   Вимоги
     

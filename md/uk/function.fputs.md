@@ -1,12 +1,12 @@
 Псевдонім fwrite
 
--   [« fputcsv](function.fputcsv.html)
+-   [« fputcsv](function.fputcsv.md)
     
--   [fread »](function.fread.html)
+-   [fread »](function.fread.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Псевдонім fwrite
     
@@ -15,8 +15,8 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-fputs - Псевдонім [fwrite()](function.fwrite.html)
+fputs - Псевдонім [fwrite()](function.fwrite.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [fwrite()](function.fwrite.html)
+Ця функція є псевдонімом: [fwrite()](function.fwrite.md)

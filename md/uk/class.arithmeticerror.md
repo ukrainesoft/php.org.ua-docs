@@ -1,12 +1,12 @@
 ArithmeticError
 
--   [« ArgumentCountError](class.argumentcounterror.html)
+-   [« ArgumentCountError](class.argumentcounterror.md)
     
--   [AssertionError »](class.assertionerror.html)
+-   [AssertionError »](class.assertionerror.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые исключения](reserved.exceptions.html)
+-   [Обумовлені винятки](reserved.exceptions.md)
     
 -   ArithmeticError
     
@@ -17,7 +17,7 @@ ArithmeticError
 
 ## Вступ
 
-**ArithmeticError** викидається, коли виникає помилка під час виконання математичних операцій. Такі помилки можна спровокувати побітовим зміщенням на негативне значення або викликом функції [intdiv()](function.intdiv.html), що приводить значення, що не входить до допустимого інтервалу цілих чисел (int).
+**ArithmeticError** викидається, коли виникає помилка під час виконання математичних операцій. Такі помилки можна спровокувати побітовим зміщенням на негативне значення або викликом функції [intdiv()](function.intdiv.md), що приводить значення, що не входить до допустимого інтервалу цілих чисел (int).
 
 ## Огляд класів
 

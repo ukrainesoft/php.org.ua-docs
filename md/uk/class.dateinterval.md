@@ -25,7 +25,7 @@
 
 Найпоширенішим способом створення об'єкта **DateInterval** є обчислення різниці між двома об'єктами дати/часу за допомогою [DateTimeInterface::diff()](datetime.diff.html)
 
-Оскільки не існує чітко визначеного способу порівняння інтервалів дат, екземпляри **DateInterval** є [несравнимыми](language.operators.comparison.html#language.operators.comparison.incomparable)
+Оскільки не існує чітко визначеного способу порівняння інтервалів дат, екземпляри **DateInterval** є [незрівнянними](language.operators.comparison.html#language.operators.comparison.incomparable)
 
 ## Огляд класів
 
@@ -145,11 +145,11 @@ datestring
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Додані властивості fromstring та datestring для екземплярів **DateInterval**, які були створені за допомогою методу [DateInterval::createFromDateString()](dateinterval.createfromdatestring.html) |
-|        | Примірники **DateInterval** тепер незрівнянні; раніше всі екземпляри **DateInterval** вважалися рівними.                                                                                           |
-|        | Додано властивість f.                                                                                                                                                                              |
+| Версия | Описание |
+| --- | --- |
+|  | Додані властивості fromstring та datestring для екземплярів **DateInterval**, які були створені за допомогою методу [DateInterval::createFromDateString()](dateinterval.createfromdatestring.html) |
+|  | Примірники **DateInterval** тепер незрівнянні; раніше всі екземпляри **DateInterval** вважалися рівними. |
+|  | Додано властивість f. |
 
 ## Зміст
 

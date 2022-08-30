@@ -4,9 +4,9 @@
     
 -   [fannscaleinput »](function.fann-scale-input.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Масштабує вхідні дані до навчальних даних до вказаного діапазону
     

@@ -1,12 +1,12 @@
 Отримати необроблене значення зсуву за Грінвічем (GMT) без урахування літнього часу
 
--   [« IntlTimeZone::getOffset](intltimezone.getoffset.html)
+-   [« IntlTimeZone::getOffset](intltimezone.getoffset.md)
     
--   [IntlTimeZone::getRegion »](intltimezone.getregion.html)
+-   [IntlTimeZone::getRegion »](intltimezone.getregion.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlTimeZone](class.intltimezone.html)
+-   [IntlTimeZone](class.intltimezone.md)
     
 -   Отримати необроблене значення зсуву за Грінвічем (GMT) без урахування літнього часу
     

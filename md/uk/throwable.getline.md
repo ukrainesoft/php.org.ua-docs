@@ -1,12 +1,12 @@
 Отримує рядок скрипта, в якому цей об'єкт було викинуто
 
--   [« Throwable::getFile](throwable.getfile.html)
+-   [« Throwable::getFile](throwable.getfile.md)
     
--   [Throwable::getTrace »](throwable.gettrace.html)
+-   [Throwable::getTrace »](throwable.gettrace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Throwable](class.throwable.html)
+-   [Throwable](class.throwable.md)
     
 -   Отримує рядок скрипта, в якому цей об'єкт було викинуто
     
@@ -35,4 +35,4 @@ public Throwable::getLine(): int
 
 ### Дивіться також
 
--   [Exception::getLine()](exception.getline.html) - Отримує рядок, у якому виник виняток
+-   [Exception::getLine()](exception.getline.md) - Отримує рядок, у якому виник виняток

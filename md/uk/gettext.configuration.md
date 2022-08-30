@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](gettext.installation.html)
+-   [« Установка](gettext.installation.md)
     
--   [Типы ресурсов »](gettext.resources.html)
+-   [Типи ресурсів »](gettext.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](gettext.setup.html)
+-   [Встановлення та налаштування](gettext.setup.md)
     
 -   Налаштування під час виконання
     

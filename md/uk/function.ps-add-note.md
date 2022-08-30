@@ -4,9 +4,9 @@
     
 -   [псaddpdflink »](function.ps-add-pdflink.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Додає примітку до поточної сторінки
     

@@ -2,11 +2,11 @@
 
 -   [« ocistatementtype](function.oci-statement-type.html)
     
--   [OCICollection »](class.ocicollection.html)
+-   [OCICollection »](class.ocicollection.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8 Функции](ref.oci8.html)
+-   [OCI8 Функции](ref.oci8.md)
     
 -   Видалити реєстрацію користувача callback-функції для Oracle Database TAF
     
@@ -23,7 +23,7 @@ ociunregistertafcallback — Видалити реєстрацію корист�
 oci_unregister_taf_callback(resource $connection): bool
 ```
 
-Видаляє реєстрацію користувача callback-функції, зареєстровану для з'єднання `connection` за допомогою [ociregistertafcallback()](function.oci-register-taf-callback.html). Детальніше читайте [OCI8 Transparent Application Failover (TAF) Support](oci8.taf.html)
+Видаляє реєстрацію користувача callback-функції, зареєстровану для з'єднання `connection` за допомогою [ociregistertafcallback()](function.oci-register-taf-callback.html). Детальніше читайте [OCI8 Transparent Application Failover (TAF) Support](oci8.taf.md)
 
 ### Список параметрів
 

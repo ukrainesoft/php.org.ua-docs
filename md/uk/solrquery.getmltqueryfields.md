@@ -1,12 +1,12 @@
 Повертає поля запиту та їх підвищення
 
--   [« SolrQuery::getMltMinWordLength](solrquery.getmltminwordlength.html)
+-   [« SolrQuery::getMltMinWordLength](solrquery.getmltminwordlength.md)
     
--   [SolrQuery::getQuery »](solrquery.getquery.html)
+-   [SolrQuery::getQuery »](solrquery.getquery.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає поля запиту та їх підвищення
     

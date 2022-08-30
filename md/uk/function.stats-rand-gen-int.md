@@ -4,9 +4,9 @@
     
 -   [statsrandgenipoisson »](function.stats-rand-gen-ipoisson.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Генерує випадкове число в діапазоні від 1 до 2147483562
     

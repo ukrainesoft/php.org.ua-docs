@@ -4,9 +4,9 @@
     
 -   [odbcdatasource »](function.odbc-data-source.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции ODBC](ref.uodbc.html)
+-   [Функции ODBC](ref.uodbc.md)
     
 -   Повертає ім'я курсору
     

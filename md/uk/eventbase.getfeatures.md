@@ -1,12 +1,12 @@
 Повертає бітову маску підтримуваних функцій
 
--   [« EventBase::free](eventbase.free.html)
+-   [« EventBase::free](eventbase.free.md)
     
--   [EventBase::getMethod »](eventbase.getmethod.html)
+-   [EventBase::getMethod »](eventbase.getmethod.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBase](class.eventbase.html)
+-   [EventBase](class.eventbase.md)
     
 -   Повертає бітову маску підтримуваних функцій
     
@@ -58,5 +58,5 @@ $features = $base->getFeatures();
 
 ### Дивіться також
 
--   [EventBase::getMethod()](eventbase.getmethod.html) - Повертає використовуваний метод події
--   [EventConfig](class.eventconfig.html)
+-   [EventBase::getMethod()](eventbase.getmethod.md) - Повертає використовуваний метод події
+-   [EventConfig](class.eventconfig.md)

@@ -1,12 +1,12 @@
 Встановлює кольоровість зображення білою точкою
 
--   [« Gmagick::setimageunits](gmagick.setimageunits.html)
+-   [« Gmagick::setimageunits](gmagick.setimageunits.md)
     
--   [Gmagick::setsamplingfactors »](gmagick.setsamplingfactors.html)
+-   [Gmagick::setsamplingfactors »](gmagick.setsamplingfactors.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Встановлює кольоровість зображення білою точкою
     
@@ -37,7 +37,7 @@ Y-координата білої основної точки.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

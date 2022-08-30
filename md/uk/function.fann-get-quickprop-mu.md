@@ -4,9 +4,9 @@
     
 -   [fanngetrpropdecreasefactor »](function.fann-get-rprop-decrease-factor.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Повертає коефіцієнт mu
     

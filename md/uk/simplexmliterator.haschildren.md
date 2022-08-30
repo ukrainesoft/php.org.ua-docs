@@ -1,12 +1,12 @@
 Перевіряє, чи поточний елемент має вкладені елементи
 
--   [« SimpleXMLIterator::getChildren](simplexmliterator.getchildren.html)
+-   [« SimpleXMLIterator::getChildren](simplexmliterator.getchildren.md)
     
--   [SimpleXMLIterator::key »](simplexmliterator.key.html)
+-   [SimpleXMLIterator::key »](simplexmliterator.key.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXMLIterator](class.simplexmliterator.html)
+-   [SimpleXMLIterator](class.simplexmliterator.md)
     
 -   Перевіряє, чи поточний елемент має вкладені елементи
     
@@ -23,7 +23,7 @@ SimpleXMLIterator::hasChildren — Перевіряє, чи поточний е�
 public SimpleXMLIterator::hasChildren(): bool
 ```
 
-Цей метод перевіряє, чи має поточний елемент [SimpleXMLIterator](class.simplexmliterator.html) вкладені елементи.
+Цей метод перевіряє, чи має поточний елемент [SimpleXMLIterator](class.simplexmliterator.md) вкладені елементи.
 
 ### Список параметрів
 

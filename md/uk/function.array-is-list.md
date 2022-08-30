@@ -46,13 +46,13 @@ array_is_list([]); // true
 array_is_list(['apple', 2, 3]); // true
 array_is_list([0 => 'apple', 'orange']); // true
 
-// Массив начинается не с 0
+// Масив начинается не с 0
 array_is_list([1 => 'apple', 'orange']); // false
 
-// Ключи массива не по порядку
+// Ключи Масива не по порядку
 array_is_list([1 => 'apple', 0 => 'orange']); // false
 
-// Ключи массива не являются целыми числами
+// Ключи Масива не являются целыми числами
 array_is_list([0 => 'apple', 'foo' => 'bar']); // false
 
 // Непоследовательные ключи

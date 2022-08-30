@@ -2,7 +2,7 @@
 
 -   [« Sync](book.sync.html)
     
--   [Установка и настройка »](sync.setup.html)
+-   [Встановлення та налаштування »](sync.setup.html)
     
 -   [PHP Manual](index.html)
     

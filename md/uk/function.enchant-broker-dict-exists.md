@@ -4,9 +4,9 @@
     
 -   [enchantbrokerfreedict »](function.enchant-broker-free-dict.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Enchant](ref.enchant.html)
+-   [Функции Enchant](ref.enchant.md)
     
 -   Перевіряє, чи є словник чи ні. Використовується не пустий тег
     
@@ -41,9 +41,9 @@ enchant_broker_dict_exists(EnchantBroker $broker, string $tag): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

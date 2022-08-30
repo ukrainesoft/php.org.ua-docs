@@ -4,9 +4,9 @@
     
 -   [openalbufferloadwav »](function.openal-buffer-loadwav.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenAL](ref.openal.html)
+-   [Функции OpenAL](ref.openal.md)
     
 -   Отримати властивість буфера OpenAL
     
@@ -27,7 +27,7 @@ openal_buffer_get(resource $buffer, int $property): int|false
 
 `buffer`
 
-Ресурс [Open AL(Buffer)](openal.resources.html) (Створений раніше за допомогою [openalbuffercreate()](function.openal-buffer-create.html)
+Ресурс [Open AL(Buffer)](openal.resources.md) (Створений раніше за допомогою [openalbuffercreate()](function.openal-buffer-create.html)
 
 `property`
 

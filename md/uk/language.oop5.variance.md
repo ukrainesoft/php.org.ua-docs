@@ -1,12 +1,12 @@
 Коваріантність та контраваріантність
 
--   [« Сериализация объектов](language.oop5.serialization.html)
+-   [« Серіалізація об'єктів](language.oop5.serialization.md)
     
--   [Журнал изменений ООП »](language.oop5.changelog.html)
+-   [Журнал изменений ООП »](language.oop5.changelog.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Классы и объекты](language.oop5.html)
+-   [Класи та об'єкти](language.oop5.md)
     
 -   Коваріантність та контраваріантність
     
@@ -19,10 +19,10 @@
 
 Оголошення типу вважається більш конкретним у наступному випадку:
 
--   Вилучено [объединение типов](language.types.declarations.html#language.types.declarations.composite.union)
+-   Вилучено [об'єднання типів](language.types.declarations.html#language.types.declarations.composite.union)
 -   Додано [пересечение типов](language.types.declarations.html#language.types.declarations.composite.intersection)
 -   Тип класу змінюється на тип дочірнього класу
--   [iterable](language.types.iterable.html) змінений на масив (array) або [Traversable](class.traversable.html)
+-   [iterable](language.types.iterable.md) змінений на масив (array) або [Traversable](class.traversable.md)
 
 В іншому випадку клас типу вважається менш конкретним.
 

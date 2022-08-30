@@ -1,12 +1,12 @@
 Клас SolrServerException
 
--   [« SolrClientException::getInternalInfo](solrclientexception.getinternalinfo.html)
+-   [« SolrClientException::getInternalInfo](solrclientexception.getinternalinfo.md)
     
--   [SolrServerException::getInternalInfo »](solrserverexception.getinternalinfo.html)
+-   [SolrServerException::getInternalInfo »](solrserverexception.getinternalinfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Solr](book.solr.html)
+-   [Solr](book.solr.md)
     
 -   Клас SolrServerException
     
@@ -96,4 +96,4 @@ private Exception::__clone(): void
 
 ## Зміст
 
--   [SolrServerException::getInternalInfo](solrserverexception.getinternalinfo.html) — Повертає внутрішню інформацію про те, де було викинуто виняток
+-   [SolrServerException::getInternalInfo](solrserverexception.getinternalinfo.md) — Повертає внутрішню інформацію про те, де було викинуто виняток

@@ -1,12 +1,12 @@
 Отримати поточний елемент
 
--   [« APCUIterator::construct](apcuiterator.construct.html)
+-   [« APCUIterator::construct](apcuiterator.construct.md)
     
--   [APCUIterator::getTotalCount »](apcuiterator.gettotalcount.html)
+-   [APCUIterator::getTotalCount »](apcuiterator.gettotalcount.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [APCUIterator](class.apcuiterator.html)
+-   [APCUIterator](class.apcuiterator.md)
     
 -   Отримати поточний елемент
     
@@ -23,7 +23,7 @@ APCUIterator::current — Отримати поточний елемент
 public APCUIterator::current(): mixed
 ```
 
-Отримує поточний елемент стека [APCUIterator](class.apcuiterator.html)
+Отримує поточний елемент стека [APCUIterator](class.apcuiterator.md)
 
 ### Список параметрів
 
@@ -35,5 +35,5 @@ public APCUIterator::current(): mixed
 
 ### Дивіться також
 
--   [APCUIterator::next()](apcuiterator.next.html) - Переміщує покажчик на наступний елемент
--   [Iterator::current()](iterator.current.html) - Повернення поточного елемента
+-   [APCUIterator::next()](apcuiterator.next.md) - Переміщує покажчик на наступний елемент
+-   [Iterator::current()](iterator.current.md) - Повернення поточного елемента

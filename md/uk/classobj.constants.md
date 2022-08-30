@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](classobj.resources.html)
+-   [« Типи ресурсів](classobj.resources.md)
     
--   [Примеры »](classobj.examples.html)
+-   [Приклади »](classobj.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Классы и объекты](book.classobj.html)
+-   [Класи та об'єкти](book.classobj.md)
     
 -   Обумовлені константи
     

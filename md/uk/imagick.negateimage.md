@@ -1,12 +1,12 @@
 Інвертує кольори у еталонному зображенні
 
--   [« Imagick::motionBlurImage](imagick.motionblurimage.html)
+-   [« Imagick::motionBlurImage](imagick.motionblurimage.md)
     
--   [Imagick::newImage »](imagick.newimage.html)
+-   [Imagick::newImage »](imagick.newimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Інвертує кольори у еталонному зображенні
     

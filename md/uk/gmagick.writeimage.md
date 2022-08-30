@@ -1,12 +1,12 @@
 Записує зображення у вказаний файл
 
--   [« Gmagick::write](gmagick.write.html)
+-   [« Gmagick::write](gmagick.write.md)
     
--   [GmagickDraw »](class.gmagickdraw.html)
+-   [GmagickDraw »](class.gmagickdraw.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Записує зображення у вказаний файл
     
@@ -23,7 +23,7 @@ Gmagick::writeimage — Записує зображення у вказаний 
 public Gmagick::writeimage(string $filename, bool $all_frames = false): Gmagick
 ```
 
-Записує зображення у вказаний файл. Якщо в якості імені файлу вказано **`null`**, то зображення буде записано у файл, заданий [Gmagick::readimage()](gmagick.readimage.html) або [Gmagick::setimagefilename()](gmagick.setimagefilename.html)
+Записує зображення у вказаний файл. Якщо в якості імені файлу вказано **`null`**, то зображення буде записано у файл, заданий [Gmagick::readimage()](gmagick.readimage.md) або [Gmagick::setimagefilename()](gmagick.setimagefilename.md)
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ public Gmagick::writeimage(string $filename, bool $all_frames = false): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html)
+Об'єкт [Gmagick](class.gmagick.md)
 
 ### Помилки
 

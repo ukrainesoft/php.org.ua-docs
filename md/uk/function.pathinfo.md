@@ -2,11 +2,11 @@
 
 -   [« parseinistring](function.parse-ini-string.html)
     
--   [pclose »](function.pclose.html)
+-   [pclose »](function.pclose.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Повертає інформацію про шлях до файлу
     
@@ -27,7 +27,7 @@ pathinfo(string $path, int $flags = PATHINFO_ALL): array|string
 
 > **Зауваження**
 > 
-> Докладніше про отримання інформації про поточний шлях можна почитати в розділі [Предопределённые зарезервированные переменные](language.variables.predefined.html)
+> Докладніше про отримання інформації про поточний шлях можна почитати в розділі [Обумовлені зарезервовані змінні](language.variables.predefined.md)
 
 > **Зауваження**
 > 
@@ -35,7 +35,7 @@ pathinfo(string $path, int $flags = PATHINFO_ALL): array|string
 
 **Застереження**
 
-**pathinfo()** враховує налаштування локалі, тому для коректної обробки шляху з багатобайтними символами має бути встановлена ​​відповідна локаль за допомогою функції [setlocale()](function.setlocale.html)
+**pathinfo()** враховує налаштування локалі, тому для коректної обробки шляху з багатобайтними символами має бути встановлена ​​відповідна локаль за допомогою функції [setlocale()](function.setlocale.md)
 
 ### Список параметрів
 
@@ -134,7 +134,7 @@ Array
 
 ### Дивіться також
 
--   [dirname()](function.dirname.html) - Повертає ім'я батьківського каталогу із зазначеного шляху
--   [basename()](function.basename.html) - Повертає останній компонент імені із зазначеного шляху
+-   [dirname()](function.dirname.md) - Повертає ім'я батьківського каталогу із зазначеного шляху
+-   [basename()](function.basename.md) - Повертає останній компонент імені із зазначеного шляху
 -   [parseurl()](function.parse-url.html) - Розбирає URL та повертає його компоненти
--   [realpath()](function.realpath.html) - Повертає абсолютний канонізований шлях до файлу
+-   [realpath()](function.realpath.md) - Повертає абсолютний канонізований шлях до файлу

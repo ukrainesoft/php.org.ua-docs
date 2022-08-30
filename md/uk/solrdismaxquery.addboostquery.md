@@ -1,12 +1,12 @@
 Додає поле підвищення запиту зі значенням та необов'язковим посиленням (параметр bq)
 
--   [« SolrDisMaxQuery::addBigramPhraseField](solrdismaxquery.addbigramphrasefield.html)
+-   [« SolrDisMaxQuery::addBigramPhraseField](solrdismaxquery.addbigramphrasefield.md)
     
--   [SolrDisMaxQuery::addPhraseField »](solrdismaxquery.addphrasefield.html)
+-   [SolrDisMaxQuery::addPhraseField »](solrdismaxquery.addphrasefield.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
+-   [SolrDisMaxQuery](class.solrdismaxquery.md)
     
 -   Додає поле підвищення запиту зі значенням та необов'язковим посиленням (параметр bq)
     
@@ -35,7 +35,7 @@ public SolrDisMaxQuery::addBoostQuery(string $field, string $value, string $boos
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.html)
+[SolrDisMaxQuery](class.solrdismaxquery.md)
 
 ### Приклади
 
@@ -61,5 +61,5 @@ q=lucene&defType=edismax&bq=cat:clothing^2 cat:electronics^5.1
 
 ### Дивіться також
 
--   [SolrDisMaxQuery::removeBoostQuery()](solrdismaxquery.removeboostquery.html) - Видаляє часткове підвищення запиту на ім'я поля (bq)
--   [SolrDisMaxQuery::setBoostQuery()](solrdismaxquery.setboostquery.html) - безпосередньо встановлює параметр запиту посилення (bq)
+-   [SolrDisMaxQuery::removeBoostQuery()](solrdismaxquery.removeboostquery.md) - Видаляє часткове підвищення запиту на ім'я поля (bq)
+-   [SolrDisMaxQuery::setBoostQuery()](solrdismaxquery.setboostquery.md) - безпосередньо встановлює параметр запиту посилення (bq)

@@ -4,9 +4,9 @@
     
 -   [mailparsemsggetpart »](function.mailparse-msg-get-part.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mailparse](ref.mailparse.html)
+-   [Mailparse](ref.mailparse.md)
     
 -   Повернути асоціативний масив з інформацією про повідомлення
     

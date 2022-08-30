@@ -4,7 +4,7 @@
     
 -   [SwooleCoroutineMySQL::connect »](swoole-coroutine-mysql.connect.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleCoroutine](class.swoole-coroutine.html)
     

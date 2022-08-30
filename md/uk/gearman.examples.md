@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](gearman.constants.html)
+-   [« Обумовлені константи](gearman.constants.md)
     
 -   [Базовое использование »](gearman.examples-reverse.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gearman](book.gearman.html)
+-   [Gearman](book.gearman.md)
     
 -   Приклади
     
@@ -16,5 +16,5 @@
 ## Зміст
 
 -   [Базовое использование](gearman.examples-reverse.html)
--   [Базовый клиент и обработчик Gearman, фоновый режим](gearman.examples-reverse-bg.html)
--   [Базовые клиент и обработчик Gearman, отправка задач](gearman.examples-reverse-task.html)
+-   [Базовий клієнт та обробник Gearman, фоновий режим](gearman.examples-reverse-bg.html)
+-   [Базові клієнт та обробник Gearman, відправка завдань](gearman.examples-reverse-task.html)

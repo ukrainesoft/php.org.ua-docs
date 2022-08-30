@@ -1,12 +1,12 @@
 Відновлює коректний стан купи
 
--   [« SplHeap::next](splheap.next.html)
+-   [« SplHeap::next](splheap.next.md)
     
--   [SplHeap::rewind »](splheap.rewind.html)
+-   [SplHeap::rewind »](splheap.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplHeap](class.splheap.html)
+-   [SplHeap](class.splheap.md)
     
 -   Відновлює коректний стан купи
     

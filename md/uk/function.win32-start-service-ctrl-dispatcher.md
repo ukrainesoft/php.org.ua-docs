@@ -4,9 +4,9 @@
     
 -   [win32startservice »](function.win32-start-service.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [win32service](ref.win32service.html)
+-   [win32service](ref.win32service.md)
     
 -   Додає до Диспетчера служб скрипт, який може бути використаний як служба із заданим ім'ям
     
@@ -45,23 +45,23 @@ win32_start_service_ctrl_dispatcher(string $name, bool $gracefulMode = true): vo
 
 Функція не повертає значення після виконання.
 
-До версії 1.0.0, Повертає **`WIN32_NO_ERROR`** у разі успішного завершення **`false`** якщо була виявлена ​​проблема з параметрами або [код ошибки Win32](win32service.constants.errors.html) при невдалому завершенні роботи.
+До версії 1.0.0, Повертає **`WIN32_NO_ERROR`** у разі успішного завершення **`false`** якщо була виявлена ​​проблема з параметрами або [код ошибки Win32](win32service.constants.errors.md) при невдалому завершенні роботи.
 
 ### Помилки
 
 До версії 1.0.0, якщо SAPI не є `"cli"`, дана функція викликає помилку рівня **`E_ERROR`**
 
-Починаючи з версії 1.0.0, викидає виняток [Win32ServiceException](class.win32serviceexception.html), якщо SAPI не є `"cli"`
+Починаючи з версії 1.0.0, викидає виняток [Win32ServiceException](class.win32serviceexception.md), якщо SAPI не є `"cli"`
 
 ### список змін
 
-| Версия                  | Описание                                                                                                                                                              |
-|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) при некоректних даних у параметрах, що раніше поверталося **`false`**                                                     |
-| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.html) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.html) |
-| PECL win32service 1.0.0 | Тип значення, що повертається void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed)                                            |
-| PECL win32service 0.4.0 | Доданий параметр `gracefulMode`                                                                                                                                       |
-| PECL win32service 0.2.0 | Ця функція працює тільки з `"cli"` SAPI.                                                                                                                              |
+| Версия | Описание |
+| --- | --- |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при некоректних даних у параметрах, що раніше поверталося **`false`** |
+| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
+| PECL win32service 1.0.0 | Тип значення, що повертається void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
+| PECL win32service 0.4.0 | Доданий параметр `gracefulMode` |
+| PECL win32service 0.2.0 | Ця функція працює тільки з `"cli"` SAPI. |
 
 ### Приклади
 
@@ -95,4 +95,4 @@ while (WIN32_SERVICE_CONTROL_STOP != win32_get_last_control_message()) {
 -   [win32getlastcontrolmessage()](function.win32-get-last-control-message.html) - Повертає останнє керуюче повідомлення, яке було надіслано цій службі
 -   [win32setserviceexitmode()](function.win32-set-service-exit-mode.html) - Визначає або повертає режим виходу для поточної запущеної служби
 -   [win32setserviceexitcode()](function.win32-set-service-exit-code.html) - Визначає чи повертає код виходу для поточної запущеної служби
--   [Коды Ошибок Win32](win32service.constants.errors.html)
+-   [Коди Помилок Win32](win32service.constants.errors.md)

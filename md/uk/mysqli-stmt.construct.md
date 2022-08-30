@@ -4,7 +4,7 @@
     
 -   [mysqlistmt::dataseek »](mysqli-stmt.data-seek.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlistmt](class.mysqli-stmt.html)
     
@@ -19,7 +19,7 @@ mysqlistmt::construct — Конструктор для об'єкту [mysqlistm
 
 ### Опис
 
-public **mysqlistmt::construct**[mysqli](class.mysqli.html) `$mysql`, ?string `$query` **`null`**
+public **mysqlistmt::construct**[mysqli](class.mysqli.md) `$mysql`, ?string `$query` **`null`**
 
 Цей метод створює новий об'єкт класу [mysqlistmt](class.mysqli-stmt.html)
 
@@ -27,19 +27,19 @@ public **mysqlistmt::construct**[mysqli](class.mysqli.html) `$mysql`, ?string `$
 
 `link`
 
-Коректний об'єкт [mysqli](class.mysqli.html)
+Коректний об'єкт [mysqli](class.mysqli.md)
 
 `query`
 
-Рядок, що містить SQL-запит. Якщо цей параметр **`null`**, то результат буде аналогічним виклику [mysqlistmtinit()](mysqli.stmt-init.html), інакше результат буде аналогічний виклику [mysqliprepare()](mysqli.prepare.html)
+Рядок, що містить SQL-запит. Якщо цей параметр **`null`**, то результат буде аналогічним виклику [mysqlistmtinit()](mysqli.stmt-init.html), інакше результат буде аналогічний виклику [mysqliprepare()](mysqli.prepare.md)
 
 ### список змін
 
-| Версия | Описание                              |
-|--------|---------------------------------------|
-|        | `query` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `query` тепер допускає значення null. |
 
 ### Дивіться також
 
--   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
 -   [mysqlistmtinit()](mysqli.stmt-init.html) - Ініціалізує запит та повертає об'єкт для використання у mysqlistmtprepare

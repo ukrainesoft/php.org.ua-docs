@@ -1,12 +1,12 @@
 Перевіряє, чи встановлено значення за промовчанням для властивості.
 
--   [« ReflectionProperty::getValue](reflectionproperty.getvalue.html)
+-   [« ReflectionProperty::getValue](reflectionproperty.getvalue.md)
     
--   [ReflectionProperty::hasType »](reflectionproperty.hastype.html)
+-   [ReflectionProperty::hasType »](reflectionproperty.hastype.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionProperty](class.reflectionproperty.html)
+-   [ReflectionProperty](class.reflectionproperty.md)
     
 -   Перевіряє, чи встановлено значення за промовчанням для властивості.
     
@@ -75,4 +75,4 @@ Fatal error: Uncaught ReflectionException: Property Foo::$pong does not exist in
 
 ### Дивіться також
 
--   [ReflectionProperty::getDefaultValue()](reflectionproperty.getdefaultvalue.html) - Повертає значення за промовчанням, задане для якості
+-   [ReflectionProperty::getDefaultValue()](reflectionproperty.getdefaultvalue.md) - Повертає значення за промовчанням, задане для якості

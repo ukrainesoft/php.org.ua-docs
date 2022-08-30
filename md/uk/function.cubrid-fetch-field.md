@@ -4,9 +4,9 @@
     
 -   [cubridfetchlengths »](function.cubrid-fetch-lengths.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
     
 -   Отримання інформації про стовпчик результуючого набору у вигляді об'єкта
     

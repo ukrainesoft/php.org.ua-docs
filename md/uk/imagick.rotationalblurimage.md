@@ -1,12 +1,12 @@
 Застосовує обертальне розмиття до зображення
 
--   [« Imagick::rotateImage](imagick.rotateimage.html)
+-   [« Imagick::rotateImage](imagick.rotateimage.md)
     
--   [Imagick::roundCorners »](imagick.roundcorners.html)
+-   [Imagick::roundCorners »](imagick.roundcorners.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Застосовує обертальне розмиття до зображення
     
@@ -33,7 +33,7 @@ public Imagick::rotationalBlurImage(float $angle, int $channel = Imagick::CHANNE
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константы каналов](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
 
 ### Значення, що повертаються
 

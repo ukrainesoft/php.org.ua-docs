@@ -1,12 +1,12 @@
 Встановлює гаму зображення
 
--   [« Imagick::setImageFormat](imagick.setimageformat.html)
+-   [« Imagick::setImageFormat](imagick.setimageformat.md)
     
--   [Imagick::setImageGravity »](imagick.setimagegravity.html)
+-   [Imagick::setImageGravity »](imagick.setimagegravity.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює гаму зображення
     

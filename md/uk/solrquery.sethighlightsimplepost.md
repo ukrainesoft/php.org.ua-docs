@@ -1,12 +1,12 @@
 Встановлює текст, який з'являється після виділення
 
--   [« SolrQuery::setHighlightRequireFieldMatch](solrquery.sethighlightrequirefieldmatch.html)
+-   [« SolrQuery::setHighlightRequireFieldMatch](solrquery.sethighlightrequirefieldmatch.md)
     
--   [SolrQuery::setHighlightSimplePre »](solrquery.sethighlightsimplepre.html)
+-   [SolrQuery::setHighlightSimplePre »](solrquery.sethighlightsimplepre.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Встановлює текст, який з'являється після виділення
     
@@ -39,4 +39,4 @@ public SolrQuery::setHighlightSimplePost(string $simplePost, string $field_overr
 
 ### Значення, що повертаються
 
-Повертає екземпляр [SolrQuery](class.solrquery.html)
+Повертає екземпляр [SolrQuery](class.solrquery.md)

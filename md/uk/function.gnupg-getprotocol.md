@@ -4,9 +4,9 @@
     
 -   [gnupggettrustlist »](function.gnupg-gettrustlist.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GnuPG Функції](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.md)
     
 -   Повертає поточний активний протокол для всіх операцій
     

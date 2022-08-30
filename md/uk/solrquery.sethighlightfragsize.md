@@ -1,12 +1,12 @@
 Розмір фрагментів, які слід враховувати під час виділення
 
--   [« SolrQuery::setHighlightFragmenter](solrquery.sethighlightfragmenter.html)
+-   [« SolrQuery::setHighlightFragmenter](solrquery.sethighlightfragmenter.md)
     
--   [SolrQuery::setHighlightHighlightMultiTerm »](solrquery.sethighlighthighlightmultiterm.html)
+-   [SolrQuery::setHighlightHighlightMultiTerm »](solrquery.sethighlighthighlightmultiterm.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Розмір фрагментів, які слід враховувати під час виділення
     

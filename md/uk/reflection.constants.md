@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](reflection.resources.html)
+-   [« Типи ресурсів](reflection.resources.md)
     
--   [Примеры »](reflection.examples.html)
+-   [Приклади »](reflection.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Reflection](book.reflection.html)
+-   [Reflection](book.reflection.md)
     
 -   Обумовлені константи
     

@@ -1,12 +1,12 @@
 Очищає ресурси, пов'язані з цим об'єктом
 
--   [« ImagickPixel](class.imagickpixel.html)
+-   [« ImagickPixel](class.imagickpixel.md)
     
--   [ImagickPixel::construct »](imagickpixel.construct.html)
+-   [ImagickPixel::construct »](imagickpixel.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickPixel](class.imagickpixel.html)
+-   [ImagickPixel](class.imagickpixel.md)
     
 -   Очищає ресурси, пов'язані з цим об'єктом
     

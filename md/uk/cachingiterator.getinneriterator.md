@@ -1,12 +1,12 @@
 Повертає внутрішній ітератор
 
--   [« CachingIterator::getFlags](cachingiterator.getflags.html)
+-   [« CachingIterator::getFlags](cachingiterator.getflags.md)
     
--   [CachingIterator::hasNext »](cachingiterator.hasnext.html)
+-   [CachingIterator::hasNext »](cachingiterator.hasnext.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CachingIterator](class.cachingiterator.html)
+-   [CachingIterator](class.cachingiterator.md)
     
 -   Повертає внутрішній ітератор
     

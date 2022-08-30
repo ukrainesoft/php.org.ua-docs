@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.zmq.html)
     
--   [Требования »](zmq.requirements.html)
+-   [Вимоги »](zmq.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [Требования](zmq.requirements.html)
+-   [Вимоги](zmq.requirements.html)

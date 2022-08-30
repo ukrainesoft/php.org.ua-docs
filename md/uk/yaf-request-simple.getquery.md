@@ -4,7 +4,7 @@
     
 -   [YafRequestSimple::getRequest »](yaf-request-simple.getrequest.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRequestSimple](class.yaf-request-simple.html)
     

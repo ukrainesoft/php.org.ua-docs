@@ -4,7 +4,7 @@
     
 -   [ДсDeque::copy »](ds-deque.copy.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Двостороння черга](class.ds-deque.html)
     

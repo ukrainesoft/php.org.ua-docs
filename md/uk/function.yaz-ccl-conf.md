@@ -4,9 +4,9 @@
     
 -   [yazcclparse »](function.yaz-ccl-parse.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции YAZ](ref.yaz.html)
+-   [Функции YAZ](ref.yaz.md)
     
 -   Конфігурує CCL-парсер
     

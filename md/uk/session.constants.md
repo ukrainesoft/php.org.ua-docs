@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](session.resources.html)
+-   [« Типи ресурсів](session.resources.md)
     
--   [Примеры »](session.examples.html)
+-   [Приклади »](session.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Сессии](book.session.html)
+-   [Сессии](book.session.md)
     
 -   Обумовлені константи
     

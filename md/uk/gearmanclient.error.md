@@ -1,12 +1,12 @@
 Повернути рядок помилки для останньої виявленої помилки
 
--   [« GearmanClient::echo](gearmanclient.echo.html)
+-   [« GearmanClient::echo](gearmanclient.echo.md)
     
--   [GearmanClient::getErrno »](gearmanclient.geterrno.html)
+-   [GearmanClient::getErrno »](gearmanclient.geterrno.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanClient](class.gearmanclient.html)
+-   [GearmanClient](class.gearmanclient.md)
     
 -   Повернути рядок помилки для останньої виявленої помилки
     
@@ -35,4 +35,4 @@ public GearmanClient::error(): string
 
 ### Дивіться також
 
--   [GearmanClient::getErrno()](gearmanclient.geterrno.html) - Отримати значення errno
+-   [GearmanClient::getErrno()](gearmanclient.geterrno.md) - Отримати значення errno

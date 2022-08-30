@@ -2,11 +2,11 @@
 
 -   [« Тестування](oci8.test.html)
     
--   [Предопределённые константы »](oci8.constants.html)
+-   [Обумовлені константи »](oci8.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](oci8.setup.html)
+-   [Встановлення та налаштування](oci8.setup.html)
     
 -   Налаштування під час виконання
     
@@ -17,18 +17,18 @@
 
 **Параметри конфігурації OCI8**
 
-| Имя                                                                                   | По умолчанию | Место изменения | Список изменений                                                             |
-|---------------------------------------------------------------------------------------|--------------|-----------------|------------------------------------------------------------------------------|
-| [oci8.connectionclass](oci8.configuration.html#ini.oci8.connection-class)             | ""           | PHPINIALL       | Доступна з версії PECL OCI8 1.3.                                             |
-| [oci8.defaultprefetch](oci8.configuration.html#ini.oci8.default-prefetch)             | "100"        | PHPINISYSTEM    | Доступна з версії PECL OCI8 1.1.                                             |
-| [oci8.events](oci8.configuration.html#ini.oci8.events)                                | Off          | PHPINISYSTEM    | Доступна з версії PECL OCI8 1.3.                                             |
-| [oci8.maxpersistent](oci8.configuration.html#ini.oci8.max-persistent)                 | "-1"         | PHPINISYSTEM    | Доступна з версії PECL OCI8 1.1. Оголошена застарілою починаючи з PHP 8.1.0. |
-| [oci8.oldociclosesemantics](oci8.configuration.html#ini.oci8.old-oci-close-semantics) | Off          | PHPINISYSTEM    | Доступна з версії PECL OCI8 1.1.                                             |
-| [oci8.persistenttimeout](oci8.configuration.html#ini.oci8.persistent-timeout)         | "-1"         | PHPINISYSTEM    | Доступна з версії PECL OCI8 1.1.                                             |
-| [oci8.pinginterval](oci8.configuration.html#ini.oci8.ping-interval)                   | "60"         | PHPINISYSTEM    | Доступна з версії PECL OCI8 1.1.                                             |
-| [oci8.prefetchlobsize](oci8.configuration.html#ini.oci8.prefetch-lob-size)            | "0"          | PHPINISYSTEM    | Доступна з версії PECL OCI8 3.2.                                             |
-| [oci8.privilegedconnect](oci8.configuration.html#ini.oci8.privileged-connect)         | Off          | PHPINISYSTEM    | Доступна з версії PECL OCI8 1.1.                                             |
-| [oci8.statementcachesize](oci8.configuration.html#ini.oci8.statement-cache-size)      | "20"         | PHPINISYSTEM    | Доступна з версії PECL OCI8 1.1.                                             |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [oci8.connectionclass](oci8.configuration.html#ini.oci8.connection-class) | "" | PHPINIALL | Доступна з версії PECL OCI8 1.3. |
+| [oci8.defaultprefetch](oci8.configuration.html#ini.oci8.default-prefetch) | "100" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
+| [oci8.events](oci8.configuration.html#ini.oci8.events) | Off | PHPINISYSTEM | Доступна з версії PECL OCI8 1.3. |
+| [oci8.maxpersistent](oci8.configuration.html#ini.oci8.max-persistent) | "-1" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. Оголошена застарілою починаючи з PHP 8.1.0. |
+| [oci8.oldociclosesemantics](oci8.configuration.html#ini.oci8.old-oci-close-semantics) | Off | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
+| [oci8.persistenttimeout](oci8.configuration.html#ini.oci8.persistent-timeout) | "-1" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
+| [oci8.pinginterval](oci8.configuration.html#ini.oci8.ping-interval) | "60" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
+| [oci8.prefetchlobsize](oci8.configuration.html#ini.oci8.prefetch-lob-size) | "0" | PHPINISYSTEM | Доступна з версії PECL OCI8 3.2. |
+| [oci8.privilegedconnect](oci8.configuration.html#ini.oci8.privileged-connect) | Off | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
+| [oci8.statementcachesize](oci8.configuration.html#ini.oci8.statement-cache-size) | "20" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
 
 Коротке пояснення конфігураційних директив.
 

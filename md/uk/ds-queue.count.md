@@ -4,7 +4,7 @@
     
 -   [ДсQueue::isEmpty »](ds-queue.isempty.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Черга](class.ds-queue.html)
     
@@ -17,4 +17,4 @@
 
 ДсQueue::count — Повертає кількість елементів черги
 
-Дивіться [Countable::count()](countable.count.html)
+Дивіться [Countable::count()](countable.count.md)

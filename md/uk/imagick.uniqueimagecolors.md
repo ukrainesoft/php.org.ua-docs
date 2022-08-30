@@ -1,12 +1,12 @@
 Відкидає все, крім одного, будь-якого кольору пікселя
 
--   [« Imagick::trimImage](imagick.trimimage.html)
+-   [« Imagick::trimImage](imagick.trimimage.md)
     
--   [Imagick::unsharpMaskImage »](imagick.unsharpmaskimage.html)
+-   [Imagick::unsharpMaskImage »](imagick.unsharpmaskimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Відкидає все, крім одного, будь-якого кольору пікселя
     

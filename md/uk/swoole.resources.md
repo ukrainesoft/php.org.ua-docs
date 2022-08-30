@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](swoole.configuration.html)
+-   [« Налаштування під час виконання](swoole.configuration.md)
     
--   [Предопределённые константы »](swoole.constants.html)
+-   [Обумовлені константи »](swoole.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](swoole.setup.html)
+-   [Встановлення та налаштування](swoole.setup.md)
     
 -   Типи ресурсів
     

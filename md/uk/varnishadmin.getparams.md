@@ -1,12 +1,12 @@
 Отримати параметри конфігурації поточного екземпляра varnish
 
--   [« VarnishAdmin::getPanic](varnishadmin.getpanic.html)
+-   [« VarnishAdmin::getPanic](varnishadmin.getpanic.md)
     
--   [VarnishAdmin::isRunning »](varnishadmin.isrunning.html)
+-   [VarnishAdmin::isRunning »](varnishadmin.isrunning.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [VarnishAdmin](class.varnishadmin.html)
+-   [VarnishAdmin](class.varnishadmin.md)
     
 -   Отримати параметри конфігурації поточного екземпляра varnish
     

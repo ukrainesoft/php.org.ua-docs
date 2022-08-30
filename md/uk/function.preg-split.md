@@ -159,7 +159,7 @@ Array
 
 ### Дивіться також
 
--   "[Регулярные выражения PCRE](pcre.pattern.html)"
+-   "[Регулярні вирази PCRE](pcre.pattern.html)"
 -   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
 -   [implode()](function.implode.html) - Об'єднує елементи масиву в рядок
 -   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу

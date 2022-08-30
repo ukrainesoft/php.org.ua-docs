@@ -4,7 +4,7 @@
     
 -   [ДсDeque::slice »](ds-deque.slice.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Двостороння черга](class.ds-deque.html)
     
@@ -35,7 +35,7 @@ public Ds\Deque::shift(): mixed
 
 ### Помилки
 
-Викидає виняток [UnderflowException](class.underflowexception.html)якщо двостороння черга порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо двостороння черга порожня.
 
 ### Приклади
 

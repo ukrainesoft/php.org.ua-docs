@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](solr.setup.html)
+-   [« Встановлення та налаштування](solr.setup.html)
     
 -   [Установка »](solr.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](solr.setup.html)
+-   [Встановлення та налаштування](solr.setup.html)
     
 -   Вимоги
     

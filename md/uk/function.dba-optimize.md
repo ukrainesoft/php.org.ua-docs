@@ -4,9 +4,9 @@
     
 -   [dbapopen »](function.dba-popen.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції DBA](ref.dba.html)
+-   [Функції DBA](ref.dba.md)
     
 -   Оптимізує базу даних
     

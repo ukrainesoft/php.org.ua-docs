@@ -4,9 +4,9 @@
     
 -   [socketsendmsg »](function.socket-sendmsg.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции сокета](ref.sockets.html)
+-   [Функции сокета](ref.sockets.md)
     
 -   Надсилає дані в приєднаний сокет
     
@@ -29,7 +29,7 @@ socket_send(    Socket $socket,    string $data,    int $length,  
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
+Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
 
 `data`
 
@@ -51,9 +51,9 @@ socket_send(    Socket $socket,    string $data,    int $length,  
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 

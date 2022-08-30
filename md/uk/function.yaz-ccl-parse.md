@@ -4,9 +4,9 @@
     
 -   [yazclose »](function.yaz-close.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции YAZ](ref.yaz.html)
+-   [Функции YAZ](ref.yaz.md)
     
 -   Викликає парсер CCL
     

@@ -4,9 +4,9 @@
     
 -   [dbafirstkey »](function.dba-firstkey.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції DBA](ref.dba.html)
+-   [Функції DBA](ref.dba.md)
     
 -   Витягує дані за вказаним ключем
     

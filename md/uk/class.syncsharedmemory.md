@@ -1,12 +1,12 @@
 Клас SyncSharedMemory
 
--   [« SyncReaderWriter::writeunlock](syncreaderwriter.writeunlock.html)
+-   [« SyncReaderWriter::writeunlock](syncreaderwriter.writeunlock.md)
     
--   [SyncSharedMemory::construct »](syncsharedmemory.construct.html)
+-   [SyncSharedMemory::construct »](syncsharedmemory.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Sync](book.sync.html)
+-   [Sync](book.sync.md)
     
 -   Клас SyncSharedMemory
     
@@ -49,8 +49,8 @@ public write(string $string = ?, int $start = 0)
 
 ## Зміст
 
--   [SyncSharedMemory::construct](syncsharedmemory.construct.html) — Створює новий об'єкт SyncSharedMemory
--   [SyncSharedMemory::first](syncsharedmemory.first.html) — Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
--   [SyncSharedMemory::read](syncsharedmemory.read.html) — Копіює дані з іменованої пам'яті, що розділяється
--   [SyncSharedMemory::size](syncsharedmemory.size.html) — Повертає розмір іменованої пам'яті, що розділяється.
--   [SyncSharedMemory::write](syncsharedmemory.write.html) — Копіює дані в іменовану пам'ять, що розділяється.
+-   [SyncSharedMemory::construct](syncsharedmemory.construct.md) — Створює новий об'єкт SyncSharedMemory
+-   [SyncSharedMemory::first](syncsharedmemory.first.md) — Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
+-   [SyncSharedMemory::read](syncsharedmemory.read.md) — Копіює дані з іменованої пам'яті, що розділяється
+-   [SyncSharedMemory::size](syncsharedmemory.size.md) — Повертає розмір іменованої пам'яті, що розділяється.
+-   [SyncSharedMemory::write](syncsharedmemory.write.md) — Копіює дані в іменовану пам'ять, що розділяється.

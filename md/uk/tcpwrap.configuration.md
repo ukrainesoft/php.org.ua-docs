@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](tcpwrap.installation.html)
+-   [« Установка](tcpwrap.installation.md)
     
--   [Типы ресурсов »](tcpwrap.resources.html)
+-   [Типи ресурсів »](tcpwrap.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](tcpwrap.setup.html)
+-   [Встановлення та налаштування](tcpwrap.setup.md)
     
 -   Налаштування під час виконання
     

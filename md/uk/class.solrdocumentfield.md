@@ -1,12 +1,12 @@
 Клас SolrDocumentField
 
--   [« SolrDocument::valid](solrdocument.valid.html)
+-   [« SolrDocument::valid](solrdocument.valid.md)
     
--   [SolrDocumentField::construct »](solrdocumentfield.construct.html)
+-   [SolrDocumentField::construct »](solrdocumentfield.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Solr](book.solr.html)
+-   [Solr](book.solr.md)
     
 -   Клас SolrDocumentField
     
@@ -76,5 +76,5 @@ values
 
 ## Зміст
 
--   [SolrDocumentField::construct](solrdocumentfield.construct.html) - Конструктор
--   [SolrDocumentField::destruct](solrdocumentfield.destruct.html) - Деструктор
+-   [SolrDocumentField::construct](solrdocumentfield.construct.md) - Конструктор
+-   [SolrDocumentField::destruct](solrdocumentfield.destruct.md) - Деструктор

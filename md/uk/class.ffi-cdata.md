@@ -1,12 +1,12 @@
 Доступ до даних C
 
--   [« FFI::typeof](ffi.typeof.html)
+-   [« FFI::typeof](ffi.typeof.md)
     
 -   [FFICType »](class.ffi-ctype.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FFI](book.ffi.html)
+-   [FFI](book.ffi.md)
     
 -   Доступ до даних C
     
@@ -23,16 +23,16 @@
 -   Поля структур(struct) та об'єднань(union) C доступні як звичайні властивості об'єкта PHP: `$cdata->field`
 -   Доступ до елементів масивів C відбувається так само, як доступ до елементів звичайного масиву PHP: `$cdata[$offset]`
 -   Масиви C можна перебирати за допомогою [foreach](control-structures.foreach.html)
--   Для масивів C можна використовувати функцію [count()](function.count.html)
+-   Для масивів C можна використовувати функцію [count()](function.count.md)
 -   Покажчики C можуть бути розіменовані як масив: `$cdata[0]`
 -   Покажчики C можна порівнювати звичайними операторами порівняння (`<` `<=` `==` `!=` `>=` `>`
 -   Для покажчиків C можна використовувати операції інкременту та декременту `+``-` `++``–-` `$cdata += 5`
 -   Вказівники C можна віднімати один з одного за допомогою операції `-`
 -   Вказівники на функції можна викликати як звичайні замикання PHP: `$cdata()`
--   Будь-які дані C можна клонувати за допомогою [clone](language.oop5.cloning.html) `$cdata2 = clone $cdata;`
+-   Будь-які дані C можна клонувати за допомогою [clone](language.oop5.cloning.md) `$cdata2 = clone $cdata;`
 -   Будь-які дані C можна візуалізувати за допомогою [vardump()](function.var-dump.html) [printr()](function.print-r.html), і т.д.
 
-> **Зауваження**: Зверніть увагу, що для екземплярів **FFICData** не підтримуються функції [isset()](function.isset.html) [empty()](function.empty.html) і [unset()](function.unset.html). А для тих, що обертають структури та об'єднання, не реалізований інтерфейс. [Traversable](class.traversable.html)
+> **Зауваження**: Зверніть увагу, що для екземплярів **FFICData** не підтримуються функції [isset()](function.isset.md) [empty()](function.empty.md) і [unset()](function.unset.md). А для тих, що обертають структури та об'єднання, не реалізований інтерфейс. [Traversable](class.traversable.md)
 
 ## Огляд класів
 

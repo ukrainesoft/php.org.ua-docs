@@ -4,9 +4,9 @@
     
 -   [traderobv »](function.trader-obv.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Нормалізований середній дійсний діапазон
     

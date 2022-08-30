@@ -4,9 +4,9 @@
     
 -   [SwooleWebSocketServer »](class.swoole-websocket-server.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Swoole](book.swoole.html)
+-   [Swoole](book.swoole.md)
     
 -   Клас SwooleWebSocketFrame
     

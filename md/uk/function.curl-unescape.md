@@ -4,9 +4,9 @@
     
 -   [curlversion »](function.curl-version.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции cURL](ref.curl.html)
+-   [Функции cURL](ref.curl.md)
     
 -   Декодує закодований URL-рядок
     
@@ -41,9 +41,9 @@ curl_unescape(CurlHandle $handle, string $string): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -75,12 +75,12 @@ curl_close($ch);
 
 > **Зауваження**
 > 
-> **curlunescape()** не перетворює плюс (+) у пробіл. Це робить функцію [urldecode()](function.urldecode.html)
+> **curlunescape()** не перетворює плюс (+) у пробіл. Це робить функцію [urldecode()](function.urldecode.md)
 
 ### Дивіться також
 
 -   [curlescape()](function.curl-escape.html) - Кодує заданий рядок як URL
--   [urlencode()](function.urlencode.html) - URL-кодування рядка
--   [urldecode()](function.urldecode.html) - Декодування URL-кодованого рядка
--   [rawurlencode()](function.rawurlencode.html) - URL-кодування рядка згідно з RFC 3986
--   [rawurldecode()](function.rawurldecode.html) - Декодування URL-кодованого рядка
+-   [urlencode()](function.urlencode.md) - URL-кодування рядка
+-   [urldecode()](function.urldecode.md) - Декодування URL-кодованого рядка
+-   [rawurlencode()](function.rawurlencode.md) - URL-кодування рядка згідно з RFC 3986
+-   [rawurldecode()](function.rawurldecode.md) - Декодування URL-кодованого рядка

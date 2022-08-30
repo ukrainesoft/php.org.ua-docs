@@ -1,12 +1,12 @@
 Відправляє блок даних як частину поточної фрагментованої відповіді
 
--   [« EventHttpRequest::sendReply](eventhttprequest.sendreply.html)
+-   [« EventHttpRequest::sendReply](eventhttprequest.sendreply.md)
     
--   [EventHttpRequest::sendReplyEnd »](eventhttprequest.sendreplyend.html)
+-   [EventHttpRequest::sendReplyEnd »](eventhttprequest.sendreplyend.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpRequest](class.eventhttprequest.html)
+-   [EventHttpRequest](class.eventhttprequest.md)
     
 -   Відправляє блок даних як частину поточної фрагментованої відповіді
     
@@ -41,5 +41,5 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::sendReplyStart()](eventhttprequest.sendreplystart.html) - Ініціює фрагментарну відповідь
--   [EventHttpRequest::sendReplyEnd()](eventhttprequest.sendreplyend.html) - заповнює фрагментарну відповідь, звільняючи запит відповідним чином
+-   [EventHttpRequest::sendReplyStart()](eventhttprequest.sendreplystart.md) - Ініціює фрагментарну відповідь
+-   [EventHttpRequest::sendReplyEnd()](eventhttprequest.sendreplyend.md) - заповнює фрагментарну відповідь, звільняючи запит відповідним чином

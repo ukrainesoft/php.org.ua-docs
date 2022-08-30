@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](var-representation.setup.html)
+-   [« Встановлення та налаштування](var-representation.setup.html)
     
 -   [Установка »](var-representation.installation.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](var-representation.setup.html)
+-   [Встановлення та налаштування](var-representation.setup.html)
     
 -   Вимоги
     

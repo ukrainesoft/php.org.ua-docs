@@ -1,12 +1,12 @@
 Повертає поточний об'єкт
 
--   [« SplObjectStorage::count](splobjectstorage.count.html)
+-   [« SplObjectStorage::count](splobjectstorage.count.md)
     
--   [SplObjectStorage::detach »](splobjectstorage.detach.html)
+-   [SplObjectStorage::detach »](splobjectstorage.detach.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplObjectStorage](class.splobjectstorage.html)
+-   [SplObjectStorage](class.splobjectstorage.md)
     
 -   Повертає поточний об'єкт
     
@@ -35,9 +35,9 @@ public SplObjectStorage::current(): object
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                       |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Метод **SplObjectStorage::current()** тепер викидає виняток [Error](class.error.html), якщо поточна позиція є неприпустимою. Раніше натомість поверталося значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Метод **SplObjectStorage::current()** тепер викидає виняток [Error](class.error.md), якщо поточна позиція є неприпустимою. Раніше натомість поверталося значення **`false`** |
 
 ### Приклади
 
@@ -79,8 +79,8 @@ string(2) "d2"
 
 ### Дивіться також
 
--   [SplObjectStorage::rewind()](splobjectstorage.rewind.html) - перекладає ітератор на перший елемент контейнера
--   [SplObjectStorage::key()](splobjectstorage.key.html) - Повертає індекс поточного становища ітератора
--   [SplObjectStorage::next()](splobjectstorage.next.html) - Перехід до наступного об'єкту
--   [SplObjectStorage::valid()](splobjectstorage.valid.html) - Визначає, чи допустиме поточне значення ітератора
--   [SplObjectStorage::getInfo()](splobjectstorage.getinfo.html) - Повертає дані, що асоціюються з поточним об'єктом
+-   [SplObjectStorage::rewind()](splobjectstorage.rewind.md) - перекладає ітератор на перший елемент контейнера
+-   [SplObjectStorage::key()](splobjectstorage.key.md) - Повертає індекс поточного становища ітератора
+-   [SplObjectStorage::next()](splobjectstorage.next.md) - Перехід до наступного об'єкту
+-   [SplObjectStorage::valid()](splobjectstorage.valid.md) - Визначає, чи допустиме поточне значення ітератора
+-   [SplObjectStorage::getInfo()](splobjectstorage.getinfo.md) - Повертає дані, що асоціюються з поточним об'єктом

@@ -4,9 +4,9 @@
     
 -   [opensslcsrsign »](function.openssl-csr-sign.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Генерує CSR
     
@@ -25,7 +25,7 @@ openssl_csr_new(    array $distinguished_names,    OpenSSLAsymmetricKey 
 
 **opensslcsrnew()** створює новий запит на підпис сертифіката (Certificate Signing Request або CSR) ґрунтуючись на інформації, зазначеній у параметрі `distinguished_names`
 
-> **Зауваження**: Для коректної роботи цієї функції має бути правильний openssl.cnf. Для більш детальної інформації дивіться зауваження під [разделом установки](openssl.installation.html)
+> **Зауваження**: Для коректної роботи цієї функції має бути правильний openssl.cnf. Для більш детальної інформації дивіться зауваження під [разделом установки](openssl.installation.md)
 
 ### Список параметрів
 
@@ -43,17 +43,17 @@ openssl_csr_new(    array $distinguished_names,    OpenSSLAsymmetricKey 
 
 **Перевизначення конфігурації**
 
-| Ключ `options`   | Тип    | Соответствие в `openssl.conf` | Описание                                                                                                                                                                                                          |
-|------------------|--------|-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| digestalg        | string | defaultмд                     | Один із методів [opensslgetмдmethods()](function.openssl-get-md-methods.html)                                                                                                                                     |
-| x509extensions   | string | x509extensions                | Визначає, яке розширення має використовуватись для створення сертифіката x509                                                                                                                                     |
-| reqextensions    | string | reqextensions                 | Визначає, яке розширення має використовуватись для створення CSR                                                                                                                                                  |
-| privatekeybits   | int    | defaultbits                   | Задає, скільки біт має використовуватись для генерації закритого ключа                                                                                                                                            |
-| privatekeytype   | int    | none                          | Задає тип закритого ключа, що створюється. Одна з констант: **`OPENSSL_KEYTYPE_DSA`** **`OPENSSL_KEYTYPE_DH`** **`OPENSSL_KEYTYPE_RSA`** або **`OPENSSL_KEYTYPE_EC`**. За замовчуванням **`OPENSSL_KEYTYPE_RSA`** |
-| encryptkey       | bool   | encryptkey                    | Чи повинен шифруватися (паролем) ключ, що експортується?                                                                                                                                                          |
-| encryptkeycipher | int    | none                          | Одна з [констант шифрів](openssl.ciphers.html)                                                                                                                                                                    |
-| curvename        | string | none                          | Одне з [opensslgetcurvenames()](function.openssl-get-curve-names.html)                                                                                                                                            |
-| config           | string | N/A                           | Шлях до альтернативного конфігураційного файлу openssl.conf.                                                                                                                                                      |
+| Ключ `options` | Тип | Соответствие в `openssl.conf` | Описание |
+| --- | --- | --- | --- |
+| digestalg | string | defaultмд | Один із методів [opensslgetмдmethods()](function.openssl-get-md-methods.html) |
+| x509extensions | string | x509extensions | Визначає, яке розширення має використовуватись для створення сертифіката x509 |
+| reqextensions | string | reqextensions | Визначає, яке розширення має використовуватись для створення CSR |
+| privatekeybits | int | defaultbits | Задає, скільки біт має використовуватись для генерації закритого ключа |
+| privatekeytype | int | none | Задає тип закритого ключа, що створюється. Одна з констант: **`OPENSSL_KEYTYPE_DSA`** **`OPENSSL_KEYTYPE_DH`** **`OPENSSL_KEYTYPE_RSA`** або **`OPENSSL_KEYTYPE_EC`**. За замовчуванням **`OPENSSL_KEYTYPE_RSA`** |
+| encryptkey | bool | encryptkey | Чи повинен шифруватися (паролем) ключ, що експортується? |
+| encryptkeycipher | int | none | Одна з [констант шифрів](openssl.ciphers.md) |
+| curvename | string | none | Одне з [opensslgetcurvenames()](function.openssl-get-curve-names.html) |
+| config | string | N/A | Шлях до альтернативного конфігураційного файлу openssl.conf. |
 
 `extra_attributes`
 
@@ -65,11 +65,11 @@ openssl_csr_new(    array $distinguished_names,    OpenSSLAsymmetricKey 
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                   |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
-|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key`                       |
-|        | Параметр `options` тепер підтримує `curve_name`                                                                                                                                                            |
+| Версия | Описание |
+| --- | --- |
+|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
+|  | Параметр `options` тепер підтримує `curve_name` |
 
 ### Приклади
 

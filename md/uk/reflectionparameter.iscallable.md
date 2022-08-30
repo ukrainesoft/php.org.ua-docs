@@ -1,12 +1,12 @@
 Визначити, чи має параметр бути типу callable
 
--   [« ReflectionParameter::isArray](reflectionparameter.isarray.html)
+-   [« ReflectionParameter::isArray](reflectionparameter.isarray.md)
     
--   [ReflectionParameter::isDefaultValueAvailable »](reflectionparameter.isdefaultvalueavailable.html)
+-   [ReflectionParameter::isDefaultValueAvailable »](reflectionparameter.isdefaultvalueavailable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionParameter](class.reflectionparameter.html)
+-   [ReflectionParameter](class.reflectionparameter.md)
     
 -   Визначити, чи має параметр бути типу callable
     
@@ -39,7 +39,7 @@ public ReflectionParameter::isCallable(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо параметр [callable](language.types.callable.html) **`false`** в іншому випадку. У разі виникнення помилки поверне **`null`**
+Повертає **`true`**, якщо параметр [callable](language.types.callable.md) **`false`** в іншому випадку. У разі виникнення помилки поверне **`null`**
 
 ### Приклади
 

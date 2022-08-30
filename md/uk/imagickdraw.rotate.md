@@ -1,12 +1,12 @@
 Застосовує зазначений поворот до поточного координатного простору
 
--   [« ImagickDraw::resetVectorGraphics](imagickdraw.resetvectorgraphics.html)
+-   [« ImagickDraw::resetVectorGraphics](imagickdraw.resetvectorgraphics.md)
     
--   [ImagickDraw::roundRectangle »](imagickdraw.roundrectangle.html)
+-   [ImagickDraw::roundRectangle »](imagickdraw.roundrectangle.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Застосовує зазначений поворот до поточного координатного простору
     

@@ -4,9 +4,9 @@
     
 -   [fannsetrpropincreasefactor »](function.fann-set-rprop-increase-factor.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Встановлює початковий розмір кроку
     

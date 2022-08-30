@@ -4,9 +4,9 @@
     
 -   [Нові функції »](migration81.new-functions.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 8.0.x на PHP 8.1.x](migration81.html)
+-   [Миграция с PHP 8.0.x на PHP 8.1.x](migration81.md)
     
 -   Нові класи та інтерфейси
     
@@ -15,12 +15,12 @@
 
 ### CURL
 
--   [CURLStringFile](class.curlstringfile.html)
+-   [CURLStringFile](class.curlstringfile.md)
 
 ### Intl
 
--   [IntlDatePatternGenerator](class.intldatepatterngenerator.html)
+-   [IntlDatePatternGenerator](class.intldatepatterngenerator.md)
 
 ### Reflection
 
--   [ReflectionFiber](class.reflectionfiber.html)
+-   [ReflectionFiber](class.reflectionfiber.md)

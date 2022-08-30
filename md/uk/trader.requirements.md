@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](trader.setup.html)
+-   [« Встановлення та налаштування](trader.setup.md)
     
--   [Установка »](trader.installation.html)
+-   [Установка »](trader.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](trader.setup.html)
+-   [Встановлення та налаштування](trader.setup.md)
     
 -   Вимоги
     

@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](apache.resources.html)
+-   [« Типи ресурсів](apache.resources.md)
     
--   [Функции Apache »](ref.apache.html)
+-   [Функции Apache »](ref.apache.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Apache](book.apache.html)
+-   [Apache](book.apache.md)
     
 -   Обумовлені константи
     

@@ -4,9 +4,9 @@
     
 -   [ldapparseexop »](function.ldap-parse-exop.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.md)
     
 -   Повертає наступну довідку
     

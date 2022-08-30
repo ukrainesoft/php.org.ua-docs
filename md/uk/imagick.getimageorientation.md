@@ -1,12 +1,12 @@
 Повертає орієнтацію зображення
 
--   [« Imagick::getImageMimeType](imagick.getimagemimetype.html)
+-   [« Imagick::getImageMimeType](imagick.getimagemimetype.md)
     
--   [Imagick::getImagePage »](imagick.getimagepage.html)
+-   [Imagick::getImagePage »](imagick.getimagepage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає орієнтацію зображення
     

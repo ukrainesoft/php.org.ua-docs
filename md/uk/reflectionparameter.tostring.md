@@ -1,12 +1,12 @@
 Перетворення на рядок
 
--   [« ReflectionParameter::isVariadic](reflectionparameter.isvariadic.html)
+-   [« ReflectionParameter::isVariadic](reflectionparameter.isvariadic.md)
     
--   [ReflectionProperty »](class.reflectionproperty.html)
+-   [ReflectionProperty »](class.reflectionproperty.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionParameter](class.reflectionparameter.html)
+-   [ReflectionParameter](class.reflectionparameter.md)
     
 -   Перетворення на рядок
     
@@ -37,5 +37,5 @@ public ReflectionParameter::__toString(): string
 
 ### Дивіться також
 
--   [ReflectionParameter::export()](reflectionparameter.export.html) - Експорт
+-   [ReflectionParameter::export()](reflectionparameter.export.md) - Експорт
 -   [toString()](language.oop5.magic.html#object.tostring)

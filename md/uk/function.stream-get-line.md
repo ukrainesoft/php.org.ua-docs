@@ -4,9 +4,9 @@
     
 -   [streamgetmetadata »](function.stream-get-meta-data.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.md)
     
 -   Отримує рядок із потокового ресурсу до вказаного роздільника
     
@@ -27,7 +27,7 @@ stream_get_line(resource $stream, int $length, string $ending = ""): string|fals
 
 Читання закінчується, коли прочитано `length` кількість байт і коли знайдено непустий рядок, вказаний у параметрі `ending` (Вона *не* включається у значення, що повертається) або досягнуто EOF (дивлячись що відбудеться раніше).
 
-Функція дуже схожа на функцію [fgets()](function.fgets.html), крім того, що вона дозволяє використовувати роздільники рядків, що відрізняються від стандартних н, r, і рn, і *не* повертає сам роздільник.
+Функція дуже схожа на функцію [fgets()](function.fgets.md), крім того, що вона дозволяє використовувати роздільники рядків, що відрізняються від стандартних н, r, і рn, і *не* повертає сам роздільник.
 
 ### Список параметрів
 
@@ -49,6 +49,6 @@ stream_get_line(resource $stream, int $length, string $ending = ""): string|fals
 
 ### Дивіться також
 
--   [fread()](function.fread.html) - Бінарно-безпечне читання файлу
--   [fgets()](function.fgets.html) - Читає рядок із файлу
--   [fgetc()](function.fgetc.html) - Зчитує символ із файлу
+-   [fread()](function.fread.md) - Бінарно-безпечне читання файлу
+-   [fgets()](function.fgets.md) - Читає рядок із файлу
+-   [fgetc()](function.fgetc.md) - Зчитує символ із файлу

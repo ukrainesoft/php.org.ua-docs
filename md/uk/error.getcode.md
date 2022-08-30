@@ -1,12 +1,12 @@
 Повертає код помилки
 
--   [« Error::getPrevious](error.getprevious.html)
+-   [« Error::getPrevious](error.getprevious.md)
     
--   [Error::getFile »](error.getfile.html)
+-   [Error::getFile »](error.getfile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Error](class.error.html)
+-   [Error](class.error.md)
     
 -   Повертає код помилки
     
@@ -55,4 +55,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getCode()](throwable.getcode.html) - Повертає код виключення
+-   [Throwable::getCode()](throwable.getcode.md) - Повертає код виключення

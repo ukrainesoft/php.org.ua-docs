@@ -1,12 +1,12 @@
 Визначає, чи є поточний елемент DirectoryIterator директорією
 
--   [« DirectoryIterator::getType](directoryiterator.gettype.html)
+-   [« DirectoryIterator::getType](directoryiterator.gettype.md)
     
--   [DirectoryIterator::isDot »](directoryiterator.isdot.html)
+-   [DirectoryIterator::isDot »](directoryiterator.isdot.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DirectoryIterator](class.directoryiterator.html)
+-   [DirectoryIterator](class.directoryiterator.md)
     
 -   Визначає, чи є поточний елемент DirectoryIterator директорією
     
@@ -23,7 +23,7 @@ DirectoryIterator::isDir — Визначає, чи є поточний елем
 public DirectoryIterator::isDir(): bool
 ```
 
-Визначає, чи є поточний елемент [DirectoryIterator](class.directoryiterator.html) директорією.
+Визначає, чи є поточний елемент [DirectoryIterator](class.directoryiterator.md) директорією.
 
 ### Список параметрів
 
@@ -62,7 +62,7 @@ pears
 
 ### Дивіться також
 
--   [DirectoryIterator::getType()](directoryiterator.gettype.html) - Визначає тип поточного елемента DirectoryIterator
--   [DirectoryIterator::isDot()](directoryiterator.isdot.html) - Визначає, чи є поточний елемент DirectoryIterator '.' або '..'
--   [DirectoryIterator::isFile()](directoryiterator.isfile.html) - Визначає, чи є поточний елемент DirectoryIterator звичайним файлом
--   [DirectoryIterator::isLink()](directoryiterator.islink.html) - Визначає, чи є поточний елемент DirectoryIterator символічним посиланням
+-   [DirectoryIterator::getType()](directoryiterator.gettype.md) - Визначає тип поточного елемента DirectoryIterator
+-   [DirectoryIterator::isDot()](directoryiterator.isdot.md) - Визначає, чи є поточний елемент DirectoryIterator '.' або '..'
+-   [DirectoryIterator::isFile()](directoryiterator.isfile.md) - Визначає, чи є поточний елемент DirectoryIterator звичайним файлом
+-   [DirectoryIterator::isLink()](directoryiterator.islink.md) - Визначає, чи є поточний елемент DirectoryIterator символічним посиланням

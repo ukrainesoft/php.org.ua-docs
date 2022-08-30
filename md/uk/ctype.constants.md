@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](ctype.resources.html)
+-   [« Типи ресурсів](ctype.resources.md)
     
--   [Опції Ctype »](ref.ctype.html)
+-   [Опції Ctype »](ref.ctype.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Ctype](book.ctype.html)
+-   [Ctype](book.ctype.md)
     
 -   Обумовлені константи
     

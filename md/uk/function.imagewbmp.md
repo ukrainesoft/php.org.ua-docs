@@ -1,12 +1,12 @@
 Виводить зображення у браузер або пише у файл
 
--   [« imagetypes](function.imagetypes.html)
+-   [« imagetypes](function.imagetypes.md)
     
--   [imagewebp »](function.imagewebp.html)
+-   [imagewebp »](function.imagewebp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Виводить зображення у браузер або пише у файл
     
@@ -29,7 +29,7 @@ imagewbmp(GdImage $image, resource|string|null $file = null, ?int $foreground_co
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `file`
 
@@ -37,7 +37,7 @@ imagewbmp(GdImage $image, resource|string|null $file = null, ?int $foreground_co
 
 `foreground_color`
 
-Можна встановити колір верхнього шару. Колір задається ідентифікатором, створеним функцією [imagecolorallocate()](function.imagecolorallocate.html). За промовчанням колір чорний.
+Можна встановити колір верхнього шару. Колір задається ідентифікатором, створеним функцією [imagecolorallocate()](function.imagecolorallocate.md). За промовчанням колір чорний.
 
 ### Значення, що повертаються
 
@@ -49,10 +49,10 @@ imagewbmp(GdImage $image, resource|string|null $file = null, ?int $foreground_co
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
-|        | `foreground_color` тепер допускає значення null.                                                  |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+|  | `foreground_color` тепер допускає значення null. |
 
 ### Приклади
 
@@ -119,8 +119,8 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [image2wbmp()](function.image2wbmp.html) - Виводить зображення у браузер або пише у файл
--   [imagepng()](function.imagepng.html) - Виведення PNG зображення у браузер або файл
--   [imagegif()](function.imagegif.html) - Виводить зображення у браузер або пише у файл
--   [imagejpeg()](function.imagejpeg.html) - Виводить зображення у браузер або пише у файл
--   [imagetypes()](function.imagetypes.html) - Повертає список типів зображень, які підтримує PHP збірка
+-   [image2wbmp()](function.image2wbmp.md) - Виводить зображення у браузер або пише у файл
+-   [imagepng()](function.imagepng.md) - Виведення PNG зображення у браузер або файл
+-   [imagegif()](function.imagegif.md) - Виводить зображення у браузер або пише у файл
+-   [imagejpeg()](function.imagejpeg.md) - Виводить зображення у браузер або пише у файл
+-   [imagetypes()](function.imagetypes.md) - Повертає список типів зображень, які підтримує PHP збірка

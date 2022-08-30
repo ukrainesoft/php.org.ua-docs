@@ -4,9 +4,9 @@
     
 -   [mcryptmodulegetalgokeysize »](function.mcrypt-module-get-algo-key-size.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](ref.mcrypt.html)
+-   [Mcrypt](ref.mcrypt.md)
     
 -   Повертає розмір блоку вказаного алгоритму
     

@@ -1,12 +1,12 @@
 Встановлює зміщення у файловому покажчику
 
--   [« fscanf](function.fscanf.html)
+-   [« fscanf](function.fscanf.md)
     
--   [fstat »](function.fstat.html)
+-   [fstat »](function.fstat.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Встановлює зміщення у файловому покажчику
     
@@ -31,7 +31,7 @@ fseek(resource $stream, int $offset, int $whence = SEEK_SET): int
 
 `stream`
 
-Вказівник (resource) на файл, який зазвичай створюється за допомогою функції [fopen()](function.fopen.html)
+Вказівник (resource) на файл, який зазвичай створюється за допомогою функції [fopen()](function.fopen.md)
 
 `offset`
 
@@ -82,5 +82,5 @@ fseek($fp, 0);
 
 ### Дивіться також
 
--   [ftell()](function.ftell.html) - Повертає поточну позицію покажчика читання/запису файлу
--   [rewind()](function.rewind.html) - Скидає курсор файлового покажчика
+-   [ftell()](function.ftell.md) - Повертає поточну позицію покажчика читання/запису файлу
+-   [rewind()](function.rewind.md) - Скидає курсор файлового покажчика

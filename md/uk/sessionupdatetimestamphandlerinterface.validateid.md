@@ -1,12 +1,12 @@
 Перевірити ідентифікатор
 
--   [« SessionUpdateTimestampHandlerInterface::updateTimestamp](sessionupdatetimestamphandlerinterface.updatetimestamp.html)
+-   [« SessionUpdateTimestampHandlerInterface::updateTimestamp](sessionupdatetimestamphandlerinterface.updatetimestamp.md)
     
--   [Обработка текста »](refs.basic.text.html)
+-   [Обработка текста »](refs.basic.text.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.html)
+-   [SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.md)
     
 -   Перевірити ідентифікатор
     

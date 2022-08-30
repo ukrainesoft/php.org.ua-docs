@@ -1,12 +1,12 @@
 Отримує схему чергування зображень
 
--   [« Gmagick::getimageindex](gmagick.getimageindex.html)
+-   [« Gmagick::getimageindex](gmagick.getimageindex.md)
     
--   [Gmagick::getimageiterations »](gmagick.getimageiterations.html)
+-   [Gmagick::getimageiterations »](gmagick.getimageiterations.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Отримує схему чергування зображень
     

@@ -1,12 +1,12 @@
 Повертає вкладені елементи поточного елемента
 
--   [« SimpleXMLIterator::current](simplexmliterator.current.html)
+-   [« SimpleXMLIterator::current](simplexmliterator.current.md)
     
--   [SimpleXMLIterator::hasChildren »](simplexmliterator.haschildren.html)
+-   [SimpleXMLIterator::hasChildren »](simplexmliterator.haschildren.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXMLIterator](class.simplexmliterator.html)
+-   [SimpleXMLIterator](class.simplexmliterator.md)
     
 -   Повертає вкладені елементи поточного елемента
     
@@ -23,7 +23,7 @@ SimpleXMLIterator::getChildren — Повертає вкладені елеме�
 public SimpleXMLIterator::getChildren(): SimpleXMLIterator
 ```
 
-Цей метод повертає об'єкт [SimpleXMLIterator](class.simplexmliterator.html), що містить вкладені елементи поточного елемента [SimpleXMLIterator](class.simplexmliterator.html)
+Цей метод повертає об'єкт [SimpleXMLIterator](class.simplexmliterator.md), що містить вкладені елементи поточного елемента [SimpleXMLIterator](class.simplexmliterator.md)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public SimpleXMLIterator::getChildren(): SimpleXMLIterator
 
 ### Значення, що повертаються
 
-Повертає об'єкт [SimpleXMLIterator](class.simplexmliterator.html)містить вкладені елементи поточного елемента.
+Повертає об'єкт [SimpleXMLIterator](class.simplexmliterator.md)містить вкладені елементи поточного елемента.
 
 ### Приклади
 

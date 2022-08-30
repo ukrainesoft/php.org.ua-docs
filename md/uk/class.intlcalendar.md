@@ -1,12 +1,12 @@
 Клас IntlCalendar
 
--   [« MessageFormatter::setPattern](messageformatter.setpattern.html)
+-   [« MessageFormatter::setPattern](messageformatter.setpattern.md)
     
--   [IntlCalendar::add »](intlcalendar.add.html)
+-   [IntlCalendar::add »](intlcalendar.add.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [intl](book.intl.html)
+-   [intl](book.intl.md)
     
 -   Клас IntlCalendar
     
@@ -259,11 +259,11 @@ public toDateTime(): DateTime|false
 
 **`IntlCalendar::FIELD_WEEK_OF_YEAR`**
 
-Поле календар для номера тижня в році. Залежить від того, з [якого дня починається тиждень](intlcalendar.getfirstdayofweek.html) і [мінімальної кількості днів у тижні](intlcalendar.getminimaldaysinfirstweek.html)
+Поле календар для номера тижня в році. Залежить від того, з [якого дня починається тиждень](intlcalendar.getfirstdayofweek.md) і [мінімальної кількості днів у тижні](intlcalendar.getminimaldaysinfirstweek.md)
 
 **`IntlCalendar::FIELD_WEEK_OF_MONTH`**
 
-Поле календар для номера тижня в місяці. Залежить від того, з [якого дня починається тиждень](intlcalendar.getfirstdayofweek.html) і [мінімальної кількості днів у тижні](intlcalendar.getminimaldaysinfirstweek.html)
+Поле календар для номера тижня в місяці. Залежить від того, з [якого дня починається тиждень](intlcalendar.getfirstdayofweek.md) і [мінімальної кількості днів у тижні](intlcalendar.getminimaldaysinfirstweek.md)
 
 **`IntlCalendar::FIELD_DATE`**
 
@@ -283,7 +283,7 @@ public toDateTime(): DateTime|false
 
 Також допустимі значення `0` та нижче (негативні). Значення `0` охоплює 7 днів безпосередньо перед початком місяця (перший відповідний день у місяці має значення `1`). Негативні значення відраховуються від кінця місяця. Так, значення `-1` вказує на останній відповідний день місяця, `-2` на другий з кінця і т.д.
 
-На відміну від [**`IntlCalendar::FIELD_WEEK_OF_MONTH`**](class.intlcalendar.html#intlcalendar.constants.field-week-of-month) і [**`IntlCalendar::FIELD_WEEK_OF_YEAR`**](class.intlcalendar.html#intlcalendar.constants.field-week-of-year), це значення не залежить від [IntlCalendar::getFirstDayOfWeek()](intlcalendar.getfirstdayofweek.html) і [IntlCalendar::getMinimalDaysInFirstWeek()](intlcalendar.getminimaldaysinfirstweek.html). Перше середовище - це перше середовище, навіть якщо тиждень розпочався попереднього місяця.
+На відміну від [**`IntlCalendar::FIELD_WEEK_OF_MONTH`**](class.intlcalendar.html#intlcalendar.constants.field-week-of-month) і [**`IntlCalendar::FIELD_WEEK_OF_YEAR`**](class.intlcalendar.html#intlcalendar.constants.field-week-of-year), це значення не залежить від [IntlCalendar::getFirstDayOfWeek()](intlcalendar.getfirstdayofweek.md) і [IntlCalendar::getMinimalDaysInFirstWeek()](intlcalendar.getminimaldaysinfirstweek.md). Перше середовище - це перше середовище, навіть якщо тиждень розпочався попереднього місяця.
 
 **`IntlCalendar::FIELD_AM_PM`**
 
@@ -323,7 +323,7 @@ public toDateTime(): DateTime|false
 
 **`IntlCalendar::FIELD_DOW_LOCAL`**
 
-Поле календар для локалізованого дня тижня. Приймає значення в діапазоні від `1` до `7`. . `1` використовується для дня тижня відповідного значення повертається функцією [IntlCalendar::getFirstDayOfWeek()](intlcalendar.getfirstdayofweek.html)
+Поле календар для локалізованого дня тижня. Приймає значення в діапазоні від `1` до `7`. . `1` використовується для дня тижня відповідного значення повертається функцією [IntlCalendar::getFirstDayOfWeek()](intlcalendar.getfirstdayofweek.md)
 
 **`IntlCalendar::FIELD_EXTENDED_YEAR`**
 
@@ -379,77 +379,77 @@ public toDateTime(): DateTime|false
 
 **`IntlCalendar::DOW_TYPE_WEEKDAY`**
 
-Висновок [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.html) означає, що день буде.
+Висновок [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.md) означає, що день буде.
 
 **`IntlCalendar::DOW_TYPE_WEEKEND`**
 
-Висновок [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.html) означає, що вихідний день.
+Висновок [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.md) означає, що вихідний день.
 
 **`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`**
 
-Висновок [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.html) означає, що вихідні розпочинаються у цей день.
+Висновок [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.md) означає, що вихідні розпочинаються у цей день.
 
 **`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`**
 
-Висновок [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.html) означає, що вихідні закінчуються у цей день.
+Висновок [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.md) означає, що вихідні закінчуються у цей день.
 
 **`IntlCalendar::WALLTIME_FIRST`**
 
-Висновок [IntlCalendar::getSkippedWallTimeOption()](intlcalendar.getskippedwalltimeoption.html) означає, що час у пропущеному діапазоні має посилатися на час менший на одну годину і висновок [IntlCalendar::getRepeatedWallTimeOption()](intlcalendar.getrepeatedwalltimeoption.html) означає, що час у діапазоні, що повторюється, повинен ставитися до моменту першої появи такого часу.
+Висновок [IntlCalendar::getSkippedWallTimeOption()](intlcalendar.getskippedwalltimeoption.md) означає, що час у пропущеному діапазоні має посилатися на час менший на одну годину і висновок [IntlCalendar::getRepeatedWallTimeOption()](intlcalendar.getrepeatedwalltimeoption.md) означає, що час у діапазоні, що повторюється, повинен ставитися до моменту першої появи такого часу.
 
 **`IntlCalendar::WALLTIME_LAST`**
 
-Висновок [IntlCalendar::getSkippedWallTimeOption()](intlcalendar.getskippedwalltimeoption.html) означає, що час у пропущеному діапазоні має посилатися на час більший на одну годину і висновок [IntlCalendar::getRepeatedWallTimeOption()](intlcalendar.getrepeatedwalltimeoption.html) означає, що час у діапазоні, що повторюється, повинен ставитися до моменту другої появи такого часу.
+Висновок [IntlCalendar::getSkippedWallTimeOption()](intlcalendar.getskippedwalltimeoption.md) означає, що час у пропущеному діапазоні має посилатися на час більший на одну годину і висновок [IntlCalendar::getRepeatedWallTimeOption()](intlcalendar.getrepeatedwalltimeoption.md) означає, що час у діапазоні, що повторюється, повинен ставитися до моменту другої появи такого часу.
 
 **`IntlCalendar::WALLTIME_NEXT_VALID`**
 
-Висновок [IntlCalendar::getSkippedWallTimeOption()](intlcalendar.getskippedwalltimeoption.html) означає, що час у пропущеному діапазоні відноситься до моменту, коли стався перехід на зимовий/літній час.
+Висновок [IntlCalendar::getSkippedWallTimeOption()](intlcalendar.getskippedwalltimeoption.md) означає, що час у пропущеному діапазоні відноситься до моменту, коли стався перехід на зимовий/літній час.
 
 ## Зміст
 
--   [IntlCalendar::add](intlcalendar.add.html) - Додає кількість (зі знаком) часу в полі
--   [IntlCalendar::after](intlcalendar.after.html) - Визначає, час цього об'єкта пізніше часу переданого об'єкта
--   [IntlCalendar::before](intlcalendar.before.html) — Визначає, час цього об'єкта раніше переданого об'єкта
--   [IntlCalendar::clear](intlcalendar.clear.html) — Очищає поле чи всі поля
--   [IntlCalendar::construct](intlcalendar.construct.html) — Закритий конструктор для заборони створення екземплярів
--   [IntlCalendar::createInstance](intlcalendar.createinstance.html) — Створює новий об'єкт IntlCalendar
--   [IntlCalendar::equals](intlcalendar.equals.html) — Порівнює час двох об'єктів IntlCalendar щодо рівності
--   [IntlCalendar::fieldDifference](intlcalendar.fielddifference.html) — Обчислює різницю між заданим часом та часом об'єкта
--   [IntlCalendar::fromDateTime](intlcalendar.fromdatetime.html) — Створює IntlCalendar з об'єкта чи рядка DateTime
--   [IntlCalendar::get](intlcalendar.get.html) — Отримує значення поля
--   [IntlCalendar::getActualMaximum](intlcalendar.getactualmaximum.html) — Максимальне значення для поля з урахуванням поточного часу об'єкта
--   [IntlCalendar::getActualMinimum](intlcalendar.getactualminimum.html) — Мінімальне значення для поля з урахуванням поточного часу об'єкта
--   [IntlCalendar::getAvailableLocales](intlcalendar.getavailablelocales.html) — Отримує масив мовних стандартів, для яких є дані
--   [IntlCalendar::getDayOfWeekType](intlcalendar.getdayofweektype.html) — Повідомляє, чи день буде буднім, вихідним чи днем ​​з переходом між ними
--   [IntlCalendar::getErrorCode](intlcalendar.geterrorcode.html) — Отримує останній код помилки об'єкта
--   [IntlCalendar::getErrorMessage](intlcalendar.geterrormessage.html) — Отримує останнє повідомлення про помилку об'єкта
--   [IntlCalendar::getFirstDayOfWeek](intlcalendar.getfirstdayofweek.html) — отримує перший день тижня для мовного стандарту календаря
--   [IntlCalendar::getGreatestMinimum](intlcalendar.getgreatestminimum.html) — Отримує найбільше локальне мінімальне значення поля
--   [IntlCalendar::getKeywordValuesForLocale](intlcalendar.getkeywordvaluesforlocale.html) — Набір значень ключових слів мовного стандарту
--   [IntlCalendar::getLeastMaximum](intlcalendar.getleastmaximum.html) — Отримує найменший локальний максимум для поля
--   [IntlCalendar::getLocale](intlcalendar.getlocale.html) — Отримує мовний стандарт, пов'язаний із об'єктом
--   [IntlCalendar::getMaximum](intlcalendar.getmaximum.html) — Отримує глобальне максимальне значення поля
--   [IntlCalendar::getMinimalDaysInFirstWeek](intlcalendar.getminimaldaysinfirstweek.html) — Отримує мінімальну кількість днів, яка може бути у першому тижні на рік чи місяць
--   [IntlCalendar::getMinimum](intlcalendar.getminimum.html) — Отримує глобальне мінімальне значення поля
--   [IntlCalendar::getNow](intlcalendar.getnow.html) — Отримує число, що становить поточний час
--   [IntlCalendar::getRepeatedWallTimeOption](intlcalendar.getrepeatedwalltimeoption.html) — Отримує поведінку для обробки часу процесора, що повторюється.
--   [IntlCalendar::getSkippedWallTimeOption](intlcalendar.getskippedwalltimeoption.html) — Отримує поведінку для обробки пропущеного часу процесора
--   [IntlCalendar::getTime](intlcalendar.gettime.html) — Отримує час, представлений на даний момент об'єктом
--   [IntlCalendar::getTimeZone](intlcalendar.gettimezone.html) — Отримує часовий пояс об'єкту
--   [IntlCalendar::getType](intlcalendar.gettype.html) — Отримує тип календаря
--   [IntlCalendar::getWeekendTransition](intlcalendar.getweekendtransition.html) — Отримує час, коли вихідні починаються або закінчуються.
--   [IntlCalendar::inDaylightTime](intlcalendar.indaylighttime.html) — Визначає, чи час об'єкта переходить на літній час.
--   [IntlCalendar::isEquivalentTo](intlcalendar.isequivalentto.html) — Визначає, чи дорівнює інший календар, але для іншого часу
--   [IntlCalendar::isLenient](intlcalendar.islenient.html) — Визначає, чи інтерпретація дати/часу є м'якою.
--   [IntlCalendar::isSet](intlcalendar.isset.html) — Визначає, чи встановлено поле
--   [IntlCalendar::isWeekend](intlcalendar.isweekend.html) — Визначає, чи доводиться певна дата/час на вихідні
--   [IntlCalendar::roll](intlcalendar.roll.html) — Додає значення в поле без перенесення до найважливіших полів
--   [IntlCalendar::set](intlcalendar.set.html) — Встановлює поле часу або одразу кілька спільних полів
--   [IntlCalendar::setFirstDayOfWeek](intlcalendar.setfirstdayofweek.html) — Встановлює день, який є початком тижня
--   [IntlCalendar::setLenient](intlcalendar.setlenient.html) — Встановлює, чи інтерпретація дати/часу повинна бути м'якою.
--   [IntlCalendar::setMinimalDaysInFirstWeek](intlcalendar.setminimaldaysinfirstweek.html) — Встановлює мінімальну кількість днів, яка може бути у першому тижні на рік чи місяць
--   [IntlCalendar::setRepeatedWallTimeOption](intlcalendar.setrepeatedwalltimeoption.html) — Встановлює поведінку для обробки часу процесора, що повторюється, при негативних переходах зміщення часового поясу.
--   [IntlCalendar::setSkippedWallTimeOption](intlcalendar.setskippedwalltimeoption.html) — Встановлює поведінку для обробки пропущеного часу процесора при позитивних переходах усунення часового поясу
--   [IntlCalendar::setTime](intlcalendar.settime.html) — Встановлює календарний час у мілісекундах від початку епохи Unix
--   [IntlCalendar::setTimeZone](intlcalendar.settimezone.html) — Встановлює часовий пояс, який використовується календарем.
--   [IntlCalendar::toDateTime](intlcalendar.todatetime.html) — Перетворює IntlCalendar на об'єкт DateTime
+-   [IntlCalendar::add](intlcalendar.add.md) - Додає кількість (зі знаком) часу в полі
+-   [IntlCalendar::after](intlcalendar.after.md) - Визначає, час цього об'єкта пізніше часу переданого об'єкта
+-   [IntlCalendar::before](intlcalendar.before.md) — Визначає, час цього об'єкта раніше переданого об'єкта
+-   [IntlCalendar::clear](intlcalendar.clear.md) — Очищає поле чи всі поля
+-   [IntlCalendar::construct](intlcalendar.construct.md) — Закритий конструктор для заборони створення екземплярів
+-   [IntlCalendar::createInstance](intlcalendar.createinstance.md) — Створює новий об'єкт IntlCalendar
+-   [IntlCalendar::equals](intlcalendar.equals.md) — Порівнює час двох об'єктів IntlCalendar щодо рівності
+-   [IntlCalendar::fieldDifference](intlcalendar.fielddifference.md) — Обчислює різницю між заданим часом та часом об'єкта
+-   [IntlCalendar::fromDateTime](intlcalendar.fromdatetime.md) — Створює IntlCalendar з об'єкта чи рядка DateTime
+-   [IntlCalendar::get](intlcalendar.get.md) — Отримує значення поля
+-   [IntlCalendar::getActualMaximum](intlcalendar.getactualmaximum.md) — Максимальне значення для поля з урахуванням поточного часу об'єкта
+-   [IntlCalendar::getActualMinimum](intlcalendar.getactualminimum.md) — Мінімальне значення для поля з урахуванням поточного часу об'єкта
+-   [IntlCalendar::getAvailableLocales](intlcalendar.getavailablelocales.md) — Отримує масив мовних стандартів, для яких є дані
+-   [IntlCalendar::getDayOfWeekType](intlcalendar.getdayofweektype.md) — Повідомляє, чи день буде буднім, вихідним чи днем ​​з переходом між ними
+-   [IntlCalendar::getErrorCode](intlcalendar.geterrorcode.md) — Отримує останній код помилки об'єкта
+-   [IntlCalendar::getErrorMessage](intlcalendar.geterrormessage.md) — Отримує останнє повідомлення про помилку об'єкта
+-   [IntlCalendar::getFirstDayOfWeek](intlcalendar.getfirstdayofweek.md) — отримує перший день тижня для мовного стандарту календаря
+-   [IntlCalendar::getGreatestMinimum](intlcalendar.getgreatestminimum.md) — Отримує найбільше локальне мінімальне значення поля
+-   [IntlCalendar::getKeywordValuesForLocale](intlcalendar.getkeywordvaluesforlocale.md) — Набір значень ключових слів мовного стандарту
+-   [IntlCalendar::getLeastMaximum](intlcalendar.getleastmaximum.md) — Отримує найменший локальний максимум для поля
+-   [IntlCalendar::getLocale](intlcalendar.getlocale.md) — Отримує мовний стандарт, пов'язаний із об'єктом
+-   [IntlCalendar::getMaximum](intlcalendar.getmaximum.md) — Отримує глобальне максимальне значення поля
+-   [IntlCalendar::getMinimalDaysInFirstWeek](intlcalendar.getminimaldaysinfirstweek.md) — Отримує мінімальну кількість днів, яка може бути у першому тижні на рік чи місяць
+-   [IntlCalendar::getMinimum](intlcalendar.getminimum.md) — Отримує глобальне мінімальне значення поля
+-   [IntlCalendar::getNow](intlcalendar.getnow.md) — Отримує число, що становить поточний час
+-   [IntlCalendar::getRepeatedWallTimeOption](intlcalendar.getrepeatedwalltimeoption.md) — Отримує поведінку для обробки часу процесора, що повторюється.
+-   [IntlCalendar::getSkippedWallTimeOption](intlcalendar.getskippedwalltimeoption.md) — Отримує поведінку для обробки пропущеного часу процесора
+-   [IntlCalendar::getTime](intlcalendar.gettime.md) — Отримує час, представлений на даний момент об'єктом
+-   [IntlCalendar::getTimeZone](intlcalendar.gettimezone.md) — Отримує часовий пояс об'єкту
+-   [IntlCalendar::getType](intlcalendar.gettype.md) — Отримує тип календаря
+-   [IntlCalendar::getWeekendTransition](intlcalendar.getweekendtransition.md) — Отримує час, коли вихідні починаються або закінчуються.
+-   [IntlCalendar::inDaylightTime](intlcalendar.indaylighttime.md) — Визначає, чи час об'єкта переходить на літній час.
+-   [IntlCalendar::isEquivalentTo](intlcalendar.isequivalentto.md) — Визначає, чи дорівнює інший календар, але для іншого часу
+-   [IntlCalendar::isLenient](intlcalendar.islenient.md) — Визначає, чи інтерпретація дати/часу є м'якою.
+-   [IntlCalendar::isSet](intlcalendar.isset.md) — Визначає, чи встановлено поле
+-   [IntlCalendar::isWeekend](intlcalendar.isweekend.md) — Визначає, чи доводиться певна дата/час на вихідні
+-   [IntlCalendar::roll](intlcalendar.roll.md) — Додає значення в поле без перенесення до найважливіших полів
+-   [IntlCalendar::set](intlcalendar.set.md) — Встановлює поле часу або одразу кілька спільних полів
+-   [IntlCalendar::setFirstDayOfWeek](intlcalendar.setfirstdayofweek.md) — Встановлює день, який є початком тижня
+-   [IntlCalendar::setLenient](intlcalendar.setlenient.md) — Встановлює, чи інтерпретація дати/часу повинна бути м'якою.
+-   [IntlCalendar::setMinimalDaysInFirstWeek](intlcalendar.setminimaldaysinfirstweek.md) — Встановлює мінімальну кількість днів, яка може бути у першому тижні на рік чи місяць
+-   [IntlCalendar::setRepeatedWallTimeOption](intlcalendar.setrepeatedwalltimeoption.md) — Встановлює поведінку для обробки часу процесора, що повторюється, при негативних переходах зміщення часового поясу.
+-   [IntlCalendar::setSkippedWallTimeOption](intlcalendar.setskippedwalltimeoption.md) — Встановлює поведінку для обробки пропущеного часу процесора при позитивних переходах усунення часового поясу
+-   [IntlCalendar::setTime](intlcalendar.settime.md) — Встановлює календарний час у мілісекундах від початку епохи Unix
+-   [IntlCalendar::setTimeZone](intlcalendar.settimezone.md) — Встановлює часовий пояс, який використовується календарем.
+-   [IntlCalendar::toDateTime](intlcalendar.todatetime.md) — Перетворює IntlCalendar на об'єкт DateTime

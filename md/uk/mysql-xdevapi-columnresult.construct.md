@@ -45,7 +45,7 @@ $table  = $schema->getTable("numbers");
 
 $result1 = $table->select('hello','world')->execute();
 
-// Возвращает массив объектов ColumnResult
+// Возвращает Масив объектов ColumnResult
 $columns = $result1->getColumns();
 
 foreach ($columns as $column) {
@@ -57,7 +57,7 @@ foreach ($columns as $column) {
 // Альтернативный вариант
 $result2 = $session->sql("SELECT * FROM nonsense.numbers")->execute();
 
-// Возвращает массив объектов FieldMetadata
+// Возвращает Масив объектов FieldMetadata
 print_r($result2->getColumns());
 ```
 

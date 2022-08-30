@@ -1,12 +1,12 @@
 Переконфігурувати подію
 
--   [« Event::pending](event.pending.html)
+-   [« Event::pending](event.pending.md)
     
--   [Event::setPriority »](event.setpriority.html)
+-   [Event::setPriority »](event.setpriority.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](class.event.html)
+-   [Event](class.event.md)
     
 -   Переконфігурувати подію
     
@@ -53,11 +53,11 @@ public
 
 `what`
 
-Дивіться [Флаги событий](event.flags.html)
+Дивіться [Прапори подій](event.flags.md)
 
 `cb`
 
-Функція зворотного дзвінка. Дивіться [Функції зворотного дзвінка для подій](event.callbacks.html)
+Функція зворотного дзвінка. Дивіться [Функції зворотного дзвінка для подій](event.callbacks.md)
 
 `arg`
 

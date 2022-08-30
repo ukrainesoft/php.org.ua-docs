@@ -1,12 +1,12 @@
 Отримання номера помилки
 
--   [« GearmanWorker::error](gearmanworker.error.html)
+-   [« GearmanWorker::error](gearmanworker.error.md)
     
--   [GearmanWorker::options »](gearmanworker.options.html)
+-   [GearmanWorker::options »](gearmanworker.options.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanWorker](class.gearmanworker.html)
+-   [GearmanWorker](class.gearmanworker.md)
     
 -   Отримання номера помилки
     
@@ -35,4 +35,4 @@ public GearmanWorker::getErrno(): int
 
 ### Дивіться також
 
--   [GearmanWorker::error()](gearmanworker.error.html) - Отримання останньої виявленої помилки
+-   [GearmanWorker::error()](gearmanworker.error.md) - Отримання останньої виявленої помилки

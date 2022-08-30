@@ -1,12 +1,12 @@
 Клас EventDnsBase
 
--   [« EventConfig::setMaxDispatchInterval](eventconfig.setmaxdispatchinterval.html)
+-   [« EventConfig::setMaxDispatchInterval](eventconfig.setmaxdispatchinterval.md)
     
--   [EventDnsBase::addNameserverIp »](eventdnsbase.addnameserverip.html)
+-   [EventDnsBase::addNameserverIp »](eventdnsbase.addnameserverip.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](book.event.html)
+-   [Event](book.event.md)
     
 -   Клас EventDnsBase
     
@@ -131,12 +131,12 @@ public
 
 ## Зміст
 
--   [EventDnsBase::addNameserverIp](eventdnsbase.addnameserverip.html) — Додає сервер імен до бази DNS
--   [EventDnsBase::addSearch](eventdnsbase.addsearch.html) — Додає домен до списку пошукових доменів
--   [EventDnsBase::clearSearch](eventdnsbase.clearsearch.html) — Видаляє всі поточні суфікси пошуку
--   [EventDnsBase::construct](eventdnsbase.construct.html) - Конструктор об'єкта EventDnsBase
--   [EventDnsBase::countNameservers](eventdnsbase.countnameservers.html) — Отримує кількість налаштованих серверів імен
--   [EventDnsBase::loadHosts](eventdnsbase.loadhosts.html) — Завантажує файл hosts (у тому форматі, що і /etc/hosts) з файлу hosts
--   [EventDnsBase::parseResolvConf](eventdnsbase.parseresolvconf.html) — Сканує файл у форматі resolv.conf
--   [EventDnsBase::setOption](eventdnsbase.setoption.html) — Встановлює параметр конфігурації
--   [EventDnsBase::setSearchNdots](eventdnsbase.setsearchndots.html) — Встановлює 'ndots' для пошуку
+-   [EventDnsBase::addNameserverIp](eventdnsbase.addnameserverip.md) — Додає сервер імен до бази DNS
+-   [EventDnsBase::addSearch](eventdnsbase.addsearch.md) — Додає домен до списку пошукових доменів
+-   [EventDnsBase::clearSearch](eventdnsbase.clearsearch.md) — Видаляє всі поточні суфікси пошуку
+-   [EventDnsBase::construct](eventdnsbase.construct.md) - Конструктор об'єкта EventDnsBase
+-   [EventDnsBase::countNameservers](eventdnsbase.countnameservers.md) — Отримує кількість налаштованих серверів імен
+-   [EventDnsBase::loadHosts](eventdnsbase.loadhosts.md) — Завантажує файл hosts (у тому форматі, що і /etc/hosts) з файлу hosts
+-   [EventDnsBase::parseResolvConf](eventdnsbase.parseresolvconf.md) — Сканує файл у форматі resolv.conf
+-   [EventDnsBase::setOption](eventdnsbase.setoption.md) — Встановлює параметр конфігурації
+-   [EventDnsBase::setSearchNdots](eventdnsbase.setsearchndots.md) — Встановлює 'ndots' для пошуку

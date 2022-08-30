@@ -1,12 +1,12 @@
 Переведення ітератора на початок
 
--   [« RecursiveTreeIterator::nextElement](recursivetreeiterator.nextelement.html)
+-   [« RecursiveTreeIterator::nextElement](recursivetreeiterator.nextelement.md)
     
--   [RecursiveTreeIterator::setPostfix »](recursivetreeiterator.setpostfix.html)
+-   [RecursiveTreeIterator::setPostfix »](recursivetreeiterator.setpostfix.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+-   [RecursiveTreeIterator](class.recursivetreeiterator.md)
     
 -   Переведення ітератора на початок
     

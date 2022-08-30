@@ -4,9 +4,9 @@
     
 -   [runkit7superglobals »](function.runkit7-superglobals.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції runkit7](ref.runkit7.html)
+-   [Функції runkit7](ref.runkit7.md)
     
 -   Повертає дескриптор цілого об'єкта для даного об'єкта
     

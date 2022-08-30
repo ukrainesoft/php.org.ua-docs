@@ -1,12 +1,12 @@
 Перевірити документ за допомогою XSD
 
--   [« XMLReader::setRelaxNGSchemaSource](xmlreader.setrelaxngschemasource.html)
+-   [« XMLReader::setRelaxNGSchemaSource](xmlreader.setrelaxngschemasource.md)
     
--   [XMLReader::XML »](xmlreader.xml.html)
+-   [XMLReader::XML »](xmlreader.xml.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLReader](class.xmlreader.html)
+-   [XMLReader](class.xmlreader.md)
     
 -   Перевірити документ за допомогою XSD
     
@@ -37,7 +37,7 @@ public XMLReader::setSchema(?string $filename): bool
 
 ### Помилки
 
-Попередження **`E_WARNING`** виникає, якщо libxml був зібраний без підтримки схем, схема містить помилки або якщо функція [XMLReader::read()](xmlreader.read.html) вже була викликана.
+Попередження **`E_WARNING`** виникає, якщо libxml був зібраний без підтримки схем, схема містить помилки або якщо функція [XMLReader::read()](xmlreader.read.md) вже була викликана.
 
 ### Примітки
 
@@ -47,6 +47,6 @@ public XMLReader::setSchema(?string $filename): bool
 
 ### Дивіться також
 
--   [XMLReader::setRelaxNGSchema()](xmlreader.setrelaxngschema.html) - Встановити ім'я файлу або URI для схеми RelaxNG
--   [XMLReader::setRelaxNGSchemaSource()](xmlreader.setrelaxngschemasource.html) - Встановлює дані, що містять схему RelaxNG
--   [XMLReader::isValid()](xmlreader.isvalid.html) - Показати, чи розбирається документ синтаксично правильним
+-   [XMLReader::setRelaxNGSchema()](xmlreader.setrelaxngschema.md) - Встановити ім'я файлу або URI для схеми RelaxNG
+-   [XMLReader::setRelaxNGSchemaSource()](xmlreader.setrelaxngschemasource.md) - Встановлює дані, що містять схему RelaxNG
+-   [XMLReader::isValid()](xmlreader.isvalid.md) - Показати, чи розбирається документ синтаксично правильним

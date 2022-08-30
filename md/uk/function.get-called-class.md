@@ -4,9 +4,9 @@
     
 -   [getclassmethods »](function.get-class-methods.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції роботи з класами та об'єктами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.md)
     
 -   Ім'я класу, отримане за допомогою пізнього статичного зв'язування
     

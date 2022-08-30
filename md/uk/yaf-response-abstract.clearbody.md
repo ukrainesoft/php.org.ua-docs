@@ -4,7 +4,7 @@
     
 -   [YafResponseAbstract::clearHeaders »](yaf-response-abstract.clearheaders.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafResponseAbstract](class.yaf-response-abstract.html)
     

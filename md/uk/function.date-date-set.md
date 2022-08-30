@@ -4,9 +4,9 @@
     
 -   [datedefaulttimezoneget »](function.date-default-timezone-get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Псевдонім DateTime::setDate
     
@@ -15,8 +15,8 @@
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-datedateset - Псевдонім [DateTime::setDate()](datetime.setdate.html)
+datedateset - Псевдонім [DateTime::setDate()](datetime.setdate.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateTime::setDate()](datetime.setdate.html)
+Ця функція є псевдонімом: [DateTime::setDate()](datetime.setdate.md)

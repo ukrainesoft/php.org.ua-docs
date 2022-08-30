@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](gnupg.setup.html)
+-   [« Встановлення та налаштування](gnupg.setup.md)
     
--   [Установка »](gnupg.installation.html)
+-   [Установка »](gnupg.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](gnupg.setup.html)
+-   [Встановлення та налаштування](gnupg.setup.md)
     
 -   Вимоги
     

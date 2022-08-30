@@ -1,12 +1,12 @@
 Геттер
 
--   [« Yac::get](yac.get.html)
+-   [« Yac::get](yac.get.md)
     
--   [Yac::info »](yac.info.html)
+-   [Yac::info »](yac.info.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yac](class.yac.html)
+-   [Yac](class.yac.md)
     
 -   Геттер
     

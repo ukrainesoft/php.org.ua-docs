@@ -4,9 +4,9 @@
     
 -   [traderrocp »](function.trader-rocp.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Швидкість зміни: ((ціна/попередня ціна)-1)
     

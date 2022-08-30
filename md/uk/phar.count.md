@@ -1,12 +1,12 @@
 Повертає кількість записів (файлів) у Phar-архіві
 
--   [« Phar::copy](phar.copy.html)
+-   [« Phar::copy](phar.copy.md)
     
--   [Phar::createDefaultStub »](phar.createdefaultstub.html)
+-   [Phar::createDefaultStub »](phar.createdefaultstub.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Phar](class.phar.html)
+-   [Phar](class.phar.md)
     
 -   Повертає кількість записів (файлів) у Phar-архіві
     

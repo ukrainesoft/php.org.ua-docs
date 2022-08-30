@@ -1,12 +1,12 @@
 Застосовує перенесення до поточної системи координат
 
--   [« ImagickDraw::skewY](imagickdraw.skewy.html)
+-   [« ImagickDraw::skewY](imagickdraw.skewy.md)
     
--   [ImagickPixel »](class.imagickpixel.html)
+-   [ImagickPixel »](class.imagickpixel.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Застосовує перенесення до поточної системи координат
     

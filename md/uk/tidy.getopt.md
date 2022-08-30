@@ -1,12 +1,12 @@
 Повертає значення вказаного параметра конфігурації для документа tidy
 
--   [« tidy::getHtmlVer](tidy.gethtmlver.html)
+-   [« tidy::getHtmlVer](tidy.gethtmlver.md)
     
--   [tidy::getOptDoc »](tidy.getoptdoc.html)
+-   [tidy::getOptDoc »](tidy.getoptdoc.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidy](class.tidy.html)
+-   [tidy](class.tidy.md)
     
 -   Повертає значення вказаного параметра конфігурації для документа tidy
     
@@ -39,7 +39,7 @@ tidy_getopt(tidy $tidy, string $option): string|int|bool
 
 `tidy`
 
-Об'єкт [Tidy](class.tidy.html)
+Об'єкт [Tidy](class.tidy.md)
 
 `option`
 

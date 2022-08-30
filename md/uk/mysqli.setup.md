@@ -1,8 +1,8 @@
 Встановлення та налаштування
 
--   [« Метаданные](mysqli.quickstart.metadata.html)
+-   [«Метадані](mysqli.quickstart.metadata.html)
     
--   [Требования »](mysqli.requirements.html)
+-   [Вимоги »](mysqli.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](mysqli.requirements.html)
+-   [Вимоги](mysqli.requirements.html)
 -   [Установка](mysqli.installation.html)
--   [Настройка во время выполнения](mysqli.configuration.html)
--   [Типы ресурсов](mysqli.resources.html)
+-   [Налаштування під час виконання](mysqli.configuration.html)
+-   [Типи ресурсів](mysqli.resources.html)

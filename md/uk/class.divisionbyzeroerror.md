@@ -1,12 +1,12 @@
 DivisionByZeroError
 
--   [« AssertionError](class.assertionerror.html)
+-   [« AssertionError](class.assertionerror.md)
     
--   [CompileError »](class.compileerror.html)
+-   [CompileError »](class.compileerror.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые исключения](reserved.exceptions.html)
+-   [Обумовлені винятки](reserved.exceptions.md)
     
 -   DivisionByZeroError
     

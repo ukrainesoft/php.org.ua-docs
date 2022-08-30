@@ -4,9 +4,9 @@
     
 -   [svnreposrecover »](function.svn-repos-recover.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.md)
     
 -   Відкриває репозиторій із загальним блокуванням
     

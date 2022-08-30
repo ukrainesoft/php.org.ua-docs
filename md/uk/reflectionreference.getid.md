@@ -1,12 +1,12 @@
 Отримати унікальний ідентифікатор посилання
 
--   [« ReflectionReference::fromArrayElement](reflectionreference.fromarrayelement.html)
+-   [« ReflectionReference::fromArrayElement](reflectionreference.fromarrayelement.md)
     
--   [ReflectionAttribute »](class.reflectionattribute.html)
+-   [ReflectionAttribute »](class.reflectionattribute.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionReference](class.reflectionreference.html)
+-   [ReflectionReference](class.reflectionreference.md)
     
 -   Отримати унікальний ідентифікатор посилання
     

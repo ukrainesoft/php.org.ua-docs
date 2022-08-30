@@ -47,9 +47,9 @@ $regexIterator = new RegexIterator($arrayIterator, '/^test/');
 $regexIterator->setFlags(RegexIterator::USE_KEY);
 
 if ($regexIterator->getFlags() & RegexIterator::USE_KEY) {
-    echo 'Фильтрация на основе ключей массива.';
+    echo 'Фильтрация на основе ключей Масива.';
 } else {
-    echo 'Фильтрация на основе значений массива.';
+    echo 'Фильтрация на основе значений Масива.';
 }
 ?>
 ```
@@ -57,7 +57,7 @@ if ($regexIterator->getFlags() & RegexIterator::USE_KEY) {
 Результат виконання цього прикладу:
 
 ```
-Фильтрация на основе ключей массива.
+Фильтрация на основе ключей Масива.
 ```
 
 ### Дивіться також

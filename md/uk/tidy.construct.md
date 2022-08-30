@@ -1,12 +1,12 @@
 Створює новий tidy-об'єкт
 
--   [« tidy::cleanRepair](tidy.cleanrepair.html)
+-   [« tidy::cleanRepair](tidy.cleanrepair.md)
     
--   [tidy::diagnose »](tidy.diagnose.html)
+-   [tidy::diagnose »](tidy.diagnose.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidy](class.tidy.html)
+-   [tidy](class.tidy.md)
     
 -   Створює новий tidy-об'єкт
     
@@ -15,7 +15,7 @@
 
 (PHP 5, PHP 7, PHP 8, PECL tidy >= 0.5.2)
 
-tidy::construct — Створює новий [tidy](class.tidy.html)об'єкт
+tidy::construct — Створює новий [tidy](class.tidy.md)об'єкт
 
 ### Опис
 
@@ -25,13 +25,13 @@ array|string|null `$config` **`null`**
 ?string `$encoding` **`null`**  
 bool `$useIncludePath` **`false`**
 
-Створює новий [tidy](class.tidy.html)об'єкт.
+Створює новий [tidy](class.tidy.md)об'єкт.
 
 ### Список параметрів
 
 `filename`
 
-Якщо встановлено параметр `filename`, то ця функція прочитає файл та ініціалізує об'єкт із цим файлом, діючи як функція [tidyparsefile()](tidy.parsefile.html)
+Якщо встановлено параметр `filename`, то ця функція прочитає файл та ініціалізує об'єкт із цим файлом, діючи як функція [tidyparsefile()](tidy.parsefile.md)
 
 `config`
 
@@ -49,9 +49,9 @@ bool `$useIncludePath` **`false`**
 
 ### список змін
 
-| Версия | Описание                                                                          |
-|--------|-----------------------------------------------------------------------------------|
-|        | `filename` `config` `encoding` і `useIncludePath` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `filename` `config` `encoding` і `useIncludePath` тепер допускають значення null. |
 
 ### Приклади
 
@@ -97,5 +97,5 @@ line 8 column 14 - Warning: discarding unexpected <bt>
 
 ### Дивіться також
 
--   [tidy::parseFile()](tidy.parsefile.html) - Розбір розмітки у файлі або URI
--   [tidy::parseString()](tidy.parsestring.html) - Розбір документа, що зберігається у рядку
+-   [tidy::parseFile()](tidy.parsefile.md) - Розбір розмітки у файлі або URI
+-   [tidy::parseString()](tidy.parsestring.md) - Розбір документа, що зберігається у рядку

@@ -4,9 +4,9 @@
     
 -   [streamsocketclient »](function.stream-socket-client.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.md)
     
 -   Приймати з'єднання в сокеті, створеному за допомогою функції streamsocketserver
     
@@ -49,9 +49,9 @@ stream_socket_accept(resource $socket, ?float $timeout = null, string &$peer_nam
 
 ### список змін
 
-| Версия | Описание                                |
-|--------|-----------------------------------------|
-|        | `timeout` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `timeout` тепер допускає значення null. |
 
 ### Примітки
 
@@ -65,9 +65,9 @@ stream_socket_accept(resource $socket, ?float $timeout = null, string &$peer_nam
 -   [streamsocketgetname()](function.stream-socket-get-name.html) - Отримати назву локального чи віддаленого сокету
 -   [streamsetblocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці
 -   [streamsettimeout()](function.stream-set-timeout.html) - Встановити значення часу очікування потоку
--   [fgets()](function.fgets.html) - Читає рядок із файлу
--   [fgetss()](function.fgetss.html) - Читає рядок з файлу та видаляє HTML-теги
--   [fwrite()](function.fwrite.html) - Бінарно-безпечний запис у файл
--   [fclose()](function.fclose.html) - Закриває відкритий дескриптор файлу
--   [feof()](function.feof.html) - Перевіряє, чи кінець файлу досягнуто
--   [Функции cURL](ref.curl.html)
+-   [fgets()](function.fgets.md) - Читає рядок із файлу
+-   [fgetss()](function.fgetss.md) - Читає рядок з файлу та видаляє HTML-теги
+-   [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл
+-   [fclose()](function.fclose.md) - Закриває відкритий дескриптор файлу
+-   [feof()](function.feof.md) - Перевіряє, чи кінець файлу досягнуто
+-   [Функции cURL](ref.curl.md)

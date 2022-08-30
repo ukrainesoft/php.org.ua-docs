@@ -1,12 +1,12 @@
 Заглушка Phar-файлу
 
--   [« Складові всіх Phar-архівів незалежно від формату файлу](phar.fileformat.ingredients.html)
+-   [« Складові всіх Phar-архівів незалежно від формату файлу](phar.fileformat.ingredients.md)
     
--   [Сравнение Phar, Tar и Zip »](phar.fileformat.comparison.html)
+-   [Сравнение Phar, Tar и Zip »](phar.fileformat.comparison.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.html)
+-   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.md)
     
 -   Заглушка Phar-файлу
     
@@ -36,6 +36,6 @@ __HALT_COMPILER();
 
 може бути включений або опущений, але має бути не більше одного пробілу між `;` та закриваючим тегом ` ``` ?> ``` ` Інакше модуль phar не зможе обробити маніфест Phar-архіву.
 
-У phar-архіві, заснованому на tar або zip, заглушка зберігається в файлі `.phar/stub.php`. Заглушка за замовчуванням для Phar-архіву, заснованого на phar, містить приблизно 7 кілобайт коду для вилучення вмісту Phar-архіву та його виконання. Дивіться [Phar::createDefaultStub()](phar.createdefaultstub.html) для більш детальної інформації.
+У phar-архіві, заснованому на tar або zip, заглушка зберігається в файлі `.phar/stub.php`. Заглушка за замовчуванням для Phar-архіву, заснованого на phar, містить приблизно 7 кілобайт коду для вилучення вмісту Phar-архіву та його виконання. Дивіться [Phar::createDefaultStub()](phar.createdefaultstub.md) для більш детальної інформації.
 
 phar-архіві, заснованому на tar або zip, псевдонім phar зберігається у файлі `.phar/alias.txt` як простого тексту.

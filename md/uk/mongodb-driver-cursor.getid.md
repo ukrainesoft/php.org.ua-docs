@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverCursor::getServer »](mongodb-driver-cursor.getserver.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
     

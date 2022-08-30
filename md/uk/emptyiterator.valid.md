@@ -1,12 +1,12 @@
 Метод valid()
 
--   [« EmptyIterator::rewind](emptyiterator.rewind.html)
+-   [« EmptyIterator::rewind](emptyiterator.rewind.md)
     
--   [FilesystemIterator »](class.filesystemiterator.html)
+-   [FilesystemIterator »](class.filesystemiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EmptyIterator](class.emptyiterator.html)
+-   [EmptyIterator](class.emptyiterator.md)
     
 -   Метод valid()
     

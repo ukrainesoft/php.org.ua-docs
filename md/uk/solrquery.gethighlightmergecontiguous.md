@@ -1,12 +1,12 @@
 Повертає, чи згорнути суміжні фрагменти в один фрагмент
 
--   [« SolrQuery::getHighlightMaxAnalyzedChars](solrquery.gethighlightmaxanalyzedchars.html)
+-   [« SolrQuery::getHighlightMaxAnalyzedChars](solrquery.gethighlightmaxanalyzedchars.md)
     
--   [SolrQuery::getHighlightRegexMaxAnalyzedChars »](solrquery.gethighlightregexmaxanalyzedchars.html)
+-   [SolrQuery::getHighlightRegexMaxAnalyzedChars »](solrquery.gethighlightregexmaxanalyzedchars.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає, чи згорнути суміжні фрагменти в один фрагмент
     

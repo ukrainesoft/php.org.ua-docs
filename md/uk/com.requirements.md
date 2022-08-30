@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](com.setup.html)
+-   [« Встановлення та налаштування](com.setup.md)
     
--   [Установка »](com.installation.html)
+-   [Установка »](com.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](com.setup.html)
+-   [Встановлення та налаштування](com.setup.md)
     
 -   Вимоги
     

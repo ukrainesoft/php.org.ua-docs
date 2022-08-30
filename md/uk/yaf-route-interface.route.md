@@ -4,7 +4,7 @@
     
 -   [YafRouteMap »](class.yaf-route-map.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRouteInterface](class.yaf-route-interface.html)
     

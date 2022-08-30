@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.bzip2.html)
+-   [« Введение](intro.bzip2.md)
     
--   [Требования »](bzip2.requirements.html)
+-   [Вимоги »](bzip2.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Bzip2](book.bzip2.html)
+-   [Bzip2](book.bzip2.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](bzip2.requirements.html)
--   [Установка](bzip2.installation.html)
--   [Настройка во время выполнения](bzip2.configuration.html)
--   [Типы ресурсов](bzip2.resources.html)
+-   [Вимоги](bzip2.requirements.md)
+-   [Установка](bzip2.installation.md)
+-   [Налаштування під час виконання](bzip2.configuration.md)
+-   [Типи ресурсів](bzip2.resources.md)

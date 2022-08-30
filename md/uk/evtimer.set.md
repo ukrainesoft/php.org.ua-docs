@@ -1,12 +1,12 @@
 Налаштовує спостерігача
 
--   [« EvTimer::createStopped](evtimer.createstopped.html)
+-   [« EvTimer::createStopped](evtimer.createstopped.md)
     
--   [EvWatcher »](class.evwatcher.html)
+-   [EvWatcher »](class.evwatcher.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvTimer](class.evtimer.html)
+-   [EvTimer](class.evtimer.md)
     
 -   Налаштовує спостерігача
     

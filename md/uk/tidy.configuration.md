@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](tidy.installation.html)
+-   [« Установка](tidy.installation.md)
     
--   [Типы ресурсов »](tidy.resources.html)
+-   [Типи ресурсів »](tidy.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](tidy.setup.html)
+-   [Встановлення та налаштування](tidy.setup.md)
     
 -   Налаштування під час виконання
     
@@ -17,12 +17,12 @@
 
 **Параметри конфігурації Tidy**
 
-| Имя                                                                   | По умолчанию | Место изменения | Список изменений |
-|-----------------------------------------------------------------------|--------------|-----------------|------------------|
-| [tidy.defaultconfig](tidy.configuration.html#ini.tidy.default-config) | ""           | PHPINISYSTEM    |                  |
-| [tidy.cleanoutput](tidy.configuration.html#ini.tidy.clean-output)     | "0"          | PHPINIUSER      |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [tidy.defaultconfig](tidy.configuration.html#ini.tidy.default-config) | "" | PHPINISYSTEM |  |
+| [tidy.cleanoutput](tidy.configuration.html#ini.tidy.clean-output) | "0" | PHPINIUSER |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 

@@ -4,9 +4,9 @@
     
 -   [shmhasvar »](function.shm-has-var.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції семафорів](ref.sem.html)
+-   [Функції семафорів](ref.sem.md)
     
 -   Повертає змінну з пам'яті, що розділяється
     
@@ -41,9 +41,9 @@ shm_get_var(SysvSharedMemory $shm, int $key): mixed
 
 ### список змін
 
-| Версия | Описание                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------|
-|        | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

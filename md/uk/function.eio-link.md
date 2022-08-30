@@ -4,9 +4,9 @@
     
 -   [eiolstat »](function.eio-lstat.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Створює жорстке посилання на файл
     

@@ -1,12 +1,12 @@
 Функції Hash
 
--   [« HashContext::unserialize](hashcontext.unserialize.html)
+-   [« HashContext::unserialize](hashcontext.unserialize.md)
     
 -   [hashalgos »](function.hash-algos.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Hash](book.hash.html)
+-   [Hash](book.hash.md)
     
 -   Функції Hash
     
@@ -29,4 +29,4 @@
 -   [hashupdatefile](function.hash-update-file.html) — Додає дані з файлу до активного контексту хешування
 -   [hashupdatestream](function.hash-update-stream.html) — Додає дані з відкритого потоку до активного контексту хешування
 -   [hashupdate](function.hash-update.html) — Додає дані до активного контексту хешування
--   [hash](function.hash.html) - Генерує хеш-код (підпис повідомлення)
+-   [hash](function.hash.md) - Генерує хеш-код (підпис повідомлення)

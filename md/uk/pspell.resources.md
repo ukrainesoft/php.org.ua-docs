@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](pspell.configuration.html)
+-   [« Налаштування під час виконання](pspell.configuration.md)
     
--   [Предопределённые константы »](pspell.constants.html)
+-   [Обумовлені константи »](pspell.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](pspell.setup.html)
+-   [Встановлення та налаштування](pspell.setup.md)
     
 -   Типи ресурсів
     

@@ -2,11 +2,11 @@
 
 -   [« Установка](pgsql.installation.html)
     
--   [Типы ресурсов »](pgsql.resources.html)
+-   [Типи ресурсів »](pgsql.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](pgsql.setup.html)
+-   [Встановлення та налаштування](pgsql.setup.html)
     
 -   Налаштування під час виконання
     
@@ -17,16 +17,16 @@
 
 **Параметри конфігурації PostgreSQL**
 
-| Имя                                                                                   | По умолчанию | Место изменения | Список изменений |
-|---------------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [pgsql.allowpersistent](pgsql.configuration.html#ini.pgsql.allow-persistent)          | "1"          | PHPINISYSTEM    |                  |
-| [pgsql.maxpersistent](pgsql.configuration.html#ini.pgsql.max-persistent)              | "-1"         | PHPINISYSTEM    |                  |
-| [pgsql.maxlinks](pgsql.configuration.html#ini.pgsql.max-links)                        | "-1"         | PHPINISYSTEM    |                  |
-| [pgsql.autoresetpersistent](pgsql.configuration.html#ini.pgsql.auto-reset-persistent) | "0"          | PHPINISYSTEM    |                  |
-| [pgsql.ignorenotice](pgsql.configuration.html#ini.pgsql.ignore-notice)                | "0"          | PHPINIALL       |                  |
-| [pgsql.lognotice](pgsql.configuration.html#ini.pgsql.log-notice)                      | "0"          | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [pgsql.allowpersistent](pgsql.configuration.html#ini.pgsql.allow-persistent) | "1" | PHPINISYSTEM |  |
+| [pgsql.maxpersistent](pgsql.configuration.html#ini.pgsql.max-persistent) | "-1" | PHPINISYSTEM |  |
+| [pgsql.maxlinks](pgsql.configuration.html#ini.pgsql.max-links) | "-1" | PHPINISYSTEM |  |
+| [pgsql.autoresetpersistent](pgsql.configuration.html#ini.pgsql.auto-reset-persistent) | "0" | PHPINISYSTEM |  |
+| [pgsql.ignorenotice](pgsql.configuration.html#ini.pgsql.ignore-notice) | "0" | PHPINIALL |  |
+| [pgsql.lognotice](pgsql.configuration.html#ini.pgsql.log-notice) | "0" | PHPINIALL |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 
 Коротке пояснення конфігураційних директив.
 

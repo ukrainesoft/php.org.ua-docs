@@ -1,46 +1,46 @@
 COM та .Net (Windows)
 
--   [Модулі тільки для Windows](refs.utilspec.windows.html)
+-   [Модулі тільки для Windows](refs.utilspec.windows.md)
     
--   [Введение »](intro.com.html)
+-   [Введение »](intro.com.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модулі лише для Windows](refs.utilspec.windows.html)
+-   [Модулі лише для Windows](refs.utilspec.windows.md)
     
 -   COM та .Net (Windows)
     
 
 # COM та .Net (Windows)
 
--   [Введение](intro.com.html)
--   [Установка и настройка](com.setup.html)
-    -   [Требования](com.requirements.html)
-    -   [Установка](com.installation.html)
-    -   [Настройка во время выполнения](com.configuration.html)
-    -   [Типы ресурсов](com.resources.html)
--   [Предопределённые константы](com.constants.html)
+-   [Введение](intro.com.md)
+-   [Встановлення та налаштування](com.setup.md)
+    -   [Вимоги](com.requirements.md)
+    -   [Установка](com.installation.md)
+    -   [Налаштування під час виконання](com.configuration.md)
+    -   [Типи ресурсів](com.resources.md)
+-   [Обумовлені константи](com.constants.md)
 -   [Ошибки и их обработка](com.error-handling.html)
--   [Примеры](com.examples.html)
-    -   [For Each](com.examples.foreach.html)
-    -   [Масиви та властивості COM у стилі масивів](com.examples.arrays.html)
--   [com](class.com.html) - Клас com
-    -   [com::construct](com.construct.html) - Конструктор класу com
--   [dotnet](class.dotnet.html) - Клас dotnet
-    -   [dotnet::construct](dotnet.construct.html) - Конструктор класу dotnet
--   [variant](class.variant.html) - Клас variant
-    -   [variant::construct](variant.construct.html) - Конструктор класу variant
--   [COMPersistHelper](class.compersisthelper.html) - Клас COMPersistHelper
-    -   [COMPersistHelper::construct](compersisthelper.construct.html) - Конструктор класу COMPersistHelper
-    -   [COMPersistHelper::GetCurFileName](compersisthelper.getcurfilename.html) — Отримати ім'я файлу
-    -   [COMPersistHelper::GetMaxStreamSize](compersisthelper.getmaxstreamsize.html) — Отримати максимальний розмір потоку
-    -   [COMPersistHelper::InitNew](compersisthelper.initnew.html) — Ініціалізує об'єкт у стан за умовчанням
-    -   [COMPersistHelper::LoadFromFile](compersisthelper.loadfromfile.html) — Завантажити об'єкт із файлу
-    -   [COMPersistHelper::LoadFromStream](compersisthelper.loadfromstream.html) — Завантажує об'єкт із потоку
-    -   [COMPersistHelper::SaveToFile](compersisthelper.savetofile.html) — Зберегти об'єкт у файл
-    -   [COMPersistHelper::SaveToStream](compersisthelper.savetostream.html) — Зберігає об'єкт у потоці
+-   [Приклади](com.examples.md)
+    -   [For Each](com.examples.foreach.md)
+    -   [Масиви та властивості COM у стилі масивів](com.examples.arrays.md)
+-   [com](class.com.md) - Клас com
+    -   [com::construct](com.construct.md) - Конструктор класу com
+-   [dotnet](class.dotnet.md) - Клас dotnet
+    -   [dotnet::construct](dotnet.construct.md) - Конструктор класу dotnet
+-   [variant](class.variant.md) - Клас variant
+    -   [variant::construct](variant.construct.md) - Конструктор класу variant
+-   [COMPersistHelper](class.compersisthelper.md) - Клас COMPersistHelper
+    -   [COMPersistHelper::construct](compersisthelper.construct.md) - Конструктор класу COMPersistHelper
+    -   [COMPersistHelper::GetCurFileName](compersisthelper.getcurfilename.md) — Отримати ім'я файлу
+    -   [COMPersistHelper::GetMaxStreamSize](compersisthelper.getmaxstreamsize.md) — Отримати максимальний розмір потоку
+    -   [COMPersistHelper::InitNew](compersisthelper.initnew.md) — Ініціалізує об'єкт у стан за умовчанням
+    -   [COMPersistHelper::LoadFromFile](compersisthelper.loadfromfile.md) — Завантажити об'єкт із файлу
+    -   [COMPersistHelper::LoadFromStream](compersisthelper.loadfromstream.md) — Завантажує об'єкт із потоку
+    -   [COMPersistHelper::SaveToFile](compersisthelper.savetofile.md) — Зберегти об'єкт у файл
+    -   [COMPersistHelper::SaveToStream](compersisthelper.savetostream.md) — Зберігає об'єкт у потоці
 -   [comexception](class.com-exception.html) - Клас comexception
--   [Функции COM](ref.com.html)
+-   [Функции COM](ref.com.md)
     -   [comcreateguid](function.com-create-guid.html) - Створення унікального глобального ідентифікатора (GUID)
     -   [comeventsink](function.com-event-sink.html) — Зв'язати повідомлення COM з об'єктом PHP
     -   [comgetactiveobject](function.com-get-active-object.html) — Повернути дескриптор на запущений екземпляр об'єкта COM

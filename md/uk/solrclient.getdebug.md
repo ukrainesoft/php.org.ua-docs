@@ -1,12 +1,12 @@
 Повертає дані налагодження для останньої спроби підключення
 
--   [« SolrClient::getByIds](solrclient.getbyids.html)
+-   [« SolrClient::getByIds](solrclient.getbyids.md)
     
--   [SolrClient::getOptions »](solrclient.getoptions.html)
+-   [SolrClient::getOptions »](solrclient.getoptions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrClient](class.solrclient.html)
+-   [SolrClient](class.solrclient.md)
     
 -   Повертає дані налагодження для останньої спроби підключення
     

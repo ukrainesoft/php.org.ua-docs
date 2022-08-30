@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](imagick.setup.html)
+-   [« Встановлення та налаштування](imagick.setup.md)
     
--   [Установка »](imagick.installation.html)
+-   [Установка »](imagick.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](imagick.setup.html)
+-   [Встановлення та налаштування](imagick.setup.md)
     
 -   Вимоги
     

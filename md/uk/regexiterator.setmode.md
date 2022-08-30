@@ -31,17 +31,17 @@ public RegexIterator::setMode(int $mode): void
 
 Режим роботи.
 
-Нижче наведено можливі режими. Сенс та значення режимів описані в розділі [предопределённых констант](class.regexiterator.html#regexiterator.constants)
+Нижче наведено можливі режими. Сенс та значення режимів описані в розділі [зумовлених констант](class.regexiterator.html#regexiterator.constants)
 
 **Режими роботи [RegexIterator](class.regexiterator.html)**
 
-| значение | константа                                                                                 |
-|----------|-------------------------------------------------------------------------------------------|
-|          | [RegexIterator::MATCH](class.regexiterator.html#regexiterator.constants.match)            |
-|          | [RegexIterator::GETMATCH](class.regexiterator.html#regexiterator.constants.get-match)     |
-|          | [RegexIterator::ALLMATCHES](class.regexiterator.html#regexiterator.constants.all-matches) |
-|          | [RegexIterator::SPLIT](class.regexiterator.html#regexiterator.constants.split)            |
-|          | [RegexIterator::REPLACE](class.regexiterator.html#regexiterator.constants.replace)        |
+| значение | константа |
+| --- | --- |
+|  | [RegexIterator::MATCH](class.regexiterator.html#regexiterator.constants.match) |
+|  | [RegexIterator::GETMATCH](class.regexiterator.html#regexiterator.constants.get-match) |
+|  | [RegexIterator::ALLMATCHES](class.regexiterator.html#regexiterator.constants.all-matches) |
+|  | [RegexIterator::SPLIT](class.regexiterator.html#regexiterator.constants.split) |
+|  | [RegexIterator::REPLACE](class.regexiterator.html#regexiterator.constants.replace) |
 
 ### Значення, що повертаються
 

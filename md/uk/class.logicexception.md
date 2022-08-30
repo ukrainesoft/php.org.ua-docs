@@ -1,12 +1,12 @@
 Клас LogicException
 
--   [« LengthException](class.lengthexception.html)
+-   [« LengthException](class.lengthexception.md)
     
--   [OutOfBoundsException »](class.outofboundsexception.html)
+-   [OutOfBoundsException »](class.outofboundsexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Исключения](spl.exceptions.html)
+-   [Исключения](spl.exceptions.md)
     
 -   Клас LogicException
     

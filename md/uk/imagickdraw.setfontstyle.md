@@ -1,12 +1,12 @@
 Встановлює стиль шрифту для використання під час анотування текстом
 
--   [« ImagickDraw::setFontStretch](imagickdraw.setfontstretch.html)
+-   [« ImagickDraw::setFontStretch](imagickdraw.setfontstretch.md)
     
--   [ImagickDraw::setFontWeight »](imagickdraw.setfontweight.html)
+-   [ImagickDraw::setFontWeight »](imagickdraw.setfontweight.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Встановлює стиль шрифту для використання під час анотування текстом
     

@@ -4,9 +4,9 @@
     
 -   [Функции varrepresentation »](ref.var-representation.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [varrepresentation](book.var_representation.html)
+-   [varrepresentation](book.var_representation.md)
     
 -   Обумовлені константи
     

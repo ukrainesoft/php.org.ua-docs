@@ -1,12 +1,12 @@
 Клас Volatile
 
--   [« Pool::submitTo](pool.submitTo.html)
+-   [« Pool::submitTo](pool.submitTo.md)
     
--   [Семафоры »](book.sem.html)
+-   [Семафори »](book.sem.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [pthreads](book.pthreads.html)
+-   [pthreads](book.pthreads.md)
     
 -   Клас Volatile
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Клас **Volatile** з'явився в pthreads v3. Його запровадження є наслідком нової семантики незмінності [Threaded](class.threaded.html)властивостей класів [Threaded](class.threaded.html). Клас **Volatile** включає іммутабельність їх [Threaded](class.threaded.html)властивостей і також використовується для зберігання масивів PHP в контексті [Threaded](class.threaded.html)
+Клас **Volatile** з'явився в pthreads v3. Його запровадження є наслідком нової семантики незмінності [Threaded](class.threaded.md)властивостей класів [Threaded](class.threaded.md). Клас **Volatile** включає іммутабельність їх [Threaded](class.threaded.md)властивостей і також використовується для зберігання масивів PHP в контексті [Threaded](class.threaded.md)
 
 ## Огляд класів
 

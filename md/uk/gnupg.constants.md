@@ -1,8 +1,8 @@
 Обумовлені константи
 
--   [« Типы ресурсов](gnupg.resources.html)
+-   [« Типи ресурсів](gnupg.resources.html)
     
--   [Примеры »](gnupg.examples.html)
+-   [Приклади »](gnupg.examples.html)
     
 -   [PHP Manual](index.html)
     

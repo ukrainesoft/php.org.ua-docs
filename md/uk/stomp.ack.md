@@ -1,12 +1,12 @@
 Підтверджує отримання повідомлення
 
--   [« Stomp::abort](stomp.abort.html)
+-   [« Stomp::abort](stomp.abort.md)
     
--   [Stomp::begin »](stomp.begin.html)
+-   [Stomp::begin »](stomp.begin.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Stomp](class.stomp.html)
+-   [Stomp](class.stomp.md)
     
 -   Підтверджує отримання повідомлення
     
@@ -39,7 +39,7 @@ stomp_ack(resource $link, mixed $msg, array $headers = ?): bool
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.html)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
 
 `msg`
 

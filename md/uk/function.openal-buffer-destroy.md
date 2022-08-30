@@ -4,9 +4,9 @@
     
 -   [openalbufferget »](function.openal-buffer-get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenAL](ref.openal.html)
+-   [Функции OpenAL](ref.openal.md)
     
 -   Знищує буфер OpenAL
     
@@ -27,7 +27,7 @@ openal_buffer_destroy(resource $buffer): bool
 
 `buffer`
 
-Ресурс [Open AL(Buffer)](openal.resources.html) (раніше створений за допомогою [openalbuffercreate()](function.openal-buffer-create.html)
+Ресурс [Open AL(Buffer)](openal.resources.md) (раніше створений за допомогою [openalbuffercreate()](function.openal-buffer-create.html)
 
 ### Значення, що повертаються
 

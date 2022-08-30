@@ -1,12 +1,12 @@
 Отримання вмісту кешу
 
--   [« CachingIterator::current](cachingiterator.current.html)
+-   [« CachingIterator::current](cachingiterator.current.md)
     
--   [CachingIterator::getFlags »](cachingiterator.getflags.html)
+-   [CachingIterator::getFlags »](cachingiterator.getflags.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CachingIterator](class.cachingiterator.html)
+-   [CachingIterator](class.cachingiterator.md)
     
 -   Отримання вмісту кешу
     
@@ -39,7 +39,7 @@ public CachingIterator::getCache(): array
 
 ### Помилки
 
-Викидає [BadMethodCallException](class.badmethodcallexception.html) у випадку, якщо не встановлено прапор **`CachingIterator::FULL_CACHE`**
+Викидає [BadMethodCallException](class.badmethodcallexception.md) у випадку, якщо не встановлено прапор **`CachingIterator::FULL_CACHE`**
 
 ### Приклади
 

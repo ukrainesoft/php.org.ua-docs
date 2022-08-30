@@ -1,12 +1,12 @@
 Запускає запит XPath до XML-даних
 
--   [« SimpleXMLElement::toString](simplexmlelement.tostring.html)
+-   [« SimpleXMLElement::toString](simplexmlelement.tostring.md)
     
--   [SimpleXMLIterator »](class.simplexmliterator.html)
+-   [SimpleXMLIterator »](class.simplexmliterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXMLElement](class.simplexmlelement.html)
+-   [SimpleXMLElement](class.simplexmlelement.md)
     
 -   Запускає запит XPath до XML-даних
     
@@ -84,7 +84,7 @@ b/c: вещь
 
 ### Дивіться також
 
--   [SimpleXMLElement::registerXPathNamespace()](simplexmlelement.registerxpathnamespace.html) - Створює префікс/простір імен контексту для наступного запиту XPath
--   [SimpleXMLElement::getDocNamespaces()](simplexmlelement.getdocnamespaces.html) - Повертає простори імен, оголошених у документі
--   [SimpleXMLElement::getNamespaces()](simplexmlelement.getnamespaces.html) - Повертає простір імен, що використовуються в документі
+-   [SimpleXMLElement::registerXPathNamespace()](simplexmlelement.registerxpathnamespace.md) - Створює префікс/простір імен контексту для наступного запиту XPath
+-   [SimpleXMLElement::getDocNamespaces()](simplexmlelement.getdocnamespaces.md) - Повертає простори імен, оголошених у документі
+-   [SimpleXMLElement::getNamespaces()](simplexmlelement.getnamespaces.md) - Повертає простір імен, що використовуються в документі
 -   [Базовое использование SimpleXML](simplexml.examples-basic.html)

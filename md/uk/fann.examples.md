@@ -1,6 +1,6 @@
 Приклади
 
--   [« Предопределённые константы](fann.constants.html)
+-   [« Обумовлені константи](fann.constants.html)
     
 -   [Обучение XOR »](fann.examples-1.html)
     

@@ -4,9 +4,9 @@
     
 -   [datedefaulttimezoneset »](function.date-default-timezone-set.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Повертає часовий пояс, який використовується за умовчанням всіма функціями дати/часу у скрипті
     
@@ -84,4 +84,4 @@ America/Los_Angeles => America/Los_Angeles => PST
 ### Дивіться також
 
 -   [datedefaulttimezoneset()](function.date-default-timezone-set.html) - Встановлює часовий пояс за промовчанням для всіх функцій дати/часу у скрипті
--   [Список підтримуваних часових поясів](timezones.html)
+-   [Список підтримуваних часових поясів](timezones.md)

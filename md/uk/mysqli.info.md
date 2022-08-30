@@ -2,11 +2,11 @@
 
 -   [« mysqli::getwarnings](mysqli.get-warnings.html)
     
--   [mysqli::init »](mysqli.init.html)
+-   [mysqli::init »](mysqli.init.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Витягує інформацію про останній виконаний запит
     
@@ -23,7 +23,7 @@ mysqli::$info -- mysqliinfo — Витягує інформацію про ос�
 
 Об'єктно-орієнтований стиль
 
-?string [$mysqli->info](mysqli.info.html)
+?string [$mysqli->info](mysqli.info.md)
 
 Процедурний стиль
 
@@ -35,13 +35,13 @@ mysqli_info(mysqli $mysql): ?string
 
 **Можливі значення, що повертаються mysqliinfo**
 
-| Тип запроса                            | Пример результирующей строки                 |
-|----------------------------------------|----------------------------------------------|
-| INSERT INTO...SELECT...                | Records: 100 Duplicates: 0 Warnings: 0       |
-| INSERT INTO...VALUES (...),(...),(...) | Records: 3 Duplicates: 0 Warnings: 0         |
-| LOAD DATA INFILE ...                   | Records: 1 Deleted: 0 Skipped: 0 Warnings: 0 |
-| ALTER TABLE ...                        | Records: 3 Duplicates: 0 Warnings: 0         |
-| UPDATE ...                             | Rows matched: 40 Changed: 40 Warnings: 0     |
+| Тип запроса | Пример результирующей строки |
+| --- | --- |
+| INSERT INTO...SELECT... | Records: 100 Duplicates: 0 Warnings: 0 |
+| INSERT INTO...VALUES (...),(...),(...) | Records: 3 Duplicates: 0 Warnings: 0 |
+| LOAD DATA INFILE ... | Records: 1 Deleted: 0 Skipped: 0 Warnings: 0 |
+| ALTER TABLE ... | Records: 3 Duplicates: 0 Warnings: 0 |
+| UPDATE ... | Rows matched: 40 Changed: 40 Warnings: 0 |
 
 > **Зауваження**
 > 
@@ -51,7 +51,7 @@ mysqli_info(mysqli $mysql): ?string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 

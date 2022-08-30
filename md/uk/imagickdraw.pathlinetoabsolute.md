@@ -1,12 +1,12 @@
 Малює лінію
 
--   [« ImagickDraw::pathFinish](imagickdraw.pathfinish.html)
+-   [« ImagickDraw::pathFinish](imagickdraw.pathfinish.md)
     
--   [ImagickDraw::pathLineToHorizontalAbsolute »](imagickdraw.pathlinetohorizontalabsolute.html)
+-   [ImagickDraw::pathLineToHorizontalAbsolute »](imagickdraw.pathlinetohorizontalabsolute.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Малює лінію
     

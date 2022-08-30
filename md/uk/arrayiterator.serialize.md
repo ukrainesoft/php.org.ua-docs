@@ -1,12 +1,12 @@
 Серіалізує масив
 
--   [« ArrayIterator::seek](arrayiterator.seek.html)
+-   [« ArrayIterator::seek](arrayiterator.seek.md)
     
--   [ArrayIterator::setFlags »](arrayiterator.setflags.html)
+-   [ArrayIterator::setFlags »](arrayiterator.setflags.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayIterator](class.arrayiterator.html)
+-   [ArrayIterator](class.arrayiterator.md)
     
 -   Серіалізує масив
     
@@ -35,8 +35,8 @@ public ArrayIterator::serialize(): string
 
 ### Значення, що повертаються
 
-Серіалізований [ArrayIterator](class.arrayiterator.html)
+Серіалізований [ArrayIterator](class.arrayiterator.md)
 
 ### Дивіться також
 
--   [ArrayIterator::unserialize()](arrayiterator.unserialize.html) - десеріалізація
+-   [ArrayIterator::unserialize()](arrayiterator.unserialize.md) - десеріалізація

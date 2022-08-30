@@ -1,12 +1,12 @@
 Вступ
 
--   [« Yaf](book.yaf.html)
+-   [« Yaf](book.yaf.md)
     
--   [Установка и настройка »](yaf.setup.html)
+-   [Встановлення та налаштування »](yaf.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yaf](book.yaf.html)
+-   [Yaf](book.yaf.md)
     
 -   Вступ
     
@@ -17,4 +17,4 @@
 
 Простий тест продуктивності Yaf можна знайти на [» Yaf Performance](http://www.laruence.com/2011/12/02/2333.html)
 
-Короткий посібник описаний у розділі [Учебник](yaf.tutorials.html)
+Короткий посібник описаний у розділі [Учебник](yaf.tutorials.md)

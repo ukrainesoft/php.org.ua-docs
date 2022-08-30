@@ -4,9 +4,9 @@
     
 -   [wincacherplistmeminfo »](function.wincache-rplist-meminfo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции WinCache](ref.wincache.html)
+-   [Функции WinCache](ref.wincache.md)
     
 -   Отримує інформацію про дозвіл кешу шляху до файлу роздільної здатності
     

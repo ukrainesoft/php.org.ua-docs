@@ -1,19 +1,19 @@
 Callback-функції
 
--   [« Про постійні (persistent) події](event.persistence.html)
+-   [« Про постійні (persistent) події](event.persistence.md)
     
--   [Створення подій для сигналів »](event.constructing.signal.events.html)
+-   [Створення подій для сигналів »](event.constructing.signal.events.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](book.event.html)
+-   [Event](book.event.md)
     
 -   Callback-функції
     
 
 # Callback-функції
 
-Якщо для події зареєстрована callback-функція, вона буде викликана, коли подія перейде в активний статус. Для прив'язування функції до події необхідно передати її як параметр [callable](language.types.callable.html) в [Event::construct()](event.construct.html) або [Event::set()](event.set.html) або в один із фабричних методів, таких як [Event::timer()](event.timer.html)
+Якщо для події зареєстрована callback-функція, вона буде викликана, коли подія перейде в активний статус. Для прив'язування функції до події необхідно передати її як параметр [callable](language.types.callable.md) в [Event::construct()](event.construct.md) або [Event::set()](event.set.md) або в один із фабричних методів, таких як [Event::timer()](event.timer.md)
 
 Функція повинна відповідати наступному прототипу:
 
@@ -44,7 +44,7 @@ callback(
 
 Дані користувача.
 
-Для [Event::timer()](event.timer.html) callback-функція повинна відповідати наступному прототипу:
+Для [Event::timer()](event.timer.md) callback-функція повинна відповідати наступному прототипу:
 
 ```methodsynopsis
 callback(
@@ -58,7 +58,7 @@ callback(
 
 Дані користувача.
 
-Для [Event::signal()](event.signal.html) callback-функція повинна відповідати наступному прототипу:
+Для [Event::signal()](event.signal.md) callback-функція повинна відповідати наступному прототипу:
 
 ```methodsynopsis
 callback(

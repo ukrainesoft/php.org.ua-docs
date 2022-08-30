@@ -4,9 +4,9 @@
     
 -   [мбsubstitutecharacter »](function.mb-substitute-character.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
     
 -   Повертає ширину рядка
     
@@ -43,9 +43,9 @@ mb_strwidth(string $string, ?string $encoding = null): int
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Приклади
 

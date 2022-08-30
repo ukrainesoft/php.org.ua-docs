@@ -4,9 +4,9 @@
     
 -   [ocisetcalltimeout »](function.oci-set-call-timout.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8 Функции](ref.oci8.html)
+-   [OCI8 Функции](ref.oci8.md)
     
 -   Вказує ім'я для дії
     

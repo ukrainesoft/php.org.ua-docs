@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](seaslog.setup.html)
+-   [« Встановлення та налаштування](seaslog.setup.html)
     
 -   [Установка »](seaslog.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](seaslog.setup.html)
+-   [Встановлення та налаштування](seaslog.setup.html)
     
 -   Вимоги
     

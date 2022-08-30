@@ -4,9 +4,9 @@
     
 -   [псmoveto »](function.ps-moveto.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Створює плашковий колір
     

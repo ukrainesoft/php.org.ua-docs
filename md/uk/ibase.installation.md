@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](ibase.requirements.html)
+-   [« Вимоги](ibase.requirements.html)
     
--   [Настройка во время выполнения »](ibase.configuration.html)
+-   [Налаштування під час виконання »](ibase.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](ibase.setup.html)
+-   [Встановлення та налаштування](ibase.setup.html)
     
 -   Встановлення
     

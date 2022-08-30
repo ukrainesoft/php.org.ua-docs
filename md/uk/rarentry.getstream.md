@@ -1,12 +1,12 @@
 Отримати обробник для запису
 
--   [« RarEntry::getPackedSize](rarentry.getpackedsize.html)
+-   [« RarEntry::getPackedSize](rarentry.getpackedsize.md)
     
--   [RarEntry::getUnpackedSize »](rarentry.getunpackedsize.html)
+-   [RarEntry::getUnpackedSize »](rarentry.getunpackedsize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RarEntry](class.rarentry.html)
+-   [RarEntry](class.rarentry.md)
     
 -   Отримати обробник для запису
     
@@ -25,7 +25,7 @@ public RarEntry::getStream(string $password = ?): resource|false
 
 Повертає оброблювач, який підтримує операцію читання. Цей оброблювач вміє розпаковувати запис на льоту.
 
-Обробник не знищується під час виклику [rarclose()](rararchive.close.html)
+Обробник не знищується під час виклику [rarclose()](rararchive.close.md)
 
 **Увага**
 
@@ -35,7 +35,7 @@ public RarEntry::getStream(string $password = ?): resource|false
 
 `password`
 
-Пароль, який використовується для шифрування запису. Якщо запис не шифрований, цей параметр ігнорується і може бути опущений. Якщо ж параметр опущений, а запис шифрований, буде використано пароль заданий у функції [raropen()](rararchive.open.html)якщо звичайно він був заданий. Якщо було встановлено неправильний пароль, явно чи неявно через [raropen()](rararchive.open.html), цей метод поверне потік із невірними даними. Якщо пароль не заданий взагалі, а він потрібен, то метод поверне **`false`**. Зашифрований запис чи ні можна перевірити за допомогою [RarEntry::isEncrypted()](rarentry.isencrypted.html)
+Пароль, який використовується для шифрування запису. Якщо запис не шифрований, цей параметр ігнорується і може бути опущений. Якщо ж параметр опущений, а запис шифрований, буде використано пароль заданий у функції [raropen()](rararchive.open.md)якщо звичайно він був заданий. Якщо було встановлено неправильний пароль, явно чи неявно через [raropen()](rararchive.open.md), цей метод поверне потік із невірними даними. Якщо пароль не заданий взагалі, а він потрібен, то метод поверне **`false`**. Зашифрований запис чи ні можна перевірити за допомогою [RarEntry::isEncrypted()](rarentry.isencrypted.md)
 
 ### Значення, що повертаються
 
@@ -43,8 +43,8 @@ public RarEntry::getStream(string $password = ?): resource|false
 
 ### список змін
 
-| Версия         | Описание                                                                        |
-|----------------|---------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL rar 3.0.0 | Підтримка RAR-архівів з іменами записів, що дублюються, тепер працює нормально. |
 
 ### Приклади
@@ -83,5 +83,5 @@ fclose($stream);
 
 ### Дивіться також
 
--   [RarEntry::extract()](rarentry.extract.html) - Витягує елемент із архіву
--   [обёртка`rar://`](wrappers.rar.html)
+-   [RarEntry::extract()](rarentry.extract.md) - Витягує елемент із архіву
+-   [обёртка`rar://`](wrappers.rar.md)

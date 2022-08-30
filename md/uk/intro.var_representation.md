@@ -2,7 +2,7 @@
 
 -   [« varrepresentation](book.var_representation.html)
     
--   [Установка и настройка »](var-representation.setup.html)
+-   [Встановлення та налаштування »](var-representation.setup.html)
     
 -   [PHP Manual](index.html)
     

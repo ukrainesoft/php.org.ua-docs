@@ -1,12 +1,12 @@
 Відкриває архів RAR
 
--   [« RarArchive::isSolid](rararchive.issolid.html)
+-   [« RarArchive::isSolid](rararchive.issolid.md)
     
--   [RarArchive::setAllowBroken »](rararchive.setallowbroken.html)
+-   [RarArchive::setAllowBroken »](rararchive.setallowbroken.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RarArchive](class.rararchive.html)
+-   [RarArchive](class.rararchive.md)
     
 -   Відкриває архів RAR
     
@@ -33,7 +33,7 @@ public static RarArchive::open(string $filename, string $password = NULL, callab
 rar_open(string $filename, string $password = NULL, callable $volume_callback = NULL): RarArchive|false
 ```
 
-Відкриває зазначений RAR-архів та повертає об'єкт [RarArchive](class.rararchive.html)представляє його.
+Відкриває зазначений RAR-архів та повертає об'єкт [RarArchive](class.rararchive.md)представляє його.
 
 > **Зауваження**
 > 
@@ -55,16 +55,16 @@ rar_open(string $filename, string $password = NULL, callable $volume_callback = 
 
 **Увага**
 
-До версії 2.0.0 ця функція не обробляла правильно відносні шляхи. У таких випадках використовуйте [realpath()](function.realpath.html)
+До версії 2.0.0 ця функція не обробляла правильно відносні шляхи. У таких випадках використовуйте [realpath()](function.realpath.md)
 
 ### Значення, що повертаються
 
-Повертає запитуваний об'єкт [RarArchive](class.rararchive.html) або **`false`** у разі виникнення помилки.
+Повертає запитуваний об'єкт [RarArchive](class.rararchive.md) або **`false`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия         | Описание                      |
-|----------------|-------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL rar 3.0.0 | Був доданий `volume_callback` |
 
 ### Приклади
@@ -157,4 +157,4 @@ $entry->extract(null, dirname(__FILE__) . "/temp_file2.txt");
 
 ### Дивіться також
 
--   [`rar://`wrapper](wrappers.rar.html)
+-   [`rar://`wrapper](wrappers.rar.md)

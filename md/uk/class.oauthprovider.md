@@ -1,12 +1,12 @@
 Клас OAuthProvider
 
--   [« OAuth::setVersion](oauth.setversion.html)
+-   [« OAuth::setVersion](oauth.setversion.md)
     
--   [OAuthProvider::addRequiredParameter »](oauthprovider.addrequiredparameter.html)
+-   [OAuthProvider::addRequiredParameter »](oauthprovider.addrequiredparameter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](book.oauth.html)
+-   [OAuth](book.oauth.md)
     
 -   Клас OAuthProvider
     
@@ -19,7 +19,7 @@
 
 Клас керування провайдером OAuth.
 
-Також дивіться докладний опис на зовнішньому ресурсі [» Написание сервиса провайдера OAuth](http://toys.lerdorf.com/archives/55-Writing-an-OAuth-Provider-Service.html), В якому описується практичний підхід надання такого сервісу. Також подивіться [» примеры провайдера OAuth](https://svn.php.net/viewvc/pecl/oauth/trunk/examples) у вихідних кодах модуля OAuth.
+Також дивіться докладний опис на зовнішньому ресурсі [» Написание сервиса провайдера OAuth](http://toys.lerdorf.com/archives/55-Writing-an-OAuth-Provider-Service.html), В якому описується практичний підхід надання такого сервісу. Також подивіться [» приклади провайдера OAuth](https://svn.php.net/viewvc/pecl/oauth/trunk/examples) у вихідних кодах модуля OAuth.
 
 ## Огляд класів
 
@@ -58,19 +58,19 @@ public tokenHandler(callable $callback_function): void
 
 ## Зміст
 
--   [OAuthProvider::addRequiredParameter](oauthprovider.addrequiredparameter.html) — Додати необхідні параметри
--   [OAuthProvider::callconsumerHandler](oauthprovider.callconsumerhandler.html) — Викликати callback-функцію consumerNonceHandler
--   [OAuthProvider::callTimestampNonceHandler](oauthprovider.calltimestampnoncehandler.html) — Викликати callback-функцію timestampNonceHandler
--   [OAuthProvider::calltokenHandler](oauthprovider.calltokenhandler.html) — Викликати callback-функцію tokenNonceHandler
--   [OAuthProvider::checkOAuthRequest](oauthprovider.checkoauthrequest.html) - Перевірка запиту oauth
--   [OAuthProvider::construct](oauthprovider.construct.html) - Конструктор класу OAuthProvider
--   [OAuthProvider::consumerHandler](oauthprovider.consumerhandler.html) — Встановити обробник consumerHandler
--   [OAuthProvider::generateToken](oauthprovider.generatetoken.html) - Генерація випадкового токена
--   [OAuthProvider::is2LeggedEndpoint](oauthprovider.is2leggedendpoint.html) - is2LeggedEndpoint
--   [OAuthProvider::isRequestTokenEndpoint](oauthprovider.isrequesttokenendpoint.html) — Установка isRequestTokenEndpoint
--   [OAuthProvider::removeRequiredParameter](oauthprovider.removerequiredparameter.html) — Видалити потрібний параметр
--   [OAuthProvider::reportProblem](oauthprovider.reportproblem.html) — Повідомити про проблему
--   [OAuthProvider::setParam](oauthprovider.setparam.html) — Встановити параметр
--   [OAuthProvider::setRequestTokenPath](oauthprovider.setrequesttokenpath.html) - Встановити шлях запиту токена
--   [OAuthProvider::timestampNonceHandler](oauthprovider.timestampnoncehandler.html) — Встановити обробник timestampNonceHandler
--   [OAuthProvider::tokenHandler](oauthprovider.tokenhandler.html) — Встановити обробник tokenHandler
+-   [OAuthProvider::addRequiredParameter](oauthprovider.addrequiredparameter.md) — Додати необхідні параметри
+-   [OAuthProvider::callconsumerHandler](oauthprovider.callconsumerhandler.md) — Викликати callback-функцію consumerNonceHandler
+-   [OAuthProvider::callTimestampNonceHandler](oauthprovider.calltimestampnoncehandler.md) — Викликати callback-функцію timestampNonceHandler
+-   [OAuthProvider::calltokenHandler](oauthprovider.calltokenhandler.md) — Викликати callback-функцію tokenNonceHandler
+-   [OAuthProvider::checkOAuthRequest](oauthprovider.checkoauthrequest.md) - Перевірка запиту oauth
+-   [OAuthProvider::construct](oauthprovider.construct.md) - Конструктор класу OAuthProvider
+-   [OAuthProvider::consumerHandler](oauthprovider.consumerhandler.md) — Встановити обробник consumerHandler
+-   [OAuthProvider::generateToken](oauthprovider.generatetoken.md) - Генерація випадкового токена
+-   [OAuthProvider::is2LeggedEndpoint](oauthprovider.is2leggedendpoint.md) - is2LeggedEndpoint
+-   [OAuthProvider::isRequestTokenEndpoint](oauthprovider.isrequesttokenendpoint.md) — Установка isRequestTokenEndpoint
+-   [OAuthProvider::removeRequiredParameter](oauthprovider.removerequiredparameter.md) — Видалити потрібний параметр
+-   [OAuthProvider::reportProblem](oauthprovider.reportproblem.md) — Повідомити про проблему
+-   [OAuthProvider::setParam](oauthprovider.setparam.md) — Встановити параметр
+-   [OAuthProvider::setRequestTokenPath](oauthprovider.setrequesttokenpath.md) - Встановити шлях запиту токена
+-   [OAuthProvider::timestampNonceHandler](oauthprovider.timestampnoncehandler.md) — Встановити обробник timestampNonceHandler
+-   [OAuthProvider::tokenHandler](oauthprovider.tokenhandler.md) — Встановити обробник tokenHandler

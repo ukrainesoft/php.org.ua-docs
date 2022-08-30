@@ -1,12 +1,12 @@
 Використовується для встановлення безпечних з'єднань за допомогою SSL
 
--   [« mysqli::$sqlstate](mysqli.sqlstate.html)
+-   [« mysqli::$sqlstate](mysqli.sqlstate.md)
     
--   [mysqli::stat »](mysqli.stat.html)
+-   [mysqli::stat »](mysqli.stat.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Використовується для встановлення безпечних з'єднань за допомогою SSL
     
@@ -39,7 +39,7 @@ mysqli_ssl_set(    mysqli $mysql,    ?string $key,    ?string $certi
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 `key`
 
@@ -67,5 +67,5 @@ mysqli_ssl_set(    mysqli $mysql,    ?string $key,    ?string $certi
 
 ### Дивіться також
 
--   [mysqlioptions()](mysqli.options.html) - Встановлення налаштувань
+-   [mysqlioptions()](mysqli.options.md) - Встановлення налаштувань
 -   [mysqlirealconnect()](mysqli.real-connect.html) - Встановлює з'єднання із сервером mysql

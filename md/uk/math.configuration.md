@@ -2,11 +2,11 @@
 
 -   [« Установка](math.installation.html)
     
--   [Типы ресурсов »](math.resources.html)
+-   [Типи ресурсів »](math.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](math.setup.html)
+-   [Встановлення та налаштування](math.setup.html)
     
 -   Налаштування під час виконання
     

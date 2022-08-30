@@ -1,12 +1,12 @@
 Створити новий вузол елемента з відповідним простором імен
 
--   [« DOMDocument::createElement](domdocument.createelement.html)
+-   [« DOMDocument::createElement](domdocument.createelement.md)
     
--   [DOMDocument::createEntityReference »](domdocument.createentityreference.html)
+-   [DOMDocument::createEntityReference »](domdocument.createentityreference.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMDocument](class.domdocument.html)
+-   [DOMDocument](class.domdocument.md)
     
 -   Створити новий вузол елемента з відповідним простором імен
     
@@ -23,7 +23,7 @@ DOMDocument::createElementNS — Створити новий вузол елем
 public DOMDocument::createElementNS(?string $namespace, string $qualifiedName, string $value = ""): DOMElement|false
 ```
 
-Ця функція створює новий вузол-елемент із відповідним простором імен. Цей вузол не відображатиметься в документі, доки він не буде вставлений, наприклад, функцією [DOMNode::appendChild()](domnode.appendchild.html)
+Ця функція створює новий вузол-елемент із відповідним простором імен. Цей вузол не відображатиметься в документі, доки він не буде вставлений, наприклад, функцією [DOMNode::appendChild()](domnode.appendchild.md)
 
 ### Список параметрів
 
@@ -41,7 +41,7 @@ URI простір імен.
 
 ### Значення, що повертаються
 
-Новий об'єкт класу [DOMElement](class.domelement.html) або **`false`** у разі виникнення помилки.
+Новий об'єкт класу [DOMElement](class.domelement.md) або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
@@ -113,13 +113,13 @@ item_type
 
 ### Дивіться також
 
--   [DOMNode::appendChild()](domnode.appendchild.html) - Додає новий дочірній вузол до кінця списку нащадків
--   [DOMDocument::createAttribute()](domdocument.createattribute.html) - Створити новий атрибут
--   [DOMDocument::createAttributeNS()](domdocument.createattributens.html) - Створює новий атрибут вузла з відповідним простором імен
--   [DOMDocument::createCDATASection()](domdocument.createcdatasection.html) - Створює новий вузол cdata
--   [DOMDocument::createComment()](domdocument.createcomment.html) - Створити новий вузол коментаря
--   [DOMDocument::createDocumentFragment()](domdocument.createdocumentfragment.html) - створити новий фрагмент документа
--   [DOMDocument::createElement()](domdocument.createelement.html) - Створити новий вузол елемента
--   [DOMDocument::createEntityReference()](domdocument.createentityreference.html) - Створити новий вузол посилання на суть
--   [DOMDocument::createProcessingInstruction()](domdocument.createprocessinginstruction.html) - Створити новий PI-вузол
--   [DOMDocument::createTextNode()](domdocument.createtextnode.html) - Створити новий текстовий вузол
+-   [DOMNode::appendChild()](domnode.appendchild.md) - Додає новий дочірній вузол до кінця списку нащадків
+-   [DOMDocument::createAttribute()](domdocument.createattribute.md) - Створити новий атрибут
+-   [DOMDocument::createAttributeNS()](domdocument.createattributens.md) - Створює новий атрибут вузла з відповідним простором імен
+-   [DOMDocument::createCDATASection()](domdocument.createcdatasection.md) - Створює новий вузол cdata
+-   [DOMDocument::createComment()](domdocument.createcomment.md) - Створити новий вузол коментаря
+-   [DOMDocument::createDocumentFragment()](domdocument.createdocumentfragment.md) - створити новий фрагмент документа
+-   [DOMDocument::createElement()](domdocument.createelement.md) - Створити новий вузол елемента
+-   [DOMDocument::createEntityReference()](domdocument.createentityreference.md) - Створити новий вузол посилання на суть
+-   [DOMDocument::createProcessingInstruction()](domdocument.createprocessinginstruction.md) - Створити новий PI-вузол
+-   [DOMDocument::createTextNode()](domdocument.createtextnode.md) - Створити новий текстовий вузол

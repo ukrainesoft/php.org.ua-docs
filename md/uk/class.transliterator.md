@@ -1,12 +1,12 @@
 Клас Transliterator
 
--   [« Spoofchecker::setChecks](spoofchecker.setchecks.html)
+-   [« Spoofchecker::setChecks](spoofchecker.setchecks.md)
     
--   [Transliterator::construct »](transliterator.construct.html)
+-   [Transliterator::construct »](transliterator.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [intl](book.intl.html)
+-   [intl](book.intl.md)
     
 -   Клас Transliterator
     
@@ -76,11 +76,11 @@ public transliterate(string $string, int $start = 0, int $end = -1): string|fals
 
 ## Зміст
 
--   [Transliterator::construct](transliterator.construct.html) - Приватний конструктор
--   [Transliterator::create](transliterator.create.html) - Створити транслітератор
--   [Transliterator::createFromRules](transliterator.createfromrules.html) - Створити транслітератор на основі правил
--   [Transliterator::createInverse](transliterator.createinverse.html) - Створити інвертований транслітератор
--   [Transliterator::getErrorCode](transliterator.geterrorcode.html) — Отримати код останньої помилки
--   [Transliterator::getErrorMessage](transliterator.geterrormessage.html) — Отримати останнє повідомлення про помилку
--   [Transliterator::listIDs](transliterator.listids.html) — Отримати ідентифікатори транслітератора
--   [Transliterator::transliterate](transliterator.transliterate.html) — Транслітерувати рядок
+-   [Transliterator::construct](transliterator.construct.md) - Приватний конструктор
+-   [Transliterator::create](transliterator.create.md) - Створити транслітератор
+-   [Transliterator::createFromRules](transliterator.createfromrules.md) - Створити транслітератор на основі правил
+-   [Transliterator::createInverse](transliterator.createinverse.md) - Створити інвертований транслітератор
+-   [Transliterator::getErrorCode](transliterator.geterrorcode.md) — Отримати код останньої помилки
+-   [Transliterator::getErrorMessage](transliterator.geterrormessage.md) — Отримати останнє повідомлення про помилку
+-   [Transliterator::listIDs](transliterator.listids.md) — Отримати ідентифікатори транслітератора
+-   [Transliterator::transliterate](transliterator.transliterate.md) — Транслітерувати рядок

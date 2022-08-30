@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Контекстные опции и параметры](context.html)
+-   [Контекстні опції та параметри](context.html)
     
 -   Список параметрів контексту FTP
     
@@ -45,5 +45,5 @@ FTP-запит через проксі-сервер HTTP. Використову
 ### Дивіться також
 
 -   [ftp://](wrappers.ftp.html)
--   [Контекстные опции сокета](context.socket.html)
+-   [Контекстні опції сокету](context.socket.html)
 -   [Опции контекста SSL](context.ssl.html)

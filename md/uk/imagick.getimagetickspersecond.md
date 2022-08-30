@@ -1,12 +1,12 @@
 Отримує кількість кадрів за секунду для зображення
 
--   [« Imagick::getImageSize](imagick.getimagesize.html)
+-   [« Imagick::getImageSize](imagick.getimagesize.md)
     
--   [Imagick::getImageTotalInkDensity »](imagick.getimagetotalinkdensity.html)
+-   [Imagick::getImageTotalInkDensity »](imagick.getimagetotalinkdensity.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Отримує кількість кадрів за секунду для зображення
     

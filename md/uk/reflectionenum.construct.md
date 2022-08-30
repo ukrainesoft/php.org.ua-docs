@@ -1,12 +1,12 @@
 Створює об'єкт ReflectionEnum
 
--   [« ReflectionEnum](class.reflectionenum.html)
+-   [« ReflectionEnum](class.reflectionenum.md)
     
--   [ReflectionEnum::getBackingType »](reflectionenum.getbackingtype.html)
+-   [ReflectionEnum::getBackingType »](reflectionenum.getbackingtype.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionEnum](class.reflectionenum.html)
+-   [ReflectionEnum](class.reflectionenum.md)
     
 -   Створює об'єкт ReflectionEnum
     
@@ -15,7 +15,7 @@
 
 (PHP 8> = 8.1.0)
 
-ReflectionEnum::construct — Створює об'єкт [ReflectionEnum](class.reflectionenum.html)
+ReflectionEnum::construct — Створює об'єкт [ReflectionEnum](class.reflectionenum.md)
 
 ### Опис
 

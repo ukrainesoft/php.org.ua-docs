@@ -4,9 +4,9 @@
     
 -   [ssh2publickeylist »](function.ssh2-publickey-list.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Ініціалізує підсистему відкритого ключа
     

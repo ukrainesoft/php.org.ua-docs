@@ -1,12 +1,12 @@
 Записати повний тег DTD
 
--   [« XMLWriter::writeComment](xmlwriter.writecomment.html)
+-   [« XMLWriter::writeComment](xmlwriter.writecomment.md)
     
--   [XMLWriter::writeDtdAttlist »](xmlwriter.writedtdattlist.html)
+-   [XMLWriter::writeDtdAttlist »](xmlwriter.writedtdattlist.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](class.xmlwriter.html)
+-   [XMLWriter](class.xmlwriter.md)
     
 -   Записати повний тег DTD
     
@@ -39,7 +39,7 @@ xmlwriter_write_dtd(    XMLWriter $writer,    string $name,    ?stri
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `name`
 
@@ -63,11 +63,11 @@ xmlwriter_write_dtd(    XMLWriter $writer,    string $name,    ?stri
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::startDtd()](xmlwriter.startdtd.html) - Створити стартовий DTD тег
--   [XMLWriter::endDtd()](xmlwriter.enddtd.html) - Завершити поточний DTD
+-   [XMLWriter::startDtd()](xmlwriter.startdtd.md) - Створити стартовий DTD тег
+-   [XMLWriter::endDtd()](xmlwriter.enddtd.md) - Завершити поточний DTD

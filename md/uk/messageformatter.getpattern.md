@@ -1,12 +1,12 @@
 Повертає шаблон, який використовується засобом форматування
 
--   [« MessageFormatter::getLocale](messageformatter.getlocale.html)
+-   [« MessageFormatter::getLocale](messageformatter.getlocale.md)
     
--   [MessageFormatter::parseMessage »](messageformatter.parsemessage.html)
+-   [MessageFormatter::parseMessage »](messageformatter.parsemessage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MessageFormatter](class.messageformatter.html)
+-   [MessageFormatter](class.messageformatter.md)
     
 -   Повертає шаблон, який використовується засобом форматування
     
@@ -39,7 +39,7 @@ msgfmt_get_pattern(MessageFormatter $formatter): string|false
 
 `formatter`
 
-Об'єкт [MessageFormatter](class.messageformatter.html)
+Об'єкт [MessageFormatter](class.messageformatter.md)
 
 ### Значення, що повертаються
 
@@ -86,5 +86,5 @@ Formatted number: 123 trees hosting 456 monkeys
 
 ### Дивіться також
 
--   [msgfmtcreate()](messageformatter.create.html) - Створює засіб форматування повідомлень
--   [msgfmtsetpattern()](messageformatter.setpattern.html) - Встановлює шаблон, який використовується засобом форматування
+-   [msgfmtcreate()](messageformatter.create.md) - Створює засіб форматування повідомлень
+-   [msgfmtsetpattern()](messageformatter.setpattern.md) - Встановлює шаблон, який використовується засобом форматування

@@ -4,9 +4,9 @@
     
 -   [cubridlobsend »](function.cubrid-lob-send.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Отримує дані BLOB/CLOB
     

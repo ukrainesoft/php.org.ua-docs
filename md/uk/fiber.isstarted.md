@@ -1,12 +1,12 @@
 Визначає, чи запущено файбер
 
--   [« Fiber::getReturn](fiber.getreturn.html)
+-   [« Fiber::getReturn](fiber.getreturn.md)
     
--   [Fiber::isSuspended »](fiber.issuspended.html)
+-   [Fiber::isSuspended »](fiber.issuspended.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Fiber](class.fiber.html)
+-   [Fiber](class.fiber.md)
     
 -   Визначає, чи запущено файбер
     

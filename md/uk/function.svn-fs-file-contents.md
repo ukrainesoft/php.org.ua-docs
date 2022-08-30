@@ -4,9 +4,9 @@
     
 -   [svnфсfilelength »](function.svn-fs-file-length.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.md)
     
 -   Повертає потік для доступу до вмісту файлу з цієї файлової системи
     

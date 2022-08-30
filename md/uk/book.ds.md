@@ -14,11 +14,11 @@
 # Структури даних
 
 -   [Введение](intro.ds.html)
--   [Установка и настройка](ds.setup.html)
-    -   [Требования](ds.requirements.html)
+-   [Встановлення та налаштування](ds.setup.html)
+    -   [Вимоги](ds.requirements.html)
     -   [Установка](ds.installation.html)
--   [Предопределённые константы](ds.constants.html)
--   [Примеры](ds.examples.html)
+-   [Обумовлені константи](ds.constants.html)
+-   [Приклади](ds.examples.html)
 -   [Коллекция](class.ds-collection.html) - Інтерфейс Collection
     -   [ДсCollection::clear](ds-collection.clear.html) - Видаляє всі значення
     -   [ДсCollection::copy](ds-collection.copy.html) — Повертає копію колекції

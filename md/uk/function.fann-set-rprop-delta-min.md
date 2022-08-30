@@ -4,9 +4,9 @@
     
 -   [fannsetrpropdeltazero »](function.fann-set-rprop-delta-zero.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Встановлює мінімальний розмір кроку
     

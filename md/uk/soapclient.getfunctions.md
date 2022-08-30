@@ -1,12 +1,12 @@
 Повертає список доступних SOAP-функцій
 
--   [« SoapClient::getCookies](soapclient.getcookies.html)
+-   [« SoapClient::getCookies](soapclient.getcookies.md)
     
--   [SoapClient::getLastRequest »](soapclient.getlastrequest.html)
+-   [SoapClient::getLastRequest »](soapclient.getlastrequest.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SoapClient](class.soapclient.html)
+-   [SoapClient](class.soapclient.md)
     
 -   Повертає список доступних SOAP-функцій
     
@@ -70,4 +70,4 @@ array(26) {
 
 ### Дивіться також
 
--   [SoapClient::construct()](soapclient.construct.html) - Конструктор класу SoapClient
+-   [SoapClient::construct()](soapclient.construct.md) - Конструктор класу SoapClient

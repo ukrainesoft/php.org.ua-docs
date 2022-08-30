@@ -1,12 +1,12 @@
 Нові можливості
 
--   [« Миграция с PHP 7.2.x на PHP 7.3.x](migration73.html)
+-   [« Миграция с PHP 7.2.x на PHP 7.3.x](migration73.md)
     
 -   [Нові функції »](migration73.new-functions.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 7.2.x на PHP 7.3.x](migration73.html)
+-   [Миграция с PHP 7.2.x на PHP 7.3.x](migration73.md)
     
 -   Нові можливості
     
@@ -21,7 +21,7 @@
 
 #### Деструктурування масиву підтримує присвоєння за посиланнями
 
-Деструктурування масиву тепер підтримує присвоєння посилань за допомогою синтаксису `[&$a, [$b, &$c]] = $d`. Те саме підтримується і для [list()](function.list.html)
+Деструктурування масиву тепер підтримує присвоєння посилань за допомогою синтаксису `[&$a, [$b, &$c]] = $d`. Те саме підтримується і для [list()](function.list.md)
 
 #### Оператор встаніприймає літерали
 
@@ -29,7 +29,7 @@
 
 #### Виняток CompileError замість деяких помилок компіляції
 
-Додано новий виняток [CompileError](class.compileerror.html), що успадковується від [ParseError](class.parseerror.html). Невелика кількість помилок компіляції тепер викидатиме [CompileError](class.compileerror.html) замість створення фатальної помилки. В даний час це впливає лише на помилки компіляції, які можуть бути створені [tokengetall()](function.token-get-all.html) в режимі **`TOKEN_PARSE`**, але в майбутньому може бути перетворено більше помилок.
+Додано новий виняток [CompileError](class.compileerror.md), що успадковується від [ParseError](class.parseerror.md). Невелика кількість помилок компіляції тепер викидатиме [CompileError](class.compileerror.md) замість створення фатальної помилки. В даний час це впливає лише на помилки компіляції, які можуть бути створені [tokengetall()](function.token-get-all.html) в режимі **`TOKEN_PARSE`**, але в майбутньому може бути перетворено більше помилок.
 
 #### У викликах дозволена завершальна кома
 
@@ -57,11 +57,11 @@
 
 ### Функції BC Math
 
-Функція [bcscale()](function.bcscale.html) тепер також може використовуватися як геттер для вилучення поточного масштабу.
+Функція [bcscale()](function.bcscale.md) тепер також може використовуватися як геттер для вилучення поточного масштабу.
 
 ### Полегшений протокол доступу до каталогів (LDAP)
 
-Було додано повну підтримку LDAP Controls до функцій запитів [LDAP](book.ldap.html) і [ldapparseresult()](function.ldap-parse-result.html)
+Було додано повну підтримку LDAP Controls до функцій запитів [LDAP](book.ldap.md) і [ldapparseresult()](function.ldap-parse-result.html)
 
 -   Доданий параметр `$serverctrls` для відправлення керування сервером у функціях [ldapadd()](function.ldap-add.html) [ldapmodreplace()](function.ldap-mod-replace.html) [ldapmodadd()](function.ldap-mod-add.html) [ldapmoddel()](function.ldap-mod-del.html) [ldaprename()](function.ldap-rename.html) [ldapcompare()](function.ldap-compare.html) [ldapdelete()](function.ldap-delete.html) [ldapmodifybatch()](function.ldap-modify-batch.html) [ldapsearch()](function.ldap-search.html) [ldaplist()](function.ldap-list.html) і [ldapread()](function.ldap-read.html)
 -   Доданий параметр `$serverctrls` для отримання керування з сервера до функцій [ldapparseresult()](function.ldap-parse-result.html)
@@ -104,15 +104,15 @@ mb_strtoupper("Straße");
 
 #### Підтримка Unicode 11
 
-Таблиці даних [мультибайтових рядків](book.mbstring.html) були оновлені до Юнікод версії 11.
+Таблиці даних [мультибайтових рядків](book.mbstring.md) були оновлені до Юнікод версії 11.
 
 #### Підтримка великих рядків
 
-[Функції мультибайтових рядків](ref.mbstring.html) тепер коректно підтримують рядки розміром понад 2 Гб.
+[Функції мультибайтових рядків](ref.mbstring.md) тепер коректно підтримують рядки розміром понад 2 Гб.
 
 #### Поліпшення продуктивності
 
-Продуктивність модуля [мультибайтових рядків](book.mbstring.html) була значно повсюдно покращена. Найбільші покращення у функціях перетворення регістру.
+Продуктивність модуля [мультибайтових рядків](book.mbstring.md) була значно повсюдно покращена. Найбільші покращення у функціях перетворення регістру.
 
 #### Підтримка іменованих фрагментів
 

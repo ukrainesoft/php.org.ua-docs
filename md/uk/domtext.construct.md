@@ -1,12 +1,12 @@
 Створює об'єкт класу DOMText
 
--   [« DOMText](class.domtext.html)
+-   [« DOMText](class.domtext.md)
     
--   [DOMText::isElementContentWhitespace »](domtext.iselementcontentwhitespace.html)
+-   [DOMText::isElementContentWhitespace »](domtext.iselementcontentwhitespace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMText](class.domtext.html)
+-   [DOMText](class.domtext.md)
     
 -   Створює об'єкт класу DOMText
     
@@ -15,13 +15,13 @@
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMText::construct — Створює об'єкт класу [DOMText](class.domtext.html)
+DOMText::construct — Створює об'єкт класу [DOMText](class.domtext.md)
 
 ### Опис
 
 public **DOMText::construct**(string `$data` = "")
 
-Створює новий екземпляр класу [DOMText](class.domtext.html)
+Створює новий екземпляр класу [DOMText](class.domtext.md)
 
 ### Список параметрів
 
@@ -46,4 +46,4 @@ echo $dom->saveXML(); /* <?xml version="1.0" encoding="iso-8859-1"?><root>r
 
 ### Дивіться також
 
--   [DOMDocument::createTextNode()](domdocument.createtextnode.html) - Створити новий текстовий вузол
+-   [DOMDocument::createTextNode()](domdocument.createtextnode.md) - Створити новий текстовий вузол

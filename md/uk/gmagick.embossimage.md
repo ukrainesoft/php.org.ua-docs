@@ -1,12 +1,12 @@
 Повертає зображення у градаціях сірого з тривимірним ефектом
 
--   [« Gmagick::edgeimage](gmagick.edgeimage.html)
+-   [« Gmagick::edgeimage](gmagick.edgeimage.md)
     
--   [Gmagick::enhanceimage »](gmagick.enhanceimage.html)
+-   [Gmagick::enhanceimage »](gmagick.enhanceimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повертає зображення у градаціях сірого з тривимірним ефектом
     
@@ -37,7 +37,7 @@ public Gmagick::embossimage(float $radius, float $sigma): Gmagick
 
 ### Значення, що повертаються
 
-Рельєфний об'єкт [Gmagick](class.gmagick.html)
+Рельєфний об'єкт [Gmagick](class.gmagick.md)
 
 ### Помилки
 

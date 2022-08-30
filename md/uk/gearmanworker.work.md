@@ -1,12 +1,12 @@
 Очікування та виконання завдань
 
--   [« GearmanWorker::wait](gearmanworker.wait.html)
+-   [« GearmanWorker::wait](gearmanworker.wait.md)
     
--   [GearmanException »](class.gearmanexception.html)
+-   [GearmanException »](class.gearmanexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanWorker](class.gearmanworker.html)
+-   [GearmanWorker](class.gearmanworker.md)
     
 -   Очікування та виконання завдань
     
@@ -62,4 +62,4 @@ function my_reverse_function($job)
 
 ### Дивіться також
 
--   [GearmanWorker::addFunction()](gearmanworker.addfunction.html) - Реєстрація та додавання callback-функції
+-   [GearmanWorker::addFunction()](gearmanworker.addfunction.md) - Реєстрація та додавання callback-функції

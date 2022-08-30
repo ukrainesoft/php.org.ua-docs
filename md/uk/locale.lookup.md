@@ -1,12 +1,12 @@
 Пошук мовних позначок найбільш відповідних заданої локалі
 
--   [« Locale::getScript](locale.getscript.html)
+-   [« Locale::getScript](locale.getscript.md)
     
--   [Locale::parseLocale »](locale.parselocale.html)
+-   [Locale::parseLocale »](locale.parselocale.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Locale](class.locale.html)
+-   [Locale](class.locale.md)
     
 -   Пошук мовних позначок найбільш відповідних заданої локалі
     
@@ -61,9 +61,9 @@ locale_lookup(    array $languageTag,    string $locale,    bool $ca
 
 ### список змін
 
-| Версия | Описание                                      |
-|--------|-----------------------------------------------|
-|        | `defaultLocale` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `defaultLocale` тепер допускає значення null. |
 
 ### Приклади
 
@@ -103,4 +103,4 @@ de_de_1996
 
 ### Дивіться також
 
--   [localefiltermatches()](locale.filtermatches.html) - Перевірити, чи тег фільтра мови локалі відповідає
+-   [localefiltermatches()](locale.filtermatches.md) - Перевірити, чи тег фільтра мови локалі відповідає

@@ -1,12 +1,12 @@
 Клас IntlTimeZone
 
--   [« IntlGregorianCalendar::setGregorianChange](intlgregoriancalendar.setgregorianchange.html)
+-   [« IntlGregorianCalendar::setGregorianChange](intlgregoriancalendar.setgregorianchange.md)
     
--   [IntlTimeZone::construct »](intltimezone.construct.html)
+-   [IntlTimeZone::construct »](intltimezone.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [intl](book.intl.html)
+-   [intl](book.intl.md)
     
 -   Клас IntlTimeZone
     
@@ -81,28 +81,28 @@ public useDaylightTime(): bool
 
 ## Зміст
 
--   [IntlTimeZone::construct](intltimezone.construct.html) - Конструктор класу, який забороняє пряме створення екземпляра
--   [IntlTimeZone::countEquivalentIDs](intltimezone.countequivalentids.html) — Отримати кількість ідентифікаторів у групі схожих часових поясів, включаючи цей ідентифікатор
--   [IntlTimeZone::createDefault](intltimezone.createdefault.html) — Створити нову копію часового поясу за промовчанням для поточного хоста
--   [IntlTimeZone::createEnumeration](intltimezone.createenumeration.html) — Отримати перерахування з ідентифікаторів часових поясів за вказаною країною чи усунення
--   [IntlTimeZone::createTimeZone](intltimezone.createtimezone.html) — Створити об'єкт часового поясу по заданому ідентифікатору
--   [IntlTimeZone::createTimeZoneIDEnumeration](intltimezone.createtimezoneidenumeration.html) — Отримати перерахування з ідентифікаторів системних часових поясів за умовами фільтрації
--   [IntlTimeZone::fromDateTimeZone](intltimezone.fromdatetimezone.html) — Створити об'єкт часового поясу з DateTimeZone
--   [IntlTimeZone::getCanonicalID](intltimezone.getcanonicalid.html) — Отримати канонічний системний ідентифікатор часового поясу або нормалізований ідентифікатор часового поясу по заданому ідентифікатору часового поясу
--   [IntlTimeZone::getDisplayName](intltimezone.getdisplayname.html) — Отримати ім'я часового поясу для відображення користувача
--   [IntlTimeZone::getDSTSavings](intltimezone.getdstsavings.html) — Отримати кількість мілісекунд, яку потрібно додати до місцевого поясного часу, щоб отримати літній час
--   [IntlTimeZone::getEquivalentID](intltimezone.getequivalentid.html) — Отримати ідентифікатор у групі схожих часових поясів, включно із заданим ідентифікатором.
--   [IntlTimeZone::getErrorCode](intltimezone.geterrorcode.html) — Отримати останній код про помилку в об'єкті
--   [IntlTimeZone::getErrorMessage](intltimezone.geterrormessage.html) — Отримати останнє повідомлення про помилку в об'єкті
--   [IntlTimeZone::getGMT](intltimezone.getgmt.html) — Створити часовий пояс GMT (UTC)
--   [IntlTimeZone::getID](intltimezone.getid.html) — Отримати ідентифікатор часового поясу
--   [IntlTimeZone::getIDForWindowsID](intltimezone.getidforwindowsid.html) — Перетворити часовий пояс для Windows на системний часовий пояс
--   [IntlTimeZone::getOffset](intltimezone.getoffset.html) — Отримати необроблене значення часового поясу та усунення за Грінвічем (GMT) за заданим моментом часу
--   [IntlTimeZone::getRawOffset](intltimezone.getrawoffset.html) — Отримати необроблене значення зсуву за Грінвічем (GMT) без урахування літнього часу
--   [IntlTimeZone::getRegion](intltimezone.getregion.html) — Отримати код регіону, який відповідає заданому ідентифікатору системного часового поясу
--   [IntlTimeZone::getTZDataVersion](intltimezone.gettzdataversion.html) — Отримати версію даних про часовий пояс, який зараз використовується в ICU
--   [IntlTimeZone::getUnknown](intltimezone.getunknown.html) — Отримати невідомий часовий пояс (unknown)
--   [IntlTimeZone::getWindowsID](intltimezone.getwindowsid.html) — Перетворити часовий пояс на часовий пояс для Windows
--   [IntlTimeZone::hasSameRules](intltimezone.hassamerules.html) — Перевірити, що в іншому часовому поясі використовуються ті самі правила та зсуви, що й у першому заданому
--   [IntlTimeZone::toDateTimeZone](intltimezone.todatetimezone.html) — Перетворити на об'єкт DateTimeZone
--   [IntlTimeZone::useDaylightTime](intltimezone.usedaylighttime.html) — Перевірити, що в цьому часовому поясі використовується літній час
+-   [IntlTimeZone::construct](intltimezone.construct.md) - Конструктор класу, який забороняє пряме створення екземпляра
+-   [IntlTimeZone::countEquivalentIDs](intltimezone.countequivalentids.md) — Отримати кількість ідентифікаторів у групі схожих часових поясів, включаючи цей ідентифікатор
+-   [IntlTimeZone::createDefault](intltimezone.createdefault.md) — Створити нову копію часового поясу за промовчанням для поточного хоста
+-   [IntlTimeZone::createEnumeration](intltimezone.createenumeration.md) — Отримати перерахування з ідентифікаторів часових поясів за вказаною країною чи усунення
+-   [IntlTimeZone::createTimeZone](intltimezone.createtimezone.md) — Створити об'єкт часового поясу по заданому ідентифікатору
+-   [IntlTimeZone::createTimeZoneIDEnumeration](intltimezone.createtimezoneidenumeration.md) — Отримати перерахування з ідентифікаторів системних часових поясів за умовами фільтрації
+-   [IntlTimeZone::fromDateTimeZone](intltimezone.fromdatetimezone.md) — Створити об'єкт часового поясу з DateTimeZone
+-   [IntlTimeZone::getCanonicalID](intltimezone.getcanonicalid.md) — Отримати канонічний системний ідентифікатор часового поясу або нормалізований ідентифікатор часового поясу по заданому ідентифікатору часового поясу
+-   [IntlTimeZone::getDisplayName](intltimezone.getdisplayname.md) — Отримати ім'я часового поясу для відображення користувача
+-   [IntlTimeZone::getDSTSavings](intltimezone.getdstsavings.md) — Отримати кількість мілісекунд, яку потрібно додати до місцевого поясного часу, щоб отримати літній час
+-   [IntlTimeZone::getEquivalentID](intltimezone.getequivalentid.md) — Отримати ідентифікатор у групі схожих часових поясів, включно із заданим ідентифікатором.
+-   [IntlTimeZone::getErrorCode](intltimezone.geterrorcode.md) — Отримати останній код про помилку в об'єкті
+-   [IntlTimeZone::getErrorMessage](intltimezone.geterrormessage.md) — Отримати останнє повідомлення про помилку в об'єкті
+-   [IntlTimeZone::getGMT](intltimezone.getgmt.md) — Створити часовий пояс GMT (UTC)
+-   [IntlTimeZone::getID](intltimezone.getid.md) — Отримати ідентифікатор часового поясу
+-   [IntlTimeZone::getIDForWindowsID](intltimezone.getidforwindowsid.md) — Перетворити часовий пояс для Windows на системний часовий пояс
+-   [IntlTimeZone::getOffset](intltimezone.getoffset.md) — Отримати необроблене значення часового поясу та усунення за Грінвічем (GMT) за заданим моментом часу
+-   [IntlTimeZone::getRawOffset](intltimezone.getrawoffset.md) — Отримати необроблене значення зсуву за Грінвічем (GMT) без урахування літнього часу
+-   [IntlTimeZone::getRegion](intltimezone.getregion.md) — Отримати код регіону, який відповідає заданому ідентифікатору системного часового поясу
+-   [IntlTimeZone::getTZDataVersion](intltimezone.gettzdataversion.md) — Отримати версію даних про часовий пояс, який зараз використовується в ICU
+-   [IntlTimeZone::getUnknown](intltimezone.getunknown.md) — Отримати невідомий часовий пояс (unknown)
+-   [IntlTimeZone::getWindowsID](intltimezone.getwindowsid.md) — Перетворити часовий пояс на часовий пояс для Windows
+-   [IntlTimeZone::hasSameRules](intltimezone.hassamerules.md) — Перевірити, що в іншому часовому поясі використовуються ті самі правила та зсуви, що й у першому заданому
+-   [IntlTimeZone::toDateTimeZone](intltimezone.todatetimezone.md) — Перетворити на об'єкт DateTimeZone
+-   [IntlTimeZone::useDaylightTime](intltimezone.usedaylighttime.md) — Перевірити, що в цьому часовому поясі використовується літній час

@@ -1,12 +1,12 @@
 Експортує модуль
 
--   [« ReflectionExtension::construct](reflectionextension.construct.html)
+-   [« ReflectionExtension::construct](reflectionextension.construct.md)
     
--   [ReflectionExtension::getClasses »](reflectionextension.getclasses.html)
+-   [ReflectionExtension::getClasses »](reflectionextension.getclasses.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionExtension](class.reflectionextension.html)
+-   [ReflectionExtension](class.reflectionextension.md)
     
 -   Експортує модуль
     
@@ -45,5 +45,5 @@ public static ReflectionExtension::export(string $name, string $return = false):
 
 ### Дивіться також
 
--   [ReflectionExtension::info()](reflectionextension.info.html) - Виведення інформації про модуль
--   [ReflectionExtension::toString()](reflectionextension.tostring.html) - Перетворення на рядок
+-   [ReflectionExtension::info()](reflectionextension.info.md) - Виведення інформації про модуль
+-   [ReflectionExtension::toString()](reflectionextension.tostring.md) - Перетворення на рядок

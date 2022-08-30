@@ -4,7 +4,7 @@
     
 -   [Collection::construct »](mysql-xdevapi-collection.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
     

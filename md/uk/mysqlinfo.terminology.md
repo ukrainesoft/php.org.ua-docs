@@ -1,12 +1,12 @@
 Огляд термінології
 
--   [Огляд PHP драйверів MySQL](mysql.html)
+-   [Огляд PHP драйверів MySQL](mysql.md)
     
--   [Выбор API »](mysqlinfo.api.choosing.html)
+-   [Вибір API »](mysqlinfo.api.choosing.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Огляд PHP драйверів MySQL](mysql.html)
+-   [Огляд PHP драйверів MySQL](mysql.md)
     
 -   Огляд термінології
     

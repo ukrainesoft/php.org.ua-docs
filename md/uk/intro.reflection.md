@@ -2,7 +2,7 @@
 
 -   [« Reflection](book.reflection.html)
     
--   [Установка и настройка »](reflection.setup.html)
+-   [Встановлення та налаштування »](reflection.setup.html)
     
 -   [PHP Manual](index.html)
     

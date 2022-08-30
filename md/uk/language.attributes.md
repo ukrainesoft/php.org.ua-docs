@@ -1,12 +1,12 @@
 Атрибути
 
--   [« Порівняння генераторів з об'єктами класу Iterator](language.generators.comparison.html)
+-   [« Порівняння генераторів з об'єктами класу Iterator](language.generators.comparison.md)
     
--   [Введение в атрибуты »](language.attributes.overview.html)
+-   [Введення в атрибути »](language.attributes.overview.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Справочник языка](langref.html)
+-   [Довідник мови](langref.md)
     
 -   Атрибути
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Введение в атрибуты](language.attributes.overview.html)
--   [Синтаксис атрибутів](language.attributes.syntax.html)
--   [Чтение атрибутов с помощью Reflection API](language.attributes.reflection.html)
--   [Объявление классов атрибутов](language.attributes.classes.html)
+-   [Введення в атрибути](language.attributes.overview.md)
+-   [Синтаксис атрибутів](language.attributes.syntax.md)
+-   [Чтение атрибутов с помощью Reflection API](language.attributes.reflection.md)
+-   [Оголошення класів атрибутів](language.attributes.classes.md)

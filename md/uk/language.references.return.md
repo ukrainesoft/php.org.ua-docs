@@ -1,12 +1,12 @@
 Повернення за посиланням
 
--   [« Передача по ссылке](language.references.pass.html)
+-   [« Передача за посиланням](language.references.pass.md)
     
--   [Сброс переменных-ссылок »](language.references.unset.html)
+-   [Скидання змінних-посилань »](language.references.unset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Объяснение ссылок](language.references.html)
+-   [Пояснення посилань](language.references.md)
     
 -   Повернення за посиланням
     

@@ -1,12 +1,12 @@
 Експортує пікселі зображення
 
--   [« Imagick::evaluateImage](imagick.evaluateimage.html)
+-   [« Imagick::evaluateImage](imagick.evaluateimage.md)
     
--   [Imagick::extentImage »](imagick.extentimage.html)
+-   [Imagick::extentImage »](imagick.extentimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Експортує пікселі зображення
     

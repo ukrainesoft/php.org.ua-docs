@@ -4,7 +4,7 @@
     
 -   [ДсVector::insert »](ds-vector.insert.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Вектор](class.ds-vector.html)
     
@@ -37,7 +37,7 @@ public Ds\Vector::get(int $index): mixed
 
 ### Помилки
 
-Викидає виняток [OutOfRangeException](class.outofrangeexception.html)якщо індекс некоректний.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.md)якщо індекс некоректний.
 
 ### Приклади
 

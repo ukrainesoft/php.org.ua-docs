@@ -1,12 +1,12 @@
 Виводить зручну для читання інформацію про змінну
 
--   [« isset](function.isset.html)
+-   [« isset](function.isset.md)
     
--   [serialize »](function.serialize.html)
+-   [serialize »](function.serialize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи зі змінними](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.md)
     
 -   Виводить зручну для читання інформацію про змінну
     

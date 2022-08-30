@@ -1,10 +1,10 @@
 Функції IBM DB2
 
--   [« Предопределённые константы](ibm-db2.constants.html)
+-   [« Обумовлені константи](ibm-db2.constants.html)
     
 -   [db2autocommit »](function.db2-autocommit.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [IBM DB2](book.ibm-db2.html)
     

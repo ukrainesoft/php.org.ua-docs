@@ -4,9 +4,9 @@
     
 -   [mcryptgetвербsize »](function.mcrypt-get-iv-size.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](ref.mcrypt.html)
+-   [Mcrypt](ref.mcrypt.md)
     
 -   Отримує ім'я вказаного шифру
     

@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](quickhash.constants.html)
+-   [« Обумовлені константи](quickhash.constants.md)
     
--   [QuickHashIntSet »](class.quickhashintset.html)
+-   [QuickHashIntSet »](class.quickhashintset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Quickhash](book.quickhash.html)
+-   [Quickhash](book.quickhash.md)
     
 -   Приклади
     

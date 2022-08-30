@@ -4,9 +4,9 @@
     
 -   [ОЙExceptionInvalidArgumentException »](class.ui-exception-invalidargumentexception.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ОЙ](book.ui.html)
+-   [ОЙ](book.ui.md)
     
 -   Ключові ідентифікатори
     

@@ -1,12 +1,12 @@
 Перевірити, якщо у символу властивість BidiMirrored
 
--   [« IntlChar::islower](intlchar.islower.html)
+-   [« IntlChar::islower](intlchar.islower.md)
     
--   [IntlChar::isprint »](intlchar.isprint.html)
+-   [IntlChar::isprint »](intlchar.isprint.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити, якщо у символу властивість BidiMirrored
     
@@ -59,5 +59,5 @@ bool(true)
 
 ### Дивіться також
 
--   [IntlChar::charMirror()](intlchar.charmirror.html) - Отримати "дзеркальний" символ за кодом
+-   [IntlChar::charMirror()](intlchar.charmirror.md) - Отримати "дзеркальний" символ за кодом
 -   **`IntlChar::PROPERTY_BIDI_MIRRORED`**

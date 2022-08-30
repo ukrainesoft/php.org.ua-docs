@@ -4,7 +4,7 @@
     
 -   [db2specialcolumns »](function.db2-special-columns.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Функції IBM DB2](ref.ibm-db2.html)
     
@@ -147,31 +147,31 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 **Матриця ресурс/параметр**
 
-| Ключ            | Значение                    | Тип ресурса |
-|-----------------|-----------------------------|-------------|
-|                 |                             | З'єднання   |
-| autocommit      | `DB2_AUTOCOMMIT_ON`         | З           |
-| autocommit      | `DB2_AUTOCOMMIT_OFF`        | З           |
-| cursor          | `DB2_SCROLLABLE`            |             |
-| cursor          | `DB2_FORWARD_ONLY`          |             |
-| binmode         | `DB2_BINARY`                | З           |
-| binmode         | `DB2_CONVERT`               | З           |
-| binmode         | `DB2_PASSTHRU`              | З           |
-| db2attrcase     | `DB2_CASE_LOWER`            | З           |
-| db2attrcase     | `DB2_CASE_UPPER`            | З           |
-| db2attrcase     | `DB2_CASE_NATURAL`          | З           |
-| deferredprepare | `DB2_DEFERRED_PREPARE_ON`   |             |
-| deferredprepare | `DB2_DEFERRED_PREPARE_OFF`  |             |
-| і5fetchonly     | `DB2_I5_FETCH_ON`           |             |
-| і5fetchonly     | `DB2_I5_FETCH_OFF`          |             |
-| rowcount        | `DB2_ROWCOUNT_PREFETCH_ON`  |             |
-| rowcount        | `DB2_ROWCOUNT_PREFETCH_OFF` |             |
-| trusteduser     | `<USER NAME> (String)`      | З           |
-| trustedpassword | `<PASSWORD> (String)`       | З           |
-| userid          | `SQL_ATTR_INFO_USERID`      | З           |
-| acctstr         | `SQL_ATTR_INFO_ACCTSTR`     | З           |
-| applname        | `SQL_ATTR_INFO_APPLNAME`    | З           |
-| wrkstnname      | `SQL_ATTR_INFO_WRKSTNNAME`  | З           |
+| Ключ | Значение | Тип ресурса |
+| --- | --- | --- |
+|  |  | З'єднання |
+| autocommit | `DB2_AUTOCOMMIT_ON` | З |
+| autocommit | `DB2_AUTOCOMMIT_OFF` | З |
+| cursor | `DB2_SCROLLABLE` |  |
+| cursor | `DB2_FORWARD_ONLY` |  |
+| binmode | `DB2_BINARY` | З |
+| binmode | `DB2_CONVERT` | З |
+| binmode | `DB2_PASSTHRU` | З |
+| db2attrcase | `DB2_CASE_LOWER` | З |
+| db2attrcase | `DB2_CASE_UPPER` | З |
+| db2attrcase | `DB2_CASE_NATURAL` | З |
+| deferredprepare | `DB2_DEFERRED_PREPARE_ON` |  |
+| deferredprepare | `DB2_DEFERRED_PREPARE_OFF` |  |
+| і5fetchonly | `DB2_I5_FETCH_ON` |  |
+| і5fetchonly | `DB2_I5_FETCH_OFF` |  |
+| rowcount | `DB2_ROWCOUNT_PREFETCH_ON` |  |
+| rowcount | `DB2_ROWCOUNT_PREFETCH_OFF` |  |
+| trusteduser | `<USER NAME> (String)` | З |
+| trustedpassword | `<PASSWORD> (String)` | З |
+| userid | `SQL_ATTR_INFO_USERID` | З |
+| acctstr | `SQL_ATTR_INFO_ACCTSTR` | З |
+| applname | `SQL_ATTR_INFO_APPLNAME` | З |
+| wrkstnname | `SQL_ATTR_INFO_WRKSTNNAME` | З |
 
 ### Значення, що повертаються
 
@@ -199,7 +199,7 @@ $conn_string .= "UID=$username;PWD=$password;";
 /* Получаем ресурс соединения */
 $conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный массив опций */
+/* Создаём ассоциативный Масив опций */
 $options = array('autocommit' => DB2_AUTOCOMMIT_ON);
 
 /* Вызываем функцию */
@@ -243,7 +243,7 @@ $conn_string .= "UID=$username;PWD=$password;";
 /* Получаем ресурс соединения */
 $conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный массив опций */
+/* Создаём ассоциативный Масив опций */
 $options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
                     'binmode' => DB2_PASSTHRU,
               'db2_attr_case' => DB2_CASE_UPPER,
@@ -290,7 +290,7 @@ $conn_string .= "UID=$username;PWD=$password;";
 /* Получаем ресурс соединения */
 $conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный массив опций */
+/* Создаём ассоциативный Масив опций */
 $options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
              'MY_INVALID_KEY' => DB2_PASSTHRU,
               'db2_attr_case' => DB2_CASE_UPPER,
@@ -337,7 +337,7 @@ $conn_string .= "UID=$username;PWD=$password;";
 /* Получаем ресурс соединения */
 $conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный массив опций */
+/* Создаём ассоциативный Масив опций */
 $options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
                     'binmode' => 'INVALID_VALUE',
               'db2_attr_case' => DB2_CASE_UPPER,
@@ -384,7 +384,7 @@ $conn_string .= "UID=$username;PWD=$password;";
 /* Получаем ресурс соединения */
 $conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный массив опций */
+/* Создаём ассоциативный Масив опций */
 $options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
                     'binmode' => DB2_PASSTHRU,
               'db2_attr_case' => DB2_CASE_UPPER,
@@ -431,7 +431,7 @@ $conn_string .= "UID=$username;PWD=$password;";
 /* Получаем ресурс соединения */
 $conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный массив опций */
+/* Создаём ассоциативный Масив опций */
 $options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
                     'binmode' => DB2_PASSTHRU,
               'db2_attr_case' => DB2_CASE_UPPER,
@@ -480,7 +480,7 @@ $conn_string .= "UID=$username;PWD=$password;";
 /* Получаем ресурс соединения */
 $conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный массив опций */
+/* Создаём ассоциативный Масив опций */
 $options = array('db2_attr_case' => DB2_CASE_LOWER,
                         'cursor' => DB2_SCROLLABLE);
 

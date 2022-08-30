@@ -4,7 +4,7 @@
     
 -   [ДсSequence::join »](ds-sequence.join.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Послідовність](class.ds-sequence.html)
     
@@ -45,7 +45,7 @@ abstract public Ds\Sequence::insert(int $index, mixed ...$values): void
 
 ### Помилки
 
-Викидає виняток [OutOfRangeException](class.outofrangeexception.html) у разі некоректного індексу.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.md) у разі некоректного індексу.
 
 ### Приклади
 

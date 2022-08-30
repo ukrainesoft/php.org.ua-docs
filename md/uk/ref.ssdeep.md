@@ -1,12 +1,12 @@
 Функції ssdeep
 
--   [« Предопределённые константы](ssdeep.constants.html)
+-   [« Обумовлені константи](ssdeep.constants.md)
     
 -   [ssdeepfuzzycompare »](function.ssdeep-fuzzy-compare.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ssdeep](book.ssdeep.html)
+-   [ssdeep](book.ssdeep.md)
     
 -   Функції ssdeep
     

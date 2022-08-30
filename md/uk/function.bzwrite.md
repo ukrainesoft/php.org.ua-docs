@@ -1,12 +1,12 @@
 Бінарно-безпечний запис bzip2 файлу
 
--   [« bzread](function.bzread.html)
+-   [« bzread](function.bzread.md)
     
--   [LZF »](book.lzf.html)
+-   [LZF »](book.lzf.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Bzip2](ref.bzip2.html)
+-   [Функції Bzip2](ref.bzip2.md)
     
 -   Бінарно-безпечний запис bzip2 файлу
     
@@ -29,7 +29,7 @@ bzwrite(resource $bz, string $data, ?int $length = null): int|false
 
 `bz`
 
-Вказівник на файл. Має бути коректним і вказувати на файл, успішно відкритий [bzopen()](function.bzopen.html)
+Вказівник на файл. Має бути коректним і вказувати на файл, успішно відкритий [bzopen()](function.bzopen.md)
 
 `data`
 
@@ -45,9 +45,9 @@ bzwrite(resource $bz, string $data, ?int $length = null): int|false
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `length` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `length` тепер допускає значення null. |
 
 ### Приклади
 
@@ -64,5 +64,5 @@ bzclose($bz);
 
 ### Дивіться також
 
--   [bzread()](function.bzread.html) - Бінарно-безпечне читання файлу bzip2
--   [bzopen()](function.bzopen.html) - Відкриває файл, стислий за допомогою bzip2
+-   [bzread()](function.bzread.md) - Бінарно-безпечне читання файлу bzip2
+-   [bzopen()](function.bzopen.md) - Відкриває файл, стислий за допомогою bzip2

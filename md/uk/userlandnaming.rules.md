@@ -1,12 +1,12 @@
 Правила
 
--   [« Глобальний простір імен](userlandnaming.globalnamespace.html)
+-   [« Глобальний простір імен](userlandnaming.globalnamespace.md)
     
--   [Советы »](userlandnaming.tips.html)
+-   [Поради »](userlandnaming.tips.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Руководство по именованию](userlandnaming.html)
+-   [Руководство по именованию](userlandnaming.md)
     
 -   Правила
     
@@ -29,18 +29,18 @@
         
     -   new DOMDocument()
         
-    -   [strpos()](function.strpos.html) (Приклад виключення, допущеного в минулому)
+    -   [strpos()](function.strpos.md) (Приклад виключення, допущеного в минулому)
         
     -   new SplFileObject()
         
 -   Тим не менш, ітератори та винятки просто отримують постфікси.`Iterator`"і"`Exception`". Приклади:
     
-    -   [ArrayIterator](class.arrayiterator.html)
+    -   [ArrayIterator](class.arrayiterator.md)
         
-    -   [LogicException](class.logicexception.html)
+    -   [LogicException](class.logicexception.md)
         
 -   PHP резервує всі ідентифікатори, що починаються з `__` як магічні. Рекомендується не створювати ідентифікатори, що починаються з `__`крім як з метою використовувати документовану магічну функціональність. Приклади:
     
     -   [get()](language.oop5.overloading.html#object.get)
         
-    -   [autoload()](function.autoload.html)
+    -   [autoload()](function.autoload.md)

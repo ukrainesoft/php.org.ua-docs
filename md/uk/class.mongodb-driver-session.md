@@ -4,9 +4,9 @@
     
 -   [MongoDBDriverSession::abortTransaction »](mongodb-driver-session.aborttransaction.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBDriver](book.mongodb.html)
+-   [MongoDBDriver](book.mongodb.md)
     
 -   Клас MongoDBDriverSession
     

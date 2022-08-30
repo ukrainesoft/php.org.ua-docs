@@ -2,11 +2,11 @@
 
 -   [«pssymbol](function.ps-symbol.html)
     
--   [RpmInfo »](book.rpminfo.html)
+-   [RpmInfo »](book.rpminfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Змінює систему координат
     

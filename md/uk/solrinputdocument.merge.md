@@ -1,12 +1,12 @@
 Об'єднує один вхідний документ в інший
 
--   [« SolrInputDocument::hasChildDocuments](solrinputdocument.haschilddocuments.html)
+-   [« SolrInputDocument::hasChildDocuments](solrinputdocument.haschilddocuments.md)
     
--   [SolrInputDocument::reset »](solrinputdocument.reset.html)
+-   [SolrInputDocument::reset »](solrinputdocument.reset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrInputDocument](class.solrinputdocument.html)
+-   [SolrInputDocument](class.solrinputdocument.md)
     
 -   Об'єднує один вхідний документ в інший
     

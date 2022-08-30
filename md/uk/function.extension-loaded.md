@@ -1,12 +1,12 @@
 Визначає, чи завантажено модуль
 
--   [« dl](function.dl.html)
+-   [« dl](function.dl.md)
     
 -   [гкcollectcycles »](function.gc-collect-cycles.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Визначає, чи завантажено модуль
     
@@ -31,7 +31,7 @@ extension_loaded(string $extension): bool
 
 Ім'я модуль. Цей параметр реєстронезалежний.
 
-Щоб переглянути всі імена модулів, скористайтеся функцією [phpinfo()](function.phpinfo.html). Якщо ви працюєте з `CGI` або `CLI`версією PHP, використовуйте параметр **м** для відображення списку доступних модулів:
+Щоб переглянути всі імена модулів, скористайтеся функцією [phpinfo()](function.phpinfo.md). Якщо ви працюєте з `CGI` або `CLI`версією PHP, використовуйте параметр **м** для відображення списку доступних модулів:
 
 ```
 $ php -m
@@ -73,6 +73,6 @@ if (!extension_loaded('gd')) {
 
 -   [getloadedextensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
 -   [getextensionfuncs()](function.get-extension-funcs.html) - Повертає масив імен функцій модуля
--   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP
--   [dl()](function.dl.html) - Завантажує модуль PHP під час виконання
+-   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP
+-   [dl()](function.dl.md) - Завантажує модуль PHP під час виконання
 -   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена

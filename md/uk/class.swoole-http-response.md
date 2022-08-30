@@ -4,9 +4,9 @@
     
 -   [SwooleHttpResponse::cookie »](swoole-http-response.cookie.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Swoole](book.swoole.html)
+-   [Swoole](book.swoole.md)
     
 -   Клас SwooleHttpResponse
     

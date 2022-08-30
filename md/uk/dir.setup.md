@@ -2,7 +2,7 @@
 
 -   [« Каталоги](book.dir.html)
     
--   [Требования »](dir.requirements.html)
+-   [Вимоги »](dir.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](dir.requirements.html)
+-   [Вимоги](dir.requirements.html)
 -   [Установка](dir.installation.html)
--   [Настройка во время выполнения](dir.configuration.html)
--   [Типы ресурсов](dir.resources.html)
+-   [Налаштування під час виконання](dir.configuration.html)
+-   [Типи ресурсів](dir.resources.html)

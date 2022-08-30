@@ -1,12 +1,12 @@
 Перевіряє, чи існує запитуваний індекс
 
--   [« SplDoublyLinkedList::next](spldoublylinkedlist.next.html)
+-   [« SplDoublyLinkedList::next](spldoublylinkedlist.next.md)
     
--   [SplDoublyLinkedList::offsetGet »](spldoublylinkedlist.offsetget.html)
+-   [SplDoublyLinkedList::offsetGet »](spldoublylinkedlist.offsetget.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
     
 -   Перевіряє, чи існує запитуваний індекс
     

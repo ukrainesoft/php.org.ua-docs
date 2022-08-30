@@ -1,12 +1,12 @@
 Вивільняє некеровану структуру даних
 
--   [« FFI::cdef](ffi.cdef.html)
+-   [« FFI::cdef](ffi.cdef.md)
     
--   [FFI::isNull »](ffi.isnull.html)
+-   [FFI::isNull »](ffi.isnull.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FFI](class.ffi.html)
+-   [FFI](class.ffi.md)
     
 -   Вивільняє некеровану структуру даних
     

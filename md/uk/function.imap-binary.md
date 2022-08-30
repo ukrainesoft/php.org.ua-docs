@@ -4,9 +4,9 @@
     
 -   [imapbody »](function.imap-body.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции IMAP](ref.imap.html)
+-   [Функции IMAP](ref.imap.md)
     
 -   Конвертує 8-бітний рядок у рядок base64
     

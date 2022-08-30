@@ -1,12 +1,12 @@
 Клас GmagickDraw
 
--   [« Gmagick::writeimage](gmagick.writeimage.html)
+-   [« Gmagick::writeimage](gmagick.writeimage.md)
     
--   [GmagickDraw::annotate »](gmagickdraw.annotate.html)
+-   [GmagickDraw::annotate »](gmagickdraw.annotate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](book.gmagick.html)
+-   [Gmagick](book.gmagick.md)
     
 -   Клас GmagickDraw
     
@@ -72,37 +72,37 @@ public settextencoding(string $encoding): GmagickDraw
 
 ## Зміст
 
--   [GmagickDraw::annotate](gmagickdraw.annotate.html) — Малює текст на зображенні
--   [GmagickDraw::arc](gmagickdraw.arc.html) — Малює дугу
--   [GmagickDraw::bezier](gmagickdraw.bezier.html) — Малює криву Безьє
--   [GmagickDraw::ellipse](gmagickdraw.ellipse.html) — Малює еліпс на зображенні
--   [GmagickDraw::getfillcolor](gmagickdraw.getfillcolor.html) - Повертає колір заливки
--   [GmagickDraw::getfillopacity](gmagickdraw.getfillopacity.html) — Повертає значення прозорості, що використовується під час малювання.
--   [GmagickDraw::getfont](gmagickdraw.getfont.html) - Повертає шрифт
--   [GmagickDraw::getfontsize](gmagickdraw.getfontsize.html) — Повертає розмір шрифту
--   [GmagickDraw::getfontstyle](gmagickdraw.getfontstyle.html) — Повертає стиль шрифту
--   [GmagickDraw::getfontweight](gmagickdraw.getfontweight.html) — Повертає товщину шрифту
--   [GmagickDraw::getstrokecolor](gmagickdraw.getstrokecolor.html) — Повертає колір для обведення контурів об'єкта.
--   [GmagickDraw::getstrokeopacity](gmagickdraw.getstrokeopacity.html) — Повертає прозорість обведених контурів об'єкта
--   [GmagickDraw::getstrokewidth](gmagickdraw.getstrokewidth.html) — Повертає ширину обведення, що використовується для відображення контурів об'єкта.
--   [GmagickDraw::gettextdecoration](gmagickdraw.gettextdecoration.html) — Повертає оформлення тексту
--   [GmagickDraw::gettextencoding](gmagickdraw.gettextencoding.html) — Повертає кодовий набір для текстових анотацій.
--   [GmagickDraw::line](gmagickdraw.line.html) — Малює лінію
--   [GmagickDraw::point](gmagickdraw.point.html) — Малює крапку
--   [GmagickDraw::polygon](gmagickdraw.polygon.html) — Малює багатокутник
--   [GmagickDraw::polyline](gmagickdraw.polyline.html) — Малює ламану лінію
--   [GmagickDraw::rectangle](gmagickdraw.rectangle.html) — Малює прямокутник
--   [GmagickDraw::rotate](gmagickdraw.rotate.html) — Застосовує зазначений поворот до поточного координатного простору
--   [GmagickDraw::roundrectangle](gmagickdraw.roundrectangle.html) — Малює прямокутник із закругленими кутами.
--   [GmagickDraw::scale](gmagickdraw.scale.html) - Регулює коефіцієнт масштабування
--   [GmagickDraw::setfillcolor](gmagickdraw.setfillcolor.html) — Встановлює колір заливки, який використовуватиметься для малювання об'єктів із заливкою
--   [GmagickDraw::setfillopacity](gmagickdraw.setfillopacity.html) - Встановлює непрозорість заливки
--   [GmagickDraw::setfont](gmagickdraw.setfont.html) — Встановлює вказаний шрифт для використання під час анотації тексту
--   [GmagickDraw::setfontsize](gmagickdraw.setfontsize.html) — Встановлює розмір шрифту для використання під час анотації тексту
--   [GmagickDraw::setfontstyle](gmagickdraw.setfontstyle.html) — Встановлює стиль шрифту для використання під час анотації тексту
--   [GmagickDraw::setfontweight](gmagickdraw.setfontweight.html) — Встановлює товщину шрифту
--   [GmagickDraw::setstrokecolor](gmagickdraw.setstrokecolor.html) — Встановлює колір для обведення контурів об'єкта.
--   [GmagickDraw::setstrokeopacity](gmagickdraw.setstrokeopacity.html) — Визначає прозорість обведення контурів об'єкта
--   [GmagickDraw::setstrokewidth](gmagickdraw.setstrokewidth.html) — Встановлює ширину обведення, що використовується для відображення контурів об'єкта.
--   [GmagickDraw::settextdecoration](gmagickdraw.settextdecoration.html) - Визначає оформлення
--   [GmagickDraw::settextencoding](gmagickdraw.settextencoding.html) — Задає кодовий набір тексту
+-   [GmagickDraw::annotate](gmagickdraw.annotate.md) — Малює текст на зображенні
+-   [GmagickDraw::arc](gmagickdraw.arc.md) — Малює дугу
+-   [GmagickDraw::bezier](gmagickdraw.bezier.md) — Малює криву Безьє
+-   [GmagickDraw::ellipse](gmagickdraw.ellipse.md) — Малює еліпс на зображенні
+-   [GmagickDraw::getfillcolor](gmagickdraw.getfillcolor.md) - Повертає колір заливки
+-   [GmagickDraw::getfillopacity](gmagickdraw.getfillopacity.md) — Повертає значення прозорості, що використовується під час малювання.
+-   [GmagickDraw::getfont](gmagickdraw.getfont.md) - Повертає шрифт
+-   [GmagickDraw::getfontsize](gmagickdraw.getfontsize.md) — Повертає розмір шрифту
+-   [GmagickDraw::getfontstyle](gmagickdraw.getfontstyle.md) — Повертає стиль шрифту
+-   [GmagickDraw::getfontweight](gmagickdraw.getfontweight.md) — Повертає товщину шрифту
+-   [GmagickDraw::getstrokecolor](gmagickdraw.getstrokecolor.md) — Повертає колір для обведення контурів об'єкта.
+-   [GmagickDraw::getstrokeopacity](gmagickdraw.getstrokeopacity.md) — Повертає прозорість обведених контурів об'єкта
+-   [GmagickDraw::getstrokewidth](gmagickdraw.getstrokewidth.md) — Повертає ширину обведення, що використовується для відображення контурів об'єкта.
+-   [GmagickDraw::gettextdecoration](gmagickdraw.gettextdecoration.md) — Повертає оформлення тексту
+-   [GmagickDraw::gettextencoding](gmagickdraw.gettextencoding.md) — Повертає кодовий набір для текстових анотацій.
+-   [GmagickDraw::line](gmagickdraw.line.md) — Малює лінію
+-   [GmagickDraw::point](gmagickdraw.point.md) — Малює крапку
+-   [GmagickDraw::polygon](gmagickdraw.polygon.md) — Малює багатокутник
+-   [GmagickDraw::polyline](gmagickdraw.polyline.md) — Малює ламану лінію
+-   [GmagickDraw::rectangle](gmagickdraw.rectangle.md) — Малює прямокутник
+-   [GmagickDraw::rotate](gmagickdraw.rotate.md) — Застосовує зазначений поворот до поточного координатного простору
+-   [GmagickDraw::roundrectangle](gmagickdraw.roundrectangle.md) — Малює прямокутник із закругленими кутами.
+-   [GmagickDraw::scale](gmagickdraw.scale.md) - Регулює коефіцієнт масштабування
+-   [GmagickDraw::setfillcolor](gmagickdraw.setfillcolor.md) — Встановлює колір заливки, який використовуватиметься для малювання об'єктів із заливкою
+-   [GmagickDraw::setfillopacity](gmagickdraw.setfillopacity.md) - Встановлює непрозорість заливки
+-   [GmagickDraw::setfont](gmagickdraw.setfont.md) — Встановлює вказаний шрифт для використання під час анотації тексту
+-   [GmagickDraw::setfontsize](gmagickdraw.setfontsize.md) — Встановлює розмір шрифту для використання під час анотації тексту
+-   [GmagickDraw::setfontstyle](gmagickdraw.setfontstyle.md) — Встановлює стиль шрифту для використання під час анотації тексту
+-   [GmagickDraw::setfontweight](gmagickdraw.setfontweight.md) — Встановлює товщину шрифту
+-   [GmagickDraw::setstrokecolor](gmagickdraw.setstrokecolor.md) — Встановлює колір для обведення контурів об'єкта.
+-   [GmagickDraw::setstrokeopacity](gmagickdraw.setstrokeopacity.md) — Визначає прозорість обведення контурів об'єкта
+-   [GmagickDraw::setstrokewidth](gmagickdraw.setstrokewidth.md) — Встановлює ширину обведення, що використовується для відображення контурів об'єкта.
+-   [GmagickDraw::settextdecoration](gmagickdraw.settextdecoration.md) - Визначає оформлення
+-   [GmagickDraw::settextencoding](gmagickdraw.settextencoding.md) — Задає кодовий набір тексту

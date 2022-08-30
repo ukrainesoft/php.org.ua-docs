@@ -4,7 +4,7 @@ switch
     
 -   [match »](control-structures.match.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Управляющие конструкции](language.control-structures.html)
     
@@ -186,7 +186,7 @@ switch (true) {
 ?>
 ```
 
-Можливий альтернативний синтаксис для керуючої структури switch. Для більш детальної інформації дивіться [Альтернативный синтаксис для управляющих структур](control-structures.alternative-syntax.html)
+Можливий альтернативний синтаксис для керуючої структури switch. Для більш детальної інформації дивіться [Альтернативний синтаксис для керуючих структур](control-structures.alternative-syntax.html)
 
 ```php
 <?php

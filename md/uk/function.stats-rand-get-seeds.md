@@ -4,9 +4,9 @@
     
 -   [statsrandphraseтоseeds »](function.stats-rand-phrase-to-seeds.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Отримує початкові значення генератора випадкових чисел
     

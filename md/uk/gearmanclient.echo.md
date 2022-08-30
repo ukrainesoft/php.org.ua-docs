@@ -1,12 +1,12 @@
 Надсилає дані всім серверам завдань, щоб перевірити відгук Застарілий метод
 
--   [« GearmanClient::doStatus](gearmanclient.dostatus.html)
+-   [« GearmanClient::doStatus](gearmanclient.dostatus.md)
     
--   [GearmanClient::error »](gearmanclient.error.html)
+-   [GearmanClient::error »](gearmanclient.error.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanClient](class.gearmanclient.html)
+-   [GearmanClient](class.gearmanclient.md)
     
 -   Надсилає дані всім серверам завдань, щоб перевірити відгук Застарілий метод
     
@@ -23,7 +23,7 @@ GearmanClient::echo — Надсилає дані всім серверам за
 public GearmanClient::echo(string $workload): bool
 ```
 
-Метод **GearmanClient::echo()** застарів з pecl/gearman 1.0.0. Використовуйте [GearmanClient::ping()](gearmanclient.ping.html)
+Метод **GearmanClient::echo()** застарів з pecl/gearman 1.0.0. Використовуйте [GearmanClient::ping()](gearmanclient.ping.md)
 
 ### Список параметрів
 

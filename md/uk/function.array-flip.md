@@ -4,9 +4,9 @@
     
 -   [arrayintersectassoc »](function.array-intersect-assoc.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Змінює місцями ключі зі своїми значеннями у масиві
     

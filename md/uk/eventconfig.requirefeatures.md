@@ -1,12 +1,12 @@
 Ввести необхідні додатки властивості методу події
 
--   [« EventConfig::construct](eventconfig.construct.html)
+-   [« EventConfig::construct](eventconfig.construct.md)
     
--   [EventConfig::setFlags »](eventconfig.setflags.html)
+-   [EventConfig::setFlags »](eventconfig.setflags.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventConfig](class.eventconfig.html)
+-   [EventConfig](class.eventconfig.md)
     
 -   Ввести необхідні додатки властивості методу події
     
@@ -33,7 +33,7 @@ public
 
 `feature`
 
-Бітова маска потрібних властивостей. Дивіться [константы`EventConfig::FEATURE_*`](class.eventconfig.html#eventconfig.constants)
+Бітова маска потрібних властивостей. Дивіться [константи`EventConfig::FEATURE_*`](class.eventconfig.html#eventconfig.constants)
 
 ### Значення, що повертаються
 
@@ -70,4 +70,4 @@ FDS - произвольные типы дескрипторов файлов, �
 
 ### Дивіться також
 
--   [EventBase::getFeatures()](eventbase.getfeatures.html) - Повертає бітову маску підтримуваних функцій
+-   [EventBase::getFeatures()](eventbase.getfeatures.md) - Повертає бітову маску підтримуваних функцій

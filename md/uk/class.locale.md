@@ -119,7 +119,7 @@ public static setDefault(string $locale): bool
 
 -   [» RFC 4646 - мітки для ідентифікаторів мов](http://www.faqs.org/rfcs/rfc4646)
 -   [» RFC 4647 - перевірка мовних міток](http://www.faqs.org/rfcs/rfc4647)
--   [» Проект Unicode CLDR:Стандартный репозиторий данных локалей](http://www.unicode.org/cldr/)
+-   [» Проект Unicode CLDR: Стандартний репозиторій даних локалей](http://www.unicode.org/cldr/)
 -   [» Регістр мовних міток IANA](http://www.iana.org/assignments/language-subtag-registry)
 -   [» Руководство пользователя ICU - Локаль](https://unicode-org.github.io/icu/userguide/locale/)
 -   [» ICU api локалі](http://www.icu-project.org/apiref/icu4c/uloc_8h.html#details)

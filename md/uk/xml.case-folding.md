@@ -1,8 +1,8 @@
 Приведення до одного регістру
 
--   [« Обработчики событий](xml.eventhandlers.html)
+-   [« Обробники подій](xml.eventhandlers.html)
     
--   [Коды ошибок »](xml.error-codes.html)
+-   [Коди помилок »](xml.error-codes.html)
     
 -   [PHP Manual](index.html)
     

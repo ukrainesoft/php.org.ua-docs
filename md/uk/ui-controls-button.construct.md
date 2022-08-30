@@ -4,7 +4,7 @@
     
 -   [ОЙControlsButton::getText »](ui-controls-button.gettext.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsButton](class.ui-controls-button.html)
     

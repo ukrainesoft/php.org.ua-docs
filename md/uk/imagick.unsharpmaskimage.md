@@ -1,12 +1,12 @@
 Різкість зображення
 
--   [« Imagick::uniqueImageColors](imagick.uniqueimagecolors.html)
+-   [« Imagick::uniqueImageColors](imagick.uniqueimagecolors.md)
     
--   [Imagick::valid »](imagick.valid.html)
+-   [Imagick::valid »](imagick.valid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Різкість зображення
     

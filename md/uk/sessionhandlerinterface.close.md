@@ -1,12 +1,12 @@
 Закриває сесію
 
--   [« SessionHandlerInterface](class.sessionhandlerinterface.html)
+-   [« SessionHandlerInterface](class.sessionhandlerinterface.md)
     
--   [SessionHandlerInterface::destroy »](sessionhandlerinterface.destroy.html)
+-   [SessionHandlerInterface::destroy »](sessionhandlerinterface.destroy.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SessionHandlerInterface](class.sessionhandlerinterface.html)
+-   [SessionHandlerInterface](class.sessionhandlerinterface.md)
     
 -   Закриває сесію
     

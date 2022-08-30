@@ -14,12 +14,12 @@ Taint
 # Taint
 
 -   [Введение](intro.taint.html)
--   [Установка и настройка](taint.setup.html)
-    -   [Требования](taint.requirements.html)
+-   [Встановлення та налаштування](taint.setup.html)
+    -   [Вимоги](taint.requirements.html)
     -   [Установка](taint.installation.html)
-    -   [Настройка во время выполнения](taint.configuration.html)
-    -   [Типы ресурсов](taint.resources.html)
--   [Дополнительные подробности](taint.detail.html)
+    -   [Налаштування під час виконання](taint.configuration.html)
+    -   [Типи ресурсів](taint.resources.html)
+-   [Додаткові подробиці](taint.detail.html)
     -   [Функції та оператори, які можуть поширювати сумнівний символ зіпсованого рядка](taint.detail.basic.html)
     -   [Функції та оператори, які перевіряють зіпсовані рядки](taint.detail.taint.html)
     -   [Функції, які не будуть обробляти зіпсований рядок](taint.detail.untaint.html)

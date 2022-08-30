@@ -1,6 +1,6 @@
 Робота зі з'єднаннями OCI8 та Connection Pooling
 
--   [« Примеры](oci8.examples.html)
+-   [« Приклади](oci8.examples.html)
     
 -   [Поддержка OCI8 Fast Application Notification (FAN) »](oci8.fan.html)
     
@@ -43,7 +43,7 @@ DRCP приносить користь усім трьом функціям пі
 
 Щоб функціональність DRCP була доступна в OCI8, клієнтські бібліотеки Oracle, які використовуються в PHP, і версія сервера баз даних повинні бути 11g і новішими.
 
-Документація з DRCP знаходиться в кількох посібниках Oracle. Наприклад, дивіться [» Конфигурирование пула постоянных соединений базы данных](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-82FF6896-F57E-41CF-89F7-755F3BC9C924) у документації Oracle для інформації щодо використання. Документ [» технічний опис DRCP](https://www.oracle.com/technetwork/topics/php/whatsnew/php-scalability-ha-twp-128842.pdf) містить додаткову інформацію щодо DRCP.
+Документація з DRCP знаходиться в кількох посібниках Oracle. Наприклад, дивіться [»Конфігурування пулу постійних з'єднань бази даних](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-82FF6896-F57E-41CF-89F7-755F3BC9C924) у документації Oracle для інформації щодо використання. Документ [» технічний опис DRCP](https://www.oracle.com/technetwork/topics/php/whatsnew/php-scalability-ha-twp-128842.pdf) містить додаткову інформацію щодо DRCP.
 
 Для використання DRCP встановіть модуль OCI8 1.3 (або новіший) та бібліотеки Oracle 11g (або новіший) і виконайте такі дії:
 

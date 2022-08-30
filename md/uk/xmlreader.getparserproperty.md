@@ -1,12 +1,12 @@
 Вказує, чи була певна властивість встановлена
 
--   [« XMLReader::getAttributeNs](xmlreader.getattributens.html)
+-   [« XMLReader::getAttributeNs](xmlreader.getattributens.md)
     
--   [XMLReader::isValid »](xmlreader.isvalid.html)
+-   [XMLReader::isValid »](xmlreader.isvalid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLReader](class.xmlreader.html)
+-   [XMLReader](class.xmlreader.md)
     
 -   Вказує, чи була певна властивість встановлена
     
@@ -37,4 +37,4 @@ public XMLReader::getParserProperty(int $property): bool
 
 ### Дивіться також
 
--   [XMLReader::setParserProperty()](xmlreader.setparserproperty.html) - Встановлює опцію парсера
+-   [XMLReader::setParserProperty()](xmlreader.setparserproperty.md) - Встановлює опцію парсера

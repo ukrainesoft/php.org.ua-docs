@@ -1,12 +1,12 @@
 Відстеження прогресу завантаження файлів за допомогою сесій
 
--   [« Користувальницькі обробники сесії](session.customhandler.html)
+-   [« Користувальницькі обробники сесії](session.customhandler.md)
     
--   [Безпека сесій »](session.security.html)
+-   [Безпека сесій »](session.security.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Сессии](book.session.html)
+-   [Сессии](book.session.md)
     
 -   Відстеження прогресу завантаження файлів за допомогою сесій
     
@@ -15,7 +15,7 @@
 
 PHP може відслідковувати прогрес завантаження окремих файлів при включеній опції [session.uploadprogress.enabled](session.configuration.html#ini.session.upload-progress.enabled). Ця інформація не дуже корисна для запиту, що безпосередньо закачує файл, однак, протягом даного завантаження програма може надсилати POST-запити на окрему сторінку (наприклад, за допомогою XHR) для перевірки статусу.
 
-Прогрес закачування буде доступний у суперглобальній змінній [SESSION](reserved.variables.session.html) під час виконання завантаження, а також при відправці POST-запитом змінної з ім'ям, що дорівнює значенню опції [session.uploadprogress.name](session.configuration.html#ini.session.upload-progress.name). Як тільки PHP виявить такий POST-запит, він створить масив у [SESSION](reserved.variables.session.html), ключем якого буде конкатенація значень опцій [session.uploadprogress.prefix](session.configuration.html#ini.session.upload-progress.prefix) і [session.uploadprogress.name](session.configuration.html#ini.session.upload-progress.name). Ключ зазвичай можна отримати прочитавши ці опції, тобто:
+Прогрес закачування буде доступний у суперглобальній змінній [SESSION](reserved.variables.session.md) під час виконання завантаження, а також при відправці POST-запитом змінної з ім'ям, що дорівнює значенню опції [session.uploadprogress.name](session.configuration.html#ini.session.upload-progress.name). Як тільки PHP виявить такий POST-запит, він створить масив у [SESSION](reserved.variables.session.md), ключем якого буде конкатенація значень опцій [session.uploadprogress.prefix](session.configuration.html#ini.session.upload-progress.prefix) і [session.uploadprogress.name](session.configuration.html#ini.session.upload-progress.name). Ключ зазвичай можна отримати прочитавши ці опції, тобто:
 
 ```php
 <?php
@@ -24,7 +24,7 @@ var_dump($_SESSION[$key]);
 ?>
 ```
 
-Також можливо *скасувати* файл, що завантажується в даний момент, встановивши ключ `$_SESSION[$key]["cancel_upload"]` на значення **`true`**. При завантаженні кількох файлів за один раз, ця дія скасує тільки поточний завантажуваний файл і всі наступні за ним, але не видалити вже завантажені до цього часу файли. Якщо закачування було скасовано цим способом, то елемент із ключем `error` у масиві [FILES](reserved.variables.files.html) буде встановлений у **`UPLOAD_ERR_EXTENSION`**
+Також можливо *скасувати* файл, що завантажується в даний момент, встановивши ключ `$_SESSION[$key]["cancel_upload"]` на значення **`true`**. При завантаженні кількох файлів за один раз, ця дія скасує тільки поточний завантажуваний файл і всі наступні за ним, але не видалити вже завантажені до цього часу файли. Якщо закачування було скасовано цим способом, то елемент із ключем `error` у масиві [FILES](reserved.variables.files.md) буде встановлений у **`UPLOAD_ERR_EXTENSION`**
 
 Опції [session.uploadprogress.freq](session.configuration.html#ini.session.upload-progress.freq) і [session.uploadprogress.minfreq](session.configuration.html#ini.session.upload-progress.min-freq) контролюють частоту оновлення інформації про прогрес завантаження. При розумних значеннях цих двох налаштувань накладні витрати цієї функції практично невідчутні.
 
@@ -46,7 +46,7 @@ $_SESSION["upload_progress_123"] = array(
  "files" => array(
   0 => array(
    "field_name" => "file1",       // Имя поля <input/>
-   // Следующие 3 элемента аналогичны соответствующим элементам массива $_FILES
+   // Следующие 3 элемента аналогичны соответствующим элементам Масива $_FILES
    "name" => "foo.avi",
    "tmp_name" => "/tmp/phpxxxxxx",
    "error" => 0,

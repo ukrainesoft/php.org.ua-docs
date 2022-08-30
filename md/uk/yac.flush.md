@@ -1,12 +1,12 @@
 Очищує кеш
 
--   [« Yac::dump](yac.dump.html)
+-   [« Yac::dump](yac.dump.md)
     
--   [Yac::get »](yac.get.html)
+-   [Yac::get »](yac.get.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yac](class.yac.html)
+-   [Yac](class.yac.md)
     
 -   Очищує кеш
     

@@ -1,12 +1,12 @@
 Конструктор Varnishlog
 
--   [« VarnishLog](class.varnishlog.html)
+-   [« VarnishLog](class.varnishlog.md)
     
--   [VarnishLog::getLine »](varnishlog.getline.html)
+-   [VarnishLog::getLine »](varnishlog.getline.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [VarnishLog](class.varnishlog.html)
+-   [VarnishLog](class.varnishlog.md)
     
 -   Конструктор Varnishlog
     

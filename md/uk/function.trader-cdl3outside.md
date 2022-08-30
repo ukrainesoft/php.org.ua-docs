@@ -4,9 +4,9 @@
     
 -   [tradercdl3starsinsouth »](function.trader-cdl3starsinsouth.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Три зовнішні дні вгору і три зовнішні дні вниз
     

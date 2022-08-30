@@ -4,7 +4,7 @@
     
 -   [db2primarykeys »](function.db2-primary-keys.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Функції IBM DB2](ref.ibm-db2.html)
     

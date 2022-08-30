@@ -1,12 +1,12 @@
 Переміщує внутрішній покажчик на наступне поле
 
--   [« SolrDocument::merge](solrdocument.merge.html)
+-   [« SolrDocument::merge](solrdocument.merge.md)
     
--   [SolrDocument::offsetExists »](solrdocument.offsetexists.html)
+-   [SolrDocument::offsetExists »](solrdocument.offsetexists.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocument](class.solrdocument.html)
+-   [SolrDocument](class.solrdocument.md)
     
 -   Переміщує внутрішній покажчик на наступне поле
     

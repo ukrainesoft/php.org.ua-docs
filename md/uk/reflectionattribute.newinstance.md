@@ -1,12 +1,12 @@
 Створює екземпляр класу атрибута, представленого цим класом ReflectionAttribute та аргументами
 
--   [« ReflectionAttribute::isRepeated](reflectionattribute.isrepeated.html)
+-   [« ReflectionAttribute::isRepeated](reflectionattribute.isrepeated.md)
     
--   [Reflector »](class.reflector.html)
+-   [Reflector »](class.reflector.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionAttribute](class.reflectionattribute.html)
+-   [ReflectionAttribute](class.reflectionattribute.md)
     
 -   Створює екземпляр класу атрибута, представленого цим класом ReflectionAttribute та аргументами
     

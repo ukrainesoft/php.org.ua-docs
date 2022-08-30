@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](ldap.configuration.html)
+-   [« Налаштування під час виконання](ldap.configuration.html)
     
--   [Предопределённые константы »](ldap.constants.html)
+-   [Обумовлені константи »](ldap.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](ldap.setup.html)
+-   [Встановлення та налаштування](ldap.setup.html)
     
 -   Типи ресурсів
     

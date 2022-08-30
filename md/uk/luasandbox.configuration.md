@@ -2,11 +2,11 @@
 
 -   [« Установка](luasandbox.installation.html)
     
--   [Типы ресурсов »](luasandbox.resources.html)
+-   [Типи ресурсів »](luasandbox.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](luasandbox.setup.html)
+-   [Встановлення та налаштування](luasandbox.setup.html)
     
 -   Налаштування під час виконання
     

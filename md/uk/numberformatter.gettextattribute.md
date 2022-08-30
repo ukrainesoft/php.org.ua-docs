@@ -1,12 +1,12 @@
 Отримує текстовий атрибут
 
--   [« NumberFormatter::getSymbol](numberformatter.getsymbol.html)
+-   [« NumberFormatter::getSymbol](numberformatter.getsymbol.md)
     
--   [NumberFormatter::parseCurrency »](numberformatter.parsecurrency.html)
+-   [NumberFormatter::parseCurrency »](numberformatter.parsecurrency.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [NumberFormatter](class.numberformatter.html)
+-   [NumberFormatter](class.numberformatter.md)
     
 -   Отримує текстовий атрибут
     
@@ -39,7 +39,7 @@ numfmt_get_text_attribute(NumberFormatter $formatter, int $attribute): string|fa
 
 `formatter`
 
-Об'єкт [NumberFormatter](class.numberformatter.html)
+Об'єкт [NumberFormatter](class.numberformatter.md)
 
 `attribute`
 
@@ -88,6 +88,6 @@ MINUS1.234.567,891
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmtgetattribute()](numberformatter.getattribute.html) - Отримує атрибут
--   [numfmtsettextattribute()](numberformatter.settextattribute.html) - Встановлює текстовий атрибут
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
+-   [numfmtgetattribute()](numberformatter.getattribute.md) - Отримує атрибут
+-   [numfmtsettextattribute()](numberformatter.settextattribute.md) - Встановлює текстовий атрибут

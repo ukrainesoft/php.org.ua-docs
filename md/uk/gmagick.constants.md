@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Настройка во время выполнения](gmagick.configuration.html)
+-   [« Налаштування під час виконання](gmagick.configuration.md)
     
--   [Примеры »](gmagick.examples.html)
+-   [Приклади »](gmagick.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](book.gmagick.html)
+-   [Gmagick](book.gmagick.md)
     
 -   Обумовлені константи
     

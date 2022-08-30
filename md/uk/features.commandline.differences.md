@@ -1,12 +1,12 @@
 Основні відмінності від інших реалізацій SAPI
 
--   [« Введение](features.commandline.introduction.html)
+-   [« Введение](features.commandline.introduction.md)
     
--   [Опції »](features.commandline.options.html)
+-   [Опції »](features.commandline.options.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Використання PHP у командному рядку](features.commandline.html)
+-   [Використання PHP у командному рядку](features.commandline.md)
     
 -   Основні відмінності від інших реалізацій SAPI
     
@@ -29,19 +29,19 @@
     
     **Перевизначені директиви php.ini**
     
-    | Директива                                                                                                                                                                                                        | Значение по умолчанию в CLI SAPI | Комментарий                                                                                                                                                                                                                                                                                     |
-    |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | [htmlerrors](errorfunc.configuration.html#ini.html-errors)                                                                                                                                                       | **`false`**                      | За замовчуванням **`false`**, т.к. буває досить складно читати в консолі повідомлення про помилку, коли вони наповнені безглуздими HTMLтегами.                                                                                                                                                  |
-    | [implicitflush](outcontrol.configuration.html#ini.implicit-flush)                                                                                                                                                | **`true`**                       | Зазвичай в консолі бажано відображати висновок, наприклад, [print](function.print.html) [echo](function.echo.html) та інших, відразу ж минаючи буфер. Тим не менш, як і раніше можна використовувати [буферизацию вывода](ref.outcontrol.html) для відкладеного висновку чи маніпуляцій із ним. |
-    | [maxexecutiontime](info.configuration.html#ini.max-execution-time)                                                                                                                                               | 0 (без обмежень)                 | PHP, що виконується в консолі, зазвичай використовується для більш широкого діапазону завдань, ніж звичайні веб-скрипти. Оскільки вони можуть виконуватися дуже довго, то максимальний час виконання необмежено.                                                                                |
-    | [registerargcargv](ini.core.html#ini.register-argc-argv)                                                                                                                                                         | **`true`**                       |                                                                                                                                                                                                                                                                                                 |
-    | Встановлення цієї опції значення **`true`** означає, що скрипти, що запускаються через CLI SAPI, завжди мають доступ до *argc* (кількість аргументів, переданих додатком) та *argv* (Масив поточних аргументів). |                                  |                                                                                                                                                                                                                                                                                                 |
+    | Директива | Значение по умолчанию в CLI SAPI | Комментарий |
+    | --- | --- | --- |
+    | [htmlerrors](errorfunc.configuration.html#ini.html-errors) | **`false`** | За замовчуванням **`false`**, т.к. буває досить складно читати в консолі повідомлення про помилку, коли вони наповнені безглуздими HTMLтегами. |
+    | [implicitflush](outcontrol.configuration.html#ini.implicit-flush) | **`true`** | Зазвичай в консолі бажано відображати висновок, наприклад, [print](function.print.md) [echo](function.echo.md) та інших, відразу ж минаючи буфер. Тим не менш, як і раніше можна використовувати [буферизацію висновку](ref.outcontrol.md) для відкладеного висновку чи маніпуляцій із ним. |
+    | [maxexecutiontime](info.configuration.html#ini.max-execution-time) | 0 (без обмежень) | PHP, що виконується в консолі, зазвичай використовується для більш широкого діапазону завдань, ніж звичайні веб-скрипти. Оскільки вони можуть виконуватися дуже довго, то максимальний час виконання необмежено. |
+    | [registerargcargv](ini.core.html#ini.register-argc-argv) | **`true`** |  |
+    | Встановлення цієї опції значення **`true`** означає, що скрипти, що запускаються через CLI SAPI, завжди мають доступ до *argc* (кількість аргументів, переданих додатком) та *argv* (Масив поточних аргументів). |  |  |
     
-    При використанні CLI SAPI змінні [$argc](reserved.variables.argc.html) і [$argv](reserved.variables.argv.html) автоматично заповнюються відповідними значеннями. Ці значення можна також знайти в масиві [SERVER](reserved.variables.server.html), наприклад: [SERVER\['argv'\]](reserved.variables.server.html)
+    При використанні CLI SAPI змінні [$argc](reserved.variables.argc.md) і [$argv](reserved.variables.argv.md) автоматично заповнюються відповідними значеннями. Ці значення можна також знайти в масиві [SERVER](reserved.variables.server.md), наприклад: [SERVER\['argv'\]](reserved.variables.server.md)
     
     [outputbuffering](outcontrol.configuration.html#ini.output-buffering) **`false`**
     
-    Незважаючи на те, що ця опція php.ini жорстко встановлена ​​в **`false`**, функції [буферизации вывода](book.outcontrol.html) все ще доступні.
+    Незважаючи на те, що ця опція php.ini жорстко встановлена ​​в **`false`**, функції [буферизації висновку](book.outcontrol.md) все ще доступні.
     
     [maxinputtime](info.configuration.html#ini.max-input-time) **`false`**
     
@@ -55,7 +55,7 @@
     > 
     > Рекомендується встановити опцію [ignoreuserabort](misc.configuration.html#ini.ignore-user-abort) для скриптів, які використовуються з командного рядка. За подробицями звертайтесь до функції [ignoreuserabort()](function.ignore-user-abort.html)
     
--   Для полегшення роботи в оточенні оболонки було визначено кілька констант для [потоков ввода/вывода](features.commandline.io-streams.html)
+-   Для полегшення роботи в оточенні оболонки було визначено кілька констант для [потоків введення/виводу](features.commandline.io-streams.html)
     
 -   CLI SAPI *не* змінює поточну директорію на директорію скрипта.
     

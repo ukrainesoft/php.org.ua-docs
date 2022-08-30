@@ -4,7 +4,7 @@
     
 -   [mysqliresult::fetcharray »](mysqli-result.fetch-array.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqliresult](class.mysqli-result.html)
     
@@ -37,13 +37,13 @@ mysqli_fetch_all(mysqli_result $result, int $mode = MYSQLI_NUM): array
 
 > **Зауваження**
 > 
-> До PHP 8.1.0, функція доступна лише з [mysqlnd](book.mysqlnd.html)
+> До PHP 8.1.0, функція доступна лише з [mysqlnd](book.mysqlnd.md)
 
 ### Список параметрів
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 `mode`
 
@@ -55,9 +55,9 @@ mysqli_fetch_all(mysqli_result $result, int $mode = MYSQLI_NUM): array
 
 ### список змін
 
-| Версия | Описание                                            |
-|--------|-----------------------------------------------------|
-|        | Тепер також доступно при збиранні з libmysqlclient. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер також доступно при збиранні з libmysqlclient. |
 
 ### Приклади
 
@@ -107,4 +107,4 @@ Herat (AFG)
 
 -   [mysqlifetcharray()](mysqli-result.fetch-array.html) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
 -   [mysqlifetchcolumn()](mysqli-result.fetch-column.html) - отримує один стовпець з наступного рядка набору результатів
--   [mysqliquery()](mysqli.query.html) - Виконує запит до бази даних
+-   [mysqliquery()](mysqli.query.md) - Виконує запит до бази даних

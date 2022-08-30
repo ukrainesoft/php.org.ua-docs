@@ -1,12 +1,12 @@
 Конструктор класу RecursiveIteratorIterator
 
--   [« RecursiveIteratorIterator::callHasChildren](recursiveiteratoriterator.callhaschildren.html)
+-   [« RecursiveIteratorIterator::callHasChildren](recursiveiteratoriterator.callhaschildren.md)
     
--   [RecursiveIteratorIterator::current »](recursiveiteratoriterator.current.html)
+-   [RecursiveIteratorIterator::current »](recursiveiteratoriterator.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
     
 -   Конструктор класу RecursiveIteratorIterator
     
@@ -19,15 +19,15 @@ RecursiveIteratorIterator::construct — Конструктор класу Recur
 
 ### Опис
 
-public **RecursiveIteratorIterator::construct**[Traversable](class.traversable.html) `$iterator`, int `$mode` = RecursiveIteratorIterator::LEAVESONLY, int `$flags`
+public **RecursiveIteratorIterator::construct**[Traversable](class.traversable.md) `$iterator`, int `$mode` = RecursiveIteratorIterator::LEAVESONLY, int `$flags`
 
-Створює новий об'єкт класу [RecursiveIteratorIterator](class.recursiveiteratoriterator.html) на основі об'єкта [RecursiveIterator](class.recursiveiterator.html)
+Створює новий об'єкт класу [RecursiveIteratorIterator](class.recursiveiteratoriterator.md) на основі об'єкта [RecursiveIterator](class.recursiveiterator.md)
 
 ### Список параметрів
 
 `iterator`
 
-Об'єкт-ітератор, на основі якого потрібно побудувати цей екземпляр. Це може бути об'єкт класу [RecursiveIterator](class.recursiveiterator.html) або класу [IteratorAggregate](class.iteratoraggregate.html)
+Об'єкт-ітератор, на основі якого потрібно побудувати цей екземпляр. Це може бути об'єкт класу [RecursiveIterator](class.recursiveiterator.md) або класу [IteratorAggregate](class.iteratoraggregate.md)
 
 `mode`
 

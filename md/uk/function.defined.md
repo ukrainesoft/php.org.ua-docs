@@ -59,4 +59,4 @@ if (defined('TEST')) {
 -   [constant()](function.constant.html) - Повертає значення константи
 -   [getdefinedconstants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень
 -   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
--   Дивіться розділ [Константы](language.constants.html)
+-   Дивіться розділ [Константи](language.constants.html)

@@ -1,12 +1,12 @@
 Переміщує ітератор на задану позицію
 
--   [« LimitIterator::rewind](limititerator.rewind.html)
+-   [« LimitIterator::rewind](limititerator.rewind.md)
     
--   [LimitIterator::valid »](limititerator.valid.html)
+-   [LimitIterator::valid »](limititerator.valid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LimitIterator](class.limititerator.html)
+-   [LimitIterator](class.limititerator.md)
     
 -   Переміщує ітератор на задану позицію
     
@@ -37,12 +37,12 @@ public LimitIterator::seek(int $offset): int
 
 ### Помилки
 
-Викидає виняток [OutOfBoundsException](class.outofboundsexception.html)якщо задана позиція виходить за межі, передані конструктору [LimitIterator::construct()](limititerator.construct.html)
+Викидає виняток [OutOfBoundsException](class.outofboundsexception.md)якщо задана позиція виходить за межі, передані конструктору [LimitIterator::construct()](limititerator.construct.md)
 
 ### Дивіться також
 
--   [LimitIterator::current()](limititerator.current.html) - Отримання поточного елемента
--   [LimitIterator::key()](limititerator.key.html) - Отримання поточного ключа
--   [LimitIterator::rewind()](limititerator.rewind.html) - Переміщує покажчик на початкову позицію
--   [LimitIterator::next()](limititerator.next.html) - Переміщення до наступної позиції
--   [LimitIterator::valid()](limititerator.valid.html) - Перевіряє валідність поточного елемента
+-   [LimitIterator::current()](limititerator.current.md) - Отримання поточного елемента
+-   [LimitIterator::key()](limititerator.key.md) - Отримання поточного ключа
+-   [LimitIterator::rewind()](limititerator.rewind.md) - Переміщує покажчик на початкову позицію
+-   [LimitIterator::next()](limititerator.next.md) - Переміщення до наступної позиції
+-   [LimitIterator::valid()](limititerator.valid.md) - Перевіряє валідність поточного елемента

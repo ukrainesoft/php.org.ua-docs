@@ -4,9 +4,9 @@
     
 -   [rrdfirst »](function.rrd-first.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.md)
     
 -   Витягти дані для графіка у вигляді масиву
     

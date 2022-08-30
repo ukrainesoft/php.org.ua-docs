@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.xsl.html)
+-   [« Введение](intro.xsl.md)
     
--   [Требования »](xsl.requirements.html)
+-   [Вимоги »](xsl.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XSL](book.xsl.html)
+-   [XSL](book.xsl.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](xsl.requirements.html)
--   [Установка](xsl.installation.html)
--   [Настройка во время выполнения](xsl.configuration.html)
--   [Типы ресурсов](xsl.resources.html)
+-   [Вимоги](xsl.requirements.md)
+-   [Установка](xsl.installation.md)
+-   [Налаштування під час виконання](xsl.configuration.md)
+-   [Типи ресурсів](xsl.resources.md)

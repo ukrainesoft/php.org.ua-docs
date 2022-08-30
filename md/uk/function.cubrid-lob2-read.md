@@ -4,9 +4,9 @@
     
 -   [cubridlob2seek64 »](function.cubrid-lob2-seek64.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Читає дані BLOB/CLOB
     

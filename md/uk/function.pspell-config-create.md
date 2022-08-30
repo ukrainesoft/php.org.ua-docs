@@ -53,9 +53,9 @@ pspell_config_create(    string $language,    string $spelling = "",  
 
 ### список змін
 
-| Версия | Описание                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PSpellConfig](class.pspell-config.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [PSpellConfig](class.pspell-config.html); раніше повертався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

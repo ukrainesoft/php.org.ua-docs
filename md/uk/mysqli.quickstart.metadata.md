@@ -2,7 +2,7 @@
 
 -   [« API поддержка транзакций](mysqli.quickstart.transactions.html)
     
--   [Установка и настройка »](mysqli.setup.html)
+-   [Встановлення та налаштування »](mysqli.setup.html)
     
 -   [PHP Manual](index.html)
     

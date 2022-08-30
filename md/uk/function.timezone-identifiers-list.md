@@ -4,9 +4,9 @@
     
 -   [timezonelocationget »](function.timezone-location-get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Псевдонім DateTimeZone::listIdentifiers
     
@@ -15,8 +15,8 @@
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-timezoneidentifierslist - Псевдонім [DateTimeZone::listIdentifiers()](datetimezone.listidentifiers.html)
+timezoneidentifierslist - Псевдонім [DateTimeZone::listIdentifiers()](datetimezone.listidentifiers.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateTimeZone::listIdentifiers()](datetimezone.listidentifiers.html)
+Ця функція є псевдонімом: [DateTimeZone::listIdentifiers()](datetimezone.listidentifiers.md)

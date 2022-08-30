@@ -4,9 +4,9 @@
     
 -   [streamcontextsetdefault »](function.stream-context-set-default.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.md)
     
 -   Отримує параметри з контексту
     
@@ -29,7 +29,7 @@ stream_context_get_params(resource $context): array
 
 `context`
 
-Ресурс (resource) потоку чи ресурс (resource) [контекста](context.html)
+Ресурс (resource) потоку чи ресурс (resource) [контекста](context.md)
 
 ### Значення, що повертаються
 

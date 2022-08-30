@@ -1,12 +1,12 @@
 Перевірити, чи стиснений файл
 
--   [« PharFileInfo::isCRCChecked](pharfileinfo.iscrcchecked.html)
+-   [« PharFileInfo::isCRCChecked](pharfileinfo.iscrcchecked.md)
     
--   [PharFileInfo::setMetadata »](pharfileinfo.setmetadata.html)
+-   [PharFileInfo::setMetadata »](pharfileinfo.setmetadata.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharFileInfo](class.pharfileinfo.html)
+-   [PharFileInfo](class.pharfileinfo.md)
     
 -   Перевірити, чи стиснений файл
     
@@ -37,9 +37,9 @@ public PharFileInfo::isCompressed(?int $compression = null): bool
 
 ### список змін
 
-| Версия | Описание                                    |
-|--------|---------------------------------------------|
-|        | `compression` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `compression` тепер допускає значення null. |
 
 ### Приклади
 
@@ -71,13 +71,13 @@ bool(true)
 
 ### Дивіться також
 
--   [PharFileInfo::getCompressedSize()](pharfileinfo.getcompressedsize.html) - Отримати реальний розмір файлу на диску з урахуванням стиснення
--   [PharFileInfo::decompress()](pharfileinfo.decompress.html) - Розтискає поточний файл
--   [PharFileInfo::compress()](pharfileinfo.compress.html) - Стиснути поточний файл за допомогою zlib або bzip2
--   [Phar::decompress()](phar.decompress.html) - Розпаковує весь Phar-архів
--   [Phar::compress()](phar.compress.html) - Стискає весь Phar-архів за допомогою Gzip- або Bzip2-стиснення
--   [Phar::canCompress()](phar.cancompress.html) - Перевіряє, чи підтримує модуль phar стиск з використанням zlib або bzip2
--   [Phar::isCompressed()](phar.iscompressed.html) - Повертає Phar::GZ або PHAR::BZ2, якщо phar-архів стиснутий повністю (.tar.gz/tar.bz і так далі)
--   [Phar::getSupportedCompression()](phar.getsupportedcompression.html) - Повертає масив підтримуваних алгоритмів стиснення
--   [Phar::decompressFiles()](phar.decompressfiles.html) - Розпаковує всі файли в поточному Phar-архіві
--   [Phar::compressFiles()](phar.compressfiles.html) - Стискає всі файли у поточному Phar-архіві
+-   [PharFileInfo::getCompressedSize()](pharfileinfo.getcompressedsize.md) - Отримати реальний розмір файлу на диску з урахуванням стиснення
+-   [PharFileInfo::decompress()](pharfileinfo.decompress.md) - Розтискає поточний файл
+-   [PharFileInfo::compress()](pharfileinfo.compress.md) - Стиснути поточний файл за допомогою zlib або bzip2
+-   [Phar::decompress()](phar.decompress.md) - Розпаковує весь Phar-архів
+-   [Phar::compress()](phar.compress.md) - Стискає весь Phar-архів за допомогою Gzip- або Bzip2-стиснення
+-   [Phar::canCompress()](phar.cancompress.md) - Перевіряє, чи підтримує модуль phar стиск з використанням zlib або bzip2
+-   [Phar::isCompressed()](phar.iscompressed.md) - Повертає Phar::GZ або PHAR::BZ2, якщо phar-архів стиснутий повністю (.tar.gz/tar.bz і так далі)
+-   [Phar::getSupportedCompression()](phar.getsupportedcompression.md) - Повертає масив підтримуваних алгоритмів стиснення
+-   [Phar::decompressFiles()](phar.decompressfiles.md) - Розпаковує всі файли в поточному Phar-архіві
+-   [Phar::compressFiles()](phar.compressfiles.md) - Стискає всі файли у поточному Phar-архіві

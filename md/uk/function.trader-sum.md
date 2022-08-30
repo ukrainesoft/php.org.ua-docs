@@ -4,9 +4,9 @@
     
 -   [tradert3 »](function.trader-t3.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Підсумовування
     

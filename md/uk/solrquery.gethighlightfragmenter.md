@@ -1,12 +1,12 @@
 Повертає генератор фрагментів тексту для виділеного тексту
 
--   [« SolrQuery::getHighlightFormatter](solrquery.gethighlightformatter.html)
+-   [« SolrQuery::getHighlightFormatter](solrquery.gethighlightformatter.md)
     
--   [SolrQuery::getHighlightFragsize »](solrquery.gethighlightfragsize.html)
+-   [SolrQuery::getHighlightFragsize »](solrquery.gethighlightfragsize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає генератор фрагментів тексту для виділеного тексту
     

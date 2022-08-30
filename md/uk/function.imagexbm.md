@@ -1,12 +1,12 @@
 Виведення XBM зображення у браузер або файл
 
--   [« imagewebp](function.imagewebp.html)
+-   [« imagewebp](function.imagewebp.md)
     
--   [iptcembed »](function.iptcembed.html)
+-   [iptcembed »](function.iptcembed.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Виведення XBM зображення у браузер або файл
     
@@ -31,7 +31,7 @@ imagexbm(GdImage $image, ?string $filename, ?int $foreground_color = null): bool
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `filename`
 
@@ -41,7 +41,7 @@ imagexbm(GdImage $image, ?string $filename, ?int $foreground_color = null): bool
 
 `foreground_color`
 
-Можна встановити колір верхнього шару. Колір визначається ідентифікатором створеним функцією [imagecolorallocate()](function.imagecolorallocate.html). За промовчанням колір чорний. Всі інші кольори інтерпретуються як кольори підкладки (background).
+Можна встановити колір верхнього шару. Колір визначається ідентифікатором створеним функцією [imagecolorallocate()](function.imagecolorallocate.md). За промовчанням колір чорний. Всі інші кольори інтерпретуються як кольори підкладки (background).
 
 ### Значення, що повертаються
 
@@ -53,11 +53,11 @@ imagexbm(GdImage $image, ?string $filename, ?int $foreground_color = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
-|        | `foreground_color` тепер допускає значення null.                                                 |
-|        | Четвертий параметр, який не використовувався, було видалено.                                     |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+|  | `foreground_color` тепер допускає значення null. |
+|  | Четвертий параметр, який не використовувався, було видалено. |
 
 ### Приклади
 

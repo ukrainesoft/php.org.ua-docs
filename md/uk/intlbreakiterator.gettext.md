@@ -1,12 +1,12 @@
 Повертає сканований текст
 
--   [« IntlBreakIterator::getPartsIterator](intlbreakiterator.getpartsiterator.html)
+-   [« IntlBreakIterator::getPartsIterator](intlbreakiterator.getpartsiterator.md)
     
--   [IntlBreakIterator::isBoundary »](intlbreakiterator.isboundary.html)
+-   [IntlBreakIterator::isBoundary »](intlbreakiterator.isboundary.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlBreakIterator](class.intlbreakiterator.html)
+-   [IntlBreakIterator](class.intlbreakiterator.md)
     
 -   Повертає сканований текст
     

@@ -1,12 +1,12 @@
 Отримати трасування запущеного генератора
 
--   [« ReflectionGenerator::getThis](reflectiongenerator.getthis.html)
+-   [« ReflectionGenerator::getThis](reflectiongenerator.getthis.md)
     
--   [ReflectionFiber »](class.reflectionfiber.html)
+-   [ReflectionFiber »](class.reflectionfiber.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionGenerator](class.reflectiongenerator.html)
+-   [ReflectionGenerator](class.reflectiongenerator.md)
     
 -   Отримати трасування запущеного генератора
     
@@ -33,10 +33,10 @@ public ReflectionGenerator::getTrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJE
 
 **Доступні опції**
 
-| Опция                                | Описание                                                       |
-|--------------------------------------|----------------------------------------------------------------|
-| **`DEBUG_BACKTRACE_PROVIDE_OBJECT`** | За замовчуванням.                                              |
-| **`DEBUG_BACKTRACE_IGNORE_ARGS`**    | Не включати інформацію про аргументи функцій у стеку дзвінків. |
+| Опция | Описание |
+| --- | --- |
+| **`DEBUG_BACKTRACE_PROVIDE_OBJECT`** | За замовчуванням. |
+| **`DEBUG_BACKTRACE_IGNORE_ARGS`** | Не включати інформацію про аргументи функцій у стеку дзвінків. |
 
 ### Значення, що повертаються
 
@@ -101,5 +101,5 @@ array(2) {
 
 ### Дивіться також
 
--   [ReflectionGenerator::getFunction()](reflectiongenerator.getfunction.html) - Отримати ім'я функції генератора
--   [ReflectionGenerator::getThis()](reflectiongenerator.getthis.html) - Отримує значення $this генератора
+-   [ReflectionGenerator::getFunction()](reflectiongenerator.getfunction.md) - Отримати ім'я функції генератора
+-   [ReflectionGenerator::getThis()](reflectiongenerator.getthis.md) - Отримує значення $this генератора

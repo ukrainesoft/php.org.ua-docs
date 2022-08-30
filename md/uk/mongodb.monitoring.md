@@ -2,20 +2,20 @@
 
 -   [« MongoDBBSONUndefined::unserialize](mongodb-bson-undefined.unserialize.html)
     
--   [Функції »](ref.monitoring.functions.html)
+-   [Функції »](ref.monitoring.functions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDB](set.mongodb.html)
+-   [MongoDB](set.mongodb.md)
     
 -   Класи моніторингу та функції передплатника
     
 
 # Класи моніторингу та функції передплатника
 
--   [Функції](ref.monitoring.functions.html)
-    -   [MongoDBDriverMonitoringaddSubscriber](function.mongodb.driver.monitoring.addsubscriber.html) - Глобальна реєстрація передплатника на подію моніторингу
-    -   [MongoDBDriverMonitoringremoveSubscriber](function.mongodb.driver.monitoring.removesubscriber.html) — Скасує глобальну реєстрацію передплатника на подію моніторингу
+-   [Функції](ref.monitoring.functions.md)
+    -   [MongoDBDriverMonitoringaddSubscriber](function.mongodb.driver.monitoring.addsubscriber.md) - Глобальна реєстрація передплатника на подію моніторингу
+    -   [MongoDBDriverMonitoringremoveSubscriber](function.mongodb.driver.monitoring.removesubscriber.md) — Скасує глобальну реєстрацію передплатника на подію моніторингу
 -   [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html) - Клас MongoDBDriverMonitoringCommandFailedEvent
     -   [MongoDBDriverMonitoringCommandFailedEvent::getCommandName](mongodb-driver-monitoring-commandfailedevent.getcommandname.html) - Повертає ім'я команди
     -   [MongoDBDriverMonitoringCommandFailedEvent::getDurationMicros](mongodb-driver-monitoring-commandfailedevent.getdurationmicros.html) — Повертає тривалість команди у мікросекундах

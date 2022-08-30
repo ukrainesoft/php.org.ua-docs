@@ -4,9 +4,9 @@
     
 -   [uopzsetreturn »](function.uopz-set-return.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.md)
     
 -   Встановлює значення існуючої властивості класу чи екземпляра
     

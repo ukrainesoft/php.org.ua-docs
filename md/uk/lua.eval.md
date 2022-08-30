@@ -1,12 +1,12 @@
 Розбирає рядок як код Lua
 
--   [« Lua::construct](lua.construct.html)
+-   [« Lua::construct](lua.construct.md)
     
--   [Lua::getVersion »](lua.getversion.html)
+-   [Lua::getVersion »](lua.getversion.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Lua](class.lua.html)
+-   [Lua](class.lua.md)
     
 -   Розбирає рядок як код Lua
     

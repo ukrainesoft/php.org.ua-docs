@@ -4,9 +4,9 @@
     
 -   [mysqlresult »](function.mysql-result.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](ref.mysql.html)
+-   [MySQL](ref.mysql.md)
     
 -   Екранує спеціальні символи в рядках для використання у виразах SQL
     
@@ -19,10 +19,10 @@ mysqlrealescapestring — Екран спеціальних символів у 
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   [mysqlirealescapestring()](mysqli.real-escape-string.html)
--   [PDO::quote()](pdo.quote.html)
+-   [PDO::quote()](pdo.quote.md)
 
 ### Опис
 
@@ -40,7 +40,7 @@ mysql_real_escape_string(string $unescaped_string, resource $link_identifier = N
 
 # Безпека: кодування символів за промовчанням
 
-Кодування символів має встановлюватися як на сервері, так і за допомогою функції [mysqlsetcharset()](function.mysql-set-charset.html), щоб впливати на поведінку **mysqlrealescapestring()**. Докладніше описано в розділі [кодування символів](mysqlinfo.concepts.charset.html)
+Кодування символів має встановлюватися як на сервері, так і за допомогою функції [mysqlsetcharset()](function.mysql-set-charset.html), щоб впливати на поведінку **mysqlrealescapestring()**. Докладніше описано в розділі [кодування символів](mysqlinfo.concepts.charset.md)
 
 ### Список параметрів
 
@@ -139,11 +139,11 @@ SELECT * FROM users WHERE user='aidan' AND password='' OR ''=''
 
 > **Зауваження**
 > 
-> Якщо [magicquotesgpc](info.configuration.html#ini.magic-quotes-gpc) включені, то спочатку дані слід обробити функцією [stripslashes()](function.stripslashes.html). Якщо цю функцію застосувати до вже проекранованих даних, дані будуть проекрановані двічі.
+> Якщо [magicquotesgpc](info.configuration.html#ini.magic-quotes-gpc) включені, то спочатку дані слід обробити функцією [stripslashes()](function.stripslashes.md). Якщо цю функцію застосувати до вже проекранованих даних, дані будуть проекрановані двічі.
 
 > **Зауваження**
 > 
-> Якщо не користуватися цією функцією, то запит стає вразливим для [взлома с помощью SQL-инъекций](security.database.sql-injection.html)
+> Якщо не користуватися цією функцією, то запит стає вразливим для [злому за допомогою SQL-ін'єкцій](security.database.sql-injection.html)
 
 > **Зауваження** **mysqlrealescapestring()** не екранує символи `%` і `_`. Ці символи є масками груп символів в операторах MySQL `LIKE` `GRANT` і `REVOKE`
 
@@ -151,7 +151,7 @@ SELECT * FROM users WHERE user='aidan' AND password='' OR ''=''
 
 -   [mysqlsetcharset()](function.mysql-set-charset.html) - Встановлює кодування клієнта
 -   [mysqlclientencoding()](function.mysql-client-encoding.html) - Повертає кодування з'єднання
--   [addslashes()](function.addslashes.html) - Екранує рядок за допомогою слішів
--   [stripslashes()](function.stripslashes.html) - Видаляє екранування символів
+-   [addslashes()](function.addslashes.md) - Екранує рядок за допомогою слішів
+-   [stripslashes()](function.stripslashes.md) - Видаляє екранування символів
 -   Директива [magicquotesgpc](info.configuration.html#ini.magic-quotes-gpc)
 -   Директива [magicquotesruntime](info.configuration.html#ini.magic-quotes-runtime)

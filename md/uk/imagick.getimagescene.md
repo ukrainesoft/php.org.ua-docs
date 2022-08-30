@@ -1,12 +1,12 @@
 Повертає сцену зображення
 
--   [« Imagick::getImagesBlob](imagick.getimagesblob.html)
+-   [« Imagick::getImagesBlob](imagick.getimagesblob.md)
     
--   [Imagick::getImageSignature »](imagick.getimagesignature.html)
+-   [Imagick::getImageSignature »](imagick.getimagesignature.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає сцену зображення
     

@@ -19,7 +19,7 @@ mysqllistfields — Повертає список колонок таблиці
 
 **Увага**
 
-Ця функція оголошена застарілою в PHP 5.4.0, і, разом з [модулем MySQL](book.mysql.html)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Також дивіться розділ [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Ця функція оголошена застарілою в PHP 5.4.0, і, разом з [модулем MySQL](book.mysql.html)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Також дивіться розділ [MySQL: вибір API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
 -   SQL запит: `SHOW COLUMNS FROM sometable`
 

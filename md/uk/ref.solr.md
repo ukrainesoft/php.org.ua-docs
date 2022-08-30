@@ -1,6 +1,6 @@
 Функції Solr
 
--   [« Предопределённые константы](solr.constants.html)
+-   [« Обумовлені константи](solr.constants.html)
     
 -   [solrgetversion »](function.solr-get-version.html)
     

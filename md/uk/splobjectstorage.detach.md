@@ -1,12 +1,12 @@
 Видаляє об'єкт з контейнера
 
--   [« SplObjectStorage::current](splobjectstorage.current.html)
+-   [« SplObjectStorage::current](splobjectstorage.current.md)
     
--   [SplObjectStorage::getHash »](splobjectstorage.gethash.html)
+-   [SplObjectStorage::getHash »](splobjectstorage.gethash.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplObjectStorage](class.splobjectstorage.html)
+-   [SplObjectStorage](class.splobjectstorage.md)
     
 -   Видаляє об'єкт з контейнера
     
@@ -59,5 +59,5 @@ int(0)
 
 ### Дивіться також
 
--   [SplObjectStorage::attach()](splobjectstorage.attach.html) - Додає об'єкт у контейнер
--   [SplObjectStorage::removeAll()](splobjectstorage.removeall.html) - Видаляє з поточного контейнера об'єкти, які є в іншому контейнері
+-   [SplObjectStorage::attach()](splobjectstorage.attach.md) - Додає об'єкт у контейнер
+-   [SplObjectStorage::removeAll()](splobjectstorage.removeall.md) - Видаляє з поточного контейнера об'єкти, які є в іншому контейнері

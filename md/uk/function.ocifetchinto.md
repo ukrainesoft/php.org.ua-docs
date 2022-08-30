@@ -1,12 +1,12 @@
 Застарілий варіант функцій ocifetcharray, ocifetchobject, ocifetchassoc та ocifetchrow
 
--   [« ocifetch](function.ocifetch.html)
+-   [« ocifetch](function.ocifetch.md)
     
--   [ocifetchstatement »](function.ocifetchstatement.html)
+-   [ocifetchstatement »](function.ocifetchstatement.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Застарілий варіант функцій ocifetcharray, ocifetchobject, ocifetchassoc та ocifetchrow
     

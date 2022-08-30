@@ -1,12 +1,12 @@
 Отримати кодування призначення
 
--   [« UConverter::getAvailable](uconverter.getavailable.html)
+-   [« UConverter::getAvailable](uconverter.getavailable.md)
     
--   [UConverter::getDestinationType »](uconverter.getdestinationtype.html)
+-   [UConverter::getDestinationType »](uconverter.getdestinationtype.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [UConverter](class.uconverter.html)
+-   [UConverter](class.uconverter.md)
     
 -   Отримати кодування призначення
     

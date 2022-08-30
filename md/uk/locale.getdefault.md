@@ -1,12 +1,12 @@
 Отримання значення локалі INTL за замовчуванням з опції 'defaultlocale'
 
--   [« Locale::getAllVariants](locale.getallvariants.html)
+-   [« Locale::getAllVariants](locale.getallvariants.md)
     
--   [Locale::getDisplayLanguage »](locale.getdisplaylanguage.html)
+-   [Locale::getDisplayLanguage »](locale.getdisplaylanguage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Locale](class.locale.html)
+-   [Locale](class.locale.md)
     
 -   Отримання значення локалі INTL за замовчуванням з опції 'defaultlocale'
     
@@ -75,4 +75,4 @@ de-DE; fr
 
 ### Дивіться також
 
--   [localesetdefault()](locale.setdefault.html) - Встановити локаль за умовчанням під час виконання
+-   [localesetdefault()](locale.setdefault.md) - Встановити локаль за умовчанням під час виконання

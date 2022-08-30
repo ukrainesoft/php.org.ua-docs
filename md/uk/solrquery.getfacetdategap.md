@@ -1,12 +1,12 @@
 Повертає значення параметра facet.date.gap
 
--   [« SolrQuery::getFacetDateFields](solrquery.getfacetdatefields.html)
+-   [« SolrQuery::getFacetDateFields](solrquery.getfacetdatefields.md)
     
--   [SolrQuery::getFacetDateHardEnd »](solrquery.getfacetdatehardend.html)
+-   [SolrQuery::getFacetDateHardEnd »](solrquery.getfacetdatehardend.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає значення параметра facet.date.gap
     

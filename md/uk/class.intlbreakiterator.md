@@ -1,12 +1,12 @@
 Клас IntlBreakIterator
 
--   [« Transliterator::transliterate](transliterator.transliterate.html)
+-   [« Transliterator::transliterate](transliterator.transliterate.md)
     
--   [IntlBreakIterator::construct »](intlbreakiterator.construct.html)
+-   [IntlBreakIterator::construct »](intlbreakiterator.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [intl](book.intl.html)
+-   [intl](book.intl.md)
     
 -   Клас IntlBreakIterator
     
@@ -17,9 +17,9 @@
 
 ## Вступ
 
-Ітератор переривання (Break iterator) - це об'єкт ICU, що надає методи для визначення меж у тексті (наприклад межі слова або речення). У PHP клас **IntlBreakIterator** служить базовим класом всім типів ітераторів переривання ICU. Є й додаткова функціональність, модуль intl може розширювати цей клас відповідними підкласами, такими як [IntlRuleBasedBreakIterator](class.intlrulebasedbreakiterator.html) або [IntlCodePointBreakIterator](class.intlcodepointbreakiterator.html)
+Ітератор переривання (Break iterator) - це об'єкт ICU, що надає методи для визначення меж у тексті (наприклад межі слова або речення). У PHP клас **IntlBreakIterator** служить базовим класом всім типів ітераторів переривання ICU. Є й додаткова функціональність, модуль intl може розширювати цей клас відповідними підкласами, такими як [IntlRuleBasedBreakIterator](class.intlrulebasedbreakiterator.md) або [IntlCodePointBreakIterator](class.intlcodepointbreakiterator.md)
 
-Цей клас реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Traversing an Ітерація **IntlBreakIterator** породжує невід'ємні цілі значення, що являють собою успішне знаходження кордонів у тексті, і рівні позиції знайденого символу UTF-8 відрахованої від початку тексту (позиція першого символу дорівнює `0`). Ключі повернутих значень являють собою послідовність натуральних чисел `{0, 1, 2, …}`
+Цей клас реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Traversing an Ітерація **IntlBreakIterator** породжує невід'ємні цілі значення, що являють собою успішне знаходження кордонів у тексті, і рівні позиції знайденого символу UTF-8 відрахованої від початку тексту (позиція першого символу дорівнює `0`). Ключі повернутих значень являють собою послідовність натуральних чисел `{0, 1, 2, …}`
 
 ## Огляд класів
 
@@ -187,30 +187,30 @@ public setText(string $text): ?bool
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                                 |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Клас **IntlBreakIterator** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **IntlBreakIterator** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md) |
 
 ## Зміст
 
--   [IntlBreakIterator::construct](intlbreakiterator.construct.html) — Закритий конструктор, який забороняє створення екземплярів об'єкту
--   [IntlBreakIterator::createCharacterInstance](intlbreakiterator.createcharacterinstance.html) — Створює ітератор переривання меж комбінування послідовностей символів.
--   [IntlBreakIterator::createCodePointInstance](intlbreakiterator.createcodepointinstance.html) — Створює ітератор переривання меж кодових точок.
--   [IntlBreakIterator::createLineInstance](intlbreakiterator.createlineinstance.html) — Створює ітератор переривання для логічно можливих розривів рядків
--   [IntlBreakIterator::createSentenceInstance](intlbreakiterator.createsentenceinstance.html) - Створює ітератор переривання для розривів речень
--   [IntlBreakIterator::createTitleInstance](intlbreakiterator.createtitleinstance.html) - Створює ітератор переривання для розривів заголовків
--   [IntlBreakIterator::createWordInstance](intlbreakiterator.createwordinstance.html) - Створює ітератор переривання для розривів слів
--   [IntlBreakIterator::current](intlbreakiterator.current.html) — Повертає індекс поточної позиції
--   [IntlBreakIterator::first](intlbreakiterator.first.html) — Встановлює позицію першого символу в тексті
--   [IntlBreakIterator::following](intlbreakiterator.following.html) — Переміщає ітератор до першого кордону після вказаного усунення
--   [IntlBreakIterator::getErrorCode](intlbreakiterator.geterrorcode.html) — Повертає останній код помилки об'єкту
--   [IntlBreakIterator::getErrorMessage](intlbreakiterator.geterrormessage.html) — Повертає останнє повідомлення про помилку об'єкта
--   [IntlBreakIterator::getLocale](intlbreakiterator.getlocale.html) — Повертає локаль, пов'язану з об'єктом
--   [IntlBreakIterator::getPartsIterator](intlbreakiterator.getpartsiterator.html) — створює ітератор для переміщення фрагментів між кордонами.
--   [IntlBreakIterator::getText](intlbreakiterator.gettext.html) — Повертає текст, що сканується.
--   [IntlBreakIterator::isBoundary](intlbreakiterator.isboundary.html) — Повідомляє, чи є усунення зміщенням кордону
--   [IntlBreakIterator::last](intlbreakiterator.last.html) — Встановлює позицію ітератора до індексу за останнім символом
--   [IntlBreakIterator::next](intlbreakiterator.next.html) — Переміщує ітератор до наступного кордону
--   [IntlBreakIterator::preceding](intlbreakiterator.preceding.html) — Встановлює позицію ітератора до першого кордону перед усуненням
--   [IntlBreakIterator::previous](intlbreakiterator.previous.html) — Встановлює позицію ітератора на кордоні безпосередньо перед поточною
--   [IntlBreakIterator::setText](intlbreakiterator.settext.html) — Встановлює сканований текст
+-   [IntlBreakIterator::construct](intlbreakiterator.construct.md) — Закритий конструктор, який забороняє створення екземплярів об'єкту
+-   [IntlBreakIterator::createCharacterInstance](intlbreakiterator.createcharacterinstance.md) — Створює ітератор переривання меж комбінування послідовностей символів.
+-   [IntlBreakIterator::createCodePointInstance](intlbreakiterator.createcodepointinstance.md) — Створює ітератор переривання меж кодових точок.
+-   [IntlBreakIterator::createLineInstance](intlbreakiterator.createlineinstance.md) — Створює ітератор переривання для логічно можливих розривів рядків
+-   [IntlBreakIterator::createSentenceInstance](intlbreakiterator.createsentenceinstance.md) - Створює ітератор переривання для розривів речень
+-   [IntlBreakIterator::createTitleInstance](intlbreakiterator.createtitleinstance.md) - Створює ітератор переривання для розривів заголовків
+-   [IntlBreakIterator::createWordInstance](intlbreakiterator.createwordinstance.md) - Створює ітератор переривання для розривів слів
+-   [IntlBreakIterator::current](intlbreakiterator.current.md) — Повертає індекс поточної позиції
+-   [IntlBreakIterator::first](intlbreakiterator.first.md) — Встановлює позицію першого символу в тексті
+-   [IntlBreakIterator::following](intlbreakiterator.following.md) — Переміщає ітератор до першого кордону після вказаного усунення
+-   [IntlBreakIterator::getErrorCode](intlbreakiterator.geterrorcode.md) — Повертає останній код помилки об'єкту
+-   [IntlBreakIterator::getErrorMessage](intlbreakiterator.geterrormessage.md) — Повертає останнє повідомлення про помилку об'єкта
+-   [IntlBreakIterator::getLocale](intlbreakiterator.getlocale.md) — Повертає локаль, пов'язану з об'єктом
+-   [IntlBreakIterator::getPartsIterator](intlbreakiterator.getpartsiterator.md) — створює ітератор для переміщення фрагментів між кордонами.
+-   [IntlBreakIterator::getText](intlbreakiterator.gettext.md) — Повертає текст, що сканується.
+-   [IntlBreakIterator::isBoundary](intlbreakiterator.isboundary.md) — Повідомляє, чи є усунення зміщенням кордону
+-   [IntlBreakIterator::last](intlbreakiterator.last.md) — Встановлює позицію ітератора до індексу за останнім символом
+-   [IntlBreakIterator::next](intlbreakiterator.next.md) — Переміщує ітератор до наступного кордону
+-   [IntlBreakIterator::preceding](intlbreakiterator.preceding.md) — Встановлює позицію ітератора до першого кордону перед усуненням
+-   [IntlBreakIterator::previous](intlbreakiterator.previous.md) — Встановлює позицію ітератора на кордоні безпосередньо перед поточною
+-   [IntlBreakIterator::setText](intlbreakiterator.settext.md) — Встановлює сканований текст

@@ -1,12 +1,12 @@
 Показує максимально можливе значення випадкового числа
 
--   [« min](function.min.html)
+-   [« min](function.min.md)
     
 -   [мтrand »](function.mt-rand.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Показує максимально можливе значення випадкового числа
     
@@ -59,4 +59,4 @@ float(16.511210331931)
 
 -   [мтrand()](function.mt-rand.html) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
 -   [мтsrand()](function.mt-srand.html) - Проініціалізує генератор випадкових чисел на базі Вихря Мерсенна
--   [getrandmax()](function.getrandmax.html) - Повертає максимально можливе випадкове число
+-   [getrandmax()](function.getrandmax.md) - Повертає максимально можливе випадкове число

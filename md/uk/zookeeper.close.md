@@ -1,12 +1,12 @@
 Закриває обробник zookeeper та звільняє будь-які ресурси
 
--   [« Zookeeper::addAuth](zookeeper.addauth.html)
+-   [« Zookeeper::addAuth](zookeeper.addauth.md)
     
--   [Zookeeper::connect »](zookeeper.connect.html)
+-   [Zookeeper::connect »](zookeeper.connect.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Zookeeper](class.zookeeper.html)
+-   [Zookeeper](class.zookeeper.md)
     
 -   Закриває обробник zookeeper та звільняє будь-які ресурси
     
@@ -34,10 +34,10 @@ public
 
 ### Помилки
 
-Метод генерує [ZookeeperException](class.zookeeperexception.html) та його похідні при закритті неініціалізованого екземпляра.
+Метод генерує [ZookeeperException](class.zookeeperexception.md) та його похідні при закритті неініціалізованого екземпляра.
 
 ### Дивіться також
 
--   [Zookeeper::construct()](zookeeper.construct.html) - Створює дескриптор для спілкування з zookeeper
--   [Zookeeper::connect()](zookeeper.connect.html) - Створює дескриптор для спілкування з zookeeper
--   [ZookeeperException](class.zookeeperexception.html)
+-   [Zookeeper::construct()](zookeeper.construct.md) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::connect()](zookeeper.connect.md) - Створює дескриптор для спілкування з zookeeper
+-   [ZookeeperException](class.zookeeperexception.md)

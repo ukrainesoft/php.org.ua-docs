@@ -1,12 +1,12 @@
 Зберегти готову модель у файл
 
--   [« SVMModel::predict](svmmodel.predict.html)
+-   [« SVMModel::predict](svmmodel.predict.md)
     
--   [SVN »](book.svn.html)
+-   [SVN »](book.svn.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SVMModel](class.svmmodel.html)
+-   [SVMModel](class.svmmodel.md)
     
 -   Зберегти готову модель у файл
     
@@ -37,4 +37,4 @@ public SVMModel::save(string $filename): bool
 
 ### Дивіться також
 
--   [SVMModel::load()](svmmodel.load.html) - Завантажує збережену модель SVM
+-   [SVMModel::load()](svmmodel.load.md) - Завантажує збережену модель SVM

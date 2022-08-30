@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](enchant.resources.html)
+-   [« Типи ресурсів](enchant.resources.md)
     
--   [Примеры »](enchant.examples.html)
+-   [Приклади »](enchant.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Enchant](book.enchant.html)
+-   [Enchant](book.enchant.md)
     
 -   Обумовлені константи
     

@@ -1,12 +1,12 @@
 Клас EvChild
 
--   [« EvCheck::createStopped](evcheck.createstopped.html)
+-   [« EvCheck::createStopped](evcheck.createstopped.md)
     
--   [EvChild::construct »](evchild.construct.html)
+-   [EvChild::construct »](evchild.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Єв](book.ev.html)
+-   [Єв](book.ev.md)
     
 -   Клас EvChild
     
@@ -158,6 +158,6 @@ rstatus
 
 ## Зміст
 
--   [EvChild::construct](evchild.construct.html) - Створює об'єкт спостерігач EvChild
--   [EvChild::createStopped](evchild.createstopped.html) — Створює зупинений екземпляр спостерігача EvCheck
--   [EvChild::set](evchild.set.html) - Конфігурування спостерігача
+-   [EvChild::construct](evchild.construct.md) - Створює об'єкт спостерігач EvChild
+-   [EvChild::createStopped](evchild.createstopped.md) — Створює зупинений екземпляр спостерігача EvCheck
+-   [EvChild::set](evchild.set.md) - Конфігурування спостерігача

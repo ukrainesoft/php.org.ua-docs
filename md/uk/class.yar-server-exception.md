@@ -4,9 +4,9 @@
     
 -   [YarServerException::getType »](yar-server-exception.gettype.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yar](book.yar.html)
+-   [Yar](book.yar.md)
     
 -   Клас YarServerException
     

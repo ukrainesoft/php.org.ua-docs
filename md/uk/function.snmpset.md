@@ -1,12 +1,12 @@
 Встановлює значення об'єкта SNMP
 
--   [« snmprealwalk](function.snmprealwalk.html)
+-   [« snmprealwalk](function.snmprealwalk.md)
     
--   [snmpwalk »](function.snmpwalk.html)
+-   [snmpwalk »](function.snmpwalk.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.md)
     
 -   Встановлює значення об'єкта SNMP
     
@@ -102,4 +102,4 @@ MIB визначає тип ідентифікатора кожного об'є�
 
 ### Дивіться також
 
--   [snmpget()](function.snmpget.html) - Отримує об'єкт SNMP
+-   [snmpget()](function.snmpget.md) - Отримує об'єкт SNMP

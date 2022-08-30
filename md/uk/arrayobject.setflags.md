@@ -1,12 +1,12 @@
 Встановлює прапори поведінки
 
--   [« ArrayObject::serialize](arrayobject.serialize.html)
+-   [« ArrayObject::serialize](arrayobject.serialize.md)
     
--   [ArrayObject::setIteratorClass »](arrayobject.setiteratorclass.html)
+-   [ArrayObject::setIteratorClass »](arrayobject.setiteratorclass.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayObject](class.arrayobject.html)
+-   [ArrayObject](class.arrayobject.md)
     
 -   Встановлює прапори поведінки
     
@@ -31,14 +31,14 @@ public ArrayObject::setFlags(int $flags): void
 
 Нова поведінка ArrayObject. Допускається або бітова маска, або названі константи. Використання іменованих констант рекомендується для забезпечення сумісності з майбутніми версіями.
 
-Доступні прапори поведінки наведені нижче. Фактичні значення цих прапорів описані у розділі [предопределённые константы](class.arrayobject.html#arrayobject.constants)
+Доступні прапори поведінки наведені нижче. Фактичні значення цих прапорів описані у розділі [Обумовлені константи](class.arrayobject.html#arrayobject.constants)
 
 **Прапори поведінки ArrayObject**
 
-| Значение | Константа                                                                                |
-|----------|------------------------------------------------------------------------------------------|
-|          | [ArrayObject::STDPROPLIST](class.arrayobject.html#arrayobject.constants.std-prop-list)   |
-|          | [ArrayObject::ARRAYАСPROPS](class.arrayobject.html#arrayobject.constants.array-as-props) |
+| Значение | Константа |
+| --- | --- |
+|  | [ArrayObject::STDPROPLIST](class.arrayobject.html#arrayobject.constants.std-prop-list) |
+|  | [ArrayObject::ARRAYАСPROPS](class.arrayobject.html#arrayobject.constants.array-as-props) |
 
 ### Значення, що повертаються
 
@@ -50,14 +50,14 @@ public ArrayObject::setFlags(int $flags): void
 
 ```php
 <?php
-// Массив с доступными фруктами
+// Масив с доступными фруктами
 $fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
 
 $fruitsArrayObject = new ArrayObject($fruits);
 
-// Попытка использовать ключ массива как свойство
+// Попытка использовать ключ Масива как свойство
 var_dump($fruitsArrayObject->lemons);
-// Установка флага, позволяющего использовать ключи массива как свойства ArrayObject
+// Установка флага, позволяющего использовать ключи Масива как свойства ArrayObject
 $fruitsArrayObject->setFlags(ArrayObject::ARRAY_AS_PROPS);
 // Новая попытка
 var_dump($fruitsArrayObject->lemons);

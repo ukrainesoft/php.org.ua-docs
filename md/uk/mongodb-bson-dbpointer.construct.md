@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONDBPointer::jsonSerialize »](mongodb-bson-dbpointer.jsonserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.html)
     

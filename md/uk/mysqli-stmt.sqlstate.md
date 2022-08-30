@@ -4,7 +4,7 @@
     
 -   [mysqlistmt::storeresult »](mysqli-stmt.store-result.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlistmt](class.mysqli-stmt.html)
     

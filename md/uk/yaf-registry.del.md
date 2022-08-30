@@ -4,7 +4,7 @@
     
 -   [YafRegistry::get »](yaf-registry.get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRegistry](class.yaf-registry.html)
     

@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](libxml.resources.html)
+-   [« Типи ресурсів](libxml.resources.html)
     
 -   [libXMLError »](class.libxmlerror.html)
     

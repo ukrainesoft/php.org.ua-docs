@@ -1,12 +1,12 @@
 Скидає значення якості
 
--   [« SolrObject::offsetSet](solrobject.offsetset.html)
+-   [« SolrObject::offsetSet](solrobject.offsetset.md)
     
--   [SolrClient »](class.solrclient.html)
+-   [SolrClient »](class.solrclient.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrObject](class.solrobject.html)
+-   [SolrObject](class.solrobject.md)
     
 -   Скидає значення якості
     

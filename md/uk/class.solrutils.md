@@ -1,12 +1,12 @@
 Клас SolrUtils
 
--   [« Примеры](solr.examples.html)
+-   [« Приклади](solr.examples.md)
     
--   [SolrUtils::digestXmlResponse »](solrutils.digestxmlresponse.html)
+-   [SolrUtils::digestXmlResponse »](solrutils.digestxmlresponse.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Solr](book.solr.html)
+-   [Solr](book.solr.md)
     
 -   Клас SolrUtils
     
@@ -47,7 +47,7 @@ public static queryPhrase(string $str): string
 
 ## Зміст
 
--   [SolrUtils::digestXmlResponse](solrutils.digestxmlresponse.html) — Перетворює XML-рядок відповіді на SolrObject
--   [SolrUtils::escapeQueryChars](solrutils.escapequerychars.html) — Екранує рядок запиту Lucene
--   [SolrUtils::getSolrVersion](solrutils.getsolrversion.html) — Повертає поточну версію модуля Solr
--   [SolrUtils::queryPhrase](solrutils.queryphrase.html) — Підготовка фрази з неекранованого рядка запиту Lucene
+-   [SolrUtils::digestXmlResponse](solrutils.digestxmlresponse.md) — Перетворює XML-рядок відповіді на SolrObject
+-   [SolrUtils::escapeQueryChars](solrutils.escapequerychars.md) — Екранує рядок запиту Lucene
+-   [SolrUtils::getSolrVersion](solrutils.getsolrversion.md) — Повертає поточну версію модуля Solr
+-   [SolrUtils::queryPhrase](solrutils.queryphrase.md) — Підготовка фрази з неекранованого рядка запиту Lucene

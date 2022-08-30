@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](bzip2.configuration.html)
+-   [« Налаштування під час виконання](bzip2.configuration.md)
     
--   [Предопределённые константы »](bzip2.constants.html)
+-   [Обумовлені константи »](bzip2.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](bzip2.setup.html)
+-   [Встановлення та налаштування](bzip2.setup.md)
     
 -   Типи ресурсів
     

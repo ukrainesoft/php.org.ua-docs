@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](mysql-xdevapi.setup.html)
+-   [« Встановлення та налаштування](mysql-xdevapi.setup.html)
     
 -   [Установка »](mysql-xdevapi.installation.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mysql-xdevapi.setup.html)
+-   [Встановлення та налаштування](mysql-xdevapi.setup.html)
     
 -   Вимоги
     

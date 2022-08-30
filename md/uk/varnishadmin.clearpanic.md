@@ -1,12 +1,12 @@
 Очистити критичні повідомлення екземпляра varnish
 
--   [« VarnishAdmin::banUrl](varnishadmin.banurl.html)
+-   [« VarnishAdmin::banUrl](varnishadmin.banurl.md)
     
--   [VarnishAdmin::connect »](varnishadmin.connect.html)
+-   [VarnishAdmin::connect »](varnishadmin.connect.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [VarnishAdmin](class.varnishadmin.html)
+-   [VarnishAdmin](class.varnishadmin.md)
     
 -   Очистити критичні повідомлення екземпляра varnish
     

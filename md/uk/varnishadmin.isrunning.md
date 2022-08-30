@@ -1,12 +1,12 @@
 Перевірити, чи виконується зараз підпорядкований процес varnish
 
--   [« VarnishAdmin::getParams](varnishadmin.getparams.html)
+-   [« VarnishAdmin::getParams](varnishadmin.getparams.md)
     
--   [VarnishAdmin::setCompat »](varnishadmin.setcompat.html)
+-   [VarnishAdmin::setCompat »](varnishadmin.setcompat.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [VarnishAdmin](class.varnishadmin.html)
+-   [VarnishAdmin](class.varnishadmin.md)
     
 -   Перевірити, чи виконується зараз підпорядкований процес varnish
     

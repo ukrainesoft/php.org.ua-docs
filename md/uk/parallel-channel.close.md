@@ -4,7 +4,7 @@
     
 -   [parallelEvents »](class.parallel-events.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [parallelChannel](class.parallel-channel.html)
     

@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.yaf.html)
     
--   [Требования »](yaf.requirements.html)
+-   [Вимоги »](yaf.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](yaf.requirements.html)
+-   [Вимоги](yaf.requirements.html)
 -   [Установка](yaf.installation.html)
--   [Настройка во время выполнения](yaf.configuration.html)
--   [Типы ресурсов](yaf.resources.html)
+-   [Налаштування під час виконання](yaf.configuration.html)
+-   [Типи ресурсів](yaf.resources.html)

@@ -1,12 +1,12 @@
 Прозоре підписування тексту
 
--   [« Примеры](gnupg.examples.html)
+-   [« Приклади](gnupg.examples.html)
     
 -   [GnuPG Функції »](ref.gnupg.html)
     
 -   [PHP Manual](index.html)
     
--   [Примеры](gnupg.examples.html)
+-   [Приклади](gnupg.examples.html)
     
 -   Прозоре підписування тексту
     

@@ -1,12 +1,12 @@
 Зберігає у кеш
 
--   [« Yac::info](yac.info.html)
+-   [« Yac::info](yac.info.md)
     
--   [Yac::set »](yac.setter.html)
+-   [Yac::set »](yac.setter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yac](class.yac.html)
+-   [Yac](class.yac.md)
     
 -   Зберігає у кеш
     
@@ -37,7 +37,7 @@ public Yac::add(array $key_vals): bool
 
 `value`
 
-Змішане значення. Можуть бути збережені всі типи значень php, крім [resource](language.types.resource.html)
+Змішане значення. Можуть бути збережені всі типи значень php, крім [resource](language.types.resource.md)
 
 `ttl`
 

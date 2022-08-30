@@ -4,9 +4,9 @@
     
 -   [xdiffstringrabdiff »](function.xdiff-string-rabdiff.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.md)
     
 -   Застосувати звичайний патч до рядка
     

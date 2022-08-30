@@ -1,12 +1,12 @@
 Деструктор
 
--   [« SolrDocument::deleteField](solrdocument.deletefield.html)
+-   [« SolrDocument::deleteField](solrdocument.deletefield.md)
     
--   [SolrDocument::fieldExists »](solrdocument.fieldexists.html)
+-   [SolrDocument::fieldExists »](solrdocument.fieldexists.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocument](class.solrdocument.html)
+-   [SolrDocument](class.solrdocument.md)
     
 -   Деструктор
     

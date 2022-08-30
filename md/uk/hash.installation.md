@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](hash.requirements.html)
+-   [« Вимоги](hash.requirements.md)
     
--   [Настройка во время выполнения »](hash.configuration.html)
+-   [Налаштування під час виконання »](hash.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](hash.setup.html)
+-   [Встановлення та налаштування](hash.setup.md)
     
 -   Встановлення
     

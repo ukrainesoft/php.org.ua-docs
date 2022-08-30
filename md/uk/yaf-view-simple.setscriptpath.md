@@ -4,7 +4,7 @@
     
 -   [YafLoader »](class.yaf-loader.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafViewSimple](class.yaf-view-simple.html)
     

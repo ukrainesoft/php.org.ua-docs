@@ -1,12 +1,12 @@
 Обрізка вздовж найближчого контуру з профілем 8BIM
 
--   [« Imagick::clear](imagick.clear.html)
+-   [« Imagick::clear](imagick.clear.md)
     
--   [Imagick::clipImagePath »](imagick.clipimagepath.html)
+-   [Imagick::clipImagePath »](imagick.clipimagepath.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Обрізка вздовж найближчого контуру з профілем 8BIM
     

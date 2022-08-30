@@ -4,9 +4,9 @@
     
 -   [opensslpkeyexportтоfile »](function.openssl-pkey-export-to-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Обчислює загальний секрет для відкритого значення віддаленого та локального ключа DH або ECDH
     
@@ -29,11 +29,11 @@ openssl_pkey_derive(OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $public
 
 `public_key`
 
-Відкритий ключ для виведення. Список допустимих значень дивіться у розділі [Параметры ключа/сертификата](openssl.certparams.html)
+Відкритий ключ для виведення. Список допустимих значень дивіться у розділі [Параметри ключа/сертифіката](openssl.certparams.md)
 
 `private_key`
 
-Закритий ключ для виведення. Список допустимих значень дивіться у розділі [Параметры ключа/сертификата](openssl.certparams.html)
+Закритий ключ для виведення. Список допустимих значень дивіться у розділі [Параметри ключа/сертифіката](openssl.certparams.md)
 
 `key_length`
 

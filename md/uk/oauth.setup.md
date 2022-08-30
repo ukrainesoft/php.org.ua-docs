@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.oauth.html)
     
--   [Требования »](oauth.requirements.html)
+-   [Вимоги »](oauth.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](oauth.requirements.html)
+-   [Вимоги](oauth.requirements.html)
 -   [Установка](oauth.installation.html)
--   [Настройка во время выполнения](oauth.configuration.html)
--   [Типы ресурсов](oauth.resources.html)
+-   [Налаштування під час виконання](oauth.configuration.html)
+-   [Типи ресурсів](oauth.resources.html)

@@ -4,7 +4,7 @@
     
 -   [ComponereDefinition::isRegistered »](componere-definition.isregistered.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponereDefinition](class.componere-definition.html)
     
@@ -29,4 +29,4 @@ public Componere\Definition::register(): void
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), якщо Definition вже було зареєстровано
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо Definition вже було зареєстровано

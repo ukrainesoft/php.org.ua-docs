@@ -1,12 +1,12 @@
 Простий приклад використання curl
 
--   [« Примеры](curl.examples.html)
+-   [« Приклади](curl.examples.md)
     
--   [Функции cURL »](ref.curl.html)
+-   [Функции cURL »](ref.curl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](curl.examples.html)
+-   [Приклади](curl.examples.md)
     
 -   Простий приклад використання curl
     

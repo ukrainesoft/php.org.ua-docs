@@ -1,12 +1,12 @@
 Блокувати процес задану кількість секунд
 
--   [« Ev::run](ev.run.html)
+-   [« Ev::run](ev.run.md)
     
--   [Ev::stop »](ev.stop.html)
+-   [Ev::stop »](ev.stop.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Єв](class.ev.html)
+-   [Єв](class.ev.md)
     
 -   Блокувати процес задану кількість секунд
     

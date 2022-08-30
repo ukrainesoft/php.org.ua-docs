@@ -4,9 +4,9 @@
     
 -   [traderadxr »](function.trader-adxr.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Середній індекс спрямованого руху
     

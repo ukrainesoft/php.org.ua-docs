@@ -1,12 +1,12 @@
 Отримання класу, що оголошує
 
--   [« ReflectionProperty::getAttributes](reflectionproperty.getattributes.html)
+-   [« ReflectionProperty::getAttributes](reflectionproperty.getattributes.md)
     
--   [ReflectionProperty::getDefaultValue »](reflectionproperty.getdefaultvalue.html)
+-   [ReflectionProperty::getDefaultValue »](reflectionproperty.getdefaultvalue.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionProperty](class.reflectionproperty.html)
+-   [ReflectionProperty](class.reflectionproperty.md)
     
 -   Отримання класу, що оголошує
     
@@ -31,8 +31,8 @@ public ReflectionProperty::getDeclaringClass(): ReflectionClass
 
 ### Значення, що повертаються
 
-Об'єкт класу [ReflectionClass](class.reflectionclass.html)
+Об'єкт класу [ReflectionClass](class.reflectionclass.md)
 
 ### Дивіться також
 
--   [ReflectionProperty::getName()](reflectionproperty.getname.html) - Отримання імені властивості
+-   [ReflectionProperty::getName()](reflectionproperty.getname.md) - Отримання імені властивості

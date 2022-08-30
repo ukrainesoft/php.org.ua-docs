@@ -1,12 +1,12 @@
 Встановлює текст, що з'являється перед виділеним виразом
 
--   [« SolrQuery::setHighlightSimplePost](solrquery.sethighlightsimplepost.html)
+-   [« SolrQuery::setHighlightSimplePost](solrquery.sethighlightsimplepost.md)
     
--   [SolrQuery::setHighlightSnippets »](solrquery.sethighlightsnippets.html)
+-   [SolrQuery::setHighlightSnippets »](solrquery.sethighlightsnippets.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Встановлює текст, що з'являється перед виділеним виразом
     

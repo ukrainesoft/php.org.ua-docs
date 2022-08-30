@@ -2,26 +2,26 @@ Yet Another Framework
 
 -   [« yamlparse](function.yaml-parse.html)
     
--   [Введение »](intro.yaf.html)
+-   [Введение »](intro.yaf.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Інші базові модулі](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.md)
     
 -   Yet Another Framework
     
 
 # Yet Another Framework
 
--   [Введение](intro.yaf.html)
--   [Установка и настройка](yaf.setup.html)
-    -   [Требования](yaf.requirements.html)
-    -   [Установка](yaf.installation.html)
-    -   [Настройка во время выполнения](yaf.configuration.html)
-    -   [Типы ресурсов](yaf.resources.html)
--   [Предопределённые константы](yaf.constants.html)
--   [Примеры](yaf.tutorials.html)
--   [Конфигурация приложения](yaf.appconfig.html)
+-   [Введение](intro.yaf.md)
+-   [Встановлення та налаштування](yaf.setup.md)
+    -   [Вимоги](yaf.requirements.md)
+    -   [Установка](yaf.installation.md)
+    -   [Налаштування під час виконання](yaf.configuration.md)
+    -   [Типи ресурсів](yaf.resources.md)
+-   [Обумовлені константи](yaf.constants.md)
+-   [Приклади](yaf.tutorials.md)
+-   [Конфигурация приложения](yaf.appconfig.md)
 -   [YafApplication](class.yaf-application.html) - Клас YafApplication
     -   [YafApplication::app](yaf-application.app.html) — Вийняти екземпляр програми
     -   [YafApplication::bootstrap](yaf-application.bootstrap.html) - Викликати bootstrap

@@ -4,9 +4,9 @@
     
 -   [statscdff »](function.stats-cdf-f.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Обчислює один із параметрів експоненційного розподілу за рештою
     
@@ -30,10 +30,10 @@ stats_cdf_exponential(float $par1, float $par2, int $which): float
 **Значення, що повертається і параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` |
-|---------|-----------------------|--------|--------|
-|         | CDF                   | з      | lambda |
-|         | з                     | CDF    | lambda |
-|         | lambda                | з      | CDF    |
+| --- | --- | --- | --- |
+|  | CDF | з | lambda |
+|  | з | CDF | lambda |
+|  | lambda | з | CDF |
 
 ### Список параметрів
 

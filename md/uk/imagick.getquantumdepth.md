@@ -1,12 +1,12 @@
 Повертає величину глибини
 
--   [« Imagick::getQuantum](imagick.getquantum.html)
+-   [« Imagick::getQuantum](imagick.getquantum.md)
     
--   [Imagick::getQuantumRange »](imagick.getquantumrange.html)
+-   [Imagick::getQuantumRange »](imagick.getquantumrange.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає величину глибини
     

@@ -1,12 +1,12 @@
 Встановлює колір тла зображення
 
--   [« Gmagick::setfilename](gmagick.setfilename.html)
+-   [« Gmagick::setfilename](gmagick.setfilename.md)
     
--   [Gmagick::setimageblueprimary »](gmagick.setimageblueprimary.html)
+-   [Gmagick::setimageblueprimary »](gmagick.setimageblueprimary.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Встановлює колір тла зображення
     
@@ -33,7 +33,7 @@ public Gmagick::setimagebackgroundcolor(GmagickPixel $color): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

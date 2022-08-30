@@ -1,12 +1,12 @@
 Створити об'єкт події таймера
 
--   [« Event::signal](event.signal.html)
+-   [« Event::signal](event.signal.md)
     
--   [EventBase »](class.eventbase.html)
+-   [EventBase »](class.eventbase.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](class.event.html)
+-   [Event](class.event.md)
     
 -   Створити об'єкт події таймера
     
@@ -34,7 +34,7 @@ public
     = ?): Event
 ```
 
-Створює об'єкт таймера. Це полегшений метод створення події сигналу. Зверніть увагу, що штатний конструктор [Event::construct()](event.construct.html) може також створювати події таймера.
+Створює об'єкт таймера. Це полегшений метод створення події сигналу. Зверніть увагу, що штатний конструктор [Event::construct()](event.construct.md) може також створювати події таймера.
 
 ### Список параметрів
 
@@ -44,7 +44,7 @@ public
 
 `cb`
 
-Функція зворотного дзвінка події таймера. Дивіться [Функції зворотного дзвінка для подій](event.callbacks.html)
+Функція зворотного дзвінка події таймера. Дивіться [Функції зворотного дзвінка для подій](event.callbacks.md)
 
 `arg`
 

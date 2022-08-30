@@ -1,12 +1,12 @@
 Повертає зміщення у штриховому патерні для початку штрихування
 
--   [« ImagickDraw::getStrokeDashArray](imagickdraw.getstrokedasharray.html)
+-   [« ImagickDraw::getStrokeDashArray](imagickdraw.getstrokedasharray.md)
     
--   [ImagickDraw::getStrokeLineCap »](imagickdraw.getstrokelinecap.html)
+-   [ImagickDraw::getStrokeLineCap »](imagickdraw.getstrokelinecap.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Повертає зміщення у штриховому патерні для початку штрихування
     

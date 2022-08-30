@@ -1,12 +1,12 @@
 Вступ
 
--   [« Eio](book.eio.html)
+-   [« Eio](book.eio.md)
     
--   [Установка и настройка »](eio.setup.html)
+-   [Встановлення та налаштування »](eio.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio](book.eio.html)
+-   [Eio](book.eio.md)
     
 -   Вступ
     

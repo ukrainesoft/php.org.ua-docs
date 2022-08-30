@@ -4,9 +4,9 @@
     
 -   [gmpscan0 »](function.gmp-scan0.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GMP Функції](ref.gmp.html)
+-   [GMP Функції](ref.gmp.md)
     
 -   Витягти корінь ступеня N і повернути його цілу частину і залишок
     
@@ -29,7 +29,7 @@ gmp_rootrem(GMP|int|string $num, int $nth): array
 
 `num`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `nth`
 

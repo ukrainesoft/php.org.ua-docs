@@ -1,12 +1,12 @@
 Обрізає файл до заданої довжини
 
--   [« SplFileObject::ftell](splfileobject.ftell.html)
+-   [« SplFileObject::ftell](splfileobject.ftell.md)
     
--   [SplFileObject::fwrite »](splfileobject.fwrite.html)
+-   [SplFileObject::fwrite »](splfileobject.fwrite.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileObject](class.splfileobject.html)
+-   [SplFileObject](class.splfileobject.md)
     
 -   Обрізає файл до заданої довжини
     
@@ -68,4 +68,4 @@ Hello
 
 ### Дивіться також
 
--   [ftruncate()](function.ftruncate.html) - Урізує файл до вказаної довжини
+-   [ftruncate()](function.ftruncate.md) - Урізує файл до вказаної довжини

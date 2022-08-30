@@ -4,9 +4,9 @@
     
 -   [graphemestrlen »](function.grapheme-strlen.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Grapheme](ref.intl.grapheme.html)
+-   [Функции Grapheme](ref.intl.grapheme.md)
     
 -   Повертає частину рядка haystack від першої появи needle без урахування регістру до кінця haystack
     
@@ -74,4 +74,4 @@ o%CC%88a%CC%8A
 -   [graphemestrripos()](function.grapheme-strripos.html) - Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
 -   [graphemestrrpos()](function.grapheme-strrpos.html) - знаходить позицію (в одиницях графеми) останнього входження рядка
 -   [graphemestrstr()](function.grapheme-strstr.html) - Повертає частину рядка haystack від першої появи needle до кінця haystack
--   [»  Сегментация текста в Unicode: границы кластера графемы](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
+-   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

@@ -1,12 +1,12 @@
 Перевіряє, чи виконується завдання на даний момент
 
--   [« GearmanTask::isKnown](gearmantask.isknown.html)
+-   [« GearmanTask::isKnown](gearmantask.isknown.md)
     
--   [GearmanTask::jobHandle »](gearmantask.jobhandle.html)
+-   [GearmanTask::jobHandle »](gearmantask.jobhandle.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanTask](class.gearmantask.html)
+-   [GearmanTask](class.gearmantask.md)
     
 -   Перевіряє, чи виконується завдання на даний момент
     

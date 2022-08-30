@@ -4,9 +4,9 @@
     
 -   [sysgetloadavg »](function.sys-getloadavg.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Різні функції](ref.misc.html)
+-   [Різні функції](ref.misc.md)
     
 -   Затримка виконання
     
@@ -27,7 +27,7 @@ sleep(int $seconds): int
 
 > **Зауваження**
 > 
-> Щоб відкласти виконання програми на частки секунди, скористайтеся функцією [usleep()](function.usleep.html), оскільки функція **sleep()** очікує ціле число (int). Наприклад, `sleep(0.25)` призупинить виконання програми на `0` секунд.
+> Щоб відкласти виконання програми на частки секунди, скористайтеся функцією [usleep()](function.usleep.md), оскільки функція **sleep()** очікує ціле число (int). Наприклад, `sleep(0.25)` призупинить виконання програми на `0` секунд.
 
 ### Список параметрів
 
@@ -73,7 +73,7 @@ echo date('h:i:s') . "\n";
 
 ### Дивіться також
 
--   [usleep()](function.usleep.html) - Затримка виконання у мікросекундах
+-   [usleep()](function.usleep.md) - Затримка виконання у мікросекундах
 -   [timenanosleep()](function.time-nanosleep.html) - Затримка на задане число секунд та наносекунд
 -   [timesleepuntil()](function.time-sleep-until.html) - Відкладає виконання скрипту до заданого часу
 -   [settimelimit()](function.set-time-limit.html) - Обмеження часу виконання скрипту

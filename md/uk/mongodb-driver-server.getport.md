@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverServer::getServerDescription »](mongodb-driver-server.getserverdescription.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverServer](class.mongodb-driver-server.html)
     

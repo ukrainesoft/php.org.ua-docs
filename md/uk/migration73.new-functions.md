@@ -2,7 +2,7 @@
 
 -   [" Нові можливості](migration73.new-features.html)
     
--   [Новые глобальные константы »](migration73.constants.html)
+-   [Нові глобальні константи »](migration73.constants.html)
     
 -   [PHP Manual](index.html)
     

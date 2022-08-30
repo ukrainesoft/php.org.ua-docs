@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](enchant.setup.html)
+-   [« Встановлення та налаштування](enchant.setup.md)
     
--   [Установка »](enchant.installation.html)
+-   [Установка »](enchant.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](enchant.setup.html)
+-   [Встановлення та налаштування](enchant.setup.md)
     
 -   Вимоги
     

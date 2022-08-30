@@ -1,12 +1,12 @@
 Буферизовані та небуферизовані запити
 
--   [« Основные понятия](mysqlinfo.concepts.html)
+-   [" Основні поняття](mysqlinfo.concepts.html)
     
 -   [Кодування символів »](mysqlinfo.concepts.charset.html)
     
 -   [PHP Manual](index.html)
     
--   [Основные понятия](mysqlinfo.concepts.html)
+-   [Основні поняття](mysqlinfo.concepts.html)
     
 -   Буферизовані та небуферизовані запити
     

@@ -1,12 +1,12 @@
 Інтерфейс Serializable
 
--   [« ArrayAccess::offsetUnset](arrayaccess.offsetunset.html)
+-   [« ArrayAccess::offsetUnset](arrayaccess.offsetunset.md)
     
--   [Serializable::serialize »](serializable.serialize.html)
+-   [Serializable::serialize »](serializable.serialize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи](reserved.interfaces.md)
     
 -   Інтерфейс Serializable
     
@@ -84,5 +84,5 @@ string(36) "Мои закрытые данные"
 
 ## Зміст
 
--   [Serializable::serialize](serializable.serialize.html) — Представляє об'єкт у вигляді рядка
--   [Serializable::unserialize](serializable.unserialize.html) - Створює об'єкт
+-   [Serializable::serialize](serializable.serialize.md) — Представляє об'єкт у вигляді рядка
+-   [Serializable::unserialize](serializable.unserialize.md) - Створює об'єкт

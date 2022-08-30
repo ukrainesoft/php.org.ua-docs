@@ -1,12 +1,12 @@
 Змішування кольору заливки із зображенням
 
--   [« Imagick::colorFloodfillImage](imagick.colorfloodfillimage.html)
+-   [« Imagick::colorFloodfillImage](imagick.colorfloodfillimage.md)
     
--   [Imagick::colorMatrixImage »](imagick.colormatriximage.html)
+-   [Imagick::colorMatrixImage »](imagick.colormatriximage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Змішування кольору заливки із зображенням
     
@@ -45,8 +45,8 @@ public Imagick::colorizeImage(mixed $colorize, mixed $opacity, bool $legacy = fa
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                                                |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL imagick 2.1.0 | Для першого параметра можна передавати колір у вигляді рядка та вказувати значення прозорості у другому параметрі. Попередні версії допускали лише об'єкт ImagickPixel. |
 
 ### Приклади

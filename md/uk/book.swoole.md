@@ -2,24 +2,24 @@ Swoole
 
 -   [« streamwrapperunregister](function.stream-wrapper-unregister.html)
     
--   [Введение »](intro.swoole.html)
+-   [Введение »](intro.swoole.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Інші базові модулі](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.md)
     
 -   Swoole
     
 
 # Swoole
 
--   [Введение](intro.swoole.html)
--   [Установка и настройка](swoole.setup.html)
-    -   [Требования](swoole.requirements.html)
-    -   [Установка](swoole.installation.html)
-    -   [Настройка во время выполнения](swoole.configuration.html)
-    -   [Типы ресурсов](swoole.resources.html)
--   [Предопределённые константы](swoole.constants.html)
+-   [Введение](intro.swoole.md)
+-   [Встановлення та налаштування](swoole.setup.md)
+    -   [Вимоги](swoole.requirements.md)
+    -   [Установка](swoole.installation.md)
+    -   [Налаштування під час виконання](swoole.configuration.md)
+    -   [Типи ресурсів](swoole.resources.md)
+-   [Обумовлені константи](swoole.constants.md)
 -   [Функции Swoole](ref.swoole-funcs.html)
     -   [swooleasyncdnslookup](function.swoole-async-dns-lookup.html) — Асинхронний та неблокуючий пошук імені хоста або IP-адреси
     -   [swooleasyncread](function.swoole-async-read.html) - Асинхронне читання потоку файлу

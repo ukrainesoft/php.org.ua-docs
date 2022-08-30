@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverWriteConcern::getW »](mongodb-driver-writeconcern.getw.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
     

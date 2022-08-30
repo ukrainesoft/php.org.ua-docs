@@ -1,12 +1,12 @@
 Починає новий внутрішній контур
 
--   [« ImagickDraw::pathLineToVerticalRelative](imagickdraw.pathlinetoverticalrelative.html)
+-   [« ImagickDraw::pathLineToVerticalRelative](imagickdraw.pathlinetoverticalrelative.md)
     
--   [ImagickDraw::pathMoveToRelative »](imagickdraw.pathmovetorelative.html)
+-   [ImagickDraw::pathMoveToRelative »](imagickdraw.pathmovetorelative.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Починає новий внутрішній контур
     

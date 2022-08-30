@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](intl.configuration.html)
+-   [« Налаштування під час виконання](intl.configuration.html)
     
--   [Предопределённые константы »](intl.constants.html)
+-   [Обумовлені константи »](intl.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](intl.setup.html)
+-   [Встановлення та налаштування](intl.setup.html)
     
 -   Типи ресурсів
     

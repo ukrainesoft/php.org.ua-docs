@@ -4,7 +4,7 @@
     
 -   [ОЙControlsGroup::construct »](ui-controls-group.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsGroup](class.ui-controls-group.html)
     

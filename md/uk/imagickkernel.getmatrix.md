@@ -1,12 +1,12 @@
 Опис
 
--   [« ImagickKernel::fromMatrix](imagickkernel.frommatrix.html)
+-   [« ImagickKernel::fromMatrix](imagickkernel.frommatrix.md)
     
--   [ImagickKernel::scale »](imagickkernel.scale.html)
+-   [ImagickKernel::scale »](imagickkernel.scale.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickKernel](class.imagickkernel.html)
+-   [ImagickKernel](class.imagickkernel.md)
     
 -   Опис
     

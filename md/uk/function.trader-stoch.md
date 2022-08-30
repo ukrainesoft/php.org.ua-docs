@@ -4,9 +4,9 @@
     
 -   [traderstochf »](function.trader-stochf.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Стохастичний осцилятор
     
@@ -47,7 +47,7 @@ trader_stoch(    array $high,    array $low,    array $close,   �
 
 `slowK_MAType`
 
-Тип ковзної середньої для Slow-K. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.html)
+Тип ковзної середньої для Slow-K. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
 
 `slowD_Period`
 
@@ -55,7 +55,7 @@ trader_stoch(    array $high,    array $low,    array $close,   �
 
 `slowD_MAType`
 
-Тип ковзної середньої для Slow-D. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.html)
+Тип ковзної середньої для Slow-D. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
 
 ### Значення, що повертаються
 

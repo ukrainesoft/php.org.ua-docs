@@ -4,7 +4,7 @@
     
 -   [SwooleCoroutine::calluserfunc »](swoole-coroutine.call-user-func.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleCoroutine](class.swoole-coroutine.html)
     
@@ -29,7 +29,7 @@ public static Swoole\Coroutine::call_user_func_array(callable $callback, array $
 
 `callback`
 
-Функція [callable](language.types.callable.html) для дзвінка.
+Функція [callable](language.types.callable.md) для дзвінка.
 
 `param_array`
 

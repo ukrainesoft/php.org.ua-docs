@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverMonitoringCommandSucceededEvent::getRequestId »](mongodb-driver-monitoring-commandsucceededevent.getrequestid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
     
@@ -23,7 +23,7 @@ MongoDBDriverMonitoringCommandSucceededEvent::getReply — Повертає до
 final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getReply(): object
 ```
 
-Документ відповіді буде перетворено з BSON на PHP з використанням правил [десериализации](mongodb.persistence.deserialization.html) (наприклад, документи BSON будуть перетворені на stdClass).
+Документ відповіді буде перетворено з BSON на PHP з використанням правил [десериализации](mongodb.persistence.deserialization.md) (наприклад, документи BSON будуть перетворені на stdClass).
 
 ### Список параметрів
 
@@ -39,5 +39,5 @@ final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getReply(): object
 
 ### Дивіться також
 
--   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)
--   [Постійні дані](mongodb.persistence.html)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)
+-   [Постійні дані](mongodb.persistence.md)

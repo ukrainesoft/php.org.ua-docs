@@ -1,12 +1,12 @@
 Повертає первинну зелену точку
 
--   [« Gmagick::getimagegamma](gmagick.getimagegamma.html)
+-   [« Gmagick::getimagegamma](gmagick.getimagegamma.md)
     
--   [Gmagick::getimageheight »](gmagick.getimageheight.html)
+-   [Gmagick::getimageheight »](gmagick.getimageheight.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повертає первинну зелену точку
     

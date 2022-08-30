@@ -1,12 +1,12 @@
 Встановлює затримку зображення
 
--   [« Gmagick::setimagecompose](gmagick.setimagecompose.html)
+-   [« Gmagick::setimagecompose](gmagick.setimagecompose.md)
     
--   [Gmagick::setimagedepth »](gmagick.setimagedepth.html)
+-   [Gmagick::setimagedepth »](gmagick.setimagedepth.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Встановлює затримку зображення
     
@@ -33,7 +33,7 @@ public Gmagick::setimagedelay(int $delay): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

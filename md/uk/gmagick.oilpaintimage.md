@@ -1,12 +1,12 @@
 Імітує ефект картини олією
 
--   [« Gmagick::normalizeimage](gmagick.normalizeimage.html)
+-   [« Gmagick::normalizeimage](gmagick.normalizeimage.md)
     
--   [Gmagick::previousimage »](gmagick.previousimage.html)
+-   [Gmagick::previousimage »](gmagick.previousimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Імітує ефект картини олією
     
@@ -36,7 +36,7 @@ public Gmagick::oilpaintimage(
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

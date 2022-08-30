@@ -1,12 +1,12 @@
 Перевірити, що в даному часовому поясі використовується літній час
 
--   [« IntlTimeZone::toDateTimeZone](intltimezone.todatetimezone.html)
+-   [« IntlTimeZone::toDateTimeZone](intltimezone.todatetimezone.md)
     
--   [IntlDateFormatter »](class.intldateformatter.html)
+-   [IntlDateFormatter »](class.intldateformatter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlTimeZone](class.intltimezone.html)
+-   [IntlTimeZone](class.intltimezone.md)
     
 -   Перевірити, що в даному часовому поясі використовується літній час
     

@@ -1,12 +1,12 @@
 Переміщує ітератор до наступного елемента
 
--   [« IteratorIterator::key](iteratoriterator.key.html)
+-   [« IteratorIterator::key](iteratoriterator.key.md)
     
--   [IteratorIterator::rewind »](iteratoriterator.rewind.html)
+-   [IteratorIterator::rewind »](iteratoriterator.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IteratorIterator](class.iteratoriterator.html)
+-   [IteratorIterator](class.iteratoriterator.md)
     
 -   Переміщує ітератор до наступного елемента
     
@@ -35,5 +35,5 @@ public IteratorIterator::next(): void
 
 ### Дивіться також
 
--   [IteratorIterator::rewind()](iteratoriterator.rewind.html) - Повертає ітератор до першого елементу
--   [IteratorIterator::valid()](iteratoriterator.valid.html) - Перевіряє, чи є ітератор допустимим
+-   [IteratorIterator::rewind()](iteratoriterator.rewind.md) - Повертає ітератор до першого елементу
+-   [IteratorIterator::valid()](iteratoriterator.valid.md) - Перевіряє, чи є ітератор допустимим

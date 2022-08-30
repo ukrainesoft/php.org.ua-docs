@@ -1,12 +1,12 @@
 Функції Pspell
 
--   [« Предопределённые константы](pspell.constants.html)
+-   [« Обумовлені константи](pspell.constants.md)
     
 -   [pspelladdтоpersonal »](function.pspell-add-to-personal.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Pspell](book.pspell.html)
+-   [Pspell](book.pspell.md)
     
 -   Функції Pspell
     

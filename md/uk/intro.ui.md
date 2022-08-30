@@ -1,12 +1,12 @@
 Вступ
 
--   [« UI](book.ui.html)
+-   [« UI](book.ui.md)
     
--   [Установка и настройка »](ui.setup.html)
+-   [Встановлення та налаштування »](ui.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ОЙ](book.ui.html)
+-   [ОЙ](book.ui.md)
     
 -   Вступ
     

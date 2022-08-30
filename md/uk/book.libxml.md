@@ -14,12 +14,12 @@ libxml
 # libxml
 
 -   [Введение](intro.libxml.html)
--   [Установка и настройка](libxml.setup.html)
-    -   [Требования](libxml.requirements.html)
+-   [Встановлення та налаштування](libxml.setup.html)
+    -   [Вимоги](libxml.requirements.html)
     -   [Установка](libxml.installation.html)
-    -   [Настройка во время выполнения](libxml.configuration.html)
-    -   [Типы ресурсов](libxml.resources.html)
--   [Предопределённые константы](libxml.constants.html)
+    -   [Налаштування під час виконання](libxml.configuration.html)
+    -   [Типи ресурсів](libxml.resources.html)
+-   [Обумовлені константи](libxml.constants.html)
 -   [libXMLError](class.libxmlerror.html) - Клас libXMLError
 -   [Функції libxml](ref.libxml.html)
     -   [libxmlclearerrors](function.libxml-clear-errors.html) — Очищення буфера помилок libxml

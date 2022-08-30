@@ -1,12 +1,12 @@
 Створює копію об'єкта SolrDocument
 
--   [« SolrDocument::clear](solrdocument.clear.html)
+-   [« SolrDocument::clear](solrdocument.clear.md)
     
--   [SolrDocument::construct »](solrdocument.construct.html)
+-   [SolrDocument::construct »](solrdocument.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocument](class.solrdocument.html)
+-   [SolrDocument](class.solrdocument.md)
     
 -   Створює копію об'єкта SolrDocument
     

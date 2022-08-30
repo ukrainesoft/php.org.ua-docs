@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](varnish.requirements.html)
+-   [« Вимоги](varnish.requirements.html)
     
--   [Настройка во время выполнения »](varnish.configuration.html)
+-   [Налаштування під час виконання »](varnish.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](varnish.setup.html)
+-   [Встановлення та налаштування](varnish.setup.html)
     
 -   Встановлення
     

@@ -1,12 +1,12 @@
 Від'єднати спостерігача
 
--   [« SplSubject::attach](splsubject.attach.html)
+-   [« SplSubject::attach](splsubject.attach.md)
     
--   [SplSubject::notify »](splsubject.notify.html)
+-   [SplSubject::notify »](splsubject.notify.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplSubject](class.splsubject.html)
+-   [SplSubject](class.splsubject.md)
     
 -   Від'єднати спостерігача
     
@@ -33,7 +33,7 @@ public SplSubject::detach(SplObserver $observer): void
 
 `observer`
 
-Об'єкт класу [SplObserver](class.splobserver.html) для від'єднання.
+Об'єкт класу [SplObserver](class.splobserver.md) для від'єднання.
 
 ### Значення, що повертаються
 

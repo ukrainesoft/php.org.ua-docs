@@ -4,9 +4,9 @@
     
 -   [ДсSet::add »](ds-set.add.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Структури даних](book.ds.html)
+-   [Структури даних](book.ds.md)
     
 -   Клас Set
     
@@ -91,9 +91,9 @@ public xor(Ds\Set $set): Ds\Set
 
 ## список змін
 
-| Версия        | Описание                                                  |
-|---------------|-----------------------------------------------------------|
-| PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.html) |
+| Версия | Описание |
+| --- | --- |
+| PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.md) |
 
 ## Зміст
 

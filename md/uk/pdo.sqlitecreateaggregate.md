@@ -2,9 +2,9 @@
 
 -   [« PDOSQLITE DSN](ref.pdo-sqlite.connection.html)
     
--   [PDO::sqliteCreateCollation »](pdo.sqlitecreatecollation.html)
+-   [PDO::sqliteCreateCollation »](pdo.sqlitecreatecollation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SQLite (PDO)](ref.pdo-sqlite.html)
     
@@ -27,9 +27,9 @@ public PDO::sqliteCreateAggregate(    string $function_name,    callable
 
 Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.
 
-Цей метод аналогічний [PDO::sqliteCreateFunction](pdo.sqlitecreatefunction.html), крім того, що він реєструє функцію, яку можна використовувати для обчислення агрегованого результату по всіх рядках у запиті.
+Цей метод аналогічний [PDO::sqliteCreateFunction](pdo.sqlitecreatefunction.md), крім того, що він реєструє функцію, яку можна використовувати для обчислення агрегованого результату по всіх рядках у запиті.
 
-Ключова відмінність цього методу від [PDO::sqliteCreateFunction](pdo.sqlitecreatefunction.html) у тому, що для керування агрегуванням вимагає використання двох функцій.
+Ключова відмінність цього методу від [PDO::sqliteCreateFunction](pdo.sqlitecreatefunction.md) у тому, що для керування агрегуванням вимагає використання двох функцій.
 
 ### Список параметрів
 
@@ -67,7 +67,7 @@ step(    mixed $context,    int $rownumber,    mixed $value,    
 
 `finalize_func`
 
-Функція зворотного дзвінка для обчислення підсумкового значення агрегованого. Вона буде викликана як тільки всі рядки результуючого набору будуть оброблені, їй буде переданий контекст, що агрегує, і вона поверне фінальне значення. Ця функція має повернути значення типу зрозумілого SQLite (тобто . [скалярный тип](language.types.intro.html)
+Функція зворотного дзвінка для обчислення підсумкового значення агрегованого. Вона буде викликана як тільки всі рядки результуючого набору будуть оброблені, їй буде переданий контекст, що агрегує, і вона поверне фінальне значення. Ця функція має повернути значення типу зрозумілого SQLite (тобто . [скалярний тип](language.types.intro.md)
 
 Ця функція має бути визначена так:
 
@@ -149,10 +149,10 @@ var_dump($db->query('SELECT max_len(a) from strings')->fetchAll());
 
 **Підказка**
 
-Ви можете використовувати [PDO::sqliteCreateFunction](pdo.sqlitecreatefunction.html) і [PDO::sqliteCreateAggregate](pdo.sqlitecreateaggregate.html) для перевизначення стандартних функцій SQLite, що агрегують.
+Ви можете використовувати [PDO::sqliteCreateFunction](pdo.sqlitecreatefunction.md) і [PDO::sqliteCreateAggregate](pdo.sqlitecreateaggregate.md) для перевизначення стандартних функцій SQLite, що агрегують.
 
 ### Дивіться також
 
--   [PDO::sqliteCreateFunction](pdo.sqlitecreatefunction.html)
+-   [PDO::sqliteCreateFunction](pdo.sqlitecreatefunction.md)
 -   **sqlitecreatefunction()**
 -   **sqlitecreateaggregate()**

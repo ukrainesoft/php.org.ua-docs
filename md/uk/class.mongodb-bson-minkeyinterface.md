@@ -4,9 +4,9 @@
     
 -   [MongoDBBSONObjectIdInterface »](class.mongodb-bson-objectidinterface.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBBSON](book.bson.html)
+-   [MongoDBBSON](book.bson.md)
     
 -   Інтерфейс MongoDBBSONMinKeyInterface
     

@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.soap.html)
     
--   [Требования »](soap.requirements.html)
+-   [Вимоги »](soap.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](soap.requirements.html)
+-   [Вимоги](soap.requirements.html)
 -   [Установка](soap.installation.html)
--   [Настройка во время выполнения](soap.configuration.html)
--   [Типы ресурсов](soap.resources.html)
+-   [Налаштування під час виконання](soap.configuration.html)
+-   [Типи ресурсів](soap.resources.html)

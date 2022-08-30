@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.mqseries.html)
     
--   [Требования »](mqseries.requirements.html)
+-   [Вимоги »](mqseries.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](mqseries.requirements.html)
+-   [Вимоги](mqseries.requirements.html)
 -   [Установка](mqseries.configure.html)
--   [Настройка во время выполнения](mqseries.ini.html)
--   [Типы ресурсов](mqseries.resources.html)
+-   [Налаштування під час виконання](mqseries.ini.html)
+-   [Типи ресурсів](mqseries.resources.html)

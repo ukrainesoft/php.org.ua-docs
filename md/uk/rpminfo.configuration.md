@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка через PECL](rpminfo.installation.html)
+-   [« Установка через PECL](rpminfo.installation.md)
     
--   [Типы ресурсов »](rpminfo.resources.html)
+-   [Типи ресурсів »](rpminfo.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](rpminfo.setup.html)
+-   [Встановлення та налаштування](rpminfo.setup.md)
     
 -   Налаштування під час виконання
     

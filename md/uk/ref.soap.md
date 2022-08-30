@@ -1,6 +1,6 @@
 Функції SOAP
 
--   [« Предопределённые константы](soap.constants.html)
+-   [« Обумовлені константи](soap.constants.html)
     
 -   [ісsoapfault »](function.is-soap-fault.html)
     

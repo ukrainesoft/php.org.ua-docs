@@ -1,12 +1,12 @@
 Перевірити, чи є символ пробельним з точки зору ICU
 
--   [« IntlChar::isUWhiteSpace](intlchar.isuwhitespace.html)
+-   [« IntlChar::isUWhiteSpace](intlchar.isuwhitespace.md)
     
--   [IntlChar::isxdigit »](intlchar.isxdigit.html)
+-   [IntlChar::isxdigit »](intlchar.isxdigit.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити, чи є символ пробельним з точки зору ICU
     
@@ -74,6 +74,6 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isspace()](intlchar.isspace.html) - Перевіряє, чи є символ пробельним
--   [IntlChar::isJavaSpaceChar()](intlchar.isjavaspacechar.html) - Перевірити, чи є символ пробельним з погляду мови Java
--   [IntlChar::isUWhiteSpace()](intlchar.isuwhitespace.html) - Перевірити, чи має символ властивість WhiteSpace (пробіловий символ)
+-   [IntlChar::isspace()](intlchar.isspace.md) - Перевіряє, чи є символ пробельним
+-   [IntlChar::isJavaSpaceChar()](intlchar.isjavaspacechar.md) - Перевірити, чи є символ пробельним з погляду мови Java
+-   [IntlChar::isUWhiteSpace()](intlchar.isuwhitespace.md) - Перевірити, чи має символ властивість WhiteSpace (пробіловий символ)

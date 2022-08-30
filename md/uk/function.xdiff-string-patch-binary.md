@@ -4,9 +4,9 @@
     
 -   [xdiffstringpatch »](function.xdiff-string-patch.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.md)
     
 -   Псевдонім для xdiffstringbpatch
     

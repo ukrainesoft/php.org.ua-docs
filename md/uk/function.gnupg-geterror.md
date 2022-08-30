@@ -4,9 +4,9 @@
     
 -   [gnupggeterrorinfo »](function.gnupg-geterrorinfo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GnuPG Функції](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.md)
     
 -   Повертає текст повідомлення про помилку, якщо функція не була виконана
     

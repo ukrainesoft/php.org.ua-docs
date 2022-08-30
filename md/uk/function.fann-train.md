@@ -2,11 +2,11 @@
 
 -   [« fanntrainвінfile](function.fann-train-on-file.html)
     
--   [FANNConnection »](class.fannconnection.html)
+-   [FANNConnection »](class.fannconnection.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Провести одну ітерацію навчання з набором вхідних даних та бажаним результатом
     

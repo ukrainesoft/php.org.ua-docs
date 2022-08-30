@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](yaconf.installation.html)
+-   [« Установка](yaconf.installation.md)
     
--   [Типы ресурсов »](yaconf.resources.html)
+-   [Типи ресурсів »](yaconf.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](yaconf.setup.html)
+-   [Встановлення та налаштування](yaconf.setup.md)
     
 -   Налаштування під час виконання
     
@@ -17,10 +17,10 @@
 
 **Опції налаштування Yaconf**
 
-| Имя                                                                   | По умолчанию | Место изменения | Список изменений |
-|-----------------------------------------------------------------------|--------------|-----------------|------------------|
-| [yaconf.checkdelay](yaconf.configuration.html#ini.yaconf.check-delay) |              | PHPINISYSTEM    |                  |
-| [yaconf.directory](yaconf.configuration.html#ini.yaconf.directory)    | /tmp/conf/   | PHPINISYSTEM    |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [yaconf.checkdelay](yaconf.configuration.html#ini.yaconf.check-delay) |  | PHPINISYSTEM |  |
+| [yaconf.directory](yaconf.configuration.html#ini.yaconf.directory) | /tmp/conf/ | PHPINISYSTEM |  |
 
 Коротке пояснення конфігураційних директив.
 

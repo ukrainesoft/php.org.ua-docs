@@ -62,4 +62,4 @@ object(MongoDB\BSON\Timestamp)#1 (2) {
 
 ### Дивіться також
 
--   [» Типы BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)
+-   [» Типи BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)

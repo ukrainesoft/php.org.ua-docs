@@ -4,9 +4,9 @@
     
 -   [rrdrestore »](function.rrd-restore.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.md)
     
 -   Отримує інформацію про останні оновлені дані
     

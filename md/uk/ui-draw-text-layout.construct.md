@@ -4,7 +4,7 @@
     
 -   [ОЙDrawTextLayout::setColor »](ui-draw-text-layout.setcolor.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawTextLayout](class.ui-draw-text-layout.html)
     

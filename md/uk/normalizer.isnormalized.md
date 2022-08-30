@@ -1,12 +1,12 @@
 Перевірити, чи переданий рядок відповідає заданій формі нормалізації
 
--   [« Normalizer::getRawDecomposition](normalizer.getrawdecomposition.html)
+-   [« Normalizer::getRawDecomposition](normalizer.getrawdecomposition.md)
     
--   [Normalizer::normalize »](normalizer.normalize.html)
+-   [Normalizer::normalize »](normalizer.normalize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Normalizer](class.normalizer.html)
+-   [Normalizer](class.normalizer.md)
     
 -   Перевірити, чи переданий рядок відповідає заданій формі нормалізації
     
@@ -91,4 +91,4 @@ not normalized; normalized
 
 ### Дивіться також
 
--   [normalizernormalize()](normalizer.normalize.html) - Нормалізація рядка
+-   [normalizernormalize()](normalizer.normalize.md) - Нормалізація рядка

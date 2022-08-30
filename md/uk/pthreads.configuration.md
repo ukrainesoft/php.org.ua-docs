@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](pthreads.installation.html)
+-   [« Установка](pthreads.installation.md)
     
--   [Предопределённые константы »](pthreads.constants.html)
+-   [Обумовлені константи »](pthreads.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](pthreads.setup.html)
+-   [Встановлення та налаштування](pthreads.setup.md)
     
 -   Налаштування під час виконання
     

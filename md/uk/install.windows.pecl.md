@@ -1,6 +1,6 @@
 PECL
 
--   [« Требования к установке](install.windows.requirements.html)
+-   [« Вимоги к установке](install.windows.requirements.html)
     
 -   [Инструмент установки PHP на Windows »](install.windows.tools.html)
     

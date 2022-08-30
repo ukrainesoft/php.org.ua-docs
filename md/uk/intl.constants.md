@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](intl.resources.html)
+-   [« Типи ресурсів](intl.resources.md)
     
--   [Примеры »](intl.examples.html)
+-   [Приклади »](intl.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [intl](book.intl.html)
+-   [intl](book.intl.md)
     
 -   Обумовлені константи
     

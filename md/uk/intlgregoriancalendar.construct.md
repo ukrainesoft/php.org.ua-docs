@@ -1,12 +1,12 @@
 Конструктор класу григоріанського календаря
 
--   [« IntlGregorianCalendar](class.intlgregoriancalendar.html)
+-   [« IntlGregorianCalendar](class.intlgregoriancalendar.md)
     
--   [IntlGregorianCalendar::getGregorianChange »](intlgregoriancalendar.getgregorianchange.html)
+-   [IntlGregorianCalendar::getGregorianChange »](intlgregoriancalendar.getgregorianchange.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlGregorianCalendar](class.intlgregoriancalendar.html)
+-   [IntlGregorianCalendar](class.intlgregoriancalendar.md)
     
 -   Конструктор класу григоріанського календаря
     
@@ -19,7 +19,7 @@ Intel GregorianCalendar::construct - Конструктор класу григ�
 
 ### Опис
 
-public **Intel GregorianCalendar::construct**[IntlTimeZone](class.intltimezone.html) `$tz` =?, string `$locale`
+public **Intel GregorianCalendar::construct**[IntlTimeZone](class.intltimezone.md) `$tz` =?, string `$locale`
 
 public **Intel GregorianCalendar::construct**(int `$timeZoneOrYear`, int `$localeOrMonth`, int `$dayOfMonth`
 

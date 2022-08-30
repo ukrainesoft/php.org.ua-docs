@@ -1,12 +1,12 @@
 Встановлює правило заливання для використання під час малювання полігонів.
 
--   [« ImagickDraw::setFillPatternURL](imagickdraw.setfillpatternurl.html)
+-   [« ImagickDraw::setFillPatternURL](imagickdraw.setfillpatternurl.md)
     
--   [ImagickDraw::setFont »](imagickdraw.setfont.html)
+-   [ImagickDraw::setFont »](imagickdraw.setfont.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Встановлює правило заливання для використання під час малювання полігонів.
     

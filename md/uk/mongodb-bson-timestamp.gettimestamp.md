@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONTimestamp::jsonSerialize »](mongodb-bson-timestamp.jsonserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html)
     
@@ -25,7 +25,7 @@ final public MongoDB\BSON\Timestamp::getTimestamp(): int
 
 Компонент позначки часу Timestamp – це його найбільш значущі 32 біти, які позначають кількість секунд від початку епохи Unix. Це значення читається як 32-розрядне ціле число без знака з порядком байтів у старшому порядку.
 
-> **Зауваження**: Оскільки цілий тип PHP є знаковим, деякі значення, отримані за допомогою цього методу, можуть перетворитися на негативні цілі числа на 32-бітових платформах. Для отримання рядкового представлення беззнакового цілого можна скористатися шаблоном форматування %u функції [sprintf()](function.sprintf.html)
+> **Зауваження**: Оскільки цілий тип PHP є знаковим, деякі значення, отримані за допомогою цього методу, можуть перетворитися на негативні цілі числа на 32-бітових платформах. Для отримання рядкового представлення беззнакового цілого можна скористатися шаблоном форматування %u функції [sprintf()](function.sprintf.md)
 
 ### Список параметрів
 
@@ -45,4 +45,4 @@ final public MongoDB\BSON\Timestamp::getTimestamp(): int
 
 ### Дивіться також
 
--   [» Типы BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)
+-   [» Типи BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)

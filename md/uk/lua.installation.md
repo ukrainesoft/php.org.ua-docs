@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](lua.requirements.html)
+-   [« Вимоги](lua.requirements.html)
     
--   [Настройка во время выполнения »](lua.configuration.html)
+-   [Налаштування під час виконання »](lua.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](lua.setup.html)
+-   [Встановлення та налаштування](lua.setup.html)
     
 -   Встановлення
     

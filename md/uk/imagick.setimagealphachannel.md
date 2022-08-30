@@ -1,12 +1,12 @@
 Встановлює альфа-канал зображення
 
--   [« Imagick::setImage](imagick.setimage.html)
+-   [« Imagick::setImage](imagick.setimage.md)
     
--   [Imagick::setImageArtifact »](imagick.setimageartifact.html)
+-   [Imagick::setImageArtifact »](imagick.setimageartifact.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює альфа-канал зображення
     
@@ -41,5 +41,5 @@ public Imagick::setImageAlphaChannel(int $mode): bool
 
 ### Дивіться також
 
--   [Imagick::setImageMatte()](imagick.setimagematte.html) - Встановлює матовий канал зображення
--   [Константы альфа-канала Imagick](imagick.constants.html#imagick.constants.alphachannel)
+-   [Imagick::setImageMatte()](imagick.setimagematte.md) - Встановлює матовий канал зображення
+-   [Константи альфа-каналу Imagick](imagick.constants.html#imagick.constants.alphachannel)

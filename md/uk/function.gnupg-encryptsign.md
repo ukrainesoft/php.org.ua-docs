@@ -4,9 +4,9 @@
     
 -   [gnupgexport »](function.gnupg-export.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GnuPG Функції](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.md)
     
 -   Шифрує та підписує переданий текст
     

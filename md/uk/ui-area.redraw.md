@@ -4,7 +4,7 @@
     
 -   [ОЙArea::scrollTo »](ui-area.scrollto.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙArea](class.ui-area.html)
     

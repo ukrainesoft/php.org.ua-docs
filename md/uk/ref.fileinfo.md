@@ -1,6 +1,6 @@
 Функції модуля Fileinfo
 
--   [« Предопределённые константы](fileinfo.constants.html)
+-   [« Обумовлені константи](fileinfo.constants.html)
     
 -   [finfobuffer »](function.finfo-buffer.html)
     

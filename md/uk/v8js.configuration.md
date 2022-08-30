@@ -2,11 +2,11 @@
 
 -   [« Установка](v8js.installation.html)
     
--   [Типы ресурсов »](v8js.resources.html)
+-   [Типи ресурсів »](v8js.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](v8js.setup.html)
+-   [Встановлення та налаштування](v8js.setup.html)
     
 -   Налаштування під час виконання
     
@@ -17,10 +17,10 @@
 
 **Опції налаштування V8js**
 
-| Имя                                                                                | По умолчанию | Место изменения | Список изменений |
-|------------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [v8js.maxdisposedcontexts](v8js.configuration.html#ini.v8js.max-disposed-contexts) |              | PHPINIALL       |                  |
-| [v8js.flags](v8js.configuration.html#ini.v8js.flags)                               |              | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [v8js.maxdisposedcontexts](v8js.configuration.html#ini.v8js.max-disposed-contexts) |  | PHPINIALL |  |
+| [v8js.flags](v8js.configuration.html#ini.v8js.flags) |  | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

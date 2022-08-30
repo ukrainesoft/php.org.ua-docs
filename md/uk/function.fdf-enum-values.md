@@ -4,9 +4,9 @@
     
 -   [fdferrno »](function.fdf-errno.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Викликає функцію користувача для кожного значення документа
     

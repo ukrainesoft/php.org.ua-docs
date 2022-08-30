@@ -1,12 +1,12 @@
 Встановлює фактори вибірки зображення
 
--   [« Gmagick::setimagewhitepoint](gmagick.setimagewhitepoint.html)
+-   [« Gmagick::setimagewhitepoint](gmagick.setimagewhitepoint.md)
     
--   [Gmagick::setsize »](gmagick.setsize.html)
+-   [Gmagick::setsize »](gmagick.setsize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Встановлює фактори вибірки зображення
     
@@ -33,7 +33,7 @@ public Gmagick::setsamplingfactors(array $factors): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

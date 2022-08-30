@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](yaconf.setup.html)
+-   [« Встановлення та налаштування](yaconf.setup.md)
     
--   [Установка »](yaconf.installation.html)
+-   [Установка »](yaconf.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](yaconf.setup.html)
+-   [Встановлення та налаштування](yaconf.setup.md)
     
 -   Вимоги
     

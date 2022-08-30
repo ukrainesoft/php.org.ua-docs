@@ -1,12 +1,12 @@
 Кількість аргументів, переданих скрипту
 
--   [«$httpresponseheader](reserved.variables.httpresponseheader.html)
+-   [«$httpresponseheader](reserved.variables.httpresponseheader.md)
     
--   [$argv »](reserved.variables.argv.html)
+-   [$argv »](reserved.variables.argv.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые переменные](reserved.variables.html)
+-   [Зумовлені змінні](reserved.variables.md)
     
 -   Кількість аргументів, переданих скрипту
     
@@ -19,7 +19,7 @@ $argc — Кількість аргументів, переданих скрип
 
 ### Опис
 
-Містить кількість аргументів, переданих поточному скрипту під час запуску [командного рядка](features.commandline.html)
+Містить кількість аргументів, переданих поточному скрипту під час запуску [командного рядка](features.commandline.md)
 
 > **Зауваження**: Ім'я файлу скрипта завжди передається як перший аргумент, таким чином мінімальне значення $argc одно `1`
 
@@ -47,9 +47,9 @@ int(4)
 
 > **Зауваження**
 > 
-> Також доступно як [SERVER\['argc'\]](reserved.variables.server.html)
+> Також доступно як [SERVER\['argc'\]](reserved.variables.server.md)
 
 ### Дивіться також
 
--   [getopt()](function.getopt.html) - Отримує параметри зі списку аргументів командного рядка
--   [](reserved.variables.argv.html)[$argv](reserved.variables.argv.html)
+-   [getopt()](function.getopt.md) - Отримує параметри зі списку аргументів командного рядка
+-   [](reserved.variables.argv.md)[$argv](reserved.variables.argv.md)

@@ -4,9 +4,9 @@
     
 -   [traderapo »](function.trader-apo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Середній рейтинг індексу спрямованого руху
     

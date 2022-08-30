@@ -1,12 +1,12 @@
 Отримати ідентифікатор у групі схожих часових поясів, включаючи заданий ідентифікатор
 
--   [« IntlTimeZone::getDSTSavings](intltimezone.getdstsavings.html)
+-   [« IntlTimeZone::getDSTSavings](intltimezone.getdstsavings.md)
     
--   [IntlTimeZone::getErrorCode »](intltimezone.geterrorcode.html)
+-   [IntlTimeZone::getErrorCode »](intltimezone.geterrorcode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlTimeZone](class.intltimezone.html)
+-   [IntlTimeZone](class.intltimezone.md)
     
 -   Отримати ідентифікатор у групі схожих часових поясів, включаючи заданий ідентифікатор
     

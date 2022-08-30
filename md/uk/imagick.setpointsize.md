@@ -1,12 +1,12 @@
 Встановлює розмір точки
 
--   [« Imagick::setPage](imagick.setpage.html)
+-   [« Imagick::setPage](imagick.setpage.md)
     
--   [Imagick::setProgressMonitor »](imagick.setprogressmonitor.html)
+-   [Imagick::setProgressMonitor »](imagick.setprogressmonitor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює розмір точки
     
@@ -61,4 +61,4 @@ $im->newPseudoImage(100, 100, "caption:Hello");
 
 ### Дивіться також
 
--   [Imagick::getPointSize()](imagick.getpointsize.html) - Повертає розмір точки
+-   [Imagick::getPointSize()](imagick.getpointsize.md) - Повертає розмір точки

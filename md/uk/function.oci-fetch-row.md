@@ -4,9 +4,9 @@
     
 -   [ocifetch »](function.oci-fetch.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8 Функции](ref.oci8.html)
+-   [OCI8 Функции](ref.oci8.md)
     
 -   Повертає наступний рядок із результату запиту у вигляді нумерованого масиву
     

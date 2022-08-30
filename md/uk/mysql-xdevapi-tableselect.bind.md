@@ -4,7 +4,7 @@
     
 -   [TableSelect::construct »](mysql-xdevapi-tableselect.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
     

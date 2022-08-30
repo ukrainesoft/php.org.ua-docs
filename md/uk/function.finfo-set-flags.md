@@ -4,9 +4,9 @@
     
 -   [mimecontenttype »](function.mime-content-type.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции модуля Fileinfo](ref.fileinfo.html)
+-   [Функции модуля Fileinfo](ref.fileinfo.md)
     
 -   Встановлює параметри конфігурації libmagic
     
@@ -39,11 +39,11 @@ public finfo::set_flags(int $flags): bool
 
 `finfo`
 
-Екземпляр [finfo](class.finfo.html), що повертається функцією [finfoopen()](function.finfo-open.html)
+Екземпляр [finfo](class.finfo.md), що повертається функцією [finfoopen()](function.finfo-open.html)
 
 `flags`
 
-Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.html)
+Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.md)
 
 ### Значення, що повертаються
 
@@ -51,6 +51,6 @@ public finfo::set_flags(int $flags): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                             |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

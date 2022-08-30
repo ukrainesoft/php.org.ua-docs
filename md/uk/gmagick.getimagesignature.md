@@ -1,12 +1,12 @@
 Створює підпис повідомлення SHA-256
 
--   [« Gmagick::getimagescene](gmagick.getimagescene.html)
+-   [« Gmagick::getimagescene](gmagick.getimagescene.md)
     
--   [Gmagick::getimagetype »](gmagick.getimagetype.html)
+-   [Gmagick::getimagetype »](gmagick.getimagetype.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Створює підпис повідомлення SHA-256
     

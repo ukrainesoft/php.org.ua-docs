@@ -1,12 +1,12 @@
 Змінює кореневий каталог
 
--   [« chdir](function.chdir.html)
+-   [« chdir](function.chdir.md)
     
--   [closedir »](function.closedir.html)
+-   [closedir »](function.closedir.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з каталогами](ref.dir.html)
+-   [Функції для роботи з каталогами](ref.dir.md)
     
 -   Змінює кореневий каталог
     

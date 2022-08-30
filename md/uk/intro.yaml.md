@@ -1,12 +1,12 @@
 Вступ
 
--   [« Yaml](book.yaml.html)
+-   [« Yaml](book.yaml.md)
     
--   [Установка и настройка »](yaml.setup.html)
+-   [Встановлення та налаштування »](yaml.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yaml](book.yaml.html)
+-   [Yaml](book.yaml.md)
     
 -   Вступ
     

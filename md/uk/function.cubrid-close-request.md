@@ -4,9 +4,9 @@
     
 -   [cubridcolget »](function.cubrid-col-get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Закриває обробник запиту
     

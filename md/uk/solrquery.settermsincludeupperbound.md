@@ -1,12 +1,12 @@
 Включає верхню межу виразу набір результатів
 
--   [« SolrQuery::setTermsIncludeLowerBound](solrquery.settermsincludelowerbound.html)
+-   [« SolrQuery::setTermsIncludeLowerBound](solrquery.settermsincludelowerbound.md)
     
--   [SolrQuery::setTermsLimit »](solrquery.settermslimit.html)
+-   [SolrQuery::setTermsLimit »](solrquery.settermslimit.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Включає верхню межу виразу набір результатів
     

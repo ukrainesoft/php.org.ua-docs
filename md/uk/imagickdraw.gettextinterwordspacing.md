@@ -1,12 +1,12 @@
 Повертає міжмовний інтервал тексту
 
--   [« ImagickDraw::getTextInterlineSpacing](imagickdraw.gettextinterlinespacing.html)
+-   [« ImagickDraw::getTextInterlineSpacing](imagickdraw.gettextinterlinespacing.md)
     
--   [ImagickDraw::getTextKerning »](imagickdraw.gettextkerning.html)
+-   [ImagickDraw::getTextKerning »](imagickdraw.gettextkerning.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Повертає міжмовний інтервал тексту
     

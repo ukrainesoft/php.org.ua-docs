@@ -4,7 +4,7 @@
     
 -   [mysqliresult::$lengths »](mysqli-result.lengths.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqliresult](class.mysqli-result.html)
     

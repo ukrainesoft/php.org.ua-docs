@@ -4,9 +4,9 @@
     
 -   [мбeregmatch »](function.mb-ereg-match.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
     
 -   Отримує псевдоніми відомого типу кодування
     

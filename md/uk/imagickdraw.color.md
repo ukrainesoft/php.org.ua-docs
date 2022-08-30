@@ -1,12 +1,12 @@
 Малює колір на зображенні
 
--   [« ImagickDraw::clone](imagickdraw.clone.html)
+-   [« ImagickDraw::clone](imagickdraw.clone.md)
     
--   [ImagickDraw::comment »](imagickdraw.comment.html)
+-   [ImagickDraw::comment »](imagickdraw.comment.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Малює колір на зображенні
     

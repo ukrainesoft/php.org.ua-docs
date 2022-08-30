@@ -1,12 +1,12 @@
 Перевіряє, чи є значення допустимим кінцевим числом
 
--   [« intdiv](function.intdiv.html)
+-   [« intdiv](function.intdiv.md)
     
 -   [ісinfinite »](function.is-infinite.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Перевіряє, чи є значення допустимим кінцевим числом
     

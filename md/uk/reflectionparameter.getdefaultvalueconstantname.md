@@ -1,12 +1,12 @@
 Повертає ім'я константи значення за промовчанням, якщо значення за промовчанням константа або null
 
--   [« ReflectionParameter::getDefaultValue](reflectionparameter.getdefaultvalue.html)
+-   [« ReflectionParameter::getDefaultValue](reflectionparameter.getdefaultvalue.md)
     
--   [ReflectionParameter::getName »](reflectionparameter.getname.html)
+-   [ReflectionParameter::getName »](reflectionparameter.getname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionParameter](class.reflectionparameter.html)
+-   [ReflectionParameter](class.reflectionparameter.md)
     
 -   Повертає ім'я константи значення за промовчанням, якщо значення за промовчанням константа або null
     
@@ -23,7 +23,7 @@ ReflectionParameter::getDefaultValueConstantName — Повертає ім'я к
 public ReflectionParameter::getDefaultValueConstantName(): ?string
 ```
 
-Повертає значення за промовчанням константи для параметра будь-якої користувальницької чи внутрішньої функції чи методу, якщо значення за промовчанням константа чи null. Якщо параметр необов'язковий, викидається виняток [ReflectionException](class.reflectionexception.html)
+Повертає значення за промовчанням константи для параметра будь-якої користувальницької чи внутрішньої функції чи методу, якщо значення за промовчанням константа чи null. Якщо параметр необов'язковий, викидається виняток [ReflectionException](class.reflectionexception.md)
 
 ### Список параметрів
 
@@ -35,9 +35,9 @@ public ReflectionParameter::getDefaultValueConstantName(): ?string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                            |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Метод дозволяє отримувати імена значень за промовчанням для вбудованих функцій та вбудованих методів класу. Раніше викидалося [ReflectionException](class.reflectionexception.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Метод дозволяє отримувати імена значень за промовчанням для вбудованих функцій та вбудованих методів класу. Раніше викидалося [ReflectionException](class.reflectionexception.md) |
 
 ### Приклади
 
@@ -73,6 +73,6 @@ Name: test
 
 ### Дивіться також
 
--   [ReflectionParameter::isOptional()](reflectionparameter.isoptional.html) - Перевіряє, чи є аргумент необов'язковим
--   [ReflectionParameter::isDefaultValueConstant()](reflectionparameter.isdefaultvalueconstant.html) - Визначити, чи значення параметра за промовчанням константою
--   [ReflectionParameter::getDefaultValue()](reflectionparameter.getdefaultvalue.html) - Отримання значення за промовчанням для параметра
+-   [ReflectionParameter::isOptional()](reflectionparameter.isoptional.md) - Перевіряє, чи є аргумент необов'язковим
+-   [ReflectionParameter::isDefaultValueConstant()](reflectionparameter.isdefaultvalueconstant.md) - Визначити, чи значення параметра за промовчанням константою
+-   [ReflectionParameter::getDefaultValue()](reflectionparameter.getdefaultvalue.md) - Отримання значення за промовчанням для параметра

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](password.setup.html)
+-   [« Встановлення та налаштування](password.setup.md)
     
--   [Установка »](password.installation.html)
+-   [Установка »](password.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](password.setup.html)
+-   [Встановлення та налаштування](password.setup.md)
     
 -   Вимоги
     

@@ -4,9 +4,9 @@
     
 -   [ociunregistertafcallback »](function.oci-unregister-taf-callback.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8 Функции](ref.oci8.html)
+-   [OCI8 Функции](ref.oci8.md)
     
 -   Повертає тип виразу
     
@@ -37,19 +37,19 @@ oci_statement_type(resource $statement): string|false
 
 **Тип оператора**
 
-| Возвращаемое значение | Примечание                           |
-|-----------------------|--------------------------------------|
-| `ALTER`               |                                      |
-| `BEGIN`               |                                      |
-| `CALL`                | Подано в PHP 5.2.1 (PECL OCI8 1.2.3) |
-| `CREATE`              |                                      |
-| `DECLARE`             |                                      |
-| `DELETE`              |                                      |
-| `DROP`                |                                      |
-| `INSERT`              |                                      |
-| `SELECT`              |                                      |
-| `UPDATE`              |                                      |
-| `UNKNOWN`             |                                      |
+| Возвращаемое значение | Примечание |
+| --- | --- |
+| `ALTER` |  |
+| `BEGIN` |  |
+| `CALL` | Подано в PHP 5.2.1 (PECL OCI8 1.2.3) |
+| `CREATE` |  |
+| `DECLARE` |  |
+| `DELETE` |  |
+| `DROP` |  |
+| `INSERT` |  |
+| `SELECT` |  |
+| `UPDATE` |  |
+| `UNKNOWN` |  |
 
 Повертає **`false`** у разі виникнення помилки.
 

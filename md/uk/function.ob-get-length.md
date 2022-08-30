@@ -4,9 +4,9 @@
     
 -   [проgetlevel »](function.ob-get-level.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції контролю виведення](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.md)
     
 -   Повертає розмір буфера виводу
     

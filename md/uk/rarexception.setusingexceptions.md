@@ -1,12 +1,12 @@
 Включити або вимкнути генерацію винятків замість повернення помилок
 
--   [« RarException::isUsingExceptions](rarexception.isusingexceptions.html)
+-   [« RarException::isUsingExceptions](rarexception.isusingexceptions.md)
     
--   [Zip »](book.zip.html)
+-   [Zip »](book.zip.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RarException](class.rarexception.html)
+-   [RarException](class.rarexception.md)
     
 -   Включити або вимкнути генерацію винятків замість повернення помилок
     
@@ -23,12 +23,12 @@ RarException::setUsingExceptions — Увімкнути або вимкнути 
 public static RarException::setUsingExceptions(bool $using_exceptions): void
 ```
 
-Якщо аргумент заданий як **`true`**, то, замість видачі попередження та повернення помилки, бібліотека UnRAR викидатиме виняток типу [RarException](class.rarexception.html) у разі виникнення помилки.
+Якщо аргумент заданий як **`true`**, то, замість видачі попередження та повернення помилки, бібліотека UnRAR викидатиме виняток типу [RarException](class.rarexception.md) у разі виникнення помилки.
 
 Також винятки будуть викинуті у разі таких помилок, що відбулися поза бібліотекою (їх код повернення повинен дорівнювати -1):
 
--   спроба здійснення дій із закритим об'єктом [RarArchive](class.rararchive.html) або об'єктом [RarEntry](class.rarentry.html) що відноситься до першого;
--   спроба витягти відсутній запис за допомогою [RarArchive::getEntry()](rararchive.getentry.html)
+-   спроба здійснення дій із закритим об'єктом [RarArchive](class.rararchive.md) або об'єктом [RarEntry](class.rarentry.md) що відноситься до першого;
+-   спроба витягти відсутній запис за допомогою [RarArchive::getEntry()](rararchive.getentry.md)
 
 ### Список параметрів
 
@@ -75,4 +75,4 @@ Stack trace:
 
 ### Дивіться також
 
--   [RarException::isUsingExceptions()](rarexception.isusingexceptions.html) - Перевірити, чи будуть функції повертати помилки або викидати винятки
+-   [RarException::isUsingExceptions()](rarexception.isusingexceptions.md) - Перевірити, чи будуть функції повертати помилки або викидати винятки

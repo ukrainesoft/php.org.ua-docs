@@ -1,12 +1,12 @@
 Клас LuaSandboxRuntimeError
 
--   [« LuaSandboxMemoryError](class.luasandboxmemoryerror.html)
+-   [« LuaSandboxMemoryError](class.luasandboxmemoryerror.md)
     
--   [LuaSandboxSyntaxError »](class.luasandboxsyntaxerror.html)
+-   [LuaSandboxSyntaxError »](class.luasandboxsyntaxerror.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LuaSandbox](book.luasandbox.html)
+-   [LuaSandbox](book.luasandbox.md)
     
 -   Клас LuaSandboxRuntimeError
     

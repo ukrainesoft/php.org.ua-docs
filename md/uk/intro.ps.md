@@ -2,7 +2,7 @@
 
 -   [« PS](book.ps.html)
     
--   [Установка и настройка »](ps.setup.html)
+-   [Встановлення та налаштування »](ps.setup.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](cubrid.installation.html)
+-   [« Установка](cubrid.installation.md)
     
--   [Типы ресурсов »](cubrid.resources.html)
+-   [Типи ресурсів »](cubrid.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](cubrid.setup.html)
+-   [Встановлення та налаштування](cubrid.setup.md)
     
 -   Налаштування під час виконання
     

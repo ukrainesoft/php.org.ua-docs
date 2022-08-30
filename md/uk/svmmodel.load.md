@@ -1,12 +1,12 @@
 Завантажує збережену модель SVM
 
--   [« SVMModel::getSvrProbability](svmmodel.getsvrprobability.html)
+-   [« SVMModel::getSvrProbability](svmmodel.getsvrprobability.md)
     
 -   [SVMModel::predictprobability »](svmmodel.predict-probability.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SVMModel](class.svmmodel.html)
+-   [SVMModel](class.svmmodel.md)
     
 -   Завантажує збережену модель SVM
     
@@ -37,4 +37,4 @@ public SVMModel::load(string $filename): bool
 
 ### Дивіться також
 
--   [SVMModel::save()](svmmodel.save.html) - Зберегти готову модель у файл
+-   [SVMModel::save()](svmmodel.save.md) - Зберегти готову модель у файл

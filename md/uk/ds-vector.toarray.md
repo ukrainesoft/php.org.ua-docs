@@ -4,7 +4,7 @@
     
 -   [ДсVector::unshift »](ds-vector.unshift.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Вектор](class.ds-vector.html)
     

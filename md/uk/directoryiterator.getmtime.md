@@ -1,12 +1,12 @@
 Повертає час останньої зміни поточного елементу DirectoryIterator
 
--   [« DirectoryIterator::getInode](directoryiterator.getinode.html)
+-   [« DirectoryIterator::getInode](directoryiterator.getinode.md)
     
--   [DirectoryIterator::getOwner »](directoryiterator.getowner.html)
+-   [DirectoryIterator::getOwner »](directoryiterator.getowner.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DirectoryIterator](class.directoryiterator.html)
+-   [DirectoryIterator](class.directoryiterator.md)
     
 -   Повертає час останньої зміни поточного елементу DirectoryIterator
     
@@ -23,7 +23,7 @@ DirectoryIterator::getMTime — Повертає час останньої зм�
 public DirectoryIterator::getMTime(): int
 ```
 
-Повертає час останньої зміни поточного елемента [DirectoryIterator](class.directoryiterator.html) у форматі позначки часу Unix.
+Повертає час останньої зміни поточного елемента [DirectoryIterator](class.directoryiterator.md) у форматі позначки часу Unix.
 
 ### Список параметрів
 
@@ -61,6 +61,6 @@ pear.jpg 12240047979
 
 ### Дивіться також
 
--   [DirectoryIterator::getATime()](directoryiterator.getatime.html) - Повертає час останнього доступу до поточного елементу DirectoryIterator
--   [DirectoryIterator::getCTime()](directoryiterator.getctime.html) - Повертає час останньої зміни inode поточного елемента DirectoryIterator
--   [filemtime()](function.filemtime.html) - Повертає час останньої зміни файлу
+-   [DirectoryIterator::getATime()](directoryiterator.getatime.md) - Повертає час останнього доступу до поточного елементу DirectoryIterator
+-   [DirectoryIterator::getCTime()](directoryiterator.getctime.md) - Повертає час останньої зміни inode поточного елемента DirectoryIterator
+-   [filemtime()](function.filemtime.md) - Повертає час останньої зміни файлу

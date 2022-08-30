@@ -1,12 +1,12 @@
 Створює об'єкт спостерігача EvSignal, пов'язаний із поточним екземпляром циклу подій
 
--   [« EvLoop::run](evloop.run.html)
+-   [« EvLoop::run](evloop.run.md)
     
--   [EvLoop::stat »](evloop.stat.html)
+-   [EvLoop::stat »](evloop.stat.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvLoop](class.evloop.html)
+-   [EvLoop](class.evloop.md)
     
 -   Створює об'єкт спостерігача EvSignal, пов'язаний із поточним екземпляром циклу подій
     
@@ -43,7 +43,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvSignal::construct()](evsignal.construct.html)
+Усі параметри, що й для [EvSignal::construct()](evsignal.construct.md)
 
 ### Значення, що повертаються
 
@@ -51,4 +51,4 @@ final
 
 ### Дивіться також
 
--   [EvSignal::construct()](evsignal.construct.html) - Конструктор об'єкта спостерігача EvSignal
+-   [EvSignal::construct()](evsignal.construct.md) - Конструктор об'єкта спостерігача EvSignal

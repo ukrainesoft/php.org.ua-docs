@@ -1,12 +1,12 @@
 Ініціалізує сесію
 
--   [« SessionHandler::gc](sessionhandler.gc.html)
+-   [« SessionHandler::gc](sessionhandler.gc.md)
     
--   [SessionHandler::read »](sessionhandler.read.html)
+-   [SessionHandler::read »](sessionhandler.read.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SessionHandler](class.sessionhandler.html)
+-   [SessionHandler](class.sessionhandler.md)
     
 -   Ініціалізує сесію
     
@@ -29,7 +29,7 @@ public SessionHandler::open(string $path, string $name): bool
 
 Якщо цей клас розширюється шляхом успадкування, виклик батьківського методу `open` виконає код обгортки для цього методу, а також внутрішній обробник. Це дозволить методу бути перевизначеним, або перехопленим та відфільтрованим.
 
-Для додаткової інформації про те, що очікується від реалізації цього методу, дивіться документацію за методом [SessionHandlerInterface::open()](sessionhandlerinterface.open.html)
+Для додаткової інформації про те, що очікується від реалізації цього методу, дивіться документацію за методом [SessionHandlerInterface::open()](sessionhandlerinterface.open.md)
 
 ### Список параметрів
 

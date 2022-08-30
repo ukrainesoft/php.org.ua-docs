@@ -1,8 +1,8 @@
 Кодування символів
 
--   [« Коды ошибок](xml.error-codes.html)
+-   [« Коди помилок](xml.error-codes.html)
     
--   [Примеры »](xml.examples.html)
+-   [Приклади »](xml.examples.html)
     
 -   [PHP Manual](index.html)
     

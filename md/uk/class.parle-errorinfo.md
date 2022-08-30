@@ -4,9 +4,9 @@
     
 -   [ParleLexerException »](class.parle-lexerexception.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Parle](book.parle.html)
+-   [Parle](book.parle.md)
     
 -   Клас ParleErrorInfo
     

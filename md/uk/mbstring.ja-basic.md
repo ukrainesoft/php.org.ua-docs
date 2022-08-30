@@ -1,12 +1,12 @@
 Основи японських багатобайтних кодувань
 
--   [« Краткий обзор поддерживаемых кодировок](mbstring.encodings.html)
+-   [« Короткий огляд підтримуваних кодувань](mbstring.encodings.md)
     
--   [Введення та виведення HTTP »](mbstring.http.html)
+-   [Введення та виведення HTTP »](mbstring.http.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Багатобайтові рядки](book.mbstring.html)
+-   [Багатобайтові рядки](book.mbstring.md)
     
 -   Основи японських багатобайтних кодувань
     

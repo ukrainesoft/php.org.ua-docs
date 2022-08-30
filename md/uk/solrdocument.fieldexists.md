@@ -1,12 +1,12 @@
 Перевіряє, чи існує поле у ​​документі
 
--   [« SolrDocument::destruct](solrdocument.destruct.html)
+-   [« SolrDocument::destruct](solrdocument.destruct.md)
     
--   [SolrDocument::get »](solrdocument.get.html)
+-   [SolrDocument::get »](solrdocument.get.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocument](class.solrdocument.html)
+-   [SolrDocument](class.solrdocument.md)
     
 -   Перевіряє, чи існує поле у ​​документі
     

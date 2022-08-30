@@ -4,9 +4,9 @@
     
 -   [lzfoptimizedfor »](function.lzf-optimized-for.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції LZF](ref.lzf.html)
+-   [Функції LZF](ref.lzf.md)
     
 -   Розархівація LZF
     

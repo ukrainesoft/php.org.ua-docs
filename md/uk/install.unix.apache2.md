@@ -1,12 +1,12 @@
 Apache 2.x на Unix системах
 
--   [« Установка на Unix-системы](install.unix.html)
+-   [« Установка на Unix-системи](install.unix.md)
     
--   [Установка Nginx 1.4.x на систему Unix »](install.unix.nginx.html)
+-   [Установка Nginx 1.4.x на систему Unix »](install.unix.nginx.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка на Unix-системы](install.unix.html)
+-   [Встановлення на Unix-системи](install.unix.md)
     
 -   Apache 2.x на Unix системах
     

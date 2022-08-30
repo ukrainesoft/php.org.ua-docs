@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](readline.resources.html)
+-   [« Типи ресурсів](readline.resources.md)
     
--   [Функции Readline »](ref.readline.html)
+-   [Функции Readline »](ref.readline.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Readline](book.readline.html)
+-   [Readline](book.readline.md)
     
 -   Обумовлені константи
     

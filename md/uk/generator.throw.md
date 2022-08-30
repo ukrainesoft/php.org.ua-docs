@@ -1,12 +1,12 @@
 Кинути виняток у генератор
 
--   [« Generator::send](generator.send.html)
+-   [« Generator::send](generator.send.md)
     
--   [Generator::valid »](generator.valid.html)
+-   [Generator::valid »](generator.valid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Generator](class.generator.html)
+-   [Generator](class.generator.md)
     
 -   Кинути виняток у генератор
     

@@ -1,12 +1,12 @@
 Клас ReflectionException
 
--   [« Reflector::toString](reflector.tostring.html)
+-   [« Reflector::toString](reflector.tostring.md)
     
--   [Обработка переменных »](book.var.html)
+-   [Обробка змінних »](book.var.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Reflection](book.reflection.html)
+-   [Reflection](book.reflection.md)
     
 -   Клас ReflectionException
     

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](pspell.setup.html)
+-   [« Встановлення та налаштування](pspell.setup.md)
     
--   [Установка »](pspell.installation.html)
+-   [Установка »](pspell.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](pspell.setup.html)
+-   [Встановлення та налаштування](pspell.setup.md)
     
 -   Вимоги
     

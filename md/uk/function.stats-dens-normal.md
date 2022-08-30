@@ -4,9 +4,9 @@
     
 -   [statsdenspmfbinomial »](function.stats-dens-pmf-binomial.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Повертає щільність ймовірності нормального розподілу
     

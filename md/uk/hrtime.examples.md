@@ -2,7 +2,7 @@
 
 -   [« Установка](hrtime.installation.html)
     
--   [Основы использования »](hrtime.example.basic.html)
+-   [Основи використання »](hrtime.example.basic.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [Основы использования](hrtime.example.basic.html)
+-   [Основи використання](hrtime.example.basic.html)

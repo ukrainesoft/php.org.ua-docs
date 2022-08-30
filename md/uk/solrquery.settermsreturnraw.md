@@ -1,12 +1,12 @@
 Повернути необроблені символи проіндексованого виразу
 
--   [« SolrQuery::setTermsPrefix](solrquery.settermsprefix.html)
+-   [« SolrQuery::setTermsPrefix](solrquery.settermsprefix.md)
     
--   [SolrQuery::setTermsSort »](solrquery.settermssort.html)
+-   [SolrQuery::setTermsSort »](solrquery.settermssort.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повернути необроблені символи проіндексованого виразу
     

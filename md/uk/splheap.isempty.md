@@ -1,12 +1,12 @@
 Перевірка, чи порожня купа
 
--   [« SplHeap::isCorrupted](splheap.iscorrupted.html)
+-   [« SplHeap::isCorrupted](splheap.iscorrupted.md)
     
--   [SplHeap::key »](splheap.key.html)
+-   [SplHeap::key »](splheap.key.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplHeap](class.splheap.html)
+-   [SplHeap](class.splheap.md)
     
 -   Перевірка, чи порожня купа
     

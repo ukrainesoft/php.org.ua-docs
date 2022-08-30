@@ -4,9 +4,9 @@
     
 -   [yazgetoption »](function.yaz-get-option.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции YAZ](ref.yaz.html)
+-   [Функции YAZ](ref.yaz.md)
     
 -   Готує Extended Service Request
     

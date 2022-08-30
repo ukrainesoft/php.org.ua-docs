@@ -1,12 +1,12 @@
 Отримати кількість загальнодоступних властивостей ArrayObject
 
--   [« ArrayObject::construct](arrayobject.construct.html)
+-   [« ArrayObject::construct](arrayobject.construct.md)
     
--   [ArrayObject::exchangeArray »](arrayobject.exchangearray.html)
+-   [ArrayObject::exchangeArray »](arrayobject.exchangearray.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayObject](class.arrayobject.html)
+-   [ArrayObject](class.arrayobject.md)
     
 -   Отримати кількість загальнодоступних властивостей ArrayObject
     
@@ -23,7 +23,7 @@ ArrayObject::count — Отримати кількість загальнодо�
 public ArrayObject::count(): int
 ```
 
-Отримати кількість загальнодоступних властивостей [ArrayObject](class.arrayobject.html)
+Отримати кількість загальнодоступних властивостей [ArrayObject](class.arrayobject.md)
 
 ### Список параметрів
 
@@ -31,11 +31,11 @@ public ArrayObject::count(): int
 
 ### Значення, що повертаються
 
-Кількість загальнодоступних властивостей [ArrayObject](class.arrayobject.html)
+Кількість загальнодоступних властивостей [ArrayObject](class.arrayobject.md)
 
 > **Зауваження**
 > 
-> Якщо [ArrayObject](class.arrayobject.html) створюється з масиву, всі властивості є загальнодоступними.
+> Якщо [ArrayObject](class.arrayobject.md) створюється з масиву, всі властивості є загальнодоступними.
 
 ### Приклади
 

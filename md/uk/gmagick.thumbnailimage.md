@@ -1,12 +1,12 @@
 Змінює розмір зображення
 
--   [« Gmagick::swirlimage](gmagick.swirlimage.html)
+-   [« Gmagick::swirlimage](gmagick.swirlimage.md)
     
--   [Gmagick::trimimage »](gmagick.trimimage.html)
+-   [Gmagick::trimimage »](gmagick.trimimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Змінює розмір зображення
     
@@ -37,7 +37,7 @@ public Gmagick::thumbnailimage(int $width, int $height, bool $fit = false): Gmag
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

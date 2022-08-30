@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](pgsql.requirements.html)
+-   [« Вимоги](pgsql.requirements.html)
     
--   [Настройка во время выполнения »](pgsql.configuration.html)
+-   [Налаштування під час виконання »](pgsql.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](pgsql.setup.html)
+-   [Встановлення та налаштування](pgsql.setup.html)
     
 -   Встановлення
     

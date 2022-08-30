@@ -1,12 +1,12 @@
 Клас EvIdle
 
--   [« EvFork::createStopped](evfork.createstopped.html)
+-   [« EvFork::createStopped](evfork.createstopped.md)
     
--   [EvIdle::construct »](evidle.construct.html)
+-   [EvIdle::construct »](evidle.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Єв](book.ev.html)
+-   [Єв](book.ev.md)
     
 -   Клас EvIdle
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Спостерігачі **EvIdle** викликають події тоді, коли жодні інші події такого ж чи вищого пріоритету не перебувають в очікуванні ([EvPrepare](class.evprepare.html) [EvCheck](class.evcheck.html) та інші спостерігачі **EvIdle** не вважаються за одержувачі *події*
+Спостерігачі **EvIdle** викликають події тоді, коли жодні інші події такого ж чи вищого пріоритету не перебувають в очікуванні ([EvPrepare](class.evprepare.md) [EvCheck](class.evcheck.md) та інші спостерігачі **EvIdle** не вважаються за одержувачі *події*
 
 Таким чином, цей процес зайнятий обробкою сокетів або очікувань (або навіть сигналів) такого ж або вищого пріоритету доти, доки він не буде активований. Але коли процес перебуває в режимі очікування (або в черзі лише спостерігачі з нижчим пріоритетом), спостерігачі **EvIdle** будуть викликатися один раз за ітерацію циклу подій - доки не будуть зупинені або доки процесом не будуть отримані нові повідомлення і він не буде зайнятий більш пріоритетними завданнями.
 
@@ -117,5 +117,5 @@ public
 
 ## Зміст
 
--   [EvIdle::construct](evidle.construct.html) - Конструктор спостерігача EvIdle
--   [EvIdle::createStopped](evidle.createstopped.html) — Створити об'єкт класу EvIdle, але не стартувати його
+-   [EvIdle::construct](evidle.construct.md) - Конструктор спостерігача EvIdle
+-   [EvIdle::createStopped](evidle.createstopped.md) — Створити об'єкт класу EvIdle, але не стартувати його

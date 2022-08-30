@@ -1,12 +1,12 @@
 Як змінити налаштування конфігурації
 
--   [« Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+-   [« Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
     
--   [Справочник языка »](langref.html)
+-   [Довідник мови »](langref.html)
     
 -   [PHP Manual](index.html)
     
--   [Конфигурация времени выполнения](configuration.html)
+-   [Конфігурація часу виконання](configuration.html)
     
 -   Як змінити налаштування конфігурації
     

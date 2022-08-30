@@ -1,12 +1,12 @@
 Повертає різницю між двома об'єктами DateTime
 
--   [« DateTimeInterface](class.datetimeinterface.html)
+-   [« DateTimeInterface](class.datetimeinterface.md)
     
--   [DateTimeInterface::format »](datetime.format.html)
+-   [DateTimeInterface::format »](datetime.format.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTimeInterface](class.datetimeinterface.html)
+-   [DateTimeInterface](class.datetimeinterface.md)
     
 -   Повертає різницю між двома об'єктами DateTime
     
@@ -45,7 +45,7 @@ public DateTime::diff(DateTimeInterface $targetObject, bool $absolute = false): 
 date_diff(DateTimeInterface $baseObject, DateTimeInterface $targetObject, bool $absolute = false): DateInterval
 ```
 
-Повертає різницю між двома об'єктами [DateTimeInterface](class.datetimeinterface.html)
+Повертає різницю між двома об'єктами [DateTimeInterface](class.datetimeinterface.md)
 
 ### Список параметрів
 
@@ -59,7 +59,7 @@ date_diff(DateTimeInterface $baseObject, DateTimeInterface $targetObject, bool $
 
 ### Значення, що повертаються
 
-[DateInterval](class.dateinterval.html) об'єкт представляє різницю між двома датами.
+[DateInterval](class.dateinterval.md) об'єкт представляє різницю між двома датами.
 
 Значення, що повертається, більш конкретно представляє інтервал для застосування до вихідного об'єкта (`$this` або `$originObject`), щоб прийти до `$targetObject`. Цей процес не завжди оборотний.
 
@@ -95,11 +95,11 @@ echo $interval->format('%R%a дней');
 +2 days
 ```
 
-**Приклад #2 Порівняння об'єктів [DateTime](class.datetime.html)**
+**Приклад #2 Порівняння об'єктів [DateTime](class.datetime.md)**
 
 > **Зауваження**
 > 
-> Об'єкти [DateTimeImmutable](class.datetimeimmutable.html) і [DateTime](class.datetime.html) можуть порівнюватися за допомогою [операторів порівняння](language.operators.comparison.html)
+> Об'єкти [DateTimeImmutable](class.datetimeimmutable.md) і [DateTime](class.datetime.md) можуть порівнюватися за допомогою [операторів порівняння](language.operators.comparison.md)
 
 ```php
 <?php
@@ -122,6 +122,6 @@ bool(false)
 
 ### Дивіться також
 
--   [DateInterval::format()](dateinterval.format.html) - Форматує інтервал
--   [DateTime::add()](datetime.add.html) - Змінює об'єкт DateTime, додаючи кількість днів, місяців, років, годин, хвилин та секунд
--   [DateTime::sub()](datetime.sub.html) - Змінює вказаний об'єкт DateTime, віднімаючи вказаний об'єкт DateInterval.
+-   [DateInterval::format()](dateinterval.format.md) - Форматує інтервал
+-   [DateTime::add()](datetime.add.md) - Змінює об'єкт DateTime, додаючи кількість днів, місяців, років, годин, хвилин та секунд
+-   [DateTime::sub()](datetime.sub.md) - Змінює вказаний об'єкт DateTime, віднімаючи вказаний об'єкт DateInterval.

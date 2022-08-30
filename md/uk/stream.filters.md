@@ -1,6 +1,6 @@
 Поточні фільтри
 
--   [« Предопределённые константы](stream.constants.html)
+-   [« Обумовлені константи](stream.constants.html)
     
 -   [Контексти потоків »](stream.contexts.html)
     

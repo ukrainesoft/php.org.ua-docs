@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](wddx.requirements.html)
+-   [« Вимоги](wddx.requirements.md)
     
--   [Настройка во время выполнения »](wddx.configuration.html)
+-   [Налаштування під час виконання »](wddx.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](wddx.setup.html)
+-   [Встановлення та налаштування](wddx.setup.md)
     
 -   Встановлення
     
@@ -17,7 +17,7 @@
 
 Цей модуль був переміщений до репозиторію [» PECL](https://pecl.php.net/) і більше не постачається з PHP 7.4.0
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/wddx](https://pecl.php.net/package/wddx)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/wddx](https://pecl.php.net/package/wddx)
 
 ## PHP < 7.4
 

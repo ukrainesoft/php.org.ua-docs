@@ -4,7 +4,7 @@
     
 -   [DocResult::construct »](mysql-xdevapi-docresult.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Mysqlxdevapi](book.mysql-xdevapi.html)
     

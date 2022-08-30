@@ -4,9 +4,9 @@
     
 -   [opensslgetмдmethods »](function.openssl-get-md-methods.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Список доступних кривих імен для ECC
     
@@ -28,12 +28,12 @@ openssl_get_curve_names(): array|false
 **Наближені еквівалентності розмірів ключів AES, RSA, DSA та ECC**
 
 | AES размер симметричного ключа (Биты) | Размер ключа RSA и DSA (Биты) | Размер ключа ECC (Биты) |
-|---------------------------------------|-------------------------------|-------------------------|
-|                                       |                               |                         |
-|                                       |                               |                         |
-|                                       |                               |                         |
-|                                       |                               |                         |
-|                                       |                               |                         |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
 [» NIST рекомендує використовувати криві ECC як мінімум у 256 біт](http://dx.doi.org/10.6028/NIST.SP.800-57pt1r4)
 

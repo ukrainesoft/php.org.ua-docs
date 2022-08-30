@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](mqseries.configure.html)
+-   [« Установка](mqseries.configure.md)
     
--   [Типы ресурсов »](mqseries.resources.html)
+-   [Типи ресурсів »](mqseries.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mqseries.setup.html)
+-   [Встановлення та налаштування](mqseries.setup.md)
     
 -   Налаштування під час виконання
     

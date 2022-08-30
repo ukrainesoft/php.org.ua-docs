@@ -1,26 +1,26 @@
 mqseries
 
--   [« MemcachedException](class.memcachedexception.html)
+-   [« MemcachedException](class.memcachedexception.md)
     
--   [Введение »](intro.mqseries.html)
+-   [Введение »](intro.mqseries.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Другие службы](refs.remote.other.html)
+-   [Інші служби](refs.remote.other.md)
     
 -   mqseries
     
 
 # mqseries
 
--   [Введение](intro.mqseries.html)
--   [Установка и настройка](mqseries.setup.html)
-    -   [Требования](mqseries.requirements.html)
-    -   [Установка](mqseries.configure.html)
-    -   [Настройка во время выполнения](mqseries.ini.html)
-    -   [Типы ресурсов](mqseries.resources.html)
--   [Предопределённые константы](mqseries.constants.html)
--   [Функции mqseries](ref.mqseries.html)
+-   [Введение](intro.mqseries.md)
+-   [Встановлення та налаштування](mqseries.setup.md)
+    -   [Вимоги](mqseries.requirements.md)
+    -   [Установка](mqseries.configure.md)
+    -   [Налаштування під час виконання](mqseries.ini.md)
+    -   [Типи ресурсів](mqseries.resources.md)
+-   [Обумовлені константи](mqseries.constants.md)
+-   [Функции mqseries](ref.mqseries.md)
     -   [mqseriesback](function.mqseries-back.html) - MQSeries MQBACK
     -   [mqseriesbegin](function.mqseries-begin.html) - MQseries MQBEGIN
     -   [mqseriesclose](function.mqseries-close.html) - MQSeries MQCLOSE

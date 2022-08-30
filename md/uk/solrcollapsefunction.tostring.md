@@ -1,12 +1,12 @@
 Повертає рядок, що представляє побудовану функцію згортання
 
--   [« SolrCollapseFunction::setSize](solrcollapsefunction.setsize.html)
+-   [« SolrCollapseFunction::setSize](solrcollapsefunction.setsize.md)
     
--   [SolrException »](class.solrexception.html)
+-   [SolrException »](class.solrexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrCollapseFunction](class.solrcollapsefunction.html)
+-   [SolrCollapseFunction](class.solrcollapsefunction.md)
     
 -   Повертає рядок, що представляє побудовану функцію згортання
     

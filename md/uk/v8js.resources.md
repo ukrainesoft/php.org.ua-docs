@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](v8js.configuration.html)
+-   [« Налаштування під час виконання](v8js.configuration.md)
     
--   [Примеры »](v8js.examples.html)
+-   [Приклади »](v8js.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](v8js.setup.html)
+-   [Встановлення та налаштування](v8js.setup.md)
     
 -   Типи ресурсів
     

@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONInt64::jsonSerialize »](mongodb-bson-int64.jsonserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONInt64](class.mongodb-bson-int64.html)
     
@@ -31,4 +31,4 @@ final private MongoDB\BSON\Int64::__construct()
 
 ### Дивіться також
 
--   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

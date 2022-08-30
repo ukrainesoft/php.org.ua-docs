@@ -1,12 +1,12 @@
 Початок навігації по нащадкам елемента
 
--   [« RecursiveTreeIterator](class.recursivetreeiterator.html)
+-   [« RecursiveTreeIterator](class.recursivetreeiterator.md)
     
--   [RecursiveTreeIterator::beginIteration »](recursivetreeiterator.beginiteration.html)
+-   [RecursiveTreeIterator::beginIteration »](recursivetreeiterator.beginiteration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+-   [RecursiveTreeIterator](class.recursivetreeiterator.md)
     
 -   Початок навігації по нащадкам елемента
     

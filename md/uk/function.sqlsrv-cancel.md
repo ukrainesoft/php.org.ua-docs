@@ -4,9 +4,9 @@
     
 -   [sqlsrvclientinfo »](function.sqlsrv-client-info.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.md)
     
 -   Скасує оператор
     

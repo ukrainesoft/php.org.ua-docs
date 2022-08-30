@@ -1,12 +1,12 @@
 Зміна тимчасової мітки
 
--   [« DateTime::getLastErrors](datetime.getlasterrors.html)
+-   [« DateTime::getLastErrors](datetime.getlasterrors.md)
     
 -   [DateTime::setstate »](datetime.set-state.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTime](class.datetime.html)
+-   [DateTime](class.datetime.md)
     
 -   Зміна тимчасової мітки
     
@@ -33,21 +33,21 @@ public DateTime::modify(string $modifier): DateTime|false
 date_modify(DateTime $object, string $modifier): DateTime|false
 ```
 
-Змінює мітку часу об'єкта DateTime шляхом додавання або віднімання часу у форматі, прийнятому для функції [DateTimeImmutable::construct()](datetimeimmutable.construct.html)
+Змінює мітку часу об'єкта DateTime шляхом додавання або віднімання часу у форматі, прийнятому для функції [DateTimeImmutable::construct()](datetimeimmutable.construct.md)
 
 ### Список параметрів
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [datecreate()](function.date-create.html). Функція змінює цей об'єкт.
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.html). Функція змінює цей об'єкт.
 
 `modifier`
 
-Рядок дати/часу. Пояснення коректних форматів наведено в розділі [Форматы даты и времени](datetime.formats.html)
+Рядок дати/часу. Пояснення коректних форматів наведено в розділі [Формати дати та часу](datetime.formats.md)
 
 ### Значення, що повертаються
 
-Повертає модифікований об'єкт [DateTime](class.datetime.html) для застосування в ланцюгу методів або **`false`** у разі виникнення помилки.
+Повертає модифікований об'єкт [DateTime](class.datetime.md) для застосування в ланцюгу методів або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -102,11 +102,11 @@ echo $date->format('Y-m-d') . "\n";
 
 ### Дивіться також
 
--   [strtotime()](function.strtotime.html) - Перетворює текстове подання дати англійською мовою на позначку часу Unix
--   [DateTimeImmutable::modify()](datetimeimmutable.modify.html) - Створює новий об'єкт із зміненою тимчасовою міткою
--   [DateTime::add()](datetime.add.html) - Змінює об'єкт DateTime, додаючи кількість днів, місяців, років, годин, хвилин та секунд
--   [DateTime::sub()](datetime.sub.html) - Змінює вказаний об'єкт DateTime, віднімаючи вказаний об'єкт DateInterval.
--   [DateTime::setDate()](datetime.setdate.html) - Встановлює дату
--   [DateTime::setISODate()](datetime.setisodate.html) - Встановлює дату у форматі ISO
--   [DateTime::setTime()](datetime.settime.html) - Встановлює час
--   [DateTime::setTimestamp()](datetime.settimestamp.html) - Встановлює дату та час на основі мітки часу Unix
+-   [strtotime()](function.strtotime.md) - Перетворює текстове подання дати англійською мовою на позначку часу Unix
+-   [DateTimeImmutable::modify()](datetimeimmutable.modify.md) - Створює новий об'єкт із зміненою тимчасовою міткою
+-   [DateTime::add()](datetime.add.md) - Змінює об'єкт DateTime, додаючи кількість днів, місяців, років, годин, хвилин та секунд
+-   [DateTime::sub()](datetime.sub.md) - Змінює вказаний об'єкт DateTime, віднімаючи вказаний об'єкт DateInterval.
+-   [DateTime::setDate()](datetime.setdate.md) - Встановлює дату
+-   [DateTime::setISODate()](datetime.setisodate.md) - Встановлює дату у форматі ISO
+-   [DateTime::setTime()](datetime.settime.md) - Встановлює час
+-   [DateTime::setTimestamp()](datetime.settimestamp.md) - Встановлює дату та час на основі мітки часу Unix

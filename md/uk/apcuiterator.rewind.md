@@ -1,12 +1,12 @@
 Перемотування ітератора
 
--   [« APCUIterator::next](apcuiterator.next.html)
+-   [« APCUIterator::next](apcuiterator.next.md)
     
--   [APCUIterator::valid »](apcuiterator.valid.html)
+-   [APCUIterator::valid »](apcuiterator.valid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [APCUIterator](class.apcuiterator.html)
+-   [APCUIterator](class.apcuiterator.md)
     
 -   Перемотування ітератора
     
@@ -35,5 +35,5 @@ public APCUIterator::rewind(): void
 
 ### Дивіться також
 
--   [APCUIterator::next()](apcuiterator.next.html) - Переміщує покажчик на наступний елемент
--   [Iterator::next()](iterator.next.html) - Переходить до наступного елементу
+-   [APCUIterator::next()](apcuiterator.next.md) - Переміщує покажчик на наступний елемент
+-   [Iterator::next()](iterator.next.md) - Переходить до наступного елементу

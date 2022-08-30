@@ -1,12 +1,12 @@
 Додає випадковий шум до зображення
 
--   [« Gmagick::addimage](gmagick.addimage.html)
+-   [« Gmagick::addimage](gmagick.addimage.md)
     
--   [Gmagick::annotateimage »](gmagick.annotateimage.html)
+-   [Gmagick::annotateimage »](gmagick.annotateimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Додає випадковий шум до зображення
     

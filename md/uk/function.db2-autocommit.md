@@ -4,7 +4,7 @@
     
 -   [db2bindparam »](function.db2-bind-param.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Функції IBM DB2](ref.ibm-db2.html)
     

@@ -4,7 +4,7 @@
     
 -   [ОЙDrawPen::save »](ui-draw-pen.save.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawPen](class.ui-draw-pen.html)
     

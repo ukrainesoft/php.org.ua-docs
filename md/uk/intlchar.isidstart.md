@@ -1,12 +1,12 @@
 Перевірити, чи можна використовувати символ на початку ідентифікатора
 
--   [« IntlChar::isIDPart](intlchar.isidpart.html)
+-   [« IntlChar::isIDPart](intlchar.isidpart.md)
     
--   [IntlChar::isISOControl »](intlchar.isisocontrol.html)
+-   [IntlChar::isISOControl »](intlchar.isisocontrol.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити, чи можна використовувати символ на початку ідентифікатора
     
@@ -61,6 +61,6 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isalpha()](intlchar.isalpha.html) - Перевірити, чи є символ літерою
--   [IntlChar::isIDPart()](intlchar.isidpart.html) - Перевірити, чи можна використовувати символ в ідентифікаторі
+-   [IntlChar::isalpha()](intlchar.isalpha.md) - Перевірити, чи є символ літерою
+-   [IntlChar::isIDPart()](intlchar.isidpart.md) - Перевірити, чи можна використовувати символ в ідентифікаторі
 -   **`IntlChar::PROPERTY_ID_START`**

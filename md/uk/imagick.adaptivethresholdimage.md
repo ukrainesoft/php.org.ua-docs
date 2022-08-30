@@ -1,12 +1,12 @@
 Вибір порога кожного пікселя в залежності від діапазону інтенсивності
 
--   [« Imagick::adaptiveSharpenImage](imagick.adaptivesharpenimage.html)
+-   [« Imagick::adaptiveSharpenImage](imagick.adaptivesharpenimage.md)
     
--   [Imagick::addImage »](imagick.addimage.html)
+-   [Imagick::addImage »](imagick.addimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Вибір порога кожного пікселя в залежності від діапазону інтенсивності
     

@@ -1,12 +1,12 @@
 Встановлює часовий пояс для об'єкта класу DateTime
 
--   [« DateTime::setTimestamp](datetime.settimestamp.html)
+-   [« DateTime::setTimestamp](datetime.settimestamp.md)
     
--   [DateTime::sub »](datetime.sub.html)
+-   [DateTime::sub »](datetime.sub.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTime](class.datetime.html)
+-   [DateTime](class.datetime.md)
     
 -   Встановлює часовий пояс для об'єкта класу DateTime
     
@@ -33,25 +33,25 @@ public DateTime::setTimezone(DateTimeZone $timezone): DateTime
 date_timezone_set(DateTime $object, DateTimeZone $timezone): DateTime
 ```
 
-Встановлює новий часовий пояс для об'єкта (object) [DateTime](class.datetime.html)
+Встановлює новий часовий пояс для об'єкта (object) [DateTime](class.datetime.md)
 
-Подібний до методу [DateTimeImmutable::setTimezone()](datetimeimmutable.settimezone.html), крім роботи з об'єктом [DateTime](class.datetime.html)
+Подібний до методу [DateTimeImmutable::setTimezone()](datetimeimmutable.settimezone.md), крім роботи з об'єктом [DateTime](class.datetime.md)
 
-Процедурна версія приймає об'єкт [DateTime](class.datetime.html) як перший аргумент.
+Процедурна версія приймає об'єкт [DateTime](class.datetime.md) як перший аргумент.
 
 ### Список параметрів
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [datecreate()](function.date-create.html). Функція змінює цей об'єкт.
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.html). Функція змінює цей об'єкт.
 
 `timezone`
 
-Об'єкт класу [DateTimeZone](class.datetimezone.html), що представляє необхідний часовий пояс.
+Об'єкт класу [DateTimeZone](class.datetimezone.md), що представляє необхідний часовий пояс.
 
 ### Значення, що повертаються
 
-Повертає об'єкт [DateTime](class.datetime.html) для зв'язування методів. Момент часу, що лежить в основі, не змінюється при виклику методу.
+Повертає об'єкт [DateTime](class.datetime.md) для зв'язування методів. Момент часу, що лежить в основі, не змінюється при виклику методу.
 
 ### Приклади
 
@@ -90,6 +90,6 @@ echo date_format($date, 'Y-m-d H:i:sP') . "\n";
 
 ### Дивіться також
 
--   [DateTimeImmutable::setTimezone()](datetimeimmutable.settimezone.html) - Встановлює часовий пояс
--   [DateTime::getTimezone()](datetime.gettimezone.html) - Повертає часовий пояс щодо поточного значення DateTime
--   [DateTimeZone::construct()](datetimezone.construct.html) - Створює новий об'єкт DateTimeZone
+-   [DateTimeImmutable::setTimezone()](datetimeimmutable.settimezone.md) - Встановлює часовий пояс
+-   [DateTime::getTimezone()](datetime.gettimezone.md) - Повертає часовий пояс щодо поточного значення DateTime
+-   [DateTimeZone::construct()](datetimezone.construct.md) - Створює новий об'єкт DateTimeZone

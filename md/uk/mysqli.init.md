@@ -1,12 +1,12 @@
 Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
 
--   [« mysqli::$info](mysqli.info.html)
+-   [« mysqli::$info](mysqli.info.md)
     
 -   [mysqli::$insertid »](mysqli.insert-id.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
     
@@ -33,11 +33,11 @@ public mysqli::init(): ?bool
 mysqli_init(): mysqli|false
 ```
 
-Виділяє пам'ять або ініціалізує об'єкт MySQL, придатний для використання у функціях [mysqlioptions()](mysqli.options.html)
+Виділяє пам'ять або ініціалізує об'єкт MySQL, придатний для використання у функціях [mysqlioptions()](mysqli.options.md)
 
 > **Зауваження**
 > 
-> Будь-які подальші виклики mysqli-функцій із цим ресурсом (крім [mysqlioptions()](mysqli.options.html)) зазнають невдачі, доки не буде викликана функція [mysqlirealconnect()](mysqli.real-connect.html)
+> Будь-які подальші виклики mysqli-функцій із цим ресурсом (крім [mysqlioptions()](mysqli.options.md)) зазнають невдачі, доки не буде викликана функція [mysqlirealconnect()](mysqli.real-connect.html)
 
 ### Список параметрів
 
@@ -49,9 +49,9 @@ mysqli_init(): mysqli|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Об'єктно-орієнтований стиль виклику методу **mysqli::init()** застарів. Замініть виклик методу **parent::init()** за допомогою **parent::construct()** |
+| Версия | Описание |
+| --- | --- |
+|  | Об'єктно-орієнтований стиль виклику методу **mysqli::init()** застарів. Замініть виклик методу **parent::init()** за допомогою **parent::construct()** |
 
 ### Приклади
 
@@ -59,7 +59,7 @@ mysqli_init(): mysqli|false
 
 ### Дивіться також
 
--   [mysqlioptions()](mysqli.options.html) - Встановлення налаштувань
--   [mysqliclose()](mysqli.close.html) - Закриває раніше відкрите з'єднання з базою даних
+-   [mysqlioptions()](mysqli.options.md) - Встановлення налаштувань
+-   [mysqliclose()](mysqli.close.md) - Закриває раніше відкрите з'єднання з базою даних
 -   [mysqlirealconnect()](mysqli.real-connect.html) - Встановлює з'єднання із сервером mysql
 -   [mysqliconnect()](function.mysqli-connect.html) - Псевдонім mysqli::construct

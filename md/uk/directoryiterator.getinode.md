@@ -1,12 +1,12 @@
 Повертає inode поточного елемента DirectoryIterator
 
--   [« DirectoryIterator::getGroup](directoryiterator.getgroup.html)
+-   [« DirectoryIterator::getGroup](directoryiterator.getgroup.md)
     
--   [DirectoryIterator::getMTime »](directoryiterator.getmtime.html)
+-   [DirectoryIterator::getMTime »](directoryiterator.getmtime.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DirectoryIterator](class.directoryiterator.html)
+-   [DirectoryIterator](class.directoryiterator.md)
     
 -   Повертає inode поточного елемента DirectoryIterator
     
@@ -23,7 +23,7 @@ DirectoryIterator::getInode — Повертає inode поточного еле
 public DirectoryIterator::getInode(): int
 ```
 
-Повертає inode поточного елемента [DirectoryIterator](class.directoryiterator.html)
+Повертає inode поточного елемента [DirectoryIterator](class.directoryiterator.md)
 
 ### Список параметрів
 
@@ -48,7 +48,7 @@ echo $iterator->getInode();
 
 ### Дивіться також
 
--   [DirectoryIterator::getGroup()](directoryiterator.getgroup.html) - Повертає ідентифікатор групи поточного елемента DirectoryIterator
--   [DirectoryIterator::getOwner()](directoryiterator.getowner.html) - Повертає ідентифікатор власника поточного елемента DirectoryIterator
--   [DirectoryIterator::getPerms()](directoryiterator.getperms.html) - Повертає набір прав для поточного елемента DirectoryIterator item
--   [fileinode()](function.fileinode.html) - Повертає індексний дескриптор файлу
+-   [DirectoryIterator::getGroup()](directoryiterator.getgroup.md) - Повертає ідентифікатор групи поточного елемента DirectoryIterator
+-   [DirectoryIterator::getOwner()](directoryiterator.getowner.md) - Повертає ідентифікатор власника поточного елемента DirectoryIterator
+-   [DirectoryIterator::getPerms()](directoryiterator.getperms.md) - Повертає набір прав для поточного елемента DirectoryIterator item
+-   [fileinode()](function.fileinode.md) - Повертає індексний дескриптор файлу

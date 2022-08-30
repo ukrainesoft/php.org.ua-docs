@@ -1,12 +1,12 @@
 Отримання розширення файлу для типу зображення
 
--   [« getimagesizefromstring](function.getimagesizefromstring.html)
+-   [« getimagesizefromstring](function.getimagesizefromstring.md)
     
 -   [imagetypeтоmimetype »](function.image-type-to-mime-type.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Отримання розширення файлу для типу зображення
     

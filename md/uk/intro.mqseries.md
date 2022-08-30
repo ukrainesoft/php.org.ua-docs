@@ -2,7 +2,7 @@
 
 -   [« mqseries](book.mqseries.html)
     
--   [Установка и настройка »](mqseries.setup.html)
+-   [Встановлення та налаштування »](mqseries.setup.html)
     
 -   [PHP Manual](index.html)
     

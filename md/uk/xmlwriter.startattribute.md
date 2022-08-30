@@ -1,12 +1,12 @@
 Створити початковий атрибут
 
--   [« XMLWriter::setIndentString](xmlwriter.setindentstring.html)
+-   [« XMLWriter::setIndentString](xmlwriter.setindentstring.md)
     
--   [XMLWriter::startAttributeNs »](xmlwriter.startattributens.html)
+-   [XMLWriter::startAttributeNs »](xmlwriter.startattributens.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](class.xmlwriter.html)
+-   [XMLWriter](class.xmlwriter.md)
     
 -   Створити початковий атрибут
     
@@ -39,7 +39,7 @@ xmlwriter_start_attribute(XMLWriter $writer, string $name): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `name`
 
@@ -51,9 +51,9 @@ xmlwriter_start_attribute(XMLWriter $writer, string $name): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -81,7 +81,7 @@ $writer->endDocument();
 
 ### Дивіться також
 
--   [XMLWriter::startAttributeNs()](xmlwriter.startattributens.html) - Створити стартовий атрибут простору імен
--   [XMLWriter::endAttribute()](xmlwriter.endattribute.html) - Завершити атрибут
--   [XMLWriter::writeAttribute()](xmlwriter.writeattribute.html) - Записати повний атрибут
--   [XMLWriter::writeAttributeNs()](xmlwriter.writeattributens.html) - Записати повний атрибут простору імен
+-   [XMLWriter::startAttributeNs()](xmlwriter.startattributens.md) - Створити стартовий атрибут простору імен
+-   [XMLWriter::endAttribute()](xmlwriter.endattribute.md) - Завершити атрибут
+-   [XMLWriter::writeAttribute()](xmlwriter.writeattribute.md) - Записати повний атрибут
+-   [XMLWriter::writeAttributeNs()](xmlwriter.writeattributens.md) - Записати повний атрибут простору імен

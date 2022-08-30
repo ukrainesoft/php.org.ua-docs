@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](xmlrpc.configuration.html)
+-   [« Налаштування під час виконання](xmlrpc.configuration.html)
     
--   [Предопределённые константы »](xmlrpc.constants.html)
+-   [Обумовлені константи »](xmlrpc.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](xmlrpc.setup.html)
+-   [Встановлення та налаштування](xmlrpc.setup.html)
     
 -   Типи ресурсів
     

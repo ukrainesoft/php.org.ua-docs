@@ -4,7 +4,7 @@
     
 -   [ОЙControlsEditableCombo::setText »](ui-controls-editablecombo.settext.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsEditableCombo](class.ui-controls-editablecombo.html)
     

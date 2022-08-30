@@ -1,12 +1,12 @@
 Перевіряє, чи є поточний елемент допустимим
 
--   [« SimpleXMLIterator::rewind](simplexmliterator.rewind.html)
+-   [« SimpleXMLIterator::rewind](simplexmliterator.rewind.md)
     
--   [Функции SimpleXML »](ref.simplexml.html)
+-   [Функции SimpleXML »](ref.simplexml.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXMLIterator](class.simplexmliterator.html)
+-   [SimpleXMLIterator](class.simplexmliterator.md)
     
 -   Перевіряє, чи є поточний елемент допустимим
     
@@ -23,7 +23,7 @@ SimpleXMLIterator::valid — Перевіряє, чи поточний елем�
 public SimpleXMLIterator::valid(): bool
 ```
 
-Цей метод перевіряє, чи поточний елемент є допустимим після виклику [SimpleXMLIterator::rewind()](simplexmliterator.rewind.html) або [SimpleXMLIterator::next()](simplexmliterator.next.html)
+Цей метод перевіряє, чи поточний елемент є допустимим після виклику [SimpleXMLIterator::rewind()](simplexmliterator.rewind.md) або [SimpleXMLIterator::next()](simplexmliterator.next.md)
 
 ### Список параметрів
 

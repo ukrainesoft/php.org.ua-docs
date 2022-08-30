@@ -1,12 +1,12 @@
 Вступ
 
--   [« IMAP](book.imap.html)
+-   [« IMAP](book.imap.md)
     
--   [Установка и настройка »](imap.setup.html)
+-   [Встановлення та налаштування »](imap.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IMAP](book.imap.html)
+-   [IMAP](book.imap.md)
     
 -   Вступ
     

@@ -4,9 +4,9 @@
     
 -   [curlmultiaddhandle »](function.curl-multi-add-handle.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции cURL](ref.curl.html)
+-   [Функции cURL](ref.curl.md)
     
 -   Ініціалізує сеанс cURL
     
@@ -41,10 +41,10 @@ curl_init(?string $url = null): CurlHandle|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                 |
-|--------|--------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання повертає екземпляр [CurlHandle](class.curlhandle.html); раніше, повертався ресурс (resource). |
-|        | `url` тепер допускає значення null.                                                                                      |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання повертає екземпляр [CurlHandle](class.curlhandle.md); раніше, повертався ресурс (resource). |
+|  | `url` тепер допускає значення null. |
 
 ### Приклади
 

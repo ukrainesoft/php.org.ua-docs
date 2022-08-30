@@ -1,12 +1,12 @@
 Встановлює кольоровість зображення червоною основною точкою
 
--   [« Gmagick::setimageprofile](gmagick.setimageprofile.html)
+-   [« Gmagick::setimageprofile](gmagick.setimageprofile.md)
     
--   [Gmagick::setimagerenderingintent »](gmagick.setimagerenderingintent.html)
+-   [Gmagick::setimagerenderingintent »](gmagick.setimagerenderingintent.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Встановлює кольоровість зображення червоною основною точкою
     

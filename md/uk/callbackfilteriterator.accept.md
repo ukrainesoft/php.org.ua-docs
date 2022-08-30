@@ -1,12 +1,12 @@
 Викликає callback-функцію та передає їй як аргументи поточне значення, поточний ключ та внутрішній покажчик
 
--   [« CallbackFilterIterator](class.callbackfilteriterator.html)
+-   [« CallbackFilterIterator](class.callbackfilteriterator.md)
     
--   [CallbackFilterIterator::construct »](callbackfilteriterator.construct.html)
+-   [CallbackFilterIterator::construct »](callbackfilteriterator.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CallbackFilterIterator](class.callbackfilteriterator.html)
+-   [CallbackFilterIterator](class.callbackfilteriterator.md)
     
 -   Викликає callback-функцію та передає їй як аргументи поточне значення, поточний ключ та внутрішній покажчик
     
@@ -37,5 +37,5 @@ Callback-функція має повертати **`true`**, якщо пото�
 
 ### Дивіться також
 
--   [Примеры использования CallbackFilterIterator](class.callbackfilteriterator.html#callbackfilteriterator.examples)
--   [CallbackFilterIterator::construct()](callbackfilteriterator.construct.html) - Створює фільтруючий ітератор на основі іншого ітератора
+-   [Приклади використання CallbackFilterIterator](class.callbackfilteriterator.html#callbackfilteriterator.examples)
+-   [CallbackFilterIterator::construct()](callbackfilteriterator.construct.md) - Створює фільтруючий ітератор на основі іншого ітератора

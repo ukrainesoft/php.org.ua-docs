@@ -1,12 +1,12 @@
 Створює завдання (застарілий метод)
 
--   [« GearmanTask::construct](gearmantask.construct.html)
+-   [« GearmanTask::construct](gearmantask.construct.md)
     
--   [GearmanTask::data »](gearmantask.data.html)
+-   [GearmanTask::data »](gearmantask.data.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanTask](class.gearmantask.html)
+-   [GearmanTask](class.gearmantask.md)
     
 -   Створює завдання (застарілий метод)
     
@@ -23,7 +23,7 @@ GearmanTask::create — Створює завдання (застарілий м
 public GearmanTask::create(): GearmanTask|false
 ```
 
-Повертає новий об'єкт класу [GearmanTask](class.gearmantask.html)
+Повертає новий об'єкт класу [GearmanTask](class.gearmantask.md)
 
 > **Зауваження**
 > 
@@ -35,4 +35,4 @@ public GearmanTask::create(): GearmanTask|false
 
 ### Значення, що повертаються
 
-Об'єкт класу [GearmanTask](class.gearmantask.html) або **`false`** у разі виникнення помилки.
+Об'єкт класу [GearmanTask](class.gearmantask.md) або **`false`** у разі виникнення помилки.

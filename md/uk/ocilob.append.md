@@ -1,12 +1,12 @@
 Додає дані з об'єкта LOB до кінця іншого об'єкта
 
--   [« OCILob](class.ocilob.html)
+-   [« OCILob](class.ocilob.md)
     
--   [OCILob::close »](ocilob.close.html)
+-   [OCILob::close »](ocilob.close.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCILob](class.ocilob.html)
+-   [OCILob](class.ocilob.md)
     
 -   Додає дані з об'єкта LOB до кінця іншого об'єкта
     
@@ -25,7 +25,7 @@ public OCILob::append(OCILob $from): bool
 
 Додає до кінця об'єкта LOB дані з іншого об'єкта LOB.
 
-Запис в LOB за допомогою цього методу викликає помилку, якщо об'єкт раніше був включений режим буферизації. Тому ви повинні вимкнути буферизацію перед її застосуванням. Перед вимкненням буферизації вам може знадобитися метод [OCILob::flush](ocilob.flush.html) для очищення буфера
+Запис в LOB за допомогою цього методу викликає помилку, якщо об'єкт раніше був включений режим буферизації. Тому ви повинні вимкнути буферизацію перед її застосуванням. Перед вимкненням буферизації вам може знадобитися метод [OCILob::flush](ocilob.flush.md) для очищення буфера
 
 ### Список параметрів
 
@@ -39,12 +39,12 @@ public OCILob::append(OCILob $from): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                                |
-|------------------------|---------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
--   [OCILob::flush](ocilob.flush.html)
--   [OCILob::setBuffering](ocilob.setbuffering.html)
--   [OCILob::getBuffering](ocilob.getbuffering.html)
+-   [OCILob::flush](ocilob.flush.md)
+-   [OCILob::setBuffering](ocilob.setbuffering.md)
+-   [OCILob::getBuffering](ocilob.getbuffering.md)

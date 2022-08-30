@@ -1,6 +1,6 @@
 Функції BC Math
 
--   [« Предопределённые константы](bc.constants.html)
+-   [« Обумовлені константи](bc.constants.html)
     
 -   [bcadd »](function.bcadd.html)
     

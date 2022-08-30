@@ -70,7 +70,7 @@ $poll = new ZMQPoll();
 $id = $poll->add($server, ZMQ::POLL_IN | ZMQ::POLL_OUT);
 echo "Added object with id " . $id . "\n";
 
-/* Инициализируем массив читаемых и записываемых элементов */
+/* Инициализируем Масив читаемых и записываемых элементов */
 $readable = array();
 $writable = array();
 

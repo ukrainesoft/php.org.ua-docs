@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](varnish.resources.html)
+-   [« Типи ресурсів](varnish.resources.md)
     
--   [Примеры »](varnish.examples.html)
+-   [Приклади »](varnish.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Varnish](book.varnish.html)
+-   [Varnish](book.varnish.md)
     
 -   Обумовлені константи
     

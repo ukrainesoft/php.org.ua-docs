@@ -2,11 +2,11 @@
 
 -   [« Нові функції](migration72.new-functions.html)
     
--   [Зміни, що ламають зворотну сумісність »](migration72.incompatible.html)
+-   [Зміни, що ламають зворотну сумісність »](migration72.incompatible.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 7.1.x на PHP 7.2.x](migration72.html)
+-   [Миграция с PHP 7.1.x на PHP 7.2.x](migration72.md)
     
 -   Нові глобальні константи
     
@@ -21,21 +21,21 @@
 -   [**`PHP_FLOAT_MAX`**](reserved.constants.html#constant.php-float-max)
 -   [**`PHP_OS_FAMILY`**](reserved.constants.html#constant.php-os-family)
 
-### [Інформація про файл](book.fileinfo.html)
+### [Інформація про файл](book.fileinfo.md)
 
 -   [**`FILEINFO_EXTENSION`**](fileinfo.constants.html#constant.fileinfo-extension)
 
-### [JSON](book.json.html)
+### [JSON](book.json.md)
 
 -   **`JSON_INVALID_UTF8_IGNORE`**
 -   **`JSON_INVALID_UTF8_SUBSTITUTE`**
 
-### [ДД](book.image.html)
+### [ДД](book.image.md)
 
 -   [**`IMG_EFFECT_MULTIPLY`**](image.constants.html#constant.img-effect-multiply)
 -   [**`IMG_BMP`**](image.constants.html#constant.img-bmp)
 
-### [LDAP](book.ldap.html)
+### [LDAP](book.ldap.md)
 
 -   [**`LDAP_EXOP_START_TLS`**](ldap.constants.html#constant.ldap-exop-start-tls)
 -   [**`LDAP_EXOP_MODIFY_PASSWD`**](ldap.constants.html#constant.ldap-exop-modify-passwd)
@@ -43,24 +43,24 @@
 -   [**`LDAP_EXOP_WHO_AM_I`**](ldap.constants.html#constant.ldap-exop-who-am-i)
 -   [**`LDAP_EXOP_TURN`**](ldap.constants.html#constant.ldap-exop-turn)
 
-### [Хеширование пароля](book.password.html)
+### [Хеширование пароля](book.password.md)
 
 -   [**`PASSWORD_ARGON2I`**](password.constants.html#constant.password-argon2i)
 -   [**`PASSWORD_ARGON2_DEFAULT_MEMORY_COST`**](password.constants.html#constant.password-argon2-default-memory-cost)
 -   [**`PASSWORD_ARGON2_DEFAULT_TIME_COST`**](password.constants.html#constant.password-argon2-default-time-cost)
 -   [**`PASSWORD_ARGON2_DEFAULT_THREADS`**](password.constants.html#constant.password-argon2-default-threads)
 
-### [PCRE](book.pcre.html)
+### [PCRE](book.pcre.md)
 
 -   **`PREG_UNMATCHED_AS_NULL`**
 
-### [PDO](book.pdo.html)
+### [PDO](book.pdo.md)
 
 -   [**`PDO::PARAM_STR_NATL`**](pdo.constants.html#pdo.constants.param-str-natl)
 -   [**`PDO::PARAM_STR_CHAR`**](pdo.constants.html#pdo.constants.param-str-char)
 -   [**`PDO::ATTR_DEFAULT_STR_PARAM`**](pdo.constants.html#pdo.constants.attr-default-str-param)
 
-### [Sodium](book.sodium.html)
+### [Sodium](book.sodium.md)
 
 -   [**`SODIUM_LIBRARY_VERSION`**](sodium.constants.html#constant.sodium-library-version)
 -   [**`SODIUM_LIBRARY_MAJOR_VERSION`**](sodium.constants.html#constant.sodium-library-major-version)
@@ -132,7 +132,7 @@
 -   [**`SODIUM_CRYPTO_STREAM_NONCEBYTES`**](sodium.constants.html#constant.sodium-crypto-stream-noncebytes)
 -   [**`SODIUM_CRYPTO_STREAM_KEYBYTES`**](sodium.constants.html#constant.sodium-crypto-stream-keybytes)
 
-### [Zip](book.zip.html)
+### [Zip](book.zip.md)
 
 -   [**`ZipArchive::EM_NONE`**](zip.constants.html#ziparchive.constants.em-none)
 -   [**`ZipArchive::EM_AES_128`**](zip.constants.html#ziparchive.constants.em-aez-128)

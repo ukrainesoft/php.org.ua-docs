@@ -1,12 +1,12 @@
 Конструктор об'єкта PharData
 
--   [« PharData::compressFiles](phardata.compressfiles.html)
+-   [« PharData::compressFiles](phardata.compressfiles.md)
     
--   [PharData::convertToData »](phardata.converttodata.html)
+-   [PharData::convertToData »](phardata.converttodata.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharData](class.phardata.html)
+-   [PharData](class.phardata.md)
     
 -   Конструктор об'єкта PharData
     
@@ -33,7 +33,7 @@ int `$format`
 
 `flags`
 
-Прапори для передачі батьківському класу [Phar](class.phar.html) [RecursiveDirectoryIterator](class.recursivedirectoryiterator.html)
+Прапори для передачі батьківському класу [Phar](class.phar.md) [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
 
 `alias`
 
@@ -41,11 +41,11 @@ int `$format`
 
 `format`
 
-Одна з [констант формата файлов](phar.constants.html#phar.constants.fileformat) доступна для класу [Phar](class.phar.html)
+Одна з [констант формата файлов](phar.constants.html#phar.constants.fileformat) доступна для класу [Phar](class.phar.md)
 
 ### Помилки
 
-Викидає виняток [BadMethodCallException](class.badmethodcallexception.html), якщо викликаний двічі; Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.html)якщо Phar-архів неможливо відкрити.
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.md), якщо викликаний двічі; Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.md)якщо Phar-архів неможливо відкрити.
 
 ### Приклади
 

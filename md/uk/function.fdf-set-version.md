@@ -2,11 +2,11 @@
 
 -   [« fdfsetvalue](function.fdf-set-value.html)
     
--   [GnuPG »](book.gnupg.html)
+-   [GnuPG »](book.gnupg.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Встановлює номер версії для FDF
     

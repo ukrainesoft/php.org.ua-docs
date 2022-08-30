@@ -1,12 +1,12 @@
 Повертає шрифт
 
--   [« GmagickDraw::getfillopacity](gmagickdraw.getfillopacity.html)
+-   [« GmagickDraw::getfillopacity](gmagickdraw.getfillopacity.md)
     
--   [GmagickDraw::getfontsize »](gmagickdraw.getfontsize.html)
+-   [GmagickDraw::getfontsize »](gmagickdraw.getfontsize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickDraw](class.gmagickdraw.html)
+-   [GmagickDraw](class.gmagickdraw.md)
     
 -   Повертає шрифт
     

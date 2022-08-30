@@ -4,9 +4,9 @@
     
 -   [opcachereset »](function.opcache-reset.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OPcache](ref.opcache.html)
+-   [Функции OPcache](ref.opcache.md)
     
 -   Перевіряє, чи закешовано скрипт в OPCache
     

@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](mail.resources.html)
+-   [« Типи ресурсів](mail.resources.md)
     
--   [Почта »](ref.mail.html)
+-   [Почта »](ref.mail.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mail](book.mail.html)
+-   [Mail](book.mail.md)
     
 -   Обумовлені константи
     

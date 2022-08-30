@@ -4,9 +4,9 @@
     
 -   [mysqliconnect »](function.mysqli-connect.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQLi](book.mysqli.html)
+-   [MySQLi](book.mysqli.md)
     
 -   Синоніми та застарілі функції Mysqli
     

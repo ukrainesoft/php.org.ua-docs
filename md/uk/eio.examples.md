@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](eio.constants.html)
+-   [« Обумовлені константи](eio.constants.md)
     
--   [Eio Функции »](ref.eio.html)
+-   [Eio Функции »](ref.eio.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio](book.eio.html)
+-   [Eio](book.eio.md)
     
 -   Приклади
     

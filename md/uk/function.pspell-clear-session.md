@@ -4,9 +4,9 @@
     
 -   [pspellconfigcreate »](function.pspell-config-create.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Pspell](ref.pspell.html)
+-   [Функции Pspell](ref.pspell.md)
     
 -   Очищує поточну сесію
     
@@ -37,9 +37,9 @@ pspell_clear_session(PSpell\Dictionary $dictionary): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

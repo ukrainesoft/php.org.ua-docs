@@ -4,9 +4,9 @@
     
 -   [ісcallable »](function.is-callable.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи зі змінними](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.md)
     
 -   Перевіряє, чи є змінна булевою
     

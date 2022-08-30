@@ -1,12 +1,12 @@
 Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи
 
--   [« RecursiveFilterIterator::getChildren](recursivefilteriterator.getchildren.html)
+-   [« RecursiveFilterIterator::getChildren](recursivefilteriterator.getchildren.md)
     
--   [RecursiveIteratorIterator »](class.recursiveiteratoriterator.html)
+-   [RecursiveIteratorIterator »](class.recursiveiteratoriterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveFilterIterator](class.recursivefilteriterator.html)
+-   [RecursiveFilterIterator](class.recursivefilteriterator.md)
     
 -   Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи
     
@@ -35,5 +35,5 @@ public RecursiveFilterIterator::hasChildren(): bool
 
 ### Дивіться також
 
--   [RecursiveFilterIterator::getChildren()](recursivefilteriterator.getchildren.html) - Повертає дочірні елементи внутрішнього ітератора у вигляді об'єкта RecursiveFilterIterator
--   [RecursiveIterator::hasChildren()](recursiveiterator.haschildren.html) - Визначає, чи можна створити ітератор для поточного елемента.
+-   [RecursiveFilterIterator::getChildren()](recursivefilteriterator.getchildren.md) - Повертає дочірні елементи внутрішнього ітератора у вигляді об'єкта RecursiveFilterIterator
+-   [RecursiveIterator::hasChildren()](recursiveiterator.haschildren.md) - Визначає, чи можна створити ітератор для поточного елемента.

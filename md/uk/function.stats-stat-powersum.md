@@ -4,9 +4,9 @@
     
 -   [statsvariance »](function.stats-variance.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Повертає статечну суму вектора
     

@@ -1,12 +1,12 @@
 Знищує сесію
 
--   [« SessionHandlerInterface::close](sessionhandlerinterface.close.html)
+-   [« SessionHandlerInterface::close](sessionhandlerinterface.close.md)
     
--   [SessionHandlerInterface::gc »](sessionhandlerinterface.gc.html)
+-   [SessionHandlerInterface::gc »](sessionhandlerinterface.gc.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SessionHandlerInterface](class.sessionhandlerinterface.html)
+-   [SessionHandlerInterface](class.sessionhandlerinterface.md)
     
 -   Знищує сесію
     

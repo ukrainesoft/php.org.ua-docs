@@ -2,7 +2,7 @@
 
 -   [« Перечисления](language.enumerations.html)
     
--   [Основы перечислений »](language.enumerations.basics.html)
+-   [Основи перерахувань »](language.enumerations.basics.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Видаляє заголовок HTTP із заголовків запиту
 
--   [« EventHttpRequest::getUri](eventhttprequest.geturi.html)
+-   [« EventHttpRequest::getUri](eventhttprequest.geturi.md)
     
--   [EventHttpRequest::sendError »](eventhttprequest.senderror.html)
+-   [EventHttpRequest::sendError »](eventhttprequest.senderror.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpRequest](class.eventhttprequest.html)
+-   [EventHttpRequest](class.eventhttprequest.md)
     
 -   Видаляє заголовок HTTP із заголовків запиту
     
@@ -48,4 +48,4 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::addHeader()](eventhttprequest.addheader.html) - Додає заголовок HTTP до заголовків запиту
+-   [EventHttpRequest::addHeader()](eventhttprequest.addheader.md) - Додає заголовок HTTP до заголовків запиту

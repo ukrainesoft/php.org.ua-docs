@@ -1,12 +1,12 @@
 Повертає шлях до файлу у вигляді рядка
 
--   [« SplFileInfo::setInfoClass](splfileinfo.setinfoclass.html)
+-   [« SplFileInfo::setInfoClass](splfileinfo.setinfoclass.md)
     
--   [SplFileObject »](class.splfileobject.html)
+-   [SplFileObject »](class.splfileobject.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Повертає шлях до файлу у вигляді рядка
     

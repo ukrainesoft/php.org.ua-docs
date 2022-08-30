@@ -1,19 +1,19 @@
 Встановлення
 
--   [« Требования](memcache.requirements.html)
+-   [« Вимоги](memcache.requirements.md)
     
--   [Настройка во время выполнения »](memcache.ini.html)
+-   [Налаштування під час виконання »](memcache.ini.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](memcache.setup.html)
+-   [Встановлення та налаштування](memcache.setup.md)
     
 -   Встановлення
     
 
 ## Встановлення
 
-Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP. Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/memcache](https://pecl.php.net/package/memcache)
+Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP. Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/memcache](https://pecl.php.net/package/memcache)
 
 > **Зауваження**
 > 

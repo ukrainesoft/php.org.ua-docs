@@ -37,7 +37,7 @@ public Memcached::setMultiByKey(string $server_key, array $items, int $expiratio
 
 `expiration`
 
-Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Время хранения объекта](memcached.expiration.html)
+Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Час зберігання об'єкту](memcached.expiration.html)
 
 ### Значення, що повертаються
 

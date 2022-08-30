@@ -1,12 +1,12 @@
 Резервує місце на диску для файлу, що закачується
 
--   [« Функції FTP](ref.ftp.html)
+-   [« Функції FTP](ref.ftp.md)
     
 -   [ftpappend »](function.ftp-append.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.md)
     
 -   Резервує місце на диску для файлу, що закачується
     
@@ -49,9 +49,9 @@ ftp_alloc(FTP\Connection $ftp, int $size, string &$response = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                            |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

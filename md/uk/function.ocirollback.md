@@ -1,12 +1,12 @@
 Псевдонім ocirollback
 
--   [« ociresult](function.ociresult.html)
+-   [« ociresult](function.ociresult.md)
     
--   [ocirowcount »](function.ocirowcount.html)
+-   [ocirowcount »](function.ocirowcount.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Псевдонім ocirollback
     

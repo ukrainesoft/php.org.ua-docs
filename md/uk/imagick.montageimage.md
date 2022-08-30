@@ -41,7 +41,7 @@ public Imagick::montageImage(    ImagickDraw $draw,    string $tile_geom
 
 `mode`
 
-Режим кадрування мініатюр, дивіться [константы режима кадрирования](imagick.constants.html#imagick.constants.montagemode)
+Режим кадрування мініатюр, дивіться [константи режиму кадрування](imagick.constants.html#imagick.constants.montagemode)
 
 `frame`
 

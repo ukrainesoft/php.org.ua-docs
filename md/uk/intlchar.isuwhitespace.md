@@ -1,12 +1,12 @@
 Перевірити, чи має символ властивості WhiteSpace (пробіловий символ)
 
--   [« IntlChar::isUUppercase](intlchar.isuuppercase.html)
+-   [« IntlChar::isUUppercase](intlchar.isuuppercase.md)
     
--   [IntlChar::isWhitespace »](intlchar.iswhitespace.html)
+-   [IntlChar::isWhitespace »](intlchar.iswhitespace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити, чи має символ властивості WhiteSpace (пробіловий символ)
     
@@ -29,7 +29,7 @@ public static IntlChar::isUWhiteSpace(int|string $codepoint): ?bool
 
 > **Зауваження**
 > 
-> Відрізняється від [IntlChar::isspace()](intlchar.isspace.html) і [IntlChar::isWhitespace()](intlchar.iswhitespace.html)
+> Відрізняється від [IntlChar::isspace()](intlchar.isspace.md) і [IntlChar::isWhitespace()](intlchar.iswhitespace.md)
 
 ### Список параметрів
 
@@ -67,8 +67,8 @@ bool(true)
 
 ### Дивіться також
 
--   [IntlChar::isspace()](intlchar.isspace.html) - Перевіряє, чи є символ пробельним
--   [IntlChar::isWhitespace()](intlchar.iswhitespace.html) - Перевірити, чи є символ пробельним з точки зору ICU
--   [IntlChar::isJavaSpaceChar()](intlchar.isjavaspacechar.html) - Перевірити, чи є символ пробельним з точки зору Java
--   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.html) - Перевірити бінарну властивість Unicode для символу
+-   [IntlChar::isspace()](intlchar.isspace.md) - Перевіряє, чи є символ пробельним
+-   [IntlChar::isWhitespace()](intlchar.iswhitespace.md) - Перевірити, чи є символ пробельним з точки зору ICU
+-   [IntlChar::isJavaSpaceChar()](intlchar.isjavaspacechar.md) - Перевірити, чи є символ пробельним з точки зору Java
+-   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) - Перевірити бінарну властивість Unicode для символу
 -   **`IntlChar::PROPERTY_WHITE_SPACE`**

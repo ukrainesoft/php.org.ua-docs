@@ -2,7 +2,7 @@
 
 -   [« Список изменений](changelog.strings.html)
     
--   [Массивы »](book.array.html)
+-   [Масиви »](book.array.html)
     
 -   [PHP Manual](index.html)
     
@@ -13,49 +13,49 @@
 
 # Модулі, що відносяться до змінних та типів
 
--   [Массивы](book.array.html)
+-   [Масиви](book.array.html)
     -   [Введение](intro.array.html)
-    -   [Установка и настройка](array.setup.html)
-    -   [Предопределённые константы](array.constants.html)
+    -   [Встановлення та налаштування](array.setup.html)
+    -   [Обумовлені константи](array.constants.html)
     -   [Сортування масивів](array.sorting.html)
     -   [Функції для роботи з масивами](ref.array.html)
--   [Классы и объекты](book.classobj.html) — Інформація про клас та об'єкт
+-   [Класи та об'єкти](book.classobj.html) — Інформація про клас та об'єкт
     -   [Введение](intro.classobj.html)
-    -   [Установка и настройка](classobj.setup.html)
-    -   [Предопределённые константы](classobj.constants.html)
-    -   [Примеры](classobj.examples.html)
+    -   [Встановлення та налаштування](classobj.setup.html)
+    -   [Обумовлені константи](classobj.constants.html)
+    -   [Приклади](classobj.examples.html)
     -   [Функції роботи з класами та об'єктами](ref.classobj.html)
 -   [Ctype](book.ctype.html) - Функції визначення типу символів
     -   [Введение](intro.ctype.html)
-    -   [Установка и настройка](ctype.setup.html)
-    -   [Предопределённые константы](ctype.constants.html)
+    -   [Встановлення та налаштування](ctype.setup.html)
+    -   [Обумовлені константи](ctype.constants.html)
     -   [Опції Ctype](ref.ctype.html)
 -   [Filter](book.filter.html) - Фільтрування даних
     -   [Введение](intro.filter.html)
-    -   [Установка и настройка](filter.setup.html)
+    -   [Встановлення та налаштування](filter.setup.html)
     -   [Типи фільтрів](filter.filters.html)
-    -   [Предопределённые константы](filter.constants.html)
-    -   [Примеры](filter.examples.html)
+    -   [Обумовлені константи](filter.constants.html)
+    -   [Приклади](filter.examples.html)
     -   [Функції фільтрації даних](ref.filter.html)
 -   [Управление функциями](book.funchand.html)
     -   [Введение](intro.funchand.html)
-    -   [Установка и настройка](funchand.setup.html)
-    -   [Предопределённые константы](funchand.constants.html)
+    -   [Встановлення та налаштування](funchand.setup.html)
+    -   [Обумовлені константи](funchand.constants.html)
     -   [Функции управления функциями](ref.funchand.html)
 -   [Quickhash](book.quickhash.html)
     -   [Введение](intro.quickhash.html)
-    -   [Установка и настройка](quickhash.setup.html)
-    -   [Предопределённые константы](quickhash.constants.html)
-    -   [Примеры](quickhash.examples.html)
+    -   [Встановлення та налаштування](quickhash.setup.html)
+    -   [Обумовлені константи](quickhash.constants.html)
+    -   [Приклади](quickhash.examples.html)
     -   [QuickHashIntSet](class.quickhashintset.html) - Клас QuickHashIntSet
     -   [QuickHashIntHash](class.quickhashinthash.html) - Клас QuickHashIntHash
     -   [QuickHashStringIntHash](class.quickhashstringinthash.html) - Клас QuickHashStringIntHash
     -   [QuickHashIntStringHash](class.quickhashintstringhash.html) - Клас QuickHashIntStringHash
 -   [Reflection](book.reflection.html)
     -   [Введение](intro.reflection.html)
-    -   [Установка и настройка](reflection.setup.html)
-    -   [Предопределённые константы](reflection.constants.html)
-    -   [Примеры](reflection.examples.html)
+    -   [Встановлення та налаштування](reflection.setup.html)
+    -   [Обумовлені константи](reflection.constants.html)
+    -   [Приклади](reflection.examples.html)
     -   [Расширение](reflection.extending.html)
     -   [Reflection](class.reflection.html) - Клас Reflection
     -   [ReflectionClass](class.reflectionclass.html) - Клас ReflectionClass
@@ -81,8 +81,8 @@
     -   [ReflectionAttribute](class.reflectionattribute.html) - Клас ReflectionAttribute
     -   [Reflector](class.reflector.html) - Інтерфейс Reflector
     -   [ReflectionException](class.reflectionexception.html) - Клас ReflectionException
--   [Обработка переменных](book.var.html)
+-   [Обробка змінних](book.var.html)
     -   [Введение](intro.var.html)
-    -   [Установка и настройка](var.setup.html)
-    -   [Предопределённые константы](var.constants.html)
+    -   [Встановлення та налаштування](var.setup.html)
+    -   [Обумовлені константи](var.constants.html)
     -   [Функції для роботи зі змінними](ref.var.html)

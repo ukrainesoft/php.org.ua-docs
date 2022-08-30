@@ -1,12 +1,12 @@
 Перевіряє, чи знаходиться поточна позиція в кінці (EOF) gz-файлу
 
--   [« gzencode](function.gzencode.html)
+-   [« gzencode](function.gzencode.md)
     
--   [gzfile »](function.gzfile.html)
+-   [gzfile »](function.gzfile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Zlib](ref.zlib.html)
+-   [Функции Zlib](ref.zlib.md)
     
 -   Перевіряє, чи знаходиться поточна позиція в кінці (EOF) gz-файлу
     
@@ -29,7 +29,7 @@ gzeof(resource $stream): bool
 
 `stream`
 
-Вказівник на файл gz. Він має бути коректним і повинен вказувати на файл, успішно відкритий. [gzopen()](function.gzopen.html)
+Вказівник на файл gz. Він має бути коректним і повинен вказувати на файл, успішно відкритий. [gzopen()](function.gzopen.md)
 
 ### Значення, що повертаються
 

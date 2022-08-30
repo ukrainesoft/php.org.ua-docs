@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](zmq.setup.html)
+-   [« Встановлення та налаштування](zmq.setup.html)
     
 -   [ZMQ »](class.zmq.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](zmq.setup.html)
+-   [Встановлення та налаштування](zmq.setup.html)
     
 -   Вимоги
     

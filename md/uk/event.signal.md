@@ -1,12 +1,12 @@
 Створити об'єкт події сигналу
 
--   [« Event::setTimer](event.settimer.html)
+-   [« Event::setTimer](event.settimer.md)
     
--   [Event::timer »](event.timer.html)
+-   [Event::timer »](event.timer.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](class.event.html)
+-   [Event](class.event.md)
     
 -   Створити об'єкт події сигналу
     
@@ -37,7 +37,7 @@ public
     = ?): Event
 ```
 
-Створює об'єкт події сигналу. Це полегшений метод створення події сигналу. Зверніть увагу, що штатний конструктор [Event::construct()](event.construct.html) може також створювати події сигналу.
+Створює об'єкт події сигналу. Це полегшений метод створення події сигналу. Зверніть увагу, що штатний конструктор [Event::construct()](event.construct.md) може також створювати події сигналу.
 
 ### Список параметрів
 
@@ -51,7 +51,7 @@ public
 
 `cb`
 
-Функція зворотного дзвінка події сигналу. Дивіться [Функції зворотного дзвінка для подій](event.callbacks.html)
+Функція зворотного дзвінка події сигналу. Дивіться [Функції зворотного дзвінка для подій](event.callbacks.md)
 
 `arg`
 
@@ -63,4 +63,4 @@ public
 
 ### Дивіться також
 
--   [Создание событий сигнала](event.constructing.signal.events.html)
+-   [Створення подій сигналу](event.constructing.signal.events.md)

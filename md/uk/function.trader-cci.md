@@ -4,9 +4,9 @@
     
 -   [tradercdl2crows »](function.trader-cdl2crows.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Індекс товарного каналу
     

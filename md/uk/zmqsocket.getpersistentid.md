@@ -1,12 +1,12 @@
 Отримати ідентифікатор постійного сокету
 
--   [« ZMQSocket::getEndpoints](zmqsocket.getendpoints.html)
+-   [« ZMQSocket::getEndpoints](zmqsocket.getendpoints.md)
     
--   [ZMQSocket::getSocketType »](zmqsocket.getsockettype.html)
+-   [ZMQSocket::getSocketType »](zmqsocket.getsockettype.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQSocket](class.zmqsocket.html)
+-   [ZMQSocket](class.zmqsocket.md)
     
 -   Отримати ідентифікатор постійного сокету
     

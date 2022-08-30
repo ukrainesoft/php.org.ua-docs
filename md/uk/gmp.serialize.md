@@ -1,12 +1,12 @@
 Серіалізує об'єкт GMP
 
--   [« GMP](class.gmp.html)
+-   [« GMP](class.gmp.md)
     
--   [GMP::unserialize »](gmp.unserialize.html)
+-   [GMP::unserialize »](gmp.unserialize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GMP](class.gmp.html)
+-   [GMP](class.gmp.md)
     
 -   Серіалізує об'єкт GMP
     

@@ -1,12 +1,12 @@
 Клас SNMP
 
--   [« snmpwalkoid](function.snmpwalkoid.html)
+-   [« snmpwalkoid](function.snmpwalkoid.md)
     
--   [SNMP::close »](snmp.close.html)
+-   [SNMP::close »](snmp.close.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SNMP](book.snmp.html)
+-   [SNMP](book.snmp.md)
     
 -   Клас SNMP
     
@@ -169,7 +169,7 @@ oidincreasingcheck
 
 Контролює заборону на перевірку збільшення OID під час обходу дерева OID
 
-Деякі агенти SNMP відомі тим, що OID повертають не по порядку, але все одно завершують прохід. Інші агенти, що повертають OID не по порядку і можуть викликати нескінченне зациклювання [SNMP::walk()](snmp.walk.html), поки не буде вичерпано всю пам'ять. Бібліотека PHP SNMP за промовчанням здійснює перевірку збільшення OID і припиняє обхід дерева, якщо визначає можливе кільце, видаючи відповідне попередження. Встановіть oidincreasingcheck у значення **`false`** для заборони перевірки.
+Деякі агенти SNMP відомі тим, що OID повертають не по порядку, але все одно завершують прохід. Інші агенти, що повертають OID не по порядку і можуть викликати нескінченне зациклювання [SNMP::walk()](snmp.walk.md), поки не буде вичерпано всю пам'ять. Бібліотека PHP SNMP за промовчанням здійснює перевірку збільшення OID і припиняє обхід дерева, якщо визначає можливе кільце, видаючи відповідне попередження. Встановіть oidincreasingcheck у значення **`false`** для заборони перевірки.
 
 exceptionsenabled
 
@@ -225,12 +225,12 @@ SNMPагент виявив можливе закольцювання через
 
 ## Зміст
 
--   [SNMP::close](snmp.close.html) — Закриває сесію SNMP
--   [SNMP::construct](snmp.construct.html) - Створює екземпляр SNMP, що представляє сесію віддаленого агента SNMP
--   [SNMP::get](snmp.get.html) — Отримує об'єкт SNMP
--   [SNMP::getErrno](snmp.geterrno.html) — Отримує код останньої помилки
--   [SNMP::getError](snmp.geterror.html) — Отримує останнє повідомлення про помилку
--   [SNMP::getnext](snmp.getnext.html) — Отримати об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
--   [SNMP::set](snmp.set.html) — Встановлює значення об'єкта SNMP
--   [SNMP::setSecurity](snmp.setsecurity.html) — Налаштовує пов'язані з безпекою параметри сесії SNMPv3
--   [SNMP::walk](snmp.walk.html) — Отримує піддерево об'єкта SNMP
+-   [SNMP::close](snmp.close.md) — Закриває сесію SNMP
+-   [SNMP::construct](snmp.construct.md) - Створює екземпляр SNMP, що представляє сесію віддаленого агента SNMP
+-   [SNMP::get](snmp.get.md) — Отримує об'єкт SNMP
+-   [SNMP::getErrno](snmp.geterrno.md) — Отримує код останньої помилки
+-   [SNMP::getError](snmp.geterror.md) — Отримує останнє повідомлення про помилку
+-   [SNMP::getnext](snmp.getnext.md) — Отримати об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
+-   [SNMP::set](snmp.set.md) — Встановлює значення об'єкта SNMP
+-   [SNMP::setSecurity](snmp.setsecurity.md) — Налаштовує пов'язані з безпекою параметри сесії SNMPv3
+-   [SNMP::walk](snmp.walk.md) — Отримує піддерево об'єкта SNMP

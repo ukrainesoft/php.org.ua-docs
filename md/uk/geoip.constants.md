@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](geoip.resources.html)
+-   [« Типи ресурсів](geoip.resources.html)
     
 -   [Функции GeoIP »](ref.geoip.html)
     

@@ -1,12 +1,12 @@
 Клас SolrException
 
--   [« SolrCollapseFunction::toString](solrcollapsefunction.tostring.html)
+-   [« SolrCollapseFunction::toString](solrcollapsefunction.tostring.md)
     
--   [SolrException::getInternalInfo »](solrexception.getinternalinfo.html)
+-   [SolrException::getInternalInfo »](solrexception.getinternalinfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Solr](book.solr.html)
+-   [Solr](book.solr.md)
     
 -   Клас SolrException
     
@@ -111,4 +111,4 @@ zifname
 
 ## Зміст
 
--   [SolrException::getInternalInfo](solrexception.getinternalinfo.html) — Повертає внутрішню інформацію про те, де було викинуто виняток
+-   [SolrException::getInternalInfo](solrexception.getinternalinfo.md) — Повертає внутрішню інформацію про те, де було викинуто виняток

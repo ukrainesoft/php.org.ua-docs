@@ -4,9 +4,9 @@
     
 -   [fdfsavestring »](function.fdf-save-string.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Встановлює цільовий кадр для форми
     

@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.igbinary.html)
+-   [« Введение](intro.igbinary.md)
     
--   [Требования »](igbinary.requirements.html)
+-   [Вимоги »](igbinary.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Igbinary](book.igbinary.html)
+-   [Igbinary](book.igbinary.md)
     
 -   Встановлення та налаштування
     
@@ -15,6 +15,6 @@
 
 ## Зміст
 
--   [Требования](igbinary.requirements.html)
--   [Установка](igbinary.installation.html)
--   [Настройка во время выполнения](igbinary.configuration.html)
+-   [Вимоги](igbinary.requirements.md)
+-   [Установка](igbinary.installation.md)
+-   [Налаштування під час виконання](igbinary.configuration.md)

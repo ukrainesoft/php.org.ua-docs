@@ -4,7 +4,7 @@
     
 -   [Session::releaseSavepoint »](mysql-xdevapi-session.releasesavepoint.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
     

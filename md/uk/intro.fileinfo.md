@@ -2,7 +2,7 @@
 
 -   [« FileInfo](book.fileinfo.html)
     
--   [Установка и настройка »](fileinfo.setup.html)
+-   [Встановлення та налаштування »](fileinfo.setup.html)
     
 -   [PHP Manual](index.html)
     

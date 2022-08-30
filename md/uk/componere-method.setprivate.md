@@ -4,7 +4,7 @@
     
 -   [ComponereMethod::setProtected »](componere-method.setprotected.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponereMethod](class.componere-method.html)
     
@@ -31,4 +31,4 @@ public Componere\Method::setPrivate(): Method
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html)якщо рівень доступу був раніше встановлений
+Викидає виняток [RuntimeException](class.runtimeexception.md)якщо рівень доступу був раніше встановлений

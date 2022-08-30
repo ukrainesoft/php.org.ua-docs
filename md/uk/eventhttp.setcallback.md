@@ -1,12 +1,12 @@
 Встановлює callback-функцію для вказаного URI
 
--   [« EventHttp::setAllowedMethods](eventhttp.setallowedmethods.html)
+-   [« EventHttp::setAllowedMethods](eventhttp.setallowedmethods.md)
     
--   [EventHttp::setDefaultCallback »](eventhttp.setdefaultcallback.html)
+-   [EventHttp::setDefaultCallback »](eventhttp.setdefaultcallback.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttp](class.eventhttp.html)
+-   [EventHttp](class.eventhttp.md)
     
 -   Встановлює callback-функцію для вказаного URI
     
@@ -43,7 +43,7 @@ public
 
 `cb`
 
-Callback-функція [callable](language.types.callable.html), яка викликається за запитаним `path`. Повинна відповідати наступному прототипу:
+Callback-функція [callable](language.types.callable.md), яка викликається за запитаним `path`. Повинна відповідати наступному прототипу:
 
 ```methodsynopsis
 callback(
@@ -59,7 +59,7 @@ callback(
 
 `req`
 
-Об'єкт [EventHttpRequest](class.eventhttprequest.html)
+Об'єкт [EventHttpRequest](class.eventhttprequest.md)
 
 `arg`
 
@@ -182,4 +182,4 @@ Connection: close
 
 ### Дивіться також
 
--   [EventHttp::setDefaultCallback()](eventhttp.setdefaultcallback.html) - Встановлює callback-функцію за промовчанням для обробки запитів, які не перехоплюються конкретними callback-функціями
+-   [EventHttp::setDefaultCallback()](eventhttp.setdefaultcallback.md) - Встановлює callback-функцію за промовчанням для обробки запитів, які не перехоплюються конкретними callback-функціями

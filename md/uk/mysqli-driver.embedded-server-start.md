@@ -4,7 +4,7 @@
     
 -   [mysqlidriver::$reportmode »](mysqli-driver.report-mode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlidriver](class.mysqli-driver.html)
     

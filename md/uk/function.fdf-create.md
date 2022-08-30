@@ -4,9 +4,9 @@
     
 -   [fdfenumvalues »](function.fdf-enum-values.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Створює новий документ FDF
     

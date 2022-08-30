@@ -1,6 +1,6 @@
 Клас PhpToken
 
--   [« Примеры](tokenizer.examples.html)
+-   [« Приклади](tokenizer.examples.html)
     
 -   [PhpToken::construct »](phptoken.construct.html)
     

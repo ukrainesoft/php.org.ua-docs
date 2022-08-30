@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.inotify.html)
     
--   [Требования »](inotify.requirements.html)
+-   [Вимоги »](inotify.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](inotify.requirements.html)
--   [Установка и настройка](inotify.install.html)
--   [Настройка во время выполнения](inotify.configuration.html)
--   [Типы ресурсов](inotify.resources.html)
+-   [Вимоги](inotify.requirements.html)
+-   [Встановлення та налаштування](inotify.install.html)
+-   [Налаштування під час виконання](inotify.configuration.html)
+-   [Типи ресурсів](inotify.resources.html)

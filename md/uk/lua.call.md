@@ -1,12 +1,12 @@
 Викликати функції Lua
 
--   [« Lua::assign](lua.assign.html)
+-   [« Lua::assign](lua.assign.md)
     
--   [Lua::construct »](lua.construct.html)
+-   [Lua::construct »](lua.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Lua](class.lua.html)
+-   [Lua](class.lua.md)
     
 -   Викликати функції Lua
     

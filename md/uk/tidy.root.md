@@ -1,12 +1,12 @@
 Повертає об'єкт tidyNode, що представляє вершину розібраного tidy-дерева
 
--   [« tidy::repairString](tidy.repairstring.html)
+-   [« tidy::repairString](tidy.repairstring.md)
     
--   [tidyNode »](class.tidynode.html)
+-   [tidyNode »](class.tidynode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidy](class.tidy.html)
+-   [tidy](class.tidy.md)
     
 -   Повертає об'єкт tidyNode, що представляє вершину розібраного tidy-дерева
     
@@ -17,7 +17,7 @@
 
 (PHP 5, PHP 7, PHP 8, PECL tidy 0.5.2-1.0.0)
 
-tidy::root -- tidygetroot — Повертає об'єкт [tidyNode](class.tidynode.html), що представляє вершину розібраного tidy-дерева
+tidy::root -- tidygetroot — Повертає об'єкт [tidyNode](class.tidynode.md), що представляє вершину розібраного tidy-дерева
 
 ### Опис
 
@@ -33,17 +33,17 @@ public tidy::root(): ?tidyNode
 tidy_get_root(tidy $tidy): ?tidyNode
 ```
 
-Повертає об'єкт [tidyNode](class.tidynode.html), що представляє вершину розібраного tidy-дерева.
+Повертає об'єкт [tidyNode](class.tidynode.md), що представляє вершину розібраного tidy-дерева.
 
 ### Список параметрів
 
 `tidy`
 
-Об'єкт [Tidy](class.tidy.html)
+Об'єкт [Tidy](class.tidy.md)
 
 ### Значення, що повертаються
 
-Повертає об'єкт [tidyNode](class.tidynode.html)
+Повертає об'єкт [tidyNode](class.tidynode.md)
 
 ### Приклади
 

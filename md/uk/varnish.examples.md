@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](varnish.constants.html)
+-   [« Обумовлені константи](varnish.constants.md)
     
--   [Простое использование VarnishAdmin »](varnish.example.admin.html)
+-   [Простое использование VarnishAdmin »](varnish.example.admin.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Varnish](book.varnish.html)
+-   [Varnish](book.varnish.md)
     
 -   Приклади
     
@@ -15,6 +15,6 @@
 
 ## Зміст
 
--   [Простое использование VarnishAdmin](varnish.example.admin.html)
--   [Простое использование VarnishStat](varnish.example.stat.html)
--   [Простое использование VarnishLog](varnish.example.log.html)
+-   [Простое использование VarnishAdmin](varnish.example.admin.md)
+-   [Простое использование VarnishStat](varnish.example.stat.md)
+-   [Простое использование VarnishLog](varnish.example.log.md)

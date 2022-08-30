@@ -4,7 +4,7 @@
     
 -   [HRTimePerformanceCounter::getTicks »](hrtime-performancecounter.getticks.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [HRTimePerformanceCounter](class.hrtime-performancecounter.html)
     

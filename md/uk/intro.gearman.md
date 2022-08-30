@@ -1,12 +1,12 @@
 Вступ
 
--   [« Gearman](book.gearman.html)
+-   [« Gearman](book.gearman.md)
     
--   [Установка и настройка »](gearman.setup.html)
+-   [Встановлення та налаштування »](gearman.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gearman](book.gearman.html)
+-   [Gearman](book.gearman.md)
     
 -   Вступ
     

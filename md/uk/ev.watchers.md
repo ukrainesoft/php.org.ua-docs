@@ -1,6 +1,6 @@
 Спостерігачі
 
--   [« Примеры](ev.examples.html)
+-   [« Приклади](ev.examples.html)
     
 -   [Watcher callbacks »](ev.watcher-callbacks.html)
     

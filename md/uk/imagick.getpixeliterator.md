@@ -1,12 +1,12 @@
 Повертає MagickPixelIterator
 
--   [« Imagick::getPage](imagick.getpage.html)
+-   [« Imagick::getPage](imagick.getpage.md)
     
--   [Imagick::getPixelRegionIterator »](imagick.getpixelregioniterator.html)
+-   [Imagick::getPixelRegionIterator »](imagick.getpixelregioniterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає MagickPixelIterator
     

@@ -1,12 +1,12 @@
 Отримує інформацію про файл
 
--   [« SplFileObject::fseek](splfileobject.fseek.html)
+-   [« SplFileObject::fseek](splfileobject.fseek.md)
     
--   [SplFileObject::ftell »](splfileobject.ftell.html)
+-   [SplFileObject::ftell »](splfileobject.ftell.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileObject](class.splfileobject.html)
+-   [SplFileObject](class.splfileobject.md)
     
 -   Отримує інформацію про файл
     
@@ -23,7 +23,7 @@ SplFileObject::fstat — Отримує інформацію про файл
 public SplFileObject::fstat(): array
 ```
 
-Збирає статистичну інформацію про файл. Поведінка ідентична [fstat()](function.fstat.html)
+Збирає статистичну інформацію про файл. Поведінка ідентична [fstat()](function.fstat.md)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public SplFileObject::fstat(): array
 
 ### Значення, що повертаються
 
-Повертає масив зі статистичною інформацією про файл; формат масиву докладно описано на сторінці функції [stat()](function.stat.html)
+Повертає масив зі статистичною інформацією про файл; формат масиву докладно описано на сторінці функції [stat()](function.stat.md)
 
 ### Приклади
 
@@ -71,5 +71,5 @@ Array
 
 ### Дивіться також
 
--   [fstat()](function.fstat.html) - Отримує інформацію про файл, використовуючи відкритий файловий покажчик
--   [stat()](function.stat.html) - Повертає інформацію про файл
+-   [fstat()](function.fstat.md) - Отримує інформацію про файл, використовуючи відкритий файловий покажчик
+-   [stat()](function.stat.md) - Повертає інформацію про файл

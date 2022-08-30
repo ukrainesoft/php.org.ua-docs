@@ -1,12 +1,12 @@
 Отримати ім'я Unicode для значення властивості
 
--   [« IntlChar::getPropertyValueEnum](intlchar.getpropertyvalueenum.html)
+-   [« IntlChar::getPropertyValueEnum](intlchar.getpropertyvalueenum.md)
     
--   [IntlChar::getUnicodeVersion »](intlchar.getunicodeversion.html)
+-   [IntlChar::getUnicodeVersion »](intlchar.getunicodeversion.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Отримати ім'я Unicode для значення властивості
     

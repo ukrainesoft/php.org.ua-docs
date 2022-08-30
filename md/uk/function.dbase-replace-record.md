@@ -2,11 +2,11 @@
 
 -   [« dbasepack](function.dbase-pack.html)
     
--   [Firebird/InterBase »](book.ibase.html)
+-   [Firebird/InterBase »](book.ibase.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [dBase](ref.dbase.html)
+-   [dBase](ref.dbase.md)
     
 -   Замінює запис у базі даних
     
@@ -49,8 +49,8 @@ dbase_replace_record(resource $database, array $data, int $number): bool
 
 ### список змін
 
-| Версия      | Описание                                              |
-|-------------|-------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
 
 ### Приклади
@@ -73,7 +73,7 @@ if ($db) {
   // Установим в поле даты текущую дату
   $row['date'] = date('Ymd');
 
-  // Преобразуем $row в массив
+  // Преобразуем $row в Масив
   $row = array_values($row);
 
   // Заменим запись

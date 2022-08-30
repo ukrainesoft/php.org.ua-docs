@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Справочник языка](langref.html)
+-   [Довідник мови](langref.html)
     
 -   Обумовлені винятки
     

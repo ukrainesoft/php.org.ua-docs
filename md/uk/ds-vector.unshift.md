@@ -4,7 +4,7 @@
     
 -   [Двостороння черга »](class.ds-deque.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Вектор](class.ds-vector.html)
     

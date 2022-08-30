@@ -1,12 +1,12 @@
 Повертає вирівнювання тексту
 
--   [« ImagickDraw::getStrokeWidth](imagickdraw.getstrokewidth.html)
+-   [« ImagickDraw::getStrokeWidth](imagickdraw.getstrokewidth.md)
     
--   [ImagickDraw::getTextAntialias »](imagickdraw.gettextantialias.html)
+-   [ImagickDraw::getTextAntialias »](imagickdraw.gettextantialias.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Повертає вирівнювання тексту
     

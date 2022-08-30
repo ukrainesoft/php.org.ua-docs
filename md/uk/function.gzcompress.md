@@ -1,12 +1,12 @@
 Стиснути рядок
 
--   [« gzclose](function.gzclose.html)
+-   [« gzclose](function.gzclose.md)
     
--   [gzdecode »](function.gzdecode.html)
+-   [gzdecode »](function.gzdecode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Zlib](ref.zlib.html)
+-   [Функции Zlib](ref.zlib.md)
     
 -   Стиснути рядок
     
@@ -29,7 +29,7 @@ gzcompress(string $data, int $level = -1, int $encoding = ZLIB_ENCODING_DEFLATE)
 
 > **Зауваження**
 > 
-> Це *не* те ж саме, що і gzip-стиск, який включає деякі дані заголовка. Інформацію про gzip-стиснення дивіться [gzencode()](function.gzencode.html)
+> Це *не* те ж саме, що і gzip-стиск, який включає деякі дані заголовка. Інформацію про gzip-стиснення дивіться [gzencode()](function.gzencode.md)
 
 ### Список параметрів
 
@@ -64,7 +64,7 @@ echo $compressed;
 
 ### Дивіться також
 
--   [gzdeflate()](function.gzdeflate.html) - Стискає рядок
--   [gzinflate()](function.gzinflate.html) - Розпакувати стислий рядок
--   [gzuncompress()](function.gzuncompress.html) - Розпакувати стислий рядок
--   [gzencode()](function.gzencode.html) - Створити стислий рядок gzip
+-   [gzdeflate()](function.gzdeflate.md) - Стискає рядок
+-   [gzinflate()](function.gzinflate.md) - Розпакувати стислий рядок
+-   [gzuncompress()](function.gzuncompress.md) - Розпакувати стислий рядок
+-   [gzencode()](function.gzencode.md) - Створити стислий рядок gzip

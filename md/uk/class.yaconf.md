@@ -1,6 +1,6 @@
 Клас Yaconf
 
--   [« Предопределённые константы](yaconf.constants.html)
+-   [« Обумовлені константи](yaconf.constants.html)
     
 -   [Yaconf::get »](yaconf.get.html)
     

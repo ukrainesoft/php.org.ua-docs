@@ -2,11 +2,11 @@
 
 -   [« Робота з помилками XML](simplexml.examples-errors.html)
     
--   [SimpleXMLElement::addAttribute »](simplexmlelement.addattribute.html)
+-   [SimpleXMLElement::addAttribute »](simplexmlelement.addattribute.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXML](book.simplexml.html)
+-   [SimpleXML](book.simplexml.md)
     
 -   Клас SimpleXMLElement
     
@@ -56,23 +56,23 @@ public xpath(string $expression): array|null|false
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                       |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Клас **SimpleXMLElement** тепер реалізує інтерфейси [Stringable](class.stringable.html) [Countable](class.countable.html), і [RecursiveIterator](class.recursiveiterator.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **SimpleXMLElement** тепер реалізує інтерфейси [Stringable](class.stringable.md) [Countable](class.countable.md), і [RecursiveIterator](class.recursiveiterator.md) |
 
 ## Зміст
 
--   [SimpleXMLElement::addAttribute](simplexmlelement.addattribute.html) - Додає атрибут до SimpleXML-елементу
--   [SimpleXMLElement::addChild](simplexmlelement.addchild.html) — Додає дочірній елемент до сайту XML
--   [SimpleXMLElement::asXML](simplexmlelement.asxml.html) — Повертає сформований XML-документ у вигляді рядка на основі елемента SimpleXML
--   [SimpleXMLElement::attributes](simplexmlelement.attributes.html) — Повертає атрибути елемента
--   [SimpleXMLElement::children](simplexmlelement.children.html) — Знаходить дочірні елементи цього вузла
--   [SimpleXMLElement::construct](simplexmlelement.construct.html) — Створення нового об'єкта SimpleXMLElement
--   [SimpleXMLElement::count](simplexmlelement.count.html) — Підраховує кількість дочірніх елементів у поточного елемента
--   [SimpleXMLElement::getDocNamespaces](simplexmlelement.getdocnamespaces.html) — Повертає простір імен, оголошених у документі
--   [SimpleXMLElement::getName](simplexmlelement.getname.html) — Отримує ім'я елемента XML
--   [SimpleXMLElement::getNamespaces](simplexmlelement.getnamespaces.html) — Повертає простір імен, які використовуються в документі
--   [SimpleXMLElement::registerXPathNamespace](simplexmlelement.registerxpathnamespace.html) — Створює префікс/простір імен контексту для наступного запиту XPath
--   [SimpleXMLElement::saveXML](simplexmlelement.savexml.html) - Псевдонім SimpleXMLElement::asXML
--   [SimpleXMLElement::toString](simplexmlelement.tostring.html) — Повертає вміст рядка
--   [SimpleXMLElement::xpath](simplexmlelement.xpath.html) — Запускає запит XPath до XML-даних
+-   [SimpleXMLElement::addAttribute](simplexmlelement.addattribute.md) - Додає атрибут до SimpleXML-елементу
+-   [SimpleXMLElement::addChild](simplexmlelement.addchild.md) — Додає дочірній елемент до сайту XML
+-   [SimpleXMLElement::asXML](simplexmlelement.asxml.md) — Повертає сформований XML-документ у вигляді рядка на основі елемента SimpleXML
+-   [SimpleXMLElement::attributes](simplexmlelement.attributes.md) — Повертає атрибути елемента
+-   [SimpleXMLElement::children](simplexmlelement.children.md) — Знаходить дочірні елементи цього вузла
+-   [SimpleXMLElement::construct](simplexmlelement.construct.md) — Створення нового об'єкта SimpleXMLElement
+-   [SimpleXMLElement::count](simplexmlelement.count.md) — Підраховує кількість дочірніх елементів у поточного елемента
+-   [SimpleXMLElement::getDocNamespaces](simplexmlelement.getdocnamespaces.md) — Повертає простір імен, оголошених у документі
+-   [SimpleXMLElement::getName](simplexmlelement.getname.md) — Отримує ім'я елемента XML
+-   [SimpleXMLElement::getNamespaces](simplexmlelement.getnamespaces.md) — Повертає простір імен, які використовуються в документі
+-   [SimpleXMLElement::registerXPathNamespace](simplexmlelement.registerxpathnamespace.md) — Створює префікс/простір імен контексту для наступного запиту XPath
+-   [SimpleXMLElement::saveXML](simplexmlelement.savexml.md) - Псевдонім SimpleXMLElement::asXML
+-   [SimpleXMLElement::toString](simplexmlelement.tostring.md) — Повертає вміст рядка
+-   [SimpleXMLElement::xpath](simplexmlelement.xpath.md) — Запускає запит XPath до XML-даних

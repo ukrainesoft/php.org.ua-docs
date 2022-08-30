@@ -1,12 +1,12 @@
 Відмінності від Perl
 
--   [« Описує можливі модифікатори шаблонів Perl-сумісних регулярних виразів (PCRE)](reference.pcre.pattern.modifiers.html)
+-   [« Описує можливі модифікатори шаблонів Perl-сумісних регулярних виразів (PCRE)](reference.pcre.pattern.modifiers.md)
     
--   [Функции PCRE »](ref.pcre.html)
+-   [Функции PCRE »](ref.pcre.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Регулярные выражения PCRE](pcre.pattern.html)
+-   [Регулярні вирази PCRE](pcre.pattern.md)
     
 -   Відмінності від Perl
     
@@ -28,7 +28,7 @@
 
 ```
 1.  Несмотря на то, что опережающие предположения должны распознавать строки фиксированной длины, каждое альтернативное ретроспективное предположение может распознавать строки разной длины. Perl 5.005 требует, чтобы они были одной длины.
-2.  Если установлена [PCRE\_DOLLAR\_ENDONLY](reference.pcre.pattern.modifiers.html) и не установлена [PCRE\_MULTILINE](reference.pcre.pattern.modifiers.html), метасимвол $ распознается только в самом конце строки.
-3.  Если установлена [PCRE\_EXTRA](reference.pcre.pattern.modifiers.html), обратный слеш с последующей за ним буквой, не имеющий специального значения, приводит к ошибке.
-4.  Если установлена [PCRE\_UNGREEDY](reference.pcre.pattern.modifiers.html), жадность квантификаторов повторения инвертирована. То есть по умолчанию они не жадные, пока за ними не будет знак вопроса.
+2.  Если установлена [PCRE\_DOLLAR\_ENDONLY](reference.pcre.pattern.modifiers.md) и не установлена [PCRE\_MULTILINE](reference.pcre.pattern.modifiers.md), метасимвол $ распознается только в самом конце строки.
+3.  Если установлена [PCRE\_EXTRA](reference.pcre.pattern.modifiers.md), обратный слеш с последующей за ним буквой, не имеющий специального значения, приводит к ошибке.
+4.  Если установлена [PCRE\_UNGREEDY](reference.pcre.pattern.modifiers.md), жадность квантификаторов повторения инвертирована. То есть по умолчанию они не жадные, пока за ними не будет знак вопроса.
 ```

@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](fdf.installation.html)
+-   [« Установка](fdf.installation.md)
     
--   [Типы ресурсов »](fdf.resources.html)
+-   [Типи ресурсів »](fdf.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](fdf.setup.html)
+-   [Встановлення та налаштування](fdf.setup.md)
     
 -   Налаштування під час виконання
     

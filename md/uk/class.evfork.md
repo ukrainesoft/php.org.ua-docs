@@ -1,12 +1,12 @@
 Клас EvFork
 
--   [« EvEmbed::sweep](evembed.sweep.html)
+-   [« EvEmbed::sweep](evembed.sweep.md)
     
--   [EvFork::construct »](evfork.construct.html)
+-   [EvFork::construct »](evfork.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Єв](book.ev.html)
+-   [Єв](book.ev.md)
     
 -   Клас EvFork
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Паралельний процес спостерігача викликається тоді, коли викликається `fork()` (зазвичай тому, що про це повідомили *libev* шляхом виклику [EvLoop::fork()](evloop.fork.html)). Виклик здійснюється до наступного блокування циклом подій та до початку виклику спостерігачів [EvCheck](class.evcheck.html) і лише у дочірньому процесі після розгалуження. Якщо хтось зробить виклик [EvLoop::fork()](evloop.fork.html) у неправильному процесі, обробники розгалуження також будуть викликані.
+Паралельний процес спостерігача викликається тоді, коли викликається `fork()` (зазвичай тому, що про це повідомили *libev* шляхом виклику [EvLoop::fork()](evloop.fork.md)). Виклик здійснюється до наступного блокування циклом подій та до початку виклику спостерігачів [EvCheck](class.evcheck.md) і лише у дочірньому процесі після розгалуження. Якщо хтось зробить виклик [EvLoop::fork()](evloop.fork.md) у неправильному процесі, обробники розгалуження також будуть викликані.
 
 ## Огляд класів
 
@@ -113,5 +113,5 @@ public
 
 ## Зміст
 
--   [EvFork::construct](evfork.construct.html) - Конструктор спостерігача EvFork
--   [EvFork::createStopped](evfork.createstopped.html) - Створити об'єкт класу EvFork, але не стартувати його
+-   [EvFork::construct](evfork.construct.md) - Конструктор спостерігача EvFork
+-   [EvFork::createStopped](evfork.createstopped.md) - Створити об'єкт класу EvFork, але не стартувати його

@@ -4,9 +4,9 @@
     
 -   [traderkama »](function.trader-kama.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Перетворення Гільберта – тренд проти циклу
     

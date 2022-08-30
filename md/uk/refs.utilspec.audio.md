@@ -15,6 +15,6 @@
 
 -   [OpenAL](book.openal.html) - Аудіопотоки OpenAL
     -   [Введение](intro.openal.html)
-    -   [Установка и настройка](openal.setup.html)
-    -   [Предопределённые константы](openal.constants.html)
+    -   [Встановлення та налаштування](openal.setup.html)
+    -   [Обумовлені константи](openal.constants.html)
     -   [Функции OpenAL](ref.openal.html)

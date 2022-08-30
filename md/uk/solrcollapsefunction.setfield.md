@@ -1,12 +1,12 @@
 Встановлює поле для згортання
 
--   [« SolrCollapseFunction::getSize](solrcollapsefunction.getsize.html)
+-   [« SolrCollapseFunction::getSize](solrcollapsefunction.getsize.md)
     
--   [SolrCollapseFunction::setHint »](solrcollapsefunction.sethint.html)
+-   [SolrCollapseFunction::setHint »](solrcollapsefunction.sethint.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrCollapseFunction](class.solrcollapsefunction.html)
+-   [SolrCollapseFunction](class.solrcollapsefunction.md)
     
 -   Встановлює поле для згортання
     
@@ -31,4 +31,4 @@ public SolrCollapseFunction::setField(string $fieldName): SolrCollapseFunction
 
 ### Значення, що повертаються
 
-[SolrCollapseFunction](class.solrcollapsefunction.html)
+[SolrCollapseFunction](class.solrcollapsefunction.md)

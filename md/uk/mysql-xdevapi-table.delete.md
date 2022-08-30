@@ -4,7 +4,7 @@
     
 -   [Table::existsInDatabase »](mysql-xdevapi-table.existsindatabase.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiTable](class.mysql-xdevapi-table.html)
     

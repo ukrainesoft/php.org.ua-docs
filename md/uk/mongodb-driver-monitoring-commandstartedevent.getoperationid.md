@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverMonitoringCommandStartedEvent::getRequestId »](mongodb-driver-monitoring-commandstartedevent.getrequestid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.html)
     
@@ -44,4 +44,4 @@ final public MongoDB\Driver\Monitoring\CommandStartedEvent::getOperationId(): st
 -   [MongoDBDriverMonitoringCommandFailedEvent::getOperationId()](mongodb-driver-monitoring-commandfailedevent.getoperationid.html) - Повертає ідентифікатор операції команди
 -   [MongoDBDriverMonitoringCommandSucceededEvent::getOperationId()](mongodb-driver-monitoring-commandsucceededevent.getoperationid.html) - Повертає ідентифікатор операції команди
 -   [MongoDBDriverMonitoringCommandStartedEvent::getRequestId()](mongodb-driver-monitoring-commandstartedevent.getrequestid.html) - Повертає ідентифікатор запиту команди
--   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)

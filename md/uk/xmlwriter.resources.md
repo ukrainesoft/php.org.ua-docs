@@ -1,16 +1,16 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](xmlwriter.configuration.html)
+-   [« Налаштування під час виконання](xmlwriter.configuration.md)
     
--   [Предопределённые константы »](xmlwriter.constants.html)
+-   [Обумовлені константи »](xmlwriter.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xmlwriter.setup.html)
+-   [Встановлення та налаштування](xmlwriter.setup.md)
     
 -   Типи ресурсів
     
 
 ## Типи ресурсів
 
-До PHP 8.0.0 процедурною версією модуля XMLWriter використовувався один тип ресурсу: повертається [xmlwriteropenmemory()](xmlwriter.openmemory.html) або [xmlwriteropenuri()](xmlwriter.openuri.html)
+До PHP 8.0.0 процедурною версією модуля XMLWriter використовувався один тип ресурсу: повертається [xmlwriteropenmemory()](xmlwriter.openmemory.md) або [xmlwriteropenuri()](xmlwriter.openuri.md)

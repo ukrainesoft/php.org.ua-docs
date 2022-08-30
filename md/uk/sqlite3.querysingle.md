@@ -1,12 +1,12 @@
 Виконує запит та повертає одиночний результат
 
--   [« SQLite3::query](sqlite3.query.html)
+-   [« SQLite3::query](sqlite3.query.md)
     
--   [SQLite3::setAuthorizer »](sqlite3.setauthorizer.html)
+-   [SQLite3::setAuthorizer »](sqlite3.setauthorizer.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3](class.sqlite3.html)
+-   [SQLite3](class.sqlite3.md)
     
 -   Виконує запит та повертає одиночний результат
     

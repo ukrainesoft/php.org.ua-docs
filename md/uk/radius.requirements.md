@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](radius.setup.html)
+-   [« Встановлення та налаштування](radius.setup.md)
     
--   [Установка »](radius.installation.html)
+-   [Установка »](radius.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](radius.setup.html)
+-   [Встановлення та налаштування](radius.setup.md)
     
 -   Вимоги
     

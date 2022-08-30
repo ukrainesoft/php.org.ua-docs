@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](zlib.constants.html)
+-   [« Обумовлені константи](zlib.constants.md)
     
--   [Функции Zlib »](ref.zlib.html)
+-   [Функции Zlib »](ref.zlib.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Zlib](book.zlib.html)
+-   [Zlib](book.zlib.md)
     
 -   Приклади
     

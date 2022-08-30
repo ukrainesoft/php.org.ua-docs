@@ -1,12 +1,12 @@
 Додає він'єтний фільтр до зображення
 
--   [« Imagick::valid](imagick.valid.html)
+-   [« Imagick::valid](imagick.valid.md)
     
--   [Imagick::waveImage »](imagick.waveimage.html)
+-   [Imagick::waveImage »](imagick.waveimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Додає він'єтний фільтр до зображення
     
@@ -65,5 +65,5 @@ function vignetteImage($imagePath, $blackPoint, $whitePoint, $x, $y) {
 
 ### Дивіться також
 
--   [Imagick::waveImage()](imagick.waveimage.html) - Застосовує хвильовий фільтр до зображення
--   [Imagick::swirlImage()](imagick.swirlimage.html) - Закручує пікселі навколо центру зображення
+-   [Imagick::waveImage()](imagick.waveimage.md) - Застосовує хвильовий фільтр до зображення
+-   [Imagick::swirlImage()](imagick.swirlimage.md) - Закручує пікселі навколо центру зображення

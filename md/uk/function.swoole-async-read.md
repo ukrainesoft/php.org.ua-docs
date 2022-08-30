@@ -4,7 +4,7 @@
     
 -   [swooleasyncreadfile »](function.swoole-async-readfile.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Функции Swoole](ref.swoole-funcs.html)
     

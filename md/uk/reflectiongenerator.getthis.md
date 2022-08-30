@@ -1,12 +1,12 @@
 Отримує значення $this генератора
 
--   [« ReflectionGenerator::getFunction](reflectiongenerator.getfunction.html)
+-   [« ReflectionGenerator::getFunction](reflectiongenerator.getfunction.md)
     
--   [ReflectionGenerator::getTrace »](reflectiongenerator.gettrace.html)
+-   [ReflectionGenerator::getTrace »](reflectiongenerator.gettrace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionGenerator](class.reflectiongenerator.html)
+-   [ReflectionGenerator](class.reflectiongenerator.md)
     
 -   Отримує значення $this генератора
     
@@ -64,5 +64,5 @@ object(GenExample)#3 (0) {
 
 ### Дивіться також
 
--   [ReflectionGenerator::getFunction()](reflectiongenerator.getfunction.html) - Отримати ім'я функції генератора
--   [ReflectionGenerator::getTrace()](reflectiongenerator.gettrace.html) - Отримати трасування запущеного генератора
+-   [ReflectionGenerator::getFunction()](reflectiongenerator.getfunction.md) - Отримати ім'я функції генератора
+-   [ReflectionGenerator::getTrace()](reflectiongenerator.gettrace.md) - Отримати трасування запущеного генератора

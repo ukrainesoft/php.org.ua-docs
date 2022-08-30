@@ -1,12 +1,12 @@
 Конструктор об'єкта спостерігача EvSignal
 
--   [« EvSignal](class.evsignal.html)
+-   [« EvSignal](class.evsignal.md)
     
--   [EvSignal::createStopped »](evsignal.createstopped.html)
+-   [EvSignal::createStopped »](evsignal.createstopped.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvSignal](class.evsignal.html)
+-   [EvSignal](class.evsignal.md)
     
 -   Конструктор об'єкта спостерігача EvSignal
     
@@ -21,11 +21,11 @@ EvSignal::construct - Конструктор об'єкта спостеріга�
 
 public **EvSignal::construct**  
 int `$signum`  
-[callable](language.types.callable.html) `$callback`  
+[callable](language.types.callable.md) `$callback`  
 [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` **`null`**  
 int `$priority`
 
-Створює об'єкт спостерігач EvSignal та автоматично його запускає. Для створення зупиненого об'єкта спостерігача використовуйте метод [EvSignal::createStopped()](evsignal.createstopped.html)
+Створює об'єкт спостерігач EvSignal та автоматично його запускає. Для створення зупиненого об'єкта спостерігача використовуйте метод [EvSignal::createStopped()](evsignal.createstopped.md)
 
 ### Список параметрів
 
@@ -62,4 +62,4 @@ Ev::run();
 
 ### Дивіться також
 
--   [EvSignal::createStopped()](evsignal.createstopped.html) - Create stopped EvSignal watcher object
+-   [EvSignal::createStopped()](evsignal.createstopped.md) - Create stopped EvSignal watcher object

@@ -4,9 +4,9 @@
     
 -   [ssh2sftpunlink »](function.ssh2-sftp-unlink.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Створити символічне посилання
     
@@ -58,4 +58,4 @@ ssh2_sftp_symlink($sftp, '/var/run/mysql.sock', '/tmp/mysql.sock');
 ### Дивіться також
 
 -   [ssh2sftpreadlink()](function.ssh2-sftp-readlink.html) - Повертає об'єкт за символічним посиланням
--   [symlink()](function.symlink.html) - Створює символічне посилання
+-   [symlink()](function.symlink.md) - Створює символічне посилання

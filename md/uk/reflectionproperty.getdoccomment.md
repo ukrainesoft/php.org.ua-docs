@@ -1,12 +1,12 @@
 Отримання doc-коментаря для якості
 
--   [« ReflectionProperty::getDefaultValue](reflectionproperty.getdefaultvalue.html)
+-   [« ReflectionProperty::getDefaultValue](reflectionproperty.getdefaultvalue.md)
     
--   [ReflectionProperty::getModifiers »](reflectionproperty.getmodifiers.html)
+-   [ReflectionProperty::getModifiers »](reflectionproperty.getmodifiers.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionProperty](class.reflectionproperty.html)
+-   [ReflectionProperty](class.reflectionproperty.md)
     
 -   Отримання doc-коментаря для якості
     
@@ -89,6 +89,6 @@ b: false
 
 ### Дивіться також
 
--   [ReflectionProperty::getModifiers()](reflectionproperty.getmodifiers.html) - Отримання модифікаторів властивостей класу
--   [ReflectionProperty::getName()](reflectionproperty.getname.html) - Отримання імені властивості
--   [ReflectionProperty::getValue()](reflectionproperty.getvalue.html) - набуває значення
+-   [ReflectionProperty::getModifiers()](reflectionproperty.getmodifiers.md) - Отримання модифікаторів властивостей класу
+-   [ReflectionProperty::getName()](reflectionproperty.getname.md) - Отримання імені властивості
+-   [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) - набуває значення

@@ -1,12 +1,12 @@
 FDF
 
--   [« Примеры](fdf.examples.html)
+-   [« Приклади](fdf.examples.md)
     
 -   [fdfadddocjavascript »](function.fdf-add-doc-javascript.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](book.fdf.html)
+-   [FDF](book.fdf.md)
     
 -   FDF
     

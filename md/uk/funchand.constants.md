@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](funchand.resources.html)
+-   [« Типи ресурсів](funchand.resources.html)
     
 -   [Функции управления функциями »](ref.funchand.html)
     

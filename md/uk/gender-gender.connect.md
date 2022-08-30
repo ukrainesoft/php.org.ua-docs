@@ -1,12 +1,12 @@
 З'єднання із зовнішньою базою імен
 
--   [« GenderGender](class.gender.html)
+-   [« GenderGender](class.gender.md)
     
 -   [GenderGender::construct »](gender-gender.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GenderGender](class.gender.html)
+-   [GenderGender](class.gender.md)
     
 -   З'єднання із зовнішньою базою імен
     

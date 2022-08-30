@@ -1,12 +1,12 @@
 Клас ReflectionFunctionAbstract
 
--   [« ReflectionFunction::toString](reflectionfunction.tostring.html)
+-   [« ReflectionFunction::toString](reflectionfunction.tostring.md)
     
--   [ReflectionFunctionAbstract::clone »](reflectionfunctionabstract.clone.html)
+-   [ReflectionFunctionAbstract::clone »](reflectionfunctionabstract.clone.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Reflection](book.reflection.html)
+-   [Reflection](book.reflection.md)
     
 -   Клас ReflectionFunctionAbstract
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Є батьківським класом для [ReflectionFunction](class.reflectionfunction.html)Детальнішу інформацію дивіться в описі цього дочірнього класу.
+Є батьківським класом для [ReflectionFunction](class.reflectionfunction.md)Детальнішу інформацію дивіться в описі цього дочірнього класу.
 
 ## Огляд класів
 
@@ -83,38 +83,38 @@ abstract public __toString(): void
 
 name
 
-Ім'я функції. Доступно тільки для читання та викидає виняток [ReflectionException](class.reflectionexception.html) під час спроби запису.
+Ім'я функції. Доступно тільки для читання та викидає виняток [ReflectionException](class.reflectionexception.md) під час спроби запису.
 
 ## Зміст
 
--   [ReflectionFunctionAbstract::clone](reflectionfunctionabstract.clone.html) - Клонує функцію
--   [ReflectionFunctionAbstract::getAttributes](reflectionfunctionabstract.getattributes.html) — Отримує атрибути
--   [ReflectionFunctionAbstract::getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.html) — Повертає клас, в рамках якого було оголошено замикання
--   [ReflectionFunctionAbstract::getClosureThis](reflectionfunctionabstract.getclosurethis.html) — Повертає покажчик, прив'язаний до замикання
--   [ReflectionFunctionAbstract::getClosureUsedVariables](reflectionfunctionabstract.getclosureusedvariables.html) — Повертає масив змінних, що використовуються в замиканні.
--   [ReflectionFunctionAbstract::getDocComment](reflectionfunctionabstract.getdoccomment.html) — Отримує doc-коментар
--   [ReflectionFunctionAbstract::getEndLine](reflectionfunctionabstract.getendline.html) — Отримує номер рядка завершення опису функції
--   [ReflectionFunctionAbstract::getExtension](reflectionfunctionabstract.getextension.html) — Отримує інформацію про модуль
--   [ReflectionFunctionAbstract::getExtensionName](reflectionfunctionabstract.getextensionname.html) — Отримання імені модуля
--   [ReflectionFunctionAbstract::getFileName](reflectionfunctionabstract.getfilename.html) — Отримує ім'я файлу
--   [ReflectionFunctionAbstract::getName](reflectionfunctionabstract.getname.html) — Отримує ім'я функції
--   [ReflectionFunctionAbstract::getNamespaceName](reflectionfunctionabstract.getnamespacename.html) — Отримання імені простору імен
--   [ReflectionFunctionAbstract::getNumberOfParameters](reflectionfunctionabstract.getnumberofparameters.html) — Отримує кількість параметрів
--   [ReflectionFunctionAbstract::getNumberOfRequiredParameters](reflectionfunctionabstract.getnumberofrequiredparameters.html) — Отримує кількість обов'язкових параметрів
--   [ReflectionFunctionAbstract::getParameters](reflectionfunctionabstract.getparameters.html) — Отримує параметри
--   [ReflectionFunctionAbstract::getReturnType](reflectionfunctionabstract.getreturntype.html) — Отримує оголошений тип значення, що повертається функцією значення
--   [ReflectionFunctionAbstract::getShortName](reflectionfunctionabstract.getshortname.html) — Отримує коротке ім'я функції
--   [ReflectionFunctionAbstract::getStartLine](reflectionfunctionabstract.getstartline.html) — Отримує початковий номер рядка
--   [ReflectionFunctionAbstract::getStaticVariables](reflectionfunctionabstract.getstaticvariables.html) — Отримує статичні змінні
--   [ReflectionFunctionAbstract::getTentativeReturnType](reflectionfunctionabstract.gettentativereturntype.html) — Повертає попередній тип значення, що повертається, пов'язаний з функцією
--   [ReflectionFunctionAbstract::hasReturnType](reflectionfunctionabstract.hasreturntype.html) — Перевіряє, чи має функція оголошений тип значення, що повертається
--   [ReflectionFunctionAbstract::hasTentativeReturnType](reflectionfunctionabstract.hastentativereturntype.html) — Визначає, чи має функція попередній тип значення, що повертається.
--   [ReflectionFunctionAbstract::inNamespace](reflectionfunctionabstract.innamespace.html) — Перевіряє, чи є функція у просторі імен
--   [ReflectionFunctionAbstract::isClosure](reflectionfunctionabstract.isclosure.html) - Перевіряє, чи є функція замиканням (Closure)
--   [ReflectionFunctionAbstract::isDeprecated](reflectionfunctionabstract.isdeprecated.html) — Перевіряє, чи є функція застарілої
--   [ReflectionFunctionAbstract::isGenerator](reflectionfunctionabstract.isgenerator.html) — Перевіряє, чи функція є генератором
--   [ReflectionFunctionAbstract::isInternal](reflectionfunctionabstract.isinternal.html) — Перевіряє, чи функція є внутрішньою
--   [ReflectionFunctionAbstract::isUserDefined](reflectionfunctionabstract.isuserdefined.html) — Перевіряє, чи функція є певною користувачем
--   [ReflectionFunctionAbstract::isVariadic](reflectionfunctionabstract.isvariadic.html) — Перевіряє, чи є функція зі змінною кількістю аргументів
--   [ReflectionFunctionAbstract::returnsReference](reflectionfunctionabstract.returnsreference.html) - Перевіряє, що функція повертає посилання
--   [ReflectionFunctionAbstract::toString](reflectionfunctionabstract.tostring.html) — Перетворення на рядок
+-   [ReflectionFunctionAbstract::clone](reflectionfunctionabstract.clone.md) - Клонує функцію
+-   [ReflectionFunctionAbstract::getAttributes](reflectionfunctionabstract.getattributes.md) — Отримує атрибути
+-   [ReflectionFunctionAbstract::getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.md) — Повертає клас, в рамках якого було оголошено замикання
+-   [ReflectionFunctionAbstract::getClosureThis](reflectionfunctionabstract.getclosurethis.md) — Повертає покажчик, прив'язаний до замикання
+-   [ReflectionFunctionAbstract::getClosureUsedVariables](reflectionfunctionabstract.getclosureusedvariables.md) — Повертає масив змінних, що використовуються в замиканні.
+-   [ReflectionFunctionAbstract::getDocComment](reflectionfunctionabstract.getdoccomment.md) — Отримує doc-коментар
+-   [ReflectionFunctionAbstract::getEndLine](reflectionfunctionabstract.getendline.md) — Отримує номер рядка завершення опису функції
+-   [ReflectionFunctionAbstract::getExtension](reflectionfunctionabstract.getextension.md) — Отримує інформацію про модуль
+-   [ReflectionFunctionAbstract::getExtensionName](reflectionfunctionabstract.getextensionname.md) — Отримання імені модуля
+-   [ReflectionFunctionAbstract::getFileName](reflectionfunctionabstract.getfilename.md) — Отримує ім'я файлу
+-   [ReflectionFunctionAbstract::getName](reflectionfunctionabstract.getname.md) — Отримує ім'я функції
+-   [ReflectionFunctionAbstract::getNamespaceName](reflectionfunctionabstract.getnamespacename.md) — Отримання імені простору імен
+-   [ReflectionFunctionAbstract::getNumberOfParameters](reflectionfunctionabstract.getnumberofparameters.md) — Отримує кількість параметрів
+-   [ReflectionFunctionAbstract::getNumberOfRequiredParameters](reflectionfunctionabstract.getnumberofrequiredparameters.md) — Отримує кількість обов'язкових параметрів
+-   [ReflectionFunctionAbstract::getParameters](reflectionfunctionabstract.getparameters.md) — Отримує параметри
+-   [ReflectionFunctionAbstract::getReturnType](reflectionfunctionabstract.getreturntype.md) — Отримує оголошений тип значення, що повертається функцією значення
+-   [ReflectionFunctionAbstract::getShortName](reflectionfunctionabstract.getshortname.md) — Отримує коротке ім'я функції
+-   [ReflectionFunctionAbstract::getStartLine](reflectionfunctionabstract.getstartline.md) — Отримує початковий номер рядка
+-   [ReflectionFunctionAbstract::getStaticVariables](reflectionfunctionabstract.getstaticvariables.md) — Отримує статичні змінні
+-   [ReflectionFunctionAbstract::getTentativeReturnType](reflectionfunctionabstract.gettentativereturntype.md) — Повертає попередній тип значення, що повертається, пов'язаний з функцією
+-   [ReflectionFunctionAbstract::hasReturnType](reflectionfunctionabstract.hasreturntype.md) — Перевіряє, чи має функція оголошений тип значення, що повертається
+-   [ReflectionFunctionAbstract::hasTentativeReturnType](reflectionfunctionabstract.hastentativereturntype.md) — Визначає, чи має функція попередній тип значення, що повертається.
+-   [ReflectionFunctionAbstract::inNamespace](reflectionfunctionabstract.innamespace.md) — Перевіряє, чи є функція у просторі імен
+-   [ReflectionFunctionAbstract::isClosure](reflectionfunctionabstract.isclosure.md) - Перевіряє, чи є функція замиканням (Closure)
+-   [ReflectionFunctionAbstract::isDeprecated](reflectionfunctionabstract.isdeprecated.md) — Перевіряє, чи є функція застарілої
+-   [ReflectionFunctionAbstract::isGenerator](reflectionfunctionabstract.isgenerator.md) — Перевіряє, чи функція є генератором
+-   [ReflectionFunctionAbstract::isInternal](reflectionfunctionabstract.isinternal.md) — Перевіряє, чи функція є внутрішньою
+-   [ReflectionFunctionAbstract::isUserDefined](reflectionfunctionabstract.isuserdefined.md) — Перевіряє, чи функція є певною користувачем
+-   [ReflectionFunctionAbstract::isVariadic](reflectionfunctionabstract.isvariadic.md) — Перевіряє, чи є функція зі змінною кількістю аргументів
+-   [ReflectionFunctionAbstract::returnsReference](reflectionfunctionabstract.returnsreference.md) - Перевіряє, що функція повертає посилання
+-   [ReflectionFunctionAbstract::toString](reflectionfunctionabstract.tostring.md) — Перетворення на рядок

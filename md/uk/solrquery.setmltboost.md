@@ -1,12 +1,12 @@
 Встановлює, чи буде запит посилено релевантністю цікавого виразу
 
--   [« SolrQuery::setMlt](solrquery.setmlt.html)
+-   [« SolrQuery::setMlt](solrquery.setmlt.md)
     
--   [SolrQuery::setMltCount »](solrquery.setmltcount.html)
+-   [SolrQuery::setMltCount »](solrquery.setmltcount.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Встановлює, чи буде запит посилено релевантністю цікавого виразу
     

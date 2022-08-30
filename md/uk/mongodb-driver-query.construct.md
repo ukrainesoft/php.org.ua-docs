@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverBulkWrite »](class.mongodb-driver-bulkwrite.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverQuery](class.mongodb-driver-query.html)
     
@@ -31,16 +31,16 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 [» Предикат запроса](https://www.mongodb.com/docs/manual/tutorial/query-documents/). Порожній предикат збігатиметься з усіма елементами колекції.
 
-> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.html) і [приведения типов](language.types.type-juggling.html) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.html) (тобто використовувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.html) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.md) і [приведения типов](language.types.type-juggling.html) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.md) (тобто використовувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.html) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
 
 `queryOptions`
 
 **queryOptions**
 
-| Опция                                                                                                                                                                           | Тип  | Описание |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|----------|
-| allowDiskUse                                                                                                                                                                    | bool |          |
-| Дозволяє MongoDB використовувати тимчасові файли на диску для зберігання даних, що перевищують межу системної пам'яті 100 мегабайт, при обробці операції сортування блокування. |      |          |
+| Опция | Тип | Описание |
+| --- | --- | --- |
+| allowDiskUse | bool |  |
+| Дозволяє MongoDB використовувати тимчасові файли на диску для зберігання даних, що перевищують межу системної пам'яті 100 мегабайт, при обробці операції сортування блокування. |  |  |
 
 | | allowPartialResults | bool |
 
@@ -146,7 +146,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 [» Специфікація проекції](https://www.mongodb.com/docs/manual/tutorial/project-fields-from-query-results/) для визначення полів, які необхідно включити до документів, що повертаються.
 
-Якщо ви використовуєте [функцию ODM](mongodb.persistence.deserialization.html) для десеріалізації документів як їх вихідний клас PHP, переконайтеся, що ви включили поле pclass у проекцію. Це необхідно для роботи десеріалізації, і без неї драйвер поверне (за умовчанням) об'єкт **stdClass**
+Якщо ви використовуєте [функцию ODM](mongodb.persistence.deserialization.md) для десеріалізації документів як їх вихідний клас PHP, переконайтеся, що ви включили поле pclass у проекцію. Це необхідно для роботи десеріалізації, і без неї драйвер поверне (за умовчанням) об'єкт **stdClass**
 
 | | readConcern | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
 
@@ -190,10 +190,10 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 ### список змін
 
-| Версия                                                               | Описание |
-|----------------------------------------------------------------------|----------|
-| PECL mongodb 1.14.0                                                  |          |
-| Додана опція `"let"`. Опція `"comment"` тепер приймає будь-який тип. |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.14.0 |  |
+| Додана опція `"let"`. Опція `"comment"` тепер приймає будь-який тип. |  |
 
 | | PECL mongodb 1.8.0
 

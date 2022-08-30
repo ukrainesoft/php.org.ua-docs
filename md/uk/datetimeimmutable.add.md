@@ -1,12 +1,12 @@
 Повертає новий об'єкт із доданою кількістю днів, місяців, років, годин, хвилин та секунд
 
--   [« DateTimeImmutable](class.datetimeimmutable.html)
+-   [« DateTimeImmutable](class.datetimeimmutable.md)
     
--   [DateTimeImmutable::construct »](datetimeimmutable.construct.html)
+-   [DateTimeImmutable::construct »](datetimeimmutable.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTimeImmutable](class.datetimeimmutable.html)
+-   [DateTimeImmutable](class.datetimeimmutable.md)
     
 -   Повертає новий об'єкт із доданою кількістю днів, місяців, років, годин, хвилин та секунд
     
@@ -23,17 +23,17 @@ DateTimeImmutable::add — Повертає новий об'єкт із дода
 public DateTimeImmutable::add(DateInterval $interval): DateTimeImmutable
 ```
 
-Створює новий об'єкт [DateTimeImmutable](class.datetimeimmutable.html) та додає до нього вказаний об'єкт [DateInterval](class.dateinterval.html) для уявлення нового значення.
+Створює новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) та додає до нього вказаний об'єкт [DateInterval](class.dateinterval.md) для уявлення нового значення.
 
 ### Список параметрів
 
 `interval`
 
-Об'єкт [DateInterval](class.dateinterval.html)
+Об'єкт [DateInterval](class.dateinterval.md)
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.html) з модифікованими даними або **`false`** у разі виникнення помилки.
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) з модифікованими даними або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -94,6 +94,6 @@ echo $newDate2->format('Y-m-d') . "\n";
 
 ### Дивіться також
 
--   [DateTimeImmutable::sub()](datetimeimmutable.sub.html) - Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд
--   [DateTimeImmutable::diff()](datetime.diff.html) - Повертає різницю між двома об'єктами DateTime
--   [DateTimeImmutable::modify()](datetimeimmutable.modify.html) - Створює новий об'єкт із зміненою тимчасовою міткою
+-   [DateTimeImmutable::sub()](datetimeimmutable.sub.md) - Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд
+-   [DateTimeImmutable::diff()](datetime.diff.md) - Повертає різницю між двома об'єктами DateTime
+-   [DateTimeImmutable::modify()](datetimeimmutable.modify.md) - Створює новий об'єкт із зміненою тимчасовою міткою

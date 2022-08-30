@@ -1,12 +1,12 @@
 Перевіряє, чи є значення властивістю за умовчанням
 
--   [« ReflectionProperty::hasType](reflectionproperty.hastype.html)
+-   [« ReflectionProperty::hasType](reflectionproperty.hastype.md)
     
--   [ReflectionProperty::isInitialized »](reflectionproperty.isinitialized.html)
+-   [ReflectionProperty::isInitialized »](reflectionproperty.isinitialized.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionProperty](class.reflectionproperty.html)
+-   [ReflectionProperty](class.reflectionproperty.md)
     
 -   Перевіряє, чи є значення властивістю за умовчанням
     
@@ -62,4 +62,4 @@ bool(false)
 
 ### Дивіться також
 
--   [ReflectionProperty::getValue()](reflectionproperty.getvalue.html) - набуває значення
+-   [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) - набуває значення

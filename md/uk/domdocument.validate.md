@@ -1,12 +1,12 @@
 Перевіряє документ на відповідність його DTD
 
--   [« DOMDocument::schemaValidateSource](domdocument.schemavalidatesource.html)
+-   [« DOMDocument::schemaValidateSource](domdocument.schemavalidatesource.md)
     
--   [DOMDocument::xinclude »](domdocument.xinclude.html)
+-   [DOMDocument::xinclude »](domdocument.xinclude.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMDocument](class.domdocument.html)
+-   [DOMDocument](class.domdocument.md)
     
 -   Перевіряє документ на відповідність його DTD
     
@@ -25,7 +25,7 @@ public DOMDocument::validate(): bool
 
 Перевіряє документ на дійсність, виходячи з його DTD.
 
-Також можна використовувати властивість `validateOnParse` класу [DOMDocument](class.domdocument.html) для перевірки DTD.
+Також можна використовувати властивість `validateOnParse` класу [DOMDocument](class.domdocument.md) для перевірки DTD.
 
 ### Список параметрів
 
@@ -61,7 +61,7 @@ $dom->load('book.xml');
 
 ### Дивіться також
 
--   [DOMDocument::schemaValidate()](domdocument.schemavalidate.html) - Перевіряє дійсність документа, ґрунтуючись на заданій схемі. Підтримується лише XML-схема 1.0.
--   [DOMDocument::schemaValidateSource()](domdocument.schemavalidatesource.html) - Перевіряє дійсність документа, ґрунтуючись на схемі
--   [DOMDocument::relaxNGValidate()](domdocument.relaxngvalidate.html) - Здійснює перевірку документа на правильність побудови за допомогою relaxNG
--   [DOMDocument::relaxNGValidateSource()](domdocument.relaxngvalidatesource.html) - Перевіряє документ за допомогою relaxNG
+-   [DOMDocument::schemaValidate()](domdocument.schemavalidate.md) - Перевіряє дійсність документа, ґрунтуючись на заданій схемі. Підтримується лише XML-схема 1.0.
+-   [DOMDocument::schemaValidateSource()](domdocument.schemavalidatesource.md) - Перевіряє дійсність документа, ґрунтуючись на схемі
+-   [DOMDocument::relaxNGValidate()](domdocument.relaxngvalidate.md) - Здійснює перевірку документа на правильність побудови за допомогою relaxNG
+-   [DOMDocument::relaxNGValidateSource()](domdocument.relaxngvalidatesource.md) - Перевіряє документ за допомогою relaxNG

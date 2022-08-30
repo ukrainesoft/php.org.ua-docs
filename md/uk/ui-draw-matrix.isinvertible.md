@@ -4,7 +4,7 @@
     
 -   [ОЙDrawMatrix::multiply »](ui-draw-matrix.multiply.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawMatrix](class.ui-draw-matrix.html)
     

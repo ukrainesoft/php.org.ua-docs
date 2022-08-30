@@ -1,12 +1,12 @@
 Отримує мовний стандарт, пов'язаний із об'єктом
 
--   [« IntlCalendar::getLeastMaximum](intlcalendar.getleastmaximum.html)
+-   [« IntlCalendar::getLeastMaximum](intlcalendar.getleastmaximum.md)
     
--   [IntlCalendar::getMaximum »](intlcalendar.getmaximum.html)
+-   [IntlCalendar::getMaximum »](intlcalendar.getmaximum.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Отримує мовний стандарт, пов'язаний із об'єктом
     
@@ -37,7 +37,7 @@ intlcal_get_locale(IntlCalendar $calendar, int $type): string|false
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `type`
 

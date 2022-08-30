@@ -4,9 +4,9 @@
     
 -   [convertuuencode »](function.convert-uuencode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Декодує рядок із формату uuencode у звичайний вигляд
     

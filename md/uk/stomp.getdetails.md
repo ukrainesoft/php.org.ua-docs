@@ -1,12 +1,12 @@
 Повертає відомості про виключення
 
--   [« StompException](class.stompexception.html)
+-   [« StompException](class.stompexception.md)
     
--   [SVM »](book.svm.html)
+-   [SVM »](book.svm.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [StompException](class.stompexception.html)
+-   [StompException](class.stompexception.md)
     
 -   Повертає відомості про виключення
     

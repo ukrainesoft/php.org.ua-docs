@@ -4,9 +4,9 @@
     
 -   [ibaseдбinfo »](function.ibase-db-info.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Firebird/InterBase](ref.ibase.html)
+-   [Функции Firebird/InterBase](ref.ibase.md)
     
 -   Відкриває з'єднання з базою даних
     

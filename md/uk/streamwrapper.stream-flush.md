@@ -4,9 +4,9 @@
     
 -   [streamWrapper::streamlock »](streamwrapper.stream-lock.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [streamWrapper](class.streamwrapper.html)
+-   [streamWrapper](class.streamwrapper.md)
     
 -   Скидає висновок
     
@@ -23,7 +23,7 @@ streamWrapper::streamflush - Скидає висновок
 public streamWrapper::stream_flush(): bool
 ```
 
-Цей метод викликається у процесі виконання [fflush()](function.fflush.html), якщо потік закривається маючи незрушені дані, записані до нього раніше.
+Цей метод викликається у процесі виконання [fflush()](function.fflush.md), якщо потік закривається маючи незрушені дані, записані до нього раніше.
 
 Якщо в потоці є кешовані і ще невикористані дані, у цьому методі місце передати їх на нижчий рівень.
 
@@ -43,4 +43,4 @@ public streamWrapper::stream_flush(): bool
 
 ### Дивіться також
 
--   [fflush()](function.fflush.html) - скидає буфер виведення у файл
+-   [fflush()](function.fflush.md) - скидає буфер виведення у файл

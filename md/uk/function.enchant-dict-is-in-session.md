@@ -4,9 +4,9 @@
     
 -   [enchantdictquickcheck »](function.enchant-dict-quick-check.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Enchant](ref.enchant.html)
+-   [Функции Enchant](ref.enchant.md)
     
 -   Чи є слово 'word' у сесії перевірки
     

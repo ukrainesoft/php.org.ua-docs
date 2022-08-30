@@ -1,12 +1,12 @@
 Отримати кількість мілісекунд, яку потрібно додати до місцевого поясного часу, щоб отримати літній час
 
--   [« IntlTimeZone::getDisplayName](intltimezone.getdisplayname.html)
+-   [« IntlTimeZone::getDisplayName](intltimezone.getdisplayname.md)
     
--   [IntlTimeZone::getEquivalentID »](intltimezone.getequivalentid.html)
+-   [IntlTimeZone::getEquivalentID »](intltimezone.getequivalentid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlTimeZone](class.intltimezone.html)
+-   [IntlTimeZone](class.intltimezone.md)
     
 -   Отримати кількість мілісекунд, яку потрібно додати до місцевого поясного часу, щоб отримати літній час
     

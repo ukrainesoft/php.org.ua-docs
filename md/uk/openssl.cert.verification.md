@@ -1,12 +1,12 @@
 Перевірка сертифікатів
 
--   [« Параметры ключа/сертификата](openssl.certparams.html)
+-   [« Параметри ключа/сертифіката](openssl.certparams.md)
     
--   [Функции OpenSSL »](ref.openssl.html)
+-   [Функции OpenSSL »](ref.openssl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OpenSSL](book.openssl.html)
+-   [OpenSSL](book.openssl.md)
     
 -   Перевірка сертифікатів
     

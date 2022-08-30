@@ -4,7 +4,7 @@
     
 -   [ОЙControlsEntry::isReadOnly »](ui-controls-entry.isreadonly.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsEntry](class.ui-controls-entry.html)
     

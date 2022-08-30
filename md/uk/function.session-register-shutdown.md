@@ -4,9 +4,9 @@
     
 -   [sessionreset »](function.session-reset.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи із сесіями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.md)
     
 -   Функція завершення сесії
     

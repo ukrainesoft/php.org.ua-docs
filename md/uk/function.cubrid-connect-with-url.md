@@ -4,9 +4,9 @@
     
 -   [cubridconnect »](function.cubrid-connect.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Створює оточення для з'єднання із сервером CUBRID
     

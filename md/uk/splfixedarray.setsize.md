@@ -1,12 +1,12 @@
 Змінює розмір масиву
 
--   [« SplFixedArray::rewind](splfixedarray.rewind.html)
+-   [« SplFixedArray::rewind](splfixedarray.rewind.md)
     
--   [SplFixedArray::toArray »](splfixedarray.toarray.html)
+-   [SplFixedArray::toArray »](splfixedarray.toarray.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFixedArray](class.splfixedarray.html)
+-   [SplFixedArray](class.splfixedarray.md)
     
 -   Змінює розмір масиву
     
@@ -37,7 +37,7 @@ public SplFixedArray::setSize(int $size): bool
 
 ### Помилки
 
-Викидає виняток [InvalidArgumentException](class.invalidargumentexception.html), коли `size` меньше нуля.
+Викидає виняток [InvalidArgumentException](class.invalidargumentexception.md), коли `size` меньше нуля.
 
 Викликає помилку рівня **`E_WARNING`**, коли `size` не можна обробити як число.
 

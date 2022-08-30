@@ -1,12 +1,12 @@
 Запустити робочий процес varnish
 
--   [« VarnishAdmin::setTimeout](varnishadmin.settimeout.html)
+-   [« VarnishAdmin::setTimeout](varnishadmin.settimeout.md)
     
--   [VarnishAdmin::stop »](varnishadmin.stop.html)
+-   [VarnishAdmin::stop »](varnishadmin.stop.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [VarnishAdmin](class.varnishadmin.html)
+-   [VarnishAdmin](class.varnishadmin.md)
     
 -   Запустити робочий процес varnish
     

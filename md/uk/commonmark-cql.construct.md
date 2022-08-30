@@ -4,7 +4,7 @@
     
 -   [CommonMarkCQL::invoke »](commonmark-cql.invoke.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [CommonMarkCQL](class.commonmark-cql.html)
     

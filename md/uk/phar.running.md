@@ -1,12 +1,12 @@
 Отримати повний шлях на диску або повний URL запущеного Phar-архіву
 
--   [« Phar::offsetUnset](phar.offsetunset.html)
+-   [« Phar::offsetUnset](phar.offsetunset.md)
     
--   [Phar::setAlias »](phar.setalias.html)
+-   [Phar::setAlias »](phar.setalias.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Phar](class.phar.html)
+-   [Phar](class.phar.md)
     
 -   Отримати повний шлях на диску або повний URL запущеного Phar-архіву
     

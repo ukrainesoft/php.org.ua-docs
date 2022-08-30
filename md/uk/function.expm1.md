@@ -1,12 +1,12 @@
 Повертає exp(number) - 1, розраховане таким чином, що результат точний навіть якщо значення number близько до нуля.
 
--   [« exp](function.exp.html)
+-   [« exp](function.exp.md)
     
--   [fdiv »](function.fdiv.html)
+-   [fdiv »](function.fdiv.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Повертає exp(number) - 1, розраховане таким чином, що результат точний навіть якщо значення number близько до нуля.
     
@@ -37,5 +37,5 @@ expm1(float $num): float
 
 ### Дивіться також
 
--   [log1p()](function.log1p.html) - Повертає log(1 + number), розрахований так, що результат точний, навіть якщо значення number близьке до нуля
--   [exp()](function.exp.html) - обчислює ступінь числа e
+-   [log1p()](function.log1p.md) - Повертає log(1 + number), розрахований так, що результат точний, навіть якщо значення number близьке до нуля
+-   [exp()](function.exp.md) - обчислює ступінь числа e

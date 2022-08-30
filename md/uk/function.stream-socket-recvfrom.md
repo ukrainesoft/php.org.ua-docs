@@ -4,9 +4,9 @@
     
 -   [streamsocketsendto »](function.stream-socket-sendto.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.md)
     
 -   Отримує дані із сокету, підключеного чи ні
     
@@ -84,7 +84,7 @@ fclose($server);
 
 > **Зауваження**
 > 
-> Виклики функції **streamsocketrecvfrom()** на потоках, заснованих на сокетах, після викликів потокових функцій, що базуються на буферах (таких як [fread()](function.fread.html) або [streamgetline()](function.stream-get-line.html)) читають дані безпосередньо із сокету та пропускають потоковий буфер.
+> Виклики функції **streamsocketrecvfrom()** на потоках, заснованих на сокетах, після викликів потокових функцій, що базуються на буферах (таких як [fread()](function.fread.md) або [streamgetline()](function.stream-get-line.html)) читають дані безпосередньо із сокету та пропускають потоковий буфер.
 
 ### Дивіться також
 

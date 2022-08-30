@@ -1,12 +1,12 @@
 Перевіряє, чи має цей вузол атрибути.
 
--   [« DOMNode::getNodePath](domnode.getnodepath.html)
+-   [« DOMNode::getNodePath](domnode.getnodepath.md)
     
--   [DOMNode::hasChildNodes »](domnode.haschildnodes.html)
+-   [DOMNode::hasChildNodes »](domnode.haschildnodes.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMNode](class.domnode.html)
+-   [DOMNode](class.domnode.md)
     
 -   Перевіряє, чи має цей вузол атрибути.
     
@@ -35,4 +35,4 @@ public DOMNode::hasAttributes(): bool
 
 ### Дивіться також
 
--   [DOMNode::hasChildNodes()](domnode.haschildnodes.html) - Перевіряє, чи має цей вузол нащадків
+-   [DOMNode::hasChildNodes()](domnode.haschildnodes.md) - Перевіряє, чи має цей вузол нащадків

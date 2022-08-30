@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](xsl.setup.html)
+-   [« Встановлення та налаштування](xsl.setup.html)
     
 -   [Установка »](xsl.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](xsl.setup.html)
+-   [Встановлення та налаштування](xsl.setup.html)
     
 -   Вимоги
     

@@ -6,7 +6,7 @@ ScoutAPM
     
 -   [PHP Manual](index.html)
     
--   [Другие службы](refs.remote.other.html)
+-   [Інші служби](refs.remote.other.html)
     
 -   ScoutAPM
     
@@ -14,11 +14,11 @@ ScoutAPM
 # ScoutAPM
 
 -   [Введение](intro.scoutapm.html)
--   [Установка и настройка](scoutapm.setup.html)
-    -   [Требования](scoutapm.requirements.html)
+-   [Встановлення та налаштування](scoutapm.setup.html)
+    -   [Вимоги](scoutapm.requirements.html)
     -   [Установка](scoutapm.installation.html)
-    -   [Настройка во время выполнения](scoutapm.configuration.html)
--   [Предопределённые константы](scoutapm.constants.html)
+    -   [Налаштування під час виконання](scoutapm.configuration.html)
+-   [Обумовлені константи](scoutapm.constants.html)
 -   [Функции Scoutapm](ref.scoutapm.html)
     -   [scoutapmgetcalls](function.scoutapm-get-calls.html) — Повертає список дзвінків, що відбулися
     -   [scoutapmlistinstrumentedfunctions](function.scoutapm-list-instrumented-functions.html) - Список функцій, які scoutapm буде використовувати

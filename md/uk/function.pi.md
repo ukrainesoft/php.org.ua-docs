@@ -1,12 +1,12 @@
 Повертає число Пі
 
--   [« octdec](function.octdec.html)
+-   [« octdec](function.octdec.md)
     
--   [pow »](function.pow.html)
+-   [pow »](function.pow.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Повертає число Пі
     

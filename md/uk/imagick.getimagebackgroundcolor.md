@@ -1,12 +1,12 @@
 Повертає колір фону зображення
 
--   [« Imagick::getImageAttribute](imagick.getimageattribute.html)
+-   [« Imagick::getImageAttribute](imagick.getimageattribute.md)
     
--   [Imagick::getImageBlob »](imagick.getimageblob.html)
+-   [Imagick::getImageBlob »](imagick.getimageblob.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає колір фону зображення
     

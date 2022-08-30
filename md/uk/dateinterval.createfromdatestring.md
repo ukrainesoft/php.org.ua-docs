@@ -37,9 +37,9 @@ public static DateInterval::createFromDateString(string $datetime): DateInterval
 
 ### список змін
 
-| Версия | Описание                                                                                                                                      |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тільки властивості `from_string` і `date_string` буде видно при створенні об'єкта [DateInterval](class.dateinterval.html) за допомогою цього. |
+| Версия | Описание |
+| --- | --- |
+|  | Тільки властивості `from_string` і `date_string` буде видно при створенні об'єкта [DateInterval](class.dateinterval.html) за допомогою цього. |
 
 ### Приклади
 

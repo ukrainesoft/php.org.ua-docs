@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](tcpwrap.setup.html)
+-   [« Встановлення та налаштування](tcpwrap.setup.html)
     
 -   [Установка »](tcpwrap.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](tcpwrap.setup.html)
+-   [Встановлення та налаштування](tcpwrap.setup.html)
     
 -   Вимоги
     

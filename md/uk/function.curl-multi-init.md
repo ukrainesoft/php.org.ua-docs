@@ -4,9 +4,9 @@
     
 -   [curlmultiremovehandle »](function.curl-multi-remove-handle.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции cURL](ref.curl.html)
+-   [Функции cURL](ref.curl.md)
     
 -   Створює набір cURL-дескрипторів
     
@@ -35,9 +35,9 @@ curl_multi_init(): CurlMultiHandle
 
 ### список змін
 
-| Версия | Описание                                                                                                                           |
-|--------|------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання повертає екземпляр [CurlMultiHandle](class.curlmultihandle.html); раніше, повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання повертає екземпляр [CurlMultiHandle](class.curlmultihandle.md); раніше, повертався ресурс (resource). |
 
 ### Приклади
 

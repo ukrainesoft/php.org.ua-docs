@@ -2,11 +2,11 @@
 
 -   [« realpathcachesize](function.realpath-cache-size.html)
     
--   [rename »](function.rename.html)
+-   [rename »](function.rename.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Повертає абсолютний канонізований шлях до файлу
     
@@ -100,6 +100,6 @@ C:\Program Files
 
 ### Дивіться також
 
--   [basename()](function.basename.html) - Повертає останній компонент імені із зазначеного шляху
--   [dirname()](function.dirname.html) - Повертає ім'я батьківського каталогу із зазначеного шляху
--   [pathinfo()](function.pathinfo.html) - Повертає інформацію про шлях до файлу
+-   [basename()](function.basename.md) - Повертає останній компонент імені із зазначеного шляху
+-   [dirname()](function.dirname.md) - Повертає ім'я батьківського каталогу із зазначеного шляху
+-   [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях до файлу

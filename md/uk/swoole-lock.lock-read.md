@@ -4,7 +4,7 @@
     
 -   [SwooleLock::lock »](swoole-lock.lock.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleLock](class.swoole-lock.html)
     

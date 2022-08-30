@@ -1,12 +1,12 @@
 Визначає порядок обмежень поля фасету
 
--   [« SolrQuery::setFacetPrefix](solrquery.setfacetprefix.html)
+-   [« SolrQuery::setFacetPrefix](solrquery.setfacetprefix.md)
     
--   [SolrQuery::setGroup »](solrquery.setgroup.html)
+-   [SolrQuery::setGroup »](solrquery.setgroup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Визначає порядок обмежень поля фасету
     

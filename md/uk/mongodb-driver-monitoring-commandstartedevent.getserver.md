@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverMonitoringCommandStartedEvent::getServerConnectionId »](mongodb-driver-monitoring-commandstartedevent.getserverconnectionid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.html)
     
@@ -41,4 +41,4 @@ final public MongoDB\Driver\Monitoring\CommandStartedEvent::getServer(): MongoDB
 
 -   [MongoDBDriverMonitoringCommandFailedEvent::getServer()](mongodb-driver-monitoring-commandfailedevent.getserver.html) - Повертає сервер, на якому було виконано команду
 -   [MongoDBDriverMonitoringCommandSucceededEvent::getServer()](mongodb-driver-monitoring-commandsucceededevent.getserver.html) - Повертає сервер, на якому було виконано команду
--   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)

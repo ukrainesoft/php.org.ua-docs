@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Массивы](book.array.html)
+-   [Масиви](book.array.html)
     
 -   Функції для роботи з масивами
     

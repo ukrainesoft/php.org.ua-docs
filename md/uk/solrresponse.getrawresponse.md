@@ -1,12 +1,12 @@
 Повертає необроблену відповідь із сервера
 
--   [« SolrResponse::getRawRequestHeaders](solrresponse.getrawrequestheaders.html)
+-   [« SolrResponse::getRawRequestHeaders](solrresponse.getrawrequestheaders.md)
     
--   [SolrResponse::getRawResponseHeaders »](solrresponse.getrawresponseheaders.html)
+-   [SolrResponse::getRawResponseHeaders »](solrresponse.getrawresponseheaders.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrResponse](class.solrresponse.html)
+-   [SolrResponse](class.solrresponse.md)
     
 -   Повертає необроблену відповідь із сервера
     

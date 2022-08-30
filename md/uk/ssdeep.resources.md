@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](ssdeep.configuration.html)
+-   [« Налаштування під час виконання](ssdeep.configuration.html)
     
--   [Предопределённые константы »](ssdeep.constants.html)
+-   [Обумовлені константи »](ssdeep.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](ssdeep.setup.html)
+-   [Встановлення та налаштування](ssdeep.setup.html)
     
 -   Типи ресурсів
     

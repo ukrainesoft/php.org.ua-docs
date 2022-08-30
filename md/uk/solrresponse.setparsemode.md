@@ -1,12 +1,12 @@
 Встановлює режим аналізу
 
--   [« SolrResponse::getResponse](solrresponse.getresponse.html)
+-   [« SolrResponse::getResponse](solrresponse.getresponse.md)
     
--   [SolrResponse::success »](solrresponse.success.html)
+-   [SolrResponse::success »](solrresponse.success.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrResponse](class.solrresponse.html)
+-   [SolrResponse](class.solrresponse.md)
     
 -   Встановлює режим аналізу
     

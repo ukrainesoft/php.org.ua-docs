@@ -1,12 +1,12 @@
 Визначення кількості кольорів на панелі зображення
 
--   [« imagecolorsforindex](function.imagecolorsforindex.html)
+-   [« imagecolorsforindex](function.imagecolorsforindex.md)
     
--   [imagecolortransparent »](function.imagecolortransparent.html)
+-   [imagecolortransparent »](function.imagecolortransparent.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Визначення кількості кольорів на панелі зображення
     
@@ -29,7 +29,7 @@ imagecolorstotal(GdImage $image): int
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 ### Значення, що повертаються
 
@@ -37,9 +37,9 @@ imagecolorstotal(GdImage $image): int
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -65,6 +65,6 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagecolorat()](function.imagecolorat.html) - Отримання індексу кольору пікселя
--   [imagecolorsforindex()](function.imagecolorsforindex.html) - Отримання кольорів, що відповідають індексу
--   [imageistruecolor()](function.imageistruecolor.html) - Визначає, чи є зображення повнокольоровим
+-   [imagecolorat()](function.imagecolorat.md) - Отримання індексу кольору пікселя
+-   [imagecolorsforindex()](function.imagecolorsforindex.md) - Отримання кольорів, що відповідають індексу
+-   [imageistruecolor()](function.imageistruecolor.md) - Визначає, чи є зображення повнокольоровим

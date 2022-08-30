@@ -4,9 +4,9 @@
     
 -   [intlісfailure »](function.intl-is-failure.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции intl](ref.intl.html)
+-   [Функции intl](ref.intl.md)
     
 -   Отримати опис помилки
     
@@ -50,5 +50,5 @@ if( Collator::getAvailableLocales() === false ) {
 -   [intlerrorname()](function.intl-error-name.html) - Отримати ім'я помилки за її кодом
 -   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
 -   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
--   [collatorgeterrormessage()](collator.geterrormessage.html) - Отримує текст для останньої помилки коду Collator
--   [numfmtgeterrormessage()](numberformatter.geterrormessage.html) - Отримує останнє повідомлення про помилку засобу форматування
+-   [collatorgeterrormessage()](collator.geterrormessage.md) - Отримує текст для останньої помилки коду Collator
+-   [numfmtgeterrormessage()](numberformatter.geterrormessage.md) - Отримує останнє повідомлення про помилку засобу форматування

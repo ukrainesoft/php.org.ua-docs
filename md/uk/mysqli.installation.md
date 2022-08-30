@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](mysqli.requirements.html)
+-   [« Вимоги](mysqli.requirements.md)
     
--   [Настройка во время выполнения »](mysqli.configuration.html)
+-   [Налаштування під час виконання »](mysqli.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mysqli.setup.html)
+-   [Встановлення та налаштування](mysqli.setup.md)
     
 -   Встановлення
     
@@ -29,11 +29,11 @@
 
 **Допоміжна таблиця часу компіляції mysqli**
 
-| Версия PHP          | По умолчанию   | Опции настройки: [mysqlnd](mysqlnd.overview.html) | Опции настройки: `libmysqlclient`      | Список изменений         |
-|---------------------|----------------|---------------------------------------------------|----------------------------------------|--------------------------|
-| 5.4.x і вище        | mysqlnd        | **\-with-mysqli**                                 | **\-with-mysqli=/path/to/mysqlconfig** | за замовчуванням mysqlnd |
-| 5.3.x               | libmysqlclient | **\-with-mysqli=mysqlnd**                         | **\-with-mysqli=/path/to/mysqlconfig** | mysqlnd підтримується    |
-| 5.0.x, 5.1.x, 5.2.x | libmysqlclient | Недоступно                                        | **\-with-mysqli=/path/to/mysqlconfig** | mysqlnd не підтримується |
+| Версия PHP | По умолчанию | Опции настройки: [mysqlnd](mysqlnd.overview.md) | Опции настройки: `libmysqlclient` | Список изменений |
+| --- | --- | --- | --- | --- |
+| 5.4.x і вище | mysqlnd | **\-with-mysqli** | **\-with-mysqli=/path/to/mysqlconfig** | за замовчуванням mysqlnd |
+| 5.3.x | libmysqlclient | **\-with-mysqli=mysqlnd** | **\-with-mysqli=/path/to/mysqlconfig** | mysqlnd підтримується |
+| 5.0.x, 5.1.x, 5.2.x | libmysqlclient | Недоступно | **\-with-mysqli=/path/to/mysqlconfig** | mysqlnd не підтримується |
 
 Існує можливість вільно перемішувати модулі MySQL і клієнтські бібліотеки. Наприклад, можна активувати модуль MySQL, що дозволяє використовувати MySQL Client Library (libmysqlclient), і при цьому налаштувати модуль `mysqli` для використання MySQL Native Driver. Таким чином, можливі будь-які перестановки модулів та клієнтських бібліотек.
 
@@ -53,7 +53,7 @@
 
 Також, якщо ви хочете використовувати MySQL Client Library з `mysqli`Вам необхідно переконатися, що PHP може отримати доступ до файлу клієнтської бібліотеки. MySQL Client Library включений до дистрибутиву Windows PHP у вигляді файлу libmysql.dll. Цей файл повинен бути доступний у змінному оточенні Windows PATH для того, щоб його можна було успішно завантажити. За посиланням "[Як мені додати мою PHP директорію у Windows PATH](faq.installation.html#faq.installation.addtopath)" знаходиться стаття з інформацією про те, як це зробити. Якщо системна директорія Windows прописана в PATH, то можна скопіювати libmysql.dll в системну директорію Windows (зазвичай c:Windowsсистема). Однак такий шлях не рекомендується.
 
-При включенні будь-якого модуля PHP (наприклад, phpmysqli.dll), директива PHP [extensiondir](ini.core.html#ini.extension-dir) повинна містити шлях до директорії, де є модулі PHP. Дивіться також [Інструкції з самостійної установки для Windows](install.windows.manual.html). Наприклад, у PHP 5 значенням `extension_dir` є c:phpext.
+При включенні будь-якого модуля PHP (наприклад, phpmysqli.dll), директива PHP [extensiondir](ini.core.html#ini.extension-dir) повинна містити шлях до директорії, де є модулі PHP. Дивіться також [Інструкції з самостійної установки для Windows](install.windows.manual.md). Наприклад, у PHP 5 значенням `extension_dir` є c:phpext.
 
 > **Зауваження**
 > 

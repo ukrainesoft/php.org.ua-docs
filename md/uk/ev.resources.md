@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](ev.configuration.html)
+-   [« Налаштування під час виконання](ev.configuration.md)
     
--   [Предопределённые константы »](ev.global.constants.html)
+-   [Обумовлені константи »](ev.global.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ev.setup.html)
+-   [Встановлення та налаштування](ev.setup.md)
     
 -   Типи ресурсів
     

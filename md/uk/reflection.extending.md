@@ -1,12 +1,12 @@
 Розширення
 
--   [« Примеры](reflection.examples.html)
+-   [« Приклади](reflection.examples.md)
     
--   [Reflection »](class.reflection.html)
+-   [Reflection »](class.reflection.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Reflection](book.reflection.html)
+-   [Reflection](book.reflection.md)
     
 -   Розширення
     

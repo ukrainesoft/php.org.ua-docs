@@ -4,9 +4,9 @@
     
 -   [opensslpkcs7encrypt »](function.openssl-pkcs7-encrypt.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Розшифрувати повідомлення, зашифроване S/MIME
     
@@ -43,9 +43,9 @@ openssl_pkcs7_decrypt(    string $input_filename,    string $output_file
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509 CSR` |
+| Версия | Описание |
+| --- | --- |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509 CSR` |
 
 ### Приклади
 

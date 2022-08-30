@@ -2,11 +2,11 @@
 
 -   [« streamWrapper::dirreaddir](streamwrapper.dir-readdir.html)
     
--   [streamWrapper::mkdir »](streamwrapper.mkdir.html)
+-   [streamWrapper::mkdir »](streamwrapper.mkdir.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [streamWrapper](class.streamwrapper.html)
+-   [streamWrapper](class.streamwrapper.md)
     
 -   Дескриптор директорії переміщення їх у початок
     
@@ -23,7 +23,7 @@ streamWrapper::dirrewinddir - Дескриптор директорії пере
 public streamWrapper::dir_rewinddir(): bool
 ```
 
-Цей метод викликається у процесі виконання [rewinddir()](function.rewinddir.html)
+Цей метод викликається у процесі виконання [rewinddir()](function.rewinddir.md)
 
 Повинен скидати поточний висновок, що генерується методом [streamWrapper::dirreaddir()](streamwrapper.dir-readdir.html). Тобто. при наступному виклику метод [streamWrapper::dirreaddir()](streamwrapper.dir-readdir.html) повинен повертати перший запис у директорії, визначеній методом [streamWrapper::diropendir()](streamwrapper.dir-opendir.html)
 
@@ -37,5 +37,5 @@ public streamWrapper::dir_rewinddir(): bool
 
 ### Дивіться також
 
--   [rewinddir()](function.rewinddir.html) - Скинути дескриптор каталогу
+-   [rewinddir()](function.rewinddir.md) - Скинути дескриптор каталогу
 -   [streamWrapper::dirreaddir()](streamwrapper.dir-readdir.html) - Читання запису з дескриптора директорії

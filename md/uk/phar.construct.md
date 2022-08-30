@@ -1,12 +1,12 @@
 Створює об'єкт Phar-архіву
 
--   [« Phar::compressFiles](phar.compressfiles.html)
+-   [« Phar::compressFiles](phar.compressfiles.md)
     
--   [Phar::convertToData »](phar.converttodata.html)
+-   [Phar::convertToData »](phar.converttodata.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Phar](class.phar.html)
+-   [Phar](class.phar.md)
     
 -   Створює об'єкт Phar-архіву
     
@@ -29,7 +29,7 @@ public **Phar::construct**(string `$filename`, int `$flags` = FilesystemIterator
 
 `flags`
 
-Прапори, які мають бути передані до батьківського класу [RecursiveDirectoryIterator](class.recursivedirectoryiterator.html)
+Прапори, які мають бути передані до батьківського класу [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
 
 `alias`
 
@@ -37,7 +37,7 @@ public **Phar::construct**(string `$filename`, int `$flags` = FilesystemIterator
 
 ### Помилки
 
-Викидає виняток [BadMethodCallException](class.badmethodcallexception.html), якщо був викликаний двічі, та виняток [UnexpectedValueException](class.unexpectedvalueexception.html)якщо phar-архів не може бути відкритий.
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.md), якщо був викликаний двічі, та виняток [UnexpectedValueException](class.unexpectedvalueexception.md)якщо phar-архів не може бути відкритий.
 
 ### Приклади
 

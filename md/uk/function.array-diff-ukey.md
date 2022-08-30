@@ -4,9 +4,9 @@
     
 -   [arraydiff »](function.array-diff.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Обчислює розбіжність масивів, використовуючи callback-функцію порівняння ключів
     

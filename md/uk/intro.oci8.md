@@ -2,7 +2,7 @@
 
 -   [« OCI8](book.oci8.html)
     
--   [Установка и настройка »](oci8.setup.html)
+-   [Встановлення та налаштування »](oci8.setup.html)
     
 -   [PHP Manual](index.html)
     

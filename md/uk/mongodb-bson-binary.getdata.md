@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONBinary::getType »](mongodb-bson-binary.gettype.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONBinary](class.mongodb-bson-binary.html)
     
@@ -56,4 +56,4 @@ string(3) "foo"
 
 ### Дивіться також
 
--   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

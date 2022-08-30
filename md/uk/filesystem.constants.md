@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](filesystem.resources.html)
+-   [« Типи ресурсів](filesystem.resources.md)
     
--   [Функції файлової системи »](ref.filesystem.html)
+-   [Функції файлової системи »](ref.filesystem.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Файлова система](book.filesystem.html)
+-   [Файлова система](book.filesystem.md)
     
 -   Обумовлені константи
     

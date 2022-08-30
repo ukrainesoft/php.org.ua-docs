@@ -1,12 +1,12 @@
 Клас RecursiveDirectoryIterator
 
--   [« RecursiveCallbackFilterIterator::hasChildren](recursivecallbackfilteriterator.haschildren.html)
+-   [« RecursiveCallbackFilterIterator::hasChildren](recursivecallbackfilteriterator.haschildren.md)
     
--   [RecursiveDirectoryIterator::construct »](recursivedirectoryiterator.construct.html)
+-   [RecursiveDirectoryIterator::construct »](recursivedirectoryiterator.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Ітератори](spl.iterators.html)
+-   [Ітератори](spl.iterators.md)
     
 -   Клас RecursiveDirectoryIterator
     
@@ -161,11 +161,11 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [RecursiveDirectoryIterator::construct](recursivedirectoryiterator.construct.html) - Конструктор класу RecursiveDirectoryIterator
--   [RecursiveDirectoryIterator::getChildren](recursivedirectoryiterator.getchildren.html) — Якщо поточний елемент є директорією, метод повертає ітератор для неї.
--   [RecursiveDirectoryIterator::getSubPath](recursivedirectoryiterator.getsubpath.html) — Повертає шлях до піддиректорії
--   [RecursiveDirectoryIterator::getSubPathname](recursivedirectoryiterator.getsubpathname.html) — Повертає шлях до піддиректорії та ім'я файлу
--   [RecursiveDirectoryIterator::hasChildren](recursivedirectoryiterator.haschildren.html) — Визначає, чи поточний елемент є директорією
--   [RecursiveDirectoryIterator::key](recursivedirectoryiterator.key.html) — Повертає шлях та ім'я файлу поточного елемента
--   [RecursiveDirectoryIterator::next](recursivedirectoryiterator.next.html) — Перехід до наступного елементу
--   [RecursiveDirectoryIterator::rewind](recursivedirectoryiterator.rewind.html) — перекладає ітератор на початок директорії
+-   [RecursiveDirectoryIterator::construct](recursivedirectoryiterator.construct.md) - Конструктор класу RecursiveDirectoryIterator
+-   [RecursiveDirectoryIterator::getChildren](recursivedirectoryiterator.getchildren.md) — Якщо поточний елемент є директорією, метод повертає ітератор для неї.
+-   [RecursiveDirectoryIterator::getSubPath](recursivedirectoryiterator.getsubpath.md) — Повертає шлях до піддиректорії
+-   [RecursiveDirectoryIterator::getSubPathname](recursivedirectoryiterator.getsubpathname.md) — Повертає шлях до піддиректорії та ім'я файлу
+-   [RecursiveDirectoryIterator::hasChildren](recursivedirectoryiterator.haschildren.md) — Визначає, чи поточний елемент є директорією
+-   [RecursiveDirectoryIterator::key](recursivedirectoryiterator.key.md) — Повертає шлях та ім'я файлу поточного елемента
+-   [RecursiveDirectoryIterator::next](recursivedirectoryiterator.next.md) — Перехід до наступного елементу
+-   [RecursiveDirectoryIterator::rewind](recursivedirectoryiterator.rewind.md) — перекладає ітератор на початок директорії

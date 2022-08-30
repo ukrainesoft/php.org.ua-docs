@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](uodbc.resources.html)
+-   [« Типи ресурсів](uodbc.resources.md)
     
--   [Функции ODBC »](ref.uodbc.html)
+-   [Функции ODBC »](ref.uodbc.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ODBC](book.uodbc.html)
+-   [ODBC](book.uodbc.md)
     
 -   Обумовлені константи
     

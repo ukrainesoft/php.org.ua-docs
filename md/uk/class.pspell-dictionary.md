@@ -4,9 +4,9 @@
     
 -   [PSpellConfig »](class.pspell-config.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Pspell](book.pspell.html)
+-   [Pspell](book.pspell.md)
     
 -   Клас PSpellDictionary
     

@@ -1,12 +1,12 @@
 Конструктор класу ParentIterator
 
--   [« ParentIterator::accept](parentiterator.accept.html)
+-   [« ParentIterator::accept](parentiterator.accept.md)
     
--   [ParentIterator::getChildren »](parentiterator.getchildren.html)
+-   [ParentIterator::getChildren »](parentiterator.getchildren.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ParentIterator](class.parentiterator.html)
+-   [ParentIterator](class.parentiterator.md)
     
 -   Конструктор класу ParentIterator
     
@@ -19,9 +19,9 @@ ParentIterator::construct - Конструктор класу ParentIterator
 
 ### Опис
 
-public **ParentIterator::construct**[RecursiveIterator](class.recursiveiterator.html) `$iterator`
+public **ParentIterator::construct**[RecursiveIterator](class.recursiveiterator.md) `$iterator`
 
-Створює новий об'єкт класу [ParentIterator](class.parentiterator.html) на основі об'єкта-ітератора.
+Створює новий об'єкт класу [ParentIterator](class.parentiterator.md) на основі об'єкта-ітератора.
 
 **Увага**
 

@@ -1,12 +1,12 @@
 Повертає текст англійською, що описує останній невдалий запит SQLite
 
--   [« SQLite3::lastErrorCode](sqlite3.lasterrorcode.html)
+-   [« SQLite3::lastErrorCode](sqlite3.lasterrorcode.md)
     
--   [SQLite3::lastInsertRowID »](sqlite3.lastinsertrowid.html)
+-   [SQLite3::lastInsertRowID »](sqlite3.lastinsertrowid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3](class.sqlite3.html)
+-   [SQLite3](class.sqlite3.md)
     
 -   Повертає текст англійською, що описує останній невдалий запит SQLite
     

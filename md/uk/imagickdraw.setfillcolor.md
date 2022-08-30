@@ -1,12 +1,12 @@
 Встановлює колір заливки для малювання об'єктів із заливкою
 
--   [« ImagickDraw::setFillAlpha](imagickdraw.setfillalpha.html)
+-   [« ImagickDraw::setFillAlpha](imagickdraw.setfillalpha.md)
     
--   [ImagickDraw::setFillOpacity »](imagickdraw.setfillopacity.html)
+-   [ImagickDraw::setFillOpacity »](imagickdraw.setfillopacity.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Встановлює колір заливки для малювання об'єктів із заливкою
     

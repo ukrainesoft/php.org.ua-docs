@@ -1,12 +1,12 @@
 Адаптивна зміна розміру зображення з даними тріангуляції
 
--   [« Imagick::adaptiveBlurImage](imagick.adaptiveblurimage.html)
+-   [« Imagick::adaptiveBlurImage](imagick.adaptiveblurimage.md)
     
--   [Imagick::adaptiveSharpenImage »](imagick.adaptivesharpenimage.html)
+-   [Imagick::adaptiveSharpenImage »](imagick.adaptivesharpenimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Адаптивна зміна розміру зображення з даними тріангуляції
     
@@ -51,9 +51,9 @@ public Imagick::adaptiveResizeImage(    int $columns,    int $rows,  �
 
 ### список змін
 
-| Версия             | Описание                                                                                            |
-|--------------------|-----------------------------------------------------------------------------------------------------|
-| PECL imagick 2.1.0 | Додано необов'язковий параметр припасування.                                                        |
+| Версия | Описание |
+| --- | --- |
+| PECL imagick 2.1.0 | Додано необов'язковий параметр припасування. |
 | PECL imagick 2.1.0 | Метод тепер підтримує пропорційне масштабування. Для цього потрібно передати 0 одному з параметрів. |
 
 ### Приклади
@@ -75,12 +75,12 @@ echo $image;
 
 ### Дивіться також
 
--   [Imagick::chopImage()](imagick.chopimage.html) - Видаляє область зображення та обрізає його
--   [Imagick::cropImage()](imagick.cropimage.html) - Витягує область зображення
--   [Imagick::magnifyImage()](imagick.magnifyimage.html) - Пропорційно масштабує зображення вдвічі
--   [Imagick::minifyImage()](imagick.minifyimage.html) - Масштабує зображення пропорційно до половини його розміру
--   [Imagick::resizeImage()](imagick.resizeimage.html) - Масштабує зображення
--   [Imagick::scaleImage()](imagick.scaleimage.html) - Масштабує розмір зображення
--   [Imagick::shaveImage()](imagick.shaveimage.html) - Видаляє пікселі по краях зображення
--   [Imagick::thumbnailImage()](imagick.thumbnailimage.html) - Змінює розмір зображення
--   [Imagick::trimImage()](imagick.trimimage.html) - Видаляє краї із зображення
+-   [Imagick::chopImage()](imagick.chopimage.md) - Видаляє область зображення та обрізає його
+-   [Imagick::cropImage()](imagick.cropimage.md) - Витягує область зображення
+-   [Imagick::magnifyImage()](imagick.magnifyimage.md) - Пропорційно масштабує зображення вдвічі
+-   [Imagick::minifyImage()](imagick.minifyimage.md) - Масштабує зображення пропорційно до половини його розміру
+-   [Imagick::resizeImage()](imagick.resizeimage.md) - Масштабує зображення
+-   [Imagick::scaleImage()](imagick.scaleimage.md) - Масштабує розмір зображення
+-   [Imagick::shaveImage()](imagick.shaveimage.md) - Видаляє пікселі по краях зображення
+-   [Imagick::thumbnailImage()](imagick.thumbnailimage.md) - Змінює розмір зображення
+-   [Imagick::trimImage()](imagick.trimimage.md) - Видаляє краї із зображення

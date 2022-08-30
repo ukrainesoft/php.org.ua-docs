@@ -4,7 +4,7 @@
     
 -   [SwooleTimer::clear »](swoole-timer.clear.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleTimer](class.swoole-timer.html)
     

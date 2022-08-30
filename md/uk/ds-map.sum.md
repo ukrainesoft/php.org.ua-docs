@@ -4,7 +4,7 @@
     
 -   [ДсMap::toArray »](ds-map.toarray.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Коллекция пар ключ-значение](class.ds-map.html)
     

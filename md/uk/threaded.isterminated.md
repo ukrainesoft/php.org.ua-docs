@@ -1,12 +1,12 @@
 Визначення стану
 
--   [« Threaded::isRunning](thread.isrunning.html)
+-   [« Threaded::isRunning](thread.isrunning.md)
     
--   [Threaded::merge »](threaded.merge.html)
+-   [Threaded::merge »](threaded.merge.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Threaded](class.threaded.html)
+-   [Threaded](class.threaded.md)
     
 -   Визначення стану
     

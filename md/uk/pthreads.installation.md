@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](pthreads.requirements.html)
+-   [« Вимоги](pthreads.requirements.md)
     
--   [Настройка во время выполнения »](pthreads.configuration.html)
+-   [Налаштування під час виконання »](pthreads.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](pthreads.setup.html)
+-   [Встановлення та налаштування](pthreads.setup.md)
     
 -   Встановлення
     

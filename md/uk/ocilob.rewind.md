@@ -1,12 +1,12 @@
 Перекладає вказівник об'єкта на початок великого об'єкта
 
--   [« OCILob::read](ocilob.read.html)
+-   [« OCILob::read](ocilob.read.md)
     
--   [OCILob::save »](ocilob.save.html)
+-   [OCILob::save »](ocilob.save.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCILob](class.ocilob.html)
+-   [OCILob](class.ocilob.md)
     
 -   Перекладає вказівник об'єкта на початок великого об'єкта
     
@@ -35,11 +35,11 @@ public OCILob::rewind(): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                                |
-|------------------------|---------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
--   [OCILob::seek](ocilob.seek.html)
--   [OCILob::tell](ocilob.tell.html)
+-   [OCILob::seek](ocilob.seek.md)
+-   [OCILob::tell](ocilob.tell.md)

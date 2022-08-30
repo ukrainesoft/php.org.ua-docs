@@ -4,7 +4,7 @@
     
 -   [ДсSet::sum »](ds-set.sum.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Набор](class.ds-set.html)
     

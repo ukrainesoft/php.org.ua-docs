@@ -2,11 +2,11 @@
 
 -   [« ociunregistertafcallback](function.oci-unregister-taf-callback.html)
     
--   [OCICollection::append »](ocicollection.append.html)
+-   [OCICollection::append »](ocicollection.append.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8](book.oci8.html)
+-   [OCI8](book.oci8.md)
     
 -   Клас OCICollection
     
@@ -52,11 +52,11 @@ public trim(int $num): bool
 
 ## Зміст
 
--   [OCICollection::append](ocicollection.append.html) — Додає елемент у колекцію
--   [OCICollection::assign](ocicollection.assign.html) — Надає колекції значення іншої, вже існуючої колекції
--   [OCICollection::assignElem](ocicollection.assignelem.html) — Надає значення елементу колекції
--   [OCICollection::free](ocicollection.free.html) — Звільняє ресурси, які займає об'єкт колекції.
--   [OCICollection::getElem](ocicollection.getelem.html) — Повертає значення елемента
--   [OCICollection::max](ocicollection.max.html) — Повертає максимальну кількість елементів у колекції
--   [OCICollection::size](ocicollection.size.html) — Повертає кількість елементів у колекції
--   [OCICollection::trim](ocicollection.trim.html) — Відсікає елементи з кінця колекції
+-   [OCICollection::append](ocicollection.append.md) — Додає елемент у колекцію
+-   [OCICollection::assign](ocicollection.assign.md) — Надає колекції значення іншої, вже існуючої колекції
+-   [OCICollection::assignElem](ocicollection.assignelem.md) — Надає значення елементу колекції
+-   [OCICollection::free](ocicollection.free.md) — Звільняє ресурси, які займає об'єкт колекції.
+-   [OCICollection::getElem](ocicollection.getelem.md) — Повертає значення елемента
+-   [OCICollection::max](ocicollection.max.md) — Повертає максимальну кількість елементів у колекції
+-   [OCICollection::size](ocicollection.size.md) — Повертає кількість елементів у колекції
+-   [OCICollection::trim](ocicollection.trim.md) — Відсікає елементи з кінця колекції

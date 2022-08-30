@@ -1,12 +1,12 @@
 Функції phpdbg
 
--   [« Предопределённые константы](phpdbg.constants.html)
+-   [« Обумовлені константи](phpdbg.constants.md)
     
 -   [phpdbgbreakfile »](function.phpdbg-break-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [phpdbg](book.phpdbg.html)
+-   [phpdbg](book.phpdbg.md)
     
 -   Функції phpdbg
     

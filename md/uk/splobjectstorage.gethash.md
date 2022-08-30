@@ -1,12 +1,12 @@
 Обчислює унікальний ідентифікатор об'єктів контейнера
 
--   [« SplObjectStorage::detach](splobjectstorage.detach.html)
+-   [« SplObjectStorage::detach](splobjectstorage.detach.md)
     
--   [SplObjectStorage::getInfo »](splobjectstorage.getinfo.html)
+-   [SplObjectStorage::getInfo »](splobjectstorage.getinfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplObjectStorage](class.splobjectstorage.html)
+-   [SplObjectStorage](class.splobjectstorage.md)
     
 -   Обчислює унікальний ідентифікатор об'єктів контейнера
     
@@ -23,9 +23,9 @@ SplObjectStorage::getHash — Обчислює унікальний іденти
 public SplObjectStorage::getHash(object $object): string
 ```
 
-Метод обчислює унікальний ідентифікатор для об'єктів, що додаються до контейнера [SplObjectStorage](class.splobjectstorage.html)
+Метод обчислює унікальний ідентифікатор для об'єктів, що додаються до контейнера [SplObjectStorage](class.splobjectstorage.md)
 
-Реалізація [SplObjectStorage](class.splobjectstorage.html) повертає те саме значення, що і функція [splobjecthash()](function.spl-object-hash.html)
+Реалізація [SplObjectStorage](class.splobjectstorage.md) повертає те саме значення, що і функція [splobjecthash()](function.spl-object-hash.html)
 
 В одному контейнері ніколи не з'явиться два об'єкти з однаковими ідентифікаторами. Таким чином, за допомогою контейнера можна реалізувати безліч (колекцію значень, кожне з яких представлено в єдиному екземплярі), в якому унікальність об'єктів визначатиметься цим ідентифікатором.
 
@@ -41,7 +41,7 @@ public SplObjectStorage::getHash(object $object): string
 
 ### Помилки
 
-Метод викидає виняток [RuntimeException](class.runtimeexception.html), коли тип значення, що повертається не є рядком (string).
+Метод викидає виняток [RuntimeException](class.runtimeexception.md), коли тип значення, що повертається не є рядком (string).
 
 ### Приклади
 

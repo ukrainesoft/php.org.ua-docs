@@ -1,12 +1,12 @@
 Отримує поточну силу зіставлення
 
--   [« Collator::getSortKey](collator.getsortkey.html)
+-   [« Collator::getSortKey](collator.getsortkey.md)
     
--   [Collator::setAttribute »](collator.setattribute.html)
+-   [Collator::setAttribute »](collator.setattribute.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Collator](class.collator.html)
+-   [Collator](class.collator.md)
     
 -   Отримує поточну силу зіставлення
     
@@ -37,7 +37,7 @@ collator_get_strength(Collator $object): int
 
 `object`
 
-Об'єкт [Collator](class.collator.html)
+Об'єкт [Collator](class.collator.md)
 
 ### Значення, що повертаються
 
@@ -56,6 +56,6 @@ $strength = collator_get_strength( $coll );
 
 ### Дивіться також
 
--   [Константы](class.collator.html#intl.collator-constants) [Collator](class.collator.html)
--   [collatorsetstrength()](collator.setstrength.html) - встановлює силу зіставлення
--   [collatorgetattribute()](collator.getattribute.html) - Отримує значення атрибуту зіставлення
+-   [Константи](class.collator.html#intl.collator-constants) [Collator](class.collator.md)
+-   [collatorsetstrength()](collator.setstrength.md) - встановлює силу зіставлення
+-   [collatorgetattribute()](collator.getattribute.md) - Отримує значення атрибуту зіставлення

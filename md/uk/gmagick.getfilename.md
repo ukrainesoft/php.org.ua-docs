@@ -1,12 +1,12 @@
 Повертає ім'я файлу, пов'язаного з послідовністю зображень
 
--   [« Gmagick::getcopyright](gmagick.getcopyright.html)
+-   [« Gmagick::getcopyright](gmagick.getcopyright.md)
     
--   [Gmagick::getimagebackgroundcolor »](gmagick.getimagebackgroundcolor.html)
+-   [Gmagick::getimagebackgroundcolor »](gmagick.getimagebackgroundcolor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повертає ім'я файлу, пов'язаного з послідовністю зображень
     

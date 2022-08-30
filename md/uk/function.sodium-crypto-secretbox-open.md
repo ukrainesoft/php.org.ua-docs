@@ -4,9 +4,9 @@
     
 -   [sodiumcryptosecretbox »](function.sodium-crypto-secretbox.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Розшифровка з використанням загального ключа з автентичністю
     
@@ -45,8 +45,8 @@ sodium_crypto_secretbox_open(string $ciphertext, string $nonce, string $key): st
 
 ### Помилки
 
--   Викидається [SodiumException](class.sodiumexception.html)якщо довжина байтів параметра `nonce` відрізняється від [**`SODIUM_CRYPTO_SECRETBOX_NONCEBYTES`**](sodium.constants.html#constant.sodium-crypto-secretbox-noncebytes) (24 байти).
--   Викидається [SodiumException](class.sodiumexception.html)якщо довжина байтів параметра `key` відрізняється від [**`SODIUM_CRYPTO_SECRETBOX_KEYBYTES`**](sodium.constants.html#constant.sodium-crypto-secretbox-keybytes) (32 байти).
+-   Викидається [SodiumException](class.sodiumexception.md)якщо довжина байтів параметра `nonce` відрізняється від [**`SODIUM_CRYPTO_SECRETBOX_NONCEBYTES`**](sodium.constants.html#constant.sodium-crypto-secretbox-noncebytes) (24 байти).
+-   Викидається [SodiumException](class.sodiumexception.md)якщо довжина байтів параметра `key` відрізняється від [**`SODIUM_CRYPTO_SECRETBOX_KEYBYTES`**](sodium.constants.html#constant.sodium-crypto-secretbox-keybytes) (32 байти).
 
 ### Приклади
 

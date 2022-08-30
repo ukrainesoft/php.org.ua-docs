@@ -4,7 +4,7 @@
     
 -   [VtifulKernelFormat::bold »](vtiful-kernel-format.bold.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [VtifulKernelFormat](class.vtiful-kernel-format.html)
     

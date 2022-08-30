@@ -1,12 +1,12 @@
 Порівнює скаляр з екземпляром перерахування або null
 
--   [« BackedEnum::from](backedenum.from.html)
+-   [« BackedEnum::from](backedenum.from.md)
     
--   [Контекстные опции и параметры »](context.html)
+-   [Контекстні опції та параметри »](context.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [BackedEnum](class.backedenum.html)
+-   [BackedEnum](class.backedenum.md)
     
 -   Порівнює скаляр з екземпляром перерахування або null
     
@@ -70,5 +70,5 @@ enum(Suit::Spades)
 
 ### Дивіться також
 
--   [UnitEnum::cases()](unitenum.cases.html) - Повертає список варіантів перерахування
--   [BackedEnum::from()](backedenum.from.html) - зіставляє скаляр з екземпляром перерахування
+-   [UnitEnum::cases()](unitenum.cases.md) - Повертає список варіантів перерахування
+-   [BackedEnum::from()](backedenum.from.md) - зіставляє скаляр з екземпляром перерахування

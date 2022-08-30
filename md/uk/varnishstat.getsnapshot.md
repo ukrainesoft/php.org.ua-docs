@@ -1,12 +1,12 @@
 Отримати фотографію статистики поточного примірника varnish
 
--   [« VarnishStat::construct](varnishstat.construct.html)
+-   [« VarnishStat::construct](varnishstat.construct.md)
     
--   [VarnishLog »](class.varnishlog.html)
+-   [VarnishLog »](class.varnishlog.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [VarnishStat](class.varnishstat.html)
+-   [VarnishStat](class.varnishstat.md)
     
 -   Отримати фотографію статистики поточного примірника varnish
     

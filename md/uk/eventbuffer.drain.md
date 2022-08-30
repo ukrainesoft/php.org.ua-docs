@@ -1,12 +1,12 @@
 Видаляє вказану кількість байтів з початку буфера, нікуди не копіюючи
 
--   [« EventBuffer::copyout](eventbuffer.copyout.html)
+-   [« EventBuffer::copyout](eventbuffer.copyout.md)
     
--   [EventBuffer::enableLocking »](eventbuffer.enablelocking.html)
+-   [EventBuffer::enableLocking »](eventbuffer.enablelocking.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBuffer](class.eventbuffer.html)
+-   [EventBuffer](class.eventbuffer.md)
     
 -   Видаляє вказану кількість байтів з початку буфера, нікуди не копіюючи
     
@@ -27,7 +27,7 @@ public
    ): bool
 ```
 
-Поводиться, як [EventBuffer::read()](eventbuffer.read.html), За винятком того, що він не копіює дані: просто видаляє їх з початку буфера.
+Поводиться, як [EventBuffer::read()](eventbuffer.read.md), За винятком того, що він не копіює дані: просто видаляє їх з початку буфера.
 
 ### Список параметрів
 
@@ -41,5 +41,5 @@ public
 
 ### Дивіться також
 
--   [EventBuffer::read()](eventbuffer.read.html) - Читає дані з evbuffer та виснажує прочитані байти
--   [EventBuffer::appendFrom()](eventbuffer.appendfrom.html) - Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера
+-   [EventBuffer::read()](eventbuffer.read.md) - Читає дані з evbuffer та виснажує прочитані байти
+-   [EventBuffer::appendFrom()](eventbuffer.appendfrom.md) - Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера

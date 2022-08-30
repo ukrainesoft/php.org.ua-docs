@@ -1,12 +1,12 @@
 Вимкнути переадресацію
 
--   [« OAuth::disableDebug](oauth.disabledebug.html)
+-   [« OAuth::disableDebug](oauth.disabledebug.md)
     
--   [OAuth::disableSSLChecks »](oauth.disablesslchecks.html)
+-   [OAuth::disableSSLChecks »](oauth.disablesslchecks.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](class.oauth.html)
+-   [OAuth](class.oauth.md)
     
 -   Вимкнути переадресацію
     
@@ -39,4 +39,4 @@ public OAuth::disableRedirects(): bool
 
 ### Дивіться також
 
--   [OAuth::enableRedirects()](oauth.enableredirects.html) - Включити переадресацію
+-   [OAuth::enableRedirects()](oauth.enableredirects.md) - Включити переадресацію

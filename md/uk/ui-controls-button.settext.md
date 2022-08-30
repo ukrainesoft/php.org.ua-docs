@@ -4,7 +4,7 @@
     
 -   [ОЙControlsColorButton »](class.ui-controls-colorbutton.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsButton](class.ui-controls-button.html)
     

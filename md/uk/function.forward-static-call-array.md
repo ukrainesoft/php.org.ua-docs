@@ -4,9 +4,9 @@
     
 -   [forwardstaticcall »](function.forward-static-call.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции управления функциями](ref.funchand.html)
+-   [Функции управления функциями](ref.funchand.md)
     
 -   Виклик статичного методу та передача параметрів у вигляді масиву
     

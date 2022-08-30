@@ -1,12 +1,12 @@
 Отримує ім'я файлу
 
--   [« ReflectionFunctionAbstract::getExtensionName](reflectionfunctionabstract.getextensionname.html)
+-   [« ReflectionFunctionAbstract::getExtensionName](reflectionfunctionabstract.getextensionname.md)
     
--   [ReflectionFunctionAbstract::getName »](reflectionfunctionabstract.getname.html)
+-   [ReflectionFunctionAbstract::getName »](reflectionfunctionabstract.getname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
     
 -   Отримує ім'я файлу
     
@@ -35,4 +35,4 @@ public ReflectionFunctionAbstract::getFileName(): string|false
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getNamespaceName()](reflectionfunctionabstract.getnamespacename.html) - Отримання імені простору імен
+-   [ReflectionFunctionAbstract::getNamespaceName()](reflectionfunctionabstract.getnamespacename.md) - Отримання імені простору імен

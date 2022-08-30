@@ -1,12 +1,12 @@
 Повертає всі фасетні запити
 
--   [« SolrQuery::getFacetPrefix](solrquery.getfacetprefix.html)
+-   [« SolrQuery::getFacetPrefix](solrquery.getfacetprefix.md)
     
--   [SolrQuery::getFacetSort »](solrquery.getfacetsort.html)
+-   [SolrQuery::getFacetSort »](solrquery.getfacetsort.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає всі фасетні запити
     

@@ -4,7 +4,7 @@
     
 -   [TableDelete::execute »](mysql-xdevapi-tabledelete.execute.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiTableDelete](class.mysql-xdevapi-tabledelete.html)
     

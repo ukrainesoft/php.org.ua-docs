@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONJavascript::unserialize »](mongodb-bson-javascript.unserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
     
@@ -54,4 +54,4 @@ string(33) "function foo(bar) { return bar; }"
 ### Дивіться також
 
 -   [MongoDBBSONJavascript::getCode()](mongodb-bson-javascript.getcode.html) - Повертає код JavaScript
--   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

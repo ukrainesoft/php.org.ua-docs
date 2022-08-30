@@ -1,12 +1,12 @@
 Перевірити, чи клас ітерується
 
--   [« ReflectionClass::isInternal](reflectionclass.isinternal.html)
+-   [« ReflectionClass::isInternal](reflectionclass.isinternal.md)
     
--   [ReflectionClass::isIterateable »](reflectionclass.isiterateable.html)
+-   [ReflectionClass::isIterateable »](reflectionclass.isiterateable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Перевірити, чи клас ітерується
     
@@ -76,4 +76,4 @@ foreach ($classes as $class) {
 
 ### Дивіться також
 
--   [ReflectionClass::construct()](reflectionclass.construct.html) - Створює об'єкт класу ReflectionClass
+-   [ReflectionClass::construct()](reflectionclass.construct.md) - Створює об'єкт класу ReflectionClass

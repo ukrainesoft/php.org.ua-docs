@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](event.installation.html)
+-   [« Установка](event.installation.md)
     
--   [Типы ресурсов »](event.resources.html)
+-   [Типи ресурсів »](event.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](event.setup.html)
+-   [Встановлення та налаштування](event.setup.md)
     
 -   Налаштування під час виконання
     

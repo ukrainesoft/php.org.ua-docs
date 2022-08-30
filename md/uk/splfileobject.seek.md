@@ -1,12 +1,12 @@
 Переклад файлового покажчика на заданий рядок
 
--   [« SplFileObject::rewind](splfileobject.rewind.html)
+-   [« SplFileObject::rewind](splfileobject.rewind.md)
     
--   [SplFileObject::setCsvControl »](splfileobject.setcsvcontrol.html)
+-   [SplFileObject::setCsvControl »](splfileobject.setcsvcontrol.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileObject](class.splfileobject.html)
+-   [SplFileObject](class.splfileobject.md)
     
 -   Переклад файлового покажчика на заданий рядок
     
@@ -37,7 +37,7 @@ public SplFileObject::seek(int $line): void
 
 ### Помилки
 
-Викидає виняток [LogicException](class.logicexception.html), якщо аргумент `line` набуває негативного значення.
+Викидає виняток [LogicException](class.logicexception.md), якщо аргумент `line` набуває негативного значення.
 
 ### Приклади
 
@@ -61,8 +61,8 @@ $file->seek(2);
 
 ### Дивіться також
 
--   [SplFileObject::current()](splfileobject.current.html) - Отримати поточний рядок файлу
--   [SplFileObject::key()](splfileobject.key.html) - Отримати номер рядка
--   [SplFileObject::next()](splfileobject.next.html) - Читати наступний рядок
--   [SplFileObject::rewind()](splfileobject.rewind.html) - Перемотування файлового покажчика на початок файлу
--   [SplFileObject::valid()](splfileobject.valid.html) - Перевіряє, чи кінець файлу (EOF) досягнуто.
+-   [SplFileObject::current()](splfileobject.current.md) - Отримати поточний рядок файлу
+-   [SplFileObject::key()](splfileobject.key.md) - Отримати номер рядка
+-   [SplFileObject::next()](splfileobject.next.md) - Читати наступний рядок
+-   [SplFileObject::rewind()](splfileobject.rewind.md) - Перемотування файлового покажчика на початок файлу
+-   [SplFileObject::valid()](splfileobject.valid.md) - Перевіряє, чи кінець файлу (EOF) досягнуто.

@@ -1,27 +1,27 @@
 CUBRID
 
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.html)
+-   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
     
--   [Введение »](intro.cubrid.html)
+-   [Введение »](intro.cubrid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.html)
+-   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
     
 -   CUBRID
     
 
 # CUBRID
 
--   [Введение](intro.cubrid.html)
--   [Установка и настройка](cubrid.setup.html)
-    -   [Требования](cubrid.requirements.html)
-    -   [Установка](cubrid.installation.html)
-    -   [Настройка во время выполнения](cubrid.configuration.html)
-    -   [Типы ресурсов](cubrid.resources.html)
--   [Предопределённые константы](cubrid.constants.html)
--   [Примеры](cubrid.examples.html)
--   [Функции CUBRID](ref.cubrid.html)
+-   [Введение](intro.cubrid.md)
+-   [Встановлення та налаштування](cubrid.setup.md)
+    -   [Вимоги](cubrid.requirements.md)
+    -   [Установка](cubrid.installation.md)
+    -   [Налаштування під час виконання](cubrid.configuration.md)
+    -   [Типи ресурсів](cubrid.resources.md)
+-   [Обумовлені константи](cubrid.constants.md)
+-   [Приклади](cubrid.examples.md)
+-   [Функции CUBRID](ref.cubrid.md)
     -   [cubridbind](function.cubrid-bind.html) — пов'язує змінні із підготовленим запитом
     -   [cubridcloseprepare](function.cubrid-close-prepare.html) - Закриває обробник запиту
     -   [cubridcloserequest](function.cubrid-close-request.html) - Закриває обробник запиту
@@ -90,7 +90,7 @@ CUBRID
     -   [cubridsetdrop](function.cubrid-set-drop.html) — Видаляє елемент із стовпця заданого типу, використовуючи OID
     -   [cubridsetquerytimeout](function.cubrid-set-query-timeout.html) — Встановлює час очікування на виконання запиту
     -   [cubridversion](function.cubrid-version.html) — Отримати версію модуля CUBRID PHP
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
     -   [cubridaffectedrows](function.cubrid-affected-rows.html) — Кількість рядків, порушених останнім SQL-запитом
     -   [cubridclientencoding](function.cubrid-client-encoding.html) — Повертає кодування поточного з'єднання CUBRID
     -   [cubridclose](function.cubrid-close.html) — Закриває з'єднання з базою даних
@@ -117,7 +117,7 @@ CUBRID
     -   [cubridrealescapestring](function.cubrid-real-escape-string.html) — Екранування спеціальних символів у SQL-запиті
     -   [cubridresult](function.cubrid-result.html) — Отримати значення із заданого стовпця заданого рядка
     -   [cubridunbufferedquery](function.cubrid-unbuffered-query.html) — Виконання запиту без завантаження результату на згадку
--   [Устаревшие псевдонимы и функции CUBRID](oldaliases.cubrid.html)
+-   [Застарілі псевдоніми та функції CUBRID](oldaliases.cubrid.md)
     -   [cubridloadfromglo](function.cubrid-load-from-glo.html) — Читає дані з екземпляра GLO та записує їх у файл
     -   [cubridnewglo](function.cubrid-new-glo.html) - Створює екземпляр glo
     -   [cubridsaveтоglo](function.cubrid-save-to-glo.html) — Зберігає запитаний файл у примірнику GLO

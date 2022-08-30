@@ -1,12 +1,12 @@
 Встановлення максимальної глибини вкладеності
 
--   [« RecursiveIteratorIterator::rewind](recursiveiteratoriterator.rewind.html)
+-   [« RecursiveIteratorIterator::rewind](recursiveiteratoriterator.rewind.md)
     
--   [RecursiveIteratorIterator::valid »](recursiveiteratoriterator.valid.html)
+-   [RecursiveIteratorIterator::valid »](recursiveiteratoriterator.valid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
     
 -   Встановлення максимальної глибини вкладеності
     
@@ -41,4 +41,4 @@ public RecursiveIteratorIterator::setMaxDepth(int $maxDepth = -1): void
 
 ### Помилки
 
-Викидає виняток [Exception](class.exception.html), якщо аргумент `maxDepth` менше `-1`
+Викидає виняток [Exception](class.exception.md), якщо аргумент `maxDepth` менше `-1`

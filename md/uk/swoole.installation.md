@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](swoole.requirements.html)
+-   [« Вимоги](swoole.requirements.html)
     
--   [Настройка во время выполнения »](swoole.configuration.html)
+-   [Налаштування під час виконання »](swoole.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](swoole.setup.html)
+-   [Встановлення та налаштування](swoole.setup.html)
     
 -   Встановлення
     

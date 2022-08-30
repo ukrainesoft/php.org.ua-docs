@@ -4,9 +4,9 @@
     
 -   [versioncompare »](function.version-compare.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Повертає шлях до директорії тимчасових файлів
     
@@ -55,5 +55,5 @@ C:\Windows\Temp\TuxA318.tmp
 
 ### Дивіться також
 
--   [tmpfile()](function.tmpfile.html) - Створює тимчасовий файл
--   [tempnam()](function.tempnam.html) - Створює файл із унікальним ім'ям
+-   [tmpfile()](function.tmpfile.md) - Створює тимчасовий файл
+-   [tempnam()](function.tempnam.md) - Створює файл із унікальним ім'ям

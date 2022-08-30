@@ -4,9 +4,9 @@
     
 -   [cubridnumcols »](function.cubrid-num-cols.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Отримує результат наступного запиту під час виконання кількох SQL-операторів
     

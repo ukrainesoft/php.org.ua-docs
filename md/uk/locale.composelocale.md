@@ -1,12 +1,12 @@
 Повертає коректно відсортовані та розділені ідентифікатори локалі
 
--   [« Locale::canonicalize](locale.canonicalize.html)
+-   [« Locale::canonicalize](locale.canonicalize.md)
     
--   [Locale::filterMatches »](locale.filtermatches.html)
+-   [Locale::filterMatches »](locale.filtermatches.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Locale](class.locale.html)
+-   [Locale](class.locale.md)
     
 -   Повертає коректно відсортовані та розділені ідентифікатори локалі
     
@@ -129,4 +129,4 @@ en_a_b_c_d_Hans_CN
 
 ### Дивіться також
 
--   [localeparse()](locale.parselocale.html) - Отримати асоціативний масив усіх підтегів локалі
+-   [localeparse()](locale.parselocale.md) - Отримати асоціативний масив усіх підтегів локалі

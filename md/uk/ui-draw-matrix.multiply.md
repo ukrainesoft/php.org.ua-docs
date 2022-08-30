@@ -4,7 +4,7 @@
     
 -   [ОЙDrawMatrix::rotate »](ui-draw-matrix.rotate.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawMatrix](class.ui-draw-matrix.html)
     

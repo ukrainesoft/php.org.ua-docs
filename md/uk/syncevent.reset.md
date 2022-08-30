@@ -1,12 +1,12 @@
 Скидає ручну подію
 
--   [« SyncEvent::fire](syncevent.fire.html)
+-   [« SyncEvent::fire](syncevent.fire.md)
     
--   [SyncEvent::wait »](syncevent.wait.html)
+-   [SyncEvent::wait »](syncevent.wait.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SyncEvent](class.syncevent.html)
+-   [SyncEvent](class.syncevent.md)
     
 -   Скидає ручну подію
     
@@ -23,7 +23,7 @@ SyncEvent::reset — Скидає ручну подію
 public SyncEvent::reset(): bool
 ```
 
-Скидає об'єкт [SyncEvent](class.syncevent.html), який було запущено/встановлено. Дійсно лише для об'єктів подій зі скиданням вручну.
+Скидає об'єкт [SyncEvent](class.syncevent.md), який було запущено/встановлено. Дійсно лише для об'єктів подій зі скиданням вручну.
 
 ### Список параметрів
 
@@ -53,6 +53,6 @@ $event->fire();
 
 ### Дивіться також
 
--   [SyncEvent::fire()](syncevent.fire.html) - Запускає/встановлює подію
+-   [SyncEvent::fire()](syncevent.fire.md) - Запускає/встановлює подію
 -   **SyncEvent::reset()**
--   [SyncEvent::wait()](syncevent.wait.html) - Очікує запуску/установки події
+-   [SyncEvent::wait()](syncevent.wait.md) - Очікує запуску/установки події

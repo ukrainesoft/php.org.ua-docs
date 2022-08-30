@@ -4,7 +4,7 @@
     
 -   [YafSession::rewind »](yaf-session.rewind.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafSession](class.yaf-session.html)
     

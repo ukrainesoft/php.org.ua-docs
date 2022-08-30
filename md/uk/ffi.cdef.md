@@ -1,12 +1,12 @@
 Створює новий об'єкт FFI
 
--   [« FFI::cast](ffi.cast.html)
+-   [« FFI::cast](ffi.cast.md)
     
--   [FFI::free »](ffi.free.html)
+-   [FFI::free »](ffi.free.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FFI](class.ffi.html)
+-   [FFI](class.ffi.md)
     
 -   Створює новий об'єкт FFI
     
@@ -45,10 +45,10 @@ public static FFI::cdef(string $code = "", ?string $lib = null): FFI
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [FFI](class.ffi.html)
+Повертає новий об'єкт [FFI](class.ffi.md)
 
 ### список змін
 
-| Версия | Описание                            |
-|--------|-------------------------------------|
-|        | `lib` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `lib` тепер допускає значення null. |

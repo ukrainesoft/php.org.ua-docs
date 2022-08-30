@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](funchand.configuration.html)
+-   [« Налаштування під час виконання](funchand.configuration.md)
     
--   [Предопределённые константы »](funchand.constants.html)
+-   [Обумовлені константи »](funchand.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](funchand.setup.html)
+-   [Встановлення та налаштування](funchand.setup.md)
     
 -   Типи ресурсів
     

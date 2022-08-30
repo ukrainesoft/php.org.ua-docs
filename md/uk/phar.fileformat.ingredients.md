@@ -1,12 +1,12 @@
 Складові всіх Phar-архівів незалежно від формату файлу
 
--   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.html)
+-   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.md)
     
--   [Заглушка Phar-файла »](phar.fileformat.stub.html)
+-   [Заглушка Phar-файла »](phar.fileformat.stub.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.html)
+-   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.md)
     
 -   Складові всіх Phar-архівів незалежно від формату файлу
     

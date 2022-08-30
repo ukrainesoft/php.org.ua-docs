@@ -1,8 +1,8 @@
 Обумовлені константи
 
--   [« Типы ресурсов](outcontrol.resources.html)
+-   [« Типи ресурсів](outcontrol.resources.html)
     
--   [Примеры »](outcontrol.examples.html)
+-   [Приклади »](outcontrol.examples.html)
     
 -   [PHP Manual](index.html)
     

@@ -4,9 +4,9 @@
     
 -   [xdifffilemerge3 »](function.xdiff-file-merge3.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.md)
     
 -   Створити уніфікований патч із порівняння двох файлів
     

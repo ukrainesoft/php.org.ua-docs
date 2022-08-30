@@ -1,12 +1,12 @@
 Клас SolrMissingMandatoryParameterException
 
--   [« SolrIllegalOperationException::getInternalInfo](solrillegaloperationexception.getinternalinfo.html)
+-   [« SolrIllegalOperationException::getInternalInfo](solrillegaloperationexception.getinternalinfo.md)
     
--   [Модулі для роботи із серверами »](refs.utilspec.server.html)
+-   [Модулі для роботи із серверами »](refs.utilspec.server.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Solr](book.solr.html)
+-   [Solr](book.solr.md)
     
 -   Клас SolrMissingMandatoryParameterException
     

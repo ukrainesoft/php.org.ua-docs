@@ -4,9 +4,9 @@
     
 -   [ssh2poll »](function.ssh2-poll.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Повертає список узгоджених методів
     

@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](ffi.requirements.html)
+-   [« Вимоги](ffi.requirements.html)
     
--   [Настройка во время выполнения »](ffi.configuration.html)
+-   [Налаштування під час виконання »](ffi.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](ffi.setup.html)
+-   [Встановлення та налаштування](ffi.setup.html)
     
 -   Встановлення
     

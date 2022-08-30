@@ -4,7 +4,7 @@
     
 -   [CollectionFind::offset »](mysql-xdevapi-collectionfind.offset.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
     

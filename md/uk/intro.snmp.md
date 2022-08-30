@@ -1,12 +1,12 @@
 Вступ
 
--   [« SNMP](book.snmp.html)
+-   [« SNMP](book.snmp.md)
     
--   [Установка и настройка »](snmp.setup.html)
+-   [Встановлення та налаштування »](snmp.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SNMP](book.snmp.html)
+-   [SNMP](book.snmp.md)
     
 -   Вступ
     

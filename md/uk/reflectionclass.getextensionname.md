@@ -1,12 +1,12 @@
 Повертає ім'я модуля, що визначає клас
 
--   [« ReflectionClass::getExtension](reflectionclass.getextension.html)
+-   [« ReflectionClass::getExtension](reflectionclass.getextension.md)
     
--   [ReflectionClass::getFileName »](reflectionclass.getfilename.html)
+-   [ReflectionClass::getFileName »](reflectionclass.getfilename.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає ім'я модуля, що визначає клас
     
@@ -53,4 +53,4 @@ string(10) "Reflection"
 
 ### Дивіться також
 
--   [ReflectionClass::getExtension()](reflectionclass.getextension.html) - Повертає об'єкт класу ReflectionExtension для модуля, що визначає клас
+-   [ReflectionClass::getExtension()](reflectionclass.getextension.md) - Повертає об'єкт класу ReflectionExtension для модуля, що визначає клас

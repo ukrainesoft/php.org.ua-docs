@@ -1,12 +1,12 @@
 Переходить до наступного зображення
 
--   [« Imagick::newPseudoImage](imagick.newpseudoimage.html)
+-   [« Imagick::newPseudoImage](imagick.newpseudoimage.md)
     
--   [Imagick::normalizeImage »](imagick.normalizeimage.html)
+-   [Imagick::normalizeImage »](imagick.normalizeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Переходить до наступного зображення
     

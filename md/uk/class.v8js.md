@@ -1,6 +1,6 @@
 Клас V8Js
 
--   [« Примеры](v8js.examples.html)
+-   [« Приклади](v8js.examples.html)
     
 -   [V8Js::construct »](v8js.construct.html)
     

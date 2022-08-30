@@ -1,12 +1,12 @@
 Встановлює роздільну здатність зображення
 
--   [« Imagick::setRegistry](imagick.setregistry.html)
+-   [« Imagick::setRegistry](imagick.setregistry.md)
     
--   [Imagick::setResourceLimit »](imagick.setresourcelimit.html)
+-   [Imagick::setResourceLimit »](imagick.setresourcelimit.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює роздільну здатність зображення
     
@@ -45,5 +45,5 @@ public Imagick::setResolution(float $x_resolution, float $y_resolution): bool
 
 ### Дивіться також
 
--   [Imagick::setImageResolution()](imagick.setimageresolution.html) - Встановлює роздільну здатність зображення
--   [Imagick::getImageResolution()](imagick.getimageresolution.html) - Повертає роздільну здатність зображення за X і Y
+-   [Imagick::setImageResolution()](imagick.setimageresolution.md) - Встановлює роздільну здатність зображення
+-   [Imagick::getImageResolution()](imagick.getimageresolution.md) - Повертає роздільну здатність зображення за X і Y

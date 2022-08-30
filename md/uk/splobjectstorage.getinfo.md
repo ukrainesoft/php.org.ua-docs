@@ -1,12 +1,12 @@
 Повертає дані, що асоціюються з поточним об'єктом
 
--   [« SplObjectStorage::getHash](splobjectstorage.gethash.html)
+-   [« SplObjectStorage::getHash](splobjectstorage.gethash.md)
     
--   [SplObjectStorage::key »](splobjectstorage.key.html)
+-   [SplObjectStorage::key »](splobjectstorage.key.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplObjectStorage](class.splobjectstorage.html)
+-   [SplObjectStorage](class.splobjectstorage.md)
     
 -   Повертає дані, що асоціюються з поточним об'єктом
     
@@ -73,9 +73,9 @@ string(2) "d2"
 
 ### Дивіться також
 
--   [SplObjectStorage::current()](splobjectstorage.current.html) - Повертає поточний об'єкт
--   [SplObjectStorage::rewind()](splobjectstorage.rewind.html) - Переводить ітератор на перший елемент контейнера
--   [SplObjectStorage::key()](splobjectstorage.key.html) - Повертає індекс поточного становища ітератора
--   [SplObjectStorage::next()](splobjectstorage.next.html) - Перехід до наступного об'єкту
--   [SplObjectStorage::valid()](splobjectstorage.valid.html) - Визначає, чи допустиме поточне значення ітератора
--   [SplObjectStorage::setInfo()](splobjectstorage.setinfo.html) - Асоціює дані з поточним об'єктом контейнера
+-   [SplObjectStorage::current()](splobjectstorage.current.md) - Повертає поточний об'єкт
+-   [SplObjectStorage::rewind()](splobjectstorage.rewind.md) - Переводить ітератор на перший елемент контейнера
+-   [SplObjectStorage::key()](splobjectstorage.key.md) - Повертає індекс поточного становища ітератора
+-   [SplObjectStorage::next()](splobjectstorage.next.md) - Перехід до наступного об'єкту
+-   [SplObjectStorage::valid()](splobjectstorage.valid.md) - Визначає, чи допустиме поточне значення ітератора
+-   [SplObjectStorage::setInfo()](splobjectstorage.setinfo.md) - Асоціює дані з поточним об'єктом контейнера

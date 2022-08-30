@@ -1,12 +1,12 @@
 Повертає оформлення тексту
 
--   [« GmagickDraw::getstrokewidth](gmagickdraw.getstrokewidth.html)
+-   [« GmagickDraw::getstrokewidth](gmagickdraw.getstrokewidth.md)
     
--   [GmagickDraw::gettextencoding »](gmagickdraw.gettextencoding.html)
+-   [GmagickDraw::gettextencoding »](gmagickdraw.gettextencoding.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickDraw](class.gmagickdraw.html)
+-   [GmagickDraw](class.gmagickdraw.md)
     
 -   Повертає оформлення тексту
     

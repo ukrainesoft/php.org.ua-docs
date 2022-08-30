@@ -1,12 +1,12 @@
 Отримати запущений об'єкт Generator
 
--   [« ReflectionGenerator::getExecutingFile](reflectiongenerator.getexecutingfile.html)
+-   [« ReflectionGenerator::getExecutingFile](reflectiongenerator.getexecutingfile.md)
     
--   [ReflectionGenerator::getExecutingLine »](reflectiongenerator.getexecutingline.html)
+-   [ReflectionGenerator::getExecutingLine »](reflectiongenerator.getexecutingline.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionGenerator](class.reflectiongenerator.html)
+-   [ReflectionGenerator](class.reflectiongenerator.md)
     
 -   Отримати запущений об'єкт Generator
     
@@ -15,7 +15,7 @@
 
 (PHP 7, PHP 8)
 
-ReflectionGenerator::getExecutingGenerator — Отримати запущений об'єкт [Generator](class.generator.html)
+ReflectionGenerator::getExecutingGenerator — Отримати запущений об'єкт [Generator](class.generator.md)
 
 ### Опис
 
@@ -23,7 +23,7 @@ ReflectionGenerator::getExecutingGenerator — Отримати запущени
 public ReflectionGenerator::getExecutingGenerator(): Generator
 ```
 
-Повертає запущений об'єкт [Generator](class.generator.html)
+Повертає запущений об'єкт [Generator](class.generator.md)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public ReflectionGenerator::getExecutingGenerator(): Generator
 
 ### Значення, що повертаються
 
-Повертає запущений об'єкт [Generator](class.generator.html)
+Повертає запущений об'єкт [Generator](class.generator.md)
 
 ### Приклади
 
@@ -67,5 +67,5 @@ int(1);
 
 ### Дивіться також
 
--   [ReflectionGenerator::getExecutingLine()](reflectiongenerator.getexecutingline.html) - Отримати поточний рядок генератора, що виконується
--   [ReflectionGenerator::getExecutingFile()](reflectiongenerator.getexecutingfile.html) - Отримати ім'я файлу, з якого запущено генератор
+-   [ReflectionGenerator::getExecutingLine()](reflectiongenerator.getexecutingline.md) - Отримати поточний рядок генератора, що виконується
+-   [ReflectionGenerator::getExecutingFile()](reflectiongenerator.getexecutingfile.md) - Отримати ім'я файлу, з якого запущено генератор

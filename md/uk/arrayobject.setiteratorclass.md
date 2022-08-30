@@ -1,12 +1,12 @@
 Встановлює ім'я класу ітератора ArrayObject
 
--   [« ArrayObject::setFlags](arrayobject.setflags.html)
+-   [« ArrayObject::setFlags](arrayobject.setflags.md)
     
--   [ArrayObject::uasort »](arrayobject.uasort.html)
+-   [ArrayObject::uasort »](arrayobject.uasort.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayObject](class.arrayobject.html)
+-   [ArrayObject](class.arrayobject.md)
     
 -   Встановлює ім'я класу ітератора ArrayObject
     
@@ -23,7 +23,7 @@ ArrayObject::setIteratorClass — Встановлює ім'я класу іте
 public ArrayObject::setIteratorClass(string $iteratorClass): void
 ```
 
-Встановлює ім'я класу ітератора масиву, що використовується [ArrayObject::getIterator()](arrayobject.getiterator.html)
+Встановлює ім'я класу ітератора масиву, що використовується [ArrayObject::getIterator()](arrayobject.getiterator.md)
 
 ### Список параметрів
 
@@ -46,7 +46,7 @@ class MyArrayIterator extends ArrayIterator {
     // пользовательская реализация
 }
 
-// Массив с количеством фруктов
+// Масив с количеством фруктов
 $fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
 
 $fruitsArrayObject = new ArrayObject($fruits);

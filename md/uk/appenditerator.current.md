@@ -1,12 +1,12 @@
 Повертає поточне значення
 
--   [« AppendIterator::construct](appenditerator.construct.html)
+-   [« AppendIterator::construct](appenditerator.construct.md)
     
--   [AppendIterator::getArrayIterator »](appenditerator.getarrayiterator.html)
+-   [AppendIterator::getArrayIterator »](appenditerator.getarrayiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [AppendIterator](class.appenditerator.html)
+-   [AppendIterator](class.appenditerator.md)
     
 -   Повертає поточне значення
     
@@ -35,8 +35,8 @@ public AppendIterator::current(): mixed
 
 ### Дивіться також
 
--   [Iterator::current()](iterator.current.html) - Повернення поточного елемента
--   [AppendIterator::key()](appenditerator.key.html) - Повертає поточний ключ
--   [AppendIterator::valid()](appenditerator.valid.html) - Перевіряє термін дії поточного елемента
--   [AppendIterator::next()](appenditerator.next.html) - Переходить до наступного елементу
--   [AppendIterator::rewind()](appenditerator.rewind.html) - перемотує ітератор
+-   [Iterator::current()](iterator.current.md) - Повернення поточного елемента
+-   [AppendIterator::key()](appenditerator.key.md) - Повертає поточний ключ
+-   [AppendIterator::valid()](appenditerator.valid.md) - Перевіряє термін дії поточного елемента
+-   [AppendIterator::next()](appenditerator.next.md) - Переходить до наступного елементу
+-   [AppendIterator::rewind()](appenditerator.rewind.md) - перемотує ітератор

@@ -1,12 +1,12 @@
 Зберігає запис на вказаному сервері
 
--   [« Memcached::set](memcached.set.html)
+-   [« Memcached::set](memcached.set.md)
     
--   [Memcached::setMulti »](memcached.setmulti.html)
+-   [Memcached::setMulti »](memcached.setmulti.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Зберігає запис на вказаному сервері
     
@@ -23,7 +23,7 @@ Memcached::setByKey — Зберігає запис на вказаному се
 public Memcached::setByKey(    string $server_key,    string $key,    mixed $value,    int $expiration = ?): bool
 ```
 
-**Memcached::setByKey()** працює аналогічно [Memcached::set()](memcached.set.html), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та встановлення значення з ключем `key` на конкретний сервер. Це корисно, коли необхідно тримати кілька пов'язаних значень на конкретному сервері.
+**Memcached::setByKey()** працює аналогічно [Memcached::set()](memcached.set.md), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та встановлення значення з ключем `key` на конкретний сервер. Це корисно, коли необхідно тримати кілька пов'язаних значень на конкретному сервері.
 
 ### Список параметрів
 
@@ -41,11 +41,11 @@ public Memcached::setByKey(    string $server_key,    string $key,   
 
 `expiration`
 
-Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Время хранения объекта](memcached.expiration.html)
+Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Час зберігання об'єкту](memcached.expiration.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.html)
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.md)
 
 ### Приклади
 
@@ -64,4 +64,4 @@ $m->setByKey('api-cache', 'block-ip:169.127.127.202', 1);
 
 ### Дивіться також
 
--   [Memcached::set()](memcached.set.html) - Зберігає запис
+-   [Memcached::set()](memcached.set.md) - Зберігає запис

@@ -1,12 +1,12 @@
 Отримує список дозволів
 
--   [« SplFileInfo::getPathname](splfileinfo.getpathname.html)
+-   [« SplFileInfo::getPathname](splfileinfo.getpathname.md)
     
--   [SplFileInfo::getRealPath »](splfileinfo.getrealpath.html)
+-   [SplFileInfo::getRealPath »](splfileinfo.getrealpath.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Отримує список дозволів
     

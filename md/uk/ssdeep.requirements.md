@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](ssdeep.setup.html)
+-   [« Встановлення та налаштування](ssdeep.setup.md)
     
--   [Установка »](ssdeep.installation.html)
+-   [Установка »](ssdeep.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ssdeep.setup.html)
+-   [Встановлення та налаштування](ssdeep.setup.md)
     
 -   Вимоги
     

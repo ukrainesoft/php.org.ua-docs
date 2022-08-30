@@ -1,12 +1,12 @@
 Встановлює прапори для SplFileObject
 
--   [« SplFileObject::setCsvControl](splfileobject.setcsvcontrol.html)
+-   [« SplFileObject::setCsvControl](splfileobject.setcsvcontrol.md)
     
--   [SplFileObject::setMaxLineLen »](splfileobject.setmaxlinelen.html)
+-   [SplFileObject::setMaxLineLen »](splfileobject.setmaxlinelen.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileObject](class.splfileobject.html)
+-   [SplFileObject](class.splfileobject.md)
     
 -   Встановлює прапори для SplFileObject
     
@@ -23,13 +23,13 @@ SplFileObject::setFlags — Встановлює прапори для SplFileOb
 public SplFileObject::setFlags(int $flags): void
 ```
 
-Встановлює прапори, які будуть використовуватись [SplFileObject](class.splfileobject.html)
+Встановлює прапори, які будуть використовуватись [SplFileObject](class.splfileobject.md)
 
 ### Список параметрів
 
 `flags`
 
-Бітова маска прапори для встановлення. Дивіться [константы SplFileObject](class.splfileobject.html#splfileobject.constants) щоб отримати список доступних прапорів.
+Бітова маска прапори для встановлення. Дивіться [константи SplFileObject](class.splfileobject.html#splfileobject.constants) щоб отримати список доступних прапорів.
 
 ### Значення, що повертаються
 
@@ -51,4 +51,4 @@ foreach ($file as $fields) {
 
 ### Дивіться також
 
--   [SplFileObject::getFlags()](splfileobject.getflags.html) - Отримує прапори налаштування об'єкта SplFileObject
+-   [SplFileObject::getFlags()](splfileobject.getflags.md) - Отримує прапори налаштування об'єкта SplFileObject

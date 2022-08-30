@@ -1,12 +1,12 @@
 Реєструє простір імен з об'єктом DOMXPath
 
--   [« DOMXPath::query](domxpath.query.html)
+-   [« DOMXPath::query](domxpath.query.md)
     
--   [DOMXPath::registerPhpFunctions »](domxpath.registerphpfunctions.html)
+-   [DOMXPath::registerPhpFunctions »](domxpath.registerphpfunctions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMXPath](class.domxpath.html)
+-   [DOMXPath](class.domxpath.md)
     
 -   Реєструє простір імен з об'єктом DOMXPath
     
@@ -15,7 +15,7 @@
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMXPath::registerNamespace — Реєструє простір імен з об'єктом [DOMXPath](class.domxpath.html)
+DOMXPath::registerNamespace — Реєструє простір імен з об'єктом [DOMXPath](class.domxpath.md)
 
 ### Опис
 

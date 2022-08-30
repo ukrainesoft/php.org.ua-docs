@@ -1,12 +1,12 @@
 Клас ReflectionClass
 
--   [« Reflection::getModifierNames](reflection.getmodifiernames.html)
+-   [« Reflection::getModifierNames](reflection.getmodifiernames.md)
     
--   [ReflectionClass::construct »](reflectionclass.construct.html)
+-   [ReflectionClass::construct »](reflectionclass.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Reflection](book.reflection.html)
+-   [Reflection](book.reflection.md)
     
 -   Клас ReflectionClass
     
@@ -119,7 +119,7 @@ public __toString(): string
 
 name
 
-Назва класу. Доступно тільки для читання та викидає виняток [ReflectionException](class.reflectionexception.html) під час спроби запису.
+Назва класу. Доступно тільки для читання та викидає виняток [ReflectionException](class.reflectionexception.md) під час спроби запису.
 
 ## Обумовлені константи
 
@@ -127,70 +127,70 @@ name
 
 **`ReflectionClass::IS_IMPLICIT_ABSTRACT`**
 
-Вказує, що клас є [абстрактним](language.oop5.abstract.html)тому, що він містить абстрактні методи.
+Вказує, що клас є [абстрактним](language.oop5.abstract.md)тому, що він містить абстрактні методи.
 
 **`ReflectionClass::IS_EXPLICIT_ABSTRACT`**
 
-Вказує, що клас є [абстрактним](language.oop5.abstract.html)тому що так зазначено при його описі.
+Вказує, що клас є [абстрактним](language.oop5.abstract.md)тому що так зазначено при його описі.
 
 **`ReflectionClass::IS_FINAL`**
 
-Вказує, що клас є [остаточним (final)](language.oop5.final.html)
+Вказує, що клас є [остаточним (final)](language.oop5.final.md)
 
 ## Зміст
 
--   [ReflectionClass::construct](reflectionclass.construct.html) — Створює об'єкт класу ReflectionClass
--   [ReflectionClass::export](reflectionclass.export.html) - Експортує клас
--   [ReflectionClass::getAttributes](reflectionclass.getattributes.html) — Отримує атрибути
--   [ReflectionClass::getConstant](reflectionclass.getconstant.html) — Повертає певну константу
--   [ReflectionClass::getConstants](reflectionclass.getconstants.html) — Повертає константи
--   [ReflectionClass::getConstructor](reflectionclass.getconstructor.html) - Повертає конструктор класу
--   [ReflectionClass::getDefaultProperties](reflectionclass.getdefaultproperties.html) — Повертає властивості за промовчанням
--   [ReflectionClass::getDocComment](reflectionclass.getdoccomment.html) — Повертає doc-блоки коментарів
--   [ReflectionClass::getEndLine](reflectionclass.getendline.html) — Повертає номер останнього рядка
--   [ReflectionClass::getExtension](reflectionclass.getextension.html) — Повертає об'єкт класу ReflectionExtension для модуля, що визначає клас
--   [ReflectionClass::getExtensionName](reflectionclass.getextensionname.html) - Повертає ім'я модуля, що визначає клас
--   [ReflectionClass::getFileName](reflectionclass.getfilename.html) — Повертає ім'я файлу, у якому визначено клас
--   [ReflectionClass::getInterfaceNames](reflectionclass.getinterfacenames.html) — Повертає імена інтерфейсів
--   [ReflectionClass::getInterfaces](reflectionclass.getinterfaces.html) — Повертає інтерфейси
--   [ReflectionClass::getMethod](reflectionclass.getmethod.html) — Повертає екземпляр ReflectionMethod для методу класу
--   [ReflectionClass::getMethods](reflectionclass.getmethods.html) — Повертає список методів у вигляді масиву
--   [ReflectionClass::getModifiers](reflectionclass.getmodifiers.html) — Повертає інформацію про модифікаторів класу
--   [ReflectionClass::getName](reflectionclass.getname.html) - Повертає ім'я класу
--   [ReflectionClass::getNamespaceName](reflectionclass.getnamespacename.html) — Повертає назву простору імен
--   [ReflectionClass::getParentClass](reflectionclass.getparentclass.html) - Повертає батьківський клас
--   [ReflectionClass::getProperties](reflectionclass.getproperties.html) - Повертає властивості
--   [ReflectionClass::getProperty](reflectionclass.getproperty.html) — Повертає екземпляр ReflectionProperty для якості класу
--   [ReflectionClass::getReflectionConstant](reflectionclass.getreflectionconstant.html) — Отримує ReflectionClassConstant для константи класу
--   [ReflectionClass::getReflectionConstants](reflectionclass.getreflectionconstants.html) — Отримує константи класу
--   [ReflectionClass::getShortName](reflectionclass.getshortname.html) - Повертає коротке ім'я
--   [ReflectionClass::getStartLine](reflectionclass.getstartline.html) — Повертає номер початкового рядка
--   [ReflectionClass::getStaticProperties](reflectionclass.getstaticproperties.html) — Повертає статичні властивості
--   [ReflectionClass::getStaticPropertyValue](reflectionclass.getstaticpropertyvalue.html) — Повертає значення статичної властивості
--   [ReflectionClass::getTraitAliases](reflectionclass.gettraitaliases.html) — Повертає масив псевдонімів трейтів
--   [ReflectionClass::getTraitNames](reflectionclass.gettraitnames.html) — Повертає масив імен трейтів, які використовуються у цьому класі
--   [ReflectionClass::getTraits](reflectionclass.gettraits.html) — Повертає масив трейтів, які використовуються у цьому класі.
--   [ReflectionClass::hasConstant](reflectionclass.hasconstant.html) — Перевіряє, чи визначено константу
--   [ReflectionClass::hasMethod](reflectionclass.hasmethod.html) — Перевіряє, чи заданий метод
--   [ReflectionClass::hasProperty](reflectionclass.hasproperty.html) — Перевіряє, чи визначено властивість
--   [ReflectionClass::implementsInterface](reflectionclass.implementsinterface.html) — Перевіряє, чи реалізується інтерфейс
--   [ReflectionClass::inNamespace](reflectionclass.innamespace.html) — Перевіряє, чи визначений клас у просторі імен
--   [ReflectionClass::isAbstract](reflectionclass.isabstract.html) — Перевіряє, чи клас є абстрактним.
--   [ReflectionClass::isAnonymous](reflectionclass.isanonymous.html) — Перевіряє, чи є клас анонімним
--   [ReflectionClass::isCloneable](reflectionclass.iscloneable.html) — Перевіряє, чи можна клонувати цей клас
--   [ReflectionClass::isEnum](reflectionclass.isenum.html) — Повертає, чи є клас перерахуванням
--   [ReflectionClass::isFinal](reflectionclass.isfinal.html) — Перевіряє, чи клас є остаточним (final)
--   [ReflectionClass::isInstance](reflectionclass.isinstance.html) — Перевіряє, чи об'єкт належить класу
--   [ReflectionClass::isInstantiable](reflectionclass.isinstantiable.html) — Перевіряє, чи можна створити екземпляр класу
--   [ReflectionClass::isInterface](reflectionclass.isinterface.html) — Перевіряє, чи клас є інтерфейсом
--   [ReflectionClass::isInternal](reflectionclass.isinternal.html) — Перевіряє, чи є клас вбудованим у модуль чи ядро
--   [ReflectionClass::isIterable](reflectionclass.isiterable.html) — Перевірити, чи клас ітерується.
--   [ReflectionClass::isIterateable](reflectionclass.isiterateable.html) - Псевдонім ReflectionClass::isIterable
--   [ReflectionClass::isSubclassOf](reflectionclass.issubclassof.html) — Перевіряє, чи є клас підкласом
--   [ReflectionClass::isTrait](reflectionclass.istrait.html) — Перевіряє, чи це є трейтом.
--   [ReflectionClass::isUserDefined](reflectionclass.isuserdefined.html) — Перевіряє, чи є клас для користувача
--   [ReflectionClass::newInstance](reflectionclass.newinstance.html) - Створює екземпляр класу з переданими аргументами
--   [ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.html) - Створює екземпляр класу з переданими параметрами
--   [ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.html) - Створює новий екземпляр класу без виклику конструктора
--   [ReflectionClass::setStaticPropertyValue](reflectionclass.setstaticpropertyvalue.html) - Встановлює значення статичної властивості
--   [ReflectionClass::toString](reflectionclass.tostring.html) — Повертає рядкову виставу об'єкта класу ReflectionClass
+-   [ReflectionClass::construct](reflectionclass.construct.md) — Створює об'єкт класу ReflectionClass
+-   [ReflectionClass::export](reflectionclass.export.md) - Експортує клас
+-   [ReflectionClass::getAttributes](reflectionclass.getattributes.md) — Отримує атрибути
+-   [ReflectionClass::getConstant](reflectionclass.getconstant.md) — Повертає певну константу
+-   [ReflectionClass::getConstants](reflectionclass.getconstants.md) — Повертає константи
+-   [ReflectionClass::getConstructor](reflectionclass.getconstructor.md) - Повертає конструктор класу
+-   [ReflectionClass::getDefaultProperties](reflectionclass.getdefaultproperties.md) — Повертає властивості за промовчанням
+-   [ReflectionClass::getDocComment](reflectionclass.getdoccomment.md) — Повертає doc-блоки коментарів
+-   [ReflectionClass::getEndLine](reflectionclass.getendline.md) — Повертає номер останнього рядка
+-   [ReflectionClass::getExtension](reflectionclass.getextension.md) — Повертає об'єкт класу ReflectionExtension для модуля, що визначає клас
+-   [ReflectionClass::getExtensionName](reflectionclass.getextensionname.md) - Повертає ім'я модуля, що визначає клас
+-   [ReflectionClass::getFileName](reflectionclass.getfilename.md) — Повертає ім'я файлу, у якому визначено клас
+-   [ReflectionClass::getInterfaceNames](reflectionclass.getinterfacenames.md) — Повертає імена інтерфейсів
+-   [ReflectionClass::getInterfaces](reflectionclass.getinterfaces.md) — Повертає інтерфейси
+-   [ReflectionClass::getMethod](reflectionclass.getmethod.md) — Повертає екземпляр ReflectionMethod для методу класу
+-   [ReflectionClass::getMethods](reflectionclass.getmethods.md) — Повертає список методів у вигляді масиву
+-   [ReflectionClass::getModifiers](reflectionclass.getmodifiers.md) — Повертає інформацію про модифікаторів класу
+-   [ReflectionClass::getName](reflectionclass.getname.md) - Повертає ім'я класу
+-   [ReflectionClass::getNamespaceName](reflectionclass.getnamespacename.md) — Повертає назву простору імен
+-   [ReflectionClass::getParentClass](reflectionclass.getparentclass.md) - Повертає батьківський клас
+-   [ReflectionClass::getProperties](reflectionclass.getproperties.md) - Повертає властивості
+-   [ReflectionClass::getProperty](reflectionclass.getproperty.md) — Повертає екземпляр ReflectionProperty для якості класу
+-   [ReflectionClass::getReflectionConstant](reflectionclass.getreflectionconstant.md) — Отримує ReflectionClassConstant для константи класу
+-   [ReflectionClass::getReflectionConstants](reflectionclass.getreflectionconstants.md) — Отримує константи класу
+-   [ReflectionClass::getShortName](reflectionclass.getshortname.md) - Повертає коротке ім'я
+-   [ReflectionClass::getStartLine](reflectionclass.getstartline.md) — Повертає номер початкового рядка
+-   [ReflectionClass::getStaticProperties](reflectionclass.getstaticproperties.md) — Повертає статичні властивості
+-   [ReflectionClass::getStaticPropertyValue](reflectionclass.getstaticpropertyvalue.md) — Повертає значення статичної властивості
+-   [ReflectionClass::getTraitAliases](reflectionclass.gettraitaliases.md) — Повертає масив псевдонімів трейтів
+-   [ReflectionClass::getTraitNames](reflectionclass.gettraitnames.md) — Повертає масив імен трейтів, які використовуються у цьому класі
+-   [ReflectionClass::getTraits](reflectionclass.gettraits.md) — Повертає масив трейтів, які використовуються у цьому класі.
+-   [ReflectionClass::hasConstant](reflectionclass.hasconstant.md) — Перевіряє, чи визначено константу
+-   [ReflectionClass::hasMethod](reflectionclass.hasmethod.md) — Перевіряє, чи заданий метод
+-   [ReflectionClass::hasProperty](reflectionclass.hasproperty.md) — Перевіряє, чи визначено властивість
+-   [ReflectionClass::implementsInterface](reflectionclass.implementsinterface.md) — Перевіряє, чи реалізується інтерфейс
+-   [ReflectionClass::inNamespace](reflectionclass.innamespace.md) — Перевіряє, чи визначений клас у просторі імен
+-   [ReflectionClass::isAbstract](reflectionclass.isabstract.md) — Перевіряє, чи клас є абстрактним.
+-   [ReflectionClass::isAnonymous](reflectionclass.isanonymous.md) — Перевіряє, чи є клас анонімним
+-   [ReflectionClass::isCloneable](reflectionclass.iscloneable.md) — Перевіряє, чи можна клонувати цей клас
+-   [ReflectionClass::isEnum](reflectionclass.isenum.md) — Повертає, чи є клас перерахуванням
+-   [ReflectionClass::isFinal](reflectionclass.isfinal.md) — Перевіряє, чи клас є остаточним (final)
+-   [ReflectionClass::isInstance](reflectionclass.isinstance.md) — Перевіряє, чи об'єкт належить класу
+-   [ReflectionClass::isInstantiable](reflectionclass.isinstantiable.md) — Перевіряє, чи можна створити екземпляр класу
+-   [ReflectionClass::isInterface](reflectionclass.isinterface.md) — Перевіряє, чи клас є інтерфейсом
+-   [ReflectionClass::isInternal](reflectionclass.isinternal.md) — Перевіряє, чи є клас вбудованим у модуль чи ядро
+-   [ReflectionClass::isIterable](reflectionclass.isiterable.md) — Перевірити, чи клас ітерується.
+-   [ReflectionClass::isIterateable](reflectionclass.isiterateable.md) - Псевдонім ReflectionClass::isIterable
+-   [ReflectionClass::isSubclassOf](reflectionclass.issubclassof.md) — Перевіряє, чи є клас підкласом
+-   [ReflectionClass::isTrait](reflectionclass.istrait.md) — Перевіряє, чи це є трейтом.
+-   [ReflectionClass::isUserDefined](reflectionclass.isuserdefined.md) — Перевіряє, чи є клас для користувача
+-   [ReflectionClass::newInstance](reflectionclass.newinstance.md) - Створює екземпляр класу з переданими аргументами
+-   [ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.md) - Створює екземпляр класу з переданими параметрами
+-   [ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.md) - Створює новий екземпляр класу без виклику конструктора
+-   [ReflectionClass::setStaticPropertyValue](reflectionclass.setstaticpropertyvalue.md) - Встановлює значення статичної властивості
+-   [ReflectionClass::toString](reflectionclass.tostring.md) — Повертає рядкову виставу об'єкта класу ReflectionClass

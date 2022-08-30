@@ -4,9 +4,9 @@
     
 -   [fanndestroytrain »](function.fann-destroy-train.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Масштабування вхідних та вихідних даних на основі попередньо розрахованих параметрів
     

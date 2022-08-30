@@ -1,12 +1,12 @@
 Повертає MD5-хеш файлу
 
--   [« ltrim](function.ltrim.html)
+-   [« ltrim](function.ltrim.md)
     
--   [md5 »](function.md5.html)
+-   [md5 »](function.md5.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Повертає MD5-хеш файлу
     
@@ -53,6 +53,6 @@ echo 'MD5-хеш файла ' . $file . ': ' . md5_file($file);
 
 ### Дивіться також
 
--   [md5()](function.md5.html) - Повертає MD5-хеш рядки
+-   [md5()](function.md5.md) - Повертає MD5-хеш рядки
 -   [sha1file()](function.sha1-file.html) - Повертає SHA1-хеш файлу
--   [crc32()](function.crc32.html) - Обчислює поліном CRC32 для рядка
+-   [crc32()](function.crc32.md) - Обчислює поліном CRC32 для рядка

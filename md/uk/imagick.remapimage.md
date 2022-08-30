@@ -1,12 +1,12 @@
 Перезначає кольори зображення
 
--   [« Imagick::reduceNoiseImage](imagick.reducenoiseimage.html)
+-   [« Imagick::reduceNoiseImage](imagick.reducenoiseimage.md)
     
--   [Imagick::removeImage »](imagick.removeimage.html)
+-   [Imagick::removeImage »](imagick.removeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Перезначає кольори зображення
     

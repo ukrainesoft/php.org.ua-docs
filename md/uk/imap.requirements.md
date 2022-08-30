@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](imap.setup.html)
+-   [« Встановлення та налаштування](imap.setup.md)
     
--   [Установка »](imap.installation.html)
+-   [Установка »](imap.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](imap.setup.html)
+-   [Встановлення та налаштування](imap.setup.md)
     
 -   Вимоги
     

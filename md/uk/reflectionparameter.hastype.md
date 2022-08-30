@@ -1,12 +1,12 @@
 Перевірити, чи вказано тип параметра
 
--   [« ReflectionParameter::getType](reflectionparameter.gettype.html)
+-   [« ReflectionParameter::getType](reflectionparameter.gettype.md)
     
--   [ReflectionParameter::isArray »](reflectionparameter.isarray.html)
+-   [ReflectionParameter::isArray »](reflectionparameter.isarray.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionParameter](class.reflectionparameter.html)
+-   [ReflectionParameter](class.reflectionparameter.md)
     
 -   Перевірити, чи вказано тип параметра
     
@@ -57,4 +57,4 @@ bool(false)
 
 ### Дивіться також
 
--   [ReflectionParameter::getType()](reflectionparameter.gettype.html) - Отримати тип параметра
+-   [ReflectionParameter::getType()](reflectionparameter.gettype.md) - Отримати тип параметра

@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](sem.resources.html)
+-   [« Типи ресурсів](sem.resources.md)
     
--   [Функції семафорів »](ref.sem.html)
+-   [Функції семафорів »](ref.sem.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Семафоры](book.sem.html)
+-   [Семафори](book.sem.md)
     
 -   Обумовлені константи
     

@@ -2,11 +2,11 @@
 
 -   [« Установка](ssdeep.installation.html)
     
--   [Типы ресурсов »](ssdeep.resources.html)
+-   [Типи ресурсів »](ssdeep.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](ssdeep.setup.html)
+-   [Встановлення та налаштування](ssdeep.setup.html)
     
 -   Налаштування під час виконання
     

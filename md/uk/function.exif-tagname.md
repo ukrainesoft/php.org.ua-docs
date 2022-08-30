@@ -4,9 +4,9 @@
     
 -   [exifthumbnail »](function.exif-thumbnail.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Exif Функції](ref.exif.html)
+-   [Exif Функції](ref.exif.md)
     
 -   Отримання імені заголовка за його індексом
     

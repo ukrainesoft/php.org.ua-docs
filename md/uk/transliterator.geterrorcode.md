@@ -1,12 +1,12 @@
 Отримати код останньої помилки
 
--   [« Transliterator::createInverse](transliterator.createinverse.html)
+-   [« Transliterator::createInverse](transliterator.createinverse.md)
     
--   [Transliterator::getErrorMessage »](transliterator.geterrormessage.html)
+-   [Transliterator::getErrorMessage »](transliterator.geterrormessage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Transliterator](class.transliterator.html)
+-   [Transliterator](class.transliterator.md)
     
 -   Отримати код останньої помилки
     
@@ -49,5 +49,5 @@ transliterator_get_error_code(Transliterator $transliterator): int|false
 
 ### Дивіться також
 
--   [Transliterator::getErrorMessage()](transliterator.geterrormessage.html) - Отримати останнє повідомлення про помилку
--   [Transliterator::listIDs()](transliterator.listids.html) - Отримати ідентифікатори транслітератора
+-   [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) - Отримати останнє повідомлення про помилку
+-   [Transliterator::listIDs()](transliterator.listids.md) - Отримати ідентифікатори транслітератора

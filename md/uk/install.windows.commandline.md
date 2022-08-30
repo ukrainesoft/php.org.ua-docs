@@ -1,12 +1,12 @@
 Командний рядок PHP у Microsoft Windows
 
--   [« Сборка из исходных кодов](install.windows.building.html)
+-   [« Складання з вихідних кодів](install.windows.building.md)
     
--   [Apache 2.x в Microsoft Windows »](install.windows.apache2.html)
+-   [Apache 2.x в Microsoft Windows »](install.windows.apache2.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка в системах Windows](install.windows.html)
+-   [Установка в системах Windows](install.windows.md)
     
 -   Командний рядок PHP у Microsoft Windows
     
@@ -17,7 +17,7 @@
 
 > **Зауваження**
 > 
-> Спочатку слід прочитати [шаги ручной установки](install.windows.manual.html)
+> Спочатку слід прочитати [шаги ручной установки](install.windows.manual.md)
 
 Запуск PHP з командного рядка можна виконати без внесення будь-яких змін до Windows.
 

@@ -1,12 +1,12 @@
 Закриває Stomp-з'єднання
 
--   [« Stomp::construct](stomp.construct.html)
+-   [« Stomp::construct](stomp.construct.md)
     
--   [Stomp::error »](stomp.error.html)
+-   [Stomp::error »](stomp.error.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Stomp](class.stomp.html)
+-   [Stomp](class.stomp.md)
     
 -   Закриває Stomp-з'єднання
     
@@ -37,7 +37,7 @@ stomp_close(resource $link): bool
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.html)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
 
 ### Значення, що повертаються
 
@@ -45,4 +45,4 @@ stomp_close(resource $link): bool
 
 ### Приклади
 
-Дивіться [stompconnect()](stomp.construct.html)
+Дивіться [stompconnect()](stomp.construct.md)

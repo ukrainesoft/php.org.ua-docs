@@ -1,8 +1,8 @@
 Обумовлені константи
 
--   [« Типы ресурсов](yaf.resources.html)
+-   [« Типи ресурсів](yaf.resources.html)
     
--   [Примеры »](yaf.tutorials.html)
+-   [Приклади »](yaf.tutorials.html)
     
 -   [PHP Manual](index.html)
     

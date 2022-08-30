@@ -1,12 +1,12 @@
 Конструктор об'єкта спостерігача EvPeriodic
 
--   [« EvPeriodic::at](evperiodic.at.html)
+-   [« EvPeriodic::at](evperiodic.at.md)
     
--   [EvPeriodic::createStopped »](evperiodic.createstopped.html)
+-   [EvPeriodic::createStopped »](evperiodic.createstopped.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvPeriodic](class.evperiodic.html)
+-   [EvPeriodic](class.evperiodic.md)
     
 -   Конструктор об'єкта спостерігача EvPeriodic
     
@@ -22,12 +22,12 @@ EvPeriodic::construct - Конструктор об'єкта спостеріг�
 public **EvPeriodic::construct**  
 float `$offset`  
 string `$interval`  
-[callable](language.types.callable.html) `$reschedule_cb`  
-[callable](language.types.callable.html) `$callback`  
+[callable](language.types.callable.md) `$reschedule_cb`  
+[callable](language.types.callable.md) `$callback`  
 [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` **`null`**  
 int `$priority`
 
-Створює об'єкт спостерігача EvPeriodic та запускає його автоматично. Метод [EvPeriodic::createStopped()](evperiodic.createstopped.html) створює зупинений періодичний спостерігач.
+Створює об'єкт спостерігача EvPeriodic та запускає його автоматично. Метод [EvPeriodic::createStopped()](evperiodic.createstopped.md) створює зупинений періодичний спостерігач.
 
 ### Список параметрів
 
@@ -99,5 +99,5 @@ $hourly = EvPeriodic(0, 3600, NULL, function () {
 ### Дивіться також
 
 -   [Періодичні режими роботи спостерігача](ev.periodic-modes.html)
--   [EvTimer](class.evtimer.html)
--   [EvPeriodic::createStopped()](evperiodic.createstopped.html) - Створює зупинений спостерігач EvPeriodic
+-   [EvTimer](class.evtimer.md)
+-   [EvPeriodic::createStopped()](evperiodic.createstopped.md) - Створює зупинений спостерігач EvPeriodic

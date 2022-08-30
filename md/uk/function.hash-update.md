@@ -2,11 +2,11 @@
 
 -   [« hashupdatestream](function.hash-update-stream.html)
     
--   [hash »](function.hash.html)
+-   [hash »](function.hash.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Hash](ref.hash.html)
+-   [Функции Hash](ref.hash.md)
     
 -   Додає дані до активного контексту хешування
     
@@ -39,9 +39,9 @@ hash_update(HashContext $context, string $data): bool
 
 ### список змін
 
-| Версия | Описание                                                       |
-|--------|----------------------------------------------------------------|
-|        | Приймає [HashContext](class.hashcontext.html), а чи не ресурс. |
+| Версия | Описание |
+| --- | --- |
+|  | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
 
 ### Дивіться також
 

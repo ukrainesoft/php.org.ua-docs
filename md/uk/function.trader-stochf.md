@@ -4,9 +4,9 @@
     
 -   [traderstochrsi »](function.trader-stochrsi.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Швидкий стохастичний осцилятор
     
@@ -47,7 +47,7 @@ trader_stochf(    array $high,    array $low,    array $close,   
 
 `fastD_MAType`
 
-Тип ковзної середньої для Fast-D. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.html)
+Тип ковзної середньої для Fast-D. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
 
 ### Значення, що повертаються
 

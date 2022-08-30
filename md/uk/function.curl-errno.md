@@ -37,9 +37,9 @@ curl_errno(CurlHandle $handle): int
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -68,4 +68,4 @@ curl_close($ch);
 ### Дивіться також
 
 -   [curlerror()](function.curl-error.html) - Повертає рядок із описом останньої помилки поточного сеансу
--   [» Коды ошибок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+-   [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.html)

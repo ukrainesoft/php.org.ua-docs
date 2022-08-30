@@ -1,12 +1,12 @@
 Повернути себе
 
--   [« Gmagick::cropthumbnailimage](gmagick.cropthumbnailimage.html)
+-   [« Gmagick::cropthumbnailimage](gmagick.cropthumbnailimage.md)
     
--   [Gmagick::cyclecolormapimage »](gmagick.cyclecolormapimage.html)
+-   [Gmagick::cyclecolormapimage »](gmagick.cyclecolormapimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повернути себе
     

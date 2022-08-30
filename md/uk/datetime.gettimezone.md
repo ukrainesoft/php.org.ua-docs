@@ -1,12 +1,12 @@
 Повертає часовий пояс щодо поточного значення DateTime
 
--   [« DateTimeInterface::getTimestamp](datetime.gettimestamp.html)
+-   [« DateTimeInterface::getTimestamp](datetime.gettimestamp.md)
     
--   [DateTime::wakeup »](datetime.wakeup.html)
+-   [DateTime::wakeup »](datetime.wakeup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTimeInterface](class.datetimeinterface.html)
+-   [DateTimeInterface](class.datetimeinterface.md)
     
 -   Повертає часовий пояс щодо поточного значення DateTime
     
@@ -51,11 +51,11 @@ date_timezone_get(DateTimeInterface $object): DateTimeZone|false
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [datecreate()](function.date-create.html)
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.html)
 
 ### Значення, що повертаються
 
-Повертає об'єкт [DateTimeZone](class.datetimezone.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає об'єкт [DateTimeZone](class.datetimezone.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -89,4 +89,4 @@ Europe/London
 
 ### Дивіться також
 
--   [DateTime::setTimezone()](datetime.settimezone.html) - Встановлює часовий пояс для об'єкта класу DateTime
+-   [DateTime::setTimezone()](datetime.settimezone.md) - Встановлює часовий пояс для об'єкта класу DateTime

@@ -37,9 +37,9 @@ phpversion(?string $extension = null): string|false
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `extension` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `extension` тепер допускає значення null. |
 
 ### Приклади
 
@@ -98,7 +98,7 @@ if (PHP_VERSION_ID < 50207) {
 
 ### Дивіться також
 
--   [Константы PHPVERSION](reserved.constants.html#reserved.constants.core)
+-   [Константи PHPVERSION](reserved.constants.html#reserved.constants.core)
 -   [versioncompare()](function.version-compare.html) - Порівнює два "стандартизовані" рядки з номером версії PHP
 -   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP
 -   [phpcredits()](function.phpcredits.html) - Виводить список розробників PHP

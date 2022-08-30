@@ -1,12 +1,12 @@
 Оператор перевірки типу
 
--   [« Оператори, які працюють з масивами](language.operators.array.html)
+-   [« Оператори, які працюють з масивами](language.operators.array.md)
     
 -   [Управляющие конструкции »](language.control-structures.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Оператори](language.operators.html)
+-   [Оператори](language.operators.md)
     
 -   Оператор перевірки типу
     
@@ -68,7 +68,7 @@ bool(true)
 bool(true)
 ```
 
-Для перевірки *неприладдя* об'єкта деякому класу, використовуйте [логічний оператор `not`](language.operators.logical.html)
+Для перевірки *неприладдя* об'єкта деякому класу, використовуйте [логічний оператор`not`](language.operators.logical.md)
 
 **Приклад #3 Використання `instanceof` для перевірки того, що об'єкт *не* є екземпляром класу**
 
@@ -89,7 +89,7 @@ var_dump(!($a instanceof stdClass));
 bool(true)
 ```
 
-Зрештою, `instanceof` може бути також використаний для перевірки реалізації об'єктом деякого [інтерфейсу](language.oop5.interfaces.html)
+Зрештою, `instanceof` може бути також використаний для перевірки реалізації об'єктом деякого [інтерфейсу](language.oop5.interfaces.md)
 
 **Приклад #4 Використання `instanceof` з інтерфейсами**
 

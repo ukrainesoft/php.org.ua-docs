@@ -1,12 +1,12 @@
 Отримати статистику сервера
 
--   [« Memcache::getServerStatus](memcache.getserverstatus.html)
+-   [« Memcache::getServerStatus](memcache.getserverstatus.md)
     
--   [Memcache::getVersion »](memcache.getversion.html)
+-   [Memcache::getVersion »](memcache.getversion.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcache](class.memcache.html)
+-   [Memcache](class.memcache.md)
     
 -   Отримати статистику сервера
     
@@ -45,5 +45,5 @@ Memcache::getStats(string $type = ?, int $slabid = ?, int $limit = 100): array|f
 
 ### Дивіться також
 
--   [Memcache::getVersion()](memcache.getversion.html) - Повернути версію сервера
--   [Memcache::getExtendedStats()](memcache.getextendedstats.html) - Отримати статистику з усіх серверів у пулі
+-   [Memcache::getVersion()](memcache.getversion.md) - Повернути версію сервера
+-   [Memcache::getExtendedStats()](memcache.getextendedstats.md) - Отримати статистику з усіх серверів у пулі

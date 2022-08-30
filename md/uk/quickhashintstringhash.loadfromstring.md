@@ -1,12 +1,12 @@
 Фабричний метод створює хеш із рядка
 
--   [« QuickHashIntStringHash::loadFromFile](quickhashintstringhash.loadfromfile.html)
+-   [« QuickHashIntStringHash::loadFromFile](quickhashintstringhash.loadfromfile.md)
     
--   [QuickHashIntStringHash::saveToFile »](quickhashintstringhash.savetofile.html)
+-   [QuickHashIntStringHash::saveToFile »](quickhashintstringhash.savetofile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [QuickHashIntStringHash](class.quickhashintstringhash.html)
+-   [QuickHashIntStringHash](class.quickhashintstringhash.md)
     
 -   Фабричний метод створює хеш із рядка
     
@@ -23,7 +23,7 @@ QuickHashIntStringHash::loadFromString — Фабричний метод ств�
 public static QuickHashIntStringHash::loadFromString(string $contents, int $size = 0, int $options = 0): QuickHashIntStringHash
 ```
 
-Цей фабричний метод створює новий хеш із визначення у рядку. Формат такий самий, як і в [QuickHashIntStringHash::loadFromFile()](quickhashintstringhash.loadfromfile.html)
+Цей фабричний метод створює новий хеш із визначення у рядку. Формат такий самий, як і в [QuickHashIntStringHash::loadFromFile()](quickhashintstringhash.loadfromfile.md)
 
 ### Список параметрів
 
@@ -41,7 +41,7 @@ public static QuickHashIntStringHash::loadFromString(string $contents, int $size
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [QuickHashIntStringHash](class.quickhashintstringhash.html)
+Повертає новий об'єкт [QuickHashIntStringHash](class.quickhashintstringhash.md)
 
 ### Приклади
 

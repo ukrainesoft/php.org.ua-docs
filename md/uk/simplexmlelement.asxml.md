@@ -1,12 +1,12 @@
 Повертає сформований XML-документ у вигляді рядка на основі елемента SimpleXML
 
--   [« SimpleXMLElement::addChild](simplexmlelement.addchild.html)
+-   [« SimpleXMLElement::addChild](simplexmlelement.addchild.md)
     
--   [SimpleXMLElement::attributes »](simplexmlelement.attributes.html)
+-   [SimpleXMLElement::attributes »](simplexmlelement.attributes.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXMLElement](class.simplexmlelement.html)
+-   [SimpleXMLElement](class.simplexmlelement.md)
     
 -   Повертає сформований XML-документ у вигляді рядка на основі елемента SimpleXML
     
@@ -37,9 +37,9 @@ public SimpleXMLElement::asXML(?string $filename = null): string|bool
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | `filename` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `filename` тепер допускає значення null. |
 
 ### Приклади
 
@@ -83,7 +83,7 @@ echo $xml->asXML();
 
 `asXML` також працює з результатами Xpath:
 
-**Приклад #2 Використання asXML() з результатами [SimpleXMLElement::xpath()](simplexmlelement.xpath.html)**
+**Приклад #2 Використання asXML() з результатами [SimpleXMLElement::xpath()](simplexmlelement.xpath.md)**
 
 ```php
 <?php
@@ -106,5 +106,5 @@ foreach ($result as $node) {
 
 ### Дивіться також
 
--   [SimpleXMLElement::toString()](simplexmlelement.tostring.html) - Повертає вміст рядка
+-   [SimpleXMLElement::toString()](simplexmlelement.tostring.md) - Повертає вміст рядка
 -   [Базовое использование SimpleXML](simplexml.examples-basic.html)

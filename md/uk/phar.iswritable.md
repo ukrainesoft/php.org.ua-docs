@@ -1,12 +1,12 @@
 Перевіряє, чи можна модифікувати phar-архів
 
--   [« Phar::isValidPharFilename](phar.isvalidpharfilename.html)
+-   [« Phar::isValidPharFilename](phar.isvalidpharfilename.md)
     
--   [Phar::loadPhar »](phar.loadphar.html)
+-   [Phar::loadPhar »](phar.loadphar.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Phar](class.phar.html)
+-   [Phar](class.phar.md)
     
 -   Перевіряє, чи можна модифікувати phar-архів
     
@@ -35,5 +35,5 @@ public Phar::isWritable(): bool
 
 ### Дивіться також
 
--   [Phar::canWrite()](phar.canwrite.html) - Перевіряє, чи підтримує модуль phar збереження та створення phar-архівів
--   [PharData::isWritable()](phardata.iswritable.html) - Перевірити, чи можна модифікувати tar/zip-архів
+-   [Phar::canWrite()](phar.canwrite.md) - Перевіряє, чи підтримує модуль phar збереження та створення phar-архівів
+-   [PharData::isWritable()](phardata.iswritable.md) - Перевірити, чи можна модифікувати tar/zip-архів

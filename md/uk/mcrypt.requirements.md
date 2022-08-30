@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](mcrypt.setup.html)
+-   [« Встановлення та налаштування](mcrypt.setup.md)
     
--   [Установка »](mcrypt.installation.html)
+-   [Установка »](mcrypt.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mcrypt.setup.html)
+-   [Встановлення та налаштування](mcrypt.setup.md)
     
 -   Вимоги
     

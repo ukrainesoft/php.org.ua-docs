@@ -4,9 +4,9 @@
     
 -   [псshfill »](function.ps-shfill.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Створює затінення для подальшого використання
     

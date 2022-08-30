@@ -4,9 +4,9 @@
     
 -   [uopzredefine »](function.uopz-redefine.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.md)
     
 -   Перевантажити опкод VM
     

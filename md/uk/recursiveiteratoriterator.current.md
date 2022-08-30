@@ -1,12 +1,12 @@
 Отримує значення поточного елемента
 
--   [« RecursiveIteratorIterator::construct](recursiveiteratoriterator.construct.html)
+-   [« RecursiveIteratorIterator::construct](recursiveiteratoriterator.construct.md)
     
--   [RecursiveIteratorIterator::endChildren »](recursiveiteratoriterator.endchildren.html)
+-   [RecursiveIteratorIterator::endChildren »](recursiveiteratoriterator.endchildren.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
     
 -   Отримує значення поточного елемента
     

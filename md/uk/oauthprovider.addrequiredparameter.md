@@ -1,12 +1,12 @@
 Додати необхідні параметри
 
--   [« OAuthProvider](class.oauthprovider.html)
+-   [« OAuthProvider](class.oauthprovider.md)
     
--   [OAuthProvider::callconsumerHandler »](oauthprovider.callconsumerhandler.html)
+-   [OAuthProvider::callconsumerHandler »](oauthprovider.callconsumerhandler.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuthProvider](class.oauthprovider.html)
+-   [OAuthProvider](class.oauthprovider.md)
     
 -   Додати необхідні параметри
     
@@ -41,4 +41,4 @@ final public OAuthProvider::addRequiredParameter(string $req_params): bool
 
 ### Дивіться також
 
--   [OAuthProvider::removeRequiredParameter()](oauthprovider.removerequiredparameter.html) - Видалити потрібний параметр
+-   [OAuthProvider::removeRequiredParameter()](oauthprovider.removerequiredparameter.md) - Видалити потрібний параметр

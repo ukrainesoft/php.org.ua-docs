@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](fann.installation.html)
+-   [« Установка](fann.installation.md)
     
--   [Типы ресурсов »](fann.resources.html)
+-   [Типи ресурсів »](fann.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](fann.setup.html)
+-   [Встановлення та налаштування](fann.setup.md)
     
 -   Налаштування під час виконання
     

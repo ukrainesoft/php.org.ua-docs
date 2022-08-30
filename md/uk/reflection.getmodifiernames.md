@@ -1,12 +1,12 @@
 Отримання імен модифікаторів
 
--   [« Reflection::export](reflection.export.html)
+-   [« Reflection::export](reflection.export.md)
     
--   [ReflectionClass »](class.reflectionclass.html)
+-   [ReflectionClass »](class.reflectionclass.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Reflection](class.reflection.html)
+-   [Reflection](class.reflection.md)
     
 -   Отримання імен модифікаторів
     
@@ -80,7 +80,7 @@ public
 
 ### Дивіться також
 
--   [ReflectionClass::getModifiers()](reflectionclass.getmodifiers.html) - Повертає інформацію про модифікаторів класу
--   [ReflectionClassConstant::getModifiers()](reflectionclassconstant.getmodifiers.html) - Отримує модифікатори константи класу
--   [ReflectionMethod::getModifiers()](reflectionmethod.getmodifiers.html) - Отримує модифікатори методу
--   [ReflectionProperty::getModifiers()](reflectionproperty.getmodifiers.html) - Отримання модифікаторів властивостей класу
+-   [ReflectionClass::getModifiers()](reflectionclass.getmodifiers.md) - Повертає інформацію про модифікаторів класу
+-   [ReflectionClassConstant::getModifiers()](reflectionclassconstant.getmodifiers.md) - Отримує модифікатори константи класу
+-   [ReflectionMethod::getModifiers()](reflectionmethod.getmodifiers.md) - Отримує модифікатори методу
+-   [ReflectionProperty::getModifiers()](reflectionproperty.getmodifiers.md) - Отримання модифікаторів властивостей класу

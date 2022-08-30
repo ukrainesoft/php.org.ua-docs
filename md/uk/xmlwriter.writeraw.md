@@ -1,12 +1,12 @@
 Записати необроблений XML-текст
 
--   [« XMLWriter::writePi](xmlwriter.writepi.html)
+-   [« XMLWriter::writePi](xmlwriter.writepi.md)
     
--   [XSL »](book.xsl.html)
+-   [XSL »](book.xsl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](class.xmlwriter.html)
+-   [XMLWriter](class.xmlwriter.md)
     
 -   Записати необроблений XML-текст
     
@@ -39,7 +39,7 @@ xmlwriter_write_raw(XMLWriter $writer, string $content): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `content`
 
@@ -51,10 +51,10 @@ xmlwriter_write_raw(XMLWriter $writer, string $content): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::text()](xmlwriter.text.html) - Записати текст
+-   [XMLWriter::text()](xmlwriter.text.md) - Записати текст

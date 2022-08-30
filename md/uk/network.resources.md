@@ -1,16 +1,16 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](network.configuration.html)
+-   [« Налаштування під час виконання](network.configuration.md)
     
--   [Предопределённые константы »](network.constants.html)
+-   [Обумовлені константи »](network.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](network.setup.html)
+-   [Встановлення та налаштування](network.setup.md)
     
 -   Типи ресурсів
     
 
 ## Типи ресурсів
 
-Цей модуль визначає ресурс файлового покажчика, що повертається функціями [fsockopen()](function.fsockopen.html) і [pfsockopen()](function.pfsockopen.html)
+Цей модуль визначає ресурс файлового покажчика, що повертається функціями [fsockopen()](function.fsockopen.md) і [pfsockopen()](function.pfsockopen.md)

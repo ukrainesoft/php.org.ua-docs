@@ -4,7 +4,7 @@
     
 -   [ComponerePatch::apply »](componere-patch.apply.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponerePatch](class.componere-patch.html)
     
@@ -37,8 +37,8 @@ public **ComponerePatch::construct**(object `$instance`, array `$interfaces`
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html)якщо клас не може бути знайдений `interfaces`
+Викидає виняток [RuntimeException](class.runtimeexception.md)якщо клас не може бути знайдений `interfaces`
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), якщо клас у `interfaces` не є інтерфейсом
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо клас у `interfaces` не є інтерфейсом

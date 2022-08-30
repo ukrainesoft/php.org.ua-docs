@@ -4,9 +4,9 @@
     
 -   [mysqli::sslset »](mysqli.ssl-set.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Повертає код стану SQLSTATE останньої MySQL операції
     
@@ -23,7 +23,7 @@ mysqli::$sqlstate -- mysqlisqlstate — Повертає код стану SQLST
 
 Об'єктно-орієнтований стиль
 
-string [$mysqli->sqlstate](mysqli.sqlstate.html)
+string [$mysqli->sqlstate](mysqli.sqlstate.md)
 
 Процедурний стиль
 
@@ -41,7 +41,7 @@ mysqli_sqlstate(mysqli $mysql): string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -101,5 +101,5 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqlierrno()](mysqli.errno.html) - Повертає код помилки останнього виклику функції
--   [mysqlierror()](mysqli.error.html) - Повертає рядок із описом останньої помилки
+-   [mysqlierrno()](mysqli.errno.md) - Повертає код помилки останнього виклику функції
+-   [mysqlierror()](mysqli.error.md) - Повертає рядок із описом останньої помилки

@@ -1,12 +1,12 @@
 Імітує фото Polaroid
 
--   [« Imagick::pingImageFile](imagick.pingimagefile.html)
+-   [« Imagick::pingImageFile](imagick.pingimagefile.md)
     
--   [Imagick::posterizeImage »](imagick.posterizeimage.html)
+-   [Imagick::posterizeImage »](imagick.posterizeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Імітує фото Polaroid
     

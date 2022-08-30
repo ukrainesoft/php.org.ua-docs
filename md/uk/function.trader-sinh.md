@@ -4,9 +4,9 @@
     
 -   [tradersma »](function.trader-sma.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Вектор тригонометричний гіперболічний синус
     

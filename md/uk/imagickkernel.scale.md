@@ -1,12 +1,12 @@
 Опис
 
--   [« ImagickKernel::getMatrix](imagickkernel.getmatrix.html)
+-   [« ImagickKernel::getMatrix](imagickkernel.getmatrix.md)
     
--   [ImagickKernel::separate »](imagickkernel.separate.html)
+-   [ImagickKernel::separate »](imagickkernel.separate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickKernel](class.imagickkernel.html)
+-   [ImagickKernel](class.imagickkernel.md)
     
 -   Опис
     

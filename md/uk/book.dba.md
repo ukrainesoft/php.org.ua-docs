@@ -1,28 +1,28 @@
 Database (dbm-style) Abstraction Layer
 
--   [« Рівні абстракції](refs.database.abstract.html)
+-   [« Рівні абстракції](refs.database.abstract.md)
     
--   [Введение »](intro.dba.html)
+-   [Введение »](intro.dba.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Рівні абстракції](refs.database.abstract.html)
+-   [Рівні абстракції](refs.database.abstract.md)
     
 -   Database (dbm-style) Abstraction Layer
     
 
 # Database (dbm-style) Abstraction Layer
 
--   [Введение](intro.dba.html)
--   [Установка и настройка](dba.setup.html)
-    -   [Требования](dba.requirements.html)
-    -   [Установка](dba.installation.html)
-    -   [Настройка во время выполнения](dba.configuration.html)
-    -   [Типы ресурсов](dba.resources.html)
--   [Предопределённые константы](dba.constants.html)
--   [Примеры](dba.examples.html)
-    -   [Базовое использование](dba.example.html)
--   [Функції DBA](ref.dba.html)
+-   [Введение](intro.dba.md)
+-   [Встановлення та налаштування](dba.setup.md)
+    -   [Вимоги](dba.requirements.md)
+    -   [Установка](dba.installation.md)
+    -   [Налаштування під час виконання](dba.configuration.md)
+    -   [Типи ресурсів](dba.resources.md)
+-   [Обумовлені константи](dba.constants.md)
+-   [Приклади](dba.examples.md)
+    -   [Базовое использование](dba.example.md)
+-   [Функції DBA](ref.dba.md)
     -   [dbaclose](function.dba-close.html) — Закриває базу даних DBA
     -   [dbadelete](function.dba-delete.html) — Видаляє запис бази даних, визначену ключем
     -   [dbaexists](function.dba-exists.html) — Перевіряє, чи існує ключ

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](xmldiff.setup.html)
+-   [« Встановлення та налаштування](xmldiff.setup.md)
     
--   [Установка »](xmldiff.installation.html)
+-   [Установка »](xmldiff.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xmldiff.setup.html)
+-   [Встановлення та налаштування](xmldiff.setup.md)
     
 -   Вимоги
     

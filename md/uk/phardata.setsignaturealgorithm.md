@@ -45,9 +45,9 @@ public PharData::setSignatureAlgorithm(int $algo, ?string $privateKey = null): v
 
 ### список змін
 
-| Версия | Описание                                   |
-|--------|--------------------------------------------|
-|        | `privateKey` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `privateKey` тепер допускає значення null. |
 
 ### Дивіться також
 

@@ -1,10 +1,10 @@
 Довідник функцій
 
--   [« Використання SystemTap зі статичними зондами PHP DTrace](features.dtrace.systemtap.html)
+-   [« Використання SystemTap зі статичними зондами PHP DTrace](features.dtrace.systemtap.md)
     
--   [Изменение поведения PHP »](refs.basic.php.html)
+-   [Изменение поведения PHP »](refs.basic.php.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   Довідник функцій
     
@@ -13,185 +13,185 @@
 
 **Підказка**
 
-Дивіться також [Список/класифікація модулів](extensions.html)
+Дивіться також [Список/класифікація модулів](extensions.md)
 
--   [Изменение поведения PHP](refs.basic.php.html)
-    -   [APCu](book.apcu.html) — Користувальницький кеш APC
-    -   [Componere](book.componere.html)
-    -   [Обработка ошибок](book.errorfunc.html) — Обробка та логування помилок
-    -   [FFI](book.ffi.html) - Інтерфейс зовнішньої функції (Foreign Function Interface)
-    -   [OPcache](book.opcache.html)
-    -   [Контроль виведення](book.outcontrol.html) - Управління буфером виводу
-    -   [Опции/информация PHP](book.info.html) - Опції та інформація PHP
-    -   [phpdbg](book.phpdbg.html) - Інтерактивний налагоджувач PHP
-    -   [runkit7](book.runkit7.html)
-    -   [uopz](book.uopz.html) - User Operations для Zend
-    -   [WinCache](book.wincache.html) - Windows Cache для PHP
-    -   [Xhprof](book.xhprof.html) - Hierarchical Profiler
-    -   [Yac](book.yac.html)
--   [Обработка аудио форматов](refs.utilspec.audio.html)
-    -   [OpenAL](book.openal.html) - Аудіопотоки OpenAL
--   [Служби автентифікації](refs.remote.auth.html)
-    -   [Radius](book.radius.html)
--   [Модулі для роботи з командним рядком](refs.utilspec.cmdline.html)
-    -   [Readline](book.readline.html) - GNU Readline
--   [Модулі для стиснення та архівації](refs.compression.html)
-    -   [Bzip2](book.bzip2.html)
-    -   [LZF](book.lzf.html)
-    -   [Phar](book.phar.html)
-    -   [Rar](book.rar.html) - Архівування Rar
-    -   [Zip](book.zip.html)
-    -   [Zlib](book.zlib.html)
--   [Криптографічні модулі](refs.crypto.html)
-    -   [CSPRNG](book.csprng.html)
-    -   [Hash](book.hash.html) - Фреймворк хеш-кодів HASH
-    -   [Mcrypt](book.mcrypt.html)
-    -   [Mhash](book.mhash.html)
-    -   [OpenSSL](book.openssl.html)
-    -   [Хеширование паролей](book.password.html)
-    -   [Sodium](book.sodium.html)
--   [Модулі для роботи з базами даних](refs.database.html)
-    -   [Рівні абстракції](refs.database.abstract.html)
-    -   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.html)
--   [Модулі для роботи з датою та часом](refs.calendar.html)
-    -   [Календарь](book.calendar.html)
-    -   [Дата/время](book.datetime.html) - Дата і час
-    -   [HRTime](book.hrtime.html) — Час високого дозволу
--   [Модулі для роботи з файловою системою](refs.fileprocess.file.html)
-    -   [Прямой ввод/вывод (Direct IO)](book.dio.html)
-    -   [Каталоги](book.dir.html)
-    -   [FileInfo](book.fileinfo.html) — Інформація про файл
-    -   [Файлова система](book.filesystem.html)
-    -   [Inotify](book.inotify.html)
-    -   [xattr](book.xattr.html)
-    -   [xdiff](book.xdiff.html)
--   [Підтримка мов та кодувань](refs.international.html)
-    -   [Enchant](book.enchant.html) - Бібліотека перевірки правопису Enchant
-    -   [Gender](book.gender.html) — Визначення статі на ім'я
-    -   [Gettext](book.gettext.html)
-    -   [iconv](book.iconv.html)
-    -   [intl](book.intl.html) - Функції інтернаціоналізації
-    -   [Багатобайтові рядки](book.mbstring.html)
-    -   [Pspell](book.pspell.html)
-    -   [Recode](book.recode.html) - GNU Recode
--   [Обработка и генерация изображений](refs.utilspec.image.html)
-    -   [Exif](book.exif.html) — Змінювана інформація про зображення
-    -   [ДД](book.image.html) — Обробка зображень та GD
-    -   [Gmagick](book.gmagick.html)
-    -   [ImageMagick](book.imagick.html) - Обробка зображень (ImageMagick)
--   [Модулі для роботи з поштою](refs.remote.mail.html)
-    -   [IMAP](book.imap.html) - IMAP, POP3 та NNTP
-    -   [Mail](book.mail.html)
-    -   [Mailparse](book.mailparse.html)
--   [Математичні модулі](refs.math.html)
-    -   [BC Math](book.bc.html) — Обчислення над числами з довільною точністю BCMath
-    -   [GMP](book.gmp.html) — Обчислення над цілими числами із довільною точністю (GNU Multiple Precision)
-    -   [Math](book.math.html) - Математичні функції
-    -   [Статистика](book.stats.html)
-    -   [Trader](book.trader.html) - Технічний аналіз для трейдерів
--   [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.html)
-    -   [FDF](book.fdf.html) - Формат даних форм
-    -   [GnuPG](book.gnupg.html) - GNU Privacy Guard
-    -   [wkhtmltox](book.wkhtmltox.html)
-    -   [ПС](book.ps.html) - Створення документів PostScript
-    -   [RpmInfo](book.rpminfo.html)
-    -   [XLSWriter](book.xlswriter.html)
--   [Модули для управления процессами программ](refs.fileprocess.process.html)
-    -   [Eio](book.eio.html)
-    -   [Єв](book.ev.html)
-    -   [Expect](book.expect.html)
-    -   [PCNTL](book.pcntl.html) - Управління процесами
-    -   [POSIX](book.posix.html)
-    -   [Запуск программы](book.exec.html) - Запуск програм у системі
-    -   [parallel](book.parallel.html)
-    -   [pthreads](book.pthreads.html)
-    -   [Семафоры](book.sem.html) — Семафори, пам'ять, що розділяється, і IPC
-    -   [Управление разделяемой памятью](book.shmop.html)
-    -   [Sync](book.sync.html)
--   [Інші базові модулі](refs.basic.other.html)
-    -   [GeoIP](book.geoip.html) - Geo IP Location
-    -   [FANN](book.fann.html) - Швидка штучна нейронна мережа (Fast Artificial Neural Network або FANN)
-    -   [Igbinary](book.igbinary.html)
-    -   [JSON](book.json.html) - JavaScript Object Notation
-    -   [Lua](book.lua.html)
-    -   [LuaSandbox](book.luasandbox.html)
-    -   [Misc.](book.misc.html) - Різні функції
-    -   [Seaslog](book.seaslog.html)
-    -   [SPL](book.spl.html) - Стандартна бібліотека PHP (SPL)
-    -   [Потоки](book.stream.html)
-    -   [Swoole](book.swoole.html)
-    -   [Tidy](book.tidy.html)
-    -   [Лексер (Tokenizer)](book.tokenizer.html)
-    -   [URL](book.url.html)
-    -   [V8js](book.v8js.html) - Інтеграція V8 Javascript Engine
-    -   [Yaml](book.yaml.html) - Серіалізація даних YAML
-    -   [Yaf](book.yaf.html) - Yet Another Framework
-    -   [Yaconf](book.yaconf.html)
-    -   [Taint](book.taint.html)
-    -   [Структури даних](book.ds.html)
-    -   [varrepresentation](book.var_representation.html)
--   [Другие службы](refs.remote.other.html)
-    -   [cURL](book.curl.html) - Клієнтська бібліотека роботи з URL
-    -   [Event](book.event.html)
-    -   [FTP](book.ftp.html)
-    -   [Gearman](book.gearman.html)
-    -   [LDAP](book.ldap.html) — Полегшений протокол доступу до каталогів (LDAP)
-    -   [Memcache](book.memcache.html)
-    -   [Memcached](book.memcached.html)
-    -   [mqseries](book.mqseries.html)
-    -   [Сеть](book.network.html)
-    -   [RRD](book.rrd.html) - RRDtool
-    -   [ScoutAPM](book.scoutapm.html)
-    -   [SNMP](book.snmp.html)
-    -   [Сокеты](book.sockets.html)
-    -   [SSH2](book.ssh2.html) - Secure Shell2
-    -   [Stomp](book.stomp.html) - Stomp Client
-    -   [SVM](book.svm.html) - Support Vector Machine (Допоміжна векторна машина)
-    -   [SVN](book.svn.html) - Subversion
-    -   [TCP](book.tcpwrap.html) - Обгортки TCP
-    -   [Varnish](book.varnish.html)
-    -   [YAZ](book.yaz.html)
-    -   [Обмін повідомленнями 0MQ](book.zmq.html) - ZMQ
-    -   [ZooKeeper](book.zookeeper.html)
--   [Модулі для роботи з пошуковими системами](refs.search.html)
-    -   [Solr](book.solr.html) - Apache Solr
--   [Модулі для роботи із серверами](refs.utilspec.server.html)
-    -   [Apache](book.apache.html)
-    -   [Менеджер процесів FastCGI](book.fpm.html)
--   [Модулі для роботи із сесіями](refs.basic.session.html)
-    -   [Сессии](book.session.html) - Управління сесіями
--   [Обработка текста](refs.basic.text.html)
-    -   [CommonMark](book.cmark.html)
-    -   [Parle](book.parle.html) — Розбір та лексування
-    -   [PCRE](book.pcre.html) — Функції для роботи з регулярними виразами (Perl-сумісні)
-    -   [ssdeep](book.ssdeep.html) - Нечітке хешування ssdeep
-    -   [Рядки](book.strings.html)
--   [Модули, относящиеся к переменным и типам](refs.basic.vartype.html)
-    -   [Массивы](book.array.html)
-    -   [Классы и объекты](book.classobj.html) — Інформація про клас та об'єкт
-    -   [Ctype](book.ctype.html) - Функції визначення типу символів
-    -   [Filter](book.filter.html) - Фільтрування даних
-    -   [Управление функциями](book.funchand.html)
-    -   [Quickhash](book.quickhash.html)
-    -   [Reflection](book.reflection.html)
-    -   [Обработка переменных](book.var.html)
--   [Веб-сервисы](refs.webservice.html)
-    -   [OAuth](book.oauth.html)
-    -   [SOAP](book.soap.html)
-    -   [Yar](book.yar.html) — Ще один RPC-фреймворк
-    -   [XML-RPC](book.xmlrpc.html)
--   [Модулі лише для Windows](refs.utilspec.windows.html)
-    -   [COM](book.com.html) - COM і .Net (Windows)
-    -   [win32service](book.win32service.html)
--   [Обработка XML](refs.xml.html)
-    -   [DOM](book.dom.html) - Document Object Model
-    -   [libxml](book.libxml.html)
-    -   [SimpleXML](book.simplexml.html)
-    -   [WDDX](book.wddx.html)
-    -   [XMLDiff](book.xmldiff.html) — Порівняння та об'єднання XML
-    -   [Разбор XML](book.xml.html)
-    -   [XMLReader](book.xmlreader.html)
-    -   [XMLWriter](book.xmlwriter.html)
-    -   [XSL](book.xsl.html)
--   [Модулі для роботи з GUI](refs.ui.html)
-    -   [ОЙ](book.ui.html)
+-   [Изменение поведения PHP](refs.basic.php.md)
+    -   [APCu](book.apcu.md) — Користувальницький кеш APC
+    -   [Componere](book.componere.md)
+    -   [Обработка ошибок](book.errorfunc.md) — Обробка та логування помилок
+    -   [FFI](book.ffi.md) - Інтерфейс зовнішньої функції (Foreign Function Interface)
+    -   [OPcache](book.opcache.md)
+    -   [Контроль виведення](book.outcontrol.md) - Управління буфером виводу
+    -   [Опции/информация PHP](book.info.md) - Опції та інформація PHP
+    -   [phpdbg](book.phpdbg.md) - Інтерактивний налагоджувач PHP
+    -   [runkit7](book.runkit7.md)
+    -   [uopz](book.uopz.md) - User Operations для Zend
+    -   [WinCache](book.wincache.md) - Windows Cache для PHP
+    -   [Xhprof](book.xhprof.md) - Hierarchical Profiler
+    -   [Yac](book.yac.md)
+-   [Обработка аудио форматов](refs.utilspec.audio.md)
+    -   [OpenAL](book.openal.md) - Аудіопотоки OpenAL
+-   [Служби автентифікації](refs.remote.auth.md)
+    -   [Radius](book.radius.md)
+-   [Модулі для роботи з командним рядком](refs.utilspec.cmdline.md)
+    -   [Readline](book.readline.md) - GNU Readline
+-   [Модулі для стиснення та архівації](refs.compression.md)
+    -   [Bzip2](book.bzip2.md)
+    -   [LZF](book.lzf.md)
+    -   [Phar](book.phar.md)
+    -   [Rar](book.rar.md) - Архівування Rar
+    -   [Zip](book.zip.md)
+    -   [Zlib](book.zlib.md)
+-   [Криптографічні модулі](refs.crypto.md)
+    -   [CSPRNG](book.csprng.md)
+    -   [Hash](book.hash.md) - Фреймворк хеш-кодів HASH
+    -   [Mcrypt](book.mcrypt.md)
+    -   [Mhash](book.mhash.md)
+    -   [OpenSSL](book.openssl.md)
+    -   [Хеширование паролей](book.password.md)
+    -   [Sodium](book.sodium.md)
+-   [Модулі для роботи з базами даних](refs.database.md)
+    -   [Рівні абстракції](refs.database.abstract.md)
+    -   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
+-   [Модулі для роботи з датою та часом](refs.calendar.md)
+    -   [Календарь](book.calendar.md)
+    -   [Дата/время](book.datetime.md) - Дата і час
+    -   [HRTime](book.hrtime.md) — Час високого дозволу
+-   [Модулі для роботи з файловою системою](refs.fileprocess.file.md)
+    -   [Пряме введення/виведення (Direct IO)](book.dio.md)
+    -   [Каталоги](book.dir.md)
+    -   [FileInfo](book.fileinfo.md) — Інформація про файл
+    -   [Файлова система](book.filesystem.md)
+    -   [Inotify](book.inotify.md)
+    -   [xattr](book.xattr.md)
+    -   [xdiff](book.xdiff.md)
+-   [Підтримка мов та кодувань](refs.international.md)
+    -   [Enchant](book.enchant.md) - Бібліотека перевірки правопису Enchant
+    -   [Gender](book.gender.md) — Визначення статі на ім'я
+    -   [Gettext](book.gettext.md)
+    -   [iconv](book.iconv.md)
+    -   [intl](book.intl.md) - Функції інтернаціоналізації
+    -   [Багатобайтові рядки](book.mbstring.md)
+    -   [Pspell](book.pspell.md)
+    -   [Recode](book.recode.md) - GNU Recode
+-   [Обработка и генерация изображений](refs.utilspec.image.md)
+    -   [Exif](book.exif.md) — Змінювана інформація про зображення
+    -   [ДД](book.image.md) — Обробка зображень та GD
+    -   [Gmagick](book.gmagick.md)
+    -   [ImageMagick](book.imagick.md) - Обробка зображень (ImageMagick)
+-   [Модулі для роботи з поштою](refs.remote.mail.md)
+    -   [IMAP](book.imap.md) - IMAP, POP3 та NNTP
+    -   [Mail](book.mail.md)
+    -   [Mailparse](book.mailparse.md)
+-   [Математичні модулі](refs.math.md)
+    -   [BC Math](book.bc.md) — Обчислення над числами з довільною точністю BCMath
+    -   [GMP](book.gmp.md) — Обчислення над цілими числами із довільною точністю (GNU Multiple Precision)
+    -   [Math](book.math.md) - Математичні функції
+    -   [Статистика](book.stats.md)
+    -   [Trader](book.trader.md) - Технічний аналіз для трейдерів
+-   [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.md)
+    -   [FDF](book.fdf.md) - Формат даних форм
+    -   [GnuPG](book.gnupg.md) - GNU Privacy Guard
+    -   [wkhtmltox](book.wkhtmltox.md)
+    -   [ПС](book.ps.md) - Створення документів PostScript
+    -   [RpmInfo](book.rpminfo.md)
+    -   [XLSWriter](book.xlswriter.md)
+-   [Модули для управления процессами программ](refs.fileprocess.process.md)
+    -   [Eio](book.eio.md)
+    -   [Єв](book.ev.md)
+    -   [Expect](book.expect.md)
+    -   [PCNTL](book.pcntl.md) - Управління процесами
+    -   [POSIX](book.posix.md)
+    -   [Запуск програми](book.exec.md) - Запуск програм у системі
+    -   [parallel](book.parallel.md)
+    -   [pthreads](book.pthreads.md)
+    -   [Семафори](book.sem.md) — Семафори, пам'ять, що розділяється, і IPC
+    -   [Управление разделяемой памятью](book.shmop.md)
+    -   [Sync](book.sync.md)
+-   [Інші базові модулі](refs.basic.other.md)
+    -   [GeoIP](book.geoip.md) - Geo IP Location
+    -   [FANN](book.fann.md) - Швидка штучна нейронна мережа (Fast Artificial Neural Network або FANN)
+    -   [Igbinary](book.igbinary.md)
+    -   [JSON](book.json.md) - JavaScript Object Notation
+    -   [Lua](book.lua.md)
+    -   [LuaSandbox](book.luasandbox.md)
+    -   [Misc.](book.misc.md) - Різні функції
+    -   [Seaslog](book.seaslog.md)
+    -   [SPL](book.spl.md) - Стандартна бібліотека PHP (SPL)
+    -   [Потоки](book.stream.md)
+    -   [Swoole](book.swoole.md)
+    -   [Tidy](book.tidy.md)
+    -   [Лексер (Tokenizer)](book.tokenizer.md)
+    -   [URL](book.url.md)
+    -   [V8js](book.v8js.md) - Інтеграція V8 Javascript Engine
+    -   [Yaml](book.yaml.md) - Серіалізація даних YAML
+    -   [Yaf](book.yaf.md) - Yet Another Framework
+    -   [Yaconf](book.yaconf.md)
+    -   [Taint](book.taint.md)
+    -   [Структури даних](book.ds.md)
+    -   [varrepresentation](book.var_representation.md)
+-   [Інші служби](refs.remote.other.md)
+    -   [cURL](book.curl.md) - Клієнтська бібліотека роботи з URL
+    -   [Event](book.event.md)
+    -   [FTP](book.ftp.md)
+    -   [Gearman](book.gearman.md)
+    -   [LDAP](book.ldap.md) — Полегшений протокол доступу до каталогів (LDAP)
+    -   [Memcache](book.memcache.md)
+    -   [Memcached](book.memcached.md)
+    -   [mqseries](book.mqseries.md)
+    -   [Сеть](book.network.md)
+    -   [RRD](book.rrd.md) - RRDtool
+    -   [ScoutAPM](book.scoutapm.md)
+    -   [SNMP](book.snmp.md)
+    -   [Сокети](book.sockets.md)
+    -   [SSH2](book.ssh2.md) - Secure Shell2
+    -   [Stomp](book.stomp.md) - Stomp Client
+    -   [SVM](book.svm.md) - Support Vector Machine (Допоміжна векторна машина)
+    -   [SVN](book.svn.md) - Subversion
+    -   [TCP](book.tcpwrap.md) - Обгортки TCP
+    -   [Varnish](book.varnish.md)
+    -   [YAZ](book.yaz.md)
+    -   [Обмін повідомленнями 0MQ](book.zmq.md) - ZMQ
+    -   [ZooKeeper](book.zookeeper.md)
+-   [Модулі для роботи з пошуковими системами](refs.search.md)
+    -   [Solr](book.solr.md) - Apache Solr
+-   [Модулі для роботи із серверами](refs.utilspec.server.md)
+    -   [Apache](book.apache.md)
+    -   [Менеджер процесів FastCGI](book.fpm.md)
+-   [Модулі для роботи із сесіями](refs.basic.session.md)
+    -   [Сессии](book.session.md) - Управління сесіями
+-   [Обработка текста](refs.basic.text.md)
+    -   [CommonMark](book.cmark.md)
+    -   [Parle](book.parle.md) — Розбір та лексування
+    -   [PCRE](book.pcre.md) — Функції для роботи з регулярними виразами (Perl-сумісні)
+    -   [ssdeep](book.ssdeep.md) - Нечітке хешування ssdeep
+    -   [Рядки](book.strings.md)
+-   [Модулі, що відносяться до змінних та типів](refs.basic.vartype.md)
+    -   [Масиви](book.array.md)
+    -   [Класи та об'єкти](book.classobj.md) — Інформація про клас та об'єкт
+    -   [Ctype](book.ctype.md) - Функції визначення типу символів
+    -   [Filter](book.filter.md) - Фільтрування даних
+    -   [Управление функциями](book.funchand.md)
+    -   [Quickhash](book.quickhash.md)
+    -   [Reflection](book.reflection.md)
+    -   [Обробка змінних](book.var.md)
+-   [Веб-сервіси](refs.webservice.md)
+    -   [OAuth](book.oauth.md)
+    -   [SOAP](book.soap.md)
+    -   [Yar](book.yar.md) — Ще один RPC-фреймворк
+    -   [XML-RPC](book.xmlrpc.md)
+-   [Модулі лише для Windows](refs.utilspec.windows.md)
+    -   [COM](book.com.md) - COM і .Net (Windows)
+    -   [win32service](book.win32service.md)
+-   [Обработка XML](refs.xml.md)
+    -   [DOM](book.dom.md) - Document Object Model
+    -   [libxml](book.libxml.md)
+    -   [SimpleXML](book.simplexml.md)
+    -   [WDDX](book.wddx.md)
+    -   [XMLDiff](book.xmldiff.md) — Порівняння та об'єднання XML
+    -   [Разбор XML](book.xml.md)
+    -   [XMLReader](book.xmlreader.md)
+    -   [XMLWriter](book.xmlwriter.md)
+    -   [XSL](book.xsl.md)
+-   [Модулі для роботи з GUI](refs.ui.md)
+    -   [ОЙ](book.ui.md)

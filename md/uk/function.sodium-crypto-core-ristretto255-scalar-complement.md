@@ -4,9 +4,9 @@
     
 -   [sodiumcryptocoreristretto255scalarinvert »](function.sodium-crypto-core-ristretto255-scalar-invert.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Призначення sodiumcryptocoreristretto255scalarcomplement
     

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Справочник языка](langref.html)
+-   [Довідник мови](langref.html)
     
 -   Простори імен
     
@@ -19,7 +19,7 @@
 -   [Определение пространств имён](language.namespaces.definition.html)
 -   [Определение подпространств имён](language.namespaces.nested.html)
 -   [Опис кількох просторів імен в одному файлі](language.namespaces.definitionmultiple.html)
--   [Использование пространства имён: основы](language.namespaces.basics.html)
+-   [Використання простору імен: основи](language.namespaces.basics.html)
 -   [Простори імен та динамічні особливості мови](language.namespaces.dynamic.html)
 -   [Ключевое слово namespace и константаNAMESPACE](language.namespaces.nsconstants.html)
 -   [Использование пространств имён: импорт/создание псевдонима имени](language.namespaces.importing.html)

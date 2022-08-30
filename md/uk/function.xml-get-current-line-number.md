@@ -4,9 +4,9 @@
     
 -   [xmlgeterrorcode »](function.xml-get-error-code.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции парсера XML](ref.xml.html)
+-   [Функции парсера XML](ref.xml.md)
     
 -   Отримує від XML-аналізатора номер поточного рядка
     
@@ -37,9 +37,9 @@ xml_get_current_line_number(XMLParser $parser): int
 
 ### список змін
 
-| Версия | Описание                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

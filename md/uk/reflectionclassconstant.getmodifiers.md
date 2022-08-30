@@ -1,12 +1,12 @@
 Отримує модифікатори константи класу
 
--   [« ReflectionClassConstant::getDocComment](reflectionclassconstant.getdoccomment.html)
+-   [« ReflectionClassConstant::getDocComment](reflectionclassconstant.getdoccomment.md)
     
--   [ReflectionClassConstant::getName »](reflectionclassconstant.getname.html)
+-   [ReflectionClassConstant::getName »](reflectionclassconstant.getname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClassConstant](class.reflectionclassconstant.html)
+-   [ReflectionClassConstant](class.reflectionclassconstant.md)
     
 -   Отримує модифікатори константи класу
     
@@ -35,4 +35,4 @@ public ReflectionClassConstant::getModifiers(): int
 
 ### Дивіться також
 
--   [Reflection::getModifierNames()](reflection.getmodifiernames.html) - Отримання імен модифікаторів
+-   [Reflection::getModifierNames()](reflection.getmodifiernames.md) - Отримання імен модифікаторів

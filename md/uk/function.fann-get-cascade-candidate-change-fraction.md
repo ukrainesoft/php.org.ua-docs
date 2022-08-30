@@ -4,9 +4,9 @@
     
 -   [fanngetcascadecandidatelimit »](function.fann-get-cascade-candidate-limit.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Повертає частку зміни каскаду кандидата
     

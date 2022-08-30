@@ -1,12 +1,12 @@
 Створює нову подію буфера SSL для надсилання своїх даних через іншу подію буфера
 
--   [« EventBufferEvent::sslError](eventbufferevent.sslerror.html)
+-   [« EventBufferEvent::sslError](eventbufferevent.sslerror.md)
     
--   [EventBufferEvent::sslGetCipherInfo »](eventbufferevent.sslgetcipherinfo.html)
+-   [EventBufferEvent::sslGetCipherInfo »](eventbufferevent.sslgetcipherinfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Створює нову подію буфера SSL для надсилання своїх даних через іншу подію буфера
     
@@ -59,7 +59,7 @@ public
 
 `ctx`
 
-Об'єкт класу [EventSslContext](class.eventsslcontext.html)
+Об'єкт класу [EventSslContext](class.eventsslcontext.md)
 
 `state`
 
@@ -71,7 +71,7 @@ public
 
 ### Значення, що повертаються
 
-Повертає новий SSL [EventBufferEvent](class.eventbufferevent.html) об'єкт.
+Повертає новий SSL [EventBufferEvent](class.eventbufferevent.md) об'єкт.
 
 ### Приклади
 
@@ -224,4 +224,4 @@ new Handler();
 
 ### Дивіться також
 
--   [EventBufferEvent::sslSocket()](eventbufferevent.sslsocket.html) - Створює нову буферну подію SSL для надсилання своїх даних через SSL у сокет
+-   [EventBufferEvent::sslSocket()](eventbufferevent.sslsocket.md) - Створює нову буферну подію SSL для надсилання своїх даних через SSL у сокет

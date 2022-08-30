@@ -1,12 +1,12 @@
 Створює phar-архів із файлів, розташованих усередині директорії
 
--   [« Phar::apiVersion](phar.apiversion.html)
+-   [« Phar::apiVersion](phar.apiversion.md)
     
--   [Phar::buildFromIterator »](phar.buildfromiterator.html)
+-   [Phar::buildFromIterator »](phar.buildfromiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Phar](class.phar.html)
+-   [Phar](class.phar.md)
     
 -   Створює phar-архів із файлів, розташованих усередині директорії
     
@@ -25,9 +25,9 @@ public Phar::buildFromDirectory(string $directory, string $pattern = ""): array
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.html)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
-Заповнює phar-архів вмістом директорії. Необов'язковий другий параметр є регулярним виразом (PCRE) та використовується для виключення файлів. Будь-який файл, ім'я якого відповідає регулярному виразу, буде включений, всі інші будуть виключені. Для більш детального контролю використовуйте [Phar::buildFromIterator()](phar.buildfromiterator.html)
+Заповнює phar-архів вмістом директорії. Необов'язковий другий параметр є регулярним виразом (PCRE) та використовується для виключення файлів. Будь-який файл, ім'я якого відповідає регулярному виразу, буде включений, всі інші будуть виключені. Для більш детального контролю використовуйте [Phar::buildFromIterator()](phar.buildfromiterator.md)
 
 ### Список параметрів
 
@@ -45,13 +45,13 @@ public Phar::buildFromDirectory(string $directory, string $pattern = ""): array
 
 ### Помилки
 
-Цей метод викидає виняток [BadMethodCallException](class.badmethodcallexception.html) у разі, якщо не вдалося створити примірник ітератора внутрішніх директорій. Виняток [PharException](class.pharexception.html) викидається у разі помилок збереження phar-архіву.
+Цей метод викидає виняток [BadMethodCallException](class.badmethodcallexception.md) у разі, якщо не вдалося створити примірник ітератора внутрішніх директорій. Виняток [PharException](class.pharexception.md) викидається у разі помилок збереження phar-архіву.
 
 ### список змін
 
-| Версия | Описание                                                               |
-|--------|------------------------------------------------------------------------|
-|        | **Phar::buildFromDirectory()** більше не повертає значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | **Phar::buildFromDirectory()** більше не повертає значення **`false`** |
 
 ### Приклади
 
@@ -74,4 +74,4 @@ $phar2->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
 
 ### Дивіться також
 
--   [Phar::buildFromIterator()](phar.buildfromiterator.html) - Створює phar-архів із ітератора
+-   [Phar::buildFromIterator()](phar.buildfromiterator.md) - Створює phar-архів із ітератора

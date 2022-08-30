@@ -2,7 +2,7 @@
 
 -   [« Misc.](book.misc.html)
     
--   [Установка и настройка »](misc.setup.html)
+-   [Встановлення та налаштування »](misc.setup.html)
     
 -   [PHP Manual](index.html)
     

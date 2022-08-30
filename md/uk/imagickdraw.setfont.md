@@ -1,12 +1,12 @@
 Встановлює вказаний шрифт для використання під час анотування текстом
 
--   [« ImagickDraw::setFillRule](imagickdraw.setfillrule.html)
+-   [« ImagickDraw::setFillRule](imagickdraw.setfillrule.md)
     
--   [ImagickDraw::setFontFamily »](imagickdraw.setfontfamily.html)
+-   [ImagickDraw::setFontFamily »](imagickdraw.setfontfamily.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Встановлює вказаний шрифт для використання під час анотування текстом
     

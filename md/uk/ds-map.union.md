@@ -43,7 +43,7 @@ public Ds\Map::union(Ds\Map $map): Ds\Map
 
 ### Також дивіться
 
--   [» Объединение](https://en.wikipedia.org/wiki/Union_(set_theory)) в Вікіпедія
+-   [» Об'єднання](https://en.wikipedia.org/wiki/Union_(set_theory)) в Вікіпедія
 
 ### Приклади
 

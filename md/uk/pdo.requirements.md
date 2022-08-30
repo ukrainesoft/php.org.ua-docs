@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](pdo.setup.html)
+-   [« Встановлення та налаштування](pdo.setup.md)
     
--   [Установка »](pdo.installation.html)
+-   [Установка »](pdo.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](pdo.setup.html)
+-   [Встановлення та налаштування](pdo.setup.md)
     
 -   Вимоги
     

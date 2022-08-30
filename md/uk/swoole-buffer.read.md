@@ -4,7 +4,7 @@
     
 -   [SwooleBuffer::recycle »](swoole-buffer.recycle.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleBuffer](class.swoole-buffer.html)
     

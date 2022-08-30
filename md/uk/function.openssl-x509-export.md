@@ -4,9 +4,9 @@
     
 -   [opensslx509fingerprint »](function.openssl-x509-fingerprint.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Експортує сертифікат у рядок
     
@@ -29,7 +29,7 @@ openssl_x509_export(OpenSSLCertificate|string $certificate, string &$output, boo
 
 `x509`
 
-Для списку коректних значень дивіться [Параметры ключей/сертификатов](openssl.certparams.html)
+Для списку коректних значень дивіться [Параметри ключів/сертифікатів](openssl.certparams.md)
 
 `output`
 
@@ -45,6 +45,6 @@ openssl_x509_export(OpenSSLCertificate|string $certificate, string &$output, boo
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                           |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |

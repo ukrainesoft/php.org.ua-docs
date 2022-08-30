@@ -1,12 +1,12 @@
 Отримує сцену зображення
 
--   [« Gmagick::getimageresolution](gmagick.getimageresolution.html)
+-   [« Gmagick::getimageresolution](gmagick.getimageresolution.md)
     
--   [Gmagick::getimagesignature »](gmagick.getimagesignature.html)
+-   [Gmagick::getimagesignature »](gmagick.getimagesignature.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Отримує сцену зображення
     

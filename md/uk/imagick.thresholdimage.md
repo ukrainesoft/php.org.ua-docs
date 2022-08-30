@@ -1,12 +1,12 @@
 Змінює окремі пікселі на основі порогового значення
 
--   [« Imagick::textureImage](imagick.textureimage.html)
+-   [« Imagick::textureImage](imagick.textureimage.md)
     
--   [Imagick::thumbnailImage »](imagick.thumbnailimage.html)
+-   [Imagick::thumbnailImage »](imagick.thumbnailimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Змінює окремі пікселі на основі порогового значення
     

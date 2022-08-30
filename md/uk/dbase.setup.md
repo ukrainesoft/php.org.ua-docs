@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.dbase.html)
     
--   [Требования »](dbase.requirements.html)
+-   [Вимоги »](dbase.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](dbase.requirements.html)
+-   [Вимоги](dbase.requirements.html)
 -   [Установка](dbase.installation.html)
--   [Настройка во время выполнения](dbase.configuration.html)
--   [Типы ресурсов](dbase.resources.html)
+-   [Налаштування під час виконання](dbase.configuration.html)
+-   [Типи ресурсів](dbase.resources.html)

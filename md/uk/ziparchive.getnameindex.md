@@ -1,12 +1,12 @@
 Повертає ім'я елемента за його індексом
 
--   [« ZipArchive::getFromName](ziparchive.getfromname.html)
+-   [« ZipArchive::getFromName](ziparchive.getfromname.md)
     
--   [ZipArchive::getStatusString »](ziparchive.getstatusstring.html)
+-   [ZipArchive::getStatusString »](ziparchive.getstatusstring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Повертає ім'я елемента за його індексом
     

@@ -1,12 +1,12 @@
 Повертає попередження та помилки
 
--   [« DateTime::createFromInterface](datetime.createfrominterface.html)
+-   [« DateTime::createFromInterface](datetime.createfrominterface.md)
     
--   [DateTime::modify »](datetime.modify.html)
+-   [DateTime::modify »](datetime.modify.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTime](class.datetime.html)
+-   [DateTime](class.datetime.md)
     
 -   Повертає попередження та помилки
     
@@ -33,7 +33,7 @@ public static DateTime::getLastErrors(): array|false
 date_get_last_errors(): array|false
 ```
 
-Подібний до методу [DateTimeImmutable::getLastErrors()](datetimeimmutable.getlasterrors.html), крім роботи з об'єктом [DateTime](class.datetime.html)
+Подібний до методу [DateTimeImmutable::getLastErrors()](datetimeimmutable.getlasterrors.md), крім роботи з об'єктом [DateTime](class.datetime.md)
 
 ### Список параметрів
 
@@ -45,4 +45,4 @@ date_get_last_errors(): array|false
 
 ### Дивіться також
 
--   [DateTimeImmutable::getLastErrors()](datetimeimmutable.getlasterrors.html) - Повертає попередження та помилки
+-   [DateTimeImmutable::getLastErrors()](datetimeimmutable.getlasterrors.md) - Повертає попередження та помилки

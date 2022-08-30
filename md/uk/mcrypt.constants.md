@@ -1,8 +1,8 @@
 Обумовлені константи
 
--   [« Типы ресурсов](mcrypt.resources.html)
+-   [« Типи ресурсів](mcrypt.resources.html)
     
--   [Шифры Mcrypt »](mcrypt.ciphers.html)
+-   [Шифри Mcrypt »](mcrypt.ciphers.html)
     
 -   [PHP Manual](index.html)
     

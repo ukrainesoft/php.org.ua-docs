@@ -1,12 +1,12 @@
 Встановити параметр конфігурації на поточному екземплярі varnish
 
--   [« VarnishAdmin::setIdent](varnishadmin.setident.html)
+-   [« VarnishAdmin::setIdent](varnishadmin.setident.md)
     
--   [VarnishAdmin::setPort »](varnishadmin.setport.html)
+-   [VarnishAdmin::setPort »](varnishadmin.setport.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [VarnishAdmin](class.varnishadmin.html)
+-   [VarnishAdmin](class.varnishadmin.md)
     
 -   Встановити параметр конфігурації на поточному екземплярі varnish
     

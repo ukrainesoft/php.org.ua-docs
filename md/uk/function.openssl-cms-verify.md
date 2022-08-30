@@ -4,9 +4,9 @@
     
 -   [opensslcsrexportтоfile »](function.openssl-csr-export-to-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Перевіряє підпис CMS
     

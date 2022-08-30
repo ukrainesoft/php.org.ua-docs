@@ -1,12 +1,12 @@
 Встановити час очікування простою
 
--   [« ZMQDevice::setIdleCallback](zmqdevice.setidlecallback.html)
+-   [« ZMQDevice::setIdleCallback](zmqdevice.setidlecallback.md)
     
--   [ZMQDevice::setTimerCallback »](zmqdevice.settimercallback.html)
+-   [ZMQDevice::setTimerCallback »](zmqdevice.settimercallback.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQDevice](class.zmqdevice.html)
+-   [ZMQDevice](class.zmqdevice.md)
     
 -   Встановити час очікування простою
     

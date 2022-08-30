@@ -4,9 +4,9 @@
     
 -   [mcryptmodulegetsupportedkeysizes »](function.mcrypt-module-get-supported-key-sizes.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](ref.mcrypt.html)
+-   [Mcrypt](ref.mcrypt.md)
     
 -   Повертає максимальний розмір ключа відкритого режиму
     

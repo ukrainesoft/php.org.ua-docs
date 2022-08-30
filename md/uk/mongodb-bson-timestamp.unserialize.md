@@ -43,4 +43,4 @@ final public MongoDB\BSON\Timestamp::unserialize(string $serialized): void
 
 -   [MongoDBBSONTimestamp::serialize()](mongodb-bson-timestamp.serialize.html) - Серіалізує Timestamp
 -   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [Серіалізація об'єктів](language.oop5.serialization.html)

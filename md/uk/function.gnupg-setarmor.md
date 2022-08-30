@@ -4,9 +4,9 @@
     
 -   [gnupgseterrormode »](function.gnupg-seterrormode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GnuPG Функції](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.md)
     
 -   Перемикає висновок у текстовому чи бінарному режимі
     

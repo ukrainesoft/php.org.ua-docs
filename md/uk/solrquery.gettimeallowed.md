@@ -1,12 +1,12 @@
 Повертає час у мілісекундах, дозволений для завершення запиту
 
--   [« SolrQuery::getTermsUpperBound](solrquery.gettermsupperbound.html)
+-   [« SolrQuery::getTermsUpperBound](solrquery.gettermsupperbound.md)
     
--   [SolrQuery::removeExpandFilterQuery »](solrquery.removeexpandfilterquery.html)
+-   [SolrQuery::removeExpandFilterQuery »](solrquery.removeexpandfilterquery.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає час у мілісекундах, дозволений для завершення запиту
     

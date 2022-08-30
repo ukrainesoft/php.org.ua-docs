@@ -1,12 +1,12 @@
 Отримує результати трасування стека у вигляді рядка
 
--   [« Throwable::getTrace](throwable.gettrace.html)
+-   [« Throwable::getTrace](throwable.gettrace.md)
     
--   [Throwable::getPrevious »](throwable.getprevious.html)
+-   [Throwable::getPrevious »](throwable.getprevious.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Throwable](class.throwable.html)
+-   [Throwable](class.throwable.md)
     
 -   Отримує результати трасування стека у вигляді рядка
     
@@ -33,4 +33,4 @@ public Throwable::getTraceAsString(): string
 
 ### Дивіться також
 
--   [Exception::getTraceAsString()](exception.gettraceasstring.html) - Отримує трасування стека у вигляді рядка
+-   [Exception::getTraceAsString()](exception.gettraceasstring.md) - Отримує трасування стека у вигляді рядка

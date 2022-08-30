@@ -49,12 +49,12 @@ win32_stop_service(string $servicename, string $machine = ?): void
 
 ### список змін
 
-| Версия                  | Описание                                                                                                                                                              |
-|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) при некоректних даних у параметрах, що раніше поверталося **`false`**                                                     |
+| Версия | Описание |
+| --- | --- |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) при некоректних даних у параметрах, що раніше поверталося **`false`** |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.html) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.html) |
-| PECL win32service 1.0.0 | Тип значення, що повертається void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed)                                            |
-| PECL win32service 0.3.0 | Ця функція більше не потребує привілею адміністратора, якщо коректно налаштовано ACL для користувача, що використовується.                                            |
+| PECL win32service 1.0.0 | Тип значення, що повертається void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
+| PECL win32service 0.3.0 | Ця функція більше не потребує привілею адміністратора, якщо коректно налаштовано ACL для користувача, що використовується. |
 
 ### Дивіться також
 
@@ -62,4 +62,4 @@ win32_stop_service(string $servicename, string $machine = ?): void
 -   [win32pauseservice()](function.win32-pause-service.html) - зупиняє службу
 -   [win32continueservice()](function.win32-continue-service.html) - Відновлює роботу зупиненої служби
 -   [win32sendcustomcontrol()](function.win32-send-custom-control.html) - Відправляє налаштований елемент керування до служби
--   [Коды Ошибок Win32](win32service.constants.errors.html)
+-   [Коди Помилок Win32](win32service.constants.errors.html)

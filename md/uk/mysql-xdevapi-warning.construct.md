@@ -2,9 +2,9 @@
 
 -   [« mysqlxdevapiWarning](class.mysql-xdevapi-warning.html)
     
--   [MySQL (Original) »](book.mysql.html)
+-   [MySQL (Original) »](book.mysql.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiWarning](class.mysql-xdevapi-warning.html)
     

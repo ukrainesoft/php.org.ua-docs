@@ -4,9 +4,9 @@
     
 -   [gmppow »](function.gmp-pow.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GMP Функції](ref.gmp.html)
+-   [GMP Функції](ref.gmp.md)
     
 -   Кількість одиниць у двійковому записі числа
     
@@ -29,7 +29,7 @@ gmp_popcount(GMP|int|string $num): int
 
 `num`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 

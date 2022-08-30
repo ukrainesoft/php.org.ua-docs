@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Описание синтаксиса Perl-совместимых регулярных выражений](reference.pcre.pattern.syntax.html)
+-   [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.html)
     
 -   Метасимвол крапка
     

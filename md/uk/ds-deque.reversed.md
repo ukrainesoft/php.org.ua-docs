@@ -4,7 +4,7 @@
     
 -   [ДсDeque::rotate »](ds-deque.rotate.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Двостороння черга](class.ds-deque.html)
     

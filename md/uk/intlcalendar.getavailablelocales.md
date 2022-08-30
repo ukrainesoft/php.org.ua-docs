@@ -1,12 +1,12 @@
 Отримує масив мовних стандартів, для яких є дані
 
--   [« IntlCalendar::getActualMinimum](intlcalendar.getactualminimum.html)
+-   [« IntlCalendar::getActualMinimum](intlcalendar.getactualminimum.md)
     
--   [IntlCalendar::getDayOfWeekType »](intlcalendar.getdayofweektype.html)
+-   [IntlCalendar::getDayOfWeekType »](intlcalendar.getdayofweektype.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Отримує масив мовних стандартів, для яких є дані
     

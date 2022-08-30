@@ -4,7 +4,7 @@
     
 -   [CollectionFind::sort »](mysql-xdevapi-collectionfind.sort.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
     

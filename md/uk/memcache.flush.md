@@ -1,12 +1,12 @@
 Скинути всі існуючі елементи на сервер
 
--   [« Memcache::delete](memcache.delete.html)
+-   [« Memcache::delete](memcache.delete.md)
     
--   [Memcache::get »](memcache.get.html)
+-   [Memcache::get »](memcache.get.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcache](class.memcache.html)
+-   [Memcache](class.memcache.md)
     
 -   Скинути всі існуючі елементи на сервер
     

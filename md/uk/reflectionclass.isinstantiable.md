@@ -1,12 +1,12 @@
 Перевіряє, чи можна створити екземпляр класу
 
--   [« ReflectionClass::isInstance](reflectionclass.isinstance.html)
+-   [« ReflectionClass::isInstance](reflectionclass.isinstance.md)
     
--   [ReflectionClass::isInterface »](reflectionclass.isinterface.html)
+-   [ReflectionClass::isInterface »](reflectionclass.isinterface.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Перевіряє, чи можна створити екземпляр класу
     
@@ -99,4 +99,4 @@ foreach($classes  as $class ) {
 
 ### Дивіться також
 
--   [ReflectionClass::isInstance()](reflectionclass.isinstance.html) - Перевіряє, чи належить об'єкт класу
+-   [ReflectionClass::isInstance()](reflectionclass.isinstance.md) - Перевіряє, чи належить об'єкт класу

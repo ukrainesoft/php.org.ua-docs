@@ -1,12 +1,12 @@
 Налаштовує спостерігача
 
--   [« EvStat::prev](evstat.prev.html)
+-   [« EvStat::prev](evstat.prev.md)
     
--   [EvStat::stat »](evstat.stat.html)
+-   [EvStat::stat »](evstat.stat.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvStat](class.evstat.html)
+-   [EvStat](class.evstat.md)
     
 -   Налаштовує спостерігача
     

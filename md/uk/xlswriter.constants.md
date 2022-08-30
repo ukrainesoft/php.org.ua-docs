@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](xlswriter.resources.html)
+-   [« Типи ресурсів](xlswriter.resources.html)
     
 -   [VtifulKernelExcel »](class.vtiful-kernel-excel.html)
     

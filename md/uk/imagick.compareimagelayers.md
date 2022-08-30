@@ -1,12 +1,12 @@
 Повертає максимальну область, що обмежує між зображеннями
 
--   [« Imagick::compareImageChannels](imagick.compareimagechannels.html)
+-   [« Imagick::compareImageChannels](imagick.compareimagechannels.md)
     
--   [Imagick::compareImages »](imagick.compareimages.html)
+-   [Imagick::compareImages »](imagick.compareimages.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає максимальну область, що обмежує між зображеннями
     
@@ -59,6 +59,6 @@ $result = $im->compareImageLayers(imagick::LAYERMETHOD_COALESCE);
 
 ### Дивіться також
 
--   [Imagick::optimizeImageLayers()](imagick.optimizeimagelayers.html) - Видаляє повторювані частини зображень для оптимізації
--   [Imagick::writeImages()](imagick.writeimages.html) - Записує зображення або послідовність зображень
--   [Imagick::writeImage()](imagick.writeimage.html) - Записує зображення за вказаним ім'ям файлу
+-   [Imagick::optimizeImageLayers()](imagick.optimizeimagelayers.md) - Видаляє повторювані частини зображень для оптимізації
+-   [Imagick::writeImages()](imagick.writeimages.md) - Записує зображення або послідовність зображень
+-   [Imagick::writeImage()](imagick.writeimage.md) - Записує зображення за вказаним ім'ям файлу

@@ -2,11 +2,11 @@
 
 -   [« Установка](scoutapm.installation.html)
     
--   [Предопределённые константы »](scoutapm.constants.html)
+-   [Обумовлені константи »](scoutapm.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](scoutapm.setup.html)
+-   [Встановлення та налаштування](scoutapm.setup.html)
     
 -   Налаштування під час виконання
     

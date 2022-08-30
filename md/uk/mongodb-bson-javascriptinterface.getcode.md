@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONJavascriptInterface::getScope »](mongodb-bson-javascriptinterface.getscope.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONJavascriptInterface](class.mongodb-bson-javascriptinterface.html)
     

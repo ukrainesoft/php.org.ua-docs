@@ -14,11 +14,11 @@ pthreads
 # pthreads
 
 -   [Введение](intro.pthreads.html)
--   [Установка и настройка](pthreads.setup.html)
-    -   [Требования](pthreads.requirements.html)
+-   [Встановлення та налаштування](pthreads.setup.html)
+    -   [Вимоги](pthreads.requirements.html)
     -   [Установка](pthreads.installation.html)
-    -   [Настройка во время выполнения](pthreads.configuration.html)
--   [Предопределённые константы](pthreads.constants.html)
+    -   [Налаштування під час виконання](pthreads.configuration.html)
+-   [Обумовлені константи](pthreads.constants.html)
 -   [Threaded](class.threaded.html) - Клас Threaded
     -   [Threaded::chunk](threaded.chunk.html) - Обробка
     -   [Threaded::count](threaded.count.html) - Обробка

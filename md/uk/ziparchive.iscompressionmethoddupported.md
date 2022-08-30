@@ -1,12 +1,12 @@
 Перевіряє, чи підтримується метод стиснення libzip
 
--   [« ZipArchive::getStreamName](ziparchive.getstreamname.html)
+-   [« ZipArchive::getStreamName](ziparchive.getstreamname.md)
     
--   [ZipArchive::isEncryptionMethodSupported »](ziparchive.isencryptionmethoddupported.html)
+-   [ZipArchive::isEncryptionMethodSupported »](ziparchive.isencryptionmethoddupported.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Перевіряє, чи підтримується метод стиснення libzip
     
@@ -47,5 +47,5 @@ public static ZipArchive::isCompressionMethodSupported(int $method, bool $enc = 
 
 ### Дивіться також
 
--   [ZipArchive::setCompressionIndex()](ziparchive.setcompressionindex.html) - Встановити метод стиснення запису, заданого його індексом
--   [ZipArchive::setCompressionName()](ziparchive.setcompressionname.html) - Встановити метод стиснення запису, заданого на ім'я
+-   [ZipArchive::setCompressionIndex()](ziparchive.setcompressionindex.md) - Встановити метод стиснення запису, заданого його індексом
+-   [ZipArchive::setCompressionName()](ziparchive.setcompressionname.md) - Встановити метод стиснення запису, заданого на ім'я

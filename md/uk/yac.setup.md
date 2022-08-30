@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.yac.html)
+-   [« Введение](intro.yac.md)
     
--   [Требования »](yac.requirements.html)
+-   [Вимоги »](yac.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yac](book.yac.html)
+-   [Yac](book.yac.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](yac.requirements.html)
--   [Установка](yac.installation.html)
--   [Настройка во время выполнения](yac.configuration.html)
--   [Типы ресурсов](yac.resources.html)
+-   [Вимоги](yac.requirements.md)
+-   [Установка](yac.installation.md)
+-   [Налаштування під час виконання](yac.configuration.md)
+-   [Типи ресурсів](yac.resources.md)

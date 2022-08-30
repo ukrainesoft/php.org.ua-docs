@@ -1,12 +1,12 @@
 Конструктор об'єкта циклу подій
 
--   [« EvLoop::child](evloop.child.html)
+-   [« EvLoop::child](evloop.child.md)
     
--   [EvLoop::defaultLoop »](evloop.defaultloop.html)
+-   [EvLoop::defaultLoop »](evloop.defaultloop.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvLoop](class.evloop.html)
+-   [EvLoop](class.evloop.md)
     
 -   Конструктор об'єкта циклу подій
     
@@ -31,7 +31,7 @@ float `$timeout_interval`
 
 `flags`
 
-Один з [флагов цикла событий](class.ev.html#ev.constants.loop-flags)
+Один з [прапори циклу подій](class.ev.html#ev.constants.loop-flags)
 
 `data`
 
@@ -47,4 +47,4 @@ float `$timeout_interval`
 
 ### Дивіться також
 
--   [EvLoop::defaultLoop()](evloop.defaultloop.html) - Повертає або створює цикл подій за умовчанням
+-   [EvLoop::defaultLoop()](evloop.defaultloop.md) - Повертає або створює цикл подій за умовчанням

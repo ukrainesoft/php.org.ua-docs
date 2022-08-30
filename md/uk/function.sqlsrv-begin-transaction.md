@@ -1,12 +1,12 @@
 Розпочинає транзакцію бази даних
 
--   [« Функції SQLSRV](ref.sqlsrv.html)
+-   [« Функції SQLSRV](ref.sqlsrv.md)
     
 -   [sqlsrvcancel »](function.sqlsrv-cancel.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.md)
     
 -   Розпочинає транзакцію бази даних
     

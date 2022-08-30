@@ -1,12 +1,12 @@
 Додає інше поле до фасету
 
--   [« SolrQuery::addFacetDateOther](solrquery.addfacetdateother.html)
+-   [« SolrQuery::addFacetDateOther](solrquery.addfacetdateother.md)
     
--   [SolrQuery::addFacetQuery »](solrquery.addfacetquery.html)
+-   [SolrQuery::addFacetQuery »](solrquery.addfacetquery.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Додає інше поле до фасету
     

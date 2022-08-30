@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](tokenizer.installation.html)
+-   [« Установка](tokenizer.installation.md)
     
--   [Типы ресурсов »](tokenizer.resources.html)
+-   [Типи ресурсів »](tokenizer.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](tokenizer.setup.html)
+-   [Встановлення та налаштування](tokenizer.setup.md)
     
 -   Налаштування під час виконання
     

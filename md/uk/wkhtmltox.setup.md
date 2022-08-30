@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.wkhtmltox.html)
+-   [« Введение](intro.wkhtmltox.md)
     
--   [Требования »](wkhtmltox.requirements.html)
+-   [Вимоги »](wkhtmltox.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [wkhtmltox](book.wkhtmltox.html)
+-   [wkhtmltox](book.wkhtmltox.md)
     
 -   Встановлення та налаштування
     
@@ -15,6 +15,6 @@
 
 ## Зміст
 
--   [Требования](wkhtmltox.requirements.html)
--   [Установка](wkhtmltox.installation.html)
--   [Настройка во время выполнения](wkhtmltox.configuration.html)
+-   [Вимоги](wkhtmltox.requirements.md)
+-   [Установка](wkhtmltox.installation.md)
+-   [Налаштування під час виконання](wkhtmltox.configuration.md)

@@ -1,12 +1,12 @@
 Тестування навчальних параметрів на підмножинах навчальних даних
 
--   [« SVM::construct](svm.construct.html)
+-   [« SVM::construct](svm.construct.md)
     
--   [SVM::getOptions »](svm.getoptions.html)
+-   [SVM::getOptions »](svm.getoptions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SVM](class.svm.html)
+-   [SVM](class.svm.md)
     
 -   Тестування навчальних параметрів на підмножинах навчальних даних
     
@@ -41,4 +41,4 @@ public svm::crossvalidate(array $problem, int $number_of_folds): float
 
 ### Дивіться також
 
--   [SVM::train()](svm.train.html) - Створити SVMModel на основі навчальних даних
+-   [SVM::train()](svm.train.md) - Створити SVMModel на основі навчальних даних

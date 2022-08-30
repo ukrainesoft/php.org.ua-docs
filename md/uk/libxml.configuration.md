@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](libxml.installation.html)
+-   [« Установка](libxml.installation.md)
     
--   [Типы ресурсов »](libxml.resources.html)
+-   [Типи ресурсів »](libxml.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](libxml.setup.html)
+-   [Встановлення та налаштування](libxml.setup.md)
     
 -   Налаштування під час виконання
     

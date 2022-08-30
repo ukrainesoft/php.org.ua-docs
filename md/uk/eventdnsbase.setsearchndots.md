@@ -1,12 +1,12 @@
 Встановлює параметр 'ndots' для пошуку
 
--   [« EventDnsBase::setOption](eventdnsbase.setoption.html)
+-   [« EventDnsBase::setOption](eventdnsbase.setoption.md)
     
--   [EventHttp »](class.eventhttp.html)
+-   [EventHttp »](class.eventhttp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventDnsBase](class.eventdnsbase.html)
+-   [EventDnsBase](class.eventdnsbase.md)
     
 -   Встановлює параметр 'ndots' для пошуку
     

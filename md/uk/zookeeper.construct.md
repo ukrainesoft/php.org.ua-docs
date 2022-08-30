@@ -1,12 +1,12 @@
 Створює дескриптор для спілкування з zookeeper
 
--   [« Zookeeper::connect](zookeeper.connect.html)
+-   [« Zookeeper::connect](zookeeper.connect.md)
     
--   [Zookeeper::create »](zookeeper.create.html)
+-   [Zookeeper::create »](zookeeper.create.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Zookeeper](class.zookeeper.html)
+-   [Zookeeper](class.zookeeper.md)
     
 -   Створює дескриптор для спілкування з zookeeper
     
@@ -19,7 +19,7 @@ Zookeeper::construct — Створює дескриптор для спілку
 
 ### Опис
 
-public **Zookeeper::construct**(string `$host` [callable](language.types.callable.html) `$watcher_cb` **`null`**, int `$recv_timeout`
+public **Zookeeper::construct**(string `$host` [callable](language.types.callable.md) `$watcher_cb` **`null`**, int `$recv_timeout`
 
 Метод створює новий дескриптор та сеанс zookeeper, який відповідає цьому дескриптору. Встановлення сеансу асинхронне, тому сеанс не слід вважати встановленим доти, доки не буде отримано подію стану ZOOCONNECTEDSTATE.
 
@@ -43,9 +43,9 @@ Callback – функція глобального спостерігача. К�
 
 **Застереження**
 
-Починаючи з версії 0.3.0, метод викидає виняток [ZookeeperException](class.zookeeperexception.html) та його похідні.
+Починаючи з версії 0.3.0, метод викидає виняток [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Дивіться також
 
--   [Zookeeper::connect()](zookeeper.connect.html) - Створює дескриптор для спілкування з zookeeper
--   [ZookeeperException](class.zookeeperexception.html)
+-   [Zookeeper::connect()](zookeeper.connect.md) - Створює дескриптор для спілкування з zookeeper
+-   [ZookeeperException](class.zookeeperexception.md)

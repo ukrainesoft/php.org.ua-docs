@@ -1,12 +1,12 @@
 Перевірити, чи символ ігнорується
 
--   [« IntlChar::isgraph](intlchar.isgraph.html)
+-   [« IntlChar::isgraph](intlchar.isgraph.md)
     
--   [IntlChar::isIDPart »](intlchar.isidpart.html)
+-   [IntlChar::isIDPart »](intlchar.isidpart.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити, чи символ ігнорується
     
@@ -63,6 +63,6 @@ bool(true)
 
 ### Дивіться також
 
--   [IntlChar::isIDStart()](intlchar.isidstart.html) - Перевірити, чи можна використовувати символ на початку ідентифікатора
--   [IntlChar::isIDPart()](intlchar.isidpart.html) - Перевірити, чи можна використовувати символ в ідентифікаторі
+-   [IntlChar::isIDStart()](intlchar.isidstart.md) - Перевірити, чи можна використовувати символ на початку ідентифікатора
+-   [IntlChar::isIDPart()](intlchar.isidpart.md) - Перевірити, чи можна використовувати символ в ідентифікаторі
 -   **`IntlChar::PROPERTY_DEFAULT_IGNORABLE_CODE_POINT`**

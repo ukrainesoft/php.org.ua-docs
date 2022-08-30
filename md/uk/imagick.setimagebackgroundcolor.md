@@ -1,12 +1,12 @@
 Встановлює колір тла зображення
 
--   [« Imagick::setImageAttribute](imagick.setimageattribute.html)
+-   [« Imagick::setImageAttribute](imagick.setimageattribute.md)
     
--   [Imagick::setImageBias »](imagick.setimagebias.html)
+-   [Imagick::setImageBias »](imagick.setimagebias.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює колір тла зображення
     
@@ -39,6 +39,6 @@ public Imagick::setImageBackgroundColor(mixed $background): bool
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                      |
-|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL imagick 2.1.0 | Тепер дозволяє використовувати рядок, що представляє колір, як параметр. Попередні версії дозволяли використовувати лише об'єкт ImagickPixel. |

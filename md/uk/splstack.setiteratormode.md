@@ -1,12 +1,12 @@
 Встановлює режим ітератора
 
--   [« SplStack::construct](splstack.construct.html)
+-   [« SplStack::construct](splstack.construct.md)
     
--   [SplQueue »](class.splqueue.html)
+-   [SplQueue »](class.splqueue.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplStack](class.splstack.html)
+-   [SplStack](class.splstack.md)
     
 -   Встановлює режим ітератора
     
@@ -37,7 +37,7 @@ public SplStack::setIteratorMode(int $mode): void
 
 **Увага**
 
-Напрямок ітерації не можна змінити для об'єктів SplStack. Спроба зробити це призведе до того, що буде викинуто [RuntimeException](class.runtimeexception.html)
+Напрямок ітерації не можна змінити для об'єктів SplStack. Спроба зробити це призведе до того, що буде викинуто [RuntimeException](class.runtimeexception.md)
 
 ### Значення, що повертаються
 

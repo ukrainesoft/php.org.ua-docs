@@ -1,12 +1,12 @@
 Повертає поточну позначку часу Unix з мікросекундами
 
--   [« localtime](function.localtime.html)
+-   [« localtime](function.localtime.md)
     
--   [mktime »](function.mktime.html)
+-   [mktime »](function.mktime.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Повертає поточну позначку часу Unix з мікросекундами
     
@@ -25,7 +25,7 @@ microtime(bool $as_float = false): string|float
 
 Функція **microtime()** повертає поточну позначку часу Unix з мікросекундами. Ця функція доступна лише на операційних системах, у яких є системний виклик gettimeofday().
 
-Для вимірювання продуктивності рекомендується використовувати [hrtime()](function.hrtime.html)
+Для вимірювання продуктивності рекомендується використовувати [hrtime()](function.hrtime.md)
 
 ### Список параметрів
 
@@ -64,7 +64,7 @@ echo "Ничего не делал $time секунд\n";
 // Выбираем время сна случайным образом
 usleep(mt_rand(100, 10000));
 
-// В суперглобальном массиве $_SERVER доступно значение REQUEST_TIME_FLOAT.
+// В суперглобальном Масиве $_SERVER доступно значение REQUEST_TIME_FLOAT.
 // Оно содержит временную метку начала запроса с точностью до микросекунд.
 $time = microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"];
 
@@ -74,5 +74,5 @@ echo "Ничего не делал $time секунд\n";
 
 ### Дивіться також
 
--   [time()](function.time.html) - Повертає поточну мітку системного часу Unix
--   [hrtime()](function.hrtime.html) - Отримати системний час високого дозволу
+-   [time()](function.time.md) - Повертає поточну мітку системного часу Unix
+-   [hrtime()](function.hrtime.md) - Отримати системний час високого дозволу

@@ -1,8 +1,8 @@
 Керуючі об'єкти LDAP
 
--   [« Использование вызовов PHP LDAP](ldap.using.html)
+-   [« Використання дзвінків PHP LDAP](ldap.using.html)
     
--   [Примеры »](ldap.examples.html)
+-   [Приклади »](ldap.examples.html)
     
 -   [PHP Manual](index.html)
     
@@ -40,7 +40,7 @@
 
 oid (string)
 
-OID об'єкта, що управляє. Використовуйте константи LDAPCONTROL. Дивіться [константы LDAP](ldap.constants.html)
+OID об'єкта, що управляє. Використовуйте константи LDAPCONTROL. Дивіться [константи LDAP](ldap.constants.html)
 
 iscritical (bool)
 

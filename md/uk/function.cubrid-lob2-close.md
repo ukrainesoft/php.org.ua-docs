@@ -4,9 +4,9 @@
     
 -   [cubridlob2export »](function.cubrid-lob2-export.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Закриває об'єкт LOB
     

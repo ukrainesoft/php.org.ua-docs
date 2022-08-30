@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONJavascript::serialize »](mongodb-bson-javascript.serialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
     
@@ -39,8 +39,8 @@ final public MongoDB\BSON\Javascript::jsonSerialize(): mixed
 
 ### Дивіться також
 
--   [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.html) - Задає дані, які мають бути серіалізовані у JSON
+-   [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md) - Задає дані, які мають бути серіалізовані у JSON
 -   [jsonencode()](function.json-encode.html) - Повертає JSON-подання даних
 -   [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.html) - Повертає Canonical Extended JSON подання для значення BSON
 -   [MongoDBBSONtoRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.html) - Повертає Relaxed Extended JSON подання значення BSON
--   [» Расширенный JSON MongoDB](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+-   [» Розширений JSON MongoDB](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)

@@ -1,12 +1,12 @@
 Повертає всі послідовності зображень у вигляді великого двійкового об'єкта
 
--   [« Imagick::getImageResolution](imagick.getimageresolution.html)
+-   [« Imagick::getImageResolution](imagick.getimageresolution.md)
     
--   [Imagick::getImageScene »](imagick.getimagescene.html)
+-   [Imagick::getImageScene »](imagick.getimagescene.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає всі послідовності зображень у вигляді великого двійкового об'єкта
     

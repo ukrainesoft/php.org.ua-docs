@@ -4,9 +4,9 @@
     
 -   [SwooleAtomic::add »](swoole-atomic.add.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Swoole](book.swoole.html)
+-   [Swoole](book.swoole.md)
     
 -   Клас SwooleAtomic
     

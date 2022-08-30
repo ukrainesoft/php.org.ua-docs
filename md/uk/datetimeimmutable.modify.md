@@ -1,12 +1,12 @@
 Створює новий об'єкт із зміненою тимчасовою міткою
 
--   [« DateTimeImmutable::getLastErrors](datetimeimmutable.getlasterrors.html)
+-   [« DateTimeImmutable::getLastErrors](datetimeimmutable.getlasterrors.md)
     
 -   [DateTimeImmutable::setstate »](datetimeimmutable.set-state.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTimeImmutable](class.datetimeimmutable.html)
+-   [DateTimeImmutable](class.datetimeimmutable.md)
     
 -   Створює новий об'єкт із зміненою тимчасовою міткою
     
@@ -23,13 +23,13 @@ DateTimeImmutable::modify — Створює новий об'єкт із змі�
 public DateTimeImmutable::modify(string $modifier): DateTimeImmutable|false
 ```
 
-Створює новий об'єкт [DateTimeImmutable](class.datetimeimmutable.html) зі зміненою тимчасовою міткою. Початковий об'єкт не змінюється.
+Створює новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) зі зміненою тимчасовою міткою. Початковий об'єкт не змінюється.
 
 ### Список параметрів
 
 `modifier`
 
-Рядок дати/часу. Пояснення коректних форматів наведено в розділі [Форматы даты и времени](datetime.formats.html)
+Рядок дати/часу. Пояснення коректних форматів наведено в розділі [Формати дати та часу](datetime.formats.md)
 
 ### Значення, що повертаються
 
@@ -78,9 +78,9 @@ echo $newDate2->format('Y-m-d') . "\n";
 
 ### Дивіться також
 
--   [DateTimeImmutable::add()](datetimeimmutable.add.html) - Повертає новий об'єкт з доданою кількістю днів, місяців, років, годин, хвилин та секунд
--   [DateTimeImmutable::sub()](datetimeimmutable.sub.html) - Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд
--   [DateTimeImmutable::setDate()](datetimeimmutable.setdate.html) - Встановлює дату
--   [DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.html) - Встановлює дату у форматі ISO
--   [DateTimeImmutable::setTime()](datetimeimmutable.settime.html) - Встановлює час
--   [DateTimeImmutable::setTimestamp()](datetimeimmutable.settimestamp.html) - Встановлює дату та час на основі мітки часу Unix
+-   [DateTimeImmutable::add()](datetimeimmutable.add.md) - Повертає новий об'єкт з доданою кількістю днів, місяців, років, годин, хвилин та секунд
+-   [DateTimeImmutable::sub()](datetimeimmutable.sub.md) - Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд
+-   [DateTimeImmutable::setDate()](datetimeimmutable.setdate.md) - Встановлює дату
+-   [DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.md) - Встановлює дату у форматі ISO
+-   [DateTimeImmutable::setTime()](datetimeimmutable.settime.md) - Встановлює час
+-   [DateTimeImmutable::setTimestamp()](datetimeimmutable.settimestamp.md) - Встановлює дату та час на основі мітки часу Unix

@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONJavascript::toString »](mongodb-bson-javascript.tostring.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
     
@@ -38,5 +38,5 @@ final public MongoDB\BSON\Javascript::serialize(): string
 ### Дивіться також
 
 -   [MongoDBBSONJavascript::unserialize()](mongodb-bson-javascript.unserialize.html) - Десеріалізувати JavaScript
--   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

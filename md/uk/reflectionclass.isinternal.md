@@ -1,12 +1,12 @@
 Перевіряє, чи є клас вбудованим у модуль чи ядро
 
--   [« ReflectionClass::isInterface](reflectionclass.isinterface.html)
+-   [« ReflectionClass::isInterface](reflectionclass.isinterface.md)
     
--   [ReflectionClass::isIterable »](reflectionclass.isiterable.html)
+-   [ReflectionClass::isIterable »](reflectionclass.isiterable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Перевіряє, чи є клас вбудованим у модуль чи ядро
     
@@ -58,4 +58,4 @@ bool(false)
 
 ### Дивіться також
 
--   [ReflectionClass::isUserDefined()](reflectionclass.isuserdefined.html) - Перевіряє, чи є клас для користувача
+-   [ReflectionClass::isUserDefined()](reflectionclass.isuserdefined.md) - Перевіряє, чи є клас для користувача

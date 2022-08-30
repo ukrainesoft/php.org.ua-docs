@@ -1,12 +1,12 @@
 Метод key()
 
--   [« EmptyIterator::current](emptyiterator.current.html)
+-   [« EmptyIterator::current](emptyiterator.current.md)
     
--   [EmptyIterator::next »](emptyiterator.next.html)
+-   [EmptyIterator::next »](emptyiterator.next.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EmptyIterator](class.emptyiterator.html)
+-   [EmptyIterator](class.emptyiterator.md)
     
 -   Метод key()
     
@@ -35,7 +35,7 @@ public EmptyIterator::key(): never
 
 ### Помилки
 
-Викликає виняток [Exception](class.exception.html) під час виклику.
+Викликає виняток [Exception](class.exception.md) під час виклику.
 
 ### Значення, що повертаються
 

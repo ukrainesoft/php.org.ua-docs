@@ -2,11 +2,11 @@
 
 -   [« mysqli::realquery](mysqli.real-query.html)
     
--   [mysqli::refresh »](mysqli.refresh.html)
+-   [mysqli::refresh »](mysqli.refresh.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Отримання результату асинхронного запиту
     
@@ -37,13 +37,13 @@ mysqli_reap_async_query(mysqli $mysql): mysqli_result|bool
 
 > **Зауваження**
 > 
-> Доступно лише з модулем [mysqlnd](book.mysqlnd.html)
+> Доступно лише з модулем [mysqlnd](book.mysqlnd.md)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -51,4 +51,4 @@ mysqli_reap_async_query(mysqli $mysql): mysqli_result|bool
 
 ### Дивіться також
 
--   [mysqlipoll()](mysqli.poll.html) - Опитування підключень
+-   [mysqlipoll()](mysqli.poll.md) - Опитування підключень

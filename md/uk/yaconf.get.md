@@ -1,12 +1,12 @@
 Вийняти елемент
 
--   [« Yaconf](class.yaconf.html)
+-   [« Yaconf](class.yaconf.md)
     
--   [Yaconf::has »](yaconf.has.html)
+-   [Yaconf::has »](yaconf.has.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yaconf](class.yaconf.html)
+-   [Yaconf](class.yaconf.md)
     
 -   Вийняти елемент
     

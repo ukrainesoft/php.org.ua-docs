@@ -1,12 +1,12 @@
 Додає новий дочірній вузол перед вказаним вузлом
 
--   [« DOMNode::hasChildNodes](domnode.haschildnodes.html)
+-   [« DOMNode::hasChildNodes](domnode.haschildnodes.md)
     
--   [DOMNode::isDefaultNamespace »](domnode.isdefaultnamespace.html)
+-   [DOMNode::isDefaultNamespace »](domnode.isdefaultnamespace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMNode](class.domnode.html)
+-   [DOMNode](class.domnode.md)
     
 -   Додає новий дочірній вузол перед вказаним вузлом
     
@@ -61,4 +61,4 @@ public DOMNode::insertBefore(DOMNode $node, ?DOMNode $child = null): DOMNode|fal
 
 ### Дивіться також
 
--   [DOMNode::appendChild()](domnode.appendchild.html) - Додає новий дочірній вузол до кінця списку нащадків
+-   [DOMNode::appendChild()](domnode.appendchild.md) - Додає новий дочірній вузол до кінця списку нащадків

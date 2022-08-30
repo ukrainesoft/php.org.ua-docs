@@ -4,9 +4,9 @@
     
 -   [MongoDBDriverServerDescription::getHelloResponse »](mongodb-driver-serverdescription.gethelloresponse.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBDriver](book.mongodb.html)
+-   [MongoDBDriver](book.mongodb.md)
     
 -   Клас MongoDBDriverServerDescription
     

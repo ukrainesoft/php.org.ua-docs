@@ -1,12 +1,12 @@
 Повертає значення за вказаним індексом
 
--   [« SplFixedArray::offsetExists](splfixedarray.offsetexists.html)
+-   [« SplFixedArray::offsetExists](splfixedarray.offsetexists.md)
     
--   [SplFixedArray::offsetSet »](splfixedarray.offsetset.html)
+-   [SplFixedArray::offsetSet »](splfixedarray.offsetset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFixedArray](class.splfixedarray.html)
+-   [SplFixedArray](class.splfixedarray.md)
     
 -   Повертає значення за вказаним індексом
     
@@ -37,4 +37,4 @@ public SplFixedArray::offsetGet(int $index): mixed
 
 ### Помилки
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), коли параметр `index` виходить за рамки заданого розміру масиву або коли `index` не можна розпізнати як ціле число.
+Викидає виняток [RuntimeException](class.runtimeexception.md), коли параметр `index` виходить за рамки заданого розміру масиву або коли `index` не можна розпізнати як ціле число.

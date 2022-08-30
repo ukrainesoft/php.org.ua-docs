@@ -4,7 +4,7 @@
     
 -   [DocResult::getWarningsCount »](mysql-xdevapi-docresult.getwarningscount.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiDocResult](class.mysql-xdevapi-docresult.html)
     

@@ -1,12 +1,12 @@
 Перевертає зображення, використовуючи вибраний режим
 
--   [« imagefilter](function.imagefilter.html)
+-   [« imagefilter](function.imagefilter.md)
     
--   [imagefontheight »](function.imagefontheight.html)
+-   [imagefontheight »](function.imagefontheight.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Перевертає зображення, використовуючи вибраний режим
     
@@ -29,17 +29,17 @@ imageflip(GdImage $image, int $mode): bool
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `mode`
 
 Режим перевороту - одна з констант **`IMG_FLIP_*`**
 
-| Константа                 | Описание                                             |
-|---------------------------|------------------------------------------------------|
-| **`IMG_FLIP_HORIZONTAL`** | Перевертає зображення по горизонталі.                |
-| **`IMG_FLIP_VERTICAL`**   | Перевертає зображення по вертикалі.                  |
-| **`IMG_FLIP_BOTH`**       | Перевертає зображення по горизонталі і по вертикалі. |
+| Константа | Описание |
+| --- | --- |
+| **`IMG_FLIP_HORIZONTAL`** | Перевертає зображення по горизонталі. |
+| **`IMG_FLIP_VERTICAL`** | Перевертає зображення по вертикалі. |
+| **`IMG_FLIP_BOTH`** | Перевертає зображення по горизонталі і по вертикалі. |
 
 ### Значення, що повертаються
 
@@ -47,9 +47,9 @@ imageflip(GdImage $image, int $mode): bool
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

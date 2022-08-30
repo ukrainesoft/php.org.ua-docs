@@ -1,12 +1,12 @@
 Встановити параметр
 
--   [« OAuthProvider::reportProblem](oauthprovider.reportproblem.html)
+-   [« OAuthProvider::reportProblem](oauthprovider.reportproblem.md)
     
--   [OAuthProvider::setRequestTokenPath »](oauthprovider.setrequesttokenpath.html)
+-   [OAuthProvider::setRequestTokenPath »](oauthprovider.setrequesttokenpath.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuthProvider](class.oauthprovider.html)
+-   [OAuthProvider](class.oauthprovider.md)
     
 -   Встановити параметр
     
@@ -47,4 +47,4 @@ final public OAuthProvider::setParam(string $param_key, mixed $param_val = ?): b
 
 ### Дивіться також
 
--   [OAuthProvider::addRequiredParameter()](oauthprovider.addrequiredparameter.html) - Додати необхідні параметри
+-   [OAuthProvider::addRequiredParameter()](oauthprovider.addrequiredparameter.md) - Додати необхідні параметри

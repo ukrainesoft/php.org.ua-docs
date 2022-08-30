@@ -4,9 +4,9 @@
     
 -   [MongoDBDriverCommand::construct »](mongodb-driver-command.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBDriver](book.mongodb.html)
+-   [MongoDBDriver](book.mongodb.md)
     
 -   Клас The MongoDBDriverCommand
     

@@ -4,9 +4,9 @@
     
 -   [ssh2authnone »](function.ssh2-auth-none.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Аутентифікація з використанням відкритого ключа хоста
     

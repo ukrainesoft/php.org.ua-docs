@@ -1,12 +1,12 @@
 Перевірити, чи клієнт вимкнено
 
--   [« Різні функції](ref.misc.html)
+-   [« Різні функції](ref.misc.md)
     
 -   [connectionstatus »](function.connection-status.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Різні функції](ref.misc.html)
+-   [Різні функції](ref.misc.md)
     
 -   Перевірити, чи клієнт вимкнено
     

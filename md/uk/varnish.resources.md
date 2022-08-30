@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](varnish.configuration.html)
+-   [« Налаштування під час виконання](varnish.configuration.html)
     
--   [Предопределённые константы »](varnish.constants.html)
+-   [Обумовлені константи »](varnish.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](varnish.setup.html)
+-   [Встановлення та налаштування](varnish.setup.html)
     
 -   Типи ресурсів
     

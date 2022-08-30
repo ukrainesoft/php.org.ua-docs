@@ -1,12 +1,12 @@
 Клас ZMQ
 
--   [« Требования](zmq.requirements.html)
+-   [« Вимоги](zmq.requirements.md)
     
--   [ZMQ::construct »](zmq.construct.html)
+-   [ZMQ::construct »](zmq.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Обмін повідомленнями 0MQ](book.zmq.html)
+-   [Обмін повідомленнями 0MQ](book.zmq.md)
     
 -   Клас ZMQ
     
@@ -509,4 +509,4 @@
 
 ## Зміст
 
--   [ZMQ::construct](zmq.construct.html) - Конструктор ZMQ
+-   [ZMQ::construct](zmq.construct.md) - Конструктор ZMQ

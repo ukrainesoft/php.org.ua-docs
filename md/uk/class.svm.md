@@ -1,12 +1,12 @@
 Клас SVM
 
--   [« Примеры](svm.examples.html)
+-   [« Приклади](svm.examples.md)
     
--   [SVM::construct »](svm.construct.html)
+-   [SVM::construct »](svm.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SVM](book.svm.html)
+-   [SVM](book.svm.md)
     
 -   Клас SVM
     
@@ -224,8 +224,8 @@ public svm::train(array $problem, array $weights = ?): SVMModel
 
 ## Зміст
 
--   [SVM::construct](svm.construct.html) - Конструктор класу SVM
--   [SVM::crossvalidate](svm.crossvalidate.html) — Тестування навчальних параметрів на підмножинах навчальних даних
--   [SVM::getOptions](svm.getoptions.html) — Отримати поточні параметри навчання
--   [SVM::setOptions](svm.setoptions.html) - Встановити параметри навчання
--   [SVM::train](svm.train.html) — Створити SVMModel на основі навчальних даних
+-   [SVM::construct](svm.construct.md) - Конструктор класу SVM
+-   [SVM::crossvalidate](svm.crossvalidate.md) — Тестування навчальних параметрів на підмножинах навчальних даних
+-   [SVM::getOptions](svm.getoptions.md) — Отримати поточні параметри навчання
+-   [SVM::setOptions](svm.setoptions.md) - Встановити параметри навчання
+-   [SVM::train](svm.train.md) — Створити SVMModel на основі навчальних даних

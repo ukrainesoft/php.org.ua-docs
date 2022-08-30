@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Установка на Unix-системы](install.unix.html)
+-   [Встановлення на Unix-системи](install.unix.html)
     
 -   Встановлення PHP на Lighttpd 1.4 на Unix-системах
     

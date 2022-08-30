@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.hash.html)
     
--   [Требования »](hash.requirements.html)
+-   [Вимоги »](hash.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](hash.requirements.html)
+-   [Вимоги](hash.requirements.html)
 -   [Установка](hash.installation.html)
--   [Настройка во время выполнения](hash.configuration.html)
--   [Типы ресурсов](hash.resources.html)
+-   [Налаштування під час виконання](hash.configuration.html)
+-   [Типи ресурсів](hash.resources.html)

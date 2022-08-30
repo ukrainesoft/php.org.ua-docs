@@ -1,12 +1,12 @@
 Конструктор Lua
 
--   [« Lua::call](lua.call.html)
+-   [« Lua::call](lua.call.md)
     
--   [Lua::eval »](lua.eval.html)
+-   [Lua::eval »](lua.eval.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Lua](class.lua.html)
+-   [Lua](class.lua.md)
     
 -   Конструктор Lua
     

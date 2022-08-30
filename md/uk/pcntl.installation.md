@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](pcntl.requirements.html)
+-   [« Вимоги](pcntl.requirements.md)
     
--   [Настройка во время выполнения »](pcntl.configuration.html)
+-   [Налаштування під час виконання »](pcntl.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](pcntl.setup.html)
+-   [Встановлення та налаштування](pcntl.setup.md)
     
 -   Встановлення
     

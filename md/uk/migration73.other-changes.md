@@ -1,6 +1,6 @@
 Інші зміни
 
--   [« Функционал, объявленный устаревшим в PHP 7.3.x](migration73.deprecated.html)
+-   [« Функціонал, оголошений застарілим у PHP 7.3.x](migration73.deprecated.html)
     
 -   [Поддержка Windows »](migration73.windows-support.html)
     

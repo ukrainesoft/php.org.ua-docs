@@ -1,12 +1,12 @@
 Встановлює максимальний розмір заголовка
 
--   [« EventHttpConnection::setMaxBodySize](eventhttpconnection.setmaxbodysize.html)
+-   [« EventHttpConnection::setMaxBodySize](eventhttpconnection.setmaxbodysize.md)
     
--   [EventHttpConnection::setRetries »](eventhttpconnection.setretries.html)
+-   [EventHttpConnection::setRetries »](eventhttpconnection.setretries.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpConnection](class.eventhttpconnection.html)
+-   [EventHttpConnection](class.eventhttpconnection.md)
     
 -   Встановлює максимальний розмір заголовка
     
@@ -41,4 +41,4 @@ public
 
 ### Дивіться також
 
--   [EventHttpConnection::setMaxBodySize()](eventhttpconnection.setmaxbodysize.html) - Встановлює максимальний розмір тіла для підключення
+-   [EventHttpConnection::setMaxBodySize()](eventhttpconnection.setmaxbodysize.md) - Встановлює максимальний розмір тіла для підключення

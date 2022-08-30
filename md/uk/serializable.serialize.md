@@ -1,12 +1,12 @@
 Представляє об'єкт у вигляді рядка
 
--   [« Serializable](class.serializable.html)
+-   [« Serializable](class.serializable.md)
     
--   [Serializable::unserialize »](serializable.unserialize.html)
+-   [Serializable::unserialize »](serializable.unserialize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Serializable](class.serializable.html)
+-   [Serializable](class.serializable.md)
     
 -   Представляє об'єкт у вигляді рядка
     
@@ -35,7 +35,7 @@ public Serializable::serialize(): ?string
 
 ### Помилки
 
-Викидає виняток [Exception](class.exception.html) при поверненні типів, відмінних від рядка або **`null`**
+Викидає виняток [Exception](class.exception.md) при поверненні типів, відмінних від рядка або **`null`**
 
 ### Дивіться також
 

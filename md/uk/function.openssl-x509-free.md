@@ -4,9 +4,9 @@
     
 -   [opensslx509parse »](function.openssl-x509-parse.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Вивільняє ресурс сертифіката
     
@@ -43,7 +43,7 @@ openssl_x509_free(OpenSSLCertificate $certificate): void
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                           |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Функція застаріла, оскільки не має сенсу.                                                                                                                                          |
-|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла, оскільки не має сенсу. |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |

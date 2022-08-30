@@ -1,12 +1,12 @@
 Функція заглушка (Phar::setStub не можна використовувати для PharData)
 
--   [« PharData::setSignatureAlgorithm](phardata.setsignaturealgorithm.html)
+-   [« PharData::setSignatureAlgorithm](phardata.setsignaturealgorithm.md)
     
--   [PharFileInfo »](class.pharfileinfo.html)
+-   [PharFileInfo »](class.pharfileinfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharData](class.phardata.html)
+-   [PharData](class.phardata.md)
     
 -   Функція заглушка (Phar::setStub не можна використовувати для PharData)
     
@@ -41,8 +41,8 @@ tar/zip-архіви, що не запускаються, не можуть ма
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.html)
+Викидає виняток [PharException](class.pharexception.md)
 
 ### Дивіться також
 
--   [Phar::setStub()](phar.setstub.html) - Встановити завантажувач або завантажувальну заглушку в Phar-архів
+-   [Phar::setStub()](phar.setstub.md) - Встановити завантажувач або завантажувальну заглушку в Phar-архів

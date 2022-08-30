@@ -1,12 +1,12 @@
 Вступ
 
--   [« OpenAL](book.openal.html)
+-   [« OpenAL](book.openal.md)
     
--   [Установка и настройка »](openal.setup.html)
+-   [Встановлення та налаштування »](openal.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OpenAL](book.openal.html)
+-   [OpenAL](book.openal.md)
     
 -   Вступ
     

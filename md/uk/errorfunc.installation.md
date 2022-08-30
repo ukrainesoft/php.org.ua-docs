@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](errorfunc.requirements.html)
+-   [« Вимоги](errorfunc.requirements.html)
     
--   [Настройка во время выполнения »](errorfunc.configuration.html)
+-   [Налаштування під час виконання »](errorfunc.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](errorfunc.setup.html)
+-   [Встановлення та налаштування](errorfunc.setup.html)
     
 -   Встановлення
     

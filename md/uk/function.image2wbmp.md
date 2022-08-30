@@ -2,11 +2,11 @@
 
 -   [« imagetypeтоmimetype](function.image-type-to-mime-type.html)
     
--   [imageaffine »](function.imageaffine.html)
+-   [imageaffine »](function.imageaffine.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Виводить зображення у браузер або пише у файл
     
@@ -33,7 +33,7 @@ image2wbmp(resource $image, string $filename = ?, int $foreground = ?): bool
 
 `image`
 
-Ресурс зображення, який повертається однією з функцій створення зображення, наприклад [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Ресурс зображення, який повертається однією з функцій створення зображення, наприклад [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `filename`
 
@@ -41,7 +41,7 @@ image2wbmp(resource $image, string $filename = ?, int $foreground = ?): bool
 
 `foreground`
 
-Ви можете встановити колір переднього плану за допомогою цього параметра, встановивши ідентифікатор, отриманий за допомогою [imagecolorallocate()](function.imagecolorallocate.html). Колір переднього плану за промовчанням чорний.
+Ви можете встановити колір переднього плану за допомогою цього параметра, встановивши ідентифікатор, отриманий за допомогою [imagecolorallocate()](function.imagecolorallocate.md). Колір переднього плану за промовчанням чорний.
 
 ### Значення, що повертаються
 
@@ -68,4 +68,4 @@ imagedestroy($image);
 
 ### Дивіться також
 
--   [imagewbmp()](function.imagewbmp.html) - Виводить зображення до браузера або пише у файл
+-   [imagewbmp()](function.imagewbmp.md) - Виводить зображення до браузера або пише у файл

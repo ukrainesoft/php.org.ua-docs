@@ -4,7 +4,7 @@
     
 -   [YafResponseAbstract::construct »](yaf-response-abstract.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafResponseAbstract](class.yaf-response-abstract.html)
     

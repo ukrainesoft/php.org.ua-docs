@@ -4,7 +4,7 @@
     
 -   [ComponereValue::setProtected »](componere-value.setprotected.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponereValue](class.componere-value.html)
     
@@ -31,4 +31,4 @@ public Componere\Value::setPrivate(): Value
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html)якщо рівень доступу був раніше встановлений
+Викидає виняток [RuntimeException](class.runtimeexception.md)якщо рівень доступу був раніше встановлений

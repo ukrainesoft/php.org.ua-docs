@@ -1,12 +1,12 @@
 Повертає непрозорість обведених контурів об'єкта
 
--   [« ImagickDraw::getStrokeMiterLimit](imagickdraw.getstrokemiterlimit.html)
+-   [« ImagickDraw::getStrokeMiterLimit](imagickdraw.getstrokemiterlimit.md)
     
--   [ImagickDraw::getStrokeWidth »](imagickdraw.getstrokewidth.html)
+-   [ImagickDraw::getStrokeWidth »](imagickdraw.getstrokewidth.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Повертає непрозорість обведених контурів об'єкта
     

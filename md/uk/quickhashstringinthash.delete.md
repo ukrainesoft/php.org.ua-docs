@@ -1,12 +1,12 @@
 Метод видаляє запис із хешу
 
--   [« QuickHashStringIntHash::construct](quickhashstringinthash.construct.html)
+-   [« QuickHashStringIntHash::construct](quickhashstringinthash.construct.md)
     
--   [QuickHashStringIntHash::exists »](quickhashstringinthash.exists.html)
+-   [QuickHashStringIntHash::exists »](quickhashstringinthash.exists.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [QuickHashStringIntHash](class.quickhashstringinthash.html)
+-   [QuickHashStringIntHash](class.quickhashstringinthash.md)
     
 -   Метод видаляє запис із хешу
     

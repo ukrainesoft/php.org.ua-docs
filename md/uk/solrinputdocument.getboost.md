@@ -1,12 +1,12 @@
 Отримує поточне значення підвищення документа
 
--   [« SolrInputDocument::fieldExists](solrinputdocument.fieldexists.html)
+-   [« SolrInputDocument::fieldExists](solrinputdocument.fieldexists.md)
     
--   [SolrInputDocument::getChildDocuments »](solrinputdocument.getchilddocuments.html)
+-   [SolrInputDocument::getChildDocuments »](solrinputdocument.getchilddocuments.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrInputDocument](class.solrinputdocument.html)
+-   [SolrInputDocument](class.solrinputdocument.md)
     
 -   Отримує поточне значення підвищення документа
     

@@ -1,12 +1,12 @@
 Перевіряє, чи підтримується метод шифрування libzip
 
--   [« ZipArchive::isCompressionMethodSupported](ziparchive.iscompressionmethoddupported.html)
+-   [« ZipArchive::isCompressionMethodSupported](ziparchive.iscompressionmethoddupported.md)
     
--   [ZipArchive::locateName »](ziparchive.locatename.html)
+-   [ZipArchive::locateName »](ziparchive.locatename.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Перевіряє, чи підтримується метод шифрування libzip
     
@@ -47,5 +47,5 @@ public static ZipArchive::isEncryptionMethodSupported(int $method, bool $enc = t
 
 ### Дивіться також
 
--   [ZipArchive::setEncryptionIndex()](ziparchive.setencryptionindex.html) - Встановити метод шифрування запису за його індексом
--   [ZipArchive::setEncryptionName()](ziparchive.setencryptionname.html) - Встановити метод шифрування запису на його ім'я
+-   [ZipArchive::setEncryptionIndex()](ziparchive.setencryptionindex.md) - Встановити метод шифрування запису за його індексом
+-   [ZipArchive::setEncryptionName()](ziparchive.setencryptionname.md) - Встановити метод шифрування запису на його ім'я

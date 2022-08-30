@@ -1,12 +1,12 @@
 Встановити обробник "зайнято" на з'єднання
 
--   [« SQLite3::backup](sqlite3.backup.html)
+-   [« SQLite3::backup](sqlite3.backup.md)
     
--   [SQLite3::changes »](sqlite3.changes.html)
+-   [SQLite3::changes »](sqlite3.changes.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3](class.sqlite3.html)
+-   [SQLite3](class.sqlite3.md)
     
 -   Встановити обробник "зайнято" на з'єднання
     

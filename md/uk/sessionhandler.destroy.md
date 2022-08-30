@@ -2,11 +2,11 @@
 
 -   [« SessionHandler::createsid](sessionhandler.create-sid.html)
     
--   [SessionHandler::gc »](sessionhandler.gc.html)
+-   [SessionHandler::gc »](sessionhandler.gc.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SessionHandler](class.sessionhandler.html)
+-   [SessionHandler](class.sessionhandler.md)
     
 -   Знищує сесію
     
@@ -29,7 +29,7 @@ public SessionHandler::destroy(string $id): bool
 
 Якщо цей клас розширюється шляхом наслідування, то виклик батьківського методу `destroy` виконає код обгортки, а отже код внутрішнього оброблювача. Це дозволяє бути перевизначеним, перехопленим або відфільтрованим.
 
-Для додаткової інформації дивіться посібник з функції [SessionHandlerInterface::destroy()](sessionhandlerinterface.destroy.html)
+Для додаткової інформації дивіться посібник з функції [SessionHandlerInterface::destroy()](sessionhandlerinterface.destroy.md)
 
 ### Список параметрів
 

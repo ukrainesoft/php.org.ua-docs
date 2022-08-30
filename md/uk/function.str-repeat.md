@@ -4,9 +4,9 @@
     
 -   [strreplace »](function.str-replace.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Повертає рядок, що повторюється
     

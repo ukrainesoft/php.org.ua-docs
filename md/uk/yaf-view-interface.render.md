@@ -4,7 +4,7 @@
     
 -   [YafViewInterface::setScriptPath »](yaf-view-interface.setscriptpath.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafViewInterface](class.yaf-view-interface.html)
     

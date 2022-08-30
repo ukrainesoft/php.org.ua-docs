@@ -2,7 +2,7 @@
 
 -   [" Нові можливості](migration72.new-features.html)
     
--   [Новые глобальные константы »](migration72.constants.html)
+-   [Нові глобальні константи »](migration72.constants.html)
     
 -   [PHP Manual](index.html)
     
@@ -51,7 +51,7 @@
 -   [ldapexoppasswd()](function.ldap-exop-passwd.html)
 -   [ldapexopwhoami()](function.ldap-exop-whoami.html)
 
-### [Многобайтные строки](book.mbstring.html)
+### [Багатобайтні рядки](book.mbstring.html)
 
 -   [мбchr()](function.mb-chr.html)
 -   [мбord()](function.mb-ord.html)
@@ -62,7 +62,7 @@
 -   [ociregistertafcallback()](function.oci-register-taf-callback.html)
 -   [ociunregistertafcallback()](function.oci-unregister-taf-callback.html)
 
-### [Сокеты](book.sockets.html)
+### [Сокети](book.sockets.html)
 
 -   [socketaddrinfolookup()](function.socket-addrinfo-lookup.html)
 -   [socketaddrinfoconnect()](function.socket-addrinfo-connect.html)

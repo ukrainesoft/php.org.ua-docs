@@ -1,26 +1,26 @@
 GNU Readline
 
--   [« Модулі для роботи з командним рядком](refs.utilspec.cmdline.html)
+-   [« Модулі для роботи з командним рядком](refs.utilspec.cmdline.md)
     
--   [Введение »](intro.readline.html)
+-   [Введение »](intro.readline.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модулі для роботи з командним рядком](refs.utilspec.cmdline.html)
+-   [Модулі для роботи з командним рядком](refs.utilspec.cmdline.md)
     
 -   GNU Readline
     
 
 # GNU Readline
 
--   [Введение](intro.readline.html)
--   [Установка и настройка](readline.setup.html)
-    -   [Требования](readline.requirements.html)
-    -   [Установка](readline.installation.html)
-    -   [Настройка во время выполнения](readline.configuration.html)
-    -   [Типы ресурсов](readline.resources.html)
--   [Предопределённые константы](readline.constants.html)
--   [Функции Readline](ref.readline.html)
+-   [Введение](intro.readline.md)
+-   [Встановлення та налаштування](readline.setup.md)
+    -   [Вимоги](readline.requirements.md)
+    -   [Установка](readline.installation.md)
+    -   [Налаштування під час виконання](readline.configuration.md)
+    -   [Типи ресурсів](readline.resources.md)
+-   [Обумовлені константи](readline.constants.md)
+-   [Функции Readline](ref.readline.md)
     -   [readlineaddhistory](function.readline-add-history.html) — Додає рядок до історії
     -   [readlinecallbackhandlerinstall](function.readline-callback-handler-install.html) — Ініціалізує callback-інтерфейс readline та термінал, друкує рядок запрошення та негайно повертає управління
     -   [readlinecallbackhandlerremove](function.readline-callback-handler-remove.html) — Видаляє раніше зареєстровану callback-функцію та відновлює термінал
@@ -33,4 +33,4 @@ GNU Readline
     -   [readlinereadhistory](function.readline-read-history.html) — Прочитати історію команд із файлу
     -   [readlineredisplay](function.readline-redisplay.html) — Перемалювати екран
     -   [readlinewritehistory](function.readline-write-history.html) - Записати історію команд у файл
-    -   [readline](function.readline.html) - Читає рядок
+    -   [readline](function.readline.md) - Читає рядок

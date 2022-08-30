@@ -4,9 +4,9 @@
     
 -   [timezoneoffsetget »](function.timezone-offset-get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Псевдонім DateTimeZone::getName
     
@@ -15,8 +15,8 @@
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-timezonenameget - Псевдонім [DateTimeZone::getName()](datetimezone.getname.html)
+timezonenameget - Псевдонім [DateTimeZone::getName()](datetimezone.getname.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateTimeZone::getName()](datetimezone.getname.html)
+Ця функція є псевдонімом: [DateTimeZone::getName()](datetimezone.getname.md)

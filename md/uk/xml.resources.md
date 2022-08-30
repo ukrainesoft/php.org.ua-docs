@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](xml.configuration.html)
+-   [« Налаштування під час виконання](xml.configuration.html)
     
--   [Предопределённые константы »](xml.constants.html)
+-   [Обумовлені константи »](xml.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](xml.setup.html)
+-   [Встановлення та налаштування](xml.setup.html)
     
 -   Типи ресурсів
     

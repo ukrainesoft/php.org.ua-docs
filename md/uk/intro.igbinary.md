@@ -2,7 +2,7 @@
 
 -   [« Igbinary](book.igbinary.html)
     
--   [Установка и настройка »](igbinary.setup.html)
+-   [Встановлення та налаштування »](igbinary.setup.html)
     
 -   [PHP Manual](index.html)
     

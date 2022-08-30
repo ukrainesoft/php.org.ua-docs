@@ -4,9 +4,9 @@
     
 -   [curlpause »](function.curl-pause.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции cURL](ref.curl.html)
+-   [Функции cURL](ref.curl.md)
     
 -   Повертає рядок, що описує помилку
     
@@ -71,4 +71,4 @@ if ($status != CURLM_OK) {
 ### Дивіться також
 
 -   [curlstrerror()](function.curl-strerror.html) - Отримати текстовий опис для коду помилки
--   [» коды ошибок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+-   [» коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.html)

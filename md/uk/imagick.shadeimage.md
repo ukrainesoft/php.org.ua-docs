@@ -1,12 +1,12 @@
 Створює 3D-ефект
 
--   [« Imagick::setType](imagick.settype.html)
+-   [« Imagick::setType](imagick.settype.md)
     
--   [Imagick::shadowImage »](imagick.shadowimage.html)
+-   [Imagick::shadowImage »](imagick.shadowimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Створює 3D-ефект
     

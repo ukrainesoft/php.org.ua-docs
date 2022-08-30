@@ -4,7 +4,7 @@
     
 -   [ParleToken »](class.parle-token.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ParleStack](class.parle-stack.html)
     

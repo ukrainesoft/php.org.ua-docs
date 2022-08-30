@@ -4,9 +4,9 @@
     
 -   [streamwrapperunregister »](function.stream-wrapper-unregister.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.md)
     
 -   Відновлює скасовану раніше вбудовану обгортку
     

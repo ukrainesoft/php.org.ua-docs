@@ -4,9 +4,9 @@
     
 -   [sqlsrvserverinfo »](function.sqlsrv-server-info.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.md)
     
 -   Надсилає дані з потоків параметрів на сервер
     
@@ -50,11 +50,11 @@ if( $conn === false ) {
 
 $sql = "UPDATE Table_1 SET data = ( ?) WHERE id = 100";
 
-// Откройте данные параметров как поток и поместите их в массив $params.
+// Откройте данные параметров как поток и поместите их в Масив $params.
 $data = fopen( "data://text/plain,[ Lengthy content here. ]", "r");
 $params = array( &$data);
 
-// Подготовьте выражение. Используйте массив $options, чтобы
+// Подготовьте выражение. Используйте Масив $options, чтобы
 // отключить поведение по умолчанию, которое заключается в отправке всех данных
 // потока во время выполнения запроса.
 $options = array("SendStreamParamsAtExec"=>0);

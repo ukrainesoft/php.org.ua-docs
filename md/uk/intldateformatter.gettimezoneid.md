@@ -1,12 +1,12 @@
 Отримує ідентифікатор часового поясу, який використовується IntlDateFormatter
 
--   [« IntlDateFormatter::getTimeType](intldateformatter.gettimetype.html)
+-   [« IntlDateFormatter::getTimeType](intldateformatter.gettimetype.md)
     
--   [IntlDateFormatter::getCalendarObject »](intldateformatter.getcalendarobject.html)
+-   [IntlDateFormatter::getCalendarObject »](intldateformatter.getcalendarobject.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlDateFormatter](class.intldateformatter.html)
+-   [IntlDateFormatter](class.intldateformatter.md)
     
 -   Отримує ідентифікатор часового поясу, який використовується IntlDateFormatter
     
@@ -92,5 +92,5 @@ timezone_id средства форматирования: America/Los_Angeles
 
 ### Дивіться також
 
--   [datefmtsettimezone()](intldateformatter.settimezone.html) - Встановлює часовий пояс засобу форматування
--   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtsettimezone()](intldateformatter.settimezone.md) - Встановлює часовий пояс засобу форматування
+-   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати

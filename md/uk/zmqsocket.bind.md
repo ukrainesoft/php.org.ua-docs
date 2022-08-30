@@ -1,12 +1,12 @@
 Прив'язка сокету
 
--   [« ZMQSocket](class.zmqsocket.html)
+-   [« ZMQSocket](class.zmqsocket.md)
     
--   [ZMQSocket::connect »](zmqsocket.connect.html)
+-   [ZMQSocket::connect »](zmqsocket.connect.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQSocket](class.zmqsocket.html)
+-   [ZMQSocket](class.zmqsocket.md)
     
 -   Прив'язка сокету
     

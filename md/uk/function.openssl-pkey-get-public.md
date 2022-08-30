@@ -4,9 +4,9 @@
     
 -   [opensslpkeynew »](function.openssl-pkey-new.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Витягує відкритий ключ із сертифікату та готує його до використання
     
@@ -31,17 +31,17 @@ openssl_pkey_get_public(OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $pu
 
 `public_key` може бути одним з:
 
-1.  екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html)
+1.  екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)
 2.  рядок виду file://path/to/file.pem. Файл повинен містити кодований у PEM сертифікат/публічний ключ (може містити і те, й інше).
 3.  Відкритий ключ у форматі PEM.
 
 ### Значення, що повертаються
 
-Повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або **`false`** у разі виникнення помилки.
+Повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або **`false`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше повертався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key`                                                           |
-|        | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
+|  | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |

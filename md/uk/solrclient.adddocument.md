@@ -1,12 +1,12 @@
 Додає документ до індексу
 
--   [« SolrClient](class.solrclient.html)
+-   [« SolrClient](class.solrclient.md)
     
--   [SolrClient::addDocuments »](solrclient.adddocuments.html)
+-   [SolrClient::addDocuments »](solrclient.adddocuments.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrClient](class.solrclient.html)
+-   [SolrClient](class.solrclient.md)
     
 -   Додає документ до індексу
     
@@ -49,13 +49,13 @@ $allowDups = false так само, як і $overwrite = true
 
 ### Значення, що повертаються
 
-Повертає об'єкт [SolrUpdateResponse](class.solrupdateresponse.html) або викидає виняток у разі помилки.
+Повертає об'єкт [SolrUpdateResponse](class.solrupdateresponse.md) або викидає виняток у разі помилки.
 
 ### Помилки
 
-Викидає [SolrClientException](class.solrclientexception.html)якщо клієнт відмовив або виникла проблема з підключенням.
+Викидає [SolrClientException](class.solrclientexception.md)якщо клієнт відмовив або виникла проблема з підключенням.
 
-Викидає [SolrServerException](class.solrserverexception.html)якщо сервер Solr не зміг обробити запит.
+Викидає [SolrServerException](class.solrserverexception.md)якщо сервер Solr не зміг обробити запит.
 
 ### Приклади
 
@@ -149,5 +149,5 @@ SolrObject Object
 
 ### Дивіться також
 
--   [SolrClient::addDocuments()](solrclient.adddocuments.html) - Додає колекцію екземплярів SolrInputDocument до індексу
--   [SolrClient::commit()](solrclient.commit.html) - Завершує всі додавання/видалення, зроблені в індексі
+-   [SolrClient::addDocuments()](solrclient.adddocuments.md) - Додає колекцію екземплярів SolrInputDocument до індексу
+-   [SolrClient::commit()](solrclient.commit.md) - Завершує всі додавання/видалення, зроблені в індексі

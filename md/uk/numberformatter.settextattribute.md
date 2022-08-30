@@ -1,12 +1,12 @@
 Встановлює текстовий атрибут
 
--   [« NumberFormatter::setSymbol](numberformatter.setsymbol.html)
+-   [« NumberFormatter::setSymbol](numberformatter.setsymbol.md)
     
--   [Locale »](class.locale.html)
+-   [Locale »](class.locale.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [NumberFormatter](class.numberformatter.html)
+-   [NumberFormatter](class.numberformatter.md)
     
 -   Встановлює текстовий атрибут
     
@@ -39,7 +39,7 @@ numfmt_set_text_attribute(NumberFormatter $formatter, int $attribute, string $va
 
 `formatter`
 
-Об'єкт [NumberFormatter](class.numberformatter.html)
+Об'єкт [NumberFormatter](class.numberformatter.md)
 
 `attribute`
 
@@ -92,6 +92,6 @@ MINUS1.234.567,891
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmtgettextattribute()](numberformatter.gettextattribute.html) - Отримує текстовий атрибут
--   [numfmtsetattribute()](numberformatter.setattribute.html) - Встановлює атрибут
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
+-   [numfmtgettextattribute()](numberformatter.gettextattribute.md) - Отримує текстовий атрибут
+-   [numfmtsetattribute()](numberformatter.setattribute.md) - Встановлює атрибут

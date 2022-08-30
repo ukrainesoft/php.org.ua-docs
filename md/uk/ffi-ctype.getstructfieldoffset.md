@@ -4,7 +4,7 @@
     
 -   [FFICType::getStructFieldType »](ffi-ctype.getstructfieldtype.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [FFICType](class.ffi-ctype.html)
     

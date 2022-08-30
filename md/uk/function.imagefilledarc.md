@@ -1,12 +1,12 @@
 Малювання та заливання дуги
 
--   [« imagefill](function.imagefill.html)
+-   [« imagefill](function.imagefill.md)
     
--   [imagefilledellipse »](function.imagefilledellipse.html)
+-   [imagefilledellipse »](function.imagefilledellipse.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Малювання та заливання дуги
     
@@ -29,7 +29,7 @@ imagefilledarc(    GdImage $image,    int $center_x,    int $center_
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `center_x`
 
@@ -57,7 +57,7 @@ y-координат центру.
 
 `color`
 
-Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.html)
+Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.md)
 
 `style`
 
@@ -76,9 +76,9 @@ y-координат центру.
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

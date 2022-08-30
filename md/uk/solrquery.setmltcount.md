@@ -1,12 +1,12 @@
 Встановлює кількість схожих документів, що повертаються для кожного результату
 
--   [« SolrQuery::setMltBoost](solrquery.setmltboost.html)
+-   [« SolrQuery::setMltBoost](solrquery.setmltboost.md)
     
--   [SolrQuery::setMltMaxNumQueryTerms »](solrquery.setmltmaxnumqueryterms.html)
+-   [SolrQuery::setMltMaxNumQueryTerms »](solrquery.setmltmaxnumqueryterms.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Встановлює кількість схожих документів, що повертаються для кожного результату
     

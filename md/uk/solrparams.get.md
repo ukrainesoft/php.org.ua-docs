@@ -1,12 +1,12 @@
 Псевдонім SolrParams::getParam
 
--   [« SolrParams::addParam](solrparams.addparam.html)
+-   [« SolrParams::addParam](solrparams.addparam.md)
     
--   [SolrParams::getParam »](solrparams.getparam.html)
+-   [SolrParams::getParam »](solrparams.getparam.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrParams](class.solrparams.html)
+-   [SolrParams](class.solrparams.md)
     
 -   Псевдонім SolrParams::getParam
     

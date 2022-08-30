@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](posix.configuration.html)
+-   [« Налаштування під час виконання](posix.configuration.md)
     
--   [Предопределённые константы »](posix.constants.html)
+-   [Обумовлені константи »](posix.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](posix.setup.html)
+-   [Встановлення та налаштування](posix.setup.md)
     
 -   Типи ресурсів
     

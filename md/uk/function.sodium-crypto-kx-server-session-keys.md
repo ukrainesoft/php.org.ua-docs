@@ -4,9 +4,9 @@
     
 -   [sodiumcryptopwhashscryptsalsa208sha256strverify »](function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Обчислює ключі сесії на стороні сервера
     

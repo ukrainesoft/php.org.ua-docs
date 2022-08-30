@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.tokenizer.html)
     
--   [Требования »](tokenizer.requirements.html)
+-   [Вимоги »](tokenizer.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](tokenizer.requirements.html)
+-   [Вимоги](tokenizer.requirements.html)
 -   [Установка](tokenizer.installation.html)
--   [Настройка во время выполнения](tokenizer.configuration.html)
--   [Типы ресурсов](tokenizer.resources.html)
+-   [Налаштування під час виконання](tokenizer.configuration.html)
+-   [Типи ресурсів](tokenizer.resources.html)

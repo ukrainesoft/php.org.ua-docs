@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](gettext.resources.html)
+-   [« Типи ресурсів](gettext.resources.html)
     
 -   [Функции gettext »](ref.gettext.html)
     

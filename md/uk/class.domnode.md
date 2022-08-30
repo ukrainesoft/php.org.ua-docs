@@ -1,12 +1,12 @@
 Клас DOMNode
 
--   [« DOMNamedNodeMap::item](domnamednodemap.item.html)
+-   [« DOMNamedNodeMap::item](domnamednodemap.item.md)
     
--   [DOMNode::appendChild »](domnode.appendchild.html)
+-   [DOMNode::appendChild »](domnode.appendchild.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOM](book.dom.html)
+-   [DOM](book.dom.md)
     
 -   Клас DOMNode
     
@@ -139,11 +139,11 @@ nodeName
 
 nodeValue
 
-Значення цього вузла, залежно з його типу. На відміну від специфікації W3C, значення вузлів [DOMElement](class.domelement.html) одно [DOMNode::textContent](class.domnode.html#domnode.props.textcontent), а не **`null`**
+Значення цього вузла, залежно з його типу. На відміну від специфікації W3C, значення вузлів [DOMElement](class.domelement.md) одно [DOMNode::textContent](class.domnode.html#domnode.props.textcontent), а не **`null`**
 
 nodeType
 
-Повертає тип цього сайту. Одна з можливих [констант XMLxxxNODE](dom.constants.html)
+Повертає тип цього сайту. Одна з можливих [констант XMLxxxNODE](dom.constants.md)
 
 парентНоді
 
@@ -151,7 +151,7 @@ nodeType
 
 childNodes
 
-Об'єкт [DOMNodeList](class.domnodelist.html)містить всіх нащадків цього вузла. Якщо нащадків немає, повертається порожній [DOMNodeList](class.domnodelist.html)
+Об'єкт [DOMNodeList](class.domnodelist.md)містить всіх нащадків цього вузла. Якщо нащадків немає, повертається порожній [DOMNodeList](class.domnodelist.md)
 
 firstChild
 
@@ -171,11 +171,11 @@ nextSibling
 
 attributes
 
-Об'єкт [DOMNamedNodeMap](class.domnamednodemap.html), що містить атрибути цього вузла (тільки якщо це [DOMElement](class.domelement.html)), інакше поверне **`null`**
+Об'єкт [DOMNamedNodeMap](class.domnamednodemap.md), що містить атрибути цього вузла (тільки якщо це [DOMElement](class.domelement.md)), інакше поверне **`null`**
 
 ownerDocument
 
-Об'єкт [DOMDocument](class.domdocument.html), пов'язаний з цим вузлом, або **`null`**, якщо вузол є [DOMDocument](class.domdocument.html)
+Об'єкт [DOMDocument](class.domdocument.md), пов'язаний з цим вузлом, або **`null`**, якщо вузол є [DOMDocument](class.domdocument.md)
 
 namespaceURI
 
@@ -199,36 +199,36 @@ textContent
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Нереалізовані методи **DOMNode::compareDocumentPosition()** **DOMNode::isEqualNode()** **DOMNode::getFeature()** **DOMNode::setUserData()** і **DOMNode::getUserData()** були вилучені. |
+| Версия | Описание |
+| --- | --- |
+|  | Нереалізовані методи **DOMNode::compareDocumentPosition()** **DOMNode::isEqualNode()** **DOMNode::getFeature()** **DOMNode::setUserData()** і **DOMNode::getUserData()** були вилучені. |
 
 ## Примітки
 
 > **Зауваження**
 > 
-> Модуль DOM використовує кодування UTF-8. Використовуйте [мбconvertencoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.html) для роботи з іншими кодуванням.
+> Модуль DOM використовує кодування UTF-8. Використовуйте [мбconvertencoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.md) або [iconv()](function.iconv.md) для роботи з іншими кодуванням.
 
 ## Дивіться також
 
--   [» Спецификация W3C элемента Node](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.html#core-ID-1950641247)
+-   [» Специфікація W3C елемента Node](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.html#core-ID-1950641247)
 
 ## Зміст
 
--   [DOMNode::appendChild](domnode.appendchild.html) — Додає новий дочірній вузол до кінця списку нащадків.
--   [DOMNode::C14N](domnode.c14n.html) - Канонізувати вузли в рядок
--   [DOMNode::C14NFile](domnode.c14nfile.html) - Канонізувати вузли у файл
--   [DOMNode::cloneNode](domnode.clonenode.html) - Клонує вузол
--   [DOMNode::getLineNo](domnode.getlineno.html) - Отримати номер рядка вузла
--   [DOMNode::getNodePath](domnode.getnodepath.html) - Отримання XPath вузла
--   [DOMNode::hasAttributes](domnode.hasattributes.html) — Перевіряє, чи цей вузол має атрибути.
--   [DOMNode::hasChildNodes](domnode.haschildnodes.html) — Перевіряє, чи цей вузол має нащадків.
--   [DOMNode::insertBefore](domnode.insertbefore.html) — Додає новий дочірній вузол перед вказаним вузлом
--   [DOMNode::isDefaultNamespace](domnode.isdefaultnamespace.html) — Перевіряє, чи вказаний URI простору імен вузла є простором імен за умовчанням чи ні
--   [DOMNode::isSameNode](domnode.issamenode.html) — Вказує, чи є два вузли одним і тим самим вузлом
--   [DOMNode::isSupported](domnode.issupported.html) — Перевіряє, чи підтримується можливість у певній версії
--   [DOMNode::lookupNamespaceUri](domnode.lookupnamespaceuri.html) — Отримує URI простору імен вузла за префіксом
--   [DOMNode::lookupPrefix](domnode.lookupprefix.html) — Повертає префікс простору імен вузла із URI простору імен
--   [DOMNode::normalize](domnode.normalize.html) - Нормалізує вузол
--   [DOMNode::removeChild](domnode.removechild.html) - Видаляє дочірній вузол зі списку нащадків.
--   [DOMNode::replaceChild](domnode.replacechild.html) - Замінює дочірній вузол
+-   [DOMNode::appendChild](domnode.appendchild.md) — Додає новий дочірній вузол до кінця списку нащадків.
+-   [DOMNode::C14N](domnode.c14n.md) - Канонізувати вузли в рядок
+-   [DOMNode::C14NFile](domnode.c14nfile.md) - Канонізувати вузли у файл
+-   [DOMNode::cloneNode](domnode.clonenode.md) - Клонує вузол
+-   [DOMNode::getLineNo](domnode.getlineno.md) - Отримати номер рядка вузла
+-   [DOMNode::getNodePath](domnode.getnodepath.md) - Отримання XPath вузла
+-   [DOMNode::hasAttributes](domnode.hasattributes.md) — Перевіряє, чи цей вузол має атрибути.
+-   [DOMNode::hasChildNodes](domnode.haschildnodes.md) — Перевіряє, чи цей вузол має нащадків.
+-   [DOMNode::insertBefore](domnode.insertbefore.md) — Додає новий дочірній вузол перед вказаним вузлом
+-   [DOMNode::isDefaultNamespace](domnode.isdefaultnamespace.md) — Перевіряє, чи вказаний URI простору імен вузла є простором імен за умовчанням чи ні
+-   [DOMNode::isSameNode](domnode.issamenode.md) — Вказує, чи є два вузли одним і тим самим вузлом
+-   [DOMNode::isSupported](domnode.issupported.md) — Перевіряє, чи підтримується можливість у певній версії
+-   [DOMNode::lookupNamespaceUri](domnode.lookupnamespaceuri.md) — Отримує URI простору імен вузла за префіксом
+-   [DOMNode::lookupPrefix](domnode.lookupprefix.md) — Повертає префікс простору імен вузла із URI простору імен
+-   [DOMNode::normalize](domnode.normalize.md) - Нормалізує вузол
+-   [DOMNode::removeChild](domnode.removechild.md) - Видаляє дочірній вузол зі списку нащадків.
+-   [DOMNode::replaceChild](domnode.replacechild.md) - Замінює дочірній вузол

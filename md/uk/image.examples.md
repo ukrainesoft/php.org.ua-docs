@@ -1,6 +1,6 @@
 Приклади
 
--   [« Предопределённые константы](image.constants.html)
+-   [« Обумовлені константи](image.constants.html)
     
 -   [Створення PNG засобами PHP »](image.examples-png.html)
     
@@ -16,5 +16,5 @@
 ## Зміст
 
 -   [Створення PNG засобами PHP](image.examples-png.html)
--   [Добавление водяных знаков на изображения с помощью альфа-каналов](image.examples-watermark.html)
+-   [Додавання водяних знаків на зображення за допомогою альфа-каналів](image.examples-watermark.html)
 -   [Використання imagecopymerge створити напівпрозорий водяний знак](image.examples.merged-watermark.html)

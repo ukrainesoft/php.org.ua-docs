@@ -4,9 +4,9 @@
     
 -   [eiogrpadd »](function.eio-grp-add.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Повертає останню помилку, пов'язану із вказівником на ресурс
     

@@ -2,11 +2,11 @@
 
 -   [« Пізніше статичне зв'язування](language.oop5.late-static-bindings.html)
     
--   [Сериализация объектов »](language.oop5.serialization.html)
+-   [Серіалізація об'єктів »](language.oop5.serialization.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Классы и объекты](language.oop5.html)
+-   [Класи та об'єкти](language.oop5.md)
     
 -   Об'єкти та посилання
     

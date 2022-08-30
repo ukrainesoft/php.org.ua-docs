@@ -1,12 +1,12 @@
 Отримує рядкову виставу об'єкта
 
--   [« Stringable](class.stringable.html)
+-   [« Stringable](class.stringable.md)
     
--   [UnitEnum »](class.unitenum.html)
+-   [UnitEnum »](class.unitenum.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Stringable](class.stringable.html)
+-   [Stringable](class.stringable.md)
     
 -   Отримує рядкову виставу об'єкта
     

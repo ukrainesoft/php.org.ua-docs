@@ -1,12 +1,12 @@
 Повертає довжину зображення у байтах
 
--   [« Imagick::getImageIterations](imagick.getimageiterations.html)
+-   [« Imagick::getImageIterations](imagick.getimageiterations.md)
     
--   [Imagick::getImageMatte »](imagick.getimagematte.html)
+-   [Imagick::getImageMatte »](imagick.getimagematte.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає довжину зображення у байтах
     

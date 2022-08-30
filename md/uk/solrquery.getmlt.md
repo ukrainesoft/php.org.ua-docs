@@ -1,12 +1,12 @@
 Повертає, чи повинні бути включені результати MoreLikeThis
 
--   [« SolrQuery::getHighlightUsePhraseHighlighter](solrquery.gethighlightusephrasehighlighter.html)
+-   [« SolrQuery::getHighlightUsePhraseHighlighter](solrquery.gethighlightusephrasehighlighter.md)
     
--   [SolrQuery::getMltBoost »](solrquery.getmltboost.html)
+-   [SolrQuery::getMltBoost »](solrquery.getmltboost.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає, чи повинні бути включені результати MoreLikeThis
     

@@ -2,9 +2,9 @@
 
 -   [« mysqlisqlexception](class.mysqli-sql-exception.html)
     
--   [Синоніми та застарілі функції Mysqli »](ref.mysqli.html)
+-   [Синоніми та застарілі функції Mysqli »](ref.mysqli.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlisqlexception](class.mysqli-sql-exception.html)
     

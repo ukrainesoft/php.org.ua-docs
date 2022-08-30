@@ -1,12 +1,12 @@
 Робота з об'єктно-орієнтованим API
 
--   [« Робота з просторами імен XML](example.xmlwriter-namespace.html)
+-   [Робота з просторами імен XML](example.xmlwriter-namespace.html)
     
 -   [XMLWriter »](class.xmlwriter.html)
     
 -   [PHP Manual](index.html)
     
--   [Примеры](xmlwriter.examples.html)
+-   [Приклади](xmlwriter.examples.html)
     
 -   Робота з об'єктно-орієнтованим API
     

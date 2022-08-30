@@ -4,7 +4,7 @@
     
 -   [RowResult::getColumnNames »](mysql-xdevapi-rowresult.getcolumnnames.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiRowResult](class.mysql-xdevapi-rowresult.html)
     
@@ -35,9 +35,9 @@ public mysql_xdevapi\RowResult::getColumnsCount(): int
 
 ### список змін
 
-| Версия | Описание                                                      |
-|--------|---------------------------------------------------------------|
-|        | Метод перейменований з getColumnCount() на getColumnsCount(). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод перейменований з getColumnCount() на getColumnsCount(). |
 
 ### Приклади
 

@@ -1,12 +1,12 @@
 Клас ReflectionNamedType
 
--   [« ReflectionMethod::toString](reflectionmethod.tostring.html)
+-   [« ReflectionMethod::toString](reflectionmethod.tostring.md)
     
--   [ReflectionNamedType::getName »](reflectionnamedtype.getname.html)
+-   [ReflectionNamedType::getName »](reflectionnamedtype.getname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Reflection](book.reflection.html)
+-   [Reflection](book.reflection.md)
     
 -   Клас ReflectionNamedType
     
@@ -50,5 +50,5 @@ public ReflectionType::__toString(): string
 
 ## Зміст
 
--   [ReflectionNamedType::getName](reflectionnamedtype.getname.html) — Отримує ім'я типу у вигляді рядка
--   [ReflectionNamedType::isBuiltin](reflectionnamedtype.isbuiltin.html) — Перевіряє, чи тип вбудований
+-   [ReflectionNamedType::getName](reflectionnamedtype.getname.md) — Отримує ім'я типу у вигляді рядка
+-   [ReflectionNamedType::isBuiltin](reflectionnamedtype.isbuiltin.md) — Перевіряє, чи тип вбудований

@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONBinary::jsonSerialize »](mongodb-bson-binary.jsonserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONBinary](class.mongodb-bson-binary.html)
     
@@ -56,4 +56,4 @@ int(0)
 
 ### Дивіться також
 
--   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

@@ -1,12 +1,12 @@
 Клас ReflectionMethod
 
--   [« ReflectionFunctionAbstract::toString](reflectionfunctionabstract.tostring.html)
+-   [« ReflectionFunctionAbstract::toString](reflectionfunctionabstract.tostring.md)
     
--   [ReflectionMethod::construct »](reflectionmethod.construct.html)
+-   [ReflectionMethod::construct »](reflectionmethod.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Reflection](book.reflection.html)
+-   [Reflection](book.reflection.md)
     
 -   Клас ReflectionMethod
     
@@ -180,21 +180,21 @@ class
 
 ## Зміст
 
--   [ReflectionMethod::construct](reflectionmethod.construct.html) - Конструктор класу ReflectionMethod
--   [ReflectionMethod::export](reflectionmethod.export.html) - Експорт відбитого методу
--   [ReflectionMethod::getClosure](reflectionmethod.getclosure.html) — Повертає динамічно створене замикання для методу
--   [ReflectionMethod::getDeclaringClass](reflectionmethod.getdeclaringclass.html) — Отримує клас, що оголошує відбитий метод
--   [ReflectionMethod::getModifiers](reflectionmethod.getmodifiers.html) — Отримує модифікатори методу
--   [ReflectionMethod::getPrototype](reflectionmethod.getprototype.html) — Отримує прототип методу (якщо такий є)
--   [ReflectionMethod::invoke](reflectionmethod.invoke.html) - Виклик
--   [ReflectionMethod::invokeArgs](reflectionmethod.invokeargs.html) - Виклик методу з передачею аргументів масивом
--   [ReflectionMethod::isAbstract](reflectionmethod.isabstract.html) — Перевіряє, чи є метод абстрактним
--   [ReflectionMethod::isConstructor](reflectionmethod.isconstructor.html) — Перевіряє, чи є метод конструктором
--   [ReflectionMethod::isDestructor](reflectionmethod.isdestructor.html) — Перевіряє, чи є метод деструктором
--   [ReflectionMethod::isFinal](reflectionmethod.isfinal.html) — Перевіряє, чи є метод остаточним
--   [ReflectionMethod::isPrivate](reflectionmethod.isprivate.html) — Перевіряє, чи є метод закритим
--   [ReflectionMethod::isProtected](reflectionmethod.isprotected.html) — Перевіряє, чи метод захищений
--   [ReflectionMethod::isPublic](reflectionmethod.ispublic.html) — Перевіряє, чи є метод загальнодоступним
--   [ReflectionMethod::isStatic](reflectionmethod.isstatic.html) — Перевіряє, чи метод статичний
--   [ReflectionMethod::setAccessible](reflectionmethod.setaccessible.html) — Робить метод доступним
--   [ReflectionMethod::toString](reflectionmethod.tostring.html) — Повертає рядкову виставу об'єкта ReflectionMethod
+-   [ReflectionMethod::construct](reflectionmethod.construct.md) - Конструктор класу ReflectionMethod
+-   [ReflectionMethod::export](reflectionmethod.export.md) - Експорт відбитого методу
+-   [ReflectionMethod::getClosure](reflectionmethod.getclosure.md) — Повертає динамічно створене замикання для методу
+-   [ReflectionMethod::getDeclaringClass](reflectionmethod.getdeclaringclass.md) — Отримує клас, що оголошує відбитий метод
+-   [ReflectionMethod::getModifiers](reflectionmethod.getmodifiers.md) — Отримує модифікатори методу
+-   [ReflectionMethod::getPrototype](reflectionmethod.getprototype.md) — Отримує прототип методу (якщо такий є)
+-   [ReflectionMethod::invoke](reflectionmethod.invoke.md) - Виклик
+-   [ReflectionMethod::invokeArgs](reflectionmethod.invokeargs.md) - Виклик методу з передачею аргументів масивом
+-   [ReflectionMethod::isAbstract](reflectionmethod.isabstract.md) — Перевіряє, чи є метод абстрактним
+-   [ReflectionMethod::isConstructor](reflectionmethod.isconstructor.md) — Перевіряє, чи є метод конструктором
+-   [ReflectionMethod::isDestructor](reflectionmethod.isdestructor.md) — Перевіряє, чи є метод деструктором
+-   [ReflectionMethod::isFinal](reflectionmethod.isfinal.md) — Перевіряє, чи є метод остаточним
+-   [ReflectionMethod::isPrivate](reflectionmethod.isprivate.md) — Перевіряє, чи є метод закритим
+-   [ReflectionMethod::isProtected](reflectionmethod.isprotected.md) — Перевіряє, чи метод захищений
+-   [ReflectionMethod::isPublic](reflectionmethod.ispublic.md) — Перевіряє, чи є метод загальнодоступним
+-   [ReflectionMethod::isStatic](reflectionmethod.isstatic.md) — Перевіряє, чи метод статичний
+-   [ReflectionMethod::setAccessible](reflectionmethod.setaccessible.md) — Робить метод доступним
+-   [ReflectionMethod::toString](reflectionmethod.tostring.md) — Повертає рядкову виставу об'єкта ReflectionMethod

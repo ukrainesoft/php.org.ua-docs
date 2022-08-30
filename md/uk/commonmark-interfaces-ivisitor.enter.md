@@ -4,7 +4,7 @@
     
 -   [CommonMarkInterfacesIVisitor::leave »](commonmark-interfaces-ivisitor.leave.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [CommonMarkInterfacesIVisitor](class.commonmark-interfaces-ivisitor.html)
     

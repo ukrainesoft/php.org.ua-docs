@@ -4,9 +4,9 @@
     
 -   [ComponereDefinition::construct »](componere-definition.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Componere](book.componere.html)
+-   [Componere](book.componere.md)
     
 -   Клас ComponereDefinition
     

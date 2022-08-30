@@ -2,28 +2,28 @@ POSIX
 
 -   [pcntlwtermsig](function.pcntl-wtermsig.html)
     
--   [Введение »](intro.posix.html)
+-   [Введение »](intro.posix.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модули для управления процессами программ](refs.fileprocess.process.html)
+-   [Модули для управления процессами программ](refs.fileprocess.process.md)
     
 -   POSIX
     
 
 # POSIX
 
--   [Введение](intro.posix.html)
--   [Установка и настройка](posix.setup.html)
-    -   [Требования](posix.requirements.html)
-    -   [Установка](posix.installation.html)
-    -   [Настройка во время выполнения](posix.configuration.html)
-    -   [Типы ресурсов](posix.resources.html)
--   [Предопределённые константы](posix.constants.html)
-    -   [Константы posixaccess](posix.constants.access.html)
-    -   [Константы posixmknod](posix.constants.mknod.html)
-    -   [Константы posixsetrlimit](posix.constants.setrlimit.html)
--   [POSIX Функции](ref.posix.html)
+-   [Введение](intro.posix.md)
+-   [Встановлення та налаштування](posix.setup.md)
+    -   [Вимоги](posix.requirements.md)
+    -   [Установка](posix.installation.md)
+    -   [Налаштування під час виконання](posix.configuration.md)
+    -   [Типи ресурсів](posix.resources.md)
+-   [Обумовлені константи](posix.constants.md)
+    -   [Константи posixaccess](posix.constants.access.md)
+    -   [Константи posixmknod](posix.constants.mknod.md)
+    -   [Константи posixsetrlimit](posix.constants.setrlimit.md)
+-   [POSIX Функции](ref.posix.md)
     -   [posixaccess](function.posix-access.html) — Визначає доступність файлу
     -   [posixctermid](function.posix-ctermid.html) — Повертає шлях керуючого терміналу
     -   [posixerrno](function.posix-errno.html) - Псевдонім posixgetlasterror

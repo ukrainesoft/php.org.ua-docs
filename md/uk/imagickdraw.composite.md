@@ -33,7 +33,7 @@ public ImagickDraw::composite(    int $compose,    float $x,    floa
 
 `compose`
 
-Оператор накладання. Одна з констант [Оператора накладывания](imagick.constants.html#imagick.constants.compositeop) `imagick::COMPOSITE_*`
+Оператор накладання. Одна з констант [Оператора накладання](imagick.constants.html#imagick.constants.compositeop) `imagick::COMPOSITE_*`
 
 `x`
 

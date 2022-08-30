@@ -4,9 +4,9 @@
     
 -   [PgSqlLob »](class.pgsql-lob.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PostgreSQL](book.pgsql.html)
+-   [PostgreSQL](book.pgsql.md)
     
 -   Клас PgSqlResult
     

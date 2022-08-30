@@ -4,9 +4,9 @@
     
 -   [posixmknod »](function.posix-mknod.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [POSIX Функции](ref.posix.html)
+-   [POSIX Функции](ref.posix.md)
     
 -   Створює спеціальний fifo файл (іменований канал-pipe)
     
@@ -33,7 +33,7 @@ posix_mkfifo(string $filename, int $permissions): bool
 
 `permissions`
 
-Другий параметр `permissions` має бути представлений у восьмеричній нотації (наприклад 0644). Це рівень прав для новоствореного `FIFO` файлу, також залежить від налаштувань поточного [umask()](function.umask.html). Права на створений файл будуть визначатися як результат (mode & umask).
+Другий параметр `permissions` має бути представлений у восьмеричній нотації (наприклад 0644). Це рівень прав для новоствореного `FIFO` файлу, також залежить від налаштувань поточного [umask()](function.umask.md). Права на створений файл будуть визначатися як результат (mode & umask).
 
 ### Значення, що повертаються
 

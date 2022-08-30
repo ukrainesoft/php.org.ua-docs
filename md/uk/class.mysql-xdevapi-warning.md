@@ -4,7 +4,7 @@
     
 -   [Warning::construct »](mysql-xdevapi-warning.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Mysqlxdevapi](book.mysql-xdevapi.html)
     

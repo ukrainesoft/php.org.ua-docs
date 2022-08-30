@@ -2,11 +2,11 @@
 
 -   [Функції зворотного виклику наскрізного читання кешу](memcached.callbacks.read-through.html)
     
--   [Memcached »](class.memcached.html)
+-   [Memcached »](class.memcached.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](book.memcached.html)
+-   [Memcached](book.memcached.md)
     
 -   Підтримка сесій
     

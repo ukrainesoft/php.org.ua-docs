@@ -4,9 +4,9 @@
     
 -   [statsrandgenfuniform »](function.stats-rand-gen-funiform.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Генерує випадкове відхилення від розподілу Фішера
     

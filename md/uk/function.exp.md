@@ -1,12 +1,12 @@
 Обчислює ступінь числа e
 
--   [« deg2rad](function.deg2rad.html)
+-   [« deg2rad](function.deg2rad.md)
     
--   [expm1 »](function.expm1.html)
+-   [expm1 »](function.expm1.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Обчислює ступінь числа e
     
@@ -59,5 +59,5 @@ echo exp(5.7);
 
 ### Дивіться також
 
--   [log()](function.log.html) - Натуральний логарифм
--   [pow()](function.pow.html) - Зведення в ступінь
+-   [log()](function.log.md) - Натуральний логарифм
+-   [pow()](function.pow.md) - Зведення в ступінь

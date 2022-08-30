@@ -1,12 +1,12 @@
 Callback-функція серіалізації
 
--   [« Generator::valid](generator.valid.html)
+-   [« Generator::valid](generator.valid.md)
     
--   [Fiber »](class.fiber.html)
+-   [Fiber »](class.fiber.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Generator](class.generator.html)
+-   [Generator](class.generator.md)
     
 -   Callback-функція серіалізації
     

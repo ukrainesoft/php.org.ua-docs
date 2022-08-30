@@ -4,9 +4,9 @@
     
 -   [traderavgprice »](function.trader-avgprice.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Середній дійсний діапазон
     

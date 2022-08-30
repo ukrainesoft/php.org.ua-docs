@@ -2,7 +2,7 @@
 
 -   [« wincacheunlock](function.wincache-unlock.html)
     
--   [Пререквизиты »](wincache.win32build.prereq.html)
+-   [Пререквізити »](wincache.win32build.prereq.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,6 +15,6 @@
 
 ## Зміст
 
--   [Пререквизиты](wincache.win32build.prereq.html)
+-   [Пререквізити](wincache.win32build.prereq.html)
 -   [Компіляція та складання](wincache.win32build.building.html)
 -   [Проверка сборки](wincache.win32build.verify.html)

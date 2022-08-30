@@ -1,12 +1,12 @@
 Error
 
--   [« ErrorException::getSeverity](errorexception.getseverity.html)
+-   [« ErrorException::getSeverity](errorexception.getseverity.md)
     
--   [Error::construct »](error.construct.html)
+-   [Error::construct »](error.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые исключения](reserved.exceptions.html)
+-   [Обумовлені винятки](reserved.exceptions.md)
     
 -   Error
     
@@ -114,13 +114,13 @@ trace
 
 ## Зміст
 
--   [Error::construct](error.construct.html) - Створює об'єкт класу Error
--   [Error::getMessage](error.getmessage.html) — Отримує повідомлення про помилку
--   [Error::getPrevious](error.getprevious.html) — Повертає попередній Throwable
--   [Error::getCode](error.getcode.html) — Повертає код помилки
--   [Error::getFile](error.getfile.html) — Отримує файл, у якому сталася помилка
--   [Error::getLine](error.getline.html) — Отримує номер рядка, в якому сталася помилка
--   [Error::getTrace](error.gettrace.html) — Отримує трасування стека
--   [Error::getTraceAsString](error.gettraceasstring.html) — Отримує трасування стека у вигляді рядка
--   [Error::toString](error.tostring.html) — Строкове подання помилки
--   [Error::clone](error.clone.html) - Клонує помилку
+-   [Error::construct](error.construct.md) - Створює об'єкт класу Error
+-   [Error::getMessage](error.getmessage.md) — Отримує повідомлення про помилку
+-   [Error::getPrevious](error.getprevious.md) — Повертає попередній Throwable
+-   [Error::getCode](error.getcode.md) — Повертає код помилки
+-   [Error::getFile](error.getfile.md) — Отримує файл, у якому сталася помилка
+-   [Error::getLine](error.getline.md) — Отримує номер рядка, в якому сталася помилка
+-   [Error::getTrace](error.gettrace.md) — Отримує трасування стека
+-   [Error::getTraceAsString](error.gettraceasstring.md) — Отримує трасування стека у вигляді рядка
+-   [Error::toString](error.tostring.md) — Строкове подання помилки
+-   [Error::clone](error.clone.md) - Клонує помилку

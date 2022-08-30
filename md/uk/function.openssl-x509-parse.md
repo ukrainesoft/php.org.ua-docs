@@ -29,7 +29,7 @@ openssl_x509_parse(OpenSSLCertificate|string $certificate, bool $short_names = t
 
 `certificate`
 
-Сертифікат X509 Список коректних значень дивись у [Параметры Key/Certificate](openssl.certparams.html)
+Сертифікат X509 Список коректних значень дивись у [Параметри Key/Certificate](openssl.certparams.html)
 
 `short_names`
 
@@ -41,6 +41,6 @@ openssl_x509_parse(OpenSSLCertificate|string $certificate, bool $short_names = t
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                           |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |

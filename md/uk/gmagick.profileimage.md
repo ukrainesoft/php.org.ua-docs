@@ -1,12 +1,12 @@
 Додає або видаляє профіль із зображення
 
--   [« Gmagick::previousimage](gmagick.previousimage.html)
+-   [« Gmagick::previousimage](gmagick.previousimage.md)
     
--   [Gmagick::quantizeimage »](gmagick.quantizeimage.html)
+-   [Gmagick::quantizeimage »](gmagick.quantizeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Додає або видаляє профіль із зображення
     
@@ -37,7 +37,7 @@ public Gmagick::profileimage(string $name, string $profile): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

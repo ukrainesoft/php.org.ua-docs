@@ -1,12 +1,12 @@
 Видаляє поле зі списку полів
 
--   [« SolrQuery::removeFacetQuery](solrquery.removefacetquery.html)
+-   [« SolrQuery::removeFacetQuery](solrquery.removefacetquery.md)
     
--   [SolrQuery::removeFilterQuery »](solrquery.removefilterquery.html)
+-   [SolrQuery::removeFilterQuery »](solrquery.removefilterquery.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Видаляє поле зі списку полів
     

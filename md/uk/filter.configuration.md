@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](filter.installation.html)
+-   [« Установка](filter.installation.md)
     
--   [Типы ресурсов »](filter.resources.html)
+-   [Типи ресурсів »](filter.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](filter.setup.html)
+-   [Встановлення та налаштування](filter.setup.md)
     
 -   Налаштування під час виконання
     
@@ -17,24 +17,24 @@
 
 **Параметри конфігурації Filter**
 
-| Имя                                                                       | По умолчанию | Место изменения | Список изменений                          |
-|---------------------------------------------------------------------------|--------------|-----------------|-------------------------------------------|
-| [filter.default](filter.configuration.html#ini.filter.default)            | "unsaferaw"  | PHPINIPERDIR    | Параметр застарів, починаючи з PHP 8.1.0. |
-| [filter.defaultflags](filter.configuration.html#ini.filter.default-flags) | NULL         | PHPINIPERDIR    |                                           |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [filter.default](filter.configuration.html#ini.filter.default) | "unsaferaw" | PHPINIPERDIR | Параметр застарів, починаючи з PHP 8.1.0. |
+| [filter.defaultflags](filter.configuration.html#ini.filter.default-flags) | NULL | PHPINIPERDIR |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 
 `filter.default` string
 
-Фільтрує всі дані [GET](reserved.variables.get.html) [POST](reserved.variables.post.html) [COOKIE](reserved.variables.cookies.html) [REQUEST](reserved.variables.request.html) і [SERVER](reserved.variables.server.html) цим фільтром. Вихідні дані можуть бути отримані за допомогою [filterinput()](function.filter-input.html)
+Фільтрує всі дані [GET](reserved.variables.get.md) [POST](reserved.variables.post.md) [COOKIE](reserved.variables.cookies.md) [REQUEST](reserved.variables.request.md) і [SERVER](reserved.variables.server.md) цим фільтром. Вихідні дані можуть бути отримані за допомогою [filterinput()](function.filter-input.html)
 
-Приймає ім'я вказаного фільтра як значення за промовчанням. Імена фільтрів можна знайти в [списку існуючих фільтрів](filter.filters.html)
+Приймає ім'я вказаного фільтра як значення за промовчанням. Імена фільтрів можна знайти в [списку існуючих фільтрів](filter.filters.md)
 
 > **Зауваження**
 > 
-> Будьте уважні з прапорами за промовчанням для стандартних фільтрів. Слід явно встановлювати їх у значення, яке вам необхідно. Наприклад, для установки фільтра за умовчанням, який буде працювати точнісінько аналогічно функції [htmlspecialchars()](function.htmlspecialchars.html)Вам потрібно встановити прапори за промовчанням в 0 так, як показано нижче.
+> Будьте уважні з прапорами за промовчанням для стандартних фільтрів. Слід явно встановлювати їх у значення, яке вам необхідно. Наприклад, для установки фільтра за умовчанням, який буде працювати точнісінько аналогічно функції [htmlspecialchars()](function.htmlspecialchars.md)Вам потрібно встановити прапори за промовчанням в 0 так, як показано нижче.
 > 
 > **Приклад #1 Налаштування стандартного фільтра для роботи аналогічно функції htmlspecialchars**
 > 
@@ -45,4 +45,4 @@
 
 `filter.default_flags` int
 
-Прапори за промовчанням, які застосовуються, коли встановлено стандартний фільтр. За замовчуванням встановлено **`FILTER_FLAG_NO_ENCODE_QUOTES`** з метою збереження зворотної сумісності. Дивіться [список існуючих прапорів](filter.filters.flags.html) для ознайомлення зі списком усіх імен прапорів.
+Прапори за промовчанням, які застосовуються, коли встановлено стандартний фільтр. За замовчуванням встановлено **`FILTER_FLAG_NO_ENCODE_QUOTES`** з метою збереження зворотної сумісності. Дивіться [список існуючих прапорів](filter.filters.flags.md) для ознайомлення зі списком усіх імен прапорів.

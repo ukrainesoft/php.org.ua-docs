@@ -1,12 +1,12 @@
 Регулює контраст зображення
 
--   [« Imagick::shearImage](imagick.shearimage.html)
+-   [« Imagick::shearImage](imagick.shearimage.md)
     
--   [Imagick::sketchImage »](imagick.sketchimage.html)
+-   [Imagick::sketchImage »](imagick.sketchimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Регулює контраст зображення
     

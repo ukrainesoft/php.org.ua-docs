@@ -1,12 +1,12 @@
 Чекає на ексклюзивне блокування
 
--   [« SyncMutex::construct](syncmutex.construct.html)
+-   [« SyncMutex::construct](syncmutex.construct.md)
     
--   [SyncMutex::unlock »](syncmutex.unlock.html)
+-   [SyncMutex::unlock »](syncmutex.unlock.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SyncMutex](class.syncmutex.html)
+-   [SyncMutex](class.syncmutex.md)
     
 -   Чекає на ексклюзивне блокування
     
@@ -23,7 +23,7 @@ SyncMutex::lock — Чекає на ексклюзивне блокування
 public SyncMutex::lock(int $wait = -1): bool
 ```
 
-Отримує ексклюзивне блокування об'єкту [SyncMutex](class.syncmutex.html). Якщо блокування вже встановлено, внутрішній лічильник збільшується.
+Отримує ексклюзивне блокування об'єкту [SyncMutex](class.syncmutex.md). Якщо блокування вже встановлено, внутрішній лічильник збільшується.
 
 ### Список параметрів
 
@@ -58,4 +58,4 @@ $mutex->unlock();
 
 ### Дивіться також
 
--   [SyncMutex::unlock()](syncmutex.unlock.html) - Розблокує м'ютекс
+-   [SyncMutex::unlock()](syncmutex.unlock.md) - Розблокує м'ютекс

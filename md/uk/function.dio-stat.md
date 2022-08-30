@@ -4,9 +4,9 @@
     
 -   [diotcsetattr »](function.dio-tcsetattr.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції прямого введення/виводу](ref.dio.html)
+-   [Функції прямого введення/виводу](ref.dio.md)
     
 -   Отримати інформацію про файловий дескриптор
     

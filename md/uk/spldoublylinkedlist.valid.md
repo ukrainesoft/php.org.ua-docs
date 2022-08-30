@@ -1,12 +1,12 @@
 Перевіряє, чи містить вузли двозв'язковий список
 
--   [« SplDoublyLinkedList::unshift](spldoublylinkedlist.unshift.html)
+-   [« SplDoublyLinkedList::unshift](spldoublylinkedlist.unshift.md)
     
--   [SplStack »](class.splstack.html)
+-   [SplStack »](class.splstack.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
     
 -   Перевіряє, чи містить вузли двозв'язковий список
     

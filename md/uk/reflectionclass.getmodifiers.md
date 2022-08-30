@@ -1,12 +1,12 @@
 Повертає інформацію про модифікаторів класу
 
--   [« ReflectionClass::getMethods](reflectionclass.getmethods.html)
+-   [« ReflectionClass::getMethods](reflectionclass.getmethods.md)
     
--   [ReflectionClass::getName »](reflectionclass.getname.html)
+-   [ReflectionClass::getName »](reflectionclass.getname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає інформацію про модифікаторів класу
     
@@ -35,5 +35,5 @@ public ReflectionClass::getModifiers(): int
 
 ### Дивіться також
 
--   [ReflectionClass::getProperties()](reflectionclass.getproperties.html) - Повертає властивості
--   [Reflection::getModifierNames()](reflection.getmodifiernames.html) - Отримання імен модифікаторів
+-   [ReflectionClass::getProperties()](reflectionclass.getproperties.md) - Повертає властивості
+-   [Reflection::getModifierNames()](reflection.getmodifiernames.md) - Отримання імен модифікаторів

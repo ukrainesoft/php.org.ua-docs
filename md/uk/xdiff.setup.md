@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.xdiff.html)
     
--   [Требования »](xdiff.requirements.html)
+-   [Вимоги »](xdiff.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](xdiff.requirements.html)
+-   [Вимоги](xdiff.requirements.html)
 -   [Установка](xdiff.installation.html)
--   [Настройка во время выполнения](xdiff.configuration.html)
--   [Типы ресурсов](xdiff.resources.html)
+-   [Налаштування під час виконання](xdiff.configuration.html)
+-   [Типи ресурсів](xdiff.resources.html)

@@ -2,11 +2,11 @@
 
 -   [« strstartswith](function.str-starts-with.html)
     
--   [strcasecmp »](function.strcasecmp.html)
+-   [strcasecmp »](function.strcasecmp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Повертає інформацію про слова, що входять до рядка
     
@@ -51,9 +51,9 @@ str_word_count(string $string, int $format = 0, ?string $characters = null): arr
 
 ### список змін
 
-| Версия | Описание                                   |
-|--------|--------------------------------------------|
-|        | `characters` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `characters` тепер допускає значення null. |
 
 ### Приклади
 
@@ -114,7 +114,7 @@ Array
 
 ### Дивіться також
 
--   [explode()](function.explode.html) - Розбиває рядок за допомогою роздільника
+-   [explode()](function.explode.md) - Розбиває рядок за допомогою роздільника
 -   [pregsplit()](function.preg-split.html) - Розбиває рядок за регулярним виразом
 -   [countchars()](function.count-chars.html) - Повертає інформацію про символи, що входять до рядка
 -   [substrcount()](function.substr-count.html) - Повертає кількість входжень підрядка

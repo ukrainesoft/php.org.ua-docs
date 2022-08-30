@@ -1,12 +1,12 @@
 Отримати ім'я файлу
 
--   [« COMPersistHelper::construct](compersisthelper.construct.html)
+-   [« COMPersistHelper::construct](compersisthelper.construct.md)
     
--   [COMPersistHelper::GetMaxStreamSize »](compersisthelper.getmaxstreamsize.html)
+-   [COMPersistHelper::GetMaxStreamSize »](compersisthelper.getmaxstreamsize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [COMPersistHelper](class.compersisthelper.html)
+-   [COMPersistHelper](class.compersisthelper.md)
     
 -   Отримати ім'я файлу
     

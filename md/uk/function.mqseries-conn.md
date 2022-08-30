@@ -4,9 +4,9 @@ MQSeries MQCONN
     
 -   [mqseriesconnx »](function.mqseries-connx.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции mqseries](ref.mqseries.html)
+-   [Функции mqseries](ref.mqseries.md)
     
 -   MQSeries MQCONN
     

@@ -4,9 +4,9 @@
     
 -   [eiofallocate »](function.eio-fallocate.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Взаємодіє з libeio, поки всі запити не будуть виконані
     

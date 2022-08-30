@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](xhprof.requirements.html)
+-   [« Вимоги](xhprof.requirements.html)
     
--   [Настройка во время выполнения »](xhprof.configuration.html)
+-   [Налаштування під час виконання »](xhprof.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](xhprof.setup.html)
+-   [Встановлення та налаштування](xhprof.setup.html)
     
 -   Встановлення
     

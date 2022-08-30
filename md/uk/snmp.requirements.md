@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](snmp.setup.html)
+-   [« Встановлення та налаштування](snmp.setup.md)
     
--   [Установка »](snmp.installation.html)
+-   [Установка »](snmp.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](snmp.setup.html)
+-   [Встановлення та налаштування](snmp.setup.md)
     
 -   Вимоги
     

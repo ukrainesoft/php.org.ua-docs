@@ -4,9 +4,9 @@
     
 -   [ocinumfields »](function.oci-num-fields.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8 Функции](ref.oci8.html)
+-   [OCI8 Функции](ref.oci8.md)
     
 -   Ініціалізує новий дескриптор об'єкта LOB чи FILE
     
@@ -146,7 +146,7 @@ oci_free_statement($stmt);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocinewdescriptor()](function.ocinewdescriptor.html). У PHP 5.0.0 і вище [ocinewdescriptor()](function.ocinewdescriptor.html) є аліасом \*\*ocinewdescriptor()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocinewdescriptor()](function.ocinewdescriptor.md). У PHP 5.0.0 і вище [ocinewdescriptor()](function.ocinewdescriptor.md) є аліасом \*\*ocinewdescriptor()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
 
 ### Дивіться також
 

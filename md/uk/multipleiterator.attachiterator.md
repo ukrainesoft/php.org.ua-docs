@@ -1,12 +1,12 @@
 Приєднує ітератор
 
--   [« MultipleIterator](class.multipleiterator.html)
+-   [« MultipleIterator](class.multipleiterator.md)
     
--   [MultipleIterator::construct »](multipleiterator.construct.html)
+-   [MultipleIterator::construct »](multipleiterator.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MultipleIterator](class.multipleiterator.html)
+-   [MultipleIterator](class.multipleiterator.md)
     
 -   Приєднує ітератор
     
@@ -49,4 +49,4 @@ public MultipleIterator::attachIterator(Iterator $iterator, string|int|null $inf
 
 ### Дивіться також
 
--   [MultipleIterator::construct()](multipleiterator.construct.html) - Створює новий MultipleIterator
+-   [MultipleIterator::construct()](multipleiterator.construct.md) - Створює новий MultipleIterator

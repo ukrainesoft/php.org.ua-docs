@@ -4,9 +4,9 @@
     
 -   [cubriddataseek »](function.cubrid-data-seek.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
     
 -   Закриває з'єднання з базою даних
     

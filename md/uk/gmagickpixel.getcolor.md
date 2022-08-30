@@ -1,12 +1,12 @@
 Повертає колір
 
--   [« GmagickPixel::construct](gmagickpixel.construct.html)
+-   [« GmagickPixel::construct](gmagickpixel.construct.md)
     
--   [GmagickPixel::getcolorcount »](gmagickpixel.getcolorcount.html)
+-   [GmagickPixel::getcolorcount »](gmagickpixel.getcolorcount.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickPixel](class.gmagickpixel.html)
+-   [GmagickPixel](class.gmagickpixel.md)
     
 -   Повертає колір
     
@@ -23,7 +23,7 @@ GmagickPixel::getcolor — Повертає колір
 public GmagickPixel::getcolor(bool $as_array = false, bool $normalize_array = false): mixed
 ```
 
-Повертає колір об'єкту [GmagickPixel](class.gmagickpixel.html) як масиву (array) чи рядки (string). Якщо кольору встановлено прозорість, її значення повертається в четвертому елементі списку.
+Повертає колір об'єкту [GmagickPixel](class.gmagickpixel.md) як масиву (array) чи рядки (string). Якщо кольору встановлено прозорість, її значення повертається в четвертому елементі списку.
 
 ### Список параметрів
 

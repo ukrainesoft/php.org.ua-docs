@@ -1,12 +1,12 @@
 Створити файл rrd
 
--   [« Функції RRD](ref.rrd.html)
+-   [« Функції RRD](ref.rrd.md)
     
 -   [rrderror »](function.rrd-error.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.md)
     
 -   Створити файл rrd
     

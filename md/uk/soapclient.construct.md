@@ -1,12 +1,12 @@
 Конструктор класу SoapClient
 
--   [« SoapClient::call](soapclient.call.html)
+-   [« SoapClient::call](soapclient.call.md)
     
--   [SoapClient::doRequest »](soapclient.dorequest.html)
+-   [SoapClient::doRequest »](soapclient.dorequest.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SoapClient](class.soapclient.html)
+-   [SoapClient](class.soapclient.md)
     
 -   Конструктор класу SoapClient
     
@@ -21,7 +21,7 @@ SoapClient::construct - Конструктор класу SoapClient
 
 public **SoapClient::construct**(?string `$wsdl`, array `$options`
 
-Створює об'єкт [SoapClient](class.soapclient.html) для підключення до служби SOAP.
+Створює об'єкт [SoapClient](class.soapclient.md) для підключення до служби SOAP.
 
 ### Список параметрів
 
@@ -141,17 +141,17 @@ TCP-порт для використання при підключенні до 
 
 Використовується для зіставлення типів, визначених у WSDL із класами PHP. Має бути вказаний асоціативний масив (array) з іменами типів з WSDL як ключі та іменами класів PHP як значень. Зверніть увагу, що назва типу елемента не обов'язково збігається з ім'ям елемента (тега).
 
-Надані імена класів завжди повинні бути повністю визначені за допомогою будь-яких [просторів імен](language.namespaces.html) і ніколи не повинні починатися з ведучого слєша (`\`). Правильна форма може бути вказана за допомогою [::class](language.oop5.basic.html#language.oop5.basic.class.class)
+Надані імена класів завжди повинні бути повністю визначені за допомогою будь-яких [просторів імен](language.namespaces.md) і ніколи не повинні починатися з ведучого слєша (`\`). Правильна форма може бути вказана за допомогою [::class](language.oop5.basic.html#language.oop5.basic.class.class)
 
 Зверніть увагу, що при створенні класу конструктор не викликатиметься, але магічні методи [set()](language.oop5.overloading.html#object.set) і [get()](language.oop5.overloading.html#object.get) будуть викликатися окремих властивостей.
 
 `typemap` array
 
-Використовується для визначення зіставлень типів за допомогою визначених користувачем callback-функцій. Кожне зіставлення типів повинно бути масивом з ключами. `type_name` (Рядок (string), що визначає тип елемента XML); `type_ns` (рядок (string), що містить простір імен URI); `from_xml` [callable](language.types.callable.html), що приймає один рядковий параметр і повертає об'єкт) і `to_xml` [callable](language.types.callable.html), що приймає один об'єктний параметр і повертає рядок).
+Використовується для визначення зіставлень типів за допомогою визначених користувачем callback-функцій. Кожне зіставлення типів повинно бути масивом з ключами. `type_name` (Рядок (string), що визначає тип елемента XML); `type_ns` (рядок (string), що містить простір імен URI); `from_xml` [callable](language.types.callable.md), що приймає один рядковий параметр і повертає об'єкт) і `to_xml` [callable](language.types.callable.md), що приймає один об'єктний параметр і повертає рядок).
 
 `exceptions` bool
 
-Визначає, чи помилки викидатимуть виняток типу [SoapFault](class.soapfault.html)
+Визначає, чи помилки викидатимуть виняток типу [SoapFault](class.soapfault.md)
 
 За замовчуванням значення **`true`**
 
@@ -177,9 +177,9 @@ TCP-порт для використання при підключенні до 
 
 `stream_context` resource
 
-Контекст [stream context](context.html), створений за допомогою функції [streamcontextcreate()](function.stream-context-create.html), яка дає змогу встановити додаткові параметри.
+Контекст [stream context](context.md), створений за допомогою функції [streamcontextcreate()](function.stream-context-create.html), яка дає змогу встановити додаткові параметри.
 
-Контекст може містити [параметры контекста сокета](context.socket.html) [параметры контекста SSL](context.ssl.html), а також вибрані [опции контекста HTTP](context.http.html) `content_type` `header` `max_redirects` `protocol_version`, і `user_agent`
+Контекст може містити [параметри контексту сокету](context.socket.md) [параметри контексту SSL](context.ssl.md), а також вибрані [опции контекста HTTP](context.http.md) `content_type` `header` `max_redirects` `protocol_version`, і `user_agent`
 
 Зверніть увагу, що наступні заголовки HTTP генеруються автоматично або на основі інших параметрів і будуть ігноруватися, якщо вказані в параметрі контексту `'header'` `host` `connection` `user-agent` `content-length` `content-type` `cookie` `authorization` і `proxy-authorization`
 
@@ -231,7 +231,7 @@ $client = new SoapClient("some.wsdl", ['context' => $context]);
 
 Метод **SoapClient::construct()** виводить помилку рівня **`E_ERROR`**, якщо параметри `location` і `uri` не вказано у режимі не-WSDL.
 
-Викидається виняток [SoapFault](class.soapfault.html), якщо параметр `wsdl` URI не може бути завантажено.
+Викидається виняток [SoapFault](class.soapfault.md), якщо параметр `wsdl` URI не може бути завантажено.
 
 ### Приклади
 

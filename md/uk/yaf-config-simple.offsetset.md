@@ -4,7 +4,7 @@
     
 -   [YafConfigSimple::offsetUnset »](yaf-config-simple.offsetunset.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafConfigSimple](class.yaf-config-simple.html)
     

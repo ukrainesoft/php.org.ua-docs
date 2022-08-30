@@ -1,8 +1,8 @@
 Обумовлені константи
 
--   [« Типы ресурсов](mbstring.resources.html)
+-   [« Типи ресурсів](mbstring.resources.html)
     
--   [Краткий обзор поддерживаемых кодировок »](mbstring.encodings.html)
+-   [Короткий огляд підтримуваних кодувань »](mbstring.encodings.html)
     
 -   [PHP Manual](index.html)
     

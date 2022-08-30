@@ -1,12 +1,12 @@
 Клас Phar
 
--   [« Формат подписи Phar](phar.fileformat.signature.html)
+-   [« Формат подписи Phar](phar.fileformat.signature.md)
     
--   [Phar::addEmptyDir »](phar.addemptydir.html)
+-   [Phar::addEmptyDir »](phar.addemptydir.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Phar](book.phar.html)
+-   [Phar](book.phar.md)
     
 -   Клас Phar
     
@@ -218,59 +218,59 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [Phar::addEmptyDir](phar.addemptydir.html) — Додає в phar-архів порожню директорію
--   [Phar::addFile](phar.addfile.html) — Додає в phar-архів файл із файлової системи
--   [Phar::addFromString](phar.addfromstring.html) — Додає в phar-архів файл із рядка
--   [Phar::apiVersion](phar.apiversion.html) — Повертає версію API
--   [Phar::buildFromDirectory](phar.buildfromdirectory.html) — Створює phar-архів із файлів, розташованих усередині директорії
--   [Phar::buildFromIterator](phar.buildfromiterator.html) - Створює phar-архів з ітератора
--   [Phar::canCompress](phar.cancompress.html) — Перевіряє, чи модуль phar підтримує стиснення з використанням zlib або bzip2
--   [Phar::canWrite](phar.canwrite.html) — Перевіряє, чи підтримує модуль phar збереження та створення phar-архівів
--   [Phar::compress](phar.compress.html) - Стискає весь Phar-архів за допомогою Gzip- або Bzip2-стиснення
--   [Phar::compressFiles](phar.compressfiles.html) — Стискає всі файли у поточному Phar-архіві
--   [Phar::construct](phar.construct.html) — Створює об'єкт Phar-архіву
--   [Phar::convertToData](phar.converttodata.html) — Конвертує phar-архів у tar-або zip-файл, що не виконується.
--   [Phar::convertToExecutable](phar.converttoexecutable.html) — Конвертує phar-архів в інший формат файлу, що виконується.
--   [Phar::copy](phar.copy.html) — Копіює один файл усередині phar-архіву в інший новий файл усередині phar-архіву
--   [Phar::count](phar.count.html) — Повертає кількість записів (файлів) у Phar-архіві
--   [Phar::createDefaultStub](phar.createdefaultstub.html) — Створити заглушку у форматі phar-архіву
--   [Phar::decompress](phar.decompress.html) - Розпаковує весь Phar-архів
--   [Phar::decompressFiles](phar.decompressfiles.html) — Розпаковує всі файли в поточному Phar-архіві
--   [Phar::delMetadata](phar.delmetadata.html) — Видалити глобальні метадані в архіві phar
--   [Phar::delete](phar.delete.html) — Видаляє файл усередині phar-архіву
--   [Phar::destruct](phar.destruct.html) — Знищує об'єкт архіву Phar
--   [Phar::extractTo](phar.extractto.html) — Витягти вміст phar-архіву в директорію
--   [Phar::getAlias](phar.getalias.html) - Отримати псевдонім для Phar
--   [Phar::getMetadata](phar.getmetadata.html) — Витягти метадані phar-архіву
--   [Phar::getModified](phar.getmodified.html) — Визначити, чи змінювався phar-архів
--   [Phar::getPath](phar.getpath.html) — Отримати реальний шлях до Phar-архіву на диску
--   [Phar::getSignature](phar.getsignature.html) — Отримати MD5/SHA1/SHA256/SHA512/OpenSSL підпис Phar-архіву
--   [Phar::getStub](phar.getstub.html) — Отримати завантажувач PHP або завантажувач заглушки Phar-архіву
--   [Phar::getSupportedCompression](phar.getsupportedcompression.html) — Повертає масив підтримуваних алгоритмів стиснення.
--   [Phar::getSupportedSignatures](phar.getsupportedsignatures.html) — Отримати масив підтримуваних алгоритмів підпису архіву
--   [Phar::getVersion](phar.getversion.html) — Отримати версію Phar-архіву
--   [Phar::hasMetadata](phar.hasmetadata.html) — Перевірити, чи містить phar-архів глобальні метадані
--   [Phar::interceptFileFuncs](phar.interceptfilefuncs.html) - Вказує phar перехоплювати fopen, filegetcontents, opendir та всі stat-функції
--   [Phar::isBuffering](phar.isbuffering.html) — Перевірити, чи будуть операції з Phar-архівом буферизовані чи записані безпосередньо на диск
--   [Phar::isCompressed](phar.iscompressed.html) - Повертає Phar::GZ або PHAR::BZ2, якщо phar-архів стиснутий повністю (.tar.gz/tar.bz і так далі)
--   [Phar::isFileFormat](phar.isfileformat.html) — Перевірити, що phar-архів має заданий формат (tar/phar/zip)
--   [Phar::isValidPharFilename](phar.isvalidpharfilename.html) — Перевіряє, що ім'я файлу є коректним ім'ям phar-архіву.
--   [Phar::isWritable](phar.iswritable.html) - Перевіряє, чи можна модифікувати phar-архів
--   [Phar::loadPhar](phar.loadphar.html) — Завантажити phar-архів із псевдонімом
--   [Phar::mapPhar](phar.mapphar.html) — Прочитати поточний запущений phar-архів та зареєструвати його маніфест
--   [Phar::mount](phar.mount.html) — Монтування зовнішнього шляху або файлу до віртуального шляху в phar-архіві
--   [Phar::mungServer](phar.mungserver.html) - Визначити список до чотирьох $SERVER-змінних, які мають бути змінені для запуску
--   [Phar::offsetExists](phar.offsetexists.html) — Визначити, чи є файл у архіві
--   [Phar::offsetGet](phar.offsetget.html) — Отримати PharFileInfo об'єкт для конкретного файлу
--   [Phar::offsetSet](phar.offsetset.html) — Зміна вмісту файлу
--   [Phar::offsetUnset](phar.offsetunset.html) — Видалити файл із phar-архіву
--   [Phar::running](phar.running.html) — Отримати повний шлях на диску або повний URL запущеного Phar-архіву
--   [Phar::setAlias](phar.setalias.html) — Встановити псевдонім для Phar-архіву
--   [Phar::setDefaultStub](phar.setdefaultstub.html) — Встановити завантажувач PHP або початкову заглушку Phar-архіву в завантажувач за замовчуванням
--   [Phar::setMetadata](phar.setmetadata.html) — Встановити метадані phar-архіву
--   [Phar::setSignatureAlgorithm](phar.setsignaturealgorithm.html) — Встановити алгоритм підписання phar-архіву та застосування його
--   [Phar::setStub](phar.setstub.html) — Встановити завантажувач або заглушку в Phar-архів
--   [Phar::startBuffering](phar.startbuffering.html) — Запуск буферизації операцій запису, відключаючи запис змін Phar-архіву на диск
--   [Phar::stopBuffering](phar.stopbuffering.html) — Зупиняє буферизацію та записує всі зміни на диск
--   [Phar::unlinkArchive](phar.unlinkarchive.html) — Повністю видалити архів із пам'яті та з диска
--   [Phar::webPhar](phar.webphar.html) — Надсилає запит із браузера у внутрішній файл у phar-архіві
+-   [Phar::addEmptyDir](phar.addemptydir.md) — Додає в phar-архів порожню директорію
+-   [Phar::addFile](phar.addfile.md) — Додає в phar-архів файл із файлової системи
+-   [Phar::addFromString](phar.addfromstring.md) — Додає в phar-архів файл із рядка
+-   [Phar::apiVersion](phar.apiversion.md) — Повертає версію API
+-   [Phar::buildFromDirectory](phar.buildfromdirectory.md) — Створює phar-архів із файлів, розташованих усередині директорії
+-   [Phar::buildFromIterator](phar.buildfromiterator.md) - Створює phar-архів з ітератора
+-   [Phar::canCompress](phar.cancompress.md) — Перевіряє, чи модуль phar підтримує стиснення з використанням zlib або bzip2
+-   [Phar::canWrite](phar.canwrite.md) — Перевіряє, чи підтримує модуль phar збереження та створення phar-архівів
+-   [Phar::compress](phar.compress.md) - Стискає весь Phar-архів за допомогою Gzip- або Bzip2-стиснення
+-   [Phar::compressFiles](phar.compressfiles.md) — Стискає всі файли у поточному Phar-архіві
+-   [Phar::construct](phar.construct.md) — Створює об'єкт Phar-архіву
+-   [Phar::convertToData](phar.converttodata.md) — Конвертує phar-архів у tar-або zip-файл, що не виконується.
+-   [Phar::convertToExecutable](phar.converttoexecutable.md) — Конвертує phar-архів в інший формат файлу, що виконується.
+-   [Phar::copy](phar.copy.md) — Копіює один файл усередині phar-архіву в інший новий файл усередині phar-архіву
+-   [Phar::count](phar.count.md) — Повертає кількість записів (файлів) у Phar-архіві
+-   [Phar::createDefaultStub](phar.createdefaultstub.md) — Створити заглушку у форматі phar-архіву
+-   [Phar::decompress](phar.decompress.md) - Розпаковує весь Phar-архів
+-   [Phar::decompressFiles](phar.decompressfiles.md) — Розпаковує всі файли в поточному Phar-архіві
+-   [Phar::delMetadata](phar.delmetadata.md) — Видалити глобальні метадані в архіві phar
+-   [Phar::delete](phar.delete.md) — Видаляє файл усередині phar-архіву
+-   [Phar::destruct](phar.destruct.md) — Знищує об'єкт архіву Phar
+-   [Phar::extractTo](phar.extractto.md) — Витягти вміст phar-архіву в директорію
+-   [Phar::getAlias](phar.getalias.md) - Отримати псевдонім для Phar
+-   [Phar::getMetadata](phar.getmetadata.md) — Витягти метадані phar-архіву
+-   [Phar::getModified](phar.getmodified.md) — Визначити, чи змінювався phar-архів
+-   [Phar::getPath](phar.getpath.md) — Отримати реальний шлях до Phar-архіву на диску
+-   [Phar::getSignature](phar.getsignature.md) — Отримати MD5/SHA1/SHA256/SHA512/OpenSSL підпис Phar-архіву
+-   [Phar::getStub](phar.getstub.md) — Отримати завантажувач PHP або завантажувач заглушки Phar-архіву
+-   [Phar::getSupportedCompression](phar.getsupportedcompression.md) — Повертає масив підтримуваних алгоритмів стиснення.
+-   [Phar::getSupportedSignatures](phar.getsupportedsignatures.md) — Отримати масив підтримуваних алгоритмів підпису архіву
+-   [Phar::getVersion](phar.getversion.md) — Отримати версію Phar-архіву
+-   [Phar::hasMetadata](phar.hasmetadata.md) — Перевірити, чи містить phar-архів глобальні метадані
+-   [Phar::interceptFileFuncs](phar.interceptfilefuncs.md) - Вказує phar перехоплювати fopen, filegetcontents, opendir та всі stat-функції
+-   [Phar::isBuffering](phar.isbuffering.md) — Перевірити, чи будуть операції з Phar-архівом буферизовані чи записані безпосередньо на диск
+-   [Phar::isCompressed](phar.iscompressed.md) - Повертає Phar::GZ або PHAR::BZ2, якщо phar-архів стиснутий повністю (.tar.gz/tar.bz і так далі)
+-   [Phar::isFileFormat](phar.isfileformat.md) — Перевірити, що phar-архів має заданий формат (tar/phar/zip)
+-   [Phar::isValidPharFilename](phar.isvalidpharfilename.md) — Перевіряє, що ім'я файлу є коректним ім'ям phar-архіву.
+-   [Phar::isWritable](phar.iswritable.md) - Перевіряє, чи можна модифікувати phar-архів
+-   [Phar::loadPhar](phar.loadphar.md) — Завантажити phar-архів із псевдонімом
+-   [Phar::mapPhar](phar.mapphar.md) — Прочитати поточний запущений phar-архів та зареєструвати його маніфест
+-   [Phar::mount](phar.mount.md) — Монтування зовнішнього шляху або файлу до віртуального шляху в phar-архіві
+-   [Phar::mungServer](phar.mungserver.md) - Визначити список до чотирьох $SERVER-змінних, які мають бути змінені для запуску
+-   [Phar::offsetExists](phar.offsetexists.md) — Визначити, чи є файл у архіві
+-   [Phar::offsetGet](phar.offsetget.md) — Отримати PharFileInfo об'єкт для конкретного файлу
+-   [Phar::offsetSet](phar.offsetset.md) — Зміна вмісту файлу
+-   [Phar::offsetUnset](phar.offsetunset.md) — Видалити файл із phar-архіву
+-   [Phar::running](phar.running.md) — Отримати повний шлях на диску або повний URL запущеного Phar-архіву
+-   [Phar::setAlias](phar.setalias.md) — Встановити псевдонім для Phar-архіву
+-   [Phar::setDefaultStub](phar.setdefaultstub.md) — Встановити завантажувач PHP або початкову заглушку Phar-архіву в завантажувач за замовчуванням
+-   [Phar::setMetadata](phar.setmetadata.md) — Встановити метадані phar-архіву
+-   [Phar::setSignatureAlgorithm](phar.setsignaturealgorithm.md) — Встановити алгоритм підписання phar-архіву та застосування його
+-   [Phar::setStub](phar.setstub.md) — Встановити завантажувач або заглушку в Phar-архів
+-   [Phar::startBuffering](phar.startbuffering.md) — Запуск буферизації операцій запису, відключаючи запис змін Phar-архіву на диск
+-   [Phar::stopBuffering](phar.stopbuffering.md) — Зупиняє буферизацію та записує всі зміни на диск
+-   [Phar::unlinkArchive](phar.unlinkarchive.md) — Повністю видалити архів із пам'яті та з диска
+-   [Phar::webPhar](phar.webphar.md) — Надсилає запит із браузера у внутрішній файл у phar-архіві

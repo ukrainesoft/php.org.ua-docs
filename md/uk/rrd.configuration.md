@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](rrd.installation.html)
+-   [« Установка](rrd.installation.md)
     
--   [Типы ресурсов »](rrd.resources.html)
+-   [Типи ресурсів »](rrd.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](rrd.setup.html)
+-   [Встановлення та налаштування](rrd.setup.md)
     
 -   Налаштування під час виконання
     

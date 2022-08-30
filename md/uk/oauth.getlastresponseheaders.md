@@ -1,12 +1,12 @@
 Отримати заголовки останньої відповіді
 
--   [« OAuth::getLastResponse](oauth.getlastresponse.html)
+-   [« OAuth::getLastResponse](oauth.getlastresponse.md)
     
--   [OAuth::getLastResponseInfo »](oauth.getlastresponseinfo.html)
+-   [OAuth::getLastResponseInfo »](oauth.getlastresponseinfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](class.oauth.html)
+-   [OAuth](class.oauth.md)
     
 -   Отримати заголовки останньої відповіді
     

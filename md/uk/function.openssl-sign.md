@@ -43,7 +43,7 @@ openssl_sign(    string $data,    string &$signature,    OpenSSLAsym
 
 `algorithm`
 
-Ціле число, що визначає алгоритм. Дивіться [алгоритмы подписи](openssl.signature-algos.html)
+Ціле число, що визначає алгоритм. Дивіться [алгоритми підпису](openssl.signature-algos.html)
 
 Рядок, повернутий [opensslgetмдmethods()](function.openssl-get-md-methods.html). Наприклад, "sha256WithRSAEncryption" або "sha384".
 
@@ -53,9 +53,9 @@ openssl_sign(    string $data,    string &$signature,    OpenSSLAsym
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
 
 ### Приклади
 

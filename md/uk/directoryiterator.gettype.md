@@ -1,12 +1,12 @@
 Визначає тип поточного елемента DirectoryIterator
 
--   [« DirectoryIterator::getSize](directoryiterator.getsize.html)
+-   [« DirectoryIterator::getSize](directoryiterator.getsize.md)
     
--   [DirectoryIterator::isDir »](directoryiterator.isdir.html)
+-   [DirectoryIterator::isDir »](directoryiterator.isdir.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DirectoryIterator](class.directoryiterator.html)
+-   [DirectoryIterator](class.directoryiterator.md)
     
 -   Визначає тип поточного елемента DirectoryIterator
     
@@ -23,7 +23,7 @@ DirectoryIterator::getType — Визначає тип поточного еле
 public DirectoryIterator::getType(): string
 ```
 
-Визначає до якого типу належить поточний елемент [DirectoryIterator](class.directoryiterator.html). Можливі варіанти: `file` (файл), `link` (Посилання), або `dir` (Директорія).
+Визначає до якого типу належить поточний елемент [DirectoryIterator](class.directoryiterator.md). Можливі варіанти: `file` (файл), `link` (Посилання), або `dir` (Директорія).
 
 ### Список параметрів
 
@@ -59,7 +59,7 @@ pear.jpg file
 
 ### Дивіться також
 
--   [DirectoryIterator::isDir()](directoryiterator.isdir.html) - Визначає, чи є поточний елемент DirectoryIterator директорією
--   [DirectoryIterator::isDot()](directoryiterator.isdot.html) - Визначає, чи є поточний елемент DirectoryIterator '.' або '..'
--   [DirectoryIterator::isFile()](directoryiterator.isfile.html) - Визначає, чи є поточний елемент DirectoryIterator звичайним файлом
--   [DirectoryIterator::isLink()](directoryiterator.islink.html) - Визначає, чи є поточний елемент DirectoryIterator символічним посиланням
+-   [DirectoryIterator::isDir()](directoryiterator.isdir.md) - Визначає, чи є поточний елемент DirectoryIterator директорією
+-   [DirectoryIterator::isDot()](directoryiterator.isdot.md) - Визначає, чи є поточний елемент DirectoryIterator '.' або '..'
+-   [DirectoryIterator::isFile()](directoryiterator.isfile.md) - Визначає, чи є поточний елемент DirectoryIterator звичайним файлом
+-   [DirectoryIterator::isLink()](directoryiterator.islink.md) - Визначає, чи є поточний елемент DirectoryIterator символічним посиланням

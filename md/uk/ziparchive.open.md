@@ -1,12 +1,12 @@
 Відкриває ZIP-архів
 
--   [« ZipArchive::locateName](ziparchive.locatename.html)
+-   [« ZipArchive::locateName](ziparchive.locatename.md)
     
--   [ZipArchive::registerCancelCallback »](ziparchive.registercancelcallback.html)
+-   [ZipArchive::registerCancelCallback »](ziparchive.registercancelcallback.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Відкриває ZIP-архів
     

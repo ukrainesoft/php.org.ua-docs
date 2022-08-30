@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](shmop.requirements.html)
+-   [« Вимоги](shmop.requirements.md)
     
--   [Настройка во время выполнения »](shmop.configuration.html)
+-   [Налаштування під час виконання »](shmop.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](shmop.setup.html)
+-   [Встановлення та налаштування](shmop.setup.md)
     
 -   Встановлення
     

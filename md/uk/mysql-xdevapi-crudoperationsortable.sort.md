@@ -4,7 +4,7 @@
     
 -   [mysqlxdevapiDatabaseObject »](class.mysql-xdevapi-databaseobject.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiCrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.html)
     

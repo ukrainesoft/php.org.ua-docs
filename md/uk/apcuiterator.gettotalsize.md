@@ -1,12 +1,12 @@
 Загальний розмір кешу
 
--   [« APCUIterator::getTotalHits](apcuiterator.gettotalhits.html)
+-   [« APCUIterator::getTotalHits](apcuiterator.gettotalhits.md)
     
--   [APCUIterator::key »](apcuiterator.key.html)
+-   [APCUIterator::key »](apcuiterator.key.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [APCUIterator](class.apcuiterator.html)
+-   [APCUIterator](class.apcuiterator.md)
     
 -   Загальний розмір кешу
     
@@ -39,6 +39,6 @@ public APCUIterator::getTotalSize(): int
 
 ### Дивіться також
 
--   [APCUIterator::getTotalCount()](apcuiterator.gettotalcount.html) - Отримати загальну кількість записів
--   [APCUIterator::getTotalHits()](apcuiterator.gettotalhits.html) - Отримати загальну кількість попадань у кеш
+-   [APCUIterator::getTotalCount()](apcuiterator.gettotalcount.md) - Отримати загальну кількість записів
+-   [APCUIterator::getTotalHits()](apcuiterator.gettotalhits.md) - Отримати загальну кількість попадань у кеш
 -   **apccacheinfo()**

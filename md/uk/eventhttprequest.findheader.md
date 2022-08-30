@@ -1,12 +1,12 @@
 Отримує значення заголовка
 
--   [« EventHttpRequest::construct](eventhttprequest.construct.html)
+-   [« EventHttpRequest::construct](eventhttprequest.construct.md)
     
--   [EventHttpRequest::free »](eventhttprequest.free.html)
+-   [EventHttpRequest::free »](eventhttprequest.free.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpRequest](class.eventhttprequest.html)
+-   [EventHttpRequest](class.eventhttprequest.md)
     
 -   Отримує значення заголовка
     
@@ -48,4 +48,4 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::addHeader()](eventhttprequest.addheader.html) - Додає заголовок HTTP до заголовків запиту
+-   [EventHttpRequest::addHeader()](eventhttprequest.addheader.md) - Додає заголовок HTTP до заголовків запиту

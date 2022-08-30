@@ -1,12 +1,12 @@
 Перевіряє, що функція повертає посилання
 
--   [« ReflectionFunctionAbstract::isVariadic](reflectionfunctionabstract.isvariadic.html)
+-   [« ReflectionFunctionAbstract::isVariadic](reflectionfunctionabstract.isvariadic.md)
     
--   [ReflectionFunctionAbstract::toString »](reflectionfunctionabstract.tostring.html)
+-   [ReflectionFunctionAbstract::toString »](reflectionfunctionabstract.tostring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
     
 -   Перевіряє, що функція повертає посилання
     
@@ -35,4 +35,4 @@ public ReflectionFunctionAbstract::returnsReference(): bool
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::isClosure()](reflectionfunctionabstract.isclosure.html) - Перевіряє, чи є функція замикання (Closure)
+-   [ReflectionFunctionAbstract::isClosure()](reflectionfunctionabstract.isclosure.md) - Перевіряє, чи є функція замикання (Closure)

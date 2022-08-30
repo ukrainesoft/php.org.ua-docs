@@ -4,9 +4,9 @@
     
 -   [псsetvalue »](function.ps-set-value.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Встановлює позицію для виведення тексту
     

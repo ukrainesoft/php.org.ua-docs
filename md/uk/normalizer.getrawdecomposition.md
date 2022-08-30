@@ -1,12 +1,12 @@
 Витягує властивість DecompositionMapping для заданого символу UTF-8
 
--   [« Normalizer](class.normalizer.html)
+-   [« Normalizer](class.normalizer.md)
     
--   [Normalizer::isNormalized »](normalizer.isnormalized.html)
+-   [Normalizer::isNormalized »](normalizer.isnormalized.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Normalizer](class.normalizer.html)
+-   [Normalizer](class.normalizer.md)
     
 -   Витягує властивість DecompositionMapping для заданого символу UTF-8
     
@@ -112,5 +112,5 @@ error info: 'Code point out of range: U_ILLEGAL_ARGUMENT_ERROR' (1)
 
 ### Дивіться також
 
--   [Normalizer::normalize()](normalizer.normalize.html) - Нормалізація рядка
--   [Normalizer::isNormalized()](normalizer.isnormalized.html) - Перевірити, чи переданий рядок відповідає заданій формі нормалізації
+-   [Normalizer::normalize()](normalizer.normalize.md) - Нормалізація рядка
+-   [Normalizer::isNormalized()](normalizer.isnormalized.md) - Перевірити, чи переданий рядок відповідає заданій формі нормалізації

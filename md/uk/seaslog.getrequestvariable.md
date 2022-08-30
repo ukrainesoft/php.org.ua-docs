@@ -1,12 +1,12 @@
 Отримує змінну запиту SeasLog
 
--   [« SeasLog::getRequestID](seaslog.getrequestid.html)
+-   [« SeasLog::getRequestID](seaslog.getrequestid.md)
     
--   [SeasLog::info »](seaslog.info.html)
+-   [SeasLog::info »](seaslog.info.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SeasLog](class.seaslog.html)
+-   [SeasLog](class.seaslog.md)
     
 -   Отримує змінну запиту SeasLog
     
@@ -90,4 +90,4 @@ bool(false)
 
 ### Дивіться також
 
--   [SeasLog::setRequestVariable()](seaslog.setrequestvariable.html) - Встановлює змінну запиту SeasLog вручну
+-   [SeasLog::setRequestVariable()](seaslog.setrequestvariable.md) - Встановлює змінну запиту SeasLog вручну

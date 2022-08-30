@@ -1,12 +1,12 @@
 Клонує функцію
 
--   [« ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+-   [« ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
     
--   [ReflectionFunctionAbstract::getAttributes »](reflectionfunctionabstract.getattributes.html)
+-   [ReflectionFunctionAbstract::getAttributes »](reflectionfunctionabstract.getattributes.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
     
 -   Клонує функцію
     
@@ -35,10 +35,10 @@ private ReflectionFunctionAbstract::__clone(): void
 
 ### список змін
 
-| Версия | Описание                       |
-|--------|--------------------------------|
-|        | Метод не є остаточним (final). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод не є остаточним (final). |
 
 ### Дивіться також
 
--   [Копирование объектов](language.oop5.cloning.html)
+-   [Копіювання об'єктів](language.oop5.cloning.md)

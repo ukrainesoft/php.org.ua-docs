@@ -4,7 +4,7 @@
     
 -   [YarConcurrentClient »](class.yar-concurrent-client.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YarClient](class.yar-client.html)
     

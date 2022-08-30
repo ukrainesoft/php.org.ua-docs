@@ -1,12 +1,12 @@
 Перетворює задані символи або замінює підрядки
 
--   [« strtoupper](function.strtoupper.html)
+-   [« strtoupper](function.strtoupper.md)
     
 -   [substrcompare »](function.substr-compare.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Перетворює задані символи або замінює підрядки
     

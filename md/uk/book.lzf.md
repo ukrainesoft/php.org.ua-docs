@@ -14,12 +14,12 @@ LZF
 # LZF
 
 -   [Введение](intro.lzf.html)
--   [Установка и настройка](lzf.setup.html)
-    -   [Требования](lzf.requirements.html)
+-   [Встановлення та налаштування](lzf.setup.html)
+    -   [Вимоги](lzf.requirements.html)
     -   [Установка](lzf.installation.html)
-    -   [Настройка во время выполнения](lzf.configuration.html)
-    -   [Типы ресурсов](lzf.resources.html)
--   [Предопределённые константы](lzf.constants.html)
+    -   [Налаштування під час виконання](lzf.configuration.html)
+    -   [Типи ресурсів](lzf.resources.html)
+-   [Обумовлені константи](lzf.constants.html)
 -   [Функції LZF](ref.lzf.html)
     -   [lzfcompress](function.lzf-compress.html) - Стиснення LZF
     -   [lzfdecompress](function.lzf-decompress.html) - Розархівація LZF

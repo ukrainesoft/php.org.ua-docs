@@ -1,12 +1,12 @@
 Надає значення заданому зміщенню
 
--   [« ArrayAccess::offsetGet](arrayaccess.offsetget.html)
+-   [« ArrayAccess::offsetGet](arrayaccess.offsetget.md)
     
--   [ArrayAccess::offsetUnset »](arrayaccess.offsetunset.html)
+-   [ArrayAccess::offsetUnset »](arrayaccess.offsetunset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayAccess](class.arrayaccess.html)
+-   [ArrayAccess](class.arrayaccess.md)
     
 -   Надає значення заданому зміщенню
     
@@ -65,4 +65,4 @@ public ArrayAccess::offsetSet(mixed $offset, mixed $value): void
 
 > **Зауваження**
 > 
-> Даний метод не викликається при присвоєння за посиланням та інших непрямих змін величин масиву перевантаженого об'єкта [ArrayAccess](class.arrayaccess.html) (Непрямі в тому сенсі, що вони зроблені не прямою заміною величини, а шляхом зміни частина елемента або властивості елемента масиву, або присвоєнням елемента масиву за посиланням іншою зміною). Натомість, викликається метод [ArrayAccess::offsetGet()](arrayaccess.offsetget.html). Ця операція буде успішною лише в тому випадку, якщо метод повертає за посиланням.
+> Даний метод не викликається при присвоєння за посиланням та інших непрямих змін величин масиву перевантаженого об'єкта [ArrayAccess](class.arrayaccess.md) (Непрямі в тому сенсі, що вони зроблені не прямою заміною величини, а шляхом зміни частина елемента або властивості елемента масиву, або присвоєнням елемента масиву за посиланням іншою зміною). Натомість, викликається метод [ArrayAccess::offsetGet()](arrayaccess.offsetget.md). Ця операція буде успішною лише в тому випадку, якщо метод повертає за посиланням.

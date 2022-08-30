@@ -4,7 +4,7 @@
     
 -   [YafDispatcher::setErrorHandler »](yaf-dispatcher.seterrorhandler.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafDispatcher](class.yaf-dispatcher.html)
     

@@ -1,12 +1,12 @@
 Зменшує спекл-шум на зображенні
 
--   [« Imagick::deskewImage](imagick.deskewimage.html)
+-   [« Imagick::deskewImage](imagick.deskewimage.md)
     
--   [Imagick::destroy »](imagick.destroy.html)
+-   [Imagick::destroy »](imagick.destroy.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Зменшує спекл-шум на зображенні
     

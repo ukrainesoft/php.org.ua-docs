@@ -1,12 +1,12 @@
 Встановлює ітератор Imagick для першого зображення
 
--   [« Imagick::setFilename](imagick.setfilename.html)
+-   [« Imagick::setFilename](imagick.setfilename.md)
     
--   [Imagick::setFont »](imagick.setfont.html)
+-   [Imagick::setFont »](imagick.setfont.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює ітератор Imagick для першого зображення
     

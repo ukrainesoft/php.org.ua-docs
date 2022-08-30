@@ -2,11 +2,11 @@
 
 -   [« timenanosleep](function.time-nanosleep.html)
     
--   [uniqid »](function.uniqid.html)
+-   [uniqid »](function.uniqid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Різні функції](ref.misc.html)
+-   [Різні функції](ref.misc.md)
     
 -   Відкладає виконання скрипту до заданого часу
     
@@ -61,7 +61,7 @@ var_dump(time_sleep_until(microtime(true)+0.2));
 
 ### Дивіться також
 
--   [sleep()](function.sleep.html) - затримка виконання
--   [usleep()](function.usleep.html) - Затримка виконання у мікросекундах
+-   [sleep()](function.sleep.md) - затримка виконання
+-   [usleep()](function.usleep.md) - Затримка виконання у мікросекундах
 -   [timenanosleep()](function.time-nanosleep.html) - Затримка на задану кількість секунд та наносекунд
 -   [settimelimit()](function.set-time-limit.html) - Обмеження часу виконання скрипту

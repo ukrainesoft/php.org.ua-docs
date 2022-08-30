@@ -1,12 +1,12 @@
 Перейменовує файл або директорію
 
--   [« realpath](function.realpath.html)
+-   [« realpath](function.realpath.md)
     
--   [rewind »](function.rewind.html)
+-   [rewind »](function.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Перейменовує файл або директорію
     
@@ -43,7 +43,7 @@ rename(string $from, string $to, ?resource $context = null): bool
 
 `context`
 
-Ресурс (resource) з [контекстом потоку](stream.contexts.html)
+Ресурс (resource) з [контекстом потоку](stream.contexts.md)
 
 ### Значення, що повертаються
 
@@ -61,6 +61,6 @@ rename("/tmp/tmp_file.txt", "/home/user/login/docs/my_file.txt");
 
 ### Дивіться також
 
--   [copy()](function.copy.html) - Копіює файл
--   [unlink()](function.unlink.html) - Видаляє файл
+-   [copy()](function.copy.md) - Копіює файл
+-   [unlink()](function.unlink.md) - Видаляє файл
 -   [moveuploadedfile()](function.move-uploaded-file.html) - Переміщує завантажений файл у нове місце

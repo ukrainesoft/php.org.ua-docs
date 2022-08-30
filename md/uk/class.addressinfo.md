@@ -1,12 +1,12 @@
 Клас AddressInfo
 
--   [« Socket](class.socket.html)
+-   [« Socket](class.socket.md)
     
--   [SSH2 »](book.ssh2.html)
+-   [SSH2 »](book.ssh2.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Сокеты](book.sockets.html)
+-   [Сокети](book.sockets.md)
     
 -   Клас AddressInfo
     

@@ -1,12 +1,12 @@
 Визначає, чи час об'єкта переходить на літній час
 
--   [« IntlCalendar::getWeekendTransition](intlcalendar.getweekendtransition.html)
+-   [« IntlCalendar::getWeekendTransition](intlcalendar.getweekendtransition.md)
     
--   [IntlCalendar::isEquivalentTo »](intlcalendar.isequivalentto.html)
+-   [IntlCalendar::isEquivalentTo »](intlcalendar.isequivalentto.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Визначає, чи час об'єкта переходить на літній час
     
@@ -37,7 +37,7 @@ intlcal_in_daylight_time(IntlCalendar $calendar): bool
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 ### Значення, що повертаються
 

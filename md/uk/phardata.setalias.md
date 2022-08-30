@@ -1,12 +1,12 @@
 Функція заглушка (Phar::setAlias ​​не можна використовувати для PharData)
 
--   [« PharData::offsetUnset](phardata.offsetunset.html)
+-   [« PharData::offsetUnset](phardata.offsetunset.md)
     
--   [PharData::setDefaultStub »](phardata.setdefaultstub.html)
+-   [PharData::setDefaultStub »](phardata.setdefaultstub.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharData](class.phardata.html)
+-   [PharData](class.phardata.md)
     
 -   Функція заглушка (Phar::setAlias ​​не можна використовувати для PharData)
     
@@ -35,8 +35,8 @@ public PharData::setAlias(string $alias): bool
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.html)
+Викидає виняток [PharException](class.pharexception.md)
 
 ### Дивіться також
 
--   [Phar::setAlias()](phar.setalias.html) - Встановити псевдонім для Phar-архіву
+-   [Phar::setAlias()](phar.setalias.md) - Встановити псевдонім для Phar-архіву

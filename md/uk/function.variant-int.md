@@ -4,9 +4,9 @@
     
 -   [variantmod »](function.variant-mod.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции COM](ref.com.html)
+-   [Функции COM](ref.com.md)
     
 -   Повернути цілу частину варіанта
     
@@ -33,7 +33,7 @@ variant_int(mixed $value): variant
 
 > **Зауваження**
 > 
-> Як і з усіма варіантними арифметичними функціями, параметри цієї функції можуть бути як рідними типами PHP (integer, string, floating point, boolean або **`null`**), і екземплярами класів COM, VARIANT чи DOTNET. Рідні PHP типи будуть перетворені на варіанти (variants) за тими самими правилами, що і в конструкторі класу [variant](class.variant.html). У об'єктів COM і DOTNET буде взято та використано їх значення за умовчанням як значення варіанта.
+> Як і з усіма варіантними арифметичними функціями, параметри цієї функції можуть бути як рідними типами PHP (integer, string, floating point, boolean або **`null`**), і екземплярами класів COM, VARIANT чи DOTNET. Рідні PHP типи будуть перетворені на варіанти (variants) за тими самими правилами, що і в конструкторі класу [variant](class.variant.md). У об'єктів COM і DOTNET буде взято та використано їх значення за умовчанням як значення варіанта.
 > 
 > Варіантні арифметичні функції є обертанням навколо однойменних функцій у бібліотеці COM; для більш детальної інформації про ці функції проконсультуйтеся з бібліотекою MSDN. Назви PHP-функцій дещо відрізняються; наприклад, [variantadd()](function.variant-add.html) у PHP відповідає `VarAdd()` у документації MSDN.
 
@@ -49,6 +49,6 @@ variant_int(mixed $value): variant
 
 -   [variantfix()](function.variant-fix.html) - Повернути цілу частину варіанта
 -   [variantround()](function.variant-round.html) - Округлює варіант із заданою точністю
--   [floor()](function.floor.html) - Округлює дріб у менший бік
--   [ceil()](function.ceil.html) - Округлює дріб у велику сторону
--   [round()](function.round.html) - Округлює кількість типу float
+-   [floor()](function.floor.md) - Округлює дріб у менший бік
+-   [ceil()](function.ceil.md) - Округлює дріб у велику сторону
+-   [round()](function.round.md) - Округлює кількість типу float

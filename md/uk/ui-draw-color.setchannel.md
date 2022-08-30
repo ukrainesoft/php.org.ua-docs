@@ -4,7 +4,7 @@
     
 -   [ОЙDrawStroke »](class.ui-draw-stroke.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawColor](class.ui-draw-color.html)
     

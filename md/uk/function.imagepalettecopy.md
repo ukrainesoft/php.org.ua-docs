@@ -1,12 +1,12 @@
 Копіювання палітри з одного зображення до іншого
 
--   [« imageopenpolygon](function.imageopenpolygon.html)
+-   [« imageopenpolygon](function.imageopenpolygon.md)
     
--   [imagepalettetotruecolor »](function.imagepalettetotruecolor.html)
+-   [imagepalettetotruecolor »](function.imagepalettetotruecolor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Копіювання палітри з одного зображення до іншого
     
@@ -41,9 +41,9 @@ imagepalettecopy(GdImage $dst, GdImage $src): void
 
 ### список змін
 
-| Версия | Описание                                                                                                    |
-|--------|-------------------------------------------------------------------------------------------------------------|
-|        | `dst` і `src` тепер чекають на екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `dst` і `src` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 

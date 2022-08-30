@@ -1,12 +1,12 @@
 Повертає статичні властивості
 
--   [« ReflectionClass::getStartLine](reflectionclass.getstartline.html)
+-   [« ReflectionClass::getStartLine](reflectionclass.getstartline.md)
     
--   [ReflectionClass::getStaticPropertyValue »](reflectionclass.getstaticpropertyvalue.html)
+-   [ReflectionClass::getStaticPropertyValue »](reflectionclass.getstaticpropertyvalue.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає статичні властивості
     
@@ -39,5 +39,5 @@ public ReflectionClass::getStaticProperties(): ?array
 
 ### Дивіться також
 
--   [ReflectionClass::getStaticPropertyValue()](reflectionclass.getstaticpropertyvalue.html) - Повертає значення статичної властивості
--   [ReflectionClass::setStaticPropertyValue()](reflectionclass.setstaticpropertyvalue.html) - Встановлює значення статичної властивості
+-   [ReflectionClass::getStaticPropertyValue()](reflectionclass.getstaticpropertyvalue.md) - Повертає значення статичної властивості
+-   [ReflectionClass::setStaticPropertyValue()](reflectionclass.setstaticpropertyvalue.md) - Встановлює значення статичної властивості

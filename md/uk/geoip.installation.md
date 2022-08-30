@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](geoip.requirements.html)
+-   [« Вимоги](geoip.requirements.html)
     
--   [Настройка во время выполнения »](geoip.configuration.html)
+-   [Налаштування під час виконання »](geoip.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](geoip.setup.html)
+-   [Встановлення та налаштування](geoip.setup.html)
     
 -   Встановлення
     

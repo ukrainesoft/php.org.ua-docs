@@ -1,12 +1,12 @@
 Встановлює ітератор Imagick до останнього зображення
 
--   [« Imagick::setIteratorIndex](imagick.setiteratorindex.html)
+-   [« Imagick::setIteratorIndex](imagick.setiteratorindex.md)
     
--   [Imagick::setOption »](imagick.setoption.html)
+-   [Imagick::setOption »](imagick.setoption.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює ітератор Imagick до останнього зображення
     

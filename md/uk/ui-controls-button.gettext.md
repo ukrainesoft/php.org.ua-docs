@@ -4,7 +4,7 @@
     
 -   [ОЙControlsButton::onClick »](ui-controls-button.onclick.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsButton](class.ui-controls-button.html)
     

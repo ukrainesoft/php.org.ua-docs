@@ -1,12 +1,12 @@
 Вбудовування двійкових IPTC даних у JPEG зображення
 
--   [« imagexbm](function.imagexbm.html)
+-   [« imagexbm](function.imagexbm.md)
     
--   [iptcparse »](function.iptcparse.html)
+-   [iptcparse »](function.iptcparse.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Вбудовування двійкових IPTC даних у JPEG зображення
     

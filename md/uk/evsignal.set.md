@@ -1,12 +1,12 @@
 Налаштування спостерігача
 
--   [« EvSignal::createStopped](evsignal.createstopped.html)
+-   [« EvSignal::createStopped](evsignal.createstopped.md)
     
--   [EvStat »](class.evstat.html)
+-   [EvStat »](class.evstat.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvSignal](class.evsignal.html)
+-   [EvSignal](class.evsignal.md)
     
 -   Налаштування спостерігача
     
@@ -33,7 +33,7 @@ public
 
 `signum`
 
-Номер сигналу. Як описано в [EvSignal::construct()](evsignal.construct.html)
+Номер сигналу. Як описано в [EvSignal::construct()](evsignal.construct.md)
 
 ### Значення, що повертаються
 

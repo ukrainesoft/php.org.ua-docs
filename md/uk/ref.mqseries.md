@@ -1,6 +1,6 @@
 Функції mqseries
 
--   [« Предопределённые константы](mqseries.constants.html)
+-   [« Обумовлені константи](mqseries.constants.html)
     
 -   [mqseriesback »](function.mqseries-back.html)
     

@@ -1,12 +1,12 @@
 Отримує трасування стека
 
--   [« Exception::getLine](exception.getline.html)
+-   [« Exception::getLine](exception.getline.md)
     
--   [Exception::getTraceAsString »](exception.gettraceasstring.html)
+-   [Exception::getTraceAsString »](exception.gettraceasstring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Exception](class.exception.html)
+-   [Exception](class.exception.md)
     
 -   Отримує трасування стека
     
@@ -72,4 +72,4 @@ array(1) {
 
 ### Дивіться також
 
--   [Throwable::getTrace()](throwable.gettrace.html) - Повертає трасування стека
+-   [Throwable::getTrace()](throwable.gettrace.md) - Повертає трасування стека

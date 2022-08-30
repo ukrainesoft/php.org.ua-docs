@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverWriteConcern::serialize »](mongodb-driver-writeconcern.serialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
     

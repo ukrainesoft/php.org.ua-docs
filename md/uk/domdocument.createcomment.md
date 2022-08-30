@@ -1,12 +1,12 @@
 Створити новий вузол коментаря
 
--   [« DOMDocument::createCDATASection](domdocument.createcdatasection.html)
+-   [« DOMDocument::createCDATASection](domdocument.createcdatasection.md)
     
--   [DOMDocument::createDocumentFragment »](domdocument.createdocumentfragment.html)
+-   [DOMDocument::createDocumentFragment »](domdocument.createdocumentfragment.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMDocument](class.domdocument.html)
+-   [DOMDocument](class.domdocument.md)
     
 -   Створити новий вузол коментаря
     
@@ -23,7 +23,7 @@ DOMDocument::createComment — Створити новий вузол комен
 public DOMDocument::createComment(string $data): DOMComment
 ```
 
-Ця функція створює новий екземпляр класу [DOMComment](class.domcomment.html). Цей вузол не відображатиметься в документі, доки він не буде вставлений, наприклад, функцією [DOMNode::appendChild()](domnode.appendchild.html)
+Ця функція створює новий екземпляр класу [DOMComment](class.domcomment.md). Цей вузол не відображатиметься в документі, доки він не буде вставлений, наприклад, функцією [DOMNode::appendChild()](domnode.appendchild.md)
 
 ### Список параметрів
 
@@ -33,23 +33,23 @@ public DOMDocument::createComment(string $data): DOMComment
 
 ### Значення, що повертаються
 
-Новий об'єкт класу [DOMComment](class.domcomment.html)
+Новий об'єкт класу [DOMComment](class.domcomment.md)
 
 ### список змін
 
-| Версия | Описание                                                                                                                                   |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі виникнення помилки тепер викидає виняток [DomException](class.domexception.html). Раніше натомість поверталося значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | У разі виникнення помилки тепер викидає виняток [DomException](class.domexception.md). Раніше натомість поверталося значення **`false`** |
 
 ### Дивіться також
 
--   [DOMNode::appendChild()](domnode.appendchild.html) - Додає новий дочірній вузол до кінця списку нащадків
--   [DOMDocument::createAttribute()](domdocument.createattribute.html) - Створити новий атрибут
--   [DOMDocument::createAttributeNS()](domdocument.createattributens.html) - Створює новий атрибут вузла з відповідним простором імен
--   [DOMDocument::createCDATASection()](domdocument.createcdatasection.html) - Створює новий вузол cdata
--   [DOMDocument::createDocumentFragment()](domdocument.createdocumentfragment.html) - створити новий фрагмент документа
--   [DOMDocument::createElement()](domdocument.createelement.html) - Створити новий вузол елемента
--   [DOMDocument::createElementNS()](domdocument.createelementns.html) - Створити новий вузол елемента з відповідним простором імен
--   [DOMDocument::createEntityReference()](domdocument.createentityreference.html) - Створити новий вузол посилання на суть
--   [DOMDocument::createProcessingInstruction()](domdocument.createprocessinginstruction.html) - Створити новий PI-вузол
--   [DOMDocument::createTextNode()](domdocument.createtextnode.html) - Створити новий текстовий вузол
+-   [DOMNode::appendChild()](domnode.appendchild.md) - Додає новий дочірній вузол до кінця списку нащадків
+-   [DOMDocument::createAttribute()](domdocument.createattribute.md) - Створити новий атрибут
+-   [DOMDocument::createAttributeNS()](domdocument.createattributens.md) - Створює новий атрибут вузла з відповідним простором імен
+-   [DOMDocument::createCDATASection()](domdocument.createcdatasection.md) - Створює новий вузол cdata
+-   [DOMDocument::createDocumentFragment()](domdocument.createdocumentfragment.md) - створити новий фрагмент документа
+-   [DOMDocument::createElement()](domdocument.createelement.md) - Створити новий вузол елемента
+-   [DOMDocument::createElementNS()](domdocument.createelementns.md) - Створити новий вузол елемента з відповідним простором імен
+-   [DOMDocument::createEntityReference()](domdocument.createentityreference.md) - Створити новий вузол посилання на суть
+-   [DOMDocument::createProcessingInstruction()](domdocument.createprocessinginstruction.md) - Створити новий PI-вузол
+-   [DOMDocument::createTextNode()](domdocument.createtextnode.md) - Створити новий текстовий вузол

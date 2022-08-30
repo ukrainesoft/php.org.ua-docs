@@ -1,12 +1,12 @@
 Видаляє краї із зображення
 
--   [« Imagick::transverseImage](imagick.transverseimage.html)
+-   [« Imagick::transverseImage](imagick.transverseimage.md)
     
--   [Imagick::uniqueImageColors »](imagick.uniqueimagecolors.html)
+-   [Imagick::uniqueImageColors »](imagick.uniqueimagecolors.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Видаляє краї із зображення
     
@@ -61,6 +61,6 @@ echo $im;
 
 ### Дивіться також
 
--   [Imagick::getQuantumDepth()](imagick.getquantumdepth.html) - Повертає величину глибини
--   [Imagick::getQuantumRange()](imagick.getquantumrange.html) - Повертає величину розміру спектру Imagick
--   [imagecropauto()](function.imagecropauto.html) - Обрізає зображення автоматично, використовуючи один із доступних режимів
+-   [Imagick::getQuantumDepth()](imagick.getquantumdepth.md) - Повертає величину глибини
+-   [Imagick::getQuantumRange()](imagick.getquantumrange.md) - Повертає величину розміру спектру Imagick
+-   [imagecropauto()](function.imagecropauto.md) - Обрізає зображення автоматично, використовуючи один із доступних режимів

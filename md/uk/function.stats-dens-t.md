@@ -4,9 +4,9 @@
     
 -   [statsdensuniform »](function.stats-dens-uniform.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Щільність ймовірності розподілу Стьюдента
     

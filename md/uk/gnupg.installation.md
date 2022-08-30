@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](gnupg.requirements.html)
+-   [« Вимоги](gnupg.requirements.html)
     
--   [Настройка во время выполнения »](gnupg.configuration.html)
+-   [Налаштування під час виконання »](gnupg.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](gnupg.setup.html)
+-   [Встановлення та налаштування](gnupg.setup.html)
     
 -   Встановлення
     

@@ -1,12 +1,12 @@
 Встановити опцію сокету
 
--   [« ZMQContext::isPersistent](zmqcontext.ispersistent.html)
+-   [« ZMQContext::isPersistent](zmqcontext.ispersistent.md)
     
--   [ZMQSocket »](class.zmqsocket.html)
+-   [ZMQSocket »](class.zmqsocket.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQContext](class.zmqcontext.html)
+-   [ZMQContext](class.zmqcontext.md)
     
 -   Встановити опцію сокету
     
@@ -23,7 +23,7 @@ ZMQContext::setOpt — Встановити опцію сокету
 public ZMQContext::setOpt(int $key, mixed $value): ZMQContext
 ```
 
-Встановлює опцію контексту ZMQ. Тип `value` залежить від `key`. Дивіться [Типы Констант ZMQ](class.zmq.html#zmq.constants)
+Встановлює опцію контексту ZMQ. Тип `value` залежить від `key`. Дивіться [Типи Констант ZMQ](class.zmq.html#zmq.constants)
 
 ### Список параметрів
 

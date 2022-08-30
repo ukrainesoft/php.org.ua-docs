@@ -1,12 +1,12 @@
 Перевіряє, чи існує конкретне поле
 
--   [« SolrDocument::next](solrdocument.next.html)
+-   [« SolrDocument::next](solrdocument.next.md)
     
--   [SolrDocument::offsetGet »](solrdocument.offsetget.html)
+-   [SolrDocument::offsetGet »](solrdocument.offsetget.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocument](class.solrdocument.html)
+-   [SolrDocument](class.solrdocument.md)
     
 -   Перевіряє, чи існує конкретне поле
     

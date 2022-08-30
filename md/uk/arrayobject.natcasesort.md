@@ -1,12 +1,12 @@
 Сортувати масив, використовуючи реєстронезалежний алгоритм "natural order"
 
--   [« ArrayObject::ksort](arrayobject.ksort.html)
+-   [« ArrayObject::ksort](arrayobject.ksort.md)
     
--   [ArrayObject::natsort »](arrayobject.natsort.html)
+-   [ArrayObject::natsort »](arrayobject.natsort.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayObject](class.arrayobject.html)
+-   [ArrayObject](class.arrayobject.md)
     
 -   Сортувати масив, використовуючи реєстронезалежний алгоритм "natural order"
     
@@ -23,7 +23,7 @@ ArrayObject::natcasesort — Сортувати масив, використов
 public ArrayObject::natcasesort(): bool
 ```
 
-Цей метод є реєстронезалежною версією [ArrayObject::natsort](arrayobject.natsort.html)
+Цей метод є реєстронезалежною версією [ArrayObject::natsort](arrayobject.natsort.md)
 
 Цей метод реалізує алгоритм сортування, при якому порядок літерно-цифрових рядків буде звичним для людини, зберігаючи при цьому ключ/значення. Такий алгоритм називається "природний порядок" (natural ordering).
 
@@ -90,9 +90,9 @@ ArrayObject Object
 
 ### Дивіться також
 
--   [ArrayObject::asort()](arrayobject.asort.html) - Сортувати записи за значенням
--   [ArrayObject::ksort()](arrayobject.ksort.html) - Сортувати записи за ключами
--   [ArrayObject::natsort()](arrayobject.natsort.html) - Сортувати масив, використовуючи алгоритм "natural order"
--   [ArrayObject::uasort()](arrayobject.uasort.html) - Сортувати записи, використовуючи функцію користувача для порівняння елементів і зберігаючи при цьому зв'язок ключ/значення
--   [ArrayObject::uksort()](arrayobject.uksort.html) - Сортувати масив за ключами, використовуючи функцію користувача для порівняння
--   [natcasesort()](function.natcasesort.html) - Сортує масив, використовуючи алгоритм "natural order" без урахування регістру символів
+-   [ArrayObject::asort()](arrayobject.asort.md) - Сортувати записи за значенням
+-   [ArrayObject::ksort()](arrayobject.ksort.md) - Сортувати записи за ключами
+-   [ArrayObject::natsort()](arrayobject.natsort.md) - Сортувати масив, використовуючи алгоритм "natural order"
+-   [ArrayObject::uasort()](arrayobject.uasort.md) - Сортувати записи, використовуючи функцію користувача для порівняння елементів і зберігаючи при цьому зв'язок ключ/значення
+-   [ArrayObject::uksort()](arrayobject.uksort.md) - Сортувати масив за ключами, використовуючи функцію користувача для порівняння
+-   [natcasesort()](function.natcasesort.md) - Сортує масив, використовуючи алгоритм "natural order" без урахування регістру символів

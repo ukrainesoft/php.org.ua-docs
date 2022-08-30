@@ -1,12 +1,12 @@
 Нові можливості
 
--   [« Зміни, що ламають зворотну сумісність](migration56.incompatible.html)
+-   [« Зміни, що ламають зворотну сумісність](migration56.incompatible.md)
     
--   [Функционал, объявленный устаревшим в PHP 5.6.x »](migration56.deprecated.html)
+-   [Функціонал, оголошений застарілим у PHP 5.6.x »](migration56.deprecated.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 5.5.x на PHP 5.6.x](migration56.html)
+-   [Миграция с PHP 5.5.x на PHP 5.6.x](migration56.md)
     
 -   Нові можливості
     
@@ -67,7 +67,7 @@ a
 ```php
 <?php
 function f($req, $opt = null, ...$params) {
-    // $params - массив, содержащий все остальные аргументы.
+    // $params - Масив, содержащий все остальные аргументы.
     printf('$req: %d; $opt: %d; количество параметров: %d'."\n",
            $req, $opt, count($params));
 }
@@ -92,7 +92,7 @@ $req: 1; $opt: 2; количество параметров: 3
 
 ### Розпакування аргументів за допомогою `...`
 
-[Массивы](language.types.array.html) та об'єкти, що реалізують інтерфейс [Traversable](class.traversable.html), можуть бути розпаковані в список аргументів під час передачі у функцію за допомогою оператора `...`
+[Масиви](language.types.array.md) та об'єкти, що реалізують інтерфейс [Traversable](class.traversable.md), можуть бути розпаковані в список аргументів під час передачі у функцію за допомогою оператора `...`
 
 ```php
 <?php
@@ -136,7 +136,7 @@ a ==           8
 
 ### `use function` і `use const`
 
-Оператор [`use`](language.namespaces.importing.html) був розширений для підтримки імпорту функцій та констант на додаток до класів. Це досягається за допомогою конструкцій `use function` і `use const`відповідно.
+Оператор [`use`](language.namespaces.importing.md) був розширений для підтримки імпорту функцій та констант на додаток до класів. Це досягається за допомогою конструкцій `use function` і `use const`відповідно.
 
 ```php
 <?php
@@ -164,11 +164,11 @@ Name\Space\f
 
 ### phpdbg
 
-Тепер PHP містить інтерактивний дебаггер, що називається "phpdbg" і реалізований як модуль SAPI. Подробиці дивіться у [документации phpdbg](book.phpdbg.html)
+Тепер PHP містить інтерактивний дебаггер, що називається "phpdbg" і реалізований як модуль SAPI. Подробиці дивіться у [документации phpdbg](book.phpdbg.md)
 
 ### Кодування за замовчуванням
 
-Доданий ini-параметр [defaultcharset](ini.core.html#ini.default-charset), в якому можна вказати кодування за промовчанням для використання у функціях [htmlentities()](function.htmlentities.html) [htmlentitydecode()](function.html-entity-decode.html) і [htmlspecialchars()](function.htmlspecialchars.html). Зверніть увагу, що якщо (зараз вважається застарілим) задані параметри кодування iconv та mbstring, вони матимуть перевагу перед defaultcharset для iconv та mbstring.
+Доданий ini-параметр [defaultcharset](ini.core.html#ini.default-charset), в якому можна вказати кодування за промовчанням для використання у функціях [htmlentities()](function.htmlentities.md) [htmlentitydecode()](function.html-entity-decode.html) і [htmlspecialchars()](function.htmlspecialchars.md). Зверніть увагу, що якщо (зараз вважається застарілим) задані параметри кодування iconv та mbstring, вони матимуть перевагу перед defaultcharset для iconv та mbstring.
 
 Значення цієї настройки за промовчанням дорівнює `UTF-8`
 
@@ -180,9 +180,9 @@ Name\Space\f
 
 Тепер можна завантажувати файли розміром понад 2ГБ.
 
-### [GMP](book.gmp.html) підтримує навантаження операторів
+### [GMP](book.gmp.md) підтримує навантаження операторів
 
-Об'єкти [GMP](book.gmp.html) тепер підтримують перевантаження операторів та приведення до скалярних типів. Це дозволяє використовувати GMP у вашому коді більш виразно:
+Об'єкти [GMP](book.gmp.md) тепер підтримують перевантаження операторів та приведення до скалярних типів. Це дозволяє використовувати GMP у вашому коді більш виразно:
 
 ```php
 <?php
@@ -211,7 +211,7 @@ if (version_compare(PHP_VERSION, '5.6', '<')) {
 
 ### [hashequals()](function.hash-equals.html) для запобігання атакам за часом при порівнянні рядків
 
-Була додана функція [hashequals()](function.hash-equals.html) для порівняння двох рядків за постійний час. Це має допомогти уникнути атак у часі; наприклад, під час тестування хешування паролів функцією [crypt()](function.crypt.html) (за умови, що ви не можете використовувати [passwordhash()](function.password-hash.html) і [passwordverify()](function.password-verify.html), які не піддаються атакам за часом).
+Була додана функція [hashequals()](function.hash-equals.html) для порівняння двох рядків за постійний час. Це має допомогти уникнути атак у часі; наприклад, під час тестування хешування паролів функцією [crypt()](function.crypt.md) (за умови, що ви не можете використовувати [passwordhash()](function.password-hash.html) і [passwordverify()](function.password-verify.html), які не піддаються атакам за часом).
 
 ```php
 <?php
@@ -270,10 +270,10 @@ object(C)#1 (1) {
 
 ### Поліпшення SSL/TLS
 
-Дуже багато було зроблено для покращення підтримки SSL/TLS у PHP 5.6. Включаючи [разрешение проверки пиров по умолчанию](migration56.incompatible.html#migration56.incompatible.peer-verification), підтримка звірки відбитків сертифікатів, зниження впливу атаки переєднання TLS і безлічі нових [опций контекста SSL](context.ssl.html) для більш точного контролю над параметрами протоколу та перевірок під час використання зашифрованих потоків.
+Дуже багато було зроблено для покращення підтримки SSL/TLS у PHP 5.6. Включаючи [разрешение проверки пиров по умолчанию](migration56.incompatible.html#migration56.incompatible.peer-verification), підтримка звірки відбитків сертифікатів, зниження впливу атаки переєднання TLS і безлічі нових [опций контекста SSL](context.ssl.md) для більш точного контролю над параметрами протоколу та перевірок під час використання зашифрованих потоків.
 
-Докладніше всі ці зміни описані в розділі цього посібника [Изменения OpenSSL в PHP 5.6.x](migration56.openssl.html)
+Докладніше всі ці зміни описані в розділі цього посібника [Изменения OpenSSL в PHP 5.6.x](migration56.openssl.md)
 
-### Підтримка асинхронності [pgsql](book.pgsql.html)
+### Підтримка асинхронності [pgsql](book.pgsql.md)
 
-Модуль [pgsql](book.pgsql.html) тепер підтримує асинхронні з'єднання та запити, тим самим дозволяючи неблокуючу взаємодію з базами даних PostgreSQL. Асинхронні з'єднання можуть бути встановлені за допомогою константи **`PGSQL_CONNECT_ASYNC`**, та нові функції [пгconnectpoll()](function.pg-connect-poll.html) [пгsocket()](function.pg-socket.html) [пгconsumeinput()](function.pg-consume-input.html) і [пгflush()](function.pg-flush.html) можуть бути використані для обробки асинхронних з'єднань та запитів.
+Модуль [pgsql](book.pgsql.md) тепер підтримує асинхронні з'єднання та запити, тим самим дозволяючи неблокуючу взаємодію з базами даних PostgreSQL. Асинхронні з'єднання можуть бути встановлені за допомогою константи **`PGSQL_CONNECT_ASYNC`**, та нові функції [пгconnectpoll()](function.pg-connect-poll.html) [пгsocket()](function.pg-socket.html) [пгconsumeinput()](function.pg-consume-input.html) і [пгflush()](function.pg-flush.html) можуть бути використані для обробки асинхронних з'єднань та запитів.

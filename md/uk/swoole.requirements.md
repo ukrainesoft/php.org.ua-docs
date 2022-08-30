@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](swoole.setup.html)
+-   [« Встановлення та налаштування](swoole.setup.md)
     
--   [Установка »](swoole.installation.html)
+-   [Установка »](swoole.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](swoole.setup.html)
+-   [Встановлення та налаштування](swoole.setup.md)
     
 -   Вимоги
     

@@ -4,7 +4,7 @@
     
 -   [Result::getWarnings »](mysql-xdevapi-result.getwarnings.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiResult](class.mysql-xdevapi-result.html)
     

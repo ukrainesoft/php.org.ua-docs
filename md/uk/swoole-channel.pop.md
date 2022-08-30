@@ -4,7 +4,7 @@
     
 -   [SwooleChannel::push »](swoole-channel.push.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleChannel](class.swoole-channel.html)
     

@@ -1,12 +1,12 @@
 Встановлює позицію першого символу в тексті
 
--   [« IntlBreakIterator::current](intlbreakiterator.current.html)
+-   [« IntlBreakIterator::current](intlbreakiterator.current.md)
     
--   [IntlBreakIterator::following »](intlbreakiterator.following.html)
+-   [IntlBreakIterator::following »](intlbreakiterator.following.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlBreakIterator](class.intlbreakiterator.html)
+-   [IntlBreakIterator](class.intlbreakiterator.md)
     
 -   Встановлює позицію першого символу в тексті
     

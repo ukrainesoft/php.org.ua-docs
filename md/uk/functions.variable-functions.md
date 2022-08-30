@@ -126,4 +126,4 @@ $func(); // выведет "bar"
 -   [ісcallable()](function.is-callable.html)
 -   [calluserfunc()](function.call-user-func.html)
 -   [functionexists()](function.function-exists.html)
--   [переменные переменных](language.variables.variable.html)
+-   [змінні змінних](language.variables.variable.html)

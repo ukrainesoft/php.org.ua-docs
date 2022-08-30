@@ -1,12 +1,12 @@
 Повертає час останнього доступу до файлу
 
--   [« file](function.file.html)
+-   [« file](function.file.md)
     
--   [filectime »](function.filectime.html)
+-   [filectime »](function.filectime.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Повертає час останнього доступу до файлу
     
@@ -68,14 +68,14 @@ if (file_exists($filename)) {
 > 
 > Зверніть увагу, що обробка часу може відрізнятися в різних файлових системах.
 
-> **Зауваження**: Результати цієї функції кешуються Більш детальну інформацію дивіться у розділі [clearstatcache()](function.clearstatcache.html)
+> **Зауваження**: Результати цієї функції кешуються Більш детальну інформацію дивіться у розділі [clearstatcache()](function.clearstatcache.md)
 
 **Підказка**
 
-Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.html), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.html)
+Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.md), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Дивіться також
 
--   [filemtime()](function.filemtime.html) - Повертає час останньої зміни файлу
--   [fileinode()](function.fileinode.html) - Повертає індексний дескриптор файлу
--   [date()](function.date.html) - Форматує тимчасову мітку Unix
+-   [filemtime()](function.filemtime.md) - Повертає час останньої зміни файлу
+-   [fileinode()](function.fileinode.md) - Повертає індексний дескриптор файлу
+-   [date()](function.date.md) - Форматує тимчасову мітку Unix

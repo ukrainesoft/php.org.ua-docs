@@ -4,7 +4,7 @@
     
 -   [CollectionFind::groupBy »](mysql-xdevapi-collectionfind.groupby.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
     

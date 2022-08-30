@@ -4,9 +4,9 @@
     
 -   [pspellconfigruntogether »](function.pspell-config-runtogether.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Pspell](ref.pspell.html)
+-   [Функции Pspell](ref.pspell.md)
     
 -   Встановлює файл, який містить заміщувальні пари
     
@@ -45,9 +45,9 @@ pspell_config_repl(PSpell\Config $config, string $filename): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

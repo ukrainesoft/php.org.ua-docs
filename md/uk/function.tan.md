@@ -1,12 +1,12 @@
 Тангенс
 
--   [« srand](function.srand.html)
+-   [« srand](function.srand.md)
     
--   [tanh »](function.tanh.html)
+-   [tanh »](function.tanh.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Тангенс
     
@@ -49,9 +49,9 @@ echo tan(M_PI_4); // 1
 
 ### Дивіться також
 
--   [atan()](function.atan.html) - Арктангенс
--   [atan2()](function.atan2.html) - Арктангенс двох змінних
--   [sin()](function.sin.html) - Сінус
--   [cos()](function.cos.html) - Косінус
--   [tanh()](function.tanh.html) - гіперболічний тангенс
--   [deg2rad()](function.deg2rad.html) - Перетворює значення із градусів на радіани
+-   [atan()](function.atan.md) - Арктангенс
+-   [atan2()](function.atan2.md) - Арктангенс двох змінних
+-   [sin()](function.sin.md) - Сінус
+-   [cos()](function.cos.md) - Косінус
+-   [tanh()](function.tanh.md) - гіперболічний тангенс
+-   [deg2rad()](function.deg2rad.md) - Перетворює значення із градусів на радіани

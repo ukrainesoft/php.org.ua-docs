@@ -1,12 +1,12 @@
 Перетворює рядок на нижній регістр
 
--   [« strtok](function.strtok.html)
+-   [« strtok](function.strtok.md)
     
--   [strtoupper »](function.strtoupper.html)
+-   [strtoupper »](function.strtoupper.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Перетворює рядок на нижній регістр
     
@@ -55,7 +55,7 @@ echo $str; // выводит: mary had a little lamb and she loved i
 
 ### Дивіться також
 
--   [strtoupper()](function.strtoupper.html) - Перетворює рядок у верхній регістр
--   [ucfirst()](function.ucfirst.html) - Перетворює перший символ рядка у верхній регістр
--   [ucwords()](function.ucwords.html) - Перетворює на верхній регістр перший символ кожного слова в рядку
+-   [strtoupper()](function.strtoupper.md) - Перетворює рядок у верхній регістр
+-   [ucfirst()](function.ucfirst.md) - Перетворює перший символ рядка у верхній регістр
+-   [ucwords()](function.ucwords.md) - Перетворює на верхній регістр перший символ кожного слова в рядку
 -   [мбstrtolower()](function.mb-strtolower.html) - Приведення рядка до нижнього регістру

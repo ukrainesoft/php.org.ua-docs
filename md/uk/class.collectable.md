@@ -1,12 +1,12 @@
 Інтерфейс Collectable
 
--   [« Worker::unstack](worker.unstack.html)
+-   [« Worker::unstack](worker.unstack.md)
     
--   [Collectable::isGarbage »](collectable.isgarbage.html)
+-   [Collectable::isGarbage »](collectable.isgarbage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [pthreads](book.pthreads.html)
+-   [pthreads](book.pthreads.md)
     
 -   Інтерфейс Collectable
     
@@ -40,4 +40,4 @@
 
 ## Зміст
 
--   [Collectable::isGarbage](collectable.isgarbage.html) — Визначає, чи позначений об'єкт як сміття
+-   [Collectable::isGarbage](collectable.isgarbage.md) — Визначає, чи позначений об'єкт як сміття

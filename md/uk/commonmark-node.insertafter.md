@@ -4,7 +4,7 @@
     
 -   [CommonMarkNode::insertBefore »](commonmark-node.insertbefore.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [CommonMarkNode](class.commonmark-node.html)
     

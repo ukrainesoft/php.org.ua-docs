@@ -1,12 +1,12 @@
 Малює прямокутник із закругленими кутами.
 
--   [« ImagickDraw::rotate](imagickdraw.rotate.html)
+-   [« ImagickDraw::rotate](imagickdraw.rotate.md)
     
--   [ImagickDraw::scale »](imagickdraw.scale.html)
+-   [ImagickDraw::scale »](imagickdraw.scale.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Малює прямокутник із закругленими кутами.
     

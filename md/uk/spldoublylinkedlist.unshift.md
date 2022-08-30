@@ -1,12 +1,12 @@
 Вставляє елемент на початок двозв'язкового списку
 
--   [« SplDoublyLinkedList::unserialize](spldoublylinkedlist.unserialize.html)
+-   [« SplDoublyLinkedList::unserialize](spldoublylinkedlist.unserialize.md)
     
--   [SplDoublyLinkedList::valid »](spldoublylinkedlist.valid.html)
+-   [SplDoublyLinkedList::valid »](spldoublylinkedlist.valid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
     
 -   Вставляє елемент на початок двозв'язкового списку
     

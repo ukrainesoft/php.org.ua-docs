@@ -1,12 +1,12 @@
 Встановлює якість стиснення зображення
 
--   [« Imagick::setImageCompression](imagick.setimagecompression.html)
+-   [« Imagick::setImageCompression](imagick.setimagecompression.md)
     
--   [Imagick::setImageDelay »](imagick.setimagedelay.html)
+-   [Imagick::setImageDelay »](imagick.setimagedelay.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює якість стиснення зображення
     

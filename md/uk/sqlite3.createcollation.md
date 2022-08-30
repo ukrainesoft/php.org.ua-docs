@@ -1,12 +1,12 @@
 Реєструє функцію PHP для використання як функцію сортування SQL
 
--   [« SQLite3::createAggregate](sqlite3.createaggregate.html)
+-   [« SQLite3::createAggregate](sqlite3.createaggregate.md)
     
--   [SQLite3::createFunction »](sqlite3.createfunction.html)
+-   [SQLite3::createFunction »](sqlite3.createfunction.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3](class.sqlite3.html)
+-   [SQLite3](class.sqlite3.md)
     
 -   Реєструє функцію PHP для використання як функцію сортування SQL
     
@@ -33,7 +33,7 @@ public SQLite3::createCollation(string $name, callable $callback): bool
 
 `callback`
 
-Ім'я PHP-функції або визначуваної користувачем функції для застосування як callback, що визначає поведінку параметрів сортування. Вона повинна приймати два значення і результат, що повертається, повинен бути такий же, як у [strcmp()](function.strcmp.html), тобто. він повинен повертати -1, 1 або 0, якщо перший рядок сортується до, після або дорівнює другому.
+Ім'я PHP-функції або визначуваної користувачем функції для застосування як callback, що визначає поведінку параметрів сортування. Вона повинна приймати два значення і результат, що повертається, повинен бути такий же, як у [strcmp()](function.strcmp.md), тобто. він повинен повертати -1, 1 або 0, якщо перший рядок сортується до, після або дорівнює другому.
 
 Функція має бути визначена як:
 
@@ -49,7 +49,7 @@ collation(mixed $value1, mixed $value2): int
 
 **Приклад #1 Приклад використання **SQLite3::createCollation()****
 
-Реєструє PHP-функцію [strnatcmp()](function.strnatcmp.html) як послідовність сортування у базі даних SQLite3.
+Реєструє PHP-функцію [strnatcmp()](function.strnatcmp.md) як послідовність сортування у базі даних SQLite3.
 
 ```php
 <?php

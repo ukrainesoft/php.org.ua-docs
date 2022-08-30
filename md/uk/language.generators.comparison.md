@@ -1,19 +1,19 @@
 Порівняння генераторів з об'єктами класу Iterator
 
--   [« Синтаксис генераторів](language.generators.syntax.html)
+-   [« Синтаксис генераторів](language.generators.syntax.md)
     
--   [Атрибуты »](language.attributes.html)
+-   [Атрибути »](language.attributes.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Генераторы](language.generators.html)
+-   [Генератори](language.generators.md)
     
 -   Порівняння генераторів з об'єктами класу Iterator
     
 
-## Порівняння генераторів з об'єктами класу [Iterator](class.iterator.html)
+## Порівняння генераторів з об'єктами класу [Iterator](class.iterator.md)
 
-Головна перевага генераторів – це їхня простота. Набагато менше шаблонного коду треба написати порівняно з реалізацією об'єкта класу [Iterator](class.iterator.html), і цей код набагато простіший і зрозуміліший. Наприклад, ця функція і клас роблять те саме.
+Головна перевага генераторів – це їхня простота. Набагато менше шаблонного коду треба написати порівняно з реалізацією об'єкта класу [Iterator](class.iterator.md), і цей код набагато простіший і зрозуміліший. Наприклад, ця функція і клас роблять те саме.
 
 ```php
 <?php
@@ -79,4 +79,4 @@ class LineIterator implements Iterator {
 
 ### Дивіться також
 
--   [Ітератори об'єктів](language.oop5.iterations.html)
+-   [Ітератори об'єктів](language.oop5.iterations.md)

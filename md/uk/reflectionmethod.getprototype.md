@@ -1,12 +1,12 @@
 Отримує прототип методу (якщо такий є)
 
--   [« ReflectionMethod::getModifiers](reflectionmethod.getmodifiers.html)
+-   [« ReflectionMethod::getModifiers](reflectionmethod.getmodifiers.md)
     
--   [ReflectionMethod::invoke »](reflectionmethod.invoke.html)
+-   [ReflectionMethod::invoke »](reflectionmethod.invoke.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionMethod](class.reflectionmethod.html)
+-   [ReflectionMethod](class.reflectionmethod.md)
     
 -   Отримує прототип методу (якщо такий є)
     
@@ -31,11 +31,11 @@ public ReflectionMethod::getPrototype(): ReflectionMethod
 
 ### Значення, що повертаються
 
-Об'єкт [ReflectionMethod](class.reflectionmethod.html) методу прототипу.
+Об'єкт [ReflectionMethod](class.reflectionmethod.md) методу прототипу.
 
 ### Помилки
 
-Виняток [ReflectionException](class.reflectionexception.html) викидається, якщо метод не має прототипу.
+Виняток [ReflectionException](class.reflectionexception.md) викидається, якщо метод не має прототипу.
 
 ### Приклади
 
@@ -76,4 +76,4 @@ object(ReflectionMethod)#2 (2) {
 
 ### Дивіться також
 
--   [ReflectionMethod::getModifiers()](reflectionmethod.getmodifiers.html) - Отримує модифікатори методу
+-   [ReflectionMethod::getModifiers()](reflectionmethod.getmodifiers.md) - Отримує модифікатори методу

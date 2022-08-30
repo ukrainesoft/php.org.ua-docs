@@ -1,12 +1,12 @@
 Малює еліптичну дугу
 
--   [« ImagickDraw::pathEllipticArcAbsolute](imagickdraw.pathellipticarcabsolute.html)
+-   [« ImagickDraw::pathEllipticArcAbsolute](imagickdraw.pathellipticarcabsolute.md)
     
--   [ImagickDraw::pathFinish »](imagickdraw.pathfinish.html)
+-   [ImagickDraw::pathFinish »](imagickdraw.pathfinish.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Малює еліптичну дугу
     

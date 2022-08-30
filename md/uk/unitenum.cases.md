@@ -1,12 +1,12 @@
 Повертає список варіантів перерахування
 
--   [« UnitEnum](class.unitenum.html)
+-   [« UnitEnum](class.unitenum.md)
     
--   [BackedEnum »](class.backedenum.html)
+-   [BackedEnum »](class.backedenum.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [UnitEnum](class.unitenum.html)
+-   [UnitEnum](class.unitenum.md)
     
 -   Повертає список варіантів перерахування
     

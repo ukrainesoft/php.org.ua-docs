@@ -1,12 +1,12 @@
 Повертає непрозорість, що використовується при малюванні
 
--   [« ImagickDraw::getFillColor](imagickdraw.getfillcolor.html)
+-   [« ImagickDraw::getFillColor](imagickdraw.getfillcolor.md)
     
--   [ImagickDraw::getFillRule »](imagickdraw.getfillrule.html)
+-   [ImagickDraw::getFillRule »](imagickdraw.getfillrule.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Повертає непрозорість, що використовується при малюванні
     

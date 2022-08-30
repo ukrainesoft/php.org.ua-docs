@@ -1,12 +1,12 @@
 Строкове подання помилки
 
--   [« Error::getTraceAsString](error.gettraceasstring.html)
+-   [« Error::getTraceAsString](error.gettraceasstring.md)
     
--   [Error::clone »](error.clone.html)
+-   [Error::clone »](error.clone.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Error](class.error.html)
+-   [Error](class.error.md)
     
 -   Строкове подання помилки
     
@@ -57,4 +57,4 @@ Stack trace:
 
 ### Дивіться також
 
--   [Throwable::toString()](throwable.tostring.html) - отримує рядкове подання викинутого об'єкта
+-   [Throwable::toString()](throwable.tostring.md) - отримує рядкове подання викинутого об'єкта

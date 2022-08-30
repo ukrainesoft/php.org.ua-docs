@@ -1,12 +1,12 @@
 Псевдонім OCICollection::size
 
--   [« ocicollmax](function.ocicollmax.html)
+-   [« ocicollmax](function.ocicollmax.md)
     
--   [ocicolltrim »](function.ocicolltrim.html)
+-   [ocicolltrim »](function.ocicolltrim.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Псевдонім OCICollection::size
     
@@ -15,11 +15,11 @@
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocicollsize - Псевдонім [OCICollection::size()](ocicollection.size.html)
+ocicollsize - Псевдонім [OCICollection::size()](ocicollection.size.md)
 
 ### Опис
 
-Псевдонім [OCICollection::size()](ocicollection.size.html)
+Псевдонім [OCICollection::size()](ocicollection.size.md)
 
 **Увага**
 

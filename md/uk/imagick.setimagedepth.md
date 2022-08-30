@@ -1,12 +1,12 @@
 Встановлює глибину зображення
 
--   [« Imagick::setImageDelay](imagick.setimagedelay.html)
+-   [« Imagick::setImageDelay](imagick.setimagedelay.md)
     
--   [Imagick::setImageDispose »](imagick.setimagedispose.html)
+-   [Imagick::setImageDispose »](imagick.setimagedispose.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює глибину зображення
     

@@ -1,12 +1,12 @@
 Перемикає QueryParser на DisMax Query Parser
 
--   [« SolrDisMaxQuery::setUserFields](solrdismaxquery.setuserfields.html)
+-   [« SolrDisMaxQuery::setUserFields](solrdismaxquery.setuserfields.md)
     
--   [SolrDisMaxQuery::useEDisMaxQueryParser »](solrdismaxquery.useedismaxqueryparser.html)
+-   [SolrDisMaxQuery::useEDisMaxQueryParser »](solrdismaxquery.useedismaxqueryparser.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
+-   [SolrDisMaxQuery](class.solrdismaxquery.md)
     
 -   Перемикає QueryParser на DisMax Query Parser
     
@@ -31,7 +31,7 @@ public SolrDisMaxQuery::useDisMaxQueryParser(): SolrDisMaxQuery
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.html)
+[SolrDisMaxQuery](class.solrdismaxquery.md)
 
 ### Приклади
 

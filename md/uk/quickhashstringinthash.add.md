@@ -1,12 +1,12 @@
 Метод додає новий запис у хеш
 
--   [« QuickHashStringIntHash](class.quickhashstringinthash.html)
+-   [« QuickHashStringIntHash](class.quickhashstringinthash.md)
     
--   [QuickHashStringIntHash::construct »](quickhashstringinthash.construct.html)
+-   [QuickHashStringIntHash::construct »](quickhashstringinthash.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [QuickHashStringIntHash](class.quickhashstringinthash.html)
+-   [QuickHashStringIntHash](class.quickhashstringinthash.md)
     
 -   Метод додає новий запис у хеш
     

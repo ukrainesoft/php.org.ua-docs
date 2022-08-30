@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](calendar.resources.html)
+-   [« Типи ресурсів](calendar.resources.md)
     
--   [Календарь »](ref.calendar.html)
+-   [Календарь »](ref.calendar.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Календарь](book.calendar.html)
+-   [Календарь](book.calendar.md)
     
 -   Обумовлені константи
     
@@ -53,48 +53,48 @@
 
 **`CAL_JEWISH_ADD_ALAFIM_GERESH`** (int)
 
-Для [jdtojewish()](function.jdtojewish.html): додає знак горіш (geresh), що нагадує одинарну лапку як роздільник тисяч для кількості років.
+Для [jdtojewish()](function.jdtojewish.md): додає знак горіш (geresh), що нагадує одинарну лапку як роздільник тисяч для кількості років.
 
 **`CAL_JEWISH_ADD_ALAFIM`** (int)
 
-Для [jdtojewish()](function.jdtojewish.html): додає слово alafim як роздільник тисяч для кількості років.
+Для [jdtojewish()](function.jdtojewish.md): додає слово alafim як роздільник тисяч для кількості років.
 
 **`CAL_JEWISH_ADD_GERESHAYIM`** (int)
 
-For [jdtojewish()](function.jdtojewish.html): додати символ гершаїм (gershayim), що нагадує подвійну лапку перед останньою літерою дня та числом років
+For [jdtojewish()](function.jdtojewish.md): додати символ гершаїм (gershayim), що нагадує подвійну лапку перед останньою літерою дня та числом років
 
 **`CAL_DOW_DAYNO`** (int)
 
-Для [jddayofweek()](function.jddayofweek.html): день тижня у вигляді цілого числа (int), де `0` означає неділю, а `6` означає суботу.
+Для [jddayofweek()](function.jddayofweek.md): день тижня у вигляді цілого числа (int), де `0` означає неділю, а `6` означає суботу.
 
 **`CAL_DOW_SHORT`** (int)
 
-Для [jddayofweek()](function.jddayofweek.html): скорочена англійська назва дня тижня
+Для [jddayofweek()](function.jddayofweek.md): скорочена англійська назва дня тижня
 
 **`CAL_DOW_LONG`** (int)
 
-Для [jddayofweek()](function.jddayofweek.html): англійська назва дня тижня.
+Для [jddayofweek()](function.jddayofweek.md): англійська назва дня тижня.
 
 **`CAL_MONTH_GREGORIAN_SHORT`** (int)
 
-Для [jdmonthname()](function.jdmonthname.html): скорочена григоріанська назва місяця
+Для [jdmonthname()](function.jdmonthname.md): скорочена григоріанська назва місяця
 
 **`CAL_MONTH_GREGORIAN_LONG`** (int)
 
-Для [jdmonthname()](function.jdmonthname.html): григоріанська назва місяця
+Для [jdmonthname()](function.jdmonthname.md): григоріанська назва місяця
 
 **`CAL_MONTH_JULIAN_SHORT`** (int)
 
-Для [jdmonthname()](function.jdmonthname.html): скорочена юліанська назва місяця
+Для [jdmonthname()](function.jdmonthname.md): скорочена юліанська назва місяця
 
 **`CAL_MONTH_JULIAN_LONG`** (int)
 
-Для [jdmonthname()](function.jdmonthname.html): юліанська назва місяця.
+Для [jdmonthname()](function.jdmonthname.md): юліанська назва місяця.
 
 **`CAL_MONTH_JEWISH`** (int)
 
-Для [jdmonthname()](function.jdmonthname.html): єврейська назва місяця.
+Для [jdmonthname()](function.jdmonthname.md): єврейська назва місяця.
 
 **`CAL_MONTH_FRENCH`** (int)
 
-Для [jdmonthname()](function.jdmonthname.html): французька республіканська назва місяця
+Для [jdmonthname()](function.jdmonthname.md): французька республіканська назва місяця

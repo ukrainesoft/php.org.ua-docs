@@ -4,9 +4,9 @@
     
 -   [dioseek »](function.dio-seek.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції прямого введення/виводу](ref.dio.html)
+-   [Функції прямого введення/виводу](ref.dio.md)
     
 -   Прочитай байти із файлового дескриптора
     

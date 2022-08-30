@@ -1,12 +1,12 @@
 Отримує FFICType для FFICData
 
--   [« FFI::type](ffi.type.html)
+-   [« FFI::type](ffi.type.md)
     
 -   [FFICData »](class.ffi-cdata.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FFI](class.ffi.html)
+-   [FFI](class.ffi.md)
     
 -   Отримує FFICType для FFICData
     

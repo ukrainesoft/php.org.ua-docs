@@ -1,12 +1,12 @@
 Встановлення Nginx 1.4.x на систему Unix
 
--   [Apache 2.x на Unix системах](install.unix.apache2.html)
+-   [Apache 2.x на Unix системах](install.unix.apache2.md)
     
 -   [Установка PHP на Lighttpd 1.4 на Unix-системах »](install.unix.lighttpd-14.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка на Unix-системы](install.unix.html)
+-   [Встановлення на Unix-системи](install.unix.md)
     
 -   Встановлення Nginx 1.4.x на систему Unix
     

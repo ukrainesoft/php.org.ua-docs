@@ -1,12 +1,12 @@
 Перевіряє записи DNS, що відповідають переданому імені вузла Інтернету або IP-адресі
 
--   [« Мережеві функції](ref.network.html)
+-   [Мережеві функції](ref.network.md)
     
--   [closelog »](function.closelog.html)
+-   [closelog »](function.closelog.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Мережеві функції](ref.network.html)
+-   [Мережеві функції](ref.network.md)
     
 -   Перевіряє записи DNS, що відповідають переданому імені вузла Інтернету або IP-адресі
     
@@ -48,8 +48,8 @@ checkdnsrr(string $hostname, string $type = "MX"): bool
 ### Дивіться також
 
 -   [dnsgetrecord()](function.dns-get-record.html) - Отримання ресурсних записів DNS хоста
--   [getmxrr()](function.getmxrr.html) - Отримує записи MX, що відповідають переданому доменному імені хоста
--   [gethostbyaddr()](function.gethostbyaddr.html) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
--   [gethostbyname()](function.gethostbyname.html) - Отримує IPv4-адресу, що відповідає переданому імені хоста
--   [gethostbynamel()](function.gethostbynamel.html) - Отримує список IPv4-адрес, що відповідають переданому доменному імені хоста
+-   [getmxrr()](function.getmxrr.md) - Отримує записи MX, що відповідають переданому доменному імені хоста
+-   [gethostbyaddr()](function.gethostbyaddr.md) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
+-   [gethostbyname()](function.gethostbyname.md) - Отримує IPv4-адресу, що відповідає переданому імені хоста
+-   [gethostbynamel()](function.gethostbynamel.md) - Отримує список IPv4-адрес, що відповідають переданому доменному імені хоста
 -   сторінка керівництва named(8)

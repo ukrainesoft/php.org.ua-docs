@@ -1,12 +1,12 @@
 Реєструє передплату на вказану розсилку
 
--   [« Stomp::setReadTimeout](stomp.setreadtimeout.html)
+-   [« Stomp::setReadTimeout](stomp.setreadtimeout.md)
     
--   [Stomp::unsubscribe »](stomp.unsubscribe.html)
+-   [Stomp::unsubscribe »](stomp.unsubscribe.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Stomp](class.stomp.html)
+-   [Stomp](class.stomp.md)
     
 -   Реєструє передплату на вказану розсилку
     
@@ -39,7 +39,7 @@ stomp_subscribe(resource $link, string $destination, array $headers = ?): bool
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.html)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
 
 `destination`
 
@@ -55,7 +55,7 @@ stomp_subscribe(resource $link, string $destination, array $headers = ?): bool
 
 ### Приклади
 
-Дивіться [stompack()](stomp.ack.html)
+Дивіться [stompack()](stomp.ack.md)
 
 ### Примітки
 

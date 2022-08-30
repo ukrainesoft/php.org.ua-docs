@@ -4,9 +4,9 @@
     
 -   [mysqliwarning::construct »](mysqli-warning.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQLi](book.mysqli.html)
+-   [MySQLi](book.mysqli.md)
     
 -   Клас mysqliwarning
     

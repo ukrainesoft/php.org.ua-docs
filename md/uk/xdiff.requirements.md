@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](xdiff.setup.html)
+-   [« Встановлення та налаштування](xdiff.setup.md)
     
--   [Установка »](xdiff.installation.html)
+-   [Установка »](xdiff.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xdiff.setup.html)
+-   [Встановлення та налаштування](xdiff.setup.md)
     
 -   Вимоги
     

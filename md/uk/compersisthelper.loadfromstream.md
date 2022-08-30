@@ -1,12 +1,12 @@
 Завантажує об'єкт із потоку
 
--   [« COMPersistHelper::LoadFromFile](compersisthelper.loadfromfile.html)
+-   [« COMPersistHelper::LoadFromFile](compersisthelper.loadfromfile.md)
     
--   [COMPersistHelper::SaveToFile »](compersisthelper.savetofile.html)
+-   [COMPersistHelper::SaveToFile »](compersisthelper.savetofile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [COMPersistHelper](class.compersisthelper.html)
+-   [COMPersistHelper](class.compersisthelper.md)
     
 -   Завантажує об'єкт із потоку
     

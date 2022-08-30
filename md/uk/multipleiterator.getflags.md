@@ -39,6 +39,6 @@ public MultipleIterator::getFlags(): int
 
 ### Дивіться також
 
--   [Предопределённые константы](class.multipleiterator.html#multipleiterator.constants)
+-   [Обумовлені константи](class.multipleiterator.html#multipleiterator.constants)
 -   [MultipleIterator::construct()](multipleiterator.construct.html) - Створює новий MultipleIterator
 -   [MultipleIterator::setFlags()](multipleiterator.setflags.html) - Встановлює прапори

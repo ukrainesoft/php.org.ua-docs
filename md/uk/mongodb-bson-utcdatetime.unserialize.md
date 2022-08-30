@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONType »](class.mongodb-bson-type.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.html)
     
@@ -42,5 +42,5 @@ final public MongoDB\BSON\UTCDateTime::unserialize(string $serialized): void
 ### Дивіться також
 
 -   [MongoDBBSONUTCDateTime::serialize()](mongodb-bson-utcdatetime.serialize.html) - Серіалізує UTCDateTime
--   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

@@ -1,6 +1,6 @@
 Навчальні матеріали
 
--   [« Предопределённые константы](mongodb.constants.html)
+-   [« Обумовлені константи](mongodb.constants.html)
     
 -   [Использование библиотеки PHP для MongoDB (PHPLIB) »](mongodb.tutorial.library.html)
     

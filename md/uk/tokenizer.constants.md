@@ -1,8 +1,8 @@
 Обумовлені константи
 
--   [« Типы ресурсов](tokenizer.resources.html)
+-   [« Типи ресурсів](tokenizer.resources.html)
     
--   [Примеры »](tokenizer.examples.html)
+-   [Приклади »](tokenizer.examples.html)
     
 -   [PHP Manual](index.html)
     

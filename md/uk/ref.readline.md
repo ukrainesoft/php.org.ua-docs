@@ -1,12 +1,12 @@
 Опції Readline
 
--   [« Предопределённые константы](readline.constants.html)
+-   [« Обумовлені константи](readline.constants.md)
     
 -   [readlineaddhistory »](function.readline-add-history.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Readline](book.readline.html)
+-   [Readline](book.readline.md)
     
 -   Опції Readline
     
@@ -27,4 +27,4 @@
 -   [readlinereadhistory](function.readline-read-history.html) — Прочитати історію команд із файлу
 -   [readlineredisplay](function.readline-redisplay.html) — Перемалювати екран
 -   [readlinewritehistory](function.readline-write-history.html) - Записати історію команд у файл
--   [readline](function.readline.html) - Читає рядок
+-   [readline](function.readline.md) - Читає рядок

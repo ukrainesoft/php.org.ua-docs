@@ -4,7 +4,7 @@
     
 -   [YafApplication::execute »](yaf-application.execute.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafApplication](class.yaf-application.html)
     

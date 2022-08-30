@@ -1,12 +1,12 @@
 Повертає новий об'єкт DateTimeImmutable, що містить заданий об'єкт DateTime
 
--   [« DateTimeImmutable::createFromInterface](datetimeimmutable.createfrominterface.html)
+-   [« DateTimeImmutable::createFromInterface](datetimeimmutable.createfrominterface.md)
     
--   [DateTimeImmutable::getLastErrors »](datetimeimmutable.getlasterrors.html)
+-   [DateTimeImmutable::getLastErrors »](datetimeimmutable.getlasterrors.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTimeImmutable](class.datetimeimmutable.html)
+-   [DateTimeImmutable](class.datetimeimmutable.md)
     
 -   Повертає новий об'єкт DateTimeImmutable, що містить заданий об'єкт DateTime
     
@@ -27,11 +27,11 @@ public static DateTimeImmutable::createFromMutable(DateTime $object): DateTimeIm
 
 `object`
 
-Об'єкт, що змінюється [DateTime](class.datetime.html), який ви хочете перетворити на незмінну версію. Цей об'єкт не змінюється, але натомість створюється новий об'єкт [DateTimeImmutable](class.datetimeimmutable.html), що містить ту саму інформацію.
+Об'єкт, що змінюється [DateTime](class.datetime.md), який ви хочете перетворити на незмінну версію. Цей об'єкт не змінюється, але натомість створюється новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md), що містить ту саму інформацію.
 
 ### Значення, що повертаються
 
-Повертає новий екземпляр [DateTimeImmutable](class.datetimeimmutable.html)
+Повертає новий екземпляр [DateTimeImmutable](class.datetimeimmutable.md)
 
 ### Приклади
 

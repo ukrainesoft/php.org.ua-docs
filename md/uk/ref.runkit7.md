@@ -1,12 +1,12 @@
 Функції runkit7
 
--   [« Предопределённые константы](runkit7.constants.html)
+-   [« Обумовлені константи](runkit7.constants.md)
     
 -   [runkit7constantadd »](function.runkit7-constant-add.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [runkit7](book.runkit7.html)
+-   [runkit7](book.runkit7.md)
     
 -   Функції runkit7
     

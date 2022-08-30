@@ -1,12 +1,12 @@
 Створює директорію
 
--   [« lstat](function.lstat.html)
+-   [« lstat](function.lstat.md)
     
 -   [moveuploadedfile »](function.move-uploaded-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Створює директорію
     
@@ -33,17 +33,17 @@ mkdir(    string $directory,    int $permissions = 0777,    bool $re
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.html)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 `permissions`
 
-За замовчуванням набуває значення 0777, що означає найширші права. Докладніше про права доступу можна дізнатися на сторінці посібника функції [chmod()](function.chmod.html)
+За замовчуванням набуває значення 0777, що означає найширші права. Докладніше про права доступу можна дізнатися на сторінці посібника функції [chmod()](function.chmod.md)
 
 > **Зауваження**
 > 
 > Аргумент `permissions` ігнорується у Windows.
 
-Зверніть увагу, що аргумент `permissions` необхідно задавати у вигляді восьмеричного числа (першою цифрою має бути нуль). На аргумент `permissions` також впливає поточне значення umask, яке можна змінити за допомогою [umask()](function.umask.html)
+Зверніть увагу, що аргумент `permissions` необхідно задавати у вигляді восьмеричного числа (першою цифрою має бути нуль). На аргумент `permissions` також впливає поточне значення umask, яке можна змінити за допомогою [umask()](function.umask.md)
 
 `recursive`
 
@@ -51,7 +51,7 @@ mkdir(    string $directory,    int $permissions = 0777,    bool $re
 
 `context`
 
-Ресурс (resource) з [контекстом потоку](stream.contexts.html)
+Ресурс (resource) з [контекстом потоку](stream.contexts.md)
 
 ### Значення, що повертаються
 
@@ -98,5 +98,5 @@ if (!mkdir($structure, 0777, true)) {
 ### Дивіться також
 
 -   [ісdir()](function.is-dir.html) - Визначає, чи є ім'я файлу директорією
--   [rmdir()](function.rmdir.html) - видаляє директорію
--   [umask()](function.umask.html) - Змінює поточну umask
+-   [rmdir()](function.rmdir.md) - видаляє директорію
+-   [umask()](function.umask.md) - Змінює поточну umask

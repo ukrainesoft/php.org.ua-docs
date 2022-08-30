@@ -4,9 +4,9 @@
     
 -   [curlmultigetcontent »](function.curl-multi-getcontent.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции cURL](ref.curl.html)
+-   [Функции cURL](ref.curl.md)
     
 -   Запускає приєднання поточного дескриптора cURL
     
@@ -37,7 +37,7 @@ curl_multi_exec(CurlMultiHandle $multi_handle, int &$still_running): int
 
 ### Значення, що повертаються
 
-Код cURL, вказаний у [визначених константах](curl.constants.html) CURL.
+Код cURL, вказаний у [визначених константах](curl.constants.md) CURL.
 
 > **Зауваження**
 > 
@@ -45,9 +45,9 @@ curl_multi_exec(CurlMultiHandle $multi_handle, int &$still_running): int
 
 ### список змін
 
-| Версия | Описание                                                                    |
-|--------|-----------------------------------------------------------------------------|
-|        | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
 
 ### Приклади
 

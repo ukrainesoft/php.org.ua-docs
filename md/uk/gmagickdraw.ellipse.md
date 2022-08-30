@@ -1,12 +1,12 @@
 Малює еліпс на зображенні
 
--   [« GmagickDraw::bezier](gmagickdraw.bezier.html)
+-   [« GmagickDraw::bezier](gmagickdraw.bezier.md)
     
--   [GmagickDraw::getfillcolor »](gmagickdraw.getfillcolor.html)
+-   [GmagickDraw::getfillcolor »](gmagickdraw.getfillcolor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickDraw](class.gmagickdraw.html)
+-   [GmagickDraw](class.gmagickdraw.md)
     
 -   Малює еліпс на зображенні
     
@@ -53,4 +53,4 @@ public GmagickDraw::ellipse(    float $ox,    float $oy,    float $r
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html)
+Об'єкт [Gmagick](class.gmagick.md)

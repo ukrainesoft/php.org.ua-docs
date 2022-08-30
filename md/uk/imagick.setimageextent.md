@@ -1,12 +1,12 @@
 Встановлює розмір зображення
 
--   [« Imagick::setImageDispose](imagick.setimagedispose.html)
+-   [« Imagick::setImageDispose](imagick.setimagedispose.md)
     
--   [Imagick::setImageFilename »](imagick.setimagefilename.html)
+-   [Imagick::setImageFilename »](imagick.setimagefilename.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює розмір зображення
     

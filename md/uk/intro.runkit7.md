@@ -2,7 +2,7 @@
 
 -   [« runkit7](book.runkit7.html)
     
--   [Установка и настройка »](runkit7.setup.html)
+-   [Встановлення та налаштування »](runkit7.setup.html)
     
 -   [PHP Manual](index.html)
     

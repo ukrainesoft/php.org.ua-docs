@@ -4,7 +4,7 @@
     
 -   [DocResult::fetchOne »](mysql-xdevapi-docresult.fetchone.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiDocResult](class.mysql-xdevapi-docresult.html)
     

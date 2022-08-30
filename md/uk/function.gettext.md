@@ -1,12 +1,12 @@
 Шукає повідомлення у поточному домені
 
--   [« dngettext](function.dngettext.html)
+-   [« dngettext](function.dngettext.md)
     
--   [ngettext »](function.ngettext.html)
+-   [ngettext »](function.ngettext.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции gettext](ref.gettext.html)
+-   [Функции gettext](ref.gettext.md)
     
 -   Шукає повідомлення у поточному домені
     
@@ -69,8 +69,8 @@ echo _("Have a nice day");
 
 > **Зауваження**
 > 
-> На деяких системах може бути недостатньо вказівки мови, у таких випадках використовуйте [putenv()](function.putenv.html) для вказівки поточної локалі.
+> На деяких системах може бути недостатньо вказівки мови, у таких випадках використовуйте [putenv()](function.putenv.md) для вказівки поточної локалі.
 
 ### Дивіться також
 
--   [setlocale()](function.setlocale.html) - Встановлює налаштування локалі
+-   [setlocale()](function.setlocale.md) - Встановлює налаштування локалі

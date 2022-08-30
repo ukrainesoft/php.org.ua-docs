@@ -1,12 +1,12 @@
 Відновлює серіалізований контейнер із рядка
 
--   [« SplObjectStorage::setInfo](splobjectstorage.setinfo.html)
+-   [« SplObjectStorage::setInfo](splobjectstorage.setinfo.md)
     
--   [SplObjectStorage::valid »](splobjectstorage.valid.html)
+-   [SplObjectStorage::valid »](splobjectstorage.valid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplObjectStorage](class.splobjectstorage.html)
+-   [SplObjectStorage](class.splobjectstorage.md)
     
 -   Відновлює серіалізований контейнер із рядка
     
@@ -60,4 +60,4 @@ int(1)
 
 ### Дивіться також
 
--   [SplObjectStorage::serialize()](splobjectstorage.serialize.html) - Серіалізує контейнер
+-   [SplObjectStorage::serialize()](splobjectstorage.serialize.md) - Серіалізує контейнер

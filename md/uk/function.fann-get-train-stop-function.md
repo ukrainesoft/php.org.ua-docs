@@ -4,9 +4,9 @@
     
 -   [fanngettrainingalgorithm »](function.fann-get-training-algorithm.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Повертає функцію зупинки, що використовується під час навчання
     

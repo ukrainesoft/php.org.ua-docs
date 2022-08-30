@@ -1,12 +1,12 @@
 Базове використання
 
--   [« Примеры](pgsql.examples.html)
+-   [« Приклади](pgsql.examples.html)
     
 -   [Базовое использование »](pgsql.examples-queries.html)
     
 -   [PHP Manual](index.html)
     
--   [Примеры](pgsql.examples.html)
+-   [Приклади](pgsql.examples.html)
     
 -   Базове використання
     

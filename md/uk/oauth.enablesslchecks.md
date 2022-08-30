@@ -1,12 +1,12 @@
 Увімкнути перевірки SSL
 
--   [« OAuth::enableRedirects](oauth.enableredirects.html)
+-   [« OAuth::enableRedirects](oauth.enableredirects.md)
     
--   [OAuth::fetch »](oauth.fetch.html)
+-   [OAuth::fetch »](oauth.fetch.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](class.oauth.html)
+-   [OAuth](class.oauth.md)
     
 -   Увімкнути перевірки SSL
     
@@ -35,10 +35,10 @@ public OAuth::enableSSLChecks(): bool
 
 ### список змін
 
-| Версия            | Описание                       |
-|-------------------|--------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL oauth 0.99.8 | Додано властивість `sslChecks` |
 
 ### Дивіться також
 
--   [OAuth::disableSSLChecks()](oauth.disablesslchecks.html) - Вимкнути SSL перевірки
+-   [OAuth::disableSSLChecks()](oauth.disablesslchecks.md) - Вимкнути SSL перевірки

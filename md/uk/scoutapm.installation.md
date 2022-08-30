@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](scoutapm.requirements.html)
+-   [« Вимоги](scoutapm.requirements.md)
     
--   [Настройка во время выполнения »](scoutapm.configuration.html)
+-   [Налаштування під час виконання »](scoutapm.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](scoutapm.setup.html)
+-   [Встановлення та налаштування](scoutapm.setup.md)
     
 -   Встановлення
     

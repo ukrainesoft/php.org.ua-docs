@@ -4,7 +4,7 @@
     
 -   [wkhtmltoxImageConverter::getVersion »](wkhtmltox-image-converter.getversion.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [wkhtmltoxImageConverter](class.wkhtmltox-image-converter.html)
     

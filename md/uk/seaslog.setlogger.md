@@ -1,12 +1,12 @@
 Встановлює ім'я реєстратора SeasLog
 
--   [« SeasLog::setDatetimeFormat](seaslog.setdatetimeformat.html)
+-   [« SeasLog::setDatetimeFormat](seaslog.setdatetimeformat.md)
     
--   [SeasLog::setRequestID »](seaslog.setrequestid.html)
+-   [SeasLog::setRequestID »](seaslog.setrequestid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SeasLog](class.seaslog.html)
+-   [SeasLog](class.seaslog.md)
     
 -   Встановлює ім'я реєстратора SeasLog
     
@@ -23,7 +23,7 @@ SeasLog::setLogger — Встановлює ім'я реєстратора SeasL
 public static SeasLog::setLogger(string $logger): bool
 ```
 
-Використання функції **SeasLog::setLogger()** змінить значення функції [SeasLog::getLastLogger()](seaslog.getlastlogger.html). Отже, SeasLog запише loginfo у каталог реєстратора.
+Використання функції **SeasLog::setLogger()** змінить значення функції [SeasLog::getLastLogger()](seaslog.getlastlogger.md). Отже, SeasLog запише loginfo у каталог реєстратора.
 
 ### Список параметрів
 
@@ -55,5 +55,5 @@ bool(true)
 
 ### Дивіться також
 
--   [SeasLog::getLastLogger()](seaslog.getlastlogger.html) - Отримує останній шлях реєстратора SeasLog
--   [SeasLog::closeLoggerStream()](seaslog.closeloggerstream.html) - вручну звільняє потік від реєстратора
+-   [SeasLog::getLastLogger()](seaslog.getlastlogger.md) - Отримує останній шлях реєстратора SeasLog
+-   [SeasLog::closeLoggerStream()](seaslog.closeloggerstream.md) - вручну звільняє потік від реєстратора

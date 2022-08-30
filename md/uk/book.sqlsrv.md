@@ -1,26 +1,26 @@
 Драйвер СУБД Microsoft SQL Server для PHP
 
--   [« SQLite3Result::reset](sqlite3result.reset.html)
+-   [« SQLite3Result::reset](sqlite3result.reset.md)
     
--   [Введение »](intro.sqlsrv.html)
+-   [Введение »](intro.sqlsrv.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.html)
+-   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
     
 -   Драйвер СУБД Microsoft SQL Server для PHP
     
 
 # Драйвер СУБД Microsoft SQL Server для PHP
 
--   [Введение](intro.sqlsrv.html)
--   [Установка и настройка](sqlsrv.setup.html)
-    -   [Требования](sqlsrv.requirements.html)
-    -   [Установка](sqlsrv.installation.html)
-    -   [Настройка во время выполнения](sqlsrv.configuration.html)
-    -   [Типы ресурсов](sqlsrv.resources.html)
--   [Предопределённые константы](sqlsrv.constants.html)
--   [Функції SQLSRV](ref.sqlsrv.html)
+-   [Введение](intro.sqlsrv.md)
+-   [Встановлення та налаштування](sqlsrv.setup.md)
+    -   [Вимоги](sqlsrv.requirements.md)
+    -   [Установка](sqlsrv.installation.md)
+    -   [Налаштування під час виконання](sqlsrv.configuration.md)
+    -   [Типи ресурсів](sqlsrv.resources.md)
+-   [Обумовлені константи](sqlsrv.constants.md)
+-   [Функції SQLSRV](ref.sqlsrv.md)
     -   [sqlsrvbegintransaction](function.sqlsrv-begin-transaction.html) - Починає транзакцію бази даних
     -   [sqlsrvcancel](function.sqlsrv-cancel.html) — скасовує оператор
     -   [sqlsrvclientinfo](function.sqlsrv-client-info.html) — Повертає інформацію про клієнта та зазначене підключення

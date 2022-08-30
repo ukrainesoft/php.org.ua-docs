@@ -1,12 +1,12 @@
 Перевіряє, чи існує заданий атрибут
 
--   [« DOMElement::hasAttribute](domelement.hasattribute.html)
+-   [« DOMElement::hasAttribute](domelement.hasattribute.md)
     
--   [DOMElement::removeAttribute »](domelement.removeattribute.html)
+-   [DOMElement::removeAttribute »](domelement.removeattribute.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMElement](class.domelement.html)
+-   [DOMElement](class.domelement.md)
     
 -   Перевіряє, чи існує заданий атрибут
     
@@ -41,7 +41,7 @@ URI простір імен.
 
 ### Дивіться також
 
--   [DOMElement::hasAttribute()](domelement.hasattribute.html) - Перевіряє, чи існує атрибут
--   [DOMElement::getAttributeNS()](domelement.getattributens.html) - Повертає значення атрибуту
--   [DOMElement::setAttributeNS()](domelement.setattributens.html) - Додає новий атрибут
--   [DOMElement::removeAttributeNS()](domelement.removeattributens.html) - Видаляє атрибут
+-   [DOMElement::hasAttribute()](domelement.hasattribute.md) - Перевіряє, чи існує атрибут
+-   [DOMElement::getAttributeNS()](domelement.getattributens.md) - Повертає значення атрибуту
+-   [DOMElement::setAttributeNS()](domelement.setattributens.md) - Додає новий атрибут
+-   [DOMElement::removeAttributeNS()](domelement.removeattributens.md) - Видаляє атрибут

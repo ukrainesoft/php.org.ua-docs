@@ -1,12 +1,12 @@
 Встановлює розмір зображення
 
--   [« Imagick::exportImagePixels](imagick.exportimagepixels.html)
+-   [« Imagick::exportImagePixels](imagick.exportimagepixels.md)
     
--   [Imagick::filter »](imagick.filter.html)
+-   [Imagick::filter »](imagick.filter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює розмір зображення
     
@@ -53,6 +53,6 @@ public Imagick::extentImage(    int $width,    int $height,    int $
 
 ### Дивіться також
 
--   [Imagick::resizeImage()](imagick.resizeimage.html) - Масштабує зображення
--   [Imagick::thumbnailImage()](imagick.thumbnailimage.html) - Змінює розмір зображення
--   [Imagick::cropImage()](imagick.cropimage.html) - Витягує область зображення
+-   [Imagick::resizeImage()](imagick.resizeimage.md) - Масштабує зображення
+-   [Imagick::thumbnailImage()](imagick.thumbnailimage.md) - Змінює розмір зображення
+-   [Imagick::cropImage()](imagick.cropimage.md) - Витягує область зображення

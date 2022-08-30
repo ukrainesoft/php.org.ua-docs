@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](dio.resources.html)
+-   [« Типи ресурсів](dio.resources.md)
     
--   [Функції прямого введення/виводу »](ref.dio.html)
+-   [Функції прямого введення/виводу »](ref.dio.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Прямой ввод/вывод (Direct IO)](book.dio.html)
+-   [Пряме введення/виведення (Direct IO)](book.dio.md)
     
 -   Обумовлені константи
     

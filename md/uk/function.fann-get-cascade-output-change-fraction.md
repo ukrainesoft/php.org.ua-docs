@@ -4,9 +4,9 @@
     
 -   [fanngetcascadeoutputstagnationepochs »](function.fann-get-cascade-output-stagnation-epochs.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Повертає частку зміни виходу каскаду
     

@@ -1,12 +1,12 @@
 Отримати кількість рядків, які були змінені/віддалені/вставлені останнім запитом
 
--   [« SQLite3::busyTimeout](sqlite3.busytimeout.html)
+-   [« SQLite3::busyTimeout](sqlite3.busytimeout.md)
     
--   [SQLite3::close »](sqlite3.close.html)
+-   [SQLite3::close »](sqlite3.close.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3](class.sqlite3.html)
+-   [SQLite3](class.sqlite3.md)
     
 -   Отримати кількість рядків, які були змінені/віддалені/вставлені останнім запитом
     

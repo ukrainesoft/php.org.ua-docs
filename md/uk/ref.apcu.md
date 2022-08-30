@@ -1,12 +1,12 @@
 Функції APCu
 
--   [« Предопределённые константы](apcu.constants.html)
+-   [« Обумовлені константи](apcu.constants.md)
     
 -   [apcuadd »](function.apcu-add.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [APCu](book.apcu.html)
+-   [APCu](book.apcu.md)
     
 -   Функції APCu
     

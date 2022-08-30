@@ -1,12 +1,12 @@
 Отримати знаменник відсотка виконаної роботи
 
--   [« GearmanTask::sendWorkload](gearmantask.sendworkload.html)
+-   [« GearmanTask::sendWorkload](gearmantask.sendworkload.md)
     
--   [GearmanTask::taskNumerator »](gearmantask.tasknumerator.html)
+-   [GearmanTask::taskNumerator »](gearmantask.tasknumerator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanTask](class.gearmantask.html)
+-   [GearmanTask](class.gearmantask.md)
     
 -   Отримати знаменник відсотка виконаної роботи
     
@@ -35,4 +35,4 @@ public GearmanTask::taskDenominator(): int
 
 ### Дивіться також
 
--   [GearmanTask::taskNumerator()](gearmantask.tasknumerator.html) - отримання чисельника відсотка виконаної роботи
+-   [GearmanTask::taskNumerator()](gearmantask.tasknumerator.md) - отримання чисельника відсотка виконаної роботи

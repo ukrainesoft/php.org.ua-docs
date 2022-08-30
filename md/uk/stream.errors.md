@@ -1,12 +1,12 @@
 Помилки потоку
 
--   [« Контексти потоків](stream.contexts.html)
+-   [« Контексти потоків](stream.contexts.md)
     
--   [Примеры »](stream.examples.html)
+-   [Приклади »](stream.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Потоки](book.stream.html)
+-   [Потоки](book.stream.md)
     
 -   Помилки потоку
     

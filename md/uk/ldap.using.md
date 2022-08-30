@@ -1,12 +1,12 @@
 Використання дзвінків PHP LDAP
 
--   [« Предопределённые константы](ldap.constants.html)
+-   [« Обумовлені константи](ldap.constants.md)
     
--   [Управляющие объекты LDAP »](ldap.controls.html)
+-   [Керуючі об'єкти LDAP »](ldap.controls.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LDAP](book.ldap.html)
+-   [LDAP](book.ldap.md)
     
 -   Використання дзвінків PHP LDAP
     

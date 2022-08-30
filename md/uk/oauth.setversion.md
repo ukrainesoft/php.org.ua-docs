@@ -1,12 +1,12 @@
 Встановити версію OAuth
 
--   [« OAuth::setToken](oauth.settoken.html)
+-   [« OAuth::setToken](oauth.settoken.md)
     
--   [OAuthProvider »](class.oauthprovider.html)
+-   [OAuthProvider »](class.oauthprovider.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](class.oauth.html)
+-   [OAuth](class.oauth.md)
     
 -   Встановити версію OAuth
     

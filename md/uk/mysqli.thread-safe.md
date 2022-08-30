@@ -4,9 +4,9 @@
     
 -   [mysqli::useresult »](mysqli.use-result.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Показує, чи безпечна робота з процесами
     

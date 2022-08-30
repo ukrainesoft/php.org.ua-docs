@@ -1,12 +1,12 @@
 Повертає дочірні елементи внутрішнього ітератора у вигляді об'єкта RecursiveCachingIterator
 
--   [« RecursiveCachingIterator::construct](recursivecachingiterator.construct.html)
+-   [« RecursiveCachingIterator::construct](recursivecachingiterator.construct.md)
     
--   [RecursiveCachingIterator::hasChildren »](recursivecachingiterator.haschildren.html)
+-   [RecursiveCachingIterator::hasChildren »](recursivecachingiterator.haschildren.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveCachingIterator](class.recursivecachingiterator.html)
+-   [RecursiveCachingIterator](class.recursivecachingiterator.md)
     
 -   Повертає дочірні елементи внутрішнього ітератора у вигляді об'єкта RecursiveCachingIterator
     

@@ -1,12 +1,12 @@
 Список директив php.ini
 
--   [« Директивы php.ini](ini.html)
+-   [« Директиви php.ini](ini.html)
     
 -   [Список розділів php.ini »](ini.sections.html)
     
 -   [PHP Manual](index.html)
     
--   [Директивы php.ini](ini.html)
+-   [Директиви php.ini](ini.html)
     
 -   Список директив php.ini
     
@@ -15,393 +15,393 @@
 
 Цей список включає директиви php.ini, які можна використовувати для налаштування PHP.
 
-Стовпець "Місце зміни" показує, коли і де може бути встановлена ​​директива. Для отримання інформації про значення цих директив дивіться розділ ["Де може бути встановлена ​​директива?"](configuration.changes.modes.html)
+Стовпець "Місце зміни" показує, коли і де може бути встановлена ​​директива. Для отримання інформації про значення цих директив дивіться розділ ["Где може бути встановлена ​​директива?"](configuration.changes.modes.html)
 
 **Параметри конфігурації**
 
-| Имя                                                                                                        | По умолчанию                                 | Место изменения         | Список изменений                                                                            |
-|------------------------------------------------------------------------------------------------------------|----------------------------------------------|-------------------------|---------------------------------------------------------------------------------------------|
-| [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen)                                         | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [allowurlinclude](filesystem.configuration.html#ini.allow-url-include)                                     | "0"                                          | PHPINISYSTEM            | Оголошено застарілим у PHP 7.4.0.                                                           |
-| [argseparator.input](ini.core.html#ini.arg-separator.input)                                                | "&"                                          | PHPINIPERDIR            |                                                                                             |
-| [argseparator.output](ini.core.html#ini.arg-separator.output)                                              | "&"                                          | PHPINIALL               |                                                                                             |
-| [assert.active](info.configuration.html#ini.assert.active)                                                 | "1"                                          | PHPINIALL               |                                                                                             |
-| [assert.bail](info.configuration.html#ini.assert.bail)                                                     | "0"                                          | PHPINIALL               |                                                                                             |
-| [assert.callback](info.configuration.html#ini.assert.callback)                                             | NULL                                         | PHPINIALL               |                                                                                             |
-| [assert.exception](info.configuration.html#ini.assert.exception)                                           | "0"                                          | PHPINIALL               |                                                                                             |
-| [assert.quieteval](info.configuration.html#ini.assert.quiet-eval)                                          | "0"                                          | PHPINIALL               | Видалено, починаючи з PHP 8.0.0                                                             |
-| [assert.warning](info.configuration.html#ini.assert.warning)                                               | "1"                                          | PHPINIALL               |                                                                                             |
-| [autoappendfile](ini.core.html#ini.auto-append-file)                                                       | NULL                                         | PHPINIPERDIR            |                                                                                             |
-| [autodetectlineendings](filesystem.configuration.html#ini.auto-detect-line-endings)                        | "0"                                          | PHPINIALL               |                                                                                             |
-| [autoglobalsjit](ini.core.html#ini.auto-globals-jit)                                                       | "1"                                          | PHPINIPERDIR            |                                                                                             |
-| [autoprependfile](ini.core.html#ini.auto-prepend-file)                                                     | NULL                                         | PHPINIPERDIR            |                                                                                             |
-| [bcmath.scale](bc.configuration.html#ini.bcmath.scale)                                                     | "0"                                          | PHPINIALL               |                                                                                             |
-| [browscap](misc.configuration.html#ini.browscap)                                                           | NULL                                         | PHPINISYSTEM            |                                                                                             |
-| [cgi.checkshebangline](ini.core.html#ini.cgi.check-shebang-line)                                           | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [cgi.discardpath](ini.core.html#ini.cgi.discard-path)                                                      | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| [cgi.fixpathinfo](ini.core.html#ini.cgi.fix-pathinfo)                                                      | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [cgi.forceredirect](ini.core.html#ini.cgi.force-redirect)                                                  | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [cgi.nph](ini.core.html#ini.cgi.nph)                                                                       | "0"                                          | PHPINIALL               |                                                                                             |
-| [cgi.redirectstatusenv](ini.core.html#ini.cgi.redirect-status-env)                                         | NULL                                         | PHPINISYSTEM            |                                                                                             |
-| [cgi.rfc2616headers](ini.core.html#ini.cgi.rfc2616-headers)                                                | "0"                                          | PHPINIALL               |                                                                                             |
-| [childterminate](apache.configuration.html#ini.child-terminate)                                            | "0"                                          | PHPINIALL               |                                                                                             |
-| [cli.pager](readline.configuration.html#ini.cli.pager)                                                     | ""                                           | PHPINIALL               |                                                                                             |
-| [cli.prompt](readline.configuration.html#ini.cli.prompt)                                                   | "в > "                                       | PHPINIALL               |                                                                                             |
-| [cliserver.color](features.commandline.ini.html#ini.cli-server.color)                                      | "0"                                          | PHPINIALL               |                                                                                             |
-| [com.allowdcom](com.configuration.html#ini.com.allow-dcom)                                                 | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| [com.autoregistertypelib](com.configuration.html#ini.com.autoregister-typelib)                             | "0"                                          | PHPINIALL               |                                                                                             |
-| [com.autoregisterverbose](com.configuration.html#ini.com.autoregister-verbose)                             | "0"                                          | PHPINIALL               |                                                                                             |
-| [com.autoregistercasesensitive](com.configuration.html#ini.com.autoregister-casesensitive)                 | "1"                                          | PHPINIALL               |                                                                                             |
-| [com.codepage](com.configuration.html#ini.com.code-page)                                                   | ""                                           | PHPINIALL               |                                                                                             |
-| [com.dotnetversion](com.configuration.html#ini.com.dotnet-version)                                         | ""                                           | PHPINISYSTEM            | Починаючи з PHP 8.0.0                                                                       |
-| [com.typelibfile](com.configuration.html#ini.com.typelib-file)                                             | ""                                           | PHPINISYSTEM            |                                                                                             |
-| [curl.cainfo](curl.configuration.html#ini.curl.cainfo)                                                     | NULL                                         | PHPINISYSTEM            |                                                                                             |
-| [date.defaultlatitude](datetime.configuration.html#ini.date.default-latitude)                              | "31.7667"                                    | PHPINIALL               |                                                                                             |
-| [date.defaultlongitude](datetime.configuration.html#ini.date.default-longitude)                            | "35.2333"                                    | PHPINIALL               |                                                                                             |
-| [date.sunrisezenith](datetime.configuration.html#ini.date.sunrise-zenith)                                  | "90.583333"                                  | PHPINIALL               |                                                                                             |
-| [date.sunsetzenith](datetime.configuration.html#ini.date.sunset-zenith)                                    | "90.583333"                                  | PHPINIALL               |                                                                                             |
-| [date.timezone](datetime.configuration.html#ini.date.timezone)                                             | "UTC"                                        | PHPINIALL               |                                                                                             |
-| [dba.defaulthandler](dba.configuration.html#ini.dba.default_handler)                                       | DBADEFAULT                                   | PHPINIALL               |                                                                                             |
-| [defaultcharset](ini.core.html#ini.default-charset)                                                        | "UTF-8"                                      | PHPINIALL               | За замовчуванням "UTF-8".                                                                   |
-| [inputencoding](ini.core.html#ini.input-encoding)                                                          | ""                                           | PHPINIALL               |                                                                                             |
-| [outputencoding](ini.core.html#ini.output-encoding)                                                        | ""                                           | PHPINIALL               |                                                                                             |
-| [internalencoding](ini.core.html#ini.internal-encoding)                                                    | ""                                           | PHPINIALL               |                                                                                             |
-| [defaultmimetype](ini.core.html#ini.default-mimetype)                                                      | "text/html"                                  | PHPINIALL               |                                                                                             |
-| [defaultsockettimeout](filesystem.configuration.html#ini.default-socket-timeout)                           | "60"                                         | PHPINIALL               |                                                                                             |
-| [disableclasses](ini.core.html#ini.disable-classes)                                                        | ""                                           | Тільки php.ini          |                                                                                             |
-| [disablefunctions](ini.core.html#ini.disable-functions)                                                    | ""                                           | Тільки php.ini          |                                                                                             |
-| [displayerrors](errorfunc.configuration.html#ini.display-errors)                                           | "1"                                          | PHPINIALL               |                                                                                             |
-| [displaystartuperrors](errorfunc.configuration.html#ini.display-startup-errors)                            | "1"                                          | PHPINIALL               | До PHP 8.0.0 значення за промовчанням було `"0"`                                            |
-| [docrefext](errorfunc.configuration.html#ini.docref-ext)                                                   | ""                                           | PHPINIALL               |                                                                                             |
-| [docrefroot](errorfunc.configuration.html#ini.docref-root)                                                 | ""                                           | PHPINIALL               |                                                                                             |
-| [docroot](ini.core.html#ini.doc-root)                                                                      | NULL                                         | PHPINISYSTEM            |                                                                                             |
-| [enableдл](info.configuration.html#ini.enable-dl)                                                          | "1"                                          | PHPINISYSTEM            | Ця можливість застаріла та *буде* обов'язково *видалено* в майбутньому.                     |
-| [enablepostdatareading](ini.core.html#ini.enable-post-data-reading)                                        | Він                                          | PHPINIPERDIR            |                                                                                             |
-| [engine](apache.configuration.html#ini.engine)                                                             | "1"                                          | PHPINIALL               |                                                                                             |
-| [errorappendstring](errorfunc.configuration.html#ini.error-append-string)                                  | NULL                                         | PHPINIALL               |                                                                                             |
-| [errorlog](errorfunc.configuration.html#ini.error-log)                                                     | NULL                                         | PHPINIALL               |                                                                                             |
-| [errorprependstring](errorfunc.configuration.html#ini.error-prepend-string)                                | NULL                                         | PHPINIALL               |                                                                                             |
-| [errorreporting](errorfunc.configuration.html#ini.error-reporting)                                         | NULL                                         | PHPINIALL               |                                                                                             |
-| [exif.encodeunicode](exif.configuration.html#ini.exif.encode-unicode)                                      | "ISO-8859-15"                                | PHPINIALL               |                                                                                             |
-| [exif.decodeunicodemotorola](exif.configuration.html#ini.exif.decode-unicode-motorola)                     | "UCS-2BE"                                    | PHPINIALL               |                                                                                             |
-| [exif.decodeunicodeintel](exif.configuration.html#ini.exif.decode-unicode-intel)                           | "UCS-2LE"                                    | PHPINIALL               |                                                                                             |
-| [exif.encodejis](exif.configuration.html#ini.exif.encode-jis)                                              | ""                                           | PHPINIALL               |                                                                                             |
-| [exif.decodejismotorola](exif.configuration.html#ini.exif.decode-jis-motorola)                             | "JIS"                                        | PHPINIALL               |                                                                                             |
-| [exif.decodejisintel](exif.configuration.html#ini.exif.decode-jis-intel)                                   | "JIS"                                        | PHPINIALL               |                                                                                             |
-| [exitвінtimeout](ini.core.html#ini.exit-on-timeout)                                                        | ""                                           | PHPINIALL               |                                                                                             |
-| [expect.timeout](expect.configuration.html#ini.expect.timeout)                                             | "10"                                         | PHPINIALL               |                                                                                             |
-| [expect.loguser](expect.configuration.html#ini.expect.loguser)                                             | "1"                                          | PHPINIALL               |                                                                                             |
-| [expect.logfile](expect.configuration.html#ini.expect.logfile)                                             | ""                                           | PHPINIALL               |                                                                                             |
-| [expect.matchmax](expect.configuration.html#ini.expect.match-max)                                          | ""                                           | PHPINIALL               |                                                                                             |
-| [exposephp](ini.core.html#ini.expose-php)                                                                  | "1"                                          | Тільки php.ini          |                                                                                             |
-| [extension](ini.core.html#ini.extension)                                                                   | NULL                                         | Тільки php.ini          |                                                                                             |
-| [extensiondir](ini.core.html#ini.extension-dir)                                                            | "/path/to/php"                               | PHPINISYSTEM            |                                                                                             |
-| [fastcgi.impersonate](ini.core.html#ini.fastcgi.impersonate)                                               | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| [fastcgi.logging](ini.core.html#ini.fastcgi.logging)                                                       | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [fileuploads](ini.core.html#ini.file-uploads)                                                              | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [filter.default](filter.configuration.html#ini.filter.default)                                             | "unsaferaw"                                  | PHPINIPERDIR            | Параметр застарів, починаючи з PHP 8.1.0.                                                   |
-| [filter.defaultflags](filter.configuration.html#ini.filter.default-flags)                                  | NULL                                         | PHPINIPERDIR            |                                                                                             |
-| [from](filesystem.configuration.html#ini.from)                                                             | ""                                           | PHPINIALL               |                                                                                             |
-| [gd.jpegignorewarning](image.configuration.html#ini.gd.jpeg-ignore-warning)                                | "1"                                          | PHPINIALL               |                                                                                             |
-| [geoip.customdirectory](geoip.configuration.html#ini.geoip.custom-directory)                               | ""                                           | PHPINIALL               |                                                                                             |
-| hardtimeout                                                                                                | "2"                                          | PHPINISYSTEM            | Доступно з PHP 7.1.0.                                                                       |
-| [highlight.comment](misc.configuration.html#ini.syntax-highlighting)                                       | "#FF8000"                                    | PHPINIALL               |                                                                                             |
-| [highlight.default](misc.configuration.html#ini.syntax-highlighting)                                       | "#0000BB"                                    | PHPINIALL               |                                                                                             |
-| [highlight.html](misc.configuration.html#ini.syntax-highlighting)                                          | "#000000"                                    | PHPINIALL               |                                                                                             |
-| [highlight.keyword](misc.configuration.html#ini.syntax-highlighting)                                       | "#007700"                                    | PHPINIALL               |                                                                                             |
-| [highlight.string](misc.configuration.html#ini.syntax-highlighting)                                        | "#DD0000"                                    | PHPINIALL               |                                                                                             |
-| [htmlerrors](errorfunc.configuration.html#ini.html-errors)                                                 | "1"                                          | PHPINIALL               |                                                                                             |
-| [ibase.allowpersistent](ibase.configuration.html#ini.ibase.allow-persistent)                               | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [ibase.maxpersistent](ibase.configuration.html#ini.ibase.max-persistent)                                   | "-1"                                         | PHPINISYSTEM            |                                                                                             |
-| [ibase.maxlinks](ibase.configuration.html#ini.ibase.max-links)                                             | "-1"                                         | PHPINISYSTEM            |                                                                                             |
-| [ibase.defaultдб](ibase.configuration.html#ini.ibase.default-db)                                           | NULL                                         | PHPINISYSTEM            |                                                                                             |
-| [ibase.defaultuser](ibase.configuration.html#ini.ibase.default-user)                                       | NULL                                         | PHPINIALL               |                                                                                             |
-| [ibase.defaultpassword](ibase.configuration.html#ini.ibase.default-password)                               | NULL                                         | PHPINIALL               |                                                                                             |
-| [ibase.defaultcharset](ibase.configuration.html#ini.ibase.default-charset)                                 | NULL                                         | PHPINIALL               |                                                                                             |
-| [ibase.timestampformat](ibase.configuration.html#ini.ibase.timestampformat)                                | "%Y-%m-%d %H:%M:%S"                          | PHPINIALL               |                                                                                             |
-| [ibase.dateformat](ibase.configuration.html#ini.ibase.dateformat)                                          | "%Y-%m-%d"                                   | PHPINIALL               |                                                                                             |
-| [ibase.timeformat](ibase.configuration.html#ini.ibase.timeformat)                                          | "%H:%M:%S"                                   | PHPINIALL               |                                                                                             |
-| [ibmdb2.binmode](ibm-db2.configuration.html#ini.ibm-db2.binmode)                                           | "1"                                          | PHPINIALL               |                                                                                             |
-| [ibmdb2.i5allpconnect](ibm-db2.configuration.html#ini.ibm-db2.i5-all-pconnect)                             | "0"                                          | PHPINISYSTEM            | Доступно з ibmdb2 1.6.5.                                                                    |
-| [ibmdb2.i5allowcommit](ibm-db2.configuration.html#ini.ibm-db2.i5-allow-commit)                             | "0"                                          | PHPINISYSTEM            | Доступно з ibmdb2 1.4.9.                                                                    |
-| [ibmdb2.i5dbcsalloc](ibm-db2.configuration.html#ini.ibm-db2.i5-dbcs-alloc)                                 | "0"                                          | PHPINISYSTEM            | Доступно з ibmdb2 1.5.0.                                                                    |
-| [ibmdb2.instancename](ibm-db2.configuration.html#ini.ibm-db2.instance-name)                                | NULL                                         | PHPINISYSTEM            | Доступно з ibmdb2 1.0.2.                                                                    |
-| [ibmdb2.i5ignoreuserid](ibm-db2.configuration.html#ini.ibm-db2.i5-ignore-userid)                           | "0"                                          | PHPINISYSTEM            | Доступно з ibmdb2 1.8.0.                                                                    |
-| [iconv.inputencoding](iconv.configuration.html#ini.iconv.input-encoding)                                   | ""                                           | PHPINIALL               | Застаріло з PHP 5.6.0.                                                                      |
-| [iconv.outputencoding](iconv.configuration.html#ini.iconv.output-encoding)                                 | ""                                           | PHPINIALL               | Застаріло з PHP 5.6.0.                                                                      |
-| [iconv.internalencoding](iconv.configuration.html#ini.iconv.internal-encoding)                             | ""                                           | PHPINIALL               | Застаріло з PHP 5.6.0.                                                                      |
-| [ignorerepeatederrors](errorfunc.configuration.html#ini.ignore-repeated-errors)                            | "0"                                          | PHPINIALL               |                                                                                             |
-| [ignorerepeatedsource](errorfunc.configuration.html#ini.ignore-repeated-source)                            | "0"                                          | PHPINIALL               |                                                                                             |
-| [ignoreuserabort](misc.configuration.html#ini.ignore-user-abort)                                           | "0"                                          | PHPINIALL               |                                                                                             |
-| [implicitflush](outcontrol.configuration.html#ini.implicit-flush)                                          | "0"                                          | PHPINIALL               |                                                                                             |
-| [includepath](ini.core.html#ini.include-path)                                                              | ".:/path/to/php/pear"                        | PHPINIALL               |                                                                                             |
-| [intl.defaultlocale](intl.configuration.html#ini.intl.default-locale)                                      |                                              | PHPINIALL               |                                                                                             |
-| [intl.errorlevel](intl.configuration.html#ini.intl.error-level)                                            |                                              | PHPINIALL               |                                                                                             |
-| [intl.useexceptions](intl.configuration.html#ini.intl.use-exceptions)                                      |                                              | PHPINIALL               | Доступно з PECL 3.0.0a1                                                                     |
-| [lastmodified](apache.configuration.html#ini.last-modified)                                                | "0"                                          | PHPINIALL               |                                                                                             |
-| [ldap.maxlinks](ldap.configuration.html#ini.ldap.max_links)                                                | "-1"                                         | PHPINISYSTEM            |                                                                                             |
-| [logerrors](errorfunc.configuration.html#ini.log-errors)                                                   | "0"                                          | PHPINIALL               |                                                                                             |
-| [logerrorsmaxlen](errorfunc.configuration.html#ini.log-errors-max-len)                                     | "1024"                                       | PHPINIALL               |                                                                                             |
-| [mail.addзheader](mail.configuration.html#ini.mail.add-x-header)                                           | "0"                                          | PHPINIPERDIR            |                                                                                             |
-| mail.forceextraparameters                                                                                  | NULL                                         | Тільки php.ini          |                                                                                             |
-| [mail.log](mail.configuration.html#ini.mail.log)                                                           | ""                                           | PHPINIPERDIR            |                                                                                             |
-| [maxexecutiontime](info.configuration.html#ini.max-execution-time)                                         | "30"                                         | PHPINIALL               |                                                                                             |
-| [maxinputnestinglevel](info.configuration.html#ini.max-input-nesting-level)                                | "64"                                         | PHPINIPERDIR            |                                                                                             |
-| [maxinputvars](info.configuration.html#ini.max-input-vars)                                                 |                                              | PHPINIPERDIR            |                                                                                             |
-| [maxinputtime](info.configuration.html#ini.max-input-time)                                                 | "-1"                                         | PHPINIPERDIR            |                                                                                             |
-| [mbstring.language](mbstring.configuration.html#ini.mbstring.language)                                     | "neutral"                                    | PHPINIALL               |                                                                                             |
-| [mbstring.detectorder](mbstring.configuration.html#ini.mbstring.detect-order)                              | NULL                                         | PHPINIALL               |                                                                                             |
-| [mbstring.httpinput](mbstring.configuration.html#ini.mbstring.http-input)                                  | "pass"                                       | PHPINIALL               | Застаріла                                                                                   |
-| [mbstring.httpoutput](mbstring.configuration.html#ini.mbstring.http-output)                                | "pass"                                       | PHPINIALL               | Застаріла                                                                                   |
-| [mbstring.internalencoding](mbstring.configuration.html#ini.mbstring.internal-encoding)                    | NULL                                         | PHPINIALL               | Застаріла                                                                                   |
-| [mbstring.substitutecharacter](mbstring.configuration.html#ini.mbstring.substitute-character)              | NULL                                         | PHPINIALL               |                                                                                             |
-| [mbstring.funcoverload](mbstring.configuration.html#ini.mbstring.func-overload)                            | "0"                                          | PHPINISYSTEM            | Оголошено застарілим у PHP 7.2.0; видалено з PHP 8.0.0.                                     |
-| [mbstring.encodingtranslation](mbstring.configuration.html#ini.mbstring.encoding-translation)              | "0"                                          | PHPINIPERDIR            |                                                                                             |
-| [mbstring.httpoutputconvmimetypes](mbstring.configuration.html#ini.mbstring.http-output-conv-mimetypes)    | "^(text/                                     | application/xhtml+xml)" | PHPINIALL                                                                                   |
-| [mbstring.strictdetection](mbstring.configuration.html#ini.mbstring.strict-detection)                      | "0"                                          | PHPINIALL               |                                                                                             |
-| [mcrypt.algorithmsdir](mcrypt.configuration.html#ini.mcrypt.algorithms-dir)                                | **`null`**                                   | PHPINIALL               |                                                                                             |
-| [mcrypt.modesdir](mcrypt.configuration.html#ini.mcrypt.modes-dir)                                          | **`null`**                                   | PHPINIALL               |                                                                                             |
-| [memcache.allowfailover](memcache.ini.html#ini.memcache.allow-failover)                                    | "1"                                          | PHPINIALL               | Доступно з memcache 2.0.2.                                                                  |
-| [memcache.maxfailoverattempts](memcache.ini.html#ini.memcache.max-failover-attempts)                       | "20"                                         | PHPINIALL               | Доступно з memcache 2.1.0.                                                                  |
-| [memcache.chunksize](memcache.ini.html#ini.memcache.chunk-size)                                            | "8192"                                       | PHPINIALL               | Доступно з memcache 2.0.2.                                                                  |
-| [memcache.defaultport](memcache.ini.html#ini.memcache.default-port)                                        | "11211"                                      | PHPINIALL               | Доступно з memcache 2.0.2.                                                                  |
-| [memcache.hashstrategy](memcache.ini.html#ini.memcache.hash-strategy)                                      | "standard"                                   | PHPINIALL               | Доступно з memcache 2.2.0.                                                                  |
-| [memcache.hashfunction](memcache.ini.html#ini.memcache.hash-function)                                      | "crc32"                                      | PHPINIALL               | Доступно з memcache 2.2.0.                                                                  |
-| [memcache.protocol](memcache.ini.html#ini.memcache.protocol)                                               | ascii                                        | \>PHPINIALL             | Підтримується з memcache 3.0.0                                                              |
-| [memcache.redundancy](memcache.ini.html#ini.memcache.redundancy)                                           |                                              | \>PHPINIALL             | Підтримується з memcache 3.0.0                                                              |
-| [memcache.sessionredundancy](memcache.ini.html#ini.memcache.session-redundancy)                            |                                              | \>PHPINIALL             | Підтримується з memcache 3.0.0                                                              |
-| [memcache.compressthreshold](memcache.ini.html#ini.memcache.compress-threshold)                            |                                              | \>PHPINIALL             | Підтримується з memcache 3.0.3                                                              |
-| [memcache.locktimeout](memcache.ini.html#ini.memcache.lock-timeout)                                        |                                              | \>PHPINIALL             | Підтримується з memcache 3.0.4                                                              |
-| [memorylimit](ini.core.html#ini.memory-limit)                                                              | "128M"                                       | PHPINIALL               |                                                                                             |
-| [mysql.allowlocalinfile](mysql.configuration.html#ini.mysql.allow-local-infile)                            | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [mysql.allowpersistent](mysql.configuration.html#ini.mysql.allow-persistent)                               | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [mysql.maxpersistent](mysql.configuration.html#ini.mysql.max-persistent)                                   | "-1"                                         | PHPINISYSTEM            |                                                                                             |
-| [mysql.maxlinks](mysql.configuration.html#ini.mysql.max-links)                                             | "-1"                                         | PHPINISYSTEM            |                                                                                             |
-| [mysql.tracemode](mysql.configuration.html#ini.mysql.trace-mode)                                           | "0"                                          | PHPINIALL               |                                                                                             |
-| [mysql.defaultport](mysql.configuration.html#ini.mysql.default-port)                                       | NULL                                         | PHPINIALL               |                                                                                             |
-| [mysql.defaultsocket](mysql.configuration.html#ini.mysql.default-socket)                                   | NULL                                         | PHPINIALL               |                                                                                             |
-| [mysql.defaulthost](mysql.configuration.html#ini.mysql.default-host)                                       | NULL                                         | PHPINIALL               |                                                                                             |
-| [mysql.defaultuser](mysql.configuration.html#ini.mysql.default-user)                                       | NULL                                         | PHPINIALL               |                                                                                             |
-| [mysql.defaultpassword](mysql.configuration.html#ini.mysql.default-password)                               | NULL                                         | PHPINIALL               |                                                                                             |
-| [mysql.connecttimeout](mysql.configuration.html#ini.mysql.connect-timeout)                                 | "60"                                         | PHPINIALL               |                                                                                             |
-| [mysqli.allowlocalinfile](mysqli.configuration.html#ini.mysqli.allow-local-infile)                         | "0"                                          | PHPINISYSTEM            | До PHP 7.2.16 та 7.3.3 значенням за умовчанням було "1".                                    |
-| [mysqli.localinfiledirectory](mysqli.configuration.html#ini.mysqli.local-infile-directory)                 |                                              | PHPINISYSTEM            | Доступно з PHP 8.1.0.                                                                       |
-| [mysqli.allowpersistent](mysqli.configuration.html#ini.mysqli.allow-persistent)                            | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [mysqli.maxpersistent](mysqli.configuration.html#ini.mysqli.max-persistent)                                | "-1"                                         | PHPINISYSTEM            |                                                                                             |
-| [mysqli.maxlinks](mysqli.configuration.html#ini.mysqli.max-links)                                          | "-1"                                         | PHPINISYSTEM            |                                                                                             |
-| [mysqli.defaultport](mysqli.configuration.html#ini.mysqli.default-port)                                    | "3306"                                       | PHPINIALL               |                                                                                             |
-| [mysqli.defaultsocket](mysqli.configuration.html#ini.mysqli.default-socket)                                | NULL                                         | PHPINIALL               |                                                                                             |
-| [mysqli.defaulthost](mysqli.configuration.html#ini.mysqli.default-host)                                    | NULL                                         | PHPINIALL               |                                                                                             |
-| [mysqli.defaultuser](mysqli.configuration.html#ini.mysqli.default-user)                                    | NULL                                         | PHPINIALL               |                                                                                             |
-| [mysqli.defaultпв](mysqli.configuration.html#ini.mysqli.default-pw)                                        | NULL                                         | PHPINIALL               |                                                                                             |
-| [mysqli.reconnect](mysqli.configuration.html#ini.mysqli.reconnect)                                         | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| [mysqli.rollbackвінcachedplink](mysqli.configuration.html#ini.mysqli.rollback-on-cached-plink)             | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| [mysqlnd.collectstatistics](mysqlnd.config.html#ini.mysqlnd.collect-statistics)                            | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [mysqlnd.collectmemorystatistics](mysqlnd.config.html#ini.mysqlnd.collect-memory-statistics)               | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| [mysqlnd.debug](mysqlnd.config.html#ini.mysqlnd.debug)                                                     | ""                                           | PHPINISYSTEM            |                                                                                             |
-| [mysqlnd.logmask](mysqlnd.config.html#ini.mysqlnd.log-mask)                                                |                                              | PHPINIALL               |                                                                                             |
-| [mysqlnd.mempooldefaultsize](mysqlnd.config.html#ini.mysqlnd.mempool-default-size)                         |                                              | PHPINIALL               |                                                                                             |
-| [mysqlnd.netreadtimeout](mysqlnd.config.html#ini.mysqlnd.net-read-timeout)                                 | "86400"                                      | PHPINIALL               | До PHP 7.2.0 значенням за промовчанням "31536000", а місцем зміни було **`PHP_INI_SYSTEM`** |
-| [mysqlnd.netcmdbuffersize](mysqlnd.config.html#ini.mysqlnd.net-cmd-buffer-size)                            | 5.3.0 - "2048"; 5.3.1 - "4096"               | PHPINISYSTEM            |                                                                                             |
-| [mysqlnd.netreadbuffersize](mysqlnd.config.html#ini.mysqlnd.net-read-buffer-size)                          | "32768"                                      | PHPINISYSTEM            |                                                                                             |
-| [mysqlnd.sha256serverpublickey](mysqlnd.config.html#ini.mysqlnd.sha256-server-public-key)                  | ""                                           | PHPINIPERDIR            |                                                                                             |
-| [mysqlnd.tracealloc](mysqlnd.config.html#ini.mysqlnd.trace-alloc)                                          | ""                                           | PHPINISYSTEM            |                                                                                             |
-| [mysqlnd.fetchdatacopy](mysqlnd.config.html#ini.mysqlnd.fetch_data_copy)                                   |                                              | PHPINIALL               |                                                                                             |
-| [oci8.connectionclass](oci8.configuration.html#ini.oci8.connection-class)                                  | ""                                           | PHPINIALL               | Доступна з версії PECL OCI8 1.3.                                                            |
-| [oci8.defaultprefetch](oci8.configuration.html#ini.oci8.default-prefetch)                                  | "100"                                        | PHPINISYSTEM            | Доступна з версії PECL OCI8 1.1.                                                            |
-| [oci8.events](oci8.configuration.html#ini.oci8.events)                                                     | Off                                          | PHPINISYSTEM            | Доступна з версії PECL OCI8 1.3.                                                            |
-| [oci8.maxpersistent](oci8.configuration.html#ini.oci8.max-persistent)                                      | "-1"                                         | PHPINISYSTEM            | Доступна з версії PECL OCI8 1.1. Оголошена застарілою починаючи з PHP 8.1.0.                |
-| [oci8.oldociclosesemantics](oci8.configuration.html#ini.oci8.old-oci-close-semantics)                      | Off                                          | PHPINISYSTEM            | Доступна з версії PECL OCI8 1.1.                                                            |
-| [oci8.persistenttimeout](oci8.configuration.html#ini.oci8.persistent-timeout)                              | "-1"                                         | PHPINISYSTEM            | Доступна з версії PECL OCI8 1.1.                                                            |
-| [oci8.pinginterval](oci8.configuration.html#ini.oci8.ping-interval)                                        | "60"                                         | PHPINISYSTEM            | Доступна з версії PECL OCI8 1.1.                                                            |
-| [oci8.prefetchlobsize](oci8.configuration.html#ini.oci8.prefetch-lob-size)                                 | "0"                                          | PHPINISYSTEM            | Доступна з версії PECL OCI8 3.2.                                                            |
-| [oci8.privilegedconnect](oci8.configuration.html#ini.oci8.privileged-connect)                              | Off                                          | PHPINISYSTEM            | Доступна з версії PECL OCI8 1.1.                                                            |
-| [oci8.statementcachesize](oci8.configuration.html#ini.oci8.statement-cache-size)                           | "20"                                         | PHPINISYSTEM            | Доступна з версії PECL OCI8 1.1.                                                            |
-| [odbc.defaultдб](odbc.configuration.html#ini.uodbc.default-db)                                             | NULL                                         | PHPINIALL               |                                                                                             |
-| [odbc.defaultuser](odbc.configuration.html#ini.uodbc.default-user)                                         | NULL                                         | PHPINIALL               |                                                                                             |
-| [odbc.defaultпв](odbc.configuration.html#ini.uodbc.default-pw)                                             | NULL                                         | PHPINIALL               |                                                                                             |
-| [odbc.allowpersistent](odbc.configuration.html#ini.uodbc.allow-persistent)                                 | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [odbc.checkpersistent](odbc.configuration.html#ini.uodbc.check-persistent)                                 | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [odbc.maxpersistent](odbc.configuration.html#ini.uodbc.max-persistent)                                     | "-1"                                         | PHPINISYSTEM            |                                                                                             |
-| [odbc.maxlinks](odbc.configuration.html#ini.uodbc.max-links)                                               | "-1"                                         | PHPINISYSTEM            |                                                                                             |
-| [odbc.defaultlrl](odbc.configuration.html#ini.uodbc.defaultlrl)                                            | "4096"                                       | PHPINIALL               |                                                                                             |
-| [odbc.defaultbinmode](odbc.configuration.html#ini.uodbc.defaultbinmode)                                    | "1"                                          | PHPINIALL               |                                                                                             |
-| [odbc.defaultcursortype](odbc.configuration.html#ini.uodbc.defaultcursortype)                              | "3"                                          | PHPINIALL               |                                                                                             |
-| [opcache.enable](opcache.configuration.html#ini.opcache.enable)                                            | "1"                                          | PHPINIALL               |                                                                                             |
-| [opcache.enablecli](opcache.configuration.html#ini.opcache.enable-cli)                                     | "0"                                          | PHPINISYSTEM            | У версіях з PHP 7.1.2 до 7.1.6 включно, значення за замовчуванням "1" (включено)            |
-| [opcache.memoryconsumption](opcache.configuration.html#ini.opcache.memory-consumption)                     | "128"                                        | PHPINISYSTEM            |                                                                                             |
-| [opcache.internedstringsbuffer](opcache.configuration.html#ini.opcache.interned-strings-buffer)            | "8"                                          | PHPINISYSTEM            |                                                                                             |
-| [opcache.maxacceleratedfiles](opcache.configuration.html#ini.opcache.max-accelerated-files)                | "10000"                                      | PHPINISYSTEM            |                                                                                             |
-| [opcache.maxwastedpercentage](opcache.configuration.html#ini.opcache.max-wasted-percentage)                | "5"                                          | PHPINISYSTEM            |                                                                                             |
-| [opcache.usecwd](opcache.configuration.html#ini.opcache.use-cwd)                                           | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [opcache.validatetimestamps](opcache.configuration.html#ini.opcache.validate-timestamps)                   | "1"                                          | PHPINIALL               |                                                                                             |
-| [opcache.revalidatefreq](opcache.configuration.html#ini.opcache.revalidate-freq)                           | "2"                                          | PHPINIALL               |                                                                                             |
-| [opcache.revalidatepath](opcache.configuration.html#ini.opcache.revalidate-path)                           | "0"                                          | PHPINIALL               |                                                                                             |
-| [opcache.savecomments](opcache.configuration.html#ini.opcache.save-comments)                               | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [opcache.fastshutdown](opcache.configuration.html#ini.opcache.fast-shutdown)                               | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| [opcache.enablefileoverride](opcache.configuration.html#ini.opcache.enable-file-override)                  | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| [opcache.optimizationlevel](opcache.configuration.html#ini.opcache.optimization-level)                     | "0x7FFEBFFF"                                 | PHPINISYSTEM            | До PHP 7.3.0 було 0x7FFFBFFF                                                                |
-| [opcache.inheritedhack](opcache.configuration.html#ini.opcache.inherited-hack)                             | "1"                                          | PHPINISYSTEM            | Вилучено у PHP 7.3.0                                                                        |
-| [opcache.dupsfix](opcache.configuration.html#ini.opcache.dups-fix)                                         | "0"                                          | PHPINIALL               |                                                                                             |
-| [opcache.blacklistfilename](opcache.configuration.html#ini.opcache.blacklist-filename)                     | ""                                           | PHPINISYSTEM            |                                                                                             |
-| [opcache.maxfilesize](opcache.configuration.html#ini.opcache.max-file-size)                                | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| [opcache.consistencychecks](opcache.configuration.html#ini.opcache.consistency-checks)                     | "0"                                          | PHPINIALL               |                                                                                             |
-| [opcache.forcerestarttimeout](opcache.configuration.html#ini.opcache.force-restart-timeout)                | "180"                                        | PHPINISYSTEM            |                                                                                             |
-| [opcache.errorlog](opcache.configuration.html#ini.opcache.error-log)                                       | ""                                           | PHPINISYSTEM            |                                                                                             |
-| [opcache.logverbositylevel](opcache.configuration.html#ini.opcache.log-verbosity-level)                    | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [opcache.recordwarnings](opcache.configuration.html#ini.opcache.record-warnings)                           | "0"                                          | PHPINISYSTEM            | Доступно з PHP 8.0.0.                                                                       |
-| [opcache.preferredmemorymodel](opcache.configuration.html#ini.opcache.preferred-memory-model)              | ""                                           | PHPINISYSTEM            |                                                                                             |
-| [opcache.protectmemory](opcache.configuration.html#ini.opcache.protect-memory)                             | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| [opcache.mmapbase](opcache.configuration.html#ini.opcache.mmap-base)                                       | **`null`**                                   | PHPINISYSTEM            |                                                                                             |
-| [opcache.restrictapi](opcache.configuration.html#ini.opcache.restrict-api)                                 | ""                                           | PHPINISYSTEM            |                                                                                             |
-| [opcache.fileupdateprotection](opcache.configuration.html#ini.opcache.file_update_protection)              | "2"                                          | PHPINIALL               |                                                                                             |
-| [opcache.hugecodepages](opcache.configuration.html#ini.opcache.huge_code_pages)                            | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| [opcache.lockfilepath](opcache.configuration.html#ini.opcache.lockfile_path)                               | "/tmp"                                       | PHPINISYSTEM            |                                                                                             |
-| [opcache.optdebuglevel](opcache.configuration.html#ini.opcache.opt_debug_level)                            | "0"                                          | PHPINISYSTEM            | Доступно з PHP 7.1.0                                                                        |
-| [opcache.filecache](opcache.configuration.html#ini.opcache.file-cache)                                     | NULL                                         | PHPINISYSTEM            |                                                                                             |
-| [opcache.filecacheonly](opcache.configuration.html#ini.opcache.file-cache-only)                            | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| [opcache.filecacheconsistencychecks](opcache.configuration.html#ini.opcache.file-cache-consistency-checks) | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [opcache.filecachefallback](opcache.configuration.html#ini.opcache.file-cache-fallback)                    | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [opcache.validatepermission](opcache.configuration.html#ini.opcache.validate-permission)                   | "0"                                          | PHPINISYSTEM            | Доступно з PHP 7.0.14                                                                       |
-| [opcache.validateroot](opcache.configuration.html#ini.opcache.validate-root)                               | "0"                                          | PHPINISYSTEM            | Доступно з PHP 7.0.14                                                                       |
-| [opcache.preload](opcache.configuration.html#ini.opcache.preload)                                          | ""                                           | PHPINISYSTEM            | Доступно з PHP 7.4.0                                                                        |
-| [opcache.preloaduser](opcache.configuration.html#ini.opcache.preload-user)                                 | ""                                           | PHPINISYSTEM            | Доступно з PHP 7.4.0                                                                        |
-| [opcache.cacheід](opcache.configuration.html#ini.opcache.cache-id)                                         | ""                                           | PHPINISYSTEM            | Тільки Windows. Доступно з PHP 7.4.0                                                        |
-| [opcache.jit](opcache.configuration.html#ini.opcache.jit)                                                  | "tracing"                                    | PHPINIALL               | Доступно з PHP 8.0.0                                                                        |
-| [opcache.jitbuffersize](opcache.configuration.html#ini.opcache.jit-buffer-size)                            | "0"                                          | PHPINISYSTEM            | Доступно з PHP 8.0.0                                                                        |
-| [opcache.jitdebug](opcache.configuration.html#ini.opcache.jit-debug)                                       | "0"                                          | PHPINIALL               | Доступно з PHP 8.0.0                                                                        |
-| [opcache.jitbisectlimit](opcache.configuration.html#ini.opcache.jit-bisect-limit)                          | "0"                                          | PHPINIALL               | Доступно з PHP 8.0.0                                                                        |
-| [opcache.jitprofthreshold](opcache.configuration.html#ini.opcache.jit-prof-threshold)                      | "0.005"                                      | PHPINIALL               | Доступно з PHP 8.0.0                                                                        |
-| [opcache.jitmaxroottraces](opcache.configuration.html#ini.opcache.jit-max-root-traces)                     | "1024"                                       | PHPINISYSTEM            | Доступно з PHP 8.0.0                                                                        |
-| [opcache.jitmaxsidetraces](opcache.configuration.html#ini.opcache.jit-max-side-traces)                     | "128"                                        | PHPINISYSTEM            | Доступно з PHP 8.0.0                                                                        |
-| [opcache.jitmaxexitcounters](opcache.configuration.html#ini.opcache.jit-max-exit-counters)                 | "8192"                                       | PHPINISYSTEM            | Доступно з PHP 8.0.0                                                                        |
-| [opcache.jithotloop](opcache.configuration.html#ini.opcache.jit-hot-loop)                                  | "64"                                         | PHPINISYSTEM            | Доступно з PHP 8.0.0                                                                        |
-| [opcache.jithotfunc](opcache.configuration.html#ini.opcache.jit-hot-func)                                  | "127"                                        | PHPINISYSTEM            | Доступно з PHP 8.0.0                                                                        |
-| [opcache.jithotreturn](opcache.configuration.html#ini.opcache.jit-hot-return)                              | "8"                                          | PHPINISYSTEM            | Доступно з PHP 8.0.0                                                                        |
-| [opcache.jithotsideexit](opcache.configuration.html#ini.opcache.jit-hot-side-exit)                         | "8"                                          | PHPINISYSTEM            | Доступно з PHP 8.0.0                                                                        |
-| [opcache.jitblacklistroottrace](opcache.configuration.html#ini.opcache.jit-blacklist-root-trace)           | "16"                                         | PHPINIALL               | Доступно з PHP 8.0.0                                                                        |
-| [opcache.jitblacklistsidetrace](opcache.configuration.html#ini.opcache.jit-blacklist-side-trace)           | "8"                                          | PHPINIALL               | Доступно з PHP 8.0.0                                                                        |
-| [opcache.jitmaxloopunrolls](opcache.configuration.html#ini.opcache.jit-max-loop-unrolls)                   | "8"                                          | PHPINIALL               | Доступно з PHP 8.0.0                                                                        |
-| [opcache.jitmaxrecursivecalls](opcache.configuration.html#ini.opcache.jit-max-recursive-calls)             | "2"                                          | PHPINIALL               | Доступно з PHP 8.0.0                                                                        |
-| [opcache.jitmaxrecursivereturns](opcache.configuration.html#ini.opcache.jit-max-recursive-return)          | "2"                                          | PHPINIALL               | Доступно з PHP 8.0.0                                                                        |
-| [opcache.jitmaxpolymorphiccalls](opcache.configuration.html#ini.opcache.jit-max-polymorphic-calls)         | "2"                                          | PHPINIALL               | Доступно з PHP 8.0.0                                                                        |
-| [openbasedir](ini.core.html#ini.open-basedir)                                                              | NULL                                         | PHPINIALL               |                                                                                             |
-| [outputbuffering](outcontrol.configuration.html#ini.output-buffering)                                      | "0"                                          | PHPINIPERDIR            |                                                                                             |
-| [outputhandler](outcontrol.configuration.html#ini.output-handler)                                          | NULL                                         | PHPINIPERDIR            |                                                                                             |
-| [pcre.backtracklimit](pcre.configuration.html#ini.pcre.backtrack-limit)                                    | "1000000"                                    | PHPINIALL               |                                                                                             |
-| [pcre.recursionlimit](pcre.configuration.html#ini.pcre.recursion-limit)                                    | "100000"                                     | PHPINIALL               |                                                                                             |
-| [pcre.jit](pcre.configuration.html#ini.pcre.jit)                                                           | "1"                                          | PHPINIALL               |                                                                                             |
-| [pdo.dsn.](pdo.configuration.html#ini.pdo.dsn)                                                             |                                              | тільки php.ini          |                                                                                             |
-| [pdoodbc.connectionpooling](ref.pdo-odbc.html#ini.pdo-odbc.connection-pooling)                             | "strict"                                     | PHPINIALL               |                                                                                             |
-| [pdoodbc.db2instancename](ref.pdo-odbc.html#ini.pdo-odbc.db2-instance-name)                                | NULL                                         | PHPINISYSTEM            | Ця можливість застаріла та *буде* обов'язково *видалено* в майбутньому.                     |
-| [pgsql.allowpersistent](pgsql.configuration.html#ini.pgsql.allow-persistent)                               | "1"                                          | PHPINISYSTEM            |                                                                                             |
-| [pgsql.maxpersistent](pgsql.configuration.html#ini.pgsql.max-persistent)                                   | "-1"                                         | PHPINISYSTEM            |                                                                                             |
-| [pgsql.maxlinks](pgsql.configuration.html#ini.pgsql.max-links)                                             | "-1"                                         | PHPINISYSTEM            |                                                                                             |
-| [pgsql.autoresetpersistent](pgsql.configuration.html#ini.pgsql.auto-reset-persistent)                      | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| [pgsql.ignorenotice](pgsql.configuration.html#ini.pgsql.ignore-notice)                                     | "0"                                          | PHPINIALL               |                                                                                             |
-| [pgsql.lognotice](pgsql.configuration.html#ini.pgsql.log-notice)                                           | "0"                                          | PHPINIALL               |                                                                                             |
-| [phar.readonly](phar.configuration.html#ini.phar.readonly)                                                 | "1"                                          | PHPINIALL               |                                                                                             |
-| [phar.requirehash](phar.configuration.html#ini.phar.require-hash)                                          | "1"                                          | PHPINIALL               |                                                                                             |
-| [phar.cachelist](phar.configuration.html#ini.phar.cache-list)                                              | ""                                           | PHPINISYSTEM            |                                                                                             |
-| [postmaxsize](ini.core.html#ini.post-max-size)                                                             | "8M"                                         | PHPINIPERDIR            |                                                                                             |
-| [precision](ini.core.html#ini.precision)                                                                   | "14"                                         | PHPINIALL               |                                                                                             |
-| [realpathcachesize](ini.core.html#ini.realpath-cache-size)                                                 | "16K"                                        | PHPINISYSTEM            |                                                                                             |
-| [realpathcachettl](ini.core.html#ini.realpath-cache-ttl)                                                   | "120"                                        | PHPINISYSTEM            |                                                                                             |
-| [registerargcargv](ini.core.html#ini.register-argc-argv)                                                   | "1"                                          | PHPINIPERDIR            |                                                                                             |
-| [reportmemleaks](errorfunc.configuration.html#ini.report-memleaks)                                         | "1"                                          | PHPINIALL               |                                                                                             |
-| reportzenddebug                                                                                            | "1"                                          | PHPINIALL               |                                                                                             |
-| [requestorder](ini.core.html#ini.request-order)                                                            | ""                                           | PHPINIPERDIR            |                                                                                             |
-| [runkit.superglobal](runkit7.configuration.html#ini.runkit7.superglobal)                                   | ""                                           | PHPINIPERDIR            |                                                                                             |
-| [runkit.internaloverride](runkit7.configuration.html#ini.runkit7.internal-override)                        | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| [sendmailfrom](mail.configuration.html#ini.sendmail-from)                                                  | NULL                                         | PHPINIALL               |                                                                                             |
-| [sendmailpath](mail.configuration.html#ini.sendmail-path)                                                  | "/usr/sbin/sendmail -t -i"                   | PHPINISYSTEM            |                                                                                             |
-| [serializeprecision](ini.core.html#ini.serialize-precision)                                                | "-1"                                         | PHPINIALL               | До PHP 7.1.0, значення за промовчанням 17.                                                  |
-| [session.savepath](session.configuration.html#ini.session.save-path)                                       | ""                                           | PHPINIALL               |                                                                                             |
-| [session.name](session.configuration.html#ini.session.name)                                                | "PHPSESSID"                                  | PHPINIALL               |                                                                                             |
-| [session.savehandler](session.configuration.html#ini.session.save-handler)                                 | "files"                                      | PHPINIALL               |                                                                                             |
-| [session.autostart](session.configuration.html#ini.session.auto-start)                                     | "0"                                          | PHPINIPERDIR            |                                                                                             |
-| [session.gcprobability](session.configuration.html#ini.session.gc-probability)                             | "1"                                          | PHPINIALL               |                                                                                             |
-| [session.gcdivisor](session.configuration.html#ini.session.gc-divisor)                                     | "100"                                        | PHPINIALL               |                                                                                             |
-| [session.gcmaxlifetime](session.configuration.html#ini.session.gc-maxlifetime)                             | "1440"                                       | PHPINIALL               |                                                                                             |
-| [session.serializehandler](session.configuration.html#ini.session.serialize-handler)                       | "php"                                        | PHPINIALL               |                                                                                             |
-| [session.cookielifetime](session.configuration.html#ini.session.cookie-lifetime)                           | "0"                                          | PHPINIALL               |                                                                                             |
-| [session.cookiepath](session.configuration.html#ini.session.cookie-path)                                   | "/"                                          | PHPINIALL               |                                                                                             |
-| [session.cookiedomain](session.configuration.html#ini.session.cookie-domain)                               | ""                                           | PHPINIALL               |                                                                                             |
-| [session.cookiesecure](session.configuration.html#ini.session.cookie-secure)                               | "0"                                          | PHPINIALL               | До PHP 7.2.0 значення за промовчанням було `""`                                             |
-| [session.cookiehttponly](session.configuration.html#ini.session.cookie-httponly)                           | "0"                                          | PHPINIALL               | До PHP 7.2.0 значення за промовчанням було `""`                                             |
-| [session.cookiesamesite](session.configuration.html#ini.session.cookie-samesite)                           | ""                                           | PHPINIALL               | Доступна з PHP 7.3.0.                                                                       |
-| [session.usestrictmode](session.configuration.html#ini.session.use-strict-mode)                            | "0"                                          | PHPINIALL               |                                                                                             |
-| [session.usecookies](session.configuration.html#ini.session.use-cookies)                                   | "1"                                          | PHPINIALL               |                                                                                             |
-| [session.useonlycookies](session.configuration.html#ini.session.use-only-cookies)                          | "1"                                          | PHPINIALL               |                                                                                             |
-| [session.referercheck](session.configuration.html#ini.session.referer-check)                               | ""                                           | PHPINIALL               |                                                                                             |
-| [session.cachelimiter](session.configuration.html#ini.session.cache-limiter)                               | "nocache"                                    | PHPINIALL               |                                                                                             |
-| [session.cacheexpire](session.configuration.html#ini.session.cache-expire)                                 | "180"                                        | PHPINIALL               |                                                                                             |
-| [session.usetranssid](session.configuration.html#ini.session.use-trans-sid)                                | "0"                                          | PHPINIALL               |                                                                                             |
-| [session.transsidtags](session.configuration.html#ini.session.trans-sid-tags)                              | "a=href,area=href,frame=src,form="           | PHPINIALL               | Доступна з PHP 7.1.0.                                                                       |
-| [session.transsidhosts](session.configuration.html#ini.session.trans-sid-hosts)                            | `$_SERVER['HTTP_HOST']`                      | PHPINIALL               | Доступна з PHP 7.1.0.                                                                       |
-| [session.sidlength](session.configuration.html#ini.session.sid-length)                                     | "32"                                         | PHPINIALL               | Доступна з PHP 7.1.0.                                                                       |
-| [session.sidbitspercharacter](session.configuration.html#ini.session.sid-bits-per-character)               | "4"                                          | PHPINIALL               | Доступна з PHP 7.1.0.                                                                       |
-| [session.uploadprogress.enabled](session.configuration.html#ini.session.upload-progress.enabled)           | "1"                                          | PHPINIPERDIR            |                                                                                             |
-| [session.uploadprogress.cleanup](session.configuration.html#ini.session.upload-progress.cleanup)           | "1"                                          | PHPINIPERDIR            |                                                                                             |
-| [session.uploadprogress.prefix](session.configuration.html#ini.session.upload-progress.prefix)             | "uploadprogress"                             | PHPINIPERDIR            |                                                                                             |
-| [session.uploadprogress.name](session.configuration.html#ini.session.upload-progress.name)                 | "PHPSESSIONUPLOADPROGRESS"                   | PHPINIPERDIR            |                                                                                             |
-| [session.uploadprogress.freq](session.configuration.html#ini.session.upload-progress.freq)                 | "1%"                                         | PHPINIPERDIR            |                                                                                             |
-| [session.uploadprogress.minfreq](session.configuration.html#ini.session.upload-progress.min-freq)          | "1"                                          | PHPINIPERDIR            |                                                                                             |
-| [session.lazywrite](session.configuration.html#ini.session.lazy-write)                                     | "1"                                          | PHPINIALL               |                                                                                             |
-| [session.hashfunction](session.configuration.html#ini.session.hash-function)                               | "0"                                          | PHPINIALL               | Видалено в PHP 7.1.0.                                                                       |
-| [session.hashbitspercharacter](session.configuration.html#ini.session.hash-bits-per-character)             | "4"                                          | PHPINIALL               | Видалено в PHP 7.1.0.                                                                       |
-| [session.entropyfile](session.configuration.html#ini.session.entropy-file)                                 | ""                                           | PHPINIALL               | Видалено в PHP 7.1.0.                                                                       |
-| [session.entropylength](session.configuration.html#ini.session.entropy-length)                             | "0"                                          | PHPINIALL               | Видалено в PHP 7.1.0                                                                        |
-| [shortopentag](ini.core.html#ini.short-open-tag)                                                           | "1"                                          | PHPINIPERDIR            |                                                                                             |
-| [SMTP](mail.configuration.html#ini.smtp)                                                                   | "localhost"                                  | PHPINIALL               |                                                                                             |
-| [smtpport](mail.configuration.html#ini.smtp-port)                                                          | "25"                                         | PHPINIALL               |                                                                                             |
-| [soap.wsdlcacheenabled](soap.configuration.html#ini.soap.wsdl-cache-enabled)                               |                                              | PHPINIALL               |                                                                                             |
-| [soap.wsdlcachedir](soap.configuration.html#ini.soap.wsdl-cache-dir)                                       | /tmp                                         | PHPINIALL               |                                                                                             |
-| [soap.wsdlcachettl](soap.configuration.html#ini.soap.wsdl-cache-ttl)                                       |                                              | PHPINIALL               |                                                                                             |
-| [soap.wsdlcache](soap.configuration.html#ini.soap.wsdl-cache)                                              |                                              | PHPINIALL               |                                                                                             |
-| [soap.wsdlcachelimit](soap.configuration.html#ini.soap.wsdl-cache-limit)                                   |                                              | PHPINIALL               |                                                                                             |
-| [sql.safemode](ini.core.html#ini.sql.safe-mode)                                                            | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| [sqlite3.extensiondir](sqlite3.configuration.html#ini.sqlite3.extension-dir)                               | ""                                           | PHPINISYSTEM            |                                                                                             |
-| [sqlite3.defensive](sqlite3.configuration.html#ini.sqlite3.defensive)                                      |                                              | PHPINISYSTEM            | Доступно з PHP 7.2.17 та 7.3.4 для libsqlite ≥ 3.26.0.                                      |
-| [syslog.facility](errorfunc.configuration.html#ini.syslog.facility)                                        | "LOGUSER"                                    | PHPINISYSTEM            | Доступно, починаючи з PHP 7.3.0.                                                            |
-| [syslog.filter](errorfunc.configuration.html#ini.syslog.filter)                                            | "no-ctrl"                                    | PHPINIALL               | Доступно, починаючи з PHP 7.3.0.                                                            |
-| [syslog.ident](errorfunc.configuration.html#ini.syslog.ident)                                              | "php"                                        | PHPINISYSTEM            | Доступно, починаючи з PHP 7.3.0.                                                            |
-| systempdir                                                                                                 | ""                                           | PHPINISYSTEM            |                                                                                             |
-| [sysvshm.initmem](sem.configuration.html#ini.sysvshm.init-mem)                                             |                                              | PHPINISYSTEM            |                                                                                             |
-| [tidy.defaultconfig](tidy.configuration.html#ini.tidy.default-config)                                      | ""                                           | PHPINISYSTEM            |                                                                                             |
-| [tidy.cleanoutput](tidy.configuration.html#ini.tidy.clean-output)                                          | "0"                                          | PHPINIUSER              |                                                                                             |
-| [trackerrors](errorfunc.configuration.html#ini.track-errors)                                               | "0"                                          | PHPINIALL               | Оголошено застарілим у PHP 7.2.0, видалено у PHP 8.0.0.                                     |
-| [unserializecallbackfunc](var.configuration.html#ini.unserialize-callback-func)                            | NULL                                         | PHPINIALL               |                                                                                             |
-| uploadprogress.file.filenametemplate                                                                       | "/tmp/upt%s.txt"                             | PHPINIALL               |                                                                                             |
-| [uploadmaxfilesize](ini.core.html#ini.upload-max-filesize)                                                 | "2M"                                         | PHPINIPERDIR            |                                                                                             |
-| [maxfileuploads](ini.core.html#ini.max-file-uploads)                                                       |                                              | PHPINISYSTEM            |                                                                                             |
-| [uploadtmpdir](ini.core.html#ini.upload-tmp-dir)                                                           | NULL                                         | PHPINISYSTEM            |                                                                                             |
-| [urlrewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags)                                    | "a=href,area=href,frame=src,form=,fieldset=" | PHPINIALL               |                                                                                             |
-| [useragent](filesystem.configuration.html#ini.user-agent)                                                  | NULL                                         | PHPINIALL               |                                                                                             |
-| [userdir](ini.core.html#ini.user-dir)                                                                      | NULL                                         | PHPINISYSTEM            |                                                                                             |
-| [userini.cachettl](ini.core.html#ini.user-ini.cache-ttl)                                                   | "300"                                        | PHPINISYSTEM            |                                                                                             |
-| [userini.filename](ini.core.html#ini.user-ini.filename)                                                    | ".user.ini"                                  | PHPINISYSTEM            |                                                                                             |
-| [uopz.disable](uopz.configuration.html#ini.uopz.disable)                                                   | "0"                                          | PHPINISYSTEM            | Доступно з uopz 5.0.2                                                                       |
-| [uopz.exit](uopz.configuration.html#ini.uopz.exit)                                                         | "0"                                          | PHPINISYSTEM            | Доступно з uopz 6.0.1                                                                       |
-| [uopz.overloads](uopz.configuration.html#ini.uopz.overloads)                                               | "1"                                          | PHPINISYSTEM            | Доступно з uopz 2.0.2. Видалено з uopz 5.0.0.                                               |
-| [variablesorder](ini.core.html#ini.variables-order)                                                        | "EGPCS"                                      | PHPINIPERDIR            |                                                                                             |
-| vld.active                                                                                                 | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| vld.execute                                                                                                | "1"                                          | PHPINISYSTEM            | Доступно з vld 0.8.0.                                                                       |
-| vld.skipappend                                                                                             | "0"                                          | PHPINISYSTEM            | Доступно з vld 0.8.0.                                                                       |
-| vld.skipprepend                                                                                            | "0"                                          | PHPINISYSTEM            | Доступно з vld 0.8.0.                                                                       |
-| [windows.showcrtwarning](ini.core.html#ini.windows-show-crt-warning)                                       | "0"                                          | PHPINIALL               |                                                                                             |
-| [xbithack](apache.configuration.html#ini.xbithack)                                                         | "0"                                          | PHPINIALL               |                                                                                             |
-| [xmlrpcerrors](errorfunc.configuration.html#ini.xmlrpc-errors)                                             | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| [xmlrpcerrornumber](errorfunc.configuration.html#ini.xmlrpc-error-number)                                  | "0"                                          | PHPINIALL               |                                                                                             |
-| yaz.keepalive                                                                                              | "120"                                        | PHPINIALL               |                                                                                             |
-| yaz.logmask                                                                                                | NULL                                         | PHPINIALL               | Доступно починаючи з yaz 1.0.3.                                                             |
-| [zend.assertions](ini.core.html#ini.zend.assertions)                                                       | "1"                                          | PHPINIALL               |                                                                                             |
-| [zend.detectunicode](ini.core.html#ini.zend.detect-unicode)                                                | "1"                                          | PHPINIALL               |                                                                                             |
-| [zend.enableгк](info.configuration.html#ini.zend.enable-gc)                                                | "1"                                          | PHPINIALL               |                                                                                             |
-| [zend.multibyte](ini.core.html#ini.zend.multibyte)                                                         | "0"                                          | PHPINIPERDIR            |                                                                                             |
-| [zend.scriptencoding](ini.core.html#ini.zend.script-encoding)                                              | NULL                                         | PHPINIALL               |                                                                                             |
-| [zend.signalcheck](ini.core.html#ini.zend.signal-check)                                                    | "0"                                          | PHPINISYSTEM            |                                                                                             |
-| [zendextension](ini.core.html#ini.zend-extension)                                                          | NULL                                         | Тільки php.ini          |                                                                                             |
-| [zlib.outputcompression](zlib.configuration.html#ini.zlib.output-compression)                              | "0"                                          | PHPINIALL               |                                                                                             |
-| [zlib.outputcompressionlevel](zlib.configuration.html#ini.zlib.output-compression-level)                   | "-1"                                         | PHPINIALL               |                                                                                             |
-| [zlib.outputhandler](zlib.configuration.html#ini.zlib.output-handler)                                      | ""                                           | PHPINIALL               |                                                                                             |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen) | "1" | PHPINISYSTEM |  |
+| [allowurlinclude](filesystem.configuration.html#ini.allow-url-include) | "0" | PHPINISYSTEM | Оголошено застарілим у PHP 7.4.0. |
+| [argseparator.input](ini.core.html#ini.arg-separator.input) | "&" | PHPINIPERDIR |  |
+| [argseparator.output](ini.core.html#ini.arg-separator.output) | "&" | PHPINIALL |  |
+| [assert.active](info.configuration.html#ini.assert.active) | "1" | PHPINIALL |  |
+| [assert.bail](info.configuration.html#ini.assert.bail) | "0" | PHPINIALL |  |
+| [assert.callback](info.configuration.html#ini.assert.callback) | NULL | PHPINIALL |  |
+| [assert.exception](info.configuration.html#ini.assert.exception) | "0" | PHPINIALL |  |
+| [assert.quieteval](info.configuration.html#ini.assert.quiet-eval) | "0" | PHPINIALL | Видалено, починаючи з PHP 8.0.0 |
+| [assert.warning](info.configuration.html#ini.assert.warning) | "1" | PHPINIALL |  |
+| [autoappendfile](ini.core.html#ini.auto-append-file) | NULL | PHPINIPERDIR |  |
+| [autodetectlineendings](filesystem.configuration.html#ini.auto-detect-line-endings) | "0" | PHPINIALL |  |
+| [autoglobalsjit](ini.core.html#ini.auto-globals-jit) | "1" | PHPINIPERDIR |  |
+| [autoprependfile](ini.core.html#ini.auto-prepend-file) | NULL | PHPINIPERDIR |  |
+| [bcmath.scale](bc.configuration.html#ini.bcmath.scale) | "0" | PHPINIALL |  |
+| [browscap](misc.configuration.html#ini.browscap) | NULL | PHPINISYSTEM |  |
+| [cgi.checkshebangline](ini.core.html#ini.cgi.check-shebang-line) | "1" | PHPINISYSTEM |  |
+| [cgi.discardpath](ini.core.html#ini.cgi.discard-path) | "0" | PHPINISYSTEM |  |
+| [cgi.fixpathinfo](ini.core.html#ini.cgi.fix-pathinfo) | "1" | PHPINISYSTEM |  |
+| [cgi.forceredirect](ini.core.html#ini.cgi.force-redirect) | "1" | PHPINISYSTEM |  |
+| [cgi.nph](ini.core.html#ini.cgi.nph) | "0" | PHPINIALL |  |
+| [cgi.redirectstatusenv](ini.core.html#ini.cgi.redirect-status-env) | NULL | PHPINISYSTEM |  |
+| [cgi.rfc2616headers](ini.core.html#ini.cgi.rfc2616-headers) | "0" | PHPINIALL |  |
+| [childterminate](apache.configuration.html#ini.child-terminate) | "0" | PHPINIALL |  |
+| [cli.pager](readline.configuration.html#ini.cli.pager) | "" | PHPINIALL |  |
+| [cli.prompt](readline.configuration.html#ini.cli.prompt) | "в > " | PHPINIALL |  |
+| [cliserver.color](features.commandline.ini.html#ini.cli-server.color) | "0" | PHPINIALL |  |
+| [com.allowdcom](com.configuration.html#ini.com.allow-dcom) | "0" | PHPINISYSTEM |  |
+| [com.autoregistertypelib](com.configuration.html#ini.com.autoregister-typelib) | "0" | PHPINIALL |  |
+| [com.autoregisterverbose](com.configuration.html#ini.com.autoregister-verbose) | "0" | PHPINIALL |  |
+| [com.autoregistercasesensitive](com.configuration.html#ini.com.autoregister-casesensitive) | "1" | PHPINIALL |  |
+| [com.codepage](com.configuration.html#ini.com.code-page) | "" | PHPINIALL |  |
+| [com.dotnetversion](com.configuration.html#ini.com.dotnet-version) | "" | PHPINISYSTEM | Починаючи з PHP 8.0.0 |
+| [com.typelibfile](com.configuration.html#ini.com.typelib-file) | "" | PHPINISYSTEM |  |
+| [curl.cainfo](curl.configuration.html#ini.curl.cainfo) | NULL | PHPINISYSTEM |  |
+| [date.defaultlatitude](datetime.configuration.html#ini.date.default-latitude) | "31.7667" | PHPINIALL |  |
+| [date.defaultlongitude](datetime.configuration.html#ini.date.default-longitude) | "35.2333" | PHPINIALL |  |
+| [date.sunrisezenith](datetime.configuration.html#ini.date.sunrise-zenith) | "90.583333" | PHPINIALL |  |
+| [date.sunsetzenith](datetime.configuration.html#ini.date.sunset-zenith) | "90.583333" | PHPINIALL |  |
+| [date.timezone](datetime.configuration.html#ini.date.timezone) | "UTC" | PHPINIALL |  |
+| [dba.defaulthandler](dba.configuration.html#ini.dba.default_handler) | DBADEFAULT | PHPINIALL |  |
+| [defaultcharset](ini.core.html#ini.default-charset) | "UTF-8" | PHPINIALL | За замовчуванням "UTF-8". |
+| [inputencoding](ini.core.html#ini.input-encoding) | "" | PHPINIALL |  |
+| [outputencoding](ini.core.html#ini.output-encoding) | "" | PHPINIALL |  |
+| [internalencoding](ini.core.html#ini.internal-encoding) | "" | PHPINIALL |  |
+| [defaultmimetype](ini.core.html#ini.default-mimetype) | "text/html" | PHPINIALL |  |
+| [defaultsockettimeout](filesystem.configuration.html#ini.default-socket-timeout) | "60" | PHPINIALL |  |
+| [disableclasses](ini.core.html#ini.disable-classes) | "" | Тільки php.ini |  |
+| [disablefunctions](ini.core.html#ini.disable-functions) | "" | Тільки php.ini |  |
+| [displayerrors](errorfunc.configuration.html#ini.display-errors) | "1" | PHPINIALL |  |
+| [displaystartuperrors](errorfunc.configuration.html#ini.display-startup-errors) | "1" | PHPINIALL | До PHP 8.0.0 значення за промовчанням було `"0"` |
+| [docrefext](errorfunc.configuration.html#ini.docref-ext) | "" | PHPINIALL |  |
+| [docrefroot](errorfunc.configuration.html#ini.docref-root) | "" | PHPINIALL |  |
+| [docroot](ini.core.html#ini.doc-root) | NULL | PHPINISYSTEM |  |
+| [enableдл](info.configuration.html#ini.enable-dl) | "1" | PHPINISYSTEM | Ця можливість застаріла та *буде* обов'язково *видалено* в майбутньому. |
+| [enablepostdatareading](ini.core.html#ini.enable-post-data-reading) | Він | PHPINIPERDIR |  |
+| [engine](apache.configuration.html#ini.engine) | "1" | PHPINIALL |  |
+| [errorappendstring](errorfunc.configuration.html#ini.error-append-string) | NULL | PHPINIALL |  |
+| [errorlog](errorfunc.configuration.html#ini.error-log) | NULL | PHPINIALL |  |
+| [errorprependstring](errorfunc.configuration.html#ini.error-prepend-string) | NULL | PHPINIALL |  |
+| [errorreporting](errorfunc.configuration.html#ini.error-reporting) | NULL | PHPINIALL |  |
+| [exif.encodeunicode](exif.configuration.html#ini.exif.encode-unicode) | "ISO-8859-15" | PHPINIALL |  |
+| [exif.decodeunicodemotorola](exif.configuration.html#ini.exif.decode-unicode-motorola) | "UCS-2BE" | PHPINIALL |  |
+| [exif.decodeunicodeintel](exif.configuration.html#ini.exif.decode-unicode-intel) | "UCS-2LE" | PHPINIALL |  |
+| [exif.encodejis](exif.configuration.html#ini.exif.encode-jis) | "" | PHPINIALL |  |
+| [exif.decodejismotorola](exif.configuration.html#ini.exif.decode-jis-motorola) | "JIS" | PHPINIALL |  |
+| [exif.decodejisintel](exif.configuration.html#ini.exif.decode-jis-intel) | "JIS" | PHPINIALL |  |
+| [exitвінtimeout](ini.core.html#ini.exit-on-timeout) | "" | PHPINIALL |  |
+| [expect.timeout](expect.configuration.html#ini.expect.timeout) | "10" | PHPINIALL |  |
+| [expect.loguser](expect.configuration.html#ini.expect.loguser) | "1" | PHPINIALL |  |
+| [expect.logfile](expect.configuration.html#ini.expect.logfile) | "" | PHPINIALL |  |
+| [expect.matchmax](expect.configuration.html#ini.expect.match-max) | "" | PHPINIALL |  |
+| [exposephp](ini.core.html#ini.expose-php) | "1" | Тільки php.ini |  |
+| [extension](ini.core.html#ini.extension) | NULL | Тільки php.ini |  |
+| [extensiondir](ini.core.html#ini.extension-dir) | "/path/to/php" | PHPINISYSTEM |  |
+| [fastcgi.impersonate](ini.core.html#ini.fastcgi.impersonate) | "0" | PHPINISYSTEM |  |
+| [fastcgi.logging](ini.core.html#ini.fastcgi.logging) | "1" | PHPINISYSTEM |  |
+| [fileuploads](ini.core.html#ini.file-uploads) | "1" | PHPINISYSTEM |  |
+| [filter.default](filter.configuration.html#ini.filter.default) | "unsaferaw" | PHPINIPERDIR | Параметр застарів, починаючи з PHP 8.1.0. |
+| [filter.defaultflags](filter.configuration.html#ini.filter.default-flags) | NULL | PHPINIPERDIR |  |
+| [from](filesystem.configuration.html#ini.from) | "" | PHPINIALL |  |
+| [gd.jpegignorewarning](image.configuration.html#ini.gd.jpeg-ignore-warning) | "1" | PHPINIALL |  |
+| [geoip.customdirectory](geoip.configuration.html#ini.geoip.custom-directory) | "" | PHPINIALL |  |
+| hardtimeout | "2" | PHPINISYSTEM | Доступно з PHP 7.1.0. |
+| [highlight.comment](misc.configuration.html#ini.syntax-highlighting) | "#FF8000" | PHPINIALL |  |
+| [highlight.default](misc.configuration.html#ini.syntax-highlighting) | "#0000BB" | PHPINIALL |  |
+| [highlight.html](misc.configuration.html#ini.syntax-highlighting) | "#000000" | PHPINIALL |  |
+| [highlight.keyword](misc.configuration.html#ini.syntax-highlighting) | "#007700" | PHPINIALL |  |
+| [highlight.string](misc.configuration.html#ini.syntax-highlighting) | "#DD0000" | PHPINIALL |  |
+| [htmlerrors](errorfunc.configuration.html#ini.html-errors) | "1" | PHPINIALL |  |
+| [ibase.allowpersistent](ibase.configuration.html#ini.ibase.allow-persistent) | "1" | PHPINISYSTEM |  |
+| [ibase.maxpersistent](ibase.configuration.html#ini.ibase.max-persistent) | "-1" | PHPINISYSTEM |  |
+| [ibase.maxlinks](ibase.configuration.html#ini.ibase.max-links) | "-1" | PHPINISYSTEM |  |
+| [ibase.defaultдб](ibase.configuration.html#ini.ibase.default-db) | NULL | PHPINISYSTEM |  |
+| [ibase.defaultuser](ibase.configuration.html#ini.ibase.default-user) | NULL | PHPINIALL |  |
+| [ibase.defaultpassword](ibase.configuration.html#ini.ibase.default-password) | NULL | PHPINIALL |  |
+| [ibase.defaultcharset](ibase.configuration.html#ini.ibase.default-charset) | NULL | PHPINIALL |  |
+| [ibase.timestampformat](ibase.configuration.html#ini.ibase.timestampformat) | "%Y-%m-%d %H:%M:%S" | PHPINIALL |  |
+| [ibase.dateformat](ibase.configuration.html#ini.ibase.dateformat) | "%Y-%m-%d" | PHPINIALL |  |
+| [ibase.timeformat](ibase.configuration.html#ini.ibase.timeformat) | "%H:%M:%S" | PHPINIALL |  |
+| [ibmdb2.binmode](ibm-db2.configuration.html#ini.ibm-db2.binmode) | "1" | PHPINIALL |  |
+| [ibmdb2.i5allpconnect](ibm-db2.configuration.html#ini.ibm-db2.i5-all-pconnect) | "0" | PHPINISYSTEM | Доступно з ibmdb2 1.6.5. |
+| [ibmdb2.i5allowcommit](ibm-db2.configuration.html#ini.ibm-db2.i5-allow-commit) | "0" | PHPINISYSTEM | Доступно з ibmdb2 1.4.9. |
+| [ibmdb2.i5dbcsalloc](ibm-db2.configuration.html#ini.ibm-db2.i5-dbcs-alloc) | "0" | PHPINISYSTEM | Доступно з ibmdb2 1.5.0. |
+| [ibmdb2.instancename](ibm-db2.configuration.html#ini.ibm-db2.instance-name) | NULL | PHPINISYSTEM | Доступно з ibmdb2 1.0.2. |
+| [ibmdb2.i5ignoreuserid](ibm-db2.configuration.html#ini.ibm-db2.i5-ignore-userid) | "0" | PHPINISYSTEM | Доступно з ibmdb2 1.8.0. |
+| [iconv.inputencoding](iconv.configuration.html#ini.iconv.input-encoding) | "" | PHPINIALL | Застаріло з PHP 5.6.0. |
+| [iconv.outputencoding](iconv.configuration.html#ini.iconv.output-encoding) | "" | PHPINIALL | Застаріло з PHP 5.6.0. |
+| [iconv.internalencoding](iconv.configuration.html#ini.iconv.internal-encoding) | "" | PHPINIALL | Застаріло з PHP 5.6.0. |
+| [ignorerepeatederrors](errorfunc.configuration.html#ini.ignore-repeated-errors) | "0" | PHPINIALL |  |
+| [ignorerepeatedsource](errorfunc.configuration.html#ini.ignore-repeated-source) | "0" | PHPINIALL |  |
+| [ignoreuserabort](misc.configuration.html#ini.ignore-user-abort) | "0" | PHPINIALL |  |
+| [implicitflush](outcontrol.configuration.html#ini.implicit-flush) | "0" | PHPINIALL |  |
+| [includepath](ini.core.html#ini.include-path) | ".:/path/to/php/pear" | PHPINIALL |  |
+| [intl.defaultlocale](intl.configuration.html#ini.intl.default-locale) |  | PHPINIALL |  |
+| [intl.errorlevel](intl.configuration.html#ini.intl.error-level) |  | PHPINIALL |  |
+| [intl.useexceptions](intl.configuration.html#ini.intl.use-exceptions) |  | PHPINIALL | Доступно з PECL 3.0.0a1 |
+| [lastmodified](apache.configuration.html#ini.last-modified) | "0" | PHPINIALL |  |
+| [ldap.maxlinks](ldap.configuration.html#ini.ldap.max_links) | "-1" | PHPINISYSTEM |  |
+| [logerrors](errorfunc.configuration.html#ini.log-errors) | "0" | PHPINIALL |  |
+| [logerrorsmaxlen](errorfunc.configuration.html#ini.log-errors-max-len) | "1024" | PHPINIALL |  |
+| [mail.addзheader](mail.configuration.html#ini.mail.add-x-header) | "0" | PHPINIPERDIR |  |
+| mail.forceextraparameters | NULL | Тільки php.ini |  |
+| [mail.log](mail.configuration.html#ini.mail.log) | "" | PHPINIPERDIR |  |
+| [maxexecutiontime](info.configuration.html#ini.max-execution-time) | "30" | PHPINIALL |  |
+| [maxinputnestinglevel](info.configuration.html#ini.max-input-nesting-level) | "64" | PHPINIPERDIR |  |
+| [maxinputvars](info.configuration.html#ini.max-input-vars) |  | PHPINIPERDIR |  |
+| [maxinputtime](info.configuration.html#ini.max-input-time) | "-1" | PHPINIPERDIR |  |
+| [mbstring.language](mbstring.configuration.html#ini.mbstring.language) | "neutral" | PHPINIALL |  |
+| [mbstring.detectorder](mbstring.configuration.html#ini.mbstring.detect-order) | NULL | PHPINIALL |  |
+| [mbstring.httpinput](mbstring.configuration.html#ini.mbstring.http-input) | "pass" | PHPINIALL | Застаріла |
+| [mbstring.httpoutput](mbstring.configuration.html#ini.mbstring.http-output) | "pass" | PHPINIALL | Застаріла |
+| [mbstring.internalencoding](mbstring.configuration.html#ini.mbstring.internal-encoding) | NULL | PHPINIALL | Застаріла |
+| [mbstring.substitutecharacter](mbstring.configuration.html#ini.mbstring.substitute-character) | NULL | PHPINIALL |  |
+| [mbstring.funcoverload](mbstring.configuration.html#ini.mbstring.func-overload) | "0" | PHPINISYSTEM | Оголошено застарілим у PHP 7.2.0; видалено з PHP 8.0.0. |
+| [mbstring.encodingtranslation](mbstring.configuration.html#ini.mbstring.encoding-translation) | "0" | PHPINIPERDIR |  |
+| [mbstring.httpoutputconvmimetypes](mbstring.configuration.html#ini.mbstring.http-output-conv-mimetypes) | "^(text/ | application/xhtml+xml)" | PHPINIALL |
+| [mbstring.strictdetection](mbstring.configuration.html#ini.mbstring.strict-detection) | "0" | PHPINIALL |  |
+| [mcrypt.algorithmsdir](mcrypt.configuration.html#ini.mcrypt.algorithms-dir) | **`null`** | PHPINIALL |  |
+| [mcrypt.modesdir](mcrypt.configuration.html#ini.mcrypt.modes-dir) | **`null`** | PHPINIALL |  |
+| [memcache.allowfailover](memcache.ini.html#ini.memcache.allow-failover) | "1" | PHPINIALL | Доступно з memcache 2.0.2. |
+| [memcache.maxfailoverattempts](memcache.ini.html#ini.memcache.max-failover-attempts) | "20" | PHPINIALL | Доступно з memcache 2.1.0. |
+| [memcache.chunksize](memcache.ini.html#ini.memcache.chunk-size) | "8192" | PHPINIALL | Доступно з memcache 2.0.2. |
+| [memcache.defaultport](memcache.ini.html#ini.memcache.default-port) | "11211" | PHPINIALL | Доступно з memcache 2.0.2. |
+| [memcache.hashstrategy](memcache.ini.html#ini.memcache.hash-strategy) | "standard" | PHPINIALL | Доступно з memcache 2.2.0. |
+| [memcache.hashfunction](memcache.ini.html#ini.memcache.hash-function) | "crc32" | PHPINIALL | Доступно з memcache 2.2.0. |
+| [memcache.protocol](memcache.ini.html#ini.memcache.protocol) | ascii | \>PHPINIALL | Підтримується з memcache 3.0.0 |
+| [memcache.redundancy](memcache.ini.html#ini.memcache.redundancy) |  | \>PHPINIALL | Підтримується з memcache 3.0.0 |
+| [memcache.sessionredundancy](memcache.ini.html#ini.memcache.session-redundancy) |  | \>PHPINIALL | Підтримується з memcache 3.0.0 |
+| [memcache.compressthreshold](memcache.ini.html#ini.memcache.compress-threshold) |  | \>PHPINIALL | Підтримується з memcache 3.0.3 |
+| [memcache.locktimeout](memcache.ini.html#ini.memcache.lock-timeout) |  | \>PHPINIALL | Підтримується з memcache 3.0.4 |
+| [memorylimit](ini.core.html#ini.memory-limit) | "128M" | PHPINIALL |  |
+| [mysql.allowlocalinfile](mysql.configuration.html#ini.mysql.allow-local-infile) | "1" | PHPINISYSTEM |  |
+| [mysql.allowpersistent](mysql.configuration.html#ini.mysql.allow-persistent) | "1" | PHPINISYSTEM |  |
+| [mysql.maxpersistent](mysql.configuration.html#ini.mysql.max-persistent) | "-1" | PHPINISYSTEM |  |
+| [mysql.maxlinks](mysql.configuration.html#ini.mysql.max-links) | "-1" | PHPINISYSTEM |  |
+| [mysql.tracemode](mysql.configuration.html#ini.mysql.trace-mode) | "0" | PHPINIALL |  |
+| [mysql.defaultport](mysql.configuration.html#ini.mysql.default-port) | NULL | PHPINIALL |  |
+| [mysql.defaultsocket](mysql.configuration.html#ini.mysql.default-socket) | NULL | PHPINIALL |  |
+| [mysql.defaulthost](mysql.configuration.html#ini.mysql.default-host) | NULL | PHPINIALL |  |
+| [mysql.defaultuser](mysql.configuration.html#ini.mysql.default-user) | NULL | PHPINIALL |  |
+| [mysql.defaultpassword](mysql.configuration.html#ini.mysql.default-password) | NULL | PHPINIALL |  |
+| [mysql.connecttimeout](mysql.configuration.html#ini.mysql.connect-timeout) | "60" | PHPINIALL |  |
+| [mysqli.allowlocalinfile](mysqli.configuration.html#ini.mysqli.allow-local-infile) | "0" | PHPINISYSTEM | До PHP 7.2.16 та 7.3.3 значенням за умовчанням було "1". |
+| [mysqli.localinfiledirectory](mysqli.configuration.html#ini.mysqli.local-infile-directory) |  | PHPINISYSTEM | Доступно з PHP 8.1.0. |
+| [mysqli.allowpersistent](mysqli.configuration.html#ini.mysqli.allow-persistent) | "1" | PHPINISYSTEM |  |
+| [mysqli.maxpersistent](mysqli.configuration.html#ini.mysqli.max-persistent) | "-1" | PHPINISYSTEM |  |
+| [mysqli.maxlinks](mysqli.configuration.html#ini.mysqli.max-links) | "-1" | PHPINISYSTEM |  |
+| [mysqli.defaultport](mysqli.configuration.html#ini.mysqli.default-port) | "3306" | PHPINIALL |  |
+| [mysqli.defaultsocket](mysqli.configuration.html#ini.mysqli.default-socket) | NULL | PHPINIALL |  |
+| [mysqli.defaulthost](mysqli.configuration.html#ini.mysqli.default-host) | NULL | PHPINIALL |  |
+| [mysqli.defaultuser](mysqli.configuration.html#ini.mysqli.default-user) | NULL | PHPINIALL |  |
+| [mysqli.defaultпв](mysqli.configuration.html#ini.mysqli.default-pw) | NULL | PHPINIALL |  |
+| [mysqli.reconnect](mysqli.configuration.html#ini.mysqli.reconnect) | "0" | PHPINISYSTEM |  |
+| [mysqli.rollbackвінcachedplink](mysqli.configuration.html#ini.mysqli.rollback-on-cached-plink) | "0" | PHPINISYSTEM |  |
+| [mysqlnd.collectstatistics](mysqlnd.config.html#ini.mysqlnd.collect-statistics) | "1" | PHPINISYSTEM |  |
+| [mysqlnd.collectmemorystatistics](mysqlnd.config.html#ini.mysqlnd.collect-memory-statistics) | "0" | PHPINISYSTEM |  |
+| [mysqlnd.debug](mysqlnd.config.html#ini.mysqlnd.debug) | "" | PHPINISYSTEM |  |
+| [mysqlnd.logmask](mysqlnd.config.html#ini.mysqlnd.log-mask) |  | PHPINIALL |  |
+| [mysqlnd.mempooldefaultsize](mysqlnd.config.html#ini.mysqlnd.mempool-default-size) |  | PHPINIALL |  |
+| [mysqlnd.netreadtimeout](mysqlnd.config.html#ini.mysqlnd.net-read-timeout) | "86400" | PHPINIALL | До PHP 7.2.0 значенням за промовчанням "31536000", а місцем зміни було **`PHP_INI_SYSTEM`** |
+| [mysqlnd.netcmdbuffersize](mysqlnd.config.html#ini.mysqlnd.net-cmd-buffer-size) | 5.3.0 - "2048"; 5.3.1 - "4096" | PHPINISYSTEM |  |
+| [mysqlnd.netreadbuffersize](mysqlnd.config.html#ini.mysqlnd.net-read-buffer-size) | "32768" | PHPINISYSTEM |  |
+| [mysqlnd.sha256serverpublickey](mysqlnd.config.html#ini.mysqlnd.sha256-server-public-key) | "" | PHPINIPERDIR |  |
+| [mysqlnd.tracealloc](mysqlnd.config.html#ini.mysqlnd.trace-alloc) | "" | PHPINISYSTEM |  |
+| [mysqlnd.fetchdatacopy](mysqlnd.config.html#ini.mysqlnd.fetch_data_copy) |  | PHPINIALL |  |
+| [oci8.connectionclass](oci8.configuration.html#ini.oci8.connection-class) | "" | PHPINIALL | Доступна з версії PECL OCI8 1.3. |
+| [oci8.defaultprefetch](oci8.configuration.html#ini.oci8.default-prefetch) | "100" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
+| [oci8.events](oci8.configuration.html#ini.oci8.events) | Off | PHPINISYSTEM | Доступна з версії PECL OCI8 1.3. |
+| [oci8.maxpersistent](oci8.configuration.html#ini.oci8.max-persistent) | "-1" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. Оголошена застарілою починаючи з PHP 8.1.0. |
+| [oci8.oldociclosesemantics](oci8.configuration.html#ini.oci8.old-oci-close-semantics) | Off | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
+| [oci8.persistenttimeout](oci8.configuration.html#ini.oci8.persistent-timeout) | "-1" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
+| [oci8.pinginterval](oci8.configuration.html#ini.oci8.ping-interval) | "60" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
+| [oci8.prefetchlobsize](oci8.configuration.html#ini.oci8.prefetch-lob-size) | "0" | PHPINISYSTEM | Доступна з версії PECL OCI8 3.2. |
+| [oci8.privilegedconnect](oci8.configuration.html#ini.oci8.privileged-connect) | Off | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
+| [oci8.statementcachesize](oci8.configuration.html#ini.oci8.statement-cache-size) | "20" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
+| [odbc.defaultдб](odbc.configuration.html#ini.uodbc.default-db) | NULL | PHPINIALL |  |
+| [odbc.defaultuser](odbc.configuration.html#ini.uodbc.default-user) | NULL | PHPINIALL |  |
+| [odbc.defaultпв](odbc.configuration.html#ini.uodbc.default-pw) | NULL | PHPINIALL |  |
+| [odbc.allowpersistent](odbc.configuration.html#ini.uodbc.allow-persistent) | "1" | PHPINISYSTEM |  |
+| [odbc.checkpersistent](odbc.configuration.html#ini.uodbc.check-persistent) | "1" | PHPINISYSTEM |  |
+| [odbc.maxpersistent](odbc.configuration.html#ini.uodbc.max-persistent) | "-1" | PHPINISYSTEM |  |
+| [odbc.maxlinks](odbc.configuration.html#ini.uodbc.max-links) | "-1" | PHPINISYSTEM |  |
+| [odbc.defaultlrl](odbc.configuration.html#ini.uodbc.defaultlrl) | "4096" | PHPINIALL |  |
+| [odbc.defaultbinmode](odbc.configuration.html#ini.uodbc.defaultbinmode) | "1" | PHPINIALL |  |
+| [odbc.defaultcursortype](odbc.configuration.html#ini.uodbc.defaultcursortype) | "3" | PHPINIALL |  |
+| [opcache.enable](opcache.configuration.html#ini.opcache.enable) | "1" | PHPINIALL |  |
+| [opcache.enablecli](opcache.configuration.html#ini.opcache.enable-cli) | "0" | PHPINISYSTEM | У версіях з PHP 7.1.2 до 7.1.6 включно, значення за замовчуванням "1" (включено) |
+| [opcache.memoryconsumption](opcache.configuration.html#ini.opcache.memory-consumption) | "128" | PHPINISYSTEM |  |
+| [opcache.internedstringsbuffer](opcache.configuration.html#ini.opcache.interned-strings-buffer) | "8" | PHPINISYSTEM |  |
+| [opcache.maxacceleratedfiles](opcache.configuration.html#ini.opcache.max-accelerated-files) | "10000" | PHPINISYSTEM |  |
+| [opcache.maxwastedpercentage](opcache.configuration.html#ini.opcache.max-wasted-percentage) | "5" | PHPINISYSTEM |  |
+| [opcache.usecwd](opcache.configuration.html#ini.opcache.use-cwd) | "1" | PHPINISYSTEM |  |
+| [opcache.validatetimestamps](opcache.configuration.html#ini.opcache.validate-timestamps) | "1" | PHPINIALL |  |
+| [opcache.revalidatefreq](opcache.configuration.html#ini.opcache.revalidate-freq) | "2" | PHPINIALL |  |
+| [opcache.revalidatepath](opcache.configuration.html#ini.opcache.revalidate-path) | "0" | PHPINIALL |  |
+| [opcache.savecomments](opcache.configuration.html#ini.opcache.save-comments) | "1" | PHPINISYSTEM |  |
+| [opcache.fastshutdown](opcache.configuration.html#ini.opcache.fast-shutdown) | "0" | PHPINISYSTEM |  |
+| [opcache.enablefileoverride](opcache.configuration.html#ini.opcache.enable-file-override) | "0" | PHPINISYSTEM |  |
+| [opcache.optimizationlevel](opcache.configuration.html#ini.opcache.optimization-level) | "0x7FFEBFFF" | PHPINISYSTEM | До PHP 7.3.0 було 0x7FFFBFFF |
+| [opcache.inheritedhack](opcache.configuration.html#ini.opcache.inherited-hack) | "1" | PHPINISYSTEM | Вилучено у PHP 7.3.0 |
+| [opcache.dupsfix](opcache.configuration.html#ini.opcache.dups-fix) | "0" | PHPINIALL |  |
+| [opcache.blacklistfilename](opcache.configuration.html#ini.opcache.blacklist-filename) | "" | PHPINISYSTEM |  |
+| [opcache.maxfilesize](opcache.configuration.html#ini.opcache.max-file-size) | "0" | PHPINISYSTEM |  |
+| [opcache.consistencychecks](opcache.configuration.html#ini.opcache.consistency-checks) | "0" | PHPINIALL |  |
+| [opcache.forcerestarttimeout](opcache.configuration.html#ini.opcache.force-restart-timeout) | "180" | PHPINISYSTEM |  |
+| [opcache.errorlog](opcache.configuration.html#ini.opcache.error-log) | "" | PHPINISYSTEM |  |
+| [opcache.logverbositylevel](opcache.configuration.html#ini.opcache.log-verbosity-level) | "1" | PHPINISYSTEM |  |
+| [opcache.recordwarnings](opcache.configuration.html#ini.opcache.record-warnings) | "0" | PHPINISYSTEM | Доступно з PHP 8.0.0. |
+| [opcache.preferredmemorymodel](opcache.configuration.html#ini.opcache.preferred-memory-model) | "" | PHPINISYSTEM |  |
+| [opcache.protectmemory](opcache.configuration.html#ini.opcache.protect-memory) | "0" | PHPINISYSTEM |  |
+| [opcache.mmapbase](opcache.configuration.html#ini.opcache.mmap-base) | **`null`** | PHPINISYSTEM |  |
+| [opcache.restrictapi](opcache.configuration.html#ini.opcache.restrict-api) | "" | PHPINISYSTEM |  |
+| [opcache.fileupdateprotection](opcache.configuration.html#ini.opcache.file_update_protection) | "2" | PHPINIALL |  |
+| [opcache.hugecodepages](opcache.configuration.html#ini.opcache.huge_code_pages) | "0" | PHPINISYSTEM |  |
+| [opcache.lockfilepath](opcache.configuration.html#ini.opcache.lockfile_path) | "/tmp" | PHPINISYSTEM |  |
+| [opcache.optdebuglevel](opcache.configuration.html#ini.opcache.opt_debug_level) | "0" | PHPINISYSTEM | Доступно з PHP 7.1.0 |
+| [opcache.filecache](opcache.configuration.html#ini.opcache.file-cache) | NULL | PHPINISYSTEM |  |
+| [opcache.filecacheonly](opcache.configuration.html#ini.opcache.file-cache-only) | "0" | PHPINISYSTEM |  |
+| [opcache.filecacheconsistencychecks](opcache.configuration.html#ini.opcache.file-cache-consistency-checks) | "1" | PHPINISYSTEM |  |
+| [opcache.filecachefallback](opcache.configuration.html#ini.opcache.file-cache-fallback) | "1" | PHPINISYSTEM |  |
+| [opcache.validatepermission](opcache.configuration.html#ini.opcache.validate-permission) | "0" | PHPINISYSTEM | Доступно з PHP 7.0.14 |
+| [opcache.validateroot](opcache.configuration.html#ini.opcache.validate-root) | "0" | PHPINISYSTEM | Доступно з PHP 7.0.14 |
+| [opcache.preload](opcache.configuration.html#ini.opcache.preload) | "" | PHPINISYSTEM | Доступно з PHP 7.4.0 |
+| [opcache.preloaduser](opcache.configuration.html#ini.opcache.preload-user) | "" | PHPINISYSTEM | Доступно з PHP 7.4.0 |
+| [opcache.cacheід](opcache.configuration.html#ini.opcache.cache-id) | "" | PHPINISYSTEM | Тільки Windows. Доступно з PHP 7.4.0 |
+| [opcache.jit](opcache.configuration.html#ini.opcache.jit) | "tracing" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitbuffersize](opcache.configuration.html#ini.opcache.jit-buffer-size) | "0" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
+| [opcache.jitdebug](opcache.configuration.html#ini.opcache.jit-debug) | "0" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitbisectlimit](opcache.configuration.html#ini.opcache.jit-bisect-limit) | "0" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitprofthreshold](opcache.configuration.html#ini.opcache.jit-prof-threshold) | "0.005" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitmaxroottraces](opcache.configuration.html#ini.opcache.jit-max-root-traces) | "1024" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
+| [opcache.jitmaxsidetraces](opcache.configuration.html#ini.opcache.jit-max-side-traces) | "128" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
+| [opcache.jitmaxexitcounters](opcache.configuration.html#ini.opcache.jit-max-exit-counters) | "8192" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
+| [opcache.jithotloop](opcache.configuration.html#ini.opcache.jit-hot-loop) | "64" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
+| [opcache.jithotfunc](opcache.configuration.html#ini.opcache.jit-hot-func) | "127" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
+| [opcache.jithotreturn](opcache.configuration.html#ini.opcache.jit-hot-return) | "8" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
+| [opcache.jithotsideexit](opcache.configuration.html#ini.opcache.jit-hot-side-exit) | "8" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
+| [opcache.jitblacklistroottrace](opcache.configuration.html#ini.opcache.jit-blacklist-root-trace) | "16" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitblacklistsidetrace](opcache.configuration.html#ini.opcache.jit-blacklist-side-trace) | "8" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitmaxloopunrolls](opcache.configuration.html#ini.opcache.jit-max-loop-unrolls) | "8" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitmaxrecursivecalls](opcache.configuration.html#ini.opcache.jit-max-recursive-calls) | "2" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitmaxrecursivereturns](opcache.configuration.html#ini.opcache.jit-max-recursive-return) | "2" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitmaxpolymorphiccalls](opcache.configuration.html#ini.opcache.jit-max-polymorphic-calls) | "2" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [openbasedir](ini.core.html#ini.open-basedir) | NULL | PHPINIALL |  |
+| [outputbuffering](outcontrol.configuration.html#ini.output-buffering) | "0" | PHPINIPERDIR |  |
+| [outputhandler](outcontrol.configuration.html#ini.output-handler) | NULL | PHPINIPERDIR |  |
+| [pcre.backtracklimit](pcre.configuration.html#ini.pcre.backtrack-limit) | "1000000" | PHPINIALL |  |
+| [pcre.recursionlimit](pcre.configuration.html#ini.pcre.recursion-limit) | "100000" | PHPINIALL |  |
+| [pcre.jit](pcre.configuration.html#ini.pcre.jit) | "1" | PHPINIALL |  |
+| [pdo.dsn.](pdo.configuration.html#ini.pdo.dsn) |  | тільки php.ini |  |
+| [pdoodbc.connectionpooling](ref.pdo-odbc.html#ini.pdo-odbc.connection-pooling) | "strict" | PHPINIALL |  |
+| [pdoodbc.db2instancename](ref.pdo-odbc.html#ini.pdo-odbc.db2-instance-name) | NULL | PHPINISYSTEM | Ця можливість застаріла та *буде* обов'язково *видалено* в майбутньому. |
+| [pgsql.allowpersistent](pgsql.configuration.html#ini.pgsql.allow-persistent) | "1" | PHPINISYSTEM |  |
+| [pgsql.maxpersistent](pgsql.configuration.html#ini.pgsql.max-persistent) | "-1" | PHPINISYSTEM |  |
+| [pgsql.maxlinks](pgsql.configuration.html#ini.pgsql.max-links) | "-1" | PHPINISYSTEM |  |
+| [pgsql.autoresetpersistent](pgsql.configuration.html#ini.pgsql.auto-reset-persistent) | "0" | PHPINISYSTEM |  |
+| [pgsql.ignorenotice](pgsql.configuration.html#ini.pgsql.ignore-notice) | "0" | PHPINIALL |  |
+| [pgsql.lognotice](pgsql.configuration.html#ini.pgsql.log-notice) | "0" | PHPINIALL |  |
+| [phar.readonly](phar.configuration.html#ini.phar.readonly) | "1" | PHPINIALL |  |
+| [phar.requirehash](phar.configuration.html#ini.phar.require-hash) | "1" | PHPINIALL |  |
+| [phar.cachelist](phar.configuration.html#ini.phar.cache-list) | "" | PHPINISYSTEM |  |
+| [postmaxsize](ini.core.html#ini.post-max-size) | "8M" | PHPINIPERDIR |  |
+| [precision](ini.core.html#ini.precision) | "14" | PHPINIALL |  |
+| [realpathcachesize](ini.core.html#ini.realpath-cache-size) | "16K" | PHPINISYSTEM |  |
+| [realpathcachettl](ini.core.html#ini.realpath-cache-ttl) | "120" | PHPINISYSTEM |  |
+| [registerargcargv](ini.core.html#ini.register-argc-argv) | "1" | PHPINIPERDIR |  |
+| [reportmemleaks](errorfunc.configuration.html#ini.report-memleaks) | "1" | PHPINIALL |  |
+| reportzenddebug | "1" | PHPINIALL |  |
+| [requestorder](ini.core.html#ini.request-order) | "" | PHPINIPERDIR |  |
+| [runkit.superglobal](runkit7.configuration.html#ini.runkit7.superglobal) | "" | PHPINIPERDIR |  |
+| [runkit.internaloverride](runkit7.configuration.html#ini.runkit7.internal-override) | "0" | PHPINISYSTEM |  |
+| [sendmailfrom](mail.configuration.html#ini.sendmail-from) | NULL | PHPINIALL |  |
+| [sendmailpath](mail.configuration.html#ini.sendmail-path) | "/usr/sbin/sendmail -t -i" | PHPINISYSTEM |  |
+| [serializeprecision](ini.core.html#ini.serialize-precision) | "-1" | PHPINIALL | До PHP 7.1.0, значення за промовчанням 17. |
+| [session.savepath](session.configuration.html#ini.session.save-path) | "" | PHPINIALL |  |
+| [session.name](session.configuration.html#ini.session.name) | "PHPSESSID" | PHPINIALL |  |
+| [session.savehandler](session.configuration.html#ini.session.save-handler) | "files" | PHPINIALL |  |
+| [session.autostart](session.configuration.html#ini.session.auto-start) | "0" | PHPINIPERDIR |  |
+| [session.gcprobability](session.configuration.html#ini.session.gc-probability) | "1" | PHPINIALL |  |
+| [session.gcdivisor](session.configuration.html#ini.session.gc-divisor) | "100" | PHPINIALL |  |
+| [session.gcmaxlifetime](session.configuration.html#ini.session.gc-maxlifetime) | "1440" | PHPINIALL |  |
+| [session.serializehandler](session.configuration.html#ini.session.serialize-handler) | "php" | PHPINIALL |  |
+| [session.cookielifetime](session.configuration.html#ini.session.cookie-lifetime) | "0" | PHPINIALL |  |
+| [session.cookiepath](session.configuration.html#ini.session.cookie-path) | "/" | PHPINIALL |  |
+| [session.cookiedomain](session.configuration.html#ini.session.cookie-domain) | "" | PHPINIALL |  |
+| [session.cookiesecure](session.configuration.html#ini.session.cookie-secure) | "0" | PHPINIALL | До PHP 7.2.0 значення за промовчанням було `""` |
+| [session.cookiehttponly](session.configuration.html#ini.session.cookie-httponly) | "0" | PHPINIALL | До PHP 7.2.0 значення за промовчанням було `""` |
+| [session.cookiesamesite](session.configuration.html#ini.session.cookie-samesite) | "" | PHPINIALL | Доступна з PHP 7.3.0. |
+| [session.usestrictmode](session.configuration.html#ini.session.use-strict-mode) | "0" | PHPINIALL |  |
+| [session.usecookies](session.configuration.html#ini.session.use-cookies) | "1" | PHPINIALL |  |
+| [session.useonlycookies](session.configuration.html#ini.session.use-only-cookies) | "1" | PHPINIALL |  |
+| [session.referercheck](session.configuration.html#ini.session.referer-check) | "" | PHPINIALL |  |
+| [session.cachelimiter](session.configuration.html#ini.session.cache-limiter) | "nocache" | PHPINIALL |  |
+| [session.cacheexpire](session.configuration.html#ini.session.cache-expire) | "180" | PHPINIALL |  |
+| [session.usetranssid](session.configuration.html#ini.session.use-trans-sid) | "0" | PHPINIALL |  |
+| [session.transsidtags](session.configuration.html#ini.session.trans-sid-tags) | "a=href,area=href,frame=src,form=" | PHPINIALL | Доступна з PHP 7.1.0. |
+| [session.transsidhosts](session.configuration.html#ini.session.trans-sid-hosts) | `$_SERVER['HTTP_HOST']` | PHPINIALL | Доступна з PHP 7.1.0. |
+| [session.sidlength](session.configuration.html#ini.session.sid-length) | "32" | PHPINIALL | Доступна з PHP 7.1.0. |
+| [session.sidbitspercharacter](session.configuration.html#ini.session.sid-bits-per-character) | "4" | PHPINIALL | Доступна з PHP 7.1.0. |
+| [session.uploadprogress.enabled](session.configuration.html#ini.session.upload-progress.enabled) | "1" | PHPINIPERDIR |  |
+| [session.uploadprogress.cleanup](session.configuration.html#ini.session.upload-progress.cleanup) | "1" | PHPINIPERDIR |  |
+| [session.uploadprogress.prefix](session.configuration.html#ini.session.upload-progress.prefix) | "uploadprogress" | PHPINIPERDIR |  |
+| [session.uploadprogress.name](session.configuration.html#ini.session.upload-progress.name) | "PHPSESSIONUPLOADPROGRESS" | PHPINIPERDIR |  |
+| [session.uploadprogress.freq](session.configuration.html#ini.session.upload-progress.freq) | "1%" | PHPINIPERDIR |  |
+| [session.uploadprogress.minfreq](session.configuration.html#ini.session.upload-progress.min-freq) | "1" | PHPINIPERDIR |  |
+| [session.lazywrite](session.configuration.html#ini.session.lazy-write) | "1" | PHPINIALL |  |
+| [session.hashfunction](session.configuration.html#ini.session.hash-function) | "0" | PHPINIALL | Видалено в PHP 7.1.0. |
+| [session.hashbitspercharacter](session.configuration.html#ini.session.hash-bits-per-character) | "4" | PHPINIALL | Видалено в PHP 7.1.0. |
+| [session.entropyfile](session.configuration.html#ini.session.entropy-file) | "" | PHPINIALL | Видалено в PHP 7.1.0. |
+| [session.entropylength](session.configuration.html#ini.session.entropy-length) | "0" | PHPINIALL | Видалено в PHP 7.1.0 |
+| [shortopentag](ini.core.html#ini.short-open-tag) | "1" | PHPINIPERDIR |  |
+| [SMTP](mail.configuration.html#ini.smtp) | "localhost" | PHPINIALL |  |
+| [smtpport](mail.configuration.html#ini.smtp-port) | "25" | PHPINIALL |  |
+| [soap.wsdlcacheenabled](soap.configuration.html#ini.soap.wsdl-cache-enabled) |  | PHPINIALL |  |
+| [soap.wsdlcachedir](soap.configuration.html#ini.soap.wsdl-cache-dir) | /tmp | PHPINIALL |  |
+| [soap.wsdlcachettl](soap.configuration.html#ini.soap.wsdl-cache-ttl) |  | PHPINIALL |  |
+| [soap.wsdlcache](soap.configuration.html#ini.soap.wsdl-cache) |  | PHPINIALL |  |
+| [soap.wsdlcachelimit](soap.configuration.html#ini.soap.wsdl-cache-limit) |  | PHPINIALL |  |
+| [sql.safemode](ini.core.html#ini.sql.safe-mode) | "0" | PHPINISYSTEM |  |
+| [sqlite3.extensiondir](sqlite3.configuration.html#ini.sqlite3.extension-dir) | "" | PHPINISYSTEM |  |
+| [sqlite3.defensive](sqlite3.configuration.html#ini.sqlite3.defensive) |  | PHPINISYSTEM | Доступно з PHP 7.2.17 та 7.3.4 для libsqlite ≥ 3.26.0. |
+| [syslog.facility](errorfunc.configuration.html#ini.syslog.facility) | "LOGUSER" | PHPINISYSTEM | Доступно, починаючи з PHP 7.3.0. |
+| [syslog.filter](errorfunc.configuration.html#ini.syslog.filter) | "no-ctrl" | PHPINIALL | Доступно, починаючи з PHP 7.3.0. |
+| [syslog.ident](errorfunc.configuration.html#ini.syslog.ident) | "php" | PHPINISYSTEM | Доступно, починаючи з PHP 7.3.0. |
+| systempdir | "" | PHPINISYSTEM |  |
+| [sysvshm.initmem](sem.configuration.html#ini.sysvshm.init-mem) |  | PHPINISYSTEM |  |
+| [tidy.defaultconfig](tidy.configuration.html#ini.tidy.default-config) | "" | PHPINISYSTEM |  |
+| [tidy.cleanoutput](tidy.configuration.html#ini.tidy.clean-output) | "0" | PHPINIUSER |  |
+| [trackerrors](errorfunc.configuration.html#ini.track-errors) | "0" | PHPINIALL | Оголошено застарілим у PHP 7.2.0, видалено у PHP 8.0.0. |
+| [unserializecallbackfunc](var.configuration.html#ini.unserialize-callback-func) | NULL | PHPINIALL |  |
+| uploadprogress.file.filenametemplate | "/tmp/upt%s.txt" | PHPINIALL |  |
+| [uploadmaxfilesize](ini.core.html#ini.upload-max-filesize) | "2M" | PHPINIPERDIR |  |
+| [maxfileuploads](ini.core.html#ini.max-file-uploads) |  | PHPINISYSTEM |  |
+| [uploadtmpdir](ini.core.html#ini.upload-tmp-dir) | NULL | PHPINISYSTEM |  |
+| [urlrewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags) | "a=href,area=href,frame=src,form=,fieldset=" | PHPINIALL |  |
+| [useragent](filesystem.configuration.html#ini.user-agent) | NULL | PHPINIALL |  |
+| [userdir](ini.core.html#ini.user-dir) | NULL | PHPINISYSTEM |  |
+| [userini.cachettl](ini.core.html#ini.user-ini.cache-ttl) | "300" | PHPINISYSTEM |  |
+| [userini.filename](ini.core.html#ini.user-ini.filename) | ".user.ini" | PHPINISYSTEM |  |
+| [uopz.disable](uopz.configuration.html#ini.uopz.disable) | "0" | PHPINISYSTEM | Доступно з uopz 5.0.2 |
+| [uopz.exit](uopz.configuration.html#ini.uopz.exit) | "0" | PHPINISYSTEM | Доступно з uopz 6.0.1 |
+| [uopz.overloads](uopz.configuration.html#ini.uopz.overloads) | "1" | PHPINISYSTEM | Доступно з uopz 2.0.2. Видалено з uopz 5.0.0. |
+| [variablesorder](ini.core.html#ini.variables-order) | "EGPCS" | PHPINIPERDIR |  |
+| vld.active | "0" | PHPINISYSTEM |  |
+| vld.execute | "1" | PHPINISYSTEM | Доступно з vld 0.8.0. |
+| vld.skipappend | "0" | PHPINISYSTEM | Доступно з vld 0.8.0. |
+| vld.skipprepend | "0" | PHPINISYSTEM | Доступно з vld 0.8.0. |
+| [windows.showcrtwarning](ini.core.html#ini.windows-show-crt-warning) | "0" | PHPINIALL |  |
+| [xbithack](apache.configuration.html#ini.xbithack) | "0" | PHPINIALL |  |
+| [xmlrpcerrors](errorfunc.configuration.html#ini.xmlrpc-errors) | "0" | PHPINISYSTEM |  |
+| [xmlrpcerrornumber](errorfunc.configuration.html#ini.xmlrpc-error-number) | "0" | PHPINIALL |  |
+| yaz.keepalive | "120" | PHPINIALL |  |
+| yaz.logmask | NULL | PHPINIALL | Доступно починаючи з yaz 1.0.3. |
+| [zend.assertions](ini.core.html#ini.zend.assertions) | "1" | PHPINIALL |  |
+| [zend.detectunicode](ini.core.html#ini.zend.detect-unicode) | "1" | PHPINIALL |  |
+| [zend.enableгк](info.configuration.html#ini.zend.enable-gc) | "1" | PHPINIALL |  |
+| [zend.multibyte](ini.core.html#ini.zend.multibyte) | "0" | PHPINIPERDIR |  |
+| [zend.scriptencoding](ini.core.html#ini.zend.script-encoding) | NULL | PHPINIALL |  |
+| [zend.signalcheck](ini.core.html#ini.zend.signal-check) | "0" | PHPINISYSTEM |  |
+| [zendextension](ini.core.html#ini.zend-extension) | NULL | Тільки php.ini |  |
+| [zlib.outputcompression](zlib.configuration.html#ini.zlib.output-compression) | "0" | PHPINIALL |  |
+| [zlib.outputcompressionlevel](zlib.configuration.html#ini.zlib.output-compression-level) | "-1" | PHPINIALL |  |
+| [zlib.outputhandler](zlib.configuration.html#ini.zlib.output-handler) | "" | PHPINIALL |  |

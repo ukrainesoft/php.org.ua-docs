@@ -1,12 +1,12 @@
 Повертає елементи на ім'я тега
 
--   [« DOMElement::getAttributeNS](domelement.getattributens.html)
+-   [« DOMElement::getAttributeNS](domelement.getattributens.md)
     
--   [DOMElement::getElementsByTagNameNS »](domelement.getelementsbytagnamens.html)
+-   [DOMElement::getElementsByTagNameNS »](domelement.getelementsbytagnamens.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMElement](class.domelement.html)
+-   [DOMElement](class.domelement.md)
     
 -   Повертає елементи на ім'я тега
     
@@ -23,7 +23,7 @@ DOMElement::getElementsByTagName — Повертає елементи на ім
 public DOMElement::getElementsByTagName(string $qualifiedName): DOMNodeList
 ```
 
-Ця функція повертає новий екземпляр класу [DOMNodeList](class.domnodelist.html) - список всіх елементів-нащадків поточного вузла із вказаним ім'ям тега `qualifiedName`в тому порядку, в якому вони зустрічаються при обході дерева.
+Ця функція повертає новий екземпляр класу [DOMNodeList](class.domnodelist.md) - список всіх елементів-нащадків поточного вузла із вказаним ім'ям тега `qualifiedName`в тому порядку, в якому вони зустрічаються при обході дерева.
 
 ### Список параметрів
 
@@ -33,8 +33,8 @@ public DOMElement::getElementsByTagName(string $qualifiedName): DOMNodeList
 
 ### Значення, що повертаються
 
-Ця функція повертає новий об'єкт класу [DOMNodeList](class.domnodelist.html) - Список всіх відповідних елементів.
+Ця функція повертає новий об'єкт класу [DOMNodeList](class.domnodelist.md) - Список всіх відповідних елементів.
 
 ### Дивіться також
 
--   [DOMElement::getElementsByTagNameNS()](domelement.getelementsbytagnamens.html) - Отримання елементів по локальному імені у заданому просторі імен
+-   [DOMElement::getElementsByTagNameNS()](domelement.getelementsbytagnamens.md) - Отримання елементів по локальному імені у заданому просторі імен

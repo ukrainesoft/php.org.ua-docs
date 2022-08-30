@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverServer::isPrimary »](mongodb-driver-server.isprimary.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverServer](class.mongodb-driver-server.html)
     
@@ -23,7 +23,7 @@ MongoDBDriverServer::isPassive — Перевіряє, чи є сервер па
 final public MongoDB\Driver\Server::isPassive(): bool
 ```
 
-Повертає, чи є цей сервер [» пассивным членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-passive-member) набору реплік (тобто його пріоритет дорівнює `0`
+Повертає, чи є цей сервер [»пасивним членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-passive-member) набору реплік (тобто його пріоритет дорівнює `0`
 
 ### Список параметрів
 

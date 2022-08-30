@@ -1,12 +1,12 @@
 Отримання імені простору імен
 
--   [« ReflectionFunctionAbstract::getName](reflectionfunctionabstract.getname.html)
+-   [« ReflectionFunctionAbstract::getName](reflectionfunctionabstract.getname.md)
     
--   [ReflectionFunctionAbstract::getNumberOfParameters »](reflectionfunctionabstract.getnumberofparameters.html)
+-   [ReflectionFunctionAbstract::getNumberOfParameters »](reflectionfunctionabstract.getnumberofparameters.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
     
 -   Отримання імені простору імен
     
@@ -35,5 +35,5 @@ public ReflectionFunctionAbstract::getNamespaceName(): string
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getFileName()](reflectionfunctionabstract.getfilename.html) - Отримує ім'я файлу
--   [пространства имён](language.namespaces.html)
+-   [ReflectionFunctionAbstract::getFileName()](reflectionfunctionabstract.getfilename.md) - Отримує ім'я файлу
+-   [пространства имён](language.namespaces.md)

@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](odbc.configuration.html)
+-   [« Налаштування під час виконання](odbc.configuration.md)
     
--   [Предопределённые константы »](uodbc.constants.html)
+-   [Обумовлені константи »](uodbc.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](uodbc.setup.html)
+-   [Встановлення та налаштування](uodbc.setup.md)
     
 -   Типи ресурсів
     

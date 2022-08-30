@@ -2,11 +2,11 @@
 
 -   [« runkit7superglobals](function.runkit7-superglobals.html)
     
--   [uopz »](book.uopz.html)
+-   [uopz »](book.uopz.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції runkit7](ref.runkit7.html)
+-   [Функції runkit7](ref.runkit7.md)
     
 -   Повертає інформацію про передане значення з типами даних, кількістю посилань і так далі
     
@@ -77,5 +77,5 @@ array(2) {
 
 ### Дивіться також
 
--   [Объяснение ссылок](language.references.html)
--   [» Объяснение ссылок (Дерик Ретанс)](http://derickrethans.nl/php_references_article.php)
+-   [Пояснення посилань](language.references.md)
+-   [» Пояснення посилань (Дерік Ретанс)](http://derickrethans.nl/php_references_article.php)

@@ -1,12 +1,12 @@
 Арккосінус
 
--   [« abs](function.abs.html)
+-   [« abs](function.abs.md)
     
--   [acosh »](function.acosh.html)
+-   [acosh »](function.acosh.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Арккосінус
     
@@ -23,7 +23,7 @@ acos — Арккосінус
 acos(float $num): float
 ```
 
-Повертає арккосинус числа `num` у радіанах . **acos()** - зворотна тригонометрична функція до [cos()](function.cos.html), тобто `a==cos(acos(a))` для кожного значення а, що входить у область значень функції **acos()**
+Повертає арккосинус числа `num` у радіанах . **acos()** - зворотна тригонометрична функція до [cos()](function.cos.md), тобто `a==cos(acos(a))` для кожного значення а, що входить у область значень функції **acos()**
 
 ### Список параметрів
 
@@ -37,7 +37,7 @@ acos(float $num): float
 
 ### Дивіться також
 
--   [cos()](function.cos.html) - Косінус
--   [acosh()](function.acosh.html) - Гіперболічний арккосинус
--   [asin()](function.asin.html) - Арксінус
--   [atan()](function.atan.html) - Арктангенс
+-   [cos()](function.cos.md) - Косінус
+-   [acosh()](function.acosh.md) - Гіперболічний арккосинус
+-   [asin()](function.asin.md) - Арксінус
+-   [atan()](function.atan.md) - Арктангенс

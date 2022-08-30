@@ -1,12 +1,12 @@
 Сортує масив із збереженням асоціації індексу
 
--   [« Collator](class.collator.html)
+-   [« Collator](class.collator.md)
     
--   [Collator::compare »](collator.compare.html)
+-   [Collator::compare »](collator.compare.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Collator](class.collator.html)
+-   [Collator](class.collator.md)
     
 -   Сортує масив із збереженням асоціації індексу
     
@@ -35,13 +35,13 @@ collator_asort(Collator $object, array &$array, int $flags = Collator::SORT_REGU
 
 Функція сортує масив таким чином, щоб індекси масиву зберігали кореляцію з елементами масиву, з якими вони пов'язані. Це використовується в основному при сортуванні асоціативних масивів, де важливим є фактичний порядок елементів. Елементи масиву матимуть порядок сортування відповідно до поточних правил локалі.
 
-Еквівалентно стандартної функції PHP [asort()](function.asort.html)
+Еквівалентно стандартної функції PHP [asort()](function.asort.md)
 
 ### Список параметрів
 
 `object`
 
-Об'єкт [Collator](class.collator.html)
+Об'єкт [Collator](class.collator.md)
 
 `array`
 
@@ -100,6 +100,6 @@ array (
 
 ### Дивіться також
 
--   [Константы](class.collator.html#intl.collator-constants) [Collator](class.collator.html)
--   [collatorsort()](collator.sort.html) - Сортує масив із використанням зазначеного засобу сортування
--   [collatorsortwithsortkeys()](collator.sortwithsortkeys.html) - Сортує масив з використанням зазначеного Collator та ключів сортування
+-   [Константи](class.collator.html#intl.collator-constants) [Collator](class.collator.md)
+-   [collatorsort()](collator.sort.md) - Сортує масив із використанням зазначеного засобу сортування
+-   [collatorsortwithsortkeys()](collator.sortwithsortkeys.md) - Сортує масив з використанням зазначеного Collator та ключів сортування

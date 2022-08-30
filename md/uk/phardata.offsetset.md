@@ -1,12 +1,12 @@
 Зміна вмісту файлу
 
--   [« PharData::isWritable](phardata.iswritable.html)
+-   [« PharData::isWritable](phardata.iswritable.md)
     
--   [PharData::offsetUnset »](phardata.offsetunset.html)
+-   [PharData::offsetUnset »](phardata.offsetunset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharData](class.phardata.html)
+-   [PharData](class.phardata.md)
     
 -   Зміна вмісту файлу
     
@@ -23,7 +23,7 @@ PharData::offsetSet — Зміна вмісту файлу
 public PharData::offsetSet(string $localName, resource|string $value): void
 ```
 
-Це реалізація інтерфейсу [ArrayAccess](class.arrayaccess.html), що дозволяє маніпулювати вмістом tar/zip-архіву у стилі доступу до елементів масиву. offsetSet використовується для зміни контенту існуючого файлу або для створення нового.
+Це реалізація інтерфейсу [ArrayAccess](class.arrayaccess.md), що дозволяє маніпулювати вмістом tar/zip-архіву у стилі доступу до елементів масиву. offsetSet використовується для зміни контенту існуючого файлу або для створення нового.
 
 ### Список параметрів
 
@@ -41,7 +41,7 @@ public PharData::offsetSet(string $localName, resource|string $value): void
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.html) у разі проблем із записом на диск.
+Викидає виняток [PharException](class.pharexception.md) у разі проблем із записом на диск.
 
 ### Приклади
 
@@ -63,8 +63,8 @@ try {
 
 ### Примітки
 
-> **Зауваження** [PharData::addFile()](phardata.addfile.html) [PharData::addFromString()](phardata.addfromstring.html) and **PharData::offsetSet()** Залишити новий ріг архіву кожен час вони називаються. If performance is a concern, [PharData::buildFromDirectory()](phardata.buildfromdirectory.html) ор [PharData::buildFromIterator()](phardata.buildfromiterator.html) should be used instead.
+> **Зауваження** [PharData::addFile()](phardata.addfile.md) [PharData::addFromString()](phardata.addfromstring.md) and **PharData::offsetSet()** Залишити новий ріг архіву кожен час вони називаються. If performance is a concern, [PharData::buildFromDirectory()](phardata.buildfromdirectory.md) ор [PharData::buildFromIterator()](phardata.buildfromiterator.md) should be used instead.
 
 ### Дивіться також
 
--   [Phar::offsetSet()](phar.offsetset.html) - Зміна вмісту файлу
+-   [Phar::offsetSet()](phar.offsetset.md) - Зміна вмісту файлу

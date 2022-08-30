@@ -2,7 +2,7 @@
 
 -   [« FFI](book.ffi.html)
     
--   [Установка и настройка »](ffi.setup.html)
+-   [Встановлення та налаштування »](ffi.setup.html)
     
 -   [PHP Manual](index.html)
     

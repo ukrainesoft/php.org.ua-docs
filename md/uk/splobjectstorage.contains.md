@@ -1,12 +1,12 @@
 Перевіряє, чи контейнер містить заданий об'єкт
 
--   [« SplObjectStorage::attach](splobjectstorage.attach.html)
+-   [« SplObjectStorage::attach](splobjectstorage.attach.md)
     
--   [SplObjectStorage::count »](splobjectstorage.count.html)
+-   [SplObjectStorage::count »](splobjectstorage.count.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplObjectStorage](class.splobjectstorage.html)
+-   [SplObjectStorage](class.splobjectstorage.md)
     
 -   Перевіряє, чи контейнер містить заданий об'єкт
     
@@ -61,4 +61,4 @@ bool(false)
 
 ### Дивіться також
 
--   [SplObjectStorage::offsetExists()](splobjectstorage.offsetexists.html) - Перевіряє, чи існує об'єкт у контейнері
+-   [SplObjectStorage::offsetExists()](splobjectstorage.offsetexists.md) - Перевіряє, чи існує об'єкт у контейнері

@@ -4,7 +4,7 @@
     
 -   [ДсVector::clear »](ds-vector.clear.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Вектор](class.ds-vector.html)
     

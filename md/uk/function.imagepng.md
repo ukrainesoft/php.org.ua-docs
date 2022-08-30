@@ -1,12 +1,12 @@
 Виведення PNG зображення у браузер або файл
 
--   [« imagepalettetotruecolor](function.imagepalettetotruecolor.html)
+-   [« imagepalettetotruecolor](function.imagepalettetotruecolor.md)
     
--   [imagepolygon »](function.imagepolygon.html)
+-   [imagepolygon »](function.imagepolygon.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Виведення PNG зображення у браузер або файл
     
@@ -29,7 +29,7 @@ imagepng(    GdImage $image,    resource|string|null $file = null,   
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `file`
 
@@ -61,9 +61,9 @@ imagepng(    GdImage $image,    resource|string|null $file = null,   
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -80,8 +80,8 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagegif()](function.imagegif.html) - Виводить зображення у браузер або пише у файл
--   [imagewbmp()](function.imagewbmp.html) - Виводить зображення у браузер або пише у файл
--   [imagejpeg()](function.imagejpeg.html) - Виводить зображення у браузер або пише у файл
--   [imagetypes()](function.imagetypes.html) - Повертає список типів зображень, які підтримує PHP збірка
--   [imagesavealpha()](function.imagesavealpha.html) - Чи зберігати повну інформацію альфа-каналу при збереженні зображень PNG
+-   [imagegif()](function.imagegif.md) - Виводить зображення у браузер або пише у файл
+-   [imagewbmp()](function.imagewbmp.md) - Виводить зображення у браузер або пише у файл
+-   [imagejpeg()](function.imagejpeg.md) - Виводить зображення у браузер або пише у файл
+-   [imagetypes()](function.imagetypes.md) - Повертає список типів зображень, які підтримує PHP збірка
+-   [imagesavealpha()](function.imagesavealpha.md) - Чи зберігати повну інформацію альфа-каналу при збереженні зображень PNG

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](pthreads.setup.html)
+-   [« Встановлення та налаштування](pthreads.setup.html)
     
 -   [Установка »](pthreads.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](pthreads.setup.html)
+-   [Встановлення та налаштування](pthreads.setup.html)
     
 -   Вимоги
     

@@ -2,7 +2,7 @@
 
 -   [« Использование Phar-архивов: Введение](phar.using.intro.html)
     
--   [Использование Phar-архивов: классы Phar и PharData »](phar.using.object.html)
+-   [Використання Phar-архівів: класи Phar та PharData »](phar.using.object.html)
     
 -   [PHP Manual](index.html)
     

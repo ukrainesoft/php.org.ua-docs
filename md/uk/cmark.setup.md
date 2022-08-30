@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.cmark.html)
+-   [« Введение](intro.cmark.md)
     
--   [Требования »](cmark.requirements.html)
+-   [Вимоги »](cmark.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CommonMark](book.cmark.html)
+-   [CommonMark](book.cmark.md)
     
 -   Встановлення та налаштування
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [Требования](cmark.requirements.html)
--   [Установка](cmark.installation.html)
+-   [Вимоги](cmark.requirements.md)
+-   [Установка](cmark.installation.md)

@@ -1,12 +1,12 @@
 Зберігає запит до бази даних RRD у зображення та повертає докладну інформацію про згенерований графік
 
--   [« RRDGraph::save](rrdgraph.save.html)
+-   [« RRDGraph::save](rrdgraph.save.md)
     
--   [RRDGraph::setOptions »](rrdgraph.setoptions.html)
+-   [RRDGraph::setOptions »](rrdgraph.setoptions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RRDGraph](class.rrdgraph.html)
+-   [RRDGraph](class.rrdgraph.md)
     
 -   Зберігає запит до бази даних RRD у зображення та повертає докладну інформацію про згенерований графік
     
@@ -23,7 +23,7 @@ RRDGraph::saveVerbose — Зберігає запит до бази даних R
 public RRDGraph::saveVerbose(): array
 ```
 
-Зберігає запит до бази даних RRD у файл зображення, визначений методом [RRDGraph::construct()](rrdgraph.construct.html) і повертає докладну інформацію про згенерований графік, якщо як ім'я файлу зображення використовується "-", дані зображення також повертаються в масиві результатів.
+Зберігає запит до бази даних RRD у файл зображення, визначений методом [RRDGraph::construct()](rrdgraph.construct.md) і повертає докладну інформацію про згенерований графік, якщо як ім'я файлу зображення використовується "-", дані зображення також повертаються в масиві результатів.
 
 ### Список параметрів
 

@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Класи для роботи з потоками](stream.resources.html)
+-   [« Класи для роботи з потоками](stream.resources.md)
     
--   [Поточні фільтри »](stream.filters.html)
+-   [Поточні фільтри »](stream.filters.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Потоки](book.stream.html)
+-   [Потоки](book.stream.md)
     
 -   Обумовлені константи
     
@@ -15,9 +15,9 @@
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
-| Константа                 | Описание                                                                                                                                                                                                                                           |
-|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **`STREAM_FILTER_READ`**  | Використовується у функціях [streamfilterappend()](function.stream-filter-append.html) і [streamfilterprepend()](function.stream-filter-prepend.html). Вказує на те, що заданий фільтр може використовуватись лише в операціях читання (*reading*  |
+| Константа | Описание |
+| --- | --- |
+| **`STREAM_FILTER_READ`** | Використовується у функціях [streamfilterappend()](function.stream-filter-append.html) і [streamfilterprepend()](function.stream-filter-prepend.html). Вказує на те, що заданий фільтр може використовуватись лише в операціях читання (*reading* |
 | **`STREAM_FILTER_WRITE`** | Використовується у функціях [streamfilterappend()](function.stream-filter-append.html) і [streamfilterprepend()](function.stream-filter-prepend.html). Вказує на те, що заданий фільтр може використовуватись тільки в операціях запису (*writing* |
 | **`STREAM_FILTER_ALL`** | Еквівалентно запису \`STREAM\_FILTER\_READ |
 | **`PSFS_PASS_ON`** | `Return Code` вказує, що фільтр користувача повернув бакети (buckets) в `$out` |
@@ -64,12 +64,12 @@
 | **`STREAM_SHUT_RDWR`** | Використовується функцією [streamsocketshutdown()](function.stream-socket-shutdown.html) для відключення подальших прийому та передачі даних. |
 | **`STREAM_CAST_FOR_SELECT`** | Розподіл потоків, використовується, коли функція [streamselect()](function.stream-select.html) викликає **streamcast()** |
 | **`STREAM_CAST_AS_STREAM`** | Розподіл потоків, використовується, коли функція **streamcast()** викликається з іншого місця (дивіться вище). |
-| **`STREAM_META_TOUCH`** | Використовується у функції **streammetadata()** для завдання виклику [touch()](function.touch.html) |
-| **`STREAM_META_OWNER`** | Використовується у функції **streammetadata()** для завдання виклику [chown()](function.chown.html) |
-| **`STREAM_META_OWNER_NAME`** | Використовується у функції **streammetadata()** для завдання виклику [chown()](function.chown.html) |
-| **`STREAM_META_GROUP`** | Використовується у функції **streammetadata()** для завдання виклику [chgrp()](function.chgrp.html) |
-| **`STREAM_META_GROUP_NAME`** | Використовується у функції **streammetadata()** для завдання виклику [chgrp()](function.chgrp.html) |
-| **`STREAM_META_ACCESS`** | Використовується у функції **streammetadata()** для завдання виклику [chmod()](function.chmod.html) |
+| **`STREAM_META_TOUCH`** | Використовується у функції **streammetadata()** для завдання виклику [touch()](function.touch.md) |
+| **`STREAM_META_OWNER`** | Використовується у функції **streammetadata()** для завдання виклику [chown()](function.chown.md) |
+| **`STREAM_META_OWNER_NAME`** | Використовується у функції **streammetadata()** для завдання виклику [chown()](function.chown.md) |
+| **`STREAM_META_GROUP`** | Використовується у функції **streammetadata()** для завдання виклику [chgrp()](function.chgrp.md) |
+| **`STREAM_META_GROUP_NAME`** | Використовується у функції **streammetadata()** для завдання виклику [chgrp()](function.chgrp.md) |
+| **`STREAM_META_ACCESS`** | Використовується у функції **streammetadata()** для завдання виклику [chmod()](function.chmod.md) |
 | **`STREAM_BUFFER_NONE`** | Без буферизації. |
 | **`STREAM_BUFFER_LINE`** | Буферизація рядка. |
 | **`STREAM_BUFFER_FULL`** | Повна буферизація. |

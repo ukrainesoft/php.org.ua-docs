@@ -1,6 +1,6 @@
 Callback-функції
 
--   [« Примеры](yaml.examples.html)
+-   [« Приклади](yaml.examples.html)
     
 -   [Callback-функции парсинга »](yaml.callbacks.parse.html)
     

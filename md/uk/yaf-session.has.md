@@ -4,7 +4,7 @@
     
 -   [YafSession::isset »](yaf-session.isset.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafSession](class.yaf-session.html)
     

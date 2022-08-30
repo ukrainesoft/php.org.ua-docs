@@ -4,9 +4,9 @@
     
 -   [dbahandlers »](function.dba-handlers.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції DBA](ref.dba.html)
+-   [Функції DBA](ref.dba.md)
     
 -   Витягує перший ключ
     
@@ -39,4 +39,4 @@ dba_firstkey(resource $dba): string|false
 
 -   [dbanextkey()](function.dba-nextkey.html) - Витягує наступний ключ
 -   [dbakeysplit()](function.dba-key-split.html) - Розділяє ключ, заданий у вигляді рядка та створює масив з отриманих частин
--   Другий приклад у [приклади DBA](dba.examples.html)
+-   Другий приклад у [приклади DBA](dba.examples.md)

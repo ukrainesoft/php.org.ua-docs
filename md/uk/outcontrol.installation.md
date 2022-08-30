@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](outcontrol.requirements.html)
+-   [« Вимоги](outcontrol.requirements.md)
     
--   [Настройка во время выполнения »](outcontrol.configuration.html)
+-   [Налаштування під час виконання »](outcontrol.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](outcontrol.setup.html)
+-   [Встановлення та налаштування](outcontrol.setup.md)
     
 -   Встановлення
     

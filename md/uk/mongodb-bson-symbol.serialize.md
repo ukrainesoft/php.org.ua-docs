@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONSymbol::toString »](mongodb-bson-symbol.tostring.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONSymbol](class.mongodb-bson-symbol.html)
     
@@ -38,5 +38,5 @@ final public MongoDB\BSON\Symbol::serialize(): string
 ### Дивіться також
 
 -   [MongoDBBSONSymbol::unserialize()](mongodb-bson-symbol.unserialize.html) - Десеріалізує Symbol
--   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

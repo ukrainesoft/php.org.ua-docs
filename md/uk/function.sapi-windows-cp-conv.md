@@ -4,9 +4,9 @@
     
 -   [sapiwindowsспget »](function.sapi-windows-cp-get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Різні функції](ref.misc.html)
+-   [Різні функції](ref.misc.md)
     
 -   Перетворити рядок з однієї кодової сторінки на іншу
     
@@ -50,4 +50,4 @@ sapi_windows_cp_conv(int|string $in_codepage, int|string $out_codepage, string $
 ### Дивіться також
 
 -   [sapiwindowsспget()](function.sapi-windows-cp-get.html) - Отримати поточну кодову сторінку
--   [iconv()](function.iconv.html) - Перетворює рядок з одного кодування символів на інший
+-   [iconv()](function.iconv.md) - Перетворює рядок з одного кодування символів на інший

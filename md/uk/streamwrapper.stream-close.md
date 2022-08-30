@@ -4,9 +4,9 @@
     
 -   [streamWrapper::streameof »](streamwrapper.stream-eof.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [streamWrapper](class.streamwrapper.html)
+-   [streamWrapper](class.streamwrapper.md)
     
 -   Закриває ресурс
     
@@ -23,7 +23,7 @@ streamWrapper::streamclose — Закриває ресурс
 public streamWrapper::stream_close(): void
 ```
 
-Цей метод викликається у процесі виконання [fclose()](function.fclose.html)
+Цей метод викликається у процесі виконання [fclose()](function.fclose.md)
 
 Усі ресурси, виділені або заблоковані обгорткою, мають бути звільнені.
 
@@ -37,5 +37,5 @@ public streamWrapper::stream_close(): void
 
 ### Дивіться також
 
--   [fclose()](function.fclose.html) - Закриває відкритий дескриптор файлу
+-   [fclose()](function.fclose.md) - Закриває відкритий дескриптор файлу
 -   [streamWrapper::dirclosedir()](streamwrapper.dir-closedir.html) - Закрити дескриптор директорії

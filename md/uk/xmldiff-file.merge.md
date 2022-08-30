@@ -2,9 +2,9 @@
 
 -   [« XMLDiffFile::diff](xmldiff-file.diff.html)
     
--   [Разбор XML »](book.xml.html)
+-   [Разбор XML »](book.xml.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [XMLDiffFile](class.xmldiff-file.html)
     

@@ -1,12 +1,12 @@
 Створює новий пристрій
 
--   [« ZMQDevice](class.zmqdevice.html)
+-   [« ZMQDevice](class.zmqdevice.md)
     
--   [ZMQDevice::getIdleTimeout »](zmqdevice.getidletimeout.html)
+-   [ZMQDevice::getIdleTimeout »](zmqdevice.getidletimeout.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQDevice](class.zmqdevice.html)
+-   [ZMQDevice](class.zmqdevice.md)
     
 -   Створює новий пристрій
     

@@ -4,7 +4,7 @@
     
 -   [ОЙDrawBrushGradient::setStop »](ui-draw-brush-gradient.setstop.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawBrushGradient](class.ui-draw-brush-gradient.html)
     

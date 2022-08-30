@@ -1,12 +1,12 @@
 Конструктор класу RecursiveDirectoryIterator
 
--   [« RecursiveDirectoryIterator](class.recursivedirectoryiterator.html)
+-   [« RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
     
--   [RecursiveDirectoryIterator::getChildren »](recursivedirectoryiterator.getchildren.html)
+-   [RecursiveDirectoryIterator::getChildren »](recursivedirectoryiterator.getchildren.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.html)
+-   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
     
 -   Конструктор класу RecursiveDirectoryIterator
     
@@ -31,23 +31,23 @@ public **RecursiveDirectoryIterator::construct**(string `$directory`, int `$flag
 
 `flags`
 
-Можна встановити кілька прапорів, від яких залежатиме поведінка деяких методів. Список можливих прапорів можна знайти на сторінці [Предопределённых констант класса FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants). Прапори можна задати пізніше методом [FilesystemIterator::setFlags()](filesystemiterator.setflags.html)
+Можна встановити кілька прапорів, від яких залежатиме поведінка деяких методів. Список можливих прапорів можна знайти на сторінці [Обумовлених констант класу FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants). Прапори можна задати пізніше методом [FilesystemIterator::setFlags()](filesystemiterator.setflags.md)
 
 ### Помилки
 
-Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.html), якщо директорія `directory` не існує.
+Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.md), якщо директорія `directory` не існує.
 
-Викидає виняток [ValueError](class.valueerror.html), якщо параметр `directory` містить порожній рядок.
+Викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тепер викидає виняток [ValueError](class.valueerror.html), якщо параметр `directory` містить порожній рядок. раніше викидався виняток [RuntimeException](class.runtimeexception.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок. раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання [RecursiveDirectoryIterator](class.recursivedirectoryiterator.html)**
+**Приклад #1 Приклад використання [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)**
 
 ```php
 <?php
@@ -89,6 +89,6 @@ while($it->valid()) {
 
 ### Дивіться також
 
--   [FilesystemIterator::construct()](filesystemiterator.construct.html) - Створює новий ітератор файлової системи
--   [RecursiveIteratorIterator::construct()](recursiveiteratoriterator.construct.html) - Конструктор класу RecursiveIteratorIterator
--   [Предопределённые константы класса FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)
+-   [FilesystemIterator::construct()](filesystemiterator.construct.md) - Створює новий ітератор файлової системи
+-   [RecursiveIteratorIterator::construct()](recursiveiteratoriterator.construct.md) - Конструктор класу RecursiveIteratorIterator
+-   [Обумовлені константи класса FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)

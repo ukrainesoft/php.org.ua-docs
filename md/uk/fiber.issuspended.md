@@ -1,12 +1,12 @@
 Визначає, чи призупинено файбер
 
--   [« Fiber::isStarted](fiber.isstarted.html)
+-   [« Fiber::isStarted](fiber.isstarted.md)
     
--   [Fiber::isRunning »](fiber.isrunning.html)
+-   [Fiber::isRunning »](fiber.isrunning.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Fiber](class.fiber.html)
+-   [Fiber](class.fiber.md)
     
 -   Визначає, чи призупинено файбер
     

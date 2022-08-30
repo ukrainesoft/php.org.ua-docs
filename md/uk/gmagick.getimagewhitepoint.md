@@ -1,12 +1,12 @@
 Повертає хроматичну білу точку
 
--   [« Gmagick::getimageunits](gmagick.getimageunits.html)
+-   [« Gmagick::getimageunits](gmagick.getimageunits.md)
     
--   [Gmagick::getimagewidth »](gmagick.getimagewidth.html)
+-   [Gmagick::getimagewidth »](gmagick.getimagewidth.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повертає хроматичну білу точку
     

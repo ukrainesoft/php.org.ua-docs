@@ -4,7 +4,7 @@
     
 -   [mysqlistmt::$paramcount »](mysqli-stmt.param-count.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlistmt](class.mysqli-stmt.html)
     
@@ -103,4 +103,4 @@ printf("Число строк: %d.\n", mysqli_stmt_num_rows($stmt));
 
 -   [mysqlistmtstoreresult()](mysqli-stmt.store-result.html) - Зберігає набір результатів у внутрішньому буфері
 -   [mysqlistmtaffectedrows()](mysqli-stmt.affected-rows.html) - Повертає загальну кількість рядків, змінених, віддалених, вставлених чи зіставлених останнім виконаним виразом
--   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання

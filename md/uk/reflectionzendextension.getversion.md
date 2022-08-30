@@ -1,12 +1,12 @@
 Отримує версію
 
--   [« ReflectionZendExtension::getURL](reflectionzendextension.geturl.html)
+-   [« ReflectionZendExtension::getURL](reflectionzendextension.geturl.md)
     
--   [ReflectionZendExtension::toString »](reflectionzendextension.tostring.html)
+-   [ReflectionZendExtension::toString »](reflectionzendextension.tostring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionZendExtension](class.reflectionzendextension.html)
+-   [ReflectionZendExtension](class.reflectionzendextension.md)
     
 -   Отримує версію
     

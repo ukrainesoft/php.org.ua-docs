@@ -1,12 +1,12 @@
 Перевіряє, чи є клас користувача
 
--   [« ReflectionClass::isTrait](reflectionclass.istrait.html)
+-   [« ReflectionClass::isTrait](reflectionclass.istrait.md)
     
--   [ReflectionClass::newInstance »](reflectionclass.newinstance.html)
+-   [ReflectionClass::newInstance »](reflectionclass.newinstance.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Перевіряє, чи є клас користувача
     
@@ -35,4 +35,4 @@ public ReflectionClass::isUserDefined(): bool
 
 ### Дивіться також
 
--   [ReflectionClass::isInternal()](reflectionclass.isinternal.html) - Перевіряє, чи є клас вбудованим у модуль чи ядро
+-   [ReflectionClass::isInternal()](reflectionclass.isinternal.md) - Перевіряє, чи є клас вбудованим у модуль чи ядро

@@ -1,12 +1,12 @@
 Завершує сеанс cURL
 
--   [« Функции cURL](ref.curl.html)
+-   [« Функции cURL](ref.curl.md)
     
 -   [curlcopyhandle »](function.curl-copy-handle.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции cURL](ref.curl.html)
+-   [Функции cURL](ref.curl.md)
     
 -   Завершує сеанс cURL
     
@@ -41,9 +41,9 @@ curl_close(CurlHandle $handle): void
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 

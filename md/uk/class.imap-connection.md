@@ -2,11 +2,11 @@
 
 -   [« imaputf8](function.imap-utf8.html)
     
--   [Mail »](book.mail.html)
+-   [Mail »](book.mail.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IMAP](book.imap.html)
+-   [IMAP](book.imap.md)
     
 -   Клас IMAPConnection
     

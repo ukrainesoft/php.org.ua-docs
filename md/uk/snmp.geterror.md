@@ -1,12 +1,12 @@
 Отримує останнє повідомлення про помилку
 
--   [« SNMP::getErrno](snmp.geterrno.html)
+-   [« SNMP::getErrno](snmp.geterrno.md)
     
--   [SNMP::getnext »](snmp.getnext.html)
+-   [SNMP::getnext »](snmp.getnext.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SNMP](class.snmp.html)
+-   [SNMP](class.snmp.md)
     
 -   Отримує останнє повідомлення про помилку
     
@@ -54,4 +54,4 @@ string(26) "No response from 127.0.0.1"
 
 ### Дивіться також
 
--   [SNMP::getErrno()](snmp.geterrno.html) - Отримує код останньої помилки
+-   [SNMP::getErrno()](snmp.geterrno.md) - Отримує код останньої помилки

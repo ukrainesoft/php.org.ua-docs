@@ -1,12 +1,12 @@
 Перевіряє, чи визначений клас у просторі імен
 
--   [« ReflectionClass::implementsInterface](reflectionclass.implementsinterface.html)
+-   [« ReflectionClass::implementsInterface](reflectionclass.implementsinterface.md)
     
--   [ReflectionClass::isAbstract »](reflectionclass.isabstract.html)
+-   [ReflectionClass::isAbstract »](reflectionclass.isabstract.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Перевіряє, чи визначений клас у просторі імен
     
@@ -75,5 +75,5 @@ string(3) "Foo"
 
 ### Дивіться також
 
--   [ReflectionClass::getNamespaceName()](reflectionclass.getnamespacename.html) - Повертає назву простору імен
--   [Пространства имён PHP](language.namespaces.html)
+-   [ReflectionClass::getNamespaceName()](reflectionclass.getnamespacename.md) - Повертає назву простору імен
+-   [Пространства имён PHP](language.namespaces.md)

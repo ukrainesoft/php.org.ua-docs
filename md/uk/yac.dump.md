@@ -1,12 +1,12 @@
 Дамп кеша
 
--   [« Yac::delete](yac.delete.html)
+-   [« Yac::delete](yac.delete.md)
     
--   [Yac::flush »](yac.flush.html)
+-   [Yac::flush »](yac.flush.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yac](class.yac.html)
+-   [Yac](class.yac.md)
     
 -   Дамп кеша
     

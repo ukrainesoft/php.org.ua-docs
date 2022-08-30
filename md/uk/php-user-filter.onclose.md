@@ -4,7 +4,7 @@
     
 -   [phpuserfilter::onCreate »](php-user-filter.oncreate.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [phpuserfilter](class.php-user-filter.html)
     

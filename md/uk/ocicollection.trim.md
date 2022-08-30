@@ -1,12 +1,12 @@
 Відсікає елементи з кінця колекції
 
--   [« OCICollection::size](ocicollection.size.html)
+-   [« OCICollection::size](ocicollection.size.md)
     
--   [OCILob »](class.ocilob.html)
+-   [OCILob »](class.ocilob.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCICollection](class.ocicollection.html)
+-   [OCICollection](class.ocicollection.md)
     
 -   Відсікає елементи з кінця колекції
     
@@ -37,10 +37,10 @@ public OCICollection::trim(int $num): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                                                     |
-|------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Collection** перейменований на [OCICollection](class.ocicollection.html) відповідно до стандартів іменування PHP. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Collection** перейменований на [OCICollection](class.ocicollection.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
--   [OCICollection::size](ocicollection.size.html)
+-   [OCICollection::size](ocicollection.size.md)

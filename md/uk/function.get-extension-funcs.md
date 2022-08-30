@@ -4,9 +4,9 @@
     
 -   [getincludepath »](function.get-include-path.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Повертає масив імен функцій модуля
     
@@ -82,4 +82,4 @@ Array
 ### Дивіться також
 
 -   [getloadedextensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
--   [ReflectionExtension::getFunctions()](reflectionextension.getfunctions.html) - Отримання функцій модуля
+-   [ReflectionExtension::getFunctions()](reflectionextension.getfunctions.md) - Отримання функцій модуля

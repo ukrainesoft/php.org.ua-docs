@@ -1,12 +1,12 @@
 Встановлення постфіксу
 
--   [« RecursiveTreeIterator::rewind](recursivetreeiterator.rewind.html)
+-   [« RecursiveTreeIterator::rewind](recursivetreeiterator.rewind.md)
     
--   [RecursiveTreeIterator::setPrefixPart »](recursivetreeiterator.setprefixpart.html)
+-   [RecursiveTreeIterator::setPrefixPart »](recursivetreeiterator.setprefixpart.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+-   [RecursiveTreeIterator](class.recursivetreeiterator.md)
     
 -   Встановлення постфіксу
     
@@ -23,7 +23,7 @@ RecursiveTreeIterator::setPostfix — Встановлення постфікс�
 public RecursiveTreeIterator::setPostfix(string $postfix): void
 ```
 
-Встановлює постфікс, який використовується в [RecursiveTreeIterator::getPostfix()](recursivetreeiterator.getpostfix.html)
+Встановлює постфікс, який використовується в [RecursiveTreeIterator::getPostfix()](recursivetreeiterator.getpostfix.md)
 
 **Увага**
 

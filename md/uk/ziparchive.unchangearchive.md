@@ -1,12 +1,12 @@
 Повертає всі глобальні зміни, зроблені в архіві
 
--   [« ZipArchive::unchangeAll](ziparchive.unchangeall.html)
+-   [« ZipArchive::unchangeAll](ziparchive.unchangeall.md)
     
--   [ZipArchive::unchangeIndex »](ziparchive.unchangeindex.html)
+-   [ZipArchive::unchangeIndex »](ziparchive.unchangeindex.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Повертає всі глобальні зміни, зроблені в архіві
     

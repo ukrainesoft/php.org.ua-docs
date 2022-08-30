@@ -1,12 +1,12 @@
 Закрити дескриптор директорії
 
--   [« streamWrapper::destruct](streamwrapper.destruct.html)
+-   [« streamWrapper::destruct](streamwrapper.destruct.md)
     
 -   [streamWrapper::diropendir »](streamwrapper.dir-opendir.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [streamWrapper](class.streamwrapper.html)
+-   [streamWrapper](class.streamwrapper.md)
     
 -   Закрити дескриптор директорії
     
@@ -23,7 +23,7 @@ streamWrapper::dirclosedir — Закрити дескриптор директ�
 public streamWrapper::dir_closedir(): bool
 ```
 
-Цей метод викликається у процесі виконання [closedir()](function.closedir.html)
+Цей метод викликається у процесі виконання [closedir()](function.closedir.md)
 
 Усі ресурси, заблоковані або виділені під час відкриття та використання потоку директорії, необхідно звільнити.
 
@@ -37,5 +37,5 @@ public streamWrapper::dir_closedir(): bool
 
 ### Дивіться також
 
--   [closedir()](function.closedir.html) - Закриває дескриптор каталогу
+-   [closedir()](function.closedir.md) - Закриває дескриптор каталогу
 -   [streamWrapper::diropendir()](streamwrapper.dir-opendir.html) - відкрити дескриптор директорії

@@ -1,12 +1,12 @@
 Отримати останній код символу, виданий під час переміщення ітератора вперед або назад
 
--   [« IntlCodePointBreakIterator](class.intlcodepointbreakiterator.html)
+-   [« IntlCodePointBreakIterator](class.intlcodepointbreakiterator.md)
     
--   [IntlDatePatternGenerator »](class.intldatepatterngenerator.html)
+-   [IntlDatePatternGenerator »](class.intldatepatterngenerator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCodePointBreakIterator](class.intlcodepointbreakiterator.html)
+-   [IntlCodePointBreakIterator](class.intlcodepointbreakiterator.md)
     
 -   Отримати останній код символу, виданий під час переміщення ітератора вперед або назад
     

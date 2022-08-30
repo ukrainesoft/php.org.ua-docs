@@ -1,12 +1,12 @@
 Включає можливість використовувати PHP функції як функції XSLT
 
--   [« XSLTProcessor::importStylesheet](xsltprocessor.importstylesheet.html)
+-   [« XSLTProcessor::importStylesheet](xsltprocessor.importstylesheet.md)
     
--   [XSLTProcessor::removeParameter »](xsltprocessor.removeparameter.html)
+-   [XSLTProcessor::removeParameter »](xsltprocessor.removeparameter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XSLTProcessor](class.xsltprocessor.html)
+-   [XSLTProcessor](class.xsltprocessor.md)
     
 -   Включає можливість використовувати PHP функції як функції XSLT
     

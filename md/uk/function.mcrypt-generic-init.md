@@ -4,9 +4,9 @@
     
 -   [mcryptgeneric »](function.mcrypt-generic.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](ref.mcrypt.html)
+-   [Mcrypt](ref.mcrypt.md)
     
 -   Функція ініціалізує всі буфери, необхідні шифрування
     

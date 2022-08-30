@@ -1,12 +1,12 @@
 Повертає час максимального очікування операції читання
 
--   [« Stomp::error](stomp.error.html)
+-   [« Stomp::error](stomp.error.md)
     
--   [Stomp::getSessionId »](stomp.getsessionid.html)
+-   [Stomp::getSessionId »](stomp.getsessionid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Stomp](class.stomp.html)
+-   [Stomp](class.stomp.md)
     
 -   Повертає час максимального очікування операції читання
     
@@ -39,7 +39,7 @@ stomp_get_read_timeout(resource $link): array
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.html)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
 
 ### Значення, що повертаються
 

@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.image.html)
+-   [« Введение](intro.image.md)
     
--   [Требования »](image.requirements.html)
+-   [Вимоги »](image.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ДД](book.image.html)
+-   [ДД](book.image.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](image.requirements.html)
--   [Установка](image.installation.html)
--   [Настройка во время выполнения](image.configuration.html)
--   [Типы ресурсов](image.resources.html)
+-   [Вимоги](image.requirements.md)
+-   [Установка](image.installation.md)
+-   [Налаштування під час виконання](image.configuration.md)
+-   [Типи ресурсів](image.resources.md)

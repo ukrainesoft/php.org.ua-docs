@@ -4,7 +4,7 @@
     
 -   [ОЙControlsEditableCombo::onChange »](ui-controls-editablecombo.onchange.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsEditableCombo](class.ui-controls-editablecombo.html)
     

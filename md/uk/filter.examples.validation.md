@@ -1,12 +1,12 @@
 Перевірка (валідація)
 
--   [« Примеры](filter.examples.html)
+-   [« Приклади](filter.examples.md)
     
--   [Очищення (нормалізація) »](filter.examples.sanitization.html)
+-   [Очищення (нормалізація) »](filter.examples.sanitization.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](filter.examples.html)
+-   [Приклади](filter.examples.md)
     
 -   Перевірка (валідація)
     

@@ -1,6 +1,6 @@
 Функції Recode
 
--   [« Предопределённые константы](recode.constants.html)
+-   [« Обумовлені константи](recode.constants.html)
     
 -   [recodefile »](function.recode-file.html)
     

@@ -1,12 +1,12 @@
 Приховує цифровий водяний знак у зображенні
 
--   [« Imagick::statisticImage](imagick.statisticimage.html)
+-   [« Imagick::statisticImage](imagick.statisticimage.md)
     
--   [Imagick::stereoImage »](imagick.stereoimage.html)
+-   [Imagick::stereoImage »](imagick.stereoimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Приховує цифровий водяний знак у зображенні
     

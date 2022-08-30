@@ -1,12 +1,12 @@
 Розбирає номер валюти
 
--   [« NumberFormatter::getTextAttribute](numberformatter.gettextattribute.html)
+-   [« NumberFormatter::getTextAttribute](numberformatter.gettextattribute.md)
     
--   [NumberFormatter::parse »](numberformatter.parse.html)
+-   [NumberFormatter::parse »](numberformatter.parse.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [NumberFormatter](class.numberformatter.html)
+-   [NumberFormatter](class.numberformatter.md)
     
 -   Розбирає номер валюти
     
@@ -39,7 +39,7 @@ numfmt_parse_currency(    NumberFormatter $formatter,    string $string,
 
 `formatter`
 
-Об'єкт [NumberFormatter](class.numberformatter.html)
+Об'єкт [NumberFormatter](class.numberformatter.md)
 
 `currency`
 
@@ -83,6 +83,6 @@ echo "У нас ".$fmt->parseCurrency($num, $curr)." в $curr\n";
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmtparse()](numberformatter.parse.html) - Розбирає число
--   [numfmtformatcurrency()](numberformatter.formatcurrency.html) - Форматує значення валюти
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
+-   [numfmtparse()](numberformatter.parse.md) - Розбирає число
+-   [numfmtformatcurrency()](numberformatter.formatcurrency.md) - Форматує значення валюти

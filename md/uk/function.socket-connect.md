@@ -4,9 +4,9 @@
     
 -   [socketcreatelisten »](function.socket-create-listen.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции сокета](ref.sockets.html)
+-   [Функции сокета](ref.sockets.md)
     
 -   Починає з'єднання із сокетом
     
@@ -23,13 +23,13 @@ socketconnect — Починає з'єднання з сокетом
 socket_connect(Socket $socket, string $address, ?int $port = null): bool
 ```
 
-Ініціалізує з'єднання з адресою `address`, використовуючи екземпляр [Socket](class.socket.html) `socket`, який має бути екземпляром [Socket](class.socket.html), створеним за допомогою функції [socketcreate()](function.socket-create.html)
+Ініціалізує з'єднання з адресою `address`, використовуючи екземпляр [Socket](class.socket.md) `socket`, який має бути екземпляром [Socket](class.socket.md), створеним за допомогою функції [socketcreate()](function.socket-create.html)
 
 ### Список параметрів
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою [socketcreate()](function.socket-create.html)
+Екземпляр [Socket](class.socket.md), створений за допомогою [socketcreate()](function.socket-create.html)
 
 `address`
 
@@ -49,10 +49,10 @@ socket_connect(Socket $socket, string $address, ?int $port = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
-|        | `port` тепер допускає значення null.                                                        |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+|  | `port` тепер допускає значення null. |
 
 ### Дивіться також
 

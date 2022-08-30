@@ -4,7 +4,7 @@
     
 -   [Поддержка метода PUT »](features.file-upload.put-method.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Загрузка файлов на сервер](features.file-upload.html)
     
@@ -21,11 +21,11 @@
 
 Файли:
 
-У разі, якщо така форма була відправлена, масиви [FILES\['userfile'\]](reserved.variables.files.html) [FILES\['userfile'\]\['name'\]](reserved.variables.files.html), і [FILES\['userfile'\]\['size'\]](reserved.variables.files.html) будуть ініціалізовані.
+У разі, якщо така форма була відправлена, масиви [FILES\['userfile'\]](reserved.variables.files.md) [FILES\['userfile'\]\['name'\]](reserved.variables.files.md), і [FILES\['userfile'\]\['size'\]](reserved.variables.files.md) будуть ініціалізовані.
 
-Наприклад, припустимо, що були завантажені файли /home/test/review.html та /home/test/xwp.out. У такому разі змінна [FILES\['userfile'\]\['name'\]\[0\]](reserved.variables.files.html) буде встановлена ​​значенням review.html, а змінна [FILES\['userfile'\]\['name'\]\[1\]](reserved.variables.files.html) - Значення xwp.out. Аналогічно, змінна [FILES\['userfile'\]\['size'\]\[0\]](reserved.variables.files.html) міститиме розмір файлу review.html і так далі.
+Наприклад, припустимо, що були завантажені файли /home/test/review.html та /home/test/xwp.out. У такому разі змінна [FILES\['userfile'\]\['name'\]\[0\]](reserved.variables.files.md) буде встановлена ​​значенням review.html, а змінна [FILES\['userfile'\]\['name'\]\[1\]](reserved.variables.files.md) - Значення xwp.out. Аналогічно, змінна [FILES\['userfile'\]\['size'\]\[0\]](reserved.variables.files.md) міститиме розмір файлу review.html і так далі.
 
-Змінні [FILES\['userfile'\]\['name'\]\[0\]](reserved.variables.files.html) [FILES\['userfile'\]\['tmpname'\]\[0\]](reserved.variables.files.html) [FILES\['userfile'\]\['size'\]\[0\]](reserved.variables.files.html) і [FILES\['userfile'\]\['type'\]\[0\]](reserved.variables.files.html) також будуть ініціалізовані.
+Змінні [FILES\['userfile'\]\['name'\]\[0\]](reserved.variables.files.md) [FILES\['userfile'\]\['tmpname'\]\[0\]](reserved.variables.files.md) [FILES\['userfile'\]\['size'\]\[0\]](reserved.variables.files.md) і [FILES\['userfile'\]\['type'\]\[0\]](reserved.variables.files.md) також будуть ініціалізовані.
 
 **Увага**
 
@@ -43,4 +43,4 @@
 
 Атрибут `webkitdirectory` нестандартний і не входить до стандартного постачання. Не використовуйте його на робочих сайтах: він не працює у всіх користувачів. Між реалізаціями може бути велика несумісність, також поведінка може змінитися у майбутньому.
 
-PHP аналізує тільки інформацію про відносний шлях, відправлену браузером/користувачем і передає цю інформацію в масив [FILES](reserved.variables.files.html). Немає жодної гарантії, що значення в масиві `full_path` містять реальну структуру каталогів і програма PHP не повинна довіряти цій інформації.
+PHP аналізує тільки інформацію про відносний шлях, відправлену браузером/користувачем і передає цю інформацію в масив [FILES](reserved.variables.files.md). Немає жодної гарантії, що значення в масиві `full_path` містять реальну структуру каталогів і програма PHP не повинна довіряти цій інформації.

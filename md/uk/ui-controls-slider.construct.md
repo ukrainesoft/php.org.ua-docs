@@ -4,7 +4,7 @@
     
 -   [ОЙControlsSlider::getValue »](ui-controls-slider.getvalue.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsSlider](class.ui-controls-slider.html)
     

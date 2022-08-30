@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.uopz.html)
+-   [« Введение](intro.uopz.md)
     
--   [Требования »](uopz.requirements.html)
+-   [Вимоги »](uopz.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [uopz](book.uopz.html)
+-   [uopz](book.uopz.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](uopz.requirements.html)
--   [Установка](uopz.installation.html)
--   [Настройка во время выполнения](uopz.configuration.html)
--   [Типы ресурсов](uopz.resources.html)
+-   [Вимоги](uopz.requirements.md)
+-   [Установка](uopz.installation.md)
+-   [Налаштування під час виконання](uopz.configuration.md)
+-   [Типи ресурсів](uopz.resources.md)

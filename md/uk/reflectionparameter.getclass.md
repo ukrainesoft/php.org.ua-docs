@@ -1,12 +1,12 @@
 Отримує об'єкт ReflectionClass для параметра, що відображається, або null
 
--   [« ReflectionParameter::getAttributes](reflectionparameter.getattributes.html)
+-   [« ReflectionParameter::getAttributes](reflectionparameter.getattributes.md)
     
--   [ReflectionParameter::getDeclaringClass »](reflectionparameter.getdeclaringclass.html)
+-   [ReflectionParameter::getDeclaringClass »](reflectionparameter.getdeclaringclass.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionParameter](class.reflectionparameter.html)
+-   [ReflectionParameter](class.reflectionparameter.md)
     
 -   Отримує об'єкт ReflectionClass для параметра, що відображається, або null
     
@@ -15,7 +15,7 @@
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionParameter::getClass — Отримує об'єкт [ReflectionClass](class.reflectionclass.html) для відображуваного параметра або **`null`**
+ReflectionParameter::getClass — Отримує об'єкт [ReflectionClass](class.reflectionclass.md) для відображуваного параметра або **`null`**
 
 **Увага**
 
@@ -27,9 +27,9 @@ ReflectionParameter::getClass — Отримує об'єкт [ReflectionClass](c
 public ReflectionParameter::getClass(): ?ReflectionClass
 ```
 
-Отримує об'єкт [ReflectionClass](class.reflectionclass.html) для відображуваного параметра або **`null`**
+Отримує об'єкт [ReflectionClass](class.reflectionclass.md) для відображуваного параметра або **`null`**
 
-Починаючи з PHP 8.0.0, ця функція застаріла і не рекомендується. Замість неї використовуйте [ReflectionParameter::getType()](reflectionparameter.gettype.html), Щоб отримати [ReflectionType](class.reflectiontype.html) параметра, а потім опитайте об'єкт, щоб визначити тип параметра.
+Починаючи з PHP 8.0.0, ця функція застаріла і не рекомендується. Замість неї використовуйте [ReflectionParameter::getType()](reflectionparameter.gettype.md), Щоб отримати [ReflectionType](class.reflectiontype.md) параметра, а потім опитайте об'єкт, щоб визначити тип параметра.
 
 **Увага**
 
@@ -41,11 +41,11 @@ public ReflectionParameter::getClass(): ?ReflectionClass
 
 ### Значення, що повертаються
 
-Об'єкт класу [ReflectionClass](class.reflectionclass.html) або \*\*`null`\*\*якщо тип не оголошений або якщо оголошений тип не є класом або інтерфейсом.
+Об'єкт класу [ReflectionClass](class.reflectionclass.md) або \*\*`null`\*\*якщо тип не оголошений або якщо оголошений тип не є класом або інтерфейсом.
 
 ### Приклади
 
-**Приклад #1 Приклад використання класу [ReflectionParameter](class.reflectionparameter.html)**
+**Приклад #1 Приклад використання класу [ReflectionParameter](class.reflectionparameter.md)**
 
 ```php
 <?php
@@ -61,4 +61,4 @@ echo $aParameter->getClass()->name;
 
 ### Дивіться також
 
--   [ReflectionParameter::getDeclaringClass()](reflectionparameter.getdeclaringclass.html) - Отримання класу, що оголошує
+-   [ReflectionParameter::getDeclaringClass()](reflectionparameter.getdeclaringclass.md) - Отримання класу, що оголошує

@@ -1,12 +1,12 @@
 Встановлює MIME-тип
 
--   [« CURLFile::getPostFilename](curlfile.getpostfilename.html)
+-   [« CURLFile::getPostFilename](curlfile.getpostfilename.md)
     
--   [CURLFile::setPostFilename »](curlfile.setpostfilename.html)
+-   [CURLFile::setPostFilename »](curlfile.setpostfilename.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CURLFile](class.curlfile.html)
+-   [CURLFile](class.curlfile.md)
     
 -   Встановлює MIME-тип
     

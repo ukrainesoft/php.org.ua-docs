@@ -4,9 +4,9 @@
     
 -   [PgSqlResult »](class.pgsql-result.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PostgreSQL](book.pgsql.html)
+-   [PostgreSQL](book.pgsql.md)
     
 -   Клас PgSqlConnection
     

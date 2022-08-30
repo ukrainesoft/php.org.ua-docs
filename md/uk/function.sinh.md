@@ -1,12 +1,12 @@
 Гіперболічний синус
 
--   [« sin](function.sin.html)
+-   [« sin](function.sin.md)
     
--   [sqrt »](function.sqrt.html)
+-   [sqrt »](function.sqrt.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Гіперболічний синус
     
@@ -37,7 +37,7 @@ sinh(float $num): float
 
 ### Дивіться також
 
--   [sin()](function.sin.html) - Сінус
--   [asinh()](function.asinh.html) - гіперболічний арксинус
--   [cosh()](function.cosh.html) - Гіперболічний косинус
--   [tanh()](function.tanh.html) - гіперболічний тангенс
+-   [sin()](function.sin.md) - Сінус
+-   [asinh()](function.asinh.md) - гіперболічний арксинус
+-   [cosh()](function.cosh.md) - Гіперболічний косинус
+-   [tanh()](function.tanh.md) - гіперболічний тангенс

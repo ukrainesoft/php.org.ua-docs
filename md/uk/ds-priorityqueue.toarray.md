@@ -2,9 +2,9 @@
 
 -   [« DsPriorityQueue::push](ds-priorityqueue.push.html)
     
--   [varrepresentation »](book.var_representation.html)
+-   [varrepresentation »](book.var_representation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Черга з пріоритетом](class.ds-priorityqueue.html)
     

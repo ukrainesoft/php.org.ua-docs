@@ -1,6 +1,6 @@
 Клас Lua
 
--   [« Типы ресурсов](lua.resources.html)
+-   [« Типи ресурсів](lua.resources.html)
     
 -   [Lua::assign »](lua.assign.html)
     

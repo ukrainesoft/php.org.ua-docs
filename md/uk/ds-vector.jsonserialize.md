@@ -4,7 +4,7 @@
     
 -   [ДсVector::last »](ds-vector.last.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Вектор](class.ds-vector.html)
     
@@ -17,7 +17,7 @@
 
 ДсVector::jsonSerialize — Повертає вектор у JSON-представництві
 
-Дивіться [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.html)
+Дивіться [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
 
 > **Зауваження**
 > 

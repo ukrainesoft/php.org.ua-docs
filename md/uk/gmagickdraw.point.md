@@ -1,12 +1,12 @@
 Малює точку
 
--   [« GmagickDraw::line](gmagickdraw.line.html)
+-   [« GmagickDraw::line](gmagickdraw.line.md)
     
--   [GmagickDraw::polygon »](gmagickdraw.polygon.html)
+-   [GmagickDraw::polygon »](gmagickdraw.polygon.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickDraw](class.gmagickdraw.html)
+-   [GmagickDraw](class.gmagickdraw.md)
     
 -   Малює точку
     
@@ -37,4 +37,4 @@ public GmagickDraw::point(float $x, float $y): GmagickDraw
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html)
+Об'єкт [Gmagick](class.gmagick.md)

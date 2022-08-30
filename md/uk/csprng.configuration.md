@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](csprng.installation.html)
+-   [« Установка](csprng.installation.md)
     
--   [Типы ресурсов »](csprng.resources.html)
+-   [Типи ресурсів »](csprng.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](csprng.setup.html)
+-   [Встановлення та налаштування](csprng.setup.md)
     
 -   Налаштування під час виконання
     

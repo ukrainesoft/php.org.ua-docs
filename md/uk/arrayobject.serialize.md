@@ -64,4 +64,4 @@ string(21) "x:i:0;a:0:{};m:a:0:{}"
 
 -   [ArrayObject::unserialize()](arrayobject.unserialize.html) - Десеріалізувати ArrayObject
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [Серіалізація об'єктів](language.oop5.serialization.html)

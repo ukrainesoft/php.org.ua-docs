@@ -1,12 +1,12 @@
 Клонувати виняток
 
--   [« Exception::toString](exception.tostring.html)
+-   [« Exception::toString](exception.tostring.md)
     
--   [ErrorException »](class.errorexception.html)
+-   [ErrorException »](class.errorexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Exception](class.exception.html)
+-   [Exception](class.exception.md)
     
 -   Клонувати виняток
     
@@ -39,6 +39,6 @@ private Exception::__clone(): void
 
 ### список змін
 
-| Версия | Описание                                                     |
-|--------|--------------------------------------------------------------|
-|        | Метод **Exception::clone()** більше не є остаточним (final). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод **Exception::clone()** більше не є остаточним (final). |

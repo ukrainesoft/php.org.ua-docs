@@ -4,9 +4,9 @@
     
 -   [псsetcolor »](function.ps-setcolor.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Встановлює певні значення
     

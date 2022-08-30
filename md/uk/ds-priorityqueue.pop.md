@@ -4,7 +4,7 @@
     
 -   [ДсPriorityQueue::push »](ds-priorityqueue.push.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Черга з пріоритетом](class.ds-priorityqueue.html)
     
@@ -39,7 +39,7 @@ public Ds\PriorityQueue::pop(): mixed
 
 ### Помилки
 
-Викидає виняток [UnderflowException](class.underflowexception.html)якщо черга порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо черга порожня.
 
 ### Приклади
 

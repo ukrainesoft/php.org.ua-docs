@@ -2,11 +2,11 @@
 
 -   [« mysqli::changeuser](mysqli.change-user.html)
     
--   [mysqli::close »](mysqli.close.html)
+-   [mysqli::close »](mysqli.close.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Повертає поточне кодування, встановлене для з'єднання з БД
     
@@ -39,7 +39,7 @@ mysqli_character_set_name(mysqli $mysql): string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 

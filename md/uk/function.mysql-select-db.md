@@ -4,9 +4,9 @@
     
 -   [mysqlsetcharset »](function.mysql-set-charset.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](ref.mysql.html)
+-   [MySQL](ref.mysql.md)
     
 -   Вибирає базу даних MySQL
     
@@ -19,10 +19,10 @@ mysqlselectdb - Вибирає базу даних MySQL
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   [mysqliselectdb()](mysqli.select-db.html)
--   [PDO::construct()](pdo.construct.html) (розділ про dsn)
+-   [PDO::construct()](pdo.construct.md) (розділ про dsn)
 
 ### Опис
 

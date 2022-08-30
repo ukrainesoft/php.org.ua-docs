@@ -1,12 +1,12 @@
 Створює синхронно вузол
 
--   [« Zookeeper::construct](zookeeper.construct.html)
+-   [« Zookeeper::construct](zookeeper.construct.md)
     
--   [Zookeeper::delete »](zookeeper.delete.html)
+-   [Zookeeper::delete »](zookeeper.delete.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Zookeeper](class.zookeeper.html)
+-   [Zookeeper](class.zookeeper.md)
     
 -   Створює синхронно вузол
     
@@ -54,7 +54,7 @@ public
 
 **Застереження**
 
-Починаючи з версії 0.3.0, метод викидає виняток [ZookeeperException](class.zookeeperexception.html) та його похідні.
+Починаючи з версії 0.3.0, метод викидає виняток [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Приклади
 
@@ -89,7 +89,7 @@ else
 
 ### Дивіться також
 
--   [Zookeeper::delete()](zookeeper.delete.html) - Видаляє синхронно вузол у zookeeper
--   [Zookeeper::getChildren()](zookeeper.getchildren.html) - Виводить список нащадків вузла синхронно
+-   [Zookeeper::delete()](zookeeper.delete.md) - Видаляє синхронно вузол у zookeeper
+-   [Zookeeper::getChildren()](zookeeper.getchildren.md) - Виводить список нащадків вузла синхронно
 -   [Разрешения ZooKeeper](class.zookeeper.html#zookeeper.class.constants.perms)
--   [ZookeeperException](class.zookeeperexception.html)
+-   [ZookeeperException](class.zookeeperexception.md)

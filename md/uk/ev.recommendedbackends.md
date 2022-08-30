@@ -1,12 +1,12 @@
 Отримати бітову маску рекомендованих бекендів для даної платформи
 
--   [« Ev::nowUpdate](ev.nowupdate.html)
+-   [« Ev::nowUpdate](ev.nowupdate.md)
     
--   [Ev::resume »](ev.resume.html)
+-   [Ev::resume »](ev.resume.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Єв](class.ev.html)
+-   [Єв](class.ev.md)
     
 -   Отримати бітову маску рекомендованих бекендів для даної платформи
     
@@ -34,7 +34,7 @@ final
 
 ### Значення, що повертаються
 
-Повертає бітову маску, що містить [флаги бэкенда](class.ev.html#ev.constants.watcher-backends), об'єднані за допомогою побітового *АБО*
+Повертає бітову маску, що містить [прапори бекенда](class.ev.html#ev.constants.watcher-backends), об'єднані за допомогою побітового *АБО*
 
 ### Приклади
 
@@ -74,8 +74,8 @@ if ($loop_lo) {
 
 ### Дивіться також
 
--   [EvEmbed](class.evembed.html)
--   [Ev::embeddableBackends()](ev.embeddablebackends.html) - Повертає набір бекендів, які можна вбудувати в інші цикли подій
--   [Ev::supportedBackends()](ev.supportedbackends.html) - Повертає набір бекендів, які підтримуються поточною конфігурацією libev
--   [Флаги бэкенда](class.ev.html#ev.constants.watcher-backends)
--   [Примеры](ev.examples.html)
+-   [EvEmbed](class.evembed.md)
+-   [Ev::embeddableBackends()](ev.embeddablebackends.md) - Повертає набір бекендів, які можна вбудувати в інші цикли подій
+-   [Ev::supportedBackends()](ev.supportedbackends.md) - Повертає набір бекендів, які підтримуються поточною конфігурацією libev
+-   [Прапори бекенда](class.ev.html#ev.constants.watcher-backends)
+-   [Приклади](ev.examples.md)

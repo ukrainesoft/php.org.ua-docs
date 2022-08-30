@@ -4,9 +4,9 @@
     
 -   [sodiumcryptostreamxor »](function.sodium-crypto-stream-xor.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Розширює ключ та одноразовий номер у ключовий потік псевдовипадкових байтів
     

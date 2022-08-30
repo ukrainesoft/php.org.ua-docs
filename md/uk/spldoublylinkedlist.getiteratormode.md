@@ -1,12 +1,12 @@
 Повертає режим ітерації
 
--   [« SplDoublyLinkedList::current](spldoublylinkedlist.current.html)
+-   [« SplDoublyLinkedList::current](spldoublylinkedlist.current.md)
     
--   [SplDoublyLinkedList::isEmpty »](spldoublylinkedlist.isempty.html)
+-   [SplDoublyLinkedList::isEmpty »](spldoublylinkedlist.isempty.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
     
 -   Повертає режим ітерації
     

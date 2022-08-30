@@ -1,12 +1,12 @@
 Закінчення ітерації
 
--   [« RecursiveIteratorIterator::endChildren](recursiveiteratoriterator.endchildren.html)
+-   [« RecursiveIteratorIterator::endChildren](recursiveiteratoriterator.endchildren.md)
     
--   [RecursiveIteratorIterator::getDepth »](recursiveiteratoriterator.getdepth.html)
+-   [RecursiveIteratorIterator::getDepth »](recursiveiteratoriterator.getdepth.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
     
 -   Закінчення ітерації
     
@@ -23,7 +23,7 @@ RecursiveIteratorIterator::endIteration - Закінчення ітерації
 public RecursiveIteratorIterator::endIteration(): void
 ```
 
-Викликається після завершення ітерації (коли метод [RecursiveIteratorIterator::valid()](recursiveiteratoriterator.valid.html) вперше поверне **`false`**
+Викликається після завершення ітерації (коли метод [RecursiveIteratorIterator::valid()](recursiveiteratoriterator.valid.md) вперше поверне **`false`**
 
 **Увага**
 

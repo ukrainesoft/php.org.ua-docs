@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](sync.resources.html)
+-   [« Типи ресурсів](sync.resources.html)
     
 -   [SyncMutex »](class.syncmutex.html)
     

@@ -1,12 +1,12 @@
 Зміни, що ламають зворотну сумісність
 
--   [« Новые глобальные константы](migration71.constants.html)
+-   [« Нові глобальні константи](migration71.constants.md)
     
--   [Функционал, объявленный устаревшим в PHP 7.1.x »](migration71.deprecated.html)
+-   [Функціонал, оголошений застарілим у PHP 7.1.x »](migration71.deprecated.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 7.0.x на PHP 7.1.x](migration71.html)
+-   [Миграция с PHP 7.0.x на PHP 7.1.x](migration71.md)
     
 -   Зміни, що ламають зворотну сумісність
     
@@ -33,9 +33,9 @@ Fatal error: Uncaught ArgumentCountError: Too few arguments to function test(), 
 
 Динамічні виклики певних функцій були заборонені (у вигляді `$func()` або `array_map('extract', ...)`, і т.д.) Ці функції перевіряють або модифікують об'єкти іншої області видимості, чим викликають неоднозначну та невизначену поведінку. Список таких функцій:
 
--   [assert()](function.assert.html) - з рядком як перший аргумент
--   [compact()](function.compact.html)
--   [extract()](function.extract.html)
+-   [assert()](function.assert.md) - з рядком як перший аргумент
+-   [compact()](function.compact.md)
+-   [extract()](function.extract.md)
 -   [funcgetargs()](function.func-get-args.html)
 -   [funcgetarg()](function.func-get-arg.html)
 -   [funcnumargs()](function.func-num-args.html)
@@ -62,19 +62,19 @@ Warning: Cannot call func_num_args() dynamically in %s on line %d
 Наступні імена не можна використовувати як класи, інтерфейси або трейти:
 
 -   void
--   [iterable](language.types.iterable.html)
+-   [iterable](language.types.iterable.md)
 
 ### Перетворення числових рядків тепер враховує наукову нотацію
 
-Цілочисленні операції та конвертації числових рядків тепер враховують наукову нотацію, включаючи приведення `(int)` та наступні функції: [intval()](function.intval.html) (З базою 10), [settype()](function.settype.html) [decbin()](function.decbin.html) [decoct()](function.decoct.html) і [dechex()](function.dechex.html)
+Цілочисленні операції та конвертації числових рядків тепер враховують наукову нотацію, включаючи приведення `(int)` та наступні функції: [intval()](function.intval.md) (З базою 10), [settype()](function.settype.md) [decbin()](function.decbin.md) [decoct()](function.decoct.md) і [dechex()](function.dechex.md)
 
 ### Виправлення алгоритму [мтrand()](function.mt-rand.html)
 
 [мтrand()](function.mt-rand.html) тепер за замовчуванням використовує зафіксовану версію алгоритму "Вихор Мерсена". Якщо ви покладалися на детермінований висновок [мтsrand()](function.mt-srand.html), можна використовувати константу **`MT_RAND_PHP`** як другий, необов'язковий, параметр [мтsrand()](function.mt-srand.html) задля збереження старої (неправильної) реалізації.
 
-### [rand()](function.rand.html) псевдонім для [мтrand()](function.mt-rand.html) і [srand()](function.srand.html) псевдонім для [мтsrand()](function.mt-srand.html)
+### [rand()](function.rand.md) псевдонім для [мтrand()](function.mt-rand.html) і [srand()](function.srand.md) псевдонім для [мтsrand()](function.mt-srand.html)
 
-[rand()](function.rand.html) і [srand()](function.srand.html) тепер є просто синонімами для [мтrand()](function.mt-rand.html) і [мтsrand()](function.mt-srand.html). Це означає, що виведення наступних функцій змінилося: [rand()](function.rand.html) [shuffle()](function.shuffle.html) [strshuffle()](function.str-shuffle.html) і [arrayrand()](function.array-rand.html)
+[rand()](function.rand.md) і [srand()](function.srand.md) тепер є просто синонімами для [мтrand()](function.mt-rand.html) і [мтsrand()](function.mt-srand.html). Це означає, що виведення наступних функцій змінилося: [rand()](function.rand.md) [shuffle()](function.shuffle.md) [strshuffle()](function.str-shuffle.html) і [arrayrand()](function.array-rand.html)
 
 ### Заборона використання символу видалення з таблиці ASCII в ідентифікаторах
 
@@ -183,11 +183,11 @@ array(2) {
 
 ### Параметр $options функції unserialize()
 
-Тепер елемент `allowed_classes` параметра $options функції [unserialize()](function.unserialize.html) строго типізований, тобто якщо передати значення з типом, відмінним від array та bool, то unserialize() поверне **`false`** та викличе помилку рівня **`E_WARNING`**
+Тепер елемент `allowed_classes` параметра $options функції [unserialize()](function.unserialize.md) строго типізований, тобто якщо передати значення з типом, відмінним від array та bool, то unserialize() поверне **`false`** та викличе помилку рівня **`E_WARNING`**
 
 ### Конструктор DateTime використовує мікросекунди.
 
-Тепер [DateTime](class.datetime.html) і [DateTimeImmutable](class.datetimeimmutable.html) використовують мікросекунди при створенні з поточним часом, або у явному вигляді, або з рядком відносного часу (наприклад, `"first day of next month"`). Це означає, що порівняння двох поспіль створених екземплярів класу швидше повертатиме **`false`** ніж **`true`**
+Тепер [DateTime](class.datetime.md) і [DateTimeImmutable](class.datetimeimmutable.md) використовують мікросекунди при створенні з поточним часом, або у явному вигляді, або з рядком відносного часу (наприклад, `"first day of next month"`). Це означає, що порівняння двох поспіль створених екземплярів класу швидше повертатиме **`false`** ніж **`true`**
 
 ```php
 <?php
@@ -195,47 +195,47 @@ new DateTime() == new DateTime();
 ?>
 ```
 
-### Виклик винятків [Error](class.error.html) замість фатальних помилок
+### Виклик винятків [Error](class.error.md) замість фатальних помилок
 
-Для модуля Date при некоректних даних серіалізації класів [DateTime](class.datetime.html) або [DatePeriod](class.dateperiod.html), або помилки ініціалізації часового поясу із серіалізованих даних, викидатиметься виняток [Error](class.error.html) з методів **wakeup()** або \*\*setstate()\*\*замість виклику фатальної помилки.
+Для модуля Date при некоректних даних серіалізації класів [DateTime](class.datetime.md) або [DatePeriod](class.dateperiod.md), або помилки ініціалізації часового поясу із серіалізованих даних, викидатиметься виняток [Error](class.error.md) з методів **wakeup()** або \*\*setstate()\*\*замість виклику фатальної помилки.
 
-У модулі DBA функції маніпулювання даними (такі як [dbainsert()](function.dba-insert.html)) тепер викидатимуть виняток [Error](class.error.html) замість виклику фатальної помилки, що відловлюється, якщо ключ не містить рівно двох елементів.
+У модулі DBA функції маніпулювання даними (такі як [dbainsert()](function.dba-insert.html)) тепер викидатимуть виняток [Error](class.error.md) замість виклику фатальної помилки, що відловлюється, якщо ключ не містить рівно двох елементів.
 
-У модулі DOM некоректна перевірка контексту схеми чи RelaxNG тепер викидатимуть виняток [Error](class.error.html) замість виклику фатальної помилки. Аналогічно, спроби зареєструвати клас вузла, який не розширює правильний базовий клас, спроби прочитати некоректну властивість або перезаписати властивість доступну тільки для читання викидатимуть виняток [Error](class.error.html)
+У модулі DOM некоректна перевірка контексту схеми чи RelaxNG тепер викидатимуть виняток [Error](class.error.md) замість виклику фатальної помилки. Аналогічно, спроби зареєструвати клас вузла, який не розширює правильний базовий клас, спроби прочитати некоректну властивість або перезаписати властивість доступну тільки для читання викидатимуть виняток [Error](class.error.md)
 
-У модулі IMAP адреса email довша 16385 байт тепер викидатиме виняток [Error](class.error.html) замість виклику фатальної помилки.
+У модулі IMAP адреса email довша 16385 байт тепер викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки.
 
-Модуль Intl у разі виникнення помилки виклику батьківського конструктора у класі, що успадковує [Collator](class.collator.html) до виклику батьківських методів тепер викидатиме виняток [Error](class.error.html) замість виклику фатальної помилки. Крім того, клонування об'єкта [Transliterator](class.transliterator.html) тепер викидатиме виняток [Error](class.error.html) у разі виникнення помилки клонування внутрішнього transliterator замість виклику фатальної помилки.
+Модуль Intl у разі виникнення помилки виклику батьківського конструктора у класі, що успадковує [Collator](class.collator.md) до виклику батьківських методів тепер викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки. Крім того, клонування об'єкта [Transliterator](class.transliterator.md) тепер викидатиме виняток [Error](class.error.md) у разі виникнення помилки клонування внутрішнього transliterator замість виклику фатальної помилки.
 
-Модуль LDAP при вказівці невідомого типу модифікації в **ldapbatchmodify()** тепер викидатиме виняток [Error](class.error.html) замість виклику фатальної помилки.
+Модуль LDAP при вказівці невідомого типу модифікації в **ldapbatchmodify()** тепер викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки.
 
-У модулі mbstring функції [мбereg()](function.mb-ereg.html) і [мбeregi()](function.mb-eregi.html) тепер викидатимуть виняток [ParseError](class.parseerror.html) у разі некоректного регулярного вираження або у разі використання опції 'e'.
+У модулі mbstring функції [мбereg()](function.mb-ereg.html) і [мбeregi()](function.mb-eregi.html) тепер викидатимуть виняток [ParseError](class.parseerror.md) у разі некоректного регулярного вираження або у разі використання опції 'e'.
 
-У модулі Mcrypt [mcryptencrypt()](function.mcrypt-encrypt.html) і [mcryptdecrypt()](function.mcrypt-decrypt.html) тепер викидатиме виняток [Error](class.error.html) замість виклику фатальної помилки, якщо mcrypt не ініціалізовано.
+У модулі Mcrypt [mcryptencrypt()](function.mcrypt-encrypt.html) і [mcryptdecrypt()](function.mcrypt-decrypt.html) тепер викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки, якщо mcrypt не ініціалізовано.
 
-У модулі mysqli спроби прочитати некоректну властивість або перезаписати властивість доступну тільки для читання будуть викидати виняток [Error](class.error.html) замість виклику фатальної помилки.
+У модулі mysqli спроби прочитати некоректну властивість або перезаписати властивість доступну тільки для читання будуть викидати виняток [Error](class.error.md) замість виклику фатальної помилки.
 
-У модулі Reflection невдале вилучення відображеного об'єкта або властивості об'єкта викидатимуть виняток [Error](class.error.html) замість виклику фатальної помилки.
+У модулі Reflection невдале вилучення відображеного об'єкта або властивості об'єкта викидатимуть виняток [Error](class.error.md) замість виклику фатальної помилки.
 
-У модулі сесій користувальницькі обробники сесії, які не повертають рядок для ідентифікатора сесії, викидатимуть виняток [Error](class.error.html) замість виклику фатальної помилки, коли буде викликано функцію для генерації ідентифікатора.
+У модулі сесій користувальницькі обробники сесії, які не повертають рядок для ідентифікатора сесії, викидатимуть виняток [Error](class.error.md) замість виклику фатальної помилки, коли буде викликано функцію для генерації ідентифікатора.
 
-У модулі SimpleXML спроба створення безіменного чи дублюючого атрибуту викидатиме виняток [Error](class.error.html) замість виклику фатальної помилки.
+У модулі SimpleXML спроба створення безіменного чи дублюючого атрибуту викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки.
 
-У модулі SPL спроба клонувати об'єкт **SplDirectory** викидатиме виняток [Error](class.error.html) замість виклику фатальної помилки. Аналогічно, виклик [ArrayIterator::append()](arrayiterator.append.html) коли ітерація об'єкта закінчена буде викидати виняток [Error](class.error.html)
+У модулі SPL спроба клонувати об'єкт **SplDirectory** викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки. Аналогічно, виклик [ArrayIterator::append()](arrayiterator.append.md) коли ітерація об'єкта закінчена буде викидати виняток [Error](class.error.md)
 
-Функція [assert()](function.assert.html), коли їй переданий рядковий аргумент першим параметром, тепер викидатиме виняток [ParseError](class.parseerror.html) замість виклику фатальної помилки, що відловлюється, якщо PHP-код некоректний. Аналогічно, виклик [forwardstaticcall()](function.forward-static-call.html) за межами простору класу викидатиме виняток [Error](class.error.html)
+Функція [assert()](function.assert.md), коли їй переданий рядковий аргумент першим параметром, тепер викидатиме виняток [ParseError](class.parseerror.md) замість виклику фатальної помилки, що відловлюється, якщо PHP-код некоректний. Аналогічно, виклик [forwardstaticcall()](function.forward-static-call.html) за межами простору класу викидатиме виняток [Error](class.error.md)
 
-У модулі Tidy ручне створення [tidyNode](class.tidynode.html) викидатиме виняток [Error](class.error.html)
+У модулі Tidy ручне створення [tidyNode](class.tidynode.md) викидатиме виняток [Error](class.error.md)
 
-У модулі WDDX циклічні посилання при серіалізації викидатимуть виняток [Error](class.error.html) замість виклику фатальної помилки.
+У модулі WDDX циклічні посилання при серіалізації викидатимуть виняток [Error](class.error.md) замість виклику фатальної помилки.
 
-У модулі XML-RPC циклічні посилання серіалізації будуть викидати виняток [Error](class.error.html) замість виклику фатальної помилки.
+У модулі XML-RPC циклічні посилання серіалізації будуть викидати виняток [Error](class.error.md) замість виклику фатальної помилки.
 
-У модулі Zip метод [ZipArchive::addGlob()](ziparchive.addglob.html) викидатиме виняток [Error](class.error.html) замість виклику фатальної помилки, якщо відсутня підтримка glob.
+У модулі Zip метод [ZipArchive::addGlob()](ziparchive.addglob.md) викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки, якщо відсутня підтримка glob.
 
 ### Лексично пов'язані змінні не можуть перевикористовувати імена
 
-Змінні, прив'язані до [замыканию](functions.anonymous.html) через конструкцію `use`, не можуть використовувати ті ж імена, що і будь-які [superglobals](language.variables.predefined.html), $this або параметри. Наприклад, всі наведені функції спричинять фатальну помилку:
+Змінні, прив'язані до [замиканню](functions.anonymous.md) через конструкцію `use`, не можуть використовувати ті ж імена, що і будь-які [superglobals](language.variables.predefined.md), $this або параметри. Наприклад, всі наведені функції спричинять фатальну помилку:
 
 ```php
 <?php
@@ -246,7 +246,7 @@ $f = function ($param) use ($param) {};
 
 ### Змінено тип параметра long2ip()
 
-Тепер [long2ip()](function.long2ip.html) очікує параметр типу int, а не string.
+Тепер [long2ip()](function.long2ip.md) очікує параметр типу int, а не string.
 
 ### Кодування та декодування JSON
 

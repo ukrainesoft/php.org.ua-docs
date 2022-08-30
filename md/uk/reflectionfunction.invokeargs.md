@@ -1,12 +1,12 @@
 Виклик функції передачі аргументів
 
--   [« ReflectionFunction::invoke](reflectionfunction.invoke.html)
+-   [« ReflectionFunction::invoke](reflectionfunction.invoke.md)
     
--   [ReflectionFunction::isDisabled »](reflectionfunction.isdisabled.html)
+-   [ReflectionFunction::isDisabled »](reflectionfunction.isdisabled.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunction](class.reflectionfunction.html)
+-   [ReflectionFunction](class.reflectionfunction.md)
     
 -   Виклик функції передачі аргументів
     
@@ -101,7 +101,7 @@ array(2) {
 
 ### Дивіться також
 
--   [ReflectionFunction::invoke()](reflectionfunction.invoke.html) - Викликає функцію
--   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.html) - Отримує кількість параметрів
+-   [ReflectionFunction::invoke()](reflectionfunction.invoke.md) - Викликає функцію
+-   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md) - Отримує кількість параметрів
 -   [invoke()](language.oop5.magic.html#object.invoke)
 -   [calluserfuncarray()](function.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів

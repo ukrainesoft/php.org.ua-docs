@@ -1,12 +1,12 @@
 Виконати налаштоване очищення та відновлення розібраної розмітки
 
--   [« tidy::body](tidy.body.html)
+-   [« tidy::body](tidy.body.md)
     
--   [tidy::construct »](tidy.construct.html)
+-   [tidy::construct »](tidy.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidy](class.tidy.html)
+-   [tidy](class.tidy.md)
     
 -   Виконати налаштоване очищення та відновлення розібраної розмітки
     
@@ -39,7 +39,7 @@ tidy_clean_repair(tidy $tidy): bool
 
 `tidy`
 
-Об'єкт [Tidy](class.tidy.html)
+Об'єкт [Tidy](class.tidy.md)
 
 ### Значення, що повертаються
 
@@ -76,5 +76,5 @@ echo $tidy;
 
 ### Дивіться також
 
--   [tidy::repairFile()](tidy.repairfile.html) - Відновлює розмітку файлу та повертає його у вигляді рядка
--   [tidy::repairString()](tidy.repairstring.html) - Відновлює рядок, використовуючи наскільки можна конфігураційний файл
+-   [tidy::repairFile()](tidy.repairfile.md) - Відновлює розмітку файлу та повертає його у вигляді рядка
+-   [tidy::repairString()](tidy.repairstring.md) - Відновлює рядок, використовуючи наскільки можна конфігураційний файл

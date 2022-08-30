@@ -1,12 +1,12 @@
 Встановити дані програми (застарілий метод)
 
--   [« GearmanClient::setCreatedCallback](gearmanclient.setcreatedcallback.html)
+-   [« GearmanClient::setCreatedCallback](gearmanclient.setcreatedcallback.md)
     
--   [GearmanClient::setDataCallback »](gearmanclient.setdatacallback.html)
+-   [GearmanClient::setDataCallback »](gearmanclient.setdatacallback.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanClient](class.gearmanclient.html)
+-   [GearmanClient](class.gearmanclient.md)
     
 -   Встановити дані програми (застарілий метод)
     
@@ -23,7 +23,7 @@ GearmanClient::setData — Встановити дані програми (за�
 public GearmanClient::setData(string $data): bool
 ```
 
-Встановлює деякі довільні дані додатки, які згодом можуть бути вилучені [GearmanClient::data()](gearmanclient.data.html)
+Встановлює деякі довільні дані додатки, які згодом можуть бути вилучені [GearmanClient::data()](gearmanclient.data.md)
 
 > **Зауваження**
 > 
@@ -39,4 +39,4 @@ public GearmanClient::setData(string $data): bool
 
 ### Дивіться також
 
--   [GearmanClient::data()](gearmanclient.data.html) - Повертає дані програми (функція застаріла)
+-   [GearmanClient::data()](gearmanclient.data.md) - Повертає дані програми (функція застаріла)

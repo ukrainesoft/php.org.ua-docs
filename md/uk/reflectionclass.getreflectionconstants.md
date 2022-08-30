@@ -1,12 +1,12 @@
 Отримує константи класу
 
--   [« ReflectionClass::getReflectionConstant](reflectionclass.getreflectionconstant.html)
+-   [« ReflectionClass::getReflectionConstant](reflectionclass.getreflectionconstant.md)
     
--   [ReflectionClass::getShortName »](reflectionclass.getshortname.html)
+-   [ReflectionClass::getShortName »](reflectionclass.getshortname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Отримує константи класу
     
@@ -33,13 +33,13 @@ public ReflectionClass::getReflectionConstants(?int $filter = null): array
 
 ### Значення, що повертаються
 
-Масив об'єктів [ReflectionClassConstant](class.reflectionclassconstant.html)
+Масив об'єктів [ReflectionClassConstant](class.reflectionclassconstant.md)
 
 ### список змін
 
-| Версия | Описание                  |
-|--------|---------------------------|
-|        | Доданий параметр `filter` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `filter` |
 
 ### Приклади
 
@@ -100,5 +100,5 @@ array(3) {
 
 ### Дивіться також
 
--   [ReflectionClass::getReflectionConstant()](reflectionclass.getreflectionconstant.html) - Отримує ReflectionClassConstant для константи класу
--   [ReflectionClassConstant](class.reflectionclassconstant.html)
+-   [ReflectionClass::getReflectionConstant()](reflectionclass.getreflectionconstant.md) - Отримує ReflectionClassConstant для константи класу
+-   [ReflectionClassConstant](class.reflectionclassconstant.md)

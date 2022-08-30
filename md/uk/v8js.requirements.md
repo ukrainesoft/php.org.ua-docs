@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](v8js.setup.html)
+-   [« Встановлення та налаштування](v8js.setup.html)
     
 -   [Установка »](v8js.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](v8js.setup.html)
+-   [Встановлення та налаштування](v8js.setup.html)
     
 -   Вимоги
     

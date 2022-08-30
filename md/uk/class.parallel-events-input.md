@@ -4,9 +4,9 @@
     
 -   [parallelEventsInput::add »](parallel-events-input.add.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [parallel](book.parallel.html)
+-   [parallel](book.parallel.md)
     
 -   Клас parallelEventsInput
     

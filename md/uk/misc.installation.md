@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](misc.requirements.html)
+-   [« Вимоги](misc.requirements.md)
     
--   [Настройка во время выполнения »](misc.configuration.html)
+-   [Налаштування під час виконання »](misc.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](misc.setup.html)
+-   [Встановлення та налаштування](misc.setup.md)
     
 -   Встановлення
     

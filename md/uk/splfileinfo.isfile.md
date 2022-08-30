@@ -1,12 +1,12 @@
 Вказує, чи об'єкт посилається на звичайний файл
 
--   [« SplFileInfo::isExecutable](splfileinfo.isexecutable.html)
+-   [« SplFileInfo::isExecutable](splfileinfo.isexecutable.md)
     
--   [SplFileInfo::isLink »](splfileinfo.islink.html)
+-   [SplFileInfo::isLink »](splfileinfo.islink.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Вказує, чи об'єкт посилається на звичайний файл
     

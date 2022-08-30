@@ -4,9 +4,9 @@
     
 -   [псshowboxed »](function.ps-show-boxed.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Заповнює область затіненням
     

@@ -1,12 +1,12 @@
 Функції TCP
 
--   [« Предопределённые константы](tcpwrap.constants.html)
+-   [« Обумовлені константи](tcpwrap.constants.md)
     
 -   [tcpwrapcheck »](function.tcpwrap-check.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [TCP](book.tcpwrap.html)
+-   [TCP](book.tcpwrap.md)
     
 -   Функції TCP
     

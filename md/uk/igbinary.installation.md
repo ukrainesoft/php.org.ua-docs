@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](igbinary.requirements.html)
+-   [« Вимоги](igbinary.requirements.html)
     
--   [Настройка во время выполнения »](igbinary.configuration.html)
+-   [Налаштування під час виконання »](igbinary.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](igbinary.setup.html)
+-   [Встановлення та налаштування](igbinary.setup.html)
     
 -   Встановлення
     

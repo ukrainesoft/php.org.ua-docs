@@ -4,9 +4,9 @@
     
 -   [opensslpkcs7decrypt »](function.openssl-pkcs7-decrypt.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Розбирає сховище сертифікатів PKCS#12 масив
     

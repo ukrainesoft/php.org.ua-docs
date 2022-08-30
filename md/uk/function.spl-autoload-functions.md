@@ -4,9 +4,9 @@
     
 -   [splautoloadregister »](function.spl-autoload-register.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SPL](ref.spl.html)
+-   [Функції SPL](ref.spl.md)
     
 -   Отримання списку всіх зареєстрованих функцій autoload()
     

@@ -4,9 +4,9 @@
     
 -   [hashhkdf »](function.hash-hkdf.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Hash](ref.hash.html)
+-   [Функции Hash](ref.hash.md)
     
 -   Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду
     
@@ -39,9 +39,9 @@ hash_final(HashContext $context, bool $binary = false): string
 
 ### список змін
 
-| Версия | Описание                                                       |
-|--------|----------------------------------------------------------------|
-|        | Приймає [HashContext](class.hashcontext.html), а чи не ресурс. |
+| Версия | Описание |
+| --- | --- |
+|  | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
 
 ### Приклади
 

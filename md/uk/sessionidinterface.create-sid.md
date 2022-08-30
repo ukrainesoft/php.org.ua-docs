@@ -1,12 +1,12 @@
 Створити ідентифікатор сесії
 
--   [« SessionIdInterface](class.sessionidinterface.html)
+-   [« SessionIdInterface](class.sessionidinterface.md)
     
--   [SessionUpdateTimestampHandlerInterface »](class.sessionupdatetimestamphandlerinterface.html)
+-   [SessionUpdateTimestampHandlerInterface »](class.sessionupdatetimestamphandlerinterface.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SessionIdInterface](class.sessionidinterface.html)
+-   [SessionIdInterface](class.sessionidinterface.md)
     
 -   Створити ідентифікатор сесії
     

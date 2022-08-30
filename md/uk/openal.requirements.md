@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](openal.setup.html)
+-   [« Встановлення та налаштування](openal.setup.html)
     
 -   [Установка »](openal.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](openal.setup.html)
+-   [Встановлення та налаштування](openal.setup.html)
     
 -   Вимоги
     

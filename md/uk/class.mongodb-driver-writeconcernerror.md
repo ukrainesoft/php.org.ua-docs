@@ -4,9 +4,9 @@
     
 -   [MongoDBDriverWriteConcernError::getCode »](mongodb-driver-writeconcernerror.getcode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBDriver](book.mongodb.html)
+-   [MongoDBDriver](book.mongodb.md)
     
 -   Клас The MongoDBDriverWriteConcernError
     

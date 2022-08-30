@@ -1,12 +1,12 @@
 Вступ
 
--   [« xattr](book.xattr.html)
+-   [« xattr](book.xattr.md)
     
--   [Установка и настройка »](xattr.setup.html)
+-   [Встановлення та налаштування »](xattr.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [xattr](book.xattr.html)
+-   [xattr](book.xattr.md)
     
 -   Вступ
     

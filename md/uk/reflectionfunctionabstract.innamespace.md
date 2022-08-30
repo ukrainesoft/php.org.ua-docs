@@ -1,12 +1,12 @@
 Перевіряє, чи функція знаходиться в просторі імен
 
--   [« ReflectionFunctionAbstract::hasTentativeReturnType](reflectionfunctionabstract.hastentativereturntype.html)
+-   [« ReflectionFunctionAbstract::hasTentativeReturnType](reflectionfunctionabstract.hastentativereturntype.md)
     
--   [ReflectionFunctionAbstract::isClosure »](reflectionfunctionabstract.isclosure.html)
+-   [ReflectionFunctionAbstract::isClosure »](reflectionfunctionabstract.isclosure.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
     
 -   Перевіряє, чи функція знаходиться в просторі імен
     
@@ -35,5 +35,5 @@ public ReflectionFunctionAbstract::inNamespace(): bool
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getNamespaceName()](reflectionfunctionabstract.getnamespacename.html) - Отримання імені простору імен
--   [пространства имён](language.namespaces.html)
+-   [ReflectionFunctionAbstract::getNamespaceName()](reflectionfunctionabstract.getnamespacename.md) - Отримання імені простору імен
+-   [пространства имён](language.namespaces.md)

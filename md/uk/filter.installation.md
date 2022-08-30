@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](filter.requirements.html)
+-   [« Вимоги](filter.requirements.html)
     
--   [Настройка во время выполнения »](filter.configuration.html)
+-   [Налаштування під час виконання »](filter.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](filter.setup.html)
+-   [Встановлення та налаштування](filter.setup.html)
     
 -   Встановлення
     

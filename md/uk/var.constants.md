@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](var.resources.html)
+-   [« Типи ресурсів](var.resources.md)
     
--   [Функції для роботи зі змінними »](ref.var.html)
+-   [Функції для роботи зі змінними »](ref.var.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Обработка переменных](book.var.html)
+-   [Обробка змінних](book.var.md)
     
 -   Обумовлені константи
     

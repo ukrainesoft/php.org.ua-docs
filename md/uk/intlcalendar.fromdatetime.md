@@ -1,12 +1,12 @@
 Створює IntlCalendar з об'єкта або рядка DateTime
 
--   [« IntlCalendar::fieldDifference](intlcalendar.fielddifference.html)
+-   [« IntlCalendar::fieldDifference](intlcalendar.fielddifference.md)
     
--   [IntlCalendar::get »](intlcalendar.get.html)
+-   [IntlCalendar::get »](intlcalendar.get.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Створює IntlCalendar з об'єкта або рядка DateTime
     
@@ -31,19 +31,19 @@ public static IntlCalendar::fromDateTime(DateTime|string $datetime, ?string $loc
 intlcal_from_date_time(DateTime|string $datetime, ?string $locale = null): ?IntlCalendar
 ```
 
-Створює об'єкт [IntlCalendar](class.intlcalendar.html) або з об'єкта [DateTime](class.datetime.html), або з рядка, з якого може бути ініціалізований об'єкт [DateTime](class.datetime.html)
+Створює об'єкт [IntlCalendar](class.intlcalendar.md) або з об'єкта [DateTime](class.datetime.md), або з рядка, з якого може бути ініціалізований об'єкт [DateTime](class.datetime.md)
 
-Новий календар представлятиме не тільки той самий момент, що й заданий [DateTime](class.datetime.html) (з урахуванням втрати точності для дат у дуже далекому у минулому чи майбутньому), але й той самий часовий пояс (з застереженням, що й використовуватимуться різні бази даних часових поясів, то результати можуть відрізнятися).
+Новий календар представлятиме не тільки той самий момент, що й заданий [DateTime](class.datetime.md) (з урахуванням втрати точності для дат у дуже далекому у минулому чи майбутньому), але й той самий часовий пояс (з застереженням, що й використовуватимуться різні бази даних часових поясів, то результати можуть відрізнятися).
 
 ### Список параметрів
 
 `datetime`
 
-Об'єкт [DateTime](class.datetime.html) або рядок (string, яка може бути передана в [DateTime::construct()](datetime.construct.html)
+Об'єкт [DateTime](class.datetime.md) або рядок (string, яка може бути передана в [DateTime::construct()](datetime.construct.md)
 
 ### Значення, що повертаються
 
-Створений об'єкт [IntlCalendar](class.intlcalendar.html) або **`null`** у разі виникнення помилки. Якщо передається рядок (string), викидається будь-який виняток, що виникає всередині конструктора [DateTime](class.datetime.html)
+Створений об'єкт [IntlCalendar](class.intlcalendar.md) або **`null`** у разі виникнення помилки. Якщо передається рядок (string), викидається будь-який виняток, що виникає всередині конструктора [DateTime](class.datetime.md)
 
 ### Приклади
 

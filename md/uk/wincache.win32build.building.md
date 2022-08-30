@@ -1,12 +1,12 @@
 Компіляція та складання
 
--   [« Пререквизиты](wincache.win32build.prereq.html)
+-   [« Пререквізити](wincache.win32build.prereq.md)
     
--   [Проверка сборки »](wincache.win32build.verify.html)
+-   [Проверка сборки »](wincache.win32build.verify.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Сборка для Windows](wincache.win32build.html)
+-   [Сборка для Windows](wincache.win32build.md)
     
 -   Компіляція та складання
     

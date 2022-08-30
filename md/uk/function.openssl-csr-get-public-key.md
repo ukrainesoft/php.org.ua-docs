@@ -4,9 +4,9 @@
     
 -   [opensslcsrgetsubject »](function.openssl-csr-get-subject.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Повертає відкритий ключ CSR
     
@@ -29,7 +29,7 @@ openssl_csr_get_public_key(OpenSSLCertificateSigningRequest|string $csr, bool $s
 
 `csr`
 
-Для отримання списку допустимих значень дивіться [параметры CSR](openssl.certparams.html)
+Для отримання списку допустимих значень дивіться [параметри CSR](openssl.certparams.md)
 
 `short_names`
 
@@ -39,14 +39,14 @@ openssl_csr_get_public_key(OpenSSLCertificateSigningRequest|string $csr, bool $s
 
 ### Значення, що повертаються
 
-Повертає [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                   |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше повертався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key`              |
-|        | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
+|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
 
 ### Приклади
 

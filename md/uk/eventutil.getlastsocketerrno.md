@@ -1,12 +1,12 @@
 Отримати номер останньої помилки сокету, що виникла
 
--   [« EventUtil::construct](eventutil.construct.html)
+-   [« EventUtil::construct](eventutil.construct.md)
     
--   [EventUtil::getLastSocketError »](eventutil.getlastsocketerror.html)
+-   [EventUtil::getLastSocketError »](eventutil.getlastsocketerror.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventUtil](class.eventutil.html)
+-   [EventUtil](class.eventutil.md)
     
 -   Отримати номер останньої помилки сокету, що виникла
     
@@ -43,4 +43,4 @@ public
 
 ### Дивіться також
 
--   [EventUtil::getLastSocketError()](eventutil.getlastsocketerror.html) - Отримати останню помилку сокету, що виникла
+-   [EventUtil::getLastSocketError()](eventutil.getlastsocketerror.md) - Отримати останню помилку сокету, що виникла

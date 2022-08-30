@@ -1,12 +1,12 @@
 Вступ
 
--   [« SOAP](book.soap.html)
+-   [« SOAP](book.soap.md)
     
--   [Установка и настройка »](soap.setup.html)
+-   [Встановлення та налаштування »](soap.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SOAP](book.soap.html)
+-   [SOAP](book.soap.md)
     
 -   Вступ
     

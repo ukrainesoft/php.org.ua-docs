@@ -1,12 +1,12 @@
 Опис
 
--   [« Imagick::clipImage](imagick.clipimage.html)
+-   [« Imagick::clipImage](imagick.clipimage.md)
     
--   [Imagick::clipPathImage »](imagick.clippathimage.html)
+-   [Imagick::clipPathImage »](imagick.clippathimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Опис
     

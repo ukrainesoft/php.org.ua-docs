@@ -4,9 +4,9 @@
     
 -   [snmpsetenumprint »](function.snmp-set-enum-print.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.md)
     
 -   Читає та аналізує файл MIB в активному дереві MIB
     

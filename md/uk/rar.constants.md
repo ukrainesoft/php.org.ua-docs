@@ -1,8 +1,8 @@
 Обумовлені константи
 
--   [« Типы ресурсов](rar.resources.html)
+-   [« Типи ресурсів](rar.resources.html)
     
--   [Примеры »](rar.examples.html)
+-   [Приклади »](rar.examples.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Замінює файл у ZIP-архіві вказаним шляхом
 
--   [« ZipArchive::renameName](ziparchive.renamename.html)
+-   [« ZipArchive::renameName](ziparchive.renamename.md)
     
--   [ZipArchive::setArchiveComment »](ziparchive.setarchivecomment.html)
+-   [ZipArchive::setArchiveComment »](ziparchive.setarchivecomment.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Замінює файл у ZIP-архіві вказаним шляхом
     
@@ -47,7 +47,7 @@ public ZipArchive::replaceFile(    string $filepath,    int $index,  �
 
 `flags`
 
-Бітова маска, що складається з **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`**. Поведінка цих констант описана на сторінці [Константы ZIP](zip.constants.html)
+Бітова маска, що складається з **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`**. Поведінка цих констант описана на сторінці [Константи ZIP](zip.constants.md)
 
 ### Значення, що повертаються
 
@@ -74,4 +74,4 @@ if ($zip->open('test.zip') === TRUE) {
 
 ### Дивіться також
 
--   [ZipArchive::addFile()](ziparchive.addfile.html) - Додає до ZIP-архіву файл по зазначеному шляху
+-   [ZipArchive::addFile()](ziparchive.addfile.md) - Додає до ZIP-архіву файл по зазначеному шляху

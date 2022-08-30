@@ -1,21 +1,21 @@
 Модулі для роботи з GUI
 
--   [« XSLTProcessor::transformToXml](xsltprocessor.transformtoxml.html)
+-   [« XSLTProcessor::transformToXml](xsltprocessor.transformtoxml.md)
     
--   [UI »](book.ui.html)
+-   [UI »](book.ui.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Справочник функций](funcref.html)
+-   [Справочник функций](funcref.md)
     
 -   Модулі для роботи з GUI
     
 
 # Модулі для роботи з GUI
 
--   [ОЙ](book.ui.html)
-    -   [Введение](intro.ui.html)
-    -   [Установка и настройка](ui.setup.html)
+-   [ОЙ](book.ui.md)
+    -   [Введение](intro.ui.md)
+    -   [Встановлення та налаштування](ui.setup.md)
     -   [ОЙPoint](class.ui-point.html) - Представляє позицію (x, y)
     -   [ОЙSize](class.ui-size.html) - Представляє розміри (ширина, висота)
     -   [ОЙWindow](class.ui-window.html) - Вікно
@@ -55,7 +55,7 @@
     -   [ОЙDrawTextLayout](class.ui-draw-text-layout.html) — Подає макет тексту
     -   [ОЙDrawTextFont](class.ui-draw-text-font.html) — Подає шрифт
     -   [ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html) - Дескриптор шрифту
-    -   [Функции UI](ref.ui.html)
+    -   [Функции UI](ref.ui.md)
     -   [ОЙDrawTextFontWeight](class.ui-draw-text-font-weight.html) — Налаштування зображення шрифту
     -   [ОЙDrawTextFontItalic](class.ui-draw-text-font-italic.html) — Налаштування курсивного шрифту
     -   [ОЙDrawTextFontStretch](class.ui-draw-text-font-stretch.html) — Налаштування товщини шрифту

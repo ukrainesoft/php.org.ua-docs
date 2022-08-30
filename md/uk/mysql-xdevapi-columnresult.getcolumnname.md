@@ -4,7 +4,7 @@
     
 -   [ColumnResult::getFractionalDigits »](mysql-xdevapi-columnresult.getfractionaldigits.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
     

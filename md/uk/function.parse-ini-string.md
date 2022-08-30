@@ -2,11 +2,11 @@
 
 -   [« parseinifile](function.parse-ini-file.html)
     
--   [pathinfo »](function.pathinfo.html)
+-   [pathinfo »](function.pathinfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Розбирає рядок конфігурації
     

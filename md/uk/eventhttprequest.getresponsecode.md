@@ -1,12 +1,12 @@
 Повертає код відповіді
 
--   [« EventHttpRequest::getOutputHeaders](eventhttprequest.getoutputheaders.html)
+-   [« EventHttpRequest::getOutputHeaders](eventhttprequest.getoutputheaders.md)
     
--   [EventHttpRequest::getUri »](eventhttprequest.geturi.html)
+-   [EventHttpRequest::getUri »](eventhttprequest.geturi.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpRequest](class.eventhttprequest.html)
+-   [EventHttpRequest](class.eventhttprequest.md)
     
 -   Повертає код відповіді
     
@@ -36,6 +36,6 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::getCommand()](eventhttprequest.getcommand.html) - Повертає команду запиту (метод)
--   [EventHttpRequest::getHost()](eventhttprequest.gethost.html) - Повертає хост запиту
--   [EventHttpRequest::getUri()](eventhttprequest.geturi.html) - Повертає URI запиту
+-   [EventHttpRequest::getCommand()](eventhttprequest.getcommand.md) - Повертає команду запиту (метод)
+-   [EventHttpRequest::getHost()](eventhttprequest.gethost.md) - Повертає хост запиту
+-   [EventHttpRequest::getUri()](eventhttprequest.geturi.md) - Повертає URI запиту

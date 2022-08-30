@@ -1,12 +1,12 @@
 Отримати дані, повернені для завдання
 
--   [« GearmanTask::create](gearmantask.create.html)
+-   [« GearmanTask::create](gearmantask.create.md)
     
--   [GearmanTask::dataSize »](gearmantask.datasize.html)
+-   [GearmanTask::dataSize »](gearmantask.datasize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanTask](class.gearmantask.html)
+-   [GearmanTask](class.gearmantask.md)
     
 -   Отримати дані, повернені для завдання
     
@@ -35,4 +35,4 @@ public GearmanTask::data(): string
 
 ### Дивіться також
 
--   [GearmanTask::dataSize()](gearmantask.datasize.html) - Отримати розмір даних, що повертаються
+-   [GearmanTask::dataSize()](gearmantask.datasize.md) - Отримати розмір даних, що повертаються

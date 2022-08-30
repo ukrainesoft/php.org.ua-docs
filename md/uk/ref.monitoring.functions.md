@@ -1,12 +1,12 @@
 Функції
 
--   [« MongoDBDriverMonitoring](mongodb.monitoring.html)
+-   [« MongoDBDriverMonitoring](mongodb.monitoring.md)
     
--   [MongoDBDriverMonitoringaddSubscriber »](function.mongodb.driver.monitoring.addsubscriber.html)
+-   [MongoDBDriverMonitoringaddSubscriber »](function.mongodb.driver.monitoring.addsubscriber.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBDriverMonitoring](mongodb.monitoring.html)
+-   [MongoDBDriverMonitoring](mongodb.monitoring.md)
     
 -   Функції
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [MongoDBDriverMonitoringaddSubscriber](function.mongodb.driver.monitoring.addsubscriber.html) - Глобальна реєстрація передплатника на подію моніторингу
--   [MongoDBDriverMonitoringremoveSubscriber](function.mongodb.driver.monitoring.removesubscriber.html) — Скасує глобальну реєстрацію передплатника на подію моніторингу
+-   [MongoDBDriverMonitoringaddSubscriber](function.mongodb.driver.monitoring.addsubscriber.md) - Глобальна реєстрація передплатника на подію моніторингу
+-   [MongoDBDriverMonitoringremoveSubscriber](function.mongodb.driver.monitoring.removesubscriber.md) — Скасує глобальну реєстрацію передплатника на подію моніторингу

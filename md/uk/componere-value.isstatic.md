@@ -4,7 +4,7 @@
     
 -   [ComponereValue::hasDefault »](componere-value.hasdefault.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponereValue](class.componere-value.html)
     

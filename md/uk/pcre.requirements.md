@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](pcre.setup.html)
+-   [« Встановлення та налаштування](pcre.setup.html)
     
 -   [Установка »](pcre.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](pcre.setup.html)
+-   [Встановлення та налаштування](pcre.setup.html)
     
 -   Вимоги
     

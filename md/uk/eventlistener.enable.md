@@ -1,12 +1,12 @@
 Включає подію підключення до об'єкта слухача
 
--   [« EventListener::disable](eventlistener.disable.html)
+-   [« EventListener::disable](eventlistener.disable.md)
     
--   [EventListener::getBase »](eventlistener.getbase.html)
+-   [EventListener::getBase »](eventlistener.getbase.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventListener](class.eventlistener.html)
+-   [EventListener](class.eventlistener.md)
     
 -   Включає подію підключення до об'єкта слухача
     
@@ -36,4 +36,4 @@ public
 
 ### Дивіться також
 
--   [EventListener::disable()](eventlistener.disable.html) - Вимикає подію підключення до об'єкта слухача
+-   [EventListener::disable()](eventlistener.disable.md) - Вимикає подію підключення до об'єкта слухача

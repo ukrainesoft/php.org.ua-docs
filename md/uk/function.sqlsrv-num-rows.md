@@ -23,13 +23,13 @@ sqlsrvnumrows — Отримує кількість рядків у наборі
 sqlsrv_num_rows(resource $stmt): mixed
 ```
 
-Витягує кількість рядків у наборі результатів. Функція вимагає, щоб ресурс оператора було створено за допомогою статичного курсору або курсору набору ключів. Для отримання додаткової інформації дивіться опис функцій [sqlsrvquery()](function.sqlsrv-query.html) [sqlsrvprepare()](function.sqlsrv-prepare.html) або [» Указание типа курсора и выбор строк](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.
+Витягує кількість рядків у наборі результатів. Функція вимагає, щоб ресурс оператора було створено за допомогою статичного курсору або курсору набору ключів. Для отримання додаткової інформації дивіться опис функцій [sqlsrvquery()](function.sqlsrv-query.html) [sqlsrvprepare()](function.sqlsrv-prepare.html) або [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.
 
 ### Список параметрів
 
 `stmt`
 
-Оператор, для якого повертається кількість рядків. Ресурс оператора має бути створений за допомогою статичного курсору чи курсору набору ключів. Для отримання додаткової інформації дивіться опис функцій [sqlsrvquery()](function.sqlsrv-query.html) [sqlsrvprepare()](function.sqlsrv-prepare.html) або [» Указание типа курсора и выбор строк](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.
+Оператор, для якого повертається кількість рядків. Ресурс оператора має бути створений за допомогою статичного курсору чи курсору набору ключів. Для отримання додаткової інформації дивіться опис функцій [sqlsrvquery()](function.sqlsrv-query.html) [sqlsrvprepare()](function.sqlsrv-prepare.html) або [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.
 
 ### Значення, що повертаються
 

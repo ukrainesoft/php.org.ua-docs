@@ -1,12 +1,12 @@
 Глобальний простір
 
--   [« Использование пространств имён: импорт/создание псевдонима имени](language.namespaces.importing.html)
+-   [« Использование пространств имён: импорт/создание псевдонима имени](language.namespaces.importing.md)
     
--   [Використання просторів імен: перехід до глобальної функції/константи »](language.namespaces.fallback.html)
+-   [Використання просторів імен: перехід до глобальної функції/константи »](language.namespaces.fallback.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Пространства имён](language.namespaces.html)
+-   [Пространства имён](language.namespaces.md)
     
 -   Глобальний простір
     

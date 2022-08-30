@@ -1,12 +1,12 @@
 Передача за посиланням
 
--   [« Чим посилання не є](language.references.arent.html)
+-   [« Чим посилання не є](language.references.arent.md)
     
--   [Возврат по ссылке »](language.references.return.html)
+-   [Повернення за посиланням »](language.references.return.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Объяснение ссылок](language.references.html)
+-   [Пояснення посилань](language.references.md)
     
 -   Передача за посиланням
     
@@ -48,7 +48,7 @@ foo($a);
     ?>
     ```
     
-    Дивіться також пояснення [возврата по ссылке](language.references.return.html)
+    Дивіться також пояснення [повернення за посиланням](language.references.return.md)
     
 
 Будь-який інший вираз не повинен передаватися за посиланням, оскільки результат не визначений. Наприклад, наступна передача за посиланням є неправильною:

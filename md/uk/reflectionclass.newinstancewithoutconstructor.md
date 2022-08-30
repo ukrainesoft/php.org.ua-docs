@@ -1,12 +1,12 @@
 Створює новий екземпляр класу без виклику конструктора
 
--   [« ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.html)
+-   [« ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.md)
     
--   [ReflectionClass::setStaticPropertyValue »](reflectionclass.setstaticpropertyvalue.html)
+-   [ReflectionClass::setStaticPropertyValue »](reflectionclass.setstaticpropertyvalue.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Створює новий екземпляр класу без виклику конструктора
     
@@ -31,9 +31,9 @@ public ReflectionClass::newInstanceWithoutConstructor(): object
 
 ### Помилки
 
-Якщо клас є вбудованим, і його екземпляр не може бути створений без виклику конструктора, це призведе до генерації виключення [ReflectionException](class.reflectionexception.html). Цей виняток обмежений лише класами з модифікатором [final](language.oop5.final.html)
+Якщо клас є вбудованим, і його екземпляр не може бути створений без виклику конструктора, це призведе до генерації виключення [ReflectionException](class.reflectionexception.md). Цей виняток обмежений лише класами з модифікатором [final](language.oop5.final.md)
 
 ### Дивіться також
 
--   [ReflectionClass::newInstance()](reflectionclass.newinstance.html) - створює екземпляр класу з переданими аргументами
--   [ReflectionClass::newInstanceArgs()](reflectionclass.newinstanceargs.html) - Створює екземпляр класу з переданими параметрами
+-   [ReflectionClass::newInstance()](reflectionclass.newinstance.md) - створює екземпляр класу з переданими аргументами
+-   [ReflectionClass::newInstanceArgs()](reflectionclass.newinstanceargs.md) - Створює екземпляр класу з переданими параметрами

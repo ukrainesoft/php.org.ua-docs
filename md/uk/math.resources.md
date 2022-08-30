@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](math.configuration.html)
+-   [« Налаштування під час виконання](math.configuration.html)
     
--   [Предопределённые константы »](math.constants.html)
+-   [Обумовлені константи »](math.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](math.setup.html)
+-   [Встановлення та налаштування](math.setup.html)
     
 -   Типи ресурсів
     

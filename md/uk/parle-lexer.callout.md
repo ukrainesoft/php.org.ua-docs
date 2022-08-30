@@ -4,7 +4,7 @@
     
 -   [ParleLexer::consume »](parle-lexer.consume.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ParleLexer](class.parle-lexer.html)
     

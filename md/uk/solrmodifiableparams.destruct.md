@@ -1,12 +1,12 @@
 Деструктор
 
--   [« SolrModifiableParams::construct](solrmodifiableparams.construct.html)
+-   [« SolrModifiableParams::construct](solrmodifiableparams.construct.md)
     
--   [SolrQuery »](class.solrquery.html)
+-   [SolrQuery »](class.solrquery.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrModifiableParams](class.solrmodifiableparams.html)
+-   [SolrModifiableParams](class.solrmodifiableparams.md)
     
 -   Деструктор
     

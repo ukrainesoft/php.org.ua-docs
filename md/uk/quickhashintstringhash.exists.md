@@ -1,12 +1,12 @@
 Метод перевіряє, чи є ключ частиною хешу
 
--   [« QuickHashIntStringHash::delete](quickhashintstringhash.delete.html)
+-   [« QuickHashIntStringHash::delete](quickhashintstringhash.delete.md)
     
--   [QuickHashIntStringHash::get »](quickhashintstringhash.get.html)
+-   [QuickHashIntStringHash::get »](quickhashintstringhash.get.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [QuickHashIntStringHash](class.quickhashintstringhash.html)
+-   [QuickHashIntStringHash](class.quickhashintstringhash.md)
     
 -   Метод перевіряє, чи є ключ частиною хешу
     

@@ -1,12 +1,12 @@
 Змінює розмір пулу
 
--   [« Pool::construct](pool.construct.html)
+-   [« Pool::construct](pool.construct.md)
     
--   [Pool::shutdown »](pool.shutdown.html)
+-   [Pool::shutdown »](pool.shutdown.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Pool](class.pool.html)
+-   [Pool](class.pool.md)
     
 -   Змінює розмір пулу
     

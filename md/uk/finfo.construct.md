@@ -1,12 +1,12 @@
 Псевдонім finfoopen
 
--   [« finfo::buffer](finfo.buffer.html)
+-   [« finfo::buffer](finfo.buffer.md)
     
--   [finfo::file »](finfo.file.html)
+-   [finfo::file »](finfo.file.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [finfo](class.finfo.html)
+-   [finfo](class.finfo.md)
     
 -   Псевдонім finfoopen
     
@@ -25,6 +25,6 @@ public **finfo::construct**(int `$flags` **`FILEINFO_NONE`**, ?string `$magic_da
 
 ### список змін
 
-| Версия | Описание                                       |
-|--------|------------------------------------------------|
-|        | `magic_database` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `magic_database` тепер допускає значення null. |

@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](imagick.requirements.html)
+-   [« Вимоги](imagick.requirements.md)
     
--   [Настройка во время выполнения »](imagick.configuration.html)
+-   [Налаштування під час виконання »](imagick.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](imagick.setup.html)
+-   [Встановлення та налаштування](imagick.setup.md)
     
 -   Встановлення
     
@@ -15,7 +15,7 @@
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/imagick](https://pecl.php.net/package/imagick)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/imagick](https://pecl.php.net/package/imagick)
 
 > **Зауваження**: Офіційна назва цього модуля - *imagick*
 

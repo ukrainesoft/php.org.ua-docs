@@ -1,12 +1,12 @@
 Повертає поточний тип компресії зображення
 
--   [« Imagick::getImageCompose](imagick.getimagecompose.html)
+-   [« Imagick::getImageCompose](imagick.getimagecompose.md)
     
--   [Imagick::getImageCompressionQuality »](imagick.getimagecompressionquality.html)
+-   [Imagick::getImageCompressionQuality »](imagick.getimagecompressionquality.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає поточний тип компресії зображення
     

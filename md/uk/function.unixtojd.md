@@ -1,12 +1,12 @@
 Перекладає мітку часу Unix у юліанський день
 
--   [« juliantojd](function.juliantojd.html)
+-   [« juliantojd](function.juliantojd.md)
     
--   [Дата/время »](book.datetime.html)
+-   [Дата/время »](book.datetime.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Календарь](ref.calendar.html)
+-   [Календарь](ref.calendar.md)
     
 -   Перекладає мітку часу Unix у юліанський день
     
@@ -37,10 +37,10 @@ unixtojd(?int $timestamp = null): int|false
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `timestamp` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `timestamp` тепер допускає значення null. |
 
 ### Дивіться також
 
--   [jdtounix()](function.jdtounix.html) - Перекладає число днів у юліанському літочисленні у мітку часу Unix
+-   [jdtounix()](function.jdtounix.md) - Перекладає число днів у юліанському літочисленні у мітку часу Unix

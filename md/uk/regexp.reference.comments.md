@@ -2,11 +2,11 @@
 
 -   [« Умовні підмаски](regexp.reference.conditional.html)
     
--   [Рекурсивные шаблоны »](regexp.reference.recursive.html)
+-   [Рекурсивні шаблони »](regexp.reference.recursive.html)
     
 -   [PHP Manual](index.html)
     
--   [Описание синтаксиса Perl-совместимых регулярных выражений](reference.pcre.pattern.syntax.html)
+-   [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.html)
     
 -   Коментарі
     

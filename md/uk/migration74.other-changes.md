@@ -4,9 +4,9 @@
     
 -   [Поддержка Windows »](migration74.windows-support.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 7.3.x на PHP 7.4.x](migration74.html)
+-   [Миграция с PHP 7.3.x на PHP 7.4.x](migration74.md)
     
 -   Інші зміни
     
@@ -86,36 +86,36 @@
 
 ### Екранування CSV
 
-[fputcsv()](function.fputcsv.html) [fgetcsv()](function.fgetcsv.html) [SplFileObject::fputcsv()](splfileobject.fputcsv.html) [SplFileObject::fgetcsv()](splfileobject.fgetcsv.html) і [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.html) тепер приймаємо порожній рядок у аргументі `$escape`. Це відключить пропрієтарний механізм екранування PHP.
+[fputcsv()](function.fputcsv.md) [fgetcsv()](function.fgetcsv.md) [SplFileObject::fputcsv()](splfileobject.fputcsv.md) [SplFileObject::fgetcsv()](splfileobject.fgetcsv.md) і [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md) тепер приймаємо порожній рядок у аргументі `$escape`. Це відключить пропрієтарний механізм екранування PHP.
 
 Поведінка функції [strgetcsv()](function.str-getcsv.html) було відповідним чином скориговано (раніше порожній рядок був ідентичний використанню значення за умовчанням).
 
-Метод [SplFileObject::getCsvControl()](splfileobject.getcsvcontrol.html) тепер може повертати порожній рядок для третього елемента масиву, відповідно.
+Метод [SplFileObject::getCsvControl()](splfileobject.getcsvcontrol.md) тепер може повертати порожній рядок для третього елемента масиву, відповідно.
 
 ### Фільтрування даних
 
-Модуль [filter](book.filter.html) більше не підтримує **\--with-pcre-dir** для Unix-складання і тому може бути спокійно зібраний для загального користування за допомогою **./configure**
+Модуль [filter](book.filter.md) більше не підтримує **\--with-pcre-dir** для Unix-складання і тому може бути спокійно зібраний для загального користування за допомогою **./configure**
 
 ### ДД
 
-Поведінка функції [imagecropauto()](function.imagecropauto.html) у вбудованій бібліотеці libgd було синхронізовано із системною бібліотекою libgd:
+Поведінка функції [imagecropauto()](function.imagecropauto.md) у вбудованій бібліотеці libgd було синхронізовано із системною бібліотекою libgd:
 
 -   **`IMG_CROP_DEFAULT`** у разі невдалого виконання не замінюється на **`IMG_CROP_SIDES`**
 -   Порогове значення кадрування тепер розраховується з алгоритму системної бібліотеки libgd
 
-Значення за замовчуванням `$mode` [imagecropauto()](function.imagecropauto.html) було змінено на **`IMG_CROP_DEFAULT`**; передача `-1` тепер оголошено застарілою.
+Значення за замовчуванням `$mode` [imagecropauto()](function.imagecropauto.md) було змінено на **`IMG_CROP_DEFAULT`**; передача `-1` тепер оголошено застарілою.
 
-[imagescale()](function.imagescale.html) тепер підтримує масштабування зі збереженням співвідношення сторін до фіксованої висоти під час передачі `-1` у параметр `$new_width`
+[imagescale()](function.imagescale.md) тепер підтримує масштабування зі збереженням співвідношення сторін до фіксованої висоти під час передачі `-1` у параметр `$new_width`
 
 ### Фреймворк хеш-кодів HASH
 
-Модуль [hash](book.hash.html) більше не можна відключити, тепер він є невід'ємною частиною будь-якої PHP-складання, подібно до модуля [date](book.datetime.html)
+Модуль [hash](book.hash.md) більше не можна відключити, тепер він є невід'ємною частиною будь-якої PHP-складання, подібно до модуля [date](book.datetime.md)
 
 ### Intl
 
-Модуль [intl](book.intl.html) тепер вимагає щонайменше ICU 50.1.
+Модуль [intl](book.intl.md) тепер вимагає щонайменше ICU 50.1.
 
-Клас [ResourceBundle](class.resourcebundle.html) тепер реалізує [Countable](class.countable.html)
+Клас [ResourceBundle](class.resourcebundle.md) тепер реалізує [Countable](class.countable.md)
 
 ### Полегшений протокол доступу до каталогів (LDAP)
 
@@ -143,20 +143,20 @@
 
 ### Reflection
 
-Змінено числові значення констант-модифікаторів (`IS_ABSTRACT` `IS_DEPRECATED` `IS_EXPLICIT_ABSTRACT` `IS_FINAL` `IS_IMPLICIT_ABSTRACT` `IS_PRIVATE` `IS_PROTECTED` `IS_PUBLIC` і `IS_STATIC`) у класах [ReflectionClass](class.reflectionclass.html) [ReflectionFunction](class.reflectionfunction.html) [ReflectionMethod](class.reflectionmethod.html) [ReflectionObject](class.reflectionobject.html) і [ReflectionProperty](class.reflectionproperty.html)
+Змінено числові значення констант-модифікаторів (`IS_ABSTRACT` `IS_DEPRECATED` `IS_EXPLICIT_ABSTRACT` `IS_FINAL` `IS_IMPLICIT_ABSTRACT` `IS_PRIVATE` `IS_PROTECTED` `IS_PUBLIC` і `IS_STATIC`) у класах [ReflectionClass](class.reflectionclass.md) [ReflectionFunction](class.reflectionfunction.md) [ReflectionMethod](class.reflectionmethod.md) [ReflectionObject](class.reflectionobject.md) і [ReflectionProperty](class.reflectionproperty.md)
 
 ### SimpleXML
 
-Клас [SimpleXMLElement](class.simplexmlelement.html) тепер реалізує [Countable](class.countable.html)
+Клас [SimpleXMLElement](class.simplexmlelement.md) тепер реалізує [Countable](class.countable.md)
 
 ### SQLite3
 
-Вбудована бібліотека libsqlite у збірці видалена. Для складання модуля [SQLite3](book.sqlite3.html) тепер потрібно libsqlite3 ≥ 3.7.4. Щоб зібрати модуль [PDOSQLite](ref.pdo-sqlite.html) обов'язково потрібний libsqlite3 ≥ 3.5.0.
+Вбудована бібліотека libsqlite у збірці видалена. Для складання модуля [SQLite3](book.sqlite3.md) тепер потрібно libsqlite3 ≥ 3.7.4. Щоб зібрати модуль [PDOSQLite](ref.pdo-sqlite.html) обов'язково потрібний libsqlite3 ≥ 3.5.0.
 
-Серіалізація та десеріалізація [SQLite3](class.sqlite3.html) [SQLite3Stmt](class.sqlite3stmt.html) і [SQLite3Result](class.sqlite3result.html) тепер явно заборонено. Раніше серіалізація екземплярів цих класів була можливою, але десеріалізація робила об'єкти невикористовуваними для подальшої роботи.
+Серіалізація та десеріалізація [SQLite3](class.sqlite3.md) [SQLite3Stmt](class.sqlite3stmt.md) і [SQLite3Result](class.sqlite3result.md) тепер явно заборонено. Раніше серіалізація екземплярів цих класів була можливою, але десеріалізація робила об'єкти невикористовуваними для подальшої роботи.
 
 Нотацію `@param` тепер можна також використовувати для позначення параметрів SQL-запиту.
 
 ### Zip
 
-Вбудована бібліотека libzip видалена. Тепер обов'язково наявність у системі бібліотеки libzip >= 0.11, щоб зібрати модуль [zip](book.zip.html)
+Вбудована бібліотека libzip видалена. Тепер обов'язково наявність у системі бібліотеки libzip >= 0.11, щоб зібрати модуль [zip](book.zip.md)

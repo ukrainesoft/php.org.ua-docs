@@ -1,23 +1,23 @@
 Ітеровані
 
--   [« Массивы](language.types.array.html)
+-   [« Масиви](language.types.array.md)
     
--   [Объекты »](language.types.object.html)
+-   [Об'єкти »](language.types.object.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Типы](language.types.html)
+-   [Типи](language.types.md)
     
 -   Ітеровані
     
 
 ## Ітеровані
 
-[Iterable](language.types.iterable.html) - псевдотип, введений у PHP 7.1. Він приймає будь-який масив (array) або об'єкт, що реалізує інтерфейс [Traversable](class.traversable.html). Обидва ці типи ітеруються за допомогою [foreach](control-structures.foreach.html) і можуть бути використані з **yield from** в [генераторах](language.generators.html)
+[Iterable](language.types.iterable.md) - псевдотип, введений у PHP 7.1. Він приймає будь-який масив (array) або об'єкт, що реалізує інтерфейс [Traversable](class.traversable.md). Обидва ці типи ітеруються за допомогою [foreach](control-structures.foreach.html) і можуть бути використані з **yield from** в [генераторах](language.generators.md)
 
 ### Використання Iterable
 
-Тип iterable може використовуватися як тип параметра для вказівки, що функція набирає значень, але їй не важлива форма цього набору, поки він буде використовуватися з [foreach](control-structures.foreach.html). Якщо значення не є масивом або об'єктом, що реалізує [Traversable](class.traversable.html), буде викинуто виняток [TypeError](class.typeerror.html)
+Тип iterable може використовуватися як тип параметра для вказівки, що функція набирає значень, але їй не важлива форма цього набору, поки він буде використовуватися з [foreach](control-structures.foreach.html). Якщо значення не є масивом або об'єктом, що реалізує [Traversable](class.traversable.md), буде викинуто виняток [TypeError](class.typeerror.md)
 
 **Приклад #1 Приклад використання iterable як параметр**
 
@@ -47,7 +47,7 @@ function foo(iterable $iterable = []) {
 ?>
 ```
 
-Iterable також може використовуватися як тип, що повертається для вказівки, що функція поверне значення, що ітерується. Якщо значення, що повертається, не є масивом або об'єктом, що реалізує [Traversable](class.traversable.html), буде викинуто виняток [TypeError](class.typeerror.html)
+Iterable також може використовуватися як тип, що повертається для вказівки, що функція поверне значення, що ітерується. Якщо значення, що повертається, не є масивом або об'єктом, що реалізує [Traversable](class.traversable.md), буде викинуто виняток [TypeError](class.typeerror.md)
 
 **Приклад #3 Приклад використання iterable як тип, що повертається**
 
@@ -61,7 +61,7 @@ function bar(): iterable {
 ?>
 ```
 
-Функції, що оголошують iterable як тип, що повертається, також можуть бути [генераторами](language.generators.html)
+Функції, що оголошують iterable як тип, що повертається, також можуть бути [генераторами](language.generators.md)
 
 **Приклад #4 Приклад використання iterable як значення генератора, що повертається**
 

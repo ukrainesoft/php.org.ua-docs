@@ -2,7 +2,7 @@
 
 -   [« V8js](book.v8js.html)
     
--   [Установка и настройка »](v8js.setup.html)
+-   [Встановлення та налаштування »](v8js.setup.html)
     
 -   [PHP Manual](index.html)
     

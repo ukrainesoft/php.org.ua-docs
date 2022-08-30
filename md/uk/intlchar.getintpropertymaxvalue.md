@@ -2,11 +2,11 @@
 
 -   [« IntlChar::getFCNFKCClosure](intlchar.getfc-nfkc-closure.html)
     
--   [IntlChar::getIntPropertyMinValue »](intlchar.getintpropertyminvalue.html)
+-   [IntlChar::getIntPropertyMinValue »](intlchar.getintpropertyminvalue.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Отримати мінімальне значення для властивості Unicode
     
@@ -33,7 +33,7 @@ public static IntlChar::getIntPropertyMaxValue(int $property): int
 
 ### Значення, що повертаються
 
-Максимальне значення, що повертається [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.html) для властивості Unicode . `<=0`якщо властивість не входить у допустимий діапазон.
+Максимальне значення, що повертається [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md) для властивості Unicode . `<=0`якщо властивість не входить у допустимий діапазон.
 
 ### Приклади
 
@@ -59,7 +59,7 @@ int(-1)
 
 ### Дивіться також
 
--   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.html) - Перевірити бінарну властивість Unicode для символу
--   [IntlChar::getIntPropertyMinValue()](intlchar.getintpropertyminvalue.html) - Отримати мінімальне значення для властивості Unicode
--   [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.html) - Отримати значення властивості Unicode для символу
--   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.html) - Отримати версію Unicode
+-   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) - Перевірити бінарну властивість Unicode для символу
+-   [IntlChar::getIntPropertyMinValue()](intlchar.getintpropertyminvalue.md) - Отримати мінімальне значення для властивості Unicode
+-   [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md) - Отримати значення властивості Unicode для символу
+-   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.md) - Отримати версію Unicode

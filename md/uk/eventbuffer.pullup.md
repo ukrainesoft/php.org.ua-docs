@@ -1,12 +1,12 @@
 Лінеаризує дані в буфері та повертає їх вміст у вигляді рядка
 
--   [« EventBuffer::prependBuffer](eventbuffer.prependbuffer.html)
+-   [« EventBuffer::prependBuffer](eventbuffer.prependbuffer.md)
     
--   [EventBuffer::read »](eventbuffer.read.html)
+-   [EventBuffer::read »](eventbuffer.read.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBuffer](class.eventbuffer.html)
+-   [EventBuffer](class.eventbuffer.md)
     
 -   Лінеаризує дані в буфері та повертає їх вміст у вигляді рядка
     
@@ -45,8 +45,8 @@ public
 
 ### Дивіться також
 
--   [EventBuffer::copyout()](eventbuffer.copyout.html) - Копіює вказану кількість байтів з початку буфера
--   [EventBuffer::drain()](eventbuffer.drain.html) - Видаляє вказану кількість байтів з початку буфера, нікуди не копіюючи
--   [EventBuffer::read()](eventbuffer.read.html) - Читає дані з evbuffer та виснажує прочитані байти
--   [EventBuffer::readLine()](eventbuffer.readline.html) - Витягує рядок із початку буфера
--   [EventBuffer::appendFrom()](eventbuffer.appendfrom.html) - Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера
+-   [EventBuffer::copyout()](eventbuffer.copyout.md) - Копіює вказану кількість байтів з початку буфера
+-   [EventBuffer::drain()](eventbuffer.drain.md) - Видаляє вказану кількість байтів з початку буфера, нікуди не копіюючи
+-   [EventBuffer::read()](eventbuffer.read.md) - Читає дані з evbuffer та виснажує прочитані байти
+-   [EventBuffer::readLine()](eventbuffer.readline.md) - Витягує рядок із початку буфера
+-   [EventBuffer::appendFrom()](eventbuffer.appendfrom.md) - Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера

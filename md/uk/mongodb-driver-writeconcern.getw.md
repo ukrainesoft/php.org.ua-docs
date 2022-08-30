@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverWriteConcern::getWtimeout »](mongodb-driver-writeconcern.getwtimeout.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
     

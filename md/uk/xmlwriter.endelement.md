@@ -1,12 +1,12 @@
 Завершити поточний елемент
 
--   [« XMLWriter::endDtdEntity](xmlwriter.enddtdentity.html)
+-   [« XMLWriter::endDtdEntity](xmlwriter.enddtdentity.md)
     
--   [XMLWriter::endPi »](xmlwriter.endpi.html)
+-   [XMLWriter::endPi »](xmlwriter.endpi.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](class.xmlwriter.html)
+-   [XMLWriter](class.xmlwriter.md)
     
 -   Завершити поточний елемент
     
@@ -39,7 +39,7 @@ xmlwriter_end_element(XMLWriter $writer): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 ### Значення, що повертаються
 
@@ -47,11 +47,11 @@ xmlwriter_end_element(XMLWriter $writer): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::startElement()](xmlwriter.startelement.html) - Створити стартовий тег елемента
--   [XMLWriter::writeElement()](xmlwriter.writeelement.html) - Записати повний тег елемента
+-   [XMLWriter::startElement()](xmlwriter.startelement.md) - Створити стартовий тег елемента
+-   [XMLWriter::writeElement()](xmlwriter.writeelement.md) - Записати повний тег елемента

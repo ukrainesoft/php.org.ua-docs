@@ -1,12 +1,12 @@
 Переміщує курсор на вибрану позицію
 
--   [« ArrayIterator::rewind](arrayiterator.rewind.html)
+-   [« ArrayIterator::rewind](arrayiterator.rewind.md)
     
--   [ArrayIterator::serialize »](arrayiterator.serialize.html)
+-   [ArrayIterator::serialize »](arrayiterator.serialize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayIterator](class.arrayiterator.html)
+-   [ArrayIterator](class.arrayiterator.md)
     
 -   Переміщує курсор на вибрану позицію
     

@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](readline.requirements.html)
+-   [« Вимоги](readline.requirements.md)
     
--   [Настройка во время выполнения »](readline.configuration.html)
+-   [Налаштування під час виконання »](readline.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](readline.setup.html)
+-   [Встановлення та налаштування](readline.setup.md)
     
 -   Встановлення
     

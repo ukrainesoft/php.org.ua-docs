@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](reflection.configuration.html)
+-   [« Налаштування під час виконання](reflection.configuration.html)
     
--   [Предопределённые константы »](reflection.constants.html)
+-   [Обумовлені константи »](reflection.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](reflection.setup.html)
+-   [Встановлення та налаштування](reflection.setup.html)
     
 -   Типи ресурсів
     

@@ -1,12 +1,12 @@
 ArgumentCountError
 
--   [« Error::clone](error.clone.html)
+-   [« Error::clone](error.clone.md)
     
--   [ArithmeticError »](class.arithmeticerror.html)
+-   [ArithmeticError »](class.arithmeticerror.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые исключения](reserved.exceptions.html)
+-   [Обумовлені винятки](reserved.exceptions.md)
     
 -   ArgumentCountError
     

@@ -4,7 +4,7 @@
     
 -   [YafActionAbstract »](class.yaf-action-abstract.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafControllerAbstract](class.yaf-controller-abstract.html)
     

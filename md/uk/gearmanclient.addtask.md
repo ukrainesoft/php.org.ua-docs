@@ -1,12 +1,12 @@
 Додати завдання, яке буде виконано у паралельному режимі
 
--   [« GearmanClient::addServers](gearmanclient.addservers.html)
+-   [« GearmanClient::addServers](gearmanclient.addservers.md)
     
--   [GearmanClient::addTaskBackground »](gearmanclient.addtaskbackground.html)
+-   [GearmanClient::addTaskBackground »](gearmanclient.addtaskbackground.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanClient](class.gearmanclient.html)
+-   [GearmanClient](class.gearmanclient.md)
     
 -   Додати завдання, яке буде виконано у паралельному режимі
     
@@ -23,7 +23,7 @@ GearmanClient::addTask — Додати завдання, яке буде вик
 public GearmanClient::addTask(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
 ```
 
-Додає завдання для паралельної роботи з іншими завданнями. Викличте цей метод для всіх завдань, які працюватимуть паралельно, а потім викличте [GearmanClient::runTasks()](gearmanclient.runtasks.html) для виконання робіт. Зверніть увагу, що має бути достатня кількість обробників для одночасного виконання всіх завдань.
+Додає завдання для паралельної роботи з іншими завданнями. Викличте цей метод для всіх завдань, які працюватимуть паралельно, а потім викличте [GearmanClient::runTasks()](gearmanclient.runtasks.md) для виконання робіт. Зверніть увагу, що має бути достатня кількість обробників для одночасного виконання всіх завдань.
 
 ### Список параметрів
 
@@ -45,7 +45,7 @@ public GearmanClient::addTask(    string $function_name,    string $work
 
 ### Значення, що повертаються
 
-Об'єкт [GearmanTask](class.gearmantask.html) або **`false`**, якщо завдання не може бути додано.
+Об'єкт [GearmanTask](class.gearmantask.md) або **`false`**, якщо завдання не може бути додано.
 
 ### Приклади
 
@@ -127,9 +127,9 @@ t1: H:foo:22, !dlroW olleH
 
 ### Дивіться також
 
--   [GearmanClient::addTaskHigh()](gearmanclient.addtaskhigh.html) - Додати високопріоритетне завдання для роботи в паралельному режимі
--   [GearmanClient::addTaskLow()](gearmanclient.addtasklow.html) - Додати низькопріоритетне завдання для роботи в паралельному режимі
--   [GearmanClient::addTaskBackground()](gearmanclient.addtaskbackground.html) - Додати фонове завдання для роботи в паралельному режимі
--   [GearmanClient::addTaskHighBackground()](gearmanclient.addtaskhighbackground.html) - Додати високопріоритетне фонове завдання для роботи в паралельному режимі
--   [GearmanClient::addTaskLowBackground()](gearmanclient.addtasklowbackground.html) - Додати низькопріоритетне фонове завдання для роботи в паралельному режимі
--   [GearmanClient::runTasks()](gearmanclient.runtasks.html) - Запустити список завдань у паралельному режимі
+-   [GearmanClient::addTaskHigh()](gearmanclient.addtaskhigh.md) - Додати високопріоритетне завдання для роботи в паралельному режимі
+-   [GearmanClient::addTaskLow()](gearmanclient.addtasklow.md) - Додати низькопріоритетне завдання для роботи в паралельному режимі
+-   [GearmanClient::addTaskBackground()](gearmanclient.addtaskbackground.md) - Додати фонове завдання для роботи в паралельному режимі
+-   [GearmanClient::addTaskHighBackground()](gearmanclient.addtaskhighbackground.md) - Додати високопріоритетне фонове завдання для роботи в паралельному режимі
+-   [GearmanClient::addTaskLowBackground()](gearmanclient.addtasklowbackground.md) - Додати низькопріоритетне фонове завдання для роботи в паралельному режимі
+-   [GearmanClient::runTasks()](gearmanclient.runtasks.md) - Запустити список завдань у паралельному режимі

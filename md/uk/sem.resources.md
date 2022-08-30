@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](sem.configuration.html)
+-   [« Налаштування під час виконання](sem.configuration.md)
     
--   [Предопределённые константы »](sem.constants.html)
+-   [Обумовлені константи »](sem.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](sem.setup.html)
+-   [Встановлення та налаштування](sem.setup.md)
     
 -   Типи ресурсів
     

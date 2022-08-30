@@ -4,9 +4,9 @@
     
 -   [phpdbgprompt »](function.phpdbg-prompt.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции phpdbg](ref.phpdbg.html)
+-   [Функции phpdbg](ref.phpdbg.md)
     
 -   Опис
     

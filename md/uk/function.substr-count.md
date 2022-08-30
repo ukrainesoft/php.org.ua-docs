@@ -4,9 +4,9 @@
     
 -   [substrreplace »](function.substr-replace.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Повертає кількість входжень підрядка
     
@@ -53,10 +53,10 @@ substr_count(    string $haystack,    string $needle,    int $offset
 
 ### список змін
 
-| Версия | Описание                                                                                      |
-|--------|-----------------------------------------------------------------------------------------------|
-|        | `length` тепер допускає значення null.                                                        |
-|        | Додано підтримку негативних значень `offset` і `length`. . `length` тепер також може бути `0` |
+| Версия | Описание |
+| --- | --- |
+|  | `length` тепер допускає значення null. |
+|  | Додано підтримку негативних значень `offset` і `length`. . `length` тепер також може бути `0` |
 
 ### Приклади
 
@@ -88,6 +88,6 @@ echo substr_count($text2, 'gcdgcd');
 ### Дивіться також
 
 -   [countchars()](function.count-chars.html) - Повертає інформацію про символи, що входять до рядка
--   [strpos()](function.strpos.html) - Повертає позицію першого входження підрядка
--   [substr()](function.substr.html) - Повертає підрядок
--   [strstr()](function.strstr.html) - Знаходить перше входження підрядка
+-   [strpos()](function.strpos.md) - Повертає позицію першого входження підрядка
+-   [substr()](function.substr.md) - Повертає підрядок
+-   [strstr()](function.strstr.md) - Знаходить перше входження підрядка

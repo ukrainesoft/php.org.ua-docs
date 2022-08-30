@@ -1,12 +1,12 @@
 Примушує HTTP-сервер приймати з'єднання із зазначеним потоком сокету чи ресурсом
 
--   [« EventHttp](class.eventhttp.html)
+-   [« EventHttp](class.eventhttp.md)
     
--   [EventHttp::addServerAlias »](eventhttp.addserveralias.html)
+-   [EventHttp::addServerAlias »](eventhttp.addserveralias.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttp](class.eventhttp.html)
+-   [EventHttp](class.eventhttp.md)
     
 -   Примушує HTTP-сервер приймати з'єднання із зазначеним потоком сокету чи ресурсом
     
@@ -33,7 +33,7 @@ public
 
 > **Зауваження**
 > 
-> Щоб зв'язати сокет, `прослушать` і `принять` з'єднання на сокеті в одному дзвінку, використовуйте [EventHttp::bind()](eventhttp.bind.html). . **EventHttp::accept()** потрібно лише в тому випадку, якщо один виклик вже має сокет, готовий для прийняття з'єднань.
+> Щоб зв'язати сокет, `прослушать` і `принять` з'єднання на сокеті в одному дзвінку, використовуйте [EventHttp::bind()](eventhttp.bind.md). . **EventHttp::accept()** потрібно лише в тому випадку, якщо один виклик вже має сокет, готовий для прийняття з'єднань.
 
 ### Список параметрів
 
@@ -127,4 +127,4 @@ OK
 
 ### Дивіться також
 
--   [EventHttp::bind()](eventhttp.bind.html) - Прив'язує HTTP-сервер до вказаної адреси та порту
+-   [EventHttp::bind()](eventhttp.bind.md) - Прив'язує HTTP-сервер до вказаної адреси та порту

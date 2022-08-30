@@ -2,7 +2,7 @@
 
 -   [« ssdeep](book.ssdeep.html)
     
--   [Установка и настройка »](ssdeep.setup.html)
+-   [Встановлення та налаштування »](ssdeep.setup.html)
     
 -   [PHP Manual](index.html)
     

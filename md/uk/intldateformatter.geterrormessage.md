@@ -1,12 +1,12 @@
 Отримує текст помилки останньої операції
 
--   [« IntlDateFormatter::getErrorCode](intldateformatter.geterrorcode.html)
+-   [« IntlDateFormatter::getErrorCode](intldateformatter.geterrorcode.md)
     
--   [IntlDateFormatter::getLocale »](intldateformatter.getlocale.html)
+-   [IntlDateFormatter::getLocale »](intldateformatter.getlocale.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlDateFormatter](class.intldateformatter.html)
+-   [IntlDateFormatter](class.intldateformatter.md)
     
 -   Отримує текст помилки останньої операції
     
@@ -100,6 +100,6 @@ if(!$str) {
 
 ### Дивіться також
 
--   [datefmtgeterrorcode()](intldateformatter.geterrorcode.html) - Отримує код помилки останньої операції
+-   [datefmtgeterrorcode()](intldateformatter.geterrorcode.md) - Отримує код помилки останньої операції
 -   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
 -   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою

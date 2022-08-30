@@ -14,12 +14,12 @@
 # Користувальницький кеш APC
 
 -   [Введение](intro.apcu.html)
--   [Установка и настройка](apcu.setup.html)
-    -   [Требования](apcu.requirements.html)
+-   [Встановлення та налаштування](apcu.setup.html)
+    -   [Вимоги](apcu.requirements.html)
     -   [Установка](apcu.installation.html)
-    -   [Настройка во время выполнения](apcu.configuration.html)
-    -   [Типы ресурсов](apcu.resources.html)
--   [Предопределённые константы](apcu.constants.html)
+    -   [Налаштування під час виконання](apcu.configuration.html)
+    -   [Типи ресурсів](apcu.resources.html)
+-   [Обумовлені константи](apcu.constants.html)
 -   [Функции APCu](ref.apcu.html)
     -   [apcuadd](function.apcu-add.html) - Додати змінну в кеш
     -   [apcucacheinfo](function.apcu-cache-info.html) — Витягує закешовану інформацію зі сховища APCu

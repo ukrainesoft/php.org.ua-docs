@@ -4,9 +4,9 @@
     
 -   [ОЙWindow::add »](ui-window.add.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ОЙ](book.ui.html)
+-   [ОЙ](book.ui.md)
     
 -   Вікно
     

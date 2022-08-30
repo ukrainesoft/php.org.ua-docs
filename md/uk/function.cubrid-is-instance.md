@@ -4,9 +4,9 @@
     
 -   [cubridlobclose »](function.cubrid-lob-close.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Перевіряє, чи існує екземпляр, на який вказує OID
     

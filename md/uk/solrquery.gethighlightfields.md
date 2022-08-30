@@ -1,12 +1,12 @@
 Повертає всі поля, для яких Solr має генерувати виділені фрагменти
 
--   [« SolrQuery::getHighlightAlternateField](solrquery.gethighlightalternatefield.html)
+-   [« SolrQuery::getHighlightAlternateField](solrquery.gethighlightalternatefield.md)
     
--   [SolrQuery::getHighlightFormatter »](solrquery.gethighlightformatter.html)
+-   [SolrQuery::getHighlightFormatter »](solrquery.gethighlightformatter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає всі поля, для яких Solr має генерувати виділені фрагменти
     

@@ -4,9 +4,9 @@
     
 -   [libxmlsetstreamscontext »](function.libxml-set-streams-context.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції libxml](ref.libxml.html)
+-   [Функції libxml](ref.libxml.md)
     
 -   Зміна завантажувача за умовчанням для зовнішніх об'єктів
     
@@ -29,7 +29,7 @@ libxml_set_external_entity_loader(?callable $resolver_function): bool
 
 `resolver_function`
 
-Callback-функція ([callable](language.types.callable.html)) з наступною сигнатурою:
+Callback-функція ([callable](language.types.callable.md)) з наступною сигнатурою:
 
 ```methodsynopsis
 resolver(string $public_id, string $system_id, array $context): resource|string|null
@@ -47,7 +47,7 @@ resolver(string $public_id, string $system_id, array $context): resource|string|
 
 Масив із чотирьох елементів: `"directory"` `"intSubName"` `"extSubURI"` і `"extSubSystem"`
 
-Ця callback-функція повинна повертати ресурс ([resource](language.types.resource.html)) або рядок (string) з якого можна відкрити ресурс. Якщо повертається **`null`**, роздільна здатність посилання на сутність завершиться помилкою.
+Ця callback-функція повинна повертати ресурс ([resource](language.types.resource.md)) або рядок (string) з якого можна відкрити ресурс. Якщо повертається **`null`**, роздільна здатність посилання на сутність завершиться помилкою.
 
 ### Значення, що повертаються
 

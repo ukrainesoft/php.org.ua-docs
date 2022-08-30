@@ -4,7 +4,7 @@
     
 -   [ColumnResult::getLength »](mysql-xdevapi-columnresult.getlength.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
     

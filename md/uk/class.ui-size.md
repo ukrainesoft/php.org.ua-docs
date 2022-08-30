@@ -4,9 +4,9 @@
     
 -   [ОЙSize::construct »](ui-size.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ОЙ](book.ui.html)
+-   [ОЙ](book.ui.md)
     
 -   Представляє розміри (ширина, висота)
     

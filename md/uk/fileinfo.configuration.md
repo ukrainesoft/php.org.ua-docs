@@ -2,11 +2,11 @@
 
 -   [« Установка](fileinfo.installation.html)
     
--   [Типы ресурсов »](fileinfo.resources.html)
+-   [Типи ресурсів »](fileinfo.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](fileinfo.setup.html)
+-   [Встановлення та налаштування](fileinfo.setup.html)
     
 -   Налаштування під час виконання
     

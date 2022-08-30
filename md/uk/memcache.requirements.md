@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](memcache.setup.html)
+-   [« Встановлення та налаштування](memcache.setup.html)
     
 -   [Установка »](memcache.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](memcache.setup.html)
+-   [Встановлення та налаштування](memcache.setup.html)
     
 -   Вимоги
     

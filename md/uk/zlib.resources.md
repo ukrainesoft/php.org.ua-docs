@@ -1,16 +1,16 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](zlib.configuration.html)
+-   [« Налаштування під час виконання](zlib.configuration.md)
     
--   [Предопределённые константы »](zlib.constants.html)
+-   [Обумовлені константи »](zlib.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](zlib.setup.html)
+-   [Встановлення та налаштування](zlib.setup.md)
     
 -   Типи ресурсів
     
 
 ## Типи ресурсів
 
-Модуль визначає ресурс дескриптора, який повертається функцією [gzopen()](function.gzopen.html). До PHP 8.0.0 також було визначено ресурси `zlib.deflate` і `zlib.inflate`
+Модуль визначає ресурс дескриптора, який повертається функцією [gzopen()](function.gzopen.md). До PHP 8.0.0 також було визначено ресурси `zlib.deflate` і `zlib.inflate`

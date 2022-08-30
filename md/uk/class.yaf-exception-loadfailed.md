@@ -4,9 +4,9 @@
     
 -   [YafExceptionLoadFailedModule »](class.yaf-exception-loadfailed-module.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yaf](book.yaf.html)
+-   [Yaf](book.yaf.md)
     
 -   Клас YafExceptionLoadFailed
     

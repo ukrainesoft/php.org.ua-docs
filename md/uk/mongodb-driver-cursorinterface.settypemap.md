@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverCursorInterface::toArray »](mongodb-driver-cursorinterface.toarray.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverCursorInterface](class.mongodb-driver-cursorinterface.html)
     
@@ -29,7 +29,7 @@ abstract public MongoDB\Driver\CursorInterface::setTypeMap(array $typemap): void
 
 `typeMap` (array)
 
-[Конфигурация карты типов](mongodb.persistence.deserialization.html#mongodb.persistence.typemaps)
+[Конфігурація карти типів](mongodb.persistence.deserialization.html#mongodb.persistence.typemaps)
 
 ### Значення, що повертаються
 
@@ -42,4 +42,4 @@ abstract public MongoDB\Driver\CursorInterface::setTypeMap(array $typemap): void
 ### Дивіться також
 
 -   [MongoDBDriverCursor::setTypeMap()](mongodb-driver-cursor.settypemap.html) - Встановлює карту типу для десеріалізації BSON
--   [Постійні дані](mongodb.persistence.html)
+-   [Постійні дані](mongodb.persistence.md)

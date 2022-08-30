@@ -4,9 +4,9 @@
     
 -   [gnupgsetsignmode »](function.gnupg-setsignmode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GnuPG Функції](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.md)
     
 -   Встановлює режим звітування про помилки (errorreporting)
     

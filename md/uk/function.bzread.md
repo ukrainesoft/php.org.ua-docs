@@ -1,12 +1,12 @@
 Бінарно-безпечне читання файлу bzip2
 
--   [« bzopen](function.bzopen.html)
+-   [« bzopen](function.bzopen.md)
     
--   [bzwrite »](function.bzwrite.html)
+-   [bzwrite »](function.bzwrite.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Bzip2](ref.bzip2.html)
+-   [Функції Bzip2](ref.bzip2.md)
     
 -   Бінарно-безпечне читання файлу bzip2
     
@@ -31,7 +31,7 @@ bzread(resource $bz, int $length = 1024): string|false
 
 `bz`
 
-Вказівник на файл. Повинен бути коректним і вказувати на файл, успішно відкритий [bzopen()](function.bzopen.html)
+Вказівник на файл. Повинен бути коректним і вказувати на файл, успішно відкритий [bzopen()](function.bzopen.md)
 
 `length`
 
@@ -65,6 +65,6 @@ echo $decompressed_file;
 
 ### Дивіться також
 
--   [bzwrite()](function.bzwrite.html) - Бінарно-безпечний запис bzip2 файлу
--   [feof()](function.feof.html) - Перевіряє, чи кінець файлу досягнуто
--   [bzopen()](function.bzopen.html) - Відкриває файл, стислий за допомогою bzip2
+-   [bzwrite()](function.bzwrite.md) - Бінарно-безпечний запис bzip2 файлу
+-   [feof()](function.feof.md) - Перевіряє, чи кінець файлу досягнуто
+-   [bzopen()](function.bzopen.md) - Відкриває файл, стислий за допомогою bzip2

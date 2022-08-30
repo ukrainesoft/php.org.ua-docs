@@ -1,12 +1,12 @@
 Порівняння версій двох RPM
 
--   [« rpminfo](function.rpminfo.html)
+-   [« rpminfo](function.rpminfo.md)
     
--   [XLSWriter »](book.xlswriter.html)
+-   [XLSWriter »](book.xlswriter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції RpmInfo](ref.rpminfo.html)
+-   [Функції RpmInfo](ref.rpminfo.md)
     
 -   Порівняння версій двох RPM
     

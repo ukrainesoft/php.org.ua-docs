@@ -1,12 +1,12 @@
 Запуск налаштованої діагностики для розібраної та відновленої розмітки
 
--   [« tidy::construct](tidy.construct.html)
+-   [« tidy::construct](tidy.construct.md)
     
--   [tidy::$errorBuffer »](tidy.props.errorbuffer.html)
+-   [tidy::$errorBuffer »](tidy.props.errorbuffer.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidy](class.tidy.html)
+-   [tidy](class.tidy.md)
     
 -   Запуск налаштованої діагностики для розібраної та відновленої розмітки
     
@@ -39,7 +39,7 @@ tidy_diagnose(tidy $tidy): bool
 
 `tidy`
 
-Об'єкт [Tidy](class.tidy.html)
+Об'єкт [Tidy](class.tidy.md)
 
 ### Значення, що повертаються
 

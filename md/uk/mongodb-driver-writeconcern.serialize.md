@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverWriteConcern::unserialize »](mongodb-driver-writeconcern.unserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
     
@@ -38,5 +38,5 @@ final public MongoDB\Driver\WriteConcern::serialize(): string
 ### Дивіться також
 
 -   [MongoDBDriverWriteConcern::unserialize()](mongodb-driver-writeconcern.unserialize.html) - Десеріалізація WriteConcern
--   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

@@ -4,9 +4,9 @@
     
 -   [fanntrain »](function.fann-train.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Навчання на повному наборі даних, прочитаному з файлу, на часовому інтервалі
     

@@ -1,12 +1,12 @@
 Отримує Reflection-об'єкт перерахування цього варіанта
 
--   [« ReflectionEnumUnitCase::construct](reflectionenumunitcase.construct.html)
+-   [« ReflectionEnumUnitCase::construct](reflectionenumunitcase.construct.md)
     
--   [ReflectionEnumUnitCase::getValue »](reflectionenumunitcase.getvalue.html)
+-   [ReflectionEnumUnitCase::getValue »](reflectionenumunitcase.getvalue.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionEnumUnitCase](class.reflectionenumunitcase.html)
+-   [ReflectionEnumUnitCase](class.reflectionenumunitcase.md)
     
 -   Отримує Reflection-об'єкт перерахування цього варіанта
     
@@ -31,8 +31,8 @@ public ReflectionEnumUnitCase::getEnum(): ReflectionEnum
 
 ### Значення, що повертаються
 
-Екземпляр [ReflectionEnum](class.reflectionenum.html), Який описує перерахування, якому належить цей варіант.
+Екземпляр [ReflectionEnum](class.reflectionenum.md), Який описує перерахування, якому належить цей варіант.
 
 ### Дивіться також
 
--   [Перечисления](language.enumerations.html)
+-   [Перечисления](language.enumerations.md)

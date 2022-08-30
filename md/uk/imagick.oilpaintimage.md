@@ -1,12 +1,12 @@
 Імітує картину олією
 
--   [« Imagick::normalizeImage](imagick.normalizeimage.html)
+-   [« Imagick::normalizeImage](imagick.normalizeimage.md)
     
--   [Imagick::opaquePaintImage »](imagick.opaquepaintimage.html)
+-   [Imagick::opaquePaintImage »](imagick.opaquepaintimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Імітує картину олією
     

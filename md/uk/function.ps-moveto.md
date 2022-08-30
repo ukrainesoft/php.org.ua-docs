@@ -4,9 +4,9 @@
     
 -   [псnew »](function.ps-new.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Встановлює поточну точку
     

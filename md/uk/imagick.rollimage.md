@@ -1,12 +1,12 @@
 Зміщує зображення
 
--   [« Imagick::resizeImage](imagick.resizeimage.html)
+-   [« Imagick::resizeImage](imagick.resizeimage.md)
     
--   [Imagick::rotateImage »](imagick.rotateimage.html)
+-   [Imagick::rotateImage »](imagick.rotateimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Зміщує зображення
     

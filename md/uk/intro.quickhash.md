@@ -1,12 +1,12 @@
 Вступ
 
--   [« Quickhash](book.quickhash.html)
+-   [« Quickhash](book.quickhash.md)
     
--   [Установка и настройка »](quickhash.setup.html)
+-   [Встановлення та налаштування »](quickhash.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Quickhash](book.quickhash.html)
+-   [Quickhash](book.quickhash.md)
     
 -   Вступ
     

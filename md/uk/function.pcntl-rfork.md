@@ -4,9 +4,9 @@
     
 -   [pcntlsetpriority »](function.pcntl-setpriority.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.md)
     
 -   Взаємодіє з ресурсами процесу
     

@@ -1,12 +1,12 @@
 Повертає колір вказаного пікселя
 
--   [« Imagick::getImagePage](imagick.getimagepage.html)
+-   [« Imagick::getImagePage](imagick.getimagepage.md)
     
--   [Imagick::getImageProfile »](imagick.getimageprofile.html)
+-   [Imagick::getImageProfile »](imagick.getimageprofile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає колір вказаного пікселя
     

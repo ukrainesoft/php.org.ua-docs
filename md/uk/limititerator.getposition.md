@@ -1,12 +1,12 @@
 Повертає поточну позицію
 
--   [« LimitIterator::getInnerIterator](limititerator.getinneriterator.html)
+-   [« LimitIterator::getInnerIterator](limititerator.getinneriterator.md)
     
--   [LimitIterator::key »](limititerator.key.html)
+-   [LimitIterator::key »](limititerator.key.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LimitIterator](class.limititerator.html)
+-   [LimitIterator](class.limititerator.md)
     
 -   Повертає поточну позицію
     
@@ -23,7 +23,7 @@ LimitIterator::getPosition — Повертає поточну позицію
 public LimitIterator::getPosition(): int
 ```
 
-Повертає поточну позицію (починаючи з 0) внутрішнього об'єкта-ітератора [Iterator](class.iterator.html)
+Повертає поточну позицію (починаючи з 0) внутрішнього об'єкта-ітератора [Iterator](class.iterator.md)
 
 ### Список параметрів
 
@@ -64,4 +64,4 @@ foreach ($limit_it as $item) {
 
 ### Дивіться також
 
--   [FilterIterator::key()](filteriterator.key.html) - Отримує поточний ключ
+-   [FilterIterator::key()](filteriterator.key.md) - Отримує поточний ключ

@@ -4,7 +4,7 @@
     
 -   [YafConfigAbstract::set »](yaf-config-abstract.set.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafConfigAbstract](class.yaf-config-abstract.html)
     

@@ -1,22 +1,22 @@
 CommonMark
 
--   [« Обработка текста](refs.basic.text.html)
+-   [« Обработка текста](refs.basic.text.md)
     
--   [Введение »](intro.cmark.html)
+-   [Введение »](intro.cmark.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Обработка текста](refs.basic.text.html)
+-   [Обработка текста](refs.basic.text.md)
     
 -   CommonMark
     
 
 # CommonMark
 
--   [Введение](intro.cmark.html)
--   [Установка и настройка](cmark.setup.html)
-    -   [Требования](cmark.requirements.html)
-    -   [Установка](cmark.installation.html)
+-   [Введение](intro.cmark.md)
+-   [Встановлення та налаштування](cmark.setup.md)
+    -   [Вимоги](cmark.requirements.md)
+    -   [Установка](cmark.installation.md)
 -   [CommonMarkNodeDocument](class.commonmark-node-document.html) — Document успадковує CommonMarkNode
 -   [CommonMarkNodeHeading](class.commonmark-node-heading.html) - Heading успадковує CommonMarkNode
     -   [CommonMarkNodeHeading::construct](commonmark-node-heading.construct.html) - Конструктор класу Heading
@@ -65,7 +65,7 @@ CommonMark
 -   [CommonMarkCQL](class.commonmark-cql.html) - Клас CommonMarkCQL
     -   [CommonMarkCQL::construct](commonmark-cql.construct.html) - Конструктор класу CQL
     -   [CommonMarkCQL::invoke](commonmark-cql.invoke.html) - Виконання CQL
--   [Функции CommonMark](ref.cmark.html)
+-   [Функции CommonMark](ref.cmark.md)
     -   [CommonMarkParse](function.commonmark-parse.html) - Розбір
     -   [CommonMarkRender](function.commonmark-render.html) - Відображення
     -   [CommonMarkRenderHTML](function.commonmark-render-html.html) - Відображення

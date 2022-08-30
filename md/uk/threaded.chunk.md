@@ -1,12 +1,12 @@
 Обробка
 
--   [« Threaded](class.threaded.html)
+-   [« Threaded](class.threaded.md)
     
--   [Threaded::count »](threaded.count.html)
+-   [Threaded::count »](threaded.count.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Threaded](class.threaded.html)
+-   [Threaded](class.threaded.md)
     
 -   Обробка
     

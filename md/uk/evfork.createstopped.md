@@ -1,12 +1,12 @@
 Створити об'єкт класу EvFork, але не стартувати його
 
--   [« EvFork::construct](evfork.construct.html)
+-   [« EvFork::construct](evfork.construct.md)
     
--   [EvIdle »](class.evidle.html)
+-   [EvIdle »](class.evidle.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvFork](class.evfork.html)
+-   [EvFork](class.evfork.md)
     
 -   Створити об'єкт класу EvFork, але не стартувати його
     
@@ -35,7 +35,7 @@ final
     = ?): object
 ```
 
-Те саме, що й [EvFork::construct()](evfork.construct.html) але не виробляє автоматичного старту спостерігача.
+Те саме, що й [EvFork::construct()](evfork.construct.md) але не виробляє автоматичного старту спостерігача.
 
 ### Список параметрів
 
@@ -57,4 +57,4 @@ final
 
 ### Дивіться також
 
--   [EvFork::construct()](evfork.construct.html) - Конструктор спостерігача EvFork
+-   [EvFork::construct()](evfork.construct.md) - Конструктор спостерігача EvFork

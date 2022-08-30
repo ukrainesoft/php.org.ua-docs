@@ -1,12 +1,12 @@
 Опис
 
--   [« Imagick::setProgressMonitor](imagick.setprogressmonitor.html)
+-   [« Imagick::setProgressMonitor](imagick.setprogressmonitor.md)
     
--   [Imagick::setResolution »](imagick.setresolution.html)
+-   [Imagick::setResolution »](imagick.setresolution.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Опис
     

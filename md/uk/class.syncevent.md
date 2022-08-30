@@ -1,12 +1,12 @@
 Клас SyncEvent
 
--   [« SyncSemaphore::unlock](syncsemaphore.unlock.html)
+-   [« SyncSemaphore::unlock](syncsemaphore.unlock.md)
     
--   [SyncEvent::construct »](syncevent.construct.html)
+-   [SyncEvent::construct »](syncevent.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Sync](book.sync.html)
+-   [Sync](book.sync.md)
     
 -   Клас SyncEvent
     
@@ -46,7 +46,7 @@ public wait(int $wait = -1): bool
 
 ## Зміст
 
--   [SyncEvent::construct](syncevent.construct.html) — Створює новий об'єкт SyncEvent
--   [SyncEvent::fire](syncevent.fire.html) — Запускає/встановлює подію
--   [SyncEvent::reset](syncevent.reset.html) — скидає ручну подію
--   [SyncEvent::wait](syncevent.wait.html) — Чекає на запуск/установку події
+-   [SyncEvent::construct](syncevent.construct.md) — Створює новий об'єкт SyncEvent
+-   [SyncEvent::fire](syncevent.fire.md) — Запускає/встановлює подію
+-   [SyncEvent::reset](syncevent.reset.md) — скидає ручну подію
+-   [SyncEvent::wait](syncevent.wait.md) — Чекає на запуск/установку події

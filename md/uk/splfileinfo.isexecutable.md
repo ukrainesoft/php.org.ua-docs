@@ -1,12 +1,12 @@
 Вказує, чи файл виконуваний
 
--   [« SplFileInfo::isDir](splfileinfo.isdir.html)
+-   [« SplFileInfo::isDir](splfileinfo.isdir.md)
     
--   [SplFileInfo::isFile »](splfileinfo.isfile.html)
+-   [SplFileInfo::isFile »](splfileinfo.isfile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Вказує, чи файл виконуваний
     

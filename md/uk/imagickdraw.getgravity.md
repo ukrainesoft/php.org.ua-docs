@@ -1,12 +1,12 @@
 Повертає гравітацію розміщення тексту
 
--   [« ImagickDraw::getFontWeight](imagickdraw.getfontweight.html)
+-   [« ImagickDraw::getFontWeight](imagickdraw.getfontweight.md)
     
--   [ImagickDraw::getStrokeAntialias »](imagickdraw.getstrokeantialias.html)
+-   [ImagickDraw::getStrokeAntialias »](imagickdraw.getstrokeantialias.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Повертає гравітацію розміщення тексту
     

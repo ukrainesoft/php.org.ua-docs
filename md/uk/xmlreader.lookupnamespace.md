@@ -1,12 +1,12 @@
 Знайти простір імен для префікса
 
--   [« XMLReader::isValid](xmlreader.isvalid.html)
+-   [« XMLReader::isValid](xmlreader.isvalid.md)
     
--   [XMLReader::moveToAttribute »](xmlreader.movetoattribute.html)
+-   [XMLReader::moveToAttribute »](xmlreader.movetoattribute.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLReader](class.xmlreader.html)
+-   [XMLReader](class.xmlreader.md)
     
 -   Знайти простір імен для префікса
     
@@ -37,6 +37,6 @@ public XMLReader::lookupNamespace(string $prefix): ?string
 
 ### список змін
 
-| Версия | Описание                                     |
-|--------|----------------------------------------------|
-|        | Функція більше не може повертати **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Функція більше не може повертати **`false`** |

@@ -1,12 +1,12 @@
 Скидає вхідний документ
 
--   [« SolrInputDocument::addField](solrinputdocument.addfield.html)
+-   [« SolrInputDocument::addField](solrinputdocument.addfield.md)
     
--   [SolrInputDocument::clone »](solrinputdocument.clone.html)
+-   [SolrInputDocument::clone »](solrinputdocument.clone.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrInputDocument](class.solrinputdocument.html)
+-   [SolrInputDocument](class.solrinputdocument.md)
     
 -   Скидає вхідний документ
     

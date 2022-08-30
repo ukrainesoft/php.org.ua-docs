@@ -1,12 +1,12 @@
 Створює зупинений об'єкт спостерігач EvEmbed
 
--   [« EvEmbed::construct](evembed.construct.html)
+-   [« EvEmbed::construct](evembed.construct.md)
     
--   [EvEmbed::set »](evembed.set.html)
+-   [EvEmbed::set »](evembed.set.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvEmbed](class.evembed.html)
+-   [EvEmbed](class.evembed.md)
     
 -   Створює зупинений об'єкт спостерігач EvEmbed
     
@@ -38,13 +38,13 @@ final
     = ?): void
 ```
 
-Те саме, що й [EvEmbed::construct()](evembed.construct.html) , але спостерігача не буде автоматично запущено.
+Те саме, що й [EvEmbed::construct()](evembed.construct.md) , але спостерігача не буде автоматично запущено.
 
 ### Список параметрів
 
 `other`
 
-Те саме, що і для [EvEmbed::construct()](evembed.construct.html)
+Те саме, що і для [EvEmbed::construct()](evembed.construct.md)
 
 `callback`
 
@@ -64,5 +64,5 @@ final
 
 ### Дивіться також
 
--   [EvEmbed::construct()](evembed.construct.html) - Конструктор об'єкту EvEmbed
--   [Ev::embeddableBackends()](ev.embeddablebackends.html) - Повертає набір бекендів, які можна вбудувати в інші цикли подій
+-   [EvEmbed::construct()](evembed.construct.md) - Конструктор об'єкту EvEmbed
+-   [Ev::embeddableBackends()](ev.embeddablebackends.md) - Повертає набір бекендів, які можна вбудувати в інші цикли подій

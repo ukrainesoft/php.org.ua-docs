@@ -1,12 +1,12 @@
 Створює зупинений екземпляр спостерігача EvCheck
 
--   [« EvCheck::construct](evcheck.construct.html)
+-   [« EvCheck::construct](evcheck.construct.md)
     
--   [EvChild »](class.evchild.html)
+-   [EvChild »](class.evchild.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvCheck](class.evcheck.html)
+-   [EvCheck](class.evcheck.md)
     
 -   Створює зупинений екземпляр спостерігача EvCheck
     
@@ -57,4 +57,4 @@ final
 
 ### Дивіться також
 
--   [EvPrepare](class.evprepare.html)
+-   [EvPrepare](class.evprepare.md)

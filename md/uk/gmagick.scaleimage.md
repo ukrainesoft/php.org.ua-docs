@@ -1,12 +1,12 @@
 Масштабує розмір зображення
 
--   [« Gmagick::rotateimage](gmagick.rotateimage.html)
+-   [« Gmagick::rotateimage](gmagick.rotateimage.md)
     
--   [Gmagick::separateimagechannel »](gmagick.separateimagechannel.html)
+-   [Gmagick::separateimagechannel »](gmagick.separateimagechannel.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Масштабує розмір зображення
     
@@ -37,7 +37,7 @@ public Gmagick::scaleimage(int $width, int $height, bool $fit = false): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

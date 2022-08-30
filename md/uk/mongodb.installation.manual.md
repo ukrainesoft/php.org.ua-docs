@@ -1,12 +1,12 @@
 Складання драйвера PHP MongoDB з вихідного коду
 
--   [« Установка драйвера PHP MongoDB под Windows](mongodb.installation.windows.html)
+-   [« Установка драйвера PHP MongoDB под Windows](mongodb.installation.windows.md)
     
--   [Настройка во время выполнения »](mongodb.configuration.html)
+-   [Налаштування під час виконання »](mongodb.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка](mongodb.installation.html)
+-   [Установка](mongodb.installation.md)
     
 -   Складання драйвера PHP MongoDB з вихідного коду
     
@@ -17,7 +17,7 @@
 
 $ git clone [https://github.com/mongodb/mongo-php-driver.git](https://github.com/mongodb/mongo-php-driver.git)$ cd mongo-php-driver $ git submodule update --init $phpize $./configure $ make all $ sudo make install
 
-Якщо у вашій системі встановлено кілька версій PHP (наприклад, для macOS установка за замовчуванням, Homebrew, [» XAMPP](https://www.apachefriends.org/)), зверніть увагу, що кожна версія PHP має свою команду [phpize](install.pecl.phpize.html) та php.ini файл(и). Крім того, кожне оточення PHP (наприклад, CLI, web) може використовувати окремі php.ini файли.
+Якщо у вашій системі встановлено кілька версій PHP (наприклад, для macOS установка за замовчуванням, Homebrew, [» XAMPP](https://www.apachefriends.org/)), зверніть увагу, що кожна версія PHP має свою команду [phpize](install.pecl.phpize.md) та php.ini файл(и). Крім того, кожне оточення PHP (наприклад, CLI, web) може використовувати окремі php.ini файли.
 
 За промовчанням драйвер використовуватиме вбудовану версію [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson) [» libmongoc](https://github.com/mongodb/mongo-c-driver) і [» libmongocrypt](https://github.com/mongodb/libmongocrypt) та спробує налаштувати їх самостійно. Якщо ці бібліотеки вже встановлені в системі, ви можете повідомити драйвер про це за допомогою аргументу `--with-libbson=yes --with--libmongoc=yes` команди `configure`. Починаючи з версії 1.7.0 модуля ці аргументи застаріли, і ви повинні використовувати замість них `--with-mongodb-system-libs=yes`
 

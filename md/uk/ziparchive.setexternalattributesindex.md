@@ -1,12 +1,12 @@
 Встановити зовнішні атрибути запису за його індексом
 
--   [« ZipArchive::setEncryptionName](ziparchive.setencryptionname.html)
+-   [« ZipArchive::setEncryptionName](ziparchive.setencryptionname.md)
     
--   [ZipArchive::setExternalAttributesName »](ziparchive.setexternalattributesname.html)
+-   [ZipArchive::setExternalAttributesName »](ziparchive.setexternalattributesname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Встановити зовнішні атрибути запису за його індексом
     

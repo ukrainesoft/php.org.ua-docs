@@ -1,12 +1,12 @@
 Встановлює значення підвищення документа
 
--   [« SolrInputDocument::reset](solrinputdocument.reset.html)
+-   [« SolrInputDocument::reset](solrinputdocument.reset.md)
     
--   [SolrInputDocument::setFieldBoost »](solrinputdocument.setfieldboost.html)
+-   [SolrInputDocument::setFieldBoost »](solrinputdocument.setfieldboost.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrInputDocument](class.solrinputdocument.html)
+-   [SolrInputDocument](class.solrinputdocument.md)
     
 -   Встановлює значення підвищення документа
     

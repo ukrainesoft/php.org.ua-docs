@@ -4,9 +4,9 @@
     
 -   [opensslpkeyexport »](function.openssl-pkey-export.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Записує у файл ключ у форматі PEM
     
@@ -25,7 +25,7 @@ openssl_pkey_export_to_file(    OpenSSLAsymmetricKey|OpenSSLCertificate|arra
 
 **opensslpkeyexportтоfile()** записує `key` у форматі PEM у файл `output_filename`
 
-> **Зауваження**: Для коректної роботи цієї функції має бути правильний openssl.cnf. Для більш детальної інформації дивіться зауваження під [разделом установки](openssl.installation.html)
+> **Зауваження**: Для коректної роботи цієї функції має бути правильний openssl.cnf. Для більш детальної інформації дивіться зауваження під [разделом установки](openssl.installation.md)
 
 ### Список параметрів
 
@@ -49,6 +49,6 @@ openssl_pkey_export_to_file(    OpenSSLAsymmetricKey|OpenSSLCertificate|arra
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |

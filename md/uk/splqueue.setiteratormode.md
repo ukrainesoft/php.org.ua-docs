@@ -1,12 +1,12 @@
 Встановлює режим ітератора
 
--   [« SplQueue::enqueue](splqueue.enqueue.html)
+-   [« SplQueue::enqueue](splqueue.enqueue.md)
     
--   [SplHeap »](class.splheap.html)
+-   [SplHeap »](class.splheap.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplQueue](class.splqueue.html)
+-   [SplQueue](class.splqueue.md)
     
 -   Встановлює режим ітератора
     
@@ -45,4 +45,4 @@ public SplQueue::setIteratorMode(int $mode): void
 
 ### Помилки
 
-Викидає [RuntimeException](class.runtimeexception.html) при спробі змінити напрямок ітерації на відмінний від **`SplDoublyLinkedList::IT_MODE_LIFO`**
+Викидає [RuntimeException](class.runtimeexception.md) при спробі змінити напрямок ітерації на відмінний від **`SplDoublyLinkedList::IT_MODE_LIFO`**

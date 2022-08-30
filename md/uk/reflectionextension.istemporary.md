@@ -1,12 +1,12 @@
 Визначає, чи модуль тимчасовим
 
--   [« ReflectionExtension::isPersistent](reflectionextension.ispersistent.html)
+-   [« ReflectionExtension::isPersistent](reflectionextension.ispersistent.md)
     
--   [ReflectionExtension::toString »](reflectionextension.tostring.html)
+-   [ReflectionExtension::toString »](reflectionextension.tostring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionExtension](class.reflectionextension.html)
+-   [ReflectionExtension](class.reflectionextension.md)
     
 -   Визначає, чи модуль тимчасовим
     
@@ -33,8 +33,8 @@ public ReflectionExtension::isTemporary(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** для модулів, завантажених функцією [dl()](function.dl.html) **`false`** в іншому випадку.
+Повертає **`true`** для модулів, завантажених функцією [dl()](function.dl.md) **`false`** в іншому випадку.
 
 ### Дивіться також
 
--   [ReflectionExtension::isPersistent()](reflectionextension.ispersistent.html) - Визначає, чи модуль є постійним
+-   [ReflectionExtension::isPersistent()](reflectionextension.ispersistent.md) - Визначає, чи модуль є постійним

@@ -1,12 +1,12 @@
 Зміщує колірну карту зображення
 
--   [« Gmagick::current](gmagick.current.html)
+-   [« Gmagick::current](gmagick.current.md)
     
--   [Gmagick::deconstructimages »](gmagick.deconstructimages.html)
+-   [Gmagick::deconstructimages »](gmagick.deconstructimages.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Зміщує колірну карту зображення
     

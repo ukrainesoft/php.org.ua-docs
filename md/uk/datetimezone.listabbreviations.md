@@ -1,12 +1,12 @@
 Повертає асоціативний масив, що містить прапор переходу на літній час, зміщення та ім'я часового поясу
 
--   [« DateTimeZone::getTransitions](datetimezone.gettransitions.html)
+-   [« DateTimeZone::getTransitions](datetimezone.gettransitions.md)
     
--   [DateTimeZone::listIdentifiers »](datetimezone.listidentifiers.html)
+-   [DateTimeZone::listIdentifiers »](datetimezone.listidentifiers.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTimeZone](class.datetimezone.html)
+-   [DateTimeZone](class.datetimezone.md)
     
 -   Повертає асоціативний масив, що містить прапор переходу на літній час, зміщення та ім'я часового поясу
     

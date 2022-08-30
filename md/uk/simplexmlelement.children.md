@@ -1,12 +1,12 @@
 Знаходить дочірні елементи цього вузла
 
--   [« SimpleXMLElement::attributes](simplexmlelement.attributes.html)
+-   [« SimpleXMLElement::attributes](simplexmlelement.attributes.md)
     
--   [SimpleXMLElement::construct »](simplexmlelement.construct.html)
+-   [SimpleXMLElement::construct »](simplexmlelement.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXMLElement](class.simplexmlelement.html)
+-   [SimpleXMLElement](class.simplexmlelement.md)
     
 -   Знаходить дочірні елементи цього вузла
     
@@ -39,7 +39,7 @@ public SimpleXMLElement::children(?string $namespaceOrPrefix = null, bool $isPre
 
 ### Значення, що повертаються
 
-Повертає елемент [SimpleXMLElement](class.simplexmlelement.html)навіть якщо вузол не має дочірніх елементів, якщо вузол не представляє атрибут, у цьому випадку функція повертає **`null`**
+Повертає елемент [SimpleXMLElement](class.simplexmlelement.md)навіть якщо вузол не має дочірніх елементів, якщо вузол не представляє атрибут, у цьому випадку функція повертає **`null`**
 
 ### Приклади
 
@@ -120,5 +120,5 @@ int(1)
 
 ### Дивіться також
 
--   [SimpleXMLElement::count()](simplexmlelement.count.html) - Підраховує кількість дочірніх елементів у поточного елемента
--   [count()](function.count.html) - Підраховує кількість елементів масиву або Countable об'єкті
+-   [SimpleXMLElement::count()](simplexmlelement.count.md) - Підраховує кількість дочірніх елементів у поточного елемента
+-   [count()](function.count.md) - Підраховує кількість елементів масиву або Countable об'єкті

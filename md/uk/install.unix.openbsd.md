@@ -1,12 +1,12 @@
 OpenBSD, зауваження щодо встановлення
 
--   [« Установка з інтерфейсами CGI та командного рядка](install.unix.commandline.html)
+-   [« Установка з інтерфейсами CGI та командного рядка](install.unix.commandline.md)
     
--   [Інструкції з інсталяції для ОС Solaris »](install.unix.solaris.html)
+-   [Інструкції з інсталяції для ОС Solaris »](install.unix.solaris.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка на Unix-системы](install.unix.html)
+-   [Встановлення на Unix-системи](install.unix.md)
     
 -   OpenBSD, зауваження щодо встановлення
     

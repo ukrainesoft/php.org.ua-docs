@@ -2,11 +2,11 @@
 
 -   [« Callback-функции PHP](ffi.examples-callback.html)
     
--   [FFI »](class.ffi.html)
+-   [FFI »](class.ffi.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](ffi.examples.html)
+-   [Приклади](ffi.examples.md)
     
 -   Комплексний приклад PHP/FFI/preloading
     

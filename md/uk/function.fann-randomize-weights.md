@@ -4,9 +4,9 @@
     
 -   [fannreadtrainfromfile »](function.fann-read-train-from-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Надає кожному з'єднанню випадкову вагу між minweight та maxweight
     

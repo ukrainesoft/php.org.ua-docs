@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverWriteResult::getInsertedCount »](mongodb-driver-writeresult.getinsertedcount.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
     

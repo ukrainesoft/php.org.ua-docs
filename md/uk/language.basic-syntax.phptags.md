@@ -1,12 +1,12 @@
 Мітки PHP
 
--   [« Основы синтаксиса](language.basic-syntax.html)
+-   [« Основи синтаксису](language.basic-syntax.html)
     
 -   [Изолирование от HTML »](language.basic-syntax.phpmode.html)
     
 -   [PHP Manual](index.html)
     
--   [Основы синтаксиса](language.basic-syntax.html)
+-   [Основи синтаксису](language.basic-syntax.html)
     
 -   Мітки PHP
     

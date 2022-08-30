@@ -1,12 +1,12 @@
 Прив'язує HTTP-сервер до вказаної адреси та порту
 
--   [« EventHttp::addServerAlias](eventhttp.addserveralias.html)
+-   [« EventHttp::addServerAlias](eventhttp.addserveralias.md)
     
--   [EventHttp::construct »](eventhttp.construct.html)
+-   [EventHttp::construct »](eventhttp.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttp](class.eventhttp.html)
+-   [EventHttp](class.eventhttp.md)
     
 -   Прив'язує HTTP-сервер до вказаної адреси та порту
     
@@ -108,4 +108,4 @@ OK
 
 ### Дивіться також
 
--   [EventHttp::accept()](eventhttp.accept.html) - Примушує HTTP-сервер приймати з'єднання із зазначеним потоком сокету чи ресурсом
+-   [EventHttp::accept()](eventhttp.accept.md) - Примушує HTTP-сервер приймати з'єднання із зазначеним потоком сокету чи ресурсом

@@ -1,12 +1,12 @@
 Конструктор ZMQ
 
--   [« ZMQ](class.zmq.html)
+-   [« ZMQ](class.zmq.md)
     
--   [ZMQContext »](class.zmqcontext.html)
+-   [ZMQContext »](class.zmqcontext.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQ](class.zmq.html)
+-   [ZMQ](class.zmq.md)
     
 -   Конструктор ZMQ
     

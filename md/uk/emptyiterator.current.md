@@ -1,12 +1,12 @@
 Метод current()
 
--   [« EmptyIterator](class.emptyiterator.html)
+-   [« EmptyIterator](class.emptyiterator.md)
     
--   [EmptyIterator::key »](emptyiterator.key.html)
+-   [EmptyIterator::key »](emptyiterator.key.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EmptyIterator](class.emptyiterator.html)
+-   [EmptyIterator](class.emptyiterator.md)
     
 -   Метод current()
     
@@ -35,7 +35,7 @@ public EmptyIterator::current(): never
 
 ### Помилки
 
-Викидає виняток [Exception](class.exception.html) під час виклику.
+Викидає виняток [Exception](class.exception.md) під час виклику.
 
 ### Значення, що повертаються
 

@@ -1,12 +1,12 @@
 Функції роботи з класами та об'єктами
 
--   [« Примеры](classobj.examples.html)
+-   [« Приклади](classobj.examples.md)
     
--   [autoload »](function.autoload.html)
+-   [autoload »](function.autoload.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Классы и объекты](book.classobj.html)
+-   [Класи та об'єкти](book.classobj.md)
     
 -   Функції роботи з класами та об'єктами
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [autoload](function.autoload.html) — Спроба завантажити невизначений клас
+-   [autoload](function.autoload.md) — Спроба завантажити невизначений клас
 -   [classalias](function.class-alias.html) - Створює псевдонім для зазначеного класу
 -   [classexists](function.class-exists.html) — Перевіряє, чи було оголошено клас
 -   [enumexists](function.enum-exists.html) — Перевіряє, чи визначено перерахування

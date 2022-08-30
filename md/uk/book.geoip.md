@@ -1,26 +1,26 @@
 Geo IP Location
 
--   [Інші базові модулі](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.md)
     
--   [Введение »](intro.geoip.html)
+-   [Введение »](intro.geoip.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Інші базові модулі](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.md)
     
 -   Geo IP Location
     
 
 # Geo IP Location
 
--   [Введение](intro.geoip.html)
--   [Установка и настройка](geoip.setup.html)
-    -   [Требования](geoip.requirements.html)
-    -   [Установка](geoip.installation.html)
-    -   [Настройка во время выполнения](geoip.configuration.html)
-    -   [Типы ресурсов](geoip.resources.html)
--   [Предопределённые константы](geoip.constants.html)
--   [Функции GeoIP](ref.geoip.html)
+-   [Введение](intro.geoip.md)
+-   [Встановлення та налаштування](geoip.setup.md)
+    -   [Вимоги](geoip.requirements.md)
+    -   [Установка](geoip.installation.md)
+    -   [Налаштування під час виконання](geoip.configuration.md)
+    -   [Типи ресурсів](geoip.resources.md)
+-   [Обумовлені константи](geoip.constants.md)
+-   [Функции GeoIP](ref.geoip.md)
     -   [geoipasnumбname](function.geoip-asnum-by-name.html) — Отримати номер автономної системи (ASN)
     -   [geoipcontinentcodeбname](function.geoip-continent-code-by-name.html) — Отримати двосимвольний код континенту
     -   [geoipcountrycodeбname](function.geoip-country-code-by-name.html) — Отримати двосимвольний код країни

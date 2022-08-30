@@ -4,9 +4,9 @@
     
 -   [fanncreatefromfile »](function.fann-create-from-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Створює копію структури fann
     

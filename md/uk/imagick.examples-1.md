@@ -1,12 +1,12 @@
 Базове використання
 
--   [« Примеры](imagick.examples.html)
+-   [« Приклади](imagick.examples.md)
     
--   [Imagick »](class.imagick.html)
+-   [Imagick »](class.imagick.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](imagick.examples.html)
+-   [Приклади](imagick.examples.md)
     
 -   Базове використання
     

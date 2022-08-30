@@ -1,12 +1,12 @@
 Перевіряє, чи функція є певною користувачем
 
--   [« ReflectionFunctionAbstract::isInternal](reflectionfunctionabstract.isinternal.html)
+-   [« ReflectionFunctionAbstract::isInternal](reflectionfunctionabstract.isinternal.md)
     
--   [ReflectionFunctionAbstract::isVariadic »](reflectionfunctionabstract.isvariadic.html)
+-   [ReflectionFunctionAbstract::isVariadic »](reflectionfunctionabstract.isvariadic.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
     
 -   Перевіряє, чи функція є певною користувачем
     
@@ -35,4 +35,4 @@ public ReflectionFunctionAbstract::isUserDefined(): bool
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::isInternal()](reflectionfunctionabstract.isinternal.html) - Перевіряє, чи є функція внутрішньої
+-   [ReflectionFunctionAbstract::isInternal()](reflectionfunctionabstract.isinternal.md) - Перевіряє, чи є функція внутрішньої

@@ -4,9 +4,9 @@
     
 -   [ісstring »](function.is-string.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи зі змінними](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.md)
     
 -   Перевіряє, чи є змінна скалярним значенням
     

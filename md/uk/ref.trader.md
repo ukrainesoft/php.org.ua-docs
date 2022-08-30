@@ -1,6 +1,6 @@
 Функції Trader
 
--   [« Предопределённые константы](trader.constants.html)
+-   [« Обумовлені константи](trader.constants.html)
     
 -   [traderacos »](function.trader-acos.html)
     

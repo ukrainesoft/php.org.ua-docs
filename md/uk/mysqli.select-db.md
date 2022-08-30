@@ -1,12 +1,12 @@
 Встановлює базу даних для запитів
 
--   [« mysqli::savepoint](mysqli.savepoint.html)
+-   [« mysqli::savepoint](mysqli.savepoint.md)
     
 -   [mysqli::setcharset »](mysqli.set-charset.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Встановлює базу даних для запитів
     
@@ -43,7 +43,7 @@ mysqli_select_db(mysqli $mysql, string $database): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 `database`
 

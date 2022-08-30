@@ -1,12 +1,12 @@
 Повертає нижню межу першого діапазону дат для всіх аспектів дати у цьому полі
 
--   [« SolrQuery::getFacetDateOther](solrquery.getfacetdateother.html)
+-   [« SolrQuery::getFacetDateOther](solrquery.getfacetdateother.md)
     
--   [SolrQuery::getFacetFields »](solrquery.getfacetfields.html)
+-   [SolrQuery::getFacetFields »](solrquery.getfacetfields.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає нижню межу першого діапазону дат для всіх аспектів дати у цьому полі
     

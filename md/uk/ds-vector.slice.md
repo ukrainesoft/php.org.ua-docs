@@ -4,7 +4,7 @@
     
 -   [ДсVector::sort »](ds-vector.sort.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Вектор](class.ds-vector.html)
     

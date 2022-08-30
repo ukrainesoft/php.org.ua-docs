@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.ssdeep.html)
+-   [« Введение](intro.ssdeep.md)
     
--   [Требования »](ssdeep.requirements.html)
+-   [Вимоги »](ssdeep.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ssdeep](book.ssdeep.html)
+-   [ssdeep](book.ssdeep.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](ssdeep.requirements.html)
--   [Установка](ssdeep.installation.html)
--   [Настройка во время выполнения](ssdeep.configuration.html)
--   [Типы ресурсов](ssdeep.resources.html)
+-   [Вимоги](ssdeep.requirements.md)
+-   [Установка](ssdeep.installation.md)
+-   [Налаштування під час виконання](ssdeep.configuration.md)
+-   [Типи ресурсів](ssdeep.resources.md)

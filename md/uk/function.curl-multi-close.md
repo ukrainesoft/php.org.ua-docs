@@ -4,9 +4,9 @@
     
 -   [curlmultierrno »](function.curl-multi-errno.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции cURL](ref.curl.html)
+-   [Функции cURL](ref.curl.md)
     
 -   Закриває набір cURL-дескрипторів
     
@@ -41,9 +41,9 @@ curl_multi_close(CurlMultiHandle $multi_handle): void
 
 ### список змін
 
-| Версия | Описание                                                                    |
-|--------|-----------------------------------------------------------------------------|
-|        | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
 
 ### Приклади
 

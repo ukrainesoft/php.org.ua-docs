@@ -1,12 +1,12 @@
 Клас FilesystemIterator
 
--   [« EmptyIterator::valid](emptyiterator.valid.html)
+-   [« EmptyIterator::valid](emptyiterator.valid.md)
     
--   [FilesystemIterator::construct »](filesystemiterator.construct.html)
+-   [FilesystemIterator::construct »](filesystemiterator.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Ітератори](spl.iterators.html)
+-   [Ітератори](spl.iterators.md)
     
 -   Клас FilesystemIterator
     
@@ -163,35 +163,35 @@ public SplFileInfo::__toString(): string
 
 **`FilesystemIterator::CURRENT_AS_PATHNAME`**
 
-Примушує метод [FilesystemIterator::current()](filesystemiterator.current.html) повернути шлях.
+Примушує метод [FilesystemIterator::current()](filesystemiterator.current.md) повернути шлях.
 
 **`FilesystemIterator::CURRENT_AS_FILEINFO`**
 
-Примушує метод [FilesystemIterator::current()](filesystemiterator.current.html) повернути екземпляр [SplFileInfo](class.splfileinfo.html)
+Примушує метод [FilesystemIterator::current()](filesystemiterator.current.md) повернути екземпляр [SplFileInfo](class.splfileinfo.md)
 
 **`FilesystemIterator::CURRENT_AS_SELF`**
 
-Примушує метод [FilesystemIterator::current()](filesystemiterator.current.html) повернути $this (FilesystemIterator).
+Примушує метод [FilesystemIterator::current()](filesystemiterator.current.md) повернути $this (FilesystemIterator).
 
 **`FilesystemIterator::CURRENT_MODE_MASK`**
 
-Маскує [FilesystemIterator::current()](filesystemiterator.current.html)
+Маскує [FilesystemIterator::current()](filesystemiterator.current.md)
 
 **`FilesystemIterator::KEY_AS_PATHNAME`**
 
-Примушує метод [FilesystemIterator::key()](filesystemiterator.key.html) повернути шлях.
+Примушує метод [FilesystemIterator::key()](filesystemiterator.key.md) повернути шлях.
 
 **`FilesystemIterator::KEY_AS_FILENAME`**
 
-Примушує метод [FilesystemIterator::key()](filesystemiterator.key.html) повернути ім'я файлу.
+Примушує метод [FilesystemIterator::key()](filesystemiterator.key.md) повернути ім'я файлу.
 
 **`FilesystemIterator::FOLLOW_SYMLINKS`**
 
-Примушує метод [RecursiveDirectoryIterator::hasChildren()](recursivedirectoryiterator.haschildren.html) слідувати символічним посиланням.
+Примушує метод [RecursiveDirectoryIterator::hasChildren()](recursivedirectoryiterator.haschildren.md) слідувати символічним посиланням.
 
 **`FilesystemIterator::KEY_MODE_MASK`**
 
-Маскує [FilesystemIterator::key()](filesystemiterator.key.html)
+Маскує [FilesystemIterator::key()](filesystemiterator.key.md)
 
 **`FilesystemIterator::NEW_CURRENT_AND_KEY`**
 
@@ -207,10 +207,10 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [FilesystemIterator::construct](filesystemiterator.construct.html) - Створює новий ітератор файлової системи
--   [FilesystemIterator::current](filesystemiterator.current.html) - Поточний файл
--   [FilesystemIterator::getFlags](filesystemiterator.getflags.html) — Отримання прапорів налаштувань об'єкта
--   [FilesystemIterator::key](filesystemiterator.key.html) — Визначення ключа поточного файлу
--   [FilesystemIterator::next](filesystemiterator.next.html) — Переміщення вказівника на наступний файл
--   [FilesystemIterator::rewind](filesystemiterator.rewind.html) - Переміщення покажчика на початок
--   [FilesystemIterator::setFlags](filesystemiterator.setflags.html) - Завдання прапорів обробки
+-   [FilesystemIterator::construct](filesystemiterator.construct.md) - Створює новий ітератор файлової системи
+-   [FilesystemIterator::current](filesystemiterator.current.md) - Поточний файл
+-   [FilesystemIterator::getFlags](filesystemiterator.getflags.md) — Отримання прапорів налаштувань об'єкта
+-   [FilesystemIterator::key](filesystemiterator.key.md) — Визначення ключа поточного файлу
+-   [FilesystemIterator::next](filesystemiterator.next.md) — Переміщення вказівника на наступний файл
+-   [FilesystemIterator::rewind](filesystemiterator.rewind.md) - Переміщення покажчика на початок
+-   [FilesystemIterator::setFlags](filesystemiterator.setflags.md) - Завдання прапорів обробки

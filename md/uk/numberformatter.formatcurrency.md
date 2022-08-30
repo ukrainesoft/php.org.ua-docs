@@ -1,12 +1,12 @@
 Форматує значення валюти
 
--   [« NumberFormatter::create](numberformatter.create.html)
+-   [« NumberFormatter::create](numberformatter.create.md)
     
--   [NumberFormatter::format »](numberformatter.format.html)
+-   [NumberFormatter::format »](numberformatter.format.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [NumberFormatter](class.numberformatter.html)
+-   [NumberFormatter](class.numberformatter.md)
     
 -   Форматує значення валюти
     
@@ -39,7 +39,7 @@ numfmt_format_currency(NumberFormatter $formatter, float $amount, string $curren
 
 `formatter`
 
-Об'єкт [NumberFormatter](class.numberformatter.html)
+Об'єкт [NumberFormatter](class.numberformatter.md)
 
 `amount`
 
@@ -92,6 +92,6 @@ echo $fmt->formatCurrency(1234567.891234567890000, "RUR")."\n";
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmtformat()](numberformatter.format.html) - Форматує число
--   [numfmtparsecurrency()](numberformatter.parsecurrency.html) - Розбирає номер валюти
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
+-   [numfmtformat()](numberformatter.format.md) - Форматує число
+-   [numfmtparsecurrency()](numberformatter.parsecurrency.md) - Розбирає номер валюти

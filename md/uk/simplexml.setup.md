@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.simplexml.html)
+-   [« Введение](intro.simplexml.md)
     
--   [Требования »](simplexml.requirements.html)
+-   [Вимоги »](simplexml.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXML](book.simplexml.html)
+-   [SimpleXML](book.simplexml.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](simplexml.requirements.html)
--   [Установка](simplexml.installation.html)
--   [Настройка во время выполнения](simplexml.configuration.html)
--   [Типы ресурсов](simplexml.resources.html)
+-   [Вимоги](simplexml.requirements.md)
+-   [Установка](simplexml.installation.md)
+-   [Налаштування під час виконання](simplexml.configuration.md)
+-   [Типи ресурсів](simplexml.resources.md)

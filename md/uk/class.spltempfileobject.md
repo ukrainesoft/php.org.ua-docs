@@ -1,12 +1,12 @@
 Клас SplTempFileObject
 
--   [« SplFileObject::valid](splfileobject.valid.html)
+-   [« SplFileObject::valid](splfileobject.valid.md)
     
--   [SplTempFileObject::construct »](spltempfileobject.construct.html)
+-   [SplTempFileObject::construct »](spltempfileobject.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Обработка файлов](spl.files.html)
+-   [Обработка файлов](spl.files.md)
     
 -   Клас SplTempFileObject
     
@@ -124,4 +124,4 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [SplTempFileObject::construct](spltempfileobject.construct.html) — Створює новий об'єкт тимчасового файлу
+-   [SplTempFileObject::construct](spltempfileobject.construct.md) — Створює новий об'єкт тимчасового файлу

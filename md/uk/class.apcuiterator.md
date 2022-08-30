@@ -2,11 +2,11 @@
 
 -   [« apcustore](function.apcu-store.html)
     
--   [APCUIterator::construct »](apcuiterator.construct.html)
+-   [APCUIterator::construct »](apcuiterator.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [APCu](book.apcu.html)
+-   [APCu](book.apcu.md)
     
 -   Клас APCUIterator
     
@@ -52,12 +52,12 @@ public valid(): bool
 
 ## Зміст
 
--   [APCUIterator::construct](apcuiterator.construct.html) — Створює об'єкт ітератора класу APCUIterator
--   [APCUIterator::current](apcuiterator.current.html) — Отримати поточний елемент
--   [APCUIterator::getTotalCount](apcuiterator.gettotalcount.html) — Отримати загальну кількість записів
--   [APCUIterator::getTotalHits](apcuiterator.gettotalhits.html) — Отримати загальну кількість попадань у кеш
--   [APCUIterator::getTotalSize](apcuiterator.gettotalsize.html) - Загальний розмір кешу
--   [APCUIterator::key](apcuiterator.key.html) - Отримати ключ ітератора
--   [APCUIterator::next](apcuiterator.next.html) — Переміщує курсор на наступний елемент
--   [APCUIterator::rewind](apcuiterator.rewind.html) - Перемотування ітератора
--   [APCUIterator::valid](apcuiterator.valid.html) — Перевіряє, чи поточна позиція ітератора коректна.
+-   [APCUIterator::construct](apcuiterator.construct.md) — Створює об'єкт ітератора класу APCUIterator
+-   [APCUIterator::current](apcuiterator.current.md) — Отримати поточний елемент
+-   [APCUIterator::getTotalCount](apcuiterator.gettotalcount.md) — Отримати загальну кількість записів
+-   [APCUIterator::getTotalHits](apcuiterator.gettotalhits.md) — Отримати загальну кількість попадань у кеш
+-   [APCUIterator::getTotalSize](apcuiterator.gettotalsize.md) - Загальний розмір кешу
+-   [APCUIterator::key](apcuiterator.key.md) - Отримати ключ ітератора
+-   [APCUIterator::next](apcuiterator.next.md) — Переміщує курсор на наступний елемент
+-   [APCUIterator::rewind](apcuiterator.rewind.md) - Перемотування ітератора
+-   [APCUIterator::valid](apcuiterator.valid.md) — Перевіряє, чи поточна позиція ітератора коректна.

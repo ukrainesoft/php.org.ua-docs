@@ -1,12 +1,12 @@
 Закрити з'єднання з базою даних
 
--   [« SQLite3::changes](sqlite3.changes.html)
+-   [« SQLite3::changes](sqlite3.changes.md)
     
--   [SQLite3::construct »](sqlite3.construct.html)
+-   [SQLite3::construct »](sqlite3.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3](class.sqlite3.html)
+-   [SQLite3](class.sqlite3.md)
     
 -   Закрити з'єднання з базою даних
     

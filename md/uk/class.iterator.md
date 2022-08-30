@@ -1,12 +1,12 @@
 Інтерфейс Iterator
 
--   [« Traversable](class.traversable.html)
+-   [« Traversable](class.traversable.md)
     
--   [Iterator::current »](iterator.current.html)
+-   [Iterator::current »](iterator.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи](reserved.interfaces.md)
     
 -   Інтерфейс Iterator
     
@@ -46,7 +46,7 @@ public valid(): bool
 
 ## Обумовлені ітератори
 
-PHP вже надає деякі ітератори для багатьох повсякденних завдань. Дивіться список [ітераторів SPL](spl.iterators.html) для детальнішої інформації.
+PHP вже надає деякі ітератори для багатьох повсякденних завдань. Дивіться список [ітераторів SPL](spl.iterators.md) для детальнішої інформації.
 
 ## Приклади
 
@@ -135,12 +135,12 @@ string(17) "myIterator::valid"
 
 ## Дивіться також
 
-Дивіться також розділ [Ітератори об'єктів](language.oop5.iterations.html)
+Дивіться також розділ [Ітератори об'єктів](language.oop5.iterations.md)
 
 ## Зміст
 
--   [Iterator::current](iterator.current.html) — Повернення поточного елемента
--   [Iterator::key](iterator.key.html) — Повертає ключ поточного елемента
--   [Iterator::next](iterator.next.html) — Переходить до наступного елементу
--   [Iterator::rewind](iterator.rewind.html) - Повертає ітератор на перший елемент
--   [Iterator::valid](iterator.valid.html) - Перевіряє коректність поточної позиції
+-   [Iterator::current](iterator.current.md) — Повернення поточного елемента
+-   [Iterator::key](iterator.key.md) — Повертає ключ поточного елемента
+-   [Iterator::next](iterator.next.md) — Переходить до наступного елементу
+-   [Iterator::rewind](iterator.rewind.md) - Повертає ітератор на перший елемент
+-   [Iterator::valid](iterator.valid.md) - Перевіряє коректність поточної позиції

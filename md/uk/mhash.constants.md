@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](mhash.resources.html)
+-   [« Типи ресурсів](mhash.resources.md)
     
--   [Примеры »](mhash.examples.html)
+-   [Приклади »](mhash.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mhash](book.mhash.html)
+-   [Mhash](book.mhash.md)
     
 -   Обумовлені константи
     

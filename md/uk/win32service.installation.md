@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](win32service.requirements.html)
+-   [« Вимоги](win32service.requirements.html)
     
--   [Настройка во время выполнения »](win32service.configuration.html)
+-   [Налаштування під час виконання »](win32service.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](win32service.setup.html)
+-   [Встановлення та налаштування](win32service.setup.html)
     
 -   Встановлення
     

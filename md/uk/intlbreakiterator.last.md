@@ -1,12 +1,12 @@
 Встановлює позицію ітератора до індексу за останнім символом
 
--   [« IntlBreakIterator::isBoundary](intlbreakiterator.isboundary.html)
+-   [« IntlBreakIterator::isBoundary](intlbreakiterator.isboundary.md)
     
--   [IntlBreakIterator::next »](intlbreakiterator.next.html)
+-   [IntlBreakIterator::next »](intlbreakiterator.next.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlBreakIterator](class.intlbreakiterator.html)
+-   [IntlBreakIterator](class.intlbreakiterator.md)
     
 -   Встановлює позицію ітератора до індексу за останнім символом
     

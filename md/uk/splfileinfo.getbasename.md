@@ -1,12 +1,12 @@
 Отримує базове ім'я файлу
 
--   [« SplFileInfo::getATime](splfileinfo.getatime.html)
+-   [« SplFileInfo::getATime](splfileinfo.getatime.md)
     
--   [SplFileInfo::getCTime »](splfileinfo.getctime.html)
+-   [SplFileInfo::getCTime »](splfileinfo.getctime.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Отримує базове ім'я файлу
     
@@ -33,7 +33,7 @@ public SplFileInfo::getBasename(string $suffix = ""): string
 
 **Застереження**
 
-**SplFileInfo::getBasename()** враховує локаль, тому щоб побачити коректне базове ім'я файлу з багатобайтовими символами в дорозі, відповідна локаль повинна бути встановлена ​​за допомогою функції [setlocale()](function.setlocale.html)
+**SplFileInfo::getBasename()** враховує локаль, тому щоб побачити коректне базове ім'я файлу з багатобайтовими символами в дорозі, відповідна локаль повинна бути встановлена ​​за допомогою функції [setlocale()](function.setlocale.md)
 
 ### Значення, що повертаються
 
@@ -66,4 +66,4 @@ string(4) "file"
 
 ### Дивіться також
 
--   [SplFileInfo::getFilename()](splfileinfo.getfilename.html) - Отримує ім'я файлу
+-   [SplFileInfo::getFilename()](splfileinfo.getfilename.md) - Отримує ім'я файлу

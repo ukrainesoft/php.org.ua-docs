@@ -4,9 +4,9 @@
     
 -   [YafRouteRewrite::assemble »](yaf-route-rewrite.assemble.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yaf](book.yaf.html)
+-   [Yaf](book.yaf.md)
     
 -   Клас YafRouteRewrite
     

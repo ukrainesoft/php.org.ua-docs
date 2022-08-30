@@ -14,13 +14,13 @@ Zlib
 # Zlib
 
 -   [Введение](intro.zlib.html)
--   [Установка и настройка](zlib.setup.html)
-    -   [Требования](zlib.requirements.html)
+-   [Встановлення та налаштування](zlib.setup.html)
+    -   [Вимоги](zlib.requirements.html)
     -   [Установка](zlib.installation.html)
-    -   [Настройка во время выполнения](zlib.configuration.html)
-    -   [Типы ресурсов](zlib.resources.html)
--   [Предопределённые константы](zlib.constants.html)
--   [Примеры](zlib.examples.html)
+    -   [Налаштування під час виконання](zlib.configuration.html)
+    -   [Типи ресурсів](zlib.resources.html)
+-   [Обумовлені константи](zlib.constants.html)
+-   [Приклади](zlib.examples.html)
 -   [Функции Zlib](ref.zlib.html)
     -   [deflateadd](function.deflate-add.html) - Інкрементальний стиск даних
     -   [deflateinit](function.deflate-init.html) - Ініціалізувати контекст інкрементального стиску

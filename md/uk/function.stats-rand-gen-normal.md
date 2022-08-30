@@ -4,9 +4,9 @@
     
 -   [statsrandgent »](function.stats-rand-gen-t.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Генерує одне випадкове відхилення від нормального розподілу
     

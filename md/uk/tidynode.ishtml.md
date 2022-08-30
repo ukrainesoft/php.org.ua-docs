@@ -1,12 +1,12 @@
 Перевіряє, чи є вузол вузлом елемента
 
--   [« tidyNode::isComment](tidynode.iscomment.html)
+-   [« tidyNode::isComment](tidynode.iscomment.md)
     
--   [tidyNode::isJste »](tidynode.isjste.html)
+-   [tidyNode::isJste »](tidynode.isjste.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidyNode](class.tidynode.html)
+-   [tidyNode](class.tidynode.md)
     
 -   Перевіряє, чи є вузол вузлом елемента
     
@@ -35,9 +35,9 @@ public tidyNode::isHtml(): bool
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | Виправлено, тепер функція поводиться розумно. Раніше майже будь-який вузол вважався вузлом HTML. |
+| Версия | Описание |
+| --- | --- |
+|  | Виправлено, тепер функція поводиться розумно. Раніше майже будь-який вузол вважався вузлом HTML. |
 
 ### Приклади
 

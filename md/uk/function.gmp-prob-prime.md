@@ -4,9 +4,9 @@
     
 -   [gmprandombits »](function.gmp-random-bits.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GMP Функції](ref.gmp.html)
+-   [GMP Функції](ref.gmp.md)
     
 -   Перевіряє, чи є число "ймовірно простим"
     
@@ -31,13 +31,13 @@ gmp_prob_prime(GMP|int|string $num, int $repetitions = 10): int
 
 Число, для якого проводиться перевірка.
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `repetitions`
 
 Допустимі значення аргументу `repetitions` лежать у діапазоні від 5 до 10 (за умовчанням 10); чим більше це число, тим менша ймовірність, що непрості числа пройдуть цей тест і визначаться як "можливо прості".
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 

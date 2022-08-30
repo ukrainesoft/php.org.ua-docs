@@ -1,12 +1,12 @@
 Вступ
 
--   [« XMLWriter](book.xmlwriter.html)
+-   [« XMLWriter](book.xmlwriter.md)
     
--   [Установка и настройка »](xmlwriter.setup.html)
+-   [Встановлення та налаштування »](xmlwriter.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](book.xmlwriter.html)
+-   [XMLWriter](book.xmlwriter.md)
     
 -   Вступ
     

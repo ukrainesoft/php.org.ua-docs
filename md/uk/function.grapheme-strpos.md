@@ -47,9 +47,9 @@ grapheme_strpos(string $haystack, string $needle, int $offset = 0): int|false
 
 ### список змін
 
-| Версия | Описание                                     |
-|--------|----------------------------------------------|
-|        | Додано підтримку негативних значень `offset` |
+| Версия | Описание |
+| --- | --- |
+|  | Додано підтримку негативних значень `offset` |
 
 ### Приклади
 
@@ -79,4 +79,4 @@ print grapheme_strpos( $char_a_ring_nfd . $char_a_ring_nfd . $char_o_diaer
 -   [graphemestrripos()](function.grapheme-strripos.html) - Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
 -   [graphemestrrpos()](function.grapheme-strrpos.html) - знаходить позицію (в одиницях графеми) останнього входження рядка
 -   [graphemestrstr()](function.grapheme-strstr.html) - Повертає частину рядка haystack від першої появи needle до кінця haystack
--   [»  Сегментация текста в Unicode: границы кластера графемы](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
+-   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

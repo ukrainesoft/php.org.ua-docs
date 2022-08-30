@@ -1,23 +1,23 @@
 Використання Phar-архівів: класи Phar та PharData
 
--   [« Использование Phar-архивов: обёртка потока phar](phar.using.stream.html)
+-   [« Использование Phar-архивов: обёртка потока phar](phar.using.stream.md)
     
--   [Создание Phar-архивов »](phar.creating.html)
+-   [Создание Phar-архивов »](phar.creating.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Использование Phar-архивов](phar.using.html)
+-   [Использование Phar-архивов](phar.using.md)
     
 -   Використання Phar-архівів: класи Phar та PharData
     
 
 ## Використання Phar-архівів: класи Phar та PharData
 
-Клас [Phar](class.phar.html) підтримує читання та обробку Phar-архівів, а також ітерацію через успадковану функціональність класу [RecursiveDirectoryIterator](class.recursivedirectoryiterator.html). Завдяки підтримці інтерфейсу [ArrayAccess](class.arrayaccess.html), доступ до файлів всередині Phar-архіву може бути отриманий, якби вони були частиною асоціативного масиву.
+Клас [Phar](class.phar.md) підтримує читання та обробку Phar-архівів, а також ітерацію через успадковану функціональність класу [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md). Завдяки підтримці інтерфейсу [ArrayAccess](class.arrayaccess.md), доступ до файлів всередині Phar-архіву може бути отриманий, якби вони були частиною асоціативного масиву.
 
-Клас [PharData](class.phardata.html) розширює клас [Phar](class.phar.html) і дозволяє створювати та змінювати невиконані tar- та zip-архіви даних навіть у тому випадку, якщо параметр `phar.readonly`1 у php.ini. Фактично функції [PharData::setAlias()](phardata.setalias.html) і [PharData::setStub()](phardata.setstub.html) відключені, оскільки концепція псевдоніма та заглушки є унікальною для виконуваних phar-архівів.
+Клас [PharData](class.phardata.md) розширює клас [Phar](class.phar.md) і дозволяє створювати та змінювати невиконані tar- та zip-архіви даних навіть у тому випадку, якщо параметр `phar.readonly`1 у php.ini. Фактично функції [PharData::setAlias()](phardata.setalias.md) і [PharData::setStub()](phardata.setstub.md) відключені, оскільки концепція псевдоніма та заглушки є унікальною для виконуваних phar-архівів.
 
-При створенні Phar-архіву в конструктор об'єкта [Phar](class.phar.html) має бути переданий повний шлях. Спроби ініціалізації об'єкта Phar з відносними шляхами зазнають невдачі.
+При створенні Phar-архіву в конструктор об'єкта [Phar](class.phar.md) має бути переданий повний шлях. Спроби ініціалізації об'єкта Phar з відносними шляхами зазнають невдачі.
 
 Припустимо, що `$p` - об'єкт Phar, ініціалізований, як показано нижче:
 
@@ -40,15 +40,15 @@ $f = file_get_contents('phar://myphar.phar/whatever.txt');
 ?>
 ```
 
-З щойно створеним об'єктом `$p` класу [Phar](class.phar.html) можливо наступне:
+З щойно створеним об'єктом `$p` класу [Phar](class.phar.md) можливо наступне:
 
--   `$a = $p['file.php']` створить об'єкт класу [PharFileInfo](class.pharfileinfo.html), який посилатиметься на вміст `phar://myphar.phar/file.php`
+-   `$a = $p['file.php']` створить об'єкт класу [PharFileInfo](class.pharfileinfo.md), який посилатиметься на вміст `phar://myphar.phar/file.php`
 -   `$p['file.php'] = $v` створить новий файл (`phar://myphar.phar/file.php`) або перезапише існуючий усередині `myphar.phar`. . `$v` може бути рядком або вказівником на відкритий файл. В останньому випадку для створення нового файлу буде використано весь вміст відкритого файлу. Зверніть увагу, що функціонально еквівалентним цьому буде виклик `$p->addFromString('file.php', $v)`. Також є можливість додавання вмісту файлу за допомогою `$p->addFile('/path/to/file.php', 'file.php')`. Нарешті, порожній каталог може бути створений за допомогою `$p->addEmptyDir('empty')`
 -   `isset($p['file.php'])` може бути використано для визначення існування файлу `phar://myphar.phar/file.php` всередині `myphar.phar`
 -   `unset($p['file.php'])` видаляє файл `phar://myphar.phar/file.php` з `myphar.phar`
 
-Крім того, використання об'єкта [Phar](class.phar.html) є єдиним способом отримати доступ до метаданих архіву (через [Phar::getMetadata()](phar.getmetadata.html)) і єдиним способом встановити або отримати заглушку Phar-архіву через [Phar::getStub()](phar.getstub.html) і [Phar::setStub()](phar.setstub.html). До того ж, працювати зі стисненням цілого Phar-архіву можна лише використовуючи клас [Phar](class.phar.html)
+Крім того, використання об'єкта [Phar](class.phar.md) є єдиним способом отримати доступ до метаданих архіву (через [Phar::getMetadata()](phar.getmetadata.md)) і єдиним способом встановити або отримати заглушку Phar-архіву через [Phar::getStub()](phar.getstub.md) і [Phar::setStub()](phar.setstub.md). До того ж, працювати зі стисненням цілого Phar-архіву можна лише використовуючи клас [Phar](class.phar.md)
 
-Повний перелік функціоналу об'єкту [Phar](class.phar.html) задокументовано нижче.
+Повний перелік функціоналу об'єкту [Phar](class.phar.md) задокументовано нижче.
 
-Клас [PharFileInfo](class.pharfileinfo.html) розширює клас [SplFileInfo](class.splfileinfo.html) та додає кілька методів для роботи з деталями, властивими файлам, які містяться в Phar-архіві, такими як робота зі стисненням та метаданими.
+Клас [PharFileInfo](class.pharfileinfo.md) розширює клас [SplFileInfo](class.splfileinfo.md) та додає кілька методів для роботи з деталями, властивими файлам, які містяться в Phar-архіві, такими як робота зі стисненням та метаданими.

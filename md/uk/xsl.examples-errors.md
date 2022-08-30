@@ -1,12 +1,12 @@
 Обробка помилок за допомогою функцій обробки помилок libxml
 
--   [« Файлы collection.xml и collection.xsl для примеров](xsl.examples-collection.html)
+-   [« Файли collection.xml та collection.xsl для прикладів](xsl.examples-collection.html)
     
--   [XSLTProcessor »](class.xsltprocessor.html)
+-   [XSLTProcessor »](class.xsltprocessor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](xsl.examples.html)
+-   [Приклади](xsl.examples.md)
     
 -   Обробка помилок за допомогою функцій обробки помилок libxml
     
@@ -25,13 +25,13 @@ Apple Banana Cherry
 
 Містить неправильне "select" вираз.
 
-[http://www.w3.org/1999/XSL/Transform">](http://www.w3.org/1999/XSL/Transform">)
+[http://www.w3.org/1999/XSL/Transform">](http://www.w3.org/1999/XSL/Transform%22%3E)
 
 [xsl:apply-templates/](xsl:apply-templates/)
 
 **Приклад #3 Збір та виведення помилок**
 
-Приклад нижче відловлює та відображає помилки libxml, що з'являються під час виклику методу [XSLTProcessor::importStyleSheet()](xsltprocessor.importstylesheet.html) зі стилем, що містить помилки.
+Приклад нижче відловлює та відображає помилки libxml, що з'являються під час виклику методу [XSLTProcessor::importStyleSheet()](xsltprocessor.importstylesheet.md) зі стилем, що містить помилки.
 
 ```php
 <?php

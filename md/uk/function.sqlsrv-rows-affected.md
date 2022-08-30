@@ -4,9 +4,9 @@
     
 -   [sqlsrvsendstreamdata »](function.sqlsrv-send-stream-data.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.md)
     
 -   Повертає кількість рядків, змінених останнім виконаним запитом INSERT, UPDATE чи DELETE
     

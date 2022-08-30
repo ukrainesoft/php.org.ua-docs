@@ -1,12 +1,12 @@
 Приватний конструктор
 
--   [« Transliterator](class.transliterator.html)
+-   [« Transliterator](class.transliterator.md)
     
--   [Transliterator::create »](transliterator.create.html)
+-   [Transliterator::create »](transliterator.create.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Transliterator](class.transliterator.html)
+-   [Transliterator](class.transliterator.md)
     
 -   Приватний конструктор
     
@@ -23,7 +23,7 @@ final private **Transliterator::construct**
 
 Цей метод може бути викликаний. Він існує лише для закриття можливості створення об'єкта за допомогою оператора [new](language.oop5.basic.html#language.oop5.basic.new)
 
-Замість нього використовуйте фабричні методи [Transliterator::create()](transliterator.create.html) або [Transliterator::createFromRules()](transliterator.createfromrules.html)
+Замість нього використовуйте фабричні методи [Transliterator::create()](transliterator.create.md) або [Transliterator::createFromRules()](transliterator.createfromrules.md)
 
 ### Список параметрів
 
@@ -31,5 +31,5 @@ final private **Transliterator::construct**
 
 ### Дивіться також
 
--   [Transliterator::create()](transliterator.create.html) - Створити транслітератор
--   [Transliterator::createFromRules()](transliterator.createfromrules.html) - Створити транслітератор на основі правил
+-   [Transliterator::create()](transliterator.create.md) - Створити транслітератор
+-   [Transliterator::createFromRules()](transliterator.createfromrules.md) - Створити транслітератор на основі правил

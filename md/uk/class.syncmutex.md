@@ -1,6 +1,6 @@
 Клас SyncMutex
 
--   [« Предопределённые константы](sync.constants.html)
+-   [« Обумовлені константи](sync.constants.html)
     
 -   [SyncMutex::construct »](syncmutex.construct.html)
     

@@ -1,12 +1,12 @@
 Створює вертикальне дзеркальне відображення
 
--   [« Gmagick::equalizeimage](gmagick.equalizeimage.html)
+-   [« Gmagick::equalizeimage](gmagick.equalizeimage.md)
     
--   [Gmagick::flopimage »](gmagick.flopimage.html)
+-   [Gmagick::flopimage »](gmagick.flopimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Створює вертикальне дзеркальне відображення
     
@@ -31,7 +31,7 @@ public Gmagick::flipimage(): Gmagick
 
 ### Значення, що повертаються
 
-Перевернутий об'єкт [Gmagick](class.gmagick.html)
+Перевернутий об'єкт [Gmagick](class.gmagick.md)
 
 ### Помилки
 
@@ -39,4 +39,4 @@ public Gmagick::flipimage(): Gmagick
 
 ### Дивіться також
 
--   [Gmagick::flopimage()](gmagick.flopimage.html) - Створює горизонтальне дзеркальне відображення
+-   [Gmagick::flopimage()](gmagick.flopimage.md) - Створює горизонтальне дзеркальне відображення

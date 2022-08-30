@@ -43,7 +43,7 @@ mysqli_refresh(mysqli $mysql, int $flags): bool
 
 `flags`
 
-Налаштування оновлення задаються константами MYSQLIREFRESH, які описані у розділі документації [Константы MySQLi](mysqli.constants.html)
+Налаштування оновлення задаються константами MYSQLIREFRESH, які описані у розділі документації [Константи MySQLi](mysqli.constants.html)
 
 Дивіться також офіційну документацію [» MySQL Refresh](http://dev.mysql.com/doc/mysql/en/mysql-refresh.html)
 

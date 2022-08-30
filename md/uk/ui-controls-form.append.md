@@ -4,7 +4,7 @@
     
 -   [ОЙControlsForm::delete »](ui-controls-form.delete.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsForm](class.ui-controls-form.html)
     

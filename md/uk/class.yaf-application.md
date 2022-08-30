@@ -1,12 +1,12 @@
 Клас YafApplication
 
--   [« Конфигурация приложения](yaf.appconfig.html)
+-   [« Конфигурация приложения](yaf.appconfig.md)
     
 -   [YafApplication::app »](yaf-application.app.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yaf](book.yaf.html)
+-   [Yaf](book.yaf.md)
     
 -   Клас YafApplication
     

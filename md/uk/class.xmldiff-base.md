@@ -1,12 +1,12 @@
 Клас XMLDiffBase
 
--   [« Установка](xmldiff.installation.html)
+-   [« Установка](xmldiff.installation.md)
     
 -   [XMLDiffBase::construct »](xmldiff-base.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLDiff](book.xmldiff.html)
+-   [XMLDiff](book.xmldiff.md)
     
 -   Клас XMLDiffBase
     

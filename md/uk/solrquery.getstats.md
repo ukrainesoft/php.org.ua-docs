@@ -1,12 +1,12 @@
 Повертає, чи включена статистика
 
--   [« SolrQuery::getStart](solrquery.getstart.html)
+-   [« SolrQuery::getStart](solrquery.getstart.md)
     
--   [SolrQuery::getStatsFacets »](solrquery.getstatsfacets.html)
+-   [SolrQuery::getStatsFacets »](solrquery.getstatsfacets.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає, чи включена статистика
     

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](pcntl.setup.html)
+-   [« Встановлення та налаштування](pcntl.setup.md)
     
--   [Установка »](pcntl.installation.html)
+-   [Установка »](pcntl.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](pcntl.setup.html)
+-   [Встановлення та налаштування](pcntl.setup.md)
     
 -   Вимоги
     

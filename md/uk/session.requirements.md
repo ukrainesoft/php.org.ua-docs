@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](session.setup.html)
+-   [« Встановлення та налаштування](session.setup.html)
     
 -   [Установка »](session.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](session.setup.html)
+-   [Встановлення та налаштування](session.setup.html)
     
 -   Вимоги
     

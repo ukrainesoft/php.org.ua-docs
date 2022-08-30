@@ -1,12 +1,12 @@
 Переміщує ітератор на одну позицію вперед або на початок
 
--   [« InfiniteIterator::construct](infiniteiterator.construct.html)
+-   [« InfiniteIterator::construct](infiniteiterator.construct.md)
     
--   [IteratorIterator »](class.iteratoriterator.html)
+-   [IteratorIterator »](class.iteratoriterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [InfiniteIterator](class.infiniteiterator.html)
+-   [InfiniteIterator](class.infiniteiterator.md)
     
 -   Переміщує ітератор на одну позицію вперед або на початок
     
@@ -23,11 +23,11 @@ InfiniteIterator::next — Переміщує ітератор на одну п�
 public InfiniteIterator::next(): void
 ```
 
-Переміщує внутрішній покажчик об'єкта [Iterator](class.iterator.html) на наступний елемент або перший елемент, якщо поточний елемент був останнім.
+Переміщує внутрішній покажчик об'єкта [Iterator](class.iterator.md) на наступний елемент або перший елемент, якщо поточний елемент був останнім.
 
 > **Зауваження**
 > 
-> Ітератор [InfiniteIterator](class.infiniteiterator.html) зупиняється, коли об'єкт, що зберігається всередині [Iterator](class.iterator.html) виявляється порожнім.
+> Ітератор [InfiniteIterator](class.infiniteiterator.md) зупиняється, коли об'єкт, що зберігається всередині [Iterator](class.iterator.md) виявляється порожнім.
 
 ### Список параметрів
 
@@ -39,4 +39,4 @@ public InfiniteIterator::next(): void
 
 ### Дивіться також
 
--   [InfiniteIterator::construct()](infiniteiterator.construct.html) - Конструктор класу InfiniteIterator
+-   [InfiniteIterator::construct()](infiniteiterator.construct.md) - Конструктор класу InfiniteIterator

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](runkit7.setup.html)
+-   [« Встановлення та налаштування](runkit7.setup.md)
     
--   [Установка »](runkit7.installation.html)
+-   [Установка »](runkit7.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](runkit7.setup.html)
+-   [Встановлення та налаштування](runkit7.setup.md)
     
 -   Вимоги
     

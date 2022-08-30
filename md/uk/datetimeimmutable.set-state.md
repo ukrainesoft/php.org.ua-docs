@@ -1,12 +1,12 @@
 Обробник setstate
 
--   [« DateTimeImmutable::modify](datetimeimmutable.modify.html)
+-   [« DateTimeImmutable::modify](datetimeimmutable.modify.md)
     
--   [DateTimeImmutable::setDate »](datetimeimmutable.setdate.html)
+-   [DateTimeImmutable::setDate »](datetimeimmutable.setdate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTimeImmutable](class.datetimeimmutable.html)
+-   [DateTimeImmutable](class.datetimeimmutable.md)
     
 -   Обробник setstate
     

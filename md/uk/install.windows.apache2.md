@@ -1,12 +1,12 @@
 Apache 2.x у Microsoft Windows
 
--   [Командний рядок PHP у Microsoft Windows](install.windows.commandline.html)
+-   [Командний рядок PHP у Microsoft Windows](install.windows.commandline.md)
     
--   [Стандартные проблемы PHP под Windows »](install.windows.troubleshooting.html)
+-   [Стандартні проблеми PHP під Windows »](install.windows.troubleshooting.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка в системах Windows](install.windows.html)
+-   [Установка в системах Windows](install.windows.md)
     
 -   Apache 2.x у Microsoft Windows
     
@@ -17,11 +17,11 @@ Apache 2.x у Microsoft Windows
 
 > **Зауваження**
 > 
-> Спочатку слід прочитати [шаги ручной установки](install.windows.manual.html)
+> Спочатку слід прочитати [шаги ручной установки](install.windows.manual.md)
 
 Вкрай рекомендується звернутися до [»  Документации Apache](http://httpd.apache.org/docs/current/), щоб отримати базове уявлення про сервер Apache 2.x. Також подумайте про читання [»  Примечаний для Windows](http://httpd.apache.org/docs/current/platform/windows.html) для Apache 2.x перед читанням цього посібника.
 
-Завантажте останню версію [» Apache 2.x](https://www.apachelounge.com/download/) та відповідну версію PHP. Дотримуйтесь [шагам ручной установки](install.windows.manual.html) і повертайтеся, щоб продовжити інтеграцію PHP та Apache.
+Завантажте останню версію [» Apache 2.x](https://www.apachelounge.com/download/) та відповідну версію PHP. Дотримуйтесь [шагам ручной установки](install.windows.manual.md) і повертайтеся, щоб продовжити інтеграцію PHP та Apache.
 
 Існує три способи налаштувати PHP для роботи з Apache 2.x у Windows. PHP можна запускати як обробник, як CGI або під FastCGI.
 

@@ -1,12 +1,12 @@
 Конструктор
 
--   [« SolrDocumentField](class.solrdocumentfield.html)
+-   [« SolrDocumentField](class.solrdocumentfield.md)
     
--   [SolrDocumentField::destruct »](solrdocumentfield.destruct.html)
+-   [SolrDocumentField::destruct »](solrdocumentfield.destruct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocumentField](class.solrdocumentfield.html)
+-   [SolrDocumentField](class.solrdocumentfield.md)
     
 -   Конструктор
     

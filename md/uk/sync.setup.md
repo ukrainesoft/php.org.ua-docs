@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.sync.html)
+-   [« Введение](intro.sync.md)
     
--   [Требования »](sync.requirements.html)
+-   [Вимоги »](sync.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Sync](book.sync.html)
+-   [Sync](book.sync.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](sync.requirements.html)
--   [Установка](sync.installation.html)
--   [Настройка во время выполнения](sync.configuration.html)
--   [Типы ресурсов](sync.resources.html)
+-   [Вимоги](sync.requirements.md)
+-   [Установка](sync.installation.md)
+-   [Налаштування під час виконання](sync.configuration.md)
+-   [Типи ресурсів](sync.resources.md)

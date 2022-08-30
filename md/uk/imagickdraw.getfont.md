@@ -1,12 +1,12 @@
 Повертає шрифт
 
--   [« ImagickDraw::getFillRule](imagickdraw.getfillrule.html)
+-   [« ImagickDraw::getFillRule](imagickdraw.getfillrule.md)
     
--   [ImagickDraw::getFontFamily »](imagickdraw.getfontfamily.html)
+-   [ImagickDraw::getFontFamily »](imagickdraw.getfontfamily.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Повертає шрифт
     

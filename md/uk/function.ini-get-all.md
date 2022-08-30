@@ -4,9 +4,9 @@
     
 -   [iniget »](function.ini-get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Отримує всі налаштування конфігурації
     
@@ -43,7 +43,7 @@ ini_get_all(?string $extension = null, bool $details = true): array|false
 
 Якщо `details` дорівнює **`false`**, значенням масиву буде відповідне поточне налаштування.
 
-Дивіться відповідний [раздел руководства](configuration.changes.modes.html), в якому наводиться опис рівнів доступу
+Дивіться відповідний [раздел руководства](configuration.changes.modes.md), в якому наводиться опис рівнів доступу
 
 > **Зауваження**
 > 
@@ -134,10 +134,10 @@ Array
 
 ### Дивіться також
 
--   [Як змінити налаштування конфігурації](configuration.changes.html)
+-   [Як змінити налаштування конфігурації](configuration.changes.md)
 -   [iniget()](function.ini-get.html) - Отримує значення налаштування конфігурації
 -   [inirestore()](function.ini-restore.html) - Відновлює налаштування конфігурації.
 -   [iniset()](function.ini-set.html) - Встановлює налаштування конфігурації
 -   [getloadedextensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
--   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP
--   [ReflectionExtension::getINIEntries()](reflectionextension.getinientries.html) - Отримання ini-налаштувань модуля
+-   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP
+-   [ReflectionExtension::getINIEntries()](reflectionextension.getinientries.md) - Отримання ini-налаштувань модуля

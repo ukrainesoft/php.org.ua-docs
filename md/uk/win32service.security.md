@@ -1,12 +1,12 @@
 Питання безпеки
 
--   [« Типы ресурсов](win32service.resources.html)
+-   [« Типи ресурсів](win32service.resources.md)
     
--   [Предопределённые константы »](win32service.constants.html)
+-   [Обумовлені константи »](win32service.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](win32service.setup.html)
+-   [Встановлення та налаштування](win32service.setup.md)
     
 -   Питання безпеки
     

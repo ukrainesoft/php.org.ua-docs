@@ -1,12 +1,12 @@
 Вступ
 
--   [« Gettext](book.gettext.html)
+-   [« Gettext](book.gettext.md)
     
--   [Установка и настройка »](gettext.setup.html)
+-   [Встановлення та налаштування »](gettext.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gettext](book.gettext.html)
+-   [Gettext](book.gettext.md)
     
 -   Вступ
     

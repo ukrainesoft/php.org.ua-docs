@@ -1,12 +1,12 @@
 Видаляє значення за вказаним індексом
 
--   [« ArrayObject::offsetSet](arrayobject.offsetset.html)
+-   [« ArrayObject::offsetSet](arrayobject.offsetset.md)
     
--   [ArrayObject::serialize »](arrayobject.serialize.html)
+-   [ArrayObject::serialize »](arrayobject.serialize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayObject](class.arrayobject.html)
+-   [ArrayObject](class.arrayobject.md)
     
 -   Видаляє значення за вказаним індексом
     

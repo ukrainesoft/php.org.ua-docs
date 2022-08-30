@@ -1,12 +1,12 @@
 Визначає колір як прозорий
 
--   [« imagecolorstotal](function.imagecolorstotal.html)
+-   [« imagecolorstotal](function.imagecolorstotal.md)
     
--   [imageconvolution »](function.imageconvolution.html)
+-   [imageconvolution »](function.imageconvolution.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Визначає колір як прозорий
     
@@ -29,11 +29,11 @@ imagecolortransparent(GdImage $image, ?int $color = null): int
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `color`
 
-Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.html)
+Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.md)
 
 ### Значення, що повертаються
 
@@ -41,10 +41,10 @@ imagecolortransparent(GdImage $image, ?int $color = null): int
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
-|        | `color` тепер допускає значення null.                                                            |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+|  | `color` тепер допускає значення null. |
 
 ### Приклади
 
@@ -77,7 +77,7 @@ imagedestroy($im);
 
 > **Зауваження**
 > 
-> Прозорість копіюється лише функцією [imagecopymerge()](function.imagecopymerge.html) і для truecolor-зображень. У разі використання функції [imagecopy()](function.imagecopy.html) або палітрового зображення значення альфа компонента не копіюється.
+> Прозорість копіюється лише функцією [imagecopymerge()](function.imagecopymerge.md) і для truecolor-зображень. У разі використання функції [imagecopy()](function.imagecopy.md) або палітрового зображення значення альфа компонента не копіюється.
 
 > **Зауваження**
 > 

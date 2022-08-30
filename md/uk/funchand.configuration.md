@@ -2,11 +2,11 @@
 
 -   [« Установка](funchand.installation.html)
     
--   [Типы ресурсов »](funchand.resources.html)
+-   [Типи ресурсів »](funchand.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](funchand.setup.html)
+-   [Встановлення та налаштування](funchand.setup.html)
     
 -   Налаштування під час виконання
     

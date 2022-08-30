@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](tokenizer.requirements.html)
+-   [« Вимоги](tokenizer.requirements.html)
     
--   [Настройка во время выполнения »](tokenizer.configuration.html)
+-   [Налаштування під час виконання »](tokenizer.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](tokenizer.setup.html)
+-   [Встановлення та налаштування](tokenizer.setup.html)
     
 -   Встановлення
     

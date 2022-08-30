@@ -1,12 +1,12 @@
 Опис
 
--   [« ImagickPixel::getHSL](imagickpixel.gethsl.html)
+-   [« ImagickPixel::getHSL](imagickpixel.gethsl.md)
     
--   [ImagickPixel::isPixelSimilar »](imagickpixel.ispixelsimilar.html)
+-   [ImagickPixel::isPixelSimilar »](imagickpixel.ispixelsimilar.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickPixel](class.imagickpixel.html)
+-   [ImagickPixel](class.imagickpixel.md)
     
 -   Опис
     

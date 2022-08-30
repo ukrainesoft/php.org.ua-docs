@@ -1,28 +1,28 @@
 Клієнтська бібліотека роботи з URL
 
--   [« Другие службы](refs.remote.other.html)
+-   [« Інші служби](refs.remote.other.md)
     
--   [Введение »](intro.curl.html)
+-   [Введение »](intro.curl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Другие службы](refs.remote.other.html)
+-   [Інші служби](refs.remote.other.md)
     
 -   Клієнтська бібліотека роботи з URL
     
 
 # Клієнтська бібліотека роботи з URL
 
--   [Введение](intro.curl.html)
--   [Установка и настройка](curl.setup.html)
-    -   [Требования](curl.requirements.html)
-    -   [Установка](curl.installation.html)
-    -   [Настройка во время выполнения](curl.configuration.html)
-    -   [Типы ресурсов](curl.resources.html)
--   [Предопределённые константы](curl.constants.html)
--   [Примеры](curl.examples.html)
+-   [Введение](intro.curl.md)
+-   [Встановлення та налаштування](curl.setup.md)
+    -   [Вимоги](curl.requirements.md)
+    -   [Установка](curl.installation.md)
+    -   [Налаштування під час виконання](curl.configuration.md)
+    -   [Типи ресурсів](curl.resources.md)
+-   [Обумовлені константи](curl.constants.md)
+-   [Приклади](curl.examples.md)
     -   [Простий приклад використання curl](curl.examples-basic.html)
--   [Функции cURL](ref.curl.html)
+-   [Функции cURL](ref.curl.md)
     -   [curlclose](function.curl-close.html) - Завершує сеанс cURL
     -   [curlcopyhandle](function.curl-copy-handle.html) — Копіює дескриптор cURL разом із усіма його налаштуваннями
     -   [curlerrno](function.curl-errno.html) — Повертає код останньої помилки
@@ -55,15 +55,15 @@
     -   [curlstrerror](function.curl-strerror.html) — Отримати текстовий опис для коду помилки
     -   [curlunescape](function.curl-unescape.html) — Декодує закодований URL-рядок
     -   [curlversion](function.curl-version.html) — Повертає версію cURL
--   [CurlHandle](class.curlhandle.html) - Клас CurlHandle
--   [CurlMultiHandle](class.curlmultihandle.html) - Клас CurlMultiHandle
--   [CurlShareHandle](class.curlsharehandle.html) - Клас CurlShareHandle
--   [CURLFile](class.curlfile.html) - Клас CURLFile
-    -   [CURLFile::construct](curlfile.construct.html) — Створює об'єкт CURLFile
-    -   [CURLFile::getFilename](curlfile.getfilename.html) — Повертає ім'я файлу на сервері
-    -   [CURLFile::getMimeType](curlfile.getmimetype.html) - Повертає MIME-тип файлу
-    -   [CURLFile::getPostFilename](curlfile.getpostfilename.html) — Повертає ім'я файлу, що надсилається POST-запитом
-    -   [CURLFile::setMimeType](curlfile.setmimetype.html) - Встановлює MIME-тип
-    -   [CURLFile::setPostFilename](curlfile.setpostfilename.html) — Встановлює ім'я файлу для надсилання методом POST
--   [CURLStringFile](class.curlstringfile.html) - Клас CURLStringFile
-    -   [CURLStringFile::construct](curlstringfile.construct.html) — Створює об'єкт CURLStringFile
+-   [CurlHandle](class.curlhandle.md) - Клас CurlHandle
+-   [CurlMultiHandle](class.curlmultihandle.md) - Клас CurlMultiHandle
+-   [CurlShareHandle](class.curlsharehandle.md) - Клас CurlShareHandle
+-   [CURLFile](class.curlfile.md) - Клас CURLFile
+    -   [CURLFile::construct](curlfile.construct.md) — Створює об'єкт CURLFile
+    -   [CURLFile::getFilename](curlfile.getfilename.md) — Повертає ім'я файлу на сервері
+    -   [CURLFile::getMimeType](curlfile.getmimetype.md) - Повертає MIME-тип файлу
+    -   [CURLFile::getPostFilename](curlfile.getpostfilename.md) — Повертає ім'я файлу, що надсилається POST-запитом
+    -   [CURLFile::setMimeType](curlfile.setmimetype.md) - Встановлює MIME-тип
+    -   [CURLFile::setPostFilename](curlfile.setpostfilename.md) — Встановлює ім'я файлу для надсилання методом POST
+-   [CURLStringFile](class.curlstringfile.md) - Клас CURLStringFile
+    -   [CURLStringFile::construct](curlstringfile.construct.md) — Створює об'єкт CURLStringFile

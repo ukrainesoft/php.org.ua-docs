@@ -1,12 +1,12 @@
 Переміщує ітератор до наступного елемента
 
--   [« NoRewindIterator::key](norewinditerator.key.html)
+-   [« NoRewindIterator::key](norewinditerator.key.md)
     
--   [NoRewindIterator::rewind »](norewinditerator.rewind.html)
+-   [NoRewindIterator::rewind »](norewinditerator.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [NoRewindIterator](class.norewinditerator.html)
+-   [NoRewindIterator](class.norewinditerator.md)
     
 -   Переміщує ітератор до наступного елемента
     
@@ -39,4 +39,4 @@ public NoRewindIterator::next(): void
 
 ### Дивіться також
 
--   [NoRewindIterator::rewind()](norewinditerator.rewind.html) - Запобігає поверненню внутрішнього ітератора на початок
+-   [NoRewindIterator::rewind()](norewinditerator.rewind.md) - Запобігає поверненню внутрішнього ітератора на початок

@@ -1,12 +1,12 @@
 Повертає коментар ZIP-архіву
 
--   [« ZipArchive::extractTo](ziparchive.extractto.html)
+-   [« ZipArchive::extractTo](ziparchive.extractto.md)
     
--   [ZipArchive::getCommentIndex »](ziparchive.getcommentindex.html)
+-   [ZipArchive::getCommentIndex »](ziparchive.getcommentindex.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Повертає коментар ZIP-архіву
     

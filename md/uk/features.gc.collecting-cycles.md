@@ -1,12 +1,12 @@
 Збір циклічних посилань
 
--   [« Основы подсчёта ссылок](features.gc.refcounting-basics.html)
+-   [« Основи підрахунку посилань](features.gc.refcounting-basics.html)
     
 -   [Питання продуктивності »](features.gc.performance-considerations.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Сборка мусора](features.gc.html)
+-   [Сборка мусора](features.gc.md)
     
 -   Збір циклічних посилань
     

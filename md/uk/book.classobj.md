@@ -1,28 +1,28 @@
 Інформація про клас та об'єкт
 
--   [« usort](function.usort.html)
+-   [« usort](function.usort.md)
     
--   [Введение »](intro.classobj.html)
+-   [Введение »](intro.classobj.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модули, относящиеся к переменным и типам](refs.basic.vartype.html)
+-   [Модулі, що відносяться до змінних та типів](refs.basic.vartype.md)
     
 -   Інформація про клас та об'єкт
     
 
 # Інформація про клас та об'єкт
 
--   [Введение](intro.classobj.html)
--   [Установка и настройка](classobj.setup.html)
-    -   [Требования](classobj.requirements.html)
-    -   [Установка](classobj.installation.html)
-    -   [Настройка во время выполнения](classobj.configuration.html)
-    -   [Типы ресурсов](classobj.resources.html)
--   [Предопределённые константы](classobj.constants.html)
--   [Примеры](classobj.examples.html)
--   [Функції роботи з класами та об'єктами](ref.classobj.html)
-    -   [autoload](function.autoload.html) — Спроба завантажити невизначений клас
+-   [Введение](intro.classobj.md)
+-   [Встановлення та налаштування](classobj.setup.md)
+    -   [Вимоги](classobj.requirements.md)
+    -   [Установка](classobj.installation.md)
+    -   [Налаштування під час виконання](classobj.configuration.md)
+    -   [Типи ресурсів](classobj.resources.md)
+-   [Обумовлені константи](classobj.constants.md)
+-   [Приклади](classobj.examples.md)
+-   [Функції роботи з класами та об'єктами](ref.classobj.md)
+    -   [autoload](function.autoload.md) — Спроба завантажити невизначений клас
     -   [classalias](function.class-alias.html) - Створює псевдонім для зазначеного класу
     -   [classexists](function.class-exists.html) — Перевіряє, чи було оголошено клас
     -   [enumexists](function.enum-exists.html) — Перевіряє, чи визначено перерахування

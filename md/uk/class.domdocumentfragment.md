@@ -1,12 +1,12 @@
 Клас DOMDocumentFragment
 
--   [« DOMDocument::xinclude](domdocument.xinclude.html)
+-   [« DOMDocument::xinclude](domdocument.xinclude.md)
     
--   [DOMDocumentFragment::appendXML »](domdocumentfragment.appendxml.html)
+-   [DOMDocumentFragment::appendXML »](domdocumentfragment.appendxml.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOM](book.dom.html)
+-   [DOM](book.dom.md)
     
 -   Клас DOMDocumentFragment
     
@@ -162,12 +162,12 @@ childElementCount
 
 ## список змін
 
-| Версия | Описание                                                                                        |
-|--------|-------------------------------------------------------------------------------------------------|
-|        | Додані властивості першихелементівChild, LastElementChild і ChildElementCount.                  |
-|        | Клас **DOMDocumentFragment** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Додані властивості першихелементівChild, LastElementChild і ChildElementCount. |
+|  | Клас **DOMDocumentFragment** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.md) |
 
 ## Зміст
 
--   [DOMDocumentFragment::appendXML](domdocumentfragment.appendxml.html) — Додавання необроблених даних XML
--   [DOMDocumentFragment::construct](domdocumentfragment.construct.html) - Конструктор об'єкта DOMDocumentFragment
+-   [DOMDocumentFragment::appendXML](domdocumentfragment.appendxml.md) — Додавання необроблених даних XML
+-   [DOMDocumentFragment::construct](domdocumentfragment.construct.md) - Конструктор об'єкта DOMDocumentFragment

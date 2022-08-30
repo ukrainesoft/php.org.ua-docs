@@ -1,12 +1,12 @@
 Клас LuaSandboxFunction
 
--   [« LuaSandbox::wrapPhpFunction](luasandbox.wrapphpfunction.html)
+-   [« LuaSandbox::wrapPhpFunction](luasandbox.wrapphpfunction.md)
     
--   [LuaSandboxFunction::call »](luasandboxfunction.call.html)
+-   [LuaSandboxFunction::call »](luasandboxfunction.call.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LuaSandbox](book.luasandbox.html)
+-   [LuaSandbox](book.luasandbox.md)
     
 -   Клас LuaSandboxFunction
     
@@ -19,7 +19,7 @@
 
 Представляє функцію Lua, що дозволяє викликати її з PHP.
 
-Функція LuaSandboxFunction може бути отримана як значення, що повертається з Lua, як параметр, переданий в callback-функцію з Lua, або за допомогою [LuaSandbox::wrapPhpFunction()](luasandbox.wrapphpfunction.html) [LuaSandbox::loadString()](luasandbox.loadstring.html) або [LuaSandbox::loadBinary()](luasandbox.loadbinary.html)
+Функція LuaSandboxFunction може бути отримана як значення, що повертається з Lua, як параметр, переданий в callback-функцію з Lua, або за допомогою [LuaSandbox::wrapPhpFunction()](luasandbox.wrapphpfunction.md) [LuaSandbox::loadString()](luasandbox.loadstring.md) або [LuaSandbox::loadBinary()](luasandbox.loadbinary.md)
 
 ## Огляд класів
 
@@ -44,6 +44,6 @@ public dump(): string
 
 ## Зміст
 
--   [LuaSandboxFunction::call](luasandboxfunction.call.html) - Викликає Lua-функцію
--   [LuaSandboxFunction::construct](luasandboxfunction.construct.html) - Не використовується
--   [LuaSandboxFunction::dump](luasandboxfunction.dump.html) — Вивантажує функцію у вигляді BLOB
+-   [LuaSandboxFunction::call](luasandboxfunction.call.md) - Викликає Lua-функцію
+-   [LuaSandboxFunction::construct](luasandboxfunction.construct.md) - Не використовується
+-   [LuaSandboxFunction::dump](luasandboxfunction.dump.md) — Вивантажує функцію у вигляді BLOB

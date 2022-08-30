@@ -1,12 +1,12 @@
 Псевдонім ocifieldtyperaw
 
--   [« ocicolumntype](function.ocicolumntype.html)
+-   [« ocicolumntype](function.ocicolumntype.md)
     
--   [ocicommit »](function.ocicommit.html)
+-   [ocicommit »](function.ocicommit.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Псевдонім ocifieldtyperaw
     

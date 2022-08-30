@@ -1,12 +1,12 @@
 Отримати перерахування з ідентифікаторів системних часових поясів за умовами фільтрації
 
--   [« IntlTimeZone::createTimeZone](intltimezone.createtimezone.html)
+-   [« IntlTimeZone::createTimeZone](intltimezone.createtimezone.md)
     
--   [IntlTimeZone::fromDateTimeZone »](intltimezone.fromdatetimezone.html)
+-   [IntlTimeZone::fromDateTimeZone »](intltimezone.fromdatetimezone.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlTimeZone](class.intltimezone.html)
+-   [IntlTimeZone](class.intltimezone.md)
     
 -   Отримати перерахування з ідентифікаторів системних часових поясів за умовами фільтрації
     
@@ -47,4 +47,4 @@ intltz_create_time_zone_id_enumeration(int $type, ?string $region = null, ?int $
 
 ### Значення, що повертаються
 
-Повертає [IntlIterator](class.intliterator.html) або **`false`** у разі виникнення помилки.
+Повертає [IntlIterator](class.intliterator.md) або **`false`** у разі виникнення помилки.

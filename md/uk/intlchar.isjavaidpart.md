@@ -1,12 +1,12 @@
 Перевірити, чи є символ допустимим в ідентифікаторі Java
 
--   [« IntlChar::isISOControl](intlchar.isisocontrol.html)
+-   [« IntlChar::isISOControl](intlchar.isisocontrol.md)
     
--   [IntlChar::isJavaIDStart »](intlchar.isjavaidstart.html)
+-   [IntlChar::isJavaIDStart »](intlchar.isjavaidstart.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити, чи є символ допустимим в ідентифікаторі Java
     
@@ -25,7 +25,7 @@ public static IntlChar::isJavaIDPart(int|string $codepoint): ?bool
 
 Перевіряє, чи символ допустимий в ідентифікаторі Java.
 
-На додаток до [IntlChar::isIDPart()](intlchar.isidpart.html) **`true`** повертається для категорії "Sc" (символ грошової одиниці).
+На додаток до [IntlChar::isIDPart()](intlchar.isidpart.md) **`true`** повертається для категорії "Sc" (символ грошової одиниці).
 
 ### Список параметрів
 
@@ -61,8 +61,8 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isIDIgnorable()](intlchar.isidignorable.html) - Перевірити, чи символ ігнорується
--   [IntlChar::isIDPart()](intlchar.isidpart.html) - Перевірити, чи можна використовувати символ в ідентифікаторі
--   [IntlChar::isJavaIDStart()](intlchar.isjavaidstart.html) - Перевірити, чи може символ бути першим в ідентифікаторі Java
--   [IntlChar::isalpha()](intlchar.isalpha.html) - Перевірити, чи є символ літерою
--   [IntlChar::isdigit()](intlchar.isdigit.html) - Перевірити, чи є символ цифрою
+-   [IntlChar::isIDIgnorable()](intlchar.isidignorable.md) - Перевірити, чи символ ігнорується
+-   [IntlChar::isIDPart()](intlchar.isidpart.md) - Перевірити, чи можна використовувати символ в ідентифікаторі
+-   [IntlChar::isJavaIDStart()](intlchar.isjavaidstart.md) - Перевірити, чи може символ бути першим в ідентифікаторі Java
+-   [IntlChar::isalpha()](intlchar.isalpha.md) - Перевірити, чи є символ літерою
+-   [IntlChar::isdigit()](intlchar.isdigit.md) - Перевірити, чи є символ цифрою

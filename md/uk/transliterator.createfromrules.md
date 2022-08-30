@@ -1,12 +1,12 @@
 Створити транслітератор на основі правил
 
--   [« Transliterator::create](transliterator.create.html)
+-   [« Transliterator::create](transliterator.create.md)
     
--   [Transliterator::createInverse »](transliterator.createinverse.html)
+-   [Transliterator::createInverse »](transliterator.createinverse.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Transliterator](class.transliterator.html)
+-   [Transliterator](class.transliterator.md)
     
 -   Створити транслітератор на основі правил
     
@@ -51,9 +51,9 @@ transliterator_create_from_rules(string $rules, int $direction = Transliterator:
 
 ### Значення, що повертаються
 
-Повертає об'єкт [Transliterator](class.transliterator.html) або **`null`** у разі виникнення помилки.
+Повертає об'єкт [Transliterator](class.transliterator.md) або **`null`** у разі виникнення помилки.
 
 ### Дивіться також
 
--   [Transliterator::getErrorMessage()](transliterator.geterrormessage.html) - Отримати останнє повідомлення про помилку
--   [Transliterator::create()](transliterator.create.html) - Створити транслітератор
+-   [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) - Отримати останнє повідомлення про помилку
+-   [Transliterator::create()](transliterator.create.md) - Створити транслітератор

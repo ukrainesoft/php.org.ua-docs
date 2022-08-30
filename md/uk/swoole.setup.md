@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.swoole.html)
+-   [« Введение](intro.swoole.md)
     
--   [Требования »](swoole.requirements.html)
+-   [Вимоги »](swoole.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Swoole](book.swoole.html)
+-   [Swoole](book.swoole.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](swoole.requirements.html)
--   [Установка](swoole.installation.html)
--   [Настройка во время выполнения](swoole.configuration.html)
--   [Типы ресурсов](swoole.resources.html)
+-   [Вимоги](swoole.requirements.md)
+-   [Установка](swoole.installation.md)
+-   [Налаштування під час виконання](swoole.configuration.md)
+-   [Типи ресурсів](swoole.resources.md)

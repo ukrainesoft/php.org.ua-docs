@@ -1,12 +1,12 @@
 Вступ
 
--   [« Семафоры](book.sem.html)
+-   [« Семафори](book.sem.html)
     
--   [Установка и настройка »](sem.setup.html)
+-   [Встановлення та налаштування »](sem.setup.html)
     
 -   [PHP Manual](index.html)
     
--   [Семафоры](book.sem.html)
+-   [Семафори](book.sem.html)
     
 -   Вступ
     

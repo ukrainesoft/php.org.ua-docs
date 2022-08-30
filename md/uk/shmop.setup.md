@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.shmop.html)
+-   [« Введение](intro.shmop.md)
     
--   [Требования »](shmop.requirements.html)
+-   [Вимоги »](shmop.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Управление разделяемой памятью](book.shmop.html)
+-   [Управление разделяемой памятью](book.shmop.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](shmop.requirements.html)
--   [Установка](shmop.installation.html)
--   [Настройка во время выполнения](shmop.configuration.html)
--   [Типы ресурсов](shmop.resources.html)
+-   [Вимоги](shmop.requirements.md)
+-   [Установка](shmop.installation.md)
+-   [Налаштування під час виконання](shmop.configuration.md)
+-   [Типи ресурсів](shmop.resources.md)

@@ -4,7 +4,7 @@
     
 -   [ОЙDrawStroke::setMiterLimit »](ui-draw-stroke.setmiterlimit.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawStroke](class.ui-draw-stroke.html)
     

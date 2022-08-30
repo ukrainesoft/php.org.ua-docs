@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](mbstring.setup.html)
+-   [« Встановлення та налаштування](mbstring.setup.md)
     
--   [Установка »](mbstring.installation.html)
+-   [Установка »](mbstring.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mbstring.setup.html)
+-   [Встановлення та налаштування](mbstring.setup.md)
     
 -   Вимоги
     

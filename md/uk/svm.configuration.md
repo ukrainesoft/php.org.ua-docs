@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](svm.installation.html)
+-   [« Установка](svm.installation.md)
     
--   [Типы ресурсов »](svm.resources.html)
+-   [Типи ресурсів »](svm.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](svm.setup.html)
+-   [Встановлення та налаштування](svm.setup.md)
     
 -   Налаштування під час виконання
     

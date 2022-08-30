@@ -1,12 +1,12 @@
 Видаляє поле з документа
 
--   [« SolrInputDocument::construct](solrinputdocument.construct.html)
+-   [« SolrInputDocument::construct](solrinputdocument.construct.md)
     
--   [SolrInputDocument::destruct »](solrinputdocument.destruct.html)
+-   [SolrInputDocument::destruct »](solrinputdocument.destruct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrInputDocument](class.solrinputdocument.html)
+-   [SolrInputDocument](class.solrinputdocument.md)
     
 -   Видаляє поле з документа
     

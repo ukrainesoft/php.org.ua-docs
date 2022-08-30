@@ -1,12 +1,12 @@
 MySQL драйвери та плагіни
 
--   [« Class Tree](mongodb.exceptions.tree.html)
+-   [« Class Tree](mongodb.exceptions.tree.md)
     
--   [Огляд PHP драйверів MySQL »](mysql.html)
+-   [Огляд PHP драйверів MySQL »](mysql.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.html)
+-   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
     
 -   MySQL драйвери та плагіни
     
@@ -17,33 +17,33 @@ MySQL драйвери та плагіни
 
 У цьому розділі наведено огляд відмінностей та функціоналу різних модулів для роботи з MySQL.
 
--   [Огляд PHP драйверів MySQL](mysql.html)
-    -   [Огляд термінології](mysqlinfo.terminology.html)
-    -   [Выбор API](mysqlinfo.api.choosing.html)
-    -   [Выбор библиотеки](mysqlinfo.library.choosing.html)
-    -   [Основные понятия](mysqlinfo.concepts.html)
--   [MySQLi](book.mysqli.html) - Поліпшений модуль MySQL (MySQL Improved)
-    -   [Введение](intro.mysqli.html)
-    -   [Краткий обзор](mysqli.overview.html)
-    -   [Краткое руководство](mysqli.quickstart.html)
-    -   [Установка и настройка](mysqli.setup.html)
-    -   [Модуль mysqli та постійні з'єднання](mysqli.persistconns.html)
-    -   [Предопределённые константы](mysqli.constants.html)
-    -   [Основна інформація про функції модуля MySQLi](mysqli.summary.html)
-    -   [mysqli](class.mysqli.html) - Клас mysqli
+-   [Огляд PHP драйверів MySQL](mysql.md)
+    -   [Огляд термінології](mysqlinfo.terminology.md)
+    -   [Вибір API](mysqlinfo.api.choosing.md)
+    -   [Вибір бібліотеки](mysqlinfo.library.choosing.md)
+    -   [Основні поняття](mysqlinfo.concepts.md)
+-   [MySQLi](book.mysqli.md) - Поліпшений модуль MySQL (MySQL Improved)
+    -   [Введение](intro.mysqli.md)
+    -   [Краткий обзор](mysqli.overview.md)
+    -   [Краткое руководство](mysqli.quickstart.md)
+    -   [Встановлення та налаштування](mysqli.setup.md)
+    -   [Модуль mysqli та постійні з'єднання](mysqli.persistconns.md)
+    -   [Обумовлені константи](mysqli.constants.md)
+    -   [Основна інформація про функції модуля MySQLi](mysqli.summary.md)
+    -   [mysqli](class.mysqli.md) - Клас mysqli
     -   [mysqlistmt](class.mysqli-stmt.html) - The mysqlistmt class
     -   [mysqliresult](class.mysqli-result.html) - Клас mysqliresult
     -   [mysqlidriver](class.mysqli-driver.html) - Клас mysqlidriver
     -   [mysqliwarning](class.mysqli-warning.html) - Клас mysqliwarning
     -   [mysqlisqlexception](class.mysqli-sql-exception.html) - Клас mysqlisqlexception
-    -   [Синоніми та застарілі функції Mysqli](ref.mysqli.html)
-    -   [Список изменений](changelog.mysqli.html)
+    -   [Синоніми та застарілі функції Mysqli](ref.mysqli.md)
+    -   [Список изменений](changelog.mysqli.md)
 -   [Mysqlxdevapi](book.mysql-xdevapi.html)
     -   [Введение](intro.mysql-xdevapi.html)
-    -   [Установка и настройка](mysql-xdevapi.setup.html)
-    -   [Предопределённые константы](mysql-xdevapi.constants.html)
-    -   [Список изменений](changelog.mysql_xdevapi.html)
-    -   [Примеры](mysql-xdevapi.examples.html)
+    -   [Встановлення та налаштування](mysql-xdevapi.setup.html)
+    -   [Обумовлені константи](mysql-xdevapi.constants.html)
+    -   [Список изменений](changelog.mysql_xdevapi.md)
+    -   [Приклади](mysql-xdevapi.examples.html)
     -   [Функції Mysqlxdevapi](ref.mysql-xdevapi.html)
     -   [mysqlxdevapiBaseResult](class.mysql-xdevapi-baseresult.html) - Інтерфейс BaseResult
     -   [mysqlxdevapiClient](class.mysql-xdevapi-client.html) - Клас Client
@@ -77,21 +77,21 @@ MySQL драйвери та плагіни
     -   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html) - Клас TableSelect
     -   [mysqlxdevapiTableUpdate](class.mysql-xdevapi-tableupdate.html) - Клас TableUpdate
     -   [mysqlxdevapiWarning](class.mysql-xdevapi-warning.html) - Клас Warning
--   [MySQL (Original)](book.mysql.html) - Оригінальне API MySQL
-    -   [Введение](intro.mysql.html)
-    -   [Установка и настройка](mysql.setup.html)
-    -   [Список изменений](changelog.mysql.html)
-    -   [Предопределённые константы](mysql.constants.html)
-    -   [Примеры](mysql.examples.html)
-    -   [MySQL](ref.mysql.html) - Функції СУБД MySQL
--   [Mysqlnd](book.mysqlnd.html) - Вбудований драйвер MySQL
-    -   [Введение](intro.mysqlnd.html)
-    -   [Обзор](mysqlnd.overview.html)
-    -   [Установка](mysqlnd.install.html)
-    -   [Настройка во время выполнения](mysqlnd.config.html)
-    -   [Несумісності](mysqlnd.incompatibilities.html)
-    -   [Постоянное соединение](mysqlnd.persist.html)
-    -   [Статистика](mysqlnd.stats.html)
-    -   [Замечания](mysqlnd.notes.html)
-    -   [Управление памятью](mysqlnd.memory.html)
-    -   [API для плагинов к встроенному драйверу MySQL](mysqlnd.plugin.html)
+-   [MySQL (Original)](book.mysql.md) - Оригінальне API MySQL
+    -   [Введение](intro.mysql.md)
+    -   [Встановлення та налаштування](mysql.setup.md)
+    -   [Список изменений](changelog.mysql.md)
+    -   [Обумовлені константи](mysql.constants.md)
+    -   [Приклади](mysql.examples.md)
+    -   [MySQL](ref.mysql.md) - Функції СУБД MySQL
+-   [Mysqlnd](book.mysqlnd.md) - Вбудований драйвер MySQL
+    -   [Введение](intro.mysqlnd.md)
+    -   [Обзор](mysqlnd.overview.md)
+    -   [Установка](mysqlnd.install.md)
+    -   [Налаштування під час виконання](mysqlnd.config.md)
+    -   [Несумісності](mysqlnd.incompatibilities.md)
+    -   [Постоянное соединение](mysqlnd.persist.md)
+    -   [Статистика](mysqlnd.stats.md)
+    -   [Замечания](mysqlnd.notes.md)
+    -   [Управление памятью](mysqlnd.memory.md)
+    -   [API для плагинов к встроенному драйверу MySQL](mysqlnd.plugin.md)

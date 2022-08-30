@@ -2,21 +2,21 @@
 
 -   [« wddxserializevars](function.wddx-serialize-vars.html)
     
--   [Введение »](intro.xmldiff.html)
+-   [Введение »](intro.xmldiff.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Обработка XML](refs.xml.html)
+-   [Обработка XML](refs.xml.md)
     
 -   Порівняння та об'єднання XML
     
 
 # Порівняння та об'єднання XML
 
--   [Введение](intro.xmldiff.html)
--   [Установка и настройка](xmldiff.setup.html)
-    -   [Требования](xmldiff.requirements.html)
-    -   [Установка](xmldiff.installation.html)
+-   [Введение](intro.xmldiff.md)
+-   [Встановлення та налаштування](xmldiff.setup.md)
+    -   [Вимоги](xmldiff.requirements.md)
+    -   [Установка](xmldiff.installation.md)
 -   [XMLDiffBase](class.xmldiff-base.html) - Клас XMLDiffBase
     -   [XMLDiffBase::construct](xmldiff-base.construct.html) - Конструктор
     -   [XMLDiffBase::diff](xmldiff-base.diff.html) — Здійснює порівняння двох документів XML

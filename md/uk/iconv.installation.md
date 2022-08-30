@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](iconv.requirements.html)
+-   [« Вимоги](iconv.requirements.md)
     
--   [Настройка во время выполнения »](iconv.configuration.html)
+-   [Налаштування під час виконання »](iconv.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](iconv.setup.html)
+-   [Встановлення та налаштування](iconv.setup.md)
     
 -   Встановлення
     

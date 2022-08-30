@@ -1,12 +1,12 @@
 Отримати повідомлення
 
--   [« ZMQSocket::isPersistent](zmqsocket.ispersistent.html)
+-   [« ZMQSocket::isPersistent](zmqsocket.ispersistent.md)
     
--   [ZMQSocket::recvMulti »](zmqsocket.recvmulti.html)
+-   [ZMQSocket::recvMulti »](zmqsocket.recvmulti.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQSocket](class.zmqsocket.html)
+-   [ZMQSocket](class.zmqsocket.md)
     
 -   Отримати повідомлення
     
@@ -23,7 +23,7 @@ ZMQSocket::recv — Отримати повідомлення
 public ZMQSocket::recv(int $mode = 0): string
 ```
 
-Отримує повідомлення із сокету. За промовчанням отримання буде блокуватися доти, доки повідомлення не буде доступне, тільки якщо не встановлено прапорець **`ZMQ::MODE_DONTWAIT`**. Можна використовувати опцію сокету **`ZMQ::SOCKOPT_RCVMORE`** для отримання повідомлень, що складаються з декількох частин. Детальніше дивіться [ZMQSocket::setSockOpt()](zmqsocket.setsockopt.html)
+Отримує повідомлення із сокету. За промовчанням отримання буде блокуватися доти, доки повідомлення не буде доступне, тільки якщо не встановлено прапорець **`ZMQ::MODE_DONTWAIT`**. Можна використовувати опцію сокету **`ZMQ::SOCKOPT_RCVMORE`** для отримання повідомлень, що складаються з декількох частин. Детальніше дивіться [ZMQSocket::setSockOpt()](zmqsocket.setsockopt.md)
 
 ### Список параметрів
 

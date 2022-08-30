@@ -2,39 +2,39 @@ win32service
 
 -   [« variantxor](function.variant-xor.html)
     
--   [Введение »](intro.win32service.html)
+-   [Введение »](intro.win32service.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модулі лише для Windows](refs.utilspec.windows.html)
+-   [Модулі лише для Windows](refs.utilspec.windows.md)
     
 -   win32service
     
 
 # win32service
 
--   [Введение](intro.win32service.html)
--   [Установка и настройка](win32service.setup.html)
-    -   [Требования](win32service.requirements.html)
-    -   [Установка](win32service.installation.html)
-    -   [Настройка во время выполнения](win32service.configuration.html)
-    -   [Типы ресурсов](win32service.resources.html)
-    -   [Питання безпеки](win32service.security.html)
--   [Предопределённые константы](win32service.constants.html)
-    -   [Битовые маски типа службы Win32Service](win32service.constants.servicetype.html)
-    -   [Константы статуса службы Win32Service](win32service.constants.servicestatus.html)
-    -   [Константи обробки повідомлень службою Win32Service](win32service.constants.servicecontrol.html)
-    -   [Приймаються бітові маски обробки повідомлень службою Win32Service](win32service.constants.controlsaccepted.html)
-    -   [Константы типа запуска службы Win32Service](win32service.constants.servicestarttype.html)
-    -   [Константы контроля ошибок сервиса Win32Service](win32service.constants.errorcontrol.html)
-    -   [Константы флагов сервиса Win32Service](win32service.constants.serviceflag.html)
-    -   [Коды ошибок Win32](win32service.constants.errors.html)
-    -   [Базовые классы приоритетов Win32](win32service.constants.basepriorities.html)
+-   [Введение](intro.win32service.md)
+-   [Встановлення та налаштування](win32service.setup.md)
+    -   [Вимоги](win32service.requirements.md)
+    -   [Установка](win32service.installation.md)
+    -   [Налаштування під час виконання](win32service.configuration.md)
+    -   [Типи ресурсів](win32service.resources.md)
+    -   [Питання безпеки](win32service.security.md)
+-   [Обумовлені константи](win32service.constants.md)
+    -   [Побутові маски типу служби Win32Service](win32service.constants.servicetype.md)
+    -   [Константи статусу служби Win32Service](win32service.constants.servicestatus.md)
+    -   [Константи обробки повідомлень службою Win32Service](win32service.constants.servicecontrol.md)
+    -   [Приймаються бітові маски обробки повідомлень службою Win32Service](win32service.constants.controlsaccepted.md)
+    -   [Константи типу запуску служби Win32Service](win32service.constants.servicestarttype.md)
+    -   [Константи контролю помилок сервісу Win32Service](win32service.constants.errorcontrol.md)
+    -   [Константи прапорів сервісу Win32Service](win32service.constants.serviceflag.md)
+    -   [Коди помилок Win32](win32service.constants.errors.md)
+    -   [Базові класи пріоритетів Win32](win32service.constants.basepriorities.md)
     -   [Действия при восстановлении Win32](win32service.constants.recovery-action.html)
-    -   [Win32 Service informations](win32service.constants.serviceinfos.html)
--   [Win32ServiceException](class.win32serviceexception.html) - Клас Win32ServiceException
--   [Примеры](win32service.examples.html)
--   [win32service](ref.win32service.html)
+    -   [Win32 Service informations](win32service.constants.serviceinfos.md)
+-   [Win32ServiceException](class.win32serviceexception.md) - Клас Win32ServiceException
+-   [Приклади](win32service.examples.md)
+-   [win32service](ref.win32service.md)
     -   [win32continueservice](function.win32-continue-service.html) — Відновлює роботу зупиненої служби
     -   [win32createservice](function.win32-create-service.html) — Створює новий запис служби у базі даних SCM
     -   [win32deleteservice](function.win32-delete-service.html) — Видалення запису служби з бази даних SCM

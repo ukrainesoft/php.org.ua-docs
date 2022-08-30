@@ -59,4 +59,4 @@ Loaded php.ini: /usr/local/php/php.ini
 
 -   [phpiniscannedfiles()](function.php-ini-scanned-files.html) - Повертає список .ini-файлів, знайдених у додатковій ini-директорії
 -   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP
--   [Конфигурационный файл](configuration.file.html)
+-   [Конфігураційний файл](configuration.file.html)

@@ -4,9 +4,9 @@
     
 -   [snmp2set »](function.snmp2-set.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.md)
     
 -   Повертає всі об'єкти, включаючи їхній ідентифікатор
     

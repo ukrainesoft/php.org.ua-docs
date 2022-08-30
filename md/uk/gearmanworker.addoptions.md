@@ -1,12 +1,12 @@
 Додавання налаштувань обробника
 
--   [« GearmanWorker::addFunction](gearmanworker.addfunction.html)
+-   [« GearmanWorker::addFunction](gearmanworker.addfunction.md)
     
--   [GearmanWorker::addServer »](gearmanworker.addserver.html)
+-   [GearmanWorker::addServer »](gearmanworker.addserver.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanWorker](class.gearmanworker.html)
+-   [GearmanWorker](class.gearmanworker.md)
     
 -   Додавання налаштувань обробника
     
@@ -37,6 +37,6 @@ public GearmanWorker::addOptions(int $option): bool
 
 ### Дивіться також
 
--   [GearmanWorker::options()](gearmanworker.options.html) - Отримання налаштувань обробника
--   [GearmanClient::setOptions()](gearmanclient.setoptions.html) - Встановлення налаштувань клієнта
--   [GearmanClient::removeOptions()](gearmanclient.removeoptions.html) - Видалити опції клієнта
+-   [GearmanWorker::options()](gearmanworker.options.md) - Отримання налаштувань обробника
+-   [GearmanClient::setOptions()](gearmanclient.setoptions.md) - Встановлення налаштувань клієнта
+-   [GearmanClient::removeOptions()](gearmanclient.removeoptions.md) - Видалити опції клієнта

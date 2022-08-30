@@ -4,9 +4,9 @@
     
 -   [readlineinfo »](function.readline-info.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Readline](ref.readline.html)
+-   [Функции Readline](ref.readline.md)
     
 -   Зареєструвати функцію автодоповнення
     

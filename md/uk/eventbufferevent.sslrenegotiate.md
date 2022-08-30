@@ -1,12 +1,12 @@
 Повідомляє буферну подію розпочати перегляд SSL
 
--   [« EventBufferEvent::sslGetProtocol](eventbufferevent.sslgetprotocol.html)
+-   [« EventBufferEvent::sslGetProtocol](eventbufferevent.sslgetprotocol.md)
     
--   [EventBufferEvent::sslSocket »](eventbufferevent.sslsocket.html)
+-   [EventBufferEvent::sslSocket »](eventbufferevent.sslsocket.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Повідомляє буферну подію розпочати перегляд SSL
     

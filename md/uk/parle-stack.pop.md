@@ -4,7 +4,7 @@
     
 -   [ParleStack::push »](parle-stack.push.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ParleStack](class.parle-stack.html)
     

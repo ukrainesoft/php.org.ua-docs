@@ -4,9 +4,9 @@
     
 -   [tradertsf »](function.trader-tsf.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   1-денна швидкість зміни (ROC) потрійний гладкою EMA
     

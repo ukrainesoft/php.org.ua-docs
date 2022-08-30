@@ -4,7 +4,7 @@
     
 -   [CommonMarkParser::parse »](commonmark-parser.parse.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [CommonMarkParser](class.commonmark-parser.html)
     

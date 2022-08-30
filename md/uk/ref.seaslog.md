@@ -1,12 +1,12 @@
 Функції Seaslog
 
--   [« Примеры](seaslog.examples.html)
+-   [« Приклади](seaslog.examples.md)
     
 -   [seasloggetauthor »](function.seaslog-get-author.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Seaslog](book.seaslog.html)
+-   [Seaslog](book.seaslog.md)
     
 -   Функції Seaslog
     

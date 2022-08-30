@@ -1,12 +1,12 @@
 Кількість елементів у пулі опитування
 
--   [« ZMQPoll::clear](zmqpoll.clear.html)
+-   [« ZMQPoll::clear](zmqpoll.clear.md)
     
--   [ZMQPoll::getLastErrors »](zmqpoll.getlasterrors.html)
+-   [ZMQPoll::getLastErrors »](zmqpoll.getlasterrors.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQPoll](class.zmqpoll.html)
+-   [ZMQPoll](class.zmqpoll.md)
     
 -   Кількість елементів у пулі опитування
     

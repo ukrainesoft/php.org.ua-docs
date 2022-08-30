@@ -2,11 +2,11 @@
 
 -   [« Установка](sodium.installation.html)
     
--   [Типы ресурсов »](sodium.resources.html)
+-   [Типи ресурсів »](sodium.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](sodium.setup.html)
+-   [Встановлення та налаштування](sodium.setup.html)
     
 -   Налаштування під час виконання
     

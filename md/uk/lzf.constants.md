@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](lzf.resources.html)
+-   [« Типи ресурсів](lzf.resources.md)
     
--   [Функції LZF »](ref.lzf.html)
+-   [Функції LZF »](ref.lzf.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LZF](book.lzf.html)
+-   [LZF](book.lzf.md)
     
 -   Обумовлені константи
     

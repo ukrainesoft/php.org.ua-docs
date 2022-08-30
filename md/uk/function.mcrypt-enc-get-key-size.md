@@ -4,9 +4,9 @@
     
 -   [mcryptencgetmodesname »](function.mcrypt-enc-get-modes-name.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](ref.mcrypt.html)
+-   [Mcrypt](ref.mcrypt.md)
     
 -   Повертає максимальну допустиму довжину ключа алгоритму
     

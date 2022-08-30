@@ -1,12 +1,12 @@
 Повертає кількість елементів у наборі
 
--   [« QuickHashIntSet::exists](quickhashintset.exists.html)
+-   [« QuickHashIntSet::exists](quickhashintset.exists.md)
     
--   [QuickHashIntSet::loadFromFile »](quickhashintset.loadfromfile.html)
+-   [QuickHashIntSet::loadFromFile »](quickhashintset.loadfromfile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [QuickHashIntSet](class.quickhashintset.html)
+-   [QuickHashIntSet](class.quickhashintset.md)
     
 -   Повертає кількість елементів у наборі
     

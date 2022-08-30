@@ -1,12 +1,12 @@
 Встановити ім'я файлу або URI для схеми RelaxNG
 
--   [« XMLReader::setParserProperty](xmlreader.setparserproperty.html)
+-   [« XMLReader::setParserProperty](xmlreader.setparserproperty.md)
     
--   [XMLReader::setRelaxNGSchemaSource »](xmlreader.setrelaxngschemasource.html)
+-   [XMLReader::setRelaxNGSchemaSource »](xmlreader.setrelaxngschemasource.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLReader](class.xmlreader.html)
+-   [XMLReader](class.xmlreader.md)
     
 -   Встановити ім'я файлу або URI для схеми RelaxNG
     
@@ -37,6 +37,6 @@ public XMLReader::setRelaxNGSchema(?string $filename): bool
 
 ### Дивіться також
 
--   [XMLReader::setRelaxNGSchemaSource()](xmlreader.setrelaxngschemasource.html) - Встановлює дані, що містять схему RelaxNG
--   [XMLReader::setSchema()](xmlreader.setschema.html) - Перевірити документ за допомогою XSD
--   [XMLReader::isValid()](xmlreader.isvalid.html) - Показати, чи розбирається документ синтаксично правильним
+-   [XMLReader::setRelaxNGSchemaSource()](xmlreader.setrelaxngschemasource.md) - Встановлює дані, що містять схему RelaxNG
+-   [XMLReader::setSchema()](xmlreader.setschema.md) - Перевірити документ за допомогою XSD
+-   [XMLReader::isValid()](xmlreader.isvalid.md) - Показати, чи розбирається документ синтаксично правильним

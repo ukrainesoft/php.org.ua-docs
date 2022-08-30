@@ -1,12 +1,12 @@
 Встановлює нове значення за заданим індексом
 
--   [« SplFixedArray::offsetGet](splfixedarray.offsetget.html)
+-   [« SplFixedArray::offsetGet](splfixedarray.offsetget.md)
     
--   [SplFixedArray::offsetUnset »](splfixedarray.offsetunset.html)
+-   [SplFixedArray::offsetUnset »](splfixedarray.offsetunset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFixedArray](class.splfixedarray.html)
+-   [SplFixedArray](class.splfixedarray.md)
     
 -   Встановлює нове значення за заданим індексом
     
@@ -41,4 +41,4 @@ public SplFixedArray::offsetSet(int $index, mixed $value): void
 
 ### Помилки
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), коли `index` перевищує заданий розмір масиву або коли `index` не можна розпізнати як ціле число.
+Викидає виняток [RuntimeException](class.runtimeexception.md), коли `index` перевищує заданий розмір масиву або коли `index` не можна розпізнати як ціле число.

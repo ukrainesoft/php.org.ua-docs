@@ -92,7 +92,7 @@ private Exception::__clone(): void
 
 ## список змін
 
-| Версия                                                                                                                                                                                                                      | Описание |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.5.0                                                                                                                                                                                                          |          |
-| Тепер цей клас розширює [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html) |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.5.0 |  |
+| Тепер цей клас розширює [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html) |  |

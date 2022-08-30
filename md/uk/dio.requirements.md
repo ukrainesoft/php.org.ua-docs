@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](dio.setup.html)
+-   [« Встановлення та налаштування](dio.setup.md)
     
--   [Установка »](dio.installation.html)
+-   [Установка »](dio.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](dio.setup.html)
+-   [Встановлення та налаштування](dio.setup.md)
     
 -   Вимоги
     

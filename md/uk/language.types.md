@@ -2,11 +2,11 @@
 
 -   [« Комментарии](language.basic-syntax.comments.html)
     
--   [Введение »](language.types.intro.html)
+-   [Введение »](language.types.intro.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Справочник языка](langref.html)
+-   [Довідник мови](langref.md)
     
 -   Типи
     
@@ -15,18 +15,18 @@
 
 ## Зміст
 
--   [Введение](language.types.intro.html)
--   [Булев](language.types.boolean.html)
--   [Цілі числа](language.types.integer.html)
--   [Числа з плаваючою точкою](language.types.float.html)
--   [Рядки](language.types.string.html)
+-   [Введение](language.types.intro.md)
+-   [Булев](language.types.boolean.md)
+-   [Цілі числа](language.types.integer.md)
+-   [Числа з плаваючою точкою](language.types.float.md)
+-   [Рядки](language.types.string.md)
 -   [Числові рядки](language.types.numeric-strings.html)
--   [Массивы](language.types.array.html)
--   [Ітеровані](language.types.iterable.html)
--   [Объекты](language.types.object.html)
--   [Перечисления](language.types.enumerations.html)
--   [Ресурс](language.types.resource.html)
--   [NULL](language.types.null.html)
--   [Функции обратного вызова (callback-функции)](language.types.callable.html)
--   [Объявление типов](language.types.declarations.html)
+-   [Масиви](language.types.array.md)
+-   [Ітеровані](language.types.iterable.md)
+-   [Об'єкти](language.types.object.md)
+-   [Перечисления](language.types.enumerations.md)
+-   [Ресурс](language.types.resource.md)
+-   [NULL](language.types.null.md)
+-   [Функції зворотного дзвінка (callback-функції)](language.types.callable.md)
+-   [Оголошення типів](language.types.declarations.md)
 -   [Маніпуляції з типами](language.types.type-juggling.html)

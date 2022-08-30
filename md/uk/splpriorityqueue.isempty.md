@@ -1,12 +1,12 @@
 Перевіряє, чи є черга порожньою
 
--   [« SplPriorityQueue::isCorrupted](splpriorityqueue.iscorrupted.html)
+-   [« SplPriorityQueue::isCorrupted](splpriorityqueue.iscorrupted.md)
     
--   [SplPriorityQueue::key »](splpriorityqueue.key.html)
+-   [SplPriorityQueue::key »](splpriorityqueue.key.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplPriorityQueue](class.splpriorityqueue.html)
+-   [SplPriorityQueue](class.splpriorityqueue.md)
     
 -   Перевіряє, чи є черга порожньою
     

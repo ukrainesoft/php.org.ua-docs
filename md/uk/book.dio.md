@@ -14,12 +14,12 @@
 # Пряме введення/виведення (Direct IO)
 
 -   [Введение](intro.dio.html)
--   [Установка и настройка](dio.setup.html)
-    -   [Требования](dio.requirements.html)
+-   [Встановлення та налаштування](dio.setup.html)
+    -   [Вимоги](dio.requirements.html)
     -   [Установка](dio.installation.html)
-    -   [Настройка во время выполнения](dio.configuration.html)
-    -   [Типы ресурсов](dio.resources.html)
--   [Предопределённые константы](dio.constants.html)
+    -   [Налаштування під час виконання](dio.configuration.html)
+    -   [Типи ресурсів](dio.resources.html)
+-   [Обумовлені константи](dio.constants.html)
 -   [Функції прямого введення/виводу](ref.dio.html)
     -   [dioclose](function.dio-close.html) - Закрити файловий дескриптор
     -   [diofcntl](function.dio-fcntl.html) — Викликає функцію бібліотеки C fcntl для файлового дескриптора

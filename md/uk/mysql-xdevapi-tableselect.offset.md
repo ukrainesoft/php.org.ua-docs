@@ -4,7 +4,7 @@
     
 -   [TableSelect::orderby »](mysql-xdevapi-tableselect.orderby.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
     

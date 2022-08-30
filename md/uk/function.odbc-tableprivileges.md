@@ -4,9 +4,9 @@
     
 -   [odbctables »](function.odbc-tables.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции ODBC](ref.uodbc.html)
+-   [Функции ODBC](ref.uodbc.md)
     
 -   Перелічує таблиці та привілеї, пов'язані з кожною таблицею
     

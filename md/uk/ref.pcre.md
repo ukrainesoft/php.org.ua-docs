@@ -1,12 +1,12 @@
 Функції PCRE
 
--   [« Отличия от Perl](reference.pcre.pattern.differences.html)
+-   [« Отличия от Perl](reference.pcre.pattern.differences.md)
     
 -   [pregfilter »](function.preg-filter.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PCRE](book.pcre.html)
+-   [PCRE](book.pcre.md)
     
 -   Функції PCRE
     

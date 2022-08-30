@@ -1,12 +1,12 @@
 Визначає вираз, із якого треба починати
 
--   [« SolrQuery::setTermsLimit](solrquery.settermslimit.html)
+-   [« SolrQuery::setTermsLimit](solrquery.settermslimit.md)
     
--   [SolrQuery::setTermsMaxCount »](solrquery.settermsmaxcount.html)
+-   [SolrQuery::setTermsMaxCount »](solrquery.settermsmaxcount.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Визначає вираз, із якого треба починати
     

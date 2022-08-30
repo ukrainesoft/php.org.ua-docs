@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.fileinfo.html)
+-   [« Введение](intro.fileinfo.md)
     
--   [Требования »](fileinfo.requirements.html)
+-   [Вимоги »](fileinfo.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FileInfo](book.fileinfo.html)
+-   [FileInfo](book.fileinfo.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](fileinfo.requirements.html)
--   [Установка](fileinfo.installation.html)
--   [Настройка во время выполнения](fileinfo.configuration.html)
--   [Типы ресурсов](fileinfo.resources.html)
+-   [Вимоги](fileinfo.requirements.md)
+-   [Установка](fileinfo.installation.md)
+-   [Налаштування під час виконання](fileinfo.configuration.md)
+-   [Типи ресурсів](fileinfo.resources.md)

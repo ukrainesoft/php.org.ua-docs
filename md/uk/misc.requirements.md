@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](misc.setup.html)
+-   [« Встановлення та налаштування](misc.setup.html)
     
 -   [Установка »](misc.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](misc.setup.html)
+-   [Встановлення та налаштування](misc.setup.html)
     
 -   Вимоги
     

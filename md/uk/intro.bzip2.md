@@ -2,7 +2,7 @@
 
 -   [« Bzip2](book.bzip2.html)
     
--   [Установка и настройка »](bzip2.setup.html)
+-   [Встановлення та налаштування »](bzip2.setup.html)
     
 -   [PHP Manual](index.html)
     

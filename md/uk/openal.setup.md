@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.openal.html)
     
--   [Требования »](openal.requirements.html)
+-   [Вимоги »](openal.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](openal.requirements.html)
+-   [Вимоги](openal.requirements.html)
 -   [Установка](openal.installation.html)
--   [Настройка во время выполнения](openal.configuration.html)
--   [Типы ресурсов](openal.resources.html)
+-   [Налаштування під час виконання](openal.configuration.html)
+-   [Типи ресурсів](openal.resources.html)

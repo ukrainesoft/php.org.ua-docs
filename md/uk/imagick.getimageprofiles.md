@@ -1,12 +1,12 @@
 Повертає профілі зображень
 
--   [« Imagick::getImageProfile](imagick.getimageprofile.html)
+-   [« Imagick::getImageProfile](imagick.getimageprofile.md)
     
--   [Imagick::getImageProperties »](imagick.getimageproperties.html)
+-   [Imagick::getImageProperties »](imagick.getimageproperties.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає профілі зображень
     

@@ -1,12 +1,12 @@
 Повертає роздільну здатність зображення
 
--   [« Gmagick::getimagerenderingintent](gmagick.getimagerenderingintent.html)
+-   [« Gmagick::getimagerenderingintent](gmagick.getimagerenderingintent.md)
     
--   [Gmagick::getimagescene »](gmagick.getimagescene.html)
+-   [Gmagick::getimagescene »](gmagick.getimagescene.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повертає роздільну здатність зображення
     

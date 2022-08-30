@@ -1,12 +1,12 @@
 Вступ
 
--   [« GeoIP](book.geoip.html)
+-   [« GeoIP](book.geoip.md)
     
--   [Установка и настройка »](geoip.setup.html)
+-   [Встановлення та налаштування »](geoip.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GeoIP](book.geoip.html)
+-   [GeoIP](book.geoip.md)
     
 -   Вступ
     

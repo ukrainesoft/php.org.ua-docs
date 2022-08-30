@@ -16,7 +16,7 @@ parallel
 -   [Введение](intro.parallel.html)
 -   [Установка](parallel.setup.html)
 -   [Философия](philosophy.parallel.html)
--   [Функциональный API](functional.parallel.html)
+-   [Функціональний API](functional.parallel.html)
     -   [parallelbootstrap](parallel.bootstrap.html) — Початкове завантаження
     -   [parallelrun](parallel.run.html) - Виконання
 -   [parallelRuntime](class.parallel-runtime.html) - Клас parallelRuntime

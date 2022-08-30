@@ -1,12 +1,12 @@
 Відповідає facet.date.gap
 
--   [« SolrQuery::setFacetDateEnd](solrquery.setfacetdateend.html)
+-   [« SolrQuery::setFacetDateEnd](solrquery.setfacetdateend.md)
     
--   [SolrQuery::setFacetDateHardEnd »](solrquery.setfacetdatehardend.html)
+-   [SolrQuery::setFacetDateHardEnd »](solrquery.setfacetdatehardend.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Відповідає facet.date.gap
     

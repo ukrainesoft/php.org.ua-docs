@@ -1,12 +1,12 @@
 Встановлює одиниці вимірювання роздільної здатності зображення
 
--   [« Imagick::setImageType](imagick.setimagetype.html)
+-   [« Imagick::setImageType](imagick.setimagetype.md)
     
--   [Imagick::setImageVirtualPixelMethod »](imagick.setimagevirtualpixelmethod.html)
+-   [Imagick::setImageVirtualPixelMethod »](imagick.setimagevirtualpixelmethod.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює одиниці вимірювання роздільної здатності зображення
     

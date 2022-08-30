@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.pdo.html)
+-   [« Введение](intro.pdo.md)
     
--   [Требования »](pdo.requirements.html)
+-   [Вимоги »](pdo.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDO](book.pdo.html)
+-   [PDO](book.pdo.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](pdo.requirements.html)
--   [Установка](pdo.installation.html)
--   [Настройка во время выполнения](pdo.configuration.html)
--   [Типы ресурсов](pdo.resources.html)
+-   [Вимоги](pdo.requirements.md)
+-   [Установка](pdo.installation.md)
+-   [Налаштування під час виконання](pdo.configuration.md)
+-   [Типи ресурсів](pdo.resources.md)

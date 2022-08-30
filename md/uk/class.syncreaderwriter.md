@@ -1,12 +1,12 @@
 Клас SyncReaderWriter
 
--   [« SyncEvent::wait](syncevent.wait.html)
+-   [« SyncEvent::wait](syncevent.wait.md)
     
--   [SyncReaderWriter::construct »](syncreaderwriter.construct.html)
+-   [SyncReaderWriter::construct »](syncreaderwriter.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Sync](book.sync.html)
+-   [Sync](book.sync.md)
     
 -   Клас SyncReaderWriter
     
@@ -47,8 +47,8 @@ public writeunlock(): bool
 
 ## Зміст
 
--   [SyncReaderWriter::construct](syncreaderwriter.construct.html) — Створює новий об'єкт SyncReaderWriter
--   [SyncReaderWriter::readlock](syncreaderwriter.readlock.html) — Чекає на блокування читання
--   [SyncReaderWriter::readunlock](syncreaderwriter.readunlock.html) — Знімає блокування читання
--   [SyncReaderWriter::writelock](syncreaderwriter.writelock.html) — Чекає на ексклюзивне блокування запису
--   [SyncReaderWriter::writeunlock](syncreaderwriter.writeunlock.html) - Знімає блокування запису
+-   [SyncReaderWriter::construct](syncreaderwriter.construct.md) — Створює новий об'єкт SyncReaderWriter
+-   [SyncReaderWriter::readlock](syncreaderwriter.readlock.md) — Чекає на блокування читання
+-   [SyncReaderWriter::readunlock](syncreaderwriter.readunlock.md) — Знімає блокування читання
+-   [SyncReaderWriter::writelock](syncreaderwriter.writelock.md) — Чекає на ексклюзивне блокування запису
+-   [SyncReaderWriter::writeunlock](syncreaderwriter.writeunlock.md) - Знімає блокування запису

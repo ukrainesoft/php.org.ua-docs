@@ -1,12 +1,12 @@
 Визначає, чи встановлено поле
 
--   [« IntlCalendar::isLenient](intlcalendar.islenient.html)
+-   [« IntlCalendar::isLenient](intlcalendar.islenient.md)
     
--   [IntlCalendar::isWeekend »](intlcalendar.isweekend.html)
+-   [IntlCalendar::isWeekend »](intlcalendar.isweekend.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Визначає, чи встановлено поле
     
@@ -31,17 +31,17 @@ public IntlCalendar::isSet(int $field): bool
 intlcal_is_set(IntlCalendar $calendar, int $field): bool
 ```
 
-Повертає, чи встановлено поле (на відміну від [clear](intlcalendar.clear.html)). Встановлені поля пріоритетніші за невстановлені поля та їх значення за замовчуванням при обчисленні дати та часу. Поля, встановлені пізніше за пріоритетніші полів, встановлених раніше.
+Повертає, чи встановлено поле (на відміну від [clear](intlcalendar.clear.md)). Встановлені поля пріоритетніші за невстановлені поля та їх значення за замовчуванням при обчисленні дати та часу. Поля, встановлені пізніше за пріоритетніші полів, встановлених раніше.
 
 ### Список параметрів
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `field`
 
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.html) [констант](class.intlcalendar.html#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.html#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
 
 ### Значення, що повертаються
 
@@ -49,9 +49,9 @@ intlcal_is_set(IntlCalendar $calendar, int $field): bool
 
 ### Приклади
 
-Дивіться приклад в описі методу [IntlCalendar::clear()](intlcalendar.clear.html)
+Дивіться приклад в описі методу [IntlCalendar::clear()](intlcalendar.clear.md)
 
 ### Дивіться також
 
--   [IntlCalendar::clear()](intlcalendar.clear.html) - Очищає поле чи всі поля
--   [IntlCalendar::set()](intlcalendar.set.html) - Встановлює поле часу або одразу кілька спільних полів
+-   [IntlCalendar::clear()](intlcalendar.clear.md) - Очищає поле чи всі поля
+-   [IntlCalendar::set()](intlcalendar.set.md) - Встановлює поле часу або одразу кілька спільних полів

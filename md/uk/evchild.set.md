@@ -1,12 +1,12 @@
 Конфігурування спостерігача
 
--   [« EvChild::createStopped](evchild.createstopped.html)
+-   [« EvChild::createStopped](evchild.createstopped.md)
     
--   [EvEmbed »](class.evembed.html)
+-   [EvEmbed »](class.evembed.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvChild](class.evchild.html)
+-   [EvChild](class.evchild.md)
     
 -   Конфігурування спостерігача
     
@@ -34,11 +34,11 @@ public
 
 `pid`
 
-Дивіться [EvChild::construct()](evchild.construct.html)
+Дивіться [EvChild::construct()](evchild.construct.md)
 
 `trace`
 
-Дивіться [EvChild::construct()](evchild.construct.html)
+Дивіться [EvChild::construct()](evchild.construct.md)
 
 ### Значення, що повертаються
 
@@ -46,4 +46,4 @@ public
 
 ### Дивіться також
 
--   [EvChild::construct()](evchild.construct.html) - Створює об'єкт спостерігач EvChild
+-   [EvChild::construct()](evchild.construct.md) - Створює об'єкт спостерігач EvChild

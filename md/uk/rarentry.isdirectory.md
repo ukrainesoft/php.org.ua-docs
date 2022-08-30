@@ -1,12 +1,12 @@
 Перевіряє, чи є запис директорією
 
--   [« RarEntry::getVersion](rarentry.getversion.html)
+-   [« RarEntry::getVersion](rarentry.getversion.md)
     
--   [RarEntry::isEncrypted »](rarentry.isencrypted.html)
+-   [RarEntry::isEncrypted »](rarentry.isencrypted.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RarEntry](class.rarentry.html)
+-   [RarEntry](class.rarentry.md)
     
 -   Перевіряє, чи є запис директорією
     

@@ -1,12 +1,12 @@
 Функції WinCache
 
--   [« Предопределённые константы](wincache.constants.html)
+-   [« Обумовлені константи](wincache.constants.md)
     
 -   [wincachefcachefileinfo »](function.wincache-fcache-fileinfo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [WinCache](book.wincache.html)
+-   [WinCache](book.wincache.md)
     
 -   Функції WinCache
     

@@ -4,7 +4,7 @@
     
 -   [ОЙDrawPath::lineTo »](ui-draw-path.lineto.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawPath](class.ui-draw-path.html)
     

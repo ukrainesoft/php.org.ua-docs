@@ -4,9 +4,9 @@
     
 -   [opensslspkiexport »](function.openssl-spki-export.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Експорт виклику, пов'язаного з підписаним ключем та викликом
     

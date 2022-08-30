@@ -1,12 +1,12 @@
 Псевдонім SolrInputDocument::clear
 
--   [« SolrInputDocument::merge](solrinputdocument.merge.html)
+-   [« SolrInputDocument::merge](solrinputdocument.merge.md)
     
--   [SolrInputDocument::setBoost »](solrinputdocument.setboost.html)
+-   [SolrInputDocument::setBoost »](solrinputdocument.setboost.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrInputDocument](class.solrinputdocument.html)
+-   [SolrInputDocument](class.solrinputdocument.md)
     
 -   Псевдонім SolrInputDocument::clear
     

@@ -4,9 +4,9 @@
     
 -   [cubridprepare »](function.cubrid-prepare.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Відкриває постійне з'єднання із сервером CUBRID
     

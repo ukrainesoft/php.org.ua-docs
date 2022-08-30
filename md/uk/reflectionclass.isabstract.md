@@ -1,12 +1,12 @@
 Перевіряє, чи є клас абстрактним
 
--   [« ReflectionClass::inNamespace](reflectionclass.innamespace.html)
+-   [« ReflectionClass::inNamespace](reflectionclass.innamespace.md)
     
--   [ReflectionClass::isAnonymous »](reflectionclass.isanonymous.html)
+-   [ReflectionClass::isAnonymous »](reflectionclass.isanonymous.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Перевіряє, чи є клас абстрактним
     
@@ -59,5 +59,5 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionClass::isInterface()](reflectionclass.isinterface.html) - Перевіряє, чи є клас інтерфейсом
--   [Абстрактні класи](language.oop5.abstract.html)
+-   [ReflectionClass::isInterface()](reflectionclass.isinterface.md) - Перевіряє, чи є клас інтерфейсом
+-   [Абстрактні класи](language.oop5.abstract.md)

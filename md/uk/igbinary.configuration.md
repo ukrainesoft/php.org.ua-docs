@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](igbinary.setup.html)
+-   [Встановлення та налаштування](igbinary.setup.html)
     
 -   Налаштування під час виконання
     
@@ -17,17 +17,17 @@
 
 **Опції налаштування Igbinary**
 
-| Имя                                                                                 | По умолчанию | Место изменения | Список изменений |
-|-------------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [igbinary.compactstrings](igbinary.configuration.html#ini.igbinary.compact-strings) |              | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [igbinary.compactstrings](igbinary.configuration.html#ini.igbinary.compact-strings) |  | PHPINIALL |  |
 
 **Параметри конфігурації сесії, що впливають на поведінку Igbinary**
 
-| Имя                                                                          | По умолчанию | Место изменения | Список изменений |
-|------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [session.savehandler](igbinary.configuration.html#ini.igbinary.save-handler) | "files"      | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [session.savehandler](igbinary.configuration.html#ini.igbinary.save-handler) | "files" | PHPINIALL |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 
 Коротке пояснення конфігураційних директив.
 

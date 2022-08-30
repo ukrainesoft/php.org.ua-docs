@@ -1,12 +1,12 @@
 Копіює дані в іменовану пам'ять, що розділяється.
 
--   [« SyncSharedMemory::size](syncsharedmemory.size.html)
+-   [« SyncSharedMemory::size](syncsharedmemory.size.md)
     
--   [Інші базові модулі »](refs.basic.other.html)
+-   [Інші базові модулі »](refs.basic.other.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SyncSharedMemory](class.syncsharedmemory.html)
+-   [SyncSharedMemory](class.syncsharedmemory.md)
     
 -   Копіює дані в іменовану пам'ять, що розділяється.
     
@@ -78,7 +78,7 @@ int(3)
 
 ### Дивіться також
 
--   [SyncSharedMemory::construct()](syncsharedmemory.construct.html) - Створює новий об'єкт SyncSharedMemory
--   [SyncSharedMemory::first()](syncsharedmemory.first.html) - Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
+-   [SyncSharedMemory::construct()](syncsharedmemory.construct.md) - Створює новий об'єкт SyncSharedMemory
+-   [SyncSharedMemory::first()](syncsharedmemory.first.md) - Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
 -   **Sync Shared Memory::write()**
--   [SyncSharedMemory::read()](syncsharedmemory.read.html) - Копіює дані з іменованої пам'яті, що розділяється
+-   [SyncSharedMemory::read()](syncsharedmemory.read.md) - Копіює дані з іменованої пам'яті, що розділяється

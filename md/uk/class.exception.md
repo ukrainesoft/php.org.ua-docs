@@ -1,12 +1,12 @@
 Exception
 
--   [« Предопределённые исключения](reserved.exceptions.html)
+-   [« Зумовлені винятки](reserved.exceptions.html)
     
 -   [Exception::construct »](exception.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Предопределённые исключения](reserved.exceptions.html)
+-   [Обумовлені винятки](reserved.exceptions.html)
     
 -   Exception
     

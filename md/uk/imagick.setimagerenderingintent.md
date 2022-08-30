@@ -1,12 +1,12 @@
 Встановлює схему передачі кольору зображення
 
--   [« Imagick::setImageRedPrimary](imagick.setimageredprimary.html)
+-   [« Imagick::setImageRedPrimary](imagick.setimageredprimary.md)
     
--   [Imagick::setImageResolution »](imagick.setimageresolution.html)
+-   [Imagick::setImageResolution »](imagick.setimageresolution.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює схему передачі кольору зображення
     

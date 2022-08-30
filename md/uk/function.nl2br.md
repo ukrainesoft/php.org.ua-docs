@@ -4,9 +4,9 @@
     
 -   [numberformat »](function.number-format.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Вставляє HTML код розриву рядка перед кожним перекладом рядка
     
@@ -91,7 +91,7 @@ string<br />
 
 ### Дивіться також
 
--   [htmlspecialchars()](function.htmlspecialchars.html) - Перетворює спеціальні символи на HTML-сутності
--   [htmlentities()](function.htmlentities.html) - Перетворює всі можливі символи у відповідні HTML-сутності
--   [wordwrap()](function.wordwrap.html) - Переносить рядок за вказаною кількістю символів
+-   [htmlspecialchars()](function.htmlspecialchars.md) - Перетворює спеціальні символи на HTML-сутності
+-   [htmlentities()](function.htmlentities.md) - Перетворює всі можливі символи у відповідні HTML-сутності
+-   [wordwrap()](function.wordwrap.md) - Переносить рядок за вказаною кількістю символів
 -   [strreplace()](function.str-replace.html) - Замінює всі входження рядка пошуку на рядок заміни

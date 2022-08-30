@@ -4,9 +4,9 @@
     
 -   [variantdiv »](function.variant-div.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции COM](ref.com.html)
+-   [Функции COM](ref.com.md)
     
 -   Перетворює варіант типу дата/час у часову мітку Unix
     
@@ -38,5 +38,5 @@ variant_date_to_timestamp(variant $variant): ?int
 ### Дивіться також
 
 -   [variantdatefromtimestamp()](function.variant-date-from-timestamp.html) - Отримати подання дати для варіанта з тимчасової мітки Unix
--   [date()](function.date.html) - Форматує тимчасову мітку Unix
--   [strftime()](function.strftime.html) - Форматує поточну дату/час з урахуванням поточних налаштувань локалі
+-   [date()](function.date.md) - Форматує тимчасову мітку Unix
+-   [strftime()](function.strftime.md) - Форматує поточну дату/час з урахуванням поточних налаштувань локалі

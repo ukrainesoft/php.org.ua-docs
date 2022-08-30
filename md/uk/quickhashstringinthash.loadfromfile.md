@@ -1,12 +1,12 @@
 Фабричний метод створює хеш із файлу
 
--   [« QuickHashStringIntHash::getSize](quickhashstringinthash.getsize.html)
+-   [« QuickHashStringIntHash::getSize](quickhashstringinthash.getsize.md)
     
--   [QuickHashStringIntHash::loadFromString »](quickhashstringinthash.loadfromstring.html)
+-   [QuickHashStringIntHash::loadFromString »](quickhashstringinthash.loadfromstring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [QuickHashStringIntHash](class.quickhashstringinthash.html)
+-   [QuickHashStringIntHash](class.quickhashstringinthash.md)
     
 -   Фабричний метод створює хеш із файлу
     
@@ -79,11 +79,11 @@ bucket lists:
 
 `options`
 
-Ті самі параметри, які приймає конструктор класу; за винятком того, що ігнорується параметр `size`. Розмір зчитується з формату файлу (на відміну класів [QuickHashIntHash](class.quickhashinthash.html) і [QuickHashIntStringHash](class.quickhashintstringhash.html)де він автоматично обчислюється з кількості записів у хеші).
+Ті самі параметри, які приймає конструктор класу; за винятком того, що ігнорується параметр `size`. Розмір зчитується з формату файлу (на відміну класів [QuickHashIntHash](class.quickhashinthash.md) і [QuickHashIntStringHash](class.quickhashintstringhash.md)де він автоматично обчислюється з кількості записів у хеші).
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [QuickHashStringIntHash](class.quickhashstringinthash.html)
+Повертає новий об'єкт [QuickHashStringIntHash](class.quickhashstringinthash.md)
 
 ### Приклади
 

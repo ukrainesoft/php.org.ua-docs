@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](yaml.configuration.html)
+-   [« Налаштування під час виконання](yaml.configuration.html)
     
--   [Предопределённые константы »](yaml.constants.html)
+-   [Обумовлені константи »](yaml.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](yaml.setup.html)
+-   [Встановлення та налаштування](yaml.setup.html)
     
 -   Типи ресурсів
     

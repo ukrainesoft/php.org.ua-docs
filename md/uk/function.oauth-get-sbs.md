@@ -1,12 +1,12 @@
 Створити базовий рядок підпису (Signature Base String)
 
--   [« Функции OAuth](ref.oauth.html)
+-   [« Функции OAuth](ref.oauth.md)
     
 -   [oauthurlencode »](function.oauth-urlencode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OAuth](ref.oauth.html)
+-   [Функции OAuth](ref.oauth.md)
     
 -   Створити базовий рядок підпису (Signature Base String)
     

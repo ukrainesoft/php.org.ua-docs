@@ -4,9 +4,9 @@
     
 -   [arraywalkrecursive »](function.array-walk-recursive.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Вибирає всі значення масиву
     

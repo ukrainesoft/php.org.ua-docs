@@ -4,9 +4,9 @@
     
 -   [пгmetadata »](function.pg-meta-data.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PostgreSQL](ref.pgsql.html)
+-   [Функции PostgreSQL](ref.pgsql.md)
     
 -   Записує дані у великий об'єкт
     
@@ -51,10 +51,10 @@ pg_lo_write(PgSql\Lob $lob, string $data, ?int $length = null): int|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `length` тепер допускає значення null.                                                                                                    |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | `length` тепер допускає значення null. |
 
 ### Приклади
 

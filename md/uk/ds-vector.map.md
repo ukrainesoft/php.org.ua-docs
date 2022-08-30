@@ -4,7 +4,7 @@
     
 -   [ДсVector::merge »](ds-vector.merge.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Вектор](class.ds-vector.html)
     
@@ -33,7 +33,7 @@ public Ds\Vector::map(callable $callback): Ds\Vector
 callback(mixed $value): mixed
 ```
 
-Аргумент типу [callable](language.types.callable.html)
+Аргумент типу [callable](language.types.callable.md)
 
 Ця функція має повертати нове значення для кожного елемента вектора.
 

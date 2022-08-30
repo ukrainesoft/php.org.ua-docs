@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.phpdbg.html)
+-   [« Введение](intro.phpdbg.md)
     
--   [Настройка во время выполнения »](phpdbg.configuration.html)
+-   [Налаштування під час виконання »](phpdbg.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [phpdbg](book.phpdbg.html)
+-   [phpdbg](book.phpdbg.md)
     
 -   Встановлення та налаштування
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [Настройка во время выполнения](phpdbg.configuration.html)
+-   [Налаштування під час виконання](phpdbg.configuration.md)

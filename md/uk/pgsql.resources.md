@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](pgsql.configuration.html)
+-   [« Налаштування під час виконання](pgsql.configuration.md)
     
--   [Предопределённые константы »](pgsql.constants.html)
+-   [Обумовлені константи »](pgsql.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](pgsql.setup.html)
+-   [Встановлення та налаштування](pgsql.setup.md)
     
 -   Типи ресурсів
     

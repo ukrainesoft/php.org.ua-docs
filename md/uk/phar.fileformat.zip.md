@@ -1,6 +1,6 @@
 Phar-архіви на основі zip
 
--   [« Phar-архивы, основанные на tar](phar.fileformat.tar.html)
+-   [« Phar-архіви, засновані на tar](phar.fileformat.tar.html)
     
 -   [Формат файла phar »](phar.fileformat.phar.html)
     

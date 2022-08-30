@@ -1,12 +1,12 @@
 Додає вміст буфера в буфер виводу буферної події
 
--   [« EventBufferEvent::write](eventbufferevent.write.html)
+-   [« EventBufferEvent::write](eventbufferevent.write.md)
     
--   [О callback-функциях событийного буфера »](eventbufferevent.about.callbacks.html)
+-   [Про callback-функції подійного буфера](eventbufferevent.about.callbacks.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Додає вміст буфера в буфер виводу буферної події
     
@@ -33,7 +33,7 @@ public
 
 `buf`
 
-Вихідний об'єкт [EventBuffer](class.eventbuffer.html)
+Вихідний об'єкт [EventBuffer](class.eventbuffer.md)
 
 ### Значення, що повертаються
 
@@ -41,4 +41,4 @@ public
 
 ### Дивіться також
 
--   [EventBufferEvent::write()](eventbufferevent.write.html) - Додає дані до буфера виводу буферної події
+-   [EventBufferEvent::write()](eventbufferevent.write.md) - Додає дані до буфера виводу буферної події

@@ -1,12 +1,12 @@
 Встановити параметри навчання
 
--   [« SVM::getOptions](svm.getoptions.html)
+-   [« SVM::getOptions](svm.getoptions.md)
     
--   [SVM::train »](svm.train.html)
+-   [SVM::train »](svm.train.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SVM](class.svm.html)
+-   [SVM](class.svm.md)
     
 -   Встановити параметри навчання
     

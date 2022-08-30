@@ -1,12 +1,12 @@
 Видаляє елемент в архіві, використовуючи його ім'я
 
--   [« ZipArchive::deleteIndex](ziparchive.deleteindex.html)
+-   [« ZipArchive::deleteIndex](ziparchive.deleteindex.md)
     
--   [ZipArchive::extractTo »](ziparchive.extractto.html)
+-   [ZipArchive::extractTo »](ziparchive.extractto.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Видаляє елемент в архіві, використовуючи його ім'я
     

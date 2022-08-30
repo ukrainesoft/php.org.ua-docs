@@ -4,7 +4,7 @@
     
 -   [CommonMarkNodeHTMLBlock »](class.commonmark-node-htmlblock.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [CommonMarkNodeCodeBlock](class.commonmark-node-codeblock.html)
     

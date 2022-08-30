@@ -4,9 +4,9 @@
     
 -   [svnimport »](function.svn-import.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.md)
     
 -   Повертає номер ранньої ревізії у файловій системі
     

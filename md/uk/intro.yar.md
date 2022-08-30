@@ -1,12 +1,12 @@
 Вступ
 
--   [« Yar](book.yar.html)
+-   [« Yar](book.yar.md)
     
--   [Установка и настройка »](yar.setup.html)
+-   [Встановлення та налаштування »](yar.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yar](book.yar.html)
+-   [Yar](book.yar.md)
     
 -   Вступ
     

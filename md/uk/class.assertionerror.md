@@ -6,7 +6,7 @@ AssertionError
     
 -   [PHP Manual](index.html)
     
--   [Предопределённые исключения](reserved.exceptions.html)
+-   [Обумовлені винятки](reserved.exceptions.html)
     
 -   AssertionError
     

@@ -1,12 +1,12 @@
 Повертає, чи потрібно включати вираз нижньої межі до набору результатів
 
--   [« SolrQuery::getTermsField](solrquery.gettermsfield.html)
+-   [« SolrQuery::getTermsField](solrquery.gettermsfield.md)
     
--   [SolrQuery::getTermsIncludeUpperBound »](solrquery.gettermsincludeupperbound.html)
+-   [SolrQuery::getTermsIncludeUpperBound »](solrquery.gettermsincludeupperbound.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає, чи потрібно включати вираз нижньої межі до набору результатів
     

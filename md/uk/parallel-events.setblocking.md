@@ -4,7 +4,7 @@
     
 -   [parallelEvents::setTimeout »](parallel-events.settimeout.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [parallelEvents](class.parallel-events.html)
     

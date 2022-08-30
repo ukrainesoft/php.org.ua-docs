@@ -1,12 +1,12 @@
 Повернути числовий ідентифікатор властивості на його ім'я
 
--   [« IntlChar::getPropertyName](intlchar.getpropertyname.html)
+-   [« IntlChar::getPropertyName](intlchar.getpropertyname.md)
     
--   [IntlChar::getPropertyValueName »](intlchar.getpropertyvaluename.html)
+-   [IntlChar::getPropertyValueName »](intlchar.getpropertyvaluename.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Повернути числовий ідентифікатор властивості на його ім'я
     

@@ -1,33 +1,33 @@
 Зумовлені змінні
 
--   [« Неявное использование механизма ссылок](language.references.spot.html)
+-   [« Неявне використання механізму посилань](language.references.spot.md)
     
--   [Суперглобальные переменные »](language.variables.superglobals.html)
+-   [Суперглобальні змінні »](language.variables.superglobals.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Справочник языка](langref.html)
+-   [Довідник мови](langref.md)
     
 -   Зумовлені змінні
     
 
 # Зумовлені змінні
 
-PHP надає всім скриптам велику кількість певних змінних. Ці змінні містять все, від [внешних данных](language.variables.external.html) до змінних середовища оточення, від тексту повідомлень про помилки до останніх отриманих заголовків.
+PHP надає всім скриптам велику кількість певних змінних. Ці змінні містять все, від [зовнішніх даних](language.variables.external.md) до змінних середовища оточення, від тексту повідомлень про помилки до останніх отриманих заголовків.
 
 ## Зміст
 
--   [Суперглобальные переменные](language.variables.superglobals.html) — Вбудовані змінні, які завжди доступні у всіх областях
--   [$GLOBALS](reserved.variables.globals.html) — Посилання на всі змінні глобальної сфери видимості
--   [SERVER](reserved.variables.server.html) — Інформація про сервер та середовище виконання
--   [GET](reserved.variables.get.html) - Змінні HTTP GET
--   [POST](reserved.variables.post.html) — Змінні HTTP POST
--   [FILES](reserved.variables.files.html) — Змінні файли, завантажені за HTTP
--   [REQUEST](reserved.variables.request.html) - Змінні HTTP-запиту
--   [SESSION](reserved.variables.session.html) - Змінні сесії
--   [ENV](reserved.variables.environment.html) - Змінні оточення
--   [COOKIE](reserved.variables.cookies.html) - HTTP Cookies
--   [$phperrormsg](reserved.variables.phperrormsg.html) — Попереднє повідомлення про помилку
--   [$httpresponseheader](reserved.variables.httpresponseheader.html) - Заголовки відповідей HTTP
--   [$argc](reserved.variables.argc.html) - Кількість аргументів, переданих скрипту
--   [$argv](reserved.variables.argv.html) — Масив переданих скрипту аргументів
+-   [Суперглобальні змінні](language.variables.superglobals.md) — Вбудовані змінні, які завжди доступні у всіх областях
+-   [$GLOBALS](reserved.variables.globals.md) — Посилання на всі змінні глобальної сфери видимості
+-   [SERVER](reserved.variables.server.md) — Інформація про сервер та середовище виконання
+-   [GET](reserved.variables.get.md) - Змінні HTTP GET
+-   [POST](reserved.variables.post.md) — Змінні HTTP POST
+-   [FILES](reserved.variables.files.md) — Змінні файли, завантажені за HTTP
+-   [REQUEST](reserved.variables.request.md) - Змінні HTTP-запиту
+-   [SESSION](reserved.variables.session.md) - Змінні сесії
+-   [ENV](reserved.variables.environment.md) - Змінні оточення
+-   [COOKIE](reserved.variables.cookies.md) - HTTP Cookies
+-   [$phperrormsg](reserved.variables.phperrormsg.md) — Попереднє повідомлення про помилку
+-   [$httpresponseheader](reserved.variables.httpresponseheader.md) - Заголовки відповідей HTTP
+-   [$argc](reserved.variables.argc.md) - Кількість аргументів, переданих скрипту
+-   [$argv](reserved.variables.argv.md) — Масив переданих скрипту аргументів

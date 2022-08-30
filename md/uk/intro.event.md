@@ -2,7 +2,7 @@
 
 -   [« Event](book.event.html)
     
--   [Установка и настройка »](event.setup.html)
+-   [Встановлення та налаштування »](event.setup.html)
     
 -   [PHP Manual](index.html)
     

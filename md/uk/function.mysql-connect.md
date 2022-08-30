@@ -4,9 +4,9 @@
     
 -   [mysqlcreatedb »](function.mysql-create-db.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](ref.mysql.html)
+-   [MySQL](ref.mysql.md)
     
 -   Відкриває з'єднання з сервером MySQL
     
@@ -19,10 +19,10 @@ mysqlconnect — Відкриває з'єднання з сервером MySQL
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   [mysqliconnect()](function.mysqli-connect.html)
--   [PDO::construct()](pdo.construct.html)
+-   [PDO::construct()](pdo.construct.md)
 
 ### Опис
 
@@ -54,7 +54,7 @@ mysql_connect(    string $server = ini_get("mysql.default_host"),    str
 
 `client_flags`
 
-Параметр `client_flags` має бути комбінацією з наступних констант: 128 (включає обробку `LOAD DATA LOCAL` **`MYSQL_CLIENT_SSL`** **`MYSQL_CLIENT_COMPRESS`** **`MYSQL_CLIENT_IGNORE_SPACE`** ор **`MYSQL_CLIENT_INTERACTIVE`**. Детальніше читайте у розділі [Клиентские константы MySQL](mysql.constants.html#mysql.client-flags). У [SQL safe mode](ini.core.html#ini.sql.safe-mode) цей параметр ігнорується.
+Параметр `client_flags` має бути комбінацією з наступних констант: 128 (включає обробку `LOAD DATA LOCAL` **`MYSQL_CLIENT_SSL`** **`MYSQL_CLIENT_COMPRESS`** **`MYSQL_CLIENT_IGNORE_SPACE`** ор **`MYSQL_CLIENT_INTERACTIVE`**. Детальніше читайте у розділі [Клієнтські константи MySQL](mysql.constants.html#mysql.client-flags). У [SQL safe mode](ini.core.html#ini.sql.safe-mode) цей параметр ігнорується.
 
 ### Значення, що повертаються
 

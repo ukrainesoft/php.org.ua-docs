@@ -4,9 +4,9 @@
     
 -   [sqlsrvconfigure »](function.sqlsrv-configure.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.md)
     
 -   Фіксує транзакцію, розпочату за допомогою sqlsrvbegintransaction
     

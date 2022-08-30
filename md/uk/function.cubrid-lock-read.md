@@ -4,9 +4,9 @@
     
 -   [cubridlockwrite »](function.cubrid-lock-write.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Встановлює блокування читання для цього OID
     

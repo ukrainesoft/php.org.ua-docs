@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.seaslog.html)
+-   [« Введение](intro.seaslog.md)
     
--   [Требования »](seaslog.requirements.html)
+-   [Вимоги »](seaslog.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Seaslog](book.seaslog.html)
+-   [Seaslog](book.seaslog.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](seaslog.requirements.html)
--   [Установка](seaslog.installation.html)
--   [Настройка во время выполнения](seaslog.configuration.html)
--   [Типы ресурсов](seaslog.resources.html)
+-   [Вимоги](seaslog.requirements.md)
+-   [Установка](seaslog.installation.md)
+-   [Налаштування під час виконання](seaslog.configuration.md)
+-   [Типи ресурсів](seaslog.resources.md)

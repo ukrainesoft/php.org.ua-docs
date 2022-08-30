@@ -1,12 +1,12 @@
 Отримати загальну кількість записів
 
--   [« APCUIterator::current](apcuiterator.current.html)
+-   [« APCUIterator::current](apcuiterator.current.md)
     
--   [APCUIterator::getTotalHits »](apcuiterator.gettotalhits.html)
+-   [APCUIterator::getTotalHits »](apcuiterator.gettotalhits.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [APCUIterator](class.apcuiterator.html)
+-   [APCUIterator](class.apcuiterator.md)
     
 -   Отримати загальну кількість записів
     
@@ -39,6 +39,6 @@ public APCUIterator::getTotalCount(): int
 
 ### Дивіться також
 
--   [APCUIterator::getTotalHits()](apcuiterator.gettotalhits.html) - Отримати загальну кількість влучень у кеш
--   [APCUIterator::getTotalSize()](apcuiterator.gettotalsize.html) - Загальний розмір кешу
+-   [APCUIterator::getTotalHits()](apcuiterator.gettotalhits.md) - Отримати загальну кількість влучень у кеш
+-   [APCUIterator::getTotalSize()](apcuiterator.gettotalsize.md) - Загальний розмір кешу
 -   [apcucacheinfo()](function.apcu-cache-info.html) - Витягує закешовану інформацію зі сховища APCu

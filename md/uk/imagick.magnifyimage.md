@@ -1,12 +1,12 @@
 Пропорційно масштабує зображення вдвічі
 
--   [« Imagick::listRegistry](imagick.listregistry.html)
+-   [« Imagick::listRegistry](imagick.listregistry.md)
     
--   [Imagick::mapImage »](imagick.mapimage.html)
+-   [Imagick::mapImage »](imagick.mapimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Пропорційно масштабує зображення вдвічі
     

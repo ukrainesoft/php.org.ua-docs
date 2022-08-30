@@ -2,7 +2,7 @@
 
 -   [« libxml](book.libxml.html)
     
--   [Установка и настройка »](libxml.setup.html)
+-   [Встановлення та налаштування »](libxml.setup.html)
     
 -   [PHP Manual](index.html)
     

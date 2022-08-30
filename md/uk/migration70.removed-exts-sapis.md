@@ -4,9 +4,9 @@
     
 -   [Другие изменения »](migration70.other-changes.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.html)
+-   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.md)
     
 -   Віддалені модулі та SAPI
     

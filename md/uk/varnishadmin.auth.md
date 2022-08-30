@@ -1,12 +1,12 @@
 Аутентифікація на екземплярі varnish
 
--   [« VarnishAdmin](class.varnishadmin.html)
+-   [« VarnishAdmin](class.varnishadmin.md)
     
--   [VarnishAdmin::ban »](varnishadmin.ban.html)
+-   [VarnishAdmin::ban »](varnishadmin.ban.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [VarnishAdmin](class.varnishadmin.html)
+-   [VarnishAdmin](class.varnishadmin.md)
     
 -   Аутентифікація на екземплярі varnish
     

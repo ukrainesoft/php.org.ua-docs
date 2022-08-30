@@ -1,12 +1,12 @@
 Перетворює на DOMDocument
 
--   [« XSLTProcessor::setSecurityPrefs](xsltprocessor.setsecurityprefs.html)
+-   [« XSLTProcessor::setSecurityPrefs](xsltprocessor.setsecurityprefs.md)
     
--   [XSLTProcessor::transformToUri »](xsltprocessor.transformtouri.html)
+-   [XSLTProcessor::transformToUri »](xsltprocessor.transformtouri.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XSLTProcessor](class.xsltprocessor.html)
+-   [XSLTProcessor](class.xsltprocessor.md)
     
 -   Перетворює на DOMDocument
     
@@ -23,7 +23,7 @@ XSLTProcessor::transformToDoc — Перетворює на DOMDocument
 public XSLTProcessor::transformToDoc(object $document, ?string $returnClass = null): DOMDocument|false
 ```
 
-Перетворює вихідний вузол на [DOMDocument](class.domdocument.html) застосовуючи таблицю стилів, задану за допомогою методу [XSLTProcessor::importStylesheet()](xsltprocessor.importstylesheet.html)
+Перетворює вихідний вузол на [DOMDocument](class.domdocument.md) застосовуючи таблицю стилів, задану за допомогою методу [XSLTProcessor::importStylesheet()](xsltprocessor.importstylesheet.md)
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ public XSLTProcessor::transformToDoc(object $document, ?string $returnClass = nu
 
 ### Значення, що повертаються
 
-Повертає [DOMDocument](class.domdocument.html) або **`false`** у разі виникнення помилки.
+Повертає [DOMDocument](class.domdocument.md) або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -66,5 +66,5 @@ Hey! Welcome to Nicolas Eliaszewicz's sweet CD collection!
 
 ### Дивіться також
 
--   [XSLTProcessor::transformToUri()](xsltprocessor.transformtouri.html) - Перетворює на URI
--   [XSLTProcessor::transformToXml()](xsltprocessor.transformtoxml.html) - Перетворює на XML
+-   [XSLTProcessor::transformToUri()](xsltprocessor.transformtouri.md) - Перетворює на URI
+-   [XSLTProcessor::transformToXml()](xsltprocessor.transformtoxml.md) - Перетворює на XML

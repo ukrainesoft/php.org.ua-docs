@@ -1,12 +1,12 @@
 Конструктор класу ReflectionObject
 
--   [« ReflectionObject](class.reflectionobject.html)
+-   [« ReflectionObject](class.reflectionobject.md)
     
--   [ReflectionObject::export »](reflectionobject.export.html)
+-   [ReflectionObject::export »](reflectionobject.export.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionObject](class.reflectionobject.html)
+-   [ReflectionObject](class.reflectionobject.md)
     
 -   Конструктор класу ReflectionObject
     
@@ -21,7 +21,7 @@ ReflectionObject::construct - Конструктор класу ReflectionObject
 
 public **ReflectionObject::construct**(object `$object`
 
-Створює новий об'єкт класу [ReflectionObject](class.reflectionobject.html)
+Створює новий об'єкт класу [ReflectionObject](class.reflectionobject.md)
 
 ### Список параметрів
 
@@ -31,5 +31,5 @@ public **ReflectionObject::construct**(object `$object`
 
 ### Дивіться також
 
--   [ReflectionObject::export()](reflectionobject.export.html) - Експорт
+-   [ReflectionObject::export()](reflectionobject.export.md) - Експорт
 -   [Конструктори](language.oop5.decon.html#language.oop5.decon.constructor)

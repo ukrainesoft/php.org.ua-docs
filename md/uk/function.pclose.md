@@ -1,12 +1,12 @@
 Закриває файловий покажчик процесу
 
--   [« pathinfo](function.pathinfo.html)
+-   [« pathinfo](function.pathinfo.md)
     
--   [popen »](function.popen.html)
+-   [popen »](function.popen.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Закриває файловий покажчик процесу
     
@@ -23,13 +23,13 @@ pclose — Закриває файловий покажчик процесу
 pclose(resource $handle): int
 ```
 
-Закриває файловий покажчик на потік, відкритий за допомогою [popen()](function.popen.html)
+Закриває файловий покажчик на потік, відкритий за допомогою [popen()](function.popen.md)
 
 ### Список параметрів
 
 `handle`
 
-Файловий покажчик має бути чинним і повинен бути отриманий успішним викликом функції [popen()](function.popen.html)
+Файловий покажчик має бути чинним і повинен бути отриманий успішним викликом функції [popen()](function.popen.md)
 
 ### Значення, що повертаються
 
@@ -58,4 +58,4 @@ pclose($handle);
 
 ### Дивіться також
 
--   [popen()](function.popen.html) - Відкриває файловий покажчик процесу
+-   [popen()](function.popen.md) - Відкриває файловий покажчик процесу

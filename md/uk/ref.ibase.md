@@ -1,12 +1,12 @@
 Функції Firebird/InterBase
 
--   [« Предопределённые константы](ibase.constants.html)
+-   [« Обумовлені константи](ibase.constants.md)
     
 -   [fbirdadduser »](function.fbird-add-user.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Firebird/InterBase](book.ibase.html)
+-   [Firebird/InterBase](book.ibase.md)
     
 -   Функції Firebird/InterBase
     

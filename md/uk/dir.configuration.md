@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](dir.installation.html)
+-   [« Установка](dir.installation.md)
     
--   [Типы ресурсов »](dir.resources.html)
+-   [Типи ресурсів »](dir.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](dir.setup.html)
+-   [Встановлення та налаштування](dir.setup.md)
     
 -   Налаштування під час виконання
     

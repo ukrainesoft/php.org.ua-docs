@@ -1,12 +1,12 @@
 Складання / Компіляція з вихідного коду
 
--   [« Настройка во время выполнения](mysql-xdevapi.configuration.html)
+-   [« Налаштування під час виконання](mysql-xdevapi.configuration.html)
     
--   [Предопределённые константы »](mysql-xdevapi.constants.html)
+-   [Обумовлені константи »](mysql-xdevapi.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](mysql-xdevapi.setup.html)
+-   [Встановлення та налаштування](mysql-xdevapi.setup.html)
     
 -   Складання / Компіляція з вихідного коду
     

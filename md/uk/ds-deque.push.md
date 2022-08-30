@@ -4,7 +4,7 @@
     
 -   [ДсDeque::reduce »](ds-deque.reduce.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Двостороння черга](class.ds-deque.html)
     

@@ -1,12 +1,12 @@
 Отримує коротке ім'я функції
 
--   [« ReflectionFunctionAbstract::getReturnType](reflectionfunctionabstract.getreturntype.html)
+-   [« ReflectionFunctionAbstract::getReturnType](reflectionfunctionabstract.getreturntype.md)
     
--   [ReflectionFunctionAbstract::getStartLine »](reflectionfunctionabstract.getstartline.html)
+-   [ReflectionFunctionAbstract::getStartLine »](reflectionfunctionabstract.getstartline.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
     
 -   Отримує коротке ім'я функції
     
@@ -35,5 +35,5 @@ public ReflectionFunctionAbstract::getShortName(): string
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getNamespaceName()](reflectionfunctionabstract.getnamespacename.html) - Отримання імені простору імен
--   [пространства имён](language.namespaces.html)
+-   [ReflectionFunctionAbstract::getNamespaceName()](reflectionfunctionabstract.getnamespacename.md) - Отримання імені простору імен
+-   [пространства имён](language.namespaces.md)

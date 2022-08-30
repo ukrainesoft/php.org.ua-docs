@@ -4,7 +4,7 @@
     
 -   [CommonMarkNode::accept »](commonmark-node.accept.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [CommonMarkNode](class.commonmark-node.html)
     

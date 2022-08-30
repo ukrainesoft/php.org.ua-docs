@@ -23,7 +23,7 @@ OAuthProvider::reportProblem — Повідомити про проблему
 final public static OAuthProvider::reportProblem(string $oauthexception, bool $send_headers = true): string
 ```
 
-Передати проблему як виняток [OAuthException](class.oauthexception.html). Допустимі проблеми перераховані в секції [константы OAuth](oauth.constants.html)
+Передати проблему як виняток [OAuthException](class.oauthexception.html). Допустимі проблеми перераховані в секції [константи OAuth](oauth.constants.html)
 
 **Увага**
 

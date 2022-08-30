@@ -1,12 +1,12 @@
 Встановити callback-функцію за таймером
 
--   [« ZMQDevice::setIdleTimeout](zmqdevice.setidletimeout.html)
+-   [« ZMQDevice::setIdleTimeout](zmqdevice.setidletimeout.md)
     
--   [ZMQDevice::setTimerTimeout »](zmqdevice.settimertimeout.html)
+-   [ZMQDevice::setTimerTimeout »](zmqdevice.settimertimeout.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQDevice](class.zmqdevice.html)
+-   [ZMQDevice](class.zmqdevice.md)
     
 -   Встановити callback-функцію за таймером
     

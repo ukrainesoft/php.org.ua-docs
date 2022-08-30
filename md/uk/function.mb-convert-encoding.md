@@ -53,12 +53,12 @@ mb_convert_encoding(array|string $string, string $to_encoding, array|string|null
 
 ### список змін
 
-| Версия | Описание                                                                                                                          |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------|
-|        | **мбconvertencoding()** тепер викидає [ValueError](class.valueerror.html), якщо передано неприпустиме кодування в `to_encoding`   |
-|        | **мбconvertencoding()** тепер викидає [ValueError](class.valueerror.html), якщо передано неприпустиме кодування в `from_encoding` |
-|        | Тепер `from_encoding` може бути **`null`**                                                                                        |
-|        | Функція тепер також приймає масив (array) `string`. Раніше підтримувалися лише рядки (string).                                    |
+| Версия | Описание |
+| --- | --- |
+|  | **мбconvertencoding()** тепер викидає [ValueError](class.valueerror.html), якщо передано неприпустиме кодування в `to_encoding` |
+|  | **мбconvertencoding()** тепер викидає [ValueError](class.valueerror.html), якщо передано неприпустиме кодування в `from_encoding` |
+|  | Тепер `from_encoding` може бути **`null`** |
+|  | Функція тепер також приймає масив (array) `string`. Раніше підтримувалися лише рядки (string). |
 
 ### Приклади
 

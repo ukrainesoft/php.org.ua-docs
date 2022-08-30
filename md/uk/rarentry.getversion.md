@@ -1,12 +1,12 @@
 Повертає мінімальну версію програми RAR, необхідну для розпакування елемента
 
--   [« RarEntry::getUnpackedSize](rarentry.getunpackedsize.html)
+-   [« RarEntry::getUnpackedSize](rarentry.getunpackedsize.md)
     
--   [RarEntry::isDirectory »](rarentry.isdirectory.html)
+-   [RarEntry::isDirectory »](rarentry.isdirectory.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RarEntry](class.rarentry.html)
+-   [RarEntry](class.rarentry.md)
     
 -   Повертає мінімальну версію програми RAR, необхідну для розпакування елемента
     

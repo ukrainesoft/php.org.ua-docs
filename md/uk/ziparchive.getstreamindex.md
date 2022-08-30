@@ -1,12 +1,12 @@
 Отримує обробник файлу для запису, визначеного його індексом (тільки для читання)
 
--   [« ZipArchive::getStream](ziparchive.getstream.html)
+-   [« ZipArchive::getStream](ziparchive.getstream.md)
     
--   [ZipArchive::getStreamName »](ziparchive.getstreamname.html)
+-   [ZipArchive::getStreamName »](ziparchive.getstreamname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Отримує обробник файлу для запису, визначеного його індексом (тільки для читання)
     
@@ -41,7 +41,7 @@ public ZipArchive::getStreamIndex(int $index, int $flags = 0): resource|false
 
 ### Приклади
 
-**Приклад #1 Отримання та збереження вмісту запису за допомогою [fread()](function.fread.html)**
+**Приклад #1 Отримання та збереження вмісту запису за допомогою [fread()](function.fread.md)**
 
 ```php
 <?php
@@ -60,4 +60,4 @@ if ($z->open('test.zip')) {
 
 ### Дивіться також
 
--   [ZipArchive::getStreamName()](ziparchive.getstreamname.html) - Отримує обробник файлу для запису, визначеного його ім'ям (тільки для читання)
+-   [ZipArchive::getStreamName()](ziparchive.getstreamname.md) - Отримує обробник файлу для запису, визначеного його ім'ям (тільки для читання)

@@ -1,12 +1,12 @@
 Сканує буфер на наявність кінця рядка
 
--   [« EventBuffer::search](eventbuffer.search.html)
+-   [« EventBuffer::search](eventbuffer.search.md)
     
--   [EventBuffer::substr »](eventbuffer.substr.html)
+-   [EventBuffer::substr »](eventbuffer.substr.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBuffer](class.eventbuffer.html)
+-   [EventBuffer](class.eventbuffer.md)
     
 -   Сканує буфер на наявність кінця рядка
     
@@ -54,8 +54,8 @@ Start search position.
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### Дивіться також
 
--   [EventBuffer::search()](eventbuffer.search.html) - Сканує буфер на наявність рядка
+-   [EventBuffer::search()](eventbuffer.search.md) - Сканує буфер на наявність рядка

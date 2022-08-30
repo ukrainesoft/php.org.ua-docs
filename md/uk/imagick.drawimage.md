@@ -1,12 +1,12 @@
 Виконує рендеринг об'єкту ImagickDraw на поточному зображенні
 
--   [« Imagick::distortImage](imagick.distortimage.html)
+-   [« Imagick::distortImage](imagick.distortimage.md)
     
--   [Imagick::edgeImage »](imagick.edgeimage.html)
+-   [Imagick::edgeImage »](imagick.edgeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Виконує рендеринг об'єкту ImagickDraw на поточному зображенні
     

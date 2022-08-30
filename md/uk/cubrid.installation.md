@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](cubrid.requirements.html)
+-   [« Вимоги](cubrid.requirements.html)
     
--   [Настройка во время выполнения »](cubrid.configuration.html)
+-   [Налаштування під час виконання »](cubrid.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](cubrid.setup.html)
+-   [Встановлення та налаштування](cubrid.setup.html)
     
 -   Встановлення
     

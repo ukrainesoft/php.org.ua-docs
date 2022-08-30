@@ -1,12 +1,12 @@
 Застосовує ефект соляризації до зображення
 
--   [« Gmagick::shearimage](gmagick.shearimage.html)
+-   [« Gmagick::shearimage](gmagick.shearimage.md)
     
--   [Gmagick::spreadimage »](gmagick.spreadimage.html)
+-   [Gmagick::spreadimage »](gmagick.spreadimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Застосовує ефект соляризації до зображення
     
@@ -33,7 +33,7 @@ public Gmagick::solarizeimage(int $threshold): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

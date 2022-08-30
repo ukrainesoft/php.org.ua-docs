@@ -67,7 +67,7 @@ var_dump(is_callable($functionVariable, false, $callable_name));  // bool(t
 echo $callable_name, "\n";  // someFunction
 
 //
-//  Массив, содержащий метод класса
+//  Масив, содержащий метод класса
 //
 
 class someClass {

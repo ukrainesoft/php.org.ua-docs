@@ -4,9 +4,9 @@
     
 -   [runkit7methodredefine »](function.runkit7-method-redefine.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції runkit7](ref.runkit7.html)
+-   [Функції runkit7](ref.runkit7.md)
     
 -   Копіює метод з одного класу до іншого
     

@@ -1,12 +1,12 @@
 Встановлює гравітацію
 
--   [« Imagick::setFormat](imagick.setformat.html)
+-   [« Imagick::setFormat](imagick.setformat.md)
     
--   [Imagick::setImage »](imagick.setimage.html)
+-   [Imagick::setImage »](imagick.setimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює гравітацію
     

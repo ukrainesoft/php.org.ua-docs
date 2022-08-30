@@ -4,9 +4,9 @@
     
 -   [xdiffstringbpatch »](function.xdiff-string-bpatch.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.md)
     
 -   Створити бінарний патч для двох рядків
     

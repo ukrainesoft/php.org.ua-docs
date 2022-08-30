@@ -1,12 +1,12 @@
 Додає значення до кінця масиву
 
--   [« ArrayObject](class.arrayobject.html)
+-   [« ArrayObject](class.arrayobject.md)
     
--   [ArrayObject::asort »](arrayobject.asort.html)
+-   [ArrayObject::asort »](arrayobject.asort.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayObject](class.arrayobject.html)
+-   [ArrayObject](class.arrayobject.md)
     
 -   Додає значення до кінця масиву
     
@@ -27,7 +27,7 @@ public ArrayObject::append(mixed $value): void
 
 > **Зауваження**
 > 
-> Цей метод не може бути викликаний, якщо [ArrayObject](class.arrayobject.html) був створений із об'єкта. У цьому випадку використовуйте замість нього [ArrayObject::offsetSet()](arrayobject.offsetset.html)
+> Цей метод не може бути викликаний, якщо [ArrayObject](class.arrayobject.md) був створений із об'єкта. У цьому випадку використовуйте замість нього [ArrayObject::offsetSet()](arrayobject.offsetset.md)
 
 ### Список параметрів
 
@@ -76,4 +76,4 @@ object(ArrayObject)#1 (5) {
 
 ### Дивіться також
 
--   [ArrayObject::offsetSet()](arrayobject.offsetset.html) - Встановлює нове значення за вказаним індексом
+-   [ArrayObject::offsetSet()](arrayobject.offsetset.md) - Встановлює нове значення за вказаним індексом

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](pgsql.setup.html)
+-   [« Встановлення та налаштування](pgsql.setup.md)
     
--   [Установка »](pgsql.installation.html)
+-   [Установка »](pgsql.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](pgsql.setup.html)
+-   [Встановлення та налаштування](pgsql.setup.md)
     
 -   Вимоги
     

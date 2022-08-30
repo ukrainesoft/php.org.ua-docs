@@ -29,7 +29,7 @@ public Memcached::setOption(int $option, mixed $value): bool
 
 `option`
 
-Одна з констант `Memcached::OPT_*`. Вивчіть розділ [константы Memcached](memcached.constants.html) для отримання повнішої інформації.
+Одна з констант `Memcached::OPT_*`. Вивчіть розділ [константи Memcached](memcached.constants.html) для отримання повнішої інформації.
 
 `value`
 
@@ -71,4 +71,4 @@ Prefix key is now: widgets
 
 -   [Memcached::getOption()](memcached.getoption.html) - Отримує значення Memcached параметра
 -   [Memcached::setOptions()](memcached.setoptions.html) - Встановлює кілька Memcached параметрів
--   [Memcached константы](memcached.constants.html)
+-   [Memcached константи](memcached.constants.html)

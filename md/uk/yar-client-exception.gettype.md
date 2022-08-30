@@ -2,9 +2,9 @@
 
 -   [« YarClientException](class.yar-client-exception.html)
     
--   [XML-RPC »](book.xmlrpc.html)
+-   [XML-RPC »](book.xmlrpc.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YarClientException](class.yar-client-exception.html)
     

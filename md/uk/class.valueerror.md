@@ -1,12 +1,12 @@
 ValueError
 
--   [« TypeError](class.typeerror.html)
+-   [« TypeError](class.typeerror.md)
     
--   [UnhandledMatchError »](class.unhandledmatcherror.html)
+-   [UnhandledMatchError »](class.unhandledmatcherror.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые исключения](reserved.exceptions.html)
+-   [Обумовлені винятки](reserved.exceptions.md)
     
 -   ValueError
     

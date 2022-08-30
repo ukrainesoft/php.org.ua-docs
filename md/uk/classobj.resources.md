@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](classobj.configuration.html)
+-   [« Налаштування під час виконання](classobj.configuration.html)
     
--   [Предопределённые константы »](classobj.constants.html)
+-   [Обумовлені константи »](classobj.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](classobj.setup.html)
+-   [Встановлення та налаштування](classobj.setup.html)
     
 -   Типи ресурсів
     

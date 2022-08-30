@@ -1,12 +1,12 @@
 Вбудовані інтерфейси та класи
 
--   [« FiberError](class.fibererror.html)
+-   [« FiberError](class.fibererror.md)
     
--   [Traversable »](class.traversable.html)
+-   [Traversable »](class.traversable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Справочник языка](langref.html)
+-   [Довідник мови](langref.md)
     
 -   Вбудовані інтерфейси та класи
     
@@ -15,19 +15,19 @@
 
 ## Зміст
 
--   [Traversable](class.traversable.html)
--   [Iterator](class.iterator.html)
--   [IteratorAggregate](class.iteratoraggregate.html)
--   [Throwable](class.throwable.html)
--   [ArrayAccess](class.arrayaccess.html)
--   [Serializable](class.serializable.html)
--   [Closure](class.closure.html)
--   [Generator](class.generator.html)
--   [Fiber](class.fiber.html)
--   [WeakReference](class.weakreference.html)
--   [WeakMap](class.weakmap.html)
--   [Stringable](class.stringable.html)
--   [UnitEnum](class.unitenum.html)
--   [BackedEnum](class.backedenum.html)
+-   [Traversable](class.traversable.md)
+-   [Iterator](class.iterator.md)
+-   [IteratorAggregate](class.iteratoraggregate.md)
+-   [Throwable](class.throwable.md)
+-   [ArrayAccess](class.arrayaccess.md)
+-   [Serializable](class.serializable.md)
+-   [Closure](class.closure.md)
+-   [Generator](class.generator.md)
+-   [Fiber](class.fiber.md)
+-   [WeakReference](class.weakreference.md)
+-   [WeakMap](class.weakmap.md)
+-   [Stringable](class.stringable.md)
+-   [UnitEnum](class.unitenum.md)
+-   [BackedEnum](class.backedenum.md)
 
-Дивіться також [Интерфейсы SPL](spl.interfaces.html) і [Предопределённые классы](reserved.classes.html)
+Дивіться також [Інтерфейси SPL](spl.interfaces.md) і [Обумовлені класи](reserved.classes.md)

@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.datetime.html)
+-   [« Введение](intro.datetime.md)
     
--   [Требования »](datetime.requirements.html)
+-   [Вимоги »](datetime.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Дата/время](book.datetime.html)
+-   [Дата/время](book.datetime.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](datetime.requirements.html)
--   [Установка](datetime.installation.html)
--   [Настройка во время выполнения](datetime.configuration.html)
--   [Типы ресурсов](datetime.resources.html)
+-   [Вимоги](datetime.requirements.md)
+-   [Установка](datetime.installation.md)
+-   [Налаштування під час виконання](datetime.configuration.md)
+-   [Типи ресурсів](datetime.resources.md)

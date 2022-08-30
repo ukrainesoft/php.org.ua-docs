@@ -2,9 +2,9 @@ elseif/else if
 
 -   [« else](control-structures.else.html)
     
--   [Альтернативный синтаксис управляющих структур »](control-structures.alternative-syntax.html)
+-   [Альтернативний синтаксис керуючих структур »](control-structures.alternative-syntax.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Управляющие конструкции](language.control-structures.html)
     

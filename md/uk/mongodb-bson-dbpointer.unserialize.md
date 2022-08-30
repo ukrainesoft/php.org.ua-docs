@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONInt64 »](class.mongodb-bson-int64.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.html)
     
@@ -40,5 +40,5 @@ final public MongoDB\BSON\DBPointer::unserialize(string $serialized): void
 ### Дивіться також
 
 -   [MongoDBBSONDBPointer::serialize()](mongodb-bson-dbpointer.serialize.html) - Серіалізує DBPointer
--   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](dio.configuration.html)
+-   [« Налаштування під час виконання](dio.configuration.md)
     
--   [Предопределённые константы »](dio.constants.html)
+-   [Обумовлені константи »](dio.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](dio.setup.html)
+-   [Встановлення та налаштування](dio.setup.md)
     
 -   Типи ресурсів
     

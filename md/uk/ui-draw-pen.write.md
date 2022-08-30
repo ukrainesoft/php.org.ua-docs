@@ -4,7 +4,7 @@
     
 -   [ОЙDrawPath »](class.ui-draw-path.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawPen](class.ui-draw-pen.html)
     

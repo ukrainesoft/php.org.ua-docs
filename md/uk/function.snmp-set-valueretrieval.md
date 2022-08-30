@@ -77,4 +77,4 @@ snmp_set_valueretrieval(int $method): bool
 ### Дивіться також
 
 -   [snmpgetvalueretrieval()](function.snmp-get-valueretrieval.html) - Повертає метод, як буде повернено значення SNMP
--   [Предопределённые константы](snmp.constants.html)
+-   [Обумовлені константи](snmp.constants.html)

@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.hrtime.html)
+-   [« Введение](intro.hrtime.md)
     
--   [Установка »](hrtime.installation.html)
+-   [Установка »](hrtime.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [HRTime](book.hrtime.html)
+-   [HRTime](book.hrtime.md)
     
 -   Встановлення та налаштування
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [Установка](hrtime.installation.html)
+-   [Установка](hrtime.installation.md)

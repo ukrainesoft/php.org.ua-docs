@@ -4,9 +4,9 @@
     
 -   [radiusputvendoraddr »](function.radius-put-vendor-addr.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Radius](ref.radius.html)
+-   [Функции Radius](ref.radius.md)
     
 -   Приєднує рядковий атрибут
     
@@ -57,8 +57,8 @@ radius_put_string(    resource $radius_handle,    int $type,    stri
 
 ### список змін
 
-| Версия            | Описание                           |
-|-------------------|------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL radius 1.3.0 | Додані параметри `options` і `tag` |
 
 ### Приклади

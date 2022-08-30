@@ -1,12 +1,12 @@
 Записати повний простір імен тега елемента
 
--   [« XMLWriter::writeElement](xmlwriter.writeelement.html)
+-   [« XMLWriter::writeElement](xmlwriter.writeelement.md)
     
--   [XMLWriter::writePi »](xmlwriter.writepi.html)
+-   [XMLWriter::writePi »](xmlwriter.writepi.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](class.xmlwriter.html)
+-   [XMLWriter](class.xmlwriter.md)
     
 -   Записати повний простір імен тега елемента
     
@@ -39,7 +39,7 @@ xmlwriter_write_element_ns(    XMLWriter $writer,    ?string $prefix, �
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `prefix`
 
@@ -63,12 +63,12 @@ URI простір імен. Якщо `namespace` дорівнює **`null`**, �
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::startElementNs()](xmlwriter.startelementns.html) - Створити стартовий тег елемента простору імен
--   [XMLWriter::endElement()](xmlwriter.endelement.html) - Завершити поточний елемент
--   [XMLWriter::writeElement()](xmlwriter.writeelement.html) - Записати повний тег елемента
+-   [XMLWriter::startElementNs()](xmlwriter.startelementns.md) - Створити стартовий тег елемента простору імен
+-   [XMLWriter::endElement()](xmlwriter.endelement.md) - Завершити поточний елемент
+-   [XMLWriter::writeElement()](xmlwriter.writeelement.md) - Записати повний тег елемента

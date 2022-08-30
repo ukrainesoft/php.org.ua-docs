@@ -1,6 +1,6 @@
 Функції SVN
 
--   [« Предопределённые константы](svn.constants.html)
+-   [« Обумовлені константи](svn.constants.html)
     
 -   [svnadd »](function.svn-add.html)
     

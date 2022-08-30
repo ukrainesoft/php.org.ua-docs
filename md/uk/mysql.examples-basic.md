@@ -1,12 +1,12 @@
 Оглядовий приклад модуля MySQL
 
--   [« Примеры](mysql.examples.html)
+-   [« Приклади](mysql.examples.md)
     
--   [MySQL »](ref.mysql.html)
+-   [MySQL »](ref.mysql.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](mysql.examples.html)
+-   [Приклади](mysql.examples.md)
     
 -   Оглядовий приклад модуля MySQL
     

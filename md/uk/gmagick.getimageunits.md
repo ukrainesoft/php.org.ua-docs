@@ -1,12 +1,12 @@
 Повертає одиниці роздільної здатності зображення
 
--   [« Gmagick::getimagetype](gmagick.getimagetype.html)
+-   [« Gmagick::getimagetype](gmagick.getimagetype.md)
     
--   [Gmagick::getimagewhitepoint »](gmagick.getimagewhitepoint.html)
+-   [Gmagick::getimagewhitepoint »](gmagick.getimagewhitepoint.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повертає одиниці роздільної здатності зображення
     

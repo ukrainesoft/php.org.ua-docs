@@ -4,9 +4,9 @@
     
 -   [odbcresult »](function.odbc-result.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции ODBC](ref.uodbc.html)
+-   [Функции ODBC](ref.uodbc.md)
     
 -   Виводить результат у вигляді HTML-таблиці
     
@@ -47,6 +47,6 @@ odbc_result_all(resource $statement, string $format = ""): int|false
 
 ### список змін
 
-| Версия | Описание                      |
-|--------|-------------------------------|
-|        | Функцію оголошено застарілою. |
+| Версия | Описание |
+| --- | --- |
+|  | Функцію оголошено застарілою. |

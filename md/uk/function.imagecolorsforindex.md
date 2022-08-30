@@ -1,12 +1,12 @@
 Отримання кольорів, що відповідають індексу
 
--   [« imagecolorset](function.imagecolorset.html)
+-   [« imagecolorset](function.imagecolorset.md)
     
--   [imagecolorstotal »](function.imagecolorstotal.html)
+-   [imagecolorstotal »](function.imagecolorstotal.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Отримання кольорів, що відповідають індексу
     
@@ -29,7 +29,7 @@ imagecolorsforindex(GdImage $image, int $color): array
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `color`
 
@@ -41,10 +41,10 @@ imagecolorsforindex(GdImage $image, int $color): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource).                                                                                                |
-|        | Функція **imagecolorsforindex()** тепер викидає виняток [ValueError](class.valueerror.html), якщо параметр `color` поза допустимим діапазоном; раніше натомість поверталося значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+|  | Функція **imagecolorsforindex()** тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `color` поза допустимим діапазоном; раніше натомість поверталося значення **`false`** |
 
 ### Приклади
 
@@ -84,5 +84,5 @@ Array
 
 ### Дивіться також
 
--   [imagecolorat()](function.imagecolorat.html) - Отримання індексу кольору пікселя
--   [imagecolorexact()](function.imagecolorexact.html) - Отримання індексу заданого кольору
+-   [imagecolorat()](function.imagecolorat.md) - Отримання індексу кольору пікселя
+-   [imagecolorexact()](function.imagecolorexact.md) - Отримання індексу заданого кольору

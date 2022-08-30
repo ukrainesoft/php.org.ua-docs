@@ -1,12 +1,12 @@
 Конструктор ReflectionGenerator
 
--   [« ReflectionGenerator](class.reflectiongenerator.html)
+-   [« ReflectionGenerator](class.reflectiongenerator.md)
     
--   [ReflectionGenerator::getExecutingFile »](reflectiongenerator.getexecutingfile.html)
+-   [ReflectionGenerator::getExecutingFile »](reflectiongenerator.getexecutingfile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionGenerator](class.reflectiongenerator.html)
+-   [ReflectionGenerator](class.reflectiongenerator.md)
     
 -   Конструктор ReflectionGenerator
     
@@ -19,9 +19,9 @@ ReflectionGenerator::construct — Конструктор ReflectionGenerator
 
 ### Опис
 
-public **ReflectionGenerator::construct**[Generator](class.generator.html) `$generator`
+public **ReflectionGenerator::construct**[Generator](class.generator.md) `$generator`
 
-Створює об'єкт [ReflectionGenerator](class.reflectiongenerator.html)
+Створює об'єкт [ReflectionGenerator](class.reflectiongenerator.md)
 
 ### Список параметрів
 
@@ -62,6 +62,6 @@ gen
 
 ### Дивіться також
 
--   [ReflectionGenerator::getFunction()](reflectiongenerator.getfunction.html) - Отримати ім'я функції генератора
--   [ReflectionGenerator::getExecutingLine()](reflectiongenerator.getexecutingline.html) - Отримати поточний рядок генератора, що виконується
--   [ReflectionGenerator::getExecutingFile()](reflectiongenerator.getexecutingfile.html) - Отримати ім'я файлу, з якого запущено генератор
+-   [ReflectionGenerator::getFunction()](reflectiongenerator.getfunction.md) - Отримати ім'я функції генератора
+-   [ReflectionGenerator::getExecutingLine()](reflectiongenerator.getexecutingline.md) - Отримати поточний рядок генератора, що виконується
+-   [ReflectionGenerator::getExecutingFile()](reflectiongenerator.getexecutingfile.md) - Отримати ім'я файлу, з якого запущено генератор

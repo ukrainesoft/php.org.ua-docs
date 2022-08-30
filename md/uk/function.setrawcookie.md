@@ -1,12 +1,12 @@
 Надсилає cookie без URL-кодування значення
 
--   [« setcookie](function.setcookie.html)
+-   [« setcookie](function.setcookie.md)
     
 -   [socketgetstatus »](function.socket-get-status.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Мережеві функції](ref.network.html)
+-   [Мережеві функції](ref.network.md)
     
 -   Надсилає cookie без URL-кодування значення
     
@@ -29,11 +29,11 @@ setrawcookie(    string $name,    string $value = ?,    int $expires
 setrawcookie(string $name, string $value = ?, array $options = []): bool
 ```
 
-Функція **setrawcookie()** є повним аналогом функції [setcookie()](function.setcookie.html), за винятком того, що значення cookie не буде автоматично закодовано під час надсилання браузеру.
+Функція **setrawcookie()** є повним аналогом функції [setcookie()](function.setcookie.md), за винятком того, що значення cookie не буде автоматично закодовано під час надсилання браузеру.
 
 ### Список параметрів
 
-Для отримання інформації про параметр, дивіться документацію по функції [setcookie()](function.setcookie.html)
+Для отримання інформації про параметр, дивіться документацію по функції [setcookie()](function.setcookie.md)
 
 ### Значення, що повертаються
 
@@ -41,10 +41,10 @@ setrawcookie(string $name, string $value = ?, array $options = []): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                            |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------|
-|        | Додано альтернативний підпис, що підтримує масив опцій `options`. Цей підпис також підтримує налаштування cookie-атрибута SameSite. |
+| Версия | Описание |
+| --- | --- |
+|  | Додано альтернативний підпис, що підтримує масив опцій `options`. Цей підпис також підтримує налаштування cookie-атрибута SameSite. |
 
 ### Дивіться також
 
--   [setcookie()](function.setcookie.html) - Надсилає cookie
+-   [setcookie()](function.setcookie.md) - Надсилає cookie

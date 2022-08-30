@@ -1,12 +1,12 @@
 Видаляє одне з полів, що використовуються для виділення
 
--   [« SolrQuery::removeFilterQuery](solrquery.removefilterquery.html)
+-   [« SolrQuery::removeFilterQuery](solrquery.removefilterquery.md)
     
--   [SolrQuery::removeMltField »](solrquery.removemltfield.html)
+-   [SolrQuery::removeMltField »](solrquery.removemltfield.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Видаляє одне з полів, що використовуються для виділення
     

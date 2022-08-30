@@ -4,9 +4,9 @@
     
 -   [fannsetcascadeweightmultiplier »](function.fann-set-cascade-weight-multiplier.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Встановлює кількість періодів стагнації каскадного виводу
     

@@ -1,12 +1,12 @@
 Реалізує дискретне перетворення Фур'є
 
--   [« Imagick::importImagePixels](imagick.importimagepixels.html)
+-   [« Imagick::importImagePixels](imagick.importimagepixels.md)
     
--   [Imagick::labelImage »](imagick.labelimage.html)
+-   [Imagick::labelImage »](imagick.labelimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Реалізує дискретне перетворення Фур'є
     

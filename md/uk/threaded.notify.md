@@ -1,12 +1,12 @@
 Синхронізація
 
--   [« Threaded::merge](threaded.merge.html)
+-   [« Threaded::merge](threaded.merge.md)
     
--   [Threaded::notifyOne »](threaded.notifyone.html)
+-   [Threaded::notifyOne »](threaded.notifyone.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Threaded](class.threaded.html)
+-   [Threaded](class.threaded.md)
     
 -   Синхронізація
     

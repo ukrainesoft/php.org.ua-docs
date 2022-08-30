@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](mysqli.configuration.html)
+-   [« Налаштування під час виконання](mysqli.configuration.html)
     
 -   [Модуль mysqli та постійні з'єднання »](mysqli.persistconns.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](mysqli.setup.html)
+-   [Встановлення та налаштування](mysqli.setup.html)
     
 -   Типи ресурсів
     

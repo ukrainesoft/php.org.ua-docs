@@ -67,9 +67,9 @@ stream_select(    ?array &$read,    ?array &$write,    ?array &$exce
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Параметр `microseconds` тепер припускає значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `microseconds` тепер припускає значення **`null`** |
 
 ### Приклади
 
@@ -79,7 +79,7 @@ stream_select(    ?array &$read,    ?array &$write,    ?array &$exce
 
 ```php
 <?php
-/* Подготовить массив для чтения */
+/* Подготовить Масив для чтения */
 $read   = array($stream1, $stream2);
 $write  = NULL;
 $except = NULL;

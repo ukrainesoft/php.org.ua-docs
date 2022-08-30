@@ -1,12 +1,12 @@
 Переміщує ітератор до наступного елемента
 
--   [« CachingIterator::key](cachingiterator.key.html)
+-   [« CachingIterator::key](cachingiterator.key.md)
     
--   [CachingIterator::offsetExists »](cachingiterator.offsetexists.html)
+-   [CachingIterator::offsetExists »](cachingiterator.offsetexists.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CachingIterator](class.cachingiterator.html)
+-   [CachingIterator](class.cachingiterator.md)
     
 -   Переміщує ітератор до наступного елемента
     

@@ -1,12 +1,12 @@
 Отримує кількість параметрів
 
--   [« ReflectionFunctionAbstract::getNamespaceName](reflectionfunctionabstract.getnamespacename.html)
+-   [« ReflectionFunctionAbstract::getNamespaceName](reflectionfunctionabstract.getnamespacename.md)
     
--   [ReflectionFunctionAbstract::getNumberOfRequiredParameters »](reflectionfunctionabstract.getnumberofrequiredparameters.html)
+-   [ReflectionFunctionAbstract::getNumberOfRequiredParameters »](reflectionfunctionabstract.getnumberofrequiredparameters.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
     
 -   Отримує кількість параметрів
     
@@ -35,5 +35,5 @@ public ReflectionFunctionAbstract::getNumberOfParameters(): int
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getNumberOfRequiredParameters()](reflectionfunctionabstract.getnumberofrequiredparameters.html) - Отримує кількість обов'язкових параметрів
+-   [ReflectionFunctionAbstract::getNumberOfRequiredParameters()](reflectionfunctionabstract.getnumberofrequiredparameters.md) - Отримує кількість обов'язкових параметрів
 -   [funcnumargs()](function.func-num-args.html) - Повертає кількість аргументів, переданих функції

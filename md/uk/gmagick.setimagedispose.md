@@ -1,12 +1,12 @@
 Встановлює метод видалення зображення
 
--   [« Gmagick::setimagedepth](gmagick.setimagedepth.html)
+-   [« Gmagick::setimagedepth](gmagick.setimagedepth.md)
     
--   [Gmagick::setimagefilename »](gmagick.setimagefilename.html)
+-   [Gmagick::setimagefilename »](gmagick.setimagefilename.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Встановлює метод видалення зображення
     
@@ -33,7 +33,7 @@ public Gmagick::setimagedispose(int $disposeType): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

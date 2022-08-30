@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](csprng.requirements.html)
+-   [« Вимоги](csprng.requirements.html)
     
--   [Настройка во время выполнения »](csprng.configuration.html)
+-   [Налаштування під час виконання »](csprng.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](csprng.setup.html)
+-   [Встановлення та налаштування](csprng.setup.html)
     
 -   Встановлення
     

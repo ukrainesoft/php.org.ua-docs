@@ -1,12 +1,12 @@
 Читає зображення з файлу
 
--   [« Gmagick::read](gmagick.read.html)
+-   [« Gmagick::read](gmagick.read.md)
     
--   [Gmagick::readimageblob »](gmagick.readimageblob.html)
+-   [Gmagick::readimageblob »](gmagick.readimageblob.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Читає зображення з файлу
     
@@ -33,7 +33,7 @@ public Gmagick::readimage(string $filename): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

@@ -4,9 +4,9 @@
     
 -   [dbaexists »](function.dba-exists.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції DBA](ref.dba.html)
+-   [Функції DBA](ref.dba.md)
     
 -   Видаляє запис бази даних, визначену ключем
     

@@ -1,12 +1,12 @@
 Створити об'єкт класу EvIdle, але не стартувати його
 
--   [« EvIdle::construct](evidle.construct.html)
+-   [« EvIdle::construct](evidle.construct.md)
     
--   [EvIo »](class.evio.html)
+-   [EvIo »](class.evio.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvIdle](class.evidle.html)
+-   [EvIdle](class.evidle.md)
     
 -   Створити об'єкт класу EvIdle, але не стартувати його
     
@@ -35,7 +35,7 @@ final
     = ?): object
 ```
 
-Те саме, що й [EvIdle::construct()](evidle.construct.html) але не виробляє автоматичного старту спостерігача.
+Те саме, що й [EvIdle::construct()](evidle.construct.md) але не виробляє автоматичного старту спостерігача.
 
 ### Список параметрів
 
@@ -57,5 +57,5 @@ final
 
 ### Дивіться також
 
--   [EvIdle::construct()](evidle.construct.html) - Конструктор спостерігача EvIdle
--   [EvLoop::idle()](evloop.idle.html) - Створює об'єкт спостерігача EvIdle, пов'язаний із поточним екземпляром циклу подій
+-   [EvIdle::construct()](evidle.construct.md) - Конструктор спостерігача EvIdle
+-   [EvLoop::idle()](evloop.idle.md) - Створює об'єкт спостерігача EvIdle, пов'язаний із поточним екземпляром циклу подій

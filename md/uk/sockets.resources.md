@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](sockets.configuration.html)
+-   [« Налаштування під час виконання](sockets.configuration.md)
     
--   [Предопределённые константы »](sockets.constants.html)
+-   [Обумовлені константи »](sockets.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](sockets.setup.html)
+-   [Встановлення та налаштування](sockets.setup.md)
     
 -   Типи ресурсів
     

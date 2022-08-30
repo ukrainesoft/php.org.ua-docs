@@ -4,7 +4,7 @@
     
 -   [XMLDiffFile »](class.xmldiff-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [XMLDiffMemory](class.xmldiff-memory.html)
     

@@ -325,7 +325,7 @@ data
 
 backend
 
-*Тільки читання*. . [Флаги бэкенда](class.ev.html#ev.constants.watcher-backends) що вказують який подійний бекенд використовується.
+*Тільки читання*. . [Прапори бекенда](class.ev.html#ev.constants.watcher-backends) що вказують який подійний бекенд використовується.
 
 ісdefaultloop
 

@@ -4,9 +4,9 @@
     
 -   [getcalledclass »](function.get-called-class.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції роботи з класами та об'єктами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.md)
     
 -   Перевіряє, чи визначено перерахування
     
@@ -33,7 +33,7 @@ enum_exists(string $enum, bool $autoload = true): bool
 
 `autoload`
 
-Чи слід викликати [autoload](language.oop5.autoload.html) за замовчуванням.
+Чи слід викликати [autoload](language.oop5.autoload.md) за замовчуванням.
 
 ### Значення, що повертаються
 

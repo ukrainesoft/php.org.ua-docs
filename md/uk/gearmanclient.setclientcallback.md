@@ -1,12 +1,12 @@
 Встановити функцію зворотного дзвінка, коли є пакет даних для завдання (застарілий метод)
 
--   [« GearmanClient::runTasks](gearmanclient.runtasks.html)
+-   [« GearmanClient::runTasks](gearmanclient.runtasks.md)
     
--   [GearmanClient::setCompleteCallback »](gearmanclient.setcompletecallback.html)
+-   [GearmanClient::setCompleteCallback »](gearmanclient.setcompletecallback.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanClient](class.gearmanclient.html)
+-   [GearmanClient](class.gearmanclient.md)
     
 -   Встановити функцію зворотного дзвінка, коли є пакет даних для завдання (застарілий метод)
     
@@ -23,11 +23,11 @@ GearmanClient::setClientCallback — Встановити функцію зво�
 public GearmanClient::setClientCallback(callable $callback): void
 ```
 
-Встановлює функцію зворотного дзвінка для отримання пакетів даних для завдання. Функція зворотного виклику повинна приймати єдиний параметр – об'єкт [GearmanTask](class.gearmantask.html)
+Встановлює функцію зворотного дзвінка для отримання пакетів даних для завдання. Функція зворотного виклику повинна приймати єдиний параметр – об'єкт [GearmanTask](class.gearmantask.md)
 
 > **Зауваження**
 > 
-> Цей метод було замінено на [GearmanClient::setDataCallback()](gearmanclient.setdatacallback.html) у версії 0.6.0 модуля Gearman.
+> Цей метод було замінено на [GearmanClient::setDataCallback()](gearmanclient.setdatacallback.md) у версії 0.6.0 модуля Gearman.
 
 ### Список параметрів
 
@@ -41,11 +41,11 @@ public GearmanClient::setClientCallback(callable $callback): void
 
 ### Дивіться також
 
--   [GearmanClient::setCompleteCallback()](gearmanclient.setcompletecallback.html) - Встановіть функцію, яка буде викликана після завершення завдання
--   [GearmanClient::setCreatedCallback()](gearmanclient.setcreatedcallback.html) - Встановити функцію зворотного виклику, коли завдання ставиться у чергу
--   [GearmanClient::setDataCallback()](gearmanclient.setdatacallback.html) - Задає callback-функцію обробки переданих даних
--   [GearmanClient::setExceptionCallback()](gearmanclient.setexceptioncallback.html) - Встановлення функції зворотного дзвінка для перехоплення виключень обробника завдань
--   [GearmanClient::setFailCallback()](gearmanclient.setfailcallback.html) - Установка callback-функції для обробки ситуації, коли завдання не вдалося виконати
--   [GearmanClient::setStatusCallback()](gearmanclient.setstatuscallback.html) - завдання callback-функції, що збирає інформацію про стан обробника завдань
--   [GearmanClient::setWarningCallback()](gearmanclient.setwarningcallback.html) - Установка callback-функції, яка обслуговує попередження оброблювача завдань
--   [GearmanClient::setWorkloadCallback()](gearmanclient.setworkloadcallback.html) - Установка callback-функції, яка приймає проміжні результати від оброблювача завдань
+-   [GearmanClient::setCompleteCallback()](gearmanclient.setcompletecallback.md) - Встановіть функцію, яка буде викликана після завершення завдання
+-   [GearmanClient::setCreatedCallback()](gearmanclient.setcreatedcallback.md) - Встановити функцію зворотного виклику, коли завдання ставиться у чергу
+-   [GearmanClient::setDataCallback()](gearmanclient.setdatacallback.md) - Задає callback-функцію обробки переданих даних
+-   [GearmanClient::setExceptionCallback()](gearmanclient.setexceptioncallback.md) - Встановлення функції зворотного дзвінка для перехоплення виключень обробника завдань
+-   [GearmanClient::setFailCallback()](gearmanclient.setfailcallback.md) - Установка callback-функції для обробки ситуації, коли завдання не вдалося виконати
+-   [GearmanClient::setStatusCallback()](gearmanclient.setstatuscallback.md) - завдання callback-функції, що збирає інформацію про стан обробника завдань
+-   [GearmanClient::setWarningCallback()](gearmanclient.setwarningcallback.md) - Установка callback-функції, яка обслуговує попередження оброблювача завдань
+-   [GearmanClient::setWorkloadCallback()](gearmanclient.setworkloadcallback.md) - Установка callback-функції, яка приймає проміжні результати від оброблювача завдань

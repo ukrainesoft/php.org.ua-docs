@@ -1,12 +1,12 @@
 Отримує рядок із файлу
 
--   [« SplFileObject::fgetcsv](splfileobject.fgetcsv.html)
+-   [« SplFileObject::fgetcsv](splfileobject.fgetcsv.md)
     
--   [SplFileObject::fgetss »](splfileobject.fgetss.html)
+-   [SplFileObject::fgetss »](splfileobject.fgetss.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileObject](class.splfileobject.html)
+-   [SplFileObject](class.splfileobject.md)
     
 -   Отримує рядок із файлу
     
@@ -35,7 +35,7 @@ public SplFileObject::fgets(): string
 
 ### Помилки
 
-Викидає [RuntimeException](class.runtimeexception.html)якщо файл не може бути прочитаний.
+Викидає [RuntimeException](class.runtimeexception.md)якщо файл не може бути прочитаний.
 
 ### Приклади
 
@@ -54,7 +54,7 @@ while (!$file->eof()) {
 
 ### Дивіться також
 
--   [fgets()](function.fgets.html) - Читає рядок із файлу
--   [SplFileObject::fgetss()](splfileobject.fgetss.html) - Отримати рядок із файлу та видалити теги HTML
--   [SplFileObject::fgetc()](splfileobject.fgetc.html) - Отримує символ із файлу
--   [SplFileObject::current()](splfileobject.current.html) - Отримати поточний рядок файлу
+-   [fgets()](function.fgets.md) - Читає рядок із файлу
+-   [SplFileObject::fgetss()](splfileobject.fgetss.md) - Отримати рядок із файлу та видалити теги HTML
+-   [SplFileObject::fgetc()](splfileobject.fgetc.md) - Отримує символ із файлу
+-   [SplFileObject::current()](splfileobject.current.md) - Отримати поточний рядок файлу

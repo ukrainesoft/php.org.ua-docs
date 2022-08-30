@@ -1,12 +1,12 @@
 Скасовує зміни у масиві сесії та завершує її
 
--   [« Функції для роботи з сесіями](ref.session.html)
+-   [« Функції для роботи з сесіями](ref.session.md)
     
 -   [sessioncacheexpire »](function.session-cache-expire.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи із сесіями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.md)
     
 -   Скасовує зміни у масиві сесії та завершує її
     
@@ -35,13 +35,13 @@ session_abort(): bool
 
 ### список змін
 
-| Версия | Описание                                                           |
-|--------|--------------------------------------------------------------------|
-|        | Тепер тип цієї функції bool, що повертається. Раніше був тип void. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер тип цієї функції bool, що повертається. Раніше був тип void. |
 
 ### Дивіться також
 
--   [SESSION](reserved.variables.session.html)
+-   [SESSION](reserved.variables.session.md)
 -   Директива конфігурації [session.autostart](session.configuration.html#ini.session.auto-start)
 -   [sessionstart()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
 -   [sessionreset()](function.session-reset.html) - реініціалізує сесію оригінальними значеннями

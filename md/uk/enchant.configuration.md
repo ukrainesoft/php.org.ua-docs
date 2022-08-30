@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](enchant.installation.html)
+-   [« Установка](enchant.installation.md)
     
--   [Типы ресурсов »](enchant.resources.html)
+-   [Типи ресурсів »](enchant.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](enchant.setup.html)
+-   [Встановлення та налаштування](enchant.setup.md)
     
 -   Налаштування під час виконання
     

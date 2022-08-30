@@ -2,7 +2,7 @@
 
 -   [« Установка](ds.installation.html)
     
--   [Примеры »](ds.examples.html)
+-   [Приклади »](ds.examples.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Повертає межу зрізу обведення
 
--   [« ImagickDraw::getStrokeLineJoin](imagickdraw.getstrokelinejoin.html)
+-   [« ImagickDraw::getStrokeLineJoin](imagickdraw.getstrokelinejoin.md)
     
--   [ImagickDraw::getStrokeOpacity »](imagickdraw.getstrokeopacity.html)
+-   [ImagickDraw::getStrokeOpacity »](imagickdraw.getstrokeopacity.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Повертає межу зрізу обведення
     

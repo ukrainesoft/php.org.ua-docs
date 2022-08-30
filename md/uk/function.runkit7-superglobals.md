@@ -4,9 +4,9 @@
     
 -   [runkit7zvalinspect »](function.runkit7-zval-inspect.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції runkit7](ref.runkit7.html)
+-   [Функції runkit7](ref.runkit7.md)
     
 -   Повертає числовий індексований масив зареєстрованих суперглобальних змінних
     
@@ -33,4 +33,4 @@ runkit7_superglobals(): array
 
 ### Дивіться також
 
--   [Область видимості змінної](language.variables.scope.html)
+-   [Область видимості змінної](language.variables.scope.md)

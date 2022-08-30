@@ -2,11 +2,11 @@
 
 -   [« Установка](oauth.installation.html)
     
--   [Типы ресурсов »](oauth.resources.html)
+-   [Типи ресурсів »](oauth.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](oauth.setup.html)
+-   [Встановлення та налаштування](oauth.setup.html)
     
 -   Налаштування під час виконання
     

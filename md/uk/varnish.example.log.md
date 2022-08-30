@@ -1,12 +1,12 @@
 Просте використання VarnishLog
 
--   [« Простое использование VarnishStat](varnish.example.stat.html)
+-   [« Простое использование VarnishStat](varnish.example.stat.md)
     
--   [VarnishAdmin »](class.varnishadmin.html)
+-   [VarnishAdmin »](class.varnishadmin.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](varnish.examples.html)
+-   [Приклади](varnish.examples.md)
     
 -   Просте використання VarnishLog
     

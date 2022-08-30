@@ -4,9 +4,9 @@
     
 -   [mysqlgethostinfo »](function.mysql-get-host-info.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](ref.mysql.html)
+-   [MySQL](ref.mysql.md)
     
 -   Повертає дані про MySQL-клієнт
     
@@ -19,10 +19,10 @@ mysqlgetclientinfo — Повертає дані про MySQL-клієнт
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   [mysqligetclientinfo()](mysqli.get-client-info.html)
--   [PDO::getAttribute(PDO::ATTRCLIENTVERSION)](pdo.getattribute.html)
+-   [PDO::getAttribute(PDO::ATTRCLIENTVERSION)](pdo.getattribute.md)
 
 ### Опис
 

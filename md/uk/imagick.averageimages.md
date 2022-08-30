@@ -1,12 +1,12 @@
 Усереднює набір зображень
 
--   [« Imagick::autoLevelImage](imagick.autolevelimage.html)
+-   [« Imagick::autoLevelImage](imagick.autolevelimage.md)
     
--   [Imagick::blackThresholdImage »](imagick.blackthresholdimage.html)
+-   [Imagick::blackThresholdImage »](imagick.blackthresholdimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Усереднює набір зображень
     

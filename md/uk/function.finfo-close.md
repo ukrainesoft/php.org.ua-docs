@@ -4,9 +4,9 @@
     
 -   [finfofile »](function.finfo-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции модуля Fileinfo](ref.fileinfo.html)
+-   [Функции модуля Fileinfo](ref.fileinfo.md)
     
 -   Закриває екземпляр finfo
     
@@ -29,7 +29,7 @@ finfo_close(finfo $finfo): bool
 
 `finfo`
 
-Екземпляр [finfo](class.finfo.html), що повертається функцією [finfoopen()](function.finfo-open.html)
+Екземпляр [finfo](class.finfo.md), що повертається функцією [finfoopen()](function.finfo-open.html)
 
 ### Значення, що повертаються
 
@@ -37,6 +37,6 @@ finfo_close(finfo $finfo): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                             |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

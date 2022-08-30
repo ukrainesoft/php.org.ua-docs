@@ -1,12 +1,12 @@
 Отримує текст для останньої помилки коду Collator
 
--   [« Collator::getErrorCode](collator.geterrorcode.html)
+-   [« Collator::getErrorCode](collator.geterrorcode.md)
     
--   [Collator::getLocale »](collator.getlocale.html)
+-   [Collator::getLocale »](collator.getlocale.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Collator](class.collator.html)
+-   [Collator](class.collator.md)
     
 -   Отримує текст для останньої помилки коду Collator
     
@@ -39,7 +39,7 @@ collator_get_error_message(Collator $object): string|false
 
 `object`
 
-Об'єкт [Collator](class.collator.html)
+Об'єкт [Collator](class.collator.md)
 
 ### Значення, що повертаються
 
@@ -60,4 +60,4 @@ if( collator_compare( $coll, 'y', 'k' ) === false ) {
 
 ### Дивіться також
 
--   [collatorgeterrorcode()](collator.geterrorcode.html) - Отримує останній код помилки Collator
+-   [collatorgeterrorcode()](collator.geterrorcode.md) - Отримує останній код помилки Collator

@@ -4,9 +4,9 @@
     
 -   [mysqlfieldtype »](function.mysql-field-type.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](ref.mysql.html)
+-   [MySQL](ref.mysql.md)
     
 -   Повертає назву таблиці, якій належить зазначене поле
     
@@ -19,10 +19,10 @@ mysqlfieldtable — Повертає назву таблиці, якій нал�
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.html) table або orgtable
--   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.html) table
+-   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md) table
 
 ### Опис
 
@@ -36,7 +36,7 @@ mysql_field_table(resource $result, int $field_offset): string
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
 
 `field_offset`
 

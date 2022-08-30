@@ -1,12 +1,12 @@
 Повертає правило заливання
 
--   [« ImagickDraw::getFillOpacity](imagickdraw.getfillopacity.html)
+-   [« ImagickDraw::getFillOpacity](imagickdraw.getfillopacity.md)
     
--   [ImagickDraw::getFont »](imagickdraw.getfont.html)
+-   [ImagickDraw::getFont »](imagickdraw.getfont.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Повертає правило заливання
     

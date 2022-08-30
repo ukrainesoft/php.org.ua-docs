@@ -1,12 +1,12 @@
 Задає максимальну кількість символів для аналізу
 
--   [« SolrQuery::setHighlightMergeContiguous](solrquery.sethighlightmergecontiguous.html)
+-   [« SolrQuery::setHighlightMergeContiguous](solrquery.sethighlightmergecontiguous.md)
     
--   [SolrQuery::setHighlightRegexPattern »](solrquery.sethighlightregexpattern.html)
+-   [SolrQuery::setHighlightRegexPattern »](solrquery.sethighlightregexpattern.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Задає максимальну кількість символів для аналізу
     

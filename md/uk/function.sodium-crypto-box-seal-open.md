@@ -4,9 +4,9 @@
     
 -   [sodiumcryptoboxseal »](function.sodium-crypto-box-seal.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Розшифровка відкритим ключем без автентифікації
     

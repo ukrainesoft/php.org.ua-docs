@@ -4,9 +4,9 @@
     
 -   [yazsearch »](function.yaz-search.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции YAZ](ref.yaz.html)
+-   [Функции YAZ](ref.yaz.md)
     
 -   Встановлює схему для значень, що повертаються
     

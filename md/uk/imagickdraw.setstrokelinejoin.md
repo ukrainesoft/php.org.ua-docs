@@ -1,12 +1,12 @@
 Задає форму, яка використовуватиметься в кутах контурів під час їх обведення
 
--   [« ImagickDraw::setStrokeLineCap](imagickdraw.setstrokelinecap.html)
+-   [« ImagickDraw::setStrokeLineCap](imagickdraw.setstrokelinecap.md)
     
--   [ImagickDraw::setStrokeMiterLimit »](imagickdraw.setstrokemiterlimit.html)
+-   [ImagickDraw::setStrokeMiterLimit »](imagickdraw.setstrokemiterlimit.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Задає форму, яка використовуватиметься в кутах контурів під час їх обведення
     

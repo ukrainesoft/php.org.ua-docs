@@ -1,12 +1,12 @@
 Закриває активний архів (відкритий або новостворений)
 
--   [« ZipArchive::clearError](ziparchive.clearerror.html)
+-   [« ZipArchive::clearError](ziparchive.clearerror.md)
     
--   [ZipArchive::count »](ziparchive.count.html)
+-   [ZipArchive::count »](ziparchive.count.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Закриває активний архів (відкритий або новостворений)
     

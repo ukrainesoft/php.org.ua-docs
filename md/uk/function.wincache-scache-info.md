@@ -4,9 +4,9 @@
     
 -   [wincachescachememinfo »](function.wincache-scache-meminfo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции WinCache](ref.wincache.html)
+-   [Функции WinCache](ref.wincache.md)
     
 -   Отримує інформацію про файли, закешовані в кеші сесії
     

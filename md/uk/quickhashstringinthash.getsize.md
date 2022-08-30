@@ -1,12 +1,12 @@
 Повертає кількість елементів у хеші
 
--   [« QuickHashStringIntHash::get](quickhashstringinthash.get.html)
+-   [« QuickHashStringIntHash::get](quickhashstringinthash.get.md)
     
--   [QuickHashStringIntHash::loadFromFile »](quickhashstringinthash.loadfromfile.html)
+-   [QuickHashStringIntHash::loadFromFile »](quickhashstringinthash.loadfromfile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [QuickHashStringIntHash](class.quickhashstringinthash.html)
+-   [QuickHashStringIntHash](class.quickhashstringinthash.md)
     
 -   Повертає кількість елементів у хеші
     

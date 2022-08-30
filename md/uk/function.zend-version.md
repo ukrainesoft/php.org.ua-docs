@@ -2,11 +2,11 @@
 
 -   [« zendthreadід](function.zend-thread-id.html)
     
--   [phpdbg »](book.phpdbg.html)
+-   [phpdbg »](book.phpdbg.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Отримує версію двигуна Zend
     
@@ -51,6 +51,6 @@ echo "Версия движка Zend: " . zend_version();
 
 ### Дивіться також
 
--   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP
--   [phpcredits()](function.phpcredits.html) - Виводить список розробників PHP
--   [phpversion()](function.phpversion.html) - Отримує поточну версію PHP
+-   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP
+-   [phpcredits()](function.phpcredits.md) - Виводить список розробників PHP
+-   [phpversion()](function.phpversion.md) - Отримує поточну версію PHP

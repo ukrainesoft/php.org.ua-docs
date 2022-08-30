@@ -4,9 +4,9 @@
     
 -   [timesleepuntil »](function.time-sleep-until.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Різні функції](ref.misc.html)
+-   [Різні функції](ref.misc.md)
     
 -   Затримка на задану кількість секунд та наносекунд
     
@@ -52,7 +52,7 @@ time_nanosleep(int $seconds, int $nanoseconds): array|bool
 
 ```php
 <?php
-// Внимание! Если будет возвращён массив, то такая функция не сработает, как ожидалось
+// Внимание! Если будет возвращён Масив, то такая функция не сработает, как ожидалось
 if (time_nanosleep(0, 500000000)) {
     echo "Задержка на полсекунды.\n";
 }
@@ -80,7 +80,7 @@ if ($nano === true) {
 
 ### Дивіться також
 
--   [sleep()](function.sleep.html) - затримка виконання
--   [usleep()](function.usleep.html) - Затримка виконання у мікросекундах
+-   [sleep()](function.sleep.md) - затримка виконання
+-   [usleep()](function.usleep.md) - Затримка виконання у мікросекундах
 -   [timesleepuntil()](function.time-sleep-until.html) - Відкладає виконання скрипту до заданого часу
 -   [settimelimit()](function.set-time-limit.html) - Обмеження часу виконання скрипту

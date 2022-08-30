@@ -1,12 +1,12 @@
 Встановлює режим ітерації
 
--   [« SplDoublyLinkedList::serialize](spldoublylinkedlist.serialize.html)
+-   [« SplDoublyLinkedList::serialize](spldoublylinkedlist.serialize.md)
     
--   [SplDoublyLinkedList::shift »](spldoublylinkedlist.shift.html)
+-   [SplDoublyLinkedList::shift »](spldoublylinkedlist.shift.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
     
 -   Встановлює режим ітерації
     

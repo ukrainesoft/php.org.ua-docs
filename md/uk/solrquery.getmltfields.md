@@ -1,12 +1,12 @@
 Повертає всі поля, які потрібно використовувати для порівняння
 
--   [« SolrQuery::getMltCount](solrquery.getmltcount.html)
+-   [« SolrQuery::getMltCount](solrquery.getmltcount.md)
     
--   [SolrQuery::getMltMaxNumQueryTerms »](solrquery.getmltmaxnumqueryterms.html)
+-   [SolrQuery::getMltMaxNumQueryTerms »](solrquery.getmltmaxnumqueryterms.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає всі поля, які потрібно використовувати для порівняння
     

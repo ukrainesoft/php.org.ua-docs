@@ -1,12 +1,12 @@
 Конструктор
 
--   [« SolrModifiableParams](class.solrmodifiableparams.html)
+-   [« SolrModifiableParams](class.solrmodifiableparams.md)
     
--   [SolrModifiableParams::destruct »](solrmodifiableparams.destruct.html)
+-   [SolrModifiableParams::destruct »](solrmodifiableparams.destruct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrModifiableParams](class.solrmodifiableparams.html)
+-   [SolrModifiableParams](class.solrmodifiableparams.md)
     
 -   Конструктор
     

@@ -4,9 +4,9 @@
     
 -   [mysqlfieldtable »](function.mysql-field-table.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](ref.mysql.html)
+-   [MySQL](ref.mysql.md)
     
 -   Встановлює внутрішній покажчик результату на передане усунення поля
     
@@ -19,10 +19,10 @@ mysqlfieldseek - Встановлює внутрішній покажчик ре
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   [mysqlifieldseek()](mysqli-result.field-seek.html)
--   [PDOStatement::fetch()](pdostatement.fetch.html) з використанням параметрів `cursor_orientation` і `offset`
+-   [PDOStatement::fetch()](pdostatement.fetch.md) з використанням параметрів `cursor_orientation` і `offset`
 
 ### Опис
 
@@ -36,7 +36,7 @@ mysql_field_seek(resource $result, int $field_offset): bool
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
 
 `field_offset`
 

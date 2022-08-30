@@ -4,9 +4,9 @@
     
 -   [pregmatchall »](function.preg-match-all.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PCRE](ref.pcre.html)
+-   [Функции PCRE](ref.pcre.md)
     
 -   Повертає код помилки виконання останнього регулярного виразу PCRE
     
@@ -51,7 +51,7 @@ if (preg_last_error() == PREG_BACKTRACK_LIMIT_ERROR) {
 
 ### Значення, що повертаються
 
-Повертає одну з наступних констант ([описаних на окремій сторінці.](pcre.constants.html)
+Повертає одну з наступних констант ([описаних на окремій сторінці.](pcre.constants.md)
 
 -   **`PREG_NO_ERROR`**
 -   **`PREG_INTERNAL_ERROR`**

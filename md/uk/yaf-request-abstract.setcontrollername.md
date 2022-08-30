@@ -4,7 +4,7 @@
     
 -   [YafRequestAbstract::setDispatched »](yaf-request-abstract.setdispatched.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRequestAbstract](class.yaf-request-abstract.html)
     

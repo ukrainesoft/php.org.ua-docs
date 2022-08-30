@@ -1,12 +1,12 @@
 Генератори
 
--   [« Fibers](language.fibers.html)
+-   [« Fibers](language.fibers.md)
     
--   [Знайомство з генераторами](language.generators.overview.html)
+-   [Знайомство з генераторами](language.generators.overview.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Справочник языка](langref.html)
+-   [Довідник мови](langref.md)
     
 -   Генератори
     
@@ -15,6 +15,6 @@
 
 ## Зміст
 
--   [Знайомство з генераторами](language.generators.overview.html)
--   [Синтаксис генераторів](language.generators.syntax.html)
--   [Порівняння генераторів з об'єктами класу Iterator](language.generators.comparison.html)
+-   [Знайомство з генераторами](language.generators.overview.md)
+-   [Синтаксис генераторів](language.generators.syntax.md)
+-   [Порівняння генераторів з об'єктами класу Iterator](language.generators.comparison.md)

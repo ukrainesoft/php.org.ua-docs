@@ -4,9 +4,9 @@
     
 -   [cubridloadfromglo »](function.cubrid-load-from-glo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CUBRID](book.cubrid.html)
+-   [CUBRID](book.cubrid.md)
     
 -   Застарілі псевдоніми та функції CUBRID
     

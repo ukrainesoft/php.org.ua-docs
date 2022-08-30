@@ -1,12 +1,12 @@
 Порівнює зображення з відновленим зображенням
 
--   [« Imagick::compareImageLayers](imagick.compareimagelayers.html)
+-   [« Imagick::compareImageLayers](imagick.compareimagelayers.md)
     
--   [Imagick::compositeImage »](imagick.compositeimage.html)
+-   [Imagick::compositeImage »](imagick.compositeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Порівнює зображення з відновленим зображенням
     

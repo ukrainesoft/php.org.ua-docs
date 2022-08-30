@@ -18,7 +18,7 @@
 -   [Нові можливості](migration74.new-features.html)
 -   [Нові класи та інтерфейси](migration74.new-classes.html)
 -   [Нові функції](migration74.new-functions.html)
--   [Новые глобальные константы](migration74.constants.html)
+-   [Нові глобальні константи](migration74.constants.html)
 -   [Зміни, що ламають зворотну сумісність](migration74.incompatible.html)
 -   [Устаревшая функциональность](migration74.deprecated.html)
 -   [Віддалені модулі](migration74.removed-extensions.html)

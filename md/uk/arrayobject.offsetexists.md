@@ -1,12 +1,12 @@
 Повертає, чи існує зазначений індекс
 
--   [« ArrayObject::natsort](arrayobject.natsort.html)
+-   [« ArrayObject::natsort](arrayobject.natsort.md)
     
--   [ArrayObject::offsetGet »](arrayobject.offsetget.html)
+-   [ArrayObject::offsetGet »](arrayobject.offsetget.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayObject](class.arrayobject.html)
+-   [ArrayObject](class.arrayobject.md)
     
 -   Повертає, чи існує зазначений індекс
     

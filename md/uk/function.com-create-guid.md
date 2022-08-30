@@ -1,12 +1,12 @@
 Створення унікального глобального ідентифікатора (GUID)
 
--   [« Функции COM](ref.com.html)
+-   [« Функции COM](ref.com.md)
     
 -   [comeventsink »](function.com-event-sink.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции COM](ref.com.html)
+-   [Функции COM](ref.com.md)
     
 -   Створення унікального глобального ідентифікатора (GUID)
     

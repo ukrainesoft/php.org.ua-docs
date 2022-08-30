@@ -1,6 +1,6 @@
 Інші зміни
 
--   [« Функционал, объявленный устаревшим в PHP 7.2.x](migration72.deprecated.html)
+-   [« Функціонал, оголошений застарілим у PHP 7.2.x](migration72.deprecated.html)
     
 -   [Миграция с PHP 7.0.x на PHP 7.1.x »](migration71.html)
     

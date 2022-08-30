@@ -4,9 +4,9 @@
     
 -   [fdfgetversion »](function.fdf-get-version.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Отримує значення поля
     
@@ -45,9 +45,9 @@ fdf_get_value(resource $fdf_document, string $fieldname, int $which = -1): mixed
 
 ### список змін
 
-| Версия | Описание                                      |
-|--------|-----------------------------------------------|
-|        | Додана підтримка масивів та параметра `which` |
+| Версия | Описание |
+| --- | --- |
+|  | Додана підтримка масивів та параметра `which` |
 
 ### Дивіться також
 

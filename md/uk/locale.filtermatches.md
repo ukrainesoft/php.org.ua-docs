@@ -1,12 +1,12 @@
 Перевірити, чи тег фільтра мови локалі відповідає
 
--   [« Locale::composeLocale](locale.composelocale.html)
+-   [« Locale::composeLocale](locale.composelocale.md)
     
--   [Locale::getAllVariants »](locale.getallvariants.html)
+-   [Locale::getAllVariants »](locale.getallvariants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Locale](class.locale.html)
+-   [Locale](class.locale.md)
     
 -   Перевірити, чи тег фільтра мови локалі відповідає
     
@@ -85,4 +85,4 @@ echo (Locale::filterMatches('de-DE-1996','de-DE', false)) ? "Подходи�
 
 ### Дивіться також
 
--   [localelookup()](locale.lookup.html) - Пошук мовних позначок найбільш відповідних заданої локалі
+-   [localelookup()](locale.lookup.md) - Пошук мовних позначок найбільш відповідних заданої локалі

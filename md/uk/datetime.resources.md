@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](datetime.configuration.html)
+-   [« Налаштування під час виконання](datetime.configuration.html)
     
--   [Предопределённые константы »](datetime.constants.html)
+-   [Обумовлені константи »](datetime.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](datetime.setup.html)
+-   [Встановлення та налаштування](datetime.setup.html)
     
 -   Типи ресурсів
     

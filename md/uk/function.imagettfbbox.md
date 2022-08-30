@@ -1,12 +1,12 @@
 Отримання параметрів рамки, що обрамляє текст написаний TrueType шрифтом
 
--   [« imagetruecolortopalette](function.imagetruecolortopalette.html)
+-   [« imagetruecolortopalette](function.imagetruecolortopalette.md)
     
--   [imagettftext »](function.imagettftext.html)
+-   [imagettftext »](function.imagettftext.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Отримання параметрів рамки, що обрамляє текст написаний TrueType шрифтом
     
@@ -27,7 +27,7 @@ imagettfbbox(    float $size,    float $angle,    string $font_filen
 
 > **Зауваження**
 > 
-> До PHP 8.0.0 [imageftbbox()](function.imageftbbox.html) - це розширений варіант **imagettfbbox()** який додатково підтримує `extrainfo`. Починаючи з PHP 8.0.0, **imagettfbbox()** є псевдонімом [imageftbbox()](function.imageftbbox.html)
+> До PHP 8.0.0 [imageftbbox()](function.imageftbbox.md) - це розширений варіант **imagettfbbox()** який додатково підтримує `extrainfo`. Починаючи з PHP 8.0.0, **imagettfbbox()** є псевдонімом [imageftbbox()](function.imageftbbox.md)
 
 ### Список параметрів
 
@@ -71,24 +71,24 @@ $font = 'SomeFont';
 
 **imagettfbbox()** повертає масив з 8 елементів, що представляють координати чотирьох точок - вершин рамки навколо тексту. У разі помилки функція поверне **`false`**
 
-| ключ | содержимое                       |
-|------|----------------------------------|
-|      | нижній лівий кут, X координата   |
-|      | нижній лівий кут, Y координата   |
-|      | нижній правий кут, X координата  |
-|      | нижній правий кут, Y координата  |
-|      | верхній правий кут, X координата |
-|      | верхній правий кут, Y координата |
-|      | верхній лівий кут, X координата  |
-|      | верхній лівий кут, Y координата  |
+| ключ | содержимое |
+| --- | --- |
+|  | нижній лівий кут, X координата |
+|  | нижній лівий кут, Y координата |
+|  | нижній правий кут, X координата |
+|  | нижній правий кут, Y координата |
+|  | верхній правий кут, X координата |
+|  | верхній правий кут, Y координата |
+|  | верхній лівий кут, X координата |
+|  | верхній лівий кут, Y координата |
 
 Крапки розраховані щодо тексту *text* і незалежно від кута `angle`. Тобто верхній лівий означає верхній лівий кут, якщо дивитися на текст горизонтально.
 
 ### список змін
 
-| Версия | Описание                   |
-|--------|----------------------------|
-|        | Доданий параметр `options` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `options` |
 
 ### Приклади
 
@@ -141,5 +141,5 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagettftext()](function.imagettftext.html) - Малювання тексту на зображенні шрифтом TrueType
--   [imageftbbox()](function.imageftbbox.html) - Визначення меж тексту, що виводиться шрифтом freetype2
+-   [imagettftext()](function.imagettftext.md) - Малювання тексту на зображенні шрифтом TrueType
+-   [imageftbbox()](function.imageftbbox.md) - Визначення меж тексту, що виводиться шрифтом freetype2

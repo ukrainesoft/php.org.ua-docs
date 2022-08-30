@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](wddx.configuration.html)
+-   [« Налаштування під час виконання](wddx.configuration.html)
     
--   [Предопределённые константы »](wddx.constants.html)
+-   [Обумовлені константи »](wddx.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](wddx.setup.html)
+-   [Встановлення та налаштування](wddx.setup.html)
     
 -   Типи ресурсів
     

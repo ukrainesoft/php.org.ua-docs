@@ -1,12 +1,12 @@
 Отримує об'єкт класу SimpleXMLElement із вузла DOM
 
--   [« Функции SimpleXML](ref.simplexml.html)
+-   [« Функции SimpleXML](ref.simplexml.md)
     
 -   [simplexmlloadfile »](function.simplexml-load-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции SimpleXML](ref.simplexml.html)
+-   [Функции SimpleXML](ref.simplexml.md)
     
 -   Отримує об'єкт класу SimpleXMLElement із вузла DOM
     
@@ -23,21 +23,21 @@ simplexmlimportdom — Отримує об'єкт класу `SimpleXMLElement` 
 simplexml_import_dom(SimpleXMLElement|DOMNode $node, ?string $class_name = SimpleXMLElement::class): ?SimpleXMLElement
 ```
 
-Ця функція бере вузол документа [DOM](book.dom.html) і перетворює його на вузол SimpleXML. Потім цей новий об'єкт можна використовувати як первинний елемент SimpleXML.
+Ця функція бере вузол документа [DOM](book.dom.md) і перетворює його на вузол SimpleXML. Потім цей новий об'єкт можна використовувати як первинний елемент SimpleXML.
 
 ### Список параметрів
 
 `node`
 
-Вузол-елемент [DOM](book.dom.html)
+Вузол-елемент [DOM](book.dom.md)
 
 `class_name`
 
-Ви можете використовувати цей додатковий параметр, щоб функція **simplexmlimportdom()** повертала об'єкт вказаного класу. Цей клас має розширювати клас [SimpleXMLElement](class.simplexmlelement.html)
+Ви можете використовувати цей додатковий параметр, щоб функція **simplexmlimportdom()** повертала об'єкт вказаного класу. Цей клас має розширювати клас [SimpleXMLElement](class.simplexmlelement.md)
 
 ### Значення, що повертаються
 
-Повертає [SimpleXMLElement](class.simplexmlelement.html) або **`null`** у разі виникнення помилки.
+Повертає [SimpleXMLElement](class.simplexmlelement.md) або **`null`** у разі виникнення помилки.
 
 ### Приклади
 

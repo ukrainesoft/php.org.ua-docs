@@ -1,12 +1,12 @@
 Опис
 
--   [« Imagick::flopImage](imagick.flopimage.html)
+-   [« Imagick::flopImage](imagick.flopimage.md)
     
--   [Imagick::frameImage »](imagick.frameimage.html)
+-   [Imagick::frameImage »](imagick.frameimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Опис
     

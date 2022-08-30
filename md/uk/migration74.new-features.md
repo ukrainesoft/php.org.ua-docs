@@ -1,12 +1,12 @@
 Нові можливості
 
--   [« Миграция с PHP 7.3.x на PHP 7.4.x](migration74.html)
+-   [« Миграция с PHP 7.3.x на PHP 7.4.x](migration74.md)
     
 -   [Нові класи та інтерфейси »](migration74.new-classes.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 7.3.x на PHP 7.4.x](migration74.html)
+-   [Миграция с PHP 7.3.x на PHP 7.4.x](migration74.md)
     
 -   Нові можливості
     
@@ -32,7 +32,7 @@ class User {
 
 #### Стрілочні функції
 
-[Стрілочні функції](functions.arrow.html) - це скорочений запис визначення функцій з неявною прив'язкою батьківської області видимості за значенням.
+[Стрілочні функції](functions.arrow.md) - це скорочений запис визначення функцій з неявною прив'язкою батьківської області видимості за значенням.
 
 ```php
 <?php
@@ -99,15 +99,15 @@ $fruits = ['banana', 'orange', ...$parts, 'watermelon'];
 
 #### Слабкі посилання
 
-[Слабкі посилання](class.weakreference.html) дозволяють програмісту зберегти посилання на об'єкт, яка не завадить збирачеві сміття видалити цей об'єкт.
+[Слабкі посилання](class.weakreference.md) дозволяють програмісту зберегти посилання на об'єкт, яка не завадить збирачеві сміття видалити цей об'єкт.
 
 #### Обробка винятків із методу toString()
 
-Викидання винятків із методу [toString()](language.oop5.magic.html#object.tostring) тепер дозволено. Раніше це призводило до фатальної помилки. Існуючі фатальні помилки, що відловлюються, при перетворенні об'єкта в рядок будуть доступні у вигляді винятків класу [Error](class.error.html)
+Викидання винятків із методу [toString()](language.oop5.magic.html#object.tostring) тепер дозволено. Раніше це призводило до фатальної помилки. Існуючі фатальні помилки, що відловлюються, при перетворенні об'єкта в рядок будуть доступні у вигляді винятків класу [Error](class.error.md)
 
 ### CURL
 
-Крім звичайних імен файлів, клас [CURLFile](class.curlfile.html) тепер підтримує потокові обгортки, якщо модуль зібрано з версією libcurl >= 7.56.0.
+Крім звичайних імен файлів, клас [CURLFile](class.curlfile.md) тепер підтримує потокові обгортки, якщо модуль зібрано з версією libcurl >= 7.56.0.
 
 ### Фільтрування
 
@@ -131,7 +131,7 @@ FFI - новий модуль, який пропонує простий спос
 
 ### OPcache
 
-Додана підтримка [предварительной загрузки кода](opcache.preloading.html)
+Додана підтримка [предварительной загрузки кода](opcache.preloading.md)
 
 ### Регулярні вирази (сумісні з Perl)
 
@@ -145,19 +145,19 @@ FFI - новий модуль, який пропонує простий спос
 
 ### PDOOCI
 
-Для цього драйвера тепер доступний метод [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.html)
+Для цього драйвера тепер доступний метод [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md)
 
 ### PDOSQLite
 
 Вираз `PDOStatement::getAttribute(PDO::SQLITE_ATTR_READONLY_STATEMENT)` дозволяє перевірити, чи доступний підготовлений запит лише читання, тобто. чи не змінює він базу даних.
 
-`PDO::setAttribute(PDO::SQLITE_ATTR_EXTENDED_RESULT_CODES, true)` дозволяє використовувати розширені коди результату SQLite3 [PDOStatement::errorInfo()](pdostatement.errorinfo.html)
+`PDO::setAttribute(PDO::SQLITE_ATTR_EXTENDED_RESULT_CODES, true)` дозволяє використовувати розширені коди результату SQLite3 [PDOStatement::errorInfo()](pdostatement.errorinfo.md)
 
 ### SQLite3
 
 Доданий метод **SQLite3::lastExtendedErrorCode()** для отримання останнього розширеного коду результату.
 
-Доданий метод `SQLite3::enableExtendedResultCodes($enable = true)`, який змусить метод [SQLite3::lastErrorCode()](sqlite3.lasterrorcode.html) повертати розширені коди результатів.
+Доданий метод `SQLite3::enableExtendedResultCodes($enable = true)`, який змусить метод [SQLite3::lastErrorCode()](sqlite3.lasterrorcode.md) повертати розширені коди результатів.
 
 ### Стандартне
 
@@ -171,15 +171,15 @@ FFI - новий модуль, який пропонує простий спос
 
 ```php
 <?php
-// Возвращает массив, содержащий все необходимое состояние объекта.
+// Возвращает Масив, содержащий все необходимое состояние объекта.
 public function __serialize(): array;
 
-// Восстанавливает состояние объекта из указанного массива данных.
+// Восстанавливает состояние объекта из указанного Масива данных.
 public function __unserialize(array $data): void;
 ?>
 ```
 
-Новий механізм серіалізації замінює інтерфейс [Serializable](class.serializable.html), який у майбутньому буде оголошено застарілим.
+Новий механізм серіалізації замінює інтерфейс [Serializable](class.serializable.md), який у майбутньому буде оголошено застарілим.
 
 #### Функції злиття масивів без аргументів
 

@@ -1,12 +1,12 @@
 xattr Функції
 
--   [« Предопределённые константы](xattr.constants.html)
+-   [« Обумовлені константи](xattr.constants.md)
     
 -   [xattrget »](function.xattr-get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [xattr](book.xattr.html)
+-   [xattr](book.xattr.md)
     
 -   xattr Функції
     

@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](strings.resources.html)
+-   [« Типи ресурсів](strings.resources.md)
     
--   [Функції для роботи з рядками »](ref.strings.html)
+-   [Функції для роботи з рядками »](ref.strings.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Рядки](book.strings.html)
+-   [Рядки](book.strings.md)
     
 -   Обумовлені константи
     
@@ -19,27 +19,27 @@
 
 **`CRYPT_STD_DES`** int
 
-Вказує, чи підтримуються стандартні хеші на основі DES [crypt()](function.crypt.html). Завжди `1`
+Вказує, чи підтримуються стандартні хеші на основі DES [crypt()](function.crypt.md). Завжди `1`
 
 **`CRYPT_EXT_DES`** int
 
-Вказує, чи підтримуються розширені хеші на основі DES [crypt()](function.crypt.html). Завжди `1`
+Вказує, чи підтримуються розширені хеші на основі DES [crypt()](function.crypt.md). Завжди `1`
 
 **`CRYPT_MD5`** int
 
-Вказує, чи підтримуються хеші MD5 в [crypt()](function.crypt.html). Завжди `1`
+Вказує, чи підтримуються хеші MD5 в [crypt()](function.crypt.md). Завжди `1`
 
 **`CRYPT_BLOWFISH`** int
 
-Вказує, чи підтримуються хеші Blowfish в [crypt()](function.crypt.html). Завжди `1`
+Вказує, чи підтримуються хеші Blowfish в [crypt()](function.crypt.md). Завжди `1`
 
 **`CRYPT_SHA256`** int
 
-Вказує, чи підтримуються хеші SHA-256 [crypt()](function.crypt.html). Завжди `1`
+Вказує, чи підтримуються хеші SHA-256 [crypt()](function.crypt.md). Завжди `1`
 
 **`CRYPT_SHA512`** int
 
-Вказує, чи підтримуються хеші SHA-512 в [crypt()](function.crypt.html). Завжди `1`
+Вказує, чи підтримуються хеші SHA-512 в [crypt()](function.crypt.md). Завжди `1`
 
 **`HTML_SPECIALCHARS`** (int)
 

@@ -1,12 +1,12 @@
 Функції JSON
 
--   [« JsonSerializable::jsonSerialize](jsonserializable.jsonserialize.html)
+-   [« JsonSerializable::jsonSerialize](jsonserializable.jsonserialize.md)
     
 -   [jsondecode »](function.json-decode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [JSON](book.json.html)
+-   [JSON](book.json.md)
     
 -   Функції JSON
     

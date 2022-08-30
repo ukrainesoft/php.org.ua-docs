@@ -4,9 +4,9 @@
     
 -   [msgremovequeue »](function.msg-remove-queue.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції семафорів](ref.sem.html)
+-   [Функції семафорів](ref.sem.md)
     
 -   Отримання повідомлення з черги повідомлень
     
@@ -71,9 +71,9 @@ msg_receive(    SysvMessageQueue $queue,    int $desired_message_type, 
 
 ### список змін
 
-| Версия | Описание                                                                                                                     |
-|--------|------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

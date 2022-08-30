@@ -4,9 +4,9 @@
     
 -   [ОЙDrawTextFontWeight »](class.ui-draw-text-font-weight.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции UI](ref.ui.html)
+-   [Функции UI](ref.ui.md)
     
 -   Увійти до циклу UI
     

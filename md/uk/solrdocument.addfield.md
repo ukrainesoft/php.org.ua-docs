@@ -1,12 +1,12 @@
 Додає поле до документа
 
--   [« SolrDocument](class.solrdocument.html)
+-   [« SolrDocument](class.solrdocument.md)
     
--   [SolrDocument::clear »](solrdocument.clear.html)
+-   [SolrDocument::clear »](solrdocument.clear.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocument](class.solrdocument.html)
+-   [SolrDocument](class.solrdocument.md)
     
 -   Додає поле до документа
     

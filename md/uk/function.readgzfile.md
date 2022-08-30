@@ -4,9 +4,9 @@
     
 -   [zlibdecode »](function.zlib-decode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Zlib](ref.zlib.html)
+-   [Функции Zlib](ref.zlib.md)
     
 -   Виводить вміст gz-файлу
     
@@ -47,6 +47,6 @@ readgzfile(string $filename, int $use_include_path = 0): int|false
 
 ### Дивіться також
 
--   [gzpassthru()](function.gzpassthru.html) - Виведення всіх даних з покажчика gz-файлу.
--   [gzfile()](function.gzfile.html) - Зчитує весь gz-файл у масив
--   [gzopen()](function.gzopen.html) - Відкрити gz-файл
+-   [gzpassthru()](function.gzpassthru.md) - Виведення всіх даних з покажчика gz-файлу.
+-   [gzfile()](function.gzfile.md) - Зчитує весь gz-файл у масив
+-   [gzopen()](function.gzopen.md) - Відкрити gz-файл

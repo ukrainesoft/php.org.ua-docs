@@ -2,11 +2,11 @@
 
 -   [« headerregistercallback](function.header-register-callback.html)
     
--   [header »](function.header.html)
+-   [header »](function.header.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Мережеві функції](ref.network.html)
+-   [Мережеві функції](ref.network.md)
     
 -   Видаляє раніше встановлені заголовки
     
@@ -23,7 +23,7 @@ headerremove — Видалення раніше встановлених заг
 header_remove(?string $name = null): void
 ```
 
-Видаляє попередньо встановлений функцією [header()](function.header.html) HTTP-заголовок.
+Видаляє попередньо встановлений функцією [header()](function.header.md) HTTP-заголовок.
 
 ### Список параметрів
 
@@ -39,9 +39,9 @@ header_remove(?string $name = null): void
 
 ### список змін
 
-| Версия | Описание                             |
-|--------|--------------------------------------|
-|        | `name` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `name` тепер допускає значення null. |
 
 ### Приклади
 
@@ -85,5 +85,5 @@ header_remove();
 
 ### Дивіться також
 
--   [header()](function.header.html) - Надсилання HTTP-заголовка
+-   [header()](function.header.md) - Надсилання HTTP-заголовка
 -   [headerssent()](function.headers-sent.html) - Перевіряє, чи були надіслані заголовки

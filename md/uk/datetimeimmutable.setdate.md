@@ -2,11 +2,11 @@
 
 -   [« DateTimeImmutable::setstate](datetimeimmutable.set-state.html)
     
--   [DateTimeImmutable::setISODate »](datetimeimmutable.setisodate.html)
+-   [DateTimeImmutable::setISODate »](datetimeimmutable.setisodate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTimeImmutable](class.datetimeimmutable.html)
+-   [DateTimeImmutable](class.datetimeimmutable.md)
     
 -   Встановлює дату
     
@@ -29,7 +29,7 @@ public DateTimeImmutable::setDate(int $year, int $month, int $day): DateTimeImmu
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [datecreate()](function.date-create.html). Функція змінює цей об'єкт.
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.html). Функція змінює цей об'єкт.
 
 `year`
 
@@ -45,7 +45,7 @@ public DateTimeImmutable::setDate(int $year, int $month, int $day): DateTimeImmu
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.html) з модифікованими даними або **`false`** у разі виникнення помилки.
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) з модифікованими даними або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -94,5 +94,5 @@ echo $newDate->format('Y-m-d') . "\n";
 
 ### Дивіться також
 
--   [DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.html) - Встановлює дату у форматі ISO
--   [DateTimeImmutable::setTime()](datetimeimmutable.settime.html) - Встановлює час
+-   [DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.md) - Встановлює дату у форматі ISO
+-   [DateTimeImmutable::setTime()](datetimeimmutable.settime.md) - Встановлює час

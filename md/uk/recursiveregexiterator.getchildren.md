@@ -1,12 +1,12 @@
 Повертає ітератор для поточного елемента
 
--   [« RecursiveRegexIterator::construct](recursiveregexiterator.construct.html)
+-   [« RecursiveRegexIterator::construct](recursiveregexiterator.construct.md)
     
--   [RecursiveRegexIterator::hasChildren »](recursiveregexiterator.haschildren.html)
+-   [RecursiveRegexIterator::hasChildren »](recursiveregexiterator.haschildren.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveRegexIterator](class.recursiveregexiterator.html)
+-   [RecursiveRegexIterator](class.recursiveregexiterator.md)
     
 -   Повертає ітератор для поточного елемента
     
@@ -35,7 +35,7 @@ public RecursiveRegexIterator::getChildren(): RecursiveRegexIterator
 
 ### Помилки
 
-Якщо внутрішній ітератор вказує на елемент, який не містить дочірніх елементів, буде викинуто виняток [InvalidArgumentException](class.invalidargumentexception.html)
+Якщо внутрішній ітератор вказує на елемент, який не містить дочірніх елементів, буде викинуто виняток [InvalidArgumentException](class.invalidargumentexception.md)
 
 ### Приклади
 
@@ -74,4 +74,4 @@ foreach ($rRegexIterator as $key1 => $value1) {
 
 ### Дивіться також
 
--   [RecursiveRegexIterator::hasChildren()](recursiveregexiterator.haschildren.html) - Визначає, чи можлива навігація за вмістом поточного елемента
+-   [RecursiveRegexIterator::hasChildren()](recursiveregexiterator.haschildren.md) - Визначає, чи можлива навігація за вмістом поточного елемента

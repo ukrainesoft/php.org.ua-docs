@@ -4,9 +4,9 @@
     
 -   [eiosetmaxidle »](function.eio-set-max-idle.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Переміщує дані між файлами
     

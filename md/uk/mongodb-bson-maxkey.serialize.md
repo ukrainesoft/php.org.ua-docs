@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONMaxKey::unserialize »](mongodb-bson-maxkey.unserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONMaxKey](class.mongodb-bson-maxkey.html)
     
@@ -38,5 +38,5 @@ final public MongoDB\BSON\MaxKey::serialize(): string
 ### Дивіться також
 
 -   [MongoDBBSONMaxKey::unserialize()](mongodb-bson-maxkey.unserialize.html) - Десеріалізує MaxKey
--   [serialize()](function.serialize.html) - Генерує придатне для зберігання уявлення змінної
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання уявлення змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](errorfunc.configuration.html)
+-   [« Налаштування під час виконання](errorfunc.configuration.md)
     
--   [Предопределённые константы »](errorfunc.constants.html)
+-   [Обумовлені константи »](errorfunc.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](errorfunc.setup.html)
+-   [Встановлення та налаштування](errorfunc.setup.md)
     
 -   Типи ресурсів
     

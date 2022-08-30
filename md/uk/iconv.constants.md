@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](iconv.resources.html)
+-   [« Типи ресурсів](iconv.resources.md)
     
--   [Функции iconv »](ref.iconv.html)
+-   [Функции iconv »](ref.iconv.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [iconv](book.iconv.html)
+-   [iconv](book.iconv.md)
     
 -   Обумовлені константи
     
@@ -17,9 +17,9 @@
 
 **Константи реалізації `iconv`**
 
-| Имя                 | Тип    | Описание          |
-|---------------------|--------|-------------------|
-| **`ICONV_IMPL`**    | string | Реалізація        |
+| Имя | Тип | Описание |
+| --- | --- | --- |
+| **`ICONV_IMPL`** | string | Реалізація |
 | **`ICONV_VERSION`** | string | Версія реалізації |
 
 > **Зауваження**
@@ -30,7 +30,7 @@
 
 **Інші константи `iconv`**
 
-| Имя                                       | Тип | Описание                                                                                 |
-|-------------------------------------------|-----|------------------------------------------------------------------------------------------|
-| **`ICONV_MIME_DECODE_STRICT`**            | int | Бітова маска, що використовується в [iconvmimedecode()](function.iconv-mime-decode.html) |
+| Имя | Тип | Описание |
+| --- | --- | --- |
+| **`ICONV_MIME_DECODE_STRICT`** | int | Бітова маска, що використовується в [iconvmimedecode()](function.iconv-mime-decode.html) |
 | **`ICONV_MIME_DECODE_CONTINUE_ON_ERROR`** | int | Бітова маска, що використовується в [iconvmimedecode()](function.iconv-mime-decode.html) |

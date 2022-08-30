@@ -4,9 +4,9 @@
     
 -   [sodiumbin2base64 »](function.sodium-bin2base64.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Перетворює рядок у кодуванні base64 на необроблений двійковий файл
     

@@ -1,12 +1,12 @@
 Отримує статус зазначеного документа
 
--   [« tidy::getRelease](tidy.getrelease.html)
+-   [« tidy::getRelease](tidy.getrelease.md)
     
--   [tidy::head »](tidy.head.html)
+-   [tidy::head »](tidy.head.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidy](class.tidy.html)
+-   [tidy](class.tidy.md)
     
 -   Отримує статус зазначеного документа
     
@@ -39,7 +39,7 @@ tidy_get_status(tidy $tidy): int
 
 `tidy`
 
-Об'єкт [Tidy](class.tidy.html)
+Об'єкт [Tidy](class.tidy.md)
 
 ### Значення, що повертаються
 

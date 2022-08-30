@@ -4,9 +4,9 @@
     
 -   [ibasequery »](function.ibase-query.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Firebird/InterBase](ref.ibase.html)
+-   [Функции Firebird/InterBase](ref.ibase.md)
     
 -   Підготовляє запит для подальшого зв'язування псевдозмінних та виконання
     

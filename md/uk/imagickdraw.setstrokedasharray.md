@@ -1,12 +1,12 @@
 Задає патерн із штрихів та пробілів, які використовуються для обведення контурів.
 
--   [« ImagickDraw::setStrokeColor](imagickdraw.setstrokecolor.html)
+-   [« ImagickDraw::setStrokeColor](imagickdraw.setstrokecolor.md)
     
--   [ImagickDraw::setStrokeDashOffset »](imagickdraw.setstrokedashoffset.html)
+-   [ImagickDraw::setStrokeDashOffset »](imagickdraw.setstrokedashoffset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Задає патерн із штрихів та пробілів, які використовуються для обведення контурів.
     

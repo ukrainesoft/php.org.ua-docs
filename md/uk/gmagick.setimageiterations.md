@@ -1,12 +1,12 @@
 Встановлює ітерацію зображення
 
--   [« Gmagick::setimageinterlacescheme](gmagick.setimageinterlacescheme.html)
+-   [« Gmagick::setimageinterlacescheme](gmagick.setimageinterlacescheme.md)
     
--   [Gmagick::setimageprofile »](gmagick.setimageprofile.html)
+-   [Gmagick::setimageprofile »](gmagick.setimageprofile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Встановлює ітерацію зображення
     
@@ -33,7 +33,7 @@ public Gmagick::setimageiterations(int $iterations): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

@@ -1,12 +1,12 @@
 Встановлює стиснення зображення
 
--   [« Imagick::setImageCompose](imagick.setimagecompose.html)
+-   [« Imagick::setImageCompose](imagick.setimagecompose.md)
     
--   [Imagick::setImageCompressionQuality »](imagick.setimagecompressionquality.html)
+-   [Imagick::setImageCompressionQuality »](imagick.setimagecompressionquality.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює стиснення зображення
     

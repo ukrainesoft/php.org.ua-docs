@@ -1,12 +1,12 @@
 Встановлює функцію посилення (параметр bf)
 
--   [« SolrDisMaxQuery::setBigramPhraseSlop](solrdismaxquery.setbigramphraseslop.html)
+-   [« SolrDisMaxQuery::setBigramPhraseSlop](solrdismaxquery.setbigramphraseslop.md)
     
--   [SolrDisMaxQuery::setBoostQuery »](solrdismaxquery.setboostquery.html)
+-   [SolrDisMaxQuery::setBoostQuery »](solrdismaxquery.setboostquery.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
+-   [SolrDisMaxQuery](class.solrdismaxquery.md)
     
 -   Встановлює функцію посилення (параметр bf)
     
@@ -35,7 +35,7 @@ recip(rord(myfield),1,2,3)^1.5
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.html)
+[SolrDisMaxQuery](class.solrdismaxquery.md)
 
 ### Приклади
 

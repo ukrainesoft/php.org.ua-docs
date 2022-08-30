@@ -1,12 +1,12 @@
 Функції Zip
 
--   [« ZipArchive::unchangeName](ziparchive.unchangename.html)
+-   [« ZipArchive::unchangeName](ziparchive.unchangename.md)
     
 -   [zipclose »](function.zip-close.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Zip](book.zip.html)
+-   [Zip](book.zip.md)
     
 -   Функції Zip
     
@@ -15,7 +15,7 @@
 
 **Увага**
 
-Процедурний API застарів із PHP 8.0.0. Замість нього слід використовувати [ZipArchive](class.ziparchive.html)
+Процедурний API застарів із PHP 8.0.0. Замість нього слід використовувати [ZipArchive](class.ziparchive.md)
 
 ## Зміст
 

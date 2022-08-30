@@ -1,12 +1,12 @@
 Відповідає facet.date.start
 
--   [« SolrQuery::setFacetDateHardEnd](solrquery.setfacetdatehardend.html)
+-   [« SolrQuery::setFacetDateHardEnd](solrquery.setfacetdatehardend.md)
     
--   [SolrQuery::setFacetEnumCacheMinDefaultFrequency »](solrquery.setfacetenumcachemindefaultfrequency.html)
+-   [SolrQuery::setFacetEnumCacheMinDefaultFrequency »](solrquery.setfacetenumcachemindefaultfrequency.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Відповідає facet.date.start
     

@@ -1,12 +1,12 @@
 Вступ
 
--   [« Componere](book.componere.html)
+-   [« Componere](book.componere.md)
     
--   [Установка и настройка »](componere.setup.html)
+-   [Встановлення та налаштування »](componere.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Componere](book.componere.html)
+-   [Componere](book.componere.md)
     
 -   Вступ
     

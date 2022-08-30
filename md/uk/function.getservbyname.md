@@ -1,12 +1,12 @@
 Отримує номер порту, пов'язаного з інтернет-службою та протоколом
 
--   [« getprotobynumber](function.getprotobynumber.html)
+-   [« getprotobynumber](function.getprotobynumber.md)
     
--   [getservbyport »](function.getservbyport.html)
+-   [getservbyport »](function.getservbyport.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Мережеві функції](ref.network.html)
+-   [Мережеві функції](ref.network.md)
     
 -   Отримує номер порту, пов'язаного з інтернет-службою та протоколом
     
@@ -57,5 +57,5 @@ foreach ($services as $service) {
 
 ### Дивіться також
 
--   [getservbyport()](function.getservbyport.html) - Отримує інтернет-службу, що відповідає заданому порту та протоколу
+-   [getservbyport()](function.getservbyport.md) - Отримує інтернет-службу, що відповідає заданому порту та протоколу
 -   Дивіться [» http://www.iana.org/assignments/port-numbers](http://www.iana.org/assignments/port-numbers) щоб отримати повний список номерів портів.

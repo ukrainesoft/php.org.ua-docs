@@ -2,7 +2,7 @@ API підтримка транзакцій
 
 -   [« Множинні запити](mysqli.quickstart.multiple-statement.html)
     
--   [Метаданные »](mysqli.quickstart.metadata.html)
+-   [Метадані »](mysqli.quickstart.metadata.html)
     
 -   [PHP Manual](index.html)
     

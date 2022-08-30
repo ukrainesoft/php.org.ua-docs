@@ -1,12 +1,12 @@
 Повертає поточний елемент DirectoryIterator
 
--   [« DirectoryIterator::construct](directoryiterator.construct.html)
+-   [« DirectoryIterator::construct](directoryiterator.construct.md)
     
--   [DirectoryIterator::getATime »](directoryiterator.getatime.html)
+-   [DirectoryIterator::getATime »](directoryiterator.getatime.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DirectoryIterator](class.directoryiterator.html)
+-   [DirectoryIterator](class.directoryiterator.md)
     
 -   Повертає поточний елемент DirectoryIterator
     
@@ -23,7 +23,7 @@ DirectoryIterator::current — Повертає поточний елемент 
 public DirectoryIterator::current(): mixed
 ```
 
-Повертає поточний елемент [DirectoryIterator](class.directoryiterator.html)
+Повертає поточний елемент [DirectoryIterator](class.directoryiterator.md)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public DirectoryIterator::current(): mixed
 
 ### Значення, що повертаються
 
-Поточний елемент [DirectoryIterator](class.directoryiterator.html)
+Поточний елемент [DirectoryIterator](class.directoryiterator.md)
 
 ### Приклади
 
@@ -63,8 +63,8 @@ while($iterator->valid()) {
 
 ### Дивіться також
 
--   [DirectoryIterator::key()](directoryiterator.key.html) - Повертає ключ поточного елемента DirectoryIterator
--   [DirectoryIterator::next()](directoryiterator.next.html) - Переміщує покажчик на наступний елемент DirectoryIterator
--   [DirectoryIterator::rewind()](directoryiterator.rewind.html) - Встановлює покажчик на перший елемент DirectoryIterator
--   [DirectoryIterator::valid()](directoryiterator.valid.html) - Перевіряє, чи є поточний елемент DirectoryIterator допустимим файлом
--   [Iterator::current()](iterator.current.html) - Повернення поточного елемента
+-   [DirectoryIterator::key()](directoryiterator.key.md) - Повертає ключ поточного елемента DirectoryIterator
+-   [DirectoryIterator::next()](directoryiterator.next.md) - Переміщує покажчик на наступний елемент DirectoryIterator
+-   [DirectoryIterator::rewind()](directoryiterator.rewind.md) - Встановлює покажчик на перший елемент DirectoryIterator
+-   [DirectoryIterator::valid()](directoryiterator.valid.md) - Перевіряє, чи є поточний елемент DirectoryIterator допустимим файлом
+-   [Iterator::current()](iterator.current.md) - Повернення поточного елемента

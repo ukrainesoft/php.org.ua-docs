@@ -1,12 +1,12 @@
 Малює вертикальну лінію
 
--   [« ImagickDraw::pathLineToRelative](imagickdraw.pathlinetorelative.html)
+-   [« ImagickDraw::pathLineToRelative](imagickdraw.pathlinetorelative.md)
     
--   [ImagickDraw::pathLineToVerticalRelative »](imagickdraw.pathlinetoverticalrelative.html)
+-   [ImagickDraw::pathLineToVerticalRelative »](imagickdraw.pathlinetoverticalrelative.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Малює вертикальну лінію
     

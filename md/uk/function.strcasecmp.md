@@ -2,11 +2,11 @@
 
 -   [« strwordcount](function.str-word-count.html)
     
--   [strchr »](function.strchr.html)
+-   [strchr »](function.strchr.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Бінарно-безпечне порівняння рядків без урахування регістру
     
@@ -55,9 +55,9 @@ if (strcasecmp($var1, $var2) == 0) {
 
 ### Дивіться також
 
--   [strcmp()](function.strcmp.html) - Бінарно-безпечне порівняння рядків
+-   [strcmp()](function.strcmp.md) - Бінарно-безпечне порівняння рядків
 -   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
 -   [substrcompare()](function.substr-compare.html) - Бінарно-безпечне порівняння 2 рядків зі зміщенням, з урахуванням або без обліку регістру
--   [strncasecmp()](function.strncasecmp.html) - Бінарно-безпечне порівняння перших n символів рядків без урахування регістру
--   [stristr()](function.stristr.html) - Реєстронезалежний варіант функції strstr
--   [substr()](function.substr.html) - Повертає підрядок
+-   [strncasecmp()](function.strncasecmp.md) - Бінарно-безпечне порівняння перших n символів рядків без урахування регістру
+-   [stristr()](function.stristr.md) - Реєстронезалежний варіант функції strstr
+-   [substr()](function.substr.md) - Повертає підрядок

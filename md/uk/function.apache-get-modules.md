@@ -4,9 +4,9 @@
     
 -   [apachegetversion »](function.apache-get-version.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Apache](ref.apache.html)
+-   [Функции Apache](ref.apache.md)
     
 -   Повертає список завантажених модулів сервера Apache
     

@@ -4,9 +4,9 @@
     
 -   [YafDispatcher::autoRender »](yaf-dispatcher.autorender.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yaf](book.yaf.html)
+-   [Yaf](book.yaf.md)
     
 -   Клас YafDispatcher
     

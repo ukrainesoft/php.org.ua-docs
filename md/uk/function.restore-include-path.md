@@ -1,12 +1,12 @@
 Відновлює початкове значення конфігураційної установки includepath
 
--   [« putenv](function.putenv.html)
+-   [« putenv](function.putenv.md)
     
 -   [setincludepath »](function.set-include-path.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Відновлює початкове значення конфігураційної установки includepath
     
@@ -65,4 +65,4 @@ echo get_include_path();  // .:/usr/local/lib/php
 -   [inirestore()](function.ini-restore.html) - Відновлює налаштування конфігурації.
 -   [getincludepath()](function.get-include-path.html) - Отримання поточного значення конфігураційної установки includepath
 -   [setincludepath()](function.set-include-path.html) - Встановлює налаштування конфігурації includepath
--   [include](function.include.html) - include
+-   [include](function.include.md) - include

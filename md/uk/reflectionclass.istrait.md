@@ -1,12 +1,12 @@
 Перевіряє, чи це трейтом
 
--   [« ReflectionClass::isSubclassOf](reflectionclass.issubclassof.html)
+-   [« ReflectionClass::isSubclassOf](reflectionclass.issubclassof.md)
     
--   [ReflectionClass::isUserDefined »](reflectionclass.isuserdefined.html)
+-   [ReflectionClass::isUserDefined »](reflectionclass.isuserdefined.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Перевіряє, чи це трейтом
     

@@ -4,9 +4,9 @@
     
 -   [sodiumcryptosignpublickeyfromsecretkey »](function.sodium-crypto-sign-publickey-from-secretkey.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Перевірити, що підписане повідомлення має коректний підпис
     

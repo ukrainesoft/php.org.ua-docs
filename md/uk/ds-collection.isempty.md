@@ -4,7 +4,7 @@
     
 -   [ДсCollection::toArray »](ds-collection.toarray.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Коллекция](class.ds-collection.html)
     

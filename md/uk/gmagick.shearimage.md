@@ -1,12 +1,12 @@
 Створює паралелограм
 
--   [« Gmagick::setsize](gmagick.setsize.html)
+-   [« Gmagick::setsize](gmagick.setsize.md)
     
--   [Gmagick::solarizeimage »](gmagick.solarizeimage.html)
+-   [Gmagick::solarizeimage »](gmagick.solarizeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Створює паралелограм
     
@@ -41,7 +41,7 @@ public Gmagick::shearimage(mixed $color, float $xShear, float $yShear): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

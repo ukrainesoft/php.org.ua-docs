@@ -1,12 +1,12 @@
 Додає атрибут до SimpleXML-елементу
 
--   [« SimpleXMLElement](class.simplexmlelement.html)
+-   [« SimpleXMLElement](class.simplexmlelement.md)
     
--   [SimpleXMLElement::addChild »](simplexmlelement.addchild.html)
+-   [SimpleXMLElement::addChild »](simplexmlelement.addchild.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXMLElement](class.simplexmlelement.html)
+-   [SimpleXMLElement](class.simplexmlelement.md)
     
 -   Додає атрибут до SimpleXML-елементу
     
@@ -120,5 +120,5 @@ echo $sxe->asXML();
 
 ### Дивіться також
 
--   [SimpleXMLElement::addChild()](simplexmlelement.addchild.html) - Додає дочірній елемент до сайту XML
+-   [SimpleXMLElement::addChild()](simplexmlelement.addchild.md) - Додає дочірній елемент до сайту XML
 -   [Базовое использование SimpleXML](simplexml.examples-basic.html)

@@ -1,12 +1,12 @@
 Рекомендована конфігурація для Windows
 
--   [« Инструмент установки PHP на Windows](install.windows.tools.html)
+-   [« Инструмент установки PHP на Windows](install.windows.tools.md)
     
--   [Самостійне встановлення PHP у Windows »](install.windows.manual.html)
+-   [Самостійне встановлення PHP у Windows »](install.windows.manual.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка в системах Windows](install.windows.html)
+-   [Установка в системах Windows](install.windows.md)
     
 -   Рекомендована конфігурація для Windows
     
@@ -26,7 +26,7 @@ opcache.enable=On
 opcache.enable_cli=On
 ```
 
-І перезавантажте ваш веб-сервер. Докладніше читайте: [Конфигурация OpCache](opcache.configuration.html)
+І перезавантажте ваш веб-сервер. Докладніше читайте: [Конфигурация OpCache](opcache.configuration.md)
 
 ### WinCache
 
@@ -40,7 +40,7 @@ wincache.fcenabled=1
 wincache.ocenabled=1 ; удалено в wincache 2.0.0.0
 ```
 
-Докладніше читайте: [Конфигурация WinCache](wincache.configuration.html)
+Докладніше читайте: [Конфигурация WinCache](wincache.configuration.md)
 
 ### Конфігурація IIS
 

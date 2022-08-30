@@ -1,12 +1,12 @@
 Повертає мінімальну кількість полів аспектів, які мають бути включені у відповідь
 
--   [« SolrQuery::getFacetMethod](solrquery.getfacetmethod.html)
+-   [« SolrQuery::getFacetMethod](solrquery.getfacetmethod.md)
     
--   [SolrQuery::getFacetMissing »](solrquery.getfacetmissing.html)
+-   [SolrQuery::getFacetMissing »](solrquery.getfacetmissing.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає мінімальну кількість полів аспектів, які мають бути включені у відповідь
     

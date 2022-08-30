@@ -4,9 +4,9 @@
     
 -   [statscdfexponential »](function.stats-cdf-exponential.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Обчислює один із параметрів розподілу хі-квадрат за рештою
     
@@ -30,10 +30,10 @@ stats_cdf_chisquare(float $par1, float $par2, int $which): float
 **Значення, що повертається і параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` |
-|---------|-----------------------|--------|--------|
-|         | CDF                   | з      | до     |
-|         | з                     | CDF    | до     |
-|         | до                    | з      | CDF    |
+| --- | --- | --- | --- |
+|  | CDF | з | до |
+|  | з | CDF | до |
+|  | до | з | CDF |
 
 ### Список параметрів
 

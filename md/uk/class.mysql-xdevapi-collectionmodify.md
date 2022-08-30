@@ -4,7 +4,7 @@
     
 -   [CollectionModify::arrayAppend »](mysql-xdevapi-collectionmodify.arrayappend.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Mysqlxdevapi](book.mysql-xdevapi.html)
     

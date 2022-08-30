@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](yac.requirements.html)
+-   [« Вимоги](yac.requirements.md)
     
--   [Настройка во время выполнения »](yac.configuration.html)
+-   [Налаштування під час виконання »](yac.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](yac.setup.html)
+-   [Встановлення та налаштування](yac.setup.md)
     
 -   Встановлення
     
@@ -15,6 +15,6 @@
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/yac](https://pecl.php.net/package/yac)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/yac](https://pecl.php.net/package/yac)
 
 Бінарні файли Windows (DLL-файли) для цього модуля PECL доступні на сайті PECL.

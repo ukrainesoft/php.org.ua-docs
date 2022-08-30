@@ -4,9 +4,9 @@
     
 -   [fdfnextfieldname »](function.fdf-next-field-name.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Встановлює специфічні для FDF вихідні заголовки
     

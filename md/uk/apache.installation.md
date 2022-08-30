@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](apache.requirements.html)
+-   [« Вимоги](apache.requirements.html)
     
--   [Настройка во время выполнения »](apache.configuration.html)
+-   [Налаштування під час виконання »](apache.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](apache.setup.html)
+-   [Встановлення та налаштування](apache.setup.html)
     
 -   Встановлення
     

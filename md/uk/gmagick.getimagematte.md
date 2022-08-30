@@ -1,12 +1,12 @@
 Перевіряє, чи є на зображенні матовий канал
 
--   [« Gmagick::getimageiterations](gmagick.getimageiterations.html)
+-   [« Gmagick::getimageiterations](gmagick.getimageiterations.md)
     
--   [Gmagick::getimagemattecolor »](gmagick.getimagemattecolor.html)
+-   [Gmagick::getimagemattecolor »](gmagick.getimagemattecolor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Перевіряє, чи є на зображенні матовий канал
     

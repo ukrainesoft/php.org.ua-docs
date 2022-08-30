@@ -1,8 +1,8 @@
 Обумовлені константи
 
--   [« Типы ресурсов](shmop.resources.html)
+-   [« Типи ресурсів](shmop.resources.html)
     
--   [Примеры »](shmop.examples.html)
+-   [Приклади »](shmop.examples.html)
     
 -   [PHP Manual](index.html)
     

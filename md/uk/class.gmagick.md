@@ -1,12 +1,12 @@
 Клас Gmagick
 
--   [« Примеры](gmagick.examples.html)
+-   [« Приклади](gmagick.examples.md)
     
--   [Gmagick::addimage »](gmagick.addimage.html)
+-   [Gmagick::addimage »](gmagick.addimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](book.gmagick.html)
+-   [Gmagick](book.gmagick.md)
     
 -   Клас Gmagick
     
@@ -190,144 +190,144 @@ public writeimage(string $filename, bool $all_frames = false): Gmagick
 
 ## Зміст
 
--   [Gmagick::addimage](gmagick.addimage.html) — Додавання нового зображення до списку зображень об'єкта Gmagick
--   [Gmagick::addnoiseimage](gmagick.addnoiseimage.html) — Додає випадкового шуму до зображення
--   [Gmagick::annotateimage](gmagick.annotateimage.html) — Підписати зображення текстом
--   [Gmagick::blurimage](gmagick.blurimage.html) — Додати розмиття зображення
--   [Gmagick::borderimage](gmagick.borderimage.html) — Додати рамку до зображення
--   [Gmagick::charcoalimage](gmagick.charcoalimage.html) — Імітація малювання вугіллям
--   [Gmagick::chopimage](gmagick.chopimage.html) — Видаляє область зображення та підрізає його.
--   [Gmagick::clear](gmagick.clear.html) — Зачищає всі ресурси, пов'язані з об'єктом Gmagick
--   [Gmagick::commentimage](gmagick.commentimage.html) — Додати коментар до зображення
--   [Gmagick::compositeimage](gmagick.compositeimage.html) — Накладає одне зображення на інше
--   [Gmagick::construct](gmagick.construct.html) - Конструктор об'єкта Gmagick
--   [Gmagick::cropimage](gmagick.cropimage.html) — Обрізає зображення
--   [Gmagick::cropthumbnailimage](gmagick.cropthumbnailimage.html) — Створення обрізаного зменшеного зображення
--   [Gmagick::current](gmagick.current.html) - Повернути самого себе
--   [Gmagick::cyclecolormapimage](gmagick.cyclecolormapimage.html) — Зміщує колірну карту зображення
--   [Gmagick::deconstructimages](gmagick.deconstructimages.html) — Повертає певні піксельні відмінності між зображеннями
--   [Gmagick::despeckleimage](gmagick.despeckleimage.html) - Призначення despeckleimage
--   [Gmagick::destroy](gmagick.destroy.html) — Знищити об'єкт Gmagick
--   [Gmagick::drawimage](gmagick.drawimage.html) — Відображає об'єкт GmagickDraw на поточному зображенні
--   [Gmagick::edgeimage](gmagick.edgeimage.html) — Збільшує краї зображення.
--   [Gmagick::embossimage](gmagick.embossimage.html) — Повертає зображення у градаціях сірого із тривимірним ефектом
--   [Gmagick::enhanceimage](gmagick.enhanceimage.html) — Покращує якість зображення із шумом
--   [Gmagick::equalizeimage](gmagick.equalizeimage.html) — Вирівнює гістограму зображення
--   [Gmagick::flipimage](gmagick.flipimage.html) — Створює вертикальне дзеркальне відображення
--   [Gmagick::flopimage](gmagick.flopimage.html) — Створює горизонтальне дзеркальне відображення
--   [Gmagick::frameimage](gmagick.frameimage.html) — Додає змодельований тривимірний кордон
--   [Gmagick::gammaimage](gmagick.gammaimage.html) - Гамма-корекція зображення
--   [Gmagick::getcopyright](gmagick.getcopyright.html) — Повертає копірайт GraphicsMagick API у вигляді рядка
--   [Gmagick::getfilename](gmagick.getfilename.html) — Повертає ім'я файлу, пов'язаного з послідовністю зображень.
--   [Gmagick::getimagebackgroundcolor](gmagick.getimagebackgroundcolor.html) — Повертає колір тла зображення
--   [Gmagick::getimageblueprimary](gmagick.getimageblueprimary.html) — Повертає кольоровість синьої первинної точки
--   [Gmagick::getimagebordercolor](gmagick.getimagebordercolor.html) — Повертає колір кордону зображення
--   [Gmagick::getimagechanneldepth](gmagick.getimagechanneldepth.html) — Отримує глибину для певного каналу зображення
--   [Gmagick::getimagecolors](gmagick.getimagecolors.html) — Повертає колір зазначеного індексу карти кольорів
--   [Gmagick::getimagecolorspace](gmagick.getimagecolorspace.html) — Повертає колірний простір зображення
--   [Gmagick::getimagecompose](gmagick.getimagecompose.html) — Повертає складовий оператор, пов'язаний із зображенням
--   [Gmagick::getimagedelay](gmagick.getimagedelay.html) — Отримує затримку зображення
--   [Gmagick::getimagedepth](gmagick.getimagedepth.html) — Отримує глибину зображення
--   [Gmagick::getimagedispose](gmagick.getimagedispose.html) — Отримує метод видалення зображення
--   [Gmagick::getimageextrema](gmagick.getimageextrema.html) — Отримує екстремуми для зображення
--   [Gmagick::getimagefilename](gmagick.getimagefilename.html) — Повертає ім'я файлу конкретного зображення у послідовності
--   [Gmagick::getimageformat](gmagick.getimageformat.html) — Повертає формат зображення в послідовності.
--   [Gmagick::getimagegamma](gmagick.getimagegamma.html) — Повертає гаму зображення
--   [Gmagick::getimagegreenprimary](gmagick.getimagegreenprimary.html) — Повертає первинну зелену точку
--   [Gmagick::getimageheight](gmagick.getimageheight.html) — Повертає висоту зображення
--   [Gmagick::getimagehistogram](gmagick.getimagehistogram.html) — Повертає гістограму зображення
--   [Gmagick::getimageindex](gmagick.getimageindex.html) — Повертає індекс активного поточного зображення.
--   [Gmagick::getimageinterlacescheme](gmagick.getimageinterlacescheme.html) — Отримує схему чергування зображень
--   [Gmagick::getimageiterations](gmagick.getimageiterations.html) — Отримує ітерацію зображення
--   [Gmagick::getimagematte](gmagick.getimagematte.html) — Перевіряє, чи є на зображенні матовий канал
--   [Gmagick::getimagemattecolor](gmagick.getimagemattecolor.html) — Повертає зображення матового кольору
--   [Gmagick::getimageprofile](gmagick.getimageprofile.html) — Повертає іменований профайл зображення
--   [Gmagick::getimageredprimary](gmagick.getimageredprimary.html) — Повертає первинну червону точку
--   [Gmagick::getimagerenderingintent](gmagick.getimagerenderingintent.html) — Отримує мету рендерингу зображення
--   [Gmagick::getimageresolution](gmagick.getimageresolution.html) — Повертає роздільну здатність зображення
--   [Gmagick::getimagescene](gmagick.getimagescene.html) — Отримує сцену зображення
--   [Gmagick::getimagesignature](gmagick.getimagesignature.html) — Створює підпис до повідомлення SHA-256
--   [Gmagick::getimagetype](gmagick.getimagetype.html) — Повертає потенційний тип зображення
--   [Gmagick::getimageunits](gmagick.getimageunits.html) — Повертає одиниці роздільної здатності зображення
--   [Gmagick::getimagewhitepoint](gmagick.getimagewhitepoint.html) — Повертає хроматичну білу крапку
--   [Gmagick::getimagewidth](gmagick.getimagewidth.html) — Повертає ширину зображення
--   [Gmagick::getpackagename](gmagick.getpackagename.html) — Повертає ім'я пакета GraphicsMagick
--   [Gmagick::getquantumdepth](gmagick.getquantumdepth.html) — Повертає глибину кольору (біт на канал) об'єкта Gmagick у вигляді рядка
--   [Gmagick::getreleasedate](gmagick.getreleasedate.html) — Повертає дату релізу GraphicsMagick у вигляді рядка
--   [Gmagick::getsamplingfactors](gmagick.getsamplingfactors.html) — Повертає вертикальний та горизонтальний фактор дискретизації
--   [Gmagick::getsize](gmagick.getsize.html) — Повертає розмір, пов'язаний із об'єктом Gmagick
--   [Gmagick::getversion](gmagick.getversion.html) — Повертає версію GraphicsMagick API
--   [Gmagick::hasnextimage](gmagick.hasnextimage.html) — Перевіряє, чи є ще зображення в об'єкті
--   [Gmagick::haspreviousimage](gmagick.haspreviousimage.html) — Перевіряє, чи є ще зображення в об'єкті під час ітерації назад
--   [Gmagick::implodeimage](gmagick.implodeimage.html) — Створює копію зображення
--   [Gmagick::labelimage](gmagick.labelimage.html) — Додає позначку до зображення
--   [Gmagick::levelimage](gmagick.levelimage.html) — Регулює рівні зображення
--   [Gmagick::magnifyimage](gmagick.magnifyimage.html) - Пропорційно масштабує зображення в 2 рази
--   [Gmagick::mapimage](gmagick.mapimage.html) — Замінює кольори зображення на найближчий колір із еталонного зображення
--   [Gmagick::medianfilterimage](gmagick.medianfilterimage.html) — Застосовує цифровий фільтр
--   [Gmagick::minifyimage](gmagick.minifyimage.html) — Масштабує зображення пропорційно до половини його розміру.
--   [Gmagick::modulateimage](gmagick.modulateimage.html) — Керує яскравістю, насиченістю та відтінком
--   [Gmagick::motionblurimage](gmagick.motionblurimage.html) — Імітує розмиття під час руху
--   [Gmagick::newimage](gmagick.newimage.html) — Створює нове зображення
--   [Gmagick::nextimage](gmagick.nextimage.html) — Здійснює перехід до наступного зображення
--   [Gmagick::normalizeimage](gmagick.normalizeimage.html) — Підвищує контрастність кольорового зображення
--   [Gmagick::oilpaintimage](gmagick.oilpaintimage.html) — Імітує ефект картини олією
--   [Gmagick::previousimage](gmagick.previousimage.html) — Здійснює перехід до попереднього зображення в об'єкті
--   [Gmagick::profileimage](gmagick.profileimage.html) — Додає або видаляє профіль із зображення.
--   [Gmagick::quantizeimage](gmagick.quantizeimage.html) - Аналізує кольори еталонного зображення
--   [Gmagick::quantizeimages](gmagick.quantizeimages.html) — Аналізує кольори у послідовності зображень
--   [Gmagick::queryfontmetrics](gmagick.queryfontmetrics.html) — Повертає масив, який представляє метрики шрифту
--   [Gmagick::queryfonts](gmagick.queryfonts.html) — Повертає налаштовані шрифти
--   [Gmagick::queryformats](gmagick.queryformats.html) — Повертає формати Gmagick.
--   [Gmagick::radialblurimage](gmagick.radialblurimage.html) — Застосовує радіальне розмиття зображення.
--   [Gmagick::raiseimage](gmagick.raiseimage.html) — Створює імітацію ефекту тривимірної кнопки
--   [Gmagick::read](gmagick.read.html) — Читає зображення із файлу
--   [Gmagick::readimage](gmagick.readimage.html) — Читає зображення із файлу
--   [Gmagick::readimageblob](gmagick.readimageblob.html) — Читає зображення з бінарного рядка
--   [Gmagick::readimagefile](gmagick.readimagefile.html) — Читає зображення або послідовність зображень із файлового дескриптора
--   [Gmagick::reducenoiseimage](gmagick.reducenoiseimage.html) — Згладжує контури зображення
--   [Gmagick::removeimage](gmagick.removeimage.html) — Видаляє зображення зі списку
--   [Gmagick::removeimageprofile](gmagick.removeimageprofile.html) — Видаляє іменований профайл зображення та повертає його
--   [Gmagick::resampleimage](gmagick.resampleimage.html) — Змінює роздільну здатність зображення до бажаного.
--   [Gmagick::resizeimage](gmagick.resizeimage.html) — Масштабує зображення
--   [Gmagick::rollimage](gmagick.rollimage.html) — Зміщує зображення
--   [Gmagick::rotateimage](gmagick.rotateimage.html) — Повертає зображення
--   [Gmagick::scaleimage](gmagick.scaleimage.html) — Масштабує розмір зображення
--   [Gmagick::separateimagechannel](gmagick.separateimagechannel.html) — Відокремлює канал від зображення.
--   [Gmagick::setCompressionQuality](gmagick.setcompressionquality.html) — Встановлює якість стандартного стиснення об'єкта
--   [Gmagick::setfilename](gmagick.setfilename.html) — Встановлює ім'я файлу перед читанням чи записом зображення
--   [Gmagick::setimagebackgroundcolor](gmagick.setimagebackgroundcolor.html) — Встановлює колір тла зображення
--   [Gmagick::setimageblueprimary](gmagick.setimageblueprimary.html) — Встановлює кольоровість зображення блакитною основною точкою.
--   [Gmagick::setimagebordercolor](gmagick.setimagebordercolor.html) — Встановлює колір рамки зображення
--   [Gmagick::setimagechanneldepth](gmagick.setimagechanneldepth.html) — Встановлює глибину певного каналу зображення
--   [Gmagick::setimagecolorspace](gmagick.setimagecolorspace.html) — Встановлює колірний простір зображення
--   [Gmagick::setimagecompose](gmagick.setimagecompose.html) — Встановлює оператор складеного зображення
--   [Gmagick::setimagedelay](gmagick.setimagedelay.html) — Встановлює затримку зображення
--   [Gmagick::setimagedepth](gmagick.setimagedepth.html) — Встановлює глибину зображення
--   [Gmagick::setimagedispose](gmagick.setimagedispose.html) — Встановлює метод видалення зображення
--   [Gmagick::setimagefilename](gmagick.setimagefilename.html) — Встановлює ім'я файлу конкретного зображення у послідовності
--   [Gmagick::setimageformat](gmagick.setimageformat.html) — Встановлює формат певного зображення
--   [Gmagick::setimagegamma](gmagick.setimagegamma.html) — Встановлює гаму зображення
--   [Gmagick::setimagegreenprimary](gmagick.setimagegreenprimary.html) — Встановлює кольоровість зображення зеленою первинною точкою.
--   [Gmagick::setimageindex](gmagick.setimageindex.html) — Встановлює ітератор у положення списку зображень, заданому параметром index
--   [Gmagick::setimageinterlacescheme](gmagick.setimageinterlacescheme.html) — Встановлює схему надстрокової розгортки зображення
--   [Gmagick::setimageiterations](gmagick.setimageiterations.html) — Встановлює ітерацію зображення
--   [Gmagick::setimageprofile](gmagick.setimageprofile.html) — Додає іменований профіль до об'єкту Gmagick
--   [Gmagick::setimageredprimary](gmagick.setimageredprimary.html) — Встановлює кольоровість зображення червоною основною точкою.
--   [Gmagick::setimagerenderingintent](gmagick.setimagerenderingintent.html) — Встановлює спосіб рендерингу зображення
--   [Gmagick::setimageresolution](gmagick.setimageresolution.html) — Встановлює роздільну здатність зображення
--   [Gmagick::setimagescene](gmagick.setimagescene.html) — Встановлює сцену зображення
--   [Gmagick::setimagetype](gmagick.setimagetype.html) — Встановлює тип зображення
--   [Gmagick::setimageunits](gmagick.setimageunits.html) — Встановлює одиниці роздільної здатності зображення
--   [Gmagick::setimagewhitepoint](gmagick.setimagewhitepoint.html) — Встановлює кольоровість зображення білою точкою.
--   [Gmagick::setsamplingfactors](gmagick.setsamplingfactors.html) — Встановлює фактори вибірки зображення
--   [Gmagick::setsize](gmagick.setsize.html) — Встановлює розмір об'єкта Gmagick
--   [Gmagick::shearimage](gmagick.shearimage.html) - Створює паралелограм
--   [Gmagick::solarizeimage](gmagick.solarizeimage.html) — Застосовує ефект соляризації до зображення.
--   [Gmagick::spreadimage](gmagick.spreadimage.html) — Випадково зміщує кожен піксель у блоці
--   [Gmagick::stripimage](gmagick.stripimage.html) — Знімає зображення всіх профілів та коментарів
--   [Gmagick::swirlimage](gmagick.swirlimage.html) — Закручує пікселі навколо центру зображення
--   [Gmagick::thumbnailimage](gmagick.thumbnailimage.html) — Змінює розмір зображення
--   [Gmagick::trimimage](gmagick.trimimage.html) — Видаляє краї зображення
--   [Gmagick::write](gmagick.write.html) - Псевдонім Gmagick:: writeimage
--   [Gmagick::writeimage](gmagick.writeimage.html) — Записує зображення у вказаний файл
+-   [Gmagick::addimage](gmagick.addimage.md) — Додавання нового зображення до списку зображень об'єкта Gmagick
+-   [Gmagick::addnoiseimage](gmagick.addnoiseimage.md) — Додає випадкового шуму до зображення
+-   [Gmagick::annotateimage](gmagick.annotateimage.md) — Підписати зображення текстом
+-   [Gmagick::blurimage](gmagick.blurimage.md) — Додати розмиття зображення
+-   [Gmagick::borderimage](gmagick.borderimage.md) — Додати рамку до зображення
+-   [Gmagick::charcoalimage](gmagick.charcoalimage.md) — Імітація малювання вугіллям
+-   [Gmagick::chopimage](gmagick.chopimage.md) — Видаляє область зображення та підрізає його.
+-   [Gmagick::clear](gmagick.clear.md) — Зачищає всі ресурси, пов'язані з об'єктом Gmagick
+-   [Gmagick::commentimage](gmagick.commentimage.md) — Додати коментар до зображення
+-   [Gmagick::compositeimage](gmagick.compositeimage.md) — Накладає одне зображення на інше
+-   [Gmagick::construct](gmagick.construct.md) - Конструктор об'єкта Gmagick
+-   [Gmagick::cropimage](gmagick.cropimage.md) — Обрізає зображення
+-   [Gmagick::cropthumbnailimage](gmagick.cropthumbnailimage.md) — Створення обрізаного зменшеного зображення
+-   [Gmagick::current](gmagick.current.md) - Повернути самого себе
+-   [Gmagick::cyclecolormapimage](gmagick.cyclecolormapimage.md) — Зміщує колірну карту зображення
+-   [Gmagick::deconstructimages](gmagick.deconstructimages.md) — Повертає певні піксельні відмінності між зображеннями
+-   [Gmagick::despeckleimage](gmagick.despeckleimage.md) - Призначення despeckleimage
+-   [Gmagick::destroy](gmagick.destroy.md) — Знищити об'єкт Gmagick
+-   [Gmagick::drawimage](gmagick.drawimage.md) — Відображає об'єкт GmagickDraw на поточному зображенні
+-   [Gmagick::edgeimage](gmagick.edgeimage.md) — Збільшує краї зображення.
+-   [Gmagick::embossimage](gmagick.embossimage.md) — Повертає зображення у градаціях сірого із тривимірним ефектом
+-   [Gmagick::enhanceimage](gmagick.enhanceimage.md) — Покращує якість зображення із шумом
+-   [Gmagick::equalizeimage](gmagick.equalizeimage.md) — Вирівнює гістограму зображення
+-   [Gmagick::flipimage](gmagick.flipimage.md) — Створює вертикальне дзеркальне відображення
+-   [Gmagick::flopimage](gmagick.flopimage.md) — Створює горизонтальне дзеркальне відображення
+-   [Gmagick::frameimage](gmagick.frameimage.md) — Додає змодельований тривимірний кордон
+-   [Gmagick::gammaimage](gmagick.gammaimage.md) - Гамма-корекція зображення
+-   [Gmagick::getcopyright](gmagick.getcopyright.md) — Повертає копірайт GraphicsMagick API у вигляді рядка
+-   [Gmagick::getfilename](gmagick.getfilename.md) — Повертає ім'я файлу, пов'язаного з послідовністю зображень.
+-   [Gmagick::getimagebackgroundcolor](gmagick.getimagebackgroundcolor.md) — Повертає колір тла зображення
+-   [Gmagick::getimageblueprimary](gmagick.getimageblueprimary.md) — Повертає кольоровість синьої первинної точки
+-   [Gmagick::getimagebordercolor](gmagick.getimagebordercolor.md) — Повертає колір кордону зображення
+-   [Gmagick::getimagechanneldepth](gmagick.getimagechanneldepth.md) — Отримує глибину для певного каналу зображення
+-   [Gmagick::getimagecolors](gmagick.getimagecolors.md) — Повертає колір зазначеного індексу карти кольорів
+-   [Gmagick::getimagecolorspace](gmagick.getimagecolorspace.md) — Повертає колірний простір зображення
+-   [Gmagick::getimagecompose](gmagick.getimagecompose.md) — Повертає складовий оператор, пов'язаний із зображенням
+-   [Gmagick::getimagedelay](gmagick.getimagedelay.md) — Отримує затримку зображення
+-   [Gmagick::getimagedepth](gmagick.getimagedepth.md) — Отримує глибину зображення
+-   [Gmagick::getimagedispose](gmagick.getimagedispose.md) — Отримує метод видалення зображення
+-   [Gmagick::getimageextrema](gmagick.getimageextrema.md) — Отримує екстремуми для зображення
+-   [Gmagick::getimagefilename](gmagick.getimagefilename.md) — Повертає ім'я файлу конкретного зображення у послідовності
+-   [Gmagick::getimageformat](gmagick.getimageformat.md) — Повертає формат зображення в послідовності.
+-   [Gmagick::getimagegamma](gmagick.getimagegamma.md) — Повертає гаму зображення
+-   [Gmagick::getimagegreenprimary](gmagick.getimagegreenprimary.md) — Повертає первинну зелену точку
+-   [Gmagick::getimageheight](gmagick.getimageheight.md) — Повертає висоту зображення
+-   [Gmagick::getimagehistogram](gmagick.getimagehistogram.md) — Повертає гістограму зображення
+-   [Gmagick::getimageindex](gmagick.getimageindex.md) — Повертає індекс активного поточного зображення.
+-   [Gmagick::getimageinterlacescheme](gmagick.getimageinterlacescheme.md) — Отримує схему чергування зображень
+-   [Gmagick::getimageiterations](gmagick.getimageiterations.md) — Отримує ітерацію зображення
+-   [Gmagick::getimagematte](gmagick.getimagematte.md) — Перевіряє, чи є на зображенні матовий канал
+-   [Gmagick::getimagemattecolor](gmagick.getimagemattecolor.md) — Повертає зображення матового кольору
+-   [Gmagick::getimageprofile](gmagick.getimageprofile.md) — Повертає іменований профайл зображення
+-   [Gmagick::getimageredprimary](gmagick.getimageredprimary.md) — Повертає первинну червону точку
+-   [Gmagick::getimagerenderingintent](gmagick.getimagerenderingintent.md) — Отримує мету рендерингу зображення
+-   [Gmagick::getimageresolution](gmagick.getimageresolution.md) — Повертає роздільну здатність зображення
+-   [Gmagick::getimagescene](gmagick.getimagescene.md) — Отримує сцену зображення
+-   [Gmagick::getimagesignature](gmagick.getimagesignature.md) — Створює підпис до повідомлення SHA-256
+-   [Gmagick::getimagetype](gmagick.getimagetype.md) — Повертає потенційний тип зображення
+-   [Gmagick::getimageunits](gmagick.getimageunits.md) — Повертає одиниці роздільної здатності зображення
+-   [Gmagick::getimagewhitepoint](gmagick.getimagewhitepoint.md) — Повертає хроматичну білу крапку
+-   [Gmagick::getimagewidth](gmagick.getimagewidth.md) — Повертає ширину зображення
+-   [Gmagick::getpackagename](gmagick.getpackagename.md) — Повертає ім'я пакета GraphicsMagick
+-   [Gmagick::getquantumdepth](gmagick.getquantumdepth.md) — Повертає глибину кольору (біт на канал) об'єкта Gmagick у вигляді рядка
+-   [Gmagick::getreleasedate](gmagick.getreleasedate.md) — Повертає дату релізу GraphicsMagick у вигляді рядка
+-   [Gmagick::getsamplingfactors](gmagick.getsamplingfactors.md) — Повертає вертикальний та горизонтальний фактор дискретизації
+-   [Gmagick::getsize](gmagick.getsize.md) — Повертає розмір, пов'язаний із об'єктом Gmagick
+-   [Gmagick::getversion](gmagick.getversion.md) — Повертає версію GraphicsMagick API
+-   [Gmagick::hasnextimage](gmagick.hasnextimage.md) — Перевіряє, чи є ще зображення в об'єкті
+-   [Gmagick::haspreviousimage](gmagick.haspreviousimage.md) — Перевіряє, чи є ще зображення в об'єкті під час ітерації назад
+-   [Gmagick::implodeimage](gmagick.implodeimage.md) — Створює копію зображення
+-   [Gmagick::labelimage](gmagick.labelimage.md) — Додає позначку до зображення
+-   [Gmagick::levelimage](gmagick.levelimage.md) — Регулює рівні зображення
+-   [Gmagick::magnifyimage](gmagick.magnifyimage.md) - Пропорційно масштабує зображення в 2 рази
+-   [Gmagick::mapimage](gmagick.mapimage.md) — Замінює кольори зображення на найближчий колір із еталонного зображення
+-   [Gmagick::medianfilterimage](gmagick.medianfilterimage.md) — Застосовує цифровий фільтр
+-   [Gmagick::minifyimage](gmagick.minifyimage.md) — Масштабує зображення пропорційно до половини його розміру.
+-   [Gmagick::modulateimage](gmagick.modulateimage.md) — Керує яскравістю, насиченістю та відтінком
+-   [Gmagick::motionblurimage](gmagick.motionblurimage.md) — Імітує розмиття під час руху
+-   [Gmagick::newimage](gmagick.newimage.md) — Створює нове зображення
+-   [Gmagick::nextimage](gmagick.nextimage.md) — Здійснює перехід до наступного зображення
+-   [Gmagick::normalizeimage](gmagick.normalizeimage.md) — Підвищує контрастність кольорового зображення
+-   [Gmagick::oilpaintimage](gmagick.oilpaintimage.md) — Імітує ефект картини олією
+-   [Gmagick::previousimage](gmagick.previousimage.md) — Здійснює перехід до попереднього зображення в об'єкті
+-   [Gmagick::profileimage](gmagick.profileimage.md) — Додає або видаляє профіль із зображення.
+-   [Gmagick::quantizeimage](gmagick.quantizeimage.md) - Аналізує кольори еталонного зображення
+-   [Gmagick::quantizeimages](gmagick.quantizeimages.md) — Аналізує кольори у послідовності зображень
+-   [Gmagick::queryfontmetrics](gmagick.queryfontmetrics.md) — Повертає масив, який представляє метрики шрифту
+-   [Gmagick::queryfonts](gmagick.queryfonts.md) — Повертає налаштовані шрифти
+-   [Gmagick::queryformats](gmagick.queryformats.md) — Повертає формати Gmagick.
+-   [Gmagick::radialblurimage](gmagick.radialblurimage.md) — Застосовує радіальне розмиття зображення.
+-   [Gmagick::raiseimage](gmagick.raiseimage.md) — Створює імітацію ефекту тривимірної кнопки
+-   [Gmagick::read](gmagick.read.md) — Читає зображення із файлу
+-   [Gmagick::readimage](gmagick.readimage.md) — Читає зображення із файлу
+-   [Gmagick::readimageblob](gmagick.readimageblob.md) — Читає зображення з бінарного рядка
+-   [Gmagick::readimagefile](gmagick.readimagefile.md) — Читає зображення або послідовність зображень із файлового дескриптора
+-   [Gmagick::reducenoiseimage](gmagick.reducenoiseimage.md) — Згладжує контури зображення
+-   [Gmagick::removeimage](gmagick.removeimage.md) — Видаляє зображення зі списку
+-   [Gmagick::removeimageprofile](gmagick.removeimageprofile.md) — Видаляє іменований профайл зображення та повертає його
+-   [Gmagick::resampleimage](gmagick.resampleimage.md) — Змінює роздільну здатність зображення до бажаного.
+-   [Gmagick::resizeimage](gmagick.resizeimage.md) — Масштабує зображення
+-   [Gmagick::rollimage](gmagick.rollimage.md) — Зміщує зображення
+-   [Gmagick::rotateimage](gmagick.rotateimage.md) — Повертає зображення
+-   [Gmagick::scaleimage](gmagick.scaleimage.md) — Масштабує розмір зображення
+-   [Gmagick::separateimagechannel](gmagick.separateimagechannel.md) — Відокремлює канал від зображення.
+-   [Gmagick::setCompressionQuality](gmagick.setcompressionquality.md) — Встановлює якість стандартного стиснення об'єкта
+-   [Gmagick::setfilename](gmagick.setfilename.md) — Встановлює ім'я файлу перед читанням чи записом зображення
+-   [Gmagick::setimagebackgroundcolor](gmagick.setimagebackgroundcolor.md) — Встановлює колір тла зображення
+-   [Gmagick::setimageblueprimary](gmagick.setimageblueprimary.md) — Встановлює кольоровість зображення блакитною основною точкою.
+-   [Gmagick::setimagebordercolor](gmagick.setimagebordercolor.md) — Встановлює колір рамки зображення
+-   [Gmagick::setimagechanneldepth](gmagick.setimagechanneldepth.md) — Встановлює глибину певного каналу зображення
+-   [Gmagick::setimagecolorspace](gmagick.setimagecolorspace.md) — Встановлює колірний простір зображення
+-   [Gmagick::setimagecompose](gmagick.setimagecompose.md) — Встановлює оператор складеного зображення
+-   [Gmagick::setimagedelay](gmagick.setimagedelay.md) — Встановлює затримку зображення
+-   [Gmagick::setimagedepth](gmagick.setimagedepth.md) — Встановлює глибину зображення
+-   [Gmagick::setimagedispose](gmagick.setimagedispose.md) — Встановлює метод видалення зображення
+-   [Gmagick::setimagefilename](gmagick.setimagefilename.md) — Встановлює ім'я файлу конкретного зображення у послідовності
+-   [Gmagick::setimageformat](gmagick.setimageformat.md) — Встановлює формат певного зображення
+-   [Gmagick::setimagegamma](gmagick.setimagegamma.md) — Встановлює гаму зображення
+-   [Gmagick::setimagegreenprimary](gmagick.setimagegreenprimary.md) — Встановлює кольоровість зображення зеленою первинною точкою.
+-   [Gmagick::setimageindex](gmagick.setimageindex.md) — Встановлює ітератор у положення списку зображень, заданому параметром index
+-   [Gmagick::setimageinterlacescheme](gmagick.setimageinterlacescheme.md) — Встановлює схему надстрокової розгортки зображення
+-   [Gmagick::setimageiterations](gmagick.setimageiterations.md) — Встановлює ітерацію зображення
+-   [Gmagick::setimageprofile](gmagick.setimageprofile.md) — Додає іменований профіль до об'єкту Gmagick
+-   [Gmagick::setimageredprimary](gmagick.setimageredprimary.md) — Встановлює кольоровість зображення червоною основною точкою.
+-   [Gmagick::setimagerenderingintent](gmagick.setimagerenderingintent.md) — Встановлює спосіб рендерингу зображення
+-   [Gmagick::setimageresolution](gmagick.setimageresolution.md) — Встановлює роздільну здатність зображення
+-   [Gmagick::setimagescene](gmagick.setimagescene.md) — Встановлює сцену зображення
+-   [Gmagick::setimagetype](gmagick.setimagetype.md) — Встановлює тип зображення
+-   [Gmagick::setimageunits](gmagick.setimageunits.md) — Встановлює одиниці роздільної здатності зображення
+-   [Gmagick::setimagewhitepoint](gmagick.setimagewhitepoint.md) — Встановлює кольоровість зображення білою точкою.
+-   [Gmagick::setsamplingfactors](gmagick.setsamplingfactors.md) — Встановлює фактори вибірки зображення
+-   [Gmagick::setsize](gmagick.setsize.md) — Встановлює розмір об'єкта Gmagick
+-   [Gmagick::shearimage](gmagick.shearimage.md) - Створює паралелограм
+-   [Gmagick::solarizeimage](gmagick.solarizeimage.md) — Застосовує ефект соляризації до зображення.
+-   [Gmagick::spreadimage](gmagick.spreadimage.md) — Випадково зміщує кожен піксель у блоці
+-   [Gmagick::stripimage](gmagick.stripimage.md) — Знімає зображення всіх профілів та коментарів
+-   [Gmagick::swirlimage](gmagick.swirlimage.md) — Закручує пікселі навколо центру зображення
+-   [Gmagick::thumbnailimage](gmagick.thumbnailimage.md) — Змінює розмір зображення
+-   [Gmagick::trimimage](gmagick.trimimage.md) — Видаляє краї зображення
+-   [Gmagick::write](gmagick.write.md) - Псевдонім Gmagick:: writeimage
+-   [Gmagick::writeimage](gmagick.writeimage.md) — Записує зображення у вказаний файл

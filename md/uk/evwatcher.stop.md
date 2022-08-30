@@ -1,12 +1,12 @@
 Зупиняє спостерігача
 
--   [« EvWatcher::start](evwatcher.start.html)
+-   [« EvWatcher::start](evwatcher.start.md)
     
--   [Expect »](book.expect.html)
+-   [Expect »](book.expect.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvWatcher](class.evwatcher.html)
+-   [EvWatcher](class.evwatcher.md)
     
 -   Зупиняє спостерігача
     
@@ -36,4 +36,4 @@ public
 
 ### Дивіться також
 
--   [EvWatcher::start()](evwatcher.start.html) - Запускає спостерігача
+-   [EvWatcher::start()](evwatcher.start.md) - Запускає спостерігача

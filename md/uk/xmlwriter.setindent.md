@@ -1,12 +1,12 @@
 Увімкнути або вимкнути відступи
 
--   [« XMLWriter::outputMemory](xmlwriter.outputmemory.html)
+-   [« XMLWriter::outputMemory](xmlwriter.outputmemory.md)
     
--   [XMLWriter::setIndentString »](xmlwriter.setindentstring.html)
+-   [XMLWriter::setIndentString »](xmlwriter.setindentstring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](class.xmlwriter.html)
+-   [XMLWriter](class.xmlwriter.md)
     
 -   Увімкнути або вимкнути відступи
     
@@ -39,7 +39,7 @@ xmlwriter_set_indent(XMLWriter $writer, bool $enable): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `enable`
 
@@ -51,9 +51,9 @@ xmlwriter_set_indent(XMLWriter $writer, bool $enable): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -93,4 +93,4 @@ echo $writer->outputMemory();
 
 ### Дивіться також
 
--   [XMLWriter::setIndentString()](xmlwriter.setindentstring.html) - Встановити рядок, який використовується для відступів
+-   [XMLWriter::setIndentString()](xmlwriter.setindentstring.md) - Встановити рядок, який використовується для відступів

@@ -1,12 +1,12 @@
 Змінні HTTP-запиту
 
--   [FILES](reserved.variables.files.html)
+-   [FILES](reserved.variables.files.md)
     
--   [SESSION »](reserved.variables.session.html)
+-   [SESSION »](reserved.variables.session.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые переменные](reserved.variables.html)
+-   [Зумовлені змінні](reserved.variables.md)
     
 -   Змінні HTTP-запиту
     
@@ -19,7 +19,7 @@ REQUEST — Змінні запити HTTP
 
 ### Опис
 
-Асоціативний масив (array), який за умовчанням містить дані змінних [GET](reserved.variables.get.html) [POST](reserved.variables.post.html) і [COOKIE](reserved.variables.cookies.html)
+Асоціативний масив (array), який за умовчанням містить дані змінних [GET](reserved.variables.get.md) [POST](reserved.variables.post.md) і [COOKIE](reserved.variables.cookies.md)
 
 ### Примітки
 
@@ -29,7 +29,7 @@ REQUEST — Змінні запити HTTP
 
 > **Зауваження**
 > 
-> При роботі в [командному рядку](features.commandline.html) змінні [argv](reserved.variables.argv.html) і [argc](reserved.variables.argc.html) *не* включаються до цього масиву - вони присутні в масиві [SERVER](reserved.variables.server.html)
+> При роботі в [командному рядку](features.commandline.md) змінні [argv](reserved.variables.argv.md) і [argc](reserved.variables.argc.md) *не* включаються до цього масиву - вони присутні в масиві [SERVER](reserved.variables.server.md)
 
 > **Зауваження**
 > 
@@ -37,5 +37,5 @@ REQUEST — Змінні запити HTTP
 
 ### Дивіться також
 
--   "[Работа с внешними данными](language.variables.external.html)"
--   "[Фільтрування даних](book.filter.html)"
+-   "[Робота із зовнішніми даними](language.variables.external.md)"
+-   "[Фільтрування даних](book.filter.md)"

@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](oauth.constants.html)
+-   [« Обумовлені константи](oauth.constants.md)
     
--   [FireEagle »](oauth.examples.fireeagle.html)
+-   [FireEagle »](oauth.examples.fireeagle.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](book.oauth.html)
+-   [OAuth](book.oauth.md)
     
 -   Приклади
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [FireEagle](oauth.examples.fireeagle.html)
+-   [FireEagle](oauth.examples.fireeagle.md)

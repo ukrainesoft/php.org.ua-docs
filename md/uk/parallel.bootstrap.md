@@ -1,12 +1,12 @@
 Початкове завантаження
 
--   [« Функциональный API](functional.parallel.html)
+-   [« Функціональний API](functional.parallel.html)
     
 -   [parallelrun »](parallel.run.html)
     
 -   [PHP Manual](index.html)
     
--   [Функциональный API](functional.parallel.html)
+-   [Функціональний API](functional.parallel.html)
     
 -   Початкове завантаження
     

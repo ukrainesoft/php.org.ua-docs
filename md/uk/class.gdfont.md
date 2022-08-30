@@ -1,12 +1,12 @@
 Клас GdFont
 
--   [« GdImage](class.gdimage.html)
+-   [« GdImage](class.gdimage.md)
     
--   [Gmagick »](book.gmagick.html)
+-   [Gmagick »](book.gmagick.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ДД](book.image.html)
+-   [ДД](book.image.md)
     
 -   Клас GdFont
     

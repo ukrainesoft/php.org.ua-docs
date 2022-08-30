@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](filter.configuration.html)
+-   [« Налаштування під час виконання](filter.configuration.md)
     
--   [Типи фільтрів »](filter.filters.html)
+-   [Типи фільтрів »](filter.filters.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](filter.setup.html)
+-   [Встановлення та налаштування](filter.setup.md)
     
 -   Типи ресурсів
     

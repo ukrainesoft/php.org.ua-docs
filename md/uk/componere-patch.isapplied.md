@@ -4,7 +4,7 @@
     
 -   [ComponerePatch::derive »](componere-patch.derive.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponerePatch](class.componere-patch.html)
     

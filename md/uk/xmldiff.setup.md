@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.xmldiff.html)
     
--   [Требования »](xmldiff.requirements.html)
+-   [Вимоги »](xmldiff.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [Требования](xmldiff.requirements.html)
+-   [Вимоги](xmldiff.requirements.html)
 -   [Установка](xmldiff.installation.html)

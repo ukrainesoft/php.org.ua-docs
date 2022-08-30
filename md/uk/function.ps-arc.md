@@ -4,9 +4,9 @@
     
 -   [псarcn »](function.ps-arcn.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Малює дугу проти годинникової стрілки
     

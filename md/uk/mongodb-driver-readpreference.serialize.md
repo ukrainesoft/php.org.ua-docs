@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverReadPreference::unserialize »](mongodb-driver-readpreference.unserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
     
@@ -38,5 +38,5 @@ final public MongoDB\Driver\ReadPreference::serialize(): string
 ### Дивіться також
 
 -   [MongoDBDriverReadPreference::unserialize()](mongodb-driver-readpreference.unserialize.html) - Десеріалізація ReadPreference
--   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

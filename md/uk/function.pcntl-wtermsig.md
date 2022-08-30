@@ -2,11 +2,11 @@
 
 -   [pcntlwstopsig](function.pcntl-wstopsig.html)
     
--   [POSIX »](book.posix.html)
+-   [POSIX »](book.posix.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.md)
     
 -   Отримати сигнал, через який було примусово завершено дочірній процес
     

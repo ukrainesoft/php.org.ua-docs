@@ -4,7 +4,7 @@
     
 -   [DocResult::fetchAll »](mysql-xdevapi-docresult.fetchall.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiDocResult](class.mysql-xdevapi-docresult.html)
     

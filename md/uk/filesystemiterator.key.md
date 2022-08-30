@@ -1,12 +1,12 @@
 Визначення ключа поточного файлу
 
--   [« FilesystemIterator::getFlags](filesystemiterator.getflags.html)
+-   [« FilesystemIterator::getFlags](filesystemiterator.getflags.md)
     
--   [FilesystemIterator::next »](filesystemiterator.next.html)
+-   [FilesystemIterator::next »](filesystemiterator.next.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FilesystemIterator](class.filesystemiterator.html)
+-   [FilesystemIterator](class.filesystemiterator.md)
     
 -   Визначення ключа поточного файлу
     
@@ -29,7 +29,7 @@ public FilesystemIterator::key(): string
 
 ### Значення, що повертаються
 
-Повертає шлях або ім'я файлу, залежно від встановлених прапорів. Дивіться [Константы FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)
+Повертає шлях або ім'я файлу, залежно від встановлених прапорів. Дивіться [Константи FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)
 
 ### Приклади
 
@@ -57,6 +57,6 @@ example.php
 ### Дивіться також
 
 -   [FilesystemIterator constants](class.filesystemiterator.html#filesystemiterator.constants)
--   [DirectoryIterator::key()](directoryiterator.key.html) - Повертає ключ поточного елемента DirectoryIterator
--   [DirectoryIterator::getFilename()](directoryiterator.getfilename.html) - Повертає ім'я файлу поточного елемента DirectoryIterator
--   [DirectoryIterator::getPathname()](directoryiterator.getpathname.html) - Повертає шлях та ім'я файлу поточного елемента DirectoryIterator
+-   [DirectoryIterator::key()](directoryiterator.key.md) - Повертає ключ поточного елемента DirectoryIterator
+-   [DirectoryIterator::getFilename()](directoryiterator.getfilename.md) - Повертає ім'я файлу поточного елемента DirectoryIterator
+-   [DirectoryIterator::getPathname()](directoryiterator.getpathname.md) - Повертає шлях та ім'я файлу поточного елемента DirectoryIterator

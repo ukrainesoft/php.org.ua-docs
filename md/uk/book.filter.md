@@ -2,33 +2,33 @@
 
 -   [« ctypexdigit](function.ctype-xdigit.html)
     
--   [Введение »](intro.filter.html)
+-   [Введение »](intro.filter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модули, относящиеся к переменным и типам](refs.basic.vartype.html)
+-   [Модулі, що відносяться до змінних та типів](refs.basic.vartype.md)
     
 -   Фільтрування даних
     
 
 # Фільтрування даних
 
--   [Введение](intro.filter.html)
--   [Установка и настройка](filter.setup.html)
-    -   [Требования](filter.requirements.html)
-    -   [Установка](filter.installation.html)
-    -   [Настройка во время выполнения](filter.configuration.html)
-    -   [Типы ресурсов](filter.resources.html)
--   [Типи фільтрів](filter.filters.html)
-    -   [Фильтры валидации данных](filter.filters.validate.html)
-    -   [Очищаючі фільтри](filter.filters.sanitize.html)
-    -   [Остальные фильтры](filter.filters.misc.html)
-    -   [Прапори, що використовуються у фільтрах](filter.filters.flags.html)
--   [Предопределённые константы](filter.constants.html)
--   [Примеры](filter.examples.html)
-    -   [Перевірка (валідація)](filter.examples.validation.html)
-    -   [Очищення (нормалізація)](filter.examples.sanitization.html)
--   [Функції фільтрації даних](ref.filter.html)
+-   [Введение](intro.filter.md)
+-   [Встановлення та налаштування](filter.setup.md)
+    -   [Вимоги](filter.requirements.md)
+    -   [Установка](filter.installation.md)
+    -   [Налаштування під час виконання](filter.configuration.md)
+    -   [Типи ресурсів](filter.resources.md)
+-   [Типи фільтрів](filter.filters.md)
+    -   [Фільтри валідації даних](filter.filters.validate.md)
+    -   [Очищаючі фільтри](filter.filters.sanitize.md)
+    -   [Інші фільтри](filter.filters.misc.md)
+    -   [Прапори, що використовуються у фільтрах](filter.filters.flags.md)
+-   [Обумовлені константи](filter.constants.md)
+-   [Приклади](filter.examples.md)
+    -   [Перевірка (валідація)](filter.examples.validation.md)
+    -   [Очищення (нормалізація)](filter.examples.sanitization.md)
+-   [Функції фільтрації даних](ref.filter.md)
     -   [filterhasvar](function.filter-has-var.html) - Перевіряє існування змінної зазначеного типу
     -   [filterід](function.filter-id.html) — Повертає ідентифікатор, який належить іменованому фільтру
     -   [filterinputarray](function.filter-input-array.html) — Отримує кілька змінних ззовні PHP і, за потреби, фільтрує їх

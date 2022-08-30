@@ -1,12 +1,12 @@
 Стискає рядок з використанням bzip2
 
--   [« bzclose](function.bzclose.html)
+-   [« bzclose](function.bzclose.md)
     
--   [bzdecompress »](function.bzdecompress.html)
+-   [bzdecompress »](function.bzdecompress.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Bzip2](ref.bzip2.html)
+-   [Функції Bzip2](ref.bzip2.md)
     
 -   Стискає рядок з використанням bzip2
     
@@ -59,4 +59,4 @@ echo $bzstr;
 
 ### Дивіться також
 
--   [bzdecompress()](function.bzdecompress.html) - Розпаковує дані, стиснуті з використанням bzip2
+-   [bzdecompress()](function.bzdecompress.md) - Розпаковує дані, стиснуті з використанням bzip2

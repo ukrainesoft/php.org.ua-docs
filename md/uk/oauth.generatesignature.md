@@ -1,12 +1,12 @@
 Згенерувати підпис
 
--   [« OAuth::fetch](oauth.fetch.html)
+-   [« OAuth::fetch](oauth.fetch.md)
     
--   [OAuth::getAccessToken »](oauth.getaccesstoken.html)
+-   [OAuth::getAccessToken »](oauth.getaccesstoken.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuth](class.oauth.html)
+-   [OAuth](class.oauth.md)
     
 -   Згенерувати підпис
     

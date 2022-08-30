@@ -1,12 +1,12 @@
 Повертає кількість параметрів у підготовленому запиті
 
--   [« SQLite3Stmt::getSQL](sqlite3stmt.getsql.html)
+-   [« SQLite3Stmt::getSQL](sqlite3stmt.getsql.md)
     
--   [SQLite3Stmt::readOnly »](sqlite3stmt.readonly.html)
+-   [SQLite3Stmt::readOnly »](sqlite3stmt.readonly.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3Stmt](class.sqlite3stmt.html)
+-   [SQLite3Stmt](class.sqlite3stmt.md)
     
 -   Повертає кількість параметрів у підготовленому запиті
     
@@ -35,4 +35,4 @@ public SQLite3Stmt::paramCount(): int
 
 ### Дивіться також
 
--   [SQLite3::prepare()](sqlite3.prepare.html) - готує SQL-запит для виконання
+-   [SQLite3::prepare()](sqlite3.prepare.md) - готує SQL-запит для виконання

@@ -4,9 +4,9 @@
     
 -   [mysqliexecute »](function.mysqli-execute.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Синоніми та застарілі функції Mysqli](ref.mysqli.html)
+-   [Синоніми та застарілі функції Mysqli](ref.mysqli.md)
     
 -   Псевдонім функції mysqlirealescapestring
     

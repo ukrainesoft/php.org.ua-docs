@@ -1,12 +1,12 @@
 Отримує останній шлях реєстратора SeasLog
 
--   [« SeasLog::getDatetimeFormat](seaslog.getdatetimeformat.html)
+-   [« SeasLog::getDatetimeFormat](seaslog.getdatetimeformat.md)
     
--   [SeasLog::getRequestID »](seaslog.getrequestid.html)
+-   [SeasLog::getRequestID »](seaslog.getrequestid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SeasLog](class.seaslog.html)
+-   [SeasLog](class.seaslog.md)
     
 -   Отримує останній шлях реєстратора SeasLog
     
@@ -31,7 +31,7 @@ public static SeasLog::getLastLogger(): string
 
 ### Значення, що повертаються
 
-Використання функції [SeasLog::setLogger()](seaslog.setlogger.html) змінить значення функції **SeasLog::getLastLogger()**
+Використання функції [SeasLog::setLogger()](seaslog.setlogger.md) змінить значення функції **SeasLog::getLastLogger()**
 
 ### Приклади
 
@@ -55,4 +55,4 @@ string(12) "theNewLogger"
 
 ### Дивіться також
 
--   [SeasLog::setLogger()](seaslog.setlogger.html) - Встановлює ім'я реєстратора SeasLog
+-   [SeasLog::setLogger()](seaslog.setlogger.md) - Встановлює ім'я реєстратора SeasLog

@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Установка](xlswriter.installation.html)
+-   [« Установка](xlswriter.installation.md)
     
--   [Предопределённые константы »](xlswriter.constants.html)
+-   [Обумовлені константи »](xlswriter.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xlswriter.setup.html)
+-   [Встановлення та налаштування](xlswriter.setup.md)
     
 -   Типи ресурсів
     

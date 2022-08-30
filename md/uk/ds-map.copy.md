@@ -4,7 +4,7 @@
     
 -   [ДсMap::count »](ds-map.count.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Коллекция пар ключ-значение](class.ds-map.html)
     

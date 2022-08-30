@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](runkit7.resources.html)
+-   [« Типи ресурсів](runkit7.resources.md)
     
--   [Функції runkit7 »](ref.runkit7.html)
+-   [Функції runkit7 »](ref.runkit7.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [runkit7](book.runkit7.html)
+-   [runkit7](book.runkit7.md)
     
 -   Обумовлені константи
     

@@ -1,12 +1,12 @@
 Встановлює глибину певного каналу зображення
 
--   [« Imagick::setImageBorderColor](imagick.setimagebordercolor.html)
+-   [« Imagick::setImageBorderColor](imagick.setimagebordercolor.md)
     
--   [Imagick::setImageClipMask »](imagick.setimageclipmask.html)
+-   [Imagick::setImageClipMask »](imagick.setimageclipmask.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює глибину певного каналу зображення
     

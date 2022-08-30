@@ -4,7 +4,7 @@
     
 -   [SwooleLock::trylockread »](swoole-lock.trylock-read.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleLock](class.swoole-lock.html)
     

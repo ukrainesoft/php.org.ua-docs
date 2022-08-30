@@ -1,12 +1,12 @@
 Форматує значення дати/часу у вигляді рядка
 
--   [« IntlDateFormatter::create](intldateformatter.create.html)
+-   [« IntlDateFormatter::create](intldateformatter.create.md)
     
--   [IntlDateFormatter::formatObject »](intldateformatter.formatobject.html)
+-   [IntlDateFormatter::formatObject »](intldateformatter.formatobject.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlDateFormatter](class.intldateformatter.html)
+-   [IntlDateFormatter](class.intldateformatter.md)
     
 -   Форматує значення дати/часу у вигляді рядка
     
@@ -43,9 +43,9 @@ datefmt_format(IntlDateFormatter $formatter, IntlCalendar|DateTimeInterface|arra
 
 `datetime`
 
-Значення форматування. Це може бути об'єкт [DateTimeInterface](class.datetimeinterface.html), об'єкт [IntlCalendar](class.intlcalendar.html), тип numeric, що представляє (можливо, дробову) кількість секунд від початку епохи Unix або масив (array) у форматі, що виводиться функцією [localtime()](function.localtime.html)
+Значення форматування. Це може бути об'єкт [DateTimeInterface](class.datetimeinterface.md), об'єкт [IntlCalendar](class.intlcalendar.md), тип numeric, що представляє (можливо, дробову) кількість секунд від початку епохи Unix або масив (array) у форматі, що виводиться функцією [localtime()](function.localtime.md)
 
-Якщо передається об'єкт [DateTime](class.datetime.html) або [IntlCalendar](class.intlcalendar.html), його часовий пояс не враховується. Об'єкт буде відформатований за допомогою часового поясу засобу форматування. Якщо хтось хоче використовувати часовий пояс об'єкта, який потрібно відформатувати, потрібно викликати функцію [IntlDateFormatter::setTimeZone()](intldateformatter.settimezone.html) з часового поясу об'єкта. Як альтернативу замість неї може використовуватися статична функція [IntlDateFormatter::formatObject()](intldateformatter.formatobject.html)
+Якщо передається об'єкт [DateTime](class.datetime.md) або [IntlCalendar](class.intlcalendar.md), його часовий пояс не враховується. Об'єкт буде відформатований за допомогою часового поясу засобу форматування. Якщо хтось хоче використовувати часовий пояс об'єкта, який потрібно відформатувати, потрібно викликати функцію [IntlDateFormatter::setTimeZone()](intldateformatter.settimezone.md) з часового поясу об'єкта. Як альтернативу замість неї може використовуватися статична функція [IntlDateFormatter::formatObject()](intldateformatter.formatobject.md)
 
 ### Значення, що повертаються
 
@@ -53,10 +53,10 @@ datefmt_format(IntlDateFormatter $formatter, IntlCalendar|DateTimeInterface|arra
 
 ### список змін
 
-| Версия     | Описание                                                                                                                                                                                  |
-|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|            | Додано підтримку надання спільних об'єктів [DateTimeInterface](class.datetimeinterface.html) для параметра `datetime`. Раніше підтримувалися лише об'єкти [DateTime](class.datetime.html) |
-| PECL 3.0.0 | Додано підтримку надання об'єктів [IntlCalendar](class.intlcalendar.html) для параметра `datetime`                                                                                        |
+| Версия | Описание |
+| --- | --- |
+|  | Додано підтримку надання спільних об'єктів [DateTimeInterface](class.datetimeinterface.md) для параметра `datetime`. Раніше підтримувалися лише об'єкти [DateTime](class.datetime.md) |
+| PECL 3.0.0 | Додано підтримку надання об'єктів [IntlCalendar](class.intlcalendar.md) для параметра `datetime` |
 
 ### Приклади
 
@@ -157,7 +157,7 @@ echo 'Второй форматированный вывод с шабло�
 Второй форматированный вывод с шаблоном: 12/31/1969
 ```
 
-**Приклад #3 Приклад використання об'єкта [IntlCalendar](class.intlcalendar.html)**
+**Приклад #3 Приклад використання об'єкта [IntlCalendar](class.intlcalendar.md)**
 
 ```php
 <?php
@@ -198,8 +198,8 @@ echo "После изменения часового пояса:\n\t",
 
 ### Дивіться також
 
--   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати
--   [datefmtparse()](intldateformatter.parse.html) - Перетворює рядок на значення позначки часу
--   [datefmtgeterrorcode()](intldateformatter.geterrorcode.html) - Отримує код помилки останньої операції
--   [datefmtgeterrormessage()](intldateformatter.geterrormessage.html) - Отримує текст помилки останньої операції
--   [datefmtformatobject()](intldateformatter.formatobject.html) - Форматує об'єкт
+-   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати
+-   [datefmtparse()](intldateformatter.parse.md) - Перетворює рядок на значення позначки часу
+-   [datefmtgeterrorcode()](intldateformatter.geterrorcode.md) - Отримує код помилки останньої операції
+-   [datefmtgeterrormessage()](intldateformatter.geterrormessage.md) - Отримує текст помилки останньої операції
+-   [datefmtformatobject()](intldateformatter.formatobject.md) - Форматує об'єкт

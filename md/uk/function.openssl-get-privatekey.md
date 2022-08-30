@@ -4,9 +4,9 @@
     
 -   [opensslgetpublickey »](function.openssl-get-publickey.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Псевдонім opensslpkeygetprivate
     

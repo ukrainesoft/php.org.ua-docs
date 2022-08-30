@@ -1,12 +1,12 @@
 Що далі?
 
--   [« Работа с формами](tutorial.forms.html)
+-   [« Работа с формами](tutorial.forms.md)
     
--   [Установка и настройка »](install.html)
+-   [Встановлення та налаштування »](install.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Простий підручник](tutorial.html)
+-   [Простий підручник](tutorial.md)
     
 -   Що далі?
     

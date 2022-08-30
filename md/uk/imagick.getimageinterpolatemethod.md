@@ -1,12 +1,12 @@
 Повертає метод інтерполяції
 
--   [« Imagick::getImageInterlaceScheme](imagick.getimageinterlacescheme.html)
+-   [« Imagick::getImageInterlaceScheme](imagick.getimageinterlacescheme.md)
     
--   [Imagick::getImageIterations »](imagick.getimageiterations.html)
+-   [Imagick::getImageIterations »](imagick.getimageiterations.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає метод інтерполяції
     

@@ -4,7 +4,7 @@
     
 -   [parallelFuture »](class.parallel-future.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [parallelRuntime](class.parallel-runtime.html)
     

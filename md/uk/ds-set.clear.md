@@ -4,7 +4,7 @@
     
 -   [ДсSet::construct »](ds-set.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Набор](class.ds-set.html)
     

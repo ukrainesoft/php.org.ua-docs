@@ -1,12 +1,12 @@
 Повертає ім'я протоколу, який використовується для поточного з'єднання SSL
 
--   [« EventBufferEvent::sslGetCipherVersion](eventbufferevent.sslgetcipherversion.html)
+-   [« EventBufferEvent::sslGetCipherVersion](eventbufferevent.sslgetcipherversion.md)
     
--   [EventBufferEvent::sslRenegotiate »](eventbufferevent.sslrenegotiate.html)
+-   [EventBufferEvent::sslRenegotiate »](eventbufferevent.sslrenegotiate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Повертає ім'я протоколу, який використовується для поточного з'єднання SSL
     

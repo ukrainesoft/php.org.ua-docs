@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.memcache.html)
+-   [« Введение](intro.memcache.md)
     
--   [Требования »](memcache.requirements.html)
+-   [Вимоги »](memcache.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcache](book.memcache.html)
+-   [Memcache](book.memcache.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](memcache.requirements.html)
--   [Установка](memcache.installation.html)
--   [Настройка во время выполнения](memcache.ini.html)
--   [Типы ресурсов](memcache.resources.html)
+-   [Вимоги](memcache.requirements.md)
+-   [Установка](memcache.installation.md)
+-   [Налаштування під час виконання](memcache.ini.md)
+-   [Типи ресурсів](memcache.resources.md)

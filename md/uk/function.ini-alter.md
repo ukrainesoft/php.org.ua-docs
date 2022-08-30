@@ -1,12 +1,12 @@
 Псевдонім iniset
 
--   [« getrusage](function.getrusage.html)
+-   [« getrusage](function.getrusage.md)
     
 -   [inigetall »](function.ini-get-all.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Псевдонім iniset
     

@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](pspell.requirements.html)
+-   [« Вимоги](pspell.requirements.md)
     
--   [Настройка во время выполнения »](pspell.configuration.html)
+-   [Налаштування під час виконання »](pspell.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](pspell.setup.html)
+-   [Встановлення та налаштування](pspell.setup.md)
     
 -   Встановлення
     

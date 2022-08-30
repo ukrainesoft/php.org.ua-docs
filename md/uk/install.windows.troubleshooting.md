@@ -1,12 +1,12 @@
 Стандартні проблеми PHP під Windows
 
--   [« Apache 2.x в Microsoft Windows](install.windows.apache2.html)
+-   [« Apache 2.x в Microsoft Windows](install.windows.apache2.md)
     
--   [Установка на платформах Cloud Computing »](install.cloud.html)
+-   [Установка на платформах Cloud Computing »](install.cloud.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка в системах Windows](install.windows.html)
+-   [Установка в системах Windows](install.windows.md)
     
 -   Стандартні проблеми PHP під Windows
     

@@ -1,12 +1,12 @@
 Повертає стиль шрифту
 
--   [« ImagickDraw::getFontStretch](imagickdraw.getfontstretch.html)
+-   [« ImagickDraw::getFontStretch](imagickdraw.getfontstretch.md)
     
--   [ImagickDraw::getFontWeight »](imagickdraw.getfontweight.html)
+-   [ImagickDraw::getFontWeight »](imagickdraw.getfontweight.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Повертає стиль шрифту
     
@@ -31,4 +31,4 @@ public ImagickDraw::getFontStyle(): int
 
 ### Значення, що повертаються
 
-Повертає константу [STYLE](imagick.constants.html#imagick.constants.styles) `imagick::STYLE_*`), пов'язану з об'єктом [ImagickDraw](class.imagickdraw.html) або 0, якщо стиль не встановлено.
+Повертає константу [STYLE](imagick.constants.html#imagick.constants.styles) `imagick::STYLE_*`), пов'язану з об'єктом [ImagickDraw](class.imagickdraw.md) або 0, якщо стиль не встановлено.

@@ -4,7 +4,7 @@
     
 -   [ParleStack »](class.parle-stack.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ParleRParser](class.parle-rparser.html)
     

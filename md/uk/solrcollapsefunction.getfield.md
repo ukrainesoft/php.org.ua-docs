@@ -1,12 +1,12 @@
 Повертає згорнуте поле
 
--   [« SolrCollapseFunction::construct](solrcollapsefunction.construct.html)
+-   [« SolrCollapseFunction::construct](solrcollapsefunction.construct.md)
     
--   [SolrCollapseFunction::getHint »](solrcollapsefunction.gethint.html)
+-   [SolrCollapseFunction::getHint »](solrcollapsefunction.gethint.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrCollapseFunction](class.solrcollapsefunction.html)
+-   [SolrCollapseFunction](class.solrcollapsefunction.md)
     
 -   Повертає згорнуте поле
     
@@ -33,4 +33,4 @@ public SolrCollapseFunction::getField(): string
 
 ### Дивіться також
 
--   [SolrCollapseFunction::setField()](solrcollapsefunction.setfield.html) - Встановлює поле для згортання
+-   [SolrCollapseFunction::setField()](solrcollapsefunction.setfield.md) - Встановлює поле для згортання

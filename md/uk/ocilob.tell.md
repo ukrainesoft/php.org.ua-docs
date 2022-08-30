@@ -1,12 +1,12 @@
 Повертає поточну позицію внутрішнього покажчика об'єкта LOB
 
--   [« OCILob::size](ocilob.size.html)
+-   [« OCILob::size](ocilob.size.md)
     
--   [OCILob::truncate »](ocilob.truncate.html)
+-   [OCILob::truncate »](ocilob.truncate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCILob](class.ocilob.html)
+-   [OCILob](class.ocilob.md)
     
 -   Повертає поточну позицію внутрішнього покажчика об'єкта LOB
     
@@ -35,12 +35,12 @@ public OCILob::tell(): int|false
 
 ### список змін
 
-| Версия                 | Описание                                                                                                |
-|------------------------|---------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
--   [OCILob::rewind](ocilob.rewind.html)
--   [OCILob::size](ocilob.size.html)
--   [OCILob::eof](ocilob.eof.html)
+-   [OCILob::rewind](ocilob.rewind.md)
+-   [OCILob::size](ocilob.size.md)
+-   [OCILob::eof](ocilob.eof.md)

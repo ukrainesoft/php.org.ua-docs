@@ -1,12 +1,12 @@
 Переказує кількість днів у юліанському літочисленні в дату за юліанським календарем
 
--   [« jdtojewish](function.jdtojewish.html)
+-   [« jdtojewish](function.jdtojewish.md)
     
--   [jdtounix »](function.jdtounix.html)
+-   [jdtounix »](function.jdtounix.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Календарь](ref.calendar.html)
+-   [Календарь](ref.calendar.md)
     
 -   Переказує кількість днів у юліанському літочисленні в дату за юліанським календарем
     
@@ -37,5 +37,5 @@ jdtojulian(int $julian_day): string
 
 ### Дивіться також
 
--   [juliantojd()](function.juliantojd.html) - Переказує дату за юліанським календарем у число днів у юліанському літочисленні
+-   [juliantojd()](function.juliantojd.md) - Переказує дату за юліанським календарем у число днів у юліанському літочисленні
 -   [calfromjd()](function.cal-from-jd.html) - Перетворює дату, задану в юліанському календарі, на дату вказаного календаря

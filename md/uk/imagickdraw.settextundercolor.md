@@ -1,12 +1,12 @@
 Задає колір прямокутника фону
 
--   [« ImagickDraw::setTextKerning](imagickdraw.settextkerning.html)
+-   [« ImagickDraw::setTextKerning](imagickdraw.settextkerning.md)
     
--   [ImagickDraw::setVectorGraphics »](imagickdraw.setvectorgraphics.html)
+-   [ImagickDraw::setVectorGraphics »](imagickdraw.setvectorgraphics.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Задає колір прямокутника фону
     

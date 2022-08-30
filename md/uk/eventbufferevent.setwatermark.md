@@ -1,12 +1,12 @@
 Регулює водяні знаки читання та/або запису
 
--   [« EventBufferEvent::setTimeouts](eventbufferevent.settimeouts.html)
+-   [« EventBufferEvent::setTimeouts](eventbufferevent.settimeouts.md)
     
--   [EventBufferEvent::sslError »](eventbufferevent.sslerror.html)
+-   [EventBufferEvent::sslError »](eventbufferevent.sslerror.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Регулює водяні знаки читання та/або запису
     

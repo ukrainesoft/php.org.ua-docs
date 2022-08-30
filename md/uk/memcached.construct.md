@@ -1,12 +1,12 @@
 Створює екземпляр класу Memcached
 
--   [« Memcached::casByKey](memcached.casbykey.html)
+-   [« Memcached::casByKey](memcached.casbykey.md)
     
--   [Memcached::decrement »](memcached.decrement.html)
+-   [Memcached::decrement »](memcached.decrement.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Створює екземпляр класу Memcached
     

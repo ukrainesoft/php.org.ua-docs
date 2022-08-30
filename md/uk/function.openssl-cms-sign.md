@@ -37,11 +37,11 @@ openssl_cms_sign(    string $input_filename,    string $output_filename,
 
 `certificate`
 
-Сертифікат підпису. Дивіться [параметры ключа/сертификата](openssl.certparams.html) для отримання списку припустимих значень.
+Сертифікат підпису. Дивіться [параметри ключа/сертифіката](openssl.certparams.html) для отримання списку припустимих значень.
 
 `private_key`
 
-Ключ, пов'язаний з `certificate`. Дивіться [параметры ключа/сертификата](openssl.certparams.html) для отримання списку припустимих значень.
+Ключ, пов'язаний з `certificate`. Дивіться [параметри ключа/сертифіката](openssl.certparams.html) для отримання списку припустимих значень.
 
 `headers`
 

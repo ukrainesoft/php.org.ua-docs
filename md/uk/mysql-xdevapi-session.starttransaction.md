@@ -4,7 +4,7 @@
     
 -   [mysqlxdevapiSqlStatement »](class.mysql-xdevapi-sqlstatement.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
     

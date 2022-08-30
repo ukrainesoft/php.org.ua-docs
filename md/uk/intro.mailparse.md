@@ -1,12 +1,12 @@
 Вступ
 
--   [« Mailparse](book.mailparse.html)
+-   [« Mailparse](book.mailparse.md)
     
--   [Установка и настройка »](mailparse.setup.html)
+-   [Встановлення та налаштування »](mailparse.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mailparse](book.mailparse.html)
+-   [Mailparse](book.mailparse.md)
     
 -   Вступ
     
@@ -19,4 +19,4 @@ Mailparse не тримає в пам'яті копії файлів, що об�
 
 > **Зауваження**
 > 
-> Для Mailparse потрібна наявність модуля [mbstring](book.mbstring.html) і він повинен бути завантажений перед mailparse.
+> Для Mailparse потрібна наявність модуля [mbstring](book.mbstring.md) і він повинен бути завантажений перед mailparse.

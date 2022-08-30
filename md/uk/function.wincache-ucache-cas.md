@@ -4,9 +4,9 @@
     
 -   [wincacheucacheclear »](function.wincache-ucache-clear.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции WinCache](ref.wincache.html)
+-   [Функции WinCache](ref.wincache.md)
     
 -   Порівнює змінну зі старим значенням і надає їй нове значення
     

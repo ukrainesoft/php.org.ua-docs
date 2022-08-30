@@ -4,9 +4,9 @@
     
 -   [sessiondecode »](function.session-decode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи із сесіями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.md)
     
 -   Створює новий ідентифікатор сесії
     

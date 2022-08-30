@@ -1,12 +1,12 @@
 Додає новий елемент на заданий сервер
 
--   [« Memcached::add](memcached.add.html)
+-   [« Memcached::add](memcached.add.md)
     
--   [Memcached::addServer »](memcached.addserver.html)
+-   [Memcached::addServer »](memcached.addserver.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Додає новий елемент на заданий сервер
     
@@ -23,7 +23,7 @@ Memcached::addByKey — Додає новий елемент на заданий
 public Memcached::addByKey(    string $server_key,    string $key,    mixed $value,    int $expiration = ?): bool
 ```
 
-**Memcached::addByKey()** працює аналогічно [Memcached::add()](memcached.add.html), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та встановлення значення з ключем `key` на конкретний сервер. Це корисно, коли необхідно тримати кілька пов'язаних значень на конкретному сервері.
+**Memcached::addByKey()** працює аналогічно [Memcached::add()](memcached.add.md), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та встановлення значення з ключем `key` на конкретний сервер. Це корисно, коли необхідно тримати кілька пов'язаних значень на конкретному сервері.
 
 ### Список параметрів
 
@@ -41,14 +41,14 @@ public Memcached::addByKey(    string $server_key,    string $key,   
 
 `expiration`
 
-Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Время хранения объекта](memcached.expiration.html)
+Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Час зберігання об'єкту](memcached.expiration.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.html) повертає \*\*`Memcached::RES_NOTSTORED`\*\*якщо переданий ключ вже існує.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає \*\*`Memcached::RES_NOTSTORED`\*\*якщо переданий ключ вже існує.
 
 ### Дивіться також
 
--   [Memcached::add()](memcached.add.html) - Додає елемент із новим ключем
--   [Memcached::set()](memcached.set.html) - Зберігає запис
--   [Memcached::replace()](memcached.replace.html) - Замінює існуючий запис із зазначеним ключем
+-   [Memcached::add()](memcached.add.md) - Додає елемент із новим ключем
+-   [Memcached::set()](memcached.set.md) - Зберігає запис
+-   [Memcached::replace()](memcached.replace.md) - Замінює існуючий запис із зазначеним ключем

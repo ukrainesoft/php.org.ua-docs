@@ -1,12 +1,12 @@
 Вступ
 
--   [« Trader](book.trader.html)
+-   [« Trader](book.trader.md)
     
--   [Установка и настройка »](trader.setup.html)
+-   [Встановлення та налаштування »](trader.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Trader](book.trader.html)
+-   [Trader](book.trader.md)
     
 -   Вступ
     

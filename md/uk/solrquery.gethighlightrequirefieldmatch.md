@@ -1,12 +1,12 @@
 Повертає, якщо поле буде виділено лише у тому випадку, якщо запит відповідає цьому конкретному полю
 
--   [« SolrQuery::getHighlightRegexSlop](solrquery.gethighlightregexslop.html)
+-   [« SolrQuery::getHighlightRegexSlop](solrquery.gethighlightregexslop.md)
     
--   [SolrQuery::getHighlightSimplePost »](solrquery.gethighlightsimplepost.html)
+-   [SolrQuery::getHighlightSimplePost »](solrquery.gethighlightsimplepost.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає, якщо поле буде виділено лише у тому випадку, якщо запит відповідає цьому конкретному полю
     

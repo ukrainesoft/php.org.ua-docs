@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Примеры](outcontrol.examples.html)
+-   [Приклади](outcontrol.examples.html)
     
 -   Використання перезапису виводу
     

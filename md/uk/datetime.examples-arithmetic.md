@@ -1,12 +1,12 @@
 Арифметика дати/часу
 
--   [« Примеры](datetime.examples.html)
+-   [« Приклади](datetime.examples.html)
     
 -   [DateTime »](class.datetime.html)
     
 -   [PHP Manual](index.html)
     
--   [Примеры](datetime.examples.html)
+-   [Приклади](datetime.examples.html)
     
 -   Арифметика дати/часу
     

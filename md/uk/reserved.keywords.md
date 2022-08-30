@@ -2,7 +2,7 @@
 
 -   [« Список зарезервованих слів](reserved.html)
     
--   [Предопределённые классы »](reserved.classes.html)
+-   [Обумовлені класи »](reserved.classes.html)
     
 -   [PHP Manual](index.html)
     

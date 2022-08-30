@@ -1,12 +1,12 @@
 Вступ
 
--   [« JSON](book.json.html)
+-   [« JSON](book.json.md)
     
--   [Установка и настройка »](json.setup.html)
+-   [Встановлення та налаштування »](json.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [JSON](book.json.html)
+-   [JSON](book.json.md)
     
 -   Вступ
     

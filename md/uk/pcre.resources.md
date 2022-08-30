@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](pcre.configuration.html)
+-   [« Налаштування під час виконання](pcre.configuration.md)
     
--   [Предопределённые константы »](pcre.constants.html)
+-   [Обумовлені константи »](pcre.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](pcre.setup.html)
+-   [Встановлення та налаштування](pcre.setup.md)
     
 -   Типи ресурсів
     

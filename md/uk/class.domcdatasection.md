@@ -1,12 +1,12 @@
 Клас DOMCdataSection
 
--   [« DOMAttr::isId](domattr.isid.html)
+-   [« DOMAttr::isId](domattr.isid.md)
     
--   [DOMCdataSection::construct »](domcdatasection.construct.html)
+-   [DOMCdataSection::construct »](domcdatasection.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOM](book.dom.html)
+-   [DOM](book.dom.md)
     
 -   Клас DOMCdataSection
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Клас **DOMCdataSection** успадковується від [DOMText](class.domtext.html) для текстового представлення конструкцій CData
+Клас **DOMCdataSection** успадковується від [DOMText](class.domtext.md) для текстового представлення конструкцій CData
 
 ## Огляд класів
 
@@ -162,4 +162,4 @@ public DOMNode::replaceChild(DOMNode $node, DOMNode $child): DOMNode|false
 
 ## Зміст
 
--   [DOMCdataSection::construct](domcdatasection.construct.html) — Створює новий екземпляр класу DOMCdataSection
+-   [DOMCdataSection::construct](domcdatasection.construct.md) — Створює новий екземпляр класу DOMCdataSection

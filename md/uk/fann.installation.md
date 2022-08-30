@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](fann.requirements.html)
+-   [« Вимоги](fann.requirements.html)
     
--   [Настройка во время выполнения »](fann.configuration.html)
+-   [Налаштування під час виконання »](fann.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](fann.setup.html)
+-   [Встановлення та налаштування](fann.setup.html)
     
 -   Встановлення
     

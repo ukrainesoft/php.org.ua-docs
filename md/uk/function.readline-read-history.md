@@ -4,9 +4,9 @@
     
 -   [readlineredisplay »](function.readline-redisplay.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Readline](ref.readline.html)
+-   [Функции Readline](ref.readline.md)
     
 -   Прочитати історію команд із файлу
     
@@ -37,6 +37,6 @@ readline_read_history(?string $filename = null): bool
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | `filename` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `filename` тепер допускає значення null. |

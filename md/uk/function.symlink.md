@@ -1,12 +1,12 @@
 Створює символічне посилання
 
--   [« stat](function.stat.html)
+-   [« stat](function.stat.md)
     
--   [tempnam »](function.tempnam.html)
+-   [tempnam »](function.tempnam.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Створює символічне посилання
     
@@ -59,7 +59,7 @@ echo readlink($link);
 
 ### Дивіться також
 
--   [link()](function.link.html) - Створює жорстке посилання
--   [readlink()](function.readlink.html) - Повертає файл, на який вказує символічне посилання
--   [linkinfo()](function.linkinfo.html) - Повертає інформацію про посилання
--   [unlink()](function.unlink.html) - Видаляє файл
+-   [link()](function.link.md) - Створює жорстке посилання
+-   [readlink()](function.readlink.md) - Повертає файл, на який вказує символічне посилання
+-   [linkinfo()](function.linkinfo.md) - Повертає інформацію про посилання
+-   [unlink()](function.unlink.md) - Видаляє файл

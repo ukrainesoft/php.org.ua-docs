@@ -1,12 +1,12 @@
 is2LeggedEndpoint
 
--   [« OAuthProvider::generateToken](oauthprovider.generatetoken.html)
+-   [« OAuthProvider::generateToken](oauthprovider.generatetoken.md)
     
--   [OAuthProvider::isRequestTokenEndpoint »](oauthprovider.isrequesttokenendpoint.html)
+-   [OAuthProvider::isRequestTokenEndpoint »](oauthprovider.isrequesttokenendpoint.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuthProvider](class.oauthprovider.html)
+-   [OAuthProvider](class.oauthprovider.md)
     
 -   is2LeggedEndpoint
     
@@ -35,7 +35,7 @@ public OAuthProvider::is2LeggedEndpoint(mixed $params_array): void
 
 ### Значення, що повертаються
 
-Об'єкт [OAuthProvider](class.oauthprovider.html)
+Об'єкт [OAuthProvider](class.oauthprovider.md)
 
 ### Приклади
 
@@ -53,4 +53,4 @@ $provider->is2LeggedEndpoint(true);
 
 ### Дивіться також
 
--   [OAuthProvider::construct()](oauthprovider.construct.html) - Конструктор класу OAuthProvider
+-   [OAuthProvider::construct()](oauthprovider.construct.md) - Конструктор класу OAuthProvider

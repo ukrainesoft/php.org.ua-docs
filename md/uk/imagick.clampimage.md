@@ -1,12 +1,12 @@
 Опис
 
--   [« Imagick::chopImage](imagick.chopimage.html)
+-   [« Imagick::chopImage](imagick.chopimage.md)
     
--   [Imagick::clear »](imagick.clear.html)
+-   [Imagick::clear »](imagick.clear.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Опис
     

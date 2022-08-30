@@ -1,12 +1,12 @@
 Записує кадри у файловий дескриптор
 
--   [« Imagick::writeImages](imagick.writeimages.html)
+-   [« Imagick::writeImages](imagick.writeimages.md)
     
--   [ImagickDraw »](class.imagickdraw.html)
+-   [ImagickDraw »](class.imagickdraw.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Записує кадри у файловий дескриптор
     
@@ -33,7 +33,7 @@ public Imagick::writeImagesFile(resource $filehandle, string $format = ?): bool
 
 `format`
 
-Формат зображення. Список допустимих специфікаторів формату залежить від скомпілюваного набору функцій програми ImageMagick і може бути запитаний під час виконання за допомогою методу [Imagick::queryFormats()](imagick.queryformats.html)
+Формат зображення. Список допустимих специфікаторів формату залежить від скомпілюваного набору функцій програми ImageMagick і може бути запитаний під час виконання за допомогою методу [Imagick::queryFormats()](imagick.queryformats.md)
 
 ### Значення, що повертаються
 
@@ -41,4 +41,4 @@ public Imagick::writeImagesFile(resource $filehandle, string $format = ?): bool
 
 ### Дивіться також
 
--   [Imagick::queryFormats()](imagick.queryformats.html) - Повертає формати, що підтримуються Imagick
+-   [Imagick::queryFormats()](imagick.queryformats.md) - Повертає формати, що підтримуються Imagick

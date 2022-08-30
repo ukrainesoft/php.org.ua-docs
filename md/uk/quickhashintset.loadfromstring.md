@@ -1,12 +1,12 @@
 Фабричний метод створює набір з рядка
 
--   [« QuickHashIntSet::loadFromFile](quickhashintset.loadfromfile.html)
+-   [« QuickHashIntSet::loadFromFile](quickhashintset.loadfromfile.md)
     
--   [QuickHashIntSet::saveToFile »](quickhashintset.savetofile.html)
+-   [QuickHashIntSet::saveToFile »](quickhashintset.savetofile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [QuickHashIntSet](class.quickhashintset.html)
+-   [QuickHashIntSet](class.quickhashintset.md)
     
 -   Фабричний метод створює набір з рядка
     
@@ -41,7 +41,7 @@ public static QuickHashIntSet::loadFromString(string $contents, int $size = ?, i
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [QuickHashIntSet](class.quickhashintset.html)
+Повертає новий об'єкт [QuickHashIntSet](class.quickhashintset.md)
 
 ### Приклади
 

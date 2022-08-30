@@ -4,9 +4,9 @@
     
 -   [pcntlsigtimedwait »](function.pcntl-sigtimedwait.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.md)
     
 -   Задає та витягує список сигналів, що блокуються.
     

@@ -1,12 +1,12 @@
 Тихоокеанський
 
--   [« Індійська](timezones.indian.html)
+-   [« Індійська](timezones.indian.md)
     
--   [Інші »](timezones.others.html)
+-   [Інші »](timezones.others.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Список підтримуваних часових поясів](timezones.html)
+-   [Список підтримуваних часових поясів](timezones.md)
     
 -   Тихоокеанський
     

@@ -4,7 +4,7 @@
     
 -   [YafRouter::construct »](yaf-router.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRouter](class.yaf-router.html)
     

@@ -1,12 +1,12 @@
 Стиснення LZF
 
--   [« Функції LZF](ref.lzf.html)
+-   [« Функції LZF](ref.lzf.md)
     
 -   [lzfdecompress »](function.lzf-decompress.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції LZF](ref.lzf.html)
+-   [Функції LZF](ref.lzf.md)
     
 -   Стиснення LZF
     

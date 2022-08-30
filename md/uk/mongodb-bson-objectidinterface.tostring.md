@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONRegexInterface »](class.mongodb-bson-regexinterface.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONObjectIdInterface](class.mongodb-bson-objectidinterface.html)
     

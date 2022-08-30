@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](session.configuration.html)
+-   [« Налаштування під час виконання](session.configuration.html)
     
--   [Предопределённые константы »](session.constants.html)
+-   [Обумовлені константи »](session.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](session.setup.html)
+-   [Встановлення та налаштування](session.setup.html)
     
 -   Типи ресурсів
     

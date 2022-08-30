@@ -1,12 +1,12 @@
 Встановлює, чи інтерпретація дати/часу повинна бути м'якою.
 
--   [« IntlCalendar::setFirstDayOfWeek](intlcalendar.setfirstdayofweek.html)
+-   [« IntlCalendar::setFirstDayOfWeek](intlcalendar.setfirstdayofweek.md)
     
--   [IntlCalendar::setMinimalDaysInFirstWeek »](intlcalendar.setminimaldaysinfirstweek.html)
+-   [IntlCalendar::setMinimalDaysInFirstWeek »](intlcalendar.setminimaldaysinfirstweek.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Встановлює, чи інтерпретація дати/часу повинна бути м'якою.
     
@@ -31,13 +31,13 @@ public IntlCalendar::setLenient(bool $lenient): bool
 intlcal_set_lenient(IntlCalendar $calendar, bool $lenient): bool
 ```
 
-Визначає, чи календар "м'яким" режимом. У такому режимі приймаються деякі з значень, що виходять за кордон для деяких полів, поведінка аналогічна поведінці [IntlCalendar::add()](intlcalendar.add.html) (тобто значення переноситься щоразу на більш важливі поля). Якщо м'який режим вимкнено, такі значення викликатимуть помилку.
+Визначає, чи календар "м'яким" режимом. У такому режимі приймаються деякі з значень, що виходять за кордон для деяких полів, поведінка аналогічна поведінці [IntlCalendar::add()](intlcalendar.add.md) (тобто значення переноситься щоразу на більш важливі поля). Якщо м'який режим вимкнено, такі значення викликатимуть помилку.
 
 ### Список параметрів
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `lenient`
 
@@ -49,4 +49,4 @@ intlcal_set_lenient(IntlCalendar $calendar, bool $lenient): bool
 
 ### Приклади
 
-Дивіться приклад в описі методу [IntlCalendar::isLenient()](intlcalendar.islenient.html)
+Дивіться приклад в описі методу [IntlCalendar::isLenient()](intlcalendar.islenient.md)

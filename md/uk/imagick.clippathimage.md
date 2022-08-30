@@ -1,12 +1,12 @@
 Відсікти уздовж зазначеного контуру з профілем 8BIM
 
--   [« Imagick::clipImagePath](imagick.clipimagepath.html)
+-   [« Imagick::clipImagePath](imagick.clipimagepath.md)
     
--   [Imagick::clone »](imagick.clone.html)
+-   [Imagick::clone »](imagick.clone.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Відсікти уздовж зазначеного контуру з профілем 8BIM
     

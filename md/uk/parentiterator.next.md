@@ -1,12 +1,12 @@
 Переміщує покажчик на одну позицію вперед
 
--   [« ParentIterator::hasChildren](parentiterator.haschildren.html)
+-   [« ParentIterator::hasChildren](parentiterator.haschildren.md)
     
--   [ParentIterator::rewind »](parentiterator.rewind.html)
+-   [ParentIterator::rewind »](parentiterator.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ParentIterator](class.parentiterator.html)
+-   [ParentIterator](class.parentiterator.md)
     
 -   Переміщує покажчик на одну позицію вперед
     

@@ -1,12 +1,12 @@
 Повертає масив дочірніх документів (SolrInputDocument)
 
--   [« SolrInputDocument::getBoost](solrinputdocument.getboost.html)
+-   [« SolrInputDocument::getBoost](solrinputdocument.getboost.md)
     
--   [SolrInputDocument::getChildDocumentsCount »](solrinputdocument.getchilddocumentscount.html)
+-   [SolrInputDocument::getChildDocumentsCount »](solrinputdocument.getchilddocumentscount.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrInputDocument](class.solrinputdocument.html)
+-   [SolrInputDocument](class.solrinputdocument.md)
     
 -   Повертає масив дочірніх документів (SolrInputDocument)
     
@@ -33,7 +33,7 @@ public SolrInputDocument::getChildDocuments(): array
 
 ### Дивіться також
 
--   [SolrInputDocument::addChildDocument()](solrinputdocument.addchilddocument.html) - Додає дочірній документ для блокової індексації
--   [SolrInputDocument::addChildDocuments()](solrinputdocument.addchilddocuments.html) - Додає масив дочірніх документів
--   [SolrInputDocument::hasChildDocuments()](solrinputdocument.haschilddocuments.html) - Повертає true, якщо документ має дочірні документи
--   [SolrInputDocument::getChildDocumentsCount()](solrinputdocument.getchilddocumentscount.html) - Повертає кількість дочірніх документів
+-   [SolrInputDocument::addChildDocument()](solrinputdocument.addchilddocument.md) - Додає дочірній документ для блокової індексації
+-   [SolrInputDocument::addChildDocuments()](solrinputdocument.addchilddocuments.md) - Додає масив дочірніх документів
+-   [SolrInputDocument::hasChildDocuments()](solrinputdocument.haschilddocuments.md) - Повертає true, якщо документ має дочірні документи
+-   [SolrInputDocument::getChildDocumentsCount()](solrinputdocument.getchilddocumentscount.md) - Повертає кількість дочірніх документів

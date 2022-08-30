@@ -1,12 +1,12 @@
 Видаляє один із параметрів stats.facet
 
--   [« SolrQuery::removeSortField](solrquery.removesortfield.html)
+-   [« SolrQuery::removeSortField](solrquery.removesortfield.md)
     
--   [SolrQuery::removeStatsField »](solrquery.removestatsfield.html)
+-   [SolrQuery::removeStatsField »](solrquery.removestatsfield.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Видаляє один із параметрів stats.facet
     

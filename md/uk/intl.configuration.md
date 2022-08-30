@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](intl.installation.html)
+-   [« Установка](intl.installation.md)
     
--   [Типы ресурсов »](intl.resources.html)
+-   [Типи ресурсів »](intl.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](intl.setup.html)
+-   [Встановлення та налаштування](intl.setup.md)
     
 -   Налаштування під час виконання
     
@@ -17,11 +17,11 @@
 
 **Опції налаштування Intl**
 
-| Имя                                                                   | По умолчанию | Место изменения | Список изменений        |
-|-----------------------------------------------------------------------|--------------|-----------------|-------------------------|
-| [intl.defaultlocale](intl.configuration.html#ini.intl.default-locale) |              | PHPINIALL       |                         |
-| [intl.errorlevel](intl.configuration.html#ini.intl.error-level)       |              | PHPINIALL       |                         |
-| [intl.useexceptions](intl.configuration.html#ini.intl.use-exceptions) |              | PHPINIALL       | Доступно з PECL 3.0.0a1 |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [intl.defaultlocale](intl.configuration.html#ini.intl.default-locale) |  | PHPINIALL |  |
+| [intl.errorlevel](intl.configuration.html#ini.intl.error-level) |  | PHPINIALL |  |
+| [intl.useexceptions](intl.configuration.html#ini.intl.use-exceptions) |  | PHPINIALL | Доступно з PECL 3.0.0a1 |
 
 Коротке пояснення конфігураційних директив.
 
@@ -39,6 +39,6 @@
 
 `intl.use_exceptions` int
 
-Якщо встановлено як **`true`**, то замість помилок викидатимуться винятки класу [IntlException](class.intlexception.html). Можна використовувати на додаток до [intl.errorlevel](intl.configuration.html#ini.intl.error-level)
+Якщо встановлено як **`true`**, то замість помилок викидатимуться винятки класу [IntlException](class.intlexception.md). Можна використовувати на додаток до [intl.errorlevel](intl.configuration.html#ini.intl.error-level)
 
 за умовчанням одно **`false`**

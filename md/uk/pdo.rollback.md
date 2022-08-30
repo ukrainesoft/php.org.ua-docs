@@ -1,12 +1,12 @@
 Відкат транзакції
 
--   [« PDO::quote](pdo.quote.html)
+-   [« PDO::quote](pdo.quote.md)
     
--   [PDO::setAttribute »](pdo.setattribute.html)
+-   [PDO::setAttribute »](pdo.setattribute.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDO](class.pdo.html)
+-   [PDO](class.pdo.md)
     
 -   Відкат транзакції
     
@@ -23,7 +23,7 @@ PDO::rollBack - Відкат транзакції
 public PDO::rollBack(): bool
 ```
 
-Відкочує зміни в базі даних, зроблені в рамках поточної транзакції, яка була створена методом [PDO::beginTransaction()](pdo.begintransaction.html)
+Відкочує зміни в базі даних, зроблені в рамках поточної транзакції, яка була створена методом [PDO::beginTransaction()](pdo.begintransaction.md)
 
 Якщо в СУБД включено режим автофіксації змін, ця функція відновить режим після відкату.
 
@@ -39,7 +39,7 @@ public PDO::rollBack(): bool
 
 ### Помилки
 
-Якщо активної транзакції немає, буде викинуто виняток [PDOException](class.pdoexception.html)
+Якщо активної транзакції немає, буде викинуто виняток [PDOException](class.pdoexception.md)
 
 > **Зауваження**: Виняток буде викликано, навіть якщо атрибут **`PDO::ATTR_ERRMODE`** не виставлений у **`PDO::ERRMODE_EXCEPTION`**
 
@@ -68,6 +68,6 @@ $dbh->rollBack();
 
 ### Дивіться також
 
--   [PDO::beginTransaction()](pdo.begintransaction.html) - Ініціалізація транзакції
--   [PDO::commit()](pdo.commit.html) - Фіксує транзакцію
--   [Транзакции и автофиксация изменений](pdo.transactions.html)
+-   [PDO::beginTransaction()](pdo.begintransaction.md) - Ініціалізація транзакції
+-   [PDO::commit()](pdo.commit.md) - Фіксує транзакцію
+-   [Транзакции и автофиксация изменений](pdo.transactions.md)

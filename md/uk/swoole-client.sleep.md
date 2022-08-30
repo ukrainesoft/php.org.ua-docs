@@ -4,7 +4,7 @@
     
 -   [SwooleClient::wakeup »](swoole-client.wakeup.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleClient](class.swoole-client.html)
     

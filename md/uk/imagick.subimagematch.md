@@ -1,12 +1,12 @@
 Опис
 
--   [« Imagick::stripImage](imagick.stripimage.html)
+-   [« Imagick::stripImage](imagick.stripimage.md)
     
--   [Imagick::swirlImage »](imagick.swirlimage.html)
+-   [Imagick::swirlImage »](imagick.swirlimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Опис
     

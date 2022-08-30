@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](exec.configuration.html)
+-   [« Налаштування під час виконання](exec.configuration.md)
     
--   [Предопределённые константы »](exec.constants.html)
+-   [Обумовлені константи »](exec.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](exec.setup.html)
+-   [Встановлення та налаштування](exec.setup.md)
     
 -   Типи ресурсів
     

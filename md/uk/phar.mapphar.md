@@ -1,12 +1,12 @@
 Прочитати поточний запущений phar-архів та зареєструвати його маніфест
 
--   [« Phar::loadPhar](phar.loadphar.html)
+-   [« Phar::loadPhar](phar.loadphar.md)
     
--   [Phar::mount »](phar.mount.html)
+-   [Phar::mount »](phar.mount.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Phar](class.phar.html)
+-   [Phar](class.phar.md)
     
 -   Прочитати поточний запущений phar-архів та зареєструвати його маніфест
     
@@ -41,7 +41,7 @@ final public static Phar::mapPhar(?string $alias = null, int $offset = 0): bool
 
 ### Помилки
 
-Викидається виняток [PharException](class.pharexception.html), якщо викликається зі скрипту, в якому не виявлено токена HALTCOMPILER(); або якщо файл недоступний для читання.
+Викидається виняток [PharException](class.pharexception.md), якщо викликається зі скрипту, в якому не виявлено токена HALTCOMPILER(); або якщо файл недоступний для читання.
 
 ### Приклади
 
@@ -69,4 +69,4 @@ __HALT_COMPILER();
 
 ### Дивіться також
 
--   [Phar::loadPhar()](phar.loadphar.html) - Завантажити phar-архів із псевдонімом
+-   [Phar::loadPhar()](phar.loadphar.md) - Завантажити phar-архів із псевдонімом

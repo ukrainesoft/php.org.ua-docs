@@ -1,12 +1,12 @@
 Повертає значення group.truncate
 
--   [« SolrQuery::getGroupSortFields](solrquery.getgroupsortfields.html)
+-   [« SolrQuery::getGroupSortFields](solrquery.getgroupsortfields.md)
     
--   [SolrQuery::getHighlight »](solrquery.gethighlight.html)
+-   [SolrQuery::getHighlight »](solrquery.gethighlight.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає значення group.truncate
     
@@ -33,4 +33,4 @@ public SolrQuery::getGroupTruncate(): bool
 
 ### Дивіться також
 
--   [SolrQuery::setGroupTruncate()](solrquery.setgrouptruncate.html) - Якщо true, підрахунок фасетів ґрунтується на найбільш релевантному документі кожної групи, що відповідає запиту
+-   [SolrQuery::setGroupTruncate()](solrquery.setgrouptruncate.md) - Якщо true, підрахунок фасетів ґрунтується на найбільш релевантному документі кожної групи, що відповідає запиту

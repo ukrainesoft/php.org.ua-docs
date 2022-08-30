@@ -4,9 +4,9 @@
     
 -   [snmpsetoidnumericprint »](function.snmp-set-oid-numeric-print.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.md)
     
 -   Повертає всі значення, які є перерахуваннями, із їх значенням перерахування замість необробленого цілого числа
     

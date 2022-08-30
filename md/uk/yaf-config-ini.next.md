@@ -4,7 +4,7 @@
     
 -   [YafConfigIni::offsetExists »](yaf-config-ini.offsetexists.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafConfigIni](class.yaf-config-ini.html)
     

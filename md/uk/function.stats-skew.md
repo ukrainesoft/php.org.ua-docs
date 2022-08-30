@@ -4,9 +4,9 @@
     
 -   [statsstandarddeviation »](function.stats-standard-deviation.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Обчислює асиметрію даних у масиві
     

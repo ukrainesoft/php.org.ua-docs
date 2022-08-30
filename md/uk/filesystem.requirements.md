@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](filesystem.setup.html)
+-   [« Встановлення та налаштування](filesystem.setup.html)
     
 -   [Установка »](filesystem.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](filesystem.setup.html)
+-   [Встановлення та налаштування](filesystem.setup.html)
     
 -   Вимоги
     

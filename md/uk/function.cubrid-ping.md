@@ -4,9 +4,9 @@
     
 -   [cubridquery »](function.cubrid-query.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
     
 -   Перевіряє, чи живе з'єднання до сервера і перепідключає його, якщо ні
     

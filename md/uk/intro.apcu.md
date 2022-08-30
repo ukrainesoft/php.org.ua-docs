@@ -1,12 +1,12 @@
 Вступ
 
--   [« APCu](book.apcu.html)
+-   [« APCu](book.apcu.md)
     
--   [Установка и настройка »](apcu.setup.html)
+-   [Встановлення та налаштування »](apcu.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [APCu](book.apcu.html)
+-   [APCu](book.apcu.md)
     
 -   Вступ
     

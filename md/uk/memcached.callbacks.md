@@ -1,12 +1,12 @@
 Опції зворотного дзвінка
 
--   [« Время хранения объекта](memcached.expiration.html)
+-   [« Час зберігання об'єкту](memcached.expiration.md)
     
--   [Функции обратного вызова для результирующего набора »](memcached.callbacks.result.html)
+-   [Функції зворотного дзвінка для результуючого набору »](memcached.callbacks.result.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](book.memcached.html)
+-   [Memcached](book.memcached.md)
     
 -   Опції зворотного дзвінка
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [Функции обратного вызова для результирующего набора](memcached.callbacks.result.html)
+-   [Функції зворотного дзвінка для результуючого набору](memcached.callbacks.result.md)
 -   [Функції зворотного виклику наскрізного читання кеша](memcached.callbacks.read-through.html)

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](stream.setup.html)
+-   [Встановлення та налаштування](stream.setup.html)
     
 -   Налаштування під час виконання
     

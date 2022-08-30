@@ -47,11 +47,11 @@ public
 
 `level`
 
-Одна з констант `EventUtil::SOL_*`. Визначає рівень протоколу, до якого належить параметр. Наприклад, для роботи з рівнем сокету, параметр `level` має бути виставлений як **`EventUtil::SOL_SOCKET`**. Інші рівні, такі як TCP, можна використовувати, вказавши відповідну константу. Рівні протоколу можна переглянути за допомогою функції [getprotobyname()](function.getprotobyname.html). Дивіться [константы EventUtil](class.eventutil.html#eventutil.constants)
+Одна з констант `EventUtil::SOL_*`. Визначає рівень протоколу, до якого належить параметр. Наприклад, для роботи з рівнем сокету, параметр `level` має бути виставлений як **`EventUtil::SOL_SOCKET`**. Інші рівні, такі як TCP, можна використовувати, вказавши відповідну константу. Рівні протоколу можна переглянути за допомогою функції [getprotobyname()](function.getprotobyname.html). Дивіться [константи EventUtil](class.eventutil.html#eventutil.constants)
 
 `optname`
 
-Ім'я опції (тип). Те саме, що й відповідний параметр функції [socketgetoption()](function.socket-get-option.html). Дивіться [константы EventUtil](class.eventutil.html#eventutil.constants)
+Ім'я опції (тип). Те саме, що й відповідний параметр функції [socketgetoption()](function.socket-get-option.html). Дивіться [константи EventUtil](class.eventutil.html#eventutil.constants)
 
 `optval`
 

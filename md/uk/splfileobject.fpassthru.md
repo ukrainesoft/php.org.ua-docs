@@ -1,12 +1,12 @@
 Виводить весь вміст файлу, що залишився, у вихідний потік
 
--   [« SplFileObject::flock](splfileobject.flock.html)
+-   [« SplFileObject::flock](splfileobject.flock.md)
     
--   [SplFileObject::fputcsv »](splfileobject.fputcsv.html)
+-   [SplFileObject::fputcsv »](splfileobject.fputcsv.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileObject](class.splfileobject.html)
+-   [SplFileObject](class.splfileobject.md)
     
 -   Виводить весь вміст файлу, що залишився, у вихідний потік
     
@@ -25,7 +25,7 @@ public SplFileObject::fpassthru(): int
 
 Читає дані з файлу з поточної позиції до кінця файлу та поміщає їх у буфер вихідного потоку.
 
-Якщо ви вже записали якісь дані у файл і вам необхідно повернутися на початкову позицію, файловий покажчик можна скинути методом [SplFileObject::rewind()](splfileobject.rewind.html)
+Якщо ви вже записали якісь дані у файл і вам необхідно повернутися на початкову позицію, файловий покажчик можна скинути методом [SplFileObject::rewind()](splfileobject.rewind.md)
 
 ### Список параметрів
 
@@ -58,4 +58,4 @@ exit;
 
 ### Дивіться також
 
--   [fpassthru()](function.fpassthru.html) - Виводить всі дані з файлового покажчика, що залишилися.
+-   [fpassthru()](function.fpassthru.md) - Виводить всі дані з файлового покажчика, що залишилися.

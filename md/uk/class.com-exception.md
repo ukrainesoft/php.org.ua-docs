@@ -1,12 +1,12 @@
 Клас comexception
 
--   [« COMPersistHelper::SaveToStream](compersisthelper.savetostream.html)
+-   [« COMPersistHelper::SaveToStream](compersisthelper.savetostream.md)
     
--   [Функции COM »](ref.com.html)
+-   [Функции COM »](ref.com.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [COM](book.com.html)
+-   [COM](book.com.md)
     
 -   Клас comexception
     

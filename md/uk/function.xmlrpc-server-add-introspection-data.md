@@ -4,9 +4,9 @@
     
 -   [xmlrpcservercallmethod »](function.xmlrpc-server-call-method.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції XML-RPC](ref.xmlrpc.html)
+-   [Функції XML-RPC](ref.xmlrpc.md)
     
 -   Додає документацію самоаналізу
     

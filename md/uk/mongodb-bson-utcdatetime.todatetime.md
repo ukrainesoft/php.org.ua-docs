@@ -66,4 +66,4 @@ object(DateTimeZone)#3 (2) {
 
 ### Дивіться також
 
--   [» Типы BSON: Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)
+-   [» Типи BSON: Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)

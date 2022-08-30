@@ -1,12 +1,12 @@
 Переконфігурація події таймера
 
--   [« Event::setPriority](event.setpriority.html)
+-   [« Event::setPriority](event.setpriority.md)
     
--   [Event::signal »](event.signal.html)
+-   [Event::signal »](event.signal.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](class.event.html)
+-   [Event](class.event.md)
     
 -   Переконфігурація події таймера
     
@@ -43,7 +43,7 @@ public
 
 `cb`
 
-Функція зворотного дзвінка події таймера. Дивіться [Функції зворотного дзвінка для подій](event.callbacks.html)
+Функція зворотного дзвінка події таймера. Дивіться [Функції зворотного дзвінка для подій](event.callbacks.md)
 
 `arg`
 
@@ -55,5 +55,5 @@ public
 
 ### Дивіться також
 
--   [Event::construct()](event.construct.html) - Конструктор об'єкту Event
--   [Event::timer()](event.timer.html) - Створити об'єкт події таймера
+-   [Event::construct()](event.construct.md) - Конструктор об'єкту Event
+-   [Event::timer()](event.timer.md) - Створити об'єкт події таймера

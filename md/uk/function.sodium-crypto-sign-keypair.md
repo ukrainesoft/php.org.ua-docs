@@ -4,9 +4,9 @@
     
 -   [sodiumcryptosignopen »](function.sodium-crypto-sign-open.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Довільно згенерувати секретний ключ та відповідний відкритий ключ
     

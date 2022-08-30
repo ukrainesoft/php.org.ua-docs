@@ -1,12 +1,12 @@
 Повертає, чи є клас перерахуванням
 
--   [« ReflectionClass::isCloneable](reflectionclass.iscloneable.html)
+-   [« ReflectionClass::isCloneable](reflectionclass.iscloneable.md)
     
--   [ReflectionClass::isFinal »](reflectionclass.isfinal.html)
+-   [ReflectionClass::isFinal »](reflectionclass.isfinal.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає, чи є клас перерахуванням
     
@@ -23,7 +23,7 @@ ReflectionClass::isEnum — Повертає, чи є клас перераху�
 public ReflectionClass::isEnum(): bool
 ```
 
-Перевіряє, чи є клас [перечислением](language.enumerations.html)
+Перевіряє, чи є клас [перечислением](language.enumerations.md)
 
 ### Список параметрів
 
@@ -31,4 +31,4 @@ public ReflectionClass::isEnum(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо клас є [перечислением](language.enumerations.html), в іншому випадку повертає **`false`**
+Повертає **`true`**, якщо клас є [перечислением](language.enumerations.md), в іншому випадку повертає **`false`**

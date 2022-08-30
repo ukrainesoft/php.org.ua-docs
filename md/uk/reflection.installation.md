@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](reflection.requirements.html)
+-   [« Вимоги](reflection.requirements.md)
     
--   [Настройка во время выполнения »](reflection.configuration.html)
+-   [Налаштування під час виконання »](reflection.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](reflection.setup.html)
+-   [Встановлення та налаштування](reflection.setup.md)
     
 -   Встановлення
     

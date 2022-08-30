@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Семафоры](book.sem.html)
+-   [Семафори](book.sem.html)
     
 -   Клас SysvSemaphore
     

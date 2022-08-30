@@ -1,12 +1,12 @@
 Перевіряє, чи передано параметр за посиланням
 
--   [« ReflectionParameter::isOptional](reflectionparameter.isoptional.html)
+-   [« ReflectionParameter::isOptional](reflectionparameter.isoptional.md)
     
--   [ReflectionParameter::isVariadic »](reflectionparameter.isvariadic.html)
+-   [ReflectionParameter::isVariadic »](reflectionparameter.isvariadic.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionParameter](class.reflectionparameter.html)
+-   [ReflectionParameter](class.reflectionparameter.md)
     
 -   Перевіряє, чи передано параметр за посиланням
     
@@ -35,4 +35,4 @@ public ReflectionParameter::isPassedByReference(): bool
 
 ### Дивіться також
 
--   [ReflectionParameter::getName()](reflectionparameter.getname.html) - Отримання імені параметра
+-   [ReflectionParameter::getName()](reflectionparameter.getname.md) - Отримання імені параметра

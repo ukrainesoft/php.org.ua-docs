@@ -1,12 +1,12 @@
 Нахиляє поточну систему координат по вертикалі
 
--   [« ImagickDraw::skewX](imagickdraw.skewx.html)
+-   [« ImagickDraw::skewX](imagickdraw.skewx.md)
     
--   [ImagickDraw::translate »](imagickdraw.translate.html)
+-   [ImagickDraw::translate »](imagickdraw.translate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Нахиляє поточну систему координат по вертикалі
     

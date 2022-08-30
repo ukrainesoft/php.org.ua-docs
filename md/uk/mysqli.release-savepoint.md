@@ -1,12 +1,12 @@
 Видаляє іменовану точку збереження зі списку точок збереження поточної транзакції
 
--   [« mysqli::refresh](mysqli.refresh.html)
+-   [« mysqli::refresh](mysqli.refresh.md)
     
--   [mysqli::rollback »](mysqli.rollback.html)
+-   [mysqli::rollback »](mysqli.rollback.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Видаляє іменовану точку збереження зі списку точок збереження поточної транзакції
     
@@ -39,7 +39,7 @@ mysqli_release_savepoint(mysqli $mysql, string $name): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 `name`
 
@@ -51,4 +51,4 @@ mysqli_release_savepoint(mysqli $mysql, string $name): bool
 
 ### Дивіться також
 
--   [mysqlisavepoint()](mysqli.savepoint.html) - Встановіть іменовану точку збереження транзакції
+-   [mysqlisavepoint()](mysqli.savepoint.md) - Встановіть іменовану точку збереження транзакції

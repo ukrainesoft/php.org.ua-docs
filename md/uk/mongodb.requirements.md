@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](mongodb.setup.html)
+-   [« Встановлення та налаштування](mongodb.setup.html)
     
 -   [Установка »](mongodb.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](mongodb.setup.html)
+-   [Встановлення та налаштування](mongodb.setup.html)
     
 -   Вимоги
     

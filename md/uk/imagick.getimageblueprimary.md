@@ -1,12 +1,12 @@
 Повертає основну точку синього кольору зображення
 
--   [« Imagick::getImageBlob](imagick.getimageblob.html)
+-   [« Imagick::getImageBlob](imagick.getimageblob.md)
     
--   [Imagick::getImageBorderColor »](imagick.getimagebordercolor.html)
+-   [Imagick::getImageBorderColor »](imagick.getimagebordercolor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає основну точку синього кольору зображення
     

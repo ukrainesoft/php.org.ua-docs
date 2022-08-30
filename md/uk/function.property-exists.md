@@ -4,9 +4,9 @@
     
 -   [traitexists »](function.trait-exists.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції роботи з класами та об'єктами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.md)
     
 -   Перевіряє, чи містить об'єкт чи клас зазначений атрибут
     
@@ -27,7 +27,7 @@ property_exists(object|string $object_or_class, string $property): bool
 
 > **Зауваження**
 > 
-> В протилежність [isset()](function.isset.html) **propertyexists()** повертає \*\*`true`\*\*навіть якщо властивість має значення **`null`**
+> В протилежність [isset()](function.isset.md) **propertyexists()** повертає \*\*`true`\*\*навіть якщо властивість має значення **`null`**
 
 ### Список параметрів
 
@@ -74,7 +74,7 @@ myClass::test();
 
 > **Зауваження**
 > 
-> Виклик цієї функції буде використовувати всі зареєстровані [функции автозагрузки](language.oop5.autoload.html)якщо клас ще не відомий.
+> Виклик цієї функції буде використовувати всі зареєстровані [функции автозагрузки](language.oop5.autoload.md)якщо клас ще не відомий.
 
 > **Зауваження**
 > 

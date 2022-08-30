@@ -2,25 +2,25 @@ Pspell
 
 -   [« mbsubstr](function.mb-substr.html)
     
--   [Введение »](intro.pspell.html)
+-   [Введение »](intro.pspell.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Підтримка мов та кодувань](refs.international.html)
+-   [Підтримка мов та кодувань](refs.international.md)
     
 -   Pspell
     
 
 # Pspell
 
--   [Введение](intro.pspell.html)
--   [Установка и настройка](pspell.setup.html)
-    -   [Требования](pspell.requirements.html)
-    -   [Установка](pspell.installation.html)
-    -   [Настройка во время выполнения](pspell.configuration.html)
-    -   [Типы ресурсов](pspell.resources.html)
--   [Предопределённые константы](pspell.constants.html)
--   [Функции Pspell](ref.pspell.html)
+-   [Введение](intro.pspell.md)
+-   [Встановлення та налаштування](pspell.setup.md)
+    -   [Вимоги](pspell.requirements.md)
+    -   [Установка](pspell.installation.md)
+    -   [Налаштування під час виконання](pspell.configuration.md)
+    -   [Типи ресурсів](pspell.resources.md)
+-   [Обумовлені константи](pspell.constants.md)
+-   [Функции Pspell](ref.pspell.md)
     -   [pspelladdтоpersonal](function.pspell-add-to-personal.html) — Додає слово до персонального списку слів
     -   [pspelladdтоsession](function.pspell-add-to-session.html) — Додає слово до списку слів у поточній сесії
     -   [pspellcheck](function.pspell-check.html) - Перевіряє слово

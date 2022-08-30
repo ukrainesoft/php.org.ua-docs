@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](filesystem.configuration.html)
+-   [« Налаштування під час виконання](filesystem.configuration.html)
     
--   [Предопределённые константы »](filesystem.constants.html)
+-   [Обумовлені константи »](filesystem.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](filesystem.setup.html)
+-   [Встановлення та налаштування](filesystem.setup.html)
     
 -   Типи ресурсів
     

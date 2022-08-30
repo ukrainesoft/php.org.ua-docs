@@ -1,12 +1,12 @@
 Зведення в ступінь
 
--   [« pi](function.pi.html)
+-   [« pi](function.pi.md)
     
--   [rad2deg »](function.rad2deg.html)
+-   [rad2deg »](function.rad2deg.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Зведення в ступінь
     
@@ -27,7 +27,7 @@ pow(mixed $num, mixed $exponent): int|float|object
 
 > **Зауваження**
 > 
-> Замість функції можна використовувати оператор[](language.operators.arithmetic.html)
+> Замість функції можна використовувати оператор[](language.operators.arithmetic.md)
 
 ### Список параметрів
 
@@ -67,7 +67,7 @@ echo pow(-1, 5.5); // NAN
 
 ### Дивіться також
 
--   [exp()](function.exp.html) - обчислює ступінь числа e
--   [sqrt()](function.sqrt.html) - Квадратний корінь
--   [bcpow()](function.bcpow.html) - Зведення у ступінь чисел із довільною точністю
+-   [exp()](function.exp.md) - обчислює ступінь числа e
+-   [sqrt()](function.sqrt.md) - Квадратний корінь
+-   [bcpow()](function.bcpow.md) - Зведення у ступінь чисел із довільною точністю
 -   [gmppow()](function.gmp-pow.html) - Зводить число до ступеня

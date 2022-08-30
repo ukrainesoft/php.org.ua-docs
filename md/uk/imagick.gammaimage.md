@@ -1,12 +1,12 @@
 Гамма-корекція зображення
 
--   [« Imagick::fxImage](imagick.fximage.html)
+-   [« Imagick::fxImage](imagick.fximage.md)
     
--   [Imagick::gaussianBlurImage »](imagick.gaussianblurimage.html)
+-   [Imagick::gaussianBlurImage »](imagick.gaussianblurimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Гамма-корекція зображення
     

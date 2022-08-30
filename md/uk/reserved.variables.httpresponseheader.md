@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Предопределённые переменные](reserved.variables.html)
+-   [Зумовлені змінні](reserved.variables.html)
     
 -   Заголовки відповідей HTTP
     

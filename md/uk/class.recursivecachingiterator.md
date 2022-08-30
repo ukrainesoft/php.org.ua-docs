@@ -1,12 +1,12 @@
 Клас RecursiveCachingIterator
 
--   [« RecursiveArrayIterator::hasChildren](recursivearrayiterator.haschildren.html)
+-   [« RecursiveArrayIterator::hasChildren](recursivearrayiterator.haschildren.md)
     
--   [RecursiveCachingIterator::construct »](recursivecachingiterator.construct.html)
+-   [RecursiveCachingIterator::construct »](recursivecachingiterator.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Ітератори](spl.iterators.html)
+-   [Ітератори](spl.iterators.md)
     
 -   Клас RecursiveCachingIterator
     
@@ -97,6 +97,6 @@ public IteratorIterator::valid(): bool
 
 ## Зміст
 
--   [RecursiveCachingIterator::construct](recursivecachingiterator.construct.html) - Конструктор
--   [RecursiveCachingIterator::getChildren](recursivecachingiterator.getchildren.html) — Повертає дочірні елементи внутрішнього ітератора у вигляді об'єкта RecursiveCachingIterator
--   [RecursiveCachingIterator::hasChildren](recursivecachingiterator.haschildren.html) — Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи
+-   [RecursiveCachingIterator::construct](recursivecachingiterator.construct.md) - Конструктор
+-   [RecursiveCachingIterator::getChildren](recursivecachingiterator.getchildren.md) — Повертає дочірні елементи внутрішнього ітератора у вигляді об'єкта RecursiveCachingIterator
+-   [RecursiveCachingIterator::hasChildren](recursivecachingiterator.haschildren.md) — Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи

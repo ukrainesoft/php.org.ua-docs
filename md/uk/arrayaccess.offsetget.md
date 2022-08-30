@@ -1,12 +1,12 @@
 Повертає задане усунення (ключ)
 
--   [« ArrayAccess::offsetExists](arrayaccess.offsetexists.html)
+-   [« ArrayAccess::offsetExists](arrayaccess.offsetexists.md)
     
--   [ArrayAccess::offsetSet »](arrayaccess.offsetset.html)
+-   [ArrayAccess::offsetSet »](arrayaccess.offsetset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayAccess](class.arrayaccess.html)
+-   [ArrayAccess](class.arrayaccess.md)
     
 -   Повертає задане усунення (ключ)
     
@@ -25,7 +25,7 @@ public ArrayAccess::offsetGet(mixed $offset): mixed
 
 Повертає задане усунення (ключ).
 
-Цей метод виконується, коли перевіряється зміщення (ключ) на порожнечу за допомогою функції [empty()](function.empty.html)
+Цей метод виконується, коли перевіряється зміщення (ключ) на порожнечу за допомогою функції [empty()](function.empty.md)
 
 ### Список параметрів
 
@@ -41,12 +41,12 @@ public ArrayAccess::offsetGet(mixed $offset): mixed
 
 > **Зауваження**
 > 
-> Можлива реалізація цього методу з поверненням за посиланням. Це уможливлює непряму модифікацію для величин масиву перевантаженого об'єкта [ArrayAccess](class.arrayaccess.html)
+> Можлива реалізація цього методу з поверненням за посиланням. Це уможливлює непряму модифікацію для величин масиву перевантаженого об'єкта [ArrayAccess](class.arrayaccess.md)
 > 
 > Явна модифікація - це така модифікація, коли повністю замінюється значення величини масиву, як у разі `$obj[6] = 7`. З іншого боку, при непрямій модифікації замінюється лише частина величини, або відбувається спроба присвоєння величини за посиланням іншої змінної, як у випадку `$obj[6][7] = 7` або `$var =& $obj[6]`. Збільшення з використанням оператора `++` та зменшення з використанням оператора `--` також реалізуються за допомогою способу, що вимагає непряму модифікацію.
 > 
-> В той час, як явна модифікація запускає виклик методу [ArrayAccess::offsetSet()](arrayaccess.offsetset.html), непряма модифікація запускає виклик методу **ArrayAccess::offsetGet()**. У такому разі, реалізація методу **ArrayAccess::offsetGet()** має бути в змозі повертати результат за посиланням, інакше буде викликано повідомлення про помилку рівня **`E_NOTICE`**
+> В той час, як явна модифікація запускає виклик методу [ArrayAccess::offsetSet()](arrayaccess.offsetset.md), непряма модифікація запускає виклик методу **ArrayAccess::offsetGet()**. У такому разі, реалізація методу **ArrayAccess::offsetGet()** має бути в змозі повертати результат за посиланням, інакше буде викликано повідомлення про помилку рівня **`E_NOTICE`**
 
 ### Дивіться також
 
--   [ArrayAccess::offsetExists()](arrayaccess.offsetexists.html) - Визначає, чи існує задане усунення (ключ)
+-   [ArrayAccess::offsetExists()](arrayaccess.offsetexists.md) - Визначає, чи існує задане усунення (ключ)

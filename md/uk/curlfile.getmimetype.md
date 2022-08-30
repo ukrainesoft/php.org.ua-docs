@@ -1,12 +1,12 @@
 Повертає MIME-тип файлу
 
--   [« CURLFile::getFilename](curlfile.getfilename.html)
+-   [« CURLFile::getFilename](curlfile.getfilename.md)
     
--   [CURLFile::getPostFilename »](curlfile.getpostfilename.html)
+-   [CURLFile::getPostFilename »](curlfile.getpostfilename.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CURLFile](class.curlfile.html)
+-   [CURLFile](class.curlfile.md)
     
 -   Повертає MIME-тип файлу
     

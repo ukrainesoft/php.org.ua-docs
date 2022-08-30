@@ -1,12 +1,12 @@
 Клас SolrGenericResponse
 
--   [« SolrPingResponse::getResponse](solrpingresponse.getresponse.html)
+-   [« SolrPingResponse::getResponse](solrpingresponse.getresponse.md)
     
--   [SolrGenericResponse::construct »](solrgenericresponse.construct.html)
+-   [SolrGenericResponse::construct »](solrgenericresponse.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Solr](book.solr.html)
+-   [Solr](book.solr.md)
     
 -   Клас SolrGenericResponse
     
@@ -125,5 +125,5 @@ public SolrResponse::success(): bool
 
 ## Зміст
 
--   [SolrGenericResponse::construct](solrgenericresponse.construct.html) - Конструктор
--   [SolrGenericResponse::destruct](solrgenericresponse.destruct.html) - Деструктор
+-   [SolrGenericResponse::construct](solrgenericresponse.construct.md) - Конструктор
+-   [SolrGenericResponse::destruct](solrgenericresponse.destruct.md) - Деструктор

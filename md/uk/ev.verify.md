@@ -1,12 +1,12 @@
 Здійснює внутрішню перевірку цілісності (для налагодження)
 
--   [« Ev::time](ev.time.html)
+-   [« Ev::time](ev.time.md)
     
--   [EvCheck »](class.evcheck.html)
+-   [EvCheck »](class.evcheck.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Єв](class.ev.html)
+-   [Єв](class.ev.md)
     
 -   Здійснює внутрішню перевірку цілісності (для налагодження)
     

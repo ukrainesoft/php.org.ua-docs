@@ -4,7 +4,7 @@
     
 -   [TableUpdate::construct »](mysql-xdevapi-tableupdate.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiTableUpdate](class.mysql-xdevapi-tableupdate.html)
     

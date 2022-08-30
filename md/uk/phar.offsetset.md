@@ -1,12 +1,12 @@
 Зміна вмісту файлу
 
--   [« Phar::offsetGet](phar.offsetget.html)
+-   [« Phar::offsetGet](phar.offsetget.md)
     
--   [Phar::offsetUnset »](phar.offsetunset.html)
+-   [Phar::offsetUnset »](phar.offsetunset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Phar](class.phar.html)
+-   [Phar](class.phar.md)
     
 -   Зміна вмісту файлу
     
@@ -25,9 +25,9 @@ public Phar::offsetSet(string $localName, resource|string $value): void
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.html)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
-Це реалізація інтерфейсу [ArrayAccess](class.arrayaccess.html)дозволяє маніпулювати вмістом Phar-архіву в стилі доступу до елементів масиву. offsetSet використовується для зміни контенту існуючого файлу або для створення нового.
+Це реалізація інтерфейсу [ArrayAccess](class.arrayaccess.md)дозволяє маніпулювати вмістом Phar-архіву в стилі доступу до елементів масиву. offsetSet використовується для зміни контенту існуючого файлу або для створення нового.
 
 ### Список параметрів
 
@@ -45,7 +45,7 @@ public Phar::offsetSet(string $localName, resource|string $value): void
 
 ### Помилки
 
-Якщо опція [phar.readonly](phar.configuration.html#ini.phar.readonly) встановлений в `1`, то буде викинуто виняток [BadMethodCallException](class.badmethodcallexception.html)Так як модифікувати Phar-архів можна тільки, якщо phar.readonly дорівнює `0`. Якщо виникнуть якісь проблеми із записом на диск - викидається виняток [PharException](class.pharexception.html)
+Якщо опція [phar.readonly](phar.configuration.html#ini.phar.readonly) встановлений в `1`, то буде викинуто виняток [BadMethodCallException](class.badmethodcallexception.md)Так як модифікувати Phar-архів можна тільки, якщо phar.readonly дорівнює `0`. Якщо виникнуть якісь проблеми із записом на диск - викидається виняток [PharException](class.pharexception.md)
 
 ### Приклади
 
@@ -67,10 +67,10 @@ try {
 
 ### Примітки
 
-> **Зауваження** [Phar::addFile()](phar.addfile.html) [Phar::addFromString()](phar.addfromstring.html) і **Phar::offsetSet()** зберігає новий phar-архів щоразу при їхньому викликі. Якщо продуктивність викликає занепокоєння, натомість слід використовувати [Phar::buildFromDirectory()](phar.buildfromdirectory.html) або [Phar::buildFromIterator()](phar.buildfromiterator.html)
+> **Зауваження** [Phar::addFile()](phar.addfile.md) [Phar::addFromString()](phar.addfromstring.md) і **Phar::offsetSet()** зберігає новий phar-архів щоразу при їхньому викликі. Якщо продуктивність викликає занепокоєння, натомість слід використовувати [Phar::buildFromDirectory()](phar.buildfromdirectory.md) або [Phar::buildFromIterator()](phar.buildfromiterator.md)
 
 ### Дивіться також
 
--   [Phar::offsetExists()](phar.offsetexists.html) - Визначити, чи є файл у архіві
--   [Phar::offsetGet()](phar.offsetget.html) - Отримати PharFileInfo об'єкт для конкретного файлу
--   [Phar::offsetUnset()](phar.offsetunset.html) - Видалити файл із phar-архіву
+-   [Phar::offsetExists()](phar.offsetexists.md) - Визначити, чи є файл у архіві
+-   [Phar::offsetGet()](phar.offsetget.md) - Отримати PharFileInfo об'єкт для конкретного файлу
+-   [Phar::offsetUnset()](phar.offsetunset.md) - Видалити файл із phar-архіву

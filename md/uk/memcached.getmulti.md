@@ -1,12 +1,12 @@
 Отримує кілька записів
 
--   [« Memcached::getDelayedByKey](memcached.getdelayedbykey.html)
+-   [« Memcached::getDelayedByKey](memcached.getdelayedbykey.md)
     
--   [Memcached::getMultiByKey »](memcached.getmultibykey.html)
+-   [Memcached::getMultiByKey »](memcached.getmultibykey.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Отримує кілька записів
     
@@ -23,7 +23,7 @@ Memcached::getMulti — Отримує декілька записів
 public Memcached::getMulti(array $keys, int $flags = ?): mixed
 ```
 
-**Memcached::getMulti()** працює аналогічно методу [Memcached::get()](memcached.get.html), але замість одного запису отримує кілька, ключі яких були передані в масиві `keys`
+**Memcached::getMulti()** працює аналогічно методу [Memcached::get()](memcached.get.md), але замість одного запису отримує кілька, ключі яких були передані в масиві `keys`
 
 > **Зауваження**
 > 
@@ -43,12 +43,12 @@ public Memcached::getMulti(array $keys, int $flags = ?): mixed
 
 ### Значення, що повертаються
 
-Повертає масив знайдених записів або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.html)
+Повертає масив знайдених записів або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.md)
 
 ### список змін
 
-| Версия               | Описание                                                                                                    |
-|----------------------|-------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL memcached 3.0.0 | Видалено параметр `&cas_tokens`. Додано константу **`Memcached::GET_EXTENDED`** для повернення токенів CAS. |
 
 ### Приклади
@@ -204,6 +204,6 @@ zoo
 
 ### Дивіться також
 
--   [Memcached::getMultiByKey()](memcached.getmultibykey.html) - Отримує кілька записів із вказаного сервера
--   [Memcached::get()](memcached.get.html) - Отримання запису
--   [Memcached::getDelayed()](memcached.getdelayed.html) - Запитує кілька записів
+-   [Memcached::getMultiByKey()](memcached.getmultibykey.md) - Отримує кілька записів із вказаного сервера
+-   [Memcached::get()](memcached.get.md) - Отримання запису
+-   [Memcached::getDelayed()](memcached.getdelayed.md) - Запитує кілька записів

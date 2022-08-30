@@ -1,12 +1,12 @@
 Повертає колір вказаного індексу карти кольорів
 
--   [« Gmagick::getimagechanneldepth](gmagick.getimagechanneldepth.html)
+-   [« Gmagick::getimagechanneldepth](gmagick.getimagechanneldepth.md)
     
--   [Gmagick::getimagecolorspace »](gmagick.getimagecolorspace.html)
+-   [Gmagick::getimagecolorspace »](gmagick.getimagecolorspace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повертає колір вказаного індексу карти кольорів
     

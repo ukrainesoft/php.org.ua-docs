@@ -1,12 +1,12 @@
 Отримання версії модуля
 
--   [« ReflectionExtension::getName](reflectionextension.getname.html)
+-   [« ReflectionExtension::getName](reflectionextension.getname.md)
     
--   [ReflectionExtension::info »](reflectionextension.info.html)
+-   [ReflectionExtension::info »](reflectionextension.info.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionExtension](class.reflectionextension.html)
+-   [ReflectionExtension](class.reflectionextension.md)
     
 -   Отримання версії модуля
     
@@ -52,4 +52,4 @@ string(3) "0.1"
 
 ### Дивіться також
 
--   [ReflectionExtension::info()](reflectionextension.info.html) - Виведення інформації про модуль
+-   [ReflectionExtension::info()](reflectionextension.info.md) - Виведення інформації про модуль

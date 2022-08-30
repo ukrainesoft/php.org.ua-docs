@@ -33,9 +33,9 @@ public PharFileInfo::getMetadata(array $unserializeOptions = []): mixed
 
 ### список змін
 
-| Версия | Описание                              |
-|--------|---------------------------------------|
-|        | Доданий параметр `unserializeOptions` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `unserializeOptions` |
 
 ### Приклади
 

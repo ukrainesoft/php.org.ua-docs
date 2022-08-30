@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverServer::isHidden »](mongodb-driver-server.ishidden.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverServer](class.mongodb-driver-server.html)
     

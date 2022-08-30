@@ -1,12 +1,12 @@
 Встановлює значення параметра конфігурації
 
--   [« EventDnsBase::parseResolvConf](eventdnsbase.parseresolvconf.html)
+-   [« EventDnsBase::parseResolvConf](eventdnsbase.parseresolvconf.md)
     
--   [EventDnsBase::setSearchNdots »](eventdnsbase.setsearchndots.html)
+-   [EventDnsBase::setSearchNdots »](eventdnsbase.setsearchndots.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventDnsBase](class.eventdnsbase.html)
+-   [EventDnsBase](class.eventdnsbase.md)
     
 -   Встановлює значення параметра конфігурації
     

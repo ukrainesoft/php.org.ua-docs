@@ -1,12 +1,12 @@
 Отримання XPath вузла
 
--   [« DOMNode::getLineNo](domnode.getlineno.html)
+-   [« DOMNode::getLineNo](domnode.getlineno.md)
     
--   [DOMNode::hasAttributes »](domnode.hasattributes.html)
+-   [DOMNode::hasAttributes »](domnode.hasattributes.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMNode](class.domnode.html)
+-   [DOMNode](class.domnode.md)
     
 -   Отримання XPath вузла
     
@@ -75,4 +75,4 @@ foreach ($dom->getElementsByTagName('*') as $node) {
 
 ### Дивіться також
 
--   [DOMXPath](class.domxpath.html)
+-   [DOMXPath](class.domxpath.md)

@@ -4,9 +4,9 @@
     
 -   [mcryptlistmodes »](function.mcrypt-list-modes.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](ref.mcrypt.html)
+-   [Mcrypt](ref.mcrypt.md)
     
 -   Отримати список усіх підтримуваних алгоритмів шифрування
     

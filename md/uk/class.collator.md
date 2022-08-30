@@ -1,6 +1,6 @@
 Клас Collator
 
--   [« Основы использования модуля](intl.examples.basic.html)
+-   [« Основи використання модуля](intl.examples.basic.html)
     
 -   [Collator::asort »](collator.asort.html)
     

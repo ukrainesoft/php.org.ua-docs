@@ -4,7 +4,7 @@
     
 -   [ParleParser::nonassoc »](parle-parser.nonassoc.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ParleParser](class.parle-parser.html)
     

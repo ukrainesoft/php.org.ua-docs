@@ -1,12 +1,12 @@
 Отримує поточне значення
 
--   [« IteratorIterator::construct](iteratoriterator.construct.html)
+-   [« IteratorIterator::construct](iteratoriterator.construct.md)
     
--   [IteratorIterator::getInnerIterator »](iteratoriterator.getinneriterator.html)
+-   [IteratorIterator::getInnerIterator »](iteratoriterator.getinneriterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IteratorIterator](class.iteratoriterator.html)
+-   [IteratorIterator](class.iteratoriterator.md)
     
 -   Отримує поточне значення
     
@@ -35,4 +35,4 @@ public IteratorIterator::current(): mixed
 
 ### Дивіться також
 
--   [IteratorIterator::key()](iteratoriterator.key.html) - Отримує ключ поточного елемента
+-   [IteratorIterator::key()](iteratoriterator.key.md) - Отримує ключ поточного елемента

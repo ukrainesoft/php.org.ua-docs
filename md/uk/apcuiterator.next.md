@@ -1,12 +1,12 @@
 Переміщує покажчик на наступний елемент
 
--   [« APCUIterator::key](apcuiterator.key.html)
+-   [« APCUIterator::key](apcuiterator.key.md)
     
--   [APCUIterator::rewind »](apcuiterator.rewind.html)
+-   [APCUIterator::rewind »](apcuiterator.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [APCUIterator](class.apcuiterator.html)
+-   [APCUIterator](class.apcuiterator.md)
     
 -   Переміщує покажчик на наступний елемент
     
@@ -35,6 +35,6 @@ public APCUIterator::next(): bool
 
 ### Дивіться також
 
--   [APCUIterator::current()](apcuiterator.current.html) - Отримати поточний елемент
--   [APCUIterator::rewind()](apcuiterator.rewind.html) - Перемотування ітератора
--   [Iterator::next()](iterator.next.html) - Переходить до наступного елементу
+-   [APCUIterator::current()](apcuiterator.current.md) - Отримати поточний елемент
+-   [APCUIterator::rewind()](apcuiterator.rewind.md) - Перемотування ітератора
+-   [Iterator::next()](iterator.next.md) - Переходить до наступного елементу

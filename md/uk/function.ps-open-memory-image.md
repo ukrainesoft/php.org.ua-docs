@@ -4,9 +4,9 @@
     
 -   [псplaceimage »](function.ps-place-image.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Бере зображення GD та повертає зображення для розміщення в документі PS
     

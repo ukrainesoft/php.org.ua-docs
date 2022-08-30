@@ -2,28 +2,28 @@ Windows Cache для PHP
 
 -   [« uopzunsetreturn](function.uopz-unset-return.html)
     
--   [Введение »](intro.wincache.html)
+-   [Введение »](intro.wincache.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Изменение поведения PHP](refs.basic.php.html)
+-   [Изменение поведения PHP](refs.basic.php.md)
     
 -   Windows Cache для PHP
     
 
 # Windows Cache для PHP
 
--   [Введение](intro.wincache.html)
--   [Установка и настройка](wincache.setup.html)
-    -   [Требования](wincache.requirements.html)
-    -   [Установка](wincache.installation.html)
-    -   [Настройка во время выполнения](wincache.configuration.html)
-    -   [Скрипт статистики WinCache](wincache.stats.html)
-    -   [Обработчик сессий WinCache](wincache.sessionhandler.html)
-    -   [Перенаправление функций WinCache](wincache.reroutes.html)
-    -   [Типы ресурсов](wincache.resources.html)
--   [Предопределённые константы](wincache.constants.html)
--   [Функции WinCache](ref.wincache.html)
+-   [Введение](intro.wincache.md)
+-   [Встановлення та налаштування](wincache.setup.md)
+    -   [Вимоги](wincache.requirements.md)
+    -   [Установка](wincache.installation.md)
+    -   [Налаштування під час виконання](wincache.configuration.md)
+    -   [Скрипт статистики WinCache](wincache.stats.md)
+    -   [Обработчик сессий WinCache](wincache.sessionhandler.md)
+    -   [Перенаправление функций WinCache](wincache.reroutes.md)
+    -   [Типи ресурсів](wincache.resources.md)
+-   [Обумовлені константи](wincache.constants.md)
+-   [Функции WinCache](ref.wincache.md)
     -   [wincachefcachefileinfo](function.wincache-fcache-fileinfo.html) — Отримує інформацію про файли, закешовані у файловому кеші
     -   [wincachefcachememinfo](function.wincache-fcache-meminfo.html) — Отримує інформацію про використання пам'яті файлового кешу
     -   [wincachelock](function.wincache-lock.html) — Отримує ексклюзивне блокування для цього ключа
@@ -46,7 +46,7 @@ Windows Cache для PHP
     -   [wincacheucachememinfo](function.wincache-ucache-meminfo.html) — Отримує інформацію про використання пам'яті кешу користувача.
     -   [wincacheucacheset](function.wincache-ucache-set.html) — Додає змінну в кеш користувача і перезаписує змінну, якщо вона вже існує в кеші
     -   [wincacheunlock](function.wincache-unlock.html) — Знімає ексклюзивне блокування цього ключа
--   [Сборка для Windows](wincache.win32build.html)
-    -   [Пререквизиты](wincache.win32build.prereq.html)
-    -   [Компіляція та складання](wincache.win32build.building.html)
-    -   [Проверка сборки](wincache.win32build.verify.html)
+-   [Сборка для Windows](wincache.win32build.md)
+    -   [Пререквізити](wincache.win32build.prereq.md)
+    -   [Компіляція та складання](wincache.win32build.building.md)
+    -   [Проверка сборки](wincache.win32build.verify.md)

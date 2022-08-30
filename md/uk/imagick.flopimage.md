@@ -1,12 +1,12 @@
 Створює горизонтальне дзеркальне відображення
 
--   [« Imagick::floodFillPaintImage](imagick.floodfillpaintimage.html)
+-   [« Imagick::floodFillPaintImage](imagick.floodfillpaintimage.md)
     
--   [Imagick::forwardFourierTransformImage »](imagick.forwardfouriertransformimage.html)
+-   [Imagick::forwardFourierTransformImage »](imagick.forwardfouriertransformimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Створює горизонтальне дзеркальне відображення
     
@@ -55,4 +55,4 @@ function flopImage($imagePath) {
 
 ### Дивіться також
 
--   [Imagick::flipimage()](imagick.flipimage.html) - Створює вертикальне дзеркало зображення
+-   [Imagick::flipimage()](imagick.flipimage.md) - Створює вертикальне дзеркало зображення

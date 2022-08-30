@@ -14,14 +14,14 @@ WDDX
 # WDDX
 
 -   [Введение](intro.wddx.html)
--   [Установка и настройка](wddx.setup.html)
-    -   [Требования](wddx.requirements.html)
+-   [Встановлення та налаштування](wddx.setup.html)
+    -   [Вимоги](wddx.requirements.html)
     -   [Установка](wddx.installation.html)
-    -   [Настройка во время выполнения](wddx.configuration.html)
-    -   [Типы ресурсов](wddx.resources.html)
--   [Предопределённые константы](wddx.constants.html)
--   [Примеры](wddx.examples.html)
-    -   [Примеры wddx](wddx.examples-serialize.html)
+    -   [Налаштування під час виконання](wddx.configuration.html)
+    -   [Типи ресурсів](wddx.resources.html)
+-   [Обумовлені константи](wddx.constants.html)
+-   [Приклади](wddx.examples.html)
+    -   [Приклади wddx](wddx.examples-serialize.html)
 -   [Функції WDDX](ref.wddx.html)
     -   [wddxaddvars](function.wddx-add-vars.html) — Додати змінні до пакету WDDX із зазначеним ідентифікатором
     -   [wddxdeserialize](function.wddx-deserialize.html) - Десеріалізує пакет WDDX

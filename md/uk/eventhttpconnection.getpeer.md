@@ -1,12 +1,12 @@
 Отримує віддалену адресу та порт, пов'язаний зі з'єднанням
 
--   [« EventHttpConnection::getBase](eventhttpconnection.getbase.html)
+-   [« EventHttpConnection::getBase](eventhttpconnection.getbase.md)
     
--   [EventHttpConnection::makeRequest »](eventhttpconnection.makerequest.html)
+-   [EventHttpConnection::makeRequest »](eventhttpconnection.makerequest.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpConnection](class.eventhttpconnection.html)
+-   [EventHttpConnection](class.eventhttpconnection.md)
     
 -   Отримує віддалену адресу та порт, пов'язаний зі з'єднанням
     

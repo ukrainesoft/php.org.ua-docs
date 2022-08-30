@@ -4,9 +4,9 @@
     
 -   [ісsubclassof »](function.is-subclass-of.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції роботи з класами та об'єктами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.md)
     
 -   Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків
     

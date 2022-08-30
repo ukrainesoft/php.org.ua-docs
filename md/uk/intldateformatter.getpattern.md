@@ -1,12 +1,12 @@
 Отримує шаблон, який використовується IntlDateFormatter
 
--   [« IntlDateFormatter::getLocale](intldateformatter.getlocale.html)
+-   [« IntlDateFormatter::getLocale](intldateformatter.getlocale.md)
     
--   [IntlDateFormatter::getTimeType »](intldateformatter.gettimetype.html)
+-   [IntlDateFormatter::getTimeType »](intldateformatter.gettimetype.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlDateFormatter](class.intldateformatter.html)
+-   [IntlDateFormatter](class.intldateformatter.md)
     
 -   Отримує шаблон, який використовується IntlDateFormatter
     
@@ -99,5 +99,5 @@ echo 'Второй отформатированный вывод с шаб�
 
 ### Дивіться також
 
--   [datefmtsetpattern()](intldateformatter.setpattern.html) - Встановлює шаблон, який використовується IntlDateFormatter
--   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtsetpattern()](intldateformatter.setpattern.md) - Встановлює шаблон, який використовується IntlDateFormatter
+-   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати

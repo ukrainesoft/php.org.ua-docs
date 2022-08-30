@@ -1,12 +1,12 @@
 Переносить рядок за вказаною кількістю символів
 
--   [« vsprintf](function.vsprintf.html)
+-   [« vsprintf](function.vsprintf.md)
     
--   [Список изменений »](changelog.strings.html)
+-   [Список изменений »](changelog.strings.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Переносить рядок за вказаною кількістю символів
     
@@ -111,5 +111,5 @@ something
 
 ### Дивіться також
 
--   [nl2br()](function.nl2br.html) - Вставляє HTML код розриву рядка перед кожним перекладом рядка
+-   [nl2br()](function.nl2br.md) - Вставляє HTML код розриву рядка перед кожним перекладом рядка
 -   [chunksplit()](function.chunk-split.html) - Розбиває рядок на фрагменти

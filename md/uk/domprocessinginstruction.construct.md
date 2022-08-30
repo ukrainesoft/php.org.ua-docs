@@ -1,12 +1,12 @@
 Створює новий об'єкт класу DOMProcessingInstruction
 
--   [« DOMProcessingInstruction](class.domprocessinginstruction.html)
+-   [« DOMProcessingInstruction](class.domprocessinginstruction.md)
     
--   [DOMText »](class.domtext.html)
+-   [DOMText »](class.domtext.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMProcessingInstruction](class.domprocessinginstruction.html)
+-   [DOMProcessingInstruction](class.domprocessinginstruction.md)
     
 -   Створює новий об'єкт класу DOMProcessingInstruction
     
@@ -15,13 +15,13 @@
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMProcessingInstruction::construct — Створює новий об'єкт класу [DOMProcessingInstruction](class.domprocessinginstruction.html)
+DOMProcessingInstruction::construct — Створює новий об'єкт класу [DOMProcessingInstruction](class.domprocessinginstruction.md)
 
 ### Опис
 
 public **DOMProcessingInstruction::construct**(string `$name`, string `$value` = "")
 
-Створює новий об'єкт класу [DOMProcessingInstruction](class.domprocessinginstruction.html). Цей об'єкт буде доступний лише для читання. Він може бути доданий до документа. Додаткові вузли не можна прикріпити до цього об'єкта, доки він приєднаний до будь-якого документа. Для створення вузла, що модифікується, використовуйте [DOMDocument::createProcessingInstruction](domdocument.createprocessinginstruction.html)
+Створює новий об'єкт класу [DOMProcessingInstruction](class.domprocessinginstruction.md). Цей об'єкт буде доступний лише для читання. Він може бути доданий до документа. Додаткові вузли не можна прикріпити до цього об'єкта, доки він приєднаний до будь-якого документа. Для створення вузла, що модифікується, використовуйте [DOMDocument::createProcessingInstruction](domdocument.createprocessinginstruction.md)
 
 ### Список параметрів
 
@@ -35,7 +35,7 @@ public **DOMProcessingInstruction::construct**(string `$name`, string `$value` =
 
 ### Приклади
 
-**Приклад #1 Створення класу [DOMProcessingInstruction](class.domprocessinginstruction.html)**
+**Приклад #1 Створення класу [DOMProcessingInstruction](class.domprocessinginstruction.md)**
 
 ```php
 <?php
@@ -59,4 +59,4 @@ echo $dom->saveXML();
 
 ### Дивіться також
 
--   [DOMDocument::createProcessingInstruction()](domdocument.createprocessinginstruction.html) - Створити новий PI-вузол
+-   [DOMDocument::createProcessingInstruction()](domdocument.createprocessinginstruction.md) - Створити новий PI-вузол

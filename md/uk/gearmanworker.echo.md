@@ -1,12 +1,12 @@
 Перевірка відгуку серверів завдань
 
--   [« GearmanWorker::construct](gearmanworker.construct.html)
+-   [« GearmanWorker::construct](gearmanworker.construct.md)
     
--   [GearmanWorker::error »](gearmanworker.error.html)
+-   [GearmanWorker::error »](gearmanworker.error.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanWorker](class.gearmanworker.html)
+-   [GearmanWorker](class.gearmanworker.md)
     
 -   Перевірка відгуку серверів завдань
     
@@ -37,4 +37,4 @@ public GearmanWorker::echo(string $workload): bool
 
 ### Дивіться також
 
--   [GearmanClient::echo()](gearmanclient.echo.html) - Надсилає дані всім серверам завдань, щоб перевірити відгук Застарілий метод
+-   [GearmanClient::echo()](gearmanclient.echo.md) - Надсилає дані всім серверам завдань, щоб перевірити відгук Застарілий метод

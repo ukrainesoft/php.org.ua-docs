@@ -4,7 +4,7 @@
     
 -   [CollectionModify::skip »](mysql-xdevapi-collectionmodify.skip.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiCollectionModify](class.mysql-xdevapi-collectionmodify.html)
     

@@ -4,7 +4,7 @@
     
 -   [ДсPriorityQueue::copy »](ds-priorityqueue.copy.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Черга з пріоритетом](class.ds-priorityqueue.html)
     

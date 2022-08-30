@@ -1,12 +1,12 @@
 Масштабує зображення пропорційно половині його розміру
 
--   [« Imagick::mergeImageLayers](imagick.mergeimagelayers.html)
+-   [« Imagick::mergeImageLayers](imagick.mergeimagelayers.md)
     
--   [Imagick::modulateImage »](imagick.modulateimage.html)
+-   [Imagick::modulateImage »](imagick.modulateimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Масштабує зображення пропорційно половині його розміру
     

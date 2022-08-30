@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverReadPreference::serialize »](mongodb-driver-readpreference.serialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
     
@@ -44,7 +44,7 @@ final public MongoDB\Driver\ReadPreference::getTagSets(): array
 
 $mode = MongoDB\Driver\ReadPreference::RP_SECONDARY_PREFERRED;
 
-/* Как и null, так и пустой массив, обозначают, что не будут установлены теги для предпочтения. */
+/* Как и null, так и пустой Масив, обозначают, что не будут установлены теги для предпочтения. */
 $rp = new MongoDB\Driver\ReadPreference($mode, null);
 var_dump($rp->getTagSets());
 

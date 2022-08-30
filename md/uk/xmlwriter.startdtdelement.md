@@ -1,12 +1,12 @@
 Створити стартовий елемент DTD
 
--   [« XMLWriter::startDtdAttlist](xmlwriter.startdtdattlist.html)
+-   [« XMLWriter::startDtdAttlist](xmlwriter.startdtdattlist.md)
     
--   [XMLWriter::startDtdEntity »](xmlwriter.startdtdentity.html)
+-   [XMLWriter::startDtdEntity »](xmlwriter.startdtdentity.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](class.xmlwriter.html)
+-   [XMLWriter](class.xmlwriter.md)
     
 -   Створити стартовий елемент DTD
     
@@ -39,7 +39,7 @@ xmlwriter_start_dtd_element(XMLWriter $writer, string $qualifiedName): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `qualifiedName`
 
@@ -51,11 +51,11 @@ xmlwriter_start_dtd_element(XMLWriter $writer, string $qualifiedName): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::endDtdElement()](xmlwriter.enddtdelement.html) - Завершити поточний елемент DTD
--   [XMLWriter::writeDtdElement()](xmlwriter.writedtdelement.html) - Записати повний тег елемента DTD
+-   [XMLWriter::endDtdElement()](xmlwriter.enddtdelement.md) - Завершити поточний елемент DTD
+-   [XMLWriter::writeDtdElement()](xmlwriter.writedtdelement.md) - Записати повний тег елемента DTD

@@ -1,12 +1,12 @@
 Повертає копію масиву
 
--   [« ArrayIterator::current](arrayiterator.current.html)
+-   [« ArrayIterator::current](arrayiterator.current.md)
     
--   [ArrayIterator::getFlags »](arrayiterator.getflags.html)
+-   [ArrayIterator::getFlags »](arrayiterator.getflags.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayIterator](class.arrayiterator.html)
+-   [ArrayIterator](class.arrayiterator.md)
     
 -   Повертає копію масиву
     
@@ -39,4 +39,4 @@ public ArrayIterator::getArrayCopy(): array
 
 ### Дивіться також
 
--   [ArrayIterator::valid()](arrayiterator.valid.html) - Перевіряє, чи містить масив ще запису
+-   [ArrayIterator::valid()](arrayiterator.valid.md) - Перевіряє, чи містить масив ще запису

@@ -4,9 +4,9 @@
     
 -   [statsdensweibull »](function.stats-dens-weibull.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Функція густини ймовірності рівномірного розподілу
     

@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](posix.requirements.html)
+-   [« Вимоги](posix.requirements.md)
     
--   [Настройка во время выполнения »](posix.configuration.html)
+-   [Налаштування під час виконання »](posix.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](posix.setup.html)
+-   [Встановлення та налаштування](posix.setup.md)
     
 -   Встановлення
     

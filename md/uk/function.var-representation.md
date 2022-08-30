@@ -2,9 +2,9 @@
 
 -   [« Функции varrepresentation](ref.var-representation.html)
     
--   [Другие службы »](refs.remote.other.html)
+-   [Інші служби »](refs.remote.other.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Функции varrepresentation](ref.var-representation.html)
     
@@ -33,7 +33,7 @@ var_representation(mixed $value, int $flags = 0): string
 
 `flags`
 
-Бітова маска, що складається з: **`VAR_REPRESENTATION_SINGLE_LINE`** **`VAR_REPRESENTATION_UNESCAPED`**. Поведінка цих констант описана на сторінці [константы varrepresentation](var-representation.constants.html)
+Бітова маска, що складається з: **`VAR_REPRESENTATION_SINGLE_LINE`** **`VAR_REPRESENTATION_UNESCAPED`**. Поведінка цих констант описана на сторінці [константи вarrepresentation](var-representation.constants.html)
 
 ### Значення, що повертаються
 

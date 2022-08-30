@@ -2,25 +2,25 @@ xdiff
 
 -   [« xattrsupported](function.xattr-supported.html)
     
--   [Введение »](intro.xdiff.html)
+-   [Введение »](intro.xdiff.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модулі для роботи з файловою системою](refs.fileprocess.file.html)
+-   [Модулі для роботи з файловою системою](refs.fileprocess.file.md)
     
 -   xdiff
     
 
 # xdiff
 
--   [Введение](intro.xdiff.html)
--   [Установка и настройка](xdiff.setup.html)
-    -   [Требования](xdiff.requirements.html)
-    -   [Установка](xdiff.installation.html)
-    -   [Настройка во время выполнения](xdiff.configuration.html)
-    -   [Типы ресурсов](xdiff.resources.html)
--   [Предопределённые константы](xdiff.constants.html)
--   [Функції xdiff](ref.xdiff.html)
+-   [Введение](intro.xdiff.md)
+-   [Встановлення та налаштування](xdiff.setup.md)
+    -   [Вимоги](xdiff.requirements.md)
+    -   [Установка](xdiff.installation.md)
+    -   [Налаштування під час виконання](xdiff.configuration.md)
+    -   [Типи ресурсів](xdiff.resources.md)
+-   [Обумовлені константи](xdiff.constants.md)
+-   [Функції xdiff](ref.xdiff.md)
     -   [xdifffilebdiffsize](function.xdiff-file-bdiff-size.html) — Отримати розмір файлу після застосування бінарного патчу
     -   [xdifffilebdiff](function.xdiff-file-bdiff.html) — Створити бінарний патч порівнюючи два файли
     -   [xdifffilebpatch](function.xdiff-file-bpatch.html) — Застосувати бінарний патч до файлу

@@ -1,12 +1,12 @@
 Передача ідентифікатора сесії
 
--   [« Основы использования](session.examples.basic.html)
+-   [« Основи використання](session.examples.basic.md)
     
--   [Користувальницькі обробники сесії »](session.customhandler.html)
+-   [Користувальницькі обробники сесії »](session.customhandler.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](session.examples.html)
+-   [Приклади](session.examples.md)
     
 -   Передача ідентифікатора сесії
     
@@ -54,9 +54,9 @@ if (empty($_SESSION['count'])) {
 </p>
 ```
 
-Функція [htmlspecialchars()](function.htmlspecialchars.html) може використовуватися для виведення **`SID`** з метою запобігання XSS-атакам.
+Функція [htmlspecialchars()](function.htmlspecialchars.md) може використовуватися для виведення **`SID`** з метою запобігання XSS-атакам.
 
-Висновок **`SID`** способом, наведеним вище, не є обов'язковим, якщо опція [\-enable-trans-sid](session.configuration.html#ini.session.use-trans-sid) була використана при компіляції PHP.
+Висновок **`SID`** способом, наведеним вище, не є обов'язковим, якщо опція [enable-trans-sid](session.configuration.html#ini.session.use-trans-sid) була використана при компіляції PHP.
 
 > **Зауваження**
 > 

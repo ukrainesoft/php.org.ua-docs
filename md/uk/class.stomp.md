@@ -2,11 +2,11 @@
 
 -   [« stompversion](function.stomp-version.html)
     
--   [Stomp::abort »](stomp.abort.html)
+-   [Stomp::abort »](stomp.abort.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Stomp](book.stomp.html)
+-   [Stomp](book.stomp.md)
     
 -   Клас Stomp
     
@@ -72,18 +72,18 @@ stomp_unsubscribe(resource $link, string $destination, array $headers = ?): bool
 
 ## Зміст
 
--   [Stomp::abort](stomp.abort.html) — Скасує виконання поточної транзакції
--   [Stomp::ack](stomp.ack.html) — Підтверджує отримання повідомлення
--   [Stomp::begin](stomp.begin.html) - Створює транзакцію
--   [Stomp::commit](stomp.commit.html) - Виконує поточну транзакцію
--   [Stomp::construct](stomp.construct.html) - Відкриває з'єднання
--   [Stomp::destruct](stomp.destruct.html) - Закриває Stomp-з'єднання
--   [Stomp::error](stomp.error.html) - Повертає останню помилку Stomp
--   [Stomp::getReadTimeout](stomp.getreadtimeout.html) — Повертає час максимального очікування на операцію читання
--   [Stomp::getSessionId](stomp.getsessionid.html) - Повертає ідентифікатор поточної сесії Stomp
--   [Stomp::hasFrame](stomp.hasframe.html) — Перевіряє, чи можливе читання кадру
--   [Stomp::readFrame](stomp.readframe.html) — Виконує операцію для читання наступного кадру
--   [Stomp::send](stomp.send.html) — Надсилає повідомлення
--   [Stomp::setReadTimeout](stomp.setreadtimeout.html) - Встановлює граничний час очікування операції читання
--   [Stomp::subscribe](stomp.subscribe.html) — Реєструє передплату на вказану розсилку
--   [Stomp::unsubscribe](stomp.unsubscribe.html) — Видаляє існуючу передплату
+-   [Stomp::abort](stomp.abort.md) — Скасує виконання поточної транзакції
+-   [Stomp::ack](stomp.ack.md) — Підтверджує отримання повідомлення
+-   [Stomp::begin](stomp.begin.md) - Створює транзакцію
+-   [Stomp::commit](stomp.commit.md) - Виконує поточну транзакцію
+-   [Stomp::construct](stomp.construct.md) - Відкриває з'єднання
+-   [Stomp::destruct](stomp.destruct.md) - Закриває Stomp-з'єднання
+-   [Stomp::error](stomp.error.md) - Повертає останню помилку Stomp
+-   [Stomp::getReadTimeout](stomp.getreadtimeout.md) — Повертає час максимального очікування на операцію читання
+-   [Stomp::getSessionId](stomp.getsessionid.md) - Повертає ідентифікатор поточної сесії Stomp
+-   [Stomp::hasFrame](stomp.hasframe.md) — Перевіряє, чи можливе читання кадру
+-   [Stomp::readFrame](stomp.readframe.md) — Виконує операцію для читання наступного кадру
+-   [Stomp::send](stomp.send.md) — Надсилає повідомлення
+-   [Stomp::setReadTimeout](stomp.setreadtimeout.md) - Встановлює граничний час очікування операції читання
+-   [Stomp::subscribe](stomp.subscribe.md) — Реєструє передплату на вказану розсилку
+-   [Stomp::unsubscribe](stomp.unsubscribe.md) — Видаляє існуючу передплату

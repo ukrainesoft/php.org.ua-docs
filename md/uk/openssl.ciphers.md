@@ -1,12 +1,12 @@
 Алгоритми шифрування
 
--   [« Алгоритмы подписи](openssl.signature-algos.html)
+-   [« Алгоритми підпису](openssl.signature-algos.html)
     
--   [Константи версій »](openssl.constversion.html)
+-   [Константи версій »](openssl.constversion.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые константы](openssl.constants.html)
+-   [Обумовлені константи](openssl.constants.md)
     
 -   Алгоритми шифрування
     

@@ -4,9 +4,9 @@
     
 -   [ftpraw »](function.ftp-raw.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.md)
     
 -   Псевдонім ftpclose
     

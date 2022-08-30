@@ -1,12 +1,12 @@
 Клас EventUtil
 
--   [« EventSslContext::construct](eventsslcontext.construct.html)
+-   [« EventSslContext::construct](eventsslcontext.construct.md)
     
--   [EventUtil::construct »](eventutil.construct.html)
+-   [EventUtil::construct »](eventutil.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](book.event.html)
+-   [Event](book.event.md)
     
 -   Клас EventUtil
     
@@ -289,10 +289,10 @@ public
 
 ## Зміст
 
--   [EventUtil::construct](eventutil.construct.html) - Абстрактний конструктор
--   [EventUtil::getLastSocketErrno](eventutil.getlastsocketerrno.html) — Отримати номер останньої помилки сокету, що виникла.
--   [EventUtil::getLastSocketError](eventutil.getlastsocketerror.html) — Отримати останню помилку сокету, що виникла.
--   [EventUtil::getSocketFd](eventutil.getsocketfd.html) — Отримати цифровий файловий дескриптор сокету чи потоку
--   [EventUtil::getSocketName](eventutil.getsocketname.html) — Отримати поточну адресу, до якої прив'язаний сокет
--   [EventUtil::setSocketOption](eventutil.setsocketoption.html) - Встановити опції сокету
--   [EventUtil::sslRandPoll](eventutil.sslrandpoll.html) - Згенерувати ентропію за допомогою RANDpoll() із OpenSSL
+-   [EventUtil::construct](eventutil.construct.md) - Абстрактний конструктор
+-   [EventUtil::getLastSocketErrno](eventutil.getlastsocketerrno.md) — Отримати номер останньої помилки сокету, що виникла.
+-   [EventUtil::getLastSocketError](eventutil.getlastsocketerror.md) — Отримати останню помилку сокету, що виникла.
+-   [EventUtil::getSocketFd](eventutil.getsocketfd.md) — Отримати цифровий файловий дескриптор сокету чи потоку
+-   [EventUtil::getSocketName](eventutil.getsocketname.md) — Отримати поточну адресу, до якої прив'язаний сокет
+-   [EventUtil::setSocketOption](eventutil.setsocketoption.md) - Встановити опції сокету
+-   [EventUtil::sslRandPoll](eventutil.sslrandpoll.md) - Згенерувати ентропію за допомогою RANDpoll() із OpenSSL

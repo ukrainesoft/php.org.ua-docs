@@ -1,12 +1,12 @@
 Отримати максимальну довжину рядка
 
--   [« SplFileObject::getFlags](splfileobject.getflags.html)
+-   [« SplFileObject::getFlags](splfileobject.getflags.md)
     
--   [SplFileObject::hasChildren »](splfileobject.haschildren.html)
+-   [SplFileObject::hasChildren »](splfileobject.haschildren.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileObject](class.splfileobject.html)
+-   [SplFileObject](class.splfileobject.md)
     
 -   Отримати максимальну довжину рядка
     
@@ -23,7 +23,7 @@ SplFileObject::getMaxLineLen — Отримати максимальну дов�
 public SplFileObject::getMaxLineLen(): int
 ```
 
-Отримує максимальну довжину рядка, встановлену за допомогою [SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.html)
+Отримує максимальну довжину рядка, встановлену за допомогою [SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.md)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public SplFileObject::getMaxLineLen(): int
 
 ### Значення, що повертаються
 
-Повертає максимальну довжину рядка, якщо вона була встановлена ​​за допомогою [SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.html), за замовчуванням `0`
+Повертає максимальну довжину рядка, якщо вона була встановлена ​​за допомогою [SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.md), за замовчуванням `0`
 
 ### Приклади
 
@@ -56,4 +56,4 @@ int(20)
 
 ### Дивіться також
 
--   [SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.html) - Встановити максимальну довжину рядка
+-   [SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.md) - Встановити максимальну довжину рядка

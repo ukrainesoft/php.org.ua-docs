@@ -1,12 +1,12 @@
 Повертає код виключення
 
--   [« Throwable::getMessage](throwable.getmessage.html)
+-   [« Throwable::getMessage](throwable.getmessage.md)
     
--   [Throwable::getFile »](throwable.getfile.html)
+-   [Throwable::getFile »](throwable.getfile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Throwable](class.throwable.html)
+-   [Throwable](class.throwable.md)
     
 -   Повертає код виключення
     
@@ -31,8 +31,8 @@ public Throwable::getCode(): int
 
 ### Значення, що повертаються
 
-Повертає код виключення у вигляді цілого числа (int) [Exception](class.exception.html), але можливий і інший тип, що повертається в класах, що успадковують [Exception](class.exception.html) (наприклад, у вигляді рядка (string), якщо тип помилки [PDOException](class.pdoexception.html)
+Повертає код виключення у вигляді цілого числа (int) [Exception](class.exception.md), але можливий і інший тип, що повертається в класах, що успадковують [Exception](class.exception.md) (наприклад, у вигляді рядка (string), якщо тип помилки [PDOException](class.pdoexception.md)
 
 ### Дивіться також
 
--   [Exception::getCode()](exception.getcode.html) - Отримує код виключення
+-   [Exception::getCode()](exception.getcode.md) - Отримує код виключення

@@ -4,9 +4,9 @@
     
 -   [sodiumcryptoscalarmultbase »](function.sodium-crypto-scalarmult-base.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Отримує ключ із пароля, використовуючи Argon2
     

@@ -1,12 +1,12 @@
 Замінює дочірній вузол
 
--   [« DOMNode::removeChild](domnode.removechild.html)
+-   [« DOMNode::removeChild](domnode.removechild.md)
     
--   [DOMNodeList »](class.domnodelist.html)
+-   [DOMNodeList »](class.domnodelist.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMNode](class.domnode.html)
+-   [DOMNode](class.domnode.md)
     
 -   Замінює дочірній вузол
     
@@ -29,7 +29,7 @@ public DOMNode::replaceChild(DOMNode $node, DOMNode $child): DOMNode|false
 
 `node`
 
-Новий вузол. Повинен бути частиною цільового документа, тобто створений за допомогою одного з методів DOMDocument->createXXX() або імпортований у документ через [DOMDocument::importNode](domdocument.importnode.html)
+Новий вузол. Повинен бути частиною цільового документа, тобто створений за допомогою одного з методів DOMDocument->createXXX() або імпортований у документ через [DOMDocument::importNode](domdocument.importnode.md)
 
 `child`
 
@@ -59,6 +59,6 @@ public DOMNode::replaceChild(DOMNode $node, DOMNode $child): DOMNode|false
 
 ### Дивіться також
 
--   [DOMChildNode::replaceWith()](domchildnode.replacewith.html) - Замінює вузол новими вузлами
--   [DOMNode::appendChild()](domnode.appendchild.html) - Додає новий дочірній вузол до кінця списку нащадків
--   [DOMNode::removeChild()](domnode.removechild.html) - видаляє дочірній вузол зі списку нащадків
+-   [DOMChildNode::replaceWith()](domchildnode.replacewith.md) - Замінює вузол новими вузлами
+-   [DOMNode::appendChild()](domnode.appendchild.md) - Додає новий дочірній вузол до кінця списку нащадків
+-   [DOMNode::removeChild()](domnode.removechild.md) - видаляє дочірній вузол зі списку нащадків

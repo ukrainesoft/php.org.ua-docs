@@ -1,12 +1,12 @@
 Перевіряє, чи об'єкт має попереднє зображення
 
--   [« Imagick::hasNextImage](imagick.hasnextimage.html)
+-   [« Imagick::hasNextImage](imagick.hasnextimage.md)
     
--   [Imagick::identifyFormat »](imagick.identifyformat.html)
+-   [Imagick::identifyFormat »](imagick.identifyformat.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Перевіряє, чи об'єкт має попереднє зображення
     

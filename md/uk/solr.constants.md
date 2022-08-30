@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](solr.resources.html)
+-   [« Типи ресурсів](solr.resources.md)
     
--   [Функции Solr »](ref.solr.html)
+-   [Функции Solr »](ref.solr.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Solr](book.solr.html)
+-   [Solr](book.solr.md)
     
 -   Обумовлені константи
     

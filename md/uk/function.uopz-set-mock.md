@@ -4,9 +4,9 @@
     
 -   [uopzsetproperty »](function.uopz-set-property.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.md)
     
 -   Використовувати імітатор замість класу для нових об'єктів
     
@@ -45,9 +45,9 @@ uopz_set_mock(string $class, mixed $mock): void
 
 ### список змін
 
-| Версия     | Описание                                                                                                                                                                                                                               |
-|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| uopz 6.0.0 | Імітування статичних функцій не підтримуються цією функцією. Замість цього слід використовувати [uopzredefine()](function.uopz-redefine.html) і [uopzsetreturn()](function.uopz-set-return.html), або [Componere](book.componere.html) |
+| Версия | Описание |
+| --- | --- |
+| uopz 6.0.0 | Імітування статичних функцій не підтримуються цією функцією. Замість цього слід використовувати [uopzredefine()](function.uopz-redefine.html) і [uopzsetreturn()](function.uopz-set-return.html), або [Componere](book.componere.md) |
 
 ### Приклади
 

@@ -1,12 +1,12 @@
 Повертає значення параметра фасету
 
--   [« SolrQuery::getExpandSortFields](solrquery.getexpandsortfields.html)
+-   [« SolrQuery::getExpandSortFields](solrquery.getexpandsortfields.md)
     
--   [SolrQuery::getFacetDateEnd »](solrquery.getfacetdateend.html)
+-   [SolrQuery::getFacetDateEnd »](solrquery.getfacetdateend.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає значення параметра фасету
     

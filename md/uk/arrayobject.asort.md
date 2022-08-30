@@ -1,12 +1,12 @@
 Сортувати записи за значенням
 
--   [« ArrayObject::append](arrayobject.append.html)
+-   [« ArrayObject::append](arrayobject.append.md)
     
--   [ArrayObject::construct »](arrayobject.construct.html)
+-   [ArrayObject::construct »](arrayobject.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayObject](class.arrayobject.html)
+-   [ArrayObject](class.arrayobject.md)
     
 -   Сортувати записи за значенням
     
@@ -39,11 +39,11 @@ public ArrayObject::asort(int $flags = SORT_REGULAR): bool
 
 Прапори типу сортування:
 
--   **`SORT_REGULAR`** - Звичайне порівняння елементів; подробиці описані в розділі [оператори порівняння](language.operators.comparison.html)
+-   **`SORT_REGULAR`** - Звичайне порівняння елементів; подробиці описані в розділі [оператори порівняння](language.operators.comparison.md)
 -   **`SORT_NUMERIC`** - числове порівняння елементів
 -   **`SORT_STRING`** - рядкове порівняння елементів
--   **`SORT_LOCALE_STRING`** - Порівняння елементів як рядки на основі поточного мовного стандарту. Використовується мовний стандарт, який можна змінити за допомогою [setlocale()](function.setlocale.html)
--   **`SORT_NATURAL`** - порівняння елементів як рядки, використовуючи "природний порядок", наприклад [natsort()](function.natsort.html)
+-   **`SORT_LOCALE_STRING`** - Порівняння елементів як рядки на основі поточного мовного стандарту. Використовується мовний стандарт, який можна змінити за допомогою [setlocale()](function.setlocale.md)
+-   **`SORT_NATURAL`** - порівняння елементів як рядки, використовуючи "природний порядок", наприклад [natsort()](function.natsort.md)
 -   **`SORT_FLAG_CASE`** - можна об'єднувати (побітове АБО) з **`SORT_STRING`** або **`SORT_NATURAL`** для сортування рядків без урахування регістру
 
 ### Значення, що повертаються
@@ -79,9 +79,9 @@ a = orange
 
 ### Дивіться також
 
--   [ArrayObject::ksort()](arrayobject.ksort.html) - Сортувати записи за ключами
--   [ArrayObject::natsort()](arrayobject.natsort.html) - Сортувати масив, використовуючи алгоритм "natural order"
--   [ArrayObject::natcasesort()](arrayobject.natcasesort.html) - Сортувати масив, використовуючи реєстронезалежний алгоритм "natural order"
--   [ArrayObject::uasort()](arrayobject.uasort.html) - Сортувати записи, використовуючи функцію користувача для порівняння елементів і зберігаючи при цьому зв'язок ключ/значення
--   [ArrayObject::uksort()](arrayobject.uksort.html) - Сортувати масив за ключами, використовуючи функцію користувача для порівняння
--   [asort()](function.asort.html) - Сортує масив у порядку зростання та підтримує асоціацію індексів
+-   [ArrayObject::ksort()](arrayobject.ksort.md) - Сортувати записи за ключами
+-   [ArrayObject::natsort()](arrayobject.natsort.md) - Сортувати масив, використовуючи алгоритм "natural order"
+-   [ArrayObject::natcasesort()](arrayobject.natcasesort.md) - Сортувати масив, використовуючи реєстронезалежний алгоритм "natural order"
+-   [ArrayObject::uasort()](arrayobject.uasort.md) - Сортувати записи, використовуючи функцію користувача для порівняння елементів і зберігаючи при цьому зв'язок ключ/значення
+-   [ArrayObject::uksort()](arrayobject.uksort.md) - Сортувати масив за ключами, використовуючи функцію користувача для порівняння
+-   [asort()](function.asort.md) - Сортує масив у порядку зростання та підтримує асоціацію індексів

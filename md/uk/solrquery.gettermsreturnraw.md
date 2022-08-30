@@ -1,12 +1,12 @@
 Чи слід повертати необроблені символи
 
--   [« SolrQuery::getTermsPrefix](solrquery.gettermsprefix.html)
+-   [« SolrQuery::getTermsPrefix](solrquery.gettermsprefix.md)
     
--   [SolrQuery::getTermsSort »](solrquery.gettermssort.html)
+-   [SolrQuery::getTermsSort »](solrquery.gettermssort.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Чи слід повертати необроблені символи
     

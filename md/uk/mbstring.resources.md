@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](mbstring.configuration.html)
+-   [« Налаштування під час виконання](mbstring.configuration.md)
     
--   [Предопределённые константы »](mbstring.constants.html)
+-   [Обумовлені константи »](mbstring.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mbstring.setup.html)
+-   [Встановлення та налаштування](mbstring.setup.md)
     
 -   Типи ресурсів
     

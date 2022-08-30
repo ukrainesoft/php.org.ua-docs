@@ -4,9 +4,9 @@
     
 -   [псsetborderdash »](function.ps-set-border-dash.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Встановлює колір межі анотацій
     

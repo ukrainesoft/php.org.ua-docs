@@ -2,27 +2,27 @@
 
 -   [« geoiptimezoneбcountryandregion](function.geoip-time-zone-by-country-and-region.html)
     
--   [Введение »](intro.fann.html)
+-   [Введение »](intro.fann.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Інші базові модулі](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.md)
     
 -   Швидка штучна нейронна мережа (Fast Artificial Neural Network або FANN)
     
 
 # Швидка штучна нейронна мережа (Fast Artificial Neural Network або FANN)
 
--   [Введение](intro.fann.html)
--   [Установка и настройка](fann.setup.html)
-    -   [Требования](fann.requirements.html)
-    -   [Установка](fann.installation.html)
-    -   [Настройка во время выполнения](fann.configuration.html)
-    -   [Типы ресурсов](fann.resources.html)
--   [Предопределённые константы](fann.constants.html)
--   [Примеры](fann.examples.html)
+-   [Введение](intro.fann.md)
+-   [Встановлення та налаштування](fann.setup.md)
+    -   [Вимоги](fann.requirements.md)
+    -   [Установка](fann.installation.md)
+    -   [Налаштування під час виконання](fann.configuration.md)
+    -   [Типи ресурсів](fann.resources.md)
+-   [Обумовлені константи](fann.constants.md)
+-   [Приклади](fann.examples.md)
     -   [Обучение XOR](fann.examples-1.html)
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     -   [fanncascadetrainвінdata](function.fann-cascadetrain-on-data.html) — Навчання по всьому набору даних протягом певного періоду часу за допомогою алгоритму Cascade2
     -   [fanncascadetrainвінfile](function.fann-cascadetrain-on-file.html) — Навчання на даних прочитаних із файлу за допомогою алгоритму Cascade2
     -   [fannclearscalingparams](function.fann-clear-scaling-params.html) — Очищення параметрів масштабування
@@ -164,9 +164,9 @@
     -   [fanntrainвінdata](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на тимчасовому інтервалі
     -   [fanntrainвінfile](function.fann-train-on-file.html) — Навчання на повному наборі даних, прочитаному з файлу, на часовому інтервалі
     -   [fanntrain](function.fann-train.html) — Провести одну ітерацію навчання з набором вхідних даних та бажаним результатом
--   [FANNConnection](class.fannconnection.html) - Клас FANNConnection
-    -   [FANNConnection::construct](fannconnection.construct.html) - Конструктор зв'язку
-    -   [FANNConnection::getFromNeuron](fannconnection.getfromneuron.html) — Повертає позицію стартового нейрона
-    -   [FANNConnection::getToNeuron](fannconnection.gettoneuron.html) — Повертає позицію кінцевого нейрона
-    -   [FANNConnection::getWeight](fannconnection.getweight.html) — Повертає вагу зв'язку
-    -   [FANNConnection::setWeight](fannconnection.setweight.html) - Встановлює вагу зв'язку
+-   [FANNConnection](class.fannconnection.md) - Клас FANNConnection
+    -   [FANNConnection::construct](fannconnection.construct.md) - Конструктор зв'язку
+    -   [FANNConnection::getFromNeuron](fannconnection.getfromneuron.md) — Повертає позицію стартового нейрона
+    -   [FANNConnection::getToNeuron](fannconnection.gettoneuron.md) — Повертає позицію кінцевого нейрона
+    -   [FANNConnection::getWeight](fannconnection.getweight.md) — Повертає вагу зв'язку
+    -   [FANNConnection::setWeight](fannconnection.setweight.md) - Встановлює вагу зв'язку

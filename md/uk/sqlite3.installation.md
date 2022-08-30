@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](sqlite3.requirements.html)
+-   [« Вимоги](sqlite3.requirements.md)
     
--   [Настройка во время выполнения »](sqlite3.configuration.html)
+-   [Налаштування під час виконання »](sqlite3.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](sqlite3.setup.html)
+-   [Встановлення та налаштування](sqlite3.setup.md)
     
 -   Встановлення
     

@@ -4,9 +4,9 @@
     
 -   [ssh2connect »](function.ssh2-connect.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Аутентифікація з відкритим ключем
     

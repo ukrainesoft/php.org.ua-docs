@@ -1,12 +1,12 @@
 Інтерфейс SplObserver
 
--   [« ArrayObject::unserialize](arrayobject.unserialize.html)
+-   [« ArrayObject::unserialize](arrayobject.unserialize.md)
     
--   [SplObserver::update »](splobserver.update.html)
+-   [SplObserver::update »](splobserver.update.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Различные классы и интерфейсы](spl.misc.html)
+-   [Різні класи та інтерфейси](spl.misc.md)
     
 -   Інтерфейс SplObserver
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Інтерфейс **SplObserver** використовується спільно з [SplSubject](class.splsubject.html) для реалізації шаблону проектування Спостерігач (Observer).
+Інтерфейс **SplObserver** використовується спільно з [SplSubject](class.splsubject.md) для реалізації шаблону проектування Спостерігач (Observer).
 
 ## Огляд інтерфейсів
 
@@ -39,4 +39,4 @@
 
 ## Зміст
 
--   [SplObserver::update](splobserver.update.html) - Отримати оновлення від суб'єкта
+-   [SplObserver::update](splobserver.update.md) - Отримати оновлення від суб'єкта

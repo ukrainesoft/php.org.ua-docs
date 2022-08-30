@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](enchant.configuration.html)
+-   [« Налаштування під час виконання](enchant.configuration.html)
     
--   [Предопределённые константы »](enchant.constants.html)
+-   [Обумовлені константи »](enchant.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](enchant.setup.html)
+-   [Встановлення та налаштування](enchant.setup.html)
     
 -   Типи ресурсів
     

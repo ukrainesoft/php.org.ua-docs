@@ -1,12 +1,12 @@
 Конструктор класу LimitIterator
 
--   [« LimitIterator](class.limititerator.html)
+-   [« LimitIterator](class.limititerator.md)
     
--   [LimitIterator::current »](limititerator.current.html)
+-   [LimitIterator::current »](limititerator.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LimitIterator](class.limititerator.html)
+-   [LimitIterator](class.limititerator.md)
     
 -   Конструктор класу LimitIterator
     
@@ -19,15 +19,15 @@ LimitIterator::construct - Конструктор класу LimitIterator
 
 ### Опис
 
-public **LimitIterator::construct**[Iterator](class.iterator.html) `$iterator`, int `$offset` = 0, int `$limit`
+public **LimitIterator::construct**[Iterator](class.iterator.md) `$iterator`, int `$offset` = 0, int `$limit`
 
-Створює новий об'єкт класу [LimitIterator](class.limititerator.html) на основі заданого об'єкта `iterator`, початкового зміщення `offset` та максимальної кількості ітерацій `limit`
+Створює новий об'єкт класу [LimitIterator](class.limititerator.md) на основі заданого об'єкта `iterator`, початкового зміщення `offset` та максимальної кількості ітерацій `limit`
 
 ### Список параметрів
 
 `iterator`
 
-Об'єкт-ітератор [Iterator](class.iterator.html), Число ітерацій якого потрібно обмежити.
+Об'єкт-ітератор [Iterator](class.iterator.md), Число ітерацій якого потрібно обмежити.
 
 `offset`
 
@@ -39,14 +39,14 @@ public **LimitIterator::construct**[Iterator](class.iterator.html) `$iterator`, 
 
 ### Помилки
 
-Викидає виняток [ValueError](class.valueerror.html), якщо зміщення `offset` виявиться менше `0`, або якщо `limit` виявиться менше `-1`
+Викидає виняток [ValueError](class.valueerror.md), якщо зміщення `offset` виявиться менше `0`, або якщо `limit` виявиться менше `-1`
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тепер викидає виняток [ValueError](class.valueerror.html), якщо зміщення `offset` виявиться менше `0`; раніше викидався виняток [RuntimeException](class.runtimeexception.html) |
-|        | Тепер викидає виняток [ValueError](class.valueerror.html), якщо зміщення `limit` виявиться менше `-1`; раніше викидався виняток [RuntimeException](class.runtimeexception.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зміщення `offset` виявиться менше `0`; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
+|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зміщення `limit` виявиться менше `-1`; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
 
 ### Приклади
 
@@ -72,4 +72,4 @@ d
 
 ### Дивіться також
 
--   [Примеры использования LimitIterator](class.limititerator.html#limititerator.examples)
+-   [Приклади використання LimitIterator](class.limititerator.html#limititerator.examples)

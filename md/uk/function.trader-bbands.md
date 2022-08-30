@@ -4,9 +4,9 @@
     
 -   [traderbeta »](function.trader-beta.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Смуги Боллінджера
     
@@ -43,7 +43,7 @@ trader_bbands(    array $real,    int $timePeriod = ?,    float $nbD
 
 `mAType`
 
-Тип ковзної середньої. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.html)
+Тип ковзної середньої. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
 
 ### Значення, що повертаються
 

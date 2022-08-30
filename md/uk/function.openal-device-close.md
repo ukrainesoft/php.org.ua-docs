@@ -4,9 +4,9 @@
     
 -   [openaldeviceopen »](function.openal-device-open.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenAL](ref.openal.html)
+-   [Функции OpenAL](ref.openal.md)
     
 -   Закрити пристрій OpenAL
     
@@ -27,7 +27,7 @@ openal_device_close(resource $device): bool
 
 `device`
 
-Ресурс [Open AL(Device)](openal.resources.html) (Створений раніше за допомогою [openaldeviceopen()](function.openal-device-open.html)), який потрібно закрити.
+Ресурс [Open AL(Device)](openal.resources.md) (Створений раніше за допомогою [openaldeviceopen()](function.openal-device-open.html)), який потрібно закрити.
 
 ### Значення, що повертаються
 

@@ -1,12 +1,12 @@
 Отримати символ Unicode за його кодом
 
--   [« IntlChar::charType](intlchar.chartype.html)
+-   [« IntlChar::charType](intlchar.chartype.md)
     
--   [IntlChar::digit »](intlchar.digit.html)
+-   [IntlChar::digit »](intlchar.digit.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Отримати символ Unicode за його кодом
     
@@ -25,7 +25,7 @@ public static IntlChar::chr(int|string $codepoint): ?string
 
 Повертає рядок, що містить символ Unicode із заданим кодом.
 
-Ця функція протилежна дії функції [IntlChar::ord()](intlchar.ord.html)
+Ця функція протилежна дії функції [IntlChar::ord()](intlchar.ord.md)
 
 ### Список параметрів
 
@@ -61,6 +61,6 @@ string(3) "☃"
 
 ### Дивіться також
 
--   [IntlChar::ord()](intlchar.ord.html) - Отримати код символ Unicode
+-   [IntlChar::ord()](intlchar.ord.md) - Отримати код символ Unicode
 -   [мбchr()](function.mb-chr.html) - Повертає символ за значенням кодової точки Unicode
--   [chr()](function.chr.html) - Генерує односимвольний рядок за заданим числом
+-   [chr()](function.chr.md) - Генерує односимвольний рядок за заданим числом

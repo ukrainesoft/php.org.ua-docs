@@ -1,12 +1,12 @@
 Перевіряє, чи є аргумент необов'язковим
 
--   [« ReflectionParameter::isDefaultValueConstant](reflectionparameter.isdefaultvalueconstant.html)
+-   [« ReflectionParameter::isDefaultValueConstant](reflectionparameter.isdefaultvalueconstant.md)
     
--   [ReflectionParameter::isPassedByReference »](reflectionparameter.ispassedbyreference.html)
+-   [ReflectionParameter::isPassedByReference »](reflectionparameter.ispassedbyreference.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionParameter](class.reflectionparameter.html)
+-   [ReflectionParameter](class.reflectionparameter.md)
     
 -   Перевіряє, чи є аргумент необов'язковим
     
@@ -35,4 +35,4 @@ public ReflectionParameter::isOptional(): bool
 
 ### Дивіться також
 
--   [ReflectionParameter::getName()](reflectionparameter.getname.html) - Отримання імені параметра
+-   [ReflectionParameter::getName()](reflectionparameter.getname.md) - Отримання імені параметра

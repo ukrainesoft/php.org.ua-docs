@@ -4,7 +4,7 @@
     
 -   [YafDispatcher::throwException »](yaf-dispatcher.throwexception.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafDispatcher](class.yaf-dispatcher.html)
     
@@ -122,10 +122,10 @@ class Smarty_Adapter implements Yaf_View_Interface
      * Назначьте переменные шаблону
      *
      * Позволяет установить конкретный ключ для указанного значения
-     * ИЛИ передать массив пар ключ => значение для массовой установки.
+     * ИЛИ передать Масив пар ключ => значение для массовой установки.
      *
      * @see __set()
-     * @param string|array $spec Стратегия присваивания (ключ или массив пар ключ => значение)
+     * @param string|array $spec Стратегия присваивания (ключ или Масив пар ключ => значение)
      * @param mixed $value (Optional) При присвоении именованной переменной используйте её как значение.
      * @return void
      */

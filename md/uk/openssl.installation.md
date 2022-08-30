@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](openssl.requirements.html)
+-   [« Вимоги](openssl.requirements.md)
     
--   [Настройка во время выполнения »](openssl.configuration.html)
+-   [Налаштування під час виконання »](openssl.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](openssl.setup.html)
+-   [Встановлення та налаштування](openssl.setup.md)
     
 -   Встановлення
     
@@ -39,6 +39,6 @@
 
 ### список змін
 
-| Версия | Описание                                                                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Конфігураційний шлях OpenSSL було змінено з C:usrlocalssl на C:Program FilesCommon FilesSSL або C:Program Files (x86)Common FilesSSL відповідно. |
+| Версия | Описание |
+| --- | --- |
+|  | Конфігураційний шлях OpenSSL було змінено з C:usrlocalssl на C:Program FilesCommon FilesSSL або C:Program Files (x86)Common FilesSSL відповідно. |

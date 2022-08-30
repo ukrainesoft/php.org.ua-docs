@@ -4,9 +4,9 @@
     
 -   [ocinewcursor »](function.oci-new-cursor.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8 Функции](ref.oci8.html)
+-   [OCI8 Функции](ref.oci8.md)
     
 -   Встановлює нове з'єднання із сервером Oracle
     
@@ -71,8 +71,8 @@ oci_new_connect(    string $username,    string $password,    ?strin
 
 ### список змін
 
-| Версия                 | Описание                                          |
-|------------------------|---------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | `connection_string` тепер допускає значення null. |
 
 ### Приклади

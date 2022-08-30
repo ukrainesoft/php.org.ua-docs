@@ -1,12 +1,12 @@
 Генерує хеш SHA-256
 
--   [« Imagick::getImageScene](imagick.getimagescene.html)
+-   [« Imagick::getImageScene](imagick.getimagescene.md)
     
--   [Imagick::getImageSize »](imagick.getimagesize.html)
+-   [Imagick::getImageSize »](imagick.getimagesize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Генерує хеш SHA-256
     

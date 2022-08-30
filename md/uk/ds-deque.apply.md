@@ -4,7 +4,7 @@
     
 -   [ДсDeque::capacity »](ds-deque.capacity.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Двостороння черга](class.ds-deque.html)
     
@@ -33,7 +33,7 @@ public Ds\Deque::apply(callable $callback): void
 callback(mixed $value): mixed
 ```
 
-Об'єкт типу [callable](language.types.callable.html)
+Об'єкт типу [callable](language.types.callable.md)
 
 Callback-функція має повертати нове значення, яке замінить поточне.
 

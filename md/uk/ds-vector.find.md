@@ -4,7 +4,7 @@
     
 -   [ДсVector::first »](ds-vector.first.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Вектор](class.ds-vector.html)
     

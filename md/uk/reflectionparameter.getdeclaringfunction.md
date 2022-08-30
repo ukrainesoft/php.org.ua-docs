@@ -1,12 +1,12 @@
 Отримання функції, що оголошує
 
--   [« ReflectionParameter::getDeclaringClass](reflectionparameter.getdeclaringclass.html)
+-   [« ReflectionParameter::getDeclaringClass](reflectionparameter.getdeclaringclass.md)
     
--   [ReflectionParameter::getDefaultValue »](reflectionparameter.getdefaultvalue.html)
+-   [ReflectionParameter::getDefaultValue »](reflectionparameter.getdefaultvalue.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionParameter](class.reflectionparameter.html)
+-   [ReflectionParameter](class.reflectionparameter.md)
     
 -   Отримання функції, що оголошує
     
@@ -35,8 +35,8 @@ public ReflectionParameter::getDeclaringFunction(): ReflectionFunctionAbstract
 
 ### Значення, що повертаються
 
-Об'єкт класу [ReflectionFunction](class.reflectionfunction.html)
+Об'єкт класу [ReflectionFunction](class.reflectionfunction.md)
 
 ### Дивіться також
 
--   [ReflectionParameter::getDeclaringClass()](reflectionparameter.getdeclaringclass.html) - Отримання класу, що оголошує
+-   [ReflectionParameter::getDeclaringClass()](reflectionparameter.getdeclaringclass.md) - Отримання класу, що оголошує

@@ -1,12 +1,12 @@
 Отримати "дзеркальний" символ за кодом
 
--   [« IntlChar::charFromName](intlchar.charfromname.html)
+-   [« IntlChar::charFromName](intlchar.charfromname.md)
     
--   [IntlChar::charName »](intlchar.charname.html)
+-   [IntlChar::charName »](intlchar.charname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Отримати "дзеркальний" символ за кодом
     
@@ -61,5 +61,5 @@ string(2) ")"
 
 ### Дивіться також
 
--   [IntlChar::isMirrored()](intlchar.ismirrored.html) - Перевірити, якщо у символу властивість BidiMirrored
+-   [IntlChar::isMirrored()](intlchar.ismirrored.md) - Перевірити, якщо у символу властивість BidiMirrored
 -   **`IntlChar::PROPERTY_BIDI_MIRRORED`**

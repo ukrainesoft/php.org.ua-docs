@@ -1,12 +1,12 @@
 Встановлює кілька параметрів Memcached
 
--   [« Memcached::setOption](memcached.setoption.html)
+-   [« Memcached::setOption](memcached.setoption.md)
     
--   [Memcached::setSaslAuthData »](memcached.setsaslauthdata.html)
+-   [Memcached::setSaslAuthData »](memcached.setsaslauthdata.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Встановлює кілька параметрів Memcached
     
@@ -23,7 +23,7 @@ Memcached::setOptions — Встановлює декілька параметр
 public Memcached::setOptions(array $options): bool
 ```
 
-**Memcached::setOptions()** аналогічний методу [Memcached::setOption()](memcached.setoption.html)але приймає масив параметрів.
+**Memcached::setOptions()** аналогічний методу [Memcached::setOption()](memcached.setoption.md)але приймає масив параметрів.
 
 ### Список параметрів
 
@@ -61,6 +61,6 @@ Prefix key is now: widgets
 
 ### Дивіться також
 
--   [Memcached::getOption()](memcached.getoption.html) - Отримує значення Memcached параметра
--   [Memcached::setOption()](memcached.setoption.html) - Встановлює значення параметра для Memcached
--   [Memcached Constants](memcached.constants.html)
+-   [Memcached::getOption()](memcached.getoption.md) - Отримує значення Memcached параметра
+-   [Memcached::setOption()](memcached.setoption.md) - Встановлює значення параметра для Memcached
+-   [Memcached Constants](memcached.constants.md)

@@ -1,12 +1,12 @@
 Клас wkhtmltoxPDFConverter
 
--   [« Настройка во время выполнения](wkhtmltox.configuration.html)
+-   [« Налаштування під час виконання](wkhtmltox.configuration.md)
     
 -   [wkhtmltoxPDFConverter::add »](wkhtmltox-pdf-converter.add.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [wkhtmltox](book.wkhtmltox.html)
+-   [wkhtmltox](book.wkhtmltox.md)
     
 -   Клас wkhtmltoxPDFConverter
     

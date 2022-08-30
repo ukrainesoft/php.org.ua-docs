@@ -1,12 +1,12 @@
 Встановити обробник timestampNonceHandler
 
--   [« OAuthProvider::setRequestTokenPath](oauthprovider.setrequesttokenpath.html)
+-   [« OAuthProvider::setRequestTokenPath](oauthprovider.setrequesttokenpath.md)
     
--   [OAuthProvider::tokenHandler »](oauthprovider.tokenhandler.html)
+-   [OAuthProvider::tokenHandler »](oauthprovider.tokenhandler.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuthProvider](class.oauthprovider.html)
+-   [OAuthProvider](class.oauthprovider.md)
     
 -   Встановити обробник timestampNonceHandler
     
@@ -23,7 +23,7 @@ OAuthProvider::timestampNonceHandler — Встановити обробник t
 public OAuthProvider::timestampNonceHandler(callable $callback_function): void
 ```
 
-Встановлює callback-функцію, що використовується в [OAuthProvider::callTimestampNonceHandler()](oauthprovider.calltimestampnoncehandler.html). У цей обробник будуть передані помилки, що стосуються timestamp/nonce.
+Встановлює callback-функцію, що використовується в [OAuthProvider::callTimestampNonceHandler()](oauthprovider.calltimestampnoncehandler.md). У цей обробник будуть передані помилки, що стосуються timestamp/nonce.
 
 **Увага**
 
@@ -33,7 +33,7 @@ public OAuthProvider::timestampNonceHandler(callable $callback_function): void
 
 `callback_function`
 
-Функція типу [callable](language.types.callable.html)
+Функція типу [callable](language.types.callable.md)
 
 ### Значення, що повертаються
 
@@ -60,4 +60,4 @@ function timestampNonceChecker($provider) {
 
 ### Дивіться також
 
--   [OAuthProvider::callTimestampNonceHandler()](oauthprovider.calltimestampnoncehandler.html) - Викликати callback-функцію timestampNonceHandler
+-   [OAuthProvider::callTimestampNonceHandler()](oauthprovider.calltimestampnoncehandler.md) - Викликати callback-функцію timestampNonceHandler

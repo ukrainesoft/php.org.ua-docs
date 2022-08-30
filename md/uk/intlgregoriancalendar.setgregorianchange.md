@@ -1,12 +1,12 @@
 Встановлює дату зміни у григоріанському календарі
 
--   [« IntlGregorianCalendar::isLeapYear](intlgregoriancalendar.isleapyear.html)
+-   [« IntlGregorianCalendar::isLeapYear](intlgregoriancalendar.isleapyear.md)
     
--   [IntlTimeZone »](class.intltimezone.html)
+-   [IntlTimeZone »](class.intltimezone.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlGregorianCalendar](class.intlgregoriancalendar.html)
+-   [IntlGregorianCalendar](class.intlgregoriancalendar.md)
     
 -   Встановлює дату зміни у григоріанському календарі
     

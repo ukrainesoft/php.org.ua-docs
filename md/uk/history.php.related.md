@@ -1,12 +1,12 @@
 Історія суміжних з PHP проектів
 
--   [« Історія PHP](history.php.html)
+-   [« Історія PHP](history.php.md)
     
--   [Книги о PHP »](history.php.books.html)
+-   [Книги о PHP »](history.php.books.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Історія PHP та суміжних проектів](history.html)
+-   [Історія PHP та суміжних проектів](history.md)
     
 -   Історія суміжних з PHP проектів
     

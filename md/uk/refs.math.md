@@ -2,41 +2,41 @@
 
 -   [« mailparseuudecodeall](function.mailparse-uudecode-all.html)
     
--   [BC Math »](book.bc.html)
+-   [BC Math »](book.bc.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Справочник функций](funcref.html)
+-   [Справочник функций](funcref.md)
     
 -   Математичні модулі
     
 
 # Математичні модулі
 
--   [BC Math](book.bc.html) — Обчислення над числами з довільною точністю BCMath
-    -   [Введение](intro.bc.html)
-    -   [Установка и настройка](bc.setup.html)
-    -   [Предопределённые константы](bc.constants.html)
-    -   [Функции BC Math](ref.bc.html)
--   [GMP](book.gmp.html) — Обчислення над цілими числами із довільною точністю (GNU Multiple Precision)
-    -   [Введение](intro.gmp.html)
-    -   [Установка и настройка](gmp.setup.html)
-    -   [Предопределённые константы](gmp.constants.html)
-    -   [Примеры](gmp.examples.html)
-    -   [GMP Функції](ref.gmp.html)
-    -   [GMP](class.gmp.html) - Клас GMP
--   [Math](book.math.html) - Математичні функції
-    -   [Введение](intro.math.html)
-    -   [Установка и настройка](math.setup.html)
-    -   [Предопределённые константы](math.constants.html)
-    -   [Математичні функції](ref.math.html)
--   [Статистика](book.stats.html)
-    -   [Введение](intro.stats.html)
-    -   [Установка и настройка](stats.setup.html)
-    -   [Предопределённые константы](stats.constants.html)
-    -   [Функції статистики](ref.stats.html)
--   [Trader](book.trader.html) - Технічний аналіз для трейдерів
-    -   [Введение](intro.trader.html)
-    -   [Установка и настройка](trader.setup.html)
-    -   [Предопределённые константы](trader.constants.html)
-    -   [Функции Trader](ref.trader.html)
+-   [BC Math](book.bc.md) — Обчислення над числами з довільною точністю BCMath
+    -   [Введение](intro.bc.md)
+    -   [Встановлення та налаштування](bc.setup.md)
+    -   [Обумовлені константи](bc.constants.md)
+    -   [Функции BC Math](ref.bc.md)
+-   [GMP](book.gmp.md) — Обчислення над цілими числами із довільною точністю (GNU Multiple Precision)
+    -   [Введение](intro.gmp.md)
+    -   [Встановлення та налаштування](gmp.setup.md)
+    -   [Обумовлені константи](gmp.constants.md)
+    -   [Приклади](gmp.examples.md)
+    -   [GMP Функції](ref.gmp.md)
+    -   [GMP](class.gmp.md) - Клас GMP
+-   [Math](book.math.md) - Математичні функції
+    -   [Введение](intro.math.md)
+    -   [Встановлення та налаштування](math.setup.md)
+    -   [Обумовлені константи](math.constants.md)
+    -   [Математичні функції](ref.math.md)
+-   [Статистика](book.stats.md)
+    -   [Введение](intro.stats.md)
+    -   [Встановлення та налаштування](stats.setup.md)
+    -   [Обумовлені константи](stats.constants.md)
+    -   [Функції статистики](ref.stats.md)
+-   [Trader](book.trader.md) - Технічний аналіз для трейдерів
+    -   [Введение](intro.trader.md)
+    -   [Встановлення та налаштування](trader.setup.md)
+    -   [Обумовлені константи](trader.constants.md)
+    -   [Функции Trader](ref.trader.md)

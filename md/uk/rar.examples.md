@@ -1,19 +1,19 @@
 Приклади
 
--   [« Предопределённые константы](rar.constants.html)
+-   [« Обумовлені константи](rar.constants.md)
     
--   [Rar »](ref.rar.html)
+-   [Rar »](ref.rar.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Rar](book.rar.html)
+-   [Rar](book.rar.md)
     
 -   Приклади
     
 
 # Приклади
 
-Також дивіться приклади за посиланням [`rar://`wrapper](wrappers.rar.html)
+Також дивіться приклади за посиланням [`rar://`wrapper](wrappers.rar.md)
 
 **Приклад #1 Декомпресія на льоту**
 

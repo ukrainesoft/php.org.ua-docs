@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](tokenizer.constants.html)
+-   [« Обумовлені константи](tokenizer.constants.md)
     
--   [PhpToken »](class.phptoken.html)
+-   [PhpToken »](class.phptoken.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Лексер (Tokenizer)](book.tokenizer.html)
+-   [Лексер (Tokenizer)](book.tokenizer.md)
     
 -   Приклади
     
@@ -27,7 +27,7 @@ foreach ($tokens as $token) {
        // простая однабуквенная лексема
        echo $token;
    } else {
-       // массив с лексемой
+       // Масив с лексемой
        list($id, $text) = $token;
 
        switch ($id) {

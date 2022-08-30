@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](readline.configuration.html)
+-   [« Налаштування під час виконання](readline.configuration.md)
     
--   [Предопределённые константы »](readline.constants.html)
+-   [Обумовлені константи »](readline.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](readline.setup.html)
+-   [Встановлення та налаштування](readline.setup.md)
     
 -   Типи ресурсів
     

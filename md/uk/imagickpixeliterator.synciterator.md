@@ -1,12 +1,12 @@
 Синхронізує ітератор пікселів
 
--   [« ImagickPixelIterator::setIteratorRow](imagickpixeliterator.setiteratorrow.html)
+-   [« ImagickPixelIterator::setIteratorRow](imagickpixeliterator.setiteratorrow.md)
     
--   [ImagickKernel »](class.imagickkernel.html)
+-   [ImagickKernel »](class.imagickkernel.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickPixelIterator](class.imagickpixeliterator.html)
+-   [ImagickPixelIterator](class.imagickpixeliterator.md)
     
 -   Синхронізує ітератор пікселів
     

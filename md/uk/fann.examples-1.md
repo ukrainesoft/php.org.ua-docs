@@ -1,12 +1,12 @@
 Навчання XOR
 
--   [« Примеры](fann.examples.html)
+-   [« Приклади](fann.examples.md)
     
--   [Функции Fann »](ref.fann.html)
+-   [Функции Fann »](ref.fann.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](fann.examples.html)
+-   [Приклади](fann.examples.md)
     
 -   Навчання XOR
     

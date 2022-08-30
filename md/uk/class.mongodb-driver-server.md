@@ -4,9 +4,9 @@
     
 -   [MongoDBDriverServer::construct »](mongodb-driver-server.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBDriver](book.mongodb.html)
+-   [MongoDBDriver](book.mongodb.md)
     
 -   Клас MongoDBDriverServer
     
@@ -148,10 +148,10 @@ final public isSecondary(): bool
 
 ## список змін
 
-| Версия                                                           | Описание |
-|------------------------------------------------------------------|----------|
-| PECL mongodb 1.11.0                                              |          |
-| Додано константу **`MongoDB\Driver\Server::TYPE_LOAD_BALANCER`** |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.11.0 |  |
+| Додано константу **`MongoDB\Driver\Server::TYPE_LOAD_BALANCER`** |  |
 
 ## Зміст
 

@@ -1,12 +1,12 @@
 Створює новий об'єкт класу DOM Entity Reference
 
--   [« DOMEntityReference](class.domentityreference.html)
+-   [« DOMEntityReference](class.domentityreference.md)
     
--   [DOMException »](class.domexception.html)
+-   [DOMException »](class.domexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMEntityReference](class.domentityreference.html)
+-   [DOMEntityReference](class.domentityreference.md)
     
 -   Створює новий об'єкт класу DOM Entity Reference
     
@@ -21,7 +21,7 @@ DOMEntityReference::construct — Створює новий об'єкт клас
 
 public **DOMEntityReference::construct**(string `$name`
 
-Створює новий об'єкт класу [DOMEntityReference](class.domentityreference.html)
+Створює новий об'єкт класу [DOMEntityReference](class.domentityreference.md)
 
 ### Список параметрів
 
@@ -46,4 +46,4 @@ echo $dom->saveXML(); /* <?xml version="1.0" encoding="iso-8859-1"?><root><
 
 ### Дивіться також
 
--   [DOMDocument::createEntityReference()](domdocument.createentityreference.html) - Створити новий вузол посилання на суть
+-   [DOMDocument::createEntityReference()](domdocument.createentityreference.md) - Створити новий вузол посилання на суть

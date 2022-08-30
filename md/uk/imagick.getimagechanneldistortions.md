@@ -1,12 +1,12 @@
 Повертає спотворення каналу
 
--   [« Imagick::getImageChannelDistortion](imagick.getimagechanneldistortion.html)
+-   [« Imagick::getImageChannelDistortion](imagick.getimagechanneldistortion.md)
     
--   [Imagick::getImageChannelExtrema »](imagick.getimagechannelextrema.html)
+-   [Imagick::getImageChannelExtrema »](imagick.getimagechannelextrema.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає спотворення каналу
     
@@ -37,7 +37,7 @@ public Imagick::getImageChannelDistortions(Imagick $reference, int $metric, int 
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константы каналов](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
 
 ### Значення, що повертаються
 

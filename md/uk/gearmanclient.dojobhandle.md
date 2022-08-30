@@ -1,12 +1,12 @@
 Отримати дескриптор завдання, що виконується
 
--   [« GearmanClient::doHighBackground](gearmanclient.dohighbackground.html)
+-   [« GearmanClient::doHighBackground](gearmanclient.dohighbackground.md)
     
--   [GearmanClient::doLow »](gearmanclient.dolow.html)
+-   [GearmanClient::doLow »](gearmanclient.dolow.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanClient](class.gearmanclient.html)
+-   [GearmanClient](class.gearmanclient.md)
     
 -   Отримати дескриптор завдання, що виконується
     
@@ -23,7 +23,7 @@ GearmanClient::doJobHandle — Отримати дескриптор завда�
 public GearmanClient::doJobHandle(): string
 ```
 
-Отримує дескриптор завдання для завдання, що виконується. Цей метод повинен використовуватися між повторними викликами [GearmanClient::doNormal()](gearmanclient.donormal.html). Дескриптор завдання може використовуватися отримання інформації про завдання.
+Отримує дескриптор завдання для завдання, що виконується. Цей метод повинен використовуватися між повторними викликами [GearmanClient::doNormal()](gearmanclient.donormal.md). Дескриптор завдання може використовуватися отримання інформації про завдання.
 
 ### Список параметрів
 
@@ -35,4 +35,4 @@ public GearmanClient::doJobHandle(): string
 
 ### Дивіться також
 
--   [GearmanClient::jobStatus()](gearmanclient.jobstatus.html) - Набуття статусу виконання фонового завдання
+-   [GearmanClient::jobStatus()](gearmanclient.jobstatus.md) - Набуття статусу виконання фонового завдання

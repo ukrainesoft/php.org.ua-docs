@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](apache.installation.html)
+-   [« Встановлення](apache.installation.md)
     
--   [Типы ресурсов »](apache.resources.html)
+-   [Типи ресурсів »](apache.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](apache.setup.html)
+-   [Встановлення та налаштування](apache.setup.md)
     
 -   Налаштування під час виконання
     
@@ -23,14 +23,14 @@ php_flag engine off
 
 **Установки конфігурації Apache**
 
-| Имя                                                             | По умолчанию | Место изменения | Список изменений |
-|-----------------------------------------------------------------|--------------|-----------------|------------------|
-| [engine](apache.configuration.html#ini.engine)                  | "1"          | PHPINIALL       |                  |
-| [childterminate](apache.configuration.html#ini.child-terminate) | "0"          | PHPINIALL       |                  |
-| [lastmodified](apache.configuration.html#ini.last-modified)     | "0"          | PHPINIALL       |                  |
-| [xbithack](apache.configuration.html#ini.xbithack)              | "0"          | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [engine](apache.configuration.html#ini.engine) | "1" | PHPINIALL |  |
+| [childterminate](apache.configuration.html#ini.child-terminate) | "0" | PHPINIALL |  |
+| [lastmodified](apache.configuration.html#ini.last-modified) | "0" | PHPINIALL |  |
+| [xbithack](apache.configuration.html#ini.xbithack) | "0" | PHPINIALL |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 
@@ -40,7 +40,7 @@ php_flag engine off
 
 `child_terminate` bool
 
-Ця установка керує тим, чи можуть скрипти PHP вимагати закінчення дочірніх процесів після завершення запиту. Дивіться також [apachechildterminate()](function.apache-child-terminate.html)
+Ця Встановлення керує тим, чи можуть скрипти PHP вимагати закінчення дочірніх процесів після завершення запиту. Дивіться також [apachechildterminate()](function.apache-child-terminate.html)
 
 `last_modified` bool
 

@@ -1,12 +1,12 @@
 Отримує тип часу, який використовується IntlDateFormatter
 
--   [« IntlDateFormatter::getPattern](intldateformatter.getpattern.html)
+-   [« IntlDateFormatter::getPattern](intldateformatter.getpattern.md)
     
--   [IntlDateFormatter::getTimeZoneId »](intldateformatter.gettimezoneid.html)
+-   [IntlDateFormatter::getTimeZoneId »](intldateformatter.gettimezoneid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlDateFormatter](class.intldateformatter.html)
+-   [IntlDateFormatter](class.intldateformatter.md)
     
 -   Отримує тип часу, який використовується IntlDateFormatter
     
@@ -43,7 +43,7 @@ datefmt_get_timetype(IntlDateFormatter $formatter): int|false
 
 ### Значення, що повертаються
 
-Значення поточного [типа даты](class.intldateformatter.html#intl.intldateformatter-constants) засоби форматування або **`false`** у разі виникнення помилки.
+Значення поточного [типу дати](class.intldateformatter.html#intl.intldateformatter-constants) засоби форматування або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -112,5 +112,5 @@ echo 'Второй отформатированный вывод ' . $fmt-
 
 ### Дивіться також
 
--   [datefmtgetdatetype()](intldateformatter.getdatetype.html) - Отримує тип дати, що використовується IntlDateFormatter
--   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtgetdatetype()](intldateformatter.getdatetype.md) - Отримує тип дати, що використовується IntlDateFormatter
+-   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати

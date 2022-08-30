@@ -1,12 +1,12 @@
 Сегментує зображення
 
--   [« Imagick::scaleImage](imagick.scaleimage.html)
+-   [« Imagick::scaleImage](imagick.scaleimage.md)
     
--   [Imagick::selectiveBlurImage »](imagick.selectiveblurimage.html)
+-   [Imagick::selectiveBlurImage »](imagick.selectiveblurimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Сегментує зображення
     

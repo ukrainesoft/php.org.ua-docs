@@ -1,12 +1,12 @@
 Отримує рядкову виставу викинутого об'єкта
 
--   [« Throwable::getPrevious](throwable.getprevious.html)
+-   [« Throwable::getPrevious](throwable.getprevious.md)
     
--   [ArrayAccess »](class.arrayaccess.html)
+-   [ArrayAccess »](class.arrayaccess.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Throwable](class.throwable.html)
+-   [Throwable](class.throwable.md)
     
 -   Отримує рядкову виставу викинутого об'єкта
     
@@ -33,4 +33,4 @@ abstract public Throwable::__toString(): string
 
 ### Дивіться також
 
--   [Exception::toString()](exception.tostring.html) - Строкове подання виключення
+-   [Exception::toString()](exception.tostring.md) - Строкове подання виключення

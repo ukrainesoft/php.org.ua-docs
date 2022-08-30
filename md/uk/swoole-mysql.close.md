@@ -4,7 +4,7 @@
     
 -   [SwooleMySQL::connect »](swoole-mysql.connect.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleMySQL](class.swoole-mysql.html)
     

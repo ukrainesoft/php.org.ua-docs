@@ -1,12 +1,12 @@
 Клас EventBuffer
 
--   [« EventBase::stop](eventbase.stop.html)
+-   [« EventBase::stop](eventbase.stop.md)
     
--   [EventBuffer::add »](eventbuffer.add.html)
+-   [EventBuffer::add »](eventbuffer.add.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](book.event.html)
+-   [Event](book.event.md)
     
 -   Клас EventBuffer
     
@@ -243,25 +243,25 @@ contiguousspace
 
 ## Зміст
 
--   [EventBuffer::add](eventbuffer.add.html) — Додає дані до кінця буфера подій
--   [EventBuffer::addBuffer](eventbuffer.addbuffer.html) — Переміщує всі дані з буфера екземпляру EventBuffer
--   [EventBuffer::appendFrom](eventbuffer.appendfrom.html) — Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера
--   [EventBuffer::construct](eventbuffer.construct.html) - Створює об'єкт EventBuffer
--   [EventBuffer::copyout](eventbuffer.copyout.html) — Копіює вказану кількість байтів з початку буфера
--   [EventBuffer::drain](eventbuffer.drain.html) — Видаляє вказану кількість байтів із початку буфера, нікуди не копіюючи
--   [EventBuffer::enableLocking](eventbuffer.enablelocking.html) - Опис
--   [EventBuffer::expand](eventbuffer.expand.html) - Резервує простір у буфері
--   [EventBuffer::freeze](eventbuffer.freeze.html) — Запобігає викликам, які змінюють буфер подій у разі успішного виконання
--   [EventBuffer::lock](eventbuffer.lock.html) — Отримує блокування буфера
--   [EventBuffer::prepend](eventbuffer.prepend.html) — Записує дані на початок буфера
--   [EventBuffer::prependBuffer](eventbuffer.prependbuffer.html) — Переміщує всі дані з вихідного буфера на початок поточного буфера
--   [EventBuffer::pullup](eventbuffer.pullup.html) — Лінеаризує дані в буфері та повертає їх вміст у вигляді рядка
--   [EventBuffer::read](eventbuffer.read.html) — Читає дані з evbuffer та виснажує прочитані байти
--   [EventBuffer::readFrom](eventbuffer.readfrom.html) — Читає дані з файлу до кінця буфера
--   [EventBuffer::readLine](eventbuffer.readline.html) — Витягує рядок із початку буфера
--   [EventBuffer::search](eventbuffer.search.html) - Сканує буфер на наявність рядка
--   [EventBuffer::searchEol](eventbuffer.searcheol.html) - Сканує буфер на наявність кінця рядка
--   [EventBuffer::substr](eventbuffer.substr.html) - Обрізає частину даних буфера
--   [EventBuffer::unfreeze](eventbuffer.unfreeze.html) — Повторно включає дзвінки, які змінюють буфер подій
--   [EventBuffer::unlock](eventbuffer.unlock.html) — Знімає блокування, встановлене EventBuffer::lock
--   [EventBuffer::write](eventbuffer.write.html) — Записує вміст буфера у файл чи сокет
+-   [EventBuffer::add](eventbuffer.add.md) — Додає дані до кінця буфера подій
+-   [EventBuffer::addBuffer](eventbuffer.addbuffer.md) — Переміщує всі дані з буфера екземпляру EventBuffer
+-   [EventBuffer::appendFrom](eventbuffer.appendfrom.md) — Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера
+-   [EventBuffer::construct](eventbuffer.construct.md) - Створює об'єкт EventBuffer
+-   [EventBuffer::copyout](eventbuffer.copyout.md) — Копіює вказану кількість байтів з початку буфера
+-   [EventBuffer::drain](eventbuffer.drain.md) — Видаляє вказану кількість байтів із початку буфера, нікуди не копіюючи
+-   [EventBuffer::enableLocking](eventbuffer.enablelocking.md) - Опис
+-   [EventBuffer::expand](eventbuffer.expand.md) - Резервує простір у буфері
+-   [EventBuffer::freeze](eventbuffer.freeze.md) — Запобігає викликам, які змінюють буфер подій у разі успішного виконання
+-   [EventBuffer::lock](eventbuffer.lock.md) — Отримує блокування буфера
+-   [EventBuffer::prepend](eventbuffer.prepend.md) — Записує дані на початок буфера
+-   [EventBuffer::prependBuffer](eventbuffer.prependbuffer.md) — Переміщує всі дані з вихідного буфера на початок поточного буфера
+-   [EventBuffer::pullup](eventbuffer.pullup.md) — Лінеаризує дані в буфері та повертає їх вміст у вигляді рядка
+-   [EventBuffer::read](eventbuffer.read.md) — Читає дані з evbuffer та виснажує прочитані байти
+-   [EventBuffer::readFrom](eventbuffer.readfrom.md) — Читає дані з файлу до кінця буфера
+-   [EventBuffer::readLine](eventbuffer.readline.md) — Витягує рядок із початку буфера
+-   [EventBuffer::search](eventbuffer.search.md) - Сканує буфер на наявність рядка
+-   [EventBuffer::searchEol](eventbuffer.searcheol.md) - Сканує буфер на наявність кінця рядка
+-   [EventBuffer::substr](eventbuffer.substr.md) - Обрізає частину даних буфера
+-   [EventBuffer::unfreeze](eventbuffer.unfreeze.md) — Повторно включає дзвінки, які змінюють буфер подій
+-   [EventBuffer::unlock](eventbuffer.unlock.md) — Знімає блокування, встановлене EventBuffer::lock
+-   [EventBuffer::write](eventbuffer.write.md) — Записує вміст буфера у файл чи сокет

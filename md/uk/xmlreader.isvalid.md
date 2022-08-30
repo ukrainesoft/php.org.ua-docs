@@ -1,12 +1,12 @@
 Показати, чи розбирається документ синтаксично правильним
 
--   [« XMLReader::getParserProperty](xmlreader.getparserproperty.html)
+-   [« XMLReader::getParserProperty](xmlreader.getparserproperty.md)
     
--   [XMLReader::lookupNamespace »](xmlreader.lookupnamespace.html)
+-   [XMLReader::lookupNamespace »](xmlreader.lookupnamespace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLReader](class.xmlreader.html)
+-   [XMLReader](class.xmlreader.md)
     
 -   Показати, чи розбирається документ синтаксично правильним
     
@@ -55,7 +55,7 @@ var_dump($xml->isValid());
 
 ### Дивіться також
 
--   [XMLReader::setParserProperty()](xmlreader.setparserproperty.html) - Встановлює опцію парсера
--   [XMLReader::setRelaxNGSchema()](xmlreader.setrelaxngschema.html) - Встановити ім'я файлу або URI для схеми RelaxNG
--   [XMLReader::setRelaxNGSchemaSource()](xmlreader.setrelaxngschemasource.html) - Встановлює дані, що містять схему RelaxNG
--   [XMLReader::setSchema()](xmlreader.setschema.html) - Перевірити документ за допомогою XSD
+-   [XMLReader::setParserProperty()](xmlreader.setparserproperty.md) - Встановлює опцію парсера
+-   [XMLReader::setRelaxNGSchema()](xmlreader.setrelaxngschema.md) - Встановити ім'я файлу або URI для схеми RelaxNG
+-   [XMLReader::setRelaxNGSchemaSource()](xmlreader.setrelaxngschemasource.md) - Встановлює дані, що містять схему RelaxNG
+-   [XMLReader::setSchema()](xmlreader.setschema.md) - Перевірити документ за допомогою XSD

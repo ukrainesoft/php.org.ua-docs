@@ -4,9 +4,9 @@
     
 -   [mcryptmoduleopen »](function.mcrypt-module-open.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](ref.mcrypt.html)
+-   [Mcrypt](ref.mcrypt.md)
     
 -   Перевірити, чи повертає зазначений режим дані блоками чи ні
     

@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](spl.requirements.html)
+-   [« Вимоги](spl.requirements.md)
     
--   [Настройка во время выполнения »](spl.configuration.html)
+-   [Налаштування під час виконання »](spl.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](spl.setup.html)
+-   [Встановлення та налаштування](spl.setup.md)
     
 -   Встановлення
     

@@ -1,12 +1,12 @@
 Додає змодельований тривимірний кордон
 
--   [« Gmagick::flopimage](gmagick.flopimage.html)
+-   [« Gmagick::flopimage](gmagick.flopimage.md)
     
--   [Gmagick::gammaimage »](gmagick.gammaimage.html)
+-   [Gmagick::gammaimage »](gmagick.gammaimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Додає змодельований тривимірний кордон
     
@@ -29,7 +29,7 @@ public Gmagick::frameimage(    GmagickPixel $color,    int $width,   
 
 `color`
 
-Об'єкт [GmagickPixel](class.gmagickpixel.html) або число з плаваючою точкою, що представляє матовий колір.
+Об'єкт [GmagickPixel](class.gmagickpixel.md) або число з плаваючою точкою, що представляє матовий колір.
 
 `width`
 
@@ -49,7 +49,7 @@ public Gmagick::frameimage(    GmagickPixel $color,    int $width,   
 
 ### Значення, що повертаються
 
-Обрамлений об'єкт [Gmagick](class.gmagick.html)
+Обрамлений об'єкт [Gmagick](class.gmagick.md)
 
 ### Помилки
 

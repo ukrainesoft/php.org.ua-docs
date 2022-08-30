@@ -2,11 +2,11 @@
 
 -   [« seasloggetauthor](function.seaslog-get-author.html)
     
--   [SeasLog »](class.seaslog.html)
+-   [SeasLog »](class.seaslog.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Seaslog](ref.seaslog.html)
+-   [Функции Seaslog](ref.seaslog.md)
     
 -   Отримує версію SeasLog
     

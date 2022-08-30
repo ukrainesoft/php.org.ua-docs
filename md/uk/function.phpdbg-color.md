@@ -4,9 +4,9 @@
     
 -   [phpdbgendoplog »](function.phpdbg-end-oplog.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции phpdbg](ref.phpdbg.html)
+-   [Функции phpdbg](ref.phpdbg.md)
     
 -   Задати колір елементу
     

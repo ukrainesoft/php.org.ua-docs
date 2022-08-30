@@ -4,9 +4,9 @@
     
 -   [imapgc »](function.imap-gc.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции IMAP](ref.imap.html)
+-   [Функции IMAP](ref.imap.md)
     
 -   Псевдонім imapbody
     

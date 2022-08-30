@@ -1,12 +1,12 @@
 Задає максимальну кількість рядків, що повертаються в результаті
 
--   [« SolrQuery::setQuery](solrquery.setquery.html)
+-   [« SolrQuery::setQuery](solrquery.setquery.md)
     
--   [SolrQuery::setShowDebugInfo »](solrquery.setshowdebuginfo.html)
+-   [SolrQuery::setShowDebugInfo »](solrquery.setshowdebuginfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Задає максимальну кількість рядків, що повертаються в результаті
     

@@ -4,9 +4,9 @@
     
 -   [fdfsetflags »](function.fdf-set-flags.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Встановлює PDF-документ для відображення даних FDF
     

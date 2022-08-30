@@ -1,12 +1,12 @@
 Перевірити, чи можна використовувати символ в ідентифікаторі
 
--   [« IntlChar::isIDIgnorable](intlchar.isidignorable.html)
+-   [« IntlChar::isIDIgnorable](intlchar.isidignorable.md)
     
--   [IntlChar::isIDStart »](intlchar.isidstart.html)
+-   [IntlChar::isIDStart »](intlchar.isidstart.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити, чи можна використовувати символ в ідентифікаторі
     
@@ -29,7 +29,7 @@ public static IntlChar::isIDPart(int|string $codepoint): ?bool
 
 > **Зауваження**
 > 
-> Майже те саме, що і IDContinue в Unicode (**`IntlChar::PROPERTY_ID_CONTINUE`**) за винятком того, що Unicode рекомендує ігнорувати Cf, які менше [IntlChar::isIDIgnorable()](intlchar.isidignorable.html)
+> Майже те саме, що і IDContinue в Unicode (**`IntlChar::PROPERTY_ID_CONTINUE`**) за винятком того, що Unicode рекомендує ігнорувати Cf, які менше [IntlChar::isIDIgnorable()](intlchar.isidignorable.md)
 
 ### Список параметрів
 
@@ -65,6 +65,6 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isIDIgnorable()](intlchar.isidignorable.html) - Перевірити, чи символ ігнорується
--   [IntlChar::isIDStart()](intlchar.isidstart.html) - Перевірити, чи можна використовувати символ на початку ідентифікатора
+-   [IntlChar::isIDIgnorable()](intlchar.isidignorable.md) - Перевірити, чи символ ігнорується
+-   [IntlChar::isIDStart()](intlchar.isidstart.md) - Перевірити, чи можна використовувати символ на початку ідентифікатора
 -   **`IntlChar::PROPERTY_ID_CONTINUE`**

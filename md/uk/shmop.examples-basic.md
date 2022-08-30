@@ -1,12 +1,12 @@
 Базове використання
 
--   [« Примеры](shmop.examples.html)
+-   [« Приклади](shmop.examples.html)
     
 -   [Пам'ять, що розділяється (shared) »](ref.shmop.html)
     
 -   [PHP Manual](index.html)
     
--   [Примеры](shmop.examples.html)
+-   [Приклади](shmop.examples.html)
     
 -   Базове використання
     

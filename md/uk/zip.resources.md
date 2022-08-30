@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](zip.configuration.html)
+-   [« Налаштування під час виконання](zip.configuration.md)
     
--   [Предопределённые константы »](zip.constants.html)
+-   [Обумовлені константи »](zip.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](zip.setup.html)
+-   [Встановлення та налаштування](zip.setup.md)
     
 -   Типи ресурсів
     

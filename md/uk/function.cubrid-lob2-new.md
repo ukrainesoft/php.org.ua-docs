@@ -4,9 +4,9 @@
     
 -   [cubridlob2read »](function.cubrid-lob2-read.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Створює об'єкт LOB
     

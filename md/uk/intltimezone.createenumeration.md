@@ -1,12 +1,12 @@
 Отримати перерахування з ідентифікаторів часових поясів за вказаною країною або усунення
 
--   [« IntlTimeZone::createDefault](intltimezone.createdefault.html)
+-   [« IntlTimeZone::createDefault](intltimezone.createdefault.md)
     
--   [IntlTimeZone::createTimeZone »](intltimezone.createtimezone.html)
+-   [IntlTimeZone::createTimeZone »](intltimezone.createtimezone.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlTimeZone](class.intltimezone.html)
+-   [IntlTimeZone](class.intltimezone.md)
     
 -   Отримати перерахування з ідентифікаторів часових поясів за вказаною країною або усунення
     

@@ -2,44 +2,44 @@ Stomp Client
 
 -   [« ssh2tunnel](function.ssh2-tunnel.html)
     
--   [Введение »](intro.stomp.html)
+-   [Введение »](intro.stomp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Другие службы](refs.remote.other.html)
+-   [Інші служби](refs.remote.other.md)
     
 -   Stomp Client
     
 
 # Stomp Client
 
--   [Введение](intro.stomp.html)
--   [Установка и настройка](stomp.setup.html)
-    -   [Требования](stomp.requirements.html)
-    -   [Установка](stomp.installation.html)
-    -   [Настройка во время выполнения](stomp.configuration.html)
-    -   [Типы ресурсов](stomp.resources.html)
--   [Примеры](stomp.examples.html)
--   [Функции Stomp](ref.stomp.html)
+-   [Введение](intro.stomp.md)
+-   [Встановлення та налаштування](stomp.setup.md)
+    -   [Вимоги](stomp.requirements.md)
+    -   [Установка](stomp.installation.md)
+    -   [Налаштування під час виконання](stomp.configuration.md)
+    -   [Типи ресурсів](stomp.resources.md)
+-   [Приклади](stomp.examples.md)
+-   [Функции Stomp](ref.stomp.md)
     -   [stompconnecterror](function.stomp-connect-error.html) — Повертає рядок із описом останньої помилки підключення
     -   [stompversion](function.stomp-version.html) — Повертає поточну версію модуля Stomp
--   [Stomp](class.stomp.html) - Клас Stomp
-    -   [Stomp::abort](stomp.abort.html) — Скасує виконання поточної транзакції
-    -   [Stomp::ack](stomp.ack.html) — Підтверджує отримання повідомлення
-    -   [Stomp::begin](stomp.begin.html) - Створює транзакцію
-    -   [Stomp::commit](stomp.commit.html) — Виконує поточну транзакцію
-    -   [Stomp::construct](stomp.construct.html) - Відкриває з'єднання
-    -   [Stomp::destruct](stomp.destruct.html) - Закриває Stomp-з'єднання
-    -   [Stomp::error](stomp.error.html) - Повертає останню помилку Stomp
-    -   [Stomp::getReadTimeout](stomp.getreadtimeout.html) — Повертає час максимального очікування на операцію читання
-    -   [Stomp::getSessionId](stomp.getsessionid.html) - Повертає ідентифікатор поточної сесії Stomp
-    -   [Stomp::hasFrame](stomp.hasframe.html) — Перевіряє, чи можливе читання кадру
-    -   [Stomp::readFrame](stomp.readframe.html) — Виконує операцію для читання наступного кадру
-    -   [Stomp::send](stomp.send.html) — Надсилає повідомлення
-    -   [Stomp::setReadTimeout](stomp.setreadtimeout.html) - Встановлює граничний час очікування операції читання
-    -   [Stomp::subscribe](stomp.subscribe.html) — Реєструє передплату на вказану розсилку
-    -   [Stomp::unsubscribe](stomp.unsubscribe.html) — Видаляє існуючу передплату
--   [StompFrame](class.stompframe.html) - Клас StompFrame
-    -   [StompFrame::construct](stompframe.construct.html) - Конструктор
--   [StompException](class.stompexception.html) - Клас StompException
-    -   [StompException::getDetails](stomp.getdetails.html) — Повертає відомості про виключення
+-   [Stomp](class.stomp.md) - Клас Stomp
+    -   [Stomp::abort](stomp.abort.md) — Скасує виконання поточної транзакції
+    -   [Stomp::ack](stomp.ack.md) — Підтверджує отримання повідомлення
+    -   [Stomp::begin](stomp.begin.md) - Створює транзакцію
+    -   [Stomp::commit](stomp.commit.md) — Виконує поточну транзакцію
+    -   [Stomp::construct](stomp.construct.md) - Відкриває з'єднання
+    -   [Stomp::destruct](stomp.destruct.md) - Закриває Stomp-з'єднання
+    -   [Stomp::error](stomp.error.md) - Повертає останню помилку Stomp
+    -   [Stomp::getReadTimeout](stomp.getreadtimeout.md) — Повертає час максимального очікування на операцію читання
+    -   [Stomp::getSessionId](stomp.getsessionid.md) - Повертає ідентифікатор поточної сесії Stomp
+    -   [Stomp::hasFrame](stomp.hasframe.md) — Перевіряє, чи можливе читання кадру
+    -   [Stomp::readFrame](stomp.readframe.md) — Виконує операцію для читання наступного кадру
+    -   [Stomp::send](stomp.send.md) — Надсилає повідомлення
+    -   [Stomp::setReadTimeout](stomp.setreadtimeout.md) - Встановлює граничний час очікування операції читання
+    -   [Stomp::subscribe](stomp.subscribe.md) — Реєструє передплату на вказану розсилку
+    -   [Stomp::unsubscribe](stomp.unsubscribe.md) — Видаляє існуючу передплату
+-   [StompFrame](class.stompframe.md) - Клас StompFrame
+    -   [StompFrame::construct](stompframe.construct.md) - Конструктор
+-   [StompException](class.stompexception.md) - Клас StompException
+    -   [StompException::getDetails](stomp.getdetails.md) — Повертає відомості про виключення

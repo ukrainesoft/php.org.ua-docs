@@ -4,9 +4,9 @@
     
 -   [mysqlfetchfield »](function.mysql-fetch-field.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](ref.mysql.html)
+-   [MySQL](ref.mysql.md)
     
 -   Повертає ряд результату запиту як асоціативний масив.
     
@@ -19,10 +19,10 @@ mysqlfetchassoc — Повертає ряд результату запиту я
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   [mysqlifetchassoc()](mysqli-result.fetch-assoc.html)
--   [PDOStatement::fetch(PDO::FETCHASSOC)](pdostatement.fetch.html)
+-   [PDOStatement::fetch(PDO::FETCHASSOC)](pdostatement.fetch.md)
 
 ### Опис
 
@@ -36,7 +36,7 @@ mysql_fetch_assoc(resource $result): array
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
 
 ### Значення, що повертаються
 
@@ -79,7 +79,7 @@ if (mysql_num_rows($result) == 0) {
     exit;
 }
 
-// До тех пор, пока в результате содержатся ряды, помещаем их в ассоциативный массив.
+// До тех пор, пока в результате содержатся ряды, помещаем их в ассоциативный Масив.
 // Замечание: если запрос возвращает только один ряд - нет нужды в цикле.
 // Замечание: если вы добавите extract($row); в начало цикла, вы сделаете
 //            доступными переменные $userid, $fullname и $userstatus

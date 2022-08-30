@@ -1,8 +1,8 @@
 Обумовлені константи
 
--   [« Типы ресурсов](ffi.resources.html)
+-   [« Типи ресурсів](ffi.resources.html)
     
--   [Примеры »](ffi.examples.html)
+-   [Приклади »](ffi.examples.html)
     
 -   [PHP Manual](index.html)
     

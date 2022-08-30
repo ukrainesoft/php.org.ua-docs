@@ -1,12 +1,12 @@
 Конструктор SoapFault
 
--   [« SoapFault](class.soapfault.html)
+-   [« SoapFault](class.soapfault.md)
     
--   [SoapFault::toString »](soapfault.tostring.html)
+-   [SoapFault::toString »](soapfault.tostring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SoapFault](class.soapfault.html)
+-   [SoapFault](class.soapfault.md)
     
 -   Конструктор SoapFault
     
@@ -33,11 +33,11 @@ string `$string`
 
 `faultcode`
 
-Код помилки [SoapFault](class.soapfault.html)
+Код помилки [SoapFault](class.soapfault.md)
 
 `faultstring`
 
-Повідомлення про помилку [SoapFault](class.soapfault.html)
+Повідомлення про помилку [SoapFault](class.soapfault.md)
 
 `faultactor`
 
@@ -91,5 +91,5 @@ $server->handle();
 
 ### Дивіться також
 
--   [SoapServer::fault()](soapserver.fault.html) - змушує SoapServer повернути помилку
+-   [SoapServer::fault()](soapserver.fault.md) - змушує SoapServer повернути помилку
 -   [ісsoapfault()](function.is-soap-fault.html) - Перевіряє, чи сталася помилка під час виклику SOAP

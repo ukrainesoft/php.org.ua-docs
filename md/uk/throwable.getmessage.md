@@ -1,12 +1,12 @@
 Отримує повідомлення помилки
 
--   [« Throwable](class.throwable.html)
+-   [« Throwable](class.throwable.md)
     
--   [Throwable::getCode »](throwable.getcode.html)
+-   [Throwable::getCode »](throwable.getcode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Throwable](class.throwable.html)
+-   [Throwable](class.throwable.md)
     
 -   Отримує повідомлення помилки
     
@@ -35,4 +35,4 @@ public Throwable::getMessage(): string
 
 ### Дивіться також
 
--   [Exception::getMessage()](exception.getmessage.html) - Отримує повідомлення виключення
+-   [Exception::getMessage()](exception.getmessage.md) - Отримує повідомлення виключення

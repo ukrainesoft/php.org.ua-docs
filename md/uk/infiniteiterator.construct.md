@@ -1,12 +1,12 @@
 Конструктор класу InfiniteIterator
 
--   [« InfiniteIterator](class.infiniteiterator.html)
+-   [« InfiniteIterator](class.infiniteiterator.md)
     
--   [InfiniteIterator::next »](infiniteiterator.next.html)
+-   [InfiniteIterator::next »](infiniteiterator.next.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [InfiniteIterator](class.infiniteiterator.html)
+-   [InfiniteIterator](class.infiniteiterator.md)
     
 -   Конструктор класу InfiniteIterator
     
@@ -19,9 +19,9 @@ InfiniteIterator::construct - Конструктор класу InfiniteIterator
 
 ### Опис
 
-public **InfiniteIterator::construct**[Iterator](class.iterator.html) `$iterator`
+public **InfiniteIterator::construct**[Iterator](class.iterator.md) `$iterator`
 
-Створює новий об'єкт класу [InfiniteIterator](class.infiniteiterator.html) на основі об'єкта-ітератора [Iterator](class.iterator.html)
+Створює новий об'єкт класу [InfiniteIterator](class.infiniteiterator.md) на основі об'єкта-ітератора [Iterator](class.iterator.md)
 
 ### Список параметрів
 
@@ -59,4 +59,4 @@ cat
 
 ### Дивіться також
 
--   [InfiniteIterator::next()](infiniteiterator.next.html) - Переміщує ітератор на одну позицію вперед або на початок
+-   [InfiniteIterator::next()](infiniteiterator.next.md) - Переміщує ітератор на одну позицію вперед або на початок

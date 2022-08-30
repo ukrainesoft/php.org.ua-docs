@@ -1,12 +1,12 @@
 Повертає масив доступних драйверів PDO
 
--   [« PDO::getAttribute](pdo.getattribute.html)
+-   [« PDO::getAttribute](pdo.getattribute.md)
     
--   [PDO::inTransaction »](pdo.intransaction.html)
+-   [PDO::inTransaction »](pdo.intransaction.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDO](class.pdo.html)
+-   [PDO](class.pdo.md)
     
 -   Повертає масив доступних драйверів PDO
     
@@ -29,7 +29,7 @@ public static PDO::getAvailableDrivers(): array
 pdo_drivers(): array
 ```
 
-Ця функція повертає всі наявні в даний час драйвери PDO, які можна використовувати в `DSN`параметрі [PDO::construct()](pdo.construct.html)
+Ця функція повертає всі наявні в даний час драйвери PDO, які можна використовувати в `DSN`параметрі [PDO::construct()](pdo.construct.md)
 
 ### Список параметрів
 

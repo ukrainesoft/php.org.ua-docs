@@ -4,7 +4,7 @@
     
 -   [SwooleHttpResponse::destruct »](swoole-http-response.destruct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleHttpResponse](class.swoole-http-response.html)
     

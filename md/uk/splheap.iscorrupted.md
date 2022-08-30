@@ -1,12 +1,12 @@
 Вказує, чи перебуває купа в пошкодженому стані
 
--   [« SplHeap::insert](splheap.insert.html)
+-   [« SplHeap::insert](splheap.insert.md)
     
--   [SplHeap::isEmpty »](splheap.isempty.html)
+-   [SplHeap::isEmpty »](splheap.isempty.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplHeap](class.splheap.html)
+-   [SplHeap](class.splheap.md)
     
 -   Вказує, чи перебуває купа в пошкодженому стані
     

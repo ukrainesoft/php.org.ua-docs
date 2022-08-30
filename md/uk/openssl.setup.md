@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.openssl.html)
     
--   [Требования »](openssl.requirements.html)
+-   [Вимоги »](openssl.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](openssl.requirements.html)
+-   [Вимоги](openssl.requirements.html)
 -   [Установка](openssl.installation.html)
--   [Настройка во время выполнения](openssl.configuration.html)
--   [Типы ресурсов](openssl.resources.html)
+-   [Налаштування під час виконання](openssl.configuration.html)
+-   [Типи ресурсів](openssl.resources.html)

@@ -4,9 +4,9 @@
     
 -   [псshading »](function.ps-shading.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Створює візерунок на основі затінення
     

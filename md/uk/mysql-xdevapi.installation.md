@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](mysql-xdevapi.requirements.html)
+-   [« Вимоги](mysql-xdevapi.requirements.html)
     
--   [Настройка во время выполнения »](mysql-xdevapi.configuration.html)
+-   [Налаштування під час виконання »](mysql-xdevapi.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](mysql-xdevapi.setup.html)
+-   [Встановлення та налаштування](mysql-xdevapi.setup.html)
     
 -   Встановлення
     

@@ -1,12 +1,12 @@
 Вбудовані змінні, які завжди доступні у всіх областях
 
--   [« Предопределённые переменные](reserved.variables.html)
+-   [«Зумовлені змінні](reserved.variables.md)
     
--   [$GLOBALS »](reserved.variables.globals.html)
+-   [$GLOBALS »](reserved.variables.globals.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые переменные](reserved.variables.html)
+-   [Зумовлені змінні](reserved.variables.md)
     
 -   Вбудовані змінні, які завжди доступні у всіх областях
     
@@ -21,15 +21,15 @@
 
 Суперглобальними змінними є:
 
--   [$GLOBALS](reserved.variables.globals.html)
--   [SERVER](reserved.variables.server.html)
--   [GET](reserved.variables.get.html)
--   [POST](reserved.variables.post.html)
--   [FILES](reserved.variables.files.html)
--   [COOKIE](reserved.variables.cookies.html)
--   [SESSION](reserved.variables.session.html)
--   [REQUEST](reserved.variables.request.html)
--   [ENV](reserved.variables.environment.html)
+-   [$GLOBALS](reserved.variables.globals.md)
+-   [SERVER](reserved.variables.server.md)
+-   [GET](reserved.variables.get.md)
+-   [POST](reserved.variables.post.md)
+-   [FILES](reserved.variables.files.md)
+-   [COOKIE](reserved.variables.cookies.md)
+-   [SESSION](reserved.variables.session.md)
+-   [REQUEST](reserved.variables.request.md)
+-   [ENV](reserved.variables.environment.md)
 
 ### Примітки
 
@@ -39,10 +39,10 @@
 
 > **Зауваження** **Змінні змінних**
 > 
-> Суперглобальні змінні не можуть бути використані як [переменных переменных](language.variables.variable.html) всередині функцій та методів.
+> Суперглобальні змінні не можуть бути використані як [змінних змінних](language.variables.variable.md) всередині функцій та методів.
 
 ### Дивіться також
 
--   [Область видимості змінної](language.variables.scope.html)
+-   [Область видимості змінної](language.variables.scope.md)
 -   Директива [variablesorder](ini.core.html#ini.variables-order)
--   "[Фільтрування даних](book.filter.html)"
+-   "[Фільтрування даних](book.filter.md)"

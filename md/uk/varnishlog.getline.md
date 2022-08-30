@@ -1,12 +1,12 @@
 Отримати наступний рядок журналу
 
--   [« VarnishLog::construct](varnishlog.construct.html)
+-   [« VarnishLog::construct](varnishlog.construct.md)
     
--   [VarnishLog::getTagName »](varnishlog.gettagname.html)
+-   [VarnishLog::getTagName »](varnishlog.gettagname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [VarnishLog](class.varnishlog.html)
+-   [VarnishLog](class.varnishlog.md)
     
 -   Отримати наступний рядок журналу
     

@@ -1,12 +1,12 @@
 Антарктика
 
--   [« Америка](timezones.america.html)
+-   [« Америка](timezones.america.md)
     
--   [Арктика »](timezones.arctic.html)
+-   [Арктика »](timezones.arctic.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Список підтримуваних часових поясів](timezones.html)
+-   [Список підтримуваних часових поясів](timezones.md)
     
 -   Антарктика
     

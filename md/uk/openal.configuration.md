@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](openal.installation.html)
+-   [« Установка](openal.installation.md)
     
--   [Типы ресурсов »](openal.resources.html)
+-   [Типи ресурсів »](openal.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](openal.setup.html)
+-   [Встановлення та налаштування](openal.setup.md)
     
 -   Налаштування під час виконання
     

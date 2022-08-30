@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](json.installation.html)
+-   [« Установка](json.installation.md)
     
--   [Типы ресурсов »](json.resources.html)
+-   [Типи ресурсів »](json.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](json.setup.html)
+-   [Встановлення та налаштування](json.setup.md)
     
 -   Налаштування під час виконання
     

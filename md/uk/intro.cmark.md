@@ -1,12 +1,12 @@
 Вступ
 
--   [« CommonMark](book.cmark.html)
+-   [« CommonMark](book.cmark.md)
     
--   [Установка и настройка »](cmark.setup.html)
+-   [Встановлення та налаштування »](cmark.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CommonMark](book.cmark.html)
+-   [CommonMark](book.cmark.md)
     
 -   Вступ
     

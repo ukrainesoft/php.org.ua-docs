@@ -1,6 +1,6 @@
 GMP Функції
 
--   [« Примеры](gmp.examples.html)
+-   [« Приклади](gmp.examples.html)
     
 -   [gmpabs »](function.gmp-abs.html)
     

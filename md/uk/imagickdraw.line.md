@@ -1,12 +1,12 @@
 Малює лінію
 
--   [« ImagickDraw::getVectorGraphics](imagickdraw.getvectorgraphics.html)
+-   [« ImagickDraw::getVectorGraphics](imagickdraw.getvectorgraphics.md)
     
--   [ImagickDraw::matte »](imagickdraw.matte.html)
+-   [ImagickDraw::matte »](imagickdraw.matte.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Малює лінію
     

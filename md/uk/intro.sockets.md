@@ -1,12 +1,12 @@
 Вступ
 
--   [« Сокеты](book.sockets.html)
+-   [« Сокети](book.sockets.html)
     
--   [Установка и настройка »](sockets.setup.html)
+-   [Встановлення та налаштування »](sockets.setup.html)
     
 -   [PHP Manual](index.html)
     
--   [Сокеты](book.sockets.html)
+-   [Сокети](book.sockets.html)
     
 -   Вступ
     

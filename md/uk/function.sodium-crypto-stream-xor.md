@@ -4,9 +4,9 @@
     
 -   [sodiumcryptostream »](function.sodium-crypto-stream.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Шифрує повідомлення без автентифікації
     

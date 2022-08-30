@@ -1,12 +1,12 @@
 Викликає функцію заголовка
 
--   [« getservbyport](function.getservbyport.html)
+-   [« getservbyport](function.getservbyport.md)
     
 -   [headerremove »](function.header-remove.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Мережеві функції](ref.network.html)
+-   [Мережеві функції](ref.network.md)
     
 -   Викликає функцію заголовка
     
@@ -81,4 +81,4 @@ a
 
 -   [headerslist()](function.headers-list.html) - Повертає список переданих заголовків (або готових до відправлення)
 -   [headerremove()](function.header-remove.html) - Видаляє раніше встановлені заголовки
--   [header()](function.header.html) - Надсилання HTTP-заголовка
+-   [header()](function.header.md) - Надсилання HTTP-заголовка

@@ -1,12 +1,12 @@
 Встановити метод стиснення запису, заданого на ім'я
 
--   [« ZipArchive::setCompressionIndex](ziparchive.setcompressionindex.html)
+-   [« ZipArchive::setCompressionIndex](ziparchive.setcompressionindex.md)
     
--   [ZipArchive::setEncryptionIndex »](ziparchive.setencryptionindex.html)
+-   [ZipArchive::setEncryptionIndex »](ziparchive.setencryptionindex.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Встановити метод стиснення запису, заданого на ім'я
     

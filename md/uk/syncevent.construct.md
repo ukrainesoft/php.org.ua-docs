@@ -1,12 +1,12 @@
 Створює новий об'єкт SyncEvent
 
--   [« SyncEvent](class.syncevent.html)
+-   [« SyncEvent](class.syncevent.md)
     
--   [SyncEvent::fire »](syncevent.fire.html)
+-   [SyncEvent::fire »](syncevent.fire.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SyncEvent](class.syncevent.html)
+-   [SyncEvent](class.syncevent.md)
     
 -   Створює новий об'єкт SyncEvent
     
@@ -53,7 +53,7 @@ public SyncEvent::__construct(string $name = ?, bool $manual = false, bool $pref
 
 ### Значення, що повертаються
 
-Новий об'єкт [SyncEvent](class.syncevent.html)
+Новий об'єкт [SyncEvent](class.syncevent.md)
 
 ### Помилки
 
@@ -77,13 +77,13 @@ $event->wait();
 
 ### список змін
 
-| Версия                     | Описание |
-|----------------------------|----------|
-| PECL sync 1.1.0            |          |
-| Доданий параметр `prefire` |          |
+| Версия | Описание |
+| --- | --- |
+| PECL sync 1.1.0 |  |
+| Доданий параметр `prefire` |  |
 
 ### Дивіться також
 
--   [SyncEvent::fire()](syncevent.fire.html) - Запускає/встановлює подію
--   [SyncEvent::reset()](syncevent.reset.html) - скидає ручну подію
--   [SyncEvent::wait()](syncevent.wait.html) - Очікує запуску/установки події
+-   [SyncEvent::fire()](syncevent.fire.md) - Запускає/встановлює подію
+-   [SyncEvent::reset()](syncevent.reset.md) - скидає ручну подію
+-   [SyncEvent::wait()](syncevent.wait.md) - Очікує запуску/установки події

@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](snmp.resources.html)
+-   [« Типи ресурсів](snmp.resources.md)
     
--   [Функції SNMP »](ref.snmp.html)
+-   [Функції SNMP »](ref.snmp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SNMP](book.snmp.html)
+-   [SNMP](book.snmp.md)
     
 -   Обумовлені константи
     

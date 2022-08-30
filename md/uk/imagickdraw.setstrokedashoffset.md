@@ -1,12 +1,12 @@
 Задає зміщення у штриховому патерні для початку штрихування
 
--   [« ImagickDraw::setStrokeDashArray](imagickdraw.setstrokedasharray.html)
+-   [« ImagickDraw::setStrokeDashArray](imagickdraw.setstrokedasharray.md)
     
--   [ImagickDraw::setStrokeLineCap »](imagickdraw.setstrokelinecap.html)
+-   [ImagickDraw::setStrokeLineCap »](imagickdraw.setstrokelinecap.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Задає зміщення у штриховому патерні для початку штрихування
     

@@ -1,12 +1,12 @@
 Підтримка прозорого для програм відновлення після відмови (Transparent Application Failover або TAF) для OCI8
 
--   [« Поддержка OCI8 Fast Application Notification (FAN)](oci8.fan.html)
+-   [« Поддержка OCI8 Fast Application Notification (FAN)](oci8.fan.md)
     
--   [OCI8 та динамічне трасування DTrace »](oci8.dtrace.html)
+-   [OCI8 та динамічне трасування DTrace »](oci8.dtrace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8](book.oci8.html)
+-   [OCI8](book.oci8.md)
     
 -   Підтримка прозорого для програм відновлення після відмови (Transparent Application Failover або TAF) для OCI8
     

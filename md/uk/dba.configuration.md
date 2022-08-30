@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](dba.installation.html)
+-   [« Установка](dba.installation.md)
     
--   [Типы ресурсов »](dba.resources.html)
+-   [Типи ресурсів »](dba.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](dba.setup.html)
+-   [Встановлення та налаштування](dba.setup.md)
     
 -   Налаштування під час виконання
     
@@ -17,9 +17,9 @@
 
 **Опції налаштування DBA**
 
-| Имя                                                                  | По умолчанию | Место изменения | Список изменений |
-|----------------------------------------------------------------------|--------------|-----------------|------------------|
-| [dba.defaulthandler](dba.configuration.html#ini.dba.default_handler) | DBADEFAULT   | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [dba.defaulthandler](dba.configuration.html#ini.dba.default_handler) | DBADEFAULT | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

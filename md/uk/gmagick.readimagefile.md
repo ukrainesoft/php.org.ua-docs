@@ -1,12 +1,12 @@
 Читає зображення або послідовність зображень із файлового дескриптора
 
--   [« Gmagick::readimageblob](gmagick.readimageblob.html)
+-   [« Gmagick::readimageblob](gmagick.readimageblob.md)
     
--   [Gmagick::reducenoiseimage »](gmagick.reducenoiseimage.html)
+-   [Gmagick::reducenoiseimage »](gmagick.reducenoiseimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Читає зображення або послідовність зображень із файлового дескриптора
     
@@ -33,7 +33,7 @@ public Gmagick::readimagefile(resource $fp, string $filename = ?): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

@@ -2,9 +2,9 @@
 
 -   [« UIDrawTextFontDescriptor::getStretch](ui-draw-text-font-descriptor.getstretch.html)
     
--   [Функции UI »](ref.ui.html)
+-   [Функции UI »](ref.ui.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html)
     

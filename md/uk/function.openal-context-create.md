@@ -4,9 +4,9 @@
     
 -   [openalcontextcurrent »](function.openal-context-current.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenAL](ref.openal.html)
+-   [Функции OpenAL](ref.openal.md)
     
 -   Створити контекст обробки звуку
     
@@ -27,11 +27,11 @@ openal_context_create(resource $device): resource
 
 `device`
 
-Ресурс [Open AL(Device)](openal.resources.html) (Створений раніше за допомогою **openaldevicecreate()**
+Ресурс [Open AL(Device)](openal.resources.md) (Створений раніше за допомогою **openaldevicecreate()**
 
 ### Значення, що повертаються
 
-Повертає ресурс [Open AL(Context)](openal.resources.html) у разі успішного виконання, **`false`** у разі виникнення помилки.
+Повертає ресурс [Open AL(Context)](openal.resources.md) у разі успішного виконання, **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 

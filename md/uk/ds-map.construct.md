@@ -4,7 +4,7 @@
     
 -   [ДсMap::copy »](ds-map.copy.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Коллекция пар ключ-значение](class.ds-map.html)
     
@@ -21,7 +21,7 @@
 
 public **ДсMap::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `...$values`
 
-Створює новий екземпляр, використовуючи або об'єкт, що реалізує [traversable](class.traversable.html), або масив, переданий як параметр `values`
+Створює новий екземпляр, використовуючи або об'єкт, що реалізує [traversable](class.traversable.md), або масив, переданий як параметр `values`
 
 ### Список параметрів
 

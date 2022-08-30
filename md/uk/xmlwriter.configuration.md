@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](xmlwriter.installation.html)
+-   [« Установка](xmlwriter.installation.md)
     
--   [Типы ресурсов »](xmlwriter.resources.html)
+-   [Типи ресурсів »](xmlwriter.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xmlwriter.setup.html)
+-   [Встановлення та налаштування](xmlwriter.setup.md)
     
 -   Налаштування під час виконання
     

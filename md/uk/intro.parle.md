@@ -2,7 +2,7 @@
 
 -   [« Parle](book.parle.html)
     
--   [Установка и настройка »](parle.setup.html)
+-   [Встановлення та налаштування »](parle.setup.html)
     
 -   [PHP Manual](index.html)
     

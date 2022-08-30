@@ -1,12 +1,12 @@
 Малює кубічну криву Безьє
 
--   [« ImagickDraw::pathCurveToRelative](imagickdraw.pathcurvetorelative.html)
+-   [« ImagickDraw::pathCurveToRelative](imagickdraw.pathcurvetorelative.md)
     
--   [ImagickDraw::pathCurveToSmoothRelative »](imagickdraw.pathcurvetosmoothrelative.html)
+-   [ImagickDraw::pathCurveToSmoothRelative »](imagickdraw.pathcurvetosmoothrelative.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Малює кубічну криву Безьє
     

@@ -1,12 +1,12 @@
 Повертає розмір даних або типу C
 
--   [« FFI::scope](ffi.scope.html)
+-   [« FFI::scope](ffi.scope.md)
     
--   [FFI::string »](ffi.string.html)
+-   [FFI::string »](ffi.string.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FFI](class.ffi.html)
+-   [FFI](class.ffi.md)
     
 -   Повертає розмір даних або типу C
     

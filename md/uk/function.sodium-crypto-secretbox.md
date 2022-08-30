@@ -4,9 +4,9 @@
     
 -   [sodiumcryptosecretstreamxchacha20poly1305initpull »](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Шифрування із загальним ключем з автентифікацією
     
@@ -45,9 +45,9 @@ sodium_crypto_secretbox(string $message, string $nonce, string $key): string
 
 ### Помилки
 
--   Викидається [SodiumException](class.sodiumexception.html)якщо довжина байтів параметра `nonce` відрізняється від [**`SODIUM_CRYPTO_SECRETBOX_NONCEBYTES`**](sodium.constants.html#constant.sodium-crypto-secretbox-noncebytes) (24 байти).
--   Викидається [SodiumException](class.sodiumexception.html)якщо довжина байтів параметра `key` відрізняється від [**`SODIUM_CRYPTO_SECRETBOX_KEYBYTES`**](sodium.constants.html#constant.sodium-crypto-secretbox-keybytes) (32 байти).
--   Викидає [SodiumException](class.sodiumexception.html) у разі виникнення помилки.
+-   Викидається [SodiumException](class.sodiumexception.md)якщо довжина байтів параметра `nonce` відрізняється від [**`SODIUM_CRYPTO_SECRETBOX_NONCEBYTES`**](sodium.constants.html#constant.sodium-crypto-secretbox-noncebytes) (24 байти).
+-   Викидається [SodiumException](class.sodiumexception.md)якщо довжина байтів параметра `key` відрізняється від [**`SODIUM_CRYPTO_SECRETBOX_KEYBYTES`**](sodium.constants.html#constant.sodium-crypto-secretbox-keybytes) (32 байти).
+-   Викидає [SodiumException](class.sodiumexception.md) у разі виникнення помилки.
 
 ### Приклади
 

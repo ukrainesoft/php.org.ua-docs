@@ -4,9 +4,9 @@
     
 -   [phpdbggetexecutable »](function.phpdbg-get-executable.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции phpdbg](ref.phpdbg.html)
+-   [Функции phpdbg](ref.phpdbg.md)
     
 -   Спробувати задати контекст виконання
     

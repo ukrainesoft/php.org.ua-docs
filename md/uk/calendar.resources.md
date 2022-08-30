@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](calendar.configuration.html)
+-   [« Налаштування під час виконання](calendar.configuration.html)
     
--   [Предопределённые константы »](calendar.constants.html)
+-   [Обумовлені константи »](calendar.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](calendar.setup.html)
+-   [Встановлення та налаштування](calendar.setup.html)
     
 -   Типи ресурсів
     

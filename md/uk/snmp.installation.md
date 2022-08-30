@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](snmp.requirements.html)
+-   [« Вимоги](snmp.requirements.html)
     
--   [Настройка во время выполнения »](snmp.configuration.html)
+-   [Налаштування під час виконання »](snmp.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](snmp.setup.html)
+-   [Встановлення та налаштування](snmp.setup.html)
     
 -   Встановлення
     

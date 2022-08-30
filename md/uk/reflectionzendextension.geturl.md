@@ -1,12 +1,12 @@
 Отримує URL
 
--   [« ReflectionZendExtension::getName](reflectionzendextension.getname.html)
+-   [« ReflectionZendExtension::getName](reflectionzendextension.getname.md)
     
--   [ReflectionZendExtension::getVersion »](reflectionzendextension.getversion.html)
+-   [ReflectionZendExtension::getVersion »](reflectionzendextension.getversion.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionZendExtension](class.reflectionzendextension.html)
+-   [ReflectionZendExtension](class.reflectionzendextension.md)
     
 -   Отримує URL
     

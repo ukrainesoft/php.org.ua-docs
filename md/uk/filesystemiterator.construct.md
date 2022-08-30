@@ -1,12 +1,12 @@
 Створює новий ітератор файлової системи
 
--   [« FilesystemIterator](class.filesystemiterator.html)
+-   [« FilesystemIterator](class.filesystemiterator.md)
     
--   [FilesystemIterator::current »](filesystemiterator.current.html)
+-   [FilesystemIterator::current »](filesystemiterator.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FilesystemIterator](class.filesystemiterator.html)
+-   [FilesystemIterator](class.filesystemiterator.md)
     
 -   Створює новий ітератор файлової системи
     
@@ -31,7 +31,7 @@ public **FilesystemIterator::construct**(string `$directory`, int `$flags` = Fil
 
 `flags`
 
-Поведінку деяких методів можна встановити за допомогою прапорів. Список цих прапорів можна знайти на сторінці [визначених констант FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants). Також їх можна задати пізніше методом [FilesystemIterator::setFlags()](filesystemiterator.setflags.html)
+Поведінку деяких методів можна встановити за допомогою прапорів. Список цих прапорів можна знайти на сторінці [визначених констант FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants). Також їх можна задати пізніше методом [FilesystemIterator::setFlags()](filesystemiterator.setflags.md)
 
 > **Зауваження**
 > 
@@ -39,15 +39,15 @@ public **FilesystemIterator::construct**(string `$directory`, int `$flags` = Fil
 
 ### Помилки
 
-Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.html), якщо директорія `directory` не існує.
+Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.md), якщо директорія `directory` не існує.
 
-Викидає виняток [ValueError](class.valueerror.html), якщо параметр `directory` містить порожній рядок.
+Викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тепер викидає виняток [ValueError](class.valueerror.html), якщо параметр `directory` містить порожній рядок; раніше викидався виняток [RuntimeException](class.runtimeexception.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
 
 ### Приклади
 
@@ -72,5 +72,5 @@ example.php
 
 ### Дивіться також
 
--   [FilesystemIterator::setFlags()](filesystemiterator.setflags.html) - Завдання прапорів обробки
--   [DirectoryIterator::construct()](directoryiterator.construct.html) - Створює новий ітератор директорій шляхом
+-   [FilesystemIterator::setFlags()](filesystemiterator.setflags.md) - Завдання прапорів обробки
+-   [DirectoryIterator::construct()](directoryiterator.construct.md) - Створює новий ітератор директорій шляхом

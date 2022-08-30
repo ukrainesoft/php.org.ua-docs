@@ -4,9 +4,9 @@
     
 -   [ocisetprefetchlob »](function.oci-set-prefetch-lob.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8 Функции](ref.oci8.html)
+-   [OCI8 Функции](ref.oci8.md)
     
 -   Задає ім'я модулю
     

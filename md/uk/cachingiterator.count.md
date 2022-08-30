@@ -1,12 +1,12 @@
 Повертає кількість елементів в ітераторі
 
--   [« CachingIterator::construct](cachingiterator.construct.html)
+-   [« CachingIterator::construct](cachingiterator.construct.md)
     
--   [CachingIterator::current »](cachingiterator.current.html)
+-   [CachingIterator::current »](cachingiterator.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CachingIterator](class.cachingiterator.html)
+-   [CachingIterator](class.cachingiterator.md)
     
 -   Повертає кількість елементів в ітераторі
     

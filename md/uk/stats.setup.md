@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.stats.html)
+-   [« Введение](intro.stats.md)
     
--   [Требования »](stats.requirements.html)
+-   [Вимоги »](stats.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Статистика](book.stats.html)
+-   [Статистика](book.stats.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](stats.requirements.html)
--   [Установка](stats.installation.html)
--   [Настройка во время выполнения](stats.configuration.html)
--   [Типы ресурсов](stats.resources.html)
+-   [Вимоги](stats.requirements.md)
+-   [Установка](stats.installation.md)
+-   [Налаштування під час виконання](stats.configuration.md)
+-   [Типи ресурсів](stats.resources.md)

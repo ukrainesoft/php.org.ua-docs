@@ -4,9 +4,9 @@
     
 -   [strwordcount »](function.str-word-count.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Перевіряє, чи починається рядок із заданого підрядка
     
@@ -91,10 +91,10 @@ if (str_starts_with($string, 'ленивая')) {
 
 -   [strcontains()](function.str-contains.html) - Визначає, чи містить рядок заданий підрядок
 -   [strendswith()](function.str-ends-with.html) - Перевіряє, чи закінчується рядок заданим підрядком
--   [stripos()](function.stripos.html) - Повертає позицію першого входження підрядка без урахування регістру
--   [strrpos()](function.strrpos.html) - Повертає позицію останнього входження підрядка у рядку
--   [strripos()](function.strripos.html) - Повертає позицію останнього входження підрядка без урахування регістру
--   [strstr()](function.strstr.html) - Знаходить перше входження підрядка
--   [strpbrk()](function.strpbrk.html) - Шукає у рядку будь-який символ із заданого набору
--   [substr()](function.substr.html) - Повертає підрядок
+-   [stripos()](function.stripos.md) - Повертає позицію першого входження підрядка без урахування регістру
+-   [strrpos()](function.strrpos.md) - Повертає позицію останнього входження підрядка у рядку
+-   [strripos()](function.strripos.md) - Повертає позицію останнього входження підрядка без урахування регістру
+-   [strstr()](function.strstr.md) - Знаходить перше входження підрядка
+-   [strpbrk()](function.strpbrk.md) - Шукає у рядку будь-який символ із заданого набору
+-   [substr()](function.substr.md) - Повертає підрядок
 -   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу

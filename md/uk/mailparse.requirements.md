@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](mailparse.setup.html)
+-   [« Встановлення та налаштування](mailparse.setup.md)
     
--   [Установка »](mailparse.installation.html)
+-   [Установка »](mailparse.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mailparse.setup.html)
+-   [Встановлення та налаштування](mailparse.setup.md)
     
 -   Вимоги
     

@@ -1,12 +1,12 @@
 Перетворення зображення
 
--   [« Imagick::addNoiseImage](imagick.addnoiseimage.html)
+-   [« Imagick::addNoiseImage](imagick.addnoiseimage.md)
     
--   [Imagick::animateImages »](imagick.animateimages.html)
+-   [Imagick::animateImages »](imagick.animateimages.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Перетворення зображення
     

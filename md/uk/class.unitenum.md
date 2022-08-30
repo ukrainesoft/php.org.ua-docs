@@ -1,12 +1,12 @@
 Інтерфейс UnitEnum
 
--   [« Stringable::toString](stringable.tostring.html)
+-   [« Stringable::toString](stringable.tostring.md)
     
--   [UnitEnum::cases »](unitenum.cases.html)
+-   [UnitEnum::cases »](unitenum.cases.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи](reserved.interfaces.md)
     
 -   Інтерфейс UnitEnum
     
@@ -39,4 +39,4 @@
 
 ## Зміст
 
--   [UnitEnum::cases](unitenum.cases.html) — Повертає перелік варіантів перерахування
+-   [UnitEnum::cases](unitenum.cases.md) — Повертає перелік варіантів перерахування

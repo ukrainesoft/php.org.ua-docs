@@ -1,12 +1,12 @@
 Повертає частоту, нижче за яку вирази ігноруватимуться у вихідному документі
 
--   [« SolrQuery::getMltMinDocFrequency](solrquery.getmltmindocfrequency.html)
+-   [« SolrQuery::getMltMinDocFrequency](solrquery.getmltmindocfrequency.md)
     
--   [SolrQuery::getMltMinWordLength »](solrquery.getmltminwordlength.html)
+-   [SolrQuery::getMltMinWordLength »](solrquery.getmltminwordlength.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає частоту, нижче за яку вирази ігноруватимуться у вихідному документі
     

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](yaf.setup.html)
+-   [« Встановлення та налаштування](yaf.setup.md)
     
--   [Установка »](yaf.installation.html)
+-   [Установка »](yaf.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](yaf.setup.html)
+-   [Встановлення та налаштування](yaf.setup.md)
     
 -   Вимоги
     

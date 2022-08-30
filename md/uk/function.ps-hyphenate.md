@@ -4,9 +4,9 @@
     
 -   [псincludefile »](function.ps-include-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Переносить слово
     

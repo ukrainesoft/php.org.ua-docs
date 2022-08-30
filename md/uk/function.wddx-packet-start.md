@@ -4,9 +4,9 @@
     
 -   [wddxserializevalue »](function.wddx-serialize-value.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції WDDX](ref.wddx.html)
+-   [Функції WDDX](ref.wddx.md)
     
 -   Запускає новий пакет WDDX із структурою всередині нього
     

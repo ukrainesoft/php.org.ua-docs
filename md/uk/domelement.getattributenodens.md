@@ -1,12 +1,12 @@
 Повертає вузол атрибуту
 
--   [« DOMElement::getAttributeNode](domelement.getattributenode.html)
+-   [« DOMElement::getAttributeNode](domelement.getattributenode.md)
     
--   [DOMElement::getAttributeNS »](domelement.getattributens.html)
+-   [DOMElement::getAttributeNS »](domelement.getattributens.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMElement](class.domelement.html)
+-   [DOMElement](class.domelement.md)
     
 -   Повертає вузол атрибуту
     
@@ -37,10 +37,10 @@ URI простір імен.
 
 ### Значення, що повертаються
 
-Вузол атрибуту. Зверніть увагу, що для оголошень просторів імен XML (атрибути `xmlns` і `xmlns:*`) повертається екземпляр **DOMNameSpaceNode**, а не об'єкт [DOMAttr](class.domattr.html)
+Вузол атрибуту. Зверніть увагу, що для оголошень просторів імен XML (атрибути `xmlns` і `xmlns:*`) повертається екземпляр **DOMNameSpaceNode**, а не об'єкт [DOMAttr](class.domattr.md)
 
 ### Дивіться також
 
--   [DOMElement::hasAttributeNS()](domelement.hasattributens.html) - Перевіряє, чи існує заданий атрибут
--   [DOMElement::setAttributeNodeNS()](domelement.setattributenodens.html) - Додає новий атрибут елемент
--   [DOMElement::removeAttributeNode()](domelement.removeattributenode.html) - Видаляє атрибут
+-   [DOMElement::hasAttributeNS()](domelement.hasattributens.md) - Перевіряє, чи існує заданий атрибут
+-   [DOMElement::setAttributeNodeNS()](domelement.setattributenodens.md) - Додає новий атрибут елемент
+-   [DOMElement::removeAttributeNode()](domelement.removeattributenode.md) - Видаляє атрибут

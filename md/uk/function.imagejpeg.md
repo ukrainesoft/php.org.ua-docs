@@ -1,12 +1,12 @@
 Виводить зображення у браузер або пише у файл
 
--   [« imageistruecolor](function.imageistruecolor.html)
+-   [« imageistruecolor](function.imageistruecolor.md)
     
--   [imagelayereffect »](function.imagelayereffect.html)
+-   [imagelayereffect »](function.imagelayereffect.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Виводить зображення у браузер або пише у файл
     
@@ -29,7 +29,7 @@ imagejpeg(GdImage $image, resource|string|null $file = null, int $quality = -1):
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `file`
 
@@ -49,9 +49,9 @@ imagejpeg(GdImage $image, resource|string|null $file = null, int $quality = -1):
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -120,12 +120,12 @@ imagedestroy($im);
 
 > **Зауваження**
 > 
-> Якщо потрібно вивести Progressive JPEG (прогресивне представлення даних), необхідно використовувати функцію [imageinterlace()](function.imageinterlace.html) для активації відповідного режиму.
+> Якщо потрібно вивести Progressive JPEG (прогресивне представлення даних), необхідно використовувати функцію [imageinterlace()](function.imageinterlace.md) для активації відповідного режиму.
 
 ### Дивіться також
 
--   [imagepng()](function.imagepng.html) - Виведення PNG зображення у браузер або файл
--   [imagegif()](function.imagegif.html) - Виводить зображення до браузера або пише у файл
--   [imagewbmp()](function.imagewbmp.html) - Виводить зображення до браузера або пише у файл
--   [imageinterlace()](function.imageinterlace.html) - Увімкнення або вимкнення інтерлейсингу
--   [imagetypes()](function.imagetypes.html) - Повертає список типів зображень, які підтримує PHP збірка
+-   [imagepng()](function.imagepng.md) - Виведення PNG зображення у браузер або файл
+-   [imagegif()](function.imagegif.md) - Виводить зображення до браузера або пише у файл
+-   [imagewbmp()](function.imagewbmp.md) - Виводить зображення до браузера або пише у файл
+-   [imageinterlace()](function.imageinterlace.md) - Увімкнення або вимкнення інтерлейсингу
+-   [imagetypes()](function.imagetypes.md) - Повертає список типів зображень, які підтримує PHP збірка

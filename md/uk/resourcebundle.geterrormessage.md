@@ -1,12 +1,12 @@
 Отримати останнє повідомлення про помилку пакету
 
--   [« ResourceBundle::getErrorCode](resourcebundle.geterrorcode.html)
+-   [« ResourceBundle::getErrorCode](resourcebundle.geterrorcode.md)
     
--   [ResourceBundle::get »](resourcebundle.get.html)
+-   [ResourceBundle::get »](resourcebundle.get.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ResourceBundle](class.resourcebundle.html)
+-   [ResourceBundle](class.resourcebundle.md)
     
 -   Отримати останнє повідомлення про помилку пакету
     
@@ -39,7 +39,7 @@ resourcebundle_get_error_message(ResourceBundle $bundle): string
 
 `bundle`
 
-Об'єкт [ResourceBundle](class.resourcebundle.html)
+Об'єкт [ResourceBundle](class.resourcebundle.md)
 
 ### Значення, що повертаються
 
@@ -73,6 +73,6 @@ if(intl_is_failure(ResourceBundle::getErrorCode($r))) {
 
 ### Дивіться також
 
--   [resourcebundlegeterrorcode()](resourcebundle.geterrorcode.html) - Отримати останній код помилки пакета
+-   [resourcebundlegeterrorcode()](resourcebundle.geterrorcode.md) - Отримати останній код помилки пакета
 -   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
 -   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою

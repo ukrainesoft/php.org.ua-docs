@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](enchant.constants.html)
+-   [« Обумовлені константи](enchant.constants.md)
     
--   [Функции Enchant »](ref.enchant.html)
+-   [Функции Enchant »](ref.enchant.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Enchant](book.enchant.html)
+-   [Enchant](book.enchant.md)
     
 -   Приклади
     

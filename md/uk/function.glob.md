@@ -1,12 +1,12 @@
 Знаходить файлові шляхи, що збігаються із шаблоном
 
--   [« fwrite](function.fwrite.html)
+-   [« fwrite](function.fwrite.md)
     
 -   [ісdir »](function.is-dir.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Знаходить файлові шляхи, що збігаються із шаблоном
     
@@ -62,7 +62,7 @@ glob(string $pattern, int $flags = 0): array|false
 
 ### Приклади
 
-**Приклад #1 Зручний спосіб, як за допомогою **glob()** можна замінити [opendir()](function.opendir.html) та її аналоги.**
+**Приклад #1 Зручний спосіб, як за допомогою **glob()** можна замінити [opendir()](function.opendir.md) та її аналоги.**
 
 ```php
 <?php
@@ -88,7 +88,7 @@ quickref.txt размер 137820
 
 ### Дивіться також
 
--   [opendir()](function.opendir.html) - Відкриває дескриптор каталогу
--   [readdir()](function.readdir.html) - Отримує елемент каталогу за його дескриптором
--   [closedir()](function.closedir.html) - Закриває дескриптор каталогу
--   [fnmatch()](function.fnmatch.html) - Перевіряє збіг імені файлу із шаблоном
+-   [opendir()](function.opendir.md) - Відкриває дескриптор каталогу
+-   [readdir()](function.readdir.md) - Отримує елемент каталогу за його дескриптором
+-   [closedir()](function.closedir.md) - Закриває дескриптор каталогу
+-   [fnmatch()](function.fnmatch.md) - Перевіряє збіг імені файлу із шаблоном

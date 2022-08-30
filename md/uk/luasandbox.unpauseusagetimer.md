@@ -1,12 +1,12 @@
 Відновлює таймер, зупинений LuaSandbox::pauseUsageTimer
 
--   [« LuaSandbox::setMemoryLimit](luasandbox.setmemorylimit.html)
+-   [« LuaSandbox::setMemoryLimit](luasandbox.setmemorylimit.md)
     
--   [LuaSandbox::wrapPhpFunction »](luasandbox.wrapphpfunction.html)
+-   [LuaSandbox::wrapPhpFunction »](luasandbox.wrapphpfunction.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LuaSandbox](class.luasandbox.html)
+-   [LuaSandbox](class.luasandbox.md)
     
 -   Відновлює таймер, зупинений LuaSandbox::pauseUsageTimer
     
@@ -15,7 +15,7 @@
 
 (PECL luasandbox >= 1.4.0)
 
-LuaSandbox::unpauseUsageTimer — Відновлює таймер, зупинений [LuaSandbox::pauseUsageTimer()](luasandbox.pauseusagetimer.html)
+LuaSandbox::unpauseUsageTimer — Відновлює таймер, зупинений [LuaSandbox::pauseUsageTimer()](luasandbox.pauseusagetimer.md)
 
 ### Опис
 
@@ -23,7 +23,7 @@ LuaSandbox::unpauseUsageTimer — Відновлює таймер, зупине�
 public LuaSandbox::unpauseUsageTimer(): void
 ```
 
-Відновлює таймер, зупинений [LuaSandbox::pauseUsageTimer()](luasandbox.pauseusagetimer.html)
+Відновлює таймер, зупинений [LuaSandbox::pauseUsageTimer()](luasandbox.pauseusagetimer.md)
 
 ### Список параметрів
 
@@ -35,5 +35,5 @@ public LuaSandbox::unpauseUsageTimer(): void
 
 ### Дивіться також
 
--   [LuaSandbox::pauseUsageTimer()](luasandbox.pauseusagetimer.html) - Припиняє таймер використання процесора
--   [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.html) - Встановлює обмеження часу процесора для середовища Lua
+-   [LuaSandbox::pauseUsageTimer()](luasandbox.pauseusagetimer.md) - Припиняє таймер використання процесора
+-   [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.md) - Встановлює обмеження часу процесора для середовища Lua

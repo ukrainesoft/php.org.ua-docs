@@ -14,13 +14,13 @@ Eio
 # Eio
 
 -   [Введение](intro.eio.html)
--   [Установка и настройка](eio.setup.html)
-    -   [Требования](eio.requirements.html)
+-   [Встановлення та налаштування](eio.setup.html)
+    -   [Вимоги](eio.requirements.html)
     -   [Установка](eio.installation.html)
-    -   [Настройка во время выполнения](eio.configuration.html)
-    -   [Типы ресурсов](eio.resources.html)
--   [Предопределённые константы](eio.constants.html)
--   [Примеры](eio.examples.html)
+    -   [Налаштування під час виконання](eio.configuration.html)
+    -   [Типи ресурсів](eio.resources.html)
+-   [Обумовлені константи](eio.constants.html)
+-   [Приклади](eio.examples.html)
 -   [Eio Функции](ref.eio.html)
     -   [eiobusy](function.eio-busy.html) — Штучно збільшує навантаження. Може бути корисним при тестуванні, вивченні продуктивності
     -   [eiocancel](function.eio-cancel.html) — Скасує запит

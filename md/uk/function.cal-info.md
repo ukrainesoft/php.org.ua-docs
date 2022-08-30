@@ -4,9 +4,9 @@
     
 -   [calтоjd »](function.cal-to-jd.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Календарь](ref.calendar.html)
+-   [Календарь](ref.calendar.md)
     
 -   Повертає інформацію про заданий календар
     

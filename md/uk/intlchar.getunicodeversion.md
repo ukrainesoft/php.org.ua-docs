@@ -1,12 +1,12 @@
 Отримати версію Unicode
 
--   [« IntlChar::getPropertyValueName](intlchar.getpropertyvaluename.html)
+-   [« IntlChar::getPropertyValueName](intlchar.getpropertyvaluename.md)
     
--   [IntlChar::hasBinaryProperty »](intlchar.hasbinaryproperty.html)
+-   [IntlChar::hasBinaryProperty »](intlchar.hasbinaryproperty.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Отримати версію Unicode
     
@@ -62,4 +62,4 @@ array(4) {
 
 ### Дивіться також
 
--   [IntlChar::charAge()](intlchar.charage.html) - Отримати "вік" символьного коду
+-   [IntlChar::charAge()](intlchar.charage.md) - Отримати "вік" символьного коду

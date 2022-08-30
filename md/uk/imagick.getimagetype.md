@@ -1,12 +1,12 @@
 Повертає можливий тип зображення
 
--   [« Imagick::getImageTotalInkDensity](imagick.getimagetotalinkdensity.html)
+-   [« Imagick::getImageTotalInkDensity](imagick.getimagetotalinkdensity.md)
     
--   [Imagick::getImageUnits »](imagick.getimageunits.html)
+-   [Imagick::getImageUnits »](imagick.getimageunits.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає можливий тип зображення
     

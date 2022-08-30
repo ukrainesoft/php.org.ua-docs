@@ -1,12 +1,12 @@
 Створює новий екземпляр класу DOMElement
 
--   [« DOMElement](class.domelement.html)
+-   [« DOMElement](class.domelement.md)
     
--   [DOMElement::getAttribute »](domelement.getattribute.html)
+-   [DOMElement::getAttribute »](domelement.getattribute.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMElement](class.domelement.html)
+-   [DOMElement](class.domelement.md)
     
 -   Створює новий екземпляр класу DOMElement
     
@@ -21,7 +21,7 @@ DOMElement::construct — Створює новий екземпляр клас�
 
 public **DOMElement::construct**(string `$qualifiedName`, ?string `$value` **`null`**, string `$namespace` = "")
 
-Створює новий об'єкт класу [DOMElement](class.domelement.html). Цей об'єкт доступний лише для читання. Він може бути доданий до документа, але додаткові вузли до нього не можна додати, поки вузол не буде пов'язаний з документом. Щоб створити записуваний вузол, використовуйте [DOMDocument::createElement](domdocument.createelement.html) або [DOMDocument::createElementNS](domdocument.createelementns.html)
+Створює новий об'єкт класу [DOMElement](class.domelement.md). Цей об'єкт доступний лише для читання. Він може бути доданий до документа, але додаткові вузли до нього не можна додати, поки вузол не буде пов'язаний з документом. Щоб створити записуваний вузол, використовуйте [DOMDocument::createElement](domdocument.createelement.md) або [DOMDocument::createElementNS](domdocument.createelementns.md)
 
 ### Список параметрів
 
@@ -56,5 +56,5 @@ echo $dom->saveXML(); /* <?xml version="1.0" encoding="utf-8"?>
 
 ### Дивіться також
 
--   [DOMDocument::createElement()](domdocument.createelement.html) - Створити новий вузол елемента
--   [DOMDocument::createElementNS()](domdocument.createelementns.html) - Створити новий вузол елемента з відповідним простором імен
+-   [DOMDocument::createElement()](domdocument.createelement.md) - Створити новий вузол елемента
+-   [DOMDocument::createElementNS()](domdocument.createelementns.md) - Створити новий вузол елемента з відповідним простором імен

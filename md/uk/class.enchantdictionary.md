@@ -1,12 +1,12 @@
 Клас EnchantDictionary
 
--   [« EnchantBroker](class.enchantbroker.html)
+-   [« EnchantBroker](class.enchantbroker.md)
     
--   [Gender »](book.gender.html)
+-   [Gender »](book.gender.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Enchant](book.enchant.html)
+-   [Enchant](book.enchant.md)
     
 -   Клас EnchantDictionary
     

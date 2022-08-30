@@ -1,12 +1,12 @@
 Повертає посилання на поточний об'єкт Imagick
 
--   [« Imagick::cropThumbnailImage](imagick.cropthumbnailimage.html)
+-   [« Imagick::cropThumbnailImage](imagick.cropthumbnailimage.md)
     
--   [Imagick::cycleColormapImage »](imagick.cyclecolormapimage.html)
+-   [Imagick::cycleColormapImage »](imagick.cyclecolormapimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає посилання на поточний об'єкт Imagick
     

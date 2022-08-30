@@ -1,12 +1,12 @@
 Отримує атрибут
 
--   [« NumberFormatter::format](numberformatter.format.html)
+-   [« NumberFormatter::format](numberformatter.format.md)
     
--   [NumberFormatter::getErrorCode »](numberformatter.geterrorcode.html)
+-   [NumberFormatter::getErrorCode »](numberformatter.geterrorcode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [NumberFormatter](class.numberformatter.html)
+-   [NumberFormatter](class.numberformatter.md)
     
 -   Отримує атрибут
     
@@ -39,7 +39,7 @@ numfmt_get_attribute(NumberFormatter $formatter, int $attribute): int|float|fals
 
 `formatter`
 
-Об'єкт [NumberFormatter](class.numberformatter.html)
+Об'єкт [NumberFormatter](class.numberformatter.md)
 
 `attribute`
 
@@ -88,6 +88,6 @@ echo $fmt->format(1234567.891234567890000)."\n";
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmtgettextattribute()](numberformatter.gettextattribute.html) - Отримує текстовий атрибут
--   [numfmtsetattribute()](numberformatter.setattribute.html) - Встановлює атрибут
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
+-   [numfmtgettextattribute()](numberformatter.gettextattribute.md) - Отримує текстовий атрибут
+-   [numfmtsetattribute()](numberformatter.setattribute.md) - Встановлює атрибут

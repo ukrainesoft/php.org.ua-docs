@@ -1,12 +1,12 @@
 Встановлює м'який режим аналізатора
 
--   [« IntlDateFormatter::setCalendar](intldateformatter.setcalendar.html)
+-   [« IntlDateFormatter::setCalendar](intldateformatter.setcalendar.md)
     
--   [IntlDateFormatter::setPattern »](intldateformatter.setpattern.html)
+-   [IntlDateFormatter::setPattern »](intldateformatter.setpattern.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlDateFormatter](class.intldateformatter.html)
+-   [IntlDateFormatter](class.intldateformatter.md)
     
 -   Встановлює м'який режим аналізатора
     
@@ -149,5 +149,5 @@ if (intl_get_error_code() != 0) {
 
 ### Дивіться також
 
--   [datefmtісlenient()](intldateformatter.islenient.html) - Отримує поблажливість, що використовується для IntlDateFormatter
--   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtісlenient()](intldateformatter.islenient.md) - Отримує поблажливість, що використовується для IntlDateFormatter
+-   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати

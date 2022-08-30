@@ -1,12 +1,12 @@
 Об'єктно-орієнтований приклад PECL/rrd
 
--   [« Процедурный пример PECL/rrd](rrd.examples-procedural.html)
+-   [« Процедурний приклад PECL/rrd](rrd.examples-procedural.html)
     
--   [Функції RRD »](ref.rrd.html)
+-   [Функції RRD »](ref.rrd.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](rrd.examples.html)
+-   [Приклади](rrd.examples.md)
     
 -   Об'єктно-орієнтований приклад PECL/rrd
     

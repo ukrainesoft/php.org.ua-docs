@@ -1,12 +1,12 @@
 Скасує всі зміни у позиції із заданим ім'ям
 
--   [« ZipArchive::unchangeIndex](ziparchive.unchangeindex.html)
+-   [« ZipArchive::unchangeIndex](ziparchive.unchangeindex.md)
     
--   [Функции Zip »](ref.zip.html)
+-   [Функции Zip »](ref.zip.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Скасує всі зміни у позиції із заданим ім'ям
     

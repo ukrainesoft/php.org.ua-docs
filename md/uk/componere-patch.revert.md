@@ -4,7 +4,7 @@
     
 -   [ComponerePatch::isApplied »](componere-patch.isapplied.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponerePatch](class.componere-patch.html)
     

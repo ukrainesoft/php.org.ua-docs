@@ -1,12 +1,12 @@
 Визначає, чи цей рік є високосним.
 
--   [« IntlGregorianCalendar::getGregorianChange](intlgregoriancalendar.getgregorianchange.html)
+-   [« IntlGregorianCalendar::getGregorianChange](intlgregoriancalendar.getgregorianchange.md)
     
--   [IntlGregorianCalendar::setGregorianChange »](intlgregoriancalendar.setgregorianchange.html)
+-   [IntlGregorianCalendar::setGregorianChange »](intlgregoriancalendar.setgregorianchange.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlGregorianCalendar](class.intlgregoriancalendar.html)
+-   [IntlGregorianCalendar](class.intlgregoriancalendar.md)
     
 -   Визначає, чи цей рік є високосним.
     

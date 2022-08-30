@@ -4,9 +4,9 @@ CodeBlock успадковує CommonMarkNode
     
 -   [CommonMarkNodeCodeBlock::construct »](commonmark-node-codeblock.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CommonMark](book.cmark.html)
+-   [CommonMark](book.cmark.md)
     
 -   CodeBlock успадковує CommonMarkNode
     

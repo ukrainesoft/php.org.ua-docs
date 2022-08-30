@@ -4,9 +4,9 @@
     
 -   [Використання imagecopymerge створити напівпрозорий водяний знак »](image.examples.merged-watermark.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](image.examples.html)
+-   [Приклади](image.examples.md)
     
 -   Додавання водяних знаків на зображення за допомогою альфа-каналів
     

@@ -2,7 +2,7 @@
 
 -   [« Xhprof](book.xhprof.html)
     
--   [Установка и настройка »](xhprof.setup.html)
+-   [Встановлення та налаштування »](xhprof.setup.html)
     
 -   [PHP Manual](index.html)
     

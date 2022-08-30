@@ -1,12 +1,12 @@
 Закритий конструктор для заборони створення екземплярів
 
--   [« IntlCalendar::clear](intlcalendar.clear.html)
+-   [« IntlCalendar::clear](intlcalendar.clear.md)
     
--   [IntlCalendar::createInstance »](intlcalendar.createinstance.html)
+-   [IntlCalendar::createInstance »](intlcalendar.createinstance.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Закритий конструктор для заборони створення екземплярів
     
@@ -23,7 +23,7 @@ private **IntlCalendar::construct**
 
 Закритий конструктор для заборони створення екземплярів за допомогою оператора [new](language.oop5.basic.html#language.oop5.basic.new)
 
-Натомість використовуйте метод [IntlCalendar::createInstance()](intlcalendar.createinstance.html)
+Натомість використовуйте метод [IntlCalendar::createInstance()](intlcalendar.createinstance.md)
 
 ### Список параметрів
 

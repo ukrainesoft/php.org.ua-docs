@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](curl.resources.html)
+-   [« Типи ресурсів](curl.resources.md)
     
--   [Примеры »](curl.examples.html)
+-   [Приклади »](curl.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [cURL](book.curl.html)
+-   [cURL](book.curl.md)
     
 -   Обумовлені константи
     

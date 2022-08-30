@@ -4,9 +4,9 @@
     
 -   [arrayreduce »](function.array-reduce.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Вибирає один або кілька випадкових ключів із масиву
     
@@ -41,9 +41,9 @@ array_rand(array $array, int $num = 1): int|string|array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихор Мерсенна](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихор Мерсенна](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html) |
 
 ### Приклади
 
@@ -60,4 +60,4 @@ echo $input[$rand_keys[1]] . "\n";
 
 ### Дивіться також
 
--   [shuffle()](function.shuffle.html) - перемішує масив
+-   [shuffle()](function.shuffle.md) - перемішує масив

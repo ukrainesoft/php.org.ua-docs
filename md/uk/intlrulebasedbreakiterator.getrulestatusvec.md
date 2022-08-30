@@ -1,12 +1,12 @@
 отримати значення статусів із правил зупинки, що визначили поточну позицію зупинки
 
--   [« IntlRuleBasedBreakIterator::getRuleStatus](intlrulebasedbreakiterator.getrulestatus.html)
+-   [« IntlRuleBasedBreakIterator::getRuleStatus](intlrulebasedbreakiterator.getrulestatus.md)
     
--   [IntlCodePointBreakIterator »](class.intlcodepointbreakiterator.html)
+-   [IntlCodePointBreakIterator »](class.intlcodepointbreakiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlRuleBasedBreakIterator](class.intlrulebasedbreakiterator.html)
+-   [IntlRuleBasedBreakIterator](class.intlrulebasedbreakiterator.md)
     
 -   отримати значення статусів із правил зупинки, що визначили поточну позицію зупинки
     

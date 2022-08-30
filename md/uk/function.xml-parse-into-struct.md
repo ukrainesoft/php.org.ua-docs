@@ -4,9 +4,9 @@
     
 -   [xmlparse »](function.xml-parse.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции парсера XML](ref.xml.html)
+-   [Функции парсера XML](ref.xml.md)
     
 -   Розбір XML-даних та приміщення в масив
     
@@ -49,9 +49,9 @@ xml_parse_into_struct(    XMLParser $parser,    string $data,    arr
 
 ### список змін
 
-| Версия | Описание                                                                                                    |
-|--------|-------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -65,9 +65,9 @@ $simple = "<para><note>простое примечание</note></para>";
 $p = xml_parser_create();
 xml_parse_into_struct($p, $simple, $vals, $index);
 xml_parser_free($p);
-echo "Массив index\n";
+echo "Масив index\n";
 print_r($index);
-echo "\nМассив vals\n";
+echo "\nМасив vals\n";
 print_r($vals);
 ?>
 ```
@@ -91,7 +91,7 @@ Array
 
 )
 
-Массив Vals
+Масив Vals
 Array
 (
     [0] => Array
@@ -159,7 +159,7 @@ function readDatabase($filename)
     foreach ($tags as $key=>$val) {
         if ($key == "molecule") {
             $molranges = $val;
-            // каждая смежная пара значений массивов является верхней и
+            // каждая смежная пара значений Масивов является верхней и
             // нижней границей определения молекулы
             for ($i=0; $i < count($molranges); $i+=2) {
                 $offset = $molranges[$i] + 1;

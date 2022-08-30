@@ -1,12 +1,12 @@
 Виконання
 
--   [« Threaded::pop](threaded.pop.html)
+-   [« Threaded::pop](threaded.pop.md)
     
--   [Threaded::shift »](threaded.shift.html)
+-   [Threaded::shift »](threaded.shift.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Threaded](class.threaded.html)
+-   [Threaded](class.threaded.md)
     
 -   Виконання
     

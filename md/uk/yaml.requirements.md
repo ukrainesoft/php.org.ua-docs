@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](yaml.setup.html)
+-   [« Встановлення та налаштування](yaml.setup.md)
     
--   [Установка »](yaml.installation.html)
+-   [Установка »](yaml.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](yaml.setup.html)
+-   [Встановлення та налаштування](yaml.setup.md)
     
 -   Вимоги
     

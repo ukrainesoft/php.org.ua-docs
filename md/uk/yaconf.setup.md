@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.yaconf.html)
+-   [« Введение](intro.yaconf.md)
     
--   [Требования »](yaconf.requirements.html)
+-   [Вимоги »](yaconf.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yaconf](book.yaconf.html)
+-   [Yaconf](book.yaconf.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](yaconf.requirements.html)
--   [Установка](yaconf.installation.html)
--   [Настройка во время выполнения](yaconf.configuration.html)
--   [Типы ресурсов](yaconf.resources.html)
+-   [Вимоги](yaconf.requirements.md)
+-   [Установка](yaconf.installation.md)
+-   [Налаштування під час виконання](yaconf.configuration.md)
+-   [Типи ресурсів](yaconf.resources.md)

@@ -1,12 +1,12 @@
 Встановлює нове значення за вказаним індексом
 
--   [« ArrayObject::offsetGet](arrayobject.offsetget.html)
+-   [« ArrayObject::offsetGet](arrayobject.offsetget.md)
     
--   [ArrayObject::offsetUnset »](arrayobject.offsetunset.html)
+-   [ArrayObject::offsetUnset »](arrayobject.offsetunset.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayObject](class.arrayobject.html)
+-   [ArrayObject](class.arrayobject.md)
     
 -   Встановлює нове значення за вказаним індексом
     
@@ -87,4 +87,4 @@ object(ArrayObject)#3 (3) {
 
 ### Дивіться також
 
--   [ArrayObject::append()](arrayobject.append.html) - Додає значення в кінець масиву
+-   [ArrayObject::append()](arrayobject.append.md) - Додає значення в кінець масиву

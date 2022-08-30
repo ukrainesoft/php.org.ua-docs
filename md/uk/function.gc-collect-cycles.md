@@ -4,9 +4,9 @@
     
 -   [гкdisable »](function.gc-disable.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Примусовий запуск збирача сміття
     
@@ -35,4 +35,4 @@ gc_collect_cycles(): int
 
 ### Дивіться також
 
--   [Сборка мусора](features.gc.html)
+-   [Сборка мусора](features.gc.md)

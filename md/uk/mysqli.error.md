@@ -4,9 +4,9 @@
     
 -   [mysqli::$fieldcount »](mysqli.field-count.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Повертає рядок з описом останньої помилки
     
@@ -23,7 +23,7 @@ mysqli::$error -- mysqlierror — Повертає рядок із описом 
 
 Об'єктно-орієнтований стиль
 
-string [$mysqli->error](mysqli.error.html)
+string [$mysqli->error](mysqli.error.md)
 
 Процедурний стиль
 
@@ -37,7 +37,7 @@ mysqli_error(mysqli $mysql): string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -99,5 +99,5 @@ mysqli_close($link);
 
 -   [mysqliconnecterrno()](mysqli.connect-errno.html) - Повертає код помилки останньої спроби з'єднання
 -   [mysqliconnecterror()](mysqli.connect-error.html) - Повертає опис останньої помилки підключення
--   [mysqlierrno()](mysqli.errno.html) - Повертає код помилки останнього виклику функції
--   [mysqlisqlstate()](mysqli.sqlstate.html) - Повертає код стану SQLSTATE останній MySQL операції
+-   [mysqlierrno()](mysqli.errno.md) - Повертає код помилки останнього виклику функції
+-   [mysqlisqlstate()](mysqli.sqlstate.md) - Повертає код стану SQLSTATE останній MySQL операції

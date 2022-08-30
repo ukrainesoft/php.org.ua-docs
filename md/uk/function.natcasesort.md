@@ -1,12 +1,12 @@
 Сортує масив, використовуючи алгоритм "natural order" без урахування регістру символів
 
--   [« list](function.list.html)
+-   [« list](function.list.md)
     
--   [natsort »](function.natsort.html)
+-   [natsort »](function.natsort.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Сортує масив, використовуючи алгоритм "natural order" без урахування регістру символів
     
@@ -23,7 +23,7 @@ natcasesort — Сортує масив, використовуючи алгор
 natcasesort(array &$array): bool
 ```
 
-**natcasesort()** - це реєстронезалежний аналог [natsort()](function.natsort.html)
+**natcasesort()** - це реєстронезалежний аналог [natsort()](function.natsort.md)
 
 Ця функція реалізує алгоритм сортування, у якому порядок літерно-цифрових рядків буде звичним для людини. Такий алгоритм називається "natural ordering".
 
@@ -93,7 +93,7 @@ Array
 
 ### Дивіться також
 
--   [natsort()](function.natsort.html) - Сортує масив, використовуючи алгоритм "natural order"
--   [Порівняння функцій сортування масивів](array.sorting.html)
--   [strnatcmp()](function.strnatcmp.html) - Порівняння рядків із використанням алгоритму "natural order"
--   [strnatcasecmp()](function.strnatcasecmp.html) - Порівняння рядків без урахування регістру з використанням алгоритму "natural order"
+-   [natsort()](function.natsort.md) - Сортує масив, використовуючи алгоритм "natural order"
+-   [Порівняння функцій сортування масивів](array.sorting.md)
+-   [strnatcmp()](function.strnatcmp.md) - Порівняння рядків із використанням алгоритму "natural order"
+-   [strnatcasecmp()](function.strnatcasecmp.md) - Порівняння рядків без урахування регістру з використанням алгоритму "natural order"

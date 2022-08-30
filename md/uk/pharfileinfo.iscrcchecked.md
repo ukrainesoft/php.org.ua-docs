@@ -1,12 +1,12 @@
 Визначити, чи пройшов файл перевірку CRC
 
--   [« PharFileInfo::hasMetadata](pharfileinfo.hasmetadata.html)
+-   [« PharFileInfo::hasMetadata](pharfileinfo.hasmetadata.md)
     
--   [PharFileInfo::isCompressed »](pharfileinfo.iscompressed.html)
+-   [PharFileInfo::isCompressed »](pharfileinfo.iscompressed.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharFileInfo](class.pharfileinfo.html)
+-   [PharFileInfo](class.pharfileinfo.md)
     
 -   Визначити, чи пройшов файл перевірку CRC
     

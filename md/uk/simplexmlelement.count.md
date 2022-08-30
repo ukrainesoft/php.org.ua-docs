@@ -1,12 +1,12 @@
 Підраховує кількість дочірніх елементів у поточного елемента
 
--   [« SimpleXMLElement::construct](simplexmlelement.construct.html)
+-   [« SimpleXMLElement::construct](simplexmlelement.construct.md)
     
--   [SimpleXMLElement::getDocNamespaces »](simplexmlelement.getdocnamespaces.html)
+-   [SimpleXMLElement::getDocNamespaces »](simplexmlelement.getdocnamespaces.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXMLElement](class.simplexmlelement.html)
+-   [SimpleXMLElement](class.simplexmlelement.md)
     
 -   Підраховує кількість дочірніх елементів у поточного елемента
     
@@ -73,4 +73,4 @@ foreach ($elem as $person) {
 
 ### Дивіться також
 
--   [SimpleXMLElement::children()](simplexmlelement.children.html) - Знаходить дочірні елементи цього вузла
+-   [SimpleXMLElement::children()](simplexmlelement.children.md) - Знаходить дочірні елементи цього вузла

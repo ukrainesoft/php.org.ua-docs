@@ -4,9 +4,9 @@
     
 -   [statsrandranf »](function.stats-rand-ranf.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Генерує два початкові числа для генератора випадкових чисел RGN
     

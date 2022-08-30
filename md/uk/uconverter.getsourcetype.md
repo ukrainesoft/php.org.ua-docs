@@ -1,12 +1,12 @@
 Отримати тип конвертера джерела
 
--   [« UConverter::getSourceEncoding](uconverter.getsourceencoding.html)
+-   [« UConverter::getSourceEncoding](uconverter.getsourceencoding.md)
     
--   [UConverter::getStandards »](uconverter.getstandards.html)
+-   [UConverter::getStandards »](uconverter.getstandards.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [UConverter](class.uconverter.html)
+-   [UConverter](class.uconverter.md)
     
 -   Отримати тип конвертера джерела
     

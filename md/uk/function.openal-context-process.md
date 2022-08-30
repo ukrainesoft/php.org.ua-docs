@@ -4,9 +4,9 @@
     
 -   [openalcontextsuspend »](function.openal-context-suspend.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenAL](ref.openal.html)
+-   [Функции OpenAL](ref.openal.md)
     
 -   Обробити вказаний контекст
     
@@ -27,7 +27,7 @@ openal_context_process(resource $context): bool
 
 `context`
 
-Ресурс [Open AL(Context)](openal.resources.html) (Створений раніше за допомогою [openalcontextcreate()](function.openal-context-create.html)
+Ресурс [Open AL(Context)](openal.resources.md) (Створений раніше за допомогою [openalcontextcreate()](function.openal-context-create.html)
 
 ### Значення, що повертаються
 

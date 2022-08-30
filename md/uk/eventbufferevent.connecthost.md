@@ -1,12 +1,12 @@
 Підключається на ім'я хоста з можливістю асинхронного дозволу DNS
 
--   [« EventBufferEvent::connect](eventbufferevent.connect.html)
+-   [« EventBufferEvent::connect](eventbufferevent.connect.md)
     
--   [EventBufferEvent::construct »](eventbufferevent.construct.html)
+-   [EventBufferEvent::construct »](eventbufferevent.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Підключається на ім'я хоста з можливістю асинхронного дозволу DNS
     
@@ -37,13 +37,13 @@ public
    ): bool
 ```
 
-Дозволяє ім'я хоста DNS-імені, шукаючи адреси типу `family` (Константи `EventUtil::AF_*`). Якщо дозвіл імені не вдалося зробити, викликає callback-функцію події з подією помилки. У разі успішного виконання робить спробу підключення так само, як [EventBufferEvent::connect()](eventbufferevent.connect.html)
+Дозволяє ім'я хоста DNS-імені, шукаючи адреси типу `family` (Константи `EventUtil::AF_*`). Якщо дозвіл імені не вдалося зробити, викликає callback-функцію події з подією помилки. У разі успішного виконання робить спробу підключення так само, як [EventBufferEvent::connect()](eventbufferevent.connect.md)
 
-Параметр `dns_base` не є обов'язковим. Він може мати значення **`null`** або посилатися на об'єкт, створений за допомогою [EventDnsBase::construct()](eventdnsbase.construct.html). Для асинхронного дозволу імені хоста необхідно передати дійсний базовий ресурс події DNS. В іншому випадку дозвіл імені хоста буде заблоковано.
+Параметр `dns_base` не є обов'язковим. Він може мати значення **`null`** або посилатися на об'єкт, створений за допомогою [EventDnsBase::construct()](eventdnsbase.construct.md). Для асинхронного дозволу імені хоста необхідно передати дійсний базовий ресурс події DNS. В іншому випадку дозвіл імені хоста буде заблоковано.
 
 > **Зауваження**
 > 
-> [EventDnsBase](class.eventdnsbase.html) доступний, тільки якщо `Event` налаштований з **\-with-event-extra** (бібліотека `event_extra` *підтримка функцій протоколу libevent, включаючи HTTP, DNS та RPC*
+> [EventDnsBase](class.eventdnsbase.md) доступний, тільки якщо `Event` налаштований з **\-with-event-extra** (бібліотека `event_extra` *підтримка функцій протоколу libevent, включаючи HTTP, DNS та RPC*
 
 > **Зауваження**
 > 
@@ -53,7 +53,7 @@ public
 
 `dns_base`
 
-Об'єкт [EventDnsBase](class.eventdnsbase.html) у випадку, якщо DNS потрібно дозволити асинхронно . **`null`** в іншому випадку.
+Об'єкт [EventDnsBase](class.eventdnsbase.md) у випадку, якщо DNS потрібно дозволити асинхронно . **`null`** в іншому випадку.
 
 `hostname`
 
@@ -168,4 +168,4 @@ Done
 
 ### Дивіться також
 
--   [EventBufferEvent::connect()](eventbufferevent.connect.html) - Підключає файловий дескриптор події буфера до вказаної адреси або сокету UNIX
+-   [EventBufferEvent::connect()](eventbufferevent.connect.md) - Підключає файловий дескриптор події буфера до вказаної адреси або сокету UNIX

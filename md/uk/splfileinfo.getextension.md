@@ -1,12 +1,12 @@
 Отримує розширення файлу
 
--   [« SplFileInfo::getCTime](splfileinfo.getctime.html)
+-   [« SplFileInfo::getCTime](splfileinfo.getctime.md)
     
--   [SplFileInfo::getFileInfo »](splfileinfo.getfileinfo.html)
+-   [SplFileInfo::getFileInfo »](splfileinfo.getfileinfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Отримує розширення файлу
     
@@ -64,7 +64,7 @@ string(2) "gz"
 
 > **Зауваження**
 > 
-> Інший спосіб отримання розширення - використання функції [pathinfo()](function.pathinfo.html)
+> Інший спосіб отримання розширення - використання функції [pathinfo()](function.pathinfo.md)
 > 
 > ```php
 > <?php
@@ -74,6 +74,6 @@ string(2) "gz"
 
 ### Дивіться також
 
--   [SplFileInfo::getFilename()](splfileinfo.getfilename.html) - Отримує ім'я файлу
--   [SplFileInfo::getBasename()](splfileinfo.getbasename.html) - Отримує базове ім'я файлу
--   [pathinfo()](function.pathinfo.html) - Повертає інформацію про шлях до файлу
+-   [SplFileInfo::getFilename()](splfileinfo.getfilename.md) - Отримує ім'я файлу
+-   [SplFileInfo::getBasename()](splfileinfo.getbasename.md) - Отримує базове ім'я файлу
+-   [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях до файлу

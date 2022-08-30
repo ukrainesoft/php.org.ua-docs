@@ -4,9 +4,9 @@
     
 -   [fannsetcascademinoutepochs »](function.fann-set-cascade-min-out-epochs.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Встановлює найменший період кандидата
     

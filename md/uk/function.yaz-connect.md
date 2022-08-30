@@ -4,9 +4,9 @@
     
 -   [yazdatabase »](function.yaz-database.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции YAZ](ref.yaz.html)
+-   [Функции YAZ](ref.yaz.md)
     
 -   Готує з'єднання із сервером Z39.50
     
@@ -105,9 +105,9 @@ maximumRecordSize
 
 ### список змін
 
-| Версия | Описание                       |
-|--------|--------------------------------|
-|        | Було додано параметр `options` |
+| Версия | Описание |
+| --- | --- |
+|  | Було додано параметр `options` |
 
 ### Дивіться також
 

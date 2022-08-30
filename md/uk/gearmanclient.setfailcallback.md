@@ -1,12 +1,12 @@
 Установка callback-функції для обробки ситуації, коли завдання не вдалося виконати
 
--   [« GearmanClient::setExceptionCallback](gearmanclient.setexceptioncallback.html)
+-   [« GearmanClient::setExceptionCallback](gearmanclient.setexceptioncallback.md)
     
--   [GearmanClient::setOptions »](gearmanclient.setoptions.html)
+-   [GearmanClient::setOptions »](gearmanclient.setoptions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanClient](class.gearmanclient.html)
+-   [GearmanClient](class.gearmanclient.md)
     
 -   Установка callback-функції для обробки ситуації, коли завдання не вдалося виконати
     
@@ -23,7 +23,7 @@ GearmanClient::setFailCallback — Встановлення callback-функц�
 public GearmanClient::setFailCallback(callable $callback): bool
 ```
 
-Задає функцію зворотного дзвінка для обробки ситуації, коли завдання виконати не вдалося. Приймає один аргумент типу [GearmanTask](class.gearmantask.html)
+Задає функцію зворотного дзвінка для обробки ситуації, коли завдання виконати не вдалося. Приймає один аргумент типу [GearmanTask](class.gearmantask.md)
 
 ### Список параметрів
 
@@ -37,10 +37,10 @@ public GearmanClient::setFailCallback(callable $callback): bool
 
 ### Дивіться також
 
--   [GearmanClient::setDataCallback()](gearmanclient.setdatacallback.html) - Задає callback-функцію обробки переданих даних
--   [GearmanClient::setCompleteCallback()](gearmanclient.setcompletecallback.html) - Встановіть функцію, яка буде викликана після завершення завдання
--   [GearmanClient::setCreatedCallback()](gearmanclient.setcreatedcallback.html) - Встановити функцію зворотного дзвінка, коли завдання ставиться в чергу
--   [GearmanClient::setExceptionCallback()](gearmanclient.setexceptioncallback.html) - Встановлення функції зворотного дзвінка для перехоплення виключень обробника завдань
--   [GearmanClient::setStatusCallback()](gearmanclient.setstatuscallback.html) - завдання callback-функції, що збирає інформацію про стан обробника завдань
--   [GearmanClient::setWarningCallback()](gearmanclient.setwarningcallback.html) - Установка callback-функції, яка обслуговує попередження оброблювача завдань
--   [GearmanClient::setWorkloadCallback()](gearmanclient.setworkloadcallback.html) - Установка callback-функції, яка приймає проміжні результати від оброблювача завдань
+-   [GearmanClient::setDataCallback()](gearmanclient.setdatacallback.md) - Задає callback-функцію обробки переданих даних
+-   [GearmanClient::setCompleteCallback()](gearmanclient.setcompletecallback.md) - Встановіть функцію, яка буде викликана після завершення завдання
+-   [GearmanClient::setCreatedCallback()](gearmanclient.setcreatedcallback.md) - Встановити функцію зворотного дзвінка, коли завдання ставиться в чергу
+-   [GearmanClient::setExceptionCallback()](gearmanclient.setexceptioncallback.md) - Встановлення функції зворотного дзвінка для перехоплення виключень обробника завдань
+-   [GearmanClient::setStatusCallback()](gearmanclient.setstatuscallback.md) - завдання callback-функції, що збирає інформацію про стан обробника завдань
+-   [GearmanClient::setWarningCallback()](gearmanclient.setwarningcallback.md) - Установка callback-функції, яка обслуговує попередження оброблювача завдань
+-   [GearmanClient::setWorkloadCallback()](gearmanclient.setworkloadcallback.md) - Установка callback-функції, яка приймає проміжні результати від оброблювача завдань

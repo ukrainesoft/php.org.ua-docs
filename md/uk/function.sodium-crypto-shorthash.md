@@ -4,9 +4,9 @@
     
 -   [sodiumcryptosigndetached »](function.sodium-crypto-sign-detached.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Обчислює короткий хеш повідомлення та ключ
     

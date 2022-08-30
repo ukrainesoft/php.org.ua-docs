@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](ssh2.configuration.html)
+-   [« Налаштування під час виконання](ssh2.configuration.html)
     
--   [Предопределённые константы »](ssh2.constants.html)
+-   [Обумовлені константи »](ssh2.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](ssh2.setup.html)
+-   [Встановлення та налаштування](ssh2.setup.html)
     
 -   Типи ресурсів
     

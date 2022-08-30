@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.xmlreader.html)
     
--   [Требования »](xmlreader.requirements.html)
+-   [Вимоги »](xmlreader.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](xmlreader.requirements.html)
+-   [Вимоги](xmlreader.requirements.html)
 -   [Установка](xmlreader.installation.html)
--   [Настройка во время выполнения](xmlreader.configuration.html)
--   [Типы ресурсов](xmlreader.resources.html)
+-   [Налаштування під час виконання](xmlreader.configuration.html)
+-   [Типи ресурсів](xmlreader.resources.html)

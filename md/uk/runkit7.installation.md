@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](runkit7.requirements.html)
+-   [« Вимоги](runkit7.requirements.html)
     
--   [Настройка во время выполнения »](runkit7.configuration.html)
+-   [Налаштування під час виконання »](runkit7.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](runkit7.setup.html)
+-   [Встановлення та налаштування](runkit7.setup.html)
     
 -   Встановлення
     

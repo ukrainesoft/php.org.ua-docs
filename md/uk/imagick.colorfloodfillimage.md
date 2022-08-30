@@ -1,12 +1,12 @@
 Змінює значення кольору будь-якого пікселя, що відповідає цільовому
 
--   [« Imagick::coalesceImages](imagick.coalesceimages.html)
+-   [« Imagick::coalesceImages](imagick.coalesceimages.md)
     
--   [Imagick::colorizeImage »](imagick.colorizeimage.html)
+-   [Imagick::colorizeImage »](imagick.colorizeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Змінює значення кольору будь-якого пікселя, що відповідає цільовому
     
@@ -61,6 +61,6 @@ public Imagick::colorFloodfillImage(    mixed $fill,    float $fuzz,  
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                                        |
-|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL imagick 2.1.0 | Тепер дозволяє використовувати рядок, що представляє колір, як перший і третій параметрів. Попередні версії дозволяли використовувати лише об'єкт ImagickPixel. |

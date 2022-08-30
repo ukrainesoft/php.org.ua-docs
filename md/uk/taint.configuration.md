@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](taint.installation.html)
+-   [« Установка](taint.installation.md)
     
--   [Типы ресурсов »](taint.resources.html)
+-   [Типи ресурсів »](taint.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](taint.setup.html)
+-   [Встановлення та налаштування](taint.setup.md)
     
 -   Налаштування під час виконання
     
@@ -17,10 +17,10 @@
 
 **Опції налаштування Taint**
 
-| Имя                                                                | По умолчанию | Место изменения | Список изменений |
-|--------------------------------------------------------------------|--------------|-----------------|------------------|
-| [taint.enable](taint.configuration.html#ini.taint.enable)          |              | PHPINISYSTEM    |                  |
-| [taint.errorlevel](taint.configuration.html#ini.taint.error-level) | ЕWARNING     | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [taint.enable](taint.configuration.html#ini.taint.enable) |  | PHPINISYSTEM |  |
+| [taint.errorlevel](taint.configuration.html#ini.taint.error-level) | ЕWARNING | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

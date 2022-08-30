@@ -1,12 +1,12 @@
 Робить одиночну, неблокуючу розгортку за вбудованим циклом
 
--   [« EvEmbed::set](evembed.set.html)
+-   [« EvEmbed::set](evembed.set.md)
     
--   [EvFork »](class.evfork.html)
+-   [EvFork »](class.evfork.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvEmbed](class.evembed.html)
+-   [EvEmbed](class.evembed.md)
     
 -   Робить одиночну, неблокуючу розгортку за вбудованим циклом
     
@@ -42,4 +42,4 @@ $other->start(Ev::RUN_NOWAIT);
 
 ### Дивіться також
 
--   [EvWatcher::start()](evwatcher.start.html) - Запускає спостерігача
+-   [EvWatcher::start()](evwatcher.start.md) - Запускає спостерігача

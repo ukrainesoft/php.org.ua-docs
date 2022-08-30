@@ -1,12 +1,12 @@
 Інтерфейс Countable
 
--   [« Интерфейсы](spl.interfaces.html)
+-   [« Інтерфейси](spl.interfaces.html)
     
 -   [Countable::count »](countable.count.html)
     
 -   [PHP Manual](index.html)
     
--   [Интерфейсы](spl.interfaces.html)
+-   [Інтерфейси](spl.interfaces.html)
     
 -   Інтерфейс Countable
     

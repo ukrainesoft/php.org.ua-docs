@@ -1,12 +1,12 @@
 Синхронізація
 
--   [« Threaded::shift](threaded.shift.html)
+-   [« Threaded::shift](threaded.shift.md)
     
--   [Threaded::wait »](threaded.wait.html)
+-   [Threaded::wait »](threaded.wait.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Threaded](class.threaded.html)
+-   [Threaded](class.threaded.md)
     
 -   Синхронізація
     

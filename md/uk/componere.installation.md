@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](componere.requirements.html)
+-   [« Вимоги](componere.requirements.html)
     
 -   [ComponereAbstractDefinition »](class.componere-abstract-definition.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](componere.setup.html)
+-   [Встановлення та налаштування](componere.setup.html)
     
 -   Встановлення
     

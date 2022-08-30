@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Примеры](simplexml.examples.html)
+-   [Приклади](simplexml.examples.html)
     
 -   Робота з помилками XML
     

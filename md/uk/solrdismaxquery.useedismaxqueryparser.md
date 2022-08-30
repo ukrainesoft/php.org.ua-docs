@@ -1,12 +1,12 @@
 Перемикає QueryParser на EDisMax
 
--   [« SolrDisMaxQuery::useDisMaxQueryParser](solrdismaxquery.usedismaxqueryparser.html)
+-   [« SolrDisMaxQuery::useDisMaxQueryParser](solrdismaxquery.usedismaxqueryparser.md)
     
--   [SolrCollapseFunction »](class.solrcollapsefunction.html)
+-   [SolrCollapseFunction »](class.solrcollapsefunction.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
+-   [SolrDisMaxQuery](class.solrdismaxquery.md)
     
 -   Перемикає QueryParser на EDisMax
     
@@ -23,7 +23,7 @@ SolrDisMaxQuery::useEDisMaxQueryParser — Перемикає QueryParser на E
 public SolrDisMaxQuery::useEDisMaxQueryParser(): SolrDisMaxQuery
 ```
 
-Перемикає QueryParser на EDisMax. За замовчуванням будівельник запитів використовує edismax, якщо він був переключений за допомогою [SolrDisMaxQuery::useDisMaxQueryParser()](solrdismaxquery.usedismaxqueryparser.html), його можна переключити за допомогою цього методу.
+Перемикає QueryParser на EDisMax. За замовчуванням будівельник запитів використовує edismax, якщо він був переключений за допомогою [SolrDisMaxQuery::useDisMaxQueryParser()](solrdismaxquery.usedismaxqueryparser.md), його можна переключити за допомогою цього методу.
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public SolrDisMaxQuery::useEDisMaxQueryParser(): SolrDisMaxQuery
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.html)
+[SolrDisMaxQuery](class.solrdismaxquery.md)
 
 ### Приклади
 

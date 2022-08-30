@@ -1,12 +1,12 @@
 Застосовує зазначений поворот до поточного координатного простору
 
--   [« GmagickDraw::rectangle](gmagickdraw.rectangle.html)
+-   [« GmagickDraw::rectangle](gmagickdraw.rectangle.md)
     
--   [GmagickDraw::roundrectangle »](gmagickdraw.roundrectangle.html)
+-   [GmagickDraw::roundrectangle »](gmagickdraw.roundrectangle.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickDraw](class.gmagickdraw.html)
+-   [GmagickDraw](class.gmagickdraw.md)
     
 -   Застосовує зазначений поворот до поточного координатного простору
     
@@ -33,4 +33,4 @@ public GmagickDraw::rotate(float $degrees): GmagickDraw
 
 ### Значення, що повертаються
 
-Об'єкт [GmagickDraw](class.gmagickdraw.html)
+Об'єкт [GmagickDraw](class.gmagickdraw.md)

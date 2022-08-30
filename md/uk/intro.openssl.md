@@ -1,12 +1,12 @@
 Вступ
 
--   [« OpenSSL](book.openssl.html)
+-   [« OpenSSL](book.openssl.md)
     
--   [Установка и настройка »](openssl.setup.html)
+-   [Встановлення та налаштування »](openssl.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OpenSSL](book.openssl.html)
+-   [OpenSSL](book.openssl.md)
     
 -   Вступ
     

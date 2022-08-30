@@ -4,9 +4,9 @@
     
 -   [dbasereplacerecord »](function.dbase-replace-record.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [dBase](ref.dbase.html)
+-   [dBase](ref.dbase.md)
     
 -   Фіксує видалення з бази даних
     
@@ -37,8 +37,8 @@ dbase_pack(resource $database): bool
 
 ### список змін
 
-| Версия      | Описание                                              |
-|-------------|-------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
 
 ### Приклади

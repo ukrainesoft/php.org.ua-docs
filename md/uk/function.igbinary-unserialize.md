@@ -2,11 +2,11 @@
 
 -   [« igbinaryserialize](function.igbinary-serialize.html)
     
--   [JSON »](book.json.html)
+-   [JSON »](book.json.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Igbinary](ref.igbinary.html)
+-   [Функции Igbinary](ref.igbinary.md)
     
 -   Створює значення PHP із збереженого уявлення функцією igbinaryserialize
     
@@ -55,7 +55,7 @@ igbinary_unserialize(string $str): mixed
 
 ### Помилки
 
-Об'єкти можуть викидати виняток [Throwable](class.throwable.html) у своїх оброблювачах десеріалізації.
+Об'єкти можуть викидати виняток [Throwable](class.throwable.md) у своїх оброблювачах десеріалізації.
 
 ### Примітки
 
@@ -65,12 +65,12 @@ igbinary_unserialize(string $str): mixed
 
 ### Дивіться також
 
--   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
+-   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
 -   [jsonencode()](function.json-encode.html) - Повертає JSON-подання даних
 -   [jsondecode()](function.json-decode.html) - Декодує рядок JSON
 -   [hashhmac()](function.hash-hmac.html) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC
 -   [igbinaryserialize()](function.igbinary-serialize.html) - Створює компактне, двійкове уявлення значення, що зберігається
--   [Автоматичне завантаження класів](language.oop5.autoload.html)
+-   [Автоматичне завантаження класів](language.oop5.autoload.md)
 -   [unserializecallbackfunc](var.configuration.html#ini.unserialize-callback-func)
 -   [wakeup()](language.oop5.magic.html#object.wakeup)
 -   [serialize()](language.oop5.magic.html#object.serialize)

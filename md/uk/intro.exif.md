@@ -1,12 +1,12 @@
 Вступ
 
--   [« Exif](book.exif.html)
+-   [« Exif](book.exif.md)
     
--   [Установка и настройка »](exif.setup.html)
+-   [Встановлення та налаштування »](exif.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Exif](book.exif.html)
+-   [Exif](book.exif.md)
     
 -   Вступ
     

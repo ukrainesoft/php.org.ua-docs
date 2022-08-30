@@ -1,12 +1,12 @@
 Фабричний метод створює хеш із файлу
 
--   [« QuickHashIntHash::getSize](quickhashinthash.getsize.html)
+-   [« QuickHashIntHash::getSize](quickhashinthash.getsize.md)
     
--   [QuickHashIntHash::loadFromString »](quickhashinthash.loadfromstring.html)
+-   [QuickHashIntHash::loadFromString »](quickhashinthash.loadfromstring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [QuickHashIntHash](class.quickhashinthash.html)
+-   [QuickHashIntHash](class.quickhashinthash.md)
     
 -   Фабричний метод створює хеш із файлу
     
@@ -64,7 +64,7 @@ key/value 2 (key = 3, value = 9)
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [QuickHashIntHash](class.quickhashinthash.html)
+Повертає новий об'єкт [QuickHashIntHash](class.quickhashinthash.md)
 
 ### Приклади
 

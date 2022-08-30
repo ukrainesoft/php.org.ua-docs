@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](yac.resources.html)
+-   [« Типи ресурсів](yac.resources.md)
     
--   [Yac »](class.yac.html)
+-   [Yac »](class.yac.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yac](book.yac.html)
+-   [Yac](book.yac.md)
     
 -   Обумовлені константи
     

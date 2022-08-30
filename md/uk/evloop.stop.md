@@ -1,12 +1,12 @@
 Зупиняє цикл подій
 
--   [« EvLoop::stat](evloop.stat.html)
+-   [« EvLoop::stat](evloop.stat.md)
     
--   [EvLoop::suspend »](evloop.suspend.html)
+-   [EvLoop::suspend »](evloop.suspend.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvLoop](class.evloop.html)
+-   [EvLoop](class.evloop.md)
     
 -   Зупиняє цикл подій
     
@@ -41,5 +41,5 @@ public
 
 ### Дивіться також
 
--   [EvLoop::run()](evloop.run.html) - Перевіряє події та викликає callback-функції в циклі
--   [Ev::stop()](ev.stop.html) - Зупинити подієвий цикл за замовчуванням
+-   [EvLoop::run()](evloop.run.md) - Перевіряє події та викликає callback-функції в циклі
+-   [Ev::stop()](ev.stop.md) - Зупинити подієвий цикл за замовчуванням

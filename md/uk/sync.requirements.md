@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](sync.setup.html)
+-   [« Встановлення та налаштування](sync.setup.md)
     
--   [Установка »](sync.installation.html)
+-   [Установка »](sync.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](sync.setup.html)
+-   [Встановлення та налаштування](sync.setup.md)
     
 -   Вимоги
     

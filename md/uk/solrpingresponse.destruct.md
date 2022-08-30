@@ -1,12 +1,12 @@
 Деструктор
 
--   [« SolrPingResponse::construct](solrpingresponse.construct.html)
+-   [« SolrPingResponse::construct](solrpingresponse.construct.md)
     
--   [SolrPingResponse::getResponse »](solrpingresponse.getresponse.html)
+-   [SolrPingResponse::getResponse »](solrpingresponse.getresponse.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrPingResponse](class.solrpingresponse.html)
+-   [SolrPingResponse](class.solrpingresponse.md)
     
 -   Деструктор
     

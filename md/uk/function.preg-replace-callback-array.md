@@ -4,9 +4,9 @@
     
 -   [pregreplacecallback »](function.preg-replace-callback.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PCRE](ref.pcre.html)
+-   [Функции PCRE](ref.pcre.md)
     
 -   Здійснює пошук та заміну за регулярним виразом з використанням функцій зворотного дзвінка
     
@@ -29,7 +29,7 @@ preg_replace_callback_array(    array $pattern,    string|array $subject
 
 `pattern`
 
-Асоціативний масив, що зв'язує шаблони регулярного вираження (ключі) та [callable](language.types.callable.html) (Значення).
+Асоціативний масив, що зв'язує шаблони регулярного вираження (ключі) та [callable](language.types.callable.md) (Значення).
 
 `subject`
 
@@ -59,9 +59,9 @@ preg_replace_callback_array(    array $pattern,    string|array $subject
 
 ### список змін
 
-| Версия | Описание                 |
-|--------|--------------------------|
-|        | Доданий параметр `flags` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `flags` |
 
 ### Приклади
 
@@ -94,9 +94,9 @@ preg_replace_callback_array(
 
 ### Дивіться також
 
--   [Шаблоны PCRE](pcre.pattern.html)
+-   [Шаблони PCRE](pcre.pattern.md)
 -   [pregreplacecallback()](function.preg-replace-callback.html) - Виконує пошук за регулярним виразом та заміною з використанням callback-функції
 -   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
 -   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
 -   [preglasterror()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE
--   [Анонімні функції](functions.anonymous.html)
+-   [Анонімні функції](functions.anonymous.md)

@@ -1,12 +1,12 @@
 Конструктор класу SVMModel
 
--   [« SVMModel::checkProbabilityModel](svmmodel.checkprobabilitymodel.html)
+-   [« SVMModel::checkProbabilityModel](svmmodel.checkprobabilitymodel.md)
     
--   [SVMModel::getLabels »](svmmodel.getlabels.html)
+-   [SVMModel::getLabels »](svmmodel.getlabels.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SVMModel](class.svmmodel.html)
+-   [SVMModel](class.svmmodel.md)
     
 -   Конструктор класу SVMModel
     
@@ -35,4 +35,4 @@ public **SVMModel::construct**(string `$filename`
 
 ### Дивіться також
 
--   [SVMModel::load()](svmmodel.load.html) - Завантажує збережену модель SVM
+-   [SVMModel::load()](svmmodel.load.md) - Завантажує збережену модель SVM

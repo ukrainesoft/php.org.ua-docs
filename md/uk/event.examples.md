@@ -1,12 +1,12 @@
 Приклади
 
--   [« Типы ресурсов](event.resources.html)
+-   [« Типи ресурсів](event.resources.md)
     
--   [Флаги событий »](event.flags.html)
+-   [Прапори подій »](event.flags.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](book.event.html)
+-   [Event](book.event.md)
     
 -   Приклади
     
@@ -950,7 +950,7 @@ echo "END\n";
 ?>
 ```
 
-**Приклад #11 Приклад використання [EventHttpConnection::makeRequest()](eventhttpconnection.makerequest.html)**
+**Приклад #11 Приклад використання [EventHttpConnection::makeRequest()](eventhttpconnection.makerequest.md)**
 
 ```php
 <?php

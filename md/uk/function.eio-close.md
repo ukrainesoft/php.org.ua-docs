@@ -4,9 +4,9 @@
     
 -   [eiocustom »](function.eio-custom.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Закрити файл
     

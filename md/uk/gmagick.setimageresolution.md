@@ -1,12 +1,12 @@
 Встановлює роздільну здатність зображення
 
--   [« Gmagick::setimagerenderingintent](gmagick.setimagerenderingintent.html)
+-   [« Gmagick::setimagerenderingintent](gmagick.setimagerenderingintent.md)
     
--   [Gmagick::setimagescene »](gmagick.setimagescene.html)
+-   [Gmagick::setimagescene »](gmagick.setimagescene.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Встановлює роздільну здатність зображення
     

@@ -1,12 +1,12 @@
 Знімає зображення всіх профілів та коментарів
 
--   [« Gmagick::spreadimage](gmagick.spreadimage.html)
+-   [« Gmagick::spreadimage](gmagick.spreadimage.md)
     
--   [Gmagick::swirlimage »](gmagick.swirlimage.html)
+-   [Gmagick::swirlimage »](gmagick.swirlimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Знімає зображення всіх профілів та коментарів
     
@@ -31,7 +31,7 @@ public Gmagick::stripimage(): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

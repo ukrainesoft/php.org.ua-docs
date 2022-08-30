@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](outcontrol.constants.html)
+-   [« Обумовлені константи](outcontrol.constants.md)
     
--   [Базовое использование »](outcontrol.examples.basic.html)
+-   [Базовое использование »](outcontrol.examples.basic.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Контроль виведення](book.outcontrol.html)
+-   [Контроль виведення](book.outcontrol.md)
     
 -   Приклади
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [Базовое использование](outcontrol.examples.basic.html)
--   [Использование перезаписи вывода](outcontrol.examples.rewrite.html)
+-   [Базовое использование](outcontrol.examples.basic.md)
+-   [Використання перезапису виводу](outcontrol.examples.rewrite.md)

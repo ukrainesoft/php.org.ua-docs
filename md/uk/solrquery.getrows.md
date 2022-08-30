@@ -1,12 +1,12 @@
 Повертає максимальну кількість документів
 
--   [« SolrQuery::getQuery](solrquery.getquery.html)
+-   [« SolrQuery::getQuery](solrquery.getquery.md)
     
--   [SolrQuery::getSortFields »](solrquery.getsortfields.html)
+-   [SolrQuery::getSortFields »](solrquery.getsortfields.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає максимальну кількість документів
     

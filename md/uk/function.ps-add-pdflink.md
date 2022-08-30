@@ -4,9 +4,9 @@
     
 -   [псaddweblink »](function.ps-add-weblink.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Додає посилання на сторінку в іншому PDF-документі
     

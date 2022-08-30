@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.svm.html)
+-   [« Введение](intro.svm.md)
     
--   [Требования »](svm.requirements.html)
+-   [Вимоги »](svm.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SVM](book.svm.html)
+-   [SVM](book.svm.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](svm.requirements.html)
--   [Установка](svm.installation.html)
--   [Настройка во время выполнения](svm.configuration.html)
--   [Типы ресурсов](svm.resources.html)
+-   [Вимоги](svm.requirements.md)
+-   [Установка](svm.installation.md)
+-   [Налаштування під час виконання](svm.configuration.md)
+-   [Типи ресурсів](svm.resources.md)

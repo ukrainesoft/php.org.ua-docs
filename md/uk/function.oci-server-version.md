@@ -4,9 +4,9 @@
     
 -   [ocisetaction »](function.oci-set-action.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8 Функции](ref.oci8.html)
+-   [OCI8 Функции](ref.oci8.md)
     
 -   Повертає версію сервера Oracle
     
@@ -56,7 +56,7 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ociserverversion()](function.ociserverversion.html). У PHP 5.0.0 і вище [ociserverversion()](function.ociserverversion.html) є аліасом \*\*ociserverversion()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ociserverversion()](function.ociserverversion.md). У PHP 5.0.0 і вище [ociserverversion()](function.ociserverversion.md) є аліасом \*\*ociserverversion()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
 
 ### Дивіться також
 

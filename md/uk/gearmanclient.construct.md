@@ -1,12 +1,12 @@
 Створити екземпляр GearmanClient
 
--   [« GearmanClient::clone](gearmanclient.clone.html)
+-   [« GearmanClient::clone](gearmanclient.clone.md)
     
--   [GearmanClient::context »](gearmanclient.context.html)
+-   [GearmanClient::context »](gearmanclient.context.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanClient](class.gearmanclient.html)
+-   [GearmanClient](class.gearmanclient.md)
     
 -   Створити екземпляр GearmanClient
     
@@ -23,7 +23,7 @@ GearmanClient::construct — Створити екземпляр GearmanClient
 public GearmanClient::__construct()
 ```
 
-Створює екземпляр [GearmanClient](class.gearmanclient.html), що представляє клієнта, який з'єднується з сервером завдань і надсилає завдання для виконання.
+Створює екземпляр [GearmanClient](class.gearmanclient.md), що представляє клієнта, який з'єднується з сервером завдань і надсилає завдання для виконання.
 
 ### Список параметрів
 
@@ -31,8 +31,8 @@ public GearmanClient::__construct()
 
 ### Значення, що повертаються
 
-Об'єкт [GearmanClient](class.gearmanclient.html)
+Об'єкт [GearmanClient](class.gearmanclient.md)
 
 ### Дивіться також
 
--   [GearmanClient::clone()](gearmanclient.clone.html) - Створити копію об'єкта GearmanClient
+-   [GearmanClient::clone()](gearmanclient.clone.md) - Створити копію об'єкта GearmanClient

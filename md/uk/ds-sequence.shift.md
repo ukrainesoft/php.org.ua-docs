@@ -4,7 +4,7 @@
     
 -   [ДсSequence::slice »](ds-sequence.slice.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Послідовність](class.ds-sequence.html)
     
@@ -35,7 +35,7 @@ abstract public Ds\Sequence::shift(): mixed
 
 ### Помилки
 
-Викидає виняток [UnderflowException](class.underflowexception.html)якщо колекція порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо колекція порожня.
 
 ### Приклади
 

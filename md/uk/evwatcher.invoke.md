@@ -1,12 +1,12 @@
 Викликає callback-функцію спостерігача із заданою бітовою маскою прийнятих подій
 
--   [« EvWatcher::getLoop](evwatcher.getloop.html)
+-   [« EvWatcher::getLoop](evwatcher.getloop.md)
     
--   [EvWatcher::keepalive »](evwatcher.keepalive.html)
+-   [EvWatcher::keepalive »](evwatcher.keepalive.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvWatcher](class.evwatcher.html)
+-   [EvWatcher](class.evwatcher.md)
     
 -   Викликає callback-функцію спостерігача із заданою бітовою маскою прийнятих подій
     

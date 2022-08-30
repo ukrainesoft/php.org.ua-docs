@@ -1,12 +1,12 @@
 Додає ітератор
 
--   [« AppendIterator](class.appenditerator.html)
+-   [« AppendIterator](class.appenditerator.md)
     
--   [AppendIterator::construct »](appenditerator.construct.html)
+-   [AppendIterator::construct »](appenditerator.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [AppendIterator](class.appenditerator.html)
+-   [AppendIterator](class.appenditerator.md)
     
 -   Додає ітератор
     
@@ -62,4 +62,4 @@ abcdef
 
 ### Дивіться також
 
--   [AppendIterator::construct()](appenditerator.construct.html) - Створює AppendIterator
+-   [AppendIterator::construct()](appenditerator.construct.md) - Створює AppendIterator

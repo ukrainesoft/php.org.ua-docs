@@ -4,9 +4,9 @@
     
 -   [SwooleTimer::after »](swoole-timer.after.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Swoole](book.swoole.html)
+-   [Swoole](book.swoole.md)
     
 -   Клас SwooleTimer
     

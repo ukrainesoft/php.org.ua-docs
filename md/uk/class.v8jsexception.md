@@ -1,17 +1,17 @@
 Клас V8JsException
 
--   [« V8Js::registerExtension](v8js.registerextension.html)
+-   [« V8Js::registerExtension](v8js.registerextension.md)
     
--   [V8JsException::getJsFileName »](v8jsexception.getjsfilename.html)
+-   [V8JsException::getJsFileName »](v8jsexception.getjsfilename.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [V8js](book.v8js.html)
+-   [V8js](book.v8js.md)
     
 -   Клас V8JsException
     
 
-# Клас [V8JsException](class.v8jsexception.html)
+# Клас [V8JsException](class.v8jsexception.md)
 
 (PECL v8js >= 0.1.0)
 
@@ -108,7 +108,7 @@ JsTrace
 
 ## Зміст
 
--   [V8JsException::getJsFileName](v8jsexception.getjsfilename.html) — Отримати ім'я JavaScript
--   [V8JsException::getJsLineNumber](v8jsexception.getjslinenumber.html) — Отримати номер рядка
--   [V8JsException::getJsSourceLine](v8jsexception.getjssourceline.html) — Отримати вихідний рядок JavaScript
--   [V8JsException::getJsTrace](v8jsexception.getjstrace.html) — Отримати стек викликів
+-   [V8JsException::getJsFileName](v8jsexception.getjsfilename.md) — Отримати ім'я JavaScript
+-   [V8JsException::getJsLineNumber](v8jsexception.getjslinenumber.md) — Отримати номер рядка
+-   [V8JsException::getJsSourceLine](v8jsexception.getjssourceline.md) — Отримати вихідний рядок JavaScript
+-   [V8JsException::getJsTrace](v8jsexception.getjstrace.md) — Отримати стек викликів

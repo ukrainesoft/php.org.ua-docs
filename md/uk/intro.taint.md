@@ -1,12 +1,12 @@
 Вступ
 
--   [« Taint](book.taint.html)
+-   [« Taint](book.taint.md)
     
--   [Установка и настройка »](taint.setup.html)
+-   [Встановлення та налаштування »](taint.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Taint](book.taint.html)
+-   [Taint](book.taint.md)
     
 -   Вступ
     
@@ -17,7 +17,7 @@ Taint - модуль, використовуваний визначення ко
 
 Якщо модуль увімкнено, то коли ви передаєте підозрілий рядок (з $GET, $POST або $COOKIE) деяким функціям буде видано попередження.
 
-**Приклад #1 Приклад використання [Taint()](function.taint.html)**
+**Приклад #1 Приклад використання [Taint()](function.taint.md)**
 
 ```php
 <?php

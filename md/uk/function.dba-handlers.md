@@ -4,9 +4,9 @@
     
 -   [dbainsert »](function.dba-insert.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції DBA](ref.dba.html)
+-   [Функції DBA](ref.dba.md)
     
 -   Список доступних обробників
     

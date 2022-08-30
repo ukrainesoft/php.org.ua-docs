@@ -1,12 +1,12 @@
 Клас ReflectionUnionType
 
--   [« ReflectionType::toString](reflectiontype.tostring.html)
+-   [« ReflectionType::toString](reflectiontype.tostring.md)
     
--   [ReflectionUnionType::getTypes »](reflectionuniontype.gettypes.html)
+-   [ReflectionUnionType::getTypes »](reflectionuniontype.gettypes.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Reflection](book.reflection.html)
+-   [Reflection](book.reflection.md)
     
 -   Клас ReflectionUnionType
     
@@ -49,4 +49,4 @@ public ReflectionType::__toString(): string
 
 ## Зміст
 
--   [ReflectionUnionType::getTypes](reflectionuniontype.gettypes.html) — Повертає типи, включені до типу union
+-   [ReflectionUnionType::getTypes](reflectionuniontype.gettypes.md) — Повертає типи, включені до типу union

@@ -4,9 +4,9 @@
     
 -   [pregreplacecallbackarray »](function.preg-replace-callback-array.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PCRE](ref.pcre.html)
+-   [Функции PCRE](ref.pcre.md)
     
 -   Екранує символи у регулярних виразах
     
@@ -49,10 +49,10 @@ preg_quote(string $str, ?string $delimiter = null): string
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | Символ `#` тепер екранується              |
-|        | `delimiter` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | Символ `#` тепер екранується |
+|  | `delimiter` тепер допускає значення null. |
 
 ### Приклади
 
@@ -87,5 +87,5 @@ $textbody = preg_replace ("/" . preg_quote($word, '/') . "/",
 
 ### Дивіться також
 
--   [Регулярные выражения PCRE](pcre.pattern.html)
--   [escapeshellcmd()](function.escapeshellcmd.html) - Екранувати метасимволи командного рядка
+-   [Регулярні вирази PCRE](pcre.pattern.md)
+-   [escapeshellcmd()](function.escapeshellcmd.md) - Екранувати метасимволи командного рядка

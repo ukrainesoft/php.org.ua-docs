@@ -1,12 +1,12 @@
 Отримання імені функції
 
--   [« GearmanJob::fail](gearmanjob.fail.html)
+-   [« GearmanJob::fail](gearmanjob.fail.md)
     
--   [GearmanJob::handle »](gearmanjob.handle.html)
+-   [GearmanJob::handle »](gearmanjob.handle.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanJob](class.gearmanjob.html)
+-   [GearmanJob](class.gearmanjob.md)
     
 -   Отримання імені функції
     
@@ -35,4 +35,4 @@ public GearmanJob::functionName(): string
 
 ### Дивіться також
 
--   [GearmanTask::function()](gearmantask.function.html) - Отримати ім'я пов'язаної функції (застарілий метод)
+-   [GearmanTask::function()](gearmantask.function.md) - Отримати ім'я пов'язаної функції (застарілий метод)

@@ -4,9 +4,9 @@
     
 -   [пгaffectedrows »](function.pg-affected-rows.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PostgreSQL](book.pgsql.html)
+-   [PostgreSQL](book.pgsql.md)
     
 -   Функції PostgreSQL
     

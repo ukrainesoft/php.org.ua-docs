@@ -1,22 +1,22 @@
 Менеджер процесів FastCGI
 
--   [« virtual](function.virtual.html)
+-   [« virtual](function.virtual.md)
     
--   [Введение »](intro.fpm.html)
+-   [Введение »](intro.fpm.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модулі для роботи із серверами](refs.utilspec.server.html)
+-   [Модулі для роботи із серверами](refs.utilspec.server.md)
     
 -   Менеджер процесів FastCGI
     
 
 # Менеджер процесів FastCGI
 
--   [Введение](intro.fpm.html)
--   [Установка и настройка](fpm.setup.html)
--   [Спостережуваність](fpm.observability.html)
-    -   [Сторінка стану](fpm.status.html)
--   [Функції FPM](ref.fpm.html)
+-   [Введение](intro.fpm.md)
+-   [Встановлення та налаштування](fpm.setup.md)
+-   [Спостережуваність](fpm.observability.md)
+    -   [Сторінка стану](fpm.status.md)
+-   [Функції FPM](ref.fpm.md)
     -   [fastcgifinishrequest](function.fastcgi-finish-request.html) - Скидає всі запитані дані клієнту
     -   [fpmgetstatus](function.fpm-get-status.html) — Повертає поточний стан пулу FPM

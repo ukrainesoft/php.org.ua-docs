@@ -39,11 +39,11 @@ expect_expectl(resource $expect, array $cases, array &$match = ?): int
 
 **Expect Case Array**
 
-| Индекс | Тип значения | Описание                                                                                                                                                                                                                     | Обязательный | Значение по умолчанию                                             |
-|--------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-------------------------------------------------------------------|
-|        | string       | шаблон, який порівнюватиметься з потоком виводу                                                                                                                                                                              | так          |                                                                   |
-|        | mixed        | значення, яке поверне функція, якщо збіг знайдено                                                                                                                                                                            | так          |                                                                   |
-|        | integer      | тип шаблону: [**`EXP_GLOB`**](expect.constants.html#constants.expect.exp-glob) [**`EXP_EXACT`**](expect.constants.html#constants.expect.exp-exact) або [**`EXP_REGEXP`**](expect.constants.html#constants.expect.exp-regexp) | ні           | [**`EXP_GLOB`**](expect.constants.html#constants.expect.exp-glob) |
+| Индекс | Тип значения | Описание | Обязательный | Значение по умолчанию |
+| --- | --- | --- | --- | --- |
+|  | string | шаблон, який порівнюватиметься з потоком виводу | так |  |
+|  | mixed | значення, яке поверне функція, якщо збіг знайдено | так |  |
+|  | integer | тип шаблону: [**`EXP_GLOB`**](expect.constants.html#constants.expect.exp-glob) [**`EXP_EXACT`**](expect.constants.html#constants.expect.exp-exact) або [**`EXP_REGEXP`**](expect.constants.html#constants.expect.exp-regexp) | ні | [**`EXP_GLOB`**](expect.constants.html#constants.expect.exp-glob) |
 
 ### Значення, що повертаються
 
@@ -53,8 +53,8 @@ expect_expectl(resource $expect, array $cases, array &$match = ?): int
 
 ### список змін
 
-| Версия            | Описание                                                                            |
-|-------------------|-------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL expect 0.2.1 | До версії 0.2.1, параметр `match` повертався рядок, а не масив рядків, що збіглися. |
 
 ### Приклади

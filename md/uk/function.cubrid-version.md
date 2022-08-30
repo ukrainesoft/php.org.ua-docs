@@ -2,11 +2,11 @@
 
 -   [« cubridsetquerytimeout](function.cubrid-set-query-timeout.html)
     
--   [Функції сумісності CUBRID MySQL »](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL »](cubridmysql.cubrid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Отримати версію модуля CUBRID PHP
     

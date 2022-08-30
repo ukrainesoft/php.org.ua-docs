@@ -1,12 +1,12 @@
 Зупиняє таймер використання процесора
 
--   [« LuaSandbox::loadString](luasandbox.loadstring.html)
+-   [« LuaSandbox::loadString](luasandbox.loadstring.md)
     
--   [LuaSandbox::registerLibrary »](luasandbox.registerlibrary.html)
+-   [LuaSandbox::registerLibrary »](luasandbox.registerlibrary.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LuaSandbox](class.luasandbox.html)
+-   [LuaSandbox](class.luasandbox.md)
     
 -   Зупиняє таймер використання процесора
     
@@ -95,5 +95,5 @@ try {
 
 ### Дивіться також
 
--   [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.html) - Встановлює обмеження часу процесора для середовища Lua
--   [LuaSandbox::unpauseUsageTimer()](luasandbox.unpauseusagetimer.html) - Відновлює таймер, зупинений LuaSandbox::pauseUsageTimer
+-   [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.md) - Встановлює обмеження часу процесора для середовища Lua
+-   [LuaSandbox::unpauseUsageTimer()](luasandbox.unpauseusagetimer.md) - Відновлює таймер, зупинений LuaSandbox::pauseUsageTimer

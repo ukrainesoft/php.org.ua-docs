@@ -1,12 +1,12 @@
 Видаляє сервери з ансамблю
 
--   [« ZookeeperConfig::get](zookeeperconfig.get.html)
+-   [« ZookeeperConfig::get](zookeeperconfig.get.md)
     
--   [ZookeeperConfig::set »](zookeeperconfig.set.html)
+-   [ZookeeperConfig::set »](zookeeperconfig.set.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZookeeperConfig](class.zookeeperconfig.html)
+-   [ZookeeperConfig](class.zookeeperconfig.md)
     
 -   Видаляє сервери з ансамблю
     
@@ -44,7 +44,7 @@ public
 
 ### Помилки
 
-Метод генерує [ZookeeperException](class.zookeeperexception.html) та його похідні, коли кількість параметрів або типи неправильні або не вдається зберегти значення у вузлі.
+Метод генерує [ZookeeperException](class.zookeeperexception.md) та його похідні, коли кількість параметрів або типи неправильні або не вдається зберегти значення у вузлі.
 
 ### Приклади
 
@@ -77,7 +77,7 @@ version=0xca01e881a2
 
 ### Дивіться також
 
--   [ZookeeperConfig::get()](zookeeperconfig.get.html) - Синхронно отримує останню підтверджену конфігурацію кластера ZooKeeper, про яку відомо серверу, до якого підключено клієнта
--   [ZookeeperConfig::add()](zookeeperconfig.add.html) - Додає сервери до ансамблю
--   [ZookeeperConfig::set()](zookeeperconfig.set.html) - Змінює склад ансамблю ZK та ролі його учасників
--   [ZookeeperException](class.zookeeperexception.html)
+-   [ZookeeperConfig::get()](zookeeperconfig.get.md) - Синхронно отримує останню підтверджену конфігурацію кластера ZooKeeper, про яку відомо серверу, до якого підключено клієнта
+-   [ZookeeperConfig::add()](zookeeperconfig.add.md) - Додає сервери до ансамблю
+-   [ZookeeperConfig::set()](zookeeperconfig.set.md) - Змінює склад ансамблю ZK та ролі його учасників
+-   [ZookeeperException](class.zookeeperexception.md)

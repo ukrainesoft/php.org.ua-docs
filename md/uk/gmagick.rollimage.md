@@ -1,12 +1,12 @@
 Зміщує зображення
 
--   [« Gmagick::resizeimage](gmagick.resizeimage.html)
+-   [« Gmagick::resizeimage](gmagick.resizeimage.md)
     
--   [Gmagick::rotateimage »](gmagick.rotateimage.html)
+-   [Gmagick::rotateimage »](gmagick.rotateimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Зміщує зображення
     
@@ -37,7 +37,7 @@ public Gmagick::rollimage(int $x, int $y): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

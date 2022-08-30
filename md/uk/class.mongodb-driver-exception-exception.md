@@ -4,9 +4,9 @@
     
 -   [MongoDBDriverExceptionExecutionTimeoutException »](class.mongodb-driver-exception-executiontimeoutexception.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBDriverException](mongodb.exceptions.html)
+-   [MongoDBDriverException](mongodb.exceptions.md)
     
 -   Інтерфейс MongoDBDriverExceptionException
     

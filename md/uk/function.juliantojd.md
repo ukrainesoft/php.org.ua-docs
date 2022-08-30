@@ -1,12 +1,12 @@
 Переказує дату за юліанським календарем у число днів у юліанському літочисленні
 
--   [« jewishtojd](function.jewishtojd.html)
+-   [« jewishtojd](function.jewishtojd.md)
     
--   [unixtojd »](function.unixtojd.html)
+-   [unixtojd »](function.unixtojd.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Календарь](ref.calendar.html)
+-   [Календарь](ref.calendar.md)
     
 -   Переказує дату за юліанським календарем у число днів у юліанському літочисленні
     
@@ -29,7 +29,7 @@ juliantojd(int $month, int $day, int $year): int
 
 **Застереження**
 
-Пам'ятайте, що зараз загальноприйнятим у світі вважається григоріанський календар. Функція [gregoriantojd()](function.gregoriantojd.html) може перетворювати дати за цим календарем на число днів у юліанському літочисленні.
+Пам'ятайте, що зараз загальноприйнятим у світі вважається григоріанський календар. Функція [gregoriantojd()](function.gregoriantojd.md) може перетворювати дати за цим календарем на число днів у юліанському літочисленні.
 
 ### Список параметрів
 
@@ -51,5 +51,5 @@ juliantojd(int $month, int $day, int $year): int
 
 ### Дивіться також
 
--   [jdtojulian()](function.jdtojulian.html) - Переказує кількість днів у юліанському літочисленні в дату за юліанським календарем
+-   [jdtojulian()](function.jdtojulian.md) - Переказує кількість днів у юліанському літочисленні в дату за юліанським календарем
 -   [calтоjd()](function.cal-to-jd.html) - Перетворює задану дату на юліанську

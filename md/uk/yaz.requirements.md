@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](yaz.setup.html)
+-   [« Встановлення та налаштування](yaz.setup.html)
     
 -   [Установка »](yaz.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](yaz.setup.html)
+-   [Встановлення та налаштування](yaz.setup.html)
     
 -   Вимоги
     

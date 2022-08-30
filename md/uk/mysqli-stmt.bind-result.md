@@ -4,7 +4,7 @@
     
 -   [mysqlistmt::close »](mysqli-stmt.close.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlistmt](class.mysqli-stmt.html)
     
@@ -129,5 +129,5 @@ AND Andorra
 -   [mysqlistmtbindparam()](mysqli-stmt.bind-param.html) - Прив'язка змінних до параметрів запиту, що готується.
 -   [mysqlistmtexecute()](mysqli-stmt.execute.html) - Виконує підготовлене затвердження
 -   [mysqlistmtfetch()](mysqli-stmt.fetch.html) - пов'язує результати підготовленого виразу зі змінними
--   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
 -   [mysqlistmtprepare()](mysqli-stmt.prepare.html) - готує затвердження SQL до виконання

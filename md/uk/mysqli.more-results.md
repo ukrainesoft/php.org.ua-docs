@@ -1,12 +1,12 @@
 Перевірка, чи є ще результати у мультизапиті
 
--   [« mysqli::kill](mysqli.kill.html)
+-   [« mysqli::kill](mysqli.kill.md)
     
 -   [mysqli::multiquery »](mysqli.multi-query.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Перевірка, чи є ще результати у мультизапиті
     
@@ -39,7 +39,7 @@ mysqli_more_results(mysqli $mysql): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 

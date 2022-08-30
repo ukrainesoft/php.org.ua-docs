@@ -1,12 +1,12 @@
 Додає всі об'єкти з іншого контейнера
 
--   [« SplObjectStorage](class.splobjectstorage.html)
+-   [« SplObjectStorage](class.splobjectstorage.md)
     
--   [SplObjectStorage::attach »](splobjectstorage.attach.html)
+-   [SplObjectStorage::attach »](splobjectstorage.attach.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplObjectStorage](class.splobjectstorage.html)
+-   [SplObjectStorage](class.splobjectstorage.md)
     
 -   Додає всі об'єкти з іншого контейнера
     
@@ -59,4 +59,4 @@ hello
 
 ### Дивіться також
 
--   [SplObjectStorage::removeAll()](splobjectstorage.removeall.html) - Видаляє з поточного контейнера об'єкти, які є в іншому контейнері
+-   [SplObjectStorage::removeAll()](splobjectstorage.removeall.md) - Видаляє з поточного контейнера об'єкти, які є в іншому контейнері

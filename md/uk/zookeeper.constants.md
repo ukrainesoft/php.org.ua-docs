@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](zookeeper.resources.html)
+-   [« Типи ресурсів](zookeeper.resources.md)
     
--   [Функции ZooKeeper »](ref.zookeeper.html)
+-   [Функции ZooKeeper »](ref.zookeeper.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZooKeeper](book.zookeeper.html)
+-   [ZooKeeper](book.zookeeper.md)
     
 -   Обумовлені константи
     

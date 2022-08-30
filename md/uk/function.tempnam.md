@@ -1,12 +1,12 @@
 Створює файл із унікальним ім'ям
 
--   [« symlink](function.symlink.html)
+-   [« symlink](function.symlink.md)
     
--   [tmpfile »](function.tmpfile.html)
+-   [tmpfile »](function.tmpfile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Створює файл із унікальним ім'ям
     
@@ -43,9 +43,9 @@ tempnam(string $directory, string $prefix): string|false
 
 ### список змін
 
-| Версия | Описание                                                                               |
-|--------|----------------------------------------------------------------------------------------|
-|        | **tempnam()** тепер видає повідомлення при поверненні до тимчасового каталогу системи. |
+| Версия | Описание |
+| --- | --- |
+|  | **tempnam()** тепер видає повідомлення при поверненні до тимчасового каталогу системи. |
 
 ### Приклади
 
@@ -71,6 +71,6 @@ unlink($tmpfname);
 
 ### Дивіться також
 
--   [tmpfile()](function.tmpfile.html) - Створює тимчасовий файл
+-   [tmpfile()](function.tmpfile.md) - Створює тимчасовий файл
 -   [sysgettempdir()](function.sys-get-temp-dir.html) - Повертає шлях до директорії тимчасових файлів
--   [unlink()](function.unlink.html) - Видаляє файл
+-   [unlink()](function.unlink.md) - Видаляє файл

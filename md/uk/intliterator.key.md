@@ -1,12 +1,12 @@
 Отримати ключ поточного елемента
 
--   [« IntlIterator::current](intliterator.current.html)
+-   [« IntlIterator::current](intliterator.current.md)
     
--   [IntlIterator::next »](intliterator.next.html)
+-   [IntlIterator::next »](intliterator.next.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlIterator](class.intliterator.html)
+-   [IntlIterator](class.intliterator.md)
     
 -   Отримати ключ поточного елемента
     

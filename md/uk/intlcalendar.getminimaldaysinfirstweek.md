@@ -1,12 +1,12 @@
 Отримує мінімальну кількість днів, яка може бути в першому тижні на рік або місяць
 
--   [« IntlCalendar::getMaximum](intlcalendar.getmaximum.html)
+-   [« IntlCalendar::getMaximum](intlcalendar.getmaximum.md)
     
--   [IntlCalendar::getMinimum »](intlcalendar.getminimum.html)
+-   [IntlCalendar::getMinimum »](intlcalendar.getminimum.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Отримує мінімальну кількість днів, яка може бути в першому тижні на рік або місяць
     
@@ -31,13 +31,13 @@ public IntlCalendar::getMinimalDaysInFirstWeek(): int|false
 intlcal_get_minimal_days_in_first_week(IntlCalendar $calendar): int|false
 ```
 
-Повертає найменшу кількість днів, які мають пройти у перший тиждень року чи місяця у новому році чи місяці. Наприклад, у григоріанському календарі, якщо це значення дорівнює 1, то перший тиждень року обов'язково включатиме 1 січня, а якщо це значення дорівнює 7, то тиждень з 1 січня буде першим тижнем року, тільки якщо день тижня 1 січня збігається з днем ​​тижня, повертається [IntlCalendar::getFirstDayOfWeek()](intlcalendar.getfirstdayofweek.html); інакше це буде останній тиждень минулого року.
+Повертає найменшу кількість днів, які мають пройти у перший тиждень року чи місяця у новому році чи місяці. Наприклад, у григоріанському календарі, якщо це значення дорівнює 1, то перший тиждень року обов'язково включатиме 1 січня, а якщо це значення дорівнює 7, то тиждень з 1 січня буде першим тижнем року, тільки якщо день тижня 1 січня збігається з днем ​​тижня, повертається [IntlCalendar::getFirstDayOfWeek()](intlcalendar.getfirstdayofweek.md); інакше це буде останній тиждень минулого року.
 
 ### Список параметрів
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 ### Значення, що повертаються
 

@@ -1,12 +1,12 @@
 Отримує параметри зі списку аргументів командного рядка
 
--   [« getmyuid](function.getmyuid.html)
+-   [« getmyuid](function.getmyuid.md)
     
--   [getrusage »](function.getrusage.html)
+-   [getrusage »](function.getrusage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Отримує параметри зі списку аргументів командного рядка
     
@@ -69,9 +69,9 @@ getopt(string $short_options, array $long_options = [], int &$rest_index = null)
 
 ### список змін
 
-| Версия | Описание                      |
-|--------|-------------------------------|
-|        | Доданий параметр `rest_index` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `rest_index` |
 
 ### Приклади
 
@@ -194,4 +194,4 @@ array(1) {
 
 ### Дивіться також
 
--   [](reserved.variables.argv.html)[$argv](reserved.variables.argv.html)
+-   [](reserved.variables.argv.md)[$argv](reserved.variables.argv.md)

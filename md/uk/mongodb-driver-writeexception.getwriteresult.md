@@ -2,9 +2,9 @@
 
 -   [« MongoDBDriverExceptionWriteException](class.mongodb-driver-exception-writeexception.html)
     
--   [Class Tree »](mongodb.exceptions.tree.html)
+-   [Class Tree »](mongodb.exceptions.tree.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverExceptionWriteException](class.mongodb-driver-exception-writeexception.html)
     

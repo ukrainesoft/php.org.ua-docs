@@ -4,9 +4,9 @@
     
 -   [fannsetactivationfunctionoutput »](function.fann-set-activation-function-output.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Встановлює функцію активації для всіх нейронів у наданому шарі
     

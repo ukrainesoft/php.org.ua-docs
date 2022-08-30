@@ -1,12 +1,12 @@
 Нормалізує вузол
 
--   [« DOMNode::lookupPrefix](domnode.lookupprefix.html)
+-   [« DOMNode::lookupPrefix](domnode.lookupprefix.md)
     
--   [DOMNode::removeChild »](domnode.removechild.html)
+-   [DOMNode::removeChild »](domnode.removechild.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMNode](class.domnode.html)
+-   [DOMNode](class.domnode.md)
     
 -   Нормалізує вузол
     
@@ -36,4 +36,4 @@ public DOMNode::normalize(): void
 ### Дивіться також
 
 -   [» Спецификация DOM](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.html#core-ID-normalize)
--   [DOMDocument::normalizeDocument()](domdocument.normalizedocument.html) - нормалізує документ
+-   [DOMDocument::normalizeDocument()](domdocument.normalizedocument.md) - нормалізує документ

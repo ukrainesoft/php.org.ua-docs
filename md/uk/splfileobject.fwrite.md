@@ -1,12 +1,12 @@
 Запис у файл
 
--   [« SplFileObject::ftruncate](splfileobject.ftruncate.html)
+-   [« SplFileObject::ftruncate](splfileobject.ftruncate.md)
     
--   [SplFileObject::getChildren »](splfileobject.getchildren.html)
+-   [SplFileObject::getChildren »](splfileobject.getchildren.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileObject](class.splfileobject.html)
+-   [SplFileObject](class.splfileobject.md)
     
 -   Запис у файл
     
@@ -41,9 +41,9 @@ public SplFileObject::fwrite(string $data, int $length = 0): int|false
 
 ### список змін
 
-| Версия | Описание                                                                   |
-|--------|----------------------------------------------------------------------------|
-|        | Функція тепер повертає **`false`** замість нуля у разі виникнення помилки. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція тепер повертає **`false`** замість нуля у разі виникнення помилки. |
 
 ### Приклади
 
@@ -65,4 +65,4 @@ echo "В файл записано $written байт";
 
 ### Дивіться також
 
--   [fwrite()](function.fwrite.html) - Бінарно-безпечний запис у файл
+-   [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл

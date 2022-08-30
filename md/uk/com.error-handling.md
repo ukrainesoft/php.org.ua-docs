@@ -1,12 +1,12 @@
 Помилки та їх обробка
 
--   [« Предопределённые константы](com.constants.html)
+-   [« Обумовлені константи](com.constants.md)
     
--   [Примеры »](com.examples.html)
+-   [Приклади »](com.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [COM](book.com.html)
+-   [COM](book.com.md)
     
 -   Помилки та їх обробка
     

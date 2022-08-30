@@ -1,12 +1,12 @@
 Видаляє всі вихідні заголовки зі списку заголовків запиту
 
--   [« EventHttpRequest::cancel](eventhttprequest.cancel.html)
+-   [« EventHttpRequest::cancel](eventhttprequest.cancel.md)
     
--   [EventHttpRequest::closeConnection »](eventhttprequest.closeconnection.html)
+-   [EventHttpRequest::closeConnection »](eventhttprequest.closeconnection.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpRequest](class.eventhttprequest.html)
+-   [EventHttpRequest](class.eventhttprequest.md)
     
 -   Видаляє всі вихідні заголовки зі списку заголовків запиту
     
@@ -36,4 +36,4 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::addHeader()](eventhttprequest.addheader.html) - Додає заголовок HTTP до заголовків запиту
+-   [EventHttpRequest::addHeader()](eventhttprequest.addheader.md) - Додає заголовок HTTP до заголовків запиту

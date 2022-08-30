@@ -1,12 +1,12 @@
 Форматує число як грошову величину
 
--   [« metaphone](function.metaphone.html)
+-   [« metaphone](function.metaphone.md)
     
 -   [нлlanginfo »](function.nl-langinfo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Форматує число як грошову величину
     
@@ -118,9 +118,9 @@ money_format(string $format, float $number): string
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | Функція застаріла. Замість неї використовуйте [NumberFormatter::formatCurrency()](numberformatter.formatcurrency.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла. Замість неї використовуйте [NumberFormatter::formatCurrency()](numberformatter.formatcurrency.md) |
 
 ### Приклади
 
@@ -181,12 +181,12 @@ echo money_format($fmt, 1234.56) . "\n";
 
 > **Зауваження**
 > 
-> На роботу цієї функції впливає встановлення категорії **`LC_MONETARY`** поточної локалі. Перед використанням цієї функції встановіть потрібну локаль за допомогою [setlocale()](function.setlocale.html)
+> На роботу цієї функції впливає встановлення категорії **`LC_MONETARY`** поточної локалі. Перед використанням цієї функції встановіть потрібну локаль за допомогою [setlocale()](function.setlocale.md)
 
 ### Дивіться також
 
--   [setlocale()](function.setlocale.html) - Встановлює налаштування локалі
--   [sscanf()](function.sscanf.html) - Розбирає рядок відповідно до заданого формату
--   [sprintf()](function.sprintf.html) - Повертає відформатований рядок
--   [printf()](function.printf.html) - Виводить відформатований рядок
+-   [setlocale()](function.setlocale.md) - Встановлює налаштування локалі
+-   [sscanf()](function.sscanf.md) - Розбирає рядок відповідно до заданого формату
+-   [sprintf()](function.sprintf.md) - Повертає відформатований рядок
+-   [printf()](function.printf.md) - Виводить відформатований рядок
 -   [numberformat()](function.number-format.html) - Форматує число з поділом груп

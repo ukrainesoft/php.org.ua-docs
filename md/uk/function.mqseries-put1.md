@@ -4,9 +4,9 @@ MQSeries MQPUT1
     
 -   [mqseriesput »](function.mqseries-put.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции mqseries](ref.mqseries.html)
+-   [Функции mqseries](ref.mqseries.md)
     
 -   MQSeries MQPUT1
     

@@ -4,7 +4,7 @@
     
 -   [FFICType::getFuncABI »](ffi-ctype.getfuncabi.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [FFICType](class.ffi-ctype.html)
     

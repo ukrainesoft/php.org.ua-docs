@@ -2,11 +2,11 @@
 
 -   [« Установка](openssl.installation.html)
     
--   [Типы ресурсов »](openssl.resources.html)
+-   [Типи ресурсів »](openssl.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](openssl.setup.html)
+-   [Встановлення та налаштування](openssl.setup.html)
     
 -   Налаштування під час виконання
     
@@ -17,12 +17,12 @@
 
 **Опції налаштування openssl**
 
-| Имя            | По умолчанию | Место изменения | Список изменений |
-|----------------|--------------|-----------------|------------------|
-| openssl.cafile | ""           | PHPINIPERDIR    |                  |
-| openssl.capath | ""           | PHPINIPERDIR    |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| openssl.cafile | "" | PHPINIPERDIR |  |
+| openssl.capath | "" | PHPINIPERDIR |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 
 Коротке пояснення конфігураційних директив.
 

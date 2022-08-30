@@ -1,12 +1,12 @@
 Алгоритми підпису
 
--   [« Флаги/Константы CMS](openssl.cms.flags.html)
+-   [« Прапори/Константи CMS](openssl.cms.flags.html)
     
--   [Алгоритмы шифрования »](openssl.ciphers.html)
+-   [Алгоритми шифрування »](openssl.ciphers.html)
     
 -   [PHP Manual](index.html)
     
--   [Предопределённые константы](openssl.constants.html)
+-   [Обумовлені константи](openssl.constants.html)
     
 -   Алгоритми підпису
     

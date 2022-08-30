@@ -1,12 +1,12 @@
 Типи ключів
 
--   [« Флаги заполнения для ассиметричного шифрования](openssl.padding.html)
+-   [« Флаги заполнения для ассиметричного шифрования](openssl.padding.md)
     
--   [Флаги/константы PKCS7 »](openssl.pkcs7.flags.html)
+-   [Прапори/константи PKCS7 »](openssl.pkcs7.flags.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые константы](openssl.constants.html)
+-   [Обумовлені константи](openssl.constants.md)
     
 -   Типи ключів
     

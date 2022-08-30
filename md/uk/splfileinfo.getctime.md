@@ -1,12 +1,12 @@
 Повертає час останньої зміни індексного дескриптора файлу
 
--   [« SplFileInfo::getBasename](splfileinfo.getbasename.html)
+-   [« SplFileInfo::getBasename](splfileinfo.getbasename.md)
     
--   [SplFileInfo::getExtension »](splfileinfo.getextension.html)
+-   [SplFileInfo::getExtension »](splfileinfo.getextension.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Повертає час останньої зміни індексного дескриптора файлу
     
@@ -35,7 +35,7 @@ public SplFileInfo::getCTime(): int|false
 
 ### Помилки
 
-У разі виникнення помилки викидає виняток [RunTimeException](class.runtimeexception.html)
+У разі виникнення помилки викидає виняток [RunTimeException](class.runtimeexception.md)
 
 ### Приклади
 
@@ -56,4 +56,4 @@ echo 'Время последнего изменения ' . date('g:i a'
 
 ### Дивіться також
 
--   [filectime()](function.filectime.html) - Повертає час зміни індексного дескриптора файлу
+-   [filectime()](function.filectime.md) - Повертає час зміни індексного дескриптора файлу

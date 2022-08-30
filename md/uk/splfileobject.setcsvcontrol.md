@@ -1,12 +1,12 @@
 Встановлює символи роздільника, обгортання та екранування для CSV
 
--   [« SplFileObject::seek](splfileobject.seek.html)
+-   [« SplFileObject::seek](splfileobject.seek.md)
     
--   [SplFileObject::setFlags »](splfileobject.setflags.html)
+-   [SplFileObject::setFlags »](splfileobject.setflags.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileObject](class.splfileobject.html)
+-   [SplFileObject](class.splfileobject.md)
     
 -   Встановлює символи роздільника, обгортання та екранування для CSV
     
@@ -45,9 +45,9 @@ public SplFileObject::setCsvControl(string $separator = ",", string $enclosure =
 
 ### список змін
 
-| Версия | Описание                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------|
-|        | Тепер параметр `escape` може приймати порожній рядок для вимкнення пропрієтарного механізму екранування. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `escape` може приймати порожній рядок для вимкнення пропрієтарного механізму екранування. |
 
 ### Приклади
 
@@ -69,5 +69,5 @@ foreach ($file as $row) {
 
 ### Дивіться також
 
--   [SplFileObject::getCsvControl()](splfileobject.getcsvcontrol.html) - Отримує символи роздільника, обгортання та екранування для CSV
--   [SplFileObject::fgetcsv()](splfileobject.fgetcsv.html) - Отримати рядок із файлу та його розбір як поля CSV
+-   [SplFileObject::getCsvControl()](splfileobject.getcsvcontrol.md) - Отримує символи роздільника, обгортання та екранування для CSV
+-   [SplFileObject::fgetcsv()](splfileobject.fgetcsv.md) - Отримати рядок із файлу та його розбір як поля CSV

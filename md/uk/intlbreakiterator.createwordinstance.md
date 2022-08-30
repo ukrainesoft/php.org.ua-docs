@@ -1,12 +1,12 @@
 Створює ітератор переривання для розривів слів
 
--   [« IntlBreakIterator::createTitleInstance](intlbreakiterator.createtitleinstance.html)
+-   [« IntlBreakIterator::createTitleInstance](intlbreakiterator.createtitleinstance.md)
     
--   [IntlBreakIterator::current »](intlbreakiterator.current.html)
+-   [IntlBreakIterator::current »](intlbreakiterator.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlBreakIterator](class.intlbreakiterator.html)
+-   [IntlBreakIterator](class.intlbreakiterator.md)
     
 -   Створює ітератор переривання для розривів слів
     

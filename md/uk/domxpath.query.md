@@ -1,12 +1,12 @@
 Виконує заданий вираз XPath
 
--   [« DOMXPath::evaluate](domxpath.evaluate.html)
+-   [« DOMXPath::evaluate](domxpath.evaluate.md)
     
--   [DOMXPath::registerNamespace »](domxpath.registernamespace.html)
+-   [DOMXPath::registerNamespace »](domxpath.registernamespace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMXPath](class.domxpath.html)
+-   [DOMXPath](class.domxpath.md)
     
 -   Виконує заданий вираз XPath
     
@@ -41,7 +41,7 @@ public DOMXPath::query(string $expression, ?DOMNode $contextNode = null, bool $r
 
 ### Значення, що повертаються
 
-Повертає об'єкт [DOMNodeList](class.domnodelist.html), що містить вузли, що відповідають виразу XPath `expression`. Будь-який вираз, що не повертає вузли, поверне порожній об'єкт [DOMNodeList](class.domnodelist.html)
+Повертає об'єкт [DOMNodeList](class.domnodelist.md), що містить вузли, що відповідають виразу XPath `expression`. Будь-який вираз, що не повертає вузли, поверне порожній об'єкт [DOMNodeList](class.domnodelist.md)
 
 Якщо `expression` побудовано неправильно або `contextNode` має неправильне значення, **DOMXPath::query()** поверне **`false`**
 
@@ -108,4 +108,4 @@ foreach ($entries as $entry) {
 
 ### Дивіться також
 
--   [DOMXPath::evaluate()](domxpath.evaluate.html) - Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо
+-   [DOMXPath::evaluate()](domxpath.evaluate.md) - Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо

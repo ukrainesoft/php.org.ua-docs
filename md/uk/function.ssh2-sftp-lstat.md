@@ -4,9 +4,9 @@
     
 -   [ssh2sftpmkdir »](function.ssh2-sftp-mkdir.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Інформація про символічне посилання
     
@@ -25,7 +25,7 @@ ssh2_sftp_lstat(resource $sftp, string $path): array
 
 Інформація про символічне посилання на серверній файловій системі *без* переходу нею.
 
-Ця функція аналогічна використанню функції [lstat()](function.lstat.html) з обгорткою [ssh2.sftp://](wrappers.ssh2.html) і повертає такі самі значення.
+Ця функція аналогічна використанню функції [lstat()](function.lstat.md) з обгорткою [ssh2.sftp://](wrappers.ssh2.md) і повертає такі самі значення.
 
 ### Список параметрів
 
@@ -39,7 +39,7 @@ ssh2_sftp_lstat(resource $sftp, string $path): array
 
 ### Значення, що повертаються
 
-Список значень, що повертаються дивіться в описі функції [stat()](function.stat.html)
+Список значень, що повертаються дивіться в описі функції [stat()](function.stat.md)
 
 ### Приклади
 
@@ -65,5 +65,5 @@ $mode = $statinfo['mode'];
 ### Дивіться також
 
 -   [ssh2sftpstat()](function.ssh2-sftp-stat.html) - Інформація про файл
--   [lstat()](function.lstat.html) - Повертає інформацію про файл або символічне посилання
--   [stat()](function.stat.html) - Повертає інформацію про файл
+-   [lstat()](function.lstat.md) - Повертає інформацію про файл або символічне посилання
+-   [stat()](function.stat.md) - Повертає інформацію про файл

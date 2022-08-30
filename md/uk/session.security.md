@@ -2,7 +2,7 @@
 
 -   [« Отслеживание прогресса загрузки файлов с помощью сессий](session.upload-progress.html)
     
--   [Базовые принципы управления сессиями »](features.session.security.management.html)
+-   [Базові засади управління сесіями »](features.session.security.management.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Базовые принципы управления сессиями](features.session.security.management.html)
+-   [Базові засади управління сесіями](features.session.security.management.html)
 -   [INI-налаштування безпеки сесій](session.security.ini.html)
 
 Зовнішні посилання: [» Атака "Фиксация сессии"](http://www.acros.si/papers/session_fixation.pdf)

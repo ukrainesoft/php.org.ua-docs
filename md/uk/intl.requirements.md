@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](intl.setup.html)
+-   [« Встановлення та налаштування](intl.setup.html)
     
 -   [Установка »](intl.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](intl.setup.html)
+-   [Встановлення та налаштування](intl.setup.html)
     
 -   Вимоги
     

@@ -4,9 +4,9 @@
     
 -   [Постійні з'єднання з базами даних »](features.persistent-connections.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Відмітні особливості](features.html)
+-   [Відмітні особливості](features.md)
     
 -   Робота зі з'єднаннями
     

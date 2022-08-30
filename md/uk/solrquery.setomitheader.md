@@ -1,12 +1,12 @@
 Виключає заголовок з результатів, що повертаються.
 
--   [« SolrQuery::setMltMinWordLength](solrquery.setmltminwordlength.html)
+-   [« SolrQuery::setMltMinWordLength](solrquery.setmltminwordlength.md)
     
--   [SolrQuery::setQuery »](solrquery.setquery.html)
+-   [SolrQuery::setQuery »](solrquery.setquery.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Виключає заголовок з результатів, що повертаються.
     

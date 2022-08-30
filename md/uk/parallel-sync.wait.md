@@ -4,7 +4,7 @@
     
 -   [parallelSync::notify »](parallel-sync.notify.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [parallelSync](class.parallel-sync.html)
     

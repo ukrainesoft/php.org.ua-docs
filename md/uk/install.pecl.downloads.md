@@ -1,12 +1,12 @@
 Завантаження модулів PECL
 
--   [« Введение в установку PECL](install.pecl.intro.html)
+-   [« Введение в установку PECL](install.pecl.intro.md)
     
--   [Установка PHP-модуля в Windows »](install.pecl.windows.html)
+-   [Установка PHP-модуля в Windows »](install.pecl.windows.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка модулей PECL](install.pecl.html)
+-   [Установка модулей PECL](install.pecl.md)
     
 -   Завантаження модулів PECL
     
@@ -19,7 +19,7 @@
     
 -   [» https://pecl.php.net/](https://pecl.php.net/) Веб-сайт PECL містить інформацію про різні модулі, що надаються командою розробників PHP. Інформація, доступна на цьому веб-сайті, включає: лог змін, новини релізів, вимоги та інші подібні деталі.
     
--   `pecl download extname` Модулі PECL, що мають опубліковані релізи на сайті PECL, доступні для скачування та встановлення за допомогою [» команды pecl](https://pear.php.net/manual/en/guide.users.commandline.cli.php). Також можна вказати окремі ревізії для встановлення.
+-   `pecl download extname` Модулі PECL, що мають опубліковані релізи на сайті PECL, доступні для скачування та встановлення за допомогою [» команди pecl](https://pear.php.net/manual/en/guide.users.commandline.cli.php). Також можна вказати окремі ревізії для встановлення.
     
 -   git Багато модулів PECL знаходяться на GitHub.
     

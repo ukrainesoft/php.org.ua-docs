@@ -2,7 +2,7 @@
 
 -   [« cURL](book.curl.html)
     
--   [Установка и настройка »](curl.setup.html)
+-   [Встановлення та налаштування »](curl.setup.html)
     
 -   [PHP Manual](index.html)
     

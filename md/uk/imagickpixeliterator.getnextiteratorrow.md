@@ -1,12 +1,12 @@
 Повертає наступний ряд ітератора пікселів
 
--   [« ImagickPixelIterator::getIteratorRow](imagickpixeliterator.getiteratorrow.html)
+-   [« ImagickPixelIterator::getIteratorRow](imagickpixeliterator.getiteratorrow.md)
     
--   [ImagickPixelIterator::getPreviousIteratorRow »](imagickpixeliterator.getpreviousiteratorrow.html)
+-   [ImagickPixelIterator::getPreviousIteratorRow »](imagickpixeliterator.getpreviousiteratorrow.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickPixelIterator](class.imagickpixeliterator.html)
+-   [ImagickPixelIterator](class.imagickpixeliterator.md)
     
 -   Повертає наступний ряд ітератора пікселів
     

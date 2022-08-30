@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](dba.resources.html)
+-   [« Типи ресурсів](dba.resources.md)
     
--   [Примеры »](dba.examples.html)
+-   [Приклади »](dba.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DBA](book.dba.html)
+-   [DBA](book.dba.md)
     
 -   Обумовлені константи
     

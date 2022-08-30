@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Установка на Unix-системы](install.unix.html)
+-   [Встановлення на Unix-системи](install.unix.html)
     
 -   Установка з інтерфейсами CGI та командного рядка
     
@@ -25,4 +25,4 @@
 
 ### Використання змінних
 
-Деякі [переменные окружения сервера](reserved.variables.server.html) не визначено у поточній [» специфікації CGI/1.1](http://www.faqs.org/rfcs/rfc3875). Визначено лише такі змінні: AUTHTYPE, CONTENTLENGTH, CONTENTTYPE, GATEWAYINTERFACE, PATHINFO, PATHTRANSLATED, QUERYSTRING, REMOTEADDR, REMOTEHOST, REMOTEIDENT, REMOTEUSER, REQUESTMETHOD, SCRIPTNAME, SERVERNAME, SERVERPORT, SERVERPROTOCOL та SERVERSOFTWARE. Решта має оброблятися як додаткові модулі (vendor extensions).
+Деякі [змінні оточення сервера](reserved.variables.server.html) не визначено у поточній [» специфікації CGI/1.1](http://www.faqs.org/rfcs/rfc3875). Визначено лише такі змінні: AUTHTYPE, CONTENTLENGTH, CONTENTTYPE, GATEWAYINTERFACE, PATHINFO, PATHTRANSLATED, QUERYSTRING, REMOTEADDR, REMOTEHOST, REMOTEIDENT, REMOTEUSER, REQUESTMETHOD, SCRIPTNAME, SERVERNAME, SERVERPORT, SERVERPROTOCOL та SERVERSOFTWARE. Решта має оброблятися як додаткові модулі (vendor extensions).

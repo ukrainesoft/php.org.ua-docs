@@ -4,9 +4,9 @@
     
 -   [ibaseblobinfo »](function.ibase-blob-info.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Firebird/InterBase](ref.ibase.html)
+-   [Функции Firebird/InterBase](ref.ibase.md)
     
 -   Створює BLOB-об'єкт, копіює файл і закриває його.
     
@@ -37,7 +37,7 @@ ibase_blob_import(resource $file_handle): string
 
 `file_handle`
 
-Дескриптор файлу - функцією, що повертається. [fopen()](function.fopen.html)
+Дескриптор файлу - функцією, що повертається. [fopen()](function.fopen.md)
 
 ### Значення, що повертаються
 

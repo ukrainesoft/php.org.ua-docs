@@ -1,12 +1,12 @@
 Переказує дату за єврейським календарем у число днів у юліанському літочисленні
 
--   [« jdtounix](function.jdtounix.html)
+-   [« jdtounix](function.jdtounix.md)
     
--   [juliantojd »](function.juliantojd.html)
+-   [juliantojd »](function.juliantojd.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Календарь](ref.calendar.html)
+-   [Календарь](ref.calendar.md)
     
 -   Переказує дату за єврейським календарем у число днів у юліанському літочисленні
     
@@ -45,5 +45,5 @@ jewishtojd(int $month, int $day, int $year): int
 
 ### Дивіться також
 
--   [jdtojewish()](function.jdtojewish.html) - Переказує кількість днів з юліанського календаря на дату за єврейським календарем
+-   [jdtojewish()](function.jdtojewish.md) - Переказує кількість днів з юліанського календаря на дату за єврейським календарем
 -   [calтоjd()](function.cal-to-jd.html) - Перетворює задану дату на юліанську

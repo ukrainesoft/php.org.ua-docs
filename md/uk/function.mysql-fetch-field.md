@@ -4,9 +4,9 @@
     
 -   [mysqlfetchlengths »](function.mysql-fetch-lengths.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](ref.mysql.html)
+-   [MySQL](ref.mysql.md)
     
 -   Повертає інформацію про колонку з результату запиту як об'єкта
     
@@ -19,10 +19,10 @@ mysqlfetchfield — Повертає інформацію про колонку 
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   [mysqlifetchfield()](mysqli-result.fetch-field.html)
--   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.html)
+-   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md)
 
 ### Опис
 
@@ -36,7 +36,7 @@ mysql_fetch_field(resource $result, int $field_offset = 0): object
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
 
 `field_offset`
 

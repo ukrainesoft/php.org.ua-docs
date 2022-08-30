@@ -1,12 +1,12 @@
 Зберігає XML-дерево з внутрішнього подання до файлу
 
--   [« DOMDocument::relaxNGValidateSource](domdocument.relaxngvalidatesource.html)
+-   [« DOMDocument::relaxNGValidateSource](domdocument.relaxngvalidatesource.md)
     
--   [DOMDocument::saveHTML »](domdocument.savehtml.html)
+-   [DOMDocument::saveHTML »](domdocument.savehtml.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMDocument](class.domdocument.html)
+-   [DOMDocument](class.domdocument.md)
     
 -   Зберігає XML-дерево з внутрішнього подання до файлу
     
@@ -33,7 +33,7 @@ public DOMDocument::save(string $filename, int $options = 0): int|false
 
 `options`
 
-Додаткові налаштування. На даний момент підтримується тільки [LIBXMLNOEMPTYTAG](libxml.constants.html)
+Додаткові налаштування. На даний момент підтримується тільки [LIBXMLNOEMPTYTAG](libxml.constants.md)
 
 ### Значення, що повертаються
 
@@ -66,6 +66,6 @@ echo 'Записано: ' . $doc->save("/tmp/test.xml") . ' байт'; /
 
 ### Дивіться також
 
--   [DOMDocument::saveXML()](domdocument.savexml.html) - Зберігає XML-дерево з внутрішньої вистави у вигляді рядка
--   [DOMDocument::load()](domdocument.load.html) - Завантаження XML із файлу
--   [DOMDocument::loadXML()](domdocument.loadxml.html) - Завантаження XML з рядка
+-   [DOMDocument::saveXML()](domdocument.savexml.md) - Зберігає XML-дерево з внутрішньої вистави у вигляді рядка
+-   [DOMDocument::load()](domdocument.load.md) - Завантаження XML із файлу
+-   [DOMDocument::loadXML()](domdocument.loadxml.md) - Завантаження XML з рядка

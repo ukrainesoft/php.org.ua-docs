@@ -4,9 +4,9 @@
     
 -   [zipentrycompressionmethod »](function.zip-entry-compressionmethod.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Zip](ref.zip.html)
+-   [Функции Zip](ref.zip.md)
     
 -   Повертає стислий розмір файлу для дескриптора директорії
     
@@ -41,9 +41,9 @@ zip_entry_compressedsize(resource $zip_entry): int|false
 
 ### список змін
 
-| Версия | Описание                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------|
-|        | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.md) |
 
 ### Дивіться також
 

@@ -1,12 +1,12 @@
 Отримує дані профілювача
 
--   [« LuaSandbox::getPeakMemoryUsage](luasandbox.getpeakmemoryusage.html)
+-   [« LuaSandbox::getPeakMemoryUsage](luasandbox.getpeakmemoryusage.md)
     
--   [LuaSandbox::getVersionInfo »](luasandbox.getversioninfo.html)
+-   [LuaSandbox::getVersionInfo »](luasandbox.getversioninfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LuaSandbox](class.luasandbox.html)
+-   [LuaSandbox](class.luasandbox.md)
     
 -   Отримує дані профілювача
     
@@ -23,7 +23,7 @@ LuaSandbox::getProfilerFunctionReport — Отримує дані профілю
 public LuaSandbox::getProfilerFunctionReport(int $units = LuaSandbox::SECONDS): array
 ```
 
-Для екземпляра профілювання, раніше запущеного за допомогою [LuaSandbox::enableProfiler()](luasandbox.enableprofiler.html), отримайте звіт про вартість кожної функції.
+Для екземпляра профілювання, раніше запущеного за допомогою [LuaSandbox::enableProfiler()](luasandbox.enableprofiler.md), отримайте звіт про вартість кожної функції.
 
 Місячність unit, використовувана для вартості, визначається за $units parameter:
 

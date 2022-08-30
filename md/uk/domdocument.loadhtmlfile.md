@@ -33,7 +33,7 @@ public DOMDocument::loadHTMLFile(string $filename, int $options = 0): DOMDocumen
 
 `options`
 
-Починаючи з версії Libxml 2.6.0 можна також використовувати параметр `options` для вказівки [дополнительных параметров Libxml](libxml.constants.html)
+Починаючи з версії Libxml 2.6.0 можна також використовувати параметр `options` для вказівки [додаткових параметрів Libxml](libxml.constants.html)
 
 ### Значення, що повертаються
 

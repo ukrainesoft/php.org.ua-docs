@@ -1,12 +1,12 @@
 Отримує шлях посилання
 
--   [« SplFileInfo::getInode](splfileinfo.getinode.html)
+-   [« SplFileInfo::getInode](splfileinfo.getinode.md)
     
--   [SplFileInfo::getMTime »](splfileinfo.getmtime.html)
+-   [SplFileInfo::getMTime »](splfileinfo.getmtime.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Отримує шлях посилання
     
@@ -27,7 +27,7 @@ public SplFileInfo::getLinkTarget(): string|false
 
 > **Зауваження**
 > 
-> Цей шлях може бути реальним розташуванням у файлової системі. Щоб отримати реальний шлях файлової системи, використовуйте метод [SplFileInfo::getRealPath()](splfileinfo.getrealpath.html)
+> Цей шлях може бути реальним розташуванням у файлової системі. Щоб отримати реальний шлях файлової системи, використовуйте метод [SplFileInfo::getRealPath()](splfileinfo.getrealpath.md)
 
 ### Список параметрів
 
@@ -39,7 +39,7 @@ public SplFileInfo::getLinkTarget(): string|false
 
 ### Помилки
 
-У разі виникнення помилки викидає виняток [RuntimeException](class.runtimeexception.html)
+У разі виникнення помилки викидає виняток [RuntimeException](class.runtimeexception.md)
 
 ### Приклади
 
@@ -64,5 +64,5 @@ string(34) "/Users/bbieber/Documents/workspace"
 
 ### Дивіться також
 
--   [SplFileInfo::isLink()](splfileinfo.islink.html) - Вказує, чи є файл посиланням
--   [SplFileInfo::getRealPath()](splfileinfo.getrealpath.html) - Отримує абсолютний шлях до файлу
+-   [SplFileInfo::isLink()](splfileinfo.islink.md) - Вказує, чи є файл посиланням
+-   [SplFileInfo::getRealPath()](splfileinfo.getrealpath.md) - Отримує абсолютний шлях до файлу

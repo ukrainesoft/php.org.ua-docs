@@ -4,9 +4,9 @@
     
 -   [ssh2fingerprint »](function.ssh2-fingerprint.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Отримання розширеного потоку даних
     

@@ -1,12 +1,12 @@
 Отримати символ, що представляє задане число в заданій підставі
 
--   [« IntlChar::foldCase](intlchar.foldcase.html)
+-   [« IntlChar::foldCase](intlchar.foldcase.md)
     
--   [IntlChar::getBidiPairedBracket »](intlchar.getbidipairedbracket.html)
+-   [IntlChar::getBidiPairedBracket »](intlchar.getbidipairedbracket.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Отримати символ, що представляє задане число в заданій підставі
     
@@ -71,7 +71,7 @@ int(97)
 
 ### Дивіться також
 
--   [IntlChar::digit()](intlchar.digit.html) - Отримати десяткове число із символу Unicode із заданою основою
--   [IntlChar::charDigitValue()](intlchar.chardigitvalue.html) - Отримати десяткову цифру із символу десяткової цифри
--   [IntlChar::isdigit()](intlchar.isdigit.html) - Перевірити, чи є символ цифрою
+-   [IntlChar::digit()](intlchar.digit.md) - Отримати десяткове число із символу Unicode із заданою основою
+-   [IntlChar::charDigitValue()](intlchar.chardigitvalue.md) - Отримати десяткову цифру із символу десяткової цифри
+-   [IntlChar::isdigit()](intlchar.isdigit.md) - Перевірити, чи є символ цифрою
 -   **`IntlChar::PROPERTY_NUMERIC_TYPE`**

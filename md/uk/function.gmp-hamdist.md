@@ -4,9 +4,9 @@
     
 -   [gmpimport »](function.gmp-import.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GMP Функції](ref.gmp.html)
+-   [GMP Функції](ref.gmp.md)
     
 -   Відстань Хеммінга
     
@@ -29,13 +29,13 @@ gmp_hamdist(GMP|int|string $num1, GMP|int|string $num2): int
 
 `num1`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 Має бути невід'ємним.
 
 `num2`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 Має бути невід'ємним.
 

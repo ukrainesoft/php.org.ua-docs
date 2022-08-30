@@ -1,12 +1,12 @@
 Псевдонім Event::del
 
--   [« Event::delSignal](event.delsignal.html)
+-   [« Event::delSignal](event.delsignal.md)
     
--   [Event::free »](event.free.html)
+-   [Event::free »](event.free.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Event](class.event.html)
+-   [Event](class.event.md)
     
 -   Псевдонім Event::del
     
@@ -15,8 +15,8 @@
 
 (PECL event >= 1.2.6-beta)
 
-Event::delTimer - Псевдонім [Event::del()](event.del.html)
+Event::delTimer - Псевдонім [Event::del()](event.del.md)
 
 ### Опис
 
-Цей метод є псевдонімом: [Event::del()](event.del.html)
+Цей метод є псевдонімом: [Event::del()](event.del.md)

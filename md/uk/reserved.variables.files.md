@@ -1,12 +1,12 @@
 Змінні файли, завантажені за HTTP
 
--   [POST](reserved.variables.post.html)
+-   [POST](reserved.variables.post.md)
     
--   [REQUEST »](reserved.variables.request.html)
+-   [REQUEST »](reserved.variables.request.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые переменные](reserved.variables.html)
+-   [Зумовлені змінні](reserved.variables.md)
     
 -   Змінні файли, завантажені за HTTP
     

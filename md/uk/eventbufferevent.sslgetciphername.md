@@ -1,12 +1,12 @@
 Повертає поточне ім'я шифру з'єднання SSL
 
--   [« EventBufferEvent::sslGetCipherInfo](eventbufferevent.sslgetcipherinfo.html)
+-   [« EventBufferEvent::sslGetCipherInfo](eventbufferevent.sslgetcipherinfo.md)
     
--   [EventBufferEvent::sslGetCipherVersion »](eventbufferevent.sslgetcipherversion.html)
+-   [EventBufferEvent::sslGetCipherVersion »](eventbufferevent.sslgetcipherversion.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Повертає поточне ім'я шифру з'єднання SSL
     

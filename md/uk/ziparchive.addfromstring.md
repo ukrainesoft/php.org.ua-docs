@@ -1,12 +1,12 @@
 Додає файл до ZIP-архіву, використовуючи його вміст
 
--   [« ZipArchive::addFile](ziparchive.addfile.html)
+-   [« ZipArchive::addFile](ziparchive.addfile.md)
     
--   [ZipArchive::addGlob »](ziparchive.addglob.html)
+-   [ZipArchive::addGlob »](ziparchive.addglob.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Додає файл до ZIP-архіву, використовуючи його вміст
     
@@ -39,7 +39,7 @@ public ZipArchive::addFromString(string $name, string $content, int $flags = Zip
 
 `flags`
 
-Бітова маска, що складається з **`ZipArchive::FL_OVERWRITE`** **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`**. Поведінка констант описана на сторінці [ZIP-константы](zip.constants.html)
+Бітова маска, що складається з **`ZipArchive::FL_OVERWRITE`** **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`**. Поведінка констант описана на сторінці [ZIP-константи](zip.constants.md)
 
 ### Значення, що повертаються
 
@@ -47,9 +47,9 @@ public ZipArchive::addFromString(string $name, string $content, int $flags = Zip
 
 ### список змін
 
-| Версия | Описание                 |
-|--------|--------------------------|
-|        | Доданий параметр `flags` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `flags` |
 
 ### Приклади
 

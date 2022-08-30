@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](memcached.configuration.html)
+-   [« Налаштування під час виконання](memcached.configuration.md)
     
--   [Предопределённые константы »](memcached.constants.html)
+-   [Обумовлені константи »](memcached.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](memcached.setup.html)
+-   [Встановлення та налаштування](memcached.setup.md)
     
 -   Типи ресурсів
     

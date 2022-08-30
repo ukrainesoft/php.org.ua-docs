@@ -1,12 +1,12 @@
 Повертає ім'я файлу поточного елемента DirectoryIterator
 
--   [« DirectoryIterator::getExtension](directoryiterator.getextension.html)
+-   [« DirectoryIterator::getExtension](directoryiterator.getextension.md)
     
--   [DirectoryIterator::getGroup »](directoryiterator.getgroup.html)
+-   [DirectoryIterator::getGroup »](directoryiterator.getgroup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DirectoryIterator](class.directoryiterator.html)
+-   [DirectoryIterator](class.directoryiterator.md)
     
 -   Повертає ім'я файлу поточного елемента DirectoryIterator
     
@@ -23,7 +23,7 @@ DirectoryIterator::getFilename — Повертає ім'я файлу пото�
 public DirectoryIterator::getFilename(): string
 ```
 
-Повертає ім'я файлу поточного елемента [DirectoryIterator](class.directoryiterator.html)
+Повертає ім'я файлу поточного елемента [DirectoryIterator](class.directoryiterator.md)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public DirectoryIterator::getFilename(): string
 
 ### Значення, що повертаються
 
-Повертає ім'я файлу поточного елемента [DirectoryIterator](class.directoryiterator.html)
+Повертає ім'я файлу поточного елемента [DirectoryIterator](class.directoryiterator.md)
 
 ### Приклади
 
@@ -61,7 +61,7 @@ pear.jpg
 
 ### Дивіться також
 
--   [DirectoryIterator::getBasename()](directoryiterator.getbasename.html) - Повертає ім'я файлу (без розширення) поточного елемента DirectoryIterator
--   [DirectoryIterator::getPath()](directoryiterator.getpath.html) - Повертає шлях до поточного елементу DirectoryIterator без імені файлу
--   [DirectoryIterator::getPathname()](directoryiterator.getpathname.html) - Повертає шлях та ім'я файлу поточного елемента DirectoryIterator
--   [pathinfo()](function.pathinfo.html) - Повертає інформацію про шлях до файлу
+-   [DirectoryIterator::getBasename()](directoryiterator.getbasename.md) - Повертає ім'я файлу (без розширення) поточного елемента DirectoryIterator
+-   [DirectoryIterator::getPath()](directoryiterator.getpath.md) - Повертає шлях до поточного елементу DirectoryIterator без імені файлу
+-   [DirectoryIterator::getPathname()](directoryiterator.getpathname.md) - Повертає шлях та ім'я файлу поточного елемента DirectoryIterator
+-   [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях до файлу

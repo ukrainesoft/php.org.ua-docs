@@ -2,11 +2,11 @@
 
 -   [« Установка](sqlsrv.installation.html)
     
--   [Типы ресурсов »](sqlsrv.resources.html)
+-   [Типи ресурсів »](sqlsrv.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](sqlsrv.setup.html)
+-   [Встановлення та налаштування](sqlsrv.setup.html)
     
 -   Налаштування під час виконання
     
@@ -19,8 +19,8 @@
 
 **SQLSRV Опції налаштування**
 
-| Имя                           | По умолчанию | Место изменения | Изменения                    |
-|-------------------------------|--------------|-----------------|------------------------------|
-| sqlsrv.WarningsReturnAsErrors | **`true`**   | PHPINIALL       | Доступно з версії SQLSRV 1.0 |
-| sqlsrv.LogSubsystems          |              | PHPINIALL       | Доступно з версії SQLSRV 1.0 |
-| sqlsrv.LogSeverity            |              | PHPINIALL       | Доступно з версії SQLSRV 1.0 |
+| Имя | По умолчанию | Место изменения | Изменения |
+| --- | --- | --- | --- |
+| sqlsrv.WarningsReturnAsErrors | **`true`** | PHPINIALL | Доступно з версії SQLSRV 1.0 |
+| sqlsrv.LogSubsystems |  | PHPINIALL | Доступно з версії SQLSRV 1.0 |
+| sqlsrv.LogSeverity |  | PHPINIALL | Доступно з версії SQLSRV 1.0 |

@@ -1,12 +1,12 @@
 Видаляє поле запиту (параметр qf)
 
--   [« SolrDisMaxQuery::removePhraseField](solrdismaxquery.removephrasefield.html)
+-   [« SolrDisMaxQuery::removePhraseField](solrdismaxquery.removephrasefield.md)
     
--   [SolrDisMaxQuery::removeTrigramPhraseField »](solrdismaxquery.removetrigramphrasefield.html)
+-   [SolrDisMaxQuery::removeTrigramPhraseField »](solrdismaxquery.removetrigramphrasefield.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
+-   [SolrDisMaxQuery](class.solrdismaxquery.md)
     
 -   Видаляє поле запиту (параметр qf)
     
@@ -23,7 +23,7 @@ SolrDisMaxQuery::removeQueryField — Видалення поля запиту (
 public SolrDisMaxQuery::removeQueryField(string $field): SolrDisMaxQuery
 ```
 
-Видаляє поле запиту (параметр qf) зі списку полів, доданих за допомогою [SolrDisMaxQuery::addQueryField()](solrdismaxquery.addqueryfield.html)
+Видаляє поле запиту (параметр qf) зі списку полів, доданих за допомогою [SolrDisMaxQuery::addQueryField()](solrdismaxquery.addqueryfield.md)
 
 qf: При створенні DisjunctionMaxQueries з запиту користувача він вказує поля для пошуку і збільшує їх кількість.
 
@@ -35,7 +35,7 @@ qf: При створенні DisjunctionMaxQueries з запиту корист
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.html)
+[SolrDisMaxQuery](class.solrdismaxquery.md)
 
 ### Приклади
 
@@ -64,4 +64,4 @@ q=lucene&defType=edismax&qf=first^3 cat
 
 ### Дивіться також
 
--   [SolrDisMaxQuery::addQueryField()](solrdismaxquery.addqueryfield.html) - Додає поле запиту із необов'язковим підвищенням (параметр qf)
+-   [SolrDisMaxQuery::addQueryField()](solrdismaxquery.addqueryfield.md) - Додає поле запиту із необов'язковим підвищенням (параметр qf)

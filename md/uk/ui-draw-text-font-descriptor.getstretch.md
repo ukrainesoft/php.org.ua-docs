@@ -4,7 +4,7 @@
     
 -   [ОЙDrawTextFontDescriptor::getWeight »](ui-draw-text-font-descriptor.getweight.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html)
     

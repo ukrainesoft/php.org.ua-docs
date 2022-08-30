@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](snmp.configuration.html)
+-   [« Налаштування під час виконання](snmp.configuration.html)
     
--   [Предопределённые константы »](snmp.constants.html)
+-   [Обумовлені константи »](snmp.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](snmp.setup.html)
+-   [Встановлення та налаштування](snmp.setup.html)
     
 -   Типи ресурсів
     

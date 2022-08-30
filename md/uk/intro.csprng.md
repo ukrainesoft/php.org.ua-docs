@@ -2,7 +2,7 @@
 
 -   [« CSPRNG](book.csprng.html)
     
--   [Установка и настройка »](csprng.setup.html)
+-   [Встановлення та налаштування »](csprng.setup.html)
     
 -   [PHP Manual](index.html)
     

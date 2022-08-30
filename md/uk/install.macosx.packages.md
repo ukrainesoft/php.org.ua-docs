@@ -1,12 +1,12 @@
 Використання пакетів
 
--   [« Установка на macOS](install.macosx.html)
+-   [« Установка на macOS](install.macosx.md)
     
--   [Використання вбудованого PHP до macOS Monterey »](install.macosx.bundled.html)
+-   [Використання вбудованого PHP до macOS Monterey »](install.macosx.bundled.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка на macOS](install.macosx.html)
+-   [Установка на macOS](install.macosx.md)
     
 -   Використання пакетів
     

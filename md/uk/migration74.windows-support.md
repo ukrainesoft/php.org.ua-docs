@@ -2,11 +2,11 @@
 
 -   [« Другие изменения](migration74.other-changes.html)
     
--   [Миграция с PHP 7.2.x на PHP 7.3.x »](migration73.html)
+-   [Миграция с PHP 7.2.x на PHP 7.3.x »](migration73.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 7.3.x на PHP 7.4.x](migration74.html)
+-   [Миграция с PHP 7.3.x на PHP 7.4.x](migration74.md)
     
 -   Підтримка Windows
     
@@ -38,4 +38,4 @@ OPcache тепер підтримує довільну кількість окр
 
 ### libsqlite3
 
-libsqlite3 більше не компілюється статично у phpsqlite3.dll та phppdosqlite.dll, але доступний як libsqlite3.dll. Зверніться до інструкції з установки для [SQLite3](sqlite3.installation.html) і [PDOSQLITE](ref.pdo-sqlite.html#ref.pdo-sqlite.installation) відповідно.
+libsqlite3 більше не компілюється статично у phpsqlite3.dll та phppdosqlite.dll, але доступний як libsqlite3.dll. Зверніться до інструкції з установки для [SQLite3](sqlite3.installation.md) і [PDOSQLITE](ref.pdo-sqlite.html#ref.pdo-sqlite.installation) відповідно.

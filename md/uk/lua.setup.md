@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.lua.html)
+-   [« Введение](intro.lua.md)
     
--   [Требования »](lua.requirements.html)
+-   [Вимоги »](lua.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Lua](book.lua.html)
+-   [Lua](book.lua.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](lua.requirements.html)
--   [Установка](lua.installation.html)
--   [Настройка во время выполнения](lua.configuration.html)
--   [Типы ресурсов](lua.resources.html)
+-   [Вимоги](lua.requirements.md)
+-   [Установка](lua.installation.md)
+-   [Налаштування під час виконання](lua.configuration.md)
+-   [Типи ресурсів](lua.resources.md)

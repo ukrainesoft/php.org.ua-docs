@@ -1,12 +1,12 @@
 Створює ітератор директорії, використовуючи glob-вираз
 
--   [« GlobIterator](class.globiterator.html)
+-   [« GlobIterator](class.globiterator.md)
     
--   [GlobIterator::count »](globiterator.count.html)
+-   [GlobIterator::count »](globiterator.count.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GlobIterator](class.globiterator.html)
+-   [GlobIterator](class.globiterator.md)
     
 -   Створює ітератор директорії, використовуючи glob-вираз
     
@@ -27,27 +27,27 @@ public **GlobIterator::construct**(string `$pattern`, int `$flags` = FilesystemI
 
 `pattern`
 
-Шаблон [glob()](function.glob.html)
+Шаблон [glob()](function.glob.md)
 
 `flags`
 
-Прапори налаштування. Прапори можна ставити бітовою маскою констант [FilesystemIterator](class.filesystemiterator.html)
+Прапори налаштування. Прапори можна ставити бітовою маскою констант [FilesystemIterator](class.filesystemiterator.md)
 
 ### Помилки
 
-Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.html), якщо директорія `directory` не існує.
+Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.md), якщо директорія `directory` не існує.
 
-Викидає виняток [ValueError](class.valueerror.html), якщо параметр `directory` містить порожній рядок.
+Викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тепер викидає виняток [ValueError](class.valueerror.html), якщо параметр `directory` містить порожній рядок. Раніше викидався виняток [RuntimeException](class.runtimeexception.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок. Раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання [GlobIterator](class.globiterator.html)**
+**Приклад #1 Приклад використання [GlobIterator](class.globiterator.md)**
 
 ```php
 <?php
@@ -77,6 +77,6 @@ if (!$iterator->count()) {
 
 ### Дивіться також
 
--   [DirectoryIterator::construct()](directoryiterator.construct.html) - Створює новий ітератор директорій шляхом
--   [GlobIterator::count()](globiterator.count.html) - Визначає кількість директорій та файлів
--   [glob()](function.glob.html) - Знаходить файлові шляхи, що збігаються із шаблоном
+-   [DirectoryIterator::construct()](directoryiterator.construct.md) - Створює новий ітератор директорій шляхом
+-   [GlobIterator::count()](globiterator.count.md) - Визначає кількість директорій та файлів
+-   [glob()](function.glob.md) - Знаходить файлові шляхи, що збігаються із шаблоном

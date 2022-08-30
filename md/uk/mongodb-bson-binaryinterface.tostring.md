@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONDecimal128Interface »](class.mongodb-bson-decimal128interface.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONBinaryInterface](class.mongodb-bson-binaryinterface.html)
     

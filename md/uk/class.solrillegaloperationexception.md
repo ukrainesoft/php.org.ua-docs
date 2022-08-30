@@ -1,12 +1,12 @@
 Клас SolrIllegalOperationException
 
--   [« SolrIllegalArgumentException::getInternalInfo](solrillegalargumentexception.getinternalinfo.html)
+-   [« SolrIllegalArgumentException::getInternalInfo](solrillegalargumentexception.getinternalinfo.md)
     
--   [SolrIllegalOperationException::getInternalInfo »](solrillegaloperationexception.getinternalinfo.html)
+-   [SolrIllegalOperationException::getInternalInfo »](solrillegaloperationexception.getinternalinfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Solr](book.solr.html)
+-   [Solr](book.solr.md)
     
 -   Клас SolrIllegalOperationException
     
@@ -95,4 +95,4 @@ private Exception::__clone(): void
 
 ## Зміст
 
--   [SolrIllegalOperationException::getInternalInfo](solrillegaloperationexception.getinternalinfo.html) — Повертає внутрішню інформацію про те, де було викинуто виняток
+-   [SolrIllegalOperationException::getInternalInfo](solrillegaloperationexception.getinternalinfo.md) — Повертає внутрішню інформацію про те, де було викинуто виняток

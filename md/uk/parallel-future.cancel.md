@@ -4,7 +4,7 @@
     
 -   [parallelFuture::cancelled »](parallel-future.cancelled.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [parallelFuture](class.parallel-future.html)
     

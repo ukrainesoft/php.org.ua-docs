@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](simplexml.resources.html)
+-   [« Типи ресурсів](simplexml.resources.md)
     
--   [Примеры »](simplexml.examples.html)
+-   [Приклади »](simplexml.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXML](book.simplexml.html)
+-   [SimpleXML](book.simplexml.md)
     
 -   Обумовлені константи
     

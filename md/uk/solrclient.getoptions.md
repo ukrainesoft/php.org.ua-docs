@@ -1,12 +1,12 @@
 Повертає внутрішні параметри клієнта
 
--   [« SolrClient::getDebug](solrclient.getdebug.html)
+-   [« SolrClient::getDebug](solrclient.getdebug.md)
     
--   [SolrClient::optimize »](solrclient.optimize.html)
+-   [SolrClient::optimize »](solrclient.optimize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrClient](class.solrclient.html)
+-   [SolrClient](class.solrclient.md)
     
 -   Повертає внутрішні параметри клієнта
     
@@ -35,4 +35,4 @@ public SolrClient::getOptions(): array
 
 ### Дивіться також
 
--   [SolrClient::construct()](solrclient.construct.html) - Конструктор об'єкта SolrClient
+-   [SolrClient::construct()](solrclient.construct.md) - Конструктор об'єкта SolrClient

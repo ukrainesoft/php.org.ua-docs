@@ -1,12 +1,12 @@
 Конструктор спостерігача EvPrepare
 
--   [« EvPrepare](class.evprepare.html)
+-   [« EvPrepare](class.evprepare.md)
     
--   [EvPrepare::createStopped »](evprepare.createstopped.html)
+-   [EvPrepare::createStopped »](evprepare.createstopped.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvPrepare](class.evprepare.html)
+-   [EvPrepare](class.evprepare.md)
     
 -   Конструктор спостерігача EvPrepare
     
@@ -39,4 +39,4 @@ public **EvPrepare::construct**(string `$callback` , string `$data` ?, string `$
 
 ### Дивіться також
 
--   [EvCheck](class.evcheck.html)
+-   [EvCheck](class.evcheck.md)

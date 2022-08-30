@@ -4,7 +4,7 @@
     
 -   [SwooleLock::destruct »](swoole-lock.destruct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleLock](class.swoole-lock.html)
     

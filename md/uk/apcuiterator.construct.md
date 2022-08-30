@@ -1,12 +1,12 @@
 Створює об'єкт ітератор класу APCUIterator
 
--   [« APCUIterator](class.apcuiterator.html)
+-   [« APCUIterator](class.apcuiterator.md)
     
--   [APCUIterator::current »](apcuiterator.current.html)
+-   [APCUIterator::current »](apcuiterator.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [APCUIterator](class.apcuiterator.html)
+-   [APCUIterator](class.apcuiterator.md)
     
 -   Створює об'єкт ітератор класу APCUIterator
     
@@ -25,17 +25,17 @@ int `$format` = APCITERALL,
 int `$chunk_size`  
 int `$list` = APCLISTACTIVE
 
-Створює об'єкт [APCUIterator](class.apcuiterator.html)
+Створює об'єкт [APCUIterator](class.apcuiterator.md)
 
 ### Список параметрів
 
 `search`
 
-Або регулярне вираження [PCRE](book.pcre.html)що відповідає іменам ключів APCu, заданим як рядки (string). Або масив (array) рядків (string) із іменами ключів APCu. Або, необов'язково, **`null`** щоб пропустити пошук.
+Або регулярне вираження [PCRE](book.pcre.md)що відповідає іменам ключів APCu, заданим як рядки (string). Або масив (array) рядків (string) із іменами ключів APCu. Або, необов'язково, **`null`** щоб пропустити пошук.
 
 `format`
 
-Формат, заданий однією з констант [APCITER](apcu.constants.html)
+Формат, заданий однією з констант [APCITER](apcu.constants.md)
 
 `chunk_size`
 

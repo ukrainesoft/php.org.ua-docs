@@ -4,9 +4,9 @@
     
 -   [tradercdlseparatinglines »](function.trader-cdlseparatinglines.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Бича/ведмежа модель "Три методи"
     

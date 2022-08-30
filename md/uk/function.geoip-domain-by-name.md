@@ -4,9 +4,9 @@
     
 -   [geoipідбname »](function.geoip-id-by-name.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции GeoIP](ref.geoip.html)
+-   [Функции GeoIP](ref.geoip.md)
     
 -   Отримати ім'я домену другого рівня
     

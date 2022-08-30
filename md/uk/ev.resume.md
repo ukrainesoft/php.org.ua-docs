@@ -1,12 +1,12 @@
 Відновити виконання призупиненого раніше циклу подій за умовчанням
 
--   [« Ev::recommendedBackends](ev.recommendedbackends.html)
+-   [« Ev::recommendedBackends](ev.recommendedbackends.md)
     
--   [Ev::run »](ev.run.html)
+-   [Ev::run »](ev.run.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Єв](class.ev.html)
+-   [Єв](class.ev.md)
     
 -   Відновити виконання призупиненого раніше циклу подій за умовчанням
     
@@ -26,13 +26,13 @@ final
    Ev::resume(): void
 ```
 
-Методи [Ev::suspend()](ev.suspend.html) і \*\*Ev::resume()\*\*відповідно припиняють і відновлюють роботу подієвого циклу.
+Методи [Ev::suspend()](ev.suspend.md) і \*\*Ev::resume()\*\*відповідно припиняють і відновлюють роботу подієвого циклу.
 
 Всі спостерігачі таймери будуть затримані на час, що минув між *suspend* і *resume*, і всі спостерігачі типу *periodic* будуть переплановані watchers will be rescheduled(тобто будуть втрачені всі події, що сталися під час припинення).
 
-Після виклику [Ev::suspend()](ev.suspend.html) заборонено викликати будь-які функції циклу крім **Ev::resume()**. Також забороняється викликати **Ev::resume()** якщо раніше не викликався [Ev::suspend()](ev.suspend.html)
+Після виклику [Ev::suspend()](ev.suspend.md) заборонено викликати будь-які функції циклу крім **Ev::resume()**. Також забороняється викликати **Ev::resume()** якщо раніше не викликався [Ev::suspend()](ev.suspend.md)
 
-Виклик *suspend* *resume* мають побічні ефекти для оновлення часу подієвого циклу (див. [Ev::nowUpdate()](ev.nowupdate.html)
+Виклик *suspend* *resume* мають побічні ефекти для оновлення часу подієвого циклу (див. [Ev::nowUpdate()](ev.nowupdate.md)
 
 ### Список параметрів
 
@@ -44,4 +44,4 @@ final
 
 ### Дивіться також
 
--   [Ev::suspend()](ev.suspend.html) - Зупинити подійний цикл за замовчуванням
+-   [Ev::suspend()](ev.suspend.md) - Зупинити подійний цикл за замовчуванням

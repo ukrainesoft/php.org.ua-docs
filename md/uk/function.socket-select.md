@@ -4,9 +4,9 @@
     
 -   [socketsend »](function.socket-send.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции сокета](ref.sockets.html)
+-   [Функции сокета](ref.sockets.md)
     
 -   Запускає системний виклик select() для заданих масивів сокетів із зазначеним часом очікування
     
@@ -90,7 +90,7 @@ socket_select(    ?array &$read,    ?array &$write,    ?array &$exce
 
 ```php
 <?php
-/* Подготовить массив сокетов для чтения */
+/* Подготовить Масив сокетов для чтения */
 $read   = array($socket1, $socket2);
 $write  = NULL;
 $except = NULL;

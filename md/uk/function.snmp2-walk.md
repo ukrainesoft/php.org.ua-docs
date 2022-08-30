@@ -4,9 +4,9 @@
     
 -   [snmpv3get »](function.snmp3-get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.md)
     
 -   Отримує всі об'єкти SNMP з агента
     

@@ -1,12 +1,12 @@
 Перекласти всі пікселі нижче граничного значення в чорний колір
 
--   [« Imagick::averageImages](imagick.averageimages.html)
+-   [« Imagick::averageImages](imagick.averageimages.md)
     
--   [Imagick::blueShiftImage »](imagick.blueshiftimage.html)
+-   [Imagick::blueShiftImage »](imagick.blueshiftimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Перекласти всі пікселі нижче граничного значення в чорний колір
     
@@ -37,8 +37,8 @@ public Imagick::blackThresholdImage(mixed $threshold): bool
 
 ### список змін
 
-| Версия             | Описание                                                                                                  |
-|--------------------|-----------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL imagick 2.1.0 | Як параметр можна передавати колір рядком. У попередніх версіях дозволялося передавати лише ImagickPixel. |
 
 ### Приклади

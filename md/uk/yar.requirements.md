@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](yar.setup.html)
+-   [« Встановлення та налаштування](yar.setup.html)
     
 -   [Установка »](yar.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](yar.setup.html)
+-   [Встановлення та налаштування](yar.setup.html)
     
 -   Вимоги
     

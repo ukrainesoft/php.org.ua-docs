@@ -4,7 +4,7 @@
     
 -   [ParleParser::dump »](parle-parser.dump.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ParleParser](class.parle-parser.html)
     

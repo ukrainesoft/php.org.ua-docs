@@ -1,6 +1,6 @@
 Функції контролю виведення
 
--   [« Использование перезаписи вывода](outcontrol.examples.rewrite.html)
+-   [« Використання перезапису висновку](outcontrol.examples.rewrite.html)
     
 -   [flush »](function.flush.html)
     
@@ -31,7 +31,7 @@
 -   [проgetlevel](function.ob-get-level.html) — Повертає рівень вкладеності механізму буферизації виводу
 -   [проgetstatus](function.ob-get-status.html) — Отримати статус буфера виводу
 -   [проgzhandler](function.ob-gzhandler.html) - callback-функція, що використовується для gzip-стиснення буфера виводу при виклику obstart
--   [проimplicitflush](function.ob-implicit-flush.html) — Увімкнення/вимкнення неявного скидання
+-   [про implicit flush](function.ob-implicit-flush.html) — Увімкнення/вимкнення неявного скидання
 -   [проlisthandlers](function.ob-list-handlers.html) - Список всіх використовуваних обробників виводу
 -   [проstart](function.ob-start.html) — Увімкнення буферизації виводу
 -   [outputaddrewritevar](function.output-add-rewrite-var.html) — Додати значення до обробника URL

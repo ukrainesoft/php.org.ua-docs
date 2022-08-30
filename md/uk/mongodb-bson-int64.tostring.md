@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONInt64::unserialize »](mongodb-bson-int64.unserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONInt64](class.mongodb-bson-int64.html)
     
@@ -53,4 +53,4 @@ string(19) "9223372036854775807"
 
 ### Дивіться також
 
--   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

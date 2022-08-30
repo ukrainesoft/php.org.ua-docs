@@ -4,9 +4,9 @@
     
 -   [ibaserollbackret »](function.ibase-rollback-ret.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Firebird/InterBase](ref.ibase.html)
+-   [Функции Firebird/InterBase](ref.ibase.md)
     
 -   Запускає завдання відновлення у диспетчері служб та негайно повертається
     
@@ -41,7 +41,7 @@ ibase_restore(    resource $service_handle,    string $source_file,  �
 
 `options`
 
-Додаткові параметри передачі на сервер бази даних для відновлення. Параметр `options` може бути комбінацією наступних констант: **`IBASE_RES_DEACTIVATE_IDX`** **`IBASE_RES_NO_SHADOW`** **`IBASE_RES_NO_VALIDITY`** **`IBASE_RES_ONE_AT_A_TIME`** **`IBASE_RES_REPLACE`** **`IBASE_RES_CREATE`** **`IBASE_RES_USE_ALL_SPACE`** **`IBASE_PRP_PAGE_BUFFERS`** **`IBASE_PRP_SWEEP_INTERVAL`** **`IBASE_RES_CREATE`**. Читайте розділ про [Предопределённые константы](ibase.constants.html) для отримання додаткової інформації.
+Додаткові параметри передачі на сервер бази даних для відновлення. Параметр `options` може бути комбінацією наступних констант: **`IBASE_RES_DEACTIVATE_IDX`** **`IBASE_RES_NO_SHADOW`** **`IBASE_RES_NO_VALIDITY`** **`IBASE_RES_ONE_AT_A_TIME`** **`IBASE_RES_REPLACE`** **`IBASE_RES_CREATE`** **`IBASE_RES_USE_ALL_SPACE`** **`IBASE_PRP_PAGE_BUFFERS`** **`IBASE_PRP_SWEEP_INTERVAL`** **`IBASE_RES_CREATE`**. Читайте розділ про [Обумовлені константи](ibase.constants.md) для отримання додаткової інформації.
 
 `verbose`
 

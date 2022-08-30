@@ -4,9 +4,9 @@
     
 -   [ibasefreeresult »](function.ibase-free-result.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Firebird/InterBase](ref.ibase.html)
+-   [Функции Firebird/InterBase](ref.ibase.md)
     
 -   Звільняє пам'ять, виділену для підготовки запиту
     

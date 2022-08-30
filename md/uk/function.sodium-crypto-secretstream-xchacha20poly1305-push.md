@@ -4,9 +4,9 @@
     
 -   [sodiumcryptosecretstreamxchacha20poly1305rekey »](function.sodium-crypto-secretstream-xchacha20poly1305-rekey.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Шифрує фрагмент даних, щоб його можна було безпечно розшифрувати потоковим API
     

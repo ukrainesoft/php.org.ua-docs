@@ -1,12 +1,12 @@
 Клас UConverter
 
--   [« IntlPartsIterator::getBreakIterator](intlpartsiterator.getbreakiterator.html)
+-   [« IntlPartsIterator::getBreakIterator](intlpartsiterator.getbreakiterator.md)
     
--   [UConverter::construct »](uconverter.construct.html)
+-   [UConverter::construct »](uconverter.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [intl](book.intl.html)
+-   [intl](book.intl.md)
     
 -   Клас UConverter
     
@@ -309,22 +309,22 @@ public static transcode(    string $str,    string $toEncoding,    s
 
 ## Зміст
 
--   [UConverter::construct](uconverter.construct.html) — Створити об'єкт UConverter
--   [UConverter::convert](uconverter.convert.html) — Конвертувати рядок з одного кодування в інше
--   [UConverter::fromUCallback](uconverter.fromucallback.html) — Callback-функція за промовчанням для "from"
--   [UConverter::getAliases](uconverter.getaliases.html) — Отримати псевдоніми для цього імені
--   [UConverter::getAvailable](uconverter.getavailable.html) — Отримати доступні імена канонічних конверторів
--   [UConverter::getDestinationEncoding](uconverter.getdestinationencoding.html) — Отримати кодування призначення
--   [UConverter::getDestinationType](uconverter.getdestinationtype.html) — Отримати тип конвертера призначення
--   [UConverter::getErrorCode](uconverter.geterrorcode.html) — Отримати код останньої помилки об'єкта
--   [UConverter::getErrorMessage](uconverter.geterrormessage.html) — Отримати останнє повідомлення про помилку в об'єкті
--   [UConverter::getSourceEncoding](uconverter.getsourceencoding.html) — Отримати вихідне кодування
--   [UConverter::getSourceType](uconverter.getsourcetype.html) — Отримати тип конвертера джерела
--   [UConverter::getStandards](uconverter.getstandards.html) — Отримати стандарти, пов'язані з іменами конвертерів
--   [UConverter::getSubstChars](uconverter.getsubstchars.html) — Отримати заміну символів
--   [UConverter::reasonText](uconverter.reasontext.html) — Отримати рядкове подання причини зворотного виклику
--   [UConverter::setDestinationEncoding](uconverter.setdestinationencoding.html) — Встановити кодування призначення
--   [UConverter::setSourceEncoding](uconverter.setsourceencoding.html) — Встановити вихідне кодування
--   [UConverter::setSubstChars](uconverter.setsubstchars.html) — Встановлення символів підстановки
--   [UConverter::toUCallback](uconverter.toucallback.html) - Callback-функція за промовчанням для "to"
--   [UConverter::transcode](uconverter.transcode.html) — Перетворює рядок з одного кодування символів на інший
+-   [UConverter::construct](uconverter.construct.md) — Створити об'єкт UConverter
+-   [UConverter::convert](uconverter.convert.md) — Конвертувати рядок з одного кодування в інше
+-   [UConverter::fromUCallback](uconverter.fromucallback.md) — Callback-функція за промовчанням для "from"
+-   [UConverter::getAliases](uconverter.getaliases.md) — Отримати псевдоніми для цього імені
+-   [UConverter::getAvailable](uconverter.getavailable.md) — Отримати доступні імена канонічних конверторів
+-   [UConverter::getDestinationEncoding](uconverter.getdestinationencoding.md) — Отримати кодування призначення
+-   [UConverter::getDestinationType](uconverter.getdestinationtype.md) — Отримати тип конвертера призначення
+-   [UConverter::getErrorCode](uconverter.geterrorcode.md) — Отримати код останньої помилки об'єкта
+-   [UConverter::getErrorMessage](uconverter.geterrormessage.md) — Отримати останнє повідомлення про помилку в об'єкті
+-   [UConverter::getSourceEncoding](uconverter.getsourceencoding.md) — Отримати вихідне кодування
+-   [UConverter::getSourceType](uconverter.getsourcetype.md) — Отримати тип конвертера джерела
+-   [UConverter::getStandards](uconverter.getstandards.md) — Отримати стандарти, пов'язані з іменами конвертерів
+-   [UConverter::getSubstChars](uconverter.getsubstchars.md) — Отримати заміну символів
+-   [UConverter::reasonText](uconverter.reasontext.md) — Отримати рядкове подання причини зворотного виклику
+-   [UConverter::setDestinationEncoding](uconverter.setdestinationencoding.md) — Встановити кодування призначення
+-   [UConverter::setSourceEncoding](uconverter.setsourceencoding.md) — Встановити вихідне кодування
+-   [UConverter::setSubstChars](uconverter.setsubstchars.md) — Встановлення символів підстановки
+-   [UConverter::toUCallback](uconverter.toucallback.md) - Callback-функція за промовчанням для "to"
+-   [UConverter::transcode](uconverter.transcode.md) — Перетворює рядок з одного кодування символів на інший

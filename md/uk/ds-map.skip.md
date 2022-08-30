@@ -4,7 +4,7 @@
     
 -   [ДсMap::slice »](ds-map.slice.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Коллекция пар ключ-значение](class.ds-map.html)
     
@@ -37,7 +37,7 @@ public Ds\Map::skip(int $position): Ds\Pair
 
 ### Помилки
 
-Викидає виняток [OutOfRangeException](class.outofrangeexception.html)якщо індекс некоректний.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.md)якщо індекс некоректний.
 
 ### Приклади
 

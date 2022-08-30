@@ -4,9 +4,9 @@
     
 -   [showsource »](function.show-source.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Різні функції](ref.misc.html)
+-   [Різні функції](ref.misc.md)
     
 -   Отримати або встановити підтримку VT100 для заданого потоку, пов'язаного з буфером виведення консолі Windows
     
@@ -53,9 +53,9 @@ sapi_windows_vt100_support(resource $stream, ?bool $enable = null): bool
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `enable` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `enable` тепер допускає значення null. |
 
 ### Приклади
 

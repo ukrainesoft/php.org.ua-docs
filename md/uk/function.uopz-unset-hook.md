@@ -4,9 +4,9 @@
     
 -   [uopzunsetmock »](function.uopz-unset-mock.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.md)
     
 -   Видаляє раніше встановлену функцію або метод
     

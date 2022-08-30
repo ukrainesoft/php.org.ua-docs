@@ -1,12 +1,12 @@
 Перевіряє, чи поточний елемент є коректним
 
--   [« Imagick::unsharpMaskImage](imagick.unsharpmaskimage.html)
+-   [« Imagick::unsharpMaskImage](imagick.unsharpmaskimage.md)
     
--   [Imagick::vignetteImage »](imagick.vignetteimage.html)
+-   [Imagick::vignetteImage »](imagick.vignetteimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Перевіряє, чи поточний елемент є коректним
     

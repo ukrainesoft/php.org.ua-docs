@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](uopz.requirements.html)
+-   [« Вимоги](uopz.requirements.html)
     
--   [Настройка во время выполнения »](uopz.configuration.html)
+-   [Налаштування під час виконання »](uopz.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](uopz.setup.html)
+-   [Встановлення та налаштування](uopz.setup.html)
     
 -   Встановлення
     

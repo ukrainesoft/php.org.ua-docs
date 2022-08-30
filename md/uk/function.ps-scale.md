@@ -4,9 +4,9 @@
     
 -   [псsetbordercolor »](function.ps-set-border-color.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Встановлює коефіцієнт масштабування
     

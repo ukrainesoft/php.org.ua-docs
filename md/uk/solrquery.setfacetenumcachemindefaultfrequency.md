@@ -1,12 +1,12 @@
 Встановлює мінімальну частоту документа, що використовується для визначення кількості виразів
 
--   [« SolrQuery::setFacetDateStart](solrquery.setfacetdatestart.html)
+-   [« SolrQuery::setFacetDateStart](solrquery.setfacetdatestart.md)
     
--   [SolrQuery::setFacetLimit »](solrquery.setfacetlimit.html)
+-   [SolrQuery::setFacetLimit »](solrquery.setfacetlimit.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Встановлює мінімальну частоту документа, що використовується для визначення кількості виразів
     

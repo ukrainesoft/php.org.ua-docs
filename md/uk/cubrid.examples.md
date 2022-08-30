@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](cubrid.constants.html)
+-   [« Обумовлені константи](cubrid.constants.md)
     
--   [Функции CUBRID »](ref.cubrid.html)
+-   [Функции CUBRID »](ref.cubrid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CUBRID](book.cubrid.html)
+-   [CUBRID](book.cubrid.md)
     
 -   Приклади
     

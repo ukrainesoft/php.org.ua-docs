@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](gettext.requirements.html)
+-   [« Вимоги](gettext.requirements.md)
     
--   [Настройка во время выполнения »](gettext.configuration.html)
+-   [Налаштування під час виконання »](gettext.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](gettext.setup.html)
+-   [Встановлення та налаштування](gettext.setup.md)
     
 -   Встановлення
     

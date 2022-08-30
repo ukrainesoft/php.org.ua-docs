@@ -1,12 +1,12 @@
 Клас ReflectionProperty
 
--   [« ReflectionParameter::toString](reflectionparameter.tostring.html)
+-   [« ReflectionParameter::toString](reflectionparameter.tostring.md)
     
--   [ReflectionProperty::clone »](reflectionproperty.clone.html)
+-   [ReflectionProperty::clone »](reflectionproperty.clone.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Reflection](book.reflection.html)
+-   [Reflection](book.reflection.md)
     
 -   Клас ReflectionProperty
     
@@ -98,11 +98,11 @@ public __toString(): string
 
 name
 
-Ім'я якості. Доступно тільки для читання та викидає виняток [ReflectionException](class.reflectionexception.html) під час спроби запису.
+Ім'я якості. Доступно тільки для читання та викидає виняток [ReflectionException](class.reflectionexception.md) під час спроби запису.
 
 class
 
-Ім'я класу, в якому цю властивість описано. Доступно тільки для читання та викидає виняток [ReflectionException](class.reflectionexception.html) під час спроби запису.
+Ім'я класу, в якому цю властивість описано. Доступно тільки для читання та викидає виняток [ReflectionException](class.reflectionexception.md) під час спроби запису.
 
 ## Обумовлені константи
 
@@ -110,19 +110,19 @@ class
 
 **`ReflectionProperty::IS_STATIC`**
 
-Вказує, що властивість є [статичним](language.oop5.static.html). До PHP 7.4.0, значення було `1`
+Вказує, що властивість є [статичним](language.oop5.static.md). До PHP 7.4.0, значення було `1`
 
 **`ReflectionProperty::IS_PUBLIC`**
 
-Вказує, що властивість є [загальнодоступним](language.oop5.visibility.html). До PHP 7.4.0, значення було `256`
+Вказує, що властивість є [загальнодоступним](language.oop5.visibility.md). До PHP 7.4.0, значення було `256`
 
 **`ReflectionProperty::IS_PROTECTED`**
 
-Вказує, що властивість є [захищеним](language.oop5.visibility.html). До PHP 7.4.0, значення було `512`
+Вказує, що властивість є [захищеним](language.oop5.visibility.md). До PHP 7.4.0, значення було `512`
 
 **`ReflectionProperty::IS_PRIVATE`**
 
-Вказує, що властивість є [закрытым](language.oop5.visibility.html). До PHP 7.4.0, значення було `1024`
+Вказує, що властивість є [закритим](language.oop5.visibility.md). До PHP 7.4.0, значення було `1024`
 
 > **Зауваження**
 > 
@@ -130,27 +130,27 @@ class
 
 ## Зміст
 
--   [ReflectionProperty::clone](reflectionproperty.clone.html) - Клонувати
--   [ReflectionProperty::construct](reflectionproperty.construct.html) - Конструктор класу ReflectionProperty
--   [ReflectionProperty::export](reflectionproperty.export.html) - Експорт
--   [ReflectionProperty::getAttributes](reflectionproperty.getattributes.html) — Отримує атрибути
--   [ReflectionProperty::getDeclaringClass](reflectionproperty.getdeclaringclass.html) — Отримання класу, що оголошує
--   [ReflectionProperty::getDefaultValue](reflectionproperty.getdefaultvalue.html) — Повертає значення за промовчанням, задане для якості
--   [ReflectionProperty::getDocComment](reflectionproperty.getdoccomment.html) — Отримання doc-коментаря для якості
--   [ReflectionProperty::getModifiers](reflectionproperty.getmodifiers.html) - Отримання модифікаторів властивостей класу
--   [ReflectionProperty::getName](reflectionproperty.getname.html) - Отримання імені властивості
--   [ReflectionProperty::getType](reflectionproperty.gettype.html) — Отримати тип якості
--   [ReflectionProperty::getValue](reflectionproperty.getvalue.html) — Отримує значення
--   [ReflectionProperty::hasDefaultValue](reflectionproperty.hasdefaultvalue.html) — Перевіряє, чи встановлено значення за промовчанням для властивості.
--   [ReflectionProperty::hasType](reflectionproperty.hastype.html) — Перевірити, чи заданий для якості тип
--   [ReflectionProperty::isDefault](reflectionproperty.isdefault.html) — Перевіряє, чи значення є властивістю за умовчанням
--   [ReflectionProperty::isInitialized](reflectionproperty.isinitialized.html) — Перевірити, чи ініціалізована властивість
--   [ReflectionProperty::isPrivate](reflectionproperty.isprivate.html) — Перевіряє, чи властивість закрита.
--   [ReflectionProperty::isPromoted](reflectionproperty.ispromoted.html) — Перевіряє, чи визначено властивість у конструкторі
--   [ReflectionProperty::isProtected](reflectionproperty.isprotected.html) — Перевіряє, чи властивість захищена
--   [ReflectionProperty::isPublic](reflectionproperty.ispublic.html) — Перевіряє, чи є властивість загальнодоступною.
--   [ReflectionProperty::isReadOnly](reflectionproperty.isreadonly.html) — Перевіряє, чи властивість є readonly-властивістю
--   [ReflectionProperty::isStatic](reflectionproperty.isstatic.html) — Перевірка, чи властивість статична
--   [ReflectionProperty::setAccessible](reflectionproperty.setaccessible.html) — Робить властивість доступною
--   [ReflectionProperty::setValue](reflectionproperty.setvalue.html) - Встановлення значення властивості
--   [ReflectionProperty::toString](reflectionproperty.tostring.html) — Перетворення на рядок
+-   [ReflectionProperty::clone](reflectionproperty.clone.md) - Клонувати
+-   [ReflectionProperty::construct](reflectionproperty.construct.md) - Конструктор класу ReflectionProperty
+-   [ReflectionProperty::export](reflectionproperty.export.md) - Експорт
+-   [ReflectionProperty::getAttributes](reflectionproperty.getattributes.md) — Отримує атрибути
+-   [ReflectionProperty::getDeclaringClass](reflectionproperty.getdeclaringclass.md) — Отримання класу, що оголошує
+-   [ReflectionProperty::getDefaultValue](reflectionproperty.getdefaultvalue.md) — Повертає значення за промовчанням, задане для якості
+-   [ReflectionProperty::getDocComment](reflectionproperty.getdoccomment.md) — Отримання doc-коментаря для якості
+-   [ReflectionProperty::getModifiers](reflectionproperty.getmodifiers.md) - Отримання модифікаторів властивостей класу
+-   [ReflectionProperty::getName](reflectionproperty.getname.md) - Отримання імені властивості
+-   [ReflectionProperty::getType](reflectionproperty.gettype.md) — Отримати тип якості
+-   [ReflectionProperty::getValue](reflectionproperty.getvalue.md) — Отримує значення
+-   [ReflectionProperty::hasDefaultValue](reflectionproperty.hasdefaultvalue.md) — Перевіряє, чи встановлено значення за промовчанням для властивості.
+-   [ReflectionProperty::hasType](reflectionproperty.hastype.md) — Перевірити, чи заданий для якості тип
+-   [ReflectionProperty::isDefault](reflectionproperty.isdefault.md) — Перевіряє, чи значення є властивістю за умовчанням
+-   [ReflectionProperty::isInitialized](reflectionproperty.isinitialized.md) — Перевірити, чи ініціалізована властивість
+-   [ReflectionProperty::isPrivate](reflectionproperty.isprivate.md) — Перевіряє, чи властивість закрита.
+-   [ReflectionProperty::isPromoted](reflectionproperty.ispromoted.md) — Перевіряє, чи визначено властивість у конструкторі
+-   [ReflectionProperty::isProtected](reflectionproperty.isprotected.md) — Перевіряє, чи властивість захищена
+-   [ReflectionProperty::isPublic](reflectionproperty.ispublic.md) — Перевіряє, чи є властивість загальнодоступною.
+-   [ReflectionProperty::isReadOnly](reflectionproperty.isreadonly.md) — Перевіряє, чи властивість є readonly-властивістю
+-   [ReflectionProperty::isStatic](reflectionproperty.isstatic.md) — Перевірка, чи властивість статична
+-   [ReflectionProperty::setAccessible](reflectionproperty.setaccessible.md) — Робить властивість доступною
+-   [ReflectionProperty::setValue](reflectionproperty.setvalue.md) - Встановлення значення властивості
+-   [ReflectionProperty::toString](reflectionproperty.tostring.md) — Перетворення на рядок

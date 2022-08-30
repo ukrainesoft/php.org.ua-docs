@@ -1,12 +1,12 @@
 Задає режим вилучення вузлів
 
--   [« SplPriorityQueue::rewind](splpriorityqueue.rewind.html)
+-   [« SplPriorityQueue::rewind](splpriorityqueue.rewind.md)
     
--   [SplPriorityQueue::top »](splpriorityqueue.top.html)
+-   [SplPriorityQueue::top »](splpriorityqueue.top.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplPriorityQueue](class.splpriorityqueue.html)
+-   [SplPriorityQueue](class.splpriorityqueue.md)
     
 -   Задає режим вилучення вузлів
     
@@ -27,7 +27,7 @@ public SplPriorityQueue::setExtractFlags(int $flags): int
 
 `flags`
 
-Визначає, що витягуватиметься методами [SplPriorityQueue::current()](splpriorityqueue.current.html) [SplPriorityQueue::top()](splpriorityqueue.top.html) і [SplPriorityQueue::extract()](splpriorityqueue.extract.html)
+Визначає, що витягуватиметься методами [SplPriorityQueue::current()](splpriorityqueue.current.md) [SplPriorityQueue::top()](splpriorityqueue.top.md) і [SplPriorityQueue::extract()](splpriorityqueue.extract.md)
 
 -   **`SplPriorityQueue::EXTR_DATA`** (0x00000001): Витягувати дані
 -   **`SplPriorityQueue::EXTR_PRIORITY`** (0x00000002): Отримувати пріоритет

@@ -4,7 +4,7 @@
     
 -   [ОЙControlsCheck::isChecked »](ui-controls-check.ischecked.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsCheck](class.ui-controls-check.html)
     

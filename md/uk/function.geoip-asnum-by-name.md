@@ -1,12 +1,12 @@
 Отримати номер автономної системи (ASN)
 
--   [« Функции GeoIP](ref.geoip.html)
+-   [« Функции GeoIP](ref.geoip.md)
     
 -   [geoipcontinentcodeбname »](function.geoip-continent-code-by-name.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции GeoIP](ref.geoip.html)
+-   [Функции GeoIP](ref.geoip.md)
     
 -   Отримати номер автономної системи (ASN)
     

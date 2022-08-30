@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](calendar.requirements.html)
+-   [« Вимоги](calendar.requirements.html)
     
--   [Настройка во время выполнения »](calendar.configuration.html)
+-   [Налаштування під час виконання »](calendar.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](calendar.setup.html)
+-   [Встановлення та налаштування](calendar.setup.html)
     
 -   Встановлення
     

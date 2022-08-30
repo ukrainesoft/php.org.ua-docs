@@ -4,9 +4,9 @@
     
 -   [uopzflags »](function.uopz-flags.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.md)
     
 -   Розширити клас під час виконання
     
@@ -41,7 +41,7 @@ uopz_extend(string $class, string $parent): bool
 
 ### Помилки
 
-Починаючи з PHP 7.4.0, **uopzextends()** викидає [RuntimeException](class.runtimeexception.html), якщо [OPcache](book.opcache.html) включений і запис класу або `class`, або `parent` (якщо це ознака) незмінні.
+Починаючи з PHP 7.4.0, **uopzextends()** викидає [RuntimeException](class.runtimeexception.md), якщо [OPcache](book.opcache.md) включений і запис класу або `class`, або `parent` (якщо це ознака) незмінні.
 
 ### Приклади
 

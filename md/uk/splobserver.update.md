@@ -1,12 +1,12 @@
 Отримати оновлення від суб'єкта
 
--   [« SplObserver](class.splobserver.html)
+-   [« SplObserver](class.splobserver.md)
     
--   [SplSubject »](class.splsubject.html)
+-   [SplSubject »](class.splsubject.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplObserver](class.splobserver.html)
+-   [SplObserver](class.splobserver.md)
     
 -   Отримати оновлення від суб'єкта
     
@@ -23,7 +23,7 @@ SplObserver::update — Отримати поновлення від суб'єк
 public SplObserver::update(SplSubject $subject): void
 ```
 
-Цей метод викликається, коли будь-який [SplSubject](class.splsubject.html), до якого приєднано спостерігача, викликає [SplSubject::notify()](splsubject.notify.html)
+Цей метод викликається, коли будь-який [SplSubject](class.splsubject.md), до якого приєднано спостерігача, викликає [SplSubject::notify()](splsubject.notify.md)
 
 **Увага**
 
@@ -33,7 +33,7 @@ public SplObserver::update(SplSubject $subject): void
 
 `subject`
 
-[SplSubject](class.splsubject.html), що повідомляє спостерігача про оновлення.
+[SplSubject](class.splsubject.md), що повідомляє спостерігача про оновлення.
 
 ### Значення, що повертаються
 

@@ -2,11 +2,11 @@
 
 -   [« shmremove](function.shm-remove.html)
     
--   [SysvSemaphore »](class.sysvsemaphore.html)
+-   [SysvSemaphore »](class.sysvsemaphore.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Семафоры](book.sem.html)
+-   [Семафори](book.sem.md)
     
 -   Клас SysvMessageQueue
     

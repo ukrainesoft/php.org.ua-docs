@@ -1,12 +1,12 @@
 Встановлює позицію ітератора
 
--   [« Imagick::setInterlaceScheme](imagick.setinterlacescheme.html)
+-   [« Imagick::setInterlaceScheme](imagick.setinterlacescheme.md)
     
--   [Imagick::setLastIterator »](imagick.setlastiterator.html)
+-   [Imagick::setLastIterator »](imagick.setlastiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює позицію ітератора
     
@@ -55,6 +55,6 @@ echo $im->getIteratorIndex();
 
 ### Дивіться також
 
--   [Imagick::getIteratorIndex()](imagick.getiteratorindex.html) - Повертає індекс поточного активного зображення
--   [Imagick::getImageIndex()](imagick.getimageindex.html) - Повертає індекс поточного активного зображення
--   [Imagick::setImageIndex()](imagick.setimageindex.html) - встановлює позицію ітератора
+-   [Imagick::getIteratorIndex()](imagick.getiteratorindex.md) - Повертає індекс поточного активного зображення
+-   [Imagick::getImageIndex()](imagick.getimageindex.md) - Повертає індекс поточного активного зображення
+-   [Imagick::setImageIndex()](imagick.setimageindex.md) - встановлює позицію ітератора

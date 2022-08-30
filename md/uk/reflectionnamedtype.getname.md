@@ -1,12 +1,12 @@
 Отримує ім'я типу у вигляді рядка
 
--   [« ReflectionNamedType](class.reflectionnamedtype.html)
+-   [« ReflectionNamedType](class.reflectionnamedtype.md)
     
--   [ReflectionNamedType::isBuiltin »](reflectionnamedtype.isbuiltin.html)
+-   [ReflectionNamedType::isBuiltin »](reflectionnamedtype.isbuiltin.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionNamedType](class.reflectionnamedtype.html)
+-   [ReflectionNamedType](class.reflectionnamedtype.md)
     
 -   Отримує ім'я типу у вигляді рядка
     
@@ -33,4 +33,4 @@ public ReflectionNamedType::getName(): string
 
 ### Дивіться також
 
--   [ReflectionType::toString()](reflectiontype.tostring.html) - Перетворення на рядок
+-   [ReflectionType::toString()](reflectiontype.tostring.md) - Перетворення на рядок

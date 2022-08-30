@@ -4,9 +4,9 @@
     
 -   [parsestr »](function.parse-str.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Конвертує перший байт рядка до числа від 0 до 255
     
@@ -27,7 +27,7 @@ ord(string $character): int
 
 Якщо рядок створено в однобайтовому кодуванні, такому як ASCII, ISO-8859 або Windows 1252, результат функції буде еквівалентний позиції символу у відповідній таблиці кодування. У будь-якому випадку, ця функція нічого не знає про кодування і не зможе повернути кодову точку першого символу рядка, закодованого в багатобайтовому кодуванні, такому як UTF-8 або UTF-16.
 
-Ця функція доповнює функцію [chr()](function.chr.html)
+Ця функція доповнює функцію [chr()](function.chr.md)
 
 ### Список параметрів
 
@@ -74,7 +74,7 @@ for ( $pos=0; $pos < strlen($str); $pos ++ ) {
 
 ### Дивіться також
 
--   [chr()](function.chr.html) - Генерує односимвольний рядок за заданим числом
+-   [chr()](function.chr.md) - Генерує односимвольний рядок за заданим числом
 -   [» Таблица ASCII-кодов](https://www.man7.org/linux/man-pages/man7/ascii.7.html)
 -   [мбord()](function.mb-ord.html) - Отримує кодову точку символу Unicode
--   [IntlChar::ord()](intlchar.ord.html) - Отримати код символ Unicode
+-   [IntlChar::ord()](intlchar.ord.md) - Отримати код символ Unicode

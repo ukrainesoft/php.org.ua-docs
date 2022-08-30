@@ -4,9 +4,9 @@
     
 -   [wincacherefreshіфchanged »](function.wincache-refresh-if-changed.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции WinCache](ref.wincache.html)
+-   [Функции WinCache](ref.wincache.md)
     
 -   Отримує інформацію про використання кеш-пам'яті опкодів
     

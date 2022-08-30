@@ -1,12 +1,12 @@
 Встановлює один або кілька прапорів для налаштування можливої ​​ініціалізації EventBase
 
--   [« EventConfig::requireFeatures](eventconfig.requirefeatures.html)
+-   [« EventConfig::requireFeatures](eventconfig.requirefeatures.md)
     
--   [EventConfig::setMaxDispatchInterval »](eventconfig.setmaxdispatchinterval.html)
+-   [EventConfig::setMaxDispatchInterval »](eventconfig.setmaxdispatchinterval.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventConfig](class.eventconfig.html)
+-   [EventConfig](class.eventconfig.md)
     
 -   Встановлює один або кілька прапорів для налаштування можливої ​​ініціалізації EventBase
     
@@ -33,7 +33,7 @@ public
 
 `flags`
 
-Одна з констант `EventBase::LOOP_*`. Дивіться [константы EventBase](class.eventbase.html#eventbase.constants)
+Одна з констант `EventBase::LOOP_*`. Дивіться [константи EventBase](class.eventbase.html#eventbase.constants)
 
 ### Значення, що повертаються
 
@@ -41,4 +41,4 @@ public
 
 ### Дивіться також
 
--   [EventBase::getFeatures()](eventbase.getfeatures.html) - Повертає бітову маску підтримуваних функцій
+-   [EventBase::getFeatures()](eventbase.getfeatures.md) - Повертає бітову маску підтримуваних функцій

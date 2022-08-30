@@ -91,9 +91,9 @@ fclose($fp);
 
 ### список змін
 
-| Версия | Описание                 |
-|--------|--------------------------|
-|        | Доданий параметр `flags` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `flags` |
 
 ### Приклади
 
@@ -154,7 +154,7 @@ echo $output;
 
 ### Дивіться також
 
--   [Регулярные выражения PCRE](pcre.pattern.html)
+-   [Регулярні вирази PCRE](pcre.pattern.html)
 -   [pregreplacecallbackarray()](function.preg-replace-callback-array.html) - Здійснює пошук та заміну за регулярним виразом з використанням функцій зворотного виклику
 -   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
 -   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом

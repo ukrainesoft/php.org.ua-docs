@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](memcache.ini.html)
+-   [« Налаштування під час виконання](memcache.ini.md)
     
--   [Предопределённые константы »](memcache.constants.html)
+-   [Обумовлені константи »](memcache.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](memcache.setup.html)
+-   [Встановлення та налаштування](memcache.setup.md)
     
 -   Типи ресурсів
     

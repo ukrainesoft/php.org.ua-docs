@@ -1,12 +1,12 @@
 Встановлює атрибут зображення
 
--   [« Imagick::setImageArtifact](imagick.setimageartifact.html)
+-   [« Imagick::setImageArtifact](imagick.setimageartifact.md)
     
--   [Imagick::setImageBackgroundColor »](imagick.setimagebackgroundcolor.html)
+-   [Imagick::setImageBackgroundColor »](imagick.setimagebackgroundcolor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює атрибут зображення
     

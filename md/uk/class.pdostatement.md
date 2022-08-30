@@ -81,9 +81,9 @@ queryString
 
 ## список змін
 
-| Версия | Описание                                                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
-|        | **PDOStatement** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html) замість [Traversable](class.traversable.html) |
+| Версия | Описание |
+| --- | --- |
+|  | **PDOStatement** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html) замість [Traversable](class.traversable.html) |
 
 ## Зміст
 

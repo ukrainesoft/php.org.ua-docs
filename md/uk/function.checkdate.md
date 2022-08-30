@@ -1,12 +1,12 @@
 Перевіряє коректність дати за григоріанським календарем
 
--   [« Функции даты и времени](ref.datetime.html)
+-   [« Функції дати та часу](ref.datetime.html)
     
 -   [dateadd »](function.date-add.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.html)
     
 -   Перевіряє коректність дати за григоріанським календарем
     

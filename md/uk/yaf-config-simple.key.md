@@ -4,7 +4,7 @@
     
 -   [YafConfigSimple::next »](yaf-config-simple.next.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafConfigSimple](class.yaf-config-simple.html)
     

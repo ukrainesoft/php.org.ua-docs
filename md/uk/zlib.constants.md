@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](zlib.resources.html)
+-   [« Типи ресурсів](zlib.resources.md)
     
--   [Примеры »](zlib.examples.html)
+-   [Приклади »](zlib.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Zlib](book.zlib.html)
+-   [Zlib](book.zlib.md)
     
 -   Обумовлені константи
     

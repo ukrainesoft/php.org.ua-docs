@@ -1,12 +1,12 @@
 Завдання прапорів регулярного вираження
 
--   [« RegexIterator::setMode](regexiterator.setmode.html)
+-   [« RegexIterator::setMode](regexiterator.setmode.md)
     
--   [Интерфейсы »](spl.interfaces.html)
+-   [Інтерфейси »](spl.interfaces.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RegexIterator](class.regexiterator.html)
+-   [RegexIterator](class.regexiterator.md)
     
 -   Завдання прапорів регулярного вираження
     
@@ -29,7 +29,7 @@ public RegexIterator::setPregFlags(int $pregFlags): void
 
 `pregFlags`
 
-Прапори налаштування регулярного виразу. Список можливих прапорів наведено в описі методу [RegexIterator::construct()](regexiterator.construct.html)
+Прапори налаштування регулярного виразу. Список можливих прапорів наведено в описі методу [RegexIterator::construct()](regexiterator.construct.md)
 
 ### Значення, що повертаються
 
@@ -81,4 +81,4 @@ array(1) {
 
 ### Дивіться також
 
--   [RegexIterator::getPregFlags()](regexiterator.getpregflags.html) - Повертає прапори регулярного вираження
+-   [RegexIterator::getPregFlags()](regexiterator.getpregflags.md) - Повертає прапори регулярного вираження

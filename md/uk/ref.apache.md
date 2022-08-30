@@ -1,12 +1,12 @@
 Функції Apache
 
--   [« Предопределённые константы](apache.constants.html)
+-   [« Обумовлені константи](apache.constants.md)
     
 -   [apachechildterminate »](function.apache-child-terminate.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Apache](book.apache.html)
+-   [Apache](book.apache.md)
     
 -   Функції Apache
     
@@ -24,5 +24,5 @@
 -   [apacherequestheaders](function.apache-request-headers.html) — Отримує список усіх заголовків HTTP-запиту
 -   [apacheresponseheaders](function.apache-response-headers.html) — Повертає список усіх заголовків HTTP відповіді Apache
 -   [apachesetenv](function.apache-setenv.html) - Встановлює змінну subprocessenv Apache
--   [getallheaders](function.getallheaders.html) — Повертає всі заголовки HTTP-запиту
--   [virtual](function.virtual.html) - Виконує підзапит Apache
+-   [getallheaders](function.getallheaders.md) — Повертає всі заголовки HTTP-запиту
+-   [virtual](function.virtual.md) - Виконує підзапит Apache

@@ -4,9 +4,9 @@
     
 -   [hashhmacalgos »](function.hash-hmac-algos.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Hash](ref.hash.html)
+-   [Функции Hash](ref.hash.md)
     
 -   Формування ключа HKDF для заданих вхідних даних
     

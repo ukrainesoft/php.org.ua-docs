@@ -1,12 +1,12 @@
 Повертає опис для опції із зазначеною назвою
 
--   [« tidy::getOpt](tidy.getopt.html)
+-   [« tidy::getOpt](tidy.getopt.md)
     
--   [tidy::getRelease »](tidy.getrelease.html)
+-   [tidy::getRelease »](tidy.getrelease.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidy](class.tidy.html)
+-   [tidy](class.tidy.md)
     
 -   Повертає опис для опції із зазначеною назвою
     
@@ -43,7 +43,7 @@ tidy_get_opt_doc(tidy $tidy, string $option): string|false
 
 `tidy`
 
-Об'єкт [Tidy](class.tidy.html)
+Об'єкт [Tidy](class.tidy.md)
 
 `optname`
 
@@ -82,5 +82,5 @@ foreach ($config as $opt => $val) {
 
 ### Дивіться також
 
--   [tidy::getconfig()](tidy.getconfig.html) - Отримує поточну конфігурацію Tidy
--   [tidy::getopt()](tidy.getopt.html) - Повертає значення вказаного параметра конфігурації для документа tidy
+-   [tidy::getconfig()](tidy.getconfig.md) - Отримує поточну конфігурацію Tidy
+-   [tidy::getopt()](tidy.getopt.md) - Повертає значення вказаного параметра конфігурації для документа tidy

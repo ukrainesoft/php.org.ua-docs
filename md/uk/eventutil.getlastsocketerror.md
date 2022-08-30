@@ -1,12 +1,12 @@
 Отримати останню помилку сокету, що виникла
 
--   [« EventUtil::getLastSocketErrno](eventutil.getlastsocketerrno.html)
+-   [« EventUtil::getLastSocketErrno](eventutil.getlastsocketerrno.md)
     
--   [EventUtil::getSocketFd »](eventutil.getsocketfd.html)
+-   [EventUtil::getSocketFd »](eventutil.getsocketfd.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventUtil](class.eventutil.html)
+-   [EventUtil](class.eventutil.md)
     
 -   Отримати останню помилку сокету, що виникла
     
@@ -42,4 +42,4 @@ public
 
 ### Дивіться також
 
--   [EventUtil::getLastSocketErrno()](eventutil.getlastsocketerrno.html) - Отримати номер останньої помилки сокету, що виникла
+-   [EventUtil::getLastSocketErrno()](eventutil.getlastsocketerrno.md) - Отримати номер останньої помилки сокету, що виникла

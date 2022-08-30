@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](sockets.constants.html)
+-   [« Обумовлені константи](sockets.constants.html)
     
--   [Помилки сокетів »](sockets.errors.html)
+-   [Ошибки сокетів »](sockets.errors.html)
     
 -   [PHP Manual](index.html)
     
--   [Сокеты](book.sockets.html)
+-   [Сокети](book.sockets.html)
     
 -   Приклади
     

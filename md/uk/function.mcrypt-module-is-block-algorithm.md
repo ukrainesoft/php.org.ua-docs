@@ -4,9 +4,9 @@
     
 -   [mcryptmoduleісblockmode »](function.mcrypt-module-is-block-mode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](ref.mcrypt.html)
+-   [Mcrypt](ref.mcrypt.md)
     
 -   Перевіряє, чи заданий алгоритм є блоковим чи ні
     

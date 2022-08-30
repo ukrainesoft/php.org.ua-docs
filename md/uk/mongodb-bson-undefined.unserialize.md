@@ -41,4 +41,4 @@ final public MongoDB\BSON\Undefined::unserialize(string $serialized): void
 
 -   [MongoDBBSONUndefined::serialize()](mongodb-bson-undefined.serialize.html) - Серіалізує Undefined
 -   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [Серіалізація об'єктів](language.oop5.serialization.html)

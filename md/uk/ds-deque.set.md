@@ -4,7 +4,7 @@
     
 -   [ДсDeque::shift »](ds-deque.shift.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Двостороння черга](class.ds-deque.html)
     
@@ -41,7 +41,7 @@ public Ds\Deque::set(int $index, mixed $value): void
 
 ### Помилки
 
-Викидає виняток [OutOfRangeException](class.outofrangeexception.html)якщо індекс некоректний.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.md)якщо індекс некоректний.
 
 ### Приклади
 

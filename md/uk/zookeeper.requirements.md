@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](zookeeper.setup.html)
+-   [« Встановлення та налаштування](zookeeper.setup.html)
     
 -   [Установка »](zookeeper.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](zookeeper.setup.html)
+-   [Встановлення та налаштування](zookeeper.setup.html)
     
 -   Вимоги
     

@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](curl.requirements.html)
+-   [« Вимоги](curl.requirements.md)
     
--   [Настройка во время выполнения »](curl.configuration.html)
+-   [Налаштування під час виконання »](curl.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](curl.setup.html)
+-   [Встановлення та налаштування](curl.setup.md)
     
 -   Встановлення
     

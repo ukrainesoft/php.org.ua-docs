@@ -1,12 +1,12 @@
 Виконати рядок як код Javascript
 
--   [« V8Js::construct](v8js.construct.html)
+-   [« V8Js::construct](v8js.construct.md)
     
--   [V8Js::getExtensions »](v8js.getextensions.html)
+-   [V8Js::getExtensions »](v8js.getextensions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [V8Js](class.v8js.html)
+-   [V8Js](class.v8js.md)
     
 -   Виконати рядок як код Javascript
     

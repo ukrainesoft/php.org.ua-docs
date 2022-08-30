@@ -2,11 +2,11 @@
 
 -   [« mailparsestreamencode](function.mailparse-stream-encode.html)
     
--   [Математичні модулі »](refs.math.html)
+-   [Математичні модулі »](refs.math.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mailparse](ref.mailparse.html)
+-   [Mailparse](ref.mailparse.md)
     
 -   Сканує дані із вказаного файлу та витягує всі вкладені файли, кодовані в uuencode
     

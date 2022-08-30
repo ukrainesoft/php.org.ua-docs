@@ -2,11 +2,11 @@
 
 -   [xdiffstringpatch](function.xdiff-string-patch.html)
     
--   [Підтримка мов та кодувань »](refs.international.html)
+-   [Підтримка мов та кодувань »](refs.international.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.md)
     
 -   Порівняти два рядки та створити бінарний патч використовуючи поліномінальний алгоритм Rabin fingerprint
     

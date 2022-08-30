@@ -1,12 +1,12 @@
 Додати змінну до кешу
 
--   [« Функции APCu](ref.apcu.html)
+-   [« Функции APCu](ref.apcu.md)
     
 -   [apcucacheinfo »](function.apcu-cache-info.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции APCu](ref.apcu.html)
+-   [Функции APCu](ref.apcu.md)
     
 -   Додати змінну до кешу
     

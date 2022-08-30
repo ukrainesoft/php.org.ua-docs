@@ -2,7 +2,7 @@
 
 -   [« diowrite](function.dio-write.html)
     
--   [Установка и настройка »](dir.setup.html)
+-   [Встановлення та налаштування »](dir.setup.html)
     
 -   [PHP Manual](index.html)
     
@@ -13,12 +13,12 @@
 
 # Каталоги
 
--   [Установка и настройка](dir.setup.html)
-    -   [Требования](dir.requirements.html)
+-   [Встановлення та налаштування](dir.setup.html)
+    -   [Вимоги](dir.requirements.html)
     -   [Установка](dir.installation.html)
-    -   [Настройка во время выполнения](dir.configuration.html)
-    -   [Типы ресурсов](dir.resources.html)
--   [Предопределённые константы](dir.constants.html)
+    -   [Налаштування під час виконання](dir.configuration.html)
+    -   [Типи ресурсів](dir.resources.html)
+-   [Обумовлені константи](dir.constants.html)
 -   [Directory](class.directory.html) - Клас Directory
     -   [Directory::close](directory.close.html) — Закриває дескриптор каталогу
     -   [Directory::read](directory.read.html) — Отримує елемент із дескриптора каталогу

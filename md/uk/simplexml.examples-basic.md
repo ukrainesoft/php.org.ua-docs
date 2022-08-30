@@ -1,12 +1,12 @@
 Базове використання SimpleXML
 
--   [« Примеры](simplexml.examples.html)
+-   [« Приклади](simplexml.examples.html)
     
 -   [Робота з помилками XML »](simplexml.examples-errors.html)
     
 -   [PHP Manual](index.html)
     
--   [Примеры](simplexml.examples.html)
+-   [Приклади](simplexml.examples.html)
     
 -   Базове використання SimpleXML
     
@@ -119,7 +119,7 @@ Mr. Coder играет El ActÓr
 
 > **Зауваження**
 > 
-> Властивості (`$movies->movie` у попередньому прикладі) не є масивами. Це [итерируемый](class.iterator.html) об'єкт [у вигляді масиву](class.arrayaccess.html)
+> Властивості (`$movies->movie` у попередньому прикладі) не є масивами. Це [ітерований](class.iterator.html) об'єкт [у вигляді масиву](class.arrayaccess.html)
 
 **Приклад #5 Використання атрибутів**
 

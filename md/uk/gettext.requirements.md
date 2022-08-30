@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](gettext.setup.html)
+-   [« Встановлення та налаштування](gettext.setup.html)
     
 -   [Установка »](gettext.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](gettext.setup.html)
+-   [Встановлення та налаштування](gettext.setup.html)
     
 -   Вимоги
     

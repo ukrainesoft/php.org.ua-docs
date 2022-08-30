@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](datetime.requirements.html)
+-   [« Вимоги](datetime.requirements.html)
     
--   [Настройка во время выполнения »](datetime.configuration.html)
+-   [Налаштування під час виконання »](datetime.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](datetime.setup.html)
+-   [Встановлення та налаштування](datetime.setup.html)
     
 -   Встановлення
     

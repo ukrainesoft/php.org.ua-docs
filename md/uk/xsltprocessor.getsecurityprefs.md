@@ -1,12 +1,12 @@
 Отримати налаштування безпеки
 
--   [« XSLTProcessor::getParameter](xsltprocessor.getparameter.html)
+-   [« XSLTProcessor::getParameter](xsltprocessor.getparameter.md)
     
--   [XSLTProcessor::hasExsltSupport »](xsltprocessor.hasexsltsupport.html)
+-   [XSLTProcessor::hasExsltSupport »](xsltprocessor.hasexsltsupport.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XSLTProcessor](class.xsltprocessor.html)
+-   [XSLTProcessor](class.xsltprocessor.md)
     
 -   Отримати налаштування безпеки
     

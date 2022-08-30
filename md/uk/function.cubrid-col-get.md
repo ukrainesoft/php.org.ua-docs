@@ -4,9 +4,9 @@
     
 -   [cubridcolsize »](function.cubrid-col-size.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Отримання контенту стовпця типу колекція з OID
     

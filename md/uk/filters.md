@@ -16,7 +16,7 @@
 ## Зміст
 
 -   [Стрічкові фільтри](filters.string.html)
--   [Преобразовывающие фильтры](filters.convert.html)
+-   [Перетворюючі фільтри](filters.convert.html)
 -   [Компресійні фільтри](filters.compression.html)
 -   [Шифруючі фільтри](filters.encryption.html)
 

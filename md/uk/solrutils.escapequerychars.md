@@ -1,12 +1,12 @@
 Екранує рядок запиту Lucene
 
--   [« SolrUtils::digestXmlResponse](solrutils.digestxmlresponse.html)
+-   [« SolrUtils::digestXmlResponse](solrutils.digestxmlresponse.md)
     
--   [SolrUtils::getSolrVersion »](solrutils.getsolrversion.html)
+-   [SolrUtils::getSolrVersion »](solrutils.getsolrversion.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrUtils](class.solrutils.html)
+-   [SolrUtils](class.solrutils.md)
     
 -   Екранує рядок запиту Lucene
     

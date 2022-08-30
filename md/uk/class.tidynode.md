@@ -1,17 +1,17 @@
 Клас tidyNode
 
--   [« tidy::root](tidy.root.html)
+-   [« tidy::root](tidy.root.md)
     
--   [tidyNode::construct »](tidynode.construct.html)
+-   [tidyNode::construct »](tidynode.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Tidy](book.tidy.html)
+-   [Tidy](book.tidy.md)
     
 -   Клас tidyNode
     
 
-# Клас [tidyNode](class.tidynode.html)
+# Клас [tidyNode](class.tidynode.md)
 
 (PHP 5, PHP 7, PHP 8)
 
@@ -138,13 +138,13 @@ child
 
 ## Зміст
 
--   [tidyNode::construct](tidynode.construct.html) — Приватний конструктор, який унеможливлює пряме створення об'єкта
--   [tidyNode::getParent](tidynode.getparent.html) - Повертає батьківський вузол поточного вузла
--   [tidyNode::hasChildren](tidynode.haschildren.html) - Перевіряє існування нащадків біля вузла
--   [tidyNode::hasSiblings](tidynode.hassiblings.html) - Перевіряє існування сусідніх вузлів
--   [tidyNode::isAsp](tidynode.isasp.html) — Перевіряє поточний вузол на відповідність ASP
--   [tidyNode::isComment](tidynode.iscomment.html) — Перевіряє, чи є вузол коментарем
--   [tidyNode::isHtml](tidynode.ishtml.html) — Перевіряє, чи є вузол вузлом елемента
--   [tidyNode::isJste](tidynode.isjste.html) — Перевіряє поточний вузол на відповідність JSTE
--   [tidyNode::isPhp](tidynode.isphp.html) — Перевіряє, чи є поточний вузол PHP-кодом
--   [tidyNode::isText](tidynode.istext.html) — Перевіряє, чи поточний вузол є звичайним текстом (не розміткою)
+-   [tidyNode::construct](tidynode.construct.md) — Приватний конструктор, який унеможливлює пряме створення об'єкта
+-   [tidyNode::getParent](tidynode.getparent.md) - Повертає батьківський вузол поточного вузла
+-   [tidyNode::hasChildren](tidynode.haschildren.md) - Перевіряє існування нащадків біля вузла
+-   [tidyNode::hasSiblings](tidynode.hassiblings.md) - Перевіряє існування сусідніх вузлів
+-   [tidyNode::isAsp](tidynode.isasp.md) — Перевіряє поточний вузол на відповідність ASP
+-   [tidyNode::isComment](tidynode.iscomment.md) — Перевіряє, чи є вузол коментарем
+-   [tidyNode::isHtml](tidynode.ishtml.md) — Перевіряє, чи є вузол вузлом елемента
+-   [tidyNode::isJste](tidynode.isjste.md) — Перевіряє поточний вузол на відповідність JSTE
+-   [tidyNode::isPhp](tidynode.isphp.md) — Перевіряє, чи є поточний вузол PHP-кодом
+-   [tidyNode::isText](tidynode.istext.md) — Перевіряє, чи поточний вузол є звичайним текстом (не розміткою)

@@ -4,7 +4,7 @@
     
 -   [SwooleRedisServer::setHandler »](swoole-redis-server.sethandler.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleRedisServer](class.swoole-redis-server.html)
     

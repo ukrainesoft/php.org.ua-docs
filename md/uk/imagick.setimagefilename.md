@@ -1,12 +1,12 @@
 Встановлює ім'я файлу зображення
 
--   [« Imagick::setImageExtent](imagick.setimageextent.html)
+-   [« Imagick::setImageExtent](imagick.setimageextent.md)
     
--   [Imagick::setImageFormat »](imagick.setimageformat.html)
+-   [Imagick::setImageFormat »](imagick.setimageformat.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює ім'я файлу зображення
     

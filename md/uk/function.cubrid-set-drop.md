@@ -4,9 +4,9 @@
     
 -   [cubridsetquerytimeout »](function.cubrid-set-query-timeout.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Видаляє елемент із стовпця заданого типу, використовуючи OID
     

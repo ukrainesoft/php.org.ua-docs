@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverWriteResult::isAcknowledged »](mongodb-driver-writeresult.isacknowledged.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
     

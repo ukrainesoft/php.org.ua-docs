@@ -4,9 +4,9 @@
     
 -   [MongoDBDriverExceptionException »](class.mongodb-driver-exception-exception.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBDriverException](mongodb.exceptions.html)
+-   [MongoDBDriverException](mongodb.exceptions.md)
     
 -   Клас MongoDBDriverExceptionEncryptionException
     

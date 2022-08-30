@@ -1,12 +1,12 @@
 Встановлює новий термін зберігання для запису
 
--   [« Memcached::setSaslAuthData](memcached.setsaslauthdata.html)
+-   [« Memcached::setSaslAuthData](memcached.setsaslauthdata.md)
     
--   [Memcached::touchByKey »](memcached.touchbykey.html)
+-   [Memcached::touchByKey »](memcached.touchbykey.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Встановлює новий термін зберігання для запису
     
@@ -33,12 +33,12 @@ public Memcached::touch(string $key, int $expiration): bool
 
 `expiration`
 
-Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Время хранения объекта](memcached.expiration.html)
+Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Час зберігання об'єкту](memcached.expiration.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.html)
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.md)
 
 ### Дивіться також
 
--   [Memcached::touchByKey()](memcached.touchbykey.html) - Встановлює новий термін зберігання для запису на вказаному сервері
+-   [Memcached::touchByKey()](memcached.touchbykey.md) - Встановлює новий термін зберігання для запису на вказаному сервері

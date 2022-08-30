@@ -2,7 +2,7 @@
 
 -   [« URL](book.url.html)
     
--   [Установка и настройка »](url.setup.html)
+-   [Встановлення та налаштування »](url.setup.html)
     
 -   [PHP Manual](index.html)
     

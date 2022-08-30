@@ -4,9 +4,9 @@
     
 -   [statsdenspmfnegativebinomial »](function.stats-dens-pmf-negative-binomial.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Імовірнісний захід гіпергеометричного розподілу
     

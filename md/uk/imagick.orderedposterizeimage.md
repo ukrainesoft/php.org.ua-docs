@@ -1,12 +1,12 @@
 Виконує впорядкований дизеринг
 
--   [« Imagick::optimizeImageLayers](imagick.optimizeimagelayers.html)
+-   [« Imagick::optimizeImageLayers](imagick.optimizeimagelayers.md)
     
--   [Imagick::paintFloodfillImage »](imagick.paintfloodfillimage.html)
+-   [Imagick::paintFloodfillImage »](imagick.paintfloodfillimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Виконує впорядкований дизеринг
     

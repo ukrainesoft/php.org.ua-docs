@@ -1,12 +1,12 @@
 Бульов
 
--   [« Введение](language.types.intro.html)
+-   [« Введение](language.types.intro.md)
     
--   [Цілі числа "](language.types.integer.html)
+-   [Цілі числа "](language.types.integer.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Типы](language.types.html)
+-   [Типи](language.types.md)
     
 -   Бульов
     
@@ -25,7 +25,7 @@ $foo = True; // присвоить $foo значение TRUE
 ?>
 ```
 
-Зазвичай, деякий [оператор](language.operators.html) повертає значення типу bool, яке потім передається [управляющей конструкции](language.control-structures.html)
+Зазвичай, деякий [оператор](language.operators.md) повертає значення типу bool, яке потім передається [управляющей конструкции](language.control-structures.html)
 
 ```php
 <?php
@@ -55,15 +55,15 @@ if ($show_separators) {
 
 При перетворенні в bool, наступні значення розглядаються як **`false`**
 
--   саме значення [boolean](language.types.boolean.html) **`false`**
--   [integer](language.types.integer.html) 0 (нуль)
--   [float](language.types.float.html) 0.0 (нуль) та -0.0 (мінус нуль)
--   порожня [рядок](language.types.string.html), і [рядок](language.types.string.html) "0"
--   [массив](language.types.array.html) без елементів
--   особливий тип [NULL](language.types.null.html) (включаючи невстановлені змінні)
--   об'єкти [SimpleXML](ref.simplexml.html), Створені з порожніх елементів без атрибутів, тобто елементів, що не мають ні дочірніх елементів, ні атрибутів.
+-   саме значення [boolean](language.types.boolean.md) **`false`**
+-   [integer](language.types.integer.md) 0 (нуль)
+-   [float](language.types.float.md) 0.0 (нуль) та -0.0 (мінус нуль)
+-   порожня [рядок](language.types.string.md), і [рядок](language.types.string.md) "0"
+-   [Масив](language.types.array.md) без елементів
+-   особливий тип [NULL](language.types.null.md) (включаючи невстановлені змінні)
+-   об'єкти [SimpleXML](ref.simplexml.md), Створені з порожніх елементів без атрибутів, тобто елементів, що не мають ні дочірніх елементів, ні атрибутів.
 
-Всі інші значення розглядаються як **`true`** (включаючи будь-який [resource](language.types.resource.html) і **`NAN`**
+Всі інші значення розглядаються як **`true`** (включаючи будь-який [resource](language.types.resource.md) і **`NAN`**
 
 **Увага**
 

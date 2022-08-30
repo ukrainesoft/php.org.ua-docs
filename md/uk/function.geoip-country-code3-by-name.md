@@ -4,9 +4,9 @@
     
 -   [geoipcountrynameбname »](function.geoip-country-name-by-name.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции GeoIP](ref.geoip.html)
+-   [Функции GeoIP](ref.geoip.md)
     
 -   Отримати трисимвольний код країни
     

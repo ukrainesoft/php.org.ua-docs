@@ -2,11 +2,11 @@
 
 -   [« Установка](ibm-db2.installation.html)
     
--   [Типы ресурсов »](ibm-db2.resources.html)
+-   [Типи ресурсів »](ibm-db2.resources.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ibm-db2.setup.html)
+-   [Встановлення та налаштування](ibm-db2.setup.html)
     
 -   Налаштування під час виконання
     
@@ -17,14 +17,14 @@
 
 **ibmdb2 Опції налаштування**
 
-| Имя                                                                              | По умолчанию | Место изменения | Лог изменений            |
-|----------------------------------------------------------------------------------|--------------|-----------------|--------------------------|
-| [ibmdb2.binmode](ibm-db2.configuration.html#ini.ibm-db2.binmode)                 | "1"          | PHPINIALL       |                          |
-| [ibmdb2.i5allpconnect](ibm-db2.configuration.html#ini.ibm-db2.i5-all-pconnect)   | "0"          | PHPINISYSTEM    | Доступно з ibmdb2 1.6.5. |
-| [ibmdb2.i5allowcommit](ibm-db2.configuration.html#ini.ibm-db2.i5-allow-commit)   | "0"          | PHPINISYSTEM    | Доступно з ibmdb2 1.4.9. |
-| [ibmdb2.i5dbcsalloc](ibm-db2.configuration.html#ini.ibm-db2.i5-dbcs-alloc)       | "0"          | PHPINISYSTEM    | Доступно з ibmdb2 1.5.0. |
-| [ibmdb2.instancename](ibm-db2.configuration.html#ini.ibm-db2.instance-name)      | NULL         | PHPINISYSTEM    | Доступно з ibmdb2 1.0.2. |
-| [ibmdb2.i5ignoreuserid](ibm-db2.configuration.html#ini.ibm-db2.i5-ignore-userid) | "0"          | PHPINISYSTEM    | Доступно з ibmdb2 1.8.0. |
+| Имя | По умолчанию | Место изменения | Лог изменений |
+| --- | --- | --- | --- |
+| [ibmdb2.binmode](ibm-db2.configuration.html#ini.ibm-db2.binmode) | "1" | PHPINIALL |  |
+| [ibmdb2.i5allpconnect](ibm-db2.configuration.html#ini.ibm-db2.i5-all-pconnect) | "0" | PHPINISYSTEM | Доступно з ibmdb2 1.6.5. |
+| [ibmdb2.i5allowcommit](ibm-db2.configuration.html#ini.ibm-db2.i5-allow-commit) | "0" | PHPINISYSTEM | Доступно з ibmdb2 1.4.9. |
+| [ibmdb2.i5dbcsalloc](ibm-db2.configuration.html#ini.ibm-db2.i5-dbcs-alloc) | "0" | PHPINISYSTEM | Доступно з ibmdb2 1.5.0. |
+| [ibmdb2.instancename](ibm-db2.configuration.html#ini.ibm-db2.instance-name) | NULL | PHPINISYSTEM | Доступно з ibmdb2 1.0.2. |
+| [ibmdb2.i5ignoreuserid](ibm-db2.configuration.html#ini.ibm-db2.i5-ignore-userid) | "0" | PHPINISYSTEM | Доступно з ibmdb2 1.8.0. |
 
 Коротке пояснення конфігураційних директив.
 

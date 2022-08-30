@@ -14,12 +14,12 @@ JavaScript Object Notation
 # JavaScript Object Notation
 
 -   [Введение](intro.json.html)
--   [Установка и настройка](json.setup.html)
-    -   [Требования](json.requirements.html)
+-   [Встановлення та налаштування](json.setup.html)
+    -   [Вимоги](json.requirements.html)
     -   [Установка](json.installation.html)
-    -   [Настройка во время выполнения](json.configuration.html)
-    -   [Типы ресурсов](json.resources.html)
--   [Предопределённые константы](json.constants.html)
+    -   [Налаштування під час виконання](json.configuration.html)
+    -   [Типи ресурсів](json.resources.html)
+-   [Обумовлені константи](json.constants.html)
 -   [JsonException](class.jsonexception.html) - Клас JsonException
 -   [JsonSerializable](class.jsonserializable.html) - Інтерфейс JsonSerializable
     -   [JsonSerializable::jsonSerialize](jsonserializable.jsonserialize.html) — Задає дані, які мають бути серіалізовані у JSON

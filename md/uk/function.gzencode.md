@@ -1,12 +1,12 @@
 Створити стислий рядок gzip
 
--   [« gzdeflate](function.gzdeflate.html)
+-   [« gzdeflate](function.gzdeflate.md)
     
--   [gzeof »](function.gzeof.html)
+-   [gzeof »](function.gzeof.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Zlib](ref.zlib.html)
+-   [Функции Zlib](ref.zlib.md)
     
 -   Створити стислий рядок gzip
     
@@ -63,9 +63,9 @@ file_put_contents("bigfile.txt.gz", $gzdata);
 
 ### Дивіться також
 
--   [gzdecode()](function.gzdecode.html) - Декодує рядок, стислий за допомогою gzip
--   [gzdeflate()](function.gzdeflate.html) - Стискає рядок
--   [gzinflate()](function.gzinflate.html) - Розпакувати стислий рядок
--   [gzuncompress()](function.gzuncompress.html) - Розпакувати стислий рядок
--   [gzcompress()](function.gzcompress.html) - Стиснути рядок
+-   [gzdecode()](function.gzdecode.md) - Декодує рядок, стислий за допомогою gzip
+-   [gzdeflate()](function.gzdeflate.md) - Стискає рядок
+-   [gzinflate()](function.gzinflate.md) - Розпакувати стислий рядок
+-   [gzuncompress()](function.gzuncompress.md) - Розпакувати стислий рядок
+-   [gzcompress()](function.gzcompress.md) - Стиснути рядок
 -   [»  Спецификация ZLIB Compressed Data (RFC 1950)](http://www.faqs.org/rfcs/rfc1950)

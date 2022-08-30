@@ -4,7 +4,7 @@
     
 -   [ОЙDrawStroke::setJoin »](ui-draw-stroke.setjoin.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawStroke](class.ui-draw-stroke.html)
     

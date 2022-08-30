@@ -4,9 +4,9 @@
     
 -   [пгping »](function.pg-ping.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PostgreSQL](ref.pgsql.html)
+-   [Функции PostgreSQL](ref.pgsql.md)
     
 -   Відкриває постійне з'єднання із сервером PostgreSQL
     
@@ -49,9 +49,9 @@ pg_pconnect(string $connection_string, int $flags = 0): PgSql\Connection|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

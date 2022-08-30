@@ -4,7 +4,7 @@
     
 -   [Session::generateUUID »](mysql-xdevapi-session.generateuuid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
     

@@ -2,9 +2,9 @@
 
 -   [« Введение](intro.mysql-xdevapi.html)
     
--   [Требования »](mysql-xdevapi.requirements.html)
+-   [Вимоги »](mysql-xdevapi.requirements.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](mysql-xdevapi.requirements.html)
+-   [Вимоги](mysql-xdevapi.requirements.html)
 -   [Установка](mysql-xdevapi.installation.html)
--   [Настройка во время выполнения](mysql-xdevapi.configuration.html)
+-   [Налаштування під час виконання](mysql-xdevapi.configuration.html)
 -   [Складання / Компіляція з вихідного коду](mysql-xdevapi.build.html)

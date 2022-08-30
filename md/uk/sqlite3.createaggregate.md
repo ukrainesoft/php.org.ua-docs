@@ -1,12 +1,12 @@
 Зареєструвати функцію PHP як агрегуючу функцію SQL
 
--   [« SQLite3::construct](sqlite3.construct.html)
+-   [« SQLite3::construct](sqlite3.construct.md)
     
--   [SQLite3::createCollation »](sqlite3.createcollation.html)
+-   [SQLite3::createCollation »](sqlite3.createcollation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3](class.sqlite3.html)
+-   [SQLite3](class.sqlite3.md)
     
 -   Зареєструвати функцію PHP як агрегуючу функцію SQL
     
@@ -61,7 +61,7 @@ step(    mixed $context,    int $rownumber,    mixed $value,    
 
 `finalCallback`
 
-Функція зворотного дзвінка для обчислення підсумкового значення агрегованого. Вона буде викликана як тільки всі рядки результуючого набору будуть оброблені, їй буде переданий контекст, що агрегує, і вона поверне фінальне значення. Ця функція має повернути значення типу зрозумілого SQLite (тобто . [скалярный тип](language.types.intro.html)
+Функція зворотного дзвінка для обчислення підсумкового значення агрегованого. Вона буде викликана як тільки всі рядки результуючого набору будуть оброблені, їй буде переданий контекст, що агрегує, і вона поверне фінальне значення. Ця функція має повернути значення типу зрозумілого SQLite (тобто . [скалярний тип](language.types.intro.md)
 
 Ця функція має бути визначена так:
 

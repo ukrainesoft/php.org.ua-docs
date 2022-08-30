@@ -1,12 +1,12 @@
 Повертає відповідним чином локалізовану назву регіону для заданої локалі
 
--   [« Locale::getDisplayName](locale.getdisplayname.html)
+-   [« Locale::getDisplayName](locale.getdisplayname.md)
     
--   [Locale::getDisplayScript »](locale.getdisplayscript.html)
+-   [Locale::getDisplayScript »](locale.getdisplayscript.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Locale](class.locale.html)
+-   [Locale](class.locale.md)
     
 -   Повертає відповідним чином локалізовану назву регіону для заданої локалі
     
@@ -51,9 +51,9 @@ locale_get_display_region(string $locale, ?string $displayLocale = null): string
 
 ### список змін
 
-| Версия | Описание                                      |
-|--------|-----------------------------------------------|
-|        | `displayLocale` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `displayLocale` тепер допускає значення null. |
 
 ### Приклади
 
@@ -91,7 +91,7 @@ Italien
 
 ### Дивіться також
 
--   [localegetdisplayname()](locale.getdisplayname.html) - Повертає відповідним чином локалізоване ім'я локалі
--   [localegetdisplaylanguage()](locale.getdisplaylanguage.html) - Повертає відповідним чином локалізоване ім'я мови для заданої локалі
--   [localegetdisplayscript()](locale.getdisplayscript.html) - Повертає відповідним чином локалізовану назву алфавіту для заданої локалі
--   [localegetdisplayvariant()](locale.getdisplayvariant.html) - Повертає відповідним чином локалізовану назву варіанта для заданої локалі
+-   [localegetdisplayname()](locale.getdisplayname.md) - Повертає відповідним чином локалізоване ім'я локалі
+-   [localegetdisplaylanguage()](locale.getdisplaylanguage.md) - Повертає відповідним чином локалізоване ім'я мови для заданої локалі
+-   [localegetdisplayscript()](locale.getdisplayscript.md) - Повертає відповідним чином локалізовану назву алфавіту для заданої локалі
+-   [localegetdisplayvariant()](locale.getdisplayvariant.md) - Повертає відповідним чином локалізовану назву варіанта для заданої локалі

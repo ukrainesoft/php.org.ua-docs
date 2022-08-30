@@ -1,12 +1,12 @@
 Переміщує покажчик DirectoryIterator на певну позицію
 
--   [« DirectoryIterator::rewind](directoryiterator.rewind.html)
+-   [« DirectoryIterator::rewind](directoryiterator.rewind.md)
     
--   [DirectoryIterator::toString »](directoryiterator.tostring.html)
+-   [DirectoryIterator::toString »](directoryiterator.tostring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DirectoryIterator](class.directoryiterator.html)
+-   [DirectoryIterator](class.directoryiterator.md)
     
 -   Переміщує покажчик DirectoryIterator на певну позицію
     
@@ -23,7 +23,7 @@ DirectoryIterator::seek — Переміщує покажчик DirectoryIterato
 public DirectoryIterator::seek(int $offset): void
 ```
 
-Переміщує покажчик [DirectoryIterator](class.directoryiterator.html) на певну позицію.
+Переміщує покажчик [DirectoryIterator](class.directoryiterator.md) на певну позицію.
 
 ### Список параметрів
 
@@ -55,6 +55,6 @@ if ($iterator->valid()) {
 
 ### Дивіться також
 
--   [DirectoryIterator::rewind()](directoryiterator.rewind.html) - Встановлює покажчик на перший елемент DirectoryIterator
--   [DirectoryIterator::next()](directoryiterator.next.html) - Переміщує покажчик на наступний елемент DirectoryIterator
--   [SeekableIterator::seek()](seekableiterator.seek.html) - Переміщається до позиції
+-   [DirectoryIterator::rewind()](directoryiterator.rewind.md) - Встановлює покажчик на перший елемент DirectoryIterator
+-   [DirectoryIterator::next()](directoryiterator.next.md) - Переміщує покажчик на наступний елемент DirectoryIterator
+-   [SeekableIterator::seek()](seekableiterator.seek.md) - Переміщається до позиції

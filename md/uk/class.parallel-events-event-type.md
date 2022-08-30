@@ -4,9 +4,9 @@
     
 -   [parallelSync »](class.parallel-sync.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [parallel](book.parallel.html)
+-   [parallel](book.parallel.md)
     
 -   Клас parallelEventsEventType
     

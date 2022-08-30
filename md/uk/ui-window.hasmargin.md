@@ -4,7 +4,7 @@
     
 -   [ОЙWindow::isFullScreen »](ui-window.isfullscreen.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙWindow](class.ui-window.html)
     

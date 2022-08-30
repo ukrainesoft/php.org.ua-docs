@@ -1,12 +1,12 @@
 Встановлення драйвера PHP MongoDB під Windows
 
--   [« Установка драйвера PHP MongoDB на macOS помощью Homebrew](mongodb.installation.homebrew.html)
+-   [« Установка драйвера PHP MongoDB на macOS помощью Homebrew](mongodb.installation.homebrew.md)
     
--   [Сборка драйвера PHP MongoDB из исходного кода »](mongodb.installation.manual.html)
+-   [Сборка драйвера PHP MongoDB из исходного кода »](mongodb.installation.manual.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка](mongodb.installation.html)
+-   [Установка](mongodb.installation.md)
     
 -   Встановлення драйвера PHP MongoDB під Windows
     

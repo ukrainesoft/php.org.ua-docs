@@ -1,12 +1,12 @@
 Отримує метод видалення зображення
 
--   [« Gmagick::getimagedepth](gmagick.getimagedepth.html)
+-   [« Gmagick::getimagedepth](gmagick.getimagedepth.md)
     
--   [Gmagick::getimageextrema »](gmagick.getimageextrema.html)
+-   [Gmagick::getimageextrema »](gmagick.getimageextrema.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Отримує метод видалення зображення
     

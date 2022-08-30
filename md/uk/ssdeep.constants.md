@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](ssdeep.resources.html)
+-   [« Типи ресурсів](ssdeep.resources.md)
     
--   [Функції ssdeep »](ref.ssdeep.html)
+-   [Функції ssdeep »](ref.ssdeep.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ssdeep](book.ssdeep.html)
+-   [ssdeep](book.ssdeep.md)
     
 -   Обумовлені константи
     

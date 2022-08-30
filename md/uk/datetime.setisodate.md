@@ -1,12 +1,12 @@
 Встановлює дату ISO
 
--   [« DateTime::setDate](datetime.setdate.html)
+-   [« DateTime::setDate](datetime.setdate.md)
     
--   [DateTime::setTime »](datetime.settime.html)
+-   [DateTime::setTime »](datetime.settime.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTime](class.datetime.html)
+-   [DateTime](class.datetime.md)
     
 -   Встановлює дату ISO
     
@@ -35,15 +35,15 @@ date_isodate_set(    DateTime $object,    int $year,    int $week, 
 
 Встановлення дати відповідно до стандарту ISO 8601, в якому використання тижнів та зміщення днями переважніше вказівки дати.
 
-Подібний до методу [DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.html), крім роботи з об'єктом [DateTime](class.datetime.html)
+Подібний до методу [DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.md), крім роботи з об'єктом [DateTime](class.datetime.md)
 
-Процедурна версія приймає об'єкт [DateTime](class.datetime.html) як перший аргумент.
+Процедурна версія приймає об'єкт [DateTime](class.datetime.md) як перший аргумент.
 
 ### Список параметрів
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [datecreate()](function.date-create.html). Функція змінює цей об'єкт.
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.html). Функція змінює цей об'єкт.
 
 `year`
 
@@ -59,8 +59,8 @@ date_isodate_set(    DateTime $object,    int $year,    int $week, 
 
 ### Значення, що повертаються
 
-Повертає модифікований об'єкт [DateTime](class.datetime.html) для застосування в ланцюгу методів або **`false`** у разі виникнення помилки.
+Повертає модифікований об'єкт [DateTime](class.datetime.md) для застосування в ланцюгу методів або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
--   [DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.html) - Встановлює дату у форматі ISO
+-   [DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.md) - Встановлює дату у форматі ISO

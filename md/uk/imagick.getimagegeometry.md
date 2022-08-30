@@ -1,12 +1,12 @@
 Повертає ширину та висоту у вигляді асоціативного масиву
 
--   [« Imagick::getImageGamma](imagick.getimagegamma.html)
+-   [« Imagick::getImageGamma](imagick.getimagegamma.md)
     
--   [Imagick::getImageGravity »](imagick.getimagegravity.html)
+-   [Imagick::getImageGravity »](imagick.getimagegravity.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає ширину та висоту у вигляді асоціативного масиву
     

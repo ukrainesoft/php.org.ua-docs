@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONDBPointer::unserialize »](mongodb-bson-dbpointer.unserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.html)
     

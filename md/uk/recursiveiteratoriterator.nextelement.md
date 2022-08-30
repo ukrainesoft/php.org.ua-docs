@@ -1,12 +1,12 @@
 Наступний елемент
 
--   [« RecursiveIteratorIterator::next](recursiveiteratoriterator.next.html)
+-   [« RecursiveIteratorIterator::next](recursiveiteratoriterator.next.md)
     
--   [RecursiveIteratorIterator::rewind »](recursiveiteratoriterator.rewind.html)
+-   [RecursiveIteratorIterator::rewind »](recursiveiteratoriterator.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
     
 -   Наступний елемент
     

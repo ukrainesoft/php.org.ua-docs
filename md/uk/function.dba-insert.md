@@ -4,9 +4,9 @@
     
 -   [dbakeysplit »](function.dba-key-split.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції DBA](ref.dba.html)
+-   [Функції DBA](ref.dba.md)
     
 -   Вставляє запис
     

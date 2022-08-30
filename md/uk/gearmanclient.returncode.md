@@ -1,12 +1,12 @@
 Отримати останній код повернення Gearman
 
--   [« GearmanClient::removeOptions](gearmanclient.removeoptions.html)
+-   [« GearmanClient::removeOptions](gearmanclient.removeoptions.md)
     
--   [GearmanClient::runTasks »](gearmanclient.runtasks.html)
+-   [GearmanClient::runTasks »](gearmanclient.runtasks.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanClient](class.gearmanclient.html)
+-   [GearmanClient](class.gearmanclient.md)
     
 -   Отримати останній код повернення Gearman
     

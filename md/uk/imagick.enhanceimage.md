@@ -1,12 +1,12 @@
 Покращує якість шумного зображення
 
--   [« Imagick::encipherImage](imagick.encipherimage.html)
+-   [« Imagick::encipherImage](imagick.encipherimage.md)
     
--   [Imagick::equalizeImage »](imagick.equalizeimage.html)
+-   [Imagick::equalizeImage »](imagick.equalizeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Покращує якість шумного зображення
     

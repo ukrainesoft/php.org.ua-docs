@@ -14,12 +14,12 @@
 # Календар
 
 -   [Введение](intro.calendar.html)
--   [Установка и настройка](calendar.setup.html)
-    -   [Требования](calendar.requirements.html)
+-   [Встановлення та налаштування](calendar.setup.html)
+    -   [Вимоги](calendar.requirements.html)
     -   [Установка](calendar.installation.html)
-    -   [Настройка во время выполнения](calendar.configuration.html)
-    -   [Типы ресурсов](calendar.resources.html)
--   [Предопределённые константы](calendar.constants.html)
+    -   [Налаштування під час виконання](calendar.configuration.html)
+    -   [Типи ресурсів](calendar.resources.html)
+-   [Обумовлені константи](calendar.constants.html)
 -   [Календарь](ref.calendar.html)
     -   [caldaysінmonth](function.cal-days-in-month.html) — Повертає кількість днів на місяць для заданого року та календаря
     -   [calfromжд](function.cal-from-jd.html) — Перетворює дату, задану в юліанському календарі, на дату вказаного календаря

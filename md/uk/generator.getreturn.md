@@ -1,12 +1,12 @@
 Отримати значення, що повертається генератором
 
--   [« Generator::current](generator.current.html)
+-   [« Generator::current](generator.current.md)
     
--   [Generator::key »](generator.key.html)
+-   [Generator::key »](generator.key.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Generator](class.generator.html)
+-   [Generator](class.generator.md)
     
 -   Отримати значення, що повертається генератором
     

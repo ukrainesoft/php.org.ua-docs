@@ -1,12 +1,12 @@
 Перевертає рядок задом наперед
 
--   [« strrchr](function.strrchr.html)
+-   [« strrchr](function.strrchr.md)
     
--   [strripos »](function.strripos.html)
+-   [strripos »](function.strripos.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Перевертає рядок задом наперед
     

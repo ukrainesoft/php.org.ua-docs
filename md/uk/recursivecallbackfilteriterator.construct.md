@@ -31,12 +31,12 @@ public **RecursiveCallbackFilterIterator::construct**[RecursiveIterator](class.r
 
 `callback`
 
-Callback-функція, яка має повертати **`true`**, якщо поточний елемент підходить під умови фільтра, та \*\*`false`\*\*якщо елемент потрібно виключити з перебору. Дивіться [Примеры](class.recursivecallbackfilteriterator.html#recursivecallbackfilteriterator.examples)
+Callback-функція, яка має повертати **`true`**, якщо поточний елемент підходить під умови фільтра, та \*\*`false`\*\*якщо елемент потрібно виключити з перебору. Дивіться [Приклади](class.recursivecallbackfilteriterator.html#recursivecallbackfilteriterator.examples)
 
 Може бути будь-яким допустимим [callable](language.types.callable.html) значенням.
 
 ### Дивіться також
 
--   [Примеры использования RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.html#recursivecallbackfilteriterator.examples)
+-   [Приклади використання RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.html#recursivecallbackfilteriterator.examples)
 -   [RecursiveCallbackFilterIterator::getChildren()](recursivecallbackfilteriterator.getchildren.html) - Повертає дочірні елементи ітератора, що зберігається всередині RecursiveCallbackFilterIterator
 -   [RecursiveCallbackFilteriterator::hasChildren()](recursivecallbackfilteriterator.haschildren.html) - Перевіряє, чи містить поточний елемент внутрішнього ітератора дочірні елементи

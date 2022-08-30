@@ -4,9 +4,9 @@
     
 -   [ssh2sendeof »](function.ssh2-send-eof.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Надсилання файлу через SCP
     
@@ -63,4 +63,4 @@ ssh2_scp_send($connection, '/local/filename', '/remote/filename', 0644);
 ### Дивіться також
 
 -   [ssh2scprecv()](function.ssh2-scp-recv.html) - Запит файлу через SCP
--   [copy()](function.copy.html) - Копіює файл
+-   [copy()](function.copy.md) - Копіює файл

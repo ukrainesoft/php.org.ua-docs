@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.iconv.html)
+-   [« Введение](intro.iconv.md)
     
--   [Требования »](iconv.requirements.html)
+-   [Вимоги »](iconv.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [iconv](book.iconv.html)
+-   [iconv](book.iconv.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](iconv.requirements.html)
--   [Установка](iconv.installation.html)
--   [Настройка во время выполнения](iconv.configuration.html)
--   [Типы ресурсов](iconv.resources.html)
+-   [Вимоги](iconv.requirements.md)
+-   [Установка](iconv.installation.md)
+-   [Налаштування під час виконання](iconv.configuration.md)
+-   [Типи ресурсів](iconv.resources.md)

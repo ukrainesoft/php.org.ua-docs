@@ -4,9 +4,9 @@
     
 -   [ісnan »](function.is-nan.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні функції](ref.math.html)
+-   [Математичні функції](ref.math.md)
     
 -   Перевіряє, чи є значення нескінченним
     

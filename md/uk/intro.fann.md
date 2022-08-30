@@ -1,12 +1,12 @@
 Вступ
 
--   [« FANN](book.fann.html)
+-   [« FANN](book.fann.md)
     
--   [Установка и настройка »](fann.setup.html)
+-   [Встановлення та налаштування »](fann.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FANN](book.fann.html)
+-   [FANN](book.fann.md)
     
 -   Вступ
     

@@ -1,12 +1,12 @@
 Клас GenderGender
 
--   [« Пример использования](gender.example.admin.html)
+-   [« Пример использования](gender.example.admin.md)
     
 -   [GenderGender::connect »](gender-gender.connect.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gender](book.gender.html)
+-   [Gender](book.gender.md)
     
 -   Клас GenderGender
     

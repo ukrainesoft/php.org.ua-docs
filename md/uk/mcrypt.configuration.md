@@ -2,11 +2,11 @@
 
 -   [« Установка](mcrypt.installation.html)
     
--   [Типы ресурсов »](mcrypt.resources.html)
+-   [Типи ресурсів »](mcrypt.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](mcrypt.setup.html)
+-   [Встановлення та налаштування](mcrypt.setup.html)
     
 -   Налаштування під час виконання
     
@@ -17,12 +17,12 @@
 
 **Опції налаштування Mcrypt**
 
-| Имя                                                                         | По умолчанию | Место изменения | Список изменений |
-|-----------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [mcrypt.algorithmsdir](mcrypt.configuration.html#ini.mcrypt.algorithms-dir) | **`null`**   | PHPINIALL       |                  |
-| [mcrypt.modesdir](mcrypt.configuration.html#ini.mcrypt.modes-dir)           | **`null`**   | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [mcrypt.algorithmsdir](mcrypt.configuration.html#ini.mcrypt.algorithms-dir) | **`null`** | PHPINIALL |  |
+| [mcrypt.modesdir](mcrypt.configuration.html#ini.mcrypt.modes-dir) | **`null`** | PHPINIALL |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 
 Коротке пояснення конфігураційних директив.
 

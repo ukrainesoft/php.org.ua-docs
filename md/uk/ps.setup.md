@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.ps.html)
     
--   [Требования »](ps.requirements.html)
+-   [Вимоги »](ps.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](ps.requirements.html)
+-   [Вимоги](ps.requirements.html)
 -   [Установка](ps.installation.html)
--   [Настройка во время выполнения](ps.configuration.html)
--   [Типы ресурсов](ps.resources.html)
+-   [Налаштування під час виконання](ps.configuration.html)
+-   [Типи ресурсів](ps.resources.html)

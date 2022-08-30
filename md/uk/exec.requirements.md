@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](exec.setup.html)
+-   [« Встановлення та налаштування](exec.setup.html)
     
 -   [Установка »](exec.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](exec.setup.html)
+-   [Встановлення та налаштування](exec.setup.html)
     
 -   Вимоги
     

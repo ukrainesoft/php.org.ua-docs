@@ -1,12 +1,12 @@
 Малювання зафарбованого прямокутника
 
--   [« imagefilledpolygon](function.imagefilledpolygon.html)
+-   [« imagefilledpolygon](function.imagefilledpolygon.md)
     
--   [imagefilltoborder »](function.imagefilltoborder.html)
+-   [imagefilltoborder »](function.imagefilltoborder.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Малювання зафарбованого прямокутника
     
@@ -29,7 +29,7 @@ imagefilledrectangle(    GdImage $image,    int $x1,    int $y1,  
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `x1`
 
@@ -49,7 +49,7 @@ y-координата точки 2.
 
 `color`
 
-Колір заливки. Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.html)
+Колір заливки. Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.md)
 
 ### Значення, що повертаються
 
@@ -57,9 +57,9 @@ y-координата точки 2.
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

@@ -1,12 +1,12 @@
 Вступ
 
--   [« Radius](book.radius.html)
+-   [« Radius](book.radius.md)
     
--   [Установка и настройка »](radius.setup.html)
+-   [Встановлення та налаштування »](radius.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Radius](book.radius.html)
+-   [Radius](book.radius.md)
     
 -   Вступ
     

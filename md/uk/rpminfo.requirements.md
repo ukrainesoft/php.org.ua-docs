@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](rpminfo.setup.html)
+-   [« Встановлення та налаштування](rpminfo.setup.md)
     
--   [Установка через PECL »](rpminfo.installation.html)
+-   [Установка через PECL »](rpminfo.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](rpminfo.setup.html)
+-   [Встановлення та налаштування](rpminfo.setup.md)
     
 -   Вимоги
     

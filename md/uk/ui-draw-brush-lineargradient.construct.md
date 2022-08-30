@@ -4,7 +4,7 @@
     
 -   [ОЙDrawBrushRadialGradient »](class.ui-draw-brush-radialgradient.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawBrushLinearGradient](class.ui-draw-brush-lineargradient.html)
     

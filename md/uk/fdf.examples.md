@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](fdf.constants.html)
+-   [« Обумовлені константи](fdf.constants.md)
     
--   [FDF »](ref.fdf.html)
+-   [FDF »](ref.fdf.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](book.fdf.html)
+-   [FDF](book.fdf.md)
     
 -   Приклади
     

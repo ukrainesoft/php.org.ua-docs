@@ -1,12 +1,12 @@
 Повернути версію сервера
 
--   [« Memcache::getStats](memcache.getstats.html)
+-   [« Memcache::getStats](memcache.getstats.md)
     
--   [Memcache::increment »](memcache.increment.html)
+-   [Memcache::increment »](memcache.increment.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcache](class.memcache.html)
+-   [Memcache](class.memcache.md)
     
 -   Повернути версію сервера
     

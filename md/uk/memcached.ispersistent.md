@@ -1,12 +1,12 @@
 Перевіряє використовується стійке з'єднання з сервером memcache
 
--   [« Memcached::incrementByKey](memcached.incrementbykey.html)
+-   [« Memcached::incrementByKey](memcached.incrementbykey.md)
     
--   [Memcached::isPristine »](memcached.ispristine.html)
+-   [Memcached::isPristine »](memcached.ispristine.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Перевіряє використовується стійке з'єднання з сервером memcache
     
@@ -35,4 +35,4 @@ public Memcached::isPersistent(): bool
 
 ### Дивіться також
 
--   [Memcached::isPristine()](memcached.ispristine.html) - Перевіряє чи вже створено екземпляр класу Memcached
+-   [Memcached::isPristine()](memcached.ispristine.md) - Перевіряє чи вже створено екземпляр класу Memcached

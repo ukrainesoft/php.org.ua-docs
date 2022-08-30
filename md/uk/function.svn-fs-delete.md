@@ -4,9 +4,9 @@
     
 -   [svnфсdirentries »](function.svn-fs-dir-entries.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.md)
     
 -   Видаляє файл або директорію
     

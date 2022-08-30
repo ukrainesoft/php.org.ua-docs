@@ -4,9 +4,9 @@
     
 -   [odbcfetchinto »](function.odbc-fetch-into.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции ODBC](ref.uodbc.html)
+-   [Функции ODBC](ref.uodbc.md)
     
 -   Повертає рядок результату у вигляді асоціативного масиву
     

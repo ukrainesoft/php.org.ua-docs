@@ -1,12 +1,12 @@
 Функції CSPRNG
 
--   [« Предопределённые константы](csprng.constants.html)
+-   [« Обумовлені константи](csprng.constants.md)
     
 -   [randombytes »](function.random-bytes.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CSPRNG](book.csprng.html)
+-   [CSPRNG](book.csprng.md)
     
 -   Функції CSPRNG
     

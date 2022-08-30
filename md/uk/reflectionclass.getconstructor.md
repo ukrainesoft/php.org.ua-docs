@@ -1,12 +1,12 @@
 Повертає конструктор класу
 
--   [« ReflectionClass::getConstants](reflectionclass.getconstants.html)
+-   [« ReflectionClass::getConstants](reflectionclass.getconstants.md)
     
--   [ReflectionClass::getDefaultProperties »](reflectionclass.getdefaultproperties.html)
+-   [ReflectionClass::getDefaultProperties »](reflectionclass.getdefaultproperties.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає конструктор класу
     
@@ -31,7 +31,7 @@ public ReflectionClass::getConstructor(): ?ReflectionMethod
 
 ### Значення, що повертаються
 
-Об'єкт [ReflectionMethod](class.reflectionmethod.html), що відображає конструктор класу, або **`null`** якщо клас не має конструктора.
+Об'єкт [ReflectionMethod](class.reflectionmethod.md), що відображає конструктор класу, або **`null`** якщо клас не має конструктора.
 
 ### Приклади
 
@@ -58,4 +58,4 @@ object(ReflectionMethod)#2 (2) {
 
 ### Дивіться також
 
--   [ReflectionClass::getName()](reflectionclass.getname.html) - Повертає ім'я класу
+-   [ReflectionClass::getName()](reflectionclass.getname.md) - Повертає ім'я класу

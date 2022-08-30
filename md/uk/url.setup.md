@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.url.html)
+-   [« Введение](intro.url.md)
     
--   [Требования »](url.requirements.html)
+-   [Вимоги »](url.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [URL](book.url.html)
+-   [URL](book.url.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](url.requirements.html)
--   [Установка](url.installation.html)
--   [Настройка во время выполнения](url.configuration.html)
--   [Типы ресурсов](url.resources.html)
+-   [Вимоги](url.requirements.md)
+-   [Установка](url.installation.md)
+-   [Налаштування під час виконання](url.configuration.md)
+-   [Типи ресурсів](url.resources.md)

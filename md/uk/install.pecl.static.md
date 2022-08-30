@@ -2,11 +2,11 @@
 
 -   [« php-config](install.pecl.php-config.html)
     
--   [Проблемы? »](install.problems.html)
+-   [Проблеми? »](install.problems.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка модулей PECL](install.pecl.html)
+-   [Установка модулей PECL](install.pecl.md)
     
 -   Компіляція модулів PECL статично в PHP
     

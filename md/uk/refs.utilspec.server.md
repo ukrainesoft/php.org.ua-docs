@@ -1,25 +1,25 @@
 Модулі для роботи із серверами
 
--   [« SolrMissingMandatoryParameterException](class.solrmissingmandatoryparameterexception.html)
+-   [« SolrMissingMandatoryParameterException](class.solrmissingmandatoryparameterexception.md)
     
--   [Apache »](book.apache.html)
+-   [Apache »](book.apache.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Справочник функций](funcref.html)
+-   [Справочник функций](funcref.md)
     
 -   Модулі для роботи із серверами
     
 
 # Модулі для роботи із серверами
 
--   [Apache](book.apache.html)
-    -   [Введение](intro.apache.html)
-    -   [Установка и настройка](apache.setup.html)
-    -   [Предопределённые константы](apache.constants.html)
-    -   [Функции Apache](ref.apache.html)
--   [Менеджер процесів FastCGI](book.fpm.html)
-    -   [Введение](intro.fpm.html)
-    -   [Установка и настройка](fpm.setup.html)
-    -   [Спостережуваність](fpm.observability.html)
-    -   [Функції FPM](ref.fpm.html)
+-   [Apache](book.apache.md)
+    -   [Введение](intro.apache.md)
+    -   [Встановлення та налаштування](apache.setup.md)
+    -   [Обумовлені константи](apache.constants.md)
+    -   [Функции Apache](ref.apache.md)
+-   [Менеджер процесів FastCGI](book.fpm.md)
+    -   [Введение](intro.fpm.md)
+    -   [Встановлення та налаштування](fpm.setup.md)
+    -   [Спостережуваність](fpm.observability.md)
+    -   [Функції FPM](ref.fpm.md)

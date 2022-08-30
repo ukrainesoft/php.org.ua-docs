@@ -1,12 +1,12 @@
 Повертає коротке ім'я
 
--   [« ReflectionClass::getReflectionConstants](reflectionclass.getreflectionconstants.html)
+-   [« ReflectionClass::getReflectionConstants](reflectionclass.getreflectionconstants.md)
     
--   [ReflectionClass::getStartLine »](reflectionclass.getstartline.html)
+-   [ReflectionClass::getStartLine »](reflectionclass.getstartline.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає коротке ім'я
     
@@ -75,4 +75,4 @@ string(3) "Foo"
 
 ### Дивіться також
 
--   [ReflectionClass::getName()](reflectionclass.getname.html) - Повертає ім'я класу
+-   [ReflectionClass::getName()](reflectionclass.getname.md) - Повертає ім'я класу

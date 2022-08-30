@@ -1,12 +1,12 @@
 Встановлює домен за замовчуванням
 
--   [« ngettext](function.ngettext.html)
+-   [« ngettext](function.ngettext.md)
     
--   [iconv »](book.iconv.html)
+-   [iconv »](book.iconv.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции gettext](ref.gettext.html)
+-   [Функции gettext](ref.gettext.md)
     
 -   Встановлює домен за замовчуванням
     
@@ -23,7 +23,7 @@ textdomain — Встановлює домен за промовчанням
 textdomain(?string $domain): string
 ```
 
-Ця функція встановлює домен, у якому буде здійснюватися пошук під час виклику функції [gettext()](function.gettext.html)зазвичай називається ім'ям програми.
+Ця функція встановлює домен, у якому буде здійснюватися пошук під час виклику функції [gettext()](function.gettext.md)зазвичай називається ім'ям програми.
 
 ### Список параметрів
 

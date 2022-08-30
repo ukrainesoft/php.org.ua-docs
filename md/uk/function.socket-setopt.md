@@ -4,9 +4,9 @@
     
 -   [socketshutdown »](function.socket-shutdown.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции сокета](ref.sockets.html)
+-   [Функции сокета](ref.sockets.md)
     
 -   Псевдонім socketsetoption
     

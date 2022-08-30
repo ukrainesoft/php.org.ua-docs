@@ -4,9 +4,9 @@
     
 -   [streambucketprepend »](function.stream-bucket-prepend.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.md)
     
 -   Створити нове цебро для використання в поточному потоці
     

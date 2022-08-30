@@ -1,12 +1,12 @@
 Встановлює максимальну кількість виразів, що повертаються.
 
--   [« SolrQuery::setTermsIncludeUpperBound](solrquery.settermsincludeupperbound.html)
+-   [« SolrQuery::setTermsIncludeUpperBound](solrquery.settermsincludeupperbound.md)
     
--   [SolrQuery::setTermsLowerBound »](solrquery.settermslowerbound.html)
+-   [SolrQuery::setTermsLowerBound »](solrquery.settermslowerbound.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Встановлює максимальну кількість виразів, що повертаються.
     

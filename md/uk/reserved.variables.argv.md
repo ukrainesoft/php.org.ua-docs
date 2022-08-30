@@ -1,12 +1,12 @@
 Масив переданих скрипту аргументів
 
--   [« $argc](reserved.variables.argc.html)
+-   [« $argc](reserved.variables.argc.md)
     
--   [Предопределённые исключения »](reserved.exceptions.html)
+-   [Обумовлені винятки »](reserved.exceptions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые переменные](reserved.variables.html)
+-   [Зумовлені змінні](reserved.variables.md)
     
 -   Масив переданих скрипту аргументів
     
@@ -19,7 +19,7 @@ $argv — Масив переданих скрипту аргументів
 
 ### Опис
 
-Містить масив (array) всіх аргументів, переданих скрипту при запуску з [командного рядка](features.commandline.html)
+Містить масив (array) всіх аргументів, переданих скрипту при запуску з [командного рядка](features.commandline.md)
 
 > **Зауваження**: Перший аргумент $argv завжди містить ім'я запущеного файлу скрипта.
 
@@ -56,9 +56,9 @@ array(4) {
 
 > **Зауваження**
 > 
-> Також доступно як [SERVER\['argv'\]](reserved.variables.server.html)
+> Також доступно як [SERVER\['argv'\]](reserved.variables.server.md)
 
 ### Дивіться також
 
--   [getopt()](function.getopt.html) - Отримує параметри зі списку аргументів командного рядка
--   [](reserved.variables.argc.html)[$argc](reserved.variables.argc.html)
+-   [getopt()](function.getopt.md) - Отримує параметри зі списку аргументів командного рядка
+-   [](reserved.variables.argc.md)[$argc](reserved.variables.argc.md)

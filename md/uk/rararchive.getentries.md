@@ -1,12 +1,12 @@
 Повертає повний список елементів із RAR архіву
 
--   [« RarArchive::getComment](rararchive.getcomment.html)
+-   [« RarArchive::getComment](rararchive.getcomment.md)
     
--   [RarArchive::getEntry »](rararchive.getentry.html)
+-   [RarArchive::getEntry »](rararchive.getentry.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RarArchive](class.rararchive.html)
+-   [RarArchive](class.rararchive.md)
     
 -   Повертає повний список елементів із RAR архіву
     
@@ -37,22 +37,22 @@ rar_list(RarArchive $rarfile): array|false
 
 > **Зауваження**
 > 
-> Якщо архів має елементи з однаковим ім'ям, цей метод спільно з циклом `foreach` по [RarArchive](class.rararchive.html) і доступом до нього як масиву з числовими індексами є єдиними способами отримати доступ до цих елементів (тобто . [RarArchive::getEntry()](rararchive.getentry.html) і [`rar://`обработчик (wrapper)](wrappers.rar.html) не допоможуть).
+> Якщо архів має елементи з однаковим ім'ям, цей метод спільно з циклом `foreach` по [RarArchive](class.rararchive.md) і доступом до нього як масиву з числовими індексами є єдиними способами отримати доступ до цих елементів (тобто . [RarArchive::getEntry()](rararchive.getentry.md) і [`rar://`обработчик (wrapper)](wrappers.rar.md) не допоможуть).
 
 ### Список параметрів
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.html) відкритий за допомогою [raropen()](rararchive.open.html)
+Об'єкт [RarArchive](class.rararchive.md) відкритий за допомогою [raropen()](rararchive.open.md)
 
 ### Значення, що повертаються
 
-**rarlist()** повертає масив об'єктів [RarEntry](class.rarentry.html) або **`false`** у разі виникнення помилки.
+**rarlist()** повертає масив об'єктів [RarEntry](class.rarentry.md) або **`false`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия         | Описание                                                                 |
-|----------------|--------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL rar 3.0.0 | Виправлена ​​підтримка RAR архівів з іменами елементів, що повторюються. |
 
 ### Приклади
@@ -111,5 +111,5 @@ rar_close($rar_arch);
 
 ### Дивіться також
 
--   [RarArchive::getEntry()](rararchive.getentry.html) - Повертає об'єкт елемента з архіву RAR
--   [`rar://`обработчик(wrapper)](wrappers.rar.html)
+-   [RarArchive::getEntry()](rararchive.getentry.md) - Повертає об'єкт елемента з архіву RAR
+-   [`rar://`обработчик(wrapper)](wrappers.rar.md)

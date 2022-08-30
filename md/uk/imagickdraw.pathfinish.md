@@ -1,12 +1,12 @@
 Завершує поточний шлях
 
--   [« ImagickDraw::pathEllipticArcRelative](imagickdraw.pathellipticarcrelative.html)
+-   [« ImagickDraw::pathEllipticArcRelative](imagickdraw.pathellipticarcrelative.md)
     
--   [ImagickDraw::pathLineToAbsolute »](imagickdraw.pathlinetoabsolute.html)
+-   [ImagickDraw::pathLineToAbsolute »](imagickdraw.pathlinetoabsolute.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Завершує поточний шлях
     

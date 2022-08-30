@@ -2,11 +2,11 @@
 
 -   [« Разделение инструкций](language.basic-syntax.instruction-separation.html)
     
--   [Типы »](language.types.html)
+-   [Типи »](language.types.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Основы синтаксиса](language.basic-syntax.html)
+-   [Основи синтаксису](language.basic-syntax.html)
     
 -   Коментарі
     

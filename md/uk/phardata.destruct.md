@@ -1,12 +1,12 @@
 Знищує об'єкт архіву tar або zip, що не виконується.
 
--   [« PharData::delete](phardata.delete.html)
+-   [« PharData::delete](phardata.delete.md)
     
--   [PharData::extractTo »](phardata.extractto.html)
+-   [PharData::extractTo »](phardata.extractto.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharData](class.phardata.html)
+-   [PharData](class.phardata.md)
     
 -   Знищує об'єкт архіву tar або zip, що не виконується.
     

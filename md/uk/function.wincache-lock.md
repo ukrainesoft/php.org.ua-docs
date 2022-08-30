@@ -4,9 +4,9 @@
     
 -   [wincacheocachefileinfo »](function.wincache-ocache-fileinfo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции WinCache](ref.wincache.html)
+-   [Функции WinCache](ref.wincache.md)
     
 -   Отримує ексклюзивне блокування для цього ключа
     

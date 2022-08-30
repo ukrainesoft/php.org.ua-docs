@@ -4,7 +4,7 @@
     
 -   [db2fieldtype »](function.db2-field-type.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Функції IBM DB2](ref.ibm-db2.html)
     

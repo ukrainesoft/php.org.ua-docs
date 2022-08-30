@@ -1,12 +1,12 @@
 Вимоги до встановлення
 
--   [« Установка в системах Windows](install.windows.html)
+-   [« Установка в системах Windows](install.windows.md)
     
--   [PECL »](install.windows.pecl.html)
+-   [PECL »](install.windows.pecl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка в системах Windows](install.windows.html)
+-   [Установка в системах Windows](install.windows.md)
     
 -   Вимоги до встановлення
     

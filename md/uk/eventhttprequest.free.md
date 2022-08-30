@@ -1,12 +1,12 @@
 Звільняє об'єкт та видаляє пов'язані події
 
--   [« EventHttpRequest::findHeader](eventhttprequest.findheader.html)
+-   [« EventHttpRequest::findHeader](eventhttprequest.findheader.md)
     
--   [EventHttpRequest::getBufferEvent »](eventhttprequest.getbufferevent.html)
+-   [EventHttpRequest::getBufferEvent »](eventhttprequest.getbufferevent.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpRequest](class.eventhttprequest.html)
+-   [EventHttpRequest](class.eventhttprequest.md)
     
 -   Звільняє об'єкт та видаляє пов'язані події
     

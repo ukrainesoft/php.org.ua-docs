@@ -1,12 +1,12 @@
 Повертає ідентифікатор власника поточного елемента DirectoryIterator
 
--   [« DirectoryIterator::getMTime](directoryiterator.getmtime.html)
+-   [« DirectoryIterator::getMTime](directoryiterator.getmtime.md)
     
--   [DirectoryIterator::getPath »](directoryiterator.getpath.html)
+-   [DirectoryIterator::getPath »](directoryiterator.getpath.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DirectoryIterator](class.directoryiterator.html)
+-   [DirectoryIterator](class.directoryiterator.md)
     
 -   Повертає ідентифікатор власника поточного елемента DirectoryIterator
     
@@ -23,7 +23,7 @@ DirectoryIterator::getOwner — Повертає ідентифікатор вл
 public DirectoryIterator::getOwner(): int
 ```
 
-Повертає ідентифікатор власника поточного елемента [DirectoryIterator](class.directoryiterator.html) у числовому форматі.
+Повертає ідентифікатор власника поточного елемента [DirectoryIterator](class.directoryiterator.md) у числовому форматі.
 
 ### Список параметрів
 
@@ -63,7 +63,7 @@ Array
 
 ### Дивіться також
 
--   [DirectoryIterator::getGroup()](directoryiterator.getgroup.html) - Повертає ідентифікатор групи поточного елемента DirectoryIterator
--   [DirectoryIterator::getiNode()](directoryiterator.getinode.html) - Повертає inode поточного елемента DirectoryIterator
--   [DirectoryIterator::getPerms()](directoryiterator.getperms.html) - Повертає набір прав для поточного елемента DirectoryIterator item
+-   [DirectoryIterator::getGroup()](directoryiterator.getgroup.md) - Повертає ідентифікатор групи поточного елемента DirectoryIterator
+-   [DirectoryIterator::getiNode()](directoryiterator.getinode.md) - Повертає inode поточного елемента DirectoryIterator
+-   [DirectoryIterator::getPerms()](directoryiterator.getperms.md) - Повертає набір прав для поточного елемента DirectoryIterator item
 -   [posixgetpwuid()](function.posix-getpwuid.html) - Повертає інформацію про користувача, використовуючи його ID

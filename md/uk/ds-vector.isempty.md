@@ -4,7 +4,7 @@
     
 -   [ДсVector::join »](ds-vector.join.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Вектор](class.ds-vector.html)
     

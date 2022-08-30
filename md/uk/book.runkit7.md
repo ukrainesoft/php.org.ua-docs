@@ -14,12 +14,12 @@ runkit7
 # runkit7
 
 -   [Введение](intro.runkit7.html)
--   [Установка и настройка](runkit7.setup.html)
-    -   [Требования](runkit7.requirements.html)
+-   [Встановлення та налаштування](runkit7.setup.html)
+    -   [Вимоги](runkit7.requirements.html)
     -   [Установка](runkit7.installation.html)
-    -   [Настройка во время выполнения](runkit7.configuration.html)
-    -   [Типы ресурсов](runkit7.resources.html)
--   [Предопределённые константы](runkit7.constants.html)
+    -   [Налаштування під час виконання](runkit7.configuration.html)
+    -   [Типи ресурсів](runkit7.resources.html)
+-   [Обумовлені константи](runkit7.constants.html)
 -   [Функції runkit7](ref.runkit7.html)
     -   [runkit7constantadd](function.runkit7-constant-add.html) — Аналогічний define(), але також дозволяє визначити константу класу
     -   [runkit7constantredefine](function.runkit7-constant-redefine.html) — Перевизначає вже певну константу

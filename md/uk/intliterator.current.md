@@ -1,12 +1,12 @@
 Отримати поточний елемент
 
--   [« IntlIterator](class.intliterator.html)
+-   [« IntlIterator](class.intliterator.md)
     
--   [IntlIterator::key »](intliterator.key.html)
+-   [IntlIterator::key »](intliterator.key.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlIterator](class.intliterator.html)
+-   [IntlIterator](class.intliterator.md)
     
 -   Отримати поточний елемент
     

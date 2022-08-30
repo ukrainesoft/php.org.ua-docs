@@ -1,12 +1,12 @@
 Переходить до наступного елементу
 
--   [« Iterator::key](iterator.key.html)
+-   [« Iterator::key](iterator.key.md)
     
--   [Iterator::rewind »](iterator.rewind.html)
+-   [Iterator::rewind »](iterator.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Iterator](class.iterator.html)
+-   [Iterator](class.iterator.md)
     
 -   Переходить до наступного елементу
     

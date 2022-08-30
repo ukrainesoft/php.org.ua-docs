@@ -1,12 +1,12 @@
 Завершити поточний запис DTD
 
--   [« XMLWriter::endDtdElement](xmlwriter.enddtdelement.html)
+-   [« XMLWriter::endDtdElement](xmlwriter.enddtdelement.md)
     
--   [XMLWriter::endElement »](xmlwriter.endelement.html)
+-   [XMLWriter::endElement »](xmlwriter.endelement.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](class.xmlwriter.html)
+-   [XMLWriter](class.xmlwriter.md)
     
 -   Завершити поточний запис DTD
     
@@ -39,7 +39,7 @@ xmlwriter_end_dtd_entity(XMLWriter $writer): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 ### Значення, що повертаються
 
@@ -47,11 +47,11 @@ xmlwriter_end_dtd_entity(XMLWriter $writer): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::startDtdEntity()](xmlwriter.startdtdentity.html) - Створити стартовий запис DTD
--   [XMLWriter::writeDtdEntity()](xmlwriter.writedtdentity.html) - Записати повний тег DTD запису
+-   [XMLWriter::startDtdEntity()](xmlwriter.startdtdentity.md) - Створити стартовий запис DTD
+-   [XMLWriter::writeDtdEntity()](xmlwriter.writedtdentity.md) - Записати повний тег DTD запису

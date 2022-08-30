@@ -2,31 +2,31 @@
 
 -   [« intlісfailure](function.intl-is-failure.html)
     
--   [Введение »](intro.mbstring.html)
+-   [Введение »](intro.mbstring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Підтримка мов та кодувань](refs.international.html)
+-   [Підтримка мов та кодувань](refs.international.md)
     
 -   Багатобайтові рядки
     
 
 # Багатобайтові рядки
 
--   [Введение](intro.mbstring.html)
--   [Установка и настройка](mbstring.setup.html)
-    -   [Требования](mbstring.requirements.html)
-    -   [Установка](mbstring.installation.html)
-    -   [Настройка во время выполнения](mbstring.configuration.html)
-    -   [Типы ресурсов](mbstring.resources.html)
--   [Предопределённые константы](mbstring.constants.html)
--   [Краткий обзор поддерживаемых кодировок](mbstring.encodings.html)
--   [Основы японских многобайтных кодировок](mbstring.ja-basic.html)
--   [Введення та виведення HTTP](mbstring.http.html)
+-   [Введение](intro.mbstring.md)
+-   [Встановлення та налаштування](mbstring.setup.md)
+    -   [Вимоги](mbstring.requirements.md)
+    -   [Установка](mbstring.installation.md)
+    -   [Налаштування під час виконання](mbstring.configuration.md)
+    -   [Типи ресурсів](mbstring.resources.md)
+-   [Обумовлені константи](mbstring.constants.md)
+-   [Короткий огляд підтримуваних кодувань](mbstring.encodings.md)
+-   [Основи японських багатобайтних кодувань](mbstring.ja-basic.html)
+-   [Введення та виведення HTTP](mbstring.http.md)
 -   [Кодування символів, що підтримуються](mbstring.supported-encodings.html)
--   [Механизм перегрузки функций](mbstring.overload.html)
--   [Вимоги до кодування символів у PHP](mbstring.php4.req.html)
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
+-   [Механизм перегрузки функций](mbstring.overload.md)
+-   [Вимоги до кодування символів у PHP](mbstring.php4.req.md)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
     -   [мбcheckencoding](function.mb-check-encoding.html) — Перевіряє, що кодування рядків вибрано правильно
     -   [мбchr](function.mb-chr.html) — Повертає символ за значенням кодової точки Unicode
     -   [мбconvertcase](function.mb-convert-case.html) — Здійснює зміну регістру символів у рядку

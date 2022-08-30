@@ -1,12 +1,12 @@
 Ідентифікація
 
--   [« Thread::getCurrentThread](thread.getcurrentthread.html)
+-   [« Thread::getCurrentThread](thread.getcurrentthread.md)
     
--   [Thread::getThreadId »](thread.getthreadid.html)
+-   [Thread::getThreadId »](thread.getthreadid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Thread](class.thread.html)
+-   [Thread](class.thread.md)
     
 -   Ідентифікація
     

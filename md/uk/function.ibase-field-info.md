@@ -4,9 +4,9 @@
     
 -   [ibasefreeeventhandler »](function.ibase-free-event-handler.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Firebird/InterBase](ref.ibase.html)
+-   [Функции Firebird/InterBase](ref.ibase.md)
     
 -   Отримує інформацію про поле
     

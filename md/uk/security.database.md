@@ -2,7 +2,7 @@
 
 -   [« Проблеми безпеки, пов'язані з нульовим байтом](security.filesystem.nullbytes.html)
     
--   [Проектирование базы данных »](security.database.design.html)
+-   [Проектування бази даних »](security.database.design.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,9 +15,9 @@
 
 ## Зміст
 
--   [Проектирование базы данных](security.database.design.html)
+-   [Проектування бази даних](security.database.design.html)
 -   [З'єднання з базою даних](security.database.connection.html)
--   [Шифрование хранилища базы данных](security.database.storage.html)
+-   [Шифрування сховища бази даних](security.database.storage.html)
 -   [SQL-ін'єкції](security.database.sql-injection.html)
 
 На сьогоднішній день бази даних є ключовими компонентами більшості веб-застосунків, дозволяючи надавати на сайтах динамічний контент. Оскільки таких БД може зберігатися дуже делікатна чи конфіденційна інформація, необхідно дуже серйозно ставитися до захисту бази даних.

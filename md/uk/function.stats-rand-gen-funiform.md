@@ -4,9 +4,9 @@
     
 -   [statsrandgengamma »](function.stats-rand-gen-gamma.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Згенерувати раціональне число від low (за винятком) до high (за винятком) на базі рівномірного розподілу
     

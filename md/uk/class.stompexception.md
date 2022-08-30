@@ -1,12 +1,12 @@
 Клас StompException
 
--   [« StompFrame::construct](stompframe.construct.html)
+-   [« StompFrame::construct](stompframe.construct.md)
     
--   [StompException::getDetails »](stomp.getdetails.html)
+-   [StompException::getDetails »](stomp.getdetails.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Stomp](book.stomp.html)
+-   [Stomp](book.stomp.md)
     
 -   Клас StompException
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Помилка, викликана модулем Stomp. Дивіться [Исключения](language.exceptions.html) для отримання детальної інформації про винятки PHP.
+Помилка, викликана модулем Stomp. Дивіться [Исключения](language.exceptions.md) для отримання детальної інформації про винятки PHP.
 
 ## Огляд класів
 
@@ -58,4 +58,4 @@ private Exception::__clone(): void
 
 ## Зміст
 
--   [StompException::getDetails](stomp.getdetails.html) — Повертає відомості про виключення
+-   [StompException::getDetails](stomp.getdetails.md) — Повертає відомості про виключення

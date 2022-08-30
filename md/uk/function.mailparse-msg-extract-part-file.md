@@ -4,9 +4,9 @@
     
 -   [mailparsemsgextractpart »](function.mailparse-msg-extract-part.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mailparse](ref.mailparse.html)
+-   [Mailparse](ref.mailparse.md)
     
 -   Вийняти/декодувати секцію з повідомленням із файлу
     

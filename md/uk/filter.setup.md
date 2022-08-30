@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.filter.html)
     
--   [Требования »](filter.requirements.html)
+-   [Вимоги »](filter.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](filter.requirements.html)
+-   [Вимоги](filter.requirements.html)
 -   [Установка](filter.installation.html)
--   [Настройка во время выполнения](filter.configuration.html)
--   [Типы ресурсов](filter.resources.html)
+-   [Налаштування під час виконання](filter.configuration.html)
+-   [Типи ресурсів](filter.resources.html)

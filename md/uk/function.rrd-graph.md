@@ -4,9 +4,9 @@
     
 -   [rrdinfo »](function.rrd-info.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.md)
     
 -   Створює зображення з даних
     

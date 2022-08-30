@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONRegex::getPattern »](mongodb-bson-regex.getpattern.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONRegex](class.mongodb-bson-regex.html)
     
@@ -56,5 +56,5 @@ string(1) "i"
 
 ### Дивіться також
 
--   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
 -   [» Підтримувані прапори регулярних виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)

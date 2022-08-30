@@ -4,9 +4,9 @@
     
 -   [fdfsetfile »](function.fdf-set-file.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Встановлює кодування символів FDF
     

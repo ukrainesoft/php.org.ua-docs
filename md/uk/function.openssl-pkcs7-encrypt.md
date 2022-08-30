@@ -4,9 +4,9 @@
     
 -   [opensslpkcs7read »](function.openssl-pkcs7-read.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Шифрує повідомлення S/MIME
     
@@ -43,11 +43,11 @@ openssl_pkcs7_encrypt(    string $input_filename,    string $output_file
 
 `flags`
 
-`flags` використовується для налаштування процесу шифрування. Дивіться [Константы PKCS7](openssl.pkcs7.flags.html)
+`flags` використовується для налаштування процесу шифрування. Дивіться [Константи PKCS7](openssl.pkcs7.flags.md)
 
 `cipher_algo`
 
-Одна з [констант шифрів](openssl.ciphers.html)
+Одна з [констант шифрів](openssl.ciphers.md)
 
 ### Значення, що повертаються
 
@@ -55,10 +55,10 @@ openssl_pkcs7_encrypt(    string $input_filename,    string $output_file
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                               |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Алгоритм шифрування за замовчуванням (`cipher_algo`) тепер AES-128-CBC (**`OPENSSL_CIPHER_AES_128_CBC`**). Раніше використовувався алгоритм PKCS7/CMS (**`OPENSSL_CIPHER_RC2_40`**     |
-|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
+| Версия | Описание |
+| --- | --- |
+|  | Алгоритм шифрування за замовчуванням (`cipher_algo`) тепер AES-128-CBC (**`OPENSSL_CIPHER_AES_128_CBC`**). Раніше використовувався алгоритм PKCS7/CMS (**`OPENSSL_CIPHER_RC2_40`** |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
 
 ### Приклади
 

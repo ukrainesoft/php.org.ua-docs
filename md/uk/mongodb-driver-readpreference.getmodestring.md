@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverReadPreference::getTagSets »](mongodb-driver-readpreference.gettagsets.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
     

@@ -4,7 +4,7 @@
     
 -   [YarConcurrentClient::reset »](yar-concurrent-client.reset.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YarConcurrentClient](class.yar-concurrent-client.html)
     

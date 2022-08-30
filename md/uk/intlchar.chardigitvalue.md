@@ -1,12 +1,12 @@
 Отримати десяткову цифру із символу десяткової цифри
 
--   [« IntlChar::charAge](intlchar.charage.html)
+-   [« IntlChar::charAge](intlchar.charage.md)
     
--   [IntlChar::charDirection »](intlchar.chardirection.html)
+-   [IntlChar::charDirection »](intlchar.chardirection.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Отримати десяткову цифру із символу десяткової цифри
     
@@ -59,4 +59,4 @@ int(3)
 
 ### Дивіться також
 
--   [IntlChar::getNumericValue()](intlchar.getnumericvalue.html) - Отримати числову виставу для символу Unicode
+-   [IntlChar::getNumericValue()](intlchar.getnumericvalue.md) - Отримати числову виставу для символу Unicode

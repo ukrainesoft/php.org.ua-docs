@@ -2,7 +2,7 @@
 
 -   [« COM](book.com.html)
     
--   [Установка и настройка »](com.setup.html)
+-   [Встановлення та налаштування »](com.setup.html)
     
 -   [PHP Manual](index.html)
     

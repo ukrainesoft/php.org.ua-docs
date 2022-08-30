@@ -1,12 +1,12 @@
 Інші
 
--   [« Тихоокеанский](timezones.pacific.html)
+-   [« Тихоокеанский](timezones.pacific.md)
     
--   [HRTime »](book.hrtime.html)
+-   [HRTime »](book.hrtime.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Список підтримуваних часових поясів](timezones.html)
+-   [Список підтримуваних часових поясів](timezones.md)
     
 -   Інші
     

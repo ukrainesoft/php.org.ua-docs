@@ -4,9 +4,9 @@
     
 -   [getresources »](function.get-resources.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Псевдонім getincludedfiles
     

@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](dom.configuration.html)
+-   [« Налаштування під час виконання](dom.configuration.html)
     
--   [Предопределённые константы »](dom.constants.html)
+-   [Обумовлені константи »](dom.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](dom.setup.html)
+-   [Встановлення та налаштування](dom.setup.html)
     
 -   Типи ресурсів
     

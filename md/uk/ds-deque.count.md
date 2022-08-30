@@ -4,7 +4,7 @@
     
 -   [ДсDeque::filter »](ds-deque.filter.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Двостороння черга](class.ds-deque.html)
     
@@ -17,4 +17,4 @@
 
 ДсDeque::count — Повертає кількість елементів двосторонньої черги
 
-Дивіться [Countable::count()](countable.count.html)
+Дивіться [Countable::count()](countable.count.md)

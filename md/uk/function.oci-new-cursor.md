@@ -4,9 +4,9 @@
     
 -   [ocinewdescriptor »](function.oci-new-descriptor.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OCI8 Функции](ref.oci8.html)
+-   [OCI8 Функции](ref.oci8.md)
     
 -   Повертає ідентифікатор створеного курсору
     
@@ -75,4 +75,4 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocinewcursor()](function.ocinewcursor.html). У PHP 5.0.0 і вище [ocinewcursor()](function.ocinewcursor.html) є аліасом \*\*ocinewcursor()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocinewcursor()](function.ocinewcursor.md). У PHP 5.0.0 і вище [ocinewcursor()](function.ocinewcursor.md) є аліасом \*\*ocinewcursor()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.

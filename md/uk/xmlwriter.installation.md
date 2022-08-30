@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](xmlwriter.requirements.html)
+-   [« Вимоги](xmlwriter.requirements.md)
     
--   [Настройка во время выполнения »](xmlwriter.configuration.html)
+-   [Налаштування під час виконання »](xmlwriter.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xmlwriter.setup.html)
+-   [Встановлення та налаштування](xmlwriter.setup.md)
     
 -   Встановлення
     

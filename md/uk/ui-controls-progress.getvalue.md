@@ -4,7 +4,7 @@
     
 -   [ОЙControlsProgress::setValue »](ui-controls-progress.setvalue.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsProgress](class.ui-controls-progress.html)
     

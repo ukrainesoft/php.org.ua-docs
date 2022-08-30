@@ -1,12 +1,12 @@
 Знімає зображення всіх профілів та коментарів
 
--   [« Imagick::stereoImage](imagick.stereoimage.html)
+-   [« Imagick::stereoImage](imagick.stereoimage.md)
     
--   [Imagick::subImageMatch »](imagick.subimagematch.html)
+-   [Imagick::subImageMatch »](imagick.subimagematch.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Знімає зображення всіх профілів та коментарів
     

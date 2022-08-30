@@ -1,12 +1,12 @@
 Повертає розмір поточного елемента DirectoryIterator
 
--   [« DirectoryIterator::getPerms](directoryiterator.getperms.html)
+-   [« DirectoryIterator::getPerms](directoryiterator.getperms.md)
     
--   [DirectoryIterator::getType »](directoryiterator.gettype.html)
+-   [DirectoryIterator::getType »](directoryiterator.gettype.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DirectoryIterator](class.directoryiterator.html)
+-   [DirectoryIterator](class.directoryiterator.md)
     
 -   Повертає розмір поточного елемента DirectoryIterator
     
@@ -23,7 +23,7 @@ DirectoryIterator::getSize — Повертає розмір поточного 
 public DirectoryIterator::getSize(): int
 ```
 
-Повертає обсяг дискового простору для поточного елемента. [DirectoryIterator](class.directoryiterator.html)
+Повертає обсяг дискового простору для поточного елемента. [DirectoryIterator](class.directoryiterator.md)
 
 ### Список параметрів
 
@@ -59,4 +59,4 @@ pear.jpg 34406
 
 ### Дивіться також
 
--   [filesize()](function.filesize.html) - Повертає розмір файлу
+-   [filesize()](function.filesize.md) - Повертає розмір файлу

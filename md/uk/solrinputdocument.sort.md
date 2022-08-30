@@ -1,12 +1,12 @@
 Сортує поля у документі
 
--   [« SolrInputDocument::setFieldBoost](solrinputdocument.setfieldboost.html)
+-   [« SolrInputDocument::setFieldBoost](solrinputdocument.setfieldboost.md)
     
--   [SolrInputDocument::toArray »](solrinputdocument.toarray.html)
+-   [SolrInputDocument::toArray »](solrinputdocument.toarray.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrInputDocument](class.solrinputdocument.html)
+-   [SolrInputDocument](class.solrinputdocument.md)
     
 -   Сортує поля у документі
     

@@ -4,9 +4,9 @@
     
 -   [traderadosc »](function.trader-adosc.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Арифметична додавання вектора
     

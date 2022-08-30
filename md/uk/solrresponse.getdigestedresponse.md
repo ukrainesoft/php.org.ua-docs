@@ -1,12 +1,12 @@
 Повертає відповідь XML як серіалізовані дані PHP
 
--   [« SolrResponse](class.solrresponse.html)
+-   [« SolrResponse](class.solrresponse.md)
     
--   [SolrResponse::getHttpStatus »](solrresponse.gethttpstatus.html)
+-   [SolrResponse::getHttpStatus »](solrresponse.gethttpstatus.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrResponse](class.solrresponse.html)
+-   [SolrResponse](class.solrresponse.md)
     
 -   Повертає відповідь XML як серіалізовані дані PHP
     

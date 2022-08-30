@@ -1,12 +1,12 @@
 Встановлює рівень логування для бібліотеки
 
--   [« Zookeeper::setAcl](zookeeper.setacl.html)
+-   [« Zookeeper::setAcl](zookeeper.setacl.md)
     
--   [Zookeeper::setDeterministicConnOrder »](zookeeper.setdeterministicconnorder.html)
+-   [Zookeeper::setDeterministicConnOrder »](zookeeper.setdeterministicconnorder.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Zookeeper](class.zookeeper.html)
+-   [Zookeeper](class.zookeeper.md)
     
 -   Встановлює рівень логування для бібліотеки
     
@@ -41,7 +41,7 @@ public
 
 **Застереження**
 
-Починаючи з версії 0.3.0, цей метод генерує виняток [ZookeeperException](class.zookeeperexception.html) та його похідні.
+Починаючи з версії 0.3.0, цей метод генерує виняток [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Приклади
 
@@ -69,4 +69,4 @@ SUCCESS
 ### Дивіться також
 
 -   [Уровень логирования ZooKeeper](class.zookeeper.html#zookeeper.class.constants.log-levels)
--   [ZookeeperException](class.zookeeperexception.html)
+-   [ZookeeperException](class.zookeeperexception.md)

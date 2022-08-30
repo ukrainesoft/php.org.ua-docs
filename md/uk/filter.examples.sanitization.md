@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Примеры](filter.examples.html)
+-   [Приклади](filter.examples.html)
     
 -   Очищення (нормалізація)
     

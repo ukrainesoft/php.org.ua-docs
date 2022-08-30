@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](rar.requirements.html)
+-   [« Вимоги](rar.requirements.html)
     
--   [Настройка во время выполнения »](rar.configuration.html)
+-   [Налаштування під час виконання »](rar.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](rar.setup.html)
+-   [Встановлення та налаштування](rar.setup.html)
     
 -   Встановлення
     

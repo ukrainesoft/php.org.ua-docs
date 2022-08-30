@@ -2,11 +2,11 @@
 
 -   [« svnstatus](function.svn-status.html)
     
--   [TCP »](book.tcpwrap.html)
+-   [TCP »](book.tcpwrap.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.md)
     
 -   Оновлює робочу копію
     
@@ -31,7 +31,7 @@ svn_update(string $path, int $revno = SVN_REVISION_HEAD, bool $recurse = true): 
 
 Шлях до локальної робочої копії.
 
-> **Зауваження**: Відносні шляхи будуть обчислені, якби поточна робоча директорія була домашньою папкою самого PHP Щоб використовувати робочу директорію скрипта, що викликає, використовуйте [realpath()](function.realpath.html) або dirname(FILE
+> **Зауваження**: Відносні шляхи будуть обчислені, якби поточна робоча директорія була домашньою папкою самого PHP Щоб використовувати робочу директорію скрипта, що викликає, використовуйте [realpath()](function.realpath.md) або dirname(FILE
 
 `revno`
 

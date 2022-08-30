@@ -4,9 +4,9 @@
     
 -   [svnфсrevisionprop »](function.svn-fs-revision-prop.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.md)
     
 -   Повертає true, якщо властивості різні або false у противному випадку
     

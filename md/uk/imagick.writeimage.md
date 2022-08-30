@@ -1,12 +1,12 @@
 Записує зображення за вказаним ім'ям файлу
 
--   [« Imagick::whiteThresholdImage](imagick.whitethresholdimage.html)
+-   [« Imagick::whiteThresholdImage](imagick.whitethresholdimage.md)
     
--   [Imagick::writeImageFile »](imagick.writeimagefile.html)
+-   [Imagick::writeImageFile »](imagick.writeimagefile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Записує зображення за вказаним ім'ям файлу
     

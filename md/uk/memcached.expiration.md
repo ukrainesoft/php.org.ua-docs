@@ -1,12 +1,12 @@
 Час зберігання об'єкту
 
--   [« Предопределённые константы](memcached.constants.html)
+-   [« Обумовлені константи](memcached.constants.md)
     
--   [Функції зворотного дзвінка »](memcached.callbacks.html)
+-   [Функції зворотного дзвінка »](memcached.callbacks.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](book.memcached.html)
+-   [Memcached](book.memcached.md)
     
 -   Час зберігання об'єкту
     

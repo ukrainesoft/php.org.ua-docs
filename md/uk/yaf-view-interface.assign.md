@@ -4,7 +4,7 @@
     
 -   [YafViewInterface::display »](yaf-view-interface.display.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafViewInterface](class.yaf-view-interface.html)
     

@@ -4,7 +4,7 @@
     
 -   [YafControllerAbstract::getModuleName »](yaf-controller-abstract.getmodulename.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafControllerAbstract](class.yaf-controller-abstract.html)
     

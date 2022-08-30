@@ -1,12 +1,12 @@
 Отримує копію об'єкта календаря засобу форматування
 
--   [« IntlDateFormatter::getTimeZoneId](intldateformatter.gettimezoneid.html)
+-   [« IntlDateFormatter::getTimeZoneId](intldateformatter.gettimezoneid.md)
     
--   [IntlDateFormatter::getTimeZone »](intldateformatter.gettimezone.html)
+-   [IntlDateFormatter::getTimeZone »](intldateformatter.gettimezone.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlDateFormatter](class.intldateformatter.html)
+-   [IntlDateFormatter](class.intldateformatter.md)
     
 -   Отримує копію об'єкта календаря засобу форматування
     
@@ -85,6 +85,6 @@ string(5) "fr_FR"
 
 ### Дивіться також
 
--   [IntlDateFormatter::getCalendar()](intldateformatter.getcalendar.html) - Отримує тип календаря, який використовується IntlDateFormatter
--   [IntlDateFormatter::setCalendar()](intldateformatter.setcalendar.html) - Встановлює тип календаря, який використовується засобом форматування
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlDateFormatter::getCalendar()](intldateformatter.getcalendar.md) - Отримує тип календаря, який використовується IntlDateFormatter
+-   [IntlDateFormatter::setCalendar()](intldateformatter.setcalendar.md) - Встановлює тип календаря, який використовується засобом форматування
+-   [IntlCalendar](class.intlcalendar.md)

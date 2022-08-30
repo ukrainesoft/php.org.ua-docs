@@ -1,12 +1,12 @@
 Створює об'єкт EventBufferEvent
 
--   [« EventBufferEvent::connectHost](eventbufferevent.connecthost.html)
+-   [« EventBufferEvent::connectHost](eventbufferevent.connecthost.md)
     
--   [EventBufferEvent::createPair »](eventbufferevent.createpair.html)
+-   [EventBufferEvent::createPair »](eventbufferevent.createpair.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Створює об'єкт EventBufferEvent
     
@@ -51,7 +51,7 @@ public
    )
 ```
 
-Створює подію буфера для сокету, потоку чи файлового дескриптора. Передача **`null`** в `socket` означає, що сокет повинен бути створений пізніше, наприклад, за допомогою [EventBufferEvent::connect()](eventbufferevent.connect.html)
+Створює подію буфера для сокету, потоку чи файлового дескриптора. Передача **`null`** в `socket` означає, що сокет повинен бути створений пізніше, наприклад, за допомогою [EventBufferEvent::connect()](eventbufferevent.connect.md)
 
 ### Список параметрів
 
@@ -69,15 +69,15 @@ public
 
 `readcb`
 
-Callback-функція читання. Зверніться до розділу [О callback-функциях событийного буфера](eventbufferevent.about.callbacks.html)
+Callback-функція читання. Зверніться до розділу [Про callback-функції подієвого буфера](eventbufferevent.about.callbacks.md)
 
 `writecb`
 
-Callback-функція запису. Зверніться до розділу [О callback-функциях событийного буфера](eventbufferevent.about.callbacks.html)
+Callback-функція запису. Зверніться до розділу [Про callback-функції подієвого буфера](eventbufferevent.about.callbacks.md)
 
 `eventcb`
 
-Callback – функція події зміни статусу. Зверніться до розділу [О callback-функциях событийного буфера](eventbufferevent.about.callbacks.html)
+Callback – функція події зміни статусу. Зверніться до розділу [Про callback-функції подієвого буфера](eventbufferevent.about.callbacks.md)
 
 `arg`
 
@@ -89,5 +89,5 @@ Callback – функція події зміни статусу. Зверніт
 
 ### Дивіться також
 
--   [EventBufferEvent::sslFilter()](eventbufferevent.sslfilter.html) - Створює нову подію буфера SSL для надсилання своїх даних через іншу подію буфера
--   [EventBufferEvent::sslSocket()](eventbufferevent.sslsocket.html) - Створює нову буферну подію SSL для надсилання своїх даних через SSL у сокет
+-   [EventBufferEvent::sslFilter()](eventbufferevent.sslfilter.md) - Створює нову подію буфера SSL для надсилання своїх даних через іншу подію буфера
+-   [EventBufferEvent::sslSocket()](eventbufferevent.sslsocket.md) - Створює нову буферну подію SSL для надсилання своїх даних через SSL у сокет

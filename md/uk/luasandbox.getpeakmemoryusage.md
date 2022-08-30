@@ -1,12 +1,12 @@
 Повертає пікове використання пам'яті в середовищі Lua
 
--   [« LuaSandbox::getMemoryUsage](luasandbox.getmemoryusage.html)
+-   [« LuaSandbox::getMemoryUsage](luasandbox.getmemoryusage.md)
     
--   [LuaSandbox::getProfilerFunctionReport »](luasandbox.getprofilerfunctionreport.html)
+-   [LuaSandbox::getProfilerFunctionReport »](luasandbox.getprofilerfunctionreport.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LuaSandbox](class.luasandbox.html)
+-   [LuaSandbox](class.luasandbox.md)
     
 -   Повертає пікове використання пам'яті в середовищі Lua
     
@@ -35,6 +35,6 @@ public LuaSandbox::getPeakMemoryUsage(): int
 
 ### Дивіться також
 
--   [LuaSandbox::getMemoryUsage()](luasandbox.getmemoryusage.html) - Повертає поточне використання пам'яті у середовищі Lua
--   [LuaSandbox::getCPUUsage()](luasandbox.getcpuusage.html) - Повертає поточний час використання процесора у середовищі Lua
--   [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.html) - Встановлює межу пам'яті для середовища Lua
+-   [LuaSandbox::getMemoryUsage()](luasandbox.getmemoryusage.md) - Повертає поточне використання пам'яті у середовищі Lua
+-   [LuaSandbox::getCPUUsage()](luasandbox.getcpuusage.md) - Повертає поточний час використання процесора у середовищі Lua
+-   [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.md) - Встановлює межу пам'яті для середовища Lua

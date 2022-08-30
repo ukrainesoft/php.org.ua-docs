@@ -1,12 +1,12 @@
 Переміщення до наступної позиції
 
--   [« LimitIterator::key](limititerator.key.html)
+-   [« LimitIterator::key](limititerator.key.md)
     
--   [LimitIterator::rewind »](limititerator.rewind.html)
+-   [LimitIterator::rewind »](limititerator.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LimitIterator](class.limititerator.html)
+-   [LimitIterator](class.limititerator.md)
     
 -   Переміщення до наступної позиції
     
@@ -35,8 +35,8 @@ public LimitIterator::next(): void
 
 ### Дивіться також
 
--   [LimitIterator::current()](limititerator.current.html) - Отримання поточного елемента
--   [LimitIterator::key()](limititerator.key.html) - Отримання поточного ключа
--   [LimitIterator::rewind()](limititerator.rewind.html) - Переміщує покажчик на початкову позицію
--   [LimitIterator::seek()](limititerator.seek.html) - переміщує ітератор на задану позицію
--   [LimitIterator::valid()](limititerator.valid.html) - Перевіряє валідність поточного елемента
+-   [LimitIterator::current()](limititerator.current.md) - Отримання поточного елемента
+-   [LimitIterator::key()](limititerator.key.md) - Отримання поточного ключа
+-   [LimitIterator::rewind()](limititerator.rewind.md) - Переміщує покажчик на початкову позицію
+-   [LimitIterator::seek()](limititerator.seek.md) - переміщує ітератор на задану позицію
+-   [LimitIterator::valid()](limititerator.valid.md) - Перевіряє валідність поточного елемента

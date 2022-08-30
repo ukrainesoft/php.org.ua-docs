@@ -1,12 +1,12 @@
 Конструктор об'єкта EventHttpRequest
 
--   [« EventHttpRequest::closeConnection](eventhttprequest.closeconnection.html)
+-   [« EventHttpRequest::closeConnection](eventhttprequest.closeconnection.md)
     
--   [EventHttpRequest::findHeader »](eventhttprequest.findheader.html)
+-   [EventHttpRequest::findHeader »](eventhttprequest.findheader.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpRequest](class.eventhttprequest.html)
+-   [EventHttpRequest](class.eventhttprequest.md)
     
 -   Конструктор об'єкта EventHttpRequest
     
@@ -110,5 +110,5 @@ $base->loop();
 
 ### Дивіться також
 
--   [EventHttpRequest::cancel()](eventhttprequest.cancel.html) - Скасує очікування HTTP-запиту
--   [EventHttpRequest::addHeader()](eventhttprequest.addheader.html) - Додає заголовок HTTP до заголовків запиту
+-   [EventHttpRequest::cancel()](eventhttprequest.cancel.md) - Скасує очікування HTTP-запиту
+-   [EventHttpRequest::addHeader()](eventhttprequest.addheader.md) - Додає заголовок HTTP до заголовків запиту

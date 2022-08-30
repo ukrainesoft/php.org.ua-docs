@@ -1,12 +1,12 @@
 Конструктор класу
 
--   [« Spoofchecker::areConfusable](spoofchecker.areconfusable.html)
+-   [« Spoofchecker::areConfusable](spoofchecker.areconfusable.md)
     
--   [Spoofchecker::isSuspicious »](spoofchecker.issuspicious.html)
+-   [Spoofchecker::isSuspicious »](spoofchecker.issuspicious.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Spoofchecker](class.spoofchecker.html)
+-   [Spoofchecker](class.spoofchecker.md)
     
 -   Конструктор класу
     

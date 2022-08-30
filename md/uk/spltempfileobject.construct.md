@@ -2,7 +2,7 @@
 
 -   [« SplTempFileObject](class.spltempfileobject.html)
     
--   [Различные классы и интерфейсы »](spl.misc.html)
+-   [Різні класи та інтерфейси »](spl.misc.html)
     
 -   [PHP Manual](index.html)
     
@@ -68,4 +68,4 @@ foreach ($temp as $line) {
 ### Дивіться також
 
 -   [SplFileObject](class.splfileobject.html)
--   [потоки ввода-вывода PHP](wrappers.php.html) (для`php://temp` і `php://memory`
+-   [потоки введення-виведення PHP](wrappers.php.html) (для`php://temp` і `php://memory`

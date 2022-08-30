@@ -1,12 +1,12 @@
 Визначає, чи поточний елемент DirectoryIterator виконується
 
--   [« DirectoryIterator::isDot](directoryiterator.isdot.html)
+-   [« DirectoryIterator::isDot](directoryiterator.isdot.md)
     
--   [DirectoryIterator::isFile »](directoryiterator.isfile.html)
+-   [DirectoryIterator::isFile »](directoryiterator.isfile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DirectoryIterator](class.directoryiterator.html)
+-   [DirectoryIterator](class.directoryiterator.md)
     
 -   Визначає, чи поточний елемент DirectoryIterator виконується
     
@@ -23,7 +23,7 @@ DirectoryIterator::isExecutable — Визначає, чи поточний ел
 public DirectoryIterator::isExecutable(): bool
 ```
 
-Визначає, чи є поточний елемент [DirectoryIterator](class.directoryiterator.html) виконуваним.
+Визначає, чи є поточний елемент [DirectoryIterator](class.directoryiterator.md) виконуваним.
 
 ### Список параметрів
 
@@ -59,6 +59,6 @@ myscript.sh
 
 ### Дивіться також
 
--   [DirectoryIterator::isReadable()](directoryiterator.isreadable.html) - Визначає, чи доступний поточний елемент DirectoryIterator для читання
--   [DirectoryIterator::isWritable()](directoryiterator.iswritable.html) - Визначає, чи доступний поточний елемент DirectoryIterator для запису
--   [DirectoryIterator::getPerms()](directoryiterator.getperms.html) - Повертає набір прав для поточного елемента DirectoryIterator item
+-   [DirectoryIterator::isReadable()](directoryiterator.isreadable.md) - Визначає, чи доступний поточний елемент DirectoryIterator для читання
+-   [DirectoryIterator::isWritable()](directoryiterator.iswritable.md) - Визначає, чи доступний поточний елемент DirectoryIterator для запису
+-   [DirectoryIterator::getPerms()](directoryiterator.getperms.md) - Повертає набір прав для поточного елемента DirectoryIterator item

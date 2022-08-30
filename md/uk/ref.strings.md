@@ -1,12 +1,12 @@
 Функції для роботи з рядками
 
--   [« Предопределённые константы](string.constants.html)
+-   [« Обумовлені константи](string.constants.md)
     
--   [addcslashes »](function.addcslashes.html)
+-   [addcslashes »](function.addcslashes.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Рядки](book.strings.html)
+-   [Рядки](book.strings.md)
     
 -   Функції для роботи з рядками
     
@@ -15,61 +15,61 @@
 
 # Дивіться також
 
-Для отримання інформації про більш складну обробку рядків зверніться до [функціями Perl-сумісних регулярних виразів](ref.pcre.html). Для роботи з багатобайтовими кодуваннями подивіться на [функції роботи з багатобайтовими кодуваннями](ref.mbstring.html)
+Для отримання інформації про більш складну обробку рядків зверніться до [функціями Perl-сумісних регулярних виразів](ref.pcre.md). Для роботи з багатобайтовими кодуваннями подивіться на [функції роботи з багатобайтовими кодуваннями](ref.mbstring.md)
 
 ## Зміст
 
--   [addcslashes](function.addcslashes.html) — Екранує рядок слішами у стилі мови C
--   [addslashes](function.addslashes.html) — Екранує рядок за допомогою слішів
--   [bin2hex](function.bin2hex.html) — Перетворює бінарні дані на шістнадцяткову виставу
--   [chop](function.chop.html) - Псевдонім rtrim
--   [chr](function.chr.html) — Генерує односимвольний рядок за заданим числом
+-   [addcslashes](function.addcslashes.md) — Екранує рядок слішами у стилі мови C
+-   [addslashes](function.addslashes.md) — Екранує рядок за допомогою слішів
+-   [bin2hex](function.bin2hex.md) — Перетворює бінарні дані на шістнадцяткову виставу
+-   [chop](function.chop.md) - Псевдонім rtrim
+-   [chr](function.chr.md) — Генерує односимвольний рядок за заданим числом
 -   [chunksplit](function.chunk-split.html) - Розбиває рядок на фрагменти
 -   [convertcyrstring](function.convert-cyr-string.html) — Перетворює рядок з одного кириличного кодування на інше
 -   [convertuudecode](function.convert-uudecode.html) — Декодує рядок із формату uuencode у звичайний вигляд
 -   [convertuuencode](function.convert-uuencode.html) — Кодує рядок у форматі uuencode
 -   [countchars](function.count-chars.html) — Повертає інформацію про символи, що входять до рядка
--   [crc32](function.crc32.html) — Обчислює поліном CRC32 для рядка
--   [crypt](function.crypt.html) — Необоротне хешування рядка
--   [echo](function.echo.html) — Виводить один або більше рядків
--   [explode](function.explode.html) — Розбиває рядок за допомогою роздільника
--   [fprintf](function.fprintf.html) — Записує відформатований рядок у потік
+-   [crc32](function.crc32.md) — Обчислює поліном CRC32 для рядка
+-   [crypt](function.crypt.md) — Необоротне хешування рядка
+-   [echo](function.echo.md) — Виводить один або більше рядків
+-   [explode](function.explode.md) — Розбиває рядок за допомогою роздільника
+-   [fprintf](function.fprintf.md) — Записує відформатований рядок у потік
 -   [gethtmltranslationtable](function.get-html-translation-table.html) — Повертає таблицю перетворень, використовувану функціями htmlspecialchars і htmlentities
--   [hebrev](function.hebrev.html) — Перетворює текст на івриті з логічного кодування на візуальне
--   [hebrevc](function.hebrevc.html) — Перетворює текст на івриті з логічного кодування на візуальне з перетворенням перекладу рядка
--   [hex2bin](function.hex2bin.html) — Перетворює шістнадцяткові дані на двійкові
+-   [hebrev](function.hebrev.md) — Перетворює текст на івриті з логічного кодування на візуальне
+-   [hebrevc](function.hebrevc.md) — Перетворює текст на івриті з логічного кодування на візуальне з перетворенням перекладу рядка
+-   [hex2bin](function.hex2bin.md) — Перетворює шістнадцяткові дані на двійкові
 -   [htmlentitydecode](function.html-entity-decode.html) — Перетворює HTML-сутності у відповідні символи
--   [htmlentities](function.htmlentities.html) — Перетворює всі можливі символи у відповідні HTML-сутності
+-   [htmlentities](function.htmlentities.md) — Перетворює всі можливі символи у відповідні HTML-сутності
 -   [htmlspecialcharsdecode](function.htmlspecialchars-decode.html) — Перетворює спеціальні HTML-сутності назад на відповідні символи
--   [htmlspecialchars](function.htmlspecialchars.html) — Перетворює спеціальні символи на HTML-сутності
--   [implode](function.implode.html) — Об'єднує елементи масиву в рядок
--   [join](function.join.html) - Псевдонім implode
--   [lcfirst](function.lcfirst.html) — Перетворює перший символ рядка на нижній регістр
--   [levenshtein](function.levenshtein.html) — Обчислює відстань Левенштейна між двома рядками
--   [localeconv](function.localeconv.html) — Повертає інформацію про форматування чисел
--   [ltrim](function.ltrim.html) — Видаляє прогалини (або інші символи) з початку рядка
+-   [htmlspecialchars](function.htmlspecialchars.md) — Перетворює спеціальні символи на HTML-сутності
+-   [implode](function.implode.md) — Об'єднує елементи масиву в рядок
+-   [join](function.join.md) - Псевдонім implode
+-   [lcfirst](function.lcfirst.md) — Перетворює перший символ рядка на нижній регістр
+-   [levenshtein](function.levenshtein.md) — Обчислює відстань Левенштейна між двома рядками
+-   [localeconv](function.localeconv.md) — Повертає інформацію про форматування чисел
+-   [ltrim](function.ltrim.md) — Видаляє прогалини (або інші символи) з початку рядка
 -   [md5file](function.md5-file.html) — Повертає MD5-хеш файлу
--   [md5](function.md5.html) — Повертає MD5-хеш рядки
--   [metaphone](function.metaphone.html) — Повертає ключ metaphone для рядка
+-   [md5](function.md5.md) — Повертає MD5-хеш рядки
+-   [metaphone](function.metaphone.md) — Повертає ключ metaphone для рядка
 -   [moneyformat](function.money-format.html) — Форматує число як грошову величину
 -   [нлlanginfo](function.nl-langinfo.html) — Повертає інформацію про мову та локалі
--   [nl2br](function.nl2br.html) — Вставляє HTML код розриву рядка перед кожним перекладом рядка
+-   [nl2br](function.nl2br.md) — Вставляє HTML код розриву рядка перед кожним перекладом рядка
 -   [numberformat](function.number-format.html) — Форматує число із поділом груп
--   [ord](function.ord.html) - Конвертує перший байт рядка в число від 0 до 255
+-   [ord](function.ord.md) - Конвертує перший байт рядка в число від 0 до 255
 -   [parsestr](function.parse-str.html) — Розбирає рядок у змінні
--   [print](function.print.html) - Виводить рядок
--   [printf](function.printf.html) — Виводить відформатований рядок
+-   [print](function.print.md) - Виводить рядок
+-   [printf](function.printf.md) — Виводить відформатований рядок
 -   [quotedprintabledecode](function.quoted-printable-decode.html) — Перетворює рядок, закодований методом quoted-printable у 8-бітовий рядок
 -   [quotedprintableencode](function.quoted-printable-encode.html) — Перетворює 8-бітовий рядок за допомогою методу quoted-printable
--   [quotemeta](function.quotemeta.html) — Екранує спеціальні символи
--   [rtrim](function.rtrim.html) — Видаляє прогалини (або інші символи) з кінця рядка
--   [setlocale](function.setlocale.html) - Встановлює налаштування локалі
+-   [quotemeta](function.quotemeta.md) — Екранує спеціальні символи
+-   [rtrim](function.rtrim.md) — Видаляє прогалини (або інші символи) з кінця рядка
+-   [setlocale](function.setlocale.md) - Встановлює налаштування локалі
 -   [sha1file](function.sha1-file.html) - Повертає SHA1-хеш файлу
--   [sha1](function.sha1.html) - Повертає SHA1-хеш рядки
+-   [sha1](function.sha1.md) - Повертає SHA1-хеш рядки
 -   [similartext](function.similar-text.html) - Обчислює ступінь схожості двох рядків
--   [soundex](function.soundex.html) — Повертає ключ soundex для рядка
--   [sprintf](function.sprintf.html) — Повертає відформатований рядок
--   [sscanf](function.sscanf.html) — Розбирає рядок відповідно до заданого формату
+-   [soundex](function.soundex.md) — Повертає ключ soundex для рядка
+-   [sprintf](function.sprintf.md) — Повертає відформатований рядок
+-   [sscanf](function.sscanf.md) — Розбирає рядок відповідно до заданого формату
 -   [strcontains](function.str-contains.html) — Визначає, чи містить рядок заданий підрядок
 -   [strendswith](function.str-ends-with.html) — Перевіряє, чи рядок закінчується заданим підрядком
 -   [strgetcsv](function.str-getcsv.html) — Розбирає CSV-рядки в масив.
@@ -82,43 +82,43 @@
 -   [strsplit](function.str-split.html) — Перетворює рядок на масив
 -   [strstartswith](function.str-starts-with.html) — Перевіряє, чи починається рядок із заданого підрядку
 -   [strwordcount](function.str-word-count.html) — Повертає інформацію про слова, що входять до рядка
--   [strcasecmp](function.strcasecmp.html) — Бінарно-безпечне порівняння рядків без урахування регістру
--   [strchr](function.strchr.html) - Псевдонім strstr
--   [strcmp](function.strcmp.html) - Бінарно-безпечне порівняння рядків
--   [strcoll](function.strcoll.html) — Порівняння рядків з урахуванням поточної локалі
--   [strcspn](function.strcspn.html) — Повертає довжину ділянки на початку рядка, що не відповідає масці
+-   [strcasecmp](function.strcasecmp.md) — Бінарно-безпечне порівняння рядків без урахування регістру
+-   [strchr](function.strchr.md) - Псевдонім strstr
+-   [strcmp](function.strcmp.md) - Бінарно-безпечне порівняння рядків
+-   [strcoll](function.strcoll.md) — Порівняння рядків з урахуванням поточної локалі
+-   [strcspn](function.strcspn.md) — Повертає довжину ділянки на початку рядка, що не відповідає масці
 -   [striptags](function.strip-tags.html) — Видаляє теги HTML та PHP з рядка
--   [stripcslashes](function.stripcslashes.html) — Видаляє екранування символів, зроблене функцією addcslashes
--   [stripos](function.stripos.html) — Повертає позицію першого входження підрядка без урахування регістру
--   [stripslashes](function.stripslashes.html) — Видаляє екранування символів
--   [stristr](function.stristr.html) — Реєстронезалежний варіант функції strstr
--   [strlen](function.strlen.html) — Повертає довжину рядка
--   [strnatcasecmp](function.strnatcasecmp.html) - Порівняння рядків без урахування регістру з використанням алгоритму "natural order"
--   [strnatcmp](function.strnatcmp.html) - Порівняння рядків з використанням алгоритму "natural order"
--   [strncasecmp](function.strncasecmp.html) - Бінарно-безпечне порівняння перших n символів рядків без урахування регістру
--   [strncmp](function.strncmp.html) - Бінарно-безпечне порівняння перших n символів рядків
--   [strpbrk](function.strpbrk.html) — Шукає у рядку будь-який символ із заданого набору
--   [strpos](function.strpos.html) — Повертає позицію першого входження підрядка
--   [strrchr](function.strrchr.html) — Знаходить останнє входження символу у рядку
--   [strrev](function.strrev.html) — Перевертає рядок задом наперед
--   [strripos](function.strripos.html) — Повертає позицію останнього входження підрядка без урахування регістру
--   [strrpos](function.strrpos.html) — Повертає позицію останнього входження підрядка у рядку
--   [strspn](function.strspn.html) — Повертає довжину ділянки на початку рядка, що повністю відповідає масці
--   [strstr](function.strstr.html) - Знаходить перше входження підрядка
--   [strtok](function.strtok.html) - Розбиває рядок на токени
--   [strtolower](function.strtolower.html) — Перетворює рядок на нижній регістр
--   [strtoupper](function.strtoupper.html) — Перетворює рядок у верхній регістр
--   [strtr](function.strtr.html) — Перетворює задані символи або замінює підрядки
+-   [stripcslashes](function.stripcslashes.md) — Видаляє екранування символів, зроблене функцією addcslashes
+-   [stripos](function.stripos.md) — Повертає позицію першого входження підрядка без урахування регістру
+-   [stripslashes](function.stripslashes.md) — Видаляє екранування символів
+-   [stristr](function.stristr.md) — Реєстронезалежний варіант функції strstr
+-   [strlen](function.strlen.md) — Повертає довжину рядка
+-   [strnatcasecmp](function.strnatcasecmp.md) - Порівняння рядків без урахування регістру з використанням алгоритму "natural order"
+-   [strnatcmp](function.strnatcmp.md) - Порівняння рядків з використанням алгоритму "natural order"
+-   [strncasecmp](function.strncasecmp.md) - Бінарно-безпечне порівняння перших n символів рядків без урахування регістру
+-   [strncmp](function.strncmp.md) - Бінарно-безпечне порівняння перших n символів рядків
+-   [strpbrk](function.strpbrk.md) — Шукає у рядку будь-який символ із заданого набору
+-   [strpos](function.strpos.md) — Повертає позицію першого входження підрядка
+-   [strrchr](function.strrchr.md) — Знаходить останнє входження символу у рядку
+-   [strrev](function.strrev.md) — Перевертає рядок задом наперед
+-   [strripos](function.strripos.md) — Повертає позицію останнього входження підрядка без урахування регістру
+-   [strrpos](function.strrpos.md) — Повертає позицію останнього входження підрядка у рядку
+-   [strspn](function.strspn.md) — Повертає довжину ділянки на початку рядка, що повністю відповідає масці
+-   [strstr](function.strstr.md) - Знаходить перше входження підрядка
+-   [strtok](function.strtok.md) - Розбиває рядок на токени
+-   [strtolower](function.strtolower.md) — Перетворює рядок на нижній регістр
+-   [strtoupper](function.strtoupper.md) — Перетворює рядок у верхній регістр
+-   [strtr](function.strtr.md) — Перетворює задані символи або замінює підрядки
 -   [substrcompare](function.substr-compare.html) - Бінарно-безпечне порівняння 2 рядків зі зміщенням, з урахуванням або без обліку регістру
 -   [substrcount](function.substr-count.html) — Повертає кількість входжень підрядка
 -   [substrreplace](function.substr-replace.html) — Замінює частину рядка
--   [substr](function.substr.html) - Повертає підрядок
--   [trim](function.trim.html) — Видаляє прогалини (або інші символи) з початку та кінця рядка
--   [ucfirst](function.ucfirst.html) — Перетворює перший символ рядка у верхній регістр
--   [ucwords](function.ucwords.html) — Перетворює на верхній регістр перший символ кожного слова в рядку
+-   [substr](function.substr.md) - Повертає підрядок
+-   [trim](function.trim.md) — Видаляє прогалини (або інші символи) з початку та кінця рядка
+-   [ucfirst](function.ucfirst.md) — Перетворює перший символ рядка у верхній регістр
+-   [ucwords](function.ucwords.md) — Перетворює на верхній регістр перший символ кожного слова в рядку
 -   [utf8decode](function.utf8-decode.html) — Перетворює рядок з UTF-8 на ISO-8859-1, замінюючи неприпустимі або непредставні символи
 -   [utf8encode](function.utf8-encode.html) — Перетворює рядок із ISO-8859-1 на UTF-8
--   [vfprintf](function.vfprintf.html) — Записує відформатований рядок у потік
--   [vprintf](function.vprintf.html) — Виводить відформатований рядок
--   [vsprintf](function.vsprintf.html) — Повертає відформатований рядок
--   [wordwrap](function.wordwrap.html) — Переносить рядок за вказаною кількістю символів
+-   [vfprintf](function.vfprintf.md) — Записує відформатований рядок у потік
+-   [vprintf](function.vprintf.md) — Виводить відформатований рядок
+-   [vsprintf](function.vsprintf.md) — Повертає відформатований рядок
+-   [wordwrap](function.wordwrap.md) — Переносить рядок за вказаною кількістю символів

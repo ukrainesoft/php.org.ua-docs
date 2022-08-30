@@ -1,12 +1,12 @@
 Створення нового повнокольорового зображення
 
--   [« imagecreatefromxpm](function.imagecreatefromxpm.html)
+-   [« imagecreatefromxpm](function.imagecreatefromxpm.md)
     
--   [imagecrop »](function.imagecrop.html)
+-   [imagecrop »](function.imagecrop.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Створення нового повнокольорового зображення
     
@@ -41,9 +41,9 @@ imagecreatetruecolor(int $width, int $height): GdImage|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 
@@ -67,5 +67,5 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagedestroy()](function.imagedestroy.html) - Знищення зображення
--   [imagecreate()](function.imagecreate.html) - Створення нового палітрового зображення
+-   [imagedestroy()](function.imagedestroy.md) - Знищення зображення
+-   [imagecreate()](function.imagecreate.md) - Створення нового палітрового зображення

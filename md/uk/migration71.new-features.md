@@ -1,12 +1,12 @@
 Нові можливості
 
--   [« Миграция с PHP 7.0.x на PHP 7.1.x](migration71.html)
+-   [« Миграция с PHP 7.0.x на PHP 7.1.x](migration71.md)
     
 -   [Нові функції »](migration71.new-functions.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 7.0.x на PHP 7.1.x](migration71.html)
+-   [Миграция с PHP 7.0.x на PHP 7.1.x](migration71.md)
     
 -   Нові можливості
     
@@ -88,7 +88,7 @@ int(1)
 
 ### Симетрична деструктуризація масиву
 
-Можна використовувати короткий синтаксис (`[]`) для деструктуризації масивів з метою присвоєння (у тому числі в `foreach`), як альтернатива функції [list()](function.list.html)яка, втім, все ще підтримується.
+Можна використовувати короткий синтаксис (`[]`) для деструктуризації масивів з метою присвоєння (у тому числі в `foreach`), як альтернатива функції [list()](function.list.md)яка, втім, все ще підтримується.
 
 ```php
 <?php
@@ -129,9 +129,9 @@ class ConstDemo
 }
 ```
 
-### Псевдотип [iterable](language.types.iterable.html)
+### Псевдотип [iterable](language.types.iterable.md)
 
-Було додано новий псевдотип (схожий на [callable](language.types.callable.html)), названий [iterable](language.types.iterable.html). Він може використовуватися як параметр, так і як значення, що повертається там, де використовується масив або об'єкт, що реалізує інтерфейс [Traversable](class.traversable.html). Що стосується підтипів, типи параметрів із дочірніх класів можуть розширити декларацію батьків типу array або [Traversable](class.traversable.html) до [iterable](language.types.iterable.html). Для типів повернення, дочірні класи можуть звужувати тип значення, що повертається з [iterable](language.types.iterable.html) до array або об'єкта реалізуючого [Traversable](class.traversable.html)
+Було додано новий псевдотип (схожий на [callable](language.types.callable.md)), названий [iterable](language.types.iterable.md). Він може використовуватися як параметр, так і як значення, що повертається там, де використовується масив або об'єкт, що реалізує інтерфейс [Traversable](class.traversable.md). Що стосується підтипів, типи параметрів із дочірніх класів можуть розширити декларацію батьків типу array або [Traversable](class.traversable.md) до [iterable](language.types.iterable.md). Для типів повернення, дочірні класи можуть звужувати тип значення, що повертається з [iterable](language.types.iterable.md) до array або об'єкта реалізуючого [Traversable](class.traversable.md)
 
 ```php
 <?php
@@ -156,9 +156,9 @@ try {
 }
 ```
 
-### Підтримка ключів у [list()](function.list.html)
+### Підтримка ключів у [list()](function.list.md)
 
-Тепер ви можете вказувати ключі оператора [list()](function.list.html) або в його новому короткому синтаксисі `[]`. Це дозволяє деструктурувати масиви з нечисловими чи непослідовними ключами.
+Тепер ви можете вказувати ключі оператора [list()](function.list.md) або в його новому короткому синтаксисі `[]`. Це дозволяє деструктурувати масиви з нечисловими чи непослідовними ключами.
 
 ```php
 <?php
@@ -186,7 +186,7 @@ foreach ($data as ["id" => $id, "name" => $name]) {
 
 ### Підтримка негативних зсувів для рядків
 
-Підтримка негативних зсувів для рядків додана в [функції для роботи з рядками](book.strings.html), а також у [индексацию строк](language.types.string.html#language.types.string.substr) за допомогою `[]` або `{}`. У цих випадках негативні усунення інтерпретуються як усунення щодо кінця рядка.
+Підтримка негативних зсувів для рядків додана в [функції для роботи з рядками](book.strings.md), а також у [индексацию строк](language.types.string.html#language.types.string.substr) за допомогою `[]` або `{}`. У цих випадках негативні усунення інтерпретуються як усунення щодо кінця рядка.
 
 ```php
 <?php
@@ -220,9 +220,9 @@ echo "Последний символ '$string' - '$string[-1]'.\n";
 
 Підтримка AEAD (режими GCM та CCM) була додана шляхом розширення функцій [opensslencrypt()](function.openssl-encrypt.html) і [openssldecrypt()](function.openssl-decrypt.html) додатковими параметрами.
 
-### Перетворення callable в [Closure](class.closure.html) за допомогою [Closure::fromCallable()](closure.fromcallable.html)
+### Перетворення callable в [Closure](class.closure.md) за допомогою [Closure::fromCallable()](closure.fromcallable.md)
 
-В клас [Closure](class.closure.html) додано новий статичний метод для можливості легко перетворити [callable](language.types.callable.html) в об'єкти типу [Closure](class.closure.html)
+В клас [Closure](class.closure.md) додано новий статичний метод для можливості легко перетворити [callable](language.types.callable.md) в об'єкти типу [Closure](class.closure.md)
 
 ```php
 <?php

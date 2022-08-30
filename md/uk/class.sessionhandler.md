@@ -2,11 +2,11 @@
 
 -   [« sessionwriteclose](function.session-write-close.html)
     
--   [SessionHandler::close »](sessionhandler.close.html)
+-   [SessionHandler::close »](sessionhandler.close.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Сессии](book.session.html)
+-   [Сессии](book.session.md)
     
 -   Клас SessionHandler
     
@@ -59,7 +59,7 @@ public write(string $id, string $data): bool
 
 **Увага**
 
-Цей клас призначений для розширення поточного внутрішнього оброблювача сесії PHP. При цьому, якщо вам потрібно написати власний обробник, необхідно написати власну реалізацію інтерфейсу [SessionHandlerInterface](class.sessionhandlerinterface.html) замість розширення класу **SessionHandler**
+Цей клас призначений для розширення поточного внутрішнього оброблювача сесії PHP. При цьому, якщо вам потрібно написати власний обробник, необхідно написати власну реалізацію інтерфейсу [SessionHandlerInterface](class.sessionhandlerinterface.md) замість розширення класу **SessionHandler**
 
 **Приклад #1 Використання **SessionHandler** для того, щоб додати шифрування даних до внутрішнього оброблювача сесій PHP.**
 
@@ -166,10 +166,10 @@ session_start();
 
 ## Зміст
 
--   [SessionHandler::close](sessionhandler.close.html) - Закриває сесію
+-   [SessionHandler::close](sessionhandler.close.md) - Закриває сесію
 -   [SessionHandler::createsid](sessionhandler.create-sid.html) — Повертає новий ідентифікатор сесії
--   [SessionHandler::destroy](sessionhandler.destroy.html) - Знищує сесію
--   [SessionHandler::gc](sessionhandler.gc.html) - Очищає старі сесії
--   [SessionHandler::open](sessionhandler.open.html) - Ініціалізує сесію
--   [SessionHandler::read](sessionhandler.read.html) — Зчитує дані сесії
--   [SessionHandler::write](sessionhandler.write.html) — Записує дані сесії
+-   [SessionHandler::destroy](sessionhandler.destroy.md) - Знищує сесію
+-   [SessionHandler::gc](sessionhandler.gc.md) - Очищає старі сесії
+-   [SessionHandler::open](sessionhandler.open.md) - Ініціалізує сесію
+-   [SessionHandler::read](sessionhandler.read.md) — Зчитує дані сесії
+-   [SessionHandler::write](sessionhandler.write.md) — Записує дані сесії

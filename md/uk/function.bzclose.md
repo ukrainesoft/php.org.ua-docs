@@ -1,12 +1,12 @@
 Закриває файл bzip2
 
--   [« Функції Bzip2](ref.bzip2.html)
+-   [« Функції Bzip2](ref.bzip2.md)
     
--   [bzcompress »](function.bzcompress.html)
+-   [bzcompress »](function.bzcompress.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Bzip2](ref.bzip2.html)
+-   [Функції Bzip2](ref.bzip2.md)
     
 -   Закриває файл bzip2
     
@@ -29,7 +29,7 @@ bzclose(resource $bz): bool
 
 `bz`
 
-Вказівник на файл. Має бути коректним і вказувати на файл, успішно відкритий [bzopen()](function.bzopen.html)
+Вказівник на файл. Має бути коректним і вказувати на файл, успішно відкритий [bzopen()](function.bzopen.md)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ bzclose(resource $bz): bool
 
 ### Дивіться також
 
--   [bzopen()](function.bzopen.html) - Відкриває файл, стислий за допомогою bzip2
+-   [bzopen()](function.bzopen.md) - Відкриває файл, стислий за допомогою bzip2

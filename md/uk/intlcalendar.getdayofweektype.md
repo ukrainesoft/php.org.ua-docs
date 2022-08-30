@@ -1,12 +1,12 @@
 Повідомляє, чи є день буднім, вихідним чи днем ​​із переходом між ними
 
--   [« IntlCalendar::getAvailableLocales](intlcalendar.getavailablelocales.html)
+-   [« IntlCalendar::getAvailableLocales](intlcalendar.getavailablelocales.md)
     
--   [IntlCalendar::getErrorCode »](intlcalendar.geterrorcode.html)
+-   [IntlCalendar::getErrorCode »](intlcalendar.geterrorcode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Повідомляє, чи є день буднім, вихідним чи днем ​​із переходом між ними
     
@@ -33,7 +33,7 @@ intlcal_get_day_of_week_type(IntlCalendar $calendar, int $dayOfWeek): int|false
 
 Повертає, чи вказаний день є робочим днем ​​(**`IntlCalendar::DOW_TYPE_WEEKDAY`**), вихідним днем ​​(**`IntlCalendar::DOW_TYPE_WEEKEND`**), днем, протягом якого відбувається перехід у вихідні (**`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`**) або день, протягом якого припиняються вихідні (**`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`**
 
-Якщо повернення або **`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`**, або \*\*`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`\*\*потім можна викликати [IntlCalendar::getWeekendTransition()](intlcalendar.getweekendtransition.html) для отримання часу переходу.
+Якщо повернення або **`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`**, або \*\*`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`\*\*потім можна викликати [IntlCalendar::getWeekendTransition()](intlcalendar.getweekendtransition.md) для отримання часу переходу.
 
 Для цієї функції потрібний ICU 4.4 або новіший.
 
@@ -41,7 +41,7 @@ intlcal_get_day_of_week_type(IntlCalendar $calendar, int $dayOfWeek): int|false
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `dayOfWeek`
 

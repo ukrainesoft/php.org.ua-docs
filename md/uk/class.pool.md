@@ -1,12 +1,12 @@
 Клас Pool
 
--   [« Collectable::isGarbage](collectable.isgarbage.html)
+-   [« Collectable::isGarbage](collectable.isgarbage.md)
     
--   [Pool::collect »](pool.collect.html)
+-   [Pool::collect »](pool.collect.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [pthreads](book.pthreads.html)
+-   [pthreads](book.pthreads.md)
     
 -   Клас Pool
     
@@ -89,9 +89,9 @@ last
 
 ## Зміст
 
--   [Pool::collect](pool.collect.html) — Збирає посилання на виконані завдання
--   [Pool::construct](pool.construct.html) - Створює новий пул воркерів
--   [Pool::resize](pool.resize.html) - Змінює розмір пулу
--   [Pool::shutdown](pool.shutdown.html) - Вимикає всі воркери
--   [Pool::submit](pool.submit.html) - Відправляє об'єкт на виконання
--   [Pool::submitTo](pool.submitTo.html) — Надсилає завдання конкретному воркеру для виконання
+-   [Pool::collect](pool.collect.md) — Збирає посилання на виконані завдання
+-   [Pool::construct](pool.construct.md) - Створює новий пул воркерів
+-   [Pool::resize](pool.resize.md) - Змінює розмір пулу
+-   [Pool::shutdown](pool.shutdown.md) - Вимикає всі воркери
+-   [Pool::submit](pool.submit.md) - Відправляє об'єкт на виконання
+-   [Pool::submitTo](pool.submitTo.md) — Надсилає завдання конкретному воркеру для виконання

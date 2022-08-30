@@ -1,12 +1,12 @@
 Повертає ім'я файлу конкретного зображення у послідовності
 
--   [« Imagick::getImageExtrema](imagick.getimageextrema.html)
+-   [« Imagick::getImageExtrema](imagick.getimageextrema.md)
     
--   [Imagick::getImageFormat »](imagick.getimageformat.html)
+-   [Imagick::getImageFormat »](imagick.getimageformat.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає ім'я файлу конкретного зображення у послідовності
     

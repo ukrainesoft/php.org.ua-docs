@@ -2,7 +2,7 @@
 
 -   [« timezoneversionget](function.timezone-version-get.html)
     
--   [Форматы времени »](datetime.formats.time.html)
+-   [Формати времени »](datetime.formats.time.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,8 +15,8 @@
 
 ## Зміст
 
--   [Форматы времени](datetime.formats.time.html)
--   [Форматы даты](datetime.formats.date.html)
+-   [Формати времени](datetime.formats.time.html)
+-   [Формати дати](datetime.formats.date.html)
 -   [Складові форматів](datetime.formats.compound.html)
 -   [Відносні формати](datetime.formats.relative.html)
 

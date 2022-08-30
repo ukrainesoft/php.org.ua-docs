@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.apache.html)
+-   [« Введение](intro.apache.md)
     
--   [Требования »](apache.requirements.html)
+-   [Вимоги »](apache.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Apache](book.apache.html)
+-   [Apache](book.apache.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](apache.requirements.html)
--   [Установка](apache.installation.html)
--   [Настройка во время выполнения](apache.configuration.html)
--   [Типы ресурсов](apache.resources.html)
+-   [Вимоги](apache.requirements.md)
+-   [Установка](apache.installation.md)
+-   [Налаштування під час виконання](apache.configuration.md)
+-   [Типи ресурсів](apache.resources.md)

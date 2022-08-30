@@ -1,28 +1,28 @@
 FTP
 
--   [« EventUtil::sslRandPoll](eventutil.sslrandpoll.html)
+-   [« EventUtil::sslRandPoll](eventutil.sslrandpoll.md)
     
--   [Введение »](intro.ftp.html)
+-   [Введение »](intro.ftp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Другие службы](refs.remote.other.html)
+-   [Інші служби](refs.remote.other.md)
     
 -   FTP
     
 
 # FTP
 
--   [Введение](intro.ftp.html)
--   [Установка и настройка](ftp.setup.html)
-    -   [Требования](ftp.requirements.html)
-    -   [Установка](ftp.installation.html)
-    -   [Настройка во время выполнения](ftp.configuration.html)
-    -   [Типы ресурсов](ftp.resources.html)
--   [Предопределённые константы](ftp.constants.html)
--   [Примеры](ftp.examples.html)
+-   [Введение](intro.ftp.md)
+-   [Встановлення та налаштування](ftp.setup.md)
+    -   [Вимоги](ftp.requirements.md)
+    -   [Установка](ftp.installation.md)
+    -   [Налаштування під час виконання](ftp.configuration.md)
+    -   [Типи ресурсів](ftp.resources.md)
+-   [Обумовлені константи](ftp.constants.md)
+-   [Приклади](ftp.examples.md)
     -   [Простое использование](ftp.examples-basic.html)
--   [Функції FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.md)
     -   [ftpalloc](function.ftp-alloc.html) — Резервує місце на диску для файлу, що закачується
     -   [ftpappend](function.ftp-append.html) — Додає вміст файлу на кінець іншого файлу на FTP-сервері
     -   [ftpcdup](function.ftp-cdup.html) — Переходить до батьківської директорії

@@ -1,12 +1,12 @@
 Включає читання, запис або те й інше в події буфера
 
--   [« EventBufferEvent::disable](eventbufferevent.disable.html)
+-   [« EventBufferEvent::disable](eventbufferevent.disable.md)
     
--   [EventBufferEvent::free »](eventbufferevent.free.html)
+-   [EventBufferEvent::free »](eventbufferevent.free.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Включає читання, запис або те й інше в події буфера
     
@@ -41,4 +41,4 @@ public
 
 ### Дивіться також
 
--   [EventBufferEvent::disable()](eventbufferevent.disable.html) - Вимикає читання, запис або те й інше у події буфера
+-   [EventBufferEvent::disable()](eventbufferevent.disable.md) - Вимикає читання, запис або те й інше у події буфера

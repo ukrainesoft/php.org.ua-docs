@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](dom.constants.html)
+-   [« Обумовлені константи](dom.constants.md)
     
--   [DOMAttr »](class.domattr.html)
+-   [DOMAttr »](class.domattr.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOM](book.dom.html)
+-   [DOM](book.dom.md)
     
 -   Приклади
     

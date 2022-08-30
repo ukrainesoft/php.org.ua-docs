@@ -1,12 +1,12 @@
 Імпортує таблицю стилів
 
--   [« XSLTProcessor::hasExsltSupport](xsltprocessor.hasexsltsupport.html)
+-   [« XSLTProcessor::hasExsltSupport](xsltprocessor.hasexsltsupport.md)
     
--   [XSLTProcessor::registerPHPFunctions »](xsltprocessor.registerphpfunctions.html)
+-   [XSLTProcessor::registerPHPFunctions »](xsltprocessor.registerphpfunctions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XSLTProcessor](class.xsltprocessor.html)
+-   [XSLTProcessor](class.xsltprocessor.md)
     
 -   Імпортує таблицю стилів
     
@@ -24,13 +24,13 @@ public
    XSLTProcessor::importStylesheet(object $stylesheet): bool
 ```
 
-Цей метод імпортує таблицю стилів у [XSLTProcessor](class.xsltprocessor.html) для трансформації.
+Цей метод імпортує таблицю стилів у [XSLTProcessor](class.xsltprocessor.md) для трансформації.
 
 ### Список параметрів
 
 `stylesheet`
 
-Імпортована таблиця стилів у вигляді об'єкта [DOMDocument](class.domdocument.html) або [SimpleXMLElement](class.simplexmlelement.html)
+Імпортована таблиця стилів у вигляді об'єкта [DOMDocument](class.domdocument.md) або [SimpleXMLElement](class.simplexmlelement.md)
 
 ### Значення, що повертаються
 

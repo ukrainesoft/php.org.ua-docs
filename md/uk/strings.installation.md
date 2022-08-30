@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](strings.requirements.html)
+-   [« Вимоги](strings.requirements.html)
     
--   [Настройка во время выполнения »](strings.configuration.html)
+-   [Налаштування під час виконання »](strings.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](strings.setup.html)
+-   [Встановлення та налаштування](strings.setup.html)
     
 -   Встановлення
     

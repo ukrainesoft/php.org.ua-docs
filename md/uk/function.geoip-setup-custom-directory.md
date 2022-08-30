@@ -4,9 +4,9 @@
     
 -   [geoiptimezoneбcountryandregion »](function.geoip-time-zone-by-country-and-region.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции GeoIP](ref.geoip.html)
+-   [Функции GeoIP](ref.geoip.md)
     
 -   Встановити власну директорію для бази даних GeoIP
     

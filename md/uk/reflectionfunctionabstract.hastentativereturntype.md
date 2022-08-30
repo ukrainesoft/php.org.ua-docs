@@ -1,12 +1,12 @@
 Визначає, чи є у функції попередній тип значення, що повертається
 
--   [« ReflectionFunctionAbstract::hasReturnType](reflectionfunctionabstract.hasreturntype.html)
+-   [« ReflectionFunctionAbstract::hasReturnType](reflectionfunctionabstract.hasreturntype.md)
     
--   [ReflectionFunctionAbstract::inNamespace »](reflectionfunctionabstract.innamespace.html)
+-   [ReflectionFunctionAbstract::inNamespace »](reflectionfunctionabstract.innamespace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
     
 -   Визначає, чи є у функції попередній тип значення, що повертається
     
@@ -52,6 +52,6 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getTentativeReturnType()](reflectionfunctionabstract.gettentativereturntype.html) - Повертає попередній тип значення, що повертається, пов'язаний з функцією
--   [ReflectionFunctionAbstract::hasReturnType()](reflectionfunctionabstract.hasreturntype.html) - Перевіряє, чи має функція оголошений тип значення, що повертається
+-   [ReflectionFunctionAbstract::getTentativeReturnType()](reflectionfunctionabstract.gettentativereturntype.md) - Повертає попередній тип значення, що повертається, пов'язаний з функцією
+-   [ReflectionFunctionAbstract::hasReturnType()](reflectionfunctionabstract.hasreturntype.md) - Перевіряє, чи має функція оголошений тип значення, що повертається
 -   [Сумісність типів значень, що повертаються, з внутрішніми класами](language.oop5.inheritance.html#language.oop5.inheritance.internal-classes)

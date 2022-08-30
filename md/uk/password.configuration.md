@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](password.installation.html)
+-   [« Установка](password.installation.md)
     
--   [Типы ресурсов »](password.resources.html)
+-   [Типи ресурсів »](password.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](password.setup.html)
+-   [Встановлення та налаштування](password.setup.md)
     
 -   Налаштування під час виконання
     

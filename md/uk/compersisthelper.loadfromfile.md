@@ -1,12 +1,12 @@
 Завантажити об'єкт із файлу
 
--   [« COMPersistHelper::InitNew](compersisthelper.initnew.html)
+-   [« COMPersistHelper::InitNew](compersisthelper.initnew.md)
     
--   [COMPersistHelper::LoadFromStream »](compersisthelper.loadfromstream.html)
+-   [COMPersistHelper::LoadFromStream »](compersisthelper.loadfromstream.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [COMPersistHelper](class.compersisthelper.html)
+-   [COMPersistHelper](class.compersisthelper.md)
     
 -   Завантажити об'єкт із файлу
     

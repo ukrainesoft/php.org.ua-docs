@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverCursorId::serialize »](mongodb-driver-cursorid.serialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html)
     

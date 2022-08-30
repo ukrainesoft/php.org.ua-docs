@@ -1,12 +1,12 @@
 Встановити обробник consumerHandler
 
--   [« OAuthProvider::construct](oauthprovider.construct.html)
+-   [« OAuthProvider::construct](oauthprovider.construct.md)
     
--   [OAuthProvider::generateToken »](oauthprovider.generatetoken.html)
+-   [OAuthProvider::generateToken »](oauthprovider.generatetoken.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuthProvider](class.oauthprovider.html)
+-   [OAuthProvider](class.oauthprovider.md)
     
 -   Встановити обробник consumerHandler
     
@@ -23,7 +23,7 @@ OAuthProvider::consumerHandler — Встановити обробник consume
 public OAuthProvider::consumerHandler(callable $callback_function): void
 ```
 
-Задає callback-функцію обробника, яка надалі викликатиметься [OAuthProvider::callConsumerHandler()](oauthprovider.callconsumerhandler.html)
+Задає callback-функцію обробника, яка надалі викликатиметься [OAuthProvider::callConsumerHandler()](oauthprovider.callconsumerhandler.md)
 
 **Увага**
 
@@ -33,7 +33,7 @@ public OAuthProvider::consumerHandler(callable $callback_function): void
 
 `callback_function`
 
-Функція типу [callable](language.types.callable.html)
+Функція типу [callable](language.types.callable.md)
 
 ### Значення, що повертаються
 
@@ -62,4 +62,4 @@ function lookupConsumer($provider) {
 
 ### Дивіться також
 
--   [OAuthProvider::callConsumerHandler()](oauthprovider.callconsumerhandler.html) - Викликати callback-функцію consumerNonceHandler
+-   [OAuthProvider::callConsumerHandler()](oauthprovider.callconsumerhandler.md) - Викликати callback-функцію consumerNonceHandler

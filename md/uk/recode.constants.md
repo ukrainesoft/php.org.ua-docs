@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](recode.resources.html)
+-   [« Типи ресурсів](recode.resources.md)
     
--   [Функции Recode »](ref.recode.html)
+-   [Функции Recode »](ref.recode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Recode](book.recode.html)
+-   [Recode](book.recode.md)
     
 -   Обумовлені константи
     

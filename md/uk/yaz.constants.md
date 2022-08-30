@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](yaz.resources.html)
+-   [« Типи ресурсів](yaz.resources.md)
     
--   [Примеры »](yaz.examples.html)
+-   [Приклади »](yaz.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [YAZ](book.yaz.html)
+-   [YAZ](book.yaz.md)
     
 -   Обумовлені константи
     

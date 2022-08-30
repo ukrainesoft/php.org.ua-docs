@@ -4,9 +4,9 @@
     
 -   [fannsettrainerrorfunction »](function.fann-set-train-error-function.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Розраховує вхідні та вихідні параметри масштабування для майбутнього використання на основі даних навчання
     

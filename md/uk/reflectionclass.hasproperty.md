@@ -1,12 +1,12 @@
 Перевіряє, чи визначено властивість
 
--   [« ReflectionClass::hasMethod](reflectionclass.hasmethod.html)
+-   [« ReflectionClass::hasMethod](reflectionclass.hasmethod.md)
     
--   [ReflectionClass::implementsInterface »](reflectionclass.implementsinterface.html)
+-   [ReflectionClass::implementsInterface »](reflectionclass.implementsinterface.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Перевіряє, чи визначено властивість
     
@@ -68,5 +68,5 @@ bool(false)
 
 ### Дивіться також
 
--   [ReflectionClass::hasConstant()](reflectionclass.hasconstant.html) - Перевіряє, чи визначено константу
--   [ReflectionClass::hasMethod()](reflectionclass.hasmethod.html) - Перевіряє, чи заданий метод
+-   [ReflectionClass::hasConstant()](reflectionclass.hasconstant.md) - Перевіряє, чи визначено константу
+-   [ReflectionClass::hasMethod()](reflectionclass.hasmethod.md) - Перевіряє, чи заданий метод

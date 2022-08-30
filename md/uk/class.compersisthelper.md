@@ -1,12 +1,12 @@
 Клас COMPersistHelper
 
--   [« variant::construct](variant.construct.html)
+-   [« variant::construct](variant.construct.md)
     
--   [COMPersistHelper::construct »](compersisthelper.construct.html)
+-   [COMPersistHelper::construct »](compersisthelper.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [COM](book.com.html)
+-   [COM](book.com.md)
     
 -   Клас COMPersistHelper
     
@@ -52,11 +52,11 @@ public SaveToStream(resource $stream): bool
 
 ## Зміст
 
--   [COMPersistHelper::construct](compersisthelper.construct.html) - Конструктор класу COMPersistHelper
--   [COMPersistHelper::GetCurFileName](compersisthelper.getcurfilename.html) — Отримати ім'я файлу
--   [COMPersistHelper::GetMaxStreamSize](compersisthelper.getmaxstreamsize.html) — Отримати максимальний розмір потоку
--   [COMPersistHelper::InitNew](compersisthelper.initnew.html) — Ініціалізує об'єкт у стан за умовчанням
--   [COMPersistHelper::LoadFromFile](compersisthelper.loadfromfile.html) — Завантажити об'єкт із файлу
--   [COMPersistHelper::LoadFromStream](compersisthelper.loadfromstream.html) — Завантажує об'єкт із потоку
--   [COMPersistHelper::SaveToFile](compersisthelper.savetofile.html) — Зберегти об'єкт у файл
--   [COMPersistHelper::SaveToStream](compersisthelper.savetostream.html) — Зберігає об'єкт у потоці
+-   [COMPersistHelper::construct](compersisthelper.construct.md) - Конструктор класу COMPersistHelper
+-   [COMPersistHelper::GetCurFileName](compersisthelper.getcurfilename.md) — Отримати ім'я файлу
+-   [COMPersistHelper::GetMaxStreamSize](compersisthelper.getmaxstreamsize.md) — Отримати максимальний розмір потоку
+-   [COMPersistHelper::InitNew](compersisthelper.initnew.md) — Ініціалізує об'єкт у стан за умовчанням
+-   [COMPersistHelper::LoadFromFile](compersisthelper.loadfromfile.md) — Завантажити об'єкт із файлу
+-   [COMPersistHelper::LoadFromStream](compersisthelper.loadfromstream.md) — Завантажує об'єкт із потоку
+-   [COMPersistHelper::SaveToFile](compersisthelper.savetofile.md) — Зберегти об'єкт у файл
+-   [COMPersistHelper::SaveToStream](compersisthelper.savetostream.md) — Зберігає об'єкт у потоці

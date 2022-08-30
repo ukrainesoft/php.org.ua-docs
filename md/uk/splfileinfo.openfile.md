@@ -1,12 +1,12 @@
 Отримує об'єкт SplFileObject для файлу
 
--   [« SplFileInfo::isWritable](splfileinfo.iswritable.html)
+-   [« SplFileInfo::isWritable](splfileinfo.iswritable.md)
     
--   [SplFileInfo::setFileClass »](splfileinfo.setfileclass.html)
+-   [SplFileInfo::setFileClass »](splfileinfo.setfileclass.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Отримує об'єкт SplFileObject для файлу
     
@@ -23,13 +23,13 @@ SplFileInfo::openFile — Отримує об'єкт SplFileObject для фай
 public SplFileInfo::openFile(string $mode = "r", bool $useIncludePath = false, ?resource $context = null): SplFileObject
 ```
 
-Створює об'єкт (object) [SplFileObject](class.splfileobject.html) файлу. Це корисно, тому що [SplFileObject](class.splfileobject.html) містить додаткові методи для роботи з файлом, у той час як [SplFileInfo](class.splfileinfo.html) корисний тільки для отримання інформації, наприклад, чи файл для запису.
+Створює об'єкт (object) [SplFileObject](class.splfileobject.md) файлу. Це корисно, тому що [SplFileObject](class.splfileobject.md) містить додаткові методи для роботи з файлом, у той час як [SplFileInfo](class.splfileinfo.md) корисний тільки для отримання інформації, наприклад, чи файл для запису.
 
 ### Список параметрів
 
 `mode`
 
-Режим відкриття файлу. Дивіться документацію з [fopen()](function.fopen.html) із описом можливих режимів. За промовчанням лише для читання.
+Режим відкриття файлу. Дивіться документацію з [fopen()](function.fopen.md) із описом можливих режимів. За промовчанням лише для читання.
 
 `useIncludePath`
 
@@ -37,21 +37,21 @@ public SplFileInfo::openFile(string $mode = "r", bool $useIncludePath = false, ?
 
 `context`
 
-Для опису `контекстов` зверніться до наступного розділу посібника: [контекст](context.html)
+Для опису `контекстов` зверніться до наступного розділу посібника: [контекст](context.md)
 
 ### Значення, що повертаються
 
-Відкритий файл як об'єкт (object) [SplFileObject](class.splfileobject.html)
+Відкритий файл як об'єкт (object) [SplFileObject](class.splfileobject.md)
 
 ### Помилки
 
-Викидає [RuntimeException](class.runtimeexception.html), якщо файл не може бути відкритий (наприклад, недостатньо прав доступу).
+Викидає [RuntimeException](class.runtimeexception.md), якщо файл не може бути відкритий (наприклад, недостатньо прав доступу).
 
 ### список змін
 
-| Версия | Описание                                |
-|--------|-----------------------------------------|
-|        | `context` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `context` тепер допускає значення null. |
 
 ### Приклади
 
@@ -72,6 +72,6 @@ if ($fileinfo->isWritable()) {
 
 ### Дивіться також
 
--   [SplFileObject](class.splfileobject.html)
+-   [SplFileObject](class.splfileobject.md)
 -   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку
--   [fopen()](function.fopen.html) - Відкриває файл або URL
+-   [fopen()](function.fopen.md) - Відкриває файл або URL

@@ -1,12 +1,12 @@
 Клас SoapServer
 
--   [« SoapClient::soapCall](soapclient.soapcall.html)
+-   [« SoapClient::soapCall](soapclient.soapcall.md)
     
--   [SoapServer::addFunction »](soapserver.addfunction.html)
+-   [SoapServer::addFunction »](soapserver.addfunction.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SOAP](book.soap.html)
+-   [SOAP](book.soap.md)
     
 -   Клас SoapServer
     
@@ -67,12 +67,12 @@ soapfault
 
 ## Зміст
 
--   [SoapServer::addFunction](soapserver.addfunction.html) — Додає одну або кілька функцій обробки запитів SOAP
--   [SoapServer::addSoapHeader](soapserver.addsoapheader.html) — Додати заголовок SOAP у відповідь
--   [SoapServer::construct](soapserver.construct.html) - Конструктор SoapServer
--   [SoapServer::fault](soapserver.fault.html) — Вимушує SoapServer повернути помилку
--   [SoapServer::getFunctions](soapserver.getfunctions.html) — Повернути список функцій
--   [SoapServer::handle](soapserver.handle.html) - Обробка SOAP-запиту
--   [SoapServer::setClass](soapserver.setclass.html) - Встановлює клас, який обробляє SOAP-запити
--   [SoapServer::setObject](soapserver.setobject.html) — Встановлює об'єкт, який використовуватиметься для обробки SOAP-запитів
--   [SoapServer::setPersistence](soapserver.setpersistence.html) — Встановлює режим збереження SoapServer
+-   [SoapServer::addFunction](soapserver.addfunction.md) — Додає одну або кілька функцій обробки запитів SOAP
+-   [SoapServer::addSoapHeader](soapserver.addsoapheader.md) — Додати заголовок SOAP у відповідь
+-   [SoapServer::construct](soapserver.construct.md) - Конструктор SoapServer
+-   [SoapServer::fault](soapserver.fault.md) — Вимушує SoapServer повернути помилку
+-   [SoapServer::getFunctions](soapserver.getfunctions.md) — Повернути список функцій
+-   [SoapServer::handle](soapserver.handle.md) - Обробка SOAP-запиту
+-   [SoapServer::setClass](soapserver.setclass.md) - Встановлює клас, який обробляє SOAP-запити
+-   [SoapServer::setObject](soapserver.setobject.md) — Встановлює об'єкт, який використовуватиметься для обробки SOAP-запитів
+-   [SoapServer::setPersistence](soapserver.setpersistence.md) — Встановлює режим збереження SoapServer

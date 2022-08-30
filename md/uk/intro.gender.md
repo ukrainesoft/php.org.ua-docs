@@ -2,7 +2,7 @@
 
 -   [« Gender](book.gender.html)
     
--   [Установка и настройка »](gender.setup.html)
+-   [Встановлення та налаштування »](gender.setup.html)
     
 -   [PHP Manual](index.html)
     

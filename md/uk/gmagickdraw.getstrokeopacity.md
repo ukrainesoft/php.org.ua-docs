@@ -1,12 +1,12 @@
 Повертає прозорість обведених контурів об'єкта
 
--   [« GmagickDraw::getstrokecolor](gmagickdraw.getstrokecolor.html)
+-   [« GmagickDraw::getstrokecolor](gmagickdraw.getstrokecolor.md)
     
--   [GmagickDraw::getstrokewidth »](gmagickdraw.getstrokewidth.html)
+-   [GmagickDraw::getstrokewidth »](gmagickdraw.getstrokewidth.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickDraw](class.gmagickdraw.html)
+-   [GmagickDraw](class.gmagickdraw.md)
     
 -   Повертає прозорість обведених контурів об'єкта
     

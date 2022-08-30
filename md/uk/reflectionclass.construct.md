@@ -1,12 +1,12 @@
 Створює об'єкт класу ReflectionClass
 
--   [« ReflectionClass](class.reflectionclass.html)
+-   [« ReflectionClass](class.reflectionclass.md)
     
--   [ReflectionClass::export »](reflectionclass.export.html)
+-   [ReflectionClass::export »](reflectionclass.export.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Створює об'єкт класу ReflectionClass
     
@@ -21,7 +21,7 @@ ReflectionClass::construct — Створює об'єкт класу ReflectionC
 
 public **ReflectionClass::construct**(object | string `$objectOrClass`
 
-Створює новий об'єкт класу [ReflectionClass](class.reflectionclass.html)
+Створює новий об'єкт класу [ReflectionClass](class.reflectionclass.md)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public **ReflectionClass::construct**(object | string `$objectOrClass`
 
 ### Помилки
 
-Викликає виняток [ReflectionException](class.reflectionexception.html)якщо заданий клас не існує.
+Викликає виняток [ReflectionException](class.reflectionexception.md)якщо заданий клас не існує.
 
 ### Приклади
 
@@ -109,5 +109,5 @@ Class [ <internal:Core> class Exception ] {
 
 ### Дивіться також
 
--   [ReflectionObject::construct()](reflectionobject.construct.html) - Конструктор класу ReflectionObject
+-   [ReflectionObject::construct()](reflectionobject.construct.md) - Конструктор класу ReflectionObject
 -   [Конструктори](language.oop5.decon.html#language.oop5.decon.constructor)

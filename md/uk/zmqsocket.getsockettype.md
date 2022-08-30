@@ -1,12 +1,12 @@
 Отримати тип сокету
 
--   [« ZMQSocket::getPersistentId](zmqsocket.getpersistentid.html)
+-   [« ZMQSocket::getPersistentId](zmqsocket.getpersistentid.md)
     
--   [ZMQSocket::getSockOpt »](zmqsocket.getsockopt.html)
+-   [ZMQSocket::getSockOpt »](zmqsocket.getsockopt.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQSocket](class.zmqsocket.html)
+-   [ZMQSocket](class.zmqsocket.md)
     
 -   Отримати тип сокету
     

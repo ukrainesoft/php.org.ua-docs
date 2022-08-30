@@ -4,9 +4,9 @@
     
 -   [sodiumbin2hex »](function.sodium-bin2hex.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Кодує необроблений двійковий рядок за допомогою base64
     

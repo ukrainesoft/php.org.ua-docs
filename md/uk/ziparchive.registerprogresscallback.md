@@ -1,12 +1,12 @@
 Реєструє callback-функцію для надання оновлень під час закриття архіву
 
--   [« ZipArchive::registerCancelCallback](ziparchive.registercancelcallback.html)
+-   [« ZipArchive::registerCancelCallback](ziparchive.registercancelcallback.md)
     
--   [ZipArchive::renameIndex »](ziparchive.renameindex.html)
+-   [ZipArchive::renameIndex »](ziparchive.renameindex.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Реєструє callback-функцію для надання оновлень під час закриття архіву
     
@@ -64,4 +64,4 @@ if ($zip->open('php.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE)) {
 
 ### Дивіться також
 
--   [ZipArchive::registerCancelCallback()](ziparchive.registercancelcallback.html) - Реєструє callback-функцію для дозволу скасування під час закриття архіву
+-   [ZipArchive::registerCancelCallback()](ziparchive.registercancelcallback.md) - Реєструє callback-функцію для дозволу скасування під час закриття архіву

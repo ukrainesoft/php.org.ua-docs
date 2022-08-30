@@ -4,9 +4,9 @@
     
 -   [inotifyqueuelen »](function.inotify-queue-len.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Inotify](ref.inotify.html)
+-   [Функции Inotify](ref.inotify.md)
     
 -   Ініціалізує екземпляр inotify
     
@@ -98,4 +98,4 @@ array(
 -   [inotifyрмwatch()](function.inotify-rm-watch.html) - Видалити спостерігача
 -   [inotifyqueuelen()](function.inotify-queue-len.html) - Повертає кількість очікуваних подій у черзі
 -   [inotifyread()](function.inotify-read.html) - Читає очікуючі повідомлення з черги
--   [fclose()](function.fclose.html) - Закриває відкритий дескриптор файлу
+-   [fclose()](function.fclose.md) - Закриває відкритий дескриптор файлу

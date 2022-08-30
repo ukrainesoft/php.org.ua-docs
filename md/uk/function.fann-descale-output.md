@@ -4,9 +4,9 @@
     
 -   [fanndescaletrain »](function.fann-descale-train.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Масштабує дані у вихідному векторі після отримання їх на основі раніше розрахованих параметрів
     

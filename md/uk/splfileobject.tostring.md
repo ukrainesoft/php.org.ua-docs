@@ -23,6 +23,6 @@ SplFileObject::toString - Псевдонім [SplFileObject::fgets()](splfileobj
 
 ### список змін
 
-| Версия | Описание                                                                                                                         |
-|--------|----------------------------------------------------------------------------------------------------------------------------------|
-|        | Змінено псевдонім з [SplFileObject::current()](splfileobject.current.html) на [SplFileObject::fgets()](splfileobject.fgets.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Змінено псевдонім з [SplFileObject::current()](splfileobject.current.html) на [SplFileObject::fgets()](splfileobject.fgets.html) |

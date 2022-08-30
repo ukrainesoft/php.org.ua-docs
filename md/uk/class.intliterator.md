@@ -1,12 +1,12 @@
 Клас IntlIterator
 
--   [« IntlException](class.intlexception.html)
+-   [« IntlException](class.intlexception.md)
     
--   [IntlIterator::current »](intliterator.current.html)
+-   [IntlIterator::current »](intliterator.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [intl](book.intl.html)
+-   [intl](book.intl.md)
     
 -   Клас IntlIterator
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Цей клас представляє ітератор об'єктів модуля intl у випадках, коли не можна призначити будь-який інший ітератор для об'єкта даного модуля. Єдиний об'єкт ітератора для використання в [конструкції `foreach`](control-structures.foreach.html) може бути отриманий тільки (у відповідній частині тут) з об'єктів, тому об'єкти даного класу служать для отримання таких внутрішніх об'єктів. Для зручності цей клас також реалізує інтерфейс. [Iterator](class.iterator.html), дозволяючи взаємодіяти з колекціями значень використовуючи методи, визначені в цьому інтерфейсі. Обидва ці методи і внутрішні об'єкти ітератора зберігають свій стан під час передачі в `foreach`. (Тобто внутрішній покажчик і поточне значення залишаються незмінними).
+Цей клас представляє ітератор об'єктів модуля intl у випадках, коли не можна призначити будь-який інший ітератор для об'єкта даного модуля. Єдиний об'єкт ітератора для використання в [конструкції `foreach`](control-structures.foreach.html) може бути отриманий тільки (у відповідній частині тут) з об'єктів, тому об'єкти даного класу служать для отримання таких внутрішніх об'єктів. Для зручності цей клас також реалізує інтерфейс. [Iterator](class.iterator.md), дозволяючи взаємодіяти з колекціями значень використовуючи методи, визначені в цьому інтерфейсі. Обидва ці методи і внутрішні об'єкти ітератора зберігають свій стан під час передачі в `foreach`. (Тобто внутрішній покажчик і поточне значення залишаються незмінними).
 
 Класи нащадки можуть надавати ширшу функціональність.
 
@@ -49,8 +49,8 @@ public valid(): bool
 
 ## Зміст
 
--   [IntlIterator::current](intliterator.current.html) — Отримати поточний елемент
--   [IntlIterator::key](intliterator.key.html) — Отримати ключ поточного елемента
--   [IntlIterator::next](intliterator.next.html) — Перейти до наступного елементу
--   [IntlIterator::rewind](intliterator.rewind.html) — Перейти до першого елементу
--   [IntlIterator::valid](intliterator.valid.html) — Перевірити, чи поточна позиція коректна
+-   [IntlIterator::current](intliterator.current.md) — Отримати поточний елемент
+-   [IntlIterator::key](intliterator.key.md) — Отримати ключ поточного елемента
+-   [IntlIterator::next](intliterator.next.md) — Перейти до наступного елементу
+-   [IntlIterator::rewind](intliterator.rewind.md) — Перейти до першого елементу
+-   [IntlIterator::valid](intliterator.valid.md) — Перевірити, чи поточна позиція коректна

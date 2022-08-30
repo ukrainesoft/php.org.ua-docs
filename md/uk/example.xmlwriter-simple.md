@@ -1,12 +1,12 @@
 Створення простого XML-документа
 
--   [« Примеры](xmlwriter.examples.html)
+-   [« Приклади](xmlwriter.examples.html)
     
 -   [Робота з просторами імен XML »](example.xmlwriter-namespace.html)
     
 -   [PHP Manual](index.html)
     
--   [Примеры](xmlwriter.examples.html)
+-   [Приклади](xmlwriter.examples.html)
     
 -   Створення простого XML-документа
     

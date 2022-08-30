@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.gettext.html)
+-   [« Введение](intro.gettext.md)
     
--   [Требования »](gettext.requirements.html)
+-   [Вимоги »](gettext.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gettext](book.gettext.html)
+-   [Gettext](book.gettext.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](gettext.requirements.html)
--   [Установка](gettext.installation.html)
--   [Настройка во время выполнения](gettext.configuration.html)
--   [Типы ресурсов](gettext.resources.html)
+-   [Вимоги](gettext.requirements.md)
+-   [Установка](gettext.installation.md)
+-   [Налаштування під час виконання](gettext.configuration.md)
+-   [Типи ресурсів](gettext.resources.md)

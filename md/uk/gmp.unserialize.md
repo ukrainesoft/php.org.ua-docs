@@ -1,12 +1,12 @@
 Десеріалізує параметр data в об'єкт GMP
 
--   [« GMP::serialize](gmp.serialize.html)
+-   [« GMP::serialize](gmp.serialize.md)
     
--   [Math »](book.math.html)
+-   [Math »](book.math.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GMP](class.gmp.html)
+-   [GMP](class.gmp.md)
     
 -   Десеріалізує параметр data в об'єкт GMP
     

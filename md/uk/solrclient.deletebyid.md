@@ -1,12 +1,12 @@
 Видаляє за ідентифікатором
 
--   [« SolrClient::construct](solrclient.construct.html)
+-   [« SolrClient::construct](solrclient.construct.md)
     
--   [SolrClient::deleteByIds »](solrclient.deletebyids.html)
+-   [SolrClient::deleteByIds »](solrclient.deletebyids.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrClient](class.solrclient.html)
+-   [SolrClient](class.solrclient.md)
     
 -   Видаляє за ідентифікатором
     
@@ -33,16 +33,16 @@ public SolrClient::deleteById(string $id): SolrUpdateResponse
 
 ### Значення, що повертаються
 
-Повертає об'єкт [SolrUpdateResponse](class.solrupdateresponse.html) або викидає виняток у разі помилки.
+Повертає об'єкт [SolrUpdateResponse](class.solrupdateresponse.md) або викидає виняток у разі помилки.
 
 ### Помилки
 
-Викидає [SolrClientException](class.solrclientexception.html)якщо клієнт відмовив або виникла проблема з підключенням.
+Викидає [SolrClientException](class.solrclientexception.md)якщо клієнт відмовив або виникла проблема з підключенням.
 
-Викидає [SolrServerException](class.solrserverexception.html)якщо сервер Solr не зміг обробити запит.
+Викидає [SolrServerException](class.solrserverexception.md)якщо сервер Solr не зміг обробити запит.
 
 ### Дивіться також
 
--   [SolrClient::deleteByIds()](solrclient.deletebyids.html) - Видаляє за ідентифікаторами
--   [SolrClient::deleteByQuery()](solrclient.deletebyquery.html) - Видаляє всі документи, що відповідають заданому запиту
--   [SolrClient::deleteByQueries()](solrclient.deletebyqueries.html) - Видаляє всі документи, що відповідають будь-якому із запитів
+-   [SolrClient::deleteByIds()](solrclient.deletebyids.md) - Видаляє за ідентифікаторами
+-   [SolrClient::deleteByQuery()](solrclient.deletebyquery.md) - Видаляє всі документи, що відповідають заданому запиту
+-   [SolrClient::deleteByQueries()](solrclient.deletebyqueries.md) - Видаляє всі документи, що відповідають будь-якому із запитів

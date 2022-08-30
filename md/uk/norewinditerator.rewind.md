@@ -1,12 +1,12 @@
 Запобігає поверненню внутрішнього ітератора на початок
 
--   [« NoRewindIterator::next](norewinditerator.next.html)
+-   [« NoRewindIterator::next](norewinditerator.next.md)
     
--   [NoRewindIterator::valid »](norewinditerator.valid.html)
+-   [NoRewindIterator::valid »](norewinditerator.valid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [NoRewindIterator](class.norewinditerator.html)
+-   [NoRewindIterator](class.norewinditerator.md)
     
 -   Запобігає поверненню внутрішнього ітератора на початок
     

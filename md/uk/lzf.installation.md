@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](lzf.requirements.html)
+-   [« Вимоги](lzf.requirements.html)
     
--   [Настройка во время выполнения »](lzf.configuration.html)
+-   [Налаштування під час виконання »](lzf.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](lzf.setup.html)
+-   [Встановлення та налаштування](lzf.setup.html)
     
 -   Встановлення
     

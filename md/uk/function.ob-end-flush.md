@@ -4,9 +4,9 @@
     
 -   [проflush »](function.ob-flush.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції контролю виведення](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.md)
     
 -   Скинути (надіслати) буфер виведення та вимкнути буферизацію виводу
     

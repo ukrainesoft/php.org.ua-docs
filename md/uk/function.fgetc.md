@@ -1,12 +1,12 @@
 Зчитує символ із файлу
 
--   [« fflush](function.fflush.html)
+-   [« fflush](function.fflush.md)
     
--   [fgetcsv »](function.fgetcsv.html)
+-   [fgetcsv »](function.fgetcsv.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Зчитує символ із файлу
     
@@ -29,7 +29,7 @@ fgetc(resource $stream): string|false
 
 `stream`
 
-Вказівник на файл повинен бути коректним і вказувати на файл, успішно відкритий функціями [fopen()](function.fopen.html) або [fsockopen()](function.fsockopen.html) (і все ще не закритий функцією [fclose()](function.fclose.html)
+Вказівник на файл повинен бути коректним і вказувати на файл, успішно відкритий функціями [fopen()](function.fopen.md) або [fsockopen()](function.fsockopen.md) (і все ще не закритий функцією [fclose()](function.fclose.md)
 
 ### Значення, що повертаються
 
@@ -37,7 +37,7 @@ fgetc(resource $stream): string|false
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### Приклади
 
@@ -61,8 +61,8 @@ while (false !== ($char = fgetc($fp))) {
 
 ### Дивіться також
 
--   [fread()](function.fread.html) - Бінарно-безпечне читання файлу
--   [fopen()](function.fopen.html) - Відкриває файл або URL
--   [popen()](function.popen.html) - Відкриває файловий покажчик процесу
--   [fsockopen()](function.fsockopen.html) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [fgets()](function.fgets.html) - Читає рядок із файлу
+-   [fread()](function.fread.md) - Бінарно-безпечне читання файлу
+-   [fopen()](function.fopen.md) - Відкриває файл або URL
+-   [popen()](function.popen.md) - Відкриває файловий покажчик процесу
+-   [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [fgets()](function.fgets.md) - Читає рядок із файлу

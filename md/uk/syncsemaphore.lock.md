@@ -1,12 +1,12 @@
 Зменшує рахунок семафору або чекає
 
--   [« SyncSemaphore::construct](syncsemaphore.construct.html)
+-   [« SyncSemaphore::construct](syncsemaphore.construct.md)
     
--   [SyncSemaphore::unlock »](syncsemaphore.unlock.html)
+-   [SyncSemaphore::unlock »](syncsemaphore.unlock.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SyncSemaphore](class.syncsemaphore.html)
+-   [SyncSemaphore](class.syncsemaphore.md)
     
 -   Зменшує рахунок семафору або чекає
     
@@ -23,7 +23,7 @@ Sync Semaphore::lock — Зменшує рахунок семафору або �
 public SyncSemaphore::lock(int $wait = -1): bool
 ```
 
-Зменшує лічильник об'єкта [SyncSemaphore](class.syncsemaphore.html) або чекає, поки семафор стане відмінним від нуля.
+Зменшує лічильник об'єкта [SyncSemaphore](class.syncsemaphore.md) або чекає, поки семафор стане відмінним від нуля.
 
 ### Список параметрів
 
@@ -58,4 +58,4 @@ $semaphore->unlock();
 
 ### Дивіться також
 
--   [SyncSemaphore::unlock()](syncsemaphore.unlock.html) - Збільшує рахунок семафору
+-   [SyncSemaphore::unlock()](syncsemaphore.unlock.md) - Збільшує рахунок семафору

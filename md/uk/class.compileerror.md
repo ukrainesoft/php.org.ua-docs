@@ -1,12 +1,12 @@
 CompileError
 
--   [« DivisionByZeroError](class.divisionbyzeroerror.html)
+-   [« DivisionByZeroError](class.divisionbyzeroerror.md)
     
--   [ParseError »](class.parseerror.html)
+-   [ParseError »](class.parseerror.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые исключения](reserved.exceptions.html)
+-   [Обумовлені винятки](reserved.exceptions.md)
     
 -   CompileError
     

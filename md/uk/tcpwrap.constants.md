@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](tcpwrap.resources.html)
+-   [« Типи ресурсів](tcpwrap.resources.md)
     
--   [Функції TCP »](ref.tcpwrap.html)
+-   [Функції TCP »](ref.tcpwrap.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [TCP](book.tcpwrap.html)
+-   [TCP](book.tcpwrap.md)
     
 -   Обумовлені константи
     

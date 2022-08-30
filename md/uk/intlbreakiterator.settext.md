@@ -1,12 +1,12 @@
 Встановлює сканований текст
 
--   [« IntlBreakIterator::previous](intlbreakiterator.previous.html)
+-   [« IntlBreakIterator::previous](intlbreakiterator.previous.md)
     
--   [IntlRuleBasedBreakIterator »](class.intlrulebasedbreakiterator.html)
+-   [IntlRuleBasedBreakIterator »](class.intlrulebasedbreakiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlBreakIterator](class.intlbreakiterator.html)
+-   [IntlBreakIterator](class.intlbreakiterator.md)
     
 -   Встановлює сканований текст
     

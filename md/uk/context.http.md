@@ -1,12 +1,12 @@
 Список опцій контексту HTTP
 
--   [« Контекстные опции сокета](context.socket.html)
+-   [« Контекстні опції сокету](context.socket.html)
     
--   [Параметры контекста FTP »](context.ftp.html)
+-   [Параметри контексту FTP »](context.ftp.html)
     
 -   [PHP Manual](index.html)
     
--   [Контекстные опции и параметры](context.html)
+-   [Контекстні опції та параметри](context.html)
     
 -   Список опцій контексту HTTP
     
@@ -163,5 +163,5 @@ fclose($stream);
 ### Дивіться також
 
 -   [http://](wrappers.http.html)
--   [Контекстные опции сокета](context.socket.html)
+-   [Контекстні опції сокету](context.socket.html)
 -   [Опции контекста SSL](context.ssl.html)

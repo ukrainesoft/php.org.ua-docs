@@ -1,12 +1,12 @@
 Отримання рядка помилки XML-аналізатора
 
--   [« Функции парсера XML](ref.xml.html)
+-   [« Функции парсера XML](ref.xml.md)
     
 -   [xmlgetcurrentbyteindex »](function.xml-get-current-byte-index.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции парсера XML](ref.xml.html)
+-   [Функции парсера XML](ref.xml.md)
     
 -   Отримання рядка помилки XML-аналізатора
     

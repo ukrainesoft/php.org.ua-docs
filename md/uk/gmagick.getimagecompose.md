@@ -1,12 +1,12 @@
 Повертає складовий оператор, пов'язаний із зображенням
 
--   [« Gmagick::getimagecolorspace](gmagick.getimagecolorspace.html)
+-   [« Gmagick::getimagecolorspace](gmagick.getimagecolorspace.md)
     
--   [Gmagick::getimagedelay »](gmagick.getimagedelay.html)
+-   [Gmagick::getimagedelay »](gmagick.getimagedelay.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повертає складовий оператор, пов'язаний із зображенням
     

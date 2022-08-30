@@ -4,9 +4,9 @@
     
 -   [gmprandom »](function.gmp-random.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GMP Функції](ref.gmp.html)
+-   [GMP Функції](ref.gmp.md)
     
 -   Встановити початковий стан RNG
     
@@ -29,7 +29,7 @@ gmp_random_seed(GMP|int|string $seed): void
 
 Початковий стан для функцій [gmprandom()](function.gmp-random.html) [gmprandombits()](function.gmp-random-bits.html) і [gmprandomrange()](function.gmp-random-range.html)
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 

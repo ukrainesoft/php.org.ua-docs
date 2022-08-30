@@ -4,9 +4,9 @@
     
 -   [мбstrsplit »](function.mb-str-split.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
     
 -   Поділ рядків у багатобайтних кодуваннях, використовуючи регулярний вираз
     

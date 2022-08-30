@@ -4,7 +4,7 @@
     
 -   [SwooleAtomic::get »](swoole-atomic.get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleAtomic](class.swoole-atomic.html)
     

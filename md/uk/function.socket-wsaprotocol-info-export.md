@@ -4,9 +4,9 @@
     
 -   [socketwsaprotocolinfoimport »](function.socket-wsaprotocol-info-import.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции сокета](ref.sockets.html)
+-   [Функции сокета](ref.sockets.md)
     
 -   Експорт структури WSAPROTOCOLINFO
     
@@ -31,7 +31,7 @@ socket_wsaprotocol_info_export(Socket $socket, int $process_id): string|false
 
 `socket`
 
-Екземпляр [Socket](class.socket.html)
+Екземпляр [Socket](class.socket.md)
 
 `process_id`
 
@@ -43,9 +43,9 @@ socket_wsaprotocol_info_export(Socket $socket, int $process_id): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 

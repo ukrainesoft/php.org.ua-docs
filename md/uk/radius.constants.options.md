@@ -1,12 +1,12 @@
 Опції RADIUS
 
--   [« Предопределённые константы](radius.constants.html)
+-   [« Обумовлені константи](radius.constants.html)
     
--   [типы пакетов RADIUS »](radius.constants.packets.html)
+-   [типи пакетів RADIUS »](radius.constants.packets.html)
     
 -   [PHP Manual](index.html)
     
--   [Предопределённые константы](radius.constants.html)
+-   [Обумовлені константи](radius.constants.html)
     
 -   Опції RADIUS
     

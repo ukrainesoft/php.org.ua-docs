@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](mqseries.ini.html)
+-   [« Налаштування під час виконання](mqseries.ini.md)
     
--   [Предопределённые константы »](mqseries.constants.html)
+-   [Обумовлені константи »](mqseries.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](mqseries.setup.html)
+-   [Встановлення та налаштування](mqseries.setup.md)
     
 -   Типи ресурсів
     

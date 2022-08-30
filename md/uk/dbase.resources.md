@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](dbase.configuration.html)
+-   [« Налаштування під час виконання](dbase.configuration.md)
     
--   [Предопределённые константы »](dbase.constants.html)
+-   [Обумовлені константи »](dbase.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](dbase.setup.html)
+-   [Встановлення та налаштування](dbase.setup.md)
     
 -   Типи ресурсів
     

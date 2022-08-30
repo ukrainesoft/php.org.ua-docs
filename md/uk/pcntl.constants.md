@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](pcntl.resources.html)
+-   [« Типи ресурсів](pcntl.resources.md)
     
--   [Примеры »](pcntl.examples.html)
+-   [Приклади »](pcntl.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PCNTL](book.pcntl.html)
+-   [PCNTL](book.pcntl.md)
     
 -   Обумовлені константи
     

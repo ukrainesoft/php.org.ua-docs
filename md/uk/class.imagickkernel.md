@@ -1,12 +1,12 @@
 Клас ImagickKernel
 
--   [« ImagickPixelIterator::syncIterator](imagickpixeliterator.synciterator.html)
+-   [« ImagickPixelIterator::syncIterator](imagickpixeliterator.synciterator.md)
     
--   [ImagickKernel::addKernel »](imagickkernel.addkernel.html)
+-   [ImagickKernel::addKernel »](imagickkernel.addkernel.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImageMagick](book.imagick.html)
+-   [ImageMagick](book.imagick.md)
     
 -   Клас ImagickKernel
     
@@ -45,10 +45,10 @@ public separate(): array
 
 ## Зміст
 
--   [ImagickKernel::addKernel](imagickkernel.addkernel.html) - Опис
--   [ImagickKernel::addUnityKernel](imagickkernel.addunitykernel.html) - Опис
--   [ImagickKernel::fromBuiltIn](imagickkernel.frombuiltin.html) - Опис
--   [ImagickKernel::fromMatrix](imagickkernel.frommatrix.html) - Опис
--   [ImagickKernel::getMatrix](imagickkernel.getmatrix.html) - Опис
--   [ImagickKernel::scale](imagickkernel.scale.html) - Опис
--   [ImagickKernel::separate](imagickkernel.separate.html) - Опис
+-   [ImagickKernel::addKernel](imagickkernel.addkernel.md) - Опис
+-   [ImagickKernel::addUnityKernel](imagickkernel.addunitykernel.md) - Опис
+-   [ImagickKernel::fromBuiltIn](imagickkernel.frombuiltin.md) - Опис
+-   [ImagickKernel::fromMatrix](imagickkernel.frommatrix.md) - Опис
+-   [ImagickKernel::getMatrix](imagickkernel.getmatrix.md) - Опис
+-   [ImagickKernel::scale](imagickkernel.scale.md) - Опис
+-   [ImagickKernel::separate](imagickkernel.separate.md) - Опис

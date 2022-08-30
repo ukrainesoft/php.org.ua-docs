@@ -4,7 +4,7 @@
     
 -   [ОЙMenuItem::enable »](ui-menuitem.enable.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙMenuItem](class.ui-menuitem.html)
     

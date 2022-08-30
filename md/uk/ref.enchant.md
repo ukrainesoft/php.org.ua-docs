@@ -1,12 +1,12 @@
 Функції Enchant
 
--   [« Примеры](enchant.examples.html)
+-   [« Приклади](enchant.examples.md)
     
 -   [enchantbrokerdescribe »](function.enchant-broker-describe.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Enchant](book.enchant.html)
+-   [Enchant](book.enchant.md)
     
 -   Функції Enchant
     

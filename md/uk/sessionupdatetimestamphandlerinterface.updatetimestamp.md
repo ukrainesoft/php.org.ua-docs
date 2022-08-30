@@ -1,12 +1,12 @@
 Оновити позначку часу
 
--   [« SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.html)
+-   [« SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.md)
     
--   [SessionUpdateTimestampHandlerInterface::validateId »](sessionupdatetimestamphandlerinterface.validateid.html)
+-   [SessionUpdateTimestampHandlerInterface::validateId »](sessionupdatetimestamphandlerinterface.validateid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.html)
+-   [SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.md)
     
 -   Оновити позначку часу
     

@@ -4,9 +4,9 @@
     
 -   [getresourceid »](function.get-resource-id.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи зі змінними](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.md)
     
 -   Повертає масив усіх певних змінних
     
@@ -56,13 +56,13 @@ print_r($arr["argv"]);
 // печатает все серверные переменные
 print_r($arr["_SERVER"]);
 
-// печатает все доступные ключи для массивов переменных
+// печатает все доступные ключи для Масивов переменных
 print_r(array_keys(get_defined_vars()));
 ?>
 ```
 
 ### Дивіться також
 
--   [isset()](function.isset.html) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
+-   [isset()](function.isset.md) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
 -   [getdefinedfunctions()](function.get-defined-functions.html) - Повертає масив усіх певних функцій
 -   [getdefinedconstants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень

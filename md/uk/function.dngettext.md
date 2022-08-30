@@ -1,12 +1,12 @@
 Версія dgettext для множини
 
--   [« dgettext](function.dgettext.html)
+-   [« dgettext](function.dgettext.md)
     
--   [gettext »](function.gettext.html)
+-   [gettext »](function.gettext.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции gettext](ref.gettext.html)
+-   [Функции gettext](ref.gettext.md)
     
 -   Версія dgettext для множини
     
@@ -43,4 +43,4 @@ dngettext(    string $domain,    string $singular,    string $plural
 
 ### Дивіться також
 
--   [ngettext()](function.ngettext.html) - Версія gettext для повідомлень у множині
+-   [ngettext()](function.ngettext.md) - Версія gettext для повідомлень у множині

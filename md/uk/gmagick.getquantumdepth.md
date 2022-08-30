@@ -1,12 +1,12 @@
 Повертає глибину кольору (біт на канал) об'єкта Gmagick у вигляді рядка
 
--   [« Gmagick::getpackagename](gmagick.getpackagename.html)
+-   [« Gmagick::getpackagename](gmagick.getpackagename.md)
     
--   [Gmagick::getreleasedate »](gmagick.getreleasedate.html)
+-   [Gmagick::getreleasedate »](gmagick.getreleasedate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повертає глибину кольору (біт на канал) об'єкта Gmagick у вигляді рядка
     
@@ -23,7 +23,7 @@ Gmagick::getquantumdepth — Повертає глибину кольору (б�
 public Gmagick::getquantumdepth(): array
 ```
 
-Повертає глибину кольору (біт на канал) об'єкта [Gmagick](class.gmagick.html) у вигляді рядка.
+Повертає глибину кольору (біт на канал) об'єкта [Gmagick](class.gmagick.md) у вигляді рядка.
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public Gmagick::getquantumdepth(): array
 
 ### Значення, що повертаються
 
-Повертає глибину кольору (біт на канал) об'єкта [Gmagick](class.gmagick.html) у вигляді рядка.
+Повертає глибину кольору (біт на канал) об'єкта [Gmagick](class.gmagick.md) у вигляді рядка.
 
 ### Помилки
 

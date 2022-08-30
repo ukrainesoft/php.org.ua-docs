@@ -1,12 +1,12 @@
 Різні питання
 
--   [« PHP и COM](faq.com.html)
+-   [« PHP и COM](faq.com.md)
     
--   [Appendices »](appendices.html)
+-   [Appendices »](appendices.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ЧАВО](faq.html)
+-   [ЧАВО](faq.md)
     
 -   Різні питання
     

@@ -4,9 +4,9 @@
     
 -   [cubridseqdrop »](function.cubrid-seq-drop.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CUBRID](ref.cubrid.html)
+-   [Функции CUBRID](ref.cubrid.md)
     
 -   Отримує запитану інформацію про схему
     
@@ -29,65 +29,65 @@ cubrid_schema(    resource $conn_identifier,    int $schema_type,   �
 
 **Склад результату кожного типу**
 
-| Схема                                                               | Номер столбца | Имя столбца        | Значение                                          |
-|---------------------------------------------------------------------|---------------|--------------------|---------------------------------------------------|
-| CUBRIDSCHCLASS                                                      |               | NAME               |                                                   |
-|                                                                     |               | TYPE               | 0:system class 1:vclass 2:class                   |
-| CUBRIDSCHVCLASS                                                     |               | NAME               |                                                   |
-|                                                                     |               | TYPE               | 1:vclass                                          |
-| CUBRIDSCHQUERYSPEC                                                  |               | QUERYSPEC          |                                                   |
-| CUBRIDSCHATTRIBUTE/CUBRIDSCHCLASSATTRIBUTE                          |               | ATTRNAME           |                                                   |
-|                                                                     |               | DOMAIN             |                                                   |
-|                                                                     |               | SCALE              |                                                   |
-|                                                                     |               | PRECISION          |                                                   |
-|                                                                     |               | INDEXED            | 1:indexed                                         |
-|                                                                     |               | NOT NULL           | 1:not null                                        |
-|                                                                     |               | SHARED             | 1:shared                                          |
-|                                                                     |               | UNIQUE             | 1: unique                                         |
-|                                                                     |               | DEFAULT            |                                                   |
-|                                                                     |               | ATTRORDER          | base:1                                            |
-|                                                                     |               | CLASSNAME          |                                                   |
-|                                                                     |               | SOURCECLASS        |                                                   |
-|                                                                     |               | ІСKEY              | 1:key                                             |
-| CUBRIDSCHMETHOD/CUBRIDSCHCLASSMETHOD                                |               | NAME               |                                                   |
-|                                                                     |               | RETDOMAIN          |                                                   |
-|                                                                     |               | ARGDOMAIN          |                                                   |
-| CUBRIDSCHMETHODFILE                                                 |               | METHODFILE         |                                                   |
-| CUBRIDSCHSUPERCLASS/CUBRIDSCHDIRECTSUPERCLASS/CUBRIDSCHSUBCLASS     |               | CLASSNAME          |                                                   |
-|                                                                     |               | TYPE               | 0:system class 1:vclass 2:class                   |
-| CUBRIDSCHCONSTRAINT                                                 |               | TYPE               | 0:unique 1:index 2:reverse unique 3:reverse index |
-|                                                                     |               | NAME               |                                                   |
-|                                                                     |               | ATTRNAME           |                                                   |
-|                                                                     |               | NUMPAGES           |                                                   |
-|                                                                     |               | NUMKEYS            |                                                   |
-|                                                                     |               | PRIMARYKEY         | 1:primary key                                     |
-|                                                                     |               | KEYORDER           | base:1                                            |
-| CUBRIDSCHTRIGGER                                                    |               | NAME               |                                                   |
-|                                                                     |               | STATUS             |                                                   |
-|                                                                     |               | EVENT              |                                                   |
-|                                                                     |               | TARGETCLASS        |                                                   |
-|                                                                     |               | TARGETATTR         |                                                   |
-|                                                                     |               | ACTIONTIME         |                                                   |
-|                                                                     |               | ACTION             |                                                   |
-|                                                                     |               | PRIORITY           |                                                   |
-|                                                                     |               | CONDITIONTIME      |                                                   |
-|                                                                     |               | CONDITION          |                                                   |
-| CUBRIDSCHCLASSPRIVILEGE/CUBRIDSCHATTRPRIVILEGE                      |               | CLASSNAME/ATTRNAME |                                                   |
-|                                                                     |               | PRIVILEGE          |                                                   |
-|                                                                     |               | GRANTABLE          |                                                   |
-| CUBRIDSCHPRIMARYKEY                                                 |               | CLASSNAME          |                                                   |
-|                                                                     |               | ATTRNAME           |                                                   |
-|                                                                     |               | KEYSEQ             | base:1                                            |
-|                                                                     |               | KEYNAME            |                                                   |
-| CUBRIDSCHIMPORTEDKEYS/CUBRIDSCHEXPORTEDKEYS/CUBRIDSCHCROSSREFERENCE |               | PKTABLENAME        |                                                   |
-|                                                                     |               | PKCOLUMNNAME       |                                                   |
-|                                                                     |               | FKTABLENAME        | base:1                                            |
-|                                                                     |               | FKCOLUMNNAME       |                                                   |
-|                                                                     |               | KEYSEQ             | base:1                                            |
-|                                                                     |               | UPDATEACTION       | 0:cascade 1:restrict 2:no action 3:set null       |
-|                                                                     |               | DELETEACTION       | 0:cascade 1:restrict 2:no action 3:set null       |
-|                                                                     |               | ФКNAME             |                                                   |
-|                                                                     |               | ПКNAME             |                                                   |
+| Схема | Номер столбца | Имя столбца | Значение |
+| --- | --- | --- | --- |
+| CUBRIDSCHCLASS |  | NAME |  |
+|  |  | TYPE | 0:system class 1:vclass 2:class |
+| CUBRIDSCHVCLASS |  | NAME |  |
+|  |  | TYPE | 1:vclass |
+| CUBRIDSCHQUERYSPEC |  | QUERYSPEC |  |
+| CUBRIDSCHATTRIBUTE/CUBRIDSCHCLASSATTRIBUTE |  | ATTRNAME |  |
+|  |  | DOMAIN |  |
+|  |  | SCALE |  |
+|  |  | PRECISION |  |
+|  |  | INDEXED | 1:indexed |
+|  |  | NOT NULL | 1:not null |
+|  |  | SHARED | 1:shared |
+|  |  | UNIQUE | 1: unique |
+|  |  | DEFAULT |  |
+|  |  | ATTRORDER | base:1 |
+|  |  | CLASSNAME |  |
+|  |  | SOURCECLASS |  |
+|  |  | ІСKEY | 1:key |
+| CUBRIDSCHMETHOD/CUBRIDSCHCLASSMETHOD |  | NAME |  |
+|  |  | RETDOMAIN |  |
+|  |  | ARGDOMAIN |  |
+| CUBRIDSCHMETHODFILE |  | METHODFILE |  |
+| CUBRIDSCHSUPERCLASS/CUBRIDSCHDIRECTSUPERCLASS/CUBRIDSCHSUBCLASS |  | CLASSNAME |  |
+|  |  | TYPE | 0:system class 1:vclass 2:class |
+| CUBRIDSCHCONSTRAINT |  | TYPE | 0:unique 1:index 2:reverse unique 3:reverse index |
+|  |  | NAME |  |
+|  |  | ATTRNAME |  |
+|  |  | NUMPAGES |  |
+|  |  | NUMKEYS |  |
+|  |  | PRIMARYKEY | 1:primary key |
+|  |  | KEYORDER | base:1 |
+| CUBRIDSCHTRIGGER |  | NAME |  |
+|  |  | STATUS |  |
+|  |  | EVENT |  |
+|  |  | TARGETCLASS |  |
+|  |  | TARGETATTR |  |
+|  |  | ACTIONTIME |  |
+|  |  | ACTION |  |
+|  |  | PRIORITY |  |
+|  |  | CONDITIONTIME |  |
+|  |  | CONDITION |  |
+| CUBRIDSCHCLASSPRIVILEGE/CUBRIDSCHATTRPRIVILEGE |  | CLASSNAME/ATTRNAME |  |
+|  |  | PRIVILEGE |  |
+|  |  | GRANTABLE |  |
+| CUBRIDSCHPRIMARYKEY |  | CLASSNAME |  |
+|  |  | ATTRNAME |  |
+|  |  | KEYSEQ | base:1 |
+|  |  | KEYNAME |  |
+| CUBRIDSCHIMPORTEDKEYS/CUBRIDSCHEXPORTEDKEYS/CUBRIDSCHCROSSREFERENCE |  | PKTABLENAME |  |
+|  |  | PKCOLUMNNAME |  |
+|  |  | FKTABLENAME | base:1 |
+|  |  | FKCOLUMNNAME |  |
+|  |  | KEYSEQ | base:1 |
+|  |  | UPDATEACTION | 0:cascade 1:restrict 2:no action 3:set null |
+|  |  | DELETEACTION | 0:cascade 1:restrict 2:no action 3:set null |
+|  |  | ФКNAME |  |
+|  |  | ПКNAME |  |
 
 ### Список параметрів
 
@@ -113,9 +113,9 @@ cubrid_schema(    resource $conn_identifier,    int $schema_type,   �
 
 ### список змін
 
-| Версия | Описание                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------|
-|        | Змінено значення, що повертається: якщо процес завершився з помилкою, повертається false, а не -1. |
+| Версия | Описание |
+| --- | --- |
+|  | Змінено значення, що повертається: якщо процес завершився з помилкою, повертається false, а не -1. |
 
 ### Приклади
 

@@ -4,7 +4,7 @@
     
 -   [mysqlistmt::getwarnings »](mysqli-stmt.get-warnings.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlistmt](class.mysqli-stmt.html)
     
@@ -37,7 +37,7 @@ mysqli_stmt_get_result(mysqli_stmt $statement): mysqli_result|false
 
 > **Зауваження**
 > 
-> Доступно лише з модулем [mysqlnd](book.mysqlnd.html)
+> Доступно лише з модулем [mysqlnd](book.mysqlnd.md)
 
 > **Зауваження**
 > 
@@ -51,7 +51,7 @@ mysqli_stmt_get_result(mysqli_stmt $statement): mysqli_result|false
 
 ### Значення, що повертаються
 
-Повертає **`false`** у разі виникнення помилки. Для успішних запитів, які виробляють набір результатів, таких як `SELECT, SHOW, DESCRIBE` або `EXPLAIN` **mysqlistmtgetresult()** поверне об'єкт [mysqliresult](class.mysqli-result.html). Для інших успішних запитів **mysqlistmtgetresult()** поверне **`false`**. функцію [mysqlistmterrno()](mysqli-stmt.errno.html) можна використовувати, щоб розрізняти дві причини появи **`false`**; через помилку до PHP 7.4.13 для цієї мети доводилося використовувати [mysqlierrno()](mysqli.errno.html)
+Повертає **`false`** у разі виникнення помилки. Для успішних запитів, які виробляють набір результатів, таких як `SELECT, SHOW, DESCRIBE` або `EXPLAIN` **mysqlistmtgetresult()** поверне об'єкт [mysqliresult](class.mysqli-result.html). Для інших успішних запитів **mysqlistmtgetresult()** поверне **`false`**. функцію [mysqlistmterrno()](mysqli-stmt.errno.html) можна використовувати, щоб розрізняти дві причини появи **`false`**; через помилку до PHP 7.4.13 для цієї мети доводилося використовувати [mysqlierrno()](mysqli.errno.md)
 
 ### Приклади
 
@@ -120,7 +120,7 @@ Anguilla 8000 North America
 
 ### Дивіться також
 
--   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
 -   [mysqlistmtresultmetadata()](mysqli-stmt.result-metadata.html) - Повертає метадані результуючої таблиці запиту, що готується.
 -   [mysqlistmtfetch()](mysqli-stmt.fetch.html) - пов'язує результати підготовленого виразу зі змінними
 -   [mysqlifetcharray()](mysqli-result.fetch-array.html) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва

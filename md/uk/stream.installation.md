@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](stream.requirements.html)
+-   [« Вимоги](stream.requirements.md)
     
--   [Настройка во время выполнения »](stream.configuration.html)
+-   [Налаштування під час виконання »](stream.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](stream.setup.html)
+-   [Встановлення та налаштування](stream.setup.md)
     
 -   Встановлення
     

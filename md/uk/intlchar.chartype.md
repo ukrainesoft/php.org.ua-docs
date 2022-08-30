@@ -1,12 +1,12 @@
 Отримати головну категорію, до якої входить символ
 
--   [« IntlChar::charName](intlchar.charname.html)
+-   [« IntlChar::charName](intlchar.charname.md)
     
--   [IntlChar::chr »](intlchar.chr.html)
+-   [IntlChar::chr »](intlchar.chr.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Отримати головну категорію, до якої входить символ
     

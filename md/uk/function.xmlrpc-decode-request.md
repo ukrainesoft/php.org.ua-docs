@@ -1,12 +1,12 @@
 Декодує XML у типові типи PHP
 
--   [« Функції XML-RPC](ref.xmlrpc.html)
+-   [« Функції XML-RPC](ref.xmlrpc.md)
     
 -   [xmlrpcdecode »](function.xmlrpc-decode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції XML-RPC](ref.xmlrpc.html)
+-   [Функції XML-RPC](ref.xmlrpc.md)
     
 -   Декодує XML у типові типи PHP
     

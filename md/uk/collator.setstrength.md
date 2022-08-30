@@ -1,12 +1,12 @@
 Встановлює силу зіставлення
 
--   [« Collator::setAttribute](collator.setattribute.html)
+-   [« Collator::setAttribute](collator.setattribute.md)
     
--   [Collator::sortWithSortKeys »](collator.sortwithsortkeys.html)
+-   [Collator::sortWithSortKeys »](collator.sortwithsortkeys.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Collator](class.collator.html)
+-   [Collator](class.collator.md)
     
 -   Встановлює силу зіставлення
     
@@ -56,7 +56,7 @@ collator_set_strength(Collator $object, int $strength): bool
 
 `object`
 
-Об'єкт [Collator](class.collator.html)
+Об'єкт [Collator](class.collator.md)
 
 `strength`
 
@@ -90,11 +90,11 @@ Strength to set.
 $arr  = array( 'aò', 'Ao', 'ao' );
 $coll = collator_create( 'en_US' );
 
-// Сортировка массива с использованием силы по умолчанию.
+// Сортировка Масива с использованием силы по умолчанию.
 collator_sort( $coll, $arr );
 var_export( $arr );
 
-// Сортировка массива с использованием первичной силы.
+// Сортировка Масива с использованием первичной силы.
 collator_set_strength( $coll, Collator::PRIMARY );
 collator_sort( $coll, $arr );
 var_export( $arr );
@@ -118,5 +118,5 @@ array (
 
 ### Дивіться також
 
--   [Константы](class.collator.html#intl.collator-constants) [Collator](class.collator.html)
--   [collatorgetstrength()](collator.getstrength.html) - набуває поточної сили зіставлення
+-   [Константи](class.collator.html#intl.collator-constants) [Collator](class.collator.md)
+-   [collatorgetstrength()](collator.getstrength.md) - набуває поточної сили зіставлення

@@ -1,12 +1,12 @@
 Повертає кількість кольорів, пов'язаних з цим кольором
 
--   [« ImagickPixel::getColorAsString](imagickpixel.getcolorasstring.html)
+-   [« ImagickPixel::getColorAsString](imagickpixel.getcolorasstring.md)
     
--   [ImagickPixel::getColorQuantum »](imagickpixel.getcolorquantum.html)
+-   [ImagickPixel::getColorQuantum »](imagickpixel.getcolorquantum.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickPixel](class.imagickpixel.html)
+-   [ImagickPixel](class.imagickpixel.md)
     
 -   Повертає кількість кольорів, пов'язаних з цим кольором
     

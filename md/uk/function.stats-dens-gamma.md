@@ -4,9 +4,9 @@
     
 -   [statsdenslaplace »](function.stats-dens-laplace.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Щільність ймовірності гамма-розподілу
     

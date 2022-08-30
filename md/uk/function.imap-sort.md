@@ -68,8 +68,8 @@ imap_sort(    IMAP\Connection $imap,    int $criteria,    bool $reve
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `reverse` тепер є логічним типом (Bool) замість цілого числа (int).                                                                                    |
-|        | `search_criteria` і `charset` тепер є nullable.                                                                                                        |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `reverse` тепер є логічним типом (Bool) замість цілого числа (int). |
+|  | `search_criteria` і `charset` тепер є nullable. |

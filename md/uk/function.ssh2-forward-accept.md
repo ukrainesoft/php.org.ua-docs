@@ -4,9 +4,9 @@
     
 -   [ssh2forwardlisten »](function.ssh2-forward-listen.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Приймає з'єднання, створене слухачем
     

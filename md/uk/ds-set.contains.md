@@ -4,7 +4,7 @@
     
 -   [ДсSet::copy »](ds-set.copy.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Набор](class.ds-set.html)
     

@@ -2,9 +2,9 @@
 
 -   [« ComponereValue::isStatic](componere-value.isstatic.html)
     
--   [Функции Componere »](reference.componere.html)
+-   [Функции Componere »](reference.componere.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponereValue](class.componere-value.html)
     

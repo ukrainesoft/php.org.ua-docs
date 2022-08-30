@@ -1,12 +1,12 @@
 Mcrypt
 
--   [« Шифры Mcrypt](mcrypt.ciphers.html)
+-   [« Шифри Mcrypt](mcrypt.ciphers.md)
     
 -   [mcryptcreateiv »](function.mcrypt-create-iv.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](book.mcrypt.html)
+-   [Mcrypt](book.mcrypt.md)
     
 -   Mcrypt
     

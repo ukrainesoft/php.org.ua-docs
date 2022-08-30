@@ -2,11 +2,11 @@
 
 -   [« finfosetflags](function.finfo-set-flags.html)
     
--   [finfo »](class.finfo.html)
+-   [finfo »](class.finfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции модуля Fileinfo](ref.fileinfo.html)
+-   [Функции модуля Fileinfo](ref.fileinfo.md)
     
 -   Визначає MIME-тип вмісту файлу
     
@@ -59,5 +59,5 @@ text/plain
 
 ### Дивіться також
 
--   [finfofile()](finfo.file.html) - Псевдонім finfofile()
--   [finfobuffer()](finfo.buffer.html) - Псевдонім finfobuffer()
+-   [finfofile()](finfo.file.md) - Псевдонім finfofile()
+-   [finfobuffer()](finfo.buffer.md) - Псевдонім finfobuffer()

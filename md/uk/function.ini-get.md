@@ -4,9 +4,9 @@
     
 -   [inirestore »](function.ini-restore.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Отримує значення налаштування конфігурації
     

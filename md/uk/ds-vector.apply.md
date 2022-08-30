@@ -4,7 +4,7 @@
     
 -   [ДсVector::capacity »](ds-vector.capacity.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Вектор](class.ds-vector.html)
     
@@ -33,7 +33,7 @@ public Ds\Vector::apply(callable $callback): void
 callback(mixed $value): mixed
 ```
 
-Об'єкт типу [callable](language.types.callable.html)
+Об'єкт типу [callable](language.types.callable.md)
 
 Callback-функція має повертати нове значення, яке замінить поточне.
 

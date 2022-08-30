@@ -4,7 +4,7 @@
     
 -   [Робота з віддаленими файлами »](features.remote-files.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Загрузка файлов на сервер](features.file-upload.html)
     
@@ -13,4 +13,4 @@
 
 ## Дивіться також
 
--   [Безпека файлової системи](security.filesystem.html)
+-   [Безпека файлової системи](security.filesystem.md)

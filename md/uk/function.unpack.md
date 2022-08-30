@@ -1,12 +1,12 @@
 Розпакувати дані з бінарного рядка
 
--   [« uniqid](function.uniqid.html)
+-   [« uniqid](function.uniqid.md)
     
--   [usleep »](function.usleep.html)
+-   [usleep »](function.usleep.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Різні функції](ref.misc.html)
+-   [Різні функції](ref.misc.md)
     
 -   Розпакувати дані з бінарного рядка
     
@@ -37,7 +37,7 @@ unpack(string $format, string $string, int $offset = 0): array|false
 
 `format`
 
-Дивіться функцію [pack()](function.pack.html) для роз'яснення форматів кодів.
+Дивіться функцію [pack()](function.pack.md) для роз'яснення форматів кодів.
 
 `string`
 
@@ -53,10 +53,10 @@ unpack(string $format, string $string, int $offset = 0): array|false
 
 ### список змін
 
-| Версия | Описание                                                                        |
-|--------|---------------------------------------------------------------------------------|
-|        | Типи float і double підтримують як зворотний, і прямий порядок передачі байтів. |
-|        | Додано необов'язковий параметр `offset`                                         |
+| Версия | Описание |
+| --- | --- |
+|  | Типи float і double підтримують як зворотний, і прямий порядок передачі байтів. |
+|  | Додано необов'язковий параметр `offset` |
 
 ### Приклади
 
@@ -136,4 +136,4 @@ array(2) {
 
 ### Дивіться також
 
--   [pack()](function.pack.html) - Упакувати дані у бінарний рядок
+-   [pack()](function.pack.md) - Упакувати дані у бінарний рядок

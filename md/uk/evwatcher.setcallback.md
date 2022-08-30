@@ -1,12 +1,12 @@
 Встановлює нову callback-функцію для спостерігача
 
--   [« EvWatcher::keepalive](evwatcher.keepalive.html)
+-   [« EvWatcher::keepalive](evwatcher.keepalive.md)
     
--   [EvWatcher::start »](evwatcher.start.html)
+-   [EvWatcher::start »](evwatcher.start.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EvWatcher](class.evwatcher.html)
+-   [EvWatcher](class.evwatcher.md)
     
 -   Встановлює нову callback-функцію для спостерігача
     

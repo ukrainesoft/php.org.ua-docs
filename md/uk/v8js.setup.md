@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.v8js.html)
     
--   [Требования »](v8js.requirements.html)
+-   [Вимоги »](v8js.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](v8js.requirements.html)
+-   [Вимоги](v8js.requirements.html)
 -   [Установка](v8js.installation.html)
--   [Настройка во время выполнения](v8js.configuration.html)
--   [Типы ресурсов](v8js.resources.html)
+-   [Налаштування під час виконання](v8js.configuration.html)
+-   [Типи ресурсів](v8js.resources.html)

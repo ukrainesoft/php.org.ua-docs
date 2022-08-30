@@ -1,12 +1,12 @@
 Повертає дочірні об'єкти ітератора, що зберігається всередині ParentIterator
 
--   [« ParentIterator::construct](parentiterator.construct.html)
+-   [« ParentIterator::construct](parentiterator.construct.md)
     
--   [ParentIterator::hasChildren »](parentiterator.haschildren.html)
+-   [ParentIterator::hasChildren »](parentiterator.haschildren.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ParentIterator](class.parentiterator.html)
+-   [ParentIterator](class.parentiterator.md)
     
 -   Повертає дочірні об'єкти ітератора, що зберігається всередині ParentIterator
     

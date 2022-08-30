@@ -4,9 +4,9 @@
     
 -   [odbcexecute »](function.odbc-execute.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции ODBC](ref.uodbc.html)
+-   [Функции ODBC](ref.uodbc.md)
     
 -   Виконує інструкцію SQL безпосередньо
     
@@ -41,9 +41,9 @@ odbc_exec(resource $odbc, string $query): resource|false
 
 ### список змін
 
-| Версия | Описание                        |
-|--------|---------------------------------|
-|        | Параметр `flags` був видалений. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `flags` був видалений. |
 
 ### Дивіться також
 

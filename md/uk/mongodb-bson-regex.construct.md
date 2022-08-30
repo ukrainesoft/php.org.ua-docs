@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONRegex::getFlags »](mongodb-bson-regex.getflags.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONRegex](class.mongodb-bson-regex.html)
     
@@ -33,7 +33,7 @@ final public MongoDB\BSON\Regex::__construct(string $pattern, string $flags = ""
 
 `flags` (string)
 
-[» Флаги регулярных выражений](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options). Символи у цьому аргументі будуть відсортовані за абеткою.
+[» Прапори регулярних виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options). Символи у цьому аргументі будуть відсортовані за абеткою.
 
 ### Помилки
 
@@ -42,10 +42,10 @@ final public MongoDB\BSON\Regex::__construct(string $pattern, string $flags = ""
 
 ### список змін
 
-| Версия                                                                       | Описание |
-|------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.2.0                                                           |          |
-| Аргумент `flags` є необов'язковим і за умовчанням дорівнює порожньому рядку. |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.2.0 |  |
+| Аргумент `flags` є необов'язковим і за умовчанням дорівнює порожньому рядку. |  |
 
 Символи в аргументі `flags` будуть відсортовані в алфавітному порядку під час побудови регулярного виразу. Раніше символи зберігалися у вказаному порядку.
 
@@ -77,5 +77,5 @@ object(MongoDB\BSON\Regex)#1 (2) {
 
 ### Дивіться також
 
--   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
 -   [» Підтримувані прапори регулярних виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)

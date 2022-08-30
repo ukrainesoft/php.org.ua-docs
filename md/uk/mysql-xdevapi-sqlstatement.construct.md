@@ -4,7 +4,7 @@
     
 -   [SqlStatement::execute »](mysql-xdevapi-sqlstatement.execute.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiSqlStatement](class.mysql-xdevapi-sqlstatement.html)
     

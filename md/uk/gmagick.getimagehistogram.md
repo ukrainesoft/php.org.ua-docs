@@ -1,12 +1,12 @@
 Повертає гістограму зображення
 
--   [« Gmagick::getimageheight](gmagick.getimageheight.html)
+-   [« Gmagick::getimageheight](gmagick.getimageheight.md)
     
--   [Gmagick::getimageindex »](gmagick.getimageindex.html)
+-   [Gmagick::getimageindex »](gmagick.getimageindex.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Повертає гістограму зображення
     
@@ -23,7 +23,7 @@ Gmagick::getimagehistogram — Повертає гістограму зобра�
 public Gmagick::getimagehistogram(): array
 ```
 
-Повертає гістограму зображення у вигляді масиву об'єктів [GmagickPixel](class.gmagickpixel.html). У разі виникнення помилки викидає виняток **GmagickException**
+Повертає гістограму зображення у вигляді масиву об'єктів [GmagickPixel](class.gmagickpixel.md). У разі виникнення помилки викидає виняток **GmagickException**
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public Gmagick::getimagehistogram(): array
 
 ### Значення, що повертаються
 
-Повертає гістограму зображення у вигляді масиву об'єктів [GmagickPixel](class.gmagickpixel.html)
+Повертає гістограму зображення у вигляді масиву об'єктів [GmagickPixel](class.gmagickpixel.md)
 
 ### Помилки
 

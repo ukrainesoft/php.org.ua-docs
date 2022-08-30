@@ -4,9 +4,9 @@
     
 -   [fanngetcascademaxcandepochs »](function.fann-get-cascade-max-cand-epochs.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Повертає кількість періодів застою каскаду кандидата
     

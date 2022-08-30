@@ -1,12 +1,12 @@
 Перелічує всі присвоєні символи Unicode у заданому діапазоні
 
--   [« IntlChar::digit](intlchar.digit.html)
+-   [« IntlChar::digit](intlchar.digit.md)
     
--   [IntlChar::enumCharTypes »](intlchar.enumchartypes.html)
+-   [IntlChar::enumCharTypes »](intlchar.enumchartypes.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перелічує всі присвоєні символи Unicode у заданому діапазоні
     
@@ -94,5 +94,5 @@ U+260f WHITE TELEPHONE
 
 ### Дивіться також
 
--   [IntlChar::charName()](intlchar.charname.html) - Отримати ім'я Unicode
--   [IntlChar::charFromName()](intlchar.charfromname.html) - Знайти символ Unicode на ім'я і повернути його код
+-   [IntlChar::charName()](intlchar.charname.md) - Отримати ім'я Unicode
+-   [IntlChar::charFromName()](intlchar.charfromname.md) - Знайти символ Unicode на ім'я і повернути його код

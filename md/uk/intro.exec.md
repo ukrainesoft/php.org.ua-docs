@@ -1,12 +1,12 @@
 Вступ
 
--   [« Запуск программы](book.exec.html)
+-   [" Запуск програми](book.exec.html)
     
--   [Установка и настройка »](exec.setup.html)
+-   [Встановлення та налаштування »](exec.setup.html)
     
 -   [PHP Manual](index.html)
     
--   [Запуск программы](book.exec.html)
+-   [Запуск програми](book.exec.html)
     
 -   Вступ
     

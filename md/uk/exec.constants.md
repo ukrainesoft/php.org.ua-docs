@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](exec.resources.html)
+-   [« Типи ресурсів](exec.resources.html)
     
 -   [Функции запуска программ »](ref.exec.html)
     
 -   [PHP Manual](index.html)
     
--   [Запуск программы](book.exec.html)
+-   [Запуск програми](book.exec.html)
     
 -   Обумовлені константи
     

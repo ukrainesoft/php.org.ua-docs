@@ -1,12 +1,12 @@
 Витягує область зображення
 
--   [« Imagick::getImageRedPrimary](imagick.getimageredprimary.html)
+-   [« Imagick::getImageRedPrimary](imagick.getimageredprimary.md)
     
--   [Imagick::getImageRenderingIntent »](imagick.getimagerenderingintent.html)
+-   [Imagick::getImageRenderingIntent »](imagick.getimagerenderingintent.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Витягує область зображення
     

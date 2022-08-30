@@ -1,12 +1,12 @@
 Повертає форму, яка використовуватиметься в кутах контурів під час їх обведення
 
--   [« ImagickDraw::getStrokeLineCap](imagickdraw.getstrokelinecap.html)
+-   [« ImagickDraw::getStrokeLineCap](imagickdraw.getstrokelinecap.md)
     
--   [ImagickDraw::getStrokeMiterLimit »](imagickdraw.getstrokemiterlimit.html)
+-   [ImagickDraw::getStrokeMiterLimit »](imagickdraw.getstrokemiterlimit.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Повертає форму, яка використовуватиметься в кутах контурів під час їх обведення
     

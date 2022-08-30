@@ -1,12 +1,12 @@
 Компонує набір зображень
 
--   [« Imagick::clutImage](imagick.clutimage.html)
+-   [« Imagick::clutImage](imagick.clutimage.md)
     
--   [Imagick::colorFloodfillImage »](imagick.colorfloodfillimage.html)
+-   [Imagick::colorFloodfillImage »](imagick.colorfloodfillimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Компонує набір зображень
     

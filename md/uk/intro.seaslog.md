@@ -1,12 +1,12 @@
 Вступ
 
--   [« Seaslog](book.seaslog.html)
+-   [« Seaslog](book.seaslog.md)
     
--   [Установка и настройка »](seaslog.setup.html)
+-   [Встановлення та налаштування »](seaslog.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Seaslog](book.seaslog.html)
+-   [Seaslog](book.seaslog.md)
     
 -   Вступ
     

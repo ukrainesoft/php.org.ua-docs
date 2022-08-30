@@ -1,12 +1,12 @@
 Визначає час цього об'єкта раніше часу переданого об'єкта
 
--   [« IntlCalendar::after](intlcalendar.after.html)
+-   [« IntlCalendar::after](intlcalendar.after.md)
     
--   [IntlCalendar::clear »](intlcalendar.clear.html)
+-   [IntlCalendar::clear »](intlcalendar.clear.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Визначає час цього об'єкта раніше часу переданого об'єкта
     
@@ -37,7 +37,7 @@ intlcal_before(IntlCalendar $calendar, IntlCalendar $other): bool
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `other`
 

@@ -1,12 +1,12 @@
 FiberError
 
--   [« UnhandledMatchError](class.unhandledmatcherror.html)
+-   [« UnhandledMatchError](class.unhandledmatcherror.md)
     
--   [Вбудовані інтерфейси та класи »](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи »](reserved.interfaces.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые исключения](reserved.exceptions.html)
+-   [Обумовлені винятки](reserved.exceptions.md)
     
 -   FiberError
     
@@ -17,7 +17,7 @@ FiberError
 
 ## Вступ
 
-**FiberError** викидає, якщо в об'єкті [Fiber](class.fiber.html) виконується неприпустима операція.
+**FiberError** викидає, якщо в об'єкті [Fiber](class.fiber.md) виконується неприпустима операція.
 
 ## Огляд класів
 

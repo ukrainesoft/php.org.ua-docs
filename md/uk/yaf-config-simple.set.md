@@ -4,7 +4,7 @@
     
 -   [YafConfigSimple::toArray »](yaf-config-simple.toarray.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafConfigSimple](class.yaf-config-simple.html)
     

@@ -1,12 +1,12 @@
 Малювання зафарбованого еліпса
 
--   [« imagefilledarc](function.imagefilledarc.html)
+-   [« imagefilledarc](function.imagefilledarc.md)
     
--   [imagefilledpolygon »](function.imagefilledpolygon.html)
+-   [imagefilledpolygon »](function.imagefilledpolygon.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Малювання зафарбованого еліпса
     
@@ -29,7 +29,7 @@ imagefilledellipse(    GdImage $image,    int $center_x,    int $cen
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `center_x`
 
@@ -49,7 +49,7 @@ y-координат центру.
 
 `color`
 
-Колір заливки. Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.html)
+Колір заливки. Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.md)
 
 ### Значення, що повертаються
 
@@ -57,9 +57,9 @@ y-координат центру.
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -95,9 +95,9 @@ imagepng($image);
 
 > **Зауваження**
 > 
-> **imagefilledellipse()** ігнорує [imagesetthickness()](function.imagesetthickness.html)
+> **imagefilledellipse()** ігнорує [imagesetthickness()](function.imagesetthickness.md)
 
 ### Дивіться також
 
--   [imageellipse()](function.imageellipse.html) - Малювання еліпса
--   [imagefilledarc()](function.imagefilledarc.html) - Малювання та заливання дуги
+-   [imageellipse()](function.imageellipse.md) - Малювання еліпса
+-   [imagefilledarc()](function.imagefilledarc.md) - Малювання та заливання дуги

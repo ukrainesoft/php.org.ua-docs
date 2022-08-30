@@ -4,7 +4,7 @@
     
 -   [ОЙControlsCombo::onSelected »](ui-controls-combo.onselected.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsCombo](class.ui-controls-combo.html)
     

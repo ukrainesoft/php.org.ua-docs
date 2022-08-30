@@ -1,12 +1,12 @@
 Інтерфейс DOMChildNode
 
--   [« DOMCharacterData::substringData](domcharacterdata.substringdata.html)
+-   [« DOMCharacterData::substringData](domcharacterdata.substringdata.md)
     
--   [DOMChildNode::after »](domchildnode.after.html)
+-   [DOMChildNode::after »](domchildnode.after.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOM](book.dom.html)
+-   [DOM](book.dom.md)
     
 -   Інтерфейс DOMChildNode
     
@@ -38,7 +38,7 @@ public replaceWith(DOMNode|string ...$nodes): void
 
 ## Зміст
 
--   [DOMChildNode::after](domchildnode.after.html) - Додає вузли після вузла
--   [DOMChildNode::before](domchildnode.before.html) - Додає вузли перед вузлом
--   [DOMChildNode::remove](domchildnode.remove.html) - Видаляє вузол
--   [DOMChildNode::replaceWith](domchildnode.replacewith.html) - Замінює вузол новими вузлами
+-   [DOMChildNode::after](domchildnode.after.md) - Додає вузли після вузла
+-   [DOMChildNode::before](domchildnode.before.md) - Додає вузли перед вузлом
+-   [DOMChildNode::remove](domchildnode.remove.md) - Видаляє вузол
+-   [DOMChildNode::replaceWith](domchildnode.replacewith.md) - Замінює вузол новими вузлами

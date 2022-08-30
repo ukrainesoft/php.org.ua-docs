@@ -1,12 +1,12 @@
 Встановлює атрибут об'єкту PDOStatement
 
--   [« PDOStatement::rowCount](pdostatement.rowcount.html)
+-   [« PDOStatement::rowCount](pdostatement.rowcount.md)
     
--   [PDOStatement::setFetchMode »](pdostatement.setfetchmode.html)
+-   [PDOStatement::setFetchMode »](pdostatement.setfetchmode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDOStatement](class.pdostatement.html)
+-   [PDOStatement](class.pdostatement.md)
     
 -   Встановлює атрибут об'єкту PDOStatement
     
@@ -45,6 +45,6 @@ public PDOStatement::setAttribute(int $attribute, mixed $value): bool
 
 ### Дивіться також
 
--   [PDO::getAttribute()](pdo.getattribute.html) - Отримати атрибут з'єднання з базою даних
--   [PDO::setAttribute()](pdo.setattribute.html) - Встановлення атрибуту
--   [PDOStatement::getAttribute()](pdostatement.getattribute.html) - Отримання значення атрибуту запиту PDOStatement
+-   [PDO::getAttribute()](pdo.getattribute.md) - Отримати атрибут з'єднання з базою даних
+-   [PDO::setAttribute()](pdo.setattribute.md) - Встановлення атрибуту
+-   [PDOStatement::getAttribute()](pdostatement.getattribute.md) - Отримання значення атрибуту запиту PDOStatement

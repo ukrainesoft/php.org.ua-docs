@@ -2,11 +2,11 @@
 
 -   [« intlgeterrormessage](function.intl-get-error-message.html)
     
--   [Багатобайтові рядки »](book.mbstring.html)
+-   [Багатобайтові рядки »](book.mbstring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции intl](ref.intl.html)
+-   [Функции intl](ref.intl.md)
     
 -   Перевірити, чи є код помилки ознакою збою
     
@@ -27,7 +27,7 @@ intl_is_failure(int $errorCode): bool
 
 `errorCode`
 
-Значення, повернене функціями: [intlgeterrorcode()](function.intl-get-error-code.html) [collatorgeterrorcode()](collator.geterrorcode.html)
+Значення, повернене функціями: [intlgeterrorcode()](function.intl-get-error-code.html) [collatorgeterrorcode()](collator.geterrorcode.md)
 
 ### Значення, що повертаються
 
@@ -62,5 +62,5 @@ true
 ### Дивіться також
 
 -   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
--   [collatorgeterrorcode()](collator.geterrorcode.html) - Отримує останній код помилки Collator
--   [Collator-getErrorCode()](collator.geterrorcode.html) - Отримує останній код помилки Collator
+-   [collatorgeterrorcode()](collator.geterrorcode.md) - Отримує останній код помилки Collator
+-   [Collator-getErrorCode()](collator.geterrorcode.md) - Отримує останній код помилки Collator

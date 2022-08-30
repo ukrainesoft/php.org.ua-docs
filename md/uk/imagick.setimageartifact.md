@@ -1,12 +1,12 @@
 Встановлює артефакт зображення
 
--   [« Imagick::setImageAlphaChannel](imagick.setimagealphachannel.html)
+-   [« Imagick::setImageAlphaChannel](imagick.setimagealphachannel.md)
     
--   [Imagick::setImageAttribute »](imagick.setimageattribute.html)
+-   [Imagick::setImageAttribute »](imagick.setimageattribute.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює артефакт зображення
     
@@ -68,5 +68,5 @@ function setImageArtifact() {
 
 ### Дивіться також
 
--   [Imagick::getImageArtifact()](imagick.getimageartifact.html) - Повертає артефакт зображення
--   [Imagick::deleteImageArtifact()](imagick.deleteimageartifact.html) - Видаляє артефакт зображення
+-   [Imagick::getImageArtifact()](imagick.getimageartifact.md) - Повертає артефакт зображення
+-   [Imagick::deleteImageArtifact()](imagick.deleteimageartifact.md) - Видаляє артефакт зображення

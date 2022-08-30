@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONObjectId »](class.mongodb-bson-objectid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONMinKey](class.mongodb-bson-minkey.html)
     
@@ -40,5 +40,5 @@ final public MongoDB\BSON\MinKey::unserialize(string $serialized): void
 ### Дивіться також
 
 -   [MongoDBBSONMinKey::serialize()](mongodb-bson-minkey.serialize.html) - Серіалізує MinKey
--   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

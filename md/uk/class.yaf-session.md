@@ -4,9 +4,9 @@
     
 -   [YafSession::construct »](yaf-session.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yaf](book.yaf.html)
+-   [Yaf](book.yaf.md)
     
 -   Клас YafSession
     

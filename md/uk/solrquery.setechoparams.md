@@ -1,12 +1,12 @@
 Визначає, які параметри включати у відповідь
 
--   [« SolrQuery::setEchoHandler](solrquery.setechohandler.html)
+-   [« SolrQuery::setEchoHandler](solrquery.setechohandler.md)
     
--   [SolrQuery::setExpand »](solrquery.setexpand.html)
+-   [SolrQuery::setExpand »](solrquery.setexpand.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Визначає, які параметри включати у відповідь
     

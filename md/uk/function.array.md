@@ -2,11 +2,11 @@
 
 -   [« arraywalk](function.array-walk.html)
     
--   [arsort »](function.arsort.html)
+-   [arsort »](function.arsort.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Створює масив
     
@@ -23,7 +23,7 @@ array - Створює масив
 array(mixed ...$values): array
 ```
 
-Створює масив. Детальніше про масиви читайте у розділі [Массивы](language.types.array.html)
+Створює масив. Детальніше про масиви читайте у розділі [Масиви](language.types.array.md)
 
 ### Список параметрів
 
@@ -35,7 +35,7 @@ array(mixed ...$values): array
 
 ### Значення, що повертаються
 
-Повертає масив параметрів. Параметрам може бути призначено індекс за допомогою оператора `=>`. Детальніше про масиви читайте у розділі [Массивы](language.types.array.html)
+Повертає масив параметрів. Параметрам може бути призначено індекс за допомогою оператора `=>`. Детальніше про масиви читайте у розділі [Масиви](language.types.array.md)
 
 ### Приклади
 
@@ -123,8 +123,8 @@ echo "Hello {$foo['bar']}!"; // Hello baz!
 ### Дивіться також
 
 -   [arraypad()](function.array-pad.html) - Доповнити масив певним значенням до вказаної довжини
--   [list()](function.list.html) - Надає змінним зі списку значення подібно до масиву
--   [count()](function.count.html) - Підраховує кількість елементів масиву або Countable об'єкті
--   [range()](function.range.html) - Створює масив, що містить діапазон елементів
+-   [list()](function.list.md) - Надає змінним зі списку значення подібно до масиву
+-   [count()](function.count.md) - Підраховує кількість елементів масиву або Countable об'єкті
+-   [range()](function.range.md) - Створює масив, що містить діапазон елементів
 -   [foreach](control-structures.foreach.html)
--   Тип [массив](language.types.array.html)
+-   Тип [Масив](language.types.array.md)

@@ -1,12 +1,12 @@
 Повертає вхідний буфер
 
--   [« EventHttpRequest::getHost](eventhttprequest.gethost.html)
+-   [« EventHttpRequest::getHost](eventhttprequest.gethost.md)
     
--   [EventHttpRequest::getInputHeaders »](eventhttprequest.getinputheaders.html)
+-   [EventHttpRequest::getInputHeaders »](eventhttprequest.getinputheaders.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttpRequest](class.eventhttprequest.html)
+-   [EventHttpRequest](class.eventhttprequest.md)
     
 -   Повертає вхідний буфер
     
@@ -36,4 +36,4 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::getOutputBuffer()](eventhttprequest.getoutputbuffer.html) - Повертає вихідний буфер запиту
+-   [EventHttpRequest::getOutputBuffer()](eventhttprequest.getoutputbuffer.md) - Повертає вихідний буфер запиту

@@ -1,12 +1,12 @@
 Перетворює зображення до бажаного дозволу
 
--   [« Imagick::render](imagick.render.html)
+-   [« Imagick::render](imagick.render.md)
     
--   [Imagick::resetImagePage »](imagick.resetimagepage.html)
+-   [Imagick::resetImagePage »](imagick.resetimagepage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Перетворює зображення до бажаного дозволу
     

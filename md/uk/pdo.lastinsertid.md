@@ -1,12 +1,12 @@
 Повертає ID останнього вставленого рядка або значення послідовності
 
--   [« PDO::inTransaction](pdo.intransaction.html)
+-   [« PDO::inTransaction](pdo.intransaction.md)
     
--   [PDO::prepare »](pdo.prepare.html)
+-   [PDO::prepare »](pdo.prepare.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDO](class.pdo.html)
+-   [PDO](class.pdo.md)
     
 -   Повертає ID останнього вставленого рядка або значення послідовності
     

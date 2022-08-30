@@ -1,12 +1,12 @@
 Перехід до наступного вузла
 
--   [« SplHeap::key](splheap.key.html)
+-   [« SplHeap::key](splheap.key.md)
     
--   [SplHeap::recoverFromCorruption »](splheap.recoverfromcorruption.html)
+-   [SplHeap::recoverFromCorruption »](splheap.recoverfromcorruption.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplHeap](class.splheap.html)
+-   [SplHeap](class.splheap.md)
     
 -   Перехід до наступного вузла
     

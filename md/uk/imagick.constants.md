@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](imagick.resources.html)
+-   [« Типи ресурсів](imagick.resources.md)
     
--   [Примеры »](imagick.examples.html)
+-   [Приклади »](imagick.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImageMagick](book.imagick.html)
+-   [ImageMagick](book.imagick.md)
     
 -   Обумовлені константи
     
@@ -17,7 +17,7 @@
 
 **Константи COLOR**
 
-Константи типів кольорів. Ці константи використовуються в основному з [ImagickPixel](class.imagickpixel.html)
+Константи типів кольорів. Ці константи використовуються в основному з [ImagickPixel](class.imagickpixel.md)
 
 **`imagick::COLOR_BLACK`** (int)
 

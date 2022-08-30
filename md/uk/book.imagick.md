@@ -14,13 +14,13 @@
 # Обробка зображень (ImageMagick)
 
 -   [Введение](intro.imagick.html)
--   [Установка и настройка](imagick.setup.html)
-    -   [Требования](imagick.requirements.html)
+-   [Встановлення та налаштування](imagick.setup.html)
+    -   [Вимоги](imagick.requirements.html)
     -   [Установка](imagick.installation.html)
-    -   [Настройка во время выполнения](imagick.configuration.html)
-    -   [Типы ресурсов](imagick.resources.html)
--   [Предопределённые константы](imagick.constants.html)
--   [Примеры](imagick.examples.html)
+    -   [Налаштування під час виконання](imagick.configuration.html)
+    -   [Типи ресурсів](imagick.resources.html)
+-   [Обумовлені константи](imagick.constants.html)
+-   [Приклади](imagick.examples.html)
     -   [Базовое использование](imagick.examples-1.html)
 -   [Imagick](class.imagick.html) - Клас Imagick
     -   [Imagick::adaptiveBlurImage](imagick.adaptiveblurimage.html) — Додає адаптивний фільтр розмиття до зображення

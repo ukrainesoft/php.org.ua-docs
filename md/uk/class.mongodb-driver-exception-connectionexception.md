@@ -4,9 +4,9 @@
     
 -   [MongoDBDriverExceptionConnectionTimeoutException »](class.mongodb-driver-exception-connectiontimeoutexception.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBDriverException](mongodb.exceptions.html)
+-   [MongoDBDriverException](mongodb.exceptions.md)
     
 -   Клас MongoDBDriverExceptionConnectionException
     

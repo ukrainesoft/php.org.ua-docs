@@ -4,9 +4,9 @@
     
 -   [fanngetsarpropsteperrorshift »](function.fann-get-sarprop-step-error-shift.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Повертає коефіцієнт збільшення під час навчання RPROP
     

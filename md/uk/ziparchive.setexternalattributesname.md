@@ -1,12 +1,12 @@
 Встановлення зовнішніх атрибутів запису, заданого на ім'я
 
--   [« ZipArchive::setExternalAttributesIndex](ziparchive.setexternalattributesindex.html)
+-   [« ZipArchive::setExternalAttributesIndex](ziparchive.setexternalattributesindex.md)
     
--   [ZipArchive::setMtimeIndex »](ziparchive.setmtimeindex.html)
+-   [ZipArchive::setMtimeIndex »](ziparchive.setmtimeindex.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Встановлення зовнішніх атрибутів запису, заданого на ім'я
     

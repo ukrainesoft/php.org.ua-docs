@@ -1,12 +1,12 @@
 Додає тег, отриманий у запиті
 
--   [« Функції RpmInfo](ref.rpminfo.html)
+-   [« Функції RpmInfo](ref.rpminfo.md)
     
--   [rpmdbinfo »](function.rpmdbinfo.html)
+-   [rpmdbinfo »](function.rpmdbinfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції RpmInfo](ref.rpminfo.html)
+-   [Функції RpmInfo](ref.rpminfo.md)
     
 -   Додає тег, отриманий у запиті
     
@@ -29,7 +29,7 @@ rpmaddtag(int $tag): bool
 
 `tag`
 
-Одна з констант RPMTAG, перегляньте сторінку [константы rpminfo](rpminfo.constants.html)
+Одна з констант RPMTAG, перегляньте сторінку [константи rpminfo](rpminfo.constants.md)
 
 ### Значення, що повертаються
 
@@ -37,6 +37,6 @@ rpmaddtag(int $tag): bool
 
 ### Дивіться також
 
--   [rpminfo()](function.rpminfo.html) - Витягти інформацію з RPM-файлу
--   [rpmdbinfo()](function.rpmdbinfo.html) - Отримує інформацію від встановленого RPM
--   [rpmdbsearch()](function.rpmdbsearch.html) - Пошук RPM-пакетів
+-   [rpminfo()](function.rpminfo.md) - Витягти інформацію з RPM-файлу
+-   [rpmdbinfo()](function.rpmdbinfo.md) - Отримує інформацію від встановленого RPM
+-   [rpmdbsearch()](function.rpmdbsearch.md) - Пошук RPM-пакетів

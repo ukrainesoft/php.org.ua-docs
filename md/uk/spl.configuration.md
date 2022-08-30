@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](spl.installation.html)
+-   [« Установка](spl.installation.md)
     
--   [Типы ресурсов »](spl.resources.html)
+-   [Типи ресурсів »](spl.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](spl.setup.html)
+-   [Встановлення та налаштування](spl.setup.md)
     
 -   Налаштування під час виконання
     

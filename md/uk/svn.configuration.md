@@ -2,11 +2,11 @@
 
 -   [« Установка](svn.installation.html)
     
--   [Типы ресурсов »](svn.resources.html)
+-   [Типи ресурсів »](svn.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](svn.setup.html)
+-   [Встановлення та налаштування](svn.setup.html)
     
 -   Налаштування під час виконання
     

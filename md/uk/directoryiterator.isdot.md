@@ -1,12 +1,12 @@
 Визначає, чи є поточний елемент DirectoryIterator '.' або '..'
 
--   [« DirectoryIterator::isDir](directoryiterator.isdir.html)
+-   [« DirectoryIterator::isDir](directoryiterator.isdir.md)
     
--   [DirectoryIterator::isExecutable »](directoryiterator.isexecutable.html)
+-   [DirectoryIterator::isExecutable »](directoryiterator.isexecutable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DirectoryIterator](class.directoryiterator.html)
+-   [DirectoryIterator](class.directoryiterator.md)
     
 -   Визначає, чи є поточний елемент DirectoryIterator '.' або '..'
     
@@ -23,7 +23,7 @@ DirectoryIterator::isDot — Визначає, чи є поточний елем
 public DirectoryIterator::isDot(): bool
 ```
 
-Визначає, чи є поточний елемент [DirectoryIterator](class.directoryiterator.html) `.` або `..`
+Визначає, чи є поточний елемент [DirectoryIterator](class.directoryiterator.md) `.` або `..`
 
 ### Список параметрів
 
@@ -61,7 +61,7 @@ pears.jpg
 
 ### Дивіться також
 
--   [DirectoryIterator::getType()](directoryiterator.gettype.html) - Визначає тип поточного елемента DirectoryIterator
--   [DirectoryIterator::isDir()](directoryiterator.isdir.html) - Визначає, чи є поточний елемент DirectoryIterator директорією
--   [DirectoryIterator::isFile()](directoryiterator.isfile.html) - Визначає, чи є поточний елемент DirectoryIterator звичайним файлом
--   [DirectoryIterator::isLink()](directoryiterator.islink.html) - Визначає, чи є поточний елемент DirectoryIterator символічним посиланням
+-   [DirectoryIterator::getType()](directoryiterator.gettype.md) - Визначає тип поточного елемента DirectoryIterator
+-   [DirectoryIterator::isDir()](directoryiterator.isdir.md) - Визначає, чи є поточний елемент DirectoryIterator директорією
+-   [DirectoryIterator::isFile()](directoryiterator.isfile.md) - Визначає, чи є поточний елемент DirectoryIterator звичайним файлом
+-   [DirectoryIterator::isLink()](directoryiterator.islink.md) - Визначає, чи є поточний елемент DirectoryIterator символічним посиланням

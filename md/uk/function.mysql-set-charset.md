@@ -4,9 +4,9 @@
     
 -   [mysqlstat »](function.mysql-stat.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](ref.mysql.html)
+-   [MySQL](ref.mysql.md)
     
 -   Встановлює кодування клієнта
     
@@ -19,7 +19,7 @@ mysqlsetcharset — Встановлює кодування клієнта
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   [mysqlisetcharset()](mysqli.set-charset.html)
 -   PDO: Додаванням `charset` у рядок з'єднання, наприклад `charset=utf8`
@@ -54,10 +54,10 @@ mysql_set_charset(string $charset, resource $link_identifier = NULL): bool
 
 > **Зауваження**
 > 
-> Це найбільш вподобаний спосіб зміни кодування. Використання [mysqlquery()](function.mysql-query.html) з цією метою (наприклад `SET NAMES utf8`) не рекомендується. Дивіться розділ [кодування символів у MySQL](mysqlinfo.concepts.charset.html) для детальної інформації.
+> Це найбільш вподобаний спосіб зміни кодування. Використання [mysqlquery()](function.mysql-query.html) з цією метою (наприклад `SET NAMES utf8`) не рекомендується. Дивіться розділ [кодування символів у MySQL](mysqlinfo.concepts.charset.md) для детальної інформації.
 
 ### Дивіться також
 
--   [Налаштування коду символів у MySQL](mysqlinfo.concepts.charset.html)
+-   [Налаштування коду символів у MySQL](mysqlinfo.concepts.charset.md)
 -   [» Список підтримуваних MySQL кодувань](http://dev.mysql.com/doc/mysql/en/charset-charsets.html)
 -   [mysqlclientencoding()](function.mysql-client-encoding.html) - Повертає кодування з'єднання

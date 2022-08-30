@@ -1,12 +1,12 @@
 Конфігурація часу виконання
 
--   [« Повідомлення про баги](install.problems.bugs.html)
+-   [« Повідомлення про баги](install.problems.bugs.md)
     
--   [Файл конфигурации »](configuration.file.html)
+-   [Файл конфигурации »](configuration.file.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](install.html)
+-   [Встановлення та налаштування](install.md)
     
 -   Конфігурація часу виконання
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Файл конфигурации](configuration.file.html)
--   [Файлы .user.ini](configuration.file.per-user.html)
--   [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
--   [Як змінити налаштування конфігурації](configuration.changes.html)
+-   [Файл конфигурации](configuration.file.md)
+-   [Файли .user.ini](configuration.file.per-user.html)
+-   [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
+-   [Як змінити налаштування конфігурації](configuration.changes.md)

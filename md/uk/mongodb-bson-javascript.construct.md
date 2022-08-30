@@ -40,10 +40,10 @@ final public MongoDB\BSON\Javascript::__construct(string $code, array|object|nul
 
 ### список змін
 
-| Версия                                                                                                                                                                                                                                             | Описание |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.2.0                                                                                                                                                                                                                                 |          |
-| Породжує виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) якщо `code` містить null-байти. Раніше, в такому випадку, аргумент обрізався про першого null-байту, що зустрівся. |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.2.0 |  |
+| Породжує виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) якщо `code` містить null-байти. Раніше, в такому випадку, аргумент обрізався про першого null-байту, що зустрівся. |  |
 
 ### Приклади
 
@@ -84,4 +84,4 @@ object(MongoDB\BSON\Javascript)#2 (2) {
 
 ### Дивіться також
 
--   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

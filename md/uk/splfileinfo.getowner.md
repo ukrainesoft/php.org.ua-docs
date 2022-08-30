@@ -1,12 +1,12 @@
 Отримує власника файлу
 
--   [« SplFileInfo::getMTime](splfileinfo.getmtime.html)
+-   [« SplFileInfo::getMTime](splfileinfo.getmtime.md)
     
--   [SplFileInfo::getPath »](splfileinfo.getpath.html)
+-   [SplFileInfo::getPath »](splfileinfo.getpath.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Отримує власника файлу
     
@@ -35,7 +35,7 @@ public SplFileInfo::getOwner(): int|false
 
 ### Помилки
 
-У разі виникнення помилки викидає виняток [RuntimeException](class.runtimeexception.html)
+У разі виникнення помилки викидає виняток [RuntimeException](class.runtimeexception.md)
 
 ### Приклади
 
@@ -51,4 +51,4 @@ print_r(posix_getpwuid($info->getOwner()));
 ### Дивіться також
 
 -   [posixgetpwuid()](function.posix-getpwuid.html) - Повертає інформацію про користувача, використовуючи його ID
--   [SplFileInfo::getGroup()](splfileinfo.getgroup.html) - Отримує групу файлу
+-   [SplFileInfo::getGroup()](splfileinfo.getgroup.md) - Отримує групу файлу

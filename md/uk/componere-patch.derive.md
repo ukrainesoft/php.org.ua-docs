@@ -4,7 +4,7 @@
     
 -   [ComponerePatch::getClosure »](componere-patch.getclosure.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponerePatch](class.componere-patch.html)
     
@@ -39,4 +39,4 @@ Patch для `instance` виходить з поточного Patch
 
 **Увага**
 
-Викидає виняток [InvalidArgumentException](class.invalidargumentexception.html) якщо `instance` не сумісний
+Викидає виняток [InvalidArgumentException](class.invalidargumentexception.md) якщо `instance` не сумісний

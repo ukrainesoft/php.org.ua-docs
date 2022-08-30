@@ -1,12 +1,12 @@
 Додає закладку на поточну сторінку
 
--   [« Функції PS](ref.ps.html)
+-   [« Функції PS](ref.ps.md)
     
 -   [псaddlaunchlink »](function.ps-add-launchlink.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Додає закладку на поточну сторінку
     

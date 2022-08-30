@@ -4,9 +4,9 @@
     
 -   [mysqliresult::construct »](mysqli-result.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQLi](book.mysqli.html)
+-   [MySQLi](book.mysqli.md)
     
 -   Клас mysqliresult
     
@@ -92,9 +92,9 @@ type
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Клас **mysqliresult** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше замість нього було реалізовано інтерфейс [Traversable](class.traversable.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **mysqliresult** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше замість нього було реалізовано інтерфейс [Traversable](class.traversable.md) |
 
 ## Зміст
 

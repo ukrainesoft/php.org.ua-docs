@@ -4,9 +4,9 @@
     
 -   [dateintervalformat »](function.date-interval-format.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Псевдонім DateInterval::createFromDateString
     
@@ -15,8 +15,8 @@
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-dateintervalcreatefromdatestring - Псевдонім [DateInterval::createFromDateString()](dateinterval.createfromdatestring.html)
+dateintervalcreatefromdatestring - Псевдонім [DateInterval::createFromDateString()](dateinterval.createfromdatestring.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateInterval::createFromDateString()](dateinterval.createfromdatestring.html)
+Ця функція є псевдонімом: [DateInterval::createFromDateString()](dateinterval.createfromdatestring.md)

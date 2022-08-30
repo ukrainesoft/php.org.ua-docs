@@ -4,9 +4,9 @@
     
 -   [restoreexceptionhandler »](function.restore-exception-handler.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции обработки ошибок](ref.errorfunc.html)
+-   [Функции обработки ошибок](ref.errorfunc.md)
     
 -   Відновлює попередній обробник помилок
     
@@ -37,7 +37,7 @@ restore_error_handler(): bool
 
 **Приклад #1 Приклад використання **restoreerrorhandler()****
 
-Визначення, чи сталася помилка у функції [unserialize()](function.unserialize.html), а потім відновлення вихідного обробника помилок.
+Визначення, чи сталася помилка у функції [unserialize()](function.unserialize.md), а потім відновлення вихідного обробника помилок.
 
 ```php
 <?php

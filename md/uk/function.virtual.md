@@ -1,12 +1,12 @@
 Виконує підзапит Apache
 
--   [« getallheaders](function.getallheaders.html)
+-   [« getallheaders](function.getallheaders.md)
     
--   [Менеджер процесів FastCGI »](book.fpm.html)
+-   [Менеджер процесів FastCGI »](book.fpm.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Apache](ref.apache.html)
+-   [Функции Apache](ref.apache.md)
     
 -   Виконує підзапит Apache
     
@@ -47,7 +47,7 @@ virtual(string $uri): bool
 
 **Увага**
 
-Рядок запиту може бути переданий файлу, що викликається, однак значення змінної [GET](reserved.variables.get.html) буде скопійовано з батьківського скрипту, лише [SERVER\['QUERYSTRING'\]](reserved.variables.server.html) міститиме переданий рядок запиту. Рядок запиту може бути переданий лише при використанні Apache 2. Запрошений файл не відображатиметься в журналі доступу (access log) Apache.
+Рядок запиту може бути переданий файлу, що викликається, однак значення змінної [GET](reserved.variables.get.md) буде скопійовано з батьківського скрипту, лише [SERVER\['QUERYSTRING'\]](reserved.variables.server.md) міститиме переданий рядок запиту. Рядок запиту може бути переданий лише при використанні Apache 2. Запрошений файл не відображатиметься в журналі доступу (access log) Apache.
 
 > **Зауваження**
 > 
@@ -55,7 +55,7 @@ virtual(string $uri): bool
 
 > **Зауваження**
 > 
-> Ця функція може бути використана в PHP-скрипті, але, як правило, більш правильним буде вибрати [include](function.include.html) або [require](function.require.html)
+> Ця функція може бути використана в PHP-скрипті, але, як правило, більш правильним буде вибрати [include](function.include.md) або [require](function.require.md)
 
 ### Дивіться також
 

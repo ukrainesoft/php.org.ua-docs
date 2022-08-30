@@ -1,12 +1,12 @@
 Базове використання
 
--   [« Примеры](memcache.examples.html)
+-   [« Приклади](memcache.examples.md)
     
--   [Memcache »](class.memcache.html)
+-   [Memcache »](class.memcache.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Примеры](memcache.examples.html)
+-   [Приклади](memcache.examples.md)
     
 -   Базове використання
     

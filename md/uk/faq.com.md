@@ -1,12 +1,12 @@
 PHP та COM
 
--   [« PHP и HTML](faq.html.html)
+-   [« PHP и HTML](faq.html.md)
     
--   [Різні питання »](faq.misc.html)
+-   [Різні питання »](faq.misc.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ЧАВО](faq.html)
+-   [ЧАВО](faq.md)
     
 -   PHP та COM
     

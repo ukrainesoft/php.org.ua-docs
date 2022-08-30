@@ -4,7 +4,7 @@
     
 -   [Session::getServerVersion »](mysql-xdevapi-session.getserverversion.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
     

@@ -4,7 +4,7 @@
     
 -   [parallelSync::get »](parallel-sync.get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [parallelSync](class.parallel-sync.html)
     

@@ -1,12 +1,12 @@
 Класи для роботи з потоками
 
--   [« Настройка во время выполнения](stream.configuration.html)
+-   [« Налаштування під час виконання](stream.configuration.md)
     
--   [Предопределённые константы »](stream.constants.html)
+-   [Обумовлені константи »](stream.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](stream.setup.html)
+-   [Встановлення та налаштування](stream.setup.md)
     
 -   Класи для роботи з потоками
     

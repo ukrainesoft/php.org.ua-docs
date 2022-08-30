@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverReadPreference::getModeString »](mongodb-driver-readpreference.getmodestring.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
     

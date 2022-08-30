@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](fileinfo.configuration.html)
+-   [« Налаштування під час виконання](fileinfo.configuration.md)
     
--   [Предопределённые константы »](fileinfo.constants.html)
+-   [Обумовлені константи »](fileinfo.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](fileinfo.setup.html)
+-   [Встановлення та налаштування](fileinfo.setup.md)
     
 -   Типи ресурсів
     

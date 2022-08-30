@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](math.setup.html)
+-   [« Встановлення та налаштування](math.setup.md)
     
--   [Установка »](math.installation.html)
+-   [Установка »](math.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](math.setup.html)
+-   [Встановлення та налаштування](math.setup.md)
     
 -   Вимоги
     

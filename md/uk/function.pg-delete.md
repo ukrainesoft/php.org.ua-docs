@@ -4,9 +4,9 @@
     
 -   [пгendcopy »](function.pg-end-copy.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PostgreSQL](ref.pgsql.html)
+-   [Функции PostgreSQL](ref.pgsql.md)
     
 -   Видаляє записи
     
@@ -55,9 +55,9 @@ pg_delete(    PgSql\Connection $connection,    string $table_name,   
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -67,7 +67,7 @@ pg_delete(    PgSql\Connection $connection,    string $table_name,   
 <?php
   $db = pg_connect('dbname=foo');
   // Это безопасно в некоторой степени, поскольку все значения экранируются.
-  // Однако PostgreSQL поддерживает JSON/массив. Для этих значений это не безопасно
+  // Однако PostgreSQL поддерживает JSON/Масив. Для этих значений это не безопасно
   // ни с через экранирование, ни с помощью подготовленного запроса.
   $res = pg_delete($db, 'post_log', $_POST, PG_DML_ESCAPE);
   if ($res) {

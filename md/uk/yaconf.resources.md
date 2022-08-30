@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](yaconf.configuration.html)
+-   [« Налаштування під час виконання](yaconf.configuration.html)
     
--   [Предопределённые константы »](yaconf.constants.html)
+-   [Обумовлені константи »](yaconf.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](yaconf.setup.html)
+-   [Встановлення та налаштування](yaconf.setup.html)
     
 -   Типи ресурсів
     

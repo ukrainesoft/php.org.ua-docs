@@ -4,7 +4,7 @@
     
 -   [ДсDeque::count »](ds-deque.count.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Двостороння черга](class.ds-deque.html)
     

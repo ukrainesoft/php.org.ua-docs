@@ -1,12 +1,12 @@
 Перемістити курсор на наступний вузол, пропускаючи всі піддерева
 
--   [« XMLReader::moveToNextAttribute](xmlreader.movetonextattribute.html)
+-   [« XMLReader::moveToNextAttribute](xmlreader.movetonextattribute.md)
     
--   [XMLReader::open »](xmlreader.open.html)
+-   [XMLReader::open »](xmlreader.open.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLReader](class.xmlreader.html)
+-   [XMLReader](class.xmlreader.md)
     
 -   Перемістити курсор на наступний вузол, пропускаючи всі піддерева
     
@@ -37,12 +37,12 @@ public XMLReader::next(?string $name = null): bool
 
 ### список змін
 
-| Версия | Описание                             |
-|--------|--------------------------------------|
-|        | `name` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `name` тепер допускає значення null. |
 
 ### Дивіться також
 
--   [XMLReader::moveToNextAttribute()](xmlreader.movetonextattribute.html) - Перемістити позицію курсору на наступний атрибут
--   [XMLReader::moveToElement()](xmlreader.movetoelement.html) - Позиціонувати курсор на батьківському елементі поточного атрибуту
--   [XMLReader::moveToAttribute()](xmlreader.movetoattribute.html) - Перемістити курсор до атрибуту із заданим ім'ям
+-   [XMLReader::moveToNextAttribute()](xmlreader.movetonextattribute.md) - Перемістити позицію курсору на наступний атрибут
+-   [XMLReader::moveToElement()](xmlreader.movetoelement.md) - Позиціонувати курсор на батьківському елементі поточного атрибуту
+-   [XMLReader::moveToAttribute()](xmlreader.movetoattribute.md) - Перемістити курсор до атрибуту із заданим ім'ям

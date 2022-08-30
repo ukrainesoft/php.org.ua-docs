@@ -1,12 +1,12 @@
 Приклад використання Tidy
 
--   [« Примеры](tidy.examples.html)
+-   [« Приклади](tidy.examples.html)
     
 -   [tidy »](class.tidy.html)
     
 -   [PHP Manual](index.html)
     
--   [Примеры](tidy.examples.html)
+-   [Приклади](tidy.examples.html)
     
 -   Приклад використання Tidy
     

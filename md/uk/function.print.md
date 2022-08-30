@@ -2,11 +2,11 @@
 
 -   [« parsestr](function.parse-str.html)
     
--   [printf »](function.printf.html)
+-   [printf »](function.printf.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Виводить рядок
     
@@ -134,11 +134,11 @@ if ( print "привет" ) {
 > ?>
 > ```
 
-> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [переменных функций](functions.variable-functions.html) або [именованных аргументов](functions.arguments.html#functions.named-arguments)
+> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [змінних функцій](functions.variable-functions.html) або [іменованих аргументів](functions.arguments.html#functions.named-arguments)
 
 ### Дивіться також
 
--   [echo](function.echo.html) - Виводить один або більше рядків
--   [printf()](function.printf.html) - Виводить відформатований рядок
--   [flush()](function.flush.html) - Скидання системного буфера виводу
--   [Способи роботи з рядками](language.types.string.html)
+-   [echo](function.echo.md) - Виводить один або більше рядків
+-   [printf()](function.printf.md) - Виводить відформатований рядок
+-   [flush()](function.flush.md) - Скидання системного буфера виводу
+-   [Способи роботи з рядками](language.types.string.md)

@@ -4,9 +4,9 @@
     
 -   [diotruncate »](function.dio-truncate.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції прямого введення/виводу](ref.dio.html)
+-   [Функції прямого введення/виводу](ref.dio.md)
     
 -   Встановлює атрибути терміналу та швидкість передачі даних для послідовного порту
     

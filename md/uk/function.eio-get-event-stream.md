@@ -4,9 +4,9 @@
     
 -   [eiogetlasterror »](function.eio-get-last-error.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Повертає потік, що відображає змінну, що використовується при взаємодії з libeio
     

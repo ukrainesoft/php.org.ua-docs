@@ -4,9 +4,9 @@
     
 -   [MongoDBBSONObjectId::construct »](mongodb-bson-objectid.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBBSON](book.bson.html)
+-   [MongoDBBSON](book.bson.md)
     
 -   Клас MongoDBBSONObjectId
     
@@ -60,15 +60,15 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия                                                             | Описание                                                             |
-|--------------------------------------------------------------------|----------------------------------------------------------------------|
-| PECL mongodb 1.12.0                                                | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+. |
-| PECL mongodb 1.3.0                                                 |                                                                      |
-| Перейменований з `MongoDB\BSON\ObjectID` в `MongoDB\BSON\ObjectId` |                                                                      |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
+| PECL mongodb 1.3.0 |  |
+| Перейменований з `MongoDB\BSON\ObjectID` в `MongoDB\BSON\ObjectId` |  |
 
 Реалізує інтерфейс [MongoDBBSONObjectIdInterface](class.mongodb-bson-objectidinterface.html)
 
-| | PECL mongodb 1.2.0 Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html).
+| | PECL mongodb 1.2.0 Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md).
 
 ## Зміст
 

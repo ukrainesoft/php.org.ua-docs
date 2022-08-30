@@ -1,12 +1,12 @@
 Повертає текстовий опис шифру
 
--   [« EventBufferEvent::sslFilter](eventbufferevent.sslfilter.html)
+-   [« EventBufferEvent::sslFilter](eventbufferevent.sslfilter.md)
     
--   [EventBufferEvent::sslGetCipherName »](eventbufferevent.sslgetciphername.html)
+-   [EventBufferEvent::sslGetCipherName »](eventbufferevent.sslgetciphername.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBufferEvent](class.eventbufferevent.html)
+-   [EventBufferEvent](class.eventbufferevent.md)
     
 -   Повертає текстовий опис шифру
     

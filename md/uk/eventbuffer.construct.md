@@ -1,12 +1,12 @@
 Створює об'єкт EventBuffer
 
--   [« EventBuffer::appendFrom](eventbuffer.appendfrom.html)
+-   [« EventBuffer::appendFrom](eventbuffer.appendfrom.md)
     
--   [EventBuffer::copyout »](eventbuffer.copyout.html)
+-   [EventBuffer::copyout »](eventbuffer.copyout.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBuffer](class.eventbuffer.html)
+-   [EventBuffer](class.eventbuffer.md)
     
 -   Створює об'єкт EventBuffer
     

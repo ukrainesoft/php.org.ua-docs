@@ -1,12 +1,12 @@
 Отримати номер рядка
 
--   [« V8JsException::getJsFileName](v8jsexception.getjsfilename.html)
+-   [« V8JsException::getJsFileName](v8jsexception.getjsfilename.md)
     
--   [V8JsException::getJsSourceLine »](v8jsexception.getjssourceline.html)
+-   [V8JsException::getJsSourceLine »](v8jsexception.getjssourceline.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [V8JsException](class.v8jsexception.html)
+-   [V8JsException](class.v8jsexception.md)
     
 -   Отримати номер рядка
     

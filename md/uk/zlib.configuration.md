@@ -2,11 +2,11 @@
 
 -   [« Установка](zlib.installation.html)
     
--   [Типы ресурсов »](zlib.resources.html)
+-   [Типи ресурсів »](zlib.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](zlib.setup.html)
+-   [Встановлення та налаштування](zlib.setup.html)
     
 -   Налаштування під час виконання
     
@@ -19,13 +19,13 @@
 
 **Параметри конфігурації Zlib**
 
-| Имя                                                                                      | По умолчанию | Место изменения | Список изменений |
-|------------------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [zlib.outputcompression](zlib.configuration.html#ini.zlib.output-compression)            | "0"          | PHPINIALL       |                  |
-| [zlib.outputcompressionlevel](zlib.configuration.html#ini.zlib.output-compression-level) | "-1"         | PHPINIALL       |                  |
-| [zlib.outputhandler](zlib.configuration.html#ini.zlib.output-handler)                    | ""           | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [zlib.outputcompression](zlib.configuration.html#ini.zlib.output-compression) | "0" | PHPINIALL |  |
+| [zlib.outputcompressionlevel](zlib.configuration.html#ini.zlib.output-compression-level) | "-1" | PHPINIALL |  |
+| [zlib.outputhandler](zlib.configuration.html#ini.zlib.output-handler) | "" | PHPINIALL |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 
 Коротке пояснення конфігураційних директив.
 

@@ -4,7 +4,7 @@
     
 -   [ComponereValue::isProtected »](componere-value.isprotected.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ComponereValue](class.componere-value.html)
     

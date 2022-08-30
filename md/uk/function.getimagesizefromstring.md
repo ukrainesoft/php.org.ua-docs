@@ -1,12 +1,12 @@
 Отримання розміру зображення з рядка даних
 
--   [« getimagesize](function.getimagesize.html)
+-   [« getimagesize](function.getimagesize.md)
     
 -   [imagetypeтоextension »](function.image-type-to-extension.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Отримання розміру зображення з рядка даних
     
@@ -23,9 +23,9 @@ getimagesizefromstring — Отримання розміру зображенн�
 getimagesizefromstring(string $string, array &$image_info = null): array|false
 ```
 
-Функція працює ідентично функції [getimagesize()](function.getimagesize.html) з тією різницею, що **getimagesizefromstring()** приймає дані зображення у вигляді рядка як перший аргумент замість імені файлу.
+Функція працює ідентично функції [getimagesize()](function.getimagesize.md) з тією різницею, що **getimagesizefromstring()** приймає дані зображення у вигляді рядка як перший аргумент замість імені файлу.
 
-Щоб дізнатися, як функція працює, зверніться до документації до функції [getimagesize()](function.getimagesize.html)
+Щоб дізнатися, як функція працює, зверніться до документації до функції [getimagesize()](function.getimagesize.md)
 
 ### Список параметрів
 
@@ -35,11 +35,11 @@ getimagesizefromstring(string $string, array &$image_info = null): array|false
 
 `image_info`
 
-Дивіться [getimagesize()](function.getimagesize.html)
+Дивіться [getimagesize()](function.getimagesize.md)
 
 ### Значення, що повертаються
 
-Дивіться [getimagesize()](function.getimagesize.html)
+Дивіться [getimagesize()](function.getimagesize.md)
 
 ### Приклади
 
@@ -60,4 +60,4 @@ $size_info2 = getimagesizefromstring($data);
 
 ### Дивіться також
 
--   [getimagesize()](function.getimagesize.html) - Отримання розміру зображення
+-   [getimagesize()](function.getimagesize.md) - Отримання розміру зображення

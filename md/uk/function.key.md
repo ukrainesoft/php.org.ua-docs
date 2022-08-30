@@ -2,11 +2,11 @@
 
 -   [« keyexists](function.key-exists.html)
     
--   [krsort »](function.krsort.html)
+-   [krsort »](function.krsort.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Вибирає ключ із масиву
     
@@ -37,9 +37,9 @@ key(array|object $array): int|string|null
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                     |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.html)або використовуйте [ArrayIterator](class.arrayiterator.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.html)або використовуйте [ArrayIterator](class.arrayiterator.md) |
 
 ### Приклади
 
@@ -54,7 +54,7 @@ $array = array(
     'fruit4' => 'apple',
     'fruit5' => 'apple');
 
-// этот цикл выведет все ключи ассоциативного массива,
+// этот цикл выведет все ключи ассоциативного Масива,
 // значения которых равны "apple"
 while ($fruit_name = current($array)) {
     if ($fruit_name == 'apple') {
@@ -75,7 +75,7 @@ fruit5
 
 ### Дивіться також
 
--   [current()](function.current.html) - Повертає поточний елемент масиву
--   [next()](function.next.html) - Переміщує покажчик масиву вперед на один елемент
+-   [current()](function.current.md) - Повертає поточний елемент масиву
+-   [next()](function.next.md) - Переміщує покажчик масиву вперед на один елемент
 -   [arraykeyfirst()](function.array-key-first.html) - Отримує перший ключ масиву
 -   [foreach](control-structures.foreach.html)

@@ -1,10 +1,10 @@
 Видалити великий об'єкт
 
--   [« PDO::pgsqlLOBOpen](pdo.pgsqllobopen.html)
+-   [« PDO::pgsqlLOBOpen](pdo.pgsqllobopen.md)
     
 -   [SQLite (PDO) »](ref.pdo-sqlite.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
     
@@ -41,7 +41,7 @@ public PDO::pgsqlLOBUnlink(string $oid): bool
 
 **Приклад #1 Приклад використання **PDO::pgsqlLOBUnlink()****
 
-У цьому прикладі ми видаляємо великий об'єкт з БД до того, як видалимо рядки з таблиці, що посилаються на нього, що зберігає інформацію про великі об'єкти, яку ми використовували в прикладах для функцій [PDO::pgsqlLOBCreate()](pdo.pgsqllobcreate.html) і [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.html)
+У цьому прикладі ми видаляємо великий об'єкт з БД до того, як видалимо рядки з таблиці, що посилаються на нього, що зберігає інформацію про великі об'єкти, яку ми використовували в прикладах для функцій [PDO::pgsqlLOBCreate()](pdo.pgsqllobcreate.md) і [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.md)
 
 ```php
 <?php
@@ -57,5 +57,5 @@ $db->commit();
 
 ### Дивіться також
 
--   [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.html) - Відкриває потік для існуючого великого об'єкту
--   [PDO::pgsqlLOBCreate()](pdo.pgsqllobcreate.html) - Створити новий великий об'єкт (LOB)
+-   [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.md) - Відкриває потік для існуючого великого об'єкту
+-   [PDO::pgsqlLOBCreate()](pdo.pgsqllobcreate.md) - Створити новий великий об'єкт (LOB)

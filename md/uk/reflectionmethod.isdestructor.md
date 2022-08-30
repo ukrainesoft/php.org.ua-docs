@@ -1,12 +1,12 @@
 Перевіряє, чи є метод деструктором
 
--   [« ReflectionMethod::isConstructor](reflectionmethod.isconstructor.html)
+-   [« ReflectionMethod::isConstructor](reflectionmethod.isconstructor.md)
     
--   [ReflectionMethod::isFinal »](reflectionmethod.isfinal.html)
+-   [ReflectionMethod::isFinal »](reflectionmethod.isfinal.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionMethod](class.reflectionmethod.html)
+-   [ReflectionMethod](class.reflectionmethod.md)
     
 -   Перевіряє, чи є метод деструктором
     
@@ -35,4 +35,4 @@ public ReflectionMethod::isDestructor(): bool
 
 ### Дивіться також
 
--   [ReflectionMethod::isConstructor()](reflectionmethod.isconstructor.html) - Перевіряє, чи є метод конструктором
+-   [ReflectionMethod::isConstructor()](reflectionmethod.isconstructor.md) - Перевіряє, чи є метод конструктором

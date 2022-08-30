@@ -1,12 +1,12 @@
 Вступ
 
--   [« SPL](book.spl.html)
+-   [« SPL](book.spl.md)
     
--   [Установка и настройка »](spl.setup.html)
+-   [Встановлення та налаштування »](spl.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SPL](book.spl.html)
+-   [SPL](book.spl.md)
     
 -   Вступ
     

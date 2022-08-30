@@ -1,12 +1,12 @@
 Конструктор
 
--   [« SolrQueryResponse](class.solrqueryresponse.html)
+-   [« SolrQueryResponse](class.solrqueryresponse.md)
     
--   [SolrQueryResponse::destruct »](solrqueryresponse.destruct.html)
+-   [SolrQueryResponse::destruct »](solrqueryresponse.destruct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQueryResponse](class.solrqueryresponse.html)
+-   [SolrQueryResponse](class.solrqueryresponse.md)
     
 -   Конструктор
     

@@ -1,12 +1,12 @@
 Отримує поточне поле
 
--   [« SolrDocument::construct](solrdocument.construct.html)
+-   [« SolrDocument::construct](solrdocument.construct.md)
     
--   [SolrDocument::deleteField »](solrdocument.deletefield.html)
+-   [SolrDocument::deleteField »](solrdocument.deletefield.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocument](class.solrdocument.html)
+-   [SolrDocument](class.solrdocument.md)
     
 -   Отримує поточне поле
     

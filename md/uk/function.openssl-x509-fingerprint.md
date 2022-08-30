@@ -29,7 +29,7 @@ openssl_x509_fingerprint(OpenSSLCertificate|string $certificate, string $digest_
 
 `x509`
 
-Для списку коректних значень дивіться [Параметры ключей/сертификатов](openssl.certparams.html)
+Для списку коректних значень дивіться [Параметри ключів/сертифікатів](openssl.certparams.html)
 
 `digest_algo`
 
@@ -47,6 +47,6 @@ openssl_x509_fingerprint(OpenSSLCertificate|string $certificate, string $digest_
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                           |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |

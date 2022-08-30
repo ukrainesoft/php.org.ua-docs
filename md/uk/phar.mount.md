@@ -1,12 +1,12 @@
 Монтування зовнішнього шляху або файлу до віртуального шляху в phar-архіві
 
--   [« Phar::mapPhar](phar.mapphar.html)
+-   [« Phar::mapPhar](phar.mapphar.md)
     
--   [Phar::mungServer »](phar.mungserver.html)
+-   [Phar::mungServer »](phar.mungserver.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Phar](class.phar.html)
+-   [Phar](class.phar.md)
     
 -   Монтування зовнішнього шляху або файлу до віртуального шляху в phar-архіві
     
@@ -37,11 +37,11 @@ final public static Phar::mount(string $pharPath, string $externalPath): void
 
 ### Значення, що повертаються
 
-Нічого не вертає. У разі виникнення помилки викидає виняток [PharException](class.pharexception.html)
+Нічого не вертає. У разі виникнення помилки викидає виняток [PharException](class.pharexception.md)
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.html) у разі виникнення помилок.
+Викидає виняток [PharException](class.pharexception.md) у разі виникнення помилок.
 
 ### Приклади
 

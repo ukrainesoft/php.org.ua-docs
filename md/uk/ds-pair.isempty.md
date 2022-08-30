@@ -4,7 +4,7 @@
     
 -   [ДсPair::jsonSerialize »](ds-pair.jsonserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Пара](class.ds-pair.html)
     

@@ -4,9 +4,9 @@
     
 -   [arraykeys »](function.array-keys.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Отримує останній ключ масиву
     
@@ -38,4 +38,4 @@ array_key_last(array $array): int|string|null
 ### Дивіться також
 
 -   [arraykeyfirst()](function.array-key-first.html) - Отримує перший ключ масиву
--   [end()](function.end.html) - Встановлює внутрішній покажчик масиву на його останній елемент
+-   [end()](function.end.md) - Встановлює внутрішній покажчик масиву на його останній елемент

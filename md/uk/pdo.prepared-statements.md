@@ -1,12 +1,12 @@
 Підготовлені запити та процедури, що зберігаються
 
--   [« Транзакції та автоматична фіксація змін](pdo.transactions.html)
+-   [« Транзакції та автоматична фіксація змін](pdo.transactions.md)
     
 -   [Ошибки и их обработка »](pdo.error-handling.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PDO](book.pdo.html)
+-   [PDO](book.pdo.md)
     
 -   Підготовлені запити та процедури, що зберігаються
     

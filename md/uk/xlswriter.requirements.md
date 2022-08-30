@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](xlswriter.setup.html)
+-   [« Встановлення та налаштування](xlswriter.setup.html)
     
 -   [Установка »](xlswriter.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](xlswriter.setup.html)
+-   [Встановлення та налаштування](xlswriter.setup.html)
     
 -   Вимоги
     

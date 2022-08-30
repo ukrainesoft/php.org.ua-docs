@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.xlswriter.html)
+-   [« Введение](intro.xlswriter.md)
     
--   [Требования »](xlswriter.requirements.html)
+-   [Вимоги »](xlswriter.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XLSWriter](book.xlswriter.html)
+-   [XLSWriter](book.xlswriter.md)
     
 -   Встановлення та налаштування
     
@@ -15,6 +15,6 @@
 
 ## Зміст
 
--   [Требования](xlswriter.requirements.html)
--   [Установка](xlswriter.installation.html)
--   [Типы ресурсов](xlswriter.resources.html)
+-   [Вимоги](xlswriter.requirements.md)
+-   [Установка](xlswriter.installation.md)
+-   [Типи ресурсів](xlswriter.resources.md)

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](ffi.setup.html)
+-   [« Встановлення та налаштування](ffi.setup.md)
     
--   [Установка »](ffi.installation.html)
+-   [Установка »](ffi.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ffi.setup.html)
+-   [Встановлення та налаштування](ffi.setup.md)
     
 -   Вимоги
     

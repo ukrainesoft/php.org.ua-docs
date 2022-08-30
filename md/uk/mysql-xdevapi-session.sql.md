@@ -4,7 +4,7 @@
     
 -   [Session::startTransaction »](mysql-xdevapi-session.starttransaction.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
     

@@ -1,12 +1,12 @@
 Псевдонім OCILob::free
 
--   [« ocifreecursor](function.ocifreecursor.html)
+-   [« ocifreecursor](function.ocifreecursor.md)
     
--   [ocifreestatement »](function.ocifreestatement.html)
+-   [ocifreestatement »](function.ocifreestatement.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Псевдонім OCILob::free
     
@@ -15,11 +15,11 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocifreedesc - Псевдонім [OCILob::free()](ocilob.free.html)
+ocifreedesc - Псевдонім [OCILob::free()](ocilob.free.md)
 
 ### Опис
 
-Псевдонім [OCILob::free()](ocilob.free.html)
+Псевдонім [OCILob::free()](ocilob.free.md)
 
 **Увага**
 

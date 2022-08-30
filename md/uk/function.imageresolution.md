@@ -47,9 +47,9 @@ imageresolution(GdImage $image, ?int $resolution_x = null, ?int $resolution_y = 
 
 ### список змін
 
-| Версия | Описание                                                        |
-|--------|-----------------------------------------------------------------|
-|        | `resolution_x` і `resolution_y` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `resolution_x` і `resolution_y` тепер допускають значення null. |
 
 ### Приклади
 

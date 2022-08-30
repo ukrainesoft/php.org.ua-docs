@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](curl.configuration.html)
+-   [« Налаштування під час виконання](curl.configuration.md)
     
--   [Предопределённые константы »](curl.constants.html)
+-   [Обумовлені константи »](curl.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](curl.setup.html)
+-   [Встановлення та налаштування](curl.setup.md)
     
 -   Типи ресурсів
     

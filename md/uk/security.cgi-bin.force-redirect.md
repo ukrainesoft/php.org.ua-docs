@@ -4,7 +4,7 @@
     
 -   [Вариант 3: использование опций docroot или userdir »](security.cgi-bin.doc-root.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Если PHP установлен как CGI](security.cgi-bin.html)
     

@@ -4,9 +4,9 @@
     
 -   [uopzsetmock »](function.uopz-set-mock.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.md)
     
 -   Встановлює обробник для виконання під час виклику функції або методу
     

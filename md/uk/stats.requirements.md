@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](stats.setup.html)
+-   [« Встановлення та налаштування](stats.setup.html)
     
 -   [Установка »](stats.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](stats.setup.html)
+-   [Встановлення та налаштування](stats.setup.html)
     
 -   Вимоги
     

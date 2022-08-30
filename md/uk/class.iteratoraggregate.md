@@ -1,12 +1,12 @@
 Інтерфейс IteratorAggregate
 
--   [« Iterator::valid](iterator.valid.html)
+-   [« Iterator::valid](iterator.valid.md)
     
--   [IteratorAggregate::getIterator »](iteratoraggregate.getiterator.html)
+-   [IteratorAggregate::getIterator »](iteratoraggregate.getiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи](reserved.interfaces.md)
     
 -   Інтерфейс IteratorAggregate
     
@@ -86,4 +86,4 @@ string(35) "последнее свойство"
 
 ## Зміст
 
--   [IteratorAggregate::getIterator](iteratoraggregate.getiterator.html) — Отримує зовнішній ітератор
+-   [IteratorAggregate::getIterator](iteratoraggregate.getiterator.md) — Отримує зовнішній ітератор

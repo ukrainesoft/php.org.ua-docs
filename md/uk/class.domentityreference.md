@@ -1,12 +1,12 @@
 Клас DOMEntityReference
 
--   [« DOMEntity](class.domentity.html)
+-   [« DOMEntity](class.domentity.md)
     
--   [DOMEntityReference::construct »](domentityreference.construct.html)
+-   [DOMEntityReference::construct »](domentityreference.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOM](book.dom.html)
+-   [DOM](book.dom.md)
     
 -   Клас DOMEntityReference
     
@@ -127,4 +127,4 @@ public DOMNode::replaceChild(DOMNode $node, DOMNode $child): DOMNode|false
 
 ## Зміст
 
--   [DOMEntityReference::construct](domentityreference.construct.html) — Створює новий об'єкт класу DOM Entity Reference
+-   [DOMEntityReference::construct](domentityreference.construct.md) — Створює новий об'єкт класу DOM Entity Reference

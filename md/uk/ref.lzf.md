@@ -1,12 +1,12 @@
 Функції LZF
 
--   [« Предопределённые константы](lzf.constants.html)
+-   [« Обумовлені константи](lzf.constants.md)
     
 -   [lzfcompress »](function.lzf-compress.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LZF](book.lzf.html)
+-   [LZF](book.lzf.md)
     
 -   Функції LZF
     

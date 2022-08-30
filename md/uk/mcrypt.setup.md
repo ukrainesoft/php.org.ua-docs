@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.mcrypt.html)
     
--   [Требования »](mcrypt.requirements.html)
+-   [Вимоги »](mcrypt.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](mcrypt.requirements.html)
+-   [Вимоги](mcrypt.requirements.html)
 -   [Установка](mcrypt.installation.html)
--   [Настройка во время выполнения](mcrypt.configuration.html)
--   [Типы ресурсов](mcrypt.resources.html)
+-   [Налаштування під час виконання](mcrypt.configuration.html)
+-   [Типи ресурсів](mcrypt.resources.html)

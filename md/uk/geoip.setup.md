@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.geoip.html)
     
--   [Требования »](geoip.requirements.html)
+-   [Вимоги »](geoip.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](geoip.requirements.html)
+-   [Вимоги](geoip.requirements.html)
 -   [Установка](geoip.installation.html)
--   [Настройка во время выполнения](geoip.configuration.html)
--   [Типы ресурсов](geoip.resources.html)
+-   [Налаштування під час виконання](geoip.configuration.html)
+-   [Типи ресурсів](geoip.resources.html)

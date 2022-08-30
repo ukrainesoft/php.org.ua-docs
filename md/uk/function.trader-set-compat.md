@@ -4,9 +4,9 @@
     
 -   [tradersetunstableperiod »](function.trader-set-unstable-period.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Встановлює режим сумісності
     
@@ -29,7 +29,7 @@ trader_set_compat(int $compatId): void
 
 `compatId`
 
-Ідентифікатор сумісності. Використовується серія констант [TRADERCOMPATIBILITY](trader.constants.html)
+Ідентифікатор сумісності. Використовується серія констант [TRADERCOMPATIBILITY](trader.constants.md)
 
 ### Значення, що повертаються
 

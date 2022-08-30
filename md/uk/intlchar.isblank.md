@@ -1,12 +1,12 @@
 Перевірити, чи є символ "порожнім" чи "горизонтальним пропуском"
 
--   [« IntlChar::isbase](intlchar.isbase.html)
+-   [« IntlChar::isbase](intlchar.isbase.md)
     
--   [IntlChar::iscntrl »](intlchar.iscntrl.html)
+-   [IntlChar::iscntrl »](intlchar.iscntrl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити, чи є символ "порожнім" чи "горизонтальним пропуском"
     
@@ -62,7 +62,7 @@ bool(true)
 
 ### Дивіться також
 
--   [IntlChar::isspace()](intlchar.isspace.html) - Перевіряє, чи є символ пробельним
--   [IntlChar::isJavaSpaceChar()](intlchar.isjavaspacechar.html) - Перевірити, чи є символ пробельним з точки зору Java
--   [IntlChar::isUWhiteSpace()](intlchar.isuwhitespace.html) - Перевірити, чи має символ властивість WhiteSpace (пробіловий символ)
--   [IntlChar::isWhitespace()](intlchar.iswhitespace.html) - Перевірити, чи є символ пробельним з точки зору ICU
+-   [IntlChar::isspace()](intlchar.isspace.md) - Перевіряє, чи є символ пробельним
+-   [IntlChar::isJavaSpaceChar()](intlchar.isjavaspacechar.md) - Перевірити, чи є символ пробельним з точки зору Java
+-   [IntlChar::isUWhiteSpace()](intlchar.isuwhitespace.md) - Перевірити, чи має символ властивість WhiteSpace (пробіловий символ)
+-   [IntlChar::isWhitespace()](intlchar.iswhitespace.md) - Перевірити, чи є символ пробельним з точки зору ICU

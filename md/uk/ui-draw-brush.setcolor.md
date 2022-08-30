@@ -4,7 +4,7 @@
     
 -   [ОЙDrawBrushGradient »](class.ui-draw-brush-gradient.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawBrush](class.ui-draw-brush.html)
     

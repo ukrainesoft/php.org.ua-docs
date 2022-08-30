@@ -4,7 +4,7 @@
     
 -   [parallelRuntime::run »](parallel-runtime.run.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [parallelRuntime](class.parallel-runtime.html)
     

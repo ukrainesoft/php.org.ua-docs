@@ -4,9 +4,9 @@
     
 -   [псendpage »](function.ps-end-page.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Видаляє всі ресурси документа PostScript
     

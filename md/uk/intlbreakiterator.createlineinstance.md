@@ -1,12 +1,12 @@
 Створює ітератор переривання для логічно можливих розривів рядків
 
--   [« IntlBreakIterator::createCodePointInstance](intlbreakiterator.createcodepointinstance.html)
+-   [« IntlBreakIterator::createCodePointInstance](intlbreakiterator.createcodepointinstance.md)
     
--   [IntlBreakIterator::createSentenceInstance »](intlbreakiterator.createsentenceinstance.html)
+-   [IntlBreakIterator::createSentenceInstance »](intlbreakiterator.createsentenceinstance.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlBreakIterator](class.intlbreakiterator.html)
+-   [IntlBreakIterator](class.intlbreakiterator.md)
     
 -   Створює ітератор переривання для логічно можливих розривів рядків
     

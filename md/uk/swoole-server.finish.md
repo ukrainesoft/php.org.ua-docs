@@ -4,7 +4,7 @@
     
 -   [SwooleServer::getClientInfo »](swoole-server.getclientinfo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleServer](class.swoole-server.html)
     

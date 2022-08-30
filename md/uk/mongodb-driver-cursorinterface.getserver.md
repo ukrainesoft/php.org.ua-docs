@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverCursorInterface::isDead »](mongodb-driver-cursorinterface.isdead.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverCursorInterface](class.mongodb-driver-cursorinterface.html)
     

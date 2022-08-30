@@ -1,12 +1,12 @@
 Надіслати подію сигналу в цикл за замовчуванням
 
--   [« Ev::feedSignal](ev.feedsignal.html)
+-   [« Ev::feedSignal](ev.feedsignal.md)
     
--   [Ev::iteration »](ev.iteration.html)
+-   [Ev::iteration »](ev.iteration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Єв](class.ev.html)
+-   [Єв](class.ev.md)
     
 -   Надіслати подію сигналу в цикл за замовчуванням
     
@@ -43,4 +43,4 @@ final
 
 ### Дивіться також
 
--   [Ev::feedSignal()](ev.feedsignal.html) - Передаємо подію сигналу в Ev
+-   [Ev::feedSignal()](ev.feedsignal.md) - Передаємо подію сигналу в Ev

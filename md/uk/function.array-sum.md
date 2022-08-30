@@ -4,9 +4,9 @@
     
 -   [arrayudiffassoc »](function.array-udiff-assoc.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Обчислює суму значень масиву
     

@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONUnserializable »](class.mongodb-bson-unserializable.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONSerializable](class.mongodb-bson-serializable.html)
     
@@ -152,4 +152,4 @@ echo MongoDB\BSON\toJSON($bson), "\n";
 
 -   [MongoDBBSONUnserializable::bsonUnserialize()](mongodb-bson-unserializable.bsonunserialize.html) - Створює об'єкт із масиву BSON або документа
 -   [MongoDBBSONPersistable](class.mongodb-bson-persistable.html)
--   [Постійні дані](mongodb.persistence.html)
+-   [Постійні дані](mongodb.persistence.md)

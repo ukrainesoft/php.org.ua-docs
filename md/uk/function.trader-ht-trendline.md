@@ -4,9 +4,9 @@
     
 -   [traderхтtrendmode »](function.trader-ht-trendmode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Перетворення Гільберта – миттєва лінія тренду
     

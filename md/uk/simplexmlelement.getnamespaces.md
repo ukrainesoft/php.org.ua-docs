@@ -1,12 +1,12 @@
 Повертає простір імен, які використовуються в документі
 
--   [« SimpleXMLElement::getName](simplexmlelement.getname.html)
+-   [« SimpleXMLElement::getName](simplexmlelement.getname.md)
     
--   [SimpleXMLElement::registerXPathNamespace »](simplexmlelement.registerxpathnamespace.html)
+-   [SimpleXMLElement::registerXPathNamespace »](simplexmlelement.registerxpathnamespace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXMLElement](class.simplexmlelement.html)
+-   [SimpleXMLElement](class.simplexmlelement.md)
     
 -   Повертає простір імен, які використовуються в документі
     
@@ -69,5 +69,5 @@ array(1) {
 
 ### Дивіться також
 
--   [SimpleXMLElement::getDocNamespaces()](simplexmlelement.getdocnamespaces.html) - Повертає простори імен, оголошених у документі
--   [SimpleXMLElement::registerXPathNamespace()](simplexmlelement.registerxpathnamespace.html) - Створює префікс/простір імен контексту для наступного запиту XPath
+-   [SimpleXMLElement::getDocNamespaces()](simplexmlelement.getdocnamespaces.md) - Повертає простори імен, оголошених у документі
+-   [SimpleXMLElement::registerXPathNamespace()](simplexmlelement.registerxpathnamespace.md) - Створює префікс/простір імен контексту для наступного запиту XPath

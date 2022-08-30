@@ -4,9 +4,9 @@
     
 -   [svnrevert »](function.svn-revert.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.md)
     
 -   Запускає процедури відновлення репозиторію
     

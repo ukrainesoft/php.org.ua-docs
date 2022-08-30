@@ -1,12 +1,12 @@
 Метод-заглушка
 
--   [« SplFileObject::fwrite](splfileobject.fwrite.html)
+-   [« SplFileObject::fwrite](splfileobject.fwrite.md)
     
--   [SplFileObject::getCsvControl »](splfileobject.getcsvcontrol.html)
+-   [SplFileObject::getCsvControl »](splfileobject.getcsvcontrol.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileObject](class.splfileobject.html)
+-   [SplFileObject](class.splfileobject.md)
     
 -   Метод-заглушка
     
@@ -23,7 +23,7 @@ SplFileObject::getChildren - Метод-заглушка
 public SplFileObject::getChildren(): ?RecursiveIterator
 ```
 
-Клас [SplFileObject](class.splfileobject.html) немає дочірніх елементів, тому цей метод повертає **`null`**
+Клас [SplFileObject](class.splfileobject.md) немає дочірніх елементів, тому цей метод повертає **`null`**
 
 ### Список параметрів
 
@@ -35,4 +35,4 @@ public SplFileObject::getChildren(): ?RecursiveIterator
 
 ### Дивіться також
 
--   [RecursiveIterator::getChildren()](recursiveiterator.getchildren.html) - Повертає ітератор для поточного елемента
+-   [RecursiveIterator::getChildren()](recursiveiterator.getchildren.md) - Повертає ітератор для поточного елемента

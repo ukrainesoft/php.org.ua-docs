@@ -1,12 +1,12 @@
 Додає дані до кінця буфера подій
 
--   [« EventBuffer](class.eventbuffer.html)
+-   [« EventBuffer](class.eventbuffer.md)
     
--   [EventBuffer::addBuffer »](eventbuffer.addbuffer.html)
+-   [EventBuffer::addBuffer »](eventbuffer.addbuffer.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBuffer](class.eventbuffer.html)
+-   [EventBuffer](class.eventbuffer.md)
     
 -   Додає дані до кінця буфера подій
     
@@ -41,4 +41,4 @@ public
 
 ### Дивіться також
 
--   [EventBuffer::addBuffer()](eventbuffer.addbuffer.html) - Переміщує всі дані з буфера екземпляру EventBuffer
+-   [EventBuffer::addBuffer()](eventbuffer.addbuffer.md) - Переміщує всі дані з буфера екземпляру EventBuffer

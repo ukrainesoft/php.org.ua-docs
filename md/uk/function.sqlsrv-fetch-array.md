@@ -4,9 +4,9 @@
     
 -   [sqlsrvfetchobject »](function.sqlsrv-fetch-object.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.md)
     
 -   Повертає рядок як масив
     

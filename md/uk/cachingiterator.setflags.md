@@ -1,12 +1,12 @@
 Встановлює прапори для об'єкта CachingIterator
 
--   [« CachingIterator::rewind](cachingiterator.rewind.html)
+-   [« CachingIterator::rewind](cachingiterator.rewind.md)
     
--   [CachingIterator::toString »](cachingiterator.tostring.html)
+-   [CachingIterator::toString »](cachingiterator.tostring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CachingIterator](class.cachingiterator.html)
+-   [CachingIterator](class.cachingiterator.md)
     
 -   Встановлює прапори для об'єкта CachingIterator
     

@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverMonitoringCommandFailedEvent::getOperationId »](mongodb-driver-monitoring-commandfailedevent.getoperationid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html)
     
@@ -29,7 +29,7 @@ final public MongoDB\Driver\Monitoring\CommandFailedEvent::getError(): Exception
 
 ### Значення, що повертаються
 
-Повертає виняток ([Exception](class.exception.html)), пов'язане з невдалою командою.
+Повертає виняток ([Exception](class.exception.md)), пов'язане з невдалою командою.
 
 ### Помилки
 
@@ -37,4 +37,4 @@ final public MongoDB\Driver\Monitoring\CommandFailedEvent::getError(): Exception
 
 ### Дивіться також
 
--   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)

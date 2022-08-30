@@ -4,9 +4,9 @@
     
 -   [tradercdlidentical3crows »](function.trader-cdlidentical3crows.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Свічкова модель "Поштовий голуб"
     

@@ -15,30 +15,30 @@
 
 -   [Exif](book.exif.html) — Змінювана інформація про зображення
     -   [Введение](intro.exif.html)
-    -   [Установка и настройка](exif.setup.html)
-    -   [Предопределённые константы](exif.constants.html)
+    -   [Встановлення та налаштування](exif.setup.html)
+    -   [Обумовлені константи](exif.constants.html)
     -   [Exif Функції](ref.exif.html)
 -   [ДД](book.image.html) — Обробка зображень та GD
     -   [Введение](intro.image.html)
-    -   [Установка и настройка](image.setup.html)
-    -   [Предопределённые константы](image.constants.html)
-    -   [Примеры](image.examples.html)
+    -   [Встановлення та налаштування](image.setup.html)
+    -   [Обумовлені константи](image.constants.html)
+    -   [Приклади](image.examples.html)
     -   [Функції GD та функції для роботи із зображеннями](ref.image.html)
     -   [GdImage](class.gdimage.html) - Клас GdImage
     -   [GdFont](class.gdfont.html) - Клас GdFont
 -   [Gmagick](book.gmagick.html)
     -   [Введение](intro.gmagick.html)
-    -   [Установка и настройка](gmagick.setup.html)
-    -   [Предопределённые константы](gmagick.constants.html)
-    -   [Примеры](gmagick.examples.html)
+    -   [Встановлення та налаштування](gmagick.setup.html)
+    -   [Обумовлені константи](gmagick.constants.html)
+    -   [Приклади](gmagick.examples.html)
     -   [Gmagick](class.gmagick.html) - Клас Gmagick
     -   [GmagickDraw](class.gmagickdraw.html) - Клас GmagickDraw
     -   [GmagickPixel](class.gmagickpixel.html) - Клас GmagickPixel
 -   [ImageMagick](book.imagick.html) - Обробка зображень (ImageMagick)
     -   [Введение](intro.imagick.html)
-    -   [Установка и настройка](imagick.setup.html)
-    -   [Предопределённые константы](imagick.constants.html)
-    -   [Примеры](imagick.examples.html)
+    -   [Встановлення та налаштування](imagick.setup.html)
+    -   [Обумовлені константи](imagick.constants.html)
+    -   [Приклади](imagick.examples.html)
     -   [Imagick](class.imagick.html) - Клас Imagick
     -   [ImagickDraw](class.imagickdraw.html) - Клас ImagickDraw
     -   [ImagickPixel](class.imagickpixel.html) - Клас ImagickPixel

@@ -1,12 +1,12 @@
 Огляд архітектури
 
--   [« Архитектура и внутреннее устройство драйвера](mongodb.architecture.html)
+-   [« Архитектура и внутреннее устройство драйвера](mongodb.architecture.md)
     
 -   [Соединения »](mongodb.connection-handling.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Архитектура и внутреннее устройство драйвера](mongodb.architecture.html)
+-   [Архитектура и внутреннее устройство драйвера](mongodb.architecture.md)
     
 -   Огляд архітектури
     
@@ -37,9 +37,9 @@
 
 **Вихідний код драйвера та розташування JIRA**
 
-| Проект                          | GitHub                                                                      | JIRA                                               |
-|---------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------|
-| PHP бібліотека                  | [» mongodb/mongo-php-library](https://github.com/mongodb/mongo-php-library) | [» PHPLIB](https://jira.mongodb.org/browse/PHPLIB) |
-| PHP 5 та PHP 7 драйвер (phongo) | [» mongodb/mongo-php-driver](https://github.com/mongodb/mongo-php-driver)   | [» PHPC](https://jira.mongodb.org/browse/PHPC)     |
+| Проект | GitHub | JIRA |
+| --- | --- | --- |
+| PHP бібліотека | [» mongodb/mongo-php-library](https://github.com/mongodb/mongo-php-library) | [» PHPLIB](https://jira.mongodb.org/browse/PHPLIB) |
+| PHP 5 та PHP 7 драйвер (phongo) | [» mongodb/mongo-php-driver](https://github.com/mongodb/mongo-php-driver) | [» PHPC](https://jira.mongodb.org/browse/PHPC) |
 
 Існуючий проект [» PHP](https://jira.mongodb.org/browse/PHP) у JIRA залишиться відкритим для повідомлень про помилки у старому драйвері mongo, але ми просимо вас використовувати у нових проектах те, що описувалося вище і стосується наших драйверів наступного покоління.

@@ -1,12 +1,12 @@
 Застосовує цифровий фільтр
 
--   [« Gmagick::mapimage](gmagick.mapimage.html)
+-   [« Gmagick::mapimage](gmagick.mapimage.md)
     
--   [Gmagick::minifyimage »](gmagick.minifyimage.html)
+-   [Gmagick::minifyimage »](gmagick.minifyimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Застосовує цифровий фільтр
     
@@ -33,7 +33,7 @@ public Gmagick::medianfilterimage(float $radius): void
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) із застосованим медіанним фільтром.
+Об'єкт [Gmagick](class.gmagick.md) із застосованим медіанним фільтром.
 
 ### Помилки
 

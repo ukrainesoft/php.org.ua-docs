@@ -1,12 +1,12 @@
 Переміщує ітератор до наступного елемента
 
--   [« SimpleXMLIterator::key](simplexmliterator.key.html)
+-   [« SimpleXMLIterator::key](simplexmliterator.key.md)
     
--   [SimpleXMLIterator::rewind »](simplexmliterator.rewind.html)
+-   [SimpleXMLIterator::rewind »](simplexmliterator.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXMLIterator](class.simplexmliterator.html)
+-   [SimpleXMLIterator](class.simplexmliterator.md)
     
 -   Переміщує ітератор до наступного елемента
     
@@ -23,7 +23,7 @@ SimpleXMLIterator::next — Переміщення ітератора до на�
 public SimpleXMLIterator::next(): void
 ```
 
-Цей метод переміщує [SimpleXMLIterator](class.simplexmliterator.html) до наступного елемента.
+Цей метод переміщує [SimpleXMLIterator](class.simplexmliterator.md) до наступного елемента.
 
 ### Список параметрів
 

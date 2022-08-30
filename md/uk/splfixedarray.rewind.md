@@ -1,12 +1,12 @@
 Встановлює ітератор масиву на початок
 
--   [« SplFixedArray::offsetUnset](splfixedarray.offsetunset.html)
+-   [« SplFixedArray::offsetUnset](splfixedarray.offsetunset.md)
     
--   [SplFixedArray::setSize »](splfixedarray.setsize.html)
+-   [SplFixedArray::setSize »](splfixedarray.setsize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFixedArray](class.splfixedarray.html)
+-   [SplFixedArray](class.splfixedarray.md)
     
 -   Встановлює ітератор масиву на початок
     

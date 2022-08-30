@@ -4,9 +4,9 @@
     
 -   [gnupgdeletekey »](function.gnupg-deletekey.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GnuPG Функції](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.md)
     
 -   Розшифровує та перевіряє підпис переданого тексту
     

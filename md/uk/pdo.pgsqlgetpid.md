@@ -1,10 +1,10 @@
 Отримує PID сервера
 
--   [« PDO::pgsqlGetNotify](pdo.pgsqlgetnotify.html)
+-   [« PDO::pgsqlGetNotify](pdo.pgsqlgetnotify.md)
     
--   [PDO::pgsqlLOBCreate »](pdo.pgsqllobcreate.html)
+-   [PDO::pgsqlLOBCreate »](pdo.pgsqllobcreate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
     

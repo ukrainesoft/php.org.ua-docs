@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Типы ресурсов](spl.resources.html)
+-   [« Типи ресурсів](spl.resources.html)
     
 -   [Структури даних](spl.datastructures.html)
     

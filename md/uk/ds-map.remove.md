@@ -4,7 +4,7 @@
     
 -   [ДсMap::reverse »](ds-map.reverse.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Коллекция пар ключ-значение](class.ds-map.html)
     
@@ -37,7 +37,7 @@ public Ds\Map::remove(mixed $key, mixed $default = ?): mixed
 
 Будьте обережні під час використання синтаксису масиву. Скалярні ключі будуть приведені до всіх двигунів PHP. Наприклад, `$map["1"]` буде намагатися звернутися до `int(1)`, тоді як `$map->get("1")` звернеться до правильного елемента.
 
-Дивіться розділ [Массивы](language.types.array.html)
+Дивіться розділ [Масиви](language.types.array.md)
 
 ### Список параметрів
 
@@ -55,7 +55,7 @@ public Ds\Map::remove(mixed $key, mixed $default = ?): mixed
 
 ### Помилки
 
-Викидає виняток [OutOfRangeException](class.outofrangeexception.html), якщо ключ не знайдено і не встановлено значення за промовчанням.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.md), якщо ключ не знайдено і не встановлено значення за промовчанням.
 
 ### Приклади
 

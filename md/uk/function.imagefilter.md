@@ -1,12 +1,12 @@
 Застосовує фільтр до зображення
 
--   [« imagefilltoborder](function.imagefilltoborder.html)
+-   [« imagefilltoborder](function.imagefilltoborder.md)
     
--   [imageflip »](function.imageflip.html)
+-   [imageflip »](function.imageflip.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Застосовує фільтр до зображення
     
@@ -29,7 +29,7 @@ imagefilter(GdImage $image, int $filter, array|int|float|bool ...$args): bool
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `filter`
 
@@ -79,10 +79,10 @@ imagefilter(GdImage $image, int $filter, array|int|float|bool ...$args): bool
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
-|        | Додано підтримку розсіювання (**`IMG_FILTER_SCATTER`**                                            |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+|  | Додано підтримку розсіювання (**`IMG_FILTER_SCATTER`** |
 
 ### Приклади
 
@@ -252,4 +252,4 @@ imagedestroy($logo);
 
 ### Дивіться також
 
--   [imageconvolution()](function.imageconvolution.html) - Накладання викривляючої матриці 3х3, використовуючи коефіцієнт та зміщення
+-   [imageconvolution()](function.imageconvolution.md) - Накладання викривляючої матриці 3х3, використовуючи коефіцієнт та зміщення

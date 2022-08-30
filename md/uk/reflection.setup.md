@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.reflection.html)
+-   [« Введение](intro.reflection.md)
     
--   [Требования »](reflection.requirements.html)
+-   [Вимоги »](reflection.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Reflection](book.reflection.html)
+-   [Reflection](book.reflection.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](reflection.requirements.html)
--   [Установка](reflection.installation.html)
--   [Настройка во время выполнения](reflection.configuration.html)
--   [Типы ресурсов](reflection.resources.html)
+-   [Вимоги](reflection.requirements.md)
+-   [Установка](reflection.installation.md)
+-   [Налаштування під час виконання](reflection.configuration.md)
+-   [Типи ресурсів](reflection.resources.md)

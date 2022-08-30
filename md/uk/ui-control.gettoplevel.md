@@ -4,7 +4,7 @@
     
 -   [ОЙControl::hide »](ui-control.hide.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControl](class.ui-control.html)
     

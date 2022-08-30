@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverSession::getClusterTime »](mongodb-driver-session.getclustertime.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverSession](class.mongodb-driver-session.html)
     

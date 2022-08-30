@@ -4,7 +4,7 @@
     
 -   [mysqlxdevapiTableInsert »](class.mysql-xdevapi-tableinsert.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiTableDelete](class.mysql-xdevapi-tabledelete.html)
     

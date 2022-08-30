@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](csprng.resources.html)
+-   [« Типи ресурсів](csprng.resources.md)
     
--   [Функции CSPRNG »](ref.csprng.html)
+-   [Функции CSPRNG »](ref.csprng.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CSPRNG](book.csprng.html)
+-   [CSPRNG](book.csprng.md)
     
 -   Обумовлені константи
     

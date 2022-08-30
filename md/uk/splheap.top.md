@@ -1,12 +1,12 @@
 Повертає вузол, що знаходиться на вершині купи
 
--   [« SplHeap::rewind](splheap.rewind.html)
+-   [« SplHeap::rewind](splheap.rewind.md)
     
--   [SplHeap::valid »](splheap.valid.html)
+-   [SplHeap::valid »](splheap.valid.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplHeap](class.splheap.html)
+-   [SplHeap](class.splheap.md)
     
 -   Повертає вузол, що знаходиться на вершині купи
     
@@ -33,4 +33,4 @@ public SplHeap::top(): mixed
 
 ### Помилки
 
-Якщо структура даних вузла виявиться порожньою, буде викинуто виняток [RuntimeException](class.runtimeexception.html)
+Якщо структура даних вузла виявиться порожньою, буде викинуто виняток [RuntimeException](class.runtimeexception.md)

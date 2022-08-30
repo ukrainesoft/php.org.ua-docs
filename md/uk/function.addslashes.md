@@ -1,12 +1,12 @@
 Екранує рядок за допомогою слішів
 
--   [« addcslashes](function.addcslashes.html)
+-   [« addcslashes](function.addcslashes.md)
     
--   [bin2hex »](function.bin2hex.html)
+-   [bin2hex »](function.bin2hex.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Екранує рядок за допомогою слішів
     
@@ -39,7 +39,7 @@ eval("echo '" . addslashes($str) . "';");
 ?>
 ```
 
-Іноді функцію **addslashes()** некоректно намагаються використати для запобігання [SQL-инъекций](security.database.sql-injection.html). Чи не робіть так. Замість цього використовуйте підготовлені запити або функції екранування відповідних модулів роботи з базами даних.
+Іноді функцію **addslashes()** некоректно намагаються використати для запобігання [SQL-ін'єкцій](security.database.sql-injection.html). Чи не робіть так. Замість цього використовуйте підготовлені запити або функції екранування відповідних модулів роботи з базами даних.
 
 ### Список параметрів
 
@@ -66,9 +66,9 @@ echo addslashes($str);
 
 ### Дивіться також
 
--   [stripcslashes()](function.stripcslashes.html) - Видаляє екранування символів, зроблене функцією addcslashes
--   [stripslashes()](function.stripslashes.html) - Видаляє екранування символів
--   [addcslashes()](function.addcslashes.html) - Екранує рядок слішами у стилі мови C
--   [htmlspecialchars()](function.htmlspecialchars.html) - Перетворює спеціальні символи на HTML-сутності
--   [quotemeta()](function.quotemeta.html) - Екранує спеціальні символи
+-   [stripcslashes()](function.stripcslashes.md) - Видаляє екранування символів, зроблене функцією addcslashes
+-   [stripslashes()](function.stripslashes.md) - Видаляє екранування символів
+-   [addcslashes()](function.addcslashes.md) - Екранує рядок слішами у стилі мови C
+-   [htmlspecialchars()](function.htmlspecialchars.md) - Перетворює спеціальні символи на HTML-сутності
+-   [quotemeta()](function.quotemeta.md) - Екранує спеціальні символи
 -   [getmagicquotesgpc()](function.get-magic-quotes-gpc.html) - Отримання поточного значення конфігурації конфігурації magicquotesgpc

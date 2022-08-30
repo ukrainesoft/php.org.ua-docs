@@ -1,12 +1,12 @@
 Повертає заголовок поточного процесу
 
--   [« assert](function.assert.html)
+-   [« assert](function.assert.md)
     
 -   [clisetprocesstitle »](function.cli-set-process-title.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Опції PHP/інформаційні функції](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.md)
     
 -   Повертає заголовок поточного процесу
     
@@ -25,7 +25,7 @@ cli_get_process_title(): ?string
 
 Повертає заголовок поточного процесу, встановлений [clisetprocesstitle()](function.cli-set-process-title.html). Зауважте, що залежно від вашої операційної системи, це ім'я може не збігатися з тим, що покажуть утиліти **пс** і **top**
 
-Ця функція доступна лише в режимі [CLI](features.commandline.html)
+Ця функція доступна лише в режимі [CLI](features.commandline.md)
 
 ### Список параметрів
 

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](ibm-db2.setup.html)
+-   [« Встановлення та налаштування](ibm-db2.setup.html)
     
 -   [Установка »](ibm-db2.installation.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ibm-db2.setup.html)
+-   [Встановлення та налаштування](ibm-db2.setup.html)
     
 -   Вимоги
     

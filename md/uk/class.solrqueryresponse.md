@@ -1,12 +1,12 @@
 Клас SolrQueryResponse
 
--   [« SolrResponse::success](solrresponse.success.html)
+-   [« SolrResponse::success](solrresponse.success.md)
     
--   [SolrQueryResponse::construct »](solrqueryresponse.construct.html)
+-   [SolrQueryResponse::construct »](solrqueryresponse.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Solr](book.solr.html)
+-   [Solr](book.solr.md)
     
 -   Клас SolrQueryResponse
     
@@ -125,5 +125,5 @@ public SolrResponse::success(): bool
 
 ## Зміст
 
--   [SolrQueryResponse::construct](solrqueryresponse.construct.html) - Конструктор
--   [SolrQueryResponse::destruct](solrqueryresponse.destruct.html) - Деструктор
+-   [SolrQueryResponse::construct](solrqueryresponse.construct.md) - Конструктор
+-   [SolrQueryResponse::destruct](solrqueryresponse.destruct.md) - Деструктор

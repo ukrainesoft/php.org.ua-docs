@@ -2,25 +2,25 @@ dBase
 
 -   [« cubridsendglo](function.cubrid-send-glo.html)
     
--   [Введение »](intro.dbase.html)
+-   [Введение »](intro.dbase.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.html)
+-   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
     
 -   dBase
     
 
 # dBase
 
--   [Введение](intro.dbase.html)
--   [Установка и настройка](dbase.setup.html)
-    -   [Требования](dbase.requirements.html)
-    -   [Установка](dbase.installation.html)
-    -   [Настройка во время выполнения](dbase.configuration.html)
-    -   [Типы ресурсов](dbase.resources.html)
--   [Предопределённые константы](dbase.constants.html)
--   [dBase](ref.dbase.html)
+-   [Введение](intro.dbase.md)
+-   [Встановлення та налаштування](dbase.setup.md)
+    -   [Вимоги](dbase.requirements.md)
+    -   [Установка](dbase.installation.md)
+    -   [Налаштування під час виконання](dbase.configuration.md)
+    -   [Типи ресурсів](dbase.resources.md)
+-   [Обумовлені константи](dbase.constants.md)
+-   [dBase](ref.dbase.md)
     -   [dbaseaddrecord](function.dbase-add-record.html) — Додає запис до бази даних
     -   [dbaseclose](function.dbase-close.html) — Закриває базу даних
     -   [dbasecreate](function.dbase-create.html) - Створює базу даних

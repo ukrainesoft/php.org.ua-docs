@@ -1,12 +1,12 @@
 Повертає формат Imagick об'єкту
 
--   [« Imagick::getFont](imagick.getfont.html)
+-   [« Imagick::getFont](imagick.getfont.md)
     
--   [Imagick::getGravity »](imagick.getgravity.html)
+-   [Imagick::getGravity »](imagick.getgravity.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає формат Imagick об'єкту
     

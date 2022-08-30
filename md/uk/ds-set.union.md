@@ -39,7 +39,7 @@ public Ds\Set::union(Ds\Set $set): Ds\Set
 
 ### Також дивіться
 
--   [» Объединение](https://en.wikipedia.org/wiki/Union_(set_theory)) в Вікіпедія
+-   [» Об'єднання](https://en.wikipedia.org/wiki/Union_(set_theory)) в Вікіпедія
 
 ### Приклади
 

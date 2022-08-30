@@ -1,19 +1,19 @@
 Обумовлені константи
 
--   [« Типы ресурсов](datetime.resources.html)
+-   [« Типи ресурсів](datetime.resources.md)
     
--   [Примеры »](datetime.examples.html)
+-   [Приклади »](datetime.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Дата/время](book.datetime.html)
+-   [Дата/время](book.datetime.md)
     
 -   Обумовлені константи
     
 
 # Обумовлені константи
 
-[Константы`DATE_`](class.datetimeinterface.html#datetime.constants.types) пропонують стандартні уявлення дати, які можуть бути використані разом із функціями форматування дати (наприклад [date()](function.date.html)
+[Константи`DATE_`](class.datetimeinterface.html#datetime.constants.types) пропонують стандартні уявлення дати, які можуть бути використані разом із функціями форматування дати (наприклад [date()](function.date.md)
 
 Наступні константи визначають формат повертається функціями [datesunrise()](function.date-sunrise.html) і [datesunset()](function.date-sunset.html)
 

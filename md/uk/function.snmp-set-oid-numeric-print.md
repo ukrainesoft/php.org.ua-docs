@@ -4,9 +4,9 @@
     
 -   [snmpsetoidoutputformat »](function.snmp-set-oid-output-format.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.md)
     
 -   Встановлює вихідний OID
     

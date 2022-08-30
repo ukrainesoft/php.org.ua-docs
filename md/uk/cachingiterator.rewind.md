@@ -1,12 +1,12 @@
 Повертає ітератор на початок
 
--   [« CachingIterator::offsetUnset](cachingiterator.offsetunset.html)
+-   [« CachingIterator::offsetUnset](cachingiterator.offsetunset.md)
     
--   [CachingIterator::setFlags »](cachingiterator.setflags.html)
+-   [CachingIterator::setFlags »](cachingiterator.setflags.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CachingIterator](class.cachingiterator.html)
+-   [CachingIterator](class.cachingiterator.md)
     
 -   Повертає ітератор на початок
     

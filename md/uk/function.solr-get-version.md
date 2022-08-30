@@ -1,12 +1,12 @@
 Повертає поточну версію Apache Solr
 
--   [« Функции Solr](ref.solr.html)
+-   [« Функции Solr](ref.solr.md)
     
--   [Примеры »](solr.examples.html)
+-   [Приклади »](solr.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Solr](ref.solr.html)
+-   [Функции Solr](ref.solr.md)
     
 -   Повертає поточну версію Apache Solr
     
@@ -59,4 +59,4 @@ print $solr_version;
 
 ### Дивіться також
 
--   [SolrUtils::getSolrVersion()](solrutils.getsolrversion.html) - Повертає поточну версію модуля Solr
+-   [SolrUtils::getSolrVersion()](solrutils.getsolrversion.md) - Повертає поточну версію модуля Solr

@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.tidy.html)
     
--   [Требования »](tidy.requirements.html)
+-   [Вимоги »](tidy.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](tidy.requirements.html)
+-   [Вимоги](tidy.requirements.html)
 -   [Установка](tidy.installation.html)
--   [Настройка во время выполнения](tidy.configuration.html)
--   [Типы ресурсов](tidy.resources.html)
+-   [Налаштування під час виконання](tidy.configuration.html)
+-   [Типи ресурсів](tidy.resources.html)

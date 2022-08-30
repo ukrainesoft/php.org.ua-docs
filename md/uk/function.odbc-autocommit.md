@@ -1,12 +1,12 @@
 Перемикає поведінку автоматичної фіксації
 
--   [« Функции ODBC](ref.uodbc.html)
+-   [« Функции ODBC](ref.uodbc.md)
     
 -   [odbcbinmode »](function.odbc-binmode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции ODBC](ref.uodbc.html)
+-   [Функции ODBC](ref.uodbc.md)
     
 -   Перемикає поведінку автоматичної фіксації
     

@@ -4,7 +4,7 @@
     
 -   [mysqlisqlexception »](class.mysqli-sql-exception.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqliwarning](class.mysqli-warning.html)
     

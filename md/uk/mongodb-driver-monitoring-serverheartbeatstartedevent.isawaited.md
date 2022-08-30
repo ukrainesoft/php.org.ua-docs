@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent »](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverMonitoringServerHeartbeatStartedEvent](class.mongodb-driver-monitoring-serverheartbeatstartedevent.html)
     

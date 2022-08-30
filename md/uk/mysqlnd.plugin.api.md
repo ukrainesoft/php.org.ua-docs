@@ -67,10 +67,10 @@ API плагінів `mysqlnd` надає такі функції:
 
 **Проблеми: приклад співробітництва та побудови ланцюжка**
 
-| Модуль           | Указатель mysqlnd.query() | Стек вызова, если вызывается родитель |
-|------------------|---------------------------|---------------------------------------|
-| ext/mysqlnd      | mysqlnd.query()           | mysqlnd.query                         |
-| ext/mysqlndcache | mysqlndcache.query()      |                                       |
+| Модуль | Указатель mysqlnd.query() | Стек вызова, если вызывается родитель |
+| --- | --- | --- |
+| ext/mysqlnd | mysqlnd.query() | mysqlnd.query |
+| ext/mysqlndcache | mysqlndcache.query() |  |
 
 1.  mysqlndcache.query()
     

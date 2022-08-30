@@ -4,9 +4,9 @@
     
 -   [cubridping »](function.cubrid-ping.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
     
 -   Отримати кількість стовпців у результуючому наборі
     

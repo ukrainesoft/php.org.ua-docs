@@ -1,12 +1,12 @@
 Псевдонім ocinewcollection
 
--   [« ocilogon](function.ocilogon.html)
+-   [« ocilogon](function.ocilogon.md)
     
--   [ocinewcursor »](function.ocinewcursor.html)
+-   [ocinewcursor »](function.ocinewcursor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Псевдонім ocinewcollection
     

@@ -4,7 +4,7 @@
     
 -   [ОЙDrawPath::newFigure »](ui-draw-path.newfigure.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawPath](class.ui-draw-path.html)
     

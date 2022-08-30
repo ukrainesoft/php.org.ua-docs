@@ -1,12 +1,12 @@
 Повторно включає дзвінки, які змінюють буфер подій
 
--   [« EventBuffer::substr](eventbuffer.substr.html)
+-   [« EventBuffer::substr](eventbuffer.substr.md)
     
--   [EventBuffer::unlock »](eventbuffer.unlock.html)
+-   [EventBuffer::unlock »](eventbuffer.unlock.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBuffer](class.eventbuffer.html)
+-   [EventBuffer](class.eventbuffer.md)
     
 -   Повторно включає дзвінки, які змінюють буфер подій
     
@@ -41,4 +41,4 @@ public
 
 ### Дивіться також
 
--   [EventBuffer::freeze()](eventbuffer.freeze.html) - Запобігає викликам, які змінюють буфер подій у разі успішного виконання
+-   [EventBuffer::freeze()](eventbuffer.freeze.md) - Запобігає викликам, які змінюють буфер подій у разі успішного виконання

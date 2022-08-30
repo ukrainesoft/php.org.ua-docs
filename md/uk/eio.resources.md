@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](eio.configuration.html)
+-   [« Налаштування під час виконання](eio.configuration.html)
     
--   [Предопределённые константы »](eio.constants.html)
+-   [Обумовлені константи »](eio.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](eio.setup.html)
+-   [Встановлення та налаштування](eio.setup.html)
     
 -   Типи ресурсів
     

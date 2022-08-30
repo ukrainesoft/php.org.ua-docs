@@ -4,7 +4,7 @@
     
 -   [YafRouteStatic::route »](yaf-route-static.route.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafRouteStatic](class.yaf-route-static.html)
     

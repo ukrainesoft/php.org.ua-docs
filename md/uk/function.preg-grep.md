@@ -4,9 +4,9 @@
     
 -   [preglasterrormsg »](function.preg-last-error-msg.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PCRE](ref.pcre.html)
+-   [Функции PCRE](ref.pcre.md)
     
 -   Повертає масив входжень, які відповідають шаблону
     
@@ -53,7 +53,7 @@ preg_grep(string $pattern, array $array, int $flags = 0): array|false
 
 ```php
 <?php
-// Возвращает все элементы массива,
+// Возвращает все элементы Масива,
 // содержащие числа с плавающей точкой
 $fl_array = preg_grep("/^(\d+)?\.\d+$/", $array);
 ?>
@@ -61,7 +61,7 @@ $fl_array = preg_grep("/^(\d+)?\.\d+$/", $array);
 
 ### Дивіться також
 
--   [Регулярные выражения PCRE](pcre.pattern.html)
+-   [Регулярні вирази PCRE](pcre.pattern.md)
 -   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
 -   [pregmatchall()](function.preg-match-all.html) - Виконує глобальний пошук шаблону у рядку
 -   [pregfilter()](function.preg-filter.html) - Здійснює пошук та заміну за регулярним виразом

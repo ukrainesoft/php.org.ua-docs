@@ -1,12 +1,12 @@
 Отримання індексу заданого кольору
 
--   [« imagecolordeallocate](function.imagecolordeallocate.html)
+-   [« imagecolordeallocate](function.imagecolordeallocate.md)
     
--   [imagecolorexactalpha »](function.imagecolorexactalpha.html)
+-   [imagecolorexactalpha »](function.imagecolorexactalpha.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Отримання індексу заданого кольору
     
@@ -31,7 +31,7 @@ imagecolorexact(    GdImage $image,    int $red,    int $green,  �
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `red`
 
@@ -51,9 +51,9 @@ imagecolorexact(    GdImage $image,    int $red,    int $green,  �
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -91,4 +91,4 @@ Array
 
 ### Дивіться також
 
--   [imagecolorclosest()](function.imagecolorclosest.html) - Отримання індексу кольору найближчого до заданого
+-   [imagecolorclosest()](function.imagecolorclosest.md) - Отримання індексу кольору найближчого до заданого

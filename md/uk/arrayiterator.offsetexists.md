@@ -1,12 +1,12 @@
 Перевіряє, чи існує зсув
 
--   [« ArrayIterator::next](arrayiterator.next.html)
+-   [« ArrayIterator::next](arrayiterator.next.md)
     
--   [ArrayIterator::offsetGet »](arrayiterator.offsetget.html)
+-   [ArrayIterator::offsetGet »](arrayiterator.offsetget.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ArrayIterator](class.arrayiterator.html)
+-   [ArrayIterator](class.arrayiterator.md)
     
 -   Перевіряє, чи існує зсув
     
@@ -41,4 +41,4 @@ public ArrayIterator::offsetExists(mixed $key): bool
 
 ### Дивіться також
 
--   [ArrayIterator::valid()](arrayiterator.valid.html) - Перевіряє, чи містить масив ще запису
+-   [ArrayIterator::valid()](arrayiterator.valid.md) - Перевіряє, чи містить масив ще запису

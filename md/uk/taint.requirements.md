@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](taint.setup.html)
+-   [« Встановлення та налаштування](taint.setup.md)
     
--   [Установка »](taint.installation.html)
+-   [Установка »](taint.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](taint.setup.html)
+-   [Встановлення та налаштування](taint.setup.md)
     
 -   Вимоги
     

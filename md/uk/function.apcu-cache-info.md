@@ -4,9 +4,9 @@
     
 -   [apcucas »](function.apcu-cas.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции APCu](ref.apcu.html)
+-   [Функции APCu](ref.apcu.md)
     
 -   Витягує закешовану інформацію зі сховища APCu
     
@@ -39,9 +39,9 @@ apcu_cache_info(bool $limited = false): array|false
 
 ### список змін
 
-| Версия           | Описание                                           |
-|------------------|----------------------------------------------------|
-| PECL apcu 3.0.11 | Доданий параметр `limited`                         |
+| Версия | Описание |
+| --- | --- |
+| PECL apcu 3.0.11 | Доданий параметр `limited` |
 | PECL apcu 3.0.16 | Додана опція "`filehits`для параметра `cache_type` |
 
 ### Приклади
@@ -86,7 +86,7 @@ Array
 
 ### Дивіться також
 
--   [Директиви конфігурації APCu](apcu.configuration.html)
--   [APCUIterator::getTotalSize()](apcuiterator.gettotalsize.html) - Загальний розмір кешу
--   [APCUIterator::getTotalHits()](apcuiterator.gettotalhits.html) - Отримати загальну кількість влучень у кеш
--   [APCUIterator::getTotalCount()](apcuiterator.gettotalcount.html) - Отримати загальну кількість записів
+-   [Директиви конфігурації APCu](apcu.configuration.md)
+-   [APCUIterator::getTotalSize()](apcuiterator.gettotalsize.md) - Загальний розмір кешу
+-   [APCUIterator::getTotalHits()](apcuiterator.gettotalhits.md) - Отримати загальну кількість влучень у кеш
+-   [APCUIterator::getTotalCount()](apcuiterator.gettotalcount.md) - Отримати загальну кількість записів

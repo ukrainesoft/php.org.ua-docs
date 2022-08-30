@@ -1,12 +1,12 @@
 Клас SVMModel
 
--   [« SVM::train](svm.train.html)
+-   [« SVM::train](svm.train.md)
     
--   [SVMModel::checkProbabilityModel »](svmmodel.checkprobabilitymodel.html)
+-   [SVMModel::checkProbabilityModel »](svmmodel.checkprobabilitymodel.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SVM](book.svm.html)
+-   [SVM](book.svm.md)
     
 -   Клас SVMModel
     
@@ -51,13 +51,13 @@ public save(string $filename): bool
 
 ## Зміст
 
--   [SVMModel::checkProbabilityModel](svmmodel.checkprobabilitymodel.html) — Повертає true, якщо модель містить інформацію про ймовірність
--   [SVMModel::construct](svmmodel.construct.html) - Конструктор класу SVMModel
--   [SVMModel::getLabels](svmmodel.getlabels.html) — Повертає мітки, на яких навчалася модель
--   [SVMModel::getNrClass](svmmodel.getnrclass.html) — Повертає кількість класів, для яких навчалась модель
--   [SVMModel::getSvmType](svmmodel.getsvmtype.html) - Отримати тип SVM, з яким навчалася модель
--   [SVMModel::getSvrProbability](svmmodel.getsvrprobability.html) — Отримати величину сигми для регресійного типу
--   [SVMModel::load](svmmodel.load.html) — Завантажує збережену модель SVM
+-   [SVMModel::checkProbabilityModel](svmmodel.checkprobabilitymodel.md) — Повертає true, якщо модель містить інформацію про ймовірність
+-   [SVMModel::construct](svmmodel.construct.md) - Конструктор класу SVMModel
+-   [SVMModel::getLabels](svmmodel.getlabels.md) — Повертає мітки, на яких навчалася модель
+-   [SVMModel::getNrClass](svmmodel.getnrclass.md) — Повертає кількість класів, для яких навчалась модель
+-   [SVMModel::getSvmType](svmmodel.getsvmtype.md) - Отримати тип SVM, з яким навчалася модель
+-   [SVMModel::getSvrProbability](svmmodel.getsvrprobability.md) — Отримати величину сигми для регресійного типу
+-   [SVMModel::load](svmmodel.load.md) — Завантажує збережену модель SVM
 -   [SVMModel::predictprobability](svmmodel.predict-probability.html) — Повертає можливість класу для заданих даних
--   [SVMModel::predict](svmmodel.predict.html) — Передбачити значення на основі нових даних
--   [SVMModel::save](svmmodel.save.html) — Зберегти готову модель у файл
+-   [SVMModel::predict](svmmodel.predict.md) — Передбачити значення на основі нових даних
+-   [SVMModel::save](svmmodel.save.md) — Зберегти готову модель у файл

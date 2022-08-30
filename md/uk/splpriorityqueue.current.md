@@ -1,12 +1,12 @@
 Повертає поточний вузол, який вказує ітератор
 
--   [« SplPriorityQueue::count](splpriorityqueue.count.html)
+-   [« SplPriorityQueue::count](splpriorityqueue.count.md)
     
--   [SplPriorityQueue::extract »](splpriorityqueue.extract.html)
+-   [SplPriorityQueue::extract »](splpriorityqueue.extract.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplPriorityQueue](class.splpriorityqueue.html)
+-   [SplPriorityQueue](class.splpriorityqueue.md)
     
 -   Повертає поточний вузол, який вказує ітератор
     

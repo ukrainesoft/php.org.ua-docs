@@ -1,12 +1,12 @@
 Опції Sodium
 
--   [« Предопределённые константы](sodium.constants.html)
+-   [« Обумовлені константи](sodium.constants.md)
     
 -   [sodiumadd »](function.sodium-add.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Sodium](book.sodium.html)
+-   [Sodium](book.sodium.md)
     
 -   Опції Sodium
     

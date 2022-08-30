@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](simplexml.requirements.html)
+-   [« Вимоги](simplexml.requirements.md)
     
--   [Настройка во время выполнения »](simplexml.configuration.html)
+-   [Налаштування під час виконання »](simplexml.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](simplexml.setup.html)
+-   [Встановлення та налаштування](simplexml.setup.md)
     
 -   Встановлення
     

@@ -1,12 +1,12 @@
 Rar
 
--   [« Примеры](rar.examples.html)
+-   [« Приклади](rar.examples.md)
     
 -   [rarwrappercachestats »](function.rar-wrapper-cache-stats.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Rar](book.rar.html)
+-   [Rar](book.rar.md)
     
 -   Rar
     

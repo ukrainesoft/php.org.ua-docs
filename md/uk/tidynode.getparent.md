@@ -1,12 +1,12 @@
 Повертає батьківський вузол поточного вузла
 
--   [« tidyNode::construct](tidynode.construct.html)
+-   [« tidyNode::construct](tidynode.construct.md)
     
--   [tidyNode::hasChildren »](tidynode.haschildren.html)
+-   [tidyNode::hasChildren »](tidynode.haschildren.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidyNode](class.tidynode.html)
+-   [tidyNode](class.tidynode.md)
     
 -   Повертає батьківський вузол поточного вузла
     
@@ -31,7 +31,7 @@ public tidyNode::getParent(): ?tidyNode
 
 ### Значення, що повертаються
 
-Повертає об'єкт [tidyNode](class.tidynode.html)якщо вузол має батька, в іншому випадку повертає **`null`**
+Повертає об'єкт [tidyNode](class.tidynode.md)якщо вузол має батька, в іншому випадку повертає **`null`**
 
 ### Приклади
 

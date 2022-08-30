@@ -1,12 +1,12 @@
 Псевдонім OCILob::writeTemporary
 
--   [« ociwritelobtofile](function.ociwritelobtofile.html)
+-   [« ociwritelobtofile](function.ociwritelobtofile.md)
     
--   [PostgreSQL »](book.pgsql.html)
+-   [PostgreSQL »](book.pgsql.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Псевдонім OCILob::writeTemporary
     
@@ -15,11 +15,11 @@
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PECL OCI8 1.0)
 
-ociwritetemporarylob - Псевдонім [OCILob::writeTemporary()](ocilob.writetemporary.html)
+ociwritetemporarylob - Псевдонім [OCILob::writeTemporary()](ocilob.writetemporary.md)
 
 ### Опис
 
-Псевдонім [OCILob::writeTemporary()](ocilob.writetemporary.html)
+Псевдонім [OCILob::writeTemporary()](ocilob.writetemporary.md)
 
 **Увага**
 

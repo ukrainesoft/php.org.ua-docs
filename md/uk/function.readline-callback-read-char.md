@@ -4,9 +4,9 @@
     
 -   [readlineclearhistory »](function.readline-clear-history.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Readline](ref.readline.html)
+-   [Функции Readline](ref.readline.md)
     
 -   Читає символ та інформує callback-функцію readline, що отримано рядок
     

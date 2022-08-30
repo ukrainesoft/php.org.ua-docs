@@ -4,9 +4,9 @@
     
 -   [псsetlinewidth »](function.ps-setlinewidth.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Встановлює спосіб з'єднання ліній
     

@@ -1,12 +1,12 @@
 Створює об'єкт ReflectionEnumBackedCase
 
--   [« ReflectionEnumBackedCase](class.reflectionenumbackedcase.html)
+-   [« ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)
     
--   [ReflectionEnumBackedCase::getBackingValue »](reflectionenumbackedcase.getbackingvalue.html)
+-   [ReflectionEnumBackedCase::getBackingValue »](reflectionenumbackedcase.getbackingvalue.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionEnumBackedCase](class.reflectionenumbackedcase.html)
+-   [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)
     
 -   Створює об'єкт ReflectionEnumBackedCase
     
@@ -15,7 +15,7 @@
 
 (PHP 8> = 8.1.0)
 
-ReflectionEnumBackedCase::construct — Створює об'єкт [ReflectionEnumBackedCase](class.reflectionenumbackedcase.html)
+ReflectionEnumBackedCase::construct — Створює об'єкт [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)
 
 ### Опис
 

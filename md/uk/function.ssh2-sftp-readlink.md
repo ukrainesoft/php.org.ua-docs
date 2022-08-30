@@ -4,9 +4,9 @@
     
 -   [ssh2sftprealpath »](function.ssh2-sftp-realpath.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Повертає об'єкт за символічним посиланням
     
@@ -56,5 +56,5 @@ $target = ssh2_sftp_readlink($sftp, '/tmp/mysql.sock');
 
 ### Дивіться також
 
--   [readlink()](function.readlink.html) - Повертає файл, на який вказує символічне посилання
+-   [readlink()](function.readlink.md) - Повертає файл, на який вказує символічне посилання
 -   [ssh2sftpsymlink()](function.ssh2-sftp-symlink.html) - Створити символічне посилання

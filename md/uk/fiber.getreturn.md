@@ -1,12 +1,12 @@
 Отримує значення, яке повертається файбером
 
--   [« Fiber::throw](fiber.throw.html)
+-   [« Fiber::throw](fiber.throw.md)
     
--   [Fiber::isStarted »](fiber.isstarted.html)
+-   [Fiber::isStarted »](fiber.isstarted.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Fiber](class.fiber.html)
+-   [Fiber](class.fiber.md)
     
 -   Отримує значення, яке повертається файбером
     
@@ -29,4 +29,4 @@ public Fiber::getReturn(): mixed
 
 ### Значення, що повертаються
 
-Повертає значення, що повертається [callable](language.types.callable.html)функцією, наданою в [Fiber::construct()](fiber.construct.html). Якщо файбер не повернув значення, або тому, що він не був запущений, або не був завершений, або викинув виняток, буде викинуто виняток [FiberError](class.fibererror.html)
+Повертає значення, що повертається [callable](language.types.callable.md)функцією, наданою в [Fiber::construct()](fiber.construct.md). Якщо файбер не повернув значення, або тому, що він не був запущений, або не був завершений, або викинув виняток, буде викинуто виняток [FiberError](class.fibererror.md)

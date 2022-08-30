@@ -4,9 +4,9 @@
     
 -   [fanngetactivationsteepness »](function.fann-get-activation-steepness.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Повертає функцію активації
     

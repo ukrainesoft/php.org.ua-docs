@@ -1,12 +1,12 @@
 Конструктор класу SQLite3Stmt
 
--   [« SQLite3Stmt::close](sqlite3stmt.close.html)
+-   [« SQLite3Stmt::close](sqlite3stmt.close.md)
     
--   [SQLite3Stmt::execute »](sqlite3stmt.execute.html)
+-   [SQLite3Stmt::execute »](sqlite3stmt.execute.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3Stmt](class.sqlite3stmt.html)
+-   [SQLite3Stmt](class.sqlite3stmt.md)
     
 -   Конструктор класу SQLite3Stmt
     
@@ -19,9 +19,9 @@ SQLite3Stmt::construct - конструктор класу SQLite3Stmt
 
 ### Опис
 
-private **SQLite3Stmt::construct**[SQLite3](class.sqlite3.html) `$sqlite3`, string `$query`
+private **SQLite3Stmt::construct**[SQLite3](class.sqlite3.md) `$sqlite3`, string `$query`
 
-Примірники [SQLite3Stmt](class.sqlite3stmt.html) створюються за допомогою [SQLite3::prepare()](sqlite3.prepare.html)
+Примірники [SQLite3Stmt](class.sqlite3stmt.md) створюються за допомогою [SQLite3::prepare()](sqlite3.prepare.md)
 
 ### Список параметрів
 

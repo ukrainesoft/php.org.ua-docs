@@ -2,24 +2,24 @@
 
 -   [« statsvariance](function.stats-variance.html)
     
--   [Введение »](intro.trader.html)
+-   [Введение »](intro.trader.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні модулі](refs.math.html)
+-   [Математичні модулі](refs.math.md)
     
 -   Технічний аналіз для трейдерів
     
 
 # Технічний аналіз для трейдерів
 
--   [Введение](intro.trader.html)
--   [Установка и настройка](trader.setup.html)
-    -   [Требования](trader.requirements.html)
-    -   [Установка](trader.installation.html)
-    -   [Настройка во время выполнения](trader.configuration.html)
--   [Предопределённые константы](trader.constants.html)
--   [Функции Trader](ref.trader.html)
+-   [Введение](intro.trader.md)
+-   [Встановлення та налаштування](trader.setup.md)
+    -   [Вимоги](trader.requirements.md)
+    -   [Установка](trader.installation.md)
+    -   [Налаштування під час виконання](trader.configuration.md)
+-   [Обумовлені константи](trader.constants.md)
+-   [Функции Trader](ref.trader.md)
     -   [traderacos](function.trader-acos.html) - Векторний тригонометричний арккосинус
     -   [traderпекло](function.trader-ad.html) - Індикатор Чайкіна Накопичення/Розпродаж
     -   [traderadd](function.trader-add.html) — Арифметичне складання вектора

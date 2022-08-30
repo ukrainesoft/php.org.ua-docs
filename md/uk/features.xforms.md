@@ -19,7 +19,7 @@
 
 **Приклад #1 Проста пошукова форма XForms**
 
-[http://www.w3.org/1999/xhtml"xmlns="\[http://www.w3.org/2002/xforms">\](http://www.w3.org/2002/xforms">)](http://www.w3.org/1999/xhtml"xmlns="%5Bhttp://www.w3.org/2002/xforms">%5D(http://www.w3.org/2002/xforms">)) Пошук Що шукати? Знайти
+[http://www.w3.org/1999/xhtml"xmlns="](http://www.w3.org/1999/xhtml%22xmlns=%22%5Bhttp://www.w3.org/2002/xforms%22%3E%5D(http://www.w3.org/2002/xforms%22%3E))[http://www.w3.org/2002/xforms">](http://www.w3.org/2002/xforms%22%3E) Пошук Що шукати? Знайти
 
 Наведена вище форма відображає текстове поле для введення (назване `q`) та кнопку для відправки форми, при натисканні на яку всі введені дані будуть відправлені скрипту, вказаному в полі `action`
 
@@ -31,6 +31,6 @@
 
 **Приклад #2 Використання XForm разом із масивом [POST](reserved.variables.post.html)**
 
-[http://www.w3.org/1999/xhtml"xmlns="\[http://www.w3.org/2002/xforms">\](http://www.w3.org/2002/xforms">)](http://www.w3.org/1999/xhtml"xmlns="%5Bhttp://www.w3.org/2002/xforms">%5D(http://www.w3.org/2002/xforms">)) Пошук Що шукати? Знайти
+[http://www.w3.org/1999/xhtml"xmlns="](http://www.w3.org/1999/xhtml%22xmlns=%22%5Bhttp://www.w3.org/2002/xforms%22%3E%5D(http://www.w3.org/2002/xforms%22%3E))[http://www.w3.org/2002/xforms">](http://www.w3.org/2002/xforms%22%3E) Пошук Що шукати? Знайти
 
 > **Зауваження**: На додаток до вищесказаного слід зауважити, що велика кількість браузерів не підтримують XForms. Якщо наведені приклади зазнали невдачі, перевірте версію браузера, який ви використовуєте.

@@ -1,27 +1,27 @@
 Семафори, пам'ять, що розділяється, і IPC
 
--   [« Volatile](class.volatile.html)
+-   [« Volatile](class.volatile.md)
     
--   [Введение »](intro.sem.html)
+-   [Введение »](intro.sem.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модули для управления процессами программ](refs.fileprocess.process.html)
+-   [Модули для управления процессами программ](refs.fileprocess.process.md)
     
 -   Семафори, пам'ять, що розділяється, і IPC
     
 
 # Семафори, пам'ять, що розділяється, і IPC
 
--   [Введение](intro.sem.html)
--   [Установка и настройка](sem.setup.html)
-    -   [Требования](sem.requirements.html)
-    -   [Установка](sem.installation.html)
-    -   [Настройка во время выполнения](sem.configuration.html)
-    -   [Типы ресурсов](sem.resources.html)
--   [Предопределённые константы](sem.constants.html)
--   [Функції семафорів](ref.sem.html)
-    -   [ftok](function.ftok.html) — Перетворення шляху та ідентифікатора проекту на ключ System V IPC
+-   [Введение](intro.sem.md)
+-   [Встановлення та налаштування](sem.setup.md)
+    -   [Вимоги](sem.requirements.md)
+    -   [Установка](sem.installation.md)
+    -   [Налаштування під час виконання](sem.configuration.md)
+    -   [Типи ресурсів](sem.resources.md)
+-   [Обумовлені константи](sem.constants.md)
+-   [Функції семафорів](ref.sem.md)
+    -   [ftok](function.ftok.md) — Перетворення шляху та ідентифікатора проекту на ключ System V IPC
     -   [msggetqueue](function.msg-get-queue.html) — Створення або підключення до черги повідомлень
     -   [msgqueueexists](function.msg-queue-exists.html) — Перевірка існування черги повідомлень
     -   [msgreceive](function.msg-receive.html) — Отримання повідомлення з черги повідомлень
@@ -40,6 +40,6 @@
     -   [shmputvar](function.shm-put-var.html) — Вставляє або оновлює змінну в пам'яті, що розділяється.
     -   [shmremovevar](function.shm-remove-var.html) — Видаляє змінну з пам'яті, що розділяється.
     -   [shmremove](function.shm-remove.html) — Видаляє пам'ять із систем Unix, що розділяється.
--   [SysvMessageQueue](class.sysvmessagequeue.html) - Клас SysvMessageQueue
--   [SysvSemaphore](class.sysvsemaphore.html) - Клас SysvSemaphore
--   [SysvSharedMemory](class.sysvsharedmemory.html) - Клас SysvSharedMemory
+-   [SysvMessageQueue](class.sysvmessagequeue.md) - Клас SysvMessageQueue
+-   [SysvSemaphore](class.sysvsemaphore.md) - Клас SysvSemaphore
+-   [SysvSharedMemory](class.sysvsharedmemory.md) - Клас SysvSharedMemory

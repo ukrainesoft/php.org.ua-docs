@@ -1,12 +1,12 @@
 Отримати контрольну суму CRC32
 
--   [« PharFileInfo::destruct](pharfileinfo.destruct.html)
+-   [« PharFileInfo::destruct](pharfileinfo.destruct.md)
     
--   [PharFileInfo::getCompressedSize »](pharfileinfo.getcompressedsize.html)
+-   [PharFileInfo::getCompressedSize »](pharfileinfo.getcompressedsize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [PharFileInfo](class.pharfileinfo.html)
+-   [PharFileInfo](class.pharfileinfo.md)
     
 -   Отримати контрольну суму CRC32
     
@@ -23,7 +23,7 @@ PharFileInfo::getCRC32 — Отримати контрольну суму CRC32
 public PharFileInfo::getCRC32(): int
 ```
 
-Повертає контрольну суму [crc32()](function.crc32.html) для файлу у Phar-архіві.
+Повертає контрольну суму [crc32()](function.crc32.md) для файлу у Phar-архіві.
 
 ### Список параметрів
 
@@ -31,11 +31,11 @@ public PharFileInfo::getCRC32(): int
 
 ### Значення, що повертаються
 
-Контрольна сума [crc32()](function.crc32.html) для файлу у Phar-архіві.
+Контрольна сума [crc32()](function.crc32.md) для файлу у Phar-архіві.
 
 ### Помилки
 
-Викидає виняток [BadMethodCallException](class.badmethodcallexception.html), якщо не вдалося верифікувати контрольну суму CRC32. Цього практично неможливо досягти при звичайній роботі, оскільки контрольна сума перевіряється під час читання та запису файлу.
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.md), якщо не вдалося верифікувати контрольну суму CRC32. Цього практично неможливо досягти при звичайній роботі, оскільки контрольна сума перевіряється під час читання та запису файлу.
 
 ### Приклади
 

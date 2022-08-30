@@ -4,9 +4,9 @@
     
 -   [tradercdlladderbottom »](function.trader-cdlladderbottom.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Trader](ref.trader.html)
+-   [Функции Trader](ref.trader.md)
     
 -   Високий стрибок - бик/ведмідь визначається за довгим марубозом
     

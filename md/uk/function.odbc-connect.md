@@ -4,9 +4,9 @@
     
 -   [odbccursor »](function.odbc-cursor.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции ODBC](ref.uodbc.html)
+-   [Функции ODBC](ref.uodbc.md)
     
 -   З'єднує із джерелом даних
     

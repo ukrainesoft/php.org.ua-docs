@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](seaslog.constants.html)
+-   [« Обумовлені константи](seaslog.constants.md)
     
--   [Функции Seaslog »](ref.seaslog.html)
+-   [Функции Seaslog »](ref.seaslog.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Seaslog](book.seaslog.html)
+-   [Seaslog](book.seaslog.md)
     
 -   Приклади
     

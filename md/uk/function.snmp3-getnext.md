@@ -4,9 +4,9 @@
     
 -   [snmpv3realwalk »](function.snmp3-real-walk.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.md)
     
 -   Отримує об'єкт SNMP, який слідує за вказаним ідентифікатором об'єкта
     
@@ -73,9 +73,9 @@ snmp3_getnext(    string $hostname,    string $security_name,    str
 
 ### список змін
 
-| Версия | Описание                                                                                     |
-|--------|----------------------------------------------------------------------------------------------|
-|        | Параметр `auth_protocol` тепер приймає `"SHA256"` і `"SHA512"`якщо підтримується libnetsnmp. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `auth_protocol` тепер приймає `"SHA256"` і `"SHA512"`якщо підтримується libnetsnmp. |
 
 ### Приклади
 

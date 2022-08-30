@@ -1,12 +1,12 @@
 Збільшити значення елемента
 
--   [« Memcache::getVersion](memcache.getversion.html)
+-   [« Memcache::getVersion](memcache.getversion.md)
     
--   [Memcache::pconnect »](memcache.pconnect.html)
+-   [Memcache::pconnect »](memcache.pconnect.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcache](class.memcache.html)
+-   [Memcache](class.memcache.md)
     
 -   Збільшити значення елемента
     
@@ -27,7 +27,7 @@ Memcache::increment(string $key, int $value = 1): int|false
 
 > **Зауваження**
 > 
-> Не використовуйте **Memcache::increment()** з елементами, які були збережені за допомогою стиснення, тому що відповідний виклик [Memcache::get()](memcache.get.html) обернеться невдачею.
+> Не використовуйте **Memcache::increment()** з елементами, які були збережені за допомогою стиснення, тому що відповідний виклик [Memcache::get()](memcache.get.md) обернеться невдачею.
 
 Також можна використовувати функцію **memcacheincrement()**
 
@@ -68,5 +68,5 @@ $current_value = $memcache_obj->increment('counter', 3);
 
 ### Дивіться також
 
--   [Memcache::decrement()](memcache.decrement.html) - Декрементувати значення елемента
--   [Memcache::replace()](memcache.replace.html) - Замінити значення наявного елемента
+-   [Memcache::decrement()](memcache.decrement.md) - Декрементувати значення елемента
+-   [Memcache::replace()](memcache.replace.md) - Замінити значення наявного елемента

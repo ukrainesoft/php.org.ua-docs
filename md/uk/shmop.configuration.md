@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](shmop.installation.html)
+-   [« Установка](shmop.installation.md)
     
--   [Типы ресурсов »](shmop.resources.html)
+-   [Типи ресурсів »](shmop.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](shmop.setup.html)
+-   [Встановлення та налаштування](shmop.setup.md)
     
 -   Налаштування під час виконання
     

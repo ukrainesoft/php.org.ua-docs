@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.outcontrol.html)
+-   [« Введение](intro.outcontrol.md)
     
--   [Требования »](outcontrol.requirements.html)
+-   [Вимоги »](outcontrol.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Контроль виведення](book.outcontrol.html)
+-   [Контроль виведення](book.outcontrol.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](outcontrol.requirements.html)
--   [Установка](outcontrol.installation.html)
--   [Настройка во время выполнения](outcontrol.configuration.html)
--   [Типы ресурсов](outcontrol.resources.html)
+-   [Вимоги](outcontrol.requirements.md)
+-   [Установка](outcontrol.installation.md)
+-   [Налаштування під час виконання](outcontrol.configuration.md)
+-   [Типи ресурсів](outcontrol.resources.md)

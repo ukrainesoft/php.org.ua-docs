@@ -2,11 +2,11 @@
 
 -   [« apacheresponseheaders](function.apache-response-headers.html)
     
--   [getallheaders »](function.getallheaders.html)
+-   [getallheaders »](function.getallheaders.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Apache](ref.apache.html)
+-   [Функции Apache](ref.apache.md)
     
 -   Встановлює змінну subprocessenv Apache
     
@@ -27,7 +27,7 @@ apache_setenv(string $variable, string $value, bool $walk_to_top = false): bool
 
 > **Зауваження**
 > 
-> При установці змінної оточення Apache, відповідна їй змінна [SERVER](reserved.variables.server.html) не змінюється.
+> При установці змінної оточення Apache, відповідна їй змінна [SERVER](reserved.variables.server.md) не змінюється.
 
 ### Список параметрів
 

@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](info.installation.html)
+-   [« Установка](info.installation.md)
     
--   [Типы ресурсов »](info.resources.html)
+-   [Типи ресурсів »](info.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](info.setup.html)
+-   [Встановлення та налаштування](info.setup.md)
     
 -   Налаштування під час виконання
     
@@ -17,30 +17,30 @@
 
 **Установки PHP/Параметри конфігурації інформації**
 
-| Имя                                                                         | По умолчанию | Место изменения | Список изменений                                                        |
-|-----------------------------------------------------------------------------|--------------|-----------------|-------------------------------------------------------------------------|
-| [assert.active](info.configuration.html#ini.assert.active)                  | "1"          | PHPINIALL       |                                                                         |
-| [assert.bail](info.configuration.html#ini.assert.bail)                      | "0"          | PHPINIALL       |                                                                         |
-| [assert.warning](info.configuration.html#ini.assert.warning)                | "1"          | PHPINIALL       |                                                                         |
-| [assert.callback](info.configuration.html#ini.assert.callback)              | NULL         | PHPINIALL       |                                                                         |
-| [assert.quieteval](info.configuration.html#ini.assert.quiet-eval)           | "0"          | PHPINIALL       |                                                                         |
-| [assert.exception](info.configuration.html#ini.assert.exception)            | "0"          | PHPINIALL       | Доступна з версії PHP 7.0.0.                                            |
-| [enableдл](info.configuration.html#ini.enable-dl)                           | "1"          | PHPINISYSTEM    | Ця можливість застаріла та *буде* обов'язково *видалено* в майбутньому. |
-| [maxexecutiontime](info.configuration.html#ini.max-execution-time)          | "30"         | PHPINIALL       |                                                                         |
-| [maxinputtime](info.configuration.html#ini.max-input-time)                  | "-1"         | PHPINIPERDIR    |                                                                         |
-| [maxinputnestinglevel](info.configuration.html#ini.max-input-nesting-level) | "64"         | PHPINIPERDIR    | Доступна з PHP 5.2.3.                                                   |
-| [maxinputvars](info.configuration.html#ini.max-input-vars)                  |              | PHPINIPERDIR    | Доступна з PHP 5.3.9.                                                   |
-| [magicquotesgpc](info.configuration.html#ini.magic-quotes-gpc)              | "1"          | PHPINIPERDIR    | Видалено в PHP 5.4.0.                                                   |
-| [magicquotesruntime](info.configuration.html#ini.magic-quotes-runtime)      | "0"          | PHPINIALL       | Видалено в PHP 5.4.0.                                                   |
-| [zend.enableгк](info.configuration.html#ini.zend.enable-gc)                 | "1"          | PHPINIALL       | Доступна з PHP 5.3.0.                                                   |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [assert.active](info.configuration.html#ini.assert.active) | "1" | PHPINIALL |  |
+| [assert.bail](info.configuration.html#ini.assert.bail) | "0" | PHPINIALL |  |
+| [assert.warning](info.configuration.html#ini.assert.warning) | "1" | PHPINIALL |  |
+| [assert.callback](info.configuration.html#ini.assert.callback) | NULL | PHPINIALL |  |
+| [assert.quieteval](info.configuration.html#ini.assert.quiet-eval) | "0" | PHPINIALL |  |
+| [assert.exception](info.configuration.html#ini.assert.exception) | "0" | PHPINIALL | Доступна з версії PHP 7.0.0. |
+| [enableдл](info.configuration.html#ini.enable-dl) | "1" | PHPINISYSTEM | Ця можливість застаріла та *буде* обов'язково *видалено* в майбутньому. |
+| [maxexecutiontime](info.configuration.html#ini.max-execution-time) | "30" | PHPINIALL |  |
+| [maxinputtime](info.configuration.html#ini.max-input-time) | "-1" | PHPINIPERDIR |  |
+| [maxinputnestinglevel](info.configuration.html#ini.max-input-nesting-level) | "64" | PHPINIPERDIR | Доступна з PHP 5.2.3. |
+| [maxinputvars](info.configuration.html#ini.max-input-vars) |  | PHPINIPERDIR | Доступна з PHP 5.3.9. |
+| [magicquotesgpc](info.configuration.html#ini.magic-quotes-gpc) | "1" | PHPINIPERDIR | Видалено в PHP 5.4.0. |
+| [magicquotesruntime](info.configuration.html#ini.magic-quotes-runtime) | "0" | PHPINIALL | Видалено в PHP 5.4.0. |
+| [zend.enableгк](info.configuration.html#ini.zend.enable-gc) | "1" | PHPINIALL | Доступна з PHP 5.3.0. |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 
 `assert.active` bool
 
-Увімкнення виконання [assert()](function.assert.html)
+Увімкнення виконання [assert()](function.assert.md)
 
 `assert.bail` bool
 
@@ -60,17 +60,17 @@
 
 `assert.exception` bool
 
-Генерує виняток [AssertionError](class.assertionerror.html) для невдалої перевірки затвердження.
+Генерує виняток [AssertionError](class.assertionerror.md) для невдалої перевірки затвердження.
 
 `enable_dl` bool
 
-Директива дозволяє вмикати та вимикати динамічне підвантаження модулів PHP за допомогою функції [dl()](function.dl.html)
+Директива дозволяє вмикати та вимикати динамічне підвантаження модулів PHP за допомогою функції [dl()](function.dl.md)
 
 Головною причиною, через яку потрібно вимкнення динамічного завантаження, є безпека. За допомогою динамічного завантаження можна обійти все [openbasedir](ini.core.html#ini.open-basedir) обмеження. За замовчуванням динамічне завантаження дозволено.
 
 `max_execution_time` int
 
-Ця директива визначає максимальний час у секундах, протягом якого скрипт повинен повністю завантажитися. Якщо цього немає, парсер завершує роботу скрипта. Цей механізм допомагає запобігти зависанню сервера через погано написаний скрипт. За промовчанням на завантаження дається `30` секунд. Якщо PHP запущено з [командного рядка](features.commandline.html), це значення за умовчанням дорівнює `0`
+Ця директива визначає максимальний час у секундах, протягом якого скрипт повинен повністю завантажитися. Якщо цього немає, парсер завершує роботу скрипта. Цей механізм допомагає запобігти зависанню сервера через погано написаний скрипт. За промовчанням на завантаження дається `30` секунд. Якщо PHP запущено з [командного рядка](features.commandline.md), це значення за умовчанням дорівнює `0`
 
 У системах, відмінних від Windows, на максимальний час виконання не впливають системні дзвінки, потокові операції тощо. За додатковою інформацією звертайтесь до документації до функції [settimelimit()](function.set-time-limit.html)
 
@@ -82,11 +82,11 @@
 
 `max_input_nesting_level` int
 
-Задає максимальну глибину вкладеності [входных переменных](language.variables.external.html) (тобто [GET](reserved.variables.get.html) [POST](reserved.variables.post.html)
+Задає максимальну глибину вкладеності [вхідних змінних](language.variables.external.md) (тобто [GET](reserved.variables.get.md) [POST](reserved.variables.post.md)
 
 `max_input_vars` int
 
-Скільки [входных переменных](language.variables.external.html) може бути прийнято в одному запиті (обмеження накладається на кожну з глобальних змінних $GET, $POST та $COOKIE окремо). Використання цієї директиви знижує ймовірність збоїв у разі атак із використанням хеш-колізій. Якщо вхідних змінних більше, ніж встановлено директивою, викидається попередження \*\*`E_WARNING`\*\*а всі наступні змінні в запиті ігноруються.
+Скільки [вхідних змінних](language.variables.external.md) може бути прийнято в одному запиті (обмеження накладається на кожну з глобальних змінних $GET, $POST та $COOKIE окремо). Використання цієї директиви знижує ймовірність збоїв у разі атак із використанням хеш-колізій. Якщо вхідних змінних більше, ніж встановлено директивою, викидається попередження \*\*`E_WARNING`\*\*а всі наступні змінні в запиті ігноруються.
 
 `magic_quotes_gpc` bool
 
@@ -110,21 +110,21 @@
 
 -   [getmetatags()](function.get-meta-tags.html)
 -   [filegetcontents()](function.file-get-contents.html)
--   [file()](function.file.html)
--   [fgets()](function.fgets.html)
--   [fwrite()](function.fwrite.html)
--   [fread()](function.fread.html)
--   [fputcsv()](function.fputcsv.html)
+-   [file()](function.file.md)
+-   [fgets()](function.fgets.md)
+-   [fwrite()](function.fwrite.md)
+-   [fread()](function.fread.md)
+-   [fputcsv()](function.fputcsv.md)
 -   [streamsocketrecvfrom()](function.stream-socket-recvfrom.html)
--   [exec()](function.exec.html)
--   [system()](function.system.html)
--   [passthru()](function.passthru.html)
+-   [exec()](function.exec.md)
+-   [system()](function.system.md)
+-   [passthru()](function.passthru.md)
 -   [streamgetcontents()](function.stream-get-contents.html)
--   [bzread()](function.bzread.html)
--   [gzfile()](function.gzfile.html)
--   [gzgets()](function.gzgets.html)
--   [gzwrite()](function.gzwrite.html)
--   [gzread()](function.gzread.html)
+-   [bzread()](function.bzread.md)
+-   [gzfile()](function.gzfile.md)
+-   [gzgets()](function.gzgets.md)
+-   [gzwrite()](function.gzwrite.md)
+-   [gzread()](function.gzread.md)
 -   [exifreaddata()](function.exif-read-data.html)
 -   [dbainsert()](function.dba-insert.html)
 -   [dbareplace()](function.dba-replace.html)
@@ -149,9 +149,9 @@
 -   **sybasefetchobject()**
 -   **sybasefetcharray()**
 -   **sybasefetchassoc()**
--   [SplFileObject::fgets()](splfileobject.fgets.html)
--   [SplFileObject::fgetcsv()](splfileobject.fgetcsv.html)
--   [SplFileObject::fwrite()](splfileobject.fwrite.html)
+-   [SplFileObject::fgets()](splfileobject.fgets.md)
+-   [SplFileObject::fgetcsv()](splfileobject.fgetcsv.md)
+-   [SplFileObject::fwrite()](splfileobject.fwrite.md)
 
 `zend.enable_gc` bool
 

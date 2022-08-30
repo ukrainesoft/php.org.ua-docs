@@ -4,9 +4,9 @@
     
 -   [socketimportstream »](function.socket-import-stream.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции сокета](ref.sockets.html)
+-   [Функции сокета](ref.sockets.md)
     
 -   Запитує локальну сторону зазначеного сокету, в результаті можна отримати хост/порт або шлях у файловій системі Unix, залежно від типу сокету
     
@@ -29,7 +29,7 @@ socket_getsockname(Socket $socket, string &$address, int &$port = null): bool
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений функцією [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
+Екземпляр [Socket](class.socket.md), створений функцією [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
 
 `address`
 
@@ -47,9 +47,9 @@ socket_getsockname(Socket $socket, string &$address, int &$port = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 

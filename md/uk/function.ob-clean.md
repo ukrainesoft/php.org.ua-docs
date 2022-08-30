@@ -1,12 +1,12 @@
 Очистити (стерти) буфер виводу
 
--   [« flush](function.flush.html)
+-   [« flush](function.flush.md)
     
 -   [проendclean »](function.ob-end-clean.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції контролю виведення](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.md)
     
 -   Очистити (стерти) буфер виводу
     

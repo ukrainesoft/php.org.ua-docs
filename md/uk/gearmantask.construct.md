@@ -1,12 +1,12 @@
 Створює об'єкт GearmanTask
 
--   [« GearmanTask](class.gearmantask.html)
+-   [« GearmanTask](class.gearmantask.md)
     
--   [GearmanTask::create »](gearmantask.create.html)
+-   [GearmanTask::create »](gearmantask.create.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanTask](class.gearmantask.html)
+-   [GearmanTask](class.gearmantask.md)
     
 -   Створює об'єкт GearmanTask
     
@@ -23,7 +23,7 @@ GearmanTask::construct — Створює об'єкт GearmanTask
 public GearmanTask::__construct()
 ```
 
-Створює об'єкт [GearmanTask](class.gearmantask.html), що представляє завдання на обробку, яка буде відправлена ​​на сервер.
+Створює об'єкт [GearmanTask](class.gearmantask.md), що представляє завдання на обробку, яка буде відправлена ​​на сервер.
 
 ### Список параметрів
 
@@ -31,4 +31,4 @@ public GearmanTask::__construct()
 
 ### Значення, що повертаються
 
-Об'єкт класу [GearmanTask](class.gearmantask.html)
+Об'єкт класу [GearmanTask](class.gearmantask.md)

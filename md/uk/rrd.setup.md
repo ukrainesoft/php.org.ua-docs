@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.rrd.html)
     
--   [Требования »](rrd.requirements.html)
+-   [Вимоги »](rrd.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](rrd.requirements.html)
+-   [Вимоги](rrd.requirements.html)
 -   [Установка](rrd.installation.html)
--   [Настройка во время выполнения](rrd.configuration.html)
--   [Типы ресурсов](rrd.resources.html)
+-   [Налаштування під час виконання](rrd.configuration.html)
+-   [Типи ресурсів](rrd.resources.html)

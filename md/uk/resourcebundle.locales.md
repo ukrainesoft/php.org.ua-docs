@@ -1,12 +1,12 @@
 Отримати підтримувані локалі
 
--   [« ResourceBundle::get](resourcebundle.get.html)
+-   [« ResourceBundle::get](resourcebundle.get.md)
     
--   [Spoofchecker »](class.spoofchecker.html)
+-   [Spoofchecker »](class.spoofchecker.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ResourceBundle](class.resourcebundle.html)
+-   [ResourceBundle](class.resourcebundle.md)
     
 -   Отримати підтримувані локалі
     
@@ -82,4 +82,4 @@ root
 
 ### Дивіться також
 
--   [resourcebundleget()](resourcebundle.get.html) - Отримати дані з пакета
+-   [resourcebundleget()](resourcebundle.get.md) - Отримати дані з пакета

@@ -1,12 +1,12 @@
 Закритий конструктор, який забороняє створення об'єкта безпосередньо
 
--   [« ReflectionAttribute](class.reflectionattribute.html)
+-   [« ReflectionAttribute](class.reflectionattribute.md)
     
--   [ReflectionAttribute::getArguments »](reflectionattribute.getarguments.html)
+-   [ReflectionAttribute::getArguments »](reflectionattribute.getarguments.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionAttribute](class.reflectionattribute.html)
+-   [ReflectionAttribute](class.reflectionattribute.md)
     
 -   Закритий конструктор, який забороняє створення об'єкта безпосередньо
     

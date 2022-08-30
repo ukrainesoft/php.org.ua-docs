@@ -4,7 +4,7 @@
     
 -   [YafResponseAbstract::toString »](yaf-response-abstract.tostring.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafResponseAbstract](class.yaf-response-abstract.html)
     

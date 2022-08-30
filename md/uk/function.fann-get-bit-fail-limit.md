@@ -4,9 +4,9 @@
     
 -   [fanngetbitfail »](function.fann-get-bit-fail.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Fann](ref.fann.html)
+-   [Функции Fann](ref.fann.md)
     
 -   Повертає межу збою бітів, використану під час навчання
     

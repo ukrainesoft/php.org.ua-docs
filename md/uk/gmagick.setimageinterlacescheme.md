@@ -1,12 +1,12 @@
 Встановлює схему надстрокової розгортки зображення
 
--   [« Gmagick::setimageindex](gmagick.setimageindex.html)
+-   [« Gmagick::setimageindex](gmagick.setimageindex.md)
     
--   [Gmagick::setimageiterations »](gmagick.setimageiterations.html)
+-   [Gmagick::setimageiterations »](gmagick.setimageiterations.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Встановлює схему надстрокової розгортки зображення
     
@@ -33,7 +33,7 @@ public Gmagick::setimageinterlacescheme(int $interlace): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

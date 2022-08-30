@@ -1,8 +1,8 @@
 Обумовлені константи
 
--   [« Типы ресурсов](gearman.resources.html)
+-   [« Типи ресурсів](gearman.resources.html)
     
--   [Примеры »](gearman.examples.html)
+-   [Приклади »](gearman.examples.html)
     
 -   [PHP Manual](index.html)
     

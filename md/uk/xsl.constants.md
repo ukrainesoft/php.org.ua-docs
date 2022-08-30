@@ -1,8 +1,8 @@
 Обумовлені константи
 
--   [« Типы ресурсов](xsl.resources.html)
+-   [« Типи ресурсів](xsl.resources.html)
     
--   [Примеры »](xsl.examples.html)
+-   [Приклади »](xsl.examples.html)
     
 -   [PHP Manual](index.html)
     

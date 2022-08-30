@@ -1,10 +1,10 @@
 Обумовлені константи
 
--   [« Типы ресурсов](ibm-db2.resources.html)
+-   [« Типи ресурсів](ibm-db2.resources.html)
     
 -   [Функції IBM DB2 »](ref.ibm-db2.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [IBM DB2](book.ibm-db2.html)
     

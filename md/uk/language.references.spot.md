@@ -1,12 +1,12 @@
 Неявне використання механізму посилань
 
--   [« Сброс переменных-ссылок](language.references.unset.html)
+-   [« Скидання змінних-посилань](language.references.unset.md)
     
--   [Предопределённые переменные »](reserved.variables.html)
+-   [Зумовлені змінні »](reserved.variables.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Объяснение ссылок](language.references.html)
+-   [Пояснення посилань](language.references.md)
     
 -   Неявне використання механізму посилань
     

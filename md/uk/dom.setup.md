@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.dom.html)
     
--   [Требования »](dom.requirements.html)
+-   [Вимоги »](dom.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](dom.requirements.html)
+-   [Вимоги](dom.requirements.html)
 -   [Установка](dom.installation.html)
--   [Настройка во время выполнения](dom.configuration.html)
--   [Типы ресурсов](dom.resources.html)
+-   [Налаштування під час виконання](dom.configuration.html)
+-   [Типи ресурсів](dom.resources.html)

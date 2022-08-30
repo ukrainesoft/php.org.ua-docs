@@ -4,9 +4,9 @@
     
 -   [mysqlisqlexception::getSqlState »](mysqli-sql-exception.getsqlstate.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQLi](book.mysqli.html)
+-   [MySQLi](book.mysqli.md)
     
 -   Клас mysqlisqlexception
     

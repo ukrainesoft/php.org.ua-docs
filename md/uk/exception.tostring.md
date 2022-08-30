@@ -1,12 +1,12 @@
 Строкове подання винятку
 
--   [« Exception::getTraceAsString](exception.gettraceasstring.html)
+-   [« Exception::getTraceAsString](exception.gettraceasstring.md)
     
--   [Exception::clone »](exception.clone.html)
+-   [Exception::clone »](exception.clone.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Exception](class.exception.html)
+-   [Exception](class.exception.md)
     
 -   Строкове подання винятку
     
@@ -57,4 +57,4 @@ Stack trace:
 
 ### Дивіться також
 
--   [Throwable::toString()](throwable.tostring.html) - отримує рядкове подання викинутого об'єкта
+-   [Throwable::toString()](throwable.tostring.md) - отримує рядкове подання викинутого об'єкта

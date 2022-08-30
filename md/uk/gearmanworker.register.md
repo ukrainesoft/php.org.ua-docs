@@ -1,12 +1,12 @@
 Реєстрація функції на сервері завдань
 
--   [« GearmanWorker::options](gearmanworker.options.html)
+-   [« GearmanWorker::options](gearmanworker.options.md)
     
--   [GearmanWorker::removeOptions »](gearmanworker.removeoptions.html)
+-   [GearmanWorker::removeOptions »](gearmanworker.removeoptions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanWorker](class.gearmanworker.html)
+-   [GearmanWorker](class.gearmanworker.md)
     
 -   Реєстрація функції на сервері завдань
     
@@ -41,5 +41,5 @@ public GearmanWorker::register(string $function_name, int $timeout = ?): bool
 
 ### Дивіться також
 
--   [GearmanWorker::unregister()](gearmanworker.unregister.html) - Видалити реєстрацію імені функції на всіх серверах завдань
--   [GearmanWorker::unregisterAll()](gearmanworker.unregisterall.html) - Видалення реєстрації всіх імен функцій на серверах завдань
+-   [GearmanWorker::unregister()](gearmanworker.unregister.md) - Видалити реєстрацію імені функції на всіх серверах завдань
+-   [GearmanWorker::unregisterAll()](gearmanworker.unregisterall.md) - Видалення реєстрації всіх імен функцій на серверах завдань

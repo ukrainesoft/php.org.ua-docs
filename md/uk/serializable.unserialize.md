@@ -1,12 +1,12 @@
 Створює об'єкт
 
--   [« Serializable::serialize](serializable.serialize.html)
+-   [« Serializable::serialize](serializable.serialize.md)
     
--   [Closure »](class.closure.html)
+-   [Closure »](class.closure.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Serializable](class.serializable.html)
+-   [Serializable](class.serializable.md)
     
 -   Створює об'єкт
     

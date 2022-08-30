@@ -1,12 +1,12 @@
 Встановлення зображення, яке буде використано як елемент мозаїчної заливки
 
--   [« imagesetthickness](function.imagesetthickness.html)
+-   [« imagesetthickness](function.imagesetthickness.md)
     
--   [imagestring »](function.imagestring.html)
+-   [imagestring »](function.imagestring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Встановлення зображення, яке буде використано як елемент мозаїчної заливки
     
@@ -23,9 +23,9 @@ imagesettile — Встановлення зображення, яке буде 
 imagesettile(GdImage $image, GdImage $tile): bool
 ```
 
-**imagesettile()** задає зображення, яке буде використано як елемент мозаїчної заливки такими функціями, як [imagefill()](function.imagefill.html) і [imagefilledpolygon()](function.imagefilledpolygon.html) при використанні спеціального кольору **`IMG_COLOR_TILED`**
+**imagesettile()** задає зображення, яке буде використано як елемент мозаїчної заливки такими функціями, як [imagefill()](function.imagefill.md) і [imagefilledpolygon()](function.imagefilledpolygon.md) при використанні спеціального кольору **`IMG_COLOR_TILED`**
 
-Це зображення використовується для замощення області зображення копіями. Може використовувати *будь-яке* GD зображення. А якщо встановити прозорий колір для цього зображення функцією [imagecolortransparent()](function.imagecolortransparent.html), деякі частини зображення нижче будуть просвічувати через створену мозаїку.
+Це зображення використовується для замощення області зображення копіями. Може використовувати *будь-яке* GD зображення. А якщо встановити прозорий колір для цього зображення функцією [imagecolortransparent()](function.imagecolortransparent.md), деякі частини зображення нижче будуть просвічувати через створену мозаїку.
 
 **Застереження**
 
@@ -35,7 +35,7 @@ imagesettile(GdImage $image, GdImage $tile): bool
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `tile`
 
@@ -47,9 +47,9 @@ imagesettile(GdImage $image, GdImage $tile): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------|
-|        | `image` і `tile` тепер чекають на екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` і `tile` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

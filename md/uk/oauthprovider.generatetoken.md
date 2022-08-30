@@ -1,12 +1,12 @@
 Генерація випадкового токена
 
--   [« OAuthProvider::consumerHandler](oauthprovider.consumerhandler.html)
+-   [« OAuthProvider::consumerHandler](oauthprovider.consumerhandler.md)
     
--   [OAuthProvider::is2LeggedEndpoint »](oauthprovider.is2leggedendpoint.html)
+-   [OAuthProvider::is2LeggedEndpoint »](oauthprovider.is2leggedendpoint.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuthProvider](class.oauthprovider.html)
+-   [OAuthProvider](class.oauthprovider.md)
     
 -   Генерація випадкового токена
     
@@ -41,7 +41,7 @@ final public static OAuthProvider::generateToken(int $size, bool $strong = false
 
 ### Помилки
 
-Якщо параметр `strong` заданий як **`true`**, то буде видана помилка рівня **`E_WARNING`**, у випадку, якщо для заповнення випадкових байт, що залишилися (наприклад, якщо було знайдено недостатньо випадкових даних) буде використана стара реалізація [rand()](function.rand.html)
+Якщо параметр `strong` заданий як **`true`**, то буде видана помилка рівня **`E_WARNING`**, у випадку, якщо для заповнення випадкових байт, що залишилися (наприклад, якщо було знайдено недостатньо випадкових даних) буде використана стара реалізація [rand()](function.rand.md)
 
 ### Приклади
 
@@ -70,7 +70,7 @@ b6a82c27
 
 > **Зауваження**
 > 
-> Якщо в системі недостатньо випадкових даних, то для генерації байт, що бракують, ця функція буде використовувати звичайну функцію [rand()](function.rand.html)
+> Якщо в системі недостатньо випадкових даних, то для генерації байт, що бракують, ця функція буде використовувати звичайну функцію [rand()](function.rand.md)
 
 ### Дивіться також
 

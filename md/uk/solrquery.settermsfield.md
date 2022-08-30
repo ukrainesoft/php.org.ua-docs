@@ -1,12 +1,12 @@
 Встановлює ім'я поля, з якого потрібно отримати вираз
 
--   [« SolrQuery::setTerms](solrquery.setterms.html)
+-   [« SolrQuery::setTerms](solrquery.setterms.md)
     
--   [SolrQuery::setTermsIncludeLowerBound »](solrquery.settermsincludelowerbound.html)
+-   [SolrQuery::setTermsIncludeLowerBound »](solrquery.settermsincludelowerbound.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Встановлює ім'я поля, з якого потрібно отримати вираз
     

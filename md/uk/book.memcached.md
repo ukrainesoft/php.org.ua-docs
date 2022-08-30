@@ -6,7 +6,7 @@ Memcached
     
 -   [PHP Manual](index.html)
     
--   [Другие службы](refs.remote.other.html)
+-   [Інші служби](refs.remote.other.html)
     
 -   Memcached
     
@@ -14,15 +14,15 @@ Memcached
 # Memcached
 
 -   [Введение](intro.memcached.html)
--   [Установка и настройка](memcached.setup.html)
-    -   [Требования](memcached.requirements.html)
+-   [Встановлення та налаштування](memcached.setup.html)
+    -   [Вимоги](memcached.requirements.html)
     -   [Установка](memcached.installation.html)
-    -   [Настройка во время выполнения](memcached.configuration.html)
-    -   [Типы ресурсов](memcached.resources.html)
--   [Предопределённые константы](memcached.constants.html)
--   [Время хранения объекта](memcached.expiration.html)
+    -   [Налаштування під час виконання](memcached.configuration.html)
+    -   [Типи ресурсів](memcached.resources.html)
+-   [Обумовлені константи](memcached.constants.html)
+-   [Час зберігання об'єкту](memcached.expiration.html)
 -   [Опції зворотного дзвінка](memcached.callbacks.html)
-    -   [Функции обратного вызова для результирующего набора](memcached.callbacks.result.html)
+    -   [Функції зворотного дзвінка для результуючого набору](memcached.callbacks.result.html)
     -   [Функції зворотного виклику наскрізного читання кеша](memcached.callbacks.read-through.html)
 -   [Поддержка сессий](memcached.sessions.html)
 -   [Memcached](class.memcached.html) - Клас Memcached

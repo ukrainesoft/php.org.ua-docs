@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](sqlite3.configuration.html)
+-   [« Налаштування під час виконання](sqlite3.configuration.html)
     
--   [Предопределённые константы »](sqlite3.constants.html)
+-   [Обумовлені константи »](sqlite3.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](sqlite3.setup.html)
+-   [Встановлення та налаштування](sqlite3.setup.html)
     
 -   Типи ресурсів
     

@@ -1,12 +1,12 @@
 Функціонал, оголошений застарілим у PHP 7.3.x
 
--   [« Зміни, що ламають зворотну сумісність](migration73.incompatible.html)
+-   [« Зміни, що ламають зворотну сумісність](migration73.incompatible.md)
     
 -   [Прочие изменения »](migration73.other-changes.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 7.2.x на PHP 7.3.x](migration73.html)
+-   [Миграция с PHP 7.2.x на PHP 7.3.x](migration73.md)
     
 -   Функціонал, оголошений застарілим у PHP 7.3.x
     
@@ -17,28 +17,28 @@
 
 #### Нечутливі до регістру константи
 
-Оголошення реєстронезалежних констант оголошено застарілим. Передача **`true`** як третій параметр функції [define()](function.define.html) тепер згенерує попередження про застарілі можливості. Використання нечутливих до регістру констант у разі, коли вони відрізняються від оголошення, також застаріло.
+Оголошення реєстронезалежних констант оголошено застарілим. Передача **`true`** як третій параметр функції [define()](function.define.md) тепер згенерує попередження про застарілі можливості. Використання нечутливих до регістру констант у разі, коли вони відрізняються від оголошення, також застаріло.
 
 #### Використання assert() усередині просторів імен
 
-Оголошення функції з ім'ям `assert()` усередині простору імен оголошено застарілим. Функція [assert()](function.assert.html) схильна до спеціальної обробки двигуном, що може призвести до неузгодженої поведінки щодо функції в просторі імен з тим же ім'ям.
+Оголошення функції з ім'ям `assert()` усередині простору імен оголошено застарілим. Функція [assert()](function.assert.md) схильна до спеціальної обробки двигуном, що може призвести до неузгодженої поведінки щодо функції в просторі імен з тим же ім'ям.
 
 #### Пошук рядків для нестрокового параметра needle
 
-Передача нестрокового параметра needle у рядкові функції пошуку оголошено застарілим. У майбутньому цей параметр інтерпретуватиметься як рядок, а не як точка коду ASCII. Залежно від передбачуваної поведінки необхідно або явно привести параметр до рядка, або здійснити явний виклик [chr()](function.chr.html). Торкнулися такі функції:
+Передача нестрокового параметра needle у рядкові функції пошуку оголошено застарілим. У майбутньому цей параметр інтерпретуватиметься як рядок, а не як точка коду ASCII. Залежно від передбачуваної поведінки необхідно або явно привести параметр до рядка, або здійснити явний виклик [chr()](function.chr.md). Торкнулися такі функції:
 
--   [strpos()](function.strpos.html)
--   [strrpos()](function.strrpos.html)
--   [stripos()](function.stripos.html)
--   [strripos()](function.strripos.html)
--   [strstr()](function.strstr.html)
--   [strchr()](function.strchr.html)
--   [strrchr()](function.strrchr.html)
--   [stristr()](function.stristr.html)
+-   [strpos()](function.strpos.md)
+-   [strrpos()](function.strrpos.md)
+-   [stripos()](function.stripos.md)
+-   [strripos()](function.strripos.md)
+-   [strstr()](function.strstr.md)
+-   [strchr()](function.strchr.md)
+-   [strrchr()](function.strrchr.md)
+-   [stristr()](function.stristr.md)
 
 #### Зміни у видаленні тегів
 
-Функція [fgetss()](function.fgetss.html) і [фильтр потока string.striptags](filters.string.html) оголошено застарілим. Це також впливає на метод [SplFileObject::fgetss()](splfileobject.fgetss.html) та на функцію [gzgetss()](function.gzgetss.html)
+Функція [fgetss()](function.fgetss.md) і [фильтр потока string.striptags](filters.string.md) оголошено застарілим. Це також впливає на метод [SplFileObject::fgetss()](splfileobject.fgetss.md) та на функцію [gzgetss()](function.gzgetss.md)
 
 ### Фільтрування даних
 
@@ -46,7 +46,7 @@
 
 ### Обробка зображень та GD
 
-Функція [image2wbmp()](function.image2wbmp.html) оголошено застарілою.
+Функція [image2wbmp()](function.image2wbmp.md) оголошено застарілою.
 
 ### Функції інтернаціоналізації
 

@@ -4,9 +4,9 @@
     
 -   [sodiumcryptobox »](function.sodium-crypto-box.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   Детерміністичний висновок ключової пари з одного ключа
     

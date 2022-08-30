@@ -1,12 +1,12 @@
 Отримує номер рядка завершення опису функції
 
--   [« ReflectionFunctionAbstract::getDocComment](reflectionfunctionabstract.getdoccomment.html)
+-   [« ReflectionFunctionAbstract::getDocComment](reflectionfunctionabstract.getdoccomment.md)
     
--   [ReflectionFunctionAbstract::getExtension »](reflectionfunctionabstract.getextension.html)
+-   [ReflectionFunctionAbstract::getExtension »](reflectionfunctionabstract.getextension.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
     
 -   Отримує номер рядка завершення опису функції
     
@@ -35,4 +35,4 @@ public ReflectionFunctionAbstract::getEndLine(): int|false
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getStartLine()](reflectionfunctionabstract.getstartline.html) - отримує початковий номер рядка
+-   [ReflectionFunctionAbstract::getStartLine()](reflectionfunctionabstract.getstartline.md) - отримує початковий номер рядка

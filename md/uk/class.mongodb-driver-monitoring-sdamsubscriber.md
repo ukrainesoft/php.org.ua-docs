@@ -4,9 +4,9 @@
     
 -   [MongoDBDriverMonitoringSDAMSubscriber::serverChanged »](mongodb-driver-monitoring-sdamsubscriber.serverchanged.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBDriverMonitoring](mongodb.monitoring.html)
+-   [MongoDBDriverMonitoring](mongodb.monitoring.md)
     
 -   Інтерфейс MongoDBDriverMonitoringSDAMSubscriber
     
@@ -51,8 +51,8 @@ abstract public topologyOpening(MongoDB\Driver\Monitoring\TopologyOpeningEvent $
 
 ## список змін
 
-| Версия              | Описание                                                                                                                                                                                                                                                                                                                |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.15.0 | Типи значень, що повертаються для методів оголошені як попередні в PHP 8.0 і новіше, що викликає повідомлення про старіння в коді, який реалізує цей інтерфейс без оголошення відповідних типів значень, що повертаються. Атрибут `#[ReturnTypeWillChange]` може бути доданий, щоб заглушити повідомлення про старіння. |
 
 ## Зміст

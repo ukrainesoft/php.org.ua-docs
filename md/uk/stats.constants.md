@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](stats.resources.html)
+-   [« Типи ресурсів](stats.resources.md)
     
--   [Функції статистики »](ref.stats.html)
+-   [Функції статистики »](ref.stats.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Статистика](book.stats.html)
+-   [Статистика](book.stats.md)
     
 -   Обумовлені константи
     

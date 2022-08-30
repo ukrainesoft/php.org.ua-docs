@@ -1,12 +1,12 @@
 Метод оновлює запис у хеші новим значенням
 
--   [« QuickHashIntHash::set](quickhashinthash.set.html)
+-   [« QuickHashIntHash::set](quickhashinthash.set.md)
     
--   [QuickHashStringIntHash »](class.quickhashstringinthash.html)
+-   [QuickHashStringIntHash »](class.quickhashstringinthash.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [QuickHashIntHash](class.quickhashinthash.html)
+-   [QuickHashIntHash](class.quickhashinthash.md)
     
 -   Метод оновлює запис у хеші новим значенням
     

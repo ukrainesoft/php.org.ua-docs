@@ -1,12 +1,12 @@
 Отримати час очікування бездіяльності
 
--   [« ZMQDevice::construct](zmqdevice.construct.html)
+-   [« ZMQDevice::construct](zmqdevice.construct.md)
     
--   [ZMQDevice::getTimerTimeout »](zmqdevice.gettimertimeout.html)
+-   [ZMQDevice::getTimerTimeout »](zmqdevice.gettimertimeout.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQDevice](class.zmqdevice.html)
+-   [ZMQDevice](class.zmqdevice.md)
     
 -   Отримати час очікування бездіяльності
     

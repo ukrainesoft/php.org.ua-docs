@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](cubrid.configuration.html)
+-   [« Налаштування під час виконання](cubrid.configuration.html)
     
--   [Предопределённые константы »](cubrid.constants.html)
+-   [Обумовлені константи »](cubrid.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](cubrid.setup.html)
+-   [Встановлення та налаштування](cubrid.setup.html)
     
 -   Типи ресурсів
     

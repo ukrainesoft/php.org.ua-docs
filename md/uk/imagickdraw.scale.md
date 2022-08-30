@@ -1,12 +1,12 @@
 Регулює коефіцієнт масштабування
 
--   [« ImagickDraw::roundRectangle](imagickdraw.roundrectangle.html)
+-   [« ImagickDraw::roundRectangle](imagickdraw.roundrectangle.md)
     
--   [ImagickDraw::setClipPath »](imagickdraw.setclippath.html)
+-   [ImagickDraw::setClipPath »](imagickdraw.setclippath.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Регулює коефіцієнт масштабування
     

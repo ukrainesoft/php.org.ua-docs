@@ -1,12 +1,12 @@
 Перевіряє, чи є константа закритою
 
--   [« ReflectionClassConstant::isFinal](reflectionclassconstant.isfinal.html)
+-   [« ReflectionClassConstant::isFinal](reflectionclassconstant.isfinal.md)
     
--   [ReflectionClassConstant::isProtected »](reflectionclassconstant.isprotected.html)
+-   [ReflectionClassConstant::isProtected »](reflectionclassconstant.isprotected.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClassConstant](class.reflectionclassconstant.html)
+-   [ReflectionClassConstant](class.reflectionclassconstant.md)
     
 -   Перевіряє, чи є константа закритою
     
@@ -35,6 +35,6 @@ public ReflectionClassConstant::isPrivate(): bool
 
 ### Дивіться також
 
--   [ReflectionClassConstant::isFinal()](reflectionclassconstant.isfinal.html) - Перевіряє, чи є константа класу остаточною
--   [ReflectionClassConstant::isPublic()](reflectionclassconstant.ispublic.html) - Перевіряє, чи константа є загальнодоступною
--   [ReflectionClassConstant::isProtected()](reflectionclassconstant.isprotected.html) - Перевіряє, чи константа захищена
+-   [ReflectionClassConstant::isFinal()](reflectionclassconstant.isfinal.md) - Перевіряє, чи є константа класу остаточною
+-   [ReflectionClassConstant::isPublic()](reflectionclassconstant.ispublic.md) - Перевіряє, чи константа є загальнодоступною
+-   [ReflectionClassConstant::isProtected()](reflectionclassconstant.isprotected.md) - Перевіряє, чи константа захищена

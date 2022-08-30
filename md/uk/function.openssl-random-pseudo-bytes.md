@@ -4,9 +4,9 @@
     
 -   [opensslseal »](function.openssl-seal.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Генерує псевдовипадкову послідовність байт
     
@@ -43,13 +43,13 @@ openssl_random_pseudo_bytes(int $length, bool &$strong_result = null): string
 
 ### Помилки
 
-Функція **opensslrandompseudobytes()** викидає виняток [Exception](class.exception.html) у разі виникнення помилки.
+Функція **opensslrandompseudobytes()** викидає виняток [Exception](class.exception.md) у разі виникнення помилки.
 
 ### список змін
 
-| Версия | Описание                                      |
-|--------|-----------------------------------------------|
-|        | `strong_result` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `strong_result` тепер допускає значення null. |
 
 ### Приклади
 
@@ -92,7 +92,7 @@ bool(true)
 ### Дивіться також
 
 -   [randombytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти
--   [bin2hex()](function.bin2hex.html) - Перетворює бінарні дані на шістнадцяткове подання
--   [crypt()](function.crypt.html) - Необоротне хешування рядка
+-   [bin2hex()](function.bin2hex.md) - Перетворює бінарні дані на шістнадцяткове подання
+-   [crypt()](function.crypt.md) - Необоротне хешування рядка
 -   [мтrand()](function.mt-rand.html) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
--   [uniqid()](function.uniqid.html) - Згенерувати унікальний ID
+-   [uniqid()](function.uniqid.md) - Згенерувати унікальний ID

@@ -4,9 +4,9 @@
     
 -   [pcntlsignalgethandler »](function.pcntl-signal-get-handler.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.md)
     
 -   Викликає обробники для сигналів, що очікують.
     

@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](xhprof.installation.html)
+-   [« Установка](xhprof.installation.md)
     
--   [Типы ресурсов »](xhprof.resources.html)
+-   [Типи ресурсів »](xhprof.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xhprof.setup.html)
+-   [Встановлення та налаштування](xhprof.setup.md)
     
 -   Налаштування під час виконання
     
@@ -17,9 +17,9 @@
 
 **Опції налаштування Xhprof**
 
-| Имя                                                                 | По умолчанию | Место изменения   | Список изменений |
-|---------------------------------------------------------------------|--------------|-------------------|------------------|
-| [xhprof.outputdir](xhprof.configuration.html#ini.xhprof.output-dir) | ""           | **`PHP_INI_ALL`** |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [xhprof.outputdir](xhprof.configuration.html#ini.xhprof.output-dir) | "" | **`PHP_INI_ALL`** |  |
 
 Коротке пояснення конфігураційних директив.
 

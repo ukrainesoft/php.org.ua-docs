@@ -4,7 +4,7 @@
     
 -   [VtifulKernelExcel::data »](vtiful-kernel-excel.data.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
     

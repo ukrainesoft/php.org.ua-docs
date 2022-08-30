@@ -4,9 +4,9 @@
     
 -   [opensslx509checkprivatekey »](function.openssl-x509-check-private-key.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции OpenSSL](ref.openssl.html)
+-   [Функции OpenSSL](ref.openssl.md)
     
 -   Звіряння сигнатури
     
@@ -37,7 +37,7 @@ openssl_verify(    string $data,    string $signature,    OpenSSLAsy
 
 `public_key`
 
-Змінна типу [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html), що містить ключ, підготовлений [opensslgetpublickey()](function.openssl-get-publickey.html)
+Змінна типу [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md), що містить ключ, підготовлений [opensslgetpublickey()](function.openssl-get-publickey.html)
 
 Рядок із ключем у форматі PEM. Приблизно такого виду "-----BEGIN PUBLIC KEY----- MIIBCgK..."
 
@@ -53,9 +53,9 @@ openssl_verify(    string $data,    string $signature,    OpenSSLAsy
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
 
 ### Приклади
 

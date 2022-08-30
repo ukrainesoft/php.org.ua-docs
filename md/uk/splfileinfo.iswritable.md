@@ -1,12 +1,12 @@
 Вказує, чи файл доступний для запису
 
--   [« SplFileInfo::isReadable](splfileinfo.isreadable.html)
+-   [« SplFileInfo::isReadable](splfileinfo.isreadable.md)
     
--   [SplFileInfo::openFile »](splfileinfo.openfile.html)
+-   [SplFileInfo::openFile »](splfileinfo.openfile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileInfo](class.splfileinfo.md)
     
 -   Вказує, чи файл доступний для запису
     

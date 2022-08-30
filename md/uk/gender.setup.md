@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.gender.html)
+-   [« Введение](intro.gender.md)
     
--   [Установка »](gender.installation.html)
+-   [Установка »](gender.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gender](book.gender.html)
+-   [Gender](book.gender.md)
     
 -   Встановлення та налаштування
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [Установка](gender.installation.html)
+-   [Установка](gender.installation.md)

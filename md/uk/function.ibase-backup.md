@@ -41,7 +41,7 @@ ibase_backup(    resource $service_handle,    string $source_db,    
 
 `options`
 
-Додаткові опції передачі на сервер бази даних для резервного копіювання. Параметр `options` може бути комбінацією з наступних констант: **`IBASE_BKP_IGNORE_CHECKSUMS`** **`IBASE_BKP_IGNORE_LIMBO`** **`IBASE_BKP_METADATA_ONLY`** **`IBASE_BKP_NO_GARBAGE_COLLECT`** **`IBASE_BKP_OLD_DESCRIPTIONS`** **`IBASE_BKP_NON_TRANSPORTABLE`** або **`IBASE_BKP_CONVERT`**. Прочитайте розділ про [Предопределённые константы](ibase.constants.html) для отримання додаткової інформації.
+Додаткові опції передачі на сервер бази даних для резервного копіювання. Параметр `options` може бути комбінацією з наступних констант: **`IBASE_BKP_IGNORE_CHECKSUMS`** **`IBASE_BKP_IGNORE_LIMBO`** **`IBASE_BKP_METADATA_ONLY`** **`IBASE_BKP_NO_GARBAGE_COLLECT`** **`IBASE_BKP_OLD_DESCRIPTIONS`** **`IBASE_BKP_NON_TRANSPORTABLE`** або **`IBASE_BKP_CONVERT`**. Прочитайте розділ про [Обумовлені константи](ibase.constants.html) для отримання додаткової інформації.
 
 `verbose`
 

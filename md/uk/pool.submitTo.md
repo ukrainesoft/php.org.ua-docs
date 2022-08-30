@@ -1,12 +1,12 @@
 Відправляє завдання конкретному воркеру для виконання
 
--   [« Pool::submit](pool.submit.html)
+-   [« Pool::submit](pool.submit.md)
     
--   [Volatile »](class.volatile.html)
+-   [Volatile »](class.volatile.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Pool](class.pool.html)
+-   [Pool](class.pool.md)
     
 -   Відправляє завдання конкретному воркеру для виконання
     

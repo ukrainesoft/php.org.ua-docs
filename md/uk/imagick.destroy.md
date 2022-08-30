@@ -1,12 +1,12 @@
 Видаляє об'єкт Imagick
 
--   [« Imagick::despeckleImage](imagick.despeckleimage.html)
+-   [« Imagick::despeckleImage](imagick.despeckleimage.md)
     
--   [Imagick::displayImage »](imagick.displayimage.html)
+-   [Imagick::displayImage »](imagick.displayimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Видаляє об'єкт Imagick
     
@@ -23,7 +23,7 @@ Imagick::destroy — Видалення об'єкту Imagick
 public Imagick::destroy(): bool
 ```
 
-Видаляє об'єкт Imagick та звільняє всі ресурси, пов'язані з ним. Метод застарілий і слід використовувати [Imagick::clear](imagick.clear.html)
+Видаляє об'єкт Imagick та звільняє всі ресурси, пов'язані з ним. Метод застарілий і слід використовувати [Imagick::clear](imagick.clear.md)
 
 ### Список параметрів
 

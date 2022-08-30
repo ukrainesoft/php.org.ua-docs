@@ -6,7 +6,7 @@ RRDtool
     
 -   [PHP Manual](index.html)
     
--   [Другие службы](refs.remote.other.html)
+-   [Інші служби](refs.remote.other.html)
     
 -   RRDtool
     
@@ -14,14 +14,14 @@ RRDtool
 # RRDtool
 
 -   [Введение](intro.rrd.html)
--   [Установка и настройка](rrd.setup.html)
-    -   [Требования](rrd.requirements.html)
+-   [Встановлення та налаштування](rrd.setup.html)
+    -   [Вимоги](rrd.requirements.html)
     -   [Установка](rrd.installation.html)
-    -   [Настройка во время выполнения](rrd.configuration.html)
-    -   [Типы ресурсов](rrd.resources.html)
--   [Предопределённые константы](rrd.constants.html)
--   [Примеры](rrd.examples.html)
-    -   [Процедурный пример PECL/rrd](rrd.examples-procedural.html)
+    -   [Налаштування під час виконання](rrd.configuration.html)
+    -   [Типи ресурсів](rrd.resources.html)
+-   [Обумовлені константи](rrd.constants.html)
+-   [Приклади](rrd.examples.html)
+    -   [Процедурний приклад PECL/rrd](rrd.examples-procedural.html)
     -   [Об'єктно-орієнтований приклад PECL/rrd](rrd.examples-oop.html)
 -   [Функції RRD](ref.rrd.html)
     -   [rrdcreate](function.rrd-create.html) - Створити файл rrd

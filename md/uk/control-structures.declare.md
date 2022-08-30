@@ -2,9 +2,9 @@ declare
 
 -   [« match](control-structures.match.html)
     
--   [return »](function.return.html)
+-   [return »](function.return.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Управляющие конструкции](language.control-structures.html)
     

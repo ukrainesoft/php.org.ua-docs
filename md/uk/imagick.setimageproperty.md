@@ -1,12 +1,12 @@
 Встановлює властивість зображення
 
--   [« Imagick::setImageProfile](imagick.setimageprofile.html)
+-   [« Imagick::setImageProfile](imagick.setimageprofile.md)
     
--   [Imagick::setImageRedPrimary »](imagick.setimageredprimary.html)
+-   [Imagick::setImageRedPrimary »](imagick.setimageredprimary.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Встановлює властивість зображення
     
@@ -53,4 +53,4 @@ echo $image->getImageProperty('Exif:Make');
 
 ### Дивіться також
 
--   [Imagick::getImageProperty()](imagick.getimageproperty.html) - Повертає іменовану властивість зображення
+-   [Imagick::getImageProperty()](imagick.getimageproperty.md) - Повертає іменовану властивість зображення

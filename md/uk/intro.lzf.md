@@ -1,12 +1,12 @@
 Вступ
 
--   [« LZF](book.lzf.html)
+-   [« LZF](book.lzf.md)
     
--   [Установка и настройка »](lzf.setup.html)
+-   [Встановлення та налаштування »](lzf.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LZF](book.lzf.html)
+-   [LZF](book.lzf.md)
     
 -   Вступ
     

@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](exec.requirements.html)
+-   [« Вимоги](exec.requirements.md)
     
--   [Настройка во время выполнения »](exec.configuration.html)
+-   [Налаштування під час виконання »](exec.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](exec.setup.html)
+-   [Встановлення та налаштування](exec.setup.md)
     
 -   Встановлення
     

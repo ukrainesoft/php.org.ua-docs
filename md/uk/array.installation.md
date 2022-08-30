@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](array.requirements.html)
+-   [« Вимоги](array.requirements.md)
     
--   [Настройка во время выполнения »](array.configuration.html)
+-   [Налаштування під час виконання »](array.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](array.setup.html)
+-   [Встановлення та налаштування](array.setup.md)
     
 -   Встановлення
     

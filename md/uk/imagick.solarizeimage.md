@@ -1,12 +1,12 @@
 Застосовує до зображення ефект соляризації
 
--   [« Imagick::smushImages](imagick.smushimages.html)
+-   [« Imagick::smushImages](imagick.smushimages.md)
     
--   [Imagick::sparseColorImage »](imagick.sparsecolorimage.html)
+-   [Imagick::sparseColorImage »](imagick.sparsecolorimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Застосовує до зображення ефект соляризації
     

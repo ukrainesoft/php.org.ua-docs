@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](pspell.resources.html)
+-   [« Типи ресурсів](pspell.resources.md)
     
--   [Функции Pspell »](ref.pspell.html)
+-   [Функции Pspell »](ref.pspell.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Pspell](book.pspell.html)
+-   [Pspell](book.pspell.md)
     
 -   Обумовлені константи
     

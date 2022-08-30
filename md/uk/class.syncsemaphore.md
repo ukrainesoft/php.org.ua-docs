@@ -1,12 +1,12 @@
 Клас SyncSemaphore
 
--   [« SyncMutex::unlock](syncmutex.unlock.html)
+-   [« SyncMutex::unlock](syncmutex.unlock.md)
     
--   [SyncSemaphore::construct »](syncsemaphore.construct.html)
+-   [SyncSemaphore::construct »](syncsemaphore.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Sync](book.sync.html)
+-   [Sync](book.sync.md)
     
 -   Клас SyncSemaphore
     
@@ -45,6 +45,6 @@ public unlock(int &$prevcount = ?): bool
 
 ## Зміст
 
--   [SyncSemaphore::construct](syncsemaphore.construct.html) — Створює новий об'єкт SyncSemaphore
--   [SyncSemaphore::lock](syncsemaphore.lock.html) — Зменшує рахунок семафора чи чекає
--   [SyncSemaphore::unlock](syncsemaphore.unlock.html) - Збільшує рахунок семафору
+-   [SyncSemaphore::construct](syncsemaphore.construct.md) — Створює новий об'єкт SyncSemaphore
+-   [SyncSemaphore::lock](syncsemaphore.lock.md) — Зменшує рахунок семафора чи чекає
+-   [SyncSemaphore::unlock](syncsemaphore.unlock.md) - Збільшує рахунок семафору

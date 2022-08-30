@@ -1,12 +1,12 @@
 Клас CallbackFilterIterator
 
--   [« CachingIterator::valid](cachingiterator.valid.html)
+-   [« CachingIterator::valid](cachingiterator.valid.md)
     
--   [CallbackFilterIterator::accept »](callbackfilteriterator.accept.html)
+-   [CallbackFilterIterator::accept »](callbackfilteriterator.accept.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Ітератори](spl.iterators.html)
+-   [Ітератори](spl.iterators.md)
     
 -   Клас CallbackFilterIterator
     
@@ -85,7 +85,7 @@ function my_callback($current, $key, $iterator) {
 ?>
 ```
 
-Будь-яка callback-функція типу [callable](language.types.callable.html) може бути використана. Наприклад, рядок, який містить ім'я функції, масив для методу або анонімна функція.
+Будь-яка callback-функція типу [callable](language.types.callable.md) може бути використана. Наприклад, рядок, який містить ім'я функції, масив для методу або анонімна функція.
 
 **Приклад #2 Основні приклади зворотного виклику**
 
@@ -110,5 +110,5 @@ $files = new CallbackFilterIterator($dir, function ($current, $key, $iter
 
 ## Зміст
 
--   [CallbackFilterIterator::accept](callbackfilteriterator.accept.html) — Викликає callback-функцію та передає їй як аргументи поточне значення, поточний ключ та внутрішній покажчик
--   [CallbackFilterIterator::construct](callbackfilteriterator.construct.html) — Створює ітератор, що фільтрує, на основі іншого ітератора.
+-   [CallbackFilterIterator::accept](callbackfilteriterator.accept.md) — Викликає callback-функцію та передає їй як аргументи поточне значення, поточний ключ та внутрішній покажчик
+-   [CallbackFilterIterator::construct](callbackfilteriterator.construct.md) — Створює ітератор, що фільтрує, на основі іншого ітератора.

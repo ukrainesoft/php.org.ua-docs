@@ -1,12 +1,12 @@
 Клас RecursiveArrayIterator
 
--   [« ParentIterator::rewind](parentiterator.rewind.html)
+-   [« ParentIterator::rewind](parentiterator.rewind.md)
     
--   [RecursiveArrayIterator::getChildren »](recursivearrayiterator.getchildren.html)
+-   [RecursiveArrayIterator::getChildren »](recursivearrayiterator.getchildren.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Ітератори](spl.iterators.html)
+-   [Ітератори](spl.iterators.md)
     
 -   Клас RecursiveArrayIterator
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Цей ітератор дозволяє скинути та змінити значення та ключі під час проходу масивами та об'єктами так само, як і [ArrayIterator](class.arrayiterator.html). Також можна перебирати поточні записи ітератора.
+Цей ітератор дозволяє скинути та змінити значення та ключі під час проходу масивами та об'єктами так само, як і [ArrayIterator](class.arrayiterator.md). Також можна перебирати поточні записи ітератора.
 
 ## Огляд класів
 
@@ -99,5 +99,5 @@ public ArrayIterator::valid(): bool
 
 ## Зміст
 
--   [RecursiveArrayIterator::getChildren](recursivearrayiterator.getchildren.html) — Повертає ітератор для поточного елемента, якщо елемент є масивом (array) або об'єктом (object)
--   [RecursiveArrayIterator::hasChildren](recursivearrayiterator.haschildren.html) — Визначає, чи є поточний елемент масивом чи об'єктом
+-   [RecursiveArrayIterator::getChildren](recursivearrayiterator.getchildren.md) — Повертає ітератор для поточного елемента, якщо елемент є масивом (array) або об'єктом (object)
+-   [RecursiveArrayIterator::hasChildren](recursivearrayiterator.haschildren.md) — Визначає, чи є поточний елемент масивом чи об'єктом

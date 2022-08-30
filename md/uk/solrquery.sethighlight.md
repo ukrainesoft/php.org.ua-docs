@@ -1,12 +1,12 @@
 Вмикає або вимикає виділення
 
--   [« SolrQuery::setGroupTruncate](solrquery.setgrouptruncate.html)
+-   [« SolrQuery::setGroupTruncate](solrquery.setgrouptruncate.md)
     
--   [SolrQuery::setHighlightAlternateField »](solrquery.sethighlightalternatefield.html)
+-   [SolrQuery::setHighlightAlternateField »](solrquery.sethighlightalternatefield.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Вмикає або вимикає виділення
     

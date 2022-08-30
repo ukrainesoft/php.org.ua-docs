@@ -1,12 +1,12 @@
 Конструктор контексту OpenSSL для використання у класах Event
 
--   [« EventSslContext](class.eventsslcontext.html)
+-   [« EventSslContext](class.eventsslcontext.md)
     
--   [EventUtil »](class.eventutil.html)
+-   [EventUtil »](class.eventutil.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventSslContext](class.eventsslcontext.html)
+-   [EventSslContext](class.eventsslcontext.md)
     
 -   Конструктор контексту OpenSSL для використання у класах Event
     
@@ -44,7 +44,7 @@ public
 
 ### Значення, що повертаються
 
-Повертає об'єкт [EventSslContext](class.eventsslcontext.html)
+Повертає об'єкт [EventSslContext](class.eventsslcontext.md)
 
 ### Приклади
 

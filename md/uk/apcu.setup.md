@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.apcu.html)
     
--   [Требования »](apcu.requirements.html)
+-   [Вимоги »](apcu.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](apcu.requirements.html)
+-   [Вимоги](apcu.requirements.html)
 -   [Установка](apcu.installation.html)
--   [Настройка во время выполнения](apcu.configuration.html)
--   [Типы ресурсов](apcu.resources.html)
+-   [Налаштування під час виконання](apcu.configuration.html)
+-   [Типи ресурсів](apcu.resources.html)

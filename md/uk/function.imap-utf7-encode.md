@@ -4,9 +4,9 @@
     
 -   [imaputf8тоmutf7 »](function.imap-utf8-to-mutf7.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции IMAP](ref.imap.html)
+-   [Функции IMAP](ref.imap.md)
     
 -   Перетворює рядок ISO-8859-1 на модифікований UTF-7
     

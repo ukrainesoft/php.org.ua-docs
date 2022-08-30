@@ -1,6 +1,6 @@
 Функції GeoIP
 
--   [« Предопределённые константы](geoip.constants.html)
+-   [« Обумовлені константи](geoip.constants.html)
     
 -   [geoipasnumбname »](function.geoip-asnum-by-name.html)
     

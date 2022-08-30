@@ -1,12 +1,12 @@
 Клас RarException
 
--   [« RarEntry::toString](rarentry.tostring.html)
+-   [« RarEntry::toString](rarentry.tostring.md)
     
--   [RarException::isUsingExceptions »](rarexception.isusingexceptions.html)
+-   [RarException::isUsingExceptions »](rarexception.isusingexceptions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Rar](book.rar.html)
+-   [Rar](book.rar.md)
     
 -   Клас RarException
     
@@ -77,5 +77,5 @@ private Exception::__clone(): void
 
 ## Зміст
 
--   [RarException::isUsingExceptions](rarexception.isusingexceptions.html) — Перевірити, чи будуть функції повертати помилки або викидати винятки
--   [RarException::setUsingExceptions](rarexception.setusingexceptions.html) — Увімкнути чи вимкнути генерацію винятків замість повернення помилок
+-   [RarException::isUsingExceptions](rarexception.isusingexceptions.md) — Перевірити, чи будуть функції повертати помилки або викидати винятки
+-   [RarException::setUsingExceptions](rarexception.setusingexceptions.md) — Увімкнути чи вимкнути генерацію винятків замість повернення помилок

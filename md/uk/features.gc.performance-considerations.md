@@ -2,11 +2,11 @@
 
 -   [« Збір циклічних посилань](features.gc.collecting-cycles.html)
     
--   [Динамічна трасування DTrace »](features.dtrace.html)
+-   [Динамічна трасування DTrace »](features.dtrace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Сборка мусора](features.gc.html)
+-   [Сборка мусора](features.gc.md)
     
 -   Питання продуктивності
     

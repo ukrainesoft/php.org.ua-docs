@@ -1,12 +1,12 @@
 Додає новий атрибут
 
--   [« DOMElement::setAttributeNodeNS](domelement.setattributenodens.html)
+-   [« DOMElement::setAttributeNodeNS](domelement.setattributenodens.md)
     
--   [DOMElement::setIdAttribute »](domelement.setidattribute.html)
+-   [DOMElement::setIdAttribute »](domelement.setidattribute.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMElement](class.domelement.html)
+-   [DOMElement](class.domelement.md)
     
 -   Додає новий атрибут
     
@@ -55,6 +55,6 @@ URI простір імен.
 
 ### Дивіться також
 
--   [DOMElement::hasAttributeNS()](domelement.hasattributens.html) - Перевіряє, чи існує заданий атрибут
--   [DOMElement::getAttributeNS()](domelement.getattributens.html) - Повертає значення атрибуту
--   [DOMElement::removeAttributeNS()](domelement.removeattributens.html) - Видаляє атрибут
+-   [DOMElement::hasAttributeNS()](domelement.hasattributens.md) - Перевіряє, чи існує заданий атрибут
+-   [DOMElement::getAttributeNS()](domelement.getattributens.md) - Повертає значення атрибуту
+-   [DOMElement::removeAttributeNS()](domelement.removeattributens.md) - Видаляє атрибут

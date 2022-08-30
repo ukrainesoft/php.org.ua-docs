@@ -1,12 +1,12 @@
 Витягує значення з кешу
 
--   [« Yac::flush](yac.flush.html)
+-   [« Yac::flush](yac.flush.md)
     
--   [Yac::get »](yac.getter.html)
+-   [Yac::get »](yac.getter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Yac](class.yac.html)
+-   [Yac](class.yac.md)
     
 -   Витягує значення з кешу
     

@@ -1,12 +1,12 @@
 Реєструє функцію PHP для використання як скалярну функцію SQL
 
--   [« SQLite3::createCollation](sqlite3.createcollation.html)
+-   [« SQLite3::createCollation](sqlite3.createcollation.md)
     
--   [SQLite3::enableExceptions »](sqlite3.enableexceptions.html)
+-   [SQLite3::enableExceptions »](sqlite3.enableexceptions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3](class.sqlite3.html)
+-   [SQLite3](class.sqlite3.md)
     
 -   Реєструє функцію PHP для використання як скалярну функцію SQL
     
@@ -63,9 +63,9 @@ callback(mixed $value, mixed ...$values): mixed
 
 ### список змін
 
-| Версия | Описание                 |
-|--------|--------------------------|
-|        | Доданий параметр `flags` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `flags` |
 
 ### Приклади
 

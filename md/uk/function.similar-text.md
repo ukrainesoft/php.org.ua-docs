@@ -1,12 +1,12 @@
 Обчислює ступінь схожості двох рядків
 
--   [« sha1](function.sha1.html)
+-   [« sha1](function.sha1.md)
     
--   [soundex »](function.soundex.html)
+-   [soundex »](function.soundex.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Обчислює ступінь схожості двох рядків
     
@@ -72,5 +72,5 @@ echo "сходство: $sim ($perc %)\n";
 
 ### Дивіться також
 
--   [levenshtein()](function.levenshtein.html) - обчислює відстань Левенштейна між двома рядками
--   [soundex()](function.soundex.html) - Повертає ключ soundex для рядка
+-   [levenshtein()](function.levenshtein.md) - обчислює відстань Левенштейна між двома рядками
+-   [soundex()](function.soundex.md) - Повертає ключ soundex для рядка

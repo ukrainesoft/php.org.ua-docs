@@ -1,12 +1,12 @@
 Оцінює вираз для кожного пікселя у зображенні
 
--   [« Imagick::functionImage](imagick.functionimage.html)
+-   [« Imagick::functionImage](imagick.functionimage.md)
     
--   [Imagick::gammaImage »](imagick.gammaimage.html)
+-   [Imagick::gammaImage »](imagick.gammaimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Оцінює вираз для кожного пікселя у зображенні
     

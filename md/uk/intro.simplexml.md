@@ -1,12 +1,12 @@
 Вступ
 
--   [« SimpleXML](book.simplexml.html)
+-   [« SimpleXML](book.simplexml.md)
     
--   [Установка и настройка »](simplexml.setup.html)
+-   [Встановлення та налаштування »](simplexml.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SimpleXML](book.simplexml.html)
+-   [SimpleXML](book.simplexml.md)
     
 -   Вступ
     

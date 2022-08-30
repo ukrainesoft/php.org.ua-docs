@@ -1,12 +1,12 @@
 Отримати ключ ітератора
 
--   [« APCUIterator::getTotalSize](apcuiterator.gettotalsize.html)
+-   [« APCUIterator::getTotalSize](apcuiterator.gettotalsize.md)
     
--   [APCUIterator::next »](apcuiterator.next.html)
+-   [APCUIterator::next »](apcuiterator.next.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [APCUIterator](class.apcuiterator.html)
+-   [APCUIterator](class.apcuiterator.md)
     
 -   Отримати ключ ітератора
     
@@ -35,5 +35,5 @@ public APCUIterator::key(): string
 
 ### Дивіться також
 
--   [APCUIterator::current()](apcuiterator.current.html) - Отримати поточний елемент
--   [Iterator::key()](iterator.key.html) - Повертає ключ поточного елемента
+-   [APCUIterator::current()](apcuiterator.current.md) - Отримати поточний елемент
+-   [Iterator::key()](iterator.key.md) - Повертає ключ поточного елемента

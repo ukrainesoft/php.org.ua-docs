@@ -1,12 +1,12 @@
 Отримує записи з кеша realpath
 
--   [« readlink](function.readlink.html)
+-   [« readlink](function.readlink.md)
     
 -   [realpathcachesize »](function.realpath-cache-size.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Отримує записи з кеша realpath
     

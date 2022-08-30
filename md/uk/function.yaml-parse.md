@@ -2,11 +2,11 @@
 
 -   [« yamlparseurl](function.yaml-parse-url.html)
     
--   [Yaf »](book.yaf.html)
+-   [Yaf »](book.yaf.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Yaml](ref.yaml.html)
+-   [Функции Yaml](ref.yaml.md)
     
 -   Розбирає потік YAML
     
@@ -41,7 +41,7 @@ yaml_parse(    string $input,    int $pos = 0,    int &$ndocs = ?, 
 
 `callbacks`
 
-Обробники вмісту для вузлів YAML. Асоціативний масив (array), ключі якого є тегами YAML, а значення callback-функціями ([callable](language.types.callable.html)), які їх оброблятимуть. Докладніше цей механізм описаний у розділі [callback-функції розбору](yaml.callbacks.parse.html)
+Обробники вмісту для вузлів YAML. Асоціативний масив (array), ключі якого є тегами YAML, а значення callback-функціями ([callable](language.types.callable.md)), які їх оброблятимуть. Докладніше цей механізм описаний у розділі [callback-функції розбору](yaml.callbacks.parse.md)
 
 ### Значення, що повертаються
 
@@ -173,7 +173,7 @@ array(8) {
 
 **Увага**
 
-Обробляти неперевірене введення користувача, у разі коли для вузлів YAML, що використовують тег `!php/object`, дозволено використання функції [unserialize()](function.unserialize.html), Вкрай небезпечно. Цю поведінку можна вимкнути за допомогою ini-налаштування `yaml.decode_php`
+Обробляти неперевірене введення користувача, у разі коли для вузлів YAML, що використовують тег `!php/object`, дозволено використання функції [unserialize()](function.unserialize.md), Вкрай небезпечно. Цю поведінку можна вимкнути за допомогою ini-налаштування `yaml.decode_php`
 
 ### Дивіться також
 

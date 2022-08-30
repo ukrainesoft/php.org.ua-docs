@@ -1,12 +1,12 @@
 Повертає ім'я елемента
 
--   [« RarEntry::getMethod](rarentry.getmethod.html)
+-   [« RarEntry::getMethod](rarentry.getmethod.md)
     
--   [RarEntry::getPackedSize »](rarentry.getpackedsize.html)
+-   [RarEntry::getPackedSize »](rarentry.getpackedsize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RarEntry](class.rarentry.html)
+-   [RarEntry](class.rarentry.md)
     
 -   Повертає ім'я елемента
     
@@ -35,8 +35,8 @@ public RarEntry::getName(): string
 
 ### список змін
 
-| Версия         | Описание                                                                |
-|----------------|-------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL rar 2.0.0 | Починаючи з версії 2.0.0, повертається рядок у кодуванні Unicode/UTF-8. |
 
 ### Приклади

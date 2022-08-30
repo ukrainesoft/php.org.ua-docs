@@ -4,9 +4,9 @@
     
 -   [posixsetegid »](function.posix-setegid.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [POSIX Функции](ref.posix.html)
+-   [POSIX Функции](ref.posix.md)
     
 -   Створює спеціальний або звичайний файл (POSIX.1)
     

@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](pdo.requirements.html)
+-   [« Вимоги](pdo.requirements.html)
     
--   [Настройка во время выполнения »](pdo.configuration.html)
+-   [Налаштування під час виконання »](pdo.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](pdo.setup.html)
+-   [Встановлення та налаштування](pdo.setup.html)
     
 -   Встановлення
     
@@ -15,7 +15,7 @@
 
 **Встановлення PDO на Unix-системах**
 
-1.  PDO та драйвер [PDOSQLITE](ref.pdo-sqlite.html) включені за замовчуванням у PHP. Щоб увімкнути PDO драйвер для довільної бази даних, зверніться до документації [драйверы PDO баз данных](pdo.drivers.html)
+1.  PDO та драйвер [PDOSQLITE](ref.pdo-sqlite.html) включені за замовчуванням у PHP. Щоб увімкнути PDO драйвер для довільної бази даних, зверніться до документації [драйвери PDO баз даних](pdo.drivers.html)
     
     > **Зауваження**
     > 

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](uopz.setup.html)
+-   [« Встановлення та налаштування](uopz.setup.md)
     
--   [Установка »](uopz.installation.html)
+-   [Установка »](uopz.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](uopz.setup.html)
+-   [Встановлення та налаштування](uopz.setup.md)
     
 -   Вимоги
     

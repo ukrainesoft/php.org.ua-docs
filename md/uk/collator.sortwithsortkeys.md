@@ -1,12 +1,12 @@
 Сортує масив з використанням зазначеного Collator та ключів сортування
 
--   [« Collator::setStrength](collator.setstrength.html)
+-   [« Collator::setStrength](collator.setstrength.md)
     
--   [Collator::sort »](collator.sort.html)
+-   [Collator::sort »](collator.sort.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Collator](class.collator.html)
+-   [Collator](class.collator.md)
     
 -   Сортує масив з використанням зазначеного Collator та ключів сортування
     
@@ -33,13 +33,13 @@ public Collator::sortWithSortKeys(array &$array): bool
 collator_sort_with_sort_keys(Collator $object, array &$array): bool
 ```
 
-Те саме, що і [collatorsort()](collator.sort.html), але використовує ключі сортування ICU, створені ucolgetSortKey() збільшення швидкості роботи з великими масивами.
+Те саме, що і [collatorsort()](collator.sort.md), але використовує ключі сортування ICU, створені ucolgetSortKey() збільшення швидкості роботи з великими масивами.
 
 ### Список параметрів
 
 `object`
 
-Об'єкт [Collator](class.collator.html)
+Об'єкт [Collator](class.collator.md)
 
 `array`
 
@@ -75,6 +75,6 @@ array (
 
 ### Дивіться також
 
--   [Константы](class.collator.html#intl.collator-constants) [Collator](class.collator.html)
--   [collatorsort()](collator.sort.html) - Сортує масив із використанням зазначеного засобу сортування
--   [collatorasort()](collator.asort.html) - Сортує масив із збереженням асоціації індексу
+-   [Константи](class.collator.html#intl.collator-constants) [Collator](class.collator.md)
+-   [collatorsort()](collator.sort.md) - Сортує масив із використанням зазначеного засобу сортування
+-   [collatorasort()](collator.asort.md) - Сортує масив із збереженням асоціації індексу

@@ -4,9 +4,9 @@
     
 -   [псsetdash »](function.ps-setdash.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Встановлює поточний колір
     

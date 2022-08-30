@@ -1,12 +1,12 @@
 Повертає колір для обведення контурів об'єкта.
 
--   [« ImagickDraw::getStrokeAntialias](imagickdraw.getstrokeantialias.html)
+-   [« ImagickDraw::getStrokeAntialias](imagickdraw.getstrokeantialias.md)
     
--   [ImagickDraw::getStrokeDashArray »](imagickdraw.getstrokedasharray.html)
+-   [ImagickDraw::getStrokeDashArray »](imagickdraw.getstrokedasharray.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Повертає колір для обведення контурів об'єкта.
     
@@ -35,4 +35,4 @@ public ImagickDraw::getStrokeColor(): ImagickPixel
 
 ### Значення, що повертаються
 
-Повертає об'єкт [ImagickPixel](class.imagickpixel.html), що описує колір.
+Повертає об'єкт [ImagickPixel](class.imagickpixel.md), що описує колір.

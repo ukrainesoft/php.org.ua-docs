@@ -1,12 +1,12 @@
 Встановити опцію сокету
 
--   [« ZMQSocket::sendmulti](zmqsocket.sendmulti.html)
+-   [« ZMQSocket::sendmulti](zmqsocket.sendmulti.md)
     
--   [ZMQSocket::unbind »](zmqsocket.unbind.html)
+-   [ZMQSocket::unbind »](zmqsocket.unbind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQSocket](class.zmqsocket.html)
+-   [ZMQSocket](class.zmqsocket.md)
     
 -   Встановити опцію сокету
     
@@ -23,7 +23,7 @@ ZMQSocket::setSockOpt — Встановити опцію сокету
 public ZMQSocket::setSockOpt(int $key, mixed $value): ZMQSocket
 ```
 
-Встановлює опцію сокету ZMQ. Тип параметра `value` залежить від значення параметра `key`. Дивіться [Типы констант ZMQ](class.zmq.html#zmq.constants)
+Встановлює опцію сокету ZMQ. Тип параметра `value` залежить від значення параметра `key`. Дивіться [Типи констант ZMQ](class.zmq.html#zmq.constants)
 
 ### Список параметрів
 

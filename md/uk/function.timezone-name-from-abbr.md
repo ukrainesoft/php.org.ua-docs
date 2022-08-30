@@ -4,9 +4,9 @@
     
 -   [timezonenameget »](function.timezone-name-get.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Повертає часовий пояс відповідно до абревіатури
     

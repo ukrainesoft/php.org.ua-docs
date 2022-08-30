@@ -1,12 +1,12 @@
 Повертає масив трейтів, що використовуються у цьому класі
 
--   [« ReflectionClass::getTraitNames](reflectionclass.gettraitnames.html)
+-   [« ReflectionClass::getTraitNames](reflectionclass.gettraitnames.md)
     
--   [ReflectionClass::hasConstant »](reflectionclass.hasconstant.html)
+-   [ReflectionClass::hasConstant »](reflectionclass.hasconstant.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає масив трейтів, що використовуються у цьому класі
     
@@ -33,4 +33,4 @@ public ReflectionClass::getTraits(): array
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив, ключами якого є імена трейтів, а значеннями – об'єкти [ReflectionClass](class.reflectionclass.html) для кожного трейта. У разі виникнення помилки повертає **`null`**
+Повертає асоціативний масив, ключами якого є імена трейтів, а значеннями – об'єкти [ReflectionClass](class.reflectionclass.md) для кожного трейта. У разі виникнення помилки повертає **`null`**

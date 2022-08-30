@@ -2,11 +2,11 @@
 
 -   [« CommonMarkRenderMan](function.commonmark-render-man.html)
     
--   [Parle »](book.parle.html)
+-   [Parle »](book.parle.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции CommonMark](ref.cmark.html)
+-   [Функции CommonMark](ref.cmark.md)
     
 -   Відображення
     

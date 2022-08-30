@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](shmop.constants.html)
+-   [« Обумовлені константи](shmop.constants.md)
     
 -   [Базовое использование »](shmop.examples-basic.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Управление разделяемой памятью](book.shmop.html)
+-   [Управление разделяемой памятью](book.shmop.md)
     
 -   Приклади
     

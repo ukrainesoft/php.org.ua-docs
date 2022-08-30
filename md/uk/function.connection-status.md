@@ -2,11 +2,11 @@
 
 -   [« connectionaborted](function.connection-aborted.html)
     
--   [constant »](function.constant.html)
+-   [constant »](function.constant.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Різні функції](ref.misc.html)
+-   [Різні функції](ref.misc.md)
     
 -   Повертає статус з'єднання у бітах
     

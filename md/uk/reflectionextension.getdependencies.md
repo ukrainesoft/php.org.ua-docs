@@ -1,12 +1,12 @@
 Отримання залежностей
 
--   [« ReflectionExtension::getConstants](reflectionextension.getconstants.html)
+-   [« ReflectionExtension::getConstants](reflectionextension.getconstants.md)
     
--   [ReflectionExtension::getFunctions »](reflectionextension.getfunctions.html)
+-   [ReflectionExtension::getFunctions »](reflectionextension.getfunctions.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionExtension](class.reflectionextension.html)
+-   [ReflectionExtension](class.reflectionextension.md)
     
 -   Отримання залежностей
     

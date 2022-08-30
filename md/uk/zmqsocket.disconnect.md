@@ -1,12 +1,12 @@
 Вимкнути сокет
 
--   [« ZMQSocket::construct](zmqsocket.construct.html)
+-   [« ZMQSocket::construct](zmqsocket.construct.md)
     
--   [ZMQSocket::getEndpoints »](zmqsocket.getendpoints.html)
+-   [ZMQSocket::getEndpoints »](zmqsocket.getendpoints.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZMQSocket](class.zmqsocket.html)
+-   [ZMQSocket](class.zmqsocket.md)
     
 -   Вимкнути сокет
     

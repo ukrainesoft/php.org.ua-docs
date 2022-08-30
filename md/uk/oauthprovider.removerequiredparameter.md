@@ -1,12 +1,12 @@
 Видалити потрібний параметр
 
--   [« OAuthProvider::isRequestTokenEndpoint](oauthprovider.isrequesttokenendpoint.html)
+-   [« OAuthProvider::isRequestTokenEndpoint](oauthprovider.isrequesttokenendpoint.md)
     
--   [OAuthProvider::reportProblem »](oauthprovider.reportproblem.html)
+-   [OAuthProvider::reportProblem »](oauthprovider.reportproblem.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [OAuthProvider](class.oauthprovider.html)
+-   [OAuthProvider](class.oauthprovider.md)
     
 -   Видалити потрібний параметр
     
@@ -41,5 +41,5 @@ final public OAuthProvider::removeRequiredParameter(string $req_params): bool
 
 ### Дивіться також
 
--   [OAuthProvider::setParam()](oauthprovider.setparam.html) - Встановити параметр
--   [OAuthProvider::addRequiredParameter()](oauthprovider.addrequiredparameter.html) - Додати необхідні параметри
+-   [OAuthProvider::setParam()](oauthprovider.setparam.md) - Встановити параметр
+-   [OAuthProvider::addRequiredParameter()](oauthprovider.addrequiredparameter.md) - Додати необхідні параметри

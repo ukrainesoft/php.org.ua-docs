@@ -4,7 +4,7 @@
     
 -   [ДсVector::pop »](ds-vector.pop.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Вектор](class.ds-vector.html)
     
@@ -29,7 +29,7 @@ public Ds\Vector::merge(mixed $values): Ds\Vector
 
 `values`
 
-Об'єкт класу [traversable](class.traversable.html) чи масив (array).
+Об'єкт класу [traversable](class.traversable.md) чи масив (array).
 
 ### Значення, що повертаються
 

@@ -4,9 +4,9 @@
     
 -   [streamWrapper::dirrewinddir »](streamwrapper.dir-rewinddir.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [streamWrapper](class.streamwrapper.html)
+-   [streamWrapper](class.streamwrapper.md)
     
 -   Читання запису з дескриптора директорії
     
@@ -23,7 +23,7 @@ streamWrapper::dirreaddir - Читання запису з дескриптор�
 public streamWrapper::dir_readdir(): string
 ```
 
-Цей метод викликається у процесі виконання [readdir()](function.readdir.html)
+Цей метод викликається у процесі виконання [readdir()](function.readdir.md)
 
 ### Список параметрів
 
@@ -152,4 +152,4 @@ string(13) "construct.xml"
 
 ### Дивіться також
 
--   [readdir()](function.readdir.html) - Отримує елемент каталогу за його дескриптором
+-   [readdir()](function.readdir.md) - Отримує елемент каталогу за його дескриптором

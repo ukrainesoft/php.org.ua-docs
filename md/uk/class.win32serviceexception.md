@@ -1,12 +1,12 @@
 Клас Win32ServiceException
 
--   [« Win32 Service informations](win32service.constants.serviceinfos.html)
+-   [« Win32 Service informations](win32service.constants.serviceinfos.md)
     
--   [Примеры »](win32service.examples.html)
+-   [Приклади »](win32service.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [win32service](book.win32service.html)
+-   [win32service](book.win32service.md)
     
 -   Клас Win32ServiceException
     

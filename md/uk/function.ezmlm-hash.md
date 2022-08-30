@@ -1,12 +1,12 @@
 Обчислює хеш-суму, необхідну для EZMLM
 
--   [« Почта](ref.mail.html)
+-   [« Почта](ref.mail.md)
     
--   [mail »](function.mail.html)
+-   [mail »](function.mail.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Почта](ref.mail.html)
+-   [Почта](ref.mail.md)
     
 -   Обчислює хеш-суму, необхідну для EZMLM
     

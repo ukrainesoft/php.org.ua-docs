@@ -4,7 +4,7 @@
     
 -   [ОЙControlsCombo »](class.ui-controls-combo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsSeparator](class.ui-controls-separator.html)
     

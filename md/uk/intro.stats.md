@@ -1,12 +1,12 @@
 Вступ
 
--   [« Статистика](book.stats.html)
+-   [« Статистика](book.stats.md)
     
--   [Установка и настройка »](stats.setup.html)
+-   [Встановлення та налаштування »](stats.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Статистика](book.stats.html)
+-   [Статистика](book.stats.md)
     
 -   Вступ
     

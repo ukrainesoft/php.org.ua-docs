@@ -1,12 +1,12 @@
 Створити стартовий тег елемента
 
--   [« XMLWriter::startDtdEntity](xmlwriter.startdtdentity.html)
+-   [« XMLWriter::startDtdEntity](xmlwriter.startdtdentity.md)
     
--   [XMLWriter::startElementNs »](xmlwriter.startelementns.html)
+-   [XMLWriter::startElementNs »](xmlwriter.startelementns.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](class.xmlwriter.html)
+-   [XMLWriter](class.xmlwriter.md)
     
 -   Створити стартовий тег елемента
     
@@ -39,7 +39,7 @@ xmlwriter_start_element(XMLWriter $writer, string $name): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `name`
 
@@ -51,11 +51,11 @@ xmlwriter_start_element(XMLWriter $writer, string $name): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::endElement()](xmlwriter.endelement.html) - Завершити поточний елемент
--   [XMLWriter::writeElement()](xmlwriter.writeelement.html) - Записати повний тег елемента
+-   [XMLWriter::endElement()](xmlwriter.endelement.md) - Завершити поточний елемент
+-   [XMLWriter::writeElement()](xmlwriter.writeelement.md) - Записати повний тег елемента

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](mysqli.setup.html)
+-   [« Встановлення та налаштування](mysqli.setup.html)
     
 -   [Установка »](mysqli.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](mysqli.setup.html)
+-   [Встановлення та налаштування](mysqli.setup.html)
     
 -   Вимоги
     

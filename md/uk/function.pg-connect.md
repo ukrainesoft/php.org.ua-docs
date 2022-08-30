@@ -51,9 +51,9 @@ pg_connect(string $connection_string, int $flags = 0): PgSql\Connection|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

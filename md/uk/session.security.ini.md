@@ -1,6 +1,6 @@
 INI-налаштування безпеки сесій
 
--   [« Базовые принципы управления сессиями](features.session.security.management.html)
+-   [« Базові засади управління сесіями](features.session.security.management.html)
     
 -   [Функції для роботи із сесіями »](ref.session.html)
     

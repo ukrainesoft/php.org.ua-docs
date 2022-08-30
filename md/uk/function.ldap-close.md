@@ -4,9 +4,9 @@
     
 -   [ldapcompare »](function.ldap-compare.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.md)
     
 -   Псевдонім ldapunbind
     

@@ -1,12 +1,12 @@
 Вступ
 
--   [« RpmInfo](book.rpminfo.html)
+-   [« RpmInfo](book.rpminfo.md)
     
--   [Установка и настройка »](rpminfo.setup.html)
+-   [Встановлення та налаштування »](rpminfo.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RpmInfo](book.rpminfo.html)
+-   [RpmInfo](book.rpminfo.md)
     
 -   Вступ
     

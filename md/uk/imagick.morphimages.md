@@ -1,12 +1,12 @@
 Перетворює набір зображень
 
--   [« Imagick::montageImage](imagick.montageimage.html)
+-   [« Imagick::montageImage](imagick.montageimage.md)
     
--   [Imagick::morphology »](imagick.morphology.html)
+-   [Imagick::morphology »](imagick.morphology.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Перетворює набір зображень
     

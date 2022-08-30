@@ -1,12 +1,12 @@
 Вивести BMP-зображення у браузер або файл
 
--   [« imageavif](function.imageavif.html)
+-   [« imageavif](function.imageavif.md)
     
--   [imagechar »](function.imagechar.html)
+-   [imagechar »](function.imagechar.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Вивести BMP-зображення у браузер або файл
     
@@ -29,7 +29,7 @@ imagebmp(GdImage $image, resource|string|null $file = null, bool $compressed = t
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `file`
 
@@ -53,10 +53,10 @@ imagebmp(GdImage $image, resource|string|null $file = null, bool $compressed = t
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
-|        | Тип параметра `compressed` тепер логічне значення (bool); раніше був цілим числом (int).         |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+|  | Тип параметра `compressed` тепер логічне значення (bool); раніше був цілим числом (int). |
 
 ### Приклади
 

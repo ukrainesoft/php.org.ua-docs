@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.mailparse.html)
     
--   [Требования »](mailparse.requirements.html)
+-   [Вимоги »](mailparse.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](mailparse.requirements.html)
+-   [Вимоги](mailparse.requirements.html)
 -   [Установка](mailparse.installation.html)
--   [Настройка во время выполнения](mailparse.configuration.html)
--   [Типы ресурсов](mailparse.resources.html)
+-   [Налаштування під час виконання](mailparse.configuration.html)
+-   [Типи ресурсів](mailparse.resources.html)

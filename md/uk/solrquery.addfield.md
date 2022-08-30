@@ -1,12 +1,12 @@
 Вказує, які поля повертати в результаті
 
--   [« SolrQuery::addFacetQuery](solrquery.addfacetquery.html)
+-   [« SolrQuery::addFacetQuery](solrquery.addfacetquery.md)
     
--   [SolrQuery::addFilterQuery »](solrquery.addfilterquery.html)
+-   [SolrQuery::addFilterQuery »](solrquery.addfilterquery.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Вказує, які поля повертати в результаті
     

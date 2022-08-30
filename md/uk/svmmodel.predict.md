@@ -2,11 +2,11 @@
 
 -   [« SVMModel::predictprobability](svmmodel.predict-probability.html)
     
--   [SVMModel::save »](svmmodel.save.html)
+-   [SVMModel::save »](svmmodel.save.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SVMModel](class.svmmodel.html)
+-   [SVMModel](class.svmmodel.md)
     
 -   Передбачити значення на основі нових даних
     
@@ -37,4 +37,4 @@ public SVMModel::predict(array $data): float
 
 ### Дивіться також
 
--   [SVM::train()](svm.train.html) - Створити SVMModel на основі навчальних даних
+-   [SVM::train()](svm.train.md) - Створити SVMModel на основі навчальних даних

@@ -4,9 +4,9 @@
     
 -   [ОЙControlsColorButton::getColor »](ui-controls-colorbutton.getcolor.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ОЙ](book.ui.html)
+-   [ОЙ](book.ui.md)
     
 -   Елемент управління "Кнопка з палітрою кольорів"
     

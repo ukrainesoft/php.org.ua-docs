@@ -1,12 +1,12 @@
 Завершити поточну секцію CDATA
 
--   [« XMLWriter::endAttribute](xmlwriter.endattribute.html)
+-   [« XMLWriter::endAttribute](xmlwriter.endattribute.md)
     
--   [XMLWriter::endComment »](xmlwriter.endcomment.html)
+-   [XMLWriter::endComment »](xmlwriter.endcomment.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLWriter](class.xmlwriter.html)
+-   [XMLWriter](class.xmlwriter.md)
     
 -   Завершити поточну секцію CDATA
     
@@ -39,7 +39,7 @@ xmlwriter_end_cdata(XMLWriter $writer): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 ### Значення, що повертаються
 
@@ -47,11 +47,11 @@ xmlwriter_end_cdata(XMLWriter $writer): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::startCdata()](xmlwriter.startcdata.html) - Створити початковий тег CDATA
--   [XMLWriter::writeCdata()](xmlwriter.writecdata.html) - Записати повний тег CDATA
+-   [XMLWriter::startCdata()](xmlwriter.startcdata.md) - Створити початковий тег CDATA
+-   [XMLWriter::writeCdata()](xmlwriter.writecdata.md) - Записати повний тег CDATA

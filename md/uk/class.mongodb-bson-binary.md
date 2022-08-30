@@ -4,9 +4,9 @@
     
 -   [MongoDBBSONBinary::construct »](mongodb-bson-binary.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MongoDBBSON](book.bson.html)
+-   [MongoDBBSON](book.bson.md)
     
 -   Клас MongoDBBSONBinary
     
@@ -128,14 +128,14 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия                                                               | Описание |
-|----------------------------------------------------------------------|----------|
-| PECL mongodb 1.12.0                                                  |          |
-| Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+. |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.12.0 |  |
+| Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |  |
 
 Доданий тип **`MongoDB\BSON\Binary::TYPE_COLUMN`**
 
-| | PECL mongodb 1.7.0 Доданий тип **`MongoDB\BSON\Binary::TYPE_ENCRYPTED`**. | | PECL mongodb 1.3.0 Реалізує інтерфейс [MongoDBBSONBinaryInterface](class.mongodb-bson-binaryinterface.html). | | PECL mongodb 1.2.0 Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html).
+| | PECL mongodb 1.7.0 Доданий тип **`MongoDB\BSON\Binary::TYPE_ENCRYPTED`**. | | PECL mongodb 1.3.0 Реалізує інтерфейс [MongoDBBSONBinaryInterface](class.mongodb-bson-binaryinterface.html). | | PECL mongodb 1.2.0 Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md).
 
 ## Зміст
 

@@ -1,12 +1,12 @@
 Отримує поточний ключ
 
--   [« SolrDocument::isset](solrdocument.isset.html)
+-   [« SolrDocument::isset](solrdocument.isset.md)
     
--   [SolrDocument::merge »](solrdocument.merge.html)
+-   [SolrDocument::merge »](solrdocument.merge.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDocument](class.solrdocument.html)
+-   [SolrDocument](class.solrdocument.md)
     
 -   Отримує поточний ключ
     

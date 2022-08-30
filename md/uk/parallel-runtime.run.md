@@ -4,7 +4,7 @@
     
 -   [parallelRuntime::close »](parallel-runtime.close.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [parallelRuntime](class.parallel-runtime.html)
     
@@ -33,7 +33,7 @@ public parallel\Runtime::run(Closure $task, array $argv): ?Future
 
 `task`
 
-Замикання ([Closure](class.closure.html)) зі специфічними характеристиками.
+Замикання ([Closure](class.closure.md)) зі специфічними характеристиками.
 
 `argv`
 

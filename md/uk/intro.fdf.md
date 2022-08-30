@@ -2,7 +2,7 @@
 
 -   [« FDF](book.fdf.html)
     
--   [Установка и настройка »](fdf.setup.html)
+-   [Встановлення та налаштування »](fdf.setup.html)
     
 -   [PHP Manual](index.html)
     

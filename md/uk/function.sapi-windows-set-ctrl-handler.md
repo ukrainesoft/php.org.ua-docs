@@ -4,9 +4,9 @@
     
 -   [sapiwindowsvt100support »](function.sapi-windows-vt100-support.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Різні функції](ref.misc.html)
+-   [Різні функції](ref.misc.md)
     
 -   Встановити чи видалити обробник події CTRL
     

@@ -4,7 +4,7 @@
     
 -   [SwooleCoroutineHttpClient::setMethod »](swoole-coroutine-http-client.setmethod.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleCoroutine](class.swoole-coroutine.html)
     

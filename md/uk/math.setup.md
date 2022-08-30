@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.math.html)
     
--   [Требования »](math.requirements.html)
+-   [Вимоги »](math.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](math.requirements.html)
+-   [Вимоги](math.requirements.html)
 -   [Установка](math.installation.html)
--   [Настройка во время выполнения](math.configuration.html)
--   [Типы ресурсов](math.resources.html)
+-   [Налаштування під час виконання](math.configuration.html)
+-   [Типи ресурсів](math.resources.html)

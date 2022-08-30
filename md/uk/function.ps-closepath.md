@@ -4,9 +4,9 @@
     
 -   [псcontinuetext »](function.ps-continue-text.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Замикає шлях
     

@@ -4,7 +4,7 @@
     
 -   [ОЙControlsBox::setPadded »](ui-controls-box.setpadded.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsBox](class.ui-controls-box.html)
     

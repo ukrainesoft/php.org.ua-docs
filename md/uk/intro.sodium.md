@@ -2,7 +2,7 @@
 
 -   [« Sodium](book.sodium.html)
     
--   [Установка и настройка »](sodium.setup.html)
+-   [Встановлення та налаштування »](sodium.setup.html)
     
 -   [PHP Manual](index.html)
     

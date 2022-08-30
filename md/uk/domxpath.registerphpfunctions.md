@@ -1,12 +1,12 @@
 Реєстрація PHP-функцій як функцій XPath
 
--   [« DOMXPath::registerNamespace](domxpath.registernamespace.html)
+-   [« DOMXPath::registerNamespace](domxpath.registernamespace.md)
     
--   [Функции DOM »](ref.dom.html)
+-   [Функции DOM »](ref.dom.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMXPath](class.domxpath.html)
+-   [DOMXPath](class.domxpath.md)
     
 -   Реєстрація PHP-функцій як функцій XPath
     
@@ -120,6 +120,6 @@ PHP Basics
 
 ### Дивіться також
 
--   [DOMXPath::registerNamespace()](domxpath.registernamespace.html) - Реєструє простір імен з об'єктом DOMXPath
--   [DOMXPath::query()](domxpath.query.html) - Виконує заданий вираз XPath
--   [DOMXPath::evaluate()](domxpath.evaluate.html) - Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо
+-   [DOMXPath::registerNamespace()](domxpath.registernamespace.md) - Реєструє простір імен з об'єктом DOMXPath
+-   [DOMXPath::query()](domxpath.query.md) - Виконує заданий вираз XPath
+-   [DOMXPath::evaluate()](domxpath.evaluate.md) - Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо

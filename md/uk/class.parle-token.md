@@ -4,9 +4,9 @@
     
 -   [ParleErrorInfo »](class.parle-errorinfo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Parle](book.parle.html)
+-   [Parle](book.parle.md)
     
 -   Клас ParleToken
     

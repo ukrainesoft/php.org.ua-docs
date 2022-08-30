@@ -4,7 +4,7 @@
     
 -   [IBM (PDO) »](ref.pdo-ibm.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Firebird (PDO)](ref.pdo-firebird.html)
     

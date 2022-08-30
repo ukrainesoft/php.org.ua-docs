@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](ftp.setup.html)
+-   [« Встановлення та налаштування](ftp.setup.md)
     
--   [Установка »](ftp.installation.html)
+-   [Установка »](ftp.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ftp.setup.html)
+-   [Встановлення та налаштування](ftp.setup.md)
     
 -   Вимоги
     

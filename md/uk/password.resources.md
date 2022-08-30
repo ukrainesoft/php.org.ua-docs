@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](password.configuration.html)
+-   [« Налаштування під час виконання](password.configuration.html)
     
--   [Предопределённые константы »](password.constants.html)
+-   [Обумовлені константи »](password.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](password.setup.html)
+-   [Встановлення та налаштування](password.setup.html)
     
 -   Типи ресурсів
     

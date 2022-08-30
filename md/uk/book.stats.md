@@ -1,26 +1,26 @@
 Статистика
 
--   [« tanh](function.tanh.html)
+-   [« tanh](function.tanh.md)
     
--   [Введение »](intro.stats.html)
+-   [Введение »](intro.stats.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Математичні модулі](refs.math.html)
+-   [Математичні модулі](refs.math.md)
     
 -   Статистика
     
 
 # Статистика
 
--   [Введение](intro.stats.html)
--   [Установка и настройка](stats.setup.html)
-    -   [Требования](stats.requirements.html)
-    -   [Установка](stats.installation.html)
-    -   [Настройка во время выполнения](stats.configuration.html)
-    -   [Типы ресурсов](stats.resources.html)
--   [Предопределённые константы](stats.constants.html)
--   [Функції статистики](ref.stats.html)
+-   [Введение](intro.stats.md)
+-   [Встановлення та налаштування](stats.setup.md)
+    -   [Вимоги](stats.requirements.md)
+    -   [Установка](stats.installation.md)
+    -   [Налаштування під час виконання](stats.configuration.md)
+    -   [Типи ресурсів](stats.resources.md)
+-   [Обумовлені константи](stats.constants.md)
+-   [Функції статистики](ref.stats.md)
     -   [statsabsolutedeviation](function.stats-absolute-deviation.html) — Повертає абсолютне відхилення масиву значень
     -   [statscdfbeta](function.stats-cdf-beta.html) — Обчислює будь-який параметр Бета-розподілу на основі інших заданих значень
     -   [statscdfbinomial](function.stats-cdf-binomial.html) — Обчислює один із параметрів біномінального розподілу за рештою

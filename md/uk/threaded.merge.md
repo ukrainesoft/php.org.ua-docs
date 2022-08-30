@@ -1,12 +1,12 @@
 Обробка
 
--   [« Threaded::isTerminated](threaded.isterminated.html)
+-   [« Threaded::isTerminated](threaded.isterminated.md)
     
--   [Threaded::notify »](threaded.notify.html)
+-   [Threaded::notify »](threaded.notify.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Threaded](class.threaded.html)
+-   [Threaded](class.threaded.md)
     
 -   Обробка
     

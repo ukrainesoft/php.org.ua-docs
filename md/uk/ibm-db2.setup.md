@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.ibm-db2.html)
     
--   [Требования »](ibm-db2.requirements.html)
+-   [Вимоги »](ibm-db2.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](ibm-db2.requirements.html)
+-   [Вимоги](ibm-db2.requirements.html)
 -   [Установка](ibm-db2.installation.html)
--   [Настройка во время выполнения](ibm-db2.configuration.html)
--   [Типы ресурсов](ibm-db2.resources.html)
+-   [Налаштування під час виконання](ibm-db2.configuration.html)
+-   [Типи ресурсів](ibm-db2.resources.html)

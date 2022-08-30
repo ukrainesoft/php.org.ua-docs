@@ -1,26 +1,26 @@
 Secure Shell2
 
--   [« AddressInfo](class.addressinfo.html)
+-   [« AddressInfo](class.addressinfo.md)
     
--   [Введение »](intro.ssh2.html)
+-   [Введение »](intro.ssh2.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Другие службы](refs.remote.other.html)
+-   [Інші служби](refs.remote.other.md)
     
 -   Secure Shell2
     
 
 # Secure Shell2
 
--   [Введение](intro.ssh2.html)
--   [Установка и настройка](ssh2.setup.html)
-    -   [Требования](ssh2.requirements.html)
-    -   [Установка](ssh2.installation.html)
-    -   [Настройка во время выполнения](ssh2.configuration.html)
-    -   [Типы ресурсов](ssh2.resources.html)
--   [Предопределённые константы](ssh2.constants.html)
--   [Функції SSH2](ref.ssh2.html)
+-   [Введение](intro.ssh2.md)
+-   [Встановлення та налаштування](ssh2.setup.md)
+    -   [Вимоги](ssh2.requirements.md)
+    -   [Установка](ssh2.installation.md)
+    -   [Налаштування під час виконання](ssh2.configuration.md)
+    -   [Типи ресурсів](ssh2.resources.md)
+-   [Обумовлені константи](ssh2.constants.md)
+-   [Функції SSH2](ref.ssh2.md)
     -   [ssh2authagent](function.ssh2-auth-agent.html) — Аутентифікація через SSH за допомогою агента ssh
     -   [ssh2authhostbasedfile](function.ssh2-auth-hostbased-file.html) - Аутентифікація з використанням відкритого ключа хоста
     -   [ssh2authnone](function.ssh2-auth-none.html) - Аутентифікація як "none"

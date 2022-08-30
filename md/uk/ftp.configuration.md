@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](ftp.installation.html)
+-   [« Установка](ftp.installation.md)
     
--   [Типы ресурсов »](ftp.resources.html)
+-   [Типи ресурсів »](ftp.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](ftp.setup.html)
+-   [Встановлення та налаштування](ftp.setup.md)
     
 -   Налаштування під час виконання
     

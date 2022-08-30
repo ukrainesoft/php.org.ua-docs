@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](zlib.setup.html)
+-   [« Встановлення та налаштування](zlib.setup.md)
     
--   [Установка »](zlib.installation.html)
+-   [Установка »](zlib.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](zlib.setup.html)
+-   [Встановлення та налаштування](zlib.setup.md)
     
 -   Вимоги
     

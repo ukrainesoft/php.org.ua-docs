@@ -1,12 +1,12 @@
 Очищає список серверів
 
--   [« Memcached::replaceByKey](memcached.replacebykey.html)
+-   [« Memcached::replaceByKey](memcached.replacebykey.md)
     
--   [Memcached::set »](memcached.set.html)
+-   [Memcached::set »](memcached.set.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Очищає список серверів
     
@@ -35,5 +35,5 @@ public Memcached::resetServerList(): bool
 
 ### Дивіться також
 
--   [Memcached::addServer()](memcached.addserver.html) - Додає сервер у пул
--   [Memcached::addServers()](memcached.addservers.html) - Додає кілька серверів у пул
+-   [Memcached::addServer()](memcached.addserver.md) - Додає сервер у пул
+-   [Memcached::addServers()](memcached.addservers.md) - Додає кілька серверів у пул

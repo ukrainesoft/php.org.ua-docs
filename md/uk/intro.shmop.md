@@ -1,12 +1,12 @@
 Вступ
 
--   [« Управление разделяемой памятью](book.shmop.html)
+-   [« Управление разделяемой памятью](book.shmop.md)
     
--   [Установка и настройка »](shmop.setup.html)
+-   [Встановлення та налаштування »](shmop.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Управление разделяемой памятью](book.shmop.html)
+-   [Управление разделяемой памятью](book.shmop.md)
     
 -   Вступ
     

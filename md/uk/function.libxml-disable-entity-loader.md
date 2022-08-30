@@ -4,9 +4,9 @@
     
 -   [libxmlgeterrors »](function.libxml-get-errors.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції libxml](ref.libxml.html)
+-   [Функції libxml](ref.libxml.md)
     
 -   Вимкнення можливості завантаження сутностей із зовнішніх джерел
     
@@ -33,7 +33,7 @@ libxml_disable_entity_loader(bool $disable = true): bool
 
 `disable`
 
-Вимкнення (**`true`**) або включення (**`false`**) модулів libxml (таких як [DOM](book.dom.html) [XMLWriter](book.xmlwriter.html) і [XMLReader](book.xmlreader.html)) для завантаження зовнішніх сутностей.
+Вимкнення (**`true`**) або включення (**`false`**) модулів libxml (таких як [DOM](book.dom.md) [XMLWriter](book.xmlwriter.md) і [XMLReader](book.xmlreader.md)) для завантаження зовнішніх сутностей.
 
 ### Значення, що повертаються
 
@@ -43,4 +43,4 @@ libxml_disable_entity_loader(bool $disable = true): bool
 
 -   [libxmluseinternalerrors()](function.libxml-use-internal-errors.html) - Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
 -   [libxmlsetexternalentityloader()](function.libxml-set-external-entity-loader.html) - Зміна завантажувача за умовчанням для зовнішніх об'єктів
--   [Константа**`LIBXML_NOENT`**](libxml.constants.html)
+-   [Константа\*\*`LIBXML_NOENT`](libxml.constants.md)

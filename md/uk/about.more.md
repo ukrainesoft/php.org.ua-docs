@@ -1,12 +1,12 @@
 Як дізнатися більше про PHP
 
--   [« Версії PHP, документовані в цьому посібнику](about.phpversions.html)
+-   [« Версії PHP, документовані в цьому посібнику](about.phpversions.md)
     
--   [Як допомогти у написанні документації »](about.howtohelp.html)
+-   [Як допомогти у написанні документації »](about.howtohelp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Про це керівництво](about.html)
+-   [Про це керівництво](about.md)
     
 -   Як дізнатися більше про PHP
     

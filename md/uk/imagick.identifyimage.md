@@ -1,12 +1,12 @@
 Визначає зображення та отримує атрибути
 
--   [« Imagick::identifyFormat](imagick.identifyformat.html)
+-   [« Imagick::identifyFormat](imagick.identifyformat.md)
     
--   [Imagick::implodeImage »](imagick.implodeimage.html)
+-   [Imagick::implodeImage »](imagick.implodeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Визначає зображення та отримує атрибути
     

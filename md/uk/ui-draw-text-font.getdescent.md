@@ -4,7 +4,7 @@
     
 -   [ОЙDrawTextFont::getLeading »](ui-draw-text-font.getleading.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawTextFont](class.ui-draw-text-font.html)
     

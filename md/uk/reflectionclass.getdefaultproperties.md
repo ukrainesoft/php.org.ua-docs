@@ -1,12 +1,12 @@
 Повертає властивості за промовчанням
 
--   [« ReflectionClass::getConstructor](reflectionclass.getconstructor.html)
+-   [« ReflectionClass::getConstructor](reflectionclass.getconstructor.md)
     
--   [ReflectionClass::getDocComment »](reflectionclass.getdoccomment.html)
+-   [ReflectionClass::getDocComment »](reflectionclass.getdoccomment.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає властивості за промовчанням
     
@@ -78,6 +78,6 @@ array(5) {
 
 ### Дивіться також
 
--   [ReflectionClass::getProperties()](reflectionclass.getproperties.html) - Повертає властивості
--   [ReflectionClass::getStaticProperties()](reflectionclass.getstaticproperties.html) - Повертає статичні властивості
--   [ReflectionClass::getProperty()](reflectionclass.getproperty.html) - Повертає екземпляр ReflectionProperty для якості класу
+-   [ReflectionClass::getProperties()](reflectionclass.getproperties.md) - Повертає властивості
+-   [ReflectionClass::getStaticProperties()](reflectionclass.getstaticproperties.md) - Повертає статичні властивості
+-   [ReflectionClass::getProperty()](reflectionclass.getproperty.md) - Повертає екземпляр ReflectionProperty для якості класу

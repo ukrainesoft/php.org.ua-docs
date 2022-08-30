@@ -4,9 +4,9 @@
     
 -   [fdfsetversion »](function.fdf-set-version.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Встановлює значення поля
     

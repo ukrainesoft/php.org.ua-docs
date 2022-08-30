@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](iconv.installation.html)
+-   [« Установка](iconv.installation.md)
     
--   [Типы ресурсов »](iconv.resources.html)
+-   [Типи ресурсів »](iconv.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](iconv.setup.html)
+-   [Встановлення та налаштування](iconv.setup.md)
     
 -   Налаштування під час виконання
     
@@ -17,11 +17,11 @@
 
 **Опції настроювання Iconv**
 
-| Имя                                                                            | По умолчанию | Место изменения | Список изменений       |
-|--------------------------------------------------------------------------------|--------------|-----------------|------------------------|
-| [iconv.inputencoding](iconv.configuration.html#ini.iconv.input-encoding)       | ""           | PHPINIALL       | Застаріло з PHP 5.6.0. |
-| [iconv.outputencoding](iconv.configuration.html#ini.iconv.output-encoding)     | ""           | PHPINIALL       | Застаріло з PHP 5.6.0. |
-| [iconv.internalencoding](iconv.configuration.html#ini.iconv.internal-encoding) | ""           | PHPINIALL       | Застаріло з PHP 5.6.0. |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [iconv.inputencoding](iconv.configuration.html#ini.iconv.input-encoding) | "" | PHPINIALL | Застаріло з PHP 5.6.0. |
+| [iconv.outputencoding](iconv.configuration.html#ini.iconv.output-encoding) | "" | PHPINIALL | Застаріло з PHP 5.6.0. |
+| [iconv.internalencoding](iconv.configuration.html#ini.iconv.internal-encoding) | "" | PHPINIALL | Застаріло з PHP 5.6.0. |
 
 Коротке пояснення конфігураційних директив.
 

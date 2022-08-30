@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](filter.constants.html)
+-   [« Обумовлені константи](filter.constants.md)
     
--   [Перевірка (валідація) »](filter.examples.validation.html)
+-   [Перевірка (валідація) »](filter.examples.validation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Filter](book.filter.html)
+-   [Filter](book.filter.md)
     
 -   Приклади
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [Перевірка (валідація)](filter.examples.validation.html)
--   [Очищення (нормалізація)](filter.examples.sanitization.html)
+-   [Перевірка (валідація)](filter.examples.validation.md)
+-   [Очищення (нормалізація)](filter.examples.sanitization.md)

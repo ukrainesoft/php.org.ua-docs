@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](stomp.requirements.html)
+-   [« Вимоги](stomp.requirements.html)
     
--   [Настройка во время выполнения »](stomp.configuration.html)
+-   [Налаштування під час виконання »](stomp.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](stomp.setup.html)
+-   [Встановлення та налаштування](stomp.setup.html)
     
 -   Встановлення
     

@@ -4,7 +4,7 @@
     
 -   [YafConfigIni::offsetGet »](yaf-config-ini.offsetget.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafConfigIni](class.yaf-config-ini.html)
     

@@ -4,7 +4,7 @@
     
 -   [parallelEventsEvent »](class.parallel-events-event.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [parallelEventsInput](class.parallel-events-input.html)
     

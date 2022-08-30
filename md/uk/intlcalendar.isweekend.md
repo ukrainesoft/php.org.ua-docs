@@ -1,12 +1,12 @@
 Визначає, чи припадають певні дата/час на вихідні
 
--   [« IntlCalendar::isSet](intlcalendar.isset.html)
+-   [« IntlCalendar::isSet](intlcalendar.isset.md)
     
--   [IntlCalendar::roll »](intlcalendar.roll.html)
+-   [IntlCalendar::roll »](intlcalendar.roll.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlCalendar](class.intlcalendar.html)
+-   [IntlCalendar](class.intlcalendar.md)
     
 -   Визначає, чи припадають певні дата/час на вихідні
     
@@ -39,7 +39,7 @@ intlcal_is_weekend(IntlCalendar $calendar, ?float $timestamp = null): bool
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `timestamp`
 
@@ -72,5 +72,5 @@ var_dump($cal->isWeekend()); // false, воскресенье не явля
 
 ### Дивіться також
 
--   [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.html) - Повідомляє, чи є день буднім, вихідним чи днем ​​із переходом між ними
--   [IntlCalendar::getWeekendTransition()](intlcalendar.getweekendtransition.html) - Отримує час дня, коли вихідні починаються чи закінчуються
+-   [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.md) - Повідомляє, чи є день буднім, вихідним чи днем ​​із переходом між ними
+-   [IntlCalendar::getWeekendTransition()](intlcalendar.getweekendtransition.md) - Отримує час дня, коли вихідні починаються чи закінчуються

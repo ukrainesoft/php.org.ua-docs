@@ -1,12 +1,12 @@
 Встановлення стилю малювання ліній
 
--   [« imagesetpixel](function.imagesetpixel.html)
+-   [« imagesetpixel](function.imagesetpixel.md)
     
--   [imagesetthickness »](function.imagesetthickness.html)
+-   [imagesetthickness »](function.imagesetthickness.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.md)
     
 -   Встановлення стилю малювання ліній
     
@@ -23,13 +23,13 @@ imagesetstyle — Налаштування стилю малювання лін�
 imagesetstyle(GdImage $image, array $style): bool
 ```
 
-**imagesetstyle()** задає стиль, який використовуватиметься функціями малювання ліній (такими як [imageline()](function.imageline.html) і [imagepolygon()](function.imagepolygon.html)) при завданні спеціального кольору **`IMG_COLOR_STYLED`** або **`IMG_COLOR_STYLEDBRUSHED`**
+**imagesetstyle()** задає стиль, який використовуватиметься функціями малювання ліній (такими як [imageline()](function.imageline.md) і [imagepolygon()](function.imagepolygon.md)) при завданні спеціального кольору **`IMG_COLOR_STYLED`** або **`IMG_COLOR_STYLEDBRUSHED`**
 
 ### Список параметрів
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `style`
 
@@ -78,5 +78,5 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagesetbrush()](function.imagesetbrush.html) - Встановлення зображення (пензля), за допомогою якого будуть малюватись лінії
--   [imageline()](function.imageline.html) - Малювання лінії
+-   [imagesetbrush()](function.imagesetbrush.md) - Встановлення зображення (пензля), за допомогою якого будуть малюватись лінії
+-   [imageline()](function.imageline.md) - Малювання лінії

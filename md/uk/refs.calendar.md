@@ -2,40 +2,40 @@
 
 -   [« sqlsrvserverinfo](function.sqlsrv-server-info.html)
     
--   [Календарь »](book.calendar.html)
+-   [Календарь »](book.calendar.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Справочник функций](funcref.html)
+-   [Справочник функций](funcref.md)
     
 -   Модулі для роботи з датою та часом
     
 
 # Модулі для роботи з датою та часом
 
--   [Календарь](book.calendar.html)
-    -   [Введение](intro.calendar.html)
-    -   [Установка и настройка](calendar.setup.html)
-    -   [Предопределённые константы](calendar.constants.html)
-    -   [Календарь](ref.calendar.html)
--   [Дата/время](book.datetime.html) - Дата і час
-    -   [Введение](intro.datetime.html)
-    -   [Установка и настройка](datetime.setup.html)
-    -   [Предопределённые константы](datetime.constants.html)
-    -   [Примеры](datetime.examples.html)
-    -   [DateTime](class.datetime.html) - Клас DateTime
-    -   [DateTimeImmutable](class.datetimeimmutable.html) - Клас DateTimeImmutable
-    -   [DateTimeInterface](class.datetimeinterface.html) - Інтерфейс DateTimeInterface
-    -   [DateTimeZone](class.datetimezone.html) - Клас DateTimeZone
-    -   [DateInterval](class.dateinterval.html) - Клас DateInterval
-    -   [DatePeriod](class.dateperiod.html) - Клас DatePeriod
-    -   [Функции даты и времени](ref.datetime.html)
-    -   [Допустимые форматы даты/времени](datetime.formats.html)
-    -   [Список підтримуваних часових поясів](timezones.html)
--   [HRTime](book.hrtime.html) — Час високого дозволу
-    -   [Введение](intro.hrtime.html)
-    -   [Установка и настройка](hrtime.setup.html)
-    -   [Примеры](hrtime.examples.html)
+-   [Календарь](book.calendar.md)
+    -   [Введение](intro.calendar.md)
+    -   [Встановлення та налаштування](calendar.setup.md)
+    -   [Обумовлені константи](calendar.constants.md)
+    -   [Календарь](ref.calendar.md)
+-   [Дата/время](book.datetime.md) - Дата і час
+    -   [Введение](intro.datetime.md)
+    -   [Встановлення та налаштування](datetime.setup.md)
+    -   [Обумовлені константи](datetime.constants.md)
+    -   [Приклади](datetime.examples.md)
+    -   [DateTime](class.datetime.md) - Клас DateTime
+    -   [DateTimeImmutable](class.datetimeimmutable.md) - Клас DateTimeImmutable
+    -   [DateTimeInterface](class.datetimeinterface.md) - Інтерфейс DateTimeInterface
+    -   [DateTimeZone](class.datetimezone.md) - Клас DateTimeZone
+    -   [DateInterval](class.dateinterval.md) - Клас DateInterval
+    -   [DatePeriod](class.dateperiod.md) - Клас DatePeriod
+    -   [Функції дати та часу](ref.datetime.md)
+    -   [Допустимі формати дати/часу](datetime.formats.md)
+    -   [Список підтримуваних часових поясів](timezones.md)
+-   [HRTime](book.hrtime.md) — Час високого дозволу
+    -   [Введение](intro.hrtime.md)
+    -   [Встановлення та налаштування](hrtime.setup.md)
+    -   [Приклади](hrtime.examples.md)
     -   [HRTimePerformanceCounter](class.hrtime-performancecounter.html) - Клас HRTimePerformanceCounter
     -   [HRTimeStopWatch](class.hrtime-stopwatch.html) - Клас HRTimeStopWatch
     -   [HRTimeUnit](class.hrtime-unit.html) - Клас HRTimeUnit

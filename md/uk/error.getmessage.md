@@ -1,12 +1,12 @@
 Отримує повідомлення про помилку
 
--   [« Error::construct](error.construct.html)
+-   [« Error::construct](error.construct.md)
     
--   [Error::getPrevious »](error.getprevious.html)
+-   [Error::getPrevious »](error.getprevious.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Error](class.error.html)
+-   [Error](class.error.md)
     
 -   Отримує повідомлення про помилку
     
@@ -55,4 +55,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getMessage()](throwable.getmessage.html) - Отримує повідомлення помилки
+-   [Throwable::getMessage()](throwable.getmessage.md) - Отримує повідомлення помилки

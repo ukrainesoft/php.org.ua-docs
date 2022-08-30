@@ -4,9 +4,9 @@
     
 -   [mysqlnumfields »](function.mysql-num-fields.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [MySQL](ref.mysql.html)
+-   [MySQL](ref.mysql.md)
     
 -   Повертає список таблиць бази даних MySQL
     
@@ -19,7 +19,7 @@ mysqllisttables — Повертає список таблиць бази дан
 
 **Увага**
 
-Ця функція оголошена застарілою в PHP 4.3.0, і, разом з [модулем MySQL](book.mysql.html)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Також дивіться розділ [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Ця функція оголошена застарілою в PHP 4.3.0, і, разом з [модулем MySQL](book.mysql.md)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Також дивіться розділ [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   SQL запит: `SHOW TABLES FROM dbname`
 
@@ -51,9 +51,9 @@ mysql_list_tables(string $database, resource $link_identifier = NULL): resource|
 
 ### список змін
 
-| Версия | Описание                      |
-|--------|-------------------------------|
-|        | Функція позначена застарілою. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція позначена застарілою. |
 
 ### Приклади
 

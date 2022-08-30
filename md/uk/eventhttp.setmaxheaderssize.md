@@ -1,12 +1,12 @@
 Встановлює максимальний розмір заголовка HTTP
 
--   [« EventHttp::setMaxBodySize](eventhttp.setmaxbodysize.html)
+-   [« EventHttp::setMaxBodySize](eventhttp.setmaxbodysize.md)
     
--   [EventHttp::setTimeout »](eventhttp.settimeout.html)
+-   [EventHttp::setTimeout »](eventhttp.settimeout.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttp](class.eventhttp.html)
+-   [EventHttp](class.eventhttp.md)
     
 -   Встановлює максимальний розмір заголовка HTTP
     

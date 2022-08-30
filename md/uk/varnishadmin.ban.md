@@ -1,12 +1,12 @@
 Заборонити URL-адресу, використовуючи вираз VCL
 
--   [« VarnishAdmin::auth](varnishadmin.auth.html)
+-   [« VarnishAdmin::auth](varnishadmin.auth.md)
     
--   [VarnishAdmin::banUrl »](varnishadmin.banurl.html)
+-   [VarnishAdmin::banUrl »](varnishadmin.banurl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [VarnishAdmin](class.varnishadmin.html)
+-   [VarnishAdmin](class.varnishadmin.md)
     
 -   Заборонити URL-адресу, використовуючи вираз VCL
     

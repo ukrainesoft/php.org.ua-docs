@@ -1,12 +1,12 @@
 Визначає кількість елементів у купі
 
--   [« SplHeap::compare](splheap.compare.html)
+-   [« SplHeap::compare](splheap.compare.md)
     
--   [SplHeap::current »](splheap.current.html)
+-   [SplHeap::current »](splheap.current.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplHeap](class.splheap.html)
+-   [SplHeap](class.splheap.md)
     
 -   Визначає кількість елементів у купі
     

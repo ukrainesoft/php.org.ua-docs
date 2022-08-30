@@ -1,12 +1,12 @@
 Налаштування під час виконання
 
--   [« Установка](zip.installation.html)
+-   [« Установка](zip.installation.md)
     
--   [Типы ресурсов »](zip.resources.html)
+-   [Типи ресурсів »](zip.resources.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](zip.setup.html)
+-   [Встановлення та налаштування](zip.setup.md)
     
 -   Налаштування під час виконання
     

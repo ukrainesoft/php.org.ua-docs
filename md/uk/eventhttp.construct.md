@@ -1,12 +1,12 @@
 Створює об'єкт EventHttp (HTTP-сервер)
 
--   [« EventHttp::bind](eventhttp.bind.html)
+-   [« EventHttp::bind](eventhttp.bind.md)
     
--   [EventHttp::removeServerAlias »](eventhttp.removeserveralias.html)
+-   [EventHttp::removeServerAlias »](eventhttp.removeserveralias.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttp](class.eventhttp.html)
+-   [EventHttp](class.eventhttp.md)
     
 -   Створює об'єкт EventHttp (HTTP-сервер)
     
@@ -41,7 +41,7 @@ public
 
 `ctx`
 
-Об'єкт класу [EventSslContext](class.eventsslcontext.html). Перетворює простий HTTP-сервер на сервер HTTPS. Це означає, що якщо `ctx` настроєно правильно, то основні події буфера будуть засновані на сокетах OpenSSL. Таким чином, весь трафік проходитиме через SSL або TLS.
+Об'єкт класу [EventSslContext](class.eventsslcontext.md). Перетворює простий HTTP-сервер на сервер HTTPS. Це означає, що якщо `ctx` настроєно правильно, то основні події буфера будуть засновані на сокетах OpenSSL. Таким чином, весь трафік проходитиме через SSL або TLS.
 
 > **Зауваження**
 > 
@@ -49,12 +49,12 @@ public
 
 ### Значення, що повертаються
 
-Повертає об'єкт [EventHttp](class.eventhttp.html)
+Повертає об'єкт [EventHttp](class.eventhttp.md)
 
 ### список змін
 
-| Версия           | Описание                        |
-|------------------|---------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL event 1.9.0 | Додана підтримка OpenSSL (`ctx` |
 
 ### Приклади

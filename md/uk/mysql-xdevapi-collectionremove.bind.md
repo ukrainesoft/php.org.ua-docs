@@ -4,7 +4,7 @@
     
 -   [CollectionRemove::construct »](mysql-xdevapi-collectionremove.construct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiCollectionRemove](class.mysql-xdevapi-collectionremove.html)
     

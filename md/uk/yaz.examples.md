@@ -1,6 +1,6 @@
 Приклади
 
--   [« Предопределённые константы](yaz.constants.html)
+-   [« Обумовлені константи](yaz.constants.html)
     
 -   [Функции YAZ »](ref.yaz.html)
     

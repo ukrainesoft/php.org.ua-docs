@@ -1,6 +1,6 @@
 Зміни, що ламають зворотну сумісність
 
--   [« Новые глобальные константы](migration74.constants.html)
+-   [« Нові глобальні константи](migration74.constants.html)
     
 -   [Устаревшая функциональность »](migration74.deprecated.html)
     

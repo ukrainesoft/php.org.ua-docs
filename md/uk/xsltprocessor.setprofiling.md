@@ -1,12 +1,12 @@
 Встановлює файл для профілювання
 
--   [« XSLTProcessor::setParameter](xsltprocessor.setparameter.html)
+-   [« XSLTProcessor::setParameter](xsltprocessor.setparameter.md)
     
--   [XSLTProcessor::setSecurityPrefs »](xsltprocessor.setsecurityprefs.html)
+-   [XSLTProcessor::setSecurityPrefs »](xsltprocessor.setsecurityprefs.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XSLTProcessor](class.xsltprocessor.html)
+-   [XSLTProcessor](class.xsltprocessor.md)
     
 -   Встановлює файл для профілювання
     

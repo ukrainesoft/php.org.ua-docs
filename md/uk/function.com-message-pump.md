@@ -4,9 +4,9 @@
     
 -   [comprinttypeinfo »](function.com-print-typeinfo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции COM](ref.com.html)
+-   [Функции COM](ref.com.md)
     
 -   Обробка повідомлень COM, що прийшли не пізніше timeoutms мілісекунд після її запуску
     

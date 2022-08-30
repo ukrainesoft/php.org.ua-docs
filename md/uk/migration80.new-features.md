@@ -17,7 +17,7 @@
 
 #### Іменовані аргументи
 
-Додана підтримка [именованных аргументов](functions.arguments.html#functions.named-arguments)
+Додана підтримка [іменованих аргументів](functions.arguments.html#functions.named-arguments)
 
 #### Атрибути
 
@@ -25,7 +25,7 @@
 
 #### Оголошення властивостей у конструкторі
 
-Додана підтримка [визначення властивостей у конструкторі](language.oop5.decon.html#language.oop5.decon.constructor.promotion) (Оголошення властивостей у сигнатурі конструктора).
+Додана підтримка [визначення властивостей у конструктори](language.oop5.decon.html#language.oop5.decon.constructor.promotion) (Оголошення властивостей у сигнатурі конструктора).
 
 #### Тип Union
 
@@ -33,7 +33,7 @@
 
 #### Вираз Match
 
-Додана підтримка [выражения`match`](control-structures.match.html)
+Додана підтримка [вирази`match`](control-structures.match.html)
 
 #### Оператор Nullsafe
 
@@ -239,12 +239,12 @@
     <?php
     // Работает, даже если $excludes пуст:
     array_diff($array, ...$excludes);
-    // Работает, даже если $array содержит только один массив:
+    // Работает, даже если $array содержит только один Масив:
     array_intersect(...$arrays);
     ?>
     ```
     
--   Параметр `flag` у функції [проimplicitflush()](function.ob-implicit-flush.html) був змінений, і тепер набуває логічного значення (bool), а не ціле число (int).
+-   Параметр `flag` у функції [про implicit flush()](function.ob-implicit-flush.html) був змінений, і тепер набуває логічного значення (bool), а не ціле число (int).
     
 
 ### Лексер (Tokenizer)

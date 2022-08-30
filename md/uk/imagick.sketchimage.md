@@ -1,12 +1,12 @@
 Імітує малюнок олівцем
 
--   [« Imagick::sigmoidalContrastImage](imagick.sigmoidalcontrastimage.html)
+-   [« Imagick::sigmoidalContrastImage](imagick.sigmoidalcontrastimage.md)
     
--   [Imagick::smushImages »](imagick.smushimages.html)
+-   [Imagick::smushImages »](imagick.smushimages.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Імітує малюнок олівцем
     

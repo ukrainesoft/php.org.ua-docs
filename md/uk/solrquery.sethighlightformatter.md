@@ -1,12 +1,12 @@
 Задає засіб форматування для виведення виділення
 
--   [« SolrQuery::setHighlightAlternateField](solrquery.sethighlightalternatefield.html)
+-   [« SolrQuery::setHighlightAlternateField](solrquery.sethighlightalternatefield.md)
     
--   [SolrQuery::setHighlightFragmenter »](solrquery.sethighlightfragmenter.html)
+-   [SolrQuery::setHighlightFragmenter »](solrquery.sethighlightfragmenter.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Задає засіб форматування для виведення виділення
     
@@ -37,4 +37,4 @@ public SolrQuery::setHighlightFormatter(string $formatter, string $field_overrid
 
 ### Значення, що повертаються
 
-Повертає екземпляр [SolrQuery](class.solrquery.html)
+Повертає екземпляр [SolrQuery](class.solrquery.md)

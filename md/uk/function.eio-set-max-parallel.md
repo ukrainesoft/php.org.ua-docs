@@ -4,9 +4,9 @@
     
 -   [eiosetmaxpollreqs »](function.eio-set-max-poll-reqs.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Встановлює максимальну кількість паралельних потоків
     

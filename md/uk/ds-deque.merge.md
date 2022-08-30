@@ -4,7 +4,7 @@
     
 -   [ДсDeque::pop »](ds-deque.pop.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Двостороння черга](class.ds-deque.html)
     
@@ -29,7 +29,7 @@ public Ds\Deque::merge(mixed $values): Ds\Deque
 
 `values`
 
-Об'єкт класу [traversable](class.traversable.html) або array.
+Об'єкт класу [traversable](class.traversable.md) або array.
 
 ### Значення, що повертаються
 

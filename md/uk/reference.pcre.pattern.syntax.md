@@ -1,12 +1,12 @@
 Синтаксис регулярних виразів
 
--   [« Регулярные выражения PCRE](pcre.pattern.html)
+-   [Регулярні вирази PCRE](pcre.pattern.md)
     
--   [Вступление »](regexp.introduction.html)
+-   [Вступление »](regexp.introduction.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Регулярные выражения PCRE](pcre.pattern.html)
+-   [Регулярні вирази PCRE](pcre.pattern.md)
     
 -   Синтаксис регулярних виразів
     
@@ -15,22 +15,22 @@
 
 ## Зміст
 
--   [Вступление](regexp.introduction.html)
--   [Розділювачі](regexp.reference.delimiters.html)
--   [Метасимволы](regexp.reference.meta.html)
--   [Екрануючі послідовності](regexp.reference.escape.html)
--   [Властивості Unicode-символів](regexp.reference.unicode.html)
--   [Якоря](regexp.reference.anchors.html)
--   [Метасимвол точка](regexp.reference.dot.html)
+-   [Вступление](regexp.introduction.md)
+-   [Розділювачі](regexp.reference.delimiters.md)
+-   [Метасимволи](regexp.reference.meta.md)
+-   [Екрануючі послідовності](regexp.reference.escape.md)
+-   [Властивості Unicode-символів](regexp.reference.unicode.md)
+-   [Якоря](regexp.reference.anchors.md)
+-   [Метасимвол точка](regexp.reference.dot.md)
 -   [Символьні класи](regexp.reference.character-classes.html)
--   [Альтернативный выбор](regexp.reference.alternation.html)
+-   [Альтернативний вибір](regexp.reference.alternation.md)
 -   [Установка внутренних опций](regexp.reference.internal-options.html)
--   [Подмаски](regexp.reference.subpatterns.html)
--   [Повторение](regexp.reference.repetition.html)
--   [Обратные ссылки](regexp.reference.back-references.html)
--   [Твердження](regexp.reference.assertions.html)
--   [Однократные подмаски](regexp.reference.onlyonce.html)
--   [Умовні підмаски](regexp.reference.conditional.html)
--   [Комментарии](regexp.reference.comments.html)
--   [Рекурсивные шаблоны](regexp.reference.recursive.html)
--   [Продуктивність](regexp.reference.performance.html)
+-   [Подмаски](regexp.reference.subpatterns.md)
+-   [Повторение](regexp.reference.repetition.md)
+-   [Зворотні посилання](regexp.reference.back-references.html)
+-   [Твердження](regexp.reference.assertions.md)
+-   [Одноразові підмаски](regexp.reference.onlyonce.md)
+-   [Умовні підмаски](regexp.reference.conditional.md)
+-   [Комментарии](regexp.reference.comments.md)
+-   [Рекурсивні шаблони](regexp.reference.recursive.md)
+-   [Продуктивність](regexp.reference.performance.md)

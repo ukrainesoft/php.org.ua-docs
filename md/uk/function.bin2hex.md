@@ -1,12 +1,12 @@
 Перетворює бінарні дані на шістнадцяткове подання
 
--   [« addslashes](function.addslashes.html)
+-   [« addslashes](function.addslashes.md)
     
--   [chop »](function.chop.html)
+-   [chop »](function.chop.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Перетворює бінарні дані на шістнадцяткове подання
     
@@ -58,5 +58,5 @@ string(12) "Hello world!"
 
 ### Дивіться також
 
--   [hex2bin()](function.hex2bin.html) - Перетворює шістнадцяткові дані на двійкові
--   [pack()](function.pack.html) - Упакувати дані у бінарний рядок
+-   [hex2bin()](function.hex2bin.md) - Перетворює шістнадцяткові дані на двійкові
+-   [pack()](function.pack.md) - Упакувати дані у бінарний рядок

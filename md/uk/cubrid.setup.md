@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.cubrid.html)
+-   [« Введение](intro.cubrid.md)
     
--   [Требования »](cubrid.requirements.html)
+-   [Вимоги »](cubrid.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CUBRID](book.cubrid.html)
+-   [CUBRID](book.cubrid.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](cubrid.requirements.html)
--   [Установка](cubrid.installation.html)
--   [Настройка во время выполнения](cubrid.configuration.html)
--   [Типы ресурсов](cubrid.resources.html)
+-   [Вимоги](cubrid.requirements.md)
+-   [Установка](cubrid.installation.md)
+-   [Налаштування під час виконання](cubrid.configuration.md)
+-   [Типи ресурсів](cubrid.resources.md)

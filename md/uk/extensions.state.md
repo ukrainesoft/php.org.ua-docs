@@ -1,12 +1,12 @@
 Станом
 
--   [« По составу](extensions.membership.html)
+-   [« По составу](extensions.membership.md)
     
--   [Список псевдонимов функций »](aliases.html)
+-   [Список псевдонимов функций »](aliases.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Список/класифікація модулів](extensions.html)
+-   [Список/класифікація модулів](extensions.md)
     
 -   Станом
     
@@ -23,7 +23,7 @@
 
 Поведінка цих модулів - включаючи назви функцій і решта документації, що відноситься до них - може змінитися без повідомлення в майбутньому релізі PHP. Використовуйте ці модулі на свій страх та ризик.
 
--   [ImageMagick](book.imagick.html)
+-   [ImageMagick](book.imagick.md)
     
 -   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.html)
     
@@ -31,6 +31,6 @@
     
 -   [Oracle (PDO)](ref.pdo-oci.html)
     
--   [ПС](book.ps.html)
+-   [ПС](book.ps.md)
     
--   [XML-RPC](book.xmlrpc.html)
+-   [XML-RPC](book.xmlrpc.md)

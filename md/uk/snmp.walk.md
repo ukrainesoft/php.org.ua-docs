@@ -1,12 +1,12 @@
 Отримує піддерево об'єкта SNMP
 
--   [« SNMP::setSecurity](snmp.setsecurity.html)
+-   [« SNMP::setSecurity](snmp.setsecurity.md)
     
--   [SNMPException »](class.snmpexception.html)
+-   [SNMPException »](class.snmpexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SNMP](class.snmp.html)
+-   [SNMP](class.snmp.md)
     
 -   Отримує піддерево об'єкта SNMP
     
@@ -45,11 +45,11 @@ public SNMP::walk(    array|string $objectId,    bool $suffixAsKey = fal
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив ідентифікаторів об'єктів SNMP та їх значень у разі успішного виконання або **`false`** у разі виникнення помилки. Коли виникає помилка SNMP, [SNMP::getErrno()](snmp.geterrno.html) і [SNMP::getError()](snmp.geterror.html) можуть використовуватися для отримання номера помилки (специфічно для модуля SNMP, дивіться константи класу) та повідомлення про помилку відповідно.
+Повертає асоціативний масив ідентифікаторів об'єктів SNMP та їх значень у разі успішного виконання або **`false`** у разі виникнення помилки. Коли виникає помилка SNMP, [SNMP::getErrno()](snmp.geterrno.md) і [SNMP::getError()](snmp.geterror.md) можуть використовуватися для отримання номера помилки (специфічно для модуля SNMP, дивіться константи класу) та повідомлення про помилку відповідно.
 
 ### Помилки
 
-Цей метод за промовчанням не генерує винятку. Щоб увімкнути генерацію виключення SNMPException при виникненні деяких помилок цієї бібліотеки, необхідно встановити параметр `exceptions_enabled` класу SNMP у відповідне значення. Детальніше дивіться [объяснении параметра`SNMP::$exceptions_enabled`](class.snmp.html#snmp.props.exceptions-enabled)
+Цей метод за промовчанням не генерує винятку. Щоб увімкнути генерацію виключення SNMPException при виникненні деяких помилок цієї бібліотеки, необхідно встановити параметр `exceptions_enabled` класу SNMP у відповідне значення. Детальніше дивіться [поясненні параметра`SNMP::$exceptions_enabled`](class.snmp.html#snmp.props.exceptions-enabled)
 
 ### Приклади
 
@@ -130,5 +130,5 @@ Array
 
 ### Дивіться також
 
--   [SNMP::getErrno()](snmp.geterrno.html) - Отримує код останньої помилки
--   [SNMP::getError()](snmp.geterror.html) - Отримує останнє повідомлення про помилку
+-   [SNMP::getErrno()](snmp.geterrno.md) - Отримує код останньої помилки
+-   [SNMP::getError()](snmp.geterror.md) - Отримує останнє повідомлення про помилку

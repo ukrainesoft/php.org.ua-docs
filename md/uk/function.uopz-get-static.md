@@ -4,9 +4,9 @@
     
 -   [uopzimplement »](function.uopz-implement.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.md)
     
 -   Повертає статичні змінні в області видимості функції або методу
     

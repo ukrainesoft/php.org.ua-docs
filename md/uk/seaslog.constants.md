@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](seaslog.resources.html)
+-   [« Типи ресурсів](seaslog.resources.md)
     
--   [Примеры »](seaslog.examples.html)
+-   [Приклади »](seaslog.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Seaslog](book.seaslog.html)
+-   [Seaslog](book.seaslog.md)
     
 -   Обумовлені константи
     

@@ -43,4 +43,4 @@ final public MongoDB\Driver\ServerApi::unserialize(string $serialized): void
 
 -   [MongoDBDriverServerApi::serialize()](mongodb-driver-serverapi.serialize.html) - Серіалізує ServerApi
 -   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [Серіалізація об'єктів](language.oop5.serialization.html)

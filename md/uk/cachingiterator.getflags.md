@@ -1,12 +1,12 @@
 Отримує прапори, що використовуються
 
--   [« CachingIterator::getCache](cachingiterator.getcache.html)
+-   [« CachingIterator::getCache](cachingiterator.getcache.md)
     
--   [CachingIterator::getInnerIterator »](cachingiterator.getinneriterator.html)
+-   [CachingIterator::getInnerIterator »](cachingiterator.getinneriterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CachingIterator](class.cachingiterator.html)
+-   [CachingIterator](class.cachingiterator.md)
     
 -   Отримує прапори, що використовуються
     

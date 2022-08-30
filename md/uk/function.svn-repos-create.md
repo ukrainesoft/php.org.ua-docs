@@ -4,9 +4,9 @@
     
 -   [svnreposфсbegintxnforcommit »](function.svn-repos-fs-begin-txn-for-commit.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.md)
     
 -   Створення нового репозиторію Subversion
     

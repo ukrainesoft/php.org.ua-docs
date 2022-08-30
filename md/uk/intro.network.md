@@ -1,12 +1,12 @@
 Вступ
 
--   [« Сеть](book.network.html)
+-   [« Сеть](book.network.md)
     
--   [Установка и настройка »](network.setup.html)
+-   [Встановлення та налаштування »](network.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Сеть](book.network.html)
+-   [Сеть](book.network.md)
     
 -   Вступ
     

@@ -1,12 +1,12 @@
 Зупиняє профіль xhprof
 
--   [« Функции Xhprof](ref.xhprof.html)
+-   [« Функции Xhprof](ref.xhprof.md)
     
 -   [xhprofenable »](function.xhprof-enable.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Xhprof](ref.xhprof.html)
+-   [Функции Xhprof](ref.xhprof.md)
     
 -   Зупиняє профіль xhprof
     

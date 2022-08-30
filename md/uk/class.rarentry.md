@@ -1,17 +1,17 @@
 Клас RarEntry
 
--   [« RarArchive::toString](rararchive.tostring.html)
+-   [« RarArchive::toString](rararchive.tostring.md)
     
--   [RarEntry::extract »](rarentry.extract.html)
+-   [RarEntry::extract »](rarentry.extract.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Rar](book.rar.html)
+-   [Rar](book.rar.md)
     
 -   Клас RarEntry
     
 
-# Клас [RarEntry](class.rarentry.html)
+# Клас [RarEntry](class.rarentry.md)
 
 (PECL rar >= 0.1)
 
@@ -223,181 +223,181 @@ public __toString(): string
 
 **`RarEntry::HOST_MSDOS`**
 
-Якщо повернене значення [RarEntry::getHostOs()](rarentry.gethostos.html) і цієї константі, отже цей запис було додано в MS-DOS. Введено для заміни **`RAR_HOST_MSDOS`**
+Якщо повернене значення [RarEntry::getHostOs()](rarentry.gethostos.md) і цієї константі, отже цей запис було додано в MS-DOS. Введено для заміни **`RAR_HOST_MSDOS`**
 
 **`RarEntry::HOST_OS2`**
 
-Якщо повернене значення [RarEntry::getHostOs()](rarentry.gethostos.html) і цієї константі, отже цей запис було додано в OS/2. Введено для заміни **`RAR_HOST_OS2`**
+Якщо повернене значення [RarEntry::getHostOs()](rarentry.gethostos.md) і цієї константі, отже цей запис було додано в OS/2. Введено для заміни **`RAR_HOST_OS2`**
 
 **`RarEntry::HOST_WIN32`**
 
-Якщо повернене значення [RarEntry::getHostOs()](rarentry.gethostos.html) і цієї константі, отже цей запис було додано до Microsoft Windows. Введено для заміни **`RAR_HOST_WIN32`**
+Якщо повернене значення [RarEntry::getHostOs()](rarentry.gethostos.md) і цієї константі, отже цей запис було додано до Microsoft Windows. Введено для заміни **`RAR_HOST_WIN32`**
 
 **`RarEntry::HOST_UNIX`**
 
-Якщо повернене значення [RarEntry::getHostOs()](rarentry.gethostos.html) і цієї константі, отже цей запис було додано в UNIX. Введено для заміни **`RAR_HOST_UNIX`**
+Якщо повернене значення [RarEntry::getHostOs()](rarentry.gethostos.md) і цієї константі, отже цей запис було додано в UNIX. Введено для заміни **`RAR_HOST_UNIX`**
 
 **`RarEntry::HOST_MACOS`**
 
-Якщо повернене значення [RarEntry::getHostOs()](rarentry.gethostos.html) і цієї константі, отже цей запис було додано до Mac OS.
+Якщо повернене значення [RarEntry::getHostOs()](rarentry.gethostos.md) і цієї константі, отже цей запис було додано до Mac OS.
 
 **`RarEntry::HOST_BEOS`**
 
-Якщо повернене значення [RarEntry::getHostOs()](rarentry.gethostos.html) і цієї константі, отже цей запис було додано до BeOS. Введено для заміни **`RAR_HOST_BEOS`**
+Якщо повернене значення [RarEntry::getHostOs()](rarentry.gethostos.md) і цієї константі, отже цей запис було додано до BeOS. Введено для заміни **`RAR_HOST_BEOS`**
 
 **`RarEntry::ATTRIBUTE_WIN_READONLY`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, що представляє запис із атрибутом "read-only" для записів Windows.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, що представляє запис із атрибутом "read-only" для записів Windows.
 
 **`RarEntry::ATTRIBUTE_WIN_HIDDEN`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, що представляє запис із атрибутом "hidden" для записів Windows.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, що представляє запис із атрибутом "hidden" для записів Windows.
 
 **`RarEntry::ATTRIBUTE_WIN_SYSTEM`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, що представляє запис із атрибутом "system" для записів Windows.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, що представляє запис із атрибутом "system" для записів Windows.
 
 **`RarEntry::ATTRIBUTE_WIN_DIRECTORY`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, що представляє запис із атрибутом "directory" (є директорією) для записів Windows. Також дивіться опис методу [RarEntry::isDirectory()](rarentry.isdirectory.html), який також працює із записами, доданими не через WinRAR.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, що представляє запис із атрибутом "directory" (є директорією) для записів Windows. Також дивіться опис методу [RarEntry::isDirectory()](rarentry.isdirectory.md), який також працює із записами, доданими не через WinRAR.
 
 **`RarEntry::ATTRIBUTE_WIN_ARCHIVE`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, що представляє запис із атрибутом "archive" для записів Windows.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, що представляє запис із атрибутом "archive" для записів Windows.
 
 **`RarEntry::ATTRIBUTE_WIN_DEVICE`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, що представляє запис із атрибутом "device" для записів Windows.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, що представляє запис із атрибутом "device" для записів Windows.
 
 **`RarEntry::ATTRIBUTE_WIN_NORMAL`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, що представляє запис із атрибутом "normal file" (НЕ є директорією) для записів Windows. Також дивіться опис методу [RarEntry::isDirectory()](rarentry.isdirectory.html), який також працює із записами, доданими не через WinRAR.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, що представляє запис із атрибутом "normal file" (НЕ є директорією) для записів Windows. Також дивіться опис методу [RarEntry::isDirectory()](rarentry.isdirectory.md), який також працює із записами, доданими не через WinRAR.
 
 **`RarEntry::ATTRIBUTE_WIN_TEMPORARY`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, що представляє запис із атрибутом "temporary" для записів Windows.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, що представляє запис із атрибутом "temporary" для записів Windows.
 
 **`RarEntry::ATTRIBUTE_WIN_SPARSE_FILE`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, що представляє запис із атрибутом "sparse file" (розріджений файл NTFS) для записів Windows.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, що представляє запис із атрибутом "sparse file" (розріджений файл NTFS) для записів Windows.
 
 **`RarEntry::ATTRIBUTE_WIN_REPARSE_POINT`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, що представляє запис з атрибутом "reparse point" (файл точки повторної обробки NTFS, тобто перетин директорій або точка монтування файлової системи) для записів Windows.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, що представляє запис з атрибутом "reparse point" (файл точки повторної обробки NTFS, тобто перетин директорій або точка монтування файлової системи) для записів Windows.
 
 **`RarEntry::ATTRIBUTE_WIN_COMPRESSED`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, який представляє запис із атрибутом "compressed" (тільки NTFS) для записів Windows.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, який представляє запис із атрибутом "compressed" (тільки NTFS) для записів Windows.
 
 **`RarEntry::ATTRIBUTE_WIN_OFFLINE`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, який представляє запис з атрибутом "offline" (запис вимкнений і недоступний) для записів Windows.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, який представляє запис з атрибутом "offline" (запис вимкнений і недоступний) для записів Windows.
 
 **`RarEntry::ATTRIBUTE_WIN_NOT_CONTENT_INDEXED`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, який представляє запис з атрибутом "not content indexed" (запис має бути проіндексований) для записів Windows.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, який представляє запис з атрибутом "not content indexed" (запис має бути проіндексований) для записів Windows.
 
 **`RarEntry::ATTRIBUTE_WIN_ENCRYPTED`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, який представляє запис з атрибутом "encrypted" (тільки NTFS) для Windows.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, який представляє запис з атрибутом "encrypted" (тільки NTFS) для Windows.
 
 **`RarEntry::ATTRIBUTE_WIN_VIRTUAL`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, який представляє запис з атрибутом "virtual" (тільки NTFS) для Windows.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, який представляє запис з атрибутом "virtual" (тільки NTFS) для Windows.
 
 **`RarEntry::ATTRIBUTE_UNIX_WORLD_EXECUTE`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, що представляє запис з атрибутом "executable" для всіх для UNIX записів.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, що представляє запис з атрибутом "executable" для всіх для UNIX записів.
 
 **`RarEntry::ATTRIBUTE_UNIX_WORLD_WRITE`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, який представляє запис з атрибутом "writable" для всіх для UNIX записів.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, який представляє запис з атрибутом "writable" для всіх для UNIX записів.
 
 **`RarEntry::ATTRIBUTE_UNIX_WORLD_READ`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, який представляє запис з атрибутом "readable" для всіх для UNIX записів.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, який представляє запис з атрибутом "readable" для всіх для UNIX записів.
 
 **`RarEntry::ATTRIBUTE_UNIX_GROUP_EXECUTE`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, який представляє запис із атрибутом "executable" для групи для записів UNIX.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, який представляє запис із атрибутом "executable" для групи для записів UNIX.
 
 **`RarEntry::ATTRIBUTE_UNIX_GROUP_WRITE`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, який представляє запис із атрибутом "writable" для групи для записів UNIX.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, який представляє запис із атрибутом "writable" для групи для записів UNIX.
 
 **`RarEntry::ATTRIBUTE_UNIX_GROUP_READ`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, що представляє запис із атрибутом "readable" для групи для записів UNIX.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, що представляє запис із атрибутом "readable" для групи для записів UNIX.
 
 **`RarEntry::ATTRIBUTE_UNIX_OWNER_EXECUTE`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, який представляє запис з атрибутом "executable" для власника для UNIX записів.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, який представляє запис з атрибутом "executable" для власника для UNIX записів.
 
 **`RarEntry::ATTRIBUTE_UNIX_OWNER_WRITE`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, що представляє запис із атрибутом "writable" для власника для записів UNIX.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, що представляє запис із атрибутом "writable" для власника для записів UNIX.
 
 **`RarEntry::ATTRIBUTE_UNIX_OWNER_READ`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, що представляє запис із атрибутом "readable" для власника для записів UNIX.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, що представляє запис із атрибутом "readable" для власника для записів UNIX.
 
 **`RarEntry::ATTRIBUTE_UNIX_STICKY`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, що представляє запис із встановленим "sticky bit" для записів UNIX.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, що представляє запис із встановленим "sticky bit" для записів UNIX.
 
 **`RarEntry::ATTRIBUTE_UNIX_SETGID`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, що представляє запис із встановленим "setgid" для записів UNIX.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, що представляє запис із встановленим "setgid" для записів UNIX.
 
 **`RarEntry::ATTRIBUTE_UNIX_SETUID`**
 
-Використовується з [RarEntry::getAttr()](rarentry.getattr.html). Біт, що представляє запис із встановленим "setuid" для записів UNIX.
+Використовується з [RarEntry::getAttr()](rarentry.getattr.md). Біт, що представляє запис із встановленим "setuid" для записів UNIX.
 
 **`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**
 
-Маска для ізоляції чотирьох останніх біт (напівбайт) для атрибутів UNIX (ЗIFMT, тип файлової маски). Використовується з [RarEntry::getAttr()](rarentry.getattr.html) та константами [**`RarEntry::ATTRIBUTE_UNIX_FIFO`**](class.rarentry.html#rarentry.constants.attribute-unix-fifo) [**`RarEntry::ATTRIBUTE_UNIX_CHAR_DEV`**](class.rarentry.html#rarentry.constants.attribute-unix-char-dev) [**`RarEntry::ATTRIBUTE_UNIX_DIRECTORY`**](class.rarentry.html#rarentry.constants.attribute-unix-directory) [**`RarEntry::ATTRIBUTE_UNIX_BLOCK_DEV`**](class.rarentry.html#rarentry.constants.attribute-unix-block-dev) [**`RarEntry::ATTRIBUTE_UNIX_REGULAR_FILE`**](class.rarentry.html#rarentry.constants.attribute-unix-regular-file) [**`RarEntry::ATTRIBUTE_UNIX_SYM_LINK`**](class.rarentry.html#rarentry.constants.attribute-unix-sym-link) і [**`RarEntry::ATTRIBUTE_UNIX_SOCKET`**](class.rarentry.html#rarentry.constants.attribute-unix-socket)
+Маска для ізоляції чотирьох останніх біт (напівбайт) для атрибутів UNIX (ЗIFMT, тип файлової маски). Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константами [**`RarEntry::ATTRIBUTE_UNIX_FIFO`**](class.rarentry.html#rarentry.constants.attribute-unix-fifo) [**`RarEntry::ATTRIBUTE_UNIX_CHAR_DEV`**](class.rarentry.html#rarentry.constants.attribute-unix-char-dev) [**`RarEntry::ATTRIBUTE_UNIX_DIRECTORY`**](class.rarentry.html#rarentry.constants.attribute-unix-directory) [**`RarEntry::ATTRIBUTE_UNIX_BLOCK_DEV`**](class.rarentry.html#rarentry.constants.attribute-unix-block-dev) [**`RarEntry::ATTRIBUTE_UNIX_REGULAR_FILE`**](class.rarentry.html#rarentry.constants.attribute-unix-regular-file) [**`RarEntry::ATTRIBUTE_UNIX_SYM_LINK`**](class.rarentry.html#rarentry.constants.attribute-unix-sym-link) і [**`RarEntry::ATTRIBUTE_UNIX_SOCKET`**](class.rarentry.html#rarentry.constants.attribute-unix-socket)
 
 **`RarEntry::ATTRIBUTE_UNIX_FIFO`**
 
-Спеціальні файли FIFO в Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.html) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet)
+Спеціальні файли FIFO в Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet)
 
 **`RarEntry::ATTRIBUTE_UNIX_CHAR_DEV`**
 
-Спеціальні файли символьних пристроїв у Unix будуть мати це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.html) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet)
+Спеціальні файли символьних пристроїв у Unix будуть мати це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet)
 
 **`RarEntry::ATTRIBUTE_UNIX_DIRECTORY`**
 
-Директорії в Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.html) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet). Також дивіться опис методу [RarEntry::isDirectory()](rarentry.isdirectory.html), який також працює із записами доданими в інших операційних системах.
+Директорії в Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet). Також дивіться опис методу [RarEntry::isDirectory()](rarentry.isdirectory.md), який також працює із записами доданими в інших операційних системах.
 
 **`RarEntry::ATTRIBUTE_UNIX_BLOCK_DEV`**
 
-Спеціальні файли блокових пристроїв у Unix будуть мати це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.html) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet)
+Спеціальні файли блокових пристроїв у Unix будуть мати це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet)
 
 **`RarEntry::ATTRIBUTE_UNIX_REGULAR_FILE`**
 
-Звичайні файли (не директорії) у Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.html) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet). Також дивіться опис методу [RarEntry::isDirectory()](rarentry.isdirectory.html), який також працює із записами доданими в інших операційних системах.
+Звичайні файли (не директорії) у Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet). Також дивіться опис методу [RarEntry::isDirectory()](rarentry.isdirectory.md), який також працює із записами доданими в інших операційних системах.
 
 **`RarEntry::ATTRIBUTE_UNIX_SYM_LINK`**
 
-Символічні посилання в Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.html) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet)
+Символічні посилання в Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet)
 
 **`RarEntry::ATTRIBUTE_UNIX_SOCKET`**
 
-Спеціальні файли сокетів у Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.html) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet)
+Спеціальні файли сокетів у Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet)
 
 ## Зміст
 
--   [RarEntry::extract](rarentry.extract.html) — Витягує елемент із архіву
--   [RarEntry::getAttr](rarentry.getattr.html) — Повертає атрибути елемента архіву
--   [RarEntry::getCrc](rarentry.getcrc.html) — Повертає CRC елемент архіву
--   [RarEntry::getFileTime](rarentry.getfiletime.html) — Останнім часом повертає зміни елемента
--   [RarEntry::getHostOs](rarentry.gethostos.html) — Повертає оригінальну ОС елемента
--   [RarEntry::getMethod](rarentry.getmethod.html) — Повертає метод компресії елемента
--   [RarEntry::getName](rarentry.getname.html) — Повертає ім'я елемента
--   [RarEntry::getPackedSize](rarentry.getpackedsize.html) — Повертає розмір стисненого елемента
--   [RarEntry::getStream](rarentry.getstream.html) — Отримати обробник для запису
--   [RarEntry::getUnpackedSize](rarentry.getunpackedsize.html) — Повертає розмір елемента у розпакованому стані
--   [RarEntry::getVersion](rarentry.getversion.html) — Повертає мінімальну версію програми RAR, необхідну для розпакування елемента
--   [RarEntry::isDirectory](rarentry.isdirectory.html) — Перевіряє, чи є запис директорією
--   [RarEntry::isEncrypted](rarentry.isencrypted.html) — Перевіряє, чи зашифрований запис
--   [RarEntry::toString](rarentry.tostring.html) — Отримати текстове подання запису
+-   [RarEntry::extract](rarentry.extract.md) — Витягує елемент із архіву
+-   [RarEntry::getAttr](rarentry.getattr.md) — Повертає атрибути елемента архіву
+-   [RarEntry::getCrc](rarentry.getcrc.md) — Повертає CRC елемент архіву
+-   [RarEntry::getFileTime](rarentry.getfiletime.md) — Останнім часом повертає зміни елемента
+-   [RarEntry::getHostOs](rarentry.gethostos.md) — Повертає оригінальну ОС елемента
+-   [RarEntry::getMethod](rarentry.getmethod.md) — Повертає метод компресії елемента
+-   [RarEntry::getName](rarentry.getname.md) — Повертає ім'я елемента
+-   [RarEntry::getPackedSize](rarentry.getpackedsize.md) — Повертає розмір стисненого елемента
+-   [RarEntry::getStream](rarentry.getstream.md) — Отримати обробник для запису
+-   [RarEntry::getUnpackedSize](rarentry.getunpackedsize.md) — Повертає розмір елемента у розпакованому стані
+-   [RarEntry::getVersion](rarentry.getversion.md) — Повертає мінімальну версію програми RAR, необхідну для розпакування елемента
+-   [RarEntry::isDirectory](rarentry.isdirectory.md) — Перевіряє, чи є запис директорією
+-   [RarEntry::isEncrypted](rarentry.isencrypted.md) — Перевіряє, чи зашифрований запис
+-   [RarEntry::toString](rarentry.tostring.md) — Отримати текстове подання запису

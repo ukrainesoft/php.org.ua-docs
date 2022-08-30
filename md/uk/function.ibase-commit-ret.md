@@ -4,9 +4,9 @@
     
 -   [ibasecommit »](function.ibase-commit.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Firebird/InterBase](ref.ibase.html)
+-   [Функции Firebird/InterBase](ref.ibase.md)
     
 -   Фіксує транзакцію, не закриваючи її
     

@@ -1,12 +1,12 @@
 Скидає сторінку зображення
 
--   [« Imagick::resampleImage](imagick.resampleimage.html)
+-   [« Imagick::resampleImage](imagick.resampleimage.md)
     
--   [Imagick::resizeImage »](imagick.resizeimage.html)
+-   [Imagick::resizeImage »](imagick.resizeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Скидає сторінку зображення
     

@@ -4,9 +4,9 @@
     
 -   [GenderGender::isNick »](gender-gender.isnick.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GenderGender](class.gender.html)
+-   [GenderGender](class.gender.md)
     
 -   Отримати підлогу на ім'я
     

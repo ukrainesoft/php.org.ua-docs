@@ -4,9 +4,9 @@
     
 -   [ssh2sftp »](function.ssh2-sftp.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Видалити файл на сервері
     
@@ -53,4 +53,4 @@ ssh2_sftp_unlink($sftp, '/home/username/stale_file');
 
 ### Дивіться також
 
--   [unlink()](function.unlink.html) - Видаляє файл
+-   [unlink()](function.unlink.md) - Видаляє файл

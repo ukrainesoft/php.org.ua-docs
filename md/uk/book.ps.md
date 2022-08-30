@@ -14,12 +14,12 @@
 # Створення документів PostScript
 
 -   [Введение](intro.ps.html)
--   [Установка и настройка](ps.setup.html)
-    -   [Требования](ps.requirements.html)
+-   [Встановлення та налаштування](ps.setup.html)
+    -   [Вимоги](ps.requirements.html)
     -   [Установка](ps.installation.html)
-    -   [Настройка во время выполнения](ps.configuration.html)
-    -   [Типы ресурсов](ps.resources.html)
--   [Предопределённые константы](ps.constants.html)
+    -   [Налаштування під час виконання](ps.configuration.html)
+    -   [Типи ресурсів](ps.resources.html)
+-   [Обумовлені константи](ps.constants.html)
 -   [Функції PS](ref.ps.html)
     -   [псaddbookmark](function.ps-add-bookmark.html) — Додає закладку на поточну сторінку
     -   [псaddlaunchlink](function.ps-add-launchlink.html) — Додає посилання, яке запускає файл

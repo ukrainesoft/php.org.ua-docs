@@ -1,12 +1,12 @@
 Додати коментар до зображення
 
--   [« Gmagick::clear](gmagick.clear.html)
+-   [« Gmagick::clear](gmagick.clear.md)
     
--   [Gmagick::compositeimage »](gmagick.compositeimage.html)
+-   [Gmagick::compositeimage »](gmagick.compositeimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Додати коментар до зображення
     
@@ -33,7 +33,7 @@ public Gmagick::commentimage(string $comment): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт, що вийшов [Gmagick](class.gmagick.html)
+Об'єкт, що вийшов [Gmagick](class.gmagick.md)
 
 ### Помилки
 

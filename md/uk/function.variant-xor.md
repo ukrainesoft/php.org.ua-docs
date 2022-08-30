@@ -46,12 +46,12 @@ variant_xor(mixed $left, mixed $right): variant
 **Правила виконання виключає АБО**
 
 | Если `left` | Если `right` | Тогда результат |
-|-------------|--------------|-----------------|
-| **`true`**  | **`true`**   | **`false`**     |
-| **`true`**  | **`false`**  | **`true`**      |
-| **`false`** | **`true`**   | **`true`**      |
-| **`false`** | **`false`**  | **`false`**     |
-| **`null`**  | **`null`**   | **`null`**      |
+| --- | --- | --- |
+| **`true`** | **`true`** | **`false`** |
+| **`true`** | **`false`** | **`true`** |
+| **`false`** | **`true`** | **`true`** |
+| **`false`** | **`false`** | **`false`** |
+| **`null`** | **`null`** | **`null`** |
 
 ### Помилки
 

@@ -1,12 +1,12 @@
 Регулює коефіцієнт масштабування
 
--   [« GmagickDraw::roundrectangle](gmagickdraw.roundrectangle.html)
+-   [« GmagickDraw::roundrectangle](gmagickdraw.roundrectangle.md)
     
--   [GmagickDraw::setfillcolor »](gmagickdraw.setfillcolor.html)
+-   [GmagickDraw::setfillcolor »](gmagickdraw.setfillcolor.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickDraw](class.gmagickdraw.html)
+-   [GmagickDraw](class.gmagickdraw.md)
     
 -   Регулює коефіцієнт масштабування
     
@@ -37,4 +37,4 @@ public GmagickDraw::scale(float $x, float $y): GmagickDraw
 
 ### Значення, що повертаються
 
-Об'єкт [GmagickDraw](class.gmagickdraw.html)
+Об'єкт [GmagickDraw](class.gmagickdraw.md)

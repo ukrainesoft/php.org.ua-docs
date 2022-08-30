@@ -1,12 +1,12 @@
 Порівнює зображення з відновленим зображенням
 
--   [« Imagick::getImageDispose](imagick.getimagedispose.html)
+-   [« Imagick::getImageDispose](imagick.getimagedispose.md)
     
--   [Imagick::getImageExtrema »](imagick.getimageextrema.html)
+-   [Imagick::getImageExtrema »](imagick.getimageextrema.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Порівнює зображення з відновленим зображенням
     

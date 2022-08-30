@@ -4,7 +4,7 @@
     
 -   [ParleRParser::token »](parle-rparser.token.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ParleRParser](class.parle-rparser.html)
     

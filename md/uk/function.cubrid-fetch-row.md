@@ -4,9 +4,9 @@
     
 -   [cubridfieldflags »](function.cubrid-field-flags.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
     
 -   Витягти рядок із результуючого набору у вигляді індексованого масиву
     

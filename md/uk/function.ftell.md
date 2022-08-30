@@ -1,12 +1,12 @@
 Повертає поточну позицію покажчика читання/запису файлу
 
--   [« fsync](function.fsync.html)
+-   [« fsync](function.fsync.md)
     
--   [ftruncate »](function.ftruncate.html)
+-   [ftruncate »](function.ftruncate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Повертає поточну позицію покажчика читання/запису файлу
     
@@ -29,7 +29,7 @@ ftell(resource $stream): int|false
 
 `stream`
 
-Файловий покажчик має бути чинним покажчиком на потік, відкритий функціями [fopen()](function.fopen.html) або [popen()](function.popen.html). . **ftell()** повертає невизначені результати для потоків, що дозволяють лише запис наприкінці (відкритих з прапором "a").
+Файловий покажчик має бути чинним покажчиком на потік, відкритий функціями [fopen()](function.fopen.md) або [popen()](function.popen.md). . **ftell()** повертає невизначені результати для потоків, що дозволяють лише запис наприкінці (відкритих з прапором "a").
 
 ### Значення, що повертаються
 
@@ -60,7 +60,7 @@ fclose($fp);
 
 ### Дивіться також
 
--   [fopen()](function.fopen.html) - Відкриває файл або URL
--   [popen()](function.popen.html) - Відкриває файловий покажчик процесу
--   [fseek()](function.fseek.html) - Встановлює зміщення у файловому покажчику
--   [rewind()](function.rewind.html) - Скидає курсор файлового покажчика
+-   [fopen()](function.fopen.md) - Відкриває файл або URL
+-   [popen()](function.popen.md) - Відкриває файловий покажчик процесу
+-   [fseek()](function.fseek.md) - Встановлює зміщення у файловому покажчику
+-   [rewind()](function.rewind.md) - Скидає курсор файлового покажчика

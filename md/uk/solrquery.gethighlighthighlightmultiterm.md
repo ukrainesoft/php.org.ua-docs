@@ -1,12 +1,12 @@
 Повертає, чи потрібно включати виділення для запитів діапазону/підстановочних знаків/нечітких/префіксів
 
--   [« SolrQuery::getHighlightFragsize](solrquery.gethighlightfragsize.html)
+-   [« SolrQuery::getHighlightFragsize](solrquery.gethighlightfragsize.md)
     
--   [SolrQuery::getHighlightMaxAlternateFieldLength »](solrquery.gethighlightmaxalternatefieldlength.html)
+-   [SolrQuery::getHighlightMaxAlternateFieldLength »](solrquery.gethighlightmaxalternatefieldlength.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає, чи потрібно включати виділення для запитів діапазону/підстановочних знаків/нечітких/префіксів
     

@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](datetime.setup.html)
+-   [« Встановлення та налаштування](datetime.setup.md)
     
--   [Установка »](datetime.installation.html)
+-   [Установка »](datetime.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](datetime.setup.html)
+-   [Встановлення та налаштування](datetime.setup.md)
     
 -   Вимоги
     

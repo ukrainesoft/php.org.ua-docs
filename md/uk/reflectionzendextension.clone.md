@@ -1,12 +1,12 @@
 Обробник клонування
 
--   [« ReflectionZendExtension](class.reflectionzendextension.html)
+-   [« ReflectionZendExtension](class.reflectionzendextension.md)
     
--   [ReflectionZendExtension::construct »](reflectionzendextension.construct.html)
+-   [ReflectionZendExtension::construct »](reflectionzendextension.construct.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionZendExtension](class.reflectionzendextension.html)
+-   [ReflectionZendExtension](class.reflectionzendextension.md)
     
 -   Обробник клонування
     
@@ -35,6 +35,6 @@ private ReflectionZendExtension::__clone(): void
 
 ### список змін
 
-| Версия | Описание                       |
-|--------|--------------------------------|
-|        | Метод не є остаточним (final). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод не є остаточним (final). |

@@ -1,12 +1,12 @@
 Перейти до наступного елементу
 
--   [« IntlIterator::key](intliterator.key.html)
+-   [« IntlIterator::key](intliterator.key.md)
     
--   [IntlIterator::rewind »](intliterator.rewind.html)
+-   [IntlIterator::rewind »](intliterator.rewind.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlIterator](class.intliterator.html)
+-   [IntlIterator](class.intliterator.md)
     
 -   Перейти до наступного елементу
     

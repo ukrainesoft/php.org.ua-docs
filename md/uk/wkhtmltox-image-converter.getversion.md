@@ -2,9 +2,9 @@
 
 -   [« wkhtmltoxImageConverter::convert](wkhtmltox-image-converter.convert.html)
     
--   [PS »](book.ps.html)
+-   [PS »](book.ps.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [wkhtmltoxImageConverter](class.wkhtmltox-image-converter.html)
     

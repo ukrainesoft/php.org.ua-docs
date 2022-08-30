@@ -2,11 +2,11 @@
 
 -   [« LDAPResult](class.ldap-result.html)
     
--   [Memcache »](book.memcache.html)
+-   [Memcache »](book.memcache.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [LDAP](book.ldap.html)
+-   [LDAP](book.ldap.md)
     
 -   Клас LDAPResultEntry
     

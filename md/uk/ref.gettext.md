@@ -1,6 +1,6 @@
 Функції gettext
 
--   [« Предопределённые константы](gettext.constants.html)
+-   [« Обумовлені константи](gettext.constants.html)
     
 -   [bindtextdomaincodeset »](function.bind-textdomain-codeset.html)
     

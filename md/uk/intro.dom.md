@@ -2,7 +2,7 @@
 
 -   [« DOM](book.dom.html)
     
--   [Установка и настройка »](dom.setup.html)
+-   [Встановлення та налаштування »](dom.setup.html)
     
 -   [PHP Manual](index.html)
     

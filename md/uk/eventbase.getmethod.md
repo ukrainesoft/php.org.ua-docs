@@ -1,12 +1,12 @@
 Повертає використовуваний метод події
 
--   [« EventBase::getFeatures](eventbase.getfeatures.html)
+-   [« EventBase::getFeatures](eventbase.getfeatures.md)
     
--   [EventBase::getTimeOfDayCached »](eventbase.gettimeofdaycached.html)
+-   [EventBase::getTimeOfDayCached »](eventbase.gettimeofdaycached.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventBase](class.eventbase.html)
+-   [EventBase](class.eventbase.md)
     
 -   Повертає використовуваний метод події
     
@@ -59,4 +59,4 @@ echo "Используемый метод события: ", $base->getMeth
 
 ### Дивіться також
 
--   [EventBase::getFeatures()](eventbase.getfeatures.html) - Повертає бітову маску підтримуваних функцій
+-   [EventBase::getFeatures()](eventbase.getfeatures.md) - Повертає бітову маску підтримуваних функцій

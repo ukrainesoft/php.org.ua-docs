@@ -1,12 +1,12 @@
 Виконує SQL-запит
 
--   [« SQLite3::prepare](sqlite3.prepare.html)
+-   [« SQLite3::prepare](sqlite3.prepare.md)
     
--   [SQLite3::querySingle »](sqlite3.querysingle.html)
+-   [SQLite3::querySingle »](sqlite3.querysingle.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLite3](class.sqlite3.html)
+-   [SQLite3](class.sqlite3.md)
     
 -   Виконує SQL-запит
     
@@ -23,7 +23,7 @@ SQLite3::query — Виконує SQL-запит
 public SQLite3::query(string $query): SQLite3Result|false
 ```
 
-Виконує SQL-запит та повертає об'єкт [SQLite3Result](class.sqlite3result.html). Якщо запит не повертає результат (наприклад, запит типу DLM), то повернутий об'єкт [SQLite3Result](class.sqlite3result.html) марний. Для таких запитів використовуйте метод [SQLite3::exec()](sqlite3.exec.html)
+Виконує SQL-запит та повертає об'єкт [SQLite3Result](class.sqlite3result.md). Якщо запит не повертає результат (наприклад, запит типу DLM), то повернутий об'єкт [SQLite3Result](class.sqlite3result.md) марний. Для таких запитів використовуйте метод [SQLite3::exec()](sqlite3.exec.md)
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ SQL-запит для виконання.
 
 ### Значення, що повертаються
 
-Повертає об'єкт [SQLite3Result](class.sqlite3result.html) або **`false`** у разі виникнення помилки.
+Повертає об'єкт [SQLite3Result](class.sqlite3result.md) або **`false`** у разі виникнення помилки.
 
 ### Приклади
 

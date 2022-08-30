@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](rrd.setup.html)
+-   [« Встановлення та налаштування](rrd.setup.md)
     
--   [Установка »](rrd.installation.html)
+-   [Установка »](rrd.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](rrd.setup.html)
+-   [Встановлення та налаштування](rrd.setup.md)
     
 -   Вимоги
     

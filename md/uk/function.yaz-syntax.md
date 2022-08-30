@@ -4,9 +4,9 @@
     
 -   [yazwait »](function.yaz-wait.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции YAZ](ref.yaz.html)
+-   [Функции YAZ](ref.yaz.md)
     
 -   Задає синтаксис, що віддається перевагу, для видобутого запису
     

@@ -4,7 +4,7 @@
     
 -   [SwooleProcess::daemon »](swoole-process.daemon.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [SwooleProcess](class.swoole-process.html)
     
@@ -19,7 +19,7 @@ SwooleProcess::construct — Створює процес
 
 ### Опис
 
-public **SwooleProcess::construct**[callable](language.types.callable.html) `$callback`, bool `$redirect_stdin_and_stdout` =?, int `$pipe_type`
+public **SwooleProcess::construct**[callable](language.types.callable.md) `$callback`, bool `$redirect_stdin_and_stdout` =?, int `$pipe_type`
 
 ### Список параметрів
 

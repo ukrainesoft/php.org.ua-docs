@@ -4,9 +4,9 @@
     
 -   [ssh2authpassword »](function.ssh2-auth-password.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.md)
     
 -   Аутентифікація як "none"
     

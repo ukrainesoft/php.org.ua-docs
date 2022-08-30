@@ -4,9 +4,9 @@
     
 -   [funcnumargs »](function.func-num-args.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции управления функциями](ref.funchand.html)
+-   [Функции управления функциями](ref.funchand.md)
     
 -   Повертає масив, що містить аргументи функції
     
@@ -125,4 +125,4 @@ byRef($arg);
 -   [Синтаксис](functions.arguments.html#functions.variable-arg-list)
 -   [funcgetarg()](function.func-get-arg.html)
 -   [funcnumargs()](function.func-num-args.html)
--   [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.html)
+-   [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.md)

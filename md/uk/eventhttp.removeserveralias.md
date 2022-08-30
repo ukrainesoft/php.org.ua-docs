@@ -1,12 +1,12 @@
 Видаляє псевдонім сервера
 
--   [« EventHttp::construct](eventhttp.construct.html)
+-   [« EventHttp::construct](eventhttp.construct.md)
     
--   [EventHttp::setAllowedMethods »](eventhttp.setallowedmethods.html)
+-   [EventHttp::setAllowedMethods »](eventhttp.setallowedmethods.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventHttp](class.eventhttp.html)
+-   [EventHttp](class.eventhttp.md)
     
 -   Видаляє псевдонім сервера
     
@@ -27,7 +27,7 @@ public
    ): bool
 ```
 
-Видаляє псевдонім сервера, доданий за допомогою [EventHttp::addServerAlias()](eventhttp.addserveralias.html)
+Видаляє псевдонім сервера, доданий за допомогою [EventHttp::addServerAlias()](eventhttp.addserveralias.md)
 
 ### Список параметрів
 
@@ -41,4 +41,4 @@ public
 
 ### Дивіться також
 
--   [EventHttp::addServerAlias()](eventhttp.addserveralias.html) - Додає псевдонім сервера до об'єкта HTTP-сервера
+-   [EventHttp::addServerAlias()](eventhttp.addserveralias.md) - Додає псевдонім сервера до об'єкта HTTP-сервера

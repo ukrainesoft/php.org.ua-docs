@@ -1,6 +1,6 @@
 Функції xdiff
 
--   [« Предопределённые константы](xdiff.constants.html)
+-   [« Обумовлені константи](xdiff.constants.html)
     
 -   [xdifffilebdiffsize »](function.xdiff-file-bdiff-size.html)
     

@@ -1,12 +1,12 @@
 Перевіряє, чи клас остаточним (final)
 
--   [« ReflectionClass::isEnum](reflectionclass.isenum.html)
+-   [« ReflectionClass::isEnum](reflectionclass.isenum.md)
     
--   [ReflectionClass::isInstance »](reflectionclass.isinstance.html)
+-   [ReflectionClass::isInstance »](reflectionclass.isinstance.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Перевіряє, чи клас остаточним (final)
     
@@ -60,5 +60,5 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionClass::isAbstract()](reflectionclass.isabstract.html) - Перевіряє, чи є клас абстрактним
--   [Ключевое слово "final"](language.oop5.final.html)
+-   [ReflectionClass::isAbstract()](reflectionclass.isabstract.md) - Перевіряє, чи є клас абстрактним
+-   [Ключевое слово "final"](language.oop5.final.md)

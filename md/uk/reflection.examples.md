@@ -1,12 +1,12 @@
 Приклади
 
--   [« Предопределённые константы](reflection.constants.html)
+-   [« Обумовлені константи](reflection.constants.md)
     
--   [Расширение »](reflection.extending.html)
+-   [Расширение »](reflection.extending.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Reflection](book.reflection.html)
+-   [Reflection](book.reflection.md)
     
 -   Приклади
     

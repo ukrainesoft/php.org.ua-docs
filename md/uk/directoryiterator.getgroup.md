@@ -1,12 +1,12 @@
 Повертає ідентифікатор групи поточного елемента DirectoryIterator
 
--   [« DirectoryIterator::getFilename](directoryiterator.getfilename.html)
+-   [« DirectoryIterator::getFilename](directoryiterator.getfilename.md)
     
--   [DirectoryIterator::getInode »](directoryiterator.getinode.html)
+-   [DirectoryIterator::getInode »](directoryiterator.getinode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DirectoryIterator](class.directoryiterator.html)
+-   [DirectoryIterator](class.directoryiterator.md)
     
 -   Повертає ідентифікатор групи поточного елемента DirectoryIterator
     
@@ -31,7 +31,7 @@ public DirectoryIterator::getGroup(): int
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор групи поточного елемента [DirectoryIterator](class.directoryiterator.html) у числовому форматі.
+Повертає ідентифікатор групи поточного елемента [DirectoryIterator](class.directoryiterator.md) у числовому форматі.
 
 ### Приклади
 
@@ -65,8 +65,8 @@ Array
 
 ### Дивіться також
 
--   [DirectoryIterator::getiNode()](directoryiterator.getinode.html) - Повертає inode поточного елемента DirectoryIterator
--   [DirectoryIterator::getOwner()](directoryiterator.getowner.html) - Повертає ідентифікатор власника поточного елемента DirectoryIterator
--   [DirectoryIterator::getPerms()](directoryiterator.getperms.html) - Повертає набір прав для поточного елемента DirectoryIterator item
--   [filegroup()](function.filegroup.html) - Отримує ідентифікатор групи файлу
+-   [DirectoryIterator::getiNode()](directoryiterator.getinode.md) - Повертає inode поточного елемента DirectoryIterator
+-   [DirectoryIterator::getOwner()](directoryiterator.getowner.md) - Повертає ідентифікатор власника поточного елемента DirectoryIterator
+-   [DirectoryIterator::getPerms()](directoryiterator.getperms.md) - Повертає набір прав для поточного елемента DirectoryIterator item
+-   [filegroup()](function.filegroup.md) - Отримує ідентифікатор групи файлу
 -   [posixgetgrgid()](function.posix-getgrgid.html) - Повертає інформацію про групу за її ID

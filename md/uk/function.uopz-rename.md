@@ -4,9 +4,9 @@
     
 -   [uopzrestore »](function.uopz-restore.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.md)
     
 -   Перейменувати функцію під час виконання
     

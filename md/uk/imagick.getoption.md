@@ -1,12 +1,12 @@
 Повертає значення, пов'язане із зазначеним ключем
 
--   [« Imagick::getNumberImages](imagick.getnumberimages.html)
+-   [« Imagick::getNumberImages](imagick.getnumberimages.md)
     
--   [Imagick::getPackageName »](imagick.getpackagename.html)
+-   [Imagick::getPackageName »](imagick.getpackagename.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає значення, пов'язане із зазначеним ключем
     

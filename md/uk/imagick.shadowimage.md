@@ -1,12 +1,12 @@
 Імітує тінь зображення
 
--   [« Imagick::shadeImage](imagick.shadeimage.html)
+-   [« Imagick::shadeImage](imagick.shadeimage.md)
     
--   [Imagick::sharpenImage »](imagick.sharpenimage.html)
+-   [Imagick::sharpenImage »](imagick.sharpenimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Імітує тінь зображення
     

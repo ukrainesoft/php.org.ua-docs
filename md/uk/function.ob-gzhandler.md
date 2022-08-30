@@ -2,11 +2,11 @@ callback-функція, що використовується для gzip-ст�
 
 -   [« obgetstatus](function.ob-get-status.html)
     
--   [проimplicitflush »](function.ob-implicit-flush.html)
+-   [про implicit flush »](function.ob-implicit-flush.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції контролю виведення](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.md)
     
 -   callback-функція, що використовується для gzip-стиснення буфера виводу при виклику obstart
     
@@ -54,7 +54,7 @@ ob_start("ob_gzhandler");
 
 > **Зауваження**
 > 
-> **проgzhandler()** вимагає наявність модуля [zlib](ref.zlib.html)
+> **проgzhandler()** вимагає наявність модуля [zlib](ref.zlib.md)
 
 > **Зауваження**
 > 

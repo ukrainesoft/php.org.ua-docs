@@ -1,6 +1,6 @@
 Приклади
 
--   [« Предопределённые константы](oci8.constants.html)
+-   [« Обумовлені константи](oci8.constants.html)
     
 -   [Работа с соединениями OCI8 и Connection Pooling »](oci8.connection.html)
     

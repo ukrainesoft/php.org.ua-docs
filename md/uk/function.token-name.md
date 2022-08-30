@@ -2,11 +2,11 @@
 
 -   [« tokengetall](function.token-get-all.html)
     
--   [URL »](book.url.html)
+-   [URL »](book.url.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции PHP-лексера (tokenizer)](ref.tokenizer.html)
+-   [Функции PHP-лексера (tokenizer)](ref.tokenizer.md)
     
 -   Отримати символьне ім'я для переданої PHP-лексеми
     
@@ -51,5 +51,5 @@ echo token_name(T_FUNCTION); // -> "T_FUNCTION"
 
 ### Дивіться також
 
--   [Список лексем](tokens.html)
--   [PhpToken::getTokenName()](phptoken.gettokenname.html) - Повертає ім'я токена
+-   [Список лексем](tokens.md)
+-   [PhpToken::getTokenName()](phptoken.gettokenname.md) - Повертає ім'я токена

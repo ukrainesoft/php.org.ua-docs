@@ -1,12 +1,12 @@
 Повертає первинну точку кольоровості зеленого
 
--   [« Imagick::getImageGravity](imagick.getimagegravity.html)
+-   [« Imagick::getImageGravity](imagick.getimagegravity.md)
     
--   [Imagick::getImageHeight »](imagick.getimageheight.html)
+-   [Imagick::getImageHeight »](imagick.getimageheight.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає первинну точку кольоровості зеленого
     

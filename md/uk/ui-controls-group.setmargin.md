@@ -4,7 +4,7 @@
     
 -   [ОЙControlsGroup::setTitle »](ui-controls-group.settitle.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsGroup](class.ui-controls-group.html)
     

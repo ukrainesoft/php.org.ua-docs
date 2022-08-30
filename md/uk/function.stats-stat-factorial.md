@@ -4,9 +4,9 @@
     
 -   [statsstatindependentt »](function.stats-stat-independent-t.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Факторіал цілого числа
     

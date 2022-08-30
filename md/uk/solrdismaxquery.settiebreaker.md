@@ -1,12 +1,12 @@
 Встановлює параметр Tie Breaker (параметр tie)
 
--   [« SolrDisMaxQuery::setQueryPhraseSlop](solrdismaxquery.setqueryphraseslop.html)
+-   [« SolrDisMaxQuery::setQueryPhraseSlop](solrdismaxquery.setqueryphraseslop.md)
     
--   [SolrDisMaxQuery::setTrigramPhraseFields »](solrdismaxquery.settrigramphrasefields.html)
+-   [SolrDisMaxQuery::setTrigramPhraseFields »](solrdismaxquery.settrigramphrasefields.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
+-   [SolrDisMaxQuery](class.solrdismaxquery.md)
     
 -   Встановлює параметр Tie Breaker (параметр tie)
     
@@ -33,7 +33,7 @@ public SolrDisMaxQuery::setTieBreaker(string $tieBreaker): SolrDisMaxQuery
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.html)
+[SolrDisMaxQuery](class.solrdismaxquery.md)
 
 ### Приклади
 

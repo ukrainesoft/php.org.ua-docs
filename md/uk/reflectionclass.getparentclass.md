@@ -1,12 +1,12 @@
 Повертає батьківський клас
 
--   [« ReflectionClass::getNamespaceName](reflectionclass.getnamespacename.html)
+-   [« ReflectionClass::getNamespaceName](reflectionclass.getnamespacename.md)
     
--   [ReflectionClass::getProperties »](reflectionclass.getproperties.html)
+-   [ReflectionClass::getProperties »](reflectionclass.getproperties.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Повертає батьківський клас
     
@@ -33,8 +33,8 @@ public ReflectionClass::getParentClass(): ReflectionClass|false
 
 ### Значення, що повертаються
 
-Об'єкт класу [ReflectionClass](class.reflectionclass.html), або \*\*`false`\*\*якщо батька немає.
+Об'єкт класу [ReflectionClass](class.reflectionclass.md), або \*\*`false`\*\*якщо батька немає.
 
 ### Дивіться також
 
--   [ReflectionClass::construct()](reflectionclass.construct.html) - Створює об'єкт класу ReflectionClass
+-   [ReflectionClass::construct()](reflectionclass.construct.md) - Створює об'єкт класу ReflectionClass

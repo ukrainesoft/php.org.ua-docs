@@ -1,12 +1,12 @@
 Переклади
 
--   [Як створюються формати документації](about.generate.html)
+-   [Як створюються формати документації](about.generate.md)
     
--   [Creative Commons Attribution 3.0 »](cc.license.html)
+-   [Creative Commons Attribution 3.0 »](cc.license.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Про це керівництво](about.html)
+-   [Про це керівництво](about.md)
     
 -   Переклади
     

@@ -1,12 +1,12 @@
 Повідомити спостерігача
 
--   [« SplSubject::detach](splsubject.detach.html)
+-   [« SplSubject::detach](splsubject.detach.md)
     
--   [Потоки »](book.stream.html)
+-   [Потоки »](book.stream.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplSubject](class.splsubject.html)
+-   [SplSubject](class.splsubject.md)
     
 -   Повідомити спостерігача
     

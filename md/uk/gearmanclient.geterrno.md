@@ -1,12 +1,12 @@
 Отримати значення errno
 
--   [« GearmanClient::error](gearmanclient.error.html)
+-   [« GearmanClient::error](gearmanclient.error.md)
     
--   [GearmanClient::jobStatus »](gearmanclient.jobstatus.html)
+-   [GearmanClient::jobStatus »](gearmanclient.jobstatus.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanClient](class.gearmanclient.html)
+-   [GearmanClient](class.gearmanclient.md)
     
 -   Отримати значення errno
     
@@ -35,4 +35,4 @@ public GearmanClient::getErrno(): int
 
 ### Дивіться також
 
--   [GearmanClient::error()](gearmanclient.error.html) - Повернути рядок помилки для останньої виявленої помилки
+-   [GearmanClient::error()](gearmanclient.error.md) - Повернути рядок помилки для останньої виявленої помилки

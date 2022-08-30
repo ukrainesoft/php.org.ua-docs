@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONMaxKey::jsonSerialize »](mongodb-bson-maxkey.jsonserialize.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONMaxKey](class.mongodb-bson-maxkey.html)
     
@@ -52,4 +52,4 @@ object(MongoDB\BSON\MaxKey)#1 (0) {
 
 ### Дивіться також
 
--   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

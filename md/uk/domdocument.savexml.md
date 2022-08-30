@@ -1,12 +1,12 @@
 Зберігає XML-дерево з внутрішньої вистави у вигляді рядка
 
--   [« DOMDocument::saveHTMLFile](domdocument.savehtmlfile.html)
+-   [« DOMDocument::saveHTMLFile](domdocument.savehtmlfile.md)
     
--   [DOMDocument::schemaValidate »](domdocument.schemavalidate.html)
+-   [DOMDocument::schemaValidate »](domdocument.schemavalidate.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMDocument](class.domdocument.html)
+-   [DOMDocument](class.domdocument.md)
     
 -   Зберігає XML-дерево з внутрішньої вистави у вигляді рядка
     
@@ -33,7 +33,7 @@ public DOMDocument::saveXML(?DOMNode $node = null, int $options = 0): string|fal
 
 `options`
 
-Додаткові налаштування. На даний момент підтримується тільки [LIBXMLNOEMPTYTAG](libxml.constants.html)
+Додаткові налаштування. На даний момент підтримується тільки [LIBXMLNOEMPTYTAG](libxml.constants.md)
 
 ### Значення, що повертаються
 
@@ -89,6 +89,6 @@ echo $doc->saveXML($title);
 
 ### Дивіться також
 
--   [DOMDocument::save()](domdocument.save.html) - Зберігає XML-дерево із внутрішнього подання до файлу
--   [DOMDocument::load()](domdocument.load.html) - Завантаження XML із файлу
--   [DOMDocument::loadXML()](domdocument.loadxml.html) - Завантаження XML з рядка
+-   [DOMDocument::save()](domdocument.save.md) - Зберігає XML-дерево із внутрішнього подання до файлу
+-   [DOMDocument::load()](domdocument.load.md) - Завантаження XML із файлу
+-   [DOMDocument::loadXML()](domdocument.loadxml.md) - Завантаження XML з рядка

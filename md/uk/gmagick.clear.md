@@ -1,12 +1,12 @@
 Зачищає всі ресурси, пов'язані з об'єктом Gmagick
 
--   [« Gmagick::chopimage](gmagick.chopimage.html)
+-   [« Gmagick::chopimage](gmagick.chopimage.md)
     
--   [Gmagick::commentimage »](gmagick.commentimage.html)
+-   [Gmagick::commentimage »](gmagick.commentimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Gmagick](class.gmagick.html)
+-   [Gmagick](class.gmagick.md)
     
 -   Зачищає всі ресурси, пов'язані з об'єктом Gmagick
     
@@ -23,7 +23,7 @@ Gmagick::clear — Зачищає всі ресурси, пов'язані з о
 public Gmagick::clear(): Gmagick
 ```
 
-Зачищає всі ресурси, пов'язані з об'єктом [Gmagick](class.gmagick.html)
+Зачищає всі ресурси, пов'язані з об'єктом [Gmagick](class.gmagick.md)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public Gmagick::clear(): Gmagick
 
 ### Значення, що повертаються
 
-Очищений об'єкт [Gmagick](class.gmagick.html)
+Очищений об'єкт [Gmagick](class.gmagick.md)
 
 ### Помилки
 

@@ -4,7 +4,7 @@
     
 -   [MongoDBBSONUndefined::toString »](mongodb-bson-undefined.tostring.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBBSONUndefined](class.mongodb-bson-undefined.html)
     
@@ -38,5 +38,5 @@ final public MongoDB\BSON\Undefined::serialize(): string
 ### Дивіться також
 
 -   [MongoDBBSONUndefined::unserialize()](mongodb-bson-undefined.unserialize.html) - Десеріалізує Undefined
--   [serialize()](function.serialize.html) - Генерує придатне для зберігання уявлення змінної
--   [Сериализация объектов](language.oop5.serialization.html)
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання уявлення змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

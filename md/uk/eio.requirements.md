@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](eio.setup.html)
+-   [« Встановлення та налаштування](eio.setup.md)
     
--   [Установка »](eio.installation.html)
+-   [Установка »](eio.installation.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](eio.setup.html)
+-   [Встановлення та налаштування](eio.setup.md)
     
 -   Вимоги
     

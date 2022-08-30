@@ -1,12 +1,12 @@
 Перевіряє, чи існує поле
 
--   [« SolrInputDocument::destruct](solrinputdocument.destruct.html)
+-   [« SolrInputDocument::destruct](solrinputdocument.destruct.md)
     
--   [SolrInputDocument::getBoost »](solrinputdocument.getboost.html)
+-   [SolrInputDocument::getBoost »](solrinputdocument.getboost.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrInputDocument](class.solrinputdocument.html)
+-   [SolrInputDocument](class.solrinputdocument.md)
     
 -   Перевіряє, чи існує поле
     

@@ -1,12 +1,12 @@
 Повертає попередній об'єкт, що реалізує Throwable
 
--   [« Exception::getMessage](exception.getmessage.html)
+-   [« Exception::getMessage](exception.getmessage.md)
     
--   [Exception::getCode »](exception.getcode.html)
+-   [Exception::getCode »](exception.getcode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Exception](class.exception.html)
+-   [Exception](class.exception.md)
     
 -   Повертає попередній об'єкт, що реалізує Throwable
     
@@ -23,7 +23,7 @@ Exception::getPrevious — Повертає попередній об'єкт, щ
 final public Exception::getPrevious(): ?Throwable
 ```
 
-Повертає попередній об'єкт, що реалізує [Throwable](class.throwable.html) (переданий третім параметром [Exception::construct()](exception.construct.html)
+Повертає попередній об'єкт, що реалізує [Throwable](class.throwable.md) (переданий третім параметром [Exception::construct()](exception.construct.md)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ final public Exception::getPrevious(): ?Throwable
 
 ### Значення, що повертаються
 
-Повертає попередній об'єкт, що реалізує [Throwable](class.throwable.html) або \*\*`null`\*\*якщо такого немає.
+Повертає попередній об'єкт, що реалізує [Throwable](class.throwable.md) або \*\*`null`\*\*якщо такого немає.
 
 ### Приклади
 
@@ -71,4 +71,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getPrevious()](throwable.getprevious.html) - Повертає попередній Throwable
+-   [Throwable::getPrevious()](throwable.getprevious.md) - Повертає попередній Throwable

@@ -1,12 +1,12 @@
 Маніпуляції з типами
 
--   [« Объявление типов](language.types.declarations.html)
+-   [« Оголошення типів](language.types.declarations.html)
     
--   [Переменные »](language.variables.html)
+-   [Змінні »](language.variables.html)
     
 -   [PHP Manual](index.html)
     
--   [Типы](language.types.html)
+-   [Типи](language.types.html)
     
 -   Маніпуляції з типами
     
@@ -56,7 +56,7 @@ PHP не вимагає явного визначення типу при ого
 
 Контекст під час використання [оператора сравнения](language.operators.comparison.html)
 
-Перетворення типів, що відбуваються в цьому контексті, пояснюються в [таблице сравнения различных типов](language.operators.comparison.html#language.operators.comparison.types) розділу Оператори порівняння.
+Перетворення типів, що відбуваються в цьому контексті, пояснюються в [таблиці порівняння різних типів](language.operators.comparison.html#language.operators.comparison.types) розділу Оператори порівняння.
 
 ### Контекст функцій
 
@@ -66,7 +66,7 @@ PHP не вимагає явного визначення типу при ого
 
 -   Оголошення типу bool: значення інтерпретується як логічне значення (bool). Оголошення типу int: значення інтерпретується ціле число (int), якщо перетворення добре визначено. Наприклад, рядок є [числовой строкой](language.types.numeric-strings.html). Оголошення типу float: значення інтерпретується як число з плаваючою точкою (float), якщо перетворення добре визначено. Наприклад, рядок є [числовой строкой](language.types.numeric-strings.html). Оголошення типу string: значення інтерпретується як рядок (string).
 
-Якщо оголошення типу є об'єднаним, дивіться розділ [Приведение для объединённых типов](language.types.declarations.html#language.types.declarations.union.coercive)
+Якщо оголошення типу є об'єднаним, дивіться розділ [Приведення для об'єднаних типів](language.types.declarations.html#language.types.declarations.union.coercive)
 
 **Увага**
 
@@ -150,11 +150,11 @@ $binary = b"binary string";
 -   [Преобразование типа к целому числу (integer)](language.types.integer.html#language.types.integer.casting)
 -   [Преобразование типа к числу с плавающей точкой (float)](language.types.float.html#language.types.float.casting)
 -   [Преобразование типа к строке (string)](language.types.string.html#language.types.string.casting)
--   [Преобразование типа к массиву (array)](language.types.array.html#language.types.array.casting)
--   [Преобразование типа к объекту (object)](language.types.object.html#language.types.object.casting)
+-   [Преобразование типа к Масиву (array)](language.types.array.html#language.types.array.casting)
+-   [Перетворення типу на об'єкт (object)](language.types.object.html#language.types.object.casting)
 -   [Преобразование типа к ресурсу (resource)](language.types.resource.html#language.types.resource.casting)
 -   [Преобразование типа к NULL](language.types.null.html#language.types.null.casting)
--   [Таблицы сравнения типов](types.comparisons.html)
+-   [Таблиці порівняння типів](types.comparisons.html)
 
 > **Зауваження**: Оскільки PHP підтримує індексацію в рядках (string) за допомогою зміщення, використовуючи той же синтаксис, що і індексація в масивах (array), такий приклад справедливий для всіх версій PHP:
 > 

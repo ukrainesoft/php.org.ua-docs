@@ -41,7 +41,7 @@ PDOMYSQL за умовчанням використовує емульовану
 
 Також ви завжди можете скомпілювати необхідні модулі самостійно. Складання PHP із вихідних кодів дозволить вам зібрати саме ті модулі MySQL, які вам потрібні, а також вибрати потрібну клієнтську бібліотеку для кожного модуля.
 
-Використовуйте **\-with-pdo-mysql=DIR** для встановлення модуля PDO MySQL, де необов'язковий параметр `[=DIR]` вказує директорію, де встановлено MySQL. За замовчуванням використовується бібліотека [mysqlnd](book.mysqlnd.html). Більш детальний розбір на вибір бібліотеки можна почитати в розділі "[Выбор библиотеки MySQL](mysqlinfo.library.choosing.html)".
+Використовуйте **\-with-pdo-mysql=DIR** для встановлення модуля PDO MySQL, де необов'язковий параметр `[=DIR]` вказує директорію, де встановлено MySQL. За замовчуванням використовується бібліотека [mysqlnd](book.mysqlnd.html). Більш детальний розбір на вибір бібліотеки можна почитати в розділі "[Вибір бібліотеки MySQL](mysqlinfo.library.choosing.html)".
 
 Додатковий параметр **\-with-mysql-sock=DIR** вказує розташування unix-сокету MySQL для всіх модулів MySQL, включаючи PDOMYSQL. Якщо параметр не вказано, пошук здійснюється в директоріях за промовчанням.
 
@@ -51,7 +51,7 @@ PDOMYSQL за умовчанням використовує емульовану
 $ ./configure --with-pdo-mysql --with-mysql-sock=/var/mysql/mysql.sock
 ```
 
-Підтримка SSL вмикається, використовуючи відповідну [константу PDOMySQL](ref.pdo-mysql.html#pdo-mysql.constants), яка еквівалентна виклику [» API MySQL-функции mysqlsslset() в C](http://dev.mysql.com/doc/mysql/en/mysql-ssl-set.html). До того ж, SSL не може бути включений за допомогою **PDO::setAttribute**тому, що з'єднання вже існує. Дивіться документацію MySQL про [» підключення до MySQL з SSL](https://dev.mysql.com/doc/en/using-encrypted-connections.html)
+Підтримка SSL вмикається, використовуючи відповідну [константу PDOMySQL](ref.pdo-mysql.html#pdo-mysql.constants), яка еквівалентна виклику [» API MySQL-функції mysqlsslset() в C](http://dev.mysql.com/doc/mysql/en/mysql-ssl-set.html). До того ж, SSL не може бути включений за допомогою **PDO::setAttribute**тому, що з'єднання вже існує. Дивіться документацію MySQL про [» підключення до MySQL з SSL](https://dev.mysql.com/doc/en/using-encrypted-connections.html)
 
 ## Обумовлені константи
 
@@ -158,12 +158,12 @@ if ($db->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
 
 **Опції конфігурації PDOMYSQL**
 
-| Имя                                                                       | По умолчанию     | Место изменения |
-|---------------------------------------------------------------------------|------------------|-----------------|
-| [pdomysql.defaultsocket](ref.pdo-mysql.html#ini.pdo-mysql.default-socket) | "/тмп/мускл.сок" | PHPINISYSTEM    |
-| [pdomysql.debug](ref.pdo-mysql.html#ini.pdo-mysql.debug)                  | NULL             | PHPINISYSTEM    |
+| Имя | По умолчанию | Место изменения |
+| --- | --- | --- |
+| [pdomysql.defaultsocket](ref.pdo-mysql.html#ini.pdo-mysql.default-socket) | "/тмп/мускл.сок" | PHPINISYSTEM |
+| [pdomysql.debug](ref.pdo-mysql.html#ini.pdo-mysql.debug) | NULL | PHPINISYSTEM |
 
-Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 
 Коротке пояснення конфігураційних директив.
 

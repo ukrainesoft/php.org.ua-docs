@@ -1,12 +1,12 @@
 Декодує рядок JSON
 
--   [« Функции JSON](ref.json.html)
+-   [« Функции JSON](ref.json.md)
     
 -   [jsonencode »](function.json-encode.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции JSON](ref.json.html)
+-   [Функции JSON](ref.json.md)
     
 -   Декодує рядок JSON
     
@@ -47,7 +47,7 @@ json_decode(    string $json,    ?bool $associative = null,    int $
 
 `flags`
 
-Бітова маска з констант **`JSON_BIGINT_AS_STRING`** **`JSON_INVALID_UTF8_IGNORE`** **`JSON_INVALID_UTF8_SUBSTITUTE`** **`JSON_OBJECT_AS_ARRAY`** **`JSON_THROW_ON_ERROR`**. Поведінка цих констант описано на сторінці [JSON-констант](json.constants.html)
+Бітова маска з констант **`JSON_BIGINT_AS_STRING`** **`JSON_INVALID_UTF8_IGNORE`** **`JSON_INVALID_UTF8_SUBSTITUTE`** **`JSON_OBJECT_AS_ARRAY`** **`JSON_THROW_ON_ERROR`**. Поведінка цих констант описано на сторінці [JSON-констант](json.constants.md)
 
 ### Значення, що повертаються
 
@@ -55,16 +55,16 @@ json_decode(    string $json,    ?bool $associative = null,    int $
 
 ### Помилки
 
-Починаючи з PHP 8.0.0, якщо значення параметра `depth` виходить за межі допустимого діапазону, функція викидає виняток [ValueError](class.valueerror.html); раніше видавалася помилка рівня **`E_WARNING`**
+Починаючи з PHP 8.0.0, якщо значення параметра `depth` виходить за межі допустимого діапазону, функція викидає виняток [ValueError](class.valueerror.md); раніше видавалася помилка рівня **`E_WARNING`**
 
 ### список змін
 
-| Версия | Описание                                                                                                            |
-|--------|---------------------------------------------------------------------------------------------------------------------|
-|        | Додано константу **`JSON_THROW_ON_ERROR`** для параметра `flags`                                                    |
-|        | `associative` тепер nullable.                                                                                       |
-|        | Додані константи **`JSON_INVALID_UTF8_IGNORE`** і **`JSON_INVALID_UTF8_SUBSTITUTE`** для параметра `flags`          |
-|        | Порожній ключ JSON ("") буде перетворено на порожню властивість об'єкта, а не на властивість зі значенням `_empty_` |
+| Версия | Описание |
+| --- | --- |
+|  | Додано константу **`JSON_THROW_ON_ERROR`** для параметра `flags` |
+|  | `associative` тепер nullable. |
+|  | Додані константи **`JSON_INVALID_UTF8_IGNORE`** і **`JSON_INVALID_UTF8_SUBSTITUTE`** для параметра `flags` |
+|  | Порожній ключ JSON ("") буде перетворено на порожню властивість об'єкта, а не на властивість зі значенням `_empty_` |
 
 ### Приклади
 

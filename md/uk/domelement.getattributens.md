@@ -1,12 +1,12 @@
 Повертає значення атрибуту
 
--   [« DOMElement::getAttributeNodeNS](domelement.getattributenodens.html)
+-   [« DOMElement::getAttributeNodeNS](domelement.getattributenodens.md)
     
--   [DOMElement::getElementsByTagName »](domelement.getelementsbytagname.html)
+-   [DOMElement::getElementsByTagName »](domelement.getelementsbytagname.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMElement](class.domelement.html)
+-   [DOMElement](class.domelement.md)
     
 -   Повертає значення атрибуту
     
@@ -41,6 +41,6 @@ URI простір імен.
 
 ### Дивіться також
 
--   [DOMElement::hasAttributeNS()](domelement.hasattributens.html) - Перевіряє, чи існує заданий атрибут
--   [DOMElement::setAttributeNS()](domelement.setattributens.html) - Додає новий атрибут
--   [DOMElement::removeAttributeNS()](domelement.removeattributens.html) - Видаляє атрибут
+-   [DOMElement::hasAttributeNS()](domelement.hasattributens.md) - Перевіряє, чи існує заданий атрибут
+-   [DOMElement::setAttributeNS()](domelement.setattributens.md) - Додає новий атрибут
+-   [DOMElement::removeAttributeNS()](domelement.removeattributens.md) - Видаляє атрибут

@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](radius.requirements.html)
+-   [« Вимоги](radius.requirements.html)
     
--   [Настройка во время выполнения »](radius.configuration.html)
+-   [Налаштування під час виконання »](radius.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](radius.setup.html)
+-   [Встановлення та налаштування](radius.setup.html)
     
 -   Встановлення
     

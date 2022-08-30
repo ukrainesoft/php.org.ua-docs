@@ -1,12 +1,12 @@
 Викликає функцію
 
--   [« ReflectionFunction::getClosure](reflectionfunction.getclosure.html)
+-   [« ReflectionFunction::getClosure](reflectionfunction.getclosure.md)
     
--   [ReflectionFunction::invokeArgs »](reflectionfunction.invokeargs.html)
+-   [ReflectionFunction::invokeArgs »](reflectionfunction.invokeargs.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunction](class.reflectionfunction.html)
+-   [ReflectionFunction](class.reflectionfunction.md)
     
 -   Викликає функцію
     
@@ -62,10 +62,10 @@ Dr. Phil
 
 > **Зауваження**
 > 
-> **ReflectionFunction::invoke()** не можна використовувати, якщо очікуються параметри посилання. Замість нього слід використовувати [ReflectionFunction::invokeArgs()](reflectionfunction.invokeargs.html) (Передача посилань у списку аргументів).
+> **ReflectionFunction::invoke()** не можна використовувати, якщо очікуються параметри посилання. Замість нього слід використовувати [ReflectionFunction::invokeArgs()](reflectionfunction.invokeargs.md) (Передача посилань у списку аргументів).
 
 ### Дивіться також
 
--   [ReflectionFunction::export()](reflectionfunction.export.html) - Експортує функції
+-   [ReflectionFunction::export()](reflectionfunction.export.md) - Експортує функції
 -   [invoke()](language.oop5.magic.html#object.invoke)
 -   [calluserfunc()](function.call-user-func.html) - Викликає callback-функцію, задану у першому параметрі

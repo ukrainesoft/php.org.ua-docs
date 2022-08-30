@@ -4,9 +4,9 @@
     
 -   [проgetcontents »](function.ob-get-contents.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції контролю виведення](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.md)
     
 -   Отримати вміст поточного буфера та видалити його
     

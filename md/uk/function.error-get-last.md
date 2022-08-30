@@ -4,9 +4,9 @@
     
 -   [errorlog »](function.error-log.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции обработки ошибок](ref.errorfunc.html)
+-   [Функции обработки ошибок](ref.errorfunc.md)
     
 -   Отримання інформації про останню помилку
     
@@ -58,8 +58,8 @@ Array
 
 ### Дивіться також
 
--   [Константы ошибок](errorfunc.constants.html)
--   Змінна [$phperrormsg](reserved.variables.phperrormsg.html)
+-   [Константи помилок](errorfunc.constants.md)
+-   Змінна [$phperrormsg](reserved.variables.phperrormsg.md)
 -   [errorclearlast()](function.error-clear-last.html) - Очистити останню помилку
 -   [Директива `display_errors`](errorfunc.configuration.html#ini.display-errors)
 -   [Директива `html_errors`](errorfunc.configuration.html#ini.html-errors)

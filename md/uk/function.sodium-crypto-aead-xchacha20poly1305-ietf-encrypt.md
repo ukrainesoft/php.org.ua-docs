@@ -4,9 +4,9 @@
     
 -   [sodiumcryptoaeadxchacha20poly1305ietfkeygen »](function.sodium-crypto-aead-xchacha20poly1305-ietf-keygen.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Sodium](ref.sodium.html)
+-   [Функции Sodium](ref.sodium.md)
     
 -   (Переважно) Шифрує, а потім перевіряє справжність за допомогою XChaCha20-Poly1305
     

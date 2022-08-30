@@ -2,7 +2,7 @@
 
 -   [« DBA](book.dba.html)
     
--   [Установка и настройка »](dba.setup.html)
+-   [Встановлення та налаштування »](dba.setup.html)
     
 -   [PHP Manual](index.html)
     

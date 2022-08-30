@@ -1,12 +1,12 @@
 Отримати строкове подання тега журналу за його індексом
 
--   [« VarnishLog::getLine](varnishlog.getline.html)
+-   [« VarnishLog::getLine](varnishlog.getline.md)
     
--   [YAZ »](book.yaz.html)
+-   [YAZ »](book.yaz.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [VarnishLog](class.varnishlog.html)
+-   [VarnishLog](class.varnishlog.md)
     
 -   Отримати строкове подання тега журналу за його індексом
     

@@ -1,12 +1,12 @@
 Повертає інформацію про посилання
 
--   [« link](function.link.html)
+-   [« link](function.link.md)
     
--   [lstat »](function.lstat.html)
+-   [lstat »](function.lstat.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Повертає інформацію про посилання
     
@@ -51,6 +51,6 @@ echo linkinfo('/vmlinuz'); // 835
 
 ### Дивіться також
 
--   [symlink()](function.symlink.html) - Створює символічне посилання
--   [link()](function.link.html) - Створює жорстке посилання
--   [readlink()](function.readlink.html) - Повертає файл, на який вказує символічне посилання
+-   [symlink()](function.symlink.md) - Створює символічне посилання
+-   [link()](function.link.md) - Створює жорстке посилання
+-   [readlink()](function.readlink.md) - Повертає файл, на який вказує символічне посилання

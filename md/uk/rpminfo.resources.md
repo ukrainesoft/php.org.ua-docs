@@ -1,12 +1,12 @@
 Типи ресурсів
 
--   [« Настройка во время выполнения](rpminfo.configuration.html)
+-   [« Налаштування під час виконання](rpminfo.configuration.md)
     
--   [Предопределённые константы »](rpminfo.constants.html)
+-   [Обумовлені константи »](rpminfo.constants.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](rpminfo.setup.html)
+-   [Встановлення та налаштування](rpminfo.setup.md)
     
 -   Типи ресурсів
     

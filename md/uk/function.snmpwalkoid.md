@@ -1,12 +1,12 @@
 Запит дерева інформації про мережевий об'єкт
 
--   [« snmpwalk](function.snmpwalk.html)
+-   [« snmpwalk](function.snmpwalk.md)
     
--   [SNMP »](class.snmp.html)
+-   [SNMP »](class.snmp.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.md)
     
 -   Запит дерева інформації про мережевий об'єкт
     
@@ -25,7 +25,7 @@ snmpwalkoid(    string $hostname,    string $community,    array|str
 
 Функція **snmpwalkoid()** використовується для читання всіх ідентифікаторів об'єктів та їх відповідних значень агента SNMP, зазначеного в `hostname`
 
-Функції **snmpwalkoid()** і [snmpwalk()](function.snmpwalk.html) існує з історичних причин. Обидві функції призначені для зворотної сумісності. Натомість використовуйте функцію [snmprealwalk()](function.snmprealwalk.html)
+Функції **snmpwalkoid()** і [snmpwalk()](function.snmpwalk.md) існує з історичних причин. Обидві функції призначені для зворотної сумісності. Натомість використовуйте функцію [snmprealwalk()](function.snmprealwalk.md)
 
 ### Список параметрів
 
@@ -72,4 +72,4 @@ for (reset($a); $i = key($a); next($a)) {
 
 ### Дивіться також
 
--   [snmpwalk()](function.snmpwalk.html) - Отримує всі об'єкти SNMP із агента
+-   [snmpwalk()](function.snmpwalk.md) - Отримує всі об'єкти SNMP із агента

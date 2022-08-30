@@ -2,25 +2,25 @@
 
 -   [« filtervar](function.filter-var.html)
     
--   [Введение »](intro.funchand.html)
+-   [Введение »](intro.funchand.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модули, относящиеся к переменным и типам](refs.basic.vartype.html)
+-   [Модулі, що відносяться до змінних та типів](refs.basic.vartype.md)
     
 -   Управління функціями
     
 
 # Управління функціями
 
--   [Введение](intro.funchand.html)
--   [Установка и настройка](funchand.setup.html)
-    -   [Требования](funchand.requirements.html)
-    -   [Установка](funchand.installation.html)
-    -   [Настройка во время выполнения](funchand.configuration.html)
-    -   [Типы ресурсов](funchand.resources.html)
--   [Предопределённые константы](funchand.constants.html)
--   [Функции управления функциями](ref.funchand.html)
+-   [Введение](intro.funchand.md)
+-   [Встановлення та налаштування](funchand.setup.md)
+    -   [Вимоги](funchand.requirements.md)
+    -   [Установка](funchand.installation.md)
+    -   [Налаштування під час виконання](funchand.configuration.md)
+    -   [Типи ресурсів](funchand.resources.md)
+-   [Обумовлені константи](funchand.constants.md)
+-   [Функции управления функциями](ref.funchand.md)
     -   [calluserfuncarray](function.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів
     -   [calluserfunc](function.call-user-func.html) — Викликає callback-функцію, задану у першому параметрі
     -   [createfunction](function.create-function.html) — Створює функцію динамічно, оцінюючи рядок коду

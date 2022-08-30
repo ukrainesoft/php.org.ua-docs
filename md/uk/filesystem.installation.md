@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](filesystem.requirements.html)
+-   [« Вимоги](filesystem.requirements.md)
     
--   [Настройка во время выполнения »](filesystem.configuration.html)
+-   [Налаштування під час виконання »](filesystem.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](filesystem.setup.html)
+-   [Встановлення та налаштування](filesystem.setup.md)
     
 -   Встановлення
     

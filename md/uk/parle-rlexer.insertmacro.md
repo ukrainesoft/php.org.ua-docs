@@ -4,7 +4,7 @@
     
 -   [ParleRLexer::push »](parle-rlexer.push.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ParleRLexer](class.parle-rlexer.html)
     

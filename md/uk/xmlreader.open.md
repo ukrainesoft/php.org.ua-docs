@@ -1,12 +1,12 @@
 Встановити URI, що містить XML-документ для аналізу
 
--   [« XMLReader::next](xmlreader.next.html)
+-   [« XMLReader::next](xmlreader.next.md)
     
--   [XMLReader::read »](xmlreader.read.html)
+-   [XMLReader::read »](xmlreader.read.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLReader](class.xmlreader.html)
+-   [XMLReader](class.xmlreader.md)
     
 -   Встановити URI, що містить XML-документ для аналізу
     
@@ -37,11 +37,11 @@ URI, що вказує на документ.
 
 `flags`
 
-Бітова маска, що складається з [LIBXML](libxml.constants.html) констант.
+Бітова маска, що складається з [LIBXML](libxml.constants.md) констант.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. при статичному виклику, повертається [XMLReader](class.xmlreader.html) або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. при статичному виклику, повертається [XMLReader](class.xmlreader.md) або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
@@ -49,11 +49,11 @@ URI, що вказує на документ.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                 |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------|
-|        | **XMLReader::open()** тепер оголошено як статичний метод, але все ще може бути викликаний в екземплярі [XMLReader](class.xmlreader.html) |
+| Версия | Описание |
+| --- | --- |
+|  | **XMLReader::open()** тепер оголошено як статичний метод, але все ще може бути викликаний в екземплярі [XMLReader](class.xmlreader.md) |
 
 ### Дивіться також
 
--   [XMLReader::xml()](xmlreader.xml.html) - Встановити дані, що містять XML для аналізу
--   [XMLReader::close()](xmlreader.close.html) - Закрити введення XMLReader
+-   [XMLReader::xml()](xmlreader.xml.md) - Встановити дані, що містять XML для аналізу
+-   [XMLReader::close()](xmlreader.close.md) - Закрити введення XMLReader

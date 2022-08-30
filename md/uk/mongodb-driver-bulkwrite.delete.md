@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverBulkWrite::insert »](mongodb-driver-bulkwrite.insert.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)
     
@@ -31,16 +31,16 @@ public MongoDB\Driver\BulkWrite::delete(array|object $filter, ?array $deleteOpti
 
 [» Предикат запроса](https://www.mongodb.com/docs/manual/tutorial/query-documents/). Порожній предикат збігатиметься з усіма елементами колекції.
 
-> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.html) і [приведения типов](language.types.type-juggling.html) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.html) (тобто використовувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.html) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.md) і [приведения типов](language.types.type-juggling.html) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.md) (тобто використовувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.html) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
 
 `deleteOptions`
 
 **deleteOptions**
 
-| Опция                                                                                                                                                                                                                                                                                                                                                                                                                               | Тип   | Описание | Значение по умолчанию |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|----------|-----------------------|
-| collation                                                                                                                                                                                                                                                                                                                                                                                                                           | array | object   |                       |
-| [» Сопоставление](https://www.mongodb.com/docs/upcoming/reference/collation/) дозволяє користувачам вказувати специфічні для конкретної мови правила для порівняння рядків, такі як реакцію на регістр літер та надрядкові знаки. Якщо поставлено зіставлення, то поле `"locale"` також обов'язково. Опис полів дивіться у розділі [» Сопоставление](https://www.mongodb.com/docs/upcoming/reference/collation/#collation-document) |       |          |                       |
+| Опция | Тип | Описание | Значение по умолчанию |
+| --- | --- | --- | --- |
+| collation | array | object |  |
+| [» Сопоставление](https://www.mongodb.com/docs/upcoming/reference/collation/) дозволяє користувачам вказувати специфічні для конкретної мови правила для порівняння рядків, такі як реакцію на регістр літер та надрядкові знаки. Якщо поставлено зіставлення, то поле `"locale"` також обов'язково. Опис полів дивіться у розділі [» Сопоставление](https://www.mongodb.com/docs/upcoming/reference/collation/#collation-document) |  |  |  |
 
 Якщо порівняння не задано явно, але в колекції визначено зіставлення за умовчанням, буде використано воно. Якщо немає ні того, то MongoDB буде використовувати просте бінарне порівняння рядків.
 
@@ -64,9 +64,9 @@ public MongoDB\Driver\BulkWrite::delete(array|object $filter, ?array $deleteOpti
 
 ### список змін
 
-| Версия             | Описание                   |
-|--------------------|----------------------------|
-| PECL mongodb 1.8.0 | Додана опція `"hint"`      |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.8.0 | Додана опція `"hint"` |
 | PECL mongodb 1.2.0 | Додана опція `"collation"` |
 
 ### Приклади

@@ -1,12 +1,12 @@
 Пошук RPM-пакетів
 
--   [« rpmdbinfo](function.rpmdbinfo.html)
+-   [« rpmdbinfo](function.rpmdbinfo.md)
     
--   [rpminfo »](function.rpminfo.html)
+-   [rpminfo »](function.rpminfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції RpmInfo](ref.rpminfo.html)
+-   [Функції RpmInfo](ref.rpminfo.md)
     
 -   Пошук RPM-пакетів
     
@@ -33,11 +33,11 @@ rpmdbsearch(    string $pattern,    int $rpmtag = RPMTAG_NAME,    in
 
 `rpmtag`
 
-Критерій пошуку. Одна з констант RPMTAG, дивіться [константы rpminfo](rpminfo.constants.html)
+Критерій пошуку. Одна з констант RPMTAG, дивіться [константи rpminfo](rpminfo.constants.md)
 
 `rpmmire`
 
-Тип шаблону. Одна з констант RPMMIRE, дивіться [константы rpminfo](rpminfo.constants.html). Якщо менше 0, то критерій повинен дорівнювати значенню і по можливості буде використаний індекс бази даних.
+Тип шаблону. Одна з констант RPMMIRE, дивіться [константи rpminfo](rpminfo.constants.md). Якщо менше 0, то критерій повинен дорівнювати значенню і по можливості буде використаний індекс бази даних.
 
 `full`
 
@@ -77,4 +77,4 @@ Array
 
 ### Дивіться також
 
--   [rpmaddtag()](function.rpmaddtag.html) - Додає тег, отриманий у запиті
+-   [rpmaddtag()](function.rpmaddtag.md) - Додає тег, отриманий у запиті

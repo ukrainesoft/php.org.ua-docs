@@ -1,12 +1,12 @@
 Повертає рядок поточного регулярного виразу
 
--   [« RegexIterator::getPregFlags](regexiterator.getpregflags.html)
+-   [« RegexIterator::getPregFlags](regexiterator.getpregflags.md)
     
--   [RegexIterator::setFlags »](regexiterator.setflags.html)
+-   [RegexIterator::setFlags »](regexiterator.setflags.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RegexIterator](class.regexiterator.html)
+-   [RegexIterator](class.regexiterator.md)
     
 -   Повертає рядок поточного регулярного виразу
     

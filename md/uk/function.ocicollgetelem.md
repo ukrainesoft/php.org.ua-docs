@@ -1,12 +1,12 @@
 Псевдонім OCICollection::getElem
 
--   [« ocicollassignelem](function.ocicollassignelem.html)
+-   [« ocicollassignelem](function.ocicollassignelem.md)
     
--   [ocicollmax »](function.ocicollmax.html)
+-   [ocicollmax »](function.ocicollmax.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
     
 -   Псевдонім OCICollection::getElem
     
@@ -15,11 +15,11 @@
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocicollgetelem - Псевдонім [OCICollection::getElem()](ocicollection.getelem.html)
+ocicollgetelem - Псевдонім [OCICollection::getElem()](ocicollection.getelem.md)
 
 ### Опис
 
-Псевдонім [OCICollection::getElem()](ocicollection.getelem.html)
+Псевдонім [OCICollection::getElem()](ocicollection.getelem.md)
 
 **Увага**
 

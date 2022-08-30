@@ -1,12 +1,12 @@
 Перевіряє, чи є поточний вузол PHP-кодом
 
--   [« tidyNode::isJste](tidynode.isjste.html)
+-   [« tidyNode::isJste](tidynode.isjste.md)
     
--   [tidyNode::isText »](tidynode.istext.html)
+-   [tidyNode::isText »](tidynode.istext.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [tidyNode](class.tidynode.html)
+-   [tidyNode](class.tidynode.md)
     
 -   Перевіряє, чи є поточний вузол PHP-кодом
     

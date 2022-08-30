@@ -1,12 +1,12 @@
 Повертає масив, що представляє метрики шрифту
 
--   [« Imagick::quantizeImages](imagick.quantizeimages.html)
+-   [« Imagick::quantizeImages](imagick.quantizeimages.md)
     
--   [Imagick::queryFonts »](imagick.queryfonts.html)
+-   [Imagick::queryFonts »](imagick.queryfonts.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає масив, що представляє метрики шрифту
     

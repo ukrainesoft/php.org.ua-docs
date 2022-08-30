@@ -1,12 +1,12 @@
 Вступ
 
--   [« POSIX](book.posix.html)
+-   [« POSIX](book.posix.md)
     
--   [Установка и настройка »](posix.setup.html)
+-   [Встановлення та налаштування »](posix.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [POSIX](book.posix.html)
+-   [POSIX](book.posix.md)
     
 -   Вступ
     

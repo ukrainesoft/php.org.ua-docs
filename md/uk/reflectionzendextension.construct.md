@@ -1,12 +1,12 @@
 Конструктор
 
--   [« ReflectionZendExtension::clone](reflectionzendextension.clone.html)
+-   [« ReflectionZendExtension::clone](reflectionzendextension.clone.md)
     
--   [ReflectionZendExtension::export »](reflectionzendextension.export.html)
+-   [ReflectionZendExtension::export »](reflectionzendextension.export.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionZendExtension](class.reflectionzendextension.html)
+-   [ReflectionZendExtension](class.reflectionzendextension.md)
     
 -   Конструктор
     

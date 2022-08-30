@@ -4,9 +4,9 @@
     
 -   [posixuname »](function.posix-uname.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [POSIX Функции](ref.posix.html)
+-   [POSIX Функции](ref.posix.md)
     
 -   Визначає ім'я термінального пристрою
     

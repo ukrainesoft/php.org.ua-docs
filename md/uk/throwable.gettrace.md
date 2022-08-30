@@ -1,12 +1,12 @@
 Повертає трасування стека
 
--   [« Throwable::getLine](throwable.getline.html)
+-   [« Throwable::getLine](throwable.getline.md)
     
--   [Throwable::getTraceAsString »](throwable.gettraceasstring.html)
+-   [Throwable::getTraceAsString »](throwable.gettraceasstring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Throwable](class.throwable.html)
+-   [Throwable](class.throwable.md)
     
 -   Повертає трасування стека
     
@@ -35,4 +35,4 @@ public Throwable::getTrace(): array
 
 ### Дивіться також
 
--   [Exception::getTrace()](exception.gettrace.html) - Отримує трасування стека
+-   [Exception::getTrace()](exception.gettrace.md) - Отримує трасування стека

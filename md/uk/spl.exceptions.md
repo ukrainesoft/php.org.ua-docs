@@ -1,12 +1,12 @@
 Винятки
 
--   [« SeekableIterator::seek](seekableiterator.seek.html)
+-   [« SeekableIterator::seek](seekableiterator.seek.md)
     
--   [BadFunctionCallException »](class.badfunctioncallexception.html)
+-   [BadFunctionCallException »](class.badfunctioncallexception.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SPL](book.spl.html)
+-   [SPL](book.spl.md)
     
 -   Винятки
     
@@ -15,36 +15,36 @@
 
 ## Зміст
 
--   [BadFunctionCallException](class.badfunctioncallexception.html)
--   [BadMethodCallException](class.badmethodcallexception.html)
--   [DomainException](class.domainexception.html)
--   [InvalidArgumentException](class.invalidargumentexception.html)
--   [LengthException](class.lengthexception.html)
--   [LogicException](class.logicexception.html)
--   [OutOfBoundsException](class.outofboundsexception.html)
--   [OutOfRangeException](class.outofrangeexception.html)
--   [OverflowException](class.overflowexception.html)
--   [RangeException](class.rangeexception.html)
--   [RuntimeException](class.runtimeexception.html)
--   [UnderflowException](class.underflowexception.html)
--   [UnexpectedValueException](class.unexpectedvalueexception.html)
+-   [BadFunctionCallException](class.badfunctioncallexception.md)
+-   [BadMethodCallException](class.badmethodcallexception.md)
+-   [DomainException](class.domainexception.md)
+-   [InvalidArgumentException](class.invalidargumentexception.md)
+-   [LengthException](class.lengthexception.md)
+-   [LogicException](class.logicexception.md)
+-   [OutOfBoundsException](class.outofboundsexception.md)
+-   [OutOfRangeException](class.outofrangeexception.md)
+-   [OverflowException](class.overflowexception.md)
+-   [RangeException](class.rangeexception.md)
+-   [RuntimeException](class.runtimeexception.md)
+-   [UnderflowException](class.underflowexception.md)
+-   [UnexpectedValueException](class.unexpectedvalueexception.md)
 
 SPL забезпечує набір стандартних винятків.
 
-Дивіться також [Предопределённые исключения](reserved.exceptions.html)
+Дивіться також [Обумовлені винятки](reserved.exceptions.md)
 
 ## Ієрархія класів винятків SPL
 
--   [LogicException](class.logicexception.html) (extends [Exception](class.exception.html)
-    -   [BadFunctionCallException](class.badfunctioncallexception.html)
-        -   [BadMethodCallException](class.badmethodcallexception.html)
-    -   [DomainException](class.domainexception.html)
-    -   [InvalidArgumentException](class.invalidargumentexception.html)
-    -   [LengthException](class.lengthexception.html)
-    -   [OutOfRangeException](class.outofrangeexception.html)
--   [RuntimeException](class.runtimeexception.html) (extends [Exception](class.exception.html)
-    -   [OutOfBoundsException](class.outofboundsexception.html)
-    -   [OverflowException](class.overflowexception.html)
-    -   [RangeException](class.rangeexception.html)
-    -   [UnderflowException](class.underflowexception.html)
-    -   [UnexpectedValueException](class.unexpectedvalueexception.html)
+-   [LogicException](class.logicexception.md) (extends [Exception](class.exception.md)
+    -   [BadFunctionCallException](class.badfunctioncallexception.md)
+        -   [BadMethodCallException](class.badmethodcallexception.md)
+    -   [DomainException](class.domainexception.md)
+    -   [InvalidArgumentException](class.invalidargumentexception.md)
+    -   [LengthException](class.lengthexception.md)
+    -   [OutOfRangeException](class.outofrangeexception.md)
+-   [RuntimeException](class.runtimeexception.md) (extends [Exception](class.exception.md)
+    -   [OutOfBoundsException](class.outofboundsexception.md)
+    -   [OverflowException](class.overflowexception.md)
+    -   [RangeException](class.rangeexception.md)
+    -   [UnderflowException](class.underflowexception.md)
+    -   [UnexpectedValueException](class.unexpectedvalueexception.md)

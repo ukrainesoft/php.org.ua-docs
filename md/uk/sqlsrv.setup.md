@@ -1,12 +1,12 @@
 Встановлення та налаштування
 
--   [« Введение](intro.sqlsrv.html)
+-   [« Введение](intro.sqlsrv.md)
     
--   [Требования »](sqlsrv.requirements.html)
+-   [Вимоги »](sqlsrv.requirements.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SQLSRV](book.sqlsrv.html)
+-   [SQLSRV](book.sqlsrv.md)
     
 -   Встановлення та налаштування
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Требования](sqlsrv.requirements.html)
--   [Установка](sqlsrv.installation.html)
--   [Настройка во время выполнения](sqlsrv.configuration.html)
--   [Типы ресурсов](sqlsrv.resources.html)
+-   [Вимоги](sqlsrv.requirements.md)
+-   [Установка](sqlsrv.installation.md)
+-   [Налаштування під час виконання](sqlsrv.configuration.md)
+-   [Типи ресурсів](sqlsrv.resources.md)

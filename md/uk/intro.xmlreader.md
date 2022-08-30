@@ -1,12 +1,12 @@
 Вступ
 
--   [« XMLReader](book.xmlreader.html)
+-   [« XMLReader](book.xmlreader.md)
     
--   [Установка и настройка »](xmlreader.setup.html)
+-   [Встановлення та налаштування »](xmlreader.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [XMLReader](book.xmlreader.html)
+-   [XMLReader](book.xmlreader.md)
     
 -   Вступ
     

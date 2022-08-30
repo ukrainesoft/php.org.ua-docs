@@ -1,12 +1,12 @@
 Інструкції зі встановлення на Debian GNU/Linux
 
--   [« Інструкції з інсталяції для ОС Solaris](install.unix.solaris.html)
+-   [« Інструкції з інсталяції для ОС Solaris](install.unix.solaris.md)
     
--   [Установка на macOS »](install.macosx.html)
+-   [Установка на macOS »](install.macosx.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка на Unix-системы](install.unix.html)
+-   [Встановлення на Unix-системи](install.unix.md)
     
 -   Інструкції зі встановлення на Debian GNU/Linux
     
@@ -41,7 +41,7 @@ APT автоматично встановить модуль PHP для Apache 2
 
 ### Контроль конфігурації
 
-Спочатку PHP встановлюється тільки з основними модулями ядра. Якщо ви бажаєте встановити додаткові модулі, такі як [MySQL](book.mysql.html) [cURL](book.curl.html) [ДД](book.image.html) і т.д., це також можна зробити за допомогою команди `apt`
+Спочатку PHP встановлюється тільки з основними модулями ядра. Якщо ви бажаєте встановити додаткові модулі, такі як [MySQL](book.mysql.md) [cURL](book.curl.md) [ДД](book.image.md) і т.д., це також можна зробити за допомогою команди `apt`
 
 **Приклад #3 Способи отримати список додаткових пакетів PHP**
 

@@ -1,6 +1,6 @@
 Функції Igbinary
 
--   [« Настройка во время выполнения](igbinary.configuration.html)
+-   [« Налаштування під час виконання](igbinary.configuration.html)
     
 -   [igbinaryserialize »](function.igbinary-serialize.html)
     

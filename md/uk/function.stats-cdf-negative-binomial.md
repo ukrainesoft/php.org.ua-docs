@@ -4,9 +4,9 @@
     
 -   [statscdfnoncentralchisquare »](function.stats-cdf-noncentral-chisquare.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Обчислює один із параметрів Негативного Біномінального розподілу за рештою
     
@@ -30,11 +30,11 @@ stats_cdf_negative_binomial(    float $par1,    float $par2,    floa
 **Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
-|---------|-----------------------|--------|--------|--------|
-|         | CDF                   | з      | р      | п      |
-|         | з                     | CDF    | р      | п      |
-|         | р                     | з      | CDF    | п      |
-|         | п                     | з      | CDF    | р      |
+| --- | --- | --- | --- | --- |
+|  | CDF | з | р | п |
+|  | з | CDF | р | п |
+|  | р | з | CDF | п |
+|  | п | з | CDF | р |
 
 ### Список параметрів
 

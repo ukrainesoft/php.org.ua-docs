@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](zip.requirements.html)
+-   [« Вимоги](zip.requirements.md)
     
--   [Настройка во время выполнения »](zip.configuration.html)
+-   [Налаштування під час виконання »](zip.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](zip.setup.html)
+-   [Встановлення та налаштування](zip.setup.md)
     
 -   Встановлення
     
@@ -27,4 +27,4 @@
 
 ## Установка через PECL
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/zip](https://pecl.php.net/package/zip)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/zip](https://pecl.php.net/package/zip)

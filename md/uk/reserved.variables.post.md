@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Предопределённые переменные](reserved.variables.html)
+-   [Зумовлені змінні](reserved.variables.html)
     
 -   Змінні HTTP POST
     
@@ -47,5 +47,5 @@ echo 'Привет ' . htmlspecialchars($_POST["name"]) . '!';
 
 ### Дивіться також
 
--   [Обработка внешних переменных](language.variables.external.html)
+-   [Обробка зовнішніх змінних](language.variables.external.html)
 -   [Фільтрування даних](book.filter.html)

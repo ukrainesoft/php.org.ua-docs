@@ -1,12 +1,12 @@
 Створює ітератор, що фільтрує, на основі іншого ітератора.
 
--   [« CallbackFilterIterator::accept](callbackfilteriterator.accept.html)
+-   [« CallbackFilterIterator::accept](callbackfilteriterator.accept.md)
     
--   [DirectoryIterator »](class.directoryiterator.html)
+-   [DirectoryIterator »](class.directoryiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CallbackFilterIterator](class.callbackfilteriterator.html)
+-   [CallbackFilterIterator](class.callbackfilteriterator.md)
     
 -   Створює ітератор, що фільтрує, на основі іншого ітератора.
     
@@ -19,7 +19,7 @@ CallbackFilterIterator::construct — Створює ітератор, що фі
 
 ### Опис
 
-public **CallbackFilterIterator::construct**[Iterator](class.iterator.html) `$iterator` [callable](language.types.callable.html) `$callback`
+public **CallbackFilterIterator::construct**[Iterator](class.iterator.md) `$iterator` [callable](language.types.callable.md) `$callback`
 
 Створює ітератор, що фільтрує, використовуючи функцію `callback` для відбору чи відхилення елементів.
 
@@ -31,11 +31,11 @@ public **CallbackFilterIterator::construct**[Iterator](class.iterator.html) `$it
 
 `callback`
 
-Callback-функція, яка має повертати **`true`**, якщо поточний елемент пройшов фільтр, та **`false`**, якщо елемент відхилено. Дивіться [примеры](class.callbackfilteriterator.html#callbackfilteriterator.examples)
+Callback-функція, яка має повертати **`true`**, якщо поточний елемент пройшов фільтр, та **`false`**, якщо елемент відхилено. Дивіться [приклади](class.callbackfilteriterator.html#callbackfilteriterator.examples)
 
-Можливо будь-яким [callable](language.types.callable.html) значенням.
+Можливо будь-яким [callable](language.types.callable.md) значенням.
 
 ### Дивіться також
 
--   [Примеры использования CallbackFilterIterator](class.callbackfilteriterator.html#callbackfilteriterator.examples)
--   [CallbackFilterIterator::accept()](callbackfilteriterator.accept.html) - Викликає callback-функцію та передає їй як аргументи поточне значення, поточний ключ та внутрішній покажчик
+-   [Приклади використання CallbackFilterIterator](class.callbackfilteriterator.html#callbackfilteriterator.examples)
+-   [CallbackFilterIterator::accept()](callbackfilteriterator.accept.md) - Викликає callback-функцію та передає їй як аргументи поточне значення, поточний ключ та внутрішній покажчик

@@ -1,12 +1,12 @@
 Повертає поточний елемент масиву
 
--   [« SplDoublyLinkedList::count](spldoublylinkedlist.count.html)
+-   [« SplDoublyLinkedList::count](spldoublylinkedlist.count.md)
     
--   [SplDoublyLinkedList::getIteratorMode »](spldoublylinkedlist.getiteratormode.html)
+-   [SplDoublyLinkedList::getIteratorMode »](spldoublylinkedlist.getiteratormode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
     
 -   Повертає поточний елемент масиву
     

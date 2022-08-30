@@ -1,12 +1,12 @@
 Задає межу зрізу обведення
 
--   [« ImagickDraw::setStrokeLineJoin](imagickdraw.setstrokelinejoin.html)
+-   [« ImagickDraw::setStrokeLineJoin](imagickdraw.setstrokelinejoin.md)
     
--   [ImagickDraw::setStrokeOpacity »](imagickdraw.setstrokeopacity.html)
+-   [ImagickDraw::setStrokeOpacity »](imagickdraw.setstrokeopacity.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Задає межу зрізу обведення
     

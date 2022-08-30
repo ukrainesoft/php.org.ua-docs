@@ -1,12 +1,12 @@
 Перевірка допустимості елемента
 
--   [« RecursiveTreeIterator::setPrefixPart](recursivetreeiterator.setprefixpart.html)
+-   [« RecursiveTreeIterator::setPrefixPart](recursivetreeiterator.setprefixpart.md)
     
--   [RegexIterator »](class.regexiterator.html)
+-   [RegexIterator »](class.regexiterator.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+-   [RecursiveTreeIterator](class.recursivetreeiterator.md)
     
 -   Перевірка допустимості елемента
     

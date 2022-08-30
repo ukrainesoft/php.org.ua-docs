@@ -1,12 +1,12 @@
 Document успадковує CommonMarkNode
 
--   [« Установка](cmark.installation.html)
+-   [« Установка](cmark.installation.md)
     
 -   [CommonMarkNodeHeading »](class.commonmark-node-heading.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [CommonMark](book.cmark.html)
+-   [CommonMark](book.cmark.md)
     
 -   Document успадковує CommonMarkNode
     

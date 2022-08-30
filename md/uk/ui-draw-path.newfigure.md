@@ -4,7 +4,7 @@
     
 -   [ОЙDrawPath::newFigureWithArc »](ui-draw-path.newfigurewitharc.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙDrawPath](class.ui-draw-path.html)
     

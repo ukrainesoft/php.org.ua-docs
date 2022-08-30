@@ -4,7 +4,7 @@ else
     
 -   [elseif/else if »](control-structures.elseif.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Управляющие конструкции](language.control-structures.html)
     

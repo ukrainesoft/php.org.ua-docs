@@ -1,12 +1,12 @@
 Конструктор класу RegexIterator
 
--   [« RegexIterator::accept](regexiterator.accept.html)
+-   [« RegexIterator::accept](regexiterator.accept.md)
     
--   [RegexIterator::getFlags »](regexiterator.getflags.html)
+-   [RegexIterator::getFlags »](regexiterator.getflags.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RegexIterator](class.regexiterator.html)
+-   [RegexIterator](class.regexiterator.md)
     
 -   Конструктор класу RegexIterator
     
@@ -20,13 +20,13 @@ RegexIterator::construct - Конструктор класу RegexIterator
 ### Опис
 
 public **RegexIterator::construct**  
-[Iterator](class.iterator.html) `$iterator`  
+[Iterator](class.iterator.md) `$iterator`  
 string `$pattern`  
 int `$mode` = RegexIterator::MATCH,  
 int `$flags`  
 int `$pregFlags`
 
-Створює новий об'єкт класу [RegexIterator](class.regexiterator.html), який фільтрує елементи ітератора [Iterator](class.iterator.html) ґрунтуючись на регулярному вираженні.
+Створює новий об'єкт класу [RegexIterator](class.regexiterator.md), який фільтрує елементи ітератора [Iterator](class.iterator.md) ґрунтуючись на регулярному вираженні.
 
 ### Список параметрів
 
@@ -40,29 +40,29 @@ int `$pregFlags`
 
 `mode`
 
-Режим роботи. Список можливих режимів можна переглянути в описі методу [RegexIterator::setMode()](regexiterator.setmode.html)
+Режим роботи. Список можливих режимів можна переглянути в описі методу [RegexIterator::setMode()](regexiterator.setmode.md)
 
 `flags`
 
-Спеціальні прапори. Список можливих прапорів наведено в описі методу [RegexIterator::setFlags()](regexiterator.setflags.html)
+Спеціальні прапори. Список можливих прапорів наведено в описі методу [RegexIterator::setFlags()](regexiterator.setflags.md)
 
 `pregFlags`
 
 Прапори регулярного вираження. Список можливих прапорів залежить від режиму роботи:
 
-**[RegexIterator](class.regexiterator.html) pregflags**
+**[RegexIterator](class.regexiterator.md) pregflags**
 
-| режим работы              | доступные флаги                                         |
-|---------------------------|---------------------------------------------------------|
+| режим работы | доступные флаги |
+| --- | --- |
 | RegexIterator::ALLMATCHES | Дивіться [pregmatchall()](function.preg-match-all.html) |
-| RegexIterator::GETMATCH   | Дивіться [pregmatch()](function.preg-match.html)        |
-| RegexIterator::MATCH      | Дивіться [pregmatch()](function.preg-match.html)        |
-| RegexIterator::REPLACE    | ні                                                      |
-| RegexIterator::SPLIT      | Дивіться [pregsplit()](function.preg-split.html)        |
+| RegexIterator::GETMATCH | Дивіться [pregmatch()](function.preg-match.html) |
+| RegexIterator::MATCH | Дивіться [pregmatch()](function.preg-match.html) |
+| RegexIterator::REPLACE | ні |
+| RegexIterator::SPLIT | Дивіться [pregsplit()](function.preg-split.html) |
 
 ### Помилки
 
-Викидає виняток [InvalidArgumentException](class.invalidargumentexception.html), якщо `pattern` заданий некоректно.
+Викидає виняток [InvalidArgumentException](class.invalidargumentexception.md), якщо `pattern` заданий некоректно.
 
 ### Приклади
 

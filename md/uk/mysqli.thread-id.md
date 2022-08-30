@@ -4,9 +4,9 @@
     
 -   [mysqli::threadsafe »](mysqli.thread-safe.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [mysqli](class.mysqli.html)
+-   [mysqli](class.mysqli.md)
     
 -   Повертає ID процесу поточного підключення
     
@@ -31,7 +31,7 @@ int [$mysqli->threadід](mysqli.thread-id.html)
 mysqli_thread_id(mysqli $mysql): int
 ```
 
-**mysqlithreadid()** повертає ID процесу поточного підключення, який можна завершити функцією [mysqlikill()](mysqli.kill.html). Якщо з'єднання було розірвано та відновлено функцією [mysqliping()](mysqli.ping.html), ID процесу буде вже іншим. Тому потрібно отримувати цей ідентифікатор, коли це справді необхідно.
+**mysqlithreadid()** повертає ID процесу поточного підключення, який можна завершити функцією [mysqlikill()](mysqli.kill.md). Якщо з'єднання було розірвано та відновлено функцією [mysqliping()](mysqli.ping.md), ID процесу буде вже іншим. Тому потрібно отримувати цей ідентифікатор, коли це справді необхідно.
 
 > **Зауваження**
 > 
@@ -43,7 +43,7 @@ mysqli_thread_id(mysqli $mysql): int
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -119,4 +119,4 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqlikill()](mysqli.kill.html) - Запит для сервера завершити виконання процесу MySQL
+-   [mysqlikill()](mysqli.kill.md) - Запит для сервера завершити виконання процесу MySQL

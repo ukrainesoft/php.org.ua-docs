@@ -1,12 +1,12 @@
 Повертає префікс простору імен вузла з URI простору імен
 
--   [« DOMNode::lookupNamespaceUri](domnode.lookupnamespaceuri.html)
+-   [« DOMNode::lookupNamespaceUri](domnode.lookupnamespaceuri.md)
     
--   [DOMNode::normalize »](domnode.normalize.html)
+-   [DOMNode::normalize »](domnode.normalize.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMNode](class.domnode.html)
+-   [DOMNode](class.domnode.md)
     
 -   Повертає префікс простору імен вузла з URI простору імен
     
@@ -37,4 +37,4 @@ URI простір імен.
 
 ### Дивіться також
 
--   [DOMNode::lookupNamespaceUri()](domnode.lookupnamespaceuri.html) - Отримує URI простору імен вузла за префіксом
+-   [DOMNode::lookupNamespaceUri()](domnode.lookupnamespaceuri.md) - Отримує URI простору імен вузла за префіксом

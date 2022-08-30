@@ -4,9 +4,9 @@
     
 -   [shmputvar »](function.shm-put-var.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції семафорів](ref.sem.html)
+-   [Функції семафорів](ref.sem.md)
     
 -   Перевіряє, чи існує конкретний запис
     
@@ -41,9 +41,9 @@ shm_has_var(SysvSharedMemory $shm, int $key): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                          |
-|--------|-------------------------------------------------------------------------------------------------------------------|
-|        | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

@@ -15,17 +15,17 @@
 
 -   [OAuth](book.oauth.html)
     -   [Введение](intro.oauth.html)
-    -   [Установка и настройка](oauth.setup.html)
-    -   [Предопределённые константы](oauth.constants.html)
-    -   [Примеры](oauth.examples.html)
+    -   [Встановлення та налаштування](oauth.setup.html)
+    -   [Обумовлені константи](oauth.constants.html)
+    -   [Приклади](oauth.examples.html)
     -   [Функции OAuth](ref.oauth.html)
     -   [OAuth](class.oauth.html) - Клас OAuth
     -   [OAuthProvider](class.oauthprovider.html) - Клас OAuthProvider
     -   [OAuthException](class.oauthexception.html) - Клас OAuthException
 -   [SOAP](book.soap.html)
     -   [Введение](intro.soap.html)
-    -   [Установка и настройка](soap.setup.html)
-    -   [Предопределённые константы](soap.constants.html)
+    -   [Встановлення та налаштування](soap.setup.html)
+    -   [Обумовлені константи](soap.constants.html)
     -   [Функции SOAP](ref.soap.html)
     -   [SoapClient](class.soapclient.html) - Клас SoapClient
     -   [SoapServer](class.soapserver.html) - Клас SoapServer
@@ -35,9 +35,9 @@
     -   [SoapVar](class.soapvar.html) - Клас SoapVar
 -   [Yar](book.yar.html) — Ще один RPC-фреймворк
     -   [Введение](intro.yar.html)
-    -   [Установка и настройка](yar.setup.html)
-    -   [Предопределённые константы](yar.constants.html)
-    -   [Примеры](yar.examples.html)
+    -   [Встановлення та налаштування](yar.setup.html)
+    -   [Обумовлені константи](yar.constants.html)
+    -   [Приклади](yar.examples.html)
     -   [YarServer](class.yar-server.html) - Клас YarServer
     -   [YarClient](class.yar-client.html) - Клас YarClient
     -   [YarConcurrentClient](class.yar-concurrent-client.html) - Клас YarConcurrentClient
@@ -45,6 +45,6 @@
     -   [YarClientException](class.yar-client-exception.html) - Клас YarClientException
 -   [XML-RPC](book.xmlrpc.html)
     -   [Введение](intro.xmlrpc.html)
-    -   [Установка и настройка](xmlrpc.setup.html)
-    -   [Предопределённые константы](xmlrpc.constants.html)
+    -   [Встановлення та налаштування](xmlrpc.setup.html)
+    -   [Обумовлені константи](xmlrpc.constants.html)
     -   [Функції XML-RPC](ref.xmlrpc.html)

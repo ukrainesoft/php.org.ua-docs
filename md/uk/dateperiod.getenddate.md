@@ -1,12 +1,12 @@
 Повертає кінцеву дату періоду
 
--   [« DatePeriod::getDateInterval](dateperiod.getdateinterval.html)
+-   [« DatePeriod::getDateInterval](dateperiod.getdateinterval.md)
     
--   [DatePeriod::getRecurrences »](dateperiod.getrecurrences.html)
+-   [DatePeriod::getRecurrences »](dateperiod.getrecurrences.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DatePeriod](class.dateperiod.html)
+-   [DatePeriod](class.dateperiod.md)
     
 -   Повертає кінцеву дату періоду
     
@@ -33,11 +33,11 @@ public DatePeriod::getEndDate(): ?DateTimeInterface
 
 ### Значення, що повертаються
 
-Повертає **`null`**, якщо [DatePeriod](class.dateperiod.html) не містить кінцевої дати. Наприклад, при ініціалізації з параметром `recurrences` або `isostr` без зазначення кінцевої дати.
+Повертає **`null`**, якщо [DatePeriod](class.dateperiod.md) не містить кінцевої дати. Наприклад, при ініціалізації з параметром `recurrences` або `isostr` без зазначення кінцевої дати.
 
-Повертає об'єкт [DateTimeImmutable](class.datetimeimmutable.html), коли [DatePeriod](class.dateperiod.html) ініціалізований з об'єктом [DateTimeImmutable](class.datetimeimmutable.html) як параметр `end`
+Повертає об'єкт [DateTimeImmutable](class.datetimeimmutable.md), коли [DatePeriod](class.dateperiod.md) ініціалізований з об'єктом [DateTimeImmutable](class.datetimeimmutable.md) як параметр `end`
 
-В іншому випадку повертає клонований об'єкт (object) [DateTime](class.datetime.html), що представляє дату закінчення.
+В іншому випадку повертає клонований об'єкт (object) [DateTime](class.datetime.md), що представляє дату закінчення.
 
 ### Приклади
 
@@ -82,5 +82,5 @@ NULL
 
 ### Дивіться також
 
--   [DatePeriod::getStartDate()](dateperiod.getstartdate.html) - Повертає початкову дату періоду
--   [DatePeriod::getDateInterval()](dateperiod.getdateinterval.html) - Повертає інтервал
+-   [DatePeriod::getStartDate()](dateperiod.getstartdate.md) - Повертає початкову дату періоду
+-   [DatePeriod::getDateInterval()](dateperiod.getdateinterval.md) - Повертає інтервал

@@ -1,12 +1,12 @@
 Отримати останнє критичне повідомлення на екземплярі varnish
 
--   [« VarnishAdmin::disconnect](varnishadmin.disconnect.html)
+-   [« VarnishAdmin::disconnect](varnishadmin.disconnect.md)
     
--   [VarnishAdmin::getParams »](varnishadmin.getparams.html)
+-   [VarnishAdmin::getParams »](varnishadmin.getparams.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [VarnishAdmin](class.varnishadmin.html)
+-   [VarnishAdmin](class.varnishadmin.md)
     
 -   Отримати останнє критичне повідомлення на екземплярі varnish
     

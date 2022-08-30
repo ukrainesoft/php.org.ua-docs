@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.html)
     
 -   Псевдонім DateTimeZone::getOffset
     

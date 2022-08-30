@@ -1,12 +1,12 @@
 Отримує ідентифікатор групи файлу
 
--   [« filectime](function.filectime.html)
+-   [« filectime](function.filectime.md)
     
--   [fileinode »](function.fileinode.html)
+-   [fileinode »](function.fileinode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції файлової системи](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.md)
     
 -   Отримує ідентифікатор групи файлу
     
@@ -52,13 +52,13 @@ print_r(posix_getgrgid(filegroup($filename)));
 
 ### Примітки
 
-> **Зауваження**: Результати цієї функції кешуються Більш детальну інформацію дивіться у розділі [clearstatcache()](function.clearstatcache.html)
+> **Зауваження**: Результати цієї функції кешуються Більш детальну інформацію дивіться у розділі [clearstatcache()](function.clearstatcache.md)
 
 **Підказка**
 
-Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.html), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.html)
+Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.md), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Дивіться також
 
--   [fileowner()](function.fileowner.html) - Повертає ідентифікатор власника файлу
+-   [fileowner()](function.fileowner.md) - Повертає ідентифікатор власника файлу
 -   [posixgetgrgid()](function.posix-getgrgid.html) - Повертає інформацію про групу за її ID

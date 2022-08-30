@@ -1,12 +1,12 @@
 Створює новий екземпляр IntlDatePatternGenerator
 
--   [« IntlDatePatternGenerator](class.intldatepatterngenerator.html)
+-   [« IntlDatePatternGenerator](class.intldatepatterngenerator.md)
     
--   [IntlDatePatternGenerator::getBestPattern »](intldatepatterngenerator.getbestpattern.html)
+-   [IntlDatePatternGenerator::getBestPattern »](intldatepatterngenerator.getbestpattern.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlDatePatternGenerator](class.intldatepatterngenerator.html)
+-   [IntlDatePatternGenerator](class.intldatepatterngenerator.md)
     
 -   Створює новий екземпляр IntlDatePatternGenerator
     
@@ -27,7 +27,7 @@ public static IntlDatePatternGenerator::create(string $locale = null): ?IntlDate
 
 public **IntlDatePatternGenerator::construct**(string `$locale` **`null`**
 
-Створює новий екземпляр [IntlDatePatternGenerator](class.intldatepatterngenerator.html)
+Створює новий екземпляр [IntlDatePatternGenerator](class.intldatepatterngenerator.md)
 
 ### Список параметрів
 
@@ -37,4 +37,4 @@ public **IntlDatePatternGenerator::construct**(string `$locale` **`null`**
 
 ### Значення, що повертаються
 
-Повертає екземпляр [IntlDatePatternGenerator](class.intldatepatterngenerator.html) у разі успішного виконання або **`null`** у разі виникнення помилки.
+Повертає екземпляр [IntlDatePatternGenerator](class.intldatepatterngenerator.md) у разі успішного виконання або **`null`** у разі виникнення помилки.

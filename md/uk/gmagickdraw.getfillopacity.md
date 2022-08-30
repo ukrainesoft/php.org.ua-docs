@@ -1,12 +1,12 @@
 Повертає значення прозорості, що використовується при малюванні
 
--   [« GmagickDraw::getfillcolor](gmagickdraw.getfillcolor.html)
+-   [« GmagickDraw::getfillcolor](gmagickdraw.getfillcolor.md)
     
--   [GmagickDraw::getfont »](gmagickdraw.getfont.html)
+-   [GmagickDraw::getfont »](gmagickdraw.getfont.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickDraw](class.gmagickdraw.html)
+-   [GmagickDraw](class.gmagickdraw.md)
     
 -   Повертає значення прозорості, що використовується при малюванні
     

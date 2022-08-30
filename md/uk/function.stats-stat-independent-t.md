@@ -4,9 +4,9 @@
     
 -   [statsstatinnerproduct »](function.stats-stat-innerproduct.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.md)
     
 -   Отримати значення t для двовибіркового t-критерію Стьюдента для незалежних вибірок
     

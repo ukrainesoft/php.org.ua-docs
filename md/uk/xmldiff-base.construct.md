@@ -4,7 +4,7 @@
     
 -   [XMLDiffBase::diff »](xmldiff-base.diff.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [XMLDiffBase](class.xmldiff-base.html)
     

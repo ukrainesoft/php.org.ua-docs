@@ -1,12 +1,12 @@
 Отримує модифікатори методу
 
--   [« ReflectionMethod::getDeclaringClass](reflectionmethod.getdeclaringclass.html)
+-   [« ReflectionMethod::getDeclaringClass](reflectionmethod.getdeclaringclass.md)
     
--   [ReflectionMethod::getPrototype »](reflectionmethod.getprototype.html)
+-   [ReflectionMethod::getPrototype »](reflectionmethod.getprototype.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionMethod](class.reflectionmethod.html)
+-   [ReflectionMethod](class.reflectionmethod.md)
     
 -   Отримує модифікатори методу
     
@@ -31,7 +31,7 @@ public ReflectionMethod::getModifiers(): int
 
 ### Значення, що повертаються
 
-Числове уявлення модифікаторів. Описи та значення цих модифікаторів наведено у списку [предопределённых констант](class.reflectionmethod.html#reflectionmethod.constants.modifiers)
+Числове уявлення модифікаторів. Описи та значення цих модифікаторів наведено у списку [зумовлених констант](class.reflectionmethod.html#reflectionmethod.constants.modifiers)
 
 ### Приклади
 
@@ -78,4 +78,4 @@ public
 
 ### Дивіться також
 
--   [Reflection::getModifierNames()](reflection.getmodifiernames.html) - Отримання імен модифікаторів
+-   [Reflection::getModifierNames()](reflection.getmodifiernames.md) - Отримання імен модифікаторів

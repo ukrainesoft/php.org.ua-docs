@@ -1,12 +1,12 @@
 Встановлює непрозорість при малюванні за допомогою кольору або текстури заливки.
 
--   [« ImagickDraw::setFillColor](imagickdraw.setfillcolor.html)
+-   [« ImagickDraw::setFillColor](imagickdraw.setfillcolor.md)
     
--   [ImagickDraw::setFillPatternURL »](imagickdraw.setfillpatternurl.html)
+-   [ImagickDraw::setFillPatternURL »](imagickdraw.setfillpatternurl.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ImagickDraw](class.imagickdraw.html)
+-   [ImagickDraw](class.imagickdraw.md)
     
 -   Встановлює непрозорість при малюванні за допомогою кольору або текстури заливки.
     

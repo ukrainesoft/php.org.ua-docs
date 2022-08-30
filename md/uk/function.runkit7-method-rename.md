@@ -4,9 +4,9 @@
     
 -   [runkit7objectid »](function.runkit7-object-id.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції runkit7](ref.runkit7.html)
+-   [Функції runkit7](ref.runkit7.md)
     
 -   Динамічно змінює ім'я заданого методу
     

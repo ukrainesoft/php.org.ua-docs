@@ -4,9 +4,9 @@
     
 -   [мбord »](function.mb-ord.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
     
 -   Повертає масив усіх підтримуваних кодувань
     

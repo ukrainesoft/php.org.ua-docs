@@ -4,7 +4,7 @@
     
 -   [BaseResult::getWarningsCount »](mysql-xdevapi-baseresult.getwarningscount.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlxdevapiBaseResult](class.mysql-xdevapi-baseresult.html)
     

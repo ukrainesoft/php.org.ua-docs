@@ -1,12 +1,12 @@
 Псевдонім DateTime::add
 
--   [« checkdate](function.checkdate.html)
+-   [« checkdate](function.checkdate.md)
     
 -   [datecreatefromformat »](function.date-create-from-format.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции даты и времени](ref.datetime.html)
+-   [Функції дати та часу](ref.datetime.md)
     
 -   Псевдонім DateTime::add
     
@@ -15,8 +15,8 @@
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-dateadd - Псевдонім [DateTime::add()](datetime.add.html)
+dateadd - Псевдонім [DateTime::add()](datetime.add.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateTime::add()](datetime.add.html)
+Ця функція є псевдонімом: [DateTime::add()](datetime.add.md)

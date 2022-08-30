@@ -1,12 +1,12 @@
 Повертає усі поля статистики
 
--   [« SolrQuery::getStatsFacets](solrquery.getstatsfacets.html)
+-   [« SolrQuery::getStatsFacets](solrquery.getstatsfacets.md)
     
--   [SolrQuery::getTerms »](solrquery.getterms.html)
+-   [SolrQuery::getTerms »](solrquery.getterms.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає усі поля статистики
     

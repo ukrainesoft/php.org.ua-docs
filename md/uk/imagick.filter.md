@@ -1,12 +1,12 @@
 Опис
 
--   [« Imagick::extentImage](imagick.extentimage.html)
+-   [« Imagick::extentImage](imagick.extentimage.md)
     
--   [Imagick::flattenImages »](imagick.flattenimages.html)
+-   [Imagick::flattenImages »](imagick.flattenimages.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Опис
     
@@ -37,7 +37,7 @@ public Imagick::filter(ImagickKernel $ImagickKernel, int $channel = Imagick::CHA
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константы каналов](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
 
 ### Значення, що повертаються
 

@@ -1,12 +1,12 @@
 Повертає вміст елемента на його ім'я
 
--   [« ZipArchive::getFromIndex](ziparchive.getfromindex.html)
+-   [« ZipArchive::getFromIndex](ziparchive.getfromindex.md)
     
--   [ZipArchive::getNameIndex »](ziparchive.getnameindex.html)
+-   [ZipArchive::getNameIndex »](ziparchive.getnameindex.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Повертає вміст елемента на його ім'я
     
@@ -81,4 +81,4 @@ if ($z->open(dirname(__FILE__) . '/test_im.zip')) {
 
 ### Дивіться також
 
--   [ZipArchive::getFromIndex()](ziparchive.getfromindex.html) - Повертає вміст елемента за його індексом
+-   [ZipArchive::getFromIndex()](ziparchive.getfromindex.md) - Повертає вміст елемента за його індексом

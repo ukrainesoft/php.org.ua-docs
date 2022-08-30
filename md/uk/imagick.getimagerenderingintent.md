@@ -1,12 +1,12 @@
 Повертає схему передачі кольору зображення
 
--   [« Imagick::getImageRegion](imagick.getimageregion.html)
+-   [« Imagick::getImageRegion](imagick.getimageregion.md)
     
--   [Imagick::getImageResolution »](imagick.getimageresolution.html)
+-   [Imagick::getImageResolution »](imagick.getimageresolution.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає схему передачі кольору зображення
     

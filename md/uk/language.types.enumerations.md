@@ -1,12 +1,12 @@
 Перерахування
 
--   [« Объекты](language.types.object.html)
+-   [« Об'єкти](language.types.object.md)
     
--   [Ресурс »](language.types.resource.html)
+-   [Ресурс »](language.types.resource.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Типы](language.types.html)
+-   [Типи](language.types.md)
     
 -   Перерахування
     
@@ -36,7 +36,7 @@ do_stuff(Suit::Spades);
 ?>
 ```
 
-Повний опис дивіться у розділі про [перечислениях](language.enumerations.html)
+Повний опис дивіться у розділі про [перечислениях](language.enumerations.md)
 
 ### Casting
 

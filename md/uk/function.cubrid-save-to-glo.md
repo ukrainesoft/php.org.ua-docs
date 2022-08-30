@@ -4,9 +4,9 @@
     
 -   [cubridsendglo »](function.cubrid-send-glo.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Устаревшие псевдонимы и функции CUBRID](oldaliases.cubrid.html)
+-   [Застарілі псевдоніми та функції CUBRID](oldaliases.cubrid.md)
     
 -   Зберігає запитаний файл в екземплярі GLO
     

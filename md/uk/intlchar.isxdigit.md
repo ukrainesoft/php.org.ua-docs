@@ -1,12 +1,12 @@
 Перевірити, чи є символ шістнадцятковою цифрою
 
--   [« IntlChar::isWhitespace](intlchar.iswhitespace.html)
+-   [« IntlChar::isWhitespace](intlchar.iswhitespace.md)
     
--   [IntlChar::ord »](intlchar.ord.html)
+-   [IntlChar::ord »](intlchar.ord.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити, чи є символ шістнадцятковою цифрою
     
@@ -73,4 +73,4 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isdigit()](intlchar.isdigit.html) - Перевірити, чи є символ цифрою
+-   [IntlChar::isdigit()](intlchar.isdigit.md) - Перевірити, чи є символ цифрою

@@ -1,12 +1,12 @@
 Встановлює режим збереження SoapServer
 
--   [« SoapServer::setObject](soapserver.setobject.html)
+-   [« SoapServer::setObject](soapserver.setobject.md)
     
--   [SoapFault »](class.soapfault.html)
+-   [SoapFault »](class.soapfault.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SoapServer](class.soapserver.html)
+-   [SoapServer](class.soapserver.md)
     
 -   Встановлює режим збереження SoapServer
     
@@ -23,7 +23,7 @@ SoapServer::setPersistence — Встановлює режим збережен�
 public SoapServer::setPersistence(int $mode): void
 ```
 
-Ця функція дозволяє змінювати режим збереження об'єкта SoapServer між запитами. Ця функція дозволяє зберігати дані між запитами, використовуючи механізм сесій PHP. Цей метод впливає лише на SoapServer після експорту функцій, використовуючи [SoapServer::setClass()](soapserver.setclass.html)
+Ця функція дозволяє змінювати режим збереження об'єкта SoapServer між запитами. Ця функція дозволяє зберігати дані між запитами, використовуючи механізм сесій PHP. Цей метод впливає лише на SoapServer після експорту функцій, використовуючи [SoapServer::setClass()](soapserver.setclass.md)
 
 > **Зауваження**
 > 
@@ -31,7 +31,7 @@ public SoapServer::setPersistence(int $mode): void
 
 > **Зауваження**
 > 
-> **`SOAP_PERSISTENCE_SESSION`** серіалізує дані об'єкта класу та зберігає їх між запитами. Для коректної роботи з ресурсами (наприклад, [PDO](class.pdo.html)), слід використовувати магічні методи [wakeup()](language.oop5.magic.html#object.wakeup) і [sleep()](language.oop5.magic.html#object.sleep)
+> **`SOAP_PERSISTENCE_SESSION`** серіалізує дані об'єкта класу та зберігає їх між запитами. Для коректної роботи з ресурсами (наприклад, [PDO](class.pdo.md)), слід використовувати магічні методи [wakeup()](language.oop5.magic.html#object.wakeup) і [sleep()](language.oop5.magic.html#object.sleep)
 
 ### Список параметрів
 
@@ -41,7 +41,7 @@ public SoapServer::setPersistence(int $mode): void
 
 **`SOAP_PERSISTENCE_REQUEST`** - дані SoapServer не зберігаються між запитами. Ця поведінка *за замовчуванням* будь-якого об'єкта SoapServer після виклику setClass.
 
-**`SOAP_PERSISTENCE_SESSION`** - Дані SoapServer зберігаються між запитами. Це досягається шляхом серіалізації об'єкта SoapServer в [SESSION\['bogussessionname'\]](reserved.variables.session.html), отже необхідно викликати [sessionstart()](function.session-start.html) перед увімкненням цього режиму.
+**`SOAP_PERSISTENCE_SESSION`** - Дані SoapServer зберігаються між запитами. Це досягається шляхом серіалізації об'єкта SoapServer в [SESSION\['bogussessionname'\]](reserved.variables.session.md), отже необхідно викликати [sessionstart()](function.session-start.html) перед увімкненням цього режиму.
 
 ### Значення, що повертаються
 
@@ -90,4 +90,4 @@ public SoapServer::setPersistence(int $mode): void
 
 ### Дивіться також
 
--   [SoapServer::setClass()](soapserver.setclass.html) - Встановлює клас, який обробляє SOAP-запити
+-   [SoapServer::setClass()](soapserver.setclass.md) - Встановлює клас, який обробляє SOAP-запити

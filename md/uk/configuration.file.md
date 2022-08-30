@@ -1,12 +1,12 @@
 Файл конфігурації
 
--   [« Конфигурация времени выполнения](configuration.html)
+-   [« Конфігурація часу виконання](configuration.html)
     
--   [Файлы .user.ini »](configuration.file.per-user.html)
+-   [Файли .user.ini »](configuration.file.per-user.html)
     
 -   [PHP Manual](index.html)
     
--   [Конфигурация времени выполнения](configuration.html)
+-   [Конфігурація часу виконання](configuration.html)
     
 -   Файл конфігурації
     

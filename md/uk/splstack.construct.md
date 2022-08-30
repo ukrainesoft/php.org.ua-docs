@@ -1,12 +1,12 @@
 Створює новий стек, реалізований за допомогою двозв'язкового списку
 
--   [« SplStack](class.splstack.html)
+-   [« SplStack](class.splstack.md)
     
--   [SplStack::setIteratorMode »](splstack.setiteratormode.html)
+-   [SplStack::setIteratorMode »](splstack.setiteratormode.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SplStack](class.splstack.html)
+-   [SplStack](class.splstack.md)
     
 -   Створює новий стек, реалізований за допомогою двозв'язкового списку
     

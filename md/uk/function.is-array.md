@@ -1,12 +1,12 @@
 Визначає, чи є змінна масивом
 
--   [« intval](function.intval.html)
+-   [« intval](function.intval.md)
     
 -   [ісbool »](function.is-bool.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи зі змінними](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.md)
     
 -   Визначає, чи є змінна масивом
     
@@ -41,22 +41,22 @@ is_array(mixed $value): bool
 
 ```php
 <?php
-$yes = array('это', 'массив');
+$yes = array('это', 'Масив');
 
-echo is_array($yes) ? 'Массив' : 'Не массив';
+echo is_array($yes) ? 'Масив' : 'Не Масив';
 echo "\n";
 
 $no = 'это строка';
 
-echo is_array($no) ? 'Массив' : 'Не массив';
+echo is_array($no) ? 'Масив' : 'Не Масив';
 ?>
 ```
 
 Результат виконання цього прикладу:
 
 ```
-Массив
-Не массив
+Масив
+Не Масив
 ```
 
 ### Дивіться також

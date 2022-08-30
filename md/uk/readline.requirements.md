@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](readline.setup.html)
+-   [« Встановлення та налаштування](readline.setup.html)
     
 -   [Установка »](readline.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](readline.setup.html)
+-   [Встановлення та налаштування](readline.setup.html)
     
 -   Вимоги
     

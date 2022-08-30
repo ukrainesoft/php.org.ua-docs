@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverServer::isArbiter »](mongodb-driver-server.isarbiter.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverServer](class.mongodb-driver-server.html)
     

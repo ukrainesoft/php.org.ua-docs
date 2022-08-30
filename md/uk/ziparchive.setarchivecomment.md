@@ -1,12 +1,12 @@
 Встановлює коментар до ZIP-архіву
 
--   [« ZipArchive::replaceFile](ziparchive.replacefile.html)
+-   [« ZipArchive::replaceFile](ziparchive.replacefile.md)
     
--   [ZipArchive::setCommentIndex »](ziparchive.setcommentindex.html)
+-   [ZipArchive::setCommentIndex »](ziparchive.setcommentindex.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ZipArchive](class.ziparchive.html)
+-   [ZipArchive](class.ziparchive.md)
     
 -   Встановлює коментар до ZIP-архіву
     

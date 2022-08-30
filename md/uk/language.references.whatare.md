@@ -1,12 +1,12 @@
 Що таке посилання
 
--   [« Объяснение ссылок](language.references.html)
+-   [« Пояснення посилань](language.references.html)
     
 -   [Що роблять посилання »](language.references.whatdo.html)
     
 -   [PHP Manual](index.html)
     
--   [Объяснение ссылок](language.references.html)
+-   [Пояснення посилань](language.references.html)
     
 -   Що таке посилання
     

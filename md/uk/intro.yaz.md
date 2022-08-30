@@ -2,7 +2,7 @@
 
 -   [« YAZ](book.yaz.html)
     
--   [Установка и настройка »](yaz.setup.html)
+-   [Встановлення та налаштування »](yaz.setup.html)
     
 -   [PHP Manual](index.html)
     

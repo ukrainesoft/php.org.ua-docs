@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](cmark.setup.html)
+-   [« Встановлення та налаштування](cmark.setup.html)
     
 -   [Установка »](cmark.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](cmark.setup.html)
+-   [Встановлення та налаштування](cmark.setup.html)
     
 -   Вимоги
     

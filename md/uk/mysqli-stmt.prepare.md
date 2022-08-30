@@ -4,7 +4,7 @@
     
 -   [mysqlistmt::reset »](mysqli-stmt.reset.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [mysqlistmt](class.mysqli-stmt.html)
     

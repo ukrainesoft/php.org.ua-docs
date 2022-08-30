@@ -2,7 +2,7 @@
 
 -   [« Введение](intro.ui.html)
     
--   [Требования »](ui.requirements.html)
+-   [Вимоги »](ui.requirements.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [Требования](ui.requirements.html)
+-   [Вимоги](ui.requirements.html)
 -   [Установка](ui.installation.html)

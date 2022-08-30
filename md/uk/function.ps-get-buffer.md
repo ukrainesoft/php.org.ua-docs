@@ -4,9 +4,9 @@
     
 -   [псgetparameter »](function.ps-get-parameter.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції PS](ref.ps.html)
+-   [Функції PS](ref.ps.md)
     
 -   Отримує повний буфер, що містить згенеровані дані PS
     

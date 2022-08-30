@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](xdiff.resources.html)
+-   [« Типи ресурсів](xdiff.resources.md)
     
--   [Функції xdiff »](ref.xdiff.html)
+-   [Функції xdiff »](ref.xdiff.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [xdiff](book.xdiff.html)
+-   [xdiff](book.xdiff.md)
     
 -   Обумовлені константи
     

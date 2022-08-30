@@ -1,12 +1,12 @@
 Повертає вагу зв'язку
 
--   [« FANNConnection::getToNeuron](fannconnection.gettoneuron.html)
+-   [« FANNConnection::getToNeuron](fannconnection.gettoneuron.md)
     
--   [FANNConnection::setWeight »](fannconnection.setweight.html)
+-   [FANNConnection::setWeight »](fannconnection.setweight.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FANNConnection](class.fannconnection.html)
+-   [FANNConnection](class.fannconnection.md)
     
 -   Повертає вагу зв'язку
     

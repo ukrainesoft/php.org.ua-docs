@@ -1,12 +1,12 @@
 Повертає назву шрифту
 
--   [« Imagick::getFilename](imagick.getfilename.html)
+-   [« Imagick::getFilename](imagick.getfilename.md)
     
--   [Imagick::getFormat »](imagick.getformat.html)
+-   [Imagick::getFormat »](imagick.getformat.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає назву шрифту
     
@@ -35,6 +35,6 @@ public Imagick::getFont(): string
 
 ### Дивіться також
 
--   [Imagick::setFont()](imagick.setfont.html) - Встановлює шрифт
--   [ImagickDraw::setFont()](imagickdraw.setfont.html) - Встановлює вказаний шрифт для використання під час анотування текстом
--   [ImagickDraw::getFont()](imagickdraw.getfont.html) - Повертає шрифт
+-   [Imagick::setFont()](imagick.setfont.md) - Встановлює шрифт
+-   [ImagickDraw::setFont()](imagickdraw.setfont.md) - Встановлює вказаний шрифт для використання під час анотування текстом
+-   [ImagickDraw::getFont()](imagickdraw.getfont.md) - Повертає шрифт

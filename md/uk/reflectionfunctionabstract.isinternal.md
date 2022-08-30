@@ -1,12 +1,12 @@
 Перевіряє, чи є функція внутрішньої
 
--   [« ReflectionFunctionAbstract::isGenerator](reflectionfunctionabstract.isgenerator.html)
+-   [« ReflectionFunctionAbstract::isGenerator](reflectionfunctionabstract.isgenerator.md)
     
--   [ReflectionFunctionAbstract::isUserDefined »](reflectionfunctionabstract.isuserdefined.html)
+-   [ReflectionFunctionAbstract::isUserDefined »](reflectionfunctionabstract.isuserdefined.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
     
 -   Перевіряє, чи є функція внутрішньої
     
@@ -35,4 +35,4 @@ public ReflectionFunctionAbstract::isInternal(): bool
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::isUserDefined()](reflectionfunctionabstract.isuserdefined.html) - Перевіряє, чи функція є певною користувачем
+-   [ReflectionFunctionAbstract::isUserDefined()](reflectionfunctionabstract.isuserdefined.md) - Перевіряє, чи функція є певною користувачем

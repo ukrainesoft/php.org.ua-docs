@@ -1,12 +1,12 @@
 Перевіряє, чи очікує аргумент масив як значення
 
--   [« ReflectionParameter::hasType](reflectionparameter.hastype.html)
+-   [« ReflectionParameter::hasType](reflectionparameter.hastype.md)
     
--   [ReflectionParameter::isCallable »](reflectionparameter.iscallable.html)
+-   [ReflectionParameter::isCallable »](reflectionparameter.iscallable.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionParameter](class.reflectionparameter.html)
+-   [ReflectionParameter](class.reflectionparameter.md)
     
 -   Перевіряє, чи очікує аргумент масив як значення
     
@@ -64,4 +64,4 @@ function declaresArray(ReflectionParameter $reflectionParameter): bool
 
 ### Дивіться також
 
--   [ReflectionParameter::isOptional()](reflectionparameter.isoptional.html) - Перевіряє, чи є аргумент необов'язковим
+-   [ReflectionParameter::isOptional()](reflectionparameter.isoptional.md) - Перевіряє, чи є аргумент необов'язковим

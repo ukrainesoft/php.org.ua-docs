@@ -4,9 +4,9 @@
     
 -   [radiusgetattr »](function.radius-get-attr.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции Radius](ref.radius.html)
+-   [Функции Radius](ref.radius.md)
     
 -   Розшифровує дані
     

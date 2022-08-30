@@ -4,9 +4,9 @@
     
 -   [fdferror »](function.fdf-error.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FDF](ref.fdf.html)
+-   [FDF](ref.fdf.md)
     
 -   Повертає код помилки для останньої операції FDF
     

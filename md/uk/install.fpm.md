@@ -1,12 +1,12 @@
 Менеджер процесів FastCGI (FPM)
 
--   [« Amazon EC2](install.cloud.ec2.html)
+-   [« Amazon EC2](install.cloud.ec2.md)
     
--   [Установка »](install.fpm.install.html)
+-   [Установка »](install.fpm.install.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](install.html)
+-   [Встановлення та налаштування](install.md)
     
 -   Менеджер процесів FastCGI (FPM)
     
@@ -15,8 +15,8 @@
 
 ## Зміст
 
--   [Установка](install.fpm.install.html)
--   [Настройка](install.fpm.configuration.html)
+-   [Установка](install.fpm.install.md)
+-   [Настройка](install.fpm.configuration.md)
 
 FPM (FastCGI Process Manager, менеджер процесів FastCGI) є альтернативною реалізацією PHP FastCGI з кількома додатковими можливостями, що зазвичай використовуються для високонавантажених сайтів.
 

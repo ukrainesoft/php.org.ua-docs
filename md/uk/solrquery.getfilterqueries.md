@@ -1,12 +1,12 @@
 Повертає масив запитів фільтра
 
--   [« SolrQuery::getFields](solrquery.getfields.html)
+-   [« SolrQuery::getFields](solrquery.getfields.md)
     
--   [SolrQuery::getGroup »](solrquery.getgroup.html)
+-   [SolrQuery::getGroup »](solrquery.getgroup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SolrQuery](class.solrquery.html)
+-   [SolrQuery](class.solrquery.md)
     
 -   Повертає масив запитів фільтра
     

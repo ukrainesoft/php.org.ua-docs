@@ -1,12 +1,12 @@
 Встановлює колір для обведення контурів об'єкта.
 
--   [« GmagickDraw::setfontweight](gmagickdraw.setfontweight.html)
+-   [« GmagickDraw::setfontweight](gmagickdraw.setfontweight.md)
     
--   [GmagickDraw::setstrokeopacity »](gmagickdraw.setstrokeopacity.html)
+-   [GmagickDraw::setstrokeopacity »](gmagickdraw.setstrokeopacity.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GmagickDraw](class.gmagickdraw.html)
+-   [GmagickDraw](class.gmagickdraw.md)
     
 -   Встановлює колір для обведення контурів об'єкта.
     
@@ -29,8 +29,8 @@ public GmagickDraw::setstrokecolor(mixed $color): GmagickDraw
 
 `color`
 
-[GmagickPixel](class.gmagickpixel.html) або рядок (string), що представляє колір обведення.
+[GmagickPixel](class.gmagickpixel.md) або рядок (string), що представляє колір обведення.
 
 ### Значення, що повертаються
 
-Об'єкт [GmagickDraw](class.gmagickdraw.html) у разі успішного виконання.
+Об'єкт [GmagickDraw](class.gmagickdraw.md) у разі успішного виконання.

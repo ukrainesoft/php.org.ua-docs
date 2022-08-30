@@ -2,11 +2,11 @@
 
 -   [« Установка](yaz.installation.html)
     
--   [Типы ресурсов »](yaz.resources.html)
+-   [Типи ресурсів »](yaz.resources.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](yaz.setup.html)
+-   [Встановлення та налаштування](yaz.setup.html)
     
 -   Налаштування під час виконання
     

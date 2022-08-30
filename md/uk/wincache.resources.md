@@ -2,11 +2,11 @@
 
 -   [« Перенаправление функций WinCache](wincache.reroutes.html)
     
--   [Предопределённые константы »](wincache.constants.html)
+-   [Обумовлені константи »](wincache.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](wincache.setup.html)
+-   [Встановлення та налаштування](wincache.setup.html)
     
 -   Типи ресурсів
     

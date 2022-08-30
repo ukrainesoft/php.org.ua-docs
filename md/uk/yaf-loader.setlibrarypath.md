@@ -4,7 +4,7 @@
     
 -   [YafPluginAbstract »](class.yaf-plugin-abstract.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [YafLoader](class.yaf-loader.html)
     

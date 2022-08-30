@@ -1,29 +1,29 @@
 PostgreSQL
 
--   [« ociwritetemporarylob](function.ociwritetemporarylob.html)
+-   [« ociwritetemporarylob](function.ociwritetemporarylob.md)
     
--   [Введение »](intro.pgsql.html)
+-   [Введение »](intro.pgsql.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.html)
+-   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
     
 -   PostgreSQL
     
 
 # PostgreSQL
 
--   [Введение](intro.pgsql.html)
--   [Установка и настройка](pgsql.setup.html)
-    -   [Требования](pgsql.requirements.html)
-    -   [Установка](pgsql.installation.html)
-    -   [Настройка во время выполнения](pgsql.configuration.html)
-    -   [Типы ресурсов](pgsql.resources.html)
--   [Предопределённые константы](pgsql.constants.html)
--   [Примеры](pgsql.examples.html)
+-   [Введение](intro.pgsql.md)
+-   [Встановлення та налаштування](pgsql.setup.md)
+    -   [Вимоги](pgsql.requirements.md)
+    -   [Установка](pgsql.installation.md)
+    -   [Налаштування під час виконання](pgsql.configuration.md)
+    -   [Типи ресурсів](pgsql.resources.md)
+-   [Обумовлені константи](pgsql.constants.md)
+-   [Приклади](pgsql.examples.md)
     -   [Базовое использование](pgsql.examples-basic.html)
     -   [Базовое использование](pgsql.examples-queries.html)
--   [Функции PostgreSQL](ref.pgsql.html)
+-   [Функции PostgreSQL](ref.pgsql.md)
     -   [пгaffectedrows](function.pg-affected-rows.html) — Повертає кількість порушених запитом записів (кортежів)
     -   [пгcancelquery](function.pg-cancel-query.html) - Зупинення асинхронного запиту.
     -   [пгclientencoding](function.pg-client-encoding.html) - Отримання кодування клієнта.

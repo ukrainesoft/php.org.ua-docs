@@ -1,12 +1,12 @@
 Вивести повідомлення та припинити виконання поточного скрипту
 
--   [« eval](function.eval.html)
+-   [« eval](function.eval.md)
     
 -   [getbrowser »](function.get-browser.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Різні функції](ref.misc.html)
+-   [Різні функції](ref.misc.md)
     
 -   Вивести повідомлення та припинити виконання поточного скрипту
     
@@ -108,11 +108,11 @@ echo 'Эта строка не будет выведена.';
 
 ### Примітки
 
-> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [переменных функций](functions.variable-functions.html) або [именованных аргументов](functions.arguments.html#functions.named-arguments)
+> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [змінних функцій](functions.variable-functions.html) або [іменованих аргументів](functions.arguments.html#functions.named-arguments)
 
 > **Зауваження**
 > 
-> Ця мовна конструкція еквівалентна конструкції [die()](function.die.html)
+> Ця мовна конструкція еквівалентна конструкції [die()](function.die.md)
 
 ### Дивіться також
 

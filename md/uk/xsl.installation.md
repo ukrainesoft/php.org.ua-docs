@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Требования](xsl.requirements.html)
+-   [« Вимоги](xsl.requirements.md)
     
--   [Настройка во время выполнения »](xsl.configuration.html)
+-   [Налаштування під час виконання »](xsl.configuration.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка и настройка](xsl.setup.html)
+-   [Встановлення та налаштування](xsl.setup.md)
     
 -   Встановлення
     

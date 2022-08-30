@@ -51,9 +51,9 @@ locale_get_display_language(string $locale, ?string $displayLocale = null): stri
 
 ### список змін
 
-| Версия | Описание                                      |
-|--------|-----------------------------------------------|
-|        | `displayLocale` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `displayLocale` тепер допускає значення null. |
 
 ### Приклади
 

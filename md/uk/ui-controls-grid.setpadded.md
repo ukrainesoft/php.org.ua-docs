@@ -4,7 +4,7 @@
     
 -   [ОЙControlsGroup »](class.ui-controls-group.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [ОЙControlsGrid](class.ui-controls-grid.html)
     

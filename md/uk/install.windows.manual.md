@@ -1,12 +1,12 @@
 Самостійне встановлення PHP у Windows
 
--   [« Рекомендована конфігурація для Windows](install.windows.recommended.html)
+-   [« Рекомендована конфігурація для Windows](install.windows.recommended.md)
     
--   [Сборка из исходных кодов »](install.windows.building.html)
+-   [Складання з вихідних кодів »](install.windows.building.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Установка в системах Windows](install.windows.html)
+-   [Установка в системах Windows](install.windows.md)
     
 -   Самостійне встановлення PHP у Windows
     

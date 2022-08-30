@@ -1,12 +1,12 @@
 Атрибути RADIUS специфічні для різних виробників
 
--   [« Типы атрибутов RADIUS](radius.constants.attributes.html)
+-   [Типи атрибутів RADIUS](radius.constants.attributes.md)
     
--   [Примеры »](radius.examples.html)
+-   [Приклади »](radius.examples.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Предопределённые константы](radius.constants.html)
+-   [Обумовлені константи](radius.constants.md)
     
 -   Атрибути RADIUS специфічні для різних виробників
     

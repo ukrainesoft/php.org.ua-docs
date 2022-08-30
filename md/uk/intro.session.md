@@ -1,12 +1,12 @@
 Вступ
 
--   [« Сессии](book.session.html)
+-   [« Сессии](book.session.md)
     
--   [Установка и настройка »](session.setup.html)
+-   [Встановлення та налаштування »](session.setup.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Сессии](book.session.html)
+-   [Сессии](book.session.md)
     
 -   Вступ
     
@@ -17,13 +17,13 @@
 
 Кожному відвідувачу сайту надається унікальний ідентифікатор, який називається ідентифікатором сесії (session id). Він зберігається або в cookie на стороні користувача, або передається через URL-адресу.
 
-Підтримка сесій дозволяє зберігати дані між запитами у суперглобальному масиві. [SESSION](reserved.variables.session.html). У той момент, коли відвідувач отримує доступ до сайту, PHP перевіряє автоматично (якщо [session.autostart](session.configuration.html#ini.session.auto-start) встановлено в 1) або на запит (явним чином через виклик [sessionstart()](function.session-start.html)), чи був певний ідентифікатор сесії надісланий разом із запитом. Якщо так, відновлюється збережене раніше оточення.
+Підтримка сесій дозволяє зберігати дані між запитами у суперглобальному масиві. [SESSION](reserved.variables.session.md). У той момент, коли відвідувач отримує доступ до сайту, PHP перевіряє автоматично (якщо [session.autostart](session.configuration.html#ini.session.auto-start) встановлено в 1) або на запит (явним чином через виклик [sessionstart()](function.session-start.html)), чи був певний ідентифікатор сесії надісланий разом із запитом. Якщо так, відновлюється збережене раніше оточення.
 
 **Застереження**
 
-При включеному [session.autostart](session.configuration.html#ini.session.auto-start) єдиним способом приміщення об'єктів у сесію залишиться завантаження описів класу за допомогою [autoprependfile](ini.core.html#ini.auto-prepend-file). В іншому випадку доведеться виконати серіалізацію ([serialize()](function.serialize.html)) та десеріалізацію ([unserialize()](function.unserialize.html)) об'єкта вручну.
+При включеному [session.autostart](session.configuration.html#ini.session.auto-start) єдиним способом приміщення об'єктів у сесію залишиться завантаження описів класу за допомогою [autoprependfile](ini.core.html#ini.auto-prepend-file). В іншому випадку доведеться виконати серіалізацію ([serialize()](function.serialize.md)) та десеріалізацію ([unserialize()](function.unserialize.md)) об'єкта вручну.
 
-[SESSION](reserved.variables.session.html) (і всі зареєстровані змінні) серіалізуються всередині PHP після виконання запиту, використовуючи обробник серіалізації, вказаний в INI-опції [session.serializehandler](session.configuration.html#ini.session.serialize-handler). Зареєстровані, але невизначені змінні позначаються як невизначені. При подальшому доступі вони не визначаються сесійним модулем, якщо користувач знову не визначить їх.
+[SESSION](reserved.variables.session.md) (і всі зареєстровані змінні) серіалізуються всередині PHP після виконання запиту, використовуючи обробник серіалізації, вказаний в INI-опції [session.serializehandler](session.configuration.html#ini.session.serialize-handler). Зареєстровані, але невизначені змінні позначаються як невизначені. При подальшому доступі вони не визначаються сесійним модулем, якщо користувач знову не визначить їх.
 
 **Увага**
 
@@ -33,4 +33,4 @@
 
 > **Зауваження**
 > 
-> При роботі з сесіями зверніть увагу, що запис у сесії не створюється доти, доки змінна не буде зареєстрована через функцію **sessionregister()** або через додавання нового ключа у суперглобальному масиві [SESSION](reserved.variables.session.html). Це правило діє незалежно від того, чи була сесія запущена з використанням функції [sessionstart()](function.session-start.html)
+> При роботі з сесіями зверніть увагу, що запис у сесії не створюється доти, доки змінна не буде зареєстрована через функцію **sessionregister()** або через додавання нового ключа у суперглобальному масиві [SESSION](reserved.variables.session.md). Це правило діє незалежно від того, чи була сесія запущена з використанням функції [sessionstart()](function.session-start.html)

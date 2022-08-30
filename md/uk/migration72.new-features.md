@@ -1,12 +1,12 @@
 Нові можливості
 
--   [« Миграция с PHP 7.1.x на PHP 7.2.x](migration72.html)
+-   [« Миграция с PHP 7.1.x на PHP 7.2.x](migration72.md)
     
 -   [Нові функції »](migration72.new-functions.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Миграция с PHP 7.1.x на PHP 7.2.x](migration72.html)
+-   [Миграция с PHP 7.1.x на PHP 7.2.x](migration72.md)
     
 -   Нові можливості
     
@@ -30,7 +30,7 @@ test(new StdClass());
 
 ### Завантаження модуля на ім'я
 
-Для підвантажуваних модулів більше не потрібно вказувати розширення файлу (`.so` для Unix або `.dll` для Windows). Це допускається у файлі php.ini, а також функції [dl()](function.dl.html)
+Для підвантажуваних модулів більше не потрібно вказувати розширення файлу (`.so` для Unix або `.dll` для Windows). Це допускається у файлі php.ini, а також функції [dl()](function.dl.md)
 
 ### Дозволено перевизначення абстрактних методів
 
@@ -50,22 +50,22 @@ abstract class B extends A
 }
 ```
 
-### [Sodium](book.sodium.html) тепер є основним модулем
+### [Sodium](book.sodium.md) тепер є основним модулем
 
 Сучасна криптографічна бібліотека Sodium тепер стала основним модулем PHP (як модуль sodium).
 
-Дивіться розділ [Sodium](book.sodium.html) для отримання повної інформації.
+Дивіться розділ [Sodium](book.sodium.md) для отримання повної інформації.
 
 ### Додано хешування пароля за допомогою Argon2
 
-Було додано алгоритм Argon2 в [API хеширования пароля](book.password.html), де доступні такі константи:
+Було додано алгоритм Argon2 в [API хеширования пароля](book.password.md), де доступні такі константи:
 
 -   **`PASSWORD_ARGON2I`**
 -   **`PASSWORD_ARGON2_DEFAULT_MEMORY_COST`**
 -   **`PASSWORD_ARGON2_DEFAULT_TIME_COST`**
 -   **`PASSWORD_ARGON2_DEFAULT_THREADS`**
 
-### Розширені типи рядків для [PDO](book.pdo.html)
+### Розширені типи рядків для [PDO](book.pdo.md)
 
 Тип рядка PDO був розширений для підтримки національних наборів символів при емуляції запитів, що готуються. Додані нові константи:
 
@@ -81,11 +81,11 @@ abstract class B extends A
 $db->quote('über', PDO::PARAM_STR | PDO::PARAM_STR_NATL);
 ```
 
-### Додаткова налагоджувальна інформація при емуляції запитів, що готуються [PDO](book.pdo.html)
+### Додаткова налагоджувальна інформація при емуляції запитів, що готуються [PDO](book.pdo.md)
 
-Метод [PDOStatement::debugDumpParams()](pdostatement.debugdumpparams.html) було оновлено, щоб увімкнути SQL до відправки в БД, де буде показаний повний необроблений запит (включаючи замінені параметри зі своїми пов'язаними значеннями). Це було додано для допомоги у налагодженні емуляції запитів, що готуються (і тому це буде доступно тільки при включеній емуляції підготовлюваних запитів).
+Метод [PDOStatement::debugDumpParams()](pdostatement.debugdumpparams.md) було оновлено, щоб увімкнути SQL до відправки в БД, де буде показаний повний необроблений запит (включаючи замінені параметри зі своїми пов'язаними значеннями). Це було додано для допомоги у налагодженні емуляції запитів, що готуються (і тому це буде доступно тільки при включеній емуляції підготовлюваних запитів).
 
-### Підтримка розширених операцій на [LDAP](book.ldap.html)
+### Підтримка розширених операцій на [LDAP](book.ldap.md)
 
 Було додано підтримку EXOP модуль LDAP. Стали доступні такі функції та константи:
 
@@ -99,7 +99,7 @@ $db->quote('über', PDO::PARAM_STR | PDO::PARAM_STR_NATL);
 -   **`LDAP_EXOP_WHO_AM_I`**
 -   **`LDAP_EXOP_TURN`**
 
-### Інформація про адресу в модулі [сокетів](book.sockets.html)
+### Інформація про адресу в модулі [сокетів](book.sockets.md)
 
 Модуль сокетів має можливість шукати адресну інформацію, а також підключатися до неї, зв'язуватися з нею і пояснювати її. Для цього були додані такі чотири функції:
 
@@ -144,11 +144,11 @@ use Foo\Bar\{
 
 Функція [procnice()](function.proc-nice.html) тепер підтримується у Windows.
 
-### Підтримка порядку байт у [pack()](function.pack.html) і [unpack()](function.unpack.html)
+### Підтримка порядку байт у [pack()](function.pack.md) і [unpack()](function.unpack.md)
 
-Функції [pack()](function.pack.html) і [unpack()](function.unpack.html) тепер підтримують типи float та double як у прямому, так і у зворотному порядку байт.
+Функції [pack()](function.pack.md) і [unpack()](function.unpack.md) тепер підтримують типи float та double як у прямому, так і у зворотному порядку байт.
 
-### Поліпшення в модулі [EXIF](book.exif.html)
+### Поліпшення в модулі [EXIF](book.exif.md)
 
 Модуль EXIF ​​оновлено для підтримки більшої кількості форматів. Це означає, що специфічні теги правильно обробляються при розборі зображень функцією [exifreaddata()](function.exif-read-data.html). Нові формати, що підтримуються:
 
@@ -166,22 +166,22 @@ use Foo\Bar\{
 
 Функції [exifreaddata()](function.exif-read-data.html) і [exifthumbnail()](function.exif-thumbnail.html) тепер приймають потоки як свої перші аргументи.
 
-### Нова функціональність у [PCRE](book.pcre.html)
+### Нова функціональність у [PCRE](book.pcre.md)
 
 -   Доданий модифікатор `J` для встановлення PCREDUPNAMES.
 
-### [SQLite3](book.sqlite3.html) дозволяє записувати BLOB
+### [SQLite3](book.sqlite3.md) дозволяє записувати BLOB
 
-Тепер [SQLite3::openBlob()](sqlite3.openblob.html) вміє відкривати поля типу BLOB для запису. Раніше для таких полів було доступне лише читання.
+Тепер [SQLite3::openBlob()](sqlite3.openblob.md) вміє відкривати поля типу BLOB для запису. Раніше для таких полів було доступне лише читання.
 
-### Зворотні дзвінки [Oracle OCI8](book.oci8.html) Transparent Application Failover
+### Зворотні дзвінки [Oracle OCI8](book.oci8.md) Transparent Application Failover
 
-Додана підтримка [обратных вызовов Oracle Database Transparent Application Failover (TAF)](oci8.taf.html). TAF дозволяє програмам PHP OCI8 автоматично перепідключатися до попередньо налаштованої бази даних при порушенні з'єднання. Нова підтримка зворотного дзвінка TAF дозволяє програмам відстежувати та контролювати перепідключення під час відновлення.
+Додана підтримка [зворотних викликів Oracle Database Transparent Application Failover (TAF)](oci8.taf.md). TAF дозволяє програмам PHP OCI8 автоматично перепідключатися до попередньо налаштованої бази даних при порушенні з'єднання. Нова підтримка зворотного дзвінка TAF дозволяє програмам відстежувати та контролювати перепідключення під час відновлення.
 
-### Поліпшення в модулі [ZIP](book.zip.html)
+### Поліпшення в модулі [ZIP](book.zip.md)
 
 Додано підтримку читання та запису зашифрованих архівів (потрібно libzip 1.2.0).
 
-Клас [ZipArchive](class.ziparchive.html) тепер реалізує інтерфейс [Countable](class.countable.html)
+Клас [ZipArchive](class.ziparchive.md) тепер реалізує інтерфейс [Countable](class.countable.md)
 
 Потік `zip://` тепер приймає контекстну опцію `'password'`

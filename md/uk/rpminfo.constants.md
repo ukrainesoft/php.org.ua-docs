@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Типы ресурсов](rpminfo.resources.html)
+-   [« Типи ресурсів](rpminfo.resources.md)
     
--   [Функції RpmInfo »](ref.rpminfo.html)
+-   [Функції RpmInfo »](ref.rpminfo.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [RpmInfo](book.rpminfo.html)
+-   [RpmInfo](book.rpminfo.md)
     
 -   Обумовлені константи
     

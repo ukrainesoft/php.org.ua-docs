@@ -4,7 +4,7 @@
     
 -   [Oracle (PDO) »](ref.pdo-oci.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MS SQL Server (PDO)](ref.pdo-sqlsrv.html)
     

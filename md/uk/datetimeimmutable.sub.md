@@ -1,12 +1,12 @@
 Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд
 
--   [« DateTimeImmutable::setTimezone](datetimeimmutable.settimezone.html)
+-   [« DateTimeImmutable::setTimezone](datetimeimmutable.settimezone.md)
     
--   [DateTimeInterface »](class.datetimeinterface.html)
+-   [DateTimeInterface »](class.datetimeinterface.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DateTimeImmutable](class.datetimeimmutable.html)
+-   [DateTimeImmutable](class.datetimeimmutable.md)
     
 -   Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд
     
@@ -23,21 +23,21 @@ DateTimeImmutable::sub — Віднімає передану кількість 
 public DateTimeImmutable::sub(DateInterval $interval): DateTimeImmutable
 ```
 
-Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.html), в якому зазначений об'єкт [DateInterval](class.dateinterval.html) віднімається із зазначеного об'єкта DateTimeImmutable.
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md), в якому зазначений об'єкт [DateInterval](class.dateinterval.md) віднімається із зазначеного об'єкта DateTimeImmutable.
 
 ### Список параметрів
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [datecreate()](function.date-create.html). Функція змінює цей об'єкт.
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.html). Функція змінює цей об'єкт.
 
 `interval`
 
-Об'єкт [DateInterval](class.dateinterval.html)
+Об'єкт [DateInterval](class.dateinterval.md)
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.html) з модифікованими даними або **`false`** у разі виникнення помилки.
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) з модифікованими даними або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -104,6 +104,6 @@ echo $newDate2->format('Y-m-d') . "\n";
 
 ### Дивіться також
 
--   [DateTimeImmutable::add()](datetimeimmutable.add.html) - Повертає новий об'єкт з доданою кількістю днів, місяців, років, годин, хвилин та секунд
--   [DateTimeImmutable::diff()](datetime.diff.html) - Повертає різницю між двома об'єктами DateTime
--   [DateTimeImmutable::modify()](datetimeimmutable.modify.html) - Створює новий об'єкт із зміненою тимчасовою міткою
+-   [DateTimeImmutable::add()](datetimeimmutable.add.md) - Повертає новий об'єкт з доданою кількістю днів, місяців, років, годин, хвилин та секунд
+-   [DateTimeImmutable::diff()](datetime.diff.md) - Повертає різницю між двома об'єктами DateTime
+-   [DateTimeImmutable::modify()](datetimeimmutable.modify.md) - Створює новий об'єкт із зміненою тимчасовою міткою

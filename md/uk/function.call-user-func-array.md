@@ -1,12 +1,12 @@
 Викликає callback-функцію з масивом параметрів
 
--   [« Функции управления функциями](ref.funchand.html)
+-   [« Функции управления функциями](ref.funchand.md)
     
 -   [calluserfunc »](function.call-user-func.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функции управления функциями](ref.funchand.html)
+-   [Функции управления функциями](ref.funchand.md)
     
 -   Викликає callback-функцію з масивом параметрів
     
@@ -29,7 +29,7 @@ call_user_func_array(callable $callback, array $args): mixed
 
 `callback`
 
-Функція типу, що викликається [callable](language.types.callable.html)
+Функція типу, що викликається [callable](language.types.callable.md)
 
 `args`
 
@@ -41,9 +41,9 @@ call_user_func_array(callable $callback, array $args): mixed
 
 ### список змін
 
-| Версия | Описание                                                                               |
-|--------|----------------------------------------------------------------------------------------|
-|        | Ключі параметра `args` тепер інтерпретуються як імена параметрів, а чи не ігноруються. |
+| Версия | Описание |
+| --- | --- |
+|  | Ключі параметра `args` тепер інтерпретуються як імена параметрів, а чи не ігноруються. |
 
 ### Приклади
 
@@ -156,5 +156,5 @@ global $bar=55
 ### Дивіться також
 
 -   [calluserfunc()](function.call-user-func.html) - Викликає callback-функцію, задану у першому параметрі
--   [ReflectionFunction::invokeArgs()](reflectionfunction.invokeargs.html) - Виклик функції із передачею аргументів
--   [ReflectionMethod::invokeArgs()](reflectionmethod.invokeargs.html) - виклик методу з передачею аргументів масивом
+-   [ReflectionFunction::invokeArgs()](reflectionfunction.invokeargs.md) - Виклик функції із передачею аргументів
+-   [ReflectionMethod::invokeArgs()](reflectionmethod.invokeargs.md) - виклик методу з передачею аргументів масивом

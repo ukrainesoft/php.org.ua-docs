@@ -1,12 +1,12 @@
 Отримує інформацію від встановленого RPM
 
--   [« rpmaddtag](function.rpmaddtag.html)
+-   [« rpmaddtag](function.rpmaddtag.md)
     
--   [rpmdbsearch »](function.rpmdbsearch.html)
+-   [rpmdbsearch »](function.rpmdbsearch.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції RpmInfo](ref.rpminfo.html)
+-   [Функції RpmInfo](ref.rpminfo.md)
     
 -   Отримує інформацію від встановленого RPM
     
@@ -70,4 +70,4 @@ Array
 
 ### Дивіться також
 
--   [rpmaddtag()](function.rpmaddtag.html) - Додає тег, отриманий у запиті
+-   [rpmaddtag()](function.rpmaddtag.md) - Додає тег, отриманий у запиті

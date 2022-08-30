@@ -1,12 +1,12 @@
 Повертає роздільну здатність зображення X і Y
 
--   [« Imagick::getImageRenderingIntent](imagick.getimagerenderingintent.html)
+-   [« Imagick::getImageRenderingIntent](imagick.getimagerenderingintent.md)
     
--   [Imagick::getImagesBlob »](imagick.getimagesblob.html)
+-   [Imagick::getImagesBlob »](imagick.getimagesblob.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Повертає роздільну здатність зображення X і Y
     

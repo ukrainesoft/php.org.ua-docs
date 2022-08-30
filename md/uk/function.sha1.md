@@ -4,9 +4,9 @@
     
 -   [similartext »](function.similar-text.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з рядками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.md)
     
 -   Повертає SHA1-хеш рядки
     
@@ -60,8 +60,8 @@ if (sha1($str) === '88b184adea10bf987b15257a5d6c5cb94eba69d3') {
 ### Дивіться також
 
 -   [sha1file()](function.sha1-file.html) - Повертає SHA1-хеш файлу
--   [crc32()](function.crc32.html) - Обчислює поліном CRC32 для рядка
--   [md5()](function.md5.html) - Повертає MD5-хеш рядки
--   [hash()](function.hash.html) - Генерує хеш-код (підпис повідомлення)
--   [crypt()](function.crypt.html) - Необоротне хешування рядка
+-   [crc32()](function.crc32.md) - Обчислює поліном CRC32 для рядка
+-   [md5()](function.md5.md) - Повертає MD5-хеш рядки
+-   [hash()](function.hash.md) - Генерує хеш-код (підпис повідомлення)
+-   [crypt()](function.crypt.md) - Необоротне хешування рядка
 -   [passwordhash()](function.password-hash.html) - Створює хеш пароля

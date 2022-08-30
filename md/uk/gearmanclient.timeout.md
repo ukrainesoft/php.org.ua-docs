@@ -1,12 +1,12 @@
 Отримання часу очікування операцій введення/виводу
 
--   [« GearmanClient::setWorkloadCallback](gearmanclient.setworkloadcallback.html)
+-   [« GearmanClient::setWorkloadCallback](gearmanclient.setworkloadcallback.md)
     
--   [GearmanClient::wait »](gearmanclient.wait.html)
+-   [GearmanClient::wait »](gearmanclient.wait.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [GearmanClient](class.gearmanclient.html)
+-   [GearmanClient](class.gearmanclient.md)
     
 -   Отримання часу очікування операцій введення/виводу
     
@@ -35,4 +35,4 @@ public GearmanClient::timeout(): int
 
 ### Дивіться також
 
--   [GearmanClient::setTimeout()](gearmanclient.settimeout.html) - Встановлення часу очікування для операцій введення/виводу
+-   [GearmanClient::setTimeout()](gearmanclient.settimeout.md) - Встановлення часу очікування для операцій введення/виводу

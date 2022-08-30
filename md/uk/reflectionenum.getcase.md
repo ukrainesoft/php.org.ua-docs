@@ -1,12 +1,12 @@
 Повертає певний варіант перерахування
 
--   [« ReflectionEnum::getBackingType](reflectionenum.getbackingtype.html)
+-   [« ReflectionEnum::getBackingType](reflectionenum.getbackingtype.md)
     
--   [ReflectionEnum::getCases »](reflectionenum.getcases.html)
+-   [ReflectionEnum::getCases »](reflectionenum.getcases.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionEnum](class.reflectionenum.html)
+-   [ReflectionEnum](class.reflectionenum.md)
     
 -   Повертає певний варіант перерахування
     
@@ -23,7 +23,7 @@ ReflectionEnum::getCase — Повертає певний варіант пер�
 public ReflectionEnum::getCase(string $name): ReflectionEnumUnitCase
 ```
 
-Повертає Reflection-об'єкт для певного варіанта перерахування на ім'я. Якщо вибраний варіант не визначено, викидається [ReflectionException](class.reflectionexception.html)
+Повертає Reflection-об'єкт для певного варіанта перерахування на ім'я. Якщо вибраний варіант не визначено, викидається [ReflectionException](class.reflectionexception.md)
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ public ReflectionEnum::getCase(string $name): ReflectionEnumUnitCase
 
 ### Значення, що повертаються
 
-Екземпляр [ReflectionEnumUnitCase](class.reflectionenumunitcase.html) або [ReflectionEnumBackedCase](class.reflectionenumbackedcase.html) в залежності від ситуації.
+Екземпляр [ReflectionEnumUnitCase](class.reflectionenumunitcase.md) або [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md) в залежності від ситуації.
 
 ### Приклади
 
@@ -65,7 +65,7 @@ enum(Suit::Clubs)
 
 ### Дивіться також
 
--   [Перечисления](language.enumerations.html)
--   [ReflectionEnum::getCases()](reflectionenum.getcases.html) - Повертає список усіх варіантів перерахування
--   [ReflectionEnum::hasCase()](reflectionenum.hascase.html) - Перевіряє варіант перерахування
--   [ReflectionEnum::isBacked()](reflectionenum.isbacked.html) - Визначає, чи є перерахування типовим
+-   [Перечисления](language.enumerations.md)
+-   [ReflectionEnum::getCases()](reflectionenum.getcases.md) - Повертає список усіх варіантів перерахування
+-   [ReflectionEnum::hasCase()](reflectionenum.hascase.md) - Перевіряє варіант перерахування
+-   [ReflectionEnum::isBacked()](reflectionenum.isbacked.md) - Визначає, чи є перерахування типовим

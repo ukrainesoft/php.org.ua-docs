@@ -1,12 +1,12 @@
 Видаляє перекіс із зображення
 
--   [« Imagick::deleteImageProperty](imagick.deleteimageproperty.html)
+-   [« Imagick::deleteImageProperty](imagick.deleteimageproperty.md)
     
--   [Imagick::despeckleImage »](imagick.despeckleimage.html)
+-   [Imagick::despeckleImage »](imagick.despeckleimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Видаляє перекіс із зображення
     

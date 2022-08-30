@@ -1,12 +1,12 @@
 Здійснює перевірку документа на правильність побудови за допомогою relaxNG
 
--   [« DOMDocument::registerNodeClass](domdocument.registernodeclass.html)
+-   [« DOMDocument::registerNodeClass](domdocument.registernodeclass.md)
     
--   [DOMDocument::relaxNGValidateSource »](domdocument.relaxngvalidatesource.html)
+-   [DOMDocument::relaxNGValidateSource »](domdocument.relaxngvalidatesource.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [DOMDocument](class.domdocument.html)
+-   [DOMDocument](class.domdocument.md)
     
 -   Здійснює перевірку документа на правильність побудови за допомогою relaxNG
     
@@ -37,7 +37,7 @@ public DOMDocument::relaxNGValidate(string $filename): bool
 
 ### Дивіться також
 
--   [DOMDocument::relaxNGValidateSource()](domdocument.relaxngvalidatesource.html) - Перевіряє документ за допомогою relaxNG
--   [DOMDocument::schemaValidate()](domdocument.schemavalidate.html) - Перевіряє дійсність документа, ґрунтуючись на заданій схемі. Підтримується лише XML-схема 1.0.
--   [DOMDocument::schemaValidateSource()](domdocument.schemavalidatesource.html) - Перевіряє дійсність документа, ґрунтуючись на схемі
--   [DOMDocument::validate()](domdocument.validate.html) - Перевіряє документ на відповідність його DTD
+-   [DOMDocument::relaxNGValidateSource()](domdocument.relaxngvalidatesource.md) - Перевіряє документ за допомогою relaxNG
+-   [DOMDocument::schemaValidate()](domdocument.schemavalidate.md) - Перевіряє дійсність документа, ґрунтуючись на заданій схемі. Підтримується лише XML-схема 1.0.
+-   [DOMDocument::schemaValidateSource()](domdocument.schemavalidatesource.md) - Перевіряє дійсність документа, ґрунтуючись на схемі
+-   [DOMDocument::validate()](domdocument.validate.md) - Перевіряє документ на відповідність його DTD

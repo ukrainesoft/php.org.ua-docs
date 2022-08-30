@@ -2,11 +2,11 @@
 
 -   [« Опции контекста CURL](context.curl.html)
     
--   [Параметры контекста »](context.params.html)
+-   [Параметри контексту »](context.params.html)
     
 -   [PHP Manual](index.html)
     
--   [Контекстные опции и параметры](context.html)
+-   [Контекстні опції та параметри](context.html)
     
 -   Список контекстних опцій Phar
     

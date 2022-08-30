@@ -37,11 +37,11 @@ private ReflectionParameter::__clone(): void
 
 ### список змін
 
-| Версия | Описание                       |
-|--------|--------------------------------|
-|        | Метод не є остаточним (final). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод не є остаточним (final). |
 
 ### Дивіться також
 
 -   **ReflectionParameter::toString()**
--   [Клонирование объектов](language.oop5.cloning.html)
+-   [Клонування об'єктів](language.oop5.cloning.html)

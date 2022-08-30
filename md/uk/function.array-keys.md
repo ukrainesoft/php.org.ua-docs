@@ -4,9 +4,9 @@
     
 -   [arraymap »](function.array-map.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Функції для роботи з масивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.md)
     
 -   Повертає все або деяке підмножина ключів масиву
     

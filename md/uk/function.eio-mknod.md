@@ -4,9 +4,9 @@
     
 -   [eionop »](function.eio-nop.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Створює спеціальний або звичайний файл
     

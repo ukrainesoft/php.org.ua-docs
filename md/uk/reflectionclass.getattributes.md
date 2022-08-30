@@ -1,12 +1,12 @@
 Отримує атрибути
 
--   [« ReflectionClass::export](reflectionclass.export.html)
+-   [« ReflectionClass::export](reflectionclass.export.md)
     
--   [ReflectionClass::getConstant »](reflectionclass.getconstant.html)
+-   [ReflectionClass::getConstant »](reflectionclass.getconstant.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionClass](class.reflectionclass.html)
+-   [ReflectionClass](class.reflectionclass.md)
     
 -   Отримує атрибути
     
@@ -23,13 +23,13 @@ ReflectionClass::getAttributes — Отримує атрибути
 public ReflectionClass::getAttributes(?string $name = null, int $flags = 0): array
 ```
 
-Повертає всі атрибути, оголошені у цьому класі, у вигляді масиву [ReflectionAttribute](class.reflectionattribute.html)
+Повертає всі атрибути, оголошені у цьому класі, у вигляді масиву [ReflectionAttribute](class.reflectionattribute.md)
 
 ### Список параметрів
 
 `name`
 
-Фільтрування результатів, щоб залишити лише екземпляри [ReflectionAttribute](class.reflectionattribute.html) для атрибутів, які відповідають цьому імені класу.
+Фільтрування результатів, щоб залишити лише екземпляри [ReflectionAttribute](class.reflectionattribute.md) для атрибутів, які відповідають цьому імені класу.
 
 `flags`
 
@@ -41,7 +41,7 @@ public ReflectionClass::getAttributes(?string $name = null, int $flags = 0): arr
 
 ### Значення, що повертаються
 
-Масив атрибутів як об'єкта [ReflectionAttribute](class.reflectionattribute.html)
+Масив атрибутів як об'єкта [ReflectionAttribute](class.reflectionattribute.md)
 
 ### Приклади
 
@@ -147,7 +147,7 @@ Array
 
 ### Дивіться також
 
--   [ReflectionClassConstant::getAttributes()](reflectionclassconstant.getattributes.html) - Отримує атрибути
--   [ReflectionFunctionAbstract::getAttributes()](reflectionfunctionabstract.getattributes.html) - Отримує атрибути
--   [ReflectionParameter::getAttributes()](reflectionparameter.getattributes.html) - Отримує атрибути
--   [ReflectionProperty::getAttributes()](reflectionproperty.getattributes.html) - Отримує атрибути
+-   [ReflectionClassConstant::getAttributes()](reflectionclassconstant.getattributes.md) - Отримує атрибути
+-   [ReflectionFunctionAbstract::getAttributes()](reflectionfunctionabstract.getattributes.md) - Отримує атрибути
+-   [ReflectionParameter::getAttributes()](reflectionparameter.getattributes.md) - Отримує атрибути
+-   [ReflectionProperty::getAttributes()](reflectionproperty.getattributes.md) - Отримує атрибути

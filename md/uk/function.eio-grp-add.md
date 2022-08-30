@@ -4,9 +4,9 @@
     
 -   [eiogrpcancel »](function.eio-grp-cancel.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Eio Функции](ref.eio.html)
+-   [Eio Функции](ref.eio.md)
     
 -   Додає запит до групи запитів
     

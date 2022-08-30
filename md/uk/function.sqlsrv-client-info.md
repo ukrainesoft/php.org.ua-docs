@@ -37,12 +37,12 @@ sqlsrv_client_info(resource $conn): array
 
 **Масив, що повертається sqlsrvclientinfo**
 
-| Ключ          | Описание                                       |
-|---------------|------------------------------------------------|
-| DriverDllName | SQLNCLI10.DLL                                  |
-| DriverODBCVer | Версія ODBC (xx.yy)                            |
-| DriverVer     | Версія SQL Server Native Client DLL (10.5.xxx) |
-| ExtensionVer  | Версія phpsqlsrv.dll (2.0.xxx.x)               |
+| Ключ | Описание |
+| --- | --- |
+| DriverDllName | SQLNCLI10.DLL |
+| DriverODBCVer | Версія ODBC (xx.yy) |
+| DriverVer | Версія SQL Server Native Client DLL (10.5.xxx) |
+| ExtensionVer | Версія phpsqlsrv.dll (2.0.xxx.x) |
 
 ### Приклади
 

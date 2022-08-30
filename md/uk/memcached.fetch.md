@@ -1,12 +1,12 @@
 Витягує наступний результат
 
--   [« Memcached::deleteMultiByKey](memcached.deletemultibykey.html)
+-   [« Memcached::deleteMultiByKey](memcached.deletemultibykey.md)
     
--   [Memcached::fetchAll »](memcached.fetchall.html)
+-   [Memcached::fetchAll »](memcached.fetchall.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Memcached](class.memcached.html)
+-   [Memcached](class.memcached.md)
     
 -   Витягує наступний результат
     
@@ -31,7 +31,7 @@ public Memcached::fetch(): array
 
 ### Значення, що повертаються
 
-Повертає наступний результат запиту або **`false`** в іншому випадку. Метод [Memcached::getResultCode()](memcached.getresultcode.html) повертає **`Memcached::RES_END`** якщо результуюча вибірка закінчилася.
+Повертає наступний результат запиту або **`false`** в іншому випадку. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає **`Memcached::RES_END`** якщо результуюча вибірка закінчилася.
 
 ### Приклади
 
@@ -81,5 +81,5 @@ array(3) {
 
 ### Дивіться також
 
--   [Memcached::fetchAll()](memcached.fetchall.html) - Витягує всі отримані записи
--   [Memcached::getDelayed()](memcached.getdelayed.html) - Запитує кілька записів
+-   [Memcached::fetchAll()](memcached.fetchall.md) - Витягує всі отримані записи
+-   [Memcached::getDelayed()](memcached.getdelayed.md) - Запитує кілька записів

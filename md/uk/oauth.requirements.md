@@ -1,12 +1,12 @@
 Вимоги
 
--   [« Установка и настройка](oauth.setup.html)
+-   [« Встановлення та налаштування](oauth.setup.html)
     
 -   [Установка »](oauth.installation.html)
     
 -   [PHP Manual](index.html)
     
--   [Установка и настройка](oauth.setup.html)
+-   [Встановлення та налаштування](oauth.setup.html)
     
 -   Вимоги
     

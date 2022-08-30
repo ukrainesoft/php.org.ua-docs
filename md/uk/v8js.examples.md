@@ -1,6 +1,6 @@
 Приклади
 
--   [« Типы ресурсов](v8js.resources.html)
+-   [« Типи ресурсів](v8js.resources.html)
     
 -   [V8Js »](class.v8js.html)
     

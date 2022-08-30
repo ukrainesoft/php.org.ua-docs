@@ -4,7 +4,7 @@
     
 -   [ДсSequence::rotate »](ds-sequence.rotate.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [Послідовність](class.ds-sequence.html)
     

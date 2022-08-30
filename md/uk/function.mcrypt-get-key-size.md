@@ -4,9 +4,9 @@
     
 -   [mcryptlistalgorithms »](function.mcrypt-list-algorithms.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Mcrypt](ref.mcrypt.html)
+-   [Mcrypt](ref.mcrypt.md)
     
 -   Отримати розмір ключа заданого шифру
     

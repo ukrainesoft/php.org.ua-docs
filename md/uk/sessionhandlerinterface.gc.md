@@ -1,12 +1,12 @@
 Очищує старі сесії
 
--   [« SessionHandlerInterface::destroy](sessionhandlerinterface.destroy.html)
+-   [« SessionHandlerInterface::destroy](sessionhandlerinterface.destroy.md)
     
--   [SessionHandlerInterface::open »](sessionhandlerinterface.open.html)
+-   [SessionHandlerInterface::open »](sessionhandlerinterface.open.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [SessionHandlerInterface](class.sessionhandlerinterface.html)
+-   [SessionHandlerInterface](class.sessionhandlerinterface.md)
     
 -   Очищує старі сесії
     
@@ -37,6 +37,6 @@ public SessionHandlerInterface::gc(int $max_lifetime): int|false
 
 ### список змін
 
-| Версия | Описание                                                                |
-|--------|-------------------------------------------------------------------------|
-|        | До цієї версії функція повертала **`true`** у разі успішного виконання. |
+| Версия | Описание |
+| --- | --- |
+|  | До цієї версії функція повертала **`true`** у разі успішного виконання. |

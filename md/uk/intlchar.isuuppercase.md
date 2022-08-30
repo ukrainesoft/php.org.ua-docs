@@ -1,12 +1,12 @@
 Перевірити, чи символ символом у верхньому регістрі
 
--   [« IntlChar::isupper](intlchar.isupper.html)
+-   [« IntlChar::isupper](intlchar.isupper.md)
     
--   [IntlChar::isUWhiteSpace »](intlchar.isuwhitespace.html)
+-   [IntlChar::isUWhiteSpace »](intlchar.isuwhitespace.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [IntlChar](class.intlchar.html)
+-   [IntlChar](class.intlchar.md)
     
 -   Перевірити, чи символ символом у верхньому регістрі
     
@@ -29,7 +29,7 @@ public static IntlChar::isUUppercase(int|string $codepoint): ?bool
 
 > **Зауваження**
 > 
-> Відрізняється від [IntlChar::isupper()](intlchar.isupper.html) і повертає **`true`** для більшої кількості символів.
+> Відрізняється від [IntlChar::isupper()](intlchar.isupper.md) і повертає **`true`** для більшої кількості символів.
 
 ### Список параметрів
 
@@ -67,6 +67,6 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isupper()](intlchar.isupper.html) - Перевірити, чи входить символ у категорію "Lu" (літера у верхньому регістрі)
--   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.html) - Перевірити бінарну властивість Unicode для символу
+-   [IntlChar::isupper()](intlchar.isupper.md) - Перевірити, чи входить символ у категорію "Lu" (літера у верхньому регістрі)
+-   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) - Перевірити бінарну властивість Unicode для символу
 -   **`IntlChar::PROPERTY_UPPERCASE`**

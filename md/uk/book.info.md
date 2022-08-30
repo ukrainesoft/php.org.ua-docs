@@ -14,12 +14,12 @@
 # Опції та інформація PHP
 
 -   [Введение](intro.info.html)
--   [Установка и настройка](info.setup.html)
-    -   [Требования](info.requirements.html)
+-   [Встановлення та налаштування](info.setup.html)
+    -   [Вимоги](info.requirements.html)
     -   [Установка](info.installation.html)
-    -   [Настройка во время выполнения](info.configuration.html)
-    -   [Типы ресурсов](info.resources.html)
--   [Предопределённые константы](info.constants.html)
+    -   [Налаштування під час виконання](info.configuration.html)
+    -   [Типи ресурсів](info.resources.html)
+-   [Обумовлені константи](info.constants.html)
 -   [Опції PHP/інформаційні функції](ref.info.html)
     -   [assertoptions](function.assert-options.html) — Встановлення та отримання налаштувань механізму перевірки тверджень
     -   [assert](function.assert.html) — Перевіряє, чи є твердження false

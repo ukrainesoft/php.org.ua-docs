@@ -4,7 +4,7 @@
     
 -   [MongoDBDriverServerApi »](class.mongodb-driver-serverapi.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
 -   [MongoDBDriverClientEncryption](class.mongodb-driver-clientencryption.html)
     
@@ -35,10 +35,10 @@ final public MongoDB\Driver\ClientEncryption::encrypt(mixed $value, ?array $opti
 
 **Опції шифрування**
 
-| Опция                                                                                                                                                                                                             | Тип    | Описание |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|----------|
-| algorithm                                                                                                                                                                                                         | string |          |
-| Алгоритм шифрування, який використовуватиметься. Опція є обов'язковою. Вкажіть одну з наступних [констант ClientEncryption](class.mongodb-driver-clientencryption.html#mongodb-driver-clientencryption.constants) |        |          |
+| Опция | Тип | Описание |
+| --- | --- | --- |
+| algorithm | string |  |
+| Алгоритм шифрування, який використовуватиметься. Опція є обов'язковою. Вкажіть одну з наступних [констант ClientEncryption](class.mongodb-driver-clientencryption.html#mongodb-driver-clientencryption.constants) |  |  |
 
 -   **`MongoDB\Driver\ClientEncryption::AEAD_AES_256_CBC_HMAC_SHA_512_DETERMINISTIC`**
 -   **`MongoDB\Driver\ClientEncryption::AEAD_AES_256_CBC_HMAC_SHA_512_RANDOM`**
@@ -82,8 +82,8 @@ final public MongoDB\Driver\ClientEncryption::encrypt(mixed $value, ?array $opti
 
 ### список змін
 
-| Версия              | Описание                                          |
-|---------------------|---------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.14.0 | Додані опції `"contentionFactor"` і `"queryType"` |
 
 ### Дивіться також

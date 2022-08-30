@@ -1,12 +1,12 @@
 Робить метод доступним
 
--   [« ReflectionMethod::isStatic](reflectionmethod.isstatic.html)
+-   [« ReflectionMethod::isStatic](reflectionmethod.isstatic.md)
     
--   [ReflectionMethod::toString »](reflectionmethod.tostring.html)
+-   [ReflectionMethod::toString »](reflectionmethod.tostring.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [ReflectionMethod](class.reflectionmethod.html)
+-   [ReflectionMethod](class.reflectionmethod.md)
     
 -   Робить метод доступним
     
@@ -23,7 +23,7 @@ ReflectionMethod::setAccessible — Робить метод доступним
 public ReflectionMethod::setAccessible(bool $accessible): void
 ```
 
-Забезпечує доступ до захищеної або закритої властивості за допомогою методу [ReflectionMethod::invoke()](reflectionmethod.invoke.html)
+Забезпечує доступ до захищеної або закритої властивості за допомогою методу [ReflectionMethod::invoke()](reflectionmethod.invoke.md)
 
 > **Зауваження**: Починаючи з PHP 8.1.0, виклик методу не має сенсу; всі методи викликаються за умовчанням.
 
@@ -69,5 +69,5 @@ Fatal error: Uncaught Error: Call to private method MyClass::foo() from global s
 
 ### Дивіться також
 
--   [ReflectionMethod::isPrivate()](reflectionmethod.isprivate.html) - Перевіряє, чи є метод закритим
--   [ReflectionMethod::isProtected()](reflectionmethod.isprotected.html) - Перевіряє, чи є метод захищеним
+-   [ReflectionMethod::isPrivate()](reflectionmethod.isprivate.md) - Перевіряє, чи є метод закритим
+-   [ReflectionMethod::isProtected()](reflectionmethod.isprotected.md) - Перевіряє, чи є метод захищеним

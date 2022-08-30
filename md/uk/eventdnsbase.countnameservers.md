@@ -1,12 +1,12 @@
 Отримує кількість налаштованих серверів імен
 
--   [« EventDnsBase::construct](eventdnsbase.construct.html)
+-   [« EventDnsBase::construct](eventdnsbase.construct.md)
     
--   [EventDnsBase::loadHosts »](eventdnsbase.loadhosts.html)
+-   [EventDnsBase::loadHosts »](eventdnsbase.loadhosts.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [EventDnsBase](class.eventdnsbase.html)
+-   [EventDnsBase](class.eventdnsbase.md)
     
 -   Отримує кількість налаштованих серверів імен
     

@@ -4,9 +4,9 @@
     
 -   [ftpalloc »](function.ftp-alloc.html)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [FTP](book.ftp.html)
+-   [FTP](book.ftp.md)
     
 -   Функції FTP
     

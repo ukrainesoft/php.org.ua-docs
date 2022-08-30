@@ -2,11 +2,11 @@
 
 -   [« curlversion](function.curl-version.html)
     
--   [CurlMultiHandle »](class.curlmultihandle.html)
+-   [CurlMultiHandle »](class.curlmultihandle.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [cURL](book.curl.html)
+-   [cURL](book.curl.md)
     
 -   Клас CurlHandle
     

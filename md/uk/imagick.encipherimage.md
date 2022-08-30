@@ -1,12 +1,12 @@
 Шифрує зображення
 
--   [« Imagick::embossImage](imagick.embossimage.html)
+-   [« Imagick::embossImage](imagick.embossimage.md)
     
--   [Imagick::enhanceImage »](imagick.enhanceimage.html)
+-   [Imagick::enhanceImage »](imagick.enhanceimage.md)
     
--   [PHP Manual](index.html)
+-   [PHP Manual](index.md)
     
--   [Imagick](class.imagick.html)
+-   [Imagick](class.imagick.md)
     
 -   Шифрує зображення
     
@@ -23,7 +23,7 @@ Imagick::encipherImage — Шифрує зображення
 public Imagick::encipherImage(string $passphrase): bool
 ```
 
-Перетворює звичайні пікселі на зашифровані пікселі. Зображення не читається, доки не буде розшифровано за допомогою [Imagick::decipherImage()](imagick.decipherimage.html) Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.9 або старшим.
+Перетворює звичайні пікселі на зашифровані пікселі. Зображення не читається, доки не буде розшифровано за допомогою [Imagick::decipherImage()](imagick.decipherimage.md) Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.9 або старшим.
 
 ### Список параметрів
 
@@ -37,4 +37,4 @@ public Imagick::encipherImage(string $passphrase): bool
 
 ### Дивіться також
 
--   [Imagick::decipherImage()](imagick.decipherimage.html) - Розшифровує зображення
+-   [Imagick::decipherImage()](imagick.decipherimage.md) - Розшифровує зображення

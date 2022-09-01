@@ -10,8 +10,8 @@ title: imapscan
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapscan - Псевдонім [imaplistscan()](function.imap-listscan.html)
+imapscan - Псевдонім [imaplistscan()](function.imap-listscan.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [imaplistscan()](function.imap-listscan.html)
+Ця функція є псевдонімом: [imaplistscan()](function.imap-listscan.md)

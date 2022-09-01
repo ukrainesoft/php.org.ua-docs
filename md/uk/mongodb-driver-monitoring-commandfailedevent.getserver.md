@@ -18,7 +18,7 @@ MongoDBDriverMonitoringCommandFailedEvent::getServer — Повертає сер
 final public MongoDB\Driver\Monitoring\CommandFailedEvent::getServer(): MongoDB\Driver\Server
 ```
 
-Повертає [MongoDBDriverServer](class.mongodb-driver-server.html), на якому було виконано команду.
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.md), на якому було виконано команду.
 
 ### Список параметрів
 
@@ -26,13 +26,13 @@ final public MongoDB\Driver\Monitoring\CommandFailedEvent::getServer(): MongoDB\
 
 ### Значення, що повертаються
 
-Повертає [MongoDBDriverServer](class.mongodb-driver-server.html), на якому було виконано команду.
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.md), на якому було виконано команду.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverMonitoringCommandStartedEvent::getServer()](mongodb-driver-monitoring-commandstartedevent.getserver.html) - Повертає сервер, на якому було виконано команду
+-   [MongoDBDriverMonitoringCommandStartedEvent::getServer()](mongodb-driver-monitoring-commandstartedevent.getserver.md) - Повертає сервер, на якому було виконано команду
 -   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)

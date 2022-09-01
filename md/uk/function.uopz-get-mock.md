@@ -61,5 +61,5 @@ mockA
 
 ### Дивіться також
 
--   [uopzsetmock()](function.uopz-set-mock.html) - Використовувати імітатор замість класу для нових об'єктів
--   [uopzunsetmock()](function.uopz-unset-mock.html) - Видалити раніше встановлений імітатор
+-   [uopzsetmock()](function.uopz-set-mock.md) - Використовувати імітатор замість класу для нових об'єктів
+-   [uopzunsetmock()](function.uopz-unset-mock.md) - Видалити раніше встановлений імітатор

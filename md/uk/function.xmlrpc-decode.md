@@ -38,9 +38,9 @@ XML-відповідь, що повертається методом XMLRPC.
 
 ### Приклади
 
-Дивіться приклад [xmlrpcencoderequest()](function.xmlrpc-encode-request.html)
+Дивіться приклад [xmlrpcencoderequest()](function.xmlrpc-encode-request.md)
 
 ### Дивіться також
 
--   [xmlrpcencoderequest()](function.xmlrpc-encode-request.html) - Генерує XML для методу запиту
--   [xmlrpcісfault()](function.xmlrpc-is-fault.html) - Визначає, чи є масив значень уявленням помилки XMLRPC
+-   [xmlrpcencoderequest()](function.xmlrpc-encode-request.md) - Генерує XML для методу запиту
+-   [xmlrpcісfault()](function.xmlrpc-is-fault.md) - Визначає, чи є масив значень уявленням помилки XMLRPC

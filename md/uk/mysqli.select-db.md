@@ -32,13 +32,13 @@ mysqli_select_db(mysqli $mysql, string $database): bool
 
 > **Зауваження**
 > 
-> Ця функція використовується лише для зміни бази даних під час підключення. Ви можете вибрати базу даних, передавши її четвертим параметром функції [mysqliconnect()](function.mysqli-connect.html)
+> Ця функція використовується лише для зміни бази даних під час підключення. Ви можете вибрати базу даних, передавши її четвертим параметром функції [mysqliconnect()](function.mysqli-connect.md)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 `database`
 
@@ -105,5 +105,5 @@ printf("База данных по умолчанию: %s.\n", $row[0]);
 
 ### Дивіться також
 
--   [mysqliconnect()](function.mysqli-connect.html) - Псевдонім mysqli::construct
--   [mysqlirealconnect()](mysqli.real-connect.html) - Встановлює з'єднання із сервером mysql
+-   [mysqliconnect()](function.mysqli-connect.md) - Псевдонім mysqli::construct
+-   [mysqlirealconnect()](mysqli.real-connect.md) - Встановлює з'єднання із сервером mysql

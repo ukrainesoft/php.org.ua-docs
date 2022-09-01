@@ -39,7 +39,7 @@ public
 
 **Застереження**
 
-Починаючи з версії 0.3.0, метод викидає виняток [ZookeeperException](class.zookeeperexception.html) та його похідні.
+Починаючи з версії 0.3.0, метод викидає виняток [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Приклади
 
@@ -67,6 +67,6 @@ else
 
 ### Дивіться також
 
--   [Zookeeper::create()](zookeeper.create.html) - Створює синхронно вузол
--   [Zookeeper::getChildren()](zookeeper.getchildren.html) - Виводить список нащадків вузла синхронно
--   [ZookeeperException](class.zookeeperexception.html)
+-   [Zookeeper::create()](zookeeper.create.md) - Створює синхронно вузол
+-   [Zookeeper::getChildren()](zookeeper.getchildren.md) - Виводить список нащадків вузла синхронно
+-   [ZookeeperException](class.zookeeperexception.md)

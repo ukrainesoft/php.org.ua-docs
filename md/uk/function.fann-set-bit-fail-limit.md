@@ -36,4 +36,4 @@ fann_set_bit_fail_limit(resource $ann, float $bit_fail_limit): bool
 
 ### Дивіться також
 
--   [fanngetbitfaillimit()](function.fann-get-bit-fail-limit.html) - Повертає межу збою бітів, використану під час навчання
+-   [fanngetbitfaillimit()](function.fann-get-bit-fail-limit.md) - Повертає межу збою бітів, використану під час навчання

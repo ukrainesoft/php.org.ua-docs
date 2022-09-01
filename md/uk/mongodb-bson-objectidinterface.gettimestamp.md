@@ -28,4 +28,4 @@ abstract public MongoDB\BSON\ObjectIdInterface::getTimestamp(): int
 
 ### Дивіться також
 
--   [MongoDBBSONObjectId::getTimestamp()](mongodb-bson-objectid.gettimestamp.html) - Повертає мітку часу ObjectId
+-   [MongoDBBSONObjectId::getTimestamp()](mongodb-bson-objectid.gettimestamp.md) - Повертає мітку часу ObjectId

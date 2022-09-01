@@ -73,8 +73,8 @@ Array
 
 ### Дивіться також
 
--   [posixgetegid()](function.posix-getegid.html) - Повертає ефективний ідентифікатор групи поточного процесу EGID
--   [posixgetgrnam()](function.posix-getgrnam.html) - Повертає інформацію про групу, використовуючи її ім'я
+-   [posixgetegid()](function.posix-getegid.md) - Повертає ефективний ідентифікатор групи поточного процесу EGID
+-   [posixgetgrnam()](function.posix-getgrnam.md) - Повертає інформацію про групу, використовуючи її ім'я
 -   [filegroup()](function.filegroup.md) - Отримує ідентифікатор групи файлу
 -   [stat()](function.stat.md) - Повертає інформацію про файл
 -   POSIX керівництво GETGRNAM(3)

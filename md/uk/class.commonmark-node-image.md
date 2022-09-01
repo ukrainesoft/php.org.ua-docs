@@ -102,4 +102,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMarkNodeImage::construct](commonmark-node-image.construct.html) - Конструктор класу Image
+-   [CommonMarkNodeImage::construct](commonmark-node-image.construct.md) - Конструктор класу Image

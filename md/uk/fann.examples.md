@@ -10,4 +10,4 @@ title: Приклади
 
 ## Зміст
 
--   [Обучение XOR](fann.examples-1.html)
+-   [Обучение XOR](fann.examples-1.md)

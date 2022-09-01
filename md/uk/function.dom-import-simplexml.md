@@ -67,4 +67,4 @@ echo $dom->saveXML();
 
 ### Дивіться також
 
--   [simplexmlimportdom()](function.simplexml-import-dom.html) - Отримує об'єкт класу SimpleXMLElement із вузла DOM
+-   [simplexmlimportdom()](function.simplexml-import-dom.md) - Отримує об'єкт класу SimpleXMLElement із вузла DOM

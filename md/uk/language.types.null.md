@@ -16,7 +16,7 @@ title: 'NULL'
     
 -   їй ще не було надано жодного значення.
     
--   вона була видалена за допомогою [unset()](function.unset.html)
+-   вона була видалена за допомогою [unset()](function.unset.md)
     
 
 ### Синтаксис
@@ -29,7 +29,7 @@ $var = NULL;
 ?>
 ```
 
-Дивіться також функції [ісnull()](function.is-null.html) і [unset()](function.unset.html)
+Дивіться також функції [ісnull()](function.is-null.html) і [unset()](function.unset.md)
 
 ### Приведення до **`null`**
 

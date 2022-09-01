@@ -50,4 +50,4 @@ var_dump($token->getTokenName());   // -> NULL
 ### Дивіться також
 
 -   [PhpToken::tokenize()](phptoken.tokenize.md) - Розбирає заданий рядок, що містить програму на PHP, на масив об'єктів PhpToken
--   [tokenname()](function.token-name.html) - Отримати символьне ім'я для переданої PHP-лексеми
+-   [tokenname()](function.token-name.md) - Отримати символьне ім'я для переданої PHP-лексеми

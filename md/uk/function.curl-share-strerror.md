@@ -24,7 +24,7 @@ curl_share_strerror(int $error_code): ?string
 
 `error_code`
 
-Одна з констант: [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+Одна з констант: [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
 
 ### Значення, що повертаються
 
@@ -32,5 +32,5 @@ curl_share_strerror(int $error_code): ?string
 
 ### Дивіться також
 
--   [curlshareerrno()](function.curl-share-errno.html) - Повертає код останньої помилки оброблюваного обробника curl
--   [curlstrerror()](function.curl-strerror.html) - Отримати текстовий опис для коду помилки
+-   [curlshareerrno()](function.curl-share-errno.md) - Повертає код останньої помилки оброблюваного обробника curl
+-   [curlstrerror()](function.curl-strerror.md) - Отримати текстовий опис для коду помилки

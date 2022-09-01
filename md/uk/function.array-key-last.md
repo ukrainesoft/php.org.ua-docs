@@ -32,5 +32,5 @@ array_key_last(array $array): int|string|null
 
 ### Дивіться також
 
--   [arraykeyfirst()](function.array-key-first.html) - Отримує перший ключ масиву
+-   [arraykeyfirst()](function.array-key-first.md) - Отримує перший ключ масиву
 -   [end()](function.end.md) - Встановлює внутрішній покажчик масиву на його останній елемент

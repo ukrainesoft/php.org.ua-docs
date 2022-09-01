@@ -91,6 +91,6 @@ mqseries_inq(    resource $hconn,    resource $hobj,    int $selecto
 
 ### Дивіться також
 
--   [mqseriesconn()](function.mqseries-conn.html) - MQSeries MQCONN
--   [mqseriesconnx()](function.mqseries-connx.html) - MQSeries MQCONNX
--   [mqseriesopen()](function.mqseries-open.html) - MQSeries MQOPEN
+-   [mqseriesconn()](function.mqseries-conn.md) - MQSeries MQCONN
+-   [mqseriesconnx()](function.mqseries-connx.md) - MQSeries MQCONNX
+-   [mqseriesopen()](function.mqseries-open.md) - MQSeries MQOPEN

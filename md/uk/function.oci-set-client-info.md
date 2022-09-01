@@ -30,7 +30,7 @@ oci_set_client_info(resource $connection, string $client_info): bool
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html), або [ocinewconnect()](function.oci-new-connect.html)
+Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html), або [ocinewconnect()](function.oci-new-connect.md)
 
 `client_info`
 
@@ -90,7 +90,7 @@ SQL> select client_info from v$session;
 
 ### Дивіться також
 
--   [ocisetmodulename()](function.oci-set-module-name.html) - Задає ім'я модулю
--   [ocisetaction()](function.oci-set-action.html) - Вказує ім'я для дії
--   [ocisetclientidentifier()](function.oci-set-client-identifier.html) - задає ідентифікатор клієнта
--   [ocisetдбoperation()](function.oci-set-db-operation.html) - Задає операцію бази даних
+-   [ocisetmodulename()](function.oci-set-module-name.md) - Задає ім'я модулю
+-   [ocisetaction()](function.oci-set-action.md) - Вказує ім'я для дії
+-   [ocisetclientidentifier()](function.oci-set-client-identifier.md) - задає ідентифікатор клієнта
+-   [ocisetдбoperation()](function.oci-set-db-operation.md) - Задає операцію бази даних

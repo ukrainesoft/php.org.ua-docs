@@ -24,7 +24,7 @@ dio_read(resource $fd, int $len = 1024): string
 
 `fd`
 
-Файловий дескриптор, отриманий з [dioopen()](function.dio-open.html)
+Файловий дескриптор, отриманий з [dioopen()](function.dio-open.md)
 
 `len`
 
@@ -36,4 +36,4 @@ dio_read(resource $fd, int $len = 1024): string
 
 ### Дивіться також
 
--   [diowrite()](function.dio-write.html) - Записує байти у файл, опціонально обрізаючи до вказаної довжини
+-   [diowrite()](function.dio-write.md) - Записує байти у файл, опціонально обрізаючи до вказаної довжини

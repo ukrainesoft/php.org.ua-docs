@@ -42,5 +42,5 @@ echo 'Привет ' . htmlspecialchars($_POST["name"]) . '!';
 
 ### Дивіться також
 
--   [Обробка зовнішніх змінних](language.variables.external.html)
--   [Фільтрування даних](book.filter.html)
+-   [Обробка зовнішніх змінних](language.variables.external.md)
+-   [Фільтрування даних](book.filter.md)

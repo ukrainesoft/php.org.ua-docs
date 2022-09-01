@@ -34,11 +34,11 @@ array_walk(array|object &$array, callable $callback, mixed $arg = null): bool
 
 > **Зауваження**
 > 
-> Якщо потрібно, щоб функція `callback` змінила значення у масиві, визначте перший параметр `callback` як [посилання](language.references.html). Тоді всі зміни будуть застосовані до елементів оригінального масиву.
+> Якщо потрібно, щоб функція `callback` змінила значення у масиві, визначте перший параметр `callback` як [посилання](language.references.md). Тоді всі зміни будуть застосовані до елементів оригінального масиву.
 
 > **Зауваження**
 > 
-> Багато вбудованих функцій (наприклад, [strtolower()](function.strtolower.html)) виводять попередження, якщо їм передано більше параметрів, ніж вони очікують, або які не можуть безпосередньо використовуватись у `callback`
+> Багато вбудованих функцій (наприклад, [strtolower()](function.strtolower.md)) виводять попередження, якщо їм передано більше параметрів, ніж вони очікують, або які не можуть безпосередньо використовуватись у `callback`
 
 Потенційно змінені можуть бути лише значення масиву `array`; структура масиву може бути змінена, тобто не можна додати, видалити чи змінити порядок елементів. Якщо callback-функція не відповідає цій вимогі, поведінка цієї функції стане невизначеною і непередбачуваною.
 
@@ -52,7 +52,7 @@ array_walk(array|object &$array, callable $callback, mixed $arg = null): bool
 
 ### Помилки
 
-Починаючи з PHP 7.1.0, якщо `callback`функція вимагає більше двох параметрів (значення та ключ елемента масиву) або більше 3 параметрів, якщо також передається параметр `arg`, буде викинуто виняток [ArgumentCountError](class.argumentcounterror.html). Раніше в такому разі при кожному виклику `callback`, генерувалася помилка рівня [ЕWARNING](errorfunc.constants.html)
+Починаючи з PHP 7.1.0, якщо `callback`функція вимагає більше двох параметрів (значення та ключ елемента масиву) або більше 3 параметрів, якщо також передається параметр `arg`, буде викинуто виняток [ArgumentCountError](class.argumentcounterror.html). Раніше в такому разі при кожному виклику `callback`, генерувалася помилка рівня [ЕWARNING](errorfunc.constants.md)
 
 ### список змін
 
@@ -126,10 +126,10 @@ array_walk($elements, function ($value, $key) {
 
 ### Дивіться також
 
--   [arraywalkrecursive()](function.array-walk-recursive.html) - Рекурсивно застосовує функцію користувача до кожного елементу масиву
--   [iteratorapply()](function.iterator-apply.html) - Викликає функцію кожного елемента в итераторе
--   [list()](function.list.html) - Надає змінним зі списку значення подібно до масиву
--   [each()](function.each.html) - Повертає поточну пару ключ/значення з масиву та зміщує його покажчик
--   [calluserfuncarray()](function.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів
--   [arraymap()](function.array-map.html) - Застосовує callback-функцію до всіх елементів зазначених масивів
--   [foreach](control-structures.foreach.html)
+-   [arraywalkrecursive()](function.array-walk-recursive.md) - Рекурсивно застосовує функцію користувача до кожного елементу масиву
+-   [iteratorapply()](function.iterator-apply.md) - Викликає функцію кожного елемента в итераторе
+-   [list()](function.list.md) - Надає змінним зі списку значення подібно до масиву
+-   [each()](function.each.md) - Повертає поточну пару ключ/значення з масиву та зміщує його покажчик
+-   [calluserfuncarray()](function.call-user-func-array.md) - Викликає callback-функцію з масивом параметрів
+-   [arraymap()](function.array-map.md) - Застосовує callback-функцію до всіх елементів зазначених масивів
+-   [foreach](control-structures.foreach.md)

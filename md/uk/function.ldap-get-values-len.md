@@ -20,17 +20,17 @@ ldap_get_values_len(LDAP\Connection $ldap, LDAP\ResultEntry $entry, string $attr
 
 Читає всі значення атрибута запису результату.
 
-Ця функція використовується так само як і [ldapgetvalues()](function.ldap-get-values.html) за винятком того, що обробляє двійкові дані, а не рядкові.
+Ця функція використовується так само як і [ldapgetvalues()](function.ldap-get-values.md) за винятком того, що обробляє двійкові дані, а не рядкові.
 
 ### Список параметрів
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `entry`
 
-Екземпляр [LDAPResultEntry](class.ldap-result-entry.html)
+Екземпляр [LDAPResultEntry](class.ldap-result-entry.md)
 
 `attribute`
 
@@ -42,9 +42,9 @@ ldap_get_values_len(LDAP\Connection $ldap, LDAP\ResultEntry $entry, string $attr
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [ldapgetvalues()](function.ldap-get-values.html) - Отримує всі значення із запису результату
+-   [ldapgetvalues()](function.ldap-get-values.md) - Отримує всі значення із запису результату

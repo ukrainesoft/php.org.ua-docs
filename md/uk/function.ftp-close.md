@@ -22,13 +22,13 @@ ftp_close(FTP\Connection $ftp): bool
 
 > **Зауваження**
 > 
-> Після виклику цієї функції, з'єднання більше не може бути використане, і при необхідності має бути встановлене заново за допомогою функції [ftpconnect()](function.ftp-connect.html)
+> Після виклику цієї функції, з'єднання більше не може бути використане, і при необхідності має бути встановлене заново за допомогою функції [ftpconnect()](function.ftp-connect.md)
 
 ### Список параметрів
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 ### Значення, що повертаються
 
@@ -38,7 +38,7 @@ ftp_close(FTP\Connection $ftp): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -63,4 +63,4 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftpconnect()](function.ftp-connect.html) - Встановлює з'єднання з FTP-сервером
+-   [ftpconnect()](function.ftp-connect.md) - Встановлює з'єднання з FTP-сервером

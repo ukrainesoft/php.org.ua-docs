@@ -32,7 +32,7 @@ mysqli_init(): mysqli|false
 
 > **Зауваження**
 > 
-> Будь-які подальші виклики mysqli-функцій із цим ресурсом (крім [mysqlioptions()](mysqli.options.md)) зазнають невдачі, доки не буде викликана функція [mysqlirealconnect()](mysqli.real-connect.html)
+> Будь-які подальші виклики mysqli-функцій із цим ресурсом (крім [mysqlioptions()](mysqli.options.md)) зазнають невдачі, доки не буде викликана функція [mysqlirealconnect()](mysqli.real-connect.md)
 
 ### Список параметрів
 
@@ -50,11 +50,11 @@ mysqli_init(): mysqli|false
 
 ### Приклади
 
-Дивіться [mysqlirealconnect()](mysqli.real-connect.html)
+Дивіться [mysqlirealconnect()](mysqli.real-connect.md)
 
 ### Дивіться також
 
 -   [mysqlioptions()](mysqli.options.md) - Встановлення налаштувань
 -   [mysqliclose()](mysqli.close.md) - Закриває раніше відкрите з'єднання з базою даних
--   [mysqlirealconnect()](mysqli.real-connect.html) - Встановлює з'єднання із сервером mysql
--   [mysqliconnect()](function.mysqli-connect.html) - Псевдонім mysqli::construct
+-   [mysqlirealconnect()](mysqli.real-connect.md) - Встановлює з'єднання із сервером mysql
+-   [mysqliconnect()](function.mysqli-connect.md) - Псевдонім mysqli::construct

@@ -24,7 +24,7 @@ db2_next_result(resource $stmt): resource
 
 `stmt`
 
-Підготовлений оператор, який повертається функцією [db2exec()](function.db2-exec.html) або [db2execute()](function.db2-execute.html)
+Підготовлений оператор, який повертається функцією [db2exec()](function.db2-exec.html) або [db2execute()](function.db2-execute.md)
 
 ### Значення, що повертаються
 

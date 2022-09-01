@@ -53,4 +53,4 @@ echo xmlrpc_get_type(STDIN) . "\n"; // int
 
 ### Дивіться також
 
--   [xmlrpcsettype()](function.xmlrpc-set-type.html) - Встановлює тип XML-RPC, base64 або datetime для значення рядка PHP
+-   [xmlrpcsettype()](function.xmlrpc-set-type.md) - Встановлює тип XML-RPC, base64 або datetime для значення рядка PHP

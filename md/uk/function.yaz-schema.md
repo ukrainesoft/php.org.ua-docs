@@ -20,13 +20,13 @@ yaz_schema(resource $id, string $schema): void
 
 **yazschema()** встановлює схему для значень, що повертаються.
 
-Функція має бути викликана до [yazsearch()](function.yaz-search.html) або [yazpresent()](function.yaz-present.html)
+Функція має бути викликана до [yazsearch()](function.yaz-search.html) або [yazpresent()](function.yaz-present.md)
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, повернутий [yazconnect()](function.yaz-connect.html)
+Дескриптор з'єднання, повернутий [yazconnect()](function.yaz-connect.md)
 
 `schema`
 

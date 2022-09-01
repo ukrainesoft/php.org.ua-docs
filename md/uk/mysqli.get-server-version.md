@@ -18,7 +18,7 @@ mysqli::$serverversion -- mysqligetserverversion - Повертає версію
 
 Об'єктно-орієнтований стиль
 
-int [$mysqli->serverversion](mysqli.get-server-version.html)
+int [$mysqli->serverversion](mysqli.get-server-version.md)
 
 Процедурний стиль
 
@@ -32,7 +32,7 @@ mysqli_get_server_version(mysqli $mysql): int
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -92,6 +92,6 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqligetclientinfo()](mysqli.get-client-info.html) - Отримує інформацію про клієнта MySQL
--   [mysqligetclientversion()](mysqli.get-client-version.html) - Повертає інформацію про клієнта MySQL у вигляді рядка
--   [mysqligetserverinfo()](mysqli.get-server-info.html) - Повертає версію MySQL сервера
+-   [mysqligetclientinfo()](mysqli.get-client-info.md) - Отримує інформацію про клієнта MySQL
+-   [mysqligetclientversion()](mysqli.get-client-version.md) - Повертає інформацію про клієнта MySQL у вигляді рядка
+-   [mysqligetserverinfo()](mysqli.get-server-info.md) - Повертає версію MySQL сервера

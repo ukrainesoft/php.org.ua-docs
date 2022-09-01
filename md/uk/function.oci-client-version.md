@@ -46,4 +46,4 @@ oci_client_version(): string
 
 ### Дивіться також
 
--   [ociserverversion()](function.oci-server-version.html) - Повертає версію сервера Oracle
+-   [ociserverversion()](function.oci-server-version.md) - Повертає версію сервера Oracle

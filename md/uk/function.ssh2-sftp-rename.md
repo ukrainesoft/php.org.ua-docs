@@ -24,7 +24,7 @@ ssh2_sftp_rename(resource $sftp, string $from, string $to): bool
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.html)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.md)
 
 `from`
 
@@ -54,4 +54,4 @@ ssh2_sftp_rename($sftp, '/home/username/oldname', '/home/username/newname');
 
 ### Дивіться також
 
--   [rename()](function.rename.html) - Перейменовує файл або директорію
+-   [rename()](function.rename.md) - Перейменовує файл або директорію

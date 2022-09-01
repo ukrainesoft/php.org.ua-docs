@@ -40,4 +40,4 @@ fann_get_cascade_min_cand_epochs(resource $ann): int
 
 ### Дивіться також
 
--   [fannsetcascademincandepochs()](function.fann-set-cascade-min-cand-epochs.html) - встановлює найменший період кандидата
+-   [fannsetcascademincandepochs()](function.fann-set-cascade-min-cand-epochs.md) - встановлює найменший період кандидата

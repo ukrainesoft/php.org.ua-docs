@@ -24,7 +24,7 @@ ldap_add(    LDAP\Connection $ldap,    string $dn,    array $entry,�
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `dn`
 
@@ -44,7 +44,7 @@ $entry["attribute2"][1] = "value2";
 
 `controls`
 
-Масив [управляющих констант LDAP](ldap.controls.html) для відправки у запиті.
+Масив [управляющих констант LDAP](ldap.controls.md) для відправки у запиті.
 
 ### Значення, що повертаються
 
@@ -54,7 +54,7 @@ $entry["attribute2"][1] = "value2";
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
 |  | Додано підтримку параметра `controls` |
 
@@ -91,5 +91,5 @@ if ($ds) {
 
 ### Дивіться також
 
--   [ldapaddext()](function.ldap-add-ext.html) - Додати записи до каталогу LDAP
--   [ldapdelete()](function.ldap-delete.html) - Видаляє запис із директорії LDAP
+-   [ldapaddext()](function.ldap-add-ext.md) - Додати записи до каталогу LDAP
+-   [ldapdelete()](function.ldap-delete.md) - Видаляє запис із директорії LDAP

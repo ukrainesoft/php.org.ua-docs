@@ -10,7 +10,7 @@ title: Клас parallelEvents
 
 ## Цикл подій
 
-Цикл подій відстежує стан наборів об'єктів Future та/або Channel (цілей) для виконання операцій читання ([parallelFuture::value()](parallel-future.value.html) [parallelChannel::recv()](parallel-channel.recv.html)) та записи ([parallelChannel::send()](parallel-channel.send.html)) у міру того, як цілі стають доступними та операції можуть виконуватися без блокування циклу подій.
+Цикл подій відстежує стан наборів об'єктів Future та/або Channel (цілей) для виконання операцій читання ([parallelFuture::value()](parallel-future.value.html) [parallelChannel::recv()](parallel-channel.recv.html)) та записи ([parallelChannel::send()](parallel-channel.send.md)) у міру того, як цілі стають доступними та операції можуть виконуватися без блокування циклу подій.
 
 ## Огляд класів
 
@@ -51,10 +51,10 @@ public setTimeout(int $timeout): void
 
 ## Зміст
 
--   [parallelEvents::setBlocking](parallel-events.setblocking.html) - Поведінка
--   [parallelEvents::setTimeout](parallel-events.settimeout.html) - Поведінка
--   [parallelEvents::setInput](parallel-events.setinput.html) - Вхід
--   [parallelEvents::addChannel](parallel-events.addchannel.html) - Цілі
--   [parallelEvents::addFuture](parallel-events.addfuture.html) - Цілі
--   [parallelEvents::remove](parallel-events.remove.html) - Цілі
--   [parallelEvents::poll](parallel-events.poll.html) - Опитування
+-   [parallelEvents::setBlocking](parallel-events.setblocking.md) - Поведінка
+-   [parallelEvents::setTimeout](parallel-events.settimeout.md) - Поведінка
+-   [parallelEvents::setInput](parallel-events.setinput.md) - Вхід
+-   [parallelEvents::addChannel](parallel-events.addchannel.md) - Цілі
+-   [parallelEvents::addFuture](parallel-events.addfuture.md) - Цілі
+-   [parallelEvents::remove](parallel-events.remove.md) - Цілі
+-   [parallelEvents::poll](parallel-events.poll.md) - Опитування

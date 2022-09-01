@@ -168,6 +168,6 @@ array_splice($input, $x, 1, $y);
 
 ### Дивіться також
 
--   [arraymerge()](function.array-merge.html) - Зливає один або більше масивів
--   [arrayslice()](function.array-slice.html) - Вибирає зріз масиву
+-   [arraymerge()](function.array-merge.md) - Зливає один або більше масивів
+-   [arrayslice()](function.array-slice.md) - Вибирає зріз масиву
 -   [unset()](function.unset.md) - Видаляє змінну

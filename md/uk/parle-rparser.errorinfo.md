@@ -26,4 +26,4 @@ public Parle\RParser::errorInfo(): Parle\ErrorInfo
 
 ### Значення, що повертаються
 
-Повертає екземпляр [ParleErrorInfo](class.parle-errorinfo.html)
+Повертає екземпляр [ParleErrorInfo](class.parle-errorinfo.md)

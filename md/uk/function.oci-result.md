@@ -18,7 +18,7 @@ ociresult — Повертає значення поля з результату
 oci_result(resource $statement, string|int $column): mixed
 ```
 
-Повертає дані поля `column` поточного рядка, що повертається функцією [ocifetch()](function.oci-fetch.html)
+Повертає дані поля `column` поточного рядка, що повертається функцією [ocifetch()](function.oci-fetch.md)
 
 За подробицями щодо відображення типів даних, що здійснюється модулем OCI8, зверніться до [типів даних, що підтримуються драйвером](oci8.datatypes.md)
 
@@ -36,7 +36,7 @@ oci_result(resource $statement, string|int $column): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання [ocifetch()](function.oci-fetch.html) з **ociresult()****
+**Приклад #1 Приклад використання [ocifetch()](function.oci-fetch.md) з **ociresult()****
 
 ```php
 <?php
@@ -74,8 +74,8 @@ oci_close($conn);
 
 ### Дивіться також
 
--   [ocifetcharray()](function.oci-fetch-array.html) - Повертає наступний рядок із результату запиту у вигляді асоціативного чи нумерованого масиву
--   [ocifetchassoc()](function.oci-fetch-assoc.html) - Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
--   [ocifetchobject()](function.oci-fetch-object.html) - Повертає наступний рядок із результату запиту у вигляді об'єкта
--   [ocifetchrow()](function.oci-fetch-row.html) - Повертає наступний рядок із результату запиту у вигляді нумерованого масиву
--   [ocifetchall()](function.oci-fetch-all.html) - Вибирає всі рядки з результату запиту до двомірного масиву
+-   [ocifetcharray()](function.oci-fetch-array.md) - Повертає наступний рядок із результату запиту у вигляді асоціативного чи нумерованого масиву
+-   [ocifetchassoc()](function.oci-fetch-assoc.md) - Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
+-   [ocifetchobject()](function.oci-fetch-object.md) - Повертає наступний рядок із результату запиту у вигляді об'єкта
+-   [ocifetchrow()](function.oci-fetch-row.md) - Повертає наступний рядок із результату запиту у вигляді нумерованого масиву
+-   [ocifetchall()](function.oci-fetch-all.md) - Вибирає всі рядки з результату запиту до двомірного масиву

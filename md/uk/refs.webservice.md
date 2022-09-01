@@ -8,38 +8,38 @@ title: Веб-сервіси
 ---
 # Веб-сервіси
 
--   [OAuth](book.oauth.html)
-    -   [Введение](intro.oauth.html)
-    -   [Встановлення та налаштування](oauth.setup.html)
-    -   [Обумовлені константи](oauth.constants.html)
-    -   [Приклади](oauth.examples.html)
-    -   [Функции OAuth](ref.oauth.html)
-    -   [OAuth](class.oauth.html) - Клас OAuth
-    -   [OAuthProvider](class.oauthprovider.html) - Клас OAuthProvider
-    -   [OAuthException](class.oauthexception.html) - Клас OAuthException
--   [SOAP](book.soap.html)
-    -   [Введение](intro.soap.html)
-    -   [Встановлення та налаштування](soap.setup.html)
-    -   [Обумовлені константи](soap.constants.html)
-    -   [Функции SOAP](ref.soap.html)
-    -   [SoapClient](class.soapclient.html) - Клас SoapClient
-    -   [SoapServer](class.soapserver.html) - Клас SoapServer
-    -   [SoapFault](class.soapfault.html) - Клас SoapFault
-    -   [SoapHeader](class.soapheader.html) - Клас SoapHeader
-    -   [SoapParam](class.soapparam.html) - Клас SoapParam
-    -   [SoapVar](class.soapvar.html) - Клас SoapVar
--   [Yar](book.yar.html) — Ще один RPC-фреймворк
-    -   [Введение](intro.yar.html)
-    -   [Встановлення та налаштування](yar.setup.html)
-    -   [Обумовлені константи](yar.constants.html)
-    -   [Приклади](yar.examples.html)
-    -   [YarServer](class.yar-server.html) - Клас YarServer
-    -   [YarClient](class.yar-client.html) - Клас YarClient
-    -   [YarConcurrentClient](class.yar-concurrent-client.html) - Клас YarConcurrentClient
-    -   [YarServerException](class.yar-server-exception.html) - Клас YarServerException
-    -   [YarClientException](class.yar-client-exception.html) - Клас YarClientException
--   [XML-RPC](book.xmlrpc.html)
-    -   [Введение](intro.xmlrpc.html)
-    -   [Встановлення та налаштування](xmlrpc.setup.html)
-    -   [Обумовлені константи](xmlrpc.constants.html)
-    -   [Функції XML-RPC](ref.xmlrpc.html)
+-   [OAuth](book.oauth.md)
+    -   [Введение](intro.oauth.md)
+    -   [Встановлення та налаштування](oauth.setup.md)
+    -   [Обумовлені константи](oauth.constants.md)
+    -   [Приклади](oauth.examples.md)
+    -   [Функции OAuth](ref.oauth.md)
+    -   [OAuth](class.oauth.md) - Клас OAuth
+    -   [OAuthProvider](class.oauthprovider.md) - Клас OAuthProvider
+    -   [OAuthException](class.oauthexception.md) - Клас OAuthException
+-   [SOAP](book.soap.md)
+    -   [Введение](intro.soap.md)
+    -   [Встановлення та налаштування](soap.setup.md)
+    -   [Обумовлені константи](soap.constants.md)
+    -   [Функции SOAP](ref.soap.md)
+    -   [SoapClient](class.soapclient.md) - Клас SoapClient
+    -   [SoapServer](class.soapserver.md) - Клас SoapServer
+    -   [SoapFault](class.soapfault.md) - Клас SoapFault
+    -   [SoapHeader](class.soapheader.md) - Клас SoapHeader
+    -   [SoapParam](class.soapparam.md) - Клас SoapParam
+    -   [SoapVar](class.soapvar.md) - Клас SoapVar
+-   [Yar](book.yar.md) — Ще один RPC-фреймворк
+    -   [Введение](intro.yar.md)
+    -   [Встановлення та налаштування](yar.setup.md)
+    -   [Обумовлені константи](yar.constants.md)
+    -   [Приклади](yar.examples.md)
+    -   [YarServer](class.yar-server.md) - Клас YarServer
+    -   [YarClient](class.yar-client.md) - Клас YarClient
+    -   [YarConcurrentClient](class.yar-concurrent-client.md) - Клас YarConcurrentClient
+    -   [YarServerException](class.yar-server-exception.md) - Клас YarServerException
+    -   [YarClientException](class.yar-client-exception.md) - Клас YarClientException
+-   [XML-RPC](book.xmlrpc.md)
+    -   [Введение](intro.xmlrpc.md)
+    -   [Встановлення та налаштування](xmlrpc.setup.md)
+    -   [Обумовлені константи](xmlrpc.constants.md)
+    -   [Функції XML-RPC](ref.xmlrpc.md)

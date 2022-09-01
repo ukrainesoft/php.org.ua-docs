@@ -69,11 +69,11 @@ title: Налаштування під час виконання
 
 `mbstring.detect_order` string
 
-Визначає порядок визначення кодування символів за промовчанням. Дивіться також [мбdetectorder()](function.mb-detect-order.html)
+Визначає порядок визначення кодування символів за промовчанням. Дивіться також [мбdetectorder()](function.mb-detect-order.md)
 
 `mbstring.substitute_character` string
 
-Визначає символ для заміни неприпустимих символів кодування. Список підтримуваних значень дивіться в описі функції [мбsubstitutecharacter()](function.mb-substitute-character.html)
+Визначає символ для заміни неприпустимих символів кодування. Список підтримуваних значень дивіться в описі функції [мбsubstitutecharacter()](function.mb-substitute-character.md)
 
 `mbstring.func_overload` string
 
@@ -89,9 +89,9 @@ title: Налаштування під час виконання
 
 `mbstring.strict_detection` bool
 
-Включає чітке визначення кодування. Дивіться опис та приклади в [мбdetectencoding()](function.mb-detect-encoding.html)
+Включає чітке визначення кодування. Дивіться опис та приклади в [мбdetectencoding()](function.mb-detect-encoding.md)
 
-Згідно [» специфікації HTML 4.01](http://www.w3.org/TR/REC-html40/interact/forms.html#adef-accept-charset), веб-браузерам дозволено перекодувати дані з форми, які вони набувають у кодуванні символів, відмінної від використовуваної на сторінці. Дивіться функцію [мбhttpinput()](function.mb-http-input.html) для того, щоб визначити кодування символів, що використовується браузерами.
+Згідно [» специфікації HTML 4.01](http://www.w3.org/TR/REC-html40/interact/forms.html#adef-accept-charset), веб-браузерам дозволено перекодувати дані з форми, які вони набувають у кодуванні символів, відмінної від використовуваної на сторінці. Дивіться функцію [мбhttpinput()](function.mb-http-input.md) для того, щоб визначити кодування символів, що використовується браузерами.
 
 Хоча популярні браузери здатні досить точно визначити кодування символів даного HTML-документа, краще встановити параметр `charset` у HTTP-заголовку `Content-Type` відповідним значенням за допомогою [header()](function.header.md) або вказати потрібне значення у параметрі [defaultcharset](ini.core.html#ini.sect.data-handling) в ini-налаштуваннях.
 

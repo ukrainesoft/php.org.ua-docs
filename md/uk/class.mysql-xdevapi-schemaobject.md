@@ -36,4 +36,4 @@ title: Інтерфейс SchemaObject
 
 ## Зміст
 
--   [SchemaObject::getSchema](mysql-xdevapi-schemaobject.getschema.html) — Отримує об'єкт схеми
+-   [SchemaObject::getSchema](mysql-xdevapi-schemaobject.getschema.md) — Отримує об'єкт схеми

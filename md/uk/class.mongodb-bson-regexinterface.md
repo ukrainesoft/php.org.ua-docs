@@ -12,7 +12,7 @@ title: Інтерфейс MongoDBBSONRegexInterface
 
 ## Вступ
 
-Цей інтерфейс реалізовано [MongoDBBSONRegex](class.mongodb-bson-regex.html), як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
+Цей інтерфейс реалізовано [MongoDBBSONRegex](class.mongodb-bson-regex.md), як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 
@@ -40,6 +40,6 @@ abstract public __toString(): string
 
 ## Зміст
 
--   [MongoDBBSONRegexInterface::getFlags](mongodb-bson-regexinterface.getflags.html) — Повертає прапори RegexInterface
--   [MongoDBBSONRegexInterface::getPattern](mongodb-bson-regexinterface.getpattern.html) — Повертає шаблон RegexInterface
--   [MongoDBBSONRegexInterface::toString](mongodb-bson-regexinterface.tostring.html) — Повертає рядкову виставу RegexInterface
+-   [MongoDBBSONRegexInterface::getFlags](mongodb-bson-regexinterface.getflags.md) — Повертає прапори RegexInterface
+-   [MongoDBBSONRegexInterface::getPattern](mongodb-bson-regexinterface.getpattern.md) — Повертає шаблон RegexInterface
+-   [MongoDBBSONRegexInterface::toString](mongodb-bson-regexinterface.tostring.md) — Повертає рядкову виставу RegexInterface

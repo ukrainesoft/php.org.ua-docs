@@ -36,4 +36,4 @@ getservbyport(int $port, string $protocol): string|false
 
 ### Дивіться також
 
--   [getservbyname()](function.getservbyname.html) - Отримує номер порту, пов'язаного з інтернет-службою та протоколом
+-   [getservbyname()](function.getservbyname.md) - Отримує номер порту, пов'язаного з інтернет-службою та протоколом

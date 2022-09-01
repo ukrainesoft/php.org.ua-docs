@@ -36,4 +36,4 @@ public static Imagick::setResourceLimit(int $type, int $limit): bool
 
 ### Дивіться також
 
--   [Imagick::getResourceLimit()](imagick.getresourcelimit.html) - Повертає заданий ліміт ресурсів
+-   [Imagick::getResourceLimit()](imagick.getresourcelimit.md) - Повертає заданий ліміт ресурсів

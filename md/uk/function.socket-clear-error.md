@@ -26,7 +26,7 @@ socket_clear_error(?Socket $socket = null): void
 
 `socket`
 
-Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.html)
+Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.md)
 
 ### Значення, що повертаються
 
@@ -41,5 +41,5 @@ socket_clear_error(?Socket $socket = null): void
 
 ### Дивіться також
 
--   [socketlasterror()](function.socket-last-error.html) - Повертає останню помилку на сокеті
--   [socketstrerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
+-   [socketlasterror()](function.socket-last-error.md) - Повертає останню помилку на сокеті
+-   [socketstrerror()](function.socket-strerror.md) - Повертає рядок, що описує помилку сокету

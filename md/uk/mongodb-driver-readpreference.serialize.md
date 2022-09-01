@@ -24,14 +24,14 @@ final public MongoDB\Driver\ReadPreference::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
+Повертає серіалізовану виставу [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverReadPreference::unserialize()](mongodb-driver-readpreference.unserialize.html) - Десеріалізація ReadPreference
+-   [MongoDBDriverReadPreference::unserialize()](mongodb-driver-readpreference.unserialize.md) - Десеріалізація ReadPreference
 -   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

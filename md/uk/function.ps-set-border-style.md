@@ -18,13 +18,13 @@ title: псsetborderstyle
 ps_set_border_style(resource $psdoc, string $style, float $width): bool
 ```
 
-Посилання, додані за допомогою однієї з функцій [псaddweblink()](function.ps-add-weblink.html) [псaddpdflink()](function.ps-add-pdflink.html) і т.д., будуть відображатися із закругленим прямокутником, коли документ PostScript перетворюється на PDF і переглядається у програмі перегляду PDF. Цей прямокутник не відображається у документі PostScript. Функція встановлює зовнішній вигляд та ширину лінії кордону.
+Посилання, додані за допомогою однієї з функцій [псaddweblink()](function.ps-add-weblink.html) [псaddpdflink()](function.ps-add-pdflink.md) і т.д., будуть відображатися із закругленим прямокутником, коли документ PostScript перетворюється на PDF і переглядається у програмі перегляду PDF. Цей прямокутник не відображається у документі PostScript. Функція встановлює зовнішній вигляд та ширину лінії кордону.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `style`
 
@@ -40,5 +40,5 @@ ps_set_border_style(resource $psdoc, string $style, float $width): bool
 
 ### Дивіться також
 
--   [псsetbordercolor()](function.ps-set-border-color.html) - Встановлює колір межі анотацій
--   [псsetborderdash()](function.ps-set-border-dash.html) - Встановлює довжину тире для межі анотації
+-   [псsetbordercolor()](function.ps-set-border-color.md) - Встановлює колір межі анотацій
+-   [псsetborderdash()](function.ps-set-border-dash.md) - Встановлює довжину тире для межі анотації

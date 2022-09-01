@@ -97,4 +97,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMarkNodeText::construct](commonmark-node-text.construct.html) - Конструктор класу Text
+-   [CommonMarkNodeText::construct](commonmark-node-text.construct.md) - Конструктор класу Text

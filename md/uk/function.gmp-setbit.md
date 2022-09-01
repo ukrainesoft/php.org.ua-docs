@@ -100,9 +100,9 @@ echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
 
 > **Зауваження**
 > 
-> На відміну від більшості GMP функцій, **gmpsetbit()** має викликатися для вже існуючого об'єкта GMP (наприклад, створеного функцією [gmpinit()](function.gmp-init.html)). Число не створюватиметься автоматично.
+> На відміну від більшості GMP функцій, **gmpsetbit()** має викликатися для вже існуючого об'єкта GMP (наприклад, створеного функцією [gmpinit()](function.gmp-init.md)). Число не створюватиметься автоматично.
 
 ### Дивіться також
 
--   [gmpclrbit()](function.gmp-clrbit.html) - Скидання біта
--   [gmptestbit()](function.gmp-testbit.html) - Перевірка, чи встановлений біт в 1
+-   [gmpclrbit()](function.gmp-clrbit.md) - Скидання біта
+-   [gmptestbit()](function.gmp-testbit.md) - Перевірка, чи встановлений біт в 1

@@ -18,7 +18,7 @@ sodiumcryptoкксkeypair — Створює нову пару ключів.
 sodium_crypto_kx_keypair(): string
 ```
 
-Створити нову пару ключів sodium, що складається із секретного ключа (32 байти) і наступного за ним відкритого ключа (32 байти). Ключі можна отримати, викликавши [sodiumcryptoкксsecretkey()](function.sodium-crypto-kx-secretkey.html) і [sodiumcryptoкксpublickey()](function.sodium-crypto-kx-publickey.html) відповідно.
+Створити нову пару ключів sodium, що складається із секретного ключа (32 байти) і наступного за ним відкритого ключа (32 байти). Ключі можна отримати, викликавши [sodiumcryptoкксsecretkey()](function.sodium-crypto-kx-secretkey.html) і [sodiumcryptoкксpublickey()](function.sodium-crypto-kx-publickey.md) відповідно.
 
 ### Список параметрів
 

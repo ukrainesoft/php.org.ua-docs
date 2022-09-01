@@ -34,4 +34,4 @@ opcache_get_configuration(): array|false
 
 ### Дивіться також
 
--   [opcachegetstatus()](function.opcache-get-status.html) - Отримати інформацію про стан кешу
+-   [opcachegetstatus()](function.opcache-get-status.md) - Отримати інформацію про стан кешу

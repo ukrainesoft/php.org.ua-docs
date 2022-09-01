@@ -70,6 +70,6 @@ Array
 
 ### Дивіться також
 
--   [arrayshift()](function.array-shift.html) - Витягує перший елемент масиву
--   [arraypush()](function.array-push.html) - Додає один або кілька елементів у кінець масиву
--   [arraypop()](function.array-pop.html) - Витягує останній елемент масиву
+-   [arrayshift()](function.array-shift.md) - Витягує перший елемент масиву
+-   [arraypush()](function.array-push.md) - Додає один або кілька елементів у кінець масиву
+-   [arraypop()](function.array-pop.md) - Витягує останній елемент масиву

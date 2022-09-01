@@ -18,4 +18,4 @@ enchantdictісінsession — Чи є слово 'word' у сесії пере�
 
 ### Опис
 
-Ця функція є псевдонімом: [enchantdictісadded()](function.enchant-dict-is-added.html)
+Ця функція є псевдонімом: [enchantdictісadded()](function.enchant-dict-is-added.md)

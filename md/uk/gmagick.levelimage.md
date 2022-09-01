@@ -40,7 +40,7 @@ public Gmagick::levelimage(    float $blackPoint,    float $gamma,   
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) із вирівняним зображенням.
+Об'єкт [Gmagick](class.gmagick.md) із вирівняним зображенням.
 
 ### Помилки
 

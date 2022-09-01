@@ -28,7 +28,7 @@ enchant_broker_set_dict_path(EnchantBroker $broker, int $type, string $path): bo
 
 `broker`
 
-Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.md)
 
 `type`
 
@@ -56,4 +56,4 @@ enchant_broker_set_dict_path(EnchantBroker $broker, int $type, string $path): bo
 
 ### Дивіться також
 
--   [enchantbrokergetdictpath()](function.enchant-broker-get-dict-path.html) - Повертає шлях словника для заданого бекенду
+-   [enchantbrokergetdictpath()](function.enchant-broker-get-dict-path.md) - Повертає шлях словника для заданого бекенду

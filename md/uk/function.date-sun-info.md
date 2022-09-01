@@ -175,5 +175,5 @@ array(9) {
 
 ### Дивіться також
 
--   [datesunrise()](function.date-sunrise.html) - Повертає час світанку для заданого дня та місця розташування
--   [datesunset()](function.date-sunset.html) - Повертає час заходу сонця для заданого дня та місця розташування
+-   [datesunrise()](function.date-sunrise.md) - Повертає час світанку для заданого дня та місця розташування
+-   [datesunset()](function.date-sunset.md) - Повертає час заходу сонця для заданого дня та місця розташування

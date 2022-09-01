@@ -18,7 +18,7 @@ MongoDBDriverWriteResult::getModifiedCount — Повертає кількіст
 final public MongoDB\Driver\WriteResult::getModifiedCount(): ?int
 ```
 
-Якщо операція оновлення не призводить до зміни документа (наприклад, встановлення значення поля в його поточне значення), змінене число може бути менше, ніж значення, що повертається [MongoDBDriverWriteResult::getMatchedCount()](mongodb-driver-writeresult.getmatchedcount.html)
+Якщо операція оновлення не призводить до зміни документа (наприклад, встановлення значення поля в його поточне значення), змінене число може бути менше, ніж значення, що повертається [MongoDBDriverWriteResult::getMatchedCount()](mongodb-driver-writeresult.getmatchedcount.md)
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ final public MongoDB\Driver\WriteResult::getModifiedCount(): ?int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
@@ -65,5 +65,5 @@ int(1)
 
 ### Дивіться також
 
--   [MongoDBDriverWriteResult::getMatchedCount()](mongodb-driver-writeresult.getmatchedcount.html) - Повертає кількість документів, вибраних для оновлення
--   [MongoDBDriverWriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.html) - Повертає, чи був запис підтверджений
+-   [MongoDBDriverWriteResult::getMatchedCount()](mongodb-driver-writeresult.getmatchedcount.md) - Повертає кількість документів, вибраних для оновлення
+-   [MongoDBDriverWriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.md) - Повертає, чи був запис підтверджений

@@ -91,7 +91,7 @@ string(11) "Hello World" refcount(3)
 
 ### Дивіться також
 
--   [vardump()](function.var-dump.html) - Виводить інформацію про змінну
--   [debugbacktrace()](function.debug-backtrace.html) - Виводить стек викликів функцій у масив
+-   [vardump()](function.var-dump.md) - Виводить інформацію про змінну
+-   [debugbacktrace()](function.debug-backtrace.md) - Виводить стек викликів функцій у масив
 -   "[Посилання. Роз'яснення](language.references.md)"
 -   "[» Посилання. Роз'яснення (від Derick Rethans)](http://derickrethans.nl/php_references_article.php)"

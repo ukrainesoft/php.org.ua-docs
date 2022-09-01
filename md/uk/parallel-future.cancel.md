@@ -30,7 +30,7 @@ public parallel\Future::cancel(): bool
 
 **Увага**
 
-Викидає parallelFutureErrorKilled, якщо [parallelRuntime](class.parallel-runtime.html) виконання завдання було перервано.
+Викидає parallelFutureErrorKilled, якщо [parallelRuntime](class.parallel-runtime.md) виконання завдання було перервано.
 
 **Увага**
 

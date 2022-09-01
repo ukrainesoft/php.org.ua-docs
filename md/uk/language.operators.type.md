@@ -219,9 +219,9 @@ bool(false)
 bool(true)
 ```
 
-Оператор `instanceof` аналогічний функції [ісa()](function.is-a.html)
+Оператор `instanceof` аналогічний функції [ісa()](function.is-a.md)
 
 ### Дивіться також
 
--   [getclass()](function.get-class.html)
--   [ісa()](function.is-a.html)
+-   [getclass()](function.get-class.md)
+-   [ісa()](function.is-a.md)

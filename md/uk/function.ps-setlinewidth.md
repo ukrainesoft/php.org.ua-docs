@@ -24,7 +24,7 @@ ps_setlinewidth(resource $psdoc, float $width): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `width`
 
@@ -36,6 +36,6 @@ ps_setlinewidth(resource $psdoc, float $width): bool
 
 ### Дивіться також
 
--   [псsetlinecap()](function.ps-setlinecap.html) - Встановлює зовнішній вигляд закінчення лінії
--   [псsetlinejoin()](function.ps-setlinejoin.html) - Встановлює спосіб з'єднання ліній
--   [псsetmiterlimit()](function.ps-setmiterlimit.html) - Встановлює межу скосу
+-   [псsetlinecap()](function.ps-setlinecap.md) - Встановлює зовнішній вигляд закінчення лінії
+-   [псsetlinejoin()](function.ps-setlinejoin.md) - Встановлює спосіб з'єднання ліній
+-   [псsetmiterlimit()](function.ps-setmiterlimit.md) - Встановлює межу скосу

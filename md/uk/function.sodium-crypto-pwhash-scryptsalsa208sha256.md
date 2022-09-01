@@ -18,9 +18,9 @@ sodiumcryptopwhashscryptsalsa208sha256 — Отримує ключ із паро
 sodium_crypto_pwhash_scryptsalsa208sha256(    int $length,    string $password,    string $salt,    int $opslimit,    int $memlimit): string
 ```
 
-Аналог функції scrypt [sodiumcryptopwhash()](function.sodium-crypto-pwhash.html)
+Аналог функції scrypt [sodiumcryptopwhash()](function.sodium-crypto-pwhash.md)
 
-Найпоширеніша причина використання цієї конкретної функції – отримати початкові числа для криптографічних ключів з пароля та солі, а потім використовувати ці початкові числа для генерації фактичних ключів, необхідних для деяких цілей (наприклад, [sodiumcryptosigndetached()](function.sodium-crypto-sign-detached.html)
+Найпоширеніша причина використання цієї конкретної функції – отримати початкові числа для криптографічних ключів з пароля та солі, а потім використовувати ці початкові числа для генерації фактичних ключів, необхідних для деяких цілей (наприклад, [sodiumcryptosigndetached()](function.sodium-crypto-sign-detached.md)
 
 ### Список параметрів
 
@@ -34,7 +34,7 @@ sodium_crypto_pwhash_scryptsalsa208sha256(    int $length,    string $pa
 
 `salt`
 
-Сіль, яку потрібно додати до пароля перед хешуванням. Сіль має бути непередбачуваною, в ідеалі згенерованою з гарного джерела випадкових чисел, такого як [randombytes()](function.random-bytes.html), і мати довжину не менше **`SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_SALTBYTES`** байт.
+Сіль, яку потрібно додати до пароля перед хешуванням. Сіль має бути непередбачуваною, в ідеалі згенерованою з гарного джерела випадкових чисел, такого як [randombytes()](function.random-bytes.md), і мати довжину не менше **`SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_SALTBYTES`** байт.
 
 `opslimit`
 

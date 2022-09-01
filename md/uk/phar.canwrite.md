@@ -41,4 +41,4 @@ if (Phar::canWrite()) {
 ### Дивіться також
 
 -   [phar.readonly](phar.configuration.html#ini.phar.readonly)
--   [Phar::isWritable()](phar.iswritable.html) - Перевіряє, чи можна модифікувати phar-архів
+-   [Phar::isWritable()](phar.iswritable.md) - Перевіряє, чи можна модифікувати phar-архів

@@ -24,7 +24,7 @@ cubrid_lob2_new(resource $conn_identifier = ?, string $type = "BLOB"): resource
 
 `conn_identifier`
 
-Ідентифікатор підключення. Якщо ідентифікатор з'єднання не вказано, передбачається останнє підключення, відкрите за допомогою [cubridconnect()](function.cubrid-connect.html) або [cubridconnectwithurl()](function.cubrid-connect-with-url.html)
+Ідентифікатор підключення. Якщо ідентифікатор з'єднання не вказано, передбачається останнє підключення, відкрите за допомогою [cubridconnect()](function.cubrid-connect.html) або [cubridconnectwithurl()](function.cubrid-connect-with-url.md)
 
 `type`
 
@@ -36,4 +36,4 @@ cubrid_lob2_new(resource $conn_identifier = ?, string $type = "BLOB"): resource
 
 ### Дивіться також
 
--   [cubridlob2close()](function.cubrid-lob2-close.html) - Закриває об'єкт LOB
+-   [cubridlob2close()](function.cubrid-lob2-close.md) - Закриває об'єкт LOB

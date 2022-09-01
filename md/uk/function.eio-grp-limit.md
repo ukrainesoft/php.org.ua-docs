@@ -36,4 +36,4 @@ eio_grp_limit(resource $grp, int $limit): void
 
 ### Дивіться також
 
--   [eiogrpadd()](function.eio-grp-add.html) - Додає запит до групи запитів
+-   [eiogrpadd()](function.eio-grp-add.md) - Додає запит до групи запитів

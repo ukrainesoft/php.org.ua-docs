@@ -28,5 +28,5 @@ openal_buffer_create(): resource
 
 ### Дивіться також
 
--   [openalbufferloadwav()](function.openal-buffer-loadwav.html) - Завантажити файл у форматі wav у буфер
--   [openalbufferdata()](function.openal-buffer-data.html) - Завантаження буфера з даними
+-   [openalbufferloadwav()](function.openal-buffer-loadwav.md) - Завантажити файл у форматі wav у буфер
+-   [openalbufferdata()](function.openal-buffer-data.md) - Завантаження буфера з даними

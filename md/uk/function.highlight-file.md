@@ -46,9 +46,9 @@ AddType application/x-httpd-php-source .phps
 
 > **Зауваження**
 > 
-> При використанні параметра `return` дана функція використовує внутрішню буферизацію виводу, тому вона не може бути використана всередині callback-функції [проstart()](function.ob-start.html)
+> При використанні параметра `return` дана функція використовує внутрішню буферизацію виводу, тому вона не може бути використана всередині callback-функції [проstart()](function.ob-start.md)
 
 ### Дивіться також
 
--   [highlightstring()](function.highlight-string.html) - Підсвічування синтаксису рядка
+-   [highlightstring()](function.highlight-string.md) - Підсвічування синтаксису рядка
 -   [Подсвечивание директив INI](misc.configuration.html#ini.syntax-highlighting)

@@ -31,6 +31,6 @@ title: Модулі для роботи з датою та часом
     -   [Введение](intro.hrtime.md)
     -   [Встановлення та налаштування](hrtime.setup.md)
     -   [Приклади](hrtime.examples.md)
-    -   [HRTimePerformanceCounter](class.hrtime-performancecounter.html) - Клас HRTimePerformanceCounter
-    -   [HRTimeStopWatch](class.hrtime-stopwatch.html) - Клас HRTimeStopWatch
-    -   [HRTimeUnit](class.hrtime-unit.html) - Клас HRTimeUnit
+    -   [HRTimePerformanceCounter](class.hrtime-performancecounter.md) - Клас HRTimePerformanceCounter
+    -   [HRTimeStopWatch](class.hrtime-stopwatch.md) - Клас HRTimeStopWatch
+    -   [HRTimeUnit](class.hrtime-unit.md) - Клас HRTimeUnit

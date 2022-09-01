@@ -20,13 +20,13 @@ ftp_nb_fget(    FTP\Connection $ftp,    resource $stream,    string 
 
 **ftpнбfget()** завантажує віддалений файл із FTP-сервера.
 
-Різниця між цією функцією та [ftpfget()](function.ftp-fget.html) полягає в тому, що ця функція отримує файл асинхронно, так що ваша програма може здійснювати інші операції, поки файл завантажується.
+Різниця між цією функцією та [ftpfget()](function.ftp-fget.md) полягає в тому, що ця функція отримує файл асинхронно, так що ваша програма може здійснювати інші операції, поки файл завантажується.
 
 ### Список параметрів
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `stream`
 
@@ -52,7 +52,7 @@ ftp_nb_fget(    FTP\Connection $ftp,    resource $stream,    string 
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
@@ -92,7 +92,7 @@ fclose($fp);
 
 ### Дивіться також
 
--   [ftpнбget()](function.ftp-nb-get.html) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у локальний файл
--   [ftpнбcontinue()](function.ftp-nb-continue.html) - Продовжує асинхронну операцію
--   [ftpfget()](function.ftp-fget.html) - Завантажує файл з FTP-сервера та зберігає його у попередньо відкритому файлі
--   [ftpget()](function.ftp-get.html) - Завантажує файл із FTP-сервера
+-   [ftpнбget()](function.ftp-nb-get.md) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у локальний файл
+-   [ftpнбcontinue()](function.ftp-nb-continue.md) - Продовжує асинхронну операцію
+-   [ftpfget()](function.ftp-fget.md) - Завантажує файл з FTP-сервера та зберігає його у попередньо відкритому файлі
+-   [ftpget()](function.ftp-get.md) - Завантажує файл із FTP-сервера

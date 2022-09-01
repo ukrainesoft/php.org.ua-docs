@@ -20,9 +20,9 @@ ob_get_clean(): string|false
 
 Отримує вміст поточного буфера, а потім видаляє поточний буфер.
 
-**проgetclean()** по суті виконує [проgetcontents()](function.ob-get-contents.html) і [проendclean()](function.ob-end-clean.html)
+**проgetclean()** по суті виконує [проgetcontents()](function.ob-get-contents.html) і [проendclean()](function.ob-end-clean.md)
 
-Буфер виводу має запускатися функцією [проstart()](function.ob-start.html) з прапорами [PHPOUTPUTHANDLERCLEANABLE](outcontrol.constants.html#constant.php-output-handler-cleanable) і [PHPOUTPUTHANDLERREMOVABLE](outcontrol.constants.html#constant.php-output-handler-removable). Інакше **проgetclean()** не спрацює.
+Буфер виводу має запускатися функцією [проstart()](function.ob-start.md) з прапорами [PHPOUTPUTHANDLERCLEANABLE](outcontrol.constants.html#constant.php-output-handler-cleanable) і [PHPOUTPUTHANDLERREMOVABLE](outcontrol.constants.html#constant.php-output-handler-removable). Інакше **проgetclean()** не спрацює.
 
 ### Список параметрів
 
@@ -58,5 +58,5 @@ string(11) "привет мир"
 
 ### Дивіться також
 
--   [проgetcontents()](function.ob-get-contents.html) - Повертає вміст буфера виводу
--   [проstart()](function.ob-start.html) - Включення буферизації виводу
+-   [проgetcontents()](function.ob-get-contents.md) - Повертає вміст буфера виводу
+-   [проstart()](function.ob-start.md) - Включення буферизації виводу

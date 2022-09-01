@@ -32,4 +32,4 @@ phpdbg_prompt(string $string): void
 
 ### Дивіться також
 
--   [phpdbgcolor()](function.phpdbg-color.html) - Задати колір елементу
+-   [phpdbgcolor()](function.phpdbg-color.md) - Задати колір елементу

@@ -46,4 +46,4 @@ intltz_get_windows_id(string $timezoneId): string|false
 
 ### Дивіться також
 
--   [IntlTimeZone::getIDForWindowsID()](intltimezone.getidforwindowsid.html) - Перетворити часовий пояс для Windows на системний часовий пояс
+-   [IntlTimeZone::getIDForWindowsID()](intltimezone.getidforwindowsid.md) - Перетворити часовий пояс для Windows на системний часовий пояс

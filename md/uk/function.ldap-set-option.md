@@ -24,7 +24,7 @@ ldap_set_option(?LDAP\Connection $ldap, int $option, array|string|int|bool $valu
 
 `ldap`
 
-Або екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html) для встановлення опції для цього з'єднання, або **`null`** для встановлення опції глобально.
+Або екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md) для встановлення опції для цього з'єднання, або **`null`** для встановлення опції глобально.
 
 `option`
 
@@ -75,7 +75,7 @@ ldap_set_option(?LDAP\Connection $ldap, int $option, array|string|int|bool $valu
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -116,4 +116,4 @@ if (!ldap_set_option($ds, LDAP_OPT_SERVER_CONTROLS, array($ctrl1, $ctrl2)))�
 
 ### Дивіться також
 
--   [ldapgetoption()](function.ldap-get-option.html) - Отримати поточне значення цієї опції
+-   [ldapgetoption()](function.ldap-get-option.md) - Отримати поточне значення цієї опції

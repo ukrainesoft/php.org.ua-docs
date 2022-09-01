@@ -66,8 +66,8 @@ if (!extension_loaded('gd')) {
 
 ### Дивіться також
 
--   [getloadedextensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
--   [getextensionfuncs()](function.get-extension-funcs.html) - Повертає масив імен функцій модуля
+-   [getloadedextensions()](function.get-loaded-extensions.md) - Повертає масив імен усіх скомпілованих та завантажених модулів
+-   [getextensionfuncs()](function.get-extension-funcs.md) - Повертає масив імен функцій модуля
 -   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP
 -   [dl()](function.dl.md) - Завантажує модуль PHP під час виконання
--   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
+-   [functionexists()](function.function-exists.md) - Повертає true, якщо вказана функція визначена

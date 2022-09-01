@@ -18,7 +18,7 @@ title: ісcountable
 is_countable(mixed $value): bool
 ```
 
-Перевірити, чи вміст змінної масив (array) або об'єкт, що реалізує [Countable](class.countable.html)
+Перевірити, чи вміст змінної масив (array) або об'єкт, що реалізує [Countable](class.countable.md)
 
 ### Список параметрів
 
@@ -50,7 +50,7 @@ var_dump(is_countable(new stdClass())); // bool(false)
 
 ### Дивіться також
 
--   [ісarray()](function.is-array.html) - Визначає, чи є змінна масивом
--   [ісobject()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
--   [ісiterable()](function.is-iterable.html) - Перевіряє, чи є змінна, що ітерується.
--   [ісbool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
+-   [ісarray()](function.is-array.md) - Визначає, чи є змінна масивом
+-   [ісobject()](function.is-object.md) - Перевіряє, чи є змінна об'єктом
+-   [ісiterable()](function.is-iterable.md) - Перевіряє, чи є змінна, що ітерується.
+-   [ісbool()](function.is-bool.md) - Перевіряє, чи є змінна булевою

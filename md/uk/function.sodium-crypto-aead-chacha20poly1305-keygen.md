@@ -18,7 +18,7 @@ sodiumcryptoaeadchacha20poly1305keygen — Створює випадковий �
 sodium_crypto_aead_chacha20poly1305_keygen(): string
 ```
 
-Створює випадковий ключ для використання в [sodiumcryptoaeadchacha20poly1305encrypt()](function.sodium-crypto-aead-chacha20poly1305-encrypt.html) і [sodiumcryptoaeadchacha20poly1305decrypt()](function.sodium-crypto-aead-chacha20poly1305-decrypt.html)
+Створює випадковий ключ для використання в [sodiumcryptoaeadchacha20poly1305encrypt()](function.sodium-crypto-aead-chacha20poly1305-encrypt.html) і [sodiumcryptoaeadchacha20poly1305decrypt()](function.sodium-crypto-aead-chacha20poly1305-decrypt.md)
 
 ### Список параметрів
 

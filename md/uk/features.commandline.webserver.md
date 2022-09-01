@@ -54,7 +54,7 @@ Document root is /home/me/public_html
 Press Ctrl-C to quit
 ```
 
-Після URI-запитів [http://localhost:8000/](http://localhost:8000/) і [http://localhost:8000/myscript.html](http://localhost:8000/myscript.html) в консолі виведеться приблизно таке:
+Після URI-запитів [http://localhost:8000/](http://localhost:8000/) і [http://localhost:8000/myscript.html](http://localhost:8000/myscript.md) в консолі виведеться приблизно таке:
 
 ```
 PHP 5.4.0 Development Server started at Thu Jul 21 10:43:28 2011

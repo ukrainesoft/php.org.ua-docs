@@ -12,9 +12,9 @@ title: Клас YafActionAbstract
 
 ## Вступ
 
-Дія повинна визначатися в окремому файлі в Yaf (див. [YafControllerAbstract](class.yaf-controller-abstract.html)). Також всі класи дії повинні розширювати **YafActionAbstract**
+Дія повинна визначатися в окремому файлі в Yaf (див. [YafControllerAbstract](class.yaf-controller-abstract.md)). Також всі класи дії повинні розширювати **YafActionAbstract**
 
-Так як необхідна точка входу, яку міг би використовувати Yaf, ви, у вашому класі, повинні реалізувати метод [YafActionAbstract::execute()](yaf-action-abstract.execute.html)
+Так як необхідна точка входу, яку міг би використовувати Yaf, ви, у вашому класі, повинні реалізувати метод [YafActionAbstract::execute()](yaf-action-abstract.execute.md)
 
 ## Огляд класів
 
@@ -86,6 +86,6 @@ controller
 
 ## Зміст
 
--   [YafActionAbstract::execute](yaf-action-abstract.execute.html) - Точка входу для Action-класів
--   [YafActionAbstract::getController](yaf-action-abstract.getcontroller.html) - Отримати об'єкт контролер
--   [YafActionAbstract::getControllerName](yaf-controller-abstract.getcontrollername.html) — Отримує ім'я контролера
+-   [YafActionAbstract::execute](yaf-action-abstract.execute.md) - Точка входу для Action-класів
+-   [YafActionAbstract::getController](yaf-action-abstract.getcontroller.md) - Отримати об'єкт контролер
+-   [YafActionAbstract::getControllerName](yaf-controller-abstract.getcontrollername.md) — Отримує ім'я контролера

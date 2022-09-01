@@ -172,7 +172,7 @@ TCP-порт для використання при підключенні до 
 
 `stream_context` resource
 
-Контекст [stream context](context.md), створений за допомогою функції [streamcontextcreate()](function.stream-context-create.html), яка дає змогу встановити додаткові параметри.
+Контекст [stream context](context.md), створений за допомогою функції [streamcontextcreate()](function.stream-context-create.md), яка дає змогу встановити додаткові параметри.
 
 Контекст може містити [параметри контексту сокету](context.socket.md) [параметри контексту SSL](context.ssl.md), а також вибрані [опции контекста HTTP](context.http.md) `content_type` `header` `max_redirects` `protocol_version`, і `user_agent`
 

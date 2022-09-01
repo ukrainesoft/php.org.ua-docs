@@ -38,11 +38,11 @@ datefmt_set_calendar(IntlDateFormatter $formatter, IntlCalendar|int|null $calend
 
 `calendar`
 
-Може бути: [тип календаря](class.intldateformatter.html#intl.intldateformatter-constants.calendartypes) для використання (за замовчуванням **`IntlDateFormatter::GREGORIAN`**, який також використовується, якщо вказано значення **`null`**) або об'єкт [IntlCalendar](class.intlcalendar.html)
+Може бути: [тип календаря](class.intldateformatter.html#intl.intldateformatter-constants.calendartypes) для використання (за замовчуванням **`IntlDateFormatter::GREGORIAN`**, який також використовується, якщо вказано значення **`null`**) або об'єкт [IntlCalendar](class.intlcalendar.md)
 
-Будь-який переданий об'єкт [IntlCalendar](class.intlcalendar.html) буде клоновано; до об'єкта аргументу не буде внесено жодних змін.
+Будь-який переданий об'єкт [IntlCalendar](class.intlcalendar.md) буде клоновано; до об'єкта аргументу не буде внесено жодних змін.
 
-Часовий пояс засобу форматування буде збережено лише в тому випадку, якщо об'єкт [IntlCalendar](class.intlcalendar.html) не переданий, інакше новий часовий пояс буде таким самим, як у переданого об'єкта.
+Часовий пояс засобу форматування буде збережено лише в тому випадку, якщо об'єкт [IntlCalendar](class.intlcalendar.md) не переданий, інакше новий часовий пояс буде таким самим, як у переданого об'єкта.
 
 ### Значення, що повертаються
 
@@ -52,7 +52,7 @@ datefmt_set_calendar(IntlDateFormatter $formatter, IntlCalendar|int|null $calend
 
 | Версия | Описание |
 | --- | --- |
-| 5.5.0/PECL 3.0.0 | Додана можливість передати об'єкт [IntlCalendar](class.intlcalendar.html) |
+| 5.5.0/PECL 3.0.0 | Додана можливість передати об'єкт [IntlCalendar](class.intlcalendar.md) |
 
 ### Приклади
 
@@ -97,7 +97,7 @@ echo 'Теперь тип календаря : ' . $fmt->getCalendar();
 Теперь тип календаря : 0
 ```
 
-**Приклад #3 Приклад використання [IntlCalendar](class.intlcalendar.html) з параметром**
+**Приклад #3 Приклад використання [IntlCalendar](class.intlcalendar.md) з параметром**
 
 ```php
 <?php
@@ -122,6 +122,6 @@ echo "После:  ", $formatter->format($time), "\n";
 
 ### Дивіться також
 
--   [datefmtgetcalendar()](intldateformatter.getcalendar.html) - Отримує тип календаря, який використовується IntlDateFormatter
--   [datefmtgetcalendarobject()](intldateformatter.getcalendarobject.html) - Отримує копію об'єкта календаря засобу форматування
--   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtgetcalendar()](intldateformatter.getcalendar.md) - Отримує тип календаря, який використовується IntlDateFormatter
+-   [datefmtgetcalendarobject()](intldateformatter.getcalendarobject.md) - Отримує копію об'єкта календаря засобу форматування
+-   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати

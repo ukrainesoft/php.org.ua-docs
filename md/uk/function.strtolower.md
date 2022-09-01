@@ -53,4 +53,4 @@ echo $str; // выводит: mary had a little lamb and she loved i
 -   [strtoupper()](function.strtoupper.md) - Перетворює рядок у верхній регістр
 -   [ucfirst()](function.ucfirst.md) - Перетворює перший символ рядка у верхній регістр
 -   [ucwords()](function.ucwords.md) - Перетворює на верхній регістр перший символ кожного слова в рядку
--   [мбstrtolower()](function.mb-strtolower.html) - Приведення рядка до нижнього регістру
+-   [мбstrtolower()](function.mb-strtolower.md) - Приведення рядка до нижнього регістру

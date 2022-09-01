@@ -53,5 +53,5 @@ echo base64_decode($str);
 
 ### Дивіться також
 
--   [base64encode()](function.base64-encode.html) - Кодує дані у формат MIME base64
+-   [base64encode()](function.base64-encode.md) - Кодує дані у формат MIME base64
 -   [» RFC 2045](http://www.faqs.org/rfcs/rfc2045) розділ 6.8

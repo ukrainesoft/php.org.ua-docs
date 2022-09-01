@@ -36,11 +36,11 @@ title: Налаштування під час виконання
 
 `ibm_db2.i5_all_pconnect` int
 
-Ця опція повністю перевизначає поведінку i5 [db2connect()](function.db2-connect.html). Якщо `ibm_db2.i5_all_pconnect` = 1, всі з'єднання з DB2 будуть постійними ([db2pconnect()](function.db2-pconnect.html)). На i5/OS використовувати [db2pconnect()](function.db2-pconnect.html) набагато, категорично, краще ніж [db2connect()](function.db2-connect.html). Ця установка перевизначає [db2connect()](function.db2-connect.html) таким чином, що завжди викликається [db2pconnect()](function.db2-pconnect.html)що дозволяє не переписувати код програми.
+Ця опція повністю перевизначає поведінку i5 [db2connect()](function.db2-connect.html). Якщо `ibm_db2.i5_all_pconnect` = 1, всі з'єднання з DB2 будуть постійними ([db2pconnect()](function.db2-pconnect.html)). На i5/OS використовувати [db2pconnect()](function.db2-pconnect.html) набагато, категорично, краще ніж [db2connect()](function.db2-connect.html). Ця установка перевизначає [db2connect()](function.db2-connect.html) таким чином, що завжди викликається [db2pconnect()](function.db2-pconnect.md)що дозволяє не переписувати код програми.
 
--   [db2connect()](function.db2-connect.html) працює штатно
+-   [db2connect()](function.db2-connect.md) працює штатно
     
--   [db2connect()](function.db2-connect.html) працює як [db2pconnect()](function.db2-pconnect.html)
+-   [db2connect()](function.db2-connect.html) працює як [db2pconnect()](function.db2-pconnect.md)
     
 
 `ibm_db2.i5_allow_commit` int

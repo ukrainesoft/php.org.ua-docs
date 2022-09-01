@@ -38,7 +38,7 @@ date(string $format, ?int $timestamp = null): string
 
 ### Помилки
 
-Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [datedefaulttimezoneset()](function.date-default-timezone-set.html)
+Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [datedefaulttimezoneset()](function.date-default-timezone-set.md)
 
 ### список змін
 
@@ -129,7 +129,7 @@ $today = date("Y-m-d H:i:s");                   // 2001-0
 
 > **Зауваження**
 > 
-> Для отримання мітки часу з строкового представлення дати можна скористатися функцією [strtotime()](function.strtotime.md). Крім того, деякі бази даних мають власні функції для перетворення внутрішнього подання дати на мітку часу (наприклад, функція MySQL [» UNIXTIMESTAMP](http://dev.mysql.com/doc/mysql/en/date-and-time-functions.html)
+> Для отримання мітки часу з строкового представлення дати можна скористатися функцією [strtotime()](function.strtotime.md). Крім того, деякі бази даних мають власні функції для перетворення внутрішнього подання дати на мітку часу (наприклад, функція MySQL [» UNIXTIMESTAMP](http://dev.mysql.com/doc/mysql/en/date-and-time-functions.md)
 
 **Підказка**
 

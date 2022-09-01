@@ -68,6 +68,6 @@ fclose($fp);
 
 ### Дивіться також
 
--   [streamcontextsetoption()](function.stream-context-set-option.html) - Встановлює опцію для потоку/обгортки/контексту
+-   [streamcontextsetoption()](function.stream-context-set-option.md) - Встановлює опцію для потоку/обгортки/контексту
 -   Список підтримуваних обгорток ([Підтримувані протоколи та обгортки](wrappers.md)
 -   Опції контексту ([Контекстні опції та параметри](context.md)

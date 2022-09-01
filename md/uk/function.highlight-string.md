@@ -57,11 +57,11 @@ highlight_string('<?php phpinfo(); ?>');
 
 > **Зауваження**
 > 
-> При використанні параметра `return` дана функція використовує внутрішню буферизацію виводу, тому вона не може бути використана всередині callback-функції [проstart()](function.ob-start.html)
+> При використанні параметра `return` дана функція використовує внутрішню буферизацію виводу, тому вона не може бути використана всередині callback-функції [проstart()](function.ob-start.md)
 
 Згенерована розмітка HTML може бути змінена.
 
 ### Дивіться також
 
--   [highlightfile()](function.highlight-file.html) - Підсвічування синтаксису файлу
+-   [highlightfile()](function.highlight-file.md) - Підсвічування синтаксису файлу
 -   [Подсветка директив INI](misc.configuration.html#ini.syntax-highlighting)

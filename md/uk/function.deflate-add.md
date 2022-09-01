@@ -24,7 +24,7 @@ deflate_add(DeflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 `context`
 
-Контекст, створений за допомогою функції [deflateinit()](function.deflate-init.html)
+Контекст, створений за допомогою функції [deflateinit()](function.deflate-init.md)
 
 `data`
 
@@ -32,7 +32,7 @@ deflate_add(DeflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 `flush_mode`
 
-Одна з констант: **`ZLIB_BLOCK`** **`ZLIB_NO_FLUSH`** **`ZLIB_PARTIAL_FLUSH`** **`ZLIB_SYNC_FLUSH`** (за замовчуванням), **`ZLIB_FULL_FLUSH`** **`ZLIB_FINISH`**. Зазвичай потрібно встановити **`ZLIB_NO_FLUSH`** для максимальної компресії та **`ZLIB_FINISH`** для завершення на останньому блоці даних. Детальний опис констант дивіться в [» руководстве zlib](http://www.zlib.net/manual.html)
+Одна з констант: **`ZLIB_BLOCK`** **`ZLIB_NO_FLUSH`** **`ZLIB_PARTIAL_FLUSH`** **`ZLIB_SYNC_FLUSH`** (за замовчуванням), **`ZLIB_FULL_FLUSH`** **`ZLIB_FINISH`**. Зазвичай потрібно встановити **`ZLIB_NO_FLUSH`** для максимальної компресії та **`ZLIB_FINISH`** для завершення на останньому блоці даних. Детальний опис констант дивіться в [» руководстве zlib](http://www.zlib.net/manual.md)
 
 ### Значення, що повертаються
 
@@ -50,4 +50,4 @@ deflate_add(DeflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 ### Дивіться також
 
--   [deflateinit()](function.deflate-init.html) - Ініціалізувати контекст інкрементального стиску
+-   [deflateinit()](function.deflate-init.md) - Ініціалізувати контекст інкрементального стиску

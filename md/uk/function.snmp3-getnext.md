@@ -84,5 +84,5 @@ $nameOfSecondInterface = snmp3_getnext('localhost', 'james', 'authPriv', 'S
 
 ### Дивіться також
 
--   [snmpv3get()](function.snmp3-get.html) - Отримує об'єкт SNMP
--   [snmpv3walk()](function.snmp3-walk.html) - Отримує всі об'єкти SNMP з агента
+-   [snmpv3get()](function.snmp3-get.md) - Отримує об'єкт SNMP
+-   [snmpv3walk()](function.snmp3-walk.md) - Отримує всі об'єкти SNMP з агента

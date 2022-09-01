@@ -18,7 +18,7 @@ yazwait — Очікує на виконання запитів Z39.50 серв�
 yaz_wait(array &$options = ?): mixed
 ```
 
-Функція виконує мережну (блокуючу) дію до завершення запиту, підготовленого функціями [yazconnect()](function.yaz-connect.html) [yazsearch()](function.yaz-search.html) [yazpresent()](function.yaz-present.html) [yazscan()](function.yaz-scan.html) and [yazitemorder()](function.yaz-itemorder.html)
+Функція виконує мережну (блокуючу) дію до завершення запиту, підготовленого функціями [yazconnect()](function.yaz-connect.html) [yazsearch()](function.yaz-search.html) [yazpresent()](function.yaz-present.html) [yazscan()](function.yaz-scan.html) and [yazitemorder()](function.yaz-itemorder.md)
 
 **yazwait()** припиняє роботу та повертає результат після того, як усі сервери або завершать виконання всіх запитів або перервуть їх (у разі помилок).
 

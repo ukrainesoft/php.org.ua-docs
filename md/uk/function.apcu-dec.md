@@ -88,4 +88,4 @@ bool(false)
 
 ### Дивіться також
 
--   [apcuinc()](function.apcu-inc.html) - Збільшити збережене число
+-   [apcuinc()](function.apcu-inc.md) - Збільшити збережене число

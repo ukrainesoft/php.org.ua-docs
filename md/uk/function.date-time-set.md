@@ -10,8 +10,8 @@ title: datetimeset
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-datetimeset - Псевдонім [DateTime::setTime()](datetime.settime.html)
+datetimeset - Псевдонім [DateTime::setTime()](datetime.settime.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateTime::setTime()](datetime.settime.html)
+Ця функція є псевдонімом: [DateTime::setTime()](datetime.settime.md)

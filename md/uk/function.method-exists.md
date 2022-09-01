@@ -73,6 +73,6 @@ bool(true)
 
 ### Дивіться також
 
--   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
--   [ісcallable()](function.is-callable.html) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
--   [classexists()](function.class-exists.html) - Перевіряє, чи був оголошений клас
+-   [functionexists()](function.function-exists.md) - Повертає true, якщо вказана функція визначена
+-   [ісcallable()](function.is-callable.md) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
+-   [classexists()](function.class-exists.md) - Перевіряє, чи був оголошений клас

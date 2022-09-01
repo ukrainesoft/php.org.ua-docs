@@ -24,7 +24,7 @@ cubrid_field_table(resource $result, int $field_offset): string
 
 `result`
 
-`Result` отриманий з [cubridexecute()](function.cubrid-execute.html)
+`Result` отриманий з [cubridexecute()](function.cubrid-execute.md)
 
 `field_offset`
 

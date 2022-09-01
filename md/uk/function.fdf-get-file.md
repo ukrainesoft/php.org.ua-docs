@@ -24,7 +24,7 @@ fdf_get_file(resource $fdf_document): string
 
 `fdf_document`
 
-Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.html)
+Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ fdf_get_file(resource $fdf_document): string
 
 ### Дивіться також
 
--   [fdfsetfile()](function.fdf-set-file.html) - Встановлює PDF-документ для відображення даних FDF
+-   [fdfsetfile()](function.fdf-set-file.md) - Встановлює PDF-документ для відображення даних FDF

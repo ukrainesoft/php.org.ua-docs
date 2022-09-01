@@ -138,8 +138,8 @@ if ($con) {
 
 ### Дивіться також
 
--   [cubridconnect()](function.cubrid-connect.html) - Відкриває з'єднання з сервером CUBRID
--   [cubridpconnect()](function.cubrid-pconnect.html) - Відкриває постійне з'єднання із сервером CUBRID
--   [cubridpconnectwithurl()](function.cubrid-pconnect-with-url.html) - Відкриває постійне з'єднання із сервером CUBRID
--   [cubriddisconnect()](function.cubrid-disconnect.html) - Закриває з'єднання з базою даних
--   [cubridclose()](function.cubrid-close.html) - Закриває з'єднання з базою даних
+-   [cubridconnect()](function.cubrid-connect.md) - Відкриває з'єднання з сервером CUBRID
+-   [cubridpconnect()](function.cubrid-pconnect.md) - Відкриває постійне з'єднання із сервером CUBRID
+-   [cubridpconnectwithurl()](function.cubrid-pconnect-with-url.md) - Відкриває постійне з'єднання із сервером CUBRID
+-   [cubriddisconnect()](function.cubrid-disconnect.md) - Закриває з'єднання з базою даних
+-   [cubridclose()](function.cubrid-close.md) - Закриває з'єднання з базою даних

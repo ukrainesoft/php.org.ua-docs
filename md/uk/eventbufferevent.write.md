@@ -36,4 +36,4 @@ public
 
 ### Дивіться також
 
--   [EventBufferEvent::writeBuffer()](eventbufferevent.writebuffer.html) - Додає вміст буфера в буфер виведення буферної події
+-   [EventBufferEvent::writeBuffer()](eventbufferevent.writebuffer.md) - Додає вміст буфера в буфер виведення буферної події

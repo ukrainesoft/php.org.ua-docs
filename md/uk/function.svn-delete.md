@@ -18,7 +18,7 @@ svndelete — Видалення елементів із робочої копі
 svn_delete(string $path, bool $force = false): bool
 ```
 
-Видаляє файл, каталог або символічне посилання `path` з робочої копії. Елемент буде видалено з репозиторію під час наступного виклику [svncommit()](function.svn-commit.html) з робочої копії.
+Видаляє файл, каталог або символічне посилання `path` з робочої копії. Елемент буде видалено з репозиторію під час наступного виклику [svncommit()](function.svn-commit.md) з робочої копії.
 
 ### Список параметрів
 
@@ -44,4 +44,4 @@ svn_delete(string $path, bool $force = false): bool
 
 ### Дивіться також
 
--   [» SVN-документация по svn delete](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.delete.html)
+-   [» SVN-документация по svn delete](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.delete.md)

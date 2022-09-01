@@ -24,7 +24,7 @@ ssh2_sftp_readlink(resource $sftp, string $link): string
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.html)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.md)
 
 `link`
 
@@ -52,4 +52,4 @@ $target = ssh2_sftp_readlink($sftp, '/tmp/mysql.sock');
 ### Дивіться також
 
 -   [readlink()](function.readlink.md) - Повертає файл, на який вказує символічне посилання
--   [ssh2sftpsymlink()](function.ssh2-sftp-symlink.html) - Створити символічне посилання
+-   [ssh2sftpsymlink()](function.ssh2-sftp-symlink.md) - Створити символічне посилання

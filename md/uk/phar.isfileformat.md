@@ -30,9 +30,9 @@ public Phar::isFileFormat(int $format): bool
 
 ### Помилки
 
-У разі завдання некоректного формату викидається виняток [PharException](class.pharexception.html)
+У разі завдання некоректного формату викидається виняток [PharException](class.pharexception.md)
 
 ### Дивіться також
 
--   [Phar::convertToExecutable()](phar.converttoexecutable.html) - Конвертує phar-архів в інший формат файлу, що виконується.
--   [Phar::convertToData()](phar.converttodata.html) - Конвертує phar-архів в tar-або zip-файл, що не виконується.
+-   [Phar::convertToExecutable()](phar.converttoexecutable.md) - Конвертує phar-архів в інший формат файлу, що виконується.
+-   [Phar::convertToData()](phar.converttodata.md) - Конвертує phar-архів в tar-або zip-файл, що не виконується.

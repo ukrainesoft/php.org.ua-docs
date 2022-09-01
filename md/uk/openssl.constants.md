@@ -10,12 +10,12 @@ title: Обумовлені константи
 
 ## Зміст
 
--   [Прапори перевірки](openssl.purpose-check.html)
+-   [Прапори перевірки](openssl.purpose-check.md)
 -   [Флаги заполнения для ассиметричного шифрования](openssl.padding.md)
--   [Типи ключів](openssl.key-types.html)
+-   [Типи ключів](openssl.key-types.md)
 -   [Прапори/константи PKCS7](openssl.pkcs7.flags.md)
 -   [Прапори/Константи CMS](openssl.cms.flags.md)
--   [Алгоритми підпису](openssl.signature-algos.html)
+-   [Алгоритми підпису](openssl.signature-algos.md)
 -   [Алгоритми шифрування](openssl.ciphers.md)
 -   [Константи версій](openssl.constversion.md)
 -   [Константа SNI (Server Name Indication)](openssl.constsni.md)

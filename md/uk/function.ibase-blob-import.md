@@ -70,7 +70,7 @@ if ($fd) {
 
 ### Дивіться також
 
--   [ibaseblobadd()](function.ibase-blob-add.html) - Додає дані до новоствореного BLOB-об'єкту
--   [ibaseblobcancel()](function.ibase-blob-cancel.html) - Скасує створення BLOB-об'єкта
--   [ibaseblobclose()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
--   [ibaseblobcreate()](function.ibase-blob-create.html) - Створює новий BLOB-об'єкт для заповнення даними
+-   [ibaseblobadd()](function.ibase-blob-add.md) - Додає дані до новоствореного BLOB-об'єкту
+-   [ibaseblobcancel()](function.ibase-blob-cancel.md) - Скасує створення BLOB-об'єкта
+-   [ibaseblobclose()](function.ibase-blob-close.md) - Закриває BLOB-об'єкт
+-   [ibaseblobcreate()](function.ibase-blob-create.md) - Створює новий BLOB-об'єкт для заповнення даними

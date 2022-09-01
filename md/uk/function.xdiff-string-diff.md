@@ -66,8 +66,8 @@ if (is_string($diff)) {
 
 > **Зауваження**
 > 
-> Ця функція не призначена для роботи з бінарними даними. Для бінарного порівняння використовуйте [xdiffstringbdiff()](function.xdiff-string-bdiff.html) і [xdiffstringrabdiff()](function.xdiff-string-rabdiff.html)
+> Ця функція не призначена для роботи з бінарними даними. Для бінарного порівняння використовуйте [xdiffstringbdiff()](function.xdiff-string-bdiff.html) і [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md)
 
 ### Дивіться також
 
--   [xdiffstringpatch()](function.xdiff-string-patch.html) - Застосувати звичайний патч до рядка
+-   [xdiffstringpatch()](function.xdiff-string-patch.md) - Застосувати звичайний патч до рядка

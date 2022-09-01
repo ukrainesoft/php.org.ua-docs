@@ -18,9 +18,9 @@ fanngetcascadeoutputchangefraction — Повертає частку зміни 
 fann_get_cascade_output_change_fraction(resource $ann): float
 ```
 
-Частка зміни виходу каскаду - це число від 0 до 1, що визначає, наскільки більша частина значення [fanngetMSE()](function.fann-get-mse.html) має змінитися в [fanngetcascadeoutputstagnationepochs()](function.fann-get-cascade-output-stagnation-epochs.html) під час навчання вихідних з'єднань, щоб навчання, щоб не застоювалося. Якщо навчання зупиниться, навчання вихідних з'єднань буде припинено та будуть підготовлені нові кандидати.
+Частка зміни виходу каскаду - це число від 0 до 1, що визначає, наскільки більша частина значення [fanngetMSE()](function.fann-get-mse.html) має змінитися в [fanngetcascadeoutputstagnationepochs()](function.fann-get-cascade-output-stagnation-epochs.md) під час навчання вихідних з'єднань, щоб навчання, щоб не застоювалося. Якщо навчання зупиниться, навчання вихідних з'єднань буде припинено та будуть підготовлені нові кандидати.
 
-Це означає, що якщо MSE не змінюється на частку **fanngetcascadeoutputchangefraction()** протягом періоду [fanngetcascadeoutputstagnationepochs()](function.fann-get-cascade-output-stagnation-epochs.html), Навчання вихідних з'єднань припиниться, тому що навчання зупинилося.
+Це означає, що якщо MSE не змінюється на частку **fanngetcascadeoutputchangefraction()** протягом періоду [fanngetcascadeoutputstagnationepochs()](function.fann-get-cascade-output-stagnation-epochs.md), Навчання вихідних з'єднань припиниться, тому що навчання зупинилося.
 
 Якщо частка зміни виходу каскаду мала, вихідні з'єднання навчатимуться більше, і якщо частка висока, вони навчатимуться менше.
 
@@ -38,6 +38,6 @@ fann_get_cascade_output_change_fraction(resource $ann): float
 
 ### Дивіться також
 
--   [fannsetcascadeoutputchangefraction()](function.fann-set-cascade-output-change-fraction.html) - Встановлює частку зміни каскадних вихідних даних
--   [fanngetMSE()](function.fann-get-mse.html) - Зчитує середньоквадратичну помилку мережі
--   [fanngetcascadeoutputstagnationepochs()](function.fann-get-cascade-output-stagnation-epochs.html) - Повертає кількість каскадних періодів застою кандидатів
+-   [fannsetcascadeoutputchangefraction()](function.fann-set-cascade-output-change-fraction.md) - Встановлює частку зміни каскадних вихідних даних
+-   [fanngetMSE()](function.fann-get-mse.md) - Зчитує середньоквадратичну помилку мережі
+-   [fanngetcascadeoutputstagnationepochs()](function.fann-get-cascade-output-stagnation-epochs.md) - Повертає кількість каскадних періодів застою кандидатів

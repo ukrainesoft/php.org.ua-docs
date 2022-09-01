@@ -24,7 +24,7 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 `resource`
 
-Коректний ресурс оператора, отриманий з [db2prepare()](function.db2-prepare.html) або ж ресурс з'єднання, отриманий з [db2connect()](function.db2-connect.html) або [db2pconnect()](function.db2-pconnect.html)
+Коректний ресурс оператора, отриманий з [db2prepare()](function.db2-prepare.html) або ж ресурс з'єднання, отриманий з [db2connect()](function.db2-connect.html) або [db2pconnect()](function.db2-pconnect.md)
 
 `options`
 
@@ -76,7 +76,7 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 `rowcount`
 
-`DB2_ROWCOUNT_PREFETCH_ON` - клієнт може запитати кількість рядків перед вилученням, що означає, що функція [db2numrows()](function.db2-num-rows.html) поверне кількість вибраних рядків, навіть якщо використовується курсор `ROLLFORWARD_ONLY`
+`DB2_ROWCOUNT_PREFETCH_ON` - клієнт може запитати кількість рядків перед вилученням, що означає, що функція [db2numrows()](function.db2-num-rows.md) поверне кількість вибраних рядків, навіть якщо використовується курсор `ROLLFORWARD_ONLY`
 
 `DB2_ROWCOUNT_PREFETCH_OFF` - клієнт не може запитати кількість рядків перед вилученням
 
@@ -90,7 +90,7 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 Пароль (рядок), що відповідає ідентифікатору користувача, заданому в trusteduser.
 
-Наступні нові опції доступні в ibmdb2 версії 1.6.0 та вище. Ці опції надають корисну інформацію, яку можна отримати через [db2getoption()](function.db2-get-option.html)
+Наступні нові опції доступні в ibmdb2 версії 1.6.0 та вище. Ці опції надають корисну інформацію, яку можна отримати через [db2getoption()](function.db2-get-option.md)
 
 > **Зауваження**
 > 
@@ -559,8 +559,8 @@ first2 last2
 
 ### Дивіться також
 
--   [db2connect()](function.db2-connect.html) - Повертає з'єднання з базою даних
--   [db2pconnect()](function.db2-pconnect.html) - Повертає постійне з'єднання з базою даних
--   [db2exec()](function.db2-exec.html) - Виконує SQL-запит безпосередньо
--   [db2prepare()](function.db2-prepare.html) - готує SQL-запит до виконання
--   [db2cursortype()](function.db2-cursor-type.html) - Повертає тип курсору, який використовується у ресурсі оператора
+-   [db2connect()](function.db2-connect.md) - Повертає з'єднання з базою даних
+-   [db2pconnect()](function.db2-pconnect.md) - Повертає постійне з'єднання з базою даних
+-   [db2exec()](function.db2-exec.md) - Виконує SQL-запит безпосередньо
+-   [db2prepare()](function.db2-prepare.md) - готує SQL-запит до виконання
+-   [db2cursortype()](function.db2-cursor-type.md) - Повертає тип курсору, який використовується у ресурсі оператора

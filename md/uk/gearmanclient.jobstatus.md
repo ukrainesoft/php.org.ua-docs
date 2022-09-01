@@ -85,4 +85,4 @@ echo "завершено!\n";
 
 ### Дивіться також
 
--   [GearmanClient::doStatus()](gearmanclient.dostatus.html) - Отримання статусу завдання, що виконується
+-   [GearmanClient::doStatus()](gearmanclient.dostatus.md) - Отримання статусу завдання, що виконується

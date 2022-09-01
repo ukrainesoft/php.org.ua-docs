@@ -57,5 +57,5 @@ bool(true)
 
 ### Дивіться також
 
--   [sodiumcryptocoreristretto255add()](function.sodium-crypto-core-ristretto255-add.html) - Додає елемент
--   [sodiumcryptocoreristretto255sub()](function.sodium-crypto-core-ristretto255-sub.html) - Віднімає елемент
+-   [sodiumcryptocoreristretto255add()](function.sodium-crypto-core-ristretto255-add.md) - Додає елемент
+-   [sodiumcryptocoreristretto255sub()](function.sodium-crypto-core-ristretto255-sub.md) - Віднімає елемент

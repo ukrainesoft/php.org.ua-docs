@@ -58,4 +58,4 @@ if (preg_last_error() == PREG_BACKTRACK_LIMIT_ERROR) {
 
 ### Дивіться також
 
--   [preglasterrormsg()](function.preg-last-error-msg.html) - Повертає повідомлення про помилку останньої запущеної функції PCRE
+-   [preglasterrormsg()](function.preg-last-error-msg.md) - Повертає повідомлення про помилку останньої запущеної функції PCRE

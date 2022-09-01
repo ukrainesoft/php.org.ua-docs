@@ -10,8 +10,8 @@ title: Типи ресурсів
 
 ## Дескриптор з'єднання
 
-Дескриптор з'єднання повертається функцією [sqlsrvconnect()](function.sqlsrv-connect.html)
+Дескриптор з'єднання повертається функцією [sqlsrvconnect()](function.sqlsrv-connect.md)
 
 ## Дескриптор виразу
 
-Дескриптор виразу (statement resource) повертається функціями [sqlsrvquery()](function.sqlsrv-query.html) або [sqlsrvprepare()](function.sqlsrv-prepare.html)
+Дескриптор виразу (statement resource) повертається функціями [sqlsrvquery()](function.sqlsrv-query.html) або [sqlsrvprepare()](function.sqlsrv-prepare.md)

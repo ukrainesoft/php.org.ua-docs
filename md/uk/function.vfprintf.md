@@ -130,5 +130,5 @@ vfprintf($fp, "%04d-%02d-%02d", array($year, $month, $day));
 -   [vsprintf()](function.vsprintf.md) - Повертає відформатований рядок
 -   [sscanf()](function.sscanf.md) - Розбирає рядок відповідно до заданого формату
 -   [fscanf()](function.fscanf.md) - Обробляє дані з файлу відповідно до формату
--   [numberformat()](function.number-format.html) - Форматує число з поділом груп
+-   [numberformat()](function.number-format.md) - Форматує число з поділом груп
 -   [date()](function.date.md) - Форматує тимчасову мітку Unix

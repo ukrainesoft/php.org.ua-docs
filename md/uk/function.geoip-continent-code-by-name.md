@@ -65,4 +65,4 @@ if ($continent) {
 
 ### Дивіться також
 
--   [geoipcountrycodeбname()](function.geoip-country-code-by-name.html) - Отримати двосимвольний код країни
+-   [geoipcountrycodeбname()](function.geoip-country-code-by-name.md) - Отримати двосимвольний код країни

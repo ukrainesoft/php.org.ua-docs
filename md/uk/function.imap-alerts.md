@@ -32,4 +32,4 @@ imap_alerts(): array|false
 
 ### Дивіться також
 
--   [imaperrors()](function.imap-errors.html) - Отримати всі помилки, що відбулися IMAP
+-   [imaperrors()](function.imap-errors.md) - Отримати всі помилки, що відбулися IMAP

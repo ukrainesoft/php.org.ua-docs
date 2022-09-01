@@ -35,7 +35,7 @@ php_flag engine off
 
 `child_terminate` bool
 
-Ця Встановлення керує тим, чи можуть скрипти PHP вимагати закінчення дочірніх процесів після завершення запиту. Дивіться також [apachechildterminate()](function.apache-child-terminate.html)
+Ця Встановлення керує тим, чи можуть скрипти PHP вимагати закінчення дочірніх процесів після завершення запиту. Дивіться також [apachechildterminate()](function.apache-child-terminate.md)
 
 `last_modified` bool
 

@@ -22,7 +22,7 @@ final public MongoDB\Driver\ReadPreference::unserialize(string $serialized): voi
 
 `serialized`
 
-Серіалізований [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
+Серіалізований [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md)
 
 ### Значення, що повертаються
 
@@ -30,12 +30,12 @@ final public MongoDB\Driver\ReadPreference::unserialize(string $serialized): voi
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Кидає виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)якщо виникла неможливо зробити десеріалізацію властивості, наприклад, якщо значення `serialized` не коректно.
--   Кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) якщо властивості не коректні, наприклад, пропущені поля або вони мають некоректні значення.
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Кидає виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)якщо виникла неможливо зробити десеріалізацію властивості, наприклад, якщо значення `serialized` не коректно.
+-   Кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) якщо властивості не коректні, наприклад, пропущені поля або вони мають некоректні значення.
 
 ### Дивіться також
 
--   [MongoDBDriverReadPreference::serialize()](mongodb-driver-readpreference.serialize.html) - Серіалізація ReadPreference
+-   [MongoDBDriverReadPreference::serialize()](mongodb-driver-readpreference.serialize.md) - Серіалізація ReadPreference
 -   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

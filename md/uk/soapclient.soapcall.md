@@ -20,7 +20,7 @@ public SoapClient::__soapCall(    string $name,    array $args,    ?
 
 Це низькорівнева функція API, яка дозволяє зробити SOAP-дзвінок. Зазвичай у режимі WSDL функції SOAP викликаються як методи об'єкта [SoapClient](class.soapclient.md). Цей метод корисний у режимі, відмінному від WSDL, коли `soapaction` невідомий, `uri` відрізняється від URI за замовчуванням або під час відправлення та/або отримання SOAP-заголовків.
 
-У разі виникнення помилки виклик SOAP-функції може призвести до виключення або повернення об'єкта [SoapFault](class.soapfault.md), якщо виключення вимкнено. Щоб перевірити, чи виклик функції завершився невдачею, зловивши виняток SoapFault, перевірте результат за допомогою [ісsoapfault()](function.is-soap-fault.html)
+У разі виникнення помилки виклик SOAP-функції може призвести до виключення або повернення об'єкта [SoapFault](class.soapfault.md), якщо виключення вимкнено. Щоб перевірити, чи виклик функції завершився невдачею, зловивши виняток SoapFault, перевірте результат за допомогою [ісsoapfault()](function.is-soap-fault.md)
 
 ### Список параметрів
 
@@ -88,4 +88,4 @@ $client->__soapCall("SomeFunction", array($a, $b, $c),
 -   [SoapVar::construct()](soapvar.construct.md) - Конструктор SoapVar
 -   [SoapHeader::construct()](soapheader.construct.md) - Конструктор SoapHeader
 -   [SoapFault::construct()](soapfault.construct.md) - Конструктор SoapFault
--   [ісsoapfault()](function.is-soap-fault.html) - Перевіряє, чи сталася помилка під час виклику SOAP
+-   [ісsoapfault()](function.is-soap-fault.md) - Перевіряє, чи сталася помилка під час виклику SOAP

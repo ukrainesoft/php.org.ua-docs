@@ -78,4 +78,4 @@ int(10)
 
 ### Дивіться також
 
--   [uopzgetproperty()](function.uopz-get-property.html) - Отримує значення класу або властивість екземпляра
+-   [uopzgetproperty()](function.uopz-get-property.md) - Отримує значення класу або властивість екземпляра

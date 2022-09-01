@@ -57,4 +57,4 @@ fclose($temp); // происходит удаление файла
 ### Дивіться також
 
 -   [tempnam()](function.tempnam.md) - Створює файл із унікальним ім'ям
--   [sysgettempdir()](function.sys-get-temp-dir.html) - Повертає шлях до директорії тимчасових файлів
+-   [sysgettempdir()](function.sys-get-temp-dir.md) - Повертає шлях до директорії тимчасових файлів

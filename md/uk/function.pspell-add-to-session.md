@@ -18,13 +18,13 @@ pspelladdтоsession — Додає слово до списку слів у п�
 pspell_add_to_session(PSpell\Dictionary $dictionary, string $word): bool
 ```
 
-**pspelladdтоsession()** додає слово до списку слів, асоційованого з поточною сесією. Ця функція дуже схожа на функцію [pspelladdтоpersonal()](function.pspell-add-to-personal.html)
+**pspelladdтоsession()** додає слово до списку слів, асоційованого з поточною сесією. Ця функція дуже схожа на функцію [pspelladdтоpersonal()](function.pspell-add-to-personal.md)
 
 ### Список параметрів
 
 `dictionary`
 
-Екземпляр [PSpellDictionary](class.pspell-dictionary.html)
+Екземпляр [PSpellDictionary](class.pspell-dictionary.md)
 
 `word`
 
@@ -38,4 +38,4 @@ pspell_add_to_session(PSpell\Dictionary $dictionary, string $word): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

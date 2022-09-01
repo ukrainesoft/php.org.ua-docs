@@ -18,9 +18,9 @@ MongoDBDriverManager::getServers — Повертає сервери, до як�
 final public MongoDB\Driver\Manager::getServers(): array
 ```
 
-Повертає масив (array) екземплярів [MongoDBDriverServer](class.mongodb-driver-server.html), до яких підключено поточного менеджера.
+Повертає масив (array) екземплярів [MongoDBDriverServer](class.mongodb-driver-server.md), до яких підключено поточного менеджера.
 
-> **Зауваження**: Оскільки драйвер підключається до бази даних ліниво, цей метод може повертати порожній масив (array), якщо він викликається перед виконанням операції в [MongoDBDriverManager](class.mongodb-driver-manager.html)
+> **Зауваження**: Оскільки драйвер підключається до бази даних ліниво, цей метод може повертати порожній масив (array), якщо він викликається перед виконанням операції в [MongoDBDriverManager](class.mongodb-driver-manager.md)
 
 ### Список параметрів
 
@@ -28,11 +28,11 @@ final public MongoDB\Driver\Manager::getServers(): array
 
 ### Значення, що повертаються
 
-Повертає масив (array) екземплярів [MongoDBDriverServer](class.mongodb-driver-server.html), до яких підключено менеджера.
+Повертає масив (array) екземплярів [MongoDBDriverServer](class.mongodb-driver-server.md), до яких підключено менеджера.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
@@ -109,5 +109,5 @@ array(1) {
 
 ### Дивіться також
 
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
--   [MongoDBDriverManager::selectServer()](mongodb-driver-manager.selectserver.html) - Вибрати сервер, що відповідає перевагам читання
+-   [MongoDBDriverServer](class.mongodb-driver-server.md)
+-   [MongoDBDriverManager::selectServer()](mongodb-driver-manager.selectserver.md) - Вибрати сервер, що відповідає перевагам читання

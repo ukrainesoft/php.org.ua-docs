@@ -29,6 +29,6 @@ title: Support Vector Machine (Додаткова векторна машина)
     -   [SVMModel::getSvmType](svmmodel.getsvmtype.md) - Отримати тип SVM, з яким навчалася модель
     -   [SVMModel::getSvrProbability](svmmodel.getsvrprobability.md) — Отримати величину сигми для регресійного типу
     -   [SVMModel::load](svmmodel.load.md) — Завантажує збережену модель SVM
-    -   [SVMModel::predictprobability](svmmodel.predict-probability.html) — Повертає можливість класу для заданих даних
+    -   [SVMModel::predictprobability](svmmodel.predict-probability.md) — Повертає можливість класу для заданих даних
     -   [SVMModel::predict](svmmodel.predict.md) — Передбачити значення на основі нових даних
     -   [SVMModel::save](svmmodel.save.md) — Зберегти готову модель у файл

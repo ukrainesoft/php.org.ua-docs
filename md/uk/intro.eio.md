@@ -8,7 +8,7 @@ title: Вступ
 ---
 # Вступ
 
-Модуль реалізує підсистему введення-виведення POSIX I/O засобів [» libeio](http://software.schmorp.de/pkg/libeio.html) Бібліотека C Написана Марком Леманном (Marc Lehmann).
+Модуль реалізує підсистему введення-виведення POSIX I/O засобів [» libeio](http://software.schmorp.de/pkg/libeio.md) Бібліотека C Написана Марком Леманном (Marc Lehmann).
 
 > **Зауваження**: Для Windows-платформ цей модуль недоступний.
 
@@ -31,7 +31,7 @@ eio_event_loop();
 ?>
 ```
 
-У наведеному вище прикладі запит [eiorename()](function.eio-rename.html) може бути виконаний перед [eiosymlink()](function.eio-symlink.html). Правильним рішенням буде виклик [eiorename()](function.eio-rename.html) callback-функцією в [eiosymlink()](function.eio-symlink.html)
+У наведеному вище прикладі запит [eiorename()](function.eio-rename.html) може бути виконаний перед [eiosymlink()](function.eio-symlink.html). Правильним рішенням буде виклик [eiorename()](function.eio-rename.html) callback-функцією в [eiosymlink()](function.eio-symlink.md)
 
 **Приклад #2 Створення запиту за допомогою callback-функції**
 
@@ -87,7 +87,7 @@ eio_event_loop();
 
 Група – це спеціальний вид запиту, що дозволяє створити набір звичайних. *eio*запитів. Це може бути використане для створення складних запитів, які відкривають, читають та закривають файл.
 
-Починаючи з версії 0.3.0 alpha, змінна, що використовується для внутрішньої взаємодії з libeio, може бути отримана функцією [eiogeteventstream()](function.eio-get-event-stream.html). Змінна може бути використана для прив'язки до циклу обробки, що поставляється стороннім модулем. Можливо організувати простий цикл обробки, де eio і libevent працюють спільно.
+Починаючи з версії 0.3.0 alpha, змінна, що використовується для внутрішньої взаємодії з libeio, може бути отримана функцією [eiogeteventstream()](function.eio-get-event-stream.md). Змінна може бути використана для прив'язки до циклу обробки, що поставляється стороннім модулем. Можливо організувати простий цикл обробки, де eio і libevent працюють спільно.
 
 **Приклад #4 Використання eio спільно з libevent**
 

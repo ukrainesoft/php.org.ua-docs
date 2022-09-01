@@ -17,284 +17,284 @@ title: Yet Another Framework
 -   [Обумовлені константи](yaf.constants.md)
 -   [Приклади](yaf.tutorials.md)
 -   [Конфигурация приложения](yaf.appconfig.md)
--   [YafApplication](class.yaf-application.html) - Клас YafApplication
-    -   [YafApplication::app](yaf-application.app.html) — Вийняти екземпляр програми
-    -   [YafApplication::bootstrap](yaf-application.bootstrap.html) - Викликати bootstrap
-    -   [YafApplication::clearLastError](yaf-application.clearlasterror.html) — Очищення інформації з останньої помилки
-    -   [YafApplication::construct](yaf-application.construct.html) - Конструктор класу YafApplication
-    -   [YafApplication::destruct](yaf-application.destruct.html) - Деструктор YafApplication
-    -   [YafApplication::environ](yaf-application.environ.html) — Отримати значення оточення
-    -   [YafApplication::execute](yaf-application.execute.html) - Запустити callback-функцію
-    -   [YafApplication::getAppDirectory](yaf-application.getappdirectory.html) — Отримати директорію програми
-    -   [YafApplication::getConfig](yaf-application.getconfig.html) — Отримати екземпляр класу конфігурації
-    -   [YafApplication::getDispatcher](yaf-application.getdispatcher.html) - Отримати екземпляр класу YafDispatcher
-    -   [YafApplication::getLastErrorMsg](yaf-application.getlasterrormsg.html) — Отримати останнє повідомлення про помилку
-    -   [YafApplication::getLastErrorNo](yaf-application.getlasterrorno.html) — Отримати код останньої помилки
-    -   [YafApplication::getModules](yaf-application.getmodules.html) — Отримати імена заявлених модулів
-    -   [YafApplication::run](yaf-application.run.html) - Запустити YafApplication
-    -   [YafApplication::setAppDirectory](yaf-application.setappdirectory.html) — Змінити директорію програми
--   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.html) - Клас YafBootstrapAbstract
--   [YafDispatcher](class.yaf-dispatcher.html) - Клас YafDispatcher
-    -   [YafDispatcher::autoRender](yaf-dispatcher.autorender.html) — Включає/вимикає авторендеринг
-    -   [YafDispatcher::catchException](yaf-dispatcher.catchexception.html) — Включає/вимикає перехоплення винятків
-    -   [YafDispatcher::construct](yaf-dispatcher.construct.html) - Конструктор класу YafDispatcher
-    -   [YafDispatcher::disableView](yaf-dispatcher.disableview.html) — Вимикає механізм перегляду
-    -   [YafDispatcher::dispatch](yaf-dispatcher.dispatch.html) — Надсилає запит
-    -   [YafDispatcher::enableView](yaf-dispatcher.enableview.html) - Включає механізм перегляду
-    -   [YafDispatcher::flushInstantly](yaf-dispatcher.flushinstantly.html) — Вмикає/вимикає миттєве очищення
-    -   [YafDispatcher::getApplication](yaf-dispatcher.getapplication.html) — Отримує програму
-    -   [YafDispatcher::getDefaultAction](yaf-dispatcher.getdefaultaction.html) — Отримує ім'я стандартної дії
-    -   [YafDispatcher::getDefaultController](yaf-dispatcher.getdefaultcontroller.html) — Отримує ім'я контролера за умовчанням
-    -   [YafDispatcher::getDefaultModule](yaf-dispatcher.getdefaultmodule.html) — Отримує ім'я модуля за замовчуванням
-    -   [YafDispatcher::getInstance](yaf-dispatcher.getinstance.html) — Отримує екземпляр диспетчера
-    -   [YafDispatcher::getRequest](yaf-dispatcher.getrequest.html) — Отримує екземпляр запиту
-    -   [YafDispatcher::getRouter](yaf-dispatcher.getrouter.html) — Отримує екземпляр маршрутизатора
-    -   [YafDispatcher::initView](yaf-dispatcher.initview.html) — Ініціалізує виставу та повертає її
-    -   [YafDispatcher::registerPlugin](yaf-dispatcher.registerplugin.html) - Реєструє плагін
-    -   [YafDispatcher::returnResponse](yaf-dispatcher.returnresponse.html) — Призначення returnResponse
-    -   [YafDispatcher::setDefaultAction](yaf-dispatcher.setdefaultaction.html) — Змінює ім'я стандартної дії
-    -   [YafDispatcher::setDefaultController](yaf-dispatcher.setdefaultcontroller.html) - Змінює ім'я контролера за умовчанням
-    -   [YafDispatcher::setDefaultModule](yaf-dispatcher.setdefaultmodule.html) — Змінює стандартне ім'я модуля
-    -   [YafDispatcher::setErrorHandler](yaf-dispatcher.seterrorhandler.html) - Встановлює обробник помилок
-    -   [YafDispatcher::setRequest](yaf-dispatcher.setrequest.html) - Призначення setRequest
-    -   [YafDispatcher::setView](yaf-dispatcher.setview.html) — Встановлює користувальницький механізм відображення
-    -   [YafDispatcher::throwException](yaf-dispatcher.throwexception.html) — Вмикає/вимикає викидання винятків
--   [YafConfigAbstract](class.yaf-config-abstract.html) - Клас YafConfigAbstract
-    -   [YafConfigAbstract::get](yaf-config-abstract.get.html) - Геттер
-    -   [YafConfigAbstract::readonly](yaf-config-abstract.readonly.html) — Знаходить конфігурацію лише для читання
-    -   [YafConfigAbstract::set](yaf-config-abstract.set.html) - Сеттер
-    -   [YafConfigAbstract::toArray](yaf-config-abstract.toarray.html) - Приведення до масиву
--   [YafConfigIni](class.yaf-config-ini.html) - Клас YafConfigIni
-    -   [YafConfigIni::construct](yaf-config-ini.construct.html) - Конструктор класу YafConfigIni
-    -   [YafConfigIni::count](yaf-config-ini.count.html) — Підраховує всі елементи в YafConfig.ini
-    -   [YafConfigIni::current](yaf-config-ini.current.html) — Отримує поточне значення
-    -   [YafConfigIni::get](yaf-config-ini.get.html) — Отримує елемент
-    -   [YafConfigIni::isset](yaf-config-ini.isset.html) - Визначає, чи існує ключ
-    -   [YafConfigIni::key](yaf-config-ini.key.html) — Отримує ключ поточного елемента
-    -   [YafConfigIni::next](yaf-config-ini.next.html) - Просуває внутрішній покажчик
-    -   [YafConfigIni::offsetExists](yaf-config-ini.offsetexists.html) — Призначення offsetExists
-    -   [YafConfigIni::offsetGet](yaf-config-ini.offsetget.html) - Призначення offsetGet
-    -   [YafConfigIni::offsetSet](yaf-config-ini.offsetset.html) - Призначення offsetSet
-    -   [YafConfigIni::offsetUnset](yaf-config-ini.offsetunset.html) - Призначення offsetUnset
-    -   [YafConfigIni::readonly](yaf-config-ini.readonly.html) - Призначення readonly
-    -   [YafConfigIni::rewind](yaf-config-ini.rewind.html) - Призначення rewind
-    -   [YafConfigIni::set](yaf-config-ini.set.html) - Призначення set
-    -   [YafConfigIni::toArray](yaf-config-ini.toarray.html) — Повертає конфігурацію як масив PHP
-    -   [YafConfigIni::valid](yaf-config-ini.valid.html) - Призначення valid
--   [YafConfigSimple](class.yaf-config-simple.html) - Клас YafConfigSimple
-    -   [YafConfigSimple::construct](yaf-config-simple.construct.html) - Призначення construct
-    -   [YafConfigSimple::count](yaf-config-simple.count.html) - Призначення count
-    -   [YafConfigSimple::current](yaf-config-simple.current.html) - Призначення current
-    -   [YafConfigSimple::get](yaf-config-simple.get.html) - Призначення get
-    -   [YafConfigSimple::isset](yaf-config-simple.isset.html) - Призначення isset
-    -   [YafConfigSimple::key](yaf-config-simple.key.html) - Призначення key
-    -   [YafConfigSimple::next](yaf-config-simple.next.html) - Призначення next
-    -   [YafConfigSimple::offsetExists](yaf-config-simple.offsetexists.html) — Призначення offsetExists
-    -   [YafConfigSimple::offsetGet](yaf-config-simple.offsetget.html) - Призначення offsetGet
-    -   [YafConfigSimple::offsetSet](yaf-config-simple.offsetset.html) - Призначення offsetSet
-    -   [YafConfigSimple::offsetUnset](yaf-config-simple.offsetunset.html) - Призначення offsetUnset
-    -   [YafConfigSimple::readonly](yaf-config-simple.readonly.html) - Призначення readonly
-    -   [YafConfigSimple::rewind](yaf-config-simple.rewind.html) - Призначення rewind
-    -   [YafConfigSimple::set](yaf-config-simple.set.html) - Призначення set
-    -   [YafConfigSimple::toArray](yaf-config-simple.toarray.html) - Повертає масив PHP
-    -   [YafConfigSimple::valid](yaf-config-simple.valid.html) - Призначення valid
--   [YafControllerAbstract](class.yaf-controller-abstract.html) - Клас YafControllerAbstract
-    -   [YafControllerAbstract::construct](yaf-controller-abstract.construct.html) - Конструктор класу YafControllerAbstract
-    -   [YafControllerAbstract::display](yaf-controller-abstract.display.html) - Призначення display
-    -   [YafControllerAbstract::forward](yaf-controller-abstract.forward.html) — Переходить до іншої дії
-    -   [YafControllerAbstract::getInvokeArg](yaf-controller-abstract.getinvokearg.html) — Призначення getInvokeArg
-    -   [YafControllerAbstract::getInvokeArgs](yaf-controller-abstract.getinvokeargs.html) — Призначення getInvokeArgs
-    -   [YafControllerAbstract::getModuleName](yaf-controller-abstract.getmodulename.html) — Отримує ім'я модуля
-    -   [YafControllerAbstract::getName](yaf-controller-abstract.getname.html) — Отримує своє ім'я
-    -   [YafControllerAbstract::getRequest](yaf-controller-abstract.getrequest.html) — Отримує поточний об'єкт запиту
-    -   [YafControllerAbstract::getResponse](yaf-controller-abstract.getresponse.html) — Отримує поточний об'єкт відповіді
-    -   [YafControllerAbstract::getView](yaf-controller-abstract.getview.html) — Отримує двигун відображення
-    -   [YafControllerAbstract::getViewpath](yaf-controller-abstract.getviewpath.html) - Призначення getViewpath
-    -   [YafControllerAbstract::init](yaf-controller-abstract.init.html) - Ініціалізатор контролера
-    -   [YafControllerAbstract::initView](yaf-controller-abstract.initview.html) - Призначення initView
-    -   [YafControllerAbstract::redirect](yaf-controller-abstract.redirect.html) — Перенаправляє на URL
-    -   [YafControllerAbstract::render](yaf-controller-abstract.render.html) — Відображає шаблон представлення
-    -   [YafControllerAbstract::setViewpath](yaf-controller-abstract.setviewpath.html) - Призначення setViewpath
--   [YafActionAbstract](class.yaf-action-abstract.html) - Клас YafActionAbstract
-    -   [YafActionAbstract::execute](yaf-action-abstract.execute.html) - Точка входу для Action-класів
-    -   [YafActionAbstract::getController](yaf-action-abstract.getcontroller.html) - Отримати об'єкт контролер
-    -   [YafActionAbstract::getControllerName](yaf-controller-abstract.getcontrollername.html) — Отримує ім'я контролера
--   [YafViewInterface](class.yaf-view-interface.html) - Клас YafViewInterface
-    -   [YafViewInterface::assign](yaf-view-interface.assign.html) — Призначає значення для движка відображення
-    -   [YafViewInterface::display](yaf-view-interface.display.html) — Малює та виводить шаблон
-    -   [YafViewInterface::getScriptPath](yaf-view-interface.getscriptpath.html) - Призначення getScriptPath
-    -   [YafViewInterface::render](yaf-view-interface.render.html) — Малює шаблон
-    -   [YafViewInterface::setScriptPath](yaf-view-interface.setscriptpath.html) - Призначення setScriptPath
--   [YafViewSimple](class.yaf-view-simple.html) - Клас YafViewSimple
-    -   [YafViewSimple::assign](yaf-view-simple.assign.html) - Призначити значення
-    -   [YafViewSimple::assignRef](yaf-view-simple.assignref.html) — Призначення assignRef
-    -   [YafViewSimple::clear](yaf-view-simple.clear.html) - Скидає призначені значення
-    -   [YafViewSimple::construct](yaf-view-simple.construct.html) - Конструктор класу YafViewSimple
-    -   [YafViewSimple::display](yaf-view-simple.display.html) — Малює та відображає
-    -   [YafViewSimple::eval](yaf-view-simple.eval.html) — Малює шаблон
-    -   [YafViewSimple::get](yaf-view-simple.get.html) — Отримує призначену змінну
-    -   [YafViewSimple::getScriptPath](yaf-view-simple.getscriptpath.html) — Отримує каталог шаблонів
-    -   [YafViewSimple::isset](yaf-view-simple.isset.html) - Призначення isset
-    -   [YafViewSimple::render](yaf-view-simple.render.html) — Малює шаблон
-    -   [YafViewSimple::set](yaf-view-simple.set.html) - Встановлює значення для двигуна
-    -   [YafViewSimple::setScriptPath](yaf-view-simple.setscriptpath.html) — Встановлює каталог шаблонів
--   [YafLoader](class.yaf-loader.html) - Клас YafLoader
-    -   [YafLoader::autoload](yaf-loader.autoload.html) - Призначення autoload
-    -   [YafLoader::clearLocalNamespace](yaf-loader.clearlocalnamespace.html) — Призначення clearLocalNamespace
-    -   [YafLoader::construct](yaf-loader.construct.html) - Призначення construct
-    -   [YafLoader::getInstance](yaf-loader.getinstance.html) — Призначення getInstance
-    -   [YafLoader::getLibraryPath](yaf-loader.getlibrarypath.html) — Отримує шлях до бібліотеки
-    -   [YafLoader::getLocalNamespace](yaf-loader.getlocalnamespace.html) — Призначення getLocalNamespace
-    -   [YafLoader::getNamespacePath](yaf-loader.getnamespacepath.html) — Отримує шлях зареєстрованого простору імен
-    -   [YafLoader::getLocalNamespace](yaf-loader.getnamespaces.html) — Отримує всю інформацію про зареєстровані простори імен
-    -   [YafLoader::import](yaf-loader.import.html) - Призначення import
-    -   [YafLoader::isLocalName](yaf-loader.islocalname.html) — Призначення isLocalName
-    -   [YafLoader::registerLocalNamespace](yaf-loader.registerlocalnamespace.html) - Реєструє префікс локального класу
-    -   [YafLoader::registerNamespace](yaf-loader.registernamespace.html) — Реєструє простір імен шляхом пошуку
-    -   [YafLoader::setLibraryPath](yaf-loader.setlibrarypath.html) — Змінює шлях до бібліотеки
--   [YafPluginAbstract](class.yaf-plugin-abstract.html) - Клас YafPluginAbstract
-    -   [YafPluginAbstract::dispatchLoopShutdown](yaf-plugin-abstract.dispatchloopshutdown.html) — Призначення dispatchLoopShutdown
-    -   [YafPluginAbstract::dispatchLoopStartup](yaf-plugin-abstract.dispatchloopstartup.html) - Хук перед відправкою циклу
-    -   [YafPluginAbstract::postDispatch](yaf-plugin-abstract.postdispatch.html) - Призначення postDispatch
-    -   [YafPluginAbstract::preDispatch](yaf-plugin-abstract.predispatch.html) - Призначення preDispatch
-    -   [YafPluginAbstract::preResponse](yaf-plugin-abstract.preresponse.html) - Призначення preResponse
-    -   [YafPluginAbstract::routerShutdown](yaf-plugin-abstract.routershutdown.html) - Призначення routerShutdown
-    -   [YafPluginAbstract::routerStartup](yaf-plugin-abstract.routerstartup.html) - Перехоплювач RouterStartup
--   [YafRegistry](class.yaf-registry.html) - Клас YafRegistry
-    -   [YafRegistry::construct](yaf-registry.construct.html) - YafRegistry реалізує шаблон проектування "Одиночка"
-    -   [YafRegistry::del](yaf-registry.del.html) — Видаляє елемент із реєстру
-    -   [YafRegistry::get](yaf-registry.get.html) — Отримує елемент із реєстру
-    -   [YafRegistry::has](yaf-registry.has.html) — Перевіряє, чи існує елемент
-    -   [YafRegistry::set](yaf-registry.set.html) — Додає елемент до реєстру
--   [YafRequestAbstract](class.yaf-request-abstract.html) - Клас YafRequestAbstract
-    -   [YafRequestAbstract::clearParams](yaf-request-abstract.clearparams.html) — Видаляє всі параметри
-    -   [YafRequestAbstract::getActionName](yaf-request-abstract.getactionname.html) — Призначення getActionName
-    -   [YafRequestAbstract::getBaseUri](yaf-request-abstract.getbaseuri.html) - Призначення getBaseUri
-    -   [YafRequestAbstract::getControllerName](yaf-request-abstract.getcontrollername.html) — Призначення getControllerName
-    -   [YafRequestAbstract::getEnv](yaf-request-abstract.getenv.html) — Отримує змінну ENV
-    -   [YafRequestAbstract::getException](yaf-request-abstract.getexception.html) - Призначення getException
-    -   [YafRequestAbstract::getLanguage](yaf-request-abstract.getlanguage.html) — Отримує кращу мову клієнта
-    -   [YafRequestAbstract::getMethod](yaf-request-abstract.getmethod.html) — Отримує метод запиту
-    -   [YafRequestAbstract::getModuleName](yaf-request-abstract.getmodulename.html) — Призначення getModuleName
-    -   [YafRequestAbstract::getParam](yaf-request-abstract.getparam.html) — Отримує параметр дзвінка
-    -   [YafRequestAbstract::getParams](yaf-request-abstract.getparams.html) — Отримує всі параметри дзвінка
-    -   [YafRequestAbstract::getRequestUri](yaf-request-abstract.getrequesturi.html) - Призначення getRequestUri
-    -   [YafRequestAbstract::getServer](yaf-request-abstract.getserver.html) — Отримує змінну SERVER
-    -   [YafRequestAbstract::isCli](yaf-request-abstract.iscli.html) — Визначає, чи є запит CLI-запитом
-    -   [YafRequestAbstract::isDispatched](yaf-request-abstract.isdispatched.html) — Визначає, чи надіслано запит.
-    -   [YafRequestAbstract::isGet](yaf-request-abstract.isget.html) - Визначає, чи є запит GET-запитом
-    -   [YafRequestAbstract::isHead](yaf-request-abstract.ishead.html) - Визначає, чи є запит HEAD-запитом
-    -   [YafRequestAbstract::isOptions](yaf-request-abstract.isoptions.html) — Визначає, чи є запит OPTIONS-запитом
-    -   [YafRequestAbstract::isPost](yaf-request-abstract.ispost.html) — Визначає, чи запит POST-запитом.
-    -   [YafRequestAbstract::isPut](yaf-request-abstract.isput.html) - Визначає, чи є запит PUT-запитом
-    -   [YafRequestAbstract::isRouted](yaf-request-abstract.isrouted.html) — Визначає, чи запит надіслано
-    -   [YafRequestAbstract::isXmlHttpRequest](yaf-request-abstract.isxmlhttprequest.html) - Визначає, чи є запит AJAX-запитом
-    -   [YafRequestAbstract::setActionName](yaf-request-abstract.setactionname.html) - Встановлює ім'я дії
-    -   [YafRequestAbstract::setBaseUri](yaf-request-abstract.setbaseuri.html) - Встановлює базовий URI
-    -   [YafRequestAbstract::setControllerName](yaf-request-abstract.setcontrollername.html) - Встановлює ім'я контролера
-    -   [YafRequestAbstract::setDispatched](yaf-request-abstract.setdispatched.html) - Призначення setDispatched
-    -   [YafRequestAbstract::setModuleName](yaf-request-abstract.setmodulename.html) - Встановлює ім'я модуля
-    -   [YafRequestAbstract::setParam](yaf-request-abstract.setparam.html) — Встановлює дзвінок для запиту
-    -   [YafRequestAbstract::setRequestUri](yaf-request-abstract.setrequesturi.html) - Призначення setRequestUri
-    -   [YafRequestAbstract::setRouted](yaf-request-abstract.setrouted.html) — Призначення setRouted
--   [YafRequestHttp](class.yaf-request-http.html) - Клас YafRequestHttp
-    -   [YafRequestHttp::construct](yaf-request-http.construct.html) - Конструктор класу YafRequestHttp
-    -   [YafRequestHttp::get](yaf-request-http.get.html) — Отримує змінну від клієнта
-    -   [YafRequestHttp::getCookie](yaf-request-http.getcookie.html) — Отримує змінну Cookie
-    -   [YafRequestHttp::getFiles](yaf-request-http.getfiles.html) - Призначення getFiles
-    -   [YafRequestHttp::getPost](yaf-request-http.getpost.html) — Отримує змінну POST
-    -   [YafRequestHttp::getQuery](yaf-request-http.getquery.html) — Отримує параметр запиту
-    -   [YafRequestHttp::getRaw](yaf-request-http.getraw.html) — Отримує необроблене тіло запиту
-    -   [YafRequestHttp::getRequest](yaf-request-http.getrequest.html) - Призначення getRequest
-    -   [YafRequestHttp::isXmlHttpRequest](yaf-request-http.isxmlhttprequest.html) — Визначає, чи є запит Ajax-запитом
--   [YafRequestSimple](class.yaf-request-simple.html) - Клас YafRequestSimple
-    -   [YafRequestSimple::construct](yaf-request-simple.construct.html) - Конструктор класу YafRequestSimple
-    -   [YafRequestSimple::get](yaf-request-simple.get.html) - Призначення get
-    -   [YafRequestSimple::getCookie](yaf-request-simple.getcookie.html) - Призначення getCookie
-    -   [YafRequestSimple::getFiles](yaf-request-simple.getfiles.html) - Призначення getFiles
-    -   [YafRequestSimple::getPost](yaf-request-simple.getpost.html) - Призначення getPost
-    -   [YafRequestSimple::getQuery](yaf-request-simple.getquery.html) - Призначення getQuery
-    -   [YafRequestSimple::getRequest](yaf-request-simple.getrequest.html) - Призначення getRequest
-    -   [YafRequestSimple::isXmlHttpRequest](yaf-request-simple.isxmlhttprequest.html) - Визначає, чи є запит AJAX-запитом
--   [YafResponseAbstract](class.yaf-response-abstract.html) - Клас YafResponseAbstract
-    -   [YafResponseAbstract::appendBody](yaf-response-abstract.appendbody.html) - Додає вміст до тіла відповіді
-    -   [YafResponseAbstract::clearBody](yaf-response-abstract.clearbody.html) — Скидає все тіло відповіді, що існує.
-    -   [YafResponseAbstract::clearHeaders](yaf-response-abstract.clearheaders.html) - Скидає всі встановлені заголовки
-    -   [YafResponseAbstract::construct](yaf-response-abstract.construct.html) - Конструктор класу YafResponseAbstract
-    -   [YafResponseAbstract::destruct](yaf-response-abstract.destruct.html) - Деструктор класу YafResponseAbstract
-    -   [YafResponseAbstract::getBody](yaf-response-abstract.getbody.html) — Отримує наявний вміст
-    -   [YafResponseAbstract::getHeader](yaf-response-abstract.getheader.html) - Призначення getHeader
-    -   [YafResponseAbstract::prependBody](yaf-response-abstract.prependbody.html) - Призначення prependBody
-    -   [YafResponseAbstract::response](yaf-response-abstract.response.html) - Відправляє відповідь
-    -   [YafResponseAbstract::setAllHeaders](yaf-response-abstract.setallheaders.html) — Призначення setAllHeaders
-    -   [YafResponseAbstract::setBody](yaf-response-abstract.setbody.html) - Встановлює вміст відповіді
-    -   [YafResponseAbstract::setHeader](yaf-response-abstract.setheader.html) - Встановлює заголовок відповіді
-    -   [YafResponseAbstract::setRedirect](yaf-response-abstract.setredirect.html) - Призначення setRedirect
-    -   [YafResponseAbstract::toString](yaf-response-abstract.tostring.html) — Отримує все тіло у вигляді рядка
--   [YafRouteInterface](class.yaf-route-interface.html) - Клас YafRouteInterface
-    -   [YafRouteInterface::assemble](yaf-route-interface.assemble.html) - Збирає запит
-    -   [YafRouteInterface::route](yaf-route-interface.route.html) — Надсилання запиту
--   [YafRouteMap](class.yaf-route-map.html) - Клас YafRouteMap
-    -   [YafRouteMap::assemble](yaf-route-map.assemble.html) - Збирає URL
-    -   [YafRouteMap::construct](yaf-route-map.construct.html) - Призначення construct
-    -   [YafRouteMap::route](yaf-route-map.route.html) - Призначення route
--   [YafRouteRegex](class.yaf-route-regex.html) - Клас YafRouteRegex
-    -   [YafRouteRegex::assemble](yaf-route-regex.assemble.html) — Сформувати URL-адресу
-    -   [YafRouteRegex::construct](yaf-route-regex.construct.html) - Конструктор класу YafRouteRegex
-    -   [YafRouteRegex::route](yaf-route-regex.route.html) - Мета маршруту
--   [YafRouteRewrite](class.yaf-route-rewrite.html) - Клас YafRouteRewrite
-    -   [YafRouteRewrite::assemble](yaf-route-rewrite.assemble.html) - Збирає URL
-    -   [YafRouteRewrite::construct](yaf-route-rewrite.construct.html) - Конструктор класу YafRouteRewrite
-    -   [YafRouteRewrite::route](yaf-route-rewrite.route.html) - Призначення route
--   [YafRouter](class.yaf-router.html) - Клас YafRouter
-    -   [YafRouter::addConfig](yaf-router.addconfig.html) — Додає настроєні маршрути до маршрутизатора
-    -   [YafRouter::addRoute](yaf-router.addroute.html) — Додає новий маршрут до маршрутизатора
-    -   [YafRouter::construct](yaf-router.construct.html) - Конструктор класу YafRouter
-    -   [YafRouter::getCurrentRoute](yaf-router.getcurrentroute.html) — Отримує ім'я діючого маршруту
-    -   [YafRouter::getRoute](yaf-router.getroute.html) — Отримує маршрут на ім'я
-    -   [YafRouter::getRoutes](yaf-router.getroutes.html) — Отримує зареєстровані маршрути
-    -   [YafRouter::route](yaf-router.route.html) - Призначення route
--   [YafRouteSimple](class.yaf-route-simple.html) - Клас YafRouteSimple
-    -   [YafRouteSimple::assemble](yaf-route-simple.assemble.html) - Збирає URL
-    -   [YafRouteSimple::construct](yaf-route-simple.construct.html) - Конструктор класу YafRouteSimple
-    -   [YafRouteSimple::route](yaf-route-simple.route.html) — Надсилає запит
--   [YafRouteStatic](class.yaf-route-static.html) - Клас YafRouteStatic
-    -   [YafRouteStatic::assemble](yaf-route-static.assemble.html) - Збирає URL
-    -   [YafRouteStatic::match](yaf-route-static.match.html) - Призначення match
-    -   [YafRouteStatic::route](yaf-route-static.route.html) — Надсилає запит
--   [YafRouteSupervar](class.yaf-route-supervar.html) - Клас YafRouteSupervar
-    -   [YafRouteSupervar::assemble](yaf-route-supervar.assemble.html) - Збирає URL
-    -   [YafRouteSupervar::construct](yaf-route-supervar.construct.html) - Призначення construct
-    -   [YafRouteSupervar::route](yaf-route-supervar.route.html) - Призначення route
--   [YafSession](class.yaf-session.html) - Клас YafSession
-    -   [YafSession::construct](yaf-session.construct.html) - Конструктор класу YafSession
-    -   [YafSession::count](yaf-session.count.html) - Призначення count
-    -   [YafSession::current](yaf-session.current.html) - Призначення current
-    -   [YafSession::del](yaf-session.del.html) - Призначення del
-    -   [YafSession::get](yaf-session.get.html) - Призначення get
-    -   [YafSession::getInstance](yaf-session.getinstance.html) — Призначення getInstance
-    -   [YafSession::has](yaf-session.has.html) - Призначення has
-    -   [YafSession::isset](yaf-session.isset.html) - Призначення isset
-    -   [YafSession::key](yaf-session.key.html) - Призначення key
-    -   [YafSession::next](yaf-session.next.html) - Призначення next
-    -   [YafSession::offsetExists](yaf-session.offsetexists.html) — Призначення offsetExists
-    -   [YafSession::offsetGet](yaf-session.offsetget.html) - Призначення offsetGet
-    -   [YafSession::offsetSet](yaf-session.offsetset.html) - Призначення offsetSet
-    -   [YafSession::offsetUnset](yaf-session.offsetunset.html) - Призначення offsetUnset
-    -   [YafSession::rewind](yaf-session.rewind.html) - Призначення rewind
-    -   [YafSession::set](yaf-session.set.html) - Призначення set
-    -   [YafSession::start](yaf-session.start.html) - Призначення start
-    -   [YafSession::unset](yaf-session.unset.html) - Призначення unset
-    -   [YafSession::valid](yaf-session.valid.html) - Призначення valid
--   [YafException](class.yaf-exception.html) - Клас YafException
-    -   [YafException::construct](yaf-exception.construct.html) - Конструктор класу YafException
-    -   [YafException::getPrevious](yaf-exception.getprevious.html) — Отримати попередній виняток
--   [YafExceptionTypeError](class.yaf-exception-typeerror.html) - Клас YafExceptionTypeError
--   [YafExceptionStartupError](class.yaf-exception-startuperror.html) - Клас YafExceptionStartupError
--   [YafExceptionDispatchFailed](class.yaf-exception-dispatchfailed.html) - Клас YafExceptionDispatchFailed
--   [YafExceptionRouterFailed](class.yaf-exception-routerfailed.html) - Клас YafExceptionRouterFailed
--   [YafExceptionLoadFailed](class.yaf-exception-loadfailed.html) - Клас YafExceptionLoadFailed
--   [YafExceptionLoadFailedModule](class.yaf-exception-loadfailed-module.html) - Клас YafExceptionLoadFailedModule
--   [YafExceptionLoadFailedController](class.yaf-exception-loadfailed-controller.html) - Клас YafExceptionLoadFailedController
--   [YafExceptionLoadFailedAction](class.yaf-exception-loadfailed-action.html) - Клас YafExceptionLoadFailedAction
--   [YafExceptionLoadFailedView](class.yaf-exception-loadfailed-view.html) - Клас YafExceptionLoadFailedView
+-   [YafApplication](class.yaf-application.md) - Клас YafApplication
+    -   [YafApplication::app](yaf-application.app.md) — Вийняти екземпляр програми
+    -   [YafApplication::bootstrap](yaf-application.bootstrap.md) - Викликати bootstrap
+    -   [YafApplication::clearLastError](yaf-application.clearlasterror.md) — Очищення інформації з останньої помилки
+    -   [YafApplication::construct](yaf-application.construct.md) - Конструктор класу YafApplication
+    -   [YafApplication::destruct](yaf-application.destruct.md) - Деструктор YafApplication
+    -   [YafApplication::environ](yaf-application.environ.md) — Отримати значення оточення
+    -   [YafApplication::execute](yaf-application.execute.md) - Запустити callback-функцію
+    -   [YafApplication::getAppDirectory](yaf-application.getappdirectory.md) — Отримати директорію програми
+    -   [YafApplication::getConfig](yaf-application.getconfig.md) — Отримати екземпляр класу конфігурації
+    -   [YafApplication::getDispatcher](yaf-application.getdispatcher.md) - Отримати екземпляр класу YafDispatcher
+    -   [YafApplication::getLastErrorMsg](yaf-application.getlasterrormsg.md) — Отримати останнє повідомлення про помилку
+    -   [YafApplication::getLastErrorNo](yaf-application.getlasterrorno.md) — Отримати код останньої помилки
+    -   [YafApplication::getModules](yaf-application.getmodules.md) — Отримати імена заявлених модулів
+    -   [YafApplication::run](yaf-application.run.md) - Запустити YafApplication
+    -   [YafApplication::setAppDirectory](yaf-application.setappdirectory.md) — Змінити директорію програми
+-   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.md) - Клас YafBootstrapAbstract
+-   [YafDispatcher](class.yaf-dispatcher.md) - Клас YafDispatcher
+    -   [YafDispatcher::autoRender](yaf-dispatcher.autorender.md) — Включає/вимикає авторендеринг
+    -   [YafDispatcher::catchException](yaf-dispatcher.catchexception.md) — Включає/вимикає перехоплення винятків
+    -   [YafDispatcher::construct](yaf-dispatcher.construct.md) - Конструктор класу YafDispatcher
+    -   [YafDispatcher::disableView](yaf-dispatcher.disableview.md) — Вимикає механізм перегляду
+    -   [YafDispatcher::dispatch](yaf-dispatcher.dispatch.md) — Надсилає запит
+    -   [YafDispatcher::enableView](yaf-dispatcher.enableview.md) - Включає механізм перегляду
+    -   [YafDispatcher::flushInstantly](yaf-dispatcher.flushinstantly.md) — Вмикає/вимикає миттєве очищення
+    -   [YafDispatcher::getApplication](yaf-dispatcher.getapplication.md) — Отримує програму
+    -   [YafDispatcher::getDefaultAction](yaf-dispatcher.getdefaultaction.md) — Отримує ім'я стандартної дії
+    -   [YafDispatcher::getDefaultController](yaf-dispatcher.getdefaultcontroller.md) — Отримує ім'я контролера за умовчанням
+    -   [YafDispatcher::getDefaultModule](yaf-dispatcher.getdefaultmodule.md) — Отримує ім'я модуля за замовчуванням
+    -   [YafDispatcher::getInstance](yaf-dispatcher.getinstance.md) — Отримує екземпляр диспетчера
+    -   [YafDispatcher::getRequest](yaf-dispatcher.getrequest.md) — Отримує екземпляр запиту
+    -   [YafDispatcher::getRouter](yaf-dispatcher.getrouter.md) — Отримує екземпляр маршрутизатора
+    -   [YafDispatcher::initView](yaf-dispatcher.initview.md) — Ініціалізує виставу та повертає її
+    -   [YafDispatcher::registerPlugin](yaf-dispatcher.registerplugin.md) - Реєструє плагін
+    -   [YafDispatcher::returnResponse](yaf-dispatcher.returnresponse.md) — Призначення returnResponse
+    -   [YafDispatcher::setDefaultAction](yaf-dispatcher.setdefaultaction.md) — Змінює ім'я стандартної дії
+    -   [YafDispatcher::setDefaultController](yaf-dispatcher.setdefaultcontroller.md) - Змінює ім'я контролера за умовчанням
+    -   [YafDispatcher::setDefaultModule](yaf-dispatcher.setdefaultmodule.md) — Змінює стандартне ім'я модуля
+    -   [YafDispatcher::setErrorHandler](yaf-dispatcher.seterrorhandler.md) - Встановлює обробник помилок
+    -   [YafDispatcher::setRequest](yaf-dispatcher.setrequest.md) - Призначення setRequest
+    -   [YafDispatcher::setView](yaf-dispatcher.setview.md) — Встановлює користувальницький механізм відображення
+    -   [YafDispatcher::throwException](yaf-dispatcher.throwexception.md) — Вмикає/вимикає викидання винятків
+-   [YafConfigAbstract](class.yaf-config-abstract.md) - Клас YafConfigAbstract
+    -   [YafConfigAbstract::get](yaf-config-abstract.get.md) - Геттер
+    -   [YafConfigAbstract::readonly](yaf-config-abstract.readonly.md) — Знаходить конфігурацію лише для читання
+    -   [YafConfigAbstract::set](yaf-config-abstract.set.md) - Сеттер
+    -   [YafConfigAbstract::toArray](yaf-config-abstract.toarray.md) - Приведення до масиву
+-   [YafConfigIni](class.yaf-config-ini.md) - Клас YafConfigIni
+    -   [YafConfigIni::construct](yaf-config-ini.construct.md) - Конструктор класу YafConfigIni
+    -   [YafConfigIni::count](yaf-config-ini.count.md) — Підраховує всі елементи в YafConfig.ini
+    -   [YafConfigIni::current](yaf-config-ini.current.md) — Отримує поточне значення
+    -   [YafConfigIni::get](yaf-config-ini.get.md) — Отримує елемент
+    -   [YafConfigIni::isset](yaf-config-ini.isset.md) - Визначає, чи існує ключ
+    -   [YafConfigIni::key](yaf-config-ini.key.md) — Отримує ключ поточного елемента
+    -   [YafConfigIni::next](yaf-config-ini.next.md) - Просуває внутрішній покажчик
+    -   [YafConfigIni::offsetExists](yaf-config-ini.offsetexists.md) — Призначення offsetExists
+    -   [YafConfigIni::offsetGet](yaf-config-ini.offsetget.md) - Призначення offsetGet
+    -   [YafConfigIni::offsetSet](yaf-config-ini.offsetset.md) - Призначення offsetSet
+    -   [YafConfigIni::offsetUnset](yaf-config-ini.offsetunset.md) - Призначення offsetUnset
+    -   [YafConfigIni::readonly](yaf-config-ini.readonly.md) - Призначення readonly
+    -   [YafConfigIni::rewind](yaf-config-ini.rewind.md) - Призначення rewind
+    -   [YafConfigIni::set](yaf-config-ini.set.md) - Призначення set
+    -   [YafConfigIni::toArray](yaf-config-ini.toarray.md) — Повертає конфігурацію як масив PHP
+    -   [YafConfigIni::valid](yaf-config-ini.valid.md) - Призначення valid
+-   [YafConfigSimple](class.yaf-config-simple.md) - Клас YafConfigSimple
+    -   [YafConfigSimple::construct](yaf-config-simple.construct.md) - Призначення construct
+    -   [YafConfigSimple::count](yaf-config-simple.count.md) - Призначення count
+    -   [YafConfigSimple::current](yaf-config-simple.current.md) - Призначення current
+    -   [YafConfigSimple::get](yaf-config-simple.get.md) - Призначення get
+    -   [YafConfigSimple::isset](yaf-config-simple.isset.md) - Призначення isset
+    -   [YafConfigSimple::key](yaf-config-simple.key.md) - Призначення key
+    -   [YafConfigSimple::next](yaf-config-simple.next.md) - Призначення next
+    -   [YafConfigSimple::offsetExists](yaf-config-simple.offsetexists.md) — Призначення offsetExists
+    -   [YafConfigSimple::offsetGet](yaf-config-simple.offsetget.md) - Призначення offsetGet
+    -   [YafConfigSimple::offsetSet](yaf-config-simple.offsetset.md) - Призначення offsetSet
+    -   [YafConfigSimple::offsetUnset](yaf-config-simple.offsetunset.md) - Призначення offsetUnset
+    -   [YafConfigSimple::readonly](yaf-config-simple.readonly.md) - Призначення readonly
+    -   [YafConfigSimple::rewind](yaf-config-simple.rewind.md) - Призначення rewind
+    -   [YafConfigSimple::set](yaf-config-simple.set.md) - Призначення set
+    -   [YafConfigSimple::toArray](yaf-config-simple.toarray.md) - Повертає масив PHP
+    -   [YafConfigSimple::valid](yaf-config-simple.valid.md) - Призначення valid
+-   [YafControllerAbstract](class.yaf-controller-abstract.md) - Клас YafControllerAbstract
+    -   [YafControllerAbstract::construct](yaf-controller-abstract.construct.md) - Конструктор класу YafControllerAbstract
+    -   [YafControllerAbstract::display](yaf-controller-abstract.display.md) - Призначення display
+    -   [YafControllerAbstract::forward](yaf-controller-abstract.forward.md) — Переходить до іншої дії
+    -   [YafControllerAbstract::getInvokeArg](yaf-controller-abstract.getinvokearg.md) — Призначення getInvokeArg
+    -   [YafControllerAbstract::getInvokeArgs](yaf-controller-abstract.getinvokeargs.md) — Призначення getInvokeArgs
+    -   [YafControllerAbstract::getModuleName](yaf-controller-abstract.getmodulename.md) — Отримує ім'я модуля
+    -   [YafControllerAbstract::getName](yaf-controller-abstract.getname.md) — Отримує своє ім'я
+    -   [YafControllerAbstract::getRequest](yaf-controller-abstract.getrequest.md) — Отримує поточний об'єкт запиту
+    -   [YafControllerAbstract::getResponse](yaf-controller-abstract.getresponse.md) — Отримує поточний об'єкт відповіді
+    -   [YafControllerAbstract::getView](yaf-controller-abstract.getview.md) — Отримує двигун відображення
+    -   [YafControllerAbstract::getViewpath](yaf-controller-abstract.getviewpath.md) - Призначення getViewpath
+    -   [YafControllerAbstract::init](yaf-controller-abstract.init.md) - Ініціалізатор контролера
+    -   [YafControllerAbstract::initView](yaf-controller-abstract.initview.md) - Призначення initView
+    -   [YafControllerAbstract::redirect](yaf-controller-abstract.redirect.md) — Перенаправляє на URL
+    -   [YafControllerAbstract::render](yaf-controller-abstract.render.md) — Відображає шаблон представлення
+    -   [YafControllerAbstract::setViewpath](yaf-controller-abstract.setviewpath.md) - Призначення setViewpath
+-   [YafActionAbstract](class.yaf-action-abstract.md) - Клас YafActionAbstract
+    -   [YafActionAbstract::execute](yaf-action-abstract.execute.md) - Точка входу для Action-класів
+    -   [YafActionAbstract::getController](yaf-action-abstract.getcontroller.md) - Отримати об'єкт контролер
+    -   [YafActionAbstract::getControllerName](yaf-controller-abstract.getcontrollername.md) — Отримує ім'я контролера
+-   [YafViewInterface](class.yaf-view-interface.md) - Клас YafViewInterface
+    -   [YafViewInterface::assign](yaf-view-interface.assign.md) — Призначає значення для движка відображення
+    -   [YafViewInterface::display](yaf-view-interface.display.md) — Малює та виводить шаблон
+    -   [YafViewInterface::getScriptPath](yaf-view-interface.getscriptpath.md) - Призначення getScriptPath
+    -   [YafViewInterface::render](yaf-view-interface.render.md) — Малює шаблон
+    -   [YafViewInterface::setScriptPath](yaf-view-interface.setscriptpath.md) - Призначення setScriptPath
+-   [YafViewSimple](class.yaf-view-simple.md) - Клас YafViewSimple
+    -   [YafViewSimple::assign](yaf-view-simple.assign.md) - Призначити значення
+    -   [YafViewSimple::assignRef](yaf-view-simple.assignref.md) — Призначення assignRef
+    -   [YafViewSimple::clear](yaf-view-simple.clear.md) - Скидає призначені значення
+    -   [YafViewSimple::construct](yaf-view-simple.construct.md) - Конструктор класу YafViewSimple
+    -   [YafViewSimple::display](yaf-view-simple.display.md) — Малює та відображає
+    -   [YafViewSimple::eval](yaf-view-simple.eval.md) — Малює шаблон
+    -   [YafViewSimple::get](yaf-view-simple.get.md) — Отримує призначену змінну
+    -   [YafViewSimple::getScriptPath](yaf-view-simple.getscriptpath.md) — Отримує каталог шаблонів
+    -   [YafViewSimple::isset](yaf-view-simple.isset.md) - Призначення isset
+    -   [YafViewSimple::render](yaf-view-simple.render.md) — Малює шаблон
+    -   [YafViewSimple::set](yaf-view-simple.set.md) - Встановлює значення для двигуна
+    -   [YafViewSimple::setScriptPath](yaf-view-simple.setscriptpath.md) — Встановлює каталог шаблонів
+-   [YafLoader](class.yaf-loader.md) - Клас YafLoader
+    -   [YafLoader::autoload](yaf-loader.autoload.md) - Призначення autoload
+    -   [YafLoader::clearLocalNamespace](yaf-loader.clearlocalnamespace.md) — Призначення clearLocalNamespace
+    -   [YafLoader::construct](yaf-loader.construct.md) - Призначення construct
+    -   [YafLoader::getInstance](yaf-loader.getinstance.md) — Призначення getInstance
+    -   [YafLoader::getLibraryPath](yaf-loader.getlibrarypath.md) — Отримує шлях до бібліотеки
+    -   [YafLoader::getLocalNamespace](yaf-loader.getlocalnamespace.md) — Призначення getLocalNamespace
+    -   [YafLoader::getNamespacePath](yaf-loader.getnamespacepath.md) — Отримує шлях зареєстрованого простору імен
+    -   [YafLoader::getLocalNamespace](yaf-loader.getnamespaces.md) — Отримує всю інформацію про зареєстровані простори імен
+    -   [YafLoader::import](yaf-loader.import.md) - Призначення import
+    -   [YafLoader::isLocalName](yaf-loader.islocalname.md) — Призначення isLocalName
+    -   [YafLoader::registerLocalNamespace](yaf-loader.registerlocalnamespace.md) - Реєструє префікс локального класу
+    -   [YafLoader::registerNamespace](yaf-loader.registernamespace.md) — Реєструє простір імен шляхом пошуку
+    -   [YafLoader::setLibraryPath](yaf-loader.setlibrarypath.md) — Змінює шлях до бібліотеки
+-   [YafPluginAbstract](class.yaf-plugin-abstract.md) - Клас YafPluginAbstract
+    -   [YafPluginAbstract::dispatchLoopShutdown](yaf-plugin-abstract.dispatchloopshutdown.md) — Призначення dispatchLoopShutdown
+    -   [YafPluginAbstract::dispatchLoopStartup](yaf-plugin-abstract.dispatchloopstartup.md) - Хук перед відправкою циклу
+    -   [YafPluginAbstract::postDispatch](yaf-plugin-abstract.postdispatch.md) - Призначення postDispatch
+    -   [YafPluginAbstract::preDispatch](yaf-plugin-abstract.predispatch.md) - Призначення preDispatch
+    -   [YafPluginAbstract::preResponse](yaf-plugin-abstract.preresponse.md) - Призначення preResponse
+    -   [YafPluginAbstract::routerShutdown](yaf-plugin-abstract.routershutdown.md) - Призначення routerShutdown
+    -   [YafPluginAbstract::routerStartup](yaf-plugin-abstract.routerstartup.md) - Перехоплювач RouterStartup
+-   [YafRegistry](class.yaf-registry.md) - Клас YafRegistry
+    -   [YafRegistry::construct](yaf-registry.construct.md) - YafRegistry реалізує шаблон проектування "Одиночка"
+    -   [YafRegistry::del](yaf-registry.del.md) — Видаляє елемент із реєстру
+    -   [YafRegistry::get](yaf-registry.get.md) — Отримує елемент із реєстру
+    -   [YafRegistry::has](yaf-registry.has.md) — Перевіряє, чи існує елемент
+    -   [YafRegistry::set](yaf-registry.set.md) — Додає елемент до реєстру
+-   [YafRequestAbstract](class.yaf-request-abstract.md) - Клас YafRequestAbstract
+    -   [YafRequestAbstract::clearParams](yaf-request-abstract.clearparams.md) — Видаляє всі параметри
+    -   [YafRequestAbstract::getActionName](yaf-request-abstract.getactionname.md) — Призначення getActionName
+    -   [YafRequestAbstract::getBaseUri](yaf-request-abstract.getbaseuri.md) - Призначення getBaseUri
+    -   [YafRequestAbstract::getControllerName](yaf-request-abstract.getcontrollername.md) — Призначення getControllerName
+    -   [YafRequestAbstract::getEnv](yaf-request-abstract.getenv.md) — Отримує змінну ENV
+    -   [YafRequestAbstract::getException](yaf-request-abstract.getexception.md) - Призначення getException
+    -   [YafRequestAbstract::getLanguage](yaf-request-abstract.getlanguage.md) — Отримує кращу мову клієнта
+    -   [YafRequestAbstract::getMethod](yaf-request-abstract.getmethod.md) — Отримує метод запиту
+    -   [YafRequestAbstract::getModuleName](yaf-request-abstract.getmodulename.md) — Призначення getModuleName
+    -   [YafRequestAbstract::getParam](yaf-request-abstract.getparam.md) — Отримує параметр дзвінка
+    -   [YafRequestAbstract::getParams](yaf-request-abstract.getparams.md) — Отримує всі параметри дзвінка
+    -   [YafRequestAbstract::getRequestUri](yaf-request-abstract.getrequesturi.md) - Призначення getRequestUri
+    -   [YafRequestAbstract::getServer](yaf-request-abstract.getserver.md) — Отримує змінну SERVER
+    -   [YafRequestAbstract::isCli](yaf-request-abstract.iscli.md) — Визначає, чи є запит CLI-запитом
+    -   [YafRequestAbstract::isDispatched](yaf-request-abstract.isdispatched.md) — Визначає, чи надіслано запит.
+    -   [YafRequestAbstract::isGet](yaf-request-abstract.isget.md) - Визначає, чи є запит GET-запитом
+    -   [YafRequestAbstract::isHead](yaf-request-abstract.ishead.md) - Визначає, чи є запит HEAD-запитом
+    -   [YafRequestAbstract::isOptions](yaf-request-abstract.isoptions.md) — Визначає, чи є запит OPTIONS-запитом
+    -   [YafRequestAbstract::isPost](yaf-request-abstract.ispost.md) — Визначає, чи запит POST-запитом.
+    -   [YafRequestAbstract::isPut](yaf-request-abstract.isput.md) - Визначає, чи є запит PUT-запитом
+    -   [YafRequestAbstract::isRouted](yaf-request-abstract.isrouted.md) — Визначає, чи запит надіслано
+    -   [YafRequestAbstract::isXmlHttpRequest](yaf-request-abstract.isxmlhttprequest.md) - Визначає, чи є запит AJAX-запитом
+    -   [YafRequestAbstract::setActionName](yaf-request-abstract.setactionname.md) - Встановлює ім'я дії
+    -   [YafRequestAbstract::setBaseUri](yaf-request-abstract.setbaseuri.md) - Встановлює базовий URI
+    -   [YafRequestAbstract::setControllerName](yaf-request-abstract.setcontrollername.md) - Встановлює ім'я контролера
+    -   [YafRequestAbstract::setDispatched](yaf-request-abstract.setdispatched.md) - Призначення setDispatched
+    -   [YafRequestAbstract::setModuleName](yaf-request-abstract.setmodulename.md) - Встановлює ім'я модуля
+    -   [YafRequestAbstract::setParam](yaf-request-abstract.setparam.md) — Встановлює дзвінок для запиту
+    -   [YafRequestAbstract::setRequestUri](yaf-request-abstract.setrequesturi.md) - Призначення setRequestUri
+    -   [YafRequestAbstract::setRouted](yaf-request-abstract.setrouted.md) — Призначення setRouted
+-   [YafRequestHttp](class.yaf-request-http.md) - Клас YafRequestHttp
+    -   [YafRequestHttp::construct](yaf-request-http.construct.md) - Конструктор класу YafRequestHttp
+    -   [YafRequestHttp::get](yaf-request-http.get.md) — Отримує змінну від клієнта
+    -   [YafRequestHttp::getCookie](yaf-request-http.getcookie.md) — Отримує змінну Cookie
+    -   [YafRequestHttp::getFiles](yaf-request-http.getfiles.md) - Призначення getFiles
+    -   [YafRequestHttp::getPost](yaf-request-http.getpost.md) — Отримує змінну POST
+    -   [YafRequestHttp::getQuery](yaf-request-http.getquery.md) — Отримує параметр запиту
+    -   [YafRequestHttp::getRaw](yaf-request-http.getraw.md) — Отримує необроблене тіло запиту
+    -   [YafRequestHttp::getRequest](yaf-request-http.getrequest.md) - Призначення getRequest
+    -   [YafRequestHttp::isXmlHttpRequest](yaf-request-http.isxmlhttprequest.md) — Визначає, чи є запит Ajax-запитом
+-   [YafRequestSimple](class.yaf-request-simple.md) - Клас YafRequestSimple
+    -   [YafRequestSimple::construct](yaf-request-simple.construct.md) - Конструктор класу YafRequestSimple
+    -   [YafRequestSimple::get](yaf-request-simple.get.md) - Призначення get
+    -   [YafRequestSimple::getCookie](yaf-request-simple.getcookie.md) - Призначення getCookie
+    -   [YafRequestSimple::getFiles](yaf-request-simple.getfiles.md) - Призначення getFiles
+    -   [YafRequestSimple::getPost](yaf-request-simple.getpost.md) - Призначення getPost
+    -   [YafRequestSimple::getQuery](yaf-request-simple.getquery.md) - Призначення getQuery
+    -   [YafRequestSimple::getRequest](yaf-request-simple.getrequest.md) - Призначення getRequest
+    -   [YafRequestSimple::isXmlHttpRequest](yaf-request-simple.isxmlhttprequest.md) - Визначає, чи є запит AJAX-запитом
+-   [YafResponseAbstract](class.yaf-response-abstract.md) - Клас YafResponseAbstract
+    -   [YafResponseAbstract::appendBody](yaf-response-abstract.appendbody.md) - Додає вміст до тіла відповіді
+    -   [YafResponseAbstract::clearBody](yaf-response-abstract.clearbody.md) — Скидає все тіло відповіді, що існує.
+    -   [YafResponseAbstract::clearHeaders](yaf-response-abstract.clearheaders.md) - Скидає всі встановлені заголовки
+    -   [YafResponseAbstract::construct](yaf-response-abstract.construct.md) - Конструктор класу YafResponseAbstract
+    -   [YafResponseAbstract::destruct](yaf-response-abstract.destruct.md) - Деструктор класу YafResponseAbstract
+    -   [YafResponseAbstract::getBody](yaf-response-abstract.getbody.md) — Отримує наявний вміст
+    -   [YafResponseAbstract::getHeader](yaf-response-abstract.getheader.md) - Призначення getHeader
+    -   [YafResponseAbstract::prependBody](yaf-response-abstract.prependbody.md) - Призначення prependBody
+    -   [YafResponseAbstract::response](yaf-response-abstract.response.md) - Відправляє відповідь
+    -   [YafResponseAbstract::setAllHeaders](yaf-response-abstract.setallheaders.md) — Призначення setAllHeaders
+    -   [YafResponseAbstract::setBody](yaf-response-abstract.setbody.md) - Встановлює вміст відповіді
+    -   [YafResponseAbstract::setHeader](yaf-response-abstract.setheader.md) - Встановлює заголовок відповіді
+    -   [YafResponseAbstract::setRedirect](yaf-response-abstract.setredirect.md) - Призначення setRedirect
+    -   [YafResponseAbstract::toString](yaf-response-abstract.tostring.md) — Отримує все тіло у вигляді рядка
+-   [YafRouteInterface](class.yaf-route-interface.md) - Клас YafRouteInterface
+    -   [YafRouteInterface::assemble](yaf-route-interface.assemble.md) - Збирає запит
+    -   [YafRouteInterface::route](yaf-route-interface.route.md) — Надсилання запиту
+-   [YafRouteMap](class.yaf-route-map.md) - Клас YafRouteMap
+    -   [YafRouteMap::assemble](yaf-route-map.assemble.md) - Збирає URL
+    -   [YafRouteMap::construct](yaf-route-map.construct.md) - Призначення construct
+    -   [YafRouteMap::route](yaf-route-map.route.md) - Призначення route
+-   [YafRouteRegex](class.yaf-route-regex.md) - Клас YafRouteRegex
+    -   [YafRouteRegex::assemble](yaf-route-regex.assemble.md) — Сформувати URL-адресу
+    -   [YafRouteRegex::construct](yaf-route-regex.construct.md) - Конструктор класу YafRouteRegex
+    -   [YafRouteRegex::route](yaf-route-regex.route.md) - Мета маршруту
+-   [YafRouteRewrite](class.yaf-route-rewrite.md) - Клас YafRouteRewrite
+    -   [YafRouteRewrite::assemble](yaf-route-rewrite.assemble.md) - Збирає URL
+    -   [YafRouteRewrite::construct](yaf-route-rewrite.construct.md) - Конструктор класу YafRouteRewrite
+    -   [YafRouteRewrite::route](yaf-route-rewrite.route.md) - Призначення route
+-   [YafRouter](class.yaf-router.md) - Клас YafRouter
+    -   [YafRouter::addConfig](yaf-router.addconfig.md) — Додає настроєні маршрути до маршрутизатора
+    -   [YafRouter::addRoute](yaf-router.addroute.md) — Додає новий маршрут до маршрутизатора
+    -   [YafRouter::construct](yaf-router.construct.md) - Конструктор класу YafRouter
+    -   [YafRouter::getCurrentRoute](yaf-router.getcurrentroute.md) — Отримує ім'я діючого маршруту
+    -   [YafRouter::getRoute](yaf-router.getroute.md) — Отримує маршрут на ім'я
+    -   [YafRouter::getRoutes](yaf-router.getroutes.md) — Отримує зареєстровані маршрути
+    -   [YafRouter::route](yaf-router.route.md) - Призначення route
+-   [YafRouteSimple](class.yaf-route-simple.md) - Клас YafRouteSimple
+    -   [YafRouteSimple::assemble](yaf-route-simple.assemble.md) - Збирає URL
+    -   [YafRouteSimple::construct](yaf-route-simple.construct.md) - Конструктор класу YafRouteSimple
+    -   [YafRouteSimple::route](yaf-route-simple.route.md) — Надсилає запит
+-   [YafRouteStatic](class.yaf-route-static.md) - Клас YafRouteStatic
+    -   [YafRouteStatic::assemble](yaf-route-static.assemble.md) - Збирає URL
+    -   [YafRouteStatic::match](yaf-route-static.match.md) - Призначення match
+    -   [YafRouteStatic::route](yaf-route-static.route.md) — Надсилає запит
+-   [YafRouteSupervar](class.yaf-route-supervar.md) - Клас YafRouteSupervar
+    -   [YafRouteSupervar::assemble](yaf-route-supervar.assemble.md) - Збирає URL
+    -   [YafRouteSupervar::construct](yaf-route-supervar.construct.md) - Призначення construct
+    -   [YafRouteSupervar::route](yaf-route-supervar.route.md) - Призначення route
+-   [YafSession](class.yaf-session.md) - Клас YafSession
+    -   [YafSession::construct](yaf-session.construct.md) - Конструктор класу YafSession
+    -   [YafSession::count](yaf-session.count.md) - Призначення count
+    -   [YafSession::current](yaf-session.current.md) - Призначення current
+    -   [YafSession::del](yaf-session.del.md) - Призначення del
+    -   [YafSession::get](yaf-session.get.md) - Призначення get
+    -   [YafSession::getInstance](yaf-session.getinstance.md) — Призначення getInstance
+    -   [YafSession::has](yaf-session.has.md) - Призначення has
+    -   [YafSession::isset](yaf-session.isset.md) - Призначення isset
+    -   [YafSession::key](yaf-session.key.md) - Призначення key
+    -   [YafSession::next](yaf-session.next.md) - Призначення next
+    -   [YafSession::offsetExists](yaf-session.offsetexists.md) — Призначення offsetExists
+    -   [YafSession::offsetGet](yaf-session.offsetget.md) - Призначення offsetGet
+    -   [YafSession::offsetSet](yaf-session.offsetset.md) - Призначення offsetSet
+    -   [YafSession::offsetUnset](yaf-session.offsetunset.md) - Призначення offsetUnset
+    -   [YafSession::rewind](yaf-session.rewind.md) - Призначення rewind
+    -   [YafSession::set](yaf-session.set.md) - Призначення set
+    -   [YafSession::start](yaf-session.start.md) - Призначення start
+    -   [YafSession::unset](yaf-session.unset.md) - Призначення unset
+    -   [YafSession::valid](yaf-session.valid.md) - Призначення valid
+-   [YafException](class.yaf-exception.md) - Клас YafException
+    -   [YafException::construct](yaf-exception.construct.md) - Конструктор класу YafException
+    -   [YafException::getPrevious](yaf-exception.getprevious.md) — Отримати попередній виняток
+-   [YafExceptionTypeError](class.yaf-exception-typeerror.md) - Клас YafExceptionTypeError
+-   [YafExceptionStartupError](class.yaf-exception-startuperror.md) - Клас YafExceptionStartupError
+-   [YafExceptionDispatchFailed](class.yaf-exception-dispatchfailed.md) - Клас YafExceptionDispatchFailed
+-   [YafExceptionRouterFailed](class.yaf-exception-routerfailed.md) - Клас YafExceptionRouterFailed
+-   [YafExceptionLoadFailed](class.yaf-exception-loadfailed.md) - Клас YafExceptionLoadFailed
+-   [YafExceptionLoadFailedModule](class.yaf-exception-loadfailed-module.md) - Клас YafExceptionLoadFailedModule
+-   [YafExceptionLoadFailedController](class.yaf-exception-loadfailed-controller.md) - Клас YafExceptionLoadFailedController
+-   [YafExceptionLoadFailedAction](class.yaf-exception-loadfailed-action.md) - Клас YafExceptionLoadFailedAction
+-   [YafExceptionLoadFailedView](class.yaf-exception-loadfailed-view.md) - Клас YafExceptionLoadFailedView

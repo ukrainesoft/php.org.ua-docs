@@ -28,11 +28,11 @@ sodium_crypto_box_open(string $ciphertext, string $nonce, string $key_pair): str
 
 `nonce`
 
-Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [randombytes()](function.random-bytes.html)
+Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [randombytes()](function.random-bytes.md)
 
 `key_pair`
 
-Дивіться [sodiumcryptoboxkeypairfromsecretkeyandpublickey()](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.html). Повинна включати відкритий ключ відправника та секретний ключ одержувача.
+Дивіться [sodiumcryptoboxkeypairfromsecretkeyandpublickey()](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.md). Повинна включати відкритий ключ відправника та секретний ключ одержувача.
 
 ### Значення, що повертаються
 

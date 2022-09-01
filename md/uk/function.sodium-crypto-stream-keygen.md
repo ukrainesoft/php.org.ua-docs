@@ -18,7 +18,7 @@ sodiumcryptostreamkeygen - Генерує випадковий ключ sodiumcr
 sodium_crypto_stream_keygen(): string
 ```
 
-Створює ключ, який використовується в [sodiumcryptostream()](function.sodium-crypto-stream.html) і [sodiumcryptostreamxor()](function.sodium-crypto-stream-xor.html)
+Створює ключ, який використовується в [sodiumcryptostream()](function.sodium-crypto-stream.html) і [sodiumcryptostreamxor()](function.sodium-crypto-stream-xor.md)
 
 ### Список параметрів
 

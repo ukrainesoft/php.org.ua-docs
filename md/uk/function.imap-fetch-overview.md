@@ -24,7 +24,7 @@ imap_fetch_overview(IMAP\Connection $imap, string $sequence, int $flags = 0): ar
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `sequence`
 
@@ -62,7 +62,7 @@ imap_fetch_overview(IMAP\Connection $imap, string $sequence, int $flags = 0): ar
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -87,4 +87,4 @@ imap_close($mbox);
 
 ### Дивіться також
 
--   [imapfetchheader()](function.imap-fetchheader.html) - Отримати заголовок повідомлення
+-   [imapfetchheader()](function.imap-fetchheader.md) - Отримати заголовок повідомлення

@@ -24,14 +24,14 @@ final public MongoDB\BSON\Timestamp::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html)
+Повертає серіалізовану виставу [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONTimestamp::unserialize()](mongodb-bson-timestamp.unserialize.html) - Десеріалізує Timestamp
+-   [MongoDBBSONTimestamp::unserialize()](mongodb-bson-timestamp.unserialize.md) - Десеріалізує Timestamp
 -   [serialize()](function.serialize.md) - Генерує придатне для зберігання уявлення змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

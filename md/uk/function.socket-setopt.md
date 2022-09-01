@@ -10,8 +10,8 @@ title: socketsetopt
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-socketsetopt - Псевдонім [socketsetoption()](function.socket-set-option.html)
+socketsetopt - Псевдонім [socketsetoption()](function.socket-set-option.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [socketsetoption()](function.socket-set-option.html)
+Ця функція є псевдонімом: [socketsetoption()](function.socket-set-option.md)

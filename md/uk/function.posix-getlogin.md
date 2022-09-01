@@ -40,5 +40,5 @@ echo posix_getlogin(); //apache
 
 ### Дивіться також
 
--   [posixgetpwnam()](function.posix-getpwnam.html) - Повертає інформацію про користувача на його ім'я
+-   [posixgetpwnam()](function.posix-getpwnam.md) - Повертає інформацію про користувача на його ім'я
 -   POSIX керівництво GETLOGIN(3)

@@ -12,14 +12,14 @@ title: Перенаправлення функцій WinCache
 
 Перенаправлення функцій WinCache (доступно з WinCache 1.2.0, видалено з WinCache 1.3.7.0) може використовуватися для заміни вбудованих функцій їх еквівалентами, оптимізованими для роботи з файловим кешем. Модуль WinCache включає оптимізовані під Windows реалізації функцій роботи з файлами, що може підвищити продуктивність PHP-програм у випадках роботи з файлами та мережевими папками. Оптимізовані версії представлені для таких функцій:
 
--   [fileexists](function.file-exists.html)
--   [filegetcontents](function.file-get-contents.html)
--   [readfile](function.readfile.html)
--   [ісreadable](function.is-readable.html)
--   [ісwritable](function.is-writable.html)
--   [ісdir](function.is-dir.html)
--   [realpath](function.realpath.html)
--   [filesize](function.filesize.html)
+-   [fileexists](function.file-exists.md)
+-   [filegetcontents](function.file-get-contents.md)
+-   [readfile](function.readfile.md)
+-   [ісreadable](function.is-readable.md)
+-   [ісwritable](function.is-writable.md)
+-   [ісdir](function.is-dir.md)
+-   [realpath](function.realpath.md)
+-   [filesize](function.filesize.md)
 
 Для налаштування використання перенаправлення WinCache використовується файл reroute.ini, який включений в інсталяційний пакет. Скопіюйте цей файл на ту ж директорію, де знаходиться php.ini. Після цього додайте в php.ini налаштування wincache.rerouteini і вкажіть абсолютний або відносний шлях reroute.ini.
 
@@ -33,7 +33,7 @@ wincache.rerouteini = C:PHPreroute.ini
 
 `<Имя функции PHP>:[<количество параметров функции>]=<имя функции wincache>`
 
-Приклад файлу наведено нижче. У цьому прикладі виклик PHP-функції [filegetcontents()](function.file-get-contents.html) підміняється викликом функції **wincachefilegetcontents()** тільки якщо кількість переданих параметрів менша або дорівнює 2. Вказівка ​​кількості параметрів корисна, якщо підмінювальна функція реалізує обробку не всіх вихідних параметрів.
+Приклад файлу наведено нижче. У цьому прикладі виклик PHP-функції [filegetcontents()](function.file-get-contents.md) підміняється викликом функції **wincachefilegetcontents()** тільки якщо кількість переданих параметрів менша або дорівнює 2. Вказівка ​​кількості параметрів корисна, якщо підмінювальна функція реалізує обробку не всіх вихідних параметрів.
 
 **Приклад #2 Вміст файлу Reroute.ini**
 

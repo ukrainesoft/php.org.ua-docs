@@ -41,4 +41,4 @@ jewishtojd(int $month, int $day, int $year): int
 ### Дивіться також
 
 -   [jdtojewish()](function.jdtojewish.md) - Переказує кількість днів з юліанського календаря на дату за єврейським календарем
--   [calтоjd()](function.cal-to-jd.html) - Перетворює задану дату на юліанську
+-   [calтоjd()](function.cal-to-jd.md) - Перетворює задану дату на юліанську

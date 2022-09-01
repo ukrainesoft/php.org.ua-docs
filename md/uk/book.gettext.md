@@ -16,7 +16,7 @@ title: Gettext
     -   [Типи ресурсів](gettext.resources.md)
 -   [Обумовлені константи](gettext.constants.md)
 -   [Функции gettext](ref.gettext.md)
-    -   [bindtextdomaincodeset](function.bind-textdomain-codeset.html) — Встановлює або отримує кодування, де повертатимуться повідомлення з каталогу повідомлень домену
+    -   [bindtextdomaincodeset](function.bind-textdomain-codeset.md) — Встановлює або отримує кодування, де повертатимуться повідомлення з каталогу повідомлень домену
     -   [bindtextdomain](function.bindtextdomain.md) — Встановлює або отримує шлях для домену
     -   [dcgettext](function.dcgettext.md) — Перевизначає одне повідомлення в домені
     -   [dcngettext](function.dcngettext.md) — Версія dcgettext для множини

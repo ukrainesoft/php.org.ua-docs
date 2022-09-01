@@ -20,17 +20,17 @@ pg_fetch_array(PgSql\Result $result, ?int $row = null, int $mode = PGSQL_BOTH): 
 
 **пгfetcharray()** повертає масив, що відповідає обраному рядку (запису).
 
-**пгfetcharray()** розширена версія функції [пгfetchrow()](function.pg-fetch-row.html). Ця функція здатна зберегти дані не лише з цифровими індексами, а й з асоціативними (ім'я поля). За умовчанням зберігає і ті, й інші.
+**пгfetcharray()** розширена версія функції [пгfetchrow()](function.pg-fetch-row.md). Ця функція здатна зберегти дані не лише з цифровими індексами, а й з асоціативними (ім'я поля). За умовчанням зберігає і ті, й інші.
 
 > **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
 
-**пгfetcharray()** виконується трохи повільніше ніж [пгfetchrow()](function.pg-fetch-row.html)але значно простіше у використанні.
+**пгfetcharray()** виконується трохи повільніше ніж [пгfetchrow()](function.pg-fetch-row.md)але значно простіше у використанні.
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `row`
 
@@ -50,7 +50,7 @@ pg_fetch_array(PgSql\Result $result, ?int $row = null, int $mode = PGSQL_BOTH): 
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -92,6 +92,6 @@ echo $arr[1] . " <- Row 3 E-mail\n";
 
 ### Дивіться також
 
--   [пгfetchrow()](function.pg-fetch-row.html) - Вибирає рядок результату запиту та поміщає дані до масиву
--   [пгfetchobject()](function.pg-fetch-object.html) - Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
--   [пгfetchresult()](function.pg-fetch-result.html) - Повертає запис із результату запиту
+-   [пгfetchrow()](function.pg-fetch-row.md) - Вибирає рядок результату запиту та поміщає дані до масиву
+-   [пгfetchobject()](function.pg-fetch-object.md) - Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
+-   [пгfetchresult()](function.pg-fetch-result.md) - Повертає запис із результату запиту

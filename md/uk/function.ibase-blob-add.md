@@ -18,13 +18,13 @@ ibaseblobadd — Додає дані до новоствореного BLOB-об
 ibase_blob_add(resource $blob_handle, string $data): void
 ```
 
-**ibaseblobadd()** додає дані в BLOB-об'єкт, створений за допомогою [ibaseblobcreate()](function.ibase-blob-create.html)
+**ibaseblobadd()** додає дані в BLOB-об'єкт, створений за допомогою [ibaseblobcreate()](function.ibase-blob-create.md)
 
 ### Список параметрів
 
 `blob_handle`
 
-Дескриптор BLOB-об'єкта, відкритого за допомогою [ibaseblobcreate()](function.ibase-blob-create.html)
+Дескриптор BLOB-об'єкта, відкритого за допомогою [ibaseblobcreate()](function.ibase-blob-create.md)
 
 `data`
 
@@ -36,7 +36,7 @@ ibase_blob_add(resource $blob_handle, string $data): void
 
 ### Дивіться також
 
--   [ibaseblobcancel()](function.ibase-blob-cancel.html) - Скасує створення BLOB-об'єкта
--   [ibaseblobclose()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
--   [ibaseblobcreate()](function.ibase-blob-create.html) - Створює новий BLOB-об'єкт для заповнення даними
--   [ibaseblobimport()](function.ibase-blob-import.html) - Створює BLOB-об'єкт, копіює файл і закриває його.
+-   [ibaseblobcancel()](function.ibase-blob-cancel.md) - Скасує створення BLOB-об'єкта
+-   [ibaseblobclose()](function.ibase-blob-close.md) - Закриває BLOB-об'єкт
+-   [ibaseblobcreate()](function.ibase-blob-create.md) - Створює новий BLOB-об'єкт для заповнення даними
+-   [ibaseblobimport()](function.ibase-blob-import.md) - Створює BLOB-об'єкт, копіює файл і закриває його.

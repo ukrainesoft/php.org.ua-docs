@@ -30,7 +30,7 @@ public GearmanJob::sendFail(): bool
 
 ### Дивіться також
 
--   [GearmanJob::sendException()](gearmanjob.sendexception.html) - Відправлення виключення завдання, що виконується
--   [GearmanJob::setReturn()](gearmanjob.setreturn.html) - Встановлення значення, що повертається
--   [GearmanJob::sendStatus()](gearmanjob.sendstatus.html) - Надсилання статусу
--   [GearmanJob::sendWarning()](gearmanjob.sendwarning.html) - Відправлення попередження
+-   [GearmanJob::sendException()](gearmanjob.sendexception.md) - Відправлення виключення завдання, що виконується
+-   [GearmanJob::setReturn()](gearmanjob.setreturn.md) - Встановлення значення, що повертається
+-   [GearmanJob::sendStatus()](gearmanjob.sendstatus.md) - Надсилання статусу
+-   [GearmanJob::sendWarning()](gearmanjob.sendwarning.md) - Відправлення попередження

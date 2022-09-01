@@ -20,11 +20,11 @@ fsockopen(    string $hostname,    int $port = -1,    int &$error_co
 
 Встановлює з'єднання із сокетом ресурсу `hostname`
 
-PHP підтримує цільові ресурси в інтернеті та Unix-доменах у тому вигляді, як вони описані в [Список підтримуваних транспортних протоколів](transports.md). Список підтримуваних транспортів можна отримати за допомогою функції [streamgettransports()](function.stream-get-transports.html)
+PHP підтримує цільові ресурси в інтернеті та Unix-доменах у тому вигляді, як вони описані в [Список підтримуваних транспортних протоколів](transports.md). Список підтримуваних транспортів можна отримати за допомогою функції [streamgettransports()](function.stream-get-transports.md)
 
-За замовчуванням сокет буде відкритий у режимі блокування. Переключити його в неблокуючий режим можна функцією [streamsetblocking()](function.stream-set-blocking.html)
+За замовчуванням сокет буде відкритий у режимі блокування. Переключити його в неблокуючий режим можна функцією [streamsetblocking()](function.stream-set-blocking.md)
 
-[streamsocketclient()](function.stream-socket-client.html) виконує аналогічну функцію, але надає ширший вибір налаштувань з'єднання, що включає встановлення неблокуючого режиму та можливість надання потокового контексту.
+[streamsocketclient()](function.stream-socket-client.md) виконує аналогічну функцію, але надає ширший вибір налаштувань з'єднання, що включає встановлення неблокуючого режиму та можливість надання потокового контексту.
 
 ### Список параметрів
 
@@ -52,7 +52,7 @@ PHP підтримує цільові ресурси в інтернеті та 
 
 > **Зауваження**
 > 
-> Якщо потрібно встановити час очікування/запису даних через сокет, використовуйте функцію [streamsettimeout()](function.stream-set-timeout.html), т.к. параметр `timeout` функції **fsockopen()** обмежує лише час процесу встановлення з'єднання із сокетом.
+> Якщо потрібно встановити час очікування/запису даних через сокет, використовуйте функцію [streamsettimeout()](function.stream-set-timeout.md), т.к. параметр `timeout` функції **fsockopen()** обмежує лише час процесу встановлення з'єднання із сокетом.
 
 ### Значення, що повертаються
 
@@ -122,13 +122,13 @@ if (!$fp) {
 ### Дивіться також
 
 -   [pfsockopen()](function.pfsockopen.md) - Відкриває постійне з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [streamsocketclient()](function.stream-socket-client.html) - Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [streamsetblocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці
--   [streamsettimeout()](function.stream-set-timeout.html) - Встановити значення часу очікування потоку
+-   [streamsocketclient()](function.stream-socket-client.md) - Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [streamsetblocking()](function.stream-set-blocking.md) - Встановити блокуючий/неблокуючий режим у потоці
+-   [streamsettimeout()](function.stream-set-timeout.md) - Встановити значення часу очікування потоку
 -   [fgets()](function.fgets.md) - Читає рядок із файлу
 -   [fgetss()](function.fgetss.md) - Читає рядок з файлу та видаляє HTML-теги
 -   [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл
 -   [fclose()](function.fclose.md) - Закриває відкритий дескриптор файлу
 -   [feof()](function.feof.md) - Перевіряє, чи кінець файлу досягнуто
--   [socketconnect()](function.socket-connect.html) - Починає з'єднання із сокетом
+-   [socketconnect()](function.socket-connect.md) - Починає з'єднання із сокетом
 -   [Модуль Curl](ref.curl.md)

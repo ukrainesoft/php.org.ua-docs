@@ -53,8 +53,8 @@ variant_add(mixed $left, mixed $right): variant
 
 ### Помилки
 
-Викидає виняток [comexception](class.com-exception.html) у разі виникнення помилки.
+Викидає виняток [comexception](class.com-exception.md) у разі виникнення помилки.
 
 ### Дивіться також
 
--   [variantsub()](function.variant-sub.html) - Віднімає значення правого варіанта з лівого
+-   [variantsub()](function.variant-sub.md) - Віднімає значення правого варіанта з лівого

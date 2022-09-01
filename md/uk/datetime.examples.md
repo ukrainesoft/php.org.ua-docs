@@ -10,4 +10,4 @@ title: Приклади
 
 ## Зміст
 
--   [Арифметика дати/часу](datetime.examples-arithmetic.html)
+-   [Арифметика дати/часу](datetime.examples-arithmetic.md)

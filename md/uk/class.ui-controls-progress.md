@@ -56,5 +56,5 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsProgress::getValue](ui-controls-progress.getvalue.html) — Отримати значення
--   [ОЙControlsProgress::setValue](ui-controls-progress.setvalue.html) — Встановити значення
+-   [ОЙControlsProgress::getValue](ui-controls-progress.getvalue.md) — Отримати значення
+-   [ОЙControlsProgress::setValue](ui-controls-progress.setvalue.md) — Встановити значення

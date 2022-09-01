@@ -71,5 +71,5 @@ if ($db) {
 
 ### Дивіться також
 
--   [dbasecreate()](function.dbase-create.html) - Створює базу даних
--   [dbaseclose()](function.dbase-close.html) - Закриває базу даних
+-   [dbasecreate()](function.dbase-create.md) - Створює базу даних
+-   [dbaseclose()](function.dbase-close.md) - Закриває базу даних

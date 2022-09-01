@@ -40,7 +40,7 @@ file_get_contents(    string $filename,    bool $use_include_path = fals
 
 `context`
 
-Коректний ресурс контексту, створений за допомогою функції [streamcontextcreate()](function.stream-context-create.html). Якщо у використанні особливого контексту немає необхідності, можна пропустити цей параметр, передавши в нього значення **`null`**
+Коректний ресурс контексту, створений за допомогою функції [streamcontextcreate()](function.stream-context-create.md). Якщо у використанні особливого контексту немає необхідності, можна пропустити цей параметр, передавши в нього значення **`null`**
 
 `offset`
 
@@ -149,7 +149,7 @@ $file = file_get_contents('http://www.example.com/', false, $context);
 -   [fgets()](function.fgets.md) - Читає рядок із файлу
 -   [fread()](function.fread.md) - Бінарно-безпечне читання файлу
 -   [readfile()](function.readfile.md) - Виводить файл
--   [fileputcontents()](function.file-put-contents.html) - Пише дані у файл
--   [streamgetcontents()](function.stream-get-contents.html) - Читає частину потоку, що залишилася, в рядок
--   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку
+-   [fileputcontents()](function.file-put-contents.md) - Пише дані у файл
+-   [streamgetcontents()](function.stream-get-contents.md) - Читає частину потоку, що залишилася, в рядок
+-   [streamcontextcreate()](function.stream-context-create.md) - Створює контекст потоку
 -   [$httpresponseheader](reserved.variables.httpresponseheader.md)

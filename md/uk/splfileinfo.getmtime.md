@@ -30,4 +30,4 @@ public SplFileInfo::getMTime(): int|false
 
 ### Дивіться також
 
--   [filemtime()](function.filemtime.html) - Повертає час останньої зміни файлу
+-   [filemtime()](function.filemtime.md) - Повертає час останньої зміни файлу

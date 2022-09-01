@@ -22,7 +22,7 @@ hash_file(    string $algo,    string $filename,    bool $binary = f
 
 `algo`
 
-Назва вибраного алгоритму хешування (наприклад, "md5", "sha256", "haval160,4" тощо). Список підтримуваних алгоритмів дивіться [hashalgos()](function.hash-algos.html)
+Назва вибраного алгоритму хешування (наприклад, "md5", "sha256", "haval160,4" тощо). Список підтримуваних алгоритмів дивіться [hashalgos()](function.hash-algos.md)
 
 `filename`
 
@@ -68,7 +68,7 @@ bff8b4bc8b5c1c1d5b3211dfb21d1e76
 ### Дивіться також
 
 -   [hash()](function.hash.md) - Генерує хеш-код (підпис повідомлення)
--   [hashhmacfile()](function.hash-hmac-file.html) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC та вміст отриманого файлу
--   [hashupdatefile()](function.hash-update-file.html) - Додає дані з файлу до активного контексту хешування
--   [md5file()](function.md5-file.html) - Повертає MD5-хеш файлу
--   [sha1file()](function.sha1-file.html) - Повертає SHA1-хеш файлу
+-   [hashhmacfile()](function.hash-hmac-file.md) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC та вміст отриманого файлу
+-   [hashupdatefile()](function.hash-update-file.md) - Додає дані з файлу до активного контексту хешування
+-   [md5file()](function.md5-file.md) - Повертає MD5-хеш файлу
+-   [sha1file()](function.sha1-file.md) - Повертає SHA1-хеш файлу

@@ -36,4 +36,4 @@ fann_set_quickprop_mu(resource $ann, float $quickprop_mu): bool
 
 ### Дивіться також
 
--   [fanngetquickpropmu()](function.fann-get-quickprop-mu.html) - Повертає коефіцієнт mu
+-   [fanngetquickpropmu()](function.fann-get-quickprop-mu.md) - Повертає коефіцієнт mu

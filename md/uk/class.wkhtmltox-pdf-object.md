@@ -38,4 +38,4 @@ title: Клас wkhtmltoxPDFObject
 
 ## Зміст
 
--   [wkhtmltoxPDFObject::construct](wkhtmltox-pdf-object.construct.html) — Створити новий об'єкт PDF
+-   [wkhtmltoxPDFObject::construct](wkhtmltox-pdf-object.construct.md) — Створити новий об'єкт PDF

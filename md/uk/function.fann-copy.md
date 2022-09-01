@@ -38,4 +38,4 @@ fann_copy(resource $ann): resource
 
 ### Дивіться також
 
--   [fanntest()](function.fann-test.html) - Тестування з набором вхідних даних та бажаним результатом
+-   [fanntest()](function.fann-test.md) - Тестування з набором вхідних даних та бажаним результатом

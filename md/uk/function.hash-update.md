@@ -22,7 +22,7 @@ hash_update(HashContext $context, string $data): bool
 
 `context`
 
-Контекст хешування, що повертається [hashinit()](function.hash-init.html)
+Контекст хешування, що повертається [hashinit()](function.hash-init.md)
 
 `data`
 
@@ -40,7 +40,7 @@ hash_update(HashContext $context, string $data): bool
 
 ### Дивіться також
 
--   [hashinit()](function.hash-init.html) - Ініціалізація інкрементального контексту хешування
--   [hashupdatefile()](function.hash-update-file.html) - Додає дані з файлу до активного контексту хешування
--   [hashupdatestream()](function.hash-update-stream.html) - Додає дані з відкритого потоку до активного контексту хешування
--   [hashfinal()](function.hash-final.html) - Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду
+-   [hashinit()](function.hash-init.md) - Ініціалізація інкрементального контексту хешування
+-   [hashupdatefile()](function.hash-update-file.md) - Додає дані з файлу до активного контексту хешування
+-   [hashupdatestream()](function.hash-update-stream.md) - Додає дані з відкритого потоку до активного контексту хешування
+-   [hashfinal()](function.hash-final.md) - Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду

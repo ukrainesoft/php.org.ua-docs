@@ -28,15 +28,15 @@ public static IntlDateFormatter::formatObject(IntlCalendar|DateTimeInterface $da
 datefmt_format_object(IntlCalendar|DateTimeInterface $datetime, array|int|string|null $format = null, ?string $locale = null): string|false
 ```
 
-Функція дозволяє форматувати об'єкт [IntlCalendar](class.intlcalendar.html) або [DateTime](class.datetime.html) без попереднього явного створення об'єкта [IntlDateFormatter](class.intldateformatter.html)
+Функція дозволяє форматувати об'єкт [IntlCalendar](class.intlcalendar.html) або [DateTime](class.datetime.html) без попереднього явного створення об'єкта [IntlDateFormatter](class.intldateformatter.md)
 
-Тимчасовий [IntlDateFormatter](class.intldateformatter.html), який буде створено, приймає часовий пояс із переданого об'єкта. База даних часових поясів, пов'язана з PHP, не використовуватиметься - замість неї використовуватиметься ICU. Отже, ідентифікатор часового поясу, який використовується в об'єктах [DateTime](class.datetime.html), також має існувати у базі даних ICU.
+Тимчасовий [IntlDateFormatter](class.intldateformatter.html), який буде створено, приймає часовий пояс із переданого об'єкта. База даних часових поясів, пов'язана з PHP, не використовуватиметься - замість неї використовуватиметься ICU. Отже, ідентифікатор часового поясу, який використовується в об'єктах [DateTime](class.datetime.md), також має існувати у базі даних ICU.
 
 ### Список параметрів
 
 `datetime`
 
-Об'єкт типу [IntlCalendar](class.intlcalendar.html) або [DateTime](class.datetime.html). Використовуватиметься інформація про часовий пояс в об'єкті.
+Об'єкт типу [IntlCalendar](class.intlcalendar.html) або [DateTime](class.datetime.md). Використовуватиметься інформація про часовий пояс в об'єкті.
 
 `format`
 

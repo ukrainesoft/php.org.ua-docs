@@ -30,7 +30,7 @@ oci_password_change(    string $database_name,    string $username,  �
 
 `connection`
 
-Ідентифікатор з'єднання, що повертається функцією [ociconnect()](function.oci-connect.html) або [ocipconnect()](function.oci-pconnect.html)
+Ідентифікатор з'єднання, що повертається функцією [ociconnect()](function.oci-connect.html) або [ocipconnect()](function.oci-pconnect.md)
 
 `username`
 

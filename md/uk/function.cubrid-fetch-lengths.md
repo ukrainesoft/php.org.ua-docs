@@ -22,13 +22,13 @@ cubrid_fetch_lengths(resource $result): array
 
 > **Зауваження**
 > 
-> Якщо стовпець типу BLOB/CLOB, то для отримання його довжини використовуйте [cubridlobsize()](function.cubrid-lob-size.html)
+> Якщо стовпець типу BLOB/CLOB, то для отримання його довжини використовуйте [cubridlobsize()](function.cubrid-lob-size.md)
 
 ### Список параметрів
 
 `result`
 
-`Result` отриманий з [cubridexecute()](function.cubrid-execute.html)
+`Result` отриманий з [cubridexecute()](function.cubrid-execute.md)
 
 ### Значення, що повертаються
 

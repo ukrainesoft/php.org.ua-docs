@@ -25,11 +25,11 @@ string `$reverse`
 
 `match`
 
-Готовий шаблон регулярного виразу використовуватиметься для перевірки відповідності URI запиту; якщо не збігається, [YafRouteRegex](class.yaf-route-regex.html) поверне **`false`**
+Готовий шаблон регулярного виразу використовуватиметься для перевірки відповідності URI запиту; якщо не збігається, [YafRouteRegex](class.yaf-route-regex.md) поверне **`false`**
 
 `route`
 
-Коли шаблон відповідності відповідає URI запиту, [YafRouteRegex](class.yaf-route-regex.html) буде вирішувати, якого маршруту m/c/a він належить.
+Коли шаблон відповідності відповідає URI запиту, [YafRouteRegex](class.yaf-route-regex.md) буде вирішувати, якого маршруту m/c/a він належить.
 
 Будь-який з m/c/a у цьому масиві - необов'язковий, якщо ви не призначите будь-яке значення, він перенаправить на маршрут за промовчанням.
 
@@ -41,7 +41,7 @@ string `$reverse`
 
 `reverse`
 
-Рядок, що використовується для формування URL, дивіться [YafRouteRegex::assemble()](yaf-route-regex.assemble.html)
+Рядок, що використовується для формування URL, дивіться [YafRouteRegex::assemble()](yaf-route-regex.assemble.md)
 
 > **Зауваження**
 > 
@@ -144,10 +144,10 @@ string `$reverse`
 
 ### Дивіться також
 
--   [YafRouter::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора
--   [YafRouter::addConfig()](yaf-router.addconfig.html) - Додає налаштовані маршрути до маршрутизатора
--   [YafRouteStatic](class.yaf-route-static.html)
--   [YafRouteSupervar](class.yaf-route-supervar.html)
--   [YafRouteSimple](class.yaf-route-simple.html)
--   [YafRouteRewrite](class.yaf-route-rewrite.html)
--   [YafRouteMap](class.yaf-route-map.html)
+-   [YafRouter::addRoute()](yaf-router.addroute.md) - Додає новий маршрут до маршрутизатора
+-   [YafRouter::addConfig()](yaf-router.addconfig.md) - Додає налаштовані маршрути до маршрутизатора
+-   [YafRouteStatic](class.yaf-route-static.md)
+-   [YafRouteSupervar](class.yaf-route-supervar.md)
+-   [YafRouteSimple](class.yaf-route-simple.md)
+-   [YafRouteRewrite](class.yaf-route-rewrite.md)
+-   [YafRouteMap](class.yaf-route-map.md)

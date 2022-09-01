@@ -22,7 +22,7 @@ fgetss — Читає рядок із файлу та видаляє HTML-тег
 fgetss(resource $handle, int $length = ?, string $allowable_tags = ?): string
 ```
 
-Функція ідентична функції [fgets()](function.fgets.md), за винятком того, що **fgetss()** видаляє будь-які NULL-байти, HTML- та PHP-теги з прочитаного рядка. Функція зберігає стан синтаксичного аналізу від виклику до виклику і тому не еквівалентна виклику [striptags()](function.strip-tags.html) для значення, що повертається [fgets()](function.fgets.md)
+Функція ідентична функції [fgets()](function.fgets.md), за винятком того, що **fgetss()** видаляє будь-які NULL-байти, HTML- та PHP-теги з прочитаного рядка. Функція зберігає стан синтаксичного аналізу від виклику до виклику і тому не еквівалентна виклику [striptags()](function.strip-tags.md) для значення, що повертається [fgets()](function.fgets.md)
 
 ### Список параметрів
 
@@ -36,7 +36,7 @@ fgetss(resource $handle, int $length = ?, string $allowable_tags = ?): string
 
 `allowable_tags`
 
-Можна використовувати третій необов'язковий параметр, щоб вказати теги, які не потрібно вирізати. Дивіться опис [striptags()](function.strip-tags.html) для більш детальної інформації про `allowable_tags`
+Можна використовувати третій необов'язковий параметр, щоб вказати теги, які не потрібно вирізати. Дивіться опис [striptags()](function.strip-tags.md) для більш детальної інформації про `allowable_tags`
 
 ### Значення, що повертаються
 
@@ -87,6 +87,6 @@ if ($handle) {
 -   [fopen()](function.fopen.md) - Відкриває файл або URL
 -   [popen()](function.popen.md) - Відкриває файловий покажчик процесу
 -   [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [striptags()](function.strip-tags.html) - Видаляє теги HTML та PHP з рядка
+-   [striptags()](function.strip-tags.md) - Видаляє теги HTML та PHP з рядка
 -   [SplFileObject::fgetss()](splfileobject.fgetss.md) - Отримати рядок із файлу та видалити теги HTML
 -   Фільтр [string.striptags](filters.string.html#filters.string.strip_tags)

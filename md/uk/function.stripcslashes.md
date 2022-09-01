@@ -10,7 +10,7 @@ title: stripcslashes
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-stripcslashes — Видаляє екранування символів, зроблене функцією [addcslashes()](function.addcslashes.html)
+stripcslashes — Видаляє екранування символів, зроблене функцією [addcslashes()](function.addcslashes.md)
 
 ### Опис
 
@@ -44,4 +44,4 @@ Not a problem."); // true
 
 ### Дивіться також
 
--   [addcslashes()](function.addcslashes.html) - Екранує рядок слішами у стилі мови C
+-   [addcslashes()](function.addcslashes.md) - Екранує рядок слішами у стилі мови C

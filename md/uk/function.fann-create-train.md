@@ -46,7 +46,7 @@ fann_create_train(int $num_data, int $num_input, int $num_output): resource
 
 ### Дивіться також
 
--   [fannreadtrainfromfile()](function.fann-read-train-from-file.html) - Читає файл, у якому зберігаються дані навчання
--   [fanntrainвінdata()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
--   [fanndestroytrain()](function.fann-destroy-train.html) - Знищує тренувальні дані
--   [fannsavetrain()](function.fann-save-train.html) - Зберігає структуру навчання у файл
+-   [fannreadtrainfromfile()](function.fann-read-train-from-file.md) - Читає файл, у якому зберігаються дані навчання
+-   [fanntrainвінdata()](function.fann-train-on-data.md) - Навчання на всьому обсязі даних на часовому інтервалі
+-   [fanndestroytrain()](function.fann-destroy-train.md) - Знищує тренувальні дані
+-   [fannsavetrain()](function.fann-save-train.md) - Зберігає структуру навчання у файл

@@ -18,7 +18,7 @@ YafRouter::getRoute — Отримує маршрут на ім'я
 public Yaf_Router::getRoute(string $name): Yaf_Route_Interface
 ```
 
-Отримує маршрут на ім'я, дивіться також [YafRouter::getCurrentRoute()](yaf-router.getcurrentroute.html)
+Отримує маршрут на ім'я, дивіться також [YafRouter::getCurrentRoute()](yaf-router.getcurrentroute.md)
 
 ### Список параметрів
 
@@ -28,7 +28,7 @@ public Yaf_Router::getRoute(string $name): Yaf_Route_Interface
 
 ### Дивіться також
 
--   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.html)
--   [YafPluginAbstract](class.yaf-plugin-abstract.html)
--   [YafRouter::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора
--   [YafRouter::getCurrentRoute()](yaf-router.getcurrentroute.html) - Отримує ім'я діючого маршруту
+-   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.md)
+-   [YafPluginAbstract](class.yaf-plugin-abstract.md)
+-   [YafRouter::addRoute()](yaf-router.addroute.md) - Додає новий маршрут до маршрутизатора
+-   [YafRouter::getCurrentRoute()](yaf-router.getcurrentroute.md) - Отримує ім'я діючого маршруту

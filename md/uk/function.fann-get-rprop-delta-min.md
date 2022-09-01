@@ -34,4 +34,4 @@ fann_get_rprop_delta_min(resource $ann): float
 
 ### Дивіться також
 
--   [fannsetrpropdeltamin()](function.fann-set-rprop-delta-min.html) - Встановлює мінімальний розмір кроку
+-   [fannsetrpropdeltamin()](function.fann-set-rprop-delta-min.md) - Встановлює мінімальний розмір кроку

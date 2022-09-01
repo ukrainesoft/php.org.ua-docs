@@ -24,7 +24,7 @@ shmop_read(Shmop $shmop, int $offset, int $size): string
 
 `shmop`
 
-Ресурс блоку пам'яті, що повертається функцією [shmopopen()](function.shmop-open.html)
+Ресурс блоку пам'яті, що повертається функцією [shmopopen()](function.shmop-open.md)
 
 `offset`
 
@@ -58,4 +58,4 @@ $shm_data = shmop_read($shm_id, 0, 50);
 
 ### Дивіться також
 
--   [shmopwrite()](function.shmop-write.html) - Запис даних у пам'ять, що розділяється
+-   [shmopwrite()](function.shmop-write.md) - Запис даних у пам'ять, що розділяється

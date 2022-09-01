@@ -24,7 +24,7 @@ dbase_get_record(resource $database, int $number): array
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.html)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.md)
 
 `number`
 
@@ -32,7 +32,7 @@ dbase_get_record(resource $database, int $number): array
 
 ### Значення, що повертаються
 
-Повертає запис як масиву. Масив буде включати ключ `deleted` який дорівнює 1, якщо запис позначено видалення (дивіться [dbasedeleterecord()](function.dbase-delete-record.html)
+Повертає запис як масиву. Масив буде включати ключ `deleted` який дорівнює 1, якщо запис позначено видалення (дивіться [dbasedeleterecord()](function.dbase-delete-record.md)
 
 Кожне поле перетворюється на відповідний тип PHP, за винятком:
 
@@ -51,4 +51,4 @@ dbase_get_record(resource $database, int $number): array
 
 ### Дивіться також
 
--   [dbasegetrecordwithnames()](function.dbase-get-record-with-names.html) - Отримує запис із бази даних у вигляді асоціативного масиву
+-   [dbasegetrecordwithnames()](function.dbase-get-record-with-names.md) - Отримує запис із бази даних у вигляді асоціативного масиву

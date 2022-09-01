@@ -201,4 +201,4 @@ float(-1.5)
 
 -   [ceil()](function.ceil.md) - Округлює дріб у велику сторону
 -   [floor()](function.floor.md) - Округлює дріб у менший бік
--   [numberformat()](function.number-format.html) - Форматує число з поділом груп
+-   [numberformat()](function.number-format.md) - Форматує число з поділом груп

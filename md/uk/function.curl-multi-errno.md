@@ -24,7 +24,7 @@ curl_multi_errno(CurlMultiHandle $multi_handle): int
 
 `multi_handle`
 
-Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.html)
+Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.md)
 
 ### Значення, що повертаються
 
@@ -39,4 +39,4 @@ curl_multi_errno(CurlMultiHandle $multi_handle): int
 
 ### Дивіться також
 
--   [curlerrno()](function.curl-errno.html) - Повертає код останньої помилки
+-   [curlerrno()](function.curl-errno.md) - Повертає код останньої помилки

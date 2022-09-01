@@ -107,5 +107,5 @@ P04 Tenterhooks Press    Berkeley        CA  USA
 
 ### Дивіться також
 
--   [cubridcommit()](function.cubrid-commit.html) - підтвердження транзакції
--   [cubriddisconnect()](function.cubrid-disconnect.html) - Закриває з'єднання з базою даних
+-   [cubridcommit()](function.cubrid-commit.md) - підтвердження транзакції
+-   [cubriddisconnect()](function.cubrid-disconnect.md) - Закриває з'єднання з базою даних

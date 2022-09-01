@@ -18,7 +18,7 @@ opensslpublicdecrypt — Розшифровування даних за допо
 openssl_public_decrypt(    string $data,    string &$decrypted_data,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $public_key,    int $padding = OPENSSL_PKCS1_PADDING): bool
 ```
 
-**opensslpublicdecrypt()** розшифровує дані `data`, які раніше були зашифровані за допомогою [opensslprivateencrypt()](function.openssl-private-encrypt.html) і зберігає результат у `decrypted_data`
+**opensslpublicdecrypt()** розшифровує дані `data`, які раніше були зашифровані за допомогою [opensslprivateencrypt()](function.openssl-private-encrypt.md) і зберігає результат у `decrypted_data`
 
 Ви можете використовувати цю функцію, наприклад, щоб перевірити, чи було повідомлення написане власником закритого ключа.
 
@@ -44,9 +44,9 @@ openssl_public_decrypt(    string $data,    string &$decrypted_data,  
 
 | Версия | Описание |
 | --- | --- |
-|  | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
+|  | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
 
 ### Дивіться також
 
--   [opensslprivateencrypt()](function.openssl-private-encrypt.html) - Шифрує дані секретним ключем
--   [opensslprivatedecrypt()](function.openssl-private-decrypt.html) - Розшифровує дані за допомогою закритого ключа
+-   [opensslprivateencrypt()](function.openssl-private-encrypt.md) - Шифрує дані секретним ключем
+-   [opensslprivatedecrypt()](function.openssl-private-decrypt.md) - Розшифровує дані за допомогою закритого ключа

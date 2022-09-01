@@ -18,7 +18,7 @@ unregistertickfunction — Видалення функції зі списку �
 unregister_tick_function(callable $callback): void
 ```
 
-Видаляє `function` зі списку функцій, так що вона більше не виконується при кожному тику (дивіться [tick](control-structures.declare.html)
+Видаляє `function` зі списку функцій, так що вона більше не виконується при кожному тику (дивіться [tick](control-structures.declare.md)
 
 ### Список параметрів
 
@@ -32,4 +32,4 @@ unregister_tick_function(callable $callback): void
 
 ### Дивіться також
 
--   [registertickfunction()](function.register-tick-function.html) - Реєструє функцію для виконання при кожному тику
+-   [registertickfunction()](function.register-tick-function.md) - Реєструє функцію для виконання при кожному тику

@@ -10,7 +10,7 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](imagick.requirements.html)
--   [Установка](imagick.installation.html)
--   [Налаштування під час виконання](imagick.configuration.html)
--   [Типи ресурсів](imagick.resources.html)
+-   [Вимоги](imagick.requirements.md)
+-   [Установка](imagick.installation.md)
+-   [Налаштування під час виконання](imagick.configuration.md)
+-   [Типи ресурсів](imagick.resources.md)

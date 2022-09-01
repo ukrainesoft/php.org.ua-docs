@@ -30,6 +30,6 @@ eio_npending(): int
 
 ### Дивіться також
 
--   [eionreqs()](function.eio-nreqs.html) - Повертає кількість запитів, які потрібно виконати
--   [eionready()](function.eio-nready.html) - Повертає кількість ще не опрацьованих запитів
--   [eionthreads()](function.eio-nthreads.html) - Повертає кількість потоків, що використовуються в даний момент
+-   [eionreqs()](function.eio-nreqs.md) - Повертає кількість запитів, які потрібно виконати
+-   [eionready()](function.eio-nready.md) - Повертає кількість ще не опрацьованих запитів
+-   [eionthreads()](function.eio-nthreads.md) - Повертає кількість потоків, що використовуються в даний момент

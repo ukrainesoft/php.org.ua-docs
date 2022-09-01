@@ -38,4 +38,4 @@ fann_get_bit_fail_limit(resource $ann): float
 
 ### Дивіться також
 
--   [fannsetbitfaillimit()](function.fann-set-bit-fail-limit.html) - Встановлює межу помилок, що використовується під час навчання
+-   [fannsetbitfaillimit()](function.fann-set-bit-fail-limit.md) - Встановлює межу помилок, що використовується під час навчання

@@ -24,7 +24,7 @@ ssh2_auth_password(resource $session, string $username, string $password): bool
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
 
 `username`
 

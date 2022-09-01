@@ -10,5 +10,5 @@ title: Функції Scoutapm
 
 ## Зміст
 
--   [scoutapmgetcalls](function.scoutapm-get-calls.html) — Повертає список дзвінків, що відбулися
--   [scoutapmlistinstrumentedfunctions](function.scoutapm-list-instrumented-functions.html) - Список функцій, які scoutapm буде використовувати
+-   [scoutapmgetcalls](function.scoutapm-get-calls.md) — Повертає список дзвінків, що відбулися
+-   [scoutapmlistinstrumentedfunctions](function.scoutapm-list-instrumented-functions.md) - Список функцій, які scoutapm буде використовувати

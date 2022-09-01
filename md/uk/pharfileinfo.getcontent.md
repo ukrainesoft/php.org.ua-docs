@@ -18,7 +18,7 @@ PharFileInfo::getContent — Отримати повний вміст файлу
 public PharFileInfo::getContent(): string
 ```
 
-Ця функція поводиться як [filegetcontents()](function.file-get-contents.html)але для Phar.
+Ця функція поводиться як [filegetcontents()](function.file-get-contents.md)але для Phar.
 
 ### Список параметрів
 

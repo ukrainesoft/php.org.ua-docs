@@ -67,5 +67,5 @@ unlink($tmpfname);
 ### Дивіться також
 
 -   [tmpfile()](function.tmpfile.md) - Створює тимчасовий файл
--   [sysgettempdir()](function.sys-get-temp-dir.html) - Повертає шлях до директорії тимчасових файлів
+-   [sysgettempdir()](function.sys-get-temp-dir.md) - Повертає шлях до директорії тимчасових файлів
 -   [unlink()](function.unlink.md) - Видаляє файл

@@ -24,7 +24,7 @@ imap_fetchstructure(IMAP\Connection $imap, int $message_num, int $flags = 0): st
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `message_num`
 
@@ -71,9 +71,9 @@ imap_fetchstructure(IMAP\Connection $imap, int $message_num, int $flags = 0): st
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [imapfetchbody()](function.imap-fetchbody.html) - Витягти конкретну секцію тіла повідомлення
--   [imapbodystruct()](function.imap-bodystruct.html) - Прочитати структуру вказаної секції тіла заданого повідомлення
+-   [imapfetchbody()](function.imap-fetchbody.md) - Витягти конкретну секцію тіла повідомлення
+-   [imapbodystruct()](function.imap-bodystruct.md) - Прочитати структуру вказаної секції тіла заданого повідомлення

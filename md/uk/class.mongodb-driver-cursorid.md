@@ -12,7 +12,7 @@ title: Клас MongoDBDriverCursorId
 
 ## Вступ
 
-Клас **MongoDBDriverCursorID** - Об'єкт значення, який представляє ідентифікатор курсору. Примірники цього класу повертаються [MongoDBDriverCursor::getId()](mongodb-driver-cursor.getid.html)
+Клас **MongoDBDriverCursorID** - Об'єкт значення, який представляє ідентифікатор курсору. Примірники цього класу повертаються [MongoDBDriverCursor::getId()](mongodb-driver-cursor.getid.md)
 
 ## Огляд класів
 
@@ -49,7 +49,7 @@ final public unserialize(string $serialized): void
 
 ## Зміст
 
--   [MongoDBDriverCursorId::construct](mongodb-driver-cursorid.construct.html) — Створює новий об'єкт CursorId (не використовується)
--   [MongoDBDriverCursorId::serialize](mongodb-driver-cursorid.serialize.html) - Серіалізація CursorId
--   [MongoDBDriverCursorId::toString](mongodb-driver-cursorid.tostring.html) - Строкове подання ідентифікатора курсора
--   [MongoDBDriverCursorId::unserialize](mongodb-driver-cursorid.unserialize.html) - Десеріалізація CursorId
+-   [MongoDBDriverCursorId::construct](mongodb-driver-cursorid.construct.md) — Створює новий об'єкт CursorId (не використовується)
+-   [MongoDBDriverCursorId::serialize](mongodb-driver-cursorid.serialize.md) - Серіалізація CursorId
+-   [MongoDBDriverCursorId::toString](mongodb-driver-cursorid.tostring.md) - Строкове подання ідентифікатора курсора
+-   [MongoDBDriverCursorId::unserialize](mongodb-driver-cursorid.unserialize.md) - Десеріалізація CursorId

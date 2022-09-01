@@ -18,7 +18,7 @@ radiusgetvendorattr — Витягує атрибут, що залежить в�
 radius_get_vendor_attr(string $data): array
 ```
 
-Якщо [radiusgetattr()](function.radius-get-attr.html) повернула **`RADIUS_VENDOR_SPECIFIC`** **radiusgetvendorattr()** може бути викликана визначення постачальника.
+Якщо [radiusgetattr()](function.radius-get-attr.md) повернула **`RADIUS_VENDOR_SPECIFIC`** **radiusgetvendorattr()** може бути викликана визначення постачальника.
 
 ### Список параметрів
 
@@ -63,5 +63,5 @@ while ($resa = radius_get_attr($res)) {
 
 ### Дивіться також
 
--   [radiusgetattr()](function.radius-get-attr.html) - Витягує атрибут
--   [radiusputvendorattr()](function.radius-put-vendor-attr.html) - Приєднує бінарний атрибут, що залежить від постачальника
+-   [radiusgetattr()](function.radius-get-attr.md) - Витягує атрибут
+-   [radiusputvendorattr()](function.radius-put-vendor-attr.md) - Приєднує бінарний атрибут, що залежить від постачальника

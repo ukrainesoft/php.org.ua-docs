@@ -28,4 +28,4 @@ abstract public MongoDB\BSON\BinaryInterface::getData(): string
 
 ### Дивіться також
 
--   [MongoDBBSONBinary::getData()](mongodb-bson-binary.getdata.html) - Повертає дані Binary
+-   [MongoDBBSONBinary::getData()](mongodb-bson-binary.getdata.md) - Повертає дані Binary

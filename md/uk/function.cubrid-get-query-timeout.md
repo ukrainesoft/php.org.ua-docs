@@ -66,4 +66,4 @@ int(1000)
 
 ### Дивіться також
 
--   [cubridsetquerytimeout()](function.cubrid-set-query-timeout.html) - Встановлює час очікування на виконання запиту
+-   [cubridsetquerytimeout()](function.cubrid-set-query-timeout.md) - Встановлює час очікування на виконання запиту

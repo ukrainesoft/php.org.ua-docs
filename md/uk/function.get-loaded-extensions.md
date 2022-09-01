@@ -62,7 +62,7 @@ Array
 
 ### Дивіться також
 
--   [getextensionfuncs()](function.get-extension-funcs.html) - Повертає масив імен функцій модуля
--   [extensionloaded()](function.extension-loaded.html) - Визначає, чи завантажений модуль
+-   [getextensionfuncs()](function.get-extension-funcs.md) - Повертає масив імен функцій модуля
+-   [extensionloaded()](function.extension-loaded.md) - Визначає, чи завантажений модуль
 -   [dl()](function.dl.md) - Завантажує модуль PHP під час виконання
 -   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP

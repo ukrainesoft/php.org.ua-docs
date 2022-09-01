@@ -36,7 +36,7 @@ public MultipleIterator::key(): array
 
 [RuntimeException](class.runtimeexception.md), якщо ітератор недійсний (починаючи з PHP 8.1.0) або встановлено режим **`MIT_NEED_ALL`** і, принаймні, один приєднаний ітератор недійсний.
 
-Виклик цього методу з [foreach](control-structures.foreach.html) викличе попередження "Повернений неправильний тип" ("Illegal type returned").
+Виклик цього методу з [foreach](control-structures.foreach.md) викличе попередження "Повернений неправильний тип" ("Illegal type returned").
 
 ### список змін
 

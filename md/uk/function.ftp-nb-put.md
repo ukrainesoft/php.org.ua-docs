@@ -20,13 +20,13 @@ ftp_nb_put(    FTP\Connection $ftp,    string $remote_filename,    s
 
 **ftpнбput()** завантажує локальний файл на сервер FTP.
 
-Відмінність цієї функції від [ftpput()](function.ftp-put.html) полягає в тому, що завантаження файлу відбувається в асинхронному режимі, що дозволяє програмі виконувати інші операції під час завантаження.
+Відмінність цієї функції від [ftpput()](function.ftp-put.md) полягає в тому, що завантаження файлу відбувається в асинхронному режимі, що дозволяє програмі виконувати інші операції під час завантаження.
 
 ### Список параметрів
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `remote_filename`
 
@@ -52,7 +52,7 @@ ftp_nb_put(    FTP\Connection $ftp,    string $remote_filename,    s
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
@@ -107,7 +107,7 @@ if ($ret != FTP_FINISHED) {
 
 ### Дивіться також
 
--   [ftpнбfput()](function.ftp-nb-fput.html) - Завантажує попередньо відкритий файл на сервер FTP в асинхронному режимі
--   [ftpнбcontinue()](function.ftp-nb-continue.html) - Продовжує асинхронну операцію
--   [ftpput()](function.ftp-put.html) - Завантажує файл на FTP-сервер
--   [ftpfput()](function.ftp-fput.html) - Завантажує попередньо відкритий файл на FTP-сервер
+-   [ftpнбfput()](function.ftp-nb-fput.md) - Завантажує попередньо відкритий файл на сервер FTP в асинхронному режимі
+-   [ftpнбcontinue()](function.ftp-nb-continue.md) - Продовжує асинхронну операцію
+-   [ftpput()](function.ftp-put.md) - Завантажує файл на FTP-сервер
+-   [ftpfput()](function.ftp-fput.md) - Завантажує попередньо відкритий файл на FTP-сервер

@@ -12,7 +12,7 @@ title: Клас YafRouteRewrite
 
 ## Вступ
 
-Приклад використання дивіться у розділі прикладів [YafRouteRewrite::construct()](yaf-route-rewrite.construct.html)
+Приклад використання дивіться у розділі прикладів [YafRouteRewrite::construct()](yaf-route-rewrite.construct.md)
 
 ## Огляд класів
 
@@ -72,6 +72,6 @@ verify
 
 ## Зміст
 
--   [YafRouteRewrite::assemble](yaf-route-rewrite.assemble.html) - Збирає URL
--   [YafRouteRewrite::construct](yaf-route-rewrite.construct.html) - Конструктор класу YafRouteRewrite
--   [YafRouteRewrite::route](yaf-route-rewrite.route.html) - Призначення route
+-   [YafRouteRewrite::assemble](yaf-route-rewrite.assemble.md) - Збирає URL
+-   [YafRouteRewrite::construct](yaf-route-rewrite.construct.md) - Конструктор класу YafRouteRewrite
+-   [YafRouteRewrite::route](yaf-route-rewrite.route.md) - Призначення route

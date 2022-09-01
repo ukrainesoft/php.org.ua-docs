@@ -10,4 +10,4 @@ title: Приклади
 
 ## Зміст
 
--   [Приклади wddx](wddx.examples-serialize.html)
+-   [Приклади wddx](wddx.examples-serialize.md)

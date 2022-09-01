@@ -20,7 +20,7 @@ exif_thumbnail(    resource|string $file,    int &$width = null,    
 
 **exifthumbnail()** зчитує вбудоване прев'ю зображення.
 
-Якщо ви хочете отримати ескіз за допомогою цієї функції, вам необхідно надіслати mimetype-інформацію, використовуючи [header()](function.header.html) функцію.
+Якщо ви хочете отримати ескіз за допомогою цієї функції, вам необхідно надіслати mimetype-інформацію, використовуючи [header()](function.header.md) функцію.
 
 Іноді **exifthumbnail()** не може створити зображення, але може визначити його розмір. У таких випадках вона повертає **`false`**, але ставить аргументи `width` і `height` правильні значення.
 
@@ -79,5 +79,5 @@ if ($image!==false) {
 
 ### Дивіться також
 
--   [exifreaddata()](function.exif-read-data.html) - Читає заголовки EXIF ​​із файлів зображень
--   [imagetypeтоmimetype()](function.image-type-to-mime-type.html) - Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
+-   [exifreaddata()](function.exif-read-data.md) - Читає заголовки EXIF ​​із файлів зображень
+-   [imagetypeтоmimetype()](function.image-type-to-mime-type.md) - Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype

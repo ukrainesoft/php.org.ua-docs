@@ -82,4 +82,4 @@ function reverse_cb($job, &$count)
 
 ### Дивіться також
 
--   [GearmanClient::do()](gearmanclient.do.html) - Виконує одне завдання та повертає результат Застарілий метод
+-   [GearmanClient::do()](gearmanclient.do.md) - Виконує одне завдання та повертає результат Застарілий метод

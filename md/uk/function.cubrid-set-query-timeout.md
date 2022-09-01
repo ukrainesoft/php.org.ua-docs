@@ -36,4 +36,4 @@ Request identifier.
 
 ### Дивіться також
 
--   [cubridgetquerytimeout()](function.cubrid-get-query-timeout.html) - Отримує значення часу очікування запиту
+-   [cubridgetquerytimeout()](function.cubrid-get-query-timeout.md) - Отримує значення часу очікування запиту

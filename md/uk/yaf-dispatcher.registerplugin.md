@@ -18,7 +18,7 @@ YafDispatcher::registerPlugin — Реєструє плагін
 public Yaf_Dispatcher::registerPlugin(Yaf_Plugin_Abstract $plugin): Yaf_Dispatcher
 ```
 
-Реєструє плагін (дивіться [YafPluginAbstract](class.yaf-plugin-abstract.html)). Як правило, ми реєструємо плагіни в Bootstrap (дивіться [YafBootstrapAbstract](class.yaf-bootstrap-abstract.html)
+Реєструє плагін (дивіться [YafPluginAbstract](class.yaf-plugin-abstract.html)). Як правило, ми реєструємо плагіни в Bootstrap (дивіться [YafBootstrapAbstract](class.yaf-bootstrap-abstract.md)
 
 ### Список параметрів
 
@@ -48,6 +48,6 @@ class Bootstrap extends Yaf_Bootstrap_Abstract {
 
 ### Дивіться також
 
--   [YafPluginAbstract](class.yaf-plugin-abstract.html)
+-   [YafPluginAbstract](class.yaf-plugin-abstract.md)
     
--   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.html)
+-   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.md)

@@ -32,4 +32,4 @@ lzf_compress(string $data): string
 
 ### Дивіться також
 
--   [lzfdecompress()](function.lzf-decompress.html) - Розархівація LZF
+-   [lzfdecompress()](function.lzf-decompress.md) - Розархівація LZF

@@ -56,6 +56,6 @@ print grapheme_strlen( 'abc' . $char_a_ring_nfd . $char_o_diaeresis_nfd .
 ### Дивіться також
 
 -   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
--   [iconvstrlen()](function.iconv-strlen.html) - Повертає кількість символів у рядку
--   [мбstrlen()](function.mb-strlen.html) - Отримує довжину рядка
+-   [iconvstrlen()](function.iconv-strlen.md) - Повертає кількість символів у рядку
+-   [мбstrlen()](function.mb-strlen.md) - Отримує довжину рядка
 -   [strlen()](function.strlen.md) - Повертає довжину рядка

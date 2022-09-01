@@ -36,4 +36,4 @@ public OAuth::enableDebug(): bool
 
 ### Дивіться також
 
--   [OAuth::disableDebug()](oauth.disabledebug.html) - Вимкнути докладну налагоджувальну інформацію
+-   [OAuth::disableDebug()](oauth.disabledebug.md) - Вимкнути докладну налагоджувальну інформацію

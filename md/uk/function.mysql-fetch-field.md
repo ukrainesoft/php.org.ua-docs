@@ -14,9 +14,9 @@ mysqlfetchfield — Повертає інформацію про колонку 
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlifetchfield()](mysqli-result.fetch-field.html)
+-   [mysqlifetchfield()](mysqli-result.fetch-field.md)
 -   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md)
 
 ### Опис
@@ -31,7 +31,7 @@ mysql_fetch_field(resource $result, int $field_offset = 0): object
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
 
 `field_offset`
 
@@ -103,8 +103,8 @@ mysql_free_result($result);
 
 > **Зауваження**
 > 
-> Якщо поля або таблиці мають додаткові імена у запиті SQL, буде повернено ці додаткові імена. Вихідне ім'я може бути отримано, наприклад, за допомогою [mysqliresult::fetchfield()](mysqli-result.fetch-field.html)
+> Якщо поля або таблиці мають додаткові імена у запиті SQL, буде повернено ці додаткові імена. Вихідне ім'я може бути отримано, наприклад, за допомогою [mysqliresult::fetchfield()](mysqli-result.fetch-field.md)
 
 ### Дивіться також
 
--   [mysqlfieldseek()](function.mysql-field-seek.html) - Встановлює внутрішній покажчик результату на передане усунення поля
+-   [mysqlfieldseek()](function.mysql-field-seek.md) - Встановлює внутрішній покажчик результату на передане усунення поля

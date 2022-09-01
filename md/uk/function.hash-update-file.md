@@ -22,7 +22,7 @@ hash_update_file(HashContext $context, string $filename, ?resource $stream_conte
 
 `context`
 
-Контекст хешування, повернутий [hashinit()](function.hash-init.html)
+Контекст хешування, повернутий [hashinit()](function.hash-init.md)
 
 `filename`
 
@@ -30,7 +30,7 @@ hash_update_file(HashContext $context, string $filename, ?resource $stream_conte
 
 `stream_context`
 
-Контекст потоку, повернутий [streamcontextcreate()](function.stream-context-create.html)
+Контекст потоку, повернутий [streamcontextcreate()](function.stream-context-create.md)
 
 ### Значення, що повертаються
 
@@ -41,13 +41,13 @@ hash_update_file(HashContext $context, string $filename, ?resource $stream_conte
 | Версия | Описание |
 | --- | --- |
 |  | `stream_context` тепер допускає значення null. |
-|  | Приймає [HashContext](class.hashcontext.html), а чи не ресурс. |
+|  | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
 
 ### Дивіться також
 
--   [hashinit()](function.hash-init.html) - Ініціалізація інкрементального контексту хешування
--   [hashupdate()](function.hash-update.html) - Додає дані до активного контексту хешування
--   [hashupdatestream()](function.hash-update-stream.html) - Додає дані з відкритого потоку до активного контексту хешування
--   [hashfinal()](function.hash-final.html) - Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду
--   [hash()](function.hash.html) - Генерує хеш-код (підпис повідомлення)
--   [hashfile()](function.hash-file.html) - Генерація хеш-значення, використовуючи вміст заданого файлу
+-   [hashinit()](function.hash-init.md) - Ініціалізація інкрементального контексту хешування
+-   [hashupdate()](function.hash-update.md) - Додає дані до активного контексту хешування
+-   [hashupdatestream()](function.hash-update-stream.md) - Додає дані з відкритого потоку до активного контексту хешування
+-   [hashfinal()](function.hash-final.md) - Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду
+-   [hash()](function.hash.md) - Генерує хеш-код (підпис повідомлення)
+-   [hashfile()](function.hash-file.md) - Генерація хеш-значення, використовуючи вміст заданого файлу

@@ -24,7 +24,7 @@ pg_get_notify(PgSql\Connection $connection, int $mode = PGSQL_ASSOC): array|fals
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md)
 
 `mode`
 
@@ -38,7 +38,7 @@ pg_get_notify(PgSql\Connection $connection, int $mode = PGSQL_ASSOC): array|fals
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -65,4 +65,4 @@ if (!$notify) {
 
 ### Дивіться також
 
--   [пгgetpid()](function.pg-get-pid.html) - Отримує ID процесу сервера БД
+-   [пгgetpid()](function.pg-get-pid.md) - Отримує ID процесу сервера БД

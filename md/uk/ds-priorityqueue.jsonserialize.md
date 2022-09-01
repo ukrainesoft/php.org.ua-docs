@@ -12,7 +12,7 @@ title: 'ДсPriorityQueue::jsonSerialize'
 
 ДсPriorityQueue::jsonSerialize — Повертає колекцію в JSON-виставу
 
-Дивіться [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.html)
+Дивіться [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
 
 > **Зауваження**
 > 

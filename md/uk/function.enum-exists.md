@@ -49,7 +49,7 @@ if (enum_exists(Suit::class)) {
 
 ### Дивіться також
 
--   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
--   [classexists()](function.class-exists.html) - Перевіряє, чи був оголошений клас
--   [interfaceexists()](function.interface-exists.html) - Перевіряє, чи визначено інтерфейс
--   [getdeclaredclasses()](function.get-declared-classes.html) - Повертає масив із іменами оголошених класів
+-   [functionexists()](function.function-exists.md) - Повертає true, якщо вказана функція визначена
+-   [classexists()](function.class-exists.md) - Перевіряє, чи був оголошений клас
+-   [interfaceexists()](function.interface-exists.md) - Перевіряє, чи визначено інтерфейс
+-   [getdeclaredclasses()](function.get-declared-classes.md) - Повертає масив із іменами оголошених класів

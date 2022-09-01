@@ -20,11 +20,11 @@ odbc_pconnect(    string $dsn,    string $user,    string $password,
 
 Відкриває постійне з'єднання з базою даних.
 
-Функція дуже схожа на [odbcconnect()](function.odbc-connect.html), крім того, що з'єднання насправді не закривається після завершення роботи скрипта. Наступні запити на з'єднання з тією самою комбінацією `dsn` `user` і `password` (за допомогою [odbcconnect()](function.odbc-connect.html) і **odbcpconnect()**) можуть повторно використовувати постійне з'єднання.
+Функція дуже схожа на [odbcconnect()](function.odbc-connect.html), крім того, що з'єднання насправді не закривається після завершення роботи скрипта. Наступні запити на з'єднання з тією самою комбінацією `dsn` `user` і `password` (за допомогою [odbcconnect()](function.odbc-connect.md) і **odbcpconnect()**) можуть повторно використовувати постійне з'єднання.
 
 ### Список параметрів
 
-Для більш детальної інформації варто звернутись до опису [odbcconnect()](function.odbc-connect.html)
+Для більш детальної інформації варто звернутись до опису [odbcconnect()](function.odbc-connect.md)
 
 ### Значення, що повертаються
 
@@ -36,5 +36,5 @@ odbc_pconnect(    string $dsn,    string $user,    string $password,
 
 ### Дивіться також
 
--   [odbcconnect()](function.odbc-connect.html) - З'єднує із джерелом даних
--   [Постійні з'єднання з базами даних](features.persistent-connections.html)
+-   [odbcconnect()](function.odbc-connect.md) - З'єднує із джерелом даних
+-   [Постійні з'єднання з базами даних](features.persistent-connections.md)

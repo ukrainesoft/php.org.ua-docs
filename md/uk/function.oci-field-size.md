@@ -98,5 +98,5 @@ oci_close($conn);
 
 ### Дивіться також
 
--   [ocinumfields()](function.oci-num-fields.html) - Повертає кількість полів у результаті запиту
--   [ocifieldname()](function.oci-field-name.html) - Повертає ім'я поля з результату запиту
+-   [ocinumfields()](function.oci-num-fields.md) - Повертає кількість полів у результаті запиту
+-   [ocifieldname()](function.oci-field-name.md) - Повертає ім'я поля з результату запиту

@@ -32,7 +32,7 @@ public Vtiful\Kernel\Excel::mergeCells(string $scope, string $data)
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

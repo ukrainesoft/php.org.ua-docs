@@ -100,4 +100,4 @@ ibase_service_attach(string $host, string $dba_username, string $dba_password): 
 
 ### Дивіться також
 
--   [ibaseservicedetach()](function.ibase-service-detach.html) - відключається від диспетчера служб
+-   [ibaseservicedetach()](function.ibase-service-detach.md) - відключається від диспетчера служб

@@ -47,14 +47,14 @@ public where(string $where_expr): mysql_xdevapi\TableSelect
 
 ## Зміст
 
--   [TableSelect::bind](mysql-xdevapi-tableselect.bind.html) — Прив'язує параметри запиту вибірки
--   [TableSelect::construct](mysql-xdevapi-tableselect.construct.html) - Конструктор класу TableSelect
--   [TableSelect::execute](mysql-xdevapi-tableselect.execute.html) — Виконує оператор вибірки
--   [TableSelect::groupBy](mysql-xdevapi-tableselect.groupby.html) — Встановлює критерії угруповання вибірки
--   [TableSelect::having](mysql-xdevapi-tableselect.having.html) — Встановлює вибір із умовою
--   [TableSelect::limit](mysql-xdevapi-tableselect.limit.html) — Обмежує вибрані рядки
--   [TableSelect::lockExclusive](mysql-xdevapi-tableselect.lockexclusive.html) - Виконує EXCLUSIVE LOCK
--   [TableSelect::lockShared](mysql-xdevapi-tableselect.lockshared.html) - Виконує SHARED LOCK
--   [TableSelect::offset](mysql-xdevapi-tableselect.offset.html) - Встановлює межу зміщення
--   [TableSelect::orderby](mysql-xdevapi-tableselect.orderby.html) — Встановлює критерії сортування вибірки
--   [TableSelect::where](mysql-xdevapi-tableselect.where.html) — Встановлює умову пошуку вибірки
+-   [TableSelect::bind](mysql-xdevapi-tableselect.bind.md) — Прив'язує параметри запиту вибірки
+-   [TableSelect::construct](mysql-xdevapi-tableselect.construct.md) - Конструктор класу TableSelect
+-   [TableSelect::execute](mysql-xdevapi-tableselect.execute.md) — Виконує оператор вибірки
+-   [TableSelect::groupBy](mysql-xdevapi-tableselect.groupby.md) — Встановлює критерії угруповання вибірки
+-   [TableSelect::having](mysql-xdevapi-tableselect.having.md) — Встановлює вибір із умовою
+-   [TableSelect::limit](mysql-xdevapi-tableselect.limit.md) — Обмежує вибрані рядки
+-   [TableSelect::lockExclusive](mysql-xdevapi-tableselect.lockexclusive.md) - Виконує EXCLUSIVE LOCK
+-   [TableSelect::lockShared](mysql-xdevapi-tableselect.lockshared.md) - Виконує SHARED LOCK
+-   [TableSelect::offset](mysql-xdevapi-tableselect.offset.md) - Встановлює межу зміщення
+-   [TableSelect::orderby](mysql-xdevapi-tableselect.orderby.md) — Встановлює критерії сортування вибірки
+-   [TableSelect::where](mysql-xdevapi-tableselect.where.md) — Встановлює умову пошуку вибірки

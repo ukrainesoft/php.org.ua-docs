@@ -58,4 +58,4 @@ enum(Suit::Diamonds)
 
 ### Дивіться також
 
--   [Перечисления](language.enumerations.html)
+-   [Перечисления](language.enumerations.md)

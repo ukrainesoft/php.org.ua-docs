@@ -58,7 +58,7 @@ gz
 
 > **Зауваження**
 > 
-> Іншим доступним рішенням може бути функція [pathinfo()](function.pathinfo.html)
+> Іншим доступним рішенням може бути функція [pathinfo()](function.pathinfo.md)
 > 
 > ```php
 > <?php
@@ -68,6 +68,6 @@ gz
 
 ### Дивіться також
 
--   [DirectoryIterator::getFilename()](directoryiterator.getfilename.html) - Повертає ім'я файлу поточного елемента DirectoryIterator
--   [DirectoryIterator::getBasename()](directoryiterator.getbasename.html) - Повертає ім'я файлу (без розширення) поточного елемента DirectoryIterator
--   [pathinfo()](function.pathinfo.html) - Повертає інформацію про шлях до файлу
+-   [DirectoryIterator::getFilename()](directoryiterator.getfilename.md) - Повертає ім'я файлу поточного елемента DirectoryIterator
+-   [DirectoryIterator::getBasename()](directoryiterator.getbasename.md) - Повертає ім'я файлу (без розширення) поточного елемента DirectoryIterator
+-   [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях до файлу

@@ -10,7 +10,7 @@ title: Функції JSON
 
 ## Зміст
 
--   [jsondecode](function.json-decode.html) - Декодує рядок JSON
--   [jsonencode](function.json-encode.html) — Повертає JSON-подання даних
--   [jsonlasterrormsg](function.json-last-error-msg.html) — Повертає рядок із повідомленням про помилку останнього дзвінка jsonencode() або jsondecode()
--   [jsonlasterror](function.json-last-error.html) — Повертає останню помилку
+-   [jsondecode](function.json-decode.md) - Декодує рядок JSON
+-   [jsonencode](function.json-encode.md) — Повертає JSON-подання даних
+-   [jsonlasterrormsg](function.json-last-error-msg.md) — Повертає рядок із повідомленням про помилку останнього дзвінка jsonencode() або jsondecode()
+-   [jsonlasterror](function.json-last-error.md) — Повертає останню помилку

@@ -24,14 +24,14 @@ final public MongoDB\BSON\Undefined::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBBSONUndefined](class.mongodb-bson-undefined.html)
+Повертає серіалізовану виставу [MongoDBBSONUndefined](class.mongodb-bson-undefined.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONUndefined::unserialize()](mongodb-bson-undefined.unserialize.html) - Десеріалізує Undefined
+-   [MongoDBBSONUndefined::unserialize()](mongodb-bson-undefined.unserialize.md) - Десеріалізує Undefined
 -   [serialize()](function.serialize.md) - Генерує придатне для зберігання уявлення змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

@@ -101,8 +101,8 @@ echo $e->add(12, 4);
 
 ### Дивіться також
 
--   [runkit7methodcopy()](function.runkit7-method-copy.html) - Копіює метод з одного класу до іншого
--   [runkit7methodredefine()](function.runkit7-method-redefine.html) - динамічно змінює код заданого методу
--   [runkit7methodremove()](function.runkit7-method-remove.html) - динамічно видаляє заданий метод
--   [runkit7methodrename()](function.runkit7-method-rename.html) - динамічно змінює ім'я заданого методу
--   [runkit7functionadd()](function.runkit7-function-add.html) - Додає нову функцію, функція аналогічна createfunction
+-   [runkit7methodcopy()](function.runkit7-method-copy.md) - Копіює метод з одного класу до іншого
+-   [runkit7methodredefine()](function.runkit7-method-redefine.md) - динамічно змінює код заданого методу
+-   [runkit7methodremove()](function.runkit7-method-remove.md) - динамічно видаляє заданий метод
+-   [runkit7methodrename()](function.runkit7-method-rename.md) - динамічно змінює ім'я заданого методу
+-   [runkit7functionadd()](function.runkit7-function-add.md) - Додає нову функцію, функція аналогічна createfunction

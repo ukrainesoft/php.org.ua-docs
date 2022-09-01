@@ -186,6 +186,6 @@ Array (
 
 ### Дивіться також
 
--   [svnupdate()](function.svn-update.html) - Оновлює робочу копію
--   [svnlog()](function.svn-log.html) - Повертає коментарі до правок у репозиторії
--   [» SVN-документация по svn status](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.status.html)
+-   [svnupdate()](function.svn-update.md) - Оновлює робочу копію
+-   [svnlog()](function.svn-log.md) - Повертає коментарі до правок у репозиторії
+-   [» SVN-документация по svn status](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.status.md)

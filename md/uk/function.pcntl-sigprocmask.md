@@ -56,5 +56,5 @@ pcntl_sigprocmask(SIG_UNBLOCK, array(SIGHUP), $oldset);
 
 ### Дивіться також
 
--   [pcntlsigwaitinfo()](function.pcntl-sigwaitinfo.html) - Очікування сигналів
--   [pcntlsigtimedwait()](function.pcntl-sigtimedwait.html) - Очікує сигнали протягом заданого часу
+-   [pcntlsigwaitinfo()](function.pcntl-sigwaitinfo.md) - Очікування сигналів
+-   [pcntlsigtimedwait()](function.pcntl-sigtimedwait.md) - Очікує сигнали протягом заданого часу

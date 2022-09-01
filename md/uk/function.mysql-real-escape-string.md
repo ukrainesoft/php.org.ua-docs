@@ -14,9 +14,9 @@ mysqlrealescapestring — Екран спеціальних символів у 
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlirealescapestring()](mysqli.real-escape-string.html)
+-   [mysqlirealescapestring()](mysqli.real-escape-string.md)
 -   [PDO::quote()](pdo.quote.md)
 
 ### Опис
@@ -25,7 +25,7 @@ mysqlrealescapestring — Екран спеціальних символів у 
 mysql_real_escape_string(string $unescaped_string, resource $link_identifier = NULL): string
 ```
 
-Екранує спеціальні символи в `unescaped_string`, беручи до уваги кодування з'єднання, таким чином, що результат можна безпечно використовувати в SQL-запиті у функції [mysqlquery()](function.mysql-query.html). Якщо вставляються бінарні дані, то до них необхідно застосовувати цю функцію.
+Екранує спеціальні символи в `unescaped_string`, беручи до уваги кодування з'єднання, таким чином, що результат можна безпечно використовувати в SQL-запиті у функції [mysqlquery()](function.mysql-query.md). Якщо вставляються бінарні дані, то до них необхідно застосовувати цю функцію.
 
 **mysqlrealescapestring()** викликає бібліотечну функцію MySQL mysqlrealescapestring, яка додає зворотну косу рису до наступних символів: `\x00` `\n` `\r` `\` `'` `"` і `\x1a`
 
@@ -35,7 +35,7 @@ mysql_real_escape_string(string $unescaped_string, resource $link_identifier = N
 
 # Безпека: кодування символів за промовчанням
 
-Кодування символів має встановлюватися як на сервері, так і за допомогою функції [mysqlsetcharset()](function.mysql-set-charset.html), щоб впливати на поведінку **mysqlrealescapestring()**. Докладніше описано в розділі [кодування символів](mysqlinfo.concepts.charset.md)
+Кодування символів має встановлюватися як на сервері, так і за допомогою функції [mysqlsetcharset()](function.mysql-set-charset.md), щоб впливати на поведінку **mysqlrealescapestring()**. Докладніше описано в розділі [кодування символів](mysqlinfo.concepts.charset.md)
 
 ### Список параметрів
 
@@ -45,7 +45,7 @@ mysql_real_escape_string(string $unescaped_string, resource $link_identifier = N
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -138,14 +138,14 @@ SELECT * FROM users WHERE user='aidan' AND password='' OR ''=''
 
 > **Зауваження**
 > 
-> Якщо не користуватися цією функцією, то запит стає вразливим для [злому за допомогою SQL-ін'єкцій](security.database.sql-injection.html)
+> Якщо не користуватися цією функцією, то запит стає вразливим для [злому за допомогою SQL-ін'єкцій](security.database.sql-injection.md)
 
 > **Зауваження** **mysqlrealescapestring()** не екранує символи `%` і `_`. Ці символи є масками груп символів в операторах MySQL `LIKE` `GRANT` і `REVOKE`
 
 ### Дивіться також
 
--   [mysqlsetcharset()](function.mysql-set-charset.html) - Встановлює кодування клієнта
--   [mysqlclientencoding()](function.mysql-client-encoding.html) - Повертає кодування з'єднання
+-   [mysqlsetcharset()](function.mysql-set-charset.md) - Встановлює кодування клієнта
+-   [mysqlclientencoding()](function.mysql-client-encoding.md) - Повертає кодування з'єднання
 -   [addslashes()](function.addslashes.md) - Екранує рядок за допомогою слішів
 -   [stripslashes()](function.stripslashes.md) - Видаляє екранування символів
 -   Директива [magicquotesgpc](info.configuration.html#ini.magic-quotes-gpc)

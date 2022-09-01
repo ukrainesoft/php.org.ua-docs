@@ -70,5 +70,5 @@ bool(false)
 
 ### Дивіться також
 
--   [libxmlclearerrors()](function.libxml-clear-errors.html) - Очищення буфера помилок libxml
--   [libxmlgeterrors()](function.libxml-get-errors.html) - Отримання масиву помилок, що відбулися.
+-   [libxmlclearerrors()](function.libxml-clear-errors.md) - Очищення буфера помилок libxml
+-   [libxmlgeterrors()](function.libxml-get-errors.md) - Отримання масиву помилок, що відбулися.

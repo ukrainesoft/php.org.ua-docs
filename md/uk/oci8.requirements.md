@@ -10,7 +10,7 @@ title: Вимоги
 
 Модуль OCI8 3.0 включений у PHP 8. Також він доступний [» PECL](https://pecl.php.net/). Для PHP 7, використовуйте OCI8 2.2 від [» PECL](https://pecl.php.net/). Для роботи OCI8 потрібні клієнтські бібліотеки Oracle 10*г* або вище.
 
-Якщо база даних Oracle знаходиться на тій же машині, що і PHP, всі необхідні бібліотеки і заголовкові файли вже встановлені. Якщо PHP встановлений на іншу машину, використовуйте безкоштовні бібліотеки з [» Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client.html)
+Якщо база даних Oracle знаходиться на тій же машині, що і PHP, всі необхідні бібліотеки і заголовкові файли вже встановлені. Якщо PHP встановлений на іншу машину, використовуйте безкоштовні бібліотеки з [» Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client.md)
 
 Для використання Oracle Instant Client, встановіть `Basic` або `Basic Lite` zip-архів Oracle Instant Client або RPM або DMG пакет. При складанні PHP з вихідного коду також встановіть Instant Client `SDK`
 

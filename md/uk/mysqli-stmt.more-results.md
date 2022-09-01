@@ -38,7 +38,7 @@ mysqli_stmt_more_results(mysqli_stmt $statement): bool
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -46,5 +46,5 @@ mysqli_stmt_more_results(mysqli_stmt $statement): bool
 
 ### Дивіться також
 
--   [mysqlistmt::nextresult()](mysqli-stmt.next-result.html) - Читає наступний набір рядків із мультизапиту
--   [mysqli::multiquery()](mysqli.multi-query.html) - Виконує один або кілька запитів до бази даних
+-   [mysqlistmt::nextresult()](mysqli-stmt.next-result.md) - Читає наступний набір рядків із мультизапиту
+-   [mysqli::multiquery()](mysqli.multi-query.md) - Виконує один або кілька запитів до бази даних

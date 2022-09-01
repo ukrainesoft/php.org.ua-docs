@@ -46,7 +46,7 @@ timezone_abbreviations_list(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання [timezoneabbreviationslist()](function.timezone-abbreviations-list.html)**
+**Приклад #1 Приклад використання [timezoneabbreviationslist()](function.timezone-abbreviations-list.md)**
 
 ```php
 <?php
@@ -93,4 +93,4 @@ Array
 
 ### Дивіться також
 
--   [timezoneidentifierslist()](function.timezone-identifiers-list.html) - Псевдонім DateTimeZone::listIdentifiers
+-   [timezoneidentifierslist()](function.timezone-identifiers-list.md) - Псевдонім DateTimeZone::listIdentifiers

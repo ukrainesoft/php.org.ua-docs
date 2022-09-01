@@ -24,7 +24,7 @@ odbc_data_source(resource $odbc, int $fetch_type): array|false
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
 
 `fetch_type`
 

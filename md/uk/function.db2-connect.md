@@ -92,7 +92,7 @@ DATABASE=`database`;HOSTNAME=`hostname`;PORT=`port`;PROTOCOL=TCPIP;UID=`username
 
 `trustedcontext`
 
-Передача значення DB2TRUSTEDCONTEXTENABLE включає довірений контекст цього дескриптора з'єднання. Цей параметр не можна встановити за допомогою [db2setoption()](function.db2-set-option.html)
+Передача значення DB2TRUSTEDCONTEXTENABLE включає довірений контекст цього дескриптора з'єднання. Цей параметр не можна встановити за допомогою [db2setoption()](function.db2-set-option.md)
 
 Цей ключ працює тільки в тому випадку, якщо база даних каталогізована (навіть якщо база даних є локальною) або якщо буде створено повний DSN під час створення з'єднання.
 
@@ -406,5 +406,5 @@ User has been switched.
 
 ### Дивіться також
 
--   [db2close()](function.db2-close.html) - Закриває з'єднання з базою даних
--   [db2pconnect()](function.db2-pconnect.html) - Повертає постійне з'єднання з базою даних
+-   [db2close()](function.db2-close.md) - Закриває з'єднання з базою даних
+-   [db2pconnect()](function.db2-pconnect.md) - Повертає постійне з'єднання з базою даних

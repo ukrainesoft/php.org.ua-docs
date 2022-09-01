@@ -24,7 +24,7 @@ ps_set_value(resource $psdoc, string $name, float $value): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `name`
 
@@ -60,5 +60,5 @@ leading
 
 ### Дивіться також
 
--   [псgetvalue()](function.ps-get-value.html) - Отримує певні значення
--   [псsetparameter()](function.ps-set-parameter.html) - Встановлює певні параметри
+-   [псgetvalue()](function.ps-get-value.md) - Отримує певні значення
+-   [псsetparameter()](function.ps-set-parameter.md) - Встановлює певні параметри

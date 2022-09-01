@@ -32,7 +32,7 @@ zip_open(string $filename): resource|int|false
 
 ### Значення, що повертаються
 
-Повертає посилання на ресурс для подальшого використання з функціями [zipread()](function.zip-read.html) і [zipclose()](function.zip-close.html) або повертає номер помилки, якщо `filename` не існує або у разі іншої помилки.
+Повертає посилання на ресурс для подальшого використання з функціями [zipread()](function.zip-read.html) і [zipclose()](function.zip-close.md) або повертає номер помилки, якщо `filename` не існує або у разі іншої помилки.
 
 ### список змін
 
@@ -42,5 +42,5 @@ zip_open(string $filename): resource|int|false
 
 ### Дивіться також
 
--   [zipread()](function.zip-read.html) - Зчитує наступний запис у ZIP-архіві
--   [zipclose()](function.zip-close.html) - Закриває дескриптор ZIP-архіву
+-   [zipread()](function.zip-read.md) - Зчитує наступний запис у ZIP-архіві
+-   [zipclose()](function.zip-close.md) - Закриває дескриптор ZIP-архіву

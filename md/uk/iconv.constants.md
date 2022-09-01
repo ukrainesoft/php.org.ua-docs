@@ -27,5 +27,5 @@ title: Обумовлені константи
 
 | Имя | Тип | Описание |
 | --- | --- | --- |
-| **`ICONV_MIME_DECODE_STRICT`** | int | Бітова маска, що використовується в [iconvmimedecode()](function.iconv-mime-decode.html) |
-| **`ICONV_MIME_DECODE_CONTINUE_ON_ERROR`** | int | Бітова маска, що використовується в [iconvmimedecode()](function.iconv-mime-decode.html) |
+| **`ICONV_MIME_DECODE_STRICT`** | int | Бітова маска, що використовується в [iconvmimedecode()](function.iconv-mime-decode.md) |
+| **`ICONV_MIME_DECODE_CONTINUE_ON_ERROR`** | int | Бітова маска, що використовується в [iconvmimedecode()](function.iconv-mime-decode.md) |

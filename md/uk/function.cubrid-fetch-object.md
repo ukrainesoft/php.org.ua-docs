@@ -24,7 +24,7 @@ cubrid_fetch_object(    resource $result,    string $class_name = ?,  
 
 `result`
 
-`Result` отриманий з [cubridexecute()](function.cubrid-execute.html)
+`Result` отриманий з [cubridexecute()](function.cubrid-execute.md)
 
 `class_name`
 
@@ -120,8 +120,8 @@ object(stdClass)#1 (2) {
 
 ### Дивіться також
 
--   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
--   [cubridfetch()](function.cubrid-fetch.html) - Вибирає наступний рядок із набору результатів
--   [cubridfetcharray()](function.cubrid-fetch-array.html) - Вилучення рядка з результуючого набору у вигляді асоціативного масиву, індексованого масиву або обох відразу
--   [cubridfetchassoc()](function.cubrid-fetch-assoc.html) - Витягти рядок із результуючого набору у вигляді асоціативного масиву
--   [cubridfetchrow()](function.cubrid-fetch-row.html) - Витягти рядок із результуючого набору у вигляді індексованого масиву
+-   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
+-   [cubridfetch()](function.cubrid-fetch.md) - Вибирає наступний рядок із набору результатів
+-   [cubridfetcharray()](function.cubrid-fetch-array.md) - Вилучення рядка з результуючого набору у вигляді асоціативного масиву, індексованого масиву або обох відразу
+-   [cubridfetchassoc()](function.cubrid-fetch-assoc.md) - Витягти рядок із результуючого набору у вигляді асоціативного масиву
+-   [cubridfetchrow()](function.cubrid-fetch-row.md) - Витягти рядок із результуючого набору у вигляді індексованого масиву

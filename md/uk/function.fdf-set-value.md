@@ -24,7 +24,7 @@ fdf_set_value(    resource $fdf_document,    string $fieldname,    m
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.md)
 
 `fieldname`
 
@@ -48,5 +48,5 @@ fdf_set_value(    resource $fdf_document,    string $fieldname,    m
 
 ### Дивіться також
 
--   [fdfgetvalue()](function.fdf-get-value.html) - Отримує значення поля
--   [fdfremoveitem()](function.fdf-remove-item.html) - Встановлює цільовий кадр для форми
+-   [fdfgetvalue()](function.fdf-get-value.md) - Отримує значення поля
+-   [fdfremoveitem()](function.fdf-remove-item.md) - Встановлює цільовий кадр для форми

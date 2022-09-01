@@ -84,10 +84,10 @@ $db->quote('über', PDO::PARAM_STR | PDO::PARAM_STR_NATL);
 
 Було додано підтримку EXOP модуль LDAP. Стали доступні такі функції та константи:
 
--   [ldapparseexop()](function.ldap-parse-exop.html)
--   [ldapexop()](function.ldap-exop.html)
--   [ldapexoppasswd()](function.ldap-exop-passwd.html)
--   [ldapexopwhoami()](function.ldap-exop-whoami.html)
+-   [ldapparseexop()](function.ldap-parse-exop.md)
+-   [ldapexop()](function.ldap-exop.md)
+-   [ldapexoppasswd()](function.ldap-exop-passwd.md)
+-   [ldapexopwhoami()](function.ldap-exop-whoami.md)
 -   **`LDAP_EXOP_START_TLS`**
 -   **`LDAP_EXOP_MODIFY_PASSWD`**
 -   **`LDAP_EXOP_REFRESH`**
@@ -98,10 +98,10 @@ $db->quote('über', PDO::PARAM_STR | PDO::PARAM_STR_NATL);
 
 Модуль сокетів має можливість шукати адресну інформацію, а також підключатися до неї, зв'язуватися з нею і пояснювати її. Для цього були додані такі чотири функції:
 
--   [socketaddrinfolookup()](function.socket-addrinfo-lookup.html)
--   [socketaddrinfoconnect()](function.socket-addrinfo-connect.html)
--   [socketaddrinfobind()](function.socket-addrinfo-bind.html)
--   [socketaddrinfoexplain()](function.socket-addrinfo-explain.html)
+-   [socketaddrinfolookup()](function.socket-addrinfo-lookup.md)
+-   [socketaddrinfoconnect()](function.socket-addrinfo-connect.md)
+-   [socketaddrinfobind()](function.socket-addrinfo-bind.md)
+-   [socketaddrinfoexplain()](function.socket-addrinfo-explain.md)
 
 ### Розширення типу параметра
 
@@ -135,9 +135,9 @@ use Foo\Bar\{
 };
 ```
 
-### Підтримка [procnice()](function.proc-nice.html) для Windows
+### Підтримка [procnice()](function.proc-nice.md) для Windows
 
-Функція [procnice()](function.proc-nice.html) тепер підтримується у Windows.
+Функція [procnice()](function.proc-nice.md) тепер підтримується у Windows.
 
 ### Підтримка порядку байт у [pack()](function.pack.md) і [unpack()](function.unpack.md)
 
@@ -145,7 +145,7 @@ use Foo\Bar\{
 
 ### Поліпшення в модулі [EXIF](book.exif.md)
 
-Модуль EXIF ​​оновлено для підтримки більшої кількості форматів. Це означає, що специфічні теги правильно обробляються при розборі зображень функцією [exifreaddata()](function.exif-read-data.html). Нові формати, що підтримуються:
+Модуль EXIF ​​оновлено для підтримки більшої кількості форматів. Це означає, що специфічні теги правильно обробляються при розборі зображень функцією [exifreaddata()](function.exif-read-data.md). Нові формати, що підтримуються:
 
 -   Samsung
 -   DJI
@@ -159,7 +159,7 @@ use Foo\Bar\{
 -   Ricoh
 -   Epson
 
-Функції [exifreaddata()](function.exif-read-data.html) і [exifthumbnail()](function.exif-thumbnail.html) тепер приймають потоки як свої перші аргументи.
+Функції [exifreaddata()](function.exif-read-data.html) і [exifthumbnail()](function.exif-thumbnail.md) тепер приймають потоки як свої перші аргументи.
 
 ### Нова функціональність у [PCRE](book.pcre.md)
 

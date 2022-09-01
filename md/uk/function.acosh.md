@@ -32,7 +32,7 @@ acosh(float $num): float
 
 ### Дивіться також
 
--   [cosh()](function.cosh.html) - Гіперболічний косинус
--   [acos()](function.acos.html) - Арккосінус
--   [asinh()](function.asinh.html) - гіперболічний арксинус
--   [atanh()](function.atanh.html) - гіперболічний арктангенс
+-   [cosh()](function.cosh.md) - Гіперболічний косинус
+-   [acos()](function.acos.md) - Арккосінус
+-   [asinh()](function.asinh.md) - гіперболічний арксинус
+-   [atanh()](function.atanh.md) - гіперболічний арктангенс

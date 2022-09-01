@@ -32,5 +32,5 @@ is_infinite(float $num): bool
 
 ### Дивіться також
 
--   [ісfinite()](function.is-finite.html) - Перевіряє, чи є значення допустимим кінцевим числом
--   [ісnan()](function.is-nan.html) - Перевіряє, чи є значення "не числом"
+-   [ісfinite()](function.is-finite.md) - Перевіряє, чи є значення допустимим кінцевим числом
+-   [ісnan()](function.is-nan.md) - Перевіряє, чи є значення "не числом"

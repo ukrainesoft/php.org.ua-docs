@@ -64,6 +64,6 @@ array(1) {
 
 ### Дивіться також
 
--   [Phar::setMetadata()](phar.setmetadata.html) - Встановити метадані phar-архіву
--   [Phar::delMetadata()](phar.delmetadata.html) - Видалити глобальні метадані в архіві phar
--   [Phar::hasMetadata()](phar.hasmetadata.html) - Перевірити, чи містить phar-архів глобальні метадані
+-   [Phar::setMetadata()](phar.setmetadata.md) - Встановити метадані phar-архіву
+-   [Phar::delMetadata()](phar.delmetadata.md) - Видалити глобальні метадані в архіві phar
+-   [Phar::hasMetadata()](phar.hasmetadata.md) - Перевірити, чи містить phar-архів глобальні метадані

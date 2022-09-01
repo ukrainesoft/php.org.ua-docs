@@ -17,8 +17,8 @@ title: Seaslog
 -   [Обумовлені константи](seaslog.constants.md)
 -   [Приклади](seaslog.examples.md)
 -   [Функции Seaslog](ref.seaslog.md)
-    -   [seasloggetauthor](function.seaslog-get-author.html) — Отримує автора SeasLog
-    -   [seasloggetversion](function.seaslog-get-version.html) — Отримує версію SeasLog
+    -   [seasloggetauthor](function.seaslog-get-author.md) — Отримує автора SeasLog
+    -   [seasloggetversion](function.seaslog-get-version.md) — Отримує версію SeasLog
 -   [SeasLog](class.seaslog.md) - Клас SeasLog
     -   [SeasLog::alert](seaslog.alert.md) - Записує інформацію рівня "alert" у журнал
     -   [SeasLog::analyzerCount](seaslog.analyzercount.md) — Отримує кількість журналів за рівнем, logpath і keyслово

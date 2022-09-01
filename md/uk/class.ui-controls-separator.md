@@ -75,4 +75,4 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsSeparator::construct](ui-controls-separator.construct.html) — Створити новий об'єкт Separator
+-   [ОЙControlsSeparator::construct](ui-controls-separator.construct.md) — Створити новий об'єкт Separator

@@ -46,7 +46,7 @@ title: Інші служби
     -   [Обумовлені константи](ftp.constants.md)
     -   [Приклади](ftp.examples.md)
     -   [Функції FTP](ref.ftp.md)
-    -   [FTPConnection](class.ftp-connection.html) - Клас FTPConnection
+    -   [FTPConnection](class.ftp-connection.md) - Клас FTPConnection
 -   [Gearman](book.gearman.md)
     -   [Введение](intro.gearman.md)
     -   [Встановлення та налаштування](gearman.setup.md)
@@ -65,9 +65,9 @@ title: Інші служби
     -   [Керуючі об'єкти LDAP](ldap.controls.md)
     -   [Приклади](ldap.examples.md)
     -   [Функції LDAP](ref.ldap.md)
-    -   [LDAPConnection](class.ldap-connection.html) - Клас LDAPConnection
-    -   [LDAPResult](class.ldap-result.html) - Клас LDAPResult
-    -   [LDAPResultEntry](class.ldap-result-entry.html) - Клас LDAPResultEntry
+    -   [LDAPConnection](class.ldap-connection.md) - Клас LDAPConnection
+    -   [LDAPResult](class.ldap-result.md) - Клас LDAPResult
+    -   [LDAPResultEntry](class.ldap-result-entry.md) - Клас LDAPResultEntry
 -   [Memcache](book.memcache.md)
     -   [Введение](intro.memcache.md)
     -   [Встановлення та налаштування](memcache.setup.md)

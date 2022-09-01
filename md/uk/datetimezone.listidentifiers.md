@@ -157,4 +157,4 @@ Europe/Zaporozhye
 
 ### Дивіться також
 
--   [timezoneabbreviationslist()](function.timezone-abbreviations-list.html) - Псевдонім DateTimeZone::listAbbreviations
+-   [timezoneabbreviationslist()](function.timezone-abbreviations-list.md) - Псевдонім DateTimeZone::listAbbreviations

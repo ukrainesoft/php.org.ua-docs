@@ -28,7 +28,7 @@ ssh2_forward_listen(    resource $session,    int $port,    string $
 
 `session`
 
-Ресурс SSH Session, отриманий через виклик [ssh2connect()](function.ssh2-connect.html)
+Ресурс SSH Session, отриманий через виклик [ssh2connect()](function.ssh2-connect.md)
 
 `port`
 
@@ -44,4 +44,4 @@ ssh2_forward_listen(    resource $session,    int $port,    string $
 
 ### Дивіться також
 
--   [ssh2forwardaccept()](function.ssh2-forward-accept.html) - приймає з'єднання, створене слухачем
+-   [ssh2forwardaccept()](function.ssh2-forward-accept.md) - приймає з'єднання, створене слухачем

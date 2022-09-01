@@ -16,5 +16,5 @@ title: Mail
     -   [Типи ресурсів](mail.resources.md)
 -   [Обумовлені константи](mail.constants.md)
 -   [Почта](ref.mail.md)
-    -   [ezmlmhash](function.ezmlm-hash.html) — Обчислює хеш-суму, необхідну для EZMLM
+    -   [ezmlmhash](function.ezmlm-hash.md) — Обчислює хеш-суму, необхідну для EZMLM
     -   [mail](function.mail.md) — Надсилає електронну пошту

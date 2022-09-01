@@ -82,7 +82,7 @@ echo substr_count($text2, 'gcdgcd');
 
 ### Дивіться також
 
--   [countchars()](function.count-chars.html) - Повертає інформацію про символи, що входять до рядка
+-   [countchars()](function.count-chars.md) - Повертає інформацію про символи, що входять до рядка
 -   [strpos()](function.strpos.md) - Повертає позицію першого входження підрядка
 -   [substr()](function.substr.md) - Повертає підрядок
 -   [strstr()](function.strstr.md) - Знаходить перше входження підрядка

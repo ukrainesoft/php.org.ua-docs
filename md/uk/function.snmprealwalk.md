@@ -71,4 +71,4 @@ Array
 
 ### Дивіться також
 
--   [snmpwalk()](function.snmpwalk.html) - Отримує всі об'єкти SNMP із агента
+-   [snmpwalk()](function.snmpwalk.md) - Отримує всі об'єкти SNMP із агента

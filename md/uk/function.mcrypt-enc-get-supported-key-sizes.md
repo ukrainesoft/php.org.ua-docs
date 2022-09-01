@@ -32,7 +32,7 @@ mcrypt_enc_get_supported_key_sizes(resource $td): array
 
 ### Значення, що повертаються
 
-Повертає масив з допустимими розмірами ключа для алгоритму. Якщо допустимі будь-які розміри від 1 до [mcryptencgetkeysize()](function.mcrypt-enc-get-key-size.html), Повертається порожній масив.
+Повертає масив з допустимими розмірами ключа для алгоритму. Якщо допустимі будь-які розміри від 1 до [mcryptencgetkeysize()](function.mcrypt-enc-get-key-size.md), Повертається порожній масив.
 
 ### Приклади
 

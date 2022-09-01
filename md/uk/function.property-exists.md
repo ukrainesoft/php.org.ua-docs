@@ -77,4 +77,4 @@ myClass::test();
 
 ### Дивіться також
 
--   [methodexists()](function.method-exists.html) - Перевіряє, чи існує метод у даному класі
+-   [methodexists()](function.method-exists.md) - Перевіряє, чи існує метод у даному класі

@@ -52,7 +52,7 @@ svn_diff(    string $path1,    int $rev1,    string $path2,    i
 
 Повертає список масивів, що складається з двох потоків: перша - відмінності файлів; друга – помилки. Потоки можуть бути прочитані функцією [fread()](function.fread.md). При помилці повертає **`false`** або **`null`**
 
-За промовчанням висновок відмінностей буде у стандартному форматі Subversion, але також може використовуватися [»  зовнішнім інструментом показу відмінностей](http://svnbook.red-bean.com/en/1.2/svn.advanced.externaldifftools.html), залежно від налаштування Subversion.
+За промовчанням висновок відмінностей буде у стандартному форматі Subversion, але також може використовуватися [»  зовнішнім інструментом показу відмінностей](http://svnbook.red-bean.com/en/1.2/svn.advanced.externaldifftools.md), залежно від налаштування Subversion.
 
 ### Приклади
 
@@ -121,4 +121,4 @@ function svn_diff_local($path1, $rev1, $path2, $rev2) {
 
 ### Дивіться також
 
--   [» SVN-документация по svn diff](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.diff.html)
+-   [» SVN-документация по svn diff](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.diff.md)

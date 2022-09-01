@@ -57,5 +57,5 @@ Syntax error: unexpected 'unknown'
 
 ### Дивіться також
 
--   [cubriderrorcode()](function.cubrid-error-code.html) - Отримати код помилки
--   [cubriderrormsg()](function.cubrid-error-msg.html) - Повертає текст останньої помилки, що відбулася.
+-   [cubriderrorcode()](function.cubrid-error-code.md) - Отримати код помилки
+-   [cubriderrormsg()](function.cubrid-error-msg.md) - Повертає текст останньої помилки, що відбулася.

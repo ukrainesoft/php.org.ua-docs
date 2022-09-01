@@ -24,7 +24,7 @@ yaz_itemorder(resource $id, array $args): void
 
 `id`
 
-Ресурс підключення, що повертається [yazconnect()](function.yaz-connect.html)
+Ресурс підключення, що повертається [yazconnect()](function.yaz-connect.md)
 
 `args`
 

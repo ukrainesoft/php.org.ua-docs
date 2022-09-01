@@ -34,4 +34,4 @@ fann_get_cascade_weight_multiplier(resource $ann): float
 
 ### Дивіться також
 
--   [fannsetcascadeweightmultiplier()](function.fann-set-cascade-weight-multiplier.html) - Встановлює множник ваги
+-   [fannsetcascadeweightmultiplier()](function.fann-set-cascade-weight-multiplier.md) - Встановлює множник ваги

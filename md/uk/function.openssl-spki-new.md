@@ -24,7 +24,7 @@ openssl_spki_new(OpenSSLAsymmetricKey $private_key, string $challenge, int $dige
 
 `private_key`
 
-`private_key` задається секретним ключем, створеним раніше функцією [opensslpkeynew()](function.openssl-pkey-new.html) (або отриманий іншим чином). Відповідна відкрита частина ключа буде використана для підпису CSR.
+`private_key` задається секретним ключем, створеним раніше функцією [opensslpkeynew()](function.openssl-pkey-new.md) (або отриманий іншим чином). Відповідна відкрита частина ключа буде використана для підпису CSR.
 
 `challenge`
 
@@ -87,9 +87,9 @@ MML5G2iNVgNozAo=
 
 ### Дивіться також
 
--   [opensslspkiverify()](function.openssl-spki-verify.html) - Перевіряє підписаний відкритий ключ та виклик
--   [opensslspkiexportchallenge()](function.openssl-spki-export-challenge.html) - Експорт виклику, пов'язаного з підписаним ключем та викликом
--   [opensslspkiexport()](function.openssl-spki-export.html) - Експорт відкритого ключа у форматі PEM із підписаного відкритого ключа з викликом
--   [opensslgetмдmethods()](function.openssl-get-md-methods.html) - Отримати список доступних методів хешування
--   [opensslcsrnew()](function.openssl-csr-new.html) - Генерує CSR
--   [opensslcsrsign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат
+-   [opensslspkiverify()](function.openssl-spki-verify.md) - Перевіряє підписаний відкритий ключ та виклик
+-   [opensslspkiexportchallenge()](function.openssl-spki-export-challenge.md) - Експорт виклику, пов'язаного з підписаним ключем та викликом
+-   [opensslspkiexport()](function.openssl-spki-export.md) - Експорт відкритого ключа у форматі PEM із підписаного відкритого ключа з викликом
+-   [opensslgetмдmethods()](function.openssl-get-md-methods.md) - Отримати список доступних методів хешування
+-   [opensslcsrnew()](function.openssl-csr-new.md) - Генерує CSR
+-   [opensslcsrsign()](function.openssl-csr-sign.md) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат

@@ -71,13 +71,13 @@ date_sunrise(    int $timestamp,    int $returnFormat = SUNFUNCS_RET_STR
 
 ### Помилки
 
-Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [datedefaulttimezoneset()](function.date-default-timezone-set.html)
+Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [datedefaulttimezoneset()](function.date-default-timezone-set.md)
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Функція оголошена застарілою, використовуйте її разом [datesuninfo()](function.date-sun-info.html) |
+|  | Функція оголошена застарілою, використовуйте її разом [datesuninfo()](function.date-sun-info.md) |
 |  | `latitude` `longitude` `zenith` і `utcOffset` тепер допускають значення null. |
 
 ### Приклади
@@ -122,5 +122,5 @@ bool(false)
 
 ### Дивіться також
 
--   [datesunset()](function.date-sunset.html) - Повертає час заходу сонця для заданого дня та місця розташування
--   [datesuninfo()](function.date-sun-info.html) - Повертає масив з інформацією про захід сонця/світанок і початок/закінчення сутінків
+-   [datesunset()](function.date-sunset.md) - Повертає час заходу сонця для заданого дня та місця розташування
+-   [datesuninfo()](function.date-sun-info.md) - Повертає масив з інформацією про захід сонця/світанок і початок/закінчення сутінків

@@ -53,4 +53,4 @@ mb_strstr(    string $haystack,    string $needle,    bool $before_n
 
 -   [stristr()](function.stristr.md) - Реєстронезалежний варіант функції strstr
 -   [strstr()](function.strstr.md) - Знаходить перше входження підрядка
--   [мбstristr()](function.mb-stristr.html) - Знаходить перше входження підрядки у рядку без урахування регістру
+-   [мбstristr()](function.mb-stristr.md) - Знаходить перше входження підрядки у рядку без урахування регістру

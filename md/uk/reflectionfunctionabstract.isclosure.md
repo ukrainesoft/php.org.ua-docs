@@ -10,7 +10,7 @@ title: 'ReflectionFunctionAbstract::isClosure'
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::isClosure — Перевіряє, чи є функція замиканням ([Closure](class.closure.html)
+ReflectionFunctionAbstract::isClosure — Перевіряє, чи є функція замиканням ([Closure](class.closure.md)
 
 ### Опис
 
@@ -26,7 +26,7 @@ public ReflectionFunctionAbstract::isClosure(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо функція є замиканням ([Closure](class.closure.html) **`false`** в іншому випадку.
+Повертає **`true`**, якщо функція є замиканням ([Closure](class.closure.md) **`false`** в іншому випадку.
 
 ### Приклади
 
@@ -55,4 +55,4 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::isGenerator()](reflectionfunctionabstract.isgenerator.html) - Перевіряє, чи є функція генератором
+-   [ReflectionFunctionAbstract::isGenerator()](reflectionfunctionabstract.isgenerator.md) - Перевіряє, чи є функція генератором

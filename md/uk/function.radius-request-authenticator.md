@@ -32,4 +32,4 @@ radius_request_authenticator(resource $radius_handle): string
 
 ### Дивіться також
 
--   [radiusdemangle()](function.radius-demangle.html) - Розшифровує дані
+-   [radiusdemangle()](function.radius-demangle.md) - Розшифровує дані

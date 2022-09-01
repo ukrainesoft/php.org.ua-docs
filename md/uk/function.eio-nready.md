@@ -28,6 +28,6 @@ eio_nready(): int
 
 ### Дивіться також
 
--   [eionreqs()](function.eio-nreqs.html) - Повертає кількість запитів, які потрібно виконати
+-   [eionreqs()](function.eio-nreqs.md) - Повертає кількість запитів, які потрібно виконати
 -   **eionready()**
--   [eionthreads()](function.eio-nthreads.html) - Повертає кількість потоків, що використовуються в даний момент
+-   [eionthreads()](function.eio-nthreads.md) - Повертає кількість потоків, що використовуються в даний момент

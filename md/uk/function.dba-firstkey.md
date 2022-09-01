@@ -24,7 +24,7 @@ dba_firstkey(resource $dba): string|false
 
 `dba`
 
-Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.html)
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 
@@ -32,6 +32,6 @@ dba_firstkey(resource $dba): string|false
 
 ### Дивіться також
 
--   [dbanextkey()](function.dba-nextkey.html) - Витягує наступний ключ
--   [dbakeysplit()](function.dba-key-split.html) - Розділяє ключ, заданий у вигляді рядка та створює масив з отриманих частин
+-   [dbanextkey()](function.dba-nextkey.md) - Витягує наступний ключ
+-   [dbakeysplit()](function.dba-key-split.md) - Розділяє ключ, заданий у вигляді рядка та створює масив з отриманих частин
 -   Другий приклад у [приклади DBA](dba.examples.md)

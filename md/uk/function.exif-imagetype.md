@@ -81,5 +81,5 @@ if (exif_imagetype('image.gif') != IMAGETYPE_GIF) {
 
 ### Дивіться також
 
--   [imagetypeтоmimetype()](function.image-type-to-mime-type.html) - Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
+-   [imagetypeтоmimetype()](function.image-type-to-mime-type.md) - Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
 -   [getimagesize()](function.getimagesize.md) - Отримання розміру зображення

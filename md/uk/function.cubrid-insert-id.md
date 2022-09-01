@@ -28,7 +28,7 @@ cubrid_insert_id(resource $conn_identifier = ?): string
 
 `conn_identifier`
 
-Ідентифікатор з'єднання, отриманий раніше під час виклику [cubridconnect()](function.cubrid-connect.html)
+Ідентифікатор з'єднання, отриманий раніше під час виклику [cubridconnect()](function.cubrid-connect.md)
 
 ### Значення, що повертаються
 

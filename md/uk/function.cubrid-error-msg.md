@@ -56,5 +56,5 @@ Error msg: Invalid T_CCI_SCH_TYPE value
 
 ### Дивіться також
 
--   [cubriderrorcode()](function.cubrid-error-code.html) - Отримати код помилки
--   [cubriderrorcodefacility()](function.cubrid-error-code-facility.html) - Отримати код рівня, на якому сталася помилка
+-   [cubriderrorcode()](function.cubrid-error-code.md) - Отримати код помилки
+-   [cubriderrorcodefacility()](function.cubrid-error-code-facility.md) - Отримати код рівня, на якому сталася помилка

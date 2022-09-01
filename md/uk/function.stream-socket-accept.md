@@ -10,7 +10,7 @@ title: streamsocketaccept
 
 (PHP 5, PHP 7, PHP 8)
 
-streamsocketaccept — Приймати з'єднання в сокеті, створеному за допомогою функції [streamsocketserver()](function.stream-socket-server.html)
+streamsocketaccept — Приймати з'єднання в сокеті, створеному за допомогою функції [streamsocketserver()](function.stream-socket-server.md)
 
 ### Опис
 
@@ -18,7 +18,7 @@ streamsocketaccept — Приймати з'єднання в сокеті, ст�
 stream_socket_accept(resource $socket, ?float $timeout = null, string &$peer_name = null): resource|false
 ```
 
-Приймати з'єднання в сокеті, попередньо створеному за допомогою функції [streamsocketserver()](function.stream-socket-server.html)
+Приймати з'єднання в сокеті, попередньо створеному за допомогою функції [streamsocketserver()](function.stream-socket-server.md)
 
 ### Список параметрів
 
@@ -36,7 +36,7 @@ stream_socket_accept(resource $socket, ?float $timeout = null, string &$peer_nam
 
 > **Зауваження**
 > 
-> Можливо визначено пізніше, використовуючи функцію [streamsocketgetname()](function.stream-socket-get-name.html)
+> Можливо визначено пізніше, використовуючи функцію [streamsocketgetname()](function.stream-socket-get-name.md)
 
 ### Значення, що повертаються
 
@@ -52,14 +52,14 @@ stream_socket_accept(resource $socket, ?float $timeout = null, string &$peer_nam
 
 **Увага**
 
-Ця функція не повинна використовуватись із серверними сокетами UDP. Натомість використовуйте [streamsocketrecvfrom()](function.stream-socket-recvfrom.html) і [streamsocketsendto()](function.stream-socket-sendto.html)
+Ця функція не повинна використовуватись із серверними сокетами UDP. Натомість використовуйте [streamsocketrecvfrom()](function.stream-socket-recvfrom.html) і [streamsocketsendto()](function.stream-socket-sendto.md)
 
 ### Дивіться також
 
--   [streamsocketserver()](function.stream-socket-server.html) - Створює інтернет-сокет або доменний сокет Unix
--   [streamsocketgetname()](function.stream-socket-get-name.html) - Отримати назву локального чи віддаленого сокету
--   [streamsetblocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці
--   [streamsettimeout()](function.stream-set-timeout.html) - Встановити значення часу очікування потоку
+-   [streamsocketserver()](function.stream-socket-server.md) - Створює інтернет-сокет або доменний сокет Unix
+-   [streamsocketgetname()](function.stream-socket-get-name.md) - Отримати назву локального чи віддаленого сокету
+-   [streamsetblocking()](function.stream-set-blocking.md) - Встановити блокуючий/неблокуючий режим у потоці
+-   [streamsettimeout()](function.stream-set-timeout.md) - Встановити значення часу очікування потоку
 -   [fgets()](function.fgets.md) - Читає рядок із файлу
 -   [fgetss()](function.fgetss.md) - Читає рядок з файлу та видаляє HTML-теги
 -   [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл

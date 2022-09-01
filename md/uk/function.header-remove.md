@@ -81,4 +81,4 @@ header_remove();
 ### Дивіться також
 
 -   [header()](function.header.md) - Надсилання HTTP-заголовка
--   [headerssent()](function.headers-sent.html) - Перевіряє, чи були надіслані заголовки
+-   [headerssent()](function.headers-sent.md) - Перевіряє, чи були надіслані заголовки

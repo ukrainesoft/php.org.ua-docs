@@ -4,9 +4,9 @@ navigation:
   - imagickpixel.clear.html: 'ImagickPixel::clear »'
   - index.html: PHP Manual
   - book.imagick.html: ImageMagick
-title: 'Клас [ImagickPixel](class.imagickpixel.html)'
+title: 'Клас [ImagickPixel](class.imagickpixel.md)'
 ---
-# Клас [ImagickPixel](class.imagickpixel.html)
+# Клас [ImagickPixel](class.imagickpixel.md)
 
 (PECL imagick 2, PECL imagick 3)
 
@@ -44,23 +44,23 @@ public setIndex(int $index): bool
 
 ## Зміст
 
--   [ImagickPixel::clear](imagickpixel.clear.html) — Очищає ресурси, пов'язані із цим об'єктом
--   [ImagickPixel::construct](imagickpixel.construct.html) - Конструктор ImagickPixel
--   [ImagickPixel::destroy](imagickpixel.destroy.html) - Звільняє ресурси, пов'язані з цим об'єктом
--   [ImagickPixel::getColor](imagickpixel.getcolor.html) - Повертає колір
--   [ImagickPixel::getColorAsString](imagickpixel.getcolorasstring.html) — Повертає колір у вигляді рядка
--   [ImagickPixel::getColorCount](imagickpixel.getcolorcount.html) — Повертає кількість кольорів, пов'язаних із цим кольором.
--   [ImagickPixel::getColorQuantum](imagickpixel.getcolorquantum.html) - Опис
--   [ImagickPixel::getColorValue](imagickpixel.getcolorvalue.html) — Повертає нормалізоване значення кольору каналу
--   [ImagickPixel::getColorValueQuantum](imagickpixel.getcolorvaluequantum.html) - Опис
--   [ImagickPixel::getHSL](imagickpixel.gethsl.html) — Повертає нормалізований HSL-колір об'єкту ImagickPixel
--   [ImagickPixel::getIndex](imagickpixel.getindex.html) - Опис
--   [ImagickPixel::isPixelSimilar](imagickpixel.ispixelsimilar.html) — Перевіряє відстань між цим кольором та іншим
--   [ImagickPixel::isPixelSimilarQuantum](imagickpixel.ispixelsimilarquantum.html) - Опис
--   [ImagickPixel::isSimilar](imagickpixel.issimilar.html) — Перевірити різницю між цим кольором та іншим
--   [ImagickPixel::setColor](imagickpixel.setcolor.html) - Встановлює колір
--   [ImagickPixel::setColorCount](imagickpixel.setcolorcount.html) - Опис
--   [ImagickPixel::setColorValue](imagickpixel.setcolorvalue.html) - Встановлює нормалізоване значення одного з каналів
--   [ImagickPixel::setColorValueQuantum](imagickpixel.setcolorvaluequantum.html) - Опис
--   [ImagickPixel::setHSL](imagickpixel.sethsl.html) — Встановлення нормалізованого кольору HSL
--   [ImagickPixel::setIndex](imagickpixel.setindex.html) - Опис
+-   [ImagickPixel::clear](imagickpixel.clear.md) — Очищає ресурси, пов'язані із цим об'єктом
+-   [ImagickPixel::construct](imagickpixel.construct.md) - Конструктор ImagickPixel
+-   [ImagickPixel::destroy](imagickpixel.destroy.md) - Звільняє ресурси, пов'язані з цим об'єктом
+-   [ImagickPixel::getColor](imagickpixel.getcolor.md) - Повертає колір
+-   [ImagickPixel::getColorAsString](imagickpixel.getcolorasstring.md) — Повертає колір у вигляді рядка
+-   [ImagickPixel::getColorCount](imagickpixel.getcolorcount.md) — Повертає кількість кольорів, пов'язаних із цим кольором.
+-   [ImagickPixel::getColorQuantum](imagickpixel.getcolorquantum.md) - Опис
+-   [ImagickPixel::getColorValue](imagickpixel.getcolorvalue.md) — Повертає нормалізоване значення кольору каналу
+-   [ImagickPixel::getColorValueQuantum](imagickpixel.getcolorvaluequantum.md) - Опис
+-   [ImagickPixel::getHSL](imagickpixel.gethsl.md) — Повертає нормалізований HSL-колір об'єкту ImagickPixel
+-   [ImagickPixel::getIndex](imagickpixel.getindex.md) - Опис
+-   [ImagickPixel::isPixelSimilar](imagickpixel.ispixelsimilar.md) — Перевіряє відстань між цим кольором та іншим
+-   [ImagickPixel::isPixelSimilarQuantum](imagickpixel.ispixelsimilarquantum.md) - Опис
+-   [ImagickPixel::isSimilar](imagickpixel.issimilar.md) — Перевірити різницю між цим кольором та іншим
+-   [ImagickPixel::setColor](imagickpixel.setcolor.md) - Встановлює колір
+-   [ImagickPixel::setColorCount](imagickpixel.setcolorcount.md) - Опис
+-   [ImagickPixel::setColorValue](imagickpixel.setcolorvalue.md) - Встановлює нормалізоване значення одного з каналів
+-   [ImagickPixel::setColorValueQuantum](imagickpixel.setcolorvaluequantum.md) - Опис
+-   [ImagickPixel::setHSL](imagickpixel.sethsl.md) — Встановлення нормалізованого кольору HSL
+-   [ImagickPixel::setIndex](imagickpixel.setindex.md) - Опис

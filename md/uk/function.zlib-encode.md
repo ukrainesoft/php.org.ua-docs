@@ -58,4 +58,4 @@ echo bin2hex($enc);
 
 ### Дивіться також
 
--   [zlibdecode()](function.zlib-decode.html) - Розпаковує будь-які закодовані дані raw/gzip/zlib
+-   [zlibdecode()](function.zlib-decode.md) - Розпаковує будь-які закодовані дані raw/gzip/zlib

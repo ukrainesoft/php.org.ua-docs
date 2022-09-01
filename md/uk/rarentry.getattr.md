@@ -89,5 +89,5 @@ rar_close($rar_file);
 
 ### Дивіться також
 
--   [RarEntry::getHostOs()](rarentry.gethostos.html) - Повертає оригінальну ОС елемента
--   Константи [RarEntry](class.rarentry.html)
+-   [RarEntry::getHostOs()](rarentry.gethostos.md) - Повертає оригінальну ОС елемента
+-   Константи [RarEntry](class.rarentry.md)

@@ -28,7 +28,7 @@ zip_close(resource $zip): void
 
 `zip`
 
-ZIP-файл має бути відкритий за допомогою функції [zipopen()](function.zip-open.html)
+ZIP-файл має бути відкритий за допомогою функції [zipopen()](function.zip-open.md)
 
 ### Значення, що повертаються
 
@@ -42,5 +42,5 @@ ZIP-файл має бути відкритий за допомогою функ
 
 ### Дивіться також
 
--   [zipopen()](function.zip-open.html) - Відкриває ZIP-архів
--   [zipread()](function.zip-read.html) - Зчитує наступний запис у ZIP-архіві
+-   [zipopen()](function.zip-open.md) - Відкриває ZIP-архів
+-   [zipread()](function.zip-read.md) - Зчитує наступний запис у ZIP-архіві

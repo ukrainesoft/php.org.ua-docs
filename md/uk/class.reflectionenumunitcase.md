@@ -82,11 +82,11 @@ public ReflectionClassConstant::__toString(): string
 
 ## Дивіться також
 
--   [Перечисления](language.enumerations.html)
--   [ReflectionEnumBackedCase](class.reflectionenumbackedcase.html)
+-   [Перечисления](language.enumerations.md)
+-   [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)
 
 ## Зміст
 
--   [ReflectionEnumUnitCase::construct](reflectionenumunitcase.construct.html) — Створює екземпляр об'єкту ReflectionEnumUnitCase
--   [ReflectionEnumUnitCase::getEnum](reflectionenumunitcase.getenum.html) — Отримує Reflection-об'єкт перерахування цього варіанта
--   [ReflectionEnumUnitCase::getValue](reflectionenumunitcase.getvalue.html) — Отримує об'єкт варіанта перерахування, описаний Reflection-об'єктом
+-   [ReflectionEnumUnitCase::construct](reflectionenumunitcase.construct.md) — Створює екземпляр об'єкту ReflectionEnumUnitCase
+-   [ReflectionEnumUnitCase::getEnum](reflectionenumunitcase.getenum.md) — Отримує Reflection-об'єкт перерахування цього варіанта
+-   [ReflectionEnumUnitCase::getValue](reflectionenumunitcase.getvalue.md) — Отримує об'єкт варіанта перерахування, описаний Reflection-об'єктом

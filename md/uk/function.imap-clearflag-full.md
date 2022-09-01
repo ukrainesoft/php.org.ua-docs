@@ -24,7 +24,7 @@ imap_clearflag_full(    IMAP\Connection $imap,    string $sequence,  �
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `sequence`
 
@@ -48,8 +48,8 @@ imap_clearflag_full(    IMAP\Connection $imap,    string $sequence,  �
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [imapsetflagfull()](function.imap-setflag-full.html) - Встановити прапори на повідомлення
+-   [imapsetflagfull()](function.imap-setflag-full.md) - Встановити прапори на повідомлення

@@ -10,6 +10,6 @@ title: Приклади
 
 ## Зміст
 
--   [Приклад Структури Елементу XML](example.xml-structure.html)
--   [Пример отображения XML тегов](example.xml-map-tags.html)
--   [Приклад використання зовнішніх сутностей XML](example.xml-external-entity.html)
+-   [Приклад Структури Елементу XML](example.xml-structure.md)
+-   [Пример отображения XML тегов](example.xml-map-tags.md)
+-   [Приклад використання зовнішніх сутностей XML](example.xml-external-entity.md)

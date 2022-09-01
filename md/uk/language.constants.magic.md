@@ -27,7 +27,7 @@ title: Магічні константи
 ### Дивіться також
 
 -   [::class](language.oop5.basic.html#language.oop5.basic.class.class)
--   [getclass()](function.get-class.html)
--   [getobjectvars()](function.get-object-vars.html)
--   [fileexists()](function.file-exists.html)
--   [functionexists()](function.function-exists.html)
+-   [getclass()](function.get-class.md)
+-   [getobjectvars()](function.get-object-vars.md)
+-   [fileexists()](function.file-exists.md)
+-   [functionexists()](function.function-exists.md)

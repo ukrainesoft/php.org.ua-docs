@@ -12,7 +12,7 @@ title: Клас ParleRParser
 
 ## Вступ
 
-Клас парсеру. Правила можуть бути визначені на льоту. Після завершення необхідно створити екземпляр [ParleRLexer](class.parle-rlexer.html) для доставки потоку токенів.
+Клас парсеру. Правила можуть бути визначені на льоту. Після завершення необхідно створити екземпляр [ParleRLexer](class.parle-rlexer.md) для доставки потоку токенів.
 
 ## Огляд класів
 
@@ -123,19 +123,19 @@ reduceId
 
 ## Зміст
 
--   [ParleRParser::advance](parle-rparser.advance.html) - Обробка наступного правила парсера
--   [ParleRParser::build](parle-rparser.build.html) - Завершує граматичні правила
--   [ParleRParser::consume](parle-rparser.consume.html) — Використовувати дані для обробки
--   [ParleRParser::dump](parle-rparser.dump.html) - Виводить граматику
--   [ParleRParser::errorInfo](parle-rparser.errorinfo.html) — Отримує інформацію про помилку
--   [ParleRParser::left](parle-rparser.left.html) - Оголошує токен з лівою асоціативністю
--   [ParleRParser::nonassoc](parle-rparser.nonassoc.html) - Оголошує токен без асоціативності
--   [ParleRParser::precedence](parle-rparser.precedence.html) — Оголошує правило пріоритету
--   [ParleRParser::push](parle-rparser.push.html) — Додає граматичне правило
--   [ParleRParser::reset](parle-rparser.reset.html) — скидає стан парсера
--   [ParleRParser::right](parle-rparser.right.html) — Оголошує токен із правою асоціативністю
--   [ParleRParser::sigil](parle-rparser.sigil.html) — Витягує збігаючу частину за правилом
--   [ParleRParser::token](parle-rparser.token.html) - Оголошує токен
--   [ParleRParser::tokenId](parle-rparser.tokenid.html) — Отримує ідентифікатор токена
--   [ParleRParser::trace](parle-rparser.trace.html) — Слідкує за роботою парсера
--   [ParleRParser::validate](parle-rparser.validate.html) - Перевіряє вхідні дані
+-   [ParleRParser::advance](parle-rparser.advance.md) - Обробка наступного правила парсера
+-   [ParleRParser::build](parle-rparser.build.md) - Завершує граматичні правила
+-   [ParleRParser::consume](parle-rparser.consume.md) — Використовувати дані для обробки
+-   [ParleRParser::dump](parle-rparser.dump.md) - Виводить граматику
+-   [ParleRParser::errorInfo](parle-rparser.errorinfo.md) — Отримує інформацію про помилку
+-   [ParleRParser::left](parle-rparser.left.md) - Оголошує токен з лівою асоціативністю
+-   [ParleRParser::nonassoc](parle-rparser.nonassoc.md) - Оголошує токен без асоціативності
+-   [ParleRParser::precedence](parle-rparser.precedence.md) — Оголошує правило пріоритету
+-   [ParleRParser::push](parle-rparser.push.md) — Додає граматичне правило
+-   [ParleRParser::reset](parle-rparser.reset.md) — скидає стан парсера
+-   [ParleRParser::right](parle-rparser.right.md) — Оголошує токен із правою асоціативністю
+-   [ParleRParser::sigil](parle-rparser.sigil.md) — Витягує збігаючу частину за правилом
+-   [ParleRParser::token](parle-rparser.token.md) - Оголошує токен
+-   [ParleRParser::tokenId](parle-rparser.tokenid.md) — Отримує ідентифікатор токена
+-   [ParleRParser::trace](parle-rparser.trace.md) — Слідкує за роботою парсера
+-   [ParleRParser::validate](parle-rparser.validate.md) - Перевіряє вхідні дані

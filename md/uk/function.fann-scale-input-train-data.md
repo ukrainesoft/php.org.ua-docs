@@ -40,5 +40,5 @@ fann_scale_input_train_data(resource $train_data, float $new_min, float $new_max
 
 ### Дивіться також
 
--   [fannscaleoutputtraindata()](function.fann-scale-output-train-data.html) - Масштабує вихідні дані у навчальних даних до вказаного діапазону
--   [fannscaletraindata()](function.fann-scale-train-data.html) - Масштабує вхідні та вихідні дані у навчальних даних до вказаного діапазону
+-   [fannscaleoutputtraindata()](function.fann-scale-output-train-data.md) - Масштабує вихідні дані у навчальних даних до вказаного діапазону
+-   [fannscaletraindata()](function.fann-scale-train-data.md) - Масштабує вхідні та вихідні дані у навчальних даних до вказаного діапазону

@@ -20,7 +20,7 @@ win32_start_service_ctrl_dispatcher(string $name, bool $gracefulMode = true): vo
 
 При запуску за допомогою диспетчера служб, процесу служби необхідно звірятися з ним для моніторингу служби та зв'язку з нею. Ця функція виконує звіряння за допомогою створення потоку обробки низькорівневого зв'язку з диспетчером служб.
 
-Після запуску процес служби має здійснити дві дії. Перше – повідомити диспетчеру служб, що службу запущено. Це здійснюється шляхом виклику [win32setservicestatus()](function.win32-set-service-status.html) з константою **`WIN32_SERVICE_RUNNING`**. Якщо вам необхідно виконати тривалий процес перед запуском служби, то ви можете використовувати константу **`WIN32_SERVICE_START_PENDING`**. Друге – продовжити звірку з диспетчером служб, щоб визначити необхідність відключення. Це здійснюється за допомогою періодичного виклику [win32getlastcontrolmessage()](function.win32-get-last-control-message.html) та обробки коду повернення відповідним чином.
+Після запуску процес служби має здійснити дві дії. Перше – повідомити диспетчеру служб, що службу запущено. Це здійснюється шляхом виклику [win32setservicestatus()](function.win32-set-service-status.html) з константою **`WIN32_SERVICE_RUNNING`**. Якщо вам необхідно виконати тривалий процес перед запуском служби, то ви можете використовувати константу **`WIN32_SERVICE_START_PENDING`**. Друге – продовжити звірку з диспетчером служб, щоб визначити необхідність відключення. Це здійснюється за допомогою періодичного виклику [win32getlastcontrolmessage()](function.win32-get-last-control-message.md) та обробки коду повернення відповідним чином.
 
 **Застереження**
 
@@ -30,11 +30,11 @@ win32_start_service_ctrl_dispatcher(string $name, bool $gracefulMode = true): vo
 
 `name`
 
-Коротке ім'я служби, як при додаванні за допомогою [win32createservice()](function.win32-create-service.html)
+Коротке ім'я служби, як при додаванні за допомогою [win32createservice()](function.win32-create-service.md)
 
 `gracefulMode`
 
-**`true`** для "елегантного" виходу . **`false`** для виходу із помилкою. Дивіться [win32setserviceexitmode()](function.win32-set-service-exit-mode.html) для отримання детальної інформації.
+**`true`** для "елегантного" виходу . **`false`** для виходу із помилкою. Дивіться [win32setserviceexitmode()](function.win32-set-service-exit-mode.md) для отримання детальної інформації.
 
 ### Значення, що повертаються
 
@@ -86,8 +86,8 @@ while (WIN32_SERVICE_CONTROL_STOP != win32_get_last_control_message()) {
 
 ### Дивіться також
 
--   [win32setservicestatus()](function.win32-set-service-status.html) - Оновлює статус служби
--   [win32getlastcontrolmessage()](function.win32-get-last-control-message.html) - Повертає останнє керуюче повідомлення, яке було надіслано цій службі
--   [win32setserviceexitmode()](function.win32-set-service-exit-mode.html) - Визначає або повертає режим виходу для поточної запущеної служби
--   [win32setserviceexitcode()](function.win32-set-service-exit-code.html) - Визначає чи повертає код виходу для поточної запущеної служби
+-   [win32setservicestatus()](function.win32-set-service-status.md) - Оновлює статус служби
+-   [win32getlastcontrolmessage()](function.win32-get-last-control-message.md) - Повертає останнє керуюче повідомлення, яке було надіслано цій службі
+-   [win32setserviceexitmode()](function.win32-set-service-exit-mode.md) - Визначає або повертає режим виходу для поточної запущеної служби
+-   [win32setserviceexitcode()](function.win32-set-service-exit-code.md) - Визначає чи повертає код виходу для поточної запущеної служби
 -   [Коди Помилок Win32](win32service.constants.errors.md)

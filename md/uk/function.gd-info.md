@@ -83,10 +83,10 @@ array(10) {
 
 ### Дивіться також
 
--   [imagepng()](function.imagepng.html) - Виведення PNG зображення у браузер або файл
--   [imagejpeg()](function.imagejpeg.html) - Виводить зображення у браузер або пише у файл
--   [imagegif()](function.imagegif.html) - Виводить зображення у браузер або пише у файл
--   [imagewbmp()](function.imagewbmp.html) - Виводить зображення у браузер або пише у файл
--   [imagewebp()](function.imagewebp.html) - Виведення зображення WebP у браузер або файл
--   [imageavif()](function.imageavif.html) - Виводить зображення у браузер або пише у файл
--   [imagetypes()](function.imagetypes.html) - Повертає список типів зображень, які підтримує PHP збірка
+-   [imagepng()](function.imagepng.md) - Виведення PNG зображення у браузер або файл
+-   [imagejpeg()](function.imagejpeg.md) - Виводить зображення у браузер або пише у файл
+-   [imagegif()](function.imagegif.md) - Виводить зображення у браузер або пише у файл
+-   [imagewbmp()](function.imagewbmp.md) - Виводить зображення у браузер або пише у файл
+-   [imagewebp()](function.imagewebp.md) - Виведення зображення WebP у браузер або файл
+-   [imageavif()](function.imageavif.md) - Виводить зображення у браузер або пише у файл
+-   [imagetypes()](function.imagetypes.md) - Повертає список типів зображень, які підтримує PHP збірка

@@ -14,12 +14,12 @@ title: Нові функції
 
 ### [CSPRNG](book.csprng.md)
 
--   [randombytes()](function.random-bytes.html)
--   [randomint()](function.random-int.html)
+-   [randombytes()](function.random-bytes.md)
+-   [randomint()](function.random-int.md)
 
 ### [Обработка и логирование ошибок](book.errorfunc.md)
 
--   [errorclearlast()](function.error-clear-last.html)
+-   [errorclearlast()](function.error-clear-last.md)
 
 ### [Генератори](class.generator.md)
 
@@ -27,7 +27,7 @@ title: Нові функції
 
 ### [Обчислення над цілими числами з довільною точністю (GNU Multiple Precision)](book.gmp.md)
 
--   [gmprandomseed()](function.gmp-random-seed.html)
+-   [gmprandomseed()](function.gmp-random-seed.md)
 
 ### [Математика](book.math.md)
 
@@ -35,16 +35,16 @@ title: Нові функції
 
 ### [PCRE](book.pcre.md)
 
--   [pregreplacecallbackarray()](function.preg-replace-callback-array.html)
+-   [pregreplacecallbackarray()](function.preg-replace-callback-array.md)
 
 ### [Опции/информация PHP](book.info.md)
 
--   [гкmemcaches()](function.gc-mem-caches.html)
--   [getresources()](function.get-resources.html)
+-   [гкmemcaches()](function.gc-mem-caches.md)
+-   [getresources()](function.get-resources.md)
 
 ### [POSIX](book.posix.md)
 
--   [posixsetrlimit()](function.posix-setrlimit.html)
+-   [posixsetrlimit()](function.posix-setrlimit.md)
 
 ### [Reflection](book.reflection.md)
 
@@ -60,7 +60,7 @@ title: Нові функції
 
 ### [Компрессия Zlib](book.zlib.md)
 
--   [inflateadd()](function.inflate-add.html)
--   [deflateadd()](function.deflate-add.html)
--   [inflateinit()](function.inflate-init.html)
--   [deflateinit()](function.deflate-init.html)
+-   [inflateadd()](function.inflate-add.md)
+-   [deflateadd()](function.deflate-add.md)
+-   [inflateinit()](function.inflate-init.md)
+-   [deflateinit()](function.deflate-init.md)

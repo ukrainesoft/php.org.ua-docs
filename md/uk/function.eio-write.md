@@ -24,7 +24,7 @@ eio_write(    mixed $fd,    string $str,    int $length = 0,    
 
 `fd`
 
-Потік, ресурс сокету або числовий файловий дескриптор, наприклад, отриманий з [eioopen()](function.eio-open.html)
+Потік, ресурс сокету або числовий файловий дескриптор, наприклад, отриманий з [eioopen()](function.eio-open.md)
 
 `str`
 
@@ -60,7 +60,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
 
@@ -72,4 +72,4 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Дивіться також
 
--   [eioopen()](function.eio-open.html) - Відкриває файл
+-   [eioopen()](function.eio-open.md) - Відкриває файл

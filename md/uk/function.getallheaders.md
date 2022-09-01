@@ -20,7 +20,7 @@ getallheaders(): array
 
 Повертає всі заголовки для поточного запиту HTTP.
 
-Ця функція є псевдонімом функції [apacherequestheaders()](function.apache-request-headers.html). Будь ласка, зверніться до опису функції [apacherequestheaders()](function.apache-request-headers.html) для отримання детальної інформації про її роботу.
+Ця функція є псевдонімом функції [apacherequestheaders()](function.apache-request-headers.html). Будь ласка, зверніться до опису функції [apacherequestheaders()](function.apache-request-headers.md) для отримання детальної інформації про її роботу.
 
 ### Список параметрів
 
@@ -52,4 +52,4 @@ foreach (getallheaders() as $name => $value) {
 
 ### Дивіться також
 
--   [apacheresponseheaders()](function.apache-response-headers.html) - Повертає список усіх HTTP-заголовків відповіді Apache
+-   [apacheresponseheaders()](function.apache-response-headers.md) - Повертає список усіх HTTP-заголовків відповіді Apache

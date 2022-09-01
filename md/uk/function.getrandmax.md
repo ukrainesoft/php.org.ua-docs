@@ -32,4 +32,4 @@ getrandmax(): int
 
 -   [rand()](function.rand.md) - Генерує випадкове число
 -   [srand()](function.srand.md) - Змінює початкове число генератора псевдовипадкових чисел
--   [мтgetrandmax()](function.mt-getrandmax.html) - Показує максимально можливе значення випадкового числа
+-   [мтgetrandmax()](function.mt-getrandmax.md) - Показує максимально можливе значення випадкового числа

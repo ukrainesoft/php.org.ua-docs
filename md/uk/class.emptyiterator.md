@@ -42,8 +42,8 @@ public valid(): bool
 
 ## Зміст
 
--   [EmptyIterator::current](emptyiterator.current.html) - Метод current()
--   [EmptyIterator::key](emptyiterator.key.html) - Метод key()
--   [EmptyIterator::next](emptyiterator.next.html) - Метод next()
--   [EmptyIterator::rewind](emptyiterator.rewind.html) - Метод rewind()
--   [EmptyIterator::valid](emptyiterator.valid.html) - Метод valid()
+-   [EmptyIterator::current](emptyiterator.current.md) - Метод current()
+-   [EmptyIterator::key](emptyiterator.key.md) - Метод key()
+-   [EmptyIterator::next](emptyiterator.next.md) - Метод next()
+-   [EmptyIterator::rewind](emptyiterator.rewind.md) - Метод rewind()
+-   [EmptyIterator::valid](emptyiterator.valid.md) - Метод valid()

@@ -28,7 +28,7 @@ final public MongoDB\Driver\ReadPreference::getModeString(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
@@ -67,5 +67,5 @@ string(7) "nearest"
 
 ### Дивіться також
 
--   [MongoDBDriverReadPreference::getMode()](mongodb-driver-readpreference.getmode.html) - Повертає параметр "mode" ReadPreference
+-   [MongoDBDriverReadPreference::getMode()](mongodb-driver-readpreference.getmode.md) - Повертає параметр "mode" ReadPreference
 -   [» Документация по Read Preference](https://www.mongodb.com/docs/manual/core/read-preference/)

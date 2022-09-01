@@ -34,7 +34,7 @@ imap_mail(    string $to,    string $subject,    string $message, �
 
 `message`
 
-Тіло листа, дивіться [imapmailcompose()](function.imap-mail-compose.html)
+Тіло листа, дивіться [imapmailcompose()](function.imap-mail-compose.md)
 
 `additional_headers`
 
@@ -62,5 +62,5 @@ imap_mail(    string $to,    string $subject,    string $message, �
 
 ### Дивіться також
 
--   [mail()](function.mail.html) - Надсилає електронну пошту
--   [imapmailcompose()](function.imap-mail-compose.html) - Створити MIME-повідомлення на основі заданих обгортки та тіла
+-   [mail()](function.mail.md) - Надсилає електронну пошту
+-   [imapmailcompose()](function.imap-mail-compose.md) - Створити MIME-повідомлення на основі заданих обгортки та тіла

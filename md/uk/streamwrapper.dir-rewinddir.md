@@ -20,7 +20,7 @@ public streamWrapper::dir_rewinddir(): bool
 
 Цей метод викликається у процесі виконання [rewinddir()](function.rewinddir.md)
 
-Повинен скидати поточний висновок, що генерується методом [streamWrapper::dirreaddir()](streamwrapper.dir-readdir.html). Тобто. при наступному виклику метод [streamWrapper::dirreaddir()](streamwrapper.dir-readdir.html) повинен повертати перший запис у директорії, визначеній методом [streamWrapper::diropendir()](streamwrapper.dir-opendir.html)
+Повинен скидати поточний висновок, що генерується методом [streamWrapper::dirreaddir()](streamwrapper.dir-readdir.html). Тобто. при наступному виклику метод [streamWrapper::dirreaddir()](streamwrapper.dir-readdir.html) повинен повертати перший запис у директорії, визначеній методом [streamWrapper::diropendir()](streamwrapper.dir-opendir.md)
 
 ### Список параметрів
 
@@ -33,4 +33,4 @@ public streamWrapper::dir_rewinddir(): bool
 ### Дивіться також
 
 -   [rewinddir()](function.rewinddir.md) - Скинути дескриптор каталогу
--   [streamWrapper::dirreaddir()](streamwrapper.dir-readdir.html) - Читання запису з дескриптора директорії
+-   [streamWrapper::dirreaddir()](streamwrapper.dir-readdir.md) - Читання запису з дескриптора директорії

@@ -24,7 +24,7 @@ localtime(?int $timestamp = null, bool $associative = false): array
 
 `timestamp`
 
-Необов'язковий параметр `timestamp` являє собою мітку часу типу int, за умовчанням рівну поточному локальному часу, якщо `timestamp` не вказано або **`null`**. Іншими словами, значення за замовчуванням дорівнює результату функції [time()](function.time.html)
+Необов'язковий параметр `timestamp` являє собою мітку часу типу int, за умовчанням рівну поточному локальному часу, якщо `timestamp` не вказано або **`null`**. Іншими словами, значення за замовчуванням дорівнює результату функції [time()](function.time.md)
 
 `associative`
 
@@ -46,7 +46,7 @@ localtime(?int $timestamp = null, bool $associative = false): array
 
 ### Помилки
 
-Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [datedefaulttimezoneset()](function.date-default-timezone-set.html)
+Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [datedefaulttimezoneset()](function.date-default-timezone-set.md)
 
 ### список змін
 
@@ -99,4 +99,4 @@ Array
 
 ### Дивіться також
 
--   [getdate()](function.getdate.html) - Повертає інформацію про дату/час
+-   [getdate()](function.getdate.md) - Повертає інформацію про дату/час

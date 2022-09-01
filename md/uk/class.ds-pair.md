@@ -43,9 +43,9 @@ public toArray(): array
 
 ## Зміст
 
--   [ДсPair::clear](ds-pair.clear.html) - Видаляє всі значення
--   [ДсPair::construct](ds-pair.construct.html) - Створює екземпляр класу
--   [ДсPair::copy](ds-pair.copy.html) — Повертає поверхневу копію пари
--   [ДсPair::isEmpty](ds-pair.isempty.html) — Перевіряє, чи пара порожня.
--   [ДсPair::jsonSerialize](ds-pair.jsonserialize.html) — Повертає пару у виставі JSON
--   [ДсPair::toArray](ds-pair.toarray.html) - Перетворює пару в масив (array)
+-   [ДсPair::clear](ds-pair.clear.md) - Видаляє всі значення
+-   [ДсPair::construct](ds-pair.construct.md) - Створює екземпляр класу
+-   [ДсPair::copy](ds-pair.copy.md) — Повертає поверхневу копію пари
+-   [ДсPair::isEmpty](ds-pair.isempty.md) — Перевіряє, чи пара порожня.
+-   [ДсPair::jsonSerialize](ds-pair.jsonserialize.md) — Повертає пару у виставі JSON
+-   [ДсPair::toArray](ds-pair.toarray.md) - Перетворює пару в масив (array)

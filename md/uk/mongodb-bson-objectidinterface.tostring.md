@@ -28,4 +28,4 @@ abstract public MongoDB\BSON\ObjectIdInterface::__toString(): string
 
 ### Дивіться також
 
--   [MongoDBBSONObjectId::toString()](mongodb-bson-objectid.tostring.html) - Повертає шістнадцяткову виставу ObjectId
+-   [MongoDBBSONObjectId::toString()](mongodb-bson-objectid.tostring.md) - Повертає шістнадцяткову виставу ObjectId

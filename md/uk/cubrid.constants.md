@@ -10,7 +10,7 @@ title: Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
-Наступні константи можна використовувати під час створення SQL-запросов. Для цього їх можна задати у функціях [cubridprepare()](function.cubrid-prepare.html) і [cubridexecute()](function.cubrid-execute.html)
+Наступні константи можна використовувати під час створення SQL-запросов. Для цього їх можна задати у функціях [cubridprepare()](function.cubrid-prepare.html) і [cubridexecute()](function.cubrid-execute.md)
 
 **Прапори виконання SQL-запиту CUBRID**
 
@@ -20,7 +20,7 @@ title: Обумовлені константи
 | CUBRIDASYNC | Запуск запиту асинхронному режимі. |
 | CUBRIDEXECQUERYALL | Запуск запиту у синхронному режимі. Цей прапор необхідно встановлювати, коли виконуються множинні SQL-запити. |
 
-Наступні константи використовуються при отриманні результатів. Їх можна задавати у функціях [cubridfetch()](function.cubrid-fetch.html) і [cubridfetcharray()](function.cubrid-fetch-array.html)
+Наступні константи використовуються при отриманні результатів. Їх можна задавати у функціях [cubridfetch()](function.cubrid-fetch.html) і [cubridfetcharray()](function.cubrid-fetch-array.md)
 
 **Прапори вилучення CUBRID**
 
@@ -30,9 +30,9 @@ title: Обумовлені константи
 | CUBRIDASSOC | Отримати результат як асоціативного масиву. |
 | CUBRIDBOTH | Отримати результат у вигляді індексованого та асоціативного масивів (за замовчуванням). |
 | CUBRIDOBJECT | Отримати результат як об'єкта. |
-| CUBRIDЛОБ | Константа CUBRIDLOB може бути використана під час роботи з LOB об'єктами. Її можна задати у функціях [cubridfetch()](function.cubrid-fetch.html) [cubridfetchrow()](function.cubrid-fetch-row.html) [cubridfetcharray()](function.cubrid-fetch-array.html) [cubridfetchassoc()](function.cubrid-fetch-assoc.html) і [cubridfetchobject()](function.cubrid-fetch-object.html) |
+| CUBRIDЛОБ | Константа CUBRIDLOB може бути використана під час роботи з LOB об'єктами. Її можна задати у функціях [cubridfetch()](function.cubrid-fetch.html) [cubridfetchrow()](function.cubrid-fetch-row.html) [cubridfetcharray()](function.cubrid-fetch-array.html) [cubridfetchassoc()](function.cubrid-fetch-assoc.html) і [cubridfetchobject()](function.cubrid-fetch-object.md) |
 
-Наступні константи використовуються при позиціонуванні курсору в результуючому наборі. Вони передаються та повертаються функцією [cubridmovecursor()](function.cubrid-move-cursor.html)
+Наступні константи використовуються при позиціонуванні курсору в результуючому наборі. Вони передаються та повертаються функцією [cubridmovecursor()](function.cubrid-move-cursor.md)
 
 **Прапори позиціонування курсору CUBRID**
 
@@ -41,11 +41,11 @@ title: Обумовлені константи
 | CUBRIDCURSORFIRST | Перемістити поточні курси на перший запис. |
 | CUBRIDCURSORCURRENT | Переміщати курсор щодо його поточної позиції. Використовується за промовчанням. |
 | CUBRIDCURSORLAST | Перемістити поточні курси на останній запис. |
-| CUBRIDCURSORSUCCESS | Повертається функцією [cubridmovecursor()](function.cubrid-move-cursor.html) у разі успішного виконання. Прапор видалено з версії 8.4.1. |
-| CUBRIDАЛЕMOREDATA | Повертається функцією [cubridmovecursor()](function.cubrid-move-cursor.html) у разі виникнення помилки. Прапор видалено з версії 8.4.1. |
-| CUBRIDCURSORERROR | Повертається функцією [cubridmovecursor()](function.cubrid-move-cursor.html) у разі виникнення помилки. Прапор видалено з версії 8.4.1. |
+| CUBRIDCURSORSUCCESS | Повертається функцією [cubridmovecursor()](function.cubrid-move-cursor.md) у разі успішного виконання. Прапор видалено з версії 8.4.1. |
+| CUBRIDАЛЕMOREDATA | Повертається функцією [cubridmovecursor()](function.cubrid-move-cursor.md) у разі виникнення помилки. Прапор видалено з версії 8.4.1. |
+| CUBRIDCURSORERROR | Повертається функцією [cubridmovecursor()](function.cubrid-move-cursor.md) у разі виникнення помилки. Прапор видалено з версії 8.4.1. |
 
-Наступні константи використовуються для визначення режиму автоматичного підтвердження транзакцій. Встановлюються у функції [cubridsetautocommit()](function.cubrid-set-autocommit.html) або повертаються [cubridgetautocommit()](function.cubrid-get-autocommit.html)
+Наступні константи використовуються для визначення режиму автоматичного підтвердження транзакцій. Встановлюються у функції [cubridsetautocommit()](function.cubrid-set-autocommit.html) або повертаються [cubridgetautocommit()](function.cubrid-get-autocommit.md)
 
 **Прапори автопідтвердження транзакцій CUBRID**
 
@@ -54,7 +54,7 @@ title: Обумовлені константи
 | CUBRIDAUTOCOMMITTRUE | Дозволити режим автоматичного підтвердження транзакції. |
 | CUBRIDAUTOCOMMITFALSE | Заборонити автоматичне підтвердження транзакції. |
 
-Наведені нижче константи можна використовувати для встановлення параметрів бази даних. Використовуються у функції [cubridsetдбparameter()](function.cubrid-set-db-parameter.html)
+Наведені нижче константи можна використовувати для встановлення параметрів бази даних. Використовуються у функції [cubridsetдбparameter()](function.cubrid-set-db-parameter.md)
 
 **Прапорці параметрів бази даних CUBRID**
 
@@ -63,7 +63,7 @@ title: Обумовлені константи
 | CUBRIDPARAMISOLATIONLEVEL | Рівень ізоляції для з'єднання. |
 | CUBRIDPARAMLOCKTIMEOUT | Час очікування транзакцій. |
 
-Наступні константи використовуються для визначення рівня ізоляції для транзакцій. Задаються в [cubridsetдбparameter()](function.cubrid-set-db-parameter.html) і повертаються з [cubridgetдбparameter()](function.cubrid-get-db-parameter.html)
+Наступні константи використовуються для визначення рівня ізоляції для транзакцій. Задаються в [cubridsetдбparameter()](function.cubrid-set-db-parameter.html) і повертаються з [cubridgetдбparameter()](function.cubrid-get-db-parameter.md)
 
 **Прапори рівня ізоляції транзакції CUBRID**
 
@@ -76,7 +76,7 @@ title: Обумовлені константи
 | TRANREPCLASSREPINSTANCE | Відносно високий рівень ізоляції (5). Брудного та неповторного читання не буде, але фантомне може статися. |
 | TRANSERIALIZABLE | Найвищий рівень ізоляції (6). Ні брудного, ні фантомного, ні читання, що не повторюється, не відбудеться. |
 
-Наступні константи використовують при отриманні схеми бази даних. Використовуються у функції [cubridschema()](function.cubrid-schema.html)
+Наступні константи використовують при отриманні схеми бази даних. Використовуються у функції [cubridschema()](function.cubrid-schema.md)
 
 **Прапори схеми CUBRID**
 
@@ -102,7 +102,7 @@ title: Обумовлені константи
 | CUBRIDSCHEXPORTEDKEYS | Отримати експортовані ключі таблиці. |
 | CUBRIDSCHCROSSREFERENCE | Отримати зв'язки двох таблиць. |
 
-Наступні константи використовуються для позначення помилок. Вони можуть бути повернуті функцією [cubriderrorcodefacility()](function.cubrid-error-code-facility.html)
+Наступні константи використовуються для позначення помилок. Вони можуть бути повернуті функцією [cubriderrorcodefacility()](function.cubrid-error-code-facility.md)
 
 **Коди помилок CUBRID**
 

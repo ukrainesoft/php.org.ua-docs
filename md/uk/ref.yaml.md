@@ -10,8 +10,8 @@ title: Функції Yaml
 
 ## Зміст
 
--   [yamlemitfile](function.yaml-emit-file.html) — Відправляє YAML-подання значення файлу
--   [yamlemit](function.yaml-emit.html) — Повертає YAML-подання значення
--   [yamlparsefile](function.yaml-parse-file.html) — Розбирає YAML-потік із файлу
--   [yamlparseurl](function.yaml-parse-url.html) — Розбирає YAML-потік із URL
--   [yamlparse](function.yaml-parse.html) - Розбирає потік YAML
+-   [yamlemitfile](function.yaml-emit-file.md) — Відправляє YAML-подання значення файлу
+-   [yamlemit](function.yaml-emit.md) — Повертає YAML-подання значення
+-   [yamlparsefile](function.yaml-parse-file.md) — Розбирає YAML-потік із файлу
+-   [yamlparseurl](function.yaml-parse-url.md) — Розбирає YAML-потік із URL
+-   [yamlparse](function.yaml-parse.md) - Розбирає потік YAML

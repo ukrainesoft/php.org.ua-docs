@@ -20,13 +20,13 @@ yaz_search(resource $id, string $type, string $query): bool
 
 **yazsearch()** готує пошук на заданому з'єднанні.
 
-Так само як і [yazconnect()](function.yaz-connect.html) ця функція не блокує і лише готує умови пошуку, який буде виконаний функцією [yazwait()](function.yaz-wait.html)
+Так само як і [yazconnect()](function.yaz-connect.html) ця функція не блокує і лише готує умови пошуку, який буде виконаний функцією [yazwait()](function.yaz-wait.md)
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, що повертається функцією [yazconnect()](function.yaz-connect.html)
+Дескриптор з'єднання, що повертається функцією [yazconnect()](function.yaz-connect.md)
 
 `type`
 
@@ -47,11 +47,11 @@ yaz_search(resource $id, string $type, string $query): bool
 | `@attrset` set query | визначає набір атрибутів `set` для запиту `query`. Ця конструкція доступна лише один раз – на самому початку запиту. |
 | `@attr` set type=value query | встановлює атрибути запиту. Значення `type` і `value` - Цілочисленні та визначають тип атрибуту та тип значення відповідно. Значення `set`, якщо його встановлено, визначає налаштування атрибутів. |
 
-Всю інформацію про доступні атрибути ви можете знайти на сайті [» Z39.50 Maintenance Agency](http://www.loc.gov/z3950/agency/defns/bib1.html)
+Всю інформацію про доступні атрибути ви можете знайти на сайті [» Z39.50 Maintenance Agency](http://www.loc.gov/z3950/agency/defns/bib1.md)
 
 > **Зауваження**
 > 
-> Якщо ви хочете використовувати більш дружню нотацію, використовуйте CCL парсер - функції [yazcclconf()](function.yaz-ccl-conf.html) і [yazcclparse()](function.yaz-ccl-parse.html)
+> Якщо ви хочете використовувати більш дружню нотацію, використовуйте CCL парсер - функції [yazcclconf()](function.yaz-ccl-conf.html) і [yazcclparse()](function.yaz-ccl-parse.md)
 
 ### Значення, що повертаються
 

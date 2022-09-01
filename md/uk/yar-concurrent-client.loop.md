@@ -86,7 +86,7 @@ string(11) "some_method"
 
 ### Дивіться також
 
--   [YarConcurrentClient::call()](yar-concurrent-client.call.html) - Зареєструвати конкурентний виклик
--   [YarConcurrentClient::reset()](yar-concurrent-client.reset.html) - Очистити всі зареєстровані дзвінки
--   [YarServer::construct()](yar-server.construct.html) - Конструктор YarServer
--   [YarServer::handle()](yar-server.handle.html) - Запустити сервер RPC
+-   [YarConcurrentClient::call()](yar-concurrent-client.call.md) - Зареєструвати конкурентний виклик
+-   [YarConcurrentClient::reset()](yar-concurrent-client.reset.md) - Очистити всі зареєстровані дзвінки
+-   [YarServer::construct()](yar-server.construct.md) - Конструктор YarServer
+-   [YarServer::handle()](yar-server.handle.md) - Запустити сервер RPC

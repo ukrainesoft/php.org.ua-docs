@@ -24,7 +24,7 @@ tidy_access_count(tidy $tidy): int
 
 `tidy`
 
-Об'єкт [Tidy](class.tidy.html)
+Об'єкт [Tidy](class.tidy.md)
 
 ### Значення, що повертаються
 
@@ -65,9 +65,9 @@ echo tidy_access_count($tidy); //5
 
 > **Зауваження**
 > 
-> Відповідно до дизайну TidyLib, слід викликати [tidydiagnose()](tidy.diagnose.html) до **tidyaccesscount()** або останній завжди повертатиме `0`. Необхідно також вказувати параметр конфігурації `accessibility-check`
+> Відповідно до дизайну TidyLib, слід викликати [tidydiagnose()](tidy.diagnose.md) до **tidyaccesscount()** або останній завжди повертатиме `0`. Необхідно також вказувати параметр конфігурації `accessibility-check`
 
 ### Дивіться також
 
--   [tidyerrorcount()](function.tidy-error-count.html) - Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
--   [tidywarningcount()](function.tidy-warning-count.html) - Повертає число Tidy-попереджень, зустрінутих у зазначеному документі
+-   [tidyerrorcount()](function.tidy-error-count.md) - Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
+-   [tidywarningcount()](function.tidy-warning-count.md) - Повертає число Tidy-попереджень, зустрінутих у зазначеному документі

@@ -50,9 +50,9 @@ getmxrr(string $hostname, array &$hosts, array &$weights = null): bool
 
 ### Дивіться також
 
--   [checkdnsrr()](function.checkdnsrr.html) - Перевіряє записи DNS, що відповідають переданому імені вузла Інтернету або IP-адресі
--   [dnsgetrecord()](function.dns-get-record.html) - Отримання ресурсних записів DNS хоста
--   [gethostbyname()](function.gethostbyname.html) - Отримує IPv4-адресу, що відповідає переданому імені хоста
--   [gethostbynamel()](function.gethostbynamel.html) - Отримує список IPv4-адрес, що відповідають переданому доменному імені хоста
--   [gethostbyaddr()](function.gethostbyaddr.html) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
+-   [checkdnsrr()](function.checkdnsrr.md) - Перевіряє записи DNS, що відповідають переданому імені вузла Інтернету або IP-адресі
+-   [dnsgetrecord()](function.dns-get-record.md) - Отримання ресурсних записів DNS хоста
+-   [gethostbyname()](function.gethostbyname.md) - Отримує IPv4-адресу, що відповідає переданому імені хоста
+-   [gethostbynamel()](function.gethostbynamel.md) - Отримує список IPv4-адрес, що відповідають переданому доменному імені хоста
+-   [gethostbyaddr()](function.gethostbyaddr.md) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
 -   сторінка керівництва `named(8)`

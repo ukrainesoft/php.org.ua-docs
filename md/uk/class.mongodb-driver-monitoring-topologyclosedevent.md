@@ -37,4 +37,4 @@ title: Клас MongoDBDriverMonitoringTopologyClosedEvent
 
 ## Зміст
 
--   [MongoDBDriverMonitoringTopologyClosedEvent::getTopologyId](mongodb-driver-monitoring-topologyclosedevent.gettopologyid.html) - Повертає ідентифікатор топології
+-   [MongoDBDriverMonitoringTopologyClosedEvent::getTopologyId](mongodb-driver-monitoring-topologyclosedevent.gettopologyid.md) - Повертає ідентифікатор топології

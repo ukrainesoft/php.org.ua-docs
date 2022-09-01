@@ -26,7 +26,7 @@ gmp_pow(GMP|int|string $num, int $exponent): GMP
 
 Підстава ступеня.
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `exponent`
 

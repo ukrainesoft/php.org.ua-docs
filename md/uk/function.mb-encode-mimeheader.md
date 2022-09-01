@@ -24,7 +24,7 @@ mb_encode_mimeheader(    string $string,    ?string $charset = null,  
 
 `string`
 
-Кодований рядок типу string. Її кодування має відповідати [мбinternalencoding()](function.mb-internal-encoding.html)
+Кодований рядок типу string. Її кодування має відповідати [мбinternalencoding()](function.mb-internal-encoding.md)
 
 `charset`
 
@@ -80,4 +80,4 @@ echo $addr;
 
 ### Дивіться також
 
--   [мбdecodemimeheader()](function.mb-decode-mimeheader.html) - Декодує рядок у MIME-заголовку
+-   [мбdecodemimeheader()](function.mb-decode-mimeheader.md) - Декодує рядок у MIME-заголовку

@@ -64,6 +64,6 @@ foreach ($strings as $testcase) {
 
 ### Дивіться також
 
--   [ctypeupper()](function.ctype-upper.html) - Перевіряє наявність символів у верхньому регістрі
--   [ctypelower()](function.ctype-lower.html) - Перевіряє наявність символів у нижньому регістрі
+-   [ctypeupper()](function.ctype-upper.md) - Перевіряє наявність символів у верхньому регістрі
+-   [ctypelower()](function.ctype-lower.md) - Перевіряє наявність символів у нижньому регістрі
 -   [setlocale()](function.setlocale.md) - Встановлює налаштування локалі

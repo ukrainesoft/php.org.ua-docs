@@ -26,7 +26,7 @@ socket_wsaprotocol_info_import(string $info_id): Socket|false
 
 `info_id`
 
-Ідентифікатор, отриманий під час виклику [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.html)
+Ідентифікатор, отриманий під час виклику [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.md)
 
 ### Значення, що повертаються
 
@@ -40,4 +40,4 @@ socket_wsaprotocol_info_import(string $info_id): Socket|false
 
 ### Дивіться також
 
--   [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.html) - Експорт структури WSAPROTOCOLINFO
+-   [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.md) - Експорт структури WSAPROTOCOLINFO

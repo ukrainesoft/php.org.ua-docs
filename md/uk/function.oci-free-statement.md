@@ -18,7 +18,7 @@ ocifreestatement — Звільняє ресурси, які займає кур
 oci_free_statement(resource $statement): bool
 ```
 
-Звільняє всі ресурси, що займаються курсором або SQL-виразом, яке повернуто функцією [ociparse()](function.oci-parse.html) або отримано від сервера Oracle.
+Звільняє всі ресурси, що займаються курсором або SQL-виразом, яке повернуто функцією [ociparse()](function.oci-parse.md) або отримано від сервера Oracle.
 
 ### Список параметрів
 

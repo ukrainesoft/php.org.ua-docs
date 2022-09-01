@@ -18,7 +18,7 @@ YafDispatcher::getApplication — Отримує програму
 public Yaf_Dispatcher::getApplication(): Yaf_Application
 ```
 
-Отримує екземпляр [YafApplication](class.yaf-application.html). Те саме, що і [YafApplication::app()](yaf-application.app.html)
+Отримує екземпляр [YafApplication](class.yaf-application.html). Те саме, що і [YafApplication::app()](yaf-application.app.md)
 
 ### Список параметрів
 
@@ -28,4 +28,4 @@ public Yaf_Dispatcher::getApplication(): Yaf_Application
 
 ### Дивіться також
 
--   [YafApplication::app()](yaf-application.app.html) - Витягти екземпляр програми
+-   [YafApplication::app()](yaf-application.app.md) - Витягти екземпляр програми

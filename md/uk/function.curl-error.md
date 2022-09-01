@@ -24,7 +24,7 @@ curl_error(CurlHandle $handle): string
 
 `handle`
 
-Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
 
 ### Значення, що повертаються
 
@@ -62,5 +62,5 @@ curl_close($ch);
 
 ### Дивіться також
 
--   [curlerrno()](function.curl-errno.html) - Повертає код останньої помилки
--   [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+-   [curlerrno()](function.curl-errno.md) - Повертає код останньої помилки
+-   [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)

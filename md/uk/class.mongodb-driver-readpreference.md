@@ -156,16 +156,16 @@ final public unserialize(string $serialized): void
 
 Додані константи **`MongoDB\Driver\ReadPreference::NO_MAX_STALENESS`** і **`MongoDB\Driver\ReadPreference::SMALLEST_MAX_STALENESS_SECONDS`**
 
-Реалізує [MongoDBBSONSerializable](class.mongodb-bson-serializable.html)
+Реалізує [MongoDBBSONSerializable](class.mongodb-bson-serializable.md)
 
 ## Зміст
 
--   [MongoDBDriverReadPreference::bsonSerialize](mongodb-driver-readpreference.bsonserialize.html) — Повертає об'єкт серіалізації BSON
--   [MongoDBDriverReadPreference::construct](mongodb-driver-readpreference.construct.html) — Створити новий ReadPreference
--   [MongoDBDriverReadPreference::getHedge](mongodb-driver-readpreference.gethedge.html) — Повертає опцію "hedge" із ReadPreference
--   [MongoDBDriverReadPreference::getMaxStalenessSeconds](mongodb-driver-readpreference.getmaxstalenessseconds.html) — Повертає параметр "maxStalenessSeconds" ReadPreference
--   [MongoDBDriverReadPreference::getMode](mongodb-driver-readpreference.getmode.html) - Повертає параметр "mode" ReadPreference
--   [MongoDBDriverReadPreference::getModeString](mongodb-driver-readpreference.getmodestring.html) - Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
--   [MongoDBDriverReadPreference::getTagSets](mongodb-driver-readpreference.gettagsets.html) - Повертає параметр "tagSets" ReadPreference
--   [MongoDBDriverReadPreference::serialize](mongodb-driver-readpreference.serialize.html) — Серіалізація ReadPreference
--   [MongoDBDriverReadPreference::unserialize](mongodb-driver-readpreference.unserialize.html) - Десеріалізація ReadPreference
+-   [MongoDBDriverReadPreference::bsonSerialize](mongodb-driver-readpreference.bsonserialize.md) — Повертає об'єкт серіалізації BSON
+-   [MongoDBDriverReadPreference::construct](mongodb-driver-readpreference.construct.md) — Створити новий ReadPreference
+-   [MongoDBDriverReadPreference::getHedge](mongodb-driver-readpreference.gethedge.md) — Повертає опцію "hedge" із ReadPreference
+-   [MongoDBDriverReadPreference::getMaxStalenessSeconds](mongodb-driver-readpreference.getmaxstalenessseconds.md) — Повертає параметр "maxStalenessSeconds" ReadPreference
+-   [MongoDBDriverReadPreference::getMode](mongodb-driver-readpreference.getmode.md) - Повертає параметр "mode" ReadPreference
+-   [MongoDBDriverReadPreference::getModeString](mongodb-driver-readpreference.getmodestring.md) - Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
+-   [MongoDBDriverReadPreference::getTagSets](mongodb-driver-readpreference.gettagsets.md) - Повертає параметр "tagSets" ReadPreference
+-   [MongoDBDriverReadPreference::serialize](mongodb-driver-readpreference.serialize.md) — Серіалізація ReadPreference
+-   [MongoDBDriverReadPreference::unserialize](mongodb-driver-readpreference.unserialize.md) - Десеріалізація ReadPreference

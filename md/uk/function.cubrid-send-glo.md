@@ -64,6 +64,6 @@ if ($req) {
 
 ### Дивіться також
 
--   [cubridnewglo()](function.cubrid-new-glo.html) - Створює екземпляр glo
--   [cubridsaveтоglo()](function.cubrid-save-to-glo.html) - Зберігає запитаний файл в екземплярі GLO
--   [cubridloadfromglo()](function.cubrid-load-from-glo.html) - Читає дані з екземпляра GLO та записує їх у файл
+-   [cubridnewglo()](function.cubrid-new-glo.md) - Створює екземпляр glo
+-   [cubridsaveтоglo()](function.cubrid-save-to-glo.md) - Зберігає запитаний файл в екземплярі GLO
+-   [cubridloadfromglo()](function.cubrid-load-from-glo.md) - Читає дані з екземпляра GLO та записує їх у файл

@@ -18,13 +18,13 @@ title: псendpattern
 ps_end_pattern(resource $psdoc): bool
 ```
 
-Завершує шаблон, який було розпочато з [псbeginpattern()](function.ps-begin-pattern.html). Коли шаблон закінчено, його можна використовувати як колір заливки областей.
+Завершує шаблон, який було розпочато з [псbeginpattern()](function.ps-begin-pattern.md). Коли шаблон закінчено, його можна використовувати як колір заливки областей.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ ps_end_pattern(resource $psdoc): bool
 
 ### Дивіться також
 
--   [псbeginpattern()](function.ps-begin-pattern.html) - Починає новий візерунок
+-   [псbeginpattern()](function.ps-begin-pattern.md) - Починає новий візерунок

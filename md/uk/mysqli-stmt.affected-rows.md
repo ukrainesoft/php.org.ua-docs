@@ -18,7 +18,7 @@ mysqlistmt::$affectedrows - mysqlistmtaffectedrows - Повертає загал
 
 Об'єктно-орієнтований стиль
 
-int|string [$mysqlistmt->affectedrows](mysqli-stmt.affected-rows.html)
+int|string [$mysqlistmt->affectedrows](mysqli-stmt.affected-rows.md)
 
 Процедурний стиль
 
@@ -26,17 +26,17 @@ int|string [$mysqlistmt->affectedrows](mysqli-stmt.affected-rows.html)
 mysqli_stmt_affected_rows(mysqli_stmt $statement): int|string
 ```
 
-Повертає кількість рядків, змінених запитом `INSERT` `UPDATE` або `DELETE`. Працює аналогічно [mysqlistmtnumrows()](mysqli-stmt.num-rows.html) для виразів `SELECT`
+Повертає кількість рядків, змінених запитом `INSERT` `UPDATE` або `DELETE`. Працює аналогічно [mysqlistmtnumrows()](mysqli-stmt.num-rows.md) для виразів `SELECT`
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
-Ціле число більше за нуль вказує кількість порушених або вилучених рядків. Нуль означає, що записи для оператора `UPDATE` не оновлювалися, жодний рядок не відповідав виразу `WHERE` у запиті або що жодного запиту ще не було виконано . `-1` означає, що під час виконання запиту сталася помилка або для запиту `SELECT` **mysqlistmtaffectedrows()** була викликана до виклику [mysqlistmtstoreresult()](mysqli-stmt.store-result.html)
+Ціле число більше за нуль вказує кількість порушених або вилучених рядків. Нуль означає, що записи для оператора `UPDATE` не оновлювалися, жодний рядок не відповідав виразу `WHERE` у запиті або що жодного запиту ще не було виконано . `-1` означає, що під час виконання запиту сталася помилка або для запиту `SELECT` **mysqlistmtaffectedrows()** була викликана до виклику [mysqlistmtstoreresult()](mysqli-stmt.store-result.md)
 
 > **Зауваження**
 > 
@@ -108,5 +108,5 @@ printf("Добавлено строк: %d\n", mysqli_stmt_affected_rows($stmt
 
 ### Дивіться також
 
--   [mysqlistmtnumrows()](mysqli-stmt.num-rows.html) - Повертає кількість рядків, отриманих із сервера
--   [mysqlistmtstoreresult()](mysqli-stmt.store-result.html) - Зберігає набір результатів у внутрішньому буфері
+-   [mysqlistmtnumrows()](mysqli-stmt.num-rows.md) - Повертає кількість рядків, отриманих із сервера
+-   [mysqlistmtstoreresult()](mysqli-stmt.store-result.md) - Зберігає набір результатів у внутрішньому буфері

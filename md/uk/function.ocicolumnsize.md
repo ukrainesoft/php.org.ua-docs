@@ -10,11 +10,11 @@ title: ocicolumnsize
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocicolumnsize - Псевдонім [ocifieldsize()](function.oci-field-size.html)
+ocicolumnsize - Псевдонім [ocifieldsize()](function.oci-field-size.md)
 
 ### Опис
 
-Псевдонім [ocifieldsize()](function.oci-field-size.html)
+Псевдонім [ocifieldsize()](function.oci-field-size.md)
 
 **Увага**
 

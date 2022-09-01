@@ -16,7 +16,7 @@ EvEmbed::construct — Конструктор об'єкту EvEmbed
 
 public **EvEmbed::construct**  
 object `$other`  
-[callable](language.types.callable.html) `$callback`  
+[callable](language.types.callable.md) `$callback`  
 [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data`  
 int `$priority`
 
@@ -30,11 +30,11 @@ int `$priority`
 
 `other`
 
-Екземпляр класу [EvLoop](class.evloop.html). Подієвий цикл для вбудовування. Цей цикл має бути вбудованим (дивіться [Ev::embeddableBackends()](ev.embeddablebackends.html)
+Екземпляр класу [EvLoop](class.evloop.html). Подієвий цикл для вбудовування. Цей цикл має бути вбудованим (дивіться [Ev::embeddableBackends()](ev.embeddablebackends.md)
 
 `callback`
 
-Дивіться [callback-функції спостерігачів](ev.watcher-callbacks.html)
+Дивіться [callback-функції спостерігачів](ev.watcher-callbacks.md)
 
 `data`
 
@@ -79,4 +79,4 @@ if (!$socket_loop) {
 
 ### Дивіться також
 
--   [Ev::embeddableBackends()](ev.embeddablebackends.html) - Повертає набір бекендів, які можна вбудувати в інші цикли подій
+-   [Ev::embeddableBackends()](ev.embeddablebackends.md) - Повертає набір бекендів, які можна вбудувати в інші цикли подій

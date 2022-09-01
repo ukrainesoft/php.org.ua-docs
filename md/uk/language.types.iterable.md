@@ -8,11 +8,11 @@ title: Ітеровані
 ---
 ## Ітеровані
 
-[Iterable](language.types.iterable.md) - псевдотип, введений у PHP 7.1. Він приймає будь-який масив (array) або об'єкт, що реалізує інтерфейс [Traversable](class.traversable.md). Обидва ці типи ітеруються за допомогою [foreach](control-structures.foreach.html) і можуть бути використані з **yield from** в [генераторах](language.generators.md)
+[Iterable](language.types.iterable.md) - псевдотип, введений у PHP 7.1. Він приймає будь-який масив (array) або об'єкт, що реалізує інтерфейс [Traversable](class.traversable.md). Обидва ці типи ітеруються за допомогою [foreach](control-structures.foreach.md) і можуть бути використані з **yield from** в [генераторах](language.generators.md)
 
 ### Використання Iterable
 
-Тип iterable може використовуватися як тип параметра для вказівки, що функція набирає значень, але їй не важлива форма цього набору, поки він буде використовуватися з [foreach](control-structures.foreach.html). Якщо значення не є масивом або об'єктом, що реалізує [Traversable](class.traversable.md), буде викинуто виняток [TypeError](class.typeerror.md)
+Тип iterable може використовуватися як тип параметра для вказівки, що функція набирає значень, але їй не важлива форма цього набору, поки він буде використовуватися з [foreach](control-structures.foreach.md). Якщо значення не є масивом або об'єктом, що реалізує [Traversable](class.traversable.md), буде викинуто виняток [TypeError](class.typeerror.md)
 
 **Приклад #1 Приклад використання iterable як параметр**
 

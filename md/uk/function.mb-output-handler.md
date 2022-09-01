@@ -18,7 +18,7 @@ title: мбoutputhandler
 mb_output_handler(string $string, int $status): string
 ```
 
-**мбoutputhandler()** є callback-функцією функції [проstart()](function.ob-start.html). . **мбoutputhandler()** перетворює символи у вихідному буфері з внутрішнього кодування на кодування HTTP-виводу.
+**мбoutputhandler()** є callback-функцією функції [проstart()](function.ob-start.md). . **мбoutputhandler()** перетворює символи у вихідному буфері з внутрішнього кодування на кодування HTTP-виводу.
 
 ### Список параметрів
 
@@ -55,4 +55,4 @@ ob_start("mb_output_handler");
 
 ### Дивіться також
 
--   [проstart()](function.ob-start.html) - Включення буферизації виводу
+-   [проstart()](function.ob-start.md) - Включення буферизації виводу

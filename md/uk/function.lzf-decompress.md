@@ -18,7 +18,7 @@ lzfdecompress — Розархівація LZF
 lzf_decompress(string $data): string
 ```
 
-[lzfcompress()](function.lzf-compress.html) розархівує рядок `data`, Що містить дані стиснуті алгоритмом lzf
+[lzfcompress()](function.lzf-compress.md) розархівує рядок `data`, Що містить дані стиснуті алгоритмом lzf
 
 ### Список параметрів
 
@@ -32,4 +32,4 @@ lzf_decompress(string $data): string
 
 ### Дивіться також
 
--   [lzfcompress()](function.lzf-compress.html) - Стиснення LZF
+-   [lzfcompress()](function.lzf-compress.md) - Стиснення LZF

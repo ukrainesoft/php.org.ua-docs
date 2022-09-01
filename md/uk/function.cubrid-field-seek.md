@@ -18,13 +18,13 @@ cubridfieldseek — Перемістити внутрішній покажчик
 cubrid_field_seek(resource $result, int $field_offset = 0): bool
 ```
 
-Функція переміщує внутрішній покажчик результуючого набору вказаний стовпець. Це усунення використовується функцією [cubridfetchfield()](function.cubrid-fetch-field.html), якщо не вказано параметр offset. Повертає **`true`** або **`false`** залежно від успішності виконання.
+Функція переміщує внутрішній покажчик результуючого набору вказаний стовпець. Це усунення використовується функцією [cubridfetchfield()](function.cubrid-fetch-field.md), якщо не вказано параметр offset. Повертає **`true`** або **`false`** залежно від успішності виконання.
 
 ### Список параметрів
 
 `result`
 
-`Result`, отриманий з [cubridexecute()](function.cubrid-execute.html)
+`Result`, отриманий з [cubridexecute()](function.cubrid-execute.md)
 
 `field_offset`
 

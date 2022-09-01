@@ -28,7 +28,7 @@ sodium_crypto_secretbox(string $message, string $nonce, string $key): string
 
 `nonce`
 
-Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [randombytes()](function.random-bytes.html)
+Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [randombytes()](function.random-bytes.md)
 
 `key`
 
@@ -72,6 +72,6 @@ string(23) "message to be encrypted"
 
 ### Дивіться також
 
--   [sodiumcryptosecretboxopen()](function.sodium-crypto-secretbox-open.html) - Розшифрування з використанням загального ключа з автентичністю
--   [sodiumcryptosecretboxkeygen()](function.sodium-crypto-secretbox-keygen.html) - Створює випадковий ключ для sodiumcryptosecretbox
--   [randombytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти
+-   [sodiumcryptosecretboxopen()](function.sodium-crypto-secretbox-open.md) - Розшифрування з використанням загального ключа з автентичністю
+-   [sodiumcryptosecretboxkeygen()](function.sodium-crypto-secretbox-keygen.md) - Створює випадковий ключ для sodiumcryptosecretbox
+-   [randombytes()](function.random-bytes.md) - Генерує криптографічно безпечні псевдовипадкові байти

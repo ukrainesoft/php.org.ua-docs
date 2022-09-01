@@ -40,8 +40,8 @@ public setChecked(bool $checked)
 
 ## Зміст
 
--   [ОЙMenuItem::disable](ui-menuitem.disable.html) — Вимкнути пункт меню
--   [ОЙMenuItem::enable](ui-menuitem.enable.html) — Увімкнути пункт меню
--   [ОЙMenuItem::isChecked](ui-menuitem.ischecked.html) — Визначення обраності пункту
--   [ОЙMenuItem::onClick](ui-menuitem.onclick.html) - Обробник натискання
--   [ОЙMenuItem::setChecked](ui-menuitem.setchecked.html) - Вибрати пункт меню
+-   [ОЙMenuItem::disable](ui-menuitem.disable.md) — Вимкнути пункт меню
+-   [ОЙMenuItem::enable](ui-menuitem.enable.md) — Увімкнути пункт меню
+-   [ОЙMenuItem::isChecked](ui-menuitem.ischecked.md) — Визначення обраності пункту
+-   [ОЙMenuItem::onClick](ui-menuitem.onclick.md) - Обробник натискання
+-   [ОЙMenuItem::setChecked](ui-menuitem.setchecked.md) - Вибрати пункт меню

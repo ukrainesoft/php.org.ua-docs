@@ -24,7 +24,7 @@ ssh2_disconnect(resource $session): bool
 
 `session`
 
-Ідентифікатор посилання з'єднання SSH, отриманий в результаті виклику [ssh2connect()](function.ssh2-connect.html)
+Ідентифікатор посилання з'єднання SSH, отриманий в результаті виклику [ssh2connect()](function.ssh2-connect.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ ssh2_disconnect(resource $session): bool
 
 ### Дивіться також
 
--   [ssh2connect()](function.ssh2-connect.html) - Підключення до SSH-сервера
+-   [ssh2connect()](function.ssh2-connect.md) - Підключення до SSH-сервера

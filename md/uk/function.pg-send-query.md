@@ -18,9 +18,9 @@ title: пгsendquery
 pg_send_query(PgSql\Connection $connection, string $query): int|bool
 ```
 
-**пгsendquery()** відправляє виконання асинхронний запит. На відміну від [пгquery()](function.pg-query.html) запит може містити кілька SQL-виражень, розділених крапкою з комою. Для отримання результату запиту скористайтеся функцією [пгgetresult()](function.pg-get-result.html)
+**пгsendquery()** відправляє виконання асинхронний запит. На відміну від [пгquery()](function.pg-query.html) запит може містити кілька SQL-виражень, розділених крапкою з комою. Для отримання результату запиту скористайтеся функцією [пгgetresult()](function.pg-get-result.md)
 
-Виконання запиту не перериває роботу скрипта. Для визначення зайнятості з'єднання (коли запит ще виконується) використовуйте функцію [пгconnectionbusy()](function.pg-connection-busy.html). Виконання запиту можна перервати функцією [пгcancelquery()](function.pg-cancel-query.html)
+Виконання запиту не перериває роботу скрипта. Для визначення зайнятості з'єднання (коли запит ще виконується) використовуйте функцію [пгconnectionbusy()](function.pg-connection-busy.html). Виконання запиту можна перервати функцією [пгcancelquery()](function.pg-cancel-query.md)
 
 Незважаючи на те, що можна надіслати кілька запитів за раз, їх не можна надсилати, поки з'єднання зайняте. В іншому випадку, надісланий запит дочекається завершення попереднього, зітре його результат і запуститься сам. Таким чином, ви втратите дані результату попереднього запиту.
 
@@ -28,23 +28,23 @@ pg_send_query(PgSql\Connection $connection, string $query): int|bool
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md)
 
 `query`
 
 Один або кілька SQL-виражень, розділених крапкою з комою.
 
-Спецсимволи у рядку запиту мають бути [екрановані](function.pg-escape-string.html)
+Спецсимволи у рядку запиту мають бути [екрановані](function.pg-escape-string.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, **`false`** або `0` у разі виникнення помилки. Для отримання результату запиту скористайтеся функцією [пгgetresult()](function.pg-get-result.html)
+Повертає **`true`** у разі успішного виконання, **`false`** або `0` у разі виникнення помилки. Для отримання результату запиту скористайтеся функцією [пгgetresult()](function.pg-get-result.md)
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -82,7 +82,7 @@ Resource id #4 содержит 1 записей
 
 ### Дивіться також
 
--   [пгquery()](function.pg-query.html) - Виконує запит
--   [пгcancelquery()](function.pg-cancel-query.html) - Зупинення асинхронного запиту.
--   [пгgetresult()](function.pg-get-result.html) - Отримання результату асинхронного запиту
--   [пгconnectionbusy()](function.pg-connection-busy.html) - Перевіряє, чи зайнято з'єднання на даний момент.
+-   [пгquery()](function.pg-query.md) - Виконує запит
+-   [пгcancelquery()](function.pg-cancel-query.md) - Зупинення асинхронного запиту.
+-   [пгgetresult()](function.pg-get-result.md) - Отримання результату асинхронного запиту
+-   [пгconnectionbusy()](function.pg-connection-busy.md) - Перевіряє, чи зайнято з'єднання на даний момент.

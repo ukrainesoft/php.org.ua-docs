@@ -8,19 +8,19 @@ title: libxml
 ---
 # libxml
 
--   [Введение](intro.libxml.html)
--   [Встановлення та налаштування](libxml.setup.html)
-    -   [Вимоги](libxml.requirements.html)
-    -   [Установка](libxml.installation.html)
-    -   [Налаштування під час виконання](libxml.configuration.html)
-    -   [Типи ресурсів](libxml.resources.html)
--   [Обумовлені константи](libxml.constants.html)
--   [libXMLError](class.libxmlerror.html) - Клас libXMLError
--   [Функції libxml](ref.libxml.html)
-    -   [libxmlclearerrors](function.libxml-clear-errors.html) — Очищення буфера помилок libxml
-    -   [libxmldisableentityloader](function.libxml-disable-entity-loader.html) — Вимкнення можливості завантаження сутностей із зовнішніх джерел
-    -   [libxmlgeterrors](function.libxml-get-errors.html) — Отримання масиву помилок, що відбулися.
-    -   [libxmlgetlasterror](function.libxml-get-last-error.html) — Вилучення останньої помилки з libxml
-    -   [libxmlsetexternalentityloader](function.libxml-set-external-entity-loader.html) — Змінити завантажувач за умовчанням для зовнішніх об'єктів
-    -   [libxmlsetstreamscontext](function.libxml-set-streams-context.html) — Встановити контекст потоків для наступного завантаження або запису документа за допомогою libxml
-    -   [libxmluseinternalerrors](function.libxml-use-internal-errors.html) — Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
+-   [Введение](intro.libxml.md)
+-   [Встановлення та налаштування](libxml.setup.md)
+    -   [Вимоги](libxml.requirements.md)
+    -   [Установка](libxml.installation.md)
+    -   [Налаштування під час виконання](libxml.configuration.md)
+    -   [Типи ресурсів](libxml.resources.md)
+-   [Обумовлені константи](libxml.constants.md)
+-   [libXMLError](class.libxmlerror.md) - Клас libXMLError
+-   [Функції libxml](ref.libxml.md)
+    -   [libxmlclearerrors](function.libxml-clear-errors.md) — Очищення буфера помилок libxml
+    -   [libxmldisableentityloader](function.libxml-disable-entity-loader.md) — Вимкнення можливості завантаження сутностей із зовнішніх джерел
+    -   [libxmlgeterrors](function.libxml-get-errors.md) — Отримання масиву помилок, що відбулися.
+    -   [libxmlgetlasterror](function.libxml-get-last-error.md) — Вилучення останньої помилки з libxml
+    -   [libxmlsetexternalentityloader](function.libxml-set-external-entity-loader.md) — Змінити завантажувач за умовчанням для зовнішніх об'єктів
+    -   [libxmlsetstreamscontext](function.libxml-set-streams-context.md) — Встановити контекст потоків для наступного завантаження або запису документа за допомогою libxml
+    -   [libxmluseinternalerrors](function.libxml-use-internal-errors.md) — Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві

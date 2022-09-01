@@ -20,15 +20,15 @@ pg_result_error_field(PgSql\Result $result, int $field_code): string|false|null
 
 **пгresulterrorfield()** повертає одне з полів звіту про помилки, пов'язаного з екземпляром `result`. Функція підтримується серверами PostgreSQL версій 7.4 та вище. Потрібне поле задається аргументом `field_code`
 
-Функції [пгquery()](function.pg-query.html) і [пгqueryparams()](function.pg-query-params.html) у разі помилок повертають **`false`** замість ресурсу. Щоб мати можливість обробляти помилки, користуйтеся функціями [пгsendquery()](function.pg-send-query.html) і [пгgetresult()](function.pg-get-result.html)
+Функції [пгquery()](function.pg-query.html) і [пгqueryparams()](function.pg-query-params.html) у разі помилок повертають **`false`** замість ресурсу. Щоб мати можливість обробляти помилки, користуйтеся функціями [пгsendquery()](function.pg-send-query.html) і [пгgetresult()](function.pg-get-result.md)
 
-Для отримання додаткової інформації про хід виконання функції, що відмовила [пгquery()](function.pg-query.html) використовуйте функції [пгseterrorverbosity()](function.pg-set-error-verbosity.html) і [пгlasterror()](function.pg-last-error.html) та обробляйте результат їх виконання.
+Для отримання додаткової інформації про хід виконання функції, що відмовила [пгquery()](function.pg-query.html) використовуйте функції [пгseterrorverbosity()](function.pg-set-error-verbosity.html) і [пгlasterror()](function.pg-last-error.md) та обробляйте результат їх виконання.
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `field_code`
 
@@ -42,7 +42,7 @@ pg_result_error_field(PgSql\Result $result, int $field_code): string|false|null
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -63,4 +63,4 @@ pg_result_error_field(PgSql\Result $result, int $field_code): string|false|null
 
 ### Дивіться також
 
--   [пгresulterror()](function.pg-result-error.html) - Повертає повідомлення про помилку, пов'язане із запитом результату
+-   [пгresulterror()](function.pg-result-error.md) - Повертає повідомлення про помилку, пов'язане із запитом результату

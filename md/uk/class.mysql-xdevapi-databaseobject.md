@@ -36,6 +36,6 @@ abstract public getSession(): mysql_xdevapi\Session
 
 ## Зміст
 
--   [DatabaseObject::existsInDatabase](mysql-xdevapi-databaseobject.existsindatabase.html) — Перевіряє, чи існує об'єкт у базі даних
--   [DatabaseObject::getName](mysql-xdevapi-databaseobject.getname.html) — Отримує ім'я об'єкта
--   [DatabaseObject::getSession](mysql-xdevapi-databaseobject.getsession.html) — Отримує ім'я сесії
+-   [DatabaseObject::existsInDatabase](mysql-xdevapi-databaseobject.existsindatabase.md) — Перевіряє, чи існує об'єкт у базі даних
+-   [DatabaseObject::getName](mysql-xdevapi-databaseobject.getname.md) — Отримує ім'я об'єкта
+-   [DatabaseObject::getSession](mysql-xdevapi-databaseobject.getsession.md) — Отримує ім'я сесії

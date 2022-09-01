@@ -60,5 +60,5 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
--   [cubridnumrows()](function.cubrid-num-rows.html) - Отримати кількість рядків у наборі результатів
+-   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
+-   [cubridnumrows()](function.cubrid-num-rows.md) - Отримати кількість рядків у наборі результатів

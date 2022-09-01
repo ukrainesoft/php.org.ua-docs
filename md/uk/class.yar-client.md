@@ -61,6 +61,6 @@ running
 
 ## Зміст
 
--   [YarClient::call](yar-client.call.html) - Виклик сервісу
--   [YarClient::construct](yar-client.construct.html) - Конструктор YarClient
--   [YarClient::setOpt](yar-client.setopt.html) — Задати контекст дзвінка
+-   [YarClient::call](yar-client.call.md) - Виклик сервісу
+-   [YarClient::construct](yar-client.construct.md) - Конструктор YarClient
+-   [YarClient::setOpt](yar-client.setopt.md) — Задати контекст дзвінка

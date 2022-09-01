@@ -16,8 +16,8 @@ title: XSL
     -   [Типи ресурсів](xsl.resources.md)
 -   [Обумовлені константи](xsl.constants.md)
 -   [Приклади](xsl.examples.md)
-    -   [Файли collection.xml та collection.xsl для прикладів](xsl.examples-collection.html)
-    -   [Обработка ошибок с помощью функций обработки ошибок libxml](xsl.examples-errors.html)
+    -   [Файли collection.xml та collection.xsl для прикладів](xsl.examples-collection.md)
+    -   [Обработка ошибок с помощью функций обработки ошибок libxml](xsl.examples-errors.md)
 -   [XSLTProcessor](class.xsltprocessor.md) - Клас XSLTProcessor
     -   [XSLTProcessor::construct](xsltprocessor.construct.md) — Створює новий екземпляр класу XSLTProcessor
     -   [XSLTProcessor::getParameter](xsltprocessor.getparameter.md) — Повертає значення параметра

@@ -12,13 +12,13 @@ title: Модулі лише для Windows
     -   [Введение](intro.com.md)
     -   [Встановлення та налаштування](com.setup.md)
     -   [Обумовлені константи](com.constants.md)
-    -   [Ошибки и их обработка](com.error-handling.html)
+    -   [Ошибки и их обработка](com.error-handling.md)
     -   [Приклади](com.examples.md)
     -   [com](class.com.md) - Клас com
     -   [dotnet](class.dotnet.md) - Клас dotnet
     -   [variant](class.variant.md) - Клас variant
     -   [COMPersistHelper](class.compersisthelper.md) - Клас COMPersistHelper
-    -   [comexception](class.com-exception.html) - Клас comexception
+    -   [comexception](class.com-exception.md) - Клас comexception
     -   [Функции COM](ref.com.md)
 -   [win32service](book.win32service.md)
     -   [Введение](intro.win32service.md)

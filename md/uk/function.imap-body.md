@@ -20,13 +20,13 @@ imap_body(IMAP\Connection $imap, int $message_num, int $flags = 0): string|false
 
 **imapbody()** повертає тіло повідомлення з номером `message_num` у поточній поштовій скриньці.
 
-**imapbody()** поверне точну копію тіла повідомлення. Для отримання однієї частини складеного MIME-повідомлення використовуйте [imapfetchstructure()](function.imap-fetchstructure.html) для аналізу структури та [imapfetchbody()](function.imap-fetchbody.html) для отримання копії однієї з частин тіла.
+**imapbody()** поверне точну копію тіла повідомлення. Для отримання однієї частини складеного MIME-повідомлення використовуйте [imapfetchstructure()](function.imap-fetchstructure.html) для аналізу структури та [imapfetchbody()](function.imap-fetchbody.md) для отримання копії однієї з частин тіла.
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `message_num`
 
@@ -48,4 +48,4 @@ imap_body(IMAP\Connection $imap, int $message_num, int $flags = 0): string|false
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

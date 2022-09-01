@@ -26,15 +26,15 @@ mb_ereg_search_getpos(): int
 
 ### Значення, що повертаються
 
-**мбeregsearchgetpos()** повертає початкову позицію наступного збігу з регулярним виразом для функцій [мбeregsearch()](function.mb-ereg-search.html) [мбeregsearchpos()](function.mb-ereg-search-pos.html) [мбeregsearchregs()](function.mb-ereg-search-regs.html). Позиція представляється як числа байт з початку рядка.
+**мбeregsearchgetpos()** повертає початкову позицію наступного збігу з регулярним виразом для функцій [мбeregsearch()](function.mb-ereg-search.html) [мбeregsearchpos()](function.mb-ereg-search-pos.html) [мбeregsearchregs()](function.mb-ereg-search-regs.md). Позиція представляється як числа байт з початку рядка.
 
 ### Примітки
 
 > **Зауваження**
 > 
-> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.html)
+> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.md)
 
 ### Дивіться також
 
--   [мбregexencoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [мбeregsearchsetpos()](function.mb-ereg-search-setpos.html) - Задає початкову позицію у рядку, з якого розпочнеться пошук відповідностей регулярному виразу
+-   [мбregexencoding()](function.mb-regex-encoding.md) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
+-   [мбeregsearchsetpos()](function.mb-ereg-search-setpos.md) - Задає початкову позицію у рядку, з якого розпочнеться пошук відповідностей регулярному виразу

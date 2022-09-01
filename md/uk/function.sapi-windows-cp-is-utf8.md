@@ -30,4 +30,4 @@ sapi_windows_cp_is_utf8(): bool
 
 ### Дивіться також
 
--   [sapiwindowsспget()](function.sapi-windows-cp-get.html) - Отримати поточну кодову сторінку
+-   [sapiwindowsспget()](function.sapi-windows-cp-get.md) - Отримати поточну кодову сторінку

@@ -10,8 +10,8 @@ title: fbirdprepare
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdprepare - Псевдонім [ibaseprepare()](function.ibase-prepare.html)
+fbirdprepare - Псевдонім [ibaseprepare()](function.ibase-prepare.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibaseprepare()](function.ibase-prepare.html)
+Ця функція є псевдонімом: [ibaseprepare()](function.ibase-prepare.md)

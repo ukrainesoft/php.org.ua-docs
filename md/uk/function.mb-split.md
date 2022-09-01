@@ -42,9 +42,9 @@ mb_split(string $pattern, string $string, int $limit = -1): array|false
 
 > **Зауваження**
 > 
-> Кодування символів, вказане функцією [мбregexencoding()](function.mb-regex-encoding.html), буде за замовчуванням використана для цієї функції.
+> Кодування символів, вказане функцією [мбregexencoding()](function.mb-regex-encoding.md), буде за замовчуванням використана для цієї функції.
 
 ### Дивіться також
 
--   [мбregexencoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [мбereg()](function.mb-ereg.html) - Збіг з регулярним виразом з підтримкою багатобайтових кодувань
+-   [мбregexencoding()](function.mb-regex-encoding.md) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
+-   [мбereg()](function.mb-ereg.md) - Збіг з регулярним виразом з підтримкою багатобайтових кодувань

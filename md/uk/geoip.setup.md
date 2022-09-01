@@ -10,7 +10,7 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](geoip.requirements.html)
--   [Установка](geoip.installation.html)
--   [Налаштування під час виконання](geoip.configuration.html)
--   [Типи ресурсів](geoip.resources.html)
+-   [Вимоги](geoip.requirements.md)
+-   [Установка](geoip.installation.md)
+-   [Налаштування під час виконання](geoip.configuration.md)
+-   [Типи ресурсів](geoip.resources.md)

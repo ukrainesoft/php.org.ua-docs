@@ -55,4 +55,4 @@ if (get_magic_quotes_runtime())
 
 ### Дивіться також
 
--   [getmagicquotesgpc()](function.get-magic-quotes-gpc.html) - Отримання поточного значення конфігурації конфігурації magicquotesgpc
+-   [getmagicquotesgpc()](function.get-magic-quotes-gpc.md) - Отримання поточного значення конфігурації конфігурації magicquotesgpc

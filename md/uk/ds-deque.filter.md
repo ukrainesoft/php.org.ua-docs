@@ -28,7 +28,7 @@ public Ds\Deque::filter(callable $callback = ?): Ds\Deque
 callback(mixed $value): bool
 ```
 
-Опціональний аргумент типу [callable](language.types.callable.html), який повертає **`true`**, якщо значення має бути включено та **`false`**, якщо ні.
+Опціональний аргумент типу [callable](language.types.callable.md), який повертає **`true`**, якщо значення має бути включено та **`false`**, якщо ні.
 
 Якщо callback-функція не задана, будуть включені тільки елементи, які призводять до логічного значення **`true`** (дивіться [приведение к boolean](language.types.boolean.html#language.types.boolean.casting)
 

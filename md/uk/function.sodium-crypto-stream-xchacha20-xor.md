@@ -22,7 +22,7 @@ sodium_crypto_stream_xchacha20_xor(string $message, string $nonce, string $key):
 
 **Застереження**
 
-Це шифрування не автентифікується і не запобігає атакам з вибраним зашифрованим текстом. Обов'язково об'єднайте зашифрований текст із кодом автентифікації повідомлення (Message Authentication Code), наприклад, за допомогою функції [sodiumcryptoaeadxchacha20poly1305ietfencrypt()](function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.html) або [sodiumcryptoauth()](function.sodium-crypto-auth.html)
+Це шифрування не автентифікується і не запобігає атакам з вибраним зашифрованим текстом. Обов'язково об'єднайте зашифрований текст із кодом автентифікації повідомлення (Message Authentication Code), наприклад, за допомогою функції [sodiumcryptoaeadxchacha20poly1305ietfencrypt()](function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.html) або [sodiumcryptoauth()](function.sodium-crypto-auth.md)
 
 ### Список параметрів
 
@@ -36,7 +36,7 @@ sodium_crypto_stream_xchacha20_xor(string $message, string $nonce, string $key):
 
 `key`
 
-Ключ, можливо, згенерований за допомогою функції [sodiumcryptostreamxchacha20keygen()](function.sodium-crypto-stream-xchacha20-keygen.html)
+Ключ, можливо, згенерований за допомогою функції [sodiumcryptostreamxchacha20keygen()](function.sodium-crypto-stream-xchacha20-keygen.md)
 
 ### Значення, що повертаються
 

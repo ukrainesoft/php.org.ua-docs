@@ -43,8 +43,8 @@ if( !$coll ) {
 
 ### Дивіться також
 
--   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
--   [intlerrorname()](function.intl-error-name.html) - Отримати ім'я помилки за її кодом
--   [intlgeterrormessage()](function.intl-get-error-message.html) - Отримати опис помилки
+-   [intlісfailure()](function.intl-is-failure.md) - Перевірити, чи є код помилки ознакою збою
+-   [intlerrorname()](function.intl-error-name.md) - Отримати ім'я помилки за її кодом
+-   [intlgeterrormessage()](function.intl-get-error-message.md) - Отримати опис помилки
 -   [collatorgeterrorcode()](collator.geterrorcode.md) - Отримує останній код помилки Collator
 -   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування

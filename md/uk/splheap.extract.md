@@ -28,4 +28,4 @@ public SplHeap::extract(): mixed
 
 ### Помилки
 
-Якщо структура даних вузла виявиться порожньою, буде викинуто виняток [RuntimeException](class.runtimeexception.html)
+Якщо структура даних вузла виявиться порожньою, буде викинуто виняток [RuntimeException](class.runtimeexception.md)

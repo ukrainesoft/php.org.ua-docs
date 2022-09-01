@@ -84,5 +84,5 @@ array(4) {
 
 ### Дивіться також
 
--   [getclassmethods()](function.get-class-methods.html) - Повертає масив імен методів класу
--   [getclassvars()](function.get-class-vars.html) - Повертає оголошені за умовчанням властивості класу
+-   [getclassmethods()](function.get-class-methods.md) - Повертає масив імен методів класу
+-   [getclassvars()](function.get-class-vars.md) - Повертає оголошені за умовчанням властивості класу

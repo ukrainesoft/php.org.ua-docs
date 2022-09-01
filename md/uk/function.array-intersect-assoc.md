@@ -18,7 +18,7 @@ arrayintersectassoc - Обчислює сходження масивів з до
 array_intersect_assoc(array $array, array ...$arrays): array
 ```
 
-Функція **arrayintersectassoc()** повертає масив, що містить усі значення масиву `array`, що містяться у всіх зазначених аргументах. Зауважте, що при порівнянні використовуються ключі, на відміну від функції [arrayintersect()](function.array-intersect.html)
+Функція **arrayintersectassoc()** повертає масив, що містить усі значення масиву `array`, що містяться у всіх зазначених аргументах. Зауважте, що при порівнянні використовуються ключі, на відміну від функції [arrayintersect()](function.array-intersect.md)
 
 ### Список параметрів
 
@@ -68,9 +68,9 @@ Array
 
 ### Дивіться також
 
--   [arrayintersect()](function.array-intersect.html) - обчислює сходження масивів
--   [arrayuintersectassoc()](function.array-uintersect-assoc.html) - обчислює перетин масивів з додатковою перевіркою індексів, використовуючи для порівняння значень callback-функцію
--   [arrayintersectuassoc()](function.array-intersect-uassoc.html) - обчислює сходження масивів з додатковою перевіркою індексу, що здійснюється за допомогою callback-функції
--   [arrayuintersectuassoc()](function.array-uintersect-uassoc.html) - обчислює перетин масивів з додатковою перевіркою індексу, використовуючи для порівняння індексів та значень індивідуальні callback-функції
--   [arraydiff()](function.array-diff.html) - Обчислити розбіжність масивів
--   [arraydiffassoc()](function.array-diff-assoc.html) - обчислює розбіжність масивів з додатковою перевіркою індексу
+-   [arrayintersect()](function.array-intersect.md) - обчислює сходження масивів
+-   [arrayuintersectassoc()](function.array-uintersect-assoc.md) - обчислює перетин масивів з додатковою перевіркою індексів, використовуючи для порівняння значень callback-функцію
+-   [arrayintersectuassoc()](function.array-intersect-uassoc.md) - обчислює сходження масивів з додатковою перевіркою індексу, що здійснюється за допомогою callback-функції
+-   [arrayuintersectuassoc()](function.array-uintersect-uassoc.md) - обчислює перетин масивів з додатковою перевіркою індексу, використовуючи для порівняння індексів та значень індивідуальні callback-функції
+-   [arraydiff()](function.array-diff.md) - Обчислити розбіжність масивів
+-   [arraydiffassoc()](function.array-diff-assoc.md) - обчислює розбіжність масивів з додатковою перевіркою індексу

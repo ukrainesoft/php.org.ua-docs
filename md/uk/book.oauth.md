@@ -18,8 +18,8 @@ title: OAuth
 -   [Приклади](oauth.examples.md)
     -   [FireEagle](oauth.examples.fireeagle.md)
 -   [Функции OAuth](ref.oauth.md)
-    -   [oauthgetsbs](function.oauth-get-sbs.html) - Створити базовий рядок підпису (Signature Base String)
-    -   [oauthurlencode](function.oauth-urlencode.html) — Кодує URI відповідно до RFC 3986
+    -   [oauthgetsbs](function.oauth-get-sbs.md) - Створити базовий рядок підпису (Signature Base String)
+    -   [oauthurlencode](function.oauth-urlencode.md) — Кодує URI відповідно до RFC 3986
 -   [OAuth](class.oauth.md) - Клас OAuth
     -   [OAuth::construct](oauth.construct.md) — Створює новий об'єкт OAuth
     -   [OAuth::destruct](oauth.destruct.md) - Деструктор

@@ -14,9 +14,9 @@ mysqlinfo — Повертає інформацію про останній за
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqliinfo()](mysqli.info.html)
+-   [mysqliinfo()](mysqli.info.md)
 
 ### Опис
 
@@ -30,7 +30,7 @@ mysql_info(resource $link_identifier = NULL): string
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -52,6 +52,6 @@ INSERT INTO ... SELECT ... String format: Records: 23 Duplicates: 0 Warnings: 0 
 
 ### Дивіться також
 
--   [mysqlaffectedrows()](function.mysql-affected-rows.html) - Повертає кількість порушених минулою операцією рядів
--   [mysqlinsertid()](function.mysql-insert-id.html) - Повертає ідентифікатор, згенерований при останньому INSERT-запиті
--   [mysqlstat()](function.mysql-stat.html) - Повертає поточний статус сервера
+-   [mysqlaffectedrows()](function.mysql-affected-rows.md) - Повертає кількість порушених минулою операцією рядів
+-   [mysqlinsertid()](function.mysql-insert-id.md) - Повертає ідентифікатор, згенерований при останньому INSERT-запиті
+-   [mysqlstat()](function.mysql-stat.md) - Повертає поточний статус сервера

@@ -10,7 +10,7 @@ title: Обумовлені константи
 
 Наведені нижче константи завжди доступні як частина ядра PHP.
 
-**Обумовлені константи [phpcredits()](function.phpcredits.html)**
+**Обумовлені константи [phpcredits()](function.phpcredits.md)**
 
 | Константа | Значение | Описание |
 | --- | --- | --- |
@@ -23,16 +23,16 @@ title: Обумовлені константи
 | **`CREDITS_QA`** |  | Члени команди контролю якості. |
 | **`CREDITS_ALL`** |  | Усі розробники, аналогічно використанню: `CREDITS_DOCS + CREDITS_GENERAL + CREDITS_GROUP + CREDITS_MODULES + CREDITS_QA CREDITS_FULLPAGE`. Буде згенеровано HTML-сторінку з відповідними тегами. Це значення за промовчанням. |
 
-**Константи [phpinfo()](function.phpinfo.html)**
+**Константи [phpinfo()](function.phpinfo.md)**
 
 | Константа | Значение | Описание |
 | --- | --- | --- |
 | **`INFO_GENERAL`** |  | Рядок конфігурації, розташування php.ini, дата складання, веб-сервер, система та ін. |
-| **`INFO_CREDITS`** |  | Розробники PHP. Дивіться також [phpcredits()](function.phpcredits.html) |
-| **`INFO_CONFIGURATION`** |  | Поточні локальні та основні значення директив PHP. Дивіться також [iniget()](function.ini-get.html) |
+| **`INFO_CREDITS`** |  | Розробники PHP. Дивіться також [phpcredits()](function.phpcredits.md) |
+| **`INFO_CONFIGURATION`** |  | Поточні локальні та основні значення директив PHP. Дивіться також [iniget()](function.ini-get.md) |
 | **`INFO_MODULES`** |  | Завантажені модулі та їх налаштування. |
-| **`INFO_ENVIRONMENT`** |  | Інформація про змінні середовища, яка також доступна в [ENV](reserved.variables.environment.html) |
-| **`INFO_VARIABLES`** |  | Показує все [зумовлені змінні](language.variables.predefined.html) з `EGPCS` (Environment, GET, POST, Cookie, Server). |
+| **`INFO_ENVIRONMENT`** |  | Інформація про змінні середовища, яка також доступна в [ENV](reserved.variables.environment.md) |
+| **`INFO_VARIABLES`** |  | Показує все [зумовлені змінні](language.variables.predefined.md) з `EGPCS` (Environment, GET, POST, Cookie, Server). |
 | **`INFO_LICENSE`** |  | Інформація про ліцензію PHP. Дивіться також [» FAQ за ліцензією](https://www.php.net/license/) |
 | **`INFO_ALL`** |  | Константа за замовчуванням. Показує всю інформацію, описану вище. |
 
@@ -45,13 +45,13 @@ title: Обумовлені константи
 | `INI_SYSTEM` |  | Не використовується |
 | `INI_ALL` |  | Не використовується |
 
-Константи перевірки тверджень. Ці значення використовуються для встановлення налаштувань [assertoptions()](function.assert-options.html)
+Константи перевірки тверджень. Ці значення використовуються для встановлення налаштувань [assertoptions()](function.assert-options.md)
 
-**[assert()](function.assert.html) константи**
+**[assert()](function.assert.md) константи**
 
 | Константа | INI настройка | Описание |
 | --- | --- | --- |
-| **`ASSERT_ACTIVE`** | assert.active | Увімкнення [assert()](function.assert.html) перевірок. |
+| **`ASSERT_ACTIVE`** | assert.active | Увімкнення [assert()](function.assert.md) перевірок. |
 | **`ASSERT_CALLBACK`** | assert.callback | Зворотний дзвінок при провалі перевірки затвердження. |
 | **`ASSERT_BAIL`** | assert.bail | Перервати виконання при провалі перевірки затвердження. |
 | **`ASSERT_WARNING`** | assert.warning | Видавати попередження PHP у разі провалу перевірки кожного затвердження |

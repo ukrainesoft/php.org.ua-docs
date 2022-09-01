@@ -24,7 +24,7 @@ ftp_fget(    FTP\Connection $ftp,    resource $stream,    string $re
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `stream`
 
@@ -50,7 +50,7 @@ ftp_fget(    FTP\Connection $ftp,    resource $stream,    string $re
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
@@ -88,6 +88,6 @@ fclose($handle);
 
 ### Дивіться також
 
--   [ftpget()](function.ftp-get.html) - Завантажує файл із FTP-сервера
--   [ftpнбget()](function.ftp-nb-get.html) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у локальний файл
--   [ftpнбfget()](function.ftp-nb-fget.html) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у попередньо відкритому файлі
+-   [ftpget()](function.ftp-get.md) - Завантажує файл із FTP-сервера
+-   [ftpнбget()](function.ftp-nb-get.md) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у локальний файл
+-   [ftpнбfget()](function.ftp-nb-fget.md) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у попередньо відкритому файлі

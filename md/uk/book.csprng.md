@@ -16,5 +16,5 @@ title: CSPRNG
     -   [Типи ресурсів](csprng.resources.md)
 -   [Обумовлені константи](csprng.constants.md)
 -   [Функции CSPRNG](ref.csprng.md)
-    -   [randombytes](function.random-bytes.html) — Генерує криптографічно безпечні псевдовипадкові байти
-    -   [randomint](function.random-int.html) — Генерує криптографічно безпечні псевдовипадкові цілі числа
+    -   [randombytes](function.random-bytes.md) — Генерує криптографічно безпечні псевдовипадкові байти
+    -   [randomint](function.random-int.md) — Генерує криптографічно безпечні псевдовипадкові цілі числа

@@ -64,4 +64,4 @@ Array
 -   [DirectoryIterator::getOwner()](directoryiterator.getowner.md) - Повертає ідентифікатор власника поточного елемента DirectoryIterator
 -   [DirectoryIterator::getPerms()](directoryiterator.getperms.md) - Повертає набір прав для поточного елемента DirectoryIterator item
 -   [filegroup()](function.filegroup.md) - Отримує ідентифікатор групи файлу
--   [posixgetgrgid()](function.posix-getgrgid.html) - Повертає інформацію про групу за її ID
+-   [posixgetgrgid()](function.posix-getgrgid.md) - Повертає інформацію про групу за її ID

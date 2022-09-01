@@ -38,9 +38,9 @@ public sub(int $sub_value = ?): int
 
 ## Зміст
 
--   [SwooleAtomic::add](swoole-atomic.add.html) - Додає число до значення атомарного об'єкта
--   [SwooleAtomic::cmpset](swoole-atomic.cmpset.html) — Порівнює та встановлює значення атомарного об'єкта
--   [SwooleAtomic::construct](swoole-atomic.construct.html) - Створює атомарний об'єкт swoole
--   [SwooleAtomic::get](swoole-atomic.get.html) — Отримує поточне значення атомарного об'єкта
--   [SwooleAtomic::set](swoole-atomic.set.html) — Встановлює нове значення для атомарного об'єкту
--   [SwooleAtomic::sub](swoole-atomic.sub.html) — Віднімає число із значення атомарного об'єкта
+-   [SwooleAtomic::add](swoole-atomic.add.md) - Додає число до значення атомарного об'єкта
+-   [SwooleAtomic::cmpset](swoole-atomic.cmpset.md) — Порівнює та встановлює значення атомарного об'єкта
+-   [SwooleAtomic::construct](swoole-atomic.construct.md) - Створює атомарний об'єкт swoole
+-   [SwooleAtomic::get](swoole-atomic.get.md) — Отримує поточне значення атомарного об'єкта
+-   [SwooleAtomic::set](swoole-atomic.set.md) — Встановлює нове значення для атомарного об'єкту
+-   [SwooleAtomic::sub](swoole-atomic.sub.md) — Віднімає число із значення атомарного об'єкта

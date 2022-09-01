@@ -42,14 +42,14 @@ title: Отримання PHP
 -   [» Sybase-CT(Linux, libc5)](http://www.sybase.com/) : Available locally.
 -   [» FreeType (libttf):](http://www.freetype.org/)
 -   [» ZLib (Unix/Win32)](http://www.zlib.net/)
--   [» expat XML parser (Unix/Win32)](http://www.jclark.com/xml/expat.html)
+-   [» expat XML parser (Unix/Win32)](http://www.jclark.com/xml/expat.md)
 -   [» PDFLib](http://www.pdflib.com/products/pdflib-family/)
 -   [» mcrypt](http://mcrypt.sourceforge.net/)
 -   [» mhash](http://mhash.sourceforge.net/)
 -   [» t1lib](http://www.ibiblio.org/pub/Linux/libs/graphics/)
 -   [» dmalloc](http://dmalloc.com/)
 -   [» aspell](http://aspell.net/)
--   [» readline](http://cnswww.cns.cwru.edu/~chet/readline/rltop.html)
+-   [» readline](http://cnswww.cns.cwru.edu/~chet/readline/rltop.md)
 
 **Як підключити ці бібліотеки?**
 

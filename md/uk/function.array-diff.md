@@ -96,7 +96,7 @@ $result = array_diff($source, $filter);
 ?>
 ```
 
-Щоб використати альтернативну функцію порівняння, дивіться [arrayudiff()](function.array-udiff.html)
+Щоб використати альтернативну функцію порівняння, дивіться [arrayudiff()](function.array-udiff.md)
 
 ### Примітки
 
@@ -106,7 +106,7 @@ $result = array_diff($source, $filter);
 
 ### Дивіться також
 
--   [arraydiffassoc()](function.array-diff-assoc.html) - обчислює розбіжність масивів з додатковою перевіркою індексу
--   [arrayudiff()](function.array-udiff.html) - обчислює розбіжність масивів, використовуючи для порівняння callback-функцію
--   [arrayintersect()](function.array-intersect.html) - обчислює сходження масивів
--   [arrayintersectassoc()](function.array-intersect-assoc.html) - обчислює сходження масивів з додатковою перевіркою індексу
+-   [arraydiffassoc()](function.array-diff-assoc.md) - обчислює розбіжність масивів з додатковою перевіркою індексу
+-   [arrayudiff()](function.array-udiff.md) - обчислює розбіжність масивів, використовуючи для порівняння callback-функцію
+-   [arrayintersect()](function.array-intersect.md) - обчислює сходження масивів
+-   [arrayintersectassoc()](function.array-intersect-assoc.md) - обчислює сходження масивів з додатковою перевіркою індексу

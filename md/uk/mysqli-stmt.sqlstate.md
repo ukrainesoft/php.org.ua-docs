@@ -18,7 +18,7 @@ mysqlistmt::$sqlstate -- mysqlistmtsqlstate — Повернення коду п
 
 Об'єктно-орієнтований стиль
 
-string [$mysqlistmt->sqlstate](mysqli-stmt.sqlstate.html)
+string [$mysqlistmt->sqlstate](mysqli-stmt.sqlstate.md)
 
 Процедурний стиль
 
@@ -26,13 +26,13 @@ string [$mysqlistmt->sqlstate](mysqli-stmt.sqlstate.html)
 mysqli_stmt_sqlstate(mysqli_stmt $statement): string
 ```
 
-Повертає рядок, що містить код SQLSTATE, помилки, викликаної в результаті виконання останньої операції над запитом, яка може завершуватися успішно або неуспішно. Цей код складається з п'яти символів . `'00000'` означає відсутність помилок. Значення цього коду визначено у стандарті ANSI SQL, а також у ODBC. Повний список можливих кодів можна переглянути на сторінці [» http://dev.mysql.com/doc/mysql/en/error-handling.html](http://dev.mysql.com/doc/mysql/en/error-handling.html)
+Повертає рядок, що містить код SQLSTATE, помилки, викликаної в результаті виконання останньої операції над запитом, яка може завершуватися успішно або неуспішно. Цей код складається з п'яти символів . `'00000'` означає відсутність помилок. Значення цього коду визначено у стандарті ANSI SQL, а також у ODBC. Повний список можливих кодів можна переглянути на сторінці [» http://dev.mysql.com/doc/mysql/en/error-handling.html](http://dev.mysql.com/doc/mysql/en/error-handling.md)
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -128,5 +128,5 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqlistmterrno()](mysqli-stmt.errno.html) - Повертає код помилки виконання останнього запиту
--   [mysqlistmterror()](mysqli-stmt.error.html) - Повертає рядок із поясненням останньої помилки під час виконання запиту
+-   [mysqlistmterrno()](mysqli-stmt.errno.md) - Повертає код помилки виконання останнього запиту
+-   [mysqlistmterror()](mysqli-stmt.error.md) - Повертає рядок із поясненням останньої помилки під час виконання запиту

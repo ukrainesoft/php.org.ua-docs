@@ -28,7 +28,7 @@ dba_exists(string|array $key, resource $dba): bool
 
 `dba`
 
-Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.html)
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 
@@ -36,7 +36,7 @@ dba_exists(string|array $key, resource $dba): bool
 
 ### Дивіться також
 
--   [dbadelete()](function.dba-delete.html) - Видаляє запис бази даних, визначену ключем
--   [dbafetch()](function.dba-fetch.html) - Витягує дані за вказаним ключем
--   [dbainsert()](function.dba-insert.html) - Вставляє запис
--   [dbareplace()](function.dba-replace.html) - Перезаписати або вставити запис
+-   [dbadelete()](function.dba-delete.md) - Видаляє запис бази даних, визначену ключем
+-   [dbafetch()](function.dba-fetch.md) - Витягує дані за вказаним ключем
+-   [dbainsert()](function.dba-insert.md) - Вставляє запис
+-   [dbareplace()](function.dba-replace.md) - Перезаписати або вставити запис

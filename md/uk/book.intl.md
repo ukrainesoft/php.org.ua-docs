@@ -260,18 +260,18 @@ title: Функції інтернаціоналізації
     -   [UConverter::toUCallback](uconverter.toucallback.md) - Callback-функція за промовчанням для "to"
     -   [UConverter::transcode](uconverter.transcode.md) — Перетворює рядок з одного кодування символів на інший
 -   [Функции Grapheme](ref.intl.grapheme.md)
-    -   [graphemeextract](function.grapheme-extract.html) — Функція для вилучення послідовності кластерів за замовчуванням графем з текстового буфера, яка повинна бути закодована в UTF-8
-    -   [graphemestripos](function.grapheme-stripos.html) — Знаходить позицію (в одиницях графеми) першої появи рядка без урахування регістру
-    -   [graphemestristr](function.grapheme-stristr.html) — Повертає частину рядка haystack від першої появи needle без урахування регістру до кінця haystack
-    -   [graphemestrlen](function.grapheme-strlen.html) — Отримує довжину рядка в одиницях графеми
-    -   [graphemestrpos](function.grapheme-strpos.html) - Знаходить позицію (в одиницях графеми) першого входження рядка
-    -   [graphemestrripos](function.grapheme-strripos.html) — Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
-    -   [graphemestrrpos](function.grapheme-strrpos.html) — Знаходить позицію (в одиницях графеми) останнього входження рядка
-    -   [graphemestrstr](function.grapheme-strstr.html) — Повертає частину рядка haystack від першої появи needle до кінця haystack
-    -   [graphemesubstr](function.grapheme-substr.html) — Повертає частину рядка
+    -   [graphemeextract](function.grapheme-extract.md) — Функція для вилучення послідовності кластерів за замовчуванням графем з текстового буфера, яка повинна бути закодована в UTF-8
+    -   [graphemestripos](function.grapheme-stripos.md) — Знаходить позицію (в одиницях графеми) першої появи рядка без урахування регістру
+    -   [graphemestristr](function.grapheme-stristr.md) — Повертає частину рядка haystack від першої появи needle без урахування регістру до кінця haystack
+    -   [graphemestrlen](function.grapheme-strlen.md) — Отримує довжину рядка в одиницях графеми
+    -   [graphemestrpos](function.grapheme-strpos.md) - Знаходить позицію (в одиницях графеми) першого входження рядка
+    -   [graphemestrripos](function.grapheme-strripos.md) — Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
+    -   [graphemestrrpos](function.grapheme-strrpos.md) — Знаходить позицію (в одиницях графеми) останнього входження рядка
+    -   [graphemestrstr](function.grapheme-strstr.md) — Повертає частину рядка haystack від першої появи needle до кінця haystack
+    -   [graphemesubstr](function.grapheme-substr.md) — Повертає частину рядка
 -   [Функції IDN](ref.intl.idn.md)
-    -   [idnтоascii](function.idn-to-ascii.html) — Перетворити доменне ім'я на формат IDNA ASCII
-    -   [idnтоutf8](function.idn-to-utf8.html) — Перетворення доменного імені з IDNA ASCII на Unicode
+    -   [idnтоascii](function.idn-to-ascii.md) — Перетворити доменне ім'я на формат IDNA ASCII
+    -   [idnтоutf8](function.idn-to-utf8.md) — Перетворення доменного імені з IDNA ASCII на Unicode
 -   [IntlChar](class.intlchar.md)
     -   [IntlChar::charAge](intlchar.charage.md) — Отримати "вік" символьного коду
     -   [IntlChar::charDigitValue](intlchar.chardigitvalue.md) — Отримати десяткову цифру із символу десяткової цифри
@@ -289,7 +289,7 @@ title: Функції інтернаціоналізації
     -   [IntlChar::getBidiPairedBracket](intlchar.getbidipairedbracket.md) — Отримати парну дужку для символу
     -   [IntlChar::getBlockCode](intlchar.getblockcode.md) — Отримати блок розміщення символу Unicode
     -   [IntlChar::getCombiningClass](intlchar.getcombiningclass.md) — Отримати комбінуючий клас для символу
-    -   [IntlChar::getFCNFKCClosure](intlchar.getfc-nfkc-closure.html) - Отримати властивість FCNFKCClosure для символу
+    -   [IntlChar::getFCNFKCClosure](intlchar.getfc-nfkc-closure.md) - Отримати властивість FCNFKCClosure для символу
     -   [IntlChar::getIntPropertyMaxValue](intlchar.getintpropertymaxvalue.md) — Отримати мінімальне значення для властивості Unicode
     -   [IntlChar::getIntPropertyMinValue](intlchar.getintpropertyminvalue.md) — Отримати мінімальне значення для властивості Unicode
     -   [IntlChar::getIntPropertyValue](intlchar.getintpropertyvalue.md) — Отримати значення властивості Unicode для символу
@@ -340,7 +340,7 @@ title: Функції інтернаціоналізації
     -   [IntlIterator::rewind](intliterator.rewind.md) — Перейти до першого елементу
     -   [IntlIterator::valid](intliterator.valid.md) — Перевірити, чи поточна позиція коректна
 -   [Функции intl](ref.intl.md)
-    -   [intlerrorname](function.intl-error-name.html) — Отримати ім'я помилки за її кодом
-    -   [intlgeterrorcode](function.intl-get-error-code.html) — Отримати код останньої помилки
-    -   [intlgeterrormessage](function.intl-get-error-message.html) — Отримати опис помилки
-    -   [intlісfailure](function.intl-is-failure.html) — Перевірити, чи є код помилки ознакою збою
+    -   [intlerrorname](function.intl-error-name.md) — Отримати ім'я помилки за її кодом
+    -   [intlgeterrorcode](function.intl-get-error-code.md) — Отримати код останньої помилки
+    -   [intlgeterrormessage](function.intl-get-error-message.md) — Отримати опис помилки
+    -   [intlісfailure](function.intl-is-failure.md) — Перевірити, чи є код помилки ознакою збою

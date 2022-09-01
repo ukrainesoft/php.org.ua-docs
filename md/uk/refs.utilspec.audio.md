@@ -8,8 +8,8 @@ title: Обробка аудіо форматів
 ---
 # Обробка аудіо форматів
 
--   [OpenAL](book.openal.html) - Аудіопотоки OpenAL
-    -   [Введение](intro.openal.html)
-    -   [Встановлення та налаштування](openal.setup.html)
-    -   [Обумовлені константи](openal.constants.html)
-    -   [Функции OpenAL](ref.openal.html)
+-   [OpenAL](book.openal.md) - Аудіопотоки OpenAL
+    -   [Введение](intro.openal.md)
+    -   [Встановлення та налаштування](openal.setup.md)
+    -   [Обумовлені константи](openal.constants.md)
+    -   [Функции OpenAL](ref.openal.md)

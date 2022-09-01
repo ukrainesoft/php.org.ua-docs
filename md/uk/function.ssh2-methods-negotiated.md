@@ -24,7 +24,7 @@ ssh2_methods_negotiated(resource $session): array
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
 
 ### Значення, що повертаються
 
@@ -56,4 +56,4 @@ echo "\tMAC: {$methods['server_to_client']['mac']}\n";
 
 ### Дивіться також
 
--   [ssh2connect()](function.ssh2-connect.html) - Підключення до SSH-сервера
+-   [ssh2connect()](function.ssh2-connect.md) - Підключення до SSH-сервера

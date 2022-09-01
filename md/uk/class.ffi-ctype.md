@@ -50,19 +50,19 @@ public getStructFieldType(string $name): FFI\CType
 
 ## Зміст
 
--   [FFICType::getAlignment](ffi-ctype.getalignment.html) - Опис
--   [FFICType::getArrayElementType](ffi-ctype.getarrayelementtype.html) - Опис
--   [FFICType::getArrayLength](ffi-ctype.getarraylength.html) - Опис
--   [FFICType::getAttributes](ffi-ctype.getattributes.html) - Опис
--   [FFICType::getEnumKind](ffi-ctype.getenumkind.html) - Опис
--   [FFICType::getFuncABI](ffi-ctype.getfuncabi.html) - Опис
--   [FFICType::getFuncParameterCount](ffi-ctype.getfuncparametercount.html) - Опис
--   [FFICType::getFuncParameterType](ffi-ctype.getfuncparametertype.html) - Опис
--   [FFICType::getFuncReturnType](ffi-ctype.getfuncreturntype.html) - Опис
--   [FFICType::getKind](ffi-ctype.getkind.html) - Опис
--   [FFICType::getName](ffi-ctype.getname.html) - Опис
--   [FFICType::getPointerType](ffi-ctype.getpointertype.html) - Опис
--   [FFICType::getSize](ffi-ctype.getsize.html) - Опис
--   [FFICType::getStructFieldNames](ffi-ctype.getstructfieldnames.html) - Опис
--   [FFICType::getStructFieldOffset](ffi-ctype.getstructfieldoffset.html) - Опис
--   [FFICType::getStructFieldType](ffi-ctype.getstructfieldtype.html) - Опис
+-   [FFICType::getAlignment](ffi-ctype.getalignment.md) - Опис
+-   [FFICType::getArrayElementType](ffi-ctype.getarrayelementtype.md) - Опис
+-   [FFICType::getArrayLength](ffi-ctype.getarraylength.md) - Опис
+-   [FFICType::getAttributes](ffi-ctype.getattributes.md) - Опис
+-   [FFICType::getEnumKind](ffi-ctype.getenumkind.md) - Опис
+-   [FFICType::getFuncABI](ffi-ctype.getfuncabi.md) - Опис
+-   [FFICType::getFuncParameterCount](ffi-ctype.getfuncparametercount.md) - Опис
+-   [FFICType::getFuncParameterType](ffi-ctype.getfuncparametertype.md) - Опис
+-   [FFICType::getFuncReturnType](ffi-ctype.getfuncreturntype.md) - Опис
+-   [FFICType::getKind](ffi-ctype.getkind.md) - Опис
+-   [FFICType::getName](ffi-ctype.getname.md) - Опис
+-   [FFICType::getPointerType](ffi-ctype.getpointertype.md) - Опис
+-   [FFICType::getSize](ffi-ctype.getsize.md) - Опис
+-   [FFICType::getStructFieldNames](ffi-ctype.getstructfieldnames.md) - Опис
+-   [FFICType::getStructFieldOffset](ffi-ctype.getstructfieldoffset.md) - Опис
+-   [FFICType::getStructFieldType](ffi-ctype.getstructfieldtype.md) - Опис

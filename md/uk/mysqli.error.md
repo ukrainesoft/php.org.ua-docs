@@ -32,7 +32,7 @@ mysqli_error(mysqli $mysql): string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -92,7 +92,7 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqliconnecterrno()](mysqli.connect-errno.html) - Повертає код помилки останньої спроби з'єднання
--   [mysqliconnecterror()](mysqli.connect-error.html) - Повертає опис останньої помилки підключення
+-   [mysqliconnecterrno()](mysqli.connect-errno.md) - Повертає код помилки останньої спроби з'єднання
+-   [mysqliconnecterror()](mysqli.connect-error.md) - Повертає опис останньої помилки підключення
 -   [mysqlierrno()](mysqli.errno.md) - Повертає код помилки останнього виклику функції
 -   [mysqlisqlstate()](mysqli.sqlstate.md) - Повертає код стану SQLSTATE останній MySQL операції

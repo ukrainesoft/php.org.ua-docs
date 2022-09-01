@@ -62,7 +62,7 @@ title: Опис вбудованих директив php.ini
 
 Ця директива дозволяє вимкнути деякі функції. Вона приймає список імен функцій, розділений комами.
 
-Тільки [внутрішні функції](functions.internal.md) можуть бути відключені за допомогою цієї директиви . [Функції користувача](functions.user-defined.html) їй не схильні.
+Тільки [внутрішні функції](functions.internal.md) можуть бути відключені за допомогою цієї директиви . [Функції користувача](functions.user-defined.md) їй не схильні.
 
 Ця директива має бути встановлена ​​у php.ini. Наприклад, її не можна використовувати в httpd.conf.
 
@@ -108,11 +108,11 @@ Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unk
 
 Це значення буде використано лише за відсутності директиви [declare(encoding=...)](control-structures.declare.html#control-structures.declare.encoding) на початку скрипту. При використанні несумісних кодувань з ISO-8859-1, потрібно використовувати опції і zend.multibyte і zend.scriptencoding.
 
-Літеральні рядки мають бути транслітеровані із zend.scriptencoding у mbstring.internalencoding, якби викликали [мбconvertencoding()](function.mb-convert-encoding.html)
+Літеральні рядки мають бути транслітеровані із zend.scriptencoding у mbstring.internalencoding, якби викликали [мбconvertencoding()](function.mb-convert-encoding.md)
 
 `zend.detect_unicode` bool
 
-Визначає, чи потрібно перевіряти BOM (Byte Order Mark, мітка порядку байт) та коректність багатобайтних символів у файлі. Ця перевірка здійснюється до дзвінка [haltcompiler()](function.halt-compiler.html). Доступна лише у режимі Zend Multibyte.
+Визначає, чи потрібно перевіряти BOM (Byte Order Mark, мітка порядку байт) та коректність багатобайтних символів у файлі. Ця перевірка здійснюється до дзвінка [haltcompiler()](function.halt-compiler.md). Доступна лише у режимі Zend Multibyte.
 
 `zend.signal_check` bool
 
@@ -276,7 +276,7 @@ Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unk
 
 `default_charset` string
 
-"UTF-8" є значенням за промовчанням і використовується як кодування за промовчанням для функцій [htmlentities()](function.htmlentities.md) [htmlentitydecode()](function.html-entity-decode.html) і [htmlspecialchars()](function.htmlspecialchars.md), якщо параметр `encoding` не вказано. Значення `default_charset` також використовується для вказівки кодування за промовчанням для функцій [iconv](book.iconv.md), якщо конфігураційні опції [`iconv.input_encoding`](iconv.configuration.html#ini.iconv.input-encoding) [`iconv.output_encoding`](iconv.configuration.html#ini.iconv.output-encoding) і [`iconv.internal_encoding`](iconv.configuration.html#ini.iconv.internal-encoding) не встановлені, і для функцій [mbstring](book.mbstring.md), якщо не встановлено [`mbstring.http_input`](mbstring.configuration.html#ini.mbstring.http-input) [`mbstring.http_output`](mbstring.configuration.html#ini.mbstring.http-output) [`mbstring.internal_encoding`](mbstring.configuration.html#ini.mbstring.internal-encoding)
+"UTF-8" є значенням за промовчанням і використовується як кодування за промовчанням для функцій [htmlentities()](function.htmlentities.md) [htmlentitydecode()](function.html-entity-decode.md) і [htmlspecialchars()](function.htmlspecialchars.md), якщо параметр `encoding` не вказано. Значення `default_charset` також використовується для вказівки кодування за промовчанням для функцій [iconv](book.iconv.md), якщо конфігураційні опції [`iconv.input_encoding`](iconv.configuration.html#ini.iconv.input-encoding) [`iconv.output_encoding`](iconv.configuration.html#ini.iconv.output-encoding) і [`iconv.internal_encoding`](iconv.configuration.html#ini.iconv.internal-encoding) не встановлені, і для функцій [mbstring](book.mbstring.md), якщо не встановлено [`mbstring.http_input`](mbstring.configuration.html#ini.mbstring.http-input) [`mbstring.http_output`](mbstring.configuration.html#ini.mbstring.http-output) [`mbstring.internal_encoding`](mbstring.configuration.html#ini.mbstring.internal-encoding)
 
 Усі версії PHP використовують це значення як кодування для стандартного заголовка Content-Type, що надсилається PHP, якщо цей заголовок не перевизначений викликом функції [header()](function.header.md)
 
@@ -323,9 +323,9 @@ Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unk
 
 `include_path` string
 
-Вказує список директорій, у яких функції [require](function.require.md) [include](function.include.md) [fopen()](function.fopen.md) [file()](function.file.md) [readfile()](function.readfile.md) і [filegetcontents()](function.file-get-contents.html) шукають файли Формат відповідає формату системної змінної оточення PATH: список директорій, розділених двокрапкою в Unix або крапкою з комою у Windows.
+Вказує список директорій, у яких функції [require](function.require.md) [include](function.include.md) [fopen()](function.fopen.md) [file()](function.file.md) [readfile()](function.readfile.md) і [filegetcontents()](function.file-get-contents.md) шукають файли Формат відповідає формату системної змінної оточення PATH: список директорій, розділених двокрапкою в Unix або крапкою з комою у Windows.
 
-При пошуку файлів, що підключаються, PHP окремо розглядає кожне значення в includepath. Він перевіряє перший шлях, якщо файл в ньому не знайдений, то він переходить до наступного, і так до тих пір, поки не знайде файл, що підключається, або поверне **`E_WARNING`** або **`E_ERROR`**. Ви можете змінити ваш includepath під час виконання скрипту за допомогою функції [setincludepath()](function.set-include-path.html)
+При пошуку файлів, що підключаються, PHP окремо розглядає кожне значення в includepath. Він перевіряє перший шлях, якщо файл в ньому не знайдений, то він переходить до наступного, і так до тих пір, поки не знайде файл, що підключається, або поверне **`E_WARNING`** або **`E_ERROR`**. Ви можете змінити ваш includepath під час виконання скрипту за допомогою функції [setincludepath()](function.set-include-path.md)
 
 **Приклад #1 includepath в Unix**
 
@@ -367,7 +367,7 @@ includepath = ".:${USER}/pear/php"
 
 > **Зауваження**
 > 
-> Значення openBasedir можна зробити суворішим під час виконання скрипта. Це означає, що якщо openbasedir була встановлена ​​в `/www/` в php.ini, то скрипт може утиснути конфігурацію до `/www/tmp/` під час виконання за допомогою [iniset()](function.ini-set.html). При вказівці кількох директорій можна використовувати константу **`PATH_SEPARATOR`** як роздільник шляхів, який залежить від операційної системи.
+> Значення openBasedir можна зробити суворішим під час виконання скрипта. Це означає, що якщо openbasedir була встановлена ​​в `/www/` в php.ini, то скрипт може утиснути конфігурацію до `/www/tmp/` під час виконання за допомогою [iniset()](function.ini-set.md). При вказівці кількох директорій можна використовувати константу **`PATH_SEPARATOR`** як роздільник шляхів, який залежить від операційної системи.
 
 > **Зауваження**
 > 
@@ -466,7 +466,7 @@ FastCGI під IIS (в ОС на базі WINNT) підтримує можлив
 
 `file_uploads` bool
 
-Дозволяти чи не дозволяти [закачивание файлов](features.file-upload.html). Дивіться також директиви [uploadmaxfilesize](ini.core.html#ini.upload-max-filesize) [uploadtmpdir](ini.core.html#ini.upload-tmp-dir) і [postmaxsize](ini.core.html#ini.post-max-size)
+Дозволяти чи не дозволяти [закачивание файлов](features.file-upload.md). Дивіться також директиви [uploadmaxfilesize](ini.core.html#ini.upload-max-filesize) [uploadtmpdir](ini.core.html#ini.upload-tmp-dir) і [postmaxsize](ini.core.html#ini.post-max-size)
 
 `upload_tmp_dir` string
 

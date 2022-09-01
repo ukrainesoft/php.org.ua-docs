@@ -10,5 +10,5 @@ title: Приклади
 
 ## Зміст
 
--   [Базовое использование SimpleXML](simplexml.examples-basic.html)
--   [Робота з помилками XML](simplexml.examples-errors.html)
+-   [Базовое использование SimpleXML](simplexml.examples-basic.md)
+-   [Робота з помилками XML](simplexml.examples-errors.md)

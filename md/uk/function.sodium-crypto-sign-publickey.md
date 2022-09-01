@@ -24,7 +24,7 @@ sodium_crypto_sign_publickey(string $key_pair): string
 
 `key_pair`
 
-Ключова пара Ed25519 (дивіться [sodiumcryptosignkeypair()](function.sodium-crypto-sign-keypair.html)
+Ключова пара Ed25519 (дивіться [sodiumcryptosignkeypair()](function.sodium-crypto-sign-keypair.md)
 
 ### Значення, що повертаються
 

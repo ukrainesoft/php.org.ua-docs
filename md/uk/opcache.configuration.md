@@ -79,7 +79,7 @@ title: Налаштування під час виконання
 
 `opcache.enable` bool
 
-Дозволяє кешування опкодів. Якщо заборонено, код не оптимізуватиметься і не кешуватиметься. Опцію `opcache.enable` не можна увімкнути під час виконання за допомогою [iniset()](function.ini-set.html), але можна вимкнути. Спроба включити її у такий спосіб призведе до генерації попередження.
+Дозволяє кешування опкодів. Якщо заборонено, код не оптимізуватиметься і не кешуватиметься. Опцію `opcache.enable` не можна увімкнути під час виконання за допомогою [iniset()](function.ini-set.md), але можна вимкнути. Спроба включити її у такий спосіб призведе до генерації попередження.
 
 `opcache.enable_cli` bool
 
@@ -107,7 +107,7 @@ title: Налаштування під час виконання
 
 `opcache.validate_timestamps` bool
 
-Якщо увімкнено, OPcache перевірятиме актуальність закешованих скриптів кожні [opcache.revalidatefreq](opcache.configuration.html#ini.opcache.revalidate-freq) секунд. Коли заборонено, ви можете перезапустити OPcache вручну за допомогою [opcachereset()](function.opcache-reset.html) [opcacheinvalidate()](function.opcache-invalidate.html) або перезапустити веб-сервер для того, щоб зміни набули чинності.
+Якщо увімкнено, OPcache перевірятиме актуальність закешованих скриптів кожні [opcache.revalidatefreq](opcache.configuration.html#ini.opcache.revalidate-freq) секунд. Коли заборонено, ви можете перезапустити OPcache вручну за допомогою [opcachereset()](function.opcache-reset.html) [opcacheinvalidate()](function.opcache-invalidate.md) або перезапустити веб-сервер для того, щоб зміни набули чинності.
 
 `opcache.revalidate_freq` int
 
@@ -131,7 +131,7 @@ title: Налаштування під час виконання
 
 `opcache.enable_file_override` bool
 
-Якщо увімкнено, то кеш опкодів перевірятиме, чи вже закешовано файл при викликі функцій [fileexists()](function.file-exists.html) [ісfile()](function.is-file.html) і [ісreadable()](function.is-readable.html). Це може підвищити продуктивність додатків, які перевіряють присутність і доступність для читання скриптом PHP, але несе ризик повернення застарілих даних, якщо заборонена опція [opcache.validatetimestamps](opcache.configuration.html#ini.opcache.validate-timestamps)
+Якщо увімкнено, то кеш опкодів перевірятиме, чи вже закешовано файл при викликі функцій [fileexists()](function.file-exists.html) [ісfile()](function.is-file.html) і [ісreadable()](function.is-readable.md). Це може підвищити продуктивність додатків, які перевіряють присутність і доступність для читання скриптом PHP, але несе ризик повернення застарілих даних, якщо заборонена опція [opcache.validatetimestamps](opcache.configuration.html#ini.opcache.validate-timestamps)
 
 `opcache.optimization_level` int
 
@@ -256,7 +256,7 @@ title: Налаштування під час виконання
 
 `opcache.preload` string
 
-Задає скрипт PHP, який буде скомпілюваний і запущений при старті сервера і зможе завантажити інші файли, або за допомогою [include](function.include.md), або використовуючи функцію [opcachecompilefile()](function.opcache-compile-file.html). Усі сутності (наприклад, функції та класи), визначені в цих файлах, автоматично будуть доступні до моменту вимкнення сервера.
+Задає скрипт PHP, який буде скомпілюваний і запущений при старті сервера і зможе завантажити інші файли, або за допомогою [include](function.include.md), або використовуючи функцію [opcachecompilefile()](function.opcache-compile-file.md). Усі сутності (наприклад, функції та класи), визначені в цих файлах, автоматично будуть доступні до моменту вимкнення сервера.
 
 > **Зауваження**
 > 

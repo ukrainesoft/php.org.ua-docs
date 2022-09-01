@@ -24,7 +24,7 @@ odbc_foreignkeys(    resource $odbc,    ?string $pk_catalog,    stri
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
 
 `fk_catalog`
 
@@ -83,5 +83,5 @@ odbc_foreignkeys(    resource $odbc,    ?string $pk_catalog,    stri
 
 ### Дивіться також
 
--   [odbctables()](function.odbc-tables.html) - Отримує список імен таблиць, що зберігаються у певному джерелі даних
--   [odbcprimarykeys()](function.odbc-primarykeys.html) - Отримує первинні ключі таблиці
+-   [odbctables()](function.odbc-tables.md) - Отримує список імен таблиць, що зберігаються у певному джерелі даних
+-   [odbcprimarykeys()](function.odbc-primarykeys.md) - Отримує первинні ключі таблиці

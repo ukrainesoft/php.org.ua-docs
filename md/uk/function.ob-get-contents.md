@@ -60,5 +60,5 @@ string(11) "Привет Мир"
 
 ### Дивіться також
 
--   [проstart()](function.ob-start.html) - Включення буферизації виводу
--   [проgetlength()](function.ob-get-length.html) - Повертає розмір буфера виводу
+-   [проstart()](function.ob-start.md) - Включення буферизації виводу
+-   [проgetlength()](function.ob-get-length.md) - Повертає розмір буфера виводу

@@ -24,7 +24,7 @@ ps_moveto(resource $psdoc, float $x, float $y): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `x`
 
@@ -40,4 +40,4 @@ ps_moveto(resource $psdoc, float $x, float $y): bool
 
 ### Дивіться також
 
--   [псlineto()](function.ps-lineto.html) - Малює лінію
+-   [псlineto()](function.ps-lineto.md) - Малює лінію

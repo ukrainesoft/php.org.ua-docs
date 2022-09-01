@@ -28,4 +28,4 @@ abstract public MongoDB\BSON\RegexInterface::getPattern(): string
 
 ### Дивіться також
 
--   [MongoDBBSONRegex::getPattern()](mongodb-bson-regex.getpattern.html) - Повертає шаблон Regex
+-   [MongoDBBSONRegex::getPattern()](mongodb-bson-regex.getpattern.md) - Повертає шаблон Regex

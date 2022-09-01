@@ -42,4 +42,4 @@ echo gethostname(); // может вывести например: sandie
 
 -   [gethostbyname()](function.gethostbyname.md) - Отримує IPv4-адресу, що відповідає переданому імені хоста
 -   [gethostbyaddr()](function.gethostbyaddr.md) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
--   [phpuname()](function.php-uname.html) - Повертає інформацію про операційну систему, на якій запущено PHP
+-   [phpuname()](function.php-uname.md) - Повертає інформацію про операційну систему, на якій запущено PHP

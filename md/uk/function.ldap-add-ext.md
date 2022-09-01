@@ -18,22 +18,22 @@ ldapaddext — Додати записи до каталогу LDAP
 ldap_add_ext(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): LDAP\Result|false
 ```
 
-Робить те саме, що й [ldapadd()](function.ldap-add.html), але повертає екземпляр [LDAPResult](class.ldap-result.html) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.html)
+Робить те саме, що й [ldapadd()](function.ldap-add.html), але повертає екземпляр [LDAPResult](class.ldap-result.html) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)
 
 ### Список параметрів
 
-Дивіться [ldapadd()](function.ldap-add.html)
+Дивіться [ldapadd()](function.ldap-add.md)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [LDAPResult](class.ldap-result.html) або **`false`** у разі виникнення помилки.
+Повертає екземпляр [LDAPResult](class.ldap-result.md) або **`false`** у разі виникнення помилки.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [LDAPResult](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
 |  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
 
 ### Примітки
@@ -42,5 +42,5 @@ ldap_add_ext(    LDAP\Connection $ldap,    string $dn,    array $ent
 
 ### Дивіться також
 
--   [ldapadd()](function.ldap-add.html) - Додати запис до LDAP директорії
--   [ldapparseresult()](function.ldap-parse-result.html) - Витягти інформацію з результату
+-   [ldapadd()](function.ldap-add.md) - Додати запис до LDAP директорії
+-   [ldapparseresult()](function.ldap-parse-result.md) - Витягти інформацію з результату

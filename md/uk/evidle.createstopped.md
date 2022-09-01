@@ -36,7 +36,7 @@ final
 
 `callback`
 
-Дивіться [функції зворотного виклику спостерігачів](ev.watcher-callbacks.html)
+Дивіться [функції зворотного виклику спостерігачів](ev.watcher-callbacks.md)
 
 `data`
 

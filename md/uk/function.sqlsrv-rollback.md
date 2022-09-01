@@ -10,7 +10,7 @@ title: sqlsrvrollback
 
 (No version information available, might only be in Git)
 
-sqlsrvrollback - Відкочує транзакцію, розпочату [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.html)
+sqlsrvrollback - Відкочує транзакцію, розпочату [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md)
 
 ### Опис
 
@@ -18,13 +18,13 @@ sqlsrvrollback - Відкочує транзакцію, розпочату [sqls
 sqlsrv_rollback(resource $conn): bool
 ```
 
-Відкочує транзакцію, розпочату [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.html) та повертає з'єднання з режимом автоматичної фіксації.
+Відкочує транзакцію, розпочату [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md) та повертає з'єднання з режимом автоматичної фіксації.
 
 ### Список параметрів
 
 `conn`
 
-Ресурс підключення, що повертається викликом [sqlsrvconnect()](function.sqlsrv-connect.html)
+Ресурс підключення, що повертається викликом [sqlsrvconnect()](function.sqlsrv-connect.md)
 
 ### Значення, що повертаються
 
@@ -34,7 +34,7 @@ sqlsrv_rollback(resource $conn): bool
 
 **Приклад #1 Приклад використання **sqlsrvrollback()****
 
-У наступному прикладі показано, як використовувати [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.html) разом з [sqlsrvcommit()](function.sqlsrv-commit.html) або **sqlsrvrollback()**
+У наступному прикладі показано, як використовувати [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.html) разом з [sqlsrvcommit()](function.sqlsrv-commit.md) або **sqlsrvrollback()**
 
 ```php
 <?php
@@ -80,5 +80,5 @@ if( $stmt1 && $stmt2 ) {
 
 ### Дивіться також
 
--   [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.html) - Починає транзакцію бази даних
--   [sqlsrvcommit()](function.sqlsrv-commit.html) - Фіксує транзакцію, розпочату за допомогою sqlsrvbegintransaction
+-   [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md) - Починає транзакцію бази даних
+-   [sqlsrvcommit()](function.sqlsrv-commit.md) - Фіксує транзакцію, розпочату за допомогою sqlsrvbegintransaction

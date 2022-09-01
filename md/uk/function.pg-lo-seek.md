@@ -18,7 +18,7 @@ title: пглоseek
 pg_lo_seek(PgSql\Lob $lob, int $offset, int $whence = SEEK_CUR): bool
 ```
 
-**пглоseek()** переміщує внутрішній покажчик екземпляра [PgSqlLob](class.pgsql-lob.html)
+**пглоseek()** переміщує внутрішній покажчик екземпляра [PgSqlLob](class.pgsql-lob.md)
 
 Операції з використанням інтерфейсу великих об'єктів необхідно укладати у блок транзакції.
 
@@ -26,7 +26,7 @@ pg_lo_seek(PgSql\Lob $lob, int $offset, int $whence = SEEK_CUR): bool
 
 `lob`
 
-Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.html)
+Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.md)
 
 `offset`
 
@@ -44,7 +44,7 @@ pg_lo_seek(PgSql\Lob $lob, int $offset, int $whence = SEEK_CUR): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -67,4 +67,4 @@ pg_lo_seek(PgSql\Lob $lob, int $offset, int $whence = SEEK_CUR): bool
 
 ### Дивіться також
 
--   [пглоtell()](function.pg-lo-tell.html) - Повертає поточне положення внутрішнього покажчика великого об'єкта
+-   [пглоtell()](function.pg-lo-tell.md) - Повертає поточне положення внутрішнього покажчика великого об'єкта

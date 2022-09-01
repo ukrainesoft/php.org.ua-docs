@@ -10,11 +10,11 @@ title: ocicolumnscale
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocicolumnscale - Псевдонім [ocifieldscale()](function.oci-field-scale.html)
+ocicolumnscale - Псевдонім [ocifieldscale()](function.oci-field-scale.md)
 
 ### Опис
 
-Псевдонім [ocifieldscale()](function.oci-field-scale.html)
+Псевдонім [ocifieldscale()](function.oci-field-scale.md)
 
 **Увага**
 

@@ -50,7 +50,7 @@ public PDO::setAttribute(int $attribute, mixed $value): bool
 
 **`PDO::ERRMODE_EXCEPTION`**
 
-Викидає [PDOException](class.pdoexception.html)
+Викидає [PDOException](class.pdoexception.md)
 
 **`PDO::ATTR_ORACLE_NULLS`**
 
@@ -110,7 +110,7 @@ public PDO::setAttribute(int $attribute, mixed $value): bool
 
 **`PDO::ATTR_DEFAULT_FETCH_MODE`**
 
-Встановлює режим вибірки за промовчанням. Опис режимів та їх використання доступний у документації [PDOStatement::fetch()](pdostatement.fetch.html)
+Встановлює режим вибірки за промовчанням. Опис режимів та їх використання доступний у документації [PDOStatement::fetch()](pdostatement.fetch.md)
 
 ### Список параметрів
 
@@ -128,6 +128,6 @@ public PDO::setAttribute(int $attribute, mixed $value): bool
 
 ### Дивіться також
 
--   [PDO::getAttribute()](pdo.getattribute.html) - Отримати атрибут з'єднання з базою даних
--   [PDOStatement::getAttribute()](pdostatement.getattribute.html) - Отримання значення атрибуту запиту PDOStatement
--   [PDOStatement::setAttribute()](pdostatement.setattribute.html) - Встановлює атрибут об'єкту PDOStatement
+-   [PDO::getAttribute()](pdo.getattribute.md) - Отримати атрибут з'єднання з базою даних
+-   [PDOStatement::getAttribute()](pdostatement.getattribute.md) - Отримання значення атрибуту запиту PDOStatement
+-   [PDOStatement::setAttribute()](pdostatement.setattribute.md) - Встановлює атрибут об'єкту PDOStatement

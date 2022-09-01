@@ -53,7 +53,7 @@ echo $compressed;
 
 ### Дивіться також
 
--   [gzinflate()](function.gzinflate.html) - Розпакувати стислий рядок
--   [gzcompress()](function.gzcompress.html) - Стиснути рядок
--   [gzuncompress()](function.gzuncompress.html) - Розпакувати стислий рядок
--   [gzencode()](function.gzencode.html) - Створити стислий рядок gzip
+-   [gzinflate()](function.gzinflate.md) - Розпакувати стислий рядок
+-   [gzcompress()](function.gzcompress.md) - Стиснути рядок
+-   [gzuncompress()](function.gzuncompress.md) - Розпакувати стислий рядок
+-   [gzencode()](function.gzencode.md) - Створити стислий рядок gzip

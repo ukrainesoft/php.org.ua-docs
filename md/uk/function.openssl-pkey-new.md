@@ -26,7 +26,7 @@ openssl_pkey_new(?array $options = null): OpenSSLAsymmetricKey|false
 
 `options`
 
-Ви можете налаштувати параметри генерації ключа (наприклад, вказати число біт) за допомогою `options`. Дивіться опис функції [opensslcsrnew()](function.openssl-csr-new.html) для детальної інформації про `options`
+Ви можете налаштувати параметри генерації ключа (наприклад, вказати число біт) за допомогою `options`. Дивіться опис функції [opensslcsrnew()](function.openssl-csr-new.md) для детальної інформації про `options`
 
 ### Значення, що повертаються
 

@@ -94,5 +94,5 @@ CQL можна доручити створити цикл для переміщ�
 
 ## Зміст
 
--   [CommonMarkCQL::construct](commonmark-cql.construct.html) - Конструктор класу CQL
--   [CommonMarkCQL::invoke](commonmark-cql.invoke.html) - Виконання CQL
+-   [CommonMarkCQL::construct](commonmark-cql.construct.md) - Конструктор класу CQL
+-   [CommonMarkCQL::invoke](commonmark-cql.invoke.md) - Виконання CQL

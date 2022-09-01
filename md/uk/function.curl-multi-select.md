@@ -24,7 +24,7 @@ curl_multi_select(CurlMultiHandle $multi_handle, float $timeout = 1.0): int
 
 `multi_handle`
 
-Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.html)
+Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.md)
 
 `timeout`
 
@@ -42,4 +42,4 @@ curl_multi_select(CurlMultiHandle $multi_handle, float $timeout = 1.0): int
 
 ### Дивіться також
 
--   [curlmultiinit()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів
+-   [curlmultiinit()](function.curl-multi-init.md) - Створює набір cURL-дескрипторів

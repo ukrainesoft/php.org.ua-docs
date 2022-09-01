@@ -34,4 +34,4 @@ public Componere\Patch::getClosure(string $name): Closure
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html) якщо `name` НЕ знайдений
+Викидає виняток [RuntimeException](class.runtimeexception.md) якщо `name` НЕ знайдений

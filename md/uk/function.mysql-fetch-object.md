@@ -14,9 +14,9 @@ mysqlfetchobject — Обробляє ряд результатів запиту
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlifetchobject()](mysqli-result.fetch-object.html)
+-   [mysqlifetchobject()](mysqli-result.fetch-object.md)
 -   [PDOStatement::fetch(PDO::FETCHOBJ)](pdostatement.fetch.md)
 
 ### Опис
@@ -31,7 +31,7 @@ mysql_fetch_object(resource $result, string $class_name = ?, array $params = ?):
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
 
 `class_name`
 
@@ -83,11 +83,11 @@ var_dump($obj);
 
 > **Зауваження** **Продуктивність**
 > 
-> У плані швидкості ця функція аналогічна [mysqlfetcharray()](function.mysql-fetch-array.html) і майже також швидка, як [mysqlfetchrow()](function.mysql-fetch-row.html) (Різниця незначна).
+> У плані швидкості ця функція аналогічна [mysqlfetcharray()](function.mysql-fetch-array.html) і майже також швидка, як [mysqlfetchrow()](function.mysql-fetch-row.md) (Різниця незначна).
 
 > **Зауваження**
 > 
-> **mysqlfetchobject()** працює аналогічно [mysqlfetcharray()](function.mysql-fetch-array.html), з єдиною відмінністю - функція повертає об'єкт замість масиву. Це, крім усього іншого, означає, що ви зможете працювати з полями тільки на ім'я колонок, а не індексів (числа не можуть бути властивостями об'єкта).
+> **mysqlfetchobject()** працює аналогічно [mysqlfetcharray()](function.mysql-fetch-array.md), з єдиною відмінністю - функція повертає об'єкт замість масиву. Це, крім усього іншого, означає, що ви зможете працювати з полями тільки на ім'я колонок, а не індексів (числа не можуть бути властивостями об'єкта).
 
 > **Зауваження**: Імена полів, що повертаються цією функцією *залежними від регістру*
 
@@ -95,8 +95,8 @@ var_dump($obj);
 
 ### Дивіться також
 
--   [mysqlfetcharray()](function.mysql-fetch-array.html) - обробляє ряд результату запиту, повертаючи асоціативний масив, чисельний масив або обидва
--   [mysqlfetchassoc()](function.mysql-fetch-assoc.html) - Повертає ряд результату запиту як асоціативний масив.
--   [mysqlfetchrow()](function.mysql-fetch-row.html) - Обробляє ряд результату запиту та повертає масив із числовими індексами
--   [mysqldataseek()](function.mysql-data-seek.html) - Переміщує внутрішній покажчик у результаті запиту
--   [mysqlquery()](function.mysql-query.html) - Надсилає запит MySQL
+-   [mysqlfetcharray()](function.mysql-fetch-array.md) - обробляє ряд результату запиту, повертаючи асоціативний масив, чисельний масив або обидва
+-   [mysqlfetchassoc()](function.mysql-fetch-assoc.md) - Повертає ряд результату запиту як асоціативний масив.
+-   [mysqlfetchrow()](function.mysql-fetch-row.md) - Обробляє ряд результату запиту та повертає масив із числовими індексами
+-   [mysqldataseek()](function.mysql-data-seek.md) - Переміщує внутрішній покажчик у результаті запиту
+-   [mysqlquery()](function.mysql-query.md) - Надсилає запит MySQL

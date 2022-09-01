@@ -25,7 +25,7 @@ public php_user_filter::onCreate(): bool
 | Свойство | Содержание |
 | --- | --- |
 | `FilterClass->filtername` | Рядок, що містить ім'я фільтра, присвоєне йому під час створення. Фільтри можна реєструвати під різними іменами чи спецсимволами. Цю властивість можна використовувати визначення, яке ім'я було використано. |
-| `FilterClass->params` | Вміст аргументу `params` передається у функцію [streamfilterappend()](function.stream-filter-append.html) або [streamfilterprepend()](function.stream-filter-prepend.html) |
+| `FilterClass->params` | Вміст аргументу `params` передається у функцію [streamfilterappend()](function.stream-filter-append.html) або [streamfilterprepend()](function.stream-filter-prepend.md) |
 | `FilterClass->stream` | Ресурс потоку, який фільтруватиметься. Властивість доступна, тільки якщо метод **filter()** викликається, коли параметр `closing` дорівнює **`false`** |
 
 ### Список параметрів

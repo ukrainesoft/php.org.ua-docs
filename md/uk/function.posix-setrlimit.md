@@ -26,7 +26,7 @@ posix_setrlimit(int $resource, int $soft_limit, int $hard_limit): bool
 
 `resource`
 
-[Константа предела ресурса](posix.constants.setrlimit.html) що відповідає за межу, яка має бути встановлена.
+[Константа предела ресурса](posix.constants.setrlimit.md) що відповідає за межу, яка має бути встановлена.
 
 `soft_limit`
 
@@ -43,4 +43,4 @@ posix_setrlimit(int $resource, int $soft_limit, int $hard_limit): bool
 ### Дивіться також
 
 -   man page SETRLIMIT(2)
--   [posixgetrlimit()](function.posix-getrlimit.html) - Повертає інформацію про обмеження системних ресурсів
+-   [posixgetrlimit()](function.posix-getrlimit.md) - Повертає інформацію про обмеження системних ресурсів

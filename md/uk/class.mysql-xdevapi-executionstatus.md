@@ -64,4 +64,4 @@ lastDocumentId
 
 ## Зміст
 
--   [ExecutionStatus::construct](mysql-xdevapi-executionstatus.construct.html) - Конструктор класу ExecutionStatus
+-   [ExecutionStatus::construct](mysql-xdevapi-executionstatus.construct.md) - Конструктор класу ExecutionStatus

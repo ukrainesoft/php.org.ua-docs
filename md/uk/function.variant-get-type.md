@@ -34,4 +34,4 @@ variant_get_type(variant $variant): int
 
 ### Дивіться також
 
--   [variantsettype()](function.variant-set-type.html) - Приведення варіанта до іншого типу "за місцем"
+-   [variantsettype()](function.variant-set-type.md) - Приведення варіанта до іншого типу "за місцем"

@@ -16,7 +16,7 @@ parallelbootstrap — Початкове завантаження
 parallel\bootstrap(string $file): void
 ```
 
-Повинен використовувати наданий `file` для початкового завантаження всіх середовищ виконання, створених для автоматичного планування за допомогою [parallelrun()](parallel.run.html)
+Повинен використовувати наданий `file` для початкового завантаження всіх середовищ виконання, створених для автоматичного планування за допомогою [parallelrun()](parallel.run.md)
 
 ### Список параметрів
 
@@ -36,8 +36,8 @@ parallel\bootstrap(string $file): void
 
 **Увага**
 
-Викидає parallelRuntimeErrorBootstrap, якщо викликається після [parallelrun()](parallel.run.html)
+Викидає parallelRuntimeErrorBootstrap, якщо викликається після [parallelrun()](parallel.run.md)
 
 ### Дивіться також
 
--   [parallelRuntime::run](parallel-runtime.run.html)
+-   [parallelRuntime::run](parallel-runtime.run.md)

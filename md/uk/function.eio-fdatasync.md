@@ -24,7 +24,7 @@ eio_fdatasync(    mixed $fd,    int $pri = EIO_PRI_DEFAULT,    calla
 
 `fd`
 
-Потік, покажчик на сокет або числовий дескриптор файлу, наприклад, повернутий [eioopen()](function.eio-open.html)
+Потік, покажчик на сокет або числовий дескриптор файлу, наприклад, повернутий [eioopen()](function.eio-open.md)
 
 `pri`
 
@@ -48,7 +48,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
 

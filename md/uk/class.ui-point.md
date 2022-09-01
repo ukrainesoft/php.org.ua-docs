@@ -64,9 +64,9 @@ public setY(float $point)
 
 ## Зміст
 
--   [ОЙPoint::at](ui-point.at.html) - Приведення Size
--   [ОЙPoint::construct](ui-point.construct.html) — Створити новий об'єкт Point
--   [ОЙPoint::getX](ui-point.getx.html) — Отримує X
--   [ОЙPoint::getY](ui-point.gety.html) - Отримати Y
--   [ОЙPoint::setX](ui-point.setx.html) - Встановити X
--   [ОЙPoint::setY](ui-point.sety.html) - Встановити Y
+-   [ОЙPoint::at](ui-point.at.md) - Приведення Size
+-   [ОЙPoint::construct](ui-point.construct.md) — Створити новий об'єкт Point
+-   [ОЙPoint::getX](ui-point.getx.md) — Отримує X
+-   [ОЙPoint::getY](ui-point.gety.md) - Отримати Y
+-   [ОЙPoint::setX](ui-point.setx.md) - Встановити X
+-   [ОЙPoint::setY](ui-point.sety.md) - Встановити Y

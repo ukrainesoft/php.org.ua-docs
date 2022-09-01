@@ -26,7 +26,7 @@ public Gmagick::despeckleimage(): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) із зменшеним спекл-шумом у разі успішного виконання
+Об'єкт [Gmagick](class.gmagick.md) із зменшеним спекл-шумом у разі успішного виконання
 
 ### Помилки
 

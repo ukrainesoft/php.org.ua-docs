@@ -34,5 +34,5 @@ public LuaSandbox::enableProfiler(float $period = 0.02): bool
 
 ### Дивіться також
 
--   [LuaSandbox::disableProfiler()](luasandbox.disableprofiler.html) - відключає профільник
--   [LuaSandbox::getProfilerFunctionReport()](luasandbox.getprofilerfunctionreport.html) - Отримує дані профілювача
+-   [LuaSandbox::disableProfiler()](luasandbox.disableprofiler.md) - відключає профільник
+-   [LuaSandbox::getProfilerFunctionReport()](luasandbox.getprofilerfunctionreport.md) - Отримує дані профілювача

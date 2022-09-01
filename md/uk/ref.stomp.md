@@ -10,5 +10,5 @@ title: Опції Stomp
 
 ## Зміст
 
--   [stompconnecterror](function.stomp-connect-error.html) — Повертає рядок із описом останньої помилки підключення
--   [stompversion](function.stomp-version.html) — Повертає поточну версію модуля Stomp
+-   [stompconnecterror](function.stomp-connect-error.md) — Повертає рядок із описом останньої помилки підключення
+-   [stompversion](function.stomp-version.md) — Повертає поточну версію модуля Stomp

@@ -28,4 +28,4 @@ public Yaf_Request_Abstract::getParam(string $name, string $default = ?): mixed
 
 ### Дивіться також
 
--   [YafRequestAbstract::setParam()](yaf-request-abstract.setparam.html) - Встановлює параметр дзвінка для запиту
+-   [YafRequestAbstract::setParam()](yaf-request-abstract.setparam.md) - Встановлює параметр дзвінка для запиту

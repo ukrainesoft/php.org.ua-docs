@@ -18,7 +18,7 @@ YarConcurrentClient::call — Зареєструвати конкурентни�
 public static Yar_Concurrent_Client::call(    string $uri,    string $method,    array $parameters = ?,    callable $callback = ?,    callable $error_callback = ?,    array $options = ?): int
 ```
 
-Реєструє RPC-дзвінок, але не надсилає його негайно, а відкладає до моменту виклику [YarConcurrentClient::loop()](yar-concurrent-client.loop.html)
+Реєструє RPC-дзвінок, але не надсилає його негайно, а відкладає до моменту виклику [YarConcurrentClient::loop()](yar-concurrent-client.loop.md)
 
 ### Список параметрів
 
@@ -75,7 +75,7 @@ Yar_Concurrent_Client::call("http://host/api/", "some_method", array("paramete
 
 ### Дивіться також
 
--   [YarConcurrentClient::loop()](yar-concurrent-client.loop.html) - Запуск усіх зареєстрованих викликів
--   [YarConcurrentClient::reset()](yar-concurrent-client.reset.html) - Очистити всі зареєстровані дзвінки
--   [YarServer::construct()](yar-server.construct.html) - Конструктор YarServer
--   [YarServer::handle()](yar-server.handle.html) - Запустити сервер RPC
+-   [YarConcurrentClient::loop()](yar-concurrent-client.loop.md) - Запуск усіх зареєстрованих викликів
+-   [YarConcurrentClient::reset()](yar-concurrent-client.reset.md) - Очистити всі зареєстровані дзвінки
+-   [YarServer::construct()](yar-server.construct.md) - Конструктор YarServer
+-   [YarServer::handle()](yar-server.handle.md) - Запустити сервер RPC

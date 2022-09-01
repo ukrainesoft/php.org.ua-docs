@@ -26,7 +26,7 @@ ps_add_launchlink(    resource $psdoc,    float $llx,    float $lly,
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `llx`
 
@@ -54,6 +54,6 @@ ps_add_launchlink(    resource $psdoc,    float $llx,    float $lly,
 
 ### Дивіться також
 
--   [псaddlocallink()](function.ps-add-locallink.html) - Додає посилання на сторінку того самого документа
--   [псaddpdflink()](function.ps-add-pdflink.html) - Додає посилання на сторінку в іншому PDF-документі
--   [псaddweblink()](function.ps-add-weblink.html) - Додає посилання на веб-сторінку
+-   [псaddlocallink()](function.ps-add-locallink.md) - Додає посилання на сторінку того самого документа
+-   [псaddpdflink()](function.ps-add-pdflink.md) - Додає посилання на сторінку в іншому PDF-документі
+-   [псaddweblink()](function.ps-add-weblink.md) - Додає посилання на веб-сторінку

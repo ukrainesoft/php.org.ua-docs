@@ -18,11 +18,11 @@ title: пглоopen
 pg_lo_open(PgSql\Connection $connection, int $oid, string $mode): PgSql\Lob|false
 ```
 
-**пглоopen()** відкриває великий об'єкт бази даних та повертає екземпляр [PgSqlLob](class.pgsql-lob.html)
+**пглоopen()** відкриває великий об'єкт бази даних та повертає екземпляр [PgSqlLob](class.pgsql-lob.md)
 
 **Увага**
 
-Не слід закривати з'єднання з базою даних до завершення роботи з екземпляром [PgSqlLob](class.pgsql-lob.html)
+Не слід закривати з'єднання з базою даних до завершення роботи з екземпляром [PgSqlLob](class.pgsql-lob.md)
 
 Операції з використанням інтерфейсу великих об'єктів необхідно укладати у блок транзакції.
 
@@ -34,7 +34,7 @@ pg_lo_open(PgSql\Connection $connection, int $oid, string $mode): PgSql\Lob|fals
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -50,14 +50,14 @@ OID великий об'єкт у базі даних.
 
 ### Значення, що повертаються
 
-Екземпляр [PgSqlLob](class.pgsql-lob.html) або **`false`** у разі виникнення помилки.
+Екземпляр [PgSqlLob](class.pgsql-lob.md) або **`false`** у разі виникнення помилки.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Повертає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше повертався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [PgSqlLob](class.pgsql-lob.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -79,5 +79,5 @@ OID великий об'єкт у базі даних.
 
 ### Дивіться також
 
--   [пглоclose()](function.pg-lo-close.html) - Закриває великий об'єкт
--   [пглоcreate()](function.pg-lo-create.html) - Створює великий об'єкт
+-   [пглоclose()](function.pg-lo-close.md) - Закриває великий об'єкт
+-   [пглоcreate()](function.pg-lo-create.md) - Створює великий об'єкт

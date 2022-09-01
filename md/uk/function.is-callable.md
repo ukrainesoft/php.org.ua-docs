@@ -18,7 +18,7 @@ title: ісcallable
 is_callable(mixed $value, bool $syntax_only = false, string &$callable_name = null): bool
 ```
 
-Перевіряє, що значення є [callable](language.types.callable.html)
+Перевіряє, що значення є [callable](language.types.callable.md)
 
 ### Список параметрів
 
@@ -119,5 +119,5 @@ bool(false)
 
 ### Дивіться також
 
--   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
--   [methodexists()](function.method-exists.html) - Перевіряє, чи існує метод у даному класі
+-   [functionexists()](function.function-exists.md) - Повертає true, якщо вказана функція визначена
+-   [methodexists()](function.method-exists.md) - Перевіряє, чи існує метод у даному класі

@@ -47,6 +47,6 @@ echo 'My effective group id is '.posix_getegid(); //40
 
 ### Дивіться також
 
--   [posixgetgrgid()](function.posix-getgrgid.html) - Повертає інформацію про групу за її ID
--   [posixgetgid()](function.posix-getgid.html) - Повертає дійсний ID групи поточного процесу GID
--   [posixsetgid()](function.posix-setgid.html) - Встановлює ідентифікатор групи для поточного процесу GID
+-   [posixgetgrgid()](function.posix-getgrgid.md) - Повертає інформацію про групу за її ID
+-   [posixgetgid()](function.posix-getgid.md) - Повертає дійсний ID групи поточного процесу GID
+-   [posixsetgid()](function.posix-setgid.md) - Встановлює ідентифікатор групи для поточного процесу GID

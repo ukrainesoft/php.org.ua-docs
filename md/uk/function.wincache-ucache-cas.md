@@ -59,5 +59,5 @@ int(1)
 
 ### Дивіться також
 
--   [wincacheucacheinc()](function.wincache-ucache-inc.html) - Збільшує значення, пов'язане з ключем
--   [wincacheucachedec()](function.wincache-ucache-dec.html) - Зменшує значення, пов'язане з ключем
+-   [wincacheucacheinc()](function.wincache-ucache-inc.md) - Збільшує значення, пов'язане з ключем
+-   [wincacheucachedec()](function.wincache-ucache-dec.md) - Зменшує значення, пов'язане з ключем

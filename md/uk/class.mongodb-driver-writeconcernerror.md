@@ -12,7 +12,7 @@ title: Клас The MongoDBDriverWriteConcernError
 
 ## Вступ
 
-Клас **MongoDBDriverWriteConcernError** інкапсулює інформацію про помилку запису і може бути повернутий [MongoDBDriverWriteResult::getWriteConcernError()](mongodb-driver-writeresult.getwriteconcernerror.html)
+Клас **MongoDBDriverWriteConcernError** інкапсулює інформацію про помилку запису і може бути повернутий [MongoDBDriverWriteResult::getWriteConcernError()](mongodb-driver-writeresult.getwriteconcernerror.md)
 
 ## Огляд класів
 
@@ -39,6 +39,6 @@ final public getMessage(): string
 
 ## Зміст
 
--   [MongoDBDriverWriteConcernError::getCode](mongodb-driver-writeconcernerror.getcode.html) — Повертає код помилки WriteConcernError
--   [MongoDBDriverWriteConcernError::getInfo](mongodb-driver-writeconcernerror.getinfo.html) — Повертає документ метаданих для WriteConcernError
--   [MongoDBDriverWriteConcernError::getMessage](mongodb-driver-writeconcernerror.getmessage.html) — Повертає повідомлення про помилку WriteConcernError
+-   [MongoDBDriverWriteConcernError::getCode](mongodb-driver-writeconcernerror.getcode.md) — Повертає код помилки WriteConcernError
+-   [MongoDBDriverWriteConcernError::getInfo](mongodb-driver-writeconcernerror.getinfo.md) — Повертає документ метаданих для WriteConcernError
+-   [MongoDBDriverWriteConcernError::getMessage](mongodb-driver-writeconcernerror.getmessage.md) — Повертає повідомлення про помилку WriteConcernError

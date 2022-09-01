@@ -36,13 +36,13 @@ mysqli_real_escape_string(mysqli $mysql, string $string): string
 
 # Безпека: набір символів за промовчанням
 
-Набір символів повинен бути заданий на стороні сервера, або за допомогою API-функції [mysqlisetcharset()](mysqli.set-charset.html). В іншому випадку **mysqlirealescapestring()** працювати не буде. За додатковою інформацією звертайтесь до документації [набори символів](mysqlinfo.concepts.charset.md)
+Набір символів повинен бути заданий на стороні сервера, або за допомогою API-функції [mysqlisetcharset()](mysqli.set-charset.md). В іншому випадку **mysqlirealescapestring()** працювати не буде. За додатковою інформацією звертайтесь до документації [набори символів](mysqlinfo.concepts.charset.md)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 `string`
 
@@ -110,4 +110,4 @@ Fatal error: Uncaught mysqli_sql_exception: You have an error in your SQL syntax
 
 ### Дивіться також
 
--   [mysqlisetcharset()](mysqli.set-charset.html) - Встановлює набір символів
+-   [mysqlisetcharset()](mysqli.set-charset.md) - Встановлює набір символів

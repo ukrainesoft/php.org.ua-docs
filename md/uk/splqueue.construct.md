@@ -52,7 +52,7 @@ foreach ($q as $elem)  {
 3
 ```
 
-**Приклад #2 Ефективна обробка завдань за допомогою [SplQueue](class.splqueue.html)**
+**Приклад #2 Ефективна обробка завдань за допомогою [SplQueue](class.splqueue.md)**
 
 ```php
 <?php

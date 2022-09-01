@@ -34,7 +34,7 @@ mysqli_stmt_attr_set(mysqli_stmt $statement, int $attribute, int $value): bool
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 `attribute`
 
@@ -44,13 +44,13 @@ mysqli_stmt_attr_set(mysqli_stmt $statement, int $attribute, int $value): bool
 
 | Символ | Описание |
 | --- | --- |
-| MYSQLISTMTATTRUPDATEMAXLENGTH | Якщо дорівнює **`true`**, то [mysqlistmtstoreresult()](mysqli-stmt.store-result.html) оновлює метадані значенням `MYSQL_FIELD->max_length` |
-| MYSQLISTMTATTRCURSORTYPE | Тип вказівника, який потрібно відкрити для запиту під час виклику [mysqlistmtexecute()](mysqli-stmt.execute.html). . `value` може бути `MYSQLI_CURSOR_TYPE_NO_CURSOR` (за замовчуванням) або `MYSQLI_CURSOR_TYPE_READ_ONLY` |
+| MYSQLISTMTATTRUPDATEMAXLENGTH | Якщо дорівнює **`true`**, то [mysqlistmtstoreresult()](mysqli-stmt.store-result.md) оновлює метадані значенням `MYSQL_FIELD->max_length` |
+| MYSQLISTMTATTRCURSORTYPE | Тип вказівника, який потрібно відкрити для запиту під час виклику [mysqlistmtexecute()](mysqli-stmt.execute.md). . `value` може бути `MYSQLI_CURSOR_TYPE_NO_CURSOR` (за замовчуванням) або `MYSQLI_CURSOR_TYPE_READ_ONLY` |
 | MYSQLISTMTATTRPREFETCHROWS | Число рядків, які необхідно вибрати з сервера під час використання покажчика . `value` може бути в діапазоні від 1 максимального значення типу unsigned long. За замовчуванням 1. |
 
-Якщо використовується опція `MYSQLI_STMT_ATTR_CURSOR_TYPE` разом з `MYSQLI_CURSOR_TYPE_READ_ONLY`, то покажчик буде відкритий для запиту, коли буде запущена [mysqlistmtexecute()](mysqli-stmt.execute.html). Якщо вже є відкритий покажчик від попереднього запуску [mysqlistmtexecute()](mysqli-stmt.execute.html), то покажчик буде закрито перед відкриттям нового . [mysqlistmtreset()](mysqli-stmt.reset.html) також закриває будь-який відкритий покажчик перед підготовкою запиту перед перезапуском . [mysqlistmtfreeresult()](mysqli-stmt.free-result.html) закриває будь-який відкритий покажчик.
+Якщо використовується опція `MYSQLI_STMT_ATTR_CURSOR_TYPE` разом з `MYSQLI_CURSOR_TYPE_READ_ONLY`, то покажчик буде відкритий для запиту, коли буде запущена [mysqlistmtexecute()](mysqli-stmt.execute.html). Якщо вже є відкритий покажчик від попереднього запуску [mysqlistmtexecute()](mysqli-stmt.execute.html), то покажчик буде закрито перед відкриттям нового . [mysqlistmtreset()](mysqli-stmt.reset.html) також закриває будь-який відкритий покажчик перед підготовкою запиту перед перезапуском . [mysqlistmtfreeresult()](mysqli-stmt.free-result.md) закриває будь-який відкритий покажчик.
 
-Якщо ви відкриваєте вказівник для підготовленого запиту, у використанні [mysqlistmtstoreresult()](mysqli-stmt.store-result.html) немає необхідності.
+Якщо ви відкриваєте вказівник для підготовленого запиту, у використанні [mysqlistmtstoreresult()](mysqli-stmt.store-result.md) немає необхідності.
 
 `value`
 
@@ -62,4 +62,4 @@ mysqli_stmt_attr_set(mysqli_stmt $statement, int $attribute, int $value): bool
 
 ### Дивіться також
 
--   [» Connector/MySQL mysqlstmtattrset()](http://dev.mysql.com/doc/en/mysql-stmt-attr-set.html)
+-   [» Connector/MySQL mysqlstmtattrset()](http://dev.mysql.com/doc/en/mysql-stmt-attr-set.md)

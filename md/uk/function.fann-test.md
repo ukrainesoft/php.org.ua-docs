@@ -28,11 +28,11 @@ fann_test(resource $ann, array $input, array $desired_output): array
 
 `input`
 
-Масив вхідних даних. Розмір масиву має точно відповідати [fanngetnuminput()](function.fann-get-num-input.html)
+Масив вхідних даних. Розмір масиву має точно відповідати [fanngetnuminput()](function.fann-get-num-input.md)
 
 `desired_output`
 
-Масив бажаних результатів. Розмір масиву має точно відповідати [fanngetnumoutput()](function.fann-get-num-output.html)
+Масив бажаних результатів. Розмір масиву має точно відповідати [fanngetnumoutput()](function.fann-get-num-output.md)
 
 ### Значення, що повертаються
 
@@ -40,7 +40,7 @@ fann_test(resource $ann, array $input, array $desired_output): array
 
 ### Дивіться також
 
--   [fanntestdata()](function.fann-test-data.html) - Тестування набору навчальних даних та обчислення MSE для нього
--   [fanntrain()](function.fann-train.html) - Провести одну ітерацію навчання з набором вхідних даних та бажаним результатом
--   [fanngetnuminput()](function.fann-get-num-input.html) - Отримує кількість вхідних нейронів
--   [fanngetnumoutput()](function.fann-get-num-output.html) - Отримує кількість вихідних нейронів
+-   [fanntestdata()](function.fann-test-data.md) - Тестування набору навчальних даних та обчислення MSE для нього
+-   [fanntrain()](function.fann-train.md) - Провести одну ітерацію навчання з набором вхідних даних та бажаним результатом
+-   [fanngetnuminput()](function.fann-get-num-input.md) - Отримує кількість вхідних нейронів
+-   [fanngetnumoutput()](function.fann-get-num-output.md) - Отримує кількість вихідних нейронів

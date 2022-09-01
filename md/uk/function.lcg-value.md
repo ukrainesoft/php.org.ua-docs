@@ -22,7 +22,7 @@ lcg_value(): float
 
 **Застереження**
 
-Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [randomint()](function.random-int.html) [randombytes()](function.random-bytes.html) або [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.html) замість цієї.
+Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [randomint()](function.random-int.html) [randombytes()](function.random-bytes.html) або [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.md) замість цієї.
 
 ### Список параметрів
 
@@ -34,5 +34,5 @@ lcg_value(): float
 
 ### Дивіться також
 
--   [rand()](function.rand.html) - Генерує випадкове число
--   [мтrand()](function.mt-rand.html) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
+-   [rand()](function.rand.md) - Генерує випадкове число
+-   [мтrand()](function.mt-rand.md) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна

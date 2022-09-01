@@ -24,7 +24,7 @@ public ReflectionClass::newInstance(mixed ...$args): object
 
 `args`
 
-Приймає довільну кількість аргументів, подібно до функції [calluserfunc()](function.call-user-func.html), які потім передаються конструктор класу.
+Приймає довільну кількість аргументів, подібно до функції [calluserfunc()](function.call-user-func.md), які потім передаються конструктор класу.
 
 ### Значення, що повертаються
 

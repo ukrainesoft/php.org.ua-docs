@@ -10,7 +10,7 @@ title: API для плагінів до вбудованого драйвера 
 
 ## Зміст
 
--   [Сравнение плагинов mysqlnd с MySQL Proxy](mysqlnd.plugin.mysql-proxy.html)
+-   [Сравнение плагинов mysqlnd с MySQL Proxy](mysqlnd.plugin.mysql-proxy.md)
 -   [Получение API плагинов mysqlnd](mysqlnd.plugin.obtaining.md)
 -   [Архитектура плагинов MySQL Native Driver](mysqlnd.plugin.architecture.md)
 -   [API плагінів mysqlnd](mysqlnd.plugin.api.md)

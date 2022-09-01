@@ -51,6 +51,6 @@ if ($train_data) {
 
 ### Дивіться також
 
--   [fanntrainвінdata()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
--   [fanndestroytrain()](function.fann-destroy-train.html) - Знищує тренувальні дані
--   [fannsavetrain()](function.fann-save-train.html) - Зберігає структуру навчання у файл
+-   [fanntrainвінdata()](function.fann-train-on-data.md) - Навчання на всьому обсязі даних на часовому інтервалі
+-   [fanndestroytrain()](function.fann-destroy-train.md) - Знищує тренувальні дані
+-   [fannsavetrain()](function.fann-save-train.md) - Зберігає структуру навчання у файл

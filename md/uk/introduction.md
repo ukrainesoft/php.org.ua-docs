@@ -10,5 +10,5 @@ title: Вступ
 
 ## Зміст
 
--   [Що таке PHP?](intro-whatis.html)
--   [Можливості PHP](intro-whatcando.html)
+-   [Що таке PHP?](intro-whatis.md)
+-   [Можливості PHP](intro-whatcando.md)

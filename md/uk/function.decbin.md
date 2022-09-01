@@ -83,6 +83,6 @@ echo decbin(26);
 -   [bindec()](function.bindec.md) - Двійкове у десяткове
 -   [decoct()](function.decoct.md) - Переводить число з десяткової системи числення до восьмирічної
 -   [dechex()](function.dechex.md) - Переводить число з десяткової системи числення до шістнадцяткової
--   [baseconvert()](function.base-convert.html) - Перетворення числа між довільними системами числення
+-   [baseconvert()](function.base-convert.md) - Перетворення числа між довільними системами числення
 -   [printf()](function.printf.md) - Виводить відформатований рядок, використовуючи формати `%b` `%032b` або `%064b`
 -   [sprintf()](function.sprintf.md), використовуючи формати `%b` `%032b` або `%064b`

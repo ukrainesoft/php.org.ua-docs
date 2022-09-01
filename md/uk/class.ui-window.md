@@ -85,20 +85,20 @@ controls
 
 ## Зміст
 
--   [ОЙWindow::add](ui-window.add.html) — Додати елемент керування
--   [ОЙWindow::construct](ui-window.construct.html) - Створити новий об'єкт Window
--   [ОЙWindow::error](ui-window.error.html) - Показати блок помилки
--   [ОЙWindow::getSize](ui-window.getsize.html) — Отримати розмір вікна
--   [ОЙWindow::getTitle](ui-window.gettitle.html) - Отримати заголовок
--   [ОЙWindow::hasBorders](ui-window.hasborders.html) - Визначення рамки
--   [ОЙWindow::hasMargin](ui-window.hasmargin.html) - Визначення полів
--   [ОЙWindow::isFullScreen](ui-window.isfullscreen.html) — Визначення повного екрану
--   [ОЙWindow::msg](ui-window.msg.html) — Показати блок повідомлення
--   [ОЙWindow::onClosing](ui-window.onclosing.html) - Callback-функція закриття
--   [ОЙWindow::open](ui-window.open.html) — Відкрити діалогове вікно
--   [ОЙWindow::save](ui-window.save.html) — Зберегти діалогове вікно
--   [ОЙWindow::setBorders](ui-window.setborders.html) — Використання рамок
--   [ОЙWindow::setFullScreen](ui-window.setfullscreen.html) — Використання повного екрану
--   [ОЙWindow::setMargin](ui-window.setmargin.html) — Використання поля
--   [ОЙWindow::setSize](ui-window.setsize.html) - Встановити розмір
--   [ОЙWindow::setTitle](ui-window.settitle.html) - Заголовок вікна
+-   [ОЙWindow::add](ui-window.add.md) — Додати елемент керування
+-   [ОЙWindow::construct](ui-window.construct.md) - Створити новий об'єкт Window
+-   [ОЙWindow::error](ui-window.error.md) - Показати блок помилки
+-   [ОЙWindow::getSize](ui-window.getsize.md) — Отримати розмір вікна
+-   [ОЙWindow::getTitle](ui-window.gettitle.md) - Отримати заголовок
+-   [ОЙWindow::hasBorders](ui-window.hasborders.md) - Визначення рамки
+-   [ОЙWindow::hasMargin](ui-window.hasmargin.md) - Визначення полів
+-   [ОЙWindow::isFullScreen](ui-window.isfullscreen.md) — Визначення повного екрану
+-   [ОЙWindow::msg](ui-window.msg.md) — Показати блок повідомлення
+-   [ОЙWindow::onClosing](ui-window.onclosing.md) - Callback-функція закриття
+-   [ОЙWindow::open](ui-window.open.md) — Відкрити діалогове вікно
+-   [ОЙWindow::save](ui-window.save.md) — Зберегти діалогове вікно
+-   [ОЙWindow::setBorders](ui-window.setborders.md) — Використання рамок
+-   [ОЙWindow::setFullScreen](ui-window.setfullscreen.md) — Використання повного екрану
+-   [ОЙWindow::setMargin](ui-window.setmargin.md) — Використання поля
+-   [ОЙWindow::setSize](ui-window.setsize.md) - Встановити розмір
+-   [ОЙWindow::setTitle](ui-window.settitle.md) - Заголовок вікна

@@ -17,8 +17,8 @@ title: Об'єкти даних PHP
 -   [Обумовлені константи](pdo.constants.md)
 -   [Подключения и управление подключениями](pdo.connections.md)
 -   [Транзакції та автоматична фіксація змін](pdo.transactions.md)
--   [Підготовлені запити та процедури, що зберігаються](pdo.prepared-statements.html)
--   [Ошибки и их обработка](pdo.error-handling.html)
+-   [Підготовлені запити та процедури, що зберігаються](pdo.prepared-statements.md)
+-   [Ошибки и их обработка](pdo.error-handling.md)
 -   [Великі об'єкти (LOB)](pdo.lobs.md)
 -   [PDO](class.pdo.md) - Клас PDO
     -   [PDO::beginTransaction](pdo.begintransaction.md) - Ініціалізація транзакції
@@ -59,14 +59,14 @@ title: Об'єкти даних PHP
     -   [PDOStatement::setFetchMode](pdostatement.setfetchmode.md) — Встановлює стандартний режим вибірки для об'єкта запиту
 -   [PDOException](class.pdoexception.md) - Клас PDOException
 -   [Драйвери PDO](pdo.drivers.md)
-    -   [CUBRID (PDO)](ref.pdo-cubrid.html) - Функції CUBRID (PDOCUBRID)
-    -   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.html) — Функції Microsoft SQL Server та Sybase (PDODBLIB)
-    -   [Firebird (PDO)](ref.pdo-firebird.html) - Функції Firebird (PDOFIREBIRD)
-    -   [IBM (PDO)](ref.pdo-ibm.html) - Функції IBM (PDOIBM)
-    -   [Informix (PDO)](ref.pdo-informix.html) - Функції Informix (PDOINFORMIX)
-    -   [MySQL (PDO)](ref.pdo-mysql.html) - Функції MySQL (PDOMYSQL)
-    -   [MS SQL Server (PDO)](ref.pdo-sqlsrv.html) - Функції модуля PDOSQLSRV для Microsoft SQL Server
-    -   [Oracle (PDO)](ref.pdo-oci.html) - Функції Oracle (PDOOCI)
-    -   [ODBC и DB2 (PDO)](ref.pdo-odbc.html) — Функції ODBC та DB2 (PDOODBC)
-    -   [PostgreSQL (PDO)](ref.pdo-pgsql.html) - Функції PostgreSQL (PDOPGSQL)
-    -   [SQLite (PDO)](ref.pdo-sqlite.html) - Функції SQLite (PDOSQLITE)
+    -   [CUBRID (PDO)](ref.pdo-cubrid.md) - Функції CUBRID (PDOCUBRID)
+    -   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.md) — Функції Microsoft SQL Server та Sybase (PDODBLIB)
+    -   [Firebird (PDO)](ref.pdo-firebird.md) - Функції Firebird (PDOFIREBIRD)
+    -   [IBM (PDO)](ref.pdo-ibm.md) - Функції IBM (PDOIBM)
+    -   [Informix (PDO)](ref.pdo-informix.md) - Функції Informix (PDOINFORMIX)
+    -   [MySQL (PDO)](ref.pdo-mysql.md) - Функції MySQL (PDOMYSQL)
+    -   [MS SQL Server (PDO)](ref.pdo-sqlsrv.md) - Функції модуля PDOSQLSRV для Microsoft SQL Server
+    -   [Oracle (PDO)](ref.pdo-oci.md) - Функції Oracle (PDOOCI)
+    -   [ODBC и DB2 (PDO)](ref.pdo-odbc.md) — Функції ODBC та DB2 (PDOODBC)
+    -   [PostgreSQL (PDO)](ref.pdo-pgsql.md) - Функції PostgreSQL (PDOPGSQL)
+    -   [SQLite (PDO)](ref.pdo-sqlite.md) - Функції SQLite (PDOSQLITE)

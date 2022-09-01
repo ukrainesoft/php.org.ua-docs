@@ -8,13 +8,13 @@ title: Таблиця порівняння типів у PHP
 ---
 # Таблиця порівняння типів у PHP
 
-Наступні таблиці демонструють роботу PHP з [типами змінних](language.types.md) і [операторами порівняння](language.operators.comparison.md), як у разі вільного, і у разі суворого порівняння. Також ця інформація відноситься до розділу документації з [приведению типов](language.types.type-juggling.html). Натхненням на створення цього розділу ми зобов'язані різним коментарям користувачів та роботі над [» BlueShoes](http://www.blueshoes.org/en/developer/php_cheat_sheet/)
+Наступні таблиці демонструють роботу PHP з [типами змінних](language.types.md) і [операторами порівняння](language.operators.comparison.md), як у разі вільного, і у разі суворого порівняння. Також ця інформація відноситься до розділу документації з [приведению типов](language.types.type-juggling.md). Натхненням на створення цього розділу ми зобов'язані різним коментарям користувачів та роботі над [» BlueShoes](http://www.blueshoes.org/en/developer/php_cheat_sheet/)
 
 До огляду таблиць важливо знати і розуміти типи змінних та їх значення. Наприклад, `"42"` - string, у той час як `42` - int . **`false`** - bool, а `"false"` - string.
 
 > **Зауваження**
 > 
-> HTML-форми не передають цілі, дробові чи булеві змінні: вони завжди передають рядки. Для перевірки чи рядок числом, використовуйте функцію [ісnumeric()](function.is-numeric.html)
+> HTML-форми не передають цілі, дробові чи булеві змінні: вони завжди передають рядки. Для перевірки чи рядок числом, використовуйте функцію [ісnumeric()](function.is-numeric.md)
 
 > **Зауваження**
 > 
@@ -26,7 +26,7 @@ title: Таблиця порівняння типів у PHP
 
 **Порівняння типів $x та результатів функцій PHP, пов'язаних з типами**
 
-| Выражение | [gettype()](function.gettype.md) | [empty()](function.empty.md) | [is\_null()](function.is-null.html) | [isset()](function.isset.md) | bool : `if($x)` |
+| Выражение | [gettype()](function.gettype.md) | [empty()](function.empty.md) | [is\_null()](function.is-null.md) | [isset()](function.isset.md) | bool : `if($x)` |
 | --- | --- | --- | --- | --- | --- |
 | `$x = "";` | string | **`true`** | **`false`** | **`true`** | **`false`** |
 | `$x = null;` | NULL | **`true`** | **`true`** | **`false`** | **`false`** |

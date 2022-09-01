@@ -52,5 +52,5 @@ if (strcmp($script_tz, ini_get('date.timezone'))){
 
 ### Дивіться також
 
--   [datedefaulttimezoneget()](function.date-default-timezone-get.html) - Повертає часовий пояс, який використовується за умовчанням всіма функціями дати/часу в скрипті
+-   [datedefaulttimezoneget()](function.date-default-timezone-get.md) - Повертає часовий пояс, який використовується за умовчанням всіма функціями дати/часу в скрипті
 -   [Список підтримуваних часових поясів](timezones.md)

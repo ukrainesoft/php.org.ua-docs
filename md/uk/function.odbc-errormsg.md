@@ -24,13 +24,13 @@ odbc_errormsg(?resource $odbc = null): string
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.md)
 
 ### Значення, що повертаються
 
 Якщо вказано параметр `odbc`, повертається останній стан цієї сполуки, інакше повертається останній стан будь-якої сполуки.
 
-Ця функція повертає осмислене значення лише тоді, коли останній запит ODBC завершився невдало (тобто функція [odbcexec()](function.odbc-exec.html) повернула **`false`**
+Ця функція повертає осмислене значення лише тоді, коли останній запит ODBC завершився невдало (тобто функція [odbcexec()](function.odbc-exec.md) повернула **`false`**
 
 ### список змін
 
@@ -40,5 +40,5 @@ odbc_errormsg(?resource $odbc = null): string
 
 ### Дивіться також
 
--   [odbcerror()](function.odbc-error.html) - Повертає останній код помилки
--   [odbcexec()](function.odbc-exec.html) - Виконує інструкцію SQL безпосередньо
+-   [odbcerror()](function.odbc-error.md) - Повертає останній код помилки
+-   [odbcexec()](function.odbc-exec.md) - Виконує інструкцію SQL безпосередньо

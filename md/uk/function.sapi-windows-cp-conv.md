@@ -44,5 +44,5 @@ sapi_windows_cp_conv(int|string $in_codepage, int|string $out_codepage, string $
 
 ### Дивіться також
 
--   [sapiwindowsспget()](function.sapi-windows-cp-get.html) - Отримати поточну кодову сторінку
+-   [sapiwindowsспget()](function.sapi-windows-cp-get.md) - Отримати поточну кодову сторінку
 -   [iconv()](function.iconv.md) - Перетворює рядок з одного кодування символів на інший

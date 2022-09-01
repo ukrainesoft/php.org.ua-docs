@@ -192,6 +192,6 @@ EXIF Headers:
 
 ### Дивіться також
 
--   [exifthumbnail()](function.exif-thumbnail.html) - Отримує вбудоване прев'ю зображення
+-   [exifthumbnail()](function.exif-thumbnail.md) - Отримує вбудоване прев'ю зображення
 -   [getimagesize()](function.getimagesize.md) - Отримання розміру зображення
 -   [Підтримувані протоколи та обгортки](wrappers.md)

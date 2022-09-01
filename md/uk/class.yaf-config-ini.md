@@ -107,19 +107,19 @@ string(7) "devuser
 
 ## Зміст
 
--   [YafConfigIni::construct](yaf-config-ini.construct.html) - Конструктор класу YafConfigIni
--   [YafConfigIni::count](yaf-config-ini.count.html) — Підраховує всі елементи в YafConfig.ini
--   [YafConfigIni::current](yaf-config-ini.current.html) — Отримує поточне значення
--   [YafConfigIni::get](yaf-config-ini.get.html) — Отримує елемент
--   [YafConfigIni::isset](yaf-config-ini.isset.html) - Визначає, чи існує ключ
--   [YafConfigIni::key](yaf-config-ini.key.html) — Отримує ключ поточного елемента
--   [YafConfigIni::next](yaf-config-ini.next.html) - Просуває внутрішній покажчик
--   [YafConfigIni::offsetExists](yaf-config-ini.offsetexists.html) — Призначення offsetExists
--   [YafConfigIni::offsetGet](yaf-config-ini.offsetget.html) - Призначення offsetGet
--   [YafConfigIni::offsetSet](yaf-config-ini.offsetset.html) - Призначення offsetSet
--   [YafConfigIni::offsetUnset](yaf-config-ini.offsetunset.html) - Призначення offsetUnset
--   [YafConfigIni::readonly](yaf-config-ini.readonly.html) - Призначення readonly
--   [YafConfigIni::rewind](yaf-config-ini.rewind.html) - Призначення rewind
--   [YafConfigIni::set](yaf-config-ini.set.html) - Призначення set
--   [YafConfigIni::toArray](yaf-config-ini.toarray.html) — Повертає конфігурацію як масив PHP
--   [YafConfigIni::valid](yaf-config-ini.valid.html) - Призначення valid
+-   [YafConfigIni::construct](yaf-config-ini.construct.md) - Конструктор класу YafConfigIni
+-   [YafConfigIni::count](yaf-config-ini.count.md) — Підраховує всі елементи в YafConfig.ini
+-   [YafConfigIni::current](yaf-config-ini.current.md) — Отримує поточне значення
+-   [YafConfigIni::get](yaf-config-ini.get.md) — Отримує елемент
+-   [YafConfigIni::isset](yaf-config-ini.isset.md) - Визначає, чи існує ключ
+-   [YafConfigIni::key](yaf-config-ini.key.md) — Отримує ключ поточного елемента
+-   [YafConfigIni::next](yaf-config-ini.next.md) - Просуває внутрішній покажчик
+-   [YafConfigIni::offsetExists](yaf-config-ini.offsetexists.md) — Призначення offsetExists
+-   [YafConfigIni::offsetGet](yaf-config-ini.offsetget.md) - Призначення offsetGet
+-   [YafConfigIni::offsetSet](yaf-config-ini.offsetset.md) - Призначення offsetSet
+-   [YafConfigIni::offsetUnset](yaf-config-ini.offsetunset.md) - Призначення offsetUnset
+-   [YafConfigIni::readonly](yaf-config-ini.readonly.md) - Призначення readonly
+-   [YafConfigIni::rewind](yaf-config-ini.rewind.md) - Призначення rewind
+-   [YafConfigIni::set](yaf-config-ini.set.md) - Призначення set
+-   [YafConfigIni::toArray](yaf-config-ini.toarray.md) — Повертає конфігурацію як масив PHP
+-   [YafConfigIni::valid](yaf-config-ini.valid.md) - Призначення valid

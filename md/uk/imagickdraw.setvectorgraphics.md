@@ -22,7 +22,7 @@ public ImagickDraw::setVectorGraphics(string $xml): bool
 
 На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Встановлює векторну графіку, пов'язану із зазначеним об'єктом ImagickDraw. Метод використовується з [ImagickDraw::getVectorGraphics()](imagickdraw.getvectorgraphics.html) як метод збереження стану векторної графіки.
+Встановлює векторну графіку, пов'язану із зазначеним об'єктом ImagickDraw. Метод використовується з [ImagickDraw::getVectorGraphics()](imagickdraw.getvectorgraphics.md) як метод збереження стану векторної графіки.
 
 ### Список параметрів
 

@@ -36,7 +36,7 @@ public Gmagick::modulateimage(float $brightness, float $saturation, float $hue):
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

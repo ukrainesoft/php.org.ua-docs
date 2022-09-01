@@ -30,4 +30,4 @@ ibase_errmsg(): string
 
 ### Дивіться також
 
--   [ibaseerrcode()](function.ibase-errcode.html) - Повертає код помилки
+-   [ibaseerrcode()](function.ibase-errcode.md) - Повертає код помилки

@@ -28,7 +28,7 @@ public XMLWriter::openMemory(): bool
 xmlwriter_open_memory(): XMLWriter|false
 ```
 
-Створює новий об'єкт [XMLWriter](class.xmlwriter.html), використовуючи пам'ять для рядкового виводу.
+Створює новий об'єкт [XMLWriter](class.xmlwriter.md), використовуючи пам'ять для рядкового виводу.
 
 ### Список параметрів
 
@@ -36,14 +36,14 @@ xmlwriter_open_memory(): XMLWriter|false
 
 Об'єктно-орієнтований стиль: Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-Процедурний стиль: Повертає новий [XMLWriter](class.xmlwriter.html) для подальшого використання функціями xmlwriter у разі успішного виконання або **`false`** у разі виникнення помилки.
+Процедурний стиль: Повертає новий [XMLWriter](class.xmlwriter.md) для подальшого використання функціями xmlwriter у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Функція тепер повертає екземпляр [XMLWriter](class.xmlwriter.html) у разі успішного виконання. Раніше в цьому випадку повертався ресурс ([resource](language.types.resource.html) |
+|  | Функція тепер повертає екземпляр [XMLWriter](class.xmlwriter.html) у разі успішного виконання. Раніше в цьому випадку повертався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [XMLWriter::openUri()](xmlwriter.openuri.html) - Створити новий об'єкт XMLWriter, використовуючи вихідний URI для виведення
+-   [XMLWriter::openUri()](xmlwriter.openuri.md) - Створити новий об'єкт XMLWriter, використовуючи вихідний URI для виведення

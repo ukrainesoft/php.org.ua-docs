@@ -24,7 +24,7 @@ enchant_dict_is_added(EnchantDictionary $dictionary, string $word): bool
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
 
 `word`
 
@@ -42,4 +42,4 @@ enchant_dict_is_added(EnchantDictionary $dictionary, string $word): bool
 
 ### Дивіться також
 
--   [enchantdictaddтоsession()](function.enchant-dict-add-to-session.html) - Додати слово у поточну сесію перевірки
+-   [enchantdictaddтоsession()](function.enchant-dict-add-to-session.md) - Додати слово у поточну сесію перевірки

@@ -18,9 +18,9 @@ MongoDBDriverCommand::construct — Створює новий об'єкт Comman
 final public MongoDB\Driver\Command::__construct(array|object $document, ?array $commandOptions = null)
 ```
 
-Створює новий об'єкт класу [MongoDBDriverCommand](class.mongodb-driver-command.html)що є незмінним значенням, що представляє команду бази даних. Цю команду згодом можна запустити за допомогою [MongoDBDriverManager::executeCommand()](mongodb-driver-manager.executecommand.html)
+Створює новий об'єкт класу [MongoDBDriverCommand](class.mongodb-driver-command.html)що є незмінним значенням, що представляє команду бази даних. Цю команду згодом можна запустити за допомогою [MongoDBDriverManager::executeCommand()](mongodb-driver-manager.executecommand.md)
 
-Повний документ команди, що включає її ім'я та інші опції, має бути заданий у параметрі `document`. Параметр `commandOptions` використовується тільки для визначення опцій запуску команди та результуючий [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
+Повний документ команди, що включає її ім'я та інші опції, має бути заданий у параметрі `document`. Параметр `commandOptions` використовується тільки для визначення опцій запуску команди та результуючий [MongoDBDriverCursor](class.mongodb-driver-cursor.md)
 
 ### Список параметрів
 
@@ -41,7 +41,7 @@ final public MongoDB\Driver\Command::__construct(array|object $document, ?array 
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### список змін
 
@@ -148,5 +148,5 @@ operation exceeded time limit
 
 ### Дивіться також
 
--   [MongoDBDriverManager::executeCommand()](mongodb-driver-manager.executecommand.html) - Виконує команду бази даних
--   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
+-   [MongoDBDriverManager::executeCommand()](mongodb-driver-manager.executecommand.md) - Виконує команду бази даних
+-   [MongoDBDriverCursor](class.mongodb-driver-cursor.md)

@@ -38,4 +38,4 @@ fann_set_train_stop_function(resource $ann, int $stop_function): bool
 
 ### Дивіться також
 
--   [fanngettrainstopfunction()](function.fann-get-train-stop-function.html) - Повертає функцію зупинки, що використовується під час навчання
+-   [fanngettrainstopfunction()](function.fann-get-train-stop-function.md) - Повертає функцію зупинки, що використовується під час навчання

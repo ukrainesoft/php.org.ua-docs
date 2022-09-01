@@ -194,9 +194,9 @@ xp***to
 ### Дивіться також
 
 -   [Регулярні вирази PCRE](pcre.pattern.md)
--   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
--   [pregfilter()](function.preg-filter.html) - Здійснює пошук та заміну за регулярним виразом
--   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
--   [pregreplacecallback()](function.preg-replace-callback.html) - Виконує пошук за регулярним виразом та заміною з використанням callback-функції
--   [pregsplit()](function.preg-split.html) - Розбиває рядок за регулярним виразом
--   [preglasterror()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   [pregquote()](function.preg-quote.md) - Екранує символи у регулярних виразах
+-   [pregfilter()](function.preg-filter.md) - Здійснює пошук та заміну за регулярним виразом
+-   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу
+-   [pregreplacecallback()](function.preg-replace-callback.md) - Виконує пошук за регулярним виразом та заміною з використанням callback-функції
+-   [pregsplit()](function.preg-split.md) - Розбиває рядок за регулярним виразом
+-   [preglasterror()](function.preg-last-error.md) - Повертає код помилки виконання останнього регулярного вираження PCRE

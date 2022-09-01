@@ -58,8 +58,8 @@ echo ini_get('display_errors');
 
 ### Дивіться також
 
--   [getcfgvar()](function.get-cfg-var.html) - Витягує значення налаштування конфігурації PHP
--   [iniget()](function.ini-get.html) - Отримує значення налаштування конфігурації
--   [inigetall()](function.ini-get-all.html) - Отримує всі налаштування конфігурації
--   [inirestore()](function.ini-restore.html) - Відновлює налаштування конфігурації.
+-   [getcfgvar()](function.get-cfg-var.md) - Витягує значення налаштування конфігурації PHP
+-   [iniget()](function.ini-get.md) - Отримує значення налаштування конфігурації
+-   [inigetall()](function.ini-get-all.md) - Отримує всі налаштування конфігурації
+-   [inirestore()](function.ini-restore.md) - Відновлює налаштування конфігурації.
 -   [Як змінити налаштування конфігурації](configuration.changes.md)

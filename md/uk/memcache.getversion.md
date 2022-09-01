@@ -49,5 +49,5 @@ echo memcache_get_version($memcache);
 
 ### Дивіться також
 
--   [Memcache::getExtendedStats()](memcache.getextendedstats.html) - Отримати статистику з усіх серверів у пулі
--   [Memcache::getStats()](memcache.getstats.html) - Отримати статистику сервера
+-   [Memcache::getExtendedStats()](memcache.getextendedstats.md) - Отримати статистику з усіх серверів у пулі
+-   [Memcache::getStats()](memcache.getstats.md) - Отримати статистику сервера

@@ -32,11 +32,11 @@ title: Застаріла функціональність
 
 Синтаксис доступу до масиву та рядка з використанням фігурних дужок оголошено застарілим. Використовуйте `$var[$idx]` замість `$var{$idx}`
 
-#### Приведення типу (real) та функція [ісreal()](function.is-real.html)
+#### Приведення типу (real) та функція [ісreal()](function.is-real.md)
 
 Приведення типу `(real)` оголошено застарілим, натомість використовуйте `(float)`
 
-Функція [ісreal()](function.is-real.html) також оголошено застарілою, замість неї використовуйте [ісfloat()](function.is-float.html)
+Функція [ісreal()](function.is-real.html) також оголошено застарілою, замість неї використовуйте [ісfloat()](function.is-float.md)
 
 #### Скасування прив'язки `$this` при використанні `$this`
 
@@ -52,35 +52,35 @@ title: Застаріла функціональність
 
 #### Неприпустимі символи в основних функціях перетворення
 
-Передача неприпустимих символів [baseconvert()](function.base-convert.html) [bindec()](function.bindec.md) [octdec()](function.octdec.md) тепер викликає повідомлення про застарілі можливості. Результат все одно буде обчислений так, якби неприпустимих символів не було. Провідні та завершальні прогалини, а також префікси типу 0x (залежно від системи числення), як і раніше, дозволені.
+Передача неприпустимих символів [baseconvert()](function.base-convert.md) [bindec()](function.bindec.md) [octdec()](function.octdec.md) тепер викликає повідомлення про застарілі можливості. Результат все одно буде обчислений так, якби неприпустимих символів не було. Провідні та завершальні прогалини, а також префікси типу 0x (залежно від системи числення), як і раніше, дозволені.
 
-#### Використання [arraykeyexists()](function.array-key-exists.html) з об'єктом
+#### Використання [arraykeyexists()](function.array-key-exists.md) з об'єктом
 
-Використання [arraykeyexists()](function.array-key-exists.html) з об'єктом оголошено застарілим. Натомість слід використовувати або [isset()](function.isset.md), або [propertyexists()](function.property-exists.html)
+Використання [arraykeyexists()](function.array-key-exists.html) з об'єктом оголошено застарілим. Натомість слід використовувати або [isset()](function.isset.md), або [propertyexists()](function.property-exists.md)
 
 #### Функції, пов'язані з чарівними лапками
 
-Функції [getmagicquotesgpc()](function.get-magic-quotes-gpc.html) і [getmagicquotesruntime()](function.get-magic-quotes-runtime.html) оголошено застарілими. Вони завжди повертають **`false`**
+Функції [getmagicquotesgpc()](function.get-magic-quotes-gpc.html) і [getmagicquotesruntime()](function.get-magic-quotes-runtime.md) оголошено застарілими. Вони завжди повертають **`false`**
 
 #### Функція [hebrevc()](function.hebrevc.md)
 
 Функція [hebrevc()](function.hebrevc.md) оголошено застарілою. Її можна замінити на вираз `nl2br(hebrev($str))`, або краще використовувати підтримку Unicode RTL.
 
-#### Функція [convertcyrstring()](function.convert-cyr-string.html)
+#### Функція [convertcyrstring()](function.convert-cyr-string.md)
 
-Функція [convertcyrstring()](function.convert-cyr-string.html) оголошено застарілою. Її можна замінити або на **мбconvertstring()**, або [iconv()](function.iconv.md) або на клас [UConverter](class.uconverter.md)
+Функція [convertcyrstring()](function.convert-cyr-string.md) оголошено застарілою. Її можна замінити або на **мбconvertstring()**, або [iconv()](function.iconv.md) або на клас [UConverter](class.uconverter.md)
 
-#### Функція [moneyformat()](function.money-format.html)
+#### Функція [moneyformat()](function.money-format.md)
 
-Функція [moneyformat()](function.money-format.html) оголошено застарілою. Вона може бути замінена функціональністю інтернаціоналізації – класом [NumberFormatter](class.numberformatter.md)
+Функція [moneyformat()](function.money-format.md) оголошено застарілою. Вона може бути замінена функціональністю інтернаціоналізації – класом [NumberFormatter](class.numberformatter.md)
 
-#### Функція [ezmlmhash()](function.ezmlm-hash.html)
+#### Функція [ezmlmhash()](function.ezmlm-hash.md)
 
-Функція [ezmlmhash()](function.ezmlm-hash.html) оголошено застарілою.
+Функція [ezmlmhash()](function.ezmlm-hash.md) оголошено застарілою.
 
-#### Функція [restoreincludepath()](function.restore-include-path.html)
+#### Функція [restoreincludepath()](function.restore-include-path.md)
 
-Функція [restoreincludepath()](function.restore-include-path.html) оголошено застарілою. Її можна замінити на `ini_restore('include_path')`
+Функція [restoreincludepath()](function.restore-include-path.md) оголошено застарілою. Її можна замінити на `ini_restore('include_path')`
 
 #### Використання implode з нерекомендованим порядком параметрів
 
@@ -96,13 +96,13 @@ title: Застаріла функціональність
 
 ### Багатобайтові рядки
 
-Передача нерядкового шаблону в [мбeregreplace()](function.mb-ereg-replace.html) оголошено застарілою. На даний момент нерядкові значення інтерпретуються як кодові точки ASCII. У PHP 8 шаблон буде оброблятися як рядок.
+Передача нерядкового шаблону в [мбeregreplace()](function.mb-ereg-replace.md) оголошено застарілою. На даний момент нерядкові значення інтерпретуються як кодові точки ASCII. У PHP 8 шаблон буде оброблятися як рядок.
 
-Передача кодування як 3-й параметр в [мбstrrpos()](function.mb-strrpos.html) оголошено застарілою. Натомість передавайте позицію як 0, а кодування у 4-му параметрі.
+Передача кодування як 3-й параметр в [мбstrrpos()](function.mb-strrpos.md) оголошено застарілою. Натомість передавайте позицію як 0, а кодування у 4-му параметрі.
 
 ### Полегшений протокол доступу до каталогів (LDAP)
 
-Функції [ldapcontrolpagedresultresponse()](function.ldap-control-paged-result-response.html) і [ldapcontrolpagedresult()](function.ldap-control-paged-result.html) оголошено застарілими. Для керування посторінковим режимом використовуйте функцію [ldapsearch()](function.ldap-search.html)
+Функції [ldapcontrolpagedresultresponse()](function.ldap-control-paged-result-response.html) і [ldapcontrolpagedresult()](function.ldap-control-paged-result.html) оголошено застарілими. Для керування посторінковим режимом використовуйте функцію [ldapsearch()](function.ldap-search.md)
 
 ### Reflection
 
@@ -122,4 +122,4 @@ $str = (string) new ReflectionClass(Foo::class);
 
 ### Сокети
 
-Прапори **`AI_IDN_ALLOW_UNASSIGNED`** і **`AI_IDN_USE_STD3_ASCII_RULES`** для функції [socketaddrinfolookup()](function.socket-addrinfo-lookup.html) оголошено застарілими через оновлення glibc.
+Прапори **`AI_IDN_ALLOW_UNASSIGNED`** і **`AI_IDN_USE_STD3_ASCII_RULES`** для функції [socketaddrinfolookup()](function.socket-addrinfo-lookup.md) оголошено застарілими через оновлення glibc.

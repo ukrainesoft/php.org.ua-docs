@@ -107,4 +107,4 @@ something
 ### Дивіться також
 
 -   [nl2br()](function.nl2br.md) - Вставляє HTML код розриву рядка перед кожним перекладом рядка
--   [chunksplit()](function.chunk-split.html) - Розбиває рядок на фрагменти
+-   [chunksplit()](function.chunk-split.md) - Розбиває рядок на фрагменти

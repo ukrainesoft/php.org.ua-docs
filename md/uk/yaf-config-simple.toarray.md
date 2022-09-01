@@ -18,7 +18,7 @@ YafConfigSimple::toArray — Повертає масив PHP
 public Yaf_Config_Simple::toArray(): array
 ```
 
-Повертає масив PHP з [YafConfigSimple](class.yaf-config-simple.html)
+Повертає масив PHP з [YafConfigSimple](class.yaf-config-simple.md)
 
 ### Список параметрів
 

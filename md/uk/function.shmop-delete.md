@@ -24,7 +24,7 @@ shmop_delete(Shmop $shmop): bool
 
 `shmop`
 
-Ресурс блоку пам'яті, що повертається функцією [shmopopen()](function.shmop-open.html)
+Ресурс блоку пам'яті, що повертається функцією [shmopopen()](function.shmop-open.md)
 
 ### Значення, що повертаються
 

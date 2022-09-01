@@ -24,7 +24,7 @@ dba_optimize(resource $dba): bool
 
 `dba`
 
-Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.html)
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ dba_optimize(resource $dba): bool
 
 ### Дивіться також
 
--   [dbasync()](function.dba-sync.html) - Синхронізує базу даних
+-   [dbasync()](function.dba-sync.md) - Синхронізує базу даних

@@ -34,7 +34,7 @@ xmlwriter_write_dtd_entity(    XMLWriter $writer,    string $name,   
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `name`
 
@@ -52,10 +52,10 @@ xmlwriter_write_dtd_entity(    XMLWriter $writer,    string $name,   
 
 | Версия | Описание |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 |  | `publicId` `systemId` і `notationData` тепер допускають значення null. |
 
 ### Дивіться також
 
--   [XMLWriter::startDtdEntity()](xmlwriter.startdtdentity.html) - Створити стартовий запис DTD
--   [XMLWriter::endDtdEntity()](xmlwriter.enddtdentity.html) - Завершити поточний запис DTD
+-   [XMLWriter::startDtdEntity()](xmlwriter.startdtdentity.md) - Створити стартовий запис DTD
+-   [XMLWriter::endDtdEntity()](xmlwriter.enddtdentity.md) - Завершити поточний запис DTD

@@ -20,17 +20,17 @@ yaz_element(resource $id, string $elementset): bool
 
 Функція встановлює ім'я набору елементів пошуку.
 
-Викличте цю функцію перед [yazsearch()](function.yaz-search.html) або [yazpresent()](function.yaz-present.html), щоб вказати ім'я набору елементів для записів, що виймаються.
+Викличте цю функцію перед [yazsearch()](function.yaz-search.html) або [yazpresent()](function.yaz-present.md), щоб вказати ім'я набору елементів для записів, що виймаються.
 
 > **Зауваження**
 > 
-> Якщо здається, що не відбувається жодного ефекту, дивіться опис опції `piggybacking` в [yazconnect()](function.yaz-connect.html)
+> Якщо здається, що не відбувається жодного ефекту, дивіться опис опції `piggybacking` в [yazconnect()](function.yaz-connect.md)
 
 ### Список параметрів
 
 `id`
 
-Ресурс з'єднання, повернутий [yazconnect()](function.yaz-connect.html)
+Ресурс з'єднання, повернутий [yazconnect()](function.yaz-connect.md)
 
 `elementset`
 

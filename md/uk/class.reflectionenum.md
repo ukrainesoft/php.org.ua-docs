@@ -122,13 +122,13 @@ public ReflectionClass::__toString(): string
 
 ## Дивіться також
 
--   [Перечисления](language.enumerations.html)
+-   [Перечисления](language.enumerations.md)
 
 ## Зміст
 
--   [ReflectionEnum::construct](reflectionenum.construct.html) — Створює об'єкт ReflectionEnum
--   [ReflectionEnum::getBackingType](reflectionenum.getbackingtype.html) — Отримує тип перерахування, якщо є
--   [ReflectionEnum::getCase](reflectionenum.getcase.html) — Повертає певний варіант перерахування
--   [ReflectionEnum::getCases](reflectionenum.getcases.html) — Повертає список усіх варіантів перерахування
--   [ReflectionEnum::hasCase](reflectionenum.hascase.html) - Перевіряє варіант перерахування
--   [ReflectionEnum::isBacked](reflectionenum.isbacked.html) — Визначає, чи є перерахування типовим
+-   [ReflectionEnum::construct](reflectionenum.construct.md) — Створює об'єкт ReflectionEnum
+-   [ReflectionEnum::getBackingType](reflectionenum.getbackingtype.md) — Отримує тип перерахування, якщо є
+-   [ReflectionEnum::getCase](reflectionenum.getcase.md) — Повертає певний варіант перерахування
+-   [ReflectionEnum::getCases](reflectionenum.getcases.md) — Повертає список усіх варіантів перерахування
+-   [ReflectionEnum::hasCase](reflectionenum.hascase.md) - Перевіряє варіант перерахування
+-   [ReflectionEnum::isBacked](reflectionenum.isbacked.md) — Визначає, чи є перерахування типовим

@@ -54,7 +54,7 @@ title: Обумовлені константи
 
 **`PHP_SAPI`** (string)
 
-API сервера (Server API) цієї збірки PHP. Дивіться також [phpsapiname()](function.php-sapi-name.html)
+API сервера (Server API) цієї збірки PHP. Дивіться також [phpsapiname()](function.php-sapi-name.md)
 
 **`PHP_EOL`** (string)
 
@@ -136,81 +136,81 @@ API сервера (Server API) цієї збірки PHP. Дивіться та
 
 **`E_ERROR`** (int)
 
-[Константа, яка вказує рівень повідомлень про помилки](errorfunc.constants.html)
+[Константа, яка вказує рівень повідомлень про помилки](errorfunc.constants.md)
 
 **`E_WARNING`** (int)
 
-[Константа сообщения об ошибке](errorfunc.constants.html)
+[Константа сообщения об ошибке](errorfunc.constants.md)
 
 **`E_PARSE`** (int)
 
-[Константа сообщения об ошибке](errorfunc.constants.html)
+[Константа сообщения об ошибке](errorfunc.constants.md)
 
 **`E_NOTICE`** (int)
 
-[Константа сообщения об ошибке](errorfunc.constants.html)
+[Константа сообщения об ошибке](errorfunc.constants.md)
 
 **`E_CORE_ERROR`** (int)
 
-[Константа сообщения об ошибке](errorfunc.constants.html)
+[Константа сообщения об ошибке](errorfunc.constants.md)
 
 **`E_CORE_WARNING`** (int)
 
-[Константа сообщения об ошибке](errorfunc.constants.html)
+[Константа сообщения об ошибке](errorfunc.constants.md)
 
 **`E_COMPILE_ERROR`** (int)
 
-[Константа сообщения об ошибке](errorfunc.constants.html)
+[Константа сообщения об ошибке](errorfunc.constants.md)
 
 **`E_COMPILE_WARNING`** (int)
 
-[Константа сообщения об ошибке](errorfunc.constants.html)
+[Константа сообщения об ошибке](errorfunc.constants.md)
 
 **`E_USER_ERROR`** (int)
 
-[Константа сообщения об ошибке](errorfunc.constants.html)
+[Константа сообщения об ошибке](errorfunc.constants.md)
 
 **`E_USER_WARNING`** (int)
 
-[Константа сообщения об ошибке](errorfunc.constants.html)
+[Константа сообщения об ошибке](errorfunc.constants.md)
 
 **`E_USER_NOTICE`** (int)
 
-[Константа сообщения об ошибке](errorfunc.constants.html)
+[Константа сообщения об ошибке](errorfunc.constants.md)
 
 **`E_RECOVERABLE_ERROR`** (int)
 
-[Константа сообщения об ошибке](errorfunc.constants.html)
+[Константа сообщения об ошибке](errorfunc.constants.md)
 
 **`E_DEPRECATED`** (int)
 
-[Константа сообщения об ошибке](errorfunc.constants.html)
+[Константа сообщения об ошибке](errorfunc.constants.md)
 
 **`E_USER_DEPRECATED`** (int)
 
-[Константа сообщения об ошибке](errorfunc.constants.html)
+[Константа сообщения об ошибке](errorfunc.constants.md)
 
 **`E_ALL`** (int)
 
-[Константа сообщения об ошибке](errorfunc.constants.html)
+[Константа сообщения об ошибке](errorfunc.constants.md)
 
 **`E_STRICT`** (int)
 
-[Константа сообщения об ошибке](errorfunc.constants.html)
+[Константа сообщения об ошибке](errorfunc.constants.md)
 
 **`__COMPILER_HALT_OFFSET__`** (int)
 
 **`true`** (bool)
 
-Дивіться розділ [Булев тип](language.types.boolean.html)
+Дивіться розділ [Булев тип](language.types.boolean.md)
 
 **`false`** (bool)
 
-Дивіться розділ [Булев тип](language.types.boolean.html)
+Дивіться розділ [Булев тип](language.types.boolean.md)
 
 **`null`** (null)
 
-Дивіться [Null](language.types.null.html)
+Дивіться [Null](language.types.null.md)
 
 **`PHP_WINDOWS_EVENT_CTRL_C`** (int)
 
@@ -220,7 +220,7 @@ Windows `CTRL+C`. Доступно з PHP 7.4.0 (лише для Windows).
 
 Windows `CTRL+BREAK`. Доступно з PHP 7.4.0 (лише для Windows).
 
-Дивіться також: [Магічні константи](language.constants.magic.html)
+Дивіться також: [Магічні константи](language.constants.magic.md)
 
 ### Стандартні визначені константи
 

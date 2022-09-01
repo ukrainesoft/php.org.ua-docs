@@ -58,5 +58,5 @@ bool(false)
 
 ### Дивіться також
 
--   [mktime()](function.mktime.html) - Повертає позначку часу Unix для заданої дати
--   [strtotime()](function.strtotime.html) - Перетворює текстове подання дати англійською мовою на мітку часу Unix
+-   [mktime()](function.mktime.md) - Повертає позначку часу Unix для заданої дати
+-   [strtotime()](function.strtotime.md) - Перетворює текстове подання дати англійською мовою на мітку часу Unix

@@ -29,4 +29,4 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::getInputHeaders()](eventhttprequest.getinputheaders.html) - Повертає асоціативний масив вхідних заголовків
+-   [EventHttpRequest::getInputHeaders()](eventhttprequest.getinputheaders.md) - Повертає асоціативний масив вхідних заголовків

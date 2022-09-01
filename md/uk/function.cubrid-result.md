@@ -24,7 +24,7 @@ cubrid_result(resource $result, int $row, mixed $field = 0): string
 
 `result`
 
-`result` отриманий з [cubridexecute()](function.cubrid-execute.html)
+`result` отриманий з [cubridexecute()](function.cubrid-execute.md)
 
 `row`
 

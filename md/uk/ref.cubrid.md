@@ -10,71 +10,71 @@ title: Функції CUBRID
 
 ## Зміст
 
--   [cubridbind](function.cubrid-bind.html) — пов'язує змінні із підготовленим запитом
--   [cubridcloseprepare](function.cubrid-close-prepare.html) - Закриває обробник запиту
--   [cubridcloserequest](function.cubrid-close-request.html) - Закриває обробник запиту
--   [cubridcolget](function.cubrid-col-get.html) — Отримання контенту стовпця типу колекція OID
--   [cubridcolsize](function.cubrid-col-size.html) — Отримує кількість елементів у стовпці типу колекція OID
--   [cubridcolumnnames](function.cubrid-column-names.html) — Отримати імена стовпців у результуючому наборі
--   [cubridcolumntypes](function.cubrid-column-types.html) — Отримати типи стовпців у результуючому наборі
--   [cubridcommit](function.cubrid-commit.html) - Підтвердження транзакції
--   [cubridconnectwithurl](function.cubrid-connect-with-url.html) — Створює оточення для з'єднання із сервером CUBRID
--   [cubridconnect](function.cubrid-connect.html) — Відкриває з'єднання з сервером CUBRID
--   [cubridcurrentoid](function.cubrid-current-oid.html) — Повертає OID поточної позиції курсору
--   [cubriddisconnect](function.cubrid-disconnect.html) — Закриває з'єднання з базою даних
--   [cubriddrop](function.cubrid-drop.html) — Видалення екземпляра OID
--   [cubriderrorcodefacility](function.cubrid-error-code-facility.html) — Отримати код рівня, на якому сталася помилка
--   [cubriderrorcode](function.cubrid-error-code.html) — Отримати код помилки
--   [cubriderrormsg](function.cubrid-error-msg.html) — Повертає текст останньої помилки, що сталася.
--   [cubridexecute](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
--   [cubridfetch](function.cubrid-fetch.html) — Вибирає наступний рядок із набору результатів
--   [cubridfreeresult](function.cubrid-free-result.html) - Звільняє пам'ять, зайняту даними результату
--   [cubridgetautocommit](function.cubrid-get-autocommit.html) — Повертає налаштування автокомміту для з'єднання
--   [cubridgetcharset](function.cubrid-get-charset.html) — Повертає кодування поточного з'єднання CUBRID
--   [cubridgetclassname](function.cubrid-get-class-name.html) — Отримує ім'я класу за допомогою OID
--   [cubridgetclientinfo](function.cubrid-get-client-info.html) — Повертає версію клієнтської бібліотеки
--   [cubridgetдбparameter](function.cubrid-get-db-parameter.html) — Повертає параметри бази даних CUBRID
--   [cubridgetquerytimeout](function.cubrid-get-query-timeout.html) — Отримує значення часу очікування запиту
--   [cubridgetserverinfo](function.cubrid-get-server-info.html) — Повертає версію сервера CUBRID
--   [cubridget](function.cubrid-get.html) — Отримує стовпець, використовуючи OID
--   [cubridinsertід](function.cubrid-insert-id.html) — Повертає ідентифікатор, згенерований для останнього оновленого стовпця AUTOINCREMENT
--   [cubridісinstance](function.cubrid-is-instance.html) — Перевіряє, чи існує екземпляр, на який вказує OID
--   [cubridlobclose](function.cubrid-lob-close.html) — Закриває дані BLOB/CLOB
--   [cubridlobexport](function.cubrid-lob-export.html) — Експортує дані BLOB/CLOB у файл
--   [cubridlobget](function.cubrid-lob-get.html) — Отримує дані BLOB/CLOB
--   [cubridlobsend](function.cubrid-lob-send.html) — Читає дані BLOB/CLOB і надсилає їх прямо до браузера
--   [cubridlobsize](function.cubrid-lob-size.html) — Отримує розмір даних BLOB/CLOB
--   [cubridlob2bind](function.cubrid-lob2-bind.html) — Зв'язує об'єкт LOB або рядок у вигляді об'єкта LOB з підготовленим оператором як параметри
--   [cubridlob2close](function.cubrid-lob2-close.html) — Закриває об'єкт LOB
--   [cubridlob2export](function.cubrid-lob2-export.html) — Експортує LOB-об'єкт у файл
--   [cubridlob2import](function.cubrid-lob2-import.html) — Імпортує дані BLOB/CLOB із файлу
--   [cubridlob2new](function.cubrid-lob2-new.html) - Створює об'єкт LOB
--   [cubridlob2read](function.cubrid-lob2-read.html) — Читає дані BLOB/CLOB
--   [cubridlob2seek64](function.cubrid-lob2-seek64.html) - Переміщує курсор LOB-об'єкта
--   [cubridlob2seek](function.cubrid-lob2-seek.html) - Переміщує курсор LOB-об'єкта
--   [cubridlob2size64](function.cubrid-lob2-size64.html) — Отримує розмір LOB-об'єкта
--   [cubridlob2size](function.cubrid-lob2-size.html) — Отримує розмір LOB-об'єкта
--   [cubridlob2tell64](function.cubrid-lob2-tell64.html) — Повідомляє про положення курсора LOB-об'єкта
--   [cubridlob2tell](function.cubrid-lob2-tell.html) — Повідомляє про положення курсора LOB-об'єкта
--   [cubridlob2write](function.cubrid-lob2-write.html) - Записує в LOB-об'єкт
--   [cubridlockread](function.cubrid-lock-read.html) — Встановлює блокування читання для цього OID
--   [cubridlockwrite](function.cubrid-lock-write.html) — Встановлює блокування запису для цього OID
--   [cubridmovecursor](function.cubrid-move-cursor.html) — Переміщує курсор у результаті
--   [cubridnextresult](function.cubrid-next-result.html) — Отримує результат наступного запиту під час виконання кількох SQL-операторів
--   [cubridnumcols](function.cubrid-num-cols.html) — Повертає кількість стовпців у наборі результатів
--   [cubridnumrows](function.cubrid-num-rows.html) — Отримати кількість рядків у наборі результатів
--   [cubridpconnectwithurl](function.cubrid-pconnect-with-url.html) — Відкриває постійне з'єднання із сервером CUBRID
--   [cubridpconnect](function.cubrid-pconnect.html) — Відкриває постійне з'єднання із сервером CUBRID
--   [cubridprepare](function.cubrid-prepare.html) — Підготовляє SQL-вираз до виконання
--   [cubridput](function.cubrid-put.html) — Оновлює стовпець за допомогою OID
--   [cubridrollback](function.cubrid-rollback.html) - Відкат транзакції
--   [cubridschema](function.cubrid-schema.html) — Отримує запитану інформацію про схему
--   [cubridseqdrop](function.cubrid-seq-drop.html) — Видаляє елемент зі стовпця типу послідовності, використовуючи OID
--   [cubridseqinsert](function.cubrid-seq-insert.html) — Вставляє елемент у стовпець типу послідовності, використовуючи OID
--   [cubridseqput](function.cubrid-seq-put.html) — Оновлює значення елемента стовпця типу послідовності за допомогою OID
--   [cubridsetadd](function.cubrid-set-add.html) — Вставляє один елемент для встановлення стовпця типу за допомогою OID
--   [cubridsetautocommit](function.cubrid-set-autocommit.html) — Встановлює режим автокомміту для з'єднання
--   [cubridsetдбparameter](function.cubrid-set-db-parameter.html) — Встановлює параметри бази даних CUBRID
--   [cubridsetdrop](function.cubrid-set-drop.html) — Видаляє елемент із стовпця заданого типу, використовуючи OID
--   [cubridsetquerytimeout](function.cubrid-set-query-timeout.html) — Встановлює час очікування на виконання запиту
--   [cubridversion](function.cubrid-version.html) — Отримати версію модуля CUBRID PHP
+-   [cubridbind](function.cubrid-bind.md) — пов'язує змінні із підготовленим запитом
+-   [cubridcloseprepare](function.cubrid-close-prepare.md) - Закриває обробник запиту
+-   [cubridcloserequest](function.cubrid-close-request.md) - Закриває обробник запиту
+-   [cubridcolget](function.cubrid-col-get.md) — Отримання контенту стовпця типу колекція OID
+-   [cubridcolsize](function.cubrid-col-size.md) — Отримує кількість елементів у стовпці типу колекція OID
+-   [cubridcolumnnames](function.cubrid-column-names.md) — Отримати імена стовпців у результуючому наборі
+-   [cubridcolumntypes](function.cubrid-column-types.md) — Отримати типи стовпців у результуючому наборі
+-   [cubridcommit](function.cubrid-commit.md) - Підтвердження транзакції
+-   [cubridconnectwithurl](function.cubrid-connect-with-url.md) — Створює оточення для з'єднання із сервером CUBRID
+-   [cubridconnect](function.cubrid-connect.md) — Відкриває з'єднання з сервером CUBRID
+-   [cubridcurrentoid](function.cubrid-current-oid.md) — Повертає OID поточної позиції курсору
+-   [cubriddisconnect](function.cubrid-disconnect.md) — Закриває з'єднання з базою даних
+-   [cubriddrop](function.cubrid-drop.md) — Видалення екземпляра OID
+-   [cubriderrorcodefacility](function.cubrid-error-code-facility.md) — Отримати код рівня, на якому сталася помилка
+-   [cubriderrorcode](function.cubrid-error-code.md) — Отримати код помилки
+-   [cubriderrormsg](function.cubrid-error-msg.md) — Повертає текст останньої помилки, що сталася.
+-   [cubridexecute](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
+-   [cubridfetch](function.cubrid-fetch.md) — Вибирає наступний рядок із набору результатів
+-   [cubridfreeresult](function.cubrid-free-result.md) - Звільняє пам'ять, зайняту даними результату
+-   [cubridgetautocommit](function.cubrid-get-autocommit.md) — Повертає налаштування автокомміту для з'єднання
+-   [cubridgetcharset](function.cubrid-get-charset.md) — Повертає кодування поточного з'єднання CUBRID
+-   [cubridgetclassname](function.cubrid-get-class-name.md) — Отримує ім'я класу за допомогою OID
+-   [cubridgetclientinfo](function.cubrid-get-client-info.md) — Повертає версію клієнтської бібліотеки
+-   [cubridgetдбparameter](function.cubrid-get-db-parameter.md) — Повертає параметри бази даних CUBRID
+-   [cubridgetquerytimeout](function.cubrid-get-query-timeout.md) — Отримує значення часу очікування запиту
+-   [cubridgetserverinfo](function.cubrid-get-server-info.md) — Повертає версію сервера CUBRID
+-   [cubridget](function.cubrid-get.md) — Отримує стовпець, використовуючи OID
+-   [cubridinsertід](function.cubrid-insert-id.md) — Повертає ідентифікатор, згенерований для останнього оновленого стовпця AUTOINCREMENT
+-   [cubridісinstance](function.cubrid-is-instance.md) — Перевіряє, чи існує екземпляр, на який вказує OID
+-   [cubridlobclose](function.cubrid-lob-close.md) — Закриває дані BLOB/CLOB
+-   [cubridlobexport](function.cubrid-lob-export.md) — Експортує дані BLOB/CLOB у файл
+-   [cubridlobget](function.cubrid-lob-get.md) — Отримує дані BLOB/CLOB
+-   [cubridlobsend](function.cubrid-lob-send.md) — Читає дані BLOB/CLOB і надсилає їх прямо до браузера
+-   [cubridlobsize](function.cubrid-lob-size.md) — Отримує розмір даних BLOB/CLOB
+-   [cubridlob2bind](function.cubrid-lob2-bind.md) — Зв'язує об'єкт LOB або рядок у вигляді об'єкта LOB з підготовленим оператором як параметри
+-   [cubridlob2close](function.cubrid-lob2-close.md) — Закриває об'єкт LOB
+-   [cubridlob2export](function.cubrid-lob2-export.md) — Експортує LOB-об'єкт у файл
+-   [cubridlob2import](function.cubrid-lob2-import.md) — Імпортує дані BLOB/CLOB із файлу
+-   [cubridlob2new](function.cubrid-lob2-new.md) - Створює об'єкт LOB
+-   [cubridlob2read](function.cubrid-lob2-read.md) — Читає дані BLOB/CLOB
+-   [cubridlob2seek64](function.cubrid-lob2-seek64.md) - Переміщує курсор LOB-об'єкта
+-   [cubridlob2seek](function.cubrid-lob2-seek.md) - Переміщує курсор LOB-об'єкта
+-   [cubridlob2size64](function.cubrid-lob2-size64.md) — Отримує розмір LOB-об'єкта
+-   [cubridlob2size](function.cubrid-lob2-size.md) — Отримує розмір LOB-об'єкта
+-   [cubridlob2tell64](function.cubrid-lob2-tell64.md) — Повідомляє про положення курсора LOB-об'єкта
+-   [cubridlob2tell](function.cubrid-lob2-tell.md) — Повідомляє про положення курсора LOB-об'єкта
+-   [cubridlob2write](function.cubrid-lob2-write.md) - Записує в LOB-об'єкт
+-   [cubridlockread](function.cubrid-lock-read.md) — Встановлює блокування читання для цього OID
+-   [cubridlockwrite](function.cubrid-lock-write.md) — Встановлює блокування запису для цього OID
+-   [cubridmovecursor](function.cubrid-move-cursor.md) — Переміщує курсор у результаті
+-   [cubridnextresult](function.cubrid-next-result.md) — Отримує результат наступного запиту під час виконання кількох SQL-операторів
+-   [cubridnumcols](function.cubrid-num-cols.md) — Повертає кількість стовпців у наборі результатів
+-   [cubridnumrows](function.cubrid-num-rows.md) — Отримати кількість рядків у наборі результатів
+-   [cubridpconnectwithurl](function.cubrid-pconnect-with-url.md) — Відкриває постійне з'єднання із сервером CUBRID
+-   [cubridpconnect](function.cubrid-pconnect.md) — Відкриває постійне з'єднання із сервером CUBRID
+-   [cubridprepare](function.cubrid-prepare.md) — Підготовляє SQL-вираз до виконання
+-   [cubridput](function.cubrid-put.md) — Оновлює стовпець за допомогою OID
+-   [cubridrollback](function.cubrid-rollback.md) - Відкат транзакції
+-   [cubridschema](function.cubrid-schema.md) — Отримує запитану інформацію про схему
+-   [cubridseqdrop](function.cubrid-seq-drop.md) — Видаляє елемент зі стовпця типу послідовності, використовуючи OID
+-   [cubridseqinsert](function.cubrid-seq-insert.md) — Вставляє елемент у стовпець типу послідовності, використовуючи OID
+-   [cubridseqput](function.cubrid-seq-put.md) — Оновлює значення елемента стовпця типу послідовності за допомогою OID
+-   [cubridsetadd](function.cubrid-set-add.md) — Вставляє один елемент для встановлення стовпця типу за допомогою OID
+-   [cubridsetautocommit](function.cubrid-set-autocommit.md) — Встановлює режим автокомміту для з'єднання
+-   [cubridsetдбparameter](function.cubrid-set-db-parameter.md) — Встановлює параметри бази даних CUBRID
+-   [cubridsetdrop](function.cubrid-set-drop.md) — Видаляє елемент із стовпця заданого типу, використовуючи OID
+-   [cubridsetquerytimeout](function.cubrid-set-query-timeout.md) — Встановлює час очікування на виконання запиту
+-   [cubridversion](function.cubrid-version.md) — Отримати версію модуля CUBRID PHP

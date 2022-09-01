@@ -10,12 +10,12 @@ title: fbirdnumfields
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdnumfields - Псевдонім [ibasenumfields()](function.ibase-num-fields.html)
+fbirdnumfields - Псевдонім [ibasenumfields()](function.ibase-num-fields.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibasenumfields()](function.ibase-num-fields.html)
+Ця функція є псевдонімом: [ibasenumfields()](function.ibase-num-fields.md)
 
 ### Дивіться також
 
--   [fbirdfieldinfo()](function.fbird-field-info.html) - Псевдонім ibasefieldinfo
+-   [fbirdfieldinfo()](function.fbird-field-info.md) - Псевдонім ibasefieldinfo

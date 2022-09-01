@@ -14,7 +14,7 @@ mysqlcreatedb — Створює базу даних MySQL
 
 **Увага**
 
-Ця функція оголошена застарілою в PHP 4.3.0, і, разом з [модулем MySQL](book.mysql.md)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Також дивіться розділ [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Ця функція оголошена застарілою в PHP 4.3.0, і, разом з [модулем MySQL](book.mysql.md)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Також дивіться розділ [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   [mysqliquery()](mysqli.query.md)
 -   [PDO::query()](pdo.query.md)
@@ -35,7 +35,7 @@ mysql_create_db(string $database_name, resource $link_identifier = NULL): bool
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -45,7 +45,7 @@ mysql_create_db(string $database_name, resource $link_identifier = NULL): bool
 
 **Приклад #1 Приклад створення бази даних MySQL**
 
-Функція **mysqlcreatedb()** не рекомендується використовувати. Переважно використовувати [mysqlquery()](function.mysql-query.html) із SQL-запитом створення бази даних `CREATE DATABASE`
+Функція **mysqlcreatedb()** не рекомендується використовувати. Переважно використовувати [mysqlquery()](function.mysql-query.md) із SQL-запитом створення бази даних `CREATE DATABASE`
 
 ```php
 <?php
@@ -81,5 +81,5 @@ if (mysql_query($sql, $link)) {
 
 ### Дивіться також
 
--   [mysqlquery()](function.mysql-query.html) - Надсилає запит MySQL
--   [mysqlselectdb()](function.mysql-select-db.html) - Вибирає базу даних MySQL
+-   [mysqlquery()](function.mysql-query.md) - Надсилає запит MySQL
+-   [mysqlselectdb()](function.mysql-select-db.md) - Вибирає базу даних MySQL

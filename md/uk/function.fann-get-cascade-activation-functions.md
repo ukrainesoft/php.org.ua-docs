@@ -20,7 +20,7 @@ fann_get_cascade_activation_functions(resource $ann): array
 
 Масив функцій каскадної активації – це масив різних функцій активації, які використовуються кандидатами.
 
-Дивіться [fanngetcascadenumcandidates()](function.fann-get-cascade-num-candidates.html) для опису того, які нейрони кандидата генеруватимуться цим масивом.
+Дивіться [fanngetcascadenumcandidates()](function.fann-get-cascade-num-candidates.md) для опису того, які нейрони кандидата генеруватимуться цим масивом.
 
 Функції активації за замовчуванням: **`FANN_SIGMOID`** **`FANN_SIGMOID_SYMMETRIC`** **`FANN_GAUSSIAN`** **`FANN_GAUSSIAN_SYMMETRIC`** **`FANN_ELLIOT`** **`FANN_ELLIOT_SYMMETRIC`**
 
@@ -36,5 +36,5 @@ fann_get_cascade_activation_functions(resource $ann): array
 
 ### Дивіться також
 
--   [fanngetcascadeactivationfunctionscount()](function.fann-get-cascade-activation-functions-count.html) - Повертає кількість функцій каскадної активації
--   [fannsetcascadeactivationfunctions()](function.fann-set-cascade-activation-functions.html) - встановлює масив каскадних функцій активації кандидатів
+-   [fanngetcascadeactivationfunctionscount()](function.fann-get-cascade-activation-functions-count.md) - Повертає кількість функцій каскадної активації
+-   [fannsetcascadeactivationfunctions()](function.fann-set-cascade-activation-functions.md) - встановлює масив каскадних функцій активації кандидатів

@@ -105,5 +105,5 @@ array(5) {
 
 ### Дивіться також
 
--   [cubridseqdrop()](function.cubrid-seq-drop.html) - Видаляє елемент зі стовпця типу послідовності, використовуючи OID
--   [cubridseqput()](function.cubrid-seq-put.html) - Оновлює значення елемента стовпця типу послідовності за допомогою OID
+-   [cubridseqdrop()](function.cubrid-seq-drop.md) - Видаляє елемент зі стовпця типу послідовності, використовуючи OID
+-   [cubridseqput()](function.cubrid-seq-put.md) - Оновлює значення елемента стовпця типу послідовності за допомогою OID

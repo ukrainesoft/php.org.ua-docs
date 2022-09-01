@@ -54,10 +54,10 @@ if (md5($str) === '1afa148eb41f2e7103f21410bf48346c') {
 
 ### Дивіться також
 
--   [md5file()](function.md5-file.html) - Повертає MD5-хеш файлу
--   [sha1file()](function.sha1-file.html) - Повертає SHA1-хеш файлу
--   [crc32()](function.crc32.html) - Обчислює поліном CRC32 для рядка
--   [sha1()](function.sha1.html) - Повертає SHA1-хеш рядки
--   [hash()](function.hash.html) - Генерує хеш-код (підпис повідомлення)
--   [crypt()](function.crypt.html) - Необоротне хешування рядка
--   [passwordhash()](function.password-hash.html) - Створює хеш пароля
+-   [md5file()](function.md5-file.md) - Повертає MD5-хеш файлу
+-   [sha1file()](function.sha1-file.md) - Повертає SHA1-хеш файлу
+-   [crc32()](function.crc32.md) - Обчислює поліном CRC32 для рядка
+-   [sha1()](function.sha1.md) - Повертає SHA1-хеш рядки
+-   [hash()](function.hash.md) - Генерує хеш-код (підпис повідомлення)
+-   [crypt()](function.crypt.md) - Необоротне хешування рядка
+-   [passwordhash()](function.password-hash.md) - Створює хеш пароля

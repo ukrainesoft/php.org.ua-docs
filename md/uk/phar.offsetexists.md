@@ -18,9 +18,9 @@ Phar::offsetExists — Визначити, чи є файл в архіві
 public Phar::offsetExists(string $localName): bool
 ```
 
-Це реалізація інтерфейсу [ArrayAccess](class.arrayaccess.html)дозволяє маніпулювати вмістом Phar-архіву в стилі доступу до елементів масиву.
+Це реалізація інтерфейсу [ArrayAccess](class.arrayaccess.md)дозволяє маніпулювати вмістом Phar-архіву в стилі доступу до елементів масиву.
 
-offsetExists() запускається щоразу, коли викликається [isset()](function.isset.html)
+offsetExists() запускається щоразу, коли викликається [isset()](function.isset.md)
 
 ### Список параметрів
 
@@ -56,6 +56,6 @@ bool(false)
 
 ### Дивіться також
 
--   [Phar::offsetGet()](phar.offsetget.html) - Отримати PharFileInfo об'єкт для конкретного файлу
--   [Phar::offsetSet()](phar.offsetset.html) - Зміна вмісту файлу
--   [Phar::offsetUnset()](phar.offsetunset.html) - Видалити файл із phar-архіву
+-   [Phar::offsetGet()](phar.offsetget.md) - Отримати PharFileInfo об'єкт для конкретного файлу
+-   [Phar::offsetSet()](phar.offsetset.md) - Зміна вмісту файлу
+-   [Phar::offsetUnset()](phar.offsetunset.md) - Видалити файл із phar-архіву

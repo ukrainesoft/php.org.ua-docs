@@ -10,4 +10,4 @@ title: Приклади
 
 ## Зміст
 
--   [Базовое использование](shmop.examples-basic.html)
+-   [Базовое использование](shmop.examples-basic.md)

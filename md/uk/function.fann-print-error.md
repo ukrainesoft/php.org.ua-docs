@@ -32,4 +32,4 @@ fann_print_error(resource $errdat): void
 
 ### Дивіться також
 
--   [fanngeterrstr()](function.fann-get-errstr.html) - Повертає останній рядок помилки
+-   [fanngeterrstr()](function.fann-get-errstr.md) - Повертає останній рядок помилки

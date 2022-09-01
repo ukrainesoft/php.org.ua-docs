@@ -20,7 +20,7 @@ public ArrayIterator::offsetUnset(mixed $key): void
 
 Скидає значення зі зміщення.
 
-Якщо ітерація виконується та **ArrayIterator::offsetUnset()** використовується для скидання поточного індексу ітерації, позиція ітерації буде зміщена до наступного індексу. Оскільки позиція ітерації також зміщується наприкінці [foreach](control-structures.foreach.html) у тілі циклу, використання **ArrayIterator::offsetUnset()** всередині циклу [`foreach`](control-structures.foreach.html) може призвести до пропуску індексів.
+Якщо ітерація виконується та **ArrayIterator::offsetUnset()** використовується для скидання поточного індексу ітерації, позиція ітерації буде зміщена до наступного індексу. Оскільки позиція ітерації також зміщується наприкінці [foreach](control-structures.foreach.html) у тілі циклу, використання **ArrayIterator::offsetUnset()** всередині циклу [`foreach`](control-structures.foreach.md) може призвести до пропуску індексів.
 
 ### Список параметрів
 
@@ -34,5 +34,5 @@ public ArrayIterator::offsetUnset(mixed $key): void
 
 ### Дивіться також
 
--   [ArrayIterator::offsetGet()](arrayiterator.offsetget.html) - Отримує значення для зміщення
--   [ArrayIterator::offsetSet()](arrayiterator.offsetset.html) - Встановлює значення для усунення
+-   [ArrayIterator::offsetGet()](arrayiterator.offsetget.md) - Отримує значення для зміщення
+-   [ArrayIterator::offsetSet()](arrayiterator.offsetset.md) - Встановлює значення для усунення

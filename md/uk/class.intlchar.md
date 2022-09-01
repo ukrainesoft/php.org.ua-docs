@@ -3735,7 +3735,7 @@ Special value that is returned by [IntlChar::getNumericValue()](intlchar.getnume
 -   [IntlChar::getBidiPairedBracket](intlchar.getbidipairedbracket.md) — Отримати парну дужку для символу
 -   [IntlChar::getBlockCode](intlchar.getblockcode.md) — Отримати блок розміщення символу Unicode
 -   [IntlChar::getCombiningClass](intlchar.getcombiningclass.md) — Отримати комбінуючий клас для символу
--   [IntlChar::getFCNFKCClosure](intlchar.getfc-nfkc-closure.html) - Отримати властивість FCNFKCClosure для символу
+-   [IntlChar::getFCNFKCClosure](intlchar.getfc-nfkc-closure.md) - Отримати властивість FCNFKCClosure для символу
 -   [IntlChar::getIntPropertyMaxValue](intlchar.getintpropertymaxvalue.md) — Отримати мінімальне значення для властивості Unicode
 -   [IntlChar::getIntPropertyMinValue](intlchar.getintpropertyminvalue.md) — Отримати мінімальне значення для властивості Unicode
 -   [IntlChar::getIntPropertyValue](intlchar.getintpropertyvalue.md) — Отримати значення властивості Unicode для символу

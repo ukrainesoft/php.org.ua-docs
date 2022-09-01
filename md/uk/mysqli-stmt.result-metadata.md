@@ -28,40 +28,40 @@ public mysqli_stmt::result_metadata(): mysqli_result|false
 mysqli_stmt_result_metadata(mysqli_stmt $statement): mysqli_result|false
 ```
 
-Якщо запит, переданий у [mysqliprepare()](mysqli.prepare.html), генерує результуючу таблицю, **mysqlistmtresultmetadata()** повертає об'єкт, за допомогою якого можна отримати опис цього результуючого набору. Зокрема, можна отримати кількість полів та опис кожного окремого поля.
+Якщо запит, переданий у [mysqliprepare()](mysqli.prepare.md), генерує результуючу таблицю, **mysqlistmtresultmetadata()** повертає об'єкт, за допомогою якого можна отримати опис цього результуючого набору. Зокрема, можна отримати кількість полів та опис кожного окремого поля.
 
 > **Зауваження**
 > 
 > Отриманий об'єктний покажчик можна передавати як аргумент функції обробки метаданих результуючих таблиць, як наприклад:
 > 
-> -   [mysqlinumfields()](mysqli-result.field-count.html)
+> -   [mysqlinumfields()](mysqli-result.field-count.md)
 >     
-> -   [mysqlifetchfield()](mysqli-result.fetch-field.html)
+> -   [mysqlifetchfield()](mysqli-result.fetch-field.md)
 >     
-> -   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.html)
+> -   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.md)
 >     
-> -   [mysqlifetchfields()](mysqli-result.fetch-fields.html)
+> -   [mysqlifetchfields()](mysqli-result.fetch-fields.md)
 >     
-> -   [mysqlifieldcount()](mysqli.field-count.html)
+> -   [mysqlifieldcount()](mysqli.field-count.md)
 >     
-> -   [mysqlifieldseek()](mysqli-result.field-seek.html)
+> -   [mysqlifieldseek()](mysqli-result.field-seek.md)
 >     
-> -   [mysqlifieldtell()](mysqli-result.current-field.html)
+> -   [mysqlifieldtell()](mysqli-result.current-field.md)
 >     
-> -   [mysqlifreeresult()](mysqli-result.free.html)
+> -   [mysqlifreeresult()](mysqli-result.free.md)
 >     
 
-Після завершення роботи з цим об'єктом пам'ять, яку він займає, необхідно звільнити. Зробити це можна, передавши об'єктний покажчик на функцію [mysqlifreeresult()](mysqli-result.free.html)
+Після завершення роботи з цим об'єктом пам'ять, яку він займає, необхідно звільнити. Зробити це можна, передавши об'єктний покажчик на функцію [mysqlifreeresult()](mysqli-result.free.md)
 
 > **Зауваження**
 > 
-> Результуючий набір, що повертається з \*\*mysqlistmtresultmetadata()\*\*містить тільки метадані. У ньому немає рядків вибірки. Результати запиту можна отримати за допомогою функції [mysqlistmtfetch()](mysqli-stmt.fetch.html)
+> Результуючий набір, що повертається з \*\*mysqlistmtresultmetadata()\*\*містить тільки метадані. У ньому немає рядків вибірки. Результати запиту можна отримати за допомогою функції [mysqlistmtfetch()](mysqli-stmt.fetch.md)
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -131,5 +131,5 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
--   [mysqlifreeresult()](mysqli-result.free.html) - звільняє пам'ять, зайняту результатами запиту
+-   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
+-   [mysqlifreeresult()](mysqli-result.free.md) - звільняє пам'ять, зайняту результатами запиту

@@ -18,7 +18,7 @@ sodiumcryptosign — Підписати повідомлення
 sodium_crypto_sign(string $message, string $secret_key): string
 ```
 
-Підписує повідомлення секретним ключем, який можна перевірити за допомогою відкритого ключа. Функція підписує повідомлення. Подробиці у розділі [sodiumcryptosigndetached()](function.sodium-crypto-sign-detached.html) для окремих підписів.
+Підписує повідомлення секретним ключем, який можна перевірити за допомогою відкритого ключа. Функція підписує повідомлення. Подробиці у розділі [sodiumcryptosigndetached()](function.sodium-crypto-sign-detached.md) для окремих підписів.
 
 ### Список параметрів
 
@@ -28,7 +28,7 @@ sodium_crypto_sign(string $message, string $secret_key): string
 
 `secret_key`
 
-Секретний ключ. Дивіться [sodiumcryptosignsecretkey()](function.sodium-crypto-sign-secretkey.html)
+Секретний ключ. Дивіться [sodiumcryptosignsecretkey()](function.sodium-crypto-sign-secretkey.md)
 
 ### Значення, що повертаються
 

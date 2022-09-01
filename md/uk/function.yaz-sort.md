@@ -20,13 +20,13 @@ yaz_sort(resource $id, string $criteria): void
 
 Функція визначає критерій сортування і включає сортування за Z39.50.
 
-Ця функція має бути викликана *до* [yazsearch()](function.yaz-search.html). Виклик цієї функції окремо немає сенсу. Коли вона використовується спільно з [yazsearch()](function.yaz-search.html), параметри сортування будуть надіслані після пошукового запиту і до того, як будь-який запис буде отримано за Z39.50 ([yazpresent()](function.yaz-present.html)
+Ця функція має бути викликана *до* [yazsearch()](function.yaz-search.html). Виклик цієї функції окремо немає сенсу. Коли вона використовується спільно з [yazsearch()](function.yaz-search.html), параметри сортування будуть надіслані після пошукового запиту і до того, як будь-який запис буде отримано за Z39.50 ([yazpresent()](function.yaz-present.md)
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, що повертається [yazconnect()](function.yaz-connect.html)
+Дескриптор з'єднання, що повертається [yazconnect()](function.yaz-connect.md)
 
 `criteria`
 

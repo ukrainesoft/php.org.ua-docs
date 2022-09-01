@@ -156,9 +156,9 @@ bool(false)
 ### Дивіться також
 
 -   [strrchr()](function.strrchr.md) - Знаходить останнє входження символу у рядку
--   [substrreplace()](function.substr-replace.html) - Замінює частину рядка
--   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [substrreplace()](function.substr-replace.md) - Замінює частину рядка
+-   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу
 -   [trim()](function.trim.md) - Видаляє прогалини (або інші символи) з початку та кінця рядка
--   [мбsubstr()](function.mb-substr.html) - Повертає частину рядка
+-   [мбsubstr()](function.mb-substr.md) - Повертає частину рядка
 -   [wordwrap()](function.wordwrap.md) - Переносить рядок за вказаною кількістю символів
 -   [Посимвольний доступ та зміна рядка](language.types.string.html#language.types.string.substr)

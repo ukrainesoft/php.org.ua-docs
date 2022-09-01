@@ -18,7 +18,7 @@ Imagick::setFont — Встановлює шрифт
 public Imagick::setFont(string $font): bool
 ```
 
-Встановлює об'єкт властивість шрифт. Метод можна використовувати, наприклад, для встановлення шрифту для caption: формат псевдозображень. Шрифт має бути налаштований у конфігурації ImageMagick або має існувати файл з ім'ям `font`. Метод не слід плутати з методом [ImagickDraw::setFont()](imagickdraw.setfont.html), який встановлює шрифт певного об'єкта ImagickDraw. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.7 або старшим.
+Встановлює об'єкт властивість шрифт. Метод можна використовувати, наприклад, для встановлення шрифту для caption: формат псевдозображень. Шрифт має бути налаштований у конфігурації ImageMagick або має існувати файл з ім'ям `font`. Метод не слід плутати з методом [ImagickDraw::setFont()](imagickdraw.setfont.md), який встановлює шрифт певного об'єкта ImagickDraw. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.7 або старшим.
 
 ### Список параметрів
 
@@ -53,6 +53,6 @@ $im->newPseudoImage(100, 100, "caption:Hello");
 
 ### Дивіться також
 
--   [Imagick::getFont()](imagick.getfont.html) - Повертає назву шрифту
--   [ImagickDraw::setFont()](imagickdraw.setfont.html) - Встановлює вказаний шрифт для використання під час анотування текстом
--   [ImagickDraw::getFont()](imagickdraw.getfont.html) - Повертає шрифт
+-   [Imagick::getFont()](imagick.getfont.md) - Повертає назву шрифту
+-   [ImagickDraw::setFont()](imagickdraw.setfont.md) - Встановлює вказаний шрифт для використання під час анотування текстом
+-   [ImagickDraw::getFont()](imagickdraw.getfont.md) - Повертає шрифт

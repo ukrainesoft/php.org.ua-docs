@@ -97,5 +97,5 @@ array(3) {
 
 ### Дивіться також
 
--   [cubridseqinsert()](function.cubrid-seq-insert.html) - Вставляє елемент у стовпець типу послідовності, використовуючи OID
--   [cubridseqput()](function.cubrid-seq-put.html) - Оновлює значення елемента стовпця типу послідовності за допомогою OID
+-   [cubridseqinsert()](function.cubrid-seq-insert.md) - Вставляє елемент у стовпець типу послідовності, використовуючи OID
+-   [cubridseqput()](function.cubrid-seq-put.md) - Оновлює значення елемента стовпця типу послідовності за допомогою OID

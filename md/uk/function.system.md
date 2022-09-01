@@ -75,5 +75,5 @@ echo '
 -   [passthru()](function.passthru.md) - Виконати зовнішню програму та відобразити необроблений висновок
 -   [popen()](function.popen.md) - Відкриває файловий покажчик процесу
 -   [escapeshellcmd()](function.escapeshellcmd.md) - Екранувати метасимволи командного рядка
--   [pcntlexec()](function.pcntl-exec.html) - Запустити вказану програму в галузі поточного процесу
+-   [pcntlexec()](function.pcntl-exec.md) - Запустити вказану програму в галузі поточного процесу
 -   [Оператор исполнения](language.operators.execution.md)

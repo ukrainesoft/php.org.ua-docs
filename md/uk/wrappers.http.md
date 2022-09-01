@@ -85,4 +85,4 @@ foreach ($meta_data['wrapper_data'] as $response) {
 
 -   [Опции контекста HTTP](context.http.md)
 -   [$httpresponseheader](reserved.variables.httpresponseheader.md)
--   [streamgetmetadata()](function.stream-get-meta-data.html) - Витягує заголовок/метадані з потоків/файлових покажчиків
+-   [streamgetmetadata()](function.stream-get-meta-data.md) - Витягує заголовок/метадані з потоків/файлових покажчиків

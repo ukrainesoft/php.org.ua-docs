@@ -52,4 +52,4 @@ mcrypt_decrypt(    string $cipher,    string $key,    string $data,�
 
 ### Дивіться також
 
--   [mcryptencrypt()](function.mcrypt-encrypt.html) - Шифрує текст із заданими параметрами
+-   [mcryptencrypt()](function.mcrypt-encrypt.md) - Шифрує текст із заданими параметрами

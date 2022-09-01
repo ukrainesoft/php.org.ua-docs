@@ -92,7 +92,7 @@ severity
 
 ## Приклади
 
-**Приклад #1 Використання [seterrorhandler()](function.set-error-handler.html) змінити повідомлення про помилки в ErrorException.**
+**Приклад #1 Використання [seterrorhandler()](function.set-error-handler.md) змінити повідомлення про помилки в ErrorException.**
 
 ```php
 <?php

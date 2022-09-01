@@ -10,7 +10,7 @@ title: gethtmltranslationtable
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-gethtmltranslationtable — Повертає таблицю перетворень, що використовується функціями [htmlspecialchars()](function.htmlspecialchars.html) і [htmlentities()](function.htmlentities.html)
+gethtmltranslationtable — Повертає таблицю перетворень, що використовується функціями [htmlspecialchars()](function.htmlspecialchars.html) і [htmlentities()](function.htmlentities.md)
 
 ### Опис
 
@@ -18,11 +18,11 @@ gethtmltranslationtable — Повертає таблицю перетворен
 get_html_translation_table(int $table = HTML_SPECIALCHARS, int $flags = ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401, string $encoding = "UTF-8"): array
 ```
 
-**gethtmltranslationtable()** повертає таблицю перетворень, що використовується функціями [htmlspecialchars()](function.htmlspecialchars.html) і [htmlentities()](function.htmlentities.html)
+**gethtmltranslationtable()** повертає таблицю перетворень, що використовується функціями [htmlspecialchars()](function.htmlspecialchars.html) і [htmlentities()](function.htmlentities.md)
 
 > **Зауваження**
 > 
-> Спеціальні символи можуть бути закодовані різними способами. Наприклад, `"` може бути закодований як `&quot;` `&#34;` або `&#x22`. . **gethtmltranslationtable()** повертає лише форми, що використовуються функціями [htmlspecialchars()](function.htmlspecialchars.html) і [htmlentities()](function.htmlentities.html)
+> Спеціальні символи можуть бути закодовані різними способами. Наприклад, `"` може бути закодований як `&quot;` `&#34;` або `&#x22`. . **gethtmltranslationtable()** повертає лише форми, що використовуються функціями [htmlspecialchars()](function.htmlspecialchars.html) і [htmlentities()](function.htmlentities.md)
 
 ### Список параметрів
 
@@ -71,7 +71,7 @@ get_html_translation_table(int $table = HTML_SPECIALCHARS, int $flags = ENT_QUOT
 | ShiftJIS | SJIS, SJIS-win, CP932, 932 | Японське кодування. |
 | EUC-JP | EUCJP, eucJP-win | Японське кодування. |
 | MacRoman |  | Кодування, яке використовується в Mac OS. |
-| `''` |  | Порожній рядок активує режим визначення кодування із файлу скрипта (Zend multibyte), [defaultcharset](ini.core.html#ini.default-charset) та поточної локалі (дивіться [нлlanginfo()](function.nl-langinfo.html) і [setlocale()](function.setlocale.html)) у зазначеному порядку. Не рекомендується використовувати. |
+| `''` |  | Порожній рядок активує режим визначення кодування із файлу скрипта (Zend multibyte), [defaultcharset](ini.core.html#ini.default-charset) та поточної локалі (дивіться [нлlanginfo()](function.nl-langinfo.html) і [setlocale()](function.setlocale.md)) у зазначеному порядку. Не рекомендується використовувати. |
 
 > **Зауваження**: Інші кодування не підтримуються, замість них буде застосовано кодування за замовчуванням та згенеровано попередження.
 
@@ -122,6 +122,6 @@ array(1510) {
 
 ### Дивіться також
 
--   [htmlspecialchars()](function.htmlspecialchars.html) - Перетворює спеціальні символи на HTML-сутності
--   [htmlentities()](function.htmlentities.html) - Перетворює всі можливі символи у відповідні HTML-сутності
--   [htmlentitydecode()](function.html-entity-decode.html) - Перетворює HTML-сутності у відповідні їм символи
+-   [htmlspecialchars()](function.htmlspecialchars.md) - Перетворює спеціальні символи на HTML-сутності
+-   [htmlentities()](function.htmlentities.md) - Перетворює всі можливі символи у відповідні HTML-сутності
+-   [htmlentitydecode()](function.html-entity-decode.md) - Перетворює HTML-сутності у відповідні їм символи

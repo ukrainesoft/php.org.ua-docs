@@ -24,11 +24,11 @@ final public MongoDB\Driver\WriteResult::getUpsertedIds(): array
 
 ### Значення, що повертаються
 
-Повертає масив ідентифікаторів (тобто значення полів `"_id"`) для об'єднаних документів. Ключі масиву будуть відповідати індексу операції запису (з [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)), відповідальної за злиття.
+Повертає масив ідентифікаторів (тобто значення полів `"_id"`) для об'єднаних документів. Ключі масиву будуть відповідати індексу операції запису (з [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md)), відповідальної за злиття.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
@@ -72,5 +72,5 @@ array(2) {
 
 ### Дивіться також
 
--   [MongoDBDriverWriteResult::getUpsertedCount()](mongodb-driver-writeresult.getupsertedcount.html) - Повертає кількість документів, вставлених злиттям
--   [MongoDBDriverWriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.html) - Повертає, чи був запис підтверджений
+-   [MongoDBDriverWriteResult::getUpsertedCount()](mongodb-driver-writeresult.getupsertedcount.md) - Повертає кількість документів, вставлених злиттям
+-   [MongoDBDriverWriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.md) - Повертає, чи був запис підтверджений

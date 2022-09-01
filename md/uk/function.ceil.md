@@ -50,5 +50,5 @@ echo ceil(-3.14);  // -3
 
 ### Дивіться також
 
--   [floor()](function.floor.html) - Округлює дріб у менший бік
--   [round()](function.round.html) - Округлює кількість типу float
+-   [floor()](function.floor.md) - Округлює дріб у менший бік
+-   [round()](function.round.md) - Округлює кількість типу float

@@ -71,4 +71,4 @@ xn--tst-qla.de
 
 ### Дивіться також
 
--   [idnтоutf8()](function.idn-to-utf8.html) - Перетворення доменного імені з IDNA ASCII в Unicode
+-   [idnтоutf8()](function.idn-to-utf8.md) - Перетворення доменного імені з IDNA ASCII в Unicode

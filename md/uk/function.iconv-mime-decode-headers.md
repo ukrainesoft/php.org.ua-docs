@@ -97,8 +97,8 @@ Array
 
 ### Дивіться також
 
--   [iconvmimedecode()](function.iconv-mime-decode.html) - Декодує поле MIME-заголовка
--   [мбdecodemimeheader()](function.mb-decode-mimeheader.html) - Декодує рядок у MIME-заголовку
--   [imapmimeheaderdecode()](function.imap-mime-header-decode.html) - Декодувати елементи заголовка
--   [imapbase64()](function.imap-base64.html) - Декодувати текст закодований BASE64
--   [imapqprint()](function.imap-qprint.html) - Перетворити рядок з формату "quoted-printable" на 8-бітовий рядок
+-   [iconvmimedecode()](function.iconv-mime-decode.md) - Декодує поле MIME-заголовка
+-   [мбdecodemimeheader()](function.mb-decode-mimeheader.md) - Декодує рядок у MIME-заголовку
+-   [imapmimeheaderdecode()](function.imap-mime-header-decode.md) - Декодувати елементи заголовка
+-   [imapbase64()](function.imap-base64.md) - Декодувати текст закодований BASE64
+-   [imapqprint()](function.imap-qprint.md) - Перетворити рядок з формату "quoted-printable" на 8-бітовий рядок

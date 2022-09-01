@@ -90,5 +90,5 @@ echo "<author id='$id'>
 -   [vsprintf()](function.vsprintf.md) - Повертає відформатований рядок
 -   [vfprintf()](function.vfprintf.md) - Записує відформатований рядок у потік
 -   [fscanf()](function.fscanf.md) - Обробляє дані з файлу відповідно до формату
--   [numberformat()](function.number-format.html) - Форматує число з поділом груп
+-   [numberformat()](function.number-format.md) - Форматує число з поділом груп
 -   [date()](function.date.md) - Форматує тимчасову мітку Unix

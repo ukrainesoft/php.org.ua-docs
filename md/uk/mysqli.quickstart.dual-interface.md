@@ -95,9 +95,9 @@ if ($row = $result->fetch_assoc()) {
 
 -   [mysqli::construct()](mysqli.construct.md)
 -   [mysqli::query()](mysqli.query.md)
--   [mysqliresult::fetchassoc()](mysqli-result.fetch-assoc.html)
--   [$mysqli::connecterrno](mysqli.connect-errno.html)
--   [$mysqli::connecterror](mysqli.connect-error.html)
+-   [mysqliresult::fetchassoc()](mysqli-result.fetch-assoc.md)
+-   [$mysqli::connecterrno](mysqli.connect-errno.md)
+-   [$mysqli::connecterror](mysqli.connect-error.md)
 -   [$mysqli::errno](mysqli.errno.md)
 -   [$mysqli::error](mysqli.error.md)
 -   [Общее описание функций модуля MySQLi](mysqli.summary.md)

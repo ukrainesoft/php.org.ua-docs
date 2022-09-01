@@ -46,12 +46,12 @@ final public unserialize(string $serialized): void
 
 | Версия | Описание |
 | --- | --- |
-| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONMaxKeyInterface](class.mongodb-bson-maxkeyinterface.html) |
-| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html) |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONMaxKeyInterface](class.mongodb-bson-maxkeyinterface.md) |
+| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.md) |
 
 ## Зміст
 
--   [MongoDBBSONMaxKey::construct](mongodb-bson-maxkey.construct.html) - Конструктор MaxKey
--   [MongoDBBSONMaxKey::jsonSerialize](mongodb-bson-maxkey.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDBBSONMaxKey::serialize](mongodb-bson-maxkey.serialize.html) - Серіалізує MaxKey
--   [MongoDBBSONMaxKey::unserialize](mongodb-bson-maxkey.unserialize.html) - Десеріалізує MaxKey
+-   [MongoDBBSONMaxKey::construct](mongodb-bson-maxkey.construct.md) - Конструктор MaxKey
+-   [MongoDBBSONMaxKey::jsonSerialize](mongodb-bson-maxkey.jsonserialize.md) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONMaxKey::serialize](mongodb-bson-maxkey.serialize.md) - Серіалізує MaxKey
+-   [MongoDBBSONMaxKey::unserialize](mongodb-bson-maxkey.unserialize.md) - Десеріалізує MaxKey

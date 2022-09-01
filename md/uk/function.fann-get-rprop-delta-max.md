@@ -34,5 +34,5 @@ fann_get_rprop_delta_max(resource $ann): float
 
 ### Дивіться також
 
--   [fannsetrpropdeltamax()](function.fann-set-rprop-delta-max.html) - Встановлює максимальний розмір кроку
--   [fanngetrpropdeltamin()](function.fann-get-rprop-delta-min.html) - Повертає мінімальний розмір кроку
+-   [fannsetrpropdeltamax()](function.fann-set-rprop-delta-max.md) - Встановлює максимальний розмір кроку
+-   [fanngetrpropdeltamin()](function.fann-get-rprop-delta-min.md) - Повертає мінімальний розмір кроку

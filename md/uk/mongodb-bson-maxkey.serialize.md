@@ -24,14 +24,14 @@ final public MongoDB\BSON\MaxKey::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBBSONMaxKey](class.mongodb-bson-maxkey.html)
+Повертає серіалізовану виставу [MongoDBBSONMaxKey](class.mongodb-bson-maxkey.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONMaxKey::unserialize()](mongodb-bson-maxkey.unserialize.html) - Десеріалізує MaxKey
+-   [MongoDBBSONMaxKey::unserialize()](mongodb-bson-maxkey.unserialize.md) - Десеріалізує MaxKey
 -   [serialize()](function.serialize.md) - Генерує придатне для зберігання уявлення змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

@@ -38,7 +38,7 @@ session_create_id(string $prefix = ""): string|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sessioncreateid()** з функцією [sessionregenerateid()](function.session-regenerate-id.html)**
+**Приклад #1 Приклад використання **sessioncreateid()** з функцією [sessionregenerateid()](function.session-regenerate-id.md)**
 
 ```php
 <?php
@@ -91,7 +91,7 @@ my_session_regenerate_id();
 
 ### Дивіться також
 
--   [sessionregenerateid()](function.session-regenerate-id.html) - Генерує та оновлює ідентифікатор поточної сесії
--   [sessionstart()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
+-   [sessionregenerateid()](function.session-regenerate-id.md) - Генерує та оновлює ідентифікатор поточної сесії
+-   [sessionstart()](function.session-start.md) - Стартує нову сесію, або відновлює існуючу
 -   [session.usestrictmode](session.configuration.html#ini.session.use-strict-mode)
--   [SessionHandler::createsid()](sessionhandler.create-sid.html) - Повертає новий ідентифікатор сесії
+-   [SessionHandler::createsid()](sessionhandler.create-sid.md) - Повертає новий ідентифікатор сесії

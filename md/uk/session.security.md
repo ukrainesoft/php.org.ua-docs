@@ -10,8 +10,8 @@ title: Безпека сесій
 
 ## Зміст
 
--   [Базові засади управління сесіями](features.session.security.management.html)
--   [INI-налаштування безпеки сесій](session.security.ini.html)
+-   [Базові засади управління сесіями](features.session.security.management.md)
+-   [INI-налаштування безпеки сесій](session.security.ini.md)
 
 Зовнішні посилання: [» Атака "Фиксация сессии"](http://www.acros.si/papers/session_fixation.pdf)
 

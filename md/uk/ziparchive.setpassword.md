@@ -34,9 +34,9 @@ public ZipArchive::setPassword(string $password): bool
 
 > **Зауваження**
 > 
-> Починаючи з PHP 7.2.0 і libzip 1.2.0, пароль використовується для розпакування архіву, а також як пароль за замовчуванням для [ZipArchive::setEncryptionName()](ziparchive.setencryptionname.html) і [ZipArchive::setEncryptionIndex()](ziparchive.setencryptionindex.html). Раніше ця функція встановлювала пароль лише для розпакування. Вона не перетворювала не захищений паролем [ZipArchive](class.ziparchive.html) у захищений [ZipArchive](class.ziparchive.html)
+> Починаючи з PHP 7.2.0 і libzip 1.2.0, пароль використовується для розпакування архіву, а також як пароль за замовчуванням для [ZipArchive::setEncryptionName()](ziparchive.setencryptionname.html) і [ZipArchive::setEncryptionIndex()](ziparchive.setencryptionindex.html). Раніше ця функція встановлювала пароль лише для розпакування. Вона не перетворювала не захищений паролем [ZipArchive](class.ziparchive.html) у захищений [ZipArchive](class.ziparchive.md)
 
 ### Дивіться також
 
--   [ZipArchive::setEncryptionIndex()](ziparchive.setencryptionindex.html) - Встановити метод шифрування запису за його індексом
--   [ZipArchive::setEncryptionName()](ziparchive.setencryptionname.html) - Встановити метод шифрування запису на його ім'я
+-   [ZipArchive::setEncryptionIndex()](ziparchive.setencryptionindex.md) - Встановити метод шифрування запису за його індексом
+-   [ZipArchive::setEncryptionName()](ziparchive.setencryptionname.md) - Встановити метод шифрування запису на його ім'я

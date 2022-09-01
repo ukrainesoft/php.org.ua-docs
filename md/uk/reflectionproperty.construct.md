@@ -89,7 +89,7 @@ object(Str)#2 (1) {
 }
 ```
 
-**Приклад #2 Отримання значень захищених та закритих властивостей за допомогою класу [ReflectionProperty](class.reflectionproperty.html)**
+**Приклад #2 Отримання значень захищених та закритих властивостей за допомогою класу [ReflectionProperty](class.reflectionproperty.md)**
 
 ```php
 <?php
@@ -122,5 +122,5 @@ int(3)
 
 ### Дивіться також
 
--   [ReflectionProperty::getName()](reflectionproperty.getname.html) - Отримання імені властивості
+-   [ReflectionProperty::getName()](reflectionproperty.getname.md) - Отримання імені властивості
 -   [Конструктори](language.oop5.decon.html#language.oop5.decon.constructor)

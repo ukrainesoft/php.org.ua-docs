@@ -37,7 +37,7 @@ resource(4) of type (EIO Request Descriptor)
 my_nop 2
 ```
 
-**Приклад #2 [eiochmod()](function.eio-chmod.html)**
+**Приклад #2 [eiochmod()](function.eio-chmod.md)**
 
 ```php
 <?php

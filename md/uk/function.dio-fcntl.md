@@ -24,7 +24,7 @@ dio_fcntl(resource $fd, int $cmd, mixed $args = ?): mixed
 
 `fd`
 
-Файловий дескриптор, отриманий з [dioopen()](function.dio-open.html)
+Файловий дескриптор, отриманий з [dioopen()](function.dio-open.md)
 
 `cmd`
 

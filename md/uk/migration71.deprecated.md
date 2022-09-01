@@ -12,6 +12,6 @@ title: 'Функціонал, оголошений застарілим у PHP 7
 
 Модуль mcrypt не розвивався вже майже десять років, а також був украй складним у використанні. Він був оголошений застарілим на користь OpenSSL. Він буде видалений з ядра PHP і переміщений до PECL PHP 7.2.
 
-### Модифікатор "e" для функцій [мбeregreplace()](function.mb-ereg-replace.html) і [мбeregireplace()](function.mb-eregi-replace.html)
+### Модифікатор "e" для функцій [мбeregreplace()](function.mb-ereg-replace.html) і [мбeregireplace()](function.mb-eregi-replace.md)
 
-Модифікатор шаблону `e` був оголошений застарілим для функцій [мбeregreplace()](function.mb-ereg-replace.html) і [мбeregireplace()](function.mb-eregi-replace.html)
+Модифікатор шаблону `e` був оголошений застарілим для функцій [мбeregreplace()](function.mb-ereg-replace.html) і [мбeregireplace()](function.mb-eregi-replace.md)

@@ -84,4 +84,4 @@ string(20) "test upload contents"
 
 ### Дивіться також
 
--   [curlsetopt()](function.curl-setopt.html) - Встановлює параметр для сеансу CURL
+-   [curlsetopt()](function.curl-setopt.md) - Встановлює параметр для сеансу CURL

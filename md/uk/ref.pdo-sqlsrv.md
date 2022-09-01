@@ -20,7 +20,7 @@ PDOSQLSRV - це драйвер, що реалізує інтерфейс [PHP D
 
 За детальною інформацією про системні вимоги зверніться до розділу [» Системні вимоги SQLSRV](http://msdn.microsoft.com/en-us/library/cc296170.aspx)
 
-Модуль PDOSQLSRV може використовуватися з PHP лише у Windows. Для Linux використовуйте [ODBC](ref.pdo-odbc.html) і [» Microsoft's SQL Server ODBC Driver для Linux](http://www.microsoft.com/download/en/details.aspx?id=28160)
+Модуль PDOSQLSRV може використовуватися з PHP лише у Windows. Для Linux використовуйте [ODBC](ref.pdo-odbc.md) і [» Microsoft's SQL Server ODBC Driver для Linux](http://www.microsoft.com/download/en/details.aspx?id=28160)
 
 ## Обумовлені константи
 
@@ -72,4 +72,4 @@ PDOSQLSRV - це драйвер, що реалізує інтерфейс [PHP D
 
 ## Зміст
 
--   [PDOSQLSRV DSN](ref.pdo-sqlsrv.connection.html) — Підключення до баз даних MS SQL Server та SQL Azure
+-   [PDOSQLSRV DSN](ref.pdo-sqlsrv.connection.md) — Підключення до баз даних MS SQL Server та SQL Azure

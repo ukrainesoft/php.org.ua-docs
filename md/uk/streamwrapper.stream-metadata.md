@@ -20,10 +20,10 @@ public streamWrapper::stream_metadata(string $path, int $option, mixed $value): 
 
 Цей метод викликається для встановлення метаданих потоку. Він працює, коли над URL потоку виконується одна з таких операцій:
 
--   [touch()](function.touch.html)
--   [chmod()](function.chmod.html)
--   [chown()](function.chown.html)
--   [chgrp()](function.chgrp.html)
+-   [touch()](function.touch.md)
+-   [chmod()](function.chmod.md)
+-   [chown()](function.chown.md)
+-   [chgrp()](function.chgrp.md)
 
 Слід пам'ятати, що деякі з цих операцій можуть бути недоступними у вашій системі.
 
@@ -37,21 +37,21 @@ public streamWrapper::stream_metadata(string $path, int $option, mixed $value): 
 
 Одне із значень:
 
--   **`STREAM_META_TOUCH`** (Метод викликається в результаті виклику [touch()](function.touch.html)
--   **`STREAM_META_OWNER_NAME`** (Метод викликається в результаті виклику [chown()](function.chown.html) з рядковим аргументом)
--   **`STREAM_META_OWNER`** (Метод викликається в результаті виклику [chown()](function.chown.html)
--   **`STREAM_META_GROUP_NAME`** (Метод викликається в результаті виклику [chgrp()](function.chgrp.html)
--   **`STREAM_META_GROUP`** (Метод викликається в результаті виклику [chgrp()](function.chgrp.html)
--   **`STREAM_META_ACCESS`** (Метод викликається в результаті виклику [chmod()](function.chmod.html)
+-   **`STREAM_META_TOUCH`** (Метод викликається в результаті виклику [touch()](function.touch.md)
+-   **`STREAM_META_OWNER_NAME`** (Метод викликається в результаті виклику [chown()](function.chown.md) з рядковим аргументом)
+-   **`STREAM_META_OWNER`** (Метод викликається в результаті виклику [chown()](function.chown.md)
+-   **`STREAM_META_GROUP_NAME`** (Метод викликається в результаті виклику [chgrp()](function.chgrp.md)
+-   **`STREAM_META_GROUP`** (Метод викликається в результаті виклику [chgrp()](function.chgrp.md)
+-   **`STREAM_META_ACCESS`** (Метод викликається в результаті виклику [chmod()](function.chmod.md)
 
 `value`
 
 Якщо `option` приймає значення
 
--   **`STREAM_META_TOUCH`**: Масив (Array), що складається з двох аргументів функції. [touch()](function.touch.html)
+-   **`STREAM_META_TOUCH`**: Масив (Array), що складається з двох аргументів функції. [touch()](function.touch.md)
 -   **`STREAM_META_OWNER_NAME`** або **`STREAM_META_GROUP_NAME`**: Ім'я власника/групи у вигляді рядка (string).
 -   **`STREAM_META_OWNER`** або **`STREAM_META_GROUP`**: Значення власника/групу як цілого числа (int).
--   **`STREAM_META_ACCESS`**: Аргумент функції [chmod()](function.chmod.html) як цілого числа (int).
+-   **`STREAM_META_ACCESS`**: Аргумент функції [chmod()](function.chmod.md) як цілого числа (int).
 
 ### Значення, що повертаються
 
@@ -59,7 +59,7 @@ public streamWrapper::stream_metadata(string $path, int $option, mixed $value): 
 
 ### Дивіться також
 
--   [touch()](function.touch.html) - Встановлює час доступу та модифікації файлу
--   [chmod()](function.chmod.html) - Змінює режим доступу до файлу
--   [chown()](function.chown.html) - Змінює власника файлу
--   [chgrp()](function.chgrp.html) - Змінює групу файлу
+-   [touch()](function.touch.md) - Встановлює час доступу та модифікації файлу
+-   [chmod()](function.chmod.md) - Змінює режим доступу до файлу
+-   [chown()](function.chown.md) - Змінює власника файлу
+-   [chgrp()](function.chgrp.md) - Змінює групу файлу

@@ -22,7 +22,7 @@ openal_context_current(resource $context): bool
 
 `context`
 
-Ресурс [Open AL(Context)](openal.resources.html) (Створений раніше за допомогою [openalcontextcreate()](function.openal-context-create.html)
+Ресурс [Open AL(Context)](openal.resources.html) (Створений раніше за допомогою [openalcontextcreate()](function.openal-context-create.md)
 
 ### Значення, що повертаються
 
@@ -30,4 +30,4 @@ openal_context_current(resource $context): bool
 
 ### Дивіться також
 
--   [openalcontextcreate()](function.openal-context-create.html) - Створити контекст обробки звуку
+-   [openalcontextcreate()](function.openal-context-create.md) - Створити контекст обробки звуку

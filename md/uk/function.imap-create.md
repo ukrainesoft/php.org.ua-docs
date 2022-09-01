@@ -10,8 +10,8 @@ title: imapcreate
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapcreate - Псевдонім [imapcreatemailbox()](function.imap-createmailbox.html)
+imapcreate - Псевдонім [imapcreatemailbox()](function.imap-createmailbox.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [imapcreatemailbox()](function.imap-createmailbox.html)
+Ця функція є псевдонімом: [imapcreatemailbox()](function.imap-createmailbox.md)

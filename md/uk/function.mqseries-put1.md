@@ -20,7 +20,7 @@ mqseries_put1(    resource $hconn,    resource &$objDesc,    resourc
 
 Функція **mqseriesput1()** (MQPUT1) містить повідомлення в чергу. Черга має бути не відкрита.
 
-Для надсилання повідомлення в чергу ви можете використовувати як [mqseriesput()](function.mqseries-put.html), так і **mqseriesput1()**. . [mqseriesput()](function.mqseries-put.html) (MQPUT) використовується коли необхідно помістити в чергу кілька повідомлень, у той час як **mqseriesput1()** (MQPUT1) зручно використовувати для одного повідомлення. По суті, ця функція включає послідовність викликів MQOPEN, MQPUT і MQCLOSE, що дозволяє не викликати окремо.
+Для надсилання повідомлення в чергу ви можете використовувати як [mqseriesput()](function.mqseries-put.html), так і **mqseriesput1()**. . [mqseriesput()](function.mqseries-put.md) (MQPUT) використовується коли необхідно помістити в чергу кілька повідомлень, у той час як **mqseriesput1()** (MQPUT1) зручно використовувати для одного повідомлення. По суті, ця функція включає послідовність викликів MQOPEN, MQPUT і MQCLOSE, що дозволяє не викликати окремо.
 
 ### Список параметрів
 
@@ -58,7 +58,7 @@ Object descriptor. (MQOD)
 
 ### Дивіться також
 
--   [mqseriesconn()](function.mqseries-conn.html) - MQSeries MQCONN
--   [mqseriesconnx()](function.mqseries-connx.html) - MQSeries MQCONNX
--   [mqseriesopen()](function.mqseries-open.html) - MQSeries MQOPEN
--   [mqseriesget()](function.mqseries-get.html) - MQSeries MQGET
+-   [mqseriesconn()](function.mqseries-conn.md) - MQSeries MQCONN
+-   [mqseriesconnx()](function.mqseries-connx.md) - MQSeries MQCONNX
+-   [mqseriesopen()](function.mqseries-open.md) - MQSeries MQOPEN
+-   [mqseriesget()](function.mqseries-get.md) - MQSeries MQGET

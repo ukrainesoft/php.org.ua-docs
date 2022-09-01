@@ -52,6 +52,6 @@ echo $im->getIteratorIndex();
 
 ### Дивіться також
 
--   [Imagick::setIteratorIndex()](imagick.setiteratorindex.html) - встановлює позицію ітератора
--   [Imagick::getImageIndex()](imagick.getimageindex.html) - Повертає індекс поточного активного зображення
--   [Imagick::setImageIndex()](imagick.setimageindex.html) - встановлює позицію ітератора
+-   [Imagick::setIteratorIndex()](imagick.setiteratorindex.md) - встановлює позицію ітератора
+-   [Imagick::getImageIndex()](imagick.getimageindex.md) - Повертає індекс поточного активного зображення
+-   [Imagick::setImageIndex()](imagick.setimageindex.md) - встановлює позицію ітератора

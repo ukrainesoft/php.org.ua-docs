@@ -24,7 +24,7 @@ password_needs_rehash(string $hash, string|int|null $algo, array $options = []):
 
 `hash`
 
-Хеш, створений функцією [passwordhash()](function.password-hash.html)
+Хеш, створений функцією [passwordhash()](function.password-hash.md)
 
 `algo`
 

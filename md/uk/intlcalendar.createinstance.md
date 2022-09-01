@@ -36,7 +36,7 @@ intlcal_create_instance(IntlTimeZone|DateTimeZone|string|null $timezone = null, 
 
 Часовий пояс для використання.
 
--   Якщо **`null`**, то буде використаний часовий пояс за замовчуванням, задана в ini-налаштування [date.timezone](datetime.configuration.html#ini.date.timezone) або за допомогою функції [datedefaulttimezoneset()](function.date-default-timezone-set.html) та повернена функцією [datedefaulttimezoneget()](function.date-default-timezone-get.html)
+-   Якщо **`null`**, то буде використаний часовий пояс за замовчуванням, задана в ini-налаштування [date.timezone](datetime.configuration.html#ini.date.timezone) або за допомогою функції [datedefaulttimezoneset()](function.date-default-timezone-set.html) та повернена функцією [datedefaulttimezoneget()](function.date-default-timezone-get.md)
     
 -   Об'єкт класу [IntlTimeZone](class.intltimezone.md)
     

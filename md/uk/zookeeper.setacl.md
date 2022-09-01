@@ -43,7 +43,7 @@ ACL, який потрібно встановити.
 
 **Застереження**
 
-Починаючи з версії 0.3.0 метод викидає [ZookeeperException](class.zookeeperexception.html) та його похідні.
+Починаючи з версії 0.3.0 метод викидає [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Приклади
 
@@ -90,7 +90,7 @@ array(1) {
 
 ### Дивіться також
 
--   [Zookeeper::create()](zookeeper.create.html) - Створює синхронно вузол
--   [Zookeeper::getAcl()](zookeeper.getacl.html) - Синхронно отримує ACL, пов'язаний із вузлом
+-   [Zookeeper::create()](zookeeper.create.md) - Створює синхронно вузол
+-   [Zookeeper::getAcl()](zookeeper.getacl.md) - Синхронно отримує ACL, пов'язаний із вузлом
 -   [Разрешения ZooKeeper](class.zookeeper.html#zookeeper.class.constants.perms)
--   [ZookeeperException](class.zookeeperexception.html)
+-   [ZookeeperException](class.zookeeperexception.md)

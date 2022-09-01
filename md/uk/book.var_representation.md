@@ -9,9 +9,9 @@ title: varrepresentation
 # varrepresentation
 
 -   [Введение](intro.var_representation.md)
--   [Встановлення та налаштування](var-representation.setup.html)
-    -   [Вимоги](var-representation.requirements.html)
-    -   [Установка](var-representation.installation.html)
--   [Обумовлені константи](var-representation.constants.html)
--   [Функции varrepresentation](ref.var-representation.html)
-    -   [varrepresentation](function.var-representation.html) — Повертає коротку, читаючу, розбірливу строкову виставу змінної
+-   [Встановлення та налаштування](var-representation.setup.md)
+    -   [Вимоги](var-representation.requirements.md)
+    -   [Установка](var-representation.installation.md)
+-   [Обумовлені константи](var-representation.constants.md)
+-   [Функции varrepresentation](ref.var-representation.md)
+    -   [varrepresentation](function.var-representation.md) — Повертає коротку, читаючу, розбірливу строкову виставу змінної

@@ -89,4 +89,4 @@ string<br />
 -   [htmlspecialchars()](function.htmlspecialchars.md) - Перетворює спеціальні символи на HTML-сутності
 -   [htmlentities()](function.htmlentities.md) - Перетворює всі можливі символи у відповідні HTML-сутності
 -   [wordwrap()](function.wordwrap.md) - Переносить рядок за вказаною кількістю символів
--   [strreplace()](function.str-replace.html) - Замінює всі входження рядка пошуку на рядок заміни
+-   [strreplace()](function.str-replace.md) - Замінює всі входження рядка пошуку на рядок заміни

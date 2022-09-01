@@ -18,13 +18,13 @@ dbasepack - Фіксує видалення з бази даних
 dbase_pack(resource $database): bool
 ```
 
-Фіксує видалення з бази даних, остаточно видаляє записи, які були позначені видалення за допомогою [dbasedeleterecord()](function.dbase-delete-record.html). Зверніть увагу, що після виконання цієї операції файл буде усічений (на відміну від команди dBASE III's PACK)
+Фіксує видалення з бази даних, остаточно видаляє записи, які були позначені видалення за допомогою [dbasedeleterecord()](function.dbase-delete-record.md). Зверніть увагу, що після виконання цієї операції файл буде усічений (на відміну від команди dBASE III's PACK)
 
 ### Список параметрів
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.html)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.md)
 
 ### Значення, що повертаються
 
@@ -60,4 +60,4 @@ if ($db) {
 
 ### Дивіться також
 
--   [dbasedeleterecord()](function.dbase-delete-record.html) - Видалення записів із бази даних
+-   [dbasedeleterecord()](function.dbase-delete-record.md) - Видалення записів із бази даних

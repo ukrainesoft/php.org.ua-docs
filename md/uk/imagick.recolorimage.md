@@ -63,4 +63,4 @@ function recolorImage($imagePath) {
 
 ### Дивіться також
 
--   [Imagick::displayImage()](imagick.displayimage.html) - Виводить зображення
+-   [Imagick::displayImage()](imagick.displayimage.md) - Виводить зображення

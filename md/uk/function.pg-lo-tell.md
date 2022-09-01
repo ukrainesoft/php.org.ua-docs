@@ -26,7 +26,7 @@ pg_lo_tell(PgSql\Lob $lob): int
 
 `lob`
 
-Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.html)
+Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.md)
 
 ### Значення, що повертаються
 
@@ -36,7 +36,7 @@ pg_lo_tell(PgSql\Lob $lob): int
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -65,4 +65,4 @@ pg_lo_tell(PgSql\Lob $lob): int
 
 ### Дивіться також
 
--   [пглоseek()](function.pg-lo-seek.html) - Переміщує внутрішній покажчик великого об'єкта
+-   [пглоseek()](function.pg-lo-seek.md) - Переміщує внутрішній покажчик великого об'єкта

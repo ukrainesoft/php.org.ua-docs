@@ -28,4 +28,4 @@ public Yaf_Route_Supervar::route(Yaf_Request_Abstract $request): bool
 
 ### Значення, що повертаються
 
-Якщо у $GET є ключ (який був визначений у [YafRouteSupervar::construct()](yaf-route-supervar.construct.html)), поверне **`true`**, інакше поверне **`false`**
+Якщо у $GET є ключ (який був визначений у [YafRouteSupervar::construct()](yaf-route-supervar.construct.md)), поверне **`true`**, інакше поверне **`false`**

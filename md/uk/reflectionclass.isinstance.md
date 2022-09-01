@@ -68,4 +68,4 @@ Yes
 -   [ReflectionClass::isInterface()](reflectionclass.isinterface.md) - Перевіряє, чи є клас інтерфейсом
 -   [Оператори перевірки типу (instanceof)](language.operators.type.md)
 -   [Інтерфейси об'єктів](language.oop5.interfaces.md)
--   [ісa()](function.is-a.html) - Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків
+-   [ісa()](function.is-a.md) - Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків

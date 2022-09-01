@@ -16,9 +16,9 @@ title: Gearman
     -   [Типи ресурсів](gearman.resources.md)
 -   [Обумовлені константи](gearman.constants.md)
 -   [Приклади](gearman.examples.md)
-    -   [Базовое использование](gearman.examples-reverse.html)
-    -   [Базовий клієнт та обробник Gearman, фоновий режим](gearman.examples-reverse-bg.html)
-    -   [Базові клієнт та обробник Gearman, відправка завдань](gearman.examples-reverse-task.html)
+    -   [Базовое использование](gearman.examples-reverse.md)
+    -   [Базовий клієнт та обробник Gearman, фоновий режим](gearman.examples-reverse-bg.md)
+    -   [Базові клієнт та обробник Gearman, відправка завдань](gearman.examples-reverse-task.md)
 -   [GearmanClient](class.gearmanclient.md) - Клас GearmanClient
     -   [GearmanClient::addOptions](gearmanclient.addoptions.md) - Додати клієнтські опції
     -   [GearmanClient::addServer](gearmanclient.addserver.md) - Додати сервер завдань для клієнта

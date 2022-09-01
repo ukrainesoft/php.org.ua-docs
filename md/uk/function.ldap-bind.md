@@ -24,7 +24,7 @@ ldap_bind(LDAP\Connection $ldap, ?string $dn = null, ?string $password = null): 
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `dn`
 
@@ -40,7 +40,7 @@ ldap_bind(LDAP\Connection $ldap, ?string $dn = null, ?string $password = null): 
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -103,5 +103,5 @@ if ($ldapconn) {
 
 ### Дивіться також
 
--   [ldapbindext()](function.ldap-bind-ext.html) - Прив'язати до директорії LDAP
--   [ldapunbind()](function.ldap-unbind.html) - Розірвати прив'язку до директорії LDAP
+-   [ldapbindext()](function.ldap-bind-ext.md) - Прив'язати до директорії LDAP
+-   [ldapunbind()](function.ldap-unbind.md) - Розірвати прив'язку до директорії LDAP

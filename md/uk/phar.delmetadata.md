@@ -20,7 +20,7 @@ public Phar::delMetadata(): bool
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.html)
+> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
 Видаляє глобальні метадані в архіві phar
 
@@ -32,7 +32,7 @@ public Phar::delMetadata(): bool
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.html) у разі виникнення помилки під час збереження змін на диск.
+Викидає виняток [PharException](class.pharexception.md) у разі виникнення помилки під час збереження змін на диск.
 
 ### Приклади
 
@@ -63,6 +63,6 @@ NULL
 
 ### Дивіться також
 
--   [Phar::getMetadata()](phar.getmetadata.html) - Витягти метадані phar-архіву
--   [Phar::setMetadata()](phar.setmetadata.html) - Встановити метадані phar-архіву
--   [Phar::hasMetadata()](phar.hasmetadata.html) - Перевірити, чи містить phar-архів глобальні метадані
+-   [Phar::getMetadata()](phar.getmetadata.md) - Витягти метадані phar-архіву
+-   [Phar::setMetadata()](phar.setmetadata.md) - Встановити метадані phar-архіву
+-   [Phar::hasMetadata()](phar.hasmetadata.md) - Перевірити, чи містить phar-архів глобальні метадані

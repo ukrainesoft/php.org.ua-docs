@@ -14,7 +14,7 @@ mysqlclose — Закриває з'єднання з сервером MySQL
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   [mysqliclose()](mysqli.close.md)
 -   PDO: Присвоїти значення **`null`** об'єкту PDO
@@ -33,7 +33,7 @@ mysql_close(resource $link_identifier = NULL): bool
 
 `link_identifier`
 
-З'єднання MySQL. Якщо не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо з'єднання не знайдено або не встановлено, то буде згенеровано помилку рівня **`E_WARNING`**
+З'єднання MySQL. Якщо не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо з'єднання не знайдено або не встановлено, то буде згенеровано помилку рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -64,9 +64,9 @@ mysql_close($link);
 
 > **Зауваження**
 > 
-> **mysqlclose()** не закриває постійні з'єднання, створені функцією [mysqlpconnect()](function.mysql-pconnect.html). Для додаткової інформації дивіться посібник з [постійним з'єднанням](features.persistent-connections.html)
+> **mysqlclose()** не закриває постійні з'єднання, створені функцією [mysqlpconnect()](function.mysql-pconnect.html). Для додаткової інформації дивіться посібник з [постійним з'єднанням](features.persistent-connections.md)
 
 ### Дивіться також
 
--   [mysqlconnect()](function.mysql-connect.html) - Відкриває з'єднання із сервером MySQL
--   [mysqlfreeresult()](function.mysql-free-result.html) - Звільняє пам'ять від результату запиту
+-   [mysqlconnect()](function.mysql-connect.md) - Відкриває з'єднання із сервером MySQL
+-   [mysqlfreeresult()](function.mysql-free-result.md) - Звільняє пам'ять від результату запиту

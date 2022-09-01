@@ -57,11 +57,11 @@ title: Налаштування під час виконання
 
 `session.save_handler` string
 
-`session.save_handler` визначає ім'я оброблювача, який використовується для зберігання та вилучення даних, пов'язаних із сесією. За замовчуванням має значення `files`. Слід звернути увагу на те, що деякі модулі можуть зареєструвати власні обробники (`save_handler`). Поточні зареєстровані обробники відображаються в [phpinfo()](function.phpinfo.md). Дивіться також [sessionsetsavehandler()](function.session-set-save-handler.html)
+`session.save_handler` визначає ім'я оброблювача, який використовується для зберігання та вилучення даних, пов'язаних із сесією. За замовчуванням має значення `files`. Слід звернути увагу на те, що деякі модулі можуть зареєструвати власні обробники (`save_handler`). Поточні зареєстровані обробники відображаються в [phpinfo()](function.phpinfo.md). Дивіться також [sessionsetsavehandler()](function.session-set-save-handler.md)
 
 `session.save_path` string
 
-`session.save_path` визначає аргумент, який передається до обробника збереження. При встановленому за замовчуванням обробнику files аргумент містить шлях, де будуть створюватися файли. Дивіться також [sessionsavepath()](function.session-save-path.html)
+`session.save_path` визначає аргумент, який передається до обробника збереження. При встановленому за замовчуванням обробнику files аргумент містить шлях, де будуть створюватися файли. Дивіться також [sessionsavepath()](function.session-save-path.md)
 
 Ця директива також має додатковий аргумент `N`, Який визначає глибину розміщення файлів сесії щодо зазначеної директорії Наприклад, вказівка `'5;/tmp'` може зрештою призвести до такого розміщення файлу сесії: `/tmp/4/b/1/e/3/sess_4b1e384ad74619bd212e236e52a5a174If` . Для того, щоб використати аргумент `N`необхідно попередньо створити всі ці директорії. Допомогти цьому може невеликий скрипт, розташований в ext/session. Версія для bash називається modfiles.sh, а Windows-версія – modfiles.bat. Також слід враховувати, що якщо `N` визначено і більше 0, то автоматичне складання сміття не виконується, докладніше дивіться інформацію у файлі php.ini. Крім того, якщо використовується `N`, необхідно переконатися, що значення `session.save_path` вказано в лапках, оскільки роздільник (`;`) у php.ini використовується як знак коментаря.
 
@@ -79,7 +79,7 @@ title: Налаштування під час виконання
 
 `session.name` string
 
-`session.name` визначає назву сесії, яка використовується як назва cookies. Може містити лише цифри та літери. За замовчуванням одно `PHPSESSID`. Дивіться також [sessionname()](function.session-name.html)
+`session.name` визначає назву сесії, яка використовується як назва cookies. Може містити лише цифри та літери. За замовчуванням одно `PHPSESSID`. Дивіться також [sessionname()](function.session-name.md)
 
 `session.auto_start` bool
 
@@ -121,11 +121,11 @@ title: Налаштування під час виконання
 
 `session.use_strict_mode` визначає, чи буде модуль використовувати режим суворого ідентифікатора (ID). Якщо від браузера отримано невизначений ID, браузеру буде надіслано новий ID. Таким чином, програми захищаються від фіксації сесії за допомогою суворого режиму. За замовчуванням `0` (Вимкнено).
 
-> **Зауваження**: Включення `session.use_strict_mode` є обов'язковим для спільної безпеки сесії. Всім сайтам рекомендується її вмикати. Дивіться приклади [sessioncreateid()](function.session-create-id.html)
+> **Зауваження**: Включення `session.use_strict_mode` є обов'язковим для спільної безпеки сесії. Всім сайтам рекомендується її вмикати. Дивіться приклади [sessioncreateid()](function.session-create-id.md)
 
 **Увага**
 
-Якщо користувальницький обробник сесії, зареєстрований за допомогою [sessionsetsavehandler()](function.session-set-save-handler.html), не реалізує [SessionUpdateTimestampHandlerInterface::validateId()](sessionupdatetimestamphandlerinterface.validateid.md) та не надає callback-функцію `validate_sid`відповідно, режим суворого ідентифікатора сесії буде відключений, незалежно від значення цієї директиви. Особливо зверніть увагу, що [SessionHandler](class.sessionhandler.md) *не* реалізує **SessionHandler::validateId()**
+Якщо користувальницький обробник сесії, зареєстрований за допомогою [sessionsetsavehandler()](function.session-set-save-handler.md), не реалізує [SessionUpdateTimestampHandlerInterface::validateId()](sessionupdatetimestamphandlerinterface.validateid.md) та не надає callback-функцію `validate_sid`відповідно, режим суворого ідентифікатора сесії буде відключений, незалежно від значення цієї директиви. Особливо зверніть увагу, що [SessionHandler](class.sessionhandler.md) *не* реалізує **SessionHandler::validateId()**
 
 `session.use_cookies` bool
 
@@ -137,21 +137,21 @@ title: Налаштування під час виконання
 
 `session.cookie_lifetime` int
 
-`session.cookie_lifetime` вказує час життя cookies, що надсилається до браузера клієнта, в секундах. Значення 0 означає, що cookies будуть валідними до закриття браузера. За замовчуванням одно `0`. Дивіться також [sessiongetcookieparams()](function.session-get-cookie-params.html) і [sessionsetcookieparams()](function.session-set-cookie-params.html)
+`session.cookie_lifetime` вказує час життя cookies, що надсилається до браузера клієнта, в секундах. Значення 0 означає, що cookies будуть валідними до закриття браузера. За замовчуванням одно `0`. Дивіться також [sessiongetcookieparams()](function.session-get-cookie-params.html) і [sessionsetcookieparams()](function.session-set-cookie-params.md)
 
 > **Зауваження**: Позначка закінчення часу встановлюється по відношенню до серверного часу, який не обов'язково збігається з часом у браузері клієнта.
 
 `session.cookie_path` string
 
-`session.cookie_path` визначає встановлюваний шлях у сесійній cookie. За замовчуванням `/`. Дивіться також [sessiongetcookieparams()](function.session-get-cookie-params.html) і [sessionsetcookieparams()](function.session-set-cookie-params.html)
+`session.cookie_path` визначає встановлюваний шлях у сесійній cookie. За замовчуванням `/`. Дивіться також [sessiongetcookieparams()](function.session-get-cookie-params.html) і [sessionsetcookieparams()](function.session-set-cookie-params.md)
 
 `session.cookie_domain` string
 
-`session.cookie_domain` визначає встановлюваний домен у сесійній cookie. Відповідно до специфікації немає сенсу додатково вказувати ім'я хоста, що згенерував cookies. Дивіться також [sessiongetcookieparams()](function.session-get-cookie-params.html) і [sessionsetcookieparams()](function.session-set-cookie-params.html)
+`session.cookie_domain` визначає встановлюваний домен у сесійній cookie. Відповідно до специфікації немає сенсу додатково вказувати ім'я хоста, що згенерував cookies. Дивіться також [sessiongetcookieparams()](function.session-get-cookie-params.html) і [sessionsetcookieparams()](function.session-set-cookie-params.md)
 
 `session.cookie_secure` bool
 
-`session.cookie_secure` вказує, чи повинні cookie передаватися тільки через захищене з'єднання. За замовчуванням `off`. Дивіться також [sessiongetcookieparams()](function.session-get-cookie-params.html) і [sessionsetcookieparams()](function.session-set-cookie-params.html)
+`session.cookie_secure` вказує, чи повинні cookie передаватися тільки через захищене з'єднання. За замовчуванням `off`. Дивіться також [sessiongetcookieparams()](function.session-get-cookie-params.html) і [sessionsetcookieparams()](function.session-set-cookie-params.md)
 
 `session.cookie_httponly` bool
 
@@ -163,11 +163,11 @@ title: Налаштування під час виконання
 
 `session.cache_limiter` string
 
-`session.cache_limiter` визначає режим кешування, який використовується для сторінок сесій. Може приймати одне з таких значень: `nocache` `private` `private_no_expire` або `public`. За замовчуванням `nocache`. Докладніше про дані значення дивіться в [sessioncachelimiter()](function.session-cache-limiter.html)
+`session.cache_limiter` визначає режим кешування, який використовується для сторінок сесій. Може приймати одне з таких значень: `nocache` `private` `private_no_expire` або `public`. За замовчуванням `nocache`. Докладніше про дані значення дивіться в [sessioncachelimiter()](function.session-cache-limiter.md)
 
 `session.cache_expire` int
 
-`session.cache_expire` вказує час життя кешованих сторінок сесій за хвилини, це ніяк не впливає на обмежувач nocache. За замовчуванням `180`. Дивіться також [sessioncacheexpire()](function.session-cache-expire.html)
+`session.cache_expire` вказує час життя кешованих сторінок сесій за хвилини, це ніяк не впливає на обмежувач nocache. За замовчуванням `180`. Дивіться також [sessioncacheexpire()](function.session-cache-expire.md)
 
 `session.use_trans_sid` bool
 
@@ -205,7 +205,7 @@ title: Налаштування під час виконання
 
 `session.hash_function` дозволяє вказати алгоритм хешування, що використовується для створення ідентифікатора сесії. '0' означає MD5 (128 bits), а '1' означає SHA-1 (160 bits).
 
-Можливо вказати будь-який з алгоритмів, передбачених [модулем hash](ref.hash.md) (якщо він доступний), наприклад, `sha512` або `whirlpool`. Повний список алгоритмів можна отримати за допомогою функції [hashalgos()](function.hash-algos.html)
+Можливо вказати будь-який з алгоритмів, передбачених [модулем hash](ref.hash.md) (якщо він доступний), наприклад, `sha512` або `whirlpool`. Повний список алгоритмів можна отримати за допомогою функції [hashalgos()](function.hash-algos.md)
 
 > **Зауваження**: Видалено в PHP 7.1.0.
 
@@ -245,4 +245,4 @@ title: Налаштування під час виконання
 
 Якщо `session.lazy_write` встановлено в 1, то дані сесії перезаписуватимуться тільки при їх зміні. За замовчуванням 1 увімкнено.
 
-Прогрес завантаження файлів не оброблятиметься, якщо не ввімкнено опцію session.uploadprogress.enabled і не встановлена ​​змінна $POSTiniget("session.uploadпрогрес.наме"). Докладніше про це дивіться у розділі "[Отслеживание прогресса загрузки файлов с помощью сессий](session.upload-progress.html)".
+Прогрес завантаження файлів не оброблятиметься, якщо не ввімкнено опцію session.uploadprogress.enabled і не встановлена ​​змінна $POSTiniget("session.uploadпрогрес.наме"). Докладніше про це дивіться у розділі "[Отслеживание прогресса загрузки файлов с помощью сессий](session.upload-progress.md)".

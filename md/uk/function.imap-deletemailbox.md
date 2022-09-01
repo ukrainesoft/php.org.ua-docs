@@ -24,11 +24,11 @@ imap_deletemailbox(IMAP\Connection $imap, string $mailbox): bool
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `mailbox`
 
-Ім'я ящика. Детальніше читайте в описі [imapopen()](function.imap-open.html)
+Ім'я ящика. Детальніше читайте в описі [imapopen()](function.imap-open.md)
 
 **Увага**
 
@@ -42,10 +42,10 @@ imap_deletemailbox(IMAP\Connection $imap, string $mailbox): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [imapcreatemailbox()](function.imap-createmailbox.html) - Створити нову поштову скриньку
--   [imaprenamemailbox()](function.imap-renamemailbox.html) - Перейменувати поштову скриньку
--   [imapopen()](function.imap-open.html) - Відкриває потік IMAP до поштової скриньки формату `mbox`
+-   [imapcreatemailbox()](function.imap-createmailbox.md) - Створити нову поштову скриньку
+-   [imaprenamemailbox()](function.imap-renamemailbox.md) - Перейменувати поштову скриньку
+-   [imapopen()](function.imap-open.md) - Відкриває потік IMAP до поштової скриньки формату `mbox`

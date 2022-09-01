@@ -12,4 +12,4 @@ title: Вступ
 
 Модуль, використовуючи бібліотеку libmemcached, надає API для зв'язку з серверами memcached. Він також надає обробник для зберігання [сессий](ref.session.md) в (`memcached`
 
-Інформацію про libmemcached можна знайти тут: [» http://libmemcached.org/libMemcached.html](http://libmemcached.org/libMemcached.html)
+Інформацію про libmemcached можна знайти тут: [» http://libmemcached.org/libMemcached.html](http://libmemcached.org/libMemcached.md)

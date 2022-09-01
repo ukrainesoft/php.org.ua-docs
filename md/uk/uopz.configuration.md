@@ -28,10 +28,10 @@ title: Налаштування під час виконання
 
 `uopz.exit` bool
 
-Чи дозволяти модулю виконувати опкод exit (вихід). Ця установка може бути перевизначена під час виконання за допомогою функції [uopzallowexit()](function.uopz-allow-exit.html)
+Чи дозволяти модулю виконувати опкод exit (вихід). Ця установка може бути перевизначена під час виконання за допомогою функції [uopzallowexit()](function.uopz-allow-exit.md)
 
 `uopz.overloads` bool
 
-Дає можливість використовувати [uopzoverload()](function.uopz-overload.html)
+Дає можливість використовувати [uopzoverload()](function.uopz-overload.md)
 
 > **Зауваження**: Під час роботи з увімкненим OPcache може знадобитися вимкнути все [оптимизации OPcache](opcache.configuration.html#ini.opcache.optimization-level) `opcache.optimization_level=0`

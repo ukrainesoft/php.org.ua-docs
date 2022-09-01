@@ -36,4 +36,4 @@ fann_set_cascade_max_out_epochs(resource $ann, int $cascade_max_out_epochs): boo
 
 ### Дивіться також
 
--   [fanngetcascademaxoutepochs()](function.fann-get-cascade-max-out-epochs.html) - Повертає максимальну кількість періодів
+-   [fanngetcascademaxoutepochs()](function.fann-get-cascade-max-out-epochs.md) - Повертає максимальну кількість періодів

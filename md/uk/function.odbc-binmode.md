@@ -35,7 +35,7 @@ odbc_binmode(resource $statement, int $mode): bool
 | **`ODBC_BINMODE_RETURN`** | \> | повернути як є |
 | **`ODBC_BINMODE_CONVERT`** | \> | повернути у вигляді char |
 
-Якщо використовується [odbcfetchinto()](function.odbc-fetch-into.html), passthru означає, що для цих стовпців повертається порожній рядок. Якщо використовується [odbcresult()](function.odbc-result.html), passthru означає, що дані надсилаються клієнту безпосередньо (тобто друкуються).
+Якщо використовується [odbcfetchinto()](function.odbc-fetch-into.html), passthru означає, що для цих стовпців повертається порожній рядок. Якщо використовується [odbcresult()](function.odbc-result.md), passthru означає, що дані надсилаються клієнту безпосередньо (тобто друкуються).
 
 ### Список параметрів
 
@@ -53,7 +53,7 @@ odbc_binmode(resource $statement, int $mode): bool
 -   **`ODBC_BINMODE_RETURN`**: Повернути як є
 -   **`ODBC_BINMODE_CONVERT`**: Перетворити на char і повернути
 
-> **Зауваження**: На обробку двійкових стовпців LONG також впливає функція [odbclongreadlen()](function.odbc-longreadlen.html)
+> **Зауваження**: На обробку двійкових стовпців LONG також впливає функція [odbclongreadlen()](function.odbc-longreadlen.md)
 
 ### Значення, що повертаються
 

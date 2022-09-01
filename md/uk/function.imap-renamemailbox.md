@@ -18,17 +18,17 @@ imaprenamemailbox — Перейменувати поштову скриньку
 imap_renamemailbox(IMAP\Connection $imap, string $from, string $to): bool
 ```
 
-Ця функція перейменовує oldmbox у newmbox (формат імені `mbox` дивіться в описі [imapopen()](function.imap-open.html)
+Ця функція перейменовує oldmbox у newmbox (формат імені `mbox` дивіться в описі [imapopen()](function.imap-open.md)
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `from`
 
-Старе ім'я. Детальніше читайте в описі [imapopen()](function.imap-open.html)
+Старе ім'я. Детальніше читайте в описі [imapopen()](function.imap-open.md)
 
 **Увага**
 
@@ -36,7 +36,7 @@ imap_renamemailbox(IMAP\Connection $imap, string $from, string $to): bool
 
 `to`
 
-Нове ім'я Детальніше читайте в описі [imapopen()](function.imap-open.html)
+Нове ім'я Детальніше читайте в описі [imapopen()](function.imap-open.md)
 
 **Увага**
 
@@ -50,9 +50,9 @@ imap_renamemailbox(IMAP\Connection $imap, string $from, string $to): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [imapcreatemailbox()](function.imap-createmailbox.html) - Створити нову поштову скриньку
--   [imapdeletemailbox()](function.imap-deletemailbox.html) - Видалити поштову скриньку
+-   [imapcreatemailbox()](function.imap-createmailbox.md) - Створити нову поштову скриньку
+-   [imapdeletemailbox()](function.imap-deletemailbox.md) - Видалити поштову скриньку

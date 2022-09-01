@@ -24,7 +24,7 @@ fdf_save_string(resource $fdf_document): string
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.md)
 
 ### Значення, що повертаються
 
@@ -69,7 +69,7 @@ trailer
 
 ### Дивіться також
 
--   [fdfopenstring()](function.fdf-open-string.html) - Читає FDF документ з рядка
--   [fdfclose()](function.fdf-close.html) - Закриває FDF-документ
--   [fdfcreate()](function.fdf-create.html) - Створює новий документ FDF
--   [fdfsave()](function.fdf-save.html) - Зберігає документ FDF
+-   [fdfopenstring()](function.fdf-open-string.md) - Читає FDF документ з рядка
+-   [fdfclose()](function.fdf-close.md) - Закриває FDF-документ
+-   [fdfcreate()](function.fdf-create.md) - Створює новий документ FDF
+-   [fdfsave()](function.fdf-save.md) - Зберігає документ FDF

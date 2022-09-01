@@ -18,13 +18,13 @@ title: псfillstroke
 ps_fill_stroke(resource $psdoc): bool
 ```
 
-Заповнює та обводить шлях, побудований за допомогою раніше викликаних функцій малювання, таких як [псlineto()](function.ps-lineto.html)
+Заповнює та обводить шлях, побудований за допомогою раніше викликаних функцій малювання, таких як [псlineto()](function.ps-lineto.md)
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 ### Значення, що повертаються
 
@@ -32,5 +32,5 @@ ps_fill_stroke(resource $psdoc): bool
 
 ### Дивіться також
 
--   [псfill()](function.ps-fill.html) - Заповнює поточний шлях
--   [псstroke()](function.ps-stroke.html) - Малює поточний шлях
+-   [псfill()](function.ps-fill.md) - Заповнює поточний шлях
+-   [псstroke()](function.ps-stroke.md) - Малює поточний шлях

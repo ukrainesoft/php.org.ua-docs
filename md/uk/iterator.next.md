@@ -22,7 +22,7 @@ public Iterator::next(): void
 
 > **Зауваження**
 > 
-> Метод викликається *після* кожної ітерації [foreach](control-structures.foreach.html)
+> Метод викликається *після* кожної ітерації [foreach](control-structures.foreach.md)
 
 ### Список параметрів
 

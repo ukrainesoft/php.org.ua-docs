@@ -36,4 +36,4 @@ zlib_decode(string $data, int $max_length = 0): string|false
 
 ### Дивіться також
 
--   [zlibencode()](function.zlib-encode.html) - Стиснення даних із зазначеним кодуванням
+-   [zlibencode()](function.zlib-encode.md) - Стиснення даних із зазначеним кодуванням

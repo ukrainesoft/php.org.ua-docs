@@ -18,7 +18,7 @@ socketaddrinfolookup — Отримати масив із вмістом getaddr
 socket_addrinfo_lookup(string $host, ?string $service = null, array $hints = []): array|false
 ```
 
-Пошук різних способів підключення до хоста (`host`). Масив, що повертається, містить набір екземплярів. [AddressInfo](class.addressinfo.html), які можна прив'язати за допомогою [socketaddrinfobind()](function.socket-addrinfo-bind.html)
+Пошук різних способів підключення до хоста (`host`). Масив, що повертається, містить набір екземплярів. [AddressInfo](class.addressinfo.html), які можна прив'язати за допомогою [socketaddrinfobind()](function.socket-addrinfo-bind.md)
 
 ### Список параметрів
 
@@ -36,17 +36,17 @@ socket_addrinfo_lookup(string $host, ?string $service = null, array $hints = [])
 
 ### Значення, що повертаються
 
-Повертає масив екземплярів [AddressInfo](class.addressinfo.html), які можна використовувати з іншими функціями socketaddrinfo. У разі виникнення помилки повертає **`false`**
+Повертає масив екземплярів [AddressInfo](class.addressinfo.md), які можна використовувати з іншими функціями socketaddrinfo. У разі виникнення помилки повертає **`false`**
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | У разі успішного виконання функція повертає масив екземплярів [AddressInfo](class.addressinfo.html); раніше повертався ресурс (resource). |
+|  | У разі успішного виконання функція повертає масив екземплярів [AddressInfo](class.addressinfo.md); раніше повертався ресурс (resource). |
 |  | `service` тепер допускає значення null. |
 
 ### Дивіться також
 
--   [socketaddrinfobind()](function.socket-addrinfo-bind.html) - Створити та прив'язати до сокету із зазначеного addrinfo
--   [socketaddrinfoconnect()](function.socket-addrinfo-connect.html) - Створити та підключитися до сокету із вказаного addrinfo
--   [socketaddrinfoexplain()](function.socket-addrinfo-explain.html) - Отримати інформацію про addrinfo
+-   [socketaddrinfobind()](function.socket-addrinfo-bind.md) - Створити та прив'язати до сокету із зазначеного addrinfo
+-   [socketaddrinfoconnect()](function.socket-addrinfo-connect.md) - Створити та підключитися до сокету із вказаного addrinfo
+-   [socketaddrinfoexplain()](function.socket-addrinfo-explain.md) - Отримати інформацію про addrinfo

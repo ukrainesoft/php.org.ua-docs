@@ -60,4 +60,4 @@ int(1)
 
 ### Дивіться також
 
--   [SplObjectStorage::addAll()](splobjectstorage.addall.html) - Додає всі об'єкти з іншого контейнера
+-   [SplObjectStorage::addAll()](splobjectstorage.addall.md) - Додає всі об'єкти з іншого контейнера

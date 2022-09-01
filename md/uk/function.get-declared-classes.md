@@ -61,6 +61,6 @@ Array
 
 ### Дивіться також
 
--   [classexists()](function.class-exists.html) - Перевіряє, чи був оголошений клас
--   [getdeclaredinterfaces()](function.get-declared-interfaces.html) - Повертає масив усіх оголошених інтерфейсів
--   [getdefinedfunctions()](function.get-defined-functions.html) - Повертає масив усіх певних функцій
+-   [classexists()](function.class-exists.md) - Перевіряє, чи був оголошений клас
+-   [getdeclaredinterfaces()](function.get-declared-interfaces.md) - Повертає масив усіх оголошених інтерфейсів
+-   [getdefinedfunctions()](function.get-defined-functions.md) - Повертає масив усіх певних функцій

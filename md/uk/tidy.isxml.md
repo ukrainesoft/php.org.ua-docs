@@ -34,7 +34,7 @@ tidy_is_xml(tidy $tidy): bool
 
 `tidy`
 
-Об'єкт [Tidy](class.tidy.html)
+Об'єкт [Tidy](class.tidy.md)
 
 ### Значення, що повертаються
 

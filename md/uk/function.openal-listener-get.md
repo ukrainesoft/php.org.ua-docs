@@ -30,4 +30,4 @@ openal_listener_get(int $property): mixed
 
 ### Дивіться також
 
--   [openallistenerset()](function.openal-listener-set.html) - Встановлення якості прослуховувача
+-   [openallistenerset()](function.openal-listener-set.md) - Встановлення якості прослуховувача

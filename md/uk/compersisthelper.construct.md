@@ -14,7 +14,7 @@ COMPersistHelper::construct — Конструктор класу COMPersistHelp
 
 ### Опис
 
-public **COMPersistHelper::construct**[variant](class.variant.html) `$variant` **`null`**
+public **COMPersistHelper::construct**[variant](class.variant.md) `$variant` **`null`**
 
 Створює об'єкт класу COMPersistHelper, зазвичай пов'язаний з `variant`
 
@@ -22,4 +22,4 @@ public **COMPersistHelper::construct**[variant](class.variant.html) `$variant` *
 
 `variant`
 
-Об'єкт COM, що реалізує інтерфейс **IDispatch**. Для успішного виклику методів [COMPersistHelper](class.compersisthelper.html), об'єкт повинен реалізовувати інтерфейси **IPersistFile** **IPersistStream** та/або **IPersistStreamInit**. Передача **`null`** в якості `variant` виправдана лише в тому випадку, якщо об'єкт буде завантажений із потоку за допомогою [COMPersistHelper::LoadFromStream()](compersisthelper.loadfromstream.html)
+Об'єкт COM, що реалізує інтерфейс **IDispatch**. Для успішного виклику методів [COMPersistHelper](class.compersisthelper.html), об'єкт повинен реалізовувати інтерфейси **IPersistFile** **IPersistStream** та/або **IPersistStreamInit**. Передача **`null`** в якості `variant` виправдана лише в тому випадку, якщо об'єкт буде завантажений із потоку за допомогою [COMPersistHelper::LoadFromStream()](compersisthelper.loadfromstream.md)

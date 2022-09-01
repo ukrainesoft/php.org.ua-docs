@@ -44,6 +44,6 @@ $in6_addr = inet_pton('::1');
 
 ### Дивіться також
 
--   [ip2long()](function.ip2long.html) - Конвертує рядок, що містить IPv4-адресу в ціле число
--   [long2ip()](function.long2ip.html) - Конвертує ціле число в IPv4-адресу
--   [inetntop()](function.inet-ntop.html) - Конвертує упаковану інтернет-адресу в формат, що читається
+-   [ip2long()](function.ip2long.md) - Конвертує рядок, що містить IPv4-адресу в ціле число
+-   [long2ip()](function.long2ip.md) - Конвертує ціле число в IPv4-адресу
+-   [inetntop()](function.inet-ntop.md) - Конвертує упаковану інтернет-адресу в формат, що читається

@@ -18,7 +18,7 @@ MongoDBDriverServer::getServerDescription — Повертає ServerDescription
 final public MongoDB\Driver\Server::getServerDescription(): MongoDB\Driver\ServerDescription
 ```
 
-Повертає [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html) сервера. Це незмінний об'єкт значення, який описуватиме сервер під час виклику методу.
+Повертає [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.md) сервера. Це незмінний об'єкт значення, який описуватиме сервер під час виклику методу.
 
 ### Список параметрів
 
@@ -26,8 +26,8 @@ final public MongoDB\Driver\Server::getServerDescription(): MongoDB\Driver\Serve
 
 ### Значення, що повертаються
 
-Повертає [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html) сервера.
+Повертає [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.md) сервера.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

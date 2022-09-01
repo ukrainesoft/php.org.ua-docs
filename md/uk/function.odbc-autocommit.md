@@ -26,7 +26,7 @@ odbc_autocommit(resource $odbc, bool $enable = false): int|bool
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.md)
 
 `enable`
 
@@ -40,5 +40,5 @@ odbc_autocommit(resource $odbc, bool $enable = false): int|bool
 
 ### Дивіться також
 
--   [odbccommit()](function.odbc-commit.html) - Фіксує транзакцію ODBC
--   [odbcrollback()](function.odbc-rollback.html) - Відкочує транзакцію
+-   [odbccommit()](function.odbc-commit.md) - Фіксує транзакцію ODBC
+-   [odbcrollback()](function.odbc-rollback.md) - Відкочує транзакцію

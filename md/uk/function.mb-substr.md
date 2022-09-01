@@ -52,5 +52,5 @@ mb_substr(    string $string,    int $start,    ?int $length = null,
 
 ### Дивіться також
 
--   [мбstrcut()](function.mb-strcut.html) - Отримання частини рядка
--   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбstrcut()](function.mb-strcut.md) - Отримання частини рядка
+-   [мбinternalencoding()](function.mb-internal-encoding.md) - Встановлення/отримання внутрішнього кодування скрипту

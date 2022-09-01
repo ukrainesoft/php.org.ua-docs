@@ -10,13 +10,13 @@ title: fbirdmodifyuser
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdmodifyuser - Псевдонім [ibasemodifyuser()](function.ibase-modify-user.html)
+fbirdmodifyuser - Псевдонім [ibasemodifyuser()](function.ibase-modify-user.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibasemodifyuser()](function.ibase-modify-user.html)
+Ця функція є псевдонімом: [ibasemodifyuser()](function.ibase-modify-user.md)
 
 ### Дивіться також
 
--   [fbirdadduser()](function.fbird-add-user.html) - Псевдонім ibaseadduser
--   [fbirddeleteuser()](function.fbird-delete-user.html) - Псевдонім ibasedeleteuser
+-   [fbirdadduser()](function.fbird-add-user.md) - Псевдонім ibaseadduser
+-   [fbirddeleteuser()](function.fbird-delete-user.md) - Псевдонім ibasedeleteuser

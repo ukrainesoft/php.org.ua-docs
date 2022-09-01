@@ -72,6 +72,6 @@ header("Content-type: " . image_type_to_mime_type(IMAGETYPE_PNG));
 ### Дивіться також
 
 -   [getimagesize()](function.getimagesize.md) - Отримання розміру зображення
--   [exifimagetype()](function.exif-imagetype.html) - Визначте тип зображення.
--   [exifreaddata()](function.exif-read-data.html) - Читає заголовки EXIF ​​із файлів зображень
--   [exifthumbnail()](function.exif-thumbnail.html) - Отримує вбудоване прев'ю зображення
+-   [exifimagetype()](function.exif-imagetype.md) - Визначте тип зображення.
+-   [exifreaddata()](function.exif-read-data.md) - Читає заголовки EXIF ​​із файлів зображень
+-   [exifthumbnail()](function.exif-thumbnail.md) - Отримує вбудоване прев'ю зображення

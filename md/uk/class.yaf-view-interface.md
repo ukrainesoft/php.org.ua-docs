@@ -12,7 +12,7 @@ title: Клас YafViewInterface
 
 ## Вступ
 
-Yaf надає розробникам можливість використовувати їх власний движок відображення, що відрізняється від вбудованого [YafViewSimple](class.yaf-view-simple.html). Приклад реалізації дивіться у описі [YafDispatcher::setView()](yaf-dispatcher.setview.html)
+Yaf надає розробникам можливість використовувати їх власний движок відображення, що відрізняється від вбудованого [YafViewSimple](class.yaf-view-simple.html). Приклад реалізації дивіться у описі [YafDispatcher::setView()](yaf-dispatcher.setview.md)
 
 ## Огляд класів
 
@@ -40,8 +40,8 @@ abstract public setScriptPath(string $template_dir): void
 
 ## Зміст
 
--   [YafViewInterface::assign](yaf-view-interface.assign.html) — Призначає значення для движка відображення
--   [YafViewInterface::display](yaf-view-interface.display.html) — Малює та виводить шаблон
--   [YafViewInterface::getScriptPath](yaf-view-interface.getscriptpath.html) - Призначення getScriptPath
--   [YafViewInterface::render](yaf-view-interface.render.html) — Малює шаблон
--   [YafViewInterface::setScriptPath](yaf-view-interface.setscriptpath.html) - Призначення setScriptPath
+-   [YafViewInterface::assign](yaf-view-interface.assign.md) — Призначає значення для движка відображення
+-   [YafViewInterface::display](yaf-view-interface.display.md) — Малює та виводить шаблон
+-   [YafViewInterface::getScriptPath](yaf-view-interface.getscriptpath.md) - Призначення getScriptPath
+-   [YafViewInterface::render](yaf-view-interface.render.md) — Малює шаблон
+-   [YafViewInterface::setScriptPath](yaf-view-interface.setscriptpath.md) - Призначення setScriptPath

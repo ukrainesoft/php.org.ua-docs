@@ -77,5 +77,5 @@ Array
 
 ### Дивіться також
 
--   [OAuth::getLastResponse()](oauth.getlastresponse.html) - Отримати останню відповідь
--   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.html) - Отримати HTTP-інформацію про останню відповідь
+-   [OAuth::getLastResponse()](oauth.getlastresponse.md) - Отримати останню відповідь
+-   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.md) - Отримати HTTP-інформацію про останню відповідь

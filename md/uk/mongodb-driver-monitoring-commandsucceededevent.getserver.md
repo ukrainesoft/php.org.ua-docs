@@ -18,7 +18,7 @@ MongoDBDriverMonitoringCommandSucceededEvent::getServer — Повертає с�
 final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getServer(): MongoDB\Driver\Server
 ```
 
-Повертає [MongoDBDriverServer](class.mongodb-driver-server.html), на якому було виконано команду.
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.md), на якому було виконано команду.
 
 ### Список параметрів
 
@@ -26,15 +26,15 @@ final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getServer(): Mongo
 
 ### Значення, що повертаються
 
-Повертає [MongoDBDriverServer](class.mongodb-driver-server.html), на якому було виконано команду.
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.md), на якому було виконано команду.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverMonitoringCommandStartedEvent::getServer()](mongodb-driver-monitoring-commandstartedevent.getserver.html) - Повертає сервер, на якому було виконано команду
--   [MongoDBDriverCursor::getServer()](mongodb-driver-cursor.getserver.html) - Повертає сервер, пов'язаний із курсором
--   [MongoDBDriverWriteResult::getServer()](mongodb-driver-writeresult.getserver.html) - Повертає сервер, пов'язаний із цим результатом запису
+-   [MongoDBDriverMonitoringCommandStartedEvent::getServer()](mongodb-driver-monitoring-commandstartedevent.getserver.md) - Повертає сервер, на якому було виконано команду
+-   [MongoDBDriverCursor::getServer()](mongodb-driver-cursor.getserver.md) - Повертає сервер, пов'язаний із курсором
+-   [MongoDBDriverWriteResult::getServer()](mongodb-driver-writeresult.getserver.md) - Повертає сервер, пов'язаний із цим результатом запису
 -   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)

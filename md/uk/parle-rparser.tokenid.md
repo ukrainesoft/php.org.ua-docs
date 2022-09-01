@@ -24,7 +24,7 @@ public Parle\RParser::tokenId(string $tok): int
 
 `tok`
 
-Ім'я токена, що використовується в [ParleRParser::token()](parle-rparser.token.html)
+Ім'я токена, що використовується в [ParleRParser::token()](parle-rparser.token.md)
 
 ### Значення, що повертаються
 

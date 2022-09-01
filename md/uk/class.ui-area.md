@@ -110,9 +110,9 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙArea::onDraw](ui-area.ondraw.html) — Функція зворотного виклику під час малювання
--   [ОЙArea::onKey](ui-area.onkey.html) — Функція зворотного дзвінка під час натискання
--   [ОЙArea::onMouse](ui-area.onmouse.html) — Функція зворотного дзвінка миші
--   [ОЙArea::redraw](ui-area.redraw.html) - Перемалювати область
--   [ОЙArea::scrollTo](ui-area.scrollto.html) - Прокрутити область
--   [ОЙArea::setSize](ui-area.setsize.html) - Встановити розмір
+-   [ОЙArea::onDraw](ui-area.ondraw.md) — Функція зворотного виклику під час малювання
+-   [ОЙArea::onKey](ui-area.onkey.md) — Функція зворотного дзвінка під час натискання
+-   [ОЙArea::onMouse](ui-area.onmouse.md) — Функція зворотного дзвінка миші
+-   [ОЙArea::redraw](ui-area.redraw.md) - Перемалювати область
+-   [ОЙArea::scrollTo](ui-area.scrollto.md) - Прокрутити область
+-   [ОЙArea::setSize](ui-area.setsize.md) - Встановити розмір

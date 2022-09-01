@@ -18,7 +18,7 @@ sodiumcryptoboxsealopen — Розшифровка відкритим ключе
 sodium_crypto_box_seal_open(string $ciphertext, string $key_pair): string|false
 ```
 
-Розшифровує повідомлення, зашифроване за допомогою [sodiumcryptoboxseal()](function.sodium-crypto-box-seal.html)
+Розшифровує повідомлення, зашифроване за допомогою [sodiumcryptoboxseal()](function.sodium-crypto-box-seal.md)
 
 ### Список параметрів
 

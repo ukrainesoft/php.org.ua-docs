@@ -24,7 +24,7 @@ sodium_crypto_kx_client_session_keys(string $client_key_pair, string $server_key
 
 `client_key_pair`
 
-Пара ключів cryptokx, наприклад, згенерована [sodiumcryptoкксkeypair()](function.sodium-crypto-kx-keypair.html)
+Пара ключів cryptokx, наприклад, згенерована [sodiumcryptoкксkeypair()](function.sodium-crypto-kx-keypair.md)
 
 `server_key`
 

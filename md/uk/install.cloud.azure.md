@@ -14,7 +14,7 @@ Azure App Services керує пулом Windows Web Servers для хостин
 
 PHP за промовчанням доступний для вашого веб-сайту в Azure App Services. Просто оберіть на Azure Portal ваш сайт і виберіть потрібну версію PHP. Ви можете вибрати свіжішу версію, ніж за замовчуванням.
 
-Таким чином, PHP та його модулі будуть працювати в Azure App Services так само, як і на будь-якому іншому сервері Windows. Більшість бази знань також портована, дивіться [Windows Troubleshooting Page](install.windows.troubleshooting.html) Тим не менш, інтерфейс керування для Azure App Services має відмінності:
+Таким чином, PHP та його модулі будуть працювати в Azure App Services так само, як і на будь-якому іншому сервері Windows. Більшість бази знань також портована, дивіться [Windows Troubleshooting Page](install.windows.troubleshooting.md) Тим не менш, інтерфейс керування для Azure App Services має відмінності:
 
 -   Azure portal: створення, налаштування та видалення сайтів . [» Azure Portal](https://portal.azure.com/)
     

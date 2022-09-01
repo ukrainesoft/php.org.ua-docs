@@ -40,4 +40,4 @@ fann_get_sarprop_step_error_threshold_factor(resource $ann): float
 
 ### Дивіться також
 
--   [fannsetsarpropsteperrorthresholdfactor()](function.fann-set-sarprop-step-error-threshold-factor.html) - Встановлює пороговий коефіцієнт помилки кроку sarprop
+-   [fannsetsarpropsteperrorthresholdfactor()](function.fann-set-sarprop-step-error-threshold-factor.md) - Встановлює пороговий коефіцієнт помилки кроку sarprop

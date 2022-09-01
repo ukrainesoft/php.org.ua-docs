@@ -24,7 +24,7 @@ sqlsrv_get_config(string $setting): mixed
 
 `setting`
 
-Назва параметра, для якого повертається значення. Список настроюваних параметрів дивіться в розділі [sqlsrvconfigure()](function.sqlsrv-configure.html)
+Назва параметра, для якого повертається значення. Список настроюваних параметрів дивіться в розділі [sqlsrvconfigure()](function.sqlsrv-configure.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ sqlsrv_get_config(string $setting): mixed
 
 ### Дивіться також
 
--   [sqlsrvconfigure()](function.sqlsrv-configure.html) - Змінює конфігурацію обробки помилок драйвера та ведення журналу
+-   [sqlsrvconfigure()](function.sqlsrv-configure.md) - Змінює конфігурацію обробки помилок драйвера та ведення журналу

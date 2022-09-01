@@ -10,7 +10,7 @@ title: Застарілі найменування та функції OCI8
 
 ## Зміст
 
--   [ociinternaldebug](function.oci-internal-debug.html) — Вмикає або вимикає внутрішній висновок налагодження
+-   [ociinternaldebug](function.oci-internal-debug.md) — Вмикає або вимикає внутрішній висновок налагодження
 -   [ocibindbyname](function.ocibindbyname.md) — Псевдонім ocibindбname
 -   [ocicancel](function.ocicancel.md) — Псевдонім ocicancel
 -   [ocicloselob](function.ocicloselob.md) - Псевдонім OCILob::close

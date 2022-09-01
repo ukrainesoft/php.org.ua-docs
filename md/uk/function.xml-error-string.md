@@ -24,7 +24,7 @@ xml_error_string(int $error_code): ?string
 
 `error_code`
 
-Код помилки, що повертається функцією [xmlgeterrorcode()](function.xml-get-error-code.html)
+Код помилки, що повертається функцією [xmlgeterrorcode()](function.xml-get-error-code.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ xml_error_string(int $error_code): ?string
 
 ### Дивіться також
 
--   [xmlgeterrorcode()](function.xml-get-error-code.html) - Отримує код помилки XML-аналізатора
+-   [xmlgeterrorcode()](function.xml-get-error-code.md) - Отримує код помилки XML-аналізатора

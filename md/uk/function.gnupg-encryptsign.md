@@ -18,13 +18,13 @@ gnupgencryptsign — Шифрує та підписує переданий те�
 gnupg_encryptsign(resource $identifier, string $plaintext): string
 ```
 
-Шифрує та підписує переданий у параметрі `plaintext` текст ключами, які були встановлені [gnupgaddsignkey](function.gnupg-addsignkey.html) і [gnupgaddencryptkey](function.gnupg-addencryptkey.html) раніше і повертає зашифрований та підписаний текст.
+Шифрує та підписує переданий у параметрі `plaintext` текст ключами, які були встановлені [gnupgaddsignkey](function.gnupg-addsignkey.html) і [gnupgaddencryptkey](function.gnupg-addencryptkey.md) раніше і повертає зашифрований та підписаний текст.
 
 ### Список параметрів
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
 
 `plaintext`
 

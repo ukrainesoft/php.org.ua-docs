@@ -30,5 +30,5 @@ public GearmanWorker::unregisterAll(): bool
 
 ### Дивіться також
 
--   [GearmanWorker::register()](gearmanworker.register.html) - Реєстрація функції на сервері завдань
--   [GearmanWorker::unregister()](gearmanworker.unregister.html) - Видалити реєстрацію імені функції на всіх серверах завдань
+-   [GearmanWorker::register()](gearmanworker.register.md) - Реєстрація функції на сервері завдань
+-   [GearmanWorker::unregister()](gearmanworker.unregister.md) - Видалити реєстрацію імені функції на всіх серверах завдань

@@ -10,8 +10,8 @@ title: ftpquit
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftpquit - Псевдонім [ftpclose()](function.ftp-close.html)
+ftpquit - Псевдонім [ftpclose()](function.ftp-close.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ftpclose()](function.ftp-close.html)
+Ця функція є псевдонімом: [ftpclose()](function.ftp-close.md)

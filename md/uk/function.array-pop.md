@@ -20,7 +20,7 @@ array_pop(array &$array): mixed
 
 **arraypop()** витягує та повертає значення останнього елемента масиву `array`зменшуючи розмір `array` на один елемент.
 
-> **Зауваження**: Ця функція під час виклику [скидає](function.reset.html) вказівник масиву, переданого параметром.
+> **Зауваження**: Ця функція під час виклику [скидає](function.reset.md) вказівник масиву, переданого параметром.
 
 ### Список параметрів
 
@@ -59,6 +59,6 @@ Array
 
 ### Дивіться також
 
--   [arraypush()](function.array-push.html) - Додає один або кілька елементів у кінець масиву
--   [arrayshift()](function.array-shift.html) - Витягує перший елемент масиву
--   [arrayunshift()](function.array-unshift.html) - Додає один або кілька елементів на початок масиву
+-   [arraypush()](function.array-push.md) - Додає один або кілька елементів у кінець масиву
+-   [arrayshift()](function.array-shift.md) - Витягує перший елемент масиву
+-   [arrayunshift()](function.array-unshift.md) - Додає один або кілька елементів на початок масиву

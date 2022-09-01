@@ -30,5 +30,5 @@ public ReflectionFunctionAbstract::getName(): string
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getExtensionName()](reflectionfunctionabstract.getextensionname.html) - Отримання імені модуля
--   [ReflectionFunctionAbstract::isUserDefined()](reflectionfunctionabstract.isuserdefined.html) - Перевіряє, чи функція є певною користувачем
+-   [ReflectionFunctionAbstract::getExtensionName()](reflectionfunctionabstract.getextensionname.md) - Отримання імені модуля
+-   [ReflectionFunctionAbstract::isUserDefined()](reflectionfunctionabstract.isuserdefined.md) - Перевіряє, чи функція є певною користувачем

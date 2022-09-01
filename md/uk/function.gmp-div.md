@@ -10,8 +10,8 @@ title: gmpdiv
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpdiv - Псевдонім [gmpdivq()](function.gmp-div-q.html)
+gmpdiv - Псевдонім [gmpdivq()](function.gmp-div-q.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [gmpdivq()](function.gmp-div-q.html)
+Ця функція є псевдонімом: [gmpdivq()](function.gmp-div-q.md)

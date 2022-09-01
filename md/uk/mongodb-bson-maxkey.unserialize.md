@@ -22,7 +22,7 @@ final public MongoDB\BSON\MaxKey::unserialize(string $serialized): void
 
 `serialized`
 
-Серіалізований [MongoDBBSONMaxKey](class.mongodb-bson-maxkey.html)
+Серіалізований [MongoDBBSONMaxKey](class.mongodb-bson-maxkey.md)
 
 ### Значення, що повертаються
 
@@ -30,10 +30,10 @@ final public MongoDB\BSON\MaxKey::unserialize(string $serialized): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONMaxKey::serialize()](mongodb-bson-maxkey.serialize.html) - Серіалізує MaxKey
--   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
--   [Серіалізація об'єктів](language.oop5.serialization.html)
+-   [MongoDBBSONMaxKey::serialize()](mongodb-bson-maxkey.serialize.md) - Серіалізує MaxKey
+-   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

@@ -10,4 +10,4 @@ title: Приклади
 
 ## Зміст
 
--   [Базовое использование LuaSandbox](luasandbox.examples-basic.html)
+-   [Базовое использование LuaSandbox](luasandbox.examples-basic.md)

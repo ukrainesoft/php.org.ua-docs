@@ -18,7 +18,7 @@ title: проtidyhandler
 ob_tidyhandler(string $input, int $mode = ?): string
 ```
 
-Функція зворотного дзвінка [проstart()](function.ob-start.html) на відновлення буфера.
+Функція зворотного дзвінка [проstart()](function.ob-start.md) на відновлення буфера.
 
 ### Список параметрів
 
@@ -62,4 +62,4 @@ echo '<p>test</i>';
 
 ### Дивіться також
 
--   [проstart()](function.ob-start.html) - Включення буферизації виводу
+-   [проstart()](function.ob-start.md) - Включення буферизації виводу

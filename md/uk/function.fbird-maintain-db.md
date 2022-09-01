@@ -10,8 +10,8 @@ title: fbirdmaintainдб
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdmaintaindb - Псевдонім [ibasemaintaindb()](function.ibase-maintain-db.html)
+fbirdmaintaindb - Псевдонім [ibasemaintaindb()](function.ibase-maintain-db.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibasemaintaindb()](function.ibase-maintain-db.html)
+Ця функція є псевдонімом: [ibasemaintaindb()](function.ibase-maintain-db.md)

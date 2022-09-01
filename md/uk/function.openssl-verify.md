@@ -28,19 +28,19 @@ openssl_verify(    string $data,    string $signature,    OpenSSLAsy
 
 `signature`
 
-Необроблений бінарний рядок, створений функцією [opensslsign()](function.openssl-sign.html) або її аналогом
+Необроблений бінарний рядок, створений функцією [opensslsign()](function.openssl-sign.md) або її аналогом
 
 `public_key`
 
-Змінна типу [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md), що містить ключ, підготовлений [opensslgetpublickey()](function.openssl-get-publickey.html)
+Змінна типу [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md), що містить ключ, підготовлений [opensslgetpublickey()](function.openssl-get-publickey.md)
 
 Рядок із ключем у форматі PEM. Приблизно такого виду "-----BEGIN PUBLIC KEY----- MIIBCgK..."
 
 `algorithm`
 
-Ціло число, що відповідає одному з [алгоритмов подписи](openssl.signature-algos.html)
+Ціло число, що відповідає одному з [алгоритмов подписи](openssl.signature-algos.md)
 
-Рядок, повернутий [opensslgetмдmethods()](function.openssl-get-md-methods.html)наприклад "sha1WithRSAEncryption" або "sha512".
+Рядок, повернутий [opensslgetмдmethods()](function.openssl-get-md-methods.md)наприклад "sha1WithRSAEncryption" або "sha512".
 
 ### Значення, що повертаються
 
@@ -109,4 +109,4 @@ if ($ok == 1) {
 
 ### Дивіться також
 
--   [opensslsign()](function.openssl-sign.html) - генерація підпису
+-   [opensslsign()](function.openssl-sign.md) - генерація підпису

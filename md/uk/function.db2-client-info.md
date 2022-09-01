@@ -102,4 +102,4 @@ CONN_CODEPAGE: int(819)
 
 ### Дивіться також
 
--   [db2serverinfo()](function.db2-server-info.html) - Повертає об'єкт із властивостями, що описують сервер бази даних DB2
+-   [db2serverinfo()](function.db2-server-info.md) - Повертає об'єкт із властивостями, що описують сервер бази даних DB2

@@ -18,7 +18,7 @@ MongoDBBSONDBPointer::construct — Створює новий DBPointer (не в
 final private MongoDB\BSON\DBPointer::__construct()
 ```
 
-Об'єкти [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.html) створюються шляхом перетворення із застарілого типу BSON і не можуть бути створені безпосередньо.
+Об'єкти [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.md) створюються шляхом перетворення із застарілого типу BSON і не можуть бути створені безпосередньо.
 
 ### Список параметрів
 

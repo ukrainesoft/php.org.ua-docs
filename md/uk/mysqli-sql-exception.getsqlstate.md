@@ -18,7 +18,7 @@ mysqlisqlexception::getSqlState — Повертає код помилки SQLST
 public mysqli_sql_exception::getSqlState(): string
 ```
 
-Повертає рядок, який містить код останньої помилки SQLSTATE. Код помилки складається із п'яти символів. Значення задаються ANSI SQL та ODBC. Список можливих значень можна переглянути на сторінці [» http://dev.mysql.com/doc/mysql/en/error-handling.html](http://dev.mysql.com/doc/mysql/en/error-handling.html)
+Повертає рядок, який містить код останньої помилки SQLSTATE. Код помилки складається із п'яти символів. Значення задаються ANSI SQL та ODBC. Список можливих значень можна переглянути на сторінці [» http://dev.mysql.com/doc/mysql/en/error-handling.html](http://dev.mysql.com/doc/mysql/en/error-handling.md)
 
 > **Зауваження**
 > 

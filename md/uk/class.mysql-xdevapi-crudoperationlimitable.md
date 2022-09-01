@@ -34,4 +34,4 @@ title: Інтерфейс CrudOperationLimitable
 
 ## Зміст
 
--   [CrudOperationLimitable::limit](mysql-xdevapi-crudoperationlimitable.limit.html) - Встановлює ліміт результату
+-   [CrudOperationLimitable::limit](mysql-xdevapi-crudoperationlimitable.limit.md) - Встановлює ліміт результату

@@ -10,13 +10,13 @@ title: fbirdpconnect
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdpconnect - Псевдонім [ibasepconnect()](function.ibase-pconnect.html)
+fbirdpconnect - Псевдонім [ibasepconnect()](function.ibase-pconnect.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibasepconnect()](function.ibase-pconnect.html)
+Ця функція є псевдонімом: [ibasepconnect()](function.ibase-pconnect.md)
 
 ### Дивіться також
 
--   [fbirdclose()](function.fbird-close.html) - Псевдонім ibaseclose
--   [fbirdconnect()](function.fbird-connect.html) - Псевдонім ibaseconnect
+-   [fbirdclose()](function.fbird-close.md) - Псевдонім ibaseclose
+-   [fbirdconnect()](function.fbird-connect.md) - Псевдонім ibaseconnect

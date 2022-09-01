@@ -32,4 +32,4 @@ sapi_windows_cp_set(int $codepage): bool
 
 ### Дивіться також
 
--   [sapiwindowsспget()](function.sapi-windows-cp-get.html) - Отримати поточну кодову сторінку
+-   [sapiwindowsспget()](function.sapi-windows-cp-get.md) - Отримати поточну кодову сторінку

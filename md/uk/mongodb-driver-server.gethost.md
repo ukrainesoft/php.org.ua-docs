@@ -30,7 +30,7 @@ final public MongoDB\Driver\Server::getHost(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
@@ -57,5 +57,5 @@ string(9) "localhost"
 
 ### Дивіться також
 
--   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер
--   [MongoDBDriverServerDescription::getHost()](mongodb-driver-serverdescription.gethost.html) - Повертає ім'я сервера хоста
+-   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.md) - Повертає масив інформації, що описує сервер
+-   [MongoDBDriverServerDescription::getHost()](mongodb-driver-serverdescription.gethost.md) - Повертає ім'я сервера хоста

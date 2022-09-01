@@ -20,7 +20,7 @@ db2_stmt_errormsg(resource $stmt = ?): string
 
 Повертає рядок, який містить останнє повідомлення про помилку SQL-виразу.
 
-Якщо ви не передаєте ресурс виразу як аргумент у **db2stmterrormsg()**, драйвер повертає повідомлення про помилку, пов'язане з останньою спробою повернути ресурс оператора, наприклад, [db2prepare()](function.db2-prepare.html) або [db2exec()](function.db2-exec.html)
+Якщо ви не передаєте ресурс виразу як аргумент у **db2stmterrormsg()**, драйвер повертає повідомлення про помилку, пов'язане з останньою спробою повернути ресурс оператора, наприклад, [db2prepare()](function.db2-prepare.html) або [db2exec()](function.db2-exec.md)
 
 ### Список параметрів
 
@@ -34,6 +34,6 @@ db2_stmt_errormsg(resource $stmt = ?): string
 
 ### Дивіться також
 
--   [db2connerror()](function.db2-conn-error.html) - Повертає рядок, що містить значення SQLSTATE, повернене останньою спробою підключення
--   [db2connerrormsg()](function.db2-conn-errormsg.html) - Повертає останнє повідомлення про помилку підключення та значення SQLCODE
--   [db2stmterror()](function.db2-stmt-error.html) - Повертає рядок, що містить SQLSTATE, повернутий SQL-оператором
+-   [db2connerror()](function.db2-conn-error.md) - Повертає рядок, що містить значення SQLSTATE, повернене останньою спробою підключення
+-   [db2connerrormsg()](function.db2-conn-errormsg.md) - Повертає останнє повідомлення про помилку підключення та значення SQLCODE
+-   [db2stmterror()](function.db2-stmt-error.md) - Повертає рядок, що містить SQLSTATE, повернутий SQL-оператором

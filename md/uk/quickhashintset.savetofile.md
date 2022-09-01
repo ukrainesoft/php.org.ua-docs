@@ -18,7 +18,7 @@ QuickHashIntSet::saveToFile — Метод зберігає набір у пам
 public QuickHashIntSet::saveToFile(string $filename): void
 ```
 
-Цей метод зберігає існуючий набір файлу на диску в такому ж форматі, який може бути прочитаний методом [QuickHashIntSet::loadFromFile()](quickhashintset.loadfromfile.html)
+Цей метод зберігає існуючий набір файлу на диску в такому ж форматі, який може бути прочитаний методом [QuickHashIntSet::loadFromFile()](quickhashintset.loadfromfile.md)
 
 ### Список параметрів
 

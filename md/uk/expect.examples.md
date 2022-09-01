@@ -10,4 +10,4 @@ title: Приклади
 
 ## Зміст
 
--   [Приклади використання Expect](expect.examples-usage.html)
+-   [Приклади використання Expect](expect.examples-usage.md)

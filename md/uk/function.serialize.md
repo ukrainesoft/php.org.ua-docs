@@ -81,8 +81,8 @@ if (!odbc_execute($stmt, $sqldata)) {
 ### Дивіться також
 
 -   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
--   [varexport()](function.var-export.html) - Виводить або повертає інтерпретоване рядкове подання змінної
--   [jsonencode()](function.json-encode.html) - Повертає JSON-подання даних
+-   [varexport()](function.var-export.md) - Виводить або повертає інтерпретоване рядкове подання змінної
+-   [jsonencode()](function.json-encode.md) - Повертає JSON-подання даних
 -   [Серіалізація об'єктів](language.oop5.serialization.md)
 -   [sleep()](language.oop5.magic.html#object.sleep)
 -   [wakeup()](language.oop5.magic.html#object.wakeup)

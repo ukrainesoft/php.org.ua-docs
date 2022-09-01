@@ -213,7 +213,7 @@ echo "Последний символ '$string' - '$string[-1]'.\n";
 
 ### Підтримка AEAD в ext/openssl
 
-Підтримка AEAD (режими GCM та CCM) була додана шляхом розширення функцій [opensslencrypt()](function.openssl-encrypt.html) і [openssldecrypt()](function.openssl-decrypt.html) додатковими параметрами.
+Підтримка AEAD (режими GCM та CCM) була додана шляхом розширення функцій [opensslencrypt()](function.openssl-encrypt.html) і [openssldecrypt()](function.openssl-decrypt.md) додатковими параметрами.
 
 ### Перетворення callable в [Closure](class.closure.md) за допомогою [Closure::fromCallable()](closure.fromcallable.md)
 
@@ -246,7 +246,7 @@ string(16) "значение"
 
 ### Асинхронне оброблення сигналів
 
-Нова функція [pcntlasyncsignals()](function.pcntl-async-signals.html) була додана для дозволу асинхронної обробки сигналів без використання тиків (які виробляють багато накладних витрат).
+Нова функція [pcntlasyncsignals()](function.pcntl-async-signals.md) була додана для дозволу асинхронної обробки сигналів без використання тиків (які виробляють багато накладних витрат).
 
 ```php
 <?php
@@ -267,7 +267,7 @@ SIGHUP
 
 ### Підтримка HTTP/2 server push в ext/curl
 
-Підтримка "server push" додана в модуль CURL (потрібна версія 7.46 та вище). Використовувати можна у функції [curlmultisetopt()](function.curl-multi-setopt.html) з новою константою **`CURLMOPT_PUSHFUNCTION`**. Також додані константи **`CURL_PUSH_OK`** і **`CURL_PUSH_DENY`** для визначення, був прийнятий або відхилений "server push".
+Підтримка "server push" додана в модуль CURL (потрібна версія 7.46 та вище). Використовувати можна у функції [curlmultisetopt()](function.curl-multi-setopt.md) з новою константою **`CURLMOPT_PUSHFUNCTION`**. Також додані константи **`CURL_PUSH_OK`** і **`CURL_PUSH_DENY`** для визначення, був прийнятий або відхилений "server push".
 
 ### Контекстні опції потоку
 

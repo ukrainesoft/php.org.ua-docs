@@ -18,7 +18,7 @@ MongoDBDriverClientEncryption::construct — Створює новий об'єк
 final public MongoDB\Driver\ClientEncryption::__construct(array $options)
 ```
 
-Створює новий об'єкт [MongoDBDriverClientEncryption](class.mongodb-driver-clientencryption.html) із зазначеними опціями.
+Створює новий об'єкт [MongoDBDriverClientEncryption](class.mongodb-driver-clientencryption.md) із зазначеними опціями.
 
 ### Список параметрів
 
@@ -28,7 +28,7 @@ final public MongoDB\Driver\ClientEncryption::__construct(array $options)
 
 | Опция | Тип | Описание |
 | --- | --- | --- |
-| keyVaultClient | [MongoDBDriverManager](class.mongodb-driver-manager.html) | Менеджер, який використовується для маршрутизації запитів ключів даних. Опція є обов'язковою (на відміну функції [MongoDBDriverManager::createClientEncryption()](mongodb-driver-manager.createclientencryption.html) |
+| keyVaultClient | [MongoDBDriverManager](class.mongodb-driver-manager.html) | Менеджер, який використовується для маршрутизації запитів ключів даних. Опція є обов'язковою (на відміну функції [MongoDBDriverManager::createClientEncryption()](mongodb-driver-manager.createclientencryption.md) |
 | keyVaultNamespace | string | Повний простір імен (наприклад, `"databaseName.collectionName"`), що означає колекцію, яка містить усі ключі даних, що використовуються для шифрування та дешифрування. |
 | kmsProviders | array |  |
 | Документ, який містить конфігурацію для одного або кількох провайдерів KMS, які використовуються для шифрування ключів даних. Підтримуються провайдери `"aws"` `"azure"` `"gcp"` і `"local"`, і принаймні один з них повинен бути вказаний. |  |  |
@@ -61,10 +61,10 @@ local: { // 96-байтовий головний ключ, який викори
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Викидає виняток [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html)якщо модуль був скомпільований без підтримки libmongocrypt.
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Викидає виняток [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.md)якщо модуль був скомпільований без підтримки libmongocrypt.
 
 ### Дивіться також
 
--   [MongoDBDriverManager::createClientEncryption()](mongodb-driver-manager.createclientencryption.html) - Створення нового об'єкта ClientEncryption
+-   [MongoDBDriverManager::createClientEncryption()](mongodb-driver-manager.createclientencryption.md) - Створення нового об'єкта ClientEncryption
 -   [» Явное (ручное) шифрование уровня полей на стороне клиента](https://www.mongodb.com/docs/manual/core/security-explicit-client-side-encryption/) у посібнику з MongoDB

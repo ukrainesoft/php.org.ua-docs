@@ -37,6 +37,6 @@ public getSession(): mysql_xdevapi\Session
 
 ## Зміст
 
--   [mysqlxdevapiClient::close](mysql-xdevapi-client.close.html) - Закриття клієнта
--   [Client::construct](mysql-xdevapi-client.construct.html) - Конструктор класу Client
--   [Client::getClient](mysql-xdevapi-client.getsession.html) — Отримує сеанс клієнта
+-   [mysqlxdevapiClient::close](mysql-xdevapi-client.close.md) - Закриття клієнта
+-   [Client::construct](mysql-xdevapi-client.construct.md) - Конструктор класу Client
+-   [Client::getClient](mysql-xdevapi-client.getsession.md) — Отримує сеанс клієнта

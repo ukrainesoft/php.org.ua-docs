@@ -55,7 +55,7 @@ Array
 
 -   [Константи помилок](errorfunc.constants.md)
 -   Змінна [$phperrormsg](reserved.variables.phperrormsg.md)
--   [errorclearlast()](function.error-clear-last.html) - Очистити останню помилку
+-   [errorclearlast()](function.error-clear-last.md) - Очистити останню помилку
 -   [Директива `display_errors`](errorfunc.configuration.html#ini.display-errors)
 -   [Директива `html_errors`](errorfunc.configuration.html#ini.html-errors)
 -   [Директива `xmlrpc_errors`](errorfunc.configuration.html#ini.xmlrpc-errors)

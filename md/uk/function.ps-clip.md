@@ -24,7 +24,7 @@ ps_clip(resource $psdoc): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ ps_clip(resource $psdoc): bool
 
 ### Дивіться також
 
--   [псclosepath()](function.ps-closepath.html) - Замикає шлях
+-   [псclosepath()](function.ps-closepath.md) - Замикає шлях

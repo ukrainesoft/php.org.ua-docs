@@ -26,7 +26,7 @@ fdf_open_string(string $fdf_data): resource
 
 `fdf_data`
 
-Дані, повернуті з PDF форми або створені за допомогою [fdfcreate()](function.fdf-create.html) і [fdfsavestring()](function.fdf-save-string.html)
+Дані, повернуті з PDF форми або створені за допомогою [fdfcreate()](function.fdf-create.html) і [fdfsavestring()](function.fdf-save-string.md)
 
 ### Значення, що повертаються
 
@@ -46,7 +46,7 @@ fdf_close($fdf);
 
 ### Дивіться також
 
--   [fdfopen()](function.fdf-open.html) - Відкриває документ FDF
--   [fdfclose()](function.fdf-close.html) - Закриває FDF-документ
--   [fdfcreate()](function.fdf-create.html) - Створює новий документ FDF
--   [fdfsavestring()](function.fdf-save-string.html) - Повертає документ FDF у вигляді рядка
+-   [fdfopen()](function.fdf-open.md) - Відкриває документ FDF
+-   [fdfclose()](function.fdf-close.md) - Закриває FDF-документ
+-   [fdfcreate()](function.fdf-create.md) - Створює новий документ FDF
+-   [fdfsavestring()](function.fdf-save-string.md) - Повертає документ FDF у вигляді рядка

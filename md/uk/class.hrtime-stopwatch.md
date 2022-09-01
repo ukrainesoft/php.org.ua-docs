@@ -52,10 +52,10 @@ public static HRTime\PerformanceCounter::getTicksSince(int $start): int
 
 ## Зміст
 
--   [HRTimeStopWatch::getElapsedTicks](hrtime-stopwatch.getelapsedticks.html) — Отримати кількість тиків для всіх інтервалів.
--   [HRTimeStopWatch::getElapsedTime](hrtime-stopwatch.getelapsedtime.html) — Отримати сумарний час усіх інтервалів, що минув.
--   [HRTimeStopWatch::getLastElapsedTicks](hrtime-stopwatch.getlastelapsedticks.html) — Отримати кількість тиків, що пройшли, за останній інтервал
--   [HRTimeStopWatch::getLastElapsedTime](hrtime-stopwatch.getlastelapsedtime.html) — Отримати минулий час для останнього інтервалу
--   [HRTimeStopWatch::isRunning](hrtime-stopwatch.isrunning.html) — Перевірити, чи виконується вимір
--   [HRTimeStopWatch::start](hrtime-stopwatch.start.html) - Запустити вимір часу
--   [HRTimeStopWatch::stop](hrtime-stopwatch.stop.html) — Зупинити вимір
+-   [HRTimeStopWatch::getElapsedTicks](hrtime-stopwatch.getelapsedticks.md) — Отримати кількість тиків для всіх інтервалів.
+-   [HRTimeStopWatch::getElapsedTime](hrtime-stopwatch.getelapsedtime.md) — Отримати сумарний час усіх інтервалів, що минув.
+-   [HRTimeStopWatch::getLastElapsedTicks](hrtime-stopwatch.getlastelapsedticks.md) — Отримати кількість тиків, що пройшли, за останній інтервал
+-   [HRTimeStopWatch::getLastElapsedTime](hrtime-stopwatch.getlastelapsedtime.md) — Отримати минулий час для останнього інтервалу
+-   [HRTimeStopWatch::isRunning](hrtime-stopwatch.isrunning.md) — Перевірити, чи виконується вимір
+-   [HRTimeStopWatch::start](hrtime-stopwatch.start.md) - Запустити вимір часу
+-   [HRTimeStopWatch::stop](hrtime-stopwatch.stop.md) — Зупинити вимір

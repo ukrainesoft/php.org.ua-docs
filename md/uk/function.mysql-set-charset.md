@@ -14,9 +14,9 @@ mysqlsetcharset — Встановлює кодування клієнта
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlisetcharset()](mysqli.set-charset.html)
+-   [mysqlisetcharset()](mysqli.set-charset.md)
 -   PDO: Додаванням `charset` у рядок з'єднання, наприклад `charset=utf8`
 
 ### Опис
@@ -35,7 +35,7 @@ mysql_set_charset(string $charset, resource $link_identifier = NULL): bool
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -49,10 +49,10 @@ mysql_set_charset(string $charset, resource $link_identifier = NULL): bool
 
 > **Зауваження**
 > 
-> Це найбільш вподобаний спосіб зміни кодування. Використання [mysqlquery()](function.mysql-query.html) з цією метою (наприклад `SET NAMES utf8`) не рекомендується. Дивіться розділ [кодування символів у MySQL](mysqlinfo.concepts.charset.md) для детальної інформації.
+> Це найбільш вподобаний спосіб зміни кодування. Використання [mysqlquery()](function.mysql-query.md) з цією метою (наприклад `SET NAMES utf8`) не рекомендується. Дивіться розділ [кодування символів у MySQL](mysqlinfo.concepts.charset.md) для детальної інформації.
 
 ### Дивіться також
 
 -   [Налаштування коду символів у MySQL](mysqlinfo.concepts.charset.md)
--   [» Список підтримуваних MySQL кодувань](http://dev.mysql.com/doc/mysql/en/charset-charsets.html)
--   [mysqlclientencoding()](function.mysql-client-encoding.html) - Повертає кодування з'єднання
+-   [» Список підтримуваних MySQL кодувань](http://dev.mysql.com/doc/mysql/en/charset-charsets.md)
+-   [mysqlclientencoding()](function.mysql-client-encoding.md) - Повертає кодування з'єднання

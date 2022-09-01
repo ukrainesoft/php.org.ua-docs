@@ -18,7 +18,7 @@ title: ісnumeric
 is_numeric(mixed $value): bool
 ```
 
-Визначає, чи є ця змінна числом чи [рядком, що містить число](language.types.numeric-strings.html)
+Визначає, чи є ця змінна числом чи [рядком, що містить число](language.types.numeric-strings.md)
 
 ### Список параметрів
 
@@ -28,7 +28,7 @@ is_numeric(mixed $value): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `value` є числом або [рядком, що містить число](language.types.numeric-strings.html) або **`false`** в іншому випадку.
+Повертає **`true`**, якщо `value` є числом або [рядком, що містить число](language.types.numeric-strings.md) або **`false`** в іншому випадку.
 
 ### список змін
 
@@ -131,13 +131,13 @@ foreach ($tests as $element) {
 
 ### Дивіться також
 
--   [Рядки, що містять числа](language.types.numeric-strings.html)
--   [ctypedigit()](function.ctype-digit.html) - Перевіряє наявність цифрових символів у рядку
--   [ісbool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
--   [ісnull()](function.is-null.html) - Перевіряє, чи значення змінної дорівнює null
--   [ісfloat()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [ісint()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
--   [ісstring()](function.is-string.html) - Перевіряє, чи є змінним рядком
--   [ісobject()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
--   [ісarray()](function.is-array.html) - Визначає, чи є змінна масивом
--   [filtervar()](function.filter-var.html) - Фільтрує змінну за допомогою певного фільтра
+-   [Рядки, що містять числа](language.types.numeric-strings.md)
+-   [ctypedigit()](function.ctype-digit.md) - Перевіряє наявність цифрових символів у рядку
+-   [ісbool()](function.is-bool.md) - Перевіряє, чи є змінна булевою
+-   [ісnull()](function.is-null.md) - Перевіряє, чи значення змінної дорівнює null
+-   [ісfloat()](function.is-float.md) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [ісint()](function.is-int.md) - Перевіряє, чи є змінна цілим числом
+-   [ісstring()](function.is-string.md) - Перевіряє, чи є змінним рядком
+-   [ісobject()](function.is-object.md) - Перевіряє, чи є змінна об'єктом
+-   [ісarray()](function.is-array.md) - Визначає, чи є змінна масивом
+-   [filtervar()](function.filter-var.md) - Фільтрує змінну за допомогою певного фільтра

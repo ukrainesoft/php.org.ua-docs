@@ -18,7 +18,7 @@ opensslprivatedecrypt — Розшифровує дані за допомого�
 openssl_private_decrypt(    string $data,    string &$decrypted_data,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    int $padding = OPENSSL_PKCS1_PADDING): bool
 ```
 
-**opensslprivatedecrypt()** розшифровує дані `data`, які раніше були зашифровані за допомогою [opensslpublicencrypt()](function.openssl-public-encrypt.html) і зберігає результат у `decrypted_data`
+**opensslprivatedecrypt()** розшифровує дані `data`, які раніше були зашифровані за допомогою [opensslpublicencrypt()](function.openssl-public-encrypt.md) і зберігає результат у `decrypted_data`
 
 Ви можете використовувати цю функцію, наприклад, для розшифровування даних, які повинні бути доступні тільки вам і більше.
 
@@ -48,5 +48,5 @@ openssl_private_decrypt(    string $data,    string &$decrypted_data, �
 
 ### Дивіться також
 
--   [opensslpublicencrypt()](function.openssl-public-encrypt.html) - Шифрування даних відкритим ключем
--   [opensslpublicdecrypt()](function.openssl-public-decrypt.html) - Розшифрування даних за допомогою відкритого ключа
+-   [opensslpublicencrypt()](function.openssl-public-encrypt.md) - Шифрування даних відкритим ключем
+-   [opensslpublicdecrypt()](function.openssl-public-decrypt.md) - Розшифрування даних за допомогою відкритого ключа

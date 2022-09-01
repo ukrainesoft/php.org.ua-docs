@@ -213,32 +213,32 @@ tagName
 | Версия | Описание |
 | --- | --- |
 |  | Додані властивості першихелементівChild, LastElementChild, ChildElementCount, попереднійElementSibling і NextElementSibling. |
-|  | Клас **DOMElement** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.html) і [DOMChildNode](class.domchildnode.html) |
+|  | Клас **DOMElement** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.html) і [DOMChildNode](class.domchildnode.md) |
 
 ## Примітки
 
 > **Зауваження**
 > 
-> Модуль DOM використовує кодування UTF-8. Використовуйте [мбconvertencoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.html) для роботи з іншими кодуванням.
+> Модуль DOM використовує кодування UTF-8. Використовуйте [мбconvertencoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.md) для роботи з іншими кодуванням.
 
 ## Зміст
 
--   [DOMElement::construct](domelement.construct.html) — Створює новий екземпляр класу DOMElement
--   [DOMElement::getAttribute](domelement.getattribute.html) — Повертає значення атрибуту
--   [DOMElement::getAttributeNode](domelement.getattributenode.html) - Повертає вузол атрибуту
--   [DOMElement::getAttributeNodeNS](domelement.getattributenodens.html) - Повертає вузол атрибуту
--   [DOMElement::getAttributeNS](domelement.getattributens.html) — Повертає значення атрибуту
--   [DOMElement::getElementsByTagName](domelement.getelementsbytagname.html) — Повертає елементи на ім'я тега
--   [DOMElement::getElementsByTagNameNS](domelement.getelementsbytagnamens.html) — Отримання елементів локального імені в заданому просторі імен
--   [DOMElement::hasAttribute](domelement.hasattribute.html) — Перевіряє, чи існує атрибут
--   [DOMElement::hasAttributeNS](domelement.hasattributens.html) - Перевіряє, чи існує заданий атрибут
--   [DOMElement::removeAttribute](domelement.removeattribute.html) - Видаляє атрибут
--   [DOMElement::removeAttributeNode](domelement.removeattributenode.html) - Видаляє атрибут
--   [DOMElement::removeAttributeNS](domelement.removeattributens.html) - Видаляє атрибут
--   [DOMElement::setAttribute](domelement.setattribute.html) — Додає новий або змінює існуючий атрибут
--   [DOMElement::setAttributeNode](domelement.setattributenode.html) — Додає новий вузол атрибуту до елементу
--   [DOMElement::setAttributeNodeNS](domelement.setattributenodens.html) — Додає новий атрибут елемент
--   [DOMElement::setAttributeNS](domelement.setattributens.html) - Додає новий атрибут
--   [DOMElement::setIdAttribute](domelement.setidattribute.html) — Оголошує атрибут, вказаний ім'ям, з ідентифікатором типу
--   [DOMElement::setIdAttributeNode](domelement.setidattributenode.html) — Оголошує атрибут, вказаний вузлом, з ідентифікатором типу
--   [DOMElement::setIdAttributeNS](domelement.setidattributens.html) — Оголошує атрибут, вказаний локальним ім'ям та URI простору імен, з ідентифікатором типу
+-   [DOMElement::construct](domelement.construct.md) — Створює новий екземпляр класу DOMElement
+-   [DOMElement::getAttribute](domelement.getattribute.md) — Повертає значення атрибуту
+-   [DOMElement::getAttributeNode](domelement.getattributenode.md) - Повертає вузол атрибуту
+-   [DOMElement::getAttributeNodeNS](domelement.getattributenodens.md) - Повертає вузол атрибуту
+-   [DOMElement::getAttributeNS](domelement.getattributens.md) — Повертає значення атрибуту
+-   [DOMElement::getElementsByTagName](domelement.getelementsbytagname.md) — Повертає елементи на ім'я тега
+-   [DOMElement::getElementsByTagNameNS](domelement.getelementsbytagnamens.md) — Отримання елементів локального імені в заданому просторі імен
+-   [DOMElement::hasAttribute](domelement.hasattribute.md) — Перевіряє, чи існує атрибут
+-   [DOMElement::hasAttributeNS](domelement.hasattributens.md) - Перевіряє, чи існує заданий атрибут
+-   [DOMElement::removeAttribute](domelement.removeattribute.md) - Видаляє атрибут
+-   [DOMElement::removeAttributeNode](domelement.removeattributenode.md) - Видаляє атрибут
+-   [DOMElement::removeAttributeNS](domelement.removeattributens.md) - Видаляє атрибут
+-   [DOMElement::setAttribute](domelement.setattribute.md) — Додає новий або змінює існуючий атрибут
+-   [DOMElement::setAttributeNode](domelement.setattributenode.md) — Додає новий вузол атрибуту до елементу
+-   [DOMElement::setAttributeNodeNS](domelement.setattributenodens.md) — Додає новий атрибут елемент
+-   [DOMElement::setAttributeNS](domelement.setattributens.md) - Додає новий атрибут
+-   [DOMElement::setIdAttribute](domelement.setidattribute.md) — Оголошує атрибут, вказаний ім'ям, з ідентифікатором типу
+-   [DOMElement::setIdAttributeNode](domelement.setidattributenode.md) — Оголошує атрибут, вказаний вузлом, з ідентифікатором типу
+-   [DOMElement::setIdAttributeNS](domelement.setidattributens.md) — Оголошує атрибут, вказаний локальним ім'ям та URI простору імен, з ідентифікатором типу

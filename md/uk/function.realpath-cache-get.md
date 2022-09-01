@@ -59,4 +59,4 @@ array(2) {
 
 ### Дивіться також
 
--   [realpathcachesize()](function.realpath-cache-size.html) - Отримує розмір кеша realpath
+-   [realpathcachesize()](function.realpath-cache-size.md) - Отримує розмір кеша realpath

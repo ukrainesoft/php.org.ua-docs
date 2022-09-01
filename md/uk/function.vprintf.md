@@ -130,5 +130,5 @@ vprintf("%04d-%02d-%02d", explode('-', '1988-8-1'));
 -   [vfprintf()](function.vfprintf.md) - Записує відформатований рядок у потік
 -   [sscanf()](function.sscanf.md) - Розбирає рядок відповідно до заданого формату
 -   [fscanf()](function.fscanf.md) - Обробляє дані з файлу відповідно до формату
--   [numberformat()](function.number-format.html) - Форматує число з поділом груп
+-   [numberformat()](function.number-format.md) - Форматує число з поділом груп
 -   [date()](function.date.md) - Форматує тимчасову мітку Unix

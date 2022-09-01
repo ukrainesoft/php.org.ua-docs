@@ -18,13 +18,13 @@ title: псsymbol
 ps_symbol(resource $psdoc, int $ord): bool
 ```
 
-Виводить гліф у позиції `ord` у векторному кодування поточного шрифту. Кодування шрифту можна встановити під час завантаження шрифту за допомогою [псfindfont()](function.ps-findfont.html)
+Виводить гліф у позиції `ord` у векторному кодування поточного шрифту. Кодування шрифту можна встановити під час завантаження шрифту за допомогою [псfindfont()](function.ps-findfont.md)
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `ord`
 
@@ -36,5 +36,5 @@ ps_symbol(resource $psdoc, int $ord): bool
 
 ### Дивіться також
 
--   [псsymbolname()](function.ps-symbol-name.html) - Отримує ім'я гліфа
--   [псsymbolwidth()](function.ps-symbol-width.html) - Отримує ширину гліфа
+-   [псsymbolname()](function.ps-symbol-name.md) - Отримує ім'я гліфа
+-   [псsymbolwidth()](function.ps-symbol-width.md) - Отримує ширину гліфа

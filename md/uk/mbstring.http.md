@@ -26,7 +26,7 @@ title: Введення та виведення HTTP
     
 -   Висновок HTTP
     
-    Є кілька способів увімкнути перетворення кодування для вихідних даних. Один з них – використання php.ini, інший – використання функції [проstart()](function.ob-start.html) з [мбoutputhandler()](function.mb-output-handler.html) як callback-функції для `ob_start`
+    Є кілька способів увімкнути перетворення кодування для вихідних даних. Один з них – використання php.ini, інший – використання функції [проstart()](function.ob-start.html) з [мбoutputhandler()](function.mb-output-handler.md) як callback-функції для `ob_start`
     
 
 **Приклад #2 Приклад налаштування php.ini**

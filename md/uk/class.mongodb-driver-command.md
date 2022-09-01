@@ -158,4 +158,4 @@ array(16) {
 
 ## Зміст
 
--   [MongoDBDriverCommand::construct](mongodb-driver-command.construct.html) — Створює новий об'єкт Command
+-   [MongoDBDriverCommand::construct](mongodb-driver-command.construct.md) — Створює новий об'єкт Command

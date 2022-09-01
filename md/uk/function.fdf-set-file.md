@@ -24,7 +24,7 @@ fdf_set_file(resource $fdf_document, string $url, string $target_frame = ?): boo
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.md)
 
 `url`
 
@@ -32,7 +32,7 @@ fdf_set_file(resource $fdf_document, string $url, string $target_frame = ?): boo
 
 `target_frame`
 
-Використовуйте цей параметр, щоб вказати кадр, у якому буде відображено документ. Ви також можете встановити значення за промовчанням для цього параметра за допомогою [fdfsettargetframe()](function.fdf-set-target-frame.html)
+Використовуйте цей параметр, щоб вказати кадр, у якому буде відображено документ. Ви також можете встановити значення за промовчанням для цього параметра за допомогою [fdfsettargetframe()](function.fdf-set-target-frame.md)
 
 ### Значення, що повертаються
 
@@ -66,5 +66,5 @@ fdf_set_file(resource $fdf_document, string $url, string $target_frame = ?): boo
 
 ### Дивіться також
 
--   [fdfgetfile()](function.fdf-get-file.html) - Отримує значення ключа /F
--   [fdfsettargetframe()](function.fdf-set-target-frame.html) - Встановлює цільовий кадр для відображення форми
+-   [fdfgetfile()](function.fdf-get-file.md) - Отримує значення ключа /F
+-   [fdfsettargetframe()](function.fdf-set-target-frame.md) - Встановлює цільовий кадр для відображення форми

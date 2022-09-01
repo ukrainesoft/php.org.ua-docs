@@ -26,7 +26,7 @@ oci_error(?resource $connection_or_statement = null): array|false
 
 `connection_or_statement`
 
-Для більшості помилок параметром `connection_or_statement` є відповідний ідентифікатор з'єднання або виразу. Для помилок під час виконання функцій [ociconnect()](function.oci-connect.html) [ocinewconnect()](function.oci-new-connect.html) або [ocipconnect()](function.oci-pconnect.html) слід передавати **`null`**
+Для більшості помилок параметром `connection_or_statement` є відповідний ідентифікатор з'єднання або виразу. Для помилок під час виконання функцій [ociconnect()](function.oci-connect.html) [ocinewconnect()](function.oci-new-connect.html) або [ocipconnect()](function.oci-pconnect.md) слід передавати **`null`**
 
 ### Значення, що повертаються
 

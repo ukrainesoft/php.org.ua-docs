@@ -46,10 +46,10 @@ yaml_parse_url(    string $url,    int $pos = 0,    int &$ndocs = ?,
 
 **Увага**
 
-Обробляти неперевірене введення користувача за допомогою функції [yamlparsefile()](function.yaml-parse-file.html) у випадку, якщо дозволено використовувати [unserialize()](function.unserialize.md) для вузлів із тегом `!php/object` - Вкрай небезпечно. Така поведінка може бути заборонена за допомогою ini-налаштування `yaml.decode_php`
+Обробляти неперевірене введення користувача за допомогою функції [yamlparsefile()](function.yaml-parse-file.md) у випадку, якщо дозволено використовувати [unserialize()](function.unserialize.md) для вузлів із тегом `!php/object` - Вкрай небезпечно. Така поведінка може бути заборонена за допомогою ini-налаштування `yaml.decode_php`
 
 ### Дивіться також
 
--   [yamlparse()](function.yaml-parse.html) - Розбирає потік YAML
--   [yamlparsefile()](function.yaml-parse-file.html) - Розбирає YAML-потік із файлу
--   [yamlemit()](function.yaml-emit.html) - Повертає YAML-подання значення
+-   [yamlparse()](function.yaml-parse.md) - Розбирає потік YAML
+-   [yamlparsefile()](function.yaml-parse-file.md) - Розбирає YAML-потік із файлу
+-   [yamlemit()](function.yaml-emit.md) - Повертає YAML-подання значення

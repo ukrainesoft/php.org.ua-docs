@@ -20,7 +20,7 @@ copy(string $from, string $to, ?resource $context = null): bool
 
 Копіює файл `from` у файл з ім'ям `to`
 
-Якщо потрібно перейменувати файл, використовуйте функцію [rename()](function.rename.html)
+Якщо потрібно перейменувати файл, використовуйте функцію [rename()](function.rename.md)
 
 ### Список параметрів
 
@@ -38,7 +38,7 @@ copy(string $from, string $to, ?resource $context = null): bool
 
 `context`
 
-Коректний ресурс контексту, створений функцією [streamcontextcreate()](function.stream-context-create.html)
+Коректний ресурс контексту, створений функцією [streamcontextcreate()](function.stream-context-create.md)
 
 ### Значення, що повертаються
 
@@ -61,6 +61,6 @@ if (!copy($file, $newfile)) {
 
 ### Дивіться також
 
--   [moveuploadedfile()](function.move-uploaded-file.html) - Переміщує завантажений файл у нове місце
--   [rename()](function.rename.html) - Перейменовує файл або директорію
--   Розділ керівництва[Завантаження файлів](features.file-upload.html)"
+-   [moveuploadedfile()](function.move-uploaded-file.md) - Переміщує завантажений файл у нове місце
+-   [rename()](function.rename.md) - Перейменовує файл або директорію
+-   Розділ керівництва[Завантаження файлів](features.file-upload.md)"

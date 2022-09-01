@@ -20,7 +20,7 @@ array_uintersect_assoc(array $array, array ...$arrays, callable $value_compare_f
 
 Обчислює перетин масивів з додатковою перевіркою індексів, використовуючи для порівняння значень callback-функцію.
 
-Зверніть увагу, що в порівнянні використовуються ключі, на відміну від [arrayuintersect()](function.array-uintersect.html). Значення порівнюються за допомогою callback-функції.
+Зверніть увагу, що в порівнянні використовуються ключі, на відміну від [arrayuintersect()](function.array-uintersect.md). Значення порівнюються за допомогою callback-функції.
 
 ### Список параметрів
 
@@ -68,7 +68,7 @@ Array
 
 ### Дивіться також
 
--   [arrayuintersect()](function.array-uintersect.html) - обчислює перетин масивів, використовуючи для порівняння значень callback-функцію
--   [arrayintersectassoc()](function.array-intersect-assoc.html) - обчислює сходження масивів з додатковою перевіркою індексу
--   [arrayintersectuassoc()](function.array-intersect-uassoc.html) - обчислює сходження масивів з додатковою перевіркою індексу, що здійснюється за допомогою callback-функції
--   [arrayuintersectuassoc()](function.array-uintersect-uassoc.html) - обчислює перетин масивів з додатковою перевіркою індексу, використовуючи для порівняння індексів та значень індивідуальні callback-функції
+-   [arrayuintersect()](function.array-uintersect.md) - обчислює перетин масивів, використовуючи для порівняння значень callback-функцію
+-   [arrayintersectassoc()](function.array-intersect-assoc.md) - обчислює сходження масивів з додатковою перевіркою індексу
+-   [arrayintersectuassoc()](function.array-intersect-uassoc.md) - обчислює сходження масивів з додатковою перевіркою індексу, що здійснюється за допомогою callback-функції
+-   [arrayuintersectuassoc()](function.array-uintersect-uassoc.md) - обчислює перетин масивів з додатковою перевіркою індексу, використовуючи для порівняння індексів та значень індивідуальні callback-функції

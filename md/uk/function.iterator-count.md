@@ -66,7 +66,7 @@ int(3)
 NULL
 ```
 
-**Приклад #3 **iteratorcount()** у циклі [foreach](control-structures.foreach.html)**
+**Приклад #3 **iteratorcount()** у циклі [foreach](control-structures.foreach.md)**
 
 ```php
 <?php

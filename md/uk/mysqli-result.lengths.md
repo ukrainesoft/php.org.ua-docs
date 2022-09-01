@@ -18,7 +18,7 @@ mysqliresult::$lengths -- mysqlifetchlengths — Повертає довжини
 
 Об'єктно-орієнтований стиль
 
-?array [$mysqliresult->lengths](mysqli-result.lengths.html)
+?array [$mysqliresult->lengths](mysqli-result.lengths.md)
 
 Процедурний стиль
 
@@ -32,7 +32,7 @@ mysqli_fetch_lengths(mysqli_result $result): array|false
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 

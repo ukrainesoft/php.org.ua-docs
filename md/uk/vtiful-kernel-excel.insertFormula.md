@@ -36,7 +36,7 @@ public Vtiful\Kernel\Excel::insertFormula(int $row, int $column, string $formula
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

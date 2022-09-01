@@ -34,5 +34,5 @@ public Yaf_Request_Abstract::getServer(string $name, string $default = ?): void
 
 ### Дивіться також
 
--   [YafRequestAbstract::getParam()](yaf-request-abstract.getparam.html) - Отримує параметр дзвінка
--   [YafRequestAbstract::getEnv()](yaf-request-abstract.getenv.html) - Отримує змінну ENV
+-   [YafRequestAbstract::getParam()](yaf-request-abstract.getparam.md) - Отримує параметр дзвінка
+-   [YafRequestAbstract::getEnv()](yaf-request-abstract.getenv.md) - Отримує змінну ENV

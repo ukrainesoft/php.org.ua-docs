@@ -42,9 +42,9 @@ echo 'Привет, ' . htmlspecialchars($_GET["name"]) . '!';
 
 > **Зауваження**
 > 
-> Параметри GET обробляються [urldecode()](function.urldecode.html)
+> Параметри GET обробляються [urldecode()](function.urldecode.md)
 
 ### Дивіться також
 
--   [Змінні ззовні PHP](language.variables.external.html)
--   [Фільтрування даних](book.filter.html)
+-   [Змінні ззовні PHP](language.variables.external.md)
+-   [Фільтрування даних](book.filter.md)

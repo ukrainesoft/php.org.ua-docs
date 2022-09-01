@@ -22,7 +22,7 @@ file(string $filename, int $flags = 0, ?resource $context = null): array|false
 
 > **Зауваження**
 > 
-> Можна також використовувати функцію [filegetcontents()](function.file-get-contents.html) для отримання файлу у вигляді рядка.
+> Можна також використовувати функцію [filegetcontents()](function.file-get-contents.md) для отримання файлу у вигляді рядка.
 
 ### Список параметрів
 
@@ -96,10 +96,10 @@ $trimmed = file('somefile.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LIN
 
 ### Дивіться також
 
--   [filegetcontents()](function.file-get-contents.html) - Читає вміст файлу в рядок
+-   [filegetcontents()](function.file-get-contents.md) - Читає вміст файлу в рядок
 -   [readfile()](function.readfile.md) - Виводить файл
 -   [fopen()](function.fopen.md) - Відкриває файл або URL
 -   [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
 -   [popen()](function.popen.md) - Відкриває файловий покажчик процесу
 -   [include](function.include.md) - include
--   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку
+-   [streamcontextcreate()](function.stream-context-create.md) - Створює контекст потоку

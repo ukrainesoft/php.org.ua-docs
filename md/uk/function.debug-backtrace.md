@@ -101,5 +101,5 @@ array(4) {
 
 ### Дивіться також
 
--   [triggererror()](function.trigger-error.html) - Викликає помилку користувача/попередження/повідомлення
--   [debugprintbacktrace()](function.debug-print-backtrace.html) - Виводить стек викликів функцій
+-   [triggererror()](function.trigger-error.md) - Викликає помилку користувача/попередження/повідомлення
+-   [debugprintbacktrace()](function.debug-print-backtrace.md) - Виводить стек викликів функцій

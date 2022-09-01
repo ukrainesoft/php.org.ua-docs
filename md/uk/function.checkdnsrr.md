@@ -42,7 +42,7 @@ checkdnsrr(string $hostname, string $type = "MX"): bool
 
 ### Дивіться також
 
--   [dnsgetrecord()](function.dns-get-record.html) - Отримання ресурсних записів DNS хоста
+-   [dnsgetrecord()](function.dns-get-record.md) - Отримання ресурсних записів DNS хоста
 -   [getmxrr()](function.getmxrr.md) - Отримує записи MX, що відповідають переданому доменному імені хоста
 -   [gethostbyaddr()](function.gethostbyaddr.md) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
 -   [gethostbyname()](function.gethostbyname.md) - Отримує IPv4-адресу, що відповідає переданому імені хоста

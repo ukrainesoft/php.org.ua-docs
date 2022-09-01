@@ -18,13 +18,13 @@ ocifreedescriptor - Звільняє дескриптор
 oci_free_descriptor(OCILob $lob): bool
 ```
 
-Звільняє дескриптор, створений за допомогою [ocinewdescriptor()](function.oci-new-descriptor.html)
+Звільняє дескриптор, створений за допомогою [ocinewdescriptor()](function.oci-new-descriptor.md)
 
 ### Список параметрів
 
 `descriptor`
 
-Дескриптор, створений за допомогою [ocinewdescriptor()](function.oci-new-descriptor.html)
+Дескриптор, створений за допомогою [ocinewdescriptor()](function.oci-new-descriptor.md)
 
 ### Значення, що повертаються
 

@@ -24,7 +24,7 @@ gzinflate(string $data, int $max_length = 0): string|false
 
 `data`
 
-Дані, стислі функцією [gzdeflate()](function.gzdeflate.html)
+Дані, стислі функцією [gzdeflate()](function.gzdeflate.md)
 
 `max_length`
 
@@ -50,7 +50,7 @@ echo $uncompressed;
 
 ### Дивіться також
 
--   [gzdeflate()](function.gzdeflate.html) - Стискає рядок
--   [gzcompress()](function.gzcompress.html) - Стиснути рядок
--   [gzuncompress()](function.gzuncompress.html) - Розпакувати стислий рядок
--   [gzencode()](function.gzencode.html) - Створити стислий рядок gzip
+-   [gzdeflate()](function.gzdeflate.md) - Стискає рядок
+-   [gzcompress()](function.gzcompress.md) - Стиснути рядок
+-   [gzuncompress()](function.gzuncompress.md) - Розпакувати стислий рядок
+-   [gzencode()](function.gzencode.md) - Створити стислий рядок gzip

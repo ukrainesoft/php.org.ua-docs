@@ -10,7 +10,7 @@ title: Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
-**Скалярні стилі сутностей, які можна використовувати в callback-методах [yamlparse()](function.yaml-parse.html)**
+**Скалярні стилі сутностей, які можна використовувати в callback-методах [yamlparse()](function.yaml-parse.md)**
 
 **`YAML_ANY_SCALAR_STYLE`** (int)
 
@@ -24,7 +24,7 @@ title: Обумовлені константи
 
 **`YAML_FOLDED_SCALAR_STYLE`** (int)
 
-**Стандартні теги, які можна використовувати у callback-методах [yamlparse()](function.yaml-parse.html)**
+**Стандартні теги, які можна використовувати у callback-методах [yamlparse()](function.yaml-parse.md)**
 
 **`YAML_NULL_TAG`** (string)
 
@@ -62,7 +62,7 @@ title: Обумовлені константи
 
 "!php/object"
 
-**Типи кодувань для [yamlemit()](function.yaml-emit.html)**
+**Типи кодувань для [yamlemit()](function.yaml-emit.md)**
 
 **`YAML_ANY_ENCODING`** (int)
 
@@ -80,7 +80,7 @@ UTF16LE
 
 UTF16BE
 
-**Типи кінця рядків для [yamlemit()](function.yaml-emit.html)**
+**Типи кінця рядків для [yamlemit()](function.yaml-emit.md)**
 
 **`YAML_ANY_BREAK`** (int)
 

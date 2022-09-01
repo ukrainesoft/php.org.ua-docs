@@ -18,7 +18,7 @@ radiusgettaggedattrdata — Витягує дані із зазначеного 
 radius_get_tagged_attr_data(string $data): string|false
 ```
 
-Якщо з [radiusgetattr()](function.radius-get-attr.html) був повернутий тегований атрибут, **radiusgettaggedattrdata()** поверне тег із атрибуту.
+Якщо з [radiusgetattr()](function.radius-get-attr.md) був повернутий тегований атрибут, **radiusgettaggedattrdata()** поверне тег із атрибуту.
 
 ### Список параметрів
 
@@ -55,5 +55,5 @@ while ($resa = radius_get_attr($res)) {
 
 ### Дивіться також
 
--   [radiusgetattr()](function.radius-get-attr.html) - Витягує атрибут
--   [radiusgettaggedattrtag()](function.radius-get-tagged-attr-tag.html) - Витягує тег із позначеного атрибуту
+-   [radiusgetattr()](function.radius-get-attr.md) - Витягує атрибут
+-   [radiusgettaggedattrtag()](function.radius-get-tagged-attr-tag.md) - Витягує тег із позначеного атрибуту

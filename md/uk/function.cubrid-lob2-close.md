@@ -18,13 +18,13 @@ cubridlob2close — Закриває об'єкт LOB
 cubrid_lob2_close(resource $lob_identifier): bool
 ```
 
-Функція **cubridlob2close()** використовується для закриття об'єкта LOB, повернутих функцією [cubridlob2new()](function.cubrid-lob2-new.html) або отриманого із результуючого набору.
+Функція **cubridlob2close()** використовується для закриття об'єкта LOB, повернутих функцією [cubridlob2new()](function.cubrid-lob2-new.md) або отриманого із результуючого набору.
 
 ### Список параметрів
 
 `lob_identifier`
 
-Ідентифікатор LOB, повернутий функцією [cubridlob2new()](function.cubrid-lob2-new.html) або отриманий із результуючого набору.
+Ідентифікатор LOB, повернутий функцією [cubridlob2new()](function.cubrid-lob2-new.md) або отриманий із результуючого набору.
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ cubrid_lob2_close(resource $lob_identifier): bool
 
 ### Дивіться також
 
--   [cubridlob2new()](function.cubrid-lob2-new.html) - Створює об'єкт LOB
+-   [cubridlob2new()](function.cubrid-lob2-new.md) - Створює об'єкт LOB

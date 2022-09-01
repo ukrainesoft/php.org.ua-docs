@@ -26,7 +26,7 @@ ssh2_sftp_lstat(resource $sftp, string $path): array
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.html)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.md)
 
 `path`
 
@@ -59,6 +59,6 @@ $mode = $statinfo['mode'];
 
 ### Дивіться також
 
--   [ssh2sftpstat()](function.ssh2-sftp-stat.html) - Інформація про файл
+-   [ssh2sftpstat()](function.ssh2-sftp-stat.md) - Інформація про файл
 -   [lstat()](function.lstat.md) - Повертає інформацію про файл або символічне посилання
 -   [stat()](function.stat.md) - Повертає інформацію про файл

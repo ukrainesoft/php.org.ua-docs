@@ -98,19 +98,19 @@ win32_create_service(array $details, string $machine = ?): void
 
 Дія буде виконана за першої помилки. Значення за замовчуванням - **`WIN32_SC_ACTION_NONE`**
 
-Для `recovery_action_1` можна задати одну з констант [действий восстановления Win32](win32service.constants.recovery-action.html)
+Для `recovery_action_1` можна задати одну з констант [действий восстановления Win32](win32service.constants.recovery-action.md)
 
 `recovery_action_2`
 
 Дія буде виконана за другої помилки. Значення за замовчуванням - **`WIN32_SC_ACTION_NONE`**
 
-Для `recovery_action_2` можна задати одну з констант [действий восстановления Win32](win32service.constants.recovery-action.html)
+Для `recovery_action_2` можна задати одну з констант [действий восстановления Win32](win32service.constants.recovery-action.md)
 
 `recovery_action_3`
 
 Дія буде виконана за наступних помилок. Значення за замовчуванням - **`WIN32_SC_ACTION_NONE`**
 
-Для `recovery_action_3` можна задати одну з констант [действий восстановления Win32](win32service.constants.recovery-action.html)
+Для `recovery_action_3` можна задати одну з констант [действий восстановления Win32](win32service.constants.recovery-action.md)
 
 `recovery_reset_period`
 
@@ -238,7 +238,7 @@ debug_zval_dump($x);
 
 ### Дивіться також
 
--   [win32deleteservice()](function.win32-delete-service.html) - Видалення запису служби з бази даних SCM
+-   [win32deleteservice()](function.win32-delete-service.md) - Видалення запису служби з бази даних SCM
 -   [Базові класи пріоритету Win32](win32service.constants.basepriorities.md)
--   [Действия восстановления Win32](win32service.constants.recovery-action.html)
+-   [Действия восстановления Win32](win32service.constants.recovery-action.md)
 -   [Коди помилок Win32](win32service.constants.errors.md)

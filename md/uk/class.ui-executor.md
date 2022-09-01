@@ -46,7 +46,7 @@ public setInterval(int $seconds, int $microseconds): bool
 
 ## Зміст
 
--   [ОЙExecutor::construct](ui-executor.construct.html) — Створити новий об'єкт Executor
--   [ОЙExecutor::kill](ui-executor.kill.html) - Зупинити виконавець
--   [ОЙExecutor::onExecute](ui-executor.onexecute.html) - Callback-функція виконання
--   [ОЙExecutor::setInterval](ui-executor.setinterval.html) - Управління інтервалом
+-   [ОЙExecutor::construct](ui-executor.construct.md) — Створити новий об'єкт Executor
+-   [ОЙExecutor::kill](ui-executor.kill.md) - Зупинити виконавець
+-   [ОЙExecutor::onExecute](ui-executor.onexecute.md) - Callback-функція виконання
+-   [ОЙExecutor::setInterval](ui-executor.setinterval.md) - Управління інтервалом

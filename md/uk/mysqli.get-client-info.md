@@ -20,7 +20,7 @@ mysqli::$clientinfo -- mysqli::getclientinfo -- mysqligetclientinfo — Отри
 
 Об'єктно-орієнтований стиль
 
-string [$mysqli->clientinfo](mysqli.get-client-info.html)
+string [$mysqli->clientinfo](mysqli.get-client-info.md)
 
 ```methodsynopsis
 public mysqli::get_client_info(): string
@@ -65,6 +65,6 @@ printf("Версия клиентской библиотеки: %s\n", mysql
 
 ### Дивіться також
 
--   [mysqligetclientversion()](mysqli.get-client-version.html) - Повертає інформацію про клієнта MySQL у вигляді рядка
--   [mysqligetserverinfo()](mysqli.get-server-info.html) - Повертає версію MySQL сервера
--   [mysqligetserverversion()](mysqli.get-server-version.html) - Повертає версію сервера MySQL, представлену у вигляді integer
+-   [mysqligetclientversion()](mysqli.get-client-version.md) - Повертає інформацію про клієнта MySQL у вигляді рядка
+-   [mysqligetserverinfo()](mysqli.get-server-info.md) - Повертає версію MySQL сервера
+-   [mysqligetserverversion()](mysqli.get-server-version.md) - Повертає версію сервера MySQL, представлену у вигляді integer

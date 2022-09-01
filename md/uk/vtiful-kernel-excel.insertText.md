@@ -40,7 +40,7 @@ public Vtiful\Kernel\Excel::insertText(    int $row,    int $column,  
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

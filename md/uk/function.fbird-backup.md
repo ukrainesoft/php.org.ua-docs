@@ -10,8 +10,8 @@ title: fbirdbackup
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdbackup - Псевдонім [ibasebackup()](function.ibase-backup.html)
+fbirdbackup - Псевдонім [ibasebackup()](function.ibase-backup.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibasebackup()](function.ibase-backup.html)
+Ця функція є псевдонімом: [ibasebackup()](function.ibase-backup.md)

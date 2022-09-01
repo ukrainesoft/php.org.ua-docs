@@ -4,9 +4,9 @@ navigation:
   - ref.posix.md: POSIX Функции »
   - index.md: PHP Manual
   - posix.constants.md: Обумовлені константи
-title: 'Константи [posixsetrlimit()](function.posix-setrlimit.html)'
+title: 'Константи [posixsetrlimit()](function.posix-setrlimit.md)'
 ---
-## Константи [posixsetrlimit()](function.posix-setrlimit.html)
+## Константи [posixsetrlimit()](function.posix-setrlimit.md)
 
 > **Зауваження**
 > 
@@ -26,7 +26,7 @@ title: 'Константи [posixsetrlimit()](function.posix-setrlimit.html)'
 
 **`POSIX_RLIMIT_CPU`** (int)
 
-Максимальна кількість процесорного часу, яка може бути використана процесом, у секундах. Коли досягається м'яке обмеження, процесу буде надіслано сигнал `SIGXCPU`, який може бути оброблений за допомогою функції [pcntlsignal()](function.pcntl-signal.html). Залежно від операційної системи, може щомиті посилатися додатковий сигнал `SIGXCPU`, поки не буде досягнуто жорсткої межі, досягнення якої не можна обробити. Процесу буде надіслано сигнал `SIGKILL`. Дивіться також [settimelimit()](function.set-time-limit.html)
+Максимальна кількість процесорного часу, яка може бути використана процесом, у секундах. Коли досягається м'яке обмеження, процесу буде надіслано сигнал `SIGXCPU`, який може бути оброблений за допомогою функції [pcntlsignal()](function.pcntl-signal.html). Залежно від операційної системи, може щомиті посилатися додатковий сигнал `SIGXCPU`, поки не буде досягнуто жорсткої межі, досягнення якої не можна обробити. Процесу буде надіслано сигнал `SIGKILL`. Дивіться також [settimelimit()](function.set-time-limit.md)
 
 **`POSIX_RLIMIT_DATA`** (int)
 
@@ -50,7 +50,7 @@ title: 'Константи [posixsetrlimit()](function.posix-setrlimit.html)'
 
 **`POSIX_RLIMIT_NICE`** (int)
 
-Максимальне значення, пріоритет планувальника процесів, яке може бути [установлено](function.pcntl-setpriority.html). Підсумкове значення обчислюється як `20 - limit`. Як обмеження ресурсу значення може бути негативним.
+Максимальне значення, пріоритет планувальника процесів, яке може бути [установлено](function.pcntl-setpriority.md). Підсумкове значення обчислюється як `20 - limit`. Як обмеження ресурсу значення може бути негативним.
 
 **`POSIX_RLIMIT_NOFILE`** (int)
 

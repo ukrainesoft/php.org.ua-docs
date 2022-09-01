@@ -54,4 +54,4 @@ echo $expanded;
 
 -   [long2ip()](function.long2ip.md) - Конвертує ціле число в IPv4-адресу
 -   [ip2long()](function.ip2long.md) - Конвертує рядок, що містить IPv4-адресу в ціле число
--   [inetpton()](function.inet-pton.html) - Конвертує IP-адресу, що читається, в її упаковане подання inaddr
+-   [inetpton()](function.inet-pton.md) - Конвертує IP-адресу, що читається, в її упаковане подання inaddr

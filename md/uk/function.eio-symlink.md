@@ -52,7 +52,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
 
@@ -104,4 +104,4 @@ string(16) "/tmp/symlink.dat"
 
 ### Дивіться також
 
--   [eiolink()](function.eio-link.html) - Створює жорстке посилання на файл
+-   [eiolink()](function.eio-link.md) - Створює жорстке посилання на файл

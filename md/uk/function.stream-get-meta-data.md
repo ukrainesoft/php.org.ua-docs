@@ -24,7 +24,7 @@ stream_get_meta_data(resource $stream): array
 
 `stream`
 
-Параметр stream може бути будь-яким потоком, створеним за допомогою функцій [fopen()](function.fopen.md) [fsockopen()](function.fsockopen.md) [pfsockopen()](function.pfsockopen.md) і [streamsocketclient()](function.stream-socket-client.html)
+Параметр stream може бути будь-яким потоком, створеним за допомогою функцій [fopen()](function.fopen.md) [fsockopen()](function.fsockopen.md) [pfsockopen()](function.pfsockopen.md) і [streamsocketclient()](function.stream-socket-client.md)
 
 ### Значення, що повертаються
 
@@ -32,7 +32,7 @@ stream_get_meta_data(resource $stream): array
 
 -   `timed_out` (bool) - **`true`**, якщо потік перевищив час очікування даних під час останнього виклику функції [fread()](function.fread.md) або [fgets()](function.fgets.md)
     
--   `blocked` (bool) - \*\*`true`\*\*якщо потік знаходиться в режимі блокуючого введення-виводу. Дивіться функцію [streamsetblocking()](function.stream-set-blocking.html)
+-   `blocked` (bool) - \*\*`true`\*\*якщо потік знаходиться в режимі блокуючого введення-виводу. Дивіться функцію [streamsetblocking()](function.stream-set-blocking.md)
     
 -   `eof` (bool) - \*\*`true`\*\*якщо потік досяг кінця файлу. Зауважте, що для потоків типу socket цей член може дорівнювати **`true`**, навіть коли `unread_bytes` не дорівнює нулю. Для того, щоб визначити, чи є ще дані для читання, використовуйте [feof()](function.feof.md) замість читання цього елемента.
     
@@ -129,7 +129,7 @@ array(10) {
 }
 ```
 
-**Приклад #2 Приклад використання **streamgetmetadata()** з використанням [streamsocketclient()](function.stream-socket-client.html) з https**
+**Приклад #2 Приклад використання **streamgetmetadata()** з використанням [streamsocketclient()](function.stream-socket-client.md) з https**
 
 ```php
 <?php
@@ -195,5 +195,5 @@ array(8) {
 
 ### Дивіться також
 
--   [getheaders()](function.get-headers.html) - Повертає всі заголовки з відповіді сервера на запит HTTP
+-   [getheaders()](function.get-headers.md) - Повертає всі заголовки з відповіді сервера на запит HTTP
 -   [$httpresponseheader](reserved.variables.httpresponseheader.md)

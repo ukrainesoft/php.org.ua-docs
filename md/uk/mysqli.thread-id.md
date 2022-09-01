@@ -18,7 +18,7 @@ mysqli::$threadid - mysqlithreadid — Повертає ID процесу пот
 
 Об'єктно-орієнтований стиль
 
-int [$mysqli->threadід](mysqli.thread-id.html)
+int [$mysqli->threadід](mysqli.thread-id.md)
 
 Процедурний стиль
 
@@ -38,7 +38,7 @@ mysqli_thread_id(mysqli $mysql): int
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 

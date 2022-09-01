@@ -18,13 +18,13 @@ sqlsrvnumrows — Отримує кількість рядків у наборі
 sqlsrv_num_rows(resource $stmt): mixed
 ```
 
-Витягує кількість рядків у наборі результатів. Функція вимагає, щоб ресурс оператора було створено за допомогою статичного курсору або курсору набору ключів. Для отримання додаткової інформації дивіться опис функцій [sqlsrvquery()](function.sqlsrv-query.html) [sqlsrvprepare()](function.sqlsrv-prepare.html) або [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.
+Витягує кількість рядків у наборі результатів. Функція вимагає, щоб ресурс оператора було створено за допомогою статичного курсору або курсору набору ключів. Для отримання додаткової інформації дивіться опис функцій [sqlsrvquery()](function.sqlsrv-query.html) [sqlsrvprepare()](function.sqlsrv-prepare.md) або [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.
 
 ### Список параметрів
 
 `stmt`
 
-Оператор, для якого повертається кількість рядків. Ресурс оператора має бути створений за допомогою статичного курсору чи курсору набору ключів. Для отримання додаткової інформації дивіться опис функцій [sqlsrvquery()](function.sqlsrv-query.html) [sqlsrvprepare()](function.sqlsrv-prepare.html) або [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.
+Оператор, для якого повертається кількість рядків. Ресурс оператора має бути створений за допомогою статичного курсору чи курсору набору ключів. Для отримання додаткової інформації дивіться опис функцій [sqlsrvquery()](function.sqlsrv-query.html) [sqlsrvprepare()](function.sqlsrv-prepare.md) або [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.
 
 ### Значення, що повертаються
 
@@ -56,5 +56,5 @@ else
 
 ### Дивіться також
 
--   [sqlsrvhasrows()](function.sqlsrv-has-rows.html) - Вказує, чи має вказаний оператор рядки
--   [sqlsrvrowsaffected()](function.sqlsrv-rows-affected.html) - Повертає кількість рядків, змінених останнім виконаним запитом INSERT, UPDATE чи DELETE
+-   [sqlsrvhasrows()](function.sqlsrv-has-rows.md) - Вказує, чи має вказаний оператор рядки
+-   [sqlsrvrowsaffected()](function.sqlsrv-rows-affected.md) - Повертає кількість рядків, змінених останнім виконаним запитом INSERT, UPDATE чи DELETE

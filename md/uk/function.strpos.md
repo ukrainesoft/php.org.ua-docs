@@ -110,12 +110,12 @@ $pos = strpos($newstring, 'a', 1); // $pos = 7, не 0
 ### Дивіться також
 
 -   [stripos()](function.stripos.md) - Повертає позицію першого входження підрядка без урахування регістру
--   [strcontains()](function.str-contains.html) - Визначає, чи містить рядок заданий підрядок
--   [strendswith()](function.str-ends-with.html) - Перевіряє, чи закінчується рядок заданим підрядком
--   [strstartswith()](function.str-starts-with.html) - Перевіряє, чи починається рядок із заданого підрядка
+-   [strcontains()](function.str-contains.md) - Визначає, чи містить рядок заданий підрядок
+-   [strendswith()](function.str-ends-with.md) - Перевіряє, чи закінчується рядок заданим підрядком
+-   [strstartswith()](function.str-starts-with.md) - Перевіряє, чи починається рядок із заданого підрядка
 -   [strrpos()](function.strrpos.md) - Повертає позицію останнього входження підрядка у рядку
 -   [strripos()](function.strripos.md) - Повертає позицію останнього входження підрядка без урахування регістру
 -   [strstr()](function.strstr.md) - Знаходить перше входження підрядка
 -   [strpbrk()](function.strpbrk.md) - Шукає у рядку будь-який символ із заданого набору
 -   [substr()](function.substr.md) - Повертає підрядок
--   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу

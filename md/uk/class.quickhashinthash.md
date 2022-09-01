@@ -14,7 +14,7 @@ title: Клас QuickHashIntHash
 
 Клас-обгортка для хеш-таблиці з ключами та значеннями, що є цілими числами. Також реалізує інтерфейс [ArrayAccess](class.arrayaccess.md)
 
-Клас реалізує інтерфейс [Iterator](class.iterator.md)що дає можливість перебору за допомогою конструкції [`foreach`](control-structures.foreach.html). Порядок проходження елементів не гарантується.
+Клас реалізує інтерфейс [Iterator](class.iterator.md)що дає можливість перебору за допомогою конструкції [`foreach`](control-structures.foreach.md). Порядок проходження елементів не гарантується.
 
 ## Огляд класів
 

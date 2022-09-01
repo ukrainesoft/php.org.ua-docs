@@ -51,4 +51,4 @@ for ($i = 0; $i < $coln; $i++) {
 
 ### Дивіться також
 
--   [ibasefieldinfo()](function.ibase-field-info.html) - Отримує інформацію про поле
+-   [ibasefieldinfo()](function.ibase-field-info.md) - Отримує інформацію про поле

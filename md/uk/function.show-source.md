@@ -10,8 +10,8 @@ title: showsource
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-showsource - Псевдонім [highlightfile()](function.highlight-file.html)
+showsource - Псевдонім [highlightfile()](function.highlight-file.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [highlightfile()](function.highlight-file.html)
+Ця функція є псевдонімом: [highlightfile()](function.highlight-file.md)

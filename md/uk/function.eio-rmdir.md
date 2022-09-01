@@ -48,7 +48,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
 
@@ -89,4 +89,4 @@ eio_rmdir_ok
 
 ### Дивіться також
 
--   [eiomkdir()](function.eio-mkdir.html) - створення директорії
+-   [eiomkdir()](function.eio-mkdir.md) - створення директорії

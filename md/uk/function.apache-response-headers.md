@@ -50,6 +50,6 @@ Array
 
 ### Дивіться також
 
--   [apacherequestheaders()](function.apache-request-headers.html) - Отримує список усіх заголовків HTTP-запиту
--   [headerssent()](function.headers-sent.html) - Перевіряє, чи були надіслані заголовки
--   [headerslist()](function.headers-list.html) - Повертає список переданих заголовків (або готових до відправлення)
+-   [apacherequestheaders()](function.apache-request-headers.md) - Отримує список усіх заголовків HTTP-запиту
+-   [headerssent()](function.headers-sent.md) - Перевіряє, чи були надіслані заголовки
+-   [headerslist()](function.headers-list.md) - Повертає список переданих заголовків (або готових до відправлення)

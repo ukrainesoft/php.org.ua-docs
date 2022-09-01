@@ -57,7 +57,7 @@ echo get_include_path();  // .:/usr/local/lib/php
 
 ### Дивіться також
 
--   [inirestore()](function.ini-restore.html) - Відновлює налаштування конфігурації.
--   [getincludepath()](function.get-include-path.html) - Отримання поточного значення конфігураційної установки includepath
--   [setincludepath()](function.set-include-path.html) - Встановлює налаштування конфігурації includepath
+-   [inirestore()](function.ini-restore.md) - Відновлює налаштування конфігурації.
+-   [getincludepath()](function.get-include-path.md) - Отримання поточного значення конфігураційної установки includepath
+-   [setincludepath()](function.set-include-path.md) - Встановлює налаштування конфігурації includepath
 -   [include](function.include.md) - include

@@ -18,7 +18,7 @@ chunksplit — Розбиває рядок на фрагменти
 chunk_split(string $string, int $length = 76, string $separator = "\r\n"): string
 ```
 
-Функція використовується для розбиття рядка на фрагменти, наприклад, для наведення результату функції [base64encode()](function.base64-encode.html) у відповідність до вимог RFC 2045. Вона вставляє рядок `separator` після кожних `length` символів.
+Функція використовується для розбиття рядка на фрагменти, наприклад, для наведення результату функції [base64encode()](function.base64-encode.md) у відповідність до вимог RFC 2045. Вона вставляє рядок `separator` після кожних `length` символів.
 
 ### Список параметрів
 
@@ -51,7 +51,7 @@ $new_string = chunk_split(base64_encode($data));
 
 ### Дивіться також
 
--   [strsplit()](function.str-split.html) - Перетворює рядок на масив
+-   [strsplit()](function.str-split.md) - Перетворює рядок на масив
 -   [explode()](function.explode.md) - Розбиває рядок за допомогою роздільника
 -   [wordwrap()](function.wordwrap.md) - Переносить рядок за вказаною кількістю символів
 -   [» RFC 2045](http://www.faqs.org/rfcs/rfc2045)

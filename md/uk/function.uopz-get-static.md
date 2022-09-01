@@ -62,4 +62,4 @@ array(1) {
 
 ### Дивіться також
 
--   [uopzsetstatic()](function.uopz-set-static.html) - Встановлює статичні змінні у сфері видимості функції чи методу
+-   [uopzsetstatic()](function.uopz-set-static.md) - Встановлює статичні змінні у сфері видимості функції чи методу

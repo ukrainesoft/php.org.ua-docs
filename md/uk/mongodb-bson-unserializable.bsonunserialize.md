@@ -72,6 +72,6 @@ object(MyDocument)#1 (1) {
 
 ### Дивіться також
 
--   [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) - Надає масив або документ для серіалізації у BSON
--   [MongoDBBSONPersistable](class.mongodb-bson-persistable.html)
+-   [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) - Надає масив або документ для серіалізації у BSON
+-   [MongoDBBSONPersistable](class.mongodb-bson-persistable.md)
 -   [Постійні дані](mongodb.persistence.md)

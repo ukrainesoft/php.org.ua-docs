@@ -129,7 +129,7 @@ PKCS#3 DH Parameters: (2048 bit)
         generator: 2 (0x2)
 ```
 
-Значення prime і generator передаються у вигляді параметрів p і g [opensslpkeynew()](function.openssl-pkey-new.html)
+Значення prime і generator передаються у вигляді параметрів p і g [opensslpkeynew()](function.openssl-pkey-new.md)
 
 ```php
 <?php
@@ -152,7 +152,7 @@ echo bin2hex($shared_secret)."\n";
 
 ### Дивіться також
 
--   [opensslpkeynew()](function.openssl-pkey-new.html) - Генерує новий закритий ключ
--   [opensslpkeygetdetails()](function.openssl-pkey-get-details.html) - Отримує масив з детальною інформацією про ключ
--   [opensslpkeygetprivate()](function.openssl-pkey-get-private.html) - Отримати закритий ключ
--   [opensslpkeygetpublic()](function.openssl-pkey-get-public.html) - Витягує відкритий ключ із сертифіката та готує його до використання
+-   [opensslpkeynew()](function.openssl-pkey-new.md) - Генерує новий закритий ключ
+-   [opensslpkeygetdetails()](function.openssl-pkey-get-details.md) - Отримує масив з детальною інформацією про ключ
+-   [opensslpkeygetprivate()](function.openssl-pkey-get-private.md) - Отримати закритий ключ
+-   [opensslpkeygetpublic()](function.openssl-pkey-get-public.md) - Витягує відкритий ключ із сертифіката та готує його до використання

@@ -32,7 +32,7 @@ file_put_contents(    string $filename,    mixed $data,    int $flag
 
 Дані, що записуються. Може бути типу string, array або ресурсом потоку.
 
-Якщо `data` є потоковим ресурсом (stream), буфер цього потоку, що залишився, буде скопійований у зазначений файл. Це схоже на використання функції [streamcopyтоstream()](function.stream-copy-to-stream.html)
+Якщо `data` є потоковим ресурсом (stream), буфер цього потоку, що залишився, буде скопійований у зазначений файл. Це схоже на використання функції [streamcopyтоstream()](function.stream-copy-to-stream.md)
 
 Також ви можете передати одновимірний масив як параметр `data`. Це буде еквівалентно виклику `file_put_contents($filename, implode('', $array))`
 
@@ -50,7 +50,7 @@ file_put_contents(    string $filename,    mixed $data,    int $flag
 
 `context`
 
-Коректний ресурс контексту, створений за допомогою функції [streamcontextcreate()](function.stream-context-create.html)
+Коректний ресурс контексту, створений за допомогою функції [streamcontextcreate()](function.stream-context-create.md)
 
 ### Значення, що повертаються
 
@@ -102,5 +102,5 @@ file_put_contents($file, $person, FILE_APPEND | LOCK_EX);
 
 -   [fopen()](function.fopen.md) - Відкриває файл або URL
 -   [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл
--   [filegetcontents()](function.file-get-contents.html) - Читає вміст файлу в рядок
--   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку
+-   [filegetcontents()](function.file-get-contents.md) - Читає вміст файлу в рядок
+-   [streamcontextcreate()](function.stream-context-create.md) - Створює контекст потоку

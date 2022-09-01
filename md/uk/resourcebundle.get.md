@@ -34,7 +34,7 @@ resourcebundle_get(ResourceBundle $bundle, string|int $index, bool $fallback = t
 
 `bundle`
 
-Об'єкт [ResourceBundle](class.resourcebundle.html)
+Об'єкт [ResourceBundle](class.resourcebundle.md)
 
 `index`
 
@@ -46,7 +46,7 @@ resourcebundle_get(ResourceBundle $bundle, string|int $index, bool $fallback = t
 
 ### Значення, що повертаються
 
-Повертає дані з пакета за індексом або рядковим ключем або **`null`** у разі виникнення помилки. Рядки, цілі числа та бінарні рядки повертаються у відповідному типі PHP, масиви цілих чисел повертаються як масиви PHP. Складні типи повертаються як об'єкти [ResourceBundle](class.resourcebundle.html)
+Повертає дані з пакета за індексом або рядковим ключем або **`null`** у разі виникнення помилки. Рядки, цілі числа та бінарні рядки повертаються у відповідному типі PHP, масиви цілих чисел повертаються як масиви PHP. Складні типи повертаються як об'єкти [ResourceBundle](class.resourcebundle.md)
 
 ### Приклади
 
@@ -76,4 +76,4 @@ echo $r->get('somestring');
 
 ### Дивіться також
 
--   [resourcebundlecount()](resourcebundle.count.html) - Отримати кількість елементів у пакеті
+-   [resourcebundlecount()](resourcebundle.count.md) - Отримати кількість елементів у пакеті

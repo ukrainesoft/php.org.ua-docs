@@ -49,4 +49,4 @@ session_get_cookie_params(): array
 -   [session.cookiesecure](session.configuration.html#ini.session.cookie-secure)
 -   [session.cookiehttponly](session.configuration.html#ini.session.cookie-httponly)
 -   [session.cookiesamesite](session.configuration.html#ini.session.cookie-samesite)
--   [sessionsetcookieparams()](function.session-set-cookie-params.html) - Встановлює параметри сесійної cookie
+-   [sessionsetcookieparams()](function.session-set-cookie-params.md) - Встановлює параметри сесійної cookie

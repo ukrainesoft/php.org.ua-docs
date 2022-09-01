@@ -18,7 +18,7 @@ YafRouter::addConfig — Додає налаштовані маршрути до
 public Yaf_Router::addConfig(Yaf_Config_Abstract $config): bool
 ```
 
-Додає маршрути, визначені конфігураціями, у стек маршрутів [YafRouter](class.yaf-router.html)
+Додає маршрути, визначені конфігураціями, у стек маршрутів [YafRouter](class.yaf-router.md)
 
 ### Список параметрів
 
@@ -26,7 +26,7 @@ public Yaf_Router::addConfig(Yaf_Config_Abstract $config): bool
 
 ### Значення, що повертаються
 
-Екземпляр [YafConfigAbstract](class.yaf-config-abstract.html), який повинен містити одну або кілька допустимих конфігурацій маршруту
+Екземпляр [YafConfigAbstract](class.yaf-config-abstract.md), який повинен містити одну або кілька допустимих конфігурацій маршруту
 
 ### Приклади
 
@@ -66,10 +66,10 @@ class Bootstrap extends Yaf_Bootstrap_Abstract{
 
 ### Дивіться також
 
--   [YafRouter::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора
--   [YafRouteStatic](class.yaf-route-static.html)
--   [YafRouteSupervar](class.yaf-route-supervar.html)
--   [YafRouteSimple](class.yaf-route-simple.html)
--   [YafRouteRegex](class.yaf-route-regex.html)
--   [YafRouteRewrite](class.yaf-route-rewrite.html)
--   [YafRouteMap](class.yaf-route-map.html)
+-   [YafRouter::addRoute()](yaf-router.addroute.md) - Додає новий маршрут до маршрутизатора
+-   [YafRouteStatic](class.yaf-route-static.md)
+-   [YafRouteSupervar](class.yaf-route-supervar.md)
+-   [YafRouteSimple](class.yaf-route-simple.md)
+-   [YafRouteRegex](class.yaf-route-regex.md)
+-   [YafRouteRewrite](class.yaf-route-rewrite.md)
+-   [YafRouteMap](class.yaf-route-map.md)

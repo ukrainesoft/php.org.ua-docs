@@ -43,8 +43,8 @@ public OCILob::export(string $filename, ?int $offset = null, ?int $length = null
 | Версия | Описание |
 | --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | `offset` і `length` тепер допускають значення null. |
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
--   [OCILob::import](ocilob.import.html)
+-   [OCILob::import](ocilob.import.md)

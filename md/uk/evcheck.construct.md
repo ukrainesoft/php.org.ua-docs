@@ -14,15 +14,15 @@ EvCheck::construct — Конструктор об'єкту EvCheck
 
 ### Опис
 
-public **EvCheck::construct** [callable](language.types.callable.html) `$callback` [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` ?, int `$priority`
+public **EvCheck::construct** [callable](language.types.callable.md) `$callback` [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` ?, int `$priority`
 
-Створює спостерігач [EvCheck](class.evcheck.html)
+Створює спостерігач [EvCheck](class.evcheck.md)
 
 ### Список параметрів
 
 `callback`
 
-Дивіться [Callback-функції спостерігача](ev.watcher-callbacks.html)
+Дивіться [Callback-функції спостерігача](ev.watcher-callbacks.md)
 
 `data`
 
@@ -34,5 +34,5 @@ public **EvCheck::construct** [callable](language.types.callable.html) `$callbac
 
 ### Дивіться також
 
--   [EvPrepare](class.evprepare.html)
--   [EvLoop::check()](evloop.check.html) - Створює об'єкт EvCheck, пов'язаний із поточним екземпляром циклу подій
+-   [EvPrepare](class.evprepare.md)
+-   [EvLoop::check()](evloop.check.md) - Створює об'єкт EvCheck, пов'язаний із поточним екземпляром циклу подій

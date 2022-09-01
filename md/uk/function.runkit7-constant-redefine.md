@@ -38,5 +38,5 @@ runkit7_constant_redefine(string $constant_name, mixed $value, int $new_visibili
 
 ### Дивіться також
 
--   [runkit7constantadd()](function.runkit7-constant-add.html) - Аналогічний define(), але також дозволяє визначити константу класу
--   [runkit7constantremove()](function.runkit7-constant-remove.html) - Видаляє вже певну константу
+-   [runkit7constantadd()](function.runkit7-constant-add.md) - Аналогічний define(), але також дозволяє визначити константу класу
+-   [runkit7constantremove()](function.runkit7-constant-remove.md) - Видаляє вже певну константу

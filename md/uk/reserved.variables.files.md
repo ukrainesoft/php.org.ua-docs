@@ -14,7 +14,7 @@ FILES — Змінні файли, завантажені за HTTP
 
 ### Опис
 
-Асоціативний масив (array) елементів, завантажених у поточний скрипт через метод HTTP POST. Структура цього масиву описана у розділі [Завантаження файлів методом POST](features.file-upload.post-method.html)
+Асоціативний масив (array) елементів, завантажених у поточний скрипт через метод HTTP POST. Структура цього масиву описана у розділі [Завантаження файлів методом POST](features.file-upload.post-method.md)
 
 ### Примітки
 
@@ -24,5 +24,5 @@ FILES — Змінні файли, завантажені за HTTP
 
 ### Дивіться також
 
--   [moveuploadedfile()](function.move-uploaded-file.html) - Переміщує завантажений файл у нове місце
--   [Загрузка файлов на сервер](features.file-upload.html)
+-   [moveuploadedfile()](function.move-uploaded-file.md) - Переміщує завантажений файл у нове місце
+-   [Загрузка файлов на сервер](features.file-upload.md)

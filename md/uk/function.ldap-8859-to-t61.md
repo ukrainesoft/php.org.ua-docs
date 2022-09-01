@@ -34,4 +34,4 @@ ldap_8859_to_t61(string $value): string|false
 
 ### Дивіться також
 
--   [ldapt61то](function.ldap-t61-to-8859.html) - Перекладає символи з кодування t61 ISO-8859
+-   [ldapt61то](function.ldap-t61-to-8859.md) - Перекладає символи з кодування t61 ISO-8859

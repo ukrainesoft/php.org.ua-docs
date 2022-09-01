@@ -18,9 +18,9 @@ Memcached::getDelayed — Запитує декілька записів
 public Memcached::getDelayed(array $keys, bool $with_cas = ?, callable $value_cb = ?): bool
 ```
 
-**Memcached::getDelayed()** запитує у memcache кілька записів, ключі яких передані в масиві `keys`. Даний метод не чекає відповіді та повертає значення відразу. Коли ви готові отримати записи, зробіть виклик методу [Memcached::fetch()](memcached.fetch.html) або [Memcached::fetchAll()](memcached.fetchall.html). Якщо параметр `with_cas` встановлений у true, то CAS токени також будуть запитані.
+**Memcached::getDelayed()** запитує у memcache кілька записів, ключі яких передані в масиві `keys`. Даний метод не чекає відповіді та повертає значення відразу. Коли ви готові отримати записи, зробіть виклик методу [Memcached::fetch()](memcached.fetch.html) або [Memcached::fetchAll()](memcached.fetchall.md). Якщо параметр `with_cas` встановлений у true, то CAS токени також будуть запитані.
 
-Замість отримання результатів у явному вигляді, ви можете вказати [callback-функцию для получения результата](memcached.callbacks.html) за допомогою параметра `value_cb`
+Замість отримання результатів у явному вигляді, ви можете вказати [callback-функцию для получения результата](memcached.callbacks.md) за допомогою параметра `value_cb`
 
 ### Список параметрів
 
@@ -38,7 +38,7 @@ Callback-Функція, що повертає результат, або **`nul
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.html)
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.md)
 
 ### Приклади
 
@@ -90,6 +90,6 @@ array(2) {
 
 ### Дивіться також
 
--   [Memcached::getDelayedByKey()](memcached.getdelayedbykey.html) - Запитує кілька записів із вказаного сервера
--   [Memcached::fetch()](memcached.fetch.html) - Витягує наступний результат
--   [Memcached::fetchAll()](memcached.fetchall.html) - Витягує всі отримані записи
+-   [Memcached::getDelayedByKey()](memcached.getdelayedbykey.md) - Запитує кілька записів із вказаного сервера
+-   [Memcached::fetch()](memcached.fetch.md) - Витягує наступний результат
+-   [Memcached::fetchAll()](memcached.fetchall.md) - Витягує всі отримані записи

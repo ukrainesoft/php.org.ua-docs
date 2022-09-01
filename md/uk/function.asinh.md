@@ -32,7 +32,7 @@ asinh(float $num): float
 
 ### Дивіться також
 
--   [sinh()](function.sinh.html) - Гіперболічний синус
--   [asin()](function.asin.html) - Арксінус
--   [acosh()](function.acosh.html) - Гіперболічний арккосинус
--   [atanh()](function.atanh.html) - гіперболічний арктангенс
+-   [sinh()](function.sinh.md) - Гіперболічний синус
+-   [asin()](function.asin.md) - Арксінус
+-   [acosh()](function.acosh.md) - Гіперболічний арккосинус
+-   [atanh()](function.atanh.md) - гіперболічний арктангенс

@@ -18,8 +18,8 @@ snmpsetoidnumericprint — Встановлює вихідний формат OI
 snmp_set_oid_numeric_print(int $format): bool
 ```
 
-Ця функція є псевдонімом: [snmpsetoidoutputformat()](function.snmp-set-oid-output-format.html)
+Ця функція є псевдонімом: [snmpsetoidoutputformat()](function.snmp-set-oid-output-format.md)
 
 ### Дивіться також
 
--   [snmpsetoidoutputformat()](function.snmp-set-oid-output-format.html) - Встановлює вихідний формат OID
+-   [snmpsetoidoutputformat()](function.snmp-set-oid-output-format.md) - Встановлює вихідний формат OID

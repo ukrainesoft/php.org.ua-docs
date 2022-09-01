@@ -50,4 +50,4 @@ I love PHP!
 
 ### Дивіться також
 
--   [convertuuencode()](function.convert-uuencode.html) - Кодує рядок у форматі uuencode
+-   [convertuuencode()](function.convert-uuencode.md) - Кодує рядок у форматі uuencode

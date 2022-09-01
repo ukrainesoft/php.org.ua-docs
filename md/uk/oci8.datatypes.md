@@ -8,18 +8,18 @@ title: 'Типи даних, що підтримуються'
 ---
 # Типи даних, що підтримуються
 
-**Цей драйвер підтримує такі типи даних під час використання функції [ocibindбname()](function.oci-bind-by-name.html) для зв'язування параметрів:**
+**Цей драйвер підтримує такі типи даних під час використання функції [ocibindбname()](function.oci-bind-by-name.md) для зв'язування параметрів:**
 
 | Тип | Отображение |
 | --- | --- |
-| **`SQLT_NTY`** | Зв'язує оригінальний тип колекції з об'єкта колекції PHP, наприклад, створюваних функцією [ocinewcollection()](function.oci-new-collection.html) |
-| **`SQLT_BFILEE`** | Зв'язує оригінальний дескриптор, наприклад отриманий за допомогою функції [ocinewdescriptor()](function.oci-new-descriptor.html) |
-| **`SQLT_CFILEE`** | Зв'язує оригінальний дескриптор, наприклад отриманий за допомогою функції [ocinewdescriptor()](function.oci-new-descriptor.html) |
-| **`SQLT_CLOB`** | Зв'язує оригінальний дескриптор, наприклад отриманий за допомогою функції [ocinewdescriptor()](function.oci-new-descriptor.html) |
-| **`SQLT_BLOB`** | Зв'язує оригінальний дескриптор, наприклад отриманий за допомогою функції [ocinewdescriptor()](function.oci-new-descriptor.html) |
-| **`SQLT_RDD`** | Зв'язує оригінальний дескриптор, наприклад отриманий за допомогою функції [ocinewdescriptor()](function.oci-new-descriptor.html) |
+| **`SQLT_NTY`** | Зв'язує оригінальний тип колекції з об'єкта колекції PHP, наприклад, створюваних функцією [ocinewcollection()](function.oci-new-collection.md) |
+| **`SQLT_BFILEE`** | Зв'язує оригінальний дескриптор, наприклад отриманий за допомогою функції [ocinewdescriptor()](function.oci-new-descriptor.md) |
+| **`SQLT_CFILEE`** | Зв'язує оригінальний дескриптор, наприклад отриманий за допомогою функції [ocinewdescriptor()](function.oci-new-descriptor.md) |
+| **`SQLT_CLOB`** | Зв'язує оригінальний дескриптор, наприклад отриманий за допомогою функції [ocinewdescriptor()](function.oci-new-descriptor.md) |
+| **`SQLT_BLOB`** | Зв'язує оригінальний дескриптор, наприклад отриманий за допомогою функції [ocinewdescriptor()](function.oci-new-descriptor.md) |
+| **`SQLT_RDD`** | Зв'язує оригінальний дескриптор, наприклад отриманий за допомогою функції [ocinewdescriptor()](function.oci-new-descriptor.md) |
 | **`SQLT_NUM`** | Конвертує параметр PHP у тип long мови 'C', і прив'язує до цього значення. |
-| **`SQLT_RSET`** | Зв'язує оригінальний дескриптор виразу, наприклад отриманий з функції [ociparse()](function.oci-parse.html) або інших запитів OCI. |
+| **`SQLT_RSET`** | Зв'язує оригінальний дескриптор виразу, наприклад отриманий з функції [ociparse()](function.oci-parse.md) або інших запитів OCI. |
 | **`SQLT_BOL`** | Зв'язує PHP параметр з PL/SQL BOOLEAN |
 | **`SQLT_CHR`** та будь-який інший тип | Перетворює параметр PHP до рядкового типу та прив'язує його у вигляді рядка. |
 

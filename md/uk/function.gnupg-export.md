@@ -24,7 +24,7 @@ gnupg_export(resource $identifier, string $fingerprint): string
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
 
 `fingerprint`
 

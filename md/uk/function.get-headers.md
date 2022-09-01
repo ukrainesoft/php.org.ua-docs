@@ -32,7 +32,7 @@ get_headers(string $url, bool $associative = false, ?resource $context = null): 
 
 `context`
 
-Коректний контекст ресурсу, створений за допомогою [streamcontextcreate()](function.stream-context-create.html) або **`null`**, щоб використовувати контекст за замовчуванням.
+Коректний контекст ресурсу, створений за допомогою [streamcontextcreate()](function.stream-context-create.md) або **`null`**, щоб використовувати контекст за замовчуванням.
 
 ### Значення, що повертаються
 
@@ -108,4 +108,4 @@ $headers = get_headers('http://example.com');
 
 ### Дивіться також
 
--   [apacherequestheaders()](function.apache-request-headers.html) - Отримує список усіх заголовків HTTP-запиту
+-   [apacherequestheaders()](function.apache-request-headers.md) - Отримує список усіх заголовків HTTP-запиту

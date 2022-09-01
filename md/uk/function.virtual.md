@@ -36,7 +36,7 @@ virtual(string $uri): bool
 
 ### Приклади
 
-Приклад використання дивіться у функції [apachenote()](function.apache-note.html)
+Приклад використання дивіться у функції [apachenote()](function.apache-note.md)
 
 ### Примітки
 
@@ -54,4 +54,4 @@ virtual(string $uri): bool
 
 ### Дивіться також
 
--   [apachenote()](function.apache-note.html) - Повертає та встановлює повідомлення до запиту Apache
+-   [apachenote()](function.apache-note.md) - Повертає та встановлює повідомлення до запиту Apache

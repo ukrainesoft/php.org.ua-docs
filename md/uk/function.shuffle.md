@@ -34,7 +34,7 @@ shuffle(array &$array): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихря Мерсена.](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html) |
+|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихря Мерсена.](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.md) |
 
 ### Приклади
 
@@ -60,5 +60,5 @@ foreach ($numbers as $number) {
 
 ### Дивіться також
 
--   [arrayrand()](function.array-rand.html) - Вибирає один або кілька випадкових ключів із масиву
--   [Порівняння функцій сортування масивів](array.sorting.html)
+-   [arrayrand()](function.array-rand.md) - Вибирає один або кілька випадкових ключів із масиву
+-   [Порівняння функцій сортування масивів](array.sorting.md)

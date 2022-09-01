@@ -10,7 +10,7 @@ title: Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
-**Для [snmpsetoidoutputformat()](function.snmp-set-oid-output-format.html)**
+**Для [snmpsetoidoutputformat()](function.snmp-set-oid-output-format.md)**
 
 **`SNMP_OID_OUTPUT_SUFFIX`** (int)
 
@@ -24,7 +24,7 @@ title: Обумовлені константи
 
 **`SNMP_OID_OUTPUT_NONE`** (int)
 
-**Для [snmpsetvalueretrieval()](function.snmp-set-valueretrieval.html)**
+**Для [snmpsetvalueretrieval()](function.snmp-set-valueretrieval.md)**
 
 **`SNMP_VALUE_LIBRARY`** (int)
 
@@ -32,7 +32,7 @@ title: Обумовлені константи
 
 **`SNMP_VALUE_OBJECT`** (int)
 
-**Типи SNMP, що повертаються, якщо SNMPVALUEOBJECT використовується в [snmpsetvalueretrieval()](function.snmp-set-valueretrieval.html)**
+**Типи SNMP, що повертаються, якщо SNMPVALUEOBJECT використовується в [snmpsetvalueretrieval()](function.snmp-set-valueretrieval.md)**
 
 **`SNMP_BIT_STR`** (int)
 

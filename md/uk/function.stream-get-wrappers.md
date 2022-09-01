@@ -67,4 +67,4 @@ if (in_array('compress.bzip2', stream_get_wrappers())) {
 
 ### Дивіться також
 
--   [streamwrapperregister()](function.stream-wrapper-register.html) - реєструє обгортку URL, реалізовану у вигляді PHP-класу
+-   [streamwrapperregister()](function.stream-wrapper-register.md) - реєструє обгортку URL, реалізовану у вигляді PHP-класу

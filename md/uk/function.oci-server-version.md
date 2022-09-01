@@ -55,4 +55,4 @@ oci_close($conn);
 
 ### Дивіться також
 
--   [ociclientversion()](function.oci-client-version.html) - Повертає версію клієнтської бібліотеки
+-   [ociclientversion()](function.oci-client-version.md) - Повертає версію клієнтської бібліотеки

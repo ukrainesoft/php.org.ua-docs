@@ -23,9 +23,9 @@ random_bytes(int $length): string
 Джерело випадкових величин, що використовуються цією функцією:
 
 -   У Windows завжди використовується [**CryptGenRandom()**](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379942(v=vs.85).aspx) Починаючи з PHP 7.2.0, замість нього завжди використовуватиметься [» CNG-API](https://docs.microsoft.com/en-us/windows/desktop/SecCNG/cng-portal)
--   У Linux, якщо доступний, використовується системний виклик [» getrandom(2)](http://man7.org/linux/man-pages/man2/getrandom.2.html)
+-   У Linux, якщо доступний, використовується системний виклик [» getrandom(2)](http://man7.org/linux/man-pages/man2/getrandom.2.md)
 -   На інших платформах використовується /dev/urandom.
--   Якщо доступні джерела випадкових величин відсутні, викидається виняток [Exception](class.exception.html)
+-   Якщо доступні джерела випадкових величин відсутні, викидається виняток [Exception](class.exception.md)
 
 > **Зауваження**: Ця функція була додана в PHP 7.0, а для версій з 5.2 до 5.6 включно доступна [» користувацька реалізація](https://github.com/paragonie/random_compat)
 
@@ -41,9 +41,9 @@ random_bytes(int $length): string
 
 ### Помилки
 
--   Якщо відповідних джерел випадкових величин відсутні, то викидається виняток [Exception](class.exception.html)
--   Якщо встановлено некоректний параметр, викидається виняток [TypeError](class.typeerror.html)
--   Якщо буде задана некоректна довжина `length`, то буде викинуто виняток класу [Error](class.error.html)
+-   Якщо відповідних джерел випадкових величин відсутні, то викидається виняток [Exception](class.exception.md)
+-   Якщо встановлено некоректний параметр, викидається виняток [TypeError](class.typeerror.md)
+-   Якщо буде задана некоректна довжина `length`, то буде викинуто виняток класу [Error](class.error.md)
 
 ### Приклади
 
@@ -64,6 +64,6 @@ string(10) "385e33f741"
 
 ### Дивіться також
 
--   [randomint()](function.random-int.html) - Генерує криптографічно безпечні псевдовипадкові цілі числа
--   [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.html) - Генерує псевдовипадкову послідовність байт
--   [bin2hex()](function.bin2hex.html) - Перетворює бінарні дані на шістнадцяткове подання
+-   [randomint()](function.random-int.md) - Генерує криптографічно безпечні псевдовипадкові цілі числа
+-   [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.md) - Генерує псевдовипадкову послідовність байт
+-   [bin2hex()](function.bin2hex.md) - Перетворює бінарні дані на шістнадцяткове подання

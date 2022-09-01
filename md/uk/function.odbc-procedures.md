@@ -24,7 +24,7 @@ odbc_procedures(    resource $odbc,    ?string $catalog = null,    ?
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
 
 `catalog`
 
@@ -96,5 +96,5 @@ Array
 
 ### Дивіться також
 
--   [odbcprocedurecolumns()](function.odbc-procedurecolumns.html) - Отримує інформацію про параметри процедур
--   [odbctables()](function.odbc-tables.html) - Отримує список імен таблиць, що зберігаються у певному джерелі даних
+-   [odbcprocedurecolumns()](function.odbc-procedurecolumns.md) - Отримує інформацію про параметри процедур
+-   [odbctables()](function.odbc-tables.md) - Отримує список імен таблиць, що зберігаються у певному джерелі даних

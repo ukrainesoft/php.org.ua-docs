@@ -36,5 +36,5 @@ gmp_kronecker(GMP|int|string $num1, GMP|int|string $num2): int
 
 ### Дивіться також
 
--   [gmpjacobi()](function.gmp-jacobi.html) - Символ Якобі
--   [gmplegendre()](function.gmp-legendre.html) - Символ Лежандра
+-   [gmpjacobi()](function.gmp-jacobi.md) - Символ Якобі
+-   [gmplegendre()](function.gmp-legendre.md) - Символ Лежандра

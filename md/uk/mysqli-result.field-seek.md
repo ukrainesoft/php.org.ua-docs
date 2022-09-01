@@ -28,7 +28,7 @@ public mysqli_result::field_seek(int $index): bool
 mysqli_field_seek(mysqli_result $result, int $index): bool
 ```
 
-Встановлює вказівник поля на задане усунення. Наступний виклик [mysqlifetchfield()](mysqli-result.fetch-field.html) дозволить отримати інформацію про стовпчик з позицією усунення.
+Встановлює вказівник поля на задане усунення. Наступний виклик [mysqlifetchfield()](mysqli-result.fetch-field.md) дозволить отримати інформацію про стовпчик з позицією усунення.
 
 > **Зауваження**
 > 
@@ -38,7 +38,7 @@ mysqli_field_seek(mysqli_result $result, int $index): bool
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 `index`
 
@@ -130,4 +130,4 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqlifetchfield()](mysqli-result.fetch-field.html) - Повертає наступне поле результуючого набору
+-   [mysqlifetchfield()](mysqli-result.fetch-field.md) - Повертає наступне поле результуючого набору

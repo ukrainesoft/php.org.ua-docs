@@ -32,10 +32,10 @@ ssh2_publickey_init(resource $session): resource|false
 
 ### Примітки
 
-> **Зауваження**: Підсистема відкритих ключів використовується для керування відкритими ключами на сервері, на якому клієнт *вже* пройшов авторизацію. Для авторизації за допомогою відкритого ключа на віддаленій системі, використовуйте натомість функцію [ssh2authpubkeyfile()](function.ssh2-auth-pubkey-file.html)
+> **Зауваження**: Підсистема відкритих ключів використовується для керування відкритими ключами на сервері, на якому клієнт *вже* пройшов авторизацію. Для авторизації за допомогою відкритого ключа на віддаленій системі, використовуйте натомість функцію [ssh2authpubkeyfile()](function.ssh2-auth-pubkey-file.md)
 
 ### Дивіться також
 
--   [ssh2publickeyadd()](function.ssh2-publickey-add.html) - Додає авторизований відкритий ключ
--   [ssh2publickeyremove()](function.ssh2-publickey-remove.html) - Видаляє авторизований відкритий ключ
--   [ssh2publickeylist()](function.ssh2-publickey-list.html) - Список вже авторизованих відкритих ключів
+-   [ssh2publickeyadd()](function.ssh2-publickey-add.md) - Додає авторизований відкритий ключ
+-   [ssh2publickeyremove()](function.ssh2-publickey-remove.md) - Видаляє авторизований відкритий ключ
+-   [ssh2publickeylist()](function.ssh2-publickey-list.md) - Список вже авторизованих відкритих ключів

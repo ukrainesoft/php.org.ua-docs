@@ -77,4 +77,4 @@ mqseries_open(    resource $hconn,    array &$objDesc,    int $optio
 
 ### Дивіться також
 
--   [mqseriesclose()](function.mqseries-close.html) - MQSeries MQCLOSE
+-   [mqseriesclose()](function.mqseries-close.md) - MQSeries MQCLOSE

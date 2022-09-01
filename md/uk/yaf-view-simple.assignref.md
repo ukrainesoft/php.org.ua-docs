@@ -18,7 +18,7 @@ YafViewSimple::assignRef — Призначення assignRef
 public Yaf_View_Simple::assignRef(string $name, mixed &$value): bool
 ```
 
-На відміну від [YafViewSimple::assign()](yaf-view-simple.assign.html), цей метод надає значення ref движку.
+На відміну від [YafViewSimple::assign()](yaf-view-simple.assign.md), цей метод надає значення ref движку.
 
 ### Список параметрів
 
@@ -77,5 +77,5 @@ changed
 
 ### Дивіться також
 
--   [YafViewSimple::assign()](yaf-view-simple.assign.html) - Призначити значення
--   [YafViewSimple::set()](yaf-view-simple.set.html) - Встановлює значення для двигуна
+-   [YafViewSimple::assign()](yaf-view-simple.assign.md) - Призначити значення
+-   [YafViewSimple::set()](yaf-view-simple.set.md) - Встановлює значення для двигуна

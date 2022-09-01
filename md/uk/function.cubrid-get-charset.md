@@ -18,7 +18,7 @@ cubridgetcharset — Повертає кодування поточного з'�
 cubrid_get_charset(resource $conn_identifier): string
 ```
 
-Ця функція повертає кодування поточного з'єднання CUBRID та аналогічна функції сумісності CUBRID MySQL [cubridclientencoding()](function.cubrid-client-encoding.html)
+Ця функція повертає кодування поточного з'єднання CUBRID та аналогічна функції сумісності CUBRID MySQL [cubridclientencoding()](function.cubrid-client-encoding.md)
 
 ### Список параметрів
 
@@ -56,4 +56,4 @@ CUBRID current charset: iso8859-1
 
 ### Дивіться також
 
--   [cubridclientencoding()](function.cubrid-client-encoding.html) - Повертає кодування поточного з'єднання CUBRID
+-   [cubridclientencoding()](function.cubrid-client-encoding.md) - Повертає кодування поточного з'єднання CUBRID

@@ -32,6 +32,6 @@ variant_date_from_timestamp(int $timestamp): variant
 
 ### Дивіться також
 
--   [variantdateтоtimestamp()](function.variant-date-to-timestamp.html) - Перетворює варіант типу дата/час у часову мітку Unix
--   [mktime()](function.mktime.html) - Повертає позначку часу Unix для заданої дати
--   [time()](function.time.html) - Повертає поточну мітку системного часу Unix
+-   [variantdateтоtimestamp()](function.variant-date-to-timestamp.md) - Перетворює варіант типу дата/час у часову мітку Unix
+-   [mktime()](function.mktime.md) - Повертає позначку часу Unix для заданої дати
+-   [time()](function.time.md) - Повертає поточну мітку системного часу Unix

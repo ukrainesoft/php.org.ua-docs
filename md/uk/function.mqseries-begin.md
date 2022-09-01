@@ -20,7 +20,7 @@ mqseries_begin(    resource $hconn,    array $beginOptions,    resou
 
 Функція **mqseriesbegin()** (MQBEGIN) відкриває транзакцію, координує роботу менеджера черг та може використовувати зовнішні ресурси менеджера.
 
-**mqseriesbegin()** стартує транзакцію . [mqseriesback()](function.mqseries-back.html) або [mqseriescmit()](function.mqseries-cmit.html) - Завершують.
+**mqseriesbegin()** стартує транзакцію . [mqseriesback()](function.mqseries-back.html) або [mqseriescmit()](function.mqseries-cmit.md) - Завершують.
 
 ### Список параметрів
 
@@ -70,7 +70,7 @@ mqseries_begin(    resource $hconn,    array $beginOptions,    resou
 
 ### Дивіться також
 
--   [mqseriesconn()](function.mqseries-conn.html) - MQSeries MQCONN
--   [mqseriesconnx()](function.mqseries-connx.html) - MQSeries MQCONNX
--   [mqseriesback()](function.mqseries-back.html) - MQSeries MQBACK
--   [mqseriescmit()](function.mqseries-cmit.html) - MQSeries MQCMIT
+-   [mqseriesconn()](function.mqseries-conn.md) - MQSeries MQCONN
+-   [mqseriesconnx()](function.mqseries-connx.md) - MQSeries MQCONNX
+-   [mqseriesback()](function.mqseries-back.md) - MQSeries MQBACK
+-   [mqseriescmit()](function.mqseries-cmit.md) - MQSeries MQCMIT

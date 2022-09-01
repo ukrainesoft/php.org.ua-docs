@@ -27,13 +27,13 @@ title: Налаштування під час виконання
 
 `expect.timeout` int
 
-Максимальний час очікування даних під час використання функції [expectexpectl()](function.expect-expectl.html)
+Максимальний час очікування даних під час використання функції [expectexpectl()](function.expect-expectl.md)
 
 Значення "-1" задає вічне очікування.
 
 > **Зауваження**
 > 
-> Значення "0" означає, що функція [expectexpectl()](function.expect-expectl.html) завершиться одразу.
+> Значення "0" означає, що функція [expectexpectl()](function.expect-expectl.md) завершиться одразу.
 
 `expect.loguser` bool
 

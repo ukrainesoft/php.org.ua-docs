@@ -61,4 +61,4 @@ string(11) "98061641158"
 
 ### Дивіться також
 
--   [MongoDBDriverCursor::getId()](mongodb-driver-cursor.getid.html) - Повертає ідентифікатор для курсору
+-   [MongoDBDriverCursor::getId()](mongodb-driver-cursor.getid.md) - Повертає ідентифікатор для курсору

@@ -12,35 +12,35 @@ title: Обумовлені константи
 
 **`CAL_EASTER_DEFAULT`** (int)
 
-Для [easterdays()](function.easter-days.html): обчислювати Великдень для років до 1753 за юліанським календарем, а в наступні роки за григоріанським календарем.
+Для [easterdays()](function.easter-days.md): обчислювати Великдень для років до 1753 за юліанським календарем, а в наступні роки за григоріанським календарем.
 
 **`CAL_EASTER_ROMAN`** (int)
 
-Для [easterdays()](function.easter-days.html): обчислювати Великдень для років до 1583 за юліанським календарем, а в наступні роки за григоріанським календарем.
+Для [easterdays()](function.easter-days.md): обчислювати Великдень для років до 1583 за юліанським календарем, а в наступні роки за григоріанським календарем.
 
 **`CAL_EASTER_ALWAYS_GREGORIAN`** (int)
 
-Для [easterdays()](function.easter-days.html): обчислювати Великдень відповідно до пролептичного григоріанського календаря
+Для [easterdays()](function.easter-days.md): обчислювати Великдень відповідно до пролептичного григоріанського календаря
 
 **`CAL_EASTER_ALWAYS_JULIAN`** (int)
 
-Для [easterdays()](function.easter-days.html): обчислювати Великдень відповідно до юліанського календаря
+Для [easterdays()](function.easter-days.md): обчислювати Великдень відповідно до юліанського календаря
 
 **`CAL_GREGORIAN`** (int)
 
-Для [caldaysінmonth()](function.cal-days-in-month.html) [calfromjd()](function.cal-from-jd.html) [calinfo()](function.cal-info.html) і [calтоjd()](function.cal-to-jd.html): використовувати пролептичний григоріанський календар
+Для [caldaysінmonth()](function.cal-days-in-month.html) [calfromjd()](function.cal-from-jd.html) [calinfo()](function.cal-info.html) і [calтоjd()](function.cal-to-jd.md): використовувати пролептичний григоріанський календар
 
 **`CAL_JULIAN`** (int)
 
-Для [caldaysінmonth()](function.cal-days-in-month.html) [calfromjd()](function.cal-from-jd.html) [calinfo()](function.cal-info.html) і [calтоjd()](function.cal-to-jd.html): використовувати юліанський календар
+Для [caldaysінmonth()](function.cal-days-in-month.html) [calfromjd()](function.cal-from-jd.html) [calinfo()](function.cal-info.html) і [calтоjd()](function.cal-to-jd.md): використовувати юліанський календар
 
 **`CAL_JEWISH`** (int)
 
-Для [caldaysінmonth()](function.cal-days-in-month.html) [calfromjd()](function.cal-from-jd.html) [calinfo()](function.cal-info.html) і [calтоjd()](function.cal-to-jd.html): використовувати єврейський календар
+Для [caldaysінmonth()](function.cal-days-in-month.html) [calfromjd()](function.cal-from-jd.html) [calinfo()](function.cal-info.html) і [calтоjd()](function.cal-to-jd.md): використовувати єврейський календар
 
 **`CAL_FRENCH`** (int)
 
-Для [caldaysінmonth()](function.cal-days-in-month.html) [calfromjd()](function.cal-from-jd.html) [calinfo()](function.cal-info.html) і [calтоjd()](function.cal-to-jd.html): використовувати французький республіканський календар.
+Для [caldaysінmonth()](function.cal-days-in-month.html) [calfromjd()](function.cal-from-jd.html) [calinfo()](function.cal-info.html) і [calтоjd()](function.cal-to-jd.md): використовувати французький республіканський календар.
 
 **`CAL_NUM_CALS`** (int)
 

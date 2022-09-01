@@ -103,4 +103,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMarkNodeBulletList::construct](commonmark-node-bulletlist.construct.html) - Конструктор класу BulletList
+-   [CommonMarkNodeBulletList::construct](commonmark-node-bulletlist.construct.md) - Конструктор класу BulletList

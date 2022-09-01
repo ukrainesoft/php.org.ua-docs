@@ -130,14 +130,14 @@ final public unserialize(string $serialized): void
 
 Доданий тип **`MongoDB\BSON\Binary::TYPE_COLUMN`**
 
-| | PECL mongodb 1.7.0 Доданий тип **`MongoDB\BSON\Binary::TYPE_ENCRYPTED`**. | | PECL mongodb 1.3.0 Реалізує інтерфейс [MongoDBBSONBinaryInterface](class.mongodb-bson-binaryinterface.html). | | PECL mongodb 1.2.0 Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md).
+| | PECL mongodb 1.7.0 Доданий тип **`MongoDB\BSON\Binary::TYPE_ENCRYPTED`**. | | PECL mongodb 1.3.0 Реалізує інтерфейс [MongoDBBSONBinaryInterface](class.mongodb-bson-binaryinterface.md). | | PECL mongodb 1.2.0 Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md).
 
 ## Зміст
 
--   [MongoDBBSONBinary::construct](mongodb-bson-binary.construct.html) - Створює новий Binary
--   [MongoDBBSONBinary::getData](mongodb-bson-binary.getdata.html) - Повертає дані Binary
--   [MongoDBBSONBinary::getType](mongodb-bson-binary.gettype.html) - Повертає тип Binary
--   [MongoDBBSONBinary::jsonSerialize](mongodb-bson-binary.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDBBSONBinary::serialize](mongodb-bson-binary.serialize.html) - Серіалізує Binary
--   [MongoDBBSONBinary::toString](mongodb-bson-binary.tostring.html) - Повертає дані Binary
--   [MongoDBBSONBinary::unserialize](mongodb-bson-binary.unserialize.html) - Десеріалізує Binary
+-   [MongoDBBSONBinary::construct](mongodb-bson-binary.construct.md) - Створює новий Binary
+-   [MongoDBBSONBinary::getData](mongodb-bson-binary.getdata.md) - Повертає дані Binary
+-   [MongoDBBSONBinary::getType](mongodb-bson-binary.gettype.md) - Повертає тип Binary
+-   [MongoDBBSONBinary::jsonSerialize](mongodb-bson-binary.jsonserialize.md) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONBinary::serialize](mongodb-bson-binary.serialize.md) - Серіалізує Binary
+-   [MongoDBBSONBinary::toString](mongodb-bson-binary.tostring.md) - Повертає дані Binary
+-   [MongoDBBSONBinary::unserialize](mongodb-bson-binary.unserialize.md) - Десеріалізує Binary

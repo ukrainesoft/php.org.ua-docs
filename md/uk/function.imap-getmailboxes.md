@@ -24,11 +24,11 @@ imap_getmailboxes(IMAP\Connection $imap, string $reference, string $pattern): ar
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `reference`
 
-`reference` зазвичай має бути лише специфікацією сервера, як описано в [imapopen()](function.imap-open.html)
+`reference` зазвичай має бути лише специфікацією сервера, як описано в [imapopen()](function.imap-open.md)
 
 **Увага**
 
@@ -44,7 +44,7 @@ imap_getmailboxes(IMAP\Connection $imap, string $reference, string $pattern): ar
 
 Повертає масив об'єктів, що містять інформацію про скриньки. Кожен об'єкт має властивості: `name`, Що містить повне ім'я скриньки; `delimiter`містить роздільник для тієї частини ієрархії, в якій міститься ящик; і `attributes`. Параметр `Attributes` є бітовою маскою, наступних допустимих констант:
 
--   **`LATT_NOINFERIORS`** - цей ящик немає і може мати нащадків (утримувати вкладені ящики). Виклик функції [imapcreatemailbox()](function.imap-createmailbox.html) не працюватиме для цієї скриньки.
+-   **`LATT_NOINFERIORS`** - цей ящик немає і може мати нащадків (утримувати вкладені ящики). Виклик функції [imapcreatemailbox()](function.imap-createmailbox.md) не працюватиме для цієї скриньки.
     
 -   **`LATT_NOSELECT`** - це лише контейнер, а не поштова скринька. Ви не можете його відкрити.
     
@@ -65,7 +65,7 @@ imap_getmailboxes(IMAP\Connection $imap, string $reference, string $pattern): ar
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -94,4 +94,4 @@ imap_close($mbox);
 
 ### Дивіться також
 
--   [imapgetsubscribed()](function.imap-getsubscribed.html) - Список усіх поштових скриньок, на які ви підписані
+-   [imapgetsubscribed()](function.imap-getsubscribed.md) - Список усіх поштових скриньок, на які ви підписані

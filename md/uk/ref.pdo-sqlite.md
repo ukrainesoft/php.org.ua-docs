@@ -26,7 +26,7 @@ PDOSQLITE це драйвер, який реалізує [интерфейс Dat
 
 ## Зміст
 
--   [PDOSQLITE DSN](ref.pdo-sqlite.connection.html) — З'єднання з базою даних SQLite
+-   [PDOSQLITE DSN](ref.pdo-sqlite.connection.md) — З'єднання з базою даних SQLite
 -   [PDO::sqliteCreateAggregate](pdo.sqlitecreateaggregate.md) — Реєстрація агрегуючої функції користувача для використання в SQL-запитах
 -   [PDO::sqliteCreateCollation](pdo.sqlitecreatecollation.md) — Реєстрація функції сортування для використання в SQL-запитах
 -   [PDO::sqliteCreateFunction](pdo.sqlitecreatefunction.md) — Реєстрація функції користувача для використання в SQL-запитах

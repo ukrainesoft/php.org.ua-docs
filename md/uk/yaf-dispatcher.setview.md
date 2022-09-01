@@ -18,13 +18,13 @@ YafDispatcher::setView — Встановлює механізм відобра�
 public Yaf_Dispatcher::setView(Yaf_View_Interface $view): Yaf_Dispatcher
 ```
 
-Метод надає рішення, якщо ви хочете використовувати власний механізм відображення замість [YafViewSimple](class.yaf-view-simple.html)
+Метод надає рішення, якщо ви хочете використовувати власний механізм відображення замість [YafViewSimple](class.yaf-view-simple.md)
 
 ### Список параметрів
 
 `view`
 
-Екземпляр [YafViewInterface](class.yaf-view-interface.html)
+Екземпляр [YafViewInterface](class.yaf-view-interface.md)
 
 ### Значення, що повертаються
 
@@ -201,5 +201,5 @@ class Bootstrap extends Yaf_Bootstrap_Abstract {
 
 ### Дивіться також
 
--   [YafViewInterface](class.yaf-view-interface.html)
--   [YafViewSimple](class.yaf-view-simple.html)
+-   [YafViewInterface](class.yaf-view-interface.md)
+-   [YafViewSimple](class.yaf-view-simple.md)

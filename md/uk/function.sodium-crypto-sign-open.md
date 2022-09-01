@@ -24,7 +24,7 @@ sodium_crypto_sign_open(string $signed_message, string $public_key): string|fals
 
 `signed_message`
 
-Повідомлення, підписане [sodiumcryptosign()](function.sodium-crypto-sign.html)
+Повідомлення, підписане [sodiumcryptosign()](function.sodium-crypto-sign.md)
 
 `public_key`
 

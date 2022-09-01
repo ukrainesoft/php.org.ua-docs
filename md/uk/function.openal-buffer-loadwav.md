@@ -22,7 +22,7 @@ openal_buffer_loadwav(resource $buffer, string $wavfile): bool
 
 `buffer`
 
-Ресурс [Open AL(Buffer)](openal.resources.md) (раніше створений за допомогою [openalbuffercreate()](function.openal-buffer-create.html)
+Ресурс [Open AL(Buffer)](openal.resources.md) (раніше створений за допомогою [openalbuffercreate()](function.openal-buffer-create.md)
 
 `wavfile`
 
@@ -34,5 +34,5 @@ openal_buffer_loadwav(resource $buffer, string $wavfile): bool
 
 ### Дивіться також
 
--   [openalbufferdata()](function.openal-buffer-data.html) - Завантаження буфера з даними
--   [openalstream()](function.openal-stream.html) - Почати потокову передачу із джерела
+-   [openalbufferdata()](function.openal-buffer-data.md) - Завантаження буфера з даними
+-   [openalstream()](function.openal-stream.md) - Почати потокову передачу із джерела

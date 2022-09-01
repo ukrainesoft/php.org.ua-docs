@@ -32,4 +32,4 @@ imap_binary(string $string): string|false
 
 ### Дивіться також
 
--   [imapbase64()](function.imap-base64.html) - Декодувати текст закодований BASE64
+-   [imapbase64()](function.imap-base64.md) - Декодувати текст закодований BASE64

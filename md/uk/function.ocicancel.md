@@ -10,11 +10,11 @@ title: ocicancel
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocicancel - Псевдонім [ocicancel()](function.oci-cancel.html)
+ocicancel - Псевдонім [ocicancel()](function.oci-cancel.md)
 
 ### Опис
 
-Псевдонім [ocicancel()](function.oci-cancel.html)
+Псевдонім [ocicancel()](function.oci-cancel.md)
 
 **Увага**
 

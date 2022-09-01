@@ -67,4 +67,4 @@ foreach ($a as $val) {
 
 ### Дивіться також
 
--   [snmp2realwalk()](function.snmp2-real-walk.html) - Повертає всі об'єкти, включаючи їхній ідентифікатор
+-   [snmp2realwalk()](function.snmp2-real-walk.md) - Повертає всі об'єкти, включаючи їхній ідентифікатор

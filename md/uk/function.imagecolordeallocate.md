@@ -18,13 +18,13 @@ imagecolordeallocate — Розрив асоціації змінної із к�
 imagecolordeallocate(GdImage $image, int $color): bool
 ```
 
-Розриває асоціацію змінної з кольором, яка раніше була створена функціями [imagecolorallocate()](function.imagecolorallocate.html) або [imagecolorallocatealpha()](function.imagecolorallocatealpha.html)
+Розриває асоціацію змінної з кольором, яка раніше була створена функціями [imagecolorallocate()](function.imagecolorallocate.html) або [imagecolorallocatealpha()](function.imagecolorallocatealpha.md)
 
 ### Список параметрів
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `color`
 
@@ -38,7 +38,7 @@ imagecolordeallocate(GdImage $image, int $color): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -53,5 +53,5 @@ imagecolordeallocate($im, $white);
 
 ### Дивіться також
 
--   [imagecolorallocate()](function.imagecolorallocate.html) - Створення кольору для зображення
--   [imagecolorallocatealpha()](function.imagecolorallocatealpha.html) - Створення кольору для зображення
+-   [imagecolorallocate()](function.imagecolorallocate.md) - Створення кольору для зображення
+-   [imagecolorallocatealpha()](function.imagecolorallocatealpha.md) - Створення кольору для зображення

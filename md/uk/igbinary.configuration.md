@@ -22,7 +22,7 @@ title: Налаштування під час виконання
 | --- | --- | --- | --- |
 | [session.savehandler](igbinary.configuration.html#ini.igbinary.save-handler) | "files" | PHPINIALL |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 

@@ -20,7 +20,7 @@ date_default_timezone_get(): string
 
 Функція намагається отримати часовий пояс за замовчуванням таким чином:
 
--   Читання налаштування часового поясу за допомогою функції [datedefaulttimezoneset()](function.date-default-timezone-set.html) (якщо можна застосувати)
+-   Читання налаштування часового поясу за допомогою функції [datedefaulttimezoneset()](function.date-default-timezone-set.md) (якщо можна застосувати)
     
 -   Читання значення ini-налаштування [date.timezone](datetime.configuration.html#ini.date.timezone) (якщо задана)
     
@@ -78,5 +78,5 @@ America/Los_Angeles => America/Los_Angeles => PST
 
 ### Дивіться також
 
--   [datedefaulttimezoneset()](function.date-default-timezone-set.html) - Встановлює часовий пояс за промовчанням для всіх функцій дати/часу у скрипті
+-   [datedefaulttimezoneset()](function.date-default-timezone-set.md) - Встановлює часовий пояс за промовчанням для всіх функцій дати/часу у скрипті
 -   [Список підтримуваних часових поясів](timezones.md)

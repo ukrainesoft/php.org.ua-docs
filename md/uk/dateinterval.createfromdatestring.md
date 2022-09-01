@@ -24,17 +24,17 @@ public static DateInterval::createFromDateString(string $datetime): DateInterval
 
 `datetime`
 
-Дата, що складається з відносних часових фрагментів. Зокрема, для створення об'єкта DateInterval із частин, записаних у [відносному форматі](datetime.formats.relative.html), який підтримується парсером у функціях [DateTimeImmutable](class.datetimeimmutable.html) [DateTime](class.datetime.html) і [strtotime()](function.strtotime.html)
+Дата, що складається з відносних часових фрагментів. Зокрема, для створення об'єкта DateInterval із частин, записаних у [відносному форматі](datetime.formats.relative.html), який підтримується парсером у функціях [DateTimeImmutable](class.datetimeimmutable.html) [DateTime](class.datetime.html) і [strtotime()](function.strtotime.md)
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт класу [DateInterval](class.dateinterval.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає новий об'єкт класу [DateInterval](class.dateinterval.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Тільки властивості `from_string` і `date_string` буде видно при створенні об'єкта [DateInterval](class.dateinterval.html) за допомогою цього. |
+|  | Тільки властивості `from_string` і `date_string` буде видно при створенні об'єкта [DateInterval](class.dateinterval.md) за допомогою цього. |
 
 ### Приклади
 

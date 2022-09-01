@@ -20,7 +20,7 @@ dl(string $extension_filename): bool
 
 Завантажує модуль PHP, заданий аргументом `extension_filename`
 
-Щоб перевірити, чи заданий модуль вже завантажений, використовуйте функцію [extensionloaded()](function.extension-loaded.html). Функція працює як для вбудованих модулів, так і для динамічно завантажених (тобто завантажених як через php.ini, так і через **dl()**
+Щоб перевірити, чи заданий модуль вже завантажений, використовуйте функцію [extensionloaded()](function.extension-loaded.md). Функція працює як для вбудованих модулів, так і для динамічно завантажених (тобто завантажених як через php.ini, так і через **dl()**
 
 **Увага**
 
@@ -80,4 +80,4 @@ if (!extension_loaded('sqlite')) {
 ### Дивіться також
 
 -   [Директиви завантаження модулів](ini.core.html#ini.extension)
--   [extensionloaded()](function.extension-loaded.html) - Визначає, чи завантажений модуль
+-   [extensionloaded()](function.extension-loaded.md) - Визначає, чи завантажений модуль

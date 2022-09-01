@@ -70,6 +70,6 @@ if ($req) {
 
 ### Дивіться також
 
--   [cubridnewglo()](function.cubrid-new-glo.html) - Створює екземпляр glo
--   [cubridloadfromglo()](function.cubrid-load-from-glo.html) - Читає дані з екземпляра GLO та записує їх у файл
--   [cubridsendglo()](function.cubrid-send-glo.html) - Читання даних з glo та виведення їх у стандартний пристрій виведення
+-   [cubridnewglo()](function.cubrid-new-glo.md) - Створює екземпляр glo
+-   [cubridloadfromglo()](function.cubrid-load-from-glo.md) - Читає дані з екземпляра GLO та записує їх у файл
+-   [cubridsendglo()](function.cubrid-send-glo.md) - Читання даних з glo та виведення їх у стандартний пристрій виведення

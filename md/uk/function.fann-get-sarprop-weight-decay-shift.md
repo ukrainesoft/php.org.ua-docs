@@ -40,4 +40,4 @@ fann_get_sarprop_weight_decay_shift(resource $ann): float
 
 ### Дивіться також
 
--   [fannsetsarpropweightdecayshift()](function.fann-set-sarprop-weight-decay-shift.html) - Встановлює зміщення згасання sarprop
+-   [fannsetsarpropweightdecayshift()](function.fann-set-sarprop-weight-decay-shift.md) - Встановлює зміщення згасання sarprop

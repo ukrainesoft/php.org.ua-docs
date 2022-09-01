@@ -77,5 +77,5 @@ var_dump(constant('foo::'. $const)); // string(7) "foobar!"
 
 -   [define()](function.define.md) - визначає іменовану константу
 -   [defined()](function.defined.md) - Перевіряє існування вказаної іменованої константи
--   [getdefinedconstants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень
+-   [getdefinedconstants()](function.get-defined-constants.md) - Повертає асоціативний масив з іменами всіх констант та їх значень
 -   Дивіться розділ [Константи](language.constants.md)

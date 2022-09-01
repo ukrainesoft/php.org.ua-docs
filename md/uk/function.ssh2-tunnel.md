@@ -24,7 +24,7 @@ ssh2_tunnel(resource $session, string $host, int $port): resource
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
 
 `host`
 
@@ -47,5 +47,5 @@ $tunnel = ssh2_tunnel($connection, '10.0.0.101', 12345);
 
 ### Дивіться також
 
--   [ssh2connect()](function.ssh2-connect.html) - Підключення до SSH-сервера
--   [fsockopen()](function.fsockopen.html) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [ssh2connect()](function.ssh2-connect.md) - Підключення до SSH-сервера
+-   [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix

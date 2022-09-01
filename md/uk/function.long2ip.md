@@ -44,4 +44,4 @@ long2ip(int $ip): string|false
 
 ### Дивіться також
 
--   [ip2long()](function.ip2long.html) - Конвертує рядок, що містить IPv4-адресу в ціле число
+-   [ip2long()](function.ip2long.md) - Конвертує рядок, що містить IPv4-адресу в ціле число

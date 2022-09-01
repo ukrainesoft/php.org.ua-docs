@@ -77,6 +77,6 @@ verify
 
 ## Зміст
 
--   [YafRouteRegex::assemble](yaf-route-regex.assemble.html) — Сформувати URL-адресу
--   [YafRouteRegex::construct](yaf-route-regex.construct.html) - Конструктор класу YafRouteRegex
--   [YafRouteRegex::route](yaf-route-regex.route.html) - Мета маршруту
+-   [YafRouteRegex::assemble](yaf-route-regex.assemble.md) — Сформувати URL-адресу
+-   [YafRouteRegex::construct](yaf-route-regex.construct.md) - Конструктор класу YafRouteRegex
+-   [YafRouteRegex::route](yaf-route-regex.route.md) - Мета маршруту

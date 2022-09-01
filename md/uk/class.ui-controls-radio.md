@@ -58,7 +58,7 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsRadio::append](ui-controls-radio.append.html) - Додає варіант
--   [ОЙControlsRadio::getSelected](ui-controls-radio.getselected.html) — Отримати вибраний варіант
--   [ОЙControlsRadio::onSelected](ui-controls-radio.onselected.html) - Обробник вибору
--   [ОЙControlsRadio::setSelected](ui-controls-radio.setselected.html) — Встановити вибраний варіант
+-   [ОЙControlsRadio::append](ui-controls-radio.append.md) - Додає варіант
+-   [ОЙControlsRadio::getSelected](ui-controls-radio.getselected.md) — Отримати вибраний варіант
+-   [ОЙControlsRadio::onSelected](ui-controls-radio.onselected.md) - Обробник вибору
+-   [ОЙControlsRadio::setSelected](ui-controls-radio.setselected.md) — Встановити вибраний варіант

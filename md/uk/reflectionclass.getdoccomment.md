@@ -60,4 +60,4 @@ string(55) "/**
 
 ### Дивіться також
 
--   [ReflectionClass::getName()](reflectionclass.getname.html) - Повертає ім'я класу
+-   [ReflectionClass::getName()](reflectionclass.getname.md) - Повертає ім'я класу

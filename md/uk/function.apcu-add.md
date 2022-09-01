@@ -30,7 +30,7 @@ apcu_add(array $values, mixed $unused = NULL, int $ttl = 0): array
 
 `key`
 
-Ім'я, під яким буде збережено змінну. Значення `key` є унікальним для кеша, так що спроба використати **apcuadd()** для збереження змінної з ключем, що вже існує, не перезапише запис, а поверне **`false`**. (Це єдина різниця між **apcuadd()** і [apcustore()](function.apcu-store.html)
+Ім'я, під яким буде збережено змінну. Значення `key` є унікальним для кеша, так що спроба використати **apcuadd()** для збереження змінної з ключем, що вже існує, не перезапише запис, а поверне **`false`**. (Це єдина різниця між **apcuadd()** і [apcustore()](function.apcu-store.md)
 
 `var`
 
@@ -74,6 +74,6 @@ string(3) "BAR"
 
 ### Дивіться також
 
--   [apcustore()](function.apcu-store.html) - Кешує змінну
--   [apcufetch()](function.apcu-fetch.html) - Витягує з кеша збережену змінну
--   [apcudelete()](function.apcu-delete.html) - Видаляє збережене значення з кешу
+-   [apcustore()](function.apcu-store.md) - Кешує змінну
+-   [apcufetch()](function.apcu-fetch.md) - Витягує з кеша збережену змінну
+-   [apcudelete()](function.apcu-delete.md) - Видаляє збережене значення з кешу

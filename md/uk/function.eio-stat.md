@@ -48,7 +48,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
 
@@ -120,5 +120,5 @@ array(12) {
 
 ### Дивіться також
 
--   [eiolstat()](function.eio-lstat.html) - Повертає статус файлу
--   [eiofstat()](function.eio-fstat.html) - Повертає статус файлу
+-   [eiolstat()](function.eio-lstat.md) - Повертає статус файлу
+-   [eiofstat()](function.eio-fstat.md) - Повертає статус файлу

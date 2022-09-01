@@ -12,8 +12,8 @@ title: Обумовлені константи
 
 **`VAR_REPRESENTATION_SINGLE_LINE`** (int)
 
-[varrepresentation()](function.var-representation.html) - прапор, що вказує на те, що символи нового рядка не повинні використовуватися для пробілів у поданнях змінних.
+[varrepresentation()](function.var-representation.md) - прапор, що вказує на те, що символи нового рядка не повинні використовуватися для пробілів у поданнях змінних.
 
 **`VAR_REPRESENTATION_UNESCAPED`** (int)
 
-[varrepresentation()](function.var-representation.html) - прапор, що вказує, що рядки мають бути закодовані як рядки в одинарних лапках з неекранованими символами, що управляють.
+[varrepresentation()](function.var-representation.md) - прапор, що вказує, що рядки мають бути закодовані як рядки в одинарних лапках з неекранованими символами, що управляють.

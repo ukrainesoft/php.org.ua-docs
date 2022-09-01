@@ -26,7 +26,7 @@ final public MongoDB\Driver\Manager::executeQuery(string $namespace, MongoDB\Dri
 
 Повністю певне ім'я (тобто . `"databaseName.collectionName"`
 
-`query` [MongoDBDriverQuery](class.mongodb-driver-query.html)
+`query` [MongoDBDriverQuery](class.mongodb-driver-query.md)
 
 Запит на виконання.
 
@@ -36,29 +36,29 @@ final public MongoDB\Driver\Manager::executeQuery(string $namespace, MongoDB\Dri
 
 | Опция | Тип | Описание |
 | --- | --- | --- |
-| readPreference | [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html) |  |
+| readPreference | [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md) |  |
 | Перевага читання, що використовується для вибору сервера для виконання операції. |  |  |
 
-| | session | [MongoDBDriverSession](class.mongodb-driver-session.html)
+| | session | [MongoDBDriverSession](class.mongodb-driver-session.md)
 
 Сесія зв'язування з операцією.
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
+У разі успішного виконання повертає [MongoDBDriverCursor](class.mongodb-driver-cursor.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток [MongoDBDriverExceptionConnectionException](class.mongodb-driver-exception-connectionexception.html)
--   У разі невдалої аутентифікації кидає виняток [MongoDBDriverExceptionAuthenticationException](class.mongodb-driver-exception-authenticationexception.html)
--   При виникненні інших помилок (наприклад, неправильні оператори запиту) викидає виняток [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток [MongoDBDriverExceptionConnectionException](class.mongodb-driver-exception-connectionexception.md)
+-   У разі невдалої аутентифікації кидає виняток [MongoDBDriverExceptionAuthenticationException](class.mongodb-driver-exception-authenticationexception.md)
+-   При виникненні інших помилок (наприклад, неправильні оператори запиту) викидає виняток [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.md)
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-| PECL mongodb 1.4.0 | Третій параметр тепер є масивом `options`. Для зворотної сумісності цей параметр все одно прийме об'єкт [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html) |
+| PECL mongodb 1.4.0 | Третій параметр тепер є масивом `options`. Для зворотної сумісності цей параметр все одно прийме об'єкт [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md) |
 
 ### Приклади
 
@@ -106,7 +106,7 @@ object(stdClass)#7 (1) {
 
 **Приклад #2 Обмеження часу виконання запиту**
 
-Опція `"maxTimeMS"` класу [MongoDBDriverQuery](class.mongodb-driver-query.html) може використовуватись для обмеження часу виконання запиту. Зауважте, що цей термін застосовується на стороні сервера і не враховує затримки мережі. Дивіться [» Завершення виконання операцій](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems) у посібнику MongoDB для отримання додаткової інформації.
+Опція `"maxTimeMS"` класу [MongoDBDriverQuery](class.mongodb-driver-query.md) може використовуватись для обмеження часу виконання запиту. Зауважте, що цей термін застосовується на стороні сервера і не враховує затримки мережі. Дивіться [» Завершення виконання операцій](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems) у посібнику MongoDB для отримання додаткової інформації.
 
 ```php
 <?php
@@ -128,11 +128,11 @@ foreach ($cursor as $document) {
 ?>
 ```
 
-Якщо запит не завершиться через секунду після початку виконання на сервері, буде викинуто виняток [MongoDBDriverExceptionExecutionTimeoutException](class.mongodb-driver-exception-executiontimeoutexception.html)
+Якщо запит не завершиться через секунду після початку виконання на сервері, буде викинуто виняток [MongoDBDriverExceptionExecutionTimeoutException](class.mongodb-driver-exception-executiontimeoutexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
--   [MongoDBDriverQuery](class.mongodb-driver-query.html)
--   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
--   [MongoDBDriverServer::executeQuery()](mongodb-driver-server.executequery.html) - Виконує запит до бази даних на сервері
+-   [MongoDBDriverCursor](class.mongodb-driver-cursor.md)
+-   [MongoDBDriverQuery](class.mongodb-driver-query.md)
+-   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md)
+-   [MongoDBDriverServer::executeQuery()](mongodb-driver-server.executequery.md) - Виконує запит до бази даних на сервері

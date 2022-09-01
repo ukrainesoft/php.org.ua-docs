@@ -28,17 +28,17 @@ public mysqli::stmt_init(): mysqli_stmt|false
 mysqli_stmt_init(mysqli $mysql): mysqli_stmt|false
 ```
 
-Виділяє пам'ять та ініціалізує об'єкт запиту, який можна використовувати у функції [mysqlistmtprepare()](mysqli-stmt.prepare.html)
+Виділяє пам'ять та ініціалізує об'єкт запиту, який можна використовувати у функції [mysqlistmtprepare()](mysqli-stmt.prepare.md)
 
 > **Зауваження**
 > 
-> Усі наступні виклики mysqlistmt функцій викликають помилку, доки не буде викликана функція [mysqlistmtprepare()](mysqli-stmt.prepare.html)
+> Усі наступні виклики mysqlistmt функцій викликають помилку, доки не буде викликана функція [mysqlistmtprepare()](mysqli-stmt.prepare.md)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -46,4 +46,4 @@ mysqli_stmt_init(mysqli $mysql): mysqli_stmt|false
 
 ### Дивіться також
 
--   [mysqlistmtprepare()](mysqli-stmt.prepare.html) - готує затвердження SQL до виконання
+-   [mysqlistmtprepare()](mysqli-stmt.prepare.md) - готує затвердження SQL до виконання

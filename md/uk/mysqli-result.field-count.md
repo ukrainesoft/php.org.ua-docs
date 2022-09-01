@@ -18,7 +18,7 @@ mysqliresult::$fieldcount - mysqlinumfields — Отримує кількіст�
 
 Об'єктно-орієнтований стиль
 
-int [$mysqliresult->fieldcount](mysqli-result.field-count.html)
+int [$mysqliresult->fieldcount](mysqli-result.field-count.md)
 
 Процедурний стиль
 
@@ -32,7 +32,7 @@ mysqli_num_fields(mysqli_result $result): int
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 
@@ -80,4 +80,4 @@ printf("Получено %d полей.\n", $field_cnt);
 
 ### Дивіться також
 
--   [mysqlifetchfield()](mysqli-result.fetch-field.html) - Повертає наступне поле результуючого набору
+-   [mysqlifetchfield()](mysqli-result.fetch-field.md) - Повертає наступне поле результуючого набору

@@ -10,5 +10,5 @@ title: Функції Mysqlxdevapi
 
 ## Зміст
 
--   [expression](function.mysql-xdevapi-expression.html) — Зв'язує підготовлені змінні твердження як параметри
--   [getSession](function.mysql-xdevapi-getsession.html) — Підключається до сервера MySQL
+-   [expression](function.mysql-xdevapi-expression.md) — Зв'язує підготовлені змінні твердження як параметри
+-   [getSession](function.mysql-xdevapi-getsession.md) — Підключається до сервера MySQL

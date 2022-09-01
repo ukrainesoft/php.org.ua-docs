@@ -30,7 +30,7 @@ pg_last_notice(PgSql\Connection $connection, int $mode = PGSQL_NOTICE_LAST): arr
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md)
 
 `mode`
 
@@ -44,7 +44,7 @@ pg_last_notice(PgSql\Connection $connection, int $mode = PGSQL_NOTICE_LAST): arr
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | Доданий параметр `mode` |
 
 ### Приклади
@@ -71,5 +71,5 @@ CREATE TABLE will create implicit sequence "test_id_seq" for "serial" column "te
 
 ### Дивіться також
 
--   [пгquery()](function.pg-query.html) - Виконує запит
--   [пгlasterror()](function.pg-last-error.html) - Отримує повідомлення про останню помилку на з'єднанні з базою даних.
+-   [пгquery()](function.pg-query.md) - Виконує запит
+-   [пгlasterror()](function.pg-last-error.md) - Отримує повідомлення про останню помилку на з'єднанні з базою даних.

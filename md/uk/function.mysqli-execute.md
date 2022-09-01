@@ -10,11 +10,11 @@ title: mysqliexecute
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqliexecute - Синонім для [mysqlistmtexecute()](mysqli-stmt.execute.html)
+mysqliexecute - Синонім для [mysqlistmtexecute()](mysqli-stmt.execute.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [mysqlistmtexecute()](mysqli-stmt.execute.html)
+Ця функція є псевдонімом: [mysqlistmtexecute()](mysqli-stmt.execute.md)
 
 ### Примітки
 
@@ -24,4 +24,4 @@ mysqliexecute - Синонім для [mysqlistmtexecute()](mysqli-stmt.execute.
 
 ### Дивіться також
 
--   [mysqlistmtexecute()](mysqli-stmt.execute.html) - Виконує підготовлене затвердження
+-   [mysqlistmtexecute()](mysqli-stmt.execute.md) - Виконує підготовлене затвердження

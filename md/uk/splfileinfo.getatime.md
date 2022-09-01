@@ -30,8 +30,8 @@ public SplFileInfo::getATime(): int|false
 
 ### Помилки
 
-Викидає [RunTimeException](class.runtimeexception.html) у разі виникнення помилки.
+Викидає [RunTimeException](class.runtimeexception.md) у разі виникнення помилки.
 
 ### Дивіться також
 
--   [fileatime()](function.fileatime.html) - Повертає час останнього доступу до файлу
+-   [fileatime()](function.fileatime.md) - Повертає час останнього доступу до файлу

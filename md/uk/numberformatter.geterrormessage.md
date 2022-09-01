@@ -65,5 +65,5 @@ var_dump(numfmt_get_error_message($fmt));
 ### Дивіться також
 
 -   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
--   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
--   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
+-   [intlgeterrorcode()](function.intl-get-error-code.md) - Отримати код останньої помилки
+-   [intlісfailure()](function.intl-is-failure.md) - Перевірити, чи є код помилки ознакою збою

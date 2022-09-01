@@ -18,7 +18,7 @@ xdifffilebdiff — Створити бінарний патч порівнююч
 xdiff_file_bdiff(string $old_file, string $new_file, string $dest): bool
 ```
 
-Створює файл бінарного патчу, порівнюючи два файли. Ця функція працює як з бінарними, так і текстовими файлами. Надалі отриманий патч можна застосувати за допомогою функцій [xdifffilebpatch()](function.xdiff-file-bpatch.html)[xdiffstringbpatch()](function.xdiff-string-bpatch.html)
+Створює файл бінарного патчу, порівнюючи два файли. Ця функція працює як з бінарними, так і текстовими файлами. Надалі отриманий патч можна застосувати за допомогою функцій [xdifffilebpatch()](function.xdiff-file-bpatch.html)[xdiffstringbpatch()](function.xdiff-string-bpatch.md)
 
 ### Список параметрів
 
@@ -61,4 +61,4 @@ xdiff_file_bdiff($old_version, $new_version, 'my_script.bdiff');
 
 ### Дивіться також
 
--   [xdifffilebpatch()](function.xdiff-file-bpatch.html) - Застосувати бінарний патч до файлу
+-   [xdifffilebpatch()](function.xdiff-file-bpatch.md) - Застосувати бінарний патч до файлу

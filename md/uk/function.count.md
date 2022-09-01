@@ -165,9 +165,9 @@ int(2)
 
 ### Дивіться також
 
--   [ісarray()](function.is-array.html) - Визначає, чи є змінна масивом
+-   [ісarray()](function.is-array.md) - Визначає, чи є змінна масивом
 -   [isset()](function.isset.md) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
 -   [empty()](function.empty.md) - Перевіряє, чи порожня змінна
 -   [strlen()](function.strlen.md) - Повертає довжину рядка
--   [ісcountable()](function.is-countable.html) - Перевірити, що вміст змінної є лічильним значенням
+-   [ісcountable()](function.is-countable.md) - Перевірити, що вміст змінної є лічильним значенням
 -   [Масиви](language.types.array.md)

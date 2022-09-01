@@ -30,13 +30,13 @@ mysqli_stmt_bind_result(mysqli_stmt $statement, mixed &$var, mixed &...$vars): b
 
 Прив'язує стовпці результуючого набору змінних.
 
-При виклику [mysqlistmtfetch()](mysqli-stmt.fetch.html) для вибірки даних, протокол клієнт-серверної взаємодії MySQL поміщає вибрані дані у змінні `var``vars`, прив'язані до стовпців результату вибірки.
+При виклику [mysqlistmtfetch()](mysqli-stmt.fetch.md) для вибірки даних, протокол клієнт-серверної взаємодії MySQL поміщає вибрані дані у змінні `var``vars`, прив'язані до стовпців результату вибірки.
 
-Стовпці можна прив'язувати та перев'язувати багаторазово, навіть коли результуючий набір вже частково вибраний. Нова прив'язка дасть ефект при наступному виклику [mysqlistmtfetch()](mysqli-stmt.fetch.html)
+Стовпці можна прив'язувати та перев'язувати багаторазово, навіть коли результуючий набір вже частково вибраний. Нова прив'язка дасть ефект при наступному виклику [mysqlistmtfetch()](mysqli-stmt.fetch.md)
 
 > **Зауваження**
 > 
-> Усі стовпці повинні бути прив'язані до змінних після виклику [mysqlistmtexecute()](mysqli-stmt.execute.html) та до виклику [mysqlistmtfetch()](mysqli-stmt.fetch.html). Залежно від типів даних стовпців прив'язані змінні можуть змінювати свій PHP тип.
+> Усі стовпці повинні бути прив'язані до змінних після виклику [mysqlistmtexecute()](mysqli-stmt.execute.html) та до виклику [mysqlistmtfetch()](mysqli-stmt.fetch.md). Залежно від типів даних стовпців прив'язані змінні можуть змінювати свій PHP тип.
 
 > **Зауваження**
 > 
@@ -44,13 +44,13 @@ mysqli_stmt_bind_result(mysqli_stmt $statement, mixed &$var, mixed &...$vars): b
 
 **Підказка**
 
-Функція корисна для найпростіших результатів. Щоб отримати повторюваний набір результатів або кожний рядок як масив чи об'єкт, використовуйте [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
+Функція корисна для найпростіших результатів. Щоб отримати повторюваний набір результатів або кожний рядок як масив чи об'єкт, використовуйте [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 `var`
 
@@ -120,9 +120,9 @@ AND Andorra
 
 ### Дивіться також
 
--   [mysqlistmtgetresult()](mysqli-stmt.get-result.html) - Отримує результат із підготовленого запиту у вигляді об'єкта mysqliresult
--   [mysqlistmtbindparam()](mysqli-stmt.bind-param.html) - Прив'язка змінних до параметрів запиту, що готується.
--   [mysqlistmtexecute()](mysqli-stmt.execute.html) - Виконує підготовлене затвердження
--   [mysqlistmtfetch()](mysqli-stmt.fetch.html) - пов'язує результати підготовленого виразу зі змінними
+-   [mysqlistmtgetresult()](mysqli-stmt.get-result.md) - Отримує результат із підготовленого запиту у вигляді об'єкта mysqliresult
+-   [mysqlistmtbindparam()](mysqli-stmt.bind-param.md) - Прив'язка змінних до параметрів запиту, що готується.
+-   [mysqlistmtexecute()](mysqli-stmt.execute.md) - Виконує підготовлене затвердження
+-   [mysqlistmtfetch()](mysqli-stmt.fetch.md) - пов'язує результати підготовленого виразу зі змінними
 -   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
--   [mysqlistmtprepare()](mysqli-stmt.prepare.html) - готує затвердження SQL до виконання
+-   [mysqlistmtprepare()](mysqli-stmt.prepare.md) - готує затвердження SQL до виконання

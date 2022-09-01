@@ -166,11 +166,11 @@ Unix-група FPM-процесів. Якщо не встановлено, гр
 
 `pm.status_listen` string
 
-Адреса, за якою прийматиметься запит стану FastCGI. Створює новий невидимий пул, який може самостійно обробляти запити. Корисно, якщо основний пул зайнятий запитами, що довго виконуються, так як все ще можна отримати [сторінку стану FPM](fpm.status.html) до завершення тривалих запитів. Синтаксис такий самий, як і для директиви [listen](install.fpm.configuration.html#listen). Стандартне значення: none.
+Адреса, за якою прийматиметься запит стану FastCGI. Створює новий невидимий пул, який може самостійно обробляти запити. Корисно, якщо основний пул зайнятий запитами, що довго виконуються, так як все ще можна отримати [сторінку стану FPM](fpm.status.md) до завершення тривалих запитів. Синтаксис такий самий, як і для директиви [listen](install.fpm.configuration.html#listen). Стандартне значення: none.
 
 `pm.status_path` string
 
-Посилання, по якому можна переглянути [сторінку стану FPM](fpm.status.html). Значення має починатися зі сліша (/). Якщо значення не встановлено, сторінка статусу не відображатиметься. Стандартне значення: none.
+Посилання, по якому можна переглянути [сторінку стану FPM](fpm.status.md). Значення має починатися зі сліша (/). Якщо значення не встановлено, сторінка статусу не відображатиметься. Стандартне значення: none.
 
 `ping.path` string
 
@@ -198,7 +198,7 @@ Unix-група FPM-процесів. Якщо не встановлено, гр
 
 `request_terminate_timeout_track_finished` bool
 
-Час очікування, встановлений за допомогою [requestterminatetimeout](install.fpm.configuration.html#request-terminate-timeout), не включається після [fastcgifinishrequest](function.fastcgi-finish-request.html) або коли програма завершена та викликаються внутрішні функції завершення роботи. Ця директива дозволить беззастережно застосовувати обмеження часу очікування навіть у таких випадках. Стандартне значення: ні, починаючи з версії PHP 7.3.0.
+Час очікування, встановлений за допомогою [requestterminatetimeout](install.fpm.configuration.html#request-terminate-timeout), не включається після [fastcgifinishrequest](function.fastcgi-finish-request.md) або коли програма завершена та викликаються внутрішні функції завершення роботи. Ця директива дозволить беззастережно застосовувати обмеження часу очікування навіть у таких випадках. Стандартне значення: ні, починаючи з версії PHP 7.3.0.
 
 `request_slowlog_timeout` [mixed](language.types.declarations.html#language.types.declarations.mixed)
 
@@ -289,7 +289,7 @@ phpadminvaluesendmailpath = /usr/sbin/sendmail -t -i -f [www@my.domain.com](mail
 
 Налаштування PHP, передані через `php_value` або `php_flag` перезапишуть їхні попередні значення. Будь ласка, зверніть увагу, що визначення [disablefunctions](ini.core.html#ini.disable-functions) або [disableclasses](ini.core.html#ini.disable-classes) не перезаписуватимуть раніше визначені в php.ini значення, а додадуть нові значення.
 
-Налаштування, визначені через `php_admin_value` і `php_admin_flag`, не можуть бути перезаписані через [iniset()](function.ini-set.html)
+Налаштування, визначені через `php_admin_value` і `php_admin_flag`, не можуть бути перезаписані через [iniset()](function.ini-set.md)
 
 Установки PHP можна інсталювати через веб-сервер.
 

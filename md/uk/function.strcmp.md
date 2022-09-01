@@ -50,9 +50,9 @@ if (strcmp($var1, $var2) !== 0) {
 
 ### Дивіться також
 
--   [strcasecmp()](function.strcasecmp.html) - Бінарно-безпечне порівняння рядків без урахування регістру
--   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
--   [substrcompare()](function.substr-compare.html) - Бінарно-безпечне порівняння 2 рядків зі зміщенням, з урахуванням або без обліку регістру
--   [strncmp()](function.strncmp.html) - Бінарно-безпечне порівняння перших n символів рядків
--   [strstr()](function.strstr.html) - Знаходить перше входження підрядка
--   [substr()](function.substr.html) - Повертає підрядок
+-   [strcasecmp()](function.strcasecmp.md) - Бінарно-безпечне порівняння рядків без урахування регістру
+-   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу
+-   [substrcompare()](function.substr-compare.md) - Бінарно-безпечне порівняння 2 рядків зі зміщенням, з урахуванням або без обліку регістру
+-   [strncmp()](function.strncmp.md) - Бінарно-безпечне порівняння перших n символів рядків
+-   [strstr()](function.strstr.md) - Знаходить перше входження підрядка
+-   [substr()](function.substr.md) - Повертає підрядок

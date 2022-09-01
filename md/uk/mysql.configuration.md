@@ -36,7 +36,7 @@ title: Налаштування під час виконання
 
 `mysql.allow_persistent` bool
 
-Чи дозволяти [постійні з'єднання](features.persistent-connections.html) з MySQL.
+Чи дозволяти [постійні з'єднання](features.persistent-connections.md) з MySQL.
 
 `mysql.max_persistent` int
 

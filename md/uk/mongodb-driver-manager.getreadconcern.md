@@ -18,7 +18,7 @@ MongoDBDriverManager::getReadConcern — Повертає ReadConcern для Man
 final public MongoDB\Driver\Manager::getReadConcern(): MongoDB\Driver\ReadConcern
 ```
 
-Повертає [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) для Manager, отриманий із його URI-опцій. Це гарантія прочитання за промовчанням для запитів і команд, що виконуються в Manager.
+Повертає [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.md) для Manager, отриманий із його URI-опцій. Це гарантія прочитання за промовчанням для запитів і команд, що виконуються в Manager.
 
 ### Список параметрів
 
@@ -26,11 +26,11 @@ final public MongoDB\Driver\Manager::getReadConcern(): MongoDB\Driver\ReadConcer
 
 ### Значення, що повертаються
 
-[MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) для Manager.
+[MongoDBDriverReadConcern](class.mongodb-driver-readconcern.md) для Manager.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
@@ -61,5 +61,5 @@ object(MongoDB\Driver\ReadConcern)#1 (1) {
 
 ### Дивіться також
 
--   [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
--   [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.html) - Створює новий Manager MongoDB
+-   [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.md)
+-   [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.md) - Створює новий Manager MongoDB

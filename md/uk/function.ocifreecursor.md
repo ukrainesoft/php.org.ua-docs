@@ -10,11 +10,11 @@ title: ocifreecursor
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocifreecursor - Псевдонім [ocifreestatement()](function.oci-free-statement.html)
+ocifreecursor - Псевдонім [ocifreestatement()](function.oci-free-statement.md)
 
 ### Опис
 
-Псевдонім [ocifreestatement()](function.oci-free-statement.html)
+Псевдонім [ocifreestatement()](function.oci-free-statement.md)
 
 **Увага**
 

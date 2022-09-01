@@ -32,8 +32,8 @@ sodium_crypto_stream_xchacha20(int $length, string $nonce, string $key): string
 
 `key`
 
-Ключ, можливо, згенерований за допомогою функції [sodiumcryptostreamxchacha20keygen()](function.sodium-crypto-stream-xchacha20-keygen.html)
+Ключ, можливо, згенерований за допомогою функції [sodiumcryptostreamxchacha20keygen()](function.sodium-crypto-stream-xchacha20-keygen.md)
 
 ### Значення, що повертаються
 
-Повертає псевдовипадковий потік, який можна використовувати функцією [sodiumcryptostreamxchacha20xor()](function.sodium-crypto-stream-xchacha20-xor.html)
+Повертає псевдовипадковий потік, який можна використовувати функцією [sodiumcryptostreamxchacha20xor()](function.sodium-crypto-stream-xchacha20-xor.md)

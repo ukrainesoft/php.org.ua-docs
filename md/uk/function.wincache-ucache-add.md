@@ -22,13 +22,13 @@ wincache_ucache_add(string $key, mixed $value, int $ttl = 0): bool
 wincache_ucache_add(array $values, mixed $unused = NULL, int $ttl = 0): bool
 ```
 
-Додає змінну в кеш користувача, тільки якщо ця змінна ще не існує в кеші. Додана змінна залишається в кеші користувача, поки не закінчиться термін її дії або вона не буде видалена за допомогою функцій [wincacheucachedelete()](function.wincache-ucache-delete.html) або [wincacheucacheclear()](function.wincache-ucache-clear.html)
+Додає змінну в кеш користувача, тільки якщо ця змінна ще не існує в кеші. Додана змінна залишається в кеші користувача, поки не закінчиться термін її дії або вона не буде видалена за допомогою функцій [wincacheucachedelete()](function.wincache-ucache-delete.html) або [wincacheucacheclear()](function.wincache-ucache-clear.md)
 
 ### Список параметрів
 
 `key`
 
-Зберігає змінну з використанням цього імені `key`. Якщо змінна з таким самим `key` вже існує, завершиться помилкою та поверне **`false`**. . `key` чутливий до регістру. Щоб перевизначити значення, навіть якщо `key` вже існує, використовуйте функцію [wincacheucacheset()](function.wincache-ucache-set.html). . `key` також може приймати масив пар ім'я => значення, де імена будуть використовуватися як ключі. Це можна використовувати для додавання кількох значень до кешу за одну операцію, що дозволяє уникнути стану гонки.
+Зберігає змінну з використанням цього імені `key`. Якщо змінна з таким самим `key` вже існує, завершиться помилкою та поверне **`false`**. . `key` чутливий до регістру. Щоб перевизначити значення, навіть якщо `key` вже існує, використовуйте функцію [wincacheucacheset()](function.wincache-ucache-set.md). . `key` також може приймати масив пар ім'я => значення, де імена будуть використовуватися як ключі. Це можна використовувати для додавання кількох значень до кешу за одну операцію, що дозволяє уникнути стану гонки.
 
 `value`
 
@@ -40,7 +40,7 @@ wincache_ucache_add(array $values, mixed $unused = NULL, int $ttl = 0): bool
 
 `ttl`
 
-Час, протягом якого змінна знаходиться у кеші, за секунди. Після того, як значення, вказане в `ttl` буде передано, збережена змінна буде видалена з кеша. Параметр набуває значення за замовчуванням `0`, що означає, що змінна залишиться в кеші, доки вона не буде явно видалена за допомогою функцій [wincacheucachedelete()](function.wincache-ucache-delete.html) або [wincacheucacheclear()](function.wincache-ucache-clear.html)
+Час, протягом якого змінна знаходиться у кеші, за секунди. Після того, як значення, вказане в `ttl` буде передано, збережена змінна буде видалена з кеша. Параметр набуває значення за замовчуванням `0`, що означає, що змінна залишиться в кеші, доки вона не буде явно видалена за допомогою функцій [wincacheucachedelete()](function.wincache-ucache-delete.html) або [wincacheucacheclear()](function.wincache-ucache-clear.md)
 
 ### Значення, що повертаються
 
@@ -99,11 +99,11 @@ string(1) "6"
 
 ### Дивіться також
 
--   [wincacheucacheset()](function.wincache-ucache-set.html) - Додає змінну в кеш користувача і перезаписує змінну, якщо вона вже існує в кеші
--   [wincacheucacheget()](function.wincache-ucache-get.html) - Отримує змінну, що зберігається в користувальницькому кеші
--   [wincacheucachedelete()](function.wincache-ucache-delete.html) - Видаляє змінні з користувальницького кешу
--   [wincacheucacheclear()](function.wincache-ucache-clear.html) - Видаляє весь вміст кешу користувача.
--   [wincacheucacheexists()](function.wincache-ucache-exists.html) - Перевіряє, чи існує змінна в кеші користувача
--   [wincacheucachememinfo()](function.wincache-ucache-meminfo.html) - Отримує інформацію про використання пам'яті кешу користувача.
--   [wincacheucacheinfo()](function.wincache-ucache-info.html) - Отримує інформацію про дані, що зберігаються в кеші користувача
+-   [wincacheucacheset()](function.wincache-ucache-set.md) - Додає змінну в кеш користувача і перезаписує змінну, якщо вона вже існує в кеші
+-   [wincacheucacheget()](function.wincache-ucache-get.md) - Отримує змінну, що зберігається в користувальницькому кеші
+-   [wincacheucachedelete()](function.wincache-ucache-delete.md) - Видаляє змінні з користувальницького кешу
+-   [wincacheucacheclear()](function.wincache-ucache-clear.md) - Видаляє весь вміст кешу користувача.
+-   [wincacheucacheexists()](function.wincache-ucache-exists.md) - Перевіряє, чи існує змінна в кеші користувача
+-   [wincacheucachememinfo()](function.wincache-ucache-meminfo.md) - Отримує інформацію про використання пам'яті кешу користувача.
+-   [wincacheucacheinfo()](function.wincache-ucache-info.md) - Отримує інформацію про дані, що зберігаються в кеші користувача
 -   [sleep()](language.oop5.magic.html#object.sleep)

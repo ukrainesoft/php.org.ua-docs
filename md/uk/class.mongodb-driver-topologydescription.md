@@ -12,7 +12,7 @@ title: Клас MongoDBDriverTopologyDescription
 
 ## Вступ
 
-Клас **MongoDBDriverTopologyDescription** є об'єктом значення, що представляє топологію, до якої підключений драйвер. Примірники класу повертаються методами [MongoDBDriverMonitoringTopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.html)
+Клас **MongoDBDriverTopologyDescription** є об'єктом значення, що представляє топологію, до якої підключений драйвер. Примірники класу повертаються методами [MongoDBDriverMonitoringTopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.md)
 
 ## Огляд класів
 
@@ -68,31 +68,31 @@ final public hasWritableServer(): bool
 
 **`MongoDB\Driver\TopologyDescription::TYPE_UNKNOWN`**
 
-Невідомий тип топології, який повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
+Невідомий тип топології, який повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.md)
 
 **`MongoDB\Driver\TopologyDescription::TYPE_SINGLE`**
 
-Одиночний сервер (тобто пряме з'єднання), що повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
+Одиночний сервер (тобто пряме з'єднання), що повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.md)
 
 **`MongoDB\Driver\TopologyDescription::TYPE_SHARDED`**
 
-Кластер, що розділяється, повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
+Кластер, що розділяється, повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.md)
 
 **`MongoDB\Driver\TopologyDescription::TYPE_REPLICA_SET_NO_PRIMARY`**
 
-Набір реплік без первинного сервера, який повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
+Набір реплік без первинного сервера, який повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.md)
 
 **`MongoDB\Driver\TopologyDescription::TYPE_REPLICA_SET_WITH_PRIMARY`**
 
-Набір реплік з первинним сервером, який повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
+Набір реплік з первинним сервером, який повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.md)
 
 **`MongoDB\Driver\TopologyDescription::TYPE_LOAD_BALANCED`**
 
-Збалансована за навантаженням топологія, що повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
+Збалансована за навантаженням топологія, що повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.md)
 
 ## Зміст
 
--   [MongoDBDriverTopologyDescription::getServers](mongodb-driver-topologydescription.getservers.html) — Повертає сервери у топології
--   [MongoDBDriverTopologyDescription::getType](mongodb-driver-topologydescription.gettype.html) — Повертає рядок, що позначає тип топології
--   [MongoDBDriverTopologyDescription::hasReadableServer](mongodb-driver-topologydescription.hasreadableserver.html) — Повертає, чи є у топології сервер, доступний для читання
--   [MongoDBDriverTopologyDescription::hasWritableServer](mongodb-driver-topologydescription.haswritableserver.html) — Повертає, чи є у топології сервер, доступний для запису
+-   [MongoDBDriverTopologyDescription::getServers](mongodb-driver-topologydescription.getservers.md) — Повертає сервери у топології
+-   [MongoDBDriverTopologyDescription::getType](mongodb-driver-topologydescription.gettype.md) — Повертає рядок, що позначає тип топології
+-   [MongoDBDriverTopologyDescription::hasReadableServer](mongodb-driver-topologydescription.hasreadableserver.md) — Повертає, чи є у топології сервер, доступний для читання
+-   [MongoDBDriverTopologyDescription::hasWritableServer](mongodb-driver-topologydescription.haswritableserver.md) — Повертає, чи є у топології сервер, доступний для запису

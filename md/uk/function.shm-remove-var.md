@@ -24,7 +24,7 @@ shm_remove_var(SysvSharedMemory $shm, int $key): bool
 
 `shm`
 
-Сегмент пам'яті, що розділяється, отриманий з [shmattach()](function.shm-attach.html)
+Сегмент пам'яті, що розділяється, отриманий з [shmattach()](function.shm-attach.md)
 
 `key`
 
@@ -42,4 +42,4 @@ shm_remove_var(SysvSharedMemory $shm, int $key): bool
 
 ### Дивіться також
 
--   [shmremove()](function.shm-remove.html) - Видаляє пам'ять, що розділяється, з систем Unix
+-   [shmremove()](function.shm-remove.md) - Видаляє пам'ять, що розділяється, з систем Unix

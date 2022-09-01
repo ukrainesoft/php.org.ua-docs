@@ -22,7 +22,7 @@ mysqli_get_client_stats(): array
 
 > **Зауваження**
 > 
-> Доступно лише з модулем [mysqlnd](book.mysqlnd.html)
+> Доступно лише з модулем [mysqlnd](book.mysqlnd.md)
 
 ### Список параметрів
 
@@ -170,4 +170,4 @@ Array
 
 ### Дивіться також
 
--   [Описание метрик](mysqlnd.stats.html)
+-   [Описание метрик](mysqlnd.stats.md)

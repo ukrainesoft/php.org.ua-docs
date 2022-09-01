@@ -18,7 +18,7 @@ QuickHashStringIntHash::construct — Створює новий об'єкт Quic
 public QuickHashStringIntHash::__construct(int $size, int $options = 0)
 ```
 
-Конструктор створює новий об'єкт [QuickHashStringIntHash](class.quickhashstringinthash.html). Розмір - це кількість списків, які потрібно створити. Чим більше списків, тим менше буде колізій. Також підтримуються налаштування.
+Конструктор створює новий об'єкт [QuickHashStringIntHash](class.quickhashstringinthash.md). Розмір - це кількість списків, які потрібно створити. Чим більше списків, тим менше буде колізій. Також підтримуються налаштування.
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ public QuickHashStringIntHash::__construct(int $size, int $options = 0)
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [QuickHashStringIntHash](class.quickhashstringinthash.html)
+Повертає новий об'єкт [QuickHashStringIntHash](class.quickhashstringinthash.md)
 
 ### Приклади
 

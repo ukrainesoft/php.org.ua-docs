@@ -91,9 +91,9 @@ controls
 
 ## Зміст
 
--   [ОЙControlsBox::append](ui-controls-box.append.html) — Додати елемент керування
--   [ОЙControlsBox::construct](ui-controls-box.construct.html) - Створити новий об'єкт Box
--   [ОЙControlsBox::delete](ui-controls-box.delete.html) — Видалити елемент керування
--   [ОЙControlsBox::getOrientation](ui-controls-box.getorientation.html) — Здобути орієнтацію
--   [ОЙControlsBox::isPadded](ui-controls-box.ispadded.html) - Визначення заповнення
--   [ОЙControlsBox::setPadded](ui-controls-box.setpadded.html) - Встановити заповнення
+-   [ОЙControlsBox::append](ui-controls-box.append.md) — Додати елемент керування
+-   [ОЙControlsBox::construct](ui-controls-box.construct.md) - Створити новий об'єкт Box
+-   [ОЙControlsBox::delete](ui-controls-box.delete.md) — Видалити елемент керування
+-   [ОЙControlsBox::getOrientation](ui-controls-box.getorientation.md) — Здобути орієнтацію
+-   [ОЙControlsBox::isPadded](ui-controls-box.ispadded.md) - Визначення заповнення
+-   [ОЙControlsBox::setPadded](ui-controls-box.setpadded.md) - Встановити заповнення

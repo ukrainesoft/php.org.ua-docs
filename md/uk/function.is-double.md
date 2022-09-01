@@ -10,8 +10,8 @@ title: ісdouble
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ісdouble - Псевдонім [ісfloat()](function.is-float.html)
+ісdouble - Псевдонім [ісfloat()](function.is-float.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ісfloat()](function.is-float.html)
+Ця функція є псевдонімом: [ісfloat()](function.is-float.md)

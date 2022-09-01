@@ -66,5 +66,5 @@ A
 
 ### Дивіться також
 
--   [uopzsetmock()](function.uopz-set-mock.html) - Використовувати імітатор замість класу для нових об'єктів
--   [uopzgetmock()](function.uopz-get-mock.html) - отримати поточний імітатор (mock) для класу
+-   [uopzsetmock()](function.uopz-set-mock.md) - Використовувати імітатор замість класу для нових об'єктів
+-   [uopzgetmock()](function.uopz-get-mock.md) - отримати поточний імітатор (mock) для класу

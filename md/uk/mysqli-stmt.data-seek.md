@@ -30,17 +30,17 @@ mysqli_stmt_data_seek(mysqli_stmt $statement, int $offset): void
 
 Переміщує покажчик на заданий рядок у результуючому наборі.
 
-[mysqlistmtstoreresult()](mysqli-stmt.store-result.html) must be called prior to **mysqlistmtdataseek()**
+[mysqlistmtstoreresult()](mysqli-stmt.store-result.md) must be called prior to **mysqlistmtdataseek()**
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 `offset`
 
-Значення повинне бути в діапазоні від 0 до числа рядків мінус один (0. . [mysqlistmtnumrows()](mysqli-stmt.num-rows.html)
+Значення повинне бути в діапазоні від 0 до числа рядків мінус один (0. . [mysqlistmtnumrows()](mysqli-stmt.num-rows.md)
 
 ### Значення, що повертаються
 
@@ -140,4 +140,4 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання

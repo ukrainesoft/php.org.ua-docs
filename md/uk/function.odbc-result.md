@@ -49,4 +49,4 @@ $item_val = odbc_result($Query_ID, "val");
 
 ### Примітки
 
-Індекси полів починаються з 1. Для отримання інформації про спосіб повернення двійкових даних або даних стовпців LONG необхідно звернутися до [odbcbinmode()](function.odbc-binmode.html) і [odbclongreadlen()](function.odbc-longreadlen.html)
+Індекси полів починаються з 1. Для отримання інформації про спосіб повернення двійкових даних або даних стовпців LONG необхідно звернутися до [odbcbinmode()](function.odbc-binmode.html) і [odbclongreadlen()](function.odbc-longreadlen.md)

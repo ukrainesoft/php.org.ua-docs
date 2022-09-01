@@ -42,7 +42,7 @@ callback(mixed $a, mixed $b): int
 
 ### Значення, що повертаються
 
-**arrayudiffassoc()** повертає масив (array), що містить усі елементи `array`, яких немає у якомусь із решти аргументів. Зверніть увагу, що на відміну від [arraydiff()](function.array-diff.html) і [arrayudiff()](function.array-udiff.html) у порівнянні використовуються ключі. Порівняння даних масиву здійснюється за допомогою callback-функції, наданої користувачем. У цьому сенсі поведінка цієї функції відрізняється від [arraydiffassoc()](function.array-diff-assoc.html), яка використовується вбудовану функцію для порівняння.
+**arrayudiffassoc()** повертає масив (array), що містить усі елементи `array`, яких немає у якомусь із решти аргументів. Зверніть увагу, що на відміну від [arraydiff()](function.array-diff.html) і [arrayudiff()](function.array-udiff.html) у порівнянні використовуються ключі. Порівняння даних масиву здійснюється за допомогою callback-функції, наданої користувачем. У цьому сенсі поведінка цієї функції відрізняється від [arraydiffassoc()](function.array-diff-assoc.md), яка використовується вбудовану функцію для порівняння.
 
 ### Приклади
 
@@ -98,13 +98,13 @@ Array
 
 ### Дивіться також
 
--   [arraydiff()](function.array-diff.html) - Обчислити розбіжність масивів
--   [arraydiffassoc()](function.array-diff-assoc.html) - обчислює розбіжність масивів з додатковою перевіркою індексу
--   [arraydiffuassoc()](function.array-diff-uassoc.html) - обчислює розбіжність масивів з додатковою перевіркою індексу, що здійснюється за допомогою callback-функції
--   [arrayudiff()](function.array-udiff.html) - обчислює розбіжність масивів, використовуючи для порівняння callback-функцію
--   [arrayudiffuassoc()](function.array-udiff-uassoc.html) - обчислює розбіжність у масивах з додатковою перевіркою індексів, використовуючи для порівняння значень та індексів callback-функцію
--   [arrayintersect()](function.array-intersect.html) - обчислює сходження масивів
--   [arrayintersectassoc()](function.array-intersect-assoc.html) - обчислює сходження масивів з додатковою перевіркою індексу
--   [arrayuintersect()](function.array-uintersect.html) - обчислює перетин масивів, використовуючи для порівняння значень callback-функцію
--   [arrayuintersectassoc()](function.array-uintersect-assoc.html) - обчислює перетин масивів з додатковою перевіркою індексів, використовуючи для порівняння значень callback-функцію
--   [arrayuintersectuassoc()](function.array-uintersect-uassoc.html) - обчислює перетин масивів з додатковою перевіркою індексу, використовуючи для порівняння індексів та значень індивідуальні callback-функції
+-   [arraydiff()](function.array-diff.md) - Обчислити розбіжність масивів
+-   [arraydiffassoc()](function.array-diff-assoc.md) - обчислює розбіжність масивів з додатковою перевіркою індексу
+-   [arraydiffuassoc()](function.array-diff-uassoc.md) - обчислює розбіжність масивів з додатковою перевіркою індексу, що здійснюється за допомогою callback-функції
+-   [arrayudiff()](function.array-udiff.md) - обчислює розбіжність масивів, використовуючи для порівняння callback-функцію
+-   [arrayudiffuassoc()](function.array-udiff-uassoc.md) - обчислює розбіжність у масивах з додатковою перевіркою індексів, використовуючи для порівняння значень та індексів callback-функцію
+-   [arrayintersect()](function.array-intersect.md) - обчислює сходження масивів
+-   [arrayintersectassoc()](function.array-intersect-assoc.md) - обчислює сходження масивів з додатковою перевіркою індексу
+-   [arrayuintersect()](function.array-uintersect.md) - обчислює перетин масивів, використовуючи для порівняння значень callback-функцію
+-   [arrayuintersectassoc()](function.array-uintersect-assoc.md) - обчислює перетин масивів з додатковою перевіркою індексів, використовуючи для порівняння значень callback-функцію
+-   [arrayuintersectuassoc()](function.array-uintersect-uassoc.md) - обчислює перетин масивів з додатковою перевіркою індексу, використовуючи для порівняння індексів та значень індивідуальні callback-функції

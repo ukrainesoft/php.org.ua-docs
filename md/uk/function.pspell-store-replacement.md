@@ -18,13 +18,13 @@ pspellstorereplacement — Зберігає заміщувальну пару д
 pspell_store_replacement(PSpell\Dictionary $dictionary, string $misspelled, string $correct): bool
 ```
 
-**pspellstorereplacement()** зберігає заміщувальну пару для слова, так що заміна пізніше може бути повернена функцією [pspellsuggest()](function.pspell-suggest.html). Щоб використати переваги цієї функції, слід відкрити словник за допомогою [pspellnewpersonal()](function.pspell-new-personal.html). Щоб назавжди зберегти пару, що заміщає, необхідно використовувати [pspellconfigpersonal()](function.pspell-config-personal.html) і [pspellconfigrepl()](function.pspell-config-repl.html) для того, щоб вказати шлях, куди зберегти списки слів, а потім скористатися [pspellsavewordlist()](function.pspell-save-wordlist.html) для запису змін на диск.
+**pspellstorereplacement()** зберігає заміщувальну пару для слова, так що заміна пізніше може бути повернена функцією [pspellsuggest()](function.pspell-suggest.html). Щоб використати переваги цієї функції, слід відкрити словник за допомогою [pspellnewpersonal()](function.pspell-new-personal.html). Щоб назавжди зберегти пару, що заміщає, необхідно використовувати [pspellconfigpersonal()](function.pspell-config-personal.html) і [pspellconfigrepl()](function.pspell-config-repl.html) для того, щоб вказати шлях, куди зберегти списки слів, а потім скористатися [pspellsavewordlist()](function.pspell-save-wordlist.md) для запису змін на диск.
 
 ### Список параметрів
 
 `dictionary`
 
-Екземпляр [PSpellDictionary](class.pspell-dictionary.html)
+Екземпляр [PSpellDictionary](class.pspell-dictionary.md)
 
 `misspelled`
 
@@ -42,7 +42,7 @@ pspell_store_replacement(PSpell\Dictionary $dictionary, string $misspelled, stri
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

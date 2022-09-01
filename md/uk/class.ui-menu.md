@@ -45,10 +45,10 @@ public appendSeparator()
 
 ## Зміст
 
--   [ОЙMenu::append](ui-menu.append.html) - Додати пункт меню
--   [ОЙMenu::appendAbout](ui-menu.appendabout.html) — Додати пункт меню About
--   [ОЙMenu::appendCheck](ui-menu.appendcheck.html) - Додати пункт меню з чекбоксом
--   [ОЙMenu::appendPreferences](ui-menu.appendpreferences.html) - Додати пункт меню "Налаштування" (Preferences)
--   [ОЙMenu::appendQuit](ui-menu.appendquit.html) - Додати пункт меню "Вихід" (Quit)
--   [ОЙMenu::appendSeparator](ui-menu.appendseparator.html) - Додати пункт меню "Розділювач" (Separator)
--   [ОЙMenu::construct](ui-menu.construct.html) — Створити новий об'єкт
+-   [ОЙMenu::append](ui-menu.append.md) - Додати пункт меню
+-   [ОЙMenu::appendAbout](ui-menu.appendabout.md) — Додати пункт меню About
+-   [ОЙMenu::appendCheck](ui-menu.appendcheck.md) - Додати пункт меню з чекбоксом
+-   [ОЙMenu::appendPreferences](ui-menu.appendpreferences.md) - Додати пункт меню "Налаштування" (Preferences)
+-   [ОЙMenu::appendQuit](ui-menu.appendquit.md) - Додати пункт меню "Вихід" (Quit)
+-   [ОЙMenu::appendSeparator](ui-menu.appendseparator.md) - Додати пункт меню "Розділювач" (Separator)
+-   [ОЙMenu::construct](ui-menu.construct.md) — Створити новий об'єкт

@@ -64,4 +64,4 @@ if (is_string($errors)) {
 
 ### Дивіться також
 
--   [xdiffstringmerge3()](function.xdiff-string-merge3.html) - Об'єднати три рядки в один
+-   [xdiffstringmerge3()](function.xdiff-string-merge3.md) - Об'єднати три рядки в один

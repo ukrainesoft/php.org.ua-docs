@@ -11,6 +11,6 @@ title: Конфігурація часу виконання
 ## Зміст
 
 -   [Файл конфигурации](configuration.file.md)
--   [Файли .user.ini](configuration.file.per-user.html)
+-   [Файли .user.ini](configuration.file.per-user.md)
 -   [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 -   [Як змінити налаштування конфігурації](configuration.changes.md)

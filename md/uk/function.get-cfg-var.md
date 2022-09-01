@@ -36,5 +36,5 @@ get_cfg_var(string $option): string|array|false
 
 ### Дивіться також
 
--   [iniget()](function.ini-get.html) - Отримує значення налаштування конфігурації
--   [inigetall()](function.ini-get-all.html) - Отримує всі налаштування конфігурації
+-   [iniget()](function.ini-get.md) - Отримує значення налаштування конфігурації
+-   [inigetall()](function.ini-get-all.md) - Отримує всі налаштування конфігурації

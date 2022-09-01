@@ -53,4 +53,4 @@ echo $packet;
 
 > **Зауваження**
 > 
-> Рядки повинні бути закодовані в UTF-8; Для роботи з іншими кодуваннями спочатку перетворіть рядок за допомогою функції [мбconvertencoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.md) або [iconv()](function.iconv.md)
+> Рядки повинні бути закодовані в UTF-8; Для роботи з іншими кодуваннями спочатку перетворіть рядок за допомогою функції [мбconvertencoding()](function.mb-convert-encoding.md) [UConverter::transcode()](uconverter.transcode.md) або [iconv()](function.iconv.md)

@@ -12,7 +12,7 @@ title: Клас SessionHandlerInterface
 
 ## Вступ
 
-**SessionHandlerInterface** - це інтерфейс, який визначає мінімальний прототип для створення користувальницького оброблювача сесії. Для надання користувальницького оброблювача сесії функції [sessionsetsavehandler()](function.session-set-save-handler.html), Використовуючи її ООП реалізацію, клас повинен реалізовувати цей інтерфейс.
+**SessionHandlerInterface** - це інтерфейс, який визначає мінімальний прототип для створення користувальницького оброблювача сесії. Для надання користувальницького оброблювача сесії функції [sessionsetsavehandler()](function.session-set-save-handler.md), Використовуючи її ООП реалізацію, клас повинен реалізовувати цей інтерфейс.
 
 Зауважте, що callback-методи цього класу створені для внутрішніх викликів PHP і не призначені для викликів з вашого коду.
 
@@ -43,7 +43,7 @@ public write(string $id, string $data): bool
 
 Наступний приклад реалізує файлову сесію так само, як це реалізовано у внутрішньому обробнику сесії PHP. Цей приклад може бути легко розширений для забезпечення зберігання сесій в базі даних.
 
-Зверніть увагу, що ми використовуємо об'єктно-орієнтовані прототипи з функцією [sessionsetsavehandler()](function.session-set-save-handler.html) та реєструємо функцію завершення (shutdown) використовуючи один із параметрів цієї функції. Ця дія рекомендується проводити в більшості випадків, коли об'єкти реєструються як обробники сесії.
+Зверніть увагу, що ми використовуємо об'єктно-орієнтовані прототипи з функцією [sessionsetsavehandler()](function.session-set-save-handler.md) та реєструємо функцію завершення (shutdown) використовуючи один із параметрів цієї функції. Ця дія рекомендується проводити в більшості випадків, коли об'єкти реєструються як обробники сесії.
 
 **Застереження**
 
@@ -103,9 +103,9 @@ session_start();
 
 ## Зміст
 
--   [SessionHandlerInterface::close](sessionhandlerinterface.close.html) - Закриває сесію
--   [SessionHandlerInterface::destroy](sessionhandlerinterface.destroy.html) - Знищує сесію
--   [SessionHandlerInterface::gc](sessionhandlerinterface.gc.html) - Очищає старі сесії
--   [SessionHandlerInterface::open](sessionhandlerinterface.open.html) - Ініціалізує сесію
--   [SessionHandlerInterface::read](sessionhandlerinterface.read.html) — Читає дані сесії
--   [SessionHandlerInterface::write](sessionhandlerinterface.write.html) — Записати дані сесії
+-   [SessionHandlerInterface::close](sessionhandlerinterface.close.md) - Закриває сесію
+-   [SessionHandlerInterface::destroy](sessionhandlerinterface.destroy.md) - Знищує сесію
+-   [SessionHandlerInterface::gc](sessionhandlerinterface.gc.md) - Очищає старі сесії
+-   [SessionHandlerInterface::open](sessionhandlerinterface.open.md) - Ініціалізує сесію
+-   [SessionHandlerInterface::read](sessionhandlerinterface.read.md) — Читає дані сесії
+-   [SessionHandlerInterface::write](sessionhandlerinterface.write.md) — Записати дані сесії

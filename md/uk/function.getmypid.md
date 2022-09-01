@@ -38,6 +38,6 @@ getmypid(): int|false
 
 -   [getmygid()](function.getmygid.md) - Отримати GID власника скрипта PHP
 -   [getmyuid()](function.getmyuid.md) - Отримання UID власника скрипта PHP
--   [getcurrentuser()](function.get-current-user.html) - Отримує ім'я власника поточного скрипту PHP
+-   [getcurrentuser()](function.get-current-user.md) - Отримує ім'я власника поточного скрипту PHP
 -   [getmyinode()](function.getmyinode.md) - Отримує значення inode поточного скрипту
 -   [getlastmod()](function.getlastmod.md) - Отримує час останньої модифікації сторінки

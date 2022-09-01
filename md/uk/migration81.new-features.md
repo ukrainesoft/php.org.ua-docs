@@ -42,15 +42,15 @@ $arr2 = [...$arr1, 'c' => 'd']; //[1, 'a' => 'b', 'c' => 'd']
 
 #### Перерахування
 
-Додана підтримка [перечислений](language.enumerations.html)
+Додана підтримка [перечислений](language.enumerations.md)
 
 #### Файбери
 
-Додана підтримка [файберов](language.fibers.html)
+Додана підтримка [файберов](language.fibers.md)
 
 #### Callback-функції як об'єкти першого класу
 
-Замикання для callback-функцій тепер можна створювати синтаксисом. `myFunc(...)`, який ідентичний [синтаксису`Closure::fromCallable('myFunc')`](functions.first_class_callable_syntax.html)
+Замикання для callback-функцій тепер можна створювати синтаксисом. `myFunc(...)`, який ідентичний [синтаксису`Closure::fromCallable('myFunc')`](functions.first_class_callable_syntax.md)
 
 > **Зауваження** `...` є частиною синтаксису, а чи не перепусткою.
 
@@ -64,11 +64,11 @@ $arr2 = [...$arr1, 'c' => 'd']; //[1, 'a' => 'b', 'c' => 'd']
 
 #### Тип never
 
-Доданий новий тип значення, що повертається never. Тип свідчить про те, що функція чи викликає [exit()](function.exit.html), або викидає виняток, або завершується.
+Доданий новий тип значення, що повертається never. Тип свідчить про те, що функція чи викликає [exit()](function.exit.md), або викидає виняток, або завершується.
 
 #### [`new`](language.oop5.basic.html#language.oop5.basic.new) в ініціалізації класу
 
-Тепер можна використовувати вирази `new ClassName()` як значення за умовчанням для параметра, статичної змінної, ініціалізаторів глобальних констант і як аргументи атрибутів. Тепер об'єкти також можна передавати в [define()](function.define.html)
+Тепер можна використовувати вирази `new ClassName()` як значення за умовчанням для параметра, статичної змінної, ініціалізаторів глобальних констант і як аргументи атрибутів. Тепер об'єкти також можна передавати в [define()](function.define.md)
 
 #### Readonly-властивості
 
@@ -92,7 +92,7 @@ $arr2 = [...$arr1, 'c' => 'd']; //[1, 'a' => 'b', 'c' => 'd']
 -   **`CURLOPT_SSLCERT_BLOB`**
 -   **`CURLOPT_SSLKEY_BLOB`**
 
-Доданий клас [CURLStringFile](class.curlstringfile.html), який можна використовувати для надсилання файлу з рядка (string), а не з файлу:
+Доданий клас [CURLStringFile](class.curlstringfile.md), який можна використовувати для надсилання файлу з рядка (string), а не з файлу:
 
 ```php
 <?php
@@ -109,11 +109,11 @@ curl_setopt($curl, CURLOPT_POSTFIELDS, ['file' => $file]);
 
 ### ДД
 
-Підтримка Avif тепер доступна за допомогою [imagecreatefromavif()](function.imagecreatefromavif.html) і [imageavif()](function.imageavif.html)якщо libgd був зібраний з підтримкою Avif.
+Підтримка Avif тепер доступна за допомогою [imagecreatefromavif()](function.imagecreatefromavif.html) і [imageavif()](function.imageavif.md)якщо libgd був зібраний з підтримкою Avif.
 
 ### Hash
 
-Наступні функції [hash()](function.hash.html) [hashfile()](function.hash-file.html) і [hashinit()](function.hash-init.html) тепер підтримують додатковий необов'язковий аргумент `options`який можна використовувати для передачі специфічних для алгоритму даних.
+Наступні функції [hash()](function.hash.html) [hashfile()](function.hash-file.html) і [hashinit()](function.hash-init.md) тепер підтримують додатковий необов'язковий аргумент `options`який можна використовувати для передачі специфічних для алгоритму даних.
 
 #### MurmurHash3
 
@@ -171,7 +171,7 @@ echo $h, "\n";
 
 #### Прив'язка параметрів під час виконання
 
-Тепер можна прив'язувати параметри, передавши їх у вигляді масиву [mysqlistmt::execute()](mysqli-stmt.execute.html). Усі значення будуть прив'язані як рядки. Дозволено лише облікові масиви. Ця нова функція недоступна, якщо MySQLi скомпільовано з libmysqlclient.
+Тепер можна прив'язувати параметри, передавши їх у вигляді масиву [mysqlistmt::execute()](mysqli-stmt.execute.md). Усі значення будуть прив'язані як рядки. Дозволено лише облікові масиви. Ця нова функція недоступна, якщо MySQLi скомпільовано з libmysqlclient.
 
 ```php
 <?php
@@ -180,9 +180,9 @@ $stmt->execute([1, $username]);
 ?>
 ```
 
-#### Новий метод [mysqliresult::fetchcolumn()](mysqli-result.fetch-column.html)
+#### Новий метод [mysqliresult::fetchcolumn()](mysqli-result.fetch-column.md)
 
-Доданий [mysqliresult::fetchcolumn()](mysqli-result.fetch-column.html) для вибірки єдиного скалярного значення набору результатів. Новий метод приймає необов'язковий параметр `column`, що починається з 0, у вигляді цілого числа (int), що вказує з якого стовпця робити вибірку.
+Доданий [mysqliresult::fetchcolumn()](mysqli-result.fetch-column.md) для вибірки єдиного скалярного значення набору результатів. Новий метод приймає необов'язковий параметр `column`, що починається з 0, у вигляді цілого числа (int), що вказує з якого стовпця робити вибірку.
 
 ```php
 <?php
@@ -211,8 +211,8 @@ new PDO('sqlite:file:path/to/sqlite.db?mode=ro')
 
 ### Стандартні функції
 
-[fputcsv()](function.fputcsv.html) тепер приймає новий аргумент `eol`, який дозволяє визначати послідовність кінця рядка, що настроюється, значення за замовчуванням залишається колишнім - `"\n"`
+[fputcsv()](function.fputcsv.md) тепер приймає новий аргумент `eol`, який дозволяє визначати послідовність кінця рядка, що настроюється, значення за замовчуванням залишається колишнім - `"\n"`
 
 ### SPL
 
-[SplFileObject::fputcsv()](splfileobject.fputcsv.html) тепер приймає новий аргумент `eol`, який дозволяє визначати послідовність кінця рядка, що настроюється, значення за замовчуванням залишається колишнім - `"\n"`
+[SplFileObject::fputcsv()](splfileobject.fputcsv.md) тепер приймає новий аргумент `eol`, який дозволяє визначати послідовність кінця рядка, що настроюється, значення за замовчуванням залишається колишнім - `"\n"`

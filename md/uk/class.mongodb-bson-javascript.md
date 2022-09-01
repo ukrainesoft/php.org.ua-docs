@@ -50,15 +50,15 @@ final public unserialize(string $serialized): void
 | Версия | Описание |
 | --- | --- |
 | PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
-| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONJavascriptInterface](class.mongodb-bson-javascriptinterface.html) |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONJavascriptInterface](class.mongodb-bson-javascriptinterface.md) |
 | PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md) |
 
 ## Зміст
 
--   [MongoDBBSONJavascript::construct](mongodb-bson-javascript.construct.html) - Конструктор Javascript
--   [MongoDBBSONJavascript::getCode](mongodb-bson-javascript.getcode.html) — Повертає код JavaScript
--   [MongoDBBSONJavascript::getScope](mongodb-bson-javascript.getscope.html) — Повертає область документа JavaScript
--   [MongoDBBSONJavascript::jsonSerialize](mongodb-bson-javascript.jsonserialize.html) — Повертає виставу, яка може бути перетворена на JSON
--   [MongoDBBSONJavascript::serialize](mongodb-bson-javascript.serialize.html) — Серіалізувати JavaScript
--   [MongoDBBSONJavascript::toString](mongodb-bson-javascript.tostring.html) — Повертає код JavaScript
--   [MongoDBBSONJavascript::unserialize](mongodb-bson-javascript.unserialize.html) — Десеріалізувати JavaScript
+-   [MongoDBBSONJavascript::construct](mongodb-bson-javascript.construct.md) - Конструктор Javascript
+-   [MongoDBBSONJavascript::getCode](mongodb-bson-javascript.getcode.md) — Повертає код JavaScript
+-   [MongoDBBSONJavascript::getScope](mongodb-bson-javascript.getscope.md) — Повертає область документа JavaScript
+-   [MongoDBBSONJavascript::jsonSerialize](mongodb-bson-javascript.jsonserialize.md) — Повертає виставу, яка може бути перетворена на JSON
+-   [MongoDBBSONJavascript::serialize](mongodb-bson-javascript.serialize.md) — Серіалізувати JavaScript
+-   [MongoDBBSONJavascript::toString](mongodb-bson-javascript.tostring.md) — Повертає код JavaScript
+-   [MongoDBBSONJavascript::unserialize](mongodb-bson-javascript.unserialize.md) — Десеріалізувати JavaScript

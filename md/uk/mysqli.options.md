@@ -32,13 +32,13 @@ mysqli_options(mysqli $mysql, int $option, string|int $value): bool
 
 Цю функцію можна викликати неодноразово, щоб встановити кілька налаштувань.
 
-**mysqlioptions()** потрібно викликати після [mysqliinit()](mysqli.init.md) і перед [mysqlirealconnect()](mysqli.real-connect.html)
+**mysqlioptions()** потрібно викликати після [mysqliinit()](mysqli.init.md) і перед [mysqlirealconnect()](mysqli.real-connect.md)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 `option`
 
@@ -71,7 +71,7 @@ mysqli_options(mysqli $mysql, int $option, string|int $value): bool
 
 ### Приклади
 
-Дивіться [mysqlirealconnect()](mysqli.real-connect.html)
+Дивіться [mysqlirealconnect()](mysqli.real-connect.md)
 
 ### Примітки
 
@@ -79,9 +79,9 @@ mysqli_options(mysqli $mysql, int $option, string|int $value): bool
 > 
 > MySQLnd завжди має на увазі кодування, яке використовує за умовчанням сервер. Це кодування передається під час встановлення з'єднання/авторизації, які використовує mysqlnd.
 > 
-> За замовчуванням Libmysqlclient використовує кодування, встановлене в my.cnf або спеціальним викликом **mysqlioptions()** до використання [mysqlirealconnect()](mysqli.real-connect.html), але після [mysqliinit()](mysqli.init.md)
+> За замовчуванням Libmysqlclient використовує кодування, встановлене в my.cnf або спеціальним викликом **mysqlioptions()** до використання [mysqlirealconnect()](mysqli.real-connect.md), але після [mysqliinit()](mysqli.init.md)
 
 ### Дивіться також
 
 -   [mysqliinit()](mysqli.init.md) - Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
--   [mysqlirealconnect()](mysqli.real-connect.html) - Встановлює з'єднання із сервером mysql
+-   [mysqlirealconnect()](mysqli.real-connect.md) - Встановлює з'єднання із сервером mysql

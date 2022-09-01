@@ -50,5 +50,5 @@ echo abs(-5);   // 5 (integer)
 
 ### Дивіться також
 
--   [gmpabs()](function.gmp-abs.html) - Абсолютна величина
--   [gmpsign()](function.gmp-sign.html) - Знак числа
+-   [gmpabs()](function.gmp-abs.md) - Абсолютна величина
+-   [gmpsign()](function.gmp-sign.md) - Знак числа

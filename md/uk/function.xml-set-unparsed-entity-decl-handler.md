@@ -34,7 +34,7 @@ name publicId systemId} NDATA notationName
 
 `handler`
 
-`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xmlparse()](function.xml-parse.html) з аналізатора `parser`
+`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xmlparse()](function.xml-parse.md) з аналізатора `parser`
 
 Функція з ім'ям `handler` має приймати шість аргументів:
 
@@ -64,7 +64,7 @@ handler(    XMLParser $parser,    string $entity_name,    string $ba
 
 `notation_name`
 
-Ім'я позначення цієї сутності (дивіться [xmlsetnotationdeclhandler()](function.xml-set-notation-decl-handler.html)
+Ім'я позначення цієї сутності (дивіться [xmlsetnotationdeclhandler()](function.xml-set-notation-decl-handler.md)
 
 Якщо як обробник передано порожній рядок або **`false`**, цей обробник вимикається.
 

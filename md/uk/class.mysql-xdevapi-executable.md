@@ -34,4 +34,4 @@ title: Інтерфейс Executable
 
 ## Зміст
 
--   [Executable::execute](mysql-xdevapi-executable.execute.html) - Виконує твердження
+-   [Executable::execute](mysql-xdevapi-executable.execute.md) - Виконує твердження

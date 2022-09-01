@@ -36,4 +36,4 @@ IP-адреса, з якої відбуваються HTTP-з'єднання.
 
 ### Дивіться також
 
--   [EventHttpConnection::setLocalPort()](eventhttpconnection.setlocalport.html) - Встановлює локальний порт, з якого виробляються з'єднання
+-   [EventHttpConnection::setLocalPort()](eventhttpconnection.setlocalport.md) - Встановлює локальний порт, з якого виробляються з'єднання

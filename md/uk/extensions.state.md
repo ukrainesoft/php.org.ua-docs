@@ -20,11 +20,11 @@ title: Станом
 
 -   [ImageMagick](book.imagick.md)
     
--   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.html)
+-   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.md)
     
--   [Firebird (PDO)](ref.pdo-firebird.html)
+-   [Firebird (PDO)](ref.pdo-firebird.md)
     
--   [Oracle (PDO)](ref.pdo-oci.html)
+-   [Oracle (PDO)](ref.pdo-oci.md)
     
 -   [ПС](book.ps.md)
     

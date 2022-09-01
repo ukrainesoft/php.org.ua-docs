@@ -18,7 +18,7 @@ MongoDBDriverCursorId::construct — Створює новий об'єкт Curso
 final private MongoDB\Driver\CursorId::__construct()
 ```
 
-Об'єкти [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html) повертаються з [MongoDBDriverCursor::getId()](mongodb-driver-cursor.getid.html) і не можуть бути створені безпосередньо.
+Об'єкти [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html) повертаються з [MongoDBDriverCursor::getId()](mongodb-driver-cursor.getid.md) і не можуть бути створені безпосередньо.
 
 ### Список параметрів
 
@@ -26,4 +26,4 @@ final private MongoDB\Driver\CursorId::__construct()
 
 ### Дивіться також
 
--   [MongoDBDriverCursor::getId()](mongodb-driver-cursor.getid.html) - Повертає ідентифікатор для курсору
+-   [MongoDBDriverCursor::getId()](mongodb-driver-cursor.getid.md) - Повертає ідентифікатор для курсору

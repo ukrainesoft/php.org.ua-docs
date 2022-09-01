@@ -30,7 +30,7 @@ mysqli_real_connect(    mysqli $link,    string $host = ?,    string
 
 Встановлює з'єднання із СУБД MySQL.
 
-Ця функція відрізняється від [mysqliconnect()](function.mysqli-connect.html)
+Ця функція відрізняється від [mysqliconnect()](function.mysqli-connect.md)
 
 -   Для роботи **mysqlirealconnect()** необхідний дійсний об'єкт, створений функцією [mysqliinit()](mysqli.init.md)
     
@@ -43,7 +43,7 @@ mysqli_real_connect(    mysqli $link,    string $host = ?,    string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 `host`
 
@@ -90,7 +90,7 @@ mysqli_real_connect(    mysqli $link,    string $host = ?,    string
 
 > **Зауваження**
 > 
-> З причин безпеки, прапор **`MULTI_STATEMENT`** не підтримується у PHP. Якщо потрібно виконувати мультизапити, використовуйте функцію [mysqlimultiquery()](mysqli.multi-query.html)
+> З причин безпеки, прапор **`MULTI_STATEMENT`** не підтримується у PHP. Якщо потрібно виконувати мультизапити, використовуйте функцію [mysqlimultiquery()](mysqli.multi-query.md)
 
 ### Значення, що повертаються
 
@@ -206,8 +206,8 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqliconnect()](function.mysqli-connect.html) - Псевдонім mysqli::construct
+-   [mysqliconnect()](function.mysqli-connect.md) - Псевдонім mysqli::construct
 -   [mysqliinit()](mysqli.init.md) - Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
 -   [mysqlioptions()](mysqli.options.md) - Встановлення налаштувань
--   [mysqlisslset()](mysqli.ssl-set.html) - Використовується для встановлення безпечних з'єднань за допомогою SSL
+-   [mysqlisslset()](mysqli.ssl-set.md) - Використовується для встановлення безпечних з'єднань за допомогою SSL
 -   [mysqliclose()](mysqli.close.md) - Закриває раніше відкрите з'єднання з базою даних

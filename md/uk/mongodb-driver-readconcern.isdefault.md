@@ -18,9 +18,9 @@ MongoDBDriverReadConcern::isDefault — Перевіряє, чи є гарант
 final public MongoDB\Driver\ReadConcern::isDefault(): bool
 ```
 
-Повертає, чи це гарантія читання за замовчуванням (тобто параметри не вказані). Цей метод в першу чергу призначений для використання у поєднанні з [MongoDBDriverManager::getReadConcern()](mongodb-driver-manager.getreadconcern.html), щоб визначити, чи був побудований Manager без будь-яких гарантій читання.
+Повертає, чи це гарантія читання за замовчуванням (тобто параметри не вказані). Цей метод в першу чергу призначений для використання у поєднанні з [MongoDBDriverManager::getReadConcern()](mongodb-driver-manager.getreadconcern.md), щоб визначити, чи був побудований Manager без будь-яких гарантій читання.
 
-Драйвер не буде включати гарантії читання за умовчанням у своїх операціях читання (наприклад, [MongoDBDriverManager::executeQuery()](mongodb-driver-manager.executequery.html)), щоб сервер міг застосовувати власні значення за замовчуванням. Бібліотеки, які звертаються до гарантій читання Manager, щоб включити його у власні команди читання, повинні використовувати цей метод, щоб гарантувати, що гарантії читання за замовчуванням залишаються невстановленими.
+Драйвер не буде включати гарантії читання за умовчанням у своїх операціях читання (наприклад, [MongoDBDriverManager::executeQuery()](mongodb-driver-manager.executequery.md)), щоб сервер міг застосовувати власні значення за замовчуванням. Бібліотеки, які звертаються до гарантій читання Manager, щоб включити його у власні команди читання, повинні використовувати цей метод, щоб гарантувати, що гарантії читання за замовчуванням залишаються невстановленими.
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ final public MongoDB\Driver\ReadConcern::isDefault(): bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
@@ -69,5 +69,5 @@ bool(true)
 
 ### Дивіться також
 
--   [MongoDBDriverManager::getReadConcern()](mongodb-driver-manager.getreadconcern.html) - Повертає ReadConcern для Manager
+-   [MongoDBDriverManager::getReadConcern()](mongodb-driver-manager.getreadconcern.md) - Повертає ReadConcern для Manager
 -   [» Справка по гарантиям чтения](https://www.mongodb.com/docs/manual/reference/read-concern/)

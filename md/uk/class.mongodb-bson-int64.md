@@ -53,8 +53,8 @@ final public unserialize(string $serialized): void
 
 ## Зміст
 
--   [MongoDBBSONInt64::construct](mongodb-bson-int64.construct.html) — Створює новий Int64 (не використовується)
--   [MongoDBBSONInt64::jsonSerialize](mongodb-bson-int64.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDBBSONInt64::serialize](mongodb-bson-int64.serialize.html) - Серіалізує Int64
--   [MongoDBBSONInt64::toString](mongodb-bson-int64.tostring.html) — Повертає рядкову виставу Int64
--   [MongoDBBSONInt64::unserialize](mongodb-bson-int64.unserialize.html) - Десеріалізує Int64
+-   [MongoDBBSONInt64::construct](mongodb-bson-int64.construct.md) — Створює новий Int64 (не використовується)
+-   [MongoDBBSONInt64::jsonSerialize](mongodb-bson-int64.jsonserialize.md) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONInt64::serialize](mongodb-bson-int64.serialize.md) - Серіалізує Int64
+-   [MongoDBBSONInt64::toString](mongodb-bson-int64.tostring.md) — Повертає рядкову виставу Int64
+-   [MongoDBBSONInt64::unserialize](mongodb-bson-int64.unserialize.md) - Десеріалізує Int64

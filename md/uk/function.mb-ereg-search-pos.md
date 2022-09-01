@@ -20,7 +20,7 @@ mb_ereg_search_pos(?string $pattern = null, ?string $options = null): array|fals
 
 Повертає позицію і довжину ділянки, що збіглася з регулярним виразом заздалегідь визначеного багатобайтного рядка.
 
-Рядок для пошуку задається функцією [мбeregsearchinit()](function.mb-ereg-search-init.html). Якщо вона не задавалася, буде використано рядок, заданий раніше.
+Рядок для пошуку задається функцією [мбeregsearchinit()](function.mb-ereg-search-init.md). Якщо вона не задавалася, буде використано рядок, заданий раніше.
 
 ### Список параметрів
 
@@ -30,7 +30,7 @@ mb_ereg_search_pos(?string $pattern = null, ?string $options = null): array|fals
 
 `options`
 
-Опція пошуку. Детальніше дивіться [мбregexsetoptions()](function.mb-regex-set-options.html)
+Опція пошуку. Детальніше дивіться [мбregexsetoptions()](function.mb-regex-set-options.md)
 
 ### Значення, що повертаються
 
@@ -48,9 +48,9 @@ mb_ereg_search_pos(?string $pattern = null, ?string $options = null): array|fals
 
 > **Зауваження**
 > 
-> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.html)
+> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.md)
 
 ### Дивіться також
 
--   [мбregexencoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [мбeregsearchinit()](function.mb-ereg-search-init.html) - Ініціалізація пошуку відповідностей регулярному виразу багатобайтовим рядком та текстом регулярного вираження
+-   [мбregexencoding()](function.mb-regex-encoding.md) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
+-   [мбeregsearchinit()](function.mb-ereg-search-init.md) - Ініціалізація пошуку відповідностей регулярному виразу багатобайтовим рядком та текстом регулярного вираження

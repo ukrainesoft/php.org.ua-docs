@@ -28,5 +28,5 @@ public Yaf_Response_Abstract::setHeader(string $name, string $value, bool $repla
 
 ### Дивіться також
 
--   [YafResponseAbstract::getHeader()](yaf-response-abstract.getheader.html) - Призначення getHeader
+-   [YafResponseAbstract::getHeader()](yaf-response-abstract.getheader.md) - Призначення getHeader
 -   **YafResponseAbstract::cleanHeaders()**

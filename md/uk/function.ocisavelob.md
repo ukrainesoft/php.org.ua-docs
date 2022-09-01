@@ -10,11 +10,11 @@ title: ocisavelob
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocisavelob - Псевдонім [OCILob::save()](ocilob.save.html)
+ocisavelob - Псевдонім [OCILob::save()](ocilob.save.md)
 
 ### Опис
 
-Псевдонім [OCILob::save()](ocilob.save.html)
+Псевдонім [OCILob::save()](ocilob.save.md)
 
 **Увага**
 

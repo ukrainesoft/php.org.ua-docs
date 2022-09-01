@@ -10,12 +10,12 @@ title: fbirderrcode
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirderrcode - Псевдонім [ibaseerrcode()](function.ibase-errcode.html)
+fbirderrcode - Псевдонім [ibaseerrcode()](function.ibase-errcode.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibaseerrcode()](function.ibase-errcode.html)
+Ця функція є псевдонімом: [ibaseerrcode()](function.ibase-errcode.md)
 
 ### Дивіться також
 
--   [fbirderrmsg()](function.fbird-errmsg.html) - Псевдонім ibaseerrmsg
+-   [fbirderrmsg()](function.fbird-errmsg.md) - Псевдонім ibaseerrmsg

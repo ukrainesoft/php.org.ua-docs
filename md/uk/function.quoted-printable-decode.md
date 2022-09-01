@@ -20,7 +20,7 @@ quoted_printable_decode(string $string): string
 
 Ця функція повертає 8-бітовий бінарний рядок, що відповідає зазначеному рядку в кодуванні quoted-printable (відповідно до розділу 6.7 [» RFC2045](http://www.faqs.org/rfcs/rfc2045), а не розділом 4.5.2 [» RFC2821](http://www.faqs.org/rfcs/rfc2821), тобто додаткові точки не будуть вирізані з початку рядка).
 
-Ця функція подібна до функції [imapqprint()](function.imap-qprint.html), але не вимагає модуля IMAP.
+Ця функція подібна до функції [imapqprint()](function.imap-qprint.md), але не вимагає модуля IMAP.
 
 ### Список параметрів
 
@@ -55,4 +55,4 @@ string(29) "Möchten Sie ein paar Äpfel?"
 
 ### Дивіться також
 
--   [quotedprintableencode()](function.quoted-printable-encode.html) - Перетворює 8-бітовий рядок за допомогою методу quoted-printable
+-   [quotedprintableencode()](function.quoted-printable-encode.md) - Перетворює 8-бітовий рядок за допомогою методу quoted-printable

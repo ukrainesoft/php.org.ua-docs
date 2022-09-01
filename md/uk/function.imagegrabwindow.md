@@ -46,7 +46,7 @@ ID вікна HWND.
 
 | Версия | Описание |
 | --- | --- |
-|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 |  | `client_area` тепер очікує на логічне значення (bool); раніше очікувалося ціле число (int). |
 
 ### Приклади
@@ -89,4 +89,4 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagegrabscreen()](function.imagegrabscreen.html) - Захоплює зображення з екрану
+-   [imagegrabscreen()](function.imagegrabscreen.md) - Захоплює зображення з екрану

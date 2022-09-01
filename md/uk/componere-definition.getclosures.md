@@ -28,4 +28,4 @@ public Componere\Definition::getClosures(): array
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), якщо Definition вже було зареєстровано
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо Definition вже було зареєстровано

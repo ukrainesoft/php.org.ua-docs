@@ -18,7 +18,7 @@ getincludedfiles — Повертає масив імен увімкнених �
 get_included_files(): array
 ```
 
-Отримує імена всіх файлів, які були включені до скрипту з використанням [include](function.include.md) [includeonce](function.include-once.html) [require](function.require.md) або [requireonce](function.require-once.html)
+Отримує імена всіх файлів, які були включені до скрипту з використанням [include](function.include.md) [includeonce](function.include-once.html) [require](function.require.md) або [requireonce](function.require-once.md)
 
 ### Список параметрів
 
@@ -67,7 +67,7 @@ foreach ($included_files as $filename) {
 ### Дивіться також
 
 -   [include](function.include.md) - include
--   [includeonce](function.include-once.html) - includeonce
+-   [includeonce](function.include-once.md) - includeonce
 -   [require](function.require.md) - require
--   [requireonce](function.require-once.html) - requireonce
--   [getrequiredfiles()](function.get-required-files.html) - Псевдонім getincludedfiles
+-   [requireonce](function.require-once.md) - requireonce
+-   [getrequiredfiles()](function.get-required-files.md) - Псевдонім getincludedfiles

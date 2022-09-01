@@ -30,4 +30,4 @@ filter_id(string $name): int|false
 
 ### Дивіться також
 
--   [filterlist()](function.filter-list.html) - Повертає список усіх підтримуваних фільтрів
+-   [filterlist()](function.filter-list.md) - Повертає список усіх підтримуваних фільтрів

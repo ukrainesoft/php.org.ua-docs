@@ -14,7 +14,7 @@ ComponereMethod::construct - Конструктор класу Method
 
 ### Опис
 
-public **ComponereMethod::construct**[Closure](class.closure.html) `$closure`
+public **ComponereMethod::construct**[Closure](class.closure.md) `$closure`
 
 ### Список параметрів
 

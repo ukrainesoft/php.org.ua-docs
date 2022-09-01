@@ -28,15 +28,15 @@ public SolrClient::request(string $raw_request): SolrUpdateResponse
 
 ### Значення, що повертаються
 
-Повертає [SolrUpdateResponse](class.solrupdateresponse.html) у разі успішного виконання. Викидає виняток у разі помилки.
+Повертає [SolrUpdateResponse](class.solrupdateresponse.md) у разі успішного виконання. Викидає виняток у разі помилки.
 
 ### Помилки
 
-Викидає [SolrIllegalArgumentException](class.solrillegalargumentexception.html), якщо `raw_request` є порожнім рядком.
+Викидає [SolrIllegalArgumentException](class.solrillegalargumentexception.md), якщо `raw_request` є порожнім рядком.
 
-Викидає [SolrClientException](class.solrclientexception.html)якщо клієнт відмовив або виникла проблема з підключенням.
+Викидає [SolrClientException](class.solrclientexception.md)якщо клієнт відмовив або виникла проблема з підключенням.
 
-Викидає [SolrServerException](class.solrserverexception.html)якщо сервер Solr не зміг обробити запит.
+Викидає [SolrServerException](class.solrserverexception.md)якщо сервер Solr не зміг обробити запит.
 
 ### Приклади
 

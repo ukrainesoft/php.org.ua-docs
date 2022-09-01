@@ -36,7 +36,7 @@ mysqli_close(mysqli $mysql): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -86,11 +86,11 @@ foreach ($result as $row) {
 
 > **Зауваження**
 > 
-> **mysqliclose()** не закриває постійні з'єднання. Для отримання подробиць дивіться посібник з [persistent connections](features.persistent-connections.html)
+> **mysqliclose()** не закриває постійні з'єднання. Для отримання подробиць дивіться посібник з [persistent connections](features.persistent-connections.md)
 
 ### Дивіться також
 
 -   [mysqli::construct()](mysqli.construct.md) - Встановлює нове з'єднання із сервером MySQL
 -   [mysqliinit()](mysqli.init.md) - Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
--   [mysqlirealconnect()](mysqli.real-connect.html) - Встановлює з'єднання із сервером mysql
--   [mysqlifreeresult()](mysqli-result.free.html) - звільняє пам'ять, зайняту результатами запиту
+-   [mysqlirealconnect()](mysqli.real-connect.md) - Встановлює з'єднання із сервером mysql
+-   [mysqlifreeresult()](mysqli-result.free.md) - звільняє пам'ять, зайняту результатами запиту

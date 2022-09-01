@@ -34,7 +34,7 @@ public finfo::buffer(string $string, int $flags = FILEINFO_NONE, ?resource $cont
 
 `finfo`
 
-Екземпляр [finfo](class.finfo.md), що повертається функцією [finfoopen()](function.finfo-open.html)
+Екземпляр [finfo](class.finfo.md), що повертається функцією [finfoopen()](function.finfo-open.md)
 
 `string`
 

@@ -24,7 +24,7 @@ public ReflectionProperty::getValue(?object $object = null): mixed
 
 `object`
 
-Якщо властивість не статична, необхідно передати об'єкт, з якого потрібно отримати цю властивість. Якщо вам потрібно отримати властивість за промовчанням, не надаючи об'єкта, використовуйте функцію [ReflectionClass::getDefaultProperties()](reflectionclass.getdefaultproperties.html)
+Якщо властивість не статична, необхідно передати об'єкт, з якого потрібно отримати цю властивість. Якщо вам потрібно отримати властивість за промовчанням, не надаючи об'єкта, використовуйте функцію [ReflectionClass::getDefaultProperties()](reflectionclass.getdefaultproperties.md)
 
 ### Значення, що повертаються
 
@@ -32,7 +32,7 @@ public ReflectionProperty::getValue(?object $object = null): mixed
 
 ### Помилки
 
-Викидає виняток [ReflectionException](class.reflectionexception.html)якщо властивість недоступна. Захищені та закриті властивості можна зробити доступними функцією [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.html)
+Викидає виняток [ReflectionException](class.reflectionexception.html)якщо властивість недоступна. Захищені та закриті властивості можна зробити доступними функцією [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.md)
 
 ### список змін
 
@@ -74,7 +74,7 @@ string(6) "foofoo"
 
 ### Дивіться також
 
--   [ReflectionProperty::setValue()](reflectionproperty.setvalue.html) - Встановлення значення якості
--   [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.html) - Робить властивість доступною
--   [ReflectionClass::getDefaultProperties()](reflectionclass.getdefaultproperties.html) - Повертає властивості за промовчанням
--   [ReflectionClass::getStaticPropertyValue()](reflectionclass.getstaticpropertyvalue.html) - Повертає значення статичної властивості
+-   [ReflectionProperty::setValue()](reflectionproperty.setvalue.md) - Встановлення значення якості
+-   [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.md) - Робить властивість доступною
+-   [ReflectionClass::getDefaultProperties()](reflectionclass.getdefaultproperties.md) - Повертає властивості за промовчанням
+-   [ReflectionClass::getStaticPropertyValue()](reflectionclass.getstaticpropertyvalue.md) - Повертає значення статичної властивості

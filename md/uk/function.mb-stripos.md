@@ -18,7 +18,7 @@ title: мбstripos
 mb_stripos(    string $haystack,    string $needle,    int $offset = 0,    ?string $encoding = null): int|false
 ```
 
-**мбstripos()** повертає позицію першого входження рядка `needle` у рядку `haystack`. На відміну від [мбstrpos()](function.mb-strpos.html) **мбstripos()** не чутлива до регістру символів. Якщо рядок `needle` не знайдено, функція поверне **`false`**
+**мбstripos()** повертає позицію першого входження рядка `needle` у рядку `haystack`. На відміну від [мбstrpos()](function.mb-strpos.md) **мбstripos()** не чутлива до регістру символів. Якщо рядок `needle` не знайдено, функція поверне **`false`**
 
 ### Список параметрів
 
@@ -54,4 +54,4 @@ mb_stripos(    string $haystack,    string $needle,    int $offset =
 
 -   [stripos()](function.stripos.md) - Повертає позицію першого входження підрядка без урахування регістру
 -   [strpos()](function.strpos.md) - Повертає позицію першого входження підрядка
--   [мбstrpos()](function.mb-strpos.html) - Пошук позиції першого входження одного рядка до іншого
+-   [мбstrpos()](function.mb-strpos.md) - Пошук позиції першого входження одного рядка до іншого

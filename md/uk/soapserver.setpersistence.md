@@ -36,7 +36,7 @@ public SoapServer::setPersistence(int $mode): void
 
 **`SOAP_PERSISTENCE_REQUEST`** - дані SoapServer не зберігаються між запитами. Ця поведінка *за замовчуванням* будь-якого об'єкта SoapServer після виклику setClass.
 
-**`SOAP_PERSISTENCE_SESSION`** - Дані SoapServer зберігаються між запитами. Це досягається шляхом серіалізації об'єкта SoapServer в [SESSION\['bogussessionname'\]](reserved.variables.session.md), отже необхідно викликати [sessionstart()](function.session-start.html) перед увімкненням цього режиму.
+**`SOAP_PERSISTENCE_SESSION`** - Дані SoapServer зберігаються між запитами. Це досягається шляхом серіалізації об'єкта SoapServer в [SESSION\['bogussessionname'\]](reserved.variables.session.md), отже необхідно викликати [sessionstart()](function.session-start.md) перед увімкненням цього режиму.
 
 ### Значення, що повертаються
 

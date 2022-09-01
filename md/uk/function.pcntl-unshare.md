@@ -36,9 +36,9 @@ pcntl_unshare(int $flags): bool
 
 ### Значення, що повертаються
 
-Повертає `0` у разі успішного виконання, `-1` в іншому випадку. У разі виникнення помилки встановлюється код помилки, який можна отримати за допомогою функції [pcntlgetlasterror()](function.pcntl-get-last-error.html)
+Повертає `0` у разі успішного виконання, `-1` в іншому випадку. У разі виникнення помилки встановлюється код помилки, який можна отримати за допомогою функції [pcntlgetlasterror()](function.pcntl-get-last-error.md)
 
 ### Дивіться також
 
 -   [Константи PCNTL](pcntl.constants.html#pcntl.constants.clone)
--   [pcntlgetlasterror()](function.pcntl-get-last-error.html) - Отримати код останньої помилки, що виникла в pcntl-функції
+-   [pcntlgetlasterror()](function.pcntl-get-last-error.md) - Отримати код останньої помилки, що виникла в pcntl-функції

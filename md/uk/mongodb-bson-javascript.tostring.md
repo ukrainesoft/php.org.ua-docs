@@ -18,7 +18,7 @@ MongoDBBSONJavascript::toString — Повертає код JavaScript
 final public MongoDB\BSON\Javascript::__toString(): string
 ```
 
-Цей метод є псевдонімом: [MongoDBBSONJavascript::getCode()](mongodb-bson-javascript.getcode.html)
+Цей метод є псевдонімом: [MongoDBBSONJavascript::getCode()](mongodb-bson-javascript.getcode.md)
 
 ### Список параметрів
 
@@ -48,5 +48,5 @@ string(33) "function foo(bar) { return bar; }"
 
 ### Дивіться також
 
--   [MongoDBBSONJavascript::getCode()](mongodb-bson-javascript.getcode.html) - Повертає код JavaScript
+-   [MongoDBBSONJavascript::getCode()](mongodb-bson-javascript.getcode.md) - Повертає код JavaScript
 -   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

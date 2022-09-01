@@ -74,6 +74,6 @@ a
 
 ### Дивіться також
 
--   [headerslist()](function.headers-list.html) - Повертає список переданих заголовків (або готових до відправлення)
--   [headerremove()](function.header-remove.html) - Видаляє раніше встановлені заголовки
+-   [headerslist()](function.headers-list.md) - Повертає список переданих заголовків (або готових до відправлення)
+-   [headerremove()](function.header-remove.md) - Видаляє раніше встановлені заголовки
 -   [header()](function.header.md) - Надсилання HTTP-заголовка

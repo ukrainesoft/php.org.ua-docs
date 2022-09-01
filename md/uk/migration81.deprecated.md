@@ -10,7 +10,7 @@ title: Застаріла функціональність
 
 ### Ядро PHP
 
-#### Реалізація [Serializable](class.serializable.html) без **serialize()** і **unserialize()**
+#### Реалізація [Serializable](class.serializable.md) без **serialize()** і **unserialize()**
 
 Якщо не потрібна підтримка версій PHP менше 7.4, повинні бути реалізовані лише ці два магічні методи, інакше потрібно реалізувати як методи інтерфейсу, так і магічні методи.
 
@@ -86,15 +86,15 @@ $arr[] = 2;   // устарело
 
 #### Перевірка нерядкових аргументів
 
-Передача нерядкового аргументу застаріла. У майбутньому аргумент інтерпретуватиметься як рядок замість коду ASCII. Залежно від передбачуваної поведінки аргумент має бути приведений до рядка (string) явно або через виклик [chr()](function.chr.html). Ця зміна стосується всіх функцій `ctype_*()`
+Передача нерядкового аргументу застаріла. У майбутньому аргумент інтерпретуватиметься як рядок замість коду ASCII. Залежно від передбачуваної поведінки аргумент має бути приведений до рядка (string) явно або через виклик [chr()](function.chr.md). Ця зміна стосується всіх функцій `ctype_*()`
 
 ### Date
 
-Функції [datesunrise()](function.date-sunrise.html) і [datesunset()](function.date-sunset.html) застаріли на користь [datesuninfo()](function.date-sun-info.html)
+Функції [datesunrise()](function.date-sunrise.html) і [datesunset()](function.date-sunset.html) застаріли на користь [datesuninfo()](function.date-sun-info.md)
 
-Функція [strptime()](function.strptime.html) застаріла. Замість неї використовуйте [dateparsefromformat()](function.date-parse-from-format.html) (для синтаксичного аналізу, що не залежить від мовного стандарту) або [IntlDateFormatter::parse()](intldateformatter.parse.html) (Для синтаксичного аналізу, що залежить від мовного стандарту).
+Функція [strptime()](function.strptime.html) застаріла. Замість неї використовуйте [dateparsefromformat()](function.date-parse-from-format.html) (для синтаксичного аналізу, що не залежить від мовного стандарту) або [IntlDateFormatter::parse()](intldateformatter.parse.md) (Для синтаксичного аналізу, що залежить від мовного стандарту).
 
-Функція [strftime()](function.strftime.html) і [gmstrftime()](function.gmstrftime.html) застаріли. Використовуйте замість них функцію [date()](function.date.html) (для форматування, що не залежить від мовного стандарту) або метод [IntlDateFormatter::format()](intldateformatter.format.html) (Для форматування, що залежить від мовного стандарту).
+Функція [strftime()](function.strftime.html) і [gmstrftime()](function.gmstrftime.html) застаріли. Використовуйте замість них функцію [date()](function.date.html) (для форматування, що не залежить від мовного стандарту) або метод [IntlDateFormatter::format()](intldateformatter.format.md) (Для форматування, що залежить від мовного стандарту).
 
 ### Фільтр
 
@@ -104,11 +104,11 @@ INI-директива [filter.default](filter.configuration.html#ini.filter.def
 
 ### ДД
 
-Параметр `num_points` функції [imagepolygon()](function.imagepolygon.html) [imageopenpolygon()](function.imageopenpolygon.html) і [imagefilledpolygon()](function.imagefilledpolygon.html) застарів.
+Параметр `num_points` функції [imagepolygon()](function.imagepolygon.html) [imageopenpolygon()](function.imageopenpolygon.html) і [imagefilledpolygon()](function.imagefilledpolygon.md) застарів.
 
 ### Хешування
 
-Функції [mhash()](function.mhash.html) [mhashkeygens2k()](function.mhash-keygen-s2k.html) [mhashcount()](function.mhash-count.html) [mhashgetblocksize()](function.mhash-get-block-size.html) і [mhashgethashname()](function.mhash-get-hash-name.html) застаріли. Замість них використовуйте функції `hash_*()`
+Функції [mhash()](function.mhash.html) [mhashkeygens2k()](function.mhash-keygen-s2k.html) [mhashcount()](function.mhash-count.html) [mhashgetblocksize()](function.mhash-get-block-size.html) і [mhashgethashname()](function.mhash-get-hash-name.md) застаріли. Замість них використовуйте функції `hash_*()`
 
 ### IMAP
 
@@ -116,19 +116,19 @@ INI-директива [filter.default](filter.configuration.html#ini.filter.def
 
 ### Intl
 
-Виклик [IntlCalendar::roll()](intlcalendar.roll.html) із логічним значенням (bool) застарів. Використовуйте `1` і `-1` замість **`true`** і **`false`** відповідно.
+Виклик [IntlCalendar::roll()](intlcalendar.roll.md) із логічним значенням (bool) застарів. Використовуйте `1` і `-1` замість **`true`** і **`false`** відповідно.
 
 ### Багатобайтові рядки
 
-Виклик [мбcheckencoding()](function.mb-check-encoding.html) без жодних аргументів застарів.
+Виклик [мбcheckencoding()](function.mb-check-encoding.md) без жодних аргументів застарів.
 
 ### MySQLi
 
 Властивість mysqlidriver::$driverversion застаріло. Воно було неактуальним, використовуйте замість нього **`PHP_VERSION_ID`**
 
-Виклик методу [mysqli::getclientinfo()](mysqli.get-client-info.html) або [mysqligetclientinfo()](mysqli.get-client-info.html) з аргументом `mysqli` застарів. Використовуйте [mysqligetclientinfo()](mysqli.get-client-info.html) без жодних аргументів, щоб отримати інформацію про версію клієнтської бібліотеки.
+Виклик методу [mysqli::getclientinfo()](mysqli.get-client-info.html) або [mysqligetclientinfo()](mysqli.get-client-info.html) з аргументом `mysqli` застарів. Використовуйте [mysqligetclientinfo()](mysqli.get-client-info.md) без жодних аргументів, щоб отримати інформацію про версію клієнтської бібліотеки.
 
-Метод [mysqli::init()](mysqli.init.html) застарів. Замініть дзвінки **parent::init()** на **parent::construct()**
+Метод [mysqli::init()](mysqli.init.md) застарів. Замініть дзвінки **parent::init()** на **parent::construct()**
 
 ### OCI8
 
@@ -136,7 +136,7 @@ INI-директива [oci8.oldociclosesemantics](oci8.configuration.html#ini.o
 
 ### ODBC
 
-Функція [odbcresultall()](function.odbc-result-all.html) застаріла.
+Функція [odbcresultall()](function.odbc-result-all.md) застаріла.
 
 ### PDO
 
@@ -148,11 +148,11 @@ INI-директива [oci8.oldociclosesemantics](oci8.configuration.html#ini.o
 
 ### SOAP
 
-Параметр `ssl_method` в [SoapClient::construct()](soapclient.construct.html) застарів на користь параметрів контексту потоку SSL.
+Параметр `ssl_method` в [SoapClient::construct()](soapclient.construct.md) застарів на користь параметрів контексту потоку SSL.
 
 ### Стандартні функції
 
-Виклик [key()](function.key.html) [current()](function.current.html) [next()](function.next.html) [prev()](function.prev.html) [reset()](function.reset.html) або [end()](function.end.html) з об'єктами (object) застарів. Використовуйте ці функції на об'єкті через [getmangledobjectvars()](function.get-mangled-object-vars.html), або через [ArrayIterator](class.arrayiterator.html)
+Виклик [key()](function.key.html) [current()](function.current.html) [next()](function.next.html) [prev()](function.prev.html) [reset()](function.reset.html) або [end()](function.end.html) з об'єктами (object) застарів. Використовуйте ці функції на об'єкті через [getmangledobjectvars()](function.get-mangled-object-vars.html), або через [ArrayIterator](class.arrayiterator.md)
 
 INI-директива [autodetectlineendings](filesystem.configuration.html#ini.auto-detect-line-endings) застаріла. При необхідності обробіть розриви рядків `"\r"` вручну.
 

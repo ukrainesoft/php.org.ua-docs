@@ -22,13 +22,13 @@ yaz_close(resource $id): bool
 
 > **Зауваження**
 > 
-> Функція закриє лише непостійні з'єднання, відкриті функцією [yazconnect()](function.yaz-connect.html) з параметром `persistent` встановленим у значення **`false`**
+> Функція закриє лише непостійні з'єднання, відкриті функцією [yazconnect()](function.yaz-connect.md) з параметром `persistent` встановленим у значення **`false`**
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, що повертається [yazconnect()](function.yaz-connect.html)
+Дескриптор з'єднання, що повертається [yazconnect()](function.yaz-connect.md)
 
 ### Значення, що повертаються
 
@@ -36,4 +36,4 @@ yaz_close(resource $id): bool
 
 ### Дивіться також
 
--   [yazconnect()](function.yaz-connect.html) - Готує з'єднання із сервером Z39.50
+-   [yazconnect()](function.yaz-connect.md) - Готує з'єднання із сервером Z39.50

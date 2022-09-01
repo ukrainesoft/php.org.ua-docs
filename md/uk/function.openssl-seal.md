@@ -103,4 +103,4 @@ openssl_free_key($pk2);
 
 ### Дивіться також
 
--   [opensslopen()](function.openssl-open.html) - Відкрити запечатані дані
+-   [opensslopen()](function.openssl-open.md) - Відкрити запечатані дані

@@ -18,4 +18,4 @@ enchantdictaddтоpersonal — Додати слово до списку пер�
 
 ### Опис
 
-Ця функція є псевдонімом: [enchantdictadd()](function.enchant-dict-add.html)
+Ця функція є псевдонімом: [enchantdictadd()](function.enchant-dict-add.md)

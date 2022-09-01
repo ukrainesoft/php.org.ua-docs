@@ -22,7 +22,7 @@ final public MongoDB\BSON\DBPointer::unserialize(string $serialized): void
 
 `serialized`
 
-Серіалізований [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.html)
+Серіалізований [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.md)
 
 ### Значення, що повертаються
 
@@ -30,10 +30,10 @@ final public MongoDB\BSON\DBPointer::unserialize(string $serialized): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONDBPointer::serialize()](mongodb-bson-dbpointer.serialize.html) - Серіалізує DBPointer
+-   [MongoDBBSONDBPointer::serialize()](mongodb-bson-dbpointer.serialize.md) - Серіалізує DBPointer
 -   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

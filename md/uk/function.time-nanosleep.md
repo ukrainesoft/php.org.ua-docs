@@ -77,5 +77,5 @@ if ($nano === true) {
 
 -   [sleep()](function.sleep.md) - затримка виконання
 -   [usleep()](function.usleep.md) - Затримка виконання у мікросекундах
--   [timesleepuntil()](function.time-sleep-until.html) - Відкладає виконання скрипту до заданого часу
--   [settimelimit()](function.set-time-limit.html) - Обмеження часу виконання скрипту
+-   [timesleepuntil()](function.time-sleep-until.md) - Відкладає виконання скрипту до заданого часу
+-   [settimelimit()](function.set-time-limit.md) - Обмеження часу виконання скрипту

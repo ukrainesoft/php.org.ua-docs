@@ -54,15 +54,15 @@ public toArray(): array
 
 ## Зміст
 
--   [ДсStack::allocate](ds-stack.allocate.html) — Виділяє пам'ять під зазначену місткість
--   [ДсStack::capacity](ds-stack.capacity.html) — Повертає поточну місткість
--   [ДсStack::clear](ds-stack.clear.html) — Видаляє всі значення з колекції
--   [ДсStack::construct](ds-stack.construct.html) - Створює новий екземпляр класу
--   [ДсStack::copy](ds-stack.copy.html) — Повертає поверхневу копію колекції
--   [ДсStack::count](ds-stack.count.html) — Повертає кількість елементів колекції
--   [ДсStack::isEmpty](ds-stack.isempty.html) — Перевіряє, чи колекція порожня.
--   [ДсStack::jsonSerialize](ds-stack.jsonserialize.html) — Повертає колекцію в JSON-представництві
--   [ДсStack::peek](ds-stack.peek.html) — Повертає значення з вершини стека
--   [ДсStack::pop](ds-stack.pop.html) — Видаляє та повертає значення з вершини стека
--   [ДсStack::push](ds-stack.push.html) — Додає значення у стек
--   [ДсStack::toArray](ds-stack.toarray.html) — Перетворює колекцію на масив (array)
+-   [ДсStack::allocate](ds-stack.allocate.md) — Виділяє пам'ять під зазначену місткість
+-   [ДсStack::capacity](ds-stack.capacity.md) — Повертає поточну місткість
+-   [ДсStack::clear](ds-stack.clear.md) — Видаляє всі значення з колекції
+-   [ДсStack::construct](ds-stack.construct.md) - Створює новий екземпляр класу
+-   [ДсStack::copy](ds-stack.copy.md) — Повертає поверхневу копію колекції
+-   [ДсStack::count](ds-stack.count.md) — Повертає кількість елементів колекції
+-   [ДсStack::isEmpty](ds-stack.isempty.md) — Перевіряє, чи колекція порожня.
+-   [ДсStack::jsonSerialize](ds-stack.jsonserialize.md) — Повертає колекцію в JSON-представництві
+-   [ДсStack::peek](ds-stack.peek.md) — Повертає значення з вершини стека
+-   [ДсStack::pop](ds-stack.pop.md) — Видаляє та повертає значення з вершини стека
+-   [ДсStack::push](ds-stack.push.md) — Додає значення у стек
+-   [ДсStack::toArray](ds-stack.toarray.md) — Перетворює колекцію на масив (array)

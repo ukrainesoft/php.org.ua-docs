@@ -107,4 +107,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMarkNodeOrderedList::construct](commonmark-node-orderedlist.construct.html) - Конструктор класу OrderedList
+-   [CommonMarkNodeOrderedList::construct](commonmark-node-orderedlist.construct.md) - Конструктор класу OrderedList

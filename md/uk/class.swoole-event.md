@@ -40,10 +40,10 @@ public static write(string $fd, string $data): void
 
 ## Зміст
 
--   [SwooleEvent::add](swoole-event.add.html) — Додає нові callback функції сокету в EventLoop
--   [SwooleEvent::defer](swoole-event.defer.html) — Додає callback-функцію до наступного циклу подій
--   [SwooleEvent::del](swoole-event.del.html) - Видаляє всі callback-функції події сокету
--   [SwooleEvent::exit](swoole-event.exit.html) — Виходить із циклу подій, доступно лише на стороні клієнта
--   [SwooleEvent::set](swoole-event.set.html) - Оновлює callback-функції події сокету
--   [SwooleEvent::wait](swoole-event.wait.html) - Опис
--   [SwooleEvent::write](swoole-event.write.html) - Записує дані в сокет
+-   [SwooleEvent::add](swoole-event.add.md) — Додає нові callback функції сокету в EventLoop
+-   [SwooleEvent::defer](swoole-event.defer.md) — Додає callback-функцію до наступного циклу подій
+-   [SwooleEvent::del](swoole-event.del.md) - Видаляє всі callback-функції події сокету
+-   [SwooleEvent::exit](swoole-event.exit.md) — Виходить із циклу подій, доступно лише на стороні клієнта
+-   [SwooleEvent::set](swoole-event.set.md) - Оновлює callback-функції події сокету
+-   [SwooleEvent::wait](swoole-event.wait.md) - Опис
+-   [SwooleEvent::write](swoole-event.write.md) - Записує дані в сокет

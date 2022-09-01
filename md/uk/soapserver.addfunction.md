@@ -66,5 +66,5 @@ $server->addFunction(SOAP_FUNCTIONS_ALL);
 
 ### Дивіться також
 
--   [SoapServer::construct()](soapserver.construct.html) - Конструктор SoapServer
--   [SoapServer::setClass()](soapserver.setclass.html) - Встановлює клас, який обробляє SOAP-запити
+-   [SoapServer::construct()](soapserver.construct.md) - Конструктор SoapServer
+-   [SoapServer::setClass()](soapserver.setclass.md) - Встановлює клас, який обробляє SOAP-запити

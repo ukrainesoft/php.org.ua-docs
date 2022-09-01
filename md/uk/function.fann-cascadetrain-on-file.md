@@ -18,7 +18,7 @@ fanncascadetrainвінfile — Навчання на даних прочитан
 fann_cascadetrain_on_file(    resource $ann,    string $filename,    int $max_neurons,    int $neurons_between_reports,    float $desired_error): bool
 ```
 
-Робить те саме, що і [fanncascadetrainвінdata()](function.fann-cascadetrain-on-data.html)але читає дані безпосередньо з файлу.
+Робить те саме, що і [fanncascadetrainвінdata()](function.fann-cascadetrain-on-data.md)але читає дані безпосередньо з файлу.
 
 ### Список параметрів
 
@@ -40,7 +40,7 @@ fann_cascadetrain_on_file(    resource $ann,    string $filename,   �
 
 `desired_error`
 
-Вибрані [fanngetMSE()](function.fann-get-mse.html) або [fanngetbitfail()](function.fann-get-bit-fail.html), в залежності від обраної за допомогою [fannsettrainstopfunction()](function.fann-set-train-stop-function.html) функції зупинки.
+Вибрані [fanngetMSE()](function.fann-get-mse.html) або [fanngetbitfail()](function.fann-get-bit-fail.html), в залежності від обраної за допомогою [fannsettrainstopfunction()](function.fann-set-train-stop-function.md) функції зупинки.
 
 ### Значення, що повертаються
 
@@ -48,5 +48,5 @@ fann_cascadetrain_on_file(    resource $ann,    string $filename,   �
 
 ### Дивіться також
 
--   [fanntrainвінdata()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
--   [fanncascadetrainвінdata()](function.fann-cascadetrain-on-data.html) - Навчання на всьому наборі даних протягом певного періоду часу за допомогою алгоритму Cascade2
+-   [fanntrainвінdata()](function.fann-train-on-data.md) - Навчання на всьому обсязі даних на часовому інтервалі
+-   [fanncascadetrainвінdata()](function.fann-cascadetrain-on-data.md) - Навчання на всьому наборі даних протягом певного періоду часу за допомогою алгоритму Cascade2

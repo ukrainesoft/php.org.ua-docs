@@ -84,4 +84,4 @@ $baz = ucwords($foo, " \t\r\n\f\v'"); // Mike O'Hara
 -   [strtoupper()](function.strtoupper.md) - Перетворює рядок у верхній регістр
 -   [strtolower()](function.strtolower.md) - Перетворює рядок на нижній регістр
 -   [ucfirst()](function.ucfirst.md) - Перетворює перший символ рядка у верхній регістр
--   [мбconvertcase()](function.mb-convert-case.html) - Здійснює зміну регістру символів у рядку
+-   [мбconvertcase()](function.mb-convert-case.md) - Здійснює зміну регістру символів у рядку

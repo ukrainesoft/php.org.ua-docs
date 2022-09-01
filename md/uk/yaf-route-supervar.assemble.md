@@ -32,7 +32,7 @@ public Yaf_Route_Supervar::assemble(array $info, array $query = ?): string
 
 ### Помилки
 
-Викидає [YafExceptionTypeError](class.yaf-exception-typeerror.html), якщо ключі параметра `info` `':c'` and `':a'` не задані.
+Викидає [YafExceptionTypeError](class.yaf-exception-typeerror.md), якщо ключі параметра `info` `':c'` and `':a'` не задані.
 
 ### Приклади
 

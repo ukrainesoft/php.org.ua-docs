@@ -28,7 +28,7 @@ curl_close(CurlHandle $handle): void
 
 `handle`
 
-Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
 
 ### Значення, що повертаються
 
@@ -63,5 +63,5 @@ curl_close($ch);
 
 ### Дивіться також
 
--   [curlinit()](function.curl-init.html) - Ініціалізує сеанс cURL
--   [curlmulticlose()](function.curl-multi-close.html) - Закриває набір cURL-дескрипторів
+-   [curlinit()](function.curl-init.md) - Ініціалізує сеанс cURL
+-   [curlmulticlose()](function.curl-multi-close.md) - Закриває набір cURL-дескрипторів

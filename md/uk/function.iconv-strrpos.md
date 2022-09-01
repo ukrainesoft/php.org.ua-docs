@@ -20,7 +20,7 @@ iconv_strrpos(string $haystack, string $needle, ?string $encoding = null): int|f
 
 Знаходить останню позицію підрядка `needle` у рядку `haystack`
 
-На відміну від [strrpos()](function.strrpos.html) **iconvstrrpos()** повертає зміщення перед рядком у символах, а не в байтах. Кількість символів трактується залежно від вказаної параметром `encoding` кодування.
+На відміну від [strrpos()](function.strrpos.md) **iconvstrrpos()** повертає зміщення перед рядком у символах, а не в байтах. Кількість символів трактується залежно від вказаної параметром `encoding` кодування.
 
 ### Список параметрів
 
@@ -34,7 +34,7 @@ iconv_strrpos(string $haystack, string $needle, ?string $encoding = null): int|f
 
 `encoding`
 
-Якщо параметр `encoding` не вказано, то мається на увазі, що `string` має кодування [iconv.internalencoding](iconv.configuration.html)
+Якщо параметр `encoding` не вказано, то мається на увазі, що `string` має кодування [iconv.internalencoding](iconv.configuration.md)
 
 Якщо `haystack` або `needle` не є рядками, вони будуть перетворені на рядок та застосовані як код символу.
 
@@ -46,7 +46,7 @@ iconv_strrpos(string $haystack, string $needle, ?string $encoding = null): int|f
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### список змін
 
@@ -56,6 +56,6 @@ iconv_strrpos(string $haystack, string $needle, ?string $encoding = null): int|f
 
 ### Дивіться також
 
--   [strrpos()](function.strrpos.html) - Повертає позицію останнього входження підрядка у рядку
--   [iconvstrpos()](function.iconv-strpos.html) - Повертає позицію першого входження підрядка
--   [мбstrrpos()](function.mb-strrpos.html) - Пошук позиції останнього входження одного рядка до іншого
+-   [strrpos()](function.strrpos.md) - Повертає позицію останнього входження підрядка у рядку
+-   [iconvstrpos()](function.iconv-strpos.md) - Повертає позицію першого входження підрядка
+-   [мбstrrpos()](function.mb-strrpos.md) - Пошук позиції останнього входження одного рядка до іншого

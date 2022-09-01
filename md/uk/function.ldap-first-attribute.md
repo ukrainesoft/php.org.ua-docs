@@ -18,7 +18,7 @@ ldapfirstattribute — Повернути перший атрибут
 ldap_first_attribute(LDAP\Connection $ldap, LDAP\ResultEntry $entry): string|false
 ```
 
-Отримує перший атрибут у цьому записі. Атрибути, що залишаються, виходять послідовним викликом [ldapnextattribute()](function.ldap-next-attribute.html)
+Отримує перший атрибут у цьому записі. Атрибути, що залишаються, виходять послідовним викликом [ldapnextattribute()](function.ldap-next-attribute.md)
 
 Подібно до читання записів, атрибути також читаються один за одним з окремого елемента.
 
@@ -26,15 +26,15 @@ ldap_first_attribute(LDAP\Connection $ldap, LDAP\ResultEntry $entry): string|fal
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `entry`
 
-Екземпляр [LDAPResultEntry](class.ldap-result-entry.html)
+Екземпляр [LDAPResultEntry](class.ldap-result-entry.md)
 
 `ber_identifier`
 
-`ber_identifier` є ідентифікатором внутрішнього покажчика осередку пам'яті. Він передається за посиланням. Також `ber_identifier` передається в [ldapnextattribute()](function.ldap-next-attribute.html)яка змінює цей покажчик.
+`ber_identifier` є ідентифікатором внутрішнього покажчика осередку пам'яті. Він передається за посиланням. Також `ber_identifier` передається в [ldapnextattribute()](function.ldap-next-attribute.md)яка змінює цей покажчик.
 
 > **Зауваження**
 > 
@@ -48,10 +48,10 @@ ldap_first_attribute(LDAP\Connection $ldap, LDAP\ResultEntry $entry): string|fal
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [ldapnextattribute()](function.ldap-next-attribute.html) - Отримати наступний атрибут із результату
--   [ldapgetattributes()](function.ldap-get-attributes.html) - Отримує атрибути із запису у результатах пошуку
+-   [ldapnextattribute()](function.ldap-next-attribute.md) - Отримати наступний атрибут із результату
+-   [ldapgetattributes()](function.ldap-get-attributes.md) - Отримує атрибути із запису у результатах пошуку

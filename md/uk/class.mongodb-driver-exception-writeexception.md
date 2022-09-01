@@ -12,7 +12,7 @@ title: Клас MongoDBDriverExceptionWriteException
 
 ## Вступ
 
-Базовий клас для винятків, спричинених невдалою операцією запису. Цей виняток містить об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
+Базовий клас для винятків, спричинених невдалою операцією запису. Цей виняток містить об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md)
 
 ## Огляд класів
 
@@ -99,15 +99,15 @@ private Exception::__clone(): void
 
 writeResult
 
-Об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html), пов'язаний із невдалою операцією запису.
+Об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md), пов'язаний із невдалою операцією запису.
 
 ## список змін
 
 | Версия | Описание |
 | --- | --- |
 | PECL mongodb 1.5.0 |  |
-| Тепер клас успадковується від [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html) |  |
+| Тепер клас успадковується від [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.md) |  |
 
 ## Зміст
 
--   [MongoDBDriverExceptionWriteException::getWriteResult](mongodb-driver-writeexception.getwriteresult.html) — Повертає WriteResult для операції запису помилкою, що закінчилася.
+-   [MongoDBDriverExceptionWriteException::getWriteResult](mongodb-driver-writeexception.getwriteresult.md) — Повертає WriteResult для операції запису помилкою, що закінчилася.

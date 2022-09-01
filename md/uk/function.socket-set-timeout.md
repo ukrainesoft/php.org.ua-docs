@@ -10,8 +10,8 @@ title: socketsettimeout
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-socketsettimeout - Псевдонім [streamsettimeout()](function.stream-set-timeout.html)
+socketsettimeout - Псевдонім [streamsettimeout()](function.stream-set-timeout.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [streamsettimeout()](function.stream-set-timeout.html)
+Ця функція є псевдонімом: [streamsettimeout()](function.stream-set-timeout.md)

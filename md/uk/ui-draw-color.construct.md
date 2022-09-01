@@ -14,7 +14,7 @@ title: 'ОЙDrawColor::construct'
 
 ### Опис
 
-public **ОЙDrawColor::construct**[ОЙDrawColor](class.ui-draw-color.html) `$color`
+public **ОЙDrawColor::construct**[ОЙDrawColor](class.ui-draw-color.md) `$color`
 
 public **ОЙDrawColor::construct**(int `$color`
 

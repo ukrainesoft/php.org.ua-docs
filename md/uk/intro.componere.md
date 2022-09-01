@@ -12,23 +12,23 @@ Componere (латинська, англійська: compose) призначен
 
 ##### Структура:
 
-[ComponereDefinition](class.componere-definition.html) використовується визначення (або перевизначення) класу під час виконання; Потім клас може бути зареєстрований і у разі перевизначення він замінює вихідний клас доти, доки існує [ComponereDefinition](class.componere-definition.html)
+[ComponereDefinition](class.componere-definition.html) використовується визначення (або перевизначення) класу під час виконання; Потім клас може бути зареєстрований і у разі перевизначення він замінює вихідний клас доти, доки існує [ComponereDefinition](class.componere-definition.md)
 
-public [ComponereDefinition::construct](componere-definition.construct.html)(string `$name`
+public [ComponereDefinition::construct](componere-definition.construct.md)(string `$name`
 
-public [ComponereDefinition::construct](componere-definition.construct.html)(string `$name`, string `$parent`
+public [ComponereDefinition::construct](componere-definition.construct.md)(string `$name`, string `$parent`
 
-public [ComponereDefinition::construct](componere-definition.construct.html)(string `$name`, array `$interfaces`
+public [ComponereDefinition::construct](componere-definition.construct.md)(string `$name`, array `$interfaces`
 
-public [ComponereDefinition::construct](componere-definition.construct.html)(string `$name`, string `$parent`, array `$interfaces`
+public [ComponereDefinition::construct](componere-definition.construct.md)(string `$name`, string `$parent`, array `$interfaces`
 
 ##### Патчінг:
 
-[ComponerePatch](class.componere-patch.html) використовується зміни класу конкретного екземпляра об'єкта під час виконання; Після застосування виправлення буде застосовуватися доти, доки існує [ComponerePatch](class.componere-patch.html) і його можна скасувати.
+[ComponerePatch](class.componere-patch.html) використовується зміни класу конкретного екземпляра об'єкта під час виконання; Після застосування виправлення буде застосовуватися доти, доки існує [ComponerePatch](class.componere-patch.md) і його можна скасувати.
 
-public [ComponerePatch::construct](componere-patch.construct.html)(object `$instance`
+public [ComponerePatch::construct](componere-patch.construct.md)(object `$instance`
 
-public [ComponerePatch::construct](componere-patch.construct.html)(object `$instance`, array `$interfaces`
+public [ComponerePatch::construct](componere-patch.construct.md)(object `$instance`, array `$interfaces`
 
 ##### Приведення:
 

@@ -64,5 +64,5 @@ while ($resa = radius_get_attr($res)) {
 
 ### Дивіться також
 
--   [radiuscvtint()](function.radius-cvt-int.html) - Перетворює необроблені дані на ціле число
--   [radiuscvtstring()](function.radius-cvt-string.html) - Перетворює необроблені дані на рядок
+-   [radiuscvtint()](function.radius-cvt-int.md) - Перетворює необроблені дані на ціле число
+-   [radiuscvtstring()](function.radius-cvt-string.md) - Перетворює необроблені дані на рядок

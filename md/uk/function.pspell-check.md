@@ -24,7 +24,7 @@ pspell_check(PSpell\Dictionary $dictionary, string $word): bool
 
 `dictionary`
 
-Екземпляр [PSpellDictionary](class.pspell-dictionary.html)
+Екземпляр [PSpellDictionary](class.pspell-dictionary.md)
 
 `word`
 
@@ -38,7 +38,7 @@ pspell_check(PSpell\Dictionary $dictionary, string $word): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -119,5 +119,5 @@ echo "Завершено\n";
 
 ### Дивіться також
 
--   [pcntlfork()](function.pcntl-fork.html) - Розгалужити (fork) поточний запущений процес
--   [pcntlwaitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntlfork()](function.pcntl-fork.md) - Розгалужити (fork) поточний запущений процес
+-   [pcntlwaitpid()](function.pcntl-waitpid.md) - Очікує чи повертає статус породженого дочірнього процесу

@@ -42,6 +42,6 @@ public finish(): CommonMark\Node
 
 ## Зміст
 
--   [CommonMarkParser::construct](commonmark-parser.construct.html) - Розбір
--   [CommonMarkParser::parse](commonmark-parser.parse.html) - Розбір
--   [CommonMarkParser::finish](commonmark-parser.finish.html) - Розбір
+-   [CommonMarkParser::construct](commonmark-parser.construct.md) - Розбір
+-   [CommonMarkParser::parse](commonmark-parser.parse.md) - Розбір
+-   [CommonMarkParser::finish](commonmark-parser.finish.md) - Розбір

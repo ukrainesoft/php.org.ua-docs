@@ -50,4 +50,4 @@ $result = $client->some_method("parameter");
 
 ### Дивіться також
 
--   [YarClient::setOpt()](yar-client.setopt.html) - Задати контекст виклику
+-   [YarClient::setOpt()](yar-client.setopt.md) - Задати контекст виклику

@@ -26,7 +26,7 @@ fdf_set_version(resource $fdf_document, string $version): bool
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.md)
 
 `version`
 
@@ -38,4 +38,4 @@ fdf_set_version(resource $fdf_document, string $version): bool
 
 ### Дивіться також
 
--   [fdfgetversion()](function.fdf-get-version.html) - Отримує номер версії для FDF API або файлу
+-   [fdfgetversion()](function.fdf-get-version.md) - Отримує номер версії для FDF API або файлу

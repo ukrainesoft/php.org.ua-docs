@@ -10,8 +10,8 @@ title: Функції хешування паролів
 
 ## Зміст
 
--   [passwordalgos](function.password-algos.html) — Отримує доступні ідентифікатори алгоритму хешування пароля
--   [passwordgetinfo](function.password-get-info.html) — Повертає інформацію про заданий хеш
--   [passwordhash](function.password-hash.html) - Створює хеш пароля
--   [passwordneedsrehash](function.password-needs-rehash.html) — Перевіряє, що цей хеш відповідає заданим опціям
--   [passwordverify](function.password-verify.html) — Перевіряє, чи пароль хешу відповідає
+-   [passwordalgos](function.password-algos.md) — Отримує доступні ідентифікатори алгоритму хешування пароля
+-   [passwordgetinfo](function.password-get-info.md) — Повертає інформацію про заданий хеш
+-   [passwordhash](function.password-hash.md) - Створює хеш пароля
+-   [passwordneedsrehash](function.password-needs-rehash.md) — Перевіряє, що цей хеш відповідає заданим опціям
+-   [passwordverify](function.password-verify.md) — Перевіряє, чи пароль хешу відповідає

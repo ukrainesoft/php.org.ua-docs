@@ -41,6 +41,6 @@ public getVersion(): string
 
 ## Зміст
 
--   [wkhtmltoxImageConverter::construct](wkhtmltox-image-converter.construct.html) — Створити новий конвертер зображень
--   [wkhtmltoxImageConverter::convert](wkhtmltox-image-converter.convert.html) — Виконати перетворення зображень
--   [wkhtmltoxImageConverter::getVersion](wkhtmltox-image-converter.getversion.html) — Визначити версію конвертера
+-   [wkhtmltoxImageConverter::construct](wkhtmltox-image-converter.construct.md) — Створити новий конвертер зображень
+-   [wkhtmltoxImageConverter::convert](wkhtmltox-image-converter.convert.md) — Виконати перетворення зображень
+-   [wkhtmltoxImageConverter::getVersion](wkhtmltox-image-converter.getversion.md) — Визначити версію конвертера

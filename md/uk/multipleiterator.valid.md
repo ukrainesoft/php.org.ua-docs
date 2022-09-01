@@ -34,4 +34,4 @@ public MultipleIterator::valid(): bool
 
 ### Дивіться також
 
--   [MultipleIterator::construct()](multipleiterator.construct.html) - Створює новий MultipleIterator
+-   [MultipleIterator::construct()](multipleiterator.construct.md) - Створює новий MultipleIterator

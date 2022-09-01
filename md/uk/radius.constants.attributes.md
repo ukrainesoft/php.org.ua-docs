@@ -8,15 +8,15 @@ title: Типи атрибутів RADIUS
 ---
 ## Типи атрибутів RADIUS
 
-Ці константи описують типи атрибутів RADIUS, які можна використовувати у функціях [radiusputaddr()](function.radius-put-addr.html) [radiusputattr()](function.radius-put-attr.html) [radiusputint()](function.radius-put-int.html) і [radiusputstring()](function.radius-put-string.html)
+Ці константи описують типи атрибутів RADIUS, які можна використовувати у функціях [radiusputaddr()](function.radius-put-addr.html) [radiusputattr()](function.radius-put-attr.html) [radiusputint()](function.radius-put-int.html) і [radiusputstring()](function.radius-put-string.md)
 
 **`RADIUS_USER_NAME`** (int)
 
-Атрибут User-Name. Повинен бути типу string і містити ім'я користувача, що автентифікується. Атрибут можна встановити функцією [radiusputattr()](function.radius-put-attr.html)
+Атрибут User-Name. Повинен бути типу string і містити ім'я користувача, що автентифікується. Атрибут можна встановити функцією [radiusputattr()](function.radius-put-attr.md)
 
 **`RADIUS_USER_PASSWORD`** (int)
 
-Атрибут User-Password. Має бути типу string і містити пароль користувача. Атрибут можна встановити функцією [radiusputattr()](function.radius-put-attr.html). Це значення буде обфусковано при передачі згідно [» секції 5.2 RFC 2865](http://www.faqs.org/rfcs/rfc2865)
+Атрибут User-Password. Має бути типу string і містити пароль користувача. Атрибут можна встановити функцією [radiusputattr()](function.radius-put-attr.md). Це значення буде обфусковано при передачі згідно [» секції 5.2 RFC 2865](http://www.faqs.org/rfcs/rfc2865)
 
 **`RADIUS_CHAP_PASSWORD`** (int)
 
@@ -53,15 +53,15 @@ radius_put_attr($radh, RADIUS_CHAP_CHALLENGE, $challenge);
 
 **`RADIUS_NAS_IP_ADDRESS`** (int)
 
-Атрибут NAS IP-Address. Очікується, що значення буде IP адресою клієнта RADIUS у вигляді цілого числа. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.html)
+Атрибут NAS IP-Address. Очікується, що значення буде IP адресою клієнта RADIUS у вигляді цілого числа. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.md)
 
 **`RADIUS_NAS_PORT`** (int)
 
-Атрибут NAS-Port. Очікується, що значення буде фізичним портом клієнта RADIUS як цілого числа. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.html)
+Атрибут NAS-Port. Очікується, що значення буде фізичним портом клієнта RADIUS як цілого числа. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.md)
 
 **`RADIUS_SERVICE_TYPE`** (int)
 
-Атрибут Service-Type. Значення атрибута позначає тип сервісу запитуваного клієнтом, має бути цілим числом. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.html)
+Атрибут Service-Type. Значення атрибута позначає тип сервісу запитуваного клієнтом, має бути цілим числом. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.md)
 
 Допустимі такі значення:
 
@@ -77,7 +77,7 @@ radius_put_attr($radh, RADIUS_CHAP_CHALLENGE, $challenge);
 
 **`RADIUS_FRAMED_PROTOCOL`** (int)
 
-Атрибут Framed-Protocol. Атрибут повинен бути цілим числом, що означає протокол обгортку. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.html). Допустимі значення:
+Атрибут Framed-Protocol. Атрибут повинен бути цілим числом, що означає протокол обгортку. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.md). Допустимі значення:
 
 -   **`RADIUS_PPP`**
 -   **`RADIUS_SLIP`**
@@ -87,15 +87,15 @@ radius_put_attr($radh, RADIUS_CHAP_CHALLENGE, $challenge);
 
 **`RADIUS_FRAMED_IP_ADDRESS`** (int)
 
-Атрибут Framed-IP-Address. Атрибут повинен містити адресу мережі користувача у вигляді цілого числа. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.html) та витягується функцією [radiuscvtaddr()](function.radius-cvt-addr.html)
+Атрибут Framed-IP-Address. Атрибут повинен містити адресу мережі користувача у вигляді цілого числа. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.html) та витягується функцією [radiuscvtaddr()](function.radius-cvt-addr.md)
 
 **`RADIUS_FRAMED_IP_NETMASK`** (int)
 
-Атрибут Framed-IP-Netmask. Атрибут повинен містити маску мережі користувача у вигляді цілого числа. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.html) та витягується функцією [radiuscvtaddr()](function.radius-cvt-addr.html)
+Атрибут Framed-IP-Netmask. Атрибут повинен містити маску мережі користувача у вигляді цілого числа. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.html) та витягується функцією [radiuscvtaddr()](function.radius-cvt-addr.md)
 
 **`RADIUS_FRAMED_ROUTING`** (int)
 
-Атрибут Framed-Routing. Атрибут має бути цілим числом та містити метод маршрутизації. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.html)
+Атрибут Framed-Routing. Атрибут має бути цілим числом та містити метод маршрутизації. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.md)
 
 Допустимі значення:
 
@@ -106,15 +106,15 @@ radius_put_attr($radh, RADIUS_CHAP_CHALLENGE, $challenge);
 
 **`RADIUS_FILTER_ID`** (int)
 
-Атрибут Filter-ID. Атрибут повинен бути залежним від реалізації, людино-читаним рядком фільтрів. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.html)
+Атрибут Filter-ID. Атрибут повинен бути залежним від реалізації, людино-читаним рядком фільтрів. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.md)
 
 **`RADIUS_FRAMED_MTU`** (int)
 
-Атрибут Framed-MTU. Ціле число, що означає значення MTU. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.html)
+Атрибут Framed-MTU. Ціле число, що означає значення MTU. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.md)
 
 **`RADIUS_FRAMED_COMPRESSION`** (int)
 
-Атрибут Framed-Compression. Ціле число, що означає протокол стиснення. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.html) Допустимі значення:
+Атрибут Framed-Compression. Ціле число, що означає протокол стиснення. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.md) Допустимі значення:
 
 -   **`RADIUS_COMP_NONE`**: Без стиску
 -   **`RADIUS_COMP_VJ`**: Стиснення заголовків VJ TCP/IP
@@ -123,15 +123,15 @@ radius_put_attr($radh, RADIUS_CHAP_CHALLENGE, $challenge);
 
 **`RADIUS_LOGIN_IP_HOST`** (int)
 
-Атрибут Login-IP-Host. Ціле число, що представляє IP-адресу, з якою з'єднується користувач. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.html)
+Атрибут Login-IP-Host. Ціле число, що представляє IP-адресу, з якою з'єднується користувач. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.md)
 
 **`RADIUS_LOGIN_SERVICE`** (int)
 
-Атрибут Login-Service Значення атрибута означає послугу, з якою користувач з'єднується на сервері автентифікації. Це значення можна перетворити на ціле число PHP за допомогою функції [radiuscvtint()](function.radius-cvt-int.html)
+Атрибут Login-Service Значення атрибута означає послугу, з якою користувач з'єднується на сервері автентифікації. Це значення можна перетворити на ціле число PHP за допомогою функції [radiuscvtint()](function.radius-cvt-int.md)
 
 **`RADIUS_LOGIN_TCP_PORT`** (int)
 
-Атрибут Login-TCP-Port. Атрибут означає порт, з яким користувач з'єднується на сервері автентифікації. Це значення можна перетворити на ціле число PHP за допомогою функції [radiuscvtint()](function.radius-cvt-int.html)
+Атрибут Login-TCP-Port. Атрибут означає порт, з яким користувач з'єднується на сервері автентифікації. Це значення можна перетворити на ціле число PHP за допомогою функції [radiuscvtint()](function.radius-cvt-int.md)
 
 **`RADIUS_REPLY_MESSAGE`** (int)
 
@@ -151,21 +151,21 @@ radius_put_attr($radh, RADIUS_CHAP_CHALLENGE, $challenge);
 
 **`RADIUS_FRAMED_IPX_NETWORK`** (int)
 
-Атрибут Framed-IPX-Network. Ціле число, що визначає мережу IPX, налаштовану для користувача або `0xFFFFFFFE`що закликає клієнта RADIUS вибрати мережу самостійно. Можна витягти за допомогою [radiuscvtint()](function.radius-cvt-int.html)
+Атрибут Framed-IPX-Network. Ціле число, що визначає мережу IPX, налаштовану для користувача або `0xFFFFFFFE`що закликає клієнта RADIUS вибрати мережу самостійно. Можна витягти за допомогою [radiuscvtint()](function.radius-cvt-int.md)
 
 **`RADIUS_STATE`** (int)
 
-Атрибут State. Рядок, що залежить від реалізації, включений у відповідь Access-Challenge прийшов від сервера, яку необхідно включити в наступний запит Access-Request. Повинен встановлюватись функцією [radiusputattr()](function.radius-put-attr.html)
+Атрибут State. Рядок, що залежить від реалізації, включений у відповідь Access-Challenge прийшов від сервера, яку необхідно включити в наступний запит Access-Request. Повинен встановлюватись функцією [radiusputattr()](function.radius-put-attr.md)
 
 **`RADIUS_CLASS`** (int)
 
-Атрибут Class. Довільний рядок включений у повідомлення Access-Accept і який має бути надісланий серверу облікових даних у запиті Accounting-Request. Повинен встановлюватись функцією [radiusputattr()](function.radius-put-attr.html)
+Атрибут Class. Довільний рядок включений у повідомлення Access-Accept і який має бути надісланий серверу облікових даних у запиті Accounting-Request. Повинен встановлюватись функцією [radiusputattr()](function.radius-put-attr.md)
 
 **`RADIUS_VENDOR_SPECIFIC`** (int)
 
-Атрибут Vendor-Specific. Загалом значення цього атрибуту повинні встановлюватися з використанням функцій [radiusputvendoraddr()](function.radius-put-vendor-addr.html) [radiusputvendorattr()](function.radius-put-vendor-attr.html) [radiusputvendorint()](function.radius-put-vendor-int.html) і [radiusputvendorstring()](function.radius-put-vendor-string.html), а чи не безпосередньо.
+Атрибут Vendor-Specific. Загалом значення цього атрибуту повинні встановлюватися з використанням функцій [radiusputvendoraddr()](function.radius-put-vendor-addr.html) [radiusputvendorattr()](function.radius-put-vendor-attr.html) [radiusputvendorint()](function.radius-put-vendor-int.html) і [radiusputvendorstring()](function.radius-put-vendor-string.md), а чи не безпосередньо.
 
-Ці константи необхідні інтерпретації специфічних, які від виробника атрибутів, які у відповідях сервера RADIUS; коли отримані такі атрибути, потрібно використовувати функцію [radiusgetvendorattr()](function.radius-get-vendor-attr.html) для вилучення ідентифікатора вендора, типу атрибута та його значення.
+Ці константи необхідні інтерпретації специфічних, які від виробника атрибутів, які у відповідях сервера RADIUS; коли отримані такі атрибути, потрібно використовувати функцію [radiusgetvendorattr()](function.radius-get-vendor-attr.md) для вилучення ідентифікатора вендора, типу атрибута та його значення.
 
 **`RADIUS_SESSION_TIMEOUT`** (int)
 

@@ -34,7 +34,7 @@ mysqli_stat(mysqli $mysql): string|false
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -90,4 +90,4 @@ Memory in use: 8496K  Max memory used: 8560K
 
 ### Дивіться також
 
--   [mysqligetserverinfo()](mysqli.get-server-info.html) - Повертає версію MySQL сервера
+-   [mysqligetserverinfo()](mysqli.get-server-info.md) - Повертає версію MySQL сервера

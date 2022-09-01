@@ -26,11 +26,11 @@ cubrid_query(string $query, resource $conn_identifier = ?): resource
 
 SQL-запит
 
-Дані у запиті мають бути [коректно екрановані](function.cubrid-real-escape-string.html)
+Дані у запиті мають бути [коректно екрановані](function.cubrid-real-escape-string.md)
 
 `conn_identifier`
 
-Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє, відкрите за допомогою [cubridconnect()](function.cubrid-connect.html) з'єднання.
+Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє, відкрите за допомогою [cubridconnect()](function.cubrid-connect.md) з'єднання.
 
 ### Значення, що повертаються
 
@@ -38,9 +38,9 @@ SQL-запит
 
 Для інших типів SQL-запитів, INSERT, UPDATE, DELETE, DROP і т.д. **cubridquery()** повертає **`true`** або **`false`** залежно від успішності виконання.
 
-Повернутий результат можна передавати у функцію [cubridfetcharray()](function.cubrid-fetch-array.html) і їй подібні до роботи з отриманими даними.
+Повернутий результат можна передавати у функцію [cubridfetcharray()](function.cubrid-fetch-array.md) і їй подібні до роботи з отриманими даними.
 
-Використовуйте [cubridnumrows()](function.cubrid-num-rows.html) для визначення кількості повернутих оператором SELECT рядків або [cubridaffectedrows()](function.cubrid-affected-rows.html) для визначення кількості порушених рядків, для запитів, що змінюють дані, таких як DELETE, INSERT, REPLACE та UPDATE.
+Використовуйте [cubridnumrows()](function.cubrid-num-rows.html) для визначення кількості повернутих оператором SELECT рядків або [cubridaffectedrows()](function.cubrid-affected-rows.md) для визначення кількості порушених рядків, для запитів, що змінюють дані, таких як DELETE, INSERT, REPLACE та UPDATE.
 
 **cubridquery()** також може завершитися з помилкою та повернути **`false`**, якщо користувач не має права на доступ до таблиці, яка використовується у запиті.
 
@@ -115,9 +115,9 @@ cubrid_free_result($result);
 
 ### Дивіться також
 
--   [cubridconnect()](function.cubrid-connect.html) - Відкриває з'єднання з сервером CUBRID
--   [cubriderror()](function.cubrid-error.html) - Повертає текст останньої помилки, що відбулася.
--   [cubridrealescapestring()](function.cubrid-real-escape-string.html) - Екранування спеціальних символів у SQL-запиті
--   [cubridresult()](function.cubrid-result.html) - Отримати значення із заданого стовпця заданого рядка
--   [cubridfetchassoc()](function.cubrid-fetch-assoc.html) - Витягти рядок із результуючого набору у вигляді асоціативного масиву
--   [cubridunbufferedquery()](function.cubrid-unbuffered-query.html) - Виконання запиту без завантаження результату на згадку
+-   [cubridconnect()](function.cubrid-connect.md) - Відкриває з'єднання з сервером CUBRID
+-   [cubriderror()](function.cubrid-error.md) - Повертає текст останньої помилки, що відбулася.
+-   [cubridrealescapestring()](function.cubrid-real-escape-string.md) - Екранування спеціальних символів у SQL-запиті
+-   [cubridresult()](function.cubrid-result.md) - Отримати значення із заданого стовпця заданого рядка
+-   [cubridfetchassoc()](function.cubrid-fetch-assoc.md) - Витягти рядок із результуючого набору у вигляді асоціативного масиву
+-   [cubridunbufferedquery()](function.cubrid-unbuffered-query.md) - Виконання запиту без завантаження результату на згадку

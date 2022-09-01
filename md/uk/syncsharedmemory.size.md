@@ -18,7 +18,7 @@ SyncSharedMemory::size — Повертає розмір іменованої п
 public SyncSharedMemory::size(): int
 ```
 
-Витягує розмір пам'яті об'єкта, що розділяється. [SyncSharedMemory](class.syncsharedmemory.html)
+Витягує розмір пам'яті об'єкта, що розділяється. [SyncSharedMemory](class.syncsharedmemory.md)
 
 ### Список параметрів
 
@@ -47,6 +47,6 @@ int(1024)
 
 ### Дивіться також
 
--   [SyncSharedMemory::construct()](syncsharedmemory.construct.html) - Створює новий об'єкт SyncSharedMemory
--   [SyncSharedMemory::write()](syncsharedmemory.write.html) - Копіює дані в іменовану пам'ять, що розділяється.
--   [SyncSharedMemory::read()](syncsharedmemory.read.html) - Копіює дані з іменованої пам'яті, що розділяється
+-   [SyncSharedMemory::construct()](syncsharedmemory.construct.md) - Створює новий об'єкт SyncSharedMemory
+-   [SyncSharedMemory::write()](syncsharedmemory.write.md) - Копіює дані в іменовану пам'ять, що розділяється.
+-   [SyncSharedMemory::read()](syncsharedmemory.read.md) - Копіює дані з іменованої пам'яті, що розділяється

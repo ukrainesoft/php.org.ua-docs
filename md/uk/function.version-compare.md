@@ -87,5 +87,5 @@ if (version_compare(PHP_VERSION, '5.0.0', '<')) {
 ### Дивіться також
 
 -   [phpversion()](function.phpversion.md) - Отримує поточну версію PHP
--   [phpuname()](function.php-uname.html) - Повертає інформацію про операційну систему, на якій запущено PHP
--   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
+-   [phpuname()](function.php-uname.md) - Повертає інформацію про операційну систему, на якій запущено PHP
+-   [functionexists()](function.function-exists.md) - Повертає true, якщо вказана функція визначена

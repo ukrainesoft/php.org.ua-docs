@@ -85,5 +85,5 @@ Array
 
 ### Дивіться також
 
--   [SNMP::getErrno()](snmp.geterrno.html) - Отримує код останньої помилки
--   [SNMP::getError()](snmp.geterror.html) - Отримує останнє повідомлення про помилку
+-   [SNMP::getErrno()](snmp.geterrno.md) - Отримує код останньої помилки
+-   [SNMP::getError()](snmp.geterror.md) - Отримує останнє повідомлення про помилку

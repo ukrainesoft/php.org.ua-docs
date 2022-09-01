@@ -8,7 +8,7 @@ title: Коди помилок
 ---
 # Коди помилок
 
-Наступні константи визначені для кодів помилок XML (повертаються функцією) [xmlparse()](function.xml-parse.html)
+Наступні константи визначені для кодів помилок XML (повертаються функцією) [xmlparse()](function.xml-parse.md)
 
 -   **`XML_ERROR_NONE`**
 -   **`XML_ERROR_NO_MEMORY`**

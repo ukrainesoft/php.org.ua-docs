@@ -24,7 +24,7 @@ pg_connection_reset(PgSql\Connection $connection): bool
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md)
 
 ### Значення, що повертаються
 
@@ -34,7 +34,7 @@ pg_connection_reset(PgSql\Connection $connection): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -54,6 +54,6 @@ pg_connection_reset(PgSql\Connection $connection): bool
 
 ### Дивіться також
 
--   [пгconnect()](function.pg-connect.html) - Відкриває з'єднання з базою даних PostgreSQL
--   [пгpconnect()](function.pg-pconnect.html) - Відкриває постійне з'єднання із сервером PostgreSQL
--   [пгconnectionstatus()](function.pg-connection-status.html) - Визначає стан підключення
+-   [пгconnect()](function.pg-connect.md) - Відкриває з'єднання з базою даних PostgreSQL
+-   [пгpconnect()](function.pg-pconnect.md) - Відкриває постійне з'єднання із сервером PostgreSQL
+-   [пгconnectionstatus()](function.pg-connection-status.md) - Визначає стан підключення

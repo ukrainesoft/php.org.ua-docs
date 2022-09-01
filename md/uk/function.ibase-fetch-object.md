@@ -26,7 +26,7 @@ ibase_fetch_object(resource $result_id, int $fetch_flag = 0): object
 
 `result_id`
 
-Ідентифікатор результату InterBase, отриманий за допомогою [ibasequery()](function.ibase-query.html) або [ibaseexecute()](function.ibase-execute.html)
+Ідентифікатор результату InterBase, отриманий за допомогою [ibasequery()](function.ibase-query.html) або [ibaseexecute()](function.ibase-execute.md)
 
 `fetch_flag`
 
@@ -54,5 +54,5 @@ ibase_close($dbh);
 
 ### Дивіться також
 
--   [ibasefetchrow()](function.ibase-fetch-row.html) - Витягує рядок із бази даних InterBase
--   [ibasefetchassoc()](function.ibase-fetch-assoc.html) - Витягує рядок результату із запиту у вигляді асоціативного масиву
+-   [ibasefetchrow()](function.ibase-fetch-row.md) - Витягує рядок із бази даних InterBase
+-   [ibasefetchassoc()](function.ibase-fetch-assoc.md) - Витягує рядок результату із запиту у вигляді асоціативного масиву

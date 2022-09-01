@@ -18,7 +18,7 @@ ociclose — Закриває з'єднання із сервером Oracle
 oci_close(resource $connection): ?bool
 ```
 
-Звільняє `connection`. Відповідне йому з'єднання з базою даних буде закрито за відсутності ресурсів, що його використовують, і якщо воно було отримано з функції [ociconnect()](function.oci-connect.html) або [ocinewconnect()](function.oci-new-connect.html)
+Звільняє `connection`. Відповідне йому з'єднання з базою даних буде закрито за відсутності ресурсів, що його використовують, і якщо воно було отримано з функції [ociconnect()](function.oci-connect.html) або [ocinewconnect()](function.oci-new-connect.md)
 
 Рекомендується закривати більше не використовувані з'єднання, т.к. це звільняє ресурси бази даних іншим користувачам.
 
@@ -26,7 +26,7 @@ oci_close(resource $connection): ?bool
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, отриманий із функцій [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html) або [ocinewconnect()](function.oci-new-connect.html)
+Ідентифікатор з'єднання Oracle, отриманий із функцій [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html) або [ocinewconnect()](function.oci-new-connect.md)
 
 ### Значення, що повертаються
 
@@ -154,7 +154,7 @@ print $r;  // отображает возвращённое функцие
 
 > **Зауваження**
 > 
-> Змінні, залежні від ідентифікатора з'єднань, такі як ідентифікатори виразів, отримані з [ociparse()](function.oci-parse.html), повинні бути звільнені до закриття з'єднання з базою даних.
+> Змінні, залежні від ідентифікатора з'єднань, такі як ідентифікатори виразів, отримані з [ociparse()](function.oci-parse.md), повинні бути звільнені до закриття з'єднання з базою даних.
 
 > **Зауваження**
 > 
@@ -162,9 +162,9 @@ print $r;  // отображает возвращённое функцие
 
 > **Зауваження**
 > 
-> Функція **ociclose()** не закриває з'єднання з базою даних, створеними функцією [ocipconnect()](function.oci-pconnect.html)
+> Функція **ociclose()** не закриває з'єднання з базою даних, створеними функцією [ocipconnect()](function.oci-pconnect.md)
 
 ### Дивіться також
 
--   [ociconnect()](function.oci-connect.html) - Встановлює з'єднання з базою даних Oracle
--   [ocifreestatement()](function.oci-free-statement.html) - Звільняє ресурси, які займає курсор або SQL-вираз.
+-   [ociconnect()](function.oci-connect.md) - Встановлює з'єднання з базою даних Oracle
+-   [ocifreestatement()](function.oci-free-statement.md) - Звільняє ресурси, які займає курсор або SQL-вираз.

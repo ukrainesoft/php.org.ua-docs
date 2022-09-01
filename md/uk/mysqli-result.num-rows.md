@@ -18,7 +18,7 @@ mysqliresult::$numrows - mysqlinumrows — Отримує кількість р�
 
 Об'єктно-орієнтований стиль
 
-int|string [$mysqliresult->numrows](mysqli-result.num-rows.html)
+int|string [$mysqliresult->numrows](mysqli-result.num-rows.md)
 
 Процедурний стиль
 
@@ -34,7 +34,7 @@ mysqli_num_rows(mysqli_result $result): int|string
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 
@@ -89,12 +89,12 @@ printf("Получено %d строк.\n", $row_cnt);
 
 > **Зауваження**
 > 
-> На відміну від функції [mysqlistmtnumrows()](mysqli-stmt.num-rows.html)У цієї функції немає варіанта в об'єктно-орієнтованому стилі. В об'єктно-орієнтованому стилі використовуйте спосіб читання.
+> На відміну від функції [mysqlistmtnumrows()](mysqli-stmt.num-rows.md)У цієї функції немає варіанта в об'єктно-орієнтованому стилі. В об'єктно-орієнтованому стилі використовуйте спосіб читання.
 
 ### Дивіться також
 
--   [mysqliaffectedrows()](mysqli.affected-rows.html) - Отримує кількість рядків, порушених попередньою операцією MySQL
--   [mysqlistoreresult()](mysqli.store-result.html) - передає на клієнта результуючий набір останнього запиту
--   [mysqliuseresult()](mysqli.use-result.html) - Готує результуючий набір на сервері для використання
+-   [mysqliaffectedrows()](mysqli.affected-rows.md) - Отримує кількість рядків, порушених попередньою операцією MySQL
+-   [mysqlistoreresult()](mysqli.store-result.md) - передає на клієнта результуючий набір останнього запиту
+-   [mysqliuseresult()](mysqli.use-result.md) - Готує результуючий набір на сервері для використання
 -   [mysqliquery()](mysqli.query.md) - Виконує запит до бази даних
--   [mysqlistmtnumrows()](mysqli-stmt.num-rows.html) - Повертає кількість рядків, отриманих із сервера
+-   [mysqlistmtnumrows()](mysqli-stmt.num-rows.md) - Повертає кількість рядків, отриманих із сервера

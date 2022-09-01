@@ -24,14 +24,14 @@ final public MongoDB\Driver\ReadConcern::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
+Повертає серіалізовану виставу [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverReadConcern::unserialize()](mongodb-driver-readconcern.unserialize.html) - Десеріалізація ReadConcern
+-   [MongoDBDriverReadConcern::unserialize()](mongodb-driver-readconcern.unserialize.md) - Десеріалізація ReadConcern
 -   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

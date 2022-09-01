@@ -34,7 +34,7 @@ msgfmt_get_error_message(MessageFormatter $formatter): string
 
 `formatter`
 
-Об'єкт [MessageFormatter](class.messageformatter.html)
+Об'єкт [MessageFormatter](class.messageformatter.md)
 
 ### Значення, що повертаються
 
@@ -74,6 +74,6 @@ ERROR: msgfmt_format: not enough parameters: U_ILLEGAL_ARGUMENT_ERROR (1)
 
 ### Дивіться також
 
--   [msgfmtgeterrorcode()](messageformatter.geterrorcode.html) - Повертає код помилки останньої операції
--   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
--   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
+-   [msgfmtgeterrorcode()](messageformatter.geterrorcode.md) - Повертає код помилки останньої операції
+-   [intlgeterrorcode()](function.intl-get-error-code.md) - Отримати код останньої помилки
+-   [intlісfailure()](function.intl-is-failure.md) - Перевірити, чи є код помилки ознакою збою

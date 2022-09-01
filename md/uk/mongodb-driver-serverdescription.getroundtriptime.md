@@ -30,8 +30,8 @@ final public MongoDB\Driver\ServerDescription::getRoundTripTime(): ?int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverServer::getLatency()](mongodb-driver-server.getlatency.html) - Повертає затримку сервера у мілісекундах
+-   [MongoDBDriverServer::getLatency()](mongodb-driver-server.getlatency.md) - Повертає затримку сервера у мілісекундах

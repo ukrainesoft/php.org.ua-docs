@@ -16,7 +16,7 @@ DOMCdataSection::construct — Створює новий екземпляр кл
 
 public **DOMCdataSection::construct**(string `$data`
 
-Створює новий вузол CDATA. Працює як клас [DOMText](class.domtext.html)
+Створює новий вузол CDATA. Працює як клас [DOMText](class.domtext.md)
 
 ### Список параметрів
 
@@ -48,5 +48,5 @@ echo $dom->saveXML();
 
 ### Дивіться також
 
--   [DOMText::construct()](domtext.construct.html) - Створює об'єкт класу DOMText
--   [DOMDocument::createTextNode()](domdocument.createtextnode.html) - Створити новий текстовий вузол
+-   [DOMText::construct()](domtext.construct.md) - Створює об'єкт класу DOMText
+-   [DOMDocument::createTextNode()](domdocument.createtextnode.md) - Створити новий текстовий вузол

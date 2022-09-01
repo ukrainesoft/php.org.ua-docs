@@ -34,4 +34,4 @@ fann_get_rprop_decrease_factor(resource $ann): float
 
 ### Дивіться також
 
--   [fannsetrpropdecreasefactor()](function.fann-set-rprop-decrease-factor.html) - Встановлює коефіцієнт зменшення під час навчання RPROP
+-   [fannsetrpropdecreasefactor()](function.fann-set-rprop-decrease-factor.md) - Встановлює коефіцієнт зменшення під час навчання RPROP

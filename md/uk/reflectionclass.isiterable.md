@@ -18,7 +18,7 @@ ReflectionClass::isIterable — Перевірити, чи клас ітерує
 public ReflectionClass::isIterable(): bool
 ```
 
-Перевіряє, чи реалізує клас інтерфейс Iterator (тобто можна використовувати його в [foreach](control-structures.foreach.html)
+Перевіряє, чи реалізує клас інтерфейс Iterator (тобто можна використовувати його в [foreach](control-structures.foreach.md)
 
 ### Список параметрів
 

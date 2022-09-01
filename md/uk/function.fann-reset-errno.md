@@ -32,5 +32,5 @@ fann_reset_errno(resource $errdat): void
 
 ### Дивіться також
 
--   [fanngeterrno()](function.fann-get-errno.html) - Повертає останній номер помилки
--   [fannreseterrstr()](function.fann-reset-errstr.html) - Скидає останній рядок помилки
+-   [fanngeterrno()](function.fann-get-errno.md) - Повертає останній номер помилки
+-   [fannreseterrstr()](function.fann-reset-errstr.md) - Скидає останній рядок помилки

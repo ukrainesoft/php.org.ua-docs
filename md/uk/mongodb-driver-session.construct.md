@@ -18,7 +18,7 @@ MongoDBDriverSession::construct — Створення нового сеансу
 final private MongoDB\Driver\Session::__construct()
 ```
 
-[MongoDBDriverSession](class.mongodb-driver-session.html) об'єкти повертаються [MongoDBDriverManager::startSession()](mongodb-driver-manager.startsession.html) і не можуть бути створені безпосередньо.
+[MongoDBDriverSession](class.mongodb-driver-session.html) об'єкти повертаються [MongoDBDriverManager::startSession()](mongodb-driver-manager.startsession.md) і не можуть бути створені безпосередньо.
 
 ### Список параметрів
 
@@ -26,4 +26,4 @@ final private MongoDB\Driver\Session::__construct()
 
 ### Дивіться також
 
--   [MongoDBDriverManager::startSession()](mongodb-driver-manager.startsession.html) - Запуск нового клієнтського сеансу для використання з цим клієнтом
+-   [MongoDBDriverManager::startSession()](mongodb-driver-manager.startsession.md) - Запуск нового клієнтського сеансу для використання з цим клієнтом

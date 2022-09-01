@@ -18,9 +18,9 @@ xdiffstringpatchbinary - Псевдонім для xdiffstringbpatch
 xdiff_string_patch_binary(string $str, string $patch): string
 ```
 
-Застосовує до рядка `str` бінарний патч `patch`. Ця функція приймає патчі створені як [xdiffstringbdiff()](function.xdiff-string-bdiff.html), так і [xdiffstringrabdiff()](function.xdiff-string-rabdiff.html)
+Застосовує до рядка `str` бінарний патч `patch`. Ця функція приймає патчі створені як [xdiffstringbdiff()](function.xdiff-string-bdiff.html), так і [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md)
 
-Починаючи з версії 1.5.0 є псевдонімом для [xdiffstringbpatch()](function.xdiff-string-bpatch.html)
+Починаючи з версії 1.5.0 є псевдонімом для [xdiffstringbpatch()](function.xdiff-string-bpatch.md)
 
 ### Список параметрів
 
@@ -38,6 +38,6 @@ xdiff_string_patch_binary(string $str, string $patch): string
 
 ### Дивіться також
 
--   [xdiffstringbpatch()](function.xdiff-string-bpatch.html) - Застосування бінарного патча до рядка
--   [xdiffstringbdiff()](function.xdiff-string-bdiff.html) - Створити бінарний патч для двох рядків
--   [xdiffstringrabdiff()](function.xdiff-string-rabdiff.html) - Порівняти два рядки та створити бінарний патч використовуючи поліномінальний алгоритм Rabin fingerprint
+-   [xdiffstringbpatch()](function.xdiff-string-bpatch.md) - Застосування бінарного патча до рядка
+-   [xdiffstringbdiff()](function.xdiff-string-bdiff.md) - Створити бінарний патч для двох рядків
+-   [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md) - Порівняти два рядки та створити бінарний патч використовуючи поліномінальний алгоритм Rabin fingerprint

@@ -32,7 +32,7 @@ dba_fetch(string $key, int $skip, resource $handle): string
 
 > **Зауваження**
 > 
-> Коли працює з ini-файлом, ця функція приймає масив як ключ, де за індексом 0 задана група, а за індексом 1 - ім'я параметра. Додатково дивіться [dbakeysplit()](function.dba-key-split.html)
+> Коли працює з ini-файлом, ця функція приймає масив як ключ, де за індексом 0 задана група, а за індексом 1 - ім'я параметра. Додатково дивіться [dbakeysplit()](function.dba-key-split.md)
 
 `skip`
 
@@ -40,7 +40,7 @@ dba_fetch(string $key, int $skip, resource $handle): string
 
 `handle`
 
-Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.html)
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 
@@ -48,8 +48,8 @@ dba_fetch(string $key, int $skip, resource $handle): string
 
 ### Дивіться також
 
--   [dbaexists()](function.dba-exists.html) - Перевіряє, чи існує ключ
--   [dbadelete()](function.dba-delete.html) - Видаляє запис бази даних, визначену ключем
--   [dbainsert()](function.dba-insert.html) - Вставляє запис
--   [dbareplace()](function.dba-replace.html) - Перезаписати або вставити запис
--   [dbakeysplit()](function.dba-key-split.html) - Розділяє ключ, заданий у вигляді рядка та створює масив з отриманих частин
+-   [dbaexists()](function.dba-exists.md) - Перевіряє, чи існує ключ
+-   [dbadelete()](function.dba-delete.md) - Видаляє запис бази даних, визначену ключем
+-   [dbainsert()](function.dba-insert.md) - Вставляє запис
+-   [dbareplace()](function.dba-replace.md) - Перезаписати або вставити запис
+-   [dbakeysplit()](function.dba-key-split.md) - Розділяє ключ, заданий у вигляді рядка та створює масив з отриманих частин

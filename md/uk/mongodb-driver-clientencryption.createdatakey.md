@@ -74,12 +74,12 @@ final public MongoDB\Driver\ClientEncryption::createDataKey(string $kmsProvider,
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор нового ключа як об'єкт [MongoDBBSONBinary](class.mongodb-bson-binary.html) із підтипом 4 (UUID).
+Повертає ідентифікатор нового ключа як об'єкт [MongoDBBSONBinary](class.mongodb-bson-binary.md) із підтипом 4 (UUID).
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Кидає виняток [MongoDBDriverExceptionEncryptionException](class.mongodb-driver-exception-encryptionexception.html) якщо в процесі створення ключа сталася помилка
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Кидає виняток [MongoDBDriverExceptionEncryptionException](class.mongodb-driver-exception-encryptionexception.md) якщо в процесі створення ключа сталася помилка
 
 ### список змін
 

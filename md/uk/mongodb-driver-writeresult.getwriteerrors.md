@@ -24,11 +24,11 @@ final public MongoDB\Driver\WriteResult::getWriteErrors(): array
 
 ### Значення, що повертаються
 
-Повертає масив об'єктів [MongoDBDriverWriteError](class.mongodb-driver-writeerror.html) для будь-яких помилок запису, виявлених під час операції запису. Масив буде порожнім, якщо помилок не сталося.
+Повертає масив об'єктів [MongoDBDriverWriteError](class.mongodb-driver-writeerror.md) для будь-яких помилок запису, виявлених під час операції запису. Масив буде порожнім, якщо помилок не сталося.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
@@ -135,4 +135,4 @@ array(2) {
 
 ### Дивіться також
 
--   [MongoDBDriverWriteError](class.mongodb-driver-writeerror.html)
+-   [MongoDBDriverWriteError](class.mongodb-driver-writeerror.md)

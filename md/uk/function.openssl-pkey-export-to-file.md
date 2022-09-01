@@ -36,7 +36,7 @@ openssl_pkey_export_to_file(    OpenSSLAsymmetricKey|OpenSSLCertificate|arra
 
 `options`
 
-`options` можна використовувати для тонкого налаштування процесу експорту шляхом вказівки або перевизначення опцій конфігураційного файлу openssl. Дивіться [opensslcsrnew()](function.openssl-csr-new.html) для детальної інформації про `options`
+`options` можна використовувати для тонкого налаштування процесу експорту шляхом вказівки або перевизначення опцій конфігураційного файлу openssl. Дивіться [opensslcsrnew()](function.openssl-csr-new.md) для детальної інформації про `options`
 
 ### Значення, що повертаються
 

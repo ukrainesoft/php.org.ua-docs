@@ -40,10 +40,10 @@ public translate(UI\Point $point)
 
 ## Зміст
 
--   [ОЙDrawMatrix::invert](ui-draw-matrix.invert.html) - Інвертувати матрицю
--   [ОЙDrawMatrix::isInvertible](ui-draw-matrix.isinvertible.html) — Визначення, чи інвертовано матрицю
--   [ОЙDrawMatrix::multiply](ui-draw-matrix.multiply.html) - Помножити матрицю
--   [ОЙDrawMatrix::rotate](ui-draw-matrix.rotate.html) - Перевернути матрицю
--   [ОЙDrawMatrix::scale](ui-draw-matrix.scale.html) - Масштабувати матрицю
--   [ОЙDrawMatrix::skew](ui-draw-matrix.skew.html) - Нахилити матрицю
--   [ОЙDrawMatrix::translate](ui-draw-matrix.translate.html) - Перекласти матрицю
+-   [ОЙDrawMatrix::invert](ui-draw-matrix.invert.md) - Інвертувати матрицю
+-   [ОЙDrawMatrix::isInvertible](ui-draw-matrix.isinvertible.md) — Визначення, чи інвертовано матрицю
+-   [ОЙDrawMatrix::multiply](ui-draw-matrix.multiply.md) - Помножити матрицю
+-   [ОЙDrawMatrix::rotate](ui-draw-matrix.rotate.md) - Перевернути матрицю
+-   [ОЙDrawMatrix::scale](ui-draw-matrix.scale.md) - Масштабувати матрицю
+-   [ОЙDrawMatrix::skew](ui-draw-matrix.skew.md) - Нахилити матрицю
+-   [ОЙDrawMatrix::translate](ui-draw-matrix.translate.md) - Перекласти матрицю

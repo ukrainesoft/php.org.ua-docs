@@ -32,4 +32,4 @@ public ReflectionExtension::isPersistent(): bool
 
 ### Дивіться також
 
--   [ReflectionExtension::isTemporary()](reflectionextension.istemporary.html) - Визначає, чи модуль тимчасовим
+-   [ReflectionExtension::isTemporary()](reflectionextension.istemporary.md) - Визначає, чи модуль тимчасовим

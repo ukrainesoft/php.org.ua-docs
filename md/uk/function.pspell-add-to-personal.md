@@ -18,13 +18,13 @@ pspelladdтоpersonal — Додає слово до персонального 
 pspell_add_to_personal(PSpell\Dictionary $dictionary, string $word): bool
 ```
 
-**pspelladdтоpersonal()** додає слово до персонального списку слів. Якщо ви використовували [pspellnewconfig()](function.pspell-new-config.html) разом з [pspellconfigpersonal()](function.pspell-config-personal.html) для відкриття словника, ви можете зберегти список слів пізніше за допомогою [pspellsavewordlist()](function.pspell-save-wordlist.html)
+**pspelladdтоpersonal()** додає слово до персонального списку слів. Якщо ви використовували [pspellnewconfig()](function.pspell-new-config.html) разом з [pspellconfigpersonal()](function.pspell-config-personal.html) для відкриття словника, ви можете зберегти список слів пізніше за допомогою [pspellsavewordlist()](function.pspell-save-wordlist.md)
 
 ### Список параметрів
 
 `dictionary`
 
-Екземпляр [PSpellDictionary](class.pspell-dictionary.html)
+Екземпляр [PSpellDictionary](class.pspell-dictionary.md)
 
 `word`
 
@@ -38,7 +38,7 @@ pspell_add_to_personal(PSpell\Dictionary $dictionary, string $word): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

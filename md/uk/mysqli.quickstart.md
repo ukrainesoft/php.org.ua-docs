@@ -10,12 +10,12 @@ title: Короткий посібник
 
 ## Зміст
 
--   [Процедурний та об'єктно-орієнтований інтерфейс](mysqli.quickstart.dual-interface.html)
+-   [Процедурний та об'єктно-орієнтований інтерфейс](mysqli.quickstart.dual-interface.md)
 -   [Соединения](mysqli.quickstart.connections.md)
 -   [Виконання запитів](mysqli.quickstart.statements.md)
--   [Підготовлювані запити](mysqli.quickstart.prepared-statements.html)
--   [Збережені процедури](mysqli.quickstart.stored-procedures.html)
--   [Множинні запити](mysqli.quickstart.multiple-statement.html)
+-   [Підготовлювані запити](mysqli.quickstart.prepared-statements.md)
+-   [Збережені процедури](mysqli.quickstart.stored-procedures.md)
+-   [Множинні запити](mysqli.quickstart.multiple-statement.md)
 -   [API поддержка транзакций](mysqli.quickstart.transactions.md)
 -   [Метадані](mysqli.quickstart.metadata.md)
 

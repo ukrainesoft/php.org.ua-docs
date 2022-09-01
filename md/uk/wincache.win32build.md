@@ -10,6 +10,6 @@ title: Складання для Windows
 
 ## Зміст
 
--   [Пререквізити](wincache.win32build.prereq.html)
--   [Компіляція та складання](wincache.win32build.building.html)
--   [Проверка сборки](wincache.win32build.verify.html)
+-   [Пререквізити](wincache.win32build.prereq.md)
+-   [Компіляція та складання](wincache.win32build.building.md)
+-   [Проверка сборки](wincache.win32build.verify.md)

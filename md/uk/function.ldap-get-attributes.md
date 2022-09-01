@@ -36,11 +36,11 @@ return_value["attribute"][i] = (i+1)-ое значение атрибута
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `entry`
 
-Екземпляр [LDAPResultEntry](class.ldap-result-entry.html)
+Екземпляр [LDAPResultEntry](class.ldap-result-entry.md)
 
 ### Значення, що повертаються
 
@@ -50,8 +50,8 @@ return_value["attribute"][i] = (i+1)-ое значение атрибута
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -78,5 +78,5 @@ for ($i=0; $i < $attrs["count"]; $i++) {
 
 ### Дивіться також
 
--   [ldapfirstattribute()](function.ldap-first-attribute.html) - Повернути перший атрибут
--   [ldapnextattribute()](function.ldap-next-attribute.html) - Отримати наступний атрибут із результату
+-   [ldapfirstattribute()](function.ldap-first-attribute.md) - Повернути перший атрибут
+-   [ldapnextattribute()](function.ldap-next-attribute.md) - Отримати наступний атрибут із результату

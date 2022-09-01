@@ -36,4 +36,4 @@ fann_get_train_error_function(resource $ann): int
 
 ### Дивіться також
 
--   [fannsettrainerrorfunction()](function.fann-set-train-error-function.html) - Встановлює функцію помилки, що використовується під час тренування
+-   [fannsettrainerrorfunction()](function.fann-set-train-error-function.md) - Встановлює функцію помилки, що використовується під час тренування

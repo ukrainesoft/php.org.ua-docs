@@ -36,9 +36,9 @@ socket_recvmsg(Socket $socket, array &$message, int $flags = 0): int|false
 
 | Версия | Описание |
 | --- | --- |
-|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 
--   [socketsendmsg()](function.socket-sendmsg.html) - Надіслати повідомлення
--   [socketcmsgspace()](function.socket-cmsg-space.html) - Обчислити розмір буфера повідомлення
+-   [socketsendmsg()](function.socket-sendmsg.md) - Надіслати повідомлення
+-   [socketcmsgspace()](function.socket-cmsg-space.md) - Обчислити розмір буфера повідомлення

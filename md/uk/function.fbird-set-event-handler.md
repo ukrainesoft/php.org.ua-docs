@@ -10,13 +10,13 @@ title: fbirdseteventhandler
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdseteventhandler - Псевдонім [ibaseseteventhandler()](function.ibase-set-event-handler.html)
+fbirdseteventhandler - Псевдонім [ibaseseteventhandler()](function.ibase-set-event-handler.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibaseseteventhandler()](function.ibase-set-event-handler.html)
+Ця функція є псевдонімом: [ibaseseteventhandler()](function.ibase-set-event-handler.md)
 
 ### Дивіться також
 
--   [fbirdfreeeventhandler()](function.fbird-free-event-handler.html) - Псевдонім ibasefreeeventhandler
--   [fbirdwaitevent()](function.fbird-wait-event.html) - Псевдонім ibasewaitevent
+-   [fbirdfreeeventhandler()](function.fbird-free-event-handler.md) - Псевдонім ibasefreeeventhandler
+-   [fbirdwaitevent()](function.fbird-wait-event.md) - Псевдонім ibasewaitevent

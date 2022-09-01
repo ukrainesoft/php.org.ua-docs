@@ -103,4 +103,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMarkNodeLink::construct](commonmark-node-link.construct.html) - Конструктор класу Link
+-   [CommonMarkNodeLink::construct](commonmark-node-link.construct.md) - Конструктор класу Link

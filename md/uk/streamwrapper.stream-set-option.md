@@ -26,9 +26,9 @@ public streamWrapper::stream_set_option(int $option, int $arg1, int $arg2): bool
 
 Одне із значень:
 
--   **`STREAM_OPTION_BLOCKING`** (Метод викликаний у результаті виклику функції [streamsetblocking()](function.stream-set-blocking.html)
--   **`STREAM_OPTION_READ_TIMEOUT`** (Метод викликаний у результаті виклику функції [streamsettimeout()](function.stream-set-timeout.html)
--   **`STREAM_OPTION_WRITE_BUFFER`** (Метод викликаний у результаті виклику функції [streamsetwritebuffer()](function.stream-set-write-buffer.html)
+-   **`STREAM_OPTION_BLOCKING`** (Метод викликаний у результаті виклику функції [streamsetblocking()](function.stream-set-blocking.md)
+-   **`STREAM_OPTION_READ_TIMEOUT`** (Метод викликаний у результаті виклику функції [streamsettimeout()](function.stream-set-timeout.md)
+-   **`STREAM_OPTION_WRITE_BUFFER`** (Метод викликаний у результаті виклику функції [streamsetwritebuffer()](function.stream-set-write-buffer.md)
 
 `arg1`
 
@@ -52,6 +52,6 @@ public streamWrapper::stream_set_option(int $option, int $arg1, int $arg2): bool
 
 ### Дивіться також
 
--   [streamsetblocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці
--   [streamsettimeout()](function.stream-set-timeout.html) - Встановити значення часу очікування потоку
--   [streamsetwritebuffer()](function.stream-set-write-buffer.html) - Встановлює буферизацію файлу під час запису у вказаний потік
+-   [streamsetblocking()](function.stream-set-blocking.md) - Встановити блокуючий/неблокуючий режим у потоці
+-   [streamsettimeout()](function.stream-set-timeout.md) - Встановити значення часу очікування потоку
+-   [streamsetwritebuffer()](function.stream-set-write-buffer.md) - Встановлює буферизацію файлу під час запису у вказаний потік

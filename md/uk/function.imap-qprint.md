@@ -32,4 +32,4 @@ imap_qprint(string $string): string|false
 
 ### Дивіться також
 
--   [imap8bit()](function.imap-8bit.html) - Конвертує 8-бітний рядок у рядок у форматі quoted-printable
+-   [imap8bit()](function.imap-8bit.md) - Конвертує 8-бітний рядок у рядок у форматі quoted-printable

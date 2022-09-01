@@ -32,4 +32,4 @@ enchant_broker_init(): EnchantBroker|false
 
 ### Дивіться також
 
--   [enchantbrokerfree()](function.enchant-broker-free.html) - Звільняє ресурс брокера та його словники
+-   [enchantbrokerfree()](function.enchant-broker-free.md) - Звільняє ресурс брокера та його словники

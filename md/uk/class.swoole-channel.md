@@ -37,8 +37,8 @@ public stats(): array
 
 ## Зміст
 
--   [SwooleChannel::construct](swoole-channel.construct.html) - Створює канал Swoole
--   [SwooleChannel::destruct](swoole-channel.destruct.html) - Знищує канал Swoole
--   [SwooleChannel::pop](swoole-channel.pop.html) — Читає та витягує дані з каналу Swoole
--   [SwooleChannel::push](swoole-channel.push.html) — Записує та передає дані до каналу Swoole
--   [SwooleChannel::stats](swoole-channel.stats.html) — Отримує статистику каналу Swoole
+-   [SwooleChannel::construct](swoole-channel.construct.md) - Створює канал Swoole
+-   [SwooleChannel::destruct](swoole-channel.destruct.md) - Знищує канал Swoole
+-   [SwooleChannel::pop](swoole-channel.pop.md) — Читає та витягує дані з каналу Swoole
+-   [SwooleChannel::push](swoole-channel.push.md) — Записує та передає дані до каналу Swoole
+-   [SwooleChannel::stats](swoole-channel.stats.md) — Отримує статистику каналу Swoole

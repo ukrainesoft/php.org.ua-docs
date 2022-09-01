@@ -88,7 +88,7 @@ line3
 ### Дивіться також
 
 -   Клас-прототип [streamWrapper](class.streamwrapper.md)
--   [Приклад класу, зареєстрованого як обгортка потоку](stream.streamwrapper.example-1.html)
--   [streamwrapperunregister()](function.stream-wrapper-unregister.html) - Скасує реєстрацію обгортки URL
--   [streamwrapperrestore()](function.stream-wrapper-restore.html) - Відновлює скасовану раніше вбудовану обгортку
--   [streamgetwrappers()](function.stream-get-wrappers.html) - Отримати список зареєстрованих потоків
+-   [Приклад класу, зареєстрованого як обгортка потоку](stream.streamwrapper.example-1.md)
+-   [streamwrapperunregister()](function.stream-wrapper-unregister.md) - Скасує реєстрацію обгортки URL
+-   [streamwrapperrestore()](function.stream-wrapper-restore.md) - Відновлює скасовану раніше вбудовану обгортку
+-   [streamgetwrappers()](function.stream-get-wrappers.md) - Отримати список зареєстрованих потоків

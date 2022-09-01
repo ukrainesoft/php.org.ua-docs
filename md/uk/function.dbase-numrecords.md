@@ -32,7 +32,7 @@ dbase_numrecords(resource $database): int
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.html)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.md)
 
 ### Значення, що повертаються
 
@@ -66,4 +66,4 @@ if ($db) {
 
 ### Дивіться також
 
--   [dbasenumfields()](function.dbase-numfields.html) - Отримує кількість полів бази даних
+-   [dbasenumfields()](function.dbase-numfields.md) - Отримує кількість полів бази даних

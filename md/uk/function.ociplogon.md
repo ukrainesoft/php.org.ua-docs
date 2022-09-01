@@ -10,11 +10,11 @@ title: ociplogon
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ociplogon - Псевдонім [ocipconnect()](function.oci-pconnect.html)
+ociplogon - Псевдонім [ocipconnect()](function.oci-pconnect.md)
 
 ### Опис
 
-Псевдонім [ocipconnect()](function.oci-pconnect.html)
+Псевдонім [ocipconnect()](function.oci-pconnect.md)
 
 **Увага**
 

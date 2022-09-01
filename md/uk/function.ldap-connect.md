@@ -26,7 +26,7 @@ ldap_connect(?string $uri = null): LDAP\Connection|false
 ldap_connect(?string $uri = null, int $port = 389): LDAP\Connection|false
 ```
 
-Створює [LDAPConnection](class.ldap-connection.html) та перевіряє правдоподібність заданого `uri`
+Створює [LDAPConnection](class.ldap-connection.md) та перевіряє правдоподібність заданого `uri`
 
 > **Зауваження**: Ця функція *НЕ* відкриває з'єднання. Вона перевіряє, чи правдоподібні задані параметри і чи можуть використовуватися для підключення, коли в ньому виникне потрібна.
 
@@ -50,15 +50,15 @@ ldap_connect(?string $uri = null, int $port = 389): LDAP\Connection|false
 
 ### Значення, що повертаються
 
-Повертає екземпляр [LDAPConnection](class.ldap-connection.html)якщо LDAP URI правдоподібний. Вона здійснює синтаксичний аналіз та перевірку переданих параметрів, але з'єднання з сервером не відбувається. Якщо перевірка синтаксису провалилася – повертається **`false`**. . **ldapconnect()** завжди повертатиме екземпляр [LDAPConnection](class.ldap-connection.html)оскільки вона фактично не з'єднується, а лише ініціалізує параметри з'єднання. Фактичне підключення відбувається за наступних викликів ldap функцій, зазвичай під час виклику [ldapbind()](function.ldap-bind.html)
+Повертає екземпляр [LDAPConnection](class.ldap-connection.html)якщо LDAP URI правдоподібний. Вона здійснює синтаксичний аналіз та перевірку переданих параметрів, але з'єднання з сервером не відбувається. Якщо перевірка синтаксису провалилася – повертається **`false`**. . **ldapconnect()** завжди повертатиме екземпляр [LDAPConnection](class.ldap-connection.html)оскільки вона фактично не з'єднується, а лише ініціалізує параметри з'єднання. Фактичне підключення відбувається за наступних викликів ldap функцій, зазвичай під час виклику [ldapbind()](function.ldap-bind.md)
 
-Якщо жодних параметрів не буде визначено, тоді буде повернено екземпляр [LDAPConnection](class.ldap-connection.html) відкритого з'єднання.
+Якщо жодних параметрів не буде визначено, тоді буде повернено екземпляр [LDAPConnection](class.ldap-connection.md) відкритого з'єднання.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Повертає екземпляр [LDAPConnection](class.ldap-connection.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [LDAPConnection](class.ldap-connection.md); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -95,4 +95,4 @@ $ldapconn = ldap_connect($ldaphost)
 
 ### Дивіться також
 
--   [ldapbind()](function.ldap-bind.html) - Прив'язати до LDAP директорії
+-   [ldapbind()](function.ldap-bind.md) - Прив'язати до LDAP директорії

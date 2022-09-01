@@ -66,8 +66,8 @@ var_dump(get_students($obj));
 
 ### Дивіться також
 
--   [ісbool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
--   [ісint()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
--   [ісfloat()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [ісstring()](function.is-string.html) - Перевіряє, чи є змінним рядком
--   [ісarray()](function.is-array.html) - Визначає, чи є змінна масивом
+-   [ісbool()](function.is-bool.md) - Перевіряє, чи є змінна булевою
+-   [ісint()](function.is-int.md) - Перевіряє, чи є змінна цілим числом
+-   [ісfloat()](function.is-float.md) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [ісstring()](function.is-string.md) - Перевіряє, чи є змінним рядком
+-   [ісarray()](function.is-array.md) - Визначає, чи є змінна масивом

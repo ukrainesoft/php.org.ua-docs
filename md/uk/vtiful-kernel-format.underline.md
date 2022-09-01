@@ -18,7 +18,7 @@ VtifulKernelFormat::underline — Підкреслений
 public Vtiful\Kernel\Format::underline(resource $handle, int $style)
 ```
 
-Підкреслений формат [VtifulKernelFormat](class.vtiful-kernel-format.html)
+Підкреслений формат [VtifulKernelFormat](class.vtiful-kernel-format.md)
 
 ### Список параметрів
 
@@ -28,7 +28,7 @@ public Vtiful\Kernel\Format::underline(resource $handle, int $style)
 
 `style`
 
-Константа [VtifulKernelFormat](class.vtiful-kernel-format.html)
+Константа [VtifulKernelFormat](class.vtiful-kernel-format.md)
 
 ### Значення, що повертаються
 

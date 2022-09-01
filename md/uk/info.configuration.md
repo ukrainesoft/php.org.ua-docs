@@ -51,7 +51,7 @@ title: Налаштування під час виконання
 
 `assert.quiet_eval` bool
 
-Використовуйте це налаштування функції [errorreporting()](function.error-reporting.html) під час виконання перевірки тверджень. При увімкненні налаштування повідомлення про помилки під час перевірки тверджень не відображатимуться (неявний виклик errorreporting(0)). Якщо вимкнено налаштування, помилки будуть видаватися відповідно до налаштувань [errorreporting()](function.error-reporting.html)
+Використовуйте це налаштування функції [errorreporting()](function.error-reporting.html) під час виконання перевірки тверджень. При увімкненні налаштування повідомлення про помилки під час перевірки тверджень не відображатимуться (неявний виклик errorreporting(0)). Якщо вимкнено налаштування, помилки будуть видаватися відповідно до налаштувань [errorreporting()](function.error-reporting.md)
 
 `assert.exception` bool
 
@@ -67,7 +67,7 @@ title: Налаштування під час виконання
 
 Ця директива визначає максимальний час у секундах, протягом якого скрипт повинен повністю завантажитися. Якщо цього немає, парсер завершує роботу скрипта. Цей механізм допомагає запобігти зависанню сервера через погано написаний скрипт. За промовчанням на завантаження дається `30` секунд. Якщо PHP запущено з [командного рядка](features.commandline.md), це значення за умовчанням дорівнює `0`
 
-У системах, відмінних від Windows, на максимальний час виконання не впливають системні дзвінки, потокові операції тощо. За додатковою інформацією звертайтесь до документації до функції [settimelimit()](function.set-time-limit.html)
+У системах, відмінних від Windows, на максимальний час виконання не впливають системні дзвінки, потокові операції тощо. За додатковою інформацією звертайтесь до документації до функції [settimelimit()](function.set-time-limit.md)
 
 Веб-сервери зазвичай мають свої налаштування часу очікування, після перевищення якого самі завершують виконання скрипта PHP. В Apache є директива `Timeout`У IIS є функція CGI timeout. В обох випадках за промовчанням встановлено 300 секунд. Точне значення можна дізнатися з документації до веб-сервера.
 
@@ -91,7 +91,7 @@ title: Налаштування під час виконання
 
 Встановлює режим magicquotes для GPC (Get/Post/Cookie) операцій. Якщо magicquotes включений, всі ' (одинарні лапки), " (подвійні лапки), (зворотний сліш) та NUL автоматично екрануються зворотним слешем.
 
-Дивіться також [getmagicquotesgpc()](function.get-magic-quotes-gpc.html)
+Дивіться також [getmagicquotesgpc()](function.get-magic-quotes-gpc.md)
 
 `magic_quotes_runtime` bool
 
@@ -103,44 +103,44 @@ title: Налаштування під час виконання
 
 Функції, на які поширюється дія директиви `magic_quotes_runtime` (виключаючи функції з PECL):
 
--   [getmetatags()](function.get-meta-tags.html)
--   [filegetcontents()](function.file-get-contents.html)
+-   [getmetatags()](function.get-meta-tags.md)
+-   [filegetcontents()](function.file-get-contents.md)
 -   [file()](function.file.md)
 -   [fgets()](function.fgets.md)
 -   [fwrite()](function.fwrite.md)
 -   [fread()](function.fread.md)
 -   [fputcsv()](function.fputcsv.md)
--   [streamsocketrecvfrom()](function.stream-socket-recvfrom.html)
+-   [streamsocketrecvfrom()](function.stream-socket-recvfrom.md)
 -   [exec()](function.exec.md)
 -   [system()](function.system.md)
 -   [passthru()](function.passthru.md)
--   [streamgetcontents()](function.stream-get-contents.html)
+-   [streamgetcontents()](function.stream-get-contents.md)
 -   [bzread()](function.bzread.md)
 -   [gzfile()](function.gzfile.md)
 -   [gzgets()](function.gzgets.md)
 -   [gzwrite()](function.gzwrite.md)
 -   [gzread()](function.gzread.md)
--   [exifreaddata()](function.exif-read-data.html)
--   [dbainsert()](function.dba-insert.html)
--   [dbareplace()](function.dba-replace.html)
--   [dbafetch()](function.dba-fetch.html)
--   [ibasefetchrow()](function.ibase-fetch-row.html)
--   [ibasefetchassoc()](function.ibase-fetch-assoc.html)
--   [ibasefetchobject()](function.ibase-fetch-object.html)
+-   [exifreaddata()](function.exif-read-data.md)
+-   [dbainsert()](function.dba-insert.md)
+-   [dbareplace()](function.dba-replace.md)
+-   [dbafetch()](function.dba-fetch.md)
+-   [ibasefetchrow()](function.ibase-fetch-row.md)
+-   [ibasefetchassoc()](function.ibase-fetch-assoc.md)
+-   [ibasefetchobject()](function.ibase-fetch-object.md)
 -   **mssqlfetchrow()**
 -   **mssqlfetchobject()**
 -   **mssqlfetcharray()**
 -   **mssqlfetchassoc()**
--   [mysqlifetchrow()](mysqli-result.fetch-row.html)
--   [mysqlifetcharray()](mysqli-result.fetch-array.html)
--   [mysqlifetchassoc()](mysqli-result.fetch-assoc.html)
--   [mysqlifetchobject()](mysqli-result.fetch-object.html)
--   [пгfetchrow()](function.pg-fetch-row.html)
--   [пгfetchassoc()](function.pg-fetch-assoc.html)
--   [пгfetcharray()](function.pg-fetch-array.html)
--   [пгfetchobject()](function.pg-fetch-object.html)
--   [пгfetchall()](function.pg-fetch-all.html)
--   [пгselect()](function.pg-select.html)
+-   [mysqlifetchrow()](mysqli-result.fetch-row.md)
+-   [mysqlifetcharray()](mysqli-result.fetch-array.md)
+-   [mysqlifetchassoc()](mysqli-result.fetch-assoc.md)
+-   [mysqlifetchobject()](mysqli-result.fetch-object.md)
+-   [пгfetchrow()](function.pg-fetch-row.md)
+-   [пгfetchassoc()](function.pg-fetch-assoc.md)
+-   [пгfetcharray()](function.pg-fetch-array.md)
+-   [пгfetchobject()](function.pg-fetch-object.md)
+-   [пгfetchall()](function.pg-fetch-all.md)
+-   [пгselect()](function.pg-select.md)
 -   **sybasefetchobject()**
 -   **sybasefetcharray()**
 -   **sybasefetchassoc()**

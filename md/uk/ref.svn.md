@@ -10,12 +10,12 @@ title: Функції SVN
 
 ## Зміст
 
--   [svnadd](function.svn-add.html) — Додає елементи до списку запланованих для додавання до робочої копії
--   [svnauthgetparameter](function.svn-auth-get-parameter.html) — Повертає параметр автентифікації
--   [svnauthsetparameter](function.svn-auth-set-parameter.html) — Встановлює параметр автентифікації
--   [svnblame](function.svn-blame.html) — Построчно виводить автора та редакцію для файлу
--   [svncat](function.svn-cat.html) — Повертає вміст файлу у репозиторії
--   [svncheckout](function.svn-checkout.html) — Отримує робочу копію з репозиторію
+-   [svnadd](function.svn-add.md) — Додає елементи до списку запланованих для додавання до робочої копії
+-   [svnauthgetparameter](function.svn-auth-get-parameter.md) — Повертає параметр автентифікації
+-   [svnauthsetparameter](function.svn-auth-set-parameter.md) — Встановлює параметр автентифікації
+-   [svnblame](function.svn-blame.md) — Построчно виводить автора та редакцію для файлу
+-   [svncat](function.svn-cat.md) — Повертає вміст файлу у репозиторії
+-   [svncheckout](function.svn-checkout.md) — Отримує робочу копію з репозиторію
 -   [svncleanup](function.svn-cleanup.html) — Рекурсивно очищує робочу копію директорії, завершує незакінчені операції та знімає блокування.
 -   [svnclientversion](function.svn-client-version.html) — Повертає версію клієнтських бібліотек SVN
 -   [svncommit](function.svn-commit.html) — Відправляє зміни з робочої директорії до репозиторію

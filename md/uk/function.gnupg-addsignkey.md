@@ -22,7 +22,7 @@ gnupg_addsignkey(resource $identifier, string $fingerprint, string $passphrase =
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
 
 `fingerprint`
 

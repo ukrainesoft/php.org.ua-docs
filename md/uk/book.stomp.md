@@ -16,8 +16,8 @@ title: Stomp Client
     -   [Типи ресурсів](stomp.resources.md)
 -   [Приклади](stomp.examples.md)
 -   [Функции Stomp](ref.stomp.md)
-    -   [stompconnecterror](function.stomp-connect-error.html) — Повертає рядок із описом останньої помилки підключення
-    -   [stompversion](function.stomp-version.html) — Повертає поточну версію модуля Stomp
+    -   [stompconnecterror](function.stomp-connect-error.md) — Повертає рядок із описом останньої помилки підключення
+    -   [stompversion](function.stomp-version.md) — Повертає поточну версію модуля Stomp
 -   [Stomp](class.stomp.md) - Клас Stomp
     -   [Stomp::abort](stomp.abort.md) — Скасує виконання поточної транзакції
     -   [Stomp::ack](stomp.ack.md) — Підтверджує отримання повідомлення

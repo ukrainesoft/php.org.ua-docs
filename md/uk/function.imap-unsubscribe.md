@@ -24,11 +24,11 @@ imap_unsubscribe(IMAP\Connection $imap, string $mailbox): bool
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `mailbox`
 
-Ім'я поштової скриньки. Детальніше дивіться в розділі про [imapopen()](function.imap-open.html)
+Ім'я поштової скриньки. Детальніше дивіться в розділі про [imapopen()](function.imap-open.md)
 
 **Увага**
 
@@ -42,8 +42,8 @@ imap_unsubscribe(IMAP\Connection $imap, string $mailbox): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [imapsubscribe()](function.imap-subscribe.html) - Підписатися на поштову скриньку
+-   [imapsubscribe()](function.imap-subscribe.md) - Підписатися на поштову скриньку

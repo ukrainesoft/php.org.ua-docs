@@ -17,11 +17,11 @@ title: Зміна поведінки PHP
 -   [Componere](book.componere.md)
     -   [Введение](intro.componere.md)
     -   [Встановлення та налаштування](componere.setup.md)
-    -   [ComponereAbstractDefinition](class.componere-abstract-definition.html) - Клас ComponereAbstractDefinition
-    -   [ComponereDefinition](class.componere-definition.html) - Клас ComponereDefinition
-    -   [ComponerePatch](class.componere-patch.html) - Клас ComponerePatch
-    -   [ComponereMethod](class.componere-method.html) - Клас ComponereMethod
-    -   [ComponereValue](class.componere-value.html) - Клас ComponereValue
+    -   [ComponereAbstractDefinition](class.componere-abstract-definition.md) - Клас ComponereAbstractDefinition
+    -   [ComponereDefinition](class.componere-definition.md) - Клас ComponereDefinition
+    -   [ComponerePatch](class.componere-patch.md) - Клас ComponerePatch
+    -   [ComponereMethod](class.componere-method.md) - Клас ComponereMethod
+    -   [ComponereValue](class.componere-value.md) - Клас ComponereValue
     -   [Функции Componere](reference.componere.md)
 -   [Обработка ошибок](book.errorfunc.md) — Обробка та логування помилок
     -   [Введение](intro.errorfunc.md)
@@ -35,10 +35,10 @@ title: Зміна поведінки PHP
     -   [Обумовлені константи](ffi.constants.md)
     -   [Приклади](ffi.examples.md)
     -   [FFI](class.ffi.md) — Основний інтерфейс до коду та даних C
-    -   [FFICData](class.ffi-cdata.html) — Доступ до даних C
-    -   [FFICType](class.ffi-ctype.html) — Доступ до типів C
-    -   [FFIException](class.ffi-exception.html) - Винятки FFI
-    -   [FFIParserException](class.ffi-parserexception.html) - Виключення парсера FFI
+    -   [FFICData](class.ffi-cdata.md) — Доступ до даних C
+    -   [FFICType](class.ffi-ctype.md) — Доступ до типів C
+    -   [FFIException](class.ffi-exception.md) - Винятки FFI
+    -   [FFIParserException](class.ffi-parserexception.md) - Виключення парсера FFI
 -   [OPcache](book.opcache.md)
     -   [Введение](intro.opcache.md)
     -   [Встановлення та налаштування](opcache.setup.md)

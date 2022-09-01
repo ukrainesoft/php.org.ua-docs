@@ -16,7 +16,7 @@ ReflectionClassConstant::construct — Створює ReflectionClassConstant
 
 public **ReflectionClassConstant::construct**(object | string `$class`, string `$constant`
 
-Створює новий об'єкт [ReflectionClassConstant](class.reflectionclassconstant.html)
+Створює новий об'єкт [ReflectionClassConstant](class.reflectionclassconstant.md)
 
 ### Список параметрів
 
@@ -30,7 +30,7 @@ public **ReflectionClassConstant::construct**(object | string `$class`, string `
 
 ### Помилки
 
-Викидає [Exception](class.exception.html) якщо передана константа класу немає.
+Викидає [Exception](class.exception.md) якщо передана константа класу немає.
 
 ### Дивіться також
 

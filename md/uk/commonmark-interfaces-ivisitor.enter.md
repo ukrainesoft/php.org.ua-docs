@@ -22,7 +22,7 @@ abstract public CommonMark\Interfaces\IVisitor::enter(IVisitable $visitable): in
 
 `visitable`
 
-Поточний вхідний [CommonMarkInterfacesIVisitable](class.commonmark-interfaces-ivisitable.html)
+Поточний вхідний [CommonMarkInterfacesIVisitable](class.commonmark-interfaces-ivisitable.md)
 
 ### Значення, що повертаються
 
@@ -38,4 +38,4 @@ abstract public CommonMark\Interfaces\IVisitor::enter(IVisitable $visitable): in
 
 ### Дивіться також
 
--   [CommonMarkInterfacesIVisitable::accept](commonmark-interfaces-ivisitable.accept.html)
+-   [CommonMarkInterfacesIVisitable::accept](commonmark-interfaces-ivisitable.accept.md)

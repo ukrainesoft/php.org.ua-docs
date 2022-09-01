@@ -24,8 +24,8 @@ public XMLReader::expand(?DOMNode $baseNode = null): DOMNode|false
 
 `baseNode`
 
-[DOMNode](class.domnode.html) визначає цільовий [DOMDocument](class.domdocument.html) створеного об'єкта DOM.
+[DOMNode](class.domnode.html) визначає цільовий [DOMDocument](class.domdocument.md) створеного об'єкта DOM.
 
 ### Значення, що повертаються
 
-Результатуючий [DOMNode](class.domnode.html) або **`false`** у разі виникнення помилки.
+Результатуючий [DOMNode](class.domnode.md) або **`false`** у разі виникнення помилки.

@@ -34,7 +34,7 @@ end(array|object &$array): mixed
 
 | Версия | Описание |
 | --- | --- |
-|  | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.html)або використовуйте [ArrayIterator](class.arrayiterator.md) |
+|  | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.md)або використовуйте [ArrayIterator](class.arrayiterator.md) |
 
 ### Приклади
 
@@ -56,4 +56,4 @@ echo end($fruits); // cranberry
 -   [prev()](function.prev.md) - Пересуває внутрішній покажчик масиву на одну позицію назад
 -   [reset()](function.reset.md) - Встановлює внутрішній покажчик масиву на його перший елемент
 -   [next()](function.next.md) - Переміщує покажчик масиву вперед на один елемент
--   [arraykeylast()](function.array-key-last.html) - Отримує останній ключ масиву
+-   [arraykeylast()](function.array-key-last.md) - Отримує останній ключ масиву

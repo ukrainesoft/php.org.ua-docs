@@ -56,6 +56,6 @@ if ($req) {
 
 ### Дивіться також
 
--   [cubriderrno()](function.cubrid-errno.html) - Повертає код помилки попередньої операції CUBRID
--   [cubriderrorcode()](function.cubrid-error-code.html) - Отримати код помилки
--   [cubriderrormsg()](function.cubrid-error-msg.html) - Повертає текст останньої помилки, що відбулася.
+-   [cubriderrno()](function.cubrid-errno.md) - Повертає код помилки попередньої операції CUBRID
+-   [cubriderrorcode()](function.cubrid-error-code.md) - Отримати код помилки
+-   [cubriderrormsg()](function.cubrid-error-msg.md) - Повертає текст останньої помилки, що відбулася.

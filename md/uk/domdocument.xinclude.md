@@ -28,7 +28,7 @@ public DOMDocument::xinclude(int $options = 0): int|false
 
 `options`
 
-[Параметри libxml](libxml.constants.html). Доступно з Libxml 2.6.7.
+[Параметри libxml](libxml.constants.md). Доступно з Libxml 2.6.7.
 
 ### Значення, що повертаються
 

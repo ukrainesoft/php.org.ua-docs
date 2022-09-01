@@ -18,7 +18,7 @@ VtifulKernelFormat::bold — Напівжирний
 public Vtiful\Kernel\Format::bold(resource $handle)
 ```
 
-Напівжирний формат [VtifulKernelFormat](class.vtiful-kernel-format.html)
+Напівжирний формат [VtifulKernelFormat](class.vtiful-kernel-format.md)
 
 ### Список параметрів
 

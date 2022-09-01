@@ -24,11 +24,11 @@ yaz_record(resource $id, int $pos, string $type): string
 
 `id`
 
-Дескриптор з'єднання, що повертається [yazconnect()](function.yaz-connect.html)
+Дескриптор з'єднання, що повертається [yazconnect()](function.yaz-connect.md)
 
 `pos`
 
-Позиція запису. Записи в результуючому наборі нумеруються як 1, 2, ... $hits, де $hits - число записів у результуючому наборі, яке повертається функцією [yazhits()](function.yaz-hits.html)
+Позиція запису. Записи в результуючому наборі нумеруються як 1, 2, ... $hits, де $hits - число записів у результуючому наборі, яке повертається функцією [yazhits()](function.yaz-hits.md)
 
 `type`
 

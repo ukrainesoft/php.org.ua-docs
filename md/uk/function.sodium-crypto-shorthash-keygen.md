@@ -18,7 +18,7 @@ sodiumcryptoshorthashkeygen — Отримати випадкові байти �
 sodium_crypto_shorthash_keygen(): string
 ```
 
-Створює ключ для використання з [sodiumcryptoshorthash()](function.sodium-crypto-shorthash.html)
+Створює ключ для використання з [sodiumcryptoshorthash()](function.sodium-crypto-shorthash.md)
 
 **Увага**
 

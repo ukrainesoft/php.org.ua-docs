@@ -37,7 +37,7 @@ public static tick(int $interval_ms, callable $callback, string $param = ?): voi
 
 ## Зміст
 
--   [SwooleTimer::after](swoole-timer.after.html) - Запускає callback-функцію через певний проміжок часу
--   [SwooleTimer::clear](swoole-timer.clear.html) — Видаляє таймер за ідентифікатором
--   [SwooleTimer::exists](swoole-timer.exists.html) — Перевіряє, чи існує таймер
--   [SwooleTimer::tick](swoole-timer.tick.html) — Повторює цю функцію у кожний заданий інтервал часу
+-   [SwooleTimer::after](swoole-timer.after.md) - Запускає callback-функцію через певний проміжок часу
+-   [SwooleTimer::clear](swoole-timer.clear.md) — Видаляє таймер за ідентифікатором
+-   [SwooleTimer::exists](swoole-timer.exists.md) — Перевіряє, чи існує таймер
+-   [SwooleTimer::tick](swoole-timer.tick.md) — Повторює цю функцію у кожний заданий інтервал часу

@@ -85,9 +85,9 @@ gmp_div_q(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_R
 
 > **Зауваження**
 > 
-> Ця функція має псевдонім [gmpdiv()](function.gmp-div.html)
+> Ця функція має псевдонім [gmpdiv()](function.gmp-div.md)
 
 ### Дивіться також
 
--   [gmpdivr()](function.gmp-div-r.html) - Залишок від розподілу чисел
--   [gmpdivqr()](function.gmp-div-qr.html) - Поділ чисел та отримання приватного та залишку
+-   [gmpdivr()](function.gmp-div-r.md) - Залишок від розподілу чисел
+-   [gmpdivqr()](function.gmp-div-qr.md) - Поділ чисел та отримання приватного та залишку

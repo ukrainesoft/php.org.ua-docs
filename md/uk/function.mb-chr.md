@@ -20,7 +20,7 @@ mb_chr(int $codepoint, ?string $encoding = null): string|false
 
 Повертає рядок, що містить символ, вказаний значенням кодової точки Unicode, закодований у вказаному кодуванні.
 
-Функція доповнює [мбord()](function.mb-ord.html)
+Функція доповнює [мбord()](function.mb-ord.md)
 
 ### Список параметрів
 
@@ -71,7 +71,7 @@ bool(false)
 
 ### Дивіться також
 
--   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
--   [мбord()](function.mb-ord.html) - Отримує кодову точку символу Unicode
+-   [мбinternalencoding()](function.mb-internal-encoding.md) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбord()](function.mb-ord.md) - Отримує кодову точку символу Unicode
 -   [IntlChar::ord()](intlchar.ord.md) - Отримати код символ Unicode
 -   [chr()](function.chr.md) - Генерує односимвольний рядок за заданим числом

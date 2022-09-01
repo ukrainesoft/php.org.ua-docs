@@ -34,7 +34,7 @@ mysqli_commit(mysqli $mysql, int $flags = 0, ?string $name = null): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 `flags`
 
@@ -56,7 +56,7 @@ mysqli_commit(mysqli $mysql, int $flags = 0, ?string $name = null): bool
 
 ### Приклади
 
-Дивіться приклад використання у розділі [](mysqli.begin-transaction.html#mysqli.begin-transaction.example.basic)[mysqli::begintransaction()](mysqli.begin-transaction.html)
+Дивіться приклад використання у розділі [](mysqli.begin-transaction.html#mysqli.begin-transaction.example.basic)[mysqli::begintransaction()](mysqli.begin-transaction.md)
 
 ### Примітки
 
@@ -66,7 +66,7 @@ mysqli_commit(mysqli $mysql, int $flags = 0, ?string $name = null): bool
 
 ### Дивіться також
 
--   [mysqliautocommit()](mysqli.autocommit.html) - Вмикає або вимикає автоматичну фіксацію змін бази даних
--   [mysqlibegintransaction()](mysqli.begin-transaction.html) - Стартує транзакцію
--   [mysqlirollback()](mysqli.rollback.html) - Відкат поточної транзакції
--   [mysqlisavepoint()](mysqli.savepoint.html) - Встановіть іменовану точку збереження транзакції
+-   [mysqliautocommit()](mysqli.autocommit.md) - Вмикає або вимикає автоматичну фіксацію змін бази даних
+-   [mysqlibegintransaction()](mysqli.begin-transaction.md) - Стартує транзакцію
+-   [mysqlirollback()](mysqli.rollback.md) - Відкат поточної транзакції
+-   [mysqlisavepoint()](mysqli.savepoint.md) - Встановіть іменовану точку збереження транзакції

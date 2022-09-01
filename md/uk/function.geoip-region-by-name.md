@@ -24,7 +24,7 @@ geoip_region_by_name(string $hostname): array
 
 Наступні імена ключів асоціативного масиву, що повертається:
 
--   " countrycode" -- Двохлітерний код країни (дивіться [geoipcountrycodeбname()](function.geoip-country-code-by-name.html)
+-   " countrycode" -- Двохлітерний код країни (дивіться [geoipcountrycodeбname()](function.geoip-country-code-by-name.md)
 -   "region" -- Код регіону (наприклад, CA для Каліфорнії)
 
 ### Список параметрів

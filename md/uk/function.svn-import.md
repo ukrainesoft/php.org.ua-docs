@@ -60,5 +60,5 @@ svn_import(realpath('new-files'), 'http://www.example.com/svnroot/incoming/abc'
 
 ### Дивіться також
 
--   [svnadd()](function.svn-add.html) - Додає елементи до списку запланованих для додавання до робочої копії
--   [» SVN-документация по svn import](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.import.html)
+-   [svnadd()](function.svn-add.md) - Додає елементи до списку запланованих для додавання до робочої копії
+-   [» SVN-документация по svn import](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.import.md)

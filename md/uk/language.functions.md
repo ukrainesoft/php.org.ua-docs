@@ -10,11 +10,11 @@ title: Функції
 
 ## Зміст
 
--   [Функції, визначені користувачем](functions.user-defined.html)
--   [Аргументи функції](functions.arguments.html)
--   [Возврат значений](functions.returning-values.html)
--   [Звернення до функцій через змінні](functions.variable-functions.html)
--   [Вбудовані функції](functions.internal.html)
--   [Анонімні функції](functions.anonymous.html)
--   [Стрілочні функції](functions.arrow.html)
--   [Callback-функції як об'єкти першого класу](functions.first_class_callable_syntax.html)
+-   [Функції, визначені користувачем](functions.user-defined.md)
+-   [Аргументи функції](functions.arguments.md)
+-   [Возврат значений](functions.returning-values.md)
+-   [Звернення до функцій через змінні](functions.variable-functions.md)
+-   [Вбудовані функції](functions.internal.md)
+-   [Анонімні функції](functions.anonymous.md)
+-   [Стрілочні функції](functions.arrow.md)
+-   [Callback-функції як об'єкти першого класу](functions.first_class_callable_syntax.md)

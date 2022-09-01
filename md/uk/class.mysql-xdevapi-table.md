@@ -57,14 +57,14 @@ name
 
 ## Зміст
 
--   [Table::construct](mysql-xdevapi-table.construct.html) - Конструктор Table
--   [Table::count](mysql-xdevapi-table.count.html) — Отримати кількість рядків
--   [Table::delete](mysql-xdevapi-table.delete.html) — Видалити рядки з таблиці
--   [Table::existsInDatabase](mysql-xdevapi-table.existsindatabase.html) — Перевірити, чи існує таблиця у базі даних
--   [Table::getName](mysql-xdevapi-table.getname.html) — Отримати ім'я таблиці
--   [Table::getSchema](mysql-xdevapi-table.getschema.html) — Отримати схему таблиці
--   [Table::getSession](mysql-xdevapi-table.getsession.html) — Отримати таблицю сесій
--   [Table::insert](mysql-xdevapi-table.insert.html) — Вставити рядки таблиці
--   [Table::isView](mysql-xdevapi-table.isview.html) — Перевірити, чи таблиця є поданням
--   [Table::select](mysql-xdevapi-table.select.html) - Вибрати рядки з таблиці
--   [Table::update](mysql-xdevapi-table.update.html) — Оновити рядки у таблиці
+-   [Table::construct](mysql-xdevapi-table.construct.md) - Конструктор Table
+-   [Table::count](mysql-xdevapi-table.count.md) — Отримати кількість рядків
+-   [Table::delete](mysql-xdevapi-table.delete.md) — Видалити рядки з таблиці
+-   [Table::existsInDatabase](mysql-xdevapi-table.existsindatabase.md) — Перевірити, чи існує таблиця у базі даних
+-   [Table::getName](mysql-xdevapi-table.getname.md) — Отримати ім'я таблиці
+-   [Table::getSchema](mysql-xdevapi-table.getschema.md) — Отримати схему таблиці
+-   [Table::getSession](mysql-xdevapi-table.getsession.md) — Отримати таблицю сесій
+-   [Table::insert](mysql-xdevapi-table.insert.md) — Вставити рядки таблиці
+-   [Table::isView](mysql-xdevapi-table.isview.md) — Перевірити, чи таблиця є поданням
+-   [Table::select](mysql-xdevapi-table.select.md) - Вибрати рядки з таблиці
+-   [Table::update](mysql-xdevapi-table.update.md) — Оновити рядки у таблиці

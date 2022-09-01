@@ -34,4 +34,4 @@ title: Інтерфейс CrudOperationSortable
 
 ## Зміст
 
--   [CrudOperationSortable::sort](mysql-xdevapi-crudoperationsortable.sort.html) - Сортує результати
+-   [CrudOperationSortable::sort](mysql-xdevapi-crudoperationsortable.sort.md) - Сортує результати

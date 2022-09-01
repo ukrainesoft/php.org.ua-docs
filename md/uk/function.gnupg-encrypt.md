@@ -18,13 +18,13 @@ gnupgencrypt - Шифрує заданий текст
 gnupg_encrypt(resource $identifier, string $plaintext): string
 ```
 
-Шифрує заданий текст `plaintext` за допомогою ключа, заданого раніше за допомогою функції [gnupgaddencryptkey](function.gnupg-addencryptkey.html) та повертає результат.
+Шифрує заданий текст `plaintext` за допомогою ключа, заданого раніше за допомогою функції [gnupgaddencryptkey](function.gnupg-addencryptkey.md) та повертає результат.
 
 ### Список параметрів
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
 
 `plaintext`
 

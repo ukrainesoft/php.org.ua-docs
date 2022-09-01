@@ -14,14 +14,14 @@ title: Функції iconv
 
 ## Зміст
 
--   [iconvgetencoding](function.iconv-get-encoding.html) — Отримує поточне значення параметрів перетворення кодувань
--   [iconvmimedecodeheaders](function.iconv-mime-decode-headers.html) - Декодує кілька полів заголовка MIME
--   [iconvmimedecode](function.iconv-mime-decode.html) - Декодує поле MIME-заголовка
--   [iconvmimeencode](function.iconv-mime-encode.html) — Створює поле MIME-заголовка
--   [iconvsetencoding](function.iconv-set-encoding.html) — Встановлює поточні налаштування для перетворення символів кодування
--   [iconvstrlen](function.iconv-strlen.html) — Повертає кількість символів у рядку
--   [iconvstrpos](function.iconv-strpos.html) — Повертає позицію першого входження підрядка
--   [iconvstrrpos](function.iconv-strrpos.html) — Повертає позицію останнього входження підрядка
--   [iconvsubstr](function.iconv-substr.html) — Отримання частини рядка
+-   [iconvgetencoding](function.iconv-get-encoding.md) — Отримує поточне значення параметрів перетворення кодувань
+-   [iconvmimedecodeheaders](function.iconv-mime-decode-headers.md) - Декодує кілька полів заголовка MIME
+-   [iconvmimedecode](function.iconv-mime-decode.md) - Декодує поле MIME-заголовка
+-   [iconvmimeencode](function.iconv-mime-encode.md) — Створює поле MIME-заголовка
+-   [iconvsetencoding](function.iconv-set-encoding.md) — Встановлює поточні налаштування для перетворення символів кодування
+-   [iconvstrlen](function.iconv-strlen.md) — Повертає кількість символів у рядку
+-   [iconvstrpos](function.iconv-strpos.md) — Повертає позицію першого входження підрядка
+-   [iconvstrrpos](function.iconv-strrpos.md) — Повертає позицію останнього входження підрядка
+-   [iconvsubstr](function.iconv-substr.md) — Отримання частини рядка
 -   [iconv](function.iconv.md) — Перетворює рядок з одного кодування символів на інший
--   [проiconvhandler](function.ob-iconv-handler.html) — Перетворює символи з поточного кодування на кодування вихідного буфера
+-   [проiconvhandler](function.ob-iconv-handler.md) — Перетворює символи з поточного кодування на кодування вихідного буфера

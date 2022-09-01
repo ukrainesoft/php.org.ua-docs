@@ -24,7 +24,7 @@ gmp_clrbit(GMP $num, int $index): void
 
 `num`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `index`
 
@@ -32,7 +32,7 @@ gmp_clrbit(GMP $num, int $index): void
 
 ### Значення, що повертаються
 
-Об'єкт класу [GMP](class.gmp.html)ю
+Об'єкт класу [GMP](class.gmp.md)ю
 
 ### Приклади
 
@@ -56,9 +56,9 @@ gmp_clrbit(GMP $num, int $index): void
 
 > **Зауваження**
 > 
-> На відміну від більшості GMP функцій, **gmpclrbit()** повинна викликатись для вже існуючого об'єкта GMP (наприклад, створеного за допомогою [gmpinit()](function.gmp-init.html)). Функція не створює їх автоматично.
+> На відміну від більшості GMP функцій, **gmpclrbit()** повинна викликатись для вже існуючого об'єкта GMP (наприклад, створеного за допомогою [gmpinit()](function.gmp-init.md)). Функція не створює їх автоматично.
 
 ### Дивіться також
 
--   [gmpsetbit()](function.gmp-setbit.html) - Встановлення біта
--   [gmptestbit()](function.gmp-testbit.html) - Перевірка, чи встановлений біт в 1
+-   [gmpsetbit()](function.gmp-setbit.md) - Встановлення біта
+-   [gmptestbit()](function.gmp-testbit.md) - Перевірка, чи встановлений біт в 1

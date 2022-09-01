@@ -115,5 +115,5 @@ public ReflectionClass::__toString(): string
 
 ## Зміст
 
--   [ReflectionObject::construct](reflectionobject.construct.html) - Конструктор класу ReflectionObject
--   [ReflectionObject::export](reflectionobject.export.html) - Експорт
+-   [ReflectionObject::construct](reflectionobject.construct.md) - Конструктор класу ReflectionObject
+-   [ReflectionObject::export](reflectionobject.export.md) - Експорт

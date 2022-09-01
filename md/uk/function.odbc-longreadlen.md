@@ -28,7 +28,7 @@ odbc_longreadlen(resource $statement, int $length): bool
 
 `length`
 
-Кількість байтів, які повертаються PHP, контролюється довжиною параметра. Якщо встановлено значення `0`дані стовпця LONG передаються клієнту (тобто друкуються) при отриманні за допомогою [odbcresult()](function.odbc-result.html)
+Кількість байтів, які повертаються PHP, контролюється довжиною параметра. Якщо встановлено значення `0`дані стовпця LONG передаються клієнту (тобто друкуються) при отриманні за допомогою [odbcresult()](function.odbc-result.md)
 
 ### Значення, що повертаються
 
@@ -38,4 +38,4 @@ odbc_longreadlen(resource $statement, int $length): bool
 
 > **Зауваження**
 > 
-> На обробку стовпців `LONGVARBINARY` також впливає [odbcbinmode()](function.odbc-binmode.html)
+> На обробку стовпців `LONGVARBINARY` також впливає [odbcbinmode()](function.odbc-binmode.md)

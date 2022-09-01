@@ -36,4 +36,4 @@ fann_set_quickprop_decay(resource $ann, float $quickprop_decay): bool
 
 ### Дивіться також
 
--   [fanngetquickpropdecay()](function.fann-get-quickprop-decay.html) - Повертає зниження, яке є фактором, при якому ваги повинні зменшуватись на кожній ітерації під час навчання quickprop
+-   [fanngetquickpropdecay()](function.fann-get-quickprop-decay.md) - Повертає зниження, яке є фактором, при якому ваги повинні зменшуватись на кожній ітерації під час навчання quickprop

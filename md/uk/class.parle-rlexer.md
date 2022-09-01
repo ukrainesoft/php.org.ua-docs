@@ -12,7 +12,7 @@ title: Клас ParleRLexer
 
 ## Вступ
 
-Клас лексера з кількома станами. Лексеми можна визначати на льоту. Якщо конкретний екземпляр лексера призначений для використання з [ParleRParser](class.parle-rparser.html)Ідентифікатори токенів повинні бути взяті звідти. В іншому випадку можуть бути надані довільні ідентифікатори токенів. Зверніть увагу, що [ParleParser](class.parle-parser.html) несумісний із цим лексером.
+Клас лексера з кількома станами. Лексеми можна визначати на льоту. Якщо конкретний екземпляр лексера призначений для використання з [ParleRParser](class.parle-rparser.html)Ідентифікатори токенів повинні бути взяті звідти. В іншому випадку можуть бути надані довільні ідентифікатори токенів. Зверніть увагу, що [ParleParser](class.parle-parser.md) несумісний із цим лексером.
 
 ## Огляд класів
 
@@ -125,13 +125,13 @@ cursor
 
 ## Зміст
 
--   [ParleRLexer::advance](parle-rlexer.advance.html) - Обробка наступного правила лексера
--   [ParleRLexer::build](parle-rlexer.build.html) - Завершує набір правил лексера
--   [ParleRLexer::callout](parle-rlexer.callout.html) - Визначає callback-функцію токена
--   [ParleRLexer::consume](parle-rlexer.consume.html) — Передає дані для обробки
--   [ParleRLexer::dump](parle-rlexer.dump.html) — Вивантажує стан пристрою
--   [ParleRLexer::getToken](parle-rlexer.gettoken.html) - в
--   [ParleRLexer::insertMacro](parle-rlexer.insertmacro.html) — Вставляє макрос регулярного виразу
--   [ParleRLexer::push](parle-rlexer.push.html) - Додає правило лексера
--   [ParleRLexer::pushState](parle-rlexer.pushstate.html) - Просуває новий початковий стан
--   [ParleRLexer::reset](parle-rlexer.reset.html) - скидає лексер
+-   [ParleRLexer::advance](parle-rlexer.advance.md) - Обробка наступного правила лексера
+-   [ParleRLexer::build](parle-rlexer.build.md) - Завершує набір правил лексера
+-   [ParleRLexer::callout](parle-rlexer.callout.md) - Визначає callback-функцію токена
+-   [ParleRLexer::consume](parle-rlexer.consume.md) — Передає дані для обробки
+-   [ParleRLexer::dump](parle-rlexer.dump.md) — Вивантажує стан пристрою
+-   [ParleRLexer::getToken](parle-rlexer.gettoken.md) - в
+-   [ParleRLexer::insertMacro](parle-rlexer.insertmacro.md) — Вставляє макрос регулярного виразу
+-   [ParleRLexer::push](parle-rlexer.push.md) - Додає правило лексера
+-   [ParleRLexer::pushState](parle-rlexer.pushstate.md) - Просуває новий початковий стан
+-   [ParleRLexer::reset](parle-rlexer.reset.md) - скидає лексер

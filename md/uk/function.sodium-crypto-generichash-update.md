@@ -24,7 +24,7 @@ sodium_crypto_generichash_update(string &$state, string $message): bool
 
 `state`
 
-Значення, що повертається [sodiumcryptogenerichashinit()](function.sodium-crypto-generichash-init.html)
+Значення, що повертається [sodiumcryptogenerichashinit()](function.sodium-crypto-generichash-init.md)
 
 `message`
 

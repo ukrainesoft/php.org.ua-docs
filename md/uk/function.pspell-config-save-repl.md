@@ -18,15 +18,15 @@ pspellconfigsaverepl — Визначає, чи зберігати список 
 pspell_config_save_repl(PSpell\Config $config, bool $save): bool
 ```
 
-**pspellconfigsaverepl()** визначає, чи буде [pspellsavewordlist()](function.pspell-save-wordlist.html) зберігати пари разом зі списком слів. Зазвичай немає необхідності використовувати цю функцію, оскільки, якщо використовується [pspellconfigrepl()](function.pspell-config-repl.html), заміщуючі пари будуть збережені [pspellsavewordlist()](function.pspell-save-wordlist.html) у будь-якому випадку, і, якщо вона не використовується, заміщувальні пари не зберігатимуться.
+**pspellconfigsaverepl()** визначає, чи буде [pspellsavewordlist()](function.pspell-save-wordlist.html) зберігати пари разом зі списком слів. Зазвичай немає необхідності використовувати цю функцію, оскільки, якщо використовується [pspellconfigrepl()](function.pspell-config-repl.html), заміщуючі пари будуть збережені [pspellsavewordlist()](function.pspell-save-wordlist.md) у будь-якому випадку, і, якщо вона не використовується, заміщувальні пари не зберігатимуться.
 
-**pspellconfigsaverepl()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.html)
+**pspellconfigsaverepl()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.md)
 
 ### Список параметрів
 
 `config`
 
-Екземпляр [PSpellConfig](class.pspell-config.html)
+Екземпляр [PSpellConfig](class.pspell-config.md)
 
 `save`
 
@@ -40,7 +40,7 @@ pspell_config_save_repl(PSpell\Config $config, bool $save): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Примітки
 

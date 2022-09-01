@@ -14,9 +14,9 @@ title: Визначення статі на ім'я
 -   [Приклади](gender.examples.md)
     -   [Пример использования](gender.example.admin.md)
 -   [GenderGender](class.gender.md) - Клас GenderGender
-    -   [GenderGender::connect](gender-gender.connect.html) — З'єднання із зовнішньою базою імен
-    -   [GenderGender::construct](gender-gender.construct.html) - Конструктор об'єкта класу Gender
-    -   [GenderGender::country](gender-gender.country.html) — Отримати текстову виставу країни
-    -   [GenderGender::get](gender-gender.get.html) — Отримати підлогу на ім'я
-    -   [GenderGender::isNick](gender-gender.isnick.html) — Перевіряє, чи name0 є псевдонімом для name1
-    -   [GenderGender::similarNames](gender-gender.similarnames.html) — Отримати схожі імена
+    -   [GenderGender::connect](gender-gender.connect.md) — З'єднання із зовнішньою базою імен
+    -   [GenderGender::construct](gender-gender.construct.md) - Конструктор об'єкта класу Gender
+    -   [GenderGender::country](gender-gender.country.md) — Отримати текстову виставу країни
+    -   [GenderGender::get](gender-gender.get.md) — Отримати підлогу на ім'я
+    -   [GenderGender::isNick](gender-gender.isnick.md) — Перевіряє, чи name0 є псевдонімом для name1
+    -   [GenderGender::similarNames](gender-gender.similarnames.md) — Отримати схожі імена

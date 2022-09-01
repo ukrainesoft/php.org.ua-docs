@@ -16,7 +16,7 @@ YafRouteSimple::construct - Конструктор класу YafRouteSimple
 
 public **YafRouteSimple::construct**(string `$module_name`, string `$controller_name`, string `$action_name`
 
-[YafRouteSimple](class.yaf-route-simple.html) отримає інформацію про маршрут з рядка запиту та параметри конструктора будуть використовуватись як ключі при пошуку інформації про маршрут у $GET.
+[YafRouteSimple](class.yaf-route-simple.md) отримає інформацію про маршрут з рядка запиту та параметри конструктора будуть використовуватись як ключі при пошуку інформації про маршрут у $GET.
 
 **Увага**
 
@@ -42,7 +42,7 @@ public **YafRouteSimple::construct**(string `$module_name`, string `$controller_
 
 ### Приклади
 
-**Приклад #1 Приклад використання [YafRouteSimple::route()](yaf-route-simple.route.html)**
+**Приклад #1 Приклад використання [YafRouteSimple::route()](yaf-route-simple.route.md)**
 
 ```php
 <?php
@@ -51,7 +51,7 @@ public **YafRouteSimple::construct**(string `$module_name`, string `$controller_
 ?>
 ```
 
-**Приклад #2 Приклад використання [YafRouteSimple::route()](yaf-route-simple.route.html)**
+**Приклад #2 Приклад використання [YafRouteSimple::route()](yaf-route-simple.route.md)**
 
 Запит: [http://yourdomain.com/path/?controller=a&act=b](http://yourdomain.com/path/?controller=a&act=b)\=> module = default(index), controller = a, action = b
 
@@ -59,8 +59,8 @@ public **YafRouteSimple::construct**(string `$module_name`, string `$controller_
 
 ### Дивіться також
 
--   [YafRouteSupervar::route()](yaf-route-supervar.route.html) - Призначення route
--   [YafRouteStatic::route()](yaf-route-static.route.html) - Надсилає запит
--   [YafRouteRegex::route()](yaf-route-regex.route.html) - Мета маршруту
--   [YafRouteRewrite::route()](yaf-route-rewrite.route.html) - Призначення route
--   [YafRouteMap::route()](yaf-route-map.route.html) - Призначення route
+-   [YafRouteSupervar::route()](yaf-route-supervar.route.md) - Призначення route
+-   [YafRouteStatic::route()](yaf-route-static.route.md) - Надсилає запит
+-   [YafRouteRegex::route()](yaf-route-regex.route.md) - Мета маршруту
+-   [YafRouteRewrite::route()](yaf-route-rewrite.route.md) - Призначення route
+-   [YafRouteMap::route()](yaf-route-map.route.md) - Призначення route

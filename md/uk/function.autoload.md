@@ -36,4 +36,4 @@ __autoload(string $class): void
 
 ### Дивіться також
 
--   [splautoloadregister()](function.spl-autoload-register.html) - Реєструє задану функцію як реалізацію методу autoload()
+-   [splautoloadregister()](function.spl-autoload-register.md) - Реєструє задану функцію як реалізацію методу autoload()

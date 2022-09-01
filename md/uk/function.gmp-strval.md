@@ -26,7 +26,7 @@ gmp_strval(GMP|int|string $num, int $base = 10): string
 
 GMP число для конвертації.
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `base`
 

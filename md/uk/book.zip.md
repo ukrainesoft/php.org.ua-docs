@@ -68,13 +68,13 @@ title: Zip
     -   [ZipArchive::unchangeIndex](ziparchive.unchangeindex.md) — Скасує всі зміни у позиції із заданим індексом
     -   [ZipArchive::unchangeName](ziparchive.unchangename.md) — Скасує всі зміни у позиції із заданим ім'ям
 -   [Функции Zip](ref.zip.md)
-    -   [zipclose](function.zip-close.html) - Закриває дескриптор ZIP-архіву
-    -   [zipentryclose](function.zip-entry-close.html) - Закриває дескриптор директорії
-    -   [zipentrycompressedsize](function.zip-entry-compressedsize.html) — Повертає стислий розмір файлу для дескриптора директорії
-    -   [zipentrycompressionmethod](function.zip-entry-compressionmethod.html) — Повертає метод стиснення дескриптора директорії
-    -   [zipentryfilesize](function.zip-entry-filesize.html) — Повертає реальний розмір файлу для дескриптора директорії
-    -   [zipentryname](function.zip-entry-name.html) — Отримує ім'я дескриптора директорії
-    -   [zipentryopen](function.zip-entry-open.html) — Відкриває директорію для читання
-    -   [zipentryread](function.zip-entry-read.html) — Читає дані із відкритого раніше дескриптора директорії
-    -   [zipopen](function.zip-open.html) - Відкриває ZIP-архів
-    -   [zipread](function.zip-read.html) — Зчитує наступний запис у ZIP-архіві
+    -   [zipclose](function.zip-close.md) - Закриває дескриптор ZIP-архіву
+    -   [zipentryclose](function.zip-entry-close.md) - Закриває дескриптор директорії
+    -   [zipentrycompressedsize](function.zip-entry-compressedsize.md) — Повертає стислий розмір файлу для дескриптора директорії
+    -   [zipentrycompressionmethod](function.zip-entry-compressionmethod.md) — Повертає метод стиснення дескриптора директорії
+    -   [zipentryfilesize](function.zip-entry-filesize.md) — Повертає реальний розмір файлу для дескриптора директорії
+    -   [zipentryname](function.zip-entry-name.md) — Отримує ім'я дескриптора директорії
+    -   [zipentryopen](function.zip-entry-open.md) — Відкриває директорію для читання
+    -   [zipentryread](function.zip-entry-read.md) — Читає дані із відкритого раніше дескриптора директорії
+    -   [zipopen](function.zip-open.md) - Відкриває ZIP-архів
+    -   [zipread](function.zip-read.md) — Зчитує наступний запис у ZIP-архіві

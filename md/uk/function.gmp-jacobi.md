@@ -56,5 +56,5 @@ echo gmp_jacobi("2", "3") . "\n";
 
 ### Дивіться також
 
--   [gmpkronecker()](function.gmp-kronecker.html) - Символ Кронекера - Якобі
--   [gmplegendre()](function.gmp-legendre.html) - Символ Лежандра
+-   [gmpkronecker()](function.gmp-kronecker.md) - Символ Кронекера - Якобі
+-   [gmplegendre()](function.gmp-legendre.md) - Символ Лежандра

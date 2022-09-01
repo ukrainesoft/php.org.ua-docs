@@ -75,6 +75,6 @@ if ($response && xmlrpc_is_fault($response)) {
 
 ### Дивіться також
 
--   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку
--   [filegetcontents()](function.file-get-contents.html) - Читає вміст файлу в рядок
--   [xmlrpcdecode()](function.xmlrpc-decode.html) - Декодує XML у нативні типи PHP
+-   [streamcontextcreate()](function.stream-context-create.md) - Створює контекст потоку
+-   [filegetcontents()](function.file-get-contents.md) - Читає вміст файлу в рядок
+-   [xmlrpcdecode()](function.xmlrpc-decode.md) - Декодує XML у нативні типи PHP

@@ -44,5 +44,5 @@ sem_acquire(SysvSemaphore $semaphore, bool $non_blocking = false): bool
 
 ### Дивіться також
 
--   [semget()](function.sem-get.html) - Отримання ідентифікатора семафору
--   [semrelease()](function.sem-release.html) - Звільнення семафору
+-   [semget()](function.sem-get.md) - Отримання ідентифікатора семафору
+-   [semrelease()](function.sem-release.md) - Звільнення семафору

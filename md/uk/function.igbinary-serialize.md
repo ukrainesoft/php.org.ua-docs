@@ -22,7 +22,7 @@ igbinary_serialize(mixed $value): string|false
 
 Корисно для зберігання або передачі значень PHP без втрати їх типу та структури.
 
-Щоб знову перетворити серіалізований рядок на значення PHP, можна використовувати [igbinaryunserialize()](function.igbinary-unserialize.html)
+Щоб знову перетворити серіалізований рядок на значення PHP, можна використовувати [igbinaryunserialize()](function.igbinary-unserialize.md)
 
 ### Список параметрів
 
@@ -30,7 +30,7 @@ igbinary_serialize(mixed $value): string|false
 
 Значення, яке потрібно серіалізувати . **igbinaryserialize()** обробляє всі типи, крім ресурсів (resource) та деяких об'єктів (object) (див. примітку нижче). Навіть масиви (array), що містять посилання на себе, можуть бути серіалізовані функцією **igbinaryserialize()**. Циклічні посилання всередині масивів (array) або об'єктів (object), що серіалізуються, також будуть збережені. Будь-яке інше посилання буде втрачено.
 
-При серіалізації об'єктів, igbinary намагатиметься викликати функції [serialize()](language.oop5.magic.html#object.serialize) або [sleep()](language.oop5.magic.html#object.sleep) перед серіалізацією. Це дозволить об'єкту виконати будь-яку очистку в останню хвилину тощо. перед серіалізацією. Аналогічно, коли об'єкт відновлюється за допомогою [igbinaryunserialize()](function.igbinary-unserialize.html), викликається функція [unserialize()](language.oop5.magic.html#object.unserialize) або [wakeup()](language.oop5.magic.html#object.wakeup)
+При серіалізації об'єктів, igbinary намагатиметься викликати функції [serialize()](language.oop5.magic.html#object.serialize) або [sleep()](language.oop5.magic.html#object.sleep) перед серіалізацією. Це дозволить об'єкту виконати будь-яку очистку в останню хвилину тощо. перед серіалізацією. Аналогічно, коли об'єкт відновлюється за допомогою [igbinaryunserialize()](function.igbinary-unserialize.md), викликається функція [unserialize()](language.oop5.magic.html#object.unserialize) або [wakeup()](language.oop5.magic.html#object.wakeup)
 
 > **Зауваження**
 > 
@@ -75,9 +75,9 @@ array (
 ### Дивіться також
 
 -   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
--   [igbinaryunserialize()](function.igbinary-unserialize.html) - Створює значення PHP із збереженого уявлення функцією igbinaryserialize
--   [varexport()](function.var-export.html) - Виводить або повертає інтерпретоване рядкове подання змінної
--   [jsonencode()](function.json-encode.html) - Повертає JSON-подання даних
+-   [igbinaryunserialize()](function.igbinary-unserialize.md) - Створює значення PHP із збереженого уявлення функцією igbinaryserialize
+-   [varexport()](function.var-export.md) - Виводить або повертає інтерпретоване рядкове подання змінної
+-   [jsonencode()](function.json-encode.md) - Повертає JSON-подання даних
 -   [Серіалізація об'єктів](language.oop5.serialization.md)
 -   [sleep()](language.oop5.magic.html#object.sleep)
 -   [wakeup()](language.oop5.magic.html#object.wakeup)

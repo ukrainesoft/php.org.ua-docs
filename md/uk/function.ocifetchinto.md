@@ -10,11 +10,11 @@ title: ocifetchinto
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocifetchinto - Застарілий варіант функцій [ocifetcharray()](function.oci-fetch-array.html) [ocifetchobject()](function.oci-fetch-object.html) [ocifetchassoc()](function.oci-fetch-assoc.html) і [ocifetchrow()](function.oci-fetch-row.html)
+ocifetchinto - Застарілий варіант функцій [ocifetcharray()](function.oci-fetch-array.html) [ocifetchobject()](function.oci-fetch-object.html) [ocifetchassoc()](function.oci-fetch-assoc.html) і [ocifetchrow()](function.oci-fetch-row.md)
 
 ### Опис
 
-Застарілий варіант функцій [ocifetcharray()](function.oci-fetch-array.html) [ocifetchobject()](function.oci-fetch-object.html) [ocifetchassoc()](function.oci-fetch-assoc.html) і [ocifetchrow()](function.oci-fetch-row.html)
+Застарілий варіант функцій [ocifetcharray()](function.oci-fetch-array.html) [ocifetchobject()](function.oci-fetch-object.html) [ocifetchassoc()](function.oci-fetch-assoc.html) і [ocifetchrow()](function.oci-fetch-row.md)
 
 **Увага**
 

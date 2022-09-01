@@ -22,7 +22,7 @@ final public MongoDB\BSON\Int64::unserialize(string $serialized): void
 
 `serialized`
 
-Серіалізований [MongoDBBSONInt64](class.mongodb-bson-int64.html)
+Серіалізований [MongoDBBSONInt64](class.mongodb-bson-int64.md)
 
 ### Значення, що повертаються
 
@@ -30,12 +30,12 @@ final public MongoDB\BSON\Int64::unserialize(string $serialized): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Видає виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)якщо властивості не можуть бути не серіалізовані (тобто `serialized` був неправильно сформований).
--   Видає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)якщо властивості неприпустимі (наприклад, відсутні поля або неприпустимі значення).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Видає виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)якщо властивості не можуть бути не серіалізовані (тобто `serialized` був неправильно сформований).
+-   Видає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)якщо властивості неприпустимі (наприклад, відсутні поля або неприпустимі значення).
 
 ### Дивіться також
 
--   [MongoDBBSONInt64::serialize()](mongodb-bson-int64.serialize.html) - Серіалізує Int64
+-   [MongoDBBSONInt64::serialize()](mongodb-bson-int64.serialize.md) - Серіалізує Int64
 -   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

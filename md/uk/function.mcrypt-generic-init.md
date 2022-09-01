@@ -22,7 +22,7 @@ mcryptgenericinit — Функція ініціалізує всі буфери,
 mcrypt_generic_init(resource $td, string $key, string $iv): int
 ```
 
-Ви повинні викликати цю функцію перед будь-яким викликом [mcryptgeneric()](function.mcrypt-generic.html) або [mdecryptgeneric()](function.mdecrypt-generic.html)
+Ви повинні викликати цю функцію перед будь-яким викликом [mcryptgeneric()](function.mcrypt-generic.html) або [mdecryptgeneric()](function.mdecrypt-generic.md)
 
 ### Список параметрів
 
@@ -32,11 +32,11 @@ mcrypt_generic_init(resource $td, string $key, string $iv): int
 
 `key`
 
-Максимальна довжина ключа має бути отримана за допомогою функції [mcryptencgetkeysize()](function.mcrypt-enc-get-key-size.html) та будь-яке менше значення припустимо.
+Максимальна довжина ключа має бути отримана за допомогою функції [mcryptencgetkeysize()](function.mcrypt-enc-get-key-size.md) та будь-яке менше значення припустимо.
 
 `iv`
 
-Зазвичай розмір вектора (IV), що ініціалізує, повинен збігатися з розміром блоку, але ви все одно повинні отримати це значення за допомогою функції [mcryptencgetвербsize()](function.mcrypt-enc-get-iv-size.html). IV ігнорується до ECB. IV ПОВИНЕН бути присутнім у режимах CFB, CBC, STREAM, nOFB та OFB. Він має бути випадковим та унікальним (але не обов'язково секретним). Один і той же IV повинен використовуватися як при шифруванні, так і при дешифруванні. Якщо ви не бажаєте його використовувати - просто встановіть його рівним нулю, але так чинити не рекомендується.
+Зазвичай розмір вектора (IV), що ініціалізує, повинен збігатися з розміром блоку, але ви все одно повинні отримати це значення за допомогою функції [mcryptencgetвербsize()](function.mcrypt-enc-get-iv-size.md). IV ігнорується до ECB. IV ПОВИНЕН бути присутнім у режимах CFB, CBC, STREAM, nOFB та OFB. Він має бути випадковим та унікальним (але не обов'язково секретним). Один і той же IV повинен використовуватися як при шифруванні, так і при дешифруванні. Якщо ви не бажаєте його використовувати - просто встановіть його рівним нулю, але так чинити не рекомендується.
 
 ### Значення, що повертаються
 
@@ -44,4 +44,4 @@ mcrypt_generic_init(resource $td, string $key, string $iv): int
 
 ### Дивіться також
 
--   [mcryptmoduleopen()](function.mcrypt-module-open.html) - Відкриває модуль шифрування з використанням вказаних алгоритму та режиму
+-   [mcryptmoduleopen()](function.mcrypt-module-open.md) - Відкриває модуль шифрування з використанням вказаних алгоритму та режиму

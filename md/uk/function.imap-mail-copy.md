@@ -24,7 +24,7 @@ imap_mail_copy(    IMAP\Connection $imap,    string $message_nums,   
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `message_nums`
 
@@ -32,7 +32,7 @@ imap_mail_copy(    IMAP\Connection $imap,    string $message_nums,   
 
 `mailbox`
 
-Ім'я поштової скриньки. Докладніше читайте у розділі, присвяченому функції [imapopen()](function.imap-open.html)
+Ім'я поштової скриньки. Докладніше читайте у розділі, присвяченому функції [imapopen()](function.imap-open.md)
 
 **Увага**
 
@@ -43,7 +43,7 @@ imap_mail_copy(    IMAP\Connection $imap,    string $message_nums,   
 `flags` - бітова маска однієї або кількох констант:
 
 -   **`CP_UID`** - означає, що у першому параметрі не номери повідомлень, які UID.
--   **`CP_MOVE`** - Видалити оригінальні повідомлення після копіювання. Якщо цей прапор встановлено, функція поводиться ідентично до функції [imapmailmove()](function.imap-mail-move.html)
+-   **`CP_MOVE`** - Видалити оригінальні повідомлення після копіювання. Якщо цей прапор встановлено, функція поводиться ідентично до функції [imapmailmove()](function.imap-mail-move.md)
 
 ### Значення, що повертаються
 
@@ -53,8 +53,8 @@ imap_mail_copy(    IMAP\Connection $imap,    string $message_nums,   
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [imapmailmove()](function.imap-mail-move.html) - Перемістити вказані повідомлення у вказану поштову скриньку
+-   [imapmailmove()](function.imap-mail-move.md) - Перемістити вказані повідомлення у вказану поштову скриньку

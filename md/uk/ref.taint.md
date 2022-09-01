@@ -10,6 +10,6 @@ title: Функції Taint
 
 ## Зміст
 
--   [ісtainted](function.is-tainted.html) — Перевіряє, чи зіпсований рядок
+-   [ісtainted](function.is-tainted.md) — Перевіряє, чи зіпсований рядок
 -   [taint](function.taint.md) — Зіпсувати рядок
 -   [untaint](function.untaint.md) - Виправити рядок

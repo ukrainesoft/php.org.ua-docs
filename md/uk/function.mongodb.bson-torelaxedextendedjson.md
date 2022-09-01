@@ -32,7 +32,7 @@ MongoDB\BSON\toRelaxedExtendedJSON(string $bson): string
 
 ### Помилки
 
--   Виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html) викидається, якщо вхідні дані не є одним документом BSON. Можливі причини включають, але не обмежені некоректним BSON, зайвими даними або несподіваною помилкою [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)
+-   Виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md) викидається, якщо вхідні дані не є одним документом BSON. Можливі причини включають, але не обмежені некоректним BSON, зайвими даними або несподіваною помилкою [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)
 
 ### Приклади
 
@@ -101,7 +101,7 @@ foreach ($documents as $document) {
 
 ### Дивіться також
 
--   [MongoDBBSONfromJSON()](function.mongodb.bson-fromjson.html) - Повертає подання BSON значення JSON
--   [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.html) - Повертає Canonical Extended JSON подання для значення BSON
+-   [MongoDBBSONfromJSON()](function.mongodb.bson-fromjson.md) - Повертає подання BSON значення JSON
+-   [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md) - Повертає Canonical Extended JSON подання для значення BSON
 -   [» Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst)
 -   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

@@ -18,7 +18,7 @@ zookeeperdispatch — Викликати callback-функції для опер
 zookeeper_dispatch(): void
 ```
 
-Функція **zookeeperdispatch()** викликає callback-функції, передані операціями, такими як [Zookeeper::get()](zookeeper.get.html) або [Zookeeper::exists()](zookeeper.exists.html)
+Функція **zookeeperdispatch()** викликає callback-функції, передані операціями, такими як [Zookeeper::get()](zookeeper.get.html) або [Zookeeper::exists()](zookeeper.exists.md)
 
 **Застереження**
 
@@ -79,10 +79,10 @@ while(true) {
 
 ### Дивіться також
 
--   [Zookeeper::addAuth()](zookeeper.addauth.html) - Вказує облікові дані програми
--   [Zookeeper::connect()](zookeeper.connect.html) - Створює дескриптор для спілкування з zookeeper
--   [Zookeeper::construct()](zookeeper.construct.html) - Створює дескриптор для спілкування з zookeeper
--   [Zookeeper::exists()](zookeeper.exists.html) - Синхронно перевіряє наявність вузла в zookeeper
--   [Zookeeper::get()](zookeeper.get.html) - Синхронно отримує дані, пов'язані з вузлом
--   [Zookeeper::getChildren()](zookeeper.getchildren.html) - Виводить список нащадків вузла синхронно
--   [Zookeeper::setWatcher()](zookeeper.setwatcher.html) - Встановлює функцію спостерігача
+-   [Zookeeper::addAuth()](zookeeper.addauth.md) - Вказує облікові дані програми
+-   [Zookeeper::connect()](zookeeper.connect.md) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::construct()](zookeeper.construct.md) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::exists()](zookeeper.exists.md) - Синхронно перевіряє наявність вузла в zookeeper
+-   [Zookeeper::get()](zookeeper.get.md) - Синхронно отримує дані, пов'язані з вузлом
+-   [Zookeeper::getChildren()](zookeeper.getchildren.md) - Виводить список нащадків вузла синхронно
+-   [Zookeeper::setWatcher()](zookeeper.setwatcher.md) - Встановлює функцію спостерігача

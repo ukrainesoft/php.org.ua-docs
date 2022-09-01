@@ -36,4 +36,4 @@ gmp_lcm(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ### Дивіться також
 
--   [gmpgcd()](function.gmp-gcd.html) - Обчислення найбільшого спільного дільника
+-   [gmpgcd()](function.gmp-gcd.md) - Обчислення найбільшого спільного дільника

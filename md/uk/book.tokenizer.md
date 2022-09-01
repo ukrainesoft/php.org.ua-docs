@@ -24,5 +24,5 @@ title: Лексер (Tokenizer)
     -   [PhpToken::toString](phptoken.tostring.md) — Повертає текстовий вміст токена
     -   [PhpToken::tokenize](phptoken.tokenize.md) — Розбирає заданий рядок, що містить програму на PHP, масив об'єктів PhpToken
 -   [Функции PHP-лексера (tokenizer)](ref.tokenizer.md)
-    -   [tokengetall](function.token-get-all.html) — Розбиває переданий вихідний код на PHP-лексеми
-    -   [tokenname](function.token-name.html) — Отримати символьне ім'я для переданої PHP-лексеми
+    -   [tokengetall](function.token-get-all.md) — Розбиває переданий вихідний код на PHP-лексеми
+    -   [tokenname](function.token-name.md) — Отримати символьне ім'я для переданої PHP-лексеми

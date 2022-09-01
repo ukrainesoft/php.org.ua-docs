@@ -40,7 +40,7 @@ tidy_repair_file(    string $filename,    array|string|null $config = nu
 
 Налаштування `config` можуть бути задані у вигляді масиву чи рядка. Якщо заданий рядок, він інтерпретується як ім'я файлу конфігурації, інакше, параметр інтерпретується як самі настройки.
 
-Інформацію про кожен параметр можна знайти тут: [http://tidy.sourceforge.net/docs/quickref.html](http://tidy.sourceforge.net/docs/quickref.html)
+Інформацію про кожен параметр можна знайти тут: [http://tidy.sourceforge.net/docs/quickref.html](http://tidy.sourceforge.net/docs/quickref.md)
 
 `encoding`
 

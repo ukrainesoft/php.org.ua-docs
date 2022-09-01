@@ -20,7 +20,7 @@ public OCILob::writeTemporary(string $data, int $type = OCI_TEMP_CLOB): bool
 
 Створює великий тимчасовий об'єкт і записує в нього дані `data`
 
-Після завершення роботи з цим об'єктом його бажано закрити функцією [OCILob::close](ocilob.close.html)
+Після завершення роботи з цим об'єктом його бажано закрити функцією [OCILob::close](ocilob.close.md)
 
 ### Список параметрів
 
@@ -43,8 +43,8 @@ public OCILob::writeTemporary(string $data, int $type = OCI_TEMP_CLOB): bool
 
 | Версия | Описание |
 | --- | --- |
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
--   [OCILob::close](ocilob.close.html)
+-   [OCILob::close](ocilob.close.md)

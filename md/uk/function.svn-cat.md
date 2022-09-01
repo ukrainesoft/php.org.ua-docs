@@ -55,4 +55,4 @@ $contents = svn_cat('http://www.example.com/svnroot/calc/gui.c', 28)
 ### Дивіться також
 
 -   **svnlist()**
--   [» SVN-документация по svn cat](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.cat.html)
+-   [» SVN-документация по svn cat](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.cat.md)

@@ -57,11 +57,11 @@ mqseries_cmit(resource $hconn, resource &$compCode, resource &$reason): void
 
 > **Зауваження**
 > 
-> [mqseriesback()](function.mqseries-back.html) не працює, якщо для з'єднання з менеджером черг використовується MQSeries Client.
+> [mqseriesback()](function.mqseries-back.md) не працює, якщо для з'єднання з менеджером черг використовується MQSeries Client.
 
 ### Дивіться також
 
--   [mqseriesbegin()](function.mqseries-begin.html) - MQseries MQBEGIN
--   [mqseriesback()](function.mqseries-back.html) - MQSeries MQBACK
--   [mqseriesconn()](function.mqseries-conn.html) - MQSeries MQCONN
--   [mqseriesconnx()](function.mqseries-connx.html) - MQSeries MQCONNX
+-   [mqseriesbegin()](function.mqseries-begin.md) - MQseries MQBEGIN
+-   [mqseriesback()](function.mqseries-back.md) - MQSeries MQBACK
+-   [mqseriesconn()](function.mqseries-conn.md) - MQSeries MQCONN
+-   [mqseriesconnx()](function.mqseries-connx.md) - MQSeries MQCONNX

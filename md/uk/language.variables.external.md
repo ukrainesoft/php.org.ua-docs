@@ -116,7 +116,7 @@ $varname.ext;  /* неверное имя переменной */
 
 ### Визначення типів змінних
 
-Оскільки PHP визначає типи змінних і перетворює їх (як правило) у міру необхідності, не завжди очевидно, який тип має змінна в будь-який момент часу. PHP містить кілька функцій, що дозволяють визначити тип змінної, таких як: [gettype()](function.gettype.md) [ісarray()](function.is-array.html) [ісfloat()](function.is-float.html) [ісint()](function.is-int.html) [ісobject()](function.is-object.html) і [ісstring()](function.is-string.html). Дивіться також розділ [Типи](language.types.md)
+Оскільки PHP визначає типи змінних і перетворює їх (як правило) у міру необхідності, не завжди очевидно, який тип має змінна в будь-який момент часу. PHP містить кілька функцій, що дозволяють визначити тип змінної, таких як: [gettype()](function.gettype.md) [ісarray()](function.is-array.html) [ісfloat()](function.is-float.html) [ісint()](function.is-int.html) [ісobject()](function.is-object.html) і [ісstring()](function.is-string.md). Дивіться також розділ [Типи](language.types.md)
 
 HTTP є текстовим протоколом, і більшість, якщо не все, вміст, що надходить в [суперглобальні масиви](language.variables.superglobals.md), наприклад, [POST](reserved.variables.post.md) і [GET](reserved.variables.get.md)залишиться у вигляді рядків. PHP не перетворюватиме значення на певний тип. У наведеному нижче прикладі [GET\["var1"\]](reserved.variables.get.md) міститиме рядок "null", а [GET\["var2"\]](reserved.variables.get.md) - Рядок "123".
 

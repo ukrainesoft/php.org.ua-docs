@@ -53,4 +53,4 @@ svn_export($working_dir, $new_working_dir);
 
 ### Дивіться також
 
--   [svnimport()](function.svn-import.html) - Імпорт шляху без версії до репозиторії
+-   [svnimport()](function.svn-import.md) - Імпорт шляху без версії до репозиторії

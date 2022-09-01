@@ -40,7 +40,7 @@ callback(mixed $a, mixed $b): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання [ДсMap::sort()](ds-map.sort.html)**
+**Приклад #1 Приклад використання [ДсMap::sort()](ds-map.sort.md)**
 
 ```php
 <?php
@@ -76,7 +76,7 @@ Ds\Map Object
 )
 ```
 
-**Приклад #2 Приклад використання [ДсMap::sort()](ds-map.sort.html) з callback-функцією порівняння**
+**Приклад #2 Приклад використання [ДсMap::sort()](ds-map.sort.md) з callback-функцією порівняння**
 
 ```php
 <?php

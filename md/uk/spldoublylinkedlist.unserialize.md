@@ -18,7 +18,7 @@ SplDoublyLinkedList::unserialize — Десеріалізує сховище
 public SplDoublyLinkedList::unserialize(string $data): void
 ```
 
-Десеріалізує сховище з рядкового подання, отриманого за допомогою [SplDoublyLinkedList::serialize()](spldoublylinkedlist.serialize.html)
+Десеріалізує сховище з рядкового подання, отриманого за допомогою [SplDoublyLinkedList::serialize()](spldoublylinkedlist.serialize.md)
 
 **Увага**
 
@@ -36,4 +36,4 @@ public SplDoublyLinkedList::unserialize(string $data): void
 
 ### Дивіться також
 
--   [SplDoublyLinkedList::serialize()](spldoublylinkedlist.serialize.html) - Серіалізує сховище
+-   [SplDoublyLinkedList::serialize()](spldoublylinkedlist.serialize.md) - Серіалізує сховище

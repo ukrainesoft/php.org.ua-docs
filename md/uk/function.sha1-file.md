@@ -55,5 +55,5 @@ foreach(glob('/home/Kalle/myproject/*.php') as $ent)
 ### Дивіться також
 
 -   [sha1()](function.sha1.md) - Повертає SHA1-хеш рядки
--   [md5file()](function.md5-file.html) - Повертає MD5-хеш файлу
+-   [md5file()](function.md5-file.md) - Повертає MD5-хеш файлу
 -   [crc32()](function.crc32.md) - Обчислює поліном CRC32 для рядка

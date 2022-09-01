@@ -12,9 +12,9 @@ title: Клас IntlPartsIterator
 
 ## Вступ
 
-Об'єкти цього класу можна отримати з об'єктів [IntlBreakIterator](class.intlbreakiterator.html). Поки ітератор переривання надає послідовність обмежувачів, можна отримати **IntlPartsIterator** для зручності одержання текстових фрагментів між двома обмежувачами.
+Об'єкти цього класу можна отримати з об'єктів [IntlBreakIterator](class.intlbreakiterator.md). Поки ітератор переривання надає послідовність обмежувачів, можна отримати **IntlPartsIterator** для зручності одержання текстових фрагментів між двома обмежувачами.
 
-Ключі можуть бути зміщення від лівого або правого обмежувача або можуть бути просто послідовністю натуральних чисел. Дивіться [IntlBreakIterator::getPartsIterator()](intlbreakiterator.getpartsiterator.html)
+Ключі можуть бути зміщення від лівого або правого обмежувача або можуть бути просто послідовністю натуральних чисел. Дивіться [IntlBreakIterator::getPartsIterator()](intlbreakiterator.getpartsiterator.md)
 
 ## Огляд класів
 
@@ -74,4 +74,4 @@ public IntlIterator::valid(): bool
 
 ## Зміст
 
--   [IntlPartsIterator::getBreakIterator](intlpartsiterator.getbreakiterator.html) — Отримати IntlBreakIterator, зберігаючи ітератор цієї частини
+-   [IntlPartsIterator::getBreakIterator](intlpartsiterator.getbreakiterator.md) — Отримати IntlBreakIterator, зберігаючи ітератор цієї частини

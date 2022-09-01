@@ -10,8 +10,8 @@ title: fbirdrollback
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdrollback - Псевдонім [ibaserollback()](function.ibase-rollback.html)
+fbirdrollback - Псевдонім [ibaserollback()](function.ibase-rollback.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibaserollback()](function.ibase-rollback.html)
+Ця функція є псевдонімом: [ibaserollback()](function.ibase-rollback.md)

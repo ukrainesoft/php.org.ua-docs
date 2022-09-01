@@ -117,5 +117,5 @@ a
 
 ### Дивіться також
 
--   [getclassmethods()](function.get-class-methods.html) - Повертає масив імен методів класу
--   [getobjectvars()](function.get-object-vars.html) - Повертає властивості вказаного об'єкту
+-   [getclassmethods()](function.get-class-methods.md) - Повертає масив імен методів класу
+-   [getobjectvars()](function.get-object-vars.md) - Повертає властивості вказаного об'єкту

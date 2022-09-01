@@ -24,7 +24,7 @@ ps_setdash(resource $psdoc, float $on, float $off): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `on`
 
@@ -40,4 +40,4 @@ ps_setdash(resource $psdoc, float $on, float $off): bool
 
 ### Дивіться також
 
--   [псsetpolydash()](function.ps-setpolydash.html) - Встановлює зовнішній вигляд пунктирної лінії
+-   [псsetpolydash()](function.ps-setpolydash.md) - Встановлює зовнішній вигляд пунктирної лінії

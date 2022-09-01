@@ -44,8 +44,8 @@ public getReflector(): ReflectionMethod
 
 ## Зміст
 
--   [ComponereMethod::construct](componere-method.construct.html) - Конструктор класу Method
--   [ComponereMethod::setPrivate](componere-method.setprivate.html) — Зміна доступності
--   [ComponereMethod::setProtected](componere-method.setprotected.html) — Зміна доступності
--   [ComponereMethod::setStatic](componere-method.setstatic.html) — Зміна доступності
--   [ComponereMethod::getReflector](componere-method.getreflector.html) - Reflection
+-   [ComponereMethod::construct](componere-method.construct.md) - Конструктор класу Method
+-   [ComponereMethod::setPrivate](componere-method.setprivate.md) — Зміна доступності
+-   [ComponereMethod::setProtected](componere-method.setprotected.md) — Зміна доступності
+-   [ComponereMethod::setStatic](componere-method.setstatic.md) — Зміна доступності
+-   [ComponereMethod::getReflector](componere-method.getreflector.md) - Reflection

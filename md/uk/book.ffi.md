@@ -16,9 +16,9 @@ title: Інтерфейс зовнішньої функції (Foreign Function 
     -   [Типи ресурсів](ffi.resources.md)
 -   [Обумовлені константи](ffi.constants.md)
 -   [Приклади](ffi.examples.md)
-    -   [Прості приклади використання FFI](ffi.examples-basic.html)
-    -   [Callback-функции PHP](ffi.examples-callback.html)
-    -   [Комплексний приклад PHP/FFI/preloading](ffi.examples-complete.html)
+    -   [Прості приклади використання FFI](ffi.examples-basic.md)
+    -   [Callback-функции PHP](ffi.examples-callback.md)
+    -   [Комплексний приклад PHP/FFI/preloading](ffi.examples-complete.md)
 -   [FFI](class.ffi.md) — Основний інтерфейс до коду та даних C
     -   [FFI::addr](ffi.addr.md) — Створює некерований покажчик даних C
     -   [FFI::alignof](ffi.alignof.md) - Повертає величину вирівнювання
@@ -37,23 +37,23 @@ title: Інтерфейс зовнішньої функції (Foreign Function 
     -   [FFI::string](ffi.string.md) — Створює рядок PHP із області пам'яті
     -   [FFI::type](ffi.type.md) — Створює об'єкт FFICType із декларації С
     -   [FFI::typeof](ffi.typeof.md) — Отримує FFICType для FFICData
--   [FFICData](class.ffi-cdata.html) — Доступ до даних C
--   [FFICType](class.ffi-ctype.html) — Доступ до типів C
-    -   [FFICType::getAlignment](ffi-ctype.getalignment.html) - Опис
-    -   [FFICType::getArrayElementType](ffi-ctype.getarrayelementtype.html) - Опис
-    -   [FFICType::getArrayLength](ffi-ctype.getarraylength.html) - Опис
-    -   [FFICType::getAttributes](ffi-ctype.getattributes.html) - Опис
-    -   [FFICType::getEnumKind](ffi-ctype.getenumkind.html) - Опис
-    -   [FFICType::getFuncABI](ffi-ctype.getfuncabi.html) - Опис
-    -   [FFICType::getFuncParameterCount](ffi-ctype.getfuncparametercount.html) - Опис
-    -   [FFICType::getFuncParameterType](ffi-ctype.getfuncparametertype.html) - Опис
-    -   [FFICType::getFuncReturnType](ffi-ctype.getfuncreturntype.html) - Опис
-    -   [FFICType::getKind](ffi-ctype.getkind.html) - Опис
-    -   [FFICType::getName](ffi-ctype.getname.html) - Опис
-    -   [FFICType::getPointerType](ffi-ctype.getpointertype.html) - Опис
-    -   [FFICType::getSize](ffi-ctype.getsize.html) - Опис
-    -   [FFICType::getStructFieldNames](ffi-ctype.getstructfieldnames.html) - Опис
-    -   [FFICType::getStructFieldOffset](ffi-ctype.getstructfieldoffset.html) - Опис
-    -   [FFICType::getStructFieldType](ffi-ctype.getstructfieldtype.html) - Опис
--   [FFIException](class.ffi-exception.html) - Винятки FFI
--   [FFIParserException](class.ffi-parserexception.html) - Виключення парсера FFI
+-   [FFICData](class.ffi-cdata.md) — Доступ до даних C
+-   [FFICType](class.ffi-ctype.md) — Доступ до типів C
+    -   [FFICType::getAlignment](ffi-ctype.getalignment.md) - Опис
+    -   [FFICType::getArrayElementType](ffi-ctype.getarrayelementtype.md) - Опис
+    -   [FFICType::getArrayLength](ffi-ctype.getarraylength.md) - Опис
+    -   [FFICType::getAttributes](ffi-ctype.getattributes.md) - Опис
+    -   [FFICType::getEnumKind](ffi-ctype.getenumkind.md) - Опис
+    -   [FFICType::getFuncABI](ffi-ctype.getfuncabi.md) - Опис
+    -   [FFICType::getFuncParameterCount](ffi-ctype.getfuncparametercount.md) - Опис
+    -   [FFICType::getFuncParameterType](ffi-ctype.getfuncparametertype.md) - Опис
+    -   [FFICType::getFuncReturnType](ffi-ctype.getfuncreturntype.md) - Опис
+    -   [FFICType::getKind](ffi-ctype.getkind.md) - Опис
+    -   [FFICType::getName](ffi-ctype.getname.md) - Опис
+    -   [FFICType::getPointerType](ffi-ctype.getpointertype.md) - Опис
+    -   [FFICType::getSize](ffi-ctype.getsize.md) - Опис
+    -   [FFICType::getStructFieldNames](ffi-ctype.getstructfieldnames.md) - Опис
+    -   [FFICType::getStructFieldOffset](ffi-ctype.getstructfieldoffset.md) - Опис
+    -   [FFICType::getStructFieldType](ffi-ctype.getstructfieldtype.md) - Опис
+-   [FFIException](class.ffi-exception.md) - Винятки FFI
+-   [FFIParserException](class.ffi-parserexception.md) - Виключення парсера FFI

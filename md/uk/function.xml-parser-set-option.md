@@ -36,10 +36,10 @@ xml_parser_set_option(XMLParser $parser, int $option, string|int $value): bool
 
 | Константа | Тип данных | Описание |
 | --- | --- | --- |
-| **`XML_OPTION_CASE_FOLDING`** | integer | Чи потрібно включити [case-folding](xml.case-folding.html) для цього аналізатора. Увімкнено за замовчуванням. |
+| **`XML_OPTION_CASE_FOLDING`** | integer | Чи потрібно включити [case-folding](xml.case-folding.md) для цього аналізатора. Увімкнено за замовчуванням. |
 | **`XML_OPTION_SKIP_TAGSTART`** | integer | Задає кількість символів з початку імені тега, які потрібно пропустити. |
 | **`XML_OPTION_SKIP_WHITE`** | integer | Чи потрібно пропускати значення, що складаються з пропусків. |
-| **`XML_OPTION_TARGET_ENCODING`** | string | Встановлює [кодування](xml.encoding.md), яка буде використовуватися аналізатором XML. За промовчанням використовується кодування, задане під час виклику функції [xmlparsercreate()](function.xml-parser-create.html). Підтримуються кодування `ISO-8859-1` `US-ASCII` і `UTF-8` |
+| **`XML_OPTION_TARGET_ENCODING`** | string | Встановлює [кодування](xml.encoding.md), яка буде використовуватися аналізатором XML. За промовчанням використовується кодування, задане під час виклику функції [xmlparsercreate()](function.xml-parser-create.md). Підтримуються кодування `ISO-8859-1` `US-ASCII` і `UTF-8` |
 
 `value`
 

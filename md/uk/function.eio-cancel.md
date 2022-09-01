@@ -48,7 +48,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
 
@@ -91,4 +91,4 @@ my_nop 2
 
 ### Дивіться також
 
--   [eiogrpcancel()](function.eio-grp-cancel.html) - Скасує групу запитів
+-   [eiogrpcancel()](function.eio-grp-cancel.md) - Скасує групу запитів

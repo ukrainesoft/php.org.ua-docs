@@ -26,4 +26,4 @@ public LuaSandboxFunction::dump(): string
 
 ### Значення, що повертаються
 
-Повертає рядок, який може бути переданий [LuaSandbox::loadBinary()](luasandbox.loadbinary.html)
+Повертає рядок, який може бути переданий [LuaSandbox::loadBinary()](luasandbox.loadbinary.md)

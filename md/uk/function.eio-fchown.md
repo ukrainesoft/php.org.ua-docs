@@ -56,7 +56,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
 
@@ -64,8 +64,8 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Значення, що повертаються
 
-[eiochmod()](function.eio-chmod.html) повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
+[eiochmod()](function.eio-chmod.md) повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
--   [eiofchmod()](function.eio-fchmod.html) - Змінює права доступу до файлу
+-   [eiofchmod()](function.eio-fchmod.md) - Змінює права доступу до файлу

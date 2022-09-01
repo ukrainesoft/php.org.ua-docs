@@ -26,7 +26,7 @@ preg_quote(string $str, ?string $delimiter = null): string
 
 > **Зауваження**
 > 
-> Зверніть увагу, що **pregquote()** не призначена для застосування до рядків $replacement функції [pregreplace()](function.preg-replace.html) і т.д.
+> Зверніть увагу, що **pregquote()** не призначена для застосування до рядків $replacement функції [pregreplace()](function.preg-replace.md) і т.д.
 
 ### Список параметрів
 

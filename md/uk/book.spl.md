@@ -70,21 +70,21 @@ title: Стандартна бібліотека PHP (SPL)
     -   [UnderflowException](class.underflowexception.md) - Клас UnderflowException
     -   [UnexpectedValueException](class.unexpectedvalueexception.md) - Клас UnexpectedValueException
 -   [Функції SPL](ref.spl.md)
-    -   [classimplements](function.class-implements.html) — Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
-    -   [classparents](function.class-parents.html) - Повертає список батьківських класів заданого класу
-    -   [classuses](function.class-uses.html) — Повертає список трейтів, які використовуються заданим класом
-    -   [iteratorapply](function.iterator-apply.html) — Викликає функцію кожного елемента в ітераторі
-    -   [iteratorcount](function.iterator-count.html) — Підраховує кількість елементів в ітераторі
-    -   [iteratorтоarray](function.iterator-to-array.html) — Копіює ітератор у масив
-    -   [splautoloadcall](function.spl-autoload-call.html) — Спроба завантажити клас усіма зареєстрованими функціями autoload()
-    -   [splautoloadextensions](function.spl-autoload-extensions.html) — Реєстрація та виведення розширень файлів для splautoload
-    -   [splautoloadfunctions](function.spl-autoload-functions.html) — Отримати список усіх зареєстрованих функцій autoload()
-    -   [splautoloadregister](function.spl-autoload-register.html) — Реєструє задану функцію як реалізацію методу autoload()
-    -   [splautoloadunregister](function.spl-autoload-unregister.html) — Скасування реєстрації функції як реалізацію методу autoload()
-    -   [splautoload](function.spl-autoload.html) - Реалізація за умовчанням методу autoload()
-    -   [splclasses](function.spl-classes.html) — Повертає доступні класи SPL
-    -   [splobjecthash](function.spl-object-hash.html) — Повертає хеш-ідентифікатор для об'єкту
-    -   [splobjectід](function.spl-object-id.html) — Отримати цілий ідентифікатор об'єкта
+    -   [classimplements](function.class-implements.md) — Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
+    -   [classparents](function.class-parents.md) - Повертає список батьківських класів заданого класу
+    -   [classuses](function.class-uses.md) — Повертає список трейтів, які використовуються заданим класом
+    -   [iteratorapply](function.iterator-apply.md) — Викликає функцію кожного елемента в ітераторі
+    -   [iteratorcount](function.iterator-count.md) — Підраховує кількість елементів в ітераторі
+    -   [iteratorтоarray](function.iterator-to-array.md) — Копіює ітератор у масив
+    -   [splautoloadcall](function.spl-autoload-call.md) — Спроба завантажити клас усіма зареєстрованими функціями autoload()
+    -   [splautoloadextensions](function.spl-autoload-extensions.md) — Реєстрація та виведення розширень файлів для splautoload
+    -   [splautoloadfunctions](function.spl-autoload-functions.md) — Отримати список усіх зареєстрованих функцій autoload()
+    -   [splautoloadregister](function.spl-autoload-register.md) — Реєструє задану функцію як реалізацію методу autoload()
+    -   [splautoloadunregister](function.spl-autoload-unregister.md) — Скасування реєстрації функції як реалізацію методу autoload()
+    -   [splautoload](function.spl-autoload.md) - Реалізація за умовчанням методу autoload()
+    -   [splclasses](function.spl-classes.md) — Повертає доступні класи SPL
+    -   [splobjecthash](function.spl-object-hash.md) — Повертає хеш-ідентифікатор для об'єкту
+    -   [splobjectід](function.spl-object-id.md) — Отримати цілий ідентифікатор об'єкта
 -   [Обработка файлов](spl.files.md)
     -   [SplFileInfo](class.splfileinfo.md) - Клас SplFileInfo
     -   [SplFileObject](class.splfileobject.md) - Клас SplFileObject

@@ -18,7 +18,7 @@ MongoDBDriverExceptionWriteException::getWriteResult — Повертає WriteR
 final public MongoDB\Driver\Exception\WriteException::getWriteResult(): MongoDB\Driver\WriteResult
 ```
 
-Повертає об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html) для операції запису, що закінчилася помилкою. Більш детальну інформацію про помилку можна отримати за допомогою методів [MongoDBDriverWriteResult::getWriteErrors()](mongodb-driver-writeresult.getwriteerrors.html) і [MongoDBDriverWriteResult::getWriteConcernError()](mongodb-driver-writeresult.getwriteconcernerror.html)
+Повертає об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html) для операції запису, що закінчилася помилкою. Більш детальну інформацію про помилку можна отримати за допомогою методів [MongoDBDriverWriteResult::getWriteErrors()](mongodb-driver-writeresult.getwriteerrors.html) і [MongoDBDriverWriteResult::getWriteConcernError()](mongodb-driver-writeresult.getwriteconcernerror.md)
 
 ### Список параметрів
 
@@ -26,7 +26,7 @@ final public MongoDB\Driver\Exception\WriteException::getWriteResult(): MongoDB\
 
 ### Значення, що повертаються
 
-Об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html) для операції запису помилкою, що закінчилася.
+Об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md) для операції запису помилкою, що закінчилася.
 
 ### Приклади
 
@@ -77,5 +77,5 @@ array(1) {
 
 ### Дивіться також
 
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
--   [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html) - Виконує одну або кілька операцій запису
+-   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md)
+-   [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md) - Виконує одну або кілька операцій запису

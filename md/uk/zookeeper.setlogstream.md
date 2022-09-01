@@ -37,9 +37,9 @@ public
 
 **Застереження**
 
-Починаючи з версії 0.3.0, метод генерує виняток [ZookeeperException](class.zookeeperexception.html) та його похідні.
+Починаючи з версії 0.3.0, метод генерує виняток [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Дивіться також
 
--   [Zookeeper::setDebugLevel()](zookeeper.setdebuglevel.html) - Встановлює рівень логування для бібліотеки
--   [ZookeeperException](class.zookeeperexception.html)
+-   [Zookeeper::setDebugLevel()](zookeeper.setdebuglevel.md) - Встановлює рівень логування для бібліотеки
+-   [ZookeeperException](class.zookeeperexception.md)

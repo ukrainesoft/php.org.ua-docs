@@ -55,8 +55,8 @@ $im->pingImageFile($fp);
 
 ### Дивіться також
 
--   [Imagick::pingImage()](imagick.pingimage.html) - Отримує основні атрибути зображення
--   [Imagick::pingImageBlob()](imagick.pingimageblob.html) - Швидко витягує атрибути
--   [Imagick::readImage()](imagick.readimage.html) - Читає зображення із файлу
--   [Imagick::readImageBlob()](imagick.readimageblob.html) - Зчитує зображення з двійкового рядка
--   [Imagick::readImageFile()](imagick.readimagefile.html) - Читає зображення із відкритого дескриптора файлу
+-   [Imagick::pingImage()](imagick.pingimage.md) - Отримує основні атрибути зображення
+-   [Imagick::pingImageBlob()](imagick.pingimageblob.md) - Швидко витягує атрибути
+-   [Imagick::readImage()](imagick.readimage.md) - Читає зображення із файлу
+-   [Imagick::readImageBlob()](imagick.readimageblob.md) - Зчитує зображення з двійкового рядка
+-   [Imagick::readImageFile()](imagick.readimagefile.md) - Читає зображення із відкритого дескриптора файлу

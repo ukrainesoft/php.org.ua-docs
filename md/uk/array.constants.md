@@ -12,21 +12,21 @@ title: Обумовлені константи
 
 **`CASE_LOWER`** (int)
 
-**`CASE_LOWER`** використовується з [arraychangekeycase()](function.array-change-key-case.html) для конвертації ключів масиву у нижній регістр. Це дія за умовчанням для [arraychangekeycase()](function.array-change-key-case.html)
+**`CASE_LOWER`** використовується з [arraychangekeycase()](function.array-change-key-case.html) для конвертації ключів масиву у нижній регістр. Це дія за умовчанням для [arraychangekeycase()](function.array-change-key-case.md)
 
 **`CASE_UPPER`** (int)
 
-**`CASE_UPPER`** використовується c [arraychangekeycase()](function.array-change-key-case.html) для конвертації ключів масиву у верхній регістр.
+**`CASE_UPPER`** використовується c [arraychangekeycase()](function.array-change-key-case.md) для конвертації ключів масиву у верхній регістр.
 
 Прапори, що змінюють порядок сортування:
 
 **`SORT_ASC`** (int)
 
-**`SORT_ASC`** використовується з [arraymultisort()](function.array-multisort.html) для сортування у порядку зростання.
+**`SORT_ASC`** використовується з [arraymultisort()](function.array-multisort.md) для сортування у порядку зростання.
 
 **`SORT_DESC`** (int)
 
-**`SORT_DESC`** використовується з [arraymultisort()](function.array-multisort.html) для сортування в порядку зменшення.
+**`SORT_DESC`** використовується з [arraymultisort()](function.array-multisort.md) для сортування в порядку зменшення.
 
 Прапори сортування, що використовуються різними функціями:
 
@@ -58,11 +58,11 @@ title: Обумовлені константи
 
 **`ARRAY_FILTER_USE_KEY`** (int)
 
-**`ARRAY_FILTER_USE_KEY`** використовується у [arrayfilter()](function.array-filter.html) передачі кожного ключа як першого аргументу в задану функцію.
+**`ARRAY_FILTER_USE_KEY`** використовується у [arrayfilter()](function.array-filter.md) передачі кожного ключа як першого аргументу в задану функцію.
 
 **`ARRAY_FILTER_USE_BOTH`** (int)
 
-**`ARRAY_FILTER_USE_BOTH`** використовується у [arrayfilter()](function.array-filter.html) для передачі та значення та ключа в задану функцію.
+**`ARRAY_FILTER_USE_BOTH`** використовується у [arrayfilter()](function.array-filter.md) для передачі та значення та ключа в задану функцію.
 
 **`COUNT_NORMAL`** (int)
 

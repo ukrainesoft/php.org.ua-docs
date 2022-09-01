@@ -10,30 +10,30 @@ title: Драйвери PDO
 
 ## Зміст
 
--   [CUBRID (PDO)](ref.pdo-cubrid.html)
--   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.html)
--   [Firebird (PDO)](ref.pdo-firebird.html)
--   [IBM (PDO)](ref.pdo-ibm.html)
--   [Informix (PDO)](ref.pdo-informix.html)
--   [MySQL (PDO)](ref.pdo-mysql.html)
--   [MS SQL Server (PDO)](ref.pdo-sqlsrv.html)
--   [Oracle (PDO)](ref.pdo-oci.html)
--   [ODBC и DB2 (PDO)](ref.pdo-odbc.html)
--   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
--   [SQLite (PDO)](ref.pdo-sqlite.html)
+-   [CUBRID (PDO)](ref.pdo-cubrid.md)
+-   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.md)
+-   [Firebird (PDO)](ref.pdo-firebird.md)
+-   [IBM (PDO)](ref.pdo-ibm.md)
+-   [Informix (PDO)](ref.pdo-informix.md)
+-   [MySQL (PDO)](ref.pdo-mysql.md)
+-   [MS SQL Server (PDO)](ref.pdo-sqlsrv.md)
+-   [Oracle (PDO)](ref.pdo-oci.md)
+-   [ODBC и DB2 (PDO)](ref.pdo-odbc.md)
+-   [PostgreSQL (PDO)](ref.pdo-pgsql.md)
+-   [SQLite (PDO)](ref.pdo-sqlite.md)
 
 Наступні драйвери в даний час реалізовані в PDO:
 
 | Наименование драйвера | Поддерживаемые базы данных |
 | --- | --- |
-| [PDOCUBRID](ref.pdo-cubrid.html) | Cubrid |
-| [PDODBLIB](ref.pdo-dblib.html) | FreeTDS / Microsoft SQL Server / Sybase |
-| [PDOFIREBIRD](ref.pdo-firebird.html) | Firebird |
-| [PDOIBM](ref.pdo-ibm.html) | IBM DB2 |
-| [PDOINFORMIX](ref.pdo-informix.html) | IBM Informix Dynamic Server |
-| [PDOMYSQL](ref.pdo-mysql.html) | MySQL 3.x/4.x/5.x |
-| [PDOOCI](ref.pdo-oci.html) | Oracle Call Interface |
-| [PDOODBC](ref.pdo-odbc.html) | ODBC v3 (IBM DB2, unixODBC та win32 ODBC) |
-| [PDOPGSQL](ref.pdo-pgsql.html) | PostgreSQL |
-| [PDOSQLITE](ref.pdo-sqlite.html) | SQLite 3 та SQLite 2 |
-| [PDOSQLSRV](ref.pdo-sqlsrv.html) | Microsoft SQL Server / SQL Azure |
+| [PDOCUBRID](ref.pdo-cubrid.md) | Cubrid |
+| [PDODBLIB](ref.pdo-dblib.md) | FreeTDS / Microsoft SQL Server / Sybase |
+| [PDOFIREBIRD](ref.pdo-firebird.md) | Firebird |
+| [PDOIBM](ref.pdo-ibm.md) | IBM DB2 |
+| [PDOINFORMIX](ref.pdo-informix.md) | IBM Informix Dynamic Server |
+| [PDOMYSQL](ref.pdo-mysql.md) | MySQL 3.x/4.x/5.x |
+| [PDOOCI](ref.pdo-oci.md) | Oracle Call Interface |
+| [PDOODBC](ref.pdo-odbc.md) | ODBC v3 (IBM DB2, unixODBC та win32 ODBC) |
+| [PDOPGSQL](ref.pdo-pgsql.md) | PostgreSQL |
+| [PDOSQLITE](ref.pdo-sqlite.md) | SQLite 3 та SQLite 2 |
+| [PDOSQLSRV](ref.pdo-sqlsrv.md) | Microsoft SQL Server / SQL Azure |

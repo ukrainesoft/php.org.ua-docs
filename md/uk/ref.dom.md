@@ -10,4 +10,4 @@ title: Функції DOM
 
 ## Зміст
 
--   [domimportsimplexml](function.dom-import-simplexml.html) — Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement
+-   [domimportsimplexml](function.dom-import-simplexml.md) — Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement

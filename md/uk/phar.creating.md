@@ -10,4 +10,4 @@ title: Створення Phar-архівів
 
 ## Зміст
 
--   [Создание Phar-архивов: Введение](phar.creating.intro.html)
+-   [Создание Phar-архивов: Введение](phar.creating.intro.md)

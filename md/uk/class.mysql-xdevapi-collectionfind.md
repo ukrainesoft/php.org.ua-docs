@@ -45,14 +45,14 @@ public sort(string $sort_expr): mysql_xdevapi\CollectionFind
 
 ## Зміст
 
--   [CollectionFind::bind](mysql-xdevapi-collectionfind.bind.html) — Прив'язує значення до заповнювача запиту
--   [CollectionFind::construct](mysql-xdevapi-collectionfind.construct.html) - Конструктор класу CollectionFind
--   [CollectionFind::execute](mysql-xdevapi-collectionfind.execute.html) - Виконує твердження
--   [CollectionFind::fields](mysql-xdevapi-collectionfind.fields.html) — Встановлює фільтр поля документа
--   [CollectionFind::groupBy](mysql-xdevapi-collectionfind.groupby.html) - Встановлює критерії угруповання
--   [CollectionFind::having](mysql-xdevapi-collectionfind.having.html) - Встановлює умову для агрегатних функцій
--   [CollectionFind::limit](mysql-xdevapi-collectionfind.limit.html) — Обмежує кількість документів, що повертаються.
--   [CollectionFind::lockExclusive](mysql-xdevapi-collectionfind.lockexclusive.html) - Виконує операцію з EXCLUSIVE LOCK
--   [CollectionFind::lockShared](mysql-xdevapi-collectionfind.lockshared.html) - Виконує операцію з SHARED LOCK
--   [CollectionFind::offset](mysql-xdevapi-collectionfind.offset.html) — Пропускає вказану кількість елементів, що повертаються.
--   [CollectionFind::sort](mysql-xdevapi-collectionfind.sort.html) - Встановлює критерії сортування
+-   [CollectionFind::bind](mysql-xdevapi-collectionfind.bind.md) — Прив'язує значення до заповнювача запиту
+-   [CollectionFind::construct](mysql-xdevapi-collectionfind.construct.md) - Конструктор класу CollectionFind
+-   [CollectionFind::execute](mysql-xdevapi-collectionfind.execute.md) - Виконує твердження
+-   [CollectionFind::fields](mysql-xdevapi-collectionfind.fields.md) — Встановлює фільтр поля документа
+-   [CollectionFind::groupBy](mysql-xdevapi-collectionfind.groupby.md) - Встановлює критерії угруповання
+-   [CollectionFind::having](mysql-xdevapi-collectionfind.having.md) - Встановлює умову для агрегатних функцій
+-   [CollectionFind::limit](mysql-xdevapi-collectionfind.limit.md) — Обмежує кількість документів, що повертаються.
+-   [CollectionFind::lockExclusive](mysql-xdevapi-collectionfind.lockexclusive.md) - Виконує операцію з EXCLUSIVE LOCK
+-   [CollectionFind::lockShared](mysql-xdevapi-collectionfind.lockshared.md) - Виконує операцію з SHARED LOCK
+-   [CollectionFind::offset](mysql-xdevapi-collectionfind.offset.md) — Пропускає вказану кількість елементів, що повертаються.
+-   [CollectionFind::sort](mysql-xdevapi-collectionfind.sort.md) - Встановлює критерії сортування

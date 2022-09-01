@@ -66,10 +66,10 @@ public Componere\Abstract\Definition::getReflector(): ReflectionClass
 
 ## Зміст
 
--   [ComponereDefinition::construct](componere-definition.construct.html) - Визначення конструктора
--   [ComponereDefinition::addConstant](componere-definition.addconstant.html) — додає константу
--   [ComponereDefinition::addProperty](componere-definition.addproperty.html) - Додає властивість
--   [ComponereDefinition::register](componere-definition.register.html) - Реєстрація
--   [ComponereDefinition::isRegistered](componere-definition.isregistered.html) — Визначення стану
--   [ComponereDefinition::getClosure](componere-definition.getclosure.html) — Отримує замикання
--   [ComponereDefinition::getClosures](componere-definition.getclosures.html) — Отримує замикання
+-   [ComponereDefinition::construct](componere-definition.construct.md) - Визначення конструктора
+-   [ComponereDefinition::addConstant](componere-definition.addconstant.md) — додає константу
+-   [ComponereDefinition::addProperty](componere-definition.addproperty.md) - Додає властивість
+-   [ComponereDefinition::register](componere-definition.register.md) - Реєстрація
+-   [ComponereDefinition::isRegistered](componere-definition.isregistered.md) — Визначення стану
+-   [ComponereDefinition::getClosure](componere-definition.getclosure.md) — Отримує замикання
+-   [ComponereDefinition::getClosures](componere-definition.getclosures.md) — Отримує замикання

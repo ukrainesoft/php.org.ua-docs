@@ -24,7 +24,7 @@ odbc_fetch_object(resource $statement, int $row = -1): stdClass|false
 
 `statement`
 
-Ресурс результату з [odbcexec()](function.odbc-exec.html)
+Ресурс результату з [odbcexec()](function.odbc-exec.md)
 
 `row`
 
@@ -40,6 +40,6 @@ odbc_fetch_object(resource $statement, int $row = -1): stdClass|false
 
 ### Дивіться також
 
--   [odbcfetchrow()](function.odbc-fetch-row.html) - Повертає рядок
--   [odbcfetcharray()](function.odbc-fetch-array.html) - Повертає рядок результату у вигляді асоціативного масиву
--   [odbcnumrows()](function.odbc-num-rows.html) - Повертає кількість рядків у результаті
+-   [odbcfetchrow()](function.odbc-fetch-row.md) - Повертає рядок
+-   [odbcfetcharray()](function.odbc-fetch-array.md) - Повертає рядок результату у вигляді асоціативного масиву
+-   [odbcnumrows()](function.odbc-num-rows.md) - Повертає кількість рядків у результаті

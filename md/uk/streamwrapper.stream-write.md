@@ -18,7 +18,7 @@ streamWrapper::streamwrite — Запис до потоку
 public streamWrapper::stream_write(string $data): int
 ```
 
-Цей метод викликається внаслідок запуску функції [fwrite()](function.fwrite.html)
+Цей метод викликається внаслідок запуску функції [fwrite()](function.fwrite.md)
 
 > **Зауваження**
 > 
@@ -48,4 +48,4 @@ public streamWrapper::stream_write(string $data): int
 
 ### Дивіться також
 
--   [fwrite()](function.fwrite.html) - Бінарно-безпечний запис у файл
+-   [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл

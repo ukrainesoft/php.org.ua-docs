@@ -24,7 +24,7 @@ gmp_perfect_power(GMP|int|string $num): bool
 
 `num`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ gmp_perfect_power(GMP|int|string $num): bool
 
 ### Дивіться також
 
--   [gmpperfectsquare()](function.gmp-perfect-square.html) - Перевірка числа на точний квадрат
+-   [gmpperfectsquare()](function.gmp-perfect-square.md) - Перевірка числа на точний квадрат

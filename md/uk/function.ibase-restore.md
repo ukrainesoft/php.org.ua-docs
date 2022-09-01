@@ -88,4 +88,4 @@ ibase_service_detach ($service);
 
 ### Дивіться також
 
--   [ibasebackup()](function.ibase-backup.html) - Ініціює завдання резервного копіювання у диспетчері служб та негайно повертає
+-   [ibasebackup()](function.ibase-backup.md) - Ініціює завдання резервного копіювання у диспетчері служб та негайно повертає

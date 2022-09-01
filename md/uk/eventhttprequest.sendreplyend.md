@@ -31,5 +31,5 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::sendReplyStart()](eventhttprequest.sendreplystart.html) - Ініціює фрагментарну відповідь
--   [EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.html) - Відправляє блок даних, як частина поточної фрагментованої відповіді
+-   [EventHttpRequest::sendReplyStart()](eventhttprequest.sendreplystart.md) - Ініціює фрагментарну відповідь
+-   [EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.md) - Відправляє блок даних, як частина поточної фрагментованої відповіді

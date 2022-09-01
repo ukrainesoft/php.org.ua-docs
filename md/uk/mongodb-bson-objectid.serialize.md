@@ -24,14 +24,14 @@ final public MongoDB\BSON\ObjectId::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBBSONObjectId](class.mongodb-bson-objectid.html)
+Повертає серіалізовану виставу [MongoDBBSONObjectId](class.mongodb-bson-objectid.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONObjectId::unserialize()](mongodb-bson-objectid.unserialize.html) - Десеріалізує ObjectId
+-   [MongoDBBSONObjectId::unserialize()](mongodb-bson-objectid.unserialize.md) - Десеріалізує ObjectId
 -   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

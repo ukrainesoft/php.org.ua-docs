@@ -184,4 +184,4 @@ echo money_format($fmt, 1234.56) . "\n";
 -   [sscanf()](function.sscanf.md) - Розбирає рядок відповідно до заданого формату
 -   [sprintf()](function.sprintf.md) - Повертає відформатований рядок
 -   [printf()](function.printf.md) - Виводить відформатований рядок
--   [numberformat()](function.number-format.html) - Форматує число з поділом груп
+-   [numberformat()](function.number-format.md) - Форматує число з поділом груп

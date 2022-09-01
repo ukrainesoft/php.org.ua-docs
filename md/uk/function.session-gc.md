@@ -80,6 +80,6 @@ if (file_exists($gc_time)) {
 
 ### Дивіться також
 
--   [sessionstart()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
--   [sessiondestroy()](function.session-destroy.html) - Знищує всі дані сесії
+-   [sessionstart()](function.session-start.md) - Стартує нову сесію, або відновлює існуючу
+-   [sessiondestroy()](function.session-destroy.md) - Знищує всі дані сесії
 -   [session.gcprobability](session.configuration.html#ini.session.gc-probability)

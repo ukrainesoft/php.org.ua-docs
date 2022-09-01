@@ -34,7 +34,7 @@ eval("echo '" . addslashes($str) . "';");
 ?>
 ```
 
-Іноді функцію **addslashes()** некоректно намагаються використати для запобігання [SQL-ін'єкцій](security.database.sql-injection.html). Чи не робіть так. Замість цього використовуйте підготовлені запити або функції екранування відповідних модулів роботи з базами даних.
+Іноді функцію **addslashes()** некоректно намагаються використати для запобігання [SQL-ін'єкцій](security.database.sql-injection.md). Чи не робіть так. Замість цього використовуйте підготовлені запити або функції екранування відповідних модулів роботи з базами даних.
 
 ### Список параметрів
 
@@ -66,4 +66,4 @@ echo addslashes($str);
 -   [addcslashes()](function.addcslashes.md) - Екранує рядок слішами у стилі мови C
 -   [htmlspecialchars()](function.htmlspecialchars.md) - Перетворює спеціальні символи на HTML-сутності
 -   [quotemeta()](function.quotemeta.md) - Екранує спеціальні символи
--   [getmagicquotesgpc()](function.get-magic-quotes-gpc.html) - Отримання поточного значення конфігурації конфігурації magicquotesgpc
+-   [getmagicquotesgpc()](function.get-magic-quotes-gpc.md) - Отримання поточного значення конфігурації конфігурації magicquotesgpc

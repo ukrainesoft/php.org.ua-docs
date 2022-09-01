@@ -69,7 +69,7 @@ proc_open(    array|string $command,    array $descriptor_spec,    a
 
 ### Значення, що повертаються
 
-Повертає ресурс, який представляє процес. Цей ресурс необхідно звільняти функцією [procclose()](function.proc-close.html) після завершення роботи з ним. У разі виникнення помилки повертає **`false`**
+Повертає ресурс, який представляє процес. Цей ресурс необхідно звільняти функцією [procclose()](function.proc-close.md) після завершення роботи з ним. У разі виникнення помилки повертає **`false`**
 
 ### список змін
 
@@ -172,5 +172,5 @@ $cmd = '""findstr" "search" "filename.txt""';
 -   [exec()](function.exec.md) - Виконати зовнішню програму
 -   [system()](function.system.md) - Виконати зовнішню програму та відобразити висновок
 -   [passthru()](function.passthru.md) - Виконати зовнішню програму та відобразити необроблений висновок
--   [streamselect()](function.stream-select.html) - Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds
+-   [streamselect()](function.stream-select.md) - Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds
 -   [Оператор зворотний апостроф](language.operators.execution.md)

@@ -72,7 +72,7 @@ if (file_exists($file)) {
 
 > **Зауваження**
 > 
-> **readfile()** сама по собі не призводить до будь-яких проблем з пам'яттю, навіть при надсиланні великих файлів. У разі помилки перевищення пам'яті переконайтеся, що буферизація виводу вимкнена за допомогою [проgetlevel()](function.ob-get-level.html)
+> **readfile()** сама по собі не призводить до будь-яких проблем з пам'яттю, навіть при надсиланні великих файлів. У разі помилки перевищення пам'яті переконайтеся, що буферизація виводу вимкнена за допомогою [проgetlevel()](function.ob-get-level.md)
 
 **Підказка**
 
@@ -86,5 +86,5 @@ if (file_exists($file)) {
 -   [include](function.include.md) - include
 -   [require](function.require.md) - require
 -   [virtual()](function.virtual.md) - Виконує підзапит Apache
--   [filegetcontents()](function.file-get-contents.html) - Читає вміст файлу в рядок
+-   [filegetcontents()](function.file-get-contents.md) - Читає вміст файлу в рядок
 -   [Підтримувані протоколи та обгортки](wrappers.md)

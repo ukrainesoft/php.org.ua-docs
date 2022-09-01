@@ -63,6 +63,6 @@ while( sqlsrv_fetch( $stmt )) {
 
 ### Дивіться також
 
--   [sqlsrvfieldmetadata()](function.sqlsrv-field-metadata.html) - Отримує метадані для полів оператора, підготовленого за допомогою sqlsrvprepare або sqlsrvquery
--   [sqlsrvfetch()](function.sqlsrv-fetch.html) - Робить наступний рядок у наборі результатів доступного для читання
--   [sqlsrvgetfield()](function.sqlsrv-get-field.html) - Отримує дані поля з поточного вибраного рядка
+-   [sqlsrvfieldmetadata()](function.sqlsrv-field-metadata.md) - Отримує метадані для полів оператора, підготовленого за допомогою sqlsrvprepare або sqlsrvquery
+-   [sqlsrvfetch()](function.sqlsrv-fetch.md) - Робить наступний рядок у наборі результатів доступного для читання
+-   [sqlsrvgetfield()](function.sqlsrv-get-field.md) - Отримує дані поля з поточного вибраного рядка

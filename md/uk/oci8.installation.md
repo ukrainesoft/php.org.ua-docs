@@ -110,7 +110,7 @@ title: Встановлення
 
 Зберіть OCI8 за допомогою однієї з наведених нижче опцій.
 
--   При використанні безкоштовних бібліотек [»  Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client.html)
+-   При використанні безкоштовних бібліотек [»  Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client.md)
     
     ```
     ./configure --with-oci8=shared,instantclient,/путь/к/instant/client/lib
@@ -191,17 +191,17 @@ extension=oci8.so
 | Название | Цель |
 | --- | --- |
 | ORACLEHOME | Вказує на папку з повністю встановленою базою даних Oracle. Не встановлюйте цю змінну під час використання Oracle Instant Client, т.к. у цьому немає потреби і може викликати проблеми під час встановлення. |
-| ORACLESID | Містить назву бази даних на локальній машині, до якої йде підключення. Немає необхідності встановлювати цю змінну під час використання Oracle Instant Client або завжди передавати у параметрах з'єднання у функцію [ociconnect()](function.oci-connect.html) |
+| ORACLESID | Містить назву бази даних на локальній машині, до якої йде підключення. Немає необхідності встановлювати цю змінну під час використання Oracle Instant Client або завжди передавати у параметрах з'єднання у функцію [ociconnect()](function.oci-connect.md) |
 | ЛДLIBRARYPATH | Встановіть цю змінну (або її еквівалент на платформі, наприклад, `LIBPATH` або `SHLIB_PATH`) у місцезнаходження бібліотек Oracle, наприклад, $ORACLEHOME/lib або /usr/lib/oracle/18.5/client/lib. Зверніть увагу, що для ZIP архівів Instant Client у Linux надійніше використовувати ldconfig. Зверніться до інструкції з інсталяції Instant Client. Для RPM пакетів Instant Client 19 (і старших), `ldconfig`, буде запущено автоматично. Хтось використовує `LD_PRELOAD` замість `LD_LIBRARY_PATH` |
 | NLSLANG | Це основна змінна, яка використовується для вказівки кодування та налаштувань глобалізації у бібліотеках Oracle. |
 | ORASDTZ | Встановлює часовий пояс сесії Oracle. |
-| TNSADMIN | Містить папку, де зберігаються конфігураційні файли Oracle Net Services, такі як tnsnames.ora та sqlnet.ora. У ній немає необхідності, якщо рядок з'єднання у функції [ociconnect()](function.oci-connect.html) використовує синтаксис Easy Connect, такий як, наприклад, `localhost/XE`. У ній також немає необхідності, якщо мережні конфігураційні файли містяться в місцях зберігання за промовчанням, таких як /usr/lib/oracle/VERSION/client/lib/network/admin, $ORACLEHOME/network/admin чи /etc. |
+| TNSADMIN | Містить папку, де зберігаються конфігураційні файли Oracle Net Services, такі як tnsnames.ora та sqlnet.ora. У ній немає необхідності, якщо рядок з'єднання у функції [ociconnect()](function.oci-connect.md) використовує синтаксис Easy Connect, такий як, наприклад, `localhost/XE`. У ній також немає необхідності, якщо мережні конфігураційні файли містяться в місцях зберігання за промовчанням, таких як /usr/lib/oracle/VERSION/client/lib/network/admin, $ORACLEHOME/network/admin чи /etc. |
 
 Менш використовувані змінні оточення Oracle включають `TWO_TASK` `ORA_TZFILE`, а також різні установки глобалізації Oracle на кшталт змінних `NLS*` і `ORA_NLS_*`
 
 ## Вирішення проблем
 
-Найчастішою проблемою при встановленні OCI8 є неправильне встановлення оточення Oracle. Зазвичай це виявляється у проблемі під час використання функцій [ociconnect()](function.oci-connect.html) або [ocipconnect()](function.oci-pconnect.html). Помилка може виявлятися у вигляді помилок PHP, наприклад, *Call до undefined function ociconnect()*, помилок Oracle, таких як ORA-12705, або навіть аварії Apache. Перевірте лог-файли Apache на наявність помилок запуску та вищеописані розділи для вирішення цієї проблеми.
+Найчастішою проблемою при встановленні OCI8 є неправильне встановлення оточення Oracle. Зазвичай це виявляється у проблемі під час використання функцій [ociconnect()](function.oci-connect.html) або [ocipconnect()](function.oci-pconnect.md). Помилка може виявлятися у вигляді помилок PHP, наприклад, *Call до undefined function ociconnect()*, помилок Oracle, таких як ORA-12705, або навіть аварії Apache. Перевірте лог-файли Apache на наявність помилок запуску та вищеописані розділи для вирішення цієї проблеми.
 
 Незважаючи на те, що мережеві помилки, на зразок ORA-12154 або ORA-12514 сигналізують про помилку в іменуванні або конфігурації мережі Oracle, реальною причиною може бути некоректно встановлене оточення PHP, через що бібліотеки Oracle не можуть знайти конфігураційний файл tnsnames.ora.
 

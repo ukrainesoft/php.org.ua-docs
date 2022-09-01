@@ -22,7 +22,7 @@ gnupg_getprotocol(resource $identifier): int
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
 
 ### Значення, що повертаються
 

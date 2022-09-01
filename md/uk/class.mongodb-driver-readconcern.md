@@ -121,7 +121,7 @@ final public unserialize(string $serialized): void
 | PECL mongodb 1.11.0 |  |
 | Додано константу **`MongoDB\Driver\ReadConcern::SNAPSHOT`** |  |
 
-| | PECL mongodb 1.7.0 Реалізує [Serializable](class.serializable.html). | | PECL mongodb 1.4.0
+| | PECL mongodb 1.7.0 Реалізує [Serializable](class.serializable.md). | | PECL mongodb 1.4.0
 
 Додано константу **`MongoDB\Driver\ReadConcern::AVAILABLE`**
 
@@ -129,7 +129,7 @@ final public unserialize(string $serialized): void
 
 Додано константу **`MongoDB\Driver\ReadConcern::LINEARIZABLE`**
 
-Реалізує [MongoDBBSONSerializable](class.mongodb-bson-serializable.html)
+Реалізує [MongoDBBSONSerializable](class.mongodb-bson-serializable.md)
 
 ## Дивіться також
 
@@ -137,9 +137,9 @@ final public unserialize(string $serialized): void
 
 ## Зміст
 
--   [MongoDBDriverReadConcern::bsonSerialize](mongodb-driver-readconcern.bsonserialize.html) — Повертає об'єкт для серіалізації BSON
--   [MongoDBDriverReadConcern::construct](mongodb-driver-readconcern.construct.html) - Створює новий ReadConcern
--   [MongoDBDriverReadConcern::getLevel](mongodb-driver-readconcern.getlevel.html) - Повертає опцію "level" ReadConcern
--   [MongoDBDriverReadConcern::isDefault](mongodb-driver-readconcern.isdefault.html) — Перевіряє, чи є гарантією прочитання за умовчанням
--   [MongoDBDriverReadConcern::serialize](mongodb-driver-readconcern.serialize.html) - Серіалізація ReadConcern
--   [MongoDBDriverReadConcern::unserialize](mongodb-driver-readconcern.unserialize.html) - Десеріалізація ReadConcern
+-   [MongoDBDriverReadConcern::bsonSerialize](mongodb-driver-readconcern.bsonserialize.md) — Повертає об'єкт для серіалізації BSON
+-   [MongoDBDriverReadConcern::construct](mongodb-driver-readconcern.construct.md) - Створює новий ReadConcern
+-   [MongoDBDriverReadConcern::getLevel](mongodb-driver-readconcern.getlevel.md) - Повертає опцію "level" ReadConcern
+-   [MongoDBDriverReadConcern::isDefault](mongodb-driver-readconcern.isdefault.md) — Перевіряє, чи є гарантією прочитання за умовчанням
+-   [MongoDBDriverReadConcern::serialize](mongodb-driver-readconcern.serialize.md) - Серіалізація ReadConcern
+-   [MongoDBDriverReadConcern::unserialize](mongodb-driver-readconcern.unserialize.md) - Десеріалізація ReadConcern

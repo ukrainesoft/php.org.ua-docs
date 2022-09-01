@@ -52,7 +52,7 @@ URL-адреса репозиторію для отримання історії
 > 
 > Висновок завжди представлений як пронумерований масив, що містить масиви, крім випадків відсутності або єдиного екземпляра ревізій.
 
-Значення action є підмножиною [» перших літер станів SVN](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.status.html), де можливі значення - це:
+Значення action є підмножиною [» перших літер станів SVN](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.status.md), де можливі значення - це:
 
 **Дії**
 
@@ -106,4 +106,4 @@ Array
 
 ### Дивіться також
 
--   [»  SVN-документация по команде svn log](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.log.html)
+-   [»  SVN-документация по команде svn log](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.log.md)

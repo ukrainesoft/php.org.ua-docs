@@ -24,7 +24,7 @@ gmp_testbit(GMP|int|string $num, int $index): bool
 
 `num`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `index`
 
@@ -60,5 +60,5 @@ bool(true)
 
 ### Дивіться також
 
--   [gmpsetbit()](function.gmp-setbit.html) - Встановлення біта
--   [gmpclrbit()](function.gmp-clrbit.html) - Скидання біта
+-   [gmpsetbit()](function.gmp-setbit.md) - Встановлення біта
+-   [gmpclrbit()](function.gmp-clrbit.md) - Скидання біта

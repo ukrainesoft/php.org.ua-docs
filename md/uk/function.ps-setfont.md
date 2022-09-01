@@ -18,17 +18,17 @@ title: пссетфонт
 ps_setfont(resource $psdoc, int $fontid, float $size): bool
 ```
 
-Встановлює шрифт, який має бути завантажений раніше за допомогою [псfindfont()](function.ps-findfont.html). Виведення тексту без встановлення шрифту призводить до помилки.
+Встановлює шрифт, який має бути завантажений раніше за допомогою [псfindfont()](function.ps-findfont.md). Виведення тексту без встановлення шрифту призводить до помилки.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `fontid`
 
-Ідентифікатор шрифту, повернутий [псfindfont()](function.ps-findfont.html)
+Ідентифікатор шрифту, повернутий [псfindfont()](function.ps-findfont.md)
 
 `size`
 
@@ -40,5 +40,5 @@ ps_setfont(resource $psdoc, int $fontid, float $size): bool
 
 ### Дивіться також
 
--   [псfindfont()](function.ps-findfont.html) - Завантажує шрифт
--   [псsettextpos()](function.ps-set-text-pos.html) - Встановлює позицію для виведення тексту на приклад.
+-   [псfindfont()](function.ps-findfont.md) - Завантажує шрифт
+-   [псsettextpos()](function.ps-set-text-pos.md) - Встановлює позицію для виведення тексту на приклад.

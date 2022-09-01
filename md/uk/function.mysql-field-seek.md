@@ -14,9 +14,9 @@ mysqlfieldseek - Встановлює внутрішній покажчик ре
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlifieldseek()](mysqli-result.field-seek.html)
+-   [mysqlifieldseek()](mysqli-result.field-seek.md)
 -   [PDOStatement::fetch()](pdostatement.fetch.md) з використанням параметрів `cursor_orientation` і `offset`
 
 ### Опис
@@ -25,13 +25,13 @@ mysqlfieldseek - Встановлює внутрішній покажчик ре
 mysql_field_seek(resource $result, int $field_offset): bool
 ```
 
-Переміщує покажчик до поля із зазначеним усуненням. Якщо наступний виклик функції [mysqlfetchfield()](function.mysql-fetch-field.html) не містить зміщення, то буде повернено зміщення, що міститься в **mysqlfieldseek()**
+Переміщує покажчик до поля із зазначеним усуненням. Якщо наступний виклик функції [mysqlfetchfield()](function.mysql-fetch-field.md) не містить зміщення, то буде повернено зміщення, що міститься в **mysqlfieldseek()**
 
 ### Список параметрів
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
 
 `field_offset`
 
@@ -43,4 +43,4 @@ mysql_field_seek(resource $result, int $field_offset): bool
 
 ### Дивіться також
 
--   [mysqlfetchfield()](function.mysql-fetch-field.html) - Повертає інформацію про колонку з результату запиту як об'єкта
+-   [mysqlfetchfield()](function.mysql-fetch-field.md) - Повертає інформацію про колонку з результату запиту як об'єкта

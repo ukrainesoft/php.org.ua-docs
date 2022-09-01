@@ -28,7 +28,7 @@ mdecrypt_generic(resource $td, string $data): string
 
 `td`
 
-Дескриптор шифрування, що повертається [mcryptmoduleopen()](function.mcrypt-module-open.html)
+Дескриптор шифрування, що повертається [mcryptmoduleopen()](function.mcrypt-module-open.md)
 
 `data`
 
@@ -78,12 +78,12 @@ mdecrypt_generic(resource $td, string $data): string
 ?>
 ```
 
-Приклад вище показує, як перевірити, що дані до шифрування збігаються з даними після дешифрування. Вкрай важливо переініціалізувати буфери шифрування за допомогою [mcryptgenericinit()](function.mcrypt-generic-init.html) перед дешифруванням даних.
+Приклад вище показує, як перевірити, що дані до шифрування збігаються з даними після дешифрування. Вкрай важливо переініціалізувати буфери шифрування за допомогою [mcryptgenericinit()](function.mcrypt-generic-init.md) перед дешифруванням даних.
 
-Обробник дешифрування завжди має ініціалізуватися за допомогою [mcryptgenericinit()](function.mcrypt-generic-init.html) з ключем та ініціалізуючим вектором перед викликом функції. Як тільки шифрування завершено, необхідно звільнити буфери шифрування шляхом виклику функції [mcryptgenericdeinit()](function.mcrypt-generic-deinit.html). Дивіться приклад у описі функції [mcryptmoduleopen()](function.mcrypt-module-open.html)
+Обробник дешифрування завжди має ініціалізуватися за допомогою [mcryptgenericinit()](function.mcrypt-generic-init.html) з ключем та ініціалізуючим вектором перед викликом функції. Як тільки шифрування завершено, необхідно звільнити буфери шифрування шляхом виклику функції [mcryptgenericdeinit()](function.mcrypt-generic-deinit.html). Дивіться приклад у описі функції [mcryptmoduleopen()](function.mcrypt-module-open.md)
 
 ### Дивіться також
 
--   [mcryptgeneric()](function.mcrypt-generic.html) - Функція шифрує дані
--   [mcryptgenericinit()](function.mcrypt-generic-init.html) - Функція ініціалізує всі буфери, необхідні для шифрування
--   [mcryptgenericdeinit()](function.mcrypt-generic-deinit.html) - Ця функція деініціалізує модуль шифрування
+-   [mcryptgeneric()](function.mcrypt-generic.md) - Функція шифрує дані
+-   [mcryptgenericinit()](function.mcrypt-generic-init.md) - Функція ініціалізує всі буфери, необхідні для шифрування
+-   [mcryptgenericdeinit()](function.mcrypt-generic-deinit.md) - Ця функція деініціалізує модуль шифрування

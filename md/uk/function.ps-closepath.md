@@ -24,7 +24,7 @@ ps_closepath(resource $psdoc): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 ### Значення, що повертаються
 
@@ -32,5 +32,5 @@ ps_closepath(resource $psdoc): bool
 
 ### Дивіться також
 
--   [псclip()](function.ps-clip.html) - Відображення кліпів по поточному шляху
--   [псclosepathstroke()](function.ps-closepath-stroke.html) - Замикає та обводить контур
+-   [псclip()](function.ps-clip.md) - Відображення кліпів по поточному шляху
+-   [псclosepathstroke()](function.ps-closepath-stroke.md) - Замикає та обводить контур

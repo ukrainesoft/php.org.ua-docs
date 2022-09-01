@@ -18,7 +18,7 @@ levenshtein — Обчислює відстань Левенштейна між 
 levenshtein(    string $string1,    string $string2,    int $insertion_cost = 1,    int $replacement_cost = 1,    int $deletion_cost = 1): int
 ```
 
-Відстань Левенштейна - це мінімальна кількість вставок, замін та видалень символів, необхідна для перетворення `string1` в `string2`. Складність алгоритму дорівнює `O(m*n)`, де `n` і `m` - Довжини рядків `string1` і `string2` (Непогано в порівнянні з [similartext()](function.similar-text.html), що має складність `O(max(n,m)**3)`, Але все ж таки досить багато).
+Відстань Левенштейна - це мінімальна кількість вставок, замін та видалень символів, необхідна для перетворення `string1` в `string2`. Складність алгоритму дорівнює `O(m*n)`, де `n` і `m` - Довжини рядків `string1` і `string2` (Непогано в порівнянні з [similartext()](function.similar-text.md), що має складність `O(max(n,m)**3)`, Але все ж таки досить багато).
 
 Якщо `insertion_cost` `replacement_cost` та/або `deletion_cost` не рівні `1`алгоритм адаптується для вибору найдешевших перетворень. Наприклад. якщо `$insertion_cost + $deletion_cost < $replacement_cost`, заміни не будуть виконуватися, натомість будуть виконуватися вставки та видалення.
 
@@ -116,5 +116,5 @@ if ($shortest == 0) {
 ### Дивіться також
 
 -   [soundex()](function.soundex.md) - Повертає ключ soundex для рядка
--   [similartext()](function.similar-text.html) - обчислює ступінь схожості двох рядків
+-   [similartext()](function.similar-text.md) - обчислює ступінь схожості двох рядків
 -   [metaphone()](function.metaphone.md) - Повертає ключ metaphone для рядка

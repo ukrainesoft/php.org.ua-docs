@@ -48,6 +48,6 @@ echo "257: ".exif_tagname(257).PHP_EOL;
 
 ### Дивіться також
 
--   [exifimagetype()](function.exif-imagetype.html) - Визначте тип зображення.
+-   [exifimagetype()](function.exif-imagetype.md) - Визначте тип зображення.
 -   [» EXIF спецификация](http://exif.org/Exif2-2.PDF)
--   [» EXIF теги](http://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/EXIF.html)
+-   [» EXIF теги](http://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/EXIF.md)

@@ -10,6 +10,6 @@ title: Приклади
 
 ## Зміст
 
--   [Прості приклади використання FFI](ffi.examples-basic.html)
--   [Callback-функции PHP](ffi.examples-callback.html)
--   [Комплексний приклад PHP/FFI/preloading](ffi.examples-complete.html)
+-   [Прості приклади використання FFI](ffi.examples-basic.md)
+-   [Callback-функции PHP](ffi.examples-callback.md)
+-   [Комплексний приклад PHP/FFI/preloading](ffi.examples-complete.md)

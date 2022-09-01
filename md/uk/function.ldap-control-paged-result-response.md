@@ -14,7 +14,7 @@ ldapcontrolpagedresultresponse — Отримати вказівник на по
 
 **Увага**
 
-Функція була оголошена *застарілої* в PHP 7.4.0 та *ВИДАЛЕНО* у PHP 8.0.0. Замість неї слід використовувати параметр `controls` в [ldapsearch()](function.ldap-search.html). Дивіться також [Керуючі об'єкти LDAP](ldap.controls.html) для отримання додаткової інформації.
+Функція була оголошена *застарілої* в PHP 7.4.0 та *ВИДАЛЕНО* у PHP 8.0.0. Замість неї слід використовувати параметр `controls` в [ldapsearch()](function.ldap-search.html). Дивіться також [Керуючі об'єкти LDAP](ldap.controls.md) для отримання додаткової інформації.
 
 ### Опис
 
@@ -28,7 +28,7 @@ ldap_control_paged_result_response(    resource $link,    resource $resu
 
 `link`
 
-Ресурс LDAP, який повертається функцією [ldapconnect()](function.ldap-connect.html)
+Ресурс LDAP, який повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `result`
 
@@ -53,5 +53,5 @@ ldap_control_paged_result_response(    resource $link,    resource $resu
 
 ### Дивіться також
 
--   [ldapcontrolpagedresult()](function.ldap-control-paged-result.html) - Надіслати серверу LDAP дані для використання посторінкового отримання результату
+-   [ldapcontrolpagedresult()](function.ldap-control-paged-result.md) - Надіслати серверу LDAP дані для використання посторінкового отримання результату
 -   [» RFC2696 : Керуючий модуль LDAP для простих маніпуляцій результатом, що посторінково повертається](http://www.faqs.org/rfcs/rfc2696)

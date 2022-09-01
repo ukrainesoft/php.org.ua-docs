@@ -10,4 +10,4 @@ title: Функції TCP
 
 ## Зміст
 
--   [tcpwrapcheck](function.tcpwrap-check.html) - Здійснює перевірку tcpwrap
+-   [tcpwrapcheck](function.tcpwrap-check.md) - Здійснює перевірку tcpwrap

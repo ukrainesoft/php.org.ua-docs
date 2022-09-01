@@ -20,7 +20,7 @@ func_num_args(): int
 
 Отримує кількість аргументів переданих функції.
 
-Ця функція також може бути використана спільно з [funcgetarg()](function.func-get-arg.html) і [funcgetargs()](function.func-get-args.html) для створення функцій із змінною кількістю аргументів.
+Ця функція також може бути використана спільно з [funcgetarg()](function.func-get-arg.html) і [funcgetargs()](function.func-get-args.md) для створення функцій із змінною кількістю аргументів.
 
 ### Список параметрів
 
@@ -65,6 +65,6 @@ foo(1, 2, 3);
 ### Дивіться також
 
 -   [Синтаксис](functions.arguments.html#functions.variable-arg-list)
--   [funcgetarg()](function.func-get-arg.html)
--   [funcgetargs()](function.func-get-args.html)
--   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.html)
+-   [funcgetarg()](function.func-get-arg.md)
+-   [funcgetargs()](function.func-get-args.md)
+-   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md)

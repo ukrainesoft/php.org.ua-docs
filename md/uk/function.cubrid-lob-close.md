@@ -18,13 +18,13 @@ cubridлобclose — Закриває дані BLOB/CLOB
 cubrid_lob_close(array $lob_identifier_array): bool
 ```
 
-**cubridлобclose()** використовується для закриття всіх BLOB/CLOB, що повертаються функцією [cubridlobget()](function.cubrid-lob-get.html)
+**cubridлобclose()** використовується для закриття всіх BLOB/CLOB, що повертаються функцією [cubridlobget()](function.cubrid-lob-get.md)
 
 ### Список параметрів
 
 `lob_identifier_array`
 
-Масив ідентифікаторів LOB, повернутий [cubridlobget()](function.cubrid-lob-get.html)
+Масив ідентифікаторів LOB, повернутий [cubridlobget()](function.cubrid-lob-get.md)
 
 ### Значення, що повертаються
 
@@ -52,7 +52,7 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubridlobget()](function.cubrid-lob-get.html) - Отримує дані BLOB/CLOB
--   [cubridlobsize()](function.cubrid-lob-size.html) - Отримує розмір даних BLOB/CLOB
--   [cubridlobexport()](function.cubrid-lob-export.html) - Експортує дані BLOB/CLOB у файл
--   [cubridlobsend()](function.cubrid-lob-send.html) - Читає дані BLOB/CLOB та відправляє їх прямо до браузера
+-   [cubridlobget()](function.cubrid-lob-get.md) - Отримує дані BLOB/CLOB
+-   [cubridlobsize()](function.cubrid-lob-size.md) - Отримує розмір даних BLOB/CLOB
+-   [cubridlobexport()](function.cubrid-lob-export.md) - Експортує дані BLOB/CLOB у файл
+-   [cubridlobsend()](function.cubrid-lob-send.md) - Читає дані BLOB/CLOB та відправляє їх прямо до браузера

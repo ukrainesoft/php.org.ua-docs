@@ -26,7 +26,7 @@ cubrid_errno(resource $conn_identifier = ?): int
 
 `conn_identifier`
 
-Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє відкрите за допомогою [cubridconnect()](function.cubrid-connect.html) з'єднання.
+Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє відкрите за допомогою [cubridconnect()](function.cubrid-connect.md) з'єднання.
 
 ### Значення, що повертаються
 
@@ -58,6 +58,6 @@ if ($req) {
 
 ### Дивіться також
 
--   [cubriderror()](function.cubrid-error.html) - Повертає текст останньої помилки, що відбулася.
--   [cubriderrorcode()](function.cubrid-error-code.html) - Отримати код помилки
--   [cubriderrormsg()](function.cubrid-error-msg.html) - Повертає текст останньої помилки, що відбулася.
+-   [cubriderror()](function.cubrid-error.md) - Повертає текст останньої помилки, що відбулася.
+-   [cubriderrorcode()](function.cubrid-error-code.md) - Отримати код помилки
+-   [cubriderrormsg()](function.cubrid-error-msg.md) - Повертає текст останньої помилки, що відбулася.

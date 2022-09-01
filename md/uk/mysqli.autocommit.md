@@ -36,7 +36,7 @@ mysqli_autocommit(mysqli $mysql, bool $enable): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 `enable`
 
@@ -197,6 +197,6 @@ try {
 
 ### Дивіться також
 
--   [mysqlibegintransaction()](mysqli.begin-transaction.html) - Стартує транзакцію
+-   [mysqlibegintransaction()](mysqli.begin-transaction.md) - Стартує транзакцію
 -   [mysqlicommit()](mysqli.commit.md) - Фіксує поточну транзакцію
 -   [mysqlirollback()](mysqli.rollback.md) - Відкат поточної транзакції

@@ -169,59 +169,59 @@ public use_result(): mysqli_result|false
 
 ## Зміст
 
--   [mysqli::$affectedrows](mysqli.affected-rows.html) — Отримує кількість рядків, які торкнулися попередньої операції MySQL
+-   [mysqli::$affectedrows](mysqli.affected-rows.md) — Отримує кількість рядків, які торкнулися попередньої операції MySQL
 -   [mysqli::autocommit](mysqli.autocommit.md) — Вмикає або вимикає автоматичну фіксацію змін бази даних
--   [mysqli::begintransaction](mysqli.begin-transaction.html) - Стартує транзакцію
--   [mysqli::changeuser](mysqli.change-user.html) — Дозволяє змінити користувача підключеного до бази даних
--   [mysqli::charactersetname](mysqli.character-set-name.html) — Повертає поточне кодування, встановлене для з'єднання з БД
+-   [mysqli::begintransaction](mysqli.begin-transaction.md) - Стартує транзакцію
+-   [mysqli::changeuser](mysqli.change-user.md) — Дозволяє змінити користувача підключеного до бази даних
+-   [mysqli::charactersetname](mysqli.character-set-name.md) — Повертає поточне кодування, встановлене для з'єднання з БД
 -   [mysqli::close](mysqli.close.md) — Закриває раніше відкрите з'єднання з базою даних
 -   [mysqli::commit](mysqli.commit.md) - Фіксує поточну транзакцію
--   [mysqli::$connecterrno](mysqli.connect-errno.html) — Повертає код помилки останньої спроби з'єднання
--   [mysqli::$connecterror](mysqli.connect-error.html) — Повертає опис останньої помилки підключення
+-   [mysqli::$connecterrno](mysqli.connect-errno.md) — Повертає код помилки останньої спроби з'єднання
+-   [mysqli::$connecterror](mysqli.connect-error.md) — Повертає опис останньої помилки підключення
 -   [mysqli::construct](mysqli.construct.md) — Встановлює нове з'єднання із сервером MySQL
 -   [mysqli::debug](mysqli.debug.md) - Виконує процедури налагодження
--   [mysqli::dumpdebuginfo](mysqli.dump-debug-info.html) - Журналування налагоджувальної інформації
+-   [mysqli::dumpdebuginfo](mysqli.dump-debug-info.md) - Журналування налагоджувальної інформації
 -   [mysqli::$errno](mysqli.errno.md) — Повертає код помилки останнього виклику функції
--   [mysqli::$errorlist](mysqli.error-list.html) — Повертає перелік помилок виконання останньої запущеної команди
+-   [mysqli::$errorlist](mysqli.error-list.md) — Повертає перелік помилок виконання останньої запущеної команди
 -   [mysqli::$error](mysqli.error.md) — Повертає рядок із описом останньої помилки
--   [mysqli::$fieldcount](mysqli.field-count.html) — Повертає кількість стовпців, які торкнулися останнім запитом
--   [mysqli::getcharset](mysqli.get-charset.html) — Повертає об'єкт, що описує кодування
--   [mysqli::$clientinfo](mysqli.get-client-info.html) — Отримує інформацію про клієнта MySQL
--   [mysqli::$clientversion](mysqli.get-client-version.html) — Повертає інформацію про клієнта MySQL у вигляді рядка
--   [mysqli::getconnectionstats](mysqli.get-connection-stats.html) — Повертає статистику з'єднання із клієнтом
--   [mysqli::$hostinfo](mysqli.get-host-info.html) — Повертає рядок, що містить тип використовуваної сполуки
--   [mysqli::$protocolversion](mysqli.get-proto-info.html) — Повертає версію протоколу, що використовується MySQL
--   [mysqli::$serverinfo](mysqli.get-server-info.html) — Повертає версію сервера MySQL
--   [mysqli::$serverversion](mysqli.get-server-version.html) — Повертає версію сервера MySQL, представлену у вигляді integer
--   [mysqli::getwarnings](mysqli.get-warnings.html) — Отримує результат SHOW WARNINGS
+-   [mysqli::$fieldcount](mysqli.field-count.md) — Повертає кількість стовпців, які торкнулися останнім запитом
+-   [mysqli::getcharset](mysqli.get-charset.md) — Повертає об'єкт, що описує кодування
+-   [mysqli::$clientinfo](mysqli.get-client-info.md) — Отримує інформацію про клієнта MySQL
+-   [mysqli::$clientversion](mysqli.get-client-version.md) — Повертає інформацію про клієнта MySQL у вигляді рядка
+-   [mysqli::getconnectionstats](mysqli.get-connection-stats.md) — Повертає статистику з'єднання із клієнтом
+-   [mysqli::$hostinfo](mysqli.get-host-info.md) — Повертає рядок, що містить тип використовуваної сполуки
+-   [mysqli::$protocolversion](mysqli.get-proto-info.md) — Повертає версію протоколу, що використовується MySQL
+-   [mysqli::$serverinfo](mysqli.get-server-info.md) — Повертає версію сервера MySQL
+-   [mysqli::$serverversion](mysqli.get-server-version.md) — Повертає версію сервера MySQL, представлену у вигляді integer
+-   [mysqli::getwarnings](mysqli.get-warnings.md) — Отримує результат SHOW WARNINGS
 -   [mysqli::$info](mysqli.info.md) — Витягує інформацію про останній запит
 -   [mysqli::init](mysqli.init.md) — Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
--   [mysqli::$insertід](mysqli.insert-id.html) — Повертає значення, створене для стовпця AUTOINCREMENT останнім запитом
+-   [mysqli::$insertід](mysqli.insert-id.md) — Повертає значення, створене для стовпця AUTOINCREMENT останнім запитом
 -   [mysqli::kill](mysqli.kill.md) — Запит для сервера завершити виконання процесу MySQL
--   [mysqli::moreresults](mysqli.more-results.html) — Перевірка, чи є ще результати у мультизапиті
--   [mysqli::multiquery](mysqli.multi-query.html) — Виконує один або кілька запитів до бази даних
--   [mysqli::nextresult](mysqli.next-result.html) — Підготовка наступного результуючого набору з multiquery
+-   [mysqli::moreresults](mysqli.more-results.md) — Перевірка, чи є ще результати у мультизапиті
+-   [mysqli::multiquery](mysqli.multi-query.md) — Виконує один або кілька запитів до бази даних
+-   [mysqli::nextresult](mysqli.next-result.md) — Підготовка наступного результуючого набору з multiquery
 -   [mysqli::options](mysqli.options.md) — Встановлення налаштувань
 -   [mysqli::ping](mysqli.ping.md) — Перевіряє працездатність з'єднання або намагається перепідключитися, якщо з'єднання розірвано
 -   [mysqli::poll](mysqli.poll.md) - Опитування підключень
 -   [mysqli::prepare](mysqli.prepare.md) - Підготовляє SQL вираз до виконання
 -   [mysqli::query](mysqli.query.md) — Виконує запит до бази даних
--   [mysqli::realconnect](mysqli.real-connect.html) — Встановлює з'єднання із сервером mysql
--   [mysqli::realescapestring](mysqli.real-escape-string.html) — Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання
--   [mysqli::realquery](mysqli.real-query.html) - Виконання SQL запиту
--   [mysqli::reapasyncquery](mysqli.reap-async-query.html) — Отримання результату асинхронного запиту
+-   [mysqli::realconnect](mysqli.real-connect.md) — Встановлює з'єднання із сервером mysql
+-   [mysqli::realescapestring](mysqli.real-escape-string.md) — Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання
+-   [mysqli::realquery](mysqli.real-query.md) - Виконання SQL запиту
+-   [mysqli::reapasyncquery](mysqli.reap-async-query.md) — Отримання результату асинхронного запиту
 -   [mysqli::refresh](mysqli.refresh.md) - Оновлення
--   [mysqli::releasesavepoint](mysqli.release-savepoint.html) — Видаляє іменовану точку збереження зі списку точок збереження поточної транзакції.
+-   [mysqli::releasesavepoint](mysqli.release-savepoint.md) — Видаляє іменовану точку збереження зі списку точок збереження поточної транзакції.
 -   [mysqli::rollback](mysqli.rollback.md) - Відкат поточної транзакції
 -   [mysqli::savepoint](mysqli.savepoint.md) — Встановіть іменовану точку збереження транзакції
--   [mysqli::selectдб](mysqli.select-db.html) — Встановлює базу даних для запитів, що виконуються.
--   [mysqli::setcharset](mysqli.set-charset.html) — Задає набір символів
+-   [mysqli::selectдб](mysqli.select-db.md) — Встановлює базу даних для запитів, що виконуються.
+-   [mysqli::setcharset](mysqli.set-charset.md) — Задає набір символів
 -   [mysqli::$sqlstate](mysqli.sqlstate.md) — Повертає код стану SQLSTATE останньої операції MySQL операції
--   [mysqli::sslset](mysqli.ssl-set.html) — Використовується для встановлення безпечних з'єднань за допомогою SSL
+-   [mysqli::sslset](mysqli.ssl-set.md) — Використовується для встановлення безпечних з'єднань за допомогою SSL
 -   [mysqli::stat](mysqli.stat.md) - Отримання інформації про поточний стан системи
--   [mysqli::stmtinit](mysqli.stmt-init.html) — Ініціалізує запит та повертає об'єкт для використання у mysqlistmtprepare
--   [mysqli::storeresult](mysqli.store-result.html) — передає на клієнта результуючий набір останнього запиту
--   [mysqli::$threadід](mysqli.thread-id.html) — Повертає ID процесу поточного підключення
--   [mysqli::threadsafe](mysqli.thread-safe.html) — Показує, чи безпечна робота із процесами
--   [mysqli::useresult](mysqli.use-result.html) — Готує результуючий набір на сервері для використання
--   [mysqli::$warningcount](mysqli.warning-count.html) — Повертає кількість попереджень із останнього запиту заданого підключення
+-   [mysqli::stmtinit](mysqli.stmt-init.md) — Ініціалізує запит та повертає об'єкт для використання у mysqlistmtprepare
+-   [mysqli::storeresult](mysqli.store-result.md) — передає на клієнта результуючий набір останнього запиту
+-   [mysqli::$threadід](mysqli.thread-id.md) — Повертає ID процесу поточного підключення
+-   [mysqli::threadsafe](mysqli.thread-safe.md) — Показує, чи безпечна робота із процесами
+-   [mysqli::useresult](mysqli.use-result.md) — Готує результуючий набір на сервері для використання
+-   [mysqli::$warningcount](mysqli.warning-count.md) — Повертає кількість попереджень із останнього запиту заданого підключення

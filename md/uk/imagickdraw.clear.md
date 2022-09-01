@@ -26,4 +26,4 @@ public ImagickDraw::clear(): bool
 
 ### Значення, що повертаються
 
-Повертає об'єкт [ImagickDraw](class.imagickdraw.html)
+Повертає об'єкт [ImagickDraw](class.imagickdraw.md)

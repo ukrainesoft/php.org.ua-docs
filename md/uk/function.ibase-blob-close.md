@@ -18,13 +18,13 @@ ibaseblobclose — Закриває BLOB-об'єкт
 ibase_blob_close(resource $blob_handle): mixed
 ```
 
-Ця функція закриває BLOB-об'єкт, відкритий для читання за допомогою [ibaseblobopen()](function.ibase-blob-open.html) або [ibaseblobcreate()](function.ibase-blob-create.html)
+Ця функція закриває BLOB-об'єкт, відкритий для читання за допомогою [ibaseblobopen()](function.ibase-blob-open.html) або [ibaseblobcreate()](function.ibase-blob-create.md)
 
 ### Список параметрів
 
 `blob_handle`
 
-BLOB-об'єкт, відкритий за допомогою [ibaseblobcreate()](function.ibase-blob-create.html) або [ibaseblobopen()](function.ibase-blob-open.html)
+BLOB-об'єкт, відкритий за допомогою [ibaseblobcreate()](function.ibase-blob-create.html) або [ibaseblobopen()](function.ibase-blob-open.md)
 
 ### Значення, що повертаються
 
@@ -32,5 +32,5 @@ BLOB-об'єкт, відкритий за допомогою [ibaseblobcreate()]
 
 ### Дивіться також
 
--   [ibaseblobcancel()](function.ibase-blob-cancel.html) - Скасує створення BLOB-об'єкта
--   [ibaseblobopen()](function.ibase-blob-open.html) - Відкриває BLOB-об'єкт для вилучення частин даних
+-   [ibaseblobcancel()](function.ibase-blob-cancel.md) - Скасує створення BLOB-об'єкта
+-   [ibaseblobopen()](function.ibase-blob-open.md) - Відкриває BLOB-об'єкт для вилучення частин даних

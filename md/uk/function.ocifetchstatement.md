@@ -10,11 +10,11 @@ title: ocifetchstatement
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocifetchstatement - Псевдонім [ocifetchall()](function.oci-fetch-all.html)
+ocifetchstatement - Псевдонім [ocifetchall()](function.oci-fetch-all.md)
 
 ### Опис
 
-Псевдонім [ocifetchall()](function.oci-fetch-all.html)
+Псевдонім [ocifetchall()](function.oci-fetch-all.md)
 
 **Увага**
 

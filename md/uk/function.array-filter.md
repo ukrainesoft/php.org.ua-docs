@@ -20,7 +20,7 @@ array_filter(array $array, ?callable $callback = null, int $mode = 0): array
 
 Обходить кожне значення масиву `array`, передаючи його в `callback`функцію. Якщо `callback`функція повертає **`true`**, це значення з `array` повертається в результуючий array.
 
-Ключі масиву зберігаються і можуть призвести до перепусток, якщо `array` був проіндексований. Результат масиву (array) можна переіндексувати за допомогою функції [arrayvalues()](function.array-values.html)
+Ключі масиву зберігаються і можуть призвести до перепусток, якщо `array` був проіндексований. Результат масиву (array) можна переіндексувати за допомогою функції [arrayvalues()](function.array-values.md)
 
 ### Список параметрів
 
@@ -171,7 +171,7 @@ array(2) {
 
 ### Дивіться також
 
--   [arrayintersect()](function.array-intersect.html) - обчислює сходження масивів
--   [arraymap()](function.array-map.html) - Застосовує callback-функцію до всіх елементів зазначених масивів
--   [arrayreduce()](function.array-reduce.html) - Ітеративно зменшує масив до єдиного значення, використовуючи callback-функцію
--   [arraywalk()](function.array-walk.html) - Застосовує задану користувачем функцію кожного елемента масиву
+-   [arrayintersect()](function.array-intersect.md) - обчислює сходження масивів
+-   [arraymap()](function.array-map.md) - Застосовує callback-функцію до всіх елементів зазначених масивів
+-   [arrayreduce()](function.array-reduce.md) - Ітеративно зменшує масив до єдиного значення, використовуючи callback-функцію
+-   [arraywalk()](function.array-walk.md) - Застосовує задану користувачем функцію кожного елемента масиву

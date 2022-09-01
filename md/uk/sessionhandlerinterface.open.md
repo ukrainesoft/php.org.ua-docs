@@ -18,7 +18,7 @@ SessionHandlerInterface::open — Ініціалізує сесію
 public SessionHandlerInterface::open(string $path, string $name): bool
 ```
 
-Повторно ініціалізує існуючу сесію чи створює нову. Викликається коли сесія стартує або коли викликана функція [sessionstart()](function.session-start.html)
+Повторно ініціалізує існуючу сесію чи створює нову. Викликається коли сесія стартує або коли викликана функція [sessionstart()](function.session-start.md)
 
 ### Список параметрів
 
@@ -36,5 +36,5 @@ public SessionHandlerInterface::open(string $path, string $name): bool
 
 ### Дивіться також
 
--   [sessionname()](function.session-name.html) - Отримати чи встановити ім'я поточної сесії
+-   [sessionname()](function.session-name.md) - Отримати чи встановити ім'я поточної сесії
 -   Опція конфігурації [session.auto-start](session.configuration.html#ini.session.auto-start)

@@ -32,7 +32,7 @@ posix_getegid(): int
 
 **Приклад #1 Приклад використання **posixgetegid()****
 
-У прикладі програма виводить ефективний ідентифікатор групи процесу, змінює його за допомогою функції [posixsetegid()](function.posix-setegid.html) і знову виводить.
+У прикладі програма виводить ефективний ідентифікатор групи процесу, змінює його за допомогою функції [posixsetegid()](function.posix-setegid.md) і знову виводить.
 
 ```php
 <?php
@@ -45,10 +45,10 @@ echo 'My effective group id is '.posix_getegid(); //40
 
 ### Примітки
 
-**posixgetegid()** відрізняється від [posixgetgid()](function.posix-getgid.html) тому, що ефективний ідентифікатор групи може бути змінений викликаним процесом, використовуючи [posixsetegid()](function.posix-setegid.html)
+**posixgetegid()** відрізняється від [posixgetgid()](function.posix-getgid.html) тому, що ефективний ідентифікатор групи може бути змінений викликаним процесом, використовуючи [posixsetegid()](function.posix-setegid.md)
 
 ### Дивіться також
 
--   [posixgetgrgid()](function.posix-getgrgid.html) - Повертає інформацію про групу за її ID
--   [posixgetgid()](function.posix-getgid.html) - Повертає дійсний ID групи поточного процесу GID
--   [posixsetgid()](function.posix-setgid.html) - Встановлює ідентифікатор групи для поточного процесу GID
+-   [posixgetgrgid()](function.posix-getgrgid.md) - Повертає інформацію про групу за її ID
+-   [posixgetgid()](function.posix-getgid.md) - Повертає дійсний ID групи поточного процесу GID
+-   [posixsetgid()](function.posix-setgid.md) - Встановлює ідентифікатор групи для поточного процесу GID

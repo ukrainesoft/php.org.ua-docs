@@ -24,7 +24,7 @@ public Gmagick::annotateimage(    GmagickDraw $GmagickDraw,    float $x,
 
 `GmagickDraw`
 
-Об'єкт [GmagickDraw](class.gmagickdraw.html), що містить параметри для відображення тексту.
+Об'єкт [GmagickDraw](class.gmagickdraw.md), що містить параметри для відображення тексту.
 
 `x`
 
@@ -44,7 +44,7 @@ public Gmagick::annotateimage(    GmagickDraw $GmagickDraw,    float $x,
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) з доданою інструкцією.
+Об'єкт [Gmagick](class.gmagick.md) з доданою інструкцією.
 
 ### Помилки
 

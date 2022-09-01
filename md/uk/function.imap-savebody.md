@@ -24,11 +24,11 @@ imap_savebody(    IMAP\Connection $imap,    resource|string|int $file, 
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `file`
 
-Шлях до файлу у вигляді рядка або відкритий за допомогою [fopen()](function.fopen.html) файловий дескриптор.
+Шлях до файлу у вигляді рядка або відкритий за допомогою [fopen()](function.fopen.md) файловий дескриптор.
 
 `message_num`
 
@@ -54,8 +54,8 @@ imap_savebody(    IMAP\Connection $imap,    resource|string|int $file, 
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [imapfetchbody()](function.imap-fetchbody.html) - Витягти конкретну секцію тіла повідомлення
+-   [imapfetchbody()](function.imap-fetchbody.md) - Витягти конкретну секцію тіла повідомлення

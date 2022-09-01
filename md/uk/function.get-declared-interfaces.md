@@ -55,6 +55,6 @@ Array
 
 ### Дивіться також
 
--   [interfaceexists()](function.interface-exists.html) - Перевіряє, чи визначено інтерфейс
--   [getdeclaredclasses()](function.get-declared-classes.html) - Повертає масив із іменами оголошених класів
--   [classimplements()](function.class-implements.html) - Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
+-   [interfaceexists()](function.interface-exists.md) - Перевіряє, чи визначено інтерфейс
+-   [getdeclaredclasses()](function.get-declared-classes.md) - Повертає масив із іменами оголошених класів
+-   [classimplements()](function.class-implements.md) - Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі

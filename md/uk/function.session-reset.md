@@ -36,8 +36,8 @@ session_reset(): bool
 
 ### Дивіться також
 
--   [SESSION](reserved.variables.session.html)
+-   [SESSION](reserved.variables.session.md)
 -   Опція конфігурації [session.autostart](session.configuration.html#ini.session.auto-start)
--   [sessionstart()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
--   [sessionabort()](function.session-abort.html) - Скасує зміни у масиві сесії та завершує її
--   [sessioncommit()](function.session-commit.html) - Псевдонім sessionwriteclose
+-   [sessionstart()](function.session-start.md) - Стартує нову сесію, або відновлює існуючу
+-   [sessionabort()](function.session-abort.md) - Скасує зміни у масиві сесії та завершує її
+-   [sessioncommit()](function.session-commit.md) - Псевдонім sessionwriteclose

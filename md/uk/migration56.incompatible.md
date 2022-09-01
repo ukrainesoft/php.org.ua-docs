@@ -53,11 +53,11 @@ array(3) {
 }
 ```
 
-### Суворість [jsondecode()](function.json-decode.html)
+### Суворість [jsondecode()](function.json-decode.md)
 
-Тепер [jsondecode()](function.json-decode.html) відповідно до специфікації JSON відхиляє JSON літерали `true` `false` і `null`, задані не строго в нижньому регістрі, і відповідно встановлює [jsonlasterror()](function.json-last-error.html). Раніше дані, що передаються в [jsondecode()](function.json-decode.html) і що містять виключно одне з цих значень у верхньому або змішаному регістрі приймалися.
+Тепер [jsondecode()](function.json-decode.html) відповідно до специфікації JSON відхиляє JSON літерали `true` `false` і `null`, задані не строго в нижньому регістрі, і відповідно встановлює [jsonlasterror()](function.json-last-error.html). Раніше дані, що передаються в [jsondecode()](function.json-decode.md) і що містять виключно одне з цих значень у верхньому або змішаному регістрі приймалися.
 
-Ця зміна вплине тільки у разі передачі в [jsondecode()](function.json-decode.html) некоректного JSON. У разі коректно сформованого JSON ніякого ефекту не буде.
+Ця зміна вплине тільки у разі передачі в [jsondecode()](function.json-decode.md) некоректного JSON. У разі коректно сформованого JSON ніякого ефекту не буде.
 
 ### Тепер потокові обгортки за промовчанням перевіряють сертифікати точок під час використання SSL/TLS
 
@@ -69,11 +69,11 @@ array(3) {
 
 ### Тепер ресурси [GMP](book.gmp.md) є об'єктами
 
-Тепер ресурси [GMP](book.gmp.md) є об'єктами. Функціональне API, реалізоване у модулі GMP, залишилося без змін. Існуючий код має запрацювати без змін, тільки якщо в ньому явно не використовувалися перевірки на ресурс [ісresource()](function.is-resource.html) або щось подібне.
+Тепер ресурси [GMP](book.gmp.md) є об'єктами. Функціональне API, реалізоване у модулі GMP, залишилося без змін. Існуючий код має запрацювати без змін, тільки якщо в ньому явно не використовувалися перевірки на ресурс [ісresource()](function.is-resource.md) або щось подібне.
 
 ### Тепер функція [Mcrypt](book.mcrypt.md) вимагає коректні ключі та IV
 
-[mcryptencrypt()](function.mcrypt-encrypt.html) [mcryptdecrypt()](function.mcrypt-decrypt.html) **mcryptcbc()** **mcryptcfb()** **mcryptecb()** [mcryptgeneric()](function.mcrypt-generic.html) і **mcryptofb()** більше не приймають ключі та IV з некоректною довжиною, а режими блокового шифру, що вимагають IV, будуть завершуватися помилково, якщо його не передати.
+[mcryptencrypt()](function.mcrypt-encrypt.html) [mcryptdecrypt()](function.mcrypt-decrypt.html) **mcryptcbc()** **mcryptcfb()** **mcryptecb()** [mcryptgeneric()](function.mcrypt-generic.md) і **mcryptofb()** більше не приймають ключі та IV з некоректною довжиною, а режими блокового шифру, що вимагають IV, будуть завершуватися помилково, якщо його не передати.
 
 ### Завантаження файлів за допомогою [cURL](book.curl.md)
 

@@ -30,7 +30,7 @@ pg_lo_close(PgSql\Lob $lob): bool
 
 `lob`
 
-Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.html)
+Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.md)
 
 ### Значення, що повертаються
 
@@ -40,7 +40,7 @@ pg_lo_close(PgSql\Lob $lob): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -62,6 +62,6 @@ pg_lo_close(PgSql\Lob $lob): bool
 
 ### Дивіться також
 
--   [пглоopen()](function.pg-lo-open.html) - Відкриває великий об'єкт бази даних
--   [пглоcreate()](function.pg-lo-create.html) - Створює великий об'єкт
--   [пглоimport()](function.pg-lo-import.html) - Імпорт великого об'єкта з файлу
+-   [пглоopen()](function.pg-lo-open.md) - Відкриває великий об'єкт бази даних
+-   [пглоcreate()](function.pg-lo-create.md) - Створює великий об'єкт
+-   [пглоimport()](function.pg-lo-import.md) - Імпорт великого об'єкта з файлу

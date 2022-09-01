@@ -44,7 +44,7 @@ uopz_del_function(string $class, string $function, int &$all = true): bool
 
 ### Помилки
 
-**uopzdelfunction()** викидає [RuntimeException](class.runtimeexception.html), якщо видалені функції або метод не були додані за допомогою [uopzaddfunction()](function.uopz-add-function.html)
+**uopzdelfunction()** викидає [RuntimeException](class.runtimeexception.html), якщо видалені функції або метод не були додані за допомогою [uopzaddfunction()](function.uopz-add-function.md)
 
 ### Приклади
 
@@ -68,5 +68,5 @@ bool(false)
 
 ### Дивіться також
 
--   [uopzaddfunction()](function.uopz-add-function.html) - Додає неіснуючу функцію чи метод
--   [uopzunsetreturn()](function.uopz-unset-return.html) - Скасує раніше встановлене значення, що повертається для функції
+-   [uopzaddfunction()](function.uopz-add-function.md) - Додає неіснуючу функцію чи метод
+-   [uopzunsetreturn()](function.uopz-unset-return.md) - Скасує раніше встановлене значення, що повертається для функції

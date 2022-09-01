@@ -10,7 +10,7 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](mysql-xdevapi.requirements.html)
--   [Установка](mysql-xdevapi.installation.html)
--   [Налаштування під час виконання](mysql-xdevapi.configuration.html)
--   [Складання / Компіляція з вихідного коду](mysql-xdevapi.build.html)
+-   [Вимоги](mysql-xdevapi.requirements.md)
+-   [Установка](mysql-xdevapi.installation.md)
+-   [Налаштування під час виконання](mysql-xdevapi.configuration.md)
+-   [Складання / Компіляція з вихідного коду](mysql-xdevapi.build.md)

@@ -87,4 +87,4 @@ $server->handle();
 ### Дивіться також
 
 -   [SoapServer::fault()](soapserver.fault.md) - змушує SoapServer повернути помилку
--   [ісsoapfault()](function.is-soap-fault.html) - Перевіряє, чи сталася помилка під час виклику SOAP
+-   [ісsoapfault()](function.is-soap-fault.md) - Перевіряє, чи сталася помилка під час виклику SOAP

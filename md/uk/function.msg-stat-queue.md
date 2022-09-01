@@ -44,7 +44,7 @@ msg_stat_queue(SysvMessageQueue $queue): array|false
 
 ### Дивіться також
 
--   [msgremovequeue()](function.msg-remove-queue.html) - Видалення черги повідомлень
--   [msgreceive()](function.msg-receive.html) - Отримання повідомлення з черги повідомлень
--   [msggetqueue()](function.msg-get-queue.html) - Створення або підключення до черги повідомлень
--   [msgsetqueue()](function.msg-set-queue.html) - Встановлення інформації у структурі даних черги повідомлень
+-   [msgremovequeue()](function.msg-remove-queue.md) - Видалення черги повідомлень
+-   [msgreceive()](function.msg-receive.md) - Отримання повідомлення з черги повідомлень
+-   [msggetqueue()](function.msg-get-queue.md) - Створення або підключення до черги повідомлень
+-   [msgsetqueue()](function.msg-set-queue.md) - Встановлення інформації у структурі даних черги повідомлень

@@ -22,19 +22,19 @@ ldapsort — Сортування записів LDAP
 ldap_sort(resource $link, resource $result, string $sortfilter): bool
 ```
 
-Сортує результат запиту LDAP, який повертається функцією [ldapsearch()](function.ldap-search.html)
+Сортує результат запиту LDAP, який повертається функцією [ldapsearch()](function.ldap-search.md)
 
-Так як ця функція сортує результат на стороні клієнта, ви можете отримати не ті результати, які очікували у випадку, якщо був перевищений ліміт `sizelimit` на стороні сервера або вказаний у [ldapsearch()](function.ldap-search.html)
+Так як ця функція сортує результат на стороні клієнта, ви можете отримати не ті результати, які очікували у випадку, якщо був перевищений ліміт `sizelimit` на стороні сервера або вказаний у [ldapsearch()](function.ldap-search.md)
 
 ### Список параметрів
 
 `link`
 
-Ресурс LDAP, який повертається функцією [ldapconnect()](function.ldap-connect.html)
+Ресурс LDAP, який повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `result`
 
-Дескриптор результату пошуку, що повертається функцією [ldapsearch()](function.ldap-search.html)
+Дескриптор результату пошуку, що повертається функцією [ldapsearch()](function.ldap-search.md)
 
 `sortfilter`
 

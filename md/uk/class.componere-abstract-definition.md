@@ -41,7 +41,7 @@ public getReflector(): ReflectionClass
 
 ## Зміст
 
--   [ComponereAbstractDefinition::addInterface](componere-abstract-definition.addinterface.html) — Додає інтерфейс
--   [ComponereAbstractDefinition::addMethod](componere-abstract-definition.addmethod.html) — Додає метод
--   [ComponereAbstractDefinition::addTrait](componere-abstract-definition.addtrait.html) - Додає трейт
--   [ComponereAbstractDefinition::getReflector](componere-abstract-definition.getreflector.html) - Reflection
+-   [ComponereAbstractDefinition::addInterface](componere-abstract-definition.addinterface.md) — Додає інтерфейс
+-   [ComponereAbstractDefinition::addMethod](componere-abstract-definition.addmethod.md) — Додає метод
+-   [ComponereAbstractDefinition::addTrait](componere-abstract-definition.addtrait.md) - Додає трейт
+-   [ComponereAbstractDefinition::getReflector](componere-abstract-definition.getreflector.md) - Reflection

@@ -20,7 +20,7 @@ ibase_connect(    string $database = ?,    string $username = ?,    
 
 Встановлює з'єднання із сервером Firebird/InterBase.
 
-У разі повторного виклику **ibaseconnect()** з тими ж аргументами нове посилання не буде встановлене, натомість буде повернуто ідентифікатор вже відкритого посилання. Посилання на сервер буде закрито, як тільки завершиться виконання скрипту, якщо тільки воно не було закрито раніше явним викликом [ibaseclose()](function.ibase-close.html)
+У разі повторного виклику **ibaseconnect()** з тими ж аргументами нове посилання не буде встановлене, натомість буде повернуто ідентифікатор вже відкритого посилання. Посилання на сервер буде закрито, як тільки завершиться виконання скрипту, якщо тільки воно не було закрито раніше явним викликом [ibaseclose()](function.ibase-close.md)
 
 ### Список параметрів
 
@@ -60,7 +60,7 @@ ibase_connect(    string $database = ?,    string $username = ?,    
 
 ### Помилки
 
-Якщо ви отримаєте якусь помилку, наприклад "arithmetic exception, numeric overflow, or string truncation." [ibasequery()](function.ibase-query.html) ви повинні встановити набір символів (наприклад, ISO88591 або поточний набір символів).
+Якщо ви отримаєте якусь помилку, наприклад "arithmetic exception, numeric overflow, or string truncation." [ibasequery()](function.ibase-query.md) ви повинні встановити набір символів (наприклад, ISO88591 або поточний набір символів).
 
 ### Приклади
 
@@ -83,5 +83,5 @@ ibase_close($dbh);
 
 ### Дивіться також
 
--   [ibasepconnect()](function.ibase-pconnect.html) - Відкриває постійне з'єднання з базою даних InterBase
--   [ibaseclose()](function.ibase-close.html) - Закриває з'єднання з базою даних InterBase
+-   [ibasepconnect()](function.ibase-pconnect.md) - Відкриває постійне з'єднання з базою даних InterBase
+-   [ibaseclose()](function.ibase-close.md) - Закриває з'єднання з базою даних InterBase

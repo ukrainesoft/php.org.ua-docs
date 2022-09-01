@@ -60,4 +60,4 @@ $service->handle();
 
 ### Дивіться також
 
--   [YarServer::construct()](yar-server.construct.html) - Конструктор YarServer
+-   [YarServer::construct()](yar-server.construct.md) - Конструктор YarServer

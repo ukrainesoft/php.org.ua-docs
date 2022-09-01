@@ -30,7 +30,7 @@ public SplFileInfo::getType(): string|false
 
 ### Помилки
 
-Викидає [RuntimeException](class.runtimeexception.html) у разі виникнення помилки.
+Викидає [RuntimeException](class.runtimeexception.md) у разі виникнення помилки.
 
 ### Приклади
 

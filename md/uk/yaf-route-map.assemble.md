@@ -32,7 +32,7 @@ public Yaf_Route_Map::assemble(array $info, array $query = ?): string
 
 ### Помилки
 
-Може викинути [YafExceptionTypeError](class.yaf-exception-typeerror.html)
+Може викинути [YafExceptionTypeError](class.yaf-exception-typeerror.md)
 
 ### Приклади
 

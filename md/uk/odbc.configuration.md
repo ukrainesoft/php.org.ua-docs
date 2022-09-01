@@ -33,15 +33,15 @@ title: Налаштування під час виконання
 
 `odbc.default_db` string
 
-Джерело даних ODBC для використання, якщо жоден не вказаний у [odbcconnect()](function.odbc-connect.html) або [odbcpconnect()](function.odbc-pconnect.html)
+Джерело даних ODBC для використання, якщо жоден не вказаний у [odbcconnect()](function.odbc-connect.html) або [odbcpconnect()](function.odbc-pconnect.md)
 
 `odbc.default_user` string
 
-Ім'я користувача для використання, якщо жоден не вказано [odbcconnect()](function.odbc-connect.html) або [odbcpconnect()](function.odbc-pconnect.html)
+Ім'я користувача для використання, якщо жоден не вказано [odbcconnect()](function.odbc-connect.html) або [odbcpconnect()](function.odbc-pconnect.md)
 
 `odbc.default_pw` string
 
-Пароль для використання, якщо жоден не вказано в [odbcconnect()](function.odbc-connect.html) або [odbcpconnect()](function.odbc-pconnect.html)
+Пароль для використання, якщо жоден не вказано в [odbcconnect()](function.odbc-connect.html) або [odbcpconnect()](function.odbc-pconnect.md)
 
 `odbc.allow_persistent` bool
 
@@ -61,13 +61,13 @@ title: Налаштування під час виконання
 
 `odbc.defaultlrl` int
 
-Обробка довгих (LONG) полів. Визначає кількість байтів, що повертаються змінним. Дивіться [odbclongreadlen()](function.odbc-longreadlen.html) для подробиць.
+Обробка довгих (LONG) полів. Визначає кількість байтів, що повертаються змінним. Дивіться [odbclongreadlen()](function.odbc-longreadlen.md) для подробиць.
 
 Якщо використовується int значення вимірюється байтами. Ви також можете використовувати скорочений запис, який описано в [у цьому розділі FAQ](faq.using.html#faq.using.shorthandbytes)
 
 `odbc.defaultbinmode` int
 
-Обробка двійкових даних. Дивіться [odbcbinmode()](function.odbc-binmode.html) для подробиць.
+Обробка двійкових даних. Дивіться [odbcbinmode()](function.odbc-binmode.md) для подробиць.
 
 `odbc.default_cursortype` int
 

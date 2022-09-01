@@ -22,7 +22,7 @@ exit(string $status = ?): void
 exit(int $status): void
 ```
 
-Припиняє виконання скрипту . [Функции отключения](function.register-shutdown-function.html) і [деструктори об'єкту](language.oop5.decon.html#language.oop5.decon.destructor) будуть запущені, навіть якщо було викликано конструкцію `exit`
+Припиняє виконання скрипту . [Функции отключения](function.register-shutdown-function.md) і [деструктори об'єкту](language.oop5.decon.html#language.oop5.decon.destructor) будуть запущені, навіть якщо було викликано конструкцію `exit`
 
 `exit` - це конструкція мови, і вона може бути викликана без круглих дужок, якщо не передається параметр `status`
 
@@ -103,7 +103,7 @@ echo 'Эта строка не будет выведена.';
 
 ### Примітки
 
-> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [змінних функцій](functions.variable-functions.html) або [іменованих аргументів](functions.arguments.html#functions.named-arguments)
+> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [змінних функцій](functions.variable-functions.md) або [іменованих аргументів](functions.arguments.html#functions.named-arguments)
 
 > **Зауваження**
 > 
@@ -111,4 +111,4 @@ echo 'Эта строка не будет выведена.';
 
 ### Дивіться також
 
--   [registershutdownfunction()](function.register-shutdown-function.html) - Реєструє функцію, яка виконається після завершення роботи скрипту
+-   [registershutdownfunction()](function.register-shutdown-function.md) - Реєструє функцію, яка виконається після завершення роботи скрипту

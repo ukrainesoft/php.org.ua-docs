@@ -34,9 +34,9 @@ session_encode(): string|false
 
 **Увага**
 
-Необхідно викликати функцію [sessionstart()](function.session-start.html) перед використанням **sessionencode()**
+Необхідно викликати функцію [sessionstart()](function.session-start.md) перед використанням **sessionencode()**
 
 ### Дивіться також
 
--   [sessiondecode()](function.session-decode.html) - декодує дані сесії із закодованого рядка сесії
+-   [sessiondecode()](function.session-decode.md) - декодує дані сесії із закодованого рядка сесії
 -   [session.serializehandler](session.configuration.html#ini.session.serialize-handler)

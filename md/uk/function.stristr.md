@@ -91,4 +91,4 @@ stristr(string $haystack, string $needle, bool $before_needle = false): string|f
 -   [strrchr()](function.strrchr.md) - Знаходить останнє входження символу у рядку
 -   [stripos()](function.stripos.md) - Повертає позицію першого входження підрядка без урахування регістру
 -   [strpbrk()](function.strpbrk.md) - Шукає у рядку будь-який символ із заданого набору
--   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу

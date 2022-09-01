@@ -10,14 +10,14 @@ title: 'SplFileObject::toString'
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-SplFileObject::toString - Псевдонім [SplFileObject::fgets()](splfileobject.fgets.html)
+SplFileObject::toString - Псевдонім [SplFileObject::fgets()](splfileobject.fgets.md)
 
 ### Опис
 
-Цей метод є псевдонімом: [SplFileObject::fgets()](splfileobject.fgets.html)
+Цей метод є псевдонімом: [SplFileObject::fgets()](splfileobject.fgets.md)
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Змінено псевдонім з [SplFileObject::current()](splfileobject.current.html) на [SplFileObject::fgets()](splfileobject.fgets.html) |
+|  | Змінено псевдонім з [SplFileObject::current()](splfileobject.current.html) на [SplFileObject::fgets()](splfileobject.fgets.md) |

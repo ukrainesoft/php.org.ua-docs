@@ -10,4 +10,4 @@ title: Приклади
 
 ## Зміст
 
--   [Базовое использование](memcache.examples-overview.html)
+-   [Базовое использование](memcache.examples-overview.md)

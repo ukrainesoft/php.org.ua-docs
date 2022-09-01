@@ -18,9 +18,9 @@ SessionHandler::write — Записує дані сесії
 public SessionHandler::write(string $id, string $data): bool
 ```
 
-Записує дані сесії у сховище. Зазвичай викликається при завершенні скрипту, функцією [sessionwriteclose()](function.session-write-close.html) або коли [sessionregistershutdown()](function.session-register-shutdown.html) зазнає невдачі. PHP викликає [SessionHandler::close()](sessionhandler.close.md) відразу після цього методу.
+Записує дані сесії у сховище. Зазвичай викликається при завершенні скрипту, функцією [sessionwriteclose()](function.session-write-close.html) або коли [sessionregistershutdown()](function.session-register-shutdown.md) зазнає невдачі. PHP викликає [SessionHandler::close()](sessionhandler.close.md) відразу після цього методу.
 
-Метод є обертанням внутрішнього обробника PHP, визначеного в параметрі ini-файлу [session.savehandler](session.configuration.html#ini.session.save-handler) який встановлюється до того, як буде визначено оброблювач сесії викликом [sessionsetsavehandler()](function.session-set-save-handler.html)
+Метод є обертанням внутрішнього обробника PHP, визначеного в параметрі ini-файлу [session.savehandler](session.configuration.html#ini.session.save-handler) який встановлюється до того, як буде визначено оброблювач сесії викликом [sessionsetsavehandler()](function.session-set-save-handler.md)
 
 Якщо цей клас розширено шляхом успадкування, виклик батьківського методу `write` викликає обгортку для цього методу і, відповідно, виклик внутрішнього оброблювача. Це дозволяє методу бути перевантаженим або перехопленим та відфільтрованим (наприклад, для шифрування значення параметра `$data` перед відправкою його в батьківський метод `write`
 

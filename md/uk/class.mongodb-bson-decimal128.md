@@ -49,14 +49,14 @@ final public unserialize(string $serialized): void
 
 | Версия | Описание |
 | --- | --- |
-| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+. |
-| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONDecimal128Interface](class.mongodb-bson-decimal128interface.html) |
-| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html) |
+| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONDecimal128Interface](class.mongodb-bson-decimal128interface.md) |
+| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.md) |
 
 ## Зміст
 
--   [MongoDBBSONDecimal128::construct](mongodb-bson-decimal128.construct.html) - Створює новий Decimal128
--   [MongoDBBSONDecimal128::jsonSerialize](mongodb-bson-decimal128.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDBBSONDecimal128::serialize](mongodb-bson-decimal128.serialize.html) - Серіалізує Decimal128
--   [MongoDBBSONDecimal128::toString](mongodb-bson-decimal128.tostring.html) — Повертає рядкову виставу Decimal128
--   [MongoDBBSONDecimal128::unserialize](mongodb-bson-decimal128.unserialize.html) - Десеріалізує Decimal128
+-   [MongoDBBSONDecimal128::construct](mongodb-bson-decimal128.construct.md) - Створює новий Decimal128
+-   [MongoDBBSONDecimal128::jsonSerialize](mongodb-bson-decimal128.jsonserialize.md) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONDecimal128::serialize](mongodb-bson-decimal128.serialize.md) - Серіалізує Decimal128
+-   [MongoDBBSONDecimal128::toString](mongodb-bson-decimal128.tostring.md) — Повертає рядкову виставу Decimal128
+-   [MongoDBBSONDecimal128::unserialize](mongodb-bson-decimal128.unserialize.md) - Десеріалізує Decimal128

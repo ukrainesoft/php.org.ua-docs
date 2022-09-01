@@ -50,4 +50,4 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::removeHeader()](eventhttprequest.removeheader.html) - Видаляє заголовок HTTP із заголовків запиту
+-   [EventHttpRequest::removeHeader()](eventhttprequest.removeheader.md) - Видаляє заголовок HTTP із заголовків запиту

@@ -28,7 +28,7 @@ public static IntlChar::getIntPropertyMinValue(int $property): int
 
 ### Значення, що повертаються
 
-Мінімальне значення, що повертається [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.html) для властивості Unicode . `0`якщо властивість не входить у допустимий діапазон.
+Мінімальне значення, що повертається [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md) для властивості Unicode . `0`якщо властивість не входить у допустимий діапазон.
 
 ### Приклади
 
@@ -54,7 +54,7 @@ int(0)
 
 ### Дивіться також
 
--   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.html) - Перевірити бінарну властивість Unicode для символу
--   [IntlChar::getIntPropertyMaxValue()](intlchar.getintpropertymaxvalue.html) - Отримати мінімальне значення для властивості Unicode
--   [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.html) - Отримати значення властивості Unicode для символу
--   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.html) - Отримати версію Unicode
+-   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) - Перевірити бінарну властивість Unicode для символу
+-   [IntlChar::getIntPropertyMaxValue()](intlchar.getintpropertymaxvalue.md) - Отримати мінімальне значення для властивості Unicode
+-   [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md) - Отримати значення властивості Unicode для символу
+-   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.md) - Отримати версію Unicode

@@ -24,7 +24,7 @@ odbc_commit(resource $odbc): bool
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.md)
 
 ### Значення, що повертаються
 

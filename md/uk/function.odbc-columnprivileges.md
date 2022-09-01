@@ -24,7 +24,7 @@ odbc_columnprivileges(    resource $odbc,    ?string $catalog,    st
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
 
 `catalog`
 

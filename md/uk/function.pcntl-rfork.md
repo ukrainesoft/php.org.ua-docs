@@ -70,7 +70,7 @@ int(0)
 
 ### Дивіться також
 
--   [pcntlfork()](function.pcntl-fork.html) - Розгалужити (fork) поточний запущений процес
--   [pcntlwaitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу
--   [pcntlsignal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу
--   [clisetprocesstitle()](function.cli-set-process-title.html) - Встановлює заголовок процесу
+-   [pcntlfork()](function.pcntl-fork.md) - Розгалужити (fork) поточний запущений процес
+-   [pcntlwaitpid()](function.pcntl-waitpid.md) - Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntlsignal()](function.pcntl-signal.md) - Встановлення оброблювача сигналу
+-   [clisetprocesstitle()](function.cli-set-process-title.md) - Встановлює заголовок процесу

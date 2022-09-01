@@ -109,6 +109,6 @@ string(8) "_default"
 
 ### Дивіться також
 
--   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.html)
--   [YafPluginAbstract](class.yaf-plugin-abstract.html)
--   [YafRouter::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора
+-   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.md)
+-   [YafPluginAbstract](class.yaf-plugin-abstract.md)
+-   [YafRouter::addRoute()](yaf-router.addroute.md) - Додає новий маршрут до маршрутизатора

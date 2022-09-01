@@ -24,7 +24,7 @@ dba_close(resource $dba): void
 
 `dba`
 
-Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.html)
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 
@@ -32,5 +32,5 @@ dba_close(resource $dba): void
 
 ### Дивіться також
 
--   [dbaopen()](function.dba-open.html) - Відкриває базу даних
--   [dbapopen()](function.dba-popen.html) - встановити постійний екземпляр бази даних
+-   [dbaopen()](function.dba-open.md) - Відкриває базу даних
+-   [dbapopen()](function.dba-popen.md) - встановити постійний екземпляр бази даних

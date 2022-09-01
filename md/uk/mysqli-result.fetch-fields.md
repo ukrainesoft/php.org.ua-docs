@@ -28,13 +28,13 @@ public mysqli_result::fetch_fields(): array
 mysqli_fetch_fields(mysqli_result $result): array
 ```
 
-Ця функція служить для тих же цілей, що й [mysqlifetchfield()](mysqli-result.fetch-field.html), З тією лише різницею, що повертає не один об'єкт для стовпця, а масив таких об'єктів.
+Ця функція служить для тих же цілей, що й [mysqlifetchfield()](mysqli-result.fetch-field.md), З тією лише різницею, що повертає не один об'єкт для стовпця, а масив таких об'єктів.
 
 ### Список параметрів
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 
@@ -189,6 +189,6 @@ Flags:     20489
 
 ### Дивіться також
 
--   [mysqlinumfields()](mysqli-result.field-count.html) - Отримує кількість полів у наборі результатів
--   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.html) - Отримання метаданих конкретного поля
--   [mysqlifetchfield()](mysqli-result.fetch-field.html) - Повертає наступне поле результуючого набору
+-   [mysqlinumfields()](mysqli-result.field-count.md) - Отримує кількість полів у наборі результатів
+-   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.md) - Отримання метаданих конкретного поля
+-   [mysqlifetchfield()](mysqli-result.fetch-field.md) - Повертає наступне поле результуючого набору

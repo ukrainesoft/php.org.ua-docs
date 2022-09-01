@@ -28,5 +28,5 @@ get_declared_traits(): array
 
 ### Дивіться також
 
--   [classuses()](function.class-uses.html) - Повертає список трейтів, які використовуються заданим класом
--   [traitexists()](function.trait-exists.html) - Перевіряє, чи існує трейт
+-   [classuses()](function.class-uses.md) - Повертає список трейтів, які використовуються заданим класом
+-   [traitexists()](function.trait-exists.md) - Перевіряє, чи існує трейт

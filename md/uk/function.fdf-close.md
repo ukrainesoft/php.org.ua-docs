@@ -24,7 +24,7 @@ fdf_close(resource $fdf_document): void
 
 `fdf_document`
 
-Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.html)
+Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ fdf_close(resource $fdf_document): void
 
 ### Дивіться також
 
--   [fdfopen()](function.fdf-open.html) - Відкриває документ FDF
+-   [fdfopen()](function.fdf-open.md) - Відкриває документ FDF

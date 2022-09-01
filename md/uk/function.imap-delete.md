@@ -18,13 +18,13 @@ imapdelete — Позначити повідомлення для видален
 imap_delete(IMAP\Connection $imap, string $message_nums, int $flags = 0): bool
 ```
 
-Позначає повідомлення, перелічені у `message_nums` для видалення. Позначені повідомлення залишатимуться в скриньці доки не буде викликана функція [imapexpunge()](function.imap-expunge.html), або [imapclose()](function.imap-close.html) із встановленим параметром **`CL_EXPUNGE`**
+Позначає повідомлення, перелічені у `message_nums` для видалення. Позначені повідомлення залишатимуться в скриньці доки не буде викликана функція [imapexpunge()](function.imap-expunge.html), або [imapclose()](function.imap-close.md) із встановленим параметром **`CL_EXPUNGE`**
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `message_nums`
 
@@ -42,7 +42,7 @@ imap_delete(IMAP\Connection $imap, string $message_nums, int $flags = 0): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -75,10 +75,10 @@ imap_close($mbox);
 
 > **Зауваження**
 > 
-> Скриньки IMAP можуть не зберігати прапори між з'єднаннями, тому якщо ви дійсно хочете видалити позначені повідомлення, необхідно викликати [imapexpunge()](function.imap-expunge.html) у тому з'єднанні, в якому прапори встановлювалися.
+> Скриньки IMAP можуть не зберігати прапори між з'єднаннями, тому якщо ви дійсно хочете видалити позначені повідомлення, необхідно викликати [imapexpunge()](function.imap-expunge.md) у тому з'єднанні, в якому прапори встановлювалися.
 
 ### Дивіться також
 
--   [imapundelete()](function.imap-undelete.html) - Знімає з повідомлення позначку видалення
--   [imapexpunge()](function.imap-expunge.html) - Видалити всі позначені для видалення повідомлення
--   [imapclose()](function.imap-close.html) - Закрити потік IMAP
+-   [imapundelete()](function.imap-undelete.md) - Знімає з повідомлення позначку видалення
+-   [imapexpunge()](function.imap-expunge.md) - Видалити всі позначені для видалення повідомлення
+-   [imapclose()](function.imap-close.md) - Закрити потік IMAP

@@ -14,7 +14,7 @@ title: Клас OAuthProvider
 
 Клас керування провайдером OAuth.
 
-Також дивіться докладний опис на зовнішньому ресурсі [» Написание сервиса провайдера OAuth](http://toys.lerdorf.com/archives/55-Writing-an-OAuth-Provider-Service.html), В якому описується практичний підхід надання такого сервісу. Також подивіться [» приклади провайдера OAuth](https://svn.php.net/viewvc/pecl/oauth/trunk/examples) у вихідних кодах модуля OAuth.
+Також дивіться докладний опис на зовнішньому ресурсі [» Написание сервиса провайдера OAuth](http://toys.lerdorf.com/archives/55-Writing-an-OAuth-Provider-Service.md), В якому описується практичний підхід надання такого сервісу. Також подивіться [» приклади провайдера OAuth](https://svn.php.net/viewvc/pecl/oauth/trunk/examples) у вихідних кодах модуля OAuth.
 
 ## Огляд класів
 

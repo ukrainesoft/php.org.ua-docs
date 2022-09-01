@@ -14,9 +14,9 @@ mysqlfieldname — Повертає назву вказаної колонки �
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.html) name або orgname
+-   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.md) name або orgname
 -   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md) name
 
 ### Опис
@@ -31,7 +31,7 @@ mysql_field_name(resource $result, int $field_offset): string|false
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
 
 `field_offset`
 
@@ -85,5 +85,5 @@ password
 
 ### Дивіться також
 
--   [mysqlfieldtype()](function.mysql-field-type.html) - Повертає тип вказаного поля із результату запиту
--   [mysqlfieldlen()](function.mysql-field-len.html) - Повертає довжину вказаного поля
+-   [mysqlfieldtype()](function.mysql-field-type.md) - Повертає тип вказаного поля із результату запиту
+-   [mysqlfieldlen()](function.mysql-field-len.md) - Повертає довжину вказаного поля

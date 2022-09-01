@@ -54,4 +54,4 @@ code
 
 ## Зміст
 
--   [Warning::construct](mysql-xdevapi-warning.construct.html) - Конструктор класу Warning
+-   [Warning::construct](mysql-xdevapi-warning.construct.md) - Конструктор класу Warning

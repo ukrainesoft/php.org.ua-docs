@@ -10,11 +10,11 @@ title: chop
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-chop - Псевдонім [rtrim()](function.rtrim.html)
+chop - Псевдонім [rtrim()](function.rtrim.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [rtrim()](function.rtrim.html)
+Ця функція є псевдонімом: [rtrim()](function.rtrim.md)
 
 ### Примітки
 

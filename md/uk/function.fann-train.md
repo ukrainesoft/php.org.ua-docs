@@ -28,11 +28,11 @@ fann_train(resource $ann, array $input, array $desired_output): bool
 
 `input`
 
-Масив вхідних даних. Розмір масиву має точно відповідати [fanngetnuminput()](function.fann-get-num-input.html)
+Масив вхідних даних. Розмір масиву має точно відповідати [fanngetnuminput()](function.fann-get-num-input.md)
 
 `desired_output`
 
-Масив бажаних результатів. Розмір масиву має точно відповідати [fanngetnumoutput()](function.fann-get-num-output.html)
+Масив бажаних результатів. Розмір масиву має точно відповідати [fanngetnumoutput()](function.fann-get-num-output.md)
 
 ### Значення, що повертаються
 
@@ -40,7 +40,7 @@ fann_train(resource $ann, array $input, array $desired_output): bool
 
 ### Дивіться також
 
--   [fanntrainвінdata()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
--   [fanntrainepoch()](function.fann-train-epoch.html) - Навчання протягом однієї епохи
--   [fanngetnuminput()](function.fann-get-num-input.html) - Отримує кількість вхідних нейронів
--   [fanngetnumoutput()](function.fann-get-num-output.html) - Отримує кількість вихідних нейронів
+-   [fanntrainвінdata()](function.fann-train-on-data.md) - Навчання на всьому обсязі даних на часовому інтервалі
+-   [fanntrainepoch()](function.fann-train-epoch.md) - Навчання протягом однієї епохи
+-   [fanngetnuminput()](function.fann-get-num-input.md) - Отримує кількість вхідних нейронів
+-   [fanngetnumoutput()](function.fann-get-num-output.md) - Отримує кількість вихідних нейронів

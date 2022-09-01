@@ -85,6 +85,6 @@ I'm Dad's son too
 
 ### Дивіться також
 
--   [getclass()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
--   [ісsubclassof()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його
--   [classparents()](function.class-parents.html) - Повертає список батьківських класів заданого класу
+-   [getclass()](function.get-class.md) - Повертає ім'я класу, до якого належить об'єкт
+-   [ісsubclassof()](function.is-subclass-of.md) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його
+-   [classparents()](function.class-parents.md) - Повертає список батьківських класів заданого класу

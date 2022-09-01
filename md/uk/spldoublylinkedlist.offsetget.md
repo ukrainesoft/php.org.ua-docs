@@ -30,4 +30,4 @@ public SplDoublyLinkedList::offsetGet(int $index): mixed
 
 ### Помилки
 
-Викидає виняток [OutOfRangeException](class.outofrangeexception.html), коли `index` виходить за межі, або коли `index` може бути представлений як цілого числа.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.md), коли `index` виходить за межі, або коли `index` може бути представлений як цілого числа.

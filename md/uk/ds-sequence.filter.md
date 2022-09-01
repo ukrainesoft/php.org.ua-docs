@@ -28,7 +28,7 @@ abstract public Ds\Sequence::filter(callable $callback = ?): Ds\Sequence
 callback(mixed $value): bool
 ```
 
-Необов'язковий аргумент типу [callable](language.types.callable.html), який повертає **`true`**, якщо значення має бути включено та **`false`**, якщо ні.
+Необов'язковий аргумент типу [callable](language.types.callable.md), який повертає **`true`**, якщо значення має бути включено та **`false`**, якщо ні.
 
 Якщо callback-функція не задана, будуть включені тільки елементи, які призводять до логічного значення **`true`** (дивися [приведение к boolean](language.types.boolean.html#language.types.boolean.casting)
 

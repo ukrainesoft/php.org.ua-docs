@@ -90,4 +90,4 @@ Array
 
 ### Дивіться також
 
--   [» SVN-документация по svn list](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.list.html)
+-   [» SVN-документация по svn list](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.list.md)

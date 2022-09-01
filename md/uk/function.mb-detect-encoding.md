@@ -34,7 +34,7 @@ mb_detect_encoding(string $string, array|string|null $encodings = null, bool $st
 
 Упорядкований список символів кодування. Список може бути вказаний як масив рядків або як рядок кодувань, розділених комами.
 
-Якщо `encodings` не заданий чи є **`null`**, буде використовуватись поточний detectorder (встановлений за допомогою параметра конфігурації [mbstring.detectorder](mbstring.configuration.html#ini.mbstring.detect-order) або функції [мбdetectorder()](function.mb-detect-order.html)
+Якщо `encodings` не заданий чи є **`null`**, буде використовуватись поточний detectorder (встановлений за допомогою параметра конфігурації [mbstring.detectorder](mbstring.configuration.html#ini.mbstring.detect-order) або функції [мбdetectorder()](function.mb-detect-order.md)
 
 `strict`
 
@@ -126,4 +126,4 @@ string(10) "ISO-8859-5"
 
 ### Дивіться також
 
--   [мбdetectorder()](function.mb-detect-order.html) - Встановлення/отримання списку кодувань для механізмів визначення кодування
+-   [мбdetectorder()](function.mb-detect-order.md) - Встановлення/отримання списку кодувань для механізмів визначення кодування

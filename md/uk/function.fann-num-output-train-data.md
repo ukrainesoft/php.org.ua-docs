@@ -32,5 +32,5 @@ fann_num_output_train_data(resource $data): int
 
 ### Дивіться також
 
--   [fannlengthtraindata()](function.fann-length-train-data.html) - Повертає кількість шаблонів у навчальних даних
--   [fannnuminputtraindata()](function.fann-num-input-train-data.html) - Повертає кількість вхідних даних у кожному із шаблонів у навчальних даних
+-   [fannlengthtraindata()](function.fann-length-train-data.md) - Повертає кількість шаблонів у навчальних даних
+-   [fannnuminputtraindata()](function.fann-num-input-train-data.md) - Повертає кількість вхідних даних у кожному із шаблонів у навчальних даних

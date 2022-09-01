@@ -59,5 +59,5 @@ while($s->valid()) {
 
 ### Дивіться також
 
--   [SplObjectStorage::current()](splobjectstorage.current.html) - Повертає поточний об'єкт
--   [SplObjectStorage::getInfo()](splobjectstorage.getinfo.html) - Повертає дані, що асоціюються з поточним об'єктом
+-   [SplObjectStorage::current()](splobjectstorage.current.md) - Повертає поточний об'єкт
+-   [SplObjectStorage::getInfo()](splobjectstorage.getinfo.md) - Повертає дані, що асоціюються з поточним об'єктом

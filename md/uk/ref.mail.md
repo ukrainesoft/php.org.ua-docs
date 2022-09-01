@@ -10,5 +10,5 @@ title: Пошта
 
 ## Зміст
 
--   [ezmlmhash](function.ezmlm-hash.html) — Обчислює хеш-суму, необхідну для EZMLM
+-   [ezmlmhash](function.ezmlm-hash.md) — Обчислює хеш-суму, необхідну для EZMLM
 -   [mail](function.mail.md) — Надсилає електронну пошту

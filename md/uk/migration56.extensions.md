@@ -21,10 +21,10 @@ title: Інші зміни у модулях
 
 ### [OCI8](book.oci8.md)
 
--   Підтримка неявних наборів результатів для Oracle Database 12c була додана за допомогою нової функції [ocigetimplicitresultset()](function.oci-get-implicit-resultset.html)
+-   Підтримка неявних наборів результатів для Oracle Database 12c була додана за допомогою нової функції [ocigetimplicitresultset()](function.oci-get-implicit-resultset.md)
 -   За допомогою `oci_execute($s, OCI_NO_AUTO_COMMIT)`для SELECT більше необов'язково ініціювати внутрішній ROLLBACK під час закриття з'єднання.
 -   Додані зонди DTrace, що контролюються за допомогою опції конфігурації `--enable-dtrace`
--   [ociinternaldebug()](function.oci-internal-debug.html) тепер нічого не робить.
+-   [ociinternaldebug()](function.oci-internal-debug.md) тепер нічого не робить.
 -   Формат виведення функції [phpinfo()](function.phpinfo.md) для OCI8 змінилося.
 
 ### [Zip](book.zip.md)

@@ -20,13 +20,13 @@ yaz_syntax(resource $id, string $syntax): void
 
 **yazsyntax()** задає синтаксис, що віддається перевагу, для видобутого запису
 
-Функція повинна бути викликана до [yazsearch()](function.yaz-search.html) або [yazpresent()](function.yaz-present.html)
+Функція повинна бути викликана до [yazsearch()](function.yaz-search.html) або [yazpresent()](function.yaz-present.md)
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, що повертається [yazconnect()](function.yaz-connect.html)
+Дескриптор з'єднання, що повертається [yazconnect()](function.yaz-connect.md)
 
 `syntax`
 

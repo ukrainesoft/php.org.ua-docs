@@ -10,8 +10,8 @@ title: doubleval
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-doubleval - Псевдонім [floatval()](function.floatval.html)
+doubleval - Псевдонім [floatval()](function.floatval.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [floatval()](function.floatval.html)
+Ця функція є псевдонімом: [floatval()](function.floatval.md)

@@ -48,4 +48,4 @@ $gmclient->addServers("10.0.0.1,10.0.0.2:7003");
 
 ### Дивіться також
 
--   [GearmanClient::addServer()](gearmanclient.addserver.html) - Додати сервер завдань для клієнта
+-   [GearmanClient::addServer()](gearmanclient.addserver.md) - Додати сервер завдань для клієнта

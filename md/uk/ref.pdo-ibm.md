@@ -32,4 +32,4 @@ bash$ ./configure --with-pdo-ibm=/path/to/sqllib[,shared]
 
 ## Зміст
 
--   [PDOIBM DSN](ref.pdo-ibm.connection.html) — З'єднання з базою даних IBM
+-   [PDOIBM DSN](ref.pdo-ibm.connection.md) — З'єднання з базою даних IBM

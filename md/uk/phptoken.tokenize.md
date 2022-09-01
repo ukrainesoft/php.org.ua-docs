@@ -82,4 +82,4 @@ echo "'{$tokens[0]->getUpperText()}'";
 
 ### Дивіться також
 
--   [tokengetall()](function.token-get-all.html) - Розбиває переданий вихідний код на PHP-лексеми
+-   [tokengetall()](function.token-get-all.md) - Розбиває переданий вихідний код на PHP-лексеми

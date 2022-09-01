@@ -10,7 +10,7 @@ title: sqlsrvfieldmetadata
 
 (No version information available, might only be in Git)
 
-sqlsrvfieldmetadata — Отримує метадані для полів оператора, підготовленого за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.html) або [sqlsrvquery()](function.sqlsrv-query.html)
+sqlsrvfieldmetadata — Отримує метадані для полів оператора, підготовленого за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.html) або [sqlsrvquery()](function.sqlsrv-query.md)
 
 ### Опис
 
@@ -18,7 +18,7 @@ sqlsrvfieldmetadata — Отримує метадані для полів опе
 sqlsrv_field_metadata(resource $stmt): mixed
 ```
 
-Отримує метадані для полів оператора, підготовленого за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.html) або [sqlsrvquery()](function.sqlsrv-query.html). . **sqlsrvfieldmetadata()** може викликатися оператора до або після виконання оператора.
+Отримує метадані для полів оператора, підготовленого за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.html) або [sqlsrvquery()](function.sqlsrv-query.md). . **sqlsrvfieldmetadata()** може викликатися оператора до або після виконання оператора.
 
 ### Список параметрів
 
@@ -70,4 +70,4 @@ foreach( sqlsrv_field_metadata( $stmt ) as $fieldMetadata ) {
 
 ### Дивіться також
 
--   [sqlsrvclientinfo()](function.sqlsrv-client-info.html) - Повертає інформацію про клієнта та зазначене підключення
+-   [sqlsrvclientinfo()](function.sqlsrv-client-info.md) - Повертає інформацію про клієнта та зазначене підключення

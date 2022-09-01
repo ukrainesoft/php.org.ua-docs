@@ -24,7 +24,7 @@ enchant_dict_quick_check(EnchantDictionary $dictionary, string $word, array &$su
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
 
 `word`
 
@@ -96,5 +96,5 @@ Array
 
 ### Дивіться також
 
--   [enchantdictcheck()](function.enchant-dict-check.html) - Перевіряє, чи правильно задано слово
--   [enchantdictsuggest()](function.enchant-dict-suggest.html) - Поверне список можливих варіантів для слова з помилкою
+-   [enchantdictcheck()](function.enchant-dict-check.md) - Перевіряє, чи правильно задано слово
+-   [enchantdictsuggest()](function.enchant-dict-suggest.md) - Поверне список можливих варіантів для слова з помилкою

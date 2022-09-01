@@ -253,6 +253,6 @@ array(13) {
 
 ### Дивіться також
 
--   [dateparsefromformat()](function.date-parse-from-format.html) - Отримання інформації про задану у визначеному форматі дату для розбору параметра `datetime` з певним заданим форматом
+-   [dateparsefromformat()](function.date-parse-from-format.md) - Отримання інформації про задану у визначеному форматі дату для розбору параметра `datetime` з певним заданим форматом
 -   [checkdate()](function.checkdate.md) - Перевіряє коректність дати за григоріанським календарем
 -   [getdate()](function.getdate.md) - Повертає інформацію про дату/час

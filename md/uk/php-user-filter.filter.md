@@ -18,7 +18,7 @@ phpuserfilter::filter — Викликається, як тільки засто
 public php_user_filter::filter(    resource $in,    resource $out,    int &$consumed,    bool $closing): int
 ```
 
-Цей метод викликається щоразу, коли дані читаються з приєднаного потоку або записуються до нього (такими функціями, як [fread()](function.fread.html) або [fwrite()](function.fwrite.html)
+Цей метод викликається щоразу, коли дані читаються з приєднаного потоку або записуються до нього (такими функціями, як [fread()](function.fread.html) або [fwrite()](function.fwrite.md)
 
 ### Список параметрів
 

@@ -20,7 +20,7 @@ strval(mixed $value): string
 
 Повертає строкове значення змінної. Дивіться документацію типу string для більш детальної інформації про перетворення в рядок.
 
-Ця функція не робить форматування значення, що повертається. Якщо потрібно привести числове значення до рядка з особливим форматом, скористайтесь [sprintf()](function.sprintf.md) або [numberformat()](function.number-format.html)
+Ця функція не робить форматування значення, що повертається. Якщо потрібно привести числове значення до рядка з особливим форматом, скористайтесь [sprintf()](function.sprintf.md) або [numberformat()](function.number-format.md)
 
 ### Список параметрів
 
@@ -60,6 +60,6 @@ echo strval(new StrValTest);
 -   [intval()](function.intval.md) - Повертає ціле значення змінної
 -   [settype()](function.settype.md) - Задає тип змінної
 -   [sprintf()](function.sprintf.md) - Повертає відформатований рядок
--   [numberformat()](function.number-format.html) - Форматує число з поділом груп
--   [Маніпуляції з типами](language.types.type-juggling.html)
+-   [numberformat()](function.number-format.md) - Форматує число з поділом груп
+-   [Маніпуляції з типами](language.types.type-juggling.md)
 -   [toString()](language.oop5.magic.html#object.tostring)

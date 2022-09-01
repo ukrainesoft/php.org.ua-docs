@@ -54,4 +54,4 @@ curl
 
 ### Дивіться також
 
--   [getresourceid()](function.get-resource-id.html) - Повертає цілий ідентифікатор для даного ресурсу
+-   [getresourceid()](function.get-resource-id.md) - Повертає цілий ідентифікатор для даного ресурсу

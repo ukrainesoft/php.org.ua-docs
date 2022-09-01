@@ -65,8 +65,8 @@ echo $info['key'];
 
 ### Дивіться також
 
--   [opensslcsrgetsubject()](function.openssl-csr-get-subject.html) - Повертає суб'єкт CSR
--   [opensslcsrnew()](function.openssl-csr-new.html) - Генерує CSR
--   [opensslpkeygetdetails()](function.openssl-pkey-get-details.html) - Отримує масив з детальною інформацією про ключ
--   [opensslpkeyexportтоfile()](function.openssl-pkey-export-to-file.html) - Записує у файл ключ у форматі PEM
--   [opensslpkeyexport()](function.openssl-pkey-export.html) - Отримує рядок із ключем у форматі PEM
+-   [opensslcsrgetsubject()](function.openssl-csr-get-subject.md) - Повертає суб'єкт CSR
+-   [opensslcsrnew()](function.openssl-csr-new.md) - Генерує CSR
+-   [opensslpkeygetdetails()](function.openssl-pkey-get-details.md) - Отримує масив з детальною інформацією про ключ
+-   [opensslpkeyexportтоfile()](function.openssl-pkey-export-to-file.md) - Записує у файл ключ у форматі PEM
+-   [opensslpkeyexport()](function.openssl-pkey-export.md) - Отримує рядок із ключем у форматі PEM

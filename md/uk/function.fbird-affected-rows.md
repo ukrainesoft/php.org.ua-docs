@@ -10,13 +10,13 @@ title: fbirdaffectedrows
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdaffectedrows - Псевдонім [ibaseaffectedrows()](function.ibase-affected-rows.html)
+fbirdaffectedrows - Псевдонім [ibaseaffectedrows()](function.ibase-affected-rows.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibaseaffectedrows()](function.ibase-affected-rows.html)
+Ця функція є псевдонімом: [ibaseaffectedrows()](function.ibase-affected-rows.md)
 
 ### Дивіться також
 
--   [fbirdquery()](function.fbird-query.html) - Псевдонім ibasequery
--   [fbirdexecute()](function.fbird-execute.html) - Псевдонім ibaseexecute
+-   [fbirdquery()](function.fbird-query.md) - Псевдонім ibasequery
+-   [fbirdexecute()](function.fbird-execute.md) - Псевдонім ibaseexecute

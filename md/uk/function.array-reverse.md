@@ -90,4 +90,4 @@ Array
 
 ### Дивіться також
 
--   [arrayflip()](function.array-flip.html) - Змінює місцями ключі з їхніми значеннями у масиві
+-   [arrayflip()](function.array-flip.md) - Змінює місцями ключі з їхніми значеннями у масиві

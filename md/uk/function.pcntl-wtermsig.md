@@ -18,13 +18,13 @@ pcntlwtermsig — Отримати сигнал, через який було п
 pcntl_wtermsig(int $status): int|false
 ```
 
-Повертає номер сигналу, через який примусово завершили дочірній процес. Має сенс тільки якщо [pcntlwifsignaled()](function.pcntl-wifsignaled.html) повернула **`true`**
+Повертає номер сигналу, через який примусово завершили дочірній процес. Має сенс тільки якщо [pcntlwifsignaled()](function.pcntl-wifsignaled.md) повернула **`true`**
 
 ### Список параметрів
 
 `status`
 
-Параметр `status` - це параметр статусу, який передається для успішного виклику функції [pcntlwaitpid()](function.pcntl-waitpid.html)
+Параметр `status` - це параметр статусу, який передається для успішного виклику функції [pcntlwaitpid()](function.pcntl-waitpid.md)
 
 ### Значення, що повертаються
 
@@ -32,6 +32,6 @@ pcntl_wtermsig(int $status): int|false
 
 ### Дивіться також
 
--   [pcntlwaitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу
--   [pcntlsignal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу
--   [pcntlwifsignaled()](function.pcntl-wifsignaled.html) - Перевірити, чи код завершення процесу завершення по сигналу
+-   [pcntlwaitpid()](function.pcntl-waitpid.md) - Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntlsignal()](function.pcntl-signal.md) - Встановлення оброблювача сигналу
+-   [pcntlwifsignaled()](function.pcntl-wifsignaled.md) - Перевірити, чи код завершення процесу завершення по сигналу

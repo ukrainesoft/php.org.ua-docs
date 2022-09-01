@@ -170,12 +170,12 @@ call_user_func(function($arg) { print "[$arg]\n"; }, 'test');
 
 > **Зауваження**
 > 
-> Callback-функції, зареєстровані такими функціями як **calluserfunc()** і [calluserfuncarray()](function.call-user-func-array.html), не будуть викликані за наявності не спійманого виключення, кинутого у попередній callback-функції.
+> Callback-функції, зареєстровані такими функціями як **calluserfunc()** і [calluserfuncarray()](function.call-user-func-array.md), не будуть викликані за наявності не спійманого виключення, кинутого у попередній callback-функції.
 
 ### Дивіться також
 
--   [calluserfuncarray()](function.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів
--   [ісcallable()](function.is-callable.html) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
--   [Звернення до функцій через змінні](functions.variable-functions.html)
+-   [calluserfuncarray()](function.call-user-func-array.md) - Викликає callback-функцію з масивом параметрів
+-   [ісcallable()](function.is-callable.md) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
+-   [Звернення до функцій через змінні](functions.variable-functions.md)
 -   [ReflectionFunction::invoke()](reflectionfunction.invoke.md) - Викликає функцію
 -   [ReflectionMethod::invoke()](reflectionmethod.invoke.md) - Виклик

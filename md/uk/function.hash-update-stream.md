@@ -22,7 +22,7 @@ hash_update_stream(HashContext $context, resource $stream, int $length = -1): in
 
 `context`
 
-Контекст хешування, що повертається [hashinit()](function.hash-init.html)
+Контекст хешування, що повертається [hashinit()](function.hash-init.md)
 
 `stream`
 
@@ -66,8 +66,8 @@ bff8b4bc8b5c1c1d5b3211dfb21d1e76
 
 ### Дивіться також
 
--   [hashinit()](function.hash-init.html) - Ініціалізація інкрементального контексту хешування
--   [hashupdate()](function.hash-update.html) - Додає дані до активного контексту хешування
--   [hashfinal()](function.hash-final.html) - Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду
+-   [hashinit()](function.hash-init.md) - Ініціалізація інкрементального контексту хешування
+-   [hashupdate()](function.hash-update.md) - Додає дані до активного контексту хешування
+-   [hashfinal()](function.hash-final.md) - Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду
 -   [hash()](function.hash.md) - Генерує хеш-код (підпис повідомлення)
--   [hashfile()](function.hash-file.html) - Генерація хеш-значення, використовуючи вміст заданого файлу
+-   [hashfile()](function.hash-file.md) - Генерація хеш-значення, використовуючи вміст заданого файлу

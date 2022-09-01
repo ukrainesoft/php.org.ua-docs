@@ -48,4 +48,4 @@ if ($get_prot === FALSE) {
 
 ### Дивіться також
 
--   [getprotobynumber()](function.getprotobynumber.html) - Отримує ім'я протоколу за номером
+-   [getprotobynumber()](function.getprotobynumber.md) - Отримує ім'я протоколу за номером

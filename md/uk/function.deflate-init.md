@@ -70,5 +70,5 @@ dictionary
 
 ### Дивіться також
 
--   [deflateadd()](function.deflate-add.html) - Інкрементальний стиск даних
--   [inflateinit()](function.inflate-init.html) - Ініціалізація контексту інкрементального розпакування
+-   [deflateadd()](function.deflate-add.md) - Інкрементальний стиск даних
+-   [inflateinit()](function.inflate-init.md) - Ініціалізація контексту інкрементального розпакування

@@ -56,8 +56,8 @@ apache_setenv("EXAMPLE_VAR", "Какое-либо значение");
 
 > **Зауваження**
 > 
-> **apachesetenv()** можна використовувати разом з [apachegetenv()](function.apache-getenv.html) на різних сторінках або визначення змінних, які потрібно передати включенням на стороні сервера SSI (.shtml), які, у свою чергу, були включені в PHP-скрипти.
+> **apachesetenv()** можна використовувати разом з [apachegetenv()](function.apache-getenv.md) на різних сторінках або визначення змінних, які потрібно передати включенням на стороні сервера SSI (.shtml), які, у свою чергу, були включені в PHP-скрипти.
 
 ### Дивіться також
 
--   [apachegetenv()](function.apache-getenv.html) - Повертає змінну оточення підпроцесу сервера Apache
+-   [apachegetenv()](function.apache-getenv.md) - Повертає змінну оточення підпроцесу сервера Apache

@@ -24,7 +24,7 @@ libxml_set_streams_context(resource $context): void
 
 `context`
 
-Ресурс контексту потоку (створений функцією [streamcontextcreate()](function.stream-context-create.html)
+Ресурс контексту потоку (створений функцією [streamcontextcreate()](function.stream-context-create.md)
 
 ### Значення, що повертаються
 
@@ -54,4 +54,4 @@ $doc = DOMDocument::load('http://www.example.com/file.xml');
 
 ### Дивіться також
 
--   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку
+-   [streamcontextcreate()](function.stream-context-create.md) - Створює контекст потоку

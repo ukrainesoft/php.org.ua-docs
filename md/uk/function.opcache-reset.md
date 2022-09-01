@@ -30,4 +30,4 @@ opcache_reset(): bool
 
 ### Дивіться також
 
--   [opcacheinvalidate()](function.opcache-invalidate.html) - анулює закешований скрипт
+-   [opcacheinvalidate()](function.opcache-invalidate.md) - анулює закешований скрипт

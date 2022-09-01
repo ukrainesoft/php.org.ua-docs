@@ -4,25 +4,25 @@ navigation:
   - class.iterator.html: Iterator »
   - index.html: PHP Manual
   - reserved.interfaces.html: Вбудовані інтерфейси та класи
-title: 'Інтерфейс [Traversable](class.traversable.html)'
+title: 'Інтерфейс [Traversable](class.traversable.md)'
 ---
-# Інтерфейс [Traversable](class.traversable.html)
+# Інтерфейс [Traversable](class.traversable.md)
 
 (PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
-Інтерфейс, що визначає, чи є клас обхідним (traversable) з використанням [foreach](control-structures.foreach.html)
+Інтерфейс, що визначає, чи є клас обхідним (traversable) з використанням [foreach](control-structures.foreach.md)
 
-Абстрактний базовий інтерфейс, який може бути реалізований сам собою. Натомість має реалізовуватися [IteratorAggregate](class.iteratoraggregate.html) або [Iterator](class.iterator.html)
-
-> **Зауваження**
-> 
-> Внутрішні (вбудовані) класи, які реалізують цей інтерфейс, можуть бути використані у конструкції [foreach](control-structures.foreach.html) і зобов'язані реалізовувати [IteratorAggregate](class.iteratoraggregate.html) або [Iterator](class.iterator.html)
+Абстрактний базовий інтерфейс, який може бути реалізований сам собою. Натомість має реалізовуватися [IteratorAggregate](class.iteratoraggregate.html) або [Iterator](class.iterator.md)
 
 > **Зауваження**
 > 
-> Це внутрішній інтерфейс, який може бути реалізований у скрипті PHP. Замість нього потрібно використовувати або [IteratorAggregate](class.iteratoraggregate.html), або [Iterator](class.iterator.html). При реалізації інтерфейсу, що успадковує від Traversable, переконайтеся, що у секції implements перед його ім'ям стоїть [IteratorAggregate](class.iteratoraggregate.html) або [Iterator](class.iterator.html)
+> Внутрішні (вбудовані) класи, які реалізують цей інтерфейс, можуть бути використані у конструкції [foreach](control-structures.foreach.html) і зобов'язані реалізовувати [IteratorAggregate](class.iteratoraggregate.html) або [Iterator](class.iterator.md)
+
+> **Зауваження**
+> 
+> Це внутрішній інтерфейс, який може бути реалізований у скрипті PHP. Замість нього потрібно використовувати або [IteratorAggregate](class.iteratoraggregate.html), або [Iterator](class.iterator.html). При реалізації інтерфейсу, що успадковує від Traversable, переконайтеся, що у секції implements перед його ім'ям стоїть [IteratorAggregate](class.iteratoraggregate.html) або [Iterator](class.iterator.md)
 
 ## Огляд інтерфейсів
 

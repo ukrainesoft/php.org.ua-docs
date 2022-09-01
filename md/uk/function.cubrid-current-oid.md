@@ -60,4 +60,4 @@ Array
 
 ### Дивіться також
 
--   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
+-   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор

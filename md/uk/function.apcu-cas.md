@@ -74,5 +74,5 @@ $foobar = 1
 
 ### Дивіться також
 
--   [apcudec()](function.apcu-dec.html) - Зменшити збережене число
--   [apcustore()](function.apcu-store.html) - Кешує змінну
+-   [apcudec()](function.apcu-dec.md) - Зменшити збережене число
+-   [apcustore()](function.apcu-store.md) - Кешує змінну

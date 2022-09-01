@@ -110,4 +110,4 @@ array(2) {
 
 ### Дивіться також
 
--   [SeasLog::analyzerCount()](seaslog.analyzercount.html) - Отримує кількість журналів за рівнем, logpath і keyслово
+-   [SeasLog::analyzerCount()](seaslog.analyzercount.md) - Отримує кількість журналів за рівнем, logpath і keyслово

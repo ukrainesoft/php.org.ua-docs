@@ -24,7 +24,7 @@ dba_insert(string|array $key, string $value, resource $dba): bool
 
 `key`
 
-Ключ запису для вставки. Якщо такий ключ вже існує у базі даних, функція завершиться з помилкою. Для заміни запису використовуйте функцію [dbareplace()](function.dba-replace.html)
+Ключ запису для вставки. Якщо такий ключ вже існує у базі даних, функція завершиться з помилкою. Для заміни запису використовуйте функцію [dbareplace()](function.dba-replace.md)
 
 `value`
 
@@ -32,7 +32,7 @@ dba_insert(string|array $key, string $value, resource $dba): bool
 
 `dba`
 
-Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.html)
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 
@@ -40,7 +40,7 @@ dba_insert(string|array $key, string $value, resource $dba): bool
 
 ### Дивіться також
 
--   [dbaexists()](function.dba-exists.html) - Перевіряє, чи існує ключ
--   [dbadelete()](function.dba-delete.html) - Видаляє запис бази даних, визначену ключем
--   [dbafetch()](function.dba-fetch.html) - Витягує дані за вказаним ключем
--   [dbareplace()](function.dba-replace.html) - Перезаписати або вставити запис
+-   [dbaexists()](function.dba-exists.md) - Перевіряє, чи існує ключ
+-   [dbadelete()](function.dba-delete.md) - Видаляє запис бази даних, визначену ключем
+-   [dbafetch()](function.dba-fetch.md) - Витягує дані за вказаним ключем
+-   [dbareplace()](function.dba-replace.md) - Перезаписати або вставити запис

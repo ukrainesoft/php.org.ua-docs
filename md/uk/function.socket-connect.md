@@ -18,13 +18,13 @@ socketconnect — Починає з'єднання з сокетом
 socket_connect(Socket $socket, string $address, ?int $port = null): bool
 ```
 
-Ініціалізує з'єднання з адресою `address`, використовуючи екземпляр [Socket](class.socket.md) `socket`, який має бути екземпляром [Socket](class.socket.md), створеним за допомогою функції [socketcreate()](function.socket-create.html)
+Ініціалізує з'єднання з адресою `address`, використовуючи екземпляр [Socket](class.socket.md) `socket`, який має бути екземпляром [Socket](class.socket.md), створеним за допомогою функції [socketcreate()](function.socket-create.md)
 
 ### Список параметрів
 
 `socket`
 
-Екземпляр [Socket](class.socket.md), створений за допомогою [socketcreate()](function.socket-create.html)
+Екземпляр [Socket](class.socket.md), створений за допомогою [socketcreate()](function.socket-create.md)
 
 `address`
 
@@ -36,7 +36,7 @@ socket_connect(Socket $socket, string $address, ?int $port = null): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Код помилки можна отримати за допомогою функції [socketlasterror()](function.socket-last-error.html). Цей код може бути потім переданий функції [socketstrerror()](function.socket-strerror.html) для отримання текстового опису помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Код помилки можна отримати за допомогою функції [socketlasterror()](function.socket-last-error.html). Цей код може бути потім переданий функції [socketstrerror()](function.socket-strerror.md) для отримання текстового опису помилки.
 
 > **Зауваження**
 > 
@@ -51,8 +51,8 @@ socket_connect(Socket $socket, string $address, ?int $port = null): bool
 
 ### Дивіться також
 
--   [socketbind()](function.socket-bind.html) - Прив'язує ім'я до сокету
--   [socketlisten()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
--   [socketcreate()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
--   [socketlasterror()](function.socket-last-error.html) - Повертає останню помилку на сокеті
--   [socketstrerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
+-   [socketbind()](function.socket-bind.md) - Прив'язує ім'я до сокету
+-   [socketlisten()](function.socket-listen.md) - Прослуховує вхідні з'єднання на сокеті
+-   [socketcreate()](function.socket-create.md) - створює сокет (кінцеву точку для обміну інформацією)
+-   [socketlasterror()](function.socket-last-error.md) - Повертає останню помилку на сокеті
+-   [socketstrerror()](function.socket-strerror.md) - Повертає рядок, що описує помилку сокету

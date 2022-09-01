@@ -46,5 +46,5 @@ int(412)
 
 ### Дивіться також
 
--   [realpathcacheget()](function.realpath-cache-get.html) - Отримує записи з кеша realpath
+-   [realpathcacheget()](function.realpath-cache-get.md) - Отримує записи з кеша realpath
 -   Конфігураційна опція [realpathcachesize](ini.core.html#ini.realpath-cache-size)

@@ -8,7 +8,7 @@ title: Формати часу
 ---
 ## Формати часу
 
-На цій сторінці описані формати дати/часу, які розуміє парсер функцій: [DateTimeImmutable](class.datetimeimmutable.md) [DateTime](class.datetime.md) [datecreate()](function.date-create.html) [datecreateimmutable()](function.date-create-immutable.html) і [strtotime()](function.strtotime.md)
+На цій сторінці описані формати дати/часу, які розуміє парсер функцій: [DateTimeImmutable](class.datetimeimmutable.md) [DateTime](class.datetime.md) [datecreate()](function.date-create.html) [datecreateimmutable()](function.date-create-immutable.md) і [strtotime()](function.strtotime.md)
 
 **Використовувані символи**
 

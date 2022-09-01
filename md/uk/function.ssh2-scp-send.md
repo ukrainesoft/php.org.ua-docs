@@ -24,7 +24,7 @@ ssh2_scp_send(    resource $session,    string $local_file,    strin
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
 
 `local_file`
 
@@ -57,5 +57,5 @@ ssh2_scp_send($connection, '/local/filename', '/remote/filename', 0644);
 
 ### Дивіться також
 
--   [ssh2scprecv()](function.ssh2-scp-recv.html) - Запит файлу через SCP
+-   [ssh2scprecv()](function.ssh2-scp-recv.md) - Запит файлу через SCP
 -   [copy()](function.copy.md) - Копіює файл

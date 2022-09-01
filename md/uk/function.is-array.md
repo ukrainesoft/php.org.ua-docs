@@ -56,7 +56,7 @@ echo is_array($no) ? 'Масив' : 'Не Масив';
 
 ### Дивіться також
 
--   [ісfloat()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [ісint()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
--   [ісstring()](function.is-string.html) - Перевіряє, чи є змінним рядком
--   [ісobject()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
+-   [ісfloat()](function.is-float.md) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [ісint()](function.is-int.md) - Перевіряє, чи є змінна цілим числом
+-   [ісstring()](function.is-string.md) - Перевіряє, чи є змінним рядком
+-   [ісobject()](function.is-object.md) - Перевіряє, чи є змінна об'єктом

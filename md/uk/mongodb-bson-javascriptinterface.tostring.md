@@ -18,7 +18,7 @@ MongoDBBSONJavascriptInterface::toString — Повертає код JavascriptI
 abstract public MongoDB\BSON\JavascriptInterface::__toString(): string
 ```
 
-Цей метод є псевдонімом: [MongoDBBSONJavascriptInterface::getCode()](mongodb-bson-javascriptinterface.getcode.html)
+Цей метод є псевдонімом: [MongoDBBSONJavascriptInterface::getCode()](mongodb-bson-javascriptinterface.getcode.md)
 
 ### Список параметрів
 
@@ -30,5 +30,5 @@ abstract public MongoDB\BSON\JavascriptInterface::__toString(): string
 
 ### Дивіться також
 
--   [MongoDBBSONJavascriptInterface::getCode()](mongodb-bson-javascriptinterface.getcode.html) - Повертає код JavascriptInterface
--   [MongoDBBSONJavascript::toString()](mongodb-bson-javascript.tostring.html) - Повертає код JavaScript
+-   [MongoDBBSONJavascriptInterface::getCode()](mongodb-bson-javascriptinterface.getcode.md) - Повертає код JavascriptInterface
+-   [MongoDBBSONJavascript::toString()](mongodb-bson-javascript.tostring.md) - Повертає код JavaScript

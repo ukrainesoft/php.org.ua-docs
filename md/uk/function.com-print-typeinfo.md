@@ -24,7 +24,7 @@ com_print_typeinfo(variant|string $variant, ?string $dispatch_interface = null, 
 
 `variant`
 
-`variant` повинен бути екземпляром класу COM, або ім'ям бібліотеки типів (яке буде розібрано згідно з набором правил, заданим у [comloadtypelib()](function.com-load-typelib.html)
+`variant` повинен бути екземпляром класу COM, або ім'ям бібліотеки типів (яке буде розібрано згідно з набором правил, заданим у [comloadtypelib()](function.com-load-typelib.md)
 
 `dispatch_interface`
 
@@ -40,5 +40,5 @@ com_print_typeinfo(variant|string $variant, ?string $dispatch_interface = null, 
 
 ### Дивіться також
 
--   [comeventsink()](function.com-event-sink.html) - Зв'язати повідомлення COM з об'єктом PHP
--   [comloadtypelib()](function.com-load-typelib.html) - Завантаження Typelib
+-   [comeventsink()](function.com-event-sink.md) - Зв'язати повідомлення COM з об'єктом PHP
+-   [comloadtypelib()](function.com-load-typelib.md) - Завантаження Typelib

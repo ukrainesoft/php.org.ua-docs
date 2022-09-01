@@ -10,7 +10,7 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](oauth.requirements.html)
--   [Установка](oauth.installation.html)
--   [Налаштування під час виконання](oauth.configuration.html)
--   [Типи ресурсів](oauth.resources.html)
+-   [Вимоги](oauth.requirements.md)
+-   [Установка](oauth.installation.md)
+-   [Налаштування під час виконання](oauth.configuration.md)
+-   [Типи ресурсів](oauth.resources.md)

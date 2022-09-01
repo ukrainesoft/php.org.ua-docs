@@ -66,4 +66,4 @@ echo stream_copy_to_stream($src, $dest2) . " байт скопирован
 
 ### Дивіться також
 
--   [copy()](function.copy.html) - Копіює файл
+-   [copy()](function.copy.md) - Копіює файл

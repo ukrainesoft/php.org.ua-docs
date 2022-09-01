@@ -10,5 +10,5 @@ title: Функції IDN
 
 ## Зміст
 
--   [idnтоascii](function.idn-to-ascii.html) — Перетворити доменне ім'я на формат IDNA ASCII
--   [idnтоutf8](function.idn-to-utf8.html) — Перетворення доменного імені з IDNA ASCII на Unicode
+-   [idnтоascii](function.idn-to-ascii.md) — Перетворити доменне ім'я на формат IDNA ASCII
+-   [idnтоutf8](function.idn-to-utf8.md) — Перетворення доменного імені з IDNA ASCII на Unicode

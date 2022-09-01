@@ -24,7 +24,7 @@ cubrid_num_fields(resource $result): int
 
 `result`
 
-`result`, отриманий з [cubridexecute()](function.cubrid-execute.html) [cubridquery()](function.cubrid-query.html) або [cubridprepare()](function.cubrid-prepare.html)
+`result`, отриманий з [cubridexecute()](function.cubrid-execute.html) [cubridquery()](function.cubrid-query.html) або [cubridprepare()](function.cubrid-prepare.md)
 
 ### Значення, що повертаються
 

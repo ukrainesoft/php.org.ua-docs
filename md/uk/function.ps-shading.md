@@ -18,7 +18,7 @@ title: псshading
 ps_shading(    resource $psdoc,    string $type,    float $x0,    float $y0,    float $x1,    float $y1,    float $c1,    float $c2,    float $c3,    float $c4,    string $optlist): int|false
 ```
 
-Створює затінення, яке можна використовувати функцією [псshfill()](function.ps-shfill.html) або [псshadingpattern()](function.ps-shading-pattern.html)
+Створює затінення, яке можна використовувати функцією [псshfill()](function.ps-shfill.html) або [псshadingpattern()](function.ps-shading-pattern.md)
 
 Колір затінення може бути в будь-якому колірному просторі, крім `pattern`
 
@@ -26,11 +26,11 @@ ps_shading(    resource $psdoc,    string $type,    float $x0,   
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 `type`
 
-Тип затінення може бути `radial` або `axial`. Кожне затінення починається з поточного кольору заливки та закінчується заданими значеннями кольору, переданими у параметрах від `c1` до `c4` (опис їх значень дивіться в [псsetcolor()](function.ps-setcolor.html)
+Тип затінення може бути `radial` або `axial`. Кожне затінення починається з поточного кольору заливки та закінчується заданими значеннями кольору, переданими у параметрах від `c1` до `c4` (опис їх значень дивіться в [псsetcolor()](function.ps-setcolor.md)
 
 `x0, x1, y0, y1`
 
@@ -38,7 +38,7 @@ ps_shading(    resource $psdoc,    string $type,    float $x0,   
 
 `c1, c2, c3, c4`
 
-Дивіться опис їх значень у [псsetcolor()](function.ps-setcolor.html)
+Дивіться опис їх значень у [псsetcolor()](function.ps-setcolor.md)
 
 `optlist`
 
@@ -50,5 +50,5 @@ ps_shading(    resource $psdoc,    string $type,    float $x0,   
 
 ### Дивіться також
 
--   [псshadingpattern()](function.ps-shading-pattern.html) - Створює візерунок на основі затінення
--   [псshfill()](function.ps-shfill.html) - Заповнює область затіненням
+-   [псshadingpattern()](function.ps-shading-pattern.md) - Створює візерунок на основі затінення
+-   [псshfill()](function.ps-shfill.md) - Заповнює область затіненням

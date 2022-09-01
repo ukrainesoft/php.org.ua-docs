@@ -10,7 +10,7 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](inotify.requirements.html)
--   [Встановлення та налаштування](inotify.install.html)
--   [Налаштування під час виконання](inotify.configuration.html)
--   [Типи ресурсів](inotify.resources.html)
+-   [Вимоги](inotify.requirements.md)
+-   [Встановлення та налаштування](inotify.install.md)
+-   [Налаштування під час виконання](inotify.configuration.md)
+-   [Типи ресурсів](inotify.resources.md)

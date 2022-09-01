@@ -62,4 +62,4 @@ body
 
 ## Зміст
 
--   [StompFrame::construct](stompframe.construct.html) - Конструктор
+-   [StompFrame::construct](stompframe.construct.md) - Конструктор

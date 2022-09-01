@@ -24,11 +24,11 @@ pg_result_seek(PgSql\Result $result, int $row): bool
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `row`
 
-Кількість рядків, на які потрібно змістити внутрішній покажчик ресурсу [PgSqlResult](class.pgsql-result.html). Рядки нумеруються з нуля.
+Кількість рядків, на які потрібно змістити внутрішній покажчик ресурсу [PgSqlResult](class.pgsql-result.md). Рядки нумеруються з нуля.
 
 ### Значення, що повертаються
 
@@ -38,7 +38,7 @@ pg_result_seek(PgSql\Result $result, int $row): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -65,8 +65,8 @@ $row = pg_fetch_row($result);
 
 ### Дивіться також
 
--   [пгfetchrow()](function.pg-fetch-row.html) - Вибирає рядок результату запиту та поміщає дані до масиву
--   [пгfetchassoc()](function.pg-fetch-assoc.html) - Вибирає рядок результату запиту та поміщає дані до асоціативного масиву
--   [пгfetcharray()](function.pg-fetch-array.html) - Повертає рядок результату у вигляді масиву
--   [пгfetchobject()](function.pg-fetch-object.html) - Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
--   [пгfetchresult()](function.pg-fetch-result.html) - Повертає запис із результату запиту
+-   [пгfetchrow()](function.pg-fetch-row.md) - Вибирає рядок результату запиту та поміщає дані до масиву
+-   [пгfetchassoc()](function.pg-fetch-assoc.md) - Вибирає рядок результату запиту та поміщає дані до асоціативного масиву
+-   [пгfetcharray()](function.pg-fetch-array.md) - Повертає рядок результату у вигляді масиву
+-   [пгfetchobject()](function.pg-fetch-object.md) - Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
+-   [пгfetchresult()](function.pg-fetch-result.md) - Повертає запис із результату запиту

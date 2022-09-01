@@ -24,7 +24,7 @@ shm_has_var(SysvSharedMemory $shm, int $key): bool
 
 `shm`
 
-Сегмент пам'яті, що розділяється, отриманий з [shmattach()](function.shm-attach.html)
+Сегмент пам'яті, що розділяється, отриманий з [shmattach()](function.shm-attach.md)
 
 `key`
 
@@ -42,5 +42,5 @@ shm_has_var(SysvSharedMemory $shm, int $key): bool
 
 ### Дивіться також
 
--   [shmgetvar()](function.shm-get-var.html) - Повертає змінну з пам'яті, що розділяється
--   [shmputvar()](function.shm-put-var.html) - Вставляє або оновлює змінну в пам'яті, що розділяється.
+-   [shmgetvar()](function.shm-get-var.md) - Повертає змінну з пам'яті, що розділяється
+-   [shmputvar()](function.shm-put-var.md) - Вставляє або оновлює змінну в пам'яті, що розділяється.

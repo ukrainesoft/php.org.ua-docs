@@ -10,7 +10,7 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](classobj.requirements.html)
--   [Установка](classobj.installation.html)
--   [Налаштування під час виконання](classobj.configuration.html)
--   [Типи ресурсів](classobj.resources.html)
+-   [Вимоги](classobj.requirements.md)
+-   [Установка](classobj.installation.md)
+-   [Налаштування під час виконання](classobj.configuration.md)
+-   [Типи ресурсів](classobj.resources.md)

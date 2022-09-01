@@ -18,7 +18,7 @@ title: пгescapeidentifier
 pg_escape_identifier(PgSql\Connection $connection = ?, string $data): string
 ```
 
-**пгescapeidentifier()** екранує ідентифікатор (наприклад, таблицю, імена полів) виконання запиту до бази. Повертає екранований ідентифікатор рядка для сервера PostgreSQL . **пгescapeidentifier()** додає подвійні лапки до та після даних. Користувачі не повинні додавати подвійні лапки. Використання цієї функції рекомендується для налаштувань ідентифікаторів у запитах. Для SQL-літералів (тобто параметрів, крім bytea) необхідно використовувати [пгescapeliteral()](function.pg-escape-literal.html) або [пгescapestring()](function.pg-escape-string.html). Для типу поля bytea потрібно використовувати [пгescapebytea()](function.pg-escape-bytea.html)
+**пгescapeidentifier()** екранує ідентифікатор (наприклад, таблицю, імена полів) виконання запиту до бази. Повертає екранований ідентифікатор рядка для сервера PostgreSQL . **пгescapeidentifier()** додає подвійні лапки до та після даних. Користувачі не повинні додавати подвійні лапки. Використання цієї функції рекомендується для налаштувань ідентифікаторів у запитах. Для SQL-літералів (тобто параметрів, крім bytea) необхідно використовувати [пгescapeliteral()](function.pg-escape-literal.html) або [пгescapestring()](function.pg-escape-string.html). Для типу поля bytea потрібно використовувати [пгescapebytea()](function.pg-escape-bytea.md)
 
 > **Зауваження**
 > 
@@ -28,7 +28,7 @@ pg_escape_identifier(PgSql\Connection $connection = ?, string $data): string
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -46,7 +46,7 @@ pg_escape_identifier(PgSql\Connection $connection = ?, string $data): string
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -67,6 +67,6 @@ pg_escape_identifier(PgSql\Connection $connection = ?, string $data): string
 
 ### Дивіться також
 
--   [пгescapeliteral()](function.pg-escape-literal.html) - Екранувати літерал при вставці у текстове поле
--   [пгescapebytea()](function.pg-escape-bytea.html) - Екранує спецсимволи у рядку для вставки у поле типу bytea
--   [пгescapestring()](function.pg-escape-string.html) - Екранування спецсимволів у рядку запиту
+-   [пгescapeliteral()](function.pg-escape-literal.md) - Екранувати літерал при вставці у текстове поле
+-   [пгescapebytea()](function.pg-escape-bytea.md) - Екранує спецсимволи у рядку для вставки у поле типу bytea
+-   [пгescapestring()](function.pg-escape-string.md) - Екранування спецсимволів у рядку запиту

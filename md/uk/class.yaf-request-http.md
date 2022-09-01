@@ -16,7 +16,7 @@ title: Клас YafRequestHttp
 
 > **Зауваження**
 > 
-> З метою безпеки $GET/$POST доступні тільки для читання в Yaf, що означає, що якщо ви встановите значення для цих глобальних змінних, ви не зможете отримати їх за допомогою [YafRequestHttp::getQuery()](yaf-request-http.getquery.html) або [YafRequestHttp::getPost()](yaf-request-http.getpost.html)
+> З метою безпеки $GET/$POST доступні тільки для читання в Yaf, що означає, що якщо ви встановите значення для цих глобальних змінних, ви не зможете отримати їх за допомогою [YafRequestHttp::getQuery()](yaf-request-http.getquery.html) або [YafRequestHttp::getPost()](yaf-request-http.getpost.md)
 > 
 > Якщо виникає потреба у використанні такого функціоналу при модульному тестуванні, Yaf може бути зібраний за допомогою --enable-yaf-debug, який дозволить Yaf прочитати значення, задане користувачем через скрипт.
 > 
@@ -118,12 +118,12 @@ routed
 
 ## Зміст
 
--   [YafRequestHttp::construct](yaf-request-http.construct.html) - Конструктор класу YafRequestHttp
--   [YafRequestHttp::get](yaf-request-http.get.html) — Отримує змінну від клієнта
--   [YafRequestHttp::getCookie](yaf-request-http.getcookie.html) — Отримує змінну Cookie
--   [YafRequestHttp::getFiles](yaf-request-http.getfiles.html) - Призначення getFiles
--   [YafRequestHttp::getPost](yaf-request-http.getpost.html) — Отримує змінну POST
--   [YafRequestHttp::getQuery](yaf-request-http.getquery.html) — Отримує параметр запиту
--   [YafRequestHttp::getRaw](yaf-request-http.getraw.html) — Отримує необроблене тіло запиту
--   [YafRequestHttp::getRequest](yaf-request-http.getrequest.html) - Призначення getRequest
--   [YafRequestHttp::isXmlHttpRequest](yaf-request-http.isxmlhttprequest.html) — Визначає, чи є запит Ajax-запитом
+-   [YafRequestHttp::construct](yaf-request-http.construct.md) - Конструктор класу YafRequestHttp
+-   [YafRequestHttp::get](yaf-request-http.get.md) — Отримує змінну від клієнта
+-   [YafRequestHttp::getCookie](yaf-request-http.getcookie.md) — Отримує змінну Cookie
+-   [YafRequestHttp::getFiles](yaf-request-http.getfiles.md) - Призначення getFiles
+-   [YafRequestHttp::getPost](yaf-request-http.getpost.md) — Отримує змінну POST
+-   [YafRequestHttp::getQuery](yaf-request-http.getquery.md) — Отримує параметр запиту
+-   [YafRequestHttp::getRaw](yaf-request-http.getraw.md) — Отримує необроблене тіло запиту
+-   [YafRequestHttp::getRequest](yaf-request-http.getrequest.md) - Призначення getRequest
+-   [YafRequestHttp::isXmlHttpRequest](yaf-request-http.isxmlhttprequest.md) — Визначає, чи є запит Ajax-запитом

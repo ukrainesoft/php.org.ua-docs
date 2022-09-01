@@ -24,7 +24,7 @@ ps_translate(resource $psdoc, float $x, float $y): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 `x`
 
@@ -95,5 +95,5 @@ ps_delete($ps);
 
 ### Дивіться також
 
--   [псscale()](function.ps-scale.html) - Встановлює коефіцієнт масштабування
--   [псrotate()](function.ps-rotate.html) - Встановлює коефіцієнт обертання
+-   [псscale()](function.ps-scale.md) - Встановлює коефіцієнт масштабування
+-   [псrotate()](function.ps-rotate.md) - Встановлює коефіцієнт обертання

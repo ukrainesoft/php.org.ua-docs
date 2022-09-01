@@ -18,7 +18,7 @@ outputresetrewritevars — Скинути значення обробника UR
 output_reset_rewrite_vars(): bool
 ```
 
-Ця функція скидає обробник URL та видаляє всі значення, встановлені функцією [outputaddrewritevar()](function.output-add-rewrite-var.html)
+Ця функція скидає обробник URL та видаляє всі значення, встановлені функцією [outputaddrewritevar()](function.output-add-rewrite-var.md)
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ output_reset_rewrite_vars(): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | До PHP 7.1.0, змінні перезаписи встановлені функцією [outputaddrewritevar()](function.output-add-rewrite-var.html) використовують той самий буфер модуля сесії "trans sid". З PHP 7.1.0, використовується окремий буфер і **outputresetrewritevars()** тільки видаляє перемінні перезаписи [outputaddrewritevar()](function.output-add-rewrite-var.html) |
+|  | До PHP 7.1.0, змінні перезаписи встановлені функцією [outputaddrewritevar()](function.output-add-rewrite-var.html) використовують той самий буфер модуля сесії "trans sid". З PHP 7.1.0, використовується окремий буфер і **outputresetrewritevars()** тільки видаляє перемінні перезаписи [outputaddrewritevar()](function.output-add-rewrite-var.md) |
 
 ### Приклади
 
@@ -60,9 +60,9 @@ echo '<a href="file.php">ссылка</a>';
 
 ### Дивіться також
 
--   [outputaddrewritevar()](function.output-add-rewrite-var.html) - Додати значення в обробник URL
--   [проflush()](function.ob-flush.html) - Скинути (надіслати) буфер виводу
--   [проlisthandlers()](function.ob-list-handlers.html) - Список всіх використовуваних обробників виводу
+-   [outputaddrewritevar()](function.output-add-rewrite-var.md) - Додати значення в обробник URL
+-   [проflush()](function.ob-flush.md) - Скинути (надіслати) буфер виводу
+-   [проlisthandlers()](function.ob-list-handlers.md) - Список всіх використовуваних обробників виводу
 -   [urlrewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags)
 -   [urlrewriter.hosts](outcontrol.configuration.html#ini.url-rewriter.hosts)
 -   [session.transsidtags](session.configuration.html#ini.session.trans-sid-tags)

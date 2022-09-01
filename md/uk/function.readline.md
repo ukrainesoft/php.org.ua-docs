@@ -18,7 +18,7 @@ readline — Читає рядок
 readline(?string $prompt = null): string|false
 ```
 
-Читає один рядок, введений користувачем. Якщо вам потрібно додати цей рядок до історії, то зробити це ви повинні самостійно, за допомогою [readlineaddhistory()](function.readline-add-history.html)
+Читає один рядок, введений користувачем. Якщо вам потрібно додати цей рядок до історії, то зробити це ви повинні самостійно, за допомогою [readlineaddhistory()](function.readline-add-history.md)
 
 ### Список параметрів
 

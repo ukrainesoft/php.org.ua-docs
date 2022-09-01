@@ -60,6 +60,6 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsLabel::construct](ui-controls-label.construct.html) - Створити новий об'єкт Label
--   [ОЙControlsLabel::getText](ui-controls-label.gettext.html) — Отримати текст
--   [ОЙControlsLabel::setText](ui-controls-label.settext.html) — Встановити текст
+-   [ОЙControlsLabel::construct](ui-controls-label.construct.md) - Створити новий об'єкт Label
+-   [ОЙControlsLabel::getText](ui-controls-label.gettext.md) — Отримати текст
+-   [ОЙControlsLabel::setText](ui-controls-label.settext.md) — Встановити текст

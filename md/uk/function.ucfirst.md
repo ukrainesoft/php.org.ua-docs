@@ -49,7 +49,7 @@ $bar = ucfirst(strtolower($bar)); // Hello world!
 
 ### Дивіться також
 
--   [lcfirst()](function.lcfirst.html) - Перетворює перший символ рядка на нижній регістр
--   [strtolower()](function.strtolower.html) - Перетворює рядок на нижній регістр
--   [strtoupper()](function.strtoupper.html) - Перетворює рядок у верхній регістр
--   [ucwords()](function.ucwords.html) - Перетворює на верхній регістр перший символ кожного слова в рядку
+-   [lcfirst()](function.lcfirst.md) - Перетворює перший символ рядка на нижній регістр
+-   [strtolower()](function.strtolower.md) - Перетворює рядок на нижній регістр
+-   [strtoupper()](function.strtoupper.md) - Перетворює рядок у верхній регістр
+-   [ucwords()](function.ucwords.md) - Перетворює на верхній регістр перший символ кожного слова в рядку

@@ -36,5 +36,5 @@ fann_scale_train(resource $ann, resource $train_data): bool
 
 ### Дивіться також
 
--   [fanndescaletrain()](function.fann-descale-train.html) - Масштабування вхідних та вихідних даних на основі попередньо розрахованих параметрів
--   [fannsetscalingparams()](function.fann-set-scaling-params.html) - Розраховує вхідні та вихідні параметри масштабування для майбутнього використання на основі даних навчання
+-   [fanndescaletrain()](function.fann-descale-train.md) - Масштабування вхідних та вихідних даних на основі попередньо розрахованих параметрів
+-   [fannsetscalingparams()](function.fann-set-scaling-params.md) - Розраховує вхідні та вихідні параметри масштабування для майбутнього використання на основі даних навчання

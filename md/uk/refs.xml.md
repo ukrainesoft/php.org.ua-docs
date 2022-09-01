@@ -58,17 +58,17 @@ title: Обробка XML
 -   [XMLDiff](book.xmldiff.md) — Порівняння та об'єднання XML
     -   [Введение](intro.xmldiff.md)
     -   [Встановлення та налаштування](xmldiff.setup.md)
-    -   [XMLDiffBase](class.xmldiff-base.html) - Клас XMLDiffBase
-    -   [XMLDiffDOM](class.xmldiff-dom.html) - Клас XMLDiffDOM
-    -   [XMLDiffMemory](class.xmldiff-memory.html) - Клас XMLDiffMemory
-    -   [XMLDiffFile](class.xmldiff-file.html) - Клас XMLDiffFile
+    -   [XMLDiffBase](class.xmldiff-base.md) - Клас XMLDiffBase
+    -   [XMLDiffDOM](class.xmldiff-dom.md) - Клас XMLDiffDOM
+    -   [XMLDiffMemory](class.xmldiff-memory.md) - Клас XMLDiffMemory
+    -   [XMLDiffFile](class.xmldiff-file.md) - Клас XMLDiffFile
 -   [Разбор XML](book.xml.md)
     -   [Введение](intro.xml.md)
     -   [Встановлення та налаштування](xml.setup.md)
     -   [Обумовлені константи](xml.constants.md)
     -   [Обробники подій](xml.eventhandlers.md)
-    -   [Приведення до одного регістру](xml.case-folding.html)
-    -   [Коди помилок](xml.error-codes.html)
+    -   [Приведення до одного регістру](xml.case-folding.md)
+    -   [Коди помилок](xml.error-codes.md)
     -   [Кодування символів](xml.encoding.md)
     -   [Приклади](xml.examples.md)
     -   [Функции парсера XML](ref.xml.md)

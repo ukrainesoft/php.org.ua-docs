@@ -26,7 +26,7 @@ imap_search(    IMAP\Connection $imap,    string $criteria,    int $
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `criteria`
 
@@ -75,7 +75,7 @@ imap_search(    IMAP\Connection $imap,    string $criteria,    int $
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -126,4 +126,4 @@ Array
 
 ### Дивіться також
 
--   [imaplistscan()](function.imap-listscan.html) - Отримати список поштових скриньок, імена яких містять заданий рядок
+-   [imaplistscan()](function.imap-listscan.md) - Отримати список поштових скриньок, імена яких містять заданий рядок

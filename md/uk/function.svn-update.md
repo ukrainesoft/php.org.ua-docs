@@ -66,6 +66,6 @@ echo svn_update(realpath('working-copy'));
 
 ### Дивіться також
 
--   [svncheckout()](function.svn-checkout.html) - Отримує робочу копію з репозиторію
--   [svncommit()](function.svn-commit.html) - Відправляє зміни з робочої директорії до репозиторію
--   [» SVN-документация по svn update](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.update.html)
+-   [svncheckout()](function.svn-checkout.md) - Отримує робочу копію з репозиторію
+-   [svncommit()](function.svn-commit.md) - Відправляє зміни з робочої директорії до репозиторію
+-   [» SVN-документация по svn update](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.update.md)

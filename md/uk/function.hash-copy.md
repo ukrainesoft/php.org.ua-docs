@@ -22,7 +22,7 @@ hash_copy(HashContext $context): HashContext
 
 `context`
 
-Контекст хешування, повернутий [hashinit()](function.hash-init.html)
+Контекст хешування, повернутий [hashinit()](function.hash-init.md)
 
 ### Значення, що повертаються
 
@@ -32,7 +32,7 @@ hash_copy(HashContext $context): HashContext
 
 | Версия | Описание |
 | --- | --- |
-|  | Приймає та повертає [HashContext](class.hashcontext.html), а чи не ресурс. |
+|  | Приймає та повертає [HashContext](class.hashcontext.md), а чи не ресурс. |
 
 ### Приклади
 

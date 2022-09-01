@@ -49,4 +49,4 @@ if (!radius_create_request($res, RADIUS_ACCESS_REQUEST)) {
 
 ### Дивіться також
 
--   [radiussendrequest()](function.radius-send-request.html) - Відправляє запит і чекає на відповідь
+-   [radiussendrequest()](function.radius-send-request.md) - Відправляє запит і чекає на відповідь

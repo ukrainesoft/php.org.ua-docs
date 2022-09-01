@@ -56,8 +56,8 @@ entries
 
 ## Зміст
 
--   [YafRegistry::construct](yaf-registry.construct.html) - YafRegistry реалізує шаблон проектування "Одиночка"
--   [YafRegistry::del](yaf-registry.del.html) — Видаляє елемент із реєстру
--   [YafRegistry::get](yaf-registry.get.html) — Отримує елемент із реєстру
--   [YafRegistry::has](yaf-registry.has.html) — Перевіряє, чи існує елемент
--   [YafRegistry::set](yaf-registry.set.html) — Додає елемент до реєстру
+-   [YafRegistry::construct](yaf-registry.construct.md) - YafRegistry реалізує шаблон проектування "Одиночка"
+-   [YafRegistry::del](yaf-registry.del.md) — Видаляє елемент із реєстру
+-   [YafRegistry::get](yaf-registry.get.md) — Отримує елемент із реєстру
+-   [YafRegistry::has](yaf-registry.has.md) — Перевіряє, чи існує елемент
+-   [YafRegistry::set](yaf-registry.set.md) — Додає елемент до реєстру

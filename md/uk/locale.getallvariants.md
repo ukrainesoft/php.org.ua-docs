@@ -74,6 +74,6 @@ array (
 
 ### Дивіться також
 
--   [localegetprimarylanguage()](locale.getprimarylanguage.html) - Отримати первинну мову для локалі
--   [localegetscript()](locale.getscript.html) - Отримати алфавіт для локалі
--   [localegetregion()](locale.getregion.html) - Отримати регіон для локалі
+-   [localegetprimarylanguage()](locale.getprimarylanguage.md) - Отримати первинну мову для локалі
+-   [localegetscript()](locale.getscript.md) - Отримати алфавіт для локалі
+-   [localegetregion()](locale.getregion.md) - Отримати регіон для локалі

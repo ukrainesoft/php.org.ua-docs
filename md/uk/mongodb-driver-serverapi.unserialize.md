@@ -22,7 +22,7 @@ final public MongoDB\Driver\ServerApi::unserialize(string $serialized): void
 
 `serialized`
 
-Серіалізований [MongoDBDriverServerApi](class.mongodb-driver-serverapi.html)
+Серіалізований [MongoDBDriverServerApi](class.mongodb-driver-serverapi.md)
 
 ### Значення, що повертаються
 
@@ -30,12 +30,12 @@ final public MongoDB\Driver\ServerApi::unserialize(string $serialized): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Викидає [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)якщо властивості не можуть бути десеріалізовані (наприклад, `serialized` було некоректно сформовано).
--   Викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)якщо властивості некоректні (наприклад, відсутні поля або містяться неприпустимі значення).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Викидає [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)якщо властивості не можуть бути десеріалізовані (наприклад, `serialized` було некоректно сформовано).
+-   Викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)якщо властивості некоректні (наприклад, відсутні поля або містяться неприпустимі значення).
 
 ### Дивіться також
 
--   [MongoDBDriverServerApi::serialize()](mongodb-driver-serverapi.serialize.html) - Серіалізує ServerApi
--   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
--   [Серіалізація об'єктів](language.oop5.serialization.html)
+-   [MongoDBDriverServerApi::serialize()](mongodb-driver-serverapi.serialize.md) - Серіалізує ServerApi
+-   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

@@ -30,7 +30,7 @@ ldap_sasl_bind(    LDAP\Connection $ldap,    ?string $dn = null,    
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `dn` `password` `mech` `realm` `authc_id` `authz_id` and `props` тепер допускають значення null. |
 
 ### Примітки

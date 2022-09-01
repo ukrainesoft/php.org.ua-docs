@@ -61,5 +61,5 @@ echo $s->book[0]->title;
 
 ### Дивіться також
 
--   [domimportsimplexml()](function.dom-import-simplexml.html) - Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement
--   [Базовое использование SimpleXML](simplexml.examples-basic.html)
+-   [domimportsimplexml()](function.dom-import-simplexml.md) - Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement
+-   [Базовое использование SimpleXML](simplexml.examples-basic.md)

@@ -18,13 +18,13 @@ Gmagick::borderimage — Додати рамку до зображення
 public Gmagick::borderimage(GmagickPixel $color, int $width, int $height): Gmagick
 ```
 
-Додати рамку зображення. Колір рамки задається рядком або кольором фону об'єкта [GmagickPixel](class.gmagickpixel.html)
+Додати рамку зображення. Колір рамки задається рядком або кольором фону об'єкта [GmagickPixel](class.gmagickpixel.md)
 
 ### Список параметрів
 
 `color`
 
-Об'єкт [GmagickPixel](class.gmagickpixel.html) object або рядок, що визначає колір рамки.
+Об'єкт [GmagickPixel](class.gmagickpixel.md) object або рядок, що визначає колір рамки.
 
 `width`
 
@@ -36,7 +36,7 @@ public Gmagick::borderimage(GmagickPixel $color, int $width, int $height): Gmagi
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) з доданою рамкою.
+Об'єкт [Gmagick](class.gmagick.md) з доданою рамкою.
 
 ### Помилки
 

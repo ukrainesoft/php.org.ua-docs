@@ -18,13 +18,13 @@ imapmailboxmsginfo — Отримати інформацію про поточн
 imap_mailboxmsginfo(IMAP\Connection $imap): stdClass
 ```
 
-Перевірка статусу поточної поштової скриньки на сервері. Аналогічно [imapstatus()](function.imap-status.html), але додатково обчислює сумарний розмір всіх листів у ящику, через що працює дещо повільніше.
+Перевірка статусу поточної поштової скриньки на сервері. Аналогічно [imapstatus()](function.imap-status.md), але додатково обчислює сумарний розмір всіх листів у ящику, через що працює дещо повільніше.
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 ### Значення, що повертаються
 
@@ -40,7 +40,7 @@ imap_mailboxmsginfo(IMAP\Connection $imap): stdClass
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

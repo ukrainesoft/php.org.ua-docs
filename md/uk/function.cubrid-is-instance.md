@@ -77,5 +77,5 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubriddrop()](function.cubrid-drop.html) - Видалення екземпляра за OID
--   [cubridgetclassname()](function.cubrid-get-class-name.html) - Отримує ім'я класу за допомогою OID
+-   [cubriddrop()](function.cubrid-drop.md) - Видалення екземпляра за OID
+-   [cubridgetclassname()](function.cubrid-get-class-name.md) - Отримує ім'я класу за допомогою OID

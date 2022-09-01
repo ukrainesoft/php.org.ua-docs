@@ -24,11 +24,11 @@ imap_lsub(IMAP\Connection $imap, string $reference, string $pattern): array|fals
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `reference`
 
-У `reference`, як правило, повинна бути вказана лише специфікація сервера, як описано в [imapopen()](function.imap-open.html)
+У `reference`, як правило, повинна бути вказана лише специфікація сервера, як описано в [imapopen()](function.imap-open.md)
 
 **Увага**
 
@@ -48,9 +48,9 @@ imap_lsub(IMAP\Connection $imap, string $reference, string $pattern): array|fals
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [imaplist()](function.imap-list.html) - Прочитати список поштових скриньок
--   [imapgetmailboxes()](function.imap-getmailboxes.html) - Прочитати список поштових скриньок, повертаючи докладну інформацію щодо кожного з них
+-   [imaplist()](function.imap-list.md) - Прочитати список поштових скриньок
+-   [imapgetmailboxes()](function.imap-getmailboxes.md) - Прочитати список поштових скриньок, повертаючи докладну інформацію щодо кожного з них

@@ -56,7 +56,7 @@ simplexml_load_string(    string $data,    ?string $class_name = SimpleX
 
 **Підказка**
 
-Використовуйте функцію [libxmluseinternalerrors()](function.libxml-use-internal-errors.html) для того, щоб придушити всі помилки XML, та функцію [libxmlgeterrors()](function.libxml-get-errors.html) для проходу ними згодом.
+Використовуйте функцію [libxmluseinternalerrors()](function.libxml-use-internal-errors.html) для того, щоб придушити всі помилки XML, та функцію [libxmlgeterrors()](function.libxml-get-errors.md) для проходу ними згодом.
 
 ### Приклади
 
@@ -99,8 +99,8 @@ SimpleXMLElement Object
 
 ### Дивіться також
 
--   [simplexmlloadfile()](function.simplexml-load-file.html) - Інтерпретує файл XML в об'єкт
+-   [simplexmlloadfile()](function.simplexml-load-file.md) - Інтерпретує файл XML в об'єкт
 -   [SimpleXMLElement::construct()](simplexmlelement.construct.md) - Створення нового об'єкта SimpleXMLElement
--   [Робота з помилками XML](simplexml.examples-errors.html)
--   [libxmluseinternalerrors()](function.libxml-use-internal-errors.html) - Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
--   [Базовое использование SimpleXML](simplexml.examples-basic.html)
+-   [Робота з помилками XML](simplexml.examples-errors.md)
+-   [libxmluseinternalerrors()](function.libxml-use-internal-errors.md) - Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
+-   [Базовое использование SimpleXML](simplexml.examples-basic.md)

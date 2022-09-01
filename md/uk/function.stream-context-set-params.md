@@ -34,8 +34,8 @@ stream_context_set_params(resource $context, array $params): bool
 
 | Параметр | Назначение |
 | --- | --- |
-| `notification` | Назва певної користувачем callback-функції, яка буде викликана, коли потоком надсилається повідомлення. Підтримується тільки для обертання потоків [http://](wrappers.http.html) і [ftp://](wrappers.ftp.html) |
-| `options` | Масив [опций и параметров контекста](context.html) |
+| `notification` | Назва певної користувачем callback-функції, яка буде викликана, коли потоком надсилається повідомлення. Підтримується тільки для обертання потоків [http://](wrappers.http.html) і [ftp://](wrappers.ftp.md) |
+| `options` | Масив [опций и параметров контекста](context.md) |
 
 ### Значення, що повертаються
 
@@ -43,4 +43,4 @@ stream_context_set_params(resource $context, array $params): bool
 
 ### Дивіться також
 
--   [streamnotificationcallback()](function.stream-notification-callback.html) - Callback-функція для параметра контексту notification
+-   [streamnotificationcallback()](function.stream-notification-callback.md) - Callback-функція для параметра контексту notification

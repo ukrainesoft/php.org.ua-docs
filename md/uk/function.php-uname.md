@@ -89,5 +89,5 @@ echo PATH_SEPARATOR;      // ;
 ### Дивіться також
 
 -   [phpversion()](function.phpversion.md) - Отримує поточну версію PHP
--   [phpsapiname()](function.php-sapi-name.html) - Повертає тип інтерфейсу між веб-сервером та PHP
+-   [phpsapiname()](function.php-sapi-name.md) - Повертає тип інтерфейсу між веб-сервером та PHP
 -   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP

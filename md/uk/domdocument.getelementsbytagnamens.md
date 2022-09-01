@@ -18,7 +18,7 @@ DOMDocument::getElementsByTagNameNS — Шукає всі елементи із 
 public DOMDocument::getElementsByTagNameNS(?string $namespace, string $localName): DOMNodeList
 ```
 
-Повертає об'єкт [DOMNodeList](class.domnodelist.html) з усіма елементами із заданим локальним ім'ям та URI простору імен.
+Повертає об'єкт [DOMNodeList](class.domnodelist.md) з усіма елементами із заданим локальним ім'ям та URI простору імен.
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ URI простір імен. Спеціальне значення `*` відп�
 
 ### Значення, що повертаються
 
-Новий об'єкт класу [DOMNodeList](class.domnodelist.html)містить всі знайдені елементи.
+Новий об'єкт класу [DOMNodeList](class.domnodelist.md)містить всі знайдені елементи.
 
 ### список змін
 
@@ -83,4 +83,4 @@ foreach ($dom->getElementsByTagNameNS('http://www.w3.org/2001/XInclude', '*')�
 
 ### Дивіться також
 
--   [DOMDocument::getElementsByTagName()](domdocument.getelementsbytagname.html) - Шукає всі елементи із заданим локальним ім'ям
+-   [DOMDocument::getElementsByTagName()](domdocument.getelementsbytagname.md) - Шукає всі елементи із заданим локальним ім'ям

@@ -30,13 +30,13 @@ yaz_es(
 > 
 > Чимало серверів Z39.50 не підтримують Extended Services.
 
-**yazes()** створює пакети Extended Service Request і поміщає в чергу операцій. Використовуйте [yazwait()](function.yaz-wait.html) для надсилання запиту(ів) на сервер. Після завершення [yazwait()](function.yaz-wait.html), результату операцій Extended Service слід очікувати за допомогою дзвінка [yazесresult()](function.yaz-es-result.html)
+**yazes()** створює пакети Extended Service Request і поміщає в чергу операцій. Використовуйте [yazwait()](function.yaz-wait.html) для надсилання запиту(ів) на сервер. Після завершення [yazwait()](function.yaz-wait.html), результату операцій Extended Service слід очікувати за допомогою дзвінка [yazесresult()](function.yaz-es-result.md)
 
 ### Список параметрів
 
 `id`
 
-Ресурс підключення, що повертається [yazconnect()](function.yaz-connect.html)
+Ресурс підключення, що повертається [yazconnect()](function.yaz-connect.md)
 
 `type`
 
@@ -70,4 +70,4 @@ $result = yaz_es_result($id);
 
 ### Дивіться також
 
--   [yazесresult()](function.yaz-es-result.html) - Перевіряє результат Extended Service
+-   [yazесresult()](function.yaz-es-result.md) - Перевіряє результат Extended Service

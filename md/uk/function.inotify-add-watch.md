@@ -26,7 +26,7 @@ inotify_add_watch(resource $inotify_instance, string $pathname, int $mask): int
 
 `inotify_instance`
 
-Ресурс, що повертається [inotifyinit()](function.inotify-init.html)
+Ресурс, що повертається [inotifyinit()](function.inotify-init.md)
 
 `pathname`
 
@@ -42,4 +42,4 @@ inotify_add_watch(resource $inotify_instance, string $pathname, int $mask): int
 
 ### Дивіться також
 
--   [inotifyinit()](function.inotify-init.html) - Ініціалізує екземпляр inotify
+-   [inotifyinit()](function.inotify-init.md) - Ініціалізує екземпляр inotify

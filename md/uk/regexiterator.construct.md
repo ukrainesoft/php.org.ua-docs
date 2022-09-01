@@ -49,11 +49,11 @@ int `$pregFlags`
 
 | режим работы | доступные флаги |
 | --- | --- |
-| RegexIterator::ALLMATCHES | Дивіться [pregmatchall()](function.preg-match-all.html) |
-| RegexIterator::GETMATCH | Дивіться [pregmatch()](function.preg-match.html) |
-| RegexIterator::MATCH | Дивіться [pregmatch()](function.preg-match.html) |
+| RegexIterator::ALLMATCHES | Дивіться [pregmatchall()](function.preg-match-all.md) |
+| RegexIterator::GETMATCH | Дивіться [pregmatch()](function.preg-match.md) |
+| RegexIterator::MATCH | Дивіться [pregmatch()](function.preg-match.md) |
 | RegexIterator::REPLACE | ні |
-| RegexIterator::SPLIT | Дивіться [pregsplit()](function.preg-split.html) |
+| RegexIterator::SPLIT | Дивіться [pregsplit()](function.preg-split.md) |
 
 ### Помилки
 
@@ -85,7 +85,7 @@ test 123
 
 ### Дивіться також
 
--   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
--   [pregmatchall()](function.preg-match-all.html) - Виконує глобальний пошук шаблону у рядку
--   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
--   [pregsplit()](function.preg-split.html) - Розбиває рядок за регулярним виразом
+-   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу
+-   [pregmatchall()](function.preg-match-all.md) - Виконує глобальний пошук шаблону у рядку
+-   [pregreplace()](function.preg-replace.md) - Виконує пошук та заміну за регулярним виразом
+-   [pregsplit()](function.preg-split.md) - Розбиває рядок за регулярним виразом

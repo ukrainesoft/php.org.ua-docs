@@ -22,7 +22,7 @@ final public MongoDB\BSON\Javascript::unserialize(string $serialized): void
 
 `serialized`
 
-Серіалізований [MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
+Серіалізований [MongoDBBSONJavascript](class.mongodb-bson-javascript.md)
 
 ### Значення, що повертаються
 
@@ -30,12 +30,12 @@ final public MongoDB\BSON\Javascript::unserialize(string $serialized): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Викидає [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)якщо властивості не можуть бути десеріалізовані (тобто . `serialized` неправильний).
--   Викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html), якщо властивості некоректні (наприклад, відсутні поля чи неправильні неправильні значення).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Викидає [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)якщо властивості не можуть бути десеріалізовані (тобто . `serialized` неправильний).
+-   Викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо властивості некоректні (наприклад, відсутні поля чи неправильні неправильні значення).
 
 ### Дивіться також
 
--   [MongoDBBSONJavascript::serialize()](mongodb-bson-javascript.serialize.html) - Серіалізувати JavaScript
+-   [MongoDBBSONJavascript::serialize()](mongodb-bson-javascript.serialize.md) - Серіалізувати JavaScript
 -   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

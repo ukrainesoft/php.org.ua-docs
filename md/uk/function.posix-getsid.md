@@ -24,7 +24,7 @@ posix_getsid(int $process_id): int|false
 
 `process_id`
 
-Ідентифікатор процесу. Якщо встановлено 0, мається на увазі поточний процес. Якщо передано некоректний `process_id`, то буде повернуто **`false`**. Також буде встановлено номер помилки, який можна обробити за допомогою функції [posixgetlasterror()](function.posix-get-last-error.html)
+Ідентифікатор процесу. Якщо встановлено 0, мається на увазі поточний процес. Якщо передано некоректний `process_id`, то буде повернуто **`false`**. Також буде встановлено номер помилки, який можна обробити за допомогою функції [posixgetlasterror()](function.posix-get-last-error.md)
 
 ### Значення, що повертаються
 
@@ -43,6 +43,6 @@ echo posix_getsid($pid); //8805
 
 ### Дивіться також
 
--   [posixgetpgid()](function.posix-getpgid.html) - Повертає ID групи поточного процесу для менеджера завдань
--   [posixsetsid()](function.posix-setsid.html) - Робить поточний процес лідером сесії
+-   [posixgetpgid()](function.posix-getpgid.md) - Повертає ID групи поточного процесу для менеджера завдань
+-   [posixsetsid()](function.posix-setsid.md) - Робить поточний процес лідером сесії
 -   POSIX керівництво GETSID(2)

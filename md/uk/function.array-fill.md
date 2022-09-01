@@ -90,6 +90,6 @@ Array
 
 ### Дивіться також
 
--   [arrayfillkeys()](function.array-fill-keys.html) - створює масив і заповнює його значеннями з певними ключами
--   [strrepeat()](function.str-repeat.html) - Повертає рядок, що повторюється
+-   [arrayfillkeys()](function.array-fill-keys.md) - створює масив і заповнює його значеннями з певними ключами
+-   [strrepeat()](function.str-repeat.md) - Повертає рядок, що повторюється
 -   [range()](function.range.md) - Створює масив, що містить діапазон елементів

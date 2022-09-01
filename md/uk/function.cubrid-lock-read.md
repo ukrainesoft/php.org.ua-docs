@@ -99,4 +99,4 @@ array(4) {
 
 ### Дивіться також
 
--   [cubridlockwrite()](function.cubrid-lock-write.html) - Встановлює блокування запису для цього OID
+-   [cubridlockwrite()](function.cubrid-lock-write.md) - Встановлює блокування запису для цього OID

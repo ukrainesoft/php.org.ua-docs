@@ -22,13 +22,13 @@ pcntl_wait(int &$status, int $flags = 0, array &$resource_usage = []): int
 
 > **Зауваження**
 > 
-> Ця функція еквівалентна виклику [pcntlwaitpid()](function.pcntl-waitpid.html) з аргументом `process_id` рівним `-1` і без аргументу `flags`
+> Ця функція еквівалентна виклику [pcntlwaitpid()](function.pcntl-waitpid.md) з аргументом `process_id` рівним `-1` і без аргументу `flags`
 
 ### Список параметрів
 
 `status`
 
-**pcntlwait()** розмістить інформацію про статус за посиланням у аргументі `status`, який може бути переданий у такі функції: [pcntlwifexited()](function.pcntl-wifexited.html) [pcntlwifstopped()](function.pcntl-wifstopped.html) [pcntlwifsignaled()](function.pcntl-wifsignaled.html) [pcntlwexitstatus()](function.pcntl-wexitstatus.html) [pcntlwtermsig()](function.pcntl-wtermsig.html) і [pcntlwstopsig()](function.pcntl-wstopsig.html)
+**pcntlwait()** розмістить інформацію про статус за посиланням у аргументі `status`, який може бути переданий у такі функції: [pcntlwifexited()](function.pcntl-wifexited.html) [pcntlwifstopped()](function.pcntl-wifstopped.html) [pcntlwifsignaled()](function.pcntl-wifsignaled.html) [pcntlwexitstatus()](function.pcntl-wexitstatus.html) [pcntlwtermsig()](function.pcntl-wtermsig.html) і [pcntlwstopsig()](function.pcntl-wstopsig.md)
 
 `flags`
 
@@ -42,12 +42,12 @@ pcntl_wait(int &$status, int $flags = 0, array &$resource_usage = []): int
 
 ### Дивіться також
 
--   [pcntlfork()](function.pcntl-fork.html) - Розгалужити (fork) поточний запущений процес
--   [pcntlsignal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу
--   [pcntlwifexited()](function.pcntl-wifexited.html) - Перевіряє, чи код завершення процесу відповідає нормальному завершенню
--   [pcntlwifstopped()](function.pcntl-wifstopped.html) - Перевірити, чи зупинено дочірній процес
--   [pcntlwifsignaled()](function.pcntl-wifsignaled.html) - Перевірити, чи код завершення процесу завершення по сигналу
--   [pcntlwexitstatus()](function.pcntl-wexitstatus.html) - Отримати код повернення завершеного дочірнього процесу
--   [pcntlwtermsig()](function.pcntl-wtermsig.html) - Отримати сигнал, через який було примусово завершено дочірній процес
--   [pcntlwstopsig()](function.pcntl-wstopsig.html) - Отримати сигнал, через який було зупинено дочірній процес
--   [pcntlwaitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntlfork()](function.pcntl-fork.md) - Розгалужити (fork) поточний запущений процес
+-   [pcntlsignal()](function.pcntl-signal.md) - Встановлення оброблювача сигналу
+-   [pcntlwifexited()](function.pcntl-wifexited.md) - Перевіряє, чи код завершення процесу відповідає нормальному завершенню
+-   [pcntlwifstopped()](function.pcntl-wifstopped.md) - Перевірити, чи зупинено дочірній процес
+-   [pcntlwifsignaled()](function.pcntl-wifsignaled.md) - Перевірити, чи код завершення процесу завершення по сигналу
+-   [pcntlwexitstatus()](function.pcntl-wexitstatus.md) - Отримати код повернення завершеного дочірнього процесу
+-   [pcntlwtermsig()](function.pcntl-wtermsig.md) - Отримати сигнал, через який було примусово завершено дочірній процес
+-   [pcntlwstopsig()](function.pcntl-wstopsig.md) - Отримати сигнал, через який було зупинено дочірній процес
+-   [pcntlwaitpid()](function.pcntl-waitpid.md) - Очікує чи повертає статус породженого дочірнього процесу

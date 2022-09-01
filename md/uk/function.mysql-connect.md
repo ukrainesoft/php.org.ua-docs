@@ -14,9 +14,9 @@ mysqlconnect — Відкриває з'єднання з сервером MySQL
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqliconnect()](function.mysqli-connect.html)
+-   [mysqliconnect()](function.mysqli-connect.md)
 -   [PDO::construct()](pdo.construct.md)
 
 ### Опис
@@ -125,7 +125,7 @@ mysql_close($link);
 
 > **Зауваження**
 > 
-> З'єднання з сервером буде закрито після завершення виконання скрипту, якщо тільки до цього воно не було закрито за допомогою функції [mysqlclose()](function.mysql-close.html)
+> З'єднання з сервером буде закрито після завершення виконання скрипту, якщо тільки до цього воно не було закрито за допомогою функції [mysqlclose()](function.mysql-close.md)
 
 > **Зауваження**
 > 
@@ -133,5 +133,5 @@ mysql_close($link);
 
 ### Дивіться також
 
--   [mysqlpconnect()](function.mysql-pconnect.html) - Встановлює постійне з'єднання із сервером MySQL
--   [mysqlclose()](function.mysql-close.html) - Закриває з'єднання із сервером MySQL
+-   [mysqlpconnect()](function.mysql-pconnect.md) - Встановлює постійне з'єднання із сервером MySQL
+-   [mysqlclose()](function.mysql-close.md) - Закриває з'єднання із сервером MySQL

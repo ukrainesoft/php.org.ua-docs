@@ -28,4 +28,4 @@ abstract public MongoDB\BSON\RegexInterface::getFlags(): string
 
 ### Дивіться також
 
--   [MongoDBBSONRegex::getFlags()](mongodb-bson-regex.getflags.html) - Повертає прапори Regex
+-   [MongoDBBSONRegex::getFlags()](mongodb-bson-regex.getflags.md) - Повертає прапори Regex

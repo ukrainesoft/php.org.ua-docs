@@ -12,7 +12,7 @@ title: Інтерфейс MongoDBBSONObjectIdInterface
 
 ## Вступ
 
-Цей інтерфейс реалізований за допомогою [MongoDBBSONObjectId](class.mongodb-bson-objectid.html), але також може бути використаний як параметр, що повертається значення або типу властивості в класах користувальницького простору.
+Цей інтерфейс реалізований за допомогою [MongoDBBSONObjectId](class.mongodb-bson-objectid.md), але також може бути використаний як параметр, що повертається значення або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 
@@ -39,5 +39,5 @@ abstract public __toString(): string
 
 ## Зміст
 
--   [MongoDBBSONObjectIdInterface::getTimestamp](mongodb-bson-objectidinterface.gettimestamp.html) — Повертає компонент позначки часу ObjectIdInterface
--   [MongoDBBSONObjectIdInterface::toString](mongodb-bson-objectidinterface.tostring.html) — Повертає шістнадцяткову виставу ObjectIdInterface
+-   [MongoDBBSONObjectIdInterface::getTimestamp](mongodb-bson-objectidinterface.gettimestamp.md) — Повертає компонент позначки часу ObjectIdInterface
+-   [MongoDBBSONObjectIdInterface::toString](mongodb-bson-objectidinterface.tostring.md) — Повертає шістнадцяткову виставу ObjectIdInterface

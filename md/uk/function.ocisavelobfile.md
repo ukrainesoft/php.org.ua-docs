@@ -10,11 +10,11 @@ title: ocisavelobfile
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocisavelobfile - Псевдонім [OCILob::import()](ocilob.import.html)
+ocisavelobfile - Псевдонім [OCILob::import()](ocilob.import.md)
 
 ### Опис
 
-Псевдонім [OCILob::import()](ocilob.import.html)
+Псевдонім [OCILob::import()](ocilob.import.md)
 
 **Увага**
 

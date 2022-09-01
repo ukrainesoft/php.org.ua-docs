@@ -10,6 +10,6 @@ title: Функції LZF
 
 ## Зміст
 
--   [lzfcompress](function.lzf-compress.html) - Стиснення LZF
--   [lzfdecompress](function.lzf-decompress.html) - Розархівація LZF
--   [lzfoptimizedfor](function.lzf-optimized-for.html) — Визначає режим оптимізації модуля LZF
+-   [lzfcompress](function.lzf-compress.md) - Стиснення LZF
+-   [lzfdecompress](function.lzf-decompress.md) - Розархівація LZF
+-   [lzfoptimizedfor](function.lzf-optimized-for.md) — Визначає режим оптимізації модуля LZF

@@ -22,7 +22,7 @@ abstract public CommonMark\Interfaces\IVisitor::leave(IVisitable $visitable): in
 
 `visitable`
 
-Поточний покиданий [CommonMarkInterfacesIVisitable](class.commonmark-interfaces-ivisitable.html)
+Поточний покиданий [CommonMarkInterfacesIVisitable](class.commonmark-interfaces-ivisitable.md)
 
 ### Значення, що повертаються
 
@@ -38,4 +38,4 @@ abstract public CommonMark\Interfaces\IVisitor::leave(IVisitable $visitable): in
 
 ### Дивіться також
 
--   [CommonMarkInterfacesIVisitable::accept](commonmark-interfaces-ivisitable.accept.html)
+-   [CommonMarkInterfacesIVisitable::accept](commonmark-interfaces-ivisitable.accept.md)

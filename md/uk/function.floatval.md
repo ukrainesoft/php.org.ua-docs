@@ -60,4 +60,4 @@ echo $float_value_of_var; // 0
 -   [intval()](function.intval.md) - Повертає ціле значення змінної
 -   [strval()](function.strval.md) - Повертає строкове значення змінної
 -   [settype()](function.settype.md) - Задає тип змінної
--   [Маніпуляції з типами](language.types.type-juggling.html)
+-   [Маніпуляції з типами](language.types.type-juggling.md)

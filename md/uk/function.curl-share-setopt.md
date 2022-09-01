@@ -24,7 +24,7 @@ curl_share_setopt(CurlShareHandle $share_handle, int $option, mixed $value): boo
 
 `share_handle`
 
-Обробник cURL, що розділяється, повертається [curlshareinit()](function.curl-share-init.html)
+Обробник cURL, що розділяється, повертається [curlshareinit()](function.curl-share-init.md)
 
 `option`
 

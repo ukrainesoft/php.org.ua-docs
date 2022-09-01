@@ -18,9 +18,9 @@ fanngetcascadecandidatechangefraction - Повертає частку зміни
 fann_get_cascade_candidate_change_fraction(resource $ann): float
 ```
 
-Частка зміни каскаду кандидата - це число від 0 до 1, що визначає, наскільки велике значення [fanngetMSE()](function.fann-get-mse.html), що має змінитися в межах [fanngetcascadecandidatestagnationepochs()](function.fann-get-cascade-candidate-stagnation-epochs.html) під час навчання нейронів-кандидатів, щоби навчання не застоювалося. Якщо навчання застоюється, навчання нейронів-кандидатів припиняється і вибирається найкращий кандидат.
+Частка зміни каскаду кандидата - це число від 0 до 1, що визначає, наскільки велике значення [fanngetMSE()](function.fann-get-mse.html), що має змінитися в межах [fanngetcascadecandidatestagnationepochs()](function.fann-get-cascade-candidate-stagnation-epochs.md) під час навчання нейронів-кандидатів, щоби навчання не застоювалося. Якщо навчання застоюється, навчання нейронів-кандидатів припиняється і вибирається найкращий кандидат.
 
-Це означає, що якщо MSE не змінюється на частку **fanngetcascadecandidatechangefraction()** протягом періоду [fanngetcascadecandidatestagnationepochs()](function.fann-get-cascade-candidate-stagnation-epochs.html), навчання нейронів-кандидатів припиняється, тому що навчання зупинилося.
+Це означає, що якщо MSE не змінюється на частку **fanngetcascadecandidatechangefraction()** протягом періоду [fanngetcascadecandidatestagnationepochs()](function.fann-get-cascade-candidate-stagnation-epochs.md), навчання нейронів-кандидатів припиняється, тому що навчання зупинилося.
 
 Якщо частка зміни каскаду кандидатів мала, нейрони-кандидати навчатимуться більше, і якщо частка висока, вони навчатимуться менше.
 
@@ -38,6 +38,6 @@ fann_get_cascade_candidate_change_fraction(resource $ann): float
 
 ### Дивіться також
 
--   [fannsetcascadecandidatechangefraction()](function.fann-set-cascade-candidate-change-fraction.html) - встановлює частку каскадної зміни кандидата
--   [fanngetMSE()](function.fann-get-mse.html) - Зчитує середньоквадратичну помилку мережі
--   [fanngetcascadecandidatestagnationepochs()](function.fann-get-cascade-candidate-stagnation-epochs.html) - Повертає кількість періодів застою каскаду кандидата
+-   [fannsetcascadecandidatechangefraction()](function.fann-set-cascade-candidate-change-fraction.md) - встановлює частку каскадної зміни кандидата
+-   [fanngetMSE()](function.fann-get-mse.md) - Зчитує середньоквадратичну помилку мережі
+-   [fanngetcascadecandidatestagnationepochs()](function.fann-get-cascade-candidate-stagnation-epochs.md) - Повертає кількість періодів застою каскаду кандидата

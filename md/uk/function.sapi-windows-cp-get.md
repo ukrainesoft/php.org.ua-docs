@@ -32,4 +32,4 @@ sapi_windows_cp_get(string $kind = ""): int
 
 ### Дивіться також
 
--   [sapiwindowsспset()](function.sapi-windows-cp-set.html) - Встановити кодову сторінку процесу
+-   [sapiwindowsспset()](function.sapi-windows-cp-set.md) - Встановити кодову сторінку процесу

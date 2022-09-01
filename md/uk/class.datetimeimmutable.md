@@ -120,7 +120,7 @@ public __wakeup(): void
 -   [DateTimeImmutable::createFromMutable](datetimeimmutable.createfrommutable.md) — Повертає новий об'єкт DateTimeImmutable, що містить заданий об'єкт DateTime
 -   [DateTimeImmutable::getLastErrors](datetimeimmutable.getlasterrors.md) — Повертає попередження та помилки
 -   [DateTimeImmutable::modify](datetimeimmutable.modify.md) — Створює новий об'єкт із зміненою тимчасовою міткою
--   [DateTimeImmutable::setstate](datetimeimmutable.set-state.html) - Обробник setstate
+-   [DateTimeImmutable::setstate](datetimeimmutable.set-state.md) - Обробник setstate
 -   [DateTimeImmutable::setDate](datetimeimmutable.setdate.md) - Встановлює дату
 -   [DateTimeImmutable::setISODate](datetimeimmutable.setisodate.md) — Встановлює дату ISO
 -   [DateTimeImmutable::setTime](datetimeimmutable.settime.md) - Встановлює час

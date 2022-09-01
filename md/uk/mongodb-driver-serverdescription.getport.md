@@ -30,8 +30,8 @@ final public MongoDB\Driver\ServerDescription::getPort(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverServer::getPort()](mongodb-driver-server.getport.html) - Повертає порт, який слухає сервер
+-   [MongoDBDriverServer::getPort()](mongodb-driver-server.getport.md) - Повертає порт, який слухає сервер

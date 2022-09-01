@@ -72,9 +72,9 @@ controls
 
 ## Зміст
 
--   [ОЙControlsTab::append](ui-controls-tab.append.html) - Додати сторінку
--   [ОЙControlsTab::delete](ui-controls-tab.delete.html) — Видалити сторінку
--   [ОЙControlsTab::hasMargin](ui-controls-tab.hasmargin.html) - Визначення поля
--   [ОЙControlsTab::insertAt](ui-controls-tab.insertat.html) - Вставити сторінку
--   [ОЙControlsTab::pages](ui-controls-tab.pages.html) - Кількість сторінок
--   [ОЙControlsTab::setMargin](ui-controls-tab.setmargin.html) - Встановити поле
+-   [ОЙControlsTab::append](ui-controls-tab.append.md) - Додати сторінку
+-   [ОЙControlsTab::delete](ui-controls-tab.delete.md) — Видалити сторінку
+-   [ОЙControlsTab::hasMargin](ui-controls-tab.hasmargin.md) - Визначення поля
+-   [ОЙControlsTab::insertAt](ui-controls-tab.insertat.md) - Вставити сторінку
+-   [ОЙControlsTab::pages](ui-controls-tab.pages.md) - Кількість сторінок
+-   [ОЙControlsTab::setMargin](ui-controls-tab.setmargin.md) - Встановити поле

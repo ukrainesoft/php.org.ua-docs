@@ -36,4 +36,4 @@ fann_set_cascade_candidate_stagnation_epochs(resource $ann, int $cascade_candida
 
 ### Дивіться також
 
--   [fanngetcascadecandidatestagnationepochs()](function.fann-get-cascade-candidate-stagnation-epochs.html) - Повертає кількість періодів застою каскаду кандидата
+-   [fanngetcascadecandidatestagnationepochs()](function.fann-get-cascade-candidate-stagnation-epochs.md) - Повертає кількість періодів застою каскаду кандидата

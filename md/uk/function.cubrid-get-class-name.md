@@ -60,5 +60,5 @@ code
 
 ### Дивіться також
 
--   [cubridісinstance()](function.cubrid-is-instance.html) - Перевіряє, чи існує екземпляр, на який вказує OID
--   [cubriddrop()](function.cubrid-drop.html) - Видалення екземпляра за OID
+-   [cubridісinstance()](function.cubrid-is-instance.md) - Перевіряє, чи існує екземпляр, на який вказує OID
+-   [cubriddrop()](function.cubrid-drop.md) - Видалення екземпляра за OID

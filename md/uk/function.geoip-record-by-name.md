@@ -25,9 +25,9 @@ geoip_record_by_name(string $hostname): array
 Наступні імена ключів асоціативного масиву, що повертається:
 
 -   "continentcode" - Дволітерний код континенту (з версії 1.0.4 з libgeoip 1.4.3 або новішої)
--   " countrycode" -- Двохлітерний код країни (дивіться [geoipcountrycodeбname()](function.geoip-country-code-by-name.html)
--   " countrycode3" -- Трилітерний код країни (дивіться [geoipcountrycode3бname()](function.geoip-country-code3-by-name.html)
--   " countryname" -- Назва країни (дивіться [geoipcountrynameбname()](function.geoip-country-name-by-name.html)
+-   " countrycode" -- Двохлітерний код країни (дивіться [geoipcountrycodeбname()](function.geoip-country-code-by-name.md)
+-   " countrycode3" -- Трилітерний код країни (дивіться [geoipcountrycode3бname()](function.geoip-country-code3-by-name.md)
+-   " countryname" -- Назва країни (дивіться [geoipcountrynameбname()](function.geoip-country-name-by-name.md)
 -   "region" -- Код регіону (наприклад: CA для Каліфорнії)
 -   "City" - Місто.
 -   "postalcode" -- Поштовий індекс, FSA або Zip-код

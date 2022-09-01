@@ -24,7 +24,7 @@ ssh2_exec(    resource $session,    string $command,    string $pty 
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
 
 `command`
 
@@ -65,6 +65,6 @@ $stream = ssh2_exec($connection, '/usr/local/bin/php -i');
 
 ### Дивіться також
 
--   [ssh2connect()](function.ssh2-connect.html) - Підключення до SSH-сервера
--   [ssh2shell()](function.ssh2-shell.html) - запитує інтерактивний термінал
--   [ssh2tunnel()](function.ssh2-tunnel.html) - Відкрити тунель через віддалений сервер
+-   [ssh2connect()](function.ssh2-connect.md) - Підключення до SSH-сервера
+-   [ssh2shell()](function.ssh2-shell.md) - запитує інтерактивний термінал
+-   [ssh2tunnel()](function.ssh2-tunnel.md) - Відкрити тунель через віддалений сервер

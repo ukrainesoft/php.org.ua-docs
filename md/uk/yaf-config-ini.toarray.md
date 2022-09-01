@@ -18,7 +18,7 @@ YafConfigIni::toArray — Повертає конфігурацію як мас�
 public Yaf_Config_Ini::toArray(): array
 ```
 
-Повертає масив PHP з [YafConfigIni](class.yaf-config-ini.html)
+Повертає масив PHP з [YafConfigIni](class.yaf-config-ini.md)
 
 ### Список параметрів
 

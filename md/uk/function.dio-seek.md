@@ -24,7 +24,7 @@ dio_seek(resource $fd, int $pos, int $whence = SEEK_SET): int
 
 `fd`
 
-Файловий дескриптор, отриманий з [dioopen()](function.dio-open.html)
+Файловий дескриптор, отриманий з [dioopen()](function.dio-open.md)
 
 `pos`
 

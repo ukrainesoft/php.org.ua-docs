@@ -223,9 +223,9 @@ object(stdClass)#1 (1) {
 
 > **Зауваження**
 > 
-> У разі виникнення помилки декодування можна використовувати [jsonlasterror()](function.json-last-error.html) визначення її причини.
+> У разі виникнення помилки декодування можна використовувати [jsonlasterror()](function.json-last-error.md) визначення її причини.
 
 ### Дивіться також
 
--   [jsonencode()](function.json-encode.html) - Повертає JSON-подання даних
--   [jsonlasterror()](function.json-last-error.html) - Повертає останню помилку
+-   [jsonencode()](function.json-encode.md) - Повертає JSON-подання даних
+-   [jsonlasterror()](function.json-last-error.md) - Повертає останню помилку

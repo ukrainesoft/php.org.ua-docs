@@ -13,5 +13,5 @@ title: Менеджер процесів FastCGI
 -   [Спостережуваність](fpm.observability.md)
     -   [Сторінка стану](fpm.status.md)
 -   [Функції FPM](ref.fpm.md)
-    -   [fastcgifinishrequest](function.fastcgi-finish-request.html) - Скидає всі запитані дані клієнту
-    -   [fpmgetstatus](function.fpm-get-status.html) — Повертає поточний стан пулу FPM
+    -   [fastcgifinishrequest](function.fastcgi-finish-request.md) - Скидає всі запитані дані клієнту
+    -   [fpmgetstatus](function.fpm-get-status.md) — Повертає поточний стан пулу FPM

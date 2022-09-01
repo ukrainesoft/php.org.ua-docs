@@ -10,11 +10,11 @@ title: ociparse
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ociparse - Псевдонім [ociparse()](function.oci-parse.html)
+ociparse - Псевдонім [ociparse()](function.oci-parse.md)
 
 ### Опис
 
-Псевдонім [ociparse()](function.oci-parse.html)
+Псевдонім [ociparse()](function.oci-parse.md)
 
 **Увага**
 

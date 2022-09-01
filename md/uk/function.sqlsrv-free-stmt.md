@@ -60,8 +60,8 @@ sqlsrv_free_stmt( $stmt);
 
 ### Примітки
 
-Основна відмінність між **sqlsrvfreestmt()** і [sqlsrvcancel()](function.sqlsrv-cancel.html) полягає в тому, що ресурс оператора, скасований за допомогою [sqlsrvcancel()](function.sqlsrv-cancel.html), може бути повторно виконаний, якщо він був створений за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.html). Ресурс оператора, скасований за допомогою **sqlsrvfreestatement()**, не може бути повторно виконано.
+Основна відмінність між **sqlsrvfreestmt()** і [sqlsrvcancel()](function.sqlsrv-cancel.html) полягає в тому, що ресурс оператора, скасований за допомогою [sqlsrvcancel()](function.sqlsrv-cancel.html), може бути повторно виконаний, якщо він був створений за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.md). Ресурс оператора, скасований за допомогою **sqlsrvfreestatement()**, не може бути повторно виконано.
 
 ### Дивіться також
 
--   [sqlsrvcancel()](function.sqlsrv-cancel.html) - скасовує оператор
+-   [sqlsrvcancel()](function.sqlsrv-cancel.md) - скасовує оператор

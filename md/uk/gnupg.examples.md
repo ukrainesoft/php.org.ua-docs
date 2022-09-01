@@ -10,4 +10,4 @@ title: Приклади
 
 ## Зміст
 
--   [Прозоре підписування тексту](gnupg.examples-clearsign.html)
+-   [Прозоре підписування тексту](gnupg.examples-clearsign.md)

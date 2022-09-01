@@ -40,4 +40,4 @@ $quickprint = snmp_get_quick_print();
 
 ### Дивіться також
 
--   [snmpsetquickprint()](function.snmp-set-quick-print.html) - Встановлює значення enable у бібліотеці NET-SNMP для повного опису того, що робить quickprint.
+-   [snmpsetquickprint()](function.snmp-set-quick-print.md) - Встановлює значення enable у бібліотеці NET-SNMP для повного опису того, що робить quickprint.

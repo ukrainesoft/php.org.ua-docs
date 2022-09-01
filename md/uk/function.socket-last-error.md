@@ -18,15 +18,15 @@ socketlasterror — Повертає останню помилку на соке
 socket_last_error(?Socket $socket = null): int
 ```
 
-Якщо екземпляр [Socket](class.socket.html) передано цю функцію, то повертається остання помилка, яка сталася на цьому конкретному сокеті. Якщо `socket` не вказано, повертається код помилки останньої функції сокетів. Останнє особливо корисне для таких функцій, як [socketcreate()](function.socket-create.html), яка не повертає сокет у разі невдачі та [socketselect()](function.socket-select.html), що може закінчитися невдало з причин, не пов'язаних безпосередньо з конкретним сокетом. Код помилки підходить для передачі функції [socketstrerror()](function.socket-strerror.html), яка повертає рядок, що описує вказаний код помилки.
+Якщо екземпляр [Socket](class.socket.html) передано цю функцію, то повертається остання помилка, яка сталася на цьому конкретному сокеті. Якщо `socket` не вказано, повертається код помилки останньої функції сокетів. Останнє особливо корисне для таких функцій, як [socketcreate()](function.socket-create.html), яка не повертає сокет у разі невдачі та [socketselect()](function.socket-select.html), що може закінчитися невдало з причин, не пов'язаних безпосередньо з конкретним сокетом. Код помилки підходить для передачі функції [socketstrerror()](function.socket-strerror.md), яка повертає рядок, що описує вказаний код помилки.
 
-Якщо помилок немає або вони були очищені функцією [socketclearerror()](function.socket-clear-error.html), функція поверне `0`
+Якщо помилок немає або вони були очищені функцією [socketclearerror()](function.socket-clear-error.md), функція поверне `0`
 
 ### Список параметрів
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.html)
+Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.md)
 
 ### Значення, що повертаються
 
@@ -36,7 +36,7 @@ socket_last_error(?Socket $socket = null): int
 
 | Версия | Описание |
 | --- | --- |
-|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 |  | `socket` тепер допускає значення null. |
 
 ### Приклади
@@ -60,4 +60,4 @@ if ($socket === false) {
 
 > **Зауваження**
 > 
-> **socketlasterror()** не очищає код помилки, використовуйте [socketclearerror()](function.socket-clear-error.html) для цієї мети.
+> **socketlasterror()** не очищає код помилки, використовуйте [socketclearerror()](function.socket-clear-error.md) для цієї мети.

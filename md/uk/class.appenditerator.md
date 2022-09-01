@@ -60,13 +60,13 @@ public IteratorIterator::valid(): bool
 
 ## Зміст
 
--   [AppendIterator::append](appenditerator.append.html) — додає ітератор
--   [AppendIterator::construct](appenditerator.construct.html) - Створює AppendIterator
--   [AppendIterator::current](appenditerator.current.html) — Повертає поточне значення
--   [AppendIterator::getArrayIterator](appenditerator.getarrayiterator.html) - Повертає клас ітератора масиву ArrayIterator
--   [AppendIterator::getInnerIterator](appenditerator.getinneriterator.html) - Повертає внутрішній ітератор
--   [AppendIterator::getIteratorIndex](appenditerator.getiteratorindex.html) - Повертає індекс ітератора
--   [AppendIterator::key](appenditerator.key.html) — Повертає поточний ключ
--   [AppendIterator::next](appenditerator.next.html) — Переходить до наступного елементу
--   [AppendIterator::rewind](appenditerator.rewind.html) - Перемотує ітератор
--   [AppendIterator::valid](appenditerator.valid.html) — Перевіряє термін дії поточного елемента
+-   [AppendIterator::append](appenditerator.append.md) — додає ітератор
+-   [AppendIterator::construct](appenditerator.construct.md) - Створює AppendIterator
+-   [AppendIterator::current](appenditerator.current.md) — Повертає поточне значення
+-   [AppendIterator::getArrayIterator](appenditerator.getarrayiterator.md) - Повертає клас ітератора масиву ArrayIterator
+-   [AppendIterator::getInnerIterator](appenditerator.getinneriterator.md) - Повертає внутрішній ітератор
+-   [AppendIterator::getIteratorIndex](appenditerator.getiteratorindex.md) - Повертає індекс ітератора
+-   [AppendIterator::key](appenditerator.key.md) — Повертає поточний ключ
+-   [AppendIterator::next](appenditerator.next.md) — Переходить до наступного елементу
+-   [AppendIterator::rewind](appenditerator.rewind.md) - Перемотує ітератор
+-   [AppendIterator::valid](appenditerator.valid.md) — Перевіряє термін дії поточного елемента

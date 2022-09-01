@@ -154,14 +154,14 @@ httpdigestedresponse
 
 ## Зміст
 
--   [SolrResponse::getDigestedResponse](solrresponse.getdigestedresponse.html) — Повертає відповідь XML як серіалізовані дані PHP
--   [SolrResponse::getHttpStatus](solrresponse.gethttpstatus.html) — Повертає HTTP-статус відповіді
--   [SolrResponse::getHttpStatusMessage](solrresponse.gethttpstatusmessage.html) — Повертає докладнішу інформацію про статус HTTP
--   [SolrResponse::getRawRequest](solrresponse.getrawrequest.html) — Повертає необроблений запит, надісланий на сервер Solr
--   [SolrResponse::getRawRequestHeaders](solrresponse.getrawrequestheaders.html) — Повертає необроблені заголовки запиту на сервер Solr
--   [SolrResponse::getRawResponse](solrresponse.getrawresponse.html) — Повертає необроблену відповідь із сервера
--   [SolrResponse::getRawResponseHeaders](solrresponse.getrawresponseheaders.html) — Повертає необроблені заголовки відповіді із сервера
--   [SolrResponse::getRequestUrl](solrresponse.getrequesturl.html) — Повертає повну URL-адресу, на яку було надіслано запит.
--   [SolrResponse::getResponse](solrresponse.getresponse.html) - Повертає SolrObject, що представляє відповідь XML від сервера
--   [SolrResponse::setParseMode](solrresponse.setparsemode.html) — Встановлює режим аналізу
--   [SolrResponse::success](solrresponse.success.html) — Чи був запит успішним?
+-   [SolrResponse::getDigestedResponse](solrresponse.getdigestedresponse.md) — Повертає відповідь XML як серіалізовані дані PHP
+-   [SolrResponse::getHttpStatus](solrresponse.gethttpstatus.md) — Повертає HTTP-статус відповіді
+-   [SolrResponse::getHttpStatusMessage](solrresponse.gethttpstatusmessage.md) — Повертає докладнішу інформацію про статус HTTP
+-   [SolrResponse::getRawRequest](solrresponse.getrawrequest.md) — Повертає необроблений запит, надісланий на сервер Solr
+-   [SolrResponse::getRawRequestHeaders](solrresponse.getrawrequestheaders.md) — Повертає необроблені заголовки запиту на сервер Solr
+-   [SolrResponse::getRawResponse](solrresponse.getrawresponse.md) — Повертає необроблену відповідь із сервера
+-   [SolrResponse::getRawResponseHeaders](solrresponse.getrawresponseheaders.md) — Повертає необроблені заголовки відповіді із сервера
+-   [SolrResponse::getRequestUrl](solrresponse.getrequesturl.md) — Повертає повну URL-адресу, на яку було надіслано запит.
+-   [SolrResponse::getResponse](solrresponse.getresponse.md) - Повертає SolrObject, що представляє відповідь XML від сервера
+-   [SolrResponse::setParseMode](solrresponse.setparsemode.md) — Встановлює режим аналізу
+-   [SolrResponse::success](solrresponse.success.md) — Чи був запит успішним?

@@ -16,7 +16,7 @@ VtifulKernelExcel::construct — Конструктор
 
 public **VtifulKernelExcel::construct**(array `$config`
 
-Конструктор [VtifulKernelExcel](class.vtiful-kernel-excel.html)створити екземпляр.
+Конструктор [VtifulKernelExcel](class.vtiful-kernel-excel.md)створити екземпляр.
 
 ### Список параметрів
 

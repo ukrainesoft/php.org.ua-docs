@@ -10,5 +10,5 @@ title: Приклади
 
 ## Зміст
 
--   [Базовое использование](ldap.examples-basic.html)
--   [LDAP Controls](ldap.examples-controls.html)
+-   [Базовое использование](ldap.examples-basic.md)
+-   [LDAP Controls](ldap.examples-controls.md)

@@ -20,7 +20,7 @@ mb_substitute_character(string|int|null $substitute_character = null): string|in
 
 Задає заміщувальний символ на випадок, коли кодування вхідних даних неправильне або код символу не існує в кодуванні вихідних даних. Неприпустимі символи можуть бути замінені на `"none"` (немає виводу), рядок (string) чи числове значення (int) (код символу Юнікоду).
 
-Ця установка впливає на поведінку таких функцій: [мбconvertencoding()](function.mb-convert-encoding.html) [мбconvertvariables()](function.mb-convert-variables.html) [мбoutputhandler()](function.mb-output-handler.html), і [мбsendmail()](function.mb-send-mail.html)
+Ця установка впливає на поведінку таких функцій: [мбconvertencoding()](function.mb-convert-encoding.html) [мбconvertvariables()](function.mb-convert-variables.html) [мбoutputhandler()](function.mb-output-handler.html), і [мбsendmail()](function.mb-send-mail.md)
 
 ### Список параметрів
 

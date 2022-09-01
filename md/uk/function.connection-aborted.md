@@ -30,6 +30,6 @@ connection_aborted(): int
 
 ### Дивіться також
 
--   [connectionstatus()](function.connection-status.html) - Повертає статус з'єднання у бітах
--   [ignoreuserabort()](function.ignore-user-abort.html) - Встановити, чи має відключення клієнта переривати виконання скрипту
--   Дивіться [Управление подключениями](features.connection-handling.html) для отримання повного опису управління підключення PHP.
+-   [connectionstatus()](function.connection-status.md) - Повертає статус з'єднання у бітах
+-   [ignoreuserabort()](function.ignore-user-abort.md) - Встановити, чи має відключення клієнта переривати виконання скрипту
+-   Дивіться [Управление подключениями](features.connection-handling.md) для отримання повного опису управління підключення PHP.

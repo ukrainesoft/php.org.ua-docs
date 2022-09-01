@@ -30,7 +30,7 @@ title: Контекстні опції сокету
 
 > **Зауваження**
 > 
-> Використовується тільки для [streamsocketserver()](function.stream-socket-server.html)
+> Використовується тільки для [streamsocketserver()](function.stream-socket-server.md)
 
 `ipv6_v6only`
 
@@ -40,7 +40,7 @@ title: Контекстні опції сокету
 > 
 > Це важливо у разі спроби окремо слухати IPv4 адреси, у той час як задана прив'язка до `[::]`
 > 
-> Застосовується тільки до [streamsocketserver()](function.stream-socket-server.html)
+> Застосовується тільки до [streamsocketserver()](function.stream-socket-server.md)
 
 `so_reuseport`
 
@@ -48,7 +48,7 @@ title: Контекстні опції сокету
 
 > **Зауваження**
 > 
-> Застосовується тільки до [streamsocketserver()](function.stream-socket-server.html)
+> Застосовується тільки до [streamsocketserver()](function.stream-socket-server.md)
 
 `so_broadcast`
 
@@ -56,7 +56,7 @@ title: Контекстні опції сокету
 
 > **Зауваження**
 > 
-> Застосовується тільки до [streamsocketserver()](function.stream-socket-server.html)
+> Застосовується тільки до [streamsocketserver()](function.stream-socket-server.md)
 
 `tcp_nodelay`
 

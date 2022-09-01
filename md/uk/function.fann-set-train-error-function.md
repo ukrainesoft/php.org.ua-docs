@@ -38,4 +38,4 @@ fann_set_train_error_function(resource $ann, int $error_function): bool
 
 ### Дивіться також
 
--   [fanngettrainerrorfunction()](function.fann-get-train-error-function.html) - Повертає функцію обробки помилок, що використовується під час навчання
+-   [fanngettrainerrorfunction()](function.fann-get-train-error-function.md) - Повертає функцію обробки помилок, що використовується під час навчання

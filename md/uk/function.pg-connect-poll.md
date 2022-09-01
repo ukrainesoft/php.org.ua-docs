@@ -18,13 +18,13 @@ title: пгconnectpoll
 pg_connect_poll(PgSql\Connection $connection): int
 ```
 
-**пгconnectpoll()** опитує статус з'єднання PostgreSQL, створеного викликом функції [пгconnect()](function.pg-connect.html) з параметром **`PGSQL_CONNECT_ASYNC`**
+**пгconnectpoll()** опитує статус з'єднання PostgreSQL, створеного викликом функції [пгconnect()](function.pg-connect.md) з параметром **`PGSQL_CONNECT_ASYNC`**
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md)
 
 ### Значення, що повертаються
 
@@ -34,4 +34,4 @@ pg_connect_poll(PgSql\Connection $connection): int
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

@@ -50,5 +50,5 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::sendError()](eventhttprequest.senderror.html) - Надсилає HTML-повідомлення про помилку клієнту
--   [EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.html) - Відправляє блок даних, як частина поточної фрагментованої відповіді
+-   [EventHttpRequest::sendError()](eventhttprequest.senderror.md) - Надсилає HTML-повідомлення про помилку клієнту
+-   [EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.md) - Відправляє блок даних, як частина поточної фрагментованої відповіді

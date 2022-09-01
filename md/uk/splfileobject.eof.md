@@ -53,5 +53,5 @@ elderberry
 
 ### Дивіться також
 
--   [SplFileObject::valid()](splfileobject.valid.html) - Перевіряє, чи кінець файлу (EOF) досягнуто.
--   [feof()](function.feof.html) - Перевіряє, чи кінець файлу досягнуто
+-   [SplFileObject::valid()](splfileobject.valid.md) - Перевіряє, чи кінець файлу (EOF) досягнуто.
+-   [feof()](function.feof.md) - Перевіряє, чи кінець файлу досягнуто

@@ -19,37 +19,37 @@ title: Управління сесіями
     -   [Основи використання](session.examples.basic.md)
     -   [Передача идентификатора сессии](session.idpassing.md)
     -   [Користувальницькі обробники сесії](session.customhandler.md)
--   [Отслеживание прогресса загрузки файлов с помощью сессий](session.upload-progress.html)
+-   [Отслеживание прогресса загрузки файлов с помощью сессий](session.upload-progress.md)
 -   [Безпека сесій](session.security.md)
     -   [Базові засади управління сесіями](features.session.security.management.md)
     -   [INI-налаштування безпеки сесій](session.security.ini.md)
 -   [Функції для роботи із сесіями](ref.session.md)
-    -   [sessionabort](function.session-abort.html) — Скасує зміни у масиві сесії та завершує її
-    -   [sessioncacheexpire](function.session-cache-expire.html) — Отримує та/або встановлює термін дії поточного кешу
-    -   [sessioncachelimiter](function.session-cache-limiter.html) — Отримати та/або встановити поточний режим кешування
-    -   [sessioncommit](function.session-commit.html) - Псевдонім sessionwriteclose
-    -   [sessioncreateід](function.session-create-id.html) — Створює новий ідентифікатор сесії
-    -   [sessiondecode](function.session-decode.html) — Декодує дані сесії із закодованого рядка сесії
-    -   [sessiondestroy](function.session-destroy.html) — Знищує всі дані сесії
-    -   [sessionencode](function.session-encode.html) — Кодує дані поточної сесії у форматі рядка сесії
-    -   [sessionгк](function.session-gc.html) — Виконує складання сміття даних сесії
-    -   [sessiongetcookieparams](function.session-get-cookie-params.html) — Повертає параметри cookie сесії
-    -   [sessionід](function.session-id.html) — Отримує та/або встановлює ідентифікатор поточної сесії
-    -   [sessionmodulename](function.session-module-name.html) — Повертає та/або встановлює модуль поточної сесії
-    -   [sessionname](function.session-name.html) — Отримати або встановити ім'я поточної сесії
-    -   [sessionregenerateід](function.session-regenerate-id.html) — Генерує та оновлює ідентифікатор поточної сесії
-    -   [sessionregistershutdown](function.session-register-shutdown.html) - Функція завершення сесії
-    -   [sessionreset](function.session-reset.html) — Реініціалізує сесію оригінальними значеннями
-    -   [sessionsavepath](function.session-save-path.html) — Отримує та/або встановлює шлях збереження сесії
-    -   [sessionsetcookieparams](function.session-set-cookie-params.html) — Встановлює параметри сесійної cookie
-    -   [sessionsetsavehandler](function.session-set-save-handler.html) - Встановлює користувальницькі обробники зберігання сесії
-    -   [sessionstart](function.session-start.html) — Стартує нову сесію або відновлює існуючу
-    -   [sessionstatus](function.session-status.html) — Повертає стан поточної сесії
-    -   [sessionunset](function.session-unset.html) — Видалити всі змінні сесії
-    -   [sessionwriteclose](function.session-write-close.html) — Записує дані сесії та завершує її
+    -   [sessionabort](function.session-abort.md) — Скасує зміни у масиві сесії та завершує її
+    -   [sessioncacheexpire](function.session-cache-expire.md) — Отримує та/або встановлює термін дії поточного кешу
+    -   [sessioncachelimiter](function.session-cache-limiter.md) — Отримати та/або встановити поточний режим кешування
+    -   [sessioncommit](function.session-commit.md) - Псевдонім sessionwriteclose
+    -   [sessioncreateід](function.session-create-id.md) — Створює новий ідентифікатор сесії
+    -   [sessiondecode](function.session-decode.md) — Декодує дані сесії із закодованого рядка сесії
+    -   [sessiondestroy](function.session-destroy.md) — Знищує всі дані сесії
+    -   [sessionencode](function.session-encode.md) — Кодує дані поточної сесії у форматі рядка сесії
+    -   [sessionгк](function.session-gc.md) — Виконує складання сміття даних сесії
+    -   [sessiongetcookieparams](function.session-get-cookie-params.md) — Повертає параметри cookie сесії
+    -   [sessionід](function.session-id.md) — Отримує та/або встановлює ідентифікатор поточної сесії
+    -   [sessionmodulename](function.session-module-name.md) — Повертає та/або встановлює модуль поточної сесії
+    -   [sessionname](function.session-name.md) — Отримати або встановити ім'я поточної сесії
+    -   [sessionregenerateід](function.session-regenerate-id.md) — Генерує та оновлює ідентифікатор поточної сесії
+    -   [sessionregistershutdown](function.session-register-shutdown.md) - Функція завершення сесії
+    -   [sessionreset](function.session-reset.md) — Реініціалізує сесію оригінальними значеннями
+    -   [sessionsavepath](function.session-save-path.md) — Отримує та/або встановлює шлях збереження сесії
+    -   [sessionsetcookieparams](function.session-set-cookie-params.md) — Встановлює параметри сесійної cookie
+    -   [sessionsetsavehandler](function.session-set-save-handler.md) - Встановлює користувальницькі обробники зберігання сесії
+    -   [sessionstart](function.session-start.md) — Стартує нову сесію або відновлює існуючу
+    -   [sessionstatus](function.session-status.md) — Повертає стан поточної сесії
+    -   [sessionunset](function.session-unset.md) — Видалити всі змінні сесії
+    -   [sessionwriteclose](function.session-write-close.md) — Записує дані сесії та завершує її
 -   [SessionHandler](class.sessionhandler.md) - Клас SessionHandler
     -   [SessionHandler::close](sessionhandler.close.md) - Закриває сесію
-    -   [SessionHandler::createsid](sessionhandler.create-sid.html) — Повертає новий ідентифікатор сесії
+    -   [SessionHandler::createsid](sessionhandler.create-sid.md) — Повертає новий ідентифікатор сесії
     -   [SessionHandler::destroy](sessionhandler.destroy.md) - Знищує сесію
     -   [SessionHandler::gc](sessionhandler.gc.md) - Очищає старі сесії
     -   [SessionHandler::open](sessionhandler.open.md) - Ініціалізує сесію
@@ -63,7 +63,7 @@ title: Управління сесіями
     -   [SessionHandlerInterface::read](sessionhandlerinterface.read.md) — Читає дані сесії
     -   [SessionHandlerInterface::write](sessionhandlerinterface.write.md) — Записати дані сесії
 -   [SessionIdInterface](class.sessionidinterface.md) - Інтерфейс SessionIdInterface
-    -   [SessionIdInterface::createsid](sessionidinterface.create-sid.html) — Створити ідентифікатор сесії
+    -   [SessionIdInterface::createsid](sessionidinterface.create-sid.md) — Створити ідентифікатор сесії
 -   [SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.md) — Інтерфейс SessionUpdateTimestampHandlerInterface
     -   [SessionUpdateTimestampHandlerInterface::updateTimestamp](sessionupdatetimestamphandlerinterface.updatetimestamp.md) — Оновити позначку часу
     -   [SessionUpdateTimestampHandlerInterface::validateId](sessionupdatetimestamphandlerinterface.validateid.md) - Перевірити ідентифікатор

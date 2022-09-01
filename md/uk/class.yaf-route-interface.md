@@ -37,5 +37,5 @@ abstract public route(Yaf_Request_Abstract $request): bool
 
 ## Зміст
 
--   [YafRouteInterface::assemble](yaf-route-interface.assemble.html) - Збирає запит
--   [YafRouteInterface::route](yaf-route-interface.route.html) — Надсилання запиту
+-   [YafRouteInterface::assemble](yaf-route-interface.assemble.md) - Збирає запит
+-   [YafRouteInterface::route](yaf-route-interface.route.md) — Надсилання запиту

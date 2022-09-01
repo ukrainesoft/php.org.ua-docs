@@ -8,35 +8,35 @@ title: Користувальницький кеш APC
 ---
 # Користувальницький кеш APC
 
--   [Введение](intro.apcu.html)
--   [Встановлення та налаштування](apcu.setup.html)
-    -   [Вимоги](apcu.requirements.html)
-    -   [Установка](apcu.installation.html)
-    -   [Налаштування під час виконання](apcu.configuration.html)
-    -   [Типи ресурсів](apcu.resources.html)
--   [Обумовлені константи](apcu.constants.html)
--   [Функции APCu](ref.apcu.html)
-    -   [apcuadd](function.apcu-add.html) - Додати змінну в кеш
-    -   [apcucacheinfo](function.apcu-cache-info.html) — Витягує закешовану інформацію зі сховища APCu
-    -   [apcucas](function.apcu-cas.html) — Замінює старе значення на нове
-    -   [apcuclearcache](function.apcu-clear-cache.html) — Очистити кеш APCu
-    -   [apcudec](function.apcu-dec.html) — Зменшити збережене число
-    -   [apcudelete](function.apcu-delete.html) — Видаляє збережене значення з кешу
-    -   [apcuenabled](function.apcu-enabled.html) — Чи можливо використовувати APCu у поточному оточенні
-    -   [apcuentry](function.apcu-entry.html) — Автоматичне вилучення або створення запису в кеші
-    -   [apcuexists](function.apcu-exists.html) — Перевіряє, чи є записи
-    -   [apcufetch](function.apcu-fetch.html) - Витягує з кеша збережену змінну
-    -   [apcuinc](function.apcu-inc.html) — Збільшити збережене число
-    -   [apcukeyinfo](function.apcu-key-info.html) — Отримати детальну інформацію про ключ у кеші
-    -   [apcusmainfo](function.apcu-sma-info.html) — Витягує інформацію про виділення пам'яті APCu, що розділяється.
-    -   [apcustore](function.apcu-store.html) - Кешує змінну
--   [APCUIterator](class.apcuiterator.html) - Клас APCUIterator
-    -   [APCUIterator::construct](apcuiterator.construct.html) — Створює об'єкт ітератора класу APCUIterator
-    -   [APCUIterator::current](apcuiterator.current.html) — Отримати поточний елемент
-    -   [APCUIterator::getTotalCount](apcuiterator.gettotalcount.html) — Отримати загальну кількість записів
-    -   [APCUIterator::getTotalHits](apcuiterator.gettotalhits.html) — Отримати загальну кількість влучень у кеш
-    -   [APCUIterator::getTotalSize](apcuiterator.gettotalsize.html) - Загальний розмір кешу
-    -   [APCUIterator::key](apcuiterator.key.html) - Отримати ключ ітератора
-    -   [APCUIterator::next](apcuiterator.next.html) — Переміщує курсор на наступний елемент
-    -   [APCUIterator::rewind](apcuiterator.rewind.html) - Перемотування ітератора
-    -   [APCUIterator::valid](apcuiterator.valid.html) — Перевіряє, чи поточна позиція ітератора коректна.
+-   [Введение](intro.apcu.md)
+-   [Встановлення та налаштування](apcu.setup.md)
+    -   [Вимоги](apcu.requirements.md)
+    -   [Установка](apcu.installation.md)
+    -   [Налаштування під час виконання](apcu.configuration.md)
+    -   [Типи ресурсів](apcu.resources.md)
+-   [Обумовлені константи](apcu.constants.md)
+-   [Функции APCu](ref.apcu.md)
+    -   [apcuadd](function.apcu-add.md) - Додати змінну в кеш
+    -   [apcucacheinfo](function.apcu-cache-info.md) — Витягує закешовану інформацію зі сховища APCu
+    -   [apcucas](function.apcu-cas.md) — Замінює старе значення на нове
+    -   [apcuclearcache](function.apcu-clear-cache.md) — Очистити кеш APCu
+    -   [apcudec](function.apcu-dec.md) — Зменшити збережене число
+    -   [apcudelete](function.apcu-delete.md) — Видаляє збережене значення з кешу
+    -   [apcuenabled](function.apcu-enabled.md) — Чи можливо використовувати APCu у поточному оточенні
+    -   [apcuentry](function.apcu-entry.md) — Автоматичне вилучення або створення запису в кеші
+    -   [apcuexists](function.apcu-exists.md) — Перевіряє, чи є записи
+    -   [apcufetch](function.apcu-fetch.md) - Витягує з кеша збережену змінну
+    -   [apcuinc](function.apcu-inc.md) — Збільшити збережене число
+    -   [apcukeyinfo](function.apcu-key-info.md) — Отримати детальну інформацію про ключ у кеші
+    -   [apcusmainfo](function.apcu-sma-info.md) — Витягує інформацію про виділення пам'яті APCu, що розділяється.
+    -   [apcustore](function.apcu-store.md) - Кешує змінну
+-   [APCUIterator](class.apcuiterator.md) - Клас APCUIterator
+    -   [APCUIterator::construct](apcuiterator.construct.md) — Створює об'єкт ітератора класу APCUIterator
+    -   [APCUIterator::current](apcuiterator.current.md) — Отримати поточний елемент
+    -   [APCUIterator::getTotalCount](apcuiterator.gettotalcount.md) — Отримати загальну кількість записів
+    -   [APCUIterator::getTotalHits](apcuiterator.gettotalhits.md) — Отримати загальну кількість влучень у кеш
+    -   [APCUIterator::getTotalSize](apcuiterator.gettotalsize.md) - Загальний розмір кешу
+    -   [APCUIterator::key](apcuiterator.key.md) - Отримати ключ ітератора
+    -   [APCUIterator::next](apcuiterator.next.md) — Переміщує курсор на наступний елемент
+    -   [APCUIterator::rewind](apcuiterator.rewind.md) - Перемотування ітератора
+    -   [APCUIterator::valid](apcuiterator.valid.md) — Перевіряє, чи поточна позиція ітератора коректна.

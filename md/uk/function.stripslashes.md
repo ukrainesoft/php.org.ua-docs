@@ -90,4 +90,4 @@ Array
 ### Дивіться також
 
 -   [addslashes()](function.addslashes.md) - Екранує рядок за допомогою слішів
--   [getmagicquotesgpc()](function.get-magic-quotes-gpc.html) - Отримання поточного значення конфігурації конфігурації magicquotesgpc
+-   [getmagicquotesgpc()](function.get-magic-quotes-gpc.md) - Отримання поточного значення конфігурації конфігурації magicquotesgpc

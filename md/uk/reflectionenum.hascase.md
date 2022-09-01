@@ -60,6 +60,6 @@ bool(false)
 
 ### Дивіться також
 
--   [Перечисления](language.enumerations.html)
--   [ReflectionEnum::getCase()](reflectionenum.getcase.html) - Повертає певний варіант перерахування
--   [ReflectionEnum::getCases()](reflectionenum.getcases.html) - Повертає список усіх варіантів перерахування
+-   [Перечисления](language.enumerations.md)
+-   [ReflectionEnum::getCase()](reflectionenum.getcase.md) - Повертає певний варіант перерахування
+-   [ReflectionEnum::getCases()](reflectionenum.getcases.md) - Повертає список усіх варіантів перерахування

@@ -79,7 +79,7 @@ string(1) "?"
 
 ### Дивіться також
 
--   [utf8encode()](function.utf8-encode.html) - Перетворює рядок із ISO-8859-1 на UTF-8
--   [мбconvertencoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
+-   [utf8encode()](function.utf8-encode.md) - Перетворює рядок із ISO-8859-1 на UTF-8
+-   [мбconvertencoding()](function.mb-convert-encoding.md) - Перетворює рядок з одного кодування символів на інший
 -   [UConverter::transcode()](uconverter.transcode.md) - Перетворює рядок з одного кодування символів на інший
 -   [iconv()](function.iconv.md) - Перетворює рядок з одного кодування символів на інший

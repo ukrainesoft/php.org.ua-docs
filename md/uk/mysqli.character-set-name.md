@@ -34,7 +34,7 @@ mysqli_character_set_name(mysqli $mysql): string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -85,5 +85,5 @@ printf("Текущая кодировка - %s\n", $charset);
 
 ### Дивіться також
 
--   [mysqlisetcharset()](mysqli.set-charset.html) - Встановлює набір символів
--   [mysqlirealescapestring()](mysqli.real-escape-string.html) - Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання
+-   [mysqlisetcharset()](mysqli.set-charset.md) - Встановлює набір символів
+-   [mysqlirealescapestring()](mysqli.real-escape-string.md) - Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання

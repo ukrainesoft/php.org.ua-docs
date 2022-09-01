@@ -33,4 +33,4 @@ public streamWrapper::stream_close(): void
 ### Дивіться також
 
 -   [fclose()](function.fclose.md) - Закриває відкритий дескриптор файлу
--   [streamWrapper::dirclosedir()](streamwrapper.dir-closedir.html) - Закрити дескриптор директорії
+-   [streamWrapper::dirclosedir()](streamwrapper.dir-closedir.md) - Закрити дескриптор директорії

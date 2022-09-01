@@ -131,4 +131,4 @@ var_dump(escape_javascript_string($msg));
 
 ### Дивіться також
 
--   [мбencodenumericentity()](function.mb-encode-numericentity.html) - Кодує символ у числове HTML-посилання
+-   [мбencodenumericentity()](function.mb-encode-numericentity.md) - Кодує символ у числове HTML-посилання

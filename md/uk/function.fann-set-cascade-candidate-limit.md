@@ -36,4 +36,4 @@ fann_set_cascade_candidate_limit(resource $ann, float $cascade_candidate_limit):
 
 ### Дивіться також
 
--   [fanngetcascadecandidatelimit()](function.fann-get-cascade-candidate-limit.html) - Повертає межу кандидата
+-   [fanngetcascadecandidatelimit()](function.fann-get-cascade-candidate-limit.md) - Повертає межу кандидата

@@ -34,7 +34,7 @@ numfmt_set_attribute(NumberFormatter $formatter, int $attribute, int|float $valu
 
 `formatter`
 
-Об'єкт [NumberFormatter](class.numberformatter.html)
+Об'єкт [NumberFormatter](class.numberformatter.md)
 
 `attribute`
 
@@ -87,6 +87,6 @@ echo $fmt->format(1234567.891234567890000)."\n";
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmtgetattribute()](numberformatter.getattribute.html) - Отримує атрибут
--   [numfmtsettextattribute()](numberformatter.settextattribute.html) - Встановлює текстовий атрибут
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
+-   [numfmtgetattribute()](numberformatter.getattribute.md) - Отримує атрибут
+-   [numfmtsettextattribute()](numberformatter.settextattribute.md) - Встановлює текстовий атрибут

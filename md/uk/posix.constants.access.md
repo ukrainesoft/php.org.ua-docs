@@ -4,9 +4,9 @@ navigation:
   - posix.constants.mknod.md: Константи posixmknod »
   - index.md: PHP Manual
   - posix.constants.md: Обумовлені константи
-title: 'Константи [posixaccess()](function.posix-access.html)'
+title: 'Константи [posixaccess()](function.posix-access.md)'
 ---
-## Константи [posixaccess()](function.posix-access.html)
+## Константи [posixaccess()](function.posix-access.md)
 
 > **Зауваження**
 > 

@@ -20,7 +20,7 @@ svn_commit(string $log, array $targets, bool $recursive = true): array
 
 Відправляє зміни у файлах локальної робочої копії, перелічені у масиві `targets` у репозиторій, з повідомленням `log`. Директорії з масиву `targets` будуть рекурсивно додані, якщо параметр `recursive` не встановлений у **`false`**
 
-> **Зауваження**: Ця функція не має параметрів для встановлення даних аутентифікації, тому ім'я користувача та пароль мають бути задані за допомогою функції [svnauthsetparameter()](function.svn-auth-set-parameter.html)
+> **Зауваження**: Ця функція не має параметрів для встановлення даних аутентифікації, тому ім'я користувача та пароль мають бути задані за допомогою функції [svnauthsetparameter()](function.svn-auth-set-parameter.md)
 
 ### Список параметрів
 
@@ -82,5 +82,5 @@ array(
 
 ### Дивіться також
 
--   [svnauthsetparameter()](function.svn-auth-set-parameter.html) - Встановлює параметр автентифікації
--   [» SVN-документация по svn commit](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.commit.html)
+-   [svnauthsetparameter()](function.svn-auth-set-parameter.md) - Встановлює параметр автентифікації
+-   [» SVN-документация по svn commit](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.commit.md)

@@ -36,4 +36,4 @@ sodium_crypto_generichash(string $message, string $key = "", int $length = SODIU
 
 ### Значення, що повертаються
 
-Криптографічний хеш як необроблених байтів. Якщо бажаний висновок у шістнадцятковому коді, результат можна передати в [sodiumbin2hex()](function.sodium-bin2hex.html)
+Криптографічний хеш як необроблених байтів. Якщо бажаний висновок у шістнадцятковому коді, результат можна передати в [sodiumbin2hex()](function.sodium-bin2hex.md)

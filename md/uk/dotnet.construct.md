@@ -30,4 +30,4 @@ public **dotnet::construct**(string `$assembly_name`, string `$datatype_name`, i
 
 `codepage`
 
-Кодова сторінка Подробиці читайте на сторінці [com](class.com.html)
+Кодова сторінка Подробиці читайте на сторінці [com](class.com.md)

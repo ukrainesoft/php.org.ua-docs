@@ -63,5 +63,5 @@ bool(true)
 
 ### Дивіться також
 
--   [sodiumcryptocoreristretto255random()](function.sodium-crypto-core-ristretto255-random.html) - Генерує випадковий ключ
--   [sodiumcryptocoreristretto255add()](function.sodium-crypto-core-ristretto255-add.html) - Додає елемент
+-   [sodiumcryptocoreristretto255random()](function.sodium-crypto-core-ristretto255-random.md) - Генерує випадковий ключ
+-   [sodiumcryptocoreristretto255add()](function.sodium-crypto-core-ristretto255-add.md) - Додає елемент

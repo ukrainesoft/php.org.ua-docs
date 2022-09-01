@@ -18,7 +18,7 @@ MongoDBBSONBinaryInterface::toString — Повертає дані BinaryInterfa
 abstract public MongoDB\BSON\BinaryInterface::__toString(): string
 ```
 
-Цей метод є псевдонімом: [MongoDBBSONBinaryInterface::getData()](mongodb-bson-binaryinterface.getdata.html)
+Цей метод є псевдонімом: [MongoDBBSONBinaryInterface::getData()](mongodb-bson-binaryinterface.getdata.md)
 
 ### Список параметрів
 
@@ -30,5 +30,5 @@ abstract public MongoDB\BSON\BinaryInterface::__toString(): string
 
 ### Дивіться також
 
--   [MongoDBBSONBinaryInterface::getData()](mongodb-bson-binaryinterface.getdata.html) - Повертає дані BinaryInterface
--   [MongoDBBSONBinary::toString()](mongodb-bson-binary.tostring.html) - Повертає дані Binary
+-   [MongoDBBSONBinaryInterface::getData()](mongodb-bson-binaryinterface.getdata.md) - Повертає дані BinaryInterface
+-   [MongoDBBSONBinary::toString()](mongodb-bson-binary.tostring.md) - Повертає дані Binary

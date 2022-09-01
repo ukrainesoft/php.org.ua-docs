@@ -24,8 +24,8 @@ final public MongoDB\Driver\Monitoring\TopologyChangedEvent::getPreviousDescript
 
 ### Значення, що повертаються
 
-Повертає попередній опис ([MongoDBDriverTopologyDescription](class.mongodb-driver-topologydescription.html)) топології.
+Повертає попередній опис ([MongoDBDriverTopologyDescription](class.mongodb-driver-topologydescription.md)) топології.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

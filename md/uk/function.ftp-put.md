@@ -24,7 +24,7 @@ ftp_put(    FTP\Connection $ftp,    string $remote_filename,    stri
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `remote_filename`
 
@@ -50,7 +50,7 @@ ftp_put(    FTP\Connection $ftp,    string $remote_filename,    stri
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
@@ -82,7 +82,7 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftppasv()](function.ftp-pasv.html) - Вмикає або вимикає пасивний режим
--   [ftpfput()](function.ftp-fput.html) - Завантажує попередньо відкритий файл на FTP-сервер
--   [ftpнбfput()](function.ftp-nb-fput.html) - Завантажує попередньо відкритий файл на сервер FTP в асинхронному режимі
--   [ftpнбput()](function.ftp-nb-put.html) - Завантажує файл на сервер FTP в асинхронному режимі
+-   [ftppasv()](function.ftp-pasv.md) - Вмикає або вимикає пасивний режим
+-   [ftpfput()](function.ftp-fput.md) - Завантажує попередньо відкритий файл на FTP-сервер
+-   [ftpнбfput()](function.ftp-nb-fput.md) - Завантажує попередньо відкритий файл на сервер FTP в асинхронному режимі
+-   [ftpнбput()](function.ftp-nb-put.md) - Завантажує файл на сервер FTP в асинхронному режимі

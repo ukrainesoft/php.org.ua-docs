@@ -16,8 +16,8 @@ title: SimpleXML
     -   [Типи ресурсів](simplexml.resources.md)
 -   [Обумовлені константи](simplexml.constants.md)
 -   [Приклади](simplexml.examples.md)
-    -   [Базовое использование SimpleXML](simplexml.examples-basic.html)
-    -   [Робота з помилками XML](simplexml.examples-errors.html)
+    -   [Базовое использование SimpleXML](simplexml.examples-basic.md)
+    -   [Робота з помилками XML](simplexml.examples-errors.md)
 -   [SimpleXMLElement](class.simplexmlelement.md) - Клас SimpleXMLElement
     -   [SimpleXMLElement::addAttribute](simplexmlelement.addattribute.md) - Додає атрибут до SimpleXML-елементу
     -   [SimpleXMLElement::addChild](simplexmlelement.addchild.md) — Додає дочірній елемент до сайту XML
@@ -42,6 +42,6 @@ title: SimpleXML
     -   [SimpleXMLIterator::rewind](simplexmliterator.rewind.md) — Повертає ітератор до першого елементу
     -   [SimpleXMLIterator::valid](simplexmliterator.valid.md) — Перевіряє, чи поточний елемент є допустимим
 -   [Функции SimpleXML](ref.simplexml.md)
-    -   [simplexmlimportdom](function.simplexml-import-dom.html) — Отримує об'єкт класу SimpleXMLElement із вузла DOM
-    -   [simplexmlloadfile](function.simplexml-load-file.html) — Інтерпретує файл XML в об'єкт
-    -   [simplexmlloadstring](function.simplexml-load-string.html) — Інтерпретує рядок із XML в об'єкт
+    -   [simplexmlimportdom](function.simplexml-import-dom.md) — Отримує об'єкт класу SimpleXMLElement із вузла DOM
+    -   [simplexmlloadfile](function.simplexml-load-file.md) — Інтерпретує файл XML в об'єкт
+    -   [simplexmlloadstring](function.simplexml-load-string.md) — Інтерпретує рядок із XML в об'єкт

@@ -10,7 +10,7 @@ title: Встановлення на платформах Cloud Computing
 
 ## Зміст
 
--   [Azure App Services](install.cloud.azure.html)
--   [Amazon EC2](install.cloud.ec2.html)
+-   [Azure App Services](install.cloud.azure.md)
+-   [Amazon EC2](install.cloud.ec2.md)
 
 PHP встановлюється на хмарних платформах.

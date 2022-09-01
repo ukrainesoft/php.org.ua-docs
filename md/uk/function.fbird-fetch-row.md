@@ -10,13 +10,13 @@ title: fbirdfetchrow
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdfetchrow - Псевдонім [ibasefetchrow()](function.ibase-fetch-row.html)
+fbirdfetchrow - Псевдонім [ibasefetchrow()](function.ibase-fetch-row.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibasefetchrow()](function.ibase-fetch-row.html)
+Ця функція є псевдонімом: [ibasefetchrow()](function.ibase-fetch-row.md)
 
 ### Дивіться також
 
--   [fbirdfetchassoc()](function.fbird-fetch-assoc.html) - Псевдонім ibasefetchassoc
--   [fbirdfetchobject()](function.fbird-fetch-object.html) - Псевдонім ibasefetchobject
+-   [fbirdfetchassoc()](function.fbird-fetch-assoc.md) - Псевдонім ibasefetchassoc
+-   [fbirdfetchobject()](function.fbird-fetch-object.md) - Псевдонім ibasefetchobject

@@ -24,7 +24,7 @@ openssl_cipher_iv_length(string $cipher_algo): int|false
 
 `cipher_algo`
 
-Метод шифрування. Список потенційних значень можна отримати за допомогою [opensslgetciphermethods()](function.openssl-get-cipher-methods.html)
+Метод шифрування. Список потенційних значень можна отримати за допомогою [opensslgetciphermethods()](function.openssl-get-cipher-methods.md)
 
 ### Значення, що повертаються
 

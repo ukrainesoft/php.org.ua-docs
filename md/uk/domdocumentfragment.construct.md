@@ -10,7 +10,7 @@ title: 'DOMDocumentFragment::construct'
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMDocumentFragment::construct - Конструктор об'єкта [DOMDocumentFragment](class.domdocumentfragment.html)
+DOMDocumentFragment::construct - Конструктор об'єкта [DOMDocumentFragment](class.domdocumentfragment.md)
 
 ### Опис
 

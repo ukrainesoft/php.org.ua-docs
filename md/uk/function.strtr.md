@@ -107,5 +107,5 @@ ba01
 
 ### Дивіться також
 
--   [strreplace()](function.str-replace.html) - Замінює всі входження рядка пошуку на рядок заміни
--   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
+-   [strreplace()](function.str-replace.md) - Замінює всі входження рядка пошуку на рядок заміни
+-   [pregreplace()](function.preg-replace.md) - Виконує пошук та заміну за регулярним виразом

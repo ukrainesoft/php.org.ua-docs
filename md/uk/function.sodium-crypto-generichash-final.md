@@ -24,7 +24,7 @@ sodium_crypto_generichash_final(string &$state, int $length = SODIUM_CRYPTO_GENE
 
 `state`
 
-Стан хешу, повернутий [sodiumcryptogenerichashinit()](function.sodium-crypto-generichash-init.html)
+Стан хешу, повернутий [sodiumcryptogenerichashinit()](function.sodium-crypto-generichash-init.md)
 
 `length`
 

@@ -55,7 +55,7 @@ echo "Не выполнено\n";
 
 ### Дивіться також
 
--   [restoreexceptionhandler()](function.restore-exception-handler.html) - Відновлює попередній обробник винятків
--   [restoreerrorhandler()](function.restore-error-handler.html) - Відновлює попередній обробник помилок
--   [errorreporting()](function.error-reporting.html) - Задає, які помилки PHP потраплять у звіт
+-   [restoreexceptionhandler()](function.restore-exception-handler.md) - Відновлює попередній обробник винятків
+-   [restoreerrorhandler()](function.restore-error-handler.md) - Відновлює попередній обробник помилок
+-   [errorreporting()](function.error-reporting.md) - Задає, які помилки PHP потраплять у звіт
 -   [Исключения PHP 5](language.exceptions.md)

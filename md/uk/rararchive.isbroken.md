@@ -34,11 +34,11 @@ rar_broken_is(RarArchive $rarfile): bool
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.html), відкритий за допомогою [raropen()](rararchive.open.html)
+Об'єкт [RarArchive](class.rararchive.html), відкритий за допомогою [raropen()](rararchive.open.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо архів зламаний і **`false`**, якщо ні. Також, функція може повернути **`false`**, якщо надісланий файл вже закрито. Єдиний варіант визначити точну причину – це дозволити винятки за допомогою [RarException::setUsingExceptions()](rarexception.setusingexceptions.html); однак, це не так вже й важливо, оскільки програма все одно не зможе працювати із закритим файлом.
+Повертає **`true`**, якщо архів зламаний і **`false`**, якщо ні. Також, функція може повернути **`false`**, якщо надісланий файл вже закрито. Єдиний варіант визначити точну причину – це дозволити винятки за допомогою [RarException::setUsingExceptions()](rarexception.setusingexceptions.md); однак, це не так вже й важливо, оскільки програма все одно не зможе працювати із закритим файлом.
 
 ### Приклади
 
@@ -74,4 +74,4 @@ var_dump(rar_broken_is($arch));
 
 ### Дивіться також
 
--   [RarArchive::setAllowBroken()](rararchive.setallowbroken.html) - Чи відкривати пошкоджені архіви
+-   [RarArchive::setAllowBroken()](rararchive.setallowbroken.md) - Чи відкривати пошкоджені архіви

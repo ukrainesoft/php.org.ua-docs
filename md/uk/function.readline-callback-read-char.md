@@ -18,7 +18,7 @@ readlinecallbackreadchar — Читає символ та інформує callb
 readline_callback_read_char(): void
 ```
 
-Читає введений користувачем символ. Коли рядок отримано, ця функція інформує callback-функцію інтерфейсу readline, задану за допомогою [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.html), що рядок готовий до введення.
+Читає введений користувачем символ. Коли рядок отримано, ця функція інформує callback-функцію інтерфейсу readline, задану за допомогою [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.md), що рядок готовий до введення.
 
 ### Список параметрів
 
@@ -30,9 +30,9 @@ readline_callback_read_char(): void
 
 ### Приклади
 
-Приклад використання інтерфейсу callback-функцій readline дивіться на сторінці опису функції [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.html)
+Приклад використання інтерфейсу callback-функцій readline дивіться на сторінці опису функції [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.md)
 
 ### Дивіться також
 
--   [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.html) - Ініціалізує callback-інтерфейс readline та термінал, друкує рядок запрошення та негайно повертає управління
--   [readlinecallbackhandlerremove()](function.readline-callback-handler-remove.html) - Видаляє раніше зареєстровану callback-функцію та відновлює термінал
+-   [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.md) - Ініціалізує callback-інтерфейс readline та термінал, друкує рядок запрошення та негайно повертає управління
+-   [readlinecallbackhandlerremove()](function.readline-callback-handler-remove.md) - Видаляє раніше зареєстровану callback-функцію та відновлює термінал

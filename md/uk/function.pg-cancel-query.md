@@ -18,13 +18,13 @@ title: пгcancelquery
 pg_cancel_query(PgSql\Connection $connection): bool
 ```
 
-**пгcancelquery()** скасовує виконання асинхронного запиту, надісланого функціями [пгsendquery()](function.pg-send-query.html) [пгsendqueryparams()](function.pg-send-query-params.html) або [пгsendexecute()](function.pg-send-execute.html). Неможливо завершити виконання запиту, запущеного функцією [пгquery()](function.pg-query.html)
+**пгcancelquery()** скасовує виконання асинхронного запиту, надісланого функціями [пгsendquery()](function.pg-send-query.html) [пгsendqueryparams()](function.pg-send-query-params.html) або [пгsendexecute()](function.pg-send-execute.html). Неможливо завершити виконання запиту, запущеного функцією [пгquery()](function.pg-query.md)
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md)
 
 ### Значення, що повертаються
 
@@ -34,7 +34,7 @@ pg_cancel_query(PgSql\Connection $connection): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -68,5 +68,5 @@ Resource id #3 получил 3 записей
 
 ### Дивіться також
 
--   [пгsendquery()](function.pg-send-query.html) - Надсилає асинхронний запит
--   [пгconnectionbusy()](function.pg-connection-busy.html) - Перевіряє, чи зайнято з'єднання на даний момент.
+-   [пгsendquery()](function.pg-send-query.md) - Надсилає асинхронний запит
+-   [пгconnectionbusy()](function.pg-connection-busy.md) - Перевіряє, чи зайнято з'єднання на даний момент.

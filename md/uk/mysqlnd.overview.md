@@ -24,7 +24,7 @@ title: Огляд
 
 > **Зауваження** **Контроль використання пам'яті**
 > 
-> Так як вбудований драйвер MySQL використовує систему контролю пам'яті PHP, пам'ять, що використовується ним, може бути відстежена за допомогою функції [memorygetusage()](function.memory-get-usage.html). Це не можна зробити за допомогою libmysqlclient, тому що він використовує функцію мови Си malloc().
+> Так як вбудований драйвер MySQL використовує систему контролю пам'яті PHP, пам'ять, що використовується ним, може бути відстежена за допомогою функції [memorygetusage()](function.memory-get-usage.md). Це не можна зробити за допомогою libmysqlclient, тому що він використовує функцію мови Си malloc().
 
 *Особливі можливості*
 
@@ -32,9 +32,9 @@ title: Огляд
 
 -   Поліпшено постійні з'єднання
     
--   Особлива функція [mysqlifetchall()](mysqli-result.fetch-all.html)
+-   Особлива функція [mysqlifetchall()](mysqli-result.fetch-all.md)
     
--   Виклик статистики продуктивності: [mysqligetclientstats()](function.mysqli-get-client-stats.html) [mysqligetconnectionstats()](mysqli.get-connection-stats.html)
+-   Виклик статистики продуктивності: [mysqligetclientstats()](function.mysqli-get-client-stats.html) [mysqligetconnectionstats()](mysqli.get-connection-stats.md)
     
 
 Статистика продуктивності може бути дуже корисною для знаходження вузьких місць у продуктивності.

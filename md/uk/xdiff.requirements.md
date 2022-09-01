@@ -8,7 +8,7 @@ title: Вимоги
 ---
 ## Вимоги
 
-Для використання модуля xdiff, у вас має бути встановлена ​​libxdiff, доступна на домашній сторінці libxdiff [» http://www.xmailserver.org/xdiff-lib.html](http://www.xmailserver.org/xdiff-lib.html)
+Для використання модуля xdiff, у вас має бути встановлена ​​libxdiff, доступна на домашній сторінці libxdiff [» http://www.xmailserver.org/xdiff-lib.html](http://www.xmailserver.org/xdiff-lib.md)
 
 > **Зауваження**
 > 

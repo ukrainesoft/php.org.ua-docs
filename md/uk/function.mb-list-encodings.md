@@ -114,4 +114,4 @@ Array
 
 ### Дивіться також
 
--   [мбencodingaliases()](function.mb-encoding-aliases.html) - Отримує псевдоніми відомого типу кодування
+-   [мбencodingaliases()](function.mb-encoding-aliases.md) - Отримує псевдоніми відомого типу кодування

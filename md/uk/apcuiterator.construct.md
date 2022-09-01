@@ -55,5 +55,5 @@ foreach (new APCUIterator('/^counter\./') as $counter) {
 
 ### Дивіться також
 
--   [apcuexists()](function.apcu-exists.html) - Перевіряє, чи існують записи
--   [apcucacheinfo()](function.apcu-cache-info.html) - Витягує закешовану інформацію зі сховища APCu
+-   [apcuexists()](function.apcu-exists.md) - Перевіряє, чи існують записи
+-   [apcucacheinfo()](function.apcu-cache-info.md) - Витягує закешовану інформацію зі сховища APCu

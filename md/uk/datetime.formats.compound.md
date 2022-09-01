@@ -8,7 +8,7 @@ title: Складові форматів
 ---
 ## Складові форматів
 
-На цій сторінці описано різні складові формати дати/часу, які розуміє парсер функцій: [DateTimeImmutable](class.datetimeimmutable.md) [DateTime](class.datetime.md) [datecreate()](function.date-create.html) [datecreateimmutable()](function.date-create-immutable.html) і [strtotime()](function.strtotime.md)
+На цій сторінці описано різні складові формати дати/часу, які розуміє парсер функцій: [DateTimeImmutable](class.datetimeimmutable.md) [DateTime](class.datetime.md) [datecreate()](function.date-create.html) [datecreateimmutable()](function.date-create-immutable.md) і [strtotime()](function.strtotime.md)
 
 **Використовувані символи**
 

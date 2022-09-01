@@ -18,7 +18,7 @@ sessionregistershutdown - Функція завершення сесії
 session_register_shutdown(): void
 ```
 
-Реєструє функцію [sessionwriteclose()](function.session-write-close.html) як функція завершення сесії.
+Реєструє функцію [sessionwriteclose()](function.session-write-close.md) як функція завершення сесії.
 
 ### Список параметрів
 

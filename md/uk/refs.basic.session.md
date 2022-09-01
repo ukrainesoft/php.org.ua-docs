@@ -13,7 +13,7 @@ title: Модулі для роботи із сесіями
     -   [Встановлення та налаштування](session.setup.md)
     -   [Обумовлені константи](session.constants.md)
     -   [Приклади](session.examples.md)
-    -   [Отслеживание прогресса загрузки файлов с помощью сессий](session.upload-progress.html)
+    -   [Отслеживание прогресса загрузки файлов с помощью сессий](session.upload-progress.md)
     -   [Безпека сесій](session.security.md)
     -   [Функції для роботи із сесіями](ref.session.md)
     -   [SessionHandler](class.sessionhandler.md) - Клас SessionHandler

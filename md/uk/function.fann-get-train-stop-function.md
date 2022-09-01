@@ -36,4 +36,4 @@ fann_get_train_stop_function(resource $ann): int
 
 ### Дивіться також
 
--   [fannsettrainstopfunction()](function.fann-set-train-stop-function.html) - Встановлює функцію зупинки під час тренування.
+-   [fannsettrainstopfunction()](function.fann-set-train-stop-function.md) - Встановлює функцію зупинки під час тренування.

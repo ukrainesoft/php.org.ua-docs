@@ -10,6 +10,6 @@ title: Функції SimpleXML
 
 ## Зміст
 
--   [simplexmlimportdom](function.simplexml-import-dom.html) — Отримує об'єкт класу SimpleXMLElement із вузла DOM
--   [simplexmlloadfile](function.simplexml-load-file.html) — Інтерпретує файл XML в об'єкт
--   [simplexmlloadstring](function.simplexml-load-string.html) — Інтерпретує рядок із XML в об'єкт
+-   [simplexmlimportdom](function.simplexml-import-dom.md) — Отримує об'єкт класу SimpleXMLElement із вузла DOM
+-   [simplexmlloadfile](function.simplexml-load-file.md) — Інтерпретує файл XML в об'єкт
+-   [simplexmlloadstring](function.simplexml-load-string.md) — Інтерпретує рядок із XML в об'єкт

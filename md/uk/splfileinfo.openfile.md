@@ -68,5 +68,5 @@ if ($fileinfo->isWritable()) {
 ### Дивіться також
 
 -   [SplFileObject](class.splfileobject.md)
--   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку
+-   [streamcontextcreate()](function.stream-context-create.md) - Створює контекст потоку
 -   [fopen()](function.fopen.md) - Відкриває файл або URL

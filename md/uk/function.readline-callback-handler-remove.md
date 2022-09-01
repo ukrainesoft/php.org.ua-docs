@@ -30,9 +30,9 @@ readline_callback_handler_remove(): bool
 
 ### Приклади
 
-Приклад використання інтерфейсу callback-функцій readline дивіться на сторінці опису функції [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.html)
+Приклад використання інтерфейсу callback-функцій readline дивіться на сторінці опису функції [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.md)
 
 ### Дивіться також
 
--   [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.html) - Ініціалізує callback-інтерфейс readline та термінал, друкує рядок запрошення та негайно повертає управління
--   [readlinecallbackreadchar()](function.readline-callback-read-char.html) - Читає символ та інформує callback-функцію readline, що отримано рядок
+-   [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.md) - Ініціалізує callback-інтерфейс readline та термінал, друкує рядок запрошення та негайно повертає управління
+-   [readlinecallbackreadchar()](function.readline-callback-read-char.md) - Читає символ та інформує callback-функцію readline, що отримано рядок

@@ -34,4 +34,4 @@ fann_get_rprop_increase_factor(resource $ann): float
 
 ### Дивіться також
 
--   [fannsetrpropincreasefactor()](function.fann-set-rprop-increase-factor.html) - Встановлює коефіцієнт збільшення, який використовується під час навчання Rprop
+-   [fannsetrpropincreasefactor()](function.fann-set-rprop-increase-factor.md) - Встановлює коефіцієнт збільшення, який використовується під час навчання Rprop

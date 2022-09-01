@@ -34,4 +34,4 @@ radius_send_request(resource $radius_handle): int
 
 ### Дивіться також
 
--   [radiuscreaterequest()](function.radius-create-request.html) - Створює обліковий запис або запит автентифікації
+-   [radiuscreaterequest()](function.radius-create-request.md) - Створює обліковий запис або запит автентифікації

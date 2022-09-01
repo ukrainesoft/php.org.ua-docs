@@ -46,6 +46,6 @@ abstract public commandSucceeded(MongoDB\Driver\Monitoring\CommandSucceededEvent
 
 ## Зміст
 
--   [MongoDBDriverMonitoringCommandSubscriber::commandFailed](mongodb-driver-monitoring-commandsubscriber.commandfailed.html) — Метод повідомлення про невдалу команду
--   [MongoDBDriverMonitoringCommandSubscriber::commandStarted](mongodb-driver-monitoring-commandsubscriber.commandstarted.html) — Метод повідомлення про запущену команду
--   [MongoDBDriverMonitoringCommandSubscriber::commandSucceeded](mongodb-driver-monitoring-commandsubscriber.commandsucceeded.html) — Метод повідомлення про успішну команду
+-   [MongoDBDriverMonitoringCommandSubscriber::commandFailed](mongodb-driver-monitoring-commandsubscriber.commandfailed.md) — Метод повідомлення про невдалу команду
+-   [MongoDBDriverMonitoringCommandSubscriber::commandStarted](mongodb-driver-monitoring-commandsubscriber.commandstarted.md) — Метод повідомлення про запущену команду
+-   [MongoDBDriverMonitoringCommandSubscriber::commandSucceeded](mongodb-driver-monitoring-commandsubscriber.commandsucceeded.md) — Метод повідомлення про успішну команду

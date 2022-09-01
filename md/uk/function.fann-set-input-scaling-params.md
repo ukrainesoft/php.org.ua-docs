@@ -44,4 +44,4 @@ fann_set_input_scaling_params(    resource $ann,    resource $train_data
 
 ### Дивіться також
 
--   [fannsetoutputscalingparams()](function.fann-set-output-scaling-params.html) - розраховує вихідні параметри масштабування для майбутнього використання на основі даних навчання
+-   [fannsetoutputscalingparams()](function.fann-set-output-scaling-params.md) - розраховує вихідні параметри масштабування для майбутнього використання на основі даних навчання

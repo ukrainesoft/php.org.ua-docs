@@ -65,7 +65,7 @@ MIME-тип файлу (за замовчуванням `application/octet-strea
 
 ## Дивіться також
 
--   [curlsetopt()](function.curl-setopt.html)
+-   [curlsetopt()](function.curl-setopt.md)
 -   [CURLFile](class.curlfile.md)
 
 ## Зміст

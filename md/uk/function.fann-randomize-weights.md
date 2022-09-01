@@ -42,4 +42,4 @@ fann_randomize_weights(resource $ann, float $min_weight, float $max_weight): boo
 
 ### Дивіться також
 
--   [fanninitweights()](function.fann-init-weights.html) - Ініціалізує ваги за допомогою алгоритму Widrow + Nguyen
+-   [fanninitweights()](function.fann-init-weights.md) - Ініціалізує ваги за допомогою алгоритму Widrow + Nguyen

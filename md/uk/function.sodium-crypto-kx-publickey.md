@@ -24,7 +24,7 @@ sodium_crypto_kx_publickey(string $key_pair): string
 
 `key_pair`
 
-Пара ключів X25519, наприклад, згенерована [sodiumcryptoкксkeypair()](function.sodium-crypto-kx-keypair.html)
+Пара ключів X25519, наприклад, згенерована [sodiumcryptoкксkeypair()](function.sodium-crypto-kx-keypair.md)
 
 ### Значення, що повертаються
 

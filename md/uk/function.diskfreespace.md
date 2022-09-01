@@ -10,8 +10,8 @@ title: diskfreespace
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-diskfreespace - Псевдонім [diskfreespace()](function.disk-free-space.html)
+diskfreespace - Псевдонім [diskfreespace()](function.disk-free-space.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [diskfreespace()](function.disk-free-space.html)
+Ця функція є псевдонімом: [diskfreespace()](function.disk-free-space.md)

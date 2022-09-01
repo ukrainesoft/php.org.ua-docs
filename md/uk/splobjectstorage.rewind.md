@@ -64,4 +64,4 @@ int(0)
 
 ### Дивіться також
 
--   [SplObjectStorage::next()](splobjectstorage.next.html) - Перехід до наступного об'єкту
+-   [SplObjectStorage::next()](splobjectstorage.next.md) - Перехід до наступного об'єкту

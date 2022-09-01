@@ -18,13 +18,13 @@ cubridlob2bind — Зв'язує об'єкт LOB або рядок у вигля
 cubrid_lob2_bind(    resource $req_identifier,    int $bind_index,    mixed $bind_value,    string $bind_value_type = ?): bool
 ```
 
-Функція **cubridlob2bind()** використовується для прив'язки даних BLOB/CLOB до відповідної псевдозмінної оператора SQL, який був переданий в [cubridprepare()](function.cubrid-prepare.html). Якщо параметр `bind_value_type` не вказано, за промовчанням буде використовуватися рядок "BLOB". Але якщо раніше використовувалась функція [cubridlob2new()](function.cubrid-lob2-new.html) `bind_value_type` буде відповідати параметру `type` в [cubridlob2new()](function.cubrid-lob2-new.html) за замовчуванням.
+Функція **cubridlob2bind()** використовується для прив'язки даних BLOB/CLOB до відповідної псевдозмінної оператора SQL, який був переданий в [cubridprepare()](function.cubrid-prepare.html). Якщо параметр `bind_value_type` не вказано, за промовчанням буде використовуватися рядок "BLOB". Але якщо раніше використовувалась функція [cubridlob2new()](function.cubrid-lob2-new.html) `bind_value_type` буде відповідати параметру `type` в [cubridlob2new()](function.cubrid-lob2-new.md) за замовчуванням.
 
 ### Список параметрів
 
 `req_identifier`
 
-Ідентифікатор запиту, отриманий у результаті роботи [cubridprepare()](function.cubrid-prepare.html)
+Ідентифікатор запиту, отриманий у результаті роботи [cubridprepare()](function.cubrid-prepare.md)
 
 `bind_index`
 
@@ -76,5 +76,5 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubridlob2new()](function.cubrid-lob2-new.html) - Створює об'єкт LOB
--   [cubridlob2close()](function.cubrid-lob2-close.html) - Закриває об'єкт LOB
+-   [cubridlob2new()](function.cubrid-lob2-new.md) - Створює об'єкт LOB
+-   [cubridlob2close()](function.cubrid-lob2-close.md) - Закриває об'єкт LOB

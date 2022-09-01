@@ -30,4 +30,4 @@ ibase_errcode(): int
 
 ### Дивіться також
 
--   [ibaseerrmsg()](function.ibase-errmsg.html) - Повертає повідомлення про помилку
+-   [ibaseerrmsg()](function.ibase-errmsg.md) - Повертає повідомлення про помилку

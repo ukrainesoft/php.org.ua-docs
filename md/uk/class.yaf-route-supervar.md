@@ -49,6 +49,6 @@ varname
 
 ## Зміст
 
--   [YafRouteSupervar::assemble](yaf-route-supervar.assemble.html) - Збирає URL
--   [YafRouteSupervar::construct](yaf-route-supervar.construct.html) - Призначення construct
--   [YafRouteSupervar::route](yaf-route-supervar.route.html) - Призначення route
+-   [YafRouteSupervar::assemble](yaf-route-supervar.assemble.md) - Збирає URL
+-   [YafRouteSupervar::construct](yaf-route-supervar.construct.md) - Призначення construct
+-   [YafRouteSupervar::route](yaf-route-supervar.route.md) - Призначення route

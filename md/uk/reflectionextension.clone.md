@@ -36,5 +36,5 @@ private ReflectionExtension::__clone(): void
 
 ### Дивіться також
 
--   [ReflectionExtension::construct()](reflectionextension.construct.html) - Створює об'єкт класу ReflectionExtension
--   [Клонування об'єктів](language.oop5.cloning.html)
+-   [ReflectionExtension::construct()](reflectionextension.construct.md) - Створює об'єкт класу ReflectionExtension
+-   [Клонування об'єктів](language.oop5.cloning.md)

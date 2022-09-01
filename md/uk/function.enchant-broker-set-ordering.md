@@ -24,7 +24,7 @@ enchant_broker_set_ordering(EnchantBroker $broker, string $tag, string $ordering
 
 `broker`
 
-Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.md)
 
 `tag`
 

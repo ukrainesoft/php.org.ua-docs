@@ -10,8 +10,8 @@ title: timezonelocationget
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-timezonelocationget - Псевдонім [DateTimeZone::getLocation()](datetimezone.getlocation.html)
+timezonelocationget - Псевдонім [DateTimeZone::getLocation()](datetimezone.getlocation.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateTimeZone::getLocation()](datetimezone.getlocation.html)
+Ця функція є псевдонімом: [DateTimeZone::getLocation()](datetimezone.getlocation.md)

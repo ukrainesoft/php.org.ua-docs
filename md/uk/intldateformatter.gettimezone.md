@@ -28,7 +28,7 @@ public IntlDateFormatter::getTimeZone(): IntlTimeZone|false
 datefmt_get_timezone(IntlDateFormatter $formatter): IntlTimeZone|false
 ```
 
-Повертає об'єкт [IntlTimeZone](class.intltimezone.html), що представляє часовий пояс, який використовуватиметься цим об'єктом для форматування дати та часу. При форматуванні об'єктів [IntlCalendar](class.intlcalendar.html) і [DateTime](class.datetime.html) За допомогою цього [IntlDateFormatter](class.intldateformatter.html), використовуваний часовий пояс буде той, який повертається цим методом, а не той, який пов'язаний з об'єктами, що форматуються.
+Повертає об'єкт [IntlTimeZone](class.intltimezone.html), що представляє часовий пояс, який використовуватиметься цим об'єктом для форматування дати та часу. При форматуванні об'єктів [IntlCalendar](class.intlcalendar.html) і [DateTime](class.datetime.html) За допомогою цього [IntlDateFormatter](class.intldateformatter.md), використовуваний часовий пояс буде той, який повертається цим методом, а не той, який пов'язаний з об'єктами, що форматуються.
 
 ### Список параметрів
 
@@ -36,7 +36,7 @@ datefmt_get_timezone(IntlDateFormatter $formatter): IntlTimeZone|false
 
 ### Значення, що повертаються
 
-Пов'язаний об'єкт [IntlTimeZone](class.intltimezone.html) або **`false`** у разі виникнення помилки.
+Пов'язаний об'єкт [IntlTimeZone](class.intltimezone.md) або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -76,6 +76,6 @@ Europe/Lisbon
 
 ### Дивіться також
 
--   [IntlDateFormatter::getTimeZoneId()](intldateformatter.gettimezoneid.html) - Отримує ідентифікатор часового поясу, який використовується IntlDateFormatter
--   [IntlDateFormatter::setTimeZone()](intldateformatter.settimezone.html) - Встановлює часовий пояс засобу форматування
--   [IntlTimeZone](class.intltimezone.html)
+-   [IntlDateFormatter::getTimeZoneId()](intldateformatter.gettimezoneid.md) - Отримує ідентифікатор часового поясу, який використовується IntlDateFormatter
+-   [IntlDateFormatter::setTimeZone()](intldateformatter.settimezone.md) - Встановлює часовий пояс засобу форматування
+-   [IntlTimeZone](class.intltimezone.md)

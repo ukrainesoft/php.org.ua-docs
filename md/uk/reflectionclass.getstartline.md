@@ -34,4 +34,4 @@ public ReflectionClass::getStartLine(): int|false
 
 ### Дивіться також
 
--   [ReflectionClass::getEndLine()](reflectionclass.getendline.html) - Повертає номер останнього рядка
+-   [ReflectionClass::getEndLine()](reflectionclass.getendline.md) - Повертає номер останнього рядка

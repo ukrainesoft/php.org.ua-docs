@@ -67,4 +67,4 @@ int(100)
 
 ### Дивіться також
 
--   [uopzsetproperty()](function.uopz-set-property.html) - Встановлює значення існуючої властивості класу чи екземпляра
+-   [uopzsetproperty()](function.uopz-set-property.md) - Встановлює значення існуючої властивості класу чи екземпляра

@@ -28,7 +28,7 @@ enchant_broker_free(EnchantBroker $broker): bool
 
 `broker`
 
-Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.md)
 
 ### Значення, що повертаються
 
@@ -42,4 +42,4 @@ enchant_broker_free(EnchantBroker $broker): bool
 
 ### Дивіться також
 
--   [enchantbrokerinit()](function.enchant-broker-init.html) - Створити новий об'єкт брокера
+-   [enchantbrokerinit()](function.enchant-broker-init.md) - Створити новий об'єкт брокера

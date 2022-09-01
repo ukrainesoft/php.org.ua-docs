@@ -36,7 +36,7 @@ phpdbg_break_file(string $file, int $line): void
 
 ### Дивіться також
 
--   [phpdbgbreakfunction()](function.phpdbg-break-function.html) - Додати точку переривання на виклик функції
--   [phpdbgbreakmethod()](function.phpdbg-break-method.html) - Додати точку переривання на виклик методу класу
--   [phpdbgbreaknext()](function.phpdbg-break-next.html) - Додати точку переривання на наступний опкод
--   [phpdbgclear()](function.phpdbg-clear.html) - Прибрати всі точки переривання
+-   [phpdbgbreakfunction()](function.phpdbg-break-function.md) - Додати точку переривання на виклик функції
+-   [phpdbgbreakmethod()](function.phpdbg-break-method.md) - Додати точку переривання на виклик методу класу
+-   [phpdbgbreaknext()](function.phpdbg-break-next.md) - Додати точку переривання на наступний опкод
+-   [phpdbgclear()](function.phpdbg-clear.md) - Прибрати всі точки переривання

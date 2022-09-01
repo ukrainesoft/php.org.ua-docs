@@ -131,5 +131,5 @@ Array
 
 -   [dirname()](function.dirname.md) - Повертає ім'я батьківського каталогу із зазначеного шляху
 -   [basename()](function.basename.md) - Повертає останній компонент імені із зазначеного шляху
--   [parseurl()](function.parse-url.html) - Розбирає URL та повертає його компоненти
+-   [parseurl()](function.parse-url.md) - Розбирає URL та повертає його компоненти
 -   [realpath()](function.realpath.md) - Повертає абсолютний канонізований шлях до файлу

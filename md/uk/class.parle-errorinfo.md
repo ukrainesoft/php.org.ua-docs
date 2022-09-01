@@ -12,7 +12,7 @@ title: Клас ParleErrorInfo
 
 ## Вступ
 
-Клас надає детальну інформацію про помилку, надану [ParleParser::errorInfo()](parle-parser.errorinfo.html)
+Клас надає детальну інформацію про помилку, надану [ParleParser::errorInfo()](parle-parser.errorinfo.md)
 
 ## Огляд класів
 
@@ -60,4 +60,4 @@ position
 
 token
 
-Якщо можна застосувати - [ParleToken](class.parle-token.html), пов'язаний з помилкою, в іншому випадку **`null`**
+Якщо можна застосувати - [ParleToken](class.parle-token.md), пов'язаний з помилкою, в іншому випадку **`null`**

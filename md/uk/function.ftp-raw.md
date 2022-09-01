@@ -24,7 +24,7 @@ ftp_raw(FTP\Connection $ftp, string $command): ?array
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `command`
 
@@ -38,7 +38,7 @@ ftp_raw(FTP\Connection $ftp, string $command): ?array
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -57,4 +57,4 @@ ftp_raw($ftp, "PASS secret");
 
 ### Дивіться також
 
--   [ftpexec()](function.ftp-exec.html) - Запитує виконання команди на FTP-сервері
+-   [ftpexec()](function.ftp-exec.md) - Запитує виконання команди на FTP-сервері

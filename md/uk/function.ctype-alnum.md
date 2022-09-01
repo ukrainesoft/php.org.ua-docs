@@ -64,6 +64,6 @@ foreach ($strings as $testcase) {
 
 ### Дивіться також
 
--   [ctypealpha()](function.ctype-alpha.html) - Перевіряє наявність літерних символів
--   [ctypedigit()](function.ctype-digit.html) - Перевіряє наявність цифрових символів у рядку
+-   [ctypealpha()](function.ctype-alpha.md) - Перевіряє наявність літерних символів
+-   [ctypedigit()](function.ctype-digit.md) - Перевіряє наявність цифрових символів у рядку
 -   [setlocale()](function.setlocale.md) - Встановлює налаштування локалі

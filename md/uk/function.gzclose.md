@@ -24,7 +24,7 @@ gzclose(resource $stream): bool
 
 `stream`
 
-Вказівник на файл gz. Повинен вказувати на файл, успішно відкритий [gzopen()](function.gzopen.html)
+Вказівник на файл gz. Повинен вказувати на файл, успішно відкритий [gzopen()](function.gzopen.md)
 
 ### Значення, що повертаються
 
@@ -44,4 +44,4 @@ gzclose($gz);
 
 ### Дивіться також
 
--   [gzopen()](function.gzopen.html) - Відкрити gz-файл
+-   [gzopen()](function.gzopen.md) - Відкрити gz-файл

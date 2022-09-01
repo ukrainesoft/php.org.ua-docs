@@ -74,4 +74,4 @@ echo $user; // выводит name
 -   [strrchr()](function.strrchr.md) - Знаходить останнє входження символу у рядку
 -   [strpos()](function.strpos.md) - Повертає позицію першого входження підрядка
 -   [strpbrk()](function.strpbrk.md) - Шукає у рядку будь-який символ із заданого набору
--   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу

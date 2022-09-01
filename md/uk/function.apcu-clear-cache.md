@@ -30,4 +30,4 @@ apcu_clear_cache(): bool
 
 ### Дивіться також
 
--   [apcucacheinfo()](function.apcu-cache-info.html) - Витягує закешовану інформацію зі сховища APCu
+-   [apcucacheinfo()](function.apcu-cache-info.md) - Витягує закешовану інформацію зі сховища APCu

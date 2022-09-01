@@ -38,5 +38,5 @@ xml_get_current_line_number(XMLParser $parser): int
 
 ### Дивіться також
 
--   [xmlgetcurrentcolumnnumber()](function.xml-get-current-column-number.html) - Отримує від XML-аналізатора номер поточного стовпця
--   [xmlgetcurrentbyteindex()](function.xml-get-current-byte-index.html) - Отримує поточний для XML-аналізатора байтовий індекс
+-   [xmlgetcurrentcolumnnumber()](function.xml-get-current-column-number.md) - Отримує від XML-аналізатора номер поточного стовпця
+-   [xmlgetcurrentbyteindex()](function.xml-get-current-byte-index.md) - Отримує поточний для XML-аналізатора байтовий індекс

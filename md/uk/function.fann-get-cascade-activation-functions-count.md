@@ -18,7 +18,7 @@ fanngetcascadeactivationфункційcount — Повертає кількіс�
 fann_get_cascade_activation_functions_count(resource $ann): int
 ```
 
-Кількість функцій активації у масиві [fanngetcascadeactivationfunctions()](function.fann-get-cascade-activation-functions.html)
+Кількість функцій активації у масиві [fanngetcascadeactivationfunctions()](function.fann-get-cascade-activation-functions.md)
 
 Кількість функцій активації за промовчанням - 6.
 
@@ -34,5 +34,5 @@ fann_get_cascade_activation_functions_count(resource $ann): int
 
 ### Дивіться також
 
--   [fanngetcascadeactivationfunctions()](function.fann-get-cascade-activation-functions.html) - Повертає функції каскадної активації
--   [fannsetcascadeactivationfunctions()](function.fann-set-cascade-activation-functions.html) - встановлює масив каскадних функцій активації кандидатів
+-   [fanngetcascadeactivationfunctions()](function.fann-get-cascade-activation-functions.md) - Повертає функції каскадної активації
+-   [fannsetcascadeactivationfunctions()](function.fann-set-cascade-activation-functions.md) - встановлює масив каскадних функцій активації кандидатів

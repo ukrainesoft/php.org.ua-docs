@@ -24,7 +24,7 @@ imap_headerinfo(    IMAP\Connection $imap,    int $message_num,    i
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `message_num`
 
@@ -85,9 +85,9 @@ imap_headerinfo(    IMAP\Connection $imap,    int $message_num,    i
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | Параметр, що не використовується `defaulthost` був видалений. |
 
 ### Дивіться також
 
--   [imapfetchoverview()](function.imap-fetch-overview.html) - Огляд інформації, що міститься в заголовках повідомлень
+-   [imapfetchoverview()](function.imap-fetch-overview.md) - Огляд інформації, що міститься в заголовках повідомлень

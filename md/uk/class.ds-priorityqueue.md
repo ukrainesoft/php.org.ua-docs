@@ -66,15 +66,15 @@ public toArray(): array
 
 ## Зміст
 
--   [ДсPriorityQueue::allocate](ds-priorityqueue.allocate.html) — Виділяє пам'ять під зазначену місткість
--   [ДсPriorityQueue::capacity](ds-priorityqueue.capacity.html) — Повертає поточну місткість
--   [ДсPriorityQueue::clear](ds-priorityqueue.clear.html) - Видаляє всі значення
--   [ДсPriorityQueue::construct](ds-priorityqueue.construct.html) - Створює новий екземпляр
--   [ДсPriorityQueue::copy](ds-priorityqueue.copy.html) — Повертає поверхневу копію черги
--   [ДсPriorityQueue::count](ds-priorityqueue.count.html) — Повертає кількість елементів у черзі
--   [ДсPriorityQueue::isEmpty](ds-priorityqueue.isempty.html) — Перевіряє, чи колекція порожня.
--   [ДсPriorityQueue::jsonSerialize](ds-priorityqueue.jsonserialize.html) — Повертає колекцію в JSON-виставу
--   [ДсPriorityQueue::peek](ds-priorityqueue.peek.html) — Повертає значення із початку черги
--   [ДсPriorityQueue::pop](ds-priorityqueue.pop.html) — Видаляє та повертає значення з найвищим пріоритетом
--   [ДсPriorityQueue::push](ds-priorityqueue.push.html) — Додає значення у чергу
--   [ДсPriorityQueue::toArray](ds-priorityqueue.toarray.html) - Перетворює чергу на масив (array)
+-   [ДсPriorityQueue::allocate](ds-priorityqueue.allocate.md) — Виділяє пам'ять під зазначену місткість
+-   [ДсPriorityQueue::capacity](ds-priorityqueue.capacity.md) — Повертає поточну місткість
+-   [ДсPriorityQueue::clear](ds-priorityqueue.clear.md) - Видаляє всі значення
+-   [ДсPriorityQueue::construct](ds-priorityqueue.construct.md) - Створює новий екземпляр
+-   [ДсPriorityQueue::copy](ds-priorityqueue.copy.md) — Повертає поверхневу копію черги
+-   [ДсPriorityQueue::count](ds-priorityqueue.count.md) — Повертає кількість елементів у черзі
+-   [ДсPriorityQueue::isEmpty](ds-priorityqueue.isempty.md) — Перевіряє, чи колекція порожня.
+-   [ДсPriorityQueue::jsonSerialize](ds-priorityqueue.jsonserialize.md) — Повертає колекцію в JSON-виставу
+-   [ДсPriorityQueue::peek](ds-priorityqueue.peek.md) — Повертає значення із початку черги
+-   [ДсPriorityQueue::pop](ds-priorityqueue.pop.md) — Видаляє та повертає значення з найвищим пріоритетом
+-   [ДсPriorityQueue::push](ds-priorityqueue.push.md) — Додає значення у чергу
+-   [ДсPriorityQueue::toArray](ds-priorityqueue.toarray.md) - Перетворює чергу на масив (array)

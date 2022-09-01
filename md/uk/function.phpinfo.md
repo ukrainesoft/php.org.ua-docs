@@ -36,8 +36,8 @@ phpinfo(int $flags = INFO_ALL): bool
 | --- | --- | --- |
 | INFOGENERAL |  | Рядок конфігурації, розташування php.ini, дата складання, сервер, система та ін. |
 | INFOCREDITS |  | Розробники PHP. Дивіться також [phpcredits()](function.phpcredits.md) |
-| INFOCONFIGURATION |  | Поточні значення основних та локальних PHP директив. Дивіться також [iniget()](function.ini-get.html) |
-| INFOMODULES |  | Завантажені модулі та їх налаштування. Дивіться також [getloadedextensions()](function.get-loaded-extensions.html) |
+| INFOCONFIGURATION |  | Поточні значення основних та локальних PHP директив. Дивіться також [iniget()](function.ini-get.md) |
+| INFOMODULES |  | Завантажені модулі та їх налаштування. Дивіться також [getloadedextensions()](function.get-loaded-extensions.md) |
 | INFOENVIRONMENT |  | Інформація про змінні оточення, яка також доступна в [ENV](reserved.variables.environment.md) |
 | INFOVARIABLES |  | Виводить все [зумовлені змінні](language.variables.predefined.md) з EGPCS (Environment, GET, POST, Cookie, Server). |
 | INFOLICENSE |  | Інформація про ліцензію PHP. Дивіться також [» license FAQ](https://www.php.net/license/) |
@@ -78,7 +78,7 @@ phpinfo(INFO_MODULES);
 
 -   [phpversion()](function.phpversion.md) - Отримує поточну версію PHP
 -   [phpcredits()](function.phpcredits.md) - Виводить список розробників PHP
--   [iniget()](function.ini-get.html) - Отримує значення налаштування конфігурації
--   [iniset()](function.ini-set.html) - Встановлює налаштування конфігурації
--   [getloadedextensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
+-   [iniget()](function.ini-get.md) - Отримує значення налаштування конфігурації
+-   [iniset()](function.ini-set.md) - Встановлює налаштування конфігурації
+-   [getloadedextensions()](function.get-loaded-extensions.md) - Повертає масив імен усіх скомпілованих та завантажених модулів
 -   [Зумовлені змінні](language.variables.predefined.md)

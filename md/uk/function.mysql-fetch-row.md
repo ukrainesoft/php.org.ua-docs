@@ -14,9 +14,9 @@ mysqlfetchrow — Обробляє ряд результату запиту та
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlifetchrow()](mysqli-result.fetch-row.html)
+-   [mysqlifetchrow()](mysqli-result.fetch-row.md)
 -   [PDOStatement::fetch(PDO::FETCHNUM)](pdostatement.fetch.md)
 
 ### Опис
@@ -31,7 +31,7 @@ mysql_fetch_row(resource $result): array
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
 
 ### Значення, що повертаються
 
@@ -63,9 +63,9 @@ echo $row[1]; // email
 
 ### Дивіться також
 
--   [mysqlfetcharray()](function.mysql-fetch-array.html) - Обробляє ряд результатів запиту, повертаючи асоціативний масив, чисельний масив або обидва
--   [mysqlfetchassoc()](function.mysql-fetch-assoc.html) - Повертає ряд результату запиту як асоціативний масив.
--   [mysqlfetchobject()](function.mysql-fetch-object.html) - обробляє ряд результату запиту та повертає об'єкт
--   [mysqldataseek()](function.mysql-data-seek.html) - Переміщує внутрішній покажчик у результаті запиту
--   [mysqlfetchlengths()](function.mysql-fetch-lengths.html) - Повертає довжину кожного поля в результаті
--   [mysqlresult()](function.mysql-result.html) - Повертає дані результату запиту
+-   [mysqlfetcharray()](function.mysql-fetch-array.md) - Обробляє ряд результатів запиту, повертаючи асоціативний масив, чисельний масив або обидва
+-   [mysqlfetchassoc()](function.mysql-fetch-assoc.md) - Повертає ряд результату запиту як асоціативний масив.
+-   [mysqlfetchobject()](function.mysql-fetch-object.md) - обробляє ряд результату запиту та повертає об'єкт
+-   [mysqldataseek()](function.mysql-data-seek.md) - Переміщує внутрішній покажчик у результаті запиту
+-   [mysqlfetchlengths()](function.mysql-fetch-lengths.md) - Повертає довжину кожного поля в результаті
+-   [mysqlresult()](function.mysql-result.md) - Повертає дані результату запиту

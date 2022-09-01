@@ -41,5 +41,5 @@ cubrid_set_autocommit(resource $conn_identifier, bool $mode): bool
 
 ### Дивіться також
 
--   [cubridgetautocommit()](function.cubrid-get-autocommit.html) - Повертає налаштування авто-комміту для з'єднання
--   [cubridcommit()](function.cubrid-commit.html) - підтвердження транзакції
+-   [cubridgetautocommit()](function.cubrid-get-autocommit.md) - Повертає налаштування авто-комміту для з'єднання
+-   [cubridcommit()](function.cubrid-commit.md) - підтвердження транзакції

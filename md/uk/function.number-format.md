@@ -79,7 +79,7 @@ $english_format_number = number_format($number, 2, '.', '');
 
 ### Дивіться також
 
--   [moneyformat()](function.money-format.html) - Форматує число як грошову величину
+-   [moneyformat()](function.money-format.md) - Форматує число як грошову величину
 -   [sprintf()](function.sprintf.md) - Повертає відформатований рядок
 -   [printf()](function.printf.md) - Виводить відформатований рядок
 -   [sscanf()](function.sscanf.md) - Розбирає рядок відповідно до заданого формату

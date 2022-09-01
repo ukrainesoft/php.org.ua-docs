@@ -8,19 +8,19 @@ title: WDDX
 ---
 # WDDX
 
--   [Введение](intro.wddx.html)
--   [Встановлення та налаштування](wddx.setup.html)
-    -   [Вимоги](wddx.requirements.html)
-    -   [Установка](wddx.installation.html)
-    -   [Налаштування під час виконання](wddx.configuration.html)
-    -   [Типи ресурсів](wddx.resources.html)
--   [Обумовлені константи](wddx.constants.html)
--   [Приклади](wddx.examples.html)
-    -   [Приклади wddx](wddx.examples-serialize.html)
--   [Функції WDDX](ref.wddx.html)
-    -   [wddxaddvars](function.wddx-add-vars.html) — Додати змінні до пакету WDDX із зазначеним ідентифікатором
-    -   [wddxdeserialize](function.wddx-deserialize.html) - Десеріалізує пакет WDDX
-    -   [wddxpacketend](function.wddx-packet-end.html) — Завершує пакет WDDX із зазначеним ідентифікатором
-    -   [wddxpacketstart](function.wddx-packet-start.html) — Запускає новий пакет WDDX із структурою всередині нього
-    -   [wddxserializevalue](function.wddx-serialize-value.html) — Серіалізує одне значення всередині пакету WDDX
-    -   [wddxserializevars](function.wddx-serialize-vars.html) — Серіалізація змінних у пакет WDDX
+-   [Введение](intro.wddx.md)
+-   [Встановлення та налаштування](wddx.setup.md)
+    -   [Вимоги](wddx.requirements.md)
+    -   [Установка](wddx.installation.md)
+    -   [Налаштування під час виконання](wddx.configuration.md)
+    -   [Типи ресурсів](wddx.resources.md)
+-   [Обумовлені константи](wddx.constants.md)
+-   [Приклади](wddx.examples.md)
+    -   [Приклади wddx](wddx.examples-serialize.md)
+-   [Функції WDDX](ref.wddx.md)
+    -   [wddxaddvars](function.wddx-add-vars.md) — Додати змінні до пакету WDDX із зазначеним ідентифікатором
+    -   [wddxdeserialize](function.wddx-deserialize.md) - Десеріалізує пакет WDDX
+    -   [wddxpacketend](function.wddx-packet-end.md) — Завершує пакет WDDX із зазначеним ідентифікатором
+    -   [wddxpacketstart](function.wddx-packet-start.md) — Запускає новий пакет WDDX із структурою всередині нього
+    -   [wddxserializevalue](function.wddx-serialize-value.md) — Серіалізує одне значення всередині пакету WDDX
+    -   [wddxserializevars](function.wddx-serialize-vars.md) — Серіалізація змінних у пакет WDDX

@@ -16,7 +16,7 @@ title: 'ДсDeque::construct'
 
 public **ДсDeque::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$values`
 
-Створює новий екземпляр, використовуючи або об'єкт, що реалізує [traversable](class.traversable.html), або масив, передані як параметр `values`
+Створює новий екземпляр, використовуючи або об'єкт, що реалізує [traversable](class.traversable.md), або масив, передані як параметр `values`
 
 ### Список параметрів
 

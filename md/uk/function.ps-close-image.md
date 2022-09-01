@@ -24,11 +24,11 @@ ps_close_image(resource $psdoc, int $imageid): void|false
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 `imageid`
 
-Ідентифікатор ресурсу зображення, повернутий функцією [псopenimage()](function.ps-open-image.html) або [псopenimagefile()](function.ps-open-image-file.html)
+Ідентифікатор ресурсу зображення, повернутий функцією [псopenimage()](function.ps-open-image.html) або [псopenimagefile()](function.ps-open-image-file.md)
 
 ### Значення, що повертаються
 
@@ -36,5 +36,5 @@ ps_close_image(resource $psdoc, int $imageid): void|false
 
 ### Дивіться також
 
--   [псopenimage()](function.ps-open-image.html) - Зчитує зображення для подальшого розміщення
--   [псopenimagefile()](function.ps-open-image-file.html) - Відкриває зображення із файлу
+-   [псopenimage()](function.ps-open-image.md) - Зчитує зображення для подальшого розміщення
+-   [псopenimagefile()](function.ps-open-image-file.md) - Відкриває зображення із файлу

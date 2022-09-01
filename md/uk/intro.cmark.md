@@ -54,4 +54,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 Модуль CommonMark надає інтерфейс для CQL, CommonMark Query Language:
 
-public [CommonMarkCQL::construct](commonmark-cql.construct.html)(string `$query`
+public [CommonMarkCQL::construct](commonmark-cql.construct.md)(string `$query`

@@ -72,5 +72,5 @@ dictionary
 
 ### Дивіться також
 
--   [inflateadd()](function.inflate-add.html) - Інкрементальне розпакувати закодовані дані
--   [deflateinit()](function.deflate-init.html) - Ініціалізувати контекст інкрементального стиску
+-   [inflateadd()](function.inflate-add.md) - Інкрементальне розпакувати закодовані дані
+-   [deflateinit()](function.deflate-init.md) - Ініціалізувати контекст інкрементального стиску

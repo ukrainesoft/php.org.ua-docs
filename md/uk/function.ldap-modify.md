@@ -10,12 +10,12 @@ title: ldapmodify
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldapmodify - Псевдонім [ldapmodreplace()](function.ldap-mod-replace.html)
+ldapmodify - Псевдонім [ldapmodreplace()](function.ldap-mod-replace.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ldapmodreplace()](function.ldap-mod-replace.html)
+Ця функція є псевдонімом: [ldapmodreplace()](function.ldap-mod-replace.md)
 
 ### Дивіться також
 
--   [ldaprename()](function.ldap-rename.html) - Змінити ім'я запису
+-   [ldaprename()](function.ldap-rename.md) - Змінити ім'я запису

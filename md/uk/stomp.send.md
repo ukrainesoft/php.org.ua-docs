@@ -34,7 +34,7 @@ stomp_send(    resource $link,    string $destination,    mixed $msg
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.html)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
 
 `destination`
 
@@ -54,7 +54,7 @@ stomp_send(    resource $link,    string $destination,    mixed $msg
 
 ### Приклади
 
-Дивіться [stompack()](stomp.ack.html)
+Дивіться [stompack()](stomp.ack.md)
 
 ### Примітки
 

@@ -18,7 +18,7 @@ Memcached::replaceByKey — Замінює існуючий запис із за
 public Memcached::replaceByKey(    string $server_key,    string $key,    mixed $value,    int $expiration = ?): bool
 ```
 
-**Memcached::replaceByKey()** працює аналогічно [Memcached::replace()](memcached.replace.html), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та встановлення значення з ключем `key` на конкретний сервер. Це корисно, коли необхідно тримати кілька пов'язаних значень на конкретному сервері.
+**Memcached::replaceByKey()** працює аналогічно [Memcached::replace()](memcached.replace.md), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та встановлення значення з ключем `key` на конкретний сервер. Це корисно, коли необхідно тримати кілька пов'язаних значень на конкретному сервері.
 
 ### Список параметрів
 
@@ -36,14 +36,14 @@ public Memcached::replaceByKey(    string $server_key,    string $key, 
 
 `expiration`
 
-Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Час зберігання об'єкту](memcached.expiration.html)
+Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Час зберігання об'єкту](memcached.expiration.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.html) повертає **`Memcached::RES_NOTSTORED`** якщо вказаного ключа немає.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає **`Memcached::RES_NOTSTORED`** якщо вказаного ключа немає.
 
 ### Дивіться також
 
--   [Memcached::replace()](memcached.replace.html) - Замінює існуючий запис із зазначеним ключем
--   [Memcached::set()](memcached.set.html) - Зберігає запис
--   [Memcached::add()](memcached.add.html) - Додає елемент із новим ключем
+-   [Memcached::replace()](memcached.replace.md) - Замінює існуючий запис із зазначеним ключем
+-   [Memcached::set()](memcached.set.md) - Зберігає запис
+-   [Memcached::add()](memcached.add.md) - Додає елемент із новим ключем

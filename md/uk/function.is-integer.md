@@ -10,8 +10,8 @@ title: ісinteger
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ісinteger - Псевдонім [ісint()](function.is-int.html)
+ісinteger - Псевдонім [ісint()](function.is-int.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ісint()](function.is-int.html)
+Ця функція є псевдонімом: [ісint()](function.is-int.md)

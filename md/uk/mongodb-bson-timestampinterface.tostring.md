@@ -28,4 +28,4 @@ abstract public MongoDB\BSON\TimestampInterface::__toString(): string
 
 ### Дивіться також
 
--   [MongoDBBSONTimestamp::toString()](mongodb-bson-timestamp.tostring.html) - Повертає рядкову виставу Timestamp
+-   [MongoDBBSONTimestamp::toString()](mongodb-bson-timestamp.tostring.md) - Повертає рядкову виставу Timestamp

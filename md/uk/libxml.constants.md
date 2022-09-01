@@ -68,7 +68,7 @@ DTD-атрибути за замовчуванням
 
 > **Зауваження**
 > 
-> Ця настройка доступна на даний момент лише у функціях [DOMDocument::save](domdocument.save.html) і [DOMDocument::saveXML](domdocument.savexml.html)
+> Ця настройка доступна на даний момент лише у функціях [DOMDocument::save](domdocument.save.html) і [DOMDocument::saveXML](domdocument.savexml.md)
 
 **`LIBXML_NOENT`** (int)
 

@@ -18,9 +18,9 @@ SessionHandler::close — Закриває сесію
 public SessionHandler::close(): bool
 ```
 
-Закриває поточну сесію. Цей метод автоматично викликається із PHP під час закриття сесії або безпосередньо викликом функції [sessionwriteclose()](function.session-write-close.html) (яка спочатку викликає функцію [SessionHandler::write()](sessionhandler.write.md)
+Закриває поточну сесію. Цей метод автоматично викликається із PHP під час закриття сесії або безпосередньо викликом функції [sessionwriteclose()](function.session-write-close.md) (яка спочатку викликає функцію [SessionHandler::write()](sessionhandler.write.md)
 
-Цей метод є обертанням внутрішнього обробника сесій PHP, визначеного в налаштуванні ini-файлу [session.savehandler](session.configuration.html#ini.session.save-handler), яка встановлюється перед тим, як обробник активується функцією [sessionsetsavehandler()](function.session-set-save-handler.html)
+Цей метод є обертанням внутрішнього обробника сесій PHP, визначеного в налаштуванні ini-файлу [session.savehandler](session.configuration.html#ini.session.save-handler), яка встановлюється перед тим, як обробник активується функцією [sessionsetsavehandler()](function.session-set-save-handler.md)
 
 Якщо цей клас розширюється шляхом наслідування, то виклик батьківського методу `close` виконає код обгортки, а отже код внутрішнього оброблювача. Це дозволяє методу бути перевизначеним чи перехопленим.
 

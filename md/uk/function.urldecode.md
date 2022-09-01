@@ -52,11 +52,11 @@ foreach (explode('&', $query) as $chunk) {
 
 **Увага**
 
-Змінні у суперглобальних масивах [GET](reserved.variables.get.html) і [REQUEST](reserved.variables.request.html) вже декодовані. Застосування **urldecode()** до елементів [GET](reserved.variables.get.html) або [REQUEST](reserved.variables.request.html) може призвести до несподіваних та небезпечних результатів.
+Змінні у суперглобальних масивах [GET](reserved.variables.get.html) і [REQUEST](reserved.variables.request.html) вже декодовані. Застосування **urldecode()** до елементів [GET](reserved.variables.get.html) або [REQUEST](reserved.variables.request.md) може призвести до несподіваних та небезпечних результатів.
 
 ### Дивіться також
 
--   [urlencode()](function.urlencode.html) - URL-кодування рядка
--   [rawurlencode()](function.rawurlencode.html) - URL-кодування рядка згідно з RFC 3986
--   [rawurldecode()](function.rawurldecode.html) - Декодування URL-кодованого рядка
+-   [urlencode()](function.urlencode.md) - URL-кодування рядка
+-   [rawurlencode()](function.rawurlencode.md) - URL-кодування рядка згідно з RFC 3986
+-   [rawurldecode()](function.rawurldecode.md) - Декодування URL-кодованого рядка
 -   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

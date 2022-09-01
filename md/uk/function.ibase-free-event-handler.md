@@ -24,7 +24,7 @@ ibase_free_event_handler(resource $event): bool
 
 `event`
 
-Ресурс події, створений [ibaseseteventhandler()](function.ibase-set-event-handler.html)
+Ресурс події, створений [ibaseseteventhandler()](function.ibase-set-event-handler.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ ibase_free_event_handler(resource $event): bool
 
 ### Дивіться також
 
--   [ibaseseteventhandler()](function.ibase-set-event-handler.html) - Реєструє callback-функцію, яка буде викликатись при публікації подій
+-   [ibaseseteventhandler()](function.ibase-set-event-handler.md) - Реєструє callback-функцію, яка буде викликатись при публікації подій

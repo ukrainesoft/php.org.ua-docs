@@ -18,7 +18,7 @@ GearmanClient::context — Повертає контекст програми
 public GearmanClient::context(): string
 ```
 
-Повертає контекст, раніше встановлений за допомогою [GearmanClient::setContext()](gearmanclient.setcontext.html)
+Повертає контекст, раніше встановлений за допомогою [GearmanClient::setContext()](gearmanclient.setcontext.md)
 
 ### Список параметрів
 
@@ -26,8 +26,8 @@ public GearmanClient::context(): string
 
 ### Значення, що повертаються
 
-Та сама структура даних контексту, наведена в [GearmanClient::setContext()](gearmanclient.setcontext.html)
+Та сама структура даних контексту, наведена в [GearmanClient::setContext()](gearmanclient.setcontext.md)
 
 ### Дивіться також
 
--   [GearmanClient::setContext()](gearmanclient.setcontext.html) - Встановити контекст програми
+-   [GearmanClient::setContext()](gearmanclient.setcontext.md) - Встановити контекст програми

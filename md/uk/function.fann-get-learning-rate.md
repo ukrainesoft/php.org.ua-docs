@@ -34,5 +34,5 @@ fann_get_learning_rate(resource $ann): float
 
 ### Дивіться також
 
--   [fannsetlearningrate()](function.fann-set-learning-rate.html) - встановлює швидкість навчання
--   [fannsettrainingalgorithm()](function.fann-set-training-algorithm.html) - встановлює алгоритм навчання
+-   [fannsetlearningrate()](function.fann-set-learning-rate.md) - встановлює швидкість навчання
+-   [fannsettrainingalgorithm()](function.fann-set-training-algorithm.md) - встановлює алгоритм навчання

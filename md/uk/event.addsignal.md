@@ -10,8 +10,8 @@ title: 'Event::addSignal'
 
 (PECL event >= 1.2.6-beta)
 
-Event::addSignal - Псевдонім [Event::add()](event.add.html)
+Event::addSignal - Псевдонім [Event::add()](event.add.md)
 
 ### Опис
 
-Цей метод є псевдонімом: [Event::add()](event.add.html)
+Цей метод є псевдонімом: [Event::add()](event.add.md)

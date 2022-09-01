@@ -16,6 +16,6 @@ title: GNU Recode
     -   [Типи ресурсів](recode.resources.md)
 -   [Обумовлені константи](recode.constants.md)
 -   [Функции Recode](ref.recode.md)
-    -   [recodefile](function.recode-file.html) — Перекодує з одного файлу до іншого відповідно до заданих параметрів
-    -   [recodestring](function.recode-string.html) — Перекодує рядок відповідно до заданих параметрів
+    -   [recodefile](function.recode-file.md) — Перекодує з одного файлу до іншого відповідно до заданих параметрів
+    -   [recodestring](function.recode-string.md) — Перекодує рядок відповідно до заданих параметрів
     -   [recode](function.recode.md) - Псевдонім recodestring

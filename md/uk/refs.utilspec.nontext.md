@@ -23,9 +23,9 @@ title: Генерація нетекстових MIME-форматів
 -   [wkhtmltox](book.wkhtmltox.md)
     -   [Введение](intro.wkhtmltox.md)
     -   [Встановлення та налаштування](wkhtmltox.setup.md)
-    -   [wkhtmltoxPDFConverter](class.wkhtmltox-pdf-converter.html) - Клас wkhtmltoxPDFConverter
-    -   [wkhtmltoxPDFObject](class.wkhtmltox-pdf-object.html) - Клас wkhtmltoxPDFObject
-    -   [wkhtmltoxImageConverter](class.wkhtmltox-image-converter.html) - Клас wkhtmltoxImageConverter
+    -   [wkhtmltoxPDFConverter](class.wkhtmltox-pdf-converter.md) - Клас wkhtmltoxPDFConverter
+    -   [wkhtmltoxPDFObject](class.wkhtmltox-pdf-object.md) - Клас wkhtmltoxPDFObject
+    -   [wkhtmltoxImageConverter](class.wkhtmltox-image-converter.md) - Клас wkhtmltoxImageConverter
 -   [ПС](book.ps.md) - Створення документів PostScript
     -   [Введение](intro.ps.md)
     -   [Встановлення та налаштування](ps.setup.md)
@@ -40,5 +40,5 @@ title: Генерація нетекстових MIME-форматів
     -   [Введение](intro.xlswriter.md)
     -   [Встановлення та налаштування](xlswriter.setup.md)
     -   [Обумовлені константи](xlswriter.constants.md)
-    -   [VtifulKernelExcel](class.vtiful-kernel-excel.html) - Клас VtifulKernelExcel
-    -   [VtifulKernelFormat](class.vtiful-kernel-format.html) - Клас VtifulKernelФормат
+    -   [VtifulKernelExcel](class.vtiful-kernel-excel.md) - Клас VtifulKernelExcel
+    -   [VtifulKernelFormat](class.vtiful-kernel-format.md) - Клас VtifulKernelФормат

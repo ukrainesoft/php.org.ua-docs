@@ -28,7 +28,7 @@ wddx_packet_end(resource $packet_id): string
 
 `packet_id`
 
-Пакет WDDX, що повертається [wddxpacketstart()](function.wddx-packet-start.html)
+Пакет WDDX, що повертається [wddxpacketstart()](function.wddx-packet-start.md)
 
 ### Значення, що повертаються
 

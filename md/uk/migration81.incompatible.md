@@ -88,44 +88,44 @@ ArgumentCountError - makeyogurt(): Argument #1 ($container) not passed
 
 ### Перехід від ресурсів до об'єктів
 
-Декілька ресурсів ([resource](language.types.resource.md)) тепер представлені як об'єкти (object). Перевірки значення, що повертається з використанням функції [ісresource()](function.is-resource.html) слід замінити перевірками на **`false`**
+Декілька ресурсів ([resource](language.types.resource.md)) тепер представлені як об'єкти (object). Перевірки значення, що повертається з використанням функції [ісresource()](function.is-resource.md) слід замінити перевірками на **`false`**
 
 -   Функції [FileInfo](book.fileinfo.md) тепер приймають та повертають об'єкти [finfo](class.finfo.md) замість ресурсів ([resource](language.types.resource.md) `fileinfo`
     
--   Функції [FTP](book.ftp.md) тепер приймають та повертають об'єкти [FTPConnection](class.ftp-connection.html) замість ресурсів ([resource](language.types.resource.md) `ftp`
+-   Функції [FTP](book.ftp.md) тепер приймають та повертають об'єкти [FTPConnection](class.ftp-connection.md) замість ресурсів ([resource](language.types.resource.md) `ftp`
     
--   Функції [IMAP](book.imap.md) тепер приймають та повертають об'єкти [IMAPConnection](class.imap-connection.html) замість ресурсів ([resource](language.types.resource.md) `imap`
+-   Функції [IMAP](book.imap.md) тепер приймають та повертають об'єкти [IMAPConnection](class.imap-connection.md) замість ресурсів ([resource](language.types.resource.md) `imap`
     
--   The [LDAP](book.ldap.md) тепер приймають та повертають об'єкти [LDAPConnection](class.ldap-connection.html) замість ресурсів ([resource](language.types.resource.md) `ldap link`
+-   The [LDAP](book.ldap.md) тепер приймають та повертають об'єкти [LDAPConnection](class.ldap-connection.md) замість ресурсів ([resource](language.types.resource.md) `ldap link`
     
--   Функції [LDAP](book.ldap.md) тепер приймають та повертають об'єкти [LDAPResult](class.ldap-result.html) замість ресурсів ([resource](language.types.resource.md) `ldap result`
+-   Функції [LDAP](book.ldap.md) тепер приймають та повертають об'єкти [LDAPResult](class.ldap-result.md) замість ресурсів ([resource](language.types.resource.md) `ldap result`
     
--   Функції [LDAP](book.ldap.md) тепер приймають та повертають об'єкти [LDAPResultEntry](class.ldap-result-entry.html) замість ресурсів ([resource](language.types.resource.md) `ldap result entry`
+-   Функції [LDAP](book.ldap.md) тепер приймають та повертають об'єкти [LDAPResultEntry](class.ldap-result-entry.md) замість ресурсів ([resource](language.types.resource.md) `ldap result entry`
     
--   Функції [PgSQL](book.pgsql.md) тепер приймають та повертають об'єкти [PgSqlConnection](class.pgsql-connection.html) замість ресурсів ([resource](language.types.resource.md) `pgsql link`
+-   Функції [PgSQL](book.pgsql.md) тепер приймають та повертають об'єкти [PgSqlConnection](class.pgsql-connection.md) замість ресурсів ([resource](language.types.resource.md) `pgsql link`
     
--   Функції [PgSQL](book.pgsql.md) тепер приймають та повертають об'єкти [PgSqlResult](class.pgsql-result.html) замість ресурсів ([resource](language.types.resource.md) `pgsql result`
+-   Функції [PgSQL](book.pgsql.md) тепер приймають та повертають об'єкти [PgSqlResult](class.pgsql-result.md) замість ресурсів ([resource](language.types.resource.md) `pgsql result`
     
--   Функції [PgSQL](book.pgsql.md) тепер приймають та повертають об'єкти [PgSqlLob](class.pgsql-lob.html) замість ресурсів ([resource](language.types.resource.md) `pgsql large object`
+-   Функції [PgSQL](book.pgsql.md) тепер приймають та повертають об'єкти [PgSqlLob](class.pgsql-lob.md) замість ресурсів ([resource](language.types.resource.md) `pgsql large object`
     
--   Функції [PSpell](book.pspell.md) тепер приймають та повертають об'єкти [PSpellDictionary](class.pspell-dictionary.html) замість ресурсів ([resource](language.types.resource.md) `pspell`
+-   Функції [PSpell](book.pspell.md) тепер приймають та повертають об'єкти [PSpellDictionary](class.pspell-dictionary.md) замість ресурсів ([resource](language.types.resource.md) `pspell`
     
--   Функції [PSpell](book.pspell.md) тепер приймають та повертають об'єкти [PSpellConfig](class.pspell-config.html) замість ресурсів ([resource](language.types.resource.md) `pspell config`
+-   Функції [PSpell](book.pspell.md) тепер приймають та повертають об'єкти [PSpellConfig](class.pspell-config.md) замість ресурсів ([resource](language.types.resource.md) `pspell config`
     
 
 ### MySQLi
 
-Функції [mysqlifetchfields()](mysqli-result.fetch-fields.html) і [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.html) тепер завжди повертають `0` у властивості maxlength. Це значення можна обчислити, перебираючи набір результатів та вибираючи максимальну довжину. Такий алгоритм раніше використовував PHP.
+Функції [mysqlifetchfields()](mysqli-result.fetch-fields.html) і [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.md) тепер завжди повертають `0` у властивості maxlength. Це значення можна обчислити, перебираючи набір результатів та вибираючи максимальну довжину. Такий алгоритм раніше використовував PHP.
 
 Опція **`MYSQLI_STMT_ATTR_UPDATE_MAX_LENGTH`** більше немає сенсу.
 
-Опція **`MYSQLI_STORE_RESULT_COPY_DATA`** більше немає сенсу. Передача будь-якого значення параметр `mode` методу [mysqli::storeresult()](mysqli.store-result.html) більше немає сенсу.
+Опція **`MYSQLI_STORE_RESULT_COPY_DATA`** більше немає сенсу. Передача будь-якого значення параметр `mode` методу [mysqli::storeresult()](mysqli.store-result.md) більше немає сенсу.
 
-[mysqli::connect()](function.mysqli-connect.html) тепер повертає **`true`** замість **`null`** у разі успішного виконання.
+[mysqli::connect()](function.mysqli-connect.md) тепер повертає **`true`** замість **`null`** у разі успішного виконання.
 
-Режим обробки помилок за умовчанням було змінено з "silent" на "exceptions". Дивіться сторінку [Режими обробки помилок MySQLi](mysqli-driver.report-mode.html) для отримання додаткових відомостей про те, що це спричиняє і як явно встановити цей атрибут. Щоб відновити попередню поведінку, використовуйте: `mysqli_report(MYSQLI_REPORT_OFF);`
+Режим обробки помилок за умовчанням було змінено з "silent" на "exceptions". Дивіться сторінку [Режими обробки помилок MySQLi](mysqli-driver.report-mode.md) для отримання додаткових відомостей про те, що це спричиняє і як явно встановити цей атрибут. Щоб відновити попередню поведінку, використовуйте: `mysqli_report(MYSQLI_REPORT_OFF);`
 
-Класи, що розширюють [mysqlistmt::execute()](mysqli-stmt.execute.html), тепер потрібно вказати додатковий необов'язковий параметр.
+Класи, що розширюють [mysqlistmt::execute()](mysqli-stmt.execute.md), тепер потрібно вказати додатковий необов'язковий параметр.
 
 ### MySQLnd
 
@@ -135,7 +135,7 @@ INI-директива [mysqlnd.fetchdatacopy](mysqlnd.config.html#ini.mysqlnd.f
 
 Секретні ключі EC тепер експортуватимуться у форматі PKCS#8, а не у традиційному форматі, як і всі інші ключі.
 
-[opensslpkcs7encrypt()](function.openssl-pkcs7-encrypt.html) і [opensslcmsencrypt()](function.openssl-cms-encrypt.html) тепер за замовчуванням використовують шифр AES-128-CBC, а чи не RC2-40. Шифр RC2-40 вважається небезпечним і не включений за промовчанням у OpenSSL 3.
+[opensslpkcs7encrypt()](function.openssl-pkcs7-encrypt.html) і [opensslcmsencrypt()](function.openssl-cms-encrypt.md) тепер за замовчуванням використовують шифр AES-128-CBC, а чи не RC2-40. Шифр RC2-40 вважається небезпечним і не включений за промовчанням у OpenSSL 3.
 
 ### Об'єкти даних PHP
 
@@ -157,13 +157,13 @@ INI-директива [mysqlnd.fetchdatacopy](mysqlnd.config.html#ini.mysqlnd.f
 
 ### Стандартні функції
 
-[versioncompare()](function.version-compare.html) більше не приймає недокументованих скорочень операторів.
+[versioncompare()](function.version-compare.md) більше не приймає недокументованих скорочень операторів.
 
-Функції [htmlspecialchars()](function.htmlspecialchars.md) [htmlentities()](function.htmlentities.md) [htmlspecialcharsdecode()](function.htmlspecialchars-decode.html) [htmlentitydecode()](function.html-entity-decode.html) і [gethtmltranslationtable()](function.get-html-translation-table.html) тепер за умовчанням використовують `ENT_QUOTES | ENT_SUBSTITUTE` замість **`ENT_COMPAT`**. Це означає, що тепер `'` екранується в `&#039;`. Крім того, у разі неправильного UTF-8 замість порожнього рядка буде повернуто заміщувальний символ Unicode.
+Функції [htmlspecialchars()](function.htmlspecialchars.md) [htmlentities()](function.htmlentities.md) [htmlspecialcharsdecode()](function.htmlspecialchars-decode.html) [htmlentitydecode()](function.html-entity-decode.html) і [gethtmltranslationtable()](function.get-html-translation-table.md) тепер за умовчанням використовують `ENT_QUOTES | ENT_SUBSTITUTE` замість **`ENT_COMPAT`**. Це означає, що тепер `'` екранується в `&#039;`. Крім того, у разі неправильного UTF-8 замість порожнього рядка буде повернуто заміщувальний символ Unicode.
 
-[debugzvaldump()](function.debug-zval-dump.html) тепер виводить refcount оболонок посилань з їх refcount, замість того, щоб просто додавати `&` до значення. Це більш точно моделює еталонну виставу, починаючи з PHP 7.0.
+[debugzvaldump()](function.debug-zval-dump.md) тепер виводить refcount оболонок посилань з їх refcount, замість того, щоб просто додавати `&` до значення. Це більш точно моделює еталонну виставу, починаючи з PHP 7.0.
 
-[debugzvaldump()](function.debug-zval-dump.html) тепер виводить `interned` замість фіктивного refcount для інтернованих рядків та незмінних масивів.
+[debugzvaldump()](function.debug-zval-dump.md) тепер виводить `interned` замість фіктивного refcount для інтернованих рядків та незмінних масивів.
 
 ### Стандартна бібліотека PHP (SPL)
 

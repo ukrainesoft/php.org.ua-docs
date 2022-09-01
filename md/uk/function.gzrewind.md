@@ -24,7 +24,7 @@ gzrewind(resource $stream): bool
 
 `stream`
 
-Вказівник на gz-файл, повернутий після його успішного відкриття функцією [gzopen()](function.gzopen.html)
+Вказівник на gz-файл, повернутий після його успішного відкриття функцією [gzopen()](function.gzopen.md)
 
 ### Значення, що повертаються
 
@@ -32,5 +32,5 @@ gzrewind(resource $stream): bool
 
 ### Дивіться також
 
--   [gzseek()](function.gzseek.html) - Перемістити вказівник на позицію в покажчику gz-файлу
--   [gztell()](function.gztell.html) - Повертає поточну позицію читання/запису в покажчику gz-файлу
+-   [gzseek()](function.gzseek.md) - Перемістити вказівник на позицію в покажчику gz-файлу
+-   [gztell()](function.gztell.md) - Повертає поточну позицію читання/запису в покажчику gz-файлу

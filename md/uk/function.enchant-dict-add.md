@@ -24,7 +24,7 @@ enchant_dict_add(EnchantDictionary $dictionary, string $word): void
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
 
 `word`
 
@@ -60,5 +60,5 @@ enchant_broker_free($broker);
 
 ### Дивіться також
 
--   [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html) - Створити словник, використовуючи файл PWL
--   [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) - Створити новий словник, використовуючи тег
+-   [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md) - Створити словник, використовуючи файл PWL
+-   [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) - Створити новий словник, використовуючи тег

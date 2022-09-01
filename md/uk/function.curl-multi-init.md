@@ -77,5 +77,5 @@ curl_multi_close($mh);
 
 ### Дивіться також
 
--   [curlinit()](function.curl-init.html) - Ініціалізує сеанс cURL
--   [curlmulticlose()](function.curl-multi-close.html) - Закриває набір cURL-дескрипторів
+-   [curlinit()](function.curl-init.md) - Ініціалізує сеанс cURL
+-   [curlmulticlose()](function.curl-multi-close.md) - Закриває набір cURL-дескрипторів

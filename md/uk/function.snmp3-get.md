@@ -84,4 +84,4 @@ $nameOfSecondInterface = snmp3_get('localhost', 'james', 'authPriv', 'SHA',
 
 ### Дивіться також
 
--   [snmpv3set()](function.snmp3-set.html) - Встановлює значення об'єкта SNMP
+-   [snmpv3set()](function.snmp3-set.md) - Встановлює значення об'єкта SNMP

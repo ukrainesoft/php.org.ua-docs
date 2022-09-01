@@ -24,7 +24,7 @@ ldap_get_option(LDAP\Connection $ldap, int $option, array|string|int &$value = n
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `option`
 
@@ -77,7 +77,7 @@ ldap_get_option(LDAP\Connection $ldap, int $option, array|string|int &$value = n
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -102,4 +102,4 @@ if (ldap_get_option($ds, LDAP_OPT_PROTOCOL_VERSION, $version)) {
 
 ### Дивіться також
 
--   [ldapsetoption()](function.ldap-set-option.html) - Встановити значення цієї опції
+-   [ldapsetoption()](function.ldap-set-option.md) - Встановити значення цієї опції

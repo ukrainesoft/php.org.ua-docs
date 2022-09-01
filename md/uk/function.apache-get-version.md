@@ -47,4 +47,4 @@ Apache/1.3.29 (Unix) PHP/4.3.4
 
 ### Дивіться також
 
--   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP
+-   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP

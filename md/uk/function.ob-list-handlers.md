@@ -26,7 +26,7 @@ ob_list_handlers(): array
 
 ### Значення, що повертаються
 
-Функція поверне масив із використовуваними обробниками виводу (якщо є). Якщо увімкнено [outputbuffering](outcontrol.configuration.html#ini.output-buffering) або використовувалася анонімна функція разом з [проstart()](function.ob-start.html), то **проlisthandlers()** поверне "default output handler".
+Функція поверне масив із використовуваними обробниками виводу (якщо є). Якщо увімкнено [outputbuffering](outcontrol.configuration.html#ini.output-buffering) або використовувалася анонімна функція разом з [проstart()](function.ob-start.md), то **проlisthandlers()** поверне "default output handler".
 
 ### Приклади
 
@@ -70,7 +70,7 @@ Array
 
 ### Дивіться також
 
--   [проendclean()](function.ob-end-clean.html) - Очистити (стерти) буфер виведення та вимкнути буферизацію виводу
--   [проendflush()](function.ob-end-flush.html) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
--   [проgetflush()](function.ob-get-flush.html) - Скинути буфер виведення, повернути його у вигляді рядка та вимкнути буферизацію виводу
--   [проstart()](function.ob-start.html) - Включення буферизації виводу
+-   [проendclean()](function.ob-end-clean.md) - Очистити (стерти) буфер виведення та вимкнути буферизацію виводу
+-   [проendflush()](function.ob-end-flush.md) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
+-   [проgetflush()](function.ob-get-flush.md) - Скинути буфер виведення, повернути його у вигляді рядка та вимкнути буферизацію виводу
+-   [проstart()](function.ob-start.md) - Включення буферизації виводу

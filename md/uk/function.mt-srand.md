@@ -46,7 +46,7 @@ mt_srand(int $seed = 0, int $mode = MT_RAND_MT19937): void
 | Версия | Описание |
 | --- | --- |
 |  | [srand()](function.srand.md) [тепер є](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) псевдонімом для **мтsrand()** |
-|  | [мтrand()](function.mt-rand.html) [була змінена](migration71.incompatible.html#migration71.incompatible.fixes-to-mt_rand-algorithm) для використання фіксованої, коректної версії алгоритму Вихря Мерсенна. Для відкату до старої поведінки, використовуйте **мтsrand()** з другим параметром **`MT_RAND_PHP`** |
+|  | [мтrand()](function.mt-rand.md) [була змінена](migration71.incompatible.html#migration71.incompatible.fixes-to-mt_rand-algorithm) для використання фіксованої, коректної версії алгоритму Вихря Мерсенна. Для відкату до старої поведінки, використовуйте **мтsrand()** з другим параметром **`MT_RAND_PHP`** |
 
 ### Приклади
 
@@ -67,6 +67,6 @@ $randval = mt_rand();
 
 ### Дивіться також
 
--   [мтrand()](function.mt-rand.html) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
--   [мтgetrandmax()](function.mt-getrandmax.html) - Показує максимально можливе значення випадкового числа
+-   [мтrand()](function.mt-rand.md) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
+-   [мтgetrandmax()](function.mt-getrandmax.md) - Показує максимально можливе значення випадкового числа
 -   [srand()](function.srand.md) - Змінює початкове число генератора псевдовипадкових чисел

@@ -20,7 +20,7 @@ sodium_crypto_kdf_derive_from_key(    int $subkey_length,    int $subkey
 
 Отримує підрозділ із кореневого ключа та додаткового контексту.
 
-Схожа на[hashhkdf()](function.hash-hkdf.html)
+Схожа на[hashhkdf()](function.hash-hkdf.md)
 
 ### Список параметрів
 

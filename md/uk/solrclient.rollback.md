@@ -30,5 +30,5 @@ public SolrClient::rollback(): SolrUpdateResponse
 
 ### Дивіться також
 
--   [SolrClient::commit()](solrclient.commit.html) - Завершує всі додавання/видалення, зроблені в індексі
--   [SolrClient::optimize()](solrclient.optimize.html) - дефрагментує індекс
+-   [SolrClient::commit()](solrclient.commit.md) - Завершує всі додавання/видалення, зроблені в індексі
+-   [SolrClient::optimize()](solrclient.optimize.md) - дефрагментує індекс

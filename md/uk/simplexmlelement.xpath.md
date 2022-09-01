@@ -82,4 +82,4 @@ b/c: вещь
 -   [SimpleXMLElement::registerXPathNamespace()](simplexmlelement.registerxpathnamespace.md) - Створює префікс/простір імен контексту для наступного запиту XPath
 -   [SimpleXMLElement::getDocNamespaces()](simplexmlelement.getdocnamespaces.md) - Повертає простори імен, оголошених у документі
 -   [SimpleXMLElement::getNamespaces()](simplexmlelement.getnamespaces.md) - Повертає простір імен, що використовуються в документі
--   [Базовое использование SimpleXML](simplexml.examples-basic.html)
+-   [Базовое использование SimpleXML](simplexml.examples-basic.md)

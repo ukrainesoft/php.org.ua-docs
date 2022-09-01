@@ -59,5 +59,5 @@ echo $len1 . ", " . $len2;
 
 ### Дивіться також
 
--   [проstart()](function.ob-start.html) - Включення буферизації виводу
--   [проgetcontents()](function.ob-get-contents.html) - Повертає вміст буфера виводу
+-   [проstart()](function.ob-start.md) - Включення буферизації виводу
+-   [проgetcontents()](function.ob-get-contents.md) - Повертає вміст буфера виводу

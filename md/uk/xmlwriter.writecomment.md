@@ -34,7 +34,7 @@ xmlwriter_write_comment(XMLWriter $writer, string $content): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `content`
 
@@ -48,9 +48,9 @@ xmlwriter_write_comment(XMLWriter $writer, string $content): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::startComment()](xmlwriter.startcomment.html) - Створює стартовий коментар
--   [XMLWriter::endComment()](xmlwriter.endcomment.html) - Завершити коментар
+-   [XMLWriter::startComment()](xmlwriter.startcomment.md) - Створює стартовий коментар
+-   [XMLWriter::endComment()](xmlwriter.endcomment.md) - Завершити коментар

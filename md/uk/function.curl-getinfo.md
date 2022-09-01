@@ -24,7 +24,7 @@ curl_getinfo(CurlHandle $handle, ?int $option = null): mixed
 
 `handle`
 
-Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
 
 `option`
 
@@ -50,13 +50,13 @@ curl_getinfo(CurlHandle $handle, ?int $option = null): mixed
 -   **`CURLINFO_SPEED_DOWNLOAD`** - Середня швидкість завантаження
 -   **`CURLINFO_SPEED_UPLOAD`** - Середня швидкість закачування
 -   **`CURLINFO_HEADER_SIZE`** - Сумарний розмір усіх отриманих заголовків
--   **`CURLINFO_HEADER_OUT`** - Рядок запиту, що посилається. Для роботи цього параметра додайте опцію **`CURLINFO_HEADER_OUT`** до дескриптора за допомогою виклику [curlsetopt()](function.curl-setopt.html)
+-   **`CURLINFO_HEADER_OUT`** - Рядок запиту, що посилається. Для роботи цього параметра додайте опцію **`CURLINFO_HEADER_OUT`** до дескриптора за допомогою виклику [curlsetopt()](function.curl-setopt.md)
 -   **`CURLINFO_REQUEST_SIZE`** - Сумарний розмір всіх надісланих запитів, що нині використовується тільки для HTTP-запитів
 -   **`CURLINFO_SSL_VERIFYRESULT`** - Результат перевірки SSL-сертифіката, запрошеного за допомогою установки параметра **`CURLOPT_SSL_VERIFYPEER`**
 -   **`CURLINFO_CONTENT_LENGTH_DOWNLOAD`** - розмір завантажених даних, прочитаний із заголовка `Content-Length:`
 -   **`CURLINFO_CONTENT_LENGTH_UPLOAD`** - Розмір даних, що закачуються
 -   **`CURLINFO_CONTENT_TYPE`** - Вміст отриманого заголовка `Content-Type:`. Якщо NULL, то сервер не надіслав правильний заголовок `Content-Type:`
--   **`CURLINFO_PRIVATE`** - Внутрішні дані, пов'язані з цим cURL-обробником, раніше встановлені за допомогою опції **`CURLOPT_PRIVATE`** у функції [curlsetopt()](function.curl-setopt.html)
+-   **`CURLINFO_PRIVATE`** - Внутрішні дані, пов'язані з цим cURL-обробником, раніше встановлені за допомогою опції **`CURLOPT_PRIVATE`** у функції [curlsetopt()](function.curl-setopt.md)
 -   **`CURLINFO_RESPONSE_CODE`** - Останній код повернення
 -   **`CURLINFO_HTTP_CONNECTCODE`** - Код відповіді операції CONNECT
 -   **`CURLINFO_HTTPAUTH_AVAIL`** - бітова маска, що показує можливі методи аутентифікації, доступні при попередній відповіді
@@ -122,7 +122,7 @@ curl_getinfo(CurlHandle $handle, ?int $option = null): mixed
 -   "localip"
 -   "localport"
 -   "redirecturl"
--   "requestheader" (повертається тільки за встановленої опції **`CURLINFO_HEADER_OUT`** за допомогою виклику [curlsetopt()](function.curl-setopt.html) до виконання запиту)
+-   "requestheader" (повертається тільки за встановленої опції **`CURLINFO_HEADER_OUT`** за допомогою виклику [curlsetopt()](function.curl-setopt.md) до виконання запиту)
 
 Врахуйте, що внутрішні дані не додаються до асоціативного масиву і повинні виходити окремо за допомогою опції **`CURLINFO_PRIVATE`**
 

@@ -49,8 +49,8 @@ final public unserialize(string $serialized): void
 
 ## Зміст
 
--   [MongoDBBSONUndefined::construct](mongodb-bson-undefined.construct.html) - Створює новий Undefined (не використовується)
--   [MongoDBBSONUndefined::jsonSerialize](mongodb-bson-undefined.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDBBSONUndefined::serialize](mongodb-bson-undefined.serialize.html) - Серіалізує Undefined
--   [MongoDBBSONUndefined::toString](mongodb-bson-undefined.tostring.html) — Повертає порожній рядок
--   [MongoDBBSONUndefined::unserialize](mongodb-bson-undefined.unserialize.html) - Десеріалізує Undefined
+-   [MongoDBBSONUndefined::construct](mongodb-bson-undefined.construct.md) - Створює новий Undefined (не використовується)
+-   [MongoDBBSONUndefined::jsonSerialize](mongodb-bson-undefined.jsonserialize.md) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONUndefined::serialize](mongodb-bson-undefined.serialize.md) - Серіалізує Undefined
+-   [MongoDBBSONUndefined::toString](mongodb-bson-undefined.tostring.md) — Повертає порожній рядок
+-   [MongoDBBSONUndefined::unserialize](mongodb-bson-undefined.unserialize.md) - Десеріалізує Undefined

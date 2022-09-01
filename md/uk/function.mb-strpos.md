@@ -54,5 +54,5 @@ mb_strpos(    string $haystack,    string $needle,    int $offset = 
 
 ### Дивіться також
 
--   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбinternalencoding()](function.mb-internal-encoding.md) - Встановлення/отримання внутрішнього кодування скрипту
 -   [strpos()](function.strpos.md) - Повертає позицію першого входження підрядка

@@ -57,5 +57,5 @@ convert_cyr_string(string $str, string $from, string $to): string
 
 ### Дивіться також
 
--   [мбconvertencoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
+-   [мбconvertencoding()](function.mb-convert-encoding.md) - Перетворює рядок з одного кодування символів на інший
 -   [iconv()](function.iconv.md) - Перетворює рядок з одного кодування символів на інший

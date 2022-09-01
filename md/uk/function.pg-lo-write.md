@@ -30,7 +30,7 @@ pg_lo_write(PgSql\Lob $lob, string $data, ?int $length = null): int|false
 
 `lob`
 
-Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.html)
+Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.md)
 
 `data`
 
@@ -48,7 +48,7 @@ pg_lo_write(PgSql\Lob $lob, string $data, ?int $length = null): int|false
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `length` тепер допускає значення null. |
 
 ### Приклади
@@ -69,5 +69,5 @@ pg_lo_write(PgSql\Lob $lob, string $data, ?int $length = null): int|false
 
 ### Дивіться також
 
--   [пглоcreate()](function.pg-lo-create.html) - Створює великий об'єкт
--   [пглоopen()](function.pg-lo-open.html) - Відкриває великий об'єкт бази даних
+-   [пглоcreate()](function.pg-lo-create.md) - Створює великий об'єкт
+-   [пглоopen()](function.pg-lo-open.md) - Відкриває великий об'єкт бази даних

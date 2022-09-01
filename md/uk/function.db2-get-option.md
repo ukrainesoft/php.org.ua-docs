@@ -24,7 +24,7 @@ db2_get_option(resource $resource, string $option): string|false
 
 `resource`
 
-Допустимий ресурс оператора, що повертається [db2prepare()](function.db2-prepare.html) або допустимий ресурс з'єднання, що повертається [db2connect()](function.db2-connect.html) або [db2pconnect()](function.db2-pconnect.html)
+Допустимий ресурс оператора, що повертається [db2prepare()](function.db2-prepare.html) або допустимий ресурс з'єднання, що повертається [db2connect()](function.db2-connect.html) або [db2pconnect()](function.db2-pconnect.md)
 
 `option`
 
@@ -173,9 +173,9 @@ workstation
 
 ### Дивіться також
 
--   [db2connect()](function.db2-connect.html) - Повертає з'єднання з базою даних
--   [db2cursortype()](function.db2-cursor-type.html) - Повертає тип курсору, який використовується у ресурсі оператора
--   [db2exec()](function.db2-exec.html) - Виконує SQL-запит безпосередньо
--   [db2setoption()](function.db2-set-option.html) - Встановлення опції для з'єднання або ресурсу оператора
--   [db2pconnect()](function.db2-pconnect.html) - Повертає постійне з'єднання з базою даних
--   [db2prepare()](function.db2-prepare.html) - готує SQL-запит до виконання
+-   [db2connect()](function.db2-connect.md) - Повертає з'єднання з базою даних
+-   [db2cursortype()](function.db2-cursor-type.md) - Повертає тип курсору, який використовується у ресурсі оператора
+-   [db2exec()](function.db2-exec.md) - Виконує SQL-запит безпосередньо
+-   [db2setoption()](function.db2-set-option.md) - Встановлення опції для з'єднання або ресурсу оператора
+-   [db2pconnect()](function.db2-pconnect.md) - Повертає постійне з'єднання з базою даних
+-   [db2prepare()](function.db2-prepare.md) - готує SQL-запит до виконання

@@ -46,8 +46,8 @@ echo sin(60);           // -0.304810621 ...
 
 ### Дивіться також
 
--   [asin()](function.asin.html) - Арксінус
--   [sinh()](function.sinh.html) - Гіперболічний синус
--   [cos()](function.cos.html) - Косінус
--   [tan()](function.tan.html) - Тангенс
--   [deg2rad()](function.deg2rad.html) - Перетворює значення із градусів на радіани
+-   [asin()](function.asin.md) - Арксінус
+-   [sinh()](function.sinh.md) - Гіперболічний синус
+-   [cos()](function.cos.md) - Косінус
+-   [tan()](function.tan.md) - Тангенс
+-   [deg2rad()](function.deg2rad.md) - Перетворює значення із градусів на радіани

@@ -8,4 +8,4 @@ title: Типи ресурсів
 ---
 ## Типи ресурсів
 
-Модуль визначає потоковий ресурс, що повертається [inotifyinit()](function.inotify-init.html)
+Модуль визначає потоковий ресурс, що повертається [inotifyinit()](function.inotify-init.md)

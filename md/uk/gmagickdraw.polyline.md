@@ -28,4 +28,4 @@ public GmagickDraw::polyline(array $coordinate_array): GmagickDraw
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html)
+Об'єкт [Gmagick](class.gmagick.md)

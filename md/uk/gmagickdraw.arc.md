@@ -48,4 +48,4 @@ public GmagickDraw::arc(    float $sx,    float $sy,    float $ex, 
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html)
+Об'єкт [Gmagick](class.gmagick.md)

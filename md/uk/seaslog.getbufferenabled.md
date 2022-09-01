@@ -51,5 +51,5 @@ bool(false)
 -   [seaslog.usebuffer](seaslog.configuration.html#ini.seaslog.use-buffer)
 -   [seaslog.buffersize](seaslog.configuration.html#ini.seaslog.buffer-size)
 -   [seaslog.bufferdisabledінcli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli)
--   [SeasLog::getBuffer()](seaslog.getbuffer.html) - Отримує буфер логів у пам'яті у вигляді масиву
--   [SeasLog::flushBuffer()](seaslog.flushbuffer.html) - Очищає буфер логів, робить дамп у файл програми або відправляє на віддалений API за допомогою tcp/udp
+-   [SeasLog::getBuffer()](seaslog.getbuffer.md) - Отримує буфер логів у пам'яті у вигляді масиву
+-   [SeasLog::flushBuffer()](seaslog.flushbuffer.md) - Очищає буфер логів, робить дамп у файл програми або відправляє на віддалений API за допомогою tcp/udp

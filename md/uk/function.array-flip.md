@@ -81,6 +81,6 @@ Array
 
 ### Дивіться також
 
--   [arrayvalues()](function.array-values.html) - Вибирає всі значення масиву
--   [arraykeys()](function.array-keys.html) - Повертає все або деяке підмножина ключів масиву
--   [arrayreverse()](function.array-reverse.html) - Повертає масив із елементами у зворотному порядку
+-   [arrayvalues()](function.array-values.md) - Вибирає всі значення масиву
+-   [arraykeys()](function.array-keys.md) - Повертає все або деяке підмножина ключів масиву
+-   [arrayreverse()](function.array-reverse.md) - Повертає масив із елементами у зворотному порядку

@@ -32,4 +32,4 @@ db2_free_result(resource $stmt): bool
 
 ### Дивіться також
 
--   [db2freestmt()](function.db2-free-stmt.html) - звільняє ресурси, пов'язані із зазначеним ресурсом вираження
+-   [db2freestmt()](function.db2-free-stmt.md) - звільняє ресурси, пов'язані із зазначеним ресурсом вираження

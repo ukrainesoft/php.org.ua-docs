@@ -30,11 +30,11 @@ geoip_time_zone_by_country_and_region(string $country_code, string $region_code 
 
 `country_code`
 
-Дволітерний код країни (дивіться [geoipcountrycodeбname()](function.geoip-country-code-by-name.html)
+Дволітерний код країни (дивіться [geoipcountrycodeбname()](function.geoip-country-code-by-name.md)
 
 `region_code`
 
-Дволітерний (або цифровий) код регіону (дивіться [geoipregionбname()](function.geoip-region-by-name.html)
+Дволітерний (або цифровий) код регіону (дивіться [geoipregionбname()](function.geoip-region-by-name.md)
 
 ### Значення, що повертаються
 

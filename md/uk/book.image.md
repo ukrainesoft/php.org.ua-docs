@@ -16,15 +16,15 @@ title: Обробка зображень та GD
     -   [Типи ресурсів](image.resources.md)
 -   [Обумовлені константи](image.constants.md)
 -   [Приклади](image.examples.md)
-    -   [Створення PNG засобами PHP](image.examples-png.html)
-    -   [Додавання водяних знаків на зображення за допомогою альфа-каналів](image.examples-watermark.html)
-    -   [Використання imagecopymerge створити напівпрозорий водяний знак](image.examples.merged-watermark.html)
+    -   [Створення PNG засобами PHP](image.examples-png.md)
+    -   [Додавання водяних знаків на зображення за допомогою альфа-каналів](image.examples-watermark.md)
+    -   [Використання imagecopymerge створити напівпрозорий водяний знак](image.examples.merged-watermark.md)
 -   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    -   [гдinfo](function.gd-info.html) — Виведення інформації про поточну встановлену GD бібліотеку
+    -   [гдinfo](function.gd-info.md) — Виведення інформації про поточну встановлену GD бібліотеку
     -   [getimagesize](function.getimagesize.md) — Отримання розміру зображення
     -   [getimagesizefromstring](function.getimagesizefromstring.md) — Отримання розміру зображення з рядка даних
-    -   [imagetypeтоextension](function.image-type-to-extension.html) — Розширення файлу для типу зображення
-    -   [imagetypeтоmimetype](function.image-type-to-mime-type.html) — Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
+    -   [imagetypeтоextension](function.image-type-to-extension.md) — Розширення файлу для типу зображення
+    -   [imagetypeтоmimetype](function.image-type-to-mime-type.md) — Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
     -   [image2wbmp](function.image2wbmp.md) — Виводить зображення до браузера або пише у файл
     -   [imageaffine](function.imageaffine.md) — Повернути зображення, яке містить афінно-перетворене зображення src, використовуючи додаткову область обмеження
     -   [imageaffinematrixconcat](function.imageaffinematrixconcat.md) — Конкатенує дві афінні матриці перетворення

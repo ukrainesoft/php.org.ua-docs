@@ -34,4 +34,4 @@ fann_get_MSE(resource $ann): float
 
 ### Дивіться також
 
--   [fanntestdata()](function.fann-test-data.html) - Тестування набору навчальних даних та обчислення MSE для нього
+-   [fanntestdata()](function.fann-test-data.md) - Тестування набору навчальних даних та обчислення MSE для нього

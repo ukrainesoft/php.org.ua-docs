@@ -36,7 +36,7 @@ runkit7_function_rename(string $source_name, string $target_name): bool
 
 ### Дивіться також
 
--   [runkit7functionadd()](function.runkit7-function-add.html) - Додає нову функцію, функція аналогічна createfunction
--   [runkit7functioncopy()](function.runkit7-function-copy.html) - Копіює функцію в нове ім'я функції
--   [runkit7functionredefine()](function.runkit7-function-redefine.html) - замінює визначення функції новою реалізацією
--   [runkit7functionremove()](function.runkit7-function-remove.html) - Видаляє визначення функції
+-   [runkit7functionadd()](function.runkit7-function-add.md) - Додає нову функцію, функція аналогічна createfunction
+-   [runkit7functioncopy()](function.runkit7-function-copy.md) - Копіює функцію в нове ім'я функції
+-   [runkit7functionredefine()](function.runkit7-function-redefine.md) - замінює визначення функції новою реалізацією
+-   [runkit7functionremove()](function.runkit7-function-remove.md) - Видаляє визначення функції

@@ -140,4 +140,4 @@ array(4) {
 
 ### Дивіться також
 
--   [cubridісinstance()](function.cubrid-is-instance.html) - Перевіряє, чи існує екземпляр, на який вказує OID
+-   [cubridісinstance()](function.cubrid-is-instance.md) - Перевіряє, чи існує екземпляр, на який вказує OID

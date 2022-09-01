@@ -34,7 +34,7 @@ xmlwriter_write_pi(XMLWriter $writer, string $target, string $content): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `target`
 
@@ -52,9 +52,9 @@ xmlwriter_write_pi(XMLWriter $writer, string $target, string $content): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::startPi()](xmlwriter.startpi.html) - Створити стартовий тег PI
--   [XMLWriter::endPi()](xmlwriter.endpi.html) - Закінчити поточну інструкцію обробки (PI)
+-   [XMLWriter::startPi()](xmlwriter.startpi.md) - Створити стартовий тег PI
+-   [XMLWriter::endPi()](xmlwriter.endpi.md) - Закінчити поточну інструкцію обробки (PI)

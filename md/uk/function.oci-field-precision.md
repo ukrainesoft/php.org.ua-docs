@@ -78,9 +78,9 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnprecision()](function.ocicolumnprecision.md). У PHP 5.0.0 і вище [ocicolumnprecision()](function.ocicolumnprecision.md) є аліасом [ocifieldscale()](function.oci-field-scale.html)Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnprecision()](function.ocicolumnprecision.md). У PHP 5.0.0 і вище [ocicolumnprecision()](function.ocicolumnprecision.md) є аліасом [ocifieldscale()](function.oci-field-scale.md)Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
 
 ### Дивіться також
 
--   [ocifieldscale()](function.oci-field-scale.html) - Повертає масштаб поля
--   [ocifieldtype()](function.oci-field-type.html) - Повертає ім'я типу поля
+-   [ocifieldscale()](function.oci-field-scale.md) - Повертає масштаб поля
+-   [ocifieldtype()](function.oci-field-type.md) - Повертає ім'я типу поля

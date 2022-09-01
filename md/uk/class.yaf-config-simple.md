@@ -77,19 +77,19 @@ readonly
 
 ## Зміст
 
--   [YafConfigSimple::construct](yaf-config-simple.construct.html) - Призначення construct
--   [YafConfigSimple::count](yaf-config-simple.count.html) - Призначення count
--   [YafConfigSimple::current](yaf-config-simple.current.html) - Призначення current
--   [YafConfigSimple::get](yaf-config-simple.get.html) - Призначення get
--   [YafConfigSimple::isset](yaf-config-simple.isset.html) - Призначення isset
--   [YafConfigSimple::key](yaf-config-simple.key.html) - Призначення key
--   [YafConfigSimple::next](yaf-config-simple.next.html) - Призначення next
--   [YafConfigSimple::offsetExists](yaf-config-simple.offsetexists.html) — Призначення offsetExists
--   [YafConfigSimple::offsetGet](yaf-config-simple.offsetget.html) - Призначення offsetGet
--   [YafConfigSimple::offsetSet](yaf-config-simple.offsetset.html) - Призначення offsetSet
--   [YafConfigSimple::offsetUnset](yaf-config-simple.offsetunset.html) - Призначення offsetUnset
--   [YafConfigSimple::readonly](yaf-config-simple.readonly.html) - Призначення readonly
--   [YafConfigSimple::rewind](yaf-config-simple.rewind.html) - Призначення rewind
--   [YafConfigSimple::set](yaf-config-simple.set.html) - Призначення set
--   [YafConfigSimple::toArray](yaf-config-simple.toarray.html) - Повертає масив PHP
--   [YafConfigSimple::valid](yaf-config-simple.valid.html) - Призначення valid
+-   [YafConfigSimple::construct](yaf-config-simple.construct.md) - Призначення construct
+-   [YafConfigSimple::count](yaf-config-simple.count.md) - Призначення count
+-   [YafConfigSimple::current](yaf-config-simple.current.md) - Призначення current
+-   [YafConfigSimple::get](yaf-config-simple.get.md) - Призначення get
+-   [YafConfigSimple::isset](yaf-config-simple.isset.md) - Призначення isset
+-   [YafConfigSimple::key](yaf-config-simple.key.md) - Призначення key
+-   [YafConfigSimple::next](yaf-config-simple.next.md) - Призначення next
+-   [YafConfigSimple::offsetExists](yaf-config-simple.offsetexists.md) — Призначення offsetExists
+-   [YafConfigSimple::offsetGet](yaf-config-simple.offsetget.md) - Призначення offsetGet
+-   [YafConfigSimple::offsetSet](yaf-config-simple.offsetset.md) - Призначення offsetSet
+-   [YafConfigSimple::offsetUnset](yaf-config-simple.offsetunset.md) - Призначення offsetUnset
+-   [YafConfigSimple::readonly](yaf-config-simple.readonly.md) - Призначення readonly
+-   [YafConfigSimple::rewind](yaf-config-simple.rewind.md) - Призначення rewind
+-   [YafConfigSimple::set](yaf-config-simple.set.md) - Призначення set
+-   [YafConfigSimple::toArray](yaf-config-simple.toarray.md) - Повертає масив PHP
+-   [YafConfigSimple::valid](yaf-config-simple.valid.md) - Призначення valid

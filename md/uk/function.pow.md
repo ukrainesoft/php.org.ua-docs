@@ -65,4 +65,4 @@ echo pow(-1, 5.5); // NAN
 -   [exp()](function.exp.md) - обчислює ступінь числа e
 -   [sqrt()](function.sqrt.md) - Квадратний корінь
 -   [bcpow()](function.bcpow.md) - Зведення у ступінь чисел із довільною точністю
--   [gmppow()](function.gmp-pow.html) - Зводить число до ступеня
+-   [gmppow()](function.gmp-pow.md) - Зводить число до ступеня

@@ -34,7 +34,7 @@ key(array|object $array): int|string|null
 
 | Версия | Описание |
 | --- | --- |
-|  | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.html)або використовуйте [ArrayIterator](class.arrayiterator.md) |
+|  | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.md)або використовуйте [ArrayIterator](class.arrayiterator.md) |
 
 ### Приклади
 
@@ -72,5 +72,5 @@ fruit5
 
 -   [current()](function.current.md) - Повертає поточний елемент масиву
 -   [next()](function.next.md) - Переміщує покажчик масиву вперед на один елемент
--   [arraykeyfirst()](function.array-key-first.html) - Отримує перший ключ масиву
--   [foreach](control-structures.foreach.html)
+-   [arraykeyfirst()](function.array-key-first.md) - Отримує перший ключ масиву
+-   [foreach](control-structures.foreach.md)

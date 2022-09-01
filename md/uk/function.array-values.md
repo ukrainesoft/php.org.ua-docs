@@ -53,5 +53,5 @@ Array
 
 ### Дивіться також
 
--   [arraykeys()](function.array-keys.html) - Повертає все або деяке підмножина ключів масиву
--   [arraycombine()](function.array-combine.html) - Створює новий масив, використовуючи один масив як ключі, а інший для його значень
+-   [arraykeys()](function.array-keys.md) - Повертає все або деяке підмножина ключів масиву
+-   [arraycombine()](function.array-combine.md) - Створює новий масив, використовуючи один масив як ключі, а інший для його значень

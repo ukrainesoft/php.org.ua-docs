@@ -38,4 +38,4 @@ intltz_get_unknown(): IntlTimeZone
 
 ### Значення, що повертаються
 
-Повертає [IntlTimeZone](class.intltimezone.html) або **`null`** у разі виникнення помилки.
+Повертає [IntlTimeZone](class.intltimezone.md) або **`null`** у разі виникнення помилки.

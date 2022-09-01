@@ -10,7 +10,7 @@ title: Функції зворотного дзвінка (callback-функці
 
 Callback-функції можуть бути позначені оголошенням типу [callable](language.types.callable.md)
 
-Деякі функції, такі як [calluserfunc()](function.call-user-func.html) або [usort()](function.usort.md), приймають певні користувачем callback-функції як параметр. Callback-функції може бути як простими функціями, і методами об'єктів, включаючи статичні методи класів.
+Деякі функції, такі як [calluserfunc()](function.call-user-func.md) або [usort()](function.usort.md), приймають певні користувачем callback-функції як параметр. Callback-функції може бути як простими функціями, і методами об'єктів, включаючи статичні методи класів.
 
 ### Передача
 
@@ -113,4 +113,4 @@ print implode(' ', $new_numbers);
 
 > **Зауваження**
 > 
-> Callback-функції, зареєстровані такими функціями як [calluserfunc()](function.call-user-func.html) і [calluserfuncarray()](function.call-user-func-array.html), не будуть викликані за наявності не спійманого виключення, кинутого у попередній callback-функції.
+> Callback-функції, зареєстровані такими функціями як [calluserfunc()](function.call-user-func.html) і [calluserfuncarray()](function.call-user-func-array.md), не будуть викликані за наявності не спійманого виключення, кинутого у попередній callback-функції.

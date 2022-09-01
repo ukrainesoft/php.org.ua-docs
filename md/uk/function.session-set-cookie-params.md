@@ -28,9 +28,9 @@ session_set_cookie_params(array $lifetime_or_options): bool
 session_set_cookie_params(array $options): bool
 ```
 
-Встановлює параметри cookie, визначені у php.ini. Ефект цієї функції зберігається лише під час виконання скрипта. Таким чином, потрібно викликати **sessionsetcookieparams()** для кожного запиту та перед кожним викликом [sessionstart()](function.session-start.html)
+Встановлює параметри cookie, визначені у php.ini. Ефект цієї функції зберігається лише під час виконання скрипта. Таким чином, потрібно викликати **sessionsetcookieparams()** для кожного запиту та перед кожним викликом [sessionstart()](function.session-start.md)
 
-Ця функція оновлює поточні ini-значення відповідних ключів конфігурації PHP ini, які можна отримати за допомогою [iniget()](function.ini-get.html)
+Ця функція оновлює поточні ini-значення відповідних ключів конфігурації PHP ini, які можна отримати за допомогою [iniget()](function.ini-get.md)
 
 ### Список параметрів
 
@@ -76,4 +76,4 @@ session_set_cookie_params(array $options): bool
 -   [session.cookiesecure](session.configuration.html#ini.session.cookie-secure)
 -   [session.cookiehttponly](session.configuration.html#ini.session.cookie-httponly)
 -   [session.cookiesamesite](session.configuration.html#ini.session.cookie-samesite)
--   [sessiongetcookieparams()](function.session-get-cookie-params.html) - Повертає параметри cookie сесії
+-   [sessiongetcookieparams()](function.session-get-cookie-params.md) - Повертає параметри cookie сесії

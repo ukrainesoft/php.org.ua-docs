@@ -8,7 +8,7 @@ title: Перевірка (валідація)
 ---
 ## Перевірка (валідація)
 
-**Приклад #1 Валідація e-mail адреси за допомогою функції [filtervar()](function.filter-var.html)**
+**Приклад #1 Валідація e-mail адреси за допомогою функції [filtervar()](function.filter-var.md)**
 
 ```php
 <?php
@@ -33,7 +33,7 @@ E-mail адрес 'joe@example.com' указан верно.
 E-mail адрес 'bogus' указан неверно.
 ```
 
-**Приклад #2 Валідація IP-адреси за допомогою функції [filtervar()](function.filter-var.html)**
+**Приклад #2 Валідація IP-адреси за допомогою функції [filtervar()](function.filter-var.md)**
 
 ```php
 <?php
@@ -55,7 +55,7 @@ if (filter_var($ip_b, FILTER_VALIDATE_IP)) {
 Адрес '127.0.0.1' указан верно.
 ```
 
-**Приклад #3 Додаткові параметри функції [filtervar()](function.filter-var.html)**
+**Приклад #3 Додаткові параметри функції [filtervar()](function.filter-var.md)**
 
 ```php
 <?php

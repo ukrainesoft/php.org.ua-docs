@@ -22,7 +22,7 @@ gnupg_gettrustlist(resource $identifier, string $pattern): array
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
 
 `pattern`
 

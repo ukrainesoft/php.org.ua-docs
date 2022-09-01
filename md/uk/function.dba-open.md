@@ -49,7 +49,7 @@ dba_open(    string $path,    string $mode,    string $handler = ?,�
 > | `mode` = "wd" | illegal | illegal | illegal | illegal | wait | false | wait | false |
 > 
 > -   ok: другий виклик буде успішним.
-> -   wait: другий виклик буде чекати, доки перший не викличе [dbaclose()](function.dba-close.html)
+> -   wait: другий виклик буде чекати, доки перший не викличе [dbaclose()](function.dba-close.md)
 > -   false: другий виклик поверне **`false`**
 > -   illegal: ви не можете змішувати модифікатори `"l"` і `"d"` у параметрі `mode`
 
@@ -79,5 +79,5 @@ dba_open(    string $path,    string $mode,    string $handler = ?,�
 
 ### Дивіться також
 
--   [dbapopen()](function.dba-popen.html) - встановити постійний екземпляр бази даних
--   [dbaclose()](function.dba-close.html) - Закриває базу даних DBA
+-   [dbapopen()](function.dba-popen.md) - встановити постійний екземпляр бази даних
+-   [dbaclose()](function.dba-close.md) - Закриває базу даних DBA

@@ -28,11 +28,11 @@ ibase_blob_create(resource $link_identifier = null): resource|false
 
 ### Значення, що повертаються
 
-Повертає дескриптор BLOB-об'єкта для подальшого використання з [ibaseblobadd()](function.ibase-blob-add.html) або **`false`** у разі виникнення помилки.
+Повертає дескриптор BLOB-об'єкта для подальшого використання з [ibaseblobadd()](function.ibase-blob-add.md) або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
--   [ibaseblobadd()](function.ibase-blob-add.html) - Додає дані до новоствореного BLOB-об'єкту
--   [ibaseblobcancel()](function.ibase-blob-cancel.html) - Скасує створення BLOB-об'єкта
--   [ibaseblobclose()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
--   [ibaseblobimport()](function.ibase-blob-import.html) - Створює BLOB-об'єкт, копіює файл і закриває його.
+-   [ibaseblobadd()](function.ibase-blob-add.md) - Додає дані до новоствореного BLOB-об'єкту
+-   [ibaseblobcancel()](function.ibase-blob-cancel.md) - Скасує створення BLOB-об'єкта
+-   [ibaseblobclose()](function.ibase-blob-close.md) - Закриває BLOB-об'єкт
+-   [ibaseblobimport()](function.ibase-blob-import.md) - Створює BLOB-об'єкт, копіює файл і закриває його.

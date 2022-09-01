@@ -10,13 +10,13 @@ title: 'finfo::construct'
 
 (PHP >= 5.3.0, PHP 7, PHP 8, PECL fileinfo >= 0.1.0)
 
-finfo::construct - Псевдонім [finfoopen()](function.finfo-open.html)
+finfo::construct - Псевдонім [finfoopen()](function.finfo-open.md)
 
 ### Опис
 
 public **finfo::construct**(int `$flags` **`FILEINFO_NONE`**, ?string `$magic_database` **`null`**
 
-Ця функція є псевдонімом: [finfoopen()](function.finfo-open.html)
+Ця функція є псевдонімом: [finfoopen()](function.finfo-open.md)
 
 ### список змін
 

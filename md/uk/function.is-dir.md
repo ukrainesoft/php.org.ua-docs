@@ -68,5 +68,5 @@ bool(true)
 -   [chdir()](function.chdir.md) - Змінює каталог
 -   [dir()](function.dir.md) - Повертає екземпляр класу Directory
 -   [opendir()](function.opendir.md) - Відкриває дескриптор каталогу
--   [ісfile()](function.is-file.html) - Визначає, чи файл є звичайним файлом
--   [ісlink()](function.is-link.html) - Визначає, чи є файл символічним посиланням
+-   [ісfile()](function.is-file.md) - Визначає, чи файл є звичайним файлом
+-   [ісlink()](function.is-link.md) - Визначає, чи є файл символічним посиланням

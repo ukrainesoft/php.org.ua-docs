@@ -125,7 +125,7 @@ Provided apiStrict:true, but the command buildInfo is not in API Version 1
 
 ## Зміст
 
--   [MongoDBDriverServerApi::bsonSerialize](mongodb-driver-serverapi.bsonserialize.html) — Повертає об'єкт для серіалізації BSON
--   [MongoDBDriverServerApi::construct](mongodb-driver-serverapi.construct.html) — Створює новий примірник ServerApi
--   [MongoDBDriverServerApi::serialize](mongodb-driver-serverapi.serialize.html) - Серіалізує ServerApi
--   [MongoDBDriverServerApi::unserialize](mongodb-driver-serverapi.unserialize.html) - Десеріалізує ServerApi
+-   [MongoDBDriverServerApi::bsonSerialize](mongodb-driver-serverapi.bsonserialize.md) — Повертає об'єкт для серіалізації BSON
+-   [MongoDBDriverServerApi::construct](mongodb-driver-serverapi.construct.md) — Створює новий примірник ServerApi
+-   [MongoDBDriverServerApi::serialize](mongodb-driver-serverapi.serialize.md) - Серіалізує ServerApi
+-   [MongoDBDriverServerApi::unserialize](mongodb-driver-serverapi.unserialize.md) - Десеріалізує ServerApi

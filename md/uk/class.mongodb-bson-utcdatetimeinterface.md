@@ -12,7 +12,7 @@ title: Інтерфейс MongoDBBSONUTCDateTimeInterface
 
 ## Вступ
 
-Цей інтерфейс реалізований за допомогою [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.html), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
+Цей інтерфейс реалізований за допомогою [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.md), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 
@@ -39,5 +39,5 @@ abstract public __toString(): string
 
 ## Зміст
 
--   [MongoDBBSONUTCDateTimeInterface::toDateTime](mongodb-bson-utcdatetimeinterface.todatetime.html) — Повертає уявлення DateTime цього UTCDateTimeInterface
--   [MongoDBBSONUTCDateTimeInterface::toString](mongodb-bson-utcdatetimeinterface.tostring.html) — Повертає рядкову виставу UTCDateTimeInterface
+-   [MongoDBBSONUTCDateTimeInterface::toDateTime](mongodb-bson-utcdatetimeinterface.todatetime.md) — Повертає уявлення DateTime цього UTCDateTimeInterface
+-   [MongoDBBSONUTCDateTimeInterface::toString](mongodb-bson-utcdatetimeinterface.tostring.md) — Повертає рядкову виставу UTCDateTimeInterface

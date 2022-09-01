@@ -68,4 +68,4 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocinumcols()](function.ocinumcols.html). У PHP 5.0.0 і вище [ocinumcols()](function.ocinumcols.html) є аліасом \*\*ocinumfields()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocinumcols()](function.ocinumcols.html). У PHP 5.0.0 і вище [ocinumcols()](function.ocinumcols.md) є аліасом \*\*ocinumfields()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.

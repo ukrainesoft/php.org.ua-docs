@@ -10,6 +10,6 @@ title: Функції ssdeep
 
 ## Зміст
 
--   [ssdeepfuzzycompare](function.ssdeep-fuzzy-compare.html) — Обчислює схожість двох сигнатур нечітких хешів
--   [ssdeepfuzzyhashfilename](function.ssdeep-fuzzy-hash-filename.html) — Створення нечіткого хешу із файлу
--   [ssdeepfuzzyhash](function.ssdeep-fuzzy-hash.html) — Створює нечіткий хеш із рядка
+-   [ssdeepfuzzycompare](function.ssdeep-fuzzy-compare.md) — Обчислює схожість двох сигнатур нечітких хешів
+-   [ssdeepfuzzyhashfilename](function.ssdeep-fuzzy-hash-filename.md) — Створення нечіткого хешу із файлу
+-   [ssdeepfuzzyhash](function.ssdeep-fuzzy-hash.md) — Створює нечіткий хеш із рядка

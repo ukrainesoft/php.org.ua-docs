@@ -24,7 +24,7 @@ sqlsrv_send_stream_data(resource $stmt): bool
 
 `stmt`
 
-Ресурс виразу, що повертається [sqlsrvquery()](function.sqlsrv-query.html) або [sqlsrvexecute()](function.sqlsrv-execute.html)
+Ресурс виразу, що повертається [sqlsrvquery()](function.sqlsrv-query.html) або [sqlsrvexecute()](function.sqlsrv-execute.md)
 
 ### Значення, що повертаються
 
@@ -69,5 +69,5 @@ echo "$i вызовов было сделано.";
 
 ### Дивіться також
 
--   [sqlsrvprepare()](function.sqlsrv-prepare.html) - готує запит до виконання
--   [sqlsrvquery()](function.sqlsrv-query.html) - готує та виконує запит
+-   [sqlsrvprepare()](function.sqlsrv-prepare.md) - готує запит до виконання
+-   [sqlsrvquery()](function.sqlsrv-query.md) - готує та виконує запит

@@ -20,7 +20,7 @@ fann_set_training_algorithm(resource $ann, int $training_algorithm): bool
 
 Встановлює алгоритм навчання.
 
-Докладніша інформація доступна в [fanngettrainingalgorithm()](function.fann-get-training-algorithm.html)
+Докладніша інформація доступна в [fanngettrainingalgorithm()](function.fann-get-training-algorithm.md)
 
 ### Список параметрів
 
@@ -38,4 +38,4 @@ fann_set_training_algorithm(resource $ann, int $training_algorithm): bool
 
 ### Дивіться також
 
--   [fanngettrainingalgorithm()](function.fann-get-training-algorithm.html) - Повертає алгоритм навчання
+-   [fanngettrainingalgorithm()](function.fann-get-training-algorithm.md) - Повертає алгоритм навчання

@@ -24,7 +24,7 @@ gnupg_decryptverify(resource $identifier, string $text, string &$plaintext): arr
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
 
 `text`
 

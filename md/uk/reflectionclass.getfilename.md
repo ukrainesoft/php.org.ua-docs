@@ -30,4 +30,4 @@ public ReflectionClass::getFileName(): string|false
 
 ### Дивіться також
 
--   [ReflectionClass::getExtensionName()](reflectionclass.getextensionname.html) - Повертає ім'я модуля, що визначає клас
+-   [ReflectionClass::getExtensionName()](reflectionclass.getextensionname.md) - Повертає ім'я модуля, що визначає клас

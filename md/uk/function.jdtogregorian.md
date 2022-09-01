@@ -33,4 +33,4 @@ jdtogregorian(int $julian_day): string
 ### Дивіться також
 
 -   [gregoriantojd()](function.gregoriantojd.md) - Перетворює дату за григоріанським календарем на кількість днів у юліанському літочисленні
--   [calfromjd()](function.cal-from-jd.html) - Перетворює дату, задану в юліанському календарі, на дату вказаного календаря
+-   [calfromjd()](function.cal-from-jd.md) - Перетворює дату, задану в юліанському календарі, на дату вказаного календаря

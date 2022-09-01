@@ -30,4 +30,4 @@ public ReflectionParameter::getPosition(): int
 
 ### Дивіться також
 
--   [ReflectionParameter::getName()](reflectionparameter.getname.html) - Отримання імені параметра
+-   [ReflectionParameter::getName()](reflectionparameter.getname.md) - Отримання імені параметра

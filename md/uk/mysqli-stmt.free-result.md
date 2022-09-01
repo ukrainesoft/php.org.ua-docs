@@ -28,13 +28,13 @@ public mysqli_stmt::free_result(): void
 mysqli_stmt_free_result(mysqli_stmt $statement): void
 ```
 
-Звільняє від результату запиту пам'ять, яка була зарезервована за допомогою [mysqlistmtstoreresult()](mysqli-stmt.store-result.html)
+Звільняє від результату запиту пам'ять, яка була зарезервована за допомогою [mysqlistmtstoreresult()](mysqli-stmt.store-result.md)
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -42,4 +42,4 @@ mysqli_stmt_free_result(mysqli_stmt $statement): void
 
 ### Дивіться також
 
--   [mysqlistmtstoreresult()](mysqli-stmt.store-result.html) - Зберігає набір результатів у внутрішньому буфері
+-   [mysqlistmtstoreresult()](mysqli-stmt.store-result.md) - Зберігає набір результатів у внутрішньому буфері

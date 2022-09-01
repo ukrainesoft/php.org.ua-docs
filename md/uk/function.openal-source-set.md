@@ -22,7 +22,7 @@ openal_source_set(resource $source, int $property, mixed $setting): bool
 
 `source`
 
-Ресурс [Open AL(Source)](openal.resources.md) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.html)
+Ресурс [Open AL(Source)](openal.resources.md) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.md)
 
 `property`
 
@@ -38,6 +38,6 @@ openal_source_set(resource $source, int $property, mixed $setting): bool
 
 ### Дивіться також
 
--   [openalsourcecreate()](function.openal-source-create.html) - Згенерувати джерело ресурсу
--   [openalsourceget()](function.openal-source-get.html) - Отримати властивість джерела OpenAL
--   [openalsourceplay()](function.openal-source-play.html) - Почати відтворення джерела
+-   [openalsourcecreate()](function.openal-source-create.md) - Згенерувати джерело ресурсу
+-   [openalsourceget()](function.openal-source-get.md) - Отримати властивість джерела OpenAL
+-   [openalsourceplay()](function.openal-source-play.md) - Почати відтворення джерела

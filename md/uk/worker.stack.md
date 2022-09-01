@@ -24,7 +24,7 @@ public Worker::stack(Threaded &$work): int
 
 `work`
 
-Об'єкт типу [Threaded](class.threaded.html), який буде запущено Worker.
+Об'єкт типу [Threaded](class.threaded.md), який буде запущено Worker.
 
 ### Значення, що повертаються
 

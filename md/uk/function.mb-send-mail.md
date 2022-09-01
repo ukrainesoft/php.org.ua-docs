@@ -18,7 +18,7 @@ title: мбsendmail
 mb_send_mail(    string $to,    string $subject,    string $message,    array|string $additional_headers = [],    ?string $additional_params = null): bool
 ```
 
-Надсилає повідомлення електронної пошти. Заголовки та повідомлення перетворюються та кодуються відповідно до налаштування [мбlanguage()](function.mb-language.html). Це обгортка для функції [mail()](function.mail.md), так що варто ознайомитись і з описом функції [mail()](function.mail.md)
+Надсилає повідомлення електронної пошти. Заголовки та повідомлення перетворюються та кодуються відповідно до налаштування [мбlanguage()](function.mb-language.md). Це обгортка для функції [mail()](function.mail.md), так що варто ознайомитись і з описом функції [mail()](function.mail.md)
 
 ### Список параметрів
 
@@ -50,7 +50,7 @@ mb_send_mail(    string $to,    string $subject,    string $message,
 
 > **Зауваження**
 > 
-> Якщо лист не діставався, спробуйте використати тільки LF (n). Деякі Unix поштові агенти (в першу чергу [» qmail](http://cr.yp.to/qmail.html)) замінюють LF на CRLF автоматично (що призводить до дублювання CR при використанні CRLF). Це єдине рішення, оскільки ця поведінка не відповідає [» RFC 2822](http://www.faqs.org/rfcs/rfc2822)
+> Якщо лист не діставався, спробуйте використати тільки LF (n). Деякі Unix поштові агенти (в першу чергу [» qmail](http://cr.yp.to/qmail.md)) замінюють LF на CRLF автоматично (що призводить до дублювання CR при використанні CRLF). Це єдине рішення, оскільки ця поведінка не відповідає [» RFC 2822](http://www.faqs.org/rfcs/rfc2822)
 
 `additional_params`
 
@@ -77,5 +77,5 @@ mb_send_mail(    string $to,    string $subject,    string $message,
 ### Дивіться також
 
 -   [mail()](function.mail.md) - Надсилає електронну пошту
--   [мбencodemimeheader()](function.mb-encode-mimeheader.html) - Кодує рядок для MIME-заголовка
--   [мбlanguage()](function.mb-language.html) - Встановлює/отримує поточну мову
+-   [мбencodemimeheader()](function.mb-encode-mimeheader.md) - Кодує рядок для MIME-заголовка
+-   [мбlanguage()](function.mb-language.md) - Встановлює/отримує поточну мову

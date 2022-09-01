@@ -18,11 +18,11 @@ db2connerror — Повертає рядок, який містить значе
 db2_conn_error(resource $connection = ?): string
 ```
 
-Повертає значення SQLSTATE, що становить причину, через яку остання спроба підключення до бази даних завершилася невдачею. Оскільки [db2connect()](function.db2-connect.html) повертає **`false`** у разі невдалої спроби підключення, не потрібно передавати жодних параметрів у **db2connerror()** для отримання SQLSTATE.
+Повертає значення SQLSTATE, що становить причину, через яку остання спроба підключення до бази даних завершилася невдачею. Оскільки [db2connect()](function.db2-connect.md) повертає **`false`** у разі невдалої спроби підключення, не потрібно передавати жодних параметрів у **db2connerror()** для отримання SQLSTATE.
 
 Однак, якщо з'єднання було успішним, але згодом стало недійсним, можна передати параметр `connection`, щоб отримати значення SQLSTATE для конкретного з'єднання.
 
-Щоб дізнатися, що означає SQLSTATE, можна ввести наступну команду в командному рядку DB2 Command Line Processor: **``db2 '? `sqlstate-value`'``**. Також можна викликати [db2connerrormsg()](function.db2-conn-errormsg.html), щоб отримати явне повідомлення про помилку та відповідне значення SQLCODE.
+Щоб дізнатися, що означає SQLSTATE, можна ввести наступну команду в командному рядку DB2 Command Line Processor: **``db2 '? `sqlstate-value`'``**. Також можна викликати [db2connerrormsg()](function.db2-conn-errormsg.md), щоб отримати явне повідомлення про помилку та відповідне значення SQLCODE.
 
 ### Список параметрів
 
@@ -38,7 +38,7 @@ db2_conn_error(resource $connection = ?): string
 
 **Приклад #1 Отримання SQLSTATE для невдалої спроби підключення**
 
-У цьому прикладі показано, як повернути значення SQLSTATE після навмисної передачі неприпустимих параметрів [db2connect()](function.db2-connect.html)
+У цьому прикладі показано, як повернути значення SQLSTATE після навмисної передачі неприпустимих параметрів [db2connect()](function.db2-connect.md)
 
 ```php
 <?php
@@ -57,7 +57,7 @@ SQLSTATE value: 08001
 
 ### Дивіться також
 
--   [db2connerrormsg()](function.db2-conn-errormsg.html) - Повертає останнє повідомлення про помилку підключення та значення SQLCODE
--   [db2connect()](function.db2-connect.html) - Повертає з'єднання з базою даних
--   [db2stmterror()](function.db2-stmt-error.html) - Повертає рядок, що містить SQLSTATE, повернутий SQL-оператором
--   [db2stmterrormsg()](function.db2-stmt-errormsg.html) - Повертає рядок, що містить останнє повідомлення про помилку SQL-виразу
+-   [db2connerrormsg()](function.db2-conn-errormsg.md) - Повертає останнє повідомлення про помилку підключення та значення SQLCODE
+-   [db2connect()](function.db2-connect.md) - Повертає з'єднання з базою даних
+-   [db2stmterror()](function.db2-stmt-error.md) - Повертає рядок, що містить SQLSTATE, повернутий SQL-оператором
+-   [db2stmterrormsg()](function.db2-stmt-errormsg.md) - Повертає рядок, що містить останнє повідомлення про помилку SQL-виразу

@@ -28,7 +28,7 @@ openssl_encrypt(    string $data,    string $cipher_algo,    string 
 
 `cipher_algo`
 
-Метод шифрування. Список доступних методів можна отримати за допомогою функції [opensslgetciphermethods()](function.openssl-get-cipher-methods.html)
+Метод шифрування. Список доступних методів можна отримати за допомогою функції [opensslgetciphermethods()](function.openssl-get-cipher-methods.md)
 
 `passphrase`
 
@@ -122,4 +122,4 @@ if (hash_equals($hmac, $calcmac))// сравнение, не подверж
 
 ### Дивіться також
 
--   [openssldecrypt()](function.openssl-decrypt.html) - Розшифровує дані
+-   [openssldecrypt()](function.openssl-decrypt.md) - Розшифровує дані

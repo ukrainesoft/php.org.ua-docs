@@ -76,6 +76,6 @@ echo $doc->saveXML();
 
 ### Дивіться також
 
--   [DOMChildNode::remove()](domchildnode.remove.html) - видаляє вузол
--   [DOMNode::appendChild()](domnode.appendchild.html) - Додає новий дочірній вузол до кінця списку нащадків
--   [DOMNode::replaceChild()](domnode.replacechild.html) - Замінює дочірній вузол
+-   [DOMChildNode::remove()](domchildnode.remove.md) - видаляє вузол
+-   [DOMNode::appendChild()](domnode.appendchild.md) - Додає новий дочірній вузол до кінця списку нащадків
+-   [DOMNode::replaceChild()](domnode.replacechild.md) - Замінює дочірній вузол

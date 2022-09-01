@@ -64,4 +64,4 @@ if (!posix_mknod($file, $type | $permissions, $major, $minor)) {
 
 ### Дивіться також
 
--   [posixmkfifo()](function.posix-mkfifo.html) - Створює спеціальний fifo файл (іменований канал-pipe)
+-   [posixmkfifo()](function.posix-mkfifo.md) - Створює спеціальний fifo файл (іменований канал-pipe)

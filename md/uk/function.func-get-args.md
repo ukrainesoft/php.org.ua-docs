@@ -20,7 +20,7 @@ func_get_args(): array
 
 Отримує масив, що містить аргументи функції.
 
-Ця функція може бути використана спільно з [funcnumargs()](function.func-num-args.html) і [funcgetarg()](function.func-get-arg.html) для створення функцій із змінною кількістю аргументів.
+Ця функція може бути використана спільно з [funcnumargs()](function.func-num-args.html) і [funcgetarg()](function.func-get-arg.md) для створення функцій із змінною кількістю аргументів.
 
 ### Список параметрів
 
@@ -118,6 +118,6 @@ byRef($arg);
 ### Дивіться також
 
 -   [Синтаксис](functions.arguments.html#functions.variable-arg-list)
--   [funcgetarg()](function.func-get-arg.html)
--   [funcnumargs()](function.func-num-args.html)
+-   [funcgetarg()](function.func-get-arg.md)
+-   [funcnumargs()](function.func-num-args.md)
 -   [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.md)

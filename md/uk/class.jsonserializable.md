@@ -12,7 +12,7 @@ title: Інтерфейс JsonSerializable
 
 ## Вступ
 
-Об'єкти, що реалізують інтерфейс **JsonSerializable**, можуть модифікувати своє JSON-подання при кодуванні за допомогою [jsonencode()](function.json-encode.html)
+Об'єкти, що реалізують інтерфейс **JsonSerializable**, можуть модифікувати своє JSON-подання при кодуванні за допомогою [jsonencode()](function.json-encode.md)
 
 ## Огляд інтерфейсів
 

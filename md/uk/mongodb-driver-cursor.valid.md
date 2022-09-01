@@ -28,4 +28,4 @@ public MongoDB\Driver\Cursor::valid(): bool
 
 ### Дивіться також
 
--   [Iterator::valid()](iterator.valid.html) - Перевіряє коректність поточної позиції
+-   [Iterator::valid()](iterator.valid.md) - Перевіряє коректність поточної позиції

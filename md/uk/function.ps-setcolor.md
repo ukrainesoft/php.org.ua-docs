@@ -24,7 +24,7 @@ ps_setcolor(    resource $psdoc,    string $type,    string $colorsp
 
 `psdoc`
 
-Ідентифікатор ресурсу PostScript-файлу, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу PostScript-файлу, повернутий функцією [псnew()](function.ps-new.md)
 
 `type`
 

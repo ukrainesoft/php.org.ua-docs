@@ -104,23 +104,23 @@ public IteratorIterator::valid(): bool
 
 **`RegexIterator::ALL_MATCHES`**
 
-Повертати всі збіги для поточного запису (дивіться [pregmatchall()](function.preg-match-all.html)
+Повертати всі збіги для поточного запису (дивіться [pregmatchall()](function.preg-match-all.md)
 
 **`RegexIterator::GET_MATCH`**
 
-Повертати перший збіг для поточного запису (дивіться [pregmatch()](function.preg-match.html)
+Повертати перший збіг для поточного запису (дивіться [pregmatch()](function.preg-match.md)
 
 **`RegexIterator::MATCH`**
 
-Тільки виконання порівняння (фільтра) для поточного запису (дивіться [pregmatch()](function.preg-match.html)
+Тільки виконання порівняння (фільтра) для поточного запису (дивіться [pregmatch()](function.preg-match.md)
 
 **`RegexIterator::REPLACE`**
 
-Замінити поточний запис (дивіться [pregreplace()](function.preg-replace.html); Повністю поки що не реалізовано)
+Замінити поточний запис (дивіться [pregreplace()](function.preg-replace.md); Повністю поки що не реалізовано)
 
 **`RegexIterator::SPLIT`**
 
-Повертати розділені значення для поточного запису (див. [pregsplit()](function.preg-split.html)
+Повертати розділені значення для поточного запису (див. [pregsplit()](function.preg-split.md)
 
 ## Прапори RegexIterator
 

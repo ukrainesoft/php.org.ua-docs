@@ -24,11 +24,11 @@ imap_reopen(    IMAP\Connection $imap,    string $mailbox,    int $f
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `mailbox`
 
-Ім'я поштової скриньки. Докладніше читайте у розділі про функцію [imapopen()](function.imap-open.html)
+Ім'я поштової скриньки. Докладніше читайте у розділі про функцію [imapopen()](function.imap-open.md)
 
 **Увага**
 
@@ -42,7 +42,7 @@ imap_reopen(    IMAP\Connection $imap,    string $mailbox,    int $f
 -   **`OP_ANONYMOUS`** - не використовувати та не оновлювати .newsrc для новин (тільки NNTP)
 -   **`OP_HALFOPEN`** - відкрити з'єднання, але не підключатися до поштової скриньки для IMAP і NNTP.
 -   **`OP_EXPUNGE`** - мовчки виконати видалення позначених для видалення повідомлень у потоці
--   **`CL_EXPUNGE`** - автоматично видаляти всі позначені для видалення повідомлення під час закриття поштової скриньки (див. [imapdelete()](function.imap-delete.html) і [imapexpunge()](function.imap-expunge.html)
+-   **`CL_EXPUNGE`** - автоматично видаляти всі позначені для видалення повідомлення під час закриття поштової скриньки (див. [imapdelete()](function.imap-delete.html) і [imapexpunge()](function.imap-expunge.md)
 
 `retries`
 
@@ -56,7 +56,7 @@ imap_reopen(    IMAP\Connection $imap,    string $mailbox,    int $f
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

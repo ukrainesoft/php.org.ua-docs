@@ -24,7 +24,7 @@ socket_send(    Socket $socket,    string $data,    int $length,  
 
 `socket`
 
-Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
+Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.md)
 
 `data`
 
@@ -52,4 +52,4 @@ socket_send(    Socket $socket,    string $data,    int $length,  
 
 ### Дивіться також
 
--   [socketsendto()](function.socket-sendto.html) - Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
+-   [socketsendto()](function.socket-sendto.md) - Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні

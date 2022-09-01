@@ -70,7 +70,7 @@ controls
 
 ## Зміст
 
--   [ОЙControlsForm::append](ui-controls-form.append.html) — Додати елемент керування
--   [ОЙControlsForm::delete](ui-controls-form.delete.html) — Видалити елемент керування
--   [ОЙControlsForm::isPadded](ui-controls-form.ispadded.html) - Визначення заповнення
--   [ОЙControlsForm::setPadded](ui-controls-form.setpadded.html) - Встановити заповнення
+-   [ОЙControlsForm::append](ui-controls-form.append.md) — Додати елемент керування
+-   [ОЙControlsForm::delete](ui-controls-form.delete.md) — Видалити елемент керування
+-   [ОЙControlsForm::isPadded](ui-controls-form.ispadded.md) - Визначення заповнення
+-   [ОЙControlsForm::setPadded](ui-controls-form.setpadded.md) - Встановити заповнення

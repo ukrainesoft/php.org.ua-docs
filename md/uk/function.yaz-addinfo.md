@@ -20,13 +20,13 @@ yaz_addinfo(resource $id): string
 
 Повертає додаткову інформацію у разі виникнення помилки останнього запиту до сервера.
 
-З деякими серверами ця функція може повернути той самий рядок, що і функція [yazerror()](function.yaz-error.html)
+З деякими серверами ця функція може повернути той самий рядок, що і функція [yazerror()](function.yaz-error.md)
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, що повертається функцією [yazconnect()](function.yaz-connect.html)
+Дескриптор з'єднання, що повертається функцією [yazconnect()](function.yaz-connect.md)
 
 ### Значення, що повертаються
 
@@ -34,5 +34,5 @@ yaz_addinfo(resource $id): string
 
 ### Дивіться також
 
--   [yazerror()](function.yaz-error.html) - Повертає опис помилки
--   [yazerrno()](function.yaz-errno.html) - Повертає номер помилки
+-   [yazerror()](function.yaz-error.md) - Повертає опис помилки
+-   [yazerrno()](function.yaz-errno.md) - Повертає номер помилки

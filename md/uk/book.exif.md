@@ -8,16 +8,16 @@ title: 'Інформація, що змінюється про зображен�
 ---
 # Інформація, що змінюється про зображення
 
--   [Введение](intro.exif.html)
--   [Встановлення та налаштування](exif.setup.html)
-    -   [Вимоги](exif.requirements.html)
-    -   [Установка](exif.installation.html)
-    -   [Налаштування під час виконання](exif.configuration.html)
-    -   [Типи ресурсів](exif.resources.html)
--   [Обумовлені константи](exif.constants.html)
--   [Exif Функції](ref.exif.html)
-    -   [exifimagetype](function.exif-imagetype.html) — Determine the type of an image
-    -   [exifreaddata](function.exif-read-data.html) — Читає заголовки EXIF ​​із файлів зображень
-    -   [exiftagname](function.exif-tagname.html) — Отримання імені заголовка за його індексом
-    -   [exifthumbnail](function.exif-thumbnail.html) — Отримує вбудоване прев'ю зображення
-    -   [readexifdata](function.read-exif-data.html) - Псевдонім exifreaddata
+-   [Введение](intro.exif.md)
+-   [Встановлення та налаштування](exif.setup.md)
+    -   [Вимоги](exif.requirements.md)
+    -   [Установка](exif.installation.md)
+    -   [Налаштування під час виконання](exif.configuration.md)
+    -   [Типи ресурсів](exif.resources.md)
+-   [Обумовлені константи](exif.constants.md)
+-   [Exif Функції](ref.exif.md)
+    -   [exifimagetype](function.exif-imagetype.md) — Determine the type of an image
+    -   [exifreaddata](function.exif-read-data.md) — Читає заголовки EXIF ​​із файлів зображень
+    -   [exiftagname](function.exif-tagname.md) — Отримання імені заголовка за його індексом
+    -   [exifthumbnail](function.exif-thumbnail.md) — Отримує вбудоване прев'ю зображення
+    -   [readexifdata](function.read-exif-data.md) - Псевдонім exifreaddata

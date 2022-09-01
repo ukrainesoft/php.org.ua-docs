@@ -50,4 +50,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getLine()](throwable.getline.html) - Отримує рядок скрипта, в якому цей об'єкт було викинуто
+-   [Throwable::getLine()](throwable.getline.md) - Отримує рядок скрипта, в якому цей об'єкт було викинуто

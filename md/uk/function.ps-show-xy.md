@@ -24,7 +24,7 @@ ps_show_xy(    resource $psdoc,    string $text,    float $x,   �
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `text`
 
@@ -44,5 +44,5 @@ ps_show_xy(    resource $psdoc,    string $text,    float $x,   �
 
 ### Дивіться також
 
--   [псcontinuetext()](function.ps-continue-text.html) - Продовжує текст у наступному рядку
--   [псshow()](function.ps-show.html) - Виводить текст
+-   [псcontinuetext()](function.ps-continue-text.md) - Продовжує текст у наступному рядку
+-   [псshow()](function.ps-show.md) - Виводить текст

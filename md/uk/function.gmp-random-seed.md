@@ -22,7 +22,7 @@ gmp_random_seed(GMP|int|string $seed): void
 
 `seed`
 
-Початковий стан для функцій [gmprandom()](function.gmp-random.html) [gmprandombits()](function.gmp-random-bits.html) і [gmprandomrange()](function.gmp-random-range.html)
+Початковий стан для функцій [gmprandom()](function.gmp-random.html) [gmprandombits()](function.gmp-random-bits.html) і [gmprandomrange()](function.gmp-random-range.md)
 
 Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
@@ -66,7 +66,7 @@ bool(false)
 
 ### Дивіться також
 
--   [gmpinit()](function.gmp-init.html) - Створення GMP числа
--   [gmprandom()](function.gmp-random.html) - Випадкове число
--   [gmprandombits()](function.gmp-random-bits.html) - Випадкове число
--   [gmprandomrange()](function.gmp-random-range.html) - Випадкове число
+-   [gmpinit()](function.gmp-init.md) - Створення GMP числа
+-   [gmprandom()](function.gmp-random.md) - Випадкове число
+-   [gmprandombits()](function.gmp-random-bits.md) - Випадкове число
+-   [gmprandomrange()](function.gmp-random-range.md) - Випадкове число

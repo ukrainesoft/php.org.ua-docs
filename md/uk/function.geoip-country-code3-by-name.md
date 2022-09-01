@@ -53,5 +53,5 @@ if ($country) {
 
 ### Дивіться також
 
--   [geoipcountrycodeбname()](function.geoip-country-code-by-name.html) - Отримати двосимвольний код країни
--   [geoipcountrynameбname()](function.geoip-country-name-by-name.html) - Отримати повну назву країни
+-   [geoipcountrycodeбname()](function.geoip-country-code-by-name.md) - Отримати двосимвольний код країни
+-   [geoipcountrynameбname()](function.geoip-country-name-by-name.md) - Отримати повну назву країни

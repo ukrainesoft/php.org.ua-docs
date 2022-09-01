@@ -107,4 +107,4 @@ Array
 
 ### Дивіться також
 
--   [arrayslice()](function.array-slice.html) - Вибирає зріз масиву
+-   [arrayslice()](function.array-slice.md) - Вибирає зріз масиву

@@ -28,15 +28,15 @@ public mysqli::real_query(string $query): bool
 mysqli_real_query(mysqli $mysql, string $query): bool
 ```
 
-Виконує одиночний запит до бази даних, результати якого можна отримати або використовувати функціями [mysqlistoreresult()](mysqli.store-result.html) або [mysqliuseresult()](mysqli.use-result.html)
+Виконує одиночний запит до бази даних, результати якого можна отримати або використовувати функціями [mysqlistoreresult()](mysqli.store-result.html) або [mysqliuseresult()](mysqli.use-result.md)
 
-Щоб визначити, чи має запит повертати результуючий набір, дивіться [mysqlifieldcount()](mysqli.field-count.html)
+Щоб визначити, чи має запит повертати результуючий набір, дивіться [mysqlifieldcount()](mysqli.field-count.md)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
 
 `query`
 
@@ -46,7 +46,7 @@ mysqli_real_query(mysqli $mysql, string $query): bool
 
 # Попередження безпеки: SQL-ін'єкція
 
-Якщо запит містить будь-які вхідні змінні, натомість слід використовувати [запити, що готуються](mysqli.quickstart.prepared-statements.html). Як альтернатива дані повинні бути правильно відформатовані і всі рядки повинні бути екрановані за допомогою функції [mysqlirealescapestring()](mysqli.real-escape-string.html)
+Якщо запит містить будь-які вхідні змінні, натомість слід використовувати [запити, що готуються](mysqli.quickstart.prepared-statements.html). Як альтернатива дані повинні бути правильно відформатовані і всі рядки повинні бути екрановані за допомогою функції [mysqlirealescapestring()](mysqli.real-escape-string.md)
 
 ### Значення, що повертаються
 
@@ -54,6 +54,6 @@ mysqli_real_query(mysqli $mysql, string $query): bool
 
 ### Дивіться також
 
--   [mysqliquery()](mysqli.query.html) - Виконує запит до бази даних
--   [mysqlistoreresult()](mysqli.store-result.html) - передає на клієнта результуючий набір останнього запиту
--   [mysqliuseresult()](mysqli.use-result.html) - Готує результуючий набір на сервері для використання
+-   [mysqliquery()](mysqli.query.md) - Виконує запит до бази даних
+-   [mysqlistoreresult()](mysqli.store-result.md) - передає на клієнта результуючий набір останнього запиту
+-   [mysqliuseresult()](mysqli.use-result.md) - Готує результуючий набір на сервері для використання

@@ -28,7 +28,7 @@ enchant_broker_free_dict(EnchantDictionary $dictionary): bool
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
 
 ### Значення, що повертаються
 
@@ -42,5 +42,5 @@ enchant_broker_free_dict(EnchantDictionary $dictionary): bool
 
 ### Дивіться також
 
--   [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) - Створити новий словник, використовуючи тег
--   [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html) - Створити словник, використовуючи файл PWL
+-   [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) - Створити новий словник, використовуючи тег
+-   [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md) - Створити словник, використовуючи файл PWL

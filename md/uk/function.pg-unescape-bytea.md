@@ -57,5 +57,5 @@ pg_unescape_bytea(string $string): string
 
 ### Дивіться також
 
--   [пгescapebytea()](function.pg-escape-bytea.html) - Екранує спецсимволи у рядку для вставки у поле типу bytea
--   [пгescapestring()](function.pg-escape-string.html) - Екранування спецсимволів у рядку запиту
+-   [пгescapebytea()](function.pg-escape-bytea.md) - Екранує спецсимволи у рядку для вставки у поле типу bytea
+-   [пгescapestring()](function.pg-escape-string.md) - Екранування спецсимволів у рядку запиту

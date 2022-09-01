@@ -286,9 +286,9 @@ Array
 ### Дивіться також
 
 -   "[Регулярні вирази PCRE](pcre.pattern.md)"
--   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
--   [pregmatchall()](function.preg-match-all.html) - Виконує глобальний пошук шаблону у рядку
--   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
--   [pregsplit()](function.preg-split.html) - Розбиває рядок за регулярним виразом
--   [preglasterror()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE
--   [preglasterrormsg()](function.preg-last-error-msg.html) - Повертає повідомлення про помилку останньої запущеної функції PCRE
+-   [pregquote()](function.preg-quote.md) - Екранує символи у регулярних виразах
+-   [pregmatchall()](function.preg-match-all.md) - Виконує глобальний пошук шаблону у рядку
+-   [pregreplace()](function.preg-replace.md) - Виконує пошук та заміну за регулярним виразом
+-   [pregsplit()](function.preg-split.md) - Розбиває рядок за регулярним виразом
+-   [preglasterror()](function.preg-last-error.md) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   [preglasterrormsg()](function.preg-last-error-msg.md) - Повертає повідомлення про помилку останньої запущеної функції PCRE

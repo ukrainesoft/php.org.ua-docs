@@ -36,4 +36,4 @@ fann_set_cascade_candidate_change_fraction(resource $ann, float $cascade_candida
 
 ### Дивіться також
 
--   [fanngetcascadecandidatechangefraction()](function.fann-get-cascade-candidate-change-fraction.html) - Повертає частку зміни каскаду кандидата
+-   [fanngetcascadecandidatechangefraction()](function.fann-get-cascade-candidate-change-fraction.md) - Повертає частку зміни каскаду кандидата

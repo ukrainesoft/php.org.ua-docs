@@ -20,7 +20,7 @@ fdf_errno(): int
 
 Отримує код помилки, встановлений останнім викликом функції FDF.
 
-Текстовий опис помилки можна отримати за допомогою [fdferror()](function.fdf-error.html)
+Текстовий опис помилки можна отримати за допомогою [fdferror()](function.fdf-error.md)
 
 ### Список параметрів
 
@@ -32,4 +32,4 @@ fdf_errno(): int
 
 ### Дивіться також
 
--   [fdferror()](function.fdf-error.html) - Повертає опис помилки для коду помилки FDF
+-   [fdferror()](function.fdf-error.md) - Повертає опис помилки для коду помилки FDF

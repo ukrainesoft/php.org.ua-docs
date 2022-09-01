@@ -18,7 +18,7 @@ MongoDBDriverCursorInterface::toArray — Повернути всі резуль
 abstract public MongoDB\Driver\CursorInterface::toArray(): array
 ```
 
-Ітерує курсор та повертає результати у вигляді масиву. Для контролю десеріалізації типи PHP можна використовувати [MongoDBDriverCursorInterface::setTypeMap()](mongodb-driver-cursorinterface.settypemap.html)
+Ітерує курсор та повертає результати у вигляді масиву. Для контролю десеріалізації типи PHP можна використовувати [MongoDBDriverCursorInterface::setTypeMap()](mongodb-driver-cursorinterface.settypemap.md)
 
 ### Список параметрів
 
@@ -30,9 +30,9 @@ abstract public MongoDB\Driver\CursorInterface::toArray(): array
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverCursor::toArray()](mongodb-driver-cursor.toarray.html) - Повертає масив, що містить усі результати курсору
--   [MongoDBDriverCursorInterface::setTypeMap()](mongodb-driver-cursorinterface.settypemap.html) - Задати порівняння типів для десеріалізації BSON
+-   [MongoDBDriverCursor::toArray()](mongodb-driver-cursor.toarray.md) - Повертає масив, що містить усі результати курсору
+-   [MongoDBDriverCursorInterface::setTypeMap()](mongodb-driver-cursorinterface.settypemap.md) - Задати порівняння типів для десеріалізації BSON

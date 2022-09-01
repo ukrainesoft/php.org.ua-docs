@@ -110,6 +110,6 @@ public setChannel(int $channel, float $value): void
 
 ## Зміст
 
--   [ОЙDrawColor::construct](ui-draw-color.construct.html) — Створити новий об'єкт Color
--   [ОЙDrawColor::getChannel](ui-draw-color.getchannel.html) - Управління кольором
--   [ОЙDrawColor::setChannel](ui-draw-color.setchannel.html) - Управління кольором
+-   [ОЙDrawColor::construct](ui-draw-color.construct.md) — Створити новий об'єкт Color
+-   [ОЙDrawColor::getChannel](ui-draw-color.getchannel.md) - Управління кольором
+-   [ОЙDrawColor::setChannel](ui-draw-color.setchannel.md) - Управління кольором

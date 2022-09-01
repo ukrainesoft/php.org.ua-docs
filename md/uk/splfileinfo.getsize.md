@@ -30,8 +30,8 @@ public SplFileInfo::getSize(): int|false
 
 ### Помилки
 
-Буде викинуто виняток [RuntimeException](class.runtimeexception.html)якщо файл не існує або виникла помилка.
+Буде викинуто виняток [RuntimeException](class.runtimeexception.md)якщо файл не існує або виникла помилка.
 
 ### Дивіться також
 
--   [filesize()](function.filesize.html) - Повертає розмір файлу
+-   [filesize()](function.filesize.md) - Повертає розмір файлу

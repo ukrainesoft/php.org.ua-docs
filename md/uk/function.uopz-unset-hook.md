@@ -64,5 +64,5 @@ foo
 
 ### Дивіться також
 
--   [uopzsethook()](function.uopz-set-hook.html) - Встановлює обробник для виконання під час виклику функції або методу
--   [uopzgethook()](function.uopz-get-hook.html) - отримує раніше встановлений обробник на функцію або метод
+-   [uopzsethook()](function.uopz-set-hook.md) - Встановлює обробник для виконання під час виклику функції або методу
+-   [uopzgethook()](function.uopz-get-hook.md) - отримує раніше встановлений обробник на функцію або метод

@@ -55,5 +55,5 @@ svn_auth_set_parameter(SVN_AUTH_PARAM_DEFAULT_PASSWORD, 'abc123');
 
 ### Дивіться також
 
--   [svnauthgetparameter()](function.svn-auth-get-parameter.html) - Повертає параметр автентифікації
+-   [svnauthgetparameter()](function.svn-auth-get-parameter.md) - Повертає параметр автентифікації
 -   [Константи аутентифікації](svn.constants.html#svn.constants.auth)

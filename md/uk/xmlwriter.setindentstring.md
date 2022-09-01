@@ -34,7 +34,7 @@ xmlwriter_set_indent_string(XMLWriter $writer, string $indentation): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `indentString`
 
@@ -48,7 +48,7 @@ xmlwriter_set_indent_string(XMLWriter $writer, string $indentation): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Примітки
 
@@ -58,4 +58,4 @@ xmlwriter_set_indent_string(XMLWriter $writer, string $indentation): bool
 
 ### Дивіться також
 
--   [XMLWriter::setIndent()](xmlwriter.setindent.html) - Увімкнути або вимкнути відступи
+-   [XMLWriter::setIndent()](xmlwriter.setindent.md) - Увімкнути або вимкнути відступи

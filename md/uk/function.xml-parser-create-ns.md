@@ -43,5 +43,5 @@ xml_parser_create_ns(?string $encoding = null, string $separator = ":"): XMLPars
 
 ### Дивіться також
 
--   [xmlparsercreate()](function.xml-parser-create.html) - Створення XML-аналізатора
--   [xmlparserfree()](function.xml-parser-free.html) - Звільнення XML-аналізатора
+-   [xmlparsercreate()](function.xml-parser-create.md) - Створення XML-аналізатора
+-   [xmlparserfree()](function.xml-parser-free.md) - Звільнення XML-аналізатора

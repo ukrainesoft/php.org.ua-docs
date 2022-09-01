@@ -86,9 +86,9 @@ Array
 
 ### Дивіться також
 
--   [outputresetrewritevars()](function.output-reset-rewrite-vars.html) - Скинути значення обробника URL
--   [проflush()](function.ob-flush.html) - Скинути (надіслати) буфер виводу
--   [проlisthandlers()](function.ob-list-handlers.html) - Список всіх використовуваних обробників виводу
+-   [outputresetrewritevars()](function.output-reset-rewrite-vars.md) - Скинути значення обробника URL
+-   [проflush()](function.ob-flush.md) - Скинути (надіслати) буфер виводу
+-   [проlisthandlers()](function.ob-list-handlers.md) - Список всіх використовуваних обробників виводу
 -   [urlrewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags)
 -   [urlrewriter.hosts](outcontrol.configuration.html#ini.url-rewriter.hosts)
 -   [session.transsidtags](session.configuration.html#ini.session.trans-sid-tags)

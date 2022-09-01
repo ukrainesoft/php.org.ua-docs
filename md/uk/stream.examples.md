@@ -10,9 +10,9 @@ title: Приклади
 
 ## Зміст
 
--   [Приклад класу, зареєстрованого як обгортка потоку](stream.streamwrapper.example-1.html)
+-   [Приклад класу, зареєстрованого як обгортка потоку](stream.streamwrapper.example-1.md)
 
-**Приклад #1 Використання [filegetcontents()](function.file-get-contents.html) для отримання даних із різних джерел**
+**Приклад #1 Використання [filegetcontents()](function.file-get-contents.md) для отримання даних із різних джерел**
 
 ```php
 <?php

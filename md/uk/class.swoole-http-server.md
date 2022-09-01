@@ -84,5 +84,5 @@ public Swoole\Server::tick(int $interval_ms, callable $callback): void
 
 ## Зміст
 
--   [SwooleHttpServer::on](swoole-http-server.on.html) — Прив'язує callback-функцію до HTTP-сервера на ім'я події
--   [SwooleHttpServer::start](swoole-http-server.start.html) - Запускає http-сервер swoole
+-   [SwooleHttpServer::on](swoole-http-server.on.md) — Прив'язує callback-функцію до HTTP-сервера на ім'я події
+-   [SwooleHttpServer::start](swoole-http-server.start.md) - Запускає http-сервер swoole

@@ -10,4 +10,4 @@ title: Приклади
 
 ## Зміст
 
--   [Простое использование](ftp.examples-basic.html)
+-   [Простое использование](ftp.examples-basic.md)

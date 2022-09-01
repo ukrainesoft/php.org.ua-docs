@@ -24,7 +24,7 @@ ssh2_send_eof(resource $channel): bool
 
 `channel`
 
-Потік SSH; можна отримати за допомогою таких функцій, як [ssh2fetchstream()](function.ssh2-fetch-stream.html) або [ssh2connect()](function.ssh2-connect.html)
+Потік SSH; можна отримати за допомогою таких функцій, як [ssh2fetchstream()](function.ssh2-fetch-stream.html) або [ssh2connect()](function.ssh2-connect.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ ssh2_send_eof(resource $channel): bool
 
 ### Дивіться також
 
--   [ssh2fetchstream()](function.ssh2-fetch-stream.html) - отримання розширеного потоку даних
+-   [ssh2fetchstream()](function.ssh2-fetch-stream.md) - отримання розширеного потоку даних

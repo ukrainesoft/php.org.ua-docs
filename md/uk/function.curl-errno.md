@@ -24,7 +24,7 @@ curl_errno(CurlHandle $handle): int
 
 `handle`
 
-Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
 
 ### Значення, що повертаються
 
@@ -34,7 +34,7 @@ curl_errno(CurlHandle $handle): int
 
 | Версия | Описание |
 | --- | --- |
-|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -62,5 +62,5 @@ curl_close($ch);
 
 ### Дивіться також
 
--   [curlerror()](function.curl-error.html) - Повертає рядок із описом останньої помилки поточного сеансу
--   [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+-   [curlerror()](function.curl-error.md) - Повертає рядок із описом останньої помилки поточного сеансу
+-   [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)

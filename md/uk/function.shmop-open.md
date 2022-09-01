@@ -72,5 +72,5 @@ $shm_id = shmop_open($shm_key, "c", 0644, 100);
 
 ### Дивіться також
 
--   [shmopclose()](function.shmop-close.html) - Закриття блоку пам'яті, що розділяється
--   [shmopdelete()](function.shmop-delete.html) - Видалення блоку пам'яті, що розділяється
+-   [shmopclose()](function.shmop-close.md) - Закриття блоку пам'яті, що розділяється
+-   [shmopdelete()](function.shmop-delete.md) - Видалення блоку пам'яті, що розділяється

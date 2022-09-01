@@ -10,9 +10,9 @@ title: Нові функції
 
 ### Ядро PHP
 
--   [getmangledobjectvars()](function.get-mangled-object-vars.html)
--   [passwordalgos()](function.password-algos.html)
--   [sapiwindowssetctrlhandler()](function.sapi-windows-set-ctrl-handler.html)
+-   [getmangledobjectvars()](function.get-mangled-object-vars.md)
+-   [passwordalgos()](function.password-algos.md)
+-   [sapiwindowssetctrlhandler()](function.sapi-windows-set-ctrl-handler.md)
 
 ### ДД
 
@@ -20,15 +20,15 @@ title: Нові функції
 
 ### Багатобайтові рядки
 
--   [мбstrsplit()](function.mb-str-split.html)
+-   [мбstrsplit()](function.mb-str-split.md)
 
 ### OpenSSL
 
--   [opensslx509verify()](function.openssl-x509-verify.html)
+-   [opensslx509verify()](function.openssl-x509-verify.md)
 
 ### Управління процесами
 
--   [pcntlunshare()](function.pcntl-unshare.html)
+-   [pcntlunshare()](function.pcntl-unshare.md)
 
 ### SQLite3
 

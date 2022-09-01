@@ -28,7 +28,7 @@ public
 
 `callback`
 
-Дивіться [callback-функції спостерігачів](ev.watcher-callbacks.html)
+Дивіться [callback-функції спостерігачів](ev.watcher-callbacks.md)
 
 ### Значення, що повертаються
 

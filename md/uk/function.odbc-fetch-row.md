@@ -18,7 +18,7 @@ odbcfetchrow — Повертає рядок
 odbc_fetch_row(resource $statement, ?int $row = null): bool
 ```
 
-Вибирає рядок із даних, які були повернуті [odbcdo()](function.odbc-do.html) або [odbcexec()](function.odbc-exec.html). Після виклику **odbcfetchrow()** до полів цього рядка можна отримати доступ за допомогою [odbcresult()](function.odbc-result.html)
+Вибирає рядок із даних, які були повернуті [odbcdo()](function.odbc-do.html) або [odbcexec()](function.odbc-exec.html). Після виклику **odbcfetchrow()** до полів цього рядка можна отримати доступ за допомогою [odbcresult()](function.odbc-result.md)
 
 ### Список параметрів
 

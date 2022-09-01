@@ -18,7 +18,7 @@ YafViewSimple::set - Встановлює значення для движка
 public Yaf_View_Simple::__set(string $name, mixed $value): void
 ```
 
-Альтернативний і простий спосіб [YafViewSimple::assign()](yaf-view-simple.assign.html)
+Альтернативний і простий спосіб [YafViewSimple::assign()](yaf-view-simple.assign.md)
 
 ### Список параметрів
 
@@ -48,5 +48,5 @@ class IndexController extends Yaf_Controller_Abstract {
 
 ### Дивіться також
 
--   [YafViewSimple::assignRef()](yaf-view-simple.assignref.html) - Призначення assignRef
--   [YafViewInterface::assign()](yaf-view-interface.assign.html) - Призначає значення для движка відображення
+-   [YafViewSimple::assignRef()](yaf-view-simple.assignref.md) - Призначення assignRef
+-   [YafViewInterface::assign()](yaf-view-interface.assign.md) - Призначає значення для движка відображення

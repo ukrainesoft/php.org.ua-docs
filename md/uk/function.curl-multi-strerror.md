@@ -24,7 +24,7 @@ curl_multi_strerror(int $error_code): ?string
 
 `error_code`
 
-Одна та констант [» кодов ошибок CURLM](http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+Одна та констант [» кодов ошибок CURLM](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
 
 ### Значення, що повертаються
 
@@ -65,5 +65,5 @@ if ($status != CURLM_OK) {
 
 ### Дивіться також
 
--   [curlstrerror()](function.curl-strerror.html) - Отримати текстовий опис для коду помилки
--   [» коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+-   [curlstrerror()](function.curl-strerror.md) - Отримати текстовий опис для коду помилки
+-   [» коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)

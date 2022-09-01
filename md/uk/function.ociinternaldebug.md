@@ -10,11 +10,11 @@ title: ociinternaldebug
 
 (PHP 4, PHP 5, PHP 7, PECL OCI8 >= 1.0.0, PECL OCI8 <= 2.2.0)
 
-ociinternaldebug - Псевдонім [ociinternaldebug()](function.oci-internal-debug.html)
+ociinternaldebug - Псевдонім [ociinternaldebug()](function.oci-internal-debug.md)
 
 ### Опис
 
-Псевдонім [ociinternaldebug()](function.oci-internal-debug.html)
+Псевдонім [ociinternaldebug()](function.oci-internal-debug.md)
 
 **Увага**
 

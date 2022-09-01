@@ -57,11 +57,11 @@ string(69) "PHP is a popular scripting language\. Fast, flexible, and pragmatic\
 
 ### Дивіться також
 
--   [addslashes()](function.addslashes.html) - Екранує рядок за допомогою слішів
--   [addcslashes()](function.addcslashes.html) - Екранує рядок слішами у стилі мови C
--   [htmlentities()](function.htmlentities.html) - Перетворює всі можливі символи у відповідні HTML-сутності
--   [htmlspecialchars()](function.htmlspecialchars.html) - Перетворює спеціальні символи на HTML-сутності
--   [nl2br()](function.nl2br.html) - Вставляє HTML код розриву рядка перед кожним перекладом рядка
--   [stripslashes()](function.stripslashes.html) - Видаляє екранування символів
--   [stripcslashes()](function.stripcslashes.html) - Видаляє екранування символів, зроблене функцією addcslashes
--   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
+-   [addslashes()](function.addslashes.md) - Екранує рядок за допомогою слішів
+-   [addcslashes()](function.addcslashes.md) - Екранує рядок слішами у стилі мови C
+-   [htmlentities()](function.htmlentities.md) - Перетворює всі можливі символи у відповідні HTML-сутності
+-   [htmlspecialchars()](function.htmlspecialchars.md) - Перетворює спеціальні символи на HTML-сутності
+-   [nl2br()](function.nl2br.md) - Вставляє HTML код розриву рядка перед кожним перекладом рядка
+-   [stripslashes()](function.stripslashes.md) - Видаляє екранування символів
+-   [stripcslashes()](function.stripcslashes.md) - Видаляє екранування символів, зроблене функцією addcslashes
+-   [pregquote()](function.preg-quote.md) - Екранує символи у регулярних виразах

@@ -92,7 +92,7 @@ public done(): bool
 
 ## Зміст
 
--   [parallelFuture::cancel](parallel-future.cancel.html) - Припинення
--   [parallelFuture::cancelled](parallel-future.cancelled.html) — Визначення стану
--   [parallelFuture::done](parallel-future.done.html) — Визначення стану
--   [parallelFuture::value](parallel-future.value.html) - Розширення
+-   [parallelFuture::cancel](parallel-future.cancel.md) - Припинення
+-   [parallelFuture::cancelled](parallel-future.cancelled.md) — Визначення стану
+-   [parallelFuture::done](parallel-future.done.md) — Визначення стану
+-   [parallelFuture::value](parallel-future.value.md) - Розширення

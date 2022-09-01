@@ -10,14 +10,14 @@ title: fbirdblobecho
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdblobecho - Псевдонім [ibaseblobecho()](function.ibase-blob-echo.html)
+fbirdblobecho - Псевдонім [ibaseblobecho()](function.ibase-blob-echo.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibaseblobecho()](function.ibase-blob-echo.html)
+Ця функція є псевдонімом: [ibaseblobecho()](function.ibase-blob-echo.md)
 
 ### Дивіться також
 
--   [fbirdblobopen()](function.fbird-blob-open.html) - Псевдонім ibaseblobopen
--   [fbirdblobclose()](function.fbird-blob-close.html) - Псевдонім ibaseblobclose
--   [fbirdblobget()](function.fbird-blob-get.html) - Псевдонім ibaseblobget
+-   [fbirdblobopen()](function.fbird-blob-open.md) - Псевдонім ibaseblobopen
+-   [fbirdblobclose()](function.fbird-blob-close.md) - Псевдонім ibaseblobclose
+-   [fbirdblobget()](function.fbird-blob-get.md) - Псевдонім ibaseblobget

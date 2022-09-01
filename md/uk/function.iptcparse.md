@@ -32,7 +32,7 @@ iptcparse(string $iptc_block): array|false
 
 ### Приклади
 
-**Приклад #1 iptcparse() використовується спільно з [getimagesize()](function.getimagesize.html)**
+**Приклад #1 iptcparse() використовується спільно з [getimagesize()](function.getimagesize.md)**
 
 ```php
 <?php

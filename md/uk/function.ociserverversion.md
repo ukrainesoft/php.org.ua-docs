@@ -10,11 +10,11 @@ title: ociserverversion
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ociserverversion - Псевдонім [ociserverversion()](function.oci-server-version.html)
+ociserverversion - Псевдонім [ociserverversion()](function.oci-server-version.md)
 
 ### Опис
 
-Псевдонім [ociserverversion()](function.oci-server-version.html)
+Псевдонім [ociserverversion()](function.oci-server-version.md)
 
 **Увага**
 

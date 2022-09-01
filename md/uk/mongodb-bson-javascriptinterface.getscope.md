@@ -28,4 +28,4 @@ abstract public MongoDB\BSON\JavascriptInterface::getScope(): ?object
 
 ### Дивіться також
 
--   [MongoDBBSONJavascript::getScope()](mongodb-bson-javascript.getscope.html) - Повертає область документа JavaScript
+-   [MongoDBBSONJavascript::getScope()](mongodb-bson-javascript.getscope.md) - Повертає область документа JavaScript

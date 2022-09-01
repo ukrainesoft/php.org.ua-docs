@@ -89,5 +89,5 @@ var_dump($a === $b); // bool(false)
 
 ### Дивіться також
 
--   [Масиви](language.types.array.html)
--   [Функції для роботи з масивами](ref.array.html)
+-   [Масиви](language.types.array.md)
+-   [Функції для роботи з масивами](ref.array.md)

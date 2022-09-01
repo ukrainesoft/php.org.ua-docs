@@ -110,6 +110,6 @@ Array
 ### Дивіться також
 
 -   [explode()](function.explode.md) - Розбиває рядок за допомогою роздільника
--   [pregsplit()](function.preg-split.html) - Розбиває рядок за регулярним виразом
--   [countchars()](function.count-chars.html) - Повертає інформацію про символи, що входять до рядка
--   [substrcount()](function.substr-count.html) - Повертає кількість входжень підрядка
+-   [pregsplit()](function.preg-split.md) - Розбиває рядок за регулярним виразом
+-   [countchars()](function.count-chars.md) - Повертає інформацію про символи, що входять до рядка
+-   [substrcount()](function.substr-count.md) - Повертає кількість входжень підрядка

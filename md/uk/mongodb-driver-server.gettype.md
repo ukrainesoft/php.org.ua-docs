@@ -18,7 +18,7 @@ MongoDBDriverServer::getType — Повертає ціле число, яке о
 final public MongoDB\Driver\Server::getType(): int
 ```
 
-Повертає int, що означає тип цього сервера. Значення буде відповідати константі [MongoDBDriverServer](class.mongodb-driver-server.html)
+Повертає int, що означає тип цього сервера. Значення буде відповідати константі [MongoDBDriverServer](class.mongodb-driver-server.md)
 
 ### Список параметрів
 
@@ -30,9 +30,9 @@ final public MongoDB\Driver\Server::getType(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер
--   [MongoDBDriverServerDescription::getType()](mongodb-driver-serverdescription.gettype.html) - Повертає рядок, що позначає тип сервера
+-   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.md) - Повертає масив інформації, що описує сервер
+-   [MongoDBDriverServerDescription::getType()](mongodb-driver-serverdescription.gettype.md) - Повертає рядок, що позначає тип сервера

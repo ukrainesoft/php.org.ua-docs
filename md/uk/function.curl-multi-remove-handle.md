@@ -18,17 +18,17 @@ curlmultiremovehandle — Видаляє cURL дескриптор із набо
 curl_multi_remove_handle(CurlMultiHandle $multi_handle, CurlHandle $handle): int
 ```
 
-Видаляє вказаний дескриптор `handle` із зазначеного набору дескрипторів `multi_handle`. Після того, як дескриптор `handle` видалено, його можна знову цілком легально використовувати у функції [curlexec()](function.curl-exec.html). Вилучення дескриптора `handle` під час використання також зупинить поточну передачу на цьому дескрипторі.
+Видаляє вказаний дескриптор `handle` із зазначеного набору дескрипторів `multi_handle`. Після того, як дескриптор `handle` видалено, його можна знову цілком легально використовувати у функції [curlexec()](function.curl-exec.md). Вилучення дескриптора `handle` під час використання також зупинить поточну передачу на цьому дескрипторі.
 
 ### Список параметрів
 
 `multi_handle`
 
-Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.html)
+Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.md)
 
 `handle`
 
-Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
 
 ### Значення, що повертаються
 
@@ -39,10 +39,10 @@ curl_multi_remove_handle(CurlMultiHandle $multi_handle, CurlHandle $handle): int
 | Версия | Описание |
 | --- | --- |
 |  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
-|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [curlinit()](function.curl-init.html) - Ініціалізує сеанс cURL
--   [curlmultiinit()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів
--   [curlmultiaddhandle()](function.curl-multi-add-handle.html) - Додає звичайний cURL-дескриптор до набору cURL-дескрипторів
+-   [curlinit()](function.curl-init.md) - Ініціалізує сеанс cURL
+-   [curlmultiinit()](function.curl-multi-init.md) - Створює набір cURL-дескрипторів
+-   [curlmultiaddhandle()](function.curl-multi-add-handle.md) - Додає звичайний cURL-дескриптор до набору cURL-дескрипторів

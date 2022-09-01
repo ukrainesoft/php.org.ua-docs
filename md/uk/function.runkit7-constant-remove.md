@@ -31,5 +31,5 @@ runkit7_constant_remove(string $constant_name): bool
 ### Дивіться також
 
 -   [define()](function.define.md) - визначає іменовану константу
--   [runkit7constantadd()](function.runkit7-constant-add.html) - Аналогічний define(), але також дозволяє визначити константу класу
--   [runkit7constantredefine()](function.runkit7-constant-redefine.html) - Перевизначає вже певну константу
+-   [runkit7constantadd()](function.runkit7-constant-add.md) - Аналогічний define(), але також дозволяє визначити константу класу
+-   [runkit7constantredefine()](function.runkit7-constant-redefine.md) - Перевизначає вже певну константу

@@ -32,14 +32,14 @@ public OCILob::eof(): bool
 
 | Версия | Описание |
 | --- | --- |
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Примітки
 
 > **Зауваження**
 > 
-> Функція повертає Oracle помилку у разі, якщо [OCILob::setBuffering](ocilob.setbuffering.html) включено для LOB.
+> Функція повертає Oracle помилку у разі, якщо [OCILob::setBuffering](ocilob.setbuffering.md) включено для LOB.
 
 ### Дивіться також
 
--   [OCILob::size](ocilob.size.html)
+-   [OCILob::size](ocilob.size.md)

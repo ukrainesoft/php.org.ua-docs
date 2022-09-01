@@ -24,7 +24,7 @@ public Yaf_Application::getConfig(): Yaf_Config_Abstract
 
 ### Значення, що повертаються
 
-Екземпляр класу [YafConfigAbstract](class.yaf-config-abstract.html)
+Екземпляр класу [YafConfigAbstract](class.yaf-config-abstract.md)
 
 ### Приклади
 

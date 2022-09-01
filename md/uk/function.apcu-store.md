@@ -68,6 +68,6 @@ string(3) "BAR"
 
 ### Дивіться також
 
--   [apcuadd()](function.apcu-add.html) - Додати змінну до кешу
--   [apcufetch()](function.apcu-fetch.html) - Витягує з кеша збережену змінну
--   [apcudelete()](function.apcu-delete.html) - Видаляє збережене значення з кешу
+-   [apcuadd()](function.apcu-add.md) - Додати змінну до кешу
+-   [apcufetch()](function.apcu-fetch.md) - Витягує з кеша збережену змінну
+-   [apcudelete()](function.apcu-delete.md) - Видаляє збережене значення з кешу

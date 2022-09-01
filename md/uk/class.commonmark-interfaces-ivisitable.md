@@ -34,4 +34,4 @@ title: Інтерфейс CommonMarkInterfacesIVisitable
 
 ## Зміст
 
--   [CommonMarkInterfacesIVisitable::accept](commonmark-interfaces-ivisitable.accept.html) - Visitation
+-   [CommonMarkInterfacesIVisitable::accept](commonmark-interfaces-ivisitable.accept.md) - Visitation

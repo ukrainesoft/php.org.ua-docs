@@ -10,7 +10,7 @@ title: 'finfo::buffer'
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL fileinfo >= 0.1.0)
 
-finfo::buffer — Псевдонім [finfobuffer()](function.finfo-buffer.html)
+finfo::buffer — Псевдонім [finfobuffer()](function.finfo-buffer.md)
 
 ### Опис
 
@@ -18,4 +18,4 @@ finfo::buffer — Псевдонім [finfobuffer()](function.finfo-buffer.html)
 public finfo::buffer(string $string, int $flags = FILEINFO_NONE, ?resource $context = null): string|false
 ```
 
-Ця функція є псевдонімом: [finfobuffer()](function.finfo-buffer.html)
+Ця функція є псевдонімом: [finfobuffer()](function.finfo-buffer.md)

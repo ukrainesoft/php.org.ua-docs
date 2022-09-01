@@ -26,4 +26,4 @@ public Parle\Lexer::getToken(): Parle\Token
 
 ### Значення, що повертаються
 
-Повертає екземпляр [ParleToken](class.parle-token.html)
+Повертає екземпляр [ParleToken](class.parle-token.md)

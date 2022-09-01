@@ -22,7 +22,7 @@ intl_is_failure(int $errorCode): bool
 
 `errorCode`
 
-Значення, повернене функціями: [intlgeterrorcode()](function.intl-get-error-code.html) [collatorgeterrorcode()](collator.geterrorcode.md)
+Значення, повернене функціями: [intlgeterrorcode()](function.intl-get-error-code.md) [collatorgeterrorcode()](collator.geterrorcode.md)
 
 ### Значення, що повертаються
 
@@ -56,6 +56,6 @@ true
 
 ### Дивіться також
 
--   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
+-   [intlgeterrorcode()](function.intl-get-error-code.md) - Отримати код останньої помилки
 -   [collatorgeterrorcode()](collator.geterrorcode.md) - Отримує останній код помилки Collator
 -   [Collator-getErrorCode()](collator.geterrorcode.md) - Отримує останній код помилки Collator

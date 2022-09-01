@@ -54,6 +54,6 @@ echo str_repeat("-=", 10);
 
 ### Дивіться також
 
--   [for](control-structures.for.html)
--   [strpad()](function.str-pad.html) - Доповнює рядок іншим рядком до заданої довжини
--   [substrcount()](function.substr-count.html) - Повертає кількість входжень підрядка
+-   [for](control-structures.for.md)
+-   [strpad()](function.str-pad.md) - Доповнює рядок іншим рядком до заданої довжини
+-   [substrcount()](function.substr-count.md) - Повертає кількість входжень підрядка

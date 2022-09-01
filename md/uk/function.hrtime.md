@@ -54,5 +54,5 @@ Array
 
 ### Дивіться також
 
--   Модуль [Час високого дозволу](book.hrtime.html)
--   [microtime()](function.microtime.html) - Повертає поточну позначку часу Unix з мікросекундами
+-   Модуль [Час високого дозволу](book.hrtime.md)
+-   [microtime()](function.microtime.md) - Повертає поточну позначку часу Unix з мікросекундами

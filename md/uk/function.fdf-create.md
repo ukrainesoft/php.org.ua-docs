@@ -51,6 +51,6 @@ unlink("outtest.fdf");
 
 ### Дивіться також
 
--   [fdfclose()](function.fdf-close.html) - Закриває FDF-документ
--   [fdfsave()](function.fdf-save.html) - Зберігає документ FDF
--   [fdfopen()](function.fdf-open.html) - Відкриває документ FDF
+-   [fdfclose()](function.fdf-close.md) - Закриває FDF-документ
+-   [fdfsave()](function.fdf-save.md) - Зберігає документ FDF
+-   [fdfopen()](function.fdf-open.md) - Відкриває документ FDF

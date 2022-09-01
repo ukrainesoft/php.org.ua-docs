@@ -24,17 +24,17 @@ public SolrClient::query(SolrParams $query): SolrQueryResponse
 
 `query`
 
-Об'єкт [SolrParams](class.solrparams.html). Для складних запитів рекомендується використовувати [SolrQuery](class.solrquery.html)
+Об'єкт [SolrParams](class.solrparams.html). Для складних запитів рекомендується використовувати [SolrQuery](class.solrquery.md)
 
 ### Значення, що повертаються
 
-Повертає об'єкт [SolrQueryResponse](class.solrqueryresponse.html) у разі успішного виконання або викидає виняток у разі виникнення помилки.
+Повертає об'єкт [SolrQueryResponse](class.solrqueryresponse.md) у разі успішного виконання або викидає виняток у разі виникнення помилки.
 
 ### Помилки
 
-Викидає [SolrClientException](class.solrclientexception.html)якщо клієнт відмовив або виникла проблема з підключенням.
+Викидає [SolrClientException](class.solrclientexception.md)якщо клієнт відмовив або виникла проблема з підключенням.
 
-Викидає [SolrServerException](class.solrserverexception.html)якщо сервер Solr не зміг обробити запит.
+Викидає [SolrServerException](class.solrserverexception.md)якщо сервер Solr не зміг обробити запит.
 
 ### Приклади
 

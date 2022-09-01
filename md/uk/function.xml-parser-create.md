@@ -18,7 +18,7 @@ xmlparsercreate — Створення XML-аналізатора
 xml_parser_create(?string $encoding = null): XMLParser
 ```
 
-**xmlparsercreate()** створює новий XML-аналізатор та повертає екземпляр [XMLParser](class.xmlparser.html), який можна використовувати в інших функціях XML.
+**xmlparsercreate()** створює новий XML-аналізатор та повертає екземпляр [XMLParser](class.xmlparser.md), який можна використовувати в інших функціях XML.
 
 ### Список параметрів
 
@@ -28,16 +28,16 @@ xml_parser_create(?string $encoding = null): XMLParser
 
 ### Значення, що повертаються
 
-Повертає новий екземпляр [XMLParser](class.xmlparser.html) або **`false`** у разі виникнення помилки.
+Повертає новий екземпляр [XMLParser](class.xmlparser.md) або **`false`** у разі виникнення помилки.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Функція тепер повертає екземпляр [XMLParser](class.xmlparser.html); раніше повертався ресурс (resource) або **`false`** у разі виникнення помилки. |
+|  | Функція тепер повертає екземпляр [XMLParser](class.xmlparser.md); раніше повертався ресурс (resource) або **`false`** у разі виникнення помилки. |
 |  | `encoding` тепер допускає значення null. |
 
 ### Дивіться також
 
--   [xmlparsercreatens()](function.xml-parser-create-ns.html) - Створення XML-аналізатора з підтримкою просторів імен
--   [xmlparserfree()](function.xml-parser-free.html) - Звільнення XML-аналізатора
+-   [xmlparsercreatens()](function.xml-parser-create-ns.md) - Створення XML-аналізатора з підтримкою просторів імен
+-   [xmlparserfree()](function.xml-parser-free.md) - Звільнення XML-аналізатора

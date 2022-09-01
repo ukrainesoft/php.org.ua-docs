@@ -32,7 +32,7 @@ public static Yar_Concurrent_Client::reset(): bool
 
 ### Дивіться також
 
--   [YarConcurrentClient::call()](yar-concurrent-client.call.html) - Зареєструвати конкурентний виклик
--   [YarConcurrentClient::loop()](yar-concurrent-client.loop.html) - Запуск усіх зареєстрованих викликів
--   [YarServer::construct()](yar-server.construct.html) - Конструктор YarServer
--   [YarServer::handle()](yar-server.handle.html) - Запустити сервер RPC
+-   [YarConcurrentClient::call()](yar-concurrent-client.call.md) - Зареєструвати конкурентний виклик
+-   [YarConcurrentClient::loop()](yar-concurrent-client.loop.md) - Запуск усіх зареєстрованих викликів
+-   [YarServer::construct()](yar-server.construct.md) - Конструктор YarServer
+-   [YarServer::handle()](yar-server.handle.md) - Запустити сервер RPC

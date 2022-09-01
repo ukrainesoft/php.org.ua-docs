@@ -24,7 +24,7 @@ eio_futime(    mixed $fd,    float $atime,    float $mtime,    i
 
 `fd`
 
-Потік, покажчик на сокет, чи числовий дескриптор файлу, повернутий, наприклад, [eioopen()](function.eio-open.html)
+Потік, покажчик на сокет, чи числовий дескриптор файлу, повернутий, наприклад, [eioopen()](function.eio-open.md)
 
 `atime`
 
@@ -56,7 +56,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
 
@@ -68,4 +68,4 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Дивіться також
 
--   [eioutime()](function.eio-utime.html) - Змінює дату та час останньої модифікації та доступу до файлу
+-   [eioutime()](function.eio-utime.md) - Змінює дату та час останньої модифікації та доступу до файлу

@@ -62,4 +62,4 @@ mqseries_conn(    string $qManagerName,    resource &$hconn,    reso
 
 ### Дивіться також
 
--   [mqseriesdisc()](function.mqseries-disc.html) - MQSeries MQDISC
+-   [mqseriesdisc()](function.mqseries-disc.md) - MQSeries MQDISC

@@ -24,11 +24,11 @@ final public MongoDB\Driver\WriteError::getIndex(): int
 
 ### Значення, що повертаються
 
-Повертає індекс запису (з [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)), що відповідає поточному WriteError.
+Повертає індекс запису (з [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md)), що відповідає поточному WriteError.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
@@ -60,4 +60,4 @@ int(1)
 
 ### Дивіться також
 
--   [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)
+-   [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md)

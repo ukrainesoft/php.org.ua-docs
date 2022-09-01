@@ -42,11 +42,11 @@ public getWarningsCount(): int
 
 ## Зміст
 
--   [RowResult::construct](mysql-xdevapi-rowresult.construct.html) - Конструктор класу RowResult
--   [RowResult::fetchAll](mysql-xdevapi-rowresult.fetchall.html) — Отримує всі рядки з результату
--   [RowResult::fetchOne](mysql-xdevapi-rowresult.fetchone.html) — Отримує рядок із результату
--   [RowResult::getColumnsCount](mysql-xdevapi-rowresult.getcolumncount.html) — Отримує кількість стовпців
--   [RowResult::getColumnNames](mysql-xdevapi-rowresult.getcolumnnames.html) — Отримує всі імена стовпців
--   [RowResult::getColumns](mysql-xdevapi-rowresult.getcolumns.html) — Отримує метадані стовпця
--   [RowResult::getWarnings](mysql-xdevapi-rowresult.getwarnings.html) — Отримує попередження останньої операції
--   [RowResult::getWarningsCount](mysql-xdevapi-rowresult.getwarningscount.html) — Отримує кількість попереджень останньої операції
+-   [RowResult::construct](mysql-xdevapi-rowresult.construct.md) - Конструктор класу RowResult
+-   [RowResult::fetchAll](mysql-xdevapi-rowresult.fetchall.md) — Отримує всі рядки з результату
+-   [RowResult::fetchOne](mysql-xdevapi-rowresult.fetchone.md) — Отримує рядок із результату
+-   [RowResult::getColumnsCount](mysql-xdevapi-rowresult.getcolumncount.md) — Отримує кількість стовпців
+-   [RowResult::getColumnNames](mysql-xdevapi-rowresult.getcolumnnames.md) — Отримує всі імена стовпців
+-   [RowResult::getColumns](mysql-xdevapi-rowresult.getcolumns.md) — Отримує метадані стовпця
+-   [RowResult::getWarnings](mysql-xdevapi-rowresult.getwarnings.md) — Отримує попередження останньої операції
+-   [RowResult::getWarningsCount](mysql-xdevapi-rowresult.getwarningscount.md) — Отримує кількість попереджень останньої операції

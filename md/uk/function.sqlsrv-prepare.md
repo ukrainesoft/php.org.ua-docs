@@ -24,7 +24,7 @@ sqlsrv_prepare(    resource $conn,    string $sql,    array $params 
 
 `conn`
 
-Ресурс підключення, що повертається [sqlsrvconnect()](function.sqlsrv-connect.html)
+Ресурс підключення, що повертається [sqlsrvconnect()](function.sqlsrv-connect.md)
 
 `sql`
 
@@ -58,7 +58,7 @@ sqlsrv_prepare(    resource $conn,    string $sql,    array $params 
 | Ключ | Значения | Описание |
 | --- | --- | --- |
 | QueryTimeout | Позитивне ціле значення. | Встановлює час очікування в секундах. За замовчуванням драйвер очікуватиме результатів нескінченно. |
-| SendStreamParamsAtExec | **`true`** або **`false`** (за замовчуванням **`true`** | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**`true`**) або для надсилання даних потоку частинами (**`false`**). За замовчуванням встановлено значення **`true`**. Для отримання додаткової інформації дивіться [sqlsrvsendstreamdata()](function.sqlsrv-send-stream-data.html) |
+| SendStreamParamsAtExec | **`true`** або **`false`** (за замовчуванням **`true`** | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**`true`**) або для надсилання даних потоку частинами (**`false`**). За замовчуванням встановлено значення **`true`**. Для отримання додаткової інформації дивіться [sqlsrvsendstreamdata()](function.sqlsrv-send-stream-data.md) |
 | Scrollable | SQLSRVCURSORFORWARD, SQLSRVCURSORSTATIC, SQLSRVCURSORDYNAMIC, або SQLSRVCURSORKEYSET | Дивіться [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV. |
 
 ### Значення, що повертаються
@@ -69,7 +69,7 @@ sqlsrv_prepare(    resource $conn,    string $sql,    array $params 
 
 **Приклад #1 Приклад використання **sqlsrvprepare()****
 
-У цьому прикладі показано, як підготувати оператор за допомогою **sqlsrvprepare()** та повторно виконати його кілька разів (з різними значеннями параметрів) за допомогою [sqlsrvexecute()](function.sqlsrv-execute.html)
+У цьому прикладі показано, як підготувати оператор за допомогою **sqlsrvprepare()** та повторно виконати його кілька разів (з різними значеннями параметрів) за допомогою [sqlsrvexecute()](function.sqlsrv-execute.md)
 
 ```php
 <?php
@@ -109,9 +109,9 @@ foreach( $orders as $id => $qty) {
 
 ### Примітки
 
-Коли ви підготуєте запит, який використовує змінні як параметри, змінні прив'язуються до оператора. Це означає, що якщо ви оновите значення змінних, наступного разу, коли ви виконаєте запит, він буде працювати з оновленими значеннями параметрів. Для операторів, які ви плануєте виконати лише один раз, використовуйте [sqlsrvquery()](function.sqlsrv-query.html)
+Коли ви підготуєте запит, який використовує змінні як параметри, змінні прив'язуються до оператора. Це означає, що якщо ви оновите значення змінних, наступного разу, коли ви виконаєте запит, він буде працювати з оновленими значеннями параметрів. Для операторів, які ви плануєте виконати лише один раз, використовуйте [sqlsrvquery()](function.sqlsrv-query.md)
 
 ### Дивіться також
 
--   [sqlsrvexecute()](function.sqlsrv-execute.html) - Виконує запит підготовлений за допомогою sqlsrvprepare
--   [sqlsrvquery()](function.sqlsrv-query.html) - готує та виконує запит
+-   [sqlsrvexecute()](function.sqlsrv-execute.md) - Виконує запит підготовлений за допомогою sqlsrvprepare
+-   [sqlsrvquery()](function.sqlsrv-query.md) - готує та виконує запит

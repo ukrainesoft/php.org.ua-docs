@@ -125,7 +125,7 @@ public __wakeup(): void
 -   [DateTime::createFromInterface](datetime.createfrominterface.md) — Повертає новий об'єкт DateTime, створений із переданого об'єкта, який реалізує інтерфейс DateTimeInterface
 -   [DateTime::getLastErrors](datetime.getlasterrors.md) — Повертає попередження та помилки
 -   [DateTime::modify](datetime.modify.md) - Зміна тимчасової мітки
--   [DateTime::setstate](datetime.set-state.html) - Обробник setstate
+-   [DateTime::setstate](datetime.set-state.md) - Обробник setstate
 -   [DateTime::setDate](datetime.setdate.md) - Встановлює дату
 -   [DateTime::setISODate](datetime.setisodate.md) — Встановлює дату ISO
 -   [DateTime::setTime](datetime.settime.md) - Встановлює час

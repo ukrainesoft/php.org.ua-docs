@@ -18,7 +18,7 @@ mqseriesget — MQSeries MQGET
 mqseries_get(    resource $hConn,    resource $hObj,    array &$md,    array &$gmo,    int &$bufferLength,    string &$msg,    int &$data_length,    resource &$compCode,    resource &$reason): void
 ```
 
-The **mqseriesget()** (MQGET) Call retrieves a message from local queue that has been opened using the [mqseriesopen()](function.mqseries-open.html) (MQOPEN) call
+The **mqseriesget()** (MQGET) Call retrieves a message from local queue that has been opened using the [mqseriesopen()](function.mqseries-open.md) (MQOPEN) call
 
 ### Список параметрів
 
@@ -108,7 +108,7 @@ The **mqseriesget()** (MQGET) Call retrieves a message from local queue that has
 
 ### Дивіться також
 
--   [mqseriesconn()](function.mqseries-conn.html) - MQSeries MQCONN
--   [mqseriesconnx()](function.mqseries-connx.html) - MQSeries MQCONNX
--   [mqseriesopen()](function.mqseries-open.html) - MQSeries MQOPEN
--   [mqseriesput()](function.mqseries-put.html) - MQSeries MQPUT
+-   [mqseriesconn()](function.mqseries-conn.md) - MQSeries MQCONN
+-   [mqseriesconnx()](function.mqseries-connx.md) - MQSeries MQCONNX
+-   [mqseriesopen()](function.mqseries-open.md) - MQSeries MQOPEN
+-   [mqseriesput()](function.mqseries-put.md) - MQSeries MQPUT

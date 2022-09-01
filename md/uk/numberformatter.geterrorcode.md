@@ -69,5 +69,5 @@ if(intl_is_failure($fmt->getErrorCode())) {
 ### Дивіться також
 
 -   [numfmtgeterrormessage()](numberformatter.geterrormessage.md) - Отримує останнє повідомлення про помилку засобу форматування
--   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
--   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
+-   [intlgeterrorcode()](function.intl-get-error-code.md) - Отримати код останньої помилки
+-   [intlісfailure()](function.intl-is-failure.md) - Перевірити, чи є код помилки ознакою збою

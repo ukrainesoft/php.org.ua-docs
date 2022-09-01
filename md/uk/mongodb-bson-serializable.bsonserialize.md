@@ -20,9 +20,9 @@ abstract public MongoDB\BSON\Serializable::bsonSerialize(): array|object
 
 Викликається під час серіалізації об'єкта BSON. Метод повинен повертати array або **stdClass**
 
-Кореневі документи (наприклад, [MongoDBBSONSerializable](class.mongodb-bson-serializable.html), передані в [MongoDBBSONfromPHP()](function.mongodb.bson-fromphp.html)) завжди будуть серіалізовані як документ BSON. Для значень полів асоціативні масиви та екземпляри **stdClass** будуть серіалізовані у вигляді документа BSON, а послідовні масиви (наприклад, послідовні числові індекси, що починаються з `0`) будуть серіалізовані у вигляді масиву BSON.
+Кореневі документи (наприклад, [MongoDBBSONSerializable](class.mongodb-bson-serializable.html), передані в [MongoDBBSONfromPHP()](function.mongodb.bson-fromphp.md)) завжди будуть серіалізовані як документ BSON. Для значень полів асоціативні масиви та екземпляри **stdClass** будуть серіалізовані у вигляді документа BSON, а послідовні масиви (наприклад, послідовні числові індекси, що починаються з `0`) будуть серіалізовані у вигляді масиву BSON.
 
-Користувачам рекомендується включати властивість id (наприклад, [MongoDBBSONObjectId](class.mongodb-bson-objectid.html), ініціалізований у вашому конструкторі) при поверненні даних для кореневого документа BSON; в іншому випадку драйвер або база даних повинні будуть згенерувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.html) при вставці чи злитті документа, відповідно.
+Користувачам рекомендується включати властивість id (наприклад, [MongoDBBSONObjectId](class.mongodb-bson-objectid.html), ініціалізований у вашому конструкторі) при поверненні даних для кореневого документа BSON; в іншому випадку драйвер або база даних повинні будуть згенерувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.md) при вставці чи злитті документа, відповідно.
 
 ### Список параметрів
 
@@ -145,6 +145,6 @@ echo MongoDB\BSON\toJSON($bson), "\n";
 
 ### Дивіться також
 
--   [MongoDBBSONUnserializable::bsonUnserialize()](mongodb-bson-unserializable.bsonunserialize.html) - Створює об'єкт із масиву BSON або документа
--   [MongoDBBSONPersistable](class.mongodb-bson-persistable.html)
+-   [MongoDBBSONUnserializable::bsonUnserialize()](mongodb-bson-unserializable.bsonunserialize.md) - Створює об'єкт із масиву BSON або документа
+-   [MongoDBBSONPersistable](class.mongodb-bson-persistable.md)
 -   [Постійні дані](mongodb.persistence.md)

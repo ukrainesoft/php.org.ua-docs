@@ -91,9 +91,9 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsEntry::construct](ui-controls-entry.construct.html) — Створити новий об'єкт Entry
--   [ОЙControlsEntry::getText](ui-controls-entry.gettext.html) — Отримати текст
--   [ОЙControlsEntry::isReadOnly](ui-controls-entry.isreadonly.html) — Визначити, чи є елемент лише для читання
--   [ОЙControlsEntry::onChange](ui-controls-entry.onchange.html) - Обробник зміни
--   [ОЙControlsEntry::setReadOnly](ui-controls-entry.setreadonly.html) - Встановити "тільки для читання"
--   [ОЙControlsEntry::setText](ui-controls-entry.settext.html) — Встановити текст
+-   [ОЙControlsEntry::construct](ui-controls-entry.construct.md) — Створити новий об'єкт Entry
+-   [ОЙControlsEntry::getText](ui-controls-entry.gettext.md) — Отримати текст
+-   [ОЙControlsEntry::isReadOnly](ui-controls-entry.isreadonly.md) — Визначити, чи є елемент лише для читання
+-   [ОЙControlsEntry::onChange](ui-controls-entry.onchange.md) - Обробник зміни
+-   [ОЙControlsEntry::setReadOnly](ui-controls-entry.setreadonly.md) - Встановити "тільки для читання"
+-   [ОЙControlsEntry::setText](ui-controls-entry.settext.md) — Встановити текст

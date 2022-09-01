@@ -34,4 +34,4 @@ openal_listener_set(int $property, mixed $setting): bool
 
 ### Дивіться також
 
--   [openallistenerget()](function.openal-listener-get.html) - Отримати властивість прослуховувача
+-   [openallistenerget()](function.openal-listener-get.md) - Отримати властивість прослуховувача

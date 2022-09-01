@@ -42,7 +42,7 @@ array_search(mixed $needle, array $haystack, bool $strict = false): int|string|f
 
 Повертає ключ для `needle`якщо він був знайдений у масиві, інакше **`false`**
 
-Якщо `needle` присутній у `haystack` більше одного разу буде повернено перший знайдений ключ. Для повернення ключів для всіх знайдених значень використовуйте функцію [arraykeys()](function.array-keys.html) з необов'язковим параметром `search_value`
+Якщо `needle` присутній у `haystack` більше одного разу буде повернено перший знайдений ключ. Для повернення ключів для всіх знайдених значень використовуйте функцію [arraykeys()](function.array-keys.md) з необов'язковим параметром `search_value`
 
 **Увага**
 
@@ -63,7 +63,7 @@ $key = array_search('red', $array);   // $key = 1;
 
 ### Дивіться також
 
--   [arraykeys()](function.array-keys.html) - Повертає все або деяке підмножина ключів масиву
--   [arrayvalues()](function.array-values.html) - Вибирає всі значення масиву
--   [arraykeyexists()](function.array-key-exists.html) - Перевіряє, чи присутній у масиві зазначений ключ чи індекс
--   [інarray()](function.in-array.html) - Перевіряє, чи є у масиві значення
+-   [arraykeys()](function.array-keys.md) - Повертає все або деяке підмножина ключів масиву
+-   [arrayvalues()](function.array-values.md) - Вибирає всі значення масиву
+-   [arraykeyexists()](function.array-key-exists.md) - Перевіряє, чи присутній у масиві зазначений ключ чи індекс
+-   [інarray()](function.in-array.md) - Перевіряє, чи є у масиві значення

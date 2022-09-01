@@ -76,4 +76,4 @@ Array
 
 ### Дивіться також
 
--   [мбlistencodings()](function.mb-list-encodings.html) - Повертає масив усіх кодувань, що підтримуються.
+-   [мбlistencodings()](function.mb-list-encodings.md) - Повертає масив усіх кодувань, що підтримуються.

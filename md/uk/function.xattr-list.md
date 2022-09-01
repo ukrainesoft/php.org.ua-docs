@@ -61,4 +61,4 @@ foreach ($attributes as $attr_name) {
 
 ### Дивіться також
 
--   [xattrget()](function.xattr-get.html) - Отримання розширених атрибутів файлу
+-   [xattrget()](function.xattr-get.md) - Отримання розширених атрибутів файлу

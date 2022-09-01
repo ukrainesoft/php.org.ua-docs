@@ -22,7 +22,7 @@ radius_put_vendor_int(    resource $radius_handle,    int $vendor,   
 
 > **Зауваження**
 > 
-> Перед викликом цієї функції потрібно створити запит за допомогою функції [radiuscreaterequest()](function.radius-create-request.html)
+> Перед викликом цієї функції потрібно створити запит за допомогою функції [radiuscreaterequest()](function.radius-create-request.md)
 
 ### Список параметрів
 
@@ -62,4 +62,4 @@ ID виробника (Vendor).
 
 ### Дивіться також
 
--   [radiusputvendorstring()](function.radius-put-vendor-string.html) - Приєднує рядковий атрибут, що залежить від постачальника
+-   [radiusputvendorstring()](function.radius-put-vendor-string.md) - Приєднує рядковий атрибут, що залежить від постачальника

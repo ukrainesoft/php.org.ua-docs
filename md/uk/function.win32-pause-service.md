@@ -53,8 +53,8 @@ win32_pause_service(string $servicename, string $machine = ?): void
 
 ### Дивіться також
 
--   [win32startservice()](function.win32-start-service.html) - Запускає службу
--   [win32stopservice()](function.win32-stop-service.html) - зупиняє службу
--   [win32continueservice()](function.win32-continue-service.html) - Відновлює роботу зупиненої служби
--   [win32sendcustomcontrol()](function.win32-send-custom-control.html) - Відправляє налаштований елемент керування до служби
+-   [win32startservice()](function.win32-start-service.md) - Запускає службу
+-   [win32stopservice()](function.win32-stop-service.md) - зупиняє службу
+-   [win32continueservice()](function.win32-continue-service.md) - Відновлює роботу зупиненої служби
+-   [win32sendcustomcontrol()](function.win32-send-custom-control.md) - Відправляє налаштований елемент керування до служби
 -   [Коди помилок Win32](win32service.constants.errors.md)

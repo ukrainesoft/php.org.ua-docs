@@ -93,4 +93,4 @@ array(2) {
 
 ### Дивіться також
 
--   [cubridsetadd()](function.cubrid-set-add.html) - Вставляє один елемент для встановлення стовпця типу за допомогою OID
+-   [cubridsetadd()](function.cubrid-set-add.md) - Вставляє один елемент для встановлення стовпця типу за допомогою OID

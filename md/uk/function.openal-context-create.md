@@ -30,5 +30,5 @@ openal_context_create(resource $device): resource
 
 ### Дивіться також
 
--   [openaldeviceopen()](function.openal-device-open.html) - Ініціалізувати звуковий рівень OpenAL
--   [openalcontextdestroy()](function.openal-context-destroy.html) - Знищує контекст
+-   [openaldeviceopen()](function.openal-device-open.md) - Ініціалізувати звуковий рівень OpenAL
+-   [openalcontextdestroy()](function.openal-context-destroy.md) - Знищує контекст

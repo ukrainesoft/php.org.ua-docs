@@ -58,4 +58,4 @@ function mergeImageLayers($layerMethodType, $imagePath1, $imagePath2) {
 
 ### Дивіться також
 
--   [Imagick::flattenImages()](imagick.flattenimages.html) - Поєднує послідовність зображень
+-   [Imagick::flattenImages()](imagick.flattenimages.md) - Поєднує послідовність зображень

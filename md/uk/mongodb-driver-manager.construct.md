@@ -18,13 +18,13 @@ MongoDBDriverManager::construct — Створює новий Manager MongoDB
 final public MongoDB\Driver\Manager::__construct(?string $uri = null, ?array $uriOptions = null, ?array $driverOptions = null)
 ```
 
-Створює новий об'єкт [MongoDBDriverManager](class.mongodb-driver-manager.html) із переданими параметрами.
+Створює новий об'єкт [MongoDBDriverManager](class.mongodb-driver-manager.md) із переданими параметрами.
 
 > **Зауваження**: В [» спецификации по обнаружению и мониторингу сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst#single-threaded-client-construction), цей конструктор не виконує введення-виведення. З'єднання ініціалізуватимуться на вимогу, коли виконується перша операція.
 
 > **Зауваження**: Під час передачі будь-яких URI-опцій, пов'язаних з SSL або TLS, через рядок підключення або параметр `uriOptions`драйвер неявно включає TLS при з'єднаннях. Щоб запобігти цьому, або явно вимкніть опцію `tls`, або не передавайте TLS-опцій.
 
-> **Зауваження**: На Unix, драйвер MongoDB чутливий до сценаріїв, які використовують системний виклик fork() без наступного exec(). Користувачам рекомендується не перевикористовувати екземпляр [MongoDBDriverManager](class.mongodb-driver-manager.html) у дочірньому процесі. child process.
+> **Зауваження**: На Unix, драйвер MongoDB чутливий до сценаріїв, які використовують системний виклик fork() без наступного exec(). Користувачам рекомендується не перевикористовувати екземпляр [MongoDBDriverManager](class.mongodb-driver-manager.md) у дочірньому процесі. child process.
 
 ### Список параметрів
 
@@ -101,7 +101,7 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 | | journal | bool |
 
-Відповідає параметру гарантій запису `journal`. Якщо \*\*`true`\*\*для запису буде потрібно підтвердження від MongoDB, що операція була записана в журнал. Детальніше дивіться [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
+Відповідає параметру гарантій запису `journal`. Якщо \*\*`true`\*\*для запису буде потрібно підтвердження від MongoDB, що операція була записана в журнал. Детальніше дивіться [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md)
 
 | | loadBalanced | bool |
 
@@ -113,19 +113,19 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 | | maxStalenessSeconds | int |
 
-Відповідає параметру переваг читання `"maxStalenessSeconds"`. Вказує в секундах наскільки застарілим може бути вторинний вузол у наборі реплік, перш ніж клієнт перестане використовувати його для операцій читання. За замовчуванням не встановлено максимальне відставання реплікації (staleness) і клієнти не враховуватимуть відставання вторинного вузла при виборі напряму операції читання. Детальніше дивіться [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
+Відповідає параметру переваг читання `"maxStalenessSeconds"`. Вказує в секундах наскільки застарілим може бути вторинний вузол у наборі реплік, перш ніж клієнт перестане використовувати його для операцій читання. За замовчуванням не встановлено максимальне відставання реплікації (staleness) і клієнти не враховуватимуть відставання вторинного вузла при виборі напряму операції читання. Детальніше дивіться [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md)
 
 Якщо зазначено, максимальне відставання має бути 32-бітовим цілим числом, більшим або рівним **`MongoDB\Driver\ReadPreference::SMALLEST_MAX_STALENESS_SECONDS`** (тобто 90 секунд).
 
-| | password | string | Пароль для автентифікації користувача. Ця опція є корисною, якщо пароль містить спеціальні символи, які в іншому випадку повинні були закодовані для URI-адреси підключення. | | readConcernLevel | string | Відповідає параметру гарантій читання `level` Визначає рівень ізоляції читання. Детальніше дивіться [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html). | | readPreference | string |
+| | password | string | Пароль для автентифікації користувача. Ця опція є корисною, якщо пароль містить спеціальні символи, які в іншому випадку повинні були закодовані для URI-адреси підключення. | | readConcernLevel | string | Відповідає параметру гарантій читання `level` Визначає рівень ізоляції читання. Детальніше дивіться [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.md). | | readPreference | string |
 
-Відповідає параметру переваг читання `mode` За замовчуванням - `"primary"`. Детальніше дивіться [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
+Відповідає параметру переваг читання `mode` За замовчуванням - `"primary"`. Детальніше дивіться [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md)
 
 | | readPreferenceTags | array |
 
-Відповідає параметру переваг читання `tagSets`. Набір тегів дозволяє настроїти операції читання для певних членів набору репліки. Детальніше дивіться [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
+Відповідає параметру переваг читання `tagSets`. Набір тегів дозволяє настроїти операції читання для певних членів набору репліки. Детальніше дивіться [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md)
 
-> **Зауваження**: Якщо у рядку URI не вказано, цей параметр подається як масив, що відповідає формату, що очікується [MongoDBDriverReadPreference::construct()](mongodb-driver-readpreference.construct.html)
+> **Зауваження**: Якщо у рядку URI не вказано, цей параметр подається як масив, що відповідає формату, що очікується [MongoDBDriverReadPreference::construct()](mongodb-driver-readpreference.construct.md)
 
 | | replicaSet | string |
 
@@ -145,7 +145,7 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 | | safe | bool |
 
-Якщо **`true`**, вказує `1` для параметра `w` гарантії запису за замовчуванням. Якщо **`false`**, вказується `0`. Детальніше дивіться [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
+Якщо **`true`**, вказує `1` для параметра `w` гарантії запису за замовчуванням. Якщо **`false`**, вказується `0`. Детальніше дивіться [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md)
 
 Ця опція застаріла і не повинна використовуватись.
 
@@ -229,11 +229,11 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 | | username | string | Ім'я користувача для автентифікації. Ця опція є корисною, якщо ім'я користувача містить спеціальні символи, які в іншому випадку повинні бути закодовані в URL для URI-адреси підключення. | | w | int | string |
 
-Відповідає параметру гарантій запису `w`. Детальніше дивіться [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
+Відповідає параметру гарантій запису `w`. Детальніше дивіться [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md)
 
 | | wTimeoutMS | int | string |
 
-Відповідає параметру гарантій запису `wtimeout`. Вказує термін у мілісекундах для гарантії запису. Детальніше дивіться [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
+Відповідає параметру гарантій запису `wtimeout`. Вказує термін у мілісекундах для гарантії запису. Детальніше дивіться [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md)
 
 Якщо зазначено, `wTimeoutMS` має бути 32-бітовим цілим числом зі знаком, великим або рівним нулю.
 
@@ -272,7 +272,7 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 | Опция | Тип | Описание |
 | --- | --- | --- |
-| keyVaultClient | [MongoDBDriverManager](class.mongodb-driver-manager.html) | Менеджер використовується для маршрутизації запитів ключів даних до окремого кластера MongoDB. За промовчанням використовується поточний менеджер та кластер. |
+| keyVaultClient | [MongoDBDriverManager](class.mongodb-driver-manager.md) | Менеджер використовується для маршрутизації запитів ключів даних до окремого кластера MongoDB. За промовчанням використовується поточний менеджер та кластер. |
 | keyVaultNamespace | string | Повний простір імен (наприклад, `"databaseName.collectionName"`), що означає колекцію, яка містить усі ключі даних, що використовуються для шифрування та дешифрування. |
 | kmsProviders | array |  |
 | Документ, який містить конфігурацію для одного або кількох провайдерів KMS, які використовуються для шифрування ключів даних. Підтримуються провайдери `"aws"` `"azure"` `"gcp"` і `"local"`, і принаймні один з них повинен бути вказаний. |  |  |
@@ -350,7 +350,7 @@ local: { // 96-байтовий головний ключ, який викори
 
 | | context | resource |
 
-[Параметри контексту SSL](context.ssl.md) для використання як запасний варіант, якщо не вказано опцію драйвера або еквівалентну їй опцію URI. Зверніть увагу, що драйвер не звертається до контексту за промовчанням (тобто . [streamcontextgetdefault()](function.stream-context-get-default.html)). Підтримуються такі параметри контексту:
+[Параметри контексту SSL](context.ssl.md) для використання як запасний варіант, якщо не вказано опцію драйвера або еквівалентну їй опцію URI. Зверніть увагу, що драйвер не звертається до контексту за промовчанням (тобто . [streamcontextgetdefault()](function.stream-context-get-default.md)). Підтримуються такі параметри контексту:
 
 **Резервні параметри контексту SSL**
 
@@ -388,7 +388,7 @@ local: { // 96-байтовий головний ключ, який викори
 
 Цей параметр є застарілим псевдонімом для URI `"tlsCertificateKeyFilePassword"`
 
-| | serverApi | [MongoDBDriverServerApi](class.mongodb-driver-serverapi.html)
+| | serverApi | [MongoDBDriverServerApi](class.mongodb-driver-serverapi.md)
 
 Опція використовується для оголошення версії сервера API для менеджера. Якщо не вказано, версія API не оголошується.
 
@@ -400,8 +400,8 @@ local: { // 96-байтовий головний ключ, який викори
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   При неправильному форматі `uri` викидає виняток [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При неправильному форматі `uri` викидає виняток [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.md)
 
 ### список змін
 
@@ -426,7 +426,7 @@ KMIP тепер підтримується як KMS провайдер для ш
 
 Додано опцію драйвера `"disableClientPersistence"`
 
-Azure та GCP тепер підтримуються як постачальники KMS для шифрування на стороні клієнта і можуть бути налаштовані в полі `"kmsProviders"` параметра драйвера `"autoEncryption"`. Рядки в кодуванні Base64 тепер приймаються як альтернатива [MongoDBBSONBinary](class.mongodb-bson-binary.html) для параметрів усередині `"kmsProviders"`
+Azure та GCP тепер підтримуються як постачальники KMS для шифрування на стороні клієнта і можуть бути налаштовані в полі `"kmsProviders"` параметра драйвера `"autoEncryption"`. Рядки в кодуванні Base64 тепер приймаються як альтернатива [MongoDBBSONBinary](class.mongodb-bson-binary.md) для параметрів усередині `"kmsProviders"`
 
 | | PECL mongodb 1.8.0
 
@@ -555,5 +555,5 @@ $manager = new MongoDB\Driver\Manager(
 
 ### Дивіться також
 
--   [Обработка подключения и сохранение](mongodb.connection-handling.html)
+-   [Обработка подключения и сохранение](mongodb.connection-handling.md)
 -   [» Формат строки соединения MongoDB](https://www.mongodb.com/docs/manual/reference/connection-string/)

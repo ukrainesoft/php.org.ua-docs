@@ -10,5 +10,5 @@ title: Функції CSPRNG
 
 ## Зміст
 
--   [randombytes](function.random-bytes.html) — Генерує криптографічно безпечні псевдовипадкові байти
--   [randomint](function.random-int.html) — Генерує криптографічно безпечні псевдовипадкові цілі числа
+-   [randombytes](function.random-bytes.md) — Генерує криптографічно безпечні псевдовипадкові байти
+-   [randomint](function.random-int.md) — Генерує криптографічно безпечні псевдовипадкові цілі числа

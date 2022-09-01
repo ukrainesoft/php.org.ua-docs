@@ -16,7 +16,7 @@ title: LuaSandbox
     -   [Типи ресурсів](luasandbox.resources.md)
 -   [Отличия от стандартного Lua](reference.luasandbox.differences.md)
 -   [Приклади](luasandbox.examples.md)
-    -   [Базовое использование LuaSandbox](luasandbox.examples-basic.html)
+    -   [Базовое использование LuaSandbox](luasandbox.examples-basic.md)
 -   [LuaSandbox](class.luasandbox.md) - Клас LuaSandbox
     -   [LuaSandbox::callFunction](luasandbox.callfunction.md) — Викликає функцію у глобальній змінній Lua
     -   [LuaSandbox::disableProfiler](luasandbox.disableprofiler.md) - Відключає профільник

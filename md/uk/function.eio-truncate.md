@@ -52,7 +52,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
 
@@ -60,8 +60,8 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Значення, що повертаються
 
-[eiobusy()](function.eio-busy.html) повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
+[eiobusy()](function.eio-busy.md) повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
--   [eioftruncate()](function.eio-ftruncate.html) - Урізує розмір файлу
+-   [eioftruncate()](function.eio-ftruncate.md) - Урізує розмір файлу

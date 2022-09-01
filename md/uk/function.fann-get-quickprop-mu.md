@@ -34,4 +34,4 @@ fann_get_quickprop_mu(resource $ann): float
 
 ### Дивіться також
 
--   [fannsetquickpropmu()](function.fann-set-quickprop-mu.html) - Встановлює МЮ-фактор quickprop
+-   [fannsetquickpropmu()](function.fann-set-quickprop-mu.md) - Встановлює МЮ-фактор quickprop

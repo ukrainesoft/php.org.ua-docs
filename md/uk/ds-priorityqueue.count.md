@@ -12,4 +12,4 @@ title: 'ДсPriorityQueue::count'
 
 ДсPriorityQueue::count — Повертає кількість елементів у черзі
 
-Дивіться [Countable::count()](countable.count.html)
+Дивіться [Countable::count()](countable.count.md)

@@ -30,5 +30,5 @@ final public static Phar::getSupportedSignatures(): array
 
 ### Дивіться також
 
--   [Phar::getSignature()](phar.getsignature.html) - Отримати MD5/SHA1/SHA256/SHA512/OpenSSL підпис Phar-архіву
--   [Phar::setSignatureAlgorithm()](phar.setsignaturealgorithm.html) - Встановити алгоритм підписання phar-архіву та застосування його
+-   [Phar::getSignature()](phar.getsignature.md) - Отримати MD5/SHA1/SHA256/SHA512/OpenSSL підпис Phar-архіву
+-   [Phar::setSignatureAlgorithm()](phar.setsignaturealgorithm.md) - Встановити алгоритм підписання phar-архіву та застосування його

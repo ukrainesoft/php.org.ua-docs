@@ -10,5 +10,5 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](var-representation.requirements.html)
--   [Установка](var-representation.installation.html)
+-   [Вимоги](var-representation.requirements.md)
+-   [Установка](var-representation.installation.md)

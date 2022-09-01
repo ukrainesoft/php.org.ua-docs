@@ -24,7 +24,7 @@ cubrid_client_encoding(resource $conn_identifier = ?): string
 
 `conn_identifier`
 
-Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє відкрите за допомогою [cubridconnect()](function.cubrid-connect.html) з'єднання.
+Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє відкрите за допомогою [cubridconnect()](function.cubrid-connect.md) з'єднання.
 
 ### Значення, що повертаються
 
@@ -58,4 +58,4 @@ printf("Текущая кодировка CUBRID: %s\n", cubrid_client_encod
 
 ### Дивіться також
 
--   [cubridgetcharset()](function.cubrid-get-charset.html) - Повертає кодування поточного з'єднання CUBRID
+-   [cubridgetcharset()](function.cubrid-get-charset.md) - Повертає кодування поточного з'єднання CUBRID

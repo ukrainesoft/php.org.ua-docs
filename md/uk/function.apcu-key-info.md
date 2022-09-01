@@ -64,6 +64,6 @@ array(7) {
 
 ### Дивіться також
 
--   [apcustore()](function.apcu-store.html) - Кешує змінну
--   [apcufetch()](function.apcu-fetch.html) - Витягує з кеша збережену змінну
--   [apcudelete()](function.apcu-delete.html) - Видаляє збережене значення з кешу
+-   [apcustore()](function.apcu-store.md) - Кешує змінну
+-   [apcufetch()](function.apcu-fetch.md) - Витягує з кеша збережену змінну
+-   [apcudelete()](function.apcu-delete.md) - Видаляє збережене значення з кешу

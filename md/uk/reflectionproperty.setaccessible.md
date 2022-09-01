@@ -18,7 +18,7 @@ ReflectionProperty::setAccessible — Робить властивість дос
 public ReflectionProperty::setAccessible(bool $accessible): void
 ```
 
-Забезпечує доступ до захищеної або закритої властивості за допомогою методів [ReflectionProperty::getValue()](reflectionproperty.getvalue.html) і [ReflectionProperty::setValue()](reflectionproperty.setvalue.html)
+Забезпечує доступ до захищеної або закритої властивості за допомогою методів [ReflectionProperty::getValue()](reflectionproperty.getvalue.html) і [ReflectionProperty::setValue()](reflectionproperty.setvalue.md)
 
 > **Зауваження**: Починаючи з PHP 8.1.0, виклик методу не має сенсу; всі методи викликаються за умовчанням.
 
@@ -61,5 +61,5 @@ Fatal error: Uncaught Error: Cannot access private property MyClass::$foo in /in
 
 ### Дивіться також
 
--   [ReflectionProperty::isPrivate()](reflectionproperty.isprivate.html) - Перевіряє, чи властивість закрита
--   [ReflectionProperty::isProtected()](reflectionproperty.isprotected.html) - Перевіряє, чи властивість захищена
+-   [ReflectionProperty::isPrivate()](reflectionproperty.isprivate.md) - Перевіряє, чи властивість закрита
+-   [ReflectionProperty::isProtected()](reflectionproperty.isprotected.md) - Перевіряє, чи властивість захищена

@@ -18,7 +18,7 @@ title: мбeregsearchsetpos
 mb_ereg_search_setpos(int $offset): bool
 ```
 
-**мбeregsearchsetpos()** задає початкову позицію, з якої почнеться пошук відповідностей регулярного вираження функцією [мбeregsearch()](function.mb-ereg-search.html)
+**мбeregsearchsetpos()** задає початкову позицію, з якої почнеться пошук відповідностей регулярного вираження функцією [мбeregsearch()](function.mb-ereg-search.md)
 
 ### Список параметрів
 
@@ -40,9 +40,9 @@ mb_ereg_search_setpos(int $offset): bool
 
 > **Зауваження**
 > 
-> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.html)
+> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.md)
 
 ### Дивіться також
 
--   [мбregexencoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [мбeregsearchinit()](function.mb-ereg-search-init.html) - Ініціалізація пошуку відповідностей регулярному виразу багатобайтовим рядком та текстом регулярного вираження
+-   [мбregexencoding()](function.mb-regex-encoding.md) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
+-   [мбeregsearchinit()](function.mb-ereg-search-init.md) - Ініціалізація пошуку відповідностей регулярному виразу багатобайтовим рядком та текстом регулярного вираження

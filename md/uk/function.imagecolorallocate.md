@@ -24,13 +24,13 @@ imagecolorallocate(    GdImage $image,    int $red,    int $green, 
 
 > **Зауваження**
 > 
-> Перший виклик **imagecolorallocate()** задає колір фону у палітрових зображеннях - зображеннях, створених функцією [imagecreate()](function.imagecreate.html)
+> Перший виклик **imagecolorallocate()** задає колір фону у палітрових зображеннях - зображеннях, створених функцією [imagecreate()](function.imagecreate.md)
 
 ### Список параметрів
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `red`
 
@@ -52,13 +52,13 @@ imagecolorallocate(    GdImage $image,    int $red,    int $green, 
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -85,5 +85,5 @@ $black = imagecolorallocate($im, 0x00, 0x00, 0x00);
 
 ### Дивіться також
 
--   [imagecolorallocatealpha()](function.imagecolorallocatealpha.html) - Створення кольору для зображення
--   [imagecolordeallocate()](function.imagecolordeallocate.html) - Розрив асоціації змінної із кольором для заданого зображення
+-   [imagecolorallocatealpha()](function.imagecolorallocatealpha.md) - Створення кольору для зображення
+-   [imagecolordeallocate()](function.imagecolordeallocate.md) - Розрив асоціації змінної із кольором для заданого зображення

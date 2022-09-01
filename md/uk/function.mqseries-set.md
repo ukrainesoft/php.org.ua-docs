@@ -72,4 +72,4 @@ Object handle.
 
 ### Дивіться також
 
--   [mqseriesinq()](function.mqseries-inq.html) - MQSeries MQINQ
+-   [mqseriesinq()](function.mqseries-inq.md) - MQSeries MQINQ

@@ -40,7 +40,7 @@ get_magic_quotes_gpc(): bool
 
 ### Дивіться також
 
--   [addslashes()](function.addslashes.html) - Екранує рядок за допомогою слішів
--   [stripslashes()](function.stripslashes.html) - Видаляє екранування символів
--   [getmagicquotesruntime()](function.get-magic-quotes-runtime.html) - Отримання поточного значення конфігурації конфігурації magicquotesruntime
--   [iniget()](function.ini-get.html) - Отримує значення налаштування конфігурації
+-   [addslashes()](function.addslashes.md) - Екранує рядок за допомогою слішів
+-   [stripslashes()](function.stripslashes.md) - Видаляє екранування символів
+-   [getmagicquotesruntime()](function.get-magic-quotes-runtime.md) - Отримання поточного значення конфігурації конфігурації magicquotesruntime
+-   [iniget()](function.ini-get.md) - Отримує значення налаштування конфігурації

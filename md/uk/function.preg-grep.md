@@ -57,7 +57,7 @@ $fl_array = preg_grep("/^(\d+)?\.\d+$/", $array);
 ### Дивіться також
 
 -   [Регулярні вирази PCRE](pcre.pattern.md)
--   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
--   [pregmatchall()](function.preg-match-all.html) - Виконує глобальний пошук шаблону у рядку
--   [pregfilter()](function.preg-filter.html) - Здійснює пошук та заміну за регулярним виразом
--   [preglasterror()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   [pregquote()](function.preg-quote.md) - Екранує символи у регулярних виразах
+-   [pregmatchall()](function.preg-match-all.md) - Виконує глобальний пошук шаблону у рядку
+-   [pregfilter()](function.preg-filter.md) - Здійснює пошук та заміну за регулярним виразом
+-   [preglasterror()](function.preg-last-error.md) - Повертає код помилки виконання останнього регулярного вираження PCRE

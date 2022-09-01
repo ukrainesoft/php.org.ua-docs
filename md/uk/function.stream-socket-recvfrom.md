@@ -79,10 +79,10 @@ fclose($server);
 
 > **Зауваження**
 > 
-> Виклики функції **streamsocketrecvfrom()** на потоках, заснованих на сокетах, після викликів потокових функцій, що базуються на буферах (таких як [fread()](function.fread.md) або [streamgetline()](function.stream-get-line.html)) читають дані безпосередньо із сокету та пропускають потоковий буфер.
+> Виклики функції **streamsocketrecvfrom()** на потоках, заснованих на сокетах, після викликів потокових функцій, що базуються на буферах (таких як [fread()](function.fread.md) або [streamgetline()](function.stream-get-line.md)) читають дані безпосередньо із сокету та пропускають потоковий буфер.
 
 ### Дивіться також
 
--   [streamsocketsendto()](function.stream-socket-sendto.html) - Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
--   [streamsocketclient()](function.stream-socket-client.html) - Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [streamsocketserver()](function.stream-socket-server.html) - Створює інтернет-сокет або доменний сокет Unix
+-   [streamsocketsendto()](function.stream-socket-sendto.md) - Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
+-   [streamsocketclient()](function.stream-socket-client.md) - Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [streamsocketserver()](function.stream-socket-server.md) - Створює інтернет-сокет або доменний сокет Unix

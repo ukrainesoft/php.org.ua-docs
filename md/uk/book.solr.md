@@ -16,7 +16,7 @@ title: Apache Solr
     -   [Типи ресурсів](solr.resources.md)
 -   [Обумовлені константи](solr.constants.md)
 -   [Функции Solr](ref.solr.md)
-    -   [solrgetversion](function.solr-get-version.html) — Повертає поточну версію Apache Solr
+    -   [solrgetversion](function.solr-get-version.md) — Повертає поточну версію Apache Solr
 -   [Приклади](solr.examples.md)
 -   [SolrUtils](class.solrutils.md) - Клас SolrUtils
     -   [SolrUtils::digestXmlResponse](solrutils.digestxmlresponse.md) — Перетворює XML-рядок відповіді на SolrObject

@@ -44,4 +44,4 @@ title: Інтерфейс MongoDBBSONSerializable
 
 ## Зміст
 
--   [MongoDBBSONSerializable::bsonSerialize](mongodb-bson-serializable.bsonserialize.html) — Надає масив або документ для серіалізації у BSON
+-   [MongoDBBSONSerializable::bsonSerialize](mongodb-bson-serializable.bsonserialize.md) — Надає масив або документ для серіалізації у BSON

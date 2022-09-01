@@ -36,4 +36,4 @@ phpdbg_color(int $element, string $color): void
 
 ### Дивіться також
 
--   [phpdbgprompt()](function.phpdbg-prompt.html) - встановити запрошення командного рядка
+-   [phpdbgprompt()](function.phpdbg-prompt.md) - встановити запрошення командного рядка

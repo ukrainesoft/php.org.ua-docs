@@ -103,4 +103,4 @@ resultDocument
 
 ## Зміст
 
--   [MongoDBDriverExceptionCommandException::getResultDocument](mongodb-driver-commandexception.getresultdocument.html) — Повертає результат документа для невдалої команди
+-   [MongoDBDriverExceptionCommandException::getResultDocument](mongodb-driver-commandexception.getresultdocument.md) — Повертає результат документа для невдалої команди

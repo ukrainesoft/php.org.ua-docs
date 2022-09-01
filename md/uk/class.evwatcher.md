@@ -12,7 +12,7 @@ title: Клас EvWatcher
 
 ## Вступ
 
-**EvWatcher** є базовим класом для всіх спостерігачів( [EvCheck](class.evcheck.html) [EvChild](class.evchild.html) і т.д.). Оскільки конструктор **EvWatcher** має модифікатор abstract, ви не повинні (і не зможете) створювати об'єкти цього класу безпосередньо.
+**EvWatcher** є базовим класом для всіх спостерігачів( [EvCheck](class.evcheck.html) [EvChild](class.evchild.md) і т.д.). Оскільки конструктор **EvWatcher** має модифікатор abstract, ви не повинні (і не зможете) створювати об'єкти цього класу безпосередньо.
 
 ## Огляд класів
 
@@ -96,16 +96,16 @@ data
 
 priority
 
-Ціле число (int) в діапазоні від **`Ev::MINPRI`** до **`Ev::MAXPRI`**. Очікуючі спостерігачі з більш високим пріоритетом будуть викликані раніше спостерігачів з нижчим пріоритетом, але пріоритет не перешкоджатиме запуску спостерігача (за винятком спостерігачів [EvIdle](class.evidle.html)). Спостерігачі [EvIdle](class.evidle.html) надають функціонал, що запобігає виклику, якщо є очікувані високопріоритетні повідомлення.
+Ціле число (int) в діапазоні від **`Ev::MINPRI`** до **`Ev::MAXPRI`**. Очікуючі спостерігачі з більш високим пріоритетом будуть викликані раніше спостерігачів з нижчим пріоритетом, але пріоритет не перешкоджатиме запуску спостерігача (за винятком спостерігачів [EvIdle](class.evidle.html)). Спостерігачі [EvIdle](class.evidle.md) надають функціонал, що запобігає виклику, якщо є очікувані високопріоритетні повідомлення.
 
 ## Зміст
 
--   [EvWatcher::clear](evwatcher.clear.html) — Очистити статус очікування спостерігача
--   [EvWatcher::construct](evwatcher.construct.html) - Абстрактний конструктор об'єкта спостерігача
--   [EvWatcher::feed](evwatcher.feed.html) — Подає зазначені події у цикл подій
--   [EvWatcher::getLoop](evwatcher.getloop.html) — Повертає цикл, який відповідає за спостерігача
--   [EvWatcher::invoke](evwatcher.invoke.html) - Викликає callback-функцію спостерігача із заданою бітовою маскою прийнятих подій
--   [EvWatcher::keepalive](evwatcher.keepalive.html) — Налаштовує, чи повертатиметься цикл
--   [EvWatcher::setCallback](evwatcher.setcallback.html) - Встановлює нову callback-функцію для спостерігача
--   [EvWatcher::start](evwatcher.start.html) - Запускає спостерігача
--   [EvWatcher::stop](evwatcher.stop.html) - Зупиняє спостерігача
+-   [EvWatcher::clear](evwatcher.clear.md) — Очистити статус очікування спостерігача
+-   [EvWatcher::construct](evwatcher.construct.md) - Абстрактний конструктор об'єкта спостерігача
+-   [EvWatcher::feed](evwatcher.feed.md) — Подає зазначені події у цикл подій
+-   [EvWatcher::getLoop](evwatcher.getloop.md) — Повертає цикл, який відповідає за спостерігача
+-   [EvWatcher::invoke](evwatcher.invoke.md) - Викликає callback-функцію спостерігача із заданою бітовою маскою прийнятих подій
+-   [EvWatcher::keepalive](evwatcher.keepalive.md) — Налаштовує, чи повертатиметься цикл
+-   [EvWatcher::setCallback](evwatcher.setcallback.md) - Встановлює нову callback-функцію для спостерігача
+-   [EvWatcher::start](evwatcher.start.md) - Запускає спостерігача
+-   [EvWatcher::stop](evwatcher.stop.md) - Зупиняє спостерігача

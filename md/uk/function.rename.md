@@ -58,4 +58,4 @@ rename("/tmp/tmp_file.txt", "/home/user/login/docs/my_file.txt");
 
 -   [copy()](function.copy.md) - Копіює файл
 -   [unlink()](function.unlink.md) - Видаляє файл
--   [moveuploadedfile()](function.move-uploaded-file.html) - Переміщує завантажений файл у нове місце
+-   [moveuploadedfile()](function.move-uploaded-file.md) - Переміщує завантажений файл у нове місце

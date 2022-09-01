@@ -26,7 +26,7 @@ radius_config(resource $radius_handle, string $file): bool
 
 `file`
 
-Шлях до файлу конфігурації передається як аргумент файлу в **radiusconfig()**. Бібліотека також може бути налаштована програмно за допомогою дзвінка [radiusaddserver()](function.radius-add-server.html)
+Шлях до файлу конфігурації передається як аргумент файлу в **radiusconfig()**. Бібліотека також може бути налаштована програмно за допомогою дзвінка [radiusaddserver()](function.radius-add-server.md)
 
 ### Значення, що повертаються
 
@@ -34,4 +34,4 @@ radius_config(resource $radius_handle, string $file): bool
 
 ### Дивіться також
 
--   [radiusaddserver()](function.radius-add-server.html) - Додає сервер
+-   [radiusaddserver()](function.radius-add-server.md) - Додає сервер

@@ -24,4 +24,4 @@ SESSION - Змінні сесії
 
 ### Дивіться також
 
--   [sessionstart()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
+-   [sessionstart()](function.session-start.md) - Стартує нову сесію, або відновлює існуючу

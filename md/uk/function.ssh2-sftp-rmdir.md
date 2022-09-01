@@ -26,7 +26,7 @@ ssh2_sftp_rmdir(resource $sftp, string $dirname): bool
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.html)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.md)
 
 `dirname`
 
@@ -52,4 +52,4 @@ ssh2_sftp_rmdir($sftp, '/home/username/deltodel');
 ### Дивіться також
 
 -   [rmdir()](function.rmdir.md) - видаляє директорію
--   [ssh2sftpmkdir()](function.ssh2-sftp-mkdir.html) - Створити директорію
+-   [ssh2sftpmkdir()](function.ssh2-sftp-mkdir.md) - Створити директорію

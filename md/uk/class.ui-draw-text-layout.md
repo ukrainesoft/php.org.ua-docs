@@ -42,6 +42,6 @@ public setWidth(float $width)
 
 ## Зміст
 
--   [ОЙDrawTextLayout::construct](ui-draw-text-layout.construct.html) — Створити новий об'єкт макету тексту
--   [ОЙDrawTextLayout::setColor](ui-draw-text-layout.setcolor.html) - Встановити колір
--   [ОЙDrawTextLayout::setWidth](ui-draw-text-layout.setwidth.html) - Встановити ширину
+-   [ОЙDrawTextLayout::construct](ui-draw-text-layout.construct.md) — Створити новий об'єкт макету тексту
+-   [ОЙDrawTextLayout::setColor](ui-draw-text-layout.setcolor.md) - Встановити колір
+-   [ОЙDrawTextLayout::setWidth](ui-draw-text-layout.setwidth.md) - Встановити ширину

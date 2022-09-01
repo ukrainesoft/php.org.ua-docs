@@ -18,7 +18,7 @@ MongoDBDriverTopologyDescription::getServers — Повертає сервери
 final public MongoDB\Driver\TopologyDescription::getServers(): array
 ```
 
-Повертає масив об'єктів [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html), що відповідають відомим серверам у топології.
+Повертає масив об'єктів [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.md), що відповідають відомим серверам у топології.
 
 ### Список параметрів
 
@@ -26,8 +26,8 @@ final public MongoDB\Driver\TopologyDescription::getServers(): array
 
 ### Значення, що повертаються
 
-Повертає масив об'єктів [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html), що відповідають відомим серверам у топології.
+Повертає масив об'єктів [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.md), що відповідають відомим серверам у топології.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

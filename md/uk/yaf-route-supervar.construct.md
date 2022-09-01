@@ -16,7 +16,7 @@ YafRouteSupervar::construct - Призначення construct
 
 public **YafRouteSupervar::construct**(string `$supervar_name`
 
-[YafRouteSupervar](class.yaf-route-supervar.html) схожий на [YafRouteStatic](class.yaf-route-static.html), Різниця в тому, що [YafRouteSupervar](class.yaf-route-supervar.html) шукатиме інформацію про шлях у рядку запиту, а параметр supervarname є ключем.
+[YafRouteSupervar](class.yaf-route-supervar.html) схожий на [YafRouteStatic](class.yaf-route-static.html), Різниця в тому, що [YafRouteSupervar](class.yaf-route-supervar.md) шукатиме інформацію про шлях у рядку запиту, а параметр supervarname є ключем.
 
 ### Список параметрів
 
@@ -60,10 +60,10 @@ public **YafRouteSupervar::construct**(string `$supervar_name`
 
 ### Дивіться також
 
--   [YafRouter::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора
--   [YafRouter::addConfig()](yaf-router.addconfig.html) - Додає налаштовані маршрути до маршрутизатора
--   [YafRouteStatic](class.yaf-route-static.html)
--   [YafRouteRegex](class.yaf-route-regex.html)
--   [YafRouteSimple](class.yaf-route-simple.html)
--   [YafRouteRewrite](class.yaf-route-rewrite.html)
--   [YafRouteMap](class.yaf-route-map.html)
+-   [YafRouter::addRoute()](yaf-router.addroute.md) - Додає новий маршрут до маршрутизатора
+-   [YafRouter::addConfig()](yaf-router.addconfig.md) - Додає налаштовані маршрути до маршрутизатора
+-   [YafRouteStatic](class.yaf-route-static.md)
+-   [YafRouteRegex](class.yaf-route-regex.md)
+-   [YafRouteSimple](class.yaf-route-simple.md)
+-   [YafRouteRewrite](class.yaf-route-rewrite.md)
+-   [YafRouteMap](class.yaf-route-map.md)

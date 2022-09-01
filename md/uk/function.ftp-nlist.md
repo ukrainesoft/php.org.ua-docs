@@ -22,7 +22,7 @@ ftp_nlist(FTP\Connection $ftp, string $directory): array|false
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `directory`
 
@@ -36,7 +36,7 @@ ftp_nlist(FTP\Connection $ftp, string $directory): array|false
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -74,5 +74,5 @@ array(3) {
 
 ### Дивіться також
 
--   [ftprawlist()](function.ftp-rawlist.html) - Повертає докладний список файлів у заданій директорії
--   [ftpmlsd()](function.ftp-mlsd.html) - Повертає список файлів у заданій директорії
+-   [ftprawlist()](function.ftp-rawlist.md) - Повертає докладний список файлів у заданій директорії
+-   [ftpmlsd()](function.ftp-mlsd.md) - Повертає список файлів у заданій директорії

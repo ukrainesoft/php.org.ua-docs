@@ -24,7 +24,7 @@ ssh2_sftp_symlink(resource $sftp, string $target, string $link): bool
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.html)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.md)
 
 `target`
 
@@ -52,5 +52,5 @@ ssh2_sftp_symlink($sftp, '/var/run/mysql.sock', '/tmp/mysql.sock');
 
 ### Дивіться також
 
--   [ssh2sftpreadlink()](function.ssh2-sftp-readlink.html) - Повертає об'єкт за символічним посиланням
+-   [ssh2sftpreadlink()](function.ssh2-sftp-readlink.md) - Повертає об'єкт за символічним посиланням
 -   [symlink()](function.symlink.md) - Створює символічне посилання

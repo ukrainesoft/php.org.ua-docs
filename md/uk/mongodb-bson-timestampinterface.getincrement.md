@@ -32,4 +32,4 @@ abstract public MongoDB\BSON\TimestampInterface::getIncrement(): int
 
 ### Дивіться також
 
--   [MongoDBBSONTimestamp::getIncrement()](mongodb-bson-timestamp.getincrement.html) - Повертає компонент збільшення Timestamp
+-   [MongoDBBSONTimestamp::getIncrement()](mongodb-bson-timestamp.getincrement.md) - Повертає компонент збільшення Timestamp

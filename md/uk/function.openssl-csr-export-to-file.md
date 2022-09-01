@@ -66,6 +66,6 @@ openssl_csr_export_to_file($csr, 'example-csr.pem');
 
 ### Дивіться також
 
--   [opensslcsrexport()](function.openssl-csr-export.html) - Експортує CSR у вигляді рядка
--   [opensslcsrnew()](function.openssl-csr-new.html) - Генерує CSR
--   [opensslcsrsign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат
+-   [opensslcsrexport()](function.openssl-csr-export.md) - Експортує CSR у вигляді рядка
+-   [opensslcsrnew()](function.openssl-csr-new.md) - Генерує CSR
+-   [opensslcsrsign()](function.openssl-csr-sign.md) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат

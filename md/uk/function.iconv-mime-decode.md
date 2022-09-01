@@ -35,7 +35,7 @@ iconv_mime_decode(string $string, int $mode = 0, ?string $encoding = null): stri
 | Значение | Константа | Описание |
 | --- | --- | --- |
 |  | ICONVMIMEDECODESTRICT | Якщо задано, заголовок декодується у повній відповідності до стандарту [» RFC2047](http://www.faqs.org/rfcs/rfc2047). Ця опція відключена за замовчуванням, оскільки існує безліч поштових програм, які не дотримуються специфікацій та формують некоректні з погляду стандарту `MIME`заголовки. |
-|  | ICONVMIMEDECODECONTINUEВІНERROR | Якщо поставлено, [iconvmimedecodeheaders()](function.iconv-mime-decode-headers.html) намагатиметься пропускати граматичні помилки та продовжувати обробку заголовка. |
+|  | ICONVMIMEDECODECONTINUEВІНERROR | Якщо поставлено, [iconvmimedecodeheaders()](function.iconv-mime-decode-headers.md) намагатиметься пропускати граматичні помилки та продовжувати обробку заголовка. |
 
 `encoding`
 
@@ -65,8 +65,8 @@ echo iconv_mime_decode("Subject: =?UTF-8?B?UHLDvGZ1bmcgUHLDvGZ1bmc=?=",
 
 ### Дивіться також
 
--   [iconvmimedecodeheaders()](function.iconv-mime-decode-headers.html) - Декодує кілька полів заголовка MIME
--   [мбdecodemimeheader()](function.mb-decode-mimeheader.html) - Декодує рядок у MIME-заголовку
--   [imapmimeheaderdecode()](function.imap-mime-header-decode.html) - Декодувати елементи заголовка
--   [imapbase64()](function.imap-base64.html) - Декодувати текст закодований BASE64
--   [imapqprint()](function.imap-qprint.html) - Перетворити рядок з формату "quoted-printable" на 8-бітовий рядок
+-   [iconvmimedecodeheaders()](function.iconv-mime-decode-headers.md) - Декодує кілька полів заголовка MIME
+-   [мбdecodemimeheader()](function.mb-decode-mimeheader.md) - Декодує рядок у MIME-заголовку
+-   [imapmimeheaderdecode()](function.imap-mime-header-decode.md) - Декодувати елементи заголовка
+-   [imapbase64()](function.imap-base64.md) - Декодувати текст закодований BASE64
+-   [imapqprint()](function.imap-qprint.md) - Перетворити рядок з формату "quoted-printable" на 8-бітовий рядок

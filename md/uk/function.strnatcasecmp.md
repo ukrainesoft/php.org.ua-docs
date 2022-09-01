@@ -57,7 +57,7 @@ int(0)
 
 ### Дивіться також
 
--   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу
 -   [strcmp()](function.strcmp.md) - Бінарно-безпечне порівняння рядків
 -   [strcasecmp()](function.strcasecmp.md) - Бінарно-безпечне порівняння рядків без урахування регістру
 -   [substr()](function.substr.md) - Повертає підрядок

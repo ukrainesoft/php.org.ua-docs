@@ -22,7 +22,7 @@ openal_device_close(resource $device): bool
 
 `device`
 
-Ресурс [Open AL(Device)](openal.resources.md) (Створений раніше за допомогою [openaldeviceopen()](function.openal-device-open.html)), який потрібно закрити.
+Ресурс [Open AL(Device)](openal.resources.md) (Створений раніше за допомогою [openaldeviceopen()](function.openal-device-open.md)), який потрібно закрити.
 
 ### Значення, що повертаються
 
@@ -30,4 +30,4 @@ openal_device_close(resource $device): bool
 
 ### Дивіться також
 
--   [openaldeviceopen()](function.openal-device-open.html) - Ініціалізувати звуковий рівень OpenAL
+-   [openaldeviceopen()](function.openal-device-open.md) - Ініціалізувати звуковий рівень OpenAL

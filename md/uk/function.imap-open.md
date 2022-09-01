@@ -26,7 +26,7 @@ imap_open(    string $mailbox,    string $user,    string $password,
 
 `mailbox`
 
-Ім'я поштової скриньки складається з сервера та шляху до поштової скриньки на ньому. Спеціальне ім'я `INBOX` використовується для поштової скриньки поточного користувача. Імена поштових скриньок, що містять міжнародні символи, крім вхідних у друкований простір ASCII, повинні бути закодовані за допомогою [imaputf7encode()](function.imap-utf7-encode.html)
+Ім'я поштової скриньки складається з сервера та шляху до поштової скриньки на ньому. Спеціальне ім'я `INBOX` використовується для поштової скриньки поточного користувача. Імена поштових скриньок, що містять міжнародні символи, крім вхідних у друкований простір ASCII, повинні бути закодовані за допомогою [imaputf7encode()](function.imap-utf7-encode.md)
 
 **Увага**
 
@@ -79,7 +79,7 @@ imap_open(    string $mailbox,    string $user,    string $password,
 -   **`OP_READONLY`** - відкрити поштову скриньку лише для читання
 -   **`OP_ANONYMOUS`** - не використовувати та не оновлювати .newsrc для новин (тільки NNTP)
 -   **`OP_HALFOPEN`** - відкрити з'єднання, але не підключатися до поштової скриньки для IMAP і NNTP.
--   **`CL_EXPUNGE`** - автоматично видаляти всі позначені для видалення повідомлення під час закриття поштової скриньки (див. [imapdelete()](function.imap-delete.html) і [imapexpunge()](function.imap-expunge.html)
+-   **`CL_EXPUNGE`** - автоматично видаляти всі позначені для видалення повідомлення під час закриття поштової скриньки (див. [imapdelete()](function.imap-delete.html) і [imapexpunge()](function.imap-expunge.md)
 -   **`OP_DEBUG`** - домовленості щодо протоколу налагодження
 -   **`OP_SHORTCACHE`** - коротке кешування (тільки `elt`
 -   **`OP_SILENT`** - не передавати події (внутрішнє використання)
@@ -98,13 +98,13 @@ imap_open(    string $mailbox,    string $user,    string $password,
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає екземпляр [IMAPConnection](class.imap-connection.html) або **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає екземпляр [IMAPConnection](class.imap-connection.md) або **`false`** у разі виникнення помилки.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Повертає екземпляр [IMAPConnection](class.imap-connection.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [IMAPConnection](class.imap-connection.md); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -167,4 +167,4 @@ imap_close($mbox);
 
 ### Дивіться також
 
--   [imapclose()](function.imap-close.html) - Закрити потік IMAP
+-   [imapclose()](function.imap-close.md) - Закрити потік IMAP

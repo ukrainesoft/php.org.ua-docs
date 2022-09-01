@@ -20,7 +20,7 @@ oci_fetch_array(resource $statement, int $mode = OCI_BOTH | OCI_RETURN_NULLS): a
 
 Повертає масив, що містить наступний рядок результату запиту. Кожен елемент масиву відповідає одному полю рядка. Ця функція зазвичай викликається в циклі, доки вона не поверне \*\*`false`\*\*що вказує на відсутність наступних рядків.
 
-Якщо `statement` відповідає PL/SQL блоку, що повертається Oracle Database Implicit Result Sets, тоді буде послідовно вилучено ряди з усіх наборів. Якщо `statement` повертається з [ocigetimplicitresultset()](function.oci-get-implicit-resultset.html)тоді повернеться лише частина рядів для одного дочірнього запиту.
+Якщо `statement` відповідає PL/SQL блоку, що повертається Oracle Database Implicit Result Sets, тоді буде послідовно вилучено ряди з усіх наборів. Якщо `statement` повертається з [ocigetimplicitresultset()](function.oci-get-implicit-resultset.md)тоді повернеться лише частина рядів для одного дочірнього запиту.
 
 Для отримання детальнішої інформації щодо відображення типів даних модуля OCI8 зверніться до [типів даних, що підтримуються драйвером](oci8.datatypes.md)
 
@@ -28,9 +28,9 @@ oci_fetch_array(resource $statement, int $mode = OCI_BOTH | OCI_RETURN_NULLS): a
 
 `statement`
 
-Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.html) та виконаний функцією [ociexecute()](function.oci-execute.html), або ідентифікатор виразу `REF CURSOR`
+Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.html) та виконаний функцією [ociexecute()](function.oci-execute.md), або ідентифікатор виразу `REF CURSOR`
 
-Також може бути ідентифікатором, що повертається функцією [ocigetimplicitresultset()](function.oci-get-implicit-resultset.html)
+Також може бути ідентифікатором, що повертається функцією [ocigetimplicitresultset()](function.oci-get-implicit-resultset.md)
 
 `mode`
 
@@ -58,7 +58,7 @@ oci_fetch_array(resource $statement, int $mode = OCI_BOTH | OCI_RETURN_NULLS): a
 
 Поля типу `DATE` повертаються у форматі рядків, що відповідає поточному формату дати. Формат за промовчанням може бути змінений за допомогою змінних оточення Oracle, таких як `NLS_LANG`, або попереднім виконанням команди `ALTER SESSION SET NLS_DATE_FORMAT`
 
-Регістронезалежні (за замовчуванням у Oracle) імена полів матимуть асоціативні індекси у верхньому регістрі в результуючому масиві. Регістрозалежні імена полів матимуть індекси з тими самими регістрами символів, як і саме поле. Використовуйте [vardump()](function.var-dump.html) для результуючого масиву, щоб перевірити відповідність регістрів символів кожному за запиту.
+Регістронезалежні (за замовчуванням у Oracle) імена полів матимуть асоціативні індекси у верхньому регістрі в результуючому масиві. Регістрозалежні імена полів матимуть індекси з тими самими регістрами символів, як і саме поле. Використовуйте [vardump()](function.var-dump.md) для результуючого масиву, щоб перевірити відповідність регістрів символів кожному за запиту.
 
 Ім'я таблиці не входить до асоціативного індексу. Якщо ваш запит містить два різні поля з однаковим ім'ям, використовуйте **`OCI_NUM`** або додайте аліас для поля у запит, щоб імена стали унікальними (дивіться приклад #7). Інакше буде повернуто лише одне поле.
 
@@ -521,17 +521,17 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> Для запитів, що повертають велику кількість рядів, продуктивність може бути значно збільшена за допомогою збільшення значення опції [oci8.defaultprefetch](oci8.configuration.html#ini.oci8.default-prefetch) або використання [ocisetprefetch()](function.oci-set-prefetch.html)
+> Для запитів, що повертають велику кількість рядів, продуктивність може бути значно збільшена за допомогою збільшення значення опції [oci8.defaultprefetch](oci8.configuration.html#ini.oci8.default-prefetch) або використання [ocisetprefetch()](function.oci-set-prefetch.md)
 
 > **Зауваження**
 > 
-> Функція **ocifetcharray()** *трохи* повільніше [ocifetchassoc()](function.oci-fetch-assoc.html) або [ocifetchrow()](function.oci-fetch-row.html), але гнучкіша.
+> Функція **ocifetcharray()** *трохи* повільніше [ocifetchassoc()](function.oci-fetch-assoc.html) або [ocifetchrow()](function.oci-fetch-row.md), але гнучкіша.
 
 ### Дивіться також
 
--   [ocifetch()](function.oci-fetch.html) - Вибирає наступний рядок із результату в буфер
--   [ocifetchall()](function.oci-fetch-all.html) - Вибирає всі рядки з результату запиту до двомірного масиву
--   [ocifetchassoc()](function.oci-fetch-assoc.html) - Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
--   [ocifetchobject()](function.oci-fetch-object.html) - Повертає наступний рядок із результату запиту у вигляді об'єкта
--   [ocifetchrow()](function.oci-fetch-row.html) - Повертає наступний рядок із результату запиту у вигляді нумерованого масиву
--   [ocisetprefetch()](function.oci-set-prefetch.html) - Встановлює кількість рядків, які будуть автоматично вибрані у буфер
+-   [ocifetch()](function.oci-fetch.md) - Вибирає наступний рядок із результату в буфер
+-   [ocifetchall()](function.oci-fetch-all.md) - Вибирає всі рядки з результату запиту до двомірного масиву
+-   [ocifetchassoc()](function.oci-fetch-assoc.md) - Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
+-   [ocifetchobject()](function.oci-fetch-object.md) - Повертає наступний рядок із результату запиту у вигляді об'єкта
+-   [ocifetchrow()](function.oci-fetch-row.md) - Повертає наступний рядок із результату запиту у вигляді нумерованого масиву
+-   [ocisetprefetch()](function.oci-set-prefetch.md) - Встановлює кількість рядків, які будуть автоматично вибрані у буфер

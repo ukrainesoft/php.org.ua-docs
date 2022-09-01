@@ -30,4 +30,4 @@ gc_enable(): void
 
 ### Дивіться також
 
--   [Сборка мусора](features.gc.html)
+-   [Сборка мусора](features.gc.md)

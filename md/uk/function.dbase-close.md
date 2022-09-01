@@ -24,7 +24,7 @@ dbase_close(resource $database): bool
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.html)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.md)
 
 ### Значення, що повертаються
 
@@ -57,5 +57,5 @@ if ($db) {
 
 ### Дивіться також
 
--   [dbaseopen()](function.dbase-open.html) - Відкриває базу даних
--   [dbasecreate()](function.dbase-create.html) - Створює базу даних
+-   [dbaseopen()](function.dbase-open.md) - Відкриває базу даних
+-   [dbasecreate()](function.dbase-create.md) - Створює базу даних

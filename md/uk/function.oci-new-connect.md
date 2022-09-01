@@ -20,7 +20,7 @@ oci_new_connect(    string $username,    string $password,    ?strin
 
 Створює нове з'єднання з сервером Oracle та здійснює вхід.
 
-На відміну від [ociconnect()](function.oci-connect.html) і [ocipconnect()](function.oci-pconnect.html), функція **ocinewconnect()** не кешує з'єднання і під час кожного виклику встановлює нове з'єднання. Це корисно, якщо додатку потрібна транзакційна ізоляція двох наборів запитів.
+На відміну від [ociconnect()](function.oci-connect.html) і [ocipconnect()](function.oci-pconnect.md), функція **ocinewconnect()** не кешує з'єднання і під час кожного виклику встановлює нове з'єднання. Це корисно, якщо додатку потрібна транзакційна ізоляція двох наборів запитів.
 
 ### Список параметрів
 
@@ -120,9 +120,9 @@ query("нового соединения после commit", $c2);
 ?>
 ```
 
-Додаткові приклади можна знайти в описі функції [ociconnect()](function.oci-connect.html)
+Додаткові приклади можна знайти в описі функції [ociconnect()](function.oci-connect.md)
 
 ### Дивіться також
 
--   [ociconnect()](function.oci-connect.html) - Встановлює з'єднання з базою даних Oracle
--   [ocipconnect()](function.oci-pconnect.html) - Встановлює постійне з'єднання із сервером Oracle
+-   [ociconnect()](function.oci-connect.md) - Встановлює з'єднання з базою даних Oracle
+-   [ocipconnect()](function.oci-pconnect.md) - Встановлює постійне з'єднання із сервером Oracle

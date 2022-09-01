@@ -18,7 +18,7 @@ mysqlistmt::$fieldcount - mysqlistmtfieldcount — Повертає кількі
 
 Об'єктно-орієнтований стиль
 
-int [$mysqlistmt->fieldcount](mysqli-stmt.field-count.html)
+int [$mysqlistmt->fieldcount](mysqli-stmt.field-count.md)
 
 Процедурний стиль
 
@@ -32,7 +32,7 @@ mysqli_stmt_field_count(mysqli_stmt $statement): int
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -87,4 +87,4 @@ for ($i = 0; $i < mysqli_stmt_field_count($stmt); $i++) {
 
 ### Дивіться також
 
--   [mysqlistmtnumrows()](mysqli-stmt.num-rows.html) - Повертає кількість рядків, отриманих із сервера
+-   [mysqlistmtnumrows()](mysqli-stmt.num-rows.md) - Повертає кількість рядків, отриманих із сервера

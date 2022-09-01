@@ -18,7 +18,7 @@ title: пгprepare
 pg_prepare(PgSql\Connection $connection = ?, string $stmtname, string $query): PgSql\Result|false
 ```
 
-**пгprepare()** створює заготівлю SQL вирази на сервері для подальшого запуску функціями [пгexecute()](function.pg-execute.html) або [пгsendexecute()](function.pg-send-execute.html). Це дозволяє багаторазово виконувати один раз створені запити з різними параметрами . **пгprepare()** підтримується PostgreSQL версії 7.4 та вище. Функція не працюватиме з серверами ранніх версій.
+**пгprepare()** створює заготівлю SQL вирази на сервері для подальшого запуску функціями [пгexecute()](function.pg-execute.html) або [пгsendexecute()](function.pg-send-execute.md). Це дозволяє багаторазово виконувати один раз створені запити з різними параметрами . **пгprepare()** підтримується PostgreSQL версії 7.4 та вище. Функція не працюватиме з серверами ранніх версій.
 
 Функція створює заготівлю SQL запиту під назвою `stmtname` і тілом `query`, який повинен містити один SQL вираз . `stmtname` може бути порожнім рядком, тоді буде створено безіменну заготівлю. Якщо якась безіменна заготовка вже визначена, вона буде замінена на нову автоматично. В інших випадках збіг імен нової та існуючої в даній сесії заготовок призведе до помилки. Якщо в `query` будуть передаватися параметри, вони замінять псевдозмінні $1, $2 і т.д. під час передачі запиту.
 
@@ -28,7 +28,7 @@ pg_prepare(PgSql\Connection $connection = ?, string $stmtname, string $query): P
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -44,14 +44,14 @@ pg_prepare(PgSql\Connection $connection = ?, string $stmtname, string $query): P
 
 ### Значення, що повертаються
 
-Екземпляр [PgSqlResult](class.pgsql-result.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Екземпляр [PgSqlResult](class.pgsql-result.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -77,5 +77,5 @@ $result = pg_execute($dbconn, "my_query", array("Clothes Clothes Clothes")
 
 ### Дивіться також
 
--   [пгexecute()](function.pg-execute.html) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату
--   [пгsendexecute()](function.pg-send-execute.html) - Запускає попередньо підготовлений SQL-запит та передає йому параметри; не чекає результату, що повертається
+-   [пгexecute()](function.pg-execute.md) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату
+-   [пгsendexecute()](function.pg-send-execute.md) - Запускає попередньо підготовлений SQL-запит та передає йому параметри; не чекає результату, що повертається

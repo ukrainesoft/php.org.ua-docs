@@ -58,7 +58,7 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsCombo::append](ui-controls-combo.append.html) - Додати опцію
--   [ОЙControlsCombo::getSelected](ui-controls-combo.getselected.html) — Отримати вибрану опцію
--   [ОЙControlsCombo::onSelected](ui-controls-combo.onselected.html) - Обробник обраної опції
--   [ОЙControlsCombo::setSelected](ui-controls-combo.setselected.html) — Встановлює вибрану опцію
+-   [ОЙControlsCombo::append](ui-controls-combo.append.md) - Додати опцію
+-   [ОЙControlsCombo::getSelected](ui-controls-combo.getselected.md) — Отримати вибрану опцію
+-   [ОЙControlsCombo::onSelected](ui-controls-combo.onselected.md) - Обробник обраної опції
+-   [ОЙControlsCombo::setSelected](ui-controls-combo.setselected.md) — Встановлює вибрану опцію

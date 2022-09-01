@@ -36,13 +36,13 @@ public SimpleXMLElement::addChild(string $qualifiedName, ?string $value = null, 
 
 ### Значення, що повертаються
 
-Метод `addChild` повертає об'єкт [SimpleXMLElement](class.simplexmlelement.html), Що представляє доданого нащадка до вузла XML у разі успішного виконання; **`null`** у разі виникнення помилки.
+Метод `addChild` повертає об'єкт [SimpleXMLElement](class.simplexmlelement.md), Що представляє доданого нащадка до вузла XML у разі успішного виконання; **`null`** у разі виникнення помилки.
 
 ### Приклади
 
 > **Зауваження**
 > 
-> Перелічені приклади можуть містити `example.php`, в якому визначається XML-рядок, розташована в першому прикладі посібника з [базовому использованию](simplexml.examples-basic.html)
+> Перелічені приклади можуть містити `example.php`, в якому визначається XML-рядок, розташована в першому прикладі посібника з [базовому использованию](simplexml.examples-basic.md)
 
 **Приклад #1 Додавання атрибутів та нащадків до елемента SimpleXML**
 
@@ -115,5 +115,5 @@ echo $sxe->asXML();
 
 ### Дивіться також
 
--   [SimpleXMLElement::addAttribute()](simplexmlelement.addattribute.html) - Додає атрибут до SimpleXML-елементу
--   [Базовое использование SimpleXML](simplexml.examples-basic.html)
+-   [SimpleXMLElement::addAttribute()](simplexmlelement.addattribute.md) - Додає атрибут до SimpleXML-елементу
+-   [Базовое использование SimpleXML](simplexml.examples-basic.md)

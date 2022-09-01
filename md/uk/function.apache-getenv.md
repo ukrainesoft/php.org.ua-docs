@@ -55,6 +55,6 @@ echo $ret;
 
 ### Дивіться також
 
--   [apachesetenv()](function.apache-setenv.html) - Встановлює змінну subprocessenv Apache
+-   [apachesetenv()](function.apache-setenv.md) - Встановлює змінну subprocessenv Apache
 -   [getenv()](function.getenv.md) - набуття значення змінної оточення
 -   "[Суперглобальні змінні](language.variables.superglobals.md)"

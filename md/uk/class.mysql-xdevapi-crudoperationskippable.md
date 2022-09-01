@@ -34,4 +34,4 @@ title: Інтерфейс CrudOperationSkippable
 
 ## Зміст
 
--   [CrudOperationSkippable::skip](mysql-xdevapi-crudoperationskippable.skip.html) - Кількість операцій для пропуску
+-   [CrudOperationSkippable::skip](mysql-xdevapi-crudoperationskippable.skip.md) - Кількість операцій для пропуску

@@ -24,7 +24,7 @@ public static SQLite3::escapeString(string $string): string
 
 Ця функція (поки що) небезпечна для обробки даних у двійковій формі!
 
-Для обробки полів типу BLOB, які можуть містити символ NUL, замість цієї функції використовуйте [SQLite3Stmt::bindParam()](sqlite3stmt.bindparam.html)
+Для обробки полів типу BLOB, які можуть містити символ NUL, замість цієї функції використовуйте [SQLite3Stmt::bindParam()](sqlite3stmt.bindparam.md)
 
 ### Список параметрів
 
@@ -40,4 +40,4 @@ public static SQLite3::escapeString(string $string): string
 
 **Увага**
 
-[addslashes()](function.addslashes.html) *НЕ* повинен використовуватися для екранування ваших рядків у запитах SQLite; це буде призводити до несподіваних результатів при вилученні ваших даних.
+[addslashes()](function.addslashes.md) *НЕ* повинен використовуватися для екранування ваших рядків у запитах SQLite; це буде призводити до несподіваних результатів при вилученні ваших даних.

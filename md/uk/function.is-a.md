@@ -71,6 +71,6 @@ if ($WF instanceof WidgetFactory) {
 
 ### Дивіться також
 
--   [getclass()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
--   [getparentclass()](function.get-parent-class.html) - Повертає ім'я батьківського класу для об'єкта чи класу
--   [ісsubclassof()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його
+-   [getclass()](function.get-class.md) - Повертає ім'я класу, до якого належить об'єкт
+-   [getparentclass()](function.get-parent-class.md) - Повертає ім'я батьківського класу для об'єкта чи класу
+-   [ісsubclassof()](function.is-subclass-of.md) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його

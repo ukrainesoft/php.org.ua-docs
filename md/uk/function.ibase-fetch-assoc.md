@@ -20,7 +20,7 @@ ibase_fetch_assoc(resource $result, int $fetch_flag = 0): array
 
 Витягує рядок результату із запиту у вигляді асоціативного масиву
 
-**ibasefetchassoc()** витягує один рядок даних із результату. Якщо два або більше стовпця результату мають однакові назви полів, останній стовпець матиме пріоритет. Щоб отримати доступ до інших стовпців з тим же ім'ям, вам потрібно отримати доступ до результату за допомогою числових індексів функцією [ibasefetchrow()](function.ibase-fetch-row.html)або використовувати псевдоніми у своєму запиті.
+**ibasefetchassoc()** витягує один рядок даних із результату. Якщо два або більше стовпця результату мають однакові назви полів, останній стовпець матиме пріоритет. Щоб отримати доступ до інших стовпців з тим же ім'ям, вам потрібно отримати доступ до результату за допомогою числових індексів функцією [ibasefetchrow()](function.ibase-fetch-row.md)або використовувати псевдоніми у своєму запиті.
 
 ### Список параметрів
 
@@ -38,5 +38,5 @@ ibase_fetch_assoc(resource $result, int $fetch_flag = 0): array
 
 ### Дивіться також
 
--   [ibasefetchrow()](function.ibase-fetch-row.html) - Витягує рядок із бази даних InterBase
--   [ibasefetchobject()](function.ibase-fetch-object.html) - Отримує об'єкт із бази даних InterBase
+-   [ibasefetchrow()](function.ibase-fetch-row.md) - Витягує рядок із бази даних InterBase
+-   [ibasefetchobject()](function.ibase-fetch-object.md) - Отримує об'єкт із бази даних InterBase

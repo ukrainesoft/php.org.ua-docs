@@ -10,5 +10,5 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](ds.requirements.html)
--   [Установка](ds.installation.html)
+-   [Вимоги](ds.requirements.md)
+-   [Установка](ds.installation.md)

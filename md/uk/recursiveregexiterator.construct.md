@@ -15,7 +15,7 @@ RecursiveRegexIterator::construct - Конструктор класу RecursiveR
 ### Опис
 
 public **RecursiveRegexIterator::construct**  
-[RecursiveIterator](class.recursiveiterator.html) `$iterator`  
+[RecursiveIterator](class.recursiveiterator.md) `$iterator`  
 string `$pattern`  
 int `$mode` = RecursiveRegexIterator::MATCH,  
 int `$flags`  
@@ -35,25 +35,25 @@ int `$pregFlags`
 
 `mode`
 
-Режим роботи, список доступних режимів наведено в описі методу [RegexIterator::setMode()](regexiterator.setmode.html)
+Режим роботи, список доступних режимів наведено в описі методу [RegexIterator::setMode()](regexiterator.setmode.md)
 
 `flags`
 
-Спеціальні прапори. Список доступних прапорів наведено в описі методу [RegexIterator::setFlags()](regexiterator.setflags.html)
+Спеціальні прапори. Список доступних прапорів наведено в описі методу [RegexIterator::setFlags()](regexiterator.setflags.md)
 
 `pregFlags`
 
 Прапори регулярного вираження. Список прапорів залежить від режиму роботи:
 
-**[RegexIterator](class.regexiterator.html) pregflags**
+**[RegexIterator](class.regexiterator.md) pregflags**
 
 | режим работы | доступные флаги |
 | --- | --- |
-| RecursiveRegexIterator::ALLMATCHES | Дивіться [pregmatchall()](function.preg-match-all.html) |
-| RecursiveRegexIterator::GETMATCH | Дивіться [pregmatch()](function.preg-match.html) |
-| RecursiveRegexIterator::MATCH | Дивіться [pregmatch()](function.preg-match.html) |
+| RecursiveRegexIterator::ALLMATCHES | Дивіться [pregmatchall()](function.preg-match-all.md) |
+| RecursiveRegexIterator::GETMATCH | Дивіться [pregmatch()](function.preg-match.md) |
+| RecursiveRegexIterator::MATCH | Дивіться [pregmatch()](function.preg-match.md) |
 | RecursiveRegexIterator::REPLACE | ні |
-| RecursiveRegexIterator::SPLIT | Дивіться [pregsplit()](function.preg-split.html) |
+| RecursiveRegexIterator::SPLIT | Дивіться [pregsplit()](function.preg-split.md) |
 
 ### Приклади
 
@@ -94,7 +94,7 @@ foreach ($rRegexIterator as $key1 => $value1) {
 
 ### Дивіться також
 
--   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
--   [pregmatchall()](function.preg-match-all.html) - Виконує глобальний пошук шаблону у рядку
--   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
--   [pregsplit()](function.preg-split.html) - Розбиває рядок за регулярним виразом
+-   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу
+-   [pregmatchall()](function.preg-match-all.md) - Виконує глобальний пошук шаблону у рядку
+-   [pregreplace()](function.preg-replace.md) - Виконує пошук та заміну за регулярним виразом
+-   [pregsplit()](function.preg-split.md) - Розбиває рядок за регулярним виразом

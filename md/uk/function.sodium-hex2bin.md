@@ -20,7 +20,7 @@ sodium_hex2bin(string $string, string $ignore = ""): string
 
 Декодує рядок, закодований у шістнадцяткове подання до бінарного.
 
-Як і [sodiumbin2hex()](function.sodium-bin2hex.html), функція **sodiumhex2bin()** стійка до атак по стороннім каналам (side-channel attacks), на відміну функції [hex2bin()](function.hex2bin.html)
+Як і [sodiumbin2hex()](function.sodium-bin2hex.html), функція **sodiumhex2bin()** стійка до атак по стороннім каналам (side-channel attacks), на відміну функції [hex2bin()](function.hex2bin.md)
 
 ### Список параметрів
 

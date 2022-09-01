@@ -24,7 +24,7 @@ title: Обумовлені константи
 
 Максимальний пріоритет запиту
 
-Аргумент `whence` функції [eioseek()](function.eio-seek.html)
+Аргумент `whence` функції [eioseek()](function.eio-seek.md)
 
 **`EIO_SEEK_SET`** (int)
 
@@ -38,11 +38,11 @@ title: Обумовлені константи
 
 Зміщення `offset`, заданий у байтах від розміру файлу.
 
-Прапори, що використовуються в [eioreaddir()](function.eio-readdir.html)
+Прапори, що використовуються в [eioreaddir()](function.eio-readdir.md)
 
 **`EIO_READDIR_DENTS`** (int)
 
-Прапор [eioreaddir()](function.eio-readdir.html). Якщо вказано, аргумент для виконання callback-функції стає масивом із такими ключами: `'names'` - масив імен директорії `'dents'` - масив масивів виду `struct eio_dirent`, кожен з яких має ключі: `'name'` - Ім'я директорії; `'type'` - одна з констант *EIOДП* `'inode'` - Номер inode, якщо він доступний, інакше значення не вказується;
+Прапор [eioreaddir()](function.eio-readdir.md). Якщо вказано, аргумент для виконання callback-функції стає масивом із такими ключами: `'names'` - масив імен директорії `'dents'` - масив масивів виду `struct eio_dirent`, кожен з яких має ключі: `'name'` - Ім'я директорії; `'type'` - одна з констант *EIOДП* `'inode'` - Номер inode, якщо він доступний, інакше значення не вказується;
 
 **`EIO_READDIR_DIRS_FIRST`** (int)
 
@@ -116,7 +116,7 @@ title: Обумовлені константи
 
 Найбільше значення типу вузла
 
-Режими доступу для [eioopen()](function.eio-open.html) аргумент `flags`
+Режими доступу для [eioopen()](function.eio-open.md) аргумент `flags`
 
 **`EIO_O_RDONLY`** (int)
 
@@ -136,7 +136,7 @@ title: Обумовлені константи
 
 **`EIO_O_FSYNC`** (int)
 
-Прапори аргументу `mode` функції [eioopen()](function.eio-open.html)
+Прапори аргументу `mode` функції [eioopen()](function.eio-open.md)
 
 **`EIO_S_IRUSR`** (int)
 
@@ -166,7 +166,7 @@ title: Обумовлені константи
 
 **`EIO_S_IFSOCK`** (int)
 
-Прапори функції [eiosyncfilerange()](function.eio-sync-file-range.html)
+Прапори функції [eiosyncfilerange()](function.eio-sync-file-range.md)
 
 **`EIO_SYNC_FILE_RANGE_WAIT_BEFORE`** (int)
 
@@ -174,7 +174,7 @@ title: Обумовлені константи
 
 **`EIO_SYNC_FILE_RANGE_WAIT_AFTER`** (int)
 
-Прапори функції [eiofallocate()](function.eio-fallocate.html)
+Прапори функції [eiofallocate()](function.eio-fallocate.md)
 
 **`EIO_FALLOC_FL_KEEP_SIZE`** (int)
 

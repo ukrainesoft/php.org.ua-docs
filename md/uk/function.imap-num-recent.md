@@ -24,7 +24,7 @@ imap_num_recent(IMAP\Connection $imap): int
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 ### Значення, що повертаються
 
@@ -34,9 +34,9 @@ imap_num_recent(IMAP\Connection $imap): int
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [imapnummsg()](function.imap-num-msg.html) - Отримати кількість повідомлень у поточній поштовій скриньці
--   [imapstatus()](function.imap-status.html) - Отримати інформацію про статус поштової скриньки
+-   [imapnummsg()](function.imap-num-msg.md) - Отримати кількість повідомлень у поточній поштовій скриньці
+-   [imapstatus()](function.imap-status.md) - Отримати інформацію про статус поштової скриньки

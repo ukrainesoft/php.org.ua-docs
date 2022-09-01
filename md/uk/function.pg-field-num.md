@@ -28,7 +28,7 @@ pg_field_num(PgSql\Result $result, string $field): int
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `field`
 
@@ -42,7 +42,7 @@ pg_field_num(PgSql\Result $result, string $field): int
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -66,4 +66,4 @@ pg_field_num(PgSql\Result $result, string $field): int
 
 ### Дивіться також
 
--   [пгfieldname()](function.pg-field-name.html) - Повертає найменування поля
+-   [пгfieldname()](function.pg-field-name.md) - Повертає найменування поля

@@ -60,4 +60,4 @@ bool(false)
 
 ### Дивіться також
 
--   [ReflectionClass::getConstants()](reflectionclass.getconstants.html) - Повертає константи
+-   [ReflectionClass::getConstants()](reflectionclass.getconstants.md) - Повертає константи

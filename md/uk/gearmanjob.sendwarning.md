@@ -32,6 +32,6 @@ public GearmanJob::sendWarning(string $warning): bool
 
 ### Дивіться також
 
--   [GearmanJob::sendComplete()](gearmanjob.sendcomplete.html) - Відправлення результату та статусу завершення
--   [GearmanJob::sendException()](gearmanjob.sendexception.html) - Відправлення виключення завдання, що виконується
--   [GearmanJob::sendFail()](gearmanjob.sendfail.html) - Відправлення статусу невдалої операції
+-   [GearmanJob::sendComplete()](gearmanjob.sendcomplete.md) - Відправлення результату та статусу завершення
+-   [GearmanJob::sendException()](gearmanjob.sendexception.md) - Відправлення виключення завдання, що виконується
+-   [GearmanJob::sendFail()](gearmanjob.sendfail.md) - Відправлення статусу невдалої операції

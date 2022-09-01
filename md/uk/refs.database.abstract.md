@@ -8,27 +8,27 @@ title: Рівні абстракції
 ---
 # Рівні абстракції
 
--   [DBA](book.dba.html) - Database (dbm-style) Abstraction Layer
-    -   [Введение](intro.dba.html)
-    -   [Встановлення та налаштування](dba.setup.html)
-    -   [Обумовлені константи](dba.constants.html)
-    -   [Приклади](dba.examples.html)
-    -   [Функції DBA](ref.dba.html)
--   [ODBC](book.uodbc.html) - ODBC (Unified)
-    -   [Введение](intro.uodbc.html)
-    -   [Встановлення та налаштування](uodbc.setup.html)
-    -   [Обумовлені константи](uodbc.constants.html)
-    -   [Функции ODBC](ref.uodbc.html)
--   [PDO](book.pdo.html) - Об'єкти даних PHP
-    -   [Введение](intro.pdo.html)
-    -   [Встановлення та налаштування](pdo.setup.html)
-    -   [Обумовлені константи](pdo.constants.html)
-    -   [Подключения и управление подключениями](pdo.connections.html)
-    -   [Транзакції та автоматична фіксація змін](pdo.transactions.html)
-    -   [Підготовлені запити та процедури, що зберігаються](pdo.prepared-statements.html)
-    -   [Ошибки и их обработка](pdo.error-handling.html)
-    -   [Великі об'єкти (LOB)](pdo.lobs.html)
-    -   [PDO](class.pdo.html) - Клас PDO
-    -   [PDOStatement](class.pdostatement.html) - Клас PDOStatement
-    -   [PDOException](class.pdoexception.html) - Клас PDOException
-    -   [Драйвери PDO](pdo.drivers.html)
+-   [DBA](book.dba.md) - Database (dbm-style) Abstraction Layer
+    -   [Введение](intro.dba.md)
+    -   [Встановлення та налаштування](dba.setup.md)
+    -   [Обумовлені константи](dba.constants.md)
+    -   [Приклади](dba.examples.md)
+    -   [Функції DBA](ref.dba.md)
+-   [ODBC](book.uodbc.md) - ODBC (Unified)
+    -   [Введение](intro.uodbc.md)
+    -   [Встановлення та налаштування](uodbc.setup.md)
+    -   [Обумовлені константи](uodbc.constants.md)
+    -   [Функции ODBC](ref.uodbc.md)
+-   [PDO](book.pdo.md) - Об'єкти даних PHP
+    -   [Введение](intro.pdo.md)
+    -   [Встановлення та налаштування](pdo.setup.md)
+    -   [Обумовлені константи](pdo.constants.md)
+    -   [Подключения и управление подключениями](pdo.connections.md)
+    -   [Транзакції та автоматична фіксація змін](pdo.transactions.md)
+    -   [Підготовлені запити та процедури, що зберігаються](pdo.prepared-statements.md)
+    -   [Ошибки и их обработка](pdo.error-handling.md)
+    -   [Великі об'єкти (LOB)](pdo.lobs.md)
+    -   [PDO](class.pdo.md) - Клас PDO
+    -   [PDOStatement](class.pdostatement.md) - Клас PDOStatement
+    -   [PDOException](class.pdoexception.md) - Клас PDOException
+    -   [Драйвери PDO](pdo.drivers.md)

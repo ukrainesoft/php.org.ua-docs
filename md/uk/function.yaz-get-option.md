@@ -24,7 +24,7 @@ yaz_get_option(resource $id, string $name): string
 
 `id`
 
-Ресурс підключення, що повертається [yazconnect()](function.yaz-connect.html)
+Ресурс підключення, що повертається [yazconnect()](function.yaz-connect.md)
 
 `name`
 
@@ -36,4 +36,4 @@ yaz_get_option(resource $id, string $name): string
 
 ### Дивіться також
 
--   Опис [yazsetoption()](function.yaz-set-option.html) - Встановлює параметри з'єднання для перегляду доступних параметрів
+-   Опис [yazsetoption()](function.yaz-set-option.md) - Встановлює параметри з'єднання для перегляду доступних параметрів

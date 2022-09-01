@@ -382,15 +382,15 @@ title: Обумовлені константи
 
 **`MYSQLI_TRANS_START_READ_ONLY`**
 
-Починає транзакцію як "START TRANSACTION READ ONLY" з [mysqlibegintransaction()](mysqli.begin-transaction.html)
+Починає транзакцію як "START TRANSACTION READ ONLY" з [mysqlibegintransaction()](mysqli.begin-transaction.md)
 
 **`MYSQLI_TRANS_START_READ_WRITE`**
 
-Починає транзакцію як "START TRANSACTION READ WRITE" з [mysqlibegintransaction()](mysqli.begin-transaction.html)
+Починає транзакцію як "START TRANSACTION READ WRITE" з [mysqlibegintransaction()](mysqli.begin-transaction.md)
 
 **`MYSQLI_TRANS_START_CONSISTENT_SNAPSHOT`**
 
-Починає транзакцію як "START TRANSACTION WITH CONSISTENT SNAPSHOT" з [mysqlibegintransaction()](mysqli.begin-transaction.html)
+Починає транзакцію як "START TRANSACTION WITH CONSISTENT SNAPSHOT" з [mysqlibegintransaction()](mysqli.begin-transaction.md)
 
 **`MYSQLI_CLIENT_SSL_DONT_VERIFY_SERVER_CERT`**
 

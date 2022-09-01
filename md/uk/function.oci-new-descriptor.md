@@ -24,7 +24,7 @@ oci_new_descriptor(resource $connection, int $type = OCI_DTYPE_LOB): ?OCILob
 
 `connection`
 
-Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [ociconnect()](function.oci-connect.html) або [ocipconnect()](function.oci-pconnect.html)
+Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [ociconnect()](function.oci-connect.html) або [ocipconnect()](function.oci-pconnect.md)
 
 `type`
 
@@ -145,4 +145,4 @@ oci_free_statement($stmt);
 
 ### Дивіться також
 
--   [ocibindбname()](function.oci-bind-by-name.html) - Прикріплює змінну PHP до відповідної мітки у SQL-вираженні
+-   [ocibindбname()](function.oci-bind-by-name.md) - Прикріплює змінну PHP до відповідної мітки у SQL-вираженні

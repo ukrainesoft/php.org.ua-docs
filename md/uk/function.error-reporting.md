@@ -81,4 +81,4 @@ ini_set('error_reporting', E_ALL);
 -   Директива [displayerrors](errorfunc.configuration.html#ini.display-errors)
 -   Директива [htmlerrors](errorfunc.configuration.html#ini.html-errors)
 -   Директива [xmlrpcerrors](errorfunc.configuration.html#ini.xmlrpc-errors)
--   [iniset()](function.ini-set.html) - Встановлює налаштування конфігурації
+-   [iniset()](function.ini-set.md) - Встановлює налаштування конфігурації

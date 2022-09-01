@@ -10,7 +10,7 @@ title: 'finfo::setflags'
 
 (PHP >= 5.3.0, PHP 7, PHP 8, PECL fileinfo >= 0.1.0)
 
-finfo::setflags - Псевдонім [finfosetflags()](function.finfo-set-flags.html)
+finfo::setflags - Псевдонім [finfosetflags()](function.finfo-set-flags.md)
 
 ### Опис
 
@@ -18,4 +18,4 @@ finfo::setflags - Псевдонім [finfosetflags()](function.finfo-set-flags.
 public finfo::set_flags(int $flags): bool
 ```
 
-Ця функція є псевдонімом: [finfosetflags()](function.finfo-set-flags.html)
+Ця функція є псевдонімом: [finfosetflags()](function.finfo-set-flags.md)

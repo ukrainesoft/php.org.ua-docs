@@ -94,9 +94,9 @@ Array
 
 ### Дивіться також
 
--   [ArrayObject::asort()](arrayobject.asort.html) - Сортувати записи за значенням
--   [ArrayObject::ksort()](arrayobject.ksort.html) - Сортувати записи за ключами
--   [ArrayObject::natsort()](arrayobject.natsort.html) - Сортувати масив, використовуючи алгоритм "natural order"
--   [ArrayObject::natcasesort()](arrayobject.natcasesort.html) - Сортувати масив, використовуючи реєстронезалежний алгоритм "natural order"
--   [ArrayObject::uksort()](arrayobject.uksort.html) - Сортувати масив за ключами, використовуючи функцію користувача для порівняння
--   [uasort()](function.uasort.html) - Сортує масив, використовуючи функцію користувача для порівняння елементів зі збереженням ключів
+-   [ArrayObject::asort()](arrayobject.asort.md) - Сортувати записи за значенням
+-   [ArrayObject::ksort()](arrayobject.ksort.md) - Сортувати записи за ключами
+-   [ArrayObject::natsort()](arrayobject.natsort.md) - Сортувати масив, використовуючи алгоритм "natural order"
+-   [ArrayObject::natcasesort()](arrayobject.natcasesort.md) - Сортувати масив, використовуючи реєстронезалежний алгоритм "natural order"
+-   [ArrayObject::uksort()](arrayobject.uksort.md) - Сортувати масив за ключами, використовуючи функцію користувача для порівняння
+-   [uasort()](function.uasort.md) - Сортує масив, використовуючи функцію користувача для порівняння елементів зі збереженням ключів

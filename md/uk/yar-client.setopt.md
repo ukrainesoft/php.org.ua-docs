@@ -57,4 +57,4 @@ $result = $client->some_method("parameter");
 
 ### Дивіться також
 
--   [YarClient::call()](yar-client.call.html) - Виклик сервісу
+-   [YarClient::call()](yar-client.call.md) - Виклик сервісу

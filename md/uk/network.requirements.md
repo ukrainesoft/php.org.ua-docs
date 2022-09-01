@@ -8,4 +8,4 @@ title: Вимоги
 ---
 ## Вимоги
 
-Функції [checkdnsrr()](function.checkdnsrr.md) [getmxrr()](function.getmxrr.md) і [dnsgetrecord()](function.dns-get-record.html) вимагають наявності Bind у Linux.
+Функції [checkdnsrr()](function.checkdnsrr.md) [getmxrr()](function.getmxrr.md) і [dnsgetrecord()](function.dns-get-record.md) вимагають наявності Bind у Linux.

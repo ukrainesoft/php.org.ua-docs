@@ -10,12 +10,12 @@ title: fbirdexecute
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdexecute - Псевдонім [ibaseexecute()](function.ibase-execute.html)
+fbirdexecute - Псевдонім [ibaseexecute()](function.ibase-execute.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibaseexecute()](function.ibase-execute.html)
+Ця функція є псевдонімом: [ibaseexecute()](function.ibase-execute.md)
 
 ### Дивіться також
 
--   [fbirdquery()](function.fbird-query.html) - Псевдонім ibasequery
+-   [fbirdquery()](function.fbird-query.md) - Псевдонім ibasequery

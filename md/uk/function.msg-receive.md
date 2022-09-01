@@ -72,7 +72,7 @@ msg_receive(    SysvMessageQueue $queue,    int $desired_message_type, 
 
 ### Дивіться також
 
--   [msgremovequeue()](function.msg-remove-queue.html) - Видалення черги повідомлень
--   [msgsend()](function.msg-send.html) - Надсилання повідомлення в чергу повідомлень
--   [msgstatqueue()](function.msg-stat-queue.html) - Отримання інформації із структури даних черги повідомлень
--   [msgsetqueue()](function.msg-set-queue.html) - Встановлення інформації у структурі даних черги повідомлень
+-   [msgremovequeue()](function.msg-remove-queue.md) - Видалення черги повідомлень
+-   [msgsend()](function.msg-send.md) - Надсилання повідомлення в чергу повідомлень
+-   [msgstatqueue()](function.msg-stat-queue.md) - Отримання інформації із структури даних черги повідомлень
+-   [msgsetqueue()](function.msg-set-queue.md) - Встановлення інформації у структурі даних черги повідомлень

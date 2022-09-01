@@ -32,4 +32,4 @@ pcntl_strerror(int $error_code): string
 
 ### Дивіться також
 
--   [pcntlgetlasterror()](function.pcntl-get-last-error.html) - Отримати код останньої помилки, що виникла в pcntl-функції
+-   [pcntlgetlasterror()](function.pcntl-get-last-error.md) - Отримати код останньої помилки, що виникла в pcntl-функції

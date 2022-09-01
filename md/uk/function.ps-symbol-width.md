@@ -24,7 +24,7 @@ ps_symbol_width(    resource $psdoc,    int $ord,    int $fontid = 0
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `ord`
 
@@ -44,5 +44,5 @@ ps_symbol_width(    resource $psdoc,    int $ord,    int $fontid = 0
 
 ### Дивіться також
 
--   [псsymbol()](function.ps-symbol.html) - Виводить гліф
--   [псsymbolname()](function.ps-symbol-name.html) - Отримує ім'я гліфа
+-   [псsymbol()](function.ps-symbol.md) - Виводить гліф
+-   [псsymbolname()](function.ps-symbol-name.md) - Отримує ім'я гліфа

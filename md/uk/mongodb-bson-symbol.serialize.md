@@ -24,14 +24,14 @@ final public MongoDB\BSON\Symbol::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBBSONSymbol](class.mongodb-bson-symbol.html)
+Повертає серіалізовану виставу [MongoDBBSONSymbol](class.mongodb-bson-symbol.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONSymbol::unserialize()](mongodb-bson-symbol.unserialize.html) - Десеріалізує Symbol
+-   [MongoDBBSONSymbol::unserialize()](mongodb-bson-symbol.unserialize.md) - Десеріалізує Symbol
 -   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

@@ -33,4 +33,4 @@ public streamWrapper::dir_closedir(): bool
 ### Дивіться також
 
 -   [closedir()](function.closedir.md) - Закриває дескриптор каталогу
--   [streamWrapper::diropendir()](streamwrapper.dir-opendir.html) - відкрити дескриптор директорії
+-   [streamWrapper::diropendir()](streamwrapper.dir-opendir.md) - відкрити дескриптор директорії

@@ -24,7 +24,7 @@ session_save_path(?string $path = null): string|false
 
 `path`
 
-Шлях для даних сесії. Якщо вказано і не дорівнює **`null`**, то шлях, куди зберігаються дані, буде змінено. Для цієї мети **sessionsavepath()** слід викликати перед [sessionstart()](function.session-start.html)
+Шлях для даних сесії. Якщо вказано і не дорівнює **`null`**, то шлях, куди зберігаються дані, буде змінено. Для цієї мети **sessionsavepath()** слід викликати перед [sessionstart()](function.session-start.md)
 
 > **Зауваження**
 > 

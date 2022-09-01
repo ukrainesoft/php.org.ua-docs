@@ -12,7 +12,7 @@ title: Інтерфейс SessionIdInterface
 
 ## Вступ
 
-**SessionIdInterface** - це інтерфейс, який визначає необов'язкові методи для створення користувача сесії. Для надання користувальницького оброблювача сесії функції [sessionsetsavehandler()](function.session-set-save-handler.html), Використовуючи її ООП реалізацію, клас повинен реалізовувати цей інтерфейс.
+**SessionIdInterface** - це інтерфейс, який визначає необов'язкові методи для створення користувача сесії. Для надання користувальницького оброблювача сесії функції [sessionsetsavehandler()](function.session-set-save-handler.md), Використовуючи її ООП реалізацію, клас повинен реалізовувати цей інтерфейс.
 
 Зауважте, що callback-методи цього класу створені для внутрішніх викликів PHP і не призначені для викликів з вашого коду.
 
@@ -36,4 +36,4 @@ title: Інтерфейс SessionIdInterface
 
 ## Зміст
 
--   [SessionIdInterface::createsid](sessionidinterface.create-sid.html) — Створити ідентифікатор сесії
+-   [SessionIdInterface::createsid](sessionidinterface.create-sid.md) — Створити ідентифікатор сесії

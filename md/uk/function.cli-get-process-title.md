@@ -18,7 +18,7 @@ cligetprocesstitle — Повертає заголовок поточного п
 cli_get_process_title(): ?string
 ```
 
-Повертає заголовок поточного процесу, встановлений [clisetprocesstitle()](function.cli-set-process-title.html). Зауважте, що залежно від вашої операційної системи, це ім'я може не збігатися з тим, що покажуть утиліти **пс** і **top**
+Повертає заголовок поточного процесу, встановлений [clisetprocesstitle()](function.cli-set-process-title.md). Зауважте, що залежно від вашої операційної системи, це ім'я може не збігатися з тим, що покажуть утиліти **пс** і **top**
 
 Ця функція доступна лише в режимі [CLI](features.commandline.md)
 
@@ -46,4 +46,4 @@ echo "Заголовок процесса: " . cli_get_process_title() . 
 
 ### Дивіться також
 
--   [clisetprocesstitle()](function.cli-set-process-title.html) - Встановлює заголовок процесу
+-   [clisetprocesstitle()](function.cli-set-process-title.md) - Встановлює заголовок процесу

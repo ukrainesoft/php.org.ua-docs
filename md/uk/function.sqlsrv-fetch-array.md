@@ -106,7 +106,7 @@ sqlsrv_free_stmt( $stmt);
 
 ### Дивіться також
 
--   [sqlsrvconnect()](function.sqlsrv-connect.html) - Відкриває з'єднання з базою даних Microsoft SQL Server
--   [sqlsrvquery()](function.sqlsrv-query.html) - готує та виконує запит
--   [sqlsrverrors()](function.sqlsrv-errors.html) - Повертає інформацію про помилку та попередження останньої виконаної операції SQLSRV
--   [sqlsrvfetch()](function.sqlsrv-fetch.html) - Робить наступний рядок у наборі результатів доступного для читання
+-   [sqlsrvconnect()](function.sqlsrv-connect.md) - Відкриває з'єднання з базою даних Microsoft SQL Server
+-   [sqlsrvquery()](function.sqlsrv-query.md) - готує та виконує запит
+-   [sqlsrverrors()](function.sqlsrv-errors.md) - Повертає інформацію про помилку та попередження останньої виконаної операції SQLSRV
+-   [sqlsrvfetch()](function.sqlsrv-fetch.md) - Робить наступний рядок у наборі результатів доступного для читання

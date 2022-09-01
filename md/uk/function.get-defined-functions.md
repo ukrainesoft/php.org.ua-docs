@@ -83,7 +83,7 @@ Array
 
 ### Дивіться також
 
--   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
--   [getdefinedvars()](function.get-defined-vars.html) - Повертає масив усіх певних змінних
--   [getdefinedconstants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень
--   [getdeclaredclasses()](function.get-declared-classes.html) - Повертає масив із іменами оголошених класів
+-   [functionexists()](function.function-exists.md) - Повертає true, якщо вказана функція визначена
+-   [getdefinedvars()](function.get-defined-vars.md) - Повертає масив усіх певних змінних
+-   [getdefinedconstants()](function.get-defined-constants.md) - Повертає асоціативний масив з іменами всіх констант та їх значень
+-   [getdeclaredclasses()](function.get-declared-classes.md) - Повертає масив із іменами оголошених класів

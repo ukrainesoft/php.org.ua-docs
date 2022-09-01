@@ -76,5 +76,5 @@ Array
 
 ### Дивіться також
 
--   [getloadedextensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
+-   [getloadedextensions()](function.get-loaded-extensions.md) - Повертає масив імен усіх скомпілованих та завантажених модулів
 -   [ReflectionExtension::getFunctions()](reflectionextension.getfunctions.md) - Отримання функцій модуля

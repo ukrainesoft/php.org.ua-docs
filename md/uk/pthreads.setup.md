@@ -10,6 +10,6 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](pthreads.requirements.html)
--   [Установка](pthreads.installation.html)
--   [Налаштування під час виконання](pthreads.configuration.html)
+-   [Вимоги](pthreads.requirements.md)
+-   [Установка](pthreads.installation.md)
+-   [Налаштування під час виконання](pthreads.configuration.md)

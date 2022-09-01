@@ -32,7 +32,7 @@ MongoDB\BSON\fromPHP(array|object $value): string
 
 ### Помилки
 
--   Видає [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html), якщо значення PHP не може бути перетворено на BSON. Можливі причини включають, але не обмежуються, зіткненням з несподіваним екземпляром [MongoDBBSONType](class.mongodb-bson-type.html) або [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html), не може повернути array або **stdClass**
+-   Видає [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html), якщо значення PHP не може бути перетворено на BSON. Можливі причини включають, але не обмежуються, зіткненням з несподіваним екземпляром [MongoDBBSONType](class.mongodb-bson-type.html) або [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md), не може повернути array або **stdClass**
 
 ### Приклади
 
@@ -55,6 +55,6 @@ echo bin2hex($bson), "\n";
 
 ### Дивіться також
 
--   [MongoDBBSONtoPHP()](function.mongodb.bson-tophp.html) - Повертає PHP подання значення BSON
+-   [MongoDBBSONtoPHP()](function.mongodb.bson-tophp.md) - Повертає PHP подання значення BSON
 -   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
 -   [Постійні дані](mongodb.persistence.md)

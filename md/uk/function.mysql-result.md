@@ -14,9 +14,9 @@ mysqlresult — Повертає дані результату запиту
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlidataseek()](mysqli-result.data-seek.html) у зв'язку з [mysqlifieldseek()](mysqli-result.field-seek.html) і [mysqlifetchfield()](mysqli-result.fetch-field.html)
+-   [mysqlidataseek()](mysqli-result.data-seek.html) у зв'язку з [mysqlifieldseek()](mysqli-result.field-seek.html) і [mysqlifetchfield()](mysqli-result.fetch-field.md)
 -   [PDOStatement::fetchColumn()](pdostatement.fetchcolumn.md)
 
 ### Опис
@@ -33,7 +33,7 @@ mysql_result(resource $result, int $row, mixed $field = 0): string
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
 
 `row`
 
@@ -80,7 +80,7 @@ mysql_close($link);
 
 ### Дивіться також
 
--   [mysqlfetchrow()](function.mysql-fetch-row.html) - Обробляє ряд результату запиту та повертає масив із числовими індексами
--   [mysqlfetcharray()](function.mysql-fetch-array.html) - обробляє ряд результату запиту, повертаючи асоціативний масив, чисельний масив або обидва
--   [mysqlfetchassoc()](function.mysql-fetch-assoc.html) - Повертає ряд результату запиту як асоціативний масив.
--   [mysqlfetchobject()](function.mysql-fetch-object.html) - обробляє ряд результату запиту та повертає об'єкт
+-   [mysqlfetchrow()](function.mysql-fetch-row.md) - Обробляє ряд результату запиту та повертає масив із числовими індексами
+-   [mysqlfetcharray()](function.mysql-fetch-array.md) - обробляє ряд результату запиту, повертаючи асоціативний масив, чисельний масив або обидва
+-   [mysqlfetchassoc()](function.mysql-fetch-assoc.md) - Повертає ряд результату запиту як асоціативний масив.
+-   [mysqlfetchobject()](function.mysql-fetch-object.md) - обробляє ряд результату запиту та повертає об'єкт

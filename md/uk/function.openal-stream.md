@@ -22,7 +22,7 @@ openal_stream(resource $source, int $format, int $rate): resource|false
 
 `source`
 
-Ресурс [Open AL(Source)](openal.resources.html) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.html)
+Ресурс [Open AL(Source)](openal.resources.html) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.md)
 
 `format`
 
@@ -38,5 +38,5 @@ openal_stream(resource $source, int $format, int $rate): resource|false
 
 ### Дивіться також
 
--   [openalsourcecreate()](function.openal-source-create.html) - Згенерувати джерело ресурсу
--   [fwrite()](function.fwrite.html) - Бінарно-безпечний запис у файл
+-   [openalsourcecreate()](function.openal-source-create.md) - Згенерувати джерело ресурсу
+-   [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл

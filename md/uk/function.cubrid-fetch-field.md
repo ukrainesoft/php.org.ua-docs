@@ -76,7 +76,7 @@ cubrid_fetch_field(resource $result, int $field_offset = 0): object
 
 `result`
 
-`Result`, отриманий з [cubridexecute()](function.cubrid-execute.html)
+`Result`, отриманий з [cubridexecute()](function.cubrid-execute.md)
 
 `field_offset`
 

@@ -28,4 +28,4 @@ public SolrQuery::getGroupCachePercent(): int
 
 ### Дивіться також
 
--   [SolrQuery::setGroupCachePercent()](solrquery.setgroupcachepercent.html) - Включає кешування для угруповання результатів
+-   [SolrQuery::setGroupCachePercent()](solrquery.setgroupcachepercent.md) - Включає кешування для угруповання результатів

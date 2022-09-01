@@ -10,7 +10,7 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](mcrypt.requirements.html)
--   [Установка](mcrypt.installation.html)
--   [Налаштування під час виконання](mcrypt.configuration.html)
--   [Типи ресурсів](mcrypt.resources.html)
+-   [Вимоги](mcrypt.requirements.md)
+-   [Установка](mcrypt.installation.md)
+-   [Налаштування під час виконання](mcrypt.configuration.md)
+-   [Типи ресурсів](mcrypt.resources.md)

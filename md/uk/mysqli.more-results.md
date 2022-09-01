@@ -28,25 +28,25 @@ public mysqli::more_results(): bool
 mysqli_more_results(mysqli $mysql): bool
 ```
 
-Вказує, чи є доступні результуючі набори від попереднього виклику функції [mysqlimultiquery()](mysqli.multi-query.html)
+Вказує, чи є доступні результуючі набори від попереднього виклику функції [mysqlimultiquery()](mysqli.multi-query.md)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
-Повертається **`true`** у випадку, якщо один або більше результуючих наборів (включно з помилками) доступні після попереднього виклику функції [mysqlimultiquery()](mysqli.multi-query.html)інакше **`false`**
+Повертається **`true`** у випадку, якщо один або більше результуючих наборів (включно з помилками) доступні після попереднього виклику функції [mysqlimultiquery()](mysqli.multi-query.md)інакше **`false`**
 
 ### Приклади
 
-Дивіться [mysqlimultiquery()](mysqli.multi-query.html)
+Дивіться [mysqlimultiquery()](mysqli.multi-query.md)
 
 ### Дивіться також
 
--   [mysqlimultiquery()](mysqli.multi-query.html) - Виконує один або кілька запитів до бази даних
--   [mysqlinextresult()](mysqli.next-result.html) - Підготовка наступного доступного результуючого набору з multiquery
--   [mysqlistoreresult()](mysqli.store-result.html) - передає на клієнта результуючий набір останнього запиту
--   [mysqliuseresult()](mysqli.use-result.html) - Готує результуючий набір на сервері для використання
+-   [mysqlimultiquery()](mysqli.multi-query.md) - Виконує один або кілька запитів до бази даних
+-   [mysqlinextresult()](mysqli.next-result.md) - Підготовка наступного доступного результуючого набору з multiquery
+-   [mysqlistoreresult()](mysqli.store-result.md) - передає на клієнта результуючий набір останнього запиту
+-   [mysqliuseresult()](mysqli.use-result.md) - Готує результуючий набір на сервері для використання

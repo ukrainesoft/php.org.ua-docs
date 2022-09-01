@@ -42,8 +42,8 @@ msg_get_queue(int $key, int $permissions = 0666): SysvMessageQueue|false
 
 ### Дивіться також
 
--   [msgremovequeue()](function.msg-remove-queue.html) - Видалення черги повідомлень
--   [msgreceive()](function.msg-receive.html) - Отримання повідомлення з черги повідомлень
--   [msgsend()](function.msg-send.html) - Надсилання повідомлення в чергу повідомлень
--   [msgstatqueue()](function.msg-stat-queue.html) - Отримання інформації із структури даних черги повідомлень
--   [msgsetqueue()](function.msg-set-queue.html) - Встановлення інформації у структурі даних черги повідомлень
+-   [msgremovequeue()](function.msg-remove-queue.md) - Видалення черги повідомлень
+-   [msgreceive()](function.msg-receive.md) - Отримання повідомлення з черги повідомлень
+-   [msgsend()](function.msg-send.md) - Надсилання повідомлення в чергу повідомлень
+-   [msgstatqueue()](function.msg-stat-queue.md) - Отримання інформації із структури даних черги повідомлень
+-   [msgsetqueue()](function.msg-set-queue.md) - Встановлення інформації у структурі даних черги повідомлень

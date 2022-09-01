@@ -75,4 +75,4 @@ echo $reflectionMethod->invokeArgs(new HelloWorld(), array('Майк'));
 
 -   [ReflectionMethod::invoke()](reflectionmethod.invoke.md) - Виклик
 -   [invoke()](language.oop5.magic.html#object.invoke)
--   [calluserfuncarray()](function.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів
+-   [calluserfuncarray()](function.call-user-func-array.md) - Викликає callback-функцію з масивом параметрів

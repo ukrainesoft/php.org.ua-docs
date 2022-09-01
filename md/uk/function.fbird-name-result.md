@@ -10,13 +10,13 @@ title: fbirdnameresult
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdnameresult - Псевдонім [ibasenameresult()](function.ibase-name-result.html)
+fbirdnameresult - Псевдонім [ibasenameresult()](function.ibase-name-result.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibasenameresult()](function.ibase-name-result.html)
+Ця функція є псевдонімом: [ibasenameresult()](function.ibase-name-result.md)
 
 ### Дивіться також
 
--   [fbirdprepare()](function.fbird-prepare.html) - Псевдонім ibaseprepare
--   [fbirdexecute()](function.fbird-execute.html) - Псевдонім ibaseexecute
+-   [fbirdprepare()](function.fbird-prepare.md) - Псевдонім ibaseprepare
+-   [fbirdexecute()](function.fbird-execute.md) - Псевдонім ibaseexecute

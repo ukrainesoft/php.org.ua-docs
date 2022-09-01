@@ -53,6 +53,6 @@ public UI\Draw\Brush::setColor(int $color): void
 
 ## Зміст
 
--   [ОЙDrawBrushGradient::addStop](ui-draw-brush-gradient.addstop.html) - Додає вузол градієнта
--   [ОЙDrawBrushGradient::delStop](ui-draw-brush-gradient.delstop.html) - Видаляє вузол градієнта
--   [ОЙDrawBrushGradient::setStop](ui-draw-brush-gradient.setstop.html) - Встановлює вузол градієнта
+-   [ОЙDrawBrushGradient::addStop](ui-draw-brush-gradient.addstop.md) - Додає вузол градієнта
+-   [ОЙDrawBrushGradient::delStop](ui-draw-brush-gradient.delstop.md) - Видаляє вузол градієнта
+-   [ОЙDrawBrushGradient::setStop](ui-draw-brush-gradient.setstop.md) - Встановлює вузол градієнта

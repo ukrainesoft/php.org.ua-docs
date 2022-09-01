@@ -61,7 +61,7 @@ socket_recvfrom(    Socket $socket,    string &$data,    int $length
 
 ### Значення, що повертаються
 
-**socketrecvfrom()** повертає кількість отриманих байт або **`false`**, якщо сталася помилка. Фактичний код помилки можна отримати за допомогою виклику функції [socketlasterror()](function.socket-last-error.html). Цей код помилки може бути переданий функції [socketstrerror()](function.socket-strerror.html) для отримання текстового опису помилки.
+**socketrecvfrom()** повертає кількість отриманих байт або **`false`**, якщо сталася помилка. Фактичний код помилки можна отримати за допомогою виклику функції [socketlasterror()](function.socket-last-error.html). Цей код помилки може бути переданий функції [socketstrerror()](function.socket-strerror.md) для отримання текстового опису помилки.
 
 ### список змін
 
@@ -91,7 +91,7 @@ echo "Получено $buf с удалённого адреса $from и
 
 ### Дивіться також
 
--   [socketrecv()](function.socket-recv.html) - Отримує дані із приєднаного сокету
--   [socketsend()](function.socket-send.html) - Надсилає дані в приєднаний сокет
--   [socketsendto()](function.socket-sendto.html) - Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
--   [socketcreate()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
+-   [socketrecv()](function.socket-recv.md) - Отримує дані із приєднаного сокету
+-   [socketsend()](function.socket-send.md) - Надсилає дані в приєднаний сокет
+-   [socketsendto()](function.socket-sendto.md) - Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
+-   [socketcreate()](function.socket-create.md) - створює сокет (кінцеву точку для обміну інформацією)

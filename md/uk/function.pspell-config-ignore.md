@@ -18,13 +18,13 @@ pspellconfigignore — Ігнорує слова довжиною менше N �
 pspell_config_ignore(PSpell\Config $config, int $min_length): bool
 ```
 
-**pspellconfigignore()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.html). Ця функція дозволяє пропускати короткі слова під час перевірки орфографії.
+**pspellconfigignore()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.md). Ця функція дозволяє пропускати короткі слова під час перевірки орфографії.
 
 ### Список параметрів
 
 `config`
 
-Екземпляр [PSpellConfig](class.pspell-config.html)
+Екземпляр [PSpellConfig](class.pspell-config.md)
 
 `min_length`
 
@@ -38,7 +38,7 @@ pspell_config_ignore(PSpell\Config $config, int $min_length): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

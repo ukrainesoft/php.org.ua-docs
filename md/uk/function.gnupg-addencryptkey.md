@@ -22,7 +22,7 @@ gnupg_addencryptkey(resource $identifier, string $fingerprint): bool
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
 
 `fingerprint`
 

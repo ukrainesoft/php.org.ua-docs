@@ -10,7 +10,7 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](fann.requirements.html)
--   [Установка](fann.installation.html)
--   [Налаштування під час виконання](fann.configuration.html)
--   [Типи ресурсів](fann.resources.html)
+-   [Вимоги](fann.requirements.md)
+-   [Установка](fann.installation.md)
+-   [Налаштування під час виконання](fann.configuration.md)
+-   [Типи ресурсів](fann.resources.md)

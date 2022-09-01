@@ -28,7 +28,7 @@ zip_entry_close(resource $zip_entry): bool
 
 `zip_entry`
 
-Дескриптор директорії, раніше відкритий функцією [zipentryopen()](function.zip-entry-open.html)
+Дескриптор директорії, раніше відкритий функцією [zipentryopen()](function.zip-entry-open.md)
 
 ### Значення, що повертаються
 
@@ -42,5 +42,5 @@ zip_entry_close(resource $zip_entry): bool
 
 ### Дивіться також
 
--   [zipentryopen()](function.zip-entry-open.html) - відкриває директорію для читання
--   [zipentryread()](function.zip-entry-read.html) - Читає дані із відкритого раніше дескриптора директорії
+-   [zipentryopen()](function.zip-entry-open.md) - відкриває директорію для читання
+-   [zipentryread()](function.zip-entry-read.md) - Читає дані із відкритого раніше дескриптора директорії

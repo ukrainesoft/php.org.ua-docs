@@ -22,7 +22,7 @@ openal_source_destroy(resource $source): bool
 
 `source`
 
-Ресурс [Open AL(Source)](openal.resources.md) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.html)
+Ресурс [Open AL(Source)](openal.resources.md) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.md)
 
 ### Значення, що повертаються
 
@@ -30,4 +30,4 @@ openal_source_destroy(resource $source): bool
 
 ### Дивіться також
 
--   [openalsourcecreate()](function.openal-source-create.html) - Згенерувати джерело ресурсу
+-   [openalsourcecreate()](function.openal-source-create.md) - Згенерувати джерело ресурсу

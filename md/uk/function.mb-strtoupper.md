@@ -64,6 +64,6 @@ echo $str; // Выведет ΤΆΧΙΣΤΗ ΑΛΏΠΗΞ ΒΑΦΉΣ ΨΗ�
 
 ### Дивіться також
 
--   [мбstrtolower()](function.mb-strtolower.html) - Приведення рядка до нижнього регістру
--   [мбconvertcase()](function.mb-convert-case.html) - Здійснює зміну регістру символів у рядку
+-   [мбstrtolower()](function.mb-strtolower.md) - Приведення рядка до нижнього регістру
+-   [мбconvertcase()](function.mb-convert-case.md) - Здійснює зміну регістру символів у рядку
 -   [strtoupper()](function.strtoupper.md) - Перетворює рядок у верхній регістр

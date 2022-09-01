@@ -158,4 +158,4 @@ NON_NULLABLE_COLUMNS: bool(true)
 
 ### Дивіться також
 
--   [db2clientinfo()](function.db2-client-info.html) - Повертає об'єкт із властивостями, що описують клієнта DB2
+-   [db2clientinfo()](function.db2-client-info.md) - Повертає об'єкт із властивостями, що описують клієнта DB2

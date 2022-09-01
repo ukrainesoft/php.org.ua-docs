@@ -28,8 +28,8 @@ ps_get_buffer(resource $psdoc): string
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 ### Дивіться також
 
--   [псopenfile()](function.ps-open-file.html) - Відкриває файл для виводу
+-   [псopenfile()](function.ps-open-file.md) - Відкриває файл для виводу

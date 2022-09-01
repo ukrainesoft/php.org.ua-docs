@@ -20,7 +20,7 @@ set_error_handler(?callable $callback, int $error_levels = E_ALL): ?callable
 
 Задає функцію користувача (`callback`), як обробник помилок у скрипті.
 
-Ця функція використовується визначення власного оброблювача помилок часу виконання скрипта. Наприклад, якщо потрібно очистити дані/файли, коли відбулася критична помилка, або якщо потрібно переключити тип помилки, виходячи з якихось умов (використовуючи функцію [triggererror()](function.trigger-error.html)
+Ця функція використовується визначення власного оброблювача помилок часу виконання скрипта. Наприклад, якщо потрібно очистити дані/файли, коли відбулася критична помилка, або якщо потрібно переключити тип помилки, виходячи з якихось умов (використовуючи функцію [triggererror()](function.trigger-error.md)
 
 Важливо пам'ятати, що стандартний обробник помилок PHP не оброблятиме жодні типи помилок, визначені в `error_levels`, поки callback-функція не поверне **`false`**. Користувальницький обробник буде викликатися за будь-якої помилки, незалежно від налаштувань, заданих функцією [errorreporting](errorfunc.configuration.html#ini.error-reporting)
 
@@ -83,7 +83,7 @@ handler(    int $errno,    string $errstr,    string $errfile = ?, 
 
 ### Приклади
 
-**Приклад #1 Обробка помилок за допомогою функцій **seterrorhandler()** і [triggererror()](function.trigger-error.html)**
+**Приклад #1 Обробка помилок за допомогою функцій **seterrorhandler()** і [triggererror()](function.trigger-error.md)**
 
 Приклад нижче демонструє обробку внутрішніх виключень шляхом виклику помилок різних типів та їх обробки функцією користувача:
 
@@ -217,7 +217,7 @@ vector d - fatal error
 ### Дивіться також
 
 -   [ErrorException](class.errorexception.md)
--   [errorreporting()](function.error-reporting.html) - Задає, які помилки PHP потраплять у звіт
--   [restoreerrorhandler()](function.restore-error-handler.html) - Відновлює попередній обробник помилок
--   [triggererror()](function.trigger-error.html) - Викликає помилку користувача/попередження/повідомлення
+-   [errorreporting()](function.error-reporting.md) - Задає, які помилки PHP потраплять у звіт
+-   [restoreerrorhandler()](function.restore-error-handler.md) - Відновлює попередній обробник помилок
+-   [triggererror()](function.trigger-error.md) - Викликає помилку користувача/попередження/повідомлення
 -   [Константи рівнів помилок](errorfunc.constants.md)

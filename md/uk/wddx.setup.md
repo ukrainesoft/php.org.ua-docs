@@ -10,7 +10,7 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](wddx.requirements.html)
--   [Установка](wddx.installation.html)
--   [Налаштування під час виконання](wddx.configuration.html)
--   [Типи ресурсів](wddx.resources.html)
+-   [Вимоги](wddx.requirements.md)
+-   [Установка](wddx.installation.md)
+-   [Налаштування під час виконання](wddx.configuration.md)
+-   [Типи ресурсів](wddx.resources.md)

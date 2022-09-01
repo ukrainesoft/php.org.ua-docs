@@ -80,12 +80,12 @@ Array
 
 > **Зауваження**
 > 
-> У Windows функція **exec()** стартує cmd.exe для запуску команди. Якщо ви бажаєте запустити зовнішню програму без запуску cmd.exe, використовуйте функцію [procopen()](function.proc-open.html) із встановленою опцією `bypass_shell`
+> У Windows функція **exec()** стартує cmd.exe для запуску команди. Якщо ви бажаєте запустити зовнішню програму без запуску cmd.exe, використовуйте функцію [procopen()](function.proc-open.md) із встановленою опцією `bypass_shell`
 
 ### Дивіться також
 
 -   [system()](function.system.md) - Виконати зовнішню програму та відобразити висновок
 -   [passthru()](function.passthru.md) - Виконати зовнішню програму та відобразити необроблений висновок
 -   [escapeshellcmd()](function.escapeshellcmd.md) - Екранувати метасимволи командного рядка
--   [pcntlexec()](function.pcntl-exec.html) - Запустити вказану програму в галузі поточного процесу
+-   [pcntlexec()](function.pcntl-exec.md) - Запустити вказану програму в галузі поточного процесу
 -   [Оператор исполнения](language.operators.execution.md)

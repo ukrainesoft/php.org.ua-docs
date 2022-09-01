@@ -66,5 +66,5 @@ echo mb_strimwidth("Hello World", 0, 10, "...");
 
 ### Дивіться також
 
--   [мбstrwidth()](function.mb-strwidth.html) - Повертає ширину рядка
--   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбstrwidth()](function.mb-strwidth.md) - Повертає ширину рядка
+-   [мбinternalencoding()](function.mb-internal-encoding.md) - Встановлення/отримання внутрішнього кодування скрипту

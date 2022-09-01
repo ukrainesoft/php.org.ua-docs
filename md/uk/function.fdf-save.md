@@ -24,7 +24,7 @@ fdf_save(resource $fdf_document, string $filename = ?): bool
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.md)
 
 `filename`
 
@@ -36,6 +36,6 @@ fdf_save(resource $fdf_document, string $filename = ?): bool
 
 ### Дивіться також
 
--   [fdfclose()](function.fdf-close.html) - Закриває FDF-документ
--   [fdfcreate()](function.fdf-create.html) - Створює новий документ FDF
--   [fdfsavestring()](function.fdf-save-string.html) - Повертає документ FDF у вигляді рядка
+-   [fdfclose()](function.fdf-close.md) - Закриває FDF-документ
+-   [fdfcreate()](function.fdf-create.md) - Створює новий документ FDF
+-   [fdfsavestring()](function.fdf-save-string.md) - Повертає документ FDF у вигляді рядка

@@ -20,7 +20,7 @@ public static Seaslog::getBasePath(): string
 
 Використовуйте функцію **SeasLog::getBasePath()**, щоб отримати значення [seaslog.defaultbasepath](seaslog.configuration.html#ini.seaslog.default-basepath), яка налаштована в php.ini (seaslog.ini).
 
-Якщо ви використовуєте [Seaslog::setBasePath()](seaslog.setbasepath.html)результат зміниться.
+Якщо ви використовуєте [Seaslog::setBasePath()](seaslog.setbasepath.md)результат зміниться.
 
 ### Список параметрів
 

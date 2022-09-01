@@ -10,7 +10,7 @@ title: Функції Oracle (PDOOCI)
 
 ## Встановлення
 
-Якщо база даних Oracle знаходиться на тому ж комп'ютері, що і PHP, програмне забезпечення бази даних містить необхідні бібліотеки. Якщо PHP знаходиться на іншому комп'ютері, використовуйте безкоштовні бібліотеки [» Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client.html). Детальніше дивіться [Вимогих OCI8](oci8.requirements.md)
+Якщо база даних Oracle знаходиться на тому ж комп'ютері, що і PHP, програмне забезпечення бази даних містить необхідні бібліотеки. Якщо PHP знаходиться на іншому комп'ютері, використовуйте безкоштовні бібліотеки [» Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client.md). Детальніше дивіться [Вимогих OCI8](oci8.requirements.md)
 
 Для встановлення модуля PDO Oracle OCI використовуйте опцію **\-with-pdo-oci=DIR**, де `[=DIR]` - необов'язкове значення, що вказує на домашню директорію Oracle. За замовчуванням `[=DIR]` набуває значення змінної оточення $ORACLEHOME.
 
@@ -54,4 +54,4 @@ $ ./configure --with-pdo-oci=instantclient,/usr,10.2.0.3
 
 ## Зміст
 
--   [PDOOCI DSN](ref.pdo-oci.connection.html) — З'єднання з базою даних Oracle
+-   [PDOOCI DSN](ref.pdo-oci.connection.md) — З'єднання з базою даних Oracle

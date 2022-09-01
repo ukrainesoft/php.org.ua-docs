@@ -26,6 +26,6 @@ ps_open_memory_image(resource $psdoc, int $gd): int
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `gd`

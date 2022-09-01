@@ -61,6 +61,6 @@ if (is_writable($filename)) {
 
 ### Дивіться також
 
--   [ісreadable()](function.is-readable.html) - Визначає існування файлу і чи він доступний для читання
--   [fileexists()](function.file-exists.html) - Перевіряє існування вказаного файлу чи каталогу
+-   [ісreadable()](function.is-readable.md) - Визначає існування файлу і чи він доступний для читання
+-   [fileexists()](function.file-exists.md) - Перевіряє існування вказаного файлу чи каталогу
 -   [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл

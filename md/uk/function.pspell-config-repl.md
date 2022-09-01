@@ -20,15 +20,15 @@ pspell_config_repl(PSpell\Config $config, string $filename): bool
 
 Встановлює файл, що містить пари, що заміщають.
 
-Заміщаючі пари підвищують якість перевірки орфографії. Коли слово написано з помилками, а правильний варіант не знайдено у списку, [pspellstorereplacement()](function.pspell-store-replacement.html) може бути використана для того, щоб зберегти заміщувальну пару, а [pspellsavewordlist()](function.pspell-save-wordlist.html) - щоб зберегти список слів разом із заміщувальною парою.
+Заміщаючі пари підвищують якість перевірки орфографії. Коли слово написано з помилками, а правильний варіант не знайдено у списку, [pspellstorereplacement()](function.pspell-store-replacement.html) може бути використана для того, щоб зберегти заміщувальну пару, а [pspellsavewordlist()](function.pspell-save-wordlist.md) - щоб зберегти список слів разом із заміщувальною парою.
 
-**pspellconfigrepl()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.html)
+**pspellconfigrepl()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.md)
 
 ### Список параметрів
 
 `config`
 
-Екземпляр [PSpellConfig](class.pspell-config.html)
+Екземпляр [PSpellConfig](class.pspell-config.md)
 
 `filename`
 
@@ -42,7 +42,7 @@ pspell_config_repl(PSpell\Config $config, string $filename): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

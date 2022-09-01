@@ -26,7 +26,7 @@ ps_add_bookmark(    resource $psdoc,    string $text,    int $parent
 
 `psdoc`
 
-Ідентифікатор ресурсу, що повертається [псnew()](function.ps-new.html), що посилається на postscript-файл.
+Ідентифікатор ресурсу, що повертається [псnew()](function.ps-new.md), що посилається на postscript-файл.
 
 `text`
 
@@ -46,6 +46,6 @@ ps_add_bookmark(    resource $psdoc,    string $text,    int $parent
 
 ### Дивіться також
 
--   [псaddlaunchlink()](function.ps-add-launchlink.html) - Додає посилання, яке запускає файл
--   [псaddpdflink()](function.ps-add-pdflink.html) - Додає посилання на сторінку в іншому PDF-документі
--   [псaddweblink()](function.ps-add-weblink.html) - Додає посилання на веб-сторінку
+-   [псaddlaunchlink()](function.ps-add-launchlink.md) - Додає посилання, яке запускає файл
+-   [псaddpdflink()](function.ps-add-pdflink.md) - Додає посилання на сторінку в іншому PDF-документі
+-   [псaddweblink()](function.ps-add-weblink.md) - Додає посилання на веб-сторінку

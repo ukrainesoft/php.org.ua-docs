@@ -14,7 +14,7 @@ title: Клас MongoDBBSONTimestamp
 
 Уявляє [» метку времени BSON](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps). Значення складається з 4-байтової мітки часу (тобто секунди з початку епохи) та 4-байтового збільшення.
 
-> **Зауваження**: Це внутрішній тип MongoDB, що використовується для реплікації та поділу. Він не призначений для загального зберігання дат (замість нього слід використовувати [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.html)
+> **Зауваження**: Це внутрішній тип MongoDB, що використовується для реплікації та поділу. Він не призначений для загального зберігання дат (замість нього слід використовувати [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.md)
 
 ## Огляд класів
 
@@ -50,15 +50,15 @@ final public unserialize(string $serialized): void
 | Версия | Описание |
 | --- | --- |
 | PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
-| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONTimestampInterface](class.mongodb-bson-timestampinterface.html) |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONTimestampInterface](class.mongodb-bson-timestampinterface.md) |
 | PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md) |
 
 ## Зміст
 
--   [MongoDBBSONTimestamp::construct](mongodb-bson-timestamp.construct.html) - Створює новий Timestamp
--   [MongoDBBSONTimestamp::getIncrement](mongodb-bson-timestamp.getincrement.html) — Повертає компонент збільшення Timestamp
--   [MongoDBBSONTimestamp::getTimestamp](mongodb-bson-timestamp.gettimestamp.html) - Повертає компонент позначки часу Timestamp
--   [MongoDBBSONTimestamp::jsonSerialize](mongodb-bson-timestamp.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDBBSONTimestamp::serialize](mongodb-bson-timestamp.serialize.html) - Серіалізує Timestamp
--   [MongoDBBSONTimestamp::toString](mongodb-bson-timestamp.tostring.html) — Повертає строкову виставу Timestamp
--   [MongoDBBSONTimestamp::unserialize](mongodb-bson-timestamp.unserialize.html) - Десеріалізує Timestamp
+-   [MongoDBBSONTimestamp::construct](mongodb-bson-timestamp.construct.md) - Створює новий Timestamp
+-   [MongoDBBSONTimestamp::getIncrement](mongodb-bson-timestamp.getincrement.md) — Повертає компонент збільшення Timestamp
+-   [MongoDBBSONTimestamp::getTimestamp](mongodb-bson-timestamp.gettimestamp.md) - Повертає компонент позначки часу Timestamp
+-   [MongoDBBSONTimestamp::jsonSerialize](mongodb-bson-timestamp.jsonserialize.md) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONTimestamp::serialize](mongodb-bson-timestamp.serialize.md) - Серіалізує Timestamp
+-   [MongoDBBSONTimestamp::toString](mongodb-bson-timestamp.tostring.md) — Повертає строкову виставу Timestamp
+-   [MongoDBBSONTimestamp::unserialize](mongodb-bson-timestamp.unserialize.md) - Десеріалізує Timestamp

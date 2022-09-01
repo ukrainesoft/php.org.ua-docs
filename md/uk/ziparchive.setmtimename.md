@@ -66,4 +66,4 @@ if ($zip->open('test.zip', ZipArchive::CREATE) === TRUE) {
 
 ### Дивіться також
 
--   [ZipArchive::setMtimeIndex()](ziparchive.setmtimeindex.html) - Встановити час модифікації файлу за його індексом
+-   [ZipArchive::setMtimeIndex()](ziparchive.setmtimeindex.md) - Встановити час модифікації файлу за його індексом

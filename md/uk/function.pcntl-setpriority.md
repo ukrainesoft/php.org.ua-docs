@@ -46,5 +46,5 @@ pcntl_setpriority(int $priority, ?int $process_id = null, int $mode = PRIO_PROCE
 
 ### Дивіться також
 
--   [pcntlgetpriority()](function.pcntl-getpriority.html) - Отримати значення пріоритету процесу
+-   [pcntlgetpriority()](function.pcntl-getpriority.md) - Отримати значення пріоритету процесу
 -   **pcntlsetpriority()**

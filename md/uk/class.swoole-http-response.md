@@ -43,13 +43,13 @@ public write(string $content): void
 
 ## Зміст
 
--   [SwooleHttpResponse::cookie](swoole-http-response.cookie.html) — Встановлює cookie HTTP-відповіді
--   [SwooleHttpResponse::destruct](swoole-http-response.destruct.html) — Знищує HTTP-відповідь
--   [SwooleHttpResponse::end](swoole-http-response.end.html) — Надсилає дані HTTP-запиту та завершує відповідь
--   [SwooleHttpResponse::gzip](swoole-http-response.gzip.html) — Включає gzip-стиснення відповіді.
--   [SwooleHttpResponse::header](swoole-http-response.header.html) — Встановлює заголовки HTTP-відповіді
--   [SwooleHttpResponse::initHeader](swoole-http-response.initheader.html) — Ініціювати заголовок HTTP-відповіді
--   [SwooleHttpResponse::rawcookie](swoole-http-response.rawcookie.html) — Встановлює необроблені cookie у HTTP-відповідь
--   [SwooleHttpResponse::sendfile](swoole-http-response.sendfile.html) — Надсилає файл через HTTP-відповідь
--   [SwooleHttpResponse::status](swoole-http-response.status.html) — Встановлює код стану HTTP-відповіді
--   [SwooleHttpResponse::write](swoole-http-response.write.html) — Додає вміст тіла HTTP у відповідь HTTP
+-   [SwooleHttpResponse::cookie](swoole-http-response.cookie.md) — Встановлює cookie HTTP-відповіді
+-   [SwooleHttpResponse::destruct](swoole-http-response.destruct.md) — Знищує HTTP-відповідь
+-   [SwooleHttpResponse::end](swoole-http-response.end.md) — Надсилає дані HTTP-запиту та завершує відповідь
+-   [SwooleHttpResponse::gzip](swoole-http-response.gzip.md) — Включає gzip-стиснення відповіді.
+-   [SwooleHttpResponse::header](swoole-http-response.header.md) — Встановлює заголовки HTTP-відповіді
+-   [SwooleHttpResponse::initHeader](swoole-http-response.initheader.md) — Ініціювати заголовок HTTP-відповіді
+-   [SwooleHttpResponse::rawcookie](swoole-http-response.rawcookie.md) — Встановлює необроблені cookie у HTTP-відповідь
+-   [SwooleHttpResponse::sendfile](swoole-http-response.sendfile.md) — Надсилає файл через HTTP-відповідь
+-   [SwooleHttpResponse::status](swoole-http-response.status.md) — Встановлює код стану HTTP-відповіді
+-   [SwooleHttpResponse::write](swoole-http-response.write.md) — Додає вміст тіла HTTP у відповідь HTTP

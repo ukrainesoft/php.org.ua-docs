@@ -18,9 +18,9 @@ SessionHandler::gc — Очищає старі сесії
 public SessionHandler::gc(int $max_lifetime): int|false
 ```
 
-Очищає сесії з терміном життя, що минув. Викликається випадково зсередини PHP коли сесія стартує або коли викликана функція [sessionstart()](function.session-start.html). Частота, з якої вона викликається, ґрунтується на значенні параметрів конфігурації [session.gcdivisor](session.configuration.html#ini.session.gc-divisor) і [session.gcprobability](session.configuration.html#ini.session.gc-probability)
+Очищає сесії з терміном життя, що минув. Викликається випадково зсередини PHP коли сесія стартує або коли викликана функція [sessionstart()](function.session-start.md). Частота, з якої вона викликається, ґрунтується на значенні параметрів конфігурації [session.gcdivisor](session.configuration.html#ini.session.gc-divisor) і [session.gcprobability](session.configuration.html#ini.session.gc-probability)
 
-Цей метод обертає внутрішній обробник сесії, визначений у налаштуванні ini-файлу [session.savehandler](session.configuration.html#ini.session.save-handler) який встановлюється перед тим, як визначається даний обробник функції [sessionsetsavehandler()](function.session-set-save-handler.html)
+Цей метод обертає внутрішній обробник сесії, визначений у налаштуванні ini-файлу [session.savehandler](session.configuration.html#ini.session.save-handler) який встановлюється перед тим, як визначається даний обробник функції [sessionsetsavehandler()](function.session-set-save-handler.md)
 
 Якщо цей клас розширюється шляхом успадкування, виклик батьківського методу `gc` виконає код обгортки для цього методу, а також внутрішній обробник. Це дозволить методу бути перевизначеним, або перехопленим та відфільтрованим.
 

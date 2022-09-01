@@ -68,6 +68,6 @@ zh
 
 ### Дивіться також
 
--   [localegetscript()](locale.getscript.html) - Отримати алфавіт для локалі
--   [localegetregion()](locale.getregion.html) - Отримати регіон для локалі
--   [localegetallvariants()](locale.getallvariants.html) - Отримання варіантів із переданої локалі
+-   [localegetscript()](locale.getscript.md) - Отримати алфавіт для локалі
+-   [localegetregion()](locale.getregion.md) - Отримати регіон для локалі
+-   [localegetallvariants()](locale.getallvariants.md) - Отримання варіантів із переданої локалі

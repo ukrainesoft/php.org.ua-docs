@@ -24,7 +24,7 @@ odbc_exec(resource $odbc, string $query): resource|false
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.md)
 
 `query`
 
@@ -42,5 +42,5 @@ odbc_exec(resource $odbc, string $query): resource|false
 
 ### Дивіться також
 
--   [odbcprepare()](function.odbc-prepare.html) - готує запит до виконання
--   [odbcexecute()](function.odbc-execute.html) - Виконує запит
+-   [odbcprepare()](function.odbc-prepare.md) - готує запит до виконання
+-   [odbcexecute()](function.odbc-execute.md) - Виконує запит

@@ -28,7 +28,7 @@ class_exists(string $class, bool $autoload = true): bool
 
 `autoload`
 
-Чи викликати за замовчуванням [autoload](language.oop5.autoload.html)
+Чи викликати за замовчуванням [autoload](language.oop5.autoload.md)
 
 ### Значення, що повертаються
 
@@ -70,7 +70,7 @@ if (class_exists(MyClass::class)) {
 
 ### Дивіться також
 
--   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
--   [enumexists()](function.enum-exists.html) - Перевіряє, чи визначено перерахування
--   [interfaceexists()](function.interface-exists.html) - Перевіряє, чи визначено інтерфейс
--   [getdeclaredclasses()](function.get-declared-classes.html) - Повертає масив із іменами оголошених класів
+-   [functionexists()](function.function-exists.md) - Повертає true, якщо вказана функція визначена
+-   [enumexists()](function.enum-exists.md) - Перевіряє, чи визначено перерахування
+-   [interfaceexists()](function.interface-exists.md) - Перевіряє, чи визначено інтерфейс
+-   [getdeclaredclasses()](function.get-declared-classes.md) - Повертає масив із іменами оголошених класів

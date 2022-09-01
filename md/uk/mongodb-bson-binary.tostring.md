@@ -18,7 +18,7 @@ MongoDBBSONBinary::toString — Повертає дані Binary
 final public MongoDB\BSON\Binary::__toString(): string
 ```
 
-Цей метод є псевдонімом: [MongoDBBSONBinary::getData()](mongodb-bson-binary.getdata.html)
+Цей метод є псевдонімом: [MongoDBBSONBinary::getData()](mongodb-bson-binary.getdata.md)
 
 ### Список параметрів
 
@@ -48,5 +48,5 @@ string(3) "foo"
 
 ### Дивіться також
 
--   [MongoDBBSONBinary::getData()](mongodb-bson-binary.getdata.html) - Повертає дані Binary
+-   [MongoDBBSONBinary::getData()](mongodb-bson-binary.getdata.md) - Повертає дані Binary
 -   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

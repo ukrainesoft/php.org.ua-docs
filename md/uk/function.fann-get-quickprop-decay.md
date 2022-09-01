@@ -34,4 +34,4 @@ The default decay is -0.0001.
 
 ### Дивіться також
 
--   [fannsetquickpropdecay()](function.fann-set-quickprop-decay.html) - Встановлює коефіцієнт загасання quickprop
+-   [fannsetquickpropdecay()](function.fann-set-quickprop-decay.md) - Встановлює коефіцієнт загасання quickprop

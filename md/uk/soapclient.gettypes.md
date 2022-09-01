@@ -82,4 +82,4 @@ array(88) {
 
 ### Дивіться також
 
--   [SoapClient::construct()](soapclient.construct.html) - Конструктор класу SoapClient
+-   [SoapClient::construct()](soapclient.construct.md) - Конструктор класу SoapClient

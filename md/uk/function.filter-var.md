@@ -96,7 +96,7 @@ bool(false)
 
 ### Дивіться також
 
--   [filtervararray()](function.filter-var-array.html) - приймає кілька змінних і, при необхідності, фільтрує їх
--   [filterinput()](function.filter-input.html) - приймає змінну ззовні PHP і, при необхідності, фільтрує її
--   [filterinputarray()](function.filter-input-array.html) - Отримує кілька змінних ззовні PHP і, при необхідності, фільтрує їх
+-   [filtervararray()](function.filter-var-array.md) - приймає кілька змінних і, при необхідності, фільтрує їх
+-   [filterinput()](function.filter-input.md) - приймає змінну ззовні PHP і, при необхідності, фільтрує її
+-   [filterinputarray()](function.filter-input-array.md) - Отримує кілька змінних ззовні PHP і, при необхідності, фільтрує їх
 -   [Типи фільтрів](filter.filters.md)

@@ -34,5 +34,5 @@ posix_isatty(resource|int $file_descriptor): bool
 
 ### Дивіться також
 
--   [posixttyname()](function.posix-ttyname.html) - Визначає ім'я термінального пристрою
--   [streamisatty()](function.stream-isatty.html) - Перевіряє, чи є потік TTY
+-   [posixttyname()](function.posix-ttyname.md) - Визначає ім'я термінального пристрою
+-   [streamisatty()](function.stream-isatty.md) - Перевіряє, чи є потік TTY

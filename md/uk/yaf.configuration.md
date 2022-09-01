@@ -43,21 +43,21 @@ title: Налаштування під час виконання
 
 `yaf.use_spl_autoload` int
 
-Якщо поставлено як On, то якщо [YafLoader](class.yaf-loader.html) не може знайти клас, він поверне **`false`**, тим самим надаючи можливість виклику іншої функції автозавантаження.
+Якщо поставлено як On, то якщо [YafLoader](class.yaf-loader.md) не може знайти клас, він поверне **`false`**, тим самим надаючи можливість виклику іншої функції автозавантаження.
 
-Якщо поставлено як Off, то якщо [YafLoader](class.yaf-loader.html) не знайде клас, він поверне **`true`** і перерве подальші дії з автозавантаження.
+Якщо поставлено як Off, то якщо [YafLoader](class.yaf-loader.md) не знайде клас, він поверне **`true`** і перерве подальші дії з автозавантаження.
 
 > **Зауваження**
 > 
-> Yaf реєструє завантажувач класів під час створення екземпляра класу [YafApplication](class.yaf-application.html), так що будь-які інші автозавантажувачі, зареєстровані до інстанціації цього класу, будуть запущені до [YafLoader::autoload()](yaf-loader.autoload.html)
+> Yaf реєструє завантажувач класів під час створення екземпляра класу [YafApplication](class.yaf-application.html), так що будь-які інші автозавантажувачі, зареєстровані до інстанціації цього класу, будуть запущені до [YafLoader::autoload()](yaf-loader.autoload.md)
 
-Якщо встановлено як Off(за замовчуванням), [YafLoader::autoload()](yaf-loader.autoload.html) завжди повертатиме **`true`**
+Якщо встановлено як Off(за замовчуванням), [YafLoader::autoload()](yaf-loader.autoload.md) завжди повертатиме **`true`**
 
 `yaf.forward_limit` int
 
 Максимальна кількість перенаправлень, за замовчуванням 5. Це означає, що стек перенаправлень не може бути глибшим за 5.
 
-Це зроблено для запобігання рекурсії у [YafControllerAbstract::forward()](yaf-controller-abstract.forward.html)
+Це зроблено для запобігання рекурсії у [YafControllerAbstract::forward()](yaf-controller-abstract.forward.md)
 
 `yaf.name_suffix` int
 
@@ -87,7 +87,7 @@ Yaf використовує шлях до ini-файлу як ключ заке
 
 За замовчуванням одно "product" і використовується Yaf для отримання потрібної секції з ini-файлу.
 
-Отже, якщо параметр дорівнює "product", Yaf використовуватиме секцію "product" в ini-файлі (перший параметр [YafApplication](class.yaf-application.html)) як конфігурація [YafApplication](class.yaf-application.html)
+Отже, якщо параметр дорівнює "product", Yaf використовуватиме секцію "product" в ini-файлі (перший параметр [YafApplication](class.yaf-application.html)) як конфігурація [YafApplication](class.yaf-application.md)
 
 `yaf.use_namespace` int
 
@@ -100,7 +100,7 @@ Yaf_Route_Rewrite => \Yaf\Route\Rewrite
 Yaf_Request_Http  => \Yaf\Request\Http
 ```
 
-Є винятки для класів типу [YafControllerAbstract](class.yaf-controller-abstract.html). Останній компонент імені є ключовим словом PHP і не може використовуватися як ім'я класу, так що він виглядатиме так:
+Є винятки для класів типу [YafControllerAbstract](class.yaf-controller-abstract.md). Останній компонент імені є ключовим словом PHP і не може використовуватися як ім'я класу, так що він виглядатиме так:
 
 ```
 Yaf_Controller_Abstract => \Yaf\Controller_Abstract

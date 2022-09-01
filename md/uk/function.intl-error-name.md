@@ -51,6 +51,6 @@ printf( "Символическое имя для %d - %s\n.", $err_code,
 
 ### Дивіться також
 
--   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
--   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
--   [intlgeterrormessage()](function.intl-get-error-message.html) - Отримати опис помилки
+-   [intlісfailure()](function.intl-is-failure.md) - Перевірити, чи є код помилки ознакою збою
+-   [intlgeterrorcode()](function.intl-get-error-code.md) - Отримати код останньої помилки
+-   [intlgeterrormessage()](function.intl-get-error-message.md) - Отримати опис помилки

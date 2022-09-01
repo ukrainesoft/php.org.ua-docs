@@ -28,25 +28,25 @@ title: 'Функціональність, оголошена застаріло�
     ?>
     ```
     
--   Виклик [getdefinedfunctions()](function.get-defined-functions.html) з явно заданим значенням **`false`** в `exclude_disabled` застарів і більше не має сенсу . [getdefinedfunctions()](function.get-defined-functions.html) ніколи не повертатиме відключені функції.
+-   Виклик [getdefinedfunctions()](function.get-defined-functions.html) з явно заданим значенням **`false`** в `exclude_disabled` застарів і більше не має сенсу . [getdefinedfunctions()](function.get-defined-functions.md) ніколи не повертатиме відключені функції.
     
 
 ### Enchant
 
--   [enchantbrokersetdictpath()](function.enchant-broker-set-dict-path.html) і [enchantbrokergetdictpath()](function.enchant-broker-get-dict-path.html) оголошені застарілими, оскільки вони недоступні ні libenchant < 1.5 ні libenchant-2.
+-   [enchantbrokersetdictpath()](function.enchant-broker-set-dict-path.html) і [enchantbrokergetdictpath()](function.enchant-broker-get-dict-path.md) оголошені застарілими, оскільки вони недоступні ні libenchant < 1.5 ні libenchant-2.
     
--   [enchantdictaddтоpersonal()](function.enchant-dict-add-to-personal.html) оголошено застарілою; використовуйте замість неї [enchantdictadd()](function.enchant-dict-add.html)
+-   [enchantdictaddтоpersonal()](function.enchant-dict-add-to-personal.html) оголошено застарілою; використовуйте замість неї [enchantdictadd()](function.enchant-dict-add.md)
     
--   [enchantdictісінsession()](function.enchant-dict-is-in-session.html) оголошено застарілою; використовуйте замість неї [enchantdictісadded()](function.enchant-dict-is-added.html)
+-   [enchantdictісінsession()](function.enchant-dict-is-in-session.html) оголошено застарілою; використовуйте замість неї [enchantdictісadded()](function.enchant-dict-is-added.md)
     
--   [enchantbrokerfree()](function.enchant-broker-free.html) і [enchantbrokerfreedict()](function.enchant-broker-free-dict.html) оголошені застарілими; замість неї застосовуйте до об'єкта функцію unset.
+-   [enchantbrokerfree()](function.enchant-broker-free.html) і [enchantbrokerfreedict()](function.enchant-broker-free-dict.md) оголошені застарілими; замість неї застосовуйте до об'єкта функцію unset.
     
 -   Константа **`ENCHANT_MYSPELL`** і **`ENCHANT_ISPELL`** оголошено застарілими.
     
 
 ### LibXML
 
-[libxmldisableentityloader()](function.libxml-disable-entity-loader.html) оголошено застарілою. Оскільки тепер використовується libxml 2.9.0, в якому завантаження зовнішніх об'єктів за замовчуванням вимкнуто, тому використання цієї функції більше не потрібне для захисту від XXE-атак, якщо не використовується (досі вразлива) **`LIBXML_NOENT`**. У цьому випадку рекомендується провести рефакторинг коду за допомогою [libxmlsetexternalentityloader()](function.libxml-set-external-entity-loader.html), щоб придушити завантаження зовнішніх сутностей.
+[libxmldisableentityloader()](function.libxml-disable-entity-loader.html) оголошено застарілою. Оскільки тепер використовується libxml 2.9.0, в якому завантаження зовнішніх об'єктів за замовчуванням вимкнуто, тому використання цієї функції більше не потрібне для захисту від XXE-атак, якщо не використовується (досі вразлива) **`LIBXML_NOENT`**. У цьому випадку рекомендується провести рефакторинг коду за допомогою [libxmlsetexternalentityloader()](function.libxml-set-external-entity-loader.md), щоб придушити завантаження зовнішніх сутностей.
 
 ### PGSQL / PDO PGSQL
 
@@ -54,30 +54,30 @@ title: 'Функціональність, оголошена застаріло�
     
 -   Псевдоніми функцій у модулі pgsql оголошені застарілими. Дивіться у списку, які функції слід використовувати замість них:
     
-    -   **пгerrormessage()** [пгlasterror()](function.pg-last-error.html)
-    -   **пгnumrows()** [пгnumrows()](function.pg-num-rows.html)
-    -   **пгnumfields()** [пгnumfields()](function.pg-num-fields.html)
-    -   **пгcmdtuples()** [пгaffectedrows()](function.pg-affected-rows.html)
-    -   **пгfieldname()** [пгfieldname()](function.pg-field-name.html)
-    -   **пгfieldsize()** [пгfieldsize()](function.pg-field-size.html)
-    -   **пгfieldtype()** [пгfieldtype()](function.pg-field-type.html)
-    -   **пгfieldnum()** [пгfieldnum()](function.pg-field-num.html)
-    -   **пгresult()** [пгfetchresult()](function.pg-fetch-result.html)
-    -   **пгfieldprtlen()** [пгfieldprtlen()](function.pg-field-prtlen.html)
-    -   **пгfieldisnull()** [пгfieldісnull()](function.pg-field-is-null.html)
-    -   **пгfreeresult()** [пгfreeresult()](function.pg-free-result.html)
-    -   **пгgetlastoid()** [пгlastoid()](function.pg-last-oid.html)
-    -   **пгlocreate()** [пглоcreate()](function.pg-lo-create.html)
-    -   **пгlounlink()** [пглоunlink()](function.pg-lo-unlink.html)
-    -   **пгloopen()** [пглоopen()](function.pg-lo-open.html)
-    -   **пгloclose()** [пглоclose()](function.pg-lo-close.html)
-    -   **пгloread()** [пглоread()](function.pg-lo-read.html)
-    -   **пгlowrite()** [пглоwrite()](function.pg-lo-write.html)
-    -   **пгloreadall()** [пглоreadall()](function.pg-lo-read-all.html)
-    -   **пгloimport()** [пглоimport()](function.pg-lo-import.html)
-    -   **пгloexport()** [пглоexport()](function.pg-lo-export.html)
-    -   **пгsetclientencoding()** [пгsetclientencoding()](function.pg-set-client-encoding.html)
-    -   **пгclientencoding()** -> [пгclientencoding()](function.pg-client-encoding.html)
+    -   **пгerrormessage()** [пгlasterror()](function.pg-last-error.md)
+    -   **пгnumrows()** [пгnumrows()](function.pg-num-rows.md)
+    -   **пгnumfields()** [пгnumfields()](function.pg-num-fields.md)
+    -   **пгcmdtuples()** [пгaffectedrows()](function.pg-affected-rows.md)
+    -   **пгfieldname()** [пгfieldname()](function.pg-field-name.md)
+    -   **пгfieldsize()** [пгfieldsize()](function.pg-field-size.md)
+    -   **пгfieldtype()** [пгfieldtype()](function.pg-field-type.md)
+    -   **пгfieldnum()** [пгfieldnum()](function.pg-field-num.md)
+    -   **пгresult()** [пгfetchresult()](function.pg-fetch-result.md)
+    -   **пгfieldprtlen()** [пгfieldprtlen()](function.pg-field-prtlen.md)
+    -   **пгfieldisnull()** [пгfieldісnull()](function.pg-field-is-null.md)
+    -   **пгfreeresult()** [пгfreeresult()](function.pg-free-result.md)
+    -   **пгgetlastoid()** [пгlastoid()](function.pg-last-oid.md)
+    -   **пгlocreate()** [пглоcreate()](function.pg-lo-create.md)
+    -   **пгlounlink()** [пглоunlink()](function.pg-lo-unlink.md)
+    -   **пгloopen()** [пглоopen()](function.pg-lo-open.md)
+    -   **пгloclose()** [пглоclose()](function.pg-lo-close.md)
+    -   **пгloread()** [пглоread()](function.pg-lo-read.md)
+    -   **пгlowrite()** [пглоwrite()](function.pg-lo-write.md)
+    -   **пгloreadall()** [пглоreadall()](function.pg-lo-read-all.md)
+    -   **пгloimport()** [пглоimport()](function.pg-lo-import.md)
+    -   **пгloexport()** [пглоexport()](function.pg-lo-export.md)
+    -   **пгsetclientencoding()** [пгsetclientencoding()](function.pg-set-client-encoding.md)
+    -   **пгclientencoding()** -> [пгclientencoding()](function.pg-client-encoding.md)
 
 ### Бібліотека стандартних функцій
 
@@ -97,7 +97,7 @@ title: 'Функціональність, оголошена застаріло�
 
 -   Використання порожнього файлу в ZipArchive оголошено застарілим. Libzip 1.6.0 більше не працює з пустими zip-архівами. Існуюче обхідне рішення буде видалено у наступній версії.
     
--   Процедурний API Zip оголошено застарілим. Замість нього використовуйте [ZipArchive](class.ziparchive.md). Ітерацію по всіх записах можна виконати за допомогою [ZipArchive::statIndex()](ziparchive.statindex.md) та циклу [for](control-structures.for.html)
+-   Процедурний API Zip оголошено застарілим. Замість нього використовуйте [ZipArchive](class.ziparchive.md). Ітерацію по всіх записах можна виконати за допомогою [ZipArchive::statIndex()](ziparchive.statindex.md) та циклу [for](control-structures.for.md)
     
     ```php
     <?php

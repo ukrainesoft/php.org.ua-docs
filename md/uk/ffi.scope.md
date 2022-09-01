@@ -30,8 +30,8 @@ public static FFI::scope(string $name): FFI
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [FFI](class.ffi.html)
+Повертає новий об'єкт [FFI](class.ffi.md)
 
 ### Дивіться також
 
--   [FFI::load()](ffi.load.html) - Завантажити декларації C із заголовного файлу
+-   [FFI::load()](ffi.load.md) - Завантажити декларації C із заголовного файлу

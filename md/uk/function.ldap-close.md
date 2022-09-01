@@ -10,8 +10,8 @@ title: ldapclose
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldapclose - Псевдонім [ldapunbind()](function.ldap-unbind.html)
+ldapclose - Псевдонім [ldapunbind()](function.ldap-unbind.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ldapunbind()](function.ldap-unbind.html)
+Ця функція є псевдонімом: [ldapunbind()](function.ldap-unbind.md)

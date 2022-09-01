@@ -38,8 +38,8 @@ public Componere\Definition::addProperty(string $name, Componere\Value $value): 
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), якщо Definition вже було зареєстровано
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо Definition вже було зареєстровано
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), якщо `name` вже оголошено як властивість
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо `name` вже оголошено як властивість

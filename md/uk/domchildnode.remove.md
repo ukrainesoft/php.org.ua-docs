@@ -30,7 +30,7 @@ public DOMChildNode::remove(): void
 
 ### Дивіться також
 
--   [DOMChildNode::after()](domchildnode.after.html) - Додає вузли після вузла
--   [DOMChildNode::before()](domchildnode.before.html) - Додає вузли перед вузлом
--   [DOMChildNode::replaceWith()](domchildnode.replacewith.html) - Замінює вузол новими вузлами
--   [DOMNode::removeChild()](domnode.removechild.html) - видаляє дочірній вузол зі списку нащадків
+-   [DOMChildNode::after()](domchildnode.after.md) - Додає вузли після вузла
+-   [DOMChildNode::before()](domchildnode.before.md) - Додає вузли перед вузлом
+-   [DOMChildNode::replaceWith()](domchildnode.replacewith.md) - Замінює вузол новими вузлами
+-   [DOMNode::removeChild()](domnode.removechild.md) - видаляє дочірній вузол зі списку нащадків

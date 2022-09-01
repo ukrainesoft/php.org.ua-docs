@@ -70,8 +70,8 @@ foo!
 
 ### Дивіться також
 
--   [runkit7methodadd()](function.runkit7-method-add.html) - Динамічно додає новий метод у заданий клас
--   [runkit7methodredefine()](function.runkit7-method-redefine.html) - динамічно змінює код заданого методу
--   [runkit7methodremove()](function.runkit7-method-remove.html) - динамічно видаляє заданий метод
--   [runkit7methodrename()](function.runkit7-method-rename.html) - динамічно змінює ім'я заданого методу
--   [runkit7functioncopy()](function.runkit7-function-copy.html) - Копіює функцію в нове ім'я функції
+-   [runkit7methodadd()](function.runkit7-method-add.md) - Динамічно додає новий метод у заданий клас
+-   [runkit7methodredefine()](function.runkit7-method-redefine.md) - динамічно змінює код заданого методу
+-   [runkit7methodremove()](function.runkit7-method-remove.md) - динамічно видаляє заданий метод
+-   [runkit7methodrename()](function.runkit7-method-rename.md) - динамічно змінює ім'я заданого методу
+-   [runkit7functioncopy()](function.runkit7-function-copy.md) - Копіює функцію в нове ім'я функції

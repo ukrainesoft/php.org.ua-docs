@@ -40,7 +40,7 @@ $ ./configure --with-pdo-pgsql
 
 ## Зміст
 
--   [PDOPGSQL DSN](ref.pdo-pgsql.connection.html) — З'єднання з базою даних PostgreSQL
+-   [PDOPGSQL DSN](ref.pdo-pgsql.connection.md) — З'єднання з базою даних PostgreSQL
 -   [PDO::pgsqlCopyFromArray](pdo.pgsqlcopyfromarray.md) - Копіювати масив PHP в таблицю
 -   [PDO::pgsqlCopyFromFile](pdo.pgsqlcopyfromfile.md) — Копіювати дані з файлу до таблиці
 -   [PDO::pgsqlCopyToArray](pdo.pgsqlcopytoarray.md) — Вивантажити дані з таблиці до масиву PHP

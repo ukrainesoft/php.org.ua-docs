@@ -95,7 +95,7 @@ post_max_size in bytes = 8388608
 
 ### Дивіться також
 
--   [getcfgvar()](function.get-cfg-var.html) - Витягує значення налаштування конфігурації PHP
--   [inigetall()](function.ini-get-all.html) - Отримує всі налаштування конфігурації
--   [inirestore()](function.ini-restore.html) - Відновлює налаштування конфігурації.
--   [iniset()](function.ini-set.html) - Встановлює налаштування конфігурації
+-   [getcfgvar()](function.get-cfg-var.md) - Витягує значення налаштування конфігурації PHP
+-   [inigetall()](function.ini-get-all.md) - Отримує всі налаштування конфігурації
+-   [inirestore()](function.ini-restore.md) - Відновлює налаштування конфігурації.
+-   [iniset()](function.ini-set.md) - Встановлює налаштування конфігурації

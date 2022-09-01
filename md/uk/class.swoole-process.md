@@ -61,22 +61,22 @@ public write(string $data): int
 
 ## Зміст
 
--   [SwooleProcess::alarm](swoole-process.alarm.html) — Таймер високої точності, який запускає сигнал із фіксованим інтервалом
--   [SwooleProcess::close](swoole-process.close.html) — Закриває канал для дочірнього процесу
--   [SwooleProcess::construct](swoole-process.construct.html) - Створює процес
--   [SwooleProcess::daemon](swoole-process.daemon.html) - Змінює процес на процес-демон
--   [SwooleProcess::destruct](swoole-process.destruct.html) - Знищує процес
--   [SwooleProcess::exec](swoole-process.exec.html) - Виконує системні команди
--   [SwooleProcess::exit](swoole-process.exit.html) - Зупиняє дочірні процеси
--   [SwooleProcess::freeQueue](swoole-process.freequeue.html) — Знищує чергу повідомлень, створену swooleprocess::useQueue
--   [SwooleProcess::kill](swoole-process.kill.html) — Надсилає сигнал дочірньому процесу
--   [SwooleProcess::name](swoole-process.name.html) — Встановлює назву процесу
--   [SwooleProcess::pop](swoole-process.pop.html) — Читає та витягує дані з черги повідомлень
--   [SwooleProcess::push](swoole-process.push.html) — Записує та поміщає дані в чергу повідомлень
--   [SwooleProcess::read](swoole-process.read.html) - Читає дані відправки в процес
--   [SwooleProcess::signal](swoole-process.signal.html) — Надсилає сигнал дочірнім процесам
--   [SwooleProcess::start](swoole-process.start.html) - Запускає процес
--   [SwooleProcess::statQueue](swoole-process.statqueue.html) — Отримує статистику черги повідомлень, яка використовується як метод зв'язку між процесами
--   [SwooleProcess::useQueue](swoole-process.usequeue.html) — Створює чергу повідомлень як метод зв'язку між батьківським процесом та дочірніми процесами
--   [SwooleProcess::wait](swoole-process.wait.html) — Чекає на події дочірніх процесів
--   [SwooleProcess::write](swoole-process.write.html) — Записує дані до каналу та зв'язується з батьківським процесом або дочірніми процесами
+-   [SwooleProcess::alarm](swoole-process.alarm.md) — Таймер високої точності, який запускає сигнал із фіксованим інтервалом
+-   [SwooleProcess::close](swoole-process.close.md) — Закриває канал для дочірнього процесу
+-   [SwooleProcess::construct](swoole-process.construct.md) - Створює процес
+-   [SwooleProcess::daemon](swoole-process.daemon.md) - Змінює процес на процес-демон
+-   [SwooleProcess::destruct](swoole-process.destruct.md) - Знищує процес
+-   [SwooleProcess::exec](swoole-process.exec.md) - Виконує системні команди
+-   [SwooleProcess::exit](swoole-process.exit.md) - Зупиняє дочірні процеси
+-   [SwooleProcess::freeQueue](swoole-process.freequeue.md) — Знищує чергу повідомлень, створену swooleprocess::useQueue
+-   [SwooleProcess::kill](swoole-process.kill.md) — Надсилає сигнал дочірньому процесу
+-   [SwooleProcess::name](swoole-process.name.md) — Встановлює назву процесу
+-   [SwooleProcess::pop](swoole-process.pop.md) — Читає та витягує дані з черги повідомлень
+-   [SwooleProcess::push](swoole-process.push.md) — Записує та поміщає дані в чергу повідомлень
+-   [SwooleProcess::read](swoole-process.read.md) - Читає дані відправки в процес
+-   [SwooleProcess::signal](swoole-process.signal.md) — Надсилає сигнал дочірнім процесам
+-   [SwooleProcess::start](swoole-process.start.md) - Запускає процес
+-   [SwooleProcess::statQueue](swoole-process.statqueue.md) — Отримує статистику черги повідомлень, яка використовується як метод зв'язку між процесами
+-   [SwooleProcess::useQueue](swoole-process.usequeue.md) — Створює чергу повідомлень як метод зв'язку між батьківським процесом та дочірніми процесами
+-   [SwooleProcess::wait](swoole-process.wait.md) — Чекає на події дочірніх процесів
+-   [SwooleProcess::write](swoole-process.write.md) — Записує дані до каналу та зв'язується з батьківським процесом або дочірніми процесами

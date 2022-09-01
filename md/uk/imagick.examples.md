@@ -10,4 +10,4 @@ title: Приклади
 
 ## Зміст
 
--   [Базовое использование](imagick.examples-1.html)
+-   [Базовое использование](imagick.examples-1.md)

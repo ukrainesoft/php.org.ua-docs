@@ -28,13 +28,13 @@ finfo_set_flags(finfo $finfo, int $flags): bool
 public finfo::set_flags(int $flags): bool
 ```
 
-Функція встановлює різні параметри FileInfo. Опції також можуть бути встановлені безпосередньо в [finfoopen()](function.finfo-open.html) або інших функцій Fileinfo.
+Функція встановлює різні параметри FileInfo. Опції також можуть бути встановлені безпосередньо в [finfoopen()](function.finfo-open.md) або інших функцій Fileinfo.
 
 ### Список параметрів
 
 `finfo`
 
-Екземпляр [finfo](class.finfo.md), що повертається функцією [finfoopen()](function.finfo-open.html)
+Екземпляр [finfo](class.finfo.md), що повертається функцією [finfoopen()](function.finfo-open.md)
 
 `flags`
 

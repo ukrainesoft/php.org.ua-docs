@@ -24,7 +24,7 @@ ibase_free_query(resource $query): bool
 
 `query`
 
-Запит, підготовлений за допомогою [ibaseprepare()](function.ibase-prepare.html)
+Запит, підготовлений за допомогою [ibaseprepare()](function.ibase-prepare.md)
 
 ### Значення, що повертаються
 

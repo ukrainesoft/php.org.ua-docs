@@ -64,5 +64,5 @@ barfoo
 
 ### Дивіться також
 
--   [uopzgethook()](function.uopz-get-hook.html) - отримує раніше встановлений обробник на функцію або метод
--   [uopzunsethook()](function.uopz-unset-hook.html) - Видаляє раніше встановлену функцію чи метод
+-   [uopzgethook()](function.uopz-get-hook.md) - отримує раніше встановлений обробник на функцію або метод
+-   [uopzunsethook()](function.uopz-unset-hook.md) - Видаляє раніше встановлену функцію чи метод

@@ -36,4 +36,4 @@ imap_mutf7_to_utf8(string $string): string|false
 
 ### Дивіться також
 
--   [imaputf8тоmutf7()](function.imap-utf8-to-mutf7.html) - Кодувати рядок UTF-8 у змінений UTF-7
+-   [imaputf8тоmutf7()](function.imap-utf8-to-mutf7.md) - Кодувати рядок UTF-8 у змінений UTF-7

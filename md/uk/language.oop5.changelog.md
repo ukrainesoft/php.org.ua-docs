@@ -20,7 +20,7 @@ title: Журнал змін ОВП
 |  | Несумісність: розпакування аргументів для [Traversable](class.traversable.md) з нецілочисленними ключами більше не підтримується. Така поведінка спочатку не планувалась і тепер видалена. |
 |  | Несумісність: у попередніх версіях можна було розділити статичні властивості з допомогою присвоєння за посиланням. Тепер не можна. |
 |  | Змінено: тепер оператор [instanceof](language.operators.type.md) допускає літерали як перший операнда. У цьому випадку завжди буде повернено **`false`** |
-|  | Застаріло: метод [autoload()](function.autoload.md) оголошено застарілим на користь [splautoloadregister()](function.spl-autoload-register.html) |
+|  | Застаріло: метод [autoload()](function.autoload.md) оголошено застарілим на користь [splautoloadregister()](function.spl-autoload-register.md) |
 |  | Змінено: для імен класів, інтерфейсів та трейтів не можна використовувати слово `object` |
 |  | Змінено: для групового use тепер можна додавати кому, що висить, в кінці списку. |
 |  | Змінено: Типи параметрів із перевизначених методів та реалізації інтерфейсів тепер вказувати не обов'язково |
@@ -45,9 +45,9 @@ title: Журнал змін ОВП
 |  | Змінено: До 5.3.0, виключення у функції [autoload()](function.autoload.md) не могли бути перехоплені у блоці [catch](language.exceptions.md) і призводили до фатальної помилки. Зараз винятки у функції autoload можуть бути перехоплені в блоці [catch](language.exceptions.md), але з одним застереженням. Якщо перехоплюється виняток користувача, то клас, який обробляє цей виняток, повинен бути доступний. Функція autoload може бути використана рекурсивно для автозавантаження користувача класу обробки виключення. |
 |  | Додано: Метод [callStatic](language.oop5.overloading.md) |
 |  | Додано: Підтримка [heredoc](language.types.string.html#language.types.string.syntax.heredoc) і [nowdoc](language.types.string.html#language.types.string.syntax.nowdoc) для *констант* та визначень властивостей класу. Примітка: Значення heredoc повинні дотримуватися тих же правил, що й рядки у подвійних лапках (наприклад, без змінних усередині). |
-|  | Додано: [Пізніше статичне зв'язування](language.oop5.late-static-bindings.html) |
+|  | Додано: [Пізніше статичне зв'язування](language.oop5.late-static-bindings.md) |
 |  | Додано: метод [invoke()](language.oop5.magic.html#object.invoke) |
 |  | Змінено: Метод [toString()](language.oop5.magic.html#object.tostring) викликався тільки, коли він безпосередньо об'єднаний з [echo](function.echo.md) або [print](function.print.md). Зараз він викликається у будь-якому контексті рядка (наприклад, у [printf()](function.printf.md) з модифікатором `%s`), але не в інших типах контексту (наприклад, з модифікатором `%d`). З PHP 5.2.0, перетворення об'єктів без методу [function toString() { \[native code\] }](language.oop5.magic.html#object.tostring) у рядок видає помилку рівня **`E_RECOVERABLE_ERROR`** |
 |  | Змінено: У попередніх версіях PHP 5 використання `var` вважалося застарілим і видавало помилку **`E_STRICT`**. Наразі це не вважається застарілим, тому помилка більше не видається. |
-|  | Змінено: Статичний метод [setstate()](language.oop5.magic.html#object.set-state) тепер викликається для класів, що експортуються функцією [varexport()](function.var-export.html) |
+|  | Змінено: Статичний метод [setstate()](language.oop5.magic.html#object.set-state) тепер викликається для класів, що експортуються функцією [varexport()](function.var-export.md) |
 |  | Додані: методи [isset()](language.oop5.overloading.html#object.isset) і [unset()](language.oop5.overloading.html#object.unset) |

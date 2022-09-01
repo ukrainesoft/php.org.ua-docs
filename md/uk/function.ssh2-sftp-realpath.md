@@ -24,7 +24,7 @@ ssh2_sftp_realpath(resource $sftp, string $filename): string
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.html)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.md)
 
 `filename`
 
@@ -49,6 +49,6 @@ $realpath = ssh2_sftp_realpath($sftp, '/home/username/../../../..//./usr/../e
 
 ### Дивіться також
 
--   [realpath()](function.realpath.html) - Повертає абсолютний канонізований шлях до файлу
--   [ssh2sftpsymlink()](function.ssh2-sftp-symlink.html) - Створити символічне посилання
--   [ssh2sftpreadlink()](function.ssh2-sftp-readlink.html) - Повертає об'єкт за символічним посиланням
+-   [realpath()](function.realpath.md) - Повертає абсолютний канонізований шлях до файлу
+-   [ssh2sftpsymlink()](function.ssh2-sftp-symlink.md) - Створити символічне посилання
+-   [ssh2sftpreadlink()](function.ssh2-sftp-readlink.md) - Повертає об'єкт за символічним посиланням

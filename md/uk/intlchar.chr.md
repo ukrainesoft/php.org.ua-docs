@@ -57,5 +57,5 @@ string(3) "☃"
 ### Дивіться також
 
 -   [IntlChar::ord()](intlchar.ord.md) - Отримати код символ Unicode
--   [мбchr()](function.mb-chr.html) - Повертає символ за значенням кодової точки Unicode
+-   [мбchr()](function.mb-chr.md) - Повертає символ за значенням кодової точки Unicode
 -   [chr()](function.chr.md) - Генерує односимвольний рядок за заданим числом

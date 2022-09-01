@@ -20,11 +20,11 @@ public PharData::decompressFiles(): bool
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.html)
+> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
-Для tar-архівів цей метод викине виняток [BadMethodCallException](class.badmethodcallexception.html), оскільки стиснення окремих файлів у tar-архіві не підтримується форматом файлу. Використовуйте [PharData::compress()](phardata.compress.html) для стиснення всього tar-архіву.
+Для tar-архівів цей метод викине виняток [BadMethodCallException](class.badmethodcallexception.html), оскільки стиснення окремих файлів у tar-архіві не підтримується форматом файлу. Використовуйте [PharData::compress()](phardata.compress.md) для стиснення всього tar-архіву.
 
-Для Zip-архівів цей метод розпакує всі файли вказаним шляхом. Для коректної роботи потрібні включені модулі [zlib](ref.zlib.html) або [bzip2](ref.bzip2.html), Залежно від типу стиснення.
+Для Zip-архівів цей метод розпакує всі файли вказаним шляхом. Для коректної роботи потрібні включені модулі [zlib](ref.zlib.html) або [bzip2](ref.bzip2.md), Залежно від типу стиснення.
 
 ### Список параметрів
 
@@ -36,7 +36,7 @@ public PharData::decompressFiles(): bool
 
 ### Помилки
 
-Викидає виняток [BadMethodCallException](class.badmethodcallexception.html), якщо відсутній необхідний модуль [zlib](ref.zlib.html) або [bzip2](ref.bzip2.html)
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.html), якщо відсутній необхідний модуль [zlib](ref.zlib.html) або [bzip2](ref.bzip2.md)
 
 ### Приклади
 
@@ -87,13 +87,13 @@ bool(false)
 
 ### Дивіться також
 
--   [PharFileInfo::getCompressedSize()](pharfileinfo.getcompressedsize.html) - Отримати реальний розмір файлу на диску з урахуванням стиснення
--   [PharFileInfo::isCompressed()](pharfileinfo.iscompressed.html) - Перевірити, чи стиснутий файл
--   [PharFileInfo::compress()](pharfileinfo.compress.html) - Стиснути поточний файл за допомогою zlib або bzip2
--   [PharFileInfo::decompress()](pharfileinfo.decompress.html) - Розтискає поточний файл
--   [Phar::canCompress()](phar.cancompress.html) - Перевіряє, чи підтримує модуль phar стиск з використанням zlib або bzip2
--   [Phar::isCompressed()](phar.iscompressed.html) - Повертає Phar::GZ або PHAR::BZ2, якщо phar-архів стиснутий повністю (.tar.gz/tar.bz і так далі)
--   [PharData::compressFiles()](phardata.compressfiles.html) - Стиснути всі файли у поточному tar/zip-архіві
--   [Phar::getSupportedCompression()](phar.getsupportedcompression.html) - Повертає масив підтримуваних алгоритмів стиснення
--   [PharData::compress()](phardata.compress.html) - Стискає весь архів tar/zip, використовуючи стиснення Gzip або Bzip2
--   [PharData::decompress()](phardata.decompress.html) - Розпакувати весь Phar-архів
+-   [PharFileInfo::getCompressedSize()](pharfileinfo.getcompressedsize.md) - Отримати реальний розмір файлу на диску з урахуванням стиснення
+-   [PharFileInfo::isCompressed()](pharfileinfo.iscompressed.md) - Перевірити, чи стиснутий файл
+-   [PharFileInfo::compress()](pharfileinfo.compress.md) - Стиснути поточний файл за допомогою zlib або bzip2
+-   [PharFileInfo::decompress()](pharfileinfo.decompress.md) - Розтискає поточний файл
+-   [Phar::canCompress()](phar.cancompress.md) - Перевіряє, чи підтримує модуль phar стиск з використанням zlib або bzip2
+-   [Phar::isCompressed()](phar.iscompressed.md) - Повертає Phar::GZ або PHAR::BZ2, якщо phar-архів стиснутий повністю (.tar.gz/tar.bz і так далі)
+-   [PharData::compressFiles()](phardata.compressfiles.md) - Стиснути всі файли у поточному tar/zip-архіві
+-   [Phar::getSupportedCompression()](phar.getsupportedcompression.md) - Повертає масив підтримуваних алгоритмів стиснення
+-   [PharData::compress()](phardata.compress.md) - Стискає весь архів tar/zip, використовуючи стиснення Gzip або Bzip2
+-   [PharData::decompress()](phardata.decompress.md) - Розпакувати весь Phar-архів

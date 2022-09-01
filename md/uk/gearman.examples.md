@@ -10,6 +10,6 @@ title: Приклади
 
 ## Зміст
 
--   [Базовое использование](gearman.examples-reverse.html)
--   [Базовий клієнт та обробник Gearman, фоновий режим](gearman.examples-reverse-bg.html)
--   [Базові клієнт та обробник Gearman, відправка завдань](gearman.examples-reverse-task.html)
+-   [Базовое использование](gearman.examples-reverse.md)
+-   [Базовий клієнт та обробник Gearman, фоновий режим](gearman.examples-reverse-bg.md)
+-   [Базові клієнт та обробник Gearman, відправка завдань](gearman.examples-reverse-task.md)

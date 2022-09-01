@@ -18,13 +18,13 @@ title: пгpconnect
 pg_pconnect(string $connection_string, int $flags = 0): PgSql\Connection|false
 ```
 
-**пгpconnect()** встановлює з'єднання з базою даних PostgreSQL. Повертає екземпляр [PgSqlConnection](class.pgsql-connection.html), необхідний роботи більшості функцій PostgreSQL.
+**пгpconnect()** встановлює з'єднання з базою даних PostgreSQL. Повертає екземпляр [PgSqlConnection](class.pgsql-connection.md), необхідний роботи більшості функцій PostgreSQL.
 
 При повторному виклику функції **пгpconnect()** з тими ж значеннями параметрів `connection_string` функція поверне існуюче підключення. Щоб примусово створити нове з'єднання, необхідно надіслати рядок підключення функції **`PGSQL_CONNECT_FORCE_NEW`** як параметр `flags`
 
 Можливість створення постійних підключень регулюється директивою [pgsql.allowpersistent](pgsql.configuration.html#ini.pgsql.allow-persistent) файлу php.ini. Щоб увімкнути, встановіть значення "On" (за замовчуванням). Максимальна кількість постійних з'єднань задається директивою [pgsql.maxpersistent](pgsql.configuration.html#ini.pgsql.max-persistent) файлу php.ini (за замовчуванням –1, не обмежено). Кількість будь-яких можливих підключень встановлюється директивою [pgsql.maxlinks](pgsql.configuration.html#ini.pgsql.max-links) файлу php.ini.
 
-[пгclose()](function.pg-close.html) не закриває з'єднання, відкриті функцією **пгpconnect()**
+[пгclose()](function.pg-close.md) не закриває з'єднання, відкриті функцією **пгpconnect()**
 
 ### Список параметрів
 
@@ -40,13 +40,13 @@ pg_pconnect(string $connection_string, int $flags = 0): PgSql\Connection|false
 
 ### Значення, що повертаються
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Екземпляр [PgSqlConnection](class.pgsql-connection.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Повертає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -71,5 +71,5 @@ $dbconn4 = pg_pconnect($conn_string);
 
 ### Дивіться також
 
--   [пгconnect()](function.pg-connect.html) - Відкриває з'єднання з базою даних PostgreSQL
--   [Постійні з'єднання з базою даних](features.persistent-connections.html)
+-   [пгconnect()](function.pg-connect.md) - Відкриває з'єднання з базою даних PostgreSQL
+-   [Постійні з'єднання з базою даних](features.persistent-connections.md)

@@ -10,7 +10,7 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](rrd.requirements.html)
--   [Установка](rrd.installation.html)
--   [Налаштування під час виконання](rrd.configuration.html)
--   [Типи ресурсів](rrd.resources.html)
+-   [Вимоги](rrd.requirements.md)
+-   [Установка](rrd.installation.md)
+-   [Налаштування під час виконання](rrd.configuration.md)
+-   [Типи ресурсів](rrd.resources.md)

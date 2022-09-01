@@ -12,4 +12,4 @@ title: 'ДсSet::count'
 
 ДсSet::count — Повертає кількість елементів колекції
 
-Дивіться опис функції [Countable::count()](countable.count.html)
+Дивіться опис функції [Countable::count()](countable.count.md)

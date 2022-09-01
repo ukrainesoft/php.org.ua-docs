@@ -22,7 +22,7 @@ openal_buffer_get(resource $buffer, int $property): int|false
 
 `buffer`
 
-Ресурс [Open AL(Buffer)](openal.resources.md) (Створений раніше за допомогою [openalbuffercreate()](function.openal-buffer-create.html)
+Ресурс [Open AL(Buffer)](openal.resources.md) (Створений раніше за допомогою [openalbuffercreate()](function.openal-buffer-create.md)
 
 `property`
 
@@ -34,4 +34,4 @@ openal_buffer_get(resource $buffer, int $property): int|false
 
 ### Дивіться також
 
--   [openalbuffercreate()](function.openal-buffer-create.html) - Згенерувати буфер OpenAL
+-   [openalbuffercreate()](function.openal-buffer-create.md) - Згенерувати буфер OpenAL

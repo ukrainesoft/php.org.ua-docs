@@ -52,7 +52,7 @@ public hasMoreResults(): bool
 
 ## Зміст
 
--   [Statement::construct](mysql-xdevapi-statement.construct.html) - Опис конструктора
--   [Statement::getNextResult](mysql-xdevapi-statement.getnextresult.html) — Отримує наступний результат
--   [Statement::getResult](mysql-xdevapi-statement.getresult.html) — Отримує результат
--   [Statement::hasMoreResults](mysql-xdevapi-statement.hasmoreresults.html) — Перевіряє, чи є ще результати
+-   [Statement::construct](mysql-xdevapi-statement.construct.md) - Опис конструктора
+-   [Statement::getNextResult](mysql-xdevapi-statement.getnextresult.md) — Отримує наступний результат
+-   [Statement::getResult](mysql-xdevapi-statement.getresult.md) — Отримує результат
+-   [Statement::hasMoreResults](mysql-xdevapi-statement.hasmoreresults.md) — Перевіряє, чи є ще результати

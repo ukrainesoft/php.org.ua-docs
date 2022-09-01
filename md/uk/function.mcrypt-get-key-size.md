@@ -30,7 +30,7 @@ mcrypt_get_key_size(string $cipher, string $mode): int|false
 
 **mcryptgetkeysize()** використовується для отримання розміру ключа для зазначеного шифру `cipher` (У комбінації з режимом шифрування).
 
-Правильніше використовуватиме [mcryptencgetkeysize()](function.mcrypt-enc-get-key-size.html), тому що вона повертає результат по існуючому дескриптору шифрування, отриманого за допомогою [mcryptmoduleopen()](function.mcrypt-module-open.html)
+Правильніше використовуватиме [mcryptencgetkeysize()](function.mcrypt-enc-get-key-size.html), тому що вона повертає результат по існуючому дескриптору шифрування, отриманого за допомогою [mcryptmoduleopen()](function.mcrypt-module-open.md)
 
 ### Список параметрів
 
@@ -66,6 +66,6 @@ mcrypt_get_key_size(string $cipher, string $mode): int|false
 
 ### Дивіться також
 
--   [mcryptgetblocksize()](function.mcrypt-get-block-size.html) - Повертає розмір блоку для зазначеного шифру
--   [mcryptencgetkeysize()](function.mcrypt-enc-get-key-size.html) - Повертає максимальну допустиму довжину ключа алгоритму
--   [mcryptencrypt()](function.mcrypt-encrypt.html) - Шифрує текст із заданими параметрами
+-   [mcryptgetblocksize()](function.mcrypt-get-block-size.md) - Повертає розмір блоку для зазначеного шифру
+-   [mcryptencgetkeysize()](function.mcrypt-enc-get-key-size.md) - Повертає максимальну допустиму довжину ключа алгоритму
+-   [mcryptencrypt()](function.mcrypt-encrypt.md) - Шифрує текст із заданими параметрами

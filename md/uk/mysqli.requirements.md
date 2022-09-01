@@ -14,4 +14,4 @@ title: Вимоги
 
 При запуску PHP до версії 7.1.16 або PHP 7.2 до 7.2.4 встановіть плагін за умовчанням MySQL 8 Server в *mysqlnativepassword*, інакше ви побачите помилки, схожі на *Server потребує authentication method unknown to the client cachingsha2password*, навіть коли *cachingsha2password* не використовується.
 
-Це пов'язано з тим, що MySQL 8 за замовчуванням використовує cachingsha2password, і плагін не розпізнається старими версіями PHP (mysqlnd). Натомість змініть це, встановивши `default_authentication_plugin=mysql_native_password` у my.cnf. Плагін *cachingsha2password* буде підтримуватись у майбутній версії PHP. Поки що модуль [mysqlxdevapi](book.mysql-xdevapi.html) підтримує його.
+Це пов'язано з тим, що MySQL 8 за замовчуванням використовує cachingsha2password, і плагін не розпізнається старими версіями PHP (mysqlnd). Натомість змініть це, встановивши `default_authentication_plugin=mysql_native_password` у my.cnf. Плагін *cachingsha2password* буде підтримуватись у майбутній версії PHP. Поки що модуль [mysqlxdevapi](book.mysql-xdevapi.md) підтримує його.

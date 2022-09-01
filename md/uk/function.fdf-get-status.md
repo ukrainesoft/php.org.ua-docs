@@ -24,7 +24,7 @@ fdf_get_status(resource $fdf_document): string
 
 `fdf_document`
 
-Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.html)
+Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ fdf_get_status(resource $fdf_document): string
 
 ### Дивіться також
 
--   [fdfsetstatus()](function.fdf-set-status.html) - Встановлює значення ключа /STATUS
+-   [fdfsetstatus()](function.fdf-set-status.md) - Встановлює значення ключа /STATUS

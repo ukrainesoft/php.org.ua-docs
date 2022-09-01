@@ -23,7 +23,7 @@ title: Налаштування під час виконання
 
 `filter.default` string
 
-Фільтрує всі дані [GET](reserved.variables.get.md) [POST](reserved.variables.post.md) [COOKIE](reserved.variables.cookies.md) [REQUEST](reserved.variables.request.md) і [SERVER](reserved.variables.server.md) цим фільтром. Вихідні дані можуть бути отримані за допомогою [filterinput()](function.filter-input.html)
+Фільтрує всі дані [GET](reserved.variables.get.md) [POST](reserved.variables.post.md) [COOKIE](reserved.variables.cookies.md) [REQUEST](reserved.variables.request.md) і [SERVER](reserved.variables.server.md) цим фільтром. Вихідні дані можуть бути отримані за допомогою [filterinput()](function.filter-input.md)
 
 Приймає ім'я вказаного фільтра як значення за промовчанням. Імена фільтрів можна знайти в [списку існуючих фільтрів](filter.filters.md)
 

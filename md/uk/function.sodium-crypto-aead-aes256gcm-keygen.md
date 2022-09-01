@@ -18,7 +18,7 @@ sodiumcryptoaeadaes256gcmkeygen — Створює випадковий ключ
 sodium_crypto_aead_aes256gcm_keygen(): string
 ```
 
-Створює випадковий ключ для використання в [sodiumcryptoaeadaes256gcmencrypt()](function.sodium-crypto-aead-aes256gcm-encrypt.html) і [sodiumcryptoaeadaes256gcmdecrypt()](function.sodium-crypto-aead-aes256gcm-decrypt.html)
+Створює випадковий ключ для використання в [sodiumcryptoaeadaes256gcmencrypt()](function.sodium-crypto-aead-aes256gcm-encrypt.html) і [sodiumcryptoaeadaes256gcmdecrypt()](function.sodium-crypto-aead-aes256gcm-decrypt.md)
 
 ### Список параметрів
 

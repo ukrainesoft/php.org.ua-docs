@@ -12,7 +12,7 @@ title: Інтерфейс MongoDBDriverCursorInterface
 
 ## Вступ
 
-Інтерфейс, реалізований [MongoDBDriverCursor](class.mongodb-driver-cursor.html), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
+Інтерфейс, реалізований [MongoDBDriverCursor](class.mongodb-driver-cursor.md), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 
@@ -48,8 +48,8 @@ abstract public toArray(): array
 
 ## Зміст
 
--   [MongoDBDriverCursorInterface::getId](mongodb-driver-cursorinterface.getid.html) — Повертає ідентифікатор курсору
--   [MongoDBDriverCursorInterface::getServer](mongodb-driver-cursorinterface.getserver.html) — Повертає сервер, з яким пов'язаний курсор
--   [MongoDBDriverCursorInterface::isDead](mongodb-driver-cursorinterface.isdead.html) — Перевірити, чи можна ще отримати з курсору результати
--   [MongoDBDriverCursorInterface::setTypeMap](mongodb-driver-cursorinterface.settypemap.html) — Задати порівняння типів для десеріалізації BSON
--   [MongoDBDriverCursorInterface::toArray](mongodb-driver-cursorinterface.toarray.html) — Повернути всі результати для цього курсору у вигляді масиву
+-   [MongoDBDriverCursorInterface::getId](mongodb-driver-cursorinterface.getid.md) — Повертає ідентифікатор курсору
+-   [MongoDBDriverCursorInterface::getServer](mongodb-driver-cursorinterface.getserver.md) — Повертає сервер, з яким пов'язаний курсор
+-   [MongoDBDriverCursorInterface::isDead](mongodb-driver-cursorinterface.isdead.md) — Перевірити, чи можна ще отримати з курсору результати
+-   [MongoDBDriverCursorInterface::setTypeMap](mongodb-driver-cursorinterface.settypemap.md) — Задати порівняння типів для десеріалізації BSON
+-   [MongoDBDriverCursorInterface::toArray](mongodb-driver-cursorinterface.toarray.md) — Повернути всі результати для цього курсору у вигляді масиву

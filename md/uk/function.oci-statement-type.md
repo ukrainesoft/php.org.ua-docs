@@ -24,7 +24,7 @@ oci_statement_type(resource $statement): string|false
 
 `statement`
 
-Допустимий ідентифікатор оператора OCI8, який повертається [ociparse()](function.oci-parse.html)
+Допустимий ідентифікатор оператора OCI8, який повертається [ociparse()](function.oci-parse.md)
 
 ### Значення, що повертаються
 

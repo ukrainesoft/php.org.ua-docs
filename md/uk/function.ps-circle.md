@@ -24,7 +24,7 @@ ps_circle(    resource $psdoc,    float $x,    float $y,    floa
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 `x`
 
@@ -44,5 +44,5 @@ ps_circle(    resource $psdoc,    float $x,    float $y,    floa
 
 ### Дивіться також
 
--   [псarc()](function.ps-arc.html) - Малює дугу проти годинникової стрілки
--   [псarcn()](function.ps-arcn.html) - Малює дугу за годинниковою стрілкою
+-   [псarc()](function.ps-arc.md) - Малює дугу проти годинникової стрілки
+-   [псarcn()](function.ps-arcn.md) - Малює дугу за годинниковою стрілкою

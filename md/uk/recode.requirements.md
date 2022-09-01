@@ -8,7 +8,7 @@ title: Вимоги
 ---
 ## Вимоги
 
-Ви повинні встановити GNU Recode 3.5 або вище. Цей пакет ви можете завантажити з сайту [» http://directory.fsf.org/AllGNUPackages/recode.html](http://directory.fsf.org/All_GNU_Packages/recode.html)
+Ви повинні встановити GNU Recode 3.5 або вище. Цей пакет ви можете завантажити з сайту [» http://directory.fsf.org/AllGNUPackages/recode.html](http://directory.fsf.org/All_GNU_Packages/recode.md)
 
 **Увага**
 

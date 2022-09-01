@@ -18,7 +18,7 @@ pcntlsignaldispatch — Викликає обробники для сигнал�
 pcntl_signal_dispatch(): bool
 ```
 
-Функція **pcntlsignaldispatch()** викликає обробники сигналів, встановлені функцією [pcntlsignal()](function.pcntl-signal.html), для кожного сигналу, що очікує.
+Функція **pcntlsignaldispatch()** викликає обробники сигналів, встановлені функцією [pcntlsignal()](function.pcntl-signal.md), для кожного сигналу, що очікує.
 
 ### Список параметрів
 
@@ -62,7 +62,7 @@ echo "Завершено.\n";
 
 ### Дивіться також
 
--   [pcntlsignal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу
--   [pcntlsigprocmask()](function.pcntl-sigprocmask.html) - Задає та витягує список сигналів, що блокуються.
--   [pcntlsigwaitinfo()](function.pcntl-sigwaitinfo.html) - Очікування сигналів
--   [pcntlsigtimedwait()](function.pcntl-sigtimedwait.html) - Очікує сигнали протягом заданого часу
+-   [pcntlsignal()](function.pcntl-signal.md) - Встановлення оброблювача сигналу
+-   [pcntlsigprocmask()](function.pcntl-sigprocmask.md) - Задає та витягує список сигналів, що блокуються.
+-   [pcntlsigwaitinfo()](function.pcntl-sigwaitinfo.md) - Очікування сигналів
+-   [pcntlsigtimedwait()](function.pcntl-sigtimedwait.md) - Очікує сигнали протягом заданого часу

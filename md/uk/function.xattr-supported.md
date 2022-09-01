@@ -53,5 +53,5 @@ if (xattr_supported($file)) {
 
 ### Дивіться також
 
--   [xattrget()](function.xattr-get.html) - Отримання розширених атрибутів файлу
--   [xattrlist()](function.xattr-list.html) - Перегляд списку розширених атрибутів файлу
+-   [xattrget()](function.xattr-get.md) - Отримання розширених атрибутів файлу
+-   [xattrlist()](function.xattr-list.md) - Перегляд списку розширених атрибутів файлу

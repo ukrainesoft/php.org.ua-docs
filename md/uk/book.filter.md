@@ -24,10 +24,10 @@ title: Фільтрування даних
     -   [Перевірка (валідація)](filter.examples.validation.md)
     -   [Очищення (нормалізація)](filter.examples.sanitization.md)
 -   [Функції фільтрації даних](ref.filter.md)
-    -   [filterhasvar](function.filter-has-var.html) - Перевіряє існування змінної зазначеного типу
-    -   [filterід](function.filter-id.html) — Повертає ідентифікатор, який належить іменованому фільтру
-    -   [filterinputarray](function.filter-input-array.html) — Отримує кілька змінних ззовні PHP і, за потреби, фільтрує їх
-    -   [filterinput](function.filter-input.html) - Приймає змінну ззовні PHP і, при необхідності, фільтрує її
-    -   [filterlist](function.filter-list.html) — Повертає список усіх підтримуваних фільтрів
-    -   [filtervararray](function.filter-var-array.html) — Приймає кілька змінних і, за потреби, фільтрує їх
-    -   [filtervar](function.filter-var.html) — Фільтрує змінну за допомогою певного фільтра
+    -   [filterhasvar](function.filter-has-var.md) - Перевіряє існування змінної зазначеного типу
+    -   [filterід](function.filter-id.md) — Повертає ідентифікатор, який належить іменованому фільтру
+    -   [filterinputarray](function.filter-input-array.md) — Отримує кілька змінних ззовні PHP і, за потреби, фільтрує їх
+    -   [filterinput](function.filter-input.md) - Приймає змінну ззовні PHP і, при необхідності, фільтрує її
+    -   [filterlist](function.filter-list.md) — Повертає список усіх підтримуваних фільтрів
+    -   [filtervararray](function.filter-var-array.md) — Приймає кілька змінних і, за потреби, фільтрує їх
+    -   [filtervar](function.filter-var.md) — Фільтрує змінну за допомогою певного фільтра

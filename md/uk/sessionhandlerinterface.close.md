@@ -18,7 +18,7 @@ SessionHandlerInterface::close — Закриває сесію
 public SessionHandlerInterface::close(): bool
 ```
 
-Закриває поточну сесію. Ця функція автоматично виконується під час закриття сесії або явно через [sessionwriteclose()](function.session-write-close.html)
+Закриває поточну сесію. Ця функція автоматично виконується під час закриття сесії або явно через [sessionwriteclose()](function.session-write-close.md)
 
 ### Список параметрів
 

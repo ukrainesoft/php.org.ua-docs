@@ -26,7 +26,7 @@ curl_pause(CurlHandle $handle, int $flags): int
 
 `handle`
 
-Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
 
 `flags`
 

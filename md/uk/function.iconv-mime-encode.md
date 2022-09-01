@@ -78,7 +78,7 @@ echo iconv_mime_encode("Subject", "Prüfung Prüfung", $preferences);
 
 ### Дивіться також
 
--   [imapbinary()](function.imap-binary.html) - Конвертує 8-бітовий рядок у рядок base64
--   [мбencodemimeheader()](function.mb-encode-mimeheader.html) - Кодує рядок для MIME-заголовка
--   [imap8bit()](function.imap-8bit.html) - Конвертує 8-бітний рядок у рядок у форматі quoted-printable
--   [quotedprintableencode()](function.quoted-printable-encode.html) - Перетворює 8-бітовий рядок за допомогою методу quoted-printable
+-   [imapbinary()](function.imap-binary.md) - Конвертує 8-бітовий рядок у рядок base64
+-   [мбencodemimeheader()](function.mb-encode-mimeheader.md) - Кодує рядок для MIME-заголовка
+-   [imap8bit()](function.imap-8bit.md) - Конвертує 8-бітний рядок у рядок у форматі quoted-printable
+-   [quotedprintableencode()](function.quoted-printable-encode.md) - Перетворює 8-бітовий рядок за допомогою методу quoted-printable

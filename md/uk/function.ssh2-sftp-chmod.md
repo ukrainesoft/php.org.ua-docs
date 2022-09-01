@@ -24,7 +24,7 @@ ssh2_sftp_chmod(resource $sftp, string $filename, int $mode): bool
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.html)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.md)
 
 `filename`
 
@@ -55,5 +55,5 @@ ssh2_sftp_chmod($sftp, '/somedir/somefile', 0755);
 ### Дивіться також
 
 -   [chmod()](function.chmod.md) - Змінює режим доступу до файлу
--   [ssh2sftp()](function.ssh2-sftp.html) - Ініціалізувати підсистему SFTP
--   [ssh2connect()](function.ssh2-connect.html) - Підключення до SSH-сервера
+-   [ssh2sftp()](function.ssh2-sftp.md) - Ініціалізувати підсистему SFTP
+-   [ssh2connect()](function.ssh2-connect.md) - Підключення до SSH-сервера

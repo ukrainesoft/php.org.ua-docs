@@ -558,8 +558,8 @@ function p($res, $val, $op, $places, $note = '') {
 
 -   [pack()](function.pack.md)
 -   [unpack()](function.unpack.md)
--   [gmpand()](function.gmp-and.html)
--   [gmpor()](function.gmp-or.html)
--   [gmpxor()](function.gmp-xor.html)
--   [gmptestbit()](function.gmp-testbit.html)
--   [gmpclrbit()](function.gmp-clrbit.html)
+-   [gmpand()](function.gmp-and.md)
+-   [gmpor()](function.gmp-or.md)
+-   [gmpxor()](function.gmp-xor.md)
+-   [gmptestbit()](function.gmp-testbit.md)
+-   [gmpclrbit()](function.gmp-clrbit.md)

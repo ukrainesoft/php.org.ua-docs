@@ -34,7 +34,7 @@ stomp_unsubscribe(resource $link, string $destination, array $headers = ?): bool
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.html)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
 
 `destination`
 
@@ -50,7 +50,7 @@ stomp_unsubscribe(resource $link, string $destination, array $headers = ?): bool
 
 ### Приклади
 
-Дивіться [stompack()](stomp.ack.html)
+Дивіться [stompack()](stomp.ack.md)
 
 ### Примітки
 

@@ -18,7 +18,7 @@ PharData::buildFromDirectory — Створює tar/zip-архів із файл
 public PharData::buildFromDirectory(string $directory, string $pattern = ""): array
 ```
 
-Наповнює tar/zip-архів вмістом директорії. Другий опціональний параметр є регулярним виразом (pcre). Файли, імена яких підходять під регулярне вираження, будуть включені в архів, а решта немає. Якщо при створенні архіву потрібна більша вибірковість, то використовуйте метод [PharData::buildFromIterator()](phardata.buildfromiterator.html)
+Наповнює tar/zip-архів вмістом директорії. Другий опціональний параметр є регулярним виразом (pcre). Файли, імена яких підходять під регулярне вираження, будуть включені в архів, а решта немає. Якщо при створенні архіву потрібна більша вибірковість, то використовуйте метод [PharData::buildFromIterator()](phardata.buildfromiterator.md)
 
 ### Список параметрів
 
@@ -32,11 +32,11 @@ public PharData::buildFromDirectory(string $directory, string $pattern = ""): ar
 
 ### Значення, що повертаються
 
-[Phar::buildFromDirectory()](phar.buildfromdirectory.html) повертає асоціативний масив, що пов'язує шлях до файлу всередині архіву з повним шляхом до файлу на диску або **`false`** у разі виникнення помилки.
+[Phar::buildFromDirectory()](phar.buildfromdirectory.md) повертає асоціативний масив, що пов'язує шлях до файлу всередині архіву з повним шляхом до файлу на диску або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Викидає виняток [BadMethodCallException](class.badmethodcallexception.html)якщо не вдається ініціалізувати внутрішні ітератори директорії. Виняток [PharException](class.pharexception.html) викидається при помилках запису на диск.
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.html)якщо не вдається ініціалізувати внутрішні ітератори директорії. Виняток [PharException](class.pharexception.md) викидається при помилках запису на диск.
 
 ### список змін
 
@@ -62,5 +62,5 @@ $phar2->buildFromDirectory(dirname(__FILE__) . '/project', '/\.php$/');
 
 ### Дивіться також
 
--   [Phar::buildFromDirectory()](phar.buildfromdirectory.html) - Створює phar-архів із файлів, розташованих усередині директорії
--   [PharData::buildFromIterator()](phardata.buildfromiterator.html) - Створення tar/zip-архіву за допомогою ітератора
+-   [Phar::buildFromDirectory()](phar.buildfromdirectory.md) - Створює phar-архів із файлів, розташованих усередині директорії
+-   [PharData::buildFromIterator()](phardata.buildfromiterator.md) - Створення tar/zip-архіву за допомогою ітератора

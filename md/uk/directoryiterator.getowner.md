@@ -61,4 +61,4 @@ Array
 -   [DirectoryIterator::getGroup()](directoryiterator.getgroup.md) - Повертає ідентифікатор групи поточного елемента DirectoryIterator
 -   [DirectoryIterator::getiNode()](directoryiterator.getinode.md) - Повертає inode поточного елемента DirectoryIterator
 -   [DirectoryIterator::getPerms()](directoryiterator.getperms.md) - Повертає набір прав для поточного елемента DirectoryIterator item
--   [posixgetpwuid()](function.posix-getpwuid.html) - Повертає інформацію про користувача, використовуючи його ID
+-   [posixgetpwuid()](function.posix-getpwuid.md) - Повертає інформацію про користувача, використовуючи його ID

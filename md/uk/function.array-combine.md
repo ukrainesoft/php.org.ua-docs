@@ -71,6 +71,6 @@ Array
 
 ### Дивіться також
 
--   [arraymerge()](function.array-merge.html) - Зливає один або більше масивів
--   [arraywalk()](function.array-walk.html) - Застосовує задану користувачем функцію до кожного елемента масиву
--   [arrayvalues()](function.array-values.html) - Вибирає всі значення масиву
+-   [arraymerge()](function.array-merge.md) - Зливає один або більше масивів
+-   [arraywalk()](function.array-walk.md) - Застосовує задану користувачем функцію до кожного елемента масиву
+-   [arrayvalues()](function.array-values.md) - Вибирає всі значення масиву

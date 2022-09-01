@@ -58,5 +58,5 @@ var_dump(time_sleep_until(microtime(true)+0.2));
 
 -   [sleep()](function.sleep.md) - затримка виконання
 -   [usleep()](function.usleep.md) - Затримка виконання у мікросекундах
--   [timenanosleep()](function.time-nanosleep.html) - Затримка на задану кількість секунд та наносекунд
--   [settimelimit()](function.set-time-limit.html) - Обмеження часу виконання скрипту
+-   [timenanosleep()](function.time-nanosleep.md) - Затримка на задану кількість секунд та наносекунд
+-   [settimelimit()](function.set-time-limit.md) - Обмеження часу виконання скрипту

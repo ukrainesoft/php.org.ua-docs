@@ -28,7 +28,7 @@ zip_entry_compressionmethod(resource $zip_entry): string|false
 
 `zip_entry`
 
-Дескриптор директорії, що повертається функцією [zipread()](function.zip-read.html)
+Дескриптор директорії, що повертається функцією [zipread()](function.zip-read.md)
 
 ### Значення, що повертаються
 
@@ -42,5 +42,5 @@ zip_entry_compressionmethod(resource $zip_entry): string|false
 
 ### Дивіться також
 
--   [zipopen()](function.zip-open.html) - Відкриває ZIP-архів
--   [zipread()](function.zip-read.html) - Зчитує наступний запис у ZIP-архіві
+-   [zipopen()](function.zip-open.md) - Відкриває ZIP-архів
+-   [zipread()](function.zip-read.md) - Зчитує наступний запис у ZIP-архіві

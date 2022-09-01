@@ -10,5 +10,5 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](xmldiff.requirements.html)
--   [Установка](xmldiff.installation.html)
+-   [Вимоги](xmldiff.requirements.md)
+-   [Установка](xmldiff.installation.md)

@@ -8,158 +8,158 @@ title: Класи драйвера MongoDB
 ---
 # Класи драйвера MongoDB
 
--   [MongoDBDriverManager](class.mongodb-driver-manager.html) - Клас MongoDBDriverManager
-    -   [MongoDBDriverManager::addSubscriber](mongodb-driver-manager.addsubscriber.html) — Реєструє передплатника на подію моніторингу в даному об'єкті Manager
-    -   [MongoDBDriverManager::construct](mongodb-driver-manager.construct.html) - Створює новий Manager MongoDB
-    -   [MongoDBDriverManager::createClientEncryption](mongodb-driver-manager.createclientencryption.html) — Створення нового об'єкта ClientEncryption
-    -   [MongoDBDriverManager::executeBulkWrite](mongodb-driver-manager.executebulkwrite.html) — Виконує одну або кілька операцій запису
-    -   [MongoDBDriverManager::executeCommand](mongodb-driver-manager.executecommand.html) - Виконує команду бази даних
-    -   [MongoDBDriverManager::executeQuery](mongodb-driver-manager.executequery.html) — Виконує запит до бази даних
-    -   [MongoDBDriverManager::executeReadCommand](mongodb-driver-manager.executereadcommand.html) - Виконує команду бази даних, яка читає
-    -   [MongoDBDriverManager::executeReadWriteCommand](mongodb-driver-manager.executereadwritecommand.html) — Виконує команду бази даних, яка читає та пише
-    -   [MongoDBDriverManager::executeWriteCommand](mongodb-driver-manager.executewritecommand.html) - Виконує команду бази даних, яка пише
-    -   [MongoDBDriverManager::getEncryptedFieldsMap](mongodb-driver-manager.getencryptedfieldsmap.html) — Повертає опцію автоматичного шифрування encryptedFieldsMap для Manager
-    -   [MongoDBDriverManager::getReadConcern](mongodb-driver-manager.getreadconcern.html) — Повертає ReadConcern для Manager
-    -   [MongoDBDriverManager::getReadPreference](mongodb-driver-manager.getreadpreference.html) — Повертає ReadPreference для Manager
-    -   [MongoDBDriverManager::getServers](mongodb-driver-manager.getservers.html) — Повертає сервери, до яких підключено менеджера
-    -   [MongoDBDriverManager::getWriteConcern](mongodb-driver-manager.getwriteconcern.html) — Повертає WriteConcern для Manager
-    -   [MongoDBDriverManager::removeSubscriber](mongodb-driver-manager.removesubscriber.html) — Скасує реєстрацію передплатника на подію моніторингу на даному об'єкті Manager
-    -   [MongoDBDriverManager::selectServer](mongodb-driver-manager.selectserver.html) — Вибрати сервер, який відповідає перевагам читання
-    -   [MongoDBDriverManager::startSession](mongodb-driver-manager.startsession.html) — Запуск нового клієнтського сеансу для використання з цим клієнтом
--   [MongoDBDriverCommand](class.mongodb-driver-command.html) - Клас The MongoDBDriverCommand
-    -   [MongoDBDriverCommand::construct](mongodb-driver-command.construct.html) — Створює новий об'єкт Command
--   [MongoDBDriverQuery](class.mongodb-driver-query.html) - Клас MongoDBDriverQuery
-    -   [MongoDBDriverQuery::construct](mongodb-driver-query.construct.html) - Створює новий запит
--   [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html) - Клас MongoDBDriverBulkWrite
-    -   [MongoDBDriverBulkWrite::construct](mongodb-driver-bulkwrite.construct.html) — Створює новий об'єкт BulkWrite
-    -   [MongoDBDriverBulkWrite::count](mongodb-driver-bulkwrite.count.html) - Підраховує кількість операцій запису в порції
-    -   [MongoDBDriverBulkWrite::delete](mongodb-driver-bulkwrite.delete.html) — Додавання операції видалення порції
-    -   [MongoDBDriverBulkWrite::insert](mongodb-driver-bulkwrite.insert.html) - Додати операцію вставки в порцію
-    -   [MongoDBDriverBulkWrite::update](mongodb-driver-bulkwrite.update.html) — Додати операцію оновлення до порції
--   [MongoDBDriverSession](class.mongodb-driver-session.html) - Клас MongoDBDriverSession
-    -   [MongoDBDriverSession::abortTransaction](mongodb-driver-session.aborttransaction.html) — Перериває транзакцію
-    -   [MongoDBDriverSession::advanceClusterTime](mongodb-driver-session.advanceclustertime.html) - Збільшує час кластера для сеансу
-    -   [MongoDBDriverSession::advanceOperationTime](mongodb-driver-session.advanceoperationtime.html) - Збільшує час операції для сеансу
-    -   [MongoDBDriverSession::commitTransaction](mongodb-driver-session.committransaction.html) - Фіксує транзакцію
-    -   [MongoDBDriverSession::construct](mongodb-driver-session.construct.html) — Створює новий сеанс (не використовується)
-    -   [MongoDBDriverSession::endSession](mongodb-driver-session.endsession.html) - Завершує сеанс
-    -   [MongoDBDriverSession::getClusterTime](mongodb-driver-session.getclustertime.html) — Повертає час кластера для цього сеансу
-    -   [MongoDBDriverSession::getLogicalSessionId](mongodb-driver-session.getlogicalsessionid.html) — Повертає логічний ідентифікатор сеансу для цього сеансу
-    -   [MongoDBDriverSession::getOperationTime](mongodb-driver-session.getoperationtime.html) — Повертає час операції для цього сеансу
-    -   [MongoDBDriverSession::getServer](mongodb-driver-session.getserver.html) — Повертає сервер, до якого прив'язана поточна сесія.
-    -   [MongoDBDriverSession::getTransactionOptions](mongodb-driver-session.gettransactionoptions.html) — Повертає налаштування поточної транзакції
-    -   [MongoDBDriverSession::getTransactionState](mongodb-driver-session.gettransactionstate.html) — Повертає статус транзакції для поточної сесії
-    -   [MongoDBDriverSession::isDirty](mongodb-driver-session.isdirty.html) — Повертає, чи сесія була позначена як брудна
-    -   [MongoDBDriverSession::isInTransaction](mongodb-driver-session.isintransaction.html) — Визначає, чи відбувається зараз багатодокументна транзакція.
-    -   [MongoDBDriverSession::startTransaction](mongodb-driver-session.starttransaction.html) - Запускає транзакцію
--   [MongoDBDriverClientEncryption](class.mongodb-driver-clientencryption.html) - Клас MongoDBDriverClientEncryption
-    -   [MongoDBDriverClientEncryption::construct](mongodb-driver-clientencryption.construct.html) — Створює новий об'єкт ClientEncryption
-    -   [MongoDBDriverClientEncryption::createDataKey](mongodb-driver-clientencryption.createdatakey.html) — Створює ключ шифрування
-    -   [MongoDBDriverClientEncryption::decrypt](mongodb-driver-clientencryption.decrypt.html) - Розшифрувати дані
-    -   [MongoDBDriverClientEncryption::encrypt](mongodb-driver-clientencryption.encrypt.html) - Шифрує дані
--   [MongoDBDriverServerApi](class.mongodb-driver-serverapi.html) - Клас MongoDBDriverServerApi
-    -   [MongoDBDriverServerApi::bsonSerialize](mongodb-driver-serverapi.bsonserialize.html) — Повертає об'єкт для серіалізації BSON
-    -   [MongoDBDriverServerApi::construct](mongodb-driver-serverapi.construct.html) — Створює новий примірник ServerApi
-    -   [MongoDBDriverServerApi::serialize](mongodb-driver-serverapi.serialize.html) - Серіалізує ServerApi
-    -   [MongoDBDriverServerApi::unserialize](mongodb-driver-serverapi.unserialize.html) - Десеріалізує ServerApi
--   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html) - Клас MongoDBDriverWriteConcern
-    -   [MongoDBDriverWriteConcern::bsonSerialize](mongodb-driver-writeconcern.bsonserialize.html) — Повертає об'єкт серіалізації BSON
-    -   [MongoDBDriverWriteConcern::construct](mongodb-driver-writeconcern.construct.html) - Створити новий WriteConcern
-    -   [MongoDBDriverWriteConcern::getJournal](mongodb-driver-writeconcern.getjournal.html) — Повертає опцію journal WriteConcern
-    -   [MongoDBDriverWriteConcern::getW](mongodb-driver-writeconcern.getw.html) - Повертає опцію "w" WriteConcern
-    -   [MongoDBDriverWriteConcern::getWtimeout](mongodb-driver-writeconcern.getwtimeout.html) - Повертає опцію "wtimeout" WriteConcern
-    -   [MongoDBDriverWriteConcern::isDefault](mongodb-driver-writeconcern.isdefault.html) — Перевіряє, чи є гарантія запису за замовчуванням
-    -   [MongoDBDriverWriteConcern::serialize](mongodb-driver-writeconcern.serialize.html) - Серіалізація WriteConcern
-    -   [MongoDBDriverWriteConcern::unserialize](mongodb-driver-writeconcern.unserialize.html) - Десеріалізація WriteConcern
--   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html) - Клас MongoDBDriverReadPreference
-    -   [MongoDBDriverReadPreference::bsonSerialize](mongodb-driver-readpreference.bsonserialize.html) — Повертає об'єкт серіалізації BSON
-    -   [MongoDBDriverReadPreference::construct](mongodb-driver-readpreference.construct.html) — Створити новий ReadPreference
-    -   [MongoDBDriverReadPreference::getHedge](mongodb-driver-readpreference.gethedge.html) — Повертає опцію "hedge" із ReadPreference
-    -   [MongoDBDriverReadPreference::getMaxStalenessSeconds](mongodb-driver-readpreference.getmaxstalenessseconds.html) — Повертає параметр "maxStalenessSeconds" ReadPreference
-    -   [MongoDBDriverReadPreference::getMode](mongodb-driver-readpreference.getmode.html) - Повертає параметр "mode" ReadPreference
-    -   [MongoDBDriverReadPreference::getModeString](mongodb-driver-readpreference.getmodestring.html) - Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
-    -   [MongoDBDriverReadPreference::getTagSets](mongodb-driver-readpreference.gettagsets.html) - Повертає параметр "tagSets" ReadPreference
-    -   [MongoDBDriverReadPreference::serialize](mongodb-driver-readpreference.serialize.html) — Серіалізація ReadPreference
-    -   [MongoDBDriverReadPreference::unserialize](mongodb-driver-readpreference.unserialize.html) - Десеріалізація ReadPreference
--   [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) - Клас MongoDBDriverReadConcern
-    -   [MongoDBDriverReadConcern::bsonSerialize](mongodb-driver-readconcern.bsonserialize.html) — Повертає об'єкт для серіалізації BSON
-    -   [MongoDBDriverReadConcern::construct](mongodb-driver-readconcern.construct.html) - Створює новий ReadConcern
-    -   [MongoDBDriverReadConcern::getLevel](mongodb-driver-readconcern.getlevel.html) - Повертає опцію "level" ReadConcern
-    -   [MongoDBDriverReadConcern::isDefault](mongodb-driver-readconcern.isdefault.html) — Перевіряє, чи є гарантією прочитання за умовчанням
-    -   [MongoDBDriverReadConcern::serialize](mongodb-driver-readconcern.serialize.html) - Серіалізація ReadConcern
-    -   [MongoDBDriverReadConcern::unserialize](mongodb-driver-readconcern.unserialize.html) - Десеріалізація ReadConcern
--   [MongoDBDriverCursor](class.mongodb-driver-cursor.html) - Клас MongoDBDriverCursor
-    -   [MongoDBDriverCursor::construct](mongodb-driver-cursor.construct.html) - Створює новий об'єкт Cursor (не використовується)
-    -   [MongoDBDriverCursor::current](mongodb-driver-cursor.current.html) — Повертає поточний елемент
-    -   [MongoDBDriverCursor::getId](mongodb-driver-cursor.getid.html) — Повертає ідентифікатор для курсору
-    -   [MongoDBDriverCursor::getServer](mongodb-driver-cursor.getserver.html) — Повертає сервер, пов'язаний із курсором
-    -   [MongoDBDriverCursor::isDead](mongodb-driver-cursor.isdead.html) — Перевіряє, чи курсор вичерпано чи може містити додаткові результати.
-    -   [MongoDBDriverCursor::key](mongodb-driver-cursor.key.html) — Повертає індекс поточного результату у курсорі
-    -   [MongoDBDriverCursor::next](mongodb-driver-cursor.next.html) — Переміщує курсор на наступний результат
-    -   [MongoDBDriverCursor::rewind](mongodb-driver-cursor.rewind.html) — Переміщує курсор до першого результату
-    -   [MongoDBDriverCursor::setTypeMap](mongodb-driver-cursor.settypemap.html) — Встановлює карту типу для десеріалізації BSON
-    -   [MongoDBDriverCursor::toArray](mongodb-driver-cursor.toarray.html) — Повертає масив, що містить усі результати курсору
-    -   [MongoDBDriverCursor::valid](mongodb-driver-cursor.valid.html) — Перевіряє, чи поточна позиція курсору коректна.
--   [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html) - Клас MongoDBDriverCursorId
-    -   [MongoDBDriverCursorId::construct](mongodb-driver-cursorid.construct.html) — Створює новий об'єкт CursorId (не використовується)
-    -   [MongoDBDriverCursorId::serialize](mongodb-driver-cursorid.serialize.html) - Серіалізація CursorId
-    -   [MongoDBDriverCursorId::toString](mongodb-driver-cursorid.tostring.html) - Строкове подання ідентифікатора курсора
-    -   [MongoDBDriverCursorId::unserialize](mongodb-driver-cursorid.unserialize.html) - Десеріалізація CursorId
--   [MongoDBDriverCursorInterface](class.mongodb-driver-cursorinterface.html) - Інтерфейс MongoDBDriverCursorInterface
-    -   [MongoDBDriverCursorInterface::getId](mongodb-driver-cursorinterface.getid.html) — Повертає ідентифікатор курсору
-    -   [MongoDBDriverCursorInterface::getServer](mongodb-driver-cursorinterface.getserver.html) — Повертає сервер, з яким пов'язаний курсор
-    -   [MongoDBDriverCursorInterface::isDead](mongodb-driver-cursorinterface.isdead.html) — Перевірити, чи можна ще отримати з курсору результати
-    -   [MongoDBDriverCursorInterface::setTypeMap](mongodb-driver-cursorinterface.settypemap.html) — Задати порівняння типів десеріалізації BSON
-    -   [MongoDBDriverCursorInterface::toArray](mongodb-driver-cursorinterface.toarray.html) — Повернути всі результати для цього курсору у вигляді масиву
--   [MongoDBDriverServer](class.mongodb-driver-server.html) - Клас MongoDBDriverServer
-    -   [MongoDBDriverServer::construct](mongodb-driver-server.construct.html) - Створює новий Server (не використовується)
-    -   [MongoDBDriverServer::executeBulkWrite](mongodb-driver-server.executebulkwrite.html) — Виконати одну або кілька операцій запису на сервері
-    -   [MongoDBDriverServer::executeCommand](mongodb-driver-server.executecommand.html) — Виконати команду бази даних на сервері
-    -   [MongoDBDriverServer::executeQuery](mongodb-driver-server.executequery.html) — Виконує запит до бази даних на сервері
-    -   [MongoDBDriverServer::executeReadCommand](mongodb-driver-server.executereadcommand.html) - Виконує команду бази даних, яка читає на сервері
-    -   [MongoDBDriverServer::executeReadWriteCommand](mongodb-driver-server.executereadwritecommand.html) — Виконує команду бази даних, яка читає та пише на сервері
-    -   [MongoDBDriverServer::executeWriteCommand](mongodb-driver-server.executewritecommand.html) - Виконує команду бази даних, яка пише на сервері
-    -   [MongoDBDriverServer::getHost](mongodb-driver-server.gethost.html) — Повертає ім'я сервера.
-    -   [MongoDBDriverServer::getInfo](mongodb-driver-server.getinfo.html) — Повертає масив інформації, що описує сервер
-    -   [MongoDBDriverServer::getLatency](mongodb-driver-server.getlatency.html) — Повертає затримку сервера у мілісекундах
-    -   [MongoDBDriverServer::getPort](mongodb-driver-server.getport.html) — Повертає порт, який слухає сервер
-    -   [MongoDBDriverServer::getServerDescription](mongodb-driver-server.getserverdescription.html) — Повертає ServerDescription сервера
-    -   [MongoDBDriverServer::getTags](mongodb-driver-server.gettags.html) — Повертає масив тегів, що описують сервер у наборі реплік
-    -   [MongoDBDriverServer::getType](mongodb-driver-server.gettype.html) — Повертає ціле число, яке означає тип цього сервера
-    -   [MongoDBDriverServer::isArbiter](mongodb-driver-server.isarbiter.html) — Перевіряє, чи сервер є членом-арбітром у наборі реплік
-    -   [MongoDBDriverServer::isHidden](mongodb-driver-server.ishidden.html) — Перевіряє, чи сервер є прихованим членом набору реплік
-    -   [MongoDBDriverServer::isPassive](mongodb-driver-server.ispassive.html) — Перевіряє, чи сервер є пасивним членом набору реплік.
-    -   [MongoDBDriverServer::isPrimary](mongodb-driver-server.isprimary.html) — Перевіряє, чи сервер є основним членом набору реплік
-    -   [MongoDBDriverServer::isSecondary](mongodb-driver-server.issecondary.html) — Перевіряє, чи цей сервер є другорядним членом набору реплік.
--   [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html) - Клас MongoDBDriverServerDescription
-    -   [MongoDBDriverServerDescription::getHelloResponse](mongodb-driver-serverdescription.gethelloresponse.html) - Повертає останню відповідь сервера "hello"
-    -   [MongoDBDriverServerDescription::getHost](mongodb-driver-serverdescription.gethost.html) — Повертає ім'я сервера.
-    -   [MongoDBDriverServerDescription::getLastUpdateTime](mongodb-driver-serverdescription.getlastupdatetime.html) — Повертає час останнього оновлення сервера у мікросекундах
-    -   [MongoDBDriverServerDescription::getPort](mongodb-driver-serverdescription.getport.html) — Повертає порт, на якому прослуховується цей сервер
-    -   [MongoDBDriverServerDescription::getRoundTripTime](mongodb-driver-serverdescription.getroundtriptime.html) — Повертає час обходу сервера у мілісекундах
-    -   [MongoDBDriverServerDescription::getType](mongodb-driver-serverdescription.gettype.html) — Повертає рядок, який позначає тип сервера
--   [MongoDBDriverTopologyDescription](class.mongodb-driver-topologydescription.html) - Клас MongoDBDriverTopologyDescription
-    -   [MongoDBDriverTopologyDescription::getServers](mongodb-driver-topologydescription.getservers.html) — Повертає сервери у топології
-    -   [MongoDBDriverTopologyDescription::getType](mongodb-driver-topologydescription.gettype.html) — Повертає рядок, що позначає тип топології
-    -   [MongoDBDriverTopologyDescription::hasReadableServer](mongodb-driver-topologydescription.hasreadableserver.html) — Повертає, чи є у топології сервер, доступний для читання
-    -   [MongoDBDriverTopologyDescription::hasWritableServer](mongodb-driver-topologydescription.haswritableserver.html) — Повертає, чи є у топології сервер, доступний для запису
--   [MongoDBDriverWriteConcernError](class.mongodb-driver-writeconcernerror.html) - Клас The MongoDBDriverWriteConcernError
-    -   [MongoDBDriverWriteConcernError::getCode](mongodb-driver-writeconcernerror.getcode.html) — Повертає код помилки WriteConcernError
-    -   [MongoDBDriverWriteConcernError::getInfo](mongodb-driver-writeconcernerror.getinfo.html) — Повертає документ метаданих для WriteConcernError
-    -   [MongoDBDriverWriteConcernError::getMessage](mongodb-driver-writeconcernerror.getmessage.html) — Повертає повідомлення про помилку WriteConcernError
--   [MongoDBDriverWriteError](class.mongodb-driver-writeerror.html) - Клас MongoDBDriverWriteError
-    -   [MongoDBDriverWriteError::getCode](mongodb-driver-writeerror.getcode.html) — Повертає код помилки WriteError
-    -   [MongoDBDriverWriteError::getIndex](mongodb-driver-writeerror.getindex.html) — Повертає індекс запису, який відповідає цьому WriteError
-    -   [MongoDBDriverWriteError::getInfo](mongodb-driver-writeerror.getinfo.html) — Повертає документ метаданих для WriteError
-    -   [MongoDBDriverWriteError::getMessage](mongodb-driver-writeerror.getmessage.html) — Повертає повідомлення про помилку WriteError
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html) - Клас MongoDBDriverWriteResult
-    -   [MongoDBDriverWriteResult::getDeletedCount](mongodb-driver-writeresult.getdeletedcount.html) — Повертає кількість видалених документів
-    -   [MongoDBDriverWriteResult::getInsertedCount](mongodb-driver-writeresult.getinsertedcount.html) — Повертає кількість вставлених документів (за винятком злиття)
-    -   [MongoDBDriverWriteResult::getMatchedCount](mongodb-driver-writeresult.getmatchedcount.html) — Повертає кількість вибраних документів для оновлення
-    -   [MongoDBDriverWriteResult::getModifiedCount](mongodb-driver-writeresult.getmodifiedcount.html) — Повертає кількість існуючих оновлених документів
-    -   [MongoDBDriverWriteResult::getServer](mongodb-driver-writeresult.getserver.html) — Повертає сервер, пов'язаний із цим результатом запису
-    -   [MongoDBDriverWriteResult::getUpsertedCount](mongodb-driver-writeresult.getupsertedcount.html) — Повертає кількість документів, вставлених злиттям
-    -   [MongoDBDriverWriteResult::getUpsertedIds](mongodb-driver-writeresult.getupsertedids.html) — Повертає масив ідентифікаторів для об'єднаних документів
-    -   [MongoDBDriverWriteResult::getWriteConcernError](mongodb-driver-writeresult.getwriteconcernerror.html) — Повертає будь-яку помилку гарантій запису, що відбувся
-    -   [MongoDBDriverWriteResult::getWriteErrors](mongodb-driver-writeresult.getwriteerrors.html) — Повертає будь-які помилки запису, що відбулися
-    -   [MongoDBDriverWriteResult::isAcknowledged](mongodb-driver-writeresult.isacknowledged.html) — Повертає, чи був запис підтверджений
+-   [MongoDBDriverManager](class.mongodb-driver-manager.md) - Клас MongoDBDriverManager
+    -   [MongoDBDriverManager::addSubscriber](mongodb-driver-manager.addsubscriber.md) — Реєструє передплатника на подію моніторингу в даному об'єкті Manager
+    -   [MongoDBDriverManager::construct](mongodb-driver-manager.construct.md) - Створює новий Manager MongoDB
+    -   [MongoDBDriverManager::createClientEncryption](mongodb-driver-manager.createclientencryption.md) — Створення нового об'єкта ClientEncryption
+    -   [MongoDBDriverManager::executeBulkWrite](mongodb-driver-manager.executebulkwrite.md) — Виконує одну або кілька операцій запису
+    -   [MongoDBDriverManager::executeCommand](mongodb-driver-manager.executecommand.md) - Виконує команду бази даних
+    -   [MongoDBDriverManager::executeQuery](mongodb-driver-manager.executequery.md) — Виконує запит до бази даних
+    -   [MongoDBDriverManager::executeReadCommand](mongodb-driver-manager.executereadcommand.md) - Виконує команду бази даних, яка читає
+    -   [MongoDBDriverManager::executeReadWriteCommand](mongodb-driver-manager.executereadwritecommand.md) — Виконує команду бази даних, яка читає та пише
+    -   [MongoDBDriverManager::executeWriteCommand](mongodb-driver-manager.executewritecommand.md) - Виконує команду бази даних, яка пише
+    -   [MongoDBDriverManager::getEncryptedFieldsMap](mongodb-driver-manager.getencryptedfieldsmap.md) — Повертає опцію автоматичного шифрування encryptedFieldsMap для Manager
+    -   [MongoDBDriverManager::getReadConcern](mongodb-driver-manager.getreadconcern.md) — Повертає ReadConcern для Manager
+    -   [MongoDBDriverManager::getReadPreference](mongodb-driver-manager.getreadpreference.md) — Повертає ReadPreference для Manager
+    -   [MongoDBDriverManager::getServers](mongodb-driver-manager.getservers.md) — Повертає сервери, до яких підключено менеджера
+    -   [MongoDBDriverManager::getWriteConcern](mongodb-driver-manager.getwriteconcern.md) — Повертає WriteConcern для Manager
+    -   [MongoDBDriverManager::removeSubscriber](mongodb-driver-manager.removesubscriber.md) — Скасує реєстрацію передплатника на подію моніторингу на даному об'єкті Manager
+    -   [MongoDBDriverManager::selectServer](mongodb-driver-manager.selectserver.md) — Вибрати сервер, який відповідає перевагам читання
+    -   [MongoDBDriverManager::startSession](mongodb-driver-manager.startsession.md) — Запуск нового клієнтського сеансу для використання з цим клієнтом
+-   [MongoDBDriverCommand](class.mongodb-driver-command.md) - Клас The MongoDBDriverCommand
+    -   [MongoDBDriverCommand::construct](mongodb-driver-command.construct.md) — Створює новий об'єкт Command
+-   [MongoDBDriverQuery](class.mongodb-driver-query.md) - Клас MongoDBDriverQuery
+    -   [MongoDBDriverQuery::construct](mongodb-driver-query.construct.md) - Створює новий запит
+-   [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md) - Клас MongoDBDriverBulkWrite
+    -   [MongoDBDriverBulkWrite::construct](mongodb-driver-bulkwrite.construct.md) — Створює новий об'єкт BulkWrite
+    -   [MongoDBDriverBulkWrite::count](mongodb-driver-bulkwrite.count.md) - Підраховує кількість операцій запису в порції
+    -   [MongoDBDriverBulkWrite::delete](mongodb-driver-bulkwrite.delete.md) — Додавання операції видалення порції
+    -   [MongoDBDriverBulkWrite::insert](mongodb-driver-bulkwrite.insert.md) - Додати операцію вставки в порцію
+    -   [MongoDBDriverBulkWrite::update](mongodb-driver-bulkwrite.update.md) — Додати операцію оновлення до порції
+-   [MongoDBDriverSession](class.mongodb-driver-session.md) - Клас MongoDBDriverSession
+    -   [MongoDBDriverSession::abortTransaction](mongodb-driver-session.aborttransaction.md) — Перериває транзакцію
+    -   [MongoDBDriverSession::advanceClusterTime](mongodb-driver-session.advanceclustertime.md) - Збільшує час кластера для сеансу
+    -   [MongoDBDriverSession::advanceOperationTime](mongodb-driver-session.advanceoperationtime.md) - Збільшує час операції для сеансу
+    -   [MongoDBDriverSession::commitTransaction](mongodb-driver-session.committransaction.md) - Фіксує транзакцію
+    -   [MongoDBDriverSession::construct](mongodb-driver-session.construct.md) — Створює новий сеанс (не використовується)
+    -   [MongoDBDriverSession::endSession](mongodb-driver-session.endsession.md) - Завершує сеанс
+    -   [MongoDBDriverSession::getClusterTime](mongodb-driver-session.getclustertime.md) — Повертає час кластера для цього сеансу
+    -   [MongoDBDriverSession::getLogicalSessionId](mongodb-driver-session.getlogicalsessionid.md) — Повертає логічний ідентифікатор сеансу для цього сеансу
+    -   [MongoDBDriverSession::getOperationTime](mongodb-driver-session.getoperationtime.md) — Повертає час операції для цього сеансу
+    -   [MongoDBDriverSession::getServer](mongodb-driver-session.getserver.md) — Повертає сервер, до якого прив'язана поточна сесія.
+    -   [MongoDBDriverSession::getTransactionOptions](mongodb-driver-session.gettransactionoptions.md) — Повертає налаштування поточної транзакції
+    -   [MongoDBDriverSession::getTransactionState](mongodb-driver-session.gettransactionstate.md) — Повертає статус транзакції для поточної сесії
+    -   [MongoDBDriverSession::isDirty](mongodb-driver-session.isdirty.md) — Повертає, чи сесія була позначена як брудна
+    -   [MongoDBDriverSession::isInTransaction](mongodb-driver-session.isintransaction.md) — Визначає, чи відбувається зараз багатодокументна транзакція.
+    -   [MongoDBDriverSession::startTransaction](mongodb-driver-session.starttransaction.md) - Запускає транзакцію
+-   [MongoDBDriverClientEncryption](class.mongodb-driver-clientencryption.md) - Клас MongoDBDriverClientEncryption
+    -   [MongoDBDriverClientEncryption::construct](mongodb-driver-clientencryption.construct.md) — Створює новий об'єкт ClientEncryption
+    -   [MongoDBDriverClientEncryption::createDataKey](mongodb-driver-clientencryption.createdatakey.md) — Створює ключ шифрування
+    -   [MongoDBDriverClientEncryption::decrypt](mongodb-driver-clientencryption.decrypt.md) - Розшифрувати дані
+    -   [MongoDBDriverClientEncryption::encrypt](mongodb-driver-clientencryption.encrypt.md) - Шифрує дані
+-   [MongoDBDriverServerApi](class.mongodb-driver-serverapi.md) - Клас MongoDBDriverServerApi
+    -   [MongoDBDriverServerApi::bsonSerialize](mongodb-driver-serverapi.bsonserialize.md) — Повертає об'єкт для серіалізації BSON
+    -   [MongoDBDriverServerApi::construct](mongodb-driver-serverapi.construct.md) — Створює новий примірник ServerApi
+    -   [MongoDBDriverServerApi::serialize](mongodb-driver-serverapi.serialize.md) - Серіалізує ServerApi
+    -   [MongoDBDriverServerApi::unserialize](mongodb-driver-serverapi.unserialize.md) - Десеріалізує ServerApi
+-   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md) - Клас MongoDBDriverWriteConcern
+    -   [MongoDBDriverWriteConcern::bsonSerialize](mongodb-driver-writeconcern.bsonserialize.md) — Повертає об'єкт серіалізації BSON
+    -   [MongoDBDriverWriteConcern::construct](mongodb-driver-writeconcern.construct.md) - Створити новий WriteConcern
+    -   [MongoDBDriverWriteConcern::getJournal](mongodb-driver-writeconcern.getjournal.md) — Повертає опцію journal WriteConcern
+    -   [MongoDBDriverWriteConcern::getW](mongodb-driver-writeconcern.getw.md) - Повертає опцію "w" WriteConcern
+    -   [MongoDBDriverWriteConcern::getWtimeout](mongodb-driver-writeconcern.getwtimeout.md) - Повертає опцію "wtimeout" WriteConcern
+    -   [MongoDBDriverWriteConcern::isDefault](mongodb-driver-writeconcern.isdefault.md) — Перевіряє, чи є гарантія запису за замовчуванням
+    -   [MongoDBDriverWriteConcern::serialize](mongodb-driver-writeconcern.serialize.md) - Серіалізація WriteConcern
+    -   [MongoDBDriverWriteConcern::unserialize](mongodb-driver-writeconcern.unserialize.md) - Десеріалізація WriteConcern
+-   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md) - Клас MongoDBDriverReadPreference
+    -   [MongoDBDriverReadPreference::bsonSerialize](mongodb-driver-readpreference.bsonserialize.md) — Повертає об'єкт серіалізації BSON
+    -   [MongoDBDriverReadPreference::construct](mongodb-driver-readpreference.construct.md) — Створити новий ReadPreference
+    -   [MongoDBDriverReadPreference::getHedge](mongodb-driver-readpreference.gethedge.md) — Повертає опцію "hedge" із ReadPreference
+    -   [MongoDBDriverReadPreference::getMaxStalenessSeconds](mongodb-driver-readpreference.getmaxstalenessseconds.md) — Повертає параметр "maxStalenessSeconds" ReadPreference
+    -   [MongoDBDriverReadPreference::getMode](mongodb-driver-readpreference.getmode.md) - Повертає параметр "mode" ReadPreference
+    -   [MongoDBDriverReadPreference::getModeString](mongodb-driver-readpreference.getmodestring.md) - Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
+    -   [MongoDBDriverReadPreference::getTagSets](mongodb-driver-readpreference.gettagsets.md) - Повертає параметр "tagSets" ReadPreference
+    -   [MongoDBDriverReadPreference::serialize](mongodb-driver-readpreference.serialize.md) — Серіалізація ReadPreference
+    -   [MongoDBDriverReadPreference::unserialize](mongodb-driver-readpreference.unserialize.md) - Десеріалізація ReadPreference
+-   [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.md) - Клас MongoDBDriverReadConcern
+    -   [MongoDBDriverReadConcern::bsonSerialize](mongodb-driver-readconcern.bsonserialize.md) — Повертає об'єкт для серіалізації BSON
+    -   [MongoDBDriverReadConcern::construct](mongodb-driver-readconcern.construct.md) - Створює новий ReadConcern
+    -   [MongoDBDriverReadConcern::getLevel](mongodb-driver-readconcern.getlevel.md) - Повертає опцію "level" ReadConcern
+    -   [MongoDBDriverReadConcern::isDefault](mongodb-driver-readconcern.isdefault.md) — Перевіряє, чи є гарантією прочитання за умовчанням
+    -   [MongoDBDriverReadConcern::serialize](mongodb-driver-readconcern.serialize.md) - Серіалізація ReadConcern
+    -   [MongoDBDriverReadConcern::unserialize](mongodb-driver-readconcern.unserialize.md) - Десеріалізація ReadConcern
+-   [MongoDBDriverCursor](class.mongodb-driver-cursor.md) - Клас MongoDBDriverCursor
+    -   [MongoDBDriverCursor::construct](mongodb-driver-cursor.construct.md) - Створює новий об'єкт Cursor (не використовується)
+    -   [MongoDBDriverCursor::current](mongodb-driver-cursor.current.md) — Повертає поточний елемент
+    -   [MongoDBDriverCursor::getId](mongodb-driver-cursor.getid.md) — Повертає ідентифікатор для курсору
+    -   [MongoDBDriverCursor::getServer](mongodb-driver-cursor.getserver.md) — Повертає сервер, пов'язаний із курсором
+    -   [MongoDBDriverCursor::isDead](mongodb-driver-cursor.isdead.md) — Перевіряє, чи курсор вичерпано чи може містити додаткові результати.
+    -   [MongoDBDriverCursor::key](mongodb-driver-cursor.key.md) — Повертає індекс поточного результату у курсорі
+    -   [MongoDBDriverCursor::next](mongodb-driver-cursor.next.md) — Переміщує курсор на наступний результат
+    -   [MongoDBDriverCursor::rewind](mongodb-driver-cursor.rewind.md) — Переміщує курсор до першого результату
+    -   [MongoDBDriverCursor::setTypeMap](mongodb-driver-cursor.settypemap.md) — Встановлює карту типу для десеріалізації BSON
+    -   [MongoDBDriverCursor::toArray](mongodb-driver-cursor.toarray.md) — Повертає масив, що містить усі результати курсору
+    -   [MongoDBDriverCursor::valid](mongodb-driver-cursor.valid.md) — Перевіряє, чи поточна позиція курсору коректна.
+-   [MongoDBDriverCursorId](class.mongodb-driver-cursorid.md) - Клас MongoDBDriverCursorId
+    -   [MongoDBDriverCursorId::construct](mongodb-driver-cursorid.construct.md) — Створює новий об'єкт CursorId (не використовується)
+    -   [MongoDBDriverCursorId::serialize](mongodb-driver-cursorid.serialize.md) - Серіалізація CursorId
+    -   [MongoDBDriverCursorId::toString](mongodb-driver-cursorid.tostring.md) - Строкове подання ідентифікатора курсора
+    -   [MongoDBDriverCursorId::unserialize](mongodb-driver-cursorid.unserialize.md) - Десеріалізація CursorId
+-   [MongoDBDriverCursorInterface](class.mongodb-driver-cursorinterface.md) - Інтерфейс MongoDBDriverCursorInterface
+    -   [MongoDBDriverCursorInterface::getId](mongodb-driver-cursorinterface.getid.md) — Повертає ідентифікатор курсору
+    -   [MongoDBDriverCursorInterface::getServer](mongodb-driver-cursorinterface.getserver.md) — Повертає сервер, з яким пов'язаний курсор
+    -   [MongoDBDriverCursorInterface::isDead](mongodb-driver-cursorinterface.isdead.md) — Перевірити, чи можна ще отримати з курсору результати
+    -   [MongoDBDriverCursorInterface::setTypeMap](mongodb-driver-cursorinterface.settypemap.md) — Задати порівняння типів десеріалізації BSON
+    -   [MongoDBDriverCursorInterface::toArray](mongodb-driver-cursorinterface.toarray.md) — Повернути всі результати для цього курсору у вигляді масиву
+-   [MongoDBDriverServer](class.mongodb-driver-server.md) - Клас MongoDBDriverServer
+    -   [MongoDBDriverServer::construct](mongodb-driver-server.construct.md) - Створює новий Server (не використовується)
+    -   [MongoDBDriverServer::executeBulkWrite](mongodb-driver-server.executebulkwrite.md) — Виконати одну або кілька операцій запису на сервері
+    -   [MongoDBDriverServer::executeCommand](mongodb-driver-server.executecommand.md) — Виконати команду бази даних на сервері
+    -   [MongoDBDriverServer::executeQuery](mongodb-driver-server.executequery.md) — Виконує запит до бази даних на сервері
+    -   [MongoDBDriverServer::executeReadCommand](mongodb-driver-server.executereadcommand.md) - Виконує команду бази даних, яка читає на сервері
+    -   [MongoDBDriverServer::executeReadWriteCommand](mongodb-driver-server.executereadwritecommand.md) — Виконує команду бази даних, яка читає та пише на сервері
+    -   [MongoDBDriverServer::executeWriteCommand](mongodb-driver-server.executewritecommand.md) - Виконує команду бази даних, яка пише на сервері
+    -   [MongoDBDriverServer::getHost](mongodb-driver-server.gethost.md) — Повертає ім'я сервера.
+    -   [MongoDBDriverServer::getInfo](mongodb-driver-server.getinfo.md) — Повертає масив інформації, що описує сервер
+    -   [MongoDBDriverServer::getLatency](mongodb-driver-server.getlatency.md) — Повертає затримку сервера у мілісекундах
+    -   [MongoDBDriverServer::getPort](mongodb-driver-server.getport.md) — Повертає порт, який слухає сервер
+    -   [MongoDBDriverServer::getServerDescription](mongodb-driver-server.getserverdescription.md) — Повертає ServerDescription сервера
+    -   [MongoDBDriverServer::getTags](mongodb-driver-server.gettags.md) — Повертає масив тегів, що описують сервер у наборі реплік
+    -   [MongoDBDriverServer::getType](mongodb-driver-server.gettype.md) — Повертає ціле число, яке означає тип цього сервера
+    -   [MongoDBDriverServer::isArbiter](mongodb-driver-server.isarbiter.md) — Перевіряє, чи сервер є членом-арбітром у наборі реплік
+    -   [MongoDBDriverServer::isHidden](mongodb-driver-server.ishidden.md) — Перевіряє, чи сервер є прихованим членом набору реплік
+    -   [MongoDBDriverServer::isPassive](mongodb-driver-server.ispassive.md) — Перевіряє, чи сервер є пасивним членом набору реплік.
+    -   [MongoDBDriverServer::isPrimary](mongodb-driver-server.isprimary.md) — Перевіряє, чи сервер є основним членом набору реплік
+    -   [MongoDBDriverServer::isSecondary](mongodb-driver-server.issecondary.md) — Перевіряє, чи цей сервер є другорядним членом набору реплік.
+-   [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.md) - Клас MongoDBDriverServerDescription
+    -   [MongoDBDriverServerDescription::getHelloResponse](mongodb-driver-serverdescription.gethelloresponse.md) - Повертає останню відповідь сервера "hello"
+    -   [MongoDBDriverServerDescription::getHost](mongodb-driver-serverdescription.gethost.md) — Повертає ім'я сервера.
+    -   [MongoDBDriverServerDescription::getLastUpdateTime](mongodb-driver-serverdescription.getlastupdatetime.md) — Повертає час останнього оновлення сервера у мікросекундах
+    -   [MongoDBDriverServerDescription::getPort](mongodb-driver-serverdescription.getport.md) — Повертає порт, на якому прослуховується цей сервер
+    -   [MongoDBDriverServerDescription::getRoundTripTime](mongodb-driver-serverdescription.getroundtriptime.md) — Повертає час обходу сервера у мілісекундах
+    -   [MongoDBDriverServerDescription::getType](mongodb-driver-serverdescription.gettype.md) — Повертає рядок, який позначає тип сервера
+-   [MongoDBDriverTopologyDescription](class.mongodb-driver-topologydescription.md) - Клас MongoDBDriverTopologyDescription
+    -   [MongoDBDriverTopologyDescription::getServers](mongodb-driver-topologydescription.getservers.md) — Повертає сервери у топології
+    -   [MongoDBDriverTopologyDescription::getType](mongodb-driver-topologydescription.gettype.md) — Повертає рядок, що позначає тип топології
+    -   [MongoDBDriverTopologyDescription::hasReadableServer](mongodb-driver-topologydescription.hasreadableserver.md) — Повертає, чи є у топології сервер, доступний для читання
+    -   [MongoDBDriverTopologyDescription::hasWritableServer](mongodb-driver-topologydescription.haswritableserver.md) — Повертає, чи є у топології сервер, доступний для запису
+-   [MongoDBDriverWriteConcernError](class.mongodb-driver-writeconcernerror.md) - Клас The MongoDBDriverWriteConcernError
+    -   [MongoDBDriverWriteConcernError::getCode](mongodb-driver-writeconcernerror.getcode.md) — Повертає код помилки WriteConcernError
+    -   [MongoDBDriverWriteConcernError::getInfo](mongodb-driver-writeconcernerror.getinfo.md) — Повертає документ метаданих для WriteConcernError
+    -   [MongoDBDriverWriteConcernError::getMessage](mongodb-driver-writeconcernerror.getmessage.md) — Повертає повідомлення про помилку WriteConcernError
+-   [MongoDBDriverWriteError](class.mongodb-driver-writeerror.md) - Клас MongoDBDriverWriteError
+    -   [MongoDBDriverWriteError::getCode](mongodb-driver-writeerror.getcode.md) — Повертає код помилки WriteError
+    -   [MongoDBDriverWriteError::getIndex](mongodb-driver-writeerror.getindex.md) — Повертає індекс запису, який відповідає цьому WriteError
+    -   [MongoDBDriverWriteError::getInfo](mongodb-driver-writeerror.getinfo.md) — Повертає документ метаданих для WriteError
+    -   [MongoDBDriverWriteError::getMessage](mongodb-driver-writeerror.getmessage.md) — Повертає повідомлення про помилку WriteError
+-   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md) - Клас MongoDBDriverWriteResult
+    -   [MongoDBDriverWriteResult::getDeletedCount](mongodb-driver-writeresult.getdeletedcount.md) — Повертає кількість видалених документів
+    -   [MongoDBDriverWriteResult::getInsertedCount](mongodb-driver-writeresult.getinsertedcount.md) — Повертає кількість вставлених документів (за винятком злиття)
+    -   [MongoDBDriverWriteResult::getMatchedCount](mongodb-driver-writeresult.getmatchedcount.md) — Повертає кількість вибраних документів для оновлення
+    -   [MongoDBDriverWriteResult::getModifiedCount](mongodb-driver-writeresult.getmodifiedcount.md) — Повертає кількість існуючих оновлених документів
+    -   [MongoDBDriverWriteResult::getServer](mongodb-driver-writeresult.getserver.md) — Повертає сервер, пов'язаний із цим результатом запису
+    -   [MongoDBDriverWriteResult::getUpsertedCount](mongodb-driver-writeresult.getupsertedcount.md) — Повертає кількість документів, вставлених злиттям
+    -   [MongoDBDriverWriteResult::getUpsertedIds](mongodb-driver-writeresult.getupsertedids.md) — Повертає масив ідентифікаторів для об'єднаних документів
+    -   [MongoDBDriverWriteResult::getWriteConcernError](mongodb-driver-writeresult.getwriteconcernerror.md) — Повертає будь-яку помилку гарантій запису, що відбувся
+    -   [MongoDBDriverWriteResult::getWriteErrors](mongodb-driver-writeresult.getwriteerrors.md) — Повертає будь-які помилки запису, що відбулися
+    -   [MongoDBDriverWriteResult::isAcknowledged](mongodb-driver-writeresult.isacknowledged.md) — Повертає, чи був запис підтверджений

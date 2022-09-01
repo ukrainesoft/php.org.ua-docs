@@ -38,7 +38,7 @@ error_log(    string $message,    int $message_type = 0,    ?string 
 
 `additional_headers`
 
-Додаткові заголовки. Використовується, коли значення параметра `message_type` `1`. Цей тип повідомлення використовує ту саму внутрішню функцію, що й [mail()](function.mail.html)
+Додаткові заголовки. Використовується, коли значення параметра `message_type` `1`. Цей тип повідомлення використовує ту саму внутрішню функцію, що й [mail()](function.mail.md)
 
 ### Значення, що повертаються
 
@@ -81,4 +81,4 @@ error_log("Вы ошиблись!", 3, "/var/tmp/my-errors.log");
 
 **Підказка**
 
-`message` ні містити null-символ. Врахуйте, що `message` може передаватися у файл, поштою, syslog і т.д. Використовуйте відповідну перетворювальну або екрануючу функцію, [base64encode()](function.base64-encode.html) [rawurlencode()](function.rawurlencode.html) або [addslashes()](function.addslashes.html) перед викликом **errorlog()**
+`message` ні містити null-символ. Врахуйте, що `message` може передаватися у файл, поштою, syslog і т.д. Використовуйте відповідну перетворювальну або екрануючу функцію, [base64encode()](function.base64-encode.html) [rawurlencode()](function.rawurlencode.html) або [addslashes()](function.addslashes.md) перед викликом **errorlog()**

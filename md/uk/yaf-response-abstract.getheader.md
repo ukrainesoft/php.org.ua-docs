@@ -30,5 +30,5 @@ public Yaf_Response_Abstract::getHeader(): void
 
 ### Дивіться також
 
--   [YafResponseAbstract::setHeader()](yaf-response-abstract.setheader.html) - Встановлює заголовок відповіді
+-   [YafResponseAbstract::setHeader()](yaf-response-abstract.setheader.md) - Встановлює заголовок відповіді
 -   **YafResponseAbstract::cleanHeaders()**

@@ -32,6 +32,6 @@ variant_date_to_timestamp(variant $variant): ?int
 
 ### Дивіться також
 
--   [variantdatefromtimestamp()](function.variant-date-from-timestamp.html) - Отримати подання дати для варіанта з тимчасової мітки Unix
+-   [variantdatefromtimestamp()](function.variant-date-from-timestamp.md) - Отримати подання дати для варіанта з тимчасової мітки Unix
 -   [date()](function.date.md) - Форматує тимчасову мітку Unix
 -   [strftime()](function.strftime.md) - Форматує поточну дату/час з урахуванням поточних налаштувань локалі

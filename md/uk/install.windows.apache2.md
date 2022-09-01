@@ -14,7 +14,7 @@ title: Apache 2.x у Microsoft Windows
 > 
 > Спочатку слід прочитати [шаги ручной установки](install.windows.manual.md)
 
-Вкрай рекомендується звернутися до [»  Документации Apache](http://httpd.apache.org/docs/current/), щоб отримати базове уявлення про сервер Apache 2.x. Також подумайте про читання [»  Примечаний для Windows](http://httpd.apache.org/docs/current/platform/windows.html) для Apache 2.x перед читанням цього посібника.
+Вкрай рекомендується звернутися до [»  Документации Apache](http://httpd.apache.org/docs/current/), щоб отримати базове уявлення про сервер Apache 2.x. Також подумайте про читання [»  Примечаний для Windows](http://httpd.apache.org/docs/current/platform/windows.md) для Apache 2.x перед читанням цього посібника.
 
 Завантажте останню версію [» Apache 2.x](https://www.apachelounge.com/download/) та відповідну версію PHP. Дотримуйтесь [шагам ручной установки](install.windows.manual.md) і повертайтеся, щоб продовжити інтеграцію PHP та Apache.
 
@@ -38,7 +38,7 @@ PHPIniDir "C:/php"
 
 ### Запуск PHP як CGI
 
-Настійно рекомендується звернутися до [» Документации Apache CGI](http://httpd.apache.org/docs/current/howto/cgi.html) для більш повного розуміння того, як запускати CGI в Apache.
+Настійно рекомендується звернутися до [» Документации Apache CGI](http://httpd.apache.org/docs/current/howto/cgi.md) для більш повного розуміння того, як запускати CGI в Apache.
 
 Щоб запустити PHP як CGI, файли php-cgi повинні бути поміщені до каталогу, позначеного як каталог CGI з використанням директиви ScriptAlias.
 
@@ -55,7 +55,7 @@ PHPIniDir "C:/php"
 
 **Увага**
 
-Використовуючи інсталяцію CGI, ваш сервер відкритий перед кількома можливими вразливістю. Будь ласка, ознайомтесь із розділом ["Безпека CGI"](security.cgi-bin.html) щоб дізнатися, як можна захистити себе від таких атак.
+Використовуючи інсталяцію CGI, ваш сервер відкритий перед кількома можливими вразливістю. Будь ласка, ознайомтесь із розділом ["Безпека CGI"](security.cgi-bin.md) щоб дізнатися, як можна захистити себе від таких атак.
 
 ### Запуск PHP під FastCGI
 

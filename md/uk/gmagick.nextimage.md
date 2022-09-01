@@ -18,7 +18,7 @@ Gmagick::nextimage — Здійснює перехід до наступного
 public Gmagick::nextimage(): bool
 ```
 
-Зв'язує наступне зображення у списку зображень з об'єктом [Gmagick](class.gmagick.html)
+Зв'язує наступне зображення у списку зображень з об'єктом [Gmagick](class.gmagick.md)
 
 ### Список параметрів
 

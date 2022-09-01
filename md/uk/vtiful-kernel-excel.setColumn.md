@@ -36,7 +36,7 @@ public Vtiful\Kernel\Excel::setColumn(string $range, float $width, resource $for
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

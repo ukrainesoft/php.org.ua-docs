@@ -52,8 +52,8 @@ Array
 
 ### Дивіться також
 
--   [gethostbyname()](function.gethostbyname.html) - Отримує IPv4-адресу, що відповідає переданому імені хоста
--   [gethostbyaddr()](function.gethostbyaddr.html) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
--   [checkdnsrr()](function.checkdnsrr.html) - Перевіряє записи DNS, що відповідають переданому імені вузла Інтернету або IP-адресі
--   [getmxrr()](function.getmxrr.html) - Отримує записи MX, що відповідають переданому доменному імені хоста
+-   [gethostbyname()](function.gethostbyname.md) - Отримує IPv4-адресу, що відповідає переданому імені хоста
+-   [gethostbyaddr()](function.gethostbyaddr.md) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
+-   [checkdnsrr()](function.checkdnsrr.md) - Перевіряє записи DNS, що відповідають переданому імені вузла Інтернету або IP-адресі
+-   [getmxrr()](function.getmxrr.md) - Отримує записи MX, що відповідають переданому доменному імені хоста
 -   the `named(8)` manual page

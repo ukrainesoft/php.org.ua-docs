@@ -38,7 +38,7 @@ trader_stochrsi(    array $real,    int $timePeriod = ?,    int $fas
 
 `fastD_MAType`
 
-Тип ковзної середньої для Fast-D. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.html)
+Тип ковзної середньої для Fast-D. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
 
 ### Значення, що повертаються
 

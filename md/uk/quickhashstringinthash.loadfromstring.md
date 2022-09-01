@@ -18,7 +18,7 @@ QuickHashStringIntHash::loadFromString — Фабричний метод ств�
 public static QuickHashStringIntHash::loadFromString(string $contents, int $size = 0, int $options = 0): QuickHashStringIntHash
 ```
 
-Цей фабричний метод створює новий хеш із визначення у рядку. Формат такий самий, як і в [QuickHashStringIntHash::loadFromFile()](quickhashstringinthash.loadfromfile.html)
+Цей фабричний метод створює новий хеш із визначення у рядку. Формат такий самий, як і в [QuickHashStringIntHash::loadFromFile()](quickhashstringinthash.loadfromfile.md)
 
 ### Список параметрів
 
@@ -36,7 +36,7 @@ public static QuickHashStringIntHash::loadFromString(string $contents, int $size
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [QuickHashStringIntHash](class.quickhashstringinthash.html)
+Повертає новий об'єкт [QuickHashStringIntHash](class.quickhashstringinthash.md)
 
 ### Приклади
 

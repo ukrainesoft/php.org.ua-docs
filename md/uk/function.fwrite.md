@@ -133,5 +133,5 @@ if (is_writable($filename)) {
 -   [fopen()](function.fopen.md) - Відкриває файл або URL
 -   [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
 -   [popen()](function.popen.md) - Відкриває файловий покажчик процесу
--   [filegetcontents()](function.file-get-contents.html) - Читає вміст файлу в рядок
+-   [filegetcontents()](function.file-get-contents.md) - Читає вміст файлу в рядок
 -   [pack()](function.pack.md) - Упакувати дані у бінарний рядок

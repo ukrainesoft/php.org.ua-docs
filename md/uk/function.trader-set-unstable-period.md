@@ -18,7 +18,7 @@ tradersetunstableperiod — Встановлює нестабільний пер
 trader_set_unstable_period(int $functionId, int $timePeriod): void
 ```
 
-Впливає фактор нестабільного періоду для чутливих до нього функцій. Додаткову інформацію про нестабільні періоди можна знайти на сторінці документації API [» TA-Lib](http://ta-lib.org/d_api/ta_setunstableperiod.html)
+Впливає фактор нестабільного періоду для чутливих до нього функцій. Додаткову інформацію про нестабільні періоди можна знайти на сторінці документації API [» TA-Lib](http://ta-lib.org/d_api/ta_setunstableperiod.md)
 
 ### Список параметрів
 

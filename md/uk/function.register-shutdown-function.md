@@ -71,7 +71,7 @@ register_shutdown_function('shutdown');
 
 > **Зауваження**
 > 
-> Функції, які виконуються при завершенні скрипту, не будуть виконані, якщо процес був убитий із сигналами SIGTERM або SIGKILL. Хоча ви не можете перехопити SIGKILL, але ви можете використовувати функцію [pcntlsignal()](function.pcntl-signal.html), щоб задати обробник сигналу SIGTERM, який використовує функцію [exit()](function.exit.md), щоб завершити скрипт правильно.
+> Функції, які виконуються при завершенні скрипту, не будуть виконані, якщо процес був убитий із сигналами SIGTERM або SIGKILL. Хоча ви не можете перехопити SIGKILL, але ви можете використовувати функцію [pcntlsignal()](function.pcntl-signal.md), щоб задати обробник сигналу SIGTERM, який використовує функцію [exit()](function.exit.md), щоб завершити скрипт правильно.
 
 > **Зауваження**
 > 
@@ -81,5 +81,5 @@ register_shutdown_function('shutdown');
 
 -   [autoappendfile](ini.core.html#ini.auto-append-file)
 -   [exit()](function.exit.md) - Вивести повідомлення та припинити виконання поточного скрипту
--   [fastcgifinishrequest()](function.fastcgi-finish-request.html) - скидає всі запитані дані клієнту
--   Розділ [Обработка соединений](features.connection-handling.html)
+-   [fastcgifinishrequest()](function.fastcgi-finish-request.md) - скидає всі запитані дані клієнту
+-   Розділ [Обработка соединений](features.connection-handling.md)

@@ -24,7 +24,7 @@ public parallel\Events::poll(): ?parallel\Events\Event
 
 Якщо це буде неблокуючий цикл і відбудеться блокування, буде повернено значення **`null`**
 
-В іншому випадку [parallelEventsEvent](class.parallel-events-event.html) повертає опис події.
+В іншому випадку [parallelEventsEvent](class.parallel-events-event.md) повертає опис події.
 
 ### Помилки
 

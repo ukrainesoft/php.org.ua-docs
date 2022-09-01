@@ -18,7 +18,7 @@ mqseriesdisc — MQSeries MQDISC
 mqseries_disc(resource $hconn, resource &$compCode, resource &$reason): void
 ```
 
-Функція **mqseriesdisc()** (MQDISC) розриває з'єднання з менеджером черг. Вона є протилежною функцій [mqseriesconn()](function.mqseries-conn.html) (MQCONN) та [mqseriesconnx()](function.mqseries-connx.html) (MQCONNX).
+Функція **mqseriesdisc()** (MQDISC) розриває з'єднання з менеджером черг. Вона є протилежною функцій [mqseriesconn()](function.mqseries-conn.html) (MQCONN) та [mqseriesconnx()](function.mqseries-connx.md) (MQCONNX).
 
 ### Список параметрів
 
@@ -55,5 +55,5 @@ mqseries_disc(resource $hconn, resource &$compCode, resource &$reason): void
 
 ### Дивіться також
 
--   [mqseriesconn()](function.mqseries-conn.html) - MQSeries MQCONN
--   [mqseriesconnx()](function.mqseries-connx.html) - MQSeries MQCONNX
+-   [mqseriesconn()](function.mqseries-conn.md) - MQSeries MQCONN
+-   [mqseriesconnx()](function.mqseries-connx.md) - MQSeries MQCONNX

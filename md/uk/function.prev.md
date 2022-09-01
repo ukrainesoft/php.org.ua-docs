@@ -40,7 +40,7 @@ prev(array|object &$array): mixed
 
 | Версия | Описание |
 | --- | --- |
-|  | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.html)або використовуйте [ArrayIterator](class.arrayiterator.md) |
+|  | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.md)або використовуйте [ArrayIterator](class.arrayiterator.md) |
 
 ### Приклади
 

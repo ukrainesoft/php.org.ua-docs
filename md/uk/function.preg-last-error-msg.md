@@ -52,4 +52,4 @@ Backtrack limit exhausted
 
 ### Дивіться також
 
--   [preglasterror()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   [preglasterror()](function.preg-last-error.md) - Повертає код помилки виконання останнього регулярного вираження PCRE

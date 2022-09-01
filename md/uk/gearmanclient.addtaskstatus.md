@@ -18,7 +18,7 @@ GearmanClient::addTaskStatus — Додати завдання для отрим
 public GearmanClient::addTaskStatus(string $job_handle, string &$context = ?): GearmanTask
 ```
 
-Використовується для запиту інформації про стан із сервера Gearman, який буде викликати вказаний callback-функцію статусу (задану через [GearmanClient::setStatusCallback()](gearmanclient.setstatuscallback.html)
+Використовується для запиту інформації про стан із сервера Gearman, який буде викликати вказаний callback-функцію статусу (задану через [GearmanClient::setStatusCallback()](gearmanclient.setstatuscallback.md)
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ public GearmanClient::addTaskStatus(string $job_handle, string &$context = ?): G
 
 ### Значення, що повертаються
 
-Об'єкт [GearmanTask](class.gearmantask.html)
+Об'єкт [GearmanTask](class.gearmantask.md)
 
 ### Приклади
 
@@ -111,4 +111,4 @@ function reverse_status($task, $done)
 
 ### Дивіться також
 
--   [GearmanClient::setStatusCallback()](gearmanclient.setstatuscallback.html) - завдання callback-функції, що збирає інформацію про стан обробника завдань
+-   [GearmanClient::setStatusCallback()](gearmanclient.setstatuscallback.md) - завдання callback-функції, що збирає інформацію про стан обробника завдань

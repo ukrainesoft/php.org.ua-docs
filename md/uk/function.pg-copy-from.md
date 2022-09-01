@@ -24,7 +24,7 @@ pg_copy_from(    PgSql\Connection $connection,    string $table_name, �
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md)
 
 `table_name`
 
@@ -50,7 +50,7 @@ pg_copy_from(    PgSql\Connection $connection,    string $table_name, �
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -70,4 +70,4 @@ pg_copy_from(    PgSql\Connection $connection,    string $table_name, �
 
 ### Дивіться також
 
--   [пгcopyto()](function.pg-copy-to.html) - Копіює дані з таблиці до масиву
+-   [пгcopyto()](function.pg-copy-to.md) - Копіює дані з таблиці до масиву

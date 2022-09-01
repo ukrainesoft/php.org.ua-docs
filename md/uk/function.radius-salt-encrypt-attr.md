@@ -34,7 +34,7 @@ radius_salt_encrypt_attr(resource $radius_handle, string $data): string|false
 
 ### Дивіться також
 
--   [radiusputaddr()](function.radius-put-addr.html) - Приєднує атрибут IP-адреси
--   [radiusputattr()](function.radius-put-attr.html) - приєднує бінарний атрибут
--   [radiusputint()](function.radius-put-int.html) - Приєднує цілісний атрибут
--   [radiusputstring()](function.radius-put-string.html) - Приєднує рядковий атрибут
+-   [radiusputaddr()](function.radius-put-addr.md) - Приєднує атрибут IP-адреси
+-   [radiusputattr()](function.radius-put-attr.md) - приєднує бінарний атрибут
+-   [radiusputint()](function.radius-put-int.md) - Приєднує цілісний атрибут
+-   [radiusputstring()](function.radius-put-string.md) - Приєднує рядковий атрибут

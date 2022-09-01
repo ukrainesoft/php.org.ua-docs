@@ -63,4 +63,4 @@ $base->dispatch();
 
 ### Дивіться також
 
--   [EventHttp::removeServerAlias()](eventhttp.removeserveralias.html) - Видаляє псевдонім сервера
+-   [EventHttp::removeServerAlias()](eventhttp.removeserveralias.md) - Видаляє псевдонім сервера

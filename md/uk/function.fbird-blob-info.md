@@ -10,8 +10,8 @@ title: fbirdblobinfo
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdblobinfo - Псевдонім [ibaseblobinfo()](function.ibase-blob-info.html)
+fbirdblobinfo - Псевдонім [ibaseblobinfo()](function.ibase-blob-info.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibaseblobinfo()](function.ibase-blob-info.html)
+Ця функція є псевдонімом: [ibaseblobinfo()](function.ibase-blob-info.md)

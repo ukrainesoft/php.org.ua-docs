@@ -49,5 +49,5 @@ echo 'MD5-хеш файла ' . $file . ': ' . md5_file($file);
 ### Дивіться також
 
 -   [md5()](function.md5.md) - Повертає MD5-хеш рядки
--   [sha1file()](function.sha1-file.html) - Повертає SHA1-хеш файлу
+-   [sha1file()](function.sha1-file.md) - Повертає SHA1-хеш файлу
 -   [crc32()](function.crc32.md) - Обчислює поліном CRC32 для рядка

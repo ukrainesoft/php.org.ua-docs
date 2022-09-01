@@ -10,4 +10,4 @@ title: Rar
 
 ## Зміст
 
--   [rarwrappercachestats](function.rar-wrapper-cache-stats.html) — Кеш доступів та відмов обгортки URL
+-   [rarwrappercachestats](function.rar-wrapper-cache-stats.md) — Кеш доступів та відмов обгортки URL

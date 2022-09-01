@@ -64,5 +64,5 @@ $memcache_obj->delete('key_to_delete');
 
 ### Дивіться також
 
--   [Memcache::set()](memcache.set.html) - Зберегти дані на сервері
--   [Memcache::replace()](memcache.replace.html) - Замінити значення наявного елемента
+-   [Memcache::set()](memcache.set.md) - Зберегти дані на сервері
+-   [Memcache::replace()](memcache.replace.md) - Замінити значення наявного елемента

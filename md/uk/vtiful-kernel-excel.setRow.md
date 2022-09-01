@@ -36,7 +36,7 @@ public Vtiful\Kernel\Excel::setRow(string $range, float $height, resource $forma
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

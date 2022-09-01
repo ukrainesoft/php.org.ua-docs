@@ -72,5 +72,5 @@ array(0) {
 -   [seaslog.usebuffer](seaslog.configuration.html#ini.seaslog.use-buffer)
 -   [seaslog.buffersize](seaslog.configuration.html#ini.seaslog.buffer-size)
 -   [seaslog.bufferdisabledінcli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli)
--   [SeasLog::getBufferEnabled()](seaslog.getbufferenabled.html) - Визначає, чи включено буфер
--   [SeasLog::getBuffer()](seaslog.getbuffer.html) - Отримує буфер логів у пам'яті у вигляді масиву
+-   [SeasLog::getBufferEnabled()](seaslog.getbufferenabled.md) - Визначає, чи включено буфер
+-   [SeasLog::getBuffer()](seaslog.getbuffer.md) - Отримує буфер логів у пам'яті у вигляді масиву

@@ -50,4 +50,4 @@ public UI\Draw\Brush\Gradient::setStop(int $index, float $position, int $color):
 
 ## Зміст
 
--   [ОЙDrawBrushRadialGradient::construct](ui-draw-brush-radialgradient.construct.html) - Конструктор класу RadialGradient
+-   [ОЙDrawBrushRadialGradient::construct](ui-draw-brush-radialgradient.construct.md) - Конструктор класу RadialGradient

@@ -58,6 +58,6 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsColorButton::getColor](ui-controls-colorbutton.getcolor.html) — Отримати об'єкт Color
--   [ОЙControlsColorButton::onChange](ui-controls-colorbutton.onchange.html) - Обробник зміни
--   [ОЙControlsColorButton::setColor](ui-controls-colorbutton.setcolor.html) — Встановити об'єкт Color
+-   [ОЙControlsColorButton::getColor](ui-controls-colorbutton.getcolor.md) — Отримати об'єкт Color
+-   [ОЙControlsColorButton::onChange](ui-controls-colorbutton.onchange.md) - Обробник зміни
+-   [ОЙControlsColorButton::setColor](ui-controls-colorbutton.setcolor.md) — Встановити об'єкт Color

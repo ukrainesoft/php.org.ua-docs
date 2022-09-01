@@ -12,7 +12,7 @@ title: Інтерфейс MongoDBBSONJavascriptInterface
 
 ## Вступ
 
-Цей інтерфейс реалізовано [MongoDBBSONJavascript](class.mongodb-bson-javascript.html), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
+Цей інтерфейс реалізовано [MongoDBBSONJavascript](class.mongodb-bson-javascript.md), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 
@@ -40,6 +40,6 @@ abstract public __toString(): string
 
 ## Зміст
 
--   [MongoDBBSONJavascriptInterface::getCode](mongodb-bson-javascriptinterface.getcode.html) — Повертає код JavascriptInterface
--   [MongoDBBSONJavascriptInterface::getScope](mongodb-bson-javascriptinterface.getscope.html) — Повертає область видимості документа JavascriptInterface
--   [MongoDBBSONJavascriptInterface::toString](mongodb-bson-javascriptinterface.tostring.html) — Повертає код JavascriptInterface
+-   [MongoDBBSONJavascriptInterface::getCode](mongodb-bson-javascriptinterface.getcode.md) — Повертає код JavascriptInterface
+-   [MongoDBBSONJavascriptInterface::getScope](mongodb-bson-javascriptinterface.getscope.md) — Повертає область видимості документа JavascriptInterface
+-   [MongoDBBSONJavascriptInterface::toString](mongodb-bson-javascriptinterface.tostring.md) — Повертає код JavascriptInterface

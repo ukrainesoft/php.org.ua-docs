@@ -20,7 +20,7 @@ oci_field_scale(resource $statement, string|int $column): int|false
 
 Повертає масштаб поля під номером `column`
 
-Для полів типу FLOAT точність, що отримується за допомогою [ocifieldprecision()](function.oci-field-precision.html)більше нуля, а масштаб дорівнює -127. Якщо точність поля дорівнює нулю, тип поля - NUMBER. Інакше, тип поля може бути описаний як NUMBER(precision, scale).
+Для полів типу FLOAT точність, що отримується за допомогою [ocifieldprecision()](function.oci-field-precision.md)більше нуля, а масштаб дорівнює -127. Якщо точність поля дорівнює нулю, тип поля - NUMBER. Інакше, тип поля може бути описаний як NUMBER(precision, scale).
 
 ### Список параметрів
 
@@ -78,9 +78,9 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnscale()](function.ocicolumnscale.html). У PHP 5.0.0 і вище [ocicolumnscale()](function.ocicolumnscale.html) є аліасом \*\*ocifieldscale()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnscale()](function.ocicolumnscale.html). У PHP 5.0.0 і вище [ocicolumnscale()](function.ocicolumnscale.md) є аліасом \*\*ocifieldscale()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
 
 ### Дивіться також
 
--   [ocifieldprecision()](function.oci-field-precision.html) - Повертає точність поля
--   [ocifieldtype()](function.oci-field-type.html) - Повертає ім'я типу поля
+-   [ocifieldprecision()](function.oci-field-precision.md) - Повертає точність поля
+-   [ocifieldtype()](function.oci-field-type.md) - Повертає ім'я типу поля

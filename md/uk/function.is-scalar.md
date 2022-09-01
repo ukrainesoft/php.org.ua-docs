@@ -79,11 +79,11 @@ array(3) {
 
 ### Дивіться також
 
--   [ісfloat()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [ісint()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
--   [ісnumeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом або рядком, що містить число
--   [ісreal()](function.is-real.html) - Псевдонім isfloat
--   [ісstring()](function.is-string.html) - Перевіряє, чи є змінним рядком
--   [ісbool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
--   [ісobject()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
--   [ісarray()](function.is-array.html) - Визначає, чи є змінна масивом
+-   [ісfloat()](function.is-float.md) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [ісint()](function.is-int.md) - Перевіряє, чи є змінна цілим числом
+-   [ісnumeric()](function.is-numeric.md) - Перевіряє, чи є змінна числом або рядком, що містить число
+-   [ісreal()](function.is-real.md) - Псевдонім isfloat
+-   [ісstring()](function.is-string.md) - Перевіряє, чи є змінним рядком
+-   [ісbool()](function.is-bool.md) - Перевіряє, чи є змінна булевою
+-   [ісobject()](function.is-object.md) - Перевіряє, чи є змінна об'єктом
+-   [ісarray()](function.is-array.md) - Визначає, чи є змінна масивом

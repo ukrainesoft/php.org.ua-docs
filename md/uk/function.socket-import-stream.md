@@ -49,4 +49,4 @@ $sock   = socket_import_stream($stream);
 
 ### Дивіться також
 
--   [streamsocketserver()](function.stream-socket-server.html) - Створює інтернет-сокет або доменний сокет Unix
+-   [streamsocketserver()](function.stream-socket-server.md) - Створює інтернет-сокет або доменний сокет Unix

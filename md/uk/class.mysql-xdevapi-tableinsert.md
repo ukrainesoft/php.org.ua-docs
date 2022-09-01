@@ -39,6 +39,6 @@ public values(array $row_values): mysql_xdevapi\TableInsert
 
 ## Зміст
 
--   [TableInsert::construct](mysql-xdevapi-tableinsert.construct.html) - Конструктор класу TableInsert
--   [TableInsert::execute](mysql-xdevapi-tableinsert.execute.html) — Виконує запит на вставку
--   [TableInsert::values](mysql-xdevapi-tableinsert.values.html) — Додає значення вставки рядка
+-   [TableInsert::construct](mysql-xdevapi-tableinsert.construct.md) - Конструктор класу TableInsert
+-   [TableInsert::execute](mysql-xdevapi-tableinsert.execute.md) — Виконує запит на вставку
+-   [TableInsert::values](mysql-xdevapi-tableinsert.values.md) — Додає значення вставки рядка

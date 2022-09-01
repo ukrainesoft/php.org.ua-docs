@@ -44,7 +44,7 @@ intlcal_is_weekend(IntlCalendar $calendar, ?float $timestamp = null): bool
 
 Логічне значення (bool), що вказує на те, чи є час об'єкта вихідними.
 
-У разі виникнення помилки також повертається **`false`**. Для виявлення умов помилки використовуйте [intlgeterrorcode()](function.intl-get-error-code.html) або настройте викидання [исключений](intl.configuration.html#ini.intl.use-exceptions) в Intl.
+У разі виникнення помилки також повертається **`false`**. Для виявлення умов помилки використовуйте [intlgeterrorcode()](function.intl-get-error-code.md) або настройте викидання [исключений](intl.configuration.html#ini.intl.use-exceptions) в Intl.
 
 ### Приклади
 

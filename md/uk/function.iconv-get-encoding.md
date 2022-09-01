@@ -65,5 +65,5 @@ Array
 
 ### Дивіться також
 
--   [iconvsetencoding()](function.iconv-set-encoding.html) - Встановлює поточні налаштування для перетворення символів кодування
--   [проiconvhandler()](function.ob-iconv-handler.html) - Перетворює символи з поточного кодування на кодування вихідного буфера
+-   [iconvsetencoding()](function.iconv-set-encoding.md) - Встановлює поточні налаштування для перетворення символів кодування
+-   [проiconvhandler()](function.ob-iconv-handler.md) - Перетворює символи з поточного кодування на кодування вихідного буфера

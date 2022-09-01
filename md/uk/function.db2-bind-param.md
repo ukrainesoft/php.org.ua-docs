@@ -18,13 +18,13 @@ db2bindparam — Зв'язує змінну PHP із параметром SQL-в
 db2_bind_param(    resource $stmt,    int $parameter_number,    string $variable_name,    int $parameter_type = ?,    int $data_type = 0,    int $precision = -1,    int $scale = 0): bool
 ```
 
-Зв'язує змінну PHP з параметром SQL-вираження у виразному ресурсі, що повертається [db2prepare()](function.db2-prepare.html). Ця функція дає більший контроль над типом параметра, типом даних, точністю та масштабом для параметра, ніж проста передача змінної як частини необов'язкового вхідного масиву [db2execute()](function.db2-execute.html)
+Зв'язує змінну PHP з параметром SQL-вираження у виразному ресурсі, що повертається [db2prepare()](function.db2-prepare.html). Ця функція дає більший контроль над типом параметра, типом даних, точністю та масштабом для параметра, ніж проста передача змінної як частини необов'язкового вхідного масиву [db2execute()](function.db2-execute.md)
 
 ### Список параметрів
 
 `stmt`
 
-Підготовлений вираз, що повертається [db2prepare()](function.db2-prepare.html)
+Підготовлений вираз, що повертається [db2prepare()](function.db2-prepare.md)
 
 `parameter_number`
 
@@ -58,7 +58,7 @@ db2_bind_param(    resource $stmt,    int $parameter_number,    stri
 
 **Приклад #1 Прив'язка змінних PHP до підготовленого виразу**
 
-SQL-вираз у цьому прикладі використовує два вхідні параметри в пропозиції WHERE. Викликається **db2bindparam()**, щоб зв'язати дві змінні PHP із відповідними параметрами SQL. Зверніть увагу, що змінні PHP не потрібно оголошувати або надавати перед викликом **db2bindparam()**; у цьому прикладі `$lower_limit` надається значення перед викликом **db2bindparam()**, а `$upper_limit` надається значення після виклику **db2bindparam()**. Перед викликом [db2execute()](function.db2-execute.html) змінні мають бути пов'язані, а параметрам, що приймають введення, має бути присвоєно будь-яке значення . [db2execute()](function.db2-execute.html)
+SQL-вираз у цьому прикладі використовує два вхідні параметри в пропозиції WHERE. Викликається **db2bindparam()**, щоб зв'язати дві змінні PHP із відповідними параметрами SQL. Зверніть увагу, що змінні PHP не потрібно оголошувати або надавати перед викликом **db2bindparam()**; у цьому прикладі `$lower_limit` надається значення перед викликом **db2bindparam()**, а `$upper_limit` надається значення після виклику **db2bindparam()**. Перед викликом [db2execute()](function.db2-execute.html) змінні мають бути пов'язані, а параметрам, що приймають введення, має бути присвоєно будь-яке значення . [db2execute()](function.db2-execute.md)
 
 ```php
 <?php
@@ -167,5 +167,5 @@ $rc = db2_execute($stmt);
 
 ### Дивіться також
 
--   [db2execute()](function.db2-execute.html) - Виконує підготовлений SQL-запит
--   [db2prepare()](function.db2-prepare.html) - готує SQL-запит до виконання
+-   [db2execute()](function.db2-execute.md) - Виконує підготовлений SQL-запит
+-   [db2prepare()](function.db2-prepare.md) - готує SQL-запит до виконання

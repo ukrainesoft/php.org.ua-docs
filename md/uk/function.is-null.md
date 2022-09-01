@@ -55,10 +55,10 @@ bool(true)
 
 -   Тип [**`null`**](language.types.null.html#language.types.null.syntax)
 -   [isset()](function.isset.md) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
--   [ісbool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
--   [ісnumeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом чи рядком, що містить число
--   [ісfloat()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [ісint()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
--   [ісstring()](function.is-string.html) - Перевіряє, чи є змінним рядком
--   [ісobject()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
--   [ісarray()](function.is-array.html) - Визначає, чи є змінна масивом
+-   [ісbool()](function.is-bool.md) - Перевіряє, чи є змінна булевою
+-   [ісnumeric()](function.is-numeric.md) - Перевіряє, чи є змінна числом чи рядком, що містить число
+-   [ісfloat()](function.is-float.md) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [ісint()](function.is-int.md) - Перевіряє, чи є змінна цілим числом
+-   [ісstring()](function.is-string.md) - Перевіряє, чи є змінним рядком
+-   [ісobject()](function.is-object.md) - Перевіряє, чи є змінна об'єктом
+-   [ісarray()](function.is-array.md) - Визначає, чи є змінна масивом

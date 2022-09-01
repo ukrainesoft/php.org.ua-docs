@@ -90,15 +90,15 @@ private Exception::__clone(): void
 
 errorLabels
 
-Містить масив позначок помилок для виключення. Наприклад, мітки помилок можуть використовуватися для визначення того, чи можна безпечно провести транзакцію, якщо є мітка TransientTransactionError. Існування певної мітки помилки має бути перевірено за допомогою [MongoDBDriverExceptionRuntimeException::hasErrorLabel()](mongodb-driver-runtimeexception.haserrorlabel.html) замість інтерпретації цієї властивості errorlabels вручну.
+Містить масив позначок помилок для виключення. Наприклад, мітки помилок можуть використовуватися для визначення того, чи можна безпечно провести транзакцію, якщо є мітка TransientTransactionError. Існування певної мітки помилки має бути перевірено за допомогою [MongoDBDriverExceptionRuntimeException::hasErrorLabel()](mongodb-driver-runtimeexception.haserrorlabel.md) замість інтерпретації цієї властивості errorlabels вручну.
 
 ## список змін
 
 | Версия | Описание |
 | --- | --- |
 | PECL mongodb 1.6.0 |  |
-| Доданий метод [MongoDBDriverExceptionRuntimeException::hasErrorLabel()](mongodb-driver-runtimeexception.haserrorlabel.html) і властивість [MongoDBDriverExceptionRuntimeException::errorLabels](class.mongodb-driver-exception-runtimeexception.html#mongodb-driver-exception-runtimeexception.props.errorlabels) |  |
+| Доданий метод [MongoDBDriverExceptionRuntimeException::hasErrorLabel()](mongodb-driver-runtimeexception.haserrorlabel.md) і властивість [MongoDBDriverExceptionRuntimeException::errorLabels](class.mongodb-driver-exception-runtimeexception.html#mongodb-driver-exception-runtimeexception.props.errorlabels) |  |
 
 ## Зміст
 
--   [MongoDBDriverExceptionRuntimeException::hasErrorLabel](mongodb-driver-runtimeexception.haserrorlabel.html) — Повертає, чи мітка помилки пов'язана з винятком
+-   [MongoDBDriverExceptionRuntimeException::hasErrorLabel](mongodb-driver-runtimeexception.haserrorlabel.md) — Повертає, чи мітка помилки пов'язана з винятком

@@ -26,5 +26,5 @@ ldap_set_rebind_proc(LDAP\Connection $ldap, ?callable $callback): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `callback` тепер допускає значення null. |

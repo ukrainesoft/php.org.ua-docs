@@ -86,5 +86,5 @@ PHP Catchable fatal error:  Yaf_Application::run(): Could not find controller sc
 
 ### Дивіться також
 
--   [YafDispatcher::catchException()](yaf-dispatcher.catchexception.html) - Включає/вимикає перехоплення винятків
--   [YafException](class.yaf-exception.html)
+-   [YafDispatcher::catchException()](yaf-dispatcher.catchexception.md) - Включає/вимикає перехоплення винятків
+-   [YafException](class.yaf-exception.md)

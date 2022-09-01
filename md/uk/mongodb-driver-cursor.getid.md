@@ -18,7 +18,7 @@ MongoDBDriverCursor::getId — Повертає ідентифікатор дл�
 final public MongoDB\Driver\Cursor::getId(): MongoDB\Driver\CursorId
 ```
 
-Повертає [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html), пов'язаний із цим курсором. Ідентифікатор курсору однозначно ідентифікує курсор на сервері.
+Повертає [MongoDBDriverCursorId](class.mongodb-driver-cursorid.md), пов'язаний із цим курсором. Ідентифікатор курсору однозначно ідентифікує курсор на сервері.
 
 ### Список параметрів
 
@@ -26,11 +26,11 @@ final public MongoDB\Driver\Cursor::getId(): MongoDB\Driver\CursorId
 
 ### Значення, що повертаються
 
-Повертає [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html) для курсору.
+Повертає [MongoDBDriverCursorId](class.mongodb-driver-cursorid.md) для курсору.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
@@ -68,5 +68,5 @@ object(MongoDB\Driver\CursorId)#5 (1) {
 
 ### Дивіться також
 
--   [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html)
--   [MongoDBDriverCursorId::toString()](mongodb-driver-cursorid.tostring.html) - Строкове подання ідентифікатора курсору
+-   [MongoDBDriverCursorId](class.mongodb-driver-cursorid.md)
+-   [MongoDBDriverCursorId::toString()](mongodb-driver-cursorid.tostring.md) - Строкове подання ідентифікатора курсору

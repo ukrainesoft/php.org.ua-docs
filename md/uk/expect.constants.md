@@ -24,12 +24,12 @@ title: Обумовлені константи
 
 **`EXP_EOF`** (int)
 
-Значення, що повертається [expectexpectl()](function.expect-expectl.html), коли досягнуто кінець файлу.
+Значення, що повертається [expectexpectl()](function.expect-expectl.md), коли досягнуто кінець файлу.
 
 **`EXP_TIMEOUT`** (int)
 
-Значення, що повертається [expectexpectl()](function.expect-expectl.html) після вичерпання часу очікування, заданого в [expect.timeout](expect.configuration.html#ini.expect.timeout)
+Значення, що повертається [expectexpectl()](function.expect-expectl.md) після вичерпання часу очікування, заданого в [expect.timeout](expect.configuration.html#ini.expect.timeout)
 
 **`EXP_FULLBUFFER`** (int)
 
-Значення, що повертається [expectexpectl()](function.expect-expectl.html), коли збігів із шаблоном не знайдено.
+Значення, що повертається [expectexpectl()](function.expect-expectl.md), коли збігів із шаблоном не знайдено.

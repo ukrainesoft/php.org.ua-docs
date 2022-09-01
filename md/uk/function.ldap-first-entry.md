@@ -18,32 +18,32 @@ ldapfirstentry — Повернути перший ідентифікатор р
 ldap_first_entry(LDAP\Connection $ldap, LDAP\Result $result): LDAP\ResultEntry|false
 ```
 
-Повертає ідентифікатор першого запису в результаті. Цей ідентифікатор потім використовується у функції [ldapnextentry()](function.ldap-next-entry.html)для послідовного отримання записів з результату.
+Повертає ідентифікатор першого запису в результаті. Цей ідентифікатор потім використовується у функції [ldapnextentry()](function.ldap-next-entry.md)для послідовного отримання записів з результату.
 
-Записи в LDAP результаті зчитуються послідовно використовуючи функції **ldapfirstentry()** і [ldapnextentry()](function.ldap-next-entry.html)
+Записи в LDAP результаті зчитуються послідовно використовуючи функції **ldapfirstentry()** і [ldapnextentry()](function.ldap-next-entry.md)
 
 ### Список параметрів
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `result`
 
-Екземпляр [LDAPResult](class.ldap-result.html), що повертається [ldaplist()](function.ldap-list.html) або [ldapsearch()](function.ldap-search.html)
+Екземпляр [LDAPResult](class.ldap-result.html), що повертається [ldaplist()](function.ldap-list.html) або [ldapsearch()](function.ldap-search.md)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [LDAPResultEntry](class.ldap-result-entry.html) або **`false`** у разі виникнення помилки.
+Повертає екземпляр [LDAPResultEntry](class.ldap-result-entry.md) або **`false`** у разі виникнення помилки.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Повертає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [LDAPResultEntry](class.ldap-result-entry.md); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [ldapgetentries()](function.ldap-get-entries.html) - Отримує всі записи результату
+-   [ldapgetentries()](function.ldap-get-entries.md) - Отримує всі записи результату

@@ -42,7 +42,7 @@ uopz_set_mock(string $class, mixed $mock): void
 
 | Версия | Описание |
 | --- | --- |
-| uopz 6.0.0 | Імітування статичних функцій не підтримуються цією функцією. Замість цього слід використовувати [uopzredefine()](function.uopz-redefine.html) і [uopzsetreturn()](function.uopz-set-return.html), або [Componere](book.componere.md) |
+| uopz 6.0.0 | Імітування статичних функцій не підтримуються цією функцією. Замість цього слід використовувати [uopzredefine()](function.uopz-redefine.html) і [uopzsetreturn()](function.uopz-set-return.md), або [Componere](book.componere.md) |
 
 ### Приклади
 
@@ -136,5 +136,5 @@ mockA
 
 ### Дивіться також
 
--   [uopzgetmock()](function.uopz-get-mock.html) - отримати поточний імітатор (mock) для класу
--   [uopzunsetmock()](function.uopz-unset-mock.html) - Видалити раніше встановлений імітатор
+-   [uopzgetmock()](function.uopz-get-mock.md) - отримати поточний імітатор (mock) для класу
+-   [uopzunsetmock()](function.uopz-unset-mock.md) - Видалити раніше встановлений імітатор

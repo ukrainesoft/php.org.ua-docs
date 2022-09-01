@@ -172,6 +172,6 @@ array(8) {
 
 ### Дивіться також
 
--   [yamlparsefile()](function.yaml-parse-file.html) - Розбирає YAML-потік із файлу
--   [yamlparseurl()](function.yaml-parse-url.html) - Розбирає YAML-потік із URL
--   [yamlemit()](function.yaml-emit.html) - Повертає YAML-подання значення
+-   [yamlparsefile()](function.yaml-parse-file.md) - Розбирає YAML-потік із файлу
+-   [yamlparseurl()](function.yaml-parse-url.md) - Розбирає YAML-потік із URL
+-   [yamlemit()](function.yaml-emit.md) - Повертає YAML-подання значення

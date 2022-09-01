@@ -160,19 +160,19 @@ title: За складом
     
 -   [OpenSSL](book.openssl.md)
     
--   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.html)
+-   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.md)
     
--   [Firebird (PDO)](ref.pdo-firebird.html)
+-   [Firebird (PDO)](ref.pdo-firebird.md)
     
--   [MySQL (PDO)](ref.pdo-mysql.html)
+-   [MySQL (PDO)](ref.pdo-mysql.md)
     
--   [Oracle (PDO)](ref.pdo-oci.html)
+-   [Oracle (PDO)](ref.pdo-oci.md)
     
--   [ODBC и DB2 (PDO)](ref.pdo-odbc.html)
+-   [ODBC и DB2 (PDO)](ref.pdo-odbc.md)
     
--   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
+-   [PostgreSQL (PDO)](ref.pdo-pgsql.md)
     
--   [SQLite (PDO)](ref.pdo-sqlite.html)
+-   [SQLite (PDO)](ref.pdo-sqlite.md)
     
 -   [PostgreSQL](book.pgsql.md)
     
@@ -245,7 +245,7 @@ title: За складом
     
 -   [Firebird/InterBase](book.ibase.md)
     
--   [IBM DB2](book.ibm-db2.html)
+-   [IBM DB2](book.ibm-db2.md)
     
 -   [Igbinary](book.igbinary.md)
     
@@ -271,7 +271,7 @@ title: За складом
     
 -   [MySQL (Original)](book.mysql.md)
     
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.md)
     
 -   [OAuth](book.oauth.md)
     
@@ -281,13 +281,13 @@ title: За складом
     
 -   [Parle](book.parle.md)
     
--   [CUBRID (PDO)](ref.pdo-cubrid.html)
+-   [CUBRID (PDO)](ref.pdo-cubrid.md)
     
--   [IBM (PDO)](ref.pdo-ibm.html)
+-   [IBM (PDO)](ref.pdo-ibm.md)
     
--   [Informix (PDO)](ref.pdo-informix.html)
+-   [Informix (PDO)](ref.pdo-informix.md)
     
--   [MS SQL Server (PDO)](ref.pdo-sqlsrv.html)
+-   [MS SQL Server (PDO)](ref.pdo-sqlsrv.md)
     
 -   [ПС](book.ps.md)
     

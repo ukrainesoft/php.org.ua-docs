@@ -32,11 +32,11 @@ final public MongoDB\Driver\Session::endSession(): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverManager::startSession()](mongodb-driver-manager.startsession.html) - Запускає новий сеанс клієнта для використання з цим клієнтом
--   [MongoDBDriverSession::abortTransaction()](mongodb-driver-session.aborttransaction.html) - перериває транзакцію
--   [MongoDBDriverSession::commitTransaction()](mongodb-driver-session.committransaction.html) - Фіксує транзакцію
--   [MongoDBDriverSession::startTransaction()](mongodb-driver-session.starttransaction.html) - Запускає транзакцію
+-   [MongoDBDriverManager::startSession()](mongodb-driver-manager.startsession.md) - Запускає новий сеанс клієнта для використання з цим клієнтом
+-   [MongoDBDriverSession::abortTransaction()](mongodb-driver-session.aborttransaction.md) - перериває транзакцію
+-   [MongoDBDriverSession::commitTransaction()](mongodb-driver-session.committransaction.md) - Фіксує транзакцію
+-   [MongoDBDriverSession::startTransaction()](mongodb-driver-session.starttransaction.md) - Запускає транзакцію

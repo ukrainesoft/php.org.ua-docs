@@ -20,10 +20,10 @@ title: Запуск програм у системі
     -   [escapeshellcmd](function.escapeshellcmd.md) — Екранувати метасимволи командного рядка
     -   [exec](function.exec.md) — Виконати зовнішню програму
     -   [passthru](function.passthru.md) — Виконати зовнішню програму та відобразити необроблений висновок
-    -   [procclose](function.proc-close.html) — Завершити процес, відкритий procopen та повернути код повернення цього процесу
-    -   [procgetstatus](function.proc-get-status.html) — Отримати інформацію про процес, відкритий procopen
-    -   [procnice](function.proc-nice.html) — Змінити пріоритет поточного процесу
-    -   [procopen](function.proc-open.html) — Виконати команду та відкрити покажчик на файл для введення/виводу
-    -   [procterminate](function.proc-terminate.html) — Знищити процес, відкритий за допомогою функції procopen
-    -   [shellexec](function.shell-exec.html) — Виконати команду через оболонку та повернути висновок у вигляді рядка
+    -   [procclose](function.proc-close.md) — Завершити процес, відкритий procopen та повернути код повернення цього процесу
+    -   [procgetstatus](function.proc-get-status.md) — Отримати інформацію про процес, відкритий procopen
+    -   [procnice](function.proc-nice.md) — Змінити пріоритет поточного процесу
+    -   [procopen](function.proc-open.md) — Виконати команду та відкрити покажчик на файл для введення/виводу
+    -   [procterminate](function.proc-terminate.md) — Знищити процес, відкритий за допомогою функції procopen
+    -   [shellexec](function.shell-exec.md) — Виконати команду через оболонку та повернути висновок у вигляді рядка
     -   [system](function.system.md) — Виконати зовнішню програму та відобразити висновок

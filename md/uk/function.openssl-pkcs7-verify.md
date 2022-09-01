@@ -28,7 +28,7 @@ openssl_pkcs7_verify(    string $input_filename,    int $flags,    ?
 
 `flags`
 
-`flags` можна використовувати модифікації процесу перевірки. Детальніше дивіться [константи PKCS7](openssl.pkcs7.flags.html)
+`flags` можна використовувати модифікації процесу перевірки. Детальніше дивіться [константи PKCS7](openssl.pkcs7.flags.md)
 
 `signers_certificates_filename`
 
@@ -36,7 +36,7 @@ openssl_pkcs7_verify(    string $input_filename,    int $flags,    ?
 
 `ca_info`
 
-Якщо встановлено параметр `ca_info`, то в ньому повинна бути інформація про довірені сертифікати CA, які необхідно використовувати в процесі перевірки. Докладніше читайте на сторінці [проверки сертификатов](openssl.cert.verification.html)
+Якщо встановлено параметр `ca_info`, то в ньому повинна бути інформація про довірені сертифікати CA, які необхідно використовувати в процесі перевірки. Докладніше читайте на сторінці [проверки сертификатов](openssl.cert.verification.md)
 
 `untrusted_certificates_filename`
 

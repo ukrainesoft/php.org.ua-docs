@@ -83,4 +83,4 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsPicker::construct](ui-controls-picker.construct.html) - Створює новий об'єкт Picker
+-   [ОЙControlsPicker::construct](ui-controls-picker.construct.md) - Створює новий об'єкт Picker

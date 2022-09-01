@@ -98,9 +98,9 @@ array(3) {
 
 ### Дивіться також
 
--   [cubridget()](function.cubrid-get.html) - Отримує стовпець, використовуючи OID
--   [cubridsetadd()](function.cubrid-set-add.html) - Вставляє один елемент для встановлення стовпця типу за допомогою OID
--   [cubridsetdrop()](function.cubrid-set-drop.html) - Видаляє елемент із стовпця заданого типу, використовуючи OID
--   [cubridseqinsert()](function.cubrid-seq-insert.html) - Вставляє елемент у стовпець типу послідовності, використовуючи OID
--   [cubridseqdrop()](function.cubrid-seq-drop.html) - Видаляє елемент зі стовпця типу послідовності, використовуючи OID
--   [cubridseqput()](function.cubrid-seq-put.html) - Оновлює значення елемента стовпця типу послідовності за допомогою OID
+-   [cubridget()](function.cubrid-get.md) - Отримує стовпець, використовуючи OID
+-   [cubridsetadd()](function.cubrid-set-add.md) - Вставляє один елемент для встановлення стовпця типу за допомогою OID
+-   [cubridsetdrop()](function.cubrid-set-drop.md) - Видаляє елемент із стовпця заданого типу, використовуючи OID
+-   [cubridseqinsert()](function.cubrid-seq-insert.md) - Вставляє елемент у стовпець типу послідовності, використовуючи OID
+-   [cubridseqdrop()](function.cubrid-seq-drop.md) - Видаляє елемент зі стовпця типу послідовності, використовуючи OID
+-   [cubridseqput()](function.cubrid-seq-put.md) - Оновлює значення елемента стовпця типу послідовності за допомогою OID

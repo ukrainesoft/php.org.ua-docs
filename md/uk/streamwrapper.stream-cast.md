@@ -18,13 +18,13 @@ streamWrapper::streamcast — Отримує ресурс рівнем нижч�
 public streamWrapper::stream_cast(int $cast_as): resource
 ```
 
-Цей метод викликається у процесі виконання [streamselect()](function.stream-select.html)
+Цей метод викликається у процесі виконання [streamselect()](function.stream-select.md)
 
 ### Список параметрів
 
 `cast_as`
 
-Може бути **`STREAM_CAST_FOR_SELECT`**, коли [streamselect()](function.stream-select.html) викликає **streamcast()**, або **`STREAM_CAST_AS_STREAM`**, коли **streamcast()** викликається задля інших цілей.
+Може бути **`STREAM_CAST_FOR_SELECT`**, коли [streamselect()](function.stream-select.md) викликає **streamcast()**, або **`STREAM_CAST_AS_STREAM`**, коли **streamcast()** викликається задля інших цілей.
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ public streamWrapper::stream_cast(int $cast_as): resource
 
 ### Дивіться також
 
--   [streamselect()](function.stream-select.html) - Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds
+-   [streamselect()](function.stream-select.md) - Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds

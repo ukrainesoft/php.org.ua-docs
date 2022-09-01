@@ -18,7 +18,7 @@ YafRequestAbstract::setParam — Встановлює параметр дзві�
 public Yaf_Request_Abstract::setParam(string $name, string $value = ?): bool
 ```
 
-Встановлює параметр для запиту, який можна отримати за допомогою [YafRequestAbstract::getParam()](yaf-request-abstract.getparam.html)
+Встановлює параметр для запиту, який можна отримати за допомогою [YafRequestAbstract::getParam()](yaf-request-abstract.getparam.md)
 
 ### Список параметрів
 
@@ -30,5 +30,5 @@ public Yaf_Request_Abstract::setParam(string $name, string $value = ?): bool
 
 ### Дивіться також
 
--   [YafRequestAbstract::getParam()](yaf-request-abstract.getparam.html) - Отримує параметр дзвінка
--   [YafRequestAbstract::getParams()](yaf-request-abstract.getparams.html) - Отримує всі параметри дзвінка
+-   [YafRequestAbstract::getParam()](yaf-request-abstract.getparam.md) - Отримує параметр дзвінка
+-   [YafRequestAbstract::getParams()](yaf-request-abstract.getparams.md) - Отримує всі параметри дзвінка

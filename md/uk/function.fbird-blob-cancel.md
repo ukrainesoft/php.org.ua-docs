@@ -18,13 +18,13 @@ fbirdblobcancel — Скасовує створення BLOB
 fbird_blob_cancel(resource $blob_handle): bool
 ```
 
-Ця функція припиняє використання BLOB, якщо вона ще не була закрита [fbirdblobclose()](function.fbird-blob-close.html)
+Ця функція припиняє використання BLOB, якщо вона ще не була закрита [fbirdblobclose()](function.fbird-blob-close.md)
 
 ### Список параметрів
 
 `blob_handle`
 
-Дескриптор BLOB, відкритий за допомогою [fbirdblobcreate()](function.fbird-blob-create.html)
+Дескриптор BLOB, відкритий за допомогою [fbirdblobcreate()](function.fbird-blob-create.md)
 
 ### Значення, що повертаються
 
@@ -32,6 +32,6 @@ fbird_blob_cancel(resource $blob_handle): bool
 
 ### Дивіться також
 
--   [fbirdblobclose()](function.fbird-blob-close.html) - Псевдонім ibaseblobclose
--   [fbirdblobcreate()](function.fbird-blob-create.html) - Псевдонім ibaseblobcreate
--   [fbirdblobimport()](function.fbird-blob-import.html) - Псевдонім ibaseblobimport
+-   [fbirdblobclose()](function.fbird-blob-close.md) - Псевдонім ibaseblobclose
+-   [fbirdblobcreate()](function.fbird-blob-create.md) - Псевдонім ibaseblobcreate
+-   [fbirdblobimport()](function.fbird-blob-import.md) - Псевдонім ibaseblobimport

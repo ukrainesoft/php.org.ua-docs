@@ -68,5 +68,5 @@ errno
 
 ## Зміст
 
--   [mysqliwarning::construct](mysqli-warning.construct.html) — Закритий конструктор для заборони прямого створення екземпляра
--   [mysqliwarning::next](mysqli-warning.next.html) — Отримує таке попередження
+-   [mysqliwarning::construct](mysqli-warning.construct.md) — Закритий конструктор для заборони прямого створення екземпляра
+-   [mysqliwarning::next](mysqli-warning.next.md) — Отримує таке попередження

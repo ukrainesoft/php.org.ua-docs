@@ -65,4 +65,4 @@ foreach ($strings as $testcase) {
 
 ### Дивіться також
 
--   [ctypedigit()](function.ctype-digit.html) - Перевіряє наявність цифрових символів у рядку
+-   [ctypedigit()](function.ctype-digit.md) - Перевіряє наявність цифрових символів у рядку

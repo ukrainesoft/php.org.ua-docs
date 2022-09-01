@@ -24,7 +24,7 @@ sodium_crypto_aead_chacha20poly1305_decrypt(    string $ciphertext,    s
 
 `ciphertext`
 
-Має бути у форматі, наданому [sodiumcryptoaeadchacha20poly1305encrypt()](function.sodium-crypto-aead-chacha20poly1305-encrypt.html) (Зашифрований текст та тег, об'єднані).
+Має бути у форматі, наданому [sodiumcryptoaeadchacha20poly1305encrypt()](function.sodium-crypto-aead-chacha20poly1305-encrypt.md) (Зашифрований текст та тег, об'єднані).
 
 `additional_data`
 

@@ -90,4 +90,4 @@ array(3) {
 
 ### Дивіться також
 
--   [cubridlockread()](function.cubrid-lock-read.html) - Встановлює блокування читання для цього OID
+-   [cubridlockread()](function.cubrid-lock-read.md) - Встановлює блокування читання для цього OID

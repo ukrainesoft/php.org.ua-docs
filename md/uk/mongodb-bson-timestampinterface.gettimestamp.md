@@ -32,4 +32,4 @@ abstract public MongoDB\BSON\TimestampInterface::getTimestamp(): int
 
 ### Дивіться також
 
--   [MongoDBBSONTimestamp::getTimestamp()](mongodb-bson-timestamp.gettimestamp.html) - Повертає компонент позначки часу Timestamp
+-   [MongoDBBSONTimestamp::getTimestamp()](mongodb-bson-timestamp.gettimestamp.md) - Повертає компонент позначки часу Timestamp

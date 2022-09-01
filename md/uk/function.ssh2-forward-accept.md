@@ -28,7 +28,7 @@ ssh2_forward_accept(resource $listener): resource|false
 
 `desc`
 
-Ресурс SSH2 Listener, отриманий у результаті виклику [ssh2forwardlisten()](function.ssh2-forward-listen.html)
+Ресурс SSH2 Listener, отриманий у результаті виклику [ssh2forwardlisten()](function.ssh2-forward-listen.md)
 
 ### Значення, що повертаються
 

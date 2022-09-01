@@ -39,6 +39,6 @@ abstract public merge(mixed $src, mixed $diff): mixed
 
 ## Зміст
 
--   [XMLDiffBase::construct](xmldiff-base.construct.html) - Конструктор
--   [XMLDiffBase::diff](xmldiff-base.diff.html) — Здійснює порівняння двох документів XML
--   [XMLDiffBase::merge](xmldiff-base.merge.html) — Створює новий документ XML, ґрунтуючись на інформації про його відмінність від іншого
+-   [XMLDiffBase::construct](xmldiff-base.construct.md) - Конструктор
+-   [XMLDiffBase::diff](xmldiff-base.diff.md) — Здійснює порівняння двох документів XML
+-   [XMLDiffBase::merge](xmldiff-base.merge.md) — Створює новий документ XML, ґрунтуючись на інформації про його відмінність від іншого

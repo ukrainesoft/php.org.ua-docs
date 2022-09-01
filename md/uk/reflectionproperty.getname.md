@@ -30,4 +30,4 @@ public ReflectionProperty::getName(): string
 
 ### Дивіться також
 
--   [ReflectionProperty::getValue()](reflectionproperty.getvalue.html) - набуває значення
+-   [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) - набуває значення

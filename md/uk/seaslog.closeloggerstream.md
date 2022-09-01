@@ -61,5 +61,5 @@ bool(true)
 
 ### Дивіться також
 
--   [SeasLog::setLogger()](seaslog.setlogger.html) - Встановлює ім'я реєстратора SeasLog
--   [SeasLog::getLastLogger()](seaslog.getlastlogger.html) - Отримує останній шлях реєстратора SeasLog
+-   [SeasLog::setLogger()](seaslog.setlogger.md) - Встановлює ім'я реєстратора SeasLog
+-   [SeasLog::getLastLogger()](seaslog.getlastlogger.md) - Отримує останній шлях реєстратора SeasLog

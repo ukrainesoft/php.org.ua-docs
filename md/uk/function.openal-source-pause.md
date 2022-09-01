@@ -22,7 +22,7 @@ openal_source_pause(resource $source): bool
 
 `source`
 
-Ресурс [Open AL(Source)](openal.resources.md) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.html)
+Ресурс [Open AL(Source)](openal.resources.md) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.md)
 
 ### Значення, що повертаються
 
@@ -30,6 +30,6 @@ openal_source_pause(resource $source): bool
 
 ### Дивіться також
 
--   [openalsourcestop()](function.openal-source-stop.html) - Зупинити відтворення джерела
--   [openalsourceplay()](function.openal-source-play.html) - Почати відтворення джерела
--   [openalsourcerewind()](function.openal-source-rewind.html) - Перемотати джерело на початок
+-   [openalsourcestop()](function.openal-source-stop.md) - Зупинити відтворення джерела
+-   [openalsourceplay()](function.openal-source-play.md) - Почати відтворення джерела
+-   [openalsourcerewind()](function.openal-source-rewind.md) - Перемотати джерело на початок

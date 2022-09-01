@@ -48,8 +48,8 @@ final public unserialize(string $serialized): void
 
 ## Зміст
 
--   [MongoDBBSONDBPointer::construct](mongodb-bson-dbpointer.construct.html) — Створює новий DBPointer (не використовується)
--   [MongoDBBSONDBPointer::jsonSerialize](mongodb-bson-dbpointer.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDBBSONDBPointer::serialize](mongodb-bson-dbpointer.serialize.html) - Серіалізує DBPointer
--   [MongoDBBSONDBPointer::toString](mongodb-bson-dbpointer.tostring.html) — Повертає порожній рядок
--   [MongoDBBSONDBPointer::unserialize](mongodb-bson-dbpointer.unserialize.html) - Десеріалізує DBPointer
+-   [MongoDBBSONDBPointer::construct](mongodb-bson-dbpointer.construct.md) — Створює новий DBPointer (не використовується)
+-   [MongoDBBSONDBPointer::jsonSerialize](mongodb-bson-dbpointer.jsonserialize.md) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONDBPointer::serialize](mongodb-bson-dbpointer.serialize.md) - Серіалізує DBPointer
+-   [MongoDBBSONDBPointer::toString](mongodb-bson-dbpointer.tostring.md) — Повертає порожній рядок
+-   [MongoDBBSONDBPointer::unserialize](mongodb-bson-dbpointer.unserialize.md) - Десеріалізує DBPointer

@@ -22,7 +22,7 @@ public XSLTProcessor::setParameter(string $namespace, string $name, string $valu
 public XSLTProcessor::setParameter(string $namespace, array $options): bool
 ```
 
-Встановлює значення для одного або кількох параметрів, щоб використовувати надалі у перетвореннях [XSLTProcessor](class.xsltprocessor.html). Якщо параметра немає в таблиці стилів, він буде проігнорований.
+Встановлює значення для одного або кількох параметрів, щоб використовувати надалі у перетвореннях [XSLTProcessor](class.xsltprocessor.md). Якщо параметра немає в таблиці стилів, він буде проігнорований.
 
 ### Список параметрів
 
@@ -79,5 +79,5 @@ foreach ($collections as $name => $file) {
 
 ### Дивіться також
 
--   [XSLTProcessor::getParameter()](xsltprocessor.getparameter.html) - Повертає значення параметра
--   [XSLTProcessor::removeParameter()](xsltprocessor.removeparameter.html) - Видаляє параметр
+-   [XSLTProcessor::getParameter()](xsltprocessor.getparameter.md) - Повертає значення параметра
+-   [XSLTProcessor::removeParameter()](xsltprocessor.removeparameter.md) - Видаляє параметр

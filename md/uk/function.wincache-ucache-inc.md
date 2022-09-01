@@ -59,5 +59,5 @@ bool(true)
 
 ### Дивіться також
 
--   [wincacheucachedec()](function.wincache-ucache-dec.html) - Зменшує значення, пов'язане з ключем
--   [wincacheucachecas()](function.wincache-ucache-cas.html) - Порівнює змінну зі старим значенням та надає їй нове значення
+-   [wincacheucachedec()](function.wincache-ucache-dec.md) - Зменшує значення, пов'язане з ключем
+-   [wincacheucachecas()](function.wincache-ucache-cas.md) - Порівнює змінну зі старим значенням та надає їй нове значення

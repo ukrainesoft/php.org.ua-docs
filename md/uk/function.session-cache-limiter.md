@@ -26,7 +26,7 @@ session_cache_limiter(?string $value = null): string|false
 
 Встановлення режиму кешування в `''` відключає автоматичне надсилання кеш-заголовків.
 
-Під час початку запиту режим кешування скидається до значення за промовчанням, яке зберігається в [session.cachelimiter](session.configuration.html#ini.session.cache-limiter). Таким чином, вам необхідно викликати **sessioncachelimiter()** для кожного запиту (перед тим, як викликана функція [sessionstart()](function.session-start.html)
+Під час початку запиту режим кешування скидається до значення за промовчанням, яке зберігається в [session.cachelimiter](session.configuration.html#ini.session.cache-limiter). Таким чином, вам необхідно викликати **sessioncachelimiter()** для кожного запиту (перед тим, як викликана функція [sessionstart()](function.session-start.md)
 
 ### Список параметрів
 

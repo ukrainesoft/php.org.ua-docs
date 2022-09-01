@@ -18,7 +18,7 @@ mysqliresult::$currentfield - mysqlifieldtell — Отримує зміщенн�
 
 Об'єктно-орієнтований стиль
 
-int [$mysqliresult->currentfield](mysqli-result.current-field.html)
+int [$mysqliresult->currentfield](mysqli-result.current-field.md)
 
 Процедурний стиль
 
@@ -26,13 +26,13 @@ int [$mysqliresult->currentfield](mysqli-result.current-field.html)
 mysqli_field_tell(mysqli_result $result): int
 ```
 
-Повертає позицію покажчика поля, що використовується під час останнього виклику [mysqlifetchfield()](mysqli-result.fetch-field.html). Це значення може бути використане як аргумент для [mysqlifieldseek()](mysqli-result.field-seek.html)
+Повертає позицію покажчика поля, що використовується під час останнього виклику [mysqlifetchfield()](mysqli-result.fetch-field.html). Це значення може бути використане як аргумент для [mysqlifieldseek()](mysqli-result.field-seek.md)
 
 ### Список параметрів
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 
@@ -134,5 +134,5 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqlifetchfield()](mysqli-result.fetch-field.html) - Повертає наступне поле результуючого набору
--   [mysqlifieldseek()](mysqli-result.field-seek.html) - встановити покажчик поля на певне зміщення
+-   [mysqlifetchfield()](mysqli-result.fetch-field.md) - Повертає наступне поле результуючого набору
+-   [mysqlifieldseek()](mysqli-result.field-seek.md) - встановити покажчик поля на певне зміщення

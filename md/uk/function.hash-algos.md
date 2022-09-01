@@ -116,4 +116,4 @@ Array
 
 ### Дивіться також
 
--   [hashhmacalgos()](function.hash-hmac-algos.html) - Повертає список зареєстрованих алгоритмів хешування, які застосовуються для hashhmac
+-   [hashhmacalgos()](function.hash-hmac-algos.md) - Повертає список зареєстрованих алгоритмів хешування, які застосовуються для hashhmac

@@ -22,7 +22,7 @@ radius_put_attr(    resource $radius_handle,    int $type,    string
 
 > **Зауваження**
 > 
-> Перед викликом цієї функції потрібно створити запит за допомогою функції [radiuscreaterequest()](function.radius-create-request.html)
+> Перед викликом цієї функції потрібно створити запит за допомогою функції [radiuscreaterequest()](function.radius-create-request.md)
 
 ### Список параметрів
 
@@ -75,6 +75,6 @@ if (!radius_put_attr($res, RADIUS_CHAP_PASSWORD, $pass)) {
 
 ### Дивіться також
 
--   [radiusgetattr()](function.radius-get-attr.html) - Витягує атрибут
--   [radiusgetvendorattr()](function.radius-get-vendor-attr.html) - Витягує атрибут, що залежить від постачальника
--   [radiusputvendorattr()](function.radius-put-vendor-attr.html) - Приєднує бінарний атрибут, що залежить від постачальника
+-   [radiusgetattr()](function.radius-get-attr.md) - Витягує атрибут
+-   [radiusgetvendorattr()](function.radius-get-vendor-attr.md) - Витягує атрибут, що залежить від постачальника
+-   [radiusputvendorattr()](function.radius-put-vendor-attr.md) - Приєднує бінарний атрибут, що залежить від постачальника

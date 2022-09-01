@@ -46,7 +46,7 @@ mb_strlen(string $string, ?string $encoding = null): int
 
 ### Дивіться також
 
--   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
--   [graphemestrlen()](function.grapheme-strlen.html) - отримує довжину рядка в одиницях графеми
--   [iconvstrlen()](function.iconv-strlen.html) - Повертає кількість символів у рядку
+-   [мбinternalencoding()](function.mb-internal-encoding.md) - Встановлення/отримання внутрішнього кодування скрипту
+-   [graphemestrlen()](function.grapheme-strlen.md) - отримує довжину рядка в одиницях графеми
+-   [iconvstrlen()](function.iconv-strlen.md) - Повертає кількість символів у рядку
 -   [strlen()](function.strlen.md) - Повертає довжину рядка

@@ -10,8 +10,8 @@ title: inialter
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-inialter - Псевдонім [iniset()](function.ini-set.html)
+inialter - Псевдонім [iniset()](function.ini-set.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [iniset()](function.ini-set.html)
+Ця функція є псевдонімом: [iniset()](function.ini-set.md)

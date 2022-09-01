@@ -42,4 +42,4 @@ fann_set_cascade_min_out_epochs(resource $ann, int $cascade_min_out_epochs): boo
 
 ### Дивіться також
 
--   [fanngetcascademinoutepochs()](function.fann-get-cascade-min-out-epochs.html) - Повертає мінімальну кількість періодів
+-   [fanngetcascademinoutepochs()](function.fann-get-cascade-min-out-epochs.md) - Повертає мінімальну кількість періодів

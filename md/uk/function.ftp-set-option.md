@@ -24,7 +24,7 @@ ftp_set_option(FTP\Connection $ftp, int $option, int|bool $value): bool
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `option`
 
@@ -44,7 +44,7 @@ ftp_set_option(FTP\Connection $ftp, int $option, int|bool $value): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -59,4 +59,4 @@ ftp_set_option($ftp, FTP_TIMEOUT_SEC, 10);
 
 ### Дивіться також
 
--   [ftpgetoption()](function.ftp-get-option.html) - Отримує поточні параметри FTP-з'єднання
+-   [ftpgetoption()](function.ftp-get-option.md) - Отримує поточні параметри FTP-з'єднання

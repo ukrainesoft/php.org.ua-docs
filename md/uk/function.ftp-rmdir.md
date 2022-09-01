@@ -24,7 +24,7 @@ ftp_rmdir(FTP\Connection $ftp, string $directory): bool
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `directory`
 
@@ -38,7 +38,7 @@ ftp_rmdir(FTP\Connection $ftp, string $directory): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -69,4 +69,4 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftpmkdir()](function.ftp-mkdir.html) - створює директорію
+-   [ftpmkdir()](function.ftp-mkdir.md) - створює директорію

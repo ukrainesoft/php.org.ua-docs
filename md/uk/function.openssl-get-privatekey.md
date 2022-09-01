@@ -10,8 +10,8 @@ title: opensslgetprivatekey
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-opensslgetprivatekey - Псевдонім [opensslpkeygetprivate()](function.openssl-pkey-get-private.html)
+opensslgetprivatekey - Псевдонім [opensslpkeygetprivate()](function.openssl-pkey-get-private.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [opensslpkeygetprivate()](function.openssl-pkey-get-private.html)
+Ця функція є псевдонімом: [opensslpkeygetprivate()](function.openssl-pkey-get-private.md)

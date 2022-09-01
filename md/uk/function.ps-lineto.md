@@ -18,13 +18,13 @@ title: псlineto
 ps_lineto(resource $psdoc, float $x, float $y): bool
 ```
 
-Додає до поточного шляху пряму лінію від точки до заданих координат. Використовуйте [псmoveto()](function.ps-moveto.html), щоб встановити початкову точку лінії.
+Додає до поточного шляху пряму лінію від точки до заданих координат. Використовуйте [псmoveto()](function.ps-moveto.md), щоб встановити початкову точку лінії.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 `x`
 
@@ -69,4 +69,4 @@ ps_delete($ps);
 
 ### Дивіться також
 
--   [псmoveto()](function.ps-moveto.html) - Встановлює поточну точку
+-   [псmoveto()](function.ps-moveto.md) - Встановлює поточну точку

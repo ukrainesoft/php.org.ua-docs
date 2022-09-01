@@ -16,7 +16,7 @@ YafApplication::construct - Конструктор класу YafApplication
 
 public **YafApplication::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$config`, string `$envrion`
 
-Екземпляр [YafApplication](class.yaf-application.html)
+Екземпляр [YafApplication](class.yaf-application.md)
 
 ### Список параметрів
 
@@ -90,4 +90,4 @@ $application->bootstrap()->run();
 
 ### Дивіться також
 
--   [YafConfigIni](class.yaf-config-ini.html)
+-   [YafConfigIni](class.yaf-config-ini.md)

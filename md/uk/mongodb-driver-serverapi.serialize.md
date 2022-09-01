@@ -24,14 +24,14 @@ final public MongoDB\Driver\ServerApi::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBDriverServerApi](class.mongodb-driver-serverapi.html)
+Повертає серіалізовану виставу [MongoDBDriverServerApi](class.mongodb-driver-serverapi.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverServerApi::unserialize()](mongodb-driver-serverapi.unserialize.html) - Десеріалізує ServerApi
+-   [MongoDBDriverServerApi::unserialize()](mongodb-driver-serverapi.unserialize.md) - Десеріалізує ServerApi
 -   [serialize()](function.serialize.md) - Генерує придатне для зберігання уявлення змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

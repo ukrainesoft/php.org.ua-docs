@@ -30,4 +30,4 @@ final public MongoDB\Driver\Exception\CommandException::getResultDocument(): obj
 
 ### Дивіться також
 
--   [MongoDBDriverManager::executeCommand()](mongodb-driver-manager.executecommand.html) - Виконує команду бази даних
+-   [MongoDBDriverManager::executeCommand()](mongodb-driver-manager.executecommand.md) - Виконує команду бази даних

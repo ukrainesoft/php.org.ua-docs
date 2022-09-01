@@ -32,9 +32,9 @@ mailparse_msg_create(): resource
 
 > **Зауваження**
 > 
-> Рекомендується викликати [mailparsemsgfree()](function.mailparse-msg-free.html) для результату цієї функції, коли він більше не потрібен, щоб уникнути витоку пам'яті.
+> Рекомендується викликати [mailparsemsgfree()](function.mailparse-msg-free.md) для результату цієї функції, коли він більше не потрібен, щоб уникнути витоку пам'яті.
 
 ### Дивіться також
 
--   [mailparsemsgfree()](function.mailparse-msg-free.html) - Вивільнити MIME-ресурс
--   [mailparsemsgparsefile()](function.mailparse-msg-parse-file.html) - Розібрати файл
+-   [mailparsemsgfree()](function.mailparse-msg-free.md) - Вивільнити MIME-ресурс
+-   [mailparsemsgparsefile()](function.mailparse-msg-parse-file.md) - Розібрати файл

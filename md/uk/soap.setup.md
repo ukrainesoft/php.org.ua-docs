@@ -10,7 +10,7 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](soap.requirements.html)
--   [Установка](soap.installation.html)
--   [Налаштування під час виконання](soap.configuration.html)
--   [Типи ресурсів](soap.resources.html)
+-   [Вимоги](soap.requirements.md)
+-   [Установка](soap.installation.md)
+-   [Налаштування під час виконання](soap.configuration.md)
+-   [Типи ресурсів](soap.resources.md)

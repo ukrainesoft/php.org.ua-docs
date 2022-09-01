@@ -20,8 +20,8 @@ title: Модулі для керування процесами програм
     -   [Обумовлені константи](ev.global.constants.md)
     -   [Приклади](ev.examples.md)
     -   [Спостерігачі](ev.watchers.md)
-    -   [Watcher callbacks](ev.watcher-callbacks.html)
-    -   [Режими роботи періодичних спостерігачів](ev.periodic-modes.html)
+    -   [Watcher callbacks](ev.watcher-callbacks.md)
+    -   [Режими роботи періодичних спостерігачів](ev.periodic-modes.md)
     -   [Єв](class.ev.md) - Клас Ev
     -   [EvCheck](class.evcheck.md) - Клас EvCheck
     -   [EvChild](class.evchild.md) - Клас EvChild
@@ -63,14 +63,14 @@ title: Модулі для керування процесами програм
     -   [Установка](parallel.setup.md)
     -   [Философия](philosophy.parallel.md)
     -   [Функціональний API](functional.parallel.md)
-    -   [parallelRuntime](class.parallel-runtime.html) - Клас parallelRuntime
-    -   [parallelFuture](class.parallel-future.html) - Клас parallelFuture
-    -   [parallelChannel](class.parallel-channel.html) - Клас parallelChannel
-    -   [parallelEvents](class.parallel-events.html) - Клас parallelEvents
-    -   [parallelEventsInput](class.parallel-events-input.html) - Клас parallelEventsInput
-    -   [parallelEventsEvent](class.parallel-events-event.html) - Клас parallelEventsEvent
-    -   [parallelEventsEventType](class.parallel-events-event-type.html) - Клас parallelEventsEventType
-    -   [parallelSync](class.parallel-sync.html) - Клас parallelSync
+    -   [parallelRuntime](class.parallel-runtime.md) - Клас parallelRuntime
+    -   [parallelFuture](class.parallel-future.md) - Клас parallelFuture
+    -   [parallelChannel](class.parallel-channel.md) - Клас parallelChannel
+    -   [parallelEvents](class.parallel-events.md) - Клас parallelEvents
+    -   [parallelEventsInput](class.parallel-events-input.md) - Клас parallelEventsInput
+    -   [parallelEventsEvent](class.parallel-events-event.md) - Клас parallelEventsEvent
+    -   [parallelEventsEventType](class.parallel-events-event-type.md) - Клас parallelEventsEventType
+    -   [parallelSync](class.parallel-sync.md) - Клас parallelSync
 -   [pthreads](book.pthreads.md)
     -   [Введение](intro.pthreads.md)
     -   [Встановлення та налаштування](pthreads.setup.md)

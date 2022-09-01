@@ -10,7 +10,7 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](array.requirements.html)
--   [Установка](array.installation.html)
--   [Налаштування під час виконання](array.configuration.html)
--   [Типи ресурсів](array.resources.html)
+-   [Вимоги](array.requirements.md)
+-   [Установка](array.installation.md)
+-   [Налаштування під час виконання](array.configuration.md)
+-   [Типи ресурсів](array.resources.md)

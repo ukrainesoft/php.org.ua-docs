@@ -52,5 +52,5 @@ Array (
 
 ### Дивіться також
 
--   [streamgetfilters()](function.stream-get-filters.html) - Отримати список зареєстрованих фільтрів
--   [streamgetwrappers()](function.stream-get-wrappers.html) - Отримати список зареєстрованих потоків
+-   [streamgetfilters()](function.stream-get-filters.md) - Отримати список зареєстрованих фільтрів
+-   [streamgetwrappers()](function.stream-get-wrappers.md) - Отримати список зареєстрованих потоків

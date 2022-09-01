@@ -58,5 +58,5 @@ echo memory_get_usage() . "\n"; // 36744
 
 ### Дивіться також
 
--   [memorygetpeakusage()](function.memory-get-peak-usage.html) - Повертає пікове значення об'єму пам'яті, виділене PHP
+-   [memorygetpeakusage()](function.memory-get-peak-usage.md) - Повертає пікове значення об'єму пам'яті, виділене PHP
 -   [memorylimit](ini.core.html#ini.memory-limit)

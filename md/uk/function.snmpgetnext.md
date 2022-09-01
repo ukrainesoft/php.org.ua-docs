@@ -58,5 +58,5 @@ $nameOfSecondInterface = snmpgetnetxt('localhost', 'public', 'IF-MIB::ifName
 
 ### Дивіться також
 
--   [snmpget()](function.snmpget.html) - Отримує об'єкт SNMP
--   [snmpwalk()](function.snmpwalk.html) - Отримує всі об'єкти SNMP з агента
+-   [snmpget()](function.snmpget.md) - Отримує об'єкт SNMP
+-   [snmpwalk()](function.snmpwalk.md) - Отримує всі об'єкти SNMP з агента

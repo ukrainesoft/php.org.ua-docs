@@ -55,4 +55,4 @@ for ($i = 0; $i < $coln; $i++) {
 
 ### Дивіться також
 
--   [ibasenumfields()](function.ibase-num-fields.html) - Повертає кількість полів у результуючому наборі
+-   [ibasenumfields()](function.ibase-num-fields.md) - Повертає кількість полів у результуючому наборі

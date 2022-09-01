@@ -138,8 +138,8 @@ string(11) "Foo\Bar\Baz"
 
 ### Дивіться також
 
--   [getcalledclass()](function.get-called-class.html) - Ім'я класу, отримане за допомогою пізнього статичного зв'язування
--   [getparentclass()](function.get-parent-class.html) - Повертає ім'я батьківського класу для об'єкта чи класу
+-   [getcalledclass()](function.get-called-class.md) - Ім'я класу, отримане за допомогою пізнього статичного зв'язування
+-   [getparentclass()](function.get-parent-class.md) - Повертає ім'я батьківського класу для об'єкта чи класу
 -   [gettype()](function.gettype.md) - Повертає тип змінної
--   [getdebugtype()](function.get-debug-type.html) - Повертає ім'я типу змінної у вигляді, що підходить для налагодження
--   [ісsubclassof()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його
+-   [getdebugtype()](function.get-debug-type.md) - Повертає ім'я типу змінної у вигляді, що підходить для налагодження
+-   [ісsubclassof()](function.is-subclass-of.md) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його

@@ -24,9 +24,9 @@ public Yaf_Request_Simple::isXmlHttpRequest(): void
 
 ### Значення, що повертаються
 
-Завжди повертає false для [YafRequestSimple](class.yaf-request-simple.html)
+Завжди повертає false для [YafRequestSimple](class.yaf-request-simple.md)
 
 ### Дивіться також
 
--   [YafRequestAbstract::isXmlHTTPRequest()](yaf-request-abstract.isxmlhttprequest.html) - Визначає, чи є запит AJAX-запитом
--   [YafRequestHttp::isXmlHTTPRequest()](yaf-request-http.isxmlhttprequest.html) - Визначає, чи є запит Ajax-запитом
+-   [YafRequestAbstract::isXmlHTTPRequest()](yaf-request-abstract.isxmlhttprequest.md) - Визначає, чи є запит AJAX-запитом
+-   [YafRequestHttp::isXmlHTTPRequest()](yaf-request-http.isxmlhttprequest.md) - Визначає, чи є запит Ajax-запитом

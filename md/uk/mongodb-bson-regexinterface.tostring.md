@@ -28,4 +28,4 @@ abstract public MongoDB\BSON\RegexInterface::__toString(): string
 
 ### Дивіться також
 
--   [MongoDBBSONRegex::toString()](mongodb-bson-regex.tostring.html) - Повертає рядкову виставу Regex
+-   [MongoDBBSONRegex::toString()](mongodb-bson-regex.tostring.md) - Повертає рядкову виставу Regex

@@ -12,7 +12,7 @@ title: Інтерфейс MongoDBBSONBinaryInterface
 
 ## Вступ
 
-Цей інтерфейс реалізовано [MongoDBBSONBinary](class.mongodb-bson-binary.html), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
+Цей інтерфейс реалізовано [MongoDBBSONBinary](class.mongodb-bson-binary.md), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 
@@ -40,6 +40,6 @@ abstract public __toString(): string
 
 ## Зміст
 
--   [MongoDBBSONBinaryInterface::getData](mongodb-bson-binaryinterface.getdata.html) — Повертає дані BinaryInterface
--   [MongoDBBSONBinaryInterface::getType](mongodb-bson-binaryinterface.gettype.html) — Повертає тип BinaryInterface
--   [MongoDBBSONBinaryInterface::toString](mongodb-bson-binaryinterface.tostring.html) — Повертає дані BinaryInterface
+-   [MongoDBBSONBinaryInterface::getData](mongodb-bson-binaryinterface.getdata.md) — Повертає дані BinaryInterface
+-   [MongoDBBSONBinaryInterface::getType](mongodb-bson-binaryinterface.gettype.md) — Повертає тип BinaryInterface
+-   [MongoDBBSONBinaryInterface::toString](mongodb-bson-binaryinterface.tostring.md) — Повертає дані BinaryInterface

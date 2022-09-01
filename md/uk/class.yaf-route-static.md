@@ -12,11 +12,11 @@ title: Клас YafRouteStatic
 
 ## Вступ
 
-За замовчуванням, [YafRouter](class.yaf-router.html) містить тільки **YafRouteStatic**
+За замовчуванням, [YafRouter](class.yaf-router.md) містить тільки **YafRouteStatic**
 
 І **YafRouteStatic** спроектований таким чином, щоб покривати 80% усіх можливих потреб маршрутизації.
 
-Будь ласка ЗВЕРНІТЬ УВАГУ, що не потрібно інстанціювати **YafRouteStatic**, також не потрібно додавати його до стек [YafRouter](class.yaf-router.html), так як він є у стеку маршрутизації [YafRouter](class.yaf-router.html) за замовчуванням і завжди буде викликатись останнім.
+Будь ласка ЗВЕРНІТЬ УВАГУ, що не потрібно інстанціювати **YafRouteStatic**, також не потрібно додавати його до стек [YafRouter](class.yaf-router.html), так як він є у стеку маршрутизації [YafRouter](class.yaf-router.md) за замовчуванням і завжди буде викликатись останнім.
 
 ## Огляд класів
 
@@ -44,6 +44,6 @@ public route(Yaf_Request_Abstract $request): bool
 
 ## Зміст
 
--   [YafRouteStatic::assemble](yaf-route-static.assemble.html) - Збирає URL
--   [YafRouteStatic::match](yaf-route-static.match.html) - Призначення match
--   [YafRouteStatic::route](yaf-route-static.route.html) — Надсилає запит
+-   [YafRouteStatic::assemble](yaf-route-static.assemble.md) - Збирає URL
+-   [YafRouteStatic::match](yaf-route-static.match.md) - Призначення match
+-   [YafRouteStatic::route](yaf-route-static.route.md) — Надсилає запит

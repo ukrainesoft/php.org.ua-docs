@@ -28,4 +28,4 @@ public ReflectionFunction::getClosure(): Closure
 
 ### Значення, що повертаються
 
-Повертає [Closure](class.closure.html). Повертає **`null`** у разі виникнення помилки.
+Повертає [Closure](class.closure.md). Повертає **`null`** у разі виникнення помилки.

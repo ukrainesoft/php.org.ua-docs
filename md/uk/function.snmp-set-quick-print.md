@@ -58,4 +58,4 @@ echo "$a\n";
 
 ### Дивіться також
 
--   [snmpgetquickprint()](function.snmp-get-quick-print.html) - Отримує поточне значення Quickprint бібліотеки NET-SNMP
+-   [snmpgetquickprint()](function.snmp-get-quick-print.md) - Отримує поточне значення Quickprint бібліотеки NET-SNMP

@@ -34,7 +34,7 @@ tidy_get_html_ver(tidy $tidy): int
 
 `tidy`
 
-Об'єкт [Tidy](class.tidy.html)
+Об'єкт [Tidy](class.tidy.md)
 
 ### Значення, що повертаються
 

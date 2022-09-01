@@ -44,7 +44,7 @@ echo $foo;
 bar
 ```
 
-Якщо необхідно видалити глобальну змінну всередині функції, для цього потрібно використовувати масив [$GLOBALS](reserved.variables.globals.html)
+Якщо необхідно видалити глобальну змінну всередині функції, для цього потрібно використовувати масив [$GLOBALS](reserved.variables.globals.md)
 
 ```php
 <?php
@@ -164,7 +164,7 @@ string(6) "Felipe"
 
 ### Примітки
 
-> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [змінних функцій](functions.variable-functions.html) або [іменованих аргументів](functions.arguments.html#functions.named-arguments)
+> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [змінних функцій](functions.variable-functions.md) або [іменованих аргументів](functions.arguments.html#functions.named-arguments)
 
 > **Зауваження**
 > 
@@ -180,8 +180,8 @@ string(6) "Felipe"
 
 ### Дивіться також
 
--   [isset()](function.isset.html) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
--   [empty()](function.empty.html) - Перевіряє, чи порожня змінна
+-   [isset()](function.isset.md) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
+-   [empty()](function.empty.md) - Перевіряє, чи порожня змінна
 -   [unset()](language.oop5.overloading.html#object.unset)
--   [arraysplice()](function.array-splice.html) - Видаляє частину масиву і замінює її чимось ще
+-   [arraysplice()](function.array-splice.md) - Видаляє частину масиву і замінює її чимось ще
 -   [Приведение типа (unset)](language.types.null.html#language.types.null.casting)

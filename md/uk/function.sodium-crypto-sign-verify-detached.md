@@ -24,7 +24,7 @@ sodium_crypto_sign_verify_detached(string $signature, string $message, string $p
 
 `signature`
 
-Криптографічний підпис, отриманий за допомогою [sodiumcryptosigndetached()](function.sodium-crypto-sign-detached.html)
+Криптографічний підпис, отриманий за допомогою [sodiumcryptosigndetached()](function.sodium-crypto-sign-detached.md)
 
 `message`
 

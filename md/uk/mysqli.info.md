@@ -46,7 +46,7 @@ mysqli_info(mysqli $mysql): ?string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -110,6 +110,6 @@ Records: 150  Duplicates: 0  Warnings: 0
 
 ### Дивіться також
 
--   [mysqliaffectedrows()](mysqli.affected-rows.html) - Отримує кількість рядків, порушених попередньою операцією MySQL
--   [mysqliwarningcount()](mysqli.warning-count.html) - Повертає кількість попереджень із останнього запиту заданого підключення
--   [mysqlinumrows()](mysqli-result.num-rows.html) - Отримує кількість рядків у наборі результатів
+-   [mysqliaffectedrows()](mysqli.affected-rows.md) - Отримує кількість рядків, порушених попередньою операцією MySQL
+-   [mysqliwarningcount()](mysqli.warning-count.md) - Повертає кількість попереджень із останнього запиту заданого підключення
+-   [mysqlinumrows()](mysqli-result.num-rows.md) - Отримує кількість рядків у наборі результатів

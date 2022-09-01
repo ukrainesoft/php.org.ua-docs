@@ -38,4 +38,4 @@ pcntl_async_signals(?bool $enable = null): bool
 
 ### Дивіться також
 
--   [declare](control-structures.declare.html)
+-   [declare](control-structures.declare.md)

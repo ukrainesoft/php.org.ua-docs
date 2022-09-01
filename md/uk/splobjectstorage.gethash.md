@@ -20,7 +20,7 @@ public SplObjectStorage::getHash(object $object): string
 
 Метод обчислює унікальний ідентифікатор для об'єктів, що додаються до контейнера [SplObjectStorage](class.splobjectstorage.md)
 
-Реалізація [SplObjectStorage](class.splobjectstorage.md) повертає те саме значення, що і функція [splobjecthash()](function.spl-object-hash.html)
+Реалізація [SplObjectStorage](class.splobjectstorage.md) повертає те саме значення, що і функція [splobjecthash()](function.spl-object-hash.md)
 
 В одному контейнері ніколи не з'явиться два об'єкти з однаковими ідентифікаторами. Таким чином, за допомогою контейнера можна реалізувати безліч (колекцію значень, кожне з яких представлено в єдиному екземплярі), в якому унікальність об'єктів визначатиметься цим ідентифікатором.
 
@@ -79,4 +79,4 @@ echo $s[$p2], "\n";
 
 ### Дивіться також
 
--   [splobjecthash()](function.spl-object-hash.html) - Повертає хеш-ідентифікатор для об'єкта
+-   [splobjecthash()](function.spl-object-hash.md) - Повертає хеш-ідентифікатор для об'єкта

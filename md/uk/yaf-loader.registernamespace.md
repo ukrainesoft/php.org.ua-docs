@@ -18,7 +18,7 @@ YafLoader::registerNamespace — Реєструє простір імен шля
 public Yaf_Loader::registerNamespace(string|array $namespaces, string $path = ?): bool
 ```
 
-Реєструє простір імен шляхом пошуку, [YafLoader](class.yaf-loader.html) шукає класи в цьому просторі імен у дорозі, він також може бути налаштований за допомогою [application.library.directory.namespace](yaf.appconfig.html#configuration.yaf.library.namespace)(application.ini);
+Реєструє простір імен шляхом пошуку, [YafLoader](class.yaf-loader.md) шукає класи в цьому просторі імен у дорозі, він також може бути налаштований за допомогою [application.library.directory.namespace](yaf.appconfig.html#configuration.yaf.library.namespace)(application.ini);
 
 > **Зауваження**
 > 

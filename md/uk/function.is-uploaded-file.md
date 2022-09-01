@@ -55,6 +55,6 @@ if (is_uploaded_file($_FILES['userfile']['tmp_name'])) {
 
 ### Дивіться також
 
--   [moveuploadedfile()](function.move-uploaded-file.html) - Переміщує завантажений файл у нове місце
+-   [moveuploadedfile()](function.move-uploaded-file.md) - Переміщує завантажений файл у нове місце
 -   [FILES](reserved.variables.files.md)
--   Простий приклад використання можна знайти у розділі "[Загрузка файлов на сервер](features.file-upload.html)".
+-   Простий приклад використання можна знайти у розділі "[Загрузка файлов на сервер](features.file-upload.md)".

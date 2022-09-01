@@ -57,7 +57,7 @@ a
 
 ### Функції зі змінною кількістю аргументів, використовуючи синтаксис `...`
 
-[Функції зі змінною кількістю аргументів](functions.arguments.html#functions.variable-arg-list) тепер можна реалізовувати з використанням оператора `...` замість того, щоб покладатися на [funcgetargs()](function.func-get-args.html)
+[Функції зі змінною кількістю аргументів](functions.arguments.html#functions.variable-arg-list) тепер можна реалізовувати з використанням оператора `...` замість того, щоб покладатися на [funcgetargs()](function.func-get-args.md)
 
 ```php
 <?php
@@ -163,7 +163,7 @@ Name\Space\f
 
 ### Кодування за замовчуванням
 
-Доданий ini-параметр [defaultcharset](ini.core.html#ini.default-charset), в якому можна вказати кодування за промовчанням для використання у функціях [htmlentities()](function.htmlentities.md) [htmlentitydecode()](function.html-entity-decode.html) і [htmlspecialchars()](function.htmlspecialchars.md). Зверніть увагу, що якщо (зараз вважається застарілим) задані параметри кодування iconv та mbstring, вони матимуть перевагу перед defaultcharset для iconv та mbstring.
+Доданий ini-параметр [defaultcharset](ini.core.html#ini.default-charset), в якому можна вказати кодування за промовчанням для використання у функціях [htmlentities()](function.htmlentities.md) [htmlentitydecode()](function.html-entity-decode.md) і [htmlspecialchars()](function.htmlspecialchars.md). Зверніть увагу, що якщо (зараз вважається застарілим) задані параметри кодування iconv та mbstring, вони матимуть перевагу перед defaultcharset для iconv та mbstring.
 
 Значення цієї настройки за промовчанням дорівнює `UTF-8`
 
@@ -204,9 +204,9 @@ if (version_compare(PHP_VERSION, '5.6', '<')) {
 59
 ```
 
-### [hashequals()](function.hash-equals.html) для запобігання атакам за часом при порівнянні рядків
+### [hashequals()](function.hash-equals.md) для запобігання атакам за часом при порівнянні рядків
 
-Була додана функція [hashequals()](function.hash-equals.html) для порівняння двох рядків за постійний час. Це має допомогти уникнути атак у часі; наприклад, під час тестування хешування паролів функцією [crypt()](function.crypt.md) (за умови, що ви не можете використовувати [passwordhash()](function.password-hash.html) і [passwordverify()](function.password-verify.html), які не піддаються атакам за часом).
+Була додана функція [hashequals()](function.hash-equals.html) для порівняння двох рядків за постійний час. Це має допомогти уникнути атак у часі; наприклад, під час тестування хешування паролів функцією [crypt()](function.crypt.md) (за умови, що ви не можете використовувати [passwordhash()](function.password-hash.html) і [passwordverify()](function.password-verify.md), які не піддаються атакам за часом).
 
 ```php
 <?php
@@ -228,7 +228,7 @@ bool(false)
 
 ### `__debugInfo()`
 
-Було додано магічний метод [debugInfo()](language.oop5.magic.html#language.oop5.magic.debuginfo) для того, щоб дозволити об'єкту змінювати значення властивостей, що виводяться при використанні [vardump()](function.var-dump.html)
+Було додано магічний метод [debugInfo()](language.oop5.magic.html#language.oop5.magic.debuginfo) для того, щоб дозволити об'єкту змінювати значення властивостей, що виводяться при використанні [vardump()](function.var-dump.md)
 
 ```php
 <?php
@@ -271,4 +271,4 @@ object(C)#1 (1) {
 
 ### Підтримка асинхронності [pgsql](book.pgsql.md)
 
-Модуль [pgsql](book.pgsql.md) тепер підтримує асинхронні з'єднання та запити, тим самим дозволяючи неблокуючу взаємодію з базами даних PostgreSQL. Асинхронні з'єднання можуть бути встановлені за допомогою константи **`PGSQL_CONNECT_ASYNC`**, та нові функції [пгconnectpoll()](function.pg-connect-poll.html) [пгsocket()](function.pg-socket.html) [пгconsumeinput()](function.pg-consume-input.html) і [пгflush()](function.pg-flush.html) можуть бути використані для обробки асинхронних з'єднань та запитів.
+Модуль [pgsql](book.pgsql.md) тепер підтримує асинхронні з'єднання та запити, тим самим дозволяючи неблокуючу взаємодію з базами даних PostgreSQL. Асинхронні з'єднання можуть бути встановлені за допомогою константи **`PGSQL_CONNECT_ASYNC`**, та нові функції [пгconnectpoll()](function.pg-connect-poll.html) [пгsocket()](function.pg-socket.html) [пгconsumeinput()](function.pg-consume-input.html) і [пгflush()](function.pg-flush.md) можуть бути використані для обробки асинхронних з'єднань та запитів.

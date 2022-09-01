@@ -28,4 +28,4 @@ abstract public MongoDB\BSON\JavascriptInterface::getCode(): string
 
 ### Дивіться також
 
--   [MongoDBBSONJavascript::getCode()](mongodb-bson-javascript.getcode.html) - Повертає код JavaScript
+-   [MongoDBBSONJavascript::getCode()](mongodb-bson-javascript.getcode.md) - Повертає код JavaScript

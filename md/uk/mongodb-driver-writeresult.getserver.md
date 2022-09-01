@@ -18,7 +18,7 @@ MongoDBDriverWriteResult::getServer — Повертає сервер, пов'я
 final public MongoDB\Driver\WriteResult::getServer(): MongoDB\Driver\Server
 ```
 
-Повертає [MongoDBDriverServer](class.mongodb-driver-server.html), пов'язаний із цим результатом запису. Це сервер, який виконав [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.html), пов'язаний із цим результатом запису. Це сервер, який виконав [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md)
 
 ### Список параметрів
 
@@ -26,11 +26,11 @@ final public MongoDB\Driver\WriteResult::getServer(): MongoDB\Driver\Server
 
 ### Значення, що повертаються
 
-Повертає [MongoDBDriverServer](class.mongodb-driver-server.html) пов'язаний із цим результатом запису.
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.md) пов'язаний із цим результатом запису.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
@@ -60,4 +60,4 @@ bool(true)
 
 ### Дивіться також
 
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
+-   [MongoDBDriverServer](class.mongodb-driver-server.md)

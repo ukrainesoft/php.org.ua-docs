@@ -64,4 +64,4 @@ line
 
 ## Зміст
 
--   [YarClientException::getType](yar-client-exception.gettype.html) — Отримати тип виключення
+-   [YarClientException::getType](yar-client-exception.gettype.md) — Отримати тип виключення

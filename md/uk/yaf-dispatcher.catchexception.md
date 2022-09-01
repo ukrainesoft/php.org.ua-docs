@@ -70,5 +70,5 @@ class ErrorController extends Yaf_Controller_Abstract {
 
 ### Дивіться також
 
--   [YafDispatcher::throwException()](yaf-dispatcher.throwexception.html) - Вмикає/вимикає викидання винятків
--   [YafDispatcher::setErrorHandler()](yaf-dispatcher.seterrorhandler.html) - Встановлює обробник помилок
+-   [YafDispatcher::throwException()](yaf-dispatcher.throwexception.md) - Вмикає/вимикає викидання винятків
+-   [YafDispatcher::setErrorHandler()](yaf-dispatcher.seterrorhandler.md) - Встановлює обробник помилок

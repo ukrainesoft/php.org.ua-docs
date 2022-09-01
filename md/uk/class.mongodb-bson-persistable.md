@@ -12,9 +12,9 @@ title: Інтерфейс MongoDBBSONPersistable
 
 ## Вступ
 
-Класи можуть реалізовувати цей інтерфейс використання переваг автоматичного ODM (порівняння документів об'єкта) поведінки в драйвері. Під час серіалізації драйвер вставляє властивість pclass, що містить ім'я класу PHP, дані, що повертаються [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html). Під час десеріалізації та ж властивість pclass буде використовуватися для виведення класу PHP (незалежного від будь-якої конфігурації [типу картки](mongodb.persistence.deserialization.html#mongodb.persistence.typemaps)), яка має бути створена до виклику [MongoDBBSONUnserializable::bsonUnserialize()](mongodb-bson-unserializable.bsonunserialize.html). Дивіться [Постійні дані](mongodb.persistence.md) для отримання додаткової інформації.
+Класи можуть реалізовувати цей інтерфейс використання переваг автоматичного ODM (порівняння документів об'єкта) поведінки в драйвері. Під час серіалізації драйвер вставляє властивість pclass, що містить ім'я класу PHP, дані, що повертаються [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html). Під час десеріалізації та ж властивість pclass буде використовуватися для виведення класу PHP (незалежного від будь-якої конфігурації [типу картки](mongodb.persistence.deserialization.html#mongodb.persistence.typemaps)), яка має бути створена до виклику [MongoDBBSONUnserializable::bsonUnserialize()](mongodb-bson-unserializable.bsonunserialize.md). Дивіться [Постійні дані](mongodb.persistence.md) для отримання додаткової інформації.
 
-> **Зауваження**: Навіть якщо [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) поверне послідовний масив, використання якості pclass призведе до серіалізації об'єкта як документа BSON.
+> **Зауваження**: Навіть якщо [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) поверне послідовний масив, використання якості pclass призведе до серіалізації об'єкта як документа BSON.
 
 ## Огляд інтерфейсів
 

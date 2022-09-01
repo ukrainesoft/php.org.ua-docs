@@ -12,8 +12,8 @@ title: 'mysqli::escapestring'
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::escapestring -- mysqliescapestring - Псевдонім функції [mysqlirealescapestring()](mysqli.real-escape-string.html)
+mysqli::escapestring -- mysqliescapestring - Псевдонім функції [mysqlirealescapestring()](mysqli.real-escape-string.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [mysqlirealescapestring()](mysqli.real-escape-string.html)
+Ця функція є псевдонімом: [mysqlirealescapestring()](mysqli.real-escape-string.md)

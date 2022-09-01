@@ -102,4 +102,4 @@ Array
 ### Дивіться також
 
 -   [mysqliquery()](mysqli.query.md) - Виконує запит до бази даних
--   [mysqlireapasyncquery()](mysqli.reap-async-query.html) - Отримання результату асинхронного запиту
+-   [mysqlireapasyncquery()](mysqli.reap-async-query.md) - Отримання результату асинхронного запиту

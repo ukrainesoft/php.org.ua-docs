@@ -84,12 +84,12 @@ if (str_contains($string, 'Ленивая')) {
 
 ### Дивіться також
 
--   [strendswith()](function.str-ends-with.html) - Перевіряє, чи закінчується рядок заданим підрядком
--   [strstartswith()](function.str-starts-with.html) - Перевіряє, чи починається рядок із заданого підрядка
--   [stripos()](function.stripos.html) - Повертає позицію першого входження підрядка без урахування регістру
--   [strrpos()](function.strrpos.html) - Повертає позицію останнього входження підрядка у рядку
--   [strripos()](function.strripos.html) - Повертає позицію останнього входження підрядка без урахування регістру
--   [strstr()](function.strstr.html) - Знаходить перше входження підрядка
--   [strpbrk()](function.strpbrk.html) - Шукає у рядку будь-який символ із заданого набору
--   [substr()](function.substr.html) - Повертає підрядок
--   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [strendswith()](function.str-ends-with.md) - Перевіряє, чи закінчується рядок заданим підрядком
+-   [strstartswith()](function.str-starts-with.md) - Перевіряє, чи починається рядок із заданого підрядка
+-   [stripos()](function.stripos.md) - Повертає позицію першого входження підрядка без урахування регістру
+-   [strrpos()](function.strrpos.md) - Повертає позицію останнього входження підрядка у рядку
+-   [strripos()](function.strripos.md) - Повертає позицію останнього входження підрядка без урахування регістру
+-   [strstr()](function.strstr.md) - Знаходить перше входження підрядка
+-   [strpbrk()](function.strpbrk.md) - Шукає у рядку будь-який символ із заданого набору
+-   [substr()](function.substr.md) - Повертає підрядок
+-   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу

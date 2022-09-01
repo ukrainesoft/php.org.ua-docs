@@ -24,11 +24,11 @@ imap_close(IMAP\Connection $imap, int $flags = 0): bool
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `flags`
 
-Якщо встановлено **`CL_EXPUNGE`**, то ця функція мовчки застосує всі внесені зміни, зокрема видалить всі повідомлення, позначені для видалення. По суті зробить те саме, що і функція [imapexpunge()](function.imap-expunge.html)
+Якщо встановлено **`CL_EXPUNGE`**, то ця функція мовчки застосує всі внесені зміни, зокрема видалить всі повідомлення, позначені для видалення. По суті зробить те саме, що і функція [imapexpunge()](function.imap-expunge.md)
 
 ### Значення, що повертаються
 
@@ -38,8 +38,8 @@ imap_close(IMAP\Connection $imap, int $flags = 0): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [imapopen()](function.imap-open.html) - Відкриває потік IMAP до поштової скриньки
+-   [imapopen()](function.imap-open.md) - Відкриває потік IMAP до поштової скриньки

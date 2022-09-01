@@ -22,9 +22,9 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 `visitor`
 
-Об'єкт, що реалізує [CommonMarkInterfacesIVisitor](class.commonmark-interfaces-ivisitor.html)
+Об'єкт, що реалізує [CommonMarkInterfacesIVisitor](class.commonmark-interfaces-ivisitor.md)
 
 ### Дивіться також
 
--   [CommonMarkInterfacesIVisitor::enter](commonmark-interfaces-ivisitor.enter.html)
--   [CommonMarkInterfacesIVisitor::leave](commonmark-interfaces-ivisitor.leave.html)
+-   [CommonMarkInterfacesIVisitor::enter](commonmark-interfaces-ivisitor.enter.md)
+-   [CommonMarkInterfacesIVisitor::leave](commonmark-interfaces-ivisitor.leave.md)

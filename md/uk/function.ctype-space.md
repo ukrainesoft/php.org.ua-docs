@@ -69,6 +69,6 @@ foreach ($strings as $name => $testcase) {
 
 ### Дивіться також
 
--   [ctypecntrl()](function.ctype-cntrl.html) - Перевіряє наявність символів керування
--   [ctypegraph()](function.ctype-graph.html) - Перевіряє наявність будь-яких друкованих символів, крім пробілу
--   [ctypepunct()](function.ctype-punct.html) - Перевіряє наявність друкованих символів, які не містять пробілових або буквено-цифрових символів.
+-   [ctypecntrl()](function.ctype-cntrl.md) - Перевіряє наявність символів керування
+-   [ctypegraph()](function.ctype-graph.md) - Перевіряє наявність будь-яких друкованих символів, крім пробілу
+-   [ctypepunct()](function.ctype-punct.md) - Перевіряє наявність друкованих символів, які не містять пробілових або буквено-цифрових символів.

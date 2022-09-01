@@ -26,7 +26,7 @@ uopz_set_return(    string $class,    string $function,    mixed $va
 
 > **Зауваження**
 > 
-> Ця функція замінює [uopzrename()](function.uopz-rename.html)
+> Ця функція замінює [uopzrename()](function.uopz-rename.md)
 
 ### Список параметрів
 

@@ -66,5 +66,5 @@ win32_delete_service('dummyphp');
 
 ### Дивіться також
 
--   [win32createservice()](function.win32-create-service.html) - Створює новий запис служби у базі даних SCM
+-   [win32createservice()](function.win32-create-service.md) - Створює новий запис служби у базі даних SCM
 -   [Коди помилок Win32](win32service.constants.errors.md)

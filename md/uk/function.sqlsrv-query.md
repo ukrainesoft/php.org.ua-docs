@@ -24,7 +24,7 @@ sqlsrv_query(    resource $conn,    string $sql,    array $params = 
 
 `conn`
 
-Ресурс підключення, що повертається [sqlsrvconnect()](function.sqlsrv-connect.html)
+Ресурс підключення, що повертається [sqlsrvconnect()](function.sqlsrv-connect.md)
 
 `sql`
 
@@ -58,7 +58,7 @@ sqlsrv_query(    resource $conn,    string $sql,    array $params = 
 | Ключ | Значения | Описание |
 | --- | --- | --- |
 | QueryTimeout | Позитивне ціле значення. | Встановлює час очікування в секундах. За замовчуванням драйвер чекатиме на результати нескінченно. |
-| SendStreamParamsAtExec | **`true`** або **`false`** (за замовчуванням **`true`** | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**`true`**) або для надсилання даних потоку частинами (**`false`**). За замовчуванням встановлено значення **`true`**. Для отримання додаткової інформації дивіться [sqlsrvsendstreamdata()](function.sqlsrv-send-stream-data.html) |
+| SendStreamParamsAtExec | **`true`** або **`false`** (за замовчуванням **`true`** | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**`true`**) або для надсилання даних потоку частинами (**`false`**). За замовчуванням встановлено значення **`true`**. Для отримання додаткової інформації дивіться [sqlsrvsendstreamdata()](function.sqlsrv-send-stream-data.md) |
 | Scrollable | SQLSRVCURSORFORWARD, SQLSRVCURSORSTATIC, SQLSRVCURSORDYNAMIC, або SQLSRVCURSORKEYSET | Дивіться [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV. |
 
 ### Значення, що повертаються
@@ -90,9 +90,9 @@ if( $stmt === false ) {
 
 ### Примітки
 
-Для операторів, які ви плануєте виконати лише один раз, використовуйте **sqlsrvquery()**. Якщо ви маєте намір повторно виконати вираз з іншими параметрами, використовуйте комбінацію [sqlsrvprepare()](function.sqlsrv-prepare.html) і [sqlsrvexecute()](function.sqlsrv-execute.html)
+Для операторів, які ви плануєте виконати лише один раз, використовуйте **sqlsrvquery()**. Якщо ви маєте намір повторно виконати вираз з іншими параметрами, використовуйте комбінацію [sqlsrvprepare()](function.sqlsrv-prepare.html) і [sqlsrvexecute()](function.sqlsrv-execute.md)
 
 ### Дивіться також
 
--   [sqlsrvprepare()](function.sqlsrv-prepare.html) - готує запит до виконання
--   [sqlsrvexecute()](function.sqlsrv-execute.html) - Виконує запит підготовлений за допомогою sqlsrvprepare
+-   [sqlsrvprepare()](function.sqlsrv-prepare.md) - готує запит до виконання
+-   [sqlsrvexecute()](function.sqlsrv-execute.md) - Виконує запит підготовлений за допомогою sqlsrvprepare

@@ -18,7 +18,7 @@ title: пгfreeresult
 pg_free_result(PgSql\Result $result): bool
 ```
 
-**пгfreeresult()** звільняє пам'ять, зайняту екземпляром [PgSqlResult](class.pgsql-result.html)
+**пгfreeresult()** звільняє пам'ять, зайняту екземпляром [PgSqlResult](class.pgsql-result.md)
 
 Викликати цю функцію слід лише у разі нестачі пам'яті під час виконання скрипта. У будь-якому випадку пам'ять буде звільнено автоматично після закінчення роботи скрипту.
 
@@ -30,7 +30,7 @@ pg_free_result(PgSql\Result $result): bool
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 ### Значення, що повертаються
 
@@ -40,7 +40,7 @@ pg_free_result(PgSql\Result $result): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -68,6 +68,6 @@ pg_free_result($res);
 
 ### Дивіться також
 
--   [пгquery()](function.pg-query.html) - Виконує запит
--   [пгqueryparams()](function.pg-query-params.html) - Надсилає параметризований запит на сервер, параметри передаються окремо від тексту SQL запиту
--   [пгexecute()](function.pg-execute.html) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату
+-   [пгquery()](function.pg-query.md) - Виконує запит
+-   [пгqueryparams()](function.pg-query-params.md) - Надсилає параметризований запит на сервер, параметри передаються окремо від тексту SQL запиту
+-   [пгexecute()](function.pg-execute.md) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату

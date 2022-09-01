@@ -44,11 +44,11 @@ final public getServiceId(): ?MongoDB\BSON\ObjectId
 
 ## Зміст
 
--   [MongoDBDriverMonitoringCommandStartedEvent::getCommand](mongodb-driver-monitoring-commandstartedevent.getcommand.html) - Повертає документ команди
--   [MongoDBDriverMonitoringCommandStartedEvent::getCommandName](mongodb-driver-monitoring-commandstartedevent.getcommandname.html) - Повертає ім'я команди
--   [MongoDBDriverMonitoringCommandStartedEvent::getDatabaseName](mongodb-driver-monitoring-commandstartedevent.getdatabasename.html) — Повертає базу даних, на якій виконувалась команда
--   [MongoDBDriverMonitoringCommandStartedEvent::getOperationId](mongodb-driver-monitoring-commandstartedevent.getoperationid.html) - Повертає ідентифікатор операції команди
--   [MongoDBDriverMonitoringCommandStartedEvent::getRequestId](mongodb-driver-monitoring-commandstartedevent.getrequestid.html) - Повертає ідентифікатор запиту команди
--   [MongoDBDriverMonitoringCommandStartedEvent::getServer](mongodb-driver-monitoring-commandstartedevent.getserver.html) — Повертає сервер, на якому було виконано команду
--   [MongoDBDriverMonitoringCommandStartedEvent::getServerConnectionId](mongodb-driver-monitoring-commandstartedevent.getserverconnectionid.html) — Повертає ідентифікатор з'єднання із сервером для команди
--   [MongoDBDriverMonitoringCommandStartedEvent::getServiceId](mongodb-driver-monitoring-commandstartedevent.getserviceid.html) — Повертає ідентифікатор служби балансувальника навантаження для команди
+-   [MongoDBDriverMonitoringCommandStartedEvent::getCommand](mongodb-driver-monitoring-commandstartedevent.getcommand.md) - Повертає документ команди
+-   [MongoDBDriverMonitoringCommandStartedEvent::getCommandName](mongodb-driver-monitoring-commandstartedevent.getcommandname.md) - Повертає ім'я команди
+-   [MongoDBDriverMonitoringCommandStartedEvent::getDatabaseName](mongodb-driver-monitoring-commandstartedevent.getdatabasename.md) — Повертає базу даних, на якій виконувалась команда
+-   [MongoDBDriverMonitoringCommandStartedEvent::getOperationId](mongodb-driver-monitoring-commandstartedevent.getoperationid.md) - Повертає ідентифікатор операції команди
+-   [MongoDBDriverMonitoringCommandStartedEvent::getRequestId](mongodb-driver-monitoring-commandstartedevent.getrequestid.md) - Повертає ідентифікатор запиту команди
+-   [MongoDBDriverMonitoringCommandStartedEvent::getServer](mongodb-driver-monitoring-commandstartedevent.getserver.md) — Повертає сервер, на якому було виконано команду
+-   [MongoDBDriverMonitoringCommandStartedEvent::getServerConnectionId](mongodb-driver-monitoring-commandstartedevent.getserverconnectionid.md) — Повертає ідентифікатор з'єднання із сервером для команди
+-   [MongoDBDriverMonitoringCommandStartedEvent::getServiceId](mongodb-driver-monitoring-commandstartedevent.getserviceid.md) — Повертає ідентифікатор служби балансувальника навантаження для команди

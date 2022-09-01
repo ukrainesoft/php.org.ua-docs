@@ -26,7 +26,7 @@ ftp_site(FTP\Connection $ftp, string $command): bool
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `command`
 
@@ -40,7 +40,7 @@ ftp_site(FTP\Connection $ftp, string $command): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -66,4 +66,4 @@ if (ftp_site($ftp, 'CHMOD 0600 /home/user/privatefile')) {
 
 ### Дивіться також
 
--   [ftpraw()](function.ftp-raw.html) - Надсилає довільну команду FTP-серверу
+-   [ftpraw()](function.ftp-raw.md) - Надсилає довільну команду FTP-серверу

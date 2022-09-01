@@ -83,25 +83,25 @@ public unserialize(string $data): void
 
 ## Зміст
 
--   [ArrayObject::append](arrayobject.append.html) — Додає значення до кінця масиву
--   [ArrayObject::asort](arrayobject.asort.html) — Сортувати записи за значенням
--   [ArrayObject::construct](arrayobject.construct.html) — Створює новий об'єкт масиву
--   [ArrayObject::count](arrayobject.count.html) — Отримати кількість загальнодоступних властивостей ArrayObject
--   [ArrayObject::exchangeArray](arrayobject.exchangearray.html) - Замінити масив на інший
--   [ArrayObject::getArrayCopy](arrayobject.getarraycopy.html) - Створює копію ArrayObject
--   [ArrayObject::getFlags](arrayobject.getflags.html) — Отримує прапори поведінки
--   [ArrayObject::getIterator](arrayobject.getiterator.html) — Створити новий ітератор із екземпляра ArrayObject
--   [ArrayObject::getIteratorClass](arrayobject.getiteratorclass.html) — Отримує ім'я класу ітератора для ArrayObject
--   [ArrayObject::ksort](arrayobject.ksort.html) — Сортувати записи за ключами
--   [ArrayObject::natcasesort](arrayobject.natcasesort.html) - Сортувати масив, використовуючи реєстронезалежний алгоритм "natural order"
--   [ArrayObject::natsort](arrayobject.natsort.html) - Сортувати масив, використовуючи алгоритм "natural order"
--   [ArrayObject::offsetExists](arrayobject.offsetexists.html) — Повертає, чи вказаний індекс існує
--   [ArrayObject::offsetGet](arrayobject.offsetget.html) — Повертає значення за вказаним індексом
--   [ArrayObject::offsetSet](arrayobject.offsetset.html) — Встановлює нове значення за вказаним індексом
--   [ArrayObject::offsetUnset](arrayobject.offsetunset.html) — Видаляє значення за вказаним індексом
--   [ArrayObject::serialize](arrayobject.serialize.html) - Серіалізувати ArrayObject
--   [ArrayObject::setFlags](arrayobject.setflags.html) - Встановлює прапори поведінки
--   [ArrayObject::setIteratorClass](arrayobject.setiteratorclass.html) — Встановлює ім'я класу ітератора ArrayObject
--   [ArrayObject::uasort](arrayobject.uasort.html) — Сортувати записи, використовуючи функцію користувача для порівняння елементів і зберігаючи при цьому зв'язок ключ/значення
--   [ArrayObject::uksort](arrayobject.uksort.html) — Сортувати масив за ключами, використовуючи функцію користувача для порівняння
--   [ArrayObject::unserialize](arrayobject.unserialize.html) - Десеріалізувати ArrayObject
+-   [ArrayObject::append](arrayobject.append.md) — Додає значення до кінця масиву
+-   [ArrayObject::asort](arrayobject.asort.md) — Сортувати записи за значенням
+-   [ArrayObject::construct](arrayobject.construct.md) — Створює новий об'єкт масиву
+-   [ArrayObject::count](arrayobject.count.md) — Отримати кількість загальнодоступних властивостей ArrayObject
+-   [ArrayObject::exchangeArray](arrayobject.exchangearray.md) - Замінити масив на інший
+-   [ArrayObject::getArrayCopy](arrayobject.getarraycopy.md) - Створює копію ArrayObject
+-   [ArrayObject::getFlags](arrayobject.getflags.md) — Отримує прапори поведінки
+-   [ArrayObject::getIterator](arrayobject.getiterator.md) — Створити новий ітератор із екземпляра ArrayObject
+-   [ArrayObject::getIteratorClass](arrayobject.getiteratorclass.md) — Отримує ім'я класу ітератора для ArrayObject
+-   [ArrayObject::ksort](arrayobject.ksort.md) — Сортувати записи за ключами
+-   [ArrayObject::natcasesort](arrayobject.natcasesort.md) - Сортувати масив, використовуючи реєстронезалежний алгоритм "natural order"
+-   [ArrayObject::natsort](arrayobject.natsort.md) - Сортувати масив, використовуючи алгоритм "natural order"
+-   [ArrayObject::offsetExists](arrayobject.offsetexists.md) — Повертає, чи вказаний індекс існує
+-   [ArrayObject::offsetGet](arrayobject.offsetget.md) — Повертає значення за вказаним індексом
+-   [ArrayObject::offsetSet](arrayobject.offsetset.md) — Встановлює нове значення за вказаним індексом
+-   [ArrayObject::offsetUnset](arrayobject.offsetunset.md) — Видаляє значення за вказаним індексом
+-   [ArrayObject::serialize](arrayobject.serialize.md) - Серіалізувати ArrayObject
+-   [ArrayObject::setFlags](arrayobject.setflags.md) - Встановлює прапори поведінки
+-   [ArrayObject::setIteratorClass](arrayobject.setiteratorclass.md) — Встановлює ім'я класу ітератора ArrayObject
+-   [ArrayObject::uasort](arrayobject.uasort.md) — Сортувати записи, використовуючи функцію користувача для порівняння елементів і зберігаючи при цьому зв'язок ключ/значення
+-   [ArrayObject::uksort](arrayobject.uksort.md) — Сортувати масив за ключами, використовуючи функцію користувача для порівняння
+-   [ArrayObject::unserialize](arrayobject.unserialize.md) - Десеріалізувати ArrayObject

@@ -22,7 +22,7 @@ mcryptmoduleopen — Відкриває модуль шифрування за �
 mcrypt_module_open(    string $algorithm,    string $algorithm_directory,    string $mode,    string $mode_directory): resource
 ```
 
-Відкриває модуль шифрування з використанням вказаних алгоритмів та режимів. Ім'я алгоритму задається його ім'ям, наприклад `"twofish"`, або за допомогою константи **`MCRYPT_ciphername`**. Закрити модуль можна за допомогою функції [mcryptmoduleclose()](function.mcrypt-module-close.html)
+Відкриває модуль шифрування з використанням вказаних алгоритмів та режимів. Ім'я алгоритму задається його ім'ям, наприклад `"twofish"`, або за допомогою константи **`MCRYPT_ciphername`**. Закрити модуль можна за допомогою функції [mcryptmoduleclose()](function.mcrypt-module-close.md)
 
 ### Список параметрів
 
@@ -102,8 +102,8 @@ mcrypt_module_open(    string $algorithm,    string $algorithm_directory
 
 ### Дивіться також
 
--   [mcryptmoduleclose()](function.mcrypt-module-close.html) - Закриває модуль mcrypt
--   [mcryptgeneric()](function.mcrypt-generic.html) - Функція шифрує дані
--   [mdecryptgeneric()](function.mdecrypt-generic.html) - Дешифрування даних
--   [mcryptgenericinit()](function.mcrypt-generic-init.html) - Функція ініціалізує всі буфери, необхідні для шифрування
--   [mcryptgenericdeinit()](function.mcrypt-generic-deinit.html) - Ця функція деініціалізує модуль шифрування
+-   [mcryptmoduleclose()](function.mcrypt-module-close.md) - Закриває модуль mcrypt
+-   [mcryptgeneric()](function.mcrypt-generic.md) - Функція шифрує дані
+-   [mdecryptgeneric()](function.mdecrypt-generic.md) - Дешифрування даних
+-   [mcryptgenericinit()](function.mcrypt-generic-init.md) - Функція ініціалізує всі буфери, необхідні для шифрування
+-   [mcryptgenericdeinit()](function.mcrypt-generic-deinit.md) - Ця функція деініціалізує модуль шифрування

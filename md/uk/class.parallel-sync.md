@@ -50,9 +50,9 @@ public __invoke(callable $critical)
 
 ## Зміст
 
--   [parallelSync::construct](parallel-sync.construct.html) - Конструктор класу
--   [parallelSync::get](parallel-sync.get.html) - Доступ
--   [parallelSync::set](parallel-sync.set.html) - Доступ
--   [parallelSync::wait](parallel-sync.wait.html) - Синхронізація
--   [parallelSync::notify](parallel-sync.notify.html) - Синхронізація
--   [parallelSync::invoke](parallel-sync.invoke.html) - Синхронізація
+-   [parallelSync::construct](parallel-sync.construct.md) - Конструктор класу
+-   [parallelSync::get](parallel-sync.get.md) - Доступ
+-   [parallelSync::set](parallel-sync.set.md) - Доступ
+-   [parallelSync::wait](parallel-sync.wait.md) - Синхронізація
+-   [parallelSync::notify](parallel-sync.notify.md) - Синхронізація
+-   [parallelSync::invoke](parallel-sync.invoke.md) - Синхронізація

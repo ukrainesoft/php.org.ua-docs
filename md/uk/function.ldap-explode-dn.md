@@ -18,7 +18,7 @@ ldapexplodedn — Розділити DN на його складові
 ldap_explode_dn(string $dn, int $with_attrib): array|false
 ```
 
-Поділяє DN, повернутий функцією [ldapgetdn()](function.ldap-get-dn.html)і розбиває його на складові. Кожна частина відома як відносне ім'я або RDN.
+Поділяє DN, повернутий функцією [ldapgetdn()](function.ldap-get-dn.md)і розбиває його на складові. Кожна частина відома як відносне ім'я або RDN.
 
 ### Список параметрів
 

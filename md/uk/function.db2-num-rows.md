@@ -22,7 +22,7 @@ db2_num_rows(resource $stmt): int
 
 Щоб визначити кількість рядків, які буде повернуто оператором SELECT, введіть SELECT COUNT() з тими ж параметрами, що і передбачуваний оператор SELECT та отримайте значення.
 
-Якщо логіка вашої програми перевіряє кількість рядків, що повертаються оператором SELECT та гілок, якщо кількість рядків дорівнює 0, розгляньте можливість зміни вашої програми, щоб спробувати повернути перший рядок однієї з функцій [db2fetchassoc()](function.db2-fetch-assoc.html) [db2fetchboth()](function.db2-fetch-both.html) [db2fetcharray()](function.db2-fetch-array.html) або [db2fetchrow()](function.db2-fetch-row.html) і переходьте, якщо функція вибірки повертає **`false`**
+Якщо логіка вашої програми перевіряє кількість рядків, що повертаються оператором SELECT та гілок, якщо кількість рядків дорівнює 0, розгляньте можливість зміни вашої програми, щоб спробувати повернути перший рядок однієї з функцій [db2fetchassoc()](function.db2-fetch-assoc.html) [db2fetchboth()](function.db2-fetch-both.html) [db2fetcharray()](function.db2-fetch-array.html) або [db2fetchrow()](function.db2-fetch-row.md) і переходьте, якщо функція вибірки повертає **`false`**
 
 > **Зауваження**
 > 

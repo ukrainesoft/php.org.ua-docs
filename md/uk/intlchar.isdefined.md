@@ -58,9 +58,9 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isdigit()](intlchar.isdigit.html) - Перевірити, чи є символ цифрою
--   [IntlChar::isalpha()](intlchar.isalpha.html) - Перевірити, чи є символ літерою
--   [IntlChar::isalnum()](intlchar.isalnum.html) - Перевірити, чи є символ буквою чи цифрою
--   [IntlChar::isupper()](intlchar.isupper.html) - Перевірити, чи входить символ у категорію "Lu" (літера у верхньому регістрі)
--   [IntlChar::islower()](intlchar.islower.html) - Перевірити, чи в нижньому регістрі символ
--   [IntlChar::istitle()](intlchar.istitle.html) - Перевірити, чи символ є титульним (Titlecase)
+-   [IntlChar::isdigit()](intlchar.isdigit.md) - Перевірити, чи є символ цифрою
+-   [IntlChar::isalpha()](intlchar.isalpha.md) - Перевірити, чи є символ літерою
+-   [IntlChar::isalnum()](intlchar.isalnum.md) - Перевірити, чи є символ буквою чи цифрою
+-   [IntlChar::isupper()](intlchar.isupper.md) - Перевірити, чи входить символ у категорію "Lu" (літера у верхньому регістрі)
+-   [IntlChar::islower()](intlchar.islower.md) - Перевірити, чи в нижньому регістрі символ
+-   [IntlChar::istitle()](intlchar.istitle.md) - Перевірити, чи символ є титульним (Titlecase)

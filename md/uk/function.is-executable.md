@@ -64,5 +64,5 @@ if (is_executable($file)) {
 
 ### Дивіться також
 
--   [ісfile()](function.is-file.html) - Визначає, чи файл є звичайним файлом
--   [ісlink()](function.is-link.html) - Визначає, чи є файл символічним посиланням
+-   [ісfile()](function.is-file.md) - Визначає, чи файл є звичайним файлом
+-   [ісlink()](function.is-link.md) - Визначає, чи є файл символічним посиланням

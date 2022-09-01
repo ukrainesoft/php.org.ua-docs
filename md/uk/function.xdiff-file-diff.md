@@ -65,8 +65,8 @@ xdiff_file_diff($old_version, $new_version, 'my_script.diff', 2);
 
 > **Зауваження**
 > 
-> З бінарними даними ця функція працює погано. Для бінарних патчів використовуйте [xdifffilebdiff()](function.xdiff-file-bdiff.html)[xdifffilerabdiff()](function.xdiff-file-rabdiff.html)
+> З бінарними даними ця функція працює погано. Для бінарних патчів використовуйте [xdifffilebdiff()](function.xdiff-file-bdiff.html)[xdifffilerabdiff()](function.xdiff-file-rabdiff.md)
 
 ### Дивіться також
 
--   [xdifffilepatch()](function.xdiff-file-patch.html) - Застосування уніфікованого патчу до файлу
+-   [xdifffilepatch()](function.xdiff-file-patch.md) - Застосування уніфікованого патчу до файлу

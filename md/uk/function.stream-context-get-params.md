@@ -60,5 +60,5 @@ array(2) {
 
 ### Дивіться також
 
--   [streamcontextsetoption()](function.stream-context-set-option.html) - Встановлює опцію для потоку/обгортки/контексту
--   [streamcontextsetparams()](function.stream-context-set-params.html) - Встановлює параметри потоку/обгортки/контексту
+-   [streamcontextsetoption()](function.stream-context-set-option.md) - Встановлює опцію для потоку/обгортки/контексту
+-   [streamcontextsetparams()](function.stream-context-set-params.md) - Встановлює параметри потоку/обгортки/контексту

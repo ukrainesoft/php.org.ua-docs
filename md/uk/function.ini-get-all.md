@@ -34,7 +34,7 @@ ini_get_all(?string $extension = null, bool $details = true): array|false
 
 Повертає асоціативний масив з іменами директив як ключі. Повертає **`false`** і викликає помилку рівня **`E_WARNING`**, якщо `extension` не існує.
 
-Якщо `details` дорівнює **`true`** (за замовчуванням), у масиві будуть утримуватися `global_value` (значення налаштування php.ini), `local_value` (наприклад, задане за допомогою [iniset()](function.ini-set.html) або .htaccess) та `access` (рівень доступу).
+Якщо `details` дорівнює **`true`** (за замовчуванням), у масиві будуть утримуватися `global_value` (значення налаштування php.ini), `local_value` (наприклад, задане за допомогою [iniset()](function.ini-set.md) або .htaccess) та `access` (рівень доступу).
 
 Якщо `details` дорівнює **`false`**, значенням масиву буде відповідне поточне налаштування.
 
@@ -130,9 +130,9 @@ Array
 ### Дивіться також
 
 -   [Як змінити налаштування конфігурації](configuration.changes.md)
--   [iniget()](function.ini-get.html) - Отримує значення налаштування конфігурації
--   [inirestore()](function.ini-restore.html) - Відновлює налаштування конфігурації.
--   [iniset()](function.ini-set.html) - Встановлює налаштування конфігурації
--   [getloadedextensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
+-   [iniget()](function.ini-get.md) - Отримує значення налаштування конфігурації
+-   [inirestore()](function.ini-restore.md) - Відновлює налаштування конфігурації.
+-   [iniset()](function.ini-set.md) - Встановлює налаштування конфігурації
+-   [getloadedextensions()](function.get-loaded-extensions.md) - Повертає масив імен усіх скомпілованих та завантажених модулів
 -   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP
 -   [ReflectionExtension::getINIEntries()](reflectionextension.getinientries.md) - Отримання ini-налаштувань модуля

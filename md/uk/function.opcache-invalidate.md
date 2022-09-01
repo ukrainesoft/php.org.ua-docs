@@ -36,5 +36,5 @@ opcache_invalidate(string $filename, bool $force = false): bool
 
 ### Дивіться також
 
--   [opcachecompilefile()](function.opcache-compile-file.html) - Скомпілювати та закешувати, але не виконувати скрипт PHP
--   [opcachereset()](function.opcache-reset.html) - скидає вміст кешу опкодів
+-   [opcachecompilefile()](function.opcache-compile-file.md) - Скомпілювати та закешувати, але не виконувати скрипт PHP
+-   [opcachereset()](function.opcache-reset.md) - скидає вміст кешу опкодів

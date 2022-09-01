@@ -10,4 +10,4 @@ title: Приклади
 
 ## Зміст
 
--   [Оглядовий приклад модуля MySQL](mysql.examples-basic.html)
+-   [Оглядовий приклад модуля MySQL](mysql.examples-basic.md)

@@ -22,11 +22,11 @@ public static DateTimeImmutable::createFromInterface(DateTimeInterface $object):
 
 `object`
 
-Об'єкт, що реалізує інтерфейс [DateTimeInterface](class.datetimeinterface.html), який необхідно конвертувати на іммутабельну версію. Сам об'єкт не змінюється. Натомість повертається новий об'єкт [DateTimeImmutable](class.datetimeimmutable.html) з тими самими значеннями дати, часу та часового поясу.
+Об'єкт, що реалізує інтерфейс [DateTimeInterface](class.datetimeinterface.html), який необхідно конвертувати на іммутабельну версію. Сам об'єкт не змінюється. Натомість повертається новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) з тими самими значеннями дати, часу та часового поясу.
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.html)
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md)
 
 ### Приклади
 

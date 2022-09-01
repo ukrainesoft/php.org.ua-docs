@@ -34,7 +34,7 @@ mysqli_fetch_field_direct(mysqli_result $result, int $index): object|false
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 `index`
 
@@ -140,6 +140,6 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqlinumfields()](mysqli-result.field-count.html) - Отримує кількість полів у наборі результатів
--   [mysqlifetchfield()](mysqli-result.fetch-field.html) - Повертає наступне поле результуючого набору
--   [mysqlifetchfields()](mysqli-result.fetch-fields.html) - Повертає масив об'єктів, що становлять поля результуючого набору
+-   [mysqlinumfields()](mysqli-result.field-count.md) - Отримує кількість полів у наборі результатів
+-   [mysqlifetchfield()](mysqli-result.fetch-field.md) - Повертає наступне поле результуючого набору
+-   [mysqlifetchfields()](mysqli-result.fetch-fields.md) - Повертає масив об'єктів, що становлять поля результуючого набору

@@ -32,5 +32,5 @@ ibase_affected_rows(resource $link_identifier = ?): int
 
 ### Дивіться також
 
--   [ibasequery()](function.ibase-query.html) - Виконує запит до бази даних InterBase
--   [ibaseexecute()](function.ibase-execute.html) - Виконує попередньо підготовлений запит
+-   [ibasequery()](function.ibase-query.md) - Виконує запит до бази даних InterBase
+-   [ibaseexecute()](function.ibase-execute.md) - Виконує попередньо підготовлений запит

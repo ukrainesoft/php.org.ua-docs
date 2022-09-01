@@ -16,9 +16,9 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 Докладніше про те, як помилки працюють у PHP 7, можна знайти на сторінці [ошибки PHP 7](language.errors.php7.md). Це керівництво лише перераховує зміни, які можуть призвести до зворотної несумісності.
 
-#### [setexceptionhandler()](function.set-exception-handler.html) більше не гарантує отримання об'єкта класу [Exception](class.exception.md)
+#### [setexceptionhandler()](function.set-exception-handler.md) більше не гарантує отримання об'єкта класу [Exception](class.exception.md)
 
-Код, що реалізує реєстрацію обробника винятків за допомогою [setexceptionhandler()](function.set-exception-handler.html), використовуючи декларацію типу [Exception](class.exception.md), викличе фатальну помилку, якщо буде викинуто виняток [Error](class.error.md)
+Код, що реалізує реєстрацію обробника винятків за допомогою [setexceptionhandler()](function.set-exception-handler.md), використовуючи декларацію типу [Exception](class.exception.md), викличе фатальну помилку, якщо буде викинуто виняток [Error](class.error.md)
 
 Якщо потрібна робота оброблювача в PHP 5 і 7, ви повинні прибрати оголошення класу з оброблювача. Якщо код передбачається використовувати тільки в PHP 7, то можна просто змінити тип з [Exception](class.exception.md) на [Throwable](class.throwable.md)
 
@@ -150,7 +150,7 @@ list($x, list(), $y) = $a;
 
 ##### [list()](function.list.md) не може розкривати рядки
 
-[list()](function.list.md) більше не може розкривати рядки. Використовуйте [strsplit()](function.str-split.html)
+[list()](function.list.md) більше не може розкривати рядки. Використовуйте [strsplit()](function.str-split.md)
 
 #### Змінено порядок масиву при автоматичному створенні через присвоєння за посиланням
 
@@ -214,13 +214,13 @@ squareArray((getArray()));
 Notice: Only variables should be passed by reference in /tmp/test.php on line 13
 ```
 
-### Зміни [foreach](control-structures.foreach.html)
+### Зміни [foreach](control-structures.foreach.md)
 
-Невеликі зміни були внесені до поведінки керуючої структури [foreach](control-structures.foreach.html). Основна зміна стосується модифікації масиву, що ітерується, і обробки його внутрішнього покажчика.
+Невеликі зміни були внесені до поведінки керуючої структури [foreach](control-structures.foreach.md). Основна зміна стосується модифікації масиву, що ітерується, і обробки його внутрішнього покажчика.
 
-#### [foreach](control-structures.foreach.html) більше не змінює внутрішній покажчик масиву
+#### [foreach](control-structures.foreach.md) більше не змінює внутрішній покажчик масиву
 
-До PHP 7 в процесі ітерації масиву [foreach](control-structures.foreach.html), його внутрішній покажчик змінювався. У прикладі нижче показано, що ця поведінка змінена:
+До PHP 7 в процесі ітерації масиву [foreach](control-structures.foreach.md), його внутрішній покажчик змінювався. У прикладі нижче показано, що ця поведінка змінена:
 
 ```php
 <?php
@@ -247,13 +247,13 @@ int(0)
 int(0)
 ```
 
-#### [foreach](control-structures.foreach.html) за значеннями оперує копією масиву
+#### [foreach](control-structures.foreach.md) за значеннями оперує копією масиву
 
-Якщо [foreach](control-structures.foreach.html) використовується для стандартного перебору за значенням, він оперує копією масиву, а чи не самим масивом. Це означає, що зміни внесені в масив усередині циклу не торкнуться значення, що перебираються.
+Якщо [foreach](control-structures.foreach.md) використовується для стандартного перебору за значенням, він оперує копією масиву, а чи не самим масивом. Це означає, що зміни внесені в масив усередині циклу не торкнуться значення, що перебираються.
 
-#### Для [foreach](control-structures.foreach.html) за посиланням покращили поведінку при ітерації
+#### Для [foreach](control-structures.foreach.md) за посиланням покращили поведінку при ітерації
 
-Коли [foreach](control-structures.foreach.html) використовується для перебору за посиланням, він краще відстежуватиме зміни, що вносяться в масив у процесі ітерації. Наприклад, додавання елементів до маси, що ітерується, призведе до того, що ці нові елементи потраплять у перебір:
+Коли [foreach](control-structures.foreach.md) використовується для перебору за посиланням, він краще відстежуватиме зміни, що вносяться в масив у процесі ітерації. Наприклад, додавання елементів до маси, що ітерується, призведе до того, що ці нові елементи потраплять у перебір:
 
 ```php
 <?php
@@ -389,7 +389,7 @@ Notice: A non well formed numeric value encountered in /tmp/test.php on line 5
 string(3) "foo"
 ```
 
-Використовуйте функцію [filtervar()](function.filter-var.html) для перевірки рядка на утримання шістнадцяткового числа та перетворення цього рядка до значення типу int:
+Використовуйте функцію [filtervar()](function.filter-var.md) для перевірки рядка на утримання шістнадцяткового числа та перетворення цього рядка до значення типу int:
 
 ```php
 <?php
@@ -410,7 +410,7 @@ var_dump($int); // int(65535)
 
 #### **callusermethod()** і **calluserметодarray()**
 
-Функції, оголошені застарілими у PHP 4.1.0 на користь [calluserfunc()](function.call-user-func.html) і [calluserfuncarray()](function.call-user-func-array.html). Можливо, вам також буде цікаво розглянути можливість [звернення до функцій через змінні](functions.variable-functions.html) та/або оператор[](functions.arguments.html#functions.variable-arg-list)
+Функції, оголошені застарілими у PHP 4.1.0 на користь [calluserfunc()](function.call-user-func.html) і [calluserfuncarray()](function.call-user-func-array.html). Можливо, вам також буде цікаво розглянути можливість [звернення до функцій через змінні](functions.variable-functions.md) та/або оператор[](functions.arguments.html#functions.variable-arg-list)
 
 #### Усі функції ereg
 
@@ -418,9 +418,9 @@ var_dump($int); // int(65535)
 
 #### Псевдоніми [mcrypt](book.mcrypt.md)
 
-Застаріла функція **mcryptgenericend()** була видалена на користь функції [mcryptgenericdeinit()](function.mcrypt-generic-deinit.html)
+Застаріла функція **mcryptgenericend()** була видалена на користь функції [mcryptgenericdeinit()](function.mcrypt-generic-deinit.md)
 
-Крім цього, застарілі функції **mcryptecb()** **mcryptcbc()** **mcryptcfb()** і **mcryptofb()** були видалені на користь використання [mcryptdecrypt()](function.mcrypt-decrypt.html) з відповідною константою **`MCRYPT_MODE_*`**
+Крім цього, застарілі функції **mcryptecb()** **mcryptcbc()** **mcryptcfb()** і **mcryptofb()** були видалені на користь використання [mcryptdecrypt()](function.mcrypt-decrypt.md) з відповідною константою **`MCRYPT_MODE_*`**
 
 #### Усі функції модуля mysql
 
@@ -430,8 +430,8 @@ var_dump($int); // int(65535)
 
 Усі функції `ext/mssql` були вилучені.
 
--   [PDOSQLSRV](ref.pdo-sqlsrv.html)
--   [PDOODBC](ref.pdo-odbc.html)
+-   [PDOSQLSRV](ref.pdo-sqlsrv.md)
+-   [PDOODBC](ref.pdo-odbc.md)
 -   [SQLSRV](book.sqlsrv.md)
 -   [Unified ODBC API](book.uodbc.md)
 
@@ -445,7 +445,7 @@ var_dump($int); // int(65535)
 
 #### **setsocketblocking()**
 
-Застарілий псевдонім **setsocketblocking()** був видалений на користь [streamsetblocking()](function.stream-set-blocking.html)
+Застарілий псевдонім **setsocketblocking()** був видалений на користь [streamsetblocking()](function.stream-set-blocking.md)
 
 #### [dl()](function.dl.md) у PHP-FPM
 
@@ -606,7 +606,7 @@ function foo($a, $b, $unused, $unused) {
 
 #### Функції, що працюють із аргументами, тепер повертають їх *поточні* значення
 
-**funcgetarg()** [funcgetargs()](function.func-get-args.html) [debugbacktrace()](function.debug-backtrace.html) і трасування винятків повертають не вихідні передані значення, а поточні значення, які можуть бути змінені.
+**funcgetarg()** [funcgetargs()](function.func-get-args.html) [debugbacktrace()](function.debug-backtrace.md) і трасування винятків повертають не вихідні передані значення, а поточні значення, які можуть бути змінені.
 
 ```php
 <?php
@@ -650,7 +650,7 @@ $HTTPRAWPOSTDATA більше недоступне. Замість нього в
 
 #### Заборонені коментарі `#` в INI-файлах
 
-Підтримка префіксу коментаря `#` в INI-файлах видалено. Використовуйте префікс `;` замість нього. Ця зміна стосується як php.ini, так і файлів, що обробляються функціями [parseinifile()](function.parse-ini-file.html) і [parseinistring()](function.parse-ini-string.html)
+Підтримка префіксу коментаря `#` в INI-файлах видалено. Використовуйте префікс `;` замість нього. Ця зміна стосується як php.ini, так і файлів, що обробляються функціями [parseinifile()](function.parse-ini-file.html) і [parseinistring()](function.parse-ini-string.md)
 
 #### Модуль JSON замінено на JSOND
 
@@ -678,7 +678,7 @@ $HTTPRAWPOSTDATA більше недоступне. Замість нього в
 
 #### Mhash більше не є модулем
 
-Модуль Mhash повністю інтегрований у модуль [Hash](book.hash.md). Таким чином, тепер не можна визначити доступність підтримки Mhash за допомогою функції [extensionloaded()](function.extension-loaded.html); замість неї використовуйте [functionexists()](function.function-exists.html). Крім того, Mhash більше не виводитиме за допомогою [getloadedextensions()](function.get-loaded-extensions.html) та подібних функцій.
+Модуль Mhash повністю інтегрований у модуль [Hash](book.hash.md). Таким чином, тепер не можна визначити доступність підтримки Mhash за допомогою функції [extensionloaded()](function.extension-loaded.html); замість неї використовуйте [functionexists()](function.function-exists.html). Крім того, Mhash більше не виводитиме за допомогою [getloadedextensions()](function.get-loaded-extensions.md) та подібних функцій.
 
 #### declare(ticks)
 

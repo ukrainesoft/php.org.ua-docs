@@ -42,7 +42,7 @@ public getVersion(): string
 
 ## Зміст
 
--   [wkhtmltoxPDFConverter::add](wkhtmltox-pdf-converter.add.html) — Додавання об'єкта для перетворення
--   [wkhtmltoxPDFConverter::construct](wkhtmltox-pdf-converter.construct.html) — Створити новий PDF-конвертер
--   [wkhtmltoxPDFConverter::convert](wkhtmltox-pdf-converter.convert.html) — Виконати перетворення PDF
--   [wkhtmltoxPDFConverter::getVersion](wkhtmltox-pdf-converter.getversion.html) — Визначити версію конвертера
+-   [wkhtmltoxPDFConverter::add](wkhtmltox-pdf-converter.add.md) — Додавання об'єкта для перетворення
+-   [wkhtmltoxPDFConverter::construct](wkhtmltox-pdf-converter.construct.md) — Створити новий PDF-конвертер
+-   [wkhtmltoxPDFConverter::convert](wkhtmltox-pdf-converter.convert.md) — Виконати перетворення PDF
+-   [wkhtmltoxPDFConverter::getVersion](wkhtmltox-pdf-converter.getversion.md) — Визначити версію конвертера

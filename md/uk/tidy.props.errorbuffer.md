@@ -63,6 +63,6 @@ line 1 column 1 - Warning: inserting missing 'title' element
 
 ### Дивіться також
 
--   [tidyaccesscount()](function.tidy-access-count.html) - Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі
--   [tidyerrorcount()](function.tidy-error-count.html) - Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
--   [tidywarningcount()](function.tidy-warning-count.html) - Повертає число Tidy-попереджень, зустрінуті у зазначеному документі
+-   [tidyaccesscount()](function.tidy-access-count.md) - Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі
+-   [tidyerrorcount()](function.tidy-error-count.md) - Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
+-   [tidywarningcount()](function.tidy-warning-count.md) - Повертає число Tidy-попереджень, зустрінуті у зазначеному документі

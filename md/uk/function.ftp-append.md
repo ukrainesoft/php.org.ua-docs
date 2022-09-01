@@ -26,7 +26,7 @@ ftp_append(    FTP\Connection $ftp,    string $remote_filename,    s
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `remote_filename`
 
@@ -42,4 +42,4 @@ ftp_append(    FTP\Connection $ftp,    string $remote_filename,    s
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |

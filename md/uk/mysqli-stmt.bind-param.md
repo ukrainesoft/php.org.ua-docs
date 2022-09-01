@@ -28,21 +28,21 @@ public mysqli_stmt::bind_param(string $types, mixed &$var, mixed &...$vars): boo
 mysqli_stmt_bind_param(    mysqli_stmt $statement,    string $types,    mixed &$var,    mixed &...$vars): bool
 ```
 
-Прив'язує змінні до міток параметрів у SQL-вираженні, яке було підготовлене функцією [mysqliprepare()](mysqli.prepare.html) або [mysqlistmtprepare()](mysqli-stmt.prepare.html)
+Прив'язує змінні до міток параметрів у SQL-вираженні, яке було підготовлене функцією [mysqliprepare()](mysqli.prepare.html) або [mysqlistmtprepare()](mysqli-stmt.prepare.md)
 
 > **Зауваження**
 > 
-> Якщо розмір даних змінної перевищує максимально допустимий розмір пакета (maxallowedpacket), необхідно задати значення `b` параметром `types` та використовувати функцію [mysqlistmtsendlongdata()](mysqli-stmt.send-long-data.html), яка передаватиме дані пакетами.
+> Якщо розмір даних змінної перевищує максимально допустимий розмір пакета (maxallowedpacket), необхідно задати значення `b` параметром `types` та використовувати функцію [mysqlistmtsendlongdata()](mysqli-stmt.send-long-data.md), яка передаватиме дані пакетами.
 
 > **Зауваження**
 > 
-> При використанні **mysqlistmtbindparam()** спільно з [calluserfuncarray()](function.call-user-func-array.html) необхідно дотримуватися особливої ​​обережності. Потрібно брати до уваги, що **mysqlistmtbindparam()** приймає як параметри лише посилання на значення, у той час як [calluserfuncarray()](function.call-user-func-array.html) приймає перелік параметрів, які можуть передаватися як за посиланням, так і за значенням.
+> При використанні **mysqlistmtbindparam()** спільно з [calluserfuncarray()](function.call-user-func-array.html) необхідно дотримуватися особливої ​​обережності. Потрібно брати до уваги, що **mysqlistmtbindparam()** приймає як параметри лише посилання на значення, у той час як [calluserfuncarray()](function.call-user-func-array.md) приймає перелік параметрів, які можуть передаватися як за посиланням, так і за значенням.
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 `types`
 
@@ -155,10 +155,10 @@ printf("найдено строк: %d.\n", $stmt->num_rows());
 
 ### Дивіться також
 
--   [mysqlistmtbindresult()](mysqli-stmt.bind-result.html) - Прив'язка змінних до підготовленого запиту для розміщення результату
--   [mysqlistmtexecute()](mysqli-stmt.execute.html) - Виконує підготовлене затвердження
--   [mysqlistmtfetch()](mysqli-stmt.fetch.html) - пов'язує результати підготовленого виразу зі змінними
--   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
--   [mysqlistmtsendlongdata()](mysqli-stmt.send-long-data.html) - Відправлення даних блоками
--   [mysqlistmterrno()](mysqli-stmt.errno.html) - Повертає код помилки виконання останнього запиту
--   [mysqlistmterror()](mysqli-stmt.error.html) - Повертає рядок із поясненням останньої помилки під час виконання запиту
+-   [mysqlistmtbindresult()](mysqli-stmt.bind-result.md) - Прив'язка змінних до підготовленого запиту для розміщення результату
+-   [mysqlistmtexecute()](mysqli-stmt.execute.md) - Виконує підготовлене затвердження
+-   [mysqlistmtfetch()](mysqli-stmt.fetch.md) - пов'язує результати підготовленого виразу зі змінними
+-   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
+-   [mysqlistmtsendlongdata()](mysqli-stmt.send-long-data.md) - Відправлення даних блоками
+-   [mysqlistmterrno()](mysqli-stmt.errno.md) - Повертає код помилки виконання останнього запиту
+-   [mysqlistmterror()](mysqli-stmt.error.md) - Повертає рядок із поясненням останньої помилки під час виконання запиту

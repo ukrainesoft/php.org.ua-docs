@@ -32,9 +32,9 @@ abstract public MongoDB\Driver\CursorInterface::setTypeMap(array $typemap): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverCursor::setTypeMap()](mongodb-driver-cursor.settypemap.html) - Встановлює карту типу для десеріалізації BSON
+-   [MongoDBDriverCursor::setTypeMap()](mongodb-driver-cursor.settypemap.md) - Встановлює карту типу для десеріалізації BSON
 -   [Постійні дані](mongodb.persistence.md)

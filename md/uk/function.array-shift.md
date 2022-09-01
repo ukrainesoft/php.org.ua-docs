@@ -59,6 +59,6 @@ Array
 
 ### Дивіться також
 
--   [arrayunshift()](function.array-unshift.html) - Додає один або кілька елементів на початок масиву
--   [arraypush()](function.array-push.html) - Додає один або кілька елементів у кінець масиву
--   [arraypop()](function.array-pop.html) - Витягує останній елемент масиву
+-   [arrayunshift()](function.array-unshift.md) - Додає один або кілька елементів на початок масиву
+-   [arraypush()](function.array-push.md) - Додає один або кілька елементів у кінець масиву
+-   [arraypop()](function.array-pop.md) - Витягує останній елемент масиву

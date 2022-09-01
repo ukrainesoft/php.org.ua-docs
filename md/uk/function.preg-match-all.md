@@ -181,7 +181,7 @@ Array
 
 > **Зауваження**
 > 
-> Використання параметра `offset` не еквівалентно заміні зіставного рядка виразом `substr($subject, $offset)` при виклику функції **pregmatchall()**, оскільки шаблон `pattern` може містити такі умови як або *(?<=x)*. Ви можете знайти відповідні приклади у описі функції [pregmatch()](function.preg-match.html)
+> Використання параметра `offset` не еквівалентно заміні зіставного рядка виразом `substr($subject, $offset)` при виклику функції **pregmatchall()**, оскільки шаблон `pattern` може містити такі умови як або *(?<=x)*. Ви можете знайти відповідні приклади у описі функції [pregmatch()](function.preg-match.md)
 
 ### Значення, що повертаються
 
@@ -313,8 +313,8 @@ Array
 ### Дивіться також
 
 -   [Регулярні вирази PCRE](pcre.pattern.md)
--   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
--   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
--   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
--   [pregsplit()](function.preg-split.html) - Розбиває рядок за регулярним виразом
--   [preglasterror()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   [pregquote()](function.preg-quote.md) - Екранує символи у регулярних виразах
+-   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу
+-   [pregreplace()](function.preg-replace.md) - Виконує пошук та заміну за регулярним виразом
+-   [pregsplit()](function.preg-split.md) - Розбиває рядок за регулярним виразом
+-   [preglasterror()](function.preg-last-error.md) - Повертає код помилки виконання останнього регулярного вираження PCRE

@@ -20,7 +20,7 @@ fann_set_learning_momentum(resource $ann, float $learning_momentum): bool
 
 Встановлює імпульс навчання.
 
-Докладніша інформація доступна в [fanngetlearningmomentum()](function.fann-get-learning-momentum.html)
+Докладніша інформація доступна в [fanngetlearningmomentum()](function.fann-get-learning-momentum.md)
 
 ### Список параметрів
 
@@ -38,5 +38,5 @@ fann_set_learning_momentum(resource $ann, float $learning_momentum): bool
 
 ### Дивіться також
 
--   [fanngetlearningmomentum()](function.fann-get-learning-momentum.html) - Повертає імпульс навчання
--   [fannsettrainingalgorithm()](function.fann-set-training-algorithm.html) - встановлює алгоритм навчання
+-   [fanngetlearningmomentum()](function.fann-get-learning-momentum.md) - Повертає імпульс навчання
+-   [fannsettrainingalgorithm()](function.fann-set-training-algorithm.md) - встановлює алгоритм навчання

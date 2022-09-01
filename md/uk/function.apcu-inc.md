@@ -88,4 +88,4 @@ bool(false)
 
 ### Дивіться також
 
--   [apcudec()](function.apcu-dec.html) - Зменшити збережене число
+-   [apcudec()](function.apcu-dec.md) - Зменшити збережене число

@@ -32,7 +32,7 @@ public streamWrapper::stream_eof(): bool
 
 **Увага**
 
-При читанні файлу повністю (наприклад, функцією [filegetcontents()](function.file-get-contents.html)), PHP буде викликати [streamWrapper::streamread()](streamwrapper.stream-read.html) і разом із ним **streamWrapper::streameof()** у циклі, поки [streamWrapper::streamread()](streamwrapper.stream-read.html) повертає непустий рядок. Повертається з **streamWrapper::streameof()** значення у своїй ігнорується.
+При читанні файлу повністю (наприклад, функцією [filegetcontents()](function.file-get-contents.html)), PHP буде викликати [streamWrapper::streamread()](streamwrapper.stream-read.html) і разом із ним **streamWrapper::streameof()** у циклі, поки [streamWrapper::streamread()](streamwrapper.stream-read.md) повертає непустий рядок. Повертається з **streamWrapper::streameof()** значення у своїй ігнорується.
 
 ### Дивіться також
 

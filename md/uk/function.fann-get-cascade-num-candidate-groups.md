@@ -22,7 +22,7 @@ fann_get_cascade_num_candidate_groups(resource $ann): int
 
 Кількість можна використовувати, щоб збільшити кількість кандидатів без необхідності визначати нові параметри для кандидатів.
 
-Дивіться [fanngetcascadenumcandidates()](function.fann-get-cascade-num-candidates.html) для опису того, які нейрони-кандидати будуть згенеровані цим параметром.
+Дивіться [fanngetcascadenumcandidates()](function.fann-get-cascade-num-candidates.md) для опису того, які нейрони-кандидати будуть згенеровані цим параметром.
 
 Кількість груп кандидатів за умовчанням дорівнює 2.
 
@@ -38,4 +38,4 @@ fann_get_cascade_num_candidate_groups(resource $ann): int
 
 ### Дивіться також
 
--   [fannsetcascadenumcandidategroups()](function.fann-set-cascade-num-candidate-groups.html) - встановлює кількість груп кандидатів
+-   [fannsetcascadenumcandidategroups()](function.fann-set-cascade-num-candidate-groups.md) - встановлює кількість груп кандидатів

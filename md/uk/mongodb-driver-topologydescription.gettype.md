@@ -18,7 +18,7 @@ MongoDBDriverTopologyDescription::getType — Повертає рядок, що 
 final public MongoDB\Driver\TopologyDescription::getType(): string
 ```
 
-Повертає рядок (string), що означає тип топології. Значення співвідноситиметься з константою [MongoDBDriverTopologyDescription](class.mongodb-driver-topologydescription.html)
+Повертає рядок (string), що означає тип топології. Значення співвідноситиметься з константою [MongoDBDriverTopologyDescription](class.mongodb-driver-topologydescription.md)
 
 ### Список параметрів
 
@@ -30,4 +30,4 @@ final public MongoDB\Driver\TopologyDescription::getType(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

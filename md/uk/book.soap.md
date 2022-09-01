@@ -16,8 +16,8 @@ title: SOAP
     -   [Типи ресурсів](soap.resources.md)
 -   [Обумовлені константи](soap.constants.md)
 -   [Функции SOAP](ref.soap.md)
-    -   [ісsoapfault](function.is-soap-fault.html) — Перевіряє, чи виникла помилка під час виклику SOAP
-    -   [usesoaperrorhandler](function.use-soap-error-handler.html) — Встановити, чи слід використовувати обробник помилок SOAP
+    -   [ісsoapfault](function.is-soap-fault.md) — Перевіряє, чи виникла помилка під час виклику SOAP
+    -   [usesoaperrorhandler](function.use-soap-error-handler.md) — Встановити, чи слід використовувати обробник помилок SOAP
 -   [SoapClient](class.soapclient.md) - Клас SoapClient
     -   [SoapClient::call](soapclient.call.md) - Викликає SOAP-функцію (застарілий метод)
     -   [SoapClient::construct](soapclient.construct.md) - Конструктор класу SoapClient

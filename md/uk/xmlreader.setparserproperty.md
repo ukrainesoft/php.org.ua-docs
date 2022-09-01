@@ -19,7 +19,7 @@ public
    XMLReader::setParserProperty(int $property, bool $value): bool
 ```
 
-Встановлює настройки для парсера. Опції мають бути встановлені після виклику [XMLReader::open()](xmlreader.open.html) або [XMLReader::xml()](xmlreader.xml.html) та до першого виклику [XMLReader::read()](xmlreader.read.html)
+Встановлює настройки для парсера. Опції мають бути встановлені після виклику [XMLReader::open()](xmlreader.open.html) або [XMLReader::xml()](xmlreader.xml.html) та до першого виклику [XMLReader::read()](xmlreader.read.md)
 
 ### Список параметрів
 

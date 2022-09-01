@@ -46,5 +46,5 @@ abstract public XMLDiff\Base::merge(mixed $src, mixed $diff): mixed
 
 ## Зміст
 
--   [XMLDiffDOM::diff](xmldiff-dom.diff.html) — Пошук відмінностей у двох об'єктах DOMDocument
--   [XMLDiffDOM::merge](xmldiff-dom.merge.html) — Об'єднує об'єкт DOMDocument на основі іншого об'єкта DOMDocument, отриманого за допомогою XMLDiffDOM::diff
+-   [XMLDiffDOM::diff](xmldiff-dom.diff.md) — Пошук відмінностей у двох об'єктах DOMDocument
+-   [XMLDiffDOM::merge](xmldiff-dom.merge.md) — Об'єднує об'єкт DOMDocument на основі іншого об'єкта DOMDocument, отриманого за допомогою XMLDiffDOM::diff

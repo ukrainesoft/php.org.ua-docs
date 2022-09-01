@@ -72,8 +72,8 @@ if (file_exists($filename)) {
 
 ### Дивіться також
 
--   [ісreadable()](function.is-readable.html) - Визначає існування файлу і чи він доступний для читання
--   [ісwritable()](function.is-writable.html) - Визначає, чи доступний файл для запису
--   [ісfile()](function.is-file.html) - Визначає, чи файл є звичайним файлом
+-   [ісreadable()](function.is-readable.md) - Визначає існування файлу і чи він доступний для читання
+-   [ісwritable()](function.is-writable.md) - Визначає, чи доступний файл для запису
+-   [ісfile()](function.is-file.md) - Визначає, чи файл є звичайним файлом
 -   [file()](function.file.md) - Читає вміст файлу та поміщає його в масив
 -   [SplFileInfo](class.splfileinfo.md)

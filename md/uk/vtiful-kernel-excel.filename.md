@@ -32,7 +32,7 @@ public Vtiful\Kernel\Excel::fileName(string $fileName, string $sheetName = ?)
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

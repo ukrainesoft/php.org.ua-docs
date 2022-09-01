@@ -22,7 +22,7 @@ public DOMDocument::load(string $filename, int $options = 0): DOMDocument|bool
 
 **Увага**
 
-Шляхи до файлів у стилі Unix із прямими слешами можуть негативно зашкодити працездатності скриптів серед Windows; використовуйте функцію [realpath()](function.realpath.html) для виключення подібних ситуацій.
+Шляхи до файлів у стилі Unix із прямими слешами можуть негативно зашкодити працездатності скриптів серед Windows; використовуйте функцію [realpath()](function.realpath.md) для виключення подібних ситуацій.
 
 ### Список параметрів
 
@@ -32,17 +32,17 @@ public DOMDocument::load(string $filename, int $options = 0): DOMDocument|bool
 
 `options`
 
-[Побитовое`ИЛИ`](language.operators.bitwise.html) [констант опций libxml](libxml.constants.html)
+[Побитовое`ИЛИ`](language.operators.bitwise.html) [констант опций libxml](libxml.constants.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. При статичному виклику повертає об'єкт класу [DOMDocument](class.domdocument.html) або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. При статичному виклику повертає об'єкт класу [DOMDocument](class.domdocument.md) або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
 Якщо через аргумент `filename` передано порожній рядок або файл нічого не містить, буде згенеровано попередження. Це попередження не генерується libxml, тому воно не може бути оброблене обробниками помилок бібліотеки libxml.
 
-До PHP 8.0.0 метод *може* викликатись статично, але викличе помилку **`E_DEPRECATED`**. Починаючи з PHP 8.0.0, виклик цього методу статично викидає виняток [Error](class.error.html)
+До PHP 8.0.0 метод *може* викликатись статично, але викличе помилку **`E_DEPRECATED`**. Починаючи з PHP 8.0.0, виклик цього методу статично викидає виняток [Error](class.error.md)
 
 ### Приклади
 
@@ -58,6 +58,6 @@ echo $doc->saveXML();
 
 ### Дивіться також
 
--   [DOMDocument::loadXML()](domdocument.loadxml.html) - Завантаження XML з рядка
--   [DOMDocument::save()](domdocument.save.html) - Зберігає XML-дерево із внутрішнього подання до файлу
--   [DOMDocument::saveXML()](domdocument.savexml.html) - Зберігає XML-дерево з внутрішньої вистави у вигляді рядка
+-   [DOMDocument::loadXML()](domdocument.loadxml.md) - Завантаження XML з рядка
+-   [DOMDocument::save()](domdocument.save.md) - Зберігає XML-дерево із внутрішнього подання до файлу
+-   [DOMDocument::saveXML()](domdocument.savexml.md) - Зберігає XML-дерево з внутрішньої вистави у вигляді рядка

@@ -26,4 +26,4 @@ trader_get_compat(): int
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор режиму сумісності, який можна визначити за константами [TRADERCOMPATIBILITY](trader.constants.html)
+Повертає ідентифікатор режиму сумісності, який можна визначити за константами [TRADERCOMPATIBILITY](trader.constants.md)

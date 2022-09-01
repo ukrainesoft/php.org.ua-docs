@@ -32,9 +32,9 @@ xml_set_end_namespace_decl_handler(XMLParser $parser, callable $handler): bool
 
 `handler`
 
-`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xmlparse()](function.xml-parse.html) з аналізатора `parser`
+`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xmlparse()](function.xml-parse.md) з аналізатора `parser`
 
-Функція з ім'ям `handler` повинна приймати два аргументи та повертати цілий результат. Якщо обробник поверне **`false`** (як і нічого не поверне), XML аналізатор припинить роботу, а функція [xmlgeterrorcode()](function.xml-get-error-code.html) повертатиме константу **`XML_ERROR_EXTERNAL_ENTITY_HANDLING`**
+Функція з ім'ям `handler` повинна приймати два аргументи та повертати цілий результат. Якщо обробник поверне **`false`** (як і нічого не поверне), XML аналізатор припинить роботу, а функція [xmlgeterrorcode()](function.xml-get-error-code.md) повертатиме константу **`XML_ERROR_EXTERNAL_ENTITY_HANDLING`**
 
 ```methodsynopsis
 handler(XMLParser $parser, string $prefix)
@@ -64,4 +64,4 @@ handler(XMLParser $parser, string $prefix)
 
 ### Дивіться також
 
--   [xmlsetstartnamespacedeclhandler()](function.xml-set-start-namespace-decl-handler.html) - Встановлення обробника входу у межі простору імен
+-   [xmlsetstartnamespacedeclhandler()](function.xml-set-start-namespace-decl-handler.md) - Встановлення обробника входу у межі простору імен

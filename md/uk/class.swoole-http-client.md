@@ -64,20 +64,20 @@ sock
 
 ## Зміст
 
--   [SwooleHttpClient::addFile](swoole-http-client.addfile.html) — Додає файл до форми повідомлення
--   [SwooleHttpClient::close](swoole-http-client.close.html) - Закриває http-з'єднання
--   [SwooleHttpClient::construct](swoole-http-client.construct.html) - Створює асинхронний HTTP-клієнт
--   [SwooleHttpClient::destruct](swoole-http-client.destruct.html) — Знищує HTTP-клієнт
--   [SwooleHttpClient::download](swoole-http-client.download.html) — Завантажує файл із віддаленого сервера
--   [SwooleHttpClient::execute](swoole-http-client.execute.html) — Надсилає HTTP-запит після встановлення параметрів
--   [SwooleHttpClient::get](swoole-http-client.get.html) — Надсилає HTTP-запит GET на віддалений сервер
--   [SwooleHttpClient::isConnected](swoole-http-client.isconnected.html) — Перевіряє, чи підключено HTTP-з'єднання.
--   [SwooleHttpClient::on](swoole-http-client.on.html) - Реєструє callback-функцію на ім'я події
--   [SwooleHttpClient::post](swoole-http-client.post.html) — Надсилає HTTP-запит POST на віддалений сервер
--   [SwooleHttpClient::push](swoole-http-client.push.html) — Передає дані клієнту websocket
--   [SwooleHttpClient::set](swoole-http-client.set.html) — Оновлює параметри HTTP-клієнта
--   [SwooleHttpClient::setCookies](swoole-http-client.setcookies.html) — Встановлює cookies для HTTP-запиту
--   [SwooleHttpClient::setData](swoole-http-client.setdata.html) — Встановлює дані тіла HTTP-запиту
--   [SwooleHttpClient::setHeaders](swoole-http-client.setheaders.html) — Встановлює заголовки HTTP-запиту
--   [SwooleHttpClient::setMethod](swoole-http-client.setmethod.html) — Встановлює метод HTTP-запиту
--   [SwooleHttpClient::upgrade](swoole-http-client.upgrade.html) — Оновлення до протоколу websocket
+-   [SwooleHttpClient::addFile](swoole-http-client.addfile.md) — Додає файл до форми повідомлення
+-   [SwooleHttpClient::close](swoole-http-client.close.md) - Закриває http-з'єднання
+-   [SwooleHttpClient::construct](swoole-http-client.construct.md) - Створює асинхронний HTTP-клієнт
+-   [SwooleHttpClient::destruct](swoole-http-client.destruct.md) — Знищує HTTP-клієнт
+-   [SwooleHttpClient::download](swoole-http-client.download.md) — Завантажує файл із віддаленого сервера
+-   [SwooleHttpClient::execute](swoole-http-client.execute.md) — Надсилає HTTP-запит після встановлення параметрів
+-   [SwooleHttpClient::get](swoole-http-client.get.md) — Надсилає HTTP-запит GET на віддалений сервер
+-   [SwooleHttpClient::isConnected](swoole-http-client.isconnected.md) — Перевіряє, чи підключено HTTP-з'єднання.
+-   [SwooleHttpClient::on](swoole-http-client.on.md) - Реєструє callback-функцію на ім'я події
+-   [SwooleHttpClient::post](swoole-http-client.post.md) — Надсилає HTTP-запит POST на віддалений сервер
+-   [SwooleHttpClient::push](swoole-http-client.push.md) — Передає дані клієнту websocket
+-   [SwooleHttpClient::set](swoole-http-client.set.md) — Оновлює параметри HTTP-клієнта
+-   [SwooleHttpClient::setCookies](swoole-http-client.setcookies.md) — Встановлює cookies для HTTP-запиту
+-   [SwooleHttpClient::setData](swoole-http-client.setdata.md) — Встановлює дані тіла HTTP-запиту
+-   [SwooleHttpClient::setHeaders](swoole-http-client.setheaders.md) — Встановлює заголовки HTTP-запиту
+-   [SwooleHttpClient::setMethod](swoole-http-client.setmethod.md) — Встановлює метод HTTP-запиту
+-   [SwooleHttpClient::upgrade](swoole-http-client.upgrade.md) — Оновлення до протоколу websocket

@@ -22,7 +22,7 @@ title: Сортування масивів
 
 | Имя функции | Сортирует по | Сохраняет связь ключ - значение | Порядок сортировки | Похожие функции |
 | --- | --- | --- | --- | --- |
-| [arraymultisort()](function.array-multisort.html) | значенням | рядкові (string) ключі так, числові (int) - ні | перший масив або налаштування сортування | [arraywalk()](function.array-walk.html) |
+| [arraymultisort()](function.array-multisort.html) | значенням | рядкові (string) ключі так, числові (int) - ні | перший масив або налаштування сортування | [arraywalk()](function.array-walk.md) |
 | [asort()](function.asort.md) | значенням | так | за зростанням | [arsort()](function.arsort.md) |
 | [arsort()](function.arsort.md) | значенням | так | по спаданню | [asort()](function.asort.md) |
 | [krsort()](function.krsort.md) | ключу | так | по спаданню | [ksort()](function.ksort.md) |
@@ -30,7 +30,7 @@ title: Сортування масивів
 | [natcasesort()](function.natcasesort.md) | значенням | так | природний, нечутливий до регістру | [natsort()](function.natsort.md) |
 | [natsort()](function.natsort.md) | значенням | так | природний | [natcasesort()](function.natcasesort.md) |
 | [rsort()](function.rsort.md) | значенням | ні | по спаданню | [sort()](function.sort.md) |
-| [shuffle()](function.shuffle.md) | значенням | ні | випадковий | [arrayrand()](function.array-rand.html) |
+| [shuffle()](function.shuffle.md) | значенням | ні | випадковий | [arrayrand()](function.array-rand.md) |
 | [sort()](function.sort.md) | значенням | ні | за зростанням | [rsort()](function.rsort.md) |
 | [uasort()](function.uasort.md) | значенням | так | визначається користувачем | [uksort()](function.uksort.md) |
 | [uksort()](function.uksort.md) | ключу | так | визначається користувачем | [uasort()](function.uasort.md) |

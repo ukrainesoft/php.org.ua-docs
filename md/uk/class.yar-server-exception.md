@@ -72,4 +72,4 @@ type
 
 ## Зміст
 
--   [YarServerException::getType](yar-server-exception.gettype.html) — Отримати тип виключення
+-   [YarServerException::getType](yar-server-exception.gettype.md) — Отримати тип виключення

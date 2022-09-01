@@ -22,7 +22,7 @@ uopz_get_return(string $function): mixed
 uopz_get_return(string $class, string $function): mixed
 ```
 
-Отримує значення, що повертається `function`, раніше встановлене за допомогою [uopzsetreturn()](function.uopz-set-return.html)
+Отримує значення, що повертається `function`, раніше встановлене за допомогою [uopzsetreturn()](function.uopz-set-return.md)
 
 ### Список параметрів
 

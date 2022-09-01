@@ -48,4 +48,4 @@ parse_ini_string(string $ini_string, bool $process_sections = false, int $scanne
 
 ### Дивіться також
 
--   [parseinifile()](function.parse-ini-file.html) - Обробляє конфігураційний файл
+-   [parseinifile()](function.parse-ini-file.md) - Обробляє конфігураційний файл

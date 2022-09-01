@@ -18,7 +18,7 @@ Memcache::decrement — Декрементувати значення елеме
 Memcache::decrement(string $key, int $value = 1): int|false
 ```
 
-**Memcache::decrement()** зменшує значення елемента на величину `value`. Аналогічно [Memcache::increment()](memcache.increment.html), поточне значення елемента наводиться до числового і після цього віднімається `value`
+**Memcache::decrement()** зменшує значення елемента на величину `value`. Аналогічно [Memcache::increment()](memcache.increment.md), поточне значення елемента наводиться до числового і після цього віднімається `value`
 
 > **Зауваження**
 > 
@@ -26,7 +26,7 @@ Memcache::decrement(string $key, int $value = 1): int|false
 
 > **Зауваження**
 > 
-> Не використовуйте **Memcache::decrement()** з елементами, які були збережені за допомогою стиснення, тому що відповідний виклик [Memcache::get()](memcache.get.html) обернеться невдачею.
+> Не використовуйте **Memcache::decrement()** з елементами, які були збережені за допомогою стиснення, тому що відповідний виклик [Memcache::get()](memcache.get.md) обернеться невдачею.
 
 **Memcache::decrement()** *не* створює елемент, якщо він раніше не існував. Також можна використовувати функцію **memcachedecrement()**
 
@@ -66,5 +66,5 @@ $new_value = $memcache_obj->decrement('test_item', 3);
 
 ### Дивіться також
 
--   [Memcache::increment()](memcache.increment.html) - Збільшити значення елемента
--   [Memcache::replace()](memcache.replace.html) - Замінити значення наявного елемента
+-   [Memcache::increment()](memcache.increment.md) - Збільшити значення елемента
+-   [Memcache::replace()](memcache.replace.md) - Замінити значення наявного елемента

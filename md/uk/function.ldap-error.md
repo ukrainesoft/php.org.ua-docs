@@ -26,7 +26,7 @@ ldap_error(LDAP\Connection $ldap): string
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 ### Значення, що повертаються
 
@@ -36,9 +36,9 @@ ldap_error(LDAP\Connection $ldap): string
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [ldaperr2str()](function.ldap-err2str.html) - Перетворити код помилки LDAP на рядкове повідомлення про помилку
--   [ldaperrno()](function.ldap-errno.html) - Повернути номер помилки LDAP останньої команди
+-   [ldaperr2str()](function.ldap-err2str.md) - Перетворити код помилки LDAP на рядкове повідомлення про помилку
+-   [ldaperrno()](function.ldap-errno.md) - Повернути номер помилки LDAP останньої команди

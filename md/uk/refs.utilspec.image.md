@@ -8,34 +8,34 @@ title: Обробка та генерація зображень
 ---
 # Обробка та генерація зображень
 
--   [Exif](book.exif.html) — Змінювана інформація про зображення
-    -   [Введение](intro.exif.html)
-    -   [Встановлення та налаштування](exif.setup.html)
-    -   [Обумовлені константи](exif.constants.html)
-    -   [Exif Функції](ref.exif.html)
--   [ДД](book.image.html) — Обробка зображень та GD
-    -   [Введение](intro.image.html)
-    -   [Встановлення та налаштування](image.setup.html)
-    -   [Обумовлені константи](image.constants.html)
-    -   [Приклади](image.examples.html)
-    -   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    -   [GdImage](class.gdimage.html) - Клас GdImage
-    -   [GdFont](class.gdfont.html) - Клас GdFont
--   [Gmagick](book.gmagick.html)
-    -   [Введение](intro.gmagick.html)
-    -   [Встановлення та налаштування](gmagick.setup.html)
-    -   [Обумовлені константи](gmagick.constants.html)
-    -   [Приклади](gmagick.examples.html)
-    -   [Gmagick](class.gmagick.html) - Клас Gmagick
-    -   [GmagickDraw](class.gmagickdraw.html) - Клас GmagickDraw
-    -   [GmagickPixel](class.gmagickpixel.html) - Клас GmagickPixel
--   [ImageMagick](book.imagick.html) - Обробка зображень (ImageMagick)
-    -   [Введение](intro.imagick.html)
-    -   [Встановлення та налаштування](imagick.setup.html)
-    -   [Обумовлені константи](imagick.constants.html)
-    -   [Приклади](imagick.examples.html)
-    -   [Imagick](class.imagick.html) - Клас Imagick
-    -   [ImagickDraw](class.imagickdraw.html) - Клас ImagickDraw
-    -   [ImagickPixel](class.imagickpixel.html) - Клас ImagickPixel
-    -   [ImagickPixelIterator](class.imagickpixeliterator.html) - Клас ImagickPixelIterator
-    -   [ImagickKernel](class.imagickkernel.html) - Клас ImagickKernel
+-   [Exif](book.exif.md) — Змінювана інформація про зображення
+    -   [Введение](intro.exif.md)
+    -   [Встановлення та налаштування](exif.setup.md)
+    -   [Обумовлені константи](exif.constants.md)
+    -   [Exif Функції](ref.exif.md)
+-   [ДД](book.image.md) — Обробка зображень та GD
+    -   [Введение](intro.image.md)
+    -   [Встановлення та налаштування](image.setup.md)
+    -   [Обумовлені константи](image.constants.md)
+    -   [Приклади](image.examples.md)
+    -   [Функції GD та функції для роботи із зображеннями](ref.image.md)
+    -   [GdImage](class.gdimage.md) - Клас GdImage
+    -   [GdFont](class.gdfont.md) - Клас GdFont
+-   [Gmagick](book.gmagick.md)
+    -   [Введение](intro.gmagick.md)
+    -   [Встановлення та налаштування](gmagick.setup.md)
+    -   [Обумовлені константи](gmagick.constants.md)
+    -   [Приклади](gmagick.examples.md)
+    -   [Gmagick](class.gmagick.md) - Клас Gmagick
+    -   [GmagickDraw](class.gmagickdraw.md) - Клас GmagickDraw
+    -   [GmagickPixel](class.gmagickpixel.md) - Клас GmagickPixel
+-   [ImageMagick](book.imagick.md) - Обробка зображень (ImageMagick)
+    -   [Введение](intro.imagick.md)
+    -   [Встановлення та налаштування](imagick.setup.md)
+    -   [Обумовлені константи](imagick.constants.md)
+    -   [Приклади](imagick.examples.md)
+    -   [Imagick](class.imagick.md) - Клас Imagick
+    -   [ImagickDraw](class.imagickdraw.md) - Клас ImagickDraw
+    -   [ImagickPixel](class.imagickpixel.md) - Клас ImagickPixel
+    -   [ImagickPixelIterator](class.imagickpixeliterator.md) - Клас ImagickPixelIterator
+    -   [ImagickKernel](class.imagickkernel.md) - Клас ImagickKernel

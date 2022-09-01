@@ -30,9 +30,9 @@ final public MongoDB\Driver\Session::getTransactionState(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverSession::isInTransaction()](mongodb-driver-session.isintransaction.html) - Визначає, чи відбувається зараз багатодокументна транзакція
--   [MongoDBDriverSession::getTransactionOptions()](mongodb-driver-session.gettransactionoptions.html) - Повертає налаштування поточної транзакції
+-   [MongoDBDriverSession::isInTransaction()](mongodb-driver-session.isintransaction.md) - Визначає, чи відбувається зараз багатодокументна транзакція
+-   [MongoDBDriverSession::getTransactionOptions()](mongodb-driver-session.gettransactionoptions.md) - Повертає налаштування поточної транзакції

@@ -20,7 +20,7 @@ pg_last_oid(PgSql\Result $result): string|int|false
 
 **пгlastoid()** використовується для визначення OID, що відповідає вставленому в таблицю рядку.
 
-Поле OID таблиць баз даних стало необов'язковим, починаючи з версії PostgreSQL 7.2, а з версії 8.1 перестане додаватися до таблиць за замовчуванням. Якщо поле OID таблиці не встановлено, використовуйте функцію [пгresultstatus()](function.pg-result-status.html) для перевірки успішності вставлення записів у таблицю.
+Поле OID таблиць баз даних стало необов'язковим, починаючи з версії PostgreSQL 7.2, а з версії 8.1 перестане додаватися до таблиць за замовчуванням. Якщо поле OID таблиці не встановлено, використовуйте функцію [пгresultstatus()](function.pg-result-status.md) для перевірки успішності вставлення записів у таблицю.
 
 Щоб отримати значення `SERIAL` поля після вставки рядка в таблицю, використовуйте функцію PostgreSQL `CURRVAL`, Передавши їй ім'я послідовності, значення якої потрібно отримати. Щоб дізнатися про ім'я послідовності, необхідно використовувати функцію `pg_get_serial_sequence` (PostgreSQL 8.0).
 
@@ -34,7 +34,7 @@ pg_last_oid(PgSql\Result $result): string|int|false
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 ### Значення, що повертаються
 
@@ -44,7 +44,7 @@ pg_last_oid(PgSql\Result $result): string|int|false
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -67,5 +67,5 @@ pg_last_oid(PgSql\Result $result): string|int|false
 
 ### Дивіться також
 
--   [пгquery()](function.pg-query.html) - Виконує запит
--   [пгresultstatus()](function.pg-result-status.html) - Повертає стан результату запиту
+-   [пгquery()](function.pg-query.md) - Виконує запит
+-   [пгresultstatus()](function.pg-result-status.md) - Повертає стан результату запиту

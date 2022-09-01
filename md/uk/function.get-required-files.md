@@ -10,8 +10,8 @@ title: getrequiredfiles
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-getrequiredfiles - Псевдонім [getincludedfiles()](function.get-included-files.html)
+getrequiredfiles - Псевдонім [getincludedfiles()](function.get-included-files.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [getincludedfiles()](function.get-included-files.html)
+Ця функція є псевдонімом: [getincludedfiles()](function.get-included-files.md)

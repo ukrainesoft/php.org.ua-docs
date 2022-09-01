@@ -83,7 +83,7 @@ int(0)
 
 ## Зміст
 
--   [WeakMap::construct](ext-weakmap.construct.html) - Створює нову колекцію (map)
+-   [WeakMap::construct](ext-weakmap.construct.md) - Створює нову колекцію (map)
 -   [WeakMap::count](weakmap.count.md) — Підраховує кількість живих записів у колекції (map)
 -   [WeakMap::getIterator](weakmap.getiterator.md) — Отримує зовнішній ітератор
 -   [WeakMap::offsetExists](weakmap.offsetexists.md) — Перевіряє, чи є у колекції (map) певний об'єкт

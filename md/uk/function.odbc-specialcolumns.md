@@ -24,7 +24,7 @@ odbc_specialcolumns(    resource $odbc,    int $type,    ?string $ca
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
 
 `type`
 
@@ -71,4 +71,4 @@ odbc_specialcolumns(    resource $odbc,    int $type,    ?string $ca
 
 ### Дивіться також
 
--   [odbctables()](function.odbc-tables.html) - Отримує список імен таблиць, що зберігаються у певному джерелі даних
+-   [odbctables()](function.odbc-tables.md) - Отримує список імен таблиць, що зберігаються у певному джерелі даних

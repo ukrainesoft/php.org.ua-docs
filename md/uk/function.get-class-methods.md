@@ -84,6 +84,6 @@ myfunc2
 
 ### Дивіться також
 
--   [getclass()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
--   [getclassvars()](function.get-class-vars.html) - Повертає оголошені за умовчанням властивості класу
--   [getobjectvars()](function.get-object-vars.html) - Повертає властивості вказаного об'єкту
+-   [getclass()](function.get-class.md) - Повертає ім'я класу, до якого належить об'єкт
+-   [getclassvars()](function.get-class-vars.md) - Повертає оголошені за умовчанням властивості класу
+-   [getobjectvars()](function.get-object-vars.md) - Повертає властивості вказаного об'єкту

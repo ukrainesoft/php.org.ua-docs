@@ -12,11 +12,11 @@ title: Інші зміни
 
 #### Ядро PHP
 
-Додано спеціальний опкод віртуальної машини для функції [arraykeyexists()](function.array-key-exists.html), що покращує продуктивність цієї функції, якщо значення параметра може бути статично дозволено. У коді, який використовує простір імен, можливо буде потрібно використання абсолютного імені (`\array_key_exists()`) або ж явний імпорт функції.
+Додано спеціальний опкод віртуальної машини для функції [arraykeyexists()](function.array-key-exists.md), що покращує продуктивність цієї функції, якщо значення параметра може бути статично дозволено. У коді, який використовує простір імен, можливо буде потрібно використання абсолютного імені (`\array_key_exists()`) або ж явний імпорт функції.
 
 #### Регулярні вирази (сумісні з Perl)
 
-Коли функція [pregmatch()](function.preg-match.html) у режимі UTF-8 (модифікатор `"u"`) неодноразово викликається для одного і того ж рядка (можливо, на різних позиціях), перевірка правильності UTF-8 буде виконана лише один раз.
+Коли функція [pregmatch()](function.preg-match.md) у режимі UTF-8 (модифікатор `"u"`) неодноразово викликається для одного і того ж рядка (можливо, на різних позиціях), перевірка правильності UTF-8 буде виконана лише один раз.
 
 ### Зміни обробки INI-файлів
 
@@ -83,7 +83,7 @@ title: Інші зміни
 
 [fputcsv()](function.fputcsv.md) [fgetcsv()](function.fgetcsv.md) [SplFileObject::fputcsv()](splfileobject.fputcsv.md) [SplFileObject::fgetcsv()](splfileobject.fgetcsv.md) і [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md) тепер приймаємо порожній рядок у аргументі `$escape`. Це відключить пропрієтарний механізм екранування PHP.
 
-Поведінка функції [strgetcsv()](function.str-getcsv.html) було відповідним чином скориговано (раніше порожній рядок був ідентичний використанню значення за умовчанням).
+Поведінка функції [strgetcsv()](function.str-getcsv.md) було відповідним чином скориговано (раніше порожній рядок був ідентичний використанню значення за умовчанням).
 
 Метод [SplFileObject::getCsvControl()](splfileobject.getcsvcontrol.md) тепер може повертати порожній рядок для третього елемента масиву, відповідно.
 
@@ -130,7 +130,7 @@ title: Інші зміни
 
 ### Хешування паролів
 
-Функції [passwordhash()](function.password-hash.html) і [passwordneedsrehash()](function.password-needs-rehash.html) тепер приймають рядок, що обнулюється, (string) і ціле число (int) в аргументі `$algo`
+Функції [passwordhash()](function.password-hash.html) і [passwordneedsrehash()](function.password-needs-rehash.md) тепер приймають рядок, що обнулюється, (string) і ціле число (int) в аргументі `$algo`
 
 ### PEAR
 
@@ -146,7 +146,7 @@ title: Інші зміни
 
 ### SQLite3
 
-Вбудована бібліотека libsqlite у збірці видалена. Для складання модуля [SQLite3](book.sqlite3.md) тепер потрібно libsqlite3 ≥ 3.7.4. Щоб зібрати модуль [PDOSQLite](ref.pdo-sqlite.html) обов'язково потрібний libsqlite3 ≥ 3.5.0.
+Вбудована бібліотека libsqlite у збірці видалена. Для складання модуля [SQLite3](book.sqlite3.md) тепер потрібно libsqlite3 ≥ 3.7.4. Щоб зібрати модуль [PDOSQLite](ref.pdo-sqlite.md) обов'язково потрібний libsqlite3 ≥ 3.5.0.
 
 Серіалізація та десеріалізація [SQLite3](class.sqlite3.md) [SQLite3Stmt](class.sqlite3stmt.md) і [SQLite3Result](class.sqlite3result.md) тепер явно заборонено. Раніше серіалізація екземплярів цих класів була можливою, але десеріалізація робила об'єкти невикористовуваними для подальшої роботи.
 

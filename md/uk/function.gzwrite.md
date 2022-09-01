@@ -24,7 +24,7 @@ gzwrite(resource $stream, string $data, ?int $length = null): int|false
 
 `stream`
 
-Вказівник на gz-файл, повернутий після його успішного відкриття функцією [gzopen()](function.gzopen.html)
+Вказівник на gz-файл, повернутий після його успішного відкриття функцією [gzopen()](function.gzopen.md)
 
 `data`
 
@@ -60,5 +60,5 @@ gzclose($gz);
 
 ### Дивіться також
 
--   [gzread()](function.gzread.html) - Бінарне читання gz-файлу
--   [gzopen()](function.gzopen.html) - Відкрити gz-файл
+-   [gzread()](function.gzread.md) - Бінарне читання gz-файлу
+-   [gzopen()](function.gzopen.md) - Відкрити gz-файл

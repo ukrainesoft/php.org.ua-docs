@@ -19,7 +19,7 @@ public
    EvLoop::suspend(): void
 ```
 
-Методи **EvLoop::suspend()** і [EvLoop::resume()](evloop.resume.html) зупиняють та відновлюють цикл відповідно.
+Методи **EvLoop::suspend()** і [EvLoop::resume()](evloop.resume.md) зупиняють та відновлюють цикл відповідно.
 
 ### Список параметрів
 
@@ -31,5 +31,5 @@ public
 
 ### Дивіться також
 
--   [EvLoop::resume()](evloop.resume.html) - Відновлює раніше зупинений цикл подій
--   [Ev::suspend()](ev.suspend.html) - Зупинити подійний цикл за замовчуванням
+-   [EvLoop::resume()](evloop.resume.md) - Відновлює раніше зупинений цикл подій
+-   [Ev::suspend()](ev.suspend.md) - Зупинити подійний цикл за замовчуванням

@@ -10,7 +10,7 @@ title: imapheader
 
 (PHP 4, PHP 5, PHP 7)
 
-imapheader - Псевдонім [imapheaderinfo()](function.imap-headerinfo.html)
+imapheader - Псевдонім [imapheaderinfo()](function.imap-headerinfo.md)
 
 **Увага**
 
@@ -18,4 +18,4 @@ imapheader - Псевдонім [imapheaderinfo()](function.imap-headerinfo.html
 
 ### Опис
 
-Ця функція є псевдонімом: [imapheaderinfo()](function.imap-headerinfo.html)
+Ця функція є псевдонімом: [imapheaderinfo()](function.imap-headerinfo.md)

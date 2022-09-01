@@ -28,11 +28,11 @@ sodium_crypto_pwhash_str_needs_rehash(string $password, int $opslimit, int $meml
 
 `opslimit`
 
-Налаштований opslimit; дивіться [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.html)
+Налаштований opslimit; дивіться [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.md)
 
 `memlimit`
 
-Налаштований memlimit; дивіться [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.html)
+Налаштований memlimit; дивіться [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.md)
 
 ### Значення, що повертаються
 

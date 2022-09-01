@@ -18,7 +18,7 @@ sqlsrvcancel — Скасує оператор
 sqlsrv_cancel(resource $stmt): bool
 ```
 
-Скасує оператор. Усі невикористані результати, пов'язані з оператором, видаляються. Після виклику **sqlsrvcancel()** вказаний оператор може бути виконаний повторно, якщо він був створений за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.html). Виклик **sqlsrvcancel()** не потрібно, якщо всі результати, пов'язані з оператором, були використані.
+Скасує оператор. Усі невикористані результати, пов'язані з оператором, видаляються. Після виклику **sqlsrvcancel()** вказаний оператор може бути виконаний повторно, якщо він був створений за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.md). Виклик **sqlsrvcancel()** не потрібно, якщо всі результати, пов'язані з оператором, були використані.
 
 ### Список параметрів
 
@@ -75,9 +75,9 @@ sqlsrv_cancel( $stmt);
 
 ### Примітки
 
-Основна відмінність між [sqlsrvfreestmt()](function.sqlsrv-free-stmt.html) і **sqlsrvcancel()** полягає в тому, що ресурс оператора, скасований за допомогою **sqlsrvcancel()**, може бути повторно виконаний, якщо він був створений за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.html). Ресурс оператора, скасований за допомогою **sqlsrvfreestatement()**, не може бути повторно виконано.
+Основна відмінність між [sqlsrvfreestmt()](function.sqlsrv-free-stmt.html) і **sqlsrvcancel()** полягає в тому, що ресурс оператора, скасований за допомогою **sqlsrvcancel()**, може бути повторно виконаний, якщо він був створений за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.md). Ресурс оператора, скасований за допомогою **sqlsrvfreestatement()**, не може бути повторно виконано.
 
 ### Дивіться також
 
--   [sqlsrvfreestmt()](function.sqlsrv-free-stmt.html) - звільняє всі ресурси для вказаного оператора
--   [sqlsrvprepare()](function.sqlsrv-prepare.html) - готує запит до виконання
+-   [sqlsrvfreestmt()](function.sqlsrv-free-stmt.md) - звільняє всі ресурси для вказаного оператора
+-   [sqlsrvprepare()](function.sqlsrv-prepare.md) - готує запит до виконання

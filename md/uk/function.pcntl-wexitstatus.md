@@ -18,13 +18,13 @@ pcntlwexitstatus — Отримати код повернення заверше
 pcntl_wexitstatus(int $status): int|false
 ```
 
-Повертає код повернення завершеного дочірнього процесу. Функція застосовується лише якщо функція [pcntlwifexited()](function.pcntl-wifexited.html) повернула **`true`**
+Повертає код повернення завершеного дочірнього процесу. Функція застосовується лише якщо функція [pcntlwifexited()](function.pcntl-wifexited.md) повернула **`true`**
 
 ### Список параметрів
 
 `status`
 
-Параметр `status` - це параметр статусу, який передається для успішного виклику функції [pcntlwaitpid()](function.pcntl-waitpid.html)
+Параметр `status` - це параметр статусу, який передається для успішного виклику функції [pcntlwaitpid()](function.pcntl-waitpid.md)
 
 ### Значення, що повертаються
 
@@ -32,5 +32,5 @@ pcntl_wexitstatus(int $status): int|false
 
 ### Дивіться також
 
--   [pcntlwaitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу
--   [pcntlwifexited()](function.pcntl-wifexited.html) - Перевіряє, чи код завершення процесу відповідає нормальному завершенню
+-   [pcntlwaitpid()](function.pcntl-waitpid.md) - Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntlwifexited()](function.pcntl-wifexited.md) - Перевіряє, чи код завершення процесу відповідає нормальному завершенню

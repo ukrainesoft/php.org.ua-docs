@@ -10,4 +10,4 @@ title: Приклади
 
 ## Зміст
 
--   [Простий приклад використання curl](curl.examples-basic.html)
+-   [Простий приклад використання curl](curl.examples-basic.md)

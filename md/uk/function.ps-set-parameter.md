@@ -24,11 +24,11 @@ ps_set_parameter(resource $psdoc, string $name, string $value): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `name`
 
-Список можливих імен дивіться [псgetparameter()](function.ps-get-parameter.html)
+Список можливих імен дивіться [псgetparameter()](function.ps-get-parameter.md)
 
 `value`
 
@@ -41,4 +41,4 @@ ps_set_parameter(resource $psdoc, string $name, string $value): bool
 ### Дивіться також
 
 -   **псgetparameters()**
--   [псsetvalue()](function.ps-set-value.html) - Встановлює певні значення
+-   [псsetvalue()](function.ps-set-value.md) - Встановлює певні значення

@@ -50,7 +50,7 @@ if ($pid == -1) {
 
 ### Дивіться також
 
--   [pcntlrfork()](function.pcntl-rfork.html) - взаємодіє з ресурсами процесу
--   [pcntlwaitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу
--   [pcntlsignal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу
--   [clisetprocesstitle()](function.cli-set-process-title.html) - Встановлює заголовок процесу
+-   [pcntlrfork()](function.pcntl-rfork.md) - взаємодіє з ресурсами процесу
+-   [pcntlwaitpid()](function.pcntl-waitpid.md) - Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntlsignal()](function.pcntl-signal.md) - Встановлення оброблювача сигналу
+-   [clisetprocesstitle()](function.cli-set-process-title.md) - Встановлює заголовок процесу

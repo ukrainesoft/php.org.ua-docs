@@ -36,6 +36,6 @@ fann_set_rprop_delta_zero(resource $ann, float $rprop_delta_zero): bool
 
 ### Дивіться також
 
--   [fanngetrpropdeltazero()](function.fann-get-rprop-delta-zero.html) - Повертає початковий розмір кроку
--   [fanngetrpropdeltamin()](function.fann-get-rprop-delta-min.html) - Повертає мінімальний розмір кроку
--   [fanngetrpropdeltamax()](function.fann-get-rprop-delta-max.html) - Повертає максимальний розмір кроку
+-   [fanngetrpropdeltazero()](function.fann-get-rprop-delta-zero.md) - Повертає початковий розмір кроку
+-   [fanngetrpropdeltamin()](function.fann-get-rprop-delta-min.md) - Повертає мінімальний розмір кроку
+-   [fanngetrpropdeltamax()](function.fann-get-rprop-delta-max.md) - Повертає максимальний розмір кроку

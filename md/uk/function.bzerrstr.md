@@ -24,7 +24,7 @@ bzerrstr(resource $bz): string
 
 `bz`
 
-Вказівник на файл. Має бути коректним і вказувати на файл, успішно відкритий [bzopen()](function.bzopen.html)
+Вказівник на файл. Має бути коректним і вказувати на файл, успішно відкритий [bzopen()](function.bzopen.md)
 
 ### Значення, що повертаються
 
@@ -32,5 +32,5 @@ bzerrstr(resource $bz): string
 
 ### Дивіться також
 
--   [bzerrno()](function.bzerrno.html) - Повертає код помилки роботи з bzip2
--   [bzerror()](function.bzerror.html) - Повертає код та рядок помилки роботи з bzip2 у вигляді масиву
+-   [bzerrno()](function.bzerrno.md) - Повертає код помилки роботи з bzip2
+-   [bzerror()](function.bzerror.md) - Повертає код та рядок помилки роботи з bzip2 у вигляді масиву

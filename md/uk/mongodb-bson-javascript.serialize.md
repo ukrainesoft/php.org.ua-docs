@@ -24,14 +24,14 @@ final public MongoDB\BSON\Javascript::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
+Повертає серіалізовану виставу [MongoDBBSONJavascript](class.mongodb-bson-javascript.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONJavascript::unserialize()](mongodb-bson-javascript.unserialize.html) - Десеріалізувати JavaScript
+-   [MongoDBBSONJavascript::unserialize()](mongodb-bson-javascript.unserialize.md) - Десеріалізувати JavaScript
 -   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

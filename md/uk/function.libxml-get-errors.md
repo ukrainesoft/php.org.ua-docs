@@ -107,5 +107,5 @@ Fatal Error 76: Opening and ending tag mismatch: titles line 4 and title
 
 ### Дивіться також
 
--   [libxmlgetlasterror()](function.libxml-get-last-error.html) - Вилучення останньої помилки з libxml
--   [libxmlclearerrors()](function.libxml-clear-errors.html) - Очищення буфера помилок libxml
+-   [libxmlgetlasterror()](function.libxml-get-last-error.md) - Вилучення останньої помилки з libxml
+-   [libxmlclearerrors()](function.libxml-clear-errors.md) - Очищення буфера помилок libxml

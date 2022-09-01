@@ -12,7 +12,7 @@ title: Клас PDOException
 
 ## Вступ
 
-Помилка, викликана PDO. Вам не слід викидати винятки **PDOException** зі свого коду. Для додаткової інформації про винятки в PHP дивіться розділ [Исключения](language.exceptions.html)
+Помилка, викликана PDO. Вам не слід викидати винятки **PDOException** зі свого коду. Для додаткової інформації про винятки в PHP дивіться розділ [Исключения](language.exceptions.md)
 
 ## Огляд класів
 
@@ -86,8 +86,8 @@ private Exception::__clone(): void
 
 errorInfo
 
-Відповідає [PDO::errorInfo()](pdo.errorinfo.html) або [PDOStatement::errorInfo()](pdostatement.errorinfo.html)
+Відповідає [PDO::errorInfo()](pdo.errorinfo.html) або [PDOStatement::errorInfo()](pdostatement.errorinfo.md)
 
 code
 
-Код помилки `SQLSTATE`. Щоб його отримати, використовуйте [Exception::getCode()](exception.getcode.html)
+Код помилки `SQLSTATE`. Щоб його отримати, використовуйте [Exception::getCode()](exception.getcode.md)

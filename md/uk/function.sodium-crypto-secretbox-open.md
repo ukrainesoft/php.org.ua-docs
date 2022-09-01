@@ -24,11 +24,11 @@ sodium_crypto_secretbox_open(string $ciphertext, string $nonce, string $key): st
 
 `ciphertext`
 
-Має бути у форматі, наданому [sodiumcryptosecretbox()](function.sodium-crypto-secretbox.html) (Зашифрований текст та тег, об'єднані).
+Має бути у форматі, наданому [sodiumcryptosecretbox()](function.sodium-crypto-secretbox.md) (Зашифрований текст та тег, об'єднані).
 
 `nonce`
 
-Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [randombytes()](function.random-bytes.html)
+Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [randombytes()](function.random-bytes.md)
 
 `key`
 
@@ -71,6 +71,6 @@ message to be encrypted
 
 ### Дивіться також
 
--   [sodiumcryptosecretbox()](function.sodium-crypto-secretbox.html) - Шифрування із загальним ключем з автентифікацією
--   [sodiumcryptosecretboxkeygen()](function.sodium-crypto-secretbox-keygen.html) - Створює випадковий ключ для sodiumcryptosecretbox
--   [randombytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти
+-   [sodiumcryptosecretbox()](function.sodium-crypto-secretbox.md) - Шифрування із загальним ключем з автентифікацією
+-   [sodiumcryptosecretboxkeygen()](function.sodium-crypto-secretbox-keygen.md) - Створює випадковий ключ для sodiumcryptosecretbox
+-   [randombytes()](function.random-bytes.md) - Генерує криптографічно безпечні псевдовипадкові байти

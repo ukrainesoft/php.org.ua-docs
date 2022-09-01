@@ -24,7 +24,7 @@ sodium_crypto_secretstream_xchacha20poly1305_init_pull(string $header, string $k
 
 `header`
 
-Заголовок secretstream. Має бути одне із значень, створених [sodiumcryptosecretstreamxchacha20poly1305initpush()](function.sodium-crypto-secretstream-xchacha20poly1305-init-push.html)
+Заголовок secretstream. Має бути одне із значень, створених [sodiumcryptosecretstreamxchacha20poly1305initpush()](function.sodium-crypto-secretstream-xchacha20poly1305-init-push.md)
 
 `key`
 

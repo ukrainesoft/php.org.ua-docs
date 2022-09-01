@@ -28,13 +28,13 @@ public mysqli::store_result(int $mode = 0): mysqli_result|false
 mysqli_store_result(mysqli $mysql, int $mode = 0): mysqli_result|false
 ```
 
-Надає результуючий набір останнього запиту на з'єднанні `mysql`. Подальша робота з цим набором здійснюється функцією [mysqlidataseek()](mysqli-result.data-seek.html)
+Надає результуючий набір останнього запиту на з'єднанні `mysql`. Подальша робота з цим набором здійснюється функцією [mysqlidataseek()](mysqli-result.data-seek.md)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 `mode`
 
@@ -52,19 +52,19 @@ mysqli_store_result(mysqli $mysql, int $mode = 0): mysqli_result|false
 
 > **Зауваження**
 > 
-> **mysqlistoreresult()** повертає \*\*`false`\*\*якщо запит не повертає результуючої таблиці (наприклад, у разі вираження INSERT). Також функція поверне \*\*`false`\*\*якщо дані з результуючого набору не вдалося прочитати. Наявність помилки можна перевірити функцією [mysqlierror()](mysqli.error.md), яка у разі поверне непустий рядок; [mysqlierrno()](mysqli.errno.md) поверне ненульове значення; і [mysqlifieldcount()](mysqli.field-count.html) також поверне ненульове значення. Також можливою причиною повернення **`false`** після успішного виклику [mysqliquery()](mysqli.query.md) може бути занадто великий результуючий набір (бракує пам'яті для його розміщення). Якщо функція [mysqlifieldcount()](mysqli.field-count.html) повертає ненульове значення, тож запит повернув непустий результуючий набір.
+> **mysqlistoreresult()** повертає \*\*`false`\*\*якщо запит не повертає результуючої таблиці (наприклад, у разі вираження INSERT). Також функція поверне \*\*`false`\*\*якщо дані з результуючого набору не вдалося прочитати. Наявність помилки можна перевірити функцією [mysqlierror()](mysqli.error.md), яка у разі поверне непустий рядок; [mysqlierrno()](mysqli.errno.md) поверне ненульове значення; і [mysqlifieldcount()](mysqli.field-count.html) також поверне ненульове значення. Також можливою причиною повернення **`false`** після успішного виклику [mysqliquery()](mysqli.query.md) може бути занадто великий результуючий набір (бракує пам'яті для його розміщення). Якщо функція [mysqlifieldcount()](mysqli.field-count.md) повертає ненульове значення, тож запит повернув непустий результуючий набір.
 
 ### Приклади
 
-Дивіться [mysqlimultiquery()](mysqli.multi-query.html)
+Дивіться [mysqlimultiquery()](mysqli.multi-query.md)
 
 ### Примітки
 
 > **Зауваження**
 > 
-> Навіть попри гарну практику очищати пам'ять, зайняту результатами запитів, за допомогою функції [mysqlifreeresult()](mysqli-result.free.html), якщо **mysqlistoreresult()** передає великий результуючий набір, може стати проблемою.
+> Навіть попри гарну практику очищати пам'ять, зайняту результатами запитів, за допомогою функції [mysqlifreeresult()](mysqli-result.free.md), якщо **mysqlistoreresult()** передає великий результуючий набір, може стати проблемою.
 
 ### Дивіться також
 
--   [mysqlirealquery()](mysqli.real-query.html) - Виконання SQL запиту
--   [mysqliuseresult()](mysqli.use-result.html) - Готує результуючий набір на сервері для використання
+-   [mysqlirealquery()](mysqli.real-query.md) - Виконання SQL запиту
+-   [mysqliuseresult()](mysqli.use-result.md) - Готує результуючий набір на сервері для використання

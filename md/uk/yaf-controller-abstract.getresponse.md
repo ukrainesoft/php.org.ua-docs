@@ -26,4 +26,4 @@ public Yaf_Controller_Abstract::getResponse(): Yaf_Response_Abstract
 
 ### Значення, що повертаються
 
-Екземпляр [YafResponseAbstract](class.yaf-response-abstract.html)
+Екземпляр [YafResponseAbstract](class.yaf-response-abstract.md)

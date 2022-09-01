@@ -20,13 +20,13 @@ ftp_nb_fput(    FTP\Connection $ftp,    string $remote_filename,    
 
 **ftpнбfput()** закачує дані з дескриптора файлу до віддаленого файлу на FTP-сервері.
 
-Різниця між цією функцією та [ftpfput()](function.ftp-fput.html) полягає в тому, що ця функція завантажує файл асинхронно, тому ваша програма може здійснювати інші операції, поки файл закачується.
+Різниця між цією функцією та [ftpfput()](function.ftp-fput.md) полягає в тому, що ця функція завантажує файл асинхронно, тому ваша програма може здійснювати інші операції, поки файл закачується.
 
 ### Список параметрів
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `remote_filename`
 
@@ -52,7 +52,7 @@ ftp_nb_fput(    FTP\Connection $ftp,    string $remote_filename,    
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
@@ -91,7 +91,7 @@ fclose($fp);
 
 ### Дивіться також
 
--   [ftpнбput()](function.ftp-nb-put.html) - Завантажує файл на сервер FTP в асинхронному режимі
--   [ftpнбcontinue()](function.ftp-nb-continue.html) - Продовжує асинхронну операцію
--   [ftpput()](function.ftp-put.html) - Завантажує файл на FTP-сервер
--   [ftpfput()](function.ftp-fput.html) - Завантажує попередньо відкритий файл на FTP-сервер
+-   [ftpнбput()](function.ftp-nb-put.md) - Завантажує файл на сервер FTP в асинхронному режимі
+-   [ftpнбcontinue()](function.ftp-nb-continue.md) - Продовжує асинхронну операцію
+-   [ftpput()](function.ftp-put.md) - Завантажує файл на FTP-сервер
+-   [ftpfput()](function.ftp-fput.md) - Завантажує попередньо відкритий файл на FTP-сервер

@@ -40,4 +40,4 @@ fann_get_sarprop_step_error_shift(resource $ann): float
 
 ### Дивіться також
 
--   [fannsetsarpropsteperrorshift()](function.fann-set-sarprop-step-error-shift.html) - Встановлює зрушення помилки кроку sarprop
+-   [fannsetsarpropsteperrorshift()](function.fann-set-sarprop-step-error-shift.md) - Встановлює зрушення помилки кроку sarprop

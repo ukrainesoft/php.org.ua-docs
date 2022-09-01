@@ -53,5 +53,5 @@ for ($i = 0; ibase_fetch_row($result); ++$i) {
 
 ### Дивіться також
 
--   [ibaseprepare()](function.ibase-prepare.html) - готує запит для подальшого зв'язування псевдозмінних та виконання
--   [ibaseexecute()](function.ibase-execute.html) - Виконує попередньо підготовлений запит
+-   [ibaseprepare()](function.ibase-prepare.md) - готує запит для подальшого зв'язування псевдозмінних та виконання
+-   [ibaseexecute()](function.ibase-execute.md) - Виконує попередньо підготовлений запит

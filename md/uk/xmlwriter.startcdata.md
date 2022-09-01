@@ -34,7 +34,7 @@ xmlwriter_start_cdata(XMLWriter $writer): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 ### Значення, що повертаються
 
@@ -44,9 +44,9 @@ xmlwriter_start_cdata(XMLWriter $writer): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::endCdata()](xmlwriter.endcdata.html) - Завершити поточну секцію CDATA
--   [XMLWriter::writeCdata()](xmlwriter.writecdata.html) - Записати повний тег CDATA
+-   [XMLWriter::endCdata()](xmlwriter.endcdata.md) - Завершити поточну секцію CDATA
+-   [XMLWriter::writeCdata()](xmlwriter.writecdata.md) - Записати повний тег CDATA

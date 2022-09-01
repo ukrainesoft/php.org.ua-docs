@@ -44,4 +44,4 @@ name
 
 ## Зміст
 
--   [Expression::construct](mysql-xdevapi-expression.construct.html) - Конструктор класу Expression
+-   [Expression::construct](mysql-xdevapi-expression.construct.md) - Конструктор класу Expression

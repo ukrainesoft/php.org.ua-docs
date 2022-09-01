@@ -30,7 +30,7 @@ wddx_add_vars(resource $packet_id, mixed $var_name, mixed ...$var_names): bool
 
 `packet_id`
 
-Пакет WDDX, що повертається [wddxpacketstart()](function.wddx-packet-start.html)
+Пакет WDDX, що повертається [wddxpacketstart()](function.wddx-packet-start.md)
 
 `var_name`
 

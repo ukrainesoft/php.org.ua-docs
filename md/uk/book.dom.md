@@ -143,4 +143,4 @@ title: Document Object Model
     -   [DOMXPath::registerNamespace](domxpath.registernamespace.md) — Реєструє простір імен з об'єктом DOMXPath
     -   [DOMXPath::registerPhpFunctions](domxpath.registerphpfunctions.md) - Реєстрація PHP-функцій як функцій XPath
 -   [Функции DOM](ref.dom.md)
-    -   [domimportsimplexml](function.dom-import-simplexml.html) — Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement
+    -   [domimportsimplexml](function.dom-import-simplexml.md) — Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement

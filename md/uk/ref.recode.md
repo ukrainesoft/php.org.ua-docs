@@ -10,6 +10,6 @@ title: Функції Recode
 
 ## Зміст
 
--   [recodefile](function.recode-file.html) — Перекодує з одного файлу до іншого відповідно до заданих параметрів
--   [recodestring](function.recode-string.html) — Перекодує рядок відповідно до заданих параметрів
--   [recode](function.recode.html) - Псевдонім recodestring
+-   [recodefile](function.recode-file.md) — Перекодує з одного файлу до іншого відповідно до заданих параметрів
+-   [recodestring](function.recode-string.md) — Перекодує рядок відповідно до заданих параметрів
+-   [recode](function.recode.md) - Псевдонім recodestring

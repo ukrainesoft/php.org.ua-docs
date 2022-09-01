@@ -24,7 +24,7 @@ curl_escape(CurlHandle $handle, string $string): string|false
 
 `handle`
 
-Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
 
 `string`
 
@@ -67,7 +67,7 @@ curl_close($ch);
 
 ### Дивіться також
 
--   [curlunescape()](function.curl-unescape.html) - Декодує закодований URL-рядок
+-   [curlunescape()](function.curl-unescape.md) - Декодує закодований URL-рядок
 -   [urlencode()](function.urlencode.md) - URL-кодування рядка
 -   [rawurlencode()](function.rawurlencode.md) - URL-кодування рядка згідно з RFC 3986
 -   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

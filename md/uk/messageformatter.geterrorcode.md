@@ -34,7 +34,7 @@ msgfmt_get_error_code(MessageFormatter $formatter): int
 
 `formatter`
 
-Об'єкт [MessageFormatter](class.messageformatter.html)
+Об'єкт [MessageFormatter](class.messageformatter.md)
 
 ### Значення, що повертаються
 
@@ -42,6 +42,6 @@ msgfmt_get_error_code(MessageFormatter $formatter): int
 
 ### Дивіться також
 
--   [msgfmtgeterrormessage()](messageformatter.geterrormessage.html) - Повертає текст помилки останньої операції
--   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
--   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
+-   [msgfmtgeterrormessage()](messageformatter.geterrormessage.md) - Повертає текст помилки останньої операції
+-   [intlgeterrorcode()](function.intl-get-error-code.md) - Отримати код останньої помилки
+-   [intlісfailure()](function.intl-is-failure.md) - Перевірити, чи є код помилки ознакою збою

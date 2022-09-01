@@ -10,7 +10,7 @@ title: 'GearmanClient::clone'
 
 (PECL gearman >= 0.5.0)
 
-GearmanClient::clone — Створити копію об'єкта [GearmanClient](class.gearmanclient.html)
+GearmanClient::clone — Створити копію об'єкта [GearmanClient](class.gearmanclient.md)
 
 ### Опис
 
@@ -18,7 +18,7 @@ GearmanClient::clone — Створити копію об'єкта [GearmanClien
 public GearmanClient::clone(): GearmanClient
 ```
 
-Створює копію об'єкта [GearmanClient](class.gearmanclient.html)
+Створює копію об'єкта [GearmanClient](class.gearmanclient.md)
 
 ### Список параметрів
 
@@ -26,4 +26,4 @@ public GearmanClient::clone(): GearmanClient
 
 ### Значення, що повертаються
 
-[GearmanClient](class.gearmanclient.html) у разі успішного виконання, **`false`** у разі невдачі.
+[GearmanClient](class.gearmanclient.md) у разі успішного виконання, **`false`** у разі невдачі.

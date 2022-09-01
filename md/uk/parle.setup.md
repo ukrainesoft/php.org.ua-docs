@@ -10,5 +10,5 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](parle.requirements.html)
--   [Установка](parle.installation.html)
+-   [Вимоги](parle.requirements.md)
+-   [Установка](parle.installation.md)

@@ -95,6 +95,6 @@ echo $str;
 
 -   Опис формату `%c` функції [sprintf()](function.sprintf.md)
 -   [ord()](function.ord.md)
--   [» Таблица ASCII-кодов](https://www.man7.org/linux/man-pages/man7/ascii.7.html)
--   [мбchr()](function.mb-chr.html)
+-   [» Таблица ASCII-кодов](https://www.man7.org/linux/man-pages/man7/ascii.7.md)
+-   [мбchr()](function.mb-chr.md)
 -   [IntlChar::chr()](intlchar.chr.md)

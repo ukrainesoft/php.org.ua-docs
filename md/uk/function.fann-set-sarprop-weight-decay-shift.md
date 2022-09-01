@@ -42,4 +42,4 @@ fann_set_sarprop_weight_decay_shift(resource $ann, float $sarprop_weight_decay_s
 
 ### Дивіться також
 
--   [fanngetsarpropweightdecayshift()](function.fann-get-sarprop-weight-decay-shift.html) - Повертає зсув зменшення ваги sarprop
+-   [fanngetsarpropweightdecayshift()](function.fann-get-sarprop-weight-decay-shift.md) - Повертає зсув зменшення ваги sarprop

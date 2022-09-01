@@ -10,5 +10,5 @@ title: Функції Igbinary
 
 ## Зміст
 
--   [igbinaryserialize](function.igbinary-serialize.html) — Створює компактне, двійкове уявлення, що зберігається.
--   [igbinaryunserialize](function.igbinary-unserialize.html) — Створює значення PHP із збереженого уявлення функцією igbinaryserialize
+-   [igbinaryserialize](function.igbinary-serialize.md) — Створює компактне, двійкове уявлення, що зберігається.
+-   [igbinaryunserialize](function.igbinary-unserialize.md) — Створює значення PHP із збереженого уявлення функцією igbinaryserialize

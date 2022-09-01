@@ -8,7 +8,7 @@ title: Конфігурація програми
 ---
 # Конфігурація програми
 
-Ви повинні встановити конфігурацію у вигляді масиву або INI файлу (Дивіться [YafConfigIni](class.yaf-config-ini.html)) у конструкторі [YafApplication::construct()](yaf-application.construct.html)
+Ви повинні встановити конфігурацію у вигляді масиву або INI файлу (Дивіться [YafConfigIni](class.yaf-config-ini.html)) у конструкторі [YafApplication::construct()](yaf-application.construct.md)
 
 Yaf автоматично об'єднає параметри програми та настройки користувача. Конфігурація додатків має префікс "yaf." або "application.". Якщо вказано обидва "yaf." та "application.", перевага буде віддана "application.".
 
@@ -70,7 +70,7 @@ product : yaf; user configuration list here
 
 `application.ext` string
 
-Розширення файлів PHP-скриптів, що використовуються в класі автозавантаження ( [YafLoader](class.yaf-loader.html)
+Розширення файлів PHP-скриптів, що використовуються в класі автозавантаження ( [YafLoader](class.yaf-loader.md)
 
 `application.view.ext` string
 
@@ -84,7 +84,7 @@ Yaf повинен мати можливість зрозуміти, чи є п�
 
 `application.library` string
 
-Локальний каталог з бібліотеками, дивіться [YafLoader](class.yaf-loader.html) і [yaf.library](yaf.configuration.html#ini.yaf.library)
+Локальний каталог з бібліотеками, дивіться [YafLoader](class.yaf-loader.md) і [yaf.library](yaf.configuration.html#ini.yaf.library)
 
 > **Зауваження**
 > 
@@ -112,27 +112,27 @@ Yaf повинен мати можливість зрозуміти, чи є п�
 
 `application.dispatcher.throwException` bool
 
-Якщо встановлено як On, Yaf викидатиме винятки у разі виникнення помилок. Також дивіться [YafDispatcher::throwException()](yaf-dispatcher.throwexception.html)
+Якщо встановлено як On, Yaf викидатиме винятки у разі виникнення помилок. Також дивіться [YafDispatcher::throwException()](yaf-dispatcher.throwexception.md)
 
 `application.dispatcher.catchException` bool
 
-Якщо встановлено як On, Yaf надсилатиме не оброблені винятки в контролер Помилок/Дій. Також дивіться [YafDispatcher::catchException()](yaf-dispatcher.catchexception.html)
+Якщо встановлено як On, Yaf надсилатиме не оброблені винятки в контролер Помилок/Дій. Також дивіться [YafDispatcher::catchException()](yaf-dispatcher.catchexception.md)
 
 `application.dispatcher.defaultRoute` string
 
-Маршрутизація за замовчуванням, якщо не задано, то за промовчанням буде використаний маршрут Static. Дивіться: [YafRouter::addRoute()](yaf-router.addroute.html)
+Маршрутизація за замовчуванням, якщо не задано, то за промовчанням буде використаний маршрут Static. Дивіться: [YafRouter::addRoute()](yaf-router.addroute.md)
 
 `application.dispatcher.defaultModule` string
 
-Ім'я модуля за замовчуванням також дивіться [YafDispatcher::setDefaultModule()](yaf-dispatcher.setdefaultmodule.html)
+Ім'я модуля за замовчуванням також дивіться [YafDispatcher::setDefaultModule()](yaf-dispatcher.setdefaultmodule.md)
 
 `application.dispatcher.defaultController` string
 
-Ім'я контролера за замовчуванням, також дивіться [YafDispatcher::setDefaultController()](yaf-dispatcher.setdefaultcontroller.html)
+Ім'я контролера за замовчуванням, також дивіться [YafDispatcher::setDefaultController()](yaf-dispatcher.setdefaultcontroller.md)
 
 `application.dispatcher.defaultAction` string
 
-Ім'я дії за замовчуванням також дивіться [YafDispatcher::setDefaultAction()](yaf-dispatcher.setdefaultaction.html)
+Ім'я дії за замовчуванням також дивіться [YafDispatcher::setDefaultAction()](yaf-dispatcher.setdefaultaction.md)
 
 `application.system` string
 

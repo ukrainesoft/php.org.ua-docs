@@ -88,13 +88,13 @@ if ($pos2 !== false) {
 
 ### Дивіться також
 
--   [мбstripos()](function.mb-stripos.html) - Реєстронезалежний пошук позиції першого входження одного рядка в інший
--   [strcontains()](function.str-contains.html) - Визначає, чи містить рядок заданий підрядок
--   [strendswith()](function.str-ends-with.html) - Перевіряє, чи закінчується рядок заданим підрядком
--   [strstartswith()](function.str-starts-with.html) - Перевіряє, чи починається рядок із заданого підрядка
+-   [мбstripos()](function.mb-stripos.md) - Реєстронезалежний пошук позиції першого входження одного рядка в інший
+-   [strcontains()](function.str-contains.md) - Визначає, чи містить рядок заданий підрядок
+-   [strendswith()](function.str-ends-with.md) - Перевіряє, чи закінчується рядок заданим підрядком
+-   [strstartswith()](function.str-starts-with.md) - Перевіряє, чи починається рядок із заданого підрядка
 -   [strpos()](function.strpos.md) - Повертає позицію першого входження підрядка
 -   [strrpos()](function.strrpos.md) - Повертає позицію останнього входження підрядка у рядку
 -   [strripos()](function.strripos.md) - Повертає позицію останнього входження підрядка без урахування регістру
 -   [stristr()](function.stristr.md) - Реєстронезалежний варіант функції strstr
 -   [substr()](function.substr.md) - Повертає підрядок
--   [strireplace()](function.str-ireplace.html) - Реєстронезалежний варіант функції strreplace
+-   [strireplace()](function.str-ireplace.md) - Реєстронезалежний варіант функції strreplace

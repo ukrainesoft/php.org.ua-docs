@@ -18,7 +18,7 @@ jsonlasterrormsg — Повертає рядок з повідомленням �
 json_last_error_msg(): string
 ```
 
-Повертає текстовий опис останньої помилки, що сталася під час виконання [jsonencode()](function.json-encode.html) або [jsondecode()](function.json-decode.html) без прапора **`JSON_THROW_ON_ERROR`**
+Повертає текстовий опис останньої помилки, що сталася під час виконання [jsonencode()](function.json-encode.html) або [jsondecode()](function.json-decode.md) без прапора **`JSON_THROW_ON_ERROR`**
 
 ### Список параметрів
 
@@ -30,4 +30,4 @@ json_last_error_msg(): string
 
 ### Дивіться також
 
--   [jsonlasterror()](function.json-last-error.html) - Повертає останню помилку
+-   [jsonlasterror()](function.json-last-error.md) - Повертає останню помилку

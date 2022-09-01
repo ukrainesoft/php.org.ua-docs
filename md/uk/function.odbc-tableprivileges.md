@@ -24,7 +24,7 @@ odbc_tableprivileges(    resource $odbc,    ?string $catalog,    str
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.md)
 
 `catalog`
 
@@ -88,4 +88,4 @@ Array
 
 ### Дивіться також
 
--   [odbctables()](function.odbc-tables.html) - Отримує список імен таблиць, що зберігаються у певному джерелі даних
+-   [odbctables()](function.odbc-tables.md) - Отримує список імен таблиць, що зберігаються у певному джерелі даних

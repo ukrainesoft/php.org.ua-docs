@@ -48,6 +48,6 @@ $stderr_stream = ssh2_fetch_stream($stdio_stream, SSH2_STREAM_STDERR);
 
 ### Дивіться також
 
--   [ssh2shell()](function.ssh2-shell.html) - запитує інтерактивний термінал
--   [ssh2exec()](function.ssh2-exec.html) - Виконання команди на віддаленому сервері
--   [ssh2connect()](function.ssh2-connect.html) - Підключення до SSH-сервера
+-   [ssh2shell()](function.ssh2-shell.md) - запитує інтерактивний термінал
+-   [ssh2exec()](function.ssh2-exec.md) - Виконання команди на віддаленому сервері
+-   [ssh2connect()](function.ssh2-connect.md) - Підключення до SSH-сервера

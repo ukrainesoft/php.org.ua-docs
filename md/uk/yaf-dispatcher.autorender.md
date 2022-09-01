@@ -18,7 +18,7 @@ YafDispatcher::autoRender — Включає/вимикає авторендер
 public Yaf_Dispatcher::autoRender(bool $flag = ?): Yaf_Dispatcher
 ```
 
-[YafDispatcher](class.yaf-dispatcher.html) буде відображатися автоматично після надсилання вхідного запиту. Ви можете запобігти рендерингу, викликавши цей метод за допомогою `flag` **`true`**
+[YafDispatcher](class.yaf-dispatcher.md) буде відображатися автоматично після надсилання вхідного запиту. Ви можете запобігти рендерингу, викликавши цей метод за допомогою `flag` **`true`**
 
 > **Зауваження**
 > 

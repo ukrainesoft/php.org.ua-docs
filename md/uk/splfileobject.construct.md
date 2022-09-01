@@ -30,11 +30,11 @@ bool `$useIncludePath` **`false`**
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.html)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 `mode`
 
-Режим роботи із файлом. Список можливих режимів роботи наведено в описі функції [fopen()](function.fopen.html)
+Режим роботи із файлом. Список можливих режимів роботи наведено в описі функції [fopen()](function.fopen.md)
 
 `useIncludePath`
 
@@ -42,13 +42,13 @@ bool `$useIncludePath` **`false`**
 
 `context`
 
-Допустимий ресурс контексту, створений функцією [streamcontextcreate()](function.stream-context-create.html)
+Допустимий ресурс контексту, створений функцією [streamcontextcreate()](function.stream-context-create.md)
 
 ### Помилки
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), якщо файл `filename` неможливо відкрити.
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо файл `filename` неможливо відкрити.
 
-Викидає виняток [LogicException](class.logicexception.html), якщо `filename` є каталогом.
+Викидає виняток [LogicException](class.logicexception.md), якщо `filename` є каталогом.
 
 ### Приклади
 
@@ -78,5 +78,5 @@ foreach ($file as $line_num => $line) {
 
 ### Дивіться також
 
--   [SplFileInfo::openFile()](splfileinfo.openfile.html) - Отримує об'єкт SplFileObject для файлу
--   [fopen()](function.fopen.html) - Відкриває файл або URL
+-   [SplFileInfo::openFile()](splfileinfo.openfile.md) - Отримує об'єкт SplFileObject для файлу
+-   [fopen()](function.fopen.md) - Відкриває файл або URL

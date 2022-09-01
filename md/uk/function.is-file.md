@@ -64,6 +64,6 @@ bool(false)
 
 ### Дивіться також
 
--   [ісdir()](function.is-dir.html) - Визначає, чи є ім'я файлу директорією
--   [ісlink()](function.is-link.html) - Визначає, чи є файл символічним посиланням
+-   [ісdir()](function.is-dir.md) - Визначає, чи є ім'я файлу директорією
+-   [ісlink()](function.is-link.md) - Визначає, чи є файл символічним посиланням
 -   [SplFileInfo](class.splfileinfo.md)

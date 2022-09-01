@@ -44,5 +44,5 @@ ldap_err2str(int $errno): string
 
 ### Дивіться також
 
--   [ldaperrno()](function.ldap-errno.html) - Повернути номер помилки LDAP останньої команди
--   [ldaperror()](function.ldap-error.html) - Повернути повідомлення про помилку LDAP останньої команди
+-   [ldaperrno()](function.ldap-errno.md) - Повернути номер помилки LDAP останньої команди
+-   [ldaperror()](function.ldap-error.md) - Повернути повідомлення про помилку LDAP останньої команди

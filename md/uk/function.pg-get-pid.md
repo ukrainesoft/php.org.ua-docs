@@ -18,13 +18,13 @@ title: пгgetpid
 pg_get_pid(PgSql\Connection $connection): int
 ```
 
-**пгgetpid()** отримує PID сервер бази даних. PID корисний, коли потрібно визначити, який процес надіслав `NOTIFY` повідомлення, прийняте функцією [пгgetnotify()](function.pg-get-notify.html) (точніше дізнатися, сервер його відправив чи якийсь інший процес).
+**пгgetpid()** отримує PID сервер бази даних. PID корисний, коли потрібно визначити, який процес надіслав `NOTIFY` повідомлення, прийняте функцією [пгgetnotify()](function.pg-get-notify.md) (точніше дізнатися, сервер його відправив чи якийсь інший процес).
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md)
 
 ### Значення, що повертаються
 
@@ -34,7 +34,7 @@ ID процесу сервера бази даних.
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -55,4 +55,4 @@ $pid = pg_get_pid($conn);
 
 ### Дивіться також
 
--   [пгgetnotify()](function.pg-get-notify.html) - Отримання SQL NOTIFY повідомлення
+-   [пгgetnotify()](function.pg-get-notify.md) - Отримання SQL NOTIFY повідомлення

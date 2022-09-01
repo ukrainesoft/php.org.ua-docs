@@ -93,4 +93,4 @@ sqlstate
 
 ## Зміст
 
--   [mysqlisqlexception::getSqlState](mysqli-sql-exception.getsqlstate.html) — Повертає код помилки SQLSTATE
+-   [mysqlisqlexception::getSqlState](mysqli-sql-exception.getsqlstate.md) — Повертає код помилки SQLSTATE

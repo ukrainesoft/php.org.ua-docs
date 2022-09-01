@@ -18,17 +18,17 @@ title: псshadingpattern
 ps_shading_pattern(resource $psdoc, int $shadingid, string $optlist): int|false
 ```
 
-Створює візерунок на основі затінення, яке має бути створене раніше за допомогою [псshading()](function.ps-shading.html). Затінення шаблони можна використовувати як звичайні шаблони.
+Створює візерунок на основі затінення, яке має бути створене раніше за допомогою [псshading()](function.ps-shading.md). Затінення шаблони можна використовувати як звичайні шаблони.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `shadingid`
 
-Ідентифікатор затінення, створеного раніше за допомогою [псshading()](function.ps-shading.html)
+Ідентифікатор затінення, створеного раніше за допомогою [псshading()](function.ps-shading.md)
 
 `optlist`
 
@@ -40,5 +40,5 @@ ps_shading_pattern(resource $psdoc, int $shadingid, string $optlist): int|false
 
 ### Дивіться також
 
--   [псshading()](function.ps-shading.html) - Створює затінення для подальшого використання
--   [псshfill()](function.ps-shfill.html) - Заповнює область затіненням
+-   [псshading()](function.ps-shading.md) - Створює затінення для подальшого використання
+-   [псshfill()](function.ps-shfill.md) - Заповнює область затіненням

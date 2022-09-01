@@ -20,7 +20,7 @@ session_cache_expire(?int $value = null): int|false
 
 **sessioncacheexpire()** повертає поточне значення налаштування `session.cache_expire`
 
-Термін дії скидається до значення за промовчанням (180), що зберігається в [session.cacheexpire](session.configuration.html#ini.session.cache-expire) під час запиту. Таким чином, потрібно викликати **sessioncacheexpire()** для кожного запиту (і до дзвінка [sessionstart()](function.session-start.html)
+Термін дії скидається до значення за промовчанням (180), що зберігається в [session.cacheexpire](session.configuration.html#ini.session.cache-expire) під час запиту. Таким чином, потрібно викликати **sessioncacheexpire()** для кожного запиту (і до дзвінка [sessionstart()](function.session-start.md)
 
 ### Список параметрів
 
@@ -69,4 +69,4 @@ echo "Закешированные страницы сессии истек�
 
 -   [session.cacheexpire](session.configuration.html#ini.session.cache-expire)
 -   [session.cachelimiter](session.configuration.html#ini.session.cache-limiter)
--   [sessioncachelimiter()](function.session-cache-limiter.html) - Отримати та/або встановити поточний режим кешування
+-   [sessioncachelimiter()](function.session-cache-limiter.md) - Отримати та/або встановити поточний режим кешування

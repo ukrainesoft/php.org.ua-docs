@@ -41,25 +41,25 @@ final
    ): EvPeriodic
 ```
 
-Створює зупинений спостерігач EvPeriodic. На відміну від [EvPeriodic::construct()](evperiodic.construct.html), цей метод не запускає спостерігача автоматично.
+Створює зупинений спостерігач EvPeriodic. На відміну від [EvPeriodic::construct()](evperiodic.construct.md), цей метод не запускає спостерігача автоматично.
 
 ### Список параметрів
 
 `offset`
 
-Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.html)
+Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.md)
 
 `interval`
 
-Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.html)
+Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.md)
 
 `reschedule_cb`
 
-Перепризначити callback-функцію. Ви можете передати **`null`**. Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.html)
+Перепризначити callback-функцію. Ви можете передати **`null`**. Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.md)
 
 `callback`
 
-Дивіться [Callback-функції спостерігачів](ev.watcher-callbacks.html)
+Дивіться [Callback-функції спостерігачів](ev.watcher-callbacks.md)
 
 `data`
 
@@ -75,5 +75,5 @@ final
 
 ### Дивіться також
 
--   [EvPeriodic::construct()](evperiodic.construct.html) - Конструктор об'єкта спостерігача EvPeriodic
--   [EvTimer::createStopped()](evtimer.createstopped.html) - створює зупинений спостерігач EvTimer
+-   [EvPeriodic::construct()](evperiodic.construct.md) - Конструктор об'єкта спостерігача EvPeriodic
+-   [EvTimer::createStopped()](evtimer.createstopped.md) - створює зупинений спостерігач EvTimer

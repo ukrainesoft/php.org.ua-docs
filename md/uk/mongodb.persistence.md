@@ -10,7 +10,7 @@ title: Серіалізація та десеріалізація змінних
 
 ## Зміст
 
--   [Сериализация в BSON](mongodb.persistence.serialization.html)
--   [Десериализация из BSON](mongodb.persistence.deserialization.html)
+-   [Сериализация в BSON](mongodb.persistence.serialization.md)
+-   [Десериализация из BSON](mongodb.persistence.deserialization.md)
 
 Цей документ обговорює методи, як складові структури (документи, масиви, об'єкти) зберігаються через драйвери. І як вони повертаються назад до PHP.

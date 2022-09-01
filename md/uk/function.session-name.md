@@ -20,9 +20,9 @@ session_name(?string $name = null): string|false
 
 **sessionname()** повертає ім'я поточної сесії. Якщо встановлено параметр `name` **sessionname()** оновить ім'я сесії та поверне *старе* ім'я сесії.
 
-Якщо нове ім'я сесії (`name`) надано, **sessionname()** змінює cookie HTTP (і виводить вміст при включеній опції `session.transid`). Коли cookie HTTP надіслано, **sessionname()** викликає помилку . **sessionname()** необхідно викликати до [sessionstart()](function.session-start.html) для правильної роботи сесії
+Якщо нове ім'я сесії (`name`) надано, **sessionname()** змінює cookie HTTP (і виводить вміст при включеній опції `session.transid`). Коли cookie HTTP надіслано, **sessionname()** викликає помилку . **sessionname()** необхідно викликати до [sessionstart()](function.session-start.md) для правильної роботи сесії
 
-Ім'я сесії скидаються на значення за умовчанням, що зберігається в `session.name` під час запуску запиту. Таким чином, вам потрібно викликати **sessionname()** для кожного запиту (і до [sessionstart()](function.session-start.html)
+Ім'я сесії скидаються на значення за умовчанням, що зберігається в `session.name` під час запуску запиту. Таким чином, вам потрібно викликати **sessionname()** для кожного запиту (і до [sessionstart()](function.session-start.md)
 
 ### Список параметрів
 
@@ -43,7 +43,7 @@ session_name(?string $name = null): string|false
 | Версия | Описание |
 | --- | --- |
 |  | `module` тепер може бути **`null`** |
-|  | **sessionname()** перевіряє статус сесії, раніше вона перевіряла лише статус cookie. Тому стара версія **sessionname()** дозволяла викликати **sessionname()** після [sessionstart()](function.session-start.html), що могло призвести до збою PHP та неправильної поведінки. |
+|  | **sessionname()** перевіряє статус сесії, раніше вона перевіряла лише статус cookie. Тому стара версія **sessionname()** дозволяла викликати **sessionname()** після [sessionstart()](function.session-start.md), що могло призвести до збою PHP та неправильної поведінки. |
 
 ### Приклади
 

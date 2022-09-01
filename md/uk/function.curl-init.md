@@ -18,13 +18,13 @@ curlinit - Ініціалізує сеанс cURL
 curl_init(?string $url = null): CurlHandle|false
 ```
 
-Ініціалізує новий сеанс cURL та повертає дескриптор, який використовується з функціями [curlsetopt()](function.curl-setopt.html) [curlexec()](function.curl-exec.html) і [curlclose()](function.curl-close.html)
+Ініціалізує новий сеанс cURL та повертає дескриптор, який використовується з функціями [curlsetopt()](function.curl-setopt.html) [curlexec()](function.curl-exec.html) і [curlclose()](function.curl-close.md)
 
 ### Список параметрів
 
 `url`
 
-Якщо вказано, опція **`CURLOPT_URL`** буде автоматично встановлено значення цього аргументу. Ви можете вручну встановити цю опцію за допомогою функції [curlsetopt()](function.curl-setopt.html)
+Якщо вказано, опція **`CURLOPT_URL`** буде автоматично встановлено значення цього аргументу. Ви можете вручну встановити цю опцію за допомогою функції [curlsetopt()](function.curl-setopt.md)
 
 > **Зауваження**
 > 
@@ -64,5 +64,5 @@ curl_close($ch);
 
 ### Дивіться також
 
--   [curlclose()](function.curl-close.html) - Завершує сеанс cURL
--   [curlmultiinit()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів
+-   [curlclose()](function.curl-close.md) - Завершує сеанс cURL
+-   [curlmultiinit()](function.curl-multi-init.md) - Створює набір cURL-дескрипторів

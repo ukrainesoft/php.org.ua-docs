@@ -10,6 +10,6 @@ title: Типи ресурсів
 
 Цей модуль оперує такими ресурсами: connection та objecthandle.
 
-Функції [mqseriesconn()](function.mqseries-conn.html) і [mqseriesconnx()](function.mqseries-connx.html) повертають обробники з'єднання.
+Функції [mqseriesconn()](function.mqseries-conn.html) і [mqseriesconnx()](function.mqseries-connx.md) повертають обробники з'єднання.
 
-Функція [mqseriesopen()](function.mqseries-open.html) повертає оброблювач об'єкта.
+Функція [mqseriesopen()](function.mqseries-open.md) повертає оброблювач об'єкта.

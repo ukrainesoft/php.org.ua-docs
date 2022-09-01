@@ -127,7 +127,7 @@ $handle = fopen("ftp://user:password@example.com/somefile.txt", "w");
 
 > **Зауваження**
 > 
-> Ця функція також може приймати директорії як параметр `filename`. Якщо ви не знаєте, чи є `filename` файлом або директорією, то вам може знадобитися використовувати функцію [ісdir()](function.is-dir.html) до виклику функції **fopen()**
+> Ця функція також може приймати директорії як параметр `filename`. Якщо ви не знаєте, чи є `filename` файлом або директорією, то вам може знадобитися використовувати функцію [ісdir()](function.is-dir.md) до виклику функції **fopen()**
 
 ### Дивіться також
 
@@ -138,10 +138,10 @@ $handle = fopen("ftp://user:password@example.com/somefile.txt", "w");
 -   [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл
 -   [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
 -   [file()](function.file.md) - Читає вміст файлу та поміщає його в масив
--   [fileexists()](function.file-exists.html) - Перевіряє існування вказаного файлу чи каталогу
--   [ісreadable()](function.is-readable.html) - Визначає існування файлу і чи він доступний для читання
--   [streamsettimeout()](function.stream-set-timeout.html) - Встановити значення часу очікування потоку
+-   [fileexists()](function.file-exists.md) - Перевіряє існування вказаного файлу чи каталогу
+-   [ісreadable()](function.is-readable.md) - Визначає існування файлу і чи він доступний для читання
+-   [streamsettimeout()](function.stream-set-timeout.md) - Встановити значення часу очікування потоку
 -   [popen()](function.popen.md) - Відкриває файловий покажчик процесу
--   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку
+-   [streamcontextcreate()](function.stream-context-create.md) - Створює контекст потоку
 -   [umask()](function.umask.md) - Змінює поточну umask
 -   [SplFileObject](class.splfileobject.md)

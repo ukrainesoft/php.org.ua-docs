@@ -24,7 +24,7 @@ fdf_set_flags(    resource $fdf_document,    string $fieldname,    i
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.md)
 
 `fieldname`
 
@@ -40,4 +40,4 @@ fdf_set_flags(    resource $fdf_document,    string $fieldname,    i
 
 ### Дивіться також
 
--   [fdfsetopt()](function.fdf-set-opt.html) - Встановлює параметри поля
+-   [fdfsetopt()](function.fdf-set-opt.md) - Встановлює параметри поля

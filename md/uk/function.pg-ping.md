@@ -24,7 +24,7 @@ pg_ping(?PgSql\Connection $connection = null): bool
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -38,7 +38,7 @@ pg_ping(?PgSql\Connection $connection = null): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `connection` тепер допускає значення null. |
 
 ### Приклади
@@ -60,5 +60,5 @@ if (!pg_ping($conn))
 
 ### Дивіться також
 
--   [пгconnectionstatus()](function.pg-connection-status.html) - Визначає стан підключення
--   [пгconnectionreset()](function.pg-connection-reset.html) - Скидання підключення (перепідключення)
+-   [пгconnectionstatus()](function.pg-connection-status.md) - Визначає стан підключення
+-   [пгconnectionreset()](function.pg-connection-reset.md) - Скидання підключення (перепідключення)

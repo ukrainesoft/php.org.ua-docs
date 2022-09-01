@@ -52,5 +52,5 @@ mb_strrchr(    string $haystack,    string $needle,    bool $before_
 ### Дивіться також
 
 -   [strrchr()](function.strrchr.md) - Знаходить останнє входження символу у рядку
--   [мбstrstr()](function.mb-strstr.html) - Знаходить перше входження підрядка у рядку
--   [мбstrrichr()](function.mb-strrichr.html) - Пошук останнього входження одного рядка в інший, нечутливий до регістру
+-   [мбstrstr()](function.mb-strstr.md) - Знаходить перше входження підрядка у рядку
+-   [мбstrrichr()](function.mb-strrichr.md) - Пошук останнього входження одного рядка в інший, нечутливий до регістру

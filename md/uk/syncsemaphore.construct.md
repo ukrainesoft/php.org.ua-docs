@@ -44,7 +44,7 @@ public SyncSemaphore::__construct(string $name = ?, int $initialval = 1, bool $a
 
 ### Значення, що повертаються
 
-Новий об'єкт [SyncSemaphore](class.syncsemaphore.html)
+Новий об'єкт [SyncSemaphore](class.syncsemaphore.md)
 
 ### Помилки
 
@@ -73,5 +73,5 @@ $semaphore->unlock();
 
 ### Дивіться також
 
--   [SyncSemaphore::lock()](syncsemaphore.lock.html) - Зменшує рахунок семафора або чекає
--   [SyncSemaphore::unlock()](syncsemaphore.unlock.html) - Збільшує рахунок семафору
+-   [SyncSemaphore::lock()](syncsemaphore.lock.md) - Зменшує рахунок семафора або чекає
+-   [SyncSemaphore::unlock()](syncsemaphore.unlock.md) - Збільшує рахунок семафору

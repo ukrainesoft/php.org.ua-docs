@@ -25,7 +25,7 @@ public
    ): int
 ```
 
-Поводиться так само, як [EventBuffer::read()](eventbuffer.read.html)але не виводить дані з буфера. Тобто він копіює перші байти `max_bytes` з початку буфера в `data`. Якщо доступно менше `max_bytes`, функція копіює всі наявні байти.
+Поводиться так само, як [EventBuffer::read()](eventbuffer.read.md)але не виводить дані з буфера. Тобто він копіює перші байти `max_bytes` з початку буфера в `data`. Якщо доступно менше `max_bytes`, функція копіює всі наявні байти.
 
 ### Список параметрів
 
@@ -43,5 +43,5 @@ public
 
 ### Дивіться також
 
--   [EventBuffer::read()](eventbuffer.read.html) - Читає дані з evbuffer та виснажує прочитані байти
--   [EventBuffer::appendFrom()](eventbuffer.appendfrom.html) - Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера
+-   [EventBuffer::read()](eventbuffer.read.md) - Читає дані з evbuffer та виснажує прочитані байти
+-   [EventBuffer::appendFrom()](eventbuffer.appendfrom.md) - Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера

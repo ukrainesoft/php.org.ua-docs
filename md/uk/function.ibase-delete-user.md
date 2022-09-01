@@ -34,5 +34,5 @@ ibase_delete_user(resource $service_handle, string $user_name): bool
 
 ### Дивіться також
 
--   [ibaseadduser()](function.ibase-add-user.html) - Додає користувача до безпечної бази даних
--   [ibasemodifyuser()](function.ibase-modify-user.html) - Змінює користувача у безпечній базі даних
+-   [ibaseadduser()](function.ibase-add-user.md) - Додає користувача до безпечної бази даних
+-   [ibasemodifyuser()](function.ibase-modify-user.md) - Змінює користувача у безпечній базі даних

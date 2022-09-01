@@ -42,7 +42,7 @@ public SimpleXMLElement::addAttribute(string $qualifiedName, string $value, ?str
 
 > **Зауваження**
 > 
-> Перелічені приклади можуть містити `example.php`, в якому визначається XML-рядок, розташована в першому прикладі посібника з [базовому использованию](simplexml.examples-basic.html)
+> Перелічені приклади можуть містити `example.php`, в якому визначається XML-рядок, розташована в першому прикладі посібника з [базовому использованию](simplexml.examples-basic.md)
 
 **Приклад #1 Додавання атрибутів та нащадків до SimpleXML-елементу**
 
@@ -116,4 +116,4 @@ echo $sxe->asXML();
 ### Дивіться також
 
 -   [SimpleXMLElement::addChild()](simplexmlelement.addchild.md) - Додає дочірній елемент до сайту XML
--   [Базовое использование SimpleXML](simplexml.examples-basic.html)
+-   [Базовое использование SimpleXML](simplexml.examples-basic.md)

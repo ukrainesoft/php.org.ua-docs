@@ -28,7 +28,7 @@ enchant_broker_get_dict_path(EnchantBroker $broker, int $type): string|false
 
 `broker`
 
-Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.md)
 
 `type`
 
@@ -52,4 +52,4 @@ enchant_broker_get_dict_path(EnchantBroker $broker, int $type): string|false
 
 ### Дивіться також
 
--   [enchantbrokersetdictpath()](function.enchant-broker-set-dict-path.html) - Встановити шлях для заданого бекенду
+-   [enchantbrokersetdictpath()](function.enchant-broker-set-dict-path.md) - Встановити шлях для заданого бекенду

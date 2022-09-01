@@ -31,6 +31,6 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::getCommand()](eventhttprequest.getcommand.html) - Повертає команду запиту (метод)
--   [EventHttpRequest::getHost()](eventhttprequest.gethost.html) - Повертає хост запиту
--   [EventHttpRequest::getResponseCode()](eventhttprequest.getresponsecode.html) - Повертає код відповіді
+-   [EventHttpRequest::getCommand()](eventhttprequest.getcommand.md) - Повертає команду запиту (метод)
+-   [EventHttpRequest::getHost()](eventhttprequest.gethost.md) - Повертає хост запиту
+-   [EventHttpRequest::getResponseCode()](eventhttprequest.getresponsecode.md) - Повертає код відповіді

@@ -10,13 +10,13 @@ title: 'mysqlistmt::construct'
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::construct — Конструктор для об'єкту [mysqlistmt](class.mysqli-stmt.html)
+mysqlistmt::construct — Конструктор для об'єкту [mysqlistmt](class.mysqli-stmt.md)
 
 ### Опис
 
 public **mysqlistmt::construct**[mysqli](class.mysqli.md) `$mysql`, ?string `$query` **`null`**
 
-Цей метод створює новий об'єкт класу [mysqlistmt](class.mysqli-stmt.html)
+Цей метод створює новий об'єкт класу [mysqlistmt](class.mysqli-stmt.md)
 
 ### Список параметрів
 
@@ -26,7 +26,7 @@ public **mysqlistmt::construct**[mysqli](class.mysqli.md) `$mysql`, ?string `$qu
 
 `query`
 
-Рядок, що містить SQL-запит. Якщо цей параметр **`null`**, то результат буде аналогічним виклику [mysqlistmtinit()](mysqli.stmt-init.html), інакше результат буде аналогічний виклику [mysqliprepare()](mysqli.prepare.md)
+Рядок, що містить SQL-запит. Якщо цей параметр **`null`**, то результат буде аналогічним виклику [mysqlistmtinit()](mysqli.stmt-init.md), інакше результат буде аналогічний виклику [mysqliprepare()](mysqli.prepare.md)
 
 ### список змін
 
@@ -37,4 +37,4 @@ public **mysqlistmt::construct**[mysqli](class.mysqli.md) `$mysql`, ?string `$qu
 ### Дивіться також
 
 -   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
--   [mysqlistmtinit()](mysqli.stmt-init.html) - Ініціалізує запит та повертає об'єкт для використання у mysqlistmtprepare
+-   [mysqlistmtinit()](mysqli.stmt-init.md) - Ініціалізує запит та повертає об'єкт для використання у mysqlistmtprepare

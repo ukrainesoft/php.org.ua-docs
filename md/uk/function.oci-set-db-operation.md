@@ -30,7 +30,7 @@ oci_set_db_operation(resource $connection, string $action): bool
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html), або [ocinewconnect()](function.oci-new-connect.html)
+Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html), або [ocinewconnect()](function.oci-new-connect.md)
 
 `action`
 
@@ -80,7 +80,7 @@ SQL> select dbop_name from v$sql_monitor;
 
 ### Дивіться також
 
--   [ocisetaction()](function.oci-set-action.html) - Вказує ім'я для дії
--   [ocisetmodulename()](function.oci-set-module-name.html) - Задає ім'я модулю
--   [ocisetclientinfo()](function.oci-set-client-info.html) - Задає інформацію про клієнта
--   [ocisetclientidentifier()](function.oci-set-client-identifier.html) - задає ідентифікатор клієнта
+-   [ocisetaction()](function.oci-set-action.md) - Вказує ім'я для дії
+-   [ocisetmodulename()](function.oci-set-module-name.md) - Задає ім'я модулю
+-   [ocisetclientinfo()](function.oci-set-client-info.md) - Задає інформацію про клієнта
+-   [ocisetclientidentifier()](function.oci-set-client-identifier.md) - задає ідентифікатор клієнта

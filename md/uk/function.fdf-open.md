@@ -20,13 +20,13 @@ fdf_open(string $filename): resource
 
 Відкриває файл із даними форми.
 
-Ви також можете використовувати [fdfopenstring()](function.fdf-open-string.html) для обробки результатів POST-запиту PDF-форми.
+Ви також можете використовувати [fdfopenstring()](function.fdf-open-string.md) для обробки результатів POST-запиту PDF-форми.
 
 ### Список параметрів
 
 `filename`
 
-Шлях до файлу FDF. Файл повинен містити дані, повернені з форми PDF або створені за допомогою [fdfcreate()](function.fdf-create.html) і [fdfsave()](function.fdf-save.html)
+Шлях до файлу FDF. Файл повинен містити дані, повернені з форми PDF або створені за допомогою [fdfcreate()](function.fdf-create.html) і [fdfsave()](function.fdf-save.md)
 
 ### Значення, що повертаються
 
@@ -52,7 +52,7 @@ fdf_close($fdf);
 
 ### Дивіться також
 
--   [fdfopenstring()](function.fdf-open-string.html) - Читає FDF документ з рядка
--   [fdfclose()](function.fdf-close.html) - Закриває FDF-документ
--   [fdfcreate()](function.fdf-create.html) - Створює новий документ FDF
--   [fdfsave()](function.fdf-save.html) - Зберігає документ FDF
+-   [fdfopenstring()](function.fdf-open-string.md) - Читає FDF документ з рядка
+-   [fdfclose()](function.fdf-close.md) - Закриває FDF-документ
+-   [fdfcreate()](function.fdf-create.md) - Створює новий документ FDF
+-   [fdfsave()](function.fdf-save.md) - Зберігає документ FDF

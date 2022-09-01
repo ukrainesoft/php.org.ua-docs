@@ -256,4 +256,4 @@ Warning: Cannot bind an instance to a static closure in %s on line %d
 
 ### Примітки
 
-> **Зауваження**: Спільно із замиканнями можна використовувати функції [funcnumargs()](function.func-num-args.html) [funcgetarg()](function.func-get-arg.html) і [funcgetargs()](function.func-get-args.html)
+> **Зауваження**: Спільно із замиканнями можна використовувати функції [funcnumargs()](function.func-num-args.html) [funcgetarg()](function.func-get-arg.html) і [funcgetargs()](function.func-get-args.md)

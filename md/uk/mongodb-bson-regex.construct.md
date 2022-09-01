@@ -32,8 +32,8 @@ final public MongoDB\BSON\Regex::__construct(string $pattern, string $flags = ""
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Видає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html), якщо `pattern` або `flags` містять нульові байти.
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Видає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо `pattern` або `flags` містять нульові байти.
 
 ### список змін
 
@@ -44,7 +44,7 @@ final public MongoDB\BSON\Regex::__construct(string $pattern, string $flags = ""
 
 Символи в аргументі `flags` будуть відсортовані в алфавітному порядку під час побудови регулярного виразу. Раніше символи зберігалися у вказаному порядку.
 
-Видається [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html), якщо `pattern` або `flags` містять нульові байти. Раніше значення були б обрізані у першому нульовому байті.
+Видається [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо `pattern` або `flags` містять нульові байти. Раніше значення були б обрізані у першому нульовому байті.
 
 ### Приклади
 

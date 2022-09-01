@@ -58,5 +58,5 @@ while (true) {
 
 ### Дивіться також
 
--   [procopen()](function.proc-open.html) - Виконати команду та відкрити покажчик на файл для введення/виводу
--   [sapiwindowssetctrlhandler()](function.sapi-windows-set-ctrl-handler.html) - Встановити чи видалити обробник події CTRL
+-   [procopen()](function.proc-open.md) - Виконати команду та відкрити покажчик на файл для введення/виводу
+-   [sapiwindowssetctrlhandler()](function.sapi-windows-set-ctrl-handler.md) - Встановити чи видалити обробник події CTRL

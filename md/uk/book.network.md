@@ -18,9 +18,9 @@ title: Мережа
 -   [Мережеві функції](ref.network.md)
     -   [checkdnsrr](function.checkdnsrr.md) — Перевіряє записи DNS, які відповідають переданому імені вузла Інтернету або IP-адресі
     -   [closelog](function.closelog.md) — Закриває з'єднання із системним журналом
-    -   [dnscheckrecord](function.dns-check-record.html) - Псевдонім checkdnsrr
-    -   [dnsgetмкс](function.dns-get-mx.html) - Псевдонім getmxrr
-    -   [dnsgetrecord](function.dns-get-record.html) — Отримання ресурсних записів DNS хоста
+    -   [dnscheckrecord](function.dns-check-record.md) - Псевдонім checkdnsrr
+    -   [dnsgetмкс](function.dns-get-mx.md) - Псевдонім getmxrr
+    -   [dnsgetrecord](function.dns-get-record.md) — Отримання ресурсних записів DNS хоста
     -   [fsockopen](function.fsockopen.md) — Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
     -   [gethostbyaddr](function.gethostbyaddr.md) — Отримує доменне ім'я хоста, яке відповідає переданій IP-адресі
     -   [gethostbyname](function.gethostbyname.md) — Отримує IPv4-адресу, що відповідає переданому імені хоста
@@ -31,22 +31,22 @@ title: Мережа
     -   [getprotobynumber](function.getprotobynumber.md) — Отримує ім'я протоколу за номером
     -   [getservbyname](function.getservbyname.md) — Отримує номер порту, пов'язаного з інтернет-службою та протоколом
     -   [getservbyport](function.getservbyport.md) — Отримує інтернет-службу, що відповідає заданому порту та протоколу
-    -   [headerregistercallback](function.header-register-callback.html) - Викликає функцію заголовка
-    -   [headerremove](function.header-remove.html) — Видаляє раніше встановлені заголовки
+    -   [headerregistercallback](function.header-register-callback.md) - Викликає функцію заголовка
+    -   [headerremove](function.header-remove.md) — Видаляє раніше встановлені заголовки
     -   [header](function.header.md) — Надсилання HTTP-заголовка
-    -   [headerslist](function.headers-list.html) — Повертає список переданих заголовків (або готових до відправлення)
-    -   [headerssent](function.headers-sent.html) — Перевіряє, чи надіслано заголовки.
-    -   [httpresponsecode](function.http-response-code.html) — Отримує або встановлює код відповіді HTTP
-    -   [inetntop](function.inet-ntop.html) — Конвертує упаковану інтернет-адресу в формат, що читається.
-    -   [inetpton](function.inet-pton.html) — Конвертує IP-адресу, що читається, в її упаковане подання inaddr
+    -   [headerslist](function.headers-list.md) — Повертає список переданих заголовків (або готових до відправлення)
+    -   [headerssent](function.headers-sent.md) — Перевіряє, чи надіслано заголовки.
+    -   [httpresponsecode](function.http-response-code.md) — Отримує або встановлює код відповіді HTTP
+    -   [inetntop](function.inet-ntop.md) — Конвертує упаковану інтернет-адресу в формат, що читається.
+    -   [inetpton](function.inet-pton.md) — Конвертує IP-адресу, що читається, в її упаковане подання inaddr
     -   [ip2long](function.ip2long.md) — Конвертує рядок, що містить IPv4-адресу в ціле число
     -   [long2ip](function.long2ip.md) — Конвертує ціле число в IPv4-адресу
-    -   [netgetinterfaces](function.net-get-interfaces.html) — Отримує мережні інтерфейси
+    -   [netgetinterfaces](function.net-get-interfaces.md) — Отримує мережні інтерфейси
     -   [openlog](function.openlog.md) — Відкриває підключення до системного журналу
     -   [pfsockopen](function.pfsockopen.md) — Відкриває постійне з'єднання з інтернет-сокетом або доменним сокетом Unix
     -   [setcookie](function.setcookie.md) — Надсилає cookie
     -   [setrawcookie](function.setrawcookie.md) — Надсилає cookie без URL-кодування значення
-    -   [socketgetstatus](function.socket-get-status.html) - Псевдонім streamgetmetadata
-    -   [socketsetblocking](function.socket-set-blocking.html) - Псевдонім streamsetblocking
-    -   [socketsettimeout](function.socket-set-timeout.html) - Псевдонім streamsettimeout
+    -   [socketgetstatus](function.socket-get-status.md) - Псевдонім streamgetmetadata
+    -   [socketsetblocking](function.socket-set-blocking.md) - Псевдонім streamsetblocking
+    -   [socketsettimeout](function.socket-set-timeout.md) - Псевдонім streamsettimeout
     -   [syslog](function.syslog.md) - Генерує повідомлення для системного журналу

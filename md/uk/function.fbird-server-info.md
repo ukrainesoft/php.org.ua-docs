@@ -10,8 +10,8 @@ title: fbirdserverinfo
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdserverinfo - Псевдонім [ibaseserverinfo()](function.ibase-server-info.html)
+fbirdserverinfo - Псевдонім [ibaseserverinfo()](function.ibase-server-info.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibaseserverinfo()](function.ibase-server-info.html)
+Ця функція є псевдонімом: [ibaseserverinfo()](function.ibase-server-info.md)

@@ -24,11 +24,11 @@ imap_getacl(IMAP\Connection $imap, string $mailbox): array|false
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `mailbox`
 
-Ім'я поштової скриньки. Докладніше читайте у розділі, присвяченому функції [imapopen()](function.imap-open.html)
+Ім'я поштової скриньки. Докладніше читайте у розділі, присвяченому функції [imapopen()](function.imap-open.md)
 
 **Увага**
 
@@ -42,7 +42,7 @@ imap_getacl(IMAP\Connection $imap, string $mailbox): array|false
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -72,4 +72,4 @@ Array
 
 ### Дивіться також
 
--   [imapsetacl()](function.imap-setacl.html) - Встановлення ACL для заданої поштової скриньки
+-   [imapsetacl()](function.imap-setacl.md) - Встановлення ACL для заданої поштової скриньки

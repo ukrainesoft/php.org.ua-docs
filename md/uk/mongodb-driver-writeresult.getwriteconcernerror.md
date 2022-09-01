@@ -24,11 +24,11 @@ final public MongoDB\Driver\WriteResult::getWriteConcernError(): ?MongoDB\Driver
 
 ### Значення, що повертаються
 
-Повертає [MongoDBDriverWriteConcernError](class.mongodb-driver-writeconcernerror.html), якщо під час операції запису сталася помилка гарантій запису, та **`null`** в іншому випадку.
+Повертає [MongoDBDriverWriteConcernError](class.mongodb-driver-writeconcernerror.md), якщо під час операції запису сталася помилка гарантій запису, та **`null`** в іншому випадку.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
@@ -71,5 +71,5 @@ object(MongoDB\Driver\WriteConcernError)#6 (3) {
 
 ### Дивіться також
 
--   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
+-   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md)
 -   [» Справка по гарантиям записи](https://www.mongodb.com/docs/manual/reference/write-concern/)

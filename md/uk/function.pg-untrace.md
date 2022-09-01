@@ -18,13 +18,13 @@ title: пгuntrace
 pg_untrace(?PgSql\Connection $connection = null): bool
 ```
 
-Зупиняє трасування, запущене функцією [пгtrace()](function.pg-trace.html)
+Зупиняє трасування, запущене функцією [пгtrace()](function.pg-trace.md)
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -38,7 +38,7 @@ pg_untrace(?PgSql\Connection $connection = null): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `connection` тепер допускає значення null. |
 
 ### Приклади
@@ -63,4 +63,4 @@ if ($pgsql_conn) {
 
 ### Дивіться також
 
--   [пгtrace()](function.pg-trace.html) - Включає трасування підключення PostgreSQL
+-   [пгtrace()](function.pg-trace.md) - Включає трасування підключення PostgreSQL

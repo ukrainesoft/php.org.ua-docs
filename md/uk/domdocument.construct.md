@@ -16,7 +16,7 @@ DOMDocument::construct — Створює новий об'єкт DOMDocument
 
 public **DOMDocument::construct**(string `$version` = "1.0", string `$encoding` = "")
 
-Створює новий об'єкт [DOMDocument](class.domdocument.html)
+Створює новий об'єкт [DOMDocument](class.domdocument.md)
 
 ### Список параметрів
 
@@ -44,4 +44,4 @@ echo $dom->saveXML(); /* <?xml version="1.0" encoding="iso-8859-1"?> */
 
 ### Дивіться також
 
--   [DOMImplementation::createDocument()](domimplementation.createdocument.html) - Створює об'єкт класу DOMDocument заданого типу з його елементом
+-   [DOMImplementation::createDocument()](domimplementation.createdocument.md) - Створює об'єкт класу DOMDocument заданого типу з його елементом

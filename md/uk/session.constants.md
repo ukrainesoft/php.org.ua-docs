@@ -12,16 +12,16 @@ title: Обумовлені константи
 
 **`SID`** (string)
 
-Константа, що містить або ім'я сесії та ідентифікатор у вигляді `"name=ID"` або порожній рядок, якщо ідентифікатор сесії було встановлено у відповідні сесії cookies. Це той самий ідентифікатор, що повертає функцію [sessionid()](function.session-id.html)
+Константа, що містить або ім'я сесії та ідентифікатор у вигляді `"name=ID"` або порожній рядок, якщо ідентифікатор сесії було встановлено у відповідні сесії cookies. Це той самий ідентифікатор, що повертає функцію [sessionid()](function.session-id.md)
 
 **`PHP_SESSION_DISABLED`** (int)
 
-Значення, що повертається функцією [sessionstatus()](function.session-status.html) у разі, якщо сесії вимкнено.
+Значення, що повертається функцією [sessionstatus()](function.session-status.md) у разі, якщо сесії вимкнено.
 
 **`PHP_SESSION_NONE`** (int)
 
-Значення, що повертається функцією [sessionstatus()](function.session-status.html) якщо сесії включені, але немає створених сесій.
+Значення, що повертається функцією [sessionstatus()](function.session-status.md) якщо сесії включені, але немає створених сесій.
 
 **`PHP_SESSION_ACTIVE`** (int)
 
-Значення, що повертається функцією [sessionstatus()](function.session-status.html) у разі існування сесій.
+Значення, що повертається функцією [sessionstatus()](function.session-status.md) у разі існування сесій.

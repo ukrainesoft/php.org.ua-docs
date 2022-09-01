@@ -24,7 +24,7 @@ fflush(resource $stream): bool
 
 `stream`
 
-Вказівник на файл повинен бути коректним і вказувати на файл, успішно відкритий функціями [fopen()](function.fopen.html) або [fsockopen()](function.fsockopen.html) (і все ще не закритий функцією [fclose()](function.fclose.html)
+Вказівник на файл повинен бути коректним і вказувати на файл, успішно відкритий функціями [fopen()](function.fopen.html) або [fsockopen()](function.fsockopen.html) (і все ще не закритий функцією [fclose()](function.fclose.md)
 
 ### Значення, що повертаються
 
@@ -49,5 +49,5 @@ fclose($file);
 
 ### Дивіться також
 
--   [clearstatcache()](function.clearstatcache.html) - Очищує кеш стану файлів
--   [fwrite()](function.fwrite.html) - Бінарно-безпечний запис у файл
+-   [clearstatcache()](function.clearstatcache.md) - Очищує кеш стану файлів
+-   [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл

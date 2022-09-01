@@ -14,7 +14,7 @@ title: Обумовлені константи
 
 **`FTP_AUTOSEEK`** (int)
 
-Дивіться опис функції [ftpsetoption()](function.ftp-set-option.html)
+Дивіться опис функції [ftpsetoption()](function.ftp-set-option.md)
 
 **`FTP_AUTORESUME`** (int)
 
@@ -44,8 +44,8 @@ title: Обумовлені константи
 
 **`FTP_TIMEOUT_SEC`** (int)
 
-Дивіться опис функції [ftpsetoption()](function.ftp-set-option.html)
+Дивіться опис функції [ftpsetoption()](function.ftp-set-option.md)
 
 **`FTP_USEPASVADDRESS`** (bool)
 
-Дивіться опис функції [ftpsetoption()](function.ftp-set-option.html) для отримання інформації.
+Дивіться опис функції [ftpsetoption()](function.ftp-set-option.md) для отримання інформації.

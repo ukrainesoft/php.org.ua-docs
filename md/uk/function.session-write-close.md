@@ -38,4 +38,4 @@ session_write_close(): bool
 
 ### Дивіться також
 
--   [sessionregistershutdown()](function.session-register-shutdown.html) - функція завершення сесії
+-   [sessionregistershutdown()](function.session-register-shutdown.md) - функція завершення сесії

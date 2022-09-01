@@ -10,11 +10,11 @@ title: ісreal
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ісreal - Псевдонім [ісfloat()](function.is-float.html)
+ісreal - Псевдонім [ісfloat()](function.is-float.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ісfloat()](function.is-float.html)
+Ця функція є псевдонімом: [ісfloat()](function.is-float.md)
 
 **Увага**
 

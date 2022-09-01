@@ -24,7 +24,7 @@ public Imagick::setImageIndex(int $index): bool
 
 Встановлює ітератор у позицію списку зображень, вказану параметром index.
 
-Цей метод оголошено застарілим. Використовуйте [Imagick::setIteratorIndex()](imagick.setiteratorindex.html)
+Цей метод оголошено застарілим. Використовуйте [Imagick::setIteratorIndex()](imagick.setiteratorindex.md)
 
 ### Список параметрів
 

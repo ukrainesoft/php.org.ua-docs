@@ -12,7 +12,7 @@ title: Перетворюючі фільтри
 
 ## convert.base64-encode та convert.base64-decode
 
-Використання цих фільтрів еквівалентно обробці всіх даних потоку функціями [base64encode()](function.base64-encode.html) і [base64decode()](function.base64-decode.html) відповідно . `convert.base64-encode` підтримує аргументи, передані як асоціативного масиву. Якщо вказано аргумент `line-length`, результат base64 буде поділений на шматки довгої `line-length` символи кожен. Якщо вказано аргумент `line-break-chars`, кожен шматок буде поділено вказаними символами. Ці параметри дають такий самий ефект, як і використання [base64encode()](function.base64-encode.html) у парі з [chunksplit()](function.chunk-split.html)
+Використання цих фільтрів еквівалентно обробці всіх даних потоку функціями [base64encode()](function.base64-encode.html) і [base64decode()](function.base64-decode.html) відповідно . `convert.base64-encode` підтримує аргументи, передані як асоціативного масиву. Якщо вказано аргумент `line-length`, результат base64 буде поділений на шматки довгої `line-length` символи кожен. Якщо вказано аргумент `line-break-chars`, кожен шматок буде поділено вказаними символами. Ці параметри дають такий самий ефект, як і використання [base64encode()](function.base64-encode.html) у парі з [chunksplit()](function.chunk-split.md)
 
 **Приклад #1 convert.base64-encode та convert.base64-decode**
 
@@ -43,7 +43,7 @@ fclose($fp);
 
 ## convert.quoted-printable-encode та convert.quoted-printable-decode
 
-Використання decode-версії цього фільтра еквівалентно обробці всіх даних потоку функцією [quotedprintabledecode()](function.quoted-printable-decode.html). Фільтр `convert.quoted-printable-encode` немає еквівалентної функції . `convert.quoted-printable-encode` підтримує аргументи, передані як асоціативного масиву. На додаток до аргументів, що підтримуються `convert.base64-encode` `convert.quoted-printable-encode` також підтримує boolean-аргументи `binary` і `force-encode-first`. . `convert.base64-decode` підтримує лише аргумент `line-break-chars` як підказка для чищення закодованих даних.
+Використання decode-версії цього фільтра еквівалентно обробці всіх даних потоку функцією [quotedprintabledecode()](function.quoted-printable-decode.md). Фільтр `convert.quoted-printable-encode` немає еквівалентної функції . `convert.quoted-printable-encode` підтримує аргументи, передані як асоціативного масиву. На додаток до аргументів, що підтримуються `convert.base64-encode` `convert.quoted-printable-encode` також підтримує boolean-аргументи `binary` і `force-encode-first`. . `convert.base64-decode` підтримує лише аргумент `line-break-chars` як підказка для чищення закодованих даних.
 
 **Приклад #2 convert.quoted-printable-encode & convert.quoted-printable-decode**
 

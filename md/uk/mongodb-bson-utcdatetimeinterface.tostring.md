@@ -28,4 +28,4 @@ abstract public MongoDB\BSON\UTCDateTimeInterface::__toString(): string
 
 ### Дивіться також
 
--   [MongoDBBSONUTCDateTime::toString()](mongodb-bson-utcdatetime.tostring.html) - Повертає рядкову виставу UTCDateTime
+-   [MongoDBBSONUTCDateTime::toString()](mongodb-bson-utcdatetime.tostring.md) - Повертає рядкову виставу UTCDateTime

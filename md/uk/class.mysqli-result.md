@@ -93,21 +93,21 @@ type
 
 ## Зміст
 
--   [mysqliresult::construct](mysqli-result.construct.html) - Конструктор об'єкта mysqliresult
--   [mysqliresult::$currentfield](mysqli-result.current-field.html) — Отримує зміщення вказівника щодо поточного поля
--   [mysqliresult::dataseek](mysqli-result.data-seek.html) — Переміщує покажчик результату на вибраний рядок
--   [mysqliresult::fetchall](mysqli-result.fetch-all.html) - Вибирає всі рядки з результуючого набору і поміщає їх в асоціативний масив, звичайний масив або в обидва
--   [mysqliresult::fetcharray](mysqli-result.fetch-array.html) — Вибирає наступний рядок із набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
--   [mysqliresult::fetchassoc](mysqli-result.fetch-assoc.html) — Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
--   [mysqliresult::fetchcolumn](mysqli-result.fetch-column.html) — Отримує один стовпець із наступного рядка набору результатів
--   [mysqliresult::fetchfielddirect](mysqli-result.fetch-field-direct.html) — Отримання метаданих конкретного поля
--   [mysqliresult::fetchfield](mysqli-result.fetch-field.html) — Повертає наступне поле результуючого набору
--   [mysqliresult::fetchfields](mysqli-result.fetch-fields.html) — Повертає масив об'єктів, що становлять поля результуючого набору
--   [mysqliresult::fetchobject](mysqli-result.fetch-object.html) — Вибирає наступний рядок із набору результатів у вигляді об'єкта
--   [mysqliresult::fetchrow](mysqli-result.fetch-row.html) — Вибирає наступний рядок із набору результатів та поміщає його у звичайний масив
--   [mysqliresult::$fieldcount](mysqli-result.field-count.html) — Отримує кількість полів у наборі результатів
--   [mysqliresult::fieldseek](mysqli-result.field-seek.html) — Встановити покажчик поля на певне усунення
--   [mysqliresult::free](mysqli-result.free.html) - Звільняє пам'ять, зайняту результатами запиту
--   [mysqliresult::getIterator](mysqli-result.getiterator.html) - Витягує зовнішній ітератор
--   [mysqliresult::$lengths](mysqli-result.lengths.html) — Повертає довжини полів поточного рядка результуючого набору
--   [mysqliresult::$numrows](mysqli-result.num-rows.html) — Отримує кількість рядків у наборі результатів
+-   [mysqliresult::construct](mysqli-result.construct.md) - Конструктор об'єкта mysqliresult
+-   [mysqliresult::$currentfield](mysqli-result.current-field.md) — Отримує зміщення вказівника щодо поточного поля
+-   [mysqliresult::dataseek](mysqli-result.data-seek.md) — Переміщує покажчик результату на вибраний рядок
+-   [mysqliresult::fetchall](mysqli-result.fetch-all.md) - Вибирає всі рядки з результуючого набору і поміщає їх в асоціативний масив, звичайний масив або в обидва
+-   [mysqliresult::fetcharray](mysqli-result.fetch-array.md) — Вибирає наступний рядок із набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
+-   [mysqliresult::fetchassoc](mysqli-result.fetch-assoc.md) — Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
+-   [mysqliresult::fetchcolumn](mysqli-result.fetch-column.md) — Отримує один стовпець із наступного рядка набору результатів
+-   [mysqliresult::fetchfielddirect](mysqli-result.fetch-field-direct.md) — Отримання метаданих конкретного поля
+-   [mysqliresult::fetchfield](mysqli-result.fetch-field.md) — Повертає наступне поле результуючого набору
+-   [mysqliresult::fetchfields](mysqli-result.fetch-fields.md) — Повертає масив об'єктів, що становлять поля результуючого набору
+-   [mysqliresult::fetchobject](mysqli-result.fetch-object.md) — Вибирає наступний рядок із набору результатів у вигляді об'єкта
+-   [mysqliresult::fetchrow](mysqli-result.fetch-row.md) — Вибирає наступний рядок із набору результатів та поміщає його у звичайний масив
+-   [mysqliresult::$fieldcount](mysqli-result.field-count.md) — Отримує кількість полів у наборі результатів
+-   [mysqliresult::fieldseek](mysqli-result.field-seek.md) — Встановити покажчик поля на певне усунення
+-   [mysqliresult::free](mysqli-result.free.md) - Звільняє пам'ять, зайняту результатами запиту
+-   [mysqliresult::getIterator](mysqli-result.getiterator.md) - Витягує зовнішній ітератор
+-   [mysqliresult::$lengths](mysqli-result.lengths.md) — Повертає довжини полів поточного рядка результуючого набору
+-   [mysqliresult::$numrows](mysqli-result.num-rows.md) — Отримує кількість рядків у наборі результатів

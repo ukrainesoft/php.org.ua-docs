@@ -18,15 +18,15 @@ ociparse — Підготовка запиту до виконання
 oci_parse(resource $connection, string $sql): resource|false
 ```
 
-Готує `sql` до виконання, використовуючи з'єднання `connection` і повертає ідентифікатор виразу, який може бути використаний далі функціями[ocibindбname()](function.oci-bind-by-name.html)[ociexecute()](function.oci-execute.html) та іншими.
+Готує `sql` до виконання, використовуючи з'єднання `connection` і повертає ідентифікатор виразу, який може бути використаний далі функціями[ocibindбname()](function.oci-bind-by-name.html)[ociexecute()](function.oci-execute.md) та іншими.
 
-Ідентифікатори виразів можуть бути звільнені функцією [ocifreestatement()](function.oci-free-statement.html) або встановленням змінної в **`null`**
+Ідентифікатори виразів можуть бути звільнені функцією [ocifreestatement()](function.oci-free-statement.md) або встановленням змінної в **`null`**
 
 ### Список параметрів
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, отриманий із функцій [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html) або [ocinewconnect()](function.oci-new-connect.html)
+Ідентифікатор з'єднання Oracle, отриманий із функцій [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html) або [ocinewconnect()](function.oci-new-connect.md)
 
 `sql`
 
@@ -111,5 +111,5 @@ oci_close($conn);
 
 ### Дивіться також
 
--   [ociexecute()](function.oci-execute.html) - Виконує підготовлений вираз
--   [ocifreestatement()](function.oci-free-statement.html) - Звільняє ресурси, які займає курсор або SQL-вираз.
+-   [ociexecute()](function.oci-execute.md) - Виконує підготовлений вираз
+-   [ocifreestatement()](function.oci-free-statement.md) - Звільняє ресурси, які займає курсор або SQL-вираз.

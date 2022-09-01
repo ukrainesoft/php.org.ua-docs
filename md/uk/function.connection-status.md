@@ -30,6 +30,6 @@ connection_status(): int
 
 ### Дивіться також
 
--   [connectionaborted()](function.connection-aborted.html) - Перевірити, чи клієнт вимкнено
--   [ignoreuserabort()](function.ignore-user-abort.html) - Встановити, чи має відключення клієнта переривати виконання скрипту
--   Дивіться [Управление соединением](features.connection-handling.html) для повної інформації про управління з'єднанням PHP.
+-   [connectionaborted()](function.connection-aborted.md) - Перевірити, чи клієнт вимкнено
+-   [ignoreuserabort()](function.ignore-user-abort.md) - Встановити, чи має відключення клієнта переривати виконання скрипту
+-   Дивіться [Управление соединением](features.connection-handling.md) для повної інформації про управління з'єднанням PHP.

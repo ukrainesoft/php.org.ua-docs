@@ -18,7 +18,7 @@ YafControllerAbstract::init — Ініціалізатор контролера
 public Yaf_Controller_Abstract::init(): void
 ```
 
-[YafControllerAbstract::construct()](yaf-controller-abstract.construct.html) - Остаточний (final) метод, це означає, що користувачі не можуть перевизначити його. Але користувачі можуть визначити **YafControllerAbstract::init()**, який буде викликатись після створення екземпляра об'єкта контролера.
+[YafControllerAbstract::construct()](yaf-controller-abstract.construct.md) - Остаточний (final) метод, це означає, що користувачі не можуть перевизначити його. Але користувачі можуть визначити **YafControllerAbstract::init()**, який буде викликатись після створення екземпляра об'єкта контролера.
 
 ### Список параметрів
 
@@ -28,4 +28,4 @@ public Yaf_Controller_Abstract::init(): void
 
 ### Дивіться також
 
--   [YafControllerAbstract::construct()](yaf-controller-abstract.construct.html) - Конструктор класу YafControllerAbstract
+-   [YafControllerAbstract::construct()](yaf-controller-abstract.construct.md) - Конструктор класу YafControllerAbstract

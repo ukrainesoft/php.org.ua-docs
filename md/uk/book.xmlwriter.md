@@ -16,9 +16,9 @@ title: XMLWriter
     -   [Типи ресурсів](xmlwriter.resources.md)
 -   [Обумовлені константи](xmlwriter.constants.md)
 -   [Приклади](xmlwriter.examples.md)
-    -   [Створення простого XML-документа](example.xmlwriter-simple.html)
-    -   [Робота з просторами імен XML](example.xmlwriter-namespace.html)
-    -   [Робота з об'єктно-орієнтованим API](example.xmlwriter-oop.html)
+    -   [Створення простого XML-документа](example.xmlwriter-simple.md)
+    -   [Робота з просторами імен XML](example.xmlwriter-namespace.md)
+    -   [Робота з об'єктно-орієнтованим API](example.xmlwriter-oop.md)
 -   [XMLWriter](class.xmlwriter.md) - Клас XMLWriter
     -   [XMLWriter::endAttribute](xmlwriter.endattribute.md) - Завершити атрибут
     -   [XMLWriter::endCdata](xmlwriter.endcdata.md) — Завершити поточну секцію CDATA

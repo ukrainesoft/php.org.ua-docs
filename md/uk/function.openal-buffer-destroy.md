@@ -22,7 +22,7 @@ openal_buffer_destroy(resource $buffer): bool
 
 `buffer`
 
-Ресурс [Open AL(Buffer)](openal.resources.md) (раніше створений за допомогою [openalbuffercreate()](function.openal-buffer-create.html)
+Ресурс [Open AL(Buffer)](openal.resources.md) (раніше створений за допомогою [openalbuffercreate()](function.openal-buffer-create.md)
 
 ### Значення, що повертаються
 
@@ -30,4 +30,4 @@ openal_buffer_destroy(resource $buffer): bool
 
 ### Дивіться також
 
--   [openalbuffercreate()](function.openal-buffer-create.html) - Згенерувати буфер OpenAL
+-   [openalbuffercreate()](function.openal-buffer-create.md) - Згенерувати буфер OpenAL

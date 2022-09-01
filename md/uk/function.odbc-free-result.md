@@ -36,4 +36,4 @@ odbc_free_result(resource $statement): bool
 
 > **Зауваження**
 > 
-> Якщо автоматична фіксація вимкнена (див. . [odbcautocommit()](function.odbc-autocommit.html)), і **odbcfreeresult()** викликається перед фіксацією, всі транзакції, що очікують, відкочуються.
+> Якщо автоматична фіксація вимкнена (див. . [odbcautocommit()](function.odbc-autocommit.md)), і **odbcfreeresult()** викликається перед фіксацією, всі транзакції, що очікують, відкочуються.

@@ -10,13 +10,13 @@ title: fbirdnumparams
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdnumparams — Псевдонім [ibasenumparams()](function.ibase-num-params.html)
+fbirdnumparams — Псевдонім [ibasenumparams()](function.ibase-num-params.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibasenumparams()](function.ibase-num-params.html)
+Ця функція є псевдонімом: [ibasenumparams()](function.ibase-num-params.md)
 
 ### Дивіться також
 
--   [fbirdprepare()](function.fbird-prepare.html) - Псевдонім ibaseprepare
--   [fbirdparaminfo()](function.fbird-param-info.html) - Псевдонім ibaseparaminfo
+-   [fbirdprepare()](function.fbird-prepare.md) - Псевдонім ibaseprepare
+-   [fbirdparaminfo()](function.fbird-param-info.md) - Псевдонім ibaseparaminfo

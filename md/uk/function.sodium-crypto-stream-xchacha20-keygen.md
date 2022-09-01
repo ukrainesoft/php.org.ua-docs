@@ -18,7 +18,7 @@ sodiumcryptostreamxchacha20keygen - Повертає безпечний випа
 sodium_crypto_stream_xchacha20_keygen(): string
 ```
 
-Повертає безпечний випадковий ключ для використання функцією [sodiumcryptostreamxchacha20()](function.sodium-crypto-stream-xchacha20.html)
+Повертає безпечний випадковий ключ для використання функцією [sodiumcryptostreamxchacha20()](function.sodium-crypto-stream-xchacha20.md)
 
 ### Список параметрів
 
@@ -26,4 +26,4 @@ sodium_crypto_stream_xchacha20_keygen(): string
 
 ### Значення, що повертаються
 
-Повертає 32-байтовий безпечний випадковий ключ для використання функцією [sodiumcryptostreamxchacha20()](function.sodium-crypto-stream-xchacha20.html)
+Повертає 32-байтовий безпечний випадковий ключ для використання функцією [sodiumcryptostreamxchacha20()](function.sodium-crypto-stream-xchacha20.md)

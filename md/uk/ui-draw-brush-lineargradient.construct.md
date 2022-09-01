@@ -14,7 +14,7 @@ title: 'ОЙDrawBrushLinearGradient::construct'
 
 ### Опис
 
-public **ОЙDrawBrushLinearGradient::construct**[ОЙPoint](class.ui-point.html) `$start` [ОЙPoint](class.ui-point.html) `$end`
+public **ОЙDrawBrushLinearGradient::construct**[ОЙPoint](class.ui-point.html) `$start` [ОЙPoint](class.ui-point.md) `$end`
 
 Створює новий лінійний градієнт
 

@@ -18,7 +18,7 @@ mysqlistmt::$paramcount - mysqlistmtparamcount — Повертає кількі
 
 Об'єктно-орієнтований стиль
 
-int [$mysqlistmt->paramcount](mysqli-stmt.param-count.html)
+int [$mysqlistmt->paramcount](mysqli-stmt.param-count.md)
 
 Процедурний стиль
 
@@ -32,7 +32,7 @@ mysqli_stmt_param_count(mysqli_stmt $statement): int
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -100,4 +100,4 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання

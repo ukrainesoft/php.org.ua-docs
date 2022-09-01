@@ -10,8 +10,8 @@ title: Функції Zlib
 
 ## Зміст
 
--   [deflateadd](function.deflate-add.html) - Інкрементальний стиск даних
--   [deflateinit](function.deflate-init.html) - Ініціалізувати контекст інкрементального стиску
+-   [deflateadd](function.deflate-add.md) - Інкрементальний стиск даних
+-   [deflateinit](function.deflate-init.md) - Ініціалізувати контекст інкрементального стиску
 -   [gzclose](function.gzclose.md) — Закрити вказівник відкритого gz-файлу
 -   [gzcompress](function.gzcompress.md) — Стиснути рядок
 -   [gzdecode](function.gzdecode.md) — Декодує рядок, стислий за допомогою gzip
@@ -32,11 +32,11 @@ title: Функції Zlib
 -   [gztell](function.gztell.md) — Повертає поточну позицію читання/запису в покажчику gz-файлу
 -   [gzuncompress](function.gzuncompress.md) — Розпакувати стислий рядок
 -   [gzwrite](function.gzwrite.md) — Бінарний запис до gz-файлу
--   [inflateadd](function.inflate-add.html) — Інкрементальне розпакування закодованих даних
--   [inflategetreadlen](function.inflate-get-read-len.html) — Отримує кількість прочитаних байт
--   [inflategetstatus](function.inflate-get-status.html) — Отримує статус декомпресії
--   [inflateinit](function.inflate-init.html) — Ініціалізація контексту інкрементального розпакування
+-   [inflateadd](function.inflate-add.md) — Інкрементальне розпакування закодованих даних
+-   [inflategetreadlen](function.inflate-get-read-len.md) — Отримує кількість прочитаних байт
+-   [inflategetstatus](function.inflate-get-status.md) — Отримує статус декомпресії
+-   [inflateinit](function.inflate-init.md) — Ініціалізація контексту інкрементального розпакування
 -   [readgzfile](function.readgzfile.md) — Виводить вміст gz-файлу
--   [zlibdecode](function.zlib-decode.html) — Розпаковує будь-які закодовані дані raw/gzip/zlib
--   [zlibencode](function.zlib-encode.html) — Стиснення даних із зазначеним кодуванням
--   [zlibgetcodingtype](function.zlib-get-coding-type.html) — Повертає спосіб кодування, який використовується для стиснення виводу
+-   [zlibdecode](function.zlib-decode.md) — Розпаковує будь-які закодовані дані raw/gzip/zlib
+-   [zlibencode](function.zlib-encode.md) — Стиснення даних із зазначеним кодуванням
+-   [zlibgetcodingtype](function.zlib-get-coding-type.md) — Повертає спосіб кодування, який використовується для стиснення виводу

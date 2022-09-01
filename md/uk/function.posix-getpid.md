@@ -40,5 +40,5 @@ echo posix_getpid(); //8805
 
 ### Дивіться також
 
--   [posixkill()](function.posix-kill.html) - Надсилає сигнал відповідному процесу
+-   [posixkill()](function.posix-kill.md) - Надсилає сигнал відповідному процесу
 -   POSIX керівництво GETPID(2)

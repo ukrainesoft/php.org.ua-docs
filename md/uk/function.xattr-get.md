@@ -56,6 +56,6 @@ $signature = xattr_get($file, 'Root signature', XATTR_ROOT);
 
 ### Дивіться також
 
--   [xattrlist()](function.xattr-list.html) - Перегляд списку розширених атрибутів файлу
--   [xattrset()](function.xattr-set.html) - Встановлення розширених атрибутів файлу
--   [xattrremove()](function.xattr-remove.html) - Видалення розширених атрибутів файлу
+-   [xattrlist()](function.xattr-list.md) - Перегляд списку розширених атрибутів файлу
+-   [xattrset()](function.xattr-set.md) - Встановлення розширених атрибутів файлу
+-   [xattrremove()](function.xattr-remove.md) - Видалення розширених атрибутів файлу

@@ -28,7 +28,7 @@ cubrid_real_escape_string(string $unescaped_string, resource $conn_identifier = 
 
 `conn_identifier`
 
-Ідентифікатор з'єднання CUBRID. Якщо не встановлено, то буде використано останнє з'єднання, повернене [cubridconnect()](function.cubrid-connect.html)
+Ідентифікатор з'єднання CUBRID. Якщо не встановлено, то буде використано останнє з'єднання, повернене [cubridconnect()](function.cubrid-connect.md)
 
 ### Значення, що повертаються
 

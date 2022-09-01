@@ -24,7 +24,7 @@ enchant_broker_dict_exists(EnchantBroker $broker, string $tag): bool
 
 `broker`
 
-Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.md)
 
 `tag`
 
@@ -56,4 +56,4 @@ if (enchant_broker_dict_exists($r,$tag)) {
 
 ### Дивіться також
 
--   [enchantbrokerdescribe()](function.enchant-broker-describe.html) - Перераховує провайдерів Enchant
+-   [enchantbrokerdescribe()](function.enchant-broker-describe.md) - Перераховує провайдерів Enchant

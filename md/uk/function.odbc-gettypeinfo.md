@@ -24,7 +24,7 @@ odbc_gettypeinfo(resource $odbc, int $data_type = 0): resource|false
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.md)
 
 `data_type`
 

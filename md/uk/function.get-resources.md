@@ -85,7 +85,7 @@ array(0) {
 
 ### Дивіться також
 
--   [getloadedextensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
--   [getdefinedconstants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень
--   [getdefinedfunctions()](function.get-defined-functions.html) - Повертає масив усіх певних функцій
--   [getdefinedvars()](function.get-defined-vars.html) - Повертає масив усіх певних змінних
+-   [getloadedextensions()](function.get-loaded-extensions.md) - Повертає масив імен усіх скомпілованих та завантажених модулів
+-   [getdefinedconstants()](function.get-defined-constants.md) - Повертає асоціативний масив з іменами всіх констант та їх значень
+-   [getdefinedfunctions()](function.get-defined-functions.md) - Повертає масив усіх певних функцій
+-   [getdefinedvars()](function.get-defined-vars.md) - Повертає масив усіх певних змінних

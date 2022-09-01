@@ -42,8 +42,8 @@ if( Collator::getAvailableLocales() === false ) {
 
 ### Дивіться також
 
--   [intlerrorname()](function.intl-error-name.html) - Отримати ім'я помилки за її кодом
--   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
--   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
+-   [intlerrorname()](function.intl-error-name.md) - Отримати ім'я помилки за її кодом
+-   [intlgeterrorcode()](function.intl-get-error-code.md) - Отримати код останньої помилки
+-   [intlісfailure()](function.intl-is-failure.md) - Перевірити, чи є код помилки ознакою збою
 -   [collatorgeterrormessage()](collator.geterrormessage.md) - Отримує текст для останньої помилки коду Collator
 -   [numfmtgeterrormessage()](numberformatter.geterrormessage.md) - Отримує останнє повідомлення про помилку засобу форматування

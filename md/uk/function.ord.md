@@ -70,6 +70,6 @@ for ( $pos=0; $pos < strlen($str); $pos ++ ) {
 ### Дивіться також
 
 -   [chr()](function.chr.md) - Генерує односимвольний рядок за заданим числом
--   [» Таблица ASCII-кодов](https://www.man7.org/linux/man-pages/man7/ascii.7.html)
--   [мбord()](function.mb-ord.html) - Отримує кодову точку символу Unicode
+-   [» Таблица ASCII-кодов](https://www.man7.org/linux/man-pages/man7/ascii.7.md)
+-   [мбord()](function.mb-ord.md) - Отримує кодову точку символу Unicode
 -   [IntlChar::ord()](intlchar.ord.md) - Отримати код символ Unicode

@@ -24,7 +24,7 @@ enchant_broker_describe(EnchantBroker $broker): array
 
 `broker`
 
-Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.md)
 
 ### Значення, що повертаються
 

@@ -30,7 +30,7 @@ odbc_tables(    resource $odbc,    ?string $catalog = null,    ?stri
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
 
 `catalog`
 
@@ -100,8 +100,8 @@ Array
 
 ### Дивіться також
 
--   [odbctableprivileges()](function.odbc-tableprivileges.html) - Перераховує таблиці та привілеї, пов'язані з кожною таблицею
--   [odbccolumns()](function.odbc-columns.html) - перераховує імена стовпців у зазначених таблицях
--   [odbcspecialcolumns()](function.odbc-specialcolumns.html) - Витягує особливі стовпці
--   [odbcstatistics()](function.odbc-statistics.html) - Отримує статистику про таблицю
--   [odbcprocedures()](function.odbc-procedures.html) - Отримує список процедур, що зберігаються у певному джерелі даних
+-   [odbctableprivileges()](function.odbc-tableprivileges.md) - Перераховує таблиці та привілеї, пов'язані з кожною таблицею
+-   [odbccolumns()](function.odbc-columns.md) - перераховує імена стовпців у зазначених таблицях
+-   [odbcspecialcolumns()](function.odbc-specialcolumns.md) - Витягує особливі стовпці
+-   [odbcstatistics()](function.odbc-statistics.md) - Отримує статистику про таблицю
+-   [odbcprocedures()](function.odbc-procedures.md) - Отримує список процедур, що зберігаються у певному джерелі даних

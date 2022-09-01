@@ -18,7 +18,7 @@ DateTimeImmutable::construct - datecreateimmutable — Повертає нови
 
 Об'єктно-орієнтований стиль
 
-public **DateTimeImmutable::construct**(string `$datetime` = "now", ?[DateTimeZone](class.datetimezone.html) `$timezone` **`null`**
+public **DateTimeImmutable::construct**(string `$datetime` = "now", ?[DateTimeZone](class.datetimezone.md) `$timezone` **`null`**
 
 Процедурний стиль
 
@@ -32,13 +32,13 @@ date_create_immutable(string $datetime = "now", ?DateTimeZone $timezone = null):
 
 `datetime`
 
-Рядок дати/часу. Пояснення коректних форматів наведено в розділі [Формати дати та часу](datetime.formats.html)
+Рядок дати/часу. Пояснення коректних форматів наведено в розділі [Формати дати та часу](datetime.formats.md)
 
 Вкажіть `"now"` для отримання поточного часу під час використання параметра `timezone`
 
 `timezone`
 
-Об'єкт [DateTimeZone](class.datetimezone.html), що представляє часовий пояс параметра `datetime`
+Об'єкт [DateTimeZone](class.datetimezone.md), що представляє часовий пояс параметра `datetime`
 
 Якщо параметр `timezone` опущений або дорівнює **`null`**, використовуватиметься поточний часовий пояс.
 
@@ -52,7 +52,7 @@ date_create_immutable(string $datetime = "now", ?DateTimeZone $timezone = null):
 
 ### Помилки
 
-Викидає [Exception](class.exception.html) у разі виникнення помилки.
+Викидає [Exception](class.exception.md) у разі виникнення помилки.
 
 ### список змін
 

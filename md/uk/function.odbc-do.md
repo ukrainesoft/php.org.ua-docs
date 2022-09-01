@@ -10,8 +10,8 @@ title: odbcдо
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcdo - Псевдонім [odbcexec()](function.odbc-exec.html)
+odbcdo - Псевдонім [odbcexec()](function.odbc-exec.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [odbcexec()](function.odbc-exec.html)
+Ця функція є псевдонімом: [odbcexec()](function.odbc-exec.md)

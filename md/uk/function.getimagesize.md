@@ -141,9 +141,9 @@ if (isset($info["APP13"])) {
 
 ### Дивіться також
 
--   [imagetypeтоmimetype()](function.image-type-to-mime-type.html) - Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
--   [exifimagetype()](function.exif-imagetype.html) - Визначте тип зображення.
--   [exifreaddata()](function.exif-read-data.html) - Читає заголовки EXIF ​​із файлів зображень
--   [exifthumbnail()](function.exif-thumbnail.html) - Отримує вбудоване прев'ю зображення
+-   [imagetypeтоmimetype()](function.image-type-to-mime-type.md) - Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
+-   [exifimagetype()](function.exif-imagetype.md) - Визначте тип зображення.
+-   [exifreaddata()](function.exif-read-data.md) - Читає заголовки EXIF ​​із файлів зображень
+-   [exifthumbnail()](function.exif-thumbnail.md) - Отримує вбудоване прев'ю зображення
 -   [imagesx()](function.imagesx.md) - Отримання ширини зображення
 -   [imagesy()](function.imagesy.md) - Отримання висоти зображення

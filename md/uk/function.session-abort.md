@@ -38,6 +38,6 @@ session_abort(): bool
 
 -   [SESSION](reserved.variables.session.md)
 -   Директива конфігурації [session.autostart](session.configuration.html#ini.session.auto-start)
--   [sessionstart()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
--   [sessionreset()](function.session-reset.html) - реініціалізує сесію оригінальними значеннями
--   [sessioncommit()](function.session-commit.html) - Псевдонім sessionwriteclose
+-   [sessionstart()](function.session-start.md) - Стартує нову сесію, або відновлює існуючу
+-   [sessionreset()](function.session-reset.md) - реініціалізує сесію оригінальними значеннями
+-   [sessioncommit()](function.session-commit.md) - Псевдонім sessionwriteclose

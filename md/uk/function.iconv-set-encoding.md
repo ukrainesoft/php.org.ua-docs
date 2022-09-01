@@ -51,5 +51,5 @@ iconv_set_encoding("output_encoding", "ISO-8859-1");
 
 ### Дивіться також
 
--   [iconvgetencoding()](function.iconv-get-encoding.html) - Отримує поточне значення налаштувань перетворення кодувань
--   [проiconvhandler()](function.ob-iconv-handler.html) - Перетворює символи з поточного кодування на кодування вихідного буфера
+-   [iconvgetencoding()](function.iconv-get-encoding.md) - Отримує поточне значення налаштувань перетворення кодувань
+-   [проiconvhandler()](function.ob-iconv-handler.md) - Перетворює символи з поточного кодування на кодування вихідного буфера

@@ -18,7 +18,7 @@ ReflectionFiber::getExecutingFile — Отримує ім'я файлу пото
 public ReflectionFiber::getExecutingFile(): string
 ```
 
-Повертає повний шлях та ім'я файлу поточної точки виконання у відображеному класі [Fiber](class.fiber.html). Якщо файбер не було запущено або завершено, видається помилка [Error](class.error.html)
+Повертає повний шлях та ім'я файлу поточної точки виконання у відображеному класі [Fiber](class.fiber.html). Якщо файбер не було запущено або завершено, видається помилка [Error](class.error.md)
 
 ### Список параметрів
 

@@ -32,4 +32,4 @@ pcntl_get_last_error(): int
 
 ### Дивіться також
 
--   [pcntlstrerror()](function.pcntl-strerror.html) - Отримати текст помилки за її кодом
+-   [pcntlstrerror()](function.pcntl-strerror.md) - Отримати текст помилки за її кодом

@@ -18,7 +18,7 @@ title: мбstrripos
 mb_strripos(    string $haystack,    string $needle,    int $offset = 0,    ?string $encoding = null): int|false
 ```
 
-**мбstrripos()** виконує безпечну з погляду багатобайтних кодувань операцію [strripos()](function.strripos.md), ґрунтуючись на кількості символів. Позиція рядка `needle` розраховується з початку рядка `haystack`. Позиція першого символу 0. Другого символу 1. На відміну від [мбstrrpos()](function.mb-strrpos.html) **мбstrripos()** не чутлива до регістру.
+**мбstrripos()** виконує безпечну з погляду багатобайтних кодувань операцію [strripos()](function.strripos.md), ґрунтуючись на кількості символів. Позиція рядка `needle` розраховується з початку рядка `haystack`. Позиція першого символу 0. Другого символу 1. На відміну від [мбstrrpos()](function.mb-strrpos.md) **мбstrripos()** не чутлива до регістру.
 
 ### Список параметрів
 
@@ -53,4 +53,4 @@ mb_strripos(    string $haystack,    string $needle,    int $offset 
 
 -   [strripos()](function.strripos.md) - Повертає позицію останнього входження підрядка без урахування регістру
 -   [strrpos()](function.strrpos.md) - Повертає позицію останнього входження підрядка у рядку
--   [мбstrrpos()](function.mb-strrpos.html) - Пошук позиції останнього входження одного рядка до іншого
+-   [мбstrrpos()](function.mb-strrpos.md) - Пошук позиції останнього входження одного рядка до іншого

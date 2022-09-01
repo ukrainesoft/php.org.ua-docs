@@ -16,16 +16,16 @@ title: Обумовлені константи
 
 **`DBASE_RDONLY`** (int)
 
-Відкрийте базу даних тільки для читання. Використовується з [dbaseopen()](function.dbase-open.html). (Доступно з dbase 7.0.0)
+Відкрийте базу даних тільки для читання. Використовується з [dbaseopen()](function.dbase-open.md). (Доступно з dbase 7.0.0)
 
 **`DBASE_RDWR`** (int)
 
-Відкрити базу даних для читання та запису. Використовується з [dbaseopen()](function.dbase-open.html). (Доступно з 7.0.0)
+Відкрити базу даних для читання та запису. Використовується з [dbaseopen()](function.dbase-open.md). (Доступно з 7.0.0)
 
 **`DBASE_TYPE_DBASE`** (int)
 
-Створити базу даних типу dBASE. Використовується з [dbasecreate()](function.dbase-create.html). (Доступно з 7.0.0)
+Створити базу даних типу dBASE. Використовується з [dbasecreate()](function.dbase-create.md). (Доступно з 7.0.0)
 
 **`DBASE_TYPE_FOXPRO`** (int)
 
-Створити базу даних типу FoxPro. Використовується з [dbasecreate()](function.dbase-create.html). (Доступно з 7.0.0)
+Створити базу даних типу FoxPro. Використовується з [dbasecreate()](function.dbase-create.md). (Доступно з 7.0.0)

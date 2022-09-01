@@ -24,7 +24,7 @@ odbc_num_fields(resource $statement): int
 
 `statement`
 
-Ідентифікатор результату, що повертається [odbcexec()](function.odbc-exec.html)
+Ідентифікатор результату, що повертається [odbcexec()](function.odbc-exec.md)
 
 ### Значення, що повертаються
 

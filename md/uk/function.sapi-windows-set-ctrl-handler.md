@@ -71,4 +71,4 @@ while (true); // Бесконечный цикл
 
 ### Дивіться також
 
--   [sapiwindowsgeneratectrlevent()](function.sapi-windows-generate-ctrl-event.html) - Надіслати подію CTRL іншому процесу
+-   [sapiwindowsgeneratectrlevent()](function.sapi-windows-generate-ctrl-event.md) - Надіслати подію CTRL іншому процесу

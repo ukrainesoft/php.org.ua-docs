@@ -56,8 +56,8 @@ if (strncasecmp($var1, $var2, 5) === 0) {
 ### Дивіться також
 
 -   [strncmp()](function.strncmp.md) - Бінарно-безпечне порівняння перших n символів рядків
--   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
--   [substrcompare()](function.substr-compare.html) - Бінарно-безпечне порівняння 2 рядків зі зміщенням, з урахуванням або без обліку регістру
+-   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу
+-   [substrcompare()](function.substr-compare.md) - Бінарно-безпечне порівняння 2 рядків зі зміщенням, з урахуванням або без обліку регістру
 -   [strcasecmp()](function.strcasecmp.md) - Бінарно-безпечне порівняння рядків без урахування регістру
 -   [stristr()](function.stristr.md) - Реєстронезалежний варіант функції strstr
 -   [substr()](function.substr.md) - Повертає підрядок

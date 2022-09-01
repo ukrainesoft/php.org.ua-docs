@@ -46,4 +46,4 @@ echo
 
 ### Дивіться також
 
--   [tokenname()](function.token-name.html) - Отримати символьне ім'я для переданої PHP-лексеми
+-   [tokenname()](function.token-name.md) - Отримати символьне ім'я для переданої PHP-лексеми

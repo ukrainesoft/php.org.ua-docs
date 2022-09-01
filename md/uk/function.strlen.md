@@ -57,6 +57,6 @@ echo strlen($str); // 7
 ### Дивіться також
 
 -   [count()](function.count.md) - Підраховує кількість елементів масиву або Countable об'єкті
--   [graphemestrlen()](function.grapheme-strlen.html) - отримує довжину рядка в одиницях графеми
--   [iconvstrlen()](function.iconv-strlen.html) - Повертає кількість символів у рядку
--   [мбstrlen()](function.mb-strlen.html) - Отримує довжину рядка
+-   [graphemestrlen()](function.grapheme-strlen.md) - отримує довжину рядка в одиницях графеми
+-   [iconvstrlen()](function.iconv-strlen.md) - Повертає кількість символів у рядку
+-   [мбstrlen()](function.mb-strlen.md) - Отримує довжину рядка

@@ -18,7 +18,7 @@ mysqlistmt::$insertid - mysqlistmtinsertid — Отримує ID, згенеро
 
 Об'єктно-орієнтований стиль
 
-int|string [$mysqlistmt->insertід](mysqli-stmt.insert-id.html)
+int|string [$mysqlistmt->insertід](mysqli-stmt.insert-id.md)
 
 Процедурний стиль
 

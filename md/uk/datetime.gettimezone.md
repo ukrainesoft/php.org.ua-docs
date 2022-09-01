@@ -46,7 +46,7 @@ date_timezone_get(DateTimeInterface $object): DateTimeZone|false
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.html)
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.md)
 
 ### Значення, що повертаються
 

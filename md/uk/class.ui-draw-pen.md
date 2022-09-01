@@ -47,10 +47,10 @@ public write(UI\Point $point, UI\Draw\Text\Layout $layout)
 
 ## Зміст
 
--   [ОЙDrawPen::clip](ui-draw-pen.clip.html) - Обрізати шлях
--   [ОЙDrawPen::fill](ui-draw-pen.fill.html) - Залити шлях
--   [ОЙDrawPen::restore](ui-draw-pen.restore.html) - Відновити
--   [ОЙDrawPen::save](ui-draw-pen.save.html) - Зберегти
--   [ОЙDrawPen::stroke](ui-draw-pen.stroke.html) - Обвести шлях
--   [ОЙDrawPen::transform](ui-draw-pen.transform.html) - Перетворити матрицю
--   [ОЙDrawPen::write](ui-draw-pen.write.html) — Намалювати текст у точці
+-   [ОЙDrawPen::clip](ui-draw-pen.clip.md) - Обрізати шлях
+-   [ОЙDrawPen::fill](ui-draw-pen.fill.md) - Залити шлях
+-   [ОЙDrawPen::restore](ui-draw-pen.restore.md) - Відновити
+-   [ОЙDrawPen::save](ui-draw-pen.save.md) - Зберегти
+-   [ОЙDrawPen::stroke](ui-draw-pen.stroke.md) - Обвести шлях
+-   [ОЙDrawPen::transform](ui-draw-pen.transform.md) - Перетворити матрицю
+-   [ОЙDrawPen::write](ui-draw-pen.write.md) — Намалювати текст у точці

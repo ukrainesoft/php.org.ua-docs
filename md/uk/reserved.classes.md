@@ -14,9 +14,9 @@ title: Обумовлені класи
 
 Ці класи визначені разом зі стандартним набором функцій, що йдуть зі збиранням PHP.
 
-[Directory](class.directory.html)
+[Directory](class.directory.md)
 
-Створюється функцією [dir()](function.dir.html)
+Створюється функцією [dir()](function.dir.md)
 
 **stdClass**
 
@@ -24,35 +24,35 @@ title: Обумовлені класи
 
 **PHPIncompleteClass**
 
-Можливо, створюється функцією [unserialize()](function.unserialize.html)
+Можливо, створюється функцією [unserialize()](function.unserialize.md)
 
-[Exception](class.exception.html)
+[Exception](class.exception.md)
 
-[ErrorException](class.errorexception.html)
+[ErrorException](class.errorexception.md)
 
-[phpuserfilter](class.php-user-filter.html)
+[phpuserfilter](class.php-user-filter.md)
 
-[Closure](class.closure.html)
+[Closure](class.closure.md)
 
-Обумовлений остаточний клас [Closure](class.closure.html), використовується для внутрішньої реалізації [анонімних функцій](functions.anonymous.html)
+Обумовлений остаточний клас [Closure](class.closure.html), використовується для внутрішньої реалізації [анонімних функцій](functions.anonymous.md)
 
-[Generator](class.generator.html)
+[Generator](class.generator.md)
 
-Обумовлений остаточний клас [Generator](class.generator.html), використовується для подання [генераторів](language.generators.html)
+Обумовлений остаточний клас [Generator](class.generator.html), використовується для подання [генераторів](language.generators.md)
 
-[ArithmeticError](class.arithmeticerror.html)
+[ArithmeticError](class.arithmeticerror.md)
 
-[AssertionError](class.assertionerror.html)
+[AssertionError](class.assertionerror.md)
 
-[DivisionByZeroError](class.divisionbyzeroerror.html)
+[DivisionByZeroError](class.divisionbyzeroerror.md)
 
-[Error](class.error.html)
+[Error](class.error.md)
 
-[Throwable](class.throwable.html)
+[Throwable](class.throwable.md)
 
-[ParseError](class.parseerror.html)
+[ParseError](class.parseerror.md)
 
-[TypeError](class.typeerror.html)
+[TypeError](class.typeerror.md)
 
 ### Спеціальні класи
 
@@ -60,12 +60,12 @@ title: Обумовлені класи
 
 **self**
 
-[Текущий класс](language.oop5.paamayim-nekudotayim.html)
+[Текущий класс](language.oop5.paamayim-nekudotayim.md)
 
 **static**
 
-[Поточний клас під час виконання](language.oop5.late-static-bindings.html)
+[Поточний клас під час виконання](language.oop5.late-static-bindings.md)
 
 **parent**
 
-[Батьківський клас](language.oop5.paamayim-nekudotayim.html)
+[Батьківський клас](language.oop5.paamayim-nekudotayim.md)

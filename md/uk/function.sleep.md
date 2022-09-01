@@ -69,6 +69,6 @@ echo date('h:i:s') . "\n";
 ### Дивіться також
 
 -   [usleep()](function.usleep.md) - Затримка виконання у мікросекундах
--   [timenanosleep()](function.time-nanosleep.html) - Затримка на задане число секунд та наносекунд
--   [timesleepuntil()](function.time-sleep-until.html) - Відкладає виконання скрипту до заданого часу
--   [settimelimit()](function.set-time-limit.html) - Обмеження часу виконання скрипту
+-   [timenanosleep()](function.time-nanosleep.md) - Затримка на задане число секунд та наносекунд
+-   [timesleepuntil()](function.time-sleep-until.md) - Відкладає виконання скрипту до заданого часу
+-   [settimelimit()](function.set-time-limit.md) - Обмеження часу виконання скрипту

@@ -28,7 +28,7 @@ class_implements(object|string $object_or_class, bool $autoload = true): array|f
 
 `autoload`
 
-Чи викликати за замовчуванням [autoload](language.oop5.autoload.html)
+Чи викликати за замовчуванням [autoload](language.oop5.autoload.md)
 
 ### Значення, що повертаються
 
@@ -77,5 +77,5 @@ Array
 
 ### Дивіться також
 
--   [classparents()](function.class-parents.html) - Повертає список батьківських класів заданого класу
--   [getdeclaredinterfaces()](function.get-declared-interfaces.html) - Повертає масив усіх оголошених інтерфейсів
+-   [classparents()](function.class-parents.md) - Повертає список батьківських класів заданого класу
+-   [getdeclaredinterfaces()](function.get-declared-interfaces.md) - Повертає масив усіх оголошених інтерфейсів

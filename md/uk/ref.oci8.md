@@ -10,55 +10,55 @@ title: OCI8 Функції
 
 ## Зміст
 
--   [ocibindarrayбname](function.oci-bind-array-by-name.html) — Пов'язує PHP масив з масивом Oracle PL/SQL
--   [ocibindбname](function.oci-bind-by-name.html) — Прикріплює змінну PHP до відповідної мітки у SQL-вираженні
--   [ocicancel](function.oci-cancel.html) - Закінчує процес читання з курсору
--   [ociclientversion](function.oci-client-version.html) — Повертає версію клієнтської бібліотеки
--   [ociclose](function.oci-close.html) — Закриває з'єднання із сервером Oracle
--   [ocicommit](function.oci-commit.html) - Підтверджує транзакцію бази даних
--   [ociconnect](function.oci-connect.html) — Встановлює з'єднання з базою даних Oracle
--   [ocidefineбname](function.oci-define-by-name.html) — Порівнює змінну PHP стовпцю результату запиту
--   [ocierror](function.oci-error.html) — Повертає останню помилку
--   [ociexecute](function.oci-execute.html) — Виконує підготовлений вираз
--   [ocifetchall](function.oci-fetch-all.html) — Вибирає всі рядки з результату запиту до двовимірного масиву
--   [ocifetcharray](function.oci-fetch-array.html) — Повертає наступний рядок із результату запиту у вигляді асоціативного чи нумерованого масиву
--   [ocifetchassoc](function.oci-fetch-assoc.html) — Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
--   [ocifetchobject](function.oci-fetch-object.html) — Повертає наступний рядок із результату запиту у вигляді об'єкта
--   [ocifetchrow](function.oci-fetch-row.html) — Повертає наступний рядок із результату запиту у вигляді нумерованого масиву
--   [ocifetch](function.oci-fetch.html) — Вибирає наступний рядок із результату до буфера
--   [ocifieldісnull](function.oci-field-is-null.html) — Перевіряє, чи поле в поточному отриманому ряду дорівнює null
--   [ocifieldname](function.oci-field-name.html) — Повертає ім'я поля із результату запиту
--   [ocifieldprecision](function.oci-field-precision.html) — Повертає точність поля
--   [ocifieldscale](function.oci-field-scale.html) — Повертає масштаб поля
--   [ocifieldsize](function.oci-field-size.html) — Повертає розмір поля
--   [ocifieldtyperaw](function.oci-field-type-raw.html) — Повертає вихідний тип поля Oracle
--   [ocifieldtype](function.oci-field-type.html) - Повертає ім'я типу поля
--   [ocifreedescriptor](function.oci-free-descriptor.html) - Звільняє дескриптор
--   [ocifreestatement](function.oci-free-statement.html) — Звільняє ресурси, які займає курсор або SQL-вираз.
--   [ocigetimplicitresultset](function.oci-get-implicit-resultset.html) — Повертає наступний ресурс дочірнього запиту з батьківського запиту, що має неявні результуючі набори Oracle Database
--   [ocilobcopy](function.oci-lob-copy.html) - Копіює об'єкт LOB
--   [ocilobісequal](function.oci-lob-is-equal.html) — Порівнює два об'єкти LOB/FILE
--   [ocinewcollection](function.oci-new-collection.html) — Створює новий об'єкт колекції
--   [ocinewconnect](function.oci-new-connect.html) — Встановлює нове з'єднання із сервером Oracle
--   [ocinewcursor](function.oci-new-cursor.html) - Повертає ідентифікатор створеного курсору
--   [ocinewdescriptor](function.oci-new-descriptor.html) - Ініціалізує новий дескриптор об'єкта LOB або FILE
--   [ocinumfields](function.oci-num-fields.html) — Повертає кількість полів через запит
--   [ocinumrows](function.oci-num-rows.html) — Повертає кількість рядків, змінених у процесі виконання запиту
--   [ociparse](function.oci-parse.html) — готує запит до виконання
--   [ocipasswordchange](function.oci-password-change.html) — Змінює пароль користувача Oracle
--   [ocipconnect](function.oci-pconnect.html) — Встановлює постійне з'єднання із сервером Oracle
--   [ociregistertafcallback](function.oci-register-taf-callback.html) — Реєструє функцію зворотного виклику для Oracle Database TAF
--   [ociresult](function.oci-result.html) — Повертає значення поля із результату запиту
--   [ocirollback](function.oci-rollback.html) — Відкочує транзакції, які очікують на обробку
--   [ociserverversion](function.oci-server-version.html) — Повертає версію сервера Oracle
--   [ocisetaction](function.oci-set-action.html) — Вказує ім'я для дії
--   [ocisetcalltimeout](function.oci-set-call-timout.html) — Встановлює час очікування у мілісекундах для викликів бази даних
--   [ocisetclientidentifier](function.oci-set-client-identifier.html) - Задає ідентифікатор клієнта
--   [ocisetclientinfo](function.oci-set-client-info.html) - Задає інформацію про клієнта
--   [ocisetдбoperation](function.oci-set-db-operation.html) — Задає операцію бази даних
--   [ocisetedition](function.oci-set-edition.html) - Задає випуск (edition) бази даних
--   [ocisetmodulename](function.oci-set-module-name.html) - Задає ім'я модулю
--   [ocisetprefetchlob](function.oci-set-prefetch-lob.html) — Встановлює обсяг даних, що попередньо вибираються для кожного CLOB або BLOB
--   [ocisetprefetch](function.oci-set-prefetch.html) — Встановлює кількість рядків, які будуть автоматично вибрані в буфер
--   [ocistatementtype](function.oci-statement-type.html) — Повертає тип виразу
--   [ociunregistertafcallback](function.oci-unregister-taf-callback.html) — Видалити реєстрацію користувача callback-функції для Oracle Database TAF
+-   [ocibindarrayбname](function.oci-bind-array-by-name.md) — Пов'язує PHP масив з масивом Oracle PL/SQL
+-   [ocibindбname](function.oci-bind-by-name.md) — Прикріплює змінну PHP до відповідної мітки у SQL-вираженні
+-   [ocicancel](function.oci-cancel.md) - Закінчує процес читання з курсору
+-   [ociclientversion](function.oci-client-version.md) — Повертає версію клієнтської бібліотеки
+-   [ociclose](function.oci-close.md) — Закриває з'єднання із сервером Oracle
+-   [ocicommit](function.oci-commit.md) - Підтверджує транзакцію бази даних
+-   [ociconnect](function.oci-connect.md) — Встановлює з'єднання з базою даних Oracle
+-   [ocidefineбname](function.oci-define-by-name.md) — Порівнює змінну PHP стовпцю результату запиту
+-   [ocierror](function.oci-error.md) — Повертає останню помилку
+-   [ociexecute](function.oci-execute.md) — Виконує підготовлений вираз
+-   [ocifetchall](function.oci-fetch-all.md) — Вибирає всі рядки з результату запиту до двовимірного масиву
+-   [ocifetcharray](function.oci-fetch-array.md) — Повертає наступний рядок із результату запиту у вигляді асоціативного чи нумерованого масиву
+-   [ocifetchassoc](function.oci-fetch-assoc.md) — Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
+-   [ocifetchobject](function.oci-fetch-object.md) — Повертає наступний рядок із результату запиту у вигляді об'єкта
+-   [ocifetchrow](function.oci-fetch-row.md) — Повертає наступний рядок із результату запиту у вигляді нумерованого масиву
+-   [ocifetch](function.oci-fetch.md) — Вибирає наступний рядок із результату до буфера
+-   [ocifieldісnull](function.oci-field-is-null.md) — Перевіряє, чи поле в поточному отриманому ряду дорівнює null
+-   [ocifieldname](function.oci-field-name.md) — Повертає ім'я поля із результату запиту
+-   [ocifieldprecision](function.oci-field-precision.md) — Повертає точність поля
+-   [ocifieldscale](function.oci-field-scale.md) — Повертає масштаб поля
+-   [ocifieldsize](function.oci-field-size.md) — Повертає розмір поля
+-   [ocifieldtyperaw](function.oci-field-type-raw.md) — Повертає вихідний тип поля Oracle
+-   [ocifieldtype](function.oci-field-type.md) - Повертає ім'я типу поля
+-   [ocifreedescriptor](function.oci-free-descriptor.md) - Звільняє дескриптор
+-   [ocifreestatement](function.oci-free-statement.md) — Звільняє ресурси, які займає курсор або SQL-вираз.
+-   [ocigetimplicitresultset](function.oci-get-implicit-resultset.md) — Повертає наступний ресурс дочірнього запиту з батьківського запиту, що має неявні результуючі набори Oracle Database
+-   [ocilobcopy](function.oci-lob-copy.md) - Копіює об'єкт LOB
+-   [ocilobісequal](function.oci-lob-is-equal.md) — Порівнює два об'єкти LOB/FILE
+-   [ocinewcollection](function.oci-new-collection.md) — Створює новий об'єкт колекції
+-   [ocinewconnect](function.oci-new-connect.md) — Встановлює нове з'єднання із сервером Oracle
+-   [ocinewcursor](function.oci-new-cursor.md) - Повертає ідентифікатор створеного курсору
+-   [ocinewdescriptor](function.oci-new-descriptor.md) - Ініціалізує новий дескриптор об'єкта LOB або FILE
+-   [ocinumfields](function.oci-num-fields.md) — Повертає кількість полів через запит
+-   [ocinumrows](function.oci-num-rows.md) — Повертає кількість рядків, змінених у процесі виконання запиту
+-   [ociparse](function.oci-parse.md) — готує запит до виконання
+-   [ocipasswordchange](function.oci-password-change.md) — Змінює пароль користувача Oracle
+-   [ocipconnect](function.oci-pconnect.md) — Встановлює постійне з'єднання із сервером Oracle
+-   [ociregistertafcallback](function.oci-register-taf-callback.md) — Реєструє функцію зворотного виклику для Oracle Database TAF
+-   [ociresult](function.oci-result.md) — Повертає значення поля із результату запиту
+-   [ocirollback](function.oci-rollback.md) — Відкочує транзакції, які очікують на обробку
+-   [ociserverversion](function.oci-server-version.md) — Повертає версію сервера Oracle
+-   [ocisetaction](function.oci-set-action.md) — Вказує ім'я для дії
+-   [ocisetcalltimeout](function.oci-set-call-timout.md) — Встановлює час очікування у мілісекундах для викликів бази даних
+-   [ocisetclientidentifier](function.oci-set-client-identifier.md) - Задає ідентифікатор клієнта
+-   [ocisetclientinfo](function.oci-set-client-info.md) - Задає інформацію про клієнта
+-   [ocisetдбoperation](function.oci-set-db-operation.md) — Задає операцію бази даних
+-   [ocisetedition](function.oci-set-edition.md) - Задає випуск (edition) бази даних
+-   [ocisetmodulename](function.oci-set-module-name.md) - Задає ім'я модулю
+-   [ocisetprefetchlob](function.oci-set-prefetch-lob.md) — Встановлює обсяг даних, що попередньо вибираються для кожного CLOB або BLOB
+-   [ocisetprefetch](function.oci-set-prefetch.md) — Встановлює кількість рядків, які будуть автоматично вибрані в буфер
+-   [ocistatementtype](function.oci-statement-type.md) — Повертає тип виразу
+-   [ociunregistertafcallback](function.oci-unregister-taf-callback.md) — Видалити реєстрацію користувача callback-функції для Oracle Database TAF

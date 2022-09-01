@@ -41,7 +41,7 @@ title: Налаштування під час виконання
 
 `mysqli.allow_persistent` int
 
-Включає можливість створювати постійні з'єднання за допомогою [mysqliconnect()](function.mysqli-connect.html)
+Включає можливість створювати постійні з'єднання за допомогою [mysqliconnect()](function.mysqli-connect.md)
 
 `mysqli.max_persistent` int
 

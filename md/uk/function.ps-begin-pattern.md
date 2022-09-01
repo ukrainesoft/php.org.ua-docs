@@ -18,13 +18,13 @@ title: псbeginpattern
 ps_begin_pattern(    resource $psdoc,    float $width,    float $height,    float $xstep,    float $ystep,    int $painttype): int|false
 ```
 
-Починає новий візерунок. Візерунок схожий на сторінку, що містить, наприклад, малюнок, який можна використовувати для заливання областей. Він використовується як колір, викликаючи [псsetcolor()](function.ps-setcolor.html) і встановлюючи колірний простір у `pattern`
+Починає новий візерунок. Візерунок схожий на сторінку, що містить, наприклад, малюнок, який можна використовувати для заливання областей. Він використовується як колір, викликаючи [псsetcolor()](function.ps-setcolor.md) і встановлюючи колірний простір у `pattern`
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 `width`
 
@@ -93,6 +93,6 @@ ps_delete($ps);
 
 ### Дивіться також
 
--   [псendpattern()](function.ps-end-pattern.html) - Завершує шаблон
--   [псsetcolor()](function.ps-setcolor.html) - Встановлює поточний колір
--   [псshadingpattern()](function.ps-shading-pattern.html) - Створює візерунок на основі затінення
+-   [псendpattern()](function.ps-end-pattern.md) - Завершує шаблон
+-   [псsetcolor()](function.ps-setcolor.md) - Встановлює поточний колір
+-   [псshadingpattern()](function.ps-shading-pattern.md) - Створює візерунок на основі затінення

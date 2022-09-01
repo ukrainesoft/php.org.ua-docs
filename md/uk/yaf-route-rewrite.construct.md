@@ -20,13 +20,13 @@ public **YafRouteRewrite::construct**(string `$match`, array `$route`, array `$v
 
 `match`
 
-Шаблон, який буде використовуватися для порівняння запиту URI, якщо він не збігається, [YafRouteRewrite](class.yaf-route-rewrite.html) поверне **`false`**
+Шаблон, який буде використовуватися для порівняння запиту URI, якщо він не збігається, [YafRouteRewrite](class.yaf-route-rewrite.md) поверне **`false`**
 
 Ви можете використовувати: стиль імені для іменування збігаються сегментів і використовувати для відповідності іншим сегментам URL.
 
 `route`
 
-Коли шаблон збігу відповідає запиту uri, [YafRouteRewrite](class.yaf-route-rewrite.html) використовуватиме це, щоб вирішити, який модуль/контролер/дія є пунктом призначення.
+Коли шаблон збігу відповідає запиту uri, [YafRouteRewrite](class.yaf-route-rewrite.md) використовуватиме це, щоб вирішити, який модуль/контролер/дія є пунктом призначення.
 
 Будь-який модуль/контролер/дія в цьому масиві не є обов'язковою, якщо ви не призначите конкретне значення, вона буде перенаправлена ​​на значення за промовчанням.
 
@@ -162,10 +162,10 @@ array(
 
 ### Дивіться також
 
--   [YafRouter::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора
--   [YafRouter::addConfig()](yaf-router.addconfig.html) - Додає налаштовані маршрути до маршрутизатора
--   [YafRouteStatic](class.yaf-route-static.html)
--   [YafRouteSupervar](class.yaf-route-supervar.html)
--   [YafRouteSimple](class.yaf-route-simple.html)
--   [YafRouteRegex](class.yaf-route-regex.html)
--   [YafRouteMap](class.yaf-route-map.html)
+-   [YafRouter::addRoute()](yaf-router.addroute.md) - Додає новий маршрут до маршрутизатора
+-   [YafRouter::addConfig()](yaf-router.addconfig.md) - Додає налаштовані маршрути до маршрутизатора
+-   [YafRouteStatic](class.yaf-route-static.md)
+-   [YafRouteSupervar](class.yaf-route-supervar.md)
+-   [YafRouteSimple](class.yaf-route-simple.md)
+-   [YafRouteRegex](class.yaf-route-regex.md)
+-   [YafRouteMap](class.yaf-route-map.md)

@@ -14,7 +14,7 @@ title: Обумовлені константи
 
 Магічне число (-1), що вказує на останню ревізію
 
-**Константи, що використовуються з [svnauthsetparameter()](function.svn-auth-set-parameter.html)**
+**Константи, що використовуються з [svnauthsetparameter()](function.svn-auth-set-parameter.md)**
 
 **`SVN_AUTH_PARAM_DEFAULT_USERNAME`** (string)
 

@@ -37,5 +37,5 @@ public static has(string $name): bool
 
 ## Зміст
 
--   [Yaconf::get](yaconf.get.html) — Вийняти елемент
--   [Yaconf::has](yaconf.has.html) — Визначити, чи існує елемент
+-   [Yaconf::get](yaconf.get.md) — Вийняти елемент
+-   [Yaconf::has](yaconf.has.md) — Визначити, чи існує елемент

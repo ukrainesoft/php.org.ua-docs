@@ -16,14 +16,14 @@ title: Функції визначення типу символів
     -   [Типи ресурсів](ctype.resources.md)
 -   [Обумовлені константи](ctype.constants.md)
 -   [Опції Ctype](ref.ctype.md)
-    -   [ctypealnum](function.ctype-alnum.html) — Перевіряє наявність літерно-цифрових символів
-    -   [ctypealpha](function.ctype-alpha.html) — Перевіряє наявність літерних символів
-    -   [ctypecntrl](function.ctype-cntrl.html) — Перевіряє наявність символів, що управляють.
-    -   [ctypedigit](function.ctype-digit.html) — Перевіряє наявність цифрових символів у рядку
-    -   [ctypegraph](function.ctype-graph.html) — Перевіряє наявність будь-яких друкованих символів, окрім пропуску
-    -   [ctypelower](function.ctype-lower.html) — Перевіряє наявність символів у нижньому регістрі
-    -   [ctypeprint](function.ctype-print.html) — Перевіряє наявність друкованих символів
-    -   [ctypepunct](function.ctype-punct.html) — Перевіряє наявність друкованих символів, які не містять пробілових або буквено-цифрових символів.
-    -   [ctypespace](function.ctype-space.html) — Перевіряє наявність символів пробілів
-    -   [ctypeupper](function.ctype-upper.html) — Перевіряє наявність символів у верхньому регістрі
-    -   [ctypexdigit](function.ctype-xdigit.html) — Перевіряє наявність шістнадцяткових цифр
+    -   [ctypealnum](function.ctype-alnum.md) — Перевіряє наявність літерно-цифрових символів
+    -   [ctypealpha](function.ctype-alpha.md) — Перевіряє наявність літерних символів
+    -   [ctypecntrl](function.ctype-cntrl.md) — Перевіряє наявність символів, що управляють.
+    -   [ctypedigit](function.ctype-digit.md) — Перевіряє наявність цифрових символів у рядку
+    -   [ctypegraph](function.ctype-graph.md) — Перевіряє наявність будь-яких друкованих символів, окрім пропуску
+    -   [ctypelower](function.ctype-lower.md) — Перевіряє наявність символів у нижньому регістрі
+    -   [ctypeprint](function.ctype-print.md) — Перевіряє наявність друкованих символів
+    -   [ctypepunct](function.ctype-punct.md) — Перевіряє наявність друкованих символів, які не містять пробілових або буквено-цифрових символів.
+    -   [ctypespace](function.ctype-space.md) — Перевіряє наявність символів пробілів
+    -   [ctypeupper](function.ctype-upper.md) — Перевіряє наявність символів у верхньому регістрі
+    -   [ctypexdigit](function.ctype-xdigit.md) — Перевіряє наявність шістнадцяткових цифр

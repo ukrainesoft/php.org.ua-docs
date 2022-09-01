@@ -64,5 +64,5 @@ int(2)
 
 ### Дивіться також
 
--   [мбstrimwidth()](function.mb-strimwidth.html) - Отримання рядка, обрізаного до заданого розміру
--   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбstrimwidth()](function.mb-strimwidth.md) - Отримання рядка, обрізаного до заданого розміру
+-   [мбinternalencoding()](function.mb-internal-encoding.md) - Встановлення/отримання внутрішнього кодування скрипту

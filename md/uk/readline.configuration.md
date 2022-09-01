@@ -21,8 +21,8 @@ title: Налаштування під час виконання
 
 `cli.pager` string
 
-Зовнішня утиліта для відображення висновку в [командную строку](features.commandline.html)
+Зовнішня утиліта для відображення висновку в [командную строку](features.commandline.md)
 
 `cli.prompt` string
 
-Підказка [командного рядка](features.commandline.html)
+Підказка [командного рядка](features.commandline.md)

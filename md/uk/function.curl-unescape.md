@@ -24,7 +24,7 @@ curl_unescape(CurlHandle $handle, string $string): string|false
 
 `handle`
 
-Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
 
 `string`
 
@@ -42,7 +42,7 @@ curl_unescape(CurlHandle $handle, string $string): string|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання [curlescape()](function.curl-escape.html)**
+**Приклад #1 Приклад використання [curlescape()](function.curl-escape.md)**
 
 ```php
 <?php
@@ -74,7 +74,7 @@ curl_close($ch);
 
 ### Дивіться також
 
--   [curlescape()](function.curl-escape.html) - Кодує заданий рядок як URL
+-   [curlescape()](function.curl-escape.md) - Кодує заданий рядок як URL
 -   [urlencode()](function.urlencode.md) - URL-кодування рядка
 -   [urldecode()](function.urldecode.md) - Декодування URL-кодованого рядка
 -   [rawurlencode()](function.rawurlencode.md) - URL-кодування рядка згідно з RFC 3986

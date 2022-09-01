@@ -24,7 +24,7 @@ ps_scale(resource $psdoc, float $x, float $y): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `x`
 
@@ -40,5 +40,5 @@ ps_scale(resource $psdoc, float $x, float $y): bool
 
 ### Дивіться також
 
--   [псrotate()](function.ps-rotate.html) - Встановлює коефіцієнт обертання
--   [псtranslate()](function.ps-translate.html) - Змінює систему координат
+-   [псrotate()](function.ps-rotate.md) - Встановлює коефіцієнт обертання
+-   [псtranslate()](function.ps-translate.md) - Змінює систему координат

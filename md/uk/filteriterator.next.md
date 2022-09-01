@@ -34,5 +34,5 @@ public FilterIterator::next(): void
 
 ### Дивіться також
 
--   [FilterIterator::current()](filteriterator.current.html) - Отримує значення поточного елемента
--   [FilterIterator::key()](filteriterator.key.html) - Отримує поточний ключ
+-   [FilterIterator::current()](filteriterator.current.md) - Отримує значення поточного елемента
+-   [FilterIterator::key()](filteriterator.key.md) - Отримує поточний ключ

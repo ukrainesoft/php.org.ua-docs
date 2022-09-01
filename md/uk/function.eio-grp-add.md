@@ -24,7 +24,7 @@ eio_grp_add(resource $grp, resource $req): void
 
 `grp`
 
-Вказівник на групу запитів, повернутий [eiogrp()](function.eio-grp.html)
+Вказівник на групу запитів, повернутий [eiogrp()](function.eio-grp.md)
 
 `req`
 
@@ -108,6 +108,6 @@ bool(true)
 
 ### Дивіться також
 
--   [eiogrp()](function.eio-grp.html) - Створює групу запитів
--   [eiogrpcancel()](function.eio-grp-cancel.html) - Скасує групу запитів
--   [eiogrplimit()](function.eio-grp-limit.html) - Встановлює граничну кількість запитів у групі
+-   [eiogrp()](function.eio-grp.md) - Створює групу запитів
+-   [eiogrpcancel()](function.eio-grp-cancel.md) - Скасує групу запитів
+-   [eiogrplimit()](function.eio-grp-limit.md) - Встановлює граничну кількість запитів у групі

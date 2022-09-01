@@ -24,7 +24,7 @@ imap_set_quota(IMAP\Connection $imap, string $quota_root, int $mailbox_size): bo
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `quota_root`
 
@@ -42,7 +42,7 @@ imap_set_quota(IMAP\Connection $imap, string $quota_root, int $mailbox_size): bo
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -69,5 +69,5 @@ imap_close($mbox);
 
 ### Дивіться також
 
--   [imapopen()](function.imap-open.html) - Відкриває потік IMAP до поштової скриньки
--   [imapgetquota()](function.imap-get-quota.html) - Отримати налаштування рівня квоти та статистику використання поштових скриньок
+-   [imapopen()](function.imap-open.md) - Відкриває потік IMAP до поштової скриньки
+-   [imapgetquota()](function.imap-get-quota.md) - Отримати налаштування рівня квоти та статистику використання поштових скриньок

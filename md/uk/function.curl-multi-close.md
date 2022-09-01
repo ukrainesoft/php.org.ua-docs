@@ -28,7 +28,7 @@ curl_multi_close(CurlMultiHandle $multi_handle): void
 
 `multi_handle`
 
-Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.html)
+Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.md)
 
 ### Значення, що повертаються
 
@@ -85,5 +85,5 @@ curl_multi_close($mh);
 
 ### Дивіться також
 
--   [curlmultiinit()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів
--   [curlclose()](function.curl-close.html) - Завершує сеанс cURL
+-   [curlmultiinit()](function.curl-multi-init.md) - Створює набір cURL-дескрипторів
+-   [curlclose()](function.curl-close.md) - Завершує сеанс cURL

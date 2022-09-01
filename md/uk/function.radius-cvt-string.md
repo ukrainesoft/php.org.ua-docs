@@ -59,5 +59,5 @@ while ($resa = radius_get_attr($res)) {
 
 ### Дивіться також
 
--   [radiuscvtaddr()](function.radius-cvt-addr.html) - Перетворює необроблені дані на IP-адресу
--   [radiuscvtint()](function.radius-cvt-int.html) - Перетворює необроблені дані на ціле число
+-   [radiuscvtaddr()](function.radius-cvt-addr.md) - Перетворює необроблені дані на IP-адресу
+-   [radiuscvtint()](function.radius-cvt-int.md) - Перетворює необроблені дані на ціле число

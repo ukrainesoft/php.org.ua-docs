@@ -46,5 +46,5 @@ abstract public XMLDiff\Base::merge(mixed $src, mixed $diff): mixed
 
 ## Зміст
 
--   [XMLDiffFile::diff](xmldiff-file.diff.html) — Порівняння двох файлів XML
--   [XMLDiffFile::merge](xmldiff-file.merge.html) — Застосувати зміни до документа XML
+-   [XMLDiffFile::diff](xmldiff-file.diff.md) — Порівняння двох файлів XML
+-   [XMLDiffFile::merge](xmldiff-file.merge.md) — Застосувати зміни до документа XML

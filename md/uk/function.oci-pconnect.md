@@ -94,7 +94,7 @@ echo "</table>\n";
 ?>
 ```
 
-Додаткові приклади можна знайти в описі функції [ociconnect()](function.oci-connect.html)
+Додаткові приклади можна знайти в описі функції [ociconnect()](function.oci-connect.md)
 
 ### Примітки
 
@@ -102,5 +102,5 @@ echo "</table>\n";
 
 ### Дивіться також
 
--   [ociconnect()](function.oci-connect.html) - Встановлює з'єднання з базою даних Oracle
--   [ocinewconnect()](function.oci-new-connect.html) - Встановлює нове з'єднання із сервером Oracle
+-   [ociconnect()](function.oci-connect.md) - Встановлює з'єднання з базою даних Oracle
+-   [ocinewconnect()](function.oci-new-connect.md) - Встановлює нове з'єднання із сервером Oracle

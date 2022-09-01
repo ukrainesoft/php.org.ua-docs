@@ -54,4 +54,4 @@ sqlsrv_close( $conn );
 
 ### Дивіться також
 
--   [sqlsrvconnect()](function.sqlsrv-connect.html) - Відкриває з'єднання з базою даних Microsoft SQL Server
+-   [sqlsrvconnect()](function.sqlsrv-connect.md) - Відкриває з'єднання з базою даних Microsoft SQL Server

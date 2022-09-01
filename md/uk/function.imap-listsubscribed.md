@@ -10,8 +10,8 @@ title: imaplistsubscribed
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imaplistsubscribed - Псевдонім [imaplsub()](function.imap-lsub.html)
+imaplistsubscribed - Псевдонім [imaplsub()](function.imap-lsub.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [imaplsub()](function.imap-lsub.html)
+Ця функція є псевдонімом: [imaplsub()](function.imap-lsub.md)

@@ -46,5 +46,5 @@ echo $ip;
 
 -   [gethostbyaddr()](function.gethostbyaddr.md) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
 -   [gethostbynamel()](function.gethostbynamel.md) - Отримує список IPv4-адрес, що відповідають переданому доменному імені хоста
--   [inetpton()](function.inet-pton.html) - Конвертує IP-адресу, що читається, в її упаковане подання inaddr
--   [inetntop()](function.inet-ntop.html) - Конвертує упаковану інтернет-адресу в формат, що читається
+-   [inetpton()](function.inet-pton.md) - Конвертує IP-адресу, що читається, в її упаковане подання inaddr
+-   [inetntop()](function.inet-ntop.md) - Конвертує упаковану інтернет-адресу в формат, що читається

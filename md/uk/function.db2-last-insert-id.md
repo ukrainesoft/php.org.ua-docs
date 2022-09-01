@@ -35,7 +35,7 @@ db2_last_insert_id(resource $resource): string
 
 `resource`
 
-Допустимий ресурс підключення, що повертається [db2connect()](function.db2-connect.html) або [db2pconnect()](function.db2-pconnect.html). Значення цього параметра може бути ресурсом оператора чи ресурсом набору результатів.
+Допустимий ресурс підключення, що повертається [db2connect()](function.db2-connect.html) або [db2pconnect()](function.db2-pconnect.md). Значення цього параметра може бути ресурсом оператора чи ресурсом набору результатів.
 
 ### Значення, що повертаються
 

@@ -22,21 +22,21 @@ pg_put_line(PgSql\Connection $connection = ?, string $data): bool
 
 `COPY` є високошвидкісним інтерфейсом передачі, підтримуваним PostgreSQL. Дані передаються однією транзакцією та не розбираються парсером.
 
-Як альтернативу можна використовувати функцію [пгcopyfrom()](function.pg-copy-from.html). Вона значно простіша у використанні.
+Як альтернативу можна використовувати функцію [пгcopyfrom()](function.pg-copy-from.md). Вона значно простіша у використанні.
 
 > **Зауваження**
 > 
-> Перед запуском функції [пгendcopy()](function.pg-end-copy.html) програма повинна повідомити про сервер про завершення передачі даних, додавши в кінець останнього рядка символи ".".
+> Перед запуском функції [пгendcopy()](function.pg-end-copy.md) програма повинна повідомити про сервер про завершення передачі даних, додавши в кінець останнього рядка символи ".".
 
 **Увага**
 
-Використання **пгputline()** може призвести до відмови операцій з великими об'єктами, що включають функції [пглоread()](function.pg-lo-read.html) і [пглоtell()](function.pg-lo-tell.html). Для цього використовуйте функції [пгcopyfrom()](function.pg-copy-from.html) і [пгcopyto()](function.pg-copy-to.html)
+Використання **пгputline()** може призвести до відмови операцій з великими об'єктами, що включають функції [пглоread()](function.pg-lo-read.html) і [пглоtell()](function.pg-lo-tell.html). Для цього використовуйте функції [пгcopyfrom()](function.pg-copy-from.html) і [пгcopyto()](function.pg-copy-to.md)
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -54,7 +54,7 @@ pg_put_line(PgSql\Connection $connection = ?, string $data): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -74,4 +74,4 @@ pg_put_line(PgSql\Connection $connection = ?, string $data): bool
 
 ### Дивіться також
 
--   [пгendcopy()](function.pg-end-copy.html) - Синхронізує з бекендом PostgreSQL
+-   [пгendcopy()](function.pg-end-copy.md) - Синхронізує з бекендом PostgreSQL

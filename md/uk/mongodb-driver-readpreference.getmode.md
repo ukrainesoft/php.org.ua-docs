@@ -28,7 +28,7 @@ final public MongoDB\Driver\ReadPreference::getMode(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
@@ -67,5 +67,5 @@ int(10)
 
 ### Дивіться також
 
--   [MongoDBDriverReadPreference::getModeString()](mongodb-driver-readpreference.getmodestring.html) - Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
+-   [MongoDBDriverReadPreference::getModeString()](mongodb-driver-readpreference.getmodestring.md) - Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
 -   [» Руководство по предпочтению чтения](https://www.mongodb.com/docs/manual/core/read-preference/)

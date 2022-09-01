@@ -10,7 +10,7 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](gearman.requirements.html)
--   [Установка](gearman.installation.html)
--   [Налаштування під час виконання](gearman.configuration.html)
--   [Типи ресурсів](gearman.resources.html)
+-   [Вимоги](gearman.requirements.md)
+-   [Установка](gearman.installation.md)
+-   [Налаштування під час виконання](gearman.configuration.md)
+-   [Типи ресурсів](gearman.resources.md)

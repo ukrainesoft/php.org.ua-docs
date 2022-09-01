@@ -18,7 +18,7 @@ streamfilterremove — Видалити фільтр із потоку
 stream_filter_remove(resource $stream_filter): bool
 ```
 
-Видаляє потоковий фільтр, раніше доданий до потоку за допомогою функції [streamfilterprepend()](function.stream-filter-prepend.html) або [streamfilterappend()](function.stream-filter-append.html). Будь-які дані, що залишилися у внутрішньому буфері фільтра, будуть відправлені до наступного фільтра до його видалення.
+Видаляє потоковий фільтр, раніше доданий до потоку за допомогою функції [streamfilterprepend()](function.stream-filter-prepend.html) або [streamfilterappend()](function.stream-filter-append.md). Будь-які дані, що залишилися у внутрішньому буфері фільтра, будуть відправлені до наступного фільтра до його видалення.
 
 ### Список параметрів
 
@@ -59,6 +59,6 @@ Guvf vf a test
 
 ### Дивіться також
 
--   [streamfilterregister()](function.stream-filter-register.html) - Реєструє потоковий фільтр, визначений користувачем
--   [streamfilterappend()](function.stream-filter-append.html) - Прикріпити фільтр до потоку
--   [streamfilterprepend()](function.stream-filter-prepend.html) - Прикріплює фільтр до потоку
+-   [streamfilterregister()](function.stream-filter-register.md) - Реєструє потоковий фільтр, визначений користувачем
+-   [streamfilterappend()](function.stream-filter-append.md) - Прикріпити фільтр до потоку
+-   [streamfilterprepend()](function.stream-filter-prepend.md) - Прикріплює фільтр до потоку

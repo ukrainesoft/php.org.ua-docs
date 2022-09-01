@@ -38,7 +38,7 @@ xml_parse(XMLParser $parser, string $data, bool $is_final = false): int
 
 Повертає 1 при успішному завершенні, 0 інакше.
 
-У разі невдалого аналізу інформацію про помилки можна отримати за допомогою функцій [xmlgeterrorcode()](function.xml-get-error-code.html) [xmlerrorstring()](function.xml-error-string.html) [xmlgetcurrentlinenumber()](function.xml-get-current-line-number.html) [xmlgetcurrentcolumnnumber()](function.xml-get-current-column-number.html) і [xmlgetcurrentbyteindex()](function.xml-get-current-byte-index.html)
+У разі невдалого аналізу інформацію про помилки можна отримати за допомогою функцій [xmlgeterrorcode()](function.xml-get-error-code.html) [xmlerrorstring()](function.xml-error-string.html) [xmlgetcurrentlinenumber()](function.xml-get-current-line-number.html) [xmlgetcurrentcolumnnumber()](function.xml-get-current-column-number.html) і [xmlgetcurrentbyteindex()](function.xml-get-current-byte-index.md)
 
 > **Зауваження**
 > 

@@ -24,7 +24,7 @@ dio_tcsetattr(resource $fd, array $options): bool
 
 `fd`
 
-Файловий дескриптор, отриманий з [dioopen()](function.dio-open.html)
+Файловий дескриптор, отриманий з [dioopen()](function.dio-open.md)
 
 `options`
 

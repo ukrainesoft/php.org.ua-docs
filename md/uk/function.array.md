@@ -117,9 +117,9 @@ echo "Hello {$foo['bar']}!"; // Hello baz!
 
 ### Дивіться також
 
--   [arraypad()](function.array-pad.html) - Доповнити масив певним значенням до вказаної довжини
+-   [arraypad()](function.array-pad.md) - Доповнити масив певним значенням до вказаної довжини
 -   [list()](function.list.md) - Надає змінним зі списку значення подібно до масиву
 -   [count()](function.count.md) - Підраховує кількість елементів масиву або Countable об'єкті
 -   [range()](function.range.md) - Створює масив, що містить діапазон елементів
--   [foreach](control-structures.foreach.html)
+-   [foreach](control-structures.foreach.md)
 -   Тип [Масив](language.types.array.md)

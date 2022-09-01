@@ -10,7 +10,7 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](posix.requirements.html)
--   [Установка](posix.installation.html)
--   [Налаштування під час виконання](posix.configuration.html)
--   [Типи ресурсів](posix.resources.html)
+-   [Вимоги](posix.requirements.md)
+-   [Установка](posix.installation.md)
+-   [Налаштування під час виконання](posix.configuration.md)
+-   [Типи ресурсів](posix.resources.md)

@@ -20,13 +20,13 @@ yaz_ccl_conf(resource $id, array $config): void
 
 Функція конфігурує CCL-парсер запитів для сервера з визначеннями точок доступу (CCL-кваліфікаторів) та їх відображення у RPN.
 
-Для відображення специфічного CCL-запиту до RPN викличте функцію [yazcclparse()](function.yaz-ccl-parse.html)
+Для відображення специфічного CCL-запиту до RPN викличте функцію [yazcclparse()](function.yaz-ccl-parse.md)
 
 ### Список параметрів
 
 `id`
 
-Ідентифікатор ресурсу, що повертається функцією [yazconnect()](function.yaz-connect.html)
+Ідентифікатор ресурсу, що повертається функцією [yazconnect()](function.yaz-connect.md)
 
 `config`
 
@@ -59,4 +59,4 @@ yaz_ccl_conf($id, $fields);
 
 ### Дивіться також
 
--   [yazcclparse()](function.yaz-ccl-parse.html) - Викликає парсер CCL
+-   [yazcclparse()](function.yaz-ccl-parse.md) - Викликає парсер CCL

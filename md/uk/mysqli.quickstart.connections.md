@@ -51,13 +51,13 @@ mysqli.defaulthost=192.168.2.27 mysqli.defaultuser=root mysqli.defaultpw="" mysq
 
 Якщо з'єднання не використовує ні сокет домену Unix, ні іменований пайп Windows, і при цьому не заданий порт для підключення, бібліотека використовує номер порту `3306`
 
-У драйвері [mysqlnd](mysqlnd.overview.html) та клієнтській бібліотеці MySQL (libmysqlclient) закладена та сама логіка визначення умовчань.
+У драйвері [mysqlnd](mysqlnd.overview.md) та клієнтській бібліотеці MySQL (libmysqlclient) закладена та сама логіка визначення умовчань.
 
 *Налаштування з'єднання*
 
 Налаштування з'єднання дозволяють, наприклад, встановити якісь команди, які потрібно виконати відразу після підключення, або віддати розпорядження використовувати певний набір символів. Установки повинні бути задані до підключення до сервера.
 
-Коли потрібно встановити налаштування з'єднання, операція підключення виконується в три етапи: функцією [mysqliinit()](mysqli.init.html) або [mysqli::construct()](mysqli.construct.html) створюється дескриптор підключення, потім підключення налаштовується за допомогою функції [mysqli::options()](mysqli.options.html), і нарешті встановлюється мережне з'єднання з сервером за допомогою функції [mysqli::realconnect()](mysqli.real-connect.html)
+Коли потрібно встановити налаштування з'єднання, операція підключення виконується в три етапи: функцією [mysqliinit()](mysqli.init.html) або [mysqli::construct()](mysqli.construct.html) створюється дескриптор підключення, потім підключення налаштовується за допомогою функції [mysqli::options()](mysqli.options.html), і нарешті встановлюється мережне з'єднання з сервером за допомогою функції [mysqli::realconnect()](mysqli.real-connect.md)
 
 *Об'єднання підключень до пулу*
 
@@ -71,19 +71,19 @@ mysqli.defaulthost=192.168.2.27 mysqli.defaultuser=root mysqli.defaultpw="" mysq
 
 Головний недолік постійних підключень полягає в тому, що перед повторним використанням їхній стан не скидається до первісного. Наприклад, відкриті та незавершені транзакції не будуть автоматично відкочуватися. Також, якщо під час знаходження з'єднання в пулі для процесу змінилися будь-які дозволи або рівні доступу, цей факт ніяк не вплине на підключення під час його вилучення з пулу. Така поведінка може спричинити небажані результати. Хоча, з іншого боку, назва `постоянный` можна розглядати, як обіцянку, що підключення і справді залишиться в тому стані, в якому воно було поміщене в пул.
 
-Модуль mysqli підтримує обидві інтерпретації терміна постійне з'єднання: стан з'єднання може зберігатися, а може скидатися в початкове. За замовчуванням під час вилучення з пулу з'єднання скидається. mysqli робить це неявним викликом функції [mysqli::changeuser()](mysqli.change-user.html) щоразу, коли підключення використовується повторно. З точки зору користувача підключення виглядає, як щойно створене.
+Модуль mysqli підтримує обидві інтерпретації терміна постійне з'єднання: стан з'єднання може зберігатися, а може скидатися в початкове. За замовчуванням під час вилучення з пулу з'єднання скидається. mysqli робить це неявним викликом функції [mysqli::changeuser()](mysqli.change-user.md) щоразу, коли підключення використовується повторно. З точки зору користувача підключення виглядає, як щойно створене.
 
-Однак, виклик функції [mysqli::changeuser()](mysqli.change-user.html) Досить дорога операція. Для покращення швидкодії можна перекомпілювати модуль із встановленим прапором **`MYSQLI_NO_CHANGE_USER_ON_PCONNECT`**
+Однак, виклик функції [mysqli::changeuser()](mysqli.change-user.md) Досить дорога операція. Для покращення швидкодії можна перекомпілювати модуль із встановленим прапором **`MYSQLI_NO_CHANGE_USER_ON_PCONNECT`**
 
 Вибір між безпечною поведінкою підключень та найкращою швидкодією залишається за користувачем. Тут не можна дати однозначної поради. Для простоти використання, за умовчанням увімкнено безпечний режим з очищенням з'єднань.
 
 *Дивіться також*
 
--   [mysqli::construct()](mysqli.construct.html)
--   [mysqliinit()](mysqli.init.html)
--   [mysqli::options()](mysqli.options.html)
--   [mysqli::realconnect()](mysqli.real-connect.html)
--   [mysqli::changeuser()](mysqli.change-user.html)
--   [$mysqli::hostinfo](mysqli.get-host-info.html)
--   [MySQLi Configuration Options](mysqli.configuration.html)
--   [Persistent Database Connections](features.persistent-connections.html)
+-   [mysqli::construct()](mysqli.construct.md)
+-   [mysqliinit()](mysqli.init.md)
+-   [mysqli::options()](mysqli.options.md)
+-   [mysqli::realconnect()](mysqli.real-connect.md)
+-   [mysqli::changeuser()](mysqli.change-user.md)
+-   [$mysqli::hostinfo](mysqli.get-host-info.md)
+-   [MySQLi Configuration Options](mysqli.configuration.md)
+-   [Persistent Database Connections](features.persistent-connections.md)

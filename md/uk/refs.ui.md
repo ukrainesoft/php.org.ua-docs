@@ -11,51 +11,51 @@ title: Модулі для роботи з GUI
 -   [ОЙ](book.ui.md)
     -   [Введение](intro.ui.md)
     -   [Встановлення та налаштування](ui.setup.md)
-    -   [ОЙPoint](class.ui-point.html) - Представляє позицію (x, y)
-    -   [ОЙSize](class.ui-size.html) - Представляє розміри (ширина, висота)
-    -   [ОЙWindow](class.ui-window.html) - Вікно
-    -   [ОЙControl](class.ui-control.html) - Елемент управління
-    -   [ОЙMenu](class.ui-menu.html) - Меню
-    -   [ОЙMenuItem](class.ui-menuitem.html) - Елемент меню
-    -   [ОЙArea](class.ui-area.html) - Area
-    -   [ОЙExecutor](class.ui-executor.html) — Планувальник виконання
-    -   [ОЙControlsTab](class.ui-controls-tab.html) - Елемент управління "Таб"
-    -   [ОЙControlsCheck](class.ui-controls-check.html) - Елемент управління "Чекбокс"
-    -   [ОЙControlsButton](class.ui-controls-button.html) - Елемент управління "Кнопка"
-    -   [ОЙControlsColorButton](class.ui-controls-colorbutton.html) - Елемент управління "Кнопка з палітрою кольорів"
-    -   [ОЙControlsLabel](class.ui-controls-label.html) - Елемент управління "Мітка"
-    -   [ОЙControlsEntry](class.ui-controls-entry.html) - Елемент управління "Введення"
-    -   [ОЙControlsMultilineEntry](class.ui-controls-multilineentry.html) - Елемент управління "Многорядкове введення"
-    -   [ОЙControlsSpin](class.ui-controls-spin.html) - Елемент управління "Спін"
-    -   [ОЙControlsSlider](class.ui-controls-slider.html) - Елемент управління "Слайдер"
-    -   [ОЙControlsProgress](class.ui-controls-progress.html) - Елемент управління "Хід виконання"
-    -   [ОЙControlsSeparator](class.ui-controls-separator.html) - Елемент управління "Розділювач"
-    -   [ОЙControlsCombo](class.ui-controls-combo.html) - Елемент управління "Комбо"
-    -   [ОЙControlsEditableCombo](class.ui-controls-editablecombo.html) - Редагований елемент управління "Комбо"
-    -   [ОЙControlsRadio](class.ui-controls-radio.html) - Елемент управління "Радіо"
-    -   [ОЙControlsPicker](class.ui-controls-picker.html) - Елемент управління "Селектор"
-    -   [ОЙControlsForm](class.ui-controls-form.html) - Елемент управління "Форма" (розташування)
-    -   [ОЙControlsGrid](class.ui-controls-grid.html) - Елемент управління "Сітка" (розміщення)
-    -   [ОЙControlsGroup](class.ui-controls-group.html) - Елемент управління "Група" (розміщення)
-    -   [ОЙControlsBox](class.ui-controls-box.html) - Блок управління (розміщення)
-    -   [ОЙDrawPen](class.ui-draw-pen.html) - Малювання за допомогою "Перо"
-    -   [ОЙDrawPath](class.ui-draw-path.html) - Шлях малювання
-    -   [ОЙDrawMatrix](class.ui-draw-matrix.html) - Матриця малювання
-    -   [ОЙDrawColor](class.ui-draw-color.html) — Подання кольору
-    -   [ОЙDrawStroke](class.ui-draw-stroke.html) - Малювання обведення
-    -   [ОЙDrawBrush](class.ui-draw-brush.html) - Щітки
-    -   [ОЙDrawBrushGradient](class.ui-draw-brush-gradient.html) - Градієнтні пензлі
-    -   [ОЙDrawBrushLinearGradient](class.ui-draw-brush-lineargradient.html) - Лінійний градієнт
-    -   [ОЙDrawBrushRadialGradient](class.ui-draw-brush-radialgradient.html) - Радіальний градієнт
-    -   [ОЙDrawTextLayout](class.ui-draw-text-layout.html) — Подає макет тексту
-    -   [ОЙDrawTextFont](class.ui-draw-text-font.html) — Подає шрифт
-    -   [ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html) - Дескриптор шрифту
+    -   [ОЙPoint](class.ui-point.md) - Представляє позицію (x, y)
+    -   [ОЙSize](class.ui-size.md) - Представляє розміри (ширина, висота)
+    -   [ОЙWindow](class.ui-window.md) - Вікно
+    -   [ОЙControl](class.ui-control.md) - Елемент управління
+    -   [ОЙMenu](class.ui-menu.md) - Меню
+    -   [ОЙMenuItem](class.ui-menuitem.md) - Елемент меню
+    -   [ОЙArea](class.ui-area.md) - Area
+    -   [ОЙExecutor](class.ui-executor.md) — Планувальник виконання
+    -   [ОЙControlsTab](class.ui-controls-tab.md) - Елемент управління "Таб"
+    -   [ОЙControlsCheck](class.ui-controls-check.md) - Елемент управління "Чекбокс"
+    -   [ОЙControlsButton](class.ui-controls-button.md) - Елемент управління "Кнопка"
+    -   [ОЙControlsColorButton](class.ui-controls-colorbutton.md) - Елемент управління "Кнопка з палітрою кольорів"
+    -   [ОЙControlsLabel](class.ui-controls-label.md) - Елемент управління "Мітка"
+    -   [ОЙControlsEntry](class.ui-controls-entry.md) - Елемент управління "Введення"
+    -   [ОЙControlsMultilineEntry](class.ui-controls-multilineentry.md) - Елемент управління "Многорядкове введення"
+    -   [ОЙControlsSpin](class.ui-controls-spin.md) - Елемент управління "Спін"
+    -   [ОЙControlsSlider](class.ui-controls-slider.md) - Елемент управління "Слайдер"
+    -   [ОЙControlsProgress](class.ui-controls-progress.md) - Елемент управління "Хід виконання"
+    -   [ОЙControlsSeparator](class.ui-controls-separator.md) - Елемент управління "Розділювач"
+    -   [ОЙControlsCombo](class.ui-controls-combo.md) - Елемент управління "Комбо"
+    -   [ОЙControlsEditableCombo](class.ui-controls-editablecombo.md) - Редагований елемент управління "Комбо"
+    -   [ОЙControlsRadio](class.ui-controls-radio.md) - Елемент управління "Радіо"
+    -   [ОЙControlsPicker](class.ui-controls-picker.md) - Елемент управління "Селектор"
+    -   [ОЙControlsForm](class.ui-controls-form.md) - Елемент управління "Форма" (розташування)
+    -   [ОЙControlsGrid](class.ui-controls-grid.md) - Елемент управління "Сітка" (розміщення)
+    -   [ОЙControlsGroup](class.ui-controls-group.md) - Елемент управління "Група" (розміщення)
+    -   [ОЙControlsBox](class.ui-controls-box.md) - Блок управління (розміщення)
+    -   [ОЙDrawPen](class.ui-draw-pen.md) - Малювання за допомогою "Перо"
+    -   [ОЙDrawPath](class.ui-draw-path.md) - Шлях малювання
+    -   [ОЙDrawMatrix](class.ui-draw-matrix.md) - Матриця малювання
+    -   [ОЙDrawColor](class.ui-draw-color.md) — Подання кольору
+    -   [ОЙDrawStroke](class.ui-draw-stroke.md) - Малювання обведення
+    -   [ОЙDrawBrush](class.ui-draw-brush.md) - Щітки
+    -   [ОЙDrawBrushGradient](class.ui-draw-brush-gradient.md) - Градієнтні пензлі
+    -   [ОЙDrawBrushLinearGradient](class.ui-draw-brush-lineargradient.md) - Лінійний градієнт
+    -   [ОЙDrawBrushRadialGradient](class.ui-draw-brush-radialgradient.md) - Радіальний градієнт
+    -   [ОЙDrawTextLayout](class.ui-draw-text-layout.md) — Подає макет тексту
+    -   [ОЙDrawTextFont](class.ui-draw-text-font.md) — Подає шрифт
+    -   [ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.md) - Дескриптор шрифту
     -   [Функции UI](ref.ui.md)
-    -   [ОЙDrawTextFontWeight](class.ui-draw-text-font-weight.html) — Налаштування зображення шрифту
-    -   [ОЙDrawTextFontItalic](class.ui-draw-text-font-italic.html) — Налаштування курсивного шрифту
-    -   [ОЙDrawTextFontStretch](class.ui-draw-text-font-stretch.html) — Налаштування товщини шрифту
-    -   [ОЙDrawLineCap](class.ui-draw-line-cap.html) — Налаштування кінців ліній
-    -   [ОЙDrawLineJoin](class.ui-draw-line-join.html) — Налаштування з'єднання ліній
-    -   [ОЙKey](class.ui-key.html) - Ключові ідентифікатори
-    -   [ОЙExceptionInvalidArgumentException](class.ui-exception-invalidargumentexception.html) - InvalidArgumentException
-    -   [ОЙExceptionRuntimeException](class.ui-exception-runtimeexception.html) - RuntimeException
+    -   [ОЙDrawTextFontWeight](class.ui-draw-text-font-weight.md) — Налаштування зображення шрифту
+    -   [ОЙDrawTextFontItalic](class.ui-draw-text-font-italic.md) — Налаштування курсивного шрифту
+    -   [ОЙDrawTextFontStretch](class.ui-draw-text-font-stretch.md) — Налаштування товщини шрифту
+    -   [ОЙDrawLineCap](class.ui-draw-line-cap.md) — Налаштування кінців ліній
+    -   [ОЙDrawLineJoin](class.ui-draw-line-join.md) — Налаштування з'єднання ліній
+    -   [ОЙKey](class.ui-key.md) - Ключові ідентифікатори
+    -   [ОЙExceptionInvalidArgumentException](class.ui-exception-invalidargumentexception.md) - InvalidArgumentException
+    -   [ОЙExceptionRuntimeException](class.ui-exception-runtimeexception.md) - RuntimeException

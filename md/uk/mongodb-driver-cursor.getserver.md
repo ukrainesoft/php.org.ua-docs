@@ -18,7 +18,7 @@ MongoDBDriverCursor::getServer — Повертає сервер, пов'яза�
 final public MongoDB\Driver\Cursor::getServer(): MongoDB\Driver\Server
 ```
 
-Повертає [MongoDBDriverServer](class.mongodb-driver-server.html), пов'язаний із курсором. Це сервер, який виконав [MongoDBDriverQuery](class.mongodb-driver-query.html) або [MongoDBDriverCommand](class.mongodb-driver-command.html)
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.html), пов'язаний із курсором. Це сервер, який виконав [MongoDBDriverQuery](class.mongodb-driver-query.html) або [MongoDBDriverCommand](class.mongodb-driver-command.md)
 
 ### Список параметрів
 
@@ -26,11 +26,11 @@ final public MongoDB\Driver\Cursor::getServer(): MongoDB\Driver\Server
 
 ### Значення, що повертаються
 
-Повертає [MongoDBDriverServer](class.mongodb-driver-server.html), пов'язаний із курсором.
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.md), пов'язаний із курсором.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
@@ -101,4 +101,4 @@ object(MongoDB\Driver\Server)#5 (10) {
 
 ### Дивіться також
 
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
+-   [MongoDBDriverServer](class.mongodb-driver-server.md)

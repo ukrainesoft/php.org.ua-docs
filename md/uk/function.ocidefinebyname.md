@@ -10,11 +10,11 @@ title: ocidefinebyname
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocidefinebyname - Псевдонім [ocidefineбname()](function.oci-define-by-name.html)
+ocidefinebyname - Псевдонім [ocidefineбname()](function.oci-define-by-name.md)
 
 ### Опис
 
-Псевдонім [ocidefineбname()](function.oci-define-by-name.html)
+Псевдонім [ocidefineбname()](function.oci-define-by-name.md)
 
 **Увага**
 

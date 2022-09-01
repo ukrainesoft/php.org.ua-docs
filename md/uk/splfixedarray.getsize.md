@@ -52,8 +52,8 @@ echo $array->getSize()."\n";
 
 > **Зауваження**
 > 
-> Даний метод еквівалентний [SplFixedArray::count()](splfixedarray.count.html)
+> Даний метод еквівалентний [SplFixedArray::count()](splfixedarray.count.md)
 
 ### Дивіться також
 
--   [SplFixedArray::count()](splfixedarray.count.html) - Повертає розмір масиву
+-   [SplFixedArray::count()](splfixedarray.count.md) - Повертає розмір масиву

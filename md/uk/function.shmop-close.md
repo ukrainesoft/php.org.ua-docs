@@ -32,7 +32,7 @@ shmop_close(Shmop $shmop): void
 
 `shmop`
 
-Ресурс блоку пам'яті, що повертається функцією [shmopopen()](function.shmop-open.html)
+Ресурс блоку пам'яті, що повертається функцією [shmopopen()](function.shmop-open.md)
 
 ### Значення, що повертаються
 
@@ -58,4 +58,4 @@ shmop_close($shm_id);
 
 ### Дивіться також
 
--   [shmopopen()](function.shmop-open.html) - Резервування або використання блоку пам'яті, що розділяється
+-   [shmopopen()](function.shmop-open.md) - Резервування або використання блоку пам'яті, що розділяється

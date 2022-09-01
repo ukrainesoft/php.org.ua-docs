@@ -28,9 +28,9 @@ xml_set_external_entity_ref_handler(XMLParser $parser, callable $handler): bool
 
 `handler`
 
-`handler` - рядок, що містить ім'я функції, яка повинна бути визначена на момент виклику функції [xmlparse()](function.xml-parse.html) з аналізатора `parser`
+`handler` - рядок, що містить ім'я функції, яка повинна бути визначена на момент виклику функції [xmlparse()](function.xml-parse.md) з аналізатора `parser`
 
-Функція з ім'ям `handler` має приймати п'ять аргументів та повертати цілий результат. Якщо обробник поверне **`false`** (як і нічого не поверне), XML аналізатор припинить роботу, а функція [xmlgeterrorcode()](function.xml-get-error-code.html) повертатиме константу **`XML_ERROR_EXTERNAL_ENTITY_HANDLING`**
+Функція з ім'ям `handler` має приймати п'ять аргументів та повертати цілий результат. Якщо обробник поверне **`false`** (як і нічого не поверне), XML аналізатор припинить роботу, а функція [xmlgeterrorcode()](function.xml-get-error-code.md) повертатиме константу **`XML_ERROR_EXTERNAL_ENTITY_HANDLING`**
 
 ```methodsynopsis
 handler(    XMLParser $parser,    string $open_entity_names,    string $base,    string $system_id,    string $public_id)

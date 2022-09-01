@@ -18,7 +18,7 @@ clisetprocesstitle — Встановлює заголовок процесу
 cli_set_process_title(string $title): bool
 ```
 
-Встановлює заголовок процесу, видимий утилітами **top** і **пс**. Ця функція доступна лише в режимі [CLI](features.commandline.html)
+Встановлює заголовок процесу, видимий утилітами **top** і **пс**. Ця функція доступна лише в режимі [CLI](features.commandline.md)
 
 ### Список параметрів
 
@@ -55,5 +55,5 @@ if (!cli_set_process_title($title)) {
 
 ### Дивіться також
 
--   [cligetprocesstitle()](function.cli-get-process-title.html) - Повертає заголовок поточного процесу
+-   [cligetprocesstitle()](function.cli-get-process-title.md) - Повертає заголовок поточного процесу
 -   **setproctitle()**

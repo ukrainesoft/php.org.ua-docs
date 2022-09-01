@@ -20,7 +20,7 @@ cubrid_lob_get(resource $conn_identifier, string $sql): array
 
 **cubridлобget()** використовується для отримання метаінформації BLOB/CLOB з бази даних CUBRID, CUBRID отримує BLOB/CLOB, виконуючи оператор SQL, і повертає все LOB як масиву ресурсів. Необхідно переконатися, що SQL повертає лише один стовпець, та його тип даних - BLOB чи CLOB.
 
-Не варто забувати про використання [cubridlobclose()](function.cubrid-lob-close.html) для звільнення LOB, якщо вони не потрібні.
+Не варто забувати про використання [cubridlobclose()](function.cubrid-lob-close.md) для звільнення LOB, якщо вони не потрібні.
 
 ### Список параметрів
 
@@ -58,7 +58,7 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubridlobclose()](function.cubrid-lob-close.html) - Закриває дані BLOB/CLOB
--   [cubridlobsize()](function.cubrid-lob-size.html) - Отримує розмір даних BLOB/CLOB
--   [cubridlobexport()](function.cubrid-lob-export.html) - Експортує дані BLOB/CLOB у файл
--   [cubridlobsend()](function.cubrid-lob-send.html) - Читає дані BLOB/CLOB та відправляє їх прямо до браузера
+-   [cubridlobclose()](function.cubrid-lob-close.md) - Закриває дані BLOB/CLOB
+-   [cubridlobsize()](function.cubrid-lob-size.md) - Отримує розмір даних BLOB/CLOB
+-   [cubridlobexport()](function.cubrid-lob-export.md) - Експортує дані BLOB/CLOB у файл
+-   [cubridlobsend()](function.cubrid-lob-send.md) - Читає дані BLOB/CLOB та відправляє їх прямо до браузера

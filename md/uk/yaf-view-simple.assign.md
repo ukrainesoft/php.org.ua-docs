@@ -69,6 +69,6 @@ class IndexController extends Yaf_Controller_Abstract {
 
 ### Дивіться також
 
--   [YafViewSimple::assignRef()](yaf-view-simple.assignref.html) - Призначення assignRef
+-   [YafViewSimple::assignRef()](yaf-view-simple.assignref.md) - Призначення assignRef
 -   **YafViewInterface::clear()**
--   [YafViewSimple::set()](yaf-view-simple.set.html) - Встановлює значення для двигуна
+-   [YafViewSimple::set()](yaf-view-simple.set.md) - Встановлює значення для двигуна

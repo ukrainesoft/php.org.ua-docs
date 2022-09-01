@@ -58,4 +58,4 @@ echo 2;
 
 ### Дивіться також
 
--   [uopzgetexitstatus()](function.uopz-get-exit-status.html) - Отримати останній встановлений статус виходу
+-   [uopzgetexitstatus()](function.uopz-get-exit-status.md) - Отримати останній встановлений статус виходу

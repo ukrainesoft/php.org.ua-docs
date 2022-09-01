@@ -48,7 +48,7 @@ sem_get(    int $key,    int $max_acquire = 1,    int $permissions =
 
 | Версия | Описание |
 | --- | --- |
-|  | У разі успішного виконання функція повертає екземпляр [SysvSemaphore](class.sysvsemaphore.html); раніше повертався ресурс (resource). |
+|  | У разі успішного виконання функція повертає екземпляр [SysvSemaphore](class.sysvsemaphore.md); раніше повертався ресурс (resource). |
 |  | Тип `auto_release` змінено з цілого числа (int) на логічне значення (bool). |
 
 ### Примітки
@@ -59,6 +59,6 @@ sem_get(    int $key,    int $max_acquire = 1,    int $permissions =
 
 ### Дивіться також
 
--   [semacquire()](function.sem-acquire.html) - Захоплення семафору
--   [semrelease()](function.sem-release.html) - Звільнення семафору
--   [ftok()](function.ftok.html) - Перетворення шляху та ідентифікатора проекту на ключ System V IPC
+-   [semacquire()](function.sem-acquire.md) - Захоплення семафору
+-   [semrelease()](function.sem-release.md) - Звільнення семафору
+-   [ftok()](function.ftok.md) - Перетворення шляху та ідентифікатора проекту на ключ System V IPC

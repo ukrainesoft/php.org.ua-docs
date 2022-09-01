@@ -59,5 +59,5 @@ print_r(array_keys(get_defined_vars()));
 ### Дивіться також
 
 -   [isset()](function.isset.md) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
--   [getdefinedfunctions()](function.get-defined-functions.html) - Повертає масив усіх певних функцій
--   [getdefinedconstants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень
+-   [getdefinedfunctions()](function.get-defined-functions.md) - Повертає масив усіх певних функцій
+-   [getdefinedconstants()](function.get-defined-constants.md) - Повертає асоціативний масив з іменами всіх констант та їх значень

@@ -58,7 +58,7 @@ set_include_path(get_include_path() . PATH_SEPARATOR . $path);
 
 ### Дивіться також
 
--   [iniset()](function.ini-set.html) - Встановлює налаштування конфігурації
--   [getincludepath()](function.get-include-path.html) - Отримання поточного значення конфігураційної установки includepath
--   [restoreincludepath()](function.restore-include-path.html) - Відновлює початкове значення конфігураційної установки includepath
+-   [iniset()](function.ini-set.md) - Встановлює налаштування конфігурації
+-   [getincludepath()](function.get-include-path.md) - Отримання поточного значення конфігураційної установки includepath
+-   [restoreincludepath()](function.restore-include-path.md) - Відновлює початкове значення конфігураційної установки includepath
 -   [include](function.include.md) - include

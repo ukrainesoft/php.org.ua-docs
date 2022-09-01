@@ -22,7 +22,7 @@ title: Клас MongoDBBSONObjectId
 
 Використання ObjectIds для поля `_id` забезпечує наступні додаткові переваги:
 
--   Час створення ObjectId можна отримати за допомогою методу [MongoDBBSONObjectId::getTimestamp()](mongodb-bson-objectid.gettimestamp.html)
+-   Час створення ObjectId можна отримати за допомогою методу [MongoDBBSONObjectId::getTimestamp()](mongodb-bson-objectid.gettimestamp.md)
 -   Сортування по полю `_id`, В якому зберігаються значення ObjectId, приблизно еквівалентна сортуванню за часом створення.
 
 ## Огляд класів
@@ -61,15 +61,15 @@ final public unserialize(string $serialized): void
 | PECL mongodb 1.3.0 |  |
 | Перейменований з `MongoDB\BSON\ObjectID` в `MongoDB\BSON\ObjectId` |  |
 
-Реалізує інтерфейс [MongoDBBSONObjectIdInterface](class.mongodb-bson-objectidinterface.html)
+Реалізує інтерфейс [MongoDBBSONObjectIdInterface](class.mongodb-bson-objectidinterface.md)
 
 | | PECL mongodb 1.2.0 Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md).
 
 ## Зміст
 
--   [MongoDBBSONObjectId::construct](mongodb-bson-objectid.construct.html) - Створює новий ObjectId
--   [MongoDBBSONObjectId::getTimestamp](mongodb-bson-objectid.gettimestamp.html) — Повертає позначку часу ObjectId
--   [MongoDBBSONObjectId::jsonSerialize](mongodb-bson-objectid.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDBBSONObjectId::serialize](mongodb-bson-objectid.serialize.html) - Серіалізує ObjectId
--   [MongoDBBSONObjectId::toString](mongodb-bson-objectid.tostring.html) — Повертає шістнадцяткову виставу ObjectId
--   [MongoDBBSONObjectId::unserialize](mongodb-bson-objectid.unserialize.html) - Десеріалізує ObjectId
+-   [MongoDBBSONObjectId::construct](mongodb-bson-objectid.construct.md) - Створює новий ObjectId
+-   [MongoDBBSONObjectId::getTimestamp](mongodb-bson-objectid.gettimestamp.md) — Повертає позначку часу ObjectId
+-   [MongoDBBSONObjectId::jsonSerialize](mongodb-bson-objectid.jsonserialize.md) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONObjectId::serialize](mongodb-bson-objectid.serialize.md) - Серіалізує ObjectId
+-   [MongoDBBSONObjectId::toString](mongodb-bson-objectid.tostring.md) — Повертає шістнадцяткову виставу ObjectId
+-   [MongoDBBSONObjectId::unserialize](mongodb-bson-objectid.unserialize.md) - Десеріалізує ObjectId

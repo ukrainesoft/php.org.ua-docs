@@ -24,11 +24,11 @@ openssl_x509_verify(OpenSSLCertificate|string $certificate, OpenSSLAsymmetricKey
 
 `x509`
 
-Для списку коректних значень дивіться [Параметри ключів/сертифікатів](openssl.certparams.html)
+Для списку коректних значень дивіться [Параметри ключів/сертифікатів](openssl.certparams.md)
 
 `public_key`
 
-[OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) - ключ, повернутий функцією [opensslgetpublickey()](function.openssl-get-publickey.html)
+[OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) - ключ, повернутий функцією [opensslgetpublickey()](function.openssl-get-publickey.md)
 
 string - ключ у форматі PEM, такого вигляду: : "-----BEGIN PUBLIC KEY----- MIIBCgK..."
 
@@ -40,8 +40,8 @@ string - ключ у форматі PEM, такого вигляду: : "-----BE
 
 | Версия | Описание |
 | --- | --- |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
-|  | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |
+|  | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
 
 ### Приклади
 
@@ -83,5 +83,5 @@ foreach($cont["options"]["ssl"]["peer_certificate_chain"] as $chaincert)
 
 ### Дивіться також
 
--   [opensslverify()](function.openssl-verify.html) - Звіряння сигнатури
--   [opensslgetpublickey()](function.openssl-get-publickey.html) - Псевдонім opensslpkeygetpublic
+-   [opensslverify()](function.openssl-verify.md) - Звіряння сигнатури
+-   [opensslgetpublickey()](function.openssl-get-publickey.md) - Псевдонім opensslpkeygetpublic

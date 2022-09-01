@@ -32,4 +32,4 @@ opcache_is_script_cached(string $filename): bool
 
 ### Дивіться також
 
--   [opcachecompilefile()](function.opcache-compile-file.html) - Скомпілювати та закешувати, але не виконувати скрипт PHP
+-   [opcachecompilefile()](function.opcache-compile-file.md) - Скомпілювати та закешувати, але не виконувати скрипт PHP

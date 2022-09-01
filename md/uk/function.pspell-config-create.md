@@ -20,7 +20,7 @@ pspell_config_create(    string $language,    string $spelling = "",  
 
 Створює конфігурацію для відкриття словника.
 
-**pspellconfigcreate()** має синтаксис, дуже схожий на синтаксис [pspellnew()](function.pspell-new.html). Фактично використання **pspellconfigcreate()** відразу після [pspellnewconfig()](function.pspell-new-config.html) дасть такий самий результат. Однак після створення нової конфігурації також можна використовувати функції **pspellconfig** до виклику [pspellnewconfig()](function.pspell-new-config.html) для здобуття переваг від деякої додаткової функціональності.
+**pspellconfigcreate()** має синтаксис, дуже схожий на синтаксис [pspellnew()](function.pspell-new.html). Фактично використання **pspellconfigcreate()** відразу після [pspellnewconfig()](function.pspell-new-config.html) дасть такий самий результат. Однак після створення нової конфігурації також можна використовувати функції **pspellconfig** до виклику [pspellnewconfig()](function.pspell-new-config.md) для здобуття переваг від деякої додаткової функціональності.
 
 Більш детальну інформацію та приклади можна знайти у посібнику з pspell на сайті:[» http://aspell.net/](http://aspell.net/)
 
@@ -44,13 +44,13 @@ pspell_config_create(    string $language,    string $spelling = "",  
 
 ### Значення, що повертаються
 
-Повертає екземпляр [PSpellConfig](class.pspell-config.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає екземпляр [PSpellConfig](class.pspell-config.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Повертає екземпляр [PSpellConfig](class.pspell-config.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+|  | Повертає екземпляр [PSpellConfig](class.pspell-config.html); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

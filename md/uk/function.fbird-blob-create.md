@@ -10,15 +10,15 @@ title: fbirdblobcreate
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdblobcreate - Псевдонім [ibaseblobcreate()](function.ibase-blob-create.html)
+fbirdblobcreate - Псевдонім [ibaseblobcreate()](function.ibase-blob-create.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibaseblobcreate()](function.ibase-blob-create.html)
+Ця функція є псевдонімом: [ibaseblobcreate()](function.ibase-blob-create.md)
 
 ### Дивіться також
 
--   [fbirdblobadd()](function.fbird-blob-add.html) - Псевдонім ibaseblobadd
--   [fbirdblobcancel()](function.fbird-blob-cancel.html) - Скасує створення BLOB
--   [fbirdblobclose()](function.fbird-blob-close.html) - Псевдонім ibaseblobclose
--   [fbirdblobimport()](function.fbird-blob-import.html) - Псевдонім ibaseblobimport
+-   [fbirdblobadd()](function.fbird-blob-add.md) - Псевдонім ibaseblobadd
+-   [fbirdblobcancel()](function.fbird-blob-cancel.md) - Скасує створення BLOB
+-   [fbirdblobclose()](function.fbird-blob-close.md) - Псевдонім ibaseblobclose
+-   [fbirdblobimport()](function.fbird-blob-import.md) - Псевдонім ibaseblobimport

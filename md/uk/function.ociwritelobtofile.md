@@ -10,11 +10,11 @@ title: ociwritelobtofile
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ociwritelobtofile - Псевдонім [OCILob::export()](ocilob.export.html)
+ociwritelobtofile - Псевдонім [OCILob::export()](ocilob.export.md)
 
 ### Опис
 
-Псевдонім [OCILob::export()](ocilob.export.html)
+Псевдонім [OCILob::export()](ocilob.export.md)
 
 **Увага**
 

@@ -18,9 +18,9 @@ fanngetcascadecandidatestagnationepochs - Повертає кількість п
 fann_get_cascade_candidate_stagnation_epochs(resource $ann): int
 ```
 
-Кількість періодів застою каскаду кандидата визначає кількість періодів, яким дозволено продовжити навчання без зміни MSE на частку [fanngetcascadecandidatechangefraction()](function.fann-get-cascade-candidate-change-fraction.html)
+Кількість періодів застою каскаду кандидата визначає кількість періодів, яким дозволено продовжити навчання без зміни MSE на частку [fanngetcascadecandidatechangefraction()](function.fann-get-cascade-candidate-change-fraction.md)
 
-Дивіться додаткову інформацію про цей параметр у [fanngetcascadecandidatechangefraction()](function.fann-get-cascade-candidate-change-fraction.html)
+Дивіться додаткову інформацію про цей параметр у [fanngetcascadecandidatechangefraction()](function.fann-get-cascade-candidate-change-fraction.md)
 
 За замовчуванням кількість періодів застою каскаду кандидата дорівнює 12.
 
@@ -36,5 +36,5 @@ fann_get_cascade_candidate_stagnation_epochs(resource $ann): int
 
 ### Дивіться також
 
--   [fannsetcascadecandidatestagnationepochs()](function.fann-set-cascade-candidate-stagnation-epochs.html) - встановлює кількість каскадних періодів застою кандидатів
--   [fanngetcascadecandidatechangefraction()](function.fann-get-cascade-candidate-change-fraction.html) - Повертає частку зміни каскаду кандидата
+-   [fannsetcascadecandidatestagnationepochs()](function.fann-set-cascade-candidate-stagnation-epochs.md) - встановлює кількість каскадних періодів застою кандидатів
+-   [fanngetcascadecandidatechangefraction()](function.fann-get-cascade-candidate-change-fraction.md) - Повертає частку зміни каскаду кандидата

@@ -14,9 +14,9 @@ title: Підтримка Windows
 
 ### Обробка CTRL
 
-Комбінації клавіш CTRL+C та CTRL+BREAK у командному рядку можна перехопити, встановивши функцію-обробник за допомогою [sapiwindowssetctrlhandler()](function.sapi-windows-set-ctrl-handler.html)
+Комбінації клавіш CTRL+C та CTRL+BREAK у командному рядку можна перехопити, встановивши функцію-обробник за допомогою [sapiwindowssetctrlhandler()](function.sapi-windows-set-ctrl-handler.md)
 
-Функції [procopen()](function.proc-open.html) на Windows може бути передана опція "createprocessgroup". Це потрібно, якщо дочірній процес має обробляти події CTRL.
+Функції [procopen()](function.proc-open.md) на Windows може бути передана опція "createprocessgroup". Це потрібно, якщо дочірній процес має обробляти події CTRL.
 
 ### OPcache
 

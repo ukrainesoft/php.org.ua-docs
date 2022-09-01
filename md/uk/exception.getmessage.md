@@ -50,4 +50,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getMessage()](throwable.getmessage.html) - Отримує повідомлення помилки
+-   [Throwable::getMessage()](throwable.getmessage.md) - Отримує повідомлення помилки

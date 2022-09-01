@@ -16,12 +16,12 @@ title: 'Управління пам''яттю, що розділяється'
     -   [Типи ресурсів](shmop.resources.md)
 -   [Обумовлені константи](shmop.constants.md)
 -   [Приклади](shmop.examples.md)
-    -   [Базовое использование](shmop.examples-basic.html)
+    -   [Базовое использование](shmop.examples-basic.md)
 -   [Пам'ять, що розділяється (shared)](ref.shmop.md)
-    -   [shmopclose](function.shmop-close.html) — Закриття блоку пам'яті, що розділяється
-    -   [shmopdelete](function.shmop-delete.html) — Видалення блоку пам'яті, що розділяється.
-    -   [shmopopen](function.shmop-open.html) — Резервування або використання блоку пам'яті, що розділяється
-    -   [shmopread](function.shmop-read.html) — Читання даних із ділянки пам'яті, що розділяється
-    -   [shmopsize](function.shmop-size.html) — Повертає розмір блоку в пам'яті, що розділяється.
-    -   [shmopwrite](function.shmop-write.html) — Запис даних у пам'ять, що розділяється
+    -   [shmopclose](function.shmop-close.md) — Закриття блоку пам'яті, що розділяється
+    -   [shmopdelete](function.shmop-delete.md) — Видалення блоку пам'яті, що розділяється.
+    -   [shmopopen](function.shmop-open.md) — Резервування або використання блоку пам'яті, що розділяється
+    -   [shmopread](function.shmop-read.md) — Читання даних із ділянки пам'яті, що розділяється
+    -   [shmopsize](function.shmop-size.md) — Повертає розмір блоку в пам'яті, що розділяється.
+    -   [shmopwrite](function.shmop-write.md) — Запис даних у пам'ять, що розділяється
 -   [Shmop](class.shmop.md) - Клас Shmop

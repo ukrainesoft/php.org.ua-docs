@@ -22,7 +22,7 @@ hash(    string $algo,    string $data,    bool $binary = false,  
 
 `algo`
 
-Ім'я обраного алгоритму хешування (наприклад, "md5", "sha256", "haval160,4" тощо). Список підтримуваних алгоритмів дивіться [hashalgos()](function.hash-algos.html)
+Ім'я обраного алгоритму хешування (наприклад, "md5", "sha256", "haval160,4" тощо). Список підтримуваних алгоритмів дивіться [hashalgos()](function.hash-algos.md)
 
 `data`
 
@@ -65,8 +65,8 @@ echo hash('ripemd160', 'Наглый коричневый лисёнок п
 
 ### Дивіться також
 
--   [hashfile()](function.hash-file.html) - Генерація хеш-значення, використовуючи вміст заданого файлу
--   [hashhmac()](function.hash-hmac.html) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC
--   [hashinit()](function.hash-init.html) - Ініціалізація інкрементального контексту хешування
+-   [hashfile()](function.hash-file.md) - Генерація хеш-значення, використовуючи вміст заданого файлу
+-   [hashhmac()](function.hash-hmac.md) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC
+-   [hashinit()](function.hash-init.md) - Ініціалізація інкрементального контексту хешування
 -   [md5()](function.md5.md) - Повертає MD5-хеш рядки
 -   [sha1()](function.sha1.md) - Повертає SHA1-хеш рядки

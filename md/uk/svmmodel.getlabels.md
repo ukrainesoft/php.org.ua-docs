@@ -30,4 +30,4 @@ public SVMModel::getLabels(): array
 
 ### Дивіться також
 
--   [SVMModel::getNrClass()](svmmodel.getnrclass.html) - Повертає кількість класів, для яких навчалась модель
+-   [SVMModel::getNrClass()](svmmodel.getnrclass.md) - Повертає кількість класів, для яких навчалась модель

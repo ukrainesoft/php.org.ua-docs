@@ -51,16 +51,16 @@ Deprecated: Non-static method foo::bar() should not be called statically in - on
 Я не статический!
 ```
 
-### Опція salt функції [passwordhash()](function.password-hash.html)
+### Опція salt функції [passwordhash()](function.password-hash.md)
 
-Опція salt функції [passwordhash()](function.password-hash.html) була оголошена застарілою для запобігання використанню розробниками своїх власних salt (часто небезпечних). Функція самостійно генерує криптографічно безпечний salt, якщо він не заданий розробником, отже більше немає потреби в генераторах користувача salt.
+Опція salt функції [passwordhash()](function.password-hash.md) була оголошена застарілою для запобігання використанню розробниками своїх власних salt (часто небезпечних). Функція самостійно генерує криптографічно безпечний salt, якщо він не заданий розробником, отже більше немає потреби в генераторах користувача salt.
 
 ### Опція контексту SSL `capture_session_meta`
 
-Опція контексту SSL `capture_session_meta` оголошено застарілою. Метадані SSL тепер доступні за допомогою функції [streamgetmetadata()](function.stream-get-meta-data.html)
+Опція контексту SSL `capture_session_meta` оголошено застарілою. Метадані SSL тепер доступні за допомогою функції [streamgetmetadata()](function.stream-get-meta-data.md)
 
 ### Застарілі функції [LDAP](book.ldap.md)
 
 Наступні функції були оголошені застарілими:
 
--   [ldapsort()](function.ldap-sort.html)
+-   [ldapsort()](function.ldap-sort.md)

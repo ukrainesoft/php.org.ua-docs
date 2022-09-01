@@ -18,13 +18,13 @@ pspellclearsession - Очищає поточну сесію
 pspell_clear_session(PSpell\Dictionary $dictionary): bool
 ```
 
-**pspellclearsession()** очищує поточну сесію. Поточний список слів очищається, і, наприклад, якщо спробувати зберегти його за допомогою [pspellsavewordlist()](function.pspell-save-wordlist.html), Нічого не трапиться.
+**pspellclearsession()** очищує поточну сесію. Поточний список слів очищається, і, наприклад, якщо спробувати зберегти його за допомогою [pspellsavewordlist()](function.pspell-save-wordlist.md), Нічого не трапиться.
 
 ### Список параметрів
 
 `dictionary`
 
-Екземпляр [PSpellDictionary](class.pspell-dictionary.html)
+Екземпляр [PSpellDictionary](class.pspell-dictionary.md)
 
 ### Значення, що повертаються
 
@@ -34,11 +34,11 @@ pspell_clear_session(PSpell\Dictionary $dictionary): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання [pspelladdтоpersonal()](function.pspell-add-to-personal.html)**
+**Приклад #1 Приклад використання [pspelladdтоpersonal()](function.pspell-add-to-personal.md)**
 
 ```php
 <?php

@@ -268,7 +268,7 @@ childElementCount
 
 config
 
-*Застаріло*. Конфігурація, яка використовується під час виклику [DOMDocument::normalizeDocument()](domdocument.normalizedocument.html)
+*Застаріло*. Конфігурація, яка використовується під час виклику [DOMDocument::normalizeDocument()](domdocument.normalizedocument.md)
 
 doctype
 
@@ -276,7 +276,7 @@ doctype
 
 documentElement
 
-Об'єкт [DOMElement](class.domelement.html)який є першим елементом документа. Якщо не знайдено, оцінюється як **`null`**. Зручний атрибут, що надає прямий доступ до дочірнього вузла як елемент документа . \*\*`null`\*\*якщо не існує.
+Об'єкт [DOMElement](class.domelement.md)який є першим елементом документа. Якщо не знайдено, оцінюється як **`null`**. Зручний атрибут, що надає прямий доступ до дочірнього вузла як елемент документа . \*\*`null`\*\*якщо не існує.
 
 documentURI
 
@@ -296,7 +296,7 @@ formatOutput
 
 implementation
 
-Об'єкт класу [DOMImplementation](class.domimplementation.html), що обробляє цей документ.
+Об'єкт класу [DOMImplementation](class.domimplementation.md), що обробляє цей документ.
 
 останнійеlementChild
 
@@ -304,7 +304,7 @@ implementation
 
 preserveWhiteSpace
 
-Вказівка ​​не прибирати зайві прогалини та відступи. За замовчуванням **`true`**. Встановлення цього значення на **`false`** має той самий ефект, що і передача **`LIBXML_NOBLANKS`** в якості `option` в [DOMDocument::load()](domdocument.load.html) і т.д.
+Вказівка ​​не прибирати зайві прогалини та відступи. За замовчуванням **`true`**. Встановлення цього значення на **`false`** має той самий ефект, що і передача **`LIBXML_NOBLANKS`** в якості `option` в [DOMDocument::load()](domdocument.load.md) і т.д.
 
 recover
 
@@ -320,7 +320,7 @@ standalone
 
 strictErrorChecking
 
-Викидає виняток [DOMException](class.domexception.html) у разі виникнення помилок. За замовчуванням **`true`**
+Викидає виняток [DOMException](class.domexception.md) у разі виникнення помилок. За замовчуванням **`true`**
 
 substituteEntities
 
@@ -354,18 +354,18 @@ xmlVersion
 
 | Версия | Описание |
 | --- | --- |
-|  | Клас **DOMDocument** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.html) |
+|  | Клас **DOMDocument** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.md) |
 |  | Нереалізований метод **DOMDocument::renameNode()** був видалений. |
 
 ## Примітки
 
 > **Зауваження**
 > 
-> Модуль DOM використовує кодування UTF-8. Використовуйте [мбconvertencoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.html) для роботи з іншими кодуванням.
+> Модуль DOM використовує кодування UTF-8. Використовуйте [мбconvertencoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.md) для роботи з іншими кодуванням.
 
 > **Зауваження**
 > 
-> При використанні [jsonencode()](function.json-encode.html) для об'єкту **DOMDocument** буде отримано результат кодування порожнього об'єкта.
+> При використанні [jsonencode()](function.json-encode.md) для об'єкту **DOMDocument** буде отримано результат кодування порожнього об'єкта.
 
 ## Дивіться також
 
@@ -373,34 +373,34 @@ xmlVersion
 
 ## Зміст
 
--   [DOMDocument::construct](domdocument.construct.html) — Створює новий об'єкт DOMDocument
--   [DOMDocument::createAttribute](domdocument.createattribute.html) - Створити новий атрибут
--   [DOMDocument::createAttributeNS](domdocument.createattributens.html) — Створює новий атрибут вузла із відповідним простором імен
--   [DOMDocument::createCDATASection](domdocument.createcdatasection.html) - Створює новий вузол cdata
--   [DOMDocument::createComment](domdocument.createcomment.html) - Створити новий вузол коментаря
--   [DOMDocument::createDocumentFragment](domdocument.createdocumentfragment.html) - Створити новий фрагмент документа
--   [DOMDocument::createElement](domdocument.createelement.html) - Створити новий вузол елемента
--   [DOMDocument::createElementNS](domdocument.createelementns.html) — Створити новий вузол елемента із відповідним простором імен
--   [DOMDocument::createEntityReference](domdocument.createentityreference.html) - Створити новий вузол посилання на сутність
--   [DOMDocument::createProcessingInstruction](domdocument.createprocessinginstruction.html) - Створити новий PI-вузол
--   [DOMDocument::createTextNode](domdocument.createtextnode.html) - Створити новий текстовий вузол
--   [DOMDocument::getElementById](domdocument.getelementbyid.html) — Шукає елемент із певним ідентифікатором
--   [DOMDocument::getElementsByTagName](domdocument.getelementsbytagname.html) — Шукає всі елементи із заданим локальним ім'ям
--   [DOMDocument::getElementsByTagNameNS](domdocument.getelementsbytagnamens.html) — Шукає всі елементи із заданим ім'ям у вказаному просторі імен
--   [DOMDocument::importNode](domdocument.importnode.html) — Імпортувати вузол у поточний документ
--   [DOMDocument::load](domdocument.load.html) — Завантаження XML із файлу
--   [DOMDocument::loadHTML](domdocument.loadhtml.html) — Завантаження HTML із рядка
--   [DOMDocument::loadHTMLFile](domdocument.loadhtmlfile.html) — Завантаження HTML із файлу
--   [DOMDocument::loadXML](domdocument.loadxml.html) — Завантаження XML із рядка
--   [DOMDocument::normalizeDocument](domdocument.normalizedocument.html) - Нормалізує документ
--   [DOMDocument::registerNodeClass](domdocument.registernodeclass.html) — Реєстрація розширеного класу, який використовується для створення типу базового вузла
--   [DOMDocument::relaxNGValidate](domdocument.relaxngvalidate.html) - Здійснює перевірку документа на правильність побудови за допомогою relaxNG
--   [DOMDocument::relaxNGValidateSource](domdocument.relaxngvalidatesource.html) - Перевіряє документ за допомогою relaxNG
--   [DOMDocument::save](domdocument.save.html) — Зберігає XML-дерево із внутрішнього подання до файлу
--   [DOMDocument::saveHTML](domdocument.savehtml.html) — Зберігає документ із внутрішнього подання до рядка, використовуючи форматування HTML
--   [DOMDocument::saveHTMLFile](domdocument.savehtmlfile.html) — Зберігає документ із внутрішнього подання до файлу, використовуючи форматування HTML
--   [DOMDocument::saveXML](domdocument.savexml.html) — Зберігає XML-дерево з внутрішньої вистави у вигляді рядка
--   [DOMDocument::schemaValidate](domdocument.schemavalidate.html) — Перевіряє дійсність документа, ґрунтуючись на заданій схемі. Підтримується лише XML-схема 1.0.
--   [DOMDocument::schemaValidateSource](domdocument.schemavalidatesource.html) — Перевіряє дійсність документа, ґрунтуючись на схемі
--   [DOMDocument::validate](domdocument.validate.html) — Перевіряє документ на відповідність його DTD
--   [DOMDocument::xinclude](domdocument.xinclude.html) — Вставляє XInclude в об'єкті DOMDocument.
+-   [DOMDocument::construct](domdocument.construct.md) — Створює новий об'єкт DOMDocument
+-   [DOMDocument::createAttribute](domdocument.createattribute.md) - Створити новий атрибут
+-   [DOMDocument::createAttributeNS](domdocument.createattributens.md) — Створює новий атрибут вузла із відповідним простором імен
+-   [DOMDocument::createCDATASection](domdocument.createcdatasection.md) - Створює новий вузол cdata
+-   [DOMDocument::createComment](domdocument.createcomment.md) - Створити новий вузол коментаря
+-   [DOMDocument::createDocumentFragment](domdocument.createdocumentfragment.md) - Створити новий фрагмент документа
+-   [DOMDocument::createElement](domdocument.createelement.md) - Створити новий вузол елемента
+-   [DOMDocument::createElementNS](domdocument.createelementns.md) — Створити новий вузол елемента із відповідним простором імен
+-   [DOMDocument::createEntityReference](domdocument.createentityreference.md) - Створити новий вузол посилання на сутність
+-   [DOMDocument::createProcessingInstruction](domdocument.createprocessinginstruction.md) - Створити новий PI-вузол
+-   [DOMDocument::createTextNode](domdocument.createtextnode.md) - Створити новий текстовий вузол
+-   [DOMDocument::getElementById](domdocument.getelementbyid.md) — Шукає елемент із певним ідентифікатором
+-   [DOMDocument::getElementsByTagName](domdocument.getelementsbytagname.md) — Шукає всі елементи із заданим локальним ім'ям
+-   [DOMDocument::getElementsByTagNameNS](domdocument.getelementsbytagnamens.md) — Шукає всі елементи із заданим ім'ям у вказаному просторі імен
+-   [DOMDocument::importNode](domdocument.importnode.md) — Імпортувати вузол у поточний документ
+-   [DOMDocument::load](domdocument.load.md) — Завантаження XML із файлу
+-   [DOMDocument::loadHTML](domdocument.loadhtml.md) — Завантаження HTML із рядка
+-   [DOMDocument::loadHTMLFile](domdocument.loadhtmlfile.md) — Завантаження HTML із файлу
+-   [DOMDocument::loadXML](domdocument.loadxml.md) — Завантаження XML із рядка
+-   [DOMDocument::normalizeDocument](domdocument.normalizedocument.md) - Нормалізує документ
+-   [DOMDocument::registerNodeClass](domdocument.registernodeclass.md) — Реєстрація розширеного класу, який використовується для створення типу базового вузла
+-   [DOMDocument::relaxNGValidate](domdocument.relaxngvalidate.md) - Здійснює перевірку документа на правильність побудови за допомогою relaxNG
+-   [DOMDocument::relaxNGValidateSource](domdocument.relaxngvalidatesource.md) - Перевіряє документ за допомогою relaxNG
+-   [DOMDocument::save](domdocument.save.md) — Зберігає XML-дерево із внутрішнього подання до файлу
+-   [DOMDocument::saveHTML](domdocument.savehtml.md) — Зберігає документ із внутрішнього подання до рядка, використовуючи форматування HTML
+-   [DOMDocument::saveHTMLFile](domdocument.savehtmlfile.md) — Зберігає документ із внутрішнього подання до файлу, використовуючи форматування HTML
+-   [DOMDocument::saveXML](domdocument.savexml.md) — Зберігає XML-дерево з внутрішньої вистави у вигляді рядка
+-   [DOMDocument::schemaValidate](domdocument.schemavalidate.md) — Перевіряє дійсність документа, ґрунтуючись на заданій схемі. Підтримується лише XML-схема 1.0.
+-   [DOMDocument::schemaValidateSource](domdocument.schemavalidatesource.md) — Перевіряє дійсність документа, ґрунтуючись на схемі
+-   [DOMDocument::validate](domdocument.validate.md) — Перевіряє документ на відповідність його DTD
+-   [DOMDocument::xinclude](domdocument.xinclude.md) — Вставляє XInclude в об'єкті DOMDocument.

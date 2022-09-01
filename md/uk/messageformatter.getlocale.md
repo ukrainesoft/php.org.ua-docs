@@ -34,7 +34,7 @@ msgfmt_get_locale(MessageFormatter $formatter): string
 
 `formatter`
 
-Об'єкт [MessageFormatter](class.messageformatter.html)
+Об'єкт [MessageFormatter](class.messageformatter.md)
 
 ### Значення, що повертаються
 
@@ -68,4 +68,4 @@ en_US
 
 ### Дивіться також
 
--   [msgfmtcreate()](messageformatter.create.html) - Створює засіб форматування повідомлень
+-   [msgfmtcreate()](messageformatter.create.md) - Створює засіб форматування повідомлень

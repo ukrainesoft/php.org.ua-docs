@@ -37,4 +37,4 @@ openssl_free_key(OpenSSLAsymmetricKey $key): void
 | Версия | Описание |
 | --- | --- |
 |  | Функція застаріла, оскільки не має сенсу. |
-|  | `key` тепер приймає [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймала ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` |
+|  | `key` тепер приймає [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймала ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |

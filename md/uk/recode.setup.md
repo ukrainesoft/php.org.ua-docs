@@ -10,7 +10,7 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](recode.requirements.html)
--   [Установка](recode.installation.html)
--   [Налаштування під час виконання](recode.configuration.html)
--   [Типи ресурсів](recode.resources.html)
+-   [Вимоги](recode.requirements.md)
+-   [Установка](recode.installation.md)
+-   [Налаштування під час виконання](recode.configuration.md)
+-   [Типи ресурсів](recode.resources.md)

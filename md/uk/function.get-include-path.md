@@ -43,7 +43,7 @@ echo ini_get('include_path');
 
 ### Дивіться також
 
--   [iniget()](function.ini-get.html) - Отримує значення налаштування конфігурації
--   [restoreincludepath()](function.restore-include-path.html) - Відновлює початкове значення конфігураційної установки includepath
--   [setincludepath()](function.set-include-path.html) - Встановлює налаштування конфігурації includepath
+-   [iniget()](function.ini-get.md) - Отримує значення налаштування конфігурації
+-   [restoreincludepath()](function.restore-include-path.md) - Відновлює початкове значення конфігураційної установки includepath
+-   [setincludepath()](function.set-include-path.md) - Встановлює налаштування конфігурації includepath
 -   [include](function.include.md) - include

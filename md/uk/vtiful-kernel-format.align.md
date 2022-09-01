@@ -28,7 +28,7 @@ public Vtiful\Kernel\Format::align(resource $handle, int $style)
 
 `style`
 
-Константа [VtifulKernelFormat](class.vtiful-kernel-format.html)
+Константа [VtifulKernelFormat](class.vtiful-kernel-format.md)
 
 ### Значення, що повертаються
 

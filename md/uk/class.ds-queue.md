@@ -58,19 +58,19 @@ public toArray(): array
 
 | Версия | Описание |
 | --- | --- |
-| PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.html) |
+| PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.md) |
 
 ## Зміст
 
--   [ДсQueue::allocate](ds-queue.allocate.html) — Виділяє пам'ять під зазначену місткість
--   [ДсQueue::capacity](ds-queue.capacity.html) — Повертає поточну місткість
--   [ДсQueue::clear](ds-queue.clear.html) - Видаляє всі значення
--   [ДсQueue::construct](ds-queue.construct.html) - Створює новий екземпляр
--   [ДсQueue::copy](ds-queue.copy.html) — Повертає поверхневу копію черги
--   [ДсQueue::count](ds-queue.count.html) — Повертає кількість елементів черги
--   [ДсQueue::isEmpty](ds-queue.isempty.html) — Перевіряє, чи колекція порожня.
--   [ДсQueue::jsonSerialize](ds-queue.jsonserialize.html) — Повертає колекцію в JSON-представництві
--   [ДсQueue::peek](ds-queue.peek.html) — Повертає значення із початку черги
--   [ДсQueue::pop](ds-queue.pop.html) — Видаляє та повертає значення з початку черги
--   [ДсQueue::push](ds-queue.push.html) - Додає значення в чергу
--   [ДсQueue::toArray](ds-queue.toarray.html) — Перетворює колекцію на масив (array)
+-   [ДсQueue::allocate](ds-queue.allocate.md) — Виділяє пам'ять під зазначену місткість
+-   [ДсQueue::capacity](ds-queue.capacity.md) — Повертає поточну місткість
+-   [ДсQueue::clear](ds-queue.clear.md) - Видаляє всі значення
+-   [ДсQueue::construct](ds-queue.construct.md) - Створює новий екземпляр
+-   [ДсQueue::copy](ds-queue.copy.md) — Повертає поверхневу копію черги
+-   [ДсQueue::count](ds-queue.count.md) — Повертає кількість елементів черги
+-   [ДсQueue::isEmpty](ds-queue.isempty.md) — Перевіряє, чи колекція порожня.
+-   [ДсQueue::jsonSerialize](ds-queue.jsonserialize.md) — Повертає колекцію в JSON-представництві
+-   [ДсQueue::peek](ds-queue.peek.md) — Повертає значення із початку черги
+-   [ДсQueue::pop](ds-queue.pop.md) — Видаляє та повертає значення з початку черги
+-   [ДсQueue::push](ds-queue.push.md) - Додає значення в чергу
+-   [ДсQueue::toArray](ds-queue.toarray.md) — Перетворює колекцію на масив (array)

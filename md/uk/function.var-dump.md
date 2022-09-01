@@ -90,7 +90,7 @@ bool(true)
 
 ### Дивіться також
 
--   [printr()](function.print-r.html) - Виводить зручну для читання інформацію про змінну
--   [debugzvaldump()](function.debug-zval-dump.html) - Виводить рядкову виставу внутрішньої структури zval
--   [varexport()](function.var-export.html) - Виводить або повертає інтерпретоване рядкове подання змінної
+-   [printr()](function.print-r.md) - Виводить зручну для читання інформацію про змінну
+-   [debugzvaldump()](function.debug-zval-dump.md) - Виводить рядкову виставу внутрішньої структури zval
+-   [varexport()](function.var-export.md) - Виводить або повертає інтерпретоване рядкове подання змінної
 -   [debugInfo()](language.oop5.magic.html#language.oop5.magic.debuginfo)

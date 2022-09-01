@@ -28,4 +28,4 @@ public Yaf_Request_Abstract::isDispatched(): bool
 
 ### Дивіться також
 
--   [YafDispatcher::dispatch()](yaf-dispatcher.dispatch.html) - Надсилає запит
+-   [YafDispatcher::dispatch()](yaf-dispatcher.dispatch.md) - Надсилає запит

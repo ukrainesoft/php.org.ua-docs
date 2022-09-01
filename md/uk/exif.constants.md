@@ -12,6 +12,6 @@ title: Обумовлені константи
 
 **`EXIF_USE_MBSTRING`** (int)
 
-Ця константа дорівнює `1` якщо дозволено [mbstring](ref.mbstring.html), або `0`, якщо ні.
+Ця константа дорівнює `1` якщо дозволено [mbstring](ref.mbstring.md), або `0`, якщо ні.
 
-Функція [exifimagetype()](function.exif-imagetype.html) відображає пов'язані вбудовані константи.
+Функція [exifimagetype()](function.exif-imagetype.md) відображає пов'язані вбудовані константи.

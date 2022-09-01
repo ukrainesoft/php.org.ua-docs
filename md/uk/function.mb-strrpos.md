@@ -52,6 +52,6 @@ mb_strrpos(    string $haystack,    string $needle,    int $offset =
 
 ### Дивіться також
 
--   [мбstrpos()](function.mb-strpos.html) - Пошук позиції першого входження одного рядка до іншого
--   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбstrpos()](function.mb-strpos.md) - Пошук позиції першого входження одного рядка до іншого
+-   [мбinternalencoding()](function.mb-internal-encoding.md) - Встановлення/отримання внутрішнього кодування скрипту
 -   [strrpos()](function.strrpos.md) - Повертає позицію останнього входження підрядка у рядку

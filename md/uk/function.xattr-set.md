@@ -65,5 +65,5 @@ printf("You've played this song %d times", xattr_get($file, 'Listen coun
 
 ### Дивіться також
 
--   [xattrget()](function.xattr-get.html) - Отримання розширених атрибутів файлу
--   [xattrremove()](function.xattr-remove.html) - Видалення розширених атрибутів файлу
+-   [xattrget()](function.xattr-get.md) - Отримання розширених атрибутів файлу
+-   [xattrremove()](function.xattr-remove.md) - Видалення розширених атрибутів файлу

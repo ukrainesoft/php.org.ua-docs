@@ -30,4 +30,4 @@ public ReflectionMethod::isStatic(): bool
 
 ### Дивіться також
 
--   [ReflectionMethod::isFinal()](reflectionmethod.isfinal.html) - Перевіряє, чи є метод остаточним
+-   [ReflectionMethod::isFinal()](reflectionmethod.isfinal.md) - Перевіряє, чи є метод остаточним

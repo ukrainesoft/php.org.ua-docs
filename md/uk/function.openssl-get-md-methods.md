@@ -118,5 +118,5 @@ Array
 
 ### Дивіться також
 
--   [openssldigest()](function.openssl-digest.html) - Обчислення дайджесту
--   [opensslgetciphermethods()](function.openssl-get-cipher-methods.html) - Отримати список доступних алгоритмів шифрування
+-   [openssldigest()](function.openssl-digest.md) - Обчислення дайджесту
+-   [opensslgetciphermethods()](function.openssl-get-cipher-methods.md) - Отримати список доступних алгоритмів шифрування

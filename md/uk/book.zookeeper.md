@@ -16,7 +16,7 @@ title: ZooKeeper
     -   [Типи ресурсів](zookeeper.resources.md)
 -   [Обумовлені константи](zookeeper.constants.md)
 -   [Функции ZooKeeper](ref.zookeeper.md)
-    -   [zookeeperdispatch](function.zookeeper-dispatch.html) — Викликати callback-функції для операцій, що очікують
+    -   [zookeeperdispatch](function.zookeeper-dispatch.md) — Викликати callback-функції для операцій, що очікують
 -   [Zookeeper](class.zookeeper.md) - Клас Zookeeper
     -   [Zookeeper::addAuth](zookeeper.addauth.md) — Вказує облікові дані програми
     -   [Zookeeper::close](zookeeper.close.md) — Закриває обробник zookeeper та звільняє будь-які ресурси

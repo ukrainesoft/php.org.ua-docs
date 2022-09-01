@@ -16,9 +16,9 @@ title: Правила
     
 -   PHP додає префікс до глобальних імен, що належать до модуля з ім'ям цього модуля. У минулому було безліч винятків із цього правила, наприклад:
     
-    -   [curlclose()](function.curl-close.html)
+    -   [curlclose()](function.curl-close.md)
         
-    -   [mysqlquery()](function.mysql-query.html)
+    -   [mysqlquery()](function.mysql-query.md)
         
     -   PREGSPLITДІЛИМОCAPTURE
         

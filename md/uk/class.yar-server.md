@@ -45,5 +45,5 @@ executor
 
 ## Зміст
 
--   [YarServer::construct](yar-server.construct.html) - Конструктор YarServer
--   [YarServer::handle](yar-server.handle.html) — Запустити сервер RPC
+-   [YarServer::construct](yar-server.construct.md) - Конструктор YarServer
+-   [YarServer::handle](yar-server.handle.md) — Запустити сервер RPC

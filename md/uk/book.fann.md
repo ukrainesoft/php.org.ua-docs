@@ -16,149 +16,149 @@ title: Швидка штучна нейронна мережа (Fast Artificial 
     -   [Типи ресурсів](fann.resources.md)
 -   [Обумовлені константи](fann.constants.md)
 -   [Приклади](fann.examples.md)
-    -   [Обучение XOR](fann.examples-1.html)
+    -   [Обучение XOR](fann.examples-1.md)
 -   [Функции Fann](ref.fann.md)
-    -   [fanncascadetrainвінdata](function.fann-cascadetrain-on-data.html) — Навчання по всьому набору даних протягом певного періоду часу за допомогою алгоритму Cascade2
-    -   [fanncascadetrainвінfile](function.fann-cascadetrain-on-file.html) — Навчання на даних прочитаних із файлу за допомогою алгоритму Cascade2
-    -   [fannclearscalingparams](function.fann-clear-scaling-params.html) — Очищення параметрів масштабування
-    -   [fanncopy](function.fann-copy.html) - Створює копію структури fann
-    -   [fanncreatefromfile](function.fann-create-from-file.html) — Створює нейронну мережу зі зворотним поширенням помилки конфігураційного файлу
-    -   [fanncreateshortcutarray](function.fann-create-shortcut-array.html) — Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання.
-    -   [fanncreateshortcut](function.fann-create-shortcut.html) — Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання.
-    -   [fanncreatesparsearray](function.fann-create-sparse-array.html) — Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена, використовуючи масив розмірів шарів
-    -   [fanncreatesparse](function.fann-create-sparse.html) — Створює стандартну нейронну мережу зворотного розповсюдження, яка повністю не підключена.
-    -   [fanncreatestandardarray](function.fann-create-standard-array.html) — Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження, використовуючи масив розмірів шарів
-    -   [fanncreatestandard](function.fann-create-standard.html) — Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження
-    -   [fanncreatetrainfromcallback](function.fann-create-train-from-callback.html) — Створює структуру даних навчання із наданої користувачем функції
-    -   [fanncreatetrain](function.fann-create-train.html) — Створює порожню структуру даних для навчання
-    -   [fanndescaleinput](function.fann-descale-input.html) - Масштабує дані у вхідному векторі після отримання їх на основі раніше розрахованих параметрів
-    -   [fanndescaleoutput](function.fann-descale-output.html) — Масштабує дані у вихідному векторі після отримання їх на основі раніше розрахованих параметрів
-    -   [fanndescaletrain](function.fann-descale-train.html) — Масштабування вхідних та вихідних даних на основі попередньо розрахованих параметрів
-    -   [fanndestroytrain](function.fann-destroy-train.html) - Знищує тренувальні дані
-    -   [fanndestroy](function.fann-destroy.html) — Знищує всю мережу та правильно звільняє всю пов'язану пам'ять
-    -   [fannduplicatetraindata](function.fann-duplicate-train-data.html) — Повертає точну копію тренувальних даних
-    -   [fanngetactivationfunction](function.fann-get-activation-function.html) - Повертає функцію активації
-    -   [fanngetactivationsteepness](function.fann-get-activation-steepness.html) — Повертає крутість активації для нейрона, що поставляється, і номери шару.
-    -   [fanngetbiasarray](function.fann-get-bias-array.html) — Отримує кількість зсувів у кожному шарі у мережі
-    -   [fanngetbitfaillimit](function.fann-get-bit-fail-limit.html) — Повертає межу збою бітів, використану під час навчання
-    -   [fanngetbitfail](function.fann-get-bit-fail.html) - Кількість бітів збою
-    -   [fanngetcascadeactivationfunctionscount](function.fann-get-cascade-activation-functions-count.html) — Повертає кількість функцій каскадної активації
-    -   [fanngetcascadeactivationfunctions](function.fann-get-cascade-activation-functions.html) — Повертає функції каскадної активації
-    -   [fanngetcascadeactivationsteepnessescount](function.fann-get-cascade-activation-steepnesses-count.html) — Кількість крутості активації
-    -   [fanngetcascadeactivationsteepnesses](function.fann-get-cascade-activation-steepnesses.html) — Повертає крутість каскадної активації
-    -   [fanngetcascadecandidatechangefraction](function.fann-get-cascade-candidate-change-fraction.html) — Повертає частку зміни каскаду кандидата
-    -   [fanngetcascadecandidatelimit](function.fann-get-cascade-candidate-limit.html) — Повертає межу кандидата
-    -   [fanngetcascadecandidatestagnationepochs](function.fann-get-cascade-candidate-stagnation-epochs.html) — Повертає кількість періодів застою каскаду кандидата
-    -   [fanngetcascademaxcandepochs](function.fann-get-cascade-max-cand-epochs.html) — Отримує найбільший період кандидата
-    -   [fanngetcascademaxoutepochs](function.fann-get-cascade-max-out-epochs.html) — Повертає максимальну кількість періодів
-    -   [fanngetcascademincandepochs](function.fann-get-cascade-min-cand-epochs.html) — Отримує найменший період кандидата
-    -   [fanngetcascademinoutepochs](function.fann-get-cascade-min-out-epochs.html) — Повертає мінімальну кількість періодів
-    -   [fanngetcascadenumcandidategroups](function.fann-get-cascade-num-candidate-groups.html) — Повертає кількість груп кандидатів
-    -   [fanngetcascadenumcandidates](function.fann-get-cascade-num-candidates.html) — Повертає кількість кандидатів, використаних під час навчання
-    -   [fanngetcascadeoutputchangefraction](function.fann-get-cascade-output-change-fraction.html) — Повертає частку зміни виходу каскаду
-    -   [fanngetcascadeoutputstagnationepochs](function.fann-get-cascade-output-stagnation-epochs.html) — Повертає кількість каскадних періодів застою кандидатів
-    -   [fanngetcascadeweightmultiplier](function.fann-get-cascade-weight-multiplier.html) - Повертає множник ваги
-    -   [fanngetconnectionarray](function.fann-get-connection-array.html) — Отримує з'єднання в мережі
-    -   [fanngetconnectionrate](function.fann-get-connection-rate.html) — Отримує швидкість з'єднання, що використовується під час створення мережі
-    -   [fanngeterrno](function.fann-get-errno.html) — Повертає останній номер помилки
-    -   [fanngeterrstr](function.fann-get-errstr.html) — Повертає останній рядок помилки
-    -   [fanngetlayerarray](function.fann-get-layer-array.html) — Отримує кількість нейронів у кожному шарі мережі
-    -   [fanngetlearningmomentum](function.fann-get-learning-momentum.html) - Повертає імпульс навчання
-    -   [fanngetlearningrate](function.fann-get-learning-rate.html) — Повертає швидкість навчання
-    -   [fanngetMSE](function.fann-get-mse.html) - Зчитує середньоквадратичну помилку мережі
-    -   [fanngetnetworktype](function.fann-get-network-type.html) — Отримує тип нейронної мережі
-    -   [fanngetnuminput](function.fann-get-num-input.html) — Отримує кількість вхідних нейронів
-    -   [fanngetnumlayers](function.fann-get-num-layers.html) — Отримує кількість шарів у нейронній мережі
-    -   [fanngetnumoutput](function.fann-get-num-output.html) — Отримує кількість вихідних нейронів
-    -   [fanngetquickpropdecay](function.fann-get-quickprop-decay.html) — Повертає зниження, яке є фактором, при якому ваги мають зменшуватись на кожній ітерації під час навчання quickprop
-    -   [fanngetquickpropму](function.fann-get-quickprop-mu.html) - Повертає коефіцієнт mu
-    -   [fanngetrpropdecreasefactor](function.fann-get-rprop-decrease-factor.html) — Повертає коефіцієнт зменшення під час навчання RPROP
-    -   [fanngetrpropdeltamax](function.fann-get-rprop-delta-max.html) - Повертає максимальний розмір кроку
-    -   [fanngetrpropdeltamin](function.fann-get-rprop-delta-min.html) - Повертає мінімальний розмір кроку
-    -   [fanngetrpropdeltazero](function.fann-get-rprop-delta-zero.html) - Повертає початковий розмір кроку
-    -   [fanngetrpropincreasefactor](function.fann-get-rprop-increase-factor.html) — Повертає коефіцієнт збільшення, який використовується під час навчання RPROP
-    -   [fanngetsarpropsteperrorshift](function.fann-get-sarprop-step-error-shift.html) - Повертає зрушення помилки кроку sarprop
-    -   [fanngetsarpropsteperrorthresholdfactor](function.fann-get-sarprop-step-error-threshold-factor.html) - Повертає пороговий коефіцієнт помилки кроку sarprop
-    -   [fanngetsarproptemperature](function.fann-get-sarprop-temperature.html) - Повертає температуру sarprop
-    -   [fanngetsarpropweightdecayshift](function.fann-get-sarprop-weight-decay-shift.html) - Повертає зсув зменшення ваги sarprop
-    -   [fanngettotalconnections](function.fann-get-total-connections.html) — Отримує загальну кількість з'єднань у всій мережі
-    -   [fanngettotalneurons](function.fann-get-total-neurons.html) — Отримує загальну кількість нейронів у всій мережі
-    -   [fanngettrainerrorfunction](function.fann-get-train-error-function.html) — Повертає функцію обробки помилок, яка використовується під час навчання
-    -   [fanngettrainstopfunction](function.fann-get-train-stop-function.html) — Повертає функцію зупинки, яка використовується під час навчання
-    -   [fanngettrainingalgorithm](function.fann-get-training-algorithm.html) - Повертає алгоритм навчання
-    -   [fanninitweights](function.fann-init-weights.html) - Ініціалізує ваги за допомогою алгоритму Widrow + Nguyen
-    -   [fannlengthtraindata](function.fann-length-train-data.html) — Повертає кількість шаблонів до навчальних даних
-    -   [fannmergetraindata](function.fann-merge-train-data.html) — Об'єднує навчальні дані
-    -   [fannnuminputtraindata](function.fann-num-input-train-data.html) — Повертає кількість вхідних даних у кожному із шаблонів у навчальних даних
-    -   [fannnumoutputtraindata](function.fann-num-output-train-data.html) — Повертає кількість вихідних даних у кожному із шаблонів у навчальних даних
-    -   [fannprinterror](function.fann-print-error.html) - Виводить рядок помилки
-    -   [fannrandomizeweights](function.fann-randomize-weights.html) — Надає кожному з'єднанню випадкову вагу між minweight та maxweight
-    -   [fannreadtrainfromfile](function.fann-read-train-from-file.html) — Читає файл, у якому зберігаються дані навчання
-    -   [fannreseterrno](function.fann-reset-errno.html) - Скидає номер останньої помилки
-    -   [fannreseterrstr](function.fann-reset-errstr.html) — Скидає останній рядок помилки
-    -   [fannresetMSE](function.fann-reset-mse.html) — скидає середньоквадратичну помилку з мережі
-    -   [fannrun](function.fann-run.html) — Запускає нейронну мережу із заданими даними
-    -   [fannsavetrain](function.fann-save-train.html) — Зберігає структуру навчання у файл
-    -   [fannsave](function.fann-save.html) — Зберігає всю мережу у конфігураційному файлі
-    -   [fannscaleinputtraindata](function.fann-scale-input-train-data.html) — Масштабує вхідні дані до навчальних даних до вказаного діапазону
-    -   [fannscaleinput](function.fann-scale-input.html) — Масштабує дані у вхідному векторі перед подачею їх у ann на основі раніше розрахованих параметрів
-    -   [fannscaleoutputtraindata](function.fann-scale-output-train-data.html) — Масштабує вихідні дані у навчальних даних до вказаного діапазону
-    -   [fannscaleoutput](function.fann-scale-output.html) — Масштабує дані у вихідному векторі перед їхньою передачею в ann на основі раніше розрахованих параметрів
-    -   [fannscaletraindata](function.fann-scale-train-data.html) — Масштабує вхідні та вихідні дані до навчальних даних до вказаного діапазону
-    -   [fannscaletrain](function.fann-scale-train.html) — Масштабує вхідні та вихідні дані на основі раніше розрахованих параметрів
-    -   [fannsetactivationfunctionhidden](function.fann-set-activation-function-hidden.html) — Встановлює функцію активації для всіх прихованих шарів
-    -   [fannsetactivationfunctionlayer](function.fann-set-activation-function-layer.html) — Встановлює функцію активації для всіх нейронів у наданому шарі
-    -   [fannsetactivationfunctionoutput](function.fann-set-activation-function-output.html) — Встановлює функцію активації для вихідного шару
-    -   [fannsetactivationfunction](function.fann-set-activation-function.html) — Встановлює функцію активації для вказаного нейрона та шару
-    -   [fannsetactivationsteepnesshidden](function.fann-set-activation-steepness-hidden.html) — Встановлює крутість крутості активації для всіх нейронів у всіх прихованих шарах
-    -   [fannsetactivationsteepnesslayer](function.fann-set-activation-steepness-layer.html) — Встановлює крутість активації для всіх нейронів у вказаному номері шару
-    -   [fannsetactivationsteepnessoutput](function.fann-set-activation-steepness-output.html) — Встановлює крутість активації у вихідному шарі
-    -   [fannsetactivationsteepness](function.fann-set-activation-steepness.html) — Встановлює крутість активації для вказаного нейрона та номера шару
-    -   [fannsetbitfaillimit](function.fann-set-bit-fail-limit.html) — Встановлює межу помилок, яка використовується під час навчання
-    -   [fannsetcallback](function.fann-set-callback.html) — Встановлює callback-функцію для використання під час навчання
-    -   [fannsetcascadeactivationfunctions](function.fann-set-cascade-activation-functions.html) - Встановлює масив каскадних функцій активації кандидатів
-    -   [fannsetcascadeactivationsteepnesses](function.fann-set-cascade-activation-steepnesses.html) — Встановлює масив крутості включення кандидатів у каскад
-    -   [fannsetcascadecandidatechangefraction](function.fann-set-cascade-candidate-change-fraction.html) - Встановлює частку каскадної зміни кандидата
-    -   [fannsetcascadecandidatelimit](function.fann-set-cascade-candidate-limit.html) - Встановлює ліміт кандидатів
-    -   [fannsetcascadecandidatestagnationepochs](function.fann-set-cascade-candidate-stagnation-epochs.html) — Встановлює кількість каскадних періодів застою кандидатів
-    -   [fannsetcascademaxcandepochs](function.fann-set-cascade-max-cand-epochs.html) - Встановлює найбільший період кандидата
-    -   [fannsetcascademaxoutepochs](function.fann-set-cascade-max-out-epochs.html) — Встановлює максимальну кількість епох
-    -   [fannsetcascademincandepochs](function.fann-set-cascade-min-cand-epochs.html) - Встановлює найменший період кандидата
-    -   [fannsetcascademinoutepochs](function.fann-set-cascade-min-out-epochs.html) - Встановлює мінімальні епохи вихідних даних
-    -   [fannsetcascadenumcandidategroups](function.fann-set-cascade-num-candidate-groups.html) - Встановлює кількість груп кандидатів
-    -   [fannsetcascadeoutputchangefraction](function.fann-set-cascade-output-change-fraction.html) - Встановлює частку зміни каскадних вихідних даних
-    -   [fannsetcascadeoutputstagnationepochs](function.fann-set-cascade-output-stagnation-epochs.html) - Встановлює кількість періодів стагнації каскадного виводу
-    -   [fannsetcascadeweightmultiplier](function.fann-set-cascade-weight-multiplier.html) - Встановлює множник ваги
-    -   [fannseterrorlog](function.fann-set-error-log.html) — Встановлює, де реєструються помилки
-    -   [fannsetinputscalingparams](function.fann-set-input-scaling-params.html) — Розраховує вхідні параметри масштабування для майбутнього використання на основі даних навчання
-    -   [fannsetlearningmomentum](function.fann-set-learning-momentum.html) - Встановлює імпульс навчання
-    -   [fannsetlearningrate](function.fann-set-learning-rate.html) - Встановлює швидкість навчання
-    -   [fannsetoutputscalingparams](function.fann-set-output-scaling-params.html) — Розраховує вихідні параметри масштабування для майбутнього використання на основі даних навчання
-    -   [fannsetquickpropdecay](function.fann-set-quickprop-decay.html) - Встановлює коефіцієнт загасання quickprop
-    -   [fannsetquickpropму](function.fann-set-quickprop-mu.html) - Встановлює МЮ-фактор quickprop
-    -   [fannsetrpropdecreasefactor](function.fann-set-rprop-decrease-factor.html) — Встановлює коефіцієнт зменшення під час навчання RPROP
-    -   [fannsetrpropdeltamax](function.fann-set-rprop-delta-max.html) - Встановлює максимальний розмір кроку
-    -   [fannsetrpropdeltamin](function.fann-set-rprop-delta-min.html) - Встановлює мінімальний розмір кроку
-    -   [fannsetrpropdeltazero](function.fann-set-rprop-delta-zero.html) - Встановлює початковий розмір кроку
-    -   [fannsetrpropincreasefactor](function.fann-set-rprop-increase-factor.html) — Встановлює коефіцієнт збільшення під час навчання Rprop
-    -   [fannsetsarpropsteperrorshift](function.fann-set-sarprop-step-error-shift.html) - Встановлює зрушення помилки кроку sarprop
-    -   [fannsetsarpropsteperrorthresholdfactor](function.fann-set-sarprop-step-error-threshold-factor.html) - Встановлює пороговий коефіцієнт помилки кроку sarprop
-    -   [fannsetsarproptemperature](function.fann-set-sarprop-temperature.html) - Встановлює температуру sarprop
-    -   [fannsetsarpropweightdecayshift](function.fann-set-sarprop-weight-decay-shift.html) - Встановлює зміщення згасання sarprop
-    -   [fannsetscalingparams](function.fann-set-scaling-params.html) — Розраховує вхідні та вихідні параметри масштабування для майбутнього використання на основі даних навчання
-    -   [fannsettrainerrorfunction](function.fann-set-train-error-function.html) — Встановлює функцію помилки під час тренування.
-    -   [fannsettrainstopfunction](function.fann-set-train-stop-function.html) — Встановлює функцію зупинки під час тренування.
-    -   [fannsettrainingalgorithm](function.fann-set-training-algorithm.html) - Встановлює алгоритм навчання
-    -   [fannsetweightarray](function.fann-set-weight-array.html) — Створення зв'язків у мережі
-    -   [fannsetweight](function.fann-set-weight.html) — Створення зв'язку в мережі
-    -   [fannshuffletraindata](function.fann-shuffle-train-data.html) — Перемішує навчальні дані у випадковому порядку
-    -   [fannsubsettraindata](function.fann-subset-train-data.html) — Отримати копію підмножини з навчальних даних
-    -   [fanntestdata](function.fann-test-data.html) — Тестування набору навчальних даних та обчислення MSE для нього
-    -   [fanntest](function.fann-test.html) — Тестування з набором вхідних даних та бажаним результатом
-    -   [fanntrainepoch](function.fann-train-epoch.html) — Навчання протягом однієї епохи
-    -   [fanntrainвінdata](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на тимчасовому інтервалі
-    -   [fanntrainвінfile](function.fann-train-on-file.html) — Навчання на повному наборі даних, прочитаному з файлу, на часовому інтервалі
-    -   [fanntrain](function.fann-train.html) — Провести одну ітерацію навчання з набором вхідних даних та бажаним результатом
+    -   [fanncascadetrainвінdata](function.fann-cascadetrain-on-data.md) — Навчання по всьому набору даних протягом певного періоду часу за допомогою алгоритму Cascade2
+    -   [fanncascadetrainвінfile](function.fann-cascadetrain-on-file.md) — Навчання на даних прочитаних із файлу за допомогою алгоритму Cascade2
+    -   [fannclearscalingparams](function.fann-clear-scaling-params.md) — Очищення параметрів масштабування
+    -   [fanncopy](function.fann-copy.md) - Створює копію структури fann
+    -   [fanncreatefromfile](function.fann-create-from-file.md) — Створює нейронну мережу зі зворотним поширенням помилки конфігураційного файлу
+    -   [fanncreateshortcutarray](function.fann-create-shortcut-array.md) — Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання.
+    -   [fanncreateshortcut](function.fann-create-shortcut.md) — Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання.
+    -   [fanncreatesparsearray](function.fann-create-sparse-array.md) — Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена, використовуючи масив розмірів шарів
+    -   [fanncreatesparse](function.fann-create-sparse.md) — Створює стандартну нейронну мережу зворотного розповсюдження, яка повністю не підключена.
+    -   [fanncreatestandardarray](function.fann-create-standard-array.md) — Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження, використовуючи масив розмірів шарів
+    -   [fanncreatestandard](function.fann-create-standard.md) — Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження
+    -   [fanncreatetrainfromcallback](function.fann-create-train-from-callback.md) — Створює структуру даних навчання із наданої користувачем функції
+    -   [fanncreatetrain](function.fann-create-train.md) — Створює порожню структуру даних для навчання
+    -   [fanndescaleinput](function.fann-descale-input.md) - Масштабує дані у вхідному векторі після отримання їх на основі раніше розрахованих параметрів
+    -   [fanndescaleoutput](function.fann-descale-output.md) — Масштабує дані у вихідному векторі після отримання їх на основі раніше розрахованих параметрів
+    -   [fanndescaletrain](function.fann-descale-train.md) — Масштабування вхідних та вихідних даних на основі попередньо розрахованих параметрів
+    -   [fanndestroytrain](function.fann-destroy-train.md) - Знищує тренувальні дані
+    -   [fanndestroy](function.fann-destroy.md) — Знищує всю мережу та правильно звільняє всю пов'язану пам'ять
+    -   [fannduplicatetraindata](function.fann-duplicate-train-data.md) — Повертає точну копію тренувальних даних
+    -   [fanngetactivationfunction](function.fann-get-activation-function.md) - Повертає функцію активації
+    -   [fanngetactivationsteepness](function.fann-get-activation-steepness.md) — Повертає крутість активації для нейрона, що поставляється, і номери шару.
+    -   [fanngetbiasarray](function.fann-get-bias-array.md) — Отримує кількість зсувів у кожному шарі у мережі
+    -   [fanngetbitfaillimit](function.fann-get-bit-fail-limit.md) — Повертає межу збою бітів, використану під час навчання
+    -   [fanngetbitfail](function.fann-get-bit-fail.md) - Кількість бітів збою
+    -   [fanngetcascadeactivationfunctionscount](function.fann-get-cascade-activation-functions-count.md) — Повертає кількість функцій каскадної активації
+    -   [fanngetcascadeactivationfunctions](function.fann-get-cascade-activation-functions.md) — Повертає функції каскадної активації
+    -   [fanngetcascadeactivationsteepnessescount](function.fann-get-cascade-activation-steepnesses-count.md) — Кількість крутості активації
+    -   [fanngetcascadeactivationsteepnesses](function.fann-get-cascade-activation-steepnesses.md) — Повертає крутість каскадної активації
+    -   [fanngetcascadecandidatechangefraction](function.fann-get-cascade-candidate-change-fraction.md) — Повертає частку зміни каскаду кандидата
+    -   [fanngetcascadecandidatelimit](function.fann-get-cascade-candidate-limit.md) — Повертає межу кандидата
+    -   [fanngetcascadecandidatestagnationepochs](function.fann-get-cascade-candidate-stagnation-epochs.md) — Повертає кількість періодів застою каскаду кандидата
+    -   [fanngetcascademaxcandepochs](function.fann-get-cascade-max-cand-epochs.md) — Отримує найбільший період кандидата
+    -   [fanngetcascademaxoutepochs](function.fann-get-cascade-max-out-epochs.md) — Повертає максимальну кількість періодів
+    -   [fanngetcascademincandepochs](function.fann-get-cascade-min-cand-epochs.md) — Отримує найменший період кандидата
+    -   [fanngetcascademinoutepochs](function.fann-get-cascade-min-out-epochs.md) — Повертає мінімальну кількість періодів
+    -   [fanngetcascadenumcandidategroups](function.fann-get-cascade-num-candidate-groups.md) — Повертає кількість груп кандидатів
+    -   [fanngetcascadenumcandidates](function.fann-get-cascade-num-candidates.md) — Повертає кількість кандидатів, використаних під час навчання
+    -   [fanngetcascadeoutputchangefraction](function.fann-get-cascade-output-change-fraction.md) — Повертає частку зміни виходу каскаду
+    -   [fanngetcascadeoutputstagnationepochs](function.fann-get-cascade-output-stagnation-epochs.md) — Повертає кількість каскадних періодів застою кандидатів
+    -   [fanngetcascadeweightmultiplier](function.fann-get-cascade-weight-multiplier.md) - Повертає множник ваги
+    -   [fanngetconnectionarray](function.fann-get-connection-array.md) — Отримує з'єднання в мережі
+    -   [fanngetconnectionrate](function.fann-get-connection-rate.md) — Отримує швидкість з'єднання, що використовується під час створення мережі
+    -   [fanngeterrno](function.fann-get-errno.md) — Повертає останній номер помилки
+    -   [fanngeterrstr](function.fann-get-errstr.md) — Повертає останній рядок помилки
+    -   [fanngetlayerarray](function.fann-get-layer-array.md) — Отримує кількість нейронів у кожному шарі мережі
+    -   [fanngetlearningmomentum](function.fann-get-learning-momentum.md) - Повертає імпульс навчання
+    -   [fanngetlearningrate](function.fann-get-learning-rate.md) — Повертає швидкість навчання
+    -   [fanngetMSE](function.fann-get-mse.md) - Зчитує середньоквадратичну помилку мережі
+    -   [fanngetnetworktype](function.fann-get-network-type.md) — Отримує тип нейронної мережі
+    -   [fanngetnuminput](function.fann-get-num-input.md) — Отримує кількість вхідних нейронів
+    -   [fanngetnumlayers](function.fann-get-num-layers.md) — Отримує кількість шарів у нейронній мережі
+    -   [fanngetnumoutput](function.fann-get-num-output.md) — Отримує кількість вихідних нейронів
+    -   [fanngetquickpropdecay](function.fann-get-quickprop-decay.md) — Повертає зниження, яке є фактором, при якому ваги мають зменшуватись на кожній ітерації під час навчання quickprop
+    -   [fanngetquickpropму](function.fann-get-quickprop-mu.md) - Повертає коефіцієнт mu
+    -   [fanngetrpropdecreasefactor](function.fann-get-rprop-decrease-factor.md) — Повертає коефіцієнт зменшення під час навчання RPROP
+    -   [fanngetrpropdeltamax](function.fann-get-rprop-delta-max.md) - Повертає максимальний розмір кроку
+    -   [fanngetrpropdeltamin](function.fann-get-rprop-delta-min.md) - Повертає мінімальний розмір кроку
+    -   [fanngetrpropdeltazero](function.fann-get-rprop-delta-zero.md) - Повертає початковий розмір кроку
+    -   [fanngetrpropincreasefactor](function.fann-get-rprop-increase-factor.md) — Повертає коефіцієнт збільшення, який використовується під час навчання RPROP
+    -   [fanngetsarpropsteperrorshift](function.fann-get-sarprop-step-error-shift.md) - Повертає зрушення помилки кроку sarprop
+    -   [fanngetsarpropsteperrorthresholdfactor](function.fann-get-sarprop-step-error-threshold-factor.md) - Повертає пороговий коефіцієнт помилки кроку sarprop
+    -   [fanngetsarproptemperature](function.fann-get-sarprop-temperature.md) - Повертає температуру sarprop
+    -   [fanngetsarpropweightdecayshift](function.fann-get-sarprop-weight-decay-shift.md) - Повертає зсув зменшення ваги sarprop
+    -   [fanngettotalconnections](function.fann-get-total-connections.md) — Отримує загальну кількість з'єднань у всій мережі
+    -   [fanngettotalneurons](function.fann-get-total-neurons.md) — Отримує загальну кількість нейронів у всій мережі
+    -   [fanngettrainerrorfunction](function.fann-get-train-error-function.md) — Повертає функцію обробки помилок, яка використовується під час навчання
+    -   [fanngettrainstopfunction](function.fann-get-train-stop-function.md) — Повертає функцію зупинки, яка використовується під час навчання
+    -   [fanngettrainingalgorithm](function.fann-get-training-algorithm.md) - Повертає алгоритм навчання
+    -   [fanninitweights](function.fann-init-weights.md) - Ініціалізує ваги за допомогою алгоритму Widrow + Nguyen
+    -   [fannlengthtraindata](function.fann-length-train-data.md) — Повертає кількість шаблонів до навчальних даних
+    -   [fannmergetraindata](function.fann-merge-train-data.md) — Об'єднує навчальні дані
+    -   [fannnuminputtraindata](function.fann-num-input-train-data.md) — Повертає кількість вхідних даних у кожному із шаблонів у навчальних даних
+    -   [fannnumoutputtraindata](function.fann-num-output-train-data.md) — Повертає кількість вихідних даних у кожному із шаблонів у навчальних даних
+    -   [fannprinterror](function.fann-print-error.md) - Виводить рядок помилки
+    -   [fannrandomizeweights](function.fann-randomize-weights.md) — Надає кожному з'єднанню випадкову вагу між minweight та maxweight
+    -   [fannreadtrainfromfile](function.fann-read-train-from-file.md) — Читає файл, у якому зберігаються дані навчання
+    -   [fannreseterrno](function.fann-reset-errno.md) - Скидає номер останньої помилки
+    -   [fannreseterrstr](function.fann-reset-errstr.md) — Скидає останній рядок помилки
+    -   [fannresetMSE](function.fann-reset-mse.md) — скидає середньоквадратичну помилку з мережі
+    -   [fannrun](function.fann-run.md) — Запускає нейронну мережу із заданими даними
+    -   [fannsavetrain](function.fann-save-train.md) — Зберігає структуру навчання у файл
+    -   [fannsave](function.fann-save.md) — Зберігає всю мережу у конфігураційному файлі
+    -   [fannscaleinputtraindata](function.fann-scale-input-train-data.md) — Масштабує вхідні дані до навчальних даних до вказаного діапазону
+    -   [fannscaleinput](function.fann-scale-input.md) — Масштабує дані у вхідному векторі перед подачею їх у ann на основі раніше розрахованих параметрів
+    -   [fannscaleoutputtraindata](function.fann-scale-output-train-data.md) — Масштабує вихідні дані у навчальних даних до вказаного діапазону
+    -   [fannscaleoutput](function.fann-scale-output.md) — Масштабує дані у вихідному векторі перед їхньою передачею в ann на основі раніше розрахованих параметрів
+    -   [fannscaletraindata](function.fann-scale-train-data.md) — Масштабує вхідні та вихідні дані до навчальних даних до вказаного діапазону
+    -   [fannscaletrain](function.fann-scale-train.md) — Масштабує вхідні та вихідні дані на основі раніше розрахованих параметрів
+    -   [fannsetactivationfunctionhidden](function.fann-set-activation-function-hidden.md) — Встановлює функцію активації для всіх прихованих шарів
+    -   [fannsetactivationfunctionlayer](function.fann-set-activation-function-layer.md) — Встановлює функцію активації для всіх нейронів у наданому шарі
+    -   [fannsetactivationfunctionoutput](function.fann-set-activation-function-output.md) — Встановлює функцію активації для вихідного шару
+    -   [fannsetactivationfunction](function.fann-set-activation-function.md) — Встановлює функцію активації для вказаного нейрона та шару
+    -   [fannsetactivationsteepnesshidden](function.fann-set-activation-steepness-hidden.md) — Встановлює крутість крутості активації для всіх нейронів у всіх прихованих шарах
+    -   [fannsetactivationsteepnesslayer](function.fann-set-activation-steepness-layer.md) — Встановлює крутість активації для всіх нейронів у вказаному номері шару
+    -   [fannsetactivationsteepnessoutput](function.fann-set-activation-steepness-output.md) — Встановлює крутість активації у вихідному шарі
+    -   [fannsetactivationsteepness](function.fann-set-activation-steepness.md) — Встановлює крутість активації для вказаного нейрона та номера шару
+    -   [fannsetbitfaillimit](function.fann-set-bit-fail-limit.md) — Встановлює межу помилок, яка використовується під час навчання
+    -   [fannsetcallback](function.fann-set-callback.md) — Встановлює callback-функцію для використання під час навчання
+    -   [fannsetcascadeactivationfunctions](function.fann-set-cascade-activation-functions.md) - Встановлює масив каскадних функцій активації кандидатів
+    -   [fannsetcascadeactivationsteepnesses](function.fann-set-cascade-activation-steepnesses.md) — Встановлює масив крутості включення кандидатів у каскад
+    -   [fannsetcascadecandidatechangefraction](function.fann-set-cascade-candidate-change-fraction.md) - Встановлює частку каскадної зміни кандидата
+    -   [fannsetcascadecandidatelimit](function.fann-set-cascade-candidate-limit.md) - Встановлює ліміт кандидатів
+    -   [fannsetcascadecandidatestagnationepochs](function.fann-set-cascade-candidate-stagnation-epochs.md) — Встановлює кількість каскадних періодів застою кандидатів
+    -   [fannsetcascademaxcandepochs](function.fann-set-cascade-max-cand-epochs.md) - Встановлює найбільший період кандидата
+    -   [fannsetcascademaxoutepochs](function.fann-set-cascade-max-out-epochs.md) — Встановлює максимальну кількість епох
+    -   [fannsetcascademincandepochs](function.fann-set-cascade-min-cand-epochs.md) - Встановлює найменший період кандидата
+    -   [fannsetcascademinoutepochs](function.fann-set-cascade-min-out-epochs.md) - Встановлює мінімальні епохи вихідних даних
+    -   [fannsetcascadenumcandidategroups](function.fann-set-cascade-num-candidate-groups.md) - Встановлює кількість груп кандидатів
+    -   [fannsetcascadeoutputchangefraction](function.fann-set-cascade-output-change-fraction.md) - Встановлює частку зміни каскадних вихідних даних
+    -   [fannsetcascadeoutputstagnationepochs](function.fann-set-cascade-output-stagnation-epochs.md) - Встановлює кількість періодів стагнації каскадного виводу
+    -   [fannsetcascadeweightmultiplier](function.fann-set-cascade-weight-multiplier.md) - Встановлює множник ваги
+    -   [fannseterrorlog](function.fann-set-error-log.md) — Встановлює, де реєструються помилки
+    -   [fannsetinputscalingparams](function.fann-set-input-scaling-params.md) — Розраховує вхідні параметри масштабування для майбутнього використання на основі даних навчання
+    -   [fannsetlearningmomentum](function.fann-set-learning-momentum.md) - Встановлює імпульс навчання
+    -   [fannsetlearningrate](function.fann-set-learning-rate.md) - Встановлює швидкість навчання
+    -   [fannsetoutputscalingparams](function.fann-set-output-scaling-params.md) — Розраховує вихідні параметри масштабування для майбутнього використання на основі даних навчання
+    -   [fannsetquickpropdecay](function.fann-set-quickprop-decay.md) - Встановлює коефіцієнт загасання quickprop
+    -   [fannsetquickpropму](function.fann-set-quickprop-mu.md) - Встановлює МЮ-фактор quickprop
+    -   [fannsetrpropdecreasefactor](function.fann-set-rprop-decrease-factor.md) — Встановлює коефіцієнт зменшення під час навчання RPROP
+    -   [fannsetrpropdeltamax](function.fann-set-rprop-delta-max.md) - Встановлює максимальний розмір кроку
+    -   [fannsetrpropdeltamin](function.fann-set-rprop-delta-min.md) - Встановлює мінімальний розмір кроку
+    -   [fannsetrpropdeltazero](function.fann-set-rprop-delta-zero.md) - Встановлює початковий розмір кроку
+    -   [fannsetrpropincreasefactor](function.fann-set-rprop-increase-factor.md) — Встановлює коефіцієнт збільшення під час навчання Rprop
+    -   [fannsetsarpropsteperrorshift](function.fann-set-sarprop-step-error-shift.md) - Встановлює зрушення помилки кроку sarprop
+    -   [fannsetsarpropsteperrorthresholdfactor](function.fann-set-sarprop-step-error-threshold-factor.md) - Встановлює пороговий коефіцієнт помилки кроку sarprop
+    -   [fannsetsarproptemperature](function.fann-set-sarprop-temperature.md) - Встановлює температуру sarprop
+    -   [fannsetsarpropweightdecayshift](function.fann-set-sarprop-weight-decay-shift.md) - Встановлює зміщення згасання sarprop
+    -   [fannsetscalingparams](function.fann-set-scaling-params.md) — Розраховує вхідні та вихідні параметри масштабування для майбутнього використання на основі даних навчання
+    -   [fannsettrainerrorfunction](function.fann-set-train-error-function.md) — Встановлює функцію помилки під час тренування.
+    -   [fannsettrainstopfunction](function.fann-set-train-stop-function.md) — Встановлює функцію зупинки під час тренування.
+    -   [fannsettrainingalgorithm](function.fann-set-training-algorithm.md) - Встановлює алгоритм навчання
+    -   [fannsetweightarray](function.fann-set-weight-array.md) — Створення зв'язків у мережі
+    -   [fannsetweight](function.fann-set-weight.md) — Створення зв'язку в мережі
+    -   [fannshuffletraindata](function.fann-shuffle-train-data.md) — Перемішує навчальні дані у випадковому порядку
+    -   [fannsubsettraindata](function.fann-subset-train-data.md) — Отримати копію підмножини з навчальних даних
+    -   [fanntestdata](function.fann-test-data.md) — Тестування набору навчальних даних та обчислення MSE для нього
+    -   [fanntest](function.fann-test.md) — Тестування з набором вхідних даних та бажаним результатом
+    -   [fanntrainepoch](function.fann-train-epoch.md) — Навчання протягом однієї епохи
+    -   [fanntrainвінdata](function.fann-train-on-data.md) - Навчання на всьому обсязі даних на тимчасовому інтервалі
+    -   [fanntrainвінfile](function.fann-train-on-file.md) — Навчання на повному наборі даних, прочитаному з файлу, на часовому інтервалі
+    -   [fanntrain](function.fann-train.md) — Провести одну ітерацію навчання з набором вхідних даних та бажаним результатом
 -   [FANNConnection](class.fannconnection.md) - Клас FANNConnection
     -   [FANNConnection::construct](fannconnection.construct.md) - Конструктор зв'язку
     -   [FANNConnection::getFromNeuron](fannconnection.getfromneuron.md) — Повертає позицію стартового нейрона

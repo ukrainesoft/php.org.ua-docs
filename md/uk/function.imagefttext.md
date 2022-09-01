@@ -20,13 +20,13 @@ imagefttext(    GdImage $image,    float $size,    float $angle,  
 
 > **Зауваження**
 > 
-> До PHP 8.0.0 **imagefttext()** - це розширений варіант [imagettftext()](function.imagettftext.html), який додатково підтримує `extrainfo`. Починаючи з PHP 8.0.0, [imagettftext()](function.imagettftext.html) є псевдонімом **imagefttext()**
+> До PHP 8.0.0 **imagefttext()** - це розширений варіант [imagettftext()](function.imagettftext.html), який додатково підтримує `extrainfo`. Починаючи з PHP 8.0.0, [imagettftext()](function.imagettftext.md) є псевдонімом **imagefttext()**
 
 ### Список параметрів
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `size`
 
@@ -38,7 +38,7 @@ imagefttext(    GdImage $image,    float $size,    float $angle,  
 
 `x`
 
-Координати `x` і `y` визначають відправну точку першого символу тексту (конкретно, лівий нижній кут символу). Тут є відмінність від функції [imagestring()](function.imagestring.html), в якій `x` і `y` визначають лівий верхній кут першого символу. Наприклад, верхній лівий має координати 0,0.
+Координати `x` і `y` визначають відправну точку першого символу тексту (конкретно, лівий нижній кут символу). Тут є відмінність від функції [imagestring()](function.imagestring.md), в якій `x` і `y` визначають лівий верхній кут першого символу. Наприклад, верхній лівий має координати 0,0.
 
 `y`
 
@@ -46,7 +46,7 @@ y-координат. Це позиція базової лінії шрифту
 
 `color`
 
-Індекс потрібного кольору тексту дивіться [imagecolorexact()](function.imagecolorexact.html)
+Індекс потрібного кольору тексту дивіться [imagecolorexact()](function.imagecolorexact.md)
 
 `font_filename`
 
@@ -92,7 +92,7 @@ td>
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -128,5 +128,5 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imageftbbox()](function.imageftbbox.html) - Визначення меж тексту, що виводиться шрифтом freetype2
--   [imagettftext()](function.imagettftext.html) - Малювання тексту на зображенні шрифтом TrueType
+-   [imageftbbox()](function.imageftbbox.md) - Визначення меж тексту, що виводиться шрифтом freetype2
+-   [imagettftext()](function.imagettftext.md) - Малювання тексту на зображенні шрифтом TrueType

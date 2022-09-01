@@ -28,7 +28,7 @@ stream_filter_register(string $filter_name, string $class): bool
 
 `class`
 
-Щоб реалізувати фільтр, вам потрібно визначити клас як розширення [phpuserfilter](class.php-user-filter.html) c цілим рядом функцій-членів. При виконанні операцій читання/запису на потоці, до якого прикріплений ваш фільтр, PHP передаватиме дані через ваш фільтр (і через будь-які інші фільтри, прикріплені до потоку), так що дані можуть бути змінені як потрібно. Вам необхідно реалізувати методи точно як описано в [phpuserfilter](class.php-user-filter.html). Інша реалізація призведе до непередбачуваної поведінки.
+Щоб реалізувати фільтр, вам потрібно визначити клас як розширення [phpuserfilter](class.php-user-filter.html) c цілим рядом функцій-членів. При виконанні операцій читання/запису на потоці, до якого прикріплений ваш фільтр, PHP передаватиме дані через ваш фільтр (і через будь-які інші фільтри, прикріплені до потоку), так що дані можуть бути змінені як потрібно. Вам необхідно реалізувати методи точно як описано в [phpuserfilter](class.php-user-filter.md). Інша реалізація призведе до непередбачуваної поведінки.
 
 ### Значення, що повертаються
 
@@ -160,6 +160,6 @@ EASY AS 123
 
 ### Дивіться також
 
--   [streamwrapperregister()](function.stream-wrapper-register.html) - реєструє обгортку URL, реалізовану у вигляді PHP-класу
--   [streamfilterappend()](function.stream-filter-append.html) - Прикріпити фільтр до потоку
--   [streamfilterprepend()](function.stream-filter-prepend.html) - Прикріплює фільтр до потоку
+-   [streamwrapperregister()](function.stream-wrapper-register.md) - реєструє обгортку URL, реалізовану у вигляді PHP-класу
+-   [streamfilterappend()](function.stream-filter-append.md) - Прикріпити фільтр до потоку
+-   [streamfilterprepend()](function.stream-filter-prepend.md) - Прикріплює фільтр до потоку

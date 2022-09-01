@@ -16,8 +16,8 @@ title: Inotify
     -   [Типи ресурсів](inotify.resources.md)
 -   [Обумовлені константи](inotify.constants.md)
 -   [Функции Inotify](ref.inotify.md)
-    -   [inotifyaddwatch](function.inotify-add-watch.html) - Додати спостерігача для екземпляра inotify
-    -   [inotifyinit](function.inotify-init.html) - Ініціалізує екземпляр inotify
-    -   [inotifyqueuelen](function.inotify-queue-len.html) — Повертає кількість очікуваних подій у черзі
-    -   [inotifyread](function.inotify-read.html) — Читає повідомлення, що очікують, з черги
-    -   [inotifyрмwatch](function.inotify-rm-watch.html) - Видалити спостерігача
+    -   [inotifyaddwatch](function.inotify-add-watch.md) - Додати спостерігача для екземпляра inotify
+    -   [inotifyinit](function.inotify-init.md) - Ініціалізує екземпляр inotify
+    -   [inotifyqueuelen](function.inotify-queue-len.md) — Повертає кількість очікуваних подій у черзі
+    -   [inotifyread](function.inotify-read.md) — Читає повідомлення, що очікують, з черги
+    -   [inotifyрмwatch](function.inotify-rm-watch.md) - Видалити спостерігача

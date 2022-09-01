@@ -18,7 +18,7 @@ MongoDBDriverQuery::construct — Створює новий запит
 final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $queryOptions = null)
 ```
 
-Створює новий [MongoDBDriverQuery](class.mongodb-driver-query.html)який є об'єктом незмінного значення, що представляє запит до бази даних. Потім запит може бути виконаний за допомогою [MongoDBDriverManager::executeQuery()](mongodb-driver-manager.executequery.html)
+Створює новий [MongoDBDriverQuery](class.mongodb-driver-query.html)який є об'єктом незмінного значення, що представляє запит до бази даних. Потім запит може бути виконаний за допомогою [MongoDBDriverManager::executeQuery()](mongodb-driver-manager.executequery.md)
 
 ### Список параметрів
 
@@ -26,7 +26,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 [» Предикат запроса](https://www.mongodb.com/docs/manual/tutorial/query-documents/). Порожній предикат збігатиметься з усіма елементами колекції.
 
-> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.md) і [приведения типов](language.types.type-juggling.html) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.md) (тобто використовувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.html) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.md) і [приведения типов](language.types.type-juggling.html) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.md) (тобто використовувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.md) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
 
 `queryOptions`
 
@@ -73,7 +73,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 | | explain | bool |
 
-Якщо **`true`**, повернутий [MongoDBDriverCursor](class.mongodb-driver-cursor.html) міститиме один документ, який описує процес та індекси, що використовуються для повернення запиту.
+Якщо **`true`**, повернутий [MongoDBDriverCursor](class.mongodb-driver-cursor.md) міститиме один документ, який описує процес та індекси, що використовуються для повернення запиту.
 
 Повернення до застарілого модифікатора `"$explain"`якщо він не вказаний.
 
@@ -143,7 +143,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 Якщо ви використовуєте [функцию ODM](mongodb.persistence.deserialization.md) для десеріалізації документів як їх вихідний клас PHP, переконайтеся, що ви включили поле pclass у проекцію. Це необхідно для роботи десеріалізації, і без неї драйвер поверне (за умовчанням) об'єкт **stdClass**
 
-| | readConcern | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
+| | readConcern | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.md)
 
 Гарантії читання застосувати до операції. За промовчанням будуть використовуватися гарантії читання з [URI подключения MongoDB](mongodb-driver-manager.construct.html#mongodb-driver-manager.construct-uri)
 
@@ -181,7 +181,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### список змін
 
@@ -255,5 +255,5 @@ foreach($cursor as $document) {
 
 ### Дивіться також
 
--   [MongoDBDriverManager::executeQuery()](mongodb-driver-manager.executequery.html) - Виконує запит до бази даних
--   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
+-   [MongoDBDriverManager::executeQuery()](mongodb-driver-manager.executequery.md) - Виконує запит до бази даних
+-   [MongoDBDriverCursor](class.mongodb-driver-cursor.md)

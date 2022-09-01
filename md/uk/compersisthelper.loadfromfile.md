@@ -36,4 +36,4 @@ public COMPersistHelper::LoadFromFile(string $filename, int $flags = 0): bool
 
 ### Помилки
 
-Викидає виняток [comexception](class.com-exception.html)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistFile**або якщо виклик **IPersistFile::Load()** завершився помилкою.
+Викидає виняток [comexception](class.com-exception.md)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistFile**або якщо виклик **IPersistFile::Load()** завершився помилкою.

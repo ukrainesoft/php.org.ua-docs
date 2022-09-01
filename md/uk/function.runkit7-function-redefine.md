@@ -86,8 +86,8 @@ testme();
 
 ### Дивіться також
 
--   [runkit7functionadd()](function.runkit7-function-add.html) - Додає нову функцію, функція аналогічна createfunction
--   [runkit7functioncopy()](function.runkit7-function-copy.html) - Копіює функцію в нове ім'я функції
--   [runkit7functionrename()](function.runkit7-function-rename.html) - Змінює ім'я функції
--   [runkit7functionremove()](function.runkit7-function-remove.html) - Видаляє визначення функції
--   [runkit7methodredefine()](function.runkit7-method-redefine.html) - динамічно змінює код заданого методу
+-   [runkit7functionadd()](function.runkit7-function-add.md) - Додає нову функцію, функція аналогічна createfunction
+-   [runkit7functioncopy()](function.runkit7-function-copy.md) - Копіює функцію в нове ім'я функції
+-   [runkit7functionrename()](function.runkit7-function-rename.md) - Змінює ім'я функції
+-   [runkit7functionremove()](function.runkit7-function-remove.md) - Видаляє визначення функції
+-   [runkit7methodredefine()](function.runkit7-method-redefine.md) - динамічно змінює код заданого методу

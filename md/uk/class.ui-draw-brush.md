@@ -43,6 +43,6 @@ public setColor(int $color): void
 
 ## Зміст
 
--   [ОЙDrawBrush::construct](ui-draw-brush.construct.html) — Створити новий об'єкт Brush
--   [ОЙDrawBrush::getColor](ui-draw-brush.getcolor.html) - Отримати колір
--   [ОЙDrawBrush::setColor](ui-draw-brush.setcolor.html) - Встановити колір
+-   [ОЙDrawBrush::construct](ui-draw-brush.construct.md) — Створити новий об'єкт Brush
+-   [ОЙDrawBrush::getColor](ui-draw-brush.getcolor.md) - Отримати колір
+-   [ОЙDrawBrush::setColor](ui-draw-brush.setcolor.md) - Встановити колір

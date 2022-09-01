@@ -24,7 +24,7 @@ pg_field_table(PgSql\Result $result, int $field, bool $oid_only = false): string
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `field`
 
@@ -42,7 +42,7 @@ pg_field_table(PgSql\Result $result, int $field, bool $oid_only = false): string
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -79,5 +79,5 @@ bool(false)
 
 ### Дивіться також
 
--   [пгfieldname()](function.pg-field-name.html) - Повертає найменування поля
--   [пгfieldtype()](function.pg-field-type.html) - Повертає ім'я типу заданого поля
+-   [пгfieldname()](function.pg-field-name.md) - Повертає найменування поля
+-   [пгfieldtype()](function.pg-field-type.md) - Повертає ім'я типу заданого поля

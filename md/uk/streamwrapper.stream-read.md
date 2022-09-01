@@ -18,7 +18,7 @@ streamWrapper::streamread — Читає з потоку
 public streamWrapper::stream_read(int $count): string|false
 ```
 
-Цей метод викликається у процесі виконання функцій [fread()](function.fread.html) і [fgets()](function.fgets.html)
+Цей метод викликається у процесі виконання функцій [fread()](function.fread.html) і [fgets()](function.fgets.md)
 
 > **Зауваження**
 > 
@@ -46,13 +46,13 @@ public streamWrapper::stream_read(int $count): string|false
 
 > **Зауваження**
 > 
-> [streamWrapper::streameof()](streamwrapper.stream-eof.html) викликається відразу після виклику **streamWrapper::streamread()**, щоб перевірити, чи кінець файлу EOF досягнуто. Якщо метод не реалізований, то вважається, що кінець EOF файлу досягнутий.
+> [streamWrapper::streameof()](streamwrapper.stream-eof.md) викликається відразу після виклику **streamWrapper::streamread()**, щоб перевірити, чи кінець файлу EOF досягнуто. Якщо метод не реалізований, то вважається, що кінець EOF файлу досягнутий.
 
 **Увага**
 
-При читанні файлу повністю (наприклад, функцією [filegetcontents()](function.file-get-contents.html)), PHP буде викликати **streamWrapper::streamread()** і разом із ним [streamWrapper::streameof()](streamwrapper.stream-eof.html) у циклі, поки **streamWrapper::streamread()** повертає непустий рядок. Повертається з [streamWrapper::streameof()](streamwrapper.stream-eof.html) значення у своїй ігнорується.
+При читанні файлу повністю (наприклад, функцією [filegetcontents()](function.file-get-contents.html)), PHP буде викликати **streamWrapper::streamread()** і разом із ним [streamWrapper::streameof()](streamwrapper.stream-eof.html) у циклі, поки **streamWrapper::streamread()** повертає непустий рядок. Повертається з [streamWrapper::streameof()](streamwrapper.stream-eof.md) значення у своїй ігнорується.
 
 ### Дивіться також
 
--   [fread()](function.fread.html) - Бінарно-безпечне читання файлу
--   [fgets()](function.fgets.html) - Читає рядок із файлу
+-   [fread()](function.fread.md) - Бінарно-безпечне читання файлу
+-   [fgets()](function.fgets.md) - Читає рядок із файлу

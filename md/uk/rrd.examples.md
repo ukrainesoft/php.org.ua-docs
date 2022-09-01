@@ -10,5 +10,5 @@ title: Приклади
 
 ## Зміст
 
--   [Процедурний приклад PECL/rrd](rrd.examples-procedural.html)
--   [Об'єктно-орієнтований приклад PECL/rrd](rrd.examples-oop.html)
+-   [Процедурний приклад PECL/rrd](rrd.examples-procedural.md)
+-   [Об'єктно-орієнтований приклад PECL/rrd](rrd.examples-oop.md)

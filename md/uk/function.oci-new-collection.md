@@ -24,7 +24,7 @@ oci_new_collection(resource $connection, string $type_name, ?string $schema = nu
 
 `connection`
 
-Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [ociconnect()](function.oci-connect.html) або [ocipconnect()](function.oci-pconnect.html)
+Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [ociconnect()](function.oci-connect.html) або [ocipconnect()](function.oci-pconnect.md)
 
 `type_name`
 
@@ -36,7 +36,7 @@ oci_new_collection(resource $connection, string $type_name, ?string $schema = nu
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [OCICollection](class.ocicollection.html) або **`false`** у разі виникнення помилки.
+Повертає новий об'єкт [OCICollection](class.ocicollection.md) або **`false`** у разі виникнення помилки.
 
 ### список змін
 
@@ -48,8 +48,8 @@ oci_new_collection(resource $connection, string $type_name, ?string $schema = nu
 
 > **Зауваження**
 > 
-> Клас [OCICollection](class.ocicollection.html) називався **OCI-Collection** до PHP 8 та OCI8 3.0.0.
+> Клас [OCICollection](class.ocicollection.md) називався **OCI-Collection** до PHP 8 та OCI8 3.0.0.
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocinewcollection()](function.ocinewcollection.html). У PHP 5.0.0 і вище [ocinewcollection()](function.ocinewcollection.html) є аліасом \*\*ocinewcollection()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocinewcollection()](function.ocinewcollection.html). У PHP 5.0.0 і вище [ocinewcollection()](function.ocinewcollection.md) є аліасом \*\*ocinewcollection()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.

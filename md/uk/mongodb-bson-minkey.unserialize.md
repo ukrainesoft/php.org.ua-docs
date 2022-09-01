@@ -22,7 +22,7 @@ final public MongoDB\BSON\MinKey::unserialize(string $serialized): void
 
 `serialized`
 
-Серіалізований [MongoDBBSONMinKey](class.mongodb-bson-minkey.html)
+Серіалізований [MongoDBBSONMinKey](class.mongodb-bson-minkey.md)
 
 ### Значення, що повертаються
 
@@ -30,10 +30,10 @@ final public MongoDB\BSON\MinKey::unserialize(string $serialized): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONMinKey::serialize()](mongodb-bson-minkey.serialize.html) - Серіалізує MinKey
+-   [MongoDBBSONMinKey::serialize()](mongodb-bson-minkey.serialize.md) - Серіалізує MinKey
 -   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

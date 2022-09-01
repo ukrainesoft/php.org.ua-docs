@@ -18,7 +18,7 @@ title: псhyphenate
 ps_hyphenate(resource $psdoc, string $text): array|false
 ```
 
-Переносить це слово. Функція **псhyphenate()** оцінює дефіси значення (встановлюється [псsetvalue()](function.ps-set-value.html)) та дефіси параметра (встановлюється [псsetparameter()](function.ps-set-parameter.html)). Перед викликом цієї функції необхідно встановити дефіс.
+Переносить це слово. Функція **псhyphenate()** оцінює дефіси значення (встановлюється [псsetvalue()](function.ps-set-value.html)) та дефіси параметра (встановлюється [псsetparameter()](function.ps-set-parameter.md)). Перед викликом цієї функції необхідно встановити дефіс.
 
 Для роботи функції потрібно, щоб категорія мовного стандарту LCCTYPE було встановлено коректно. Це робиться при ініціалізації модуля з використанням змінних оточення. У системах Unix для додаткової інформації прочитайте довідкову сторінку мовних стандартів.
 
@@ -26,7 +26,7 @@ ps_hyphenate(resource $psdoc, string $text): array|false
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 `text`
 
@@ -63,5 +63,5 @@ Ko-ordi-na-ten-sys-tem
 
 ### Дивіться також
 
--   [псshowboxed()](function.ps-show-boxed.html) - Виводить текст у поле
+-   [псshowboxed()](function.ps-show-boxed.md) - Виводить текст у поле
 -   locale(1)

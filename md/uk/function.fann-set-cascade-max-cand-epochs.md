@@ -36,4 +36,4 @@ fann_set_cascade_max_cand_epochs(resource $ann, int $cascade_max_cand_epochs): b
 
 ### Дивіться також
 
--   [fanngetcascademaxcandepochs()](function.fann-get-cascade-max-cand-epochs.html) - Отримує найбільший період кандидата
+-   [fanngetcascademaxcandepochs()](function.fann-get-cascade-max-cand-epochs.md) - Отримує найбільший період кандидата

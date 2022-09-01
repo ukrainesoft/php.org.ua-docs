@@ -34,4 +34,4 @@ imap_utf7_encode(string $string): string
 
 ### Дивіться також
 
--   [imaputf7decode()](function.imap-utf7-decode.html) - Декодує рядок із модифікованого кодування UTF-7
+-   [imaputf7decode()](function.imap-utf7-decode.md) - Декодує рядок із модифікованого кодування UTF-7

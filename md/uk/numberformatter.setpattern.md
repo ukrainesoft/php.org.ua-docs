@@ -34,7 +34,7 @@ numfmt_set_pattern(NumberFormatter $formatter, string $pattern): bool
 
 `formatter`
 
-Об'єкт [NumberFormatter](class.numberformatter.html)
+Об'єкт [NumberFormatter](class.numberformatter.md)
 
 `pattern`
 
@@ -83,6 +83,6 @@ echo $fmt->format(1234567.891234567890000)."\n";
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmtcreate()](numberformatter.create.html) - Створює засіб форматування чисел
--   [numfmtgetpattern()](numberformatter.getpattern.html) - Отримує шаблон засобу форматування
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
+-   [numfmtcreate()](numberformatter.create.md) - Створює засіб форматування чисел
+-   [numfmtgetpattern()](numberformatter.getpattern.md) - Отримує шаблон засобу форматування

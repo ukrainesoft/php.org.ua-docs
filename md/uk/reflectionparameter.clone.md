@@ -39,4 +39,4 @@ private ReflectionParameter::__clone(): void
 ### Дивіться також
 
 -   **ReflectionParameter::toString()**
--   [Клонування об'єктів](language.oop5.cloning.html)
+-   [Клонування об'єктів](language.oop5.cloning.md)

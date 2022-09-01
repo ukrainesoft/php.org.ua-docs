@@ -30,5 +30,5 @@ public ReflectionProperty::getModifiers(): int
 
 ### Дивіться також
 
--   [ReflectionProperty::isPrivate()](reflectionproperty.isprivate.html) - Перевіряє, чи властивість закрита
--   [Reflection::getModifierNames()](reflection.getmodifiernames.html) - Отримання імен модифікаторів
+-   [ReflectionProperty::isPrivate()](reflectionproperty.isprivate.md) - Перевіряє, чи властивість закрита
+-   [Reflection::getModifierNames()](reflection.getmodifiernames.md) - Отримання імен модифікаторів

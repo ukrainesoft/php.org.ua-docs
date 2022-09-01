@@ -48,18 +48,18 @@ public unbind(string $dsn): ZMQSocket
 
 ## Зміст
 
--   [ZMQSocket::bind](zmqsocket.bind.html) - Прив'язка сокету
--   [ZMQSocket::connect](zmqsocket.connect.html) — Підключення до сокету
--   [ZMQSocket::construct](zmqsocket.construct.html) - Конструктор класу ZMQSocket
--   [ZMQSocket::disconnect](zmqsocket.disconnect.html) - Вимкнути сокет
--   [ZMQSocket::getEndpoints](zmqsocket.getendpoints.html) — Отримати список кінцевих точок
--   [ZMQSocket::getPersistentId](zmqsocket.getpersistentid.html) - Отримати ідентифікатор постійного сокету
--   [ZMQSocket::getSocketType](zmqsocket.getsockettype.html) — Отримати тип сокету
--   [ZMQSocket::getSockOpt](zmqsocket.getsockopt.html) - Отримати опцію сокету
--   [ZMQSocket::isPersistent](zmqsocket.ispersistent.html) — Визначити, чи є сокет постійним
--   [ZMQSocket::recv](zmqsocket.recv.html) - Отримати повідомлення
--   [ZMQSocket::recvMulti](zmqsocket.recvmulti.html) — Отримати повідомлення, яке складається з кількох частин
--   [ZMQSocket::send](zmqsocket.send.html) — Надіслати повідомлення
--   [ZMQSocket::sendmulti](zmqsocket.sendmulti.html) — Надіслати повідомлення, яке складається з кількох частин
--   [ZMQSocket::setSockOpt](zmqsocket.setsockopt.html) - Встановити опцію сокету
--   [ZMQSocket::unbind](zmqsocket.unbind.html) - Відв'язати сокет
+-   [ZMQSocket::bind](zmqsocket.bind.md) - Прив'язка сокету
+-   [ZMQSocket::connect](zmqsocket.connect.md) — Підключення до сокету
+-   [ZMQSocket::construct](zmqsocket.construct.md) - Конструктор класу ZMQSocket
+-   [ZMQSocket::disconnect](zmqsocket.disconnect.md) - Вимкнути сокет
+-   [ZMQSocket::getEndpoints](zmqsocket.getendpoints.md) — Отримати список кінцевих точок
+-   [ZMQSocket::getPersistentId](zmqsocket.getpersistentid.md) - Отримати ідентифікатор постійного сокету
+-   [ZMQSocket::getSocketType](zmqsocket.getsockettype.md) — Отримати тип сокету
+-   [ZMQSocket::getSockOpt](zmqsocket.getsockopt.md) - Отримати опцію сокету
+-   [ZMQSocket::isPersistent](zmqsocket.ispersistent.md) — Визначити, чи є сокет постійним
+-   [ZMQSocket::recv](zmqsocket.recv.md) - Отримати повідомлення
+-   [ZMQSocket::recvMulti](zmqsocket.recvmulti.md) — Отримати повідомлення, яке складається з кількох частин
+-   [ZMQSocket::send](zmqsocket.send.md) — Надіслати повідомлення
+-   [ZMQSocket::sendmulti](zmqsocket.sendmulti.md) — Надіслати повідомлення, яке складається з кількох частин
+-   [ZMQSocket::setSockOpt](zmqsocket.setsockopt.md) - Встановити опцію сокету
+-   [ZMQSocket::unbind](zmqsocket.unbind.md) - Відв'язати сокет

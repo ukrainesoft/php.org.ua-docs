@@ -32,11 +32,11 @@ public static XMLReader::XML(string $source, ?string $encoding = null, int $flag
 
 `flags`
 
-Бітова маска констант [LIBXML](libxml.constants.html)
+Бітова маска констант [LIBXML](libxml.constants.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. у разі статичного виклику або повертається [XMLReader](class.xmlreader.html) або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. у разі статичного виклику або повертається [XMLReader](class.xmlreader.md) або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
@@ -46,9 +46,9 @@ public static XMLReader::XML(string $source, ?string $encoding = null, int $flag
 
 | Версия | Описание |
 | --- | --- |
-|  | **XMLReader::XML()** тепер оголошено як статичний метод, але все ще може бути викликаний в екземплярі [XMLReader](class.xmlreader.html) |
+|  | **XMLReader::XML()** тепер оголошено як статичний метод, але все ще може бути викликаний в екземплярі [XMLReader](class.xmlreader.md) |
 
 ### Дивіться також
 
--   [XMLReader::open()](xmlreader.open.html) - Встановити URI, що містить XML-документ для аналізу
--   [XMLReader::close()](xmlreader.close.html) - Закрити введення XMLReader
+-   [XMLReader::open()](xmlreader.open.md) - Встановити URI, що містить XML-документ для аналізу
+-   [XMLReader::close()](xmlreader.close.md) - Закрити введення XMLReader

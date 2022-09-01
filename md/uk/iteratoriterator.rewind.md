@@ -30,5 +30,5 @@ public IteratorIterator::rewind(): void
 
 ### Дивіться також
 
--   [IteratorIterator::next()](iteratoriterator.next.html) - Переміщує ітератор до наступного елементу
--   [IteratorIterator::valid()](iteratoriterator.valid.html) - Перевіряє, чи є ітератор допустимим
+-   [IteratorIterator::next()](iteratoriterator.next.md) - Переміщує ітератор до наступного елементу
+-   [IteratorIterator::valid()](iteratoriterator.valid.md) - Перевіряє, чи є ітератор допустимим

@@ -24,14 +24,14 @@ final public MongoDB\Driver\WriteConcern::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
+Повертає серіалізовану виставу [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverWriteConcern::unserialize()](mongodb-driver-writeconcern.unserialize.html) - Десеріалізація WriteConcern
+-   [MongoDBDriverWriteConcern::unserialize()](mongodb-driver-writeconcern.unserialize.md) - Десеріалізація WriteConcern
 -   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

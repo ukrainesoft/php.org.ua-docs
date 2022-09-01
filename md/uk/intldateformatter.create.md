@@ -58,7 +58,7 @@ datefmt_create(    ?string $locale,    int $dateType,    int $timeTy
 
 `timezone`
 
-Ідентифікатор часового поясу. За замовчуванням (і той, який використовується, якщо вказано **`null`**) - це той, який повертається [datedefaulttimezoneget()](function.date-default-timezone-get.html) або, якщо застосовно, об'єкт [IntlCalendar](class.intlcalendar.md), вказаний у параметрі `calendar`. Цей ідентифікатор повинен бути коректним ідентифікатором у базі даних ICU або ідентифікатором, який представляє явне зміщення, наприклад, `GMT-05:30`
+Ідентифікатор часового поясу. За замовчуванням (і той, який використовується, якщо вказано **`null`**) - це той, який повертається [datedefaulttimezoneget()](function.date-default-timezone-get.md) або, якщо застосовно, об'єкт [IntlCalendar](class.intlcalendar.md), вказаний у параметрі `calendar`. Цей ідентифікатор повинен бути коректним ідентифікатором у базі даних ICU або ідентифікатором, який представляє явне зміщення, наприклад, `GMT-05:30`
 
 Також може бути об'єкт [IntlTimeZone](class.intltimezone.md) або [DateTimeZone](class.datetimezone.md)
 
@@ -85,7 +85,7 @@ datefmt_create(    ?string $locale,    int $dateType,    int $timeTy
 
 Неприпустимі ідентифікатори часового поясу (включаючи порожні рядки) більше не допускаються у параметрі `timezone`
 
-Якщо у параметрі `timezone` вказано значення **`null`**, ідентифікатор часового поясу, заданий [datedefaulttimezoneget()](function.date-default-timezone-get.html), використовуватиметься замість значення ICU за замовчуванням.
+Якщо у параметрі `timezone` вказано значення **`null`**, ідентифікатор часового поясу, заданий [datedefaulttimezoneget()](function.date-default-timezone-get.md), використовуватиметься замість значення ICU за замовчуванням.
 
 ### Приклади
 

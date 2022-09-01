@@ -49,8 +49,8 @@ public Swoole\Http\Server::start(): void
 
 ## Зміст
 
--   [SwooleWebSocketServer::exist](swoole-websocket-server.exist.html) — Перевіряє, чи є опис файлу
--   [SwooleWebSocketServer::on](swoole-websocket-server.on.html) - Зареєструвати callback-функцію події
--   [SwooleWebSocketServer::pack](swoole-websocket-server.pack.html) — Отримання пакета двійкових даних для надсилання в одній групі даних (frame)
--   [SwooleWebSocketServer::push](swoole-websocket-server.push.html) — Надіслати дані віддаленому клієнту
--   [SwooleWebSocketServer::unpack](swoole-websocket-server.unpack.html) - Розпакувати двійкові дані, отримані від клієнта
+-   [SwooleWebSocketServer::exist](swoole-websocket-server.exist.md) — Перевіряє, чи є опис файлу
+-   [SwooleWebSocketServer::on](swoole-websocket-server.on.md) - Зареєструвати callback-функцію події
+-   [SwooleWebSocketServer::pack](swoole-websocket-server.pack.md) — Отримання пакета двійкових даних для надсилання в одній групі даних (frame)
+-   [SwooleWebSocketServer::push](swoole-websocket-server.push.md) — Надіслати дані віддаленому клієнту
+-   [SwooleWebSocketServer::unpack](swoole-websocket-server.unpack.md) - Розпакувати двійкові дані, отримані від клієнта

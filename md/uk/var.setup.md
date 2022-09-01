@@ -10,7 +10,7 @@ title: Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](var.requirements.html)
--   [Установка](var.installation.html)
--   [Налаштування під час виконання](var.configuration.html)
--   [Типи ресурсів](var.resources.html)
+-   [Вимоги](var.requirements.md)
+-   [Установка](var.installation.md)
+-   [Налаштування під час виконання](var.configuration.md)
+-   [Типи ресурсів](var.resources.md)

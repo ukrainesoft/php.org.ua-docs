@@ -18,9 +18,9 @@ title: псshow
 ps_show(resource $psdoc, string $text): bool
 ```
 
-Виводить текст у поточній позиції. Положення тексту можна встановити, erfpfd координати X та Y у значеннях `textx` і `texty` за допомогою функції [псsetvalue()](function.ps-set-value.html). Функція видасть помилку, якщо шрифт не було встановлено раніше за допомогою [псsetfont()](function.ps-setfont.html)
+Виводить текст у поточній позиції. Положення тексту можна встановити, erfpfd координати X та Y у значеннях `textx` і `texty` за допомогою функції [псsetvalue()](function.ps-set-value.html). Функція видасть помилку, якщо шрифт не було встановлено раніше за допомогою [псsetfont()](function.ps-setfont.md)
 
-Функція **псshow()** оцінює наступні параметри та значення, встановлені [псsetparameter()](function.ps-set-parameter.html) і [псsetvalue()](function.ps-set-value.html)
+Функція **псshow()** оцінює наступні параметри та значення, встановлені [псsetparameter()](function.ps-set-parameter.html) і [псsetvalue()](function.ps-set-value.md)
 
 charspacing (значення)
 
@@ -50,7 +50,7 @@ strikeout (параметр)
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 `text`
 
@@ -62,6 +62,6 @@ strikeout (параметр)
 
 ### Дивіться також
 
--   [псcontinuetext()](function.ps-continue-text.html) - Продовжує текст у наступному рядку
--   [псshowxy()](function.ps-show-xy.html) - Виводить текст у заданій позиції
--   [псsetfont()](function.ps-setfont.html) - Встановлює шрифт, який використовуватиметься для наступного висновку
+-   [псcontinuetext()](function.ps-continue-text.md) - Продовжує текст у наступному рядку
+-   [псshowxy()](function.ps-show-xy.md) - Виводить текст у заданій позиції
+-   [псsetfont()](function.ps-setfont.md) - Встановлює шрифт, який використовуватиметься для наступного висновку

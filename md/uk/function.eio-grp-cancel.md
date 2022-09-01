@@ -24,7 +24,7 @@ eio_grp_cancel(resource $grp): void
 
 `grp`
 
-Вказівник на групу запитів, повернутий [eiogrp()](function.eio-grp.html)
+Вказівник на групу запитів, повернутий [eiogrp()](function.eio-grp.md)
 
 ### Значення, що повертаються
 
@@ -32,5 +32,5 @@ eio_grp_cancel(resource $grp): void
 
 ### Дивіться також
 
--   [eiogrp()](function.eio-grp.html) - Створює групу запитів
--   [eiogrpadd()](function.eio-grp-add.html) - Додає запит до групи запитів
+-   [eiogrp()](function.eio-grp.md) - Створює групу запитів
+-   [eiogrpadd()](function.eio-grp-add.md) - Додає запит до групи запитів

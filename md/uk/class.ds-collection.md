@@ -12,7 +12,7 @@ title: Інтерфейс Collection
 
 ## Вступ
 
-**Collection** - це базовий інтерфейс, який покриває функціональність загальну всім структур даних у цій бібліотеці. Він гарантує, що всі структури обхідні, лічильний і можуть бути перетворені на JSON за допомогою функції [jsonencode()](function.json-encode.html)
+**Collection** - це базовий інтерфейс, який покриває функціональність загальну всім структур даних у цій бібліотеці. Він гарантує, що всі структури обхідні, лічильний і можуть бути перетворені на JSON за допомогою функції [jsonencode()](function.json-encode.md)
 
 ## Огляд інтерфейсів
 
@@ -41,11 +41,11 @@ abstract public toArray(): array
 
 | Версия | Описание |
 | --- | --- |
-| PECL ds 1.4.0 | Клас **Collection** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html) замість [Traversable](class.traversable.html). (Ця зміна з'явилася у поліфілі у версії 1.4.1). |
+| PECL ds 1.4.0 | Клас **Collection** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html) замість [Traversable](class.traversable.md). (Ця зміна з'явилася у поліфілі у версії 1.4.1). |
 
 ## Зміст
 
--   [ДсCollection::clear](ds-collection.clear.html) - Видаляє всі значення
--   [ДсCollection::copy](ds-collection.copy.html) — Повертає копію колекції
--   [ДсCollection::isEmpty](ds-collection.isempty.html) — Перевіряє, чи колекція порожня.
--   [ДсCollection::toArray](ds-collection.toarray.html) — Перетворює колекцію на масив (array)
+-   [ДсCollection::clear](ds-collection.clear.md) - Видаляє всі значення
+-   [ДсCollection::copy](ds-collection.copy.md) — Повертає копію колекції
+-   [ДсCollection::isEmpty](ds-collection.isempty.md) — Перевіряє, чи колекція порожня.
+-   [ДсCollection::toArray](ds-collection.toarray.md) — Перетворює колекцію на масив (array)

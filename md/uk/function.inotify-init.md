@@ -18,7 +18,7 @@ inotifyinit - Ініціалізує екземпляр inotify
 inotify_init(): resource
 ```
 
-Ініціалізує екземпляр inotify для використання в [inotifyaddwatch()](function.inotify-add-watch.html)
+Ініціалізує екземпляр inotify для використання в [inotifyaddwatch()](function.inotify-add-watch.md)
 
 ### Список параметрів
 
@@ -89,8 +89,8 @@ array(
 
 ### Дивіться також
 
--   [inotifyaddwatch()](function.inotify-add-watch.html) - Додати спостерігача для екземпляра inotify
--   [inotifyрмwatch()](function.inotify-rm-watch.html) - Видалити спостерігача
--   [inotifyqueuelen()](function.inotify-queue-len.html) - Повертає кількість очікуваних подій у черзі
--   [inotifyread()](function.inotify-read.html) - Читає очікуючі повідомлення з черги
+-   [inotifyaddwatch()](function.inotify-add-watch.md) - Додати спостерігача для екземпляра inotify
+-   [inotifyрмwatch()](function.inotify-rm-watch.md) - Видалити спостерігача
+-   [inotifyqueuelen()](function.inotify-queue-len.md) - Повертає кількість очікуваних подій у черзі
+-   [inotifyread()](function.inotify-read.md) - Читає очікуючі повідомлення з черги
 -   [fclose()](function.fclose.md) - Закриває відкритий дескриптор файлу

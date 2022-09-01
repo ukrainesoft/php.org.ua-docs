@@ -75,9 +75,9 @@ controls
 
 ## Зміст
 
--   [ОЙControlsGroup::append](ui-controls-group.append.html) — Додати елемент керування
--   [ОЙControlsGroup::construct](ui-controls-group.construct.html) — Створити новий об'єкт Group
--   [ОЙControlsGroup::getTitle](ui-controls-group.gettitle.html) - Отримати заголовок
--   [ОЙControlsGroup::hasMargin](ui-controls-group.hasmargin.html) - Визначення поля
--   [ОЙControlsGroup::setMargin](ui-controls-group.setmargin.html) - Встановити поле
--   [ОЙControlsGroup::setTitle](ui-controls-group.settitle.html) - Встановити заголовок
+-   [ОЙControlsGroup::append](ui-controls-group.append.md) — Додати елемент керування
+-   [ОЙControlsGroup::construct](ui-controls-group.construct.md) — Створити новий об'єкт Group
+-   [ОЙControlsGroup::getTitle](ui-controls-group.gettitle.md) - Отримати заголовок
+-   [ОЙControlsGroup::hasMargin](ui-controls-group.hasmargin.md) - Визначення поля
+-   [ОЙControlsGroup::setMargin](ui-controls-group.setmargin.md) - Встановити поле
+-   [ОЙControlsGroup::setTitle](ui-controls-group.settitle.md) - Встановити заголовок

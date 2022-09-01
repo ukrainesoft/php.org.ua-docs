@@ -16,42 +16,42 @@ title: FTP
     -   [Типи ресурсів](ftp.resources.md)
 -   [Обумовлені константи](ftp.constants.md)
 -   [Приклади](ftp.examples.md)
-    -   [Простое использование](ftp.examples-basic.html)
+    -   [Простое использование](ftp.examples-basic.md)
 -   [Функції FTP](ref.ftp.md)
-    -   [ftpalloc](function.ftp-alloc.html) — Резервує місце на диску для файлу, що закачується
-    -   [ftpappend](function.ftp-append.html) — Додає вміст файлу на кінець іншого файлу на FTP-сервері
-    -   [ftpcdup](function.ftp-cdup.html) — Переходить до батьківської директорії
-    -   [ftpchdir](function.ftp-chdir.html) — Змінює поточну директорію на FTP-сервері
-    -   [ftpchmod](function.ftp-chmod.html) — Встановлює права доступу до файлу
-    -   [ftpclose](function.ftp-close.html) — Закриває з'єднання з сервером FTP
-    -   [ftpconnect](function.ftp-connect.html) — Встановлює з'єднання з сервером FTP
-    -   [ftpdelete](function.ftp-delete.html) — Видаляє файл на сервері FTP
-    -   [ftpexec](function.ftp-exec.html) — Запитує виконання команди на FTP-сервері
-    -   [ftpfget](function.ftp-fget.html) — Завантажує файл з FTP-сервера та зберігає його у попередньо відкритому файлі
-    -   [ftpfput](function.ftp-fput.html) — Завантажує попередньо відкритий файл на сервер FTP
-    -   [ftpgetoption](function.ftp-get-option.html) — Отримує поточні параметри FTP-з'єднання.
-    -   [ftpget](function.ftp-get.html) — Завантажує файл із FTP-сервера
-    -   [ftplogin](function.ftp-login.html) — Виконує вхід на FTP-сервер
-    -   [ftpmdtm](function.ftp-mdtm.html) — Повертає час останньої модифікації файлу
-    -   [ftpmkdir](function.ftp-mkdir.html) - Створює директорію
-    -   [ftpmlsd](function.ftp-mlsd.html) — Повертає список файлів у заданій директорії
-    -   [ftpнбcontinue](function.ftp-nb-continue.html) - Продовжує асинхронну операцію
-    -   [ftpнбfget](function.ftp-nb-fget.html) — Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у попередньо відкритому файлі
-    -   [ftpнбfput](function.ftp-nb-fput.html) — Завантажує попередньо відкритий файл на сервер FTP в асинхронному режимі
-    -   [ftpнбget](function.ftp-nb-get.html) — Завантажує файл із FTP-сервера в асинхронному режимі та зберігає його у локальний файл
-    -   [ftpнбput](function.ftp-nb-put.html) — Завантажує файл на сервер FTP в асинхронному режимі
-    -   [ftpnlist](function.ftp-nlist.html) — Повертає список файлів у заданій директорії
-    -   [ftppasv](function.ftp-pasv.html) — Вмикає або вимикає пасивний режим
-    -   [ftpput](function.ftp-put.html) — Завантажує файл на сервер FTP
-    -   [ftppwd](function.ftp-pwd.html) — Повертає ім'я директорії
-    -   [ftpquit](function.ftp-quit.html) - Псевдонім ftpclose
-    -   [ftpraw](function.ftp-raw.html) — Надсилає довільну команду FTP-серверу
-    -   [ftprawlist](function.ftp-rawlist.html) — Повертає докладний список файлів у заданій директорії
-    -   [ftprename](function.ftp-rename.html) — Перейменовує файл або директорію на FTP-сервері
-    -   [ftprmdir](function.ftp-rmdir.html) - Видаляє директорію
-    -   [ftpsetoption](function.ftp-set-option.html) — Встановлює параметри з'єднання з сервером FTP
-    -   [ftpsite](function.ftp-site.html) — Надсилає серверу команду SITE
-    -   [ftpsize](function.ftp-size.html) — Повертає розмір вказаного файлу
-    -   [ftpsslconnect](function.ftp-ssl-connect.html) — Встановлює з'єднання з FTP-сервером через SSL
-    -   [ftpsystype](function.ftp-systype.html) — Повертає тип операційної системи FTP-сервера
--   [FTPConnection](class.ftp-connection.html) - Клас FTPConnection
+    -   [ftpalloc](function.ftp-alloc.md) — Резервує місце на диску для файлу, що закачується
+    -   [ftpappend](function.ftp-append.md) — Додає вміст файлу на кінець іншого файлу на FTP-сервері
+    -   [ftpcdup](function.ftp-cdup.md) — Переходить до батьківської директорії
+    -   [ftpchdir](function.ftp-chdir.md) — Змінює поточну директорію на FTP-сервері
+    -   [ftpchmod](function.ftp-chmod.md) — Встановлює права доступу до файлу
+    -   [ftpclose](function.ftp-close.md) — Закриває з'єднання з сервером FTP
+    -   [ftpconnect](function.ftp-connect.md) — Встановлює з'єднання з сервером FTP
+    -   [ftpdelete](function.ftp-delete.md) — Видаляє файл на сервері FTP
+    -   [ftpexec](function.ftp-exec.md) — Запитує виконання команди на FTP-сервері
+    -   [ftpfget](function.ftp-fget.md) — Завантажує файл з FTP-сервера та зберігає його у попередньо відкритому файлі
+    -   [ftpfput](function.ftp-fput.md) — Завантажує попередньо відкритий файл на сервер FTP
+    -   [ftpgetoption](function.ftp-get-option.md) — Отримує поточні параметри FTP-з'єднання.
+    -   [ftpget](function.ftp-get.md) — Завантажує файл із FTP-сервера
+    -   [ftplogin](function.ftp-login.md) — Виконує вхід на FTP-сервер
+    -   [ftpmdtm](function.ftp-mdtm.md) — Повертає час останньої модифікації файлу
+    -   [ftpmkdir](function.ftp-mkdir.md) - Створює директорію
+    -   [ftpmlsd](function.ftp-mlsd.md) — Повертає список файлів у заданій директорії
+    -   [ftpнбcontinue](function.ftp-nb-continue.md) - Продовжує асинхронну операцію
+    -   [ftpнбfget](function.ftp-nb-fget.md) — Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у попередньо відкритому файлі
+    -   [ftpнбfput](function.ftp-nb-fput.md) — Завантажує попередньо відкритий файл на сервер FTP в асинхронному режимі
+    -   [ftpнбget](function.ftp-nb-get.md) — Завантажує файл із FTP-сервера в асинхронному режимі та зберігає його у локальний файл
+    -   [ftpнбput](function.ftp-nb-put.md) — Завантажує файл на сервер FTP в асинхронному режимі
+    -   [ftpnlist](function.ftp-nlist.md) — Повертає список файлів у заданій директорії
+    -   [ftppasv](function.ftp-pasv.md) — Вмикає або вимикає пасивний режим
+    -   [ftpput](function.ftp-put.md) — Завантажує файл на сервер FTP
+    -   [ftppwd](function.ftp-pwd.md) — Повертає ім'я директорії
+    -   [ftpquit](function.ftp-quit.md) - Псевдонім ftpclose
+    -   [ftpraw](function.ftp-raw.md) — Надсилає довільну команду FTP-серверу
+    -   [ftprawlist](function.ftp-rawlist.md) — Повертає докладний список файлів у заданій директорії
+    -   [ftprename](function.ftp-rename.md) — Перейменовує файл або директорію на FTP-сервері
+    -   [ftprmdir](function.ftp-rmdir.md) - Видаляє директорію
+    -   [ftpsetoption](function.ftp-set-option.md) — Встановлює параметри з'єднання з сервером FTP
+    -   [ftpsite](function.ftp-site.md) — Надсилає серверу команду SITE
+    -   [ftpsize](function.ftp-size.md) — Повертає розмір вказаного файлу
+    -   [ftpsslconnect](function.ftp-ssl-connect.md) — Встановлює з'єднання з FTP-сервером через SSL
+    -   [ftpsystype](function.ftp-systype.md) — Повертає тип операційної системи FTP-сервера
+-   [FTPConnection](class.ftp-connection.md) - Клас FTPConnection

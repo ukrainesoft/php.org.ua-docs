@@ -47,11 +47,11 @@ public hasDefault(): bool
 
 ## Зміст
 
--   [ComponereValue::construct](componere-value.construct.html) - Конструктор класу Value
--   [ComponereValue::setPrivate](componere-value.setprivate.html) — Зміна доступності
--   [ComponereValue::setProtected](componere-value.setprotected.html) — Зміна доступності
--   [ComponereValue::setStatic](componere-value.setstatic.html) — Зміна доступності
--   [ComponereValue::isPrivate](componere-value.isprivate.html) — Визначення доступності
--   [ComponereValue::isProtected](componere-value.isprotected.html) — Визначення доступності
--   [ComponereValue::isStatic](componere-value.isstatic.html) — Визначення доступності
--   [ComponereValue::hasDefault](componere-value.hasdefault.html) - Взаємодія з класом Value
+-   [ComponereValue::construct](componere-value.construct.md) - Конструктор класу Value
+-   [ComponereValue::setPrivate](componere-value.setprivate.md) — Зміна доступності
+-   [ComponereValue::setProtected](componere-value.setprotected.md) — Зміна доступності
+-   [ComponereValue::setStatic](componere-value.setstatic.md) — Зміна доступності
+-   [ComponereValue::isPrivate](componere-value.isprivate.md) — Визначення доступності
+-   [ComponereValue::isProtected](componere-value.isprotected.md) — Визначення доступності
+-   [ComponereValue::isStatic](componere-value.isstatic.md) — Визначення доступності
+-   [ComponereValue::hasDefault](componere-value.hasdefault.md) - Взаємодія з класом Value

@@ -26,11 +26,11 @@ title: Модулі для роботи з базами даних окреми�
     -   [Встановлення та налаштування](ibase.setup.md)
     -   [Обумовлені константи](ibase.constants.md)
     -   [Функции Firebird/InterBase](ref.ibase.md)
--   [IBM DB2](book.ibm-db2.html) - IBM DB2, Cloudscape та Apache Derby
-    -   [Введение](intro.ibm-db2.html)
-    -   [Встановлення та налаштування](ibm-db2.setup.html)
-    -   [Обумовлені константи](ibm-db2.constants.html)
-    -   [Функції IBM DB2](ref.ibm-db2.html)
+-   [IBM DB2](book.ibm-db2.md) - IBM DB2, Cloudscape та Apache Derby
+    -   [Введение](intro.ibm-db2.md)
+    -   [Встановлення та налаштування](ibm-db2.setup.md)
+    -   [Обумовлені константи](ibm-db2.constants.md)
+    -   [Функції IBM DB2](ref.ibm-db2.md)
 -   [MongoDB](set.mongodb.md) - Драйвер MongoDB
     -   [Встановлення та налаштування](mongodb.setup.md)
     -   [Навчальні матеріали](mongodb.tutorial.md)
@@ -43,7 +43,7 @@ title: Модулі для роботи з базами даних окреми�
 -   [MySQL](set.mysqlinfo.md) — MySQL драйвери та плагіни
     -   [Огляд PHP драйверів MySQL](mysql.md)
     -   [MySQLi](book.mysqli.md) - Поліпшений модуль MySQL (MySQL Improved)
-    -   [Mysqlxdevapi](book.mysql-xdevapi.html)
+    -   [Mysqlxdevapi](book.mysql-xdevapi.md)
     -   [MySQL (Original)](book.mysql.md) - Оригінальне API MySQL
     -   [Mysqlnd](book.mysqlnd.md) - Вбудований драйвер MySQL
 -   [OCI8](book.oci8.md) - Oracle OCI8
@@ -66,9 +66,9 @@ title: Модулі для роботи з базами даних окреми�
     -   [Обумовлені константи](pgsql.constants.md)
     -   [Приклади](pgsql.examples.md)
     -   [Функции PostgreSQL](ref.pgsql.md)
-    -   [PgSqlConnection](class.pgsql-connection.html) - Клас PgSqlConnection
-    -   [PgSqlResult](class.pgsql-result.html) - Клас PgSqlResult
-    -   [PgSqlLob](class.pgsql-lob.html) - Клас PgSqlЛоб
+    -   [PgSqlConnection](class.pgsql-connection.md) - Клас PgSqlConnection
+    -   [PgSqlResult](class.pgsql-result.md) - Клас PgSqlResult
+    -   [PgSqlLob](class.pgsql-lob.md) - Клас PgSqlЛоб
 -   [SQLite3](book.sqlite3.md)
     -   [Введение](intro.sqlite3.md)
     -   [Встановлення та налаштування](sqlite3.setup.md)

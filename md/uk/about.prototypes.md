@@ -14,7 +14,7 @@ title: Як читати визначення функції (прототип)
 > 
 > Хоча PHP і є слабо типізованою мовою, важливо мати базове уявлення про [типах](language.types.md)тому що вони відіграють велику роль в PHP.
 
-Визначення функцій показують нам якого типу значення вони [повертають](functions.returning-values.html). Для першого прикладу візьмемо визначення функції [strlen()](function.strlen.md)
+Визначення функцій показують нам якого типу значення вони [повертають](functions.returning-values.md). Для першого прикладу візьмемо визначення функції [strlen()](function.strlen.md)
 
 ```
 strlen
@@ -43,7 +43,7 @@ strlen ( string $string ) : int
 имя функции    ( тип параметра   имя параметра ) : тип, що повертається
 ```
 
-Багато функцій приймають кілька параметрів, наприклад, [інarray()](function.in-array.html). Її прототип виглядає так:
+Багато функцій приймають кілька параметрів, наприклад, [інarray()](function.in-array.md). Її прототип виглядає так:
 
 ```
 in_array ( mixed $needle, array $haystack , bool $strict = false ) : bool
@@ -60,7 +60,7 @@ preg_match ( string $pattern , string $subject , array &$matches = null,
 
 У цьому прикладі ми можемо використовувати третій опціональний параметр `&$matches`, який буде передано за посиланням.
 
-Є також функції з більш складною інформацією про версії PHP. Візьмемо для прикладу [htmlentitydecode()](function.html-entity-decode.html)
+Є також функції з більш складною інформацією про версії PHP. Візьмемо для прикладу [htmlentitydecode()](function.html-entity-decode.md)
 
 ```
 (PHP 4 >= 4.3.0, PHP 5, PHP 7)
